@@ -248,9 +248,9 @@ class _SpeakingTranscriptScreenState extends State<SpeakingTranscriptScreen> {
             child: Text(
               isDemo
                   ? (offline
-                      ? 'Sample transcript — scored offline (demo).'
+                      ? 'Sample transcript — estimated offline.'
                       : 'Sample transcript — live speech-to-text turns on when the AI server is connected.')
-                  : 'Scored offline (demo)',
+                  : 'Estimated offline (AI unavailable)',
               style: TextStyle(fontSize: 12, color: t.textMuted),
             ),
           ),

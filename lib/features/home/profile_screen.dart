@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/material.dart';
 
 import '../../app/data/demo.dart';
@@ -340,14 +339,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: 'Explanation language',
               trailingText: contentLang(FeedbackLanguage.current).native,
               onTap: () => showLanguageSheet(context),
-            ),
-            // Developer tool: only in debug builds, hidden in release.
-            if (kDebugMode)
-            _SettingRow(
-              icon: AppIcons.grid,
-              title: 'Screen gallery',
-              subtitle: 'All 75 designed screens',
-              onTap: () => context.push(Routes.gallery),
             ),
             _SettingRow(
               icon: AppIcons.doc,

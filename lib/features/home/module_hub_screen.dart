@@ -283,7 +283,6 @@ class _ModuleGroup extends StatelessWidget {
       padding: const EdgeInsets.all(10),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
-        spacing: 6,
         children: [
           InkWell(
             onTap: onToggle,
@@ -327,38 +326,49 @@ class _ModuleGroup extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Icon(
-                      expanded ? AppIcons.chevronUp : AppIcons.chevronDown,
-                      size: 20,
-                      color: t.text,
+                    AnimatedRotation(
+                      turns: expanded ? 0.5 : 0,
+                      duration: const Duration(milliseconds: 300),
+                      curve: Curves.easeOutCubic,
+                      child: Icon(AppIcons.chevronDown, size: 20, color: t.text),
                     ),
                   ],
                 ),
               ),
             ),
           ),
-          if (expanded)
-            Container(
-              padding: const EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(18),
-                color: t.isNight ? t.surfaceAlt2 : null,
-                gradient: t.isNight
-                    ? null
-                    : const LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [Color(0xFFF0EEFC), Color(0xFFFBEAF0)],
+          // Opens / closes smoothly instead of jumping.
+          AnimatedSize(
+            duration: const Duration(milliseconds: 300),
+            curve: Curves.easeOutCubic,
+            alignment: Alignment.topCenter,
+            child: !expanded
+                ? const SizedBox(width: double.infinity)
+                : Padding(
+                    padding: const EdgeInsets.only(top: 6),
+                    child: Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(18),
+                        color: t.isNight ? t.surfaceAlt2 : null,
+                        gradient: t.isNight
+                            ? null
+                            : const LinearGradient(
+                                begin: Alignment.topCenter,
+                                end: Alignment.bottomCenter,
+                                colors: [Color(0xFFF0EEFC), Color(0xFFFBEAF0)],
+                              ),
                       ),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                spacing: 4,
-                children: [
-                  for (final it in items) _SubItem(item: it),
-                ],
-              ),
-            ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        spacing: 4,
+                        children: [
+                          for (final it in items) _SubItem(item: it),
+                        ],
+                      ),
+                    ),
+                  ),
+          ),
         ],
       ),
     );

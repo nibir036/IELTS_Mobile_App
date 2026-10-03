@@ -102,6 +102,13 @@ class _MockTransitionScreenState extends State<MockTransitionScreen> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
+              IconBox(
+                icon: AppIcons.close,
+                tooltip: 'Exit test',
+                iconSize: 18,
+                onTap: () => confirmMockExit(context),
+              ),
+              const SizedBox(width: 10),
               Flexible(
                 flex: 3,
                 child: FittedBox(

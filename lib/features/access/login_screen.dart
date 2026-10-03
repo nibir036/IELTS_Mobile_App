@@ -4,6 +4,7 @@ import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
+import '../../app/services/config.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/kit.dart';
 import '../home/language_sheet.dart';
@@ -237,7 +238,8 @@ class _LoginScreenState extends State<LoginScreen> {
           enabled: _canSubmit,
           onTap: _submit,
         ),
-        _DemoAccountCard(onTap: _fillDemo),
+        // Offline builds only: the live server has no demo account.
+        if (!AppConfig.hasApi) _DemoAccountCard(onTap: _fillDemo),
         Row(
           spacing: 12,
           children: [

@@ -56,7 +56,14 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
       children: [
         // Title + search
         Row(
+          spacing: 10,
           children: [
+            IconBox(
+              icon: AppIcons.back,
+              tooltip: 'Back',
+              iconSize: 18,
+              onTap: () => context.back(),
+            ),
             const Expanded(
               child: Text(
                 'Resources',

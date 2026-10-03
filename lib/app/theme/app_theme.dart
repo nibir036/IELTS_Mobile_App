@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart' show CupertinoPageTransitionsBuilder;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -57,6 +58,17 @@ class AppTheme {
       extensions: <ThemeExtension<dynamic>>[t],
       // InkRipple: InkSparkle's shader is heavy on budget GPUs.
       splashFactory: InkRipple.splashFactory,
+      // Pushed screens fade + slide in; iOS keeps its swipe-back gesture.
+      pageTransitionsTheme: const PageTransitionsTheme(
+        builders: <TargetPlatform, PageTransitionsBuilder>{
+          TargetPlatform.android: AppPageTransitionsBuilder(),
+          TargetPlatform.fuchsia: AppPageTransitionsBuilder(),
+          TargetPlatform.linux: AppPageTransitionsBuilder(),
+          TargetPlatform.windows: AppPageTransitionsBuilder(),
+          TargetPlatform.macOS: AppPageTransitionsBuilder(),
+          TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
+        },
+      ),
       highlightColor: Colors.transparent,
       dividerColor: t.divider,
       iconTheme: IconThemeData(color: t.text, size: 22),
@@ -81,6 +93,40 @@ class AppTheme {
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(top: Radius.circular(32)),
         ),
+      ),
+    );
+  }
+}
+
+/// Page transition for pushed screens (Android, web, desktop): the new page
+/// fades in while sliding from the right; the page underneath drifts left.
+/// iOS keeps the native swipe-back transition.
+class AppPageTransitionsBuilder extends PageTransitionsBuilder {
+  const AppPageTransitionsBuilder();
+
+  static final Animatable<Offset> _inSlide = Tween<Offset>(
+    begin: const Offset(0.12, 0),
+    end: Offset.zero,
+  ).chain(CurveTween(curve: Curves.easeOutCubic));
+  static final Animatable<double> _inFade = CurveTween(curve: const Interval(0, 0.7, curve: Curves.easeOut));
+  static final Animatable<Offset> _outSlide = Tween<Offset>(
+    begin: Offset.zero,
+    end: const Offset(-0.06, 0),
+  ).chain(CurveTween(curve: Curves.easeOutCubic));
+
+  @override
+  Widget buildTransitions<T>(
+    PageRoute<T> route,
+    BuildContext context,
+    Animation<double> animation,
+    Animation<double> secondaryAnimation,
+    Widget child,
+  ) {
+    return SlideTransition(
+      position: secondaryAnimation.drive(_outSlide),
+      child: FadeTransition(
+        opacity: animation.drive(_inFade),
+        child: SlideTransition(position: animation.drive(_inSlide), child: child),
       ),
     );
   }

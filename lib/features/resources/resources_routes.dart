@@ -4,6 +4,7 @@ import '../../app/routes.dart';
 import '../guides/module_guides.dart';
 import 'academic_words_screen.dart';
 import 'article_tips_screen.dart';
+import 'community_channels_screen.dart';
 import 'grammar_course_screen.dart';
 import 'irregular_verbs_screen.dart';
 import 'phrase_list_screen.dart';
@@ -18,7 +19,8 @@ import 'vocab_vault_screen.dart';
 final Map<String, WidgetBuilder> resourcesRoutes = <String, WidgetBuilder>{
   Routes.resourcesHub: (_) => const ResourcesHubScreen(),
   Routes.vocabVault: (_) => const VocabVaultScreen(),
-  Routes.speakingRoomChat: (_) => const SpeakingRoomChatScreen(),
+  Routes.speakingRoomChat: (_) =>
+      kCommunityLive ? const SpeakingRoomChatScreen() : const CommunitySoonScreen(),
   Routes.vocabQuiz: (_) => const VocabQuizScreen(),
   Routes.vocabQuizScore: (_) => const VocabQuizScoreScreen(),
   Routes.academicWords: (_) => const AcademicWordsScreen(),

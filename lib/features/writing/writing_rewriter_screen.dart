@@ -59,9 +59,12 @@ class _WritingRewriterScreenState extends State<WritingRewriterScreen> {
     Map<String, dynamic>? r;
     final target = WritingService.rewriteTarget(a);
     try {
+      // Task 1: include the visual's data so the rewrite uses the real figures.
+      final source = WritingContent.prompt(a.refId);
+      final data = source == null || WritingService.taskOf(a) != 1 ? '' : WritingContent.visualText(source);
       r = await AiService.rewriteWriting(
         task: WritingService.taskOf(a),
-        prompt: a.data.s('prompt'),
+        prompt: data.isEmpty ? a.data.s('prompt') : '${a.data.s('prompt')}\n\nData shown in the visual:\n$data',
         text: a.data.s('text'),
         targetBand: target,
       ).timeout(const Duration(seconds: 95));
@@ -170,7 +173,11 @@ class _WritingRewriterScreenState extends State<WritingRewriterScreen> {
         ? _LoadingColumn(label: WritingService.rewriteLabel(a))
         : _Column(
             label: improvedLabel,
-            band: '8.0',
+            // The band the improved text was written for: the rewrite's
+            // target, the content's Band 8 model, or none for plain fixes.
+            band: rw != null
+                ? Store.formatBand(WritingService.rewriteTarget(a))
+                : (model.isNotEmpty ? '8.0' : ''),
             improved: true,
             paragraphs: improvedParas,
           );
@@ -365,14 +372,15 @@ class _Column extends StatelessWidget {
                   style: TextStyle(fontSize: 12, color: labelColor),
                 ),
               ),
-              WPill(
-                band,
-                bg: pillBg,
-                fg: pillFg,
-                fontSize: 13,
-                weight: FontWeight.w500,
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-              ),
+              if (band.isNotEmpty)
+                WPill(
+                  band,
+                  bg: pillBg,
+                  fg: pillFg,
+                  fontSize: 13,
+                  weight: FontWeight.w500,
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                ),
             ],
           ),
           for (final p in paragraphs)

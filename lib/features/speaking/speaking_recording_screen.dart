@@ -185,7 +185,7 @@ class _SpeakingRecordingScreenState extends State<SpeakingRecordingScreen> {
     if (a == null) return;
     context.toast(
       AiService.available && clips.isNotEmpty && a.data.s('source') != 'ai'
-          ? offlineScoreReason('Recording saved · scored offline (demo)')
+          ? offlineScoreReason('Recording saved · estimated offline')
           : 'Recording saved',
     );
     context.replace(Routes.speakingTranscript, args: {'attemptId': a.id});

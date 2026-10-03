@@ -1,4 +1,5 @@
 import 'dart:math' as math;
+import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/material.dart';
 
@@ -43,6 +44,13 @@ class AppScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return StaggerIn(
+      children: children,
+      builder: (context, items) => _frame(context, items),
+    );
+  }
+
+  Widget _frame(BuildContext context, List<Widget> children) {
     final t = context.tk;
     final column = Column(
       crossAxisAlignment: crossAxisAlignment,
@@ -2267,5 +2275,248 @@ class EmptyState extends StatelessWidget {
     );
     if (!card) return Center(child: body);
     return AppCard(padding: EdgeInsets.zero, child: SizedBox(width: double.infinity, child: body));
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Motion
+// ─────────────────────────────────────────────────────────────────────────────
+
+/// Plays a one-time entrance for a screen's sections: each child fades in and
+/// rises 18px, one after another (first 8 staggered, the rest together).
+/// Used by [AppScreen]; wrap other lists with it the same way. Skipped when
+/// the system asks for reduced motion.
+class StaggerIn extends StatefulWidget {
+  const StaggerIn({super.key, required this.children, required this.builder});
+
+  final List<Widget> children;
+  final Widget Function(BuildContext context, List<Widget> children) builder;
+
+  @override
+  State<StaggerIn> createState() => _StaggerInState();
+}
+
+class _StaggerInState extends State<StaggerIn> with SingleTickerProviderStateMixin {
+  static const int _staggered = 8;
+  static const int _stepMs = 55;
+  static const int _itemMs = 420;
+  static const int _totalMs = _itemMs + _stepMs * (_staggered - 1);
+
+  late final AnimationController _c = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: _totalMs),
+  );
+  final List<Animation<double>> _curves = <Animation<double>>[];
+  bool _started = false;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_started) return;
+    _started = true;
+    if (MediaQuery.maybeDisableAnimationsOf(context) ?? false) {
+      _c.value = 1;
+    } else {
+      _c.forward();
+    }
+  }
+
+  Animation<double> _curve(int i) {
+    while (_curves.length <= i) {
+      final k = math.min(_curves.length, _staggered - 1);
+      final start = k * _stepMs / _totalMs;
+      final end = (k * _stepMs + _itemMs) / _totalMs;
+      _curves.add(_c.drive(CurveTween(curve: Interval(start, end, curve: Curves.easeOutCubic))));
+    }
+    return _curves[i];
+  }
+
+  @override
+  void dispose() {
+    _c.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final items = <Widget>[
+      for (var i = 0; i < widget.children.length; i++)
+        // Spacer / Expanded must stay direct children of the Column.
+        if (widget.children[i] is Spacer || widget.children[i] is Flexible)
+          widget.children[i]
+        else
+          _Rise(animation: _curve(i), child: widget.children[i]),
+    ];
+    return widget.builder(context, items);
+  }
+}
+
+class _Rise extends StatelessWidget {
+  const _Rise({required this.animation, required this.child});
+
+  final Animation<double> animation;
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    return FadeTransition(
+      opacity: animation,
+      child: AnimatedBuilder(
+        animation: animation,
+        builder: (context, child) => Transform.translate(
+          offset: Offset(0, 18 * (1 - animation.value)),
+          child: child,
+        ),
+        child: child,
+      ),
+    );
+  }
+}
+
+/// Fades + slides a widget in when it first appears ([delay] lets several
+/// line up). For cards that pop up after a load or a state change.
+class FadeIn extends StatefulWidget {
+  const FadeIn({
+    super.key,
+    required this.child,
+    this.delay = Duration.zero,
+    this.offset = const Offset(0, 14),
+    this.duration = const Duration(milliseconds: 380),
+  });
+
+  final Widget child;
+  final Duration delay;
+  final Offset offset;
+  final Duration duration;
+
+  @override
+  State<FadeIn> createState() => _FadeInState();
+}
+
+class _FadeInState extends State<FadeIn> with SingleTickerProviderStateMixin {
+  late final AnimationController _c = AnimationController(vsync: this, duration: widget.duration);
+  late final Animation<double> _a = _c.drive(CurveTween(curve: Curves.easeOutCubic));
+  bool _started = false;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_started) return;
+    _started = true;
+    if (MediaQuery.maybeDisableAnimationsOf(context) ?? false) {
+      _c.value = 1;
+    } else if (widget.delay == Duration.zero) {
+      _c.forward();
+    } else {
+      Future<void>.delayed(widget.delay, () {
+        if (mounted) _c.forward();
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _c.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return FadeTransition(
+      opacity: _a,
+      child: AnimatedBuilder(
+        animation: _a,
+        builder: (context, child) => Transform.translate(
+          offset: widget.offset * (1 - _a.value),
+          child: child,
+        ),
+        child: widget.child,
+      ),
+    );
+  }
+}
+
+/// Blurs [child] behind a "Coming soon" card. The content underneath can't
+/// be tapped or read by screen readers. [onBack] adds a back button.
+class ComingSoonWall extends StatelessWidget {
+  const ComingSoonWall({
+    super.key,
+    required this.child,
+    required this.title,
+    required this.message,
+    this.icon = AppIcons.chat,
+    this.onBack,
+    this.bottomInset = 0,
+  });
+
+  final Widget child;
+  final String title;
+  final String message;
+  final IconData icon;
+  final VoidCallback? onBack;
+
+  /// Space kept clear at the bottom (e.g. the floating nav bar).
+  final double bottomInset;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    return Stack(
+      fit: StackFit.expand,
+      children: [
+        IgnorePointer(child: ExcludeSemantics(child: child)),
+        ClipRect(
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12),
+            child: ColoredBox(
+              color: t.bg.withValues(alpha: t.isNight ? 0.55 : 0.45),
+              child: SafeArea(
+                child: Padding(
+                  padding: EdgeInsets.fromLTRB(28, 0, 28, bottomInset),
+                  child: Center(
+                    child: FadeIn(
+                      child: AppCard(
+                        radius: 28,
+                        padding: const EdgeInsets.fromLTRB(22, 24, 22, 24),
+                        borderColor: t.border,
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          spacing: 12,
+                          children: [
+                            Container(
+                              width: 56,
+                              height: 56,
+                              decoration: BoxDecoration(color: t.primary, shape: BoxShape.circle),
+                              child: Icon(icon, size: 24, color: t.onPrimary),
+                            ),
+                            const Tag('Coming soon', tone: TagTone.accent),
+                            Text(
+                              title,
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w500, letterSpacing: -0.4),
+                            ),
+                            Text(
+                              message,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(fontSize: 14, height: 1.45, color: t.textMuted),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        if (onBack != null)
+          Positioned(
+            left: 20,
+            top: 12 + MediaQuery.paddingOf(context).top,
+            child: IconBox(icon: AppIcons.back, tooltip: 'Back', iconSize: 18, onTap: onBack),
+          ),
+      ],
+    );
   }
 }

@@ -265,7 +265,7 @@ class _DiagnosticResultScreenState extends State<DiagnosticResultScreen> {
             if (summary.attempts[s] != null) _ReviewCard(attempt: summary.attempts[s]!),
         if (offline)
           Text(
-            'Writing / speaking scored offline (demo).',
+            'Writing / speaking estimated offline — AI scoring was unavailable.',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 12, color: t.textMuted),
           ),

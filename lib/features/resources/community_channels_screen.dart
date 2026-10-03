@@ -10,6 +10,33 @@ import '../../app/widgets/kit.dart';
 import '../shell/main_shell.dart';
 import 'widgets.dart';
 
+/// Community rooms and direct chats aren't live yet: the tab and the room
+/// screen show a blurred "Coming soon" wall until this is true.
+const bool kCommunityLive = false;
+const String kCommunitySoonTitle = 'Community is on its way';
+const String kCommunitySoonMessage =
+    'Speaking rooms and chats with other IELTS students are coming in a future update.';
+
+/// Room screen stand-in while [kCommunityLive] is false (links from
+/// notifications or elsewhere land here).
+class CommunitySoonScreen extends StatelessWidget {
+  const CommunitySoonScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    return Scaffold(
+      backgroundColor: t.bg,
+      body: ComingSoonWall(
+        title: kCommunitySoonTitle,
+        message: kCommunitySoonMessage,
+        onBack: () => context.back(),
+        child: const SizedBox.expand(),
+      ),
+    );
+  }
+}
+
 /// H3 · Community Channels (bottom-nav tab 3). In-app rooms + direct chats.
 class CommunityChannelsScreen extends StatefulWidget {
   const CommunityChannelsScreen({super.key});
@@ -75,6 +102,17 @@ class _CommunityChannelsScreenState extends State<CommunityChannelsScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final content = _content(context);
+    if (kCommunityLive) return content;
+    return ComingSoonWall(
+      title: kCommunitySoonTitle,
+      message: kCommunitySoonMessage,
+      bottomInset: MainShell.navClearance - 40,
+      child: content,
+    );
+  }
+
+  Widget _content(BuildContext context) {
     final t = context.tk;
     final store = context.store;
     final c = Demo.section('resources').m('community');

@@ -285,7 +285,9 @@ export async function rewriteEssay(input: TaskInput & { targetBand: number }) {
     (input.language && input.language !== 'en' ? `\n\n${languageNote(input.language)}` : '');
   const user =
     `Rewrite this IELTS Writing Task ${input.task} answer to Band ${input.targetBand} standard. Keep the student's ` +
-    'ideas and position, fix errors, improve cohesion and vocabulary, keep a similar length. List up to 10 changes.\n\n' +
+    'ideas and position, fix errors, improve cohesion and vocabulary, keep a similar length. Write at that band — ' +
+    'not higher. For Task 1, use the figures exactly as given in the question data and correct any figure the ' +
+    'student reported wrongly; add a clear overview if it is missing. List up to 10 changes.\n\n' +
     `QUESTION:\n${input.prompt || '(not provided)'}\n\nANSWER:\n${input.text}`;
   const { data, model } = await writingJson({
     label: 'writing-rewrite',

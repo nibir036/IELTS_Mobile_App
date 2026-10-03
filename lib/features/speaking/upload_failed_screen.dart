@@ -99,9 +99,9 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
       }
     });
     if (out.audioMissing) {
-      context.toast('Recording no longer on this phone — scored offline (demo)');
+      context.toast('Recording no longer on this phone — estimated offline');
     } else if (a != null && a.data.s('source') != 'ai') {
-      context.toast(offlineScoreReason('Uploaded · scored offline (demo)'));
+      context.toast(offlineScoreReason('Uploaded · estimated offline'));
     } else {
       context.toast('Upload complete');
     }

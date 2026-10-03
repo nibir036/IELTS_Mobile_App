@@ -1,7 +1,6 @@
 import 'package:flutter/gestures.dart' show PointerDeviceKind;
 import 'package:flutter/material.dart';
 
-import '../../app/data/store.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../home/dashboard_screen.dart';
@@ -9,7 +8,6 @@ import '../home/module_hub_screen.dart';
 import '../home/profile_screen.dart';
 import '../mock/mock_library_screen.dart';
 import '../resources/community_channels_screen.dart';
-import '../resources/widgets.dart' show communityUnreadThreads;
 
 /// Bottom-nav shell: Home (B1) · Practice (B3) · Mock tests (G1) ·
 /// Community (H3) · Profile (B7). The floating pill nav matches the canvas.
@@ -79,7 +77,6 @@ class MainShellState extends State<MainShell> {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final unread = communityUnreadThreads(context.store);
     return Scaffold(
       backgroundColor: t.bg,
       body: Stack(
@@ -106,11 +103,7 @@ class MainShellState extends State<MainShell> {
             left: 20,
             right: 20,
             bottom: 22 + MediaQuery.of(context).padding.bottom * 0.5,
-            child: _NavBar(
-              index: _index,
-              onTap: select,
-              chatBadge: unread > 0 ? '$unread' : null,
-            ),
+            child: _NavBar(index: _index, onTap: select),
           ),
         ],
       ),
@@ -140,11 +133,10 @@ class _KeepTabState extends State<_KeepTab> with AutomaticKeepAliveClientMixin {
 }
 
 class _NavBar extends StatelessWidget {
-  const _NavBar({required this.index, required this.onTap, this.chatBadge});
+  const _NavBar({required this.index, required this.onTap});
 
   final int index;
   final ValueChanged<int> onTap;
-  final String? chatBadge;
 
   static const _items = <(IconData, String)>[
     (AppIcons.home, 'Home'),
@@ -206,29 +198,6 @@ class _NavBar extends StatelessWidget {
                             color: i == index ? t.onPrimary : t.textMuted,
                           ),
                         ),
-                        if (i == 3 && chatBadge != null)
-                          Positioned(
-                            top: 8,
-                            right: 6,
-                            child: Container(
-                              constraints: const BoxConstraints(minWidth: 18),
-                              height: 18,
-                              padding: const EdgeInsets.symmetric(horizontal: 4),
-                              alignment: Alignment.center,
-                              decoration: BoxDecoration(
-                                color: t.alert,
-                                borderRadius: BorderRadius.circular(9),
-                              ),
-                              child: Text(
-                                chatBadge!,
-                                style: TextStyle(
-                                  fontSize: 11,
-                                  fontWeight: FontWeight.w600,
-                                  color: t.isNight ? t.onAlert : const Color(0xFF151515),
-                                ),
-                              ),
-                            ),
-                          ),
                       ],
                     ),
                   ),

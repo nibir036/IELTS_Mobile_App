@@ -658,7 +658,7 @@ bool mockHasAiNotes(Map<String, dynamic> data) =>
     mockScoredOffline(data);
 
 /// AI summary text for Writing / Speaking (when present) plus the small
-/// "Scored offline (demo)" note.
+/// "Estimated offline (AI unavailable)" note.
 class MockAiNotes extends StatelessWidget {
   const MockAiNotes({super.key, required this.data});
 
@@ -675,7 +675,7 @@ class MockAiNotes extends StatelessWidget {
       if (speaking.isNotEmpty) ('Speaking', speaking),
     ];
     final note = Text(
-      'Scored offline (demo)',
+      'Estimated offline (AI unavailable)',
       style: TextStyle(fontSize: 11, color: t.textMuted),
     );
     if (rows.isEmpty) {

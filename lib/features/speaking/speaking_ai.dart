@@ -217,7 +217,7 @@ String offlineScoreReason(String fallback) {
   };
   final msg = AiService.lastError;
   if (shown.contains(AiService.lastErrorCode) && msg != null && msg.isNotEmpty) {
-    return '$msg · scored offline (demo)';
+    return '$msg · estimated offline';
   }
   return fallback;
 }
@@ -291,6 +291,11 @@ Attempt _save(
     if (eval['criteriaFeedback'] is Map) extra['criteriaFeedback'] = eval['criteriaFeedback'];
     final perPart = _stringsOf(eval['perPartFeedback']);
     if (perPart.isNotEmpty) extra['perPartFeedback'] = perPart;
+    // Full report details (D6): what went well, fluency patterns and the
+    // sounds to work on, each quoted from the answer.
+    if (eval['strengths'] is List) extra['aiStrengths'] = eval['strengths'];
+    if (eval['fluency'] is Map) extra['fluencyReport'] = eval['fluency'];
+    if (eval['pronunciation'] is Map) extra['pronunciationReport'] = eval['pronunciation'];
   }
   final a = buildSpeakingAttempt(
     kind: job.kind,
@@ -354,7 +359,11 @@ List<Map<String, dynamic>> _errorsOf(Map<String, dynamic> eval) {
       if (e is Map)
         <String, dynamic>{
           'original': '${e['original'] ?? ''}',
-          'suggestion': '${e['suggestion'] ?? ''}',
+          // The examiner sometimes "corrects" a phrase to itself.
+          'suggestion': '${e['suggestion'] ?? ''}'.trim().toLowerCase() ==
+                  '${e['original'] ?? ''}'.trim().toLowerCase()
+              ? ''
+              : '${e['suggestion'] ?? ''}',
           'type': '${e['type'] ?? ''}',
           'note': '${e['note'] ?? ''}',
         },

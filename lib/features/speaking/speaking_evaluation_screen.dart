@@ -45,7 +45,14 @@ class SpeakingEvaluationScreen extends StatelessWidget {
       final v = critMap.d(c.$1);
       if (v < minBand) minBand = v;
     }
-    final critNotes = a.data.m('criteriaFeedback');
+    // The server's full evaluation (synced in) fills gaps for answers saved
+    // before these details were stored locally.
+    final ev = a.data.m('evaluation');
+    Map<String, dynamic> pick(String key, String evKey) =>
+        a.data.m(key).isNotEmpty ? a.data.m(key) : ev.m(evKey);
+    List<Map<String, dynamic>> pickList(String key, String evKey) =>
+        a.data.l(key).isNotEmpty ? a.data.l(key) : ev.l(evKey);
+    final critNotes = pick('criteriaFeedback', 'criteriaFeedback');
     final criteria = <Map<String, dynamic>>[
       for (final c in kSpeakingCriteria)
         <String, dynamic>{
@@ -59,24 +66,26 @@ class SpeakingEvaluationScreen extends StatelessWidget {
     // Full AI report (speaking service): quoted strengths, mistakes, fluency
     // patterns and sounds to practise. Empty for demo-scored answers.
     final strengths = <Map<String, dynamic>>[
-      for (final s in a.data.l('aiStrengths'))
+      for (final s in pickList('aiStrengths', 'strengths'))
         if (s.s('quote').trim().isNotEmpty) s,
     ];
     final mistakes = <Map<String, dynamic>>[
       for (final e in a.data.l('errors'))
         if (e.s('original').trim().isNotEmpty) e,
     ];
-    final fluency = a.data.m('fluencyReport');
+    final fluency = pick('fluencyReport', 'fluency');
     final fluencyObs = <Map<String, dynamic>>[
       for (final o in fluency.l('observations'))
         if (o.s('quote').trim().isNotEmpty) o,
     ];
-    final pron = a.data.m('pronunciationReport');
+    final pron = pick('pronunciationReport', 'pronunciation');
     final sounds = <Map<String, dynamic>>[
       for (final s in pron.l('issues'))
         if (s.s('phoneme').trim().isNotEmpty) s,
     ];
-    final perPart = a.data.ls('perPartFeedback');
+    final perPart = a.data.ls('perPartFeedback').isNotEmpty
+        ? a.data.ls('perPartFeedback')
+        : ev.ls('perPartFeedback');
     final steps = a.data.ls('feedback');
     final summary = a.data.s('summary').isNotEmpty ? a.data.s('summary') : speakingSummary(band);
     double? previous;
@@ -226,7 +235,7 @@ class SpeakingEvaluationScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 4),
             child: Text(
-              'Scored offline (demo)',
+              'Estimated offline (AI unavailable)',
               style: TextStyle(fontSize: 12, color: t.textMuted),
             ),
           ),

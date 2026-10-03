@@ -52,28 +52,29 @@ class _SpeakingHubScreenState extends State<SpeakingHubScreen> {
       gap: 16,
       children: [
         Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Expanded(
-              child: Text(
-                'Speaking\nPractice',
-                style: TextStyle(
-                  fontSize: 50,
-                  fontWeight: FontWeight.w300,
-                  height: 1,
-                  letterSpacing: -1.5,
-                ),
-              ),
+            IconBox(
+              icon: AppIcons.back,
+              tooltip: 'Back',
+              iconSize: 18,
+              onTap: () => context.back(),
             ),
+            const Spacer(),
             IconBox(
               icon: AppIcons.waveform,
-              size: 64,
-              radius: 22,
-              iconSize: 22,
               tooltip: 'My recordings',
               onTap: () => context.push(Routes.myRecordings),
             ),
           ],
+        ),
+        const Text(
+          'Speaking\nPractice',
+          style: TextStyle(
+            fontSize: 50,
+            fontWeight: FontWeight.w300,
+            height: 1,
+            letterSpacing: -1.5,
+          ),
         ),
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,

@@ -512,7 +512,7 @@ class _SpeakingPart13ScreenState extends State<SpeakingPart13Screen> {
     final a = out.attempt;
     if (a == null) return;
     if (AiService.available && clips.isNotEmpty && a.data.s('source') != 'ai') {
-      context.toast(offlineScoreReason('Scored offline (demo)'));
+      context.toast(offlineScoreReason('Estimated offline (AI unavailable)'));
     }
     context.replace(Routes.speakingTranscript, args: {'attemptId': a.id});
   }

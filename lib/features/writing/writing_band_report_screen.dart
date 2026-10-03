@@ -286,8 +286,8 @@ class WritingBandReportScreen extends StatelessWidget {
           Center(
             child: Text(
               a.data.s('offlineReason').isNotEmpty
-                  ? '${a.data.s('offlineReason')}\nScored offline (demo)'
-                  : 'Scored offline (demo)',
+                  ? '${a.data.s('offlineReason')}\nEstimated offline (AI unavailable)'
+                  : 'Estimated offline (AI unavailable)',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 12, color: t.textMuted),
             ),

@@ -1,4 +1,6 @@
 import 'dart:async';
+import 'dart:math' as math;
+import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 
@@ -141,10 +143,69 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
   /// This session's last recording per word id (path).
   final Map<String, String> _myAudio = <String, String>{};
 
+  /// Waveform of this session's last recording per word id (bar heights).
+  final Map<String, List<double>> _myWave = <String, List<double>>{};
+
+  /// Live mic level bars while the button is held (newest last).
+  final List<double> _live = <double>[];
+
+  int get _barCount {
+    final n = _data.ld('nativeWave').length;
+    return n > 0 ? n : 18;
+  }
+
   @override
   void initState() {
     super.initState();
     _clip.addListener(_onClip);
+    _rec.level.addListener(_onLevel);
+  }
+
+  void _onLevel() {
+    if (!mounted || !_recActive) return;
+    setState(() {
+      _live.add(4 + _rec.level.value * 32);
+      if (_live.length > _barCount) _live.removeAt(0);
+    });
+  }
+
+  /// Bar heights (4–36) of a 16-bit PCM WAV: peak level per slice,
+  /// scaled to the loudest slice. Null when the bytes aren't WAV.
+  static List<double>? _waveOf(Uint8List bytes, int bars) {
+    // Find the "data" chunk (the header isn't always 44 bytes).
+    var at = 12;
+    var start = -1;
+    var length = 0;
+    while (at + 8 <= bytes.length) {
+      final id = String.fromCharCodes(bytes.sublist(at, at + 4));
+      final size = bytes[at + 4] | bytes[at + 5] << 8 | bytes[at + 6] << 16 | bytes[at + 7] << 24;
+      if (id == 'data') {
+        start = at + 8;
+        length = math.min(size, bytes.length - start);
+        break;
+      }
+      at += 8 + size + (size & 1);
+    }
+    if (start < 0 || length < bars * 4 || bytes.length < 12 ||
+        String.fromCharCodes(bytes.sublist(0, 4)) != 'RIFF') {
+      return null;
+    }
+    final data = ByteData.sublistView(bytes, start, start + length - (length & 1));
+    final samples = data.lengthInBytes ~/ 2;
+    final per = samples ~/ bars;
+    if (per == 0) return null;
+    final peaks = <double>[];
+    for (var b = 0; b < bars; b++) {
+      var peak = 0;
+      for (var i = b * per; i < (b + 1) * per; i += 4) {
+        final v = data.getInt16(i * 2, Endian.little).abs();
+        if (v > peak) peak = v;
+      }
+      peaks.add(peak.toDouble());
+    }
+    final top = peaks.reduce((a, b) => math.max(a, b));
+    if (top <= 0) return List<double>.filled(bars, 2);
+    return <double>[for (final p in peaks) 4 + 32 * p / top];
   }
 
   void _onClip() {
@@ -221,6 +282,7 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     _recTimer?.cancel();
     _clip.removeListener(_onClip);
     _clip.dispose();
+    _rec.level.removeListener(_onLevel);
     final rec = _rec;
     rec.cancel().whenComplete(rec.dispose);
     super.dispose();
@@ -282,6 +344,7 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     if (_playing == 'you') _clip.pause();
     setState(() {
       _holding = true;
+      _live.clear();
       _playing = null;
     });
     if (_simulated) return;
@@ -337,13 +400,15 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
       return;
     }
     _myAudio[id] = r.path;
+    final wave = _waveOf(bytes, _barCount);
+    if (wave != null) setState(() => _myWave[id] = wave);
     final res = await AiService.scorePronunciation(word: w.s('word'), bytes: bytes);
     if (!mounted) return;
     setState(() => _scoring = false);
     if (res == null || res['score'] is! num) {
       _ai.remove(id);
       _recordTry(word: w);
-      context.toast('Attempt scored · offline (demo)');
+      context.toast('Attempt saved · estimated offline');
       return;
     }
     final score = ((res['score'] as num).toDouble() / 100).clamp(0.0, 1.0).toDouble();
@@ -597,9 +662,14 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                   children: [
                     Text('You', style: TextStyle(fontSize: 12, color: t.textMuted)),
                     BarWave(
-                      heights: tried
-                          ? _data.ld('userWave')
-                          : List<double>.filled(_data.ld('userWave').length, 2),
+                      // Live mic level while held, then the real recording's
+                      // waveform; the sample wave only for simulated tries.
+                      heights: _holding && _live.isNotEmpty
+                          ? <double>[..._live, ...List<double>.filled(_barCount - _live.length, 2)]
+                          : _myWave[w.s('id')] ??
+                              (tried && ai == null
+                                  ? _data.ld('userWave')
+                                  : List<double>.filled(_barCount, 2)),
                       color: t.isNight ? const Color(0xFFBDBDBD) : t.text,
                       highlightFrom: demoMarks ? errFrom : -1,
                       highlightTo: demoMarks ? errTo : -1,
