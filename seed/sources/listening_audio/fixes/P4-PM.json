@@ -1,0 +1,209 @@
+{
+ "note": "The lecturer reads the labels aloud in order (changing room A … latrine J; furnace mouth A … inspection hatch J), so both diagrams are relabelled A-J in spoken order and redrawn where the talk needs it (furnace under the hot room on both; massage room next to the plunge pool; latrine beside the entrance).",
+ "groups": {
+  "g1": {
+   "type": "map",
+   "title": "Bathhouse floor plan (entrance on the west side)",
+   "instruction": "Write the correct letter, A–J, next to each question.",
+   "layout": "Layout: entrance on the west side; a dashed outline marks a space below floor level. A = just inside the west entrance · B = east of A · C = east of B · D = eastern end of the building · E = beneath the south end of D (below floor level) · F = open area north of A · G = planted area south of A · H = north of B, with a pool · I = east of H · J = small room beside the entrance, off A",
+   "layoutIntro": "entrance on the west side; a dashed outline marks a space below floor level.",
+   "options": [
+    {
+     "key": "A",
+     "text": "just inside the west entrance"
+    },
+    {
+     "key": "B",
+     "text": "east of A"
+    },
+    {
+     "key": "C",
+     "text": "east of B"
+    },
+    {
+     "key": "D",
+     "text": "eastern end of the building"
+    },
+    {
+     "key": "E",
+     "text": "beneath the south end of D (below floor level)"
+    },
+    {
+     "key": "F",
+     "text": "open area north of A"
+    },
+    {
+     "key": "G",
+     "text": "planted area south of A"
+    },
+    {
+     "key": "H",
+     "text": "north of B, with a pool"
+    },
+    {
+     "key": "I",
+     "text": "east of H"
+    },
+    {
+     "key": "J",
+     "text": "small room beside the entrance, off A"
+    }
+   ],
+   "image": "assets/listening/maps/P4-PM_map1.png",
+   "questions": [
+    {
+     "number": 1,
+     "text": "Changing room",
+     "answer": "A"
+    },
+    {
+     "number": 2,
+     "text": "Cold room",
+     "answer": "B"
+    },
+    {
+     "number": 3,
+     "text": "Warm room",
+     "answer": "C"
+    },
+    {
+     "number": 4,
+     "text": "Hot room",
+     "answer": "D"
+    },
+    {
+     "number": 5,
+     "text": "Furnace",
+     "answer": "E"
+    },
+    {
+     "number": 6,
+     "text": "Exercise yard",
+     "answer": "F"
+    },
+    {
+     "number": 7,
+     "text": "Garden",
+     "answer": "G"
+    },
+    {
+     "number": 8,
+     "text": "Cold plunge pool",
+     "answer": "H"
+    },
+    {
+     "number": 9,
+     "text": "Massage room",
+     "answer": "I"
+    },
+    {
+     "number": 10,
+     "text": "Latrine",
+     "answer": "J"
+    }
+   ]
+  },
+  "g2": {
+   "type": "map",
+   "title": "Hypocaust cross-section (furnace under the west end of the hot room)",
+   "instruction": "Write the correct letter, A–J, next to each question.",
+   "layout": "Layout: ground level runs along the bottom; the furnace sits under the west end of the hot room. A = opening at the foot of the left-hand wall, into the furnace · B = row of supports under the floor · C = horizontal layer across the bottom of the hot room · D = inside the right-hand wall · E = top right, above the right-hand wall · F = pit in the ground below the furnace · G = far left, above ground · H = underground corridor, bottom left · I = small opening in the left-hand wall, just above floor level · J = opening in the floor near the right-hand wall",
+   "layoutIntro": "ground level runs along the bottom; the furnace sits under the west end of the hot room.",
+   "options": [
+    {
+     "key": "A",
+     "text": "opening at the foot of the left-hand wall, into the furnace"
+    },
+    {
+     "key": "B",
+     "text": "row of supports under the floor"
+    },
+    {
+     "key": "C",
+     "text": "horizontal layer across the bottom of the hot room"
+    },
+    {
+     "key": "D",
+     "text": "inside the right-hand wall"
+    },
+    {
+     "key": "E",
+     "text": "top right, above the right-hand wall"
+    },
+    {
+     "key": "F",
+     "text": "pit in the ground below the furnace"
+    },
+    {
+     "key": "G",
+     "text": "far left, above ground"
+    },
+    {
+     "key": "H",
+     "text": "underground corridor, bottom left"
+    },
+    {
+     "key": "I",
+     "text": "small opening in the left-hand wall, just above floor level"
+    },
+    {
+     "key": "J",
+     "text": "opening in the floor near the right-hand wall"
+    }
+   ],
+   "image": "assets/listening/maps/P4-PM_map2.png",
+   "questions": [
+    {
+     "number": 11,
+     "text": "Furnace mouth",
+     "answer": "A"
+    },
+    {
+     "number": 12,
+     "text": "Brick pillars",
+     "answer": "B"
+    },
+    {
+     "number": 13,
+     "text": "Raised floor",
+     "answer": "C"
+    },
+    {
+     "number": 14,
+     "text": "Hollow wall tiles",
+     "answer": "D"
+    },
+    {
+     "number": 15,
+     "text": "Chimney",
+     "answer": "E"
+    },
+    {
+     "number": 16,
+     "text": "Ash pit",
+     "answer": "F"
+    },
+    {
+     "number": 17,
+     "text": "Fuel store",
+     "answer": "G"
+    },
+    {
+     "number": 18,
+     "text": "Service passage",
+     "answer": "H"
+    },
+    {
+     "number": 19,
+     "text": "Temperature vent",
+     "answer": "I"
+    },
+    {
+     "number": 20,
+     "text": "Inspection hatch",
+     "answer": "J"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,528 @@
+[
+ {
+  "id": "rb_tfng_09",
+  "lesson": {
+   "title": "Mengenali synonym dan antonym (Synonyms and antonyms)",
+   "text": "Di set Medium, statement jarang mengulang kata-kata passage. Anda harus mengenali bahwa rarely ≈ seldom, expanded ≈ grew, dan bahwa expanded adalah lawan kata dari shrank. Statement yang dibangun dari synonym kemungkinan besar TRUE. Statement yang dibangun dari antonym kemungkinan besar FALSE. Selalu pastikan dengan membaca seluruh kalimat, karena kata negatif (not, never, few) bisa membalik artinya.",
+   "example": "Contoh — Passage menyebut: \"Few customers ever used the service.\" Statement: \"The service was seldom used.\" → TRUE. Statement: \"The service was popular.\" → FALSE."
+  },
+  "explanations": {
+   "1": "Praktik ini sudah ada sebelum twentieth century, jadi kata \"unknown\" bertentangan dengan passage.",
+   "2": "\"Within weeks\" adalah kebalikan dari \"slow\".",
+   "3": "\"This effect\" merujuk pada usaha mendorong customer untuk kembali, jadi level-level membership itu memberi alasan tambahan untuk tetap bertahan.",
+   "4": "\"Would have used ... frequently anyway\" sama artinya dengan \"already frequent users\".",
+   "5": "Keanggotaan di beberapa program memang disebut, tetapi tidak ada informasi tentang berapa banyak uang yang dibelanjakan customer tersebut.",
+   "6": "\"Stock\" = \"sell\" — di sini keduanya bermakna sama.",
+   "7": "Kesadaran customer tidak pernah dibahas. Kekhawatiran yang disebut tidak memberi tahu kita apa yang diketahui oleh sebagian besar customer.",
+   "8": "\"Can change ... at any time\" bertentangan dengan \"unable to change\".",
+   "9": "\"Vary widely\" bertentangan dengan \"similar across all\"."
+  }
+ },
+ {
+  "id": "rb_tfng_10",
+  "lesson": {
+   "title": "Siapa melakukan apa? (Who did what?)",
+   "text": "Ketika sebuah passage melibatkan beberapa orang, statement bisa saja mengaitkan suatu tindakan dengan orang yang salah. Misalnya, passage mengatakan Scientist A menemukan X dan Scientist B mengembangkannya, sedangkan statement mengatakan B yang menemukan X. Itu FALSE, karena passage memberikan penemuan itu kepada orang lain.\n\nSaat membaca, buat catatan singkat: orang → tindakan. Perhatikan juga kata-kata yang menunjukkan jasa bersama (\"the team\", \"together\", \"shared\"): dalam hal ini, statement yang mengatakan satu orang melakukan sesuatu sendirian bisa jadi FALSE.",
+   "example": "Contoh — Passage menyebut: \"Lee designed the engine; Park built the first working model.\"\nStatement: \"Lee built the first working model.\" → FALSE."
+  },
+  "explanations": {
+   "1": "Ini adalah paraphrase langsung.",
+   "2": "\"Without damaging\" bertentangan dengan \"harmed\".",
+   "3": "Ini bertentangan dengan \"tested extensively\". Pasien manusia pertama dirawat oleh tim Oxford, bukan oleh Fleming.",
+   "4": "\"Came across\" = \"found\", \"paper\" = \"article\", dan \"recognised its potential\" = \"saw that ... could be valuable\".",
+   "5": "Tindakan ini dikaitkan dengan benar kepada Heatley.",
+   "6": "Semua tikus yang diobati selamat. Empat tikus yang mati adalah tikus yang tidak diobati, jadi statement ini mencampuradukkan kedua kelompok.",
+   "7": "Ini bertentangan dengan \"cured\".",
+   "8": "Passage tidak mengatakan siapa yang menemukannya. Kita tidak boleh menganggap itu Florey hanya karena ia berada di Amerika Serikat.",
+   "9": "Perasaannya tentang hal ini tidak pernah disebut."
+  }
+ },
+ {
+  "id": "rb_tfng_11",
+  "lesson": {
+   "title": "Proporsi dan jumlah perkiraan (Proportions and approximate quantities)",
+   "text": "Passage sering menyatakan jumlah dengan kata-kata, bukan angka pasti: a majority, roughly a third, the bulk of, a handful, nearly all. Statement kemudian memakai ungkapan lain untuk jumlah yang sama, atau untuk jumlah yang berbeda. Ubah keduanya menjadi angka kira-kira:\n\na majority > 50%\n\nroughly a third ≈ 33%\n\na handful = sangat sedikit\n\nJika angkanya cocok → TRUE. Jika jelas tidak cocok (a handful vs most) → FALSE. Jika passage sama sekali tidak menyebut jumlah → NOT GIVEN.",
+   "example": "Contoh — Passage menyebut: \"Nearly all the volunteers were students.\" Statement: \"Most volunteers were students.\" → TRUE, karena nearly all sudah mencakup most."
+  },
+  "explanations": {
+   "1": "\"Well over a million\" bertentangan dengan \"fewer than a million\".",
+   "2": "\"A few weeks\" bertentangan dengan \"several months\".",
+   "3": "\"Far too small\" = \"cannot ... alone\" — di sini keduanya bermakna sama.",
+   "4": "Ini adalah paraphrase langsung.",
+   "5": "Tidak ada informasi tentang perubahan biaya. Permintaan yang naik tidak berarti biayanya naik setiap tahun.",
+   "6": "\"Varied\" bertentangan dengan \"a single cause\".",
+   "7": "Ini sesuai dengan statement. Perhatikan bahwa passage menyajikan ini sebagai pendapat \"some researchers\", dan kata hedge \"may\" di statement cocok dengan itu.",
+   "8": "\"A number\" tidak menunjukkan proporsi apa pun. Kata ini tidak membenarkan maupun membantah \"most\", jadi ini adalah trap proporsi.",
+   "9": "Ini bertentangan dengan \"always ... larger\"."
+  }
+ },
+ {
+  "id": "rb_tfng_12",
+  "lesson": {
+   "title": "Statement yang hedged dan statement yang pasti (Hedged statements and certain statements)",
+   "text": "Passage tentang penelitian sering menyatakan ketidakpastian: may, might, is thought to, one theory suggests, it remains unclear. Statement yang menyajikan ide seperti itu sebagai fakta pasti (\"X causes Y\", \"engineers have proved\") tidak cocok. Biasanya jawabannya FALSE jika passage dengan jelas mengatakan bahwa hal itu belum pasti atau masih diperdebatkan, dan NOT GIVEN jika passage memang tidak membahasnya. Sebaliknya, statement yang juga hedged (\"X may cause Y\") bisa TRUE jika passage menyebut X sebagai salah satu kemungkinan penyebab.",
+   "example": "Contoh — Passage menyebut: \"It is still unclear why the birds left the island.\" Statement: \"Scientists have established why the birds left.\" → FALSE."
+  },
+  "explanations": {
+   "1": "\"In some cases\" = \"some\" — di sini keduanya bermakna sama.",
+   "2": "Passage memastikan bahwa ada pagoda yang hilang karena kebakaran, tetapi tidak menyebut jumlahnya. Kata \"Many\" tidak bisa dibenarkan maupun dibantah. Bandingkan dengan trap \"some / many / most\" di set-set sebelumnya.",
+   "3": "\"Rather than written calculations\" langsung bertentangan dengan statement.",
+   "4": "\"Without nails\" bertentangan dengan \"firmly nailed\".",
+   "5": "Ini adalah paraphrase langsung.",
+   "6": "Passage dengan jelas melaporkan adanya perbedaan pendapat, dan ini bertentangan dengan \"engineers agree\". Inilah pola hedged-versus-pasti dari pelajaran di atas.",
+   "7": "Ini sesuai dengan statement.",
+   "8": "Passage hanya menyebut uji coba pada model berskala kecil. Passage tidak mengatakan bahwa pagoda ukuran asli pernah diuji, dan juga tidak mengatakan bahwa pagoda itu tidak pernah diuji. Siswa yang memilih FALSE berasumsi bahwa uji coba yang dijelaskan adalah satu-satunya uji coba yang pernah dilakukan.",
+   "9": "\"Explicitly referred to ... as an influence\" = \"said they had been influenced\" — di sini keduanya bermakna sama."
+  }
+ },
+ {
+  "id": "rb_tfng_13",
+  "lesson": {
+   "title": "Superlatif dan peringkat (Superlatives and rankings)",
+   "text": "Kata-kata seperti largest, first, oldest, most powerful membuat klaim yang tepat. Passage harus mendukung peringkat yang persis sama:\n\n\"One of the largest\" ≠ \"the largest\", jadi statement yang mengklaim \"the largest\" biasanya NOT GIVEN.\n\nJika passage menyebut sesuatu yang lebih besar atau lebih awal, statement-nya FALSE.\n\nPeriksa apa yang diperingkat (hasil produksi atau ukuran fisik) dan kapan (\"was the largest until 2011\" tidak sama dengan \"is the largest\").",
+   "example": "Contoh — Passage menyebut: \"Opened in 1990, the dam was the country's biggest until a larger one was built in 2005.\" Statement: \"The dam is still the country's biggest.\" → FALSE."
+  },
+  "explanations": {
+   "1": "\"Calculated in advance\" = \"predicted ahead\" — di sini keduanya bermakna sama.",
+   "2": "Ini menggugurkan \"only ... going out\".",
+   "3": "\"Exceed\" = \"more than\" — di sini keduanya bermakna sama.",
+   "4": "Stasiun Rance memang yang terbesar selama sekitar empat puluh lima tahun, tetapi sekarang tidak lagi. Inilah trap \"was / is\".",
+   "5": "Tidak ada perbandingan perbaikan dengan pembangkit listrik lain.",
+   "6": "\"Badly polluted\" = \"water quality problems\" — di sini keduanya bermakna sama.",
+   "7": "\"Only\" bertentangan dengan \"both directions\".",
+   "8": "Biaya juga menjadi alasan, jadi \"entirely for environmental reasons\" terbantah.",
+   "9": "\"A smaller effect\" tetap berarti ada efek, dan masalah ini masih diteliti, jadi \"shown to have no effect\" terbantah."
+  }
+ },
+ {
+  "id": "rb_tfng_14",
+  "lesson": {
+   "title": "Generalisasi dan kelompok yang dijelaskan (Generalisations and the groups they describe)",
+   "text": "Passage bisa saja menjelaskan apa yang terjadi pada satu kelompok (pekerja pabrik, satu negara, satu perusahaan). Statement lalu menggeneralisasikannya ke semua orang, atau menerapkannya pada kelompok lain. Jika passage mengatakan hal itu hanya berlaku untuk satu kelompok, atau dengan jelas tidak berlaku untuk kelompok lain → FALSE. Jika passage tidak mengatakan apa pun tentang kelompok lain itu → NOT GIVEN.",
+   "example": "Contoh — Passage menyebut: \"Miners in the region were given free housing.\" Statement: \"All workers in the region received free housing.\" Passage tidak mengatakan apa pun tentang pekerja lain → NOT GIVEN."
+  },
+  "explanations": {
+   "1": "Ini bertentangan dengan \"several centuries\".",
+   "2": "\"Paid for the amount they produced\" = \"paid according to output\" — di sini keduanya bermakna sama.",
+   "3": "\"Disliked\" bertentangan dengan \"encouraged\".",
+   "4": "Passage menyebut satu kelompok tertentu, dan ini bertentangan dengan \"equally to all adult workers\". Pekerja lain hanya ikut mendapat manfaat jika majikan memutuskan untuk memperluas aturan itu.",
+   "5": "Alasan yang diberikan sesuai dengan statement.",
+   "6": "Ini bertentangan secara langsung.",
+   "7": "Passage melaporkan argumen Ford, bukan hasilnya. Apakah produktivitas benar-benar naik tidak disebutkan.",
+   "8": "Passage memberi rentang waktu yang luas untuk \"much of Europe\". Passage tidak mengatakan apakah semua negara menerapkan akhir pekan pada waktu yang sama atau pada waktu yang berbeda.",
+   "9": "Passage mengatakan \"many\", bukan \"all\", dan tidak menyebut hari apa lagi yang menjadi bagian akhir pekan. Statement ini melampaui informasi yang diberikan."
+  }
+ },
+ {
+  "id": "rb_tfng_15",
+  "lesson": {
+   "title": "TFNG sulit — implikasi dan cakupan yang tepat (Hard TFNG — implications and precise scope)",
+   "text": "Di level Hard:\n\nFALSE karena implikasi. Pertentangannya mungkin tidak muncul dalam satu kalimat yang mengatakan kebalikannya. Pertentangan itu bisa jelas muncul dari dua informasi. Misalnya: passage mengatakan sebuah bahasa tidak punya penutur asli selama berabad-abad, sedangkan statement mengatakan bahasa itu selalu dipakai di rumah. NOT GIVEN yang ketat. Statement tetap sangat dekat dengan topik dan kosakata passage, tetapi menambahkan satu unsur yang tidak didukung: sebab, perbandingan, motif, atau hasil.\n\nKata cakupan. Only, entirely, the main, never, all, completely adalah kata-kata yang perlu diperiksa lebih dulu. Sebelum memilih jawaban, ucapkan ulang satu klaim utama statement itu dalam beberapa kata, lalu uji hanya klaim tersebut.",
+   "example": "Contoh — Passage menyebut: \"The school opened with twelve pupils; within ten years it had over two hundred, though funding remained uncertain.\" Statement: \"The school grew because its funding was secure.\" Pertumbuhannya TRUE, tetapi sebab yang disebut bertentangan dengan \"funding remained uncertain\" → FALSE."
+  },
+  "explanations": {
+   "1": "\"Vary widely\" dan \"some suggest\" bertentangan dengan \"experts agree\". Di statement, satu perkiraan saja disajikan sebagai hal yang pasti.",
+   "2": "\"Punished\" = \"penalised\", dan \"in some cases\" = \"in some places\".",
+   "3": "Pertentangan ini muncul dari klaim statement tentang \"throughout its history\".",
+   "4": "Frasa \"prominent role\" dalam sebuah \"movement\" menyiratkan bahwa ada pihak lain yang terlibat, dan passage juga menyebut sekolah dan keluarga. Ini bertentangan dengan \"solely\", jadi jawabannya FALSE karena implikasi.",
+   "5": "Ini bertentangan dengan gagasan bahwa sebagian besar bahasa bisa dengan mudah mengikuti model tersebut.",
+   "6": "\"Largely because of\" = \"the main reason\" — di sini keduanya bermakna sama.",
+   "7": "\"Based on\" = \"modelled on\". Program Māori tersirat lebih dulu ada.",
+   "8": "Usia mereka disebut, tetapi pelatihan mereka tidak. Topiknya muncul, tetapi klaim yang tepat tidak terjawab.",
+   "9": "Ini langsung bertentangan dengan \"technology alone can ensure\"."
+  }
+ },
+ {
+  "id": "rb_tfng_16",
+  "lesson": {
+   "title": "Detail penelitian — siapa, berapa banyak, berapa lama, dibandingkan dengan apa (Study details — who, how many, how long, compared with what)",
+   "text": "Passage penelitian di level Hard berisi detail yang tepat tentang desain penelitian. Statement bisa saja mengubah salah satunya:\n\nsiapa yang diteliti (pasien dengan satu kondisi tertentu, bukan semua orang);\n\nberapa banyak orang yang ikut serta;\n\nberapa lama penelitian berlangsung;\n\napa yang diterima oleh kelompok pembanding.\n\nDetail yang diubah, padahal passage menyebutnya secara berbeda → FALSE. Detail yang tidak pernah disebut di passage → NOT GIVEN. Waspadai juga klaim yang mengubah \"reported feeling better\" menjadi \"was cured\", karena itu mengubah jenis hasilnya.",
+   "example": "Contoh — Passage menyebut: \"Over three weeks, patients with back pain who did the exercises reported less pain than a group that did not.\" Statement: \"The exercises cured back pain.\" → FALSE? Bukan: passage tidak mengatakan rasa sakitnya sembuh, dan juga tidak mengatakan tidak sembuh. Jawabannya NOT GIVEN, kecuali passage menambahkan sesuatu seperti \"no patient was fully free of pain\", yang akan membuatnya FALSE."
+  },
+  "explanations": {
+   "1": "Ini bertentangan dengan \"told\".",
+   "2": "\"Some ... nothing to do with\" bertentangan dengan \"all\".",
+   "3": "Ini cocok, termasuk kata hedge \"appear\".",
+   "4": "Percaya bahwa placebo adalah obat sungguhan = tertipu, dan \"most ... long assumed\" sudah mencakup \"many ... once believed\".",
+   "5": "Passage menyebut jumlahnya, dan jumlah itu bertentangan dengan \"several hundred\".",
+   "6": "Kelompok pembanding tidak menerima apa-apa, bukan pil yang berbeda.",
+   "7": "Ini cocok secara langsung.",
+   "8": "Tidak ada penelitian open-label tentang tumor yang dilaporkan. Poin umum di Paragraph B tidak menjawab apa efek placebo open-label, jadi klaim spesifik ini tidak dibenarkan maupun dibantah. Ini NOT GIVEN level Hard, karena ada informasi yang berkaitan di passage.",
+   "9": "\"A few\" = \"some\", dan \"none\" = \"no effect\".",
+   "10": "Ini bertentangan secara langsung."
+  }
+ },
+ {
+  "id": "rb_tfng_17",
+  "lesson": {
+   "title": "Kepercayaan umum vs versi revisi dari passage (Popular belief vs the passage's revised account)",
+   "text": "Beberapa passage level Hard menyajikan sebuah cerita populer, lalu versi revisinya berdasarkan penelitian yang lebih baru. Statement bisa menggambarkan cerita populer itu seolah-olah itulah yang diterima passage. Tentukan apa yang disajikan passage sebagai fakta, dan anggap cerita populer itu sebagai kepercayaan yang hanya dilaporkan oleh passage.\n\nStatement yang cocok dengan cerita populer, padahal passage mengatakan penelitian membantahnya → FALSE.\n\nStatement bahwa \"people believed X\", jika passage mengatakan X dulu dipercaya secara luas → TRUE, meskipun X itu sendiri salah.",
+   "example": "Contoh — Passage menyebut: \"It was long claimed that the castle was built in a single year; records now show construction lasted a decade.\" Statement: \"The castle was built in one year.\" → FALSE. Statement: \"People once thought the castle was built in one year.\" → TRUE."
+  },
+  "explanations": {
+   "1": "Statement ini membahas apa yang diklaim oleh cerita populer, bukan apakah klaim itu benar. Karena itu jawabannya TRUE, meskipun Paragraph E menolak klaim itu sendiri.",
+   "2": "Kembali ke arsip adalah hal yang dilakukan oleh sejarawan di kemudian hari, dan ini bertentangan dengan statement.",
+   "3": "\"Virus\" = \"disease\", dan perkembangbiakan yang lambat menjelaskan mengapa umbi itu langka.",
+   "4": "Bagian cerita tradisional ini dibenarkan.",
+   "5": "Kedai minum (tavern) disebut sebagai tempat kontrak disepakati, tetapi tidak ada yang dikatakan tentang biaya yang dipungut oleh pemiliknya. Topiknya muncul, tetapi klaim yang tepat tidak ada.",
+   "6": "Ini bertentangan dengan \"the full agreed price\".",
+   "7": "Kedua bagian statement ini dibantah.",
+   "8": "Tidak ada yang dikatakan tentang perdagangan atau kerugian para penulis itu sendiri.",
+   "9": "Ini langsung bertentangan dengan \"all ... agree\"."
+  }
+ },
+ {
+  "id": "rb_tfng_18",
+  "lesson": {
+   "title": "Kata-kata yang menunjukkan kekuatan bukti (Evidence strength words)",
+   "text": "Passage sains level Hard menilai bukti dengan tingkat yang tepat: demonstrated, confirmed, suggested, consistent with, no clear evidence, inconclusive. Cocokkan kekuatan statement dengan kekuatan yang ada di passage.\n\nStatement lebih kuat daripada passage, dan passage menunjukkan keraguan (\"remains uncertain\") → FALSE.\n\nStatement lebih kuat daripada passage, tetapi passage tidak membahas keraguan itu → NOT GIVEN.\n\nStatement sama kuat atau lebih lemah daripada passage → TRUE.",
+   "example": "Contoh — Passage menyebut: \"Early results are consistent with a small benefit, but further trials are needed.\" Statement: \"Trials have proved a large benefit.\" → FALSE. Statement: \"Early results suggest some benefit.\" → TRUE."
+  },
+  "explanations": {
+   "1": "Ini sesuai dengan statement.",
+   "2": "Statement membalik urutan kejadiannya.",
+   "3": "Ini adalah paraphrase langsung.",
+   "4": "Karier ilmuwan itu di kemudian hari tidak pernah disebut. Jangan menghubungkan dua paragraph tanpa evidence.",
+   "5": "Anda harus mengetahui siapa yang dimaksud dengan kata ganti \"them\" untuk memastikan kecocokannya.",
+   "6": "Ini bertentangan secara langsung.",
+   "7": "Passage menyebut ini \"direct observation\".",
+   "8": "Perkiraan kenaikan itu berlaku \"in suitable conditions\", yang hanya terjadi pada hari-hari tertentu. Ini bertentangan dengan \"every day\".",
+   "9": "Passage mengatakan masalah ini belum terjawab, dengan \"little evidence either way\", jadi \"has been shown\" terbantah. Inilah aturan kekuatan bukti dari pelajaran di atas. Jika passage sama sekali tidak menyebut pertanyaan itu, jawabannya adalah NOT GIVEN."
+  }
+ },
+ {
+  "id": "rb_tfng_19",
+  "lesson": {
+   "title": "Tanggal, rentang waktu, dan perkiraan (Dates, ranges and estimates)",
+   "text": "Passage level Hard sering memberikan tanggal yang kira-kira atau masih diperdebatkan (\"probably made between the second and first centuries BC\", \"estimates range from...\"). Statement yang menetapkan tanggal pasti, padahal passage membiarkannya terbuka, biasanya NOT GIVEN. Jawabannya FALSE hanya jika tanggal itu jelas berada di luar rentang yang diberikan passage. Bedakan juga kapan sebuah benda dibuat, kapan hilang, kapan ditemukan, dan kapan dipahami. Statement sering menukar hal-hal ini.",
+   "example": "Contoh — Passage menyebut: \"The ship sank sometime around 70 BC; the wreck was discovered in 1900.\" Statement: \"The ship sank in 1900.\" → FALSE (tanggal penemuan ditukar dengan tanggal tenggelamnya).\nStatement: \"The ship sank in 72 BC.\" → NOT GIVEN (mungkin saja, karena masih dalam \"around 70 BC\", tetapi tidak disebutkan)."
+  },
+  "explanations": {
+   "1": "Statement menukar tanggal penemuan dengan tanggal tenggelamnya kapal.",
+   "2": "Ini bertentangan dengan \"immediately recognised\".",
+   "3": "Ada perbedaan pendapat, dan ini bertentangan dengan \"all ... agreed\".",
+   "4": "Ini bertentangan secara langsung.",
+   "5": "\"Previously unreadable\" = \"had not been read before\" — di sini keduanya bermakna sama.",
+   "6": "Passage menyebut mekanisme yang diputar dengan tangan, dan ini tidak cocok dengan tenaga dari pemberat.",
+   "7": "Karena bagian-bagian itu hilang, bagian yang tersisa tidak mungkin \"clearly show\" hal ini.",
+   "8": "Tahun 87 BC berada di dalam rentang yang diberikan passage, jadi tidak terbantah. Tetapi tidak ada tahun pasti yang disebut, jadi juga tidak dibenarkan. Inilah aturan tanggal perkiraan dari pelajaran di atas.",
+   "9": "\"Modelled the heavens\" = \"represented the movements of the heavens\" — di sini keduanya bermakna sama."
+  }
+ },
+ {
+  "id": "rb_tfng_20",
+  "lesson": {
+   "title": "Menggabungkan semuanya (Combining everything)",
+   "text": "Set terakhir ini menggabungkan keterampilan utama TFNG: qualifier, detail penelitian, sebab, kekuatan bukti, dan \"was vs is\". Kerjakan setiap statement dengan checklist yang tetap:\n\n1. Apa satu klaim utamanya?\n\n2. Di mana klaim itu ada di passage?\n\n3. Apakah passage menjawab klaim yang persis ini?\n\n4. Ya, sama → TRUE.\n\n5. Ya, kebalikannya atau tidak cocok → FALSE.\n\n6. Tidak → NOT GIVEN.\n\nJangan mengubah jawaban hanya karena TRUE, FALSE, atau NOT GIVEN \"seems to have come up too often\" (sepertinya sudah terlalu sering muncul). Setiap set punya keseimbangannya sendiri."
+  },
+  "explanations": {
+   "1": "Ini cocok secara langsung.",
+   "2": "Ini bertentangan dengan \"exactly the same questions\".",
+   "3": "Ini bertentangan secara langsung.",
+   "4": "\"More than twice as likely\" sudah mencakup \"more likely\".",
+   "5": "Ini bertentangan dengan klaim bahwa ingatan palsu kurang detail.",
+   "6": "Ini langsung bertentangan dengan \"deliberately lying\".",
+   "7": "Ini kebalikan dari statement.",
+   "8": "Ini sesuai dengan statement.",
+   "9": "\"Many places\" tidak membenarkan dan tidak juga menggugurkan \"every country\". Passage tidak memberi tahu kita seberapa luas cakupannya.",
+   "10": "Anggapan sebelumnya justru kebalikannya, dan ini bertentangan dengan \"always believed\"."
+  }
+ },
+ {
+  "id": "rb_ynng_01",
+  "lesson": {
+   "title": "Mengenali posisi penulis sejak awal (Spotting the writer's position early)",
+   "text": "Dalam passage argumentatif, posisi utama penulis biasanya jelas di paragraph pertama dan terakhir. Paragraph di tengah memberikan alasan, menanggapi keberatan, dan menambahkan batasan. Tulis posisi penulis dalam lima kata di bagian atas passage, misalnya \"cities need more trees; plan carefully\". Banyak jawaban YES/NO langsung mengikuti posisi itu, tetapi periksa setiap batasan yang ditambahkan penulis.",
+   "example": "Contoh — Pembukaan: \"Cycling lanes are the best investment a city can make.\" Statement: \"The writer believes cycling lanes are a poor use of money.\" → NO."
+  },
+  "explanations": {
+   "1": "Penulis dengan jelas menolak pandangan ini.",
+   "2": "\"It seems to me\" menandai pandangan penulis sendiri, dan itu cocok dengan statement.",
+   "3": "Penulis menganggap pengurangan emisi lebih penting, dan ini bertentangan dengan \"most effective\".",
+   "4": "Penulis menyatakan kebalikannya.",
+   "5": "\"Deserve to be taken seriously\" = \"worth considering\" — di sini keduanya bermakna sama.",
+   "6": "\"Usually\" = \"most\" — di sini keduanya bermakna sama.",
+   "7": "Tidak ada pandangan yang diungkapkan tentang klaim ini.",
+   "8": "Ini cocok secara langsung."
+  }
+ },
+ {
+  "id": "rb_ynng_02",
+  "lesson": {
+   "title": "Pandangan yang dilaporkan vs pandangan penulis (Reported views vs the writer's view)",
+   "text": "Penulis sering menyajikan sebuah pendapat sebelum menanggapinya: \"Some parents argue that... This, however, overlooks...\". Kalimat pertama itu bukan pandangan penulis. Selalu baca terus sampai ke reaksi penulis. Kata-kata seperti however, yet, but, this overlooks, I disagree, there is some truth in this menunjukkan apakah penulis menolak, menerima, atau menerima sebagian pandangan yang dilaporkan itu.",
+   "example": "Contoh — Passage menyebut: \"Some claim tests are useless. There is some truth in this for very young children, but for older students tests are valuable.\" Statement: \"Tests are useless for all students.\" → NO."
+  },
+  "explanations": {
+   "1": "\"Does little good\" = \"of little benefit\" — di sini keduanya bermakna sama.",
+   "2": "\"Little further benefit\" bertentangan dengan \"large additional benefits\". Penulis menyajikan temuan ini sebagai bagian dari evidence yang mendasari pandangannya.",
+   "3": "Para pendukung memegang pandangan ini, tetapi penulis meragukannya, dan ini bertentangan dengan \"clearly succeeds\".",
+   "4": "Ini sesuai dengan statement.",
+   "5": "Ini bertentangan secara langsung.",
+   "6": "Ini sesuai dengan statement.",
+   "7": "Penulis tidak mengungkapkan pandangan apa pun tentang hal ini.",
+   "8": "Play termasuk dalam \"these activities\"."
+  }
+ },
+ {
+  "id": "rb_ynng_03",
+  "lesson": {
+   "title": "Konsesi atau mengakui poin lawan (\"Admittedly...\", \"Of course...\")",
+   "text": "Penulis membuat argumennya lebih meyakinkan dengan mengakui poin-poin yang tampaknya mendukung pihak lain: admittedly, of course, it is true that, I accept that, no doubt. Konsesi adalah pandangan penulis. Penulis benar-benar menerimanya, meskipun itu bukan argumen utamanya. Jadi jika penulis mengatakan \"Admittedly, typing is faster\", statement \"typing is faster than handwriting\" adalah YES, meskipun posisi penulis secara keseluruhan lebih mendukung tulisan tangan.",
+   "example": "Contoh — Passage menyebut: \"Of course, electric cars are expensive. Even so, I believe they are worth buying.\" Statement: \"Electric cars are costly.\" → YES."
+  },
+  "explanations": {
+   "1": "Ini bertentangan secara langsung.",
+   "2": "Ini adalah konsesi, dan tetap merupakan pandangan penulis.",
+   "3": "Ini bertentangan dengan \"required to use pens\".",
+   "4": "Kata hedge \"may\" di statement cocok dengan \"seems\".",
+   "5": "Ini bertentangan dengan \"conclusively settled\".",
+   "6": "Ini adalah pandangan yang dilaporkan, yang ditolak oleh penulis.",
+   "7": "Penulis tidak memberikan pandangan tentang mudah-tidaknya tulisan itu dibaca.",
+   "8": "Ini cocok secara langsung."
+  }
+ },
+ {
+  "id": "rb_ynng_04",
+  "lesson": {
+   "title": "Kekuatan pandangan penulis (Strength of the writer's view)",
+   "text": "Penulis tidak hanya setuju atau tidak setuju; mereka setuju sampai tingkat tertentu. Penulis yang mengatakan bahwa masuk gratis adalah \"generally the better policy\" tidak mengklaim bahwa \"all museums must be free in all circumstances\". Bandingkan kata-kata kekuatan di statement (always, all, must, never, completely) dengan kata-kata penulis sendiri (generally, usually, in most cases, can). Jika statement jelas lebih kuat daripada pandangan penulis, jawabannya biasanya NO.",
+   "example": "Contoh — Passage menyebut: \"Charging for plastic bags is usually a good idea.\" Statement: \"Charging for plastic bags is always right.\" → NO, karena penulis membuka kemungkinan adanya pengecualian."
+  },
+  "explanations": {
+   "1": "Ini adalah paraphrase langsung.",
+   "2": "Ini bertentangan dengan \"cannot discourage\".",
+   "3": "Ini bertentangan dengan \"always ... new types of visitors\".",
+   "4": "\"Not sufficient on its own\" bertentangan dengan \"alone is enough\".",
+   "5": "\"Too often underfunded\" = \"often lack sufficient funding\" — di sini keduanya bermakna sama.",
+   "6": "Ini bertentangan dengan \"never ... any exhibition\". Pandangan penulis tidak semutlak statement.",
+   "7": "Tidak ada perbandingan tentang seberapa sering mereka berkunjung.",
+   "8": "Ini sesuai dengan statement."
+  }
+ },
+ {
+  "id": "rb_ynng_05",
+  "lesson": {
+   "title": "Kalimat dengan \"Rather than\" dan \"not ... but\"",
+   "text": "Penulis sering menolak satu ide dan mengusulkan ide lain dalam kalimat yang sama: \"not X but Y\", \"Y rather than X\", \"instead of X, cities should Y\". Struktur ini memberi Anda dua jawaban sekaligus: statement yang mendukung X adalah NO, dan statement yang mendukung Y adalah YES. Baca kalimat seperti ini pelan-pelan, karena mudah sekali terbalik.",
+   "example": "Contoh — Passage menyebut: \"The answer is not to close the park but to manage its paths better.\"\nStatement: \"The park should be closed.\" → NO. Statement: \"Better path management is needed.\" → YES."
+  },
+  "explanations": {
+   "1": "Penulis menolak hal ini secara langsung.",
+   "2": "Ini adalah pola \"not X but Y\": Y adalah pandangan penulis.",
+   "3": "Ini adalah konsesi yang benar-benar diterima oleh penulis.",
+   "4": "Ini bertentangan dengan \"most effective\".",
+   "5": "Penulis mengatakan pajak bisa berhasil dengan syarat ini, tetapi tidak mengatakan bahwa pajak hanya bisa diterima dengan syarat itu. Apakah pajak bisa diterima dalam keadaan lain tidak disebutkan. Ini trap gaya level Medium yang ditaruh di sini untuk latihan.",
+   "6": "Tidak ada pandangan yang diungkapkan tentang pengeluaran.",
+   "7": "Ini cocok secara langsung.",
+   "8": "Ini bertentangan dengan \"will be enough\"."
+  }
+ },
+ {
+  "id": "rb_ynng_06",
+  "lesson": {
+   "title": "Prioritas dan peringkat dalam pendapat (Priorities and rankings in opinions)",
+   "text": "Penulis bisa saja menerima bahwa sesuatu itu baik, sambil berargumen bahwa hal lain lebih penting. Misalnya: \"Lower fares help, but reliability matters more.\" Statement bisa menguji peringkat ini. \"Price is the most important factor\" → NO. \"Lower fares can help\" → YES. Cari bahasa perbandingan: more important, above all, the main, secondary, the first priority.",
+   "example": "Contoh — Passage menyebut: \"Cheaper tickets are welcome, but the real priority is more frequent trains.\" Statement: \"Frequency matters more than price.\" → YES."
+  },
+  "explanations": {
+   "1": "Penulis setuju dengan tujuannya, tetapi tidak setuju dengan caranya.",
+   "2": "Ini sesuai dengan peringkat yang dibuat penulis.",
+   "3": "Ini bertentangan secara langsung.",
+   "4": "Penulis menyajikan evidence ini sebagai pendukung pandangannya. Kata \"Mainly\" dibenarkan oleh perbandingan \"rather than drivers\".",
+   "5": "Ini bertentangan secara langsung.",
+   "6": "Tidak ada pandangan yang diberikan tentang sumber dana.",
+   "7": "Ini adalah konsesi yang diterima oleh penulis.",
+   "8": "Tidak ada pandangan yang diungkapkan."
+  }
+ },
+ {
+  "id": "rb_ynng_07",
+  "lesson": {
+   "title": "Pendapat yang tersirat (Implied opinions)",
+   "text": "Di level Medium, penulis sering mengungkapkan pandangannya secara tidak langsung: lewat pilihan kata (\"so-called experts\", \"the understandable wish for certainty\"), lewat ironi, atau dengan menggambarkan suatu akibat sebagai merugikan atau menguntungkan. Anda harus menyimpulkan sikap penulis dari tanda-tanda ini. Tanyakan: Apakah bahasanya menunjukkan persetujuan, ketidaksetujuan, atau keraguan?\n\nSebuah pandangan bisa jelas meskipun tanpa kata \"I think\". Tetapi hati-hati jangan menafsirkan terlalu jauh: nada tulisan saja tidak menciptakan pandangan tentang klaim yang sama sekali tidak dibahas penulis.",
+   "example": "Contoh — Passage menyebut: \"The council's latest plan – its third in two years – promises, once again, to solve the parking problem.\" Statement: \"The writer doubts that the plan will succeed.\" → YES (terlihat dari \"third\", \"once again\", \"promises\")."
+  },
+  "explanations": {
+   "1": "Ini cocok secara langsung.",
+   "2": "\"Most damaging\" bertentangan dengan \"harmless\".",
+   "3": "Publik mungkin melihatnya sebagai ketidakmampuan, tetapi penulis tidak.",
+   "4": "Ini adalah konsesi yang diterima oleh penulis.",
+   "5": "\"In some cases slightly\" bertentangan dengan \"always increases\".",
+   "6": "Ini adalah struktur \"not X but Y\".",
+   "7": "\"Can be\" dan \"many people find ... difficult\" bertentangan dengan \"always easier\".",
+   "8": "Ini NOT GIVEN tentang topik yang dibahas di passage.",
+   "9": "\"Contribute to\" = \"share some responsibility\" — di sini keduanya bermakna sama."
+  }
+ },
+ {
+  "id": "rb_ynng_08",
+  "lesson": {
+   "title": "Pendapat bersyarat (Conditional opinions)",
+   "text": "Penulis bisa saja mendukung sesuatu hanya dengan syarat tertentu: \"Offsets can be useful if they are verified\", \"provided that...\", \"as long as...\", \"only when...\". Statement bisa: menghilangkan syaratnya (\"offsets are useful\") — biasanya NO jika penulis menekankan syarat itu, karena statement terlalu menggeneralisasi;\n\ntetap mempertahankan syaratnya — YES;\n\nmemasukkan syarat yang berbeda — sering NOT GIVEN.",
+   "example": "Contoh — Passage menyebut: \"Online courses work well, but only for highly motivated learners.\"\nStatement: \"Online courses work well for all learners.\" → NO."
+  },
+  "explanations": {
+   "1": "Ini cocok secara langsung.",
+   "2": "\"Direct money\" = \"channel funding\" — di sini keduanya bermakna sama.",
+   "3": "\"Some\" bertentangan dengan \"all\".",
+   "4": "Ini bertentangan secara langsung.",
+   "5": "Ini sesuai dengan statement.",
+   "6": "Keandalannya dibahas, tetapi biayanya tidak.",
+   "7": "Ini bertentangan secara langsung.",
+   "8": "Penulis skeptis terhadap beberapa klaim, tetapi tidak pernah mengusulkan pelarangan penjualan offset.",
+   "9": "Statement tetap mempertahankan syarat dari penulis, jadi cocok."
+  }
+ },
+ {
+  "id": "rb_ynng_09",
+  "lesson": {
+   "title": "Penulis yang menilai pandangan tokoh sejarah (Writers who evaluate historical figures' views)",
+   "text": "Beberapa passage menjelaskan posisi para pemikir di masa lalu, lalu menilainya. Statement biasanya menyangkut penilaian penulis, bukan apa yang dipercaya tokoh sejarah itu. Jika statement mengatakan \"Ruskin's view was too extreme\" dan penulis mengatakan Ruskin \"went too far\", jawabannya YES. Jika statement hanya mengulang pendapat Ruskin (\"restoration is a lie\"), Anda harus memeriksa apakah penulis setuju dengan pendapat itu.",
+   "example": "Contoh — Passage menyebut: \"Smith insisted that all ornament was waste. His argument, though influential, ignored the pleasure people take in decoration.\" Statement: \"All ornament is a waste.\" → NO (penulis mengkritik pandangan itu)."
+  },
+  "explanations": {
+   "1": "Penulis menyajikan ini sebagai fakta yang sudah diterima.",
+   "2": "Ini bertentangan dengan \"always easy\".",
+   "3": "\"Largely correct\" = \"broadly right\" — di sini keduanya bermakna sama.",
+   "4": "Ini adalah posisi ekstrem Ruskin, yang ditolak oleh penulis.",
+   "5": "Tidak ada perbandingan dengan bangunan yang dilestarikan.",
+   "6": "Ini bertentangan dengan \"straightforward\".",
+   "7": "Penulis melihat ada sedikit nilai, dan ini bertentangan dengan \"no value at all\".",
+   "8": "Ini adalah syarat dari penulis.",
+   "9": "Untuk menjawab ini, Anda harus mengetahui apa yang dimaksud dengan \"the second\"."
+  }
+ },
+ {
+  "id": "rb_ynng_10",
+  "lesson": {
+   "title": "Penulis yang setuju sebagian (Writers who partly agree)",
+   "text": "Banyak passage level Medium mengambil posisi \"yes, but\" (ya, tetapi): idenya berharga, tetapi sudah dilebih-lebihkan atau diterapkan dengan salah. Penulis seperti ini menghasilkan tiga jenis statement:\n\nide inti yang diterima penulis → YES;\n\nversi berlebihan yang ditolak penulis → NO;\n\ndetail yang tidak dinilai oleh penulis → NOT GIVEN.\n\nSaat membaca, buat dua daftar: apa yang diterima penulis dan apa yang ditolak penulis.",
+   "example": "Contoh — Passage menyebut: \"Mindfulness can reduce stress for some people, but claims that it cures anxiety disorders go far beyond the evidence.\" Statement: \"Mindfulness may help some people with stress\" → YES. \"Mindfulness cures anxiety disorders\" → NO."
+  },
+  "explanations": {
+   "1": "Ini cocok secara langsung.",
+   "2": "\"Deservedly\" menunjukkan persetujuan penulis.",
+   "3": "\"Unfortunately\" dan \"little more than\" menunjukkan ketidaksetujuan penulis.",
+   "4": "Dweck menyampaikan poin ini, dan penulis melaporkannya dengan nada setuju sebagai bagian dari kritik yang juga ia pegang (\"Unfortunately ...\").",
+   "5": "Ini bertentangan dengan \"large improvements for all\".",
+   "6": "Ini bertentangan secara langsung.",
+   "7": "Tidak ada pandangan yang diungkapkan.",
+   "8": "Ini bertentangan secara langsung.",
+   "9": "Tidak ada pandangan atau informasi tentang perbandingan ini."
+  }
+ },
+ {
+  "id": "rb_ynng_11",
+  "lesson": {
+   "title": "Prediksi dan tingkat kepastian (Predictions and certainty)",
+   "text": "Ketika penulis membahas masa depan, tingkat keyakinan mereka berbeda-beda: will certainly, is likely to, may, it is too early to say. Statement yang mengubah \"may\" dari penulis menjadi \"will\" biasanya NO jika penulis menekankan ketidakpastian. Jawabannya NOT GIVEN jika penulis sama sekali tidak membuat prediksi tentang hal itu.",
+   "example": "Contoh — Passage menyebut: \"It is possible that prices will fall next year, but nobody can be sure.\"\nStatement: \"Prices will definitely fall next year.\" → NO."
+  },
+  "explanations": {
+   "1": "\"Tended to grow\" = \"generally increased\" — di sini keduanya bermakna sama.",
+   "2": "Ini bertentangan secara langsung.",
+   "3": "Ini bertentangan dengan \"usually ... quickly\".",
+   "4": "Ini bertentangan dengan \"completely ruled out\", meskipun penulis skeptis terhadap prediksi yang dramatis.",
+   "5": "Ini cocok secara langsung.",
+   "6": "Penulis tidak membuat prediksi khusus tentang AI. Penulis mengungkapkan ketidakpastian, tetapi tidak memberi pandangan tentang hasil akhir ini.",
+   "7": "Ini adalah paraphrase langsung.",
+   "8": "Penulis menganggap basic income layak diteliti, bukan sebagai solusi terbaik. Nada yang hati-hati ini bertentangan dengan \"the best solution\".",
+   "9": "Tidak ada pandangan yang diungkapkan."
+  }
+ },
+ {
+  "id": "rb_ynng_12",
+  "lesson": {
+   "title": "Tanggapan terhadap kritik (Responses to criticisms)",
+   "text": "Passage opini sering mendaftar kritik terhadap sebuah kebijakan lalu menanggapi satu per satu. Tanggapan penulis bisa:\n\nmenolak kritik itu (\"this argument does not hold\"), jadi statement yang mengulang kritik itu → NO;\n\nmenerimanya (\"this is a genuine concern\") → YES;\n\nmenerimanya sebagian (\"there is something in this, but...\"). Di sini Anda harus mencari tahu bagian mana yang diterima penulis.\n\nBeri tanda pada setiap kritik di pinggir halaman dengan ✔, ✘, atau ½.",
+   "example": "Contoh — Passage menyebut: \"Critics say the tax hurts poorer families. There is something in this, but the health benefits for those families are also greatest.\" Statement: \"The tax has some negative effect on poorer families.\" → YES (diterima sebagian)."
+  },
+  "explanations": {
+   "1": "Ini bertentangan secara langsung.",
+   "2": "\"Most valuable\" = \"most important\", dan kata \"may\" tetap ada di statement.",
+   "3": "Ini adalah penerimaan sebagian, yang cocok dengan \"some validity\".",
+   "4": "Penulis menolak kritik tersebut.",
+   "5": "\"May\" dan \"mixed\" bertentangan dengan \"always\".",
+   "6": "Tidak ada pandangan tentang perluasan pajak itu.",
+   "7": "Ini cocok secara langsung.",
+   "8": "Penulis menerima bahwa membuktikannya memang sulit, tetapi menolak kesimpulannya.",
+   "9": "Tidak ada perbandingan yang dibuat."
+  }
+ },
+ {
+  "id": "rb_ynng_13",
+  "lesson": {
+   "title": "Penulis yang seimbang dan struktur \"on the one hand ... on the other\"",
+   "text": "Penulis yang seimbang menyajikan manfaat dan kerugian, dan bisa setuju dengan keduanya. Statement yang menyatakan manfaat bisa YES, dan statement yang menyatakan kerugian juga bisa YES. Yang menghasilkan NO adalah statement yang menyangkal salah satu sisi sepenuhnya (\"English has brought no benefits\") atau mendorong salah satu sisi ke titik ekstrem.",
+   "example": "Contoh — Passage menyebut: \"Tourism brings money to the island; on the other hand, it strains water supplies.\" Statement: \"Tourism benefits the island's economy\" → YES. \"Tourism strains water supplies\" → YES. \"Tourism has no disadvantages\" → NO."
+  },
+  "explanations": {
+   "1": "\"Too easily overlooked\" = \"underestimate\" — di sini keduanya bermakna sama.",
+   "2": "Ini bertentangan secara langsung.",
+   "3": "\"Did nothing to earn\" = \"unearned\" — di sini keduanya bermakna sama.",
+   "4": "Ini bertentangan dengan klaim itu, yang menurut penulis \"needs to be treated with care\".",
+   "5": "Ini cocok secara langsung.",
+   "6": "Ini bertentangan secara langsung.",
+   "7": "Tidak ada pandangan tentang belajar yang diwajibkan.",
+   "8": "Ini cocok secara langsung.",
+   "9": "Tidak ada pandangan yang diungkapkan tentang perbandingan ini."
+  }
+ },
+ {
+  "id": "rb_ynng_14",
+  "lesson": {
+   "title": "Contoh yang mendukung argumen penulis (Examples that support the writer's argument)",
+   "text": "Penulis memakai contoh dari sejarah untuk mendukung klaim mereka. Statement tentang sebuah contoh bisa menguji apakah Anda paham apa yang ingin ditunjukkan penulis dengan contoh itu. Jika penulis menggambarkan sebuah penemuan sebagai \"made by researchers with no practical aim in mind\" untuk mendukung penelitian yang didorong rasa ingin tahu, maka statement \"the researchers were trying to solve a practical problem\" → NO. Bedakan fakta dalam contoh itu dari argumen yang ditarik penulis dari fakta tersebut.",
+   "example": "Contoh — Passage menyebut: \"Penicillin was found by accident, which shows that unplanned discoveries matter.\" Statement: \"Unplanned discoveries can be important.\" → YES."
+  },
+  "explanations": {
+   "1": "\"Understandable\" bertentangan dengan \"difficult to understand\".",
+   "2": "Penulis memakai contoh ini untuk menunjukkan bahwa penerapannya tidak terduga sebelumnya.",
+   "3": "Ini adalah paraphrase langsung.",
+   "4": "Penulis menyebut ini \"a fair point\", sebuah konsesi yang ia terima.",
+   "5": "Ini bertentangan secara langsung.",
+   "6": "\"Exaggerate\" = \"overstate\", dan \"are encouraged to\" mendukung \"tend to\".",
+   "7": "Tidak ada pandangan yang diungkapkan.",
+   "8": "Ini bertentangan dengan \"free from any form of assessment\".",
+   "9": "Tidak ada pandangan yang diberikan."
+  }
+ },
+ {
+  "id": "rb_ynng_15",
+  "lesson": {
+   "title": "YNNG sulit — bahasa yang rumit: double negative, understatement, dan ironi",
+   "text": "Passage level Hard mengungkapkan pandangan lewat bahasa yang rumit:\n\nDouble negative: \"not without merit\" = ada kelebihannya; \"hardly unreasonable\" = masuk akal.\n\nUnderstatement: \"somewhat less than convincing\" = tidak meyakinkan.\n\nIroni: \"a remarkably convenient conclusion\" = kesimpulan yang mencurigakan.\n\nPandangan pihak lain yang diselipkan di tengah kalimat: \"what its critics call X, and what might more fairly be called Y\". Penulis lebih memilih Y.\n\nUbah setiap ungkapan seperti ini menjadi pernyataan sederhana tentang pandangan penulis sebelum menjawab.",
+   "example": "Contoh — Passage menyebut: \"The theory is not without its attractions, but it has proved hard to test.\"\nStatement: \"The theory has some appeal.\" → YES."
+  },
+  "explanations": {
+   "1": "\"Not entirely deserved\" bertentangan dengan \"completely justified\". Ini bergantung pada understatement.",
+   "2": "Penulis mendukung hal ini.",
+   "3": "\"Not unreasonably\" = masuk akal, jadi penulis menganggap para pengkritik ada benarnya. Ini bergantung pada double negative.",
+   "4": "Ini cocok dengan \"timing and form\".",
+   "5": "\"No more defensible than\" = \"as difficult to defend as\" — di sini keduanya bermakna sama.",
+   "6": "\"Hardly controversial\" = tidak kontroversial, dan ini bertentangan dengan \"highly controversial\".",
+   "7": "Tidak ada perbandingan yang diberikan.",
+   "8": "\"Tentative\" bertentangan dengan \"definite proof\".",
+   "9": "Penulis menentang keputusan yang diambil lebih dulu."
+  }
+ },
+ {
+  "id": "rb_ynng_16",
+  "lesson": {
+   "title": "Membedakan tingkat dukungan (Distinguishing degrees of support)",
+   "text": "Penulis di level Hard jarang hanya mendukung atau menentang. Mereka bisa:\n\nmendukung beberapa penggunaan (→ YES untuk penggunaan tersebut);\n\nmenolak klaim kuat yang dibuat oleh para pendukung fanatik (→ NO);\n\nmengangkat suatu kekhawatiran tanpa menyelesaikannya (→ statement yang mengklaim penulis sudah menyelesaikannya adalah NO; statement tentang aspek lain yang tidak dibahas adalah NOT GIVEN).\n\nPerhatikan kalimat yang menggabungkan langkah-langkah ini: \"Nudges have their place, though not the place their champions claim.\""
+  },
+  "explanations": {
+   "1": "\"Understandable\" mendukung \"easy to explain\", dan penulis kemudian memberikan alasan-alasannya.",
+   "2": "Ini adalah dukungan yang dinyatakan dengan jelas.",
+   "3": "Ini bertentangan secara langsung.",
+   "4": "Penulis menolak kesimpulan ini.",
+   "5": "Ini cocok dengan pandangan bersyarat penulis.",
+   "6": "Ini NOT GIVEN tentang topik yang dibahas di passage.",
+   "7": "Penulis menerima keberatan itu hanya untuk sebagian nudge, dan ini bertentangan dengan \"all\".",
+   "8": "Ini bertentangan secara langsung.",
+   "9": "\"Greatest contribution\" = \"main legacy\", dan kata \"may\" tetap ada di statement."
+  }
+ }
+]

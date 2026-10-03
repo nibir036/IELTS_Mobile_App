@@ -1,0 +1,442 @@
+[
+ {
+  "id": "rb_sentence_completion_01",
+  "lesson": {
+   "title": "Tebak jenis kata terlebih dahulu (Predict the word type)",
+   "text": "Sebelum melihat passage, tentukan dulu jenis kata apa yang mengisi setiap gap. \"is collected in early...\" memerlukan kata waktu, misalnya nama musim atau bulan. \"takes about ... litres of sap\" memerlukan angka. Kalau Anda sudah tahu jenis katanya, Anda bisa mengabaikan kata-kata di sekitarnya yang jenisnya salah."
+  },
+  "explanations": {
+   "1": "\"Seventy per cent\" = \"most\". Jawabannya hanya satu kata.",
+   "2": "Jawabannya dua kata. \"Indigenous peoples of the region\" akan melebihi word limit.",
+   "3": "Gap-nya memerlukan plural noun setelah \"warmer\".",
+   "4": "\"Networks of plastic tubing\" terdiri dari empat kata, jadi terlalu panjang.",
+   "5": "Ini cocok dengan \"small percentage\".",
+   "6": "\"Roughly\" = \"about\". Jangan tulis \"about\", karena kata itu sudah ada di sentence dalam bentuk \"Roughly\".",
+   "7": "Jangan tulis \"flavour\": passage memakai \"flavour\" untuk syrup awal musim (\"more delicate in flavour\") dan \"taste\" untuk syrup yang dibuat belakangan."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_02",
+  "lesson": {
+   "title": "Angka-angka yang berdekatan (Numbers close together)",
+   "text": "Passage tentang olahraga dan sejarah berisi banyak tanggal, jarak, dan angka yang letaknya berdekatan. Sentence di soal biasanya mem-paraphrase konteks dari angka yang benar: \"the distance was fixed\", \"women were first allowed\". Carilah angka yang konteksnya cocok, bukan sekadar angka pertama yang Anda lihat di paragraph itu."
+  },
+  "explanations": {
+   "1": "Jawabannya dua kata. \"Writings\" = \"texts\".",
+   "2": "\"Greek\" sudah ada di sentence (\"from Greece\").",
+   "3": "\"Annual\" sama artinya dengan \"yearly\".",
+   "4": "Jangan tertukar dengan 1921, tahun penetapan resminya. Ini adalah trap angka yang berdekatan.",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "Kata \"the year\" menuntut jawaban berupa tahun. Jangan tulis 1972, yang berkaitan dengan Boston, atau 1967.",
+   "7": "Satu kata sudah cukup, dan \"team of pacemakers\" tidak cocok dengan grammar sentence-nya."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_03",
+  "lesson": {
+   "title": "Hanya satu kata (ONE WORD ONLY)",
+   "text": "Kalau instruksinya ONE WORD ONLY, Anda harus menemukan satu kata kunci saja. Carilah terutama noun. Article (a, the) dan adjective harus dibuang, kecuali satu kata itu sendiri memang adjective yang dibutuhkan sentence."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage.",
+   "2": "\"Brood pouch\" adalah penutupnya, bukan tempat telur itu menempel, dan lagi pula terdiri dari dua kata.",
+   "3": "\"Stored\" sudah ada di sentence.",
+   "4": "Plural noun ini cocok dengan \"groups known as\".",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "Ejaan tanpa tanda aksen juga diterima.",
+   "7": "\"Waterproof\" sudah ada di sentence."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_04",
+  "lesson": {
+   "title": "Jawaban berupa adjective + noun (Adjective + noun answers)",
+   "text": "Kadang gap memerlukan phrase dua kata, misalnya adjective dengan noun (\"natural resistance\", \"steel reinforcement\"). Periksa apakah sentence sudah memuat adjective-nya. Kalau sudah, Anda hanya perlu noun-nya; kalau belum, mungkin Anda perlu kedua kata itu. Membaca seluruh sentence dalam hati membantu Anda agar tidak menulis kata yang sama dua kali."
+  },
+  "explanations": {
+   "1": "\"Type\" sama artinya dengan \"kind\".",
+   "2": "\"System\" sudah ada di sentence, dan dua kata masih sesuai dengan limit.",
+   "3": "Ini cocok langsung dengan passage.",
+   "4": "Ini cocok langsung dengan passage.",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "\"Lack\" sama artinya dengan \"without\".",
+   "7": "Ini cocok langsung dengan passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_05",
+  "lesson": {
+   "title": "Plural atau singular — mana yang dibutuhkan (Plural and singular)",
+   "text": "Periksa apakah sentence memerlukan noun singular atau plural: \"a ... called\" memerlukan singular; \"substances known as ...\" memerlukan plural. Salin kata itu dalam bentuk yang sama seperti di passage, dan pastikan kata itu cocok dengan grammar sentence."
+  },
+  "explanations": {
+   "1": "Sentence memerlukan adjective setelah \"described as\".",
+   "2": "Ini cocok langsung dengan passage.",
+   "3": "Bentuk plural cocok dengan \"pigments called\".",
+   "4": "\"Hidden\" = \"concealed\". \"Large quantities of chlorophyll\" akan melebihi limit.",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "\"Kind\" sama artinya dengan \"type\".",
+   "7": "\"Early\" sudah ada di sentence. \"frost\" maupun \"severe frost\" masih dalam limit, tetapi \"severe early frost\" tidak."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_06",
+  "lesson": {
+   "title": "Verb yang di-paraphrase (Paraphrased verbs)",
+   "text": "Sentence di soal sering memakai verb yang berbeda dari passage: \"was first tested\" untuk \"made its first crossing\", \"was used for\" untuk \"was employed in\". Temukan verb di sentence, pikirkan synonym-nya, lalu scan passage untuk mencari ide yang cocok. Kata jawabannya sendiri akan diambil langsung dari passage."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage.",
+   "2": "Ini cocok langsung dengan passage. \"Tin cans\" dipakai untuk membuat ruang udara, bukan untuk mengukur apa pun.",
+   "3": "Jawabannya dua kata. \"Aircraft\" saja juga diterima.",
+   "4": "Jangan tertukar dengan 1955 (paten) atau 1968 (layanan penumpang).",
+   "5": "\"Rubber\" sudah ada di sentence.",
+   "6": "1994 adalah tahun pembukaan Channel Tunnel — ini trap angka yang berdekatan.",
+   "7": "Ini cocok langsung dengan passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_07",
+  "lesson": {
+   "title": "Saat sentence menyatakan ulang seluruh ide (When the sentence rephrases a whole idea)",
+   "text": "Di level Medium, sentence di soal sering menyatakan ulang seluruh ide dengan kata-kata lain, sehingga Anda tidak bisa menemukannya hanya dengan mencocokkan keyword. Sebaliknya, tanyakan: \"Which part of the passage is this sentence about?\" Gunakan urutan soal dan topik setiap paragraph. Setelah menemukan sentence yang tepat, tentukan satu atau dua kata yang persis mengisi gap."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage, dan bagian lain dari sentence mem-paraphrase passage.",
+   "2": "Jawabannya berupa angka ditambah satu kata. \"Around\" = \"approximately\", yang sudah ada di sentence. Jangan tulis \"a million years\", karena itu merujuk pada es yang masih dicari oleh para peneliti.",
+   "3": "\"Small\" sudah ada di sentence.",
+   "4": "\"Fewer\" sama artinya dengan \"a lower proportion\".",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "\"Too thin to distinguish\" akan melebihi limit, tetapi \"too thin\" cocok dengan limit maupun grammar-nya.",
+   "7": "Ini cocok langsung dengan passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_08",
+  "lesson": {
+   "title": "Orang dan zat yang muncul berurutan (People and substances in close sequence)",
+   "text": "Kalau sebuah passage memperkenalkan beberapa orang dan zat secara berurutan dengan cepat, sebuah sentence bisa menggambarkan prestasi satu orang, sementara zat milik orang lain letaknya berdekatan. Sebelum menulis jawaban, pastikan orang, tanggal, dan zat di sentence semuanya cocok dengan sentence yang sama di passage."
+  },
+  "explanations": {
+   "1": "\"Most valued skill\" sama artinya dengan \"most important quality\".",
+   "2": "\"Suggestion\" sama artinya dengan \"proposal\".",
+   "3": "Ini cocok langsung dengan passage.",
+   "4": "Ini cocok dengan tanggalnya (1846) dan zatnya (ether). Demonstrasi nitrous oxide tahun 1845 gagal, jadi tidak cocok dengan sentence ini.",
+   "5": "\"Highly\" sudah ada di sentence, jadi satu kata sudah cukup.",
+   "6": "Ini cocok langsung dengan passage.",
+   "7": "John Snow yang memberikannya; zat itu diberikan kepada sang Ratu."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_09",
+  "lesson": {
+   "title": "Limit tiga kata (THREE WORDS limits)",
+   "text": "Dengan limit tiga kata, jawaban bisa berupa noun phrase pendek (\"the waggle run\", \"angle to the sun\"). Ambil hanya kata-kata yang diperlukan untuk melengkapi makna: article boleh tidak ditulis kalau sentence sudah memilikinya. Pastikan phrase Anda tidak mengulang kata yang sudah ada di sentence."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage.",
+   "2": "\"Roughly\" = \"about\", yang sudah ada di sentence.",
+   "3": "Jawabannya dua atau tiga kata. \"Key\" = \"essential\".",
+   "4": "\"Represents\" sudah ada di sentence dalam bentuk \"represented by\".",
+   "5": "Alternatifnya, \"energy they use\", secara jelas ditolak di passage.",
+   "6": "Ini cocok langsung dengan passage. \"Much\" sudah ada di sentence.",
+   "7": "\"Radar\" (Paragraph F) memang melacak lebah, tetapi tidak menguji arah tanpa makanan — karena itu ini adalah trap."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_10",
+  "lesson": {
+   "title": "Satu kata dan/atau satu angka (ONE WORD AND/OR A NUMBER)",
+   "text": "Dengan instruksi ONE WORD AND/OR A NUMBER, jawaban yang mungkin adalah satu kata (locks), satu angka (1869), atau satu angka dengan satu kata (193 kilometres). Phrase dua kata tanpa angka tidak diperbolehkan. Kalau yang dibutuhkan adalah ukuran, tulis satuannya hanya jika sentence belum memuatnya."
+  },
+  "explanations": {
+   "1": "\"Tip\" sama artinya dengan \"end\".",
+   "2": "Jangan tertukar dengan 1869 (pembukaan) atau 1850s (saat izin diperoleh).",
+   "3": "\"Similar\" sama artinya dengan \"roughly the same\".",
+   "4": "Jawabannya berupa angka ditambah satu kata. 164 kilometres adalah panjang aslinya — ini trap angka yang berdekatan.",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "Ini cocok langsung dengan passage.",
+   "7": "Jawabannya berupa angka ditambah satu kata."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_11",
+  "lesson": {
+   "title": "Istilah teknis yang diperkenalkan di passage (Technical terms introduced in the passage)",
+   "text": "Passage sains sering memperkenalkan sebuah istilah khusus lalu mendefinisikannya (\"known as reverberation time\", \"so-called vineyard style\"). Soal bisa menggambarkan konsepnya dengan kata-kata biasa lalu meminta istilahnya, atau memakai istilahnya lalu meminta bagian dari definisinya. Perhatikan kedua bagian dari setiap definisi saat membaca."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage.",
+   "2": "Istilah ini didefinisikan di passage.",
+   "3": "\"Cushions from a nearby theatre\" akan melebihi limit.",
+   "4": "\"Around\" sama artinya dengan \"about\".",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "Ini cocok langsung dengan passage.",
+   "7": "Kata yang memakai tanda hubung dihitung sebagai satu kata."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_12",
+  "lesson": {
+   "title": "Perbandingan dan persentase (Comparisons and percentages)",
+   "text": "Sentence bisa menguji perbandingan: \"Recycling uses about ... less energy than...\". Pastikan jawaban Anda menyatakan perbandingan yang sama seperti di passage, dan angkanya merujuk pada hal-hal yang memang sedang dibandingkan. Sebuah persentase di passage bisa menggambarkan penghematan di satu sentence, lalu bagian dari produksi di sentence berikutnya."
+  },
+  "explanations": {
+   "1": "\"Considered\" sama artinya dengan \"regarded as\".",
+   "2": "Ini cocok langsung dengan passage.",
+   "3": "Ini cocok langsung dengan passage.",
+   "4": "\"Of cheap power\" sudah ada di sentence.",
+   "5": "\"Protective oxide\" juga masih dalam limit, tetapi \"oxide\" saja sudah melengkapi sentence.",
+   "6": "\"Ninety-five per cent\" adalah penghematannya, bukan jumlah yang dipakai — karena itu ini adalah trap perbandingan.",
+   "7": "\"Pay\" sama artinya dengan \"reward\"."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_13",
+  "lesson": {
+   "title": "Distractor di dalam daftar (Distractors in lists)",
+   "text": "Kalau passage menyebutkan beberapa hal dalam satu daftar (\"rocks, tree bark, walls and gravestones\"), sentence biasanya menunjuk salah satunya lewat detail tambahan, misalnya \"surfaces that humans have made\". Bacalah sentence di soal dengan teliti untuk menemukan petunjuk yang memilih satu hal dari daftar itu."
+  },
+  "explanations": {
+   "1": "\"Mistaken\" sama artinya dengan \"confused\".",
+   "2": "Urutan sentence-nya dibalik, tetapi kata-katanya cocok.",
+   "3": "Ini adalah istilah yang didefinisikan di passage.",
+   "4": "\"Breaking down\" sama artinya dengan \"wearing away\".",
+   "5": "Gap-nya memerlukan adjective sebelum \"lichens\".",
+   "6": "Jawabannya dua kata.",
+   "7": "Ini cocok langsung dengan passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_14",
+  "lesson": {
+   "title": "Klaim vs bukti dalam completion task (Claims vs evidence in completion tasks)",
+   "text": "Sentence bisa melaporkan sebuah klaim populer atau bukti yang mengujinya. Perhatikan bingkai sentence-nya (\"according to a popular explanation...\", \"later research found that...\") lalu cari bagian passage yang cocok. Topik yang sama bisa menghasilkan jawaban berbeda, tergantung pandangan siapa yang dilaporkan sentence itu."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage.",
+   "2": "\"Collide and\" sudah ada di sentence.",
+   "3": "Sentence ini melaporkan klaim populer. Jangan tulis \"letter pairs\", karena itu bagian dari pandangan alternatif para sejarawan.",
+   "4": "Sentence ini melaporkan pandangan para sejarawan, bukan klaim populer.",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "\"Most common\" sama artinya dengan \"most frequent\".",
+   "7": "\"Invention\" sama artinya dengan \"design\"."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_15",
+  "lesson": {
+   "title": "Sentence Completion tingkat sulit — paraphrase berat dan pengambilan kata yang tepat (Hard Sentence Completion — heavy paraphrase and precise extraction)",
+   "text": "Di level Hard:\n\nsentence-nya menyusun ulang ide-ide passage, sering kali menggabungkan dua sentence dari passage; kata-kata yang benar bisa tersembunyi di dalam phrase yang lebih panjang, dan Anda harus mengambil persis bagian yang pas untuk gap;\n\nkata-kata di sekitarnya yang jenisnya sama (noun lain, angka lain) berperan sebagai distractor. Setelah menulis jawaban, baca lagi seluruh sentence dan tanyakan pada diri sendiri: apakah sentence ini mengatakan persis apa yang dikatakan passage — tidak lebih dan tidak kurang?"
+  },
+  "explanations": {
+   "1": "Gap-nya memerlukan adverb.",
+   "2": "Anda harus menggabungkan dua sentence. \"Twenty thousand hertz\" adalah batas atasnya, dan itulah distractor-nya.",
+   "3": "Ini cocok langsung dengan passage.",
+   "4": "\"Faint throbbing sensation\" terdiri dari tiga kata dan melebihi limit, jadi ambil inti dua katanya saja.",
+   "5": "\"Allow sound to travel more effectively\" sama artinya dengan \"more favourable\".",
+   "6": "\"Trunks\" memang memiliki reseptor, tetapi bukan bagian yang dipakai untuk bersandar — karena itu ini adalah distractor yang jenisnya sama.",
+   "7": "\"By sight\" sama artinya dengan \"visually\"."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_16",
+  "lesson": {
+   "title": "Sentence yang menggabungkan informasi dari tempat berbeda (Sentences that combine information from different places)",
+   "text": "Sentence di level Hard bisa menggabungkan fakta dari satu paragraph dengan sebuah kondisi dari paragraph lain. Temukan sentence itu di passage lewat unsurnya yang paling khas terlebih dahulu, lalu pastikan jawabannya sesuai dengan seluruh sentence. Urutan soal tetap mengikuti passage, tetapi satu soal mungkin mengharuskan Anda melirik kembali ke paragraph sebelumnya."
+  },
+  "explanations": {
+   "1": "\"Comparable\" sama artinya dengan \"as fast as\".",
+   "2": "\"Powerful\" = \"strong\". \"Strong\" dan \"long-lasting\" harus dibuang supaya tetap dalam limit.",
+   "3": "Alaska adalah tempat terjadinya gempa bumi — ini distractor yang jenisnya sama.",
+   "4": "\"Ignore\" sama artinya dengan \"disregard\".",
+   "5": "\"pressure\" maupun \"water pressure\" masih dalam limit.",
+   "6": "\"Satellite\" meneruskan data dari buoy — karena itu ini adalah distractor urutan.",
+   "7": "\"Structures\" sudah ada di sentence."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_17",
+  "lesson": {
+   "title": "Penjelasan proses yang disertai kondisi (Process explanations with conditions)",
+   "text": "Passage teknis menjelaskan proses yang disertai kondisi (\"only while an organism is alive\", \"after death, no new ... is taken in\"). Sentence bisa menguji kondisinya, bukan proses utamanya. Bacalah dengan teliti dan perhatikan kata-kata seperti only, after, until, once, as long as, karena jawabannya sering berada tepat di sebelah kata-kata itu."
+  },
+  "explanations": {
+   "1": "\"Strike\" sama artinya dengan \"hit\".",
+   "2": "Inilah kondisinya. \"New\" sudah ada di sentence.",
+   "3": "Ini dihitung sebagai satu kata yang memakai tanda hubung.",
+   "4": "5,730 tahun adalah half-life-nya — karena itu ini adalah trap angka yang berdekatan.",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "\"Most importantly\" menunjukkan jawabannya di antara tiga bahan yang disebutkan.",
+   "7": "Ini adalah istilah bertanda hubung ditambah satu angka, masih dalam limit."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_18",
+  "lesson": {
+   "title": "Review akhir — tetap teliti di bawah tekanan (Final review — precision under pressure)",
+   "text": "Set ini menggabungkan skill utama Sentence Completion: paraphrase berat, mengambil kata sesuai word limit, distractor yang jenisnya sama, dan kondisi. Untuk setiap soal:\n\n1. Temukan bagian passage berdasarkan maknanya.\n\n2. Tebak jenis katanya.\n\n3. Ambil kata sesedikit mungkin yang sudah melengkapi maknanya.\n\n4. Periksa limit, ejaan, dan grammar."
+  },
+  "explanations": {
+   "1": "\"Fundamental problem\" sama artinya dengan \"main cause\".",
+   "2": "\"Four to five\" adalah tingkat ketika gerakan bebas berhenti — karena itu ini adalah trap angka yang berdekatan.",
+   "3": "\"Trampling\" adalah penyebab yang ditolak.",
+   "4": "\"Escape\" sama artinya dengan \"get away\".",
+   "5": "Ini adalah istilah yang didefinisikan di passage.",
+   "6": "Ini cocok langsung dengan passage.",
+   "7": "\"In real time\" sama artinya dengan \"as events happen\"."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_19",
+  "lesson": {
+   "title": "Rantai sebab-akibat dari waktu ke waktu (Cause chains across time)",
+   "text": "Beberapa passage menggambarkan rantai peristiwa yang terjadi selama berbulan-bulan atau bertahun-tahun: letusan → partikel di atmosfer → pendinginan → gagal panen → dampak sosial. Sentence bisa menyasar mata rantai mana pun. Bayangkan sebuah garis waktu di kepala Anda dan pastikan jawaban Anda berada di mata rantai yang benar, bukan yang sebelum atau sesudahnya."
+  },
+  "explanations": {
+   "1": "\"Disease\" sudah ada di sentence.",
+   "2": "Ini adalah istilah yang didefinisikan di passage.",
+   "3": "Jawabannya dua kata, disalin persis.",
+   "4": "Jawabannya satu kata, disalin persis. Jawaban harus mempertahankan bentuk kata seperti di passage.",
+   "5": "\"Snow ... in June\" bukanlah yang merusak tanaman, jadi \"snow\" adalah distractor dari mata rantai yang sama.",
+   "6": "Ini cocok langsung dengan passage.",
+   "7": "Ini cocok langsung dengan passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_20",
+  "lesson": {
+   "title": "Review terakhir — semua skill sekaligus (Final review)",
+   "text": "Set Sentence Completion terakhir ini menguji semua skill sekaligus: paraphrase, pengambilan kata yang tepat, distractor angka, kondisi, dan grammar. Kerjakan dengan cepat, tetapi periksa setiap sentence yang sudah lengkap dengan passage dan word limit sebelum lanjut."
+  },
+  "explanations": {
+   "1": "\"chambers\" maupun \"three chambers\" masih dalam limit.",
+   "2": "Sentence ini menulis ulang \"equipment failures\" menjadi \"failures of equipment\".",
+   "3": "\"Withdraw\" sama artinya dengan \"removed\".",
+   "4": "\"Remain\" sama artinya dengan \"stay\".",
+   "5": "\"Failed\" sama artinya dengan \"stopped working\".",
+   "6": "2008 (pembukaan) dan 2016 (air di dalam terowongan) adalah trap angka yang berdekatan.",
+   "7": "\"Adapt\" muncul di passage hanya dalam pernyataan negatif tentang benih yang disimpan, jadi itu bukan jawabannya."
+  }
+ },
+ {
+  "id": "rb_summary_completion_01",
+  "lesson": {
+   "title": "Buang dulu berdasarkan grammar (Eliminate by grammar first)",
+   "text": "Kalau ada word bank, periksa dulu grammar setiap gap: noun, adjective, verb, atau plural. Tandai option mana saja yang cocok secara grammar. Lalu pilih berdasarkan makna di antara kandidat itu. Cara ini membuat pengerjaan lebih cepat dan mengurangi kesalahan."
+  },
+  "explanations": {
+   "1": "\"Mice and rats\" = \"rodents\". G (farmers) mungkin secara grammar, tetapi para petani menyimpan gandumnya, bukan tertarik padanya.",
+   "2": "Setelah \"helped to\", gap-nya memerlukan verb. I (damage) adalah kebalikannya.",
+   "3": "\"Not native\" sama artinya dengan \"did not occur\".",
+   "4": "H (feared) tidak didukung oleh passage.",
+   "5": "Gap-nya memerlukan adjective sebelum \"ships\". F (rapidly) adalah adverb, jadi tidak cocok.",
+   "6": "F (rapidly) mungkin secara grammar, tetapi tidak didukung oleh passage."
+  }
+ },
+ {
+  "id": "rb_summary_completion_02",
+  "lesson": {
+   "title": "Temukan bagiannya, lalu kerjakan sesuai urutan (Find the section, then work in order)",
+   "text": "Dalam format \"from the passage\", summary biasanya mencakup satu bagian passage yang bersambung. Cari di mana ide pertama summary muncul, lalu bergeraklah maju di passage, gap demi gap. Salin setiap jawaban persis seperti aslinya dan periksa word limit."
+  },
+  "explanations": {
+   "1": "Gap-nya memerlukan adjective setelah \"slightly\".",
+   "2": "Ini cocok langsung dengan passage.",
+   "3": "\"Carry\" sama artinya dengan \"transported\".",
+   "4": "\"Hydrothermal\" sudah ada di summary.",
+   "5": "\"Removes\" sama artinya dengan \"takes away\".",
+   "6": "\"Skeletons\" sudah ada di summary."
+  }
+ },
+ {
+  "id": "rb_summary_completion_03",
+  "lesson": {
+   "title": "Option word bank yang di-paraphrase (Paraphrased word-bank options)",
+   "text": "Option di word bank biasanya tidak sama persis dengan kata-kata di passage. Misalnya, passage mengatakan \"launched into orbit\" dan option-nya \"space\"; passage mengatakan \"inflate rapidly\" dan option-nya \"quickly\". Cocokkan maknanya. Waspadalah terhadap option yang mengulang kata dari passage persis sama, karena bisa jadi berasal dari konteks lain."
+  },
+  "explanations": {
+   "1": "H (colouring) mungkin secara grammar, tetapi tidak disebutkan di passage.",
+   "2": "G (heavy) maknanya salah.",
+   "3": "J (push) adalah kebalikannya.",
+   "4": "\"In orbit\" sama artinya dengan \"in space\".",
+   "5": "Ini cocok langsung dari segi makna.",
+   "6": "I (slowly) adalah kebalikannya."
+  }
+ },
+ {
+  "id": "rb_summary_completion_04",
+  "lesson": {
+   "title": "Jawaban dua kata di summary (Two-word answers in summaries)",
+   "text": "Dengan limit dua kata, periksa apakah summary sudah memuat sebagian phrase-nya. Kalau summary berbunyi \"the game spread along trade ...\", gap-nya hanya memerlukan \"routes\", bukan \"trade routes\". Membaca kata-kata di kiri dan kanan gap mencegah Anda mengulang kata."
+  },
+  "explanations": {
+   "1": "\"Ancient\" sudah ada di summary. \"Army\" saja juga bisa diterima.",
+   "2": "Ini cocok langsung dengan passage.",
+   "3": "\"Trade\" sudah ada di summary, jadi \"trade routes\" akan mengulang kata itu.",
+   "4": "\"Most powerful\" sama artinya dengan \"strongest\".",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "Ini cocok langsung dengan passage."
+  }
+ },
+ {
+  "id": "rb_summary_completion_05",
+  "lesson": {
+   "title": "Pasangan kata berlawanan di word bank (Opposite pairs in the word bank)",
+   "text": "Word bank sering berisi pasangan kata yang berlawanan (stronger/weaker, liquid/solid, easy/difficult). Kalau Anda melihat pasangan seperti itu, biasanya salah satunya adalah jawaban dan yang lain distractor. Temukan sentence-nya di passage dan tentukan arah maknanya dengan teliti."
+  },
+  "explanations": {
+   "1": "B (weaker) adalah kebalikannya dan diperlukan untuk Question 5.",
+   "2": "F (solid) adalah kebalikannya, dan makna itu sudah dinyatakan di bagian akhir sentence.",
+   "3": "\"Harsh\" sama artinya dengan \"strong\".",
+   "4": "J (glands) adalah keyword trap: glands memang menghasilkan sutra, tetapi jenis-jenis sutra itu bukan untuk glands.",
+   "5": "Ini cocok langsung dengan passage.",
+   "6": "\"Progress\" = \"improvements\", dan I (failures) adalah kebalikannya."
+  }
+ },
+ {
+  "id": "rb_summary_completion_06",
+  "lesson": {
+   "title": "Summary yang melewatkan sebagian passage (Summaries that skip parts of the passage)",
+   "text": "Sebuah summary bisa melewatkan beberapa sentence utuh atau bahkan satu paragraph dari passage. Kalau Anda tidak menemukan jawaban berikutnya di paragraph yang sedang Anda baca, lanjutkan ke bagian berikutnya. Jangan memaksakan jawaban dari paragraph yang salah."
+  },
+  "explanations": {
+   "1": "\"Rather than\" sama artinya dengan \"instead of\".",
+   "2": "Ini cocok langsung dengan passage.",
+   "3": "\"Belonging to\" sama artinya dengan \"owned by\".",
+   "4": "Gap-nya memerlukan adjective setelah \"felt\".",
+   "5": "\"Comb\" sudah ada di summary.",
+   "6": "Gap-nya memerlukan adverb."
+  }
+ },
+ {
+  "id": "rb_summary_completion_07",
+  "lesson": {
+   "title": "Summary tentang perdebatan (Summaries of debates)",
+   "text": "Kalau passage membahas beberapa hipotesis, summary bisa melaporkannya secara ringkas, termasuk mana yang didukung dan mana yang ditolak. Option di word bank sering berisi kata penilaian (supported, questioned, confirmed, doubtful). Periksa penilaian passage untuk setiap hipotesis."
+  },
+  "explanations": {
+   "1": "\"Cast doubt\" = \"questioned\". G (confirmed) adalah kebalikannya.",
+   "2": "J (colourful) tidak didukung oleh passage.",
+   "3": "Ini cocok langsung dengan passage.",
+   "4": "I (large) adalah kebalikannya.",
+   "5": "H (approach) adalah trap, karena lalat mendekati bulu yang bergaris \"just as often\".",
+   "6": "\"Not fully understood\" sama artinya dengan \"uncertain\"."
+  }
+ },
+ {
+  "id": "rb_summary_completion_08",
+  "lesson": {
+   "title": "Peran orang-orang di dalam summary (People's roles in a summary)",
+   "text": "Kalau summary menceritakan siapa melakukan apa, gap bisa menanyakan profesi, metode, atau hasil. Sebelum menjawab, tentukan orang mana yang dimaksud sentence di summary, lalu cari bagian passage yang menjelaskan kontribusi orang itu. Kata-kata tentang orang lain di dekatnya adalah distractor utama."
+  },
+  "explanations": {
+   "1": "\"Authority\" saja juga bisa diterima.",
+   "2": "\"How often\" sama artinya dengan \"frequency\".",
+   "3": "Ini cocok langsung dengan passage.",
+   "4": "Chadwick adalah seorang \"scholar\" — karena itu ini adalah distractor orang lain.",
+   "5": "\"On Crete\" sudah ada di summary.",
+   "6": "\"Pot\" juga muncul, tetapi \"vessels\" adalah istilah yang dipakai untuk gambar-gambar itu."
+  }
+ }
+]

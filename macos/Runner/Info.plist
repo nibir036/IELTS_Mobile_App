@@ -28,5 +28,7 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>IELTS AI records your speaking answers so it can give you band-score feedback.</string>
 </dict>
 </plist>

@@ -1,0 +1,56 @@
+{
+  "_format": {
+    "name": "speaking_part1_topics",
+    "group": "content",
+    "table": "speaking_part1_topics",
+    "primaryKey": "id",
+    "description": "Speaking Part 1 topic with 4-5 questions.",
+    "currentSourceInApp": "speaking.part1Topics",
+    "fields": {
+      "id": "string",
+      "topic": "string",
+      "questions": "array"
+    },
+    "required": [
+      "id",
+      "topic",
+      "questions"
+    ],
+    "relations": [],
+    "notes": [],
+    "recordCountToday": 16,
+    "practiceParts": [
+      {
+        "part": 1,
+        "label": "Speaking Part 1",
+        "minutes": "4-5",
+        "format": "Examiner asks 4-5 questions on 2-3 familiar topics",
+        "practisedOn": "Speaking → Part 1 (D2); mock G7"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "s1_work",
+      "topic": "Work or studies",
+      "questions": [
+        "Do you work or are you a student?",
+        "What do you like most about your job or course?",
+        "Is there anything you find difficult about it?",
+        "Why did you choose this kind of work or subject?",
+        "What would you like to do in the future?"
+      ]
+    },
+    {
+      "id": "s1_hometown",
+      "topic": "Hometown",
+      "questions": [
+        "Where is your hometown?",
+        "What do you like most about your hometown?",
+        "Has your hometown changed much since you were a child?",
+        "Would you like to live there in the future?",
+        "Is your hometown a good place for young people?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+[
+ {
+  "id": "rb_mcq_01",
+  "lesson": {
+   "title": "उत्तर छिटो खोज्ने तरिका (Locating answers quickly)",
+   "text": "सजिलो Multiple Choice set-मा धेरैजसो question-ले तपाईंलाई एउटै paragraph-तिर लैजान्छ। Question-मा भएका नाम, अङ्क र छुट्टै खालका शब्दहरू (जस्तै Germany, 70°C, membrane) लाई signpost जस्तै प्रयोग गर्नुहोस्, अनि तिनको वरिपरिको पूरा sentence पढ्नुहोस्। उत्तर प्रायः एउटा sentence-को paraphrase हुन्छ। कुनै option-मा passage-कै शब्द छ भन्ने कारणले मात्र त्यो option नछान्नुहोस्।",
+   "example": "Passage: \"Few visitors came in winter because the road was often closed.\"\nQuestion: Why were there few winter visitors?\nसही विचार: access was difficult।\nलोभ्याउने गलत option: the weather was too cold — सुन्दा तर्कसंगत लाग्छ, तर passage-मा यस्तो भनिएको छैन।"
+  },
+  "explanations": {
+   "1": "Passage-मा \"Wasted space\" भनिएको छ — यसैलाई option-मा \"an area of little value\" भनेर paraphrase गरिएको छ। D ले अहिलेको समयको कुरा गर्छ, twentieth century-को होइन। Maintenance worker-हरूको कुरा passage-मा छ, तर roof खतरनाक थियो भनेर कतै भनिएको छैन (C)।",
+   "2": "\"Shrubs and small trees\" = \"bigger plants\"। A ले वास्तवमा extensive roof-को वर्णन गर्छ। खाना उब्जाउने कुरा (B) र नयाँ building (D) ले यी दुई किसिमका roof-बीचको फरक देखाउँदैनन्।",
+   "3": "यही research-ले green roof-लाई व्यवहारमा प्रयोग गर्न मिल्ने बनायो। A लाई passage-ले सिधै contradict गर्छ: \"The idea ... is very old\"। C एउटा word-match trap हो, किनभने grant-हरू पछि city-हरूबाट आएका थिए, research-बाट होइन।",
+   "4": "\"Stay close to\" = \"remains similar to\"। 70°C भन्ने अङ्क conventional roof-को बारेमा हो (B)। A ले passage-ले भनेभन्दा बढी दाबी गर्छ।",
+   "5": "फाइदा पानी कति जोडले पर्छ भन्नेअनुसार बदलिन्छ। A र D ले यस्तो extreme wording प्रयोग गरेका छन् जसलाई passage-ले support गर्दैन। Building-मा प्रयोग गर्न वर्षाको पानी जम्मा गर्ने कुरा (C) passage-मा उल्लेख छैन।",
+   "6": "\"Sunlight and temperature changes\" = \"damaging conditions\"। Reinforcement (B) को कुरा पुराना building-को एउटा खर्चको रूपमा मात्र आएको छ।",
+   "7": "Paragraph-को मुख्य सन्देश उपयुक्त बिरुवा रोप्ने (suitable planting) बारे हो। City policy-को कुरा छोटकरीमा मात्र आएको छ (B), र writer-ले हरेक building-मा green roof चाहिन्छ भनेर कतै तर्क गरेका छैनन् (A)।"
+  }
+ },
+ {
+  "id": "rb_mcq_02",
+  "lesson": {
+   "title": "\"more seriously\", \"however\" र \"rather than\" मा ध्यान दिनुहोस्",
+   "text": "Signal word-हरूले writer-ले कुन विचारलाई सबैभन्दा महत्त्वपूर्ण ठान्छन्, वा कुन विचारलाई सच्याइँदैछ भन्ने देखाउँछन्। यदि passage-ले \"X caused confusion; more seriously, it caused Y\" भन्छ भने, सबैभन्दा गम्भीर समस्याबारेको question-को उत्तर Y हो, X होइन। त्यस्तै, \"A rather than B\" को अर्थ A सत्य हो र B होइन। Distractor-हरू प्रायः त्यही विचारबाट बनाइन्छन् जसलाई signal word-ले पन्छाइदिएको हुन्छ।",
+   "example": "Passage: \"The festival was moved to spring, partly because of cost but mainly because of the risk of storms.\"\nQuestion: What was the main reason for the change?\nउत्तर: the weather risk।\nCost चाहिँ distractor हो, किनभने त्यो आंशिक कारण मात्र थियो।"
+  },
+  "explanations": {
+   "1": "\"Set its clocks by the sun\" = \"observing the position of the sun\"। Observatory (A) को कुरा पछि मात्र, Paragraph C-मा आउँछ।",
+   "2": "यात्रा ढिलो हुने भएकाले सानातिना फरकले केही फरक पार्दैनथ्यो। D passage-को उल्टो हो, किनभने passage-ले शहरहरूले फरक-फरक समय राख्थे भन्छ। B को कतै उल्लेख छैन।",
+   "3": "\"More seriously\" भन्ने signal-ले सबैभन्दा गम्भीर परिणाम देखाउँछ। A, B र C साँच्चैका समस्या हुन्, तर तिनलाई कम गम्भीर रूपमा प्रस्तुत गरिएको छ।",
+   "4": "\"Remarkably\" ले writer-लाई के अचम्मको लाग्यो भन्ने देखाउँछ: चलन कानुनभन्दा पहिले नै आयो। B र D ले passage-लाई contradict गर्छन्। C ले कानुनलाई गलत तरिकाले 1840 सालसँग जोड्छ।",
+   "5": "C का दुवै भागलाई passage-ले support गर्छ। A लाई \"rather than by the government\" ले contradict गर्छ, र B लाई \"cities refused\" ले।",
+   "6": "\"prime meridian\" लाई \"a reference line\" भनेर paraphrase गरिएको छ। A लाई \"did not create a worldwide system of time zones\" ले contradict गर्छ। C लाई आधा घण्टाको फरक (half-hour offsets) ले contradict गर्छ।",
+   "7": "यही paragraph-को मुख्य विचार हो। C contradict हुन्छ: \"not by scientists or governments\"। Phone (A) आधुनिक उदाहरणको रूपमा मात्र आएको छ, र paragraph-ले time zone अनावश्यक छन् भनेर कहीँ भन्दैन।"
+  }
+ },
+ {
+  "id": "rb_mcq_03",
+  "lesson": {
+   "title": "Theory र evidence बारेका प्रश्न (Questions about theories and evidence)",
+   "text": "विज्ञानसम्बन्धी passage-हरूले प्रायः एउटा theory, त्यसको पक्षमा evidence, अनि त्यसको विपक्षमा evidence प्रस्तुत गर्छन्। तीन कुरा छुट्टाछुट्टै राख्नुहोस्: theory-ले के दाबी गर्छ, study-ले के भेट्टायो, र writer-ले के निष्कर्ष निकाल्छन्।\n\nDistractor-ले theory-को दाबीलाई प्रमाणित भइसकेको जस्तो गरी भन्न सक्छ, वा writer-को निष्कर्षलाई writer-ले भनेभन्दा बढी जोडदार बनाएर भन्न सक्छ। may, suggests, appears र some जस्ता hedging word-हरूमा ध्यान दिनुहोस्।",
+   "example": "Passage: \"The results suggest that sleep may help memory, but the sample was small.\"\nQuestion: What does the writer say about the results?\nराम्रो उत्तर: they are promising but limited।\nTrap: they prove that sleep improves memory — किनभने यसले \"suggest\" लाई \"prove\" बनाइदिन्छ।"
+  },
+  "explanations": {
+   "1": "Paragraph यही प्रश्नतिर अघि बढ्छ, र बाँकी passage-ले यही प्रश्नको खोजी गर्छ। C सहायक विवरण मात्र हो। A र D को चर्चा नै गरिएको छैन।",
+   "2": "\"Reliably recorded\" = \"clearly shown\"। A र D लाई passage-ले contradict गर्छ। कुकुरहरूको evidence लाई \"less consistent\" भनिएको छ, त्यसैले यसले C लाई support गर्दैन।",
+   "3": "\"Rarely\" = \"seldom\"। D ले वर्णन गरिएको pattern-लाई उल्टाइदिन्छ। परिवारका सदस्यहरूको कुरा (C) Paragraph D-मा आउँछ, यी experiment-हरूमा होइन।",
+   "4": "यो उदाहरण सम्बन्धले फरक पार्छ भनेर देखाउन प्रयोग गरिएको हो। A त त्यो विचार हो जसको विरुद्ध यसले तर्क गर्छ। C धेरै extreme छ, किनभने अपरिचितहरू \"least likely\" भनिएको छ, \"never\" होइन।",
+   "5": "यो कुरा theory-को prediction-को रूपमा सिधै भनिएको छ। A उल्टो हो। D ले दाबी गरिएको cooling effect-लाई contradict गर्छ।",
+   "6": "\"Only a weak connection\" ले \"weaker than believed\" लाई support गर्छ। B ले उमेरसम्बन्धी finding-लाई उल्टाइदिन्छ। थकाइ (tiredness) को उल्लेखले D लाई contradict गर्छ।",
+   "7": "\"A mixture of factors\" = \"more than one cause\"। Writer-ले hedge गर्छन् (\"It is possible\"), त्यसैले A र D का बलियो दाबीहरूलाई support छैन। B ले \"surprisingly deep questions\" लाई contradict गर्छ।"
+  }
+ },
+ {
+  "id": "rb_mcq_04",
+  "lesson": {
+   "title": "अङ्क र तुलना (Numbers and comparisons)",
+   "text": "जब question-मा कुनै अङ्क, प्रतिशत वा तुलना गर्ने शब्द (more, less, cheaper, faster) हुन्छ, ठ्याक्कै केलाई केसँग तुलना गरिएको छ भनेर जाँच्नुहोस्। Distractor-हरूले प्रायः सही अङ्क प्रयोग गर्छन् तर त्यसलाई गलत कुरासँग जोड्छन्, वा तुलनालाई उल्टाइदिन्छन्। अङ्क मात्र होइन, अङ्क भएको पूरा sentence पढ्नुहोस्।",
+   "example": "Passage: \"The new engine uses 30% less fuel than the older model, although it costs more to build.\"\nQuestion: What advantage does the new engine have?\nउत्तर: lower fuel use।\nसम्भावित trap: it is 30% cheaper — यसले सही अङ्कलाई गलत कुरासँग जोडेको छ।"
+  },
+  "explanations": {
+   "1": "यो sentence-ले दुई विपरीत विचारलाई छेउछेउमा राख्छ। Computer control (C) को कुरा अघिल्लो sentence-मा आएको छ। Writer-ले आलोचकहरूको मूल्याङ्कन गर्दैनन् (D)।",
+   "2": "\"Stacked closely together\" = \"close layers\"। Hydroponics (A) र glasshouse (B) पहिले नै थिए, र तिनलाई मुख्य परिवर्तनको श्रेय दिइएको छैन।",
+   "3": "\"Collected and reused\" = \"reuse\"। वर्षाको पानी (C) र मौसमअनुसार उब्जाउने (D) कुराको उल्लेख छैन। नब्बे प्रतिशतको अङ्कले बचत कति ठूलो छ भन्ने बताउँछ, त्यो बचत कसरी हुन्छ भन्ने होइन।",
+   "4": "\"Within hours\" = \"quickly\"। कामदार (A) र जग्गाको मूल्य (B) को उल्लेख छैन। सस्तो बिजुली (D) को कुरा Paragraph E-मा रातिको प्रयोगसँग जोडिएको छ, शहरको स्थानसँग होइन।",
+   "5": "बाधा भनेको बत्ती (lighting) को खर्च हो। A भनिएको छैन, किनभने hydroponics-ले गहुँ उब्जाउन सक्दैन भनेर passage-ले कहीँ भन्दैन। C र D को उल्लेख छैन।",
+   "6": "\"Depends heavily\" = \"depends largely\"। A र D धेरै absolute छन्: passage-ले एउटा lettuce-ले बढी emission निकाल्न सक्छ (may) भन्छ, जुन प्रमाण होइन।",
+   "7": "\"An addition\" र \"fill some of the gaps\" = \"a limited supporting role\"। A लाई सिधै contradict गरिएको छ। C ले एउटा उदाहरण (कठोर हावापानी) लाई धेरै साँघुरो बनाइदिन्छ, र D ले Paragraph E-मा वर्णन गरिएका व्यवसाय बन्द हुने कुरालाई बढाइचढाइ गर्छ।"
+  }
+ },
+ {
+  "id": "rb_mcq_05",
+  "lesson": {
+   "title": "\"Choose TWO letters\" प्रश्न: दुईवटा उत्तर छान्ने",
+   "text": "Choose TWO question-मा, ५ वटै option-लाई passage-सँग छुट्टाछुट्टै True/False जाँचजस्तै गरी हेर्नुहोस्। प्रायः २ वटा option-लाई passage-ले स्पष्ट support गर्छ, र बाँकी ३ वटा support नभएका, contradict भएका, वा गलत समय वा गलत समूहसँग जोडिएका हुन्छन्। सुन्दा ठीकै लाग्यो भन्दैमा कुनै option नछान्नुहोस्। हरेक सही option passage-मा भनिएको हुनुपर्छ। दुई letter जुनसुकै क्रममा लेख्न सकिन्छ।",
+   "example": "Passage: \"Volunteers repaired the fence and planted trees; they did not have time to paint the shed.\"\nQuestion: Which TWO things did the volunteers do?\nA repaired the fence ✓\nB painted the shed ✗\nC planted trees ✓\nD built a shed ✗\nE cut the grass ✗ (passage-मा उल्लेख नै छैन)"
+  },
+  "explanations": {
+   "1": "\"Abandon\" = \"stop using\"। C त त्यो बेला दिइएको सल्लाहको उल्टो हो। Intelligence test (D) Paragraph B-मा आउँछ, तर research गर्ने तरिकाको रूपमा, परिवारलाई दिइएको सल्लाहको रूपमा होइन।",
+   "2": "\"Only in the majority language\" = \"in only one language\"। उल्लेख गरिएको अर्को समस्या परिवारको आम्दानी हो, sample size (A) वा बालबालिकाको उमेर (C) होइन।",
+   "3": "Option C ले दुवै बुँदालाई जोड्छ। A पुरानो व्याख्या हो। D contradict हुन्छ, किनभने passage-ले वयस्कहरूले \"too\" भाषा मिसाउँछन् भन्छ।",
+   "4": "\"Counted together ... similar\" = \"combined size ... comparable\"। A ले यसलाई contradict गर्छ। B ले जम्मा vocabulary लाई हरेक भाषाको छुट्टै vocabulary सँग झुक्याउँछ, जहाँ दुई भाषा बोल्ने बालबालिकाले प्रायः कम शब्द जान्दछन्।",
+   "5": "\"Amount and variety of exposure\" = \"how much varied contact\"। A एउटा word-match trap हो: तरिकाको उल्लेख छ, तर त्यसले कम फरक पार्छ भनिएको छ। B र D को उल्लेख छैन।",
+   "6": "A लाई Paragraph F-को \"others ... have failed to find them\" ले contradict गर्छ। C कतै भनिएको छैन। E लाई Paragraph C-को \"Adult bilinguals mix languages too\" ले contradict गर्छ।"
+  }
+ },
+ {
+  "id": "rb_mcq_06",
+  "lesson": {
+   "title": "कारण र परिणाम (Reason and cause questions)",
+   "text": "Why ...? बाट सुरु हुने, वा because, the reason, led to वा as a result भएका question-हरूले कारण र परिणाम (cause and effect) जाँच्छन्। Passage-मा because, since, as, so, therefore, this means that, due to जस्ता जोड्ने शब्दहरू खोज्नुहोस्। Option-ले question-मा सोधिएको ठ्याक्कै त्यही परिणामको कारण दिएको छ कि छैन भनेर निश्चित गर्नुहोस्। Passage-ले प्रायः फरक-फरक परिणामका धेरै कारणहरू दिन्छ, र distractor-हरूले साँच्चैको कारणलाई गलत परिणामबाट सापट लिन्छन्।",
+   "example": "Passage: \"The library closed early because of staff shortages; it also stopped lending DVDs, since few people borrowed them.\"\nQuestion: Why did the library stop lending DVDs?\nउत्तर: low demand।\nTrap: staff shortages — यो त अर्कै परिवर्तनको कारण हो।"
+  },
+  "explanations": {
+   "1": "\"far smaller\" अनुपात भनेको संग्रहको कति हिस्सा प्रदर्शनमा छ भन्ने हो। A उल्टो हो। Passage-ले store-हरू प्रायः छुट्टै building-मा हुन्छन् भन्छ, त्यसैले C गलत हो।",
+   "2": "\"So crowded ... struggle to notice anything\" = \"confusing\"। A, B र D लाई कारणको रूपमा दिइएको छैन।",
+   "3": "\"Cannot be reversed\" = \"permanently\"। Lending (A) को कुरा Paragraph E-मा आउँछ, तर छोटो समय मात्र प्रदर्शन गर्नुको कारणको रूपमा होइन।",
+   "4": "Pest (B) लाई छुट्टै तरिकाले, trap र निरीक्षण (inspection) गरेर सम्हालिन्छ। Comfort (A) र cost (D) को कुरा स्थिर अवस्था (stable conditions) सँग जोडेर उल्लेख गरिएको छैन।",
+   "5": "चराहरूले research-मा हुने प्रयोगलाई देखाउँछन्। Lending (D) उही paragraph-को छुट्टै बुँदा हो, त्यसैले यो गलत sentence-बाट लिइएको distractor हो।",
+   "6": "\"Costly\" = \"expensive\", र \"people who could never visit ... explore collections\" = \"widens access\"। A र D लाई \"slow\" र \"decades\" ले contradict गर्छन्।",
+   "7": "\"Organised, protected\" = \"well managed\", र \"constantly consulted\" = \"regularly used\"। अरू option-हरूलाई paragraph-ले support गर्दैन।"
+  }
+ },
+ {
+  "id": "rb_mcq_07",
+  "lesson": {
+   "title": "अनुमानमा आधारित प्रश्न: Inference question (\"suggests\", \"implies\", \"can be inferred\")",
+   "text": "Inference question-ले यस्तो कुरा सोध्छ जुन passage-ले एउटै sentence-मा भन्दैन, तर जानकारीहरू जोड्दा स्पष्ट रूपमा सत्य ठहरिन्छ। सही inference भनेको text-बाट लिइएको सानो, सुरक्षित कदम हो। यो कहिल्यै अड्कल, सामान्य ज्ञानको तथ्य, वा बढाइचढाइ होइन। Option जाँच्न आफैँलाई सोध्नुहोस्: \"If the passage is true, must this also be true?\" उत्तर \"possibly\" मात्र हो भने त्यो option हटाउनुहोस्। Inference question-का बलिया distractor-हरू प्रायः सुन्दा तर्कसंगत लाग्ने विचार हुन्छन् जसलाई passage-ले कहिल्यै support गर्दैन, वा जुन एक कदम धेरै अगाडि जान्छन्।",
+   "example": "Passage: \"The shop's winter sales fell every year until it began delivering to customers' homes; since then, winter has become its busiest season.\"\nQuestion: What can be inferred?\nसही: delivery helped the shop overcome a seasonal problem।\nएक कदम धेरै (Too far): home delivery is the best strategy for all shops।"
+  },
+  "explanations": {
+   "1": "Writer-ले यसको उपयोगिता फरक-फरकपन (variation) मा छ भनेर स्पष्ट रूपमा भन्छन्। C ले एउटा ring कसरी बन्छ भनेर वर्णन गर्छ, तर उपयोगिताको कारण त्यो होइन। D वर्षाको बुँदासँग सम्बन्धित छ तर भनिएको छैन।",
+   "2": "उनको dating method हावापानी (climate) सम्बन्धी research-बाट जन्मिएको थियो, जुन फरक उद्देश्य हो। A ले उनको पृष्ठभूमि उल्टाइदिन्छ: उनी astronomer थिए। C धेरै अगाडि जान्छ, किनभने उनले evidence भेट्टाउने \"hoped\" मात्र गरेका थिए। D भनिएको छैन।",
+   "3": "यो तुलनाले मिलाउन सकिने, छुट्टै र दोहोरिने pattern-मा जोड दिन्छ, जसले सिधै Paragraph C-को cross-dating तिर लैजान्छ। B धेरै extreme छ, किनभने रूखहरूले \"from the same area\" pattern साझा गर्छन् भनिएको छ, संसारभरि होइन।",
+   "4": "\"Overlapped with both\" = \"linked\"। B \"charred\" शब्दमा आधारित trap हो। D contradict हुन्छ, किनभने ती बस्तीहरूको मिति \"only by estimate\" निकालिएको थियो र अब तिनलाई ठ्याक्कै वर्ष दिन सकिन्थ्यो।",
+   "5": "Radiocarbon dating लाई सच्याउन (correction) tree ring-मा भर पर्नुपर्छ। A passage-भन्दा बाहिर जान्छ। C ले तुलनालाई उल्टाइदिन्छ, किनभने tree ring नै बढी सटीक तरिका हो।",
+   "6": "यो सिधा paraphrase हो। B ले दुई छुट्टाछुट्टै सीमितता (limitation) लाई गलत तरिकाले जोड्छ। D \"with its outermost ring intact\" भएको काठमा मात्र लागू हुन्छ (Paragraph E)।",
+   "7": "Paragraph-ले रूखको मितिलाई कुनै संरचना (structure) सँग जोड्दा सावधान हुन आग्रह गर्छ। B ले पछि आउने प्रशंसालाई contradict गर्छ। C ले पुनः प्रयोग गरिएको काठबारेको बुँदा उल्टाइदिन्छ, किनभने त्यस्तो काठ building-भन्दा पुरानो हुन सक्छ।"
+  }
+ },
+ {
+  "id": "rb_mcq_08",
+  "lesson": {
+   "title": "यो विचार कसको हो? (Whose opinion is it?)",
+   "text": "Medium level-मा, passage-हरूमा प्रायः धेरै आवाज हुन्छन्: designer, company, researcher, आलोचक (critic) र writer। Question-ले कुनै एउटा समूहले के विश्वास गर्थ्यो वा writer के सोच्छन् भनेर सोध्न सक्छ। एउटा सामान्य distractor-ले यस्तो विचार दिन्छ जुन passage-मा साँच्चै छ, तर अरू कसैको हो।\n\nउत्तर दिनुअघि, question stem-मा वक्ता को हो पहिचान गर्नुहोस्, अनि passage-मा त्यही वक्तालाई खोज्नुहोस्। काम लाग्ने संकेतहरू: according to X, X argued, critics claim, it is often said (writer-को विचार हुनैपर्छ भन्ने छैन), र in my view, arguably, it seems clear, the real problem is (प्रायः writer-को विचार)।",
+   "example": "Passage: \"Many parents believe homework builds discipline. The evidence, however, suggests its value depends largely on the child's age.\"\nQuestion: What is the writer's view?\nसही: the benefits of homework vary with age।\nTrap: homework builds discipline — यो त parent-हरूको विश्वास हो।"
+  },
+  "explanations": {
+   "1": "यसले कर्मचारीहरूको अहिलेको विचारलाई मूल उद्देश्यसँग तुलना गरेर देखाउँछ। A ले कर्मचारीहरूको विचारलाई ऐतिहासिक तथ्य जस्तो गरी भन्छ। C ले प्रवृत्ति (trend) उल्टाइदिन्छ। D लाई \"widely resented\" ले contradict गर्छ।",
+   "2": "\"Hierarchy built into the architecture\" = \"design reinforced differences in status\"। बिरुवा (A) design-को एउटा विवरण मात्र हो। C र D ले ती व्यवस्थाहरूको वर्णन गर्छन् जसलाई designer-हरूले अस्वीकार गरिरहेका थिए।",
+   "3": "Company-हरूले यो system-लाई cubicle बनाउन प्रयोग गरे, जुन उनको उद्देश्यविपरीत थियो। A लाई \"highly successful commercially\" ले contradict गर्छ। B ले company-हरूले system कसरी प्रयोग गरे भनेर बताउँछ, यो केका लागि design गरिएको थियो भनेर होइन।",
+   "4": "\"less idealistically\" भन्ने signal-ले व्यावहारिक तर्कलाई देखाउँछ। A, B र D समर्थकहरूले गरेका आदर्शवादी (idealistic) दाबीहरू हुन्।",
+   "5": "\"Contrary to expectations\" ले के अनपेक्षित थियो भनेर देखाउँछ। B ले finding-लाई उल्टाइदिन्छ, किनभने electronic message-हरू बढेका थिए। D भनिएको छैन, र headphone-को विवरण हेर्दा सम्भव पनि देखिँदैन।",
+   "6": "सम्बन्ध छ, तर त्यसको कारण निश्चित छैन। A ले finding-लाई बढाइचढाइ गर्छ र B ले त्यसलाई contradict गर्छ। D ले stress-लाई ध्यान केन्द्रित गर्नुपर्ने काम \"suffer most\" भन्ने छुट्टै बुँदासँग झुक्याउँछ।",
+   "7": "Writer-ले फरक-फरक ठाउँहरूबीच छनोट गर्न पाउनुपर्ने पक्षमा तर्क गर्छन्। A लाई \"either a corridor of closed doors\" मा अस्वीकार गरिएको छ। B लाई Paragraph G-मा वर्णन गरिएका अवस्थाले contradict गर्छन्। D ले मूल designer-हरूप्रति writer-को सम्मानसँग मेल खाँदैन।"
+  }
+ },
+ {
+  "id": "rb_mcq_09",
+  "lesson": {
+   "title": "प्रक्रियाको व्याख्या (Explanations of processes)",
+   "text": "केही passage-ले कुनै कुरा कसरी हुन्छ भनेर कारणहरूको श्रृङ्खला (chain) मार्फत बुझाउँछन् (A ले B निम्त्याउँछ, जसले A लाई अझ बलियो बनाउँछ...)। Question-ले chain-को एउटा कडी वा पूरै chain जाँच्न सक्छ। Distractor-हरूले प्रायः सही तत्वहरूलाई गलत क्रममा राख्छन्, वा सुरुको कारण (trigger) लाई नै पूरा व्याख्या जस्तो गरी प्रस्तुत गर्छन्।\n\nOption हेर्नुअघि, chain-लाई आफैँ ३–४ वटा छोटा note-मा लेख्नुहोस् (जस्तै: small sway → walkers adjust step → push in time → bigger sway)। त्यसपछि तपाईंको note-सँग मिल्ने option छान्नुहोस्।",
+   "example": "Passage: \"As more cars joined the road, traffic slowed; slower traffic made drivers brake sharply, which slowed it further.\"\nQuestion: Why did the traffic keep slowing?\nसही: drivers' reactions made the slowdown worse।\nTrap: there were too many cars — यो त सुरुको बिन्दु मात्र हो।"
+  },
+  "explanations": {
+   "1": "Writer-ले पत्रिकाहरूको विचारलाई गलत अनुमान (mistaken assumption) को रूपमा प्रस्तुत गर्छन्। A उल्टो हो। बन्द हुनुलाई पत्रिकाहरूसँग जोडिएको छैन (C), र 90,000 को अङ्क writer-को आफ्नै अनुमान हो (D)।",
+   "2": "\"Not anticipated\" = \"unexpected\"। A र B लाई \"structurally safe\" ले contradict गर्छ। D गलत हो, किनभने passage-ले ठाडो (vertical) होइन, छेउतिरको (sideways) बललाई समस्या भनेको छ।",
+   "3": "यो सिधा paraphrase हो। A सुन्दा तर्कसंगत लाग्छ तर भनिएको छैन। D contradict हुन्छ: bridge-हरू हिँड्नेहरूसँगै हल्लिने गरी design गरिन्छन् भनेर passage-ले भन्दैन।",
+   "4": "B ले सही क्रम दिन्छ। A ले कारण र परिणाम उल्टाइदिन्छ। C ले ठाडो रूपमा बाङ्गिने (vertical bending) कुरा गर्छ, जसको वर्णन गरिएको छैन। D ले एकअर्कालाई बलियो बनाउने चक्र (reinforcing cycle) लाई contradict गर्छ।",
+   "5": "एउटा सीमा (threshold) पुगेपछि हल्लिन अचानक सुरु भयो। A लाई \"does not happen gradually\" ले सिधै contradict गर्छ। C र D लाई support छैन।",
+   "6": "पहिलेका घटनाहरूलाई सामान्य समस्याको रूपमा चिनिएको थिएन। D लाई road bridge-हरूको उल्लेखले contradict गर्छ। B ले यी पहिलेका घटनाहरूलाई London bridge पछि आएका नियम परिवर्तन (Paragraph G) सँग झुक्याउँछ।",
+   "7": "Damper-हरूले पातलो (slender) design-लाई जोगाइराखे। A ले गलत तरिकाले ठाडो हल्लाइ (vertical movement) ल्याउँछ। B र D भनिएको छैन: passage-ले दुई विकल्पको खर्च कहिल्यै तुलना गर्दैन।"
+  }
+ },
+ {
+  "id": "rb_mcq_10",
+  "lesson": {
+   "title": "\"Why does the writer mention ...?\" — writer-ले किन उल्लेख गरे",
+   "text": "केही question-ले कुनै विवरणको काम (function) बारे सोध्छन्: उदाहरण, तथ्याङ्क, तुलना वा case study। उत्तर त्यो विवरणले के भन्छ भन्ने होइन, त्यो किन त्यहाँ राखिएको छ भन्ने हो। विवरणभन्दा ठीक अघिको sentence हेर्नुहोस्, जुन प्रायः सामान्य दाबी (general claim) हुन्छ, र सोध्नुहोस्: यो उदाहरणले कुन बुँदा प्रमाणित गर्छ वा देखाउँछ?\n\nएउटा बारम्बार आउने distractor-ले उदाहरणकै विषयवस्तुलाई फेरि भन्छ। त्यो option सत्य हुन्छ, तर उद्देश्यबारेको question-को उत्तर दिँदैन।",
+   "example": "Passage: \"Small habits can have large effects. A person who saves just two dollars a day will have over seven hundred dollars after a year.\"\nQuestion: Why does the writer mention two dollars a day?\nसही उत्तर: to illustrate that small habits add up।\nTrap (लोभ्याउने गलत option): to recommend a specific saving amount।"
+  },
+  "explanations": {
+   "1": "\"Badly directed\" = \"poorly controlled\", र \"not needed\" = \"unnecessary\"। D ले उही paragraph-को satellite-सम्बन्धी विवरण प्रयोग गर्छ, तर त्यो विवरण परिभाषा (definition) को भाग होइन।",
+   "2": "Observatory-हरूले सुरुका astronomer-हरूमा कस्तो असर पर्‍यो भनेर देखाउँछन्। D धेरै अगाडि जान्छ: observatory-हरू सरे, तर astronomy रोकिएन। B र C लाई support छैन।",
+   "3": "कछुवाहरू (turtles) प्राकृतिक प्रकाशमा भर पर्ने जनावरहरू भ्रममा पर्छन् भन्ने सामान्य दाबीको उदाहरण हुन्। D ले \"many die\" लाई बढाइचढाइ गर्छ। Hotel policy (C) को चर्चा गरिएको छैन। Paragraph-ले कछुवालाई चराहरूसँग तुलना गर्दैन (A)।",
+   "4": "\"Still investigating how far\" = \"exact contribution not yet clear\"। A र D ले evidence-लाई बढाइचढाइ गर्छन्। B भनिएको छैन।",
+   "5": "नतिजा अपेक्षाविपरीत आयो। A लाई \"use far less electricity\" ले contradict गर्छ। D लाई \"can be directed more precisely\" ले contradict गर्छ।",
+   "6": "\"Almost instantly\" = \"quickly\"। B ले सूचीमा दिइएका सजिला उपायहरूलाई contradict गर्छ। C र D भनिएको छैन: dark sky town-हरूले पर्यटक आकर्षित गर्छन्, तर अपराध वा सबैको समर्थनबारे केही भनिएको छैन।",
+   "7": "मुख्य चुनौती मानिसहरूको सोच (attitude) हो। A लाई \"not to return cities to darkness\" ले contradict गर्छ। B लाई \"surprisingly mixed\" ले contradict गर्छ। Glare (D) एउटा सहायक बुँदा मात्र हो।"
+  }
+ },
+ {
+  "id": "rb_mcq_11",
+  "lesson": {
+   "title": "समय र शर्त (Timing and conditions)",
+   "text": "Research-सम्बन्धी passage-हरूले प्रायः कुनै नतिजा केही निश्चित शर्तमा मात्र देखिन्छ भनेर बताउँछन्: केही समयपछि, कुनै एउटा समूहमा, वा काम कठिन हुँदा। Medium level-का distractor-हरूले यी शर्तहरूलाई बेवास्ता गर्छन् र नतिजालाई सधैँ सत्य हुने जस्तो गरी भन्छन्।\n\nजब stem-मा कुनै समय वा शर्त (immediately, after a week, when students..., at first) हुन्छ, passage-मा ठ्याक्कै त्यही शर्त खोज्नुहोस्। त्यसपछि option-ले त्यो शर्त राखेको छ कि चुपचाप हटाइदिएको छ, जाँच्नुहोस्।",
+   "example": "Passage: \"The fertiliser increased growth, but only in sandy soils.\"\nQuestion: What did the study find?\nसही: the fertiliser helped plants in certain soils।\nTrap: the fertiliser increased plant growth — यसले शर्तलाई नै हटाइदिएको छ।"
+  },
+  "explanations": {
+   "1": "\"A comfortable sense of understanding\" = \"a feeling that they understand\"। C लाई research-ले contradict गर्छ। D ले दोहोर्‍याएर पढ्ने (rereading) होइन, सम्झिने (recall) कुराको वर्णन गर्छ।",
+   "2": "\"Measuring learning\" = \"assessment\"। D contradict हुन्छ: psychologist-हरूले twentieth century-को सुरुमै यो effect याद गरिसकेका थिए। B ले दृष्टिकोण (attitude) लाई उल्टाइदिन्छ।",
+   "3": "यही समयको शर्त हो। A र B दुवैले दुईमध्ये एउटा test-लाई बेवास्ता गर्छन्। D ले \"had forgotten much\" लाई contradict गर्छ।",
+   "4": "Rereading गर्ने समूहले कम सिक्यो (Paragraph C) तर बढी आत्मविश्वासी थियो। A धेरै extreme छ। C लाई वर्णन गरिएको \"mismatch\" ले contradict गर्छ।",
+   "5": "दुवै शर्त C-मा छन्। A ले पहिलो शर्तलाई उल्टाउँछ र B ले दोस्रोलाई। D ले बाटो (path) को उपमालाई गलत बुझ्छ, जुन तुलना मात्र हो।",
+   "6": "नयाँ शब्दले यो तरिकालाई तनावपूर्ण assessment-बाट छुट्याउँछ। D लाई \"None of this means that schools should simply give students more examinations\" ले contradict गर्छ।",
+   "7": "यही मूल विचार हो। A कठिन विषयबारे हो, तरिकाबारे होइन। B धेरै absolute छ। D ले अन्तिम sentence-लाई उल्टाइदिन्छ।"
+  }
+ },
+ {
+  "id": "rb_mcq_12",
+  "lesson": {
+   "title": "जब question र passage-मा एउटै शब्द पनि मिल्दैन",
+   "text": "कठिनाइ बढ्दै जाँदा, question stem-ले passage-को vocabulary लगभग प्रयोग नै गर्दैन। उदाहरणका लागि, passage-मा \"dockers' unions ... strikes\" भनिएको ठाउँमा stem-ले \"workers' reaction\" भन्न सक्छ। मिल्दो शब्द scan गरेर तपाईं उत्तर भेट्टाउन सक्नुहुन्न। त्यसको सट्टा:\n\n1. Stem-लाई एउटा सजिलो विचारमा बदल्नुहोस् (\"How did the workers feel?\")।\n\n2. Question-को क्रम र paragraph-का विषय प्रयोग गरेर सही भाग पत्ता लगाउनुहोस्।\n\n3. उही शब्द होइन, त्यो विचारका synonym, उदाहरण वा वर्णन खोज्नुहोस्। Passage-को wording सबैभन्दा धेरै दोहोर्‍याउने option प्रायः trap हुन्छ।",
+   "example": "Stem: \"How did residents respond to the new airport?\"\nPassage: \"Petitions were signed by thousands living nearby, and weekly protests continued for a year.\"\nउत्तरको विचार: strong opposition।\nएउटा शब्द पनि मिल्दैन, तर अर्थ मिल्छ।"
+  },
+  "explanations": {
+   "1": "Port-मा सामान ओसारपसार (handling) गर्ने खर्च प्रायः ठूलो हुन्थ्यो। A ले तुलनालाई उल्टाइदिन्छ। D ले \"Theft was also common\" लाई contradict गर्छ।",
+   "2": "\"A small fraction\" = \"greatly cut costs\"। A लाई \"Versions of this idea had been tried before\" ले contradict गर्छ। McLean निजी company-को मालिक थिए, त्यसैले D गलत हो।",
+   "3": "यसले system-का भागहरूबीचको आपसी निर्भरताको वर्णन गर्छ। A, C र D भनिएको छैन।",
+   "4": "\"Move freely between\" = \"interchangeable\"। B, C र D वर्णन गरिएका सम्झौता (agreement) हरूको प्रभाव होइनन्।",
+   "5": "पुराना port-हरूले आफूलाई बदल्न सकेनन् र तिनको काम घट्यो। A र C उल्टो हुन्। D को उल्लेख छैन।",
+   "6": "\"Resisted\" र \"long ... disputes\" = \"opposed ... for long periods\"। Stem र passage-मा कुनै शब्द मिल्दैन, त्यसैले यो उत्तर paraphrase-मा भर पर्छ। D \"crane operators\" बाट बनाइएको trap हो।",
+   "7": "Paragraph एउटा सामान्य पाठ (general lesson) मा टुङ्गिन्छ। D trap हो, किनभने त्यो पाठले वास्तवमा व्यक्तिगत आविष्कारको महत्त्वलाई कम देखाउँछ।"
+  }
+ },
+ {
+  "id": "rb_mcq_13",
+  "lesson": {
+   "title": "सत्य तर अपूर्ण option (\"true but incomplete\")",
+   "text": "Medium level-मा, दुईवटा option दुवै सही जस्ता देखिन सक्छन्। प्रायः तीमध्ये एउटा सत्य त हुन्छ, तर question-ले सोधेको कुराको वा evidence-को एक भाग मात्र समेट्छ। अन्तिम दुई option-लाई सम्बन्धित पूरा sentence वा paragraph-सँग तुलना गर्नुहोस्। सही option-ले प्रायः पूरा बुँदाको सार दिन्छ, जबकि distractor-ले त्यसको एउटा विवरण मात्र समात्छ।",
+   "example": "Passage: \"The village was abandoned because the river dried up and the new road bypassed it.\"\nQuestion: Why was the village abandoned?\nA the river dried up (सत्य, तर अपूर्ण)\nB it lost both its water supply and its transport connection (पूर्ण)\nएउटा मात्र letter छान्न पाइन्छ भने B छान्नुहोस्।"
+  },
+  "explanations": {
+   "1": "यो दृश्यले टाढाबाट गरिने साँच्चैको कुराकानी देखाउँछ। A लाई सिधै अस्वीकार गरिएको छ (\"not ... simple signals like those used to call a dog\")। D लाई देशहरूको सूचीले contradict गर्छ।",
+   "2": "\"Transposing\" = \"converting\"। A लाई सिधै अस्वीकार गरिएको छ। D ले \"missing letters\" तुलनालाई गलत बुझ्छ, जुन उपमा (analogy) मात्र हो।",
+   "3": "A ले ती भाषाहरूको वर्णन गर्छ जहाँ स्वरको उचाइ (pitch) ले शब्दहरू छुट्याउँछ। C लाई \"may therefore differ considerably between regions\" ले contradict गर्छ।",
+   "4": "B ले व्याख्याका दुवै भाग जोड्छ। एउटा भाग मात्र दिने option अपूर्ण हुन्थ्यो। A र C भनिएको छैन। D ले बुँदालाई उल्टाइदिन्छ: सिट्टी (whistle) पृष्ठभूमिको आवाजबाट छुट्टै सुनिन्छ।",
+   "5": "C ले अन्तिम sentence-का दुवै आधा भाग समेट्छ। A ले \"relatively few\" लाई contradict गर्छ। D ले यो चलन La Gomera होइन, अन्यत्र कहाँ बाँचेको छ भनेर वर्णन गर्छ।",
+   "6": "यो finding-को paraphrase हो। A ले \"both halves\" लाई contradict गर्छ। C र D भनिएको छैन।",
+   "7": "\"Redundant\" = \"more information than listeners need\"। D उल्टो हो। C को उल्लेख छैन।"
+  }
+ },
+ {
+  "id": "rb_mcq_14",
+  "lesson": {
+   "title": "समयसँगै हुने परिवर्तन (Questions about change over time)",
+   "text": "Policy वा विकासबारेका passage-हरूले प्रायः पहिले, बीचमा र पछि कस्तो थियो भनेर वर्णन गर्छन्। Question-ले कुनै कुरा कसरी बदलियो भनेर सोध्न सक्छ, जस्तै जनमत (public opinion) वा traffic-को मात्रा। Distractor-हरूले प्रायः सही अवस्थालाई गलत चरणमा राख्छन् (पछि होइन, पहिले मानिसहरूले के सोच्थे)। Passage-मा समय जनाउने संकेतहरू (initially, at first, during the trial, once, subsequently, by the end) मा चिनो लगाउनुहोस् र हरेक तथ्यलाई त्यसको चरणसँग मिलाउनुहोस्।",
+   "example": "Passage: \"At first, most residents opposed the new park; after it opened, surveys showed strong approval.\"\nQuestion: How did opinion develop?\nसही: it moved from opposition to support।\nTrap: most residents opposed the park — यो सत्य हो, तर पहिलो चरणको लागि मात्र।"
+  },
+  "explanations": {
+   "1": "नयाँ सडकहरूले नयाँ traffic आकर्षित गर्छन्। A त्यो विश्वास हो जसलाई economist-हरूले अस्वीकार गरे। C र D भनिएको छैन।",
+   "2": "यो सिधा paraphrase हो। A, C र D तर्कको भाग होइनन्।",
+   "3": "Camera-हरूले permit र booth-को ठाउँ लिए। A, B र D को उल्लेख छैन।",
+   "4": "यो उत्तरका लागि हरेक तथ्यलाई त्यसको चरणसँग मिलाउनुपर्छ। A ले दिशा उल्टाइदिन्छ। D लाई Paragraph D-मा उल्लेख गरिएका opinion poll-हरूले contradict गर्छन्।",
+   "5": "\"Larger than predicted\" = \"exceeded predictions\"। A उल्टो हो। D ले \"Journey times became shorter\" लाई contradict गर्छ।",
+   "6": "\"Failed to materialise\" = \"did not happen\"। D पूरा नभएका डरहरूमध्ये एउटा हो। B passage-भन्दा बाहिर जान्छ, किनभने passage-ले ग्राहक गुम्ने डर साँचो भएन भन्ने मात्र भन्छ।",
+   "7": "Writer-ले शर्तसहितको (conditional) अडान लिन्छन्। A ले आलोचकहरूको विचारलाई absolute बनाएर प्रस्तुत गर्छ। D लाई \"not a solution for every city\" ले contradict गर्छ।"
+  }
+ },
+ {
+  "id": "rb_mcq_15",
+  "lesson": {
+   "title": "Hard Multiple Choice — सटीक दाबी र writer-को शर्तसहितको अडान (qualified position)",
+   "text": "Hard level-मा:\n\nहरेक option-मा passage-कै भाषा हुन सक्छ। तपाईंले हरेक दाबी कति बलियो छ र कति दायरामा लागू हुन्छ (some / most / all, may / does, in certain conditions / generally) भनेर तौलनुपर्छ। Writer-ले प्रायः शर्तसहितको (qualified) अडान लिन्छन्। उनी तर्कको एउटा भाग स्वीकार गर्छन् र अर्को भाग अस्वीकार गर्छन्। सही option-ले त्यही सन्तुलन देखाउँछ। Distractor-हरूले एउटा पक्षलाई धेरै जोड दिएर भन्छन्।\n\nEvidence धेरै paragraph-मा छरिएको हुन सक्छ। \"the later research\" बारेको question-का लागि दुई ठाउँबाट जानकारी चाहिन सक्छ।\n\nरणनीति: हरेक option-को दाबी गर्ने शब्द (जस्तै proved, always, no effect, depends) मा underline गर्नुहोस् र passage-ले ठ्याक्कै त्यति बलियो दाबीलाई support गर्छ कि गर्दैन जाँच्नुहोस्।",
+   "example": "Passage: \"The drug helped some patients, but in larger trials the average benefit was close to zero, although certain groups still seemed to respond.\"\nसबैभन्दा राम्रो सारांश: the drug's benefit appears limited to particular groups।\nधेरै बलियो: the drug does not work।\nयो पनि धेरै बलियो: the drug is effective।"
+  },
+  "explanations": {
+   "1": "ठूलो display-ले बढी चासो खिच्यो तर बिक्री कम भयो। A ले visitor-सम्बन्धी finding-लाई उल्टाइदिन्छ। D ले बिक्रीको फरकलाई contradict गर्छ।",
+   "2": "\"Seemed almost self-evident\" = \"widely accepted assumption\"। A वातावरण (setting) को एउटा विवरण मात्र हो, नतिजा अचम्मको हुनुको कारण होइन।",
+   "3": "\"even\" शब्द र pension-देखि product-सम्मको दायराले यो विचार आफ्नो मूल evidence-भन्दा कति टाढासम्म फैलियो भनेर देखाउँछ। यो inference हो, र Paragraph G-मा writer-ले पछि दिएको चेतावनीले यसलाई support गर्छ। C trap हो: pension policy-को लक्ष्य थियो, evidence-को स्रोत होइन।",
+   "4": "\"Close to zero\" = \"negligible\"। B ले \"a few found\" लाई \"always\" बनाइदिन्छ। D लाई support छैन, र Paragraph G-ले नतिजा \"may well have been genuine\" भन्छ।",
+   "5": "यो writer-ले भनेको कारण हो। C contradict हुन्छ: संयुक्त विश्लेषण (combined analysis) मा \"published and unpublished experiments\" समावेश थिए। D भनिएको छैन।",
+   "6": "\"Already knew what they wanted\" = \"clear preferences beforehand\"। A, B र D ती अवस्था हुन् जसमा ठूलो assortment-ले समस्या ल्याउने सम्भावना बढी हुन्छ। यो question-ले हरेक शर्तको दिशा ध्यान दिएर पढ्ने क्षमता जाँच्छ।",
+   "7": "यो C सँग मेल खान्छ। A लाई अस्वीकार गरिएको छ: \"The problem is rarely that the original researchers were wrong\"। Writer-को शर्तसहितको विचारका लागि D धेरै बलियो छ। B धेरै extreme छ र कहीँ भनिएको छैन।"
+  }
+ },
+ {
+  "id": "rb_mcq_16",
+  "lesson": {
+   "title": "प्रतिस्पर्धी theory-हरू र evidence-ले तिनमा पार्ने असर (Competing theories)",
+   "text": "Hard passage-हरूले प्रायः धेरै व्याख्याहरूको तुलना गर्छन्, अनि तिनलाई फरक-फरक तरिकाले असर गर्ने evidence ल्याउँछन्। Question-ले कुनै finding-ले कुन theory-लाई challenge गर्छ, वा कुनै खोजले कुनै व्याख्याका लागि के संकेत गर्छ भनेर सोध्न सक्छ। दिमागमा वा कागजमा छिटो एउटा grid बनाउनुहोस्:\n\nTheory | Main claim | Evidence for | Evidence against\n\nत्यसपछि grid हेरेर उत्तर दिनुहोस्। Distractor-हरूले प्रायः evidence-लाई गलत theory-सँग जोड्छन्, वा \"challenges\" लाई \"disproves\" ठान्छन्।",
+   "example": "Passage: \"Theory X says the lake dried because of farming; Theory Y blames a drought. Sediment shows the lake shrank before farms were built.\"\nQuestion: What does the sediment suggest?\nसही: it weakens Theory X।\nTrap: it proves Theory Y (धेरै बलियो) र it supports Theory X (गलत दिशा)।"
+  },
+  "explanations": {
+   "1": "Paragraph-ले एउटा मान्यता (assumption) खडा गर्छ, त्यसमाथि प्रश्न उठाउनका लागि। A धेरै बलियो छ: writer-ले खेतीलाई कहिल्यै गल्ती भन्दैनन्। D लाई \"independently in several other parts of the world\" ले contradict गर्छ।",
+   "2": "C दाबीको सावधान बल (\"no better, and often worse\") सँग मेल खान्छ। B ले जनसंख्याबारेको दाबी उल्टाइदिन्छ, किनभने खेतीले \"populations to grow\" गर्न दियो। D ले बढाइचढाइ गर्छ: बाली नसप्रिँदा भोकमरी आउन \"could\" सक्थ्यो, हरेक वर्ष होइन।",
+   "3": "सुरुको कारण (trigger) जङ्गली खाद्य स्रोत घट्नु हो। A trap हो: न्यानो अवधिले जङ्गली अन्न किन फैलियो भनेर बुझाउँछ, मानिसहरूले किन रोप्न थाले भनेर होइन। C पहिलो व्याख्याको भाग हो।",
+   "4": "सामाजिक theory-ले भोकमा होइन, भेला (gathering) हरूमा ध्यान दिन्छ। A ले अरू व्याख्याहरूको वर्णन गर्छ। C contradict हुन्छ, किनभने यो विचारमा अन्न केन्द्रमा छ।",
+   "5": "मितिहरूले building-लाई खेतीभन्दा पहिले राख्छन्। A उल्टो हो। B धेरै बलियो छ: Paragraph F-ले हावापानीले पनि \"at the same time\" काम गरेको हुन सक्छ भन्छ। D लाई जङ्गली जनावरका अवशेषले contradict गर्छन्।",
+   "6": "Writer-ले विवादित व्याख्याहरूलाई यो बढी पक्का निष्कर्षबाट छुट्याउँछन्। A र D ले \"a single site ... cannot show what motivated communities across a large region\" भन्ने सावधान विचारलाई contradict गर्छन्। C लाई उही paragraph-ले contradict गर्छ।",
+   "7": "C ले \"gradual\" र \"different reasons\" दुवैलाई जोड्छ। A ले व्याख्यालाई एउटै कारणमा सीमित गर्छ, जसलाई writer-ले अस्वीकार गर्छन्। B र D लाई \"gradual\" र मानिसहरूले खेतीलाई शिकार र सङ्कलनसँग मिसाएका \"long periods\" ले contradict गर्छन्।"
+  }
+ },
+ {
+  "id": "rb_mcq_17",
+  "lesson": {
+   "title": "सामान्य बुद्धिविपरीत विचार (Counter-intuitive ideas)",
+   "text": "केही Hard passage-ले सामान्य बुद्धि (common sense) विपरीत जाने विचार बुझाउँछन्। यहाँ, उदाहरणका लागि, पग्लिँदै गरेका glacier-ले सुरुमा उपलब्ध पानीको मात्रा बढाउँछन् र पछि मात्र घटाउँछन्। Question-ले तपाईंले तर्कलाई ठ्याक्कै पछ्याउनुभयो कि भनेर जाँच्छ, र distractor-हरूले \"common-sense\" version दिन्छन्। जब passage-ले अचम्मको संकेत दिन्छ (paradoxically, counter-intuitively, at first sight, in fact), बिस्तारै पढ्नुहोस् र option पढ्नुअघि त्यो विचारलाई आफ्नै शब्दमा फेरि भन्नुहोस्।",
+   "example": "Passage: \"Paradoxically, the new bypass increased traffic in the town centre, because it made the town easier to reach.\"\nQuestion: Why did traffic increase?\nसही उत्तर: improved access attracted more visitors।\nTrap (लोभ्याउने गलत option): the bypass sent traffic through the centre।"
+  },
+  "explanations": {
+   "1": "Glacier महत्त्वपूर्ण छन्, किनभने तिनको पानी कहिले आइपुग्छ भन्ने कुराले फरक पार्छ। A र C ले यस्तो absolute wording प्रयोग गर्छन् जसलाई passage-ले support गर्दैन। D धेरै extreme छ, किनभने hydroelectric power उल्लेख गरिएका धेरै प्रयोगमध्ये एउटा मात्र हो।",
+   "2": "\"Store that accumulated over centuries\" = \"stored over a long period\"। A contradict हुन्छ, किनभने glacier-ले जति पाउँछ त्यसभन्दा बढी गुमाउँछ। C को उल्लेख छैन।",
+   "3": "खुला बरफ कम भएपछि पग्लिएको पानी पनि कम हुन्छ। A ले \"temperatures continue to rise\" लाई contradict गर्छ। C ले glacier सकिएपछिको अवस्था बताउँछ, घट्नुको कारण होइन।",
+   "4": "A लाई सिधै अस्वीकार गरिएको छ। B ले \"some small, low-altitude glaciers\" बाट सबैमा लागू हुने गरी सामान्यीकरण गर्छ। D धेरै बलियो छ, किनभने model-हरूले अनुमान त दिन्छन्।",
+   "5": "यही खतरा writer-ले औंल्याएका छन्। A ले भविष्यको कुरा गर्छ, अहिलेको प्रशस्त पानी भएको अवधिको होइन। D भनिएको छैन।",
+   "6": "Researcher-हरूले अङ्कहरू स्वीकार्छन् तर एउटा शर्त (qualification) थप्छन्। A र B ले यसलाई उल्टो-उल्टो दिशामा गलत रूपमा प्रस्तुत गर्छन्। D भनिएको छैन।",
+   "7": "A सिधा paraphrase हो। B लाई \"None of this implies that nothing can be done\" ले contradict गर्छ। C ले जलाशय (reservoir) को भूमिकालाई बढाइचढाइ गर्छ। D त्यो तरिका हो जसविरुद्ध writer-ले चेतावनी दिन्छन्।"
+  }
+ },
+ {
+  "id": "rb_mcq_18",
+  "lesson": {
+   "title": "Technical ज्ञानबिना technical व्याख्या बुझ्ने",
+   "text": "Hard passage-ले कहिलेकाहीँ कुनै engineering वा वैज्ञानिक सिद्धान्त बुझाउँछ। तपाईंलाई विषय पहिल्यै थाहा हुनुपर्दैन; चाहिने सबै कुरा text-मै हुन्छ। यस्ता passage-का distractor-हरूले प्रायः:\n- technically विश्वासयोग्य सुनिन्छन् तर भनिएको हुँदैन — यो outside-knowledge trap हो;\n- सम्बन्धित दुई force वा component-लाई झुक्याउँछन्;\n\n- सम्बन्धको दिशा उल्टाइदिन्छन् (अग्ला भित्ता → बाहिरतिर बढी धक्का, कम होइन)। पढ्दै जाँदा हरेक technical sentence-लाई सजिलो भाषामा paraphrase गर्नुहोस्, जस्तै: \"the roof pushes the walls outward\"।",
+   "example": "Passage: \"The heavier the load on an arch, the more strongly it pushes sideways against its supports.\"\nQuestion: Which is true?\nसही उत्तर: increasing the load increases sideways force।\nTrap (लोभ्याउने गलत option): heavier arches need no side support।"
+  },
+  "explanations": {
+   "1": "यही \"two apparently contradictory impressions\" हो। D passage-मा पछि मात्र संकेत गरिएको छ, र यो Paragraph A-मा वर्णन गरिएको विरोधाभास होइन।",
+   "2": "A र B ले दुवै सम्बन्धलाई उल्टाइदिन्छन्। D ले compression (ढुङ्गामा हुने सामान्य अवस्था) लाई thrust-को कारणसँग झुक्याउँछ।",
+   "3": "यही संरचनागत (structural) कारण हो। A र C सुन्दा विश्वासयोग्य लाग्छन् तर बाहिरी ज्ञान चाहिन्छ, किनभने passage-ले खर्च वा धार्मिक रोजाइको कुरा कहिल्यै गर्दैन।",
+   "4": "Ribbed vault-हरूले भार एकै ठाउँमा केन्द्रित गर्छन् (A) र flying buttress-हरूले thrust-लाई टाढा लैजान्छन् (B)। कुनै पनिले thrust घटाउँछ भनिएको छैन। Distractor-हरूले सम्बन्धित component-हरूलाई झुक्याउँछन्।",
+   "5": "यो text-ले सिधै support गरेको inference हो। A त त्यो विचार हो जसलाई writer-ले अस्वीकार गर्छन्। B लाई system-को स्थिरताले contradict गर्छ।",
+   "6": "Writer-ले \"Neither view appears to be correct\" भनेर \"modern theory\" (A, D) र \"pure luck\" (B) दुवैलाई स्पष्ट रूपमा अस्वीकार गर्छन्।",
+   "7": "A लाई \"what matters is not the strength of the material\" ले contradict गर्छ। C लाई \"considerable margin of safety\" ले contradict गर्छ। D को उल्लेख छैन।"
+  }
+ },
+ {
+  "id": "rb_mcq_19",
+  "lesson": {
+   "title": "Correlation, causation र research design — सम्बन्ध हुनु भनेको कारण हुनु होइन",
+   "text": "धेरै research passage-ले दुई कुरा सँगै देखिन्छन् भन्ने भेट्टाउनु (correlation) र एउटाले अर्कोलाई निम्त्याउँछ भनेर देखाउनु (causation) बीच फरक छुट्याउँछन्। Hard question-ले तपाईंले writer-को सावधानी याद गर्नुभयो कि भनेर जाँच्छ। Distractor-हरूले \"is associated with\" लाई \"causes\" बनाइदिन्छन्, वा writer-ले उल्लेख गरेको सीमितता (limitation) बेवास्ता गर्छन्।\n\nStudy design जनाउने संकेतहरूमा ध्यान दिनुहोस्: compared, followed over time, randomly assigned, before and after। writer-का सावधानीका शब्दहरूमा पनि ध्यान दिनुहोस्: this does not prove, cannot rule out, it is possible that।",
+   "example": "Passage: \"People who drink more coffee tend to live longer, but coffee drinkers may also differ in income and exercise.\"\nसही निष्कर्ष: the link may be explained by other factors।\nTrap: coffee extends life।"
+  },
+  "explanations": {
+   "1": "यो सिधा paraphrase हो। A, C र D लाई प्रश्नको रूपमा उठाइएको छैन।",
+   "2": "समस्या कारणको दिशा (direction of cause) हो। B ले finding-लाई contradict गर्छ। A र C भनिएको छैन।",
+   "3": "Before-and-after design-ले कारणसम्बन्धी दाबीलाई बलियो बनाउँछ। C contradict हुन्छ: वृद्धि qualify गर्ने trainee-हरूमा मात्र देखियो। D ले training-अघि \"showed no difference\" लाई contradict गर्छ।",
+   "4": "यो सिधै भनिएको छ। C Paragraph E-को वैकल्पिक व्याख्याबाट बनाइएको trap हो, जसलाई follow-up study-ले \"less likely\" बनायो।",
+   "5": "\"Participants' own reports\" = \"what participants said about their own behaviour\"। D ले अर्को सीमिततालाई उल्टाइदिन्छ: study-ले सहभागीहरूलाई randomly assign गरेको थिएन।",
+   "6": "A ले यसलाई लामो समयसम्म रहने असरको प्रमाण बनाइदिन्छ, जसलाई writer-ले अस्वीकार गर्छन्। C ले रिपोर्ट गरिएका फरकहरूलाई contradict गर्छ।",
+   "7": "A लाई स्पष्ट रूपमा अस्वीकार गरिएको छ (\"It would be wrong ... to conclude\")। \"occasionally switch the app off\" सँग तुलना गर्दा C धेरै extreme छ। D ले \"What the evidence does suggest\" लाई contradict गर्छ।"
+  }
+ },
+ {
+  "id": "rb_mcq_20",
+  "lesson": {
+   "title": "जब कुनै प्रसिद्ध कथा सच्याइन्छ (When a famous story is revised)",
+   "text": "सबैभन्दा कठिन passage-हरूले प्रायः एउटा लोकप्रिय व्याख्या वर्णन गर्छन्, अनि पछिको research-ले त्यसलाई कसरी जटिल बनायो भनेर देखाउँछन्। Question-हरूले ४ वटा कुरा जाँच्छन्:\n\n1. मूल कथाले के दाबी गर्थ्यो;\n\n2. कुन evidence-ले त्यसलाई support गर्थ्यो;\n\n3. पछिका researcher-हरूले के भेट्टाए;\n\n4. अन्त्यमा writer-को अडान के हो।\n\nWriter-को अडान प्रायः दुई छेउको बीचमा हुन्छ: कथा न पूरै सत्य हो, न पूरै गलत। एउटा छेउ समात्ने option-हरूदेखि, र पछिको finding-लाई मूल researcher-हरूको भनेर देखाउने option-हरूदेखि सावधान रहनुहोस्।",
+   "example": "Passage: \"The statue was long believed to be Roman. Recent tests suggest parts are Roman but the head was added in the eighteenth century.\"\nसबैभन्दा राम्रो सारांश: the statue combines ancient and later parts।\nTrap: it is entirely Roman र it is an eighteenth-century fake।"
+  },
+  "explanations": {
+   "1": "ब्वाँसाहरूले elk घटाएर अप्रत्यक्ष रूपमा रूखहरूलाई मद्दत गरे। C ले क्रम उल्टाइदिन्छ, किनभने beaver-हरू रूखहरू फेरि हुर्किएपछि आए। A लाई support छैन।",
+   "2": "Otter-हरूले cascade-को स्थापित उदाहरण देखाउँछन्। D लाई \"on land\" ले contradict गर्छ। B ले यो paragraph-लाई कथाको पछिको संशोधनसँग झुक्याउँछ।",
+   "3": "यो विचार आकर्षक हुनुको कारण डरले मात्रै असर पार्न सक्छ भन्ने थियो। A ले \"not fallen much\" लाई contradict गर्छ। C ले Paragraph D-लाई contradict गर्छ, जसले ब्वाँसाहरू मुख्यतः बिहान सबेरै, साँझपख र राति शिकार गर्छन् भन्छ।",
+   "4": "यसले finding-का दुवै भाग समेट्छ। A लाई \"little evidence that they abandoned such places\" ले contradict गर्छ। B लाई \"did adjust\" ले contradict गर्छ।",
+   "5": "सूचीले अरू सम्भावित कारणहरू देखाउँछ, जसले गर्दा ब्वाँसाहरूको भूमिका छुट्याउन गाह्रो हुन्छ। A र C passage-भन्दा अगाडि जान्छन्, किनभने writer-ले ब्वाँसाहरूको असरलाई कहिल्यै दर्जा (rank) दिँदैनन् न त अस्वीकार गर्छन् (Paragraph G हेर्नुहोस्)। D ले \"no controlled experiment is possible\" लाई contradict गर्छ।",
+   "6": "यो सिधै भनिएको छ। A, C र D को उल्लेख छैन।",
+   "7": "यही शर्तसहितको बीचको अडान हो। A र B ती दुई छेउ हुन् जसलाई writer-ले अस्वीकार गर्छन्। D भनिएको छैन र \"necessary step\" सँग मेल खाँदैन।"
+  }
+ },
+ {
+  "id": "rb_tfng_01",
+  "lesson": {
+   "title": "अङ्क र मिति (Numbers and dates)",
+   "text": "सजिला set-हरूमा, धेरै statement-मा कुनै अङ्क, मिति वा दूरी हुन्छ। त्यो अङ्क वा त्यसको नजिकको बराबरी रूप passage-मा खोज्नुहोस् (70,000 लाई seventy thousand, र half लाई 50% भनेर लेखिएको हुन सक्छ)। त्यसपछि त्यो अङ्कले केलाई जनाउँछ भनेर जाँच्नुहोस्। Statement-ले सही अङ्कलाई गलत कुरासँग जोड्न सक्छ (FALSE), वा अङ्कबारे यस्तो विवरण थप्न सक्छ जुन passage-ले कहिल्यै दिँदैन (NOT GIVEN)।",
+   "example": "Passage: \"The tower is 90 metres tall.\"\nStatement: \"The tower is 90 metres wide.\"\n→ FALSE? होइन: passage-ले चौडाइ (width) बारे केही भन्दैन, त्यसैले उत्तर NOT GIVEN हो। Passage-ले फरक चौडाइ दिएको भए मात्र यो FALSE हुन्थ्यो।"
+  },
+  "explanations": {
+   "1": "एक सय ग्राम एक किलोग्रामभन्दा धेरै कम हो, त्यसैले passage-ले statement-लाई contradict गर्छ।",
+   "2": "हरेक चरा हरेक वर्ष उही ठाउँमा फर्किन्छ कि फर्किँदैन भनेर passage-ले कहीँ भन्दैन, त्यसैले statement-लाई न पुष्टि गर्न सकिन्छ न contradict गर्न सकिन्छ।",
+   "3": "\"Striking ... intruders including humans\" = \"may attack people\" — अर्थ उस्तै छ, त्यसैले TRUE।",
+   "4": "Tracking study-भन्दा पहिले नै वैज्ञानिकहरूसँग ringed bird-हरूबाट पाएको evidence थियो। उनीहरूसँग नभएको कुरा चाहिँ बाटो (route) सम्बन्धी जानकारी थियो।",
+   "5": "\"Straight-line distance\" = \"direct flight\" — अर्थ उस्तै छ, त्यसैले TRUE।",
+   "6": "\"Stop\" = \"rest\", र \"plentiful\" = \"plenty of food\" — दुवै भाग मिल्छन्।",
+   "7": "कुनै पनि कुराले statement-लाई न पुष्टि गर्छ न contradict गर्छ।",
+   "8": "\"Some\" ले \"every region\" लाई contradict गर्छ। यो qualifier trap हो। ध्यान दिनुहोस्, उत्तर FALSE हो, NOT GIVEN होइन, किनभने \"some populations have declined\" को अर्थ गिरावट सबैतिर भएको छैन भन्ने हो।"
+  }
+ },
+ {
+  "id": "rb_tfng_02",
+  "lesson": {
+   "title": "\"First\", \"only\" र अन्य strong word",
+   "text": "Statement-हरूमा प्रायः बलियो दाबी गर्ने शब्दहरू हुन्छन्: first, only, never, always, all, the most। Passage-ले विषयलाई support गर्न सक्छ, तर दाबीको त्यति बललाई होइन।\n\nPassage-ले कोही among the first थिए भन्छ भने, उनी the first थिए भन्ने statement प्रायः NOT GIVEN हुन्छ। Passage-ले त्योभन्दा पहिलेको कसैको नाम दिएको भए मात्र यो FALSE हुन्छ। Passage-ले अरूले पहिले नै प्रयास गरिसकेका थिए भन्छ भने, X प्रयास गर्ने पहिलो व्यक्ति थिए भन्ने statement FALSE हुन्छ।",
+   "example": "Passage: \"Several companies had made electric cars before 1900.\"\nStatement: \"The first electric car was made in 1920.\"\n→ FALSE, किनभने 1900 भन्दा पहिले नै गाडीहरू थिए।"
+  },
+  "explanations": {
+   "1": "यो उन्नाइसौँ शताब्दीको अन्त्यतिरै भइसकेको थियो, 1910 को दशकमा Birdseye-को कामभन्दा पहिले।",
+   "2": "\"Poor reputation\" ले \"high quality\" लाई contradict गर्छ।",
+   "3": "Passage-ले Birdseye-भन्दा पहिले नै माछा जमाइन्थ्यो भनेर देखाउँछ, जसले गर्दा \"the first\" असम्भव हुन्छ।",
+   "4": "\"Several years\" ले त्यो अवधि दस वर्षभन्दा बढी थियो कि कम भनेर बताउँदैन। Passage-ले statement-लाई न पुष्टि गर्छ न contradict गर्छ।",
+   "5": "\"Breaking cell walls\" = \"damage food\" — अर्थ उस्तै छ।",
+   "6": "\"Failed\" ले \"successful\" लाई contradict गर्छ।",
+   "7": "1929 को \"The following year\" = 1930। Passage-ले यसलाई product-हरू बिक्रीमा आएको क्षणको रूपमा वर्णन गर्छ।",
+   "8": "कुनै पछुतोलाई कुनै कुराले न पुष्टि गर्छ न contradict गर्छ।"
+  }
+ },
+ {
+  "id": "rb_tfng_03",
+  "lesson": {
+   "title": "कारण-परिणामका statement (Cause-and-effect statements)",
+   "text": "Statement-ले दुई तथ्यलाई because, so, led to, as a result जस्ता शब्दले जोड्न सक्छ। ध्यान दिएर जाँच्नुहोस्:\n- Passage-ले उही कारण दिन्छ → TRUE।\n- Passage-ले फरक कारण दिन्छ, वा त्यस्तो सम्बन्ध छैन भन्छ → FALSE।\n- Passage-ले दुवै तथ्यको उल्लेख गर्छ तर तिनबीच कुनै सम्बन्ध दिँदैन → NOT GIVEN।",
+   "example": "Passage: \"The café changed its menu in May. Its sales rose in June.\"\nStatement: \"Sales rose because of the new menu.\"\n→ NOT GIVEN। दुवै घटनाको उल्लेख छ, तर कुनै कारण भनिएको छैन।"
+  },
+  "explanations": {
+   "1": "Statement-ले \"many\" भन्छ र passage-ले \"most\" भन्छ। most भित्र many पर्ने भएकाले statement TRUE हो।",
+   "2": "\"Predict\" = \"expected\" — अर्थ उस्तै छ।",
+   "3": "Passage-ले आर्थिक दबाबको उल्लेख गर्छ, तर library बन्द हुनुको कारण कम प्रयोग थियो भनेर भन्दैन। Statement-मा दिइएको कारणलाई न पुष्टि गरिएको छ न contradict गरिएको छ।",
+   "4": "\"Fallen\" = \"decreased\" — अर्थ उस्तै छ।",
+   "5": "\"Mainly or only\" ले सबै सेवा online-only होइनन् भनेर देखाउँछ, जसले \"all\" लाई contradict गर्छ।",
+   "6": "\"Others\" को अर्थ केही library हो, जुन \"some places\" सँग मेल खान्छ।",
+   "7": "यसले \"all ... support\" लाई सिधै contradict गर्छ।",
+   "8": "Visitor संख्यालाई पुराना library-हरूसँग कहीँ तुलना गरिएको छैन।"
+  }
+ },
+ {
+  "id": "rb_tfng_04",
+  "lesson": {
+   "title": "क्रम र समय जनाउने शब्द (Sequence and time words)",
+   "text": "Statement-ले before, after, later, until, at first, soon जस्ता शब्द प्रयोग गरेर घटनाहरूको क्रम जाँच्न सक्छ। पढ्दै गर्दा passage-का घटनाहरूलाई margin-मा एउटा सजिलो timeline-मा राख्नुहोस्। क्रम उल्टाउने statement FALSE हुन्छ। समयबारे यस्तो statement जसलाई passage-ले टुङ्गो लगाउँदैन — जस्तै सुरु भएको मिति मात्र दिइएको बेला कुनै कुरा कति समय चल्यो भन्ने — NOT GIVEN हुन्छ।",
+   "example": "Passage: \"The bridge opened in 1901; electric trams crossed it from 1910.\"\nStatement: \"Trams used the bridge from the day it opened.\"\n→ FALSE, किनभने tram नौ वर्षपछि मात्र चल्न थाले।"
+  },
+  "explanations": {
+   "1": "\"On the edge\" ले \"in the centre\" लाई contradict गर्छ।",
+   "2": "\"Ridiculed\" चाहिँ \"popular\" को उल्टो हो।",
+   "3": "\"Began\" = \"started\" — अर्थ उस्तै छ।",
+   "4": "कुनै पनि कुराले statement-लाई न पुष्टि गर्छ न contradict गर्छ। Underground line पनि main line-हरूकै तरिकाले बनाइएको थियो भनेर अनुमान नगर्नुहोस्।",
+   "5": "यो सिधै मेल खान्छ।",
+   "6": "यसले \"no passengers complained\" लाई contradict गर्छ।",
+   "7": "\"Worked by\" = \"used\" — अर्थ उस्तै छ।",
+   "8": "रूपान्तरण (conversion) 1890 भन्दा पहिले होइन, 1900 पछि भयो, त्यसैले statement-ले क्रम उल्टाइदिन्छ।"
+  }
+ },
+ {
+  "id": "rb_tfng_05",
+  "lesson": {
+   "title": "Common sense-ले उत्तर दिन नदिनुहोस् (Don't let common sense answer for you)",
+   "text": "केही statement तपाईंलाई पहिल्यै थाहा भएको वा तपाईंले अपेक्षा गरेको कुराका कारण स्पष्ट रूपमा सत्य सुनिन्छन्। TFNG-मा \"sounds true\" भनेको evidence होइन। यदि तपाईं \"that must be right\" भनेर सोचिरहनुभएको छ तर कुनै sentence देखाउन सक्नुहुन्न भने, उत्तर सम्भवतः NOT GIVEN हो। यो trap दैनिक जीवनका विषयहरूमा विशेष गरी धेरै आउँछ।",
+   "example": "Passage: \"The first bicycles had no pedals; riders pushed along with their feet.\"\nStatement: \"Early bicycles were uncomfortable to ride.\"\nसुन्दा सम्भव लाग्छ, तर आराम (comfort) बारे केही भनिएको छैन → NOT GIVEN।"
+  },
+  "explanations": {
+   "1": "\"Changed surprisingly little\" ले \"changed greatly\" लाई contradict गर्छ।",
+   "2": "यो सिधा paraphrase हो।",
+   "3": "\"Used directly\" ले यसलाई माटो (clay) सँग मिसाइन्थ्यो भन्ने विचारलाई contradict गर्छ। माटोसँग मिसाउनु चाहिँ English graphite-को सट्टा प्रयोग गर्न Conté-ले पछि अपनाएको तरिका थियो।",
+   "4": "\"Guarded\" = \"protected\" — अर्थ उस्तै छ।",
+   "5": "उनको अघिल्लो कामको वर्णन गरिएको छैन। Engineer हुनुले पहिले pencil बनाएको सम्भावनालाई हटाउँदैन, त्यसैले statement-लाई न पुष्टि गरिएको छ न contradict गरिएको छ।",
+   "6": "यो सिधै मेल खान्छ।",
+   "7": "Passage-ले फरक कारण दिन्छ। Passage-ले उद्देश्य बताउँछ, र त्यो उद्देश्य statement-को भन्दा फरक छ, त्यसैले उत्तर FALSE हो। कुनै कारण नै नदिइएको भए उत्तर NOT GIVEN हुन्थ्यो। Common sense-ले समात्न सजिलो भएर होला भन्ने लाग्न सक्छ, तर passage-ले भनेको कुरा मात्र गनिन्छ।",
+   "8": "School-मा pen-सँग कुनै तुलना गरिएको छैन।"
+  }
+ },
+ {
+  "id": "rb_tfng_06",
+  "lesson": {
+   "title": "आंशिक मेल (Partial matches)",
+   "text": "Statement आधा सही हुन सक्छ: एउटा भाग passage-सँग मिल्छ र अर्को भाग मिल्दैन। Statement-को हरेक भाग जाँच्नुहोस्।\n\nकुनै पनि भाग contradict भयो भने → FALSE।\n\nएउटा भाग पुष्टि भयो र अर्को भागको उल्लेख नै छैन भने → NOT GIVEN।\n\nहरेक भागलाई support गरिएको छ भने मात्र उत्तर TRUE हुन्छ।",
+   "example": "Passage: \"The river flows south and is used for irrigation.\"\nStatement: \"The river flows south and is used for drinking water.\"\nपहिलो भाग मिल्छ, तर drinking water-को उल्लेख छैन → NOT GIVEN।"
+  },
+  "explanations": {
+   "1": "\"Roughly\" = \"about\", र \"the ocean\" = \"seawater\" — दुवै भाग मिल्छन्।",
+   "2": "यसले नदीले पानी बाहिर लैजान्छ भन्ने विचारलाई contradict गर्छ।",
+   "3": "\"Varied\" ले \"completely unchanged\" लाई contradict गर्छ। यो qualifier trap हो।",
+   "4": "यो सिधा paraphrase हो।",
+   "5": "दुई विकासमध्ये कुन पहिले भयो भन्ने क्रम passage-बाट निर्धारण गर्न सकिँदैन।",
+   "6": "यो आंशिक मेल हो: एउटा भाग पुष्टि भएको छ र अर्को छैन, त्यसैले पूरै statement NOT GIVEN हो।",
+   "7": "प्रक्रिया statement-सँग मेल खान्छ।",
+   "8": "\"uncertain\" भविष्य भन्ने कुरा स्वीकृति (approval) पाइसकेको र निर्माण सुरु भइसकेको कुरासँग मेल खाँदैन।"
+  }
+ },
+ {
+  "id": "rb_tfng_07",
+  "lesson": {
+   "title": "दाबी गरिएको कुरा बनाम भेटिएको कुरा (What was claimed vs what was found)",
+   "text": "Medium passage-हरूले प्रायः study-ले के भेट्टायो, अरूले त्यसले के भेट्टायो भनेर दाबी गरे, र पछिको research-ले के देखायो भन्ने कुरा छुट्याउँछन्। Statement-ले दाबीलाई finding जस्तो गरी वर्णन गर्न सक्छ। उदाहरणका लागि, study-ले university student-हरूमा मात्र test गरेको थियो भने \"the study showed that music makes babies smarter\" FALSE हुन सक्छ। सधैँ सोध्नुहोस्: यो कसले भन्छ, र कुन evidence-को आधारमा?",
+   "example": "Passage: \"The trial tested the drug on adults; newspapers reported it would help children.\"\nStatement: \"The trial showed the drug helps children.\"\n→ FALSE, किनभने trial-मा वयस्कहरू मात्र थिए। (Passage-ले कसमाथि test गरिएको थियो भनेर नभनेको भए उत्तर NOT GIVEN हुन्थ्यो।)"
+  },
+  "explanations": {
+   "1": "Mozart condition-मा भएका student-हरूले दस मिनेट सुने।",
+   "2": "यसले \"several hours\" लाई contradict गर्छ।",
+   "3": "यो सिधै contradict हुन्छ। सामान्य बुद्धि (general intelligence) बढ्छ भन्ने दाबी researcher-हरूबाट होइन, media-बाट आएको थियो।",
+   "4": "उनीहरूको अध्ययनको विषय कहीँ उल्लेख गरिएको छैन, त्यसैले statement-लाई न पुष्टि गर्न सकिन्छ न contradict गर्न सकिन्छ।",
+   "5": "\"Put into practice\" ले recording-हरू प्रस्ताव मात्र होइन, साँच्चै दिइएका थिए भनेर पुष्टि गर्छ।",
+   "6": "Passage-ले recording-हरू बजारमा बेचिए (marketed) भन्छ, तर बिक्रीको अङ्क वा प्रवृत्ति दिँदैन। Recording बजारमा ल्याइएको तथ्यबाट बिक्री बढ्यो भनेर अनुमान नगर्नुहोस्।",
+   "7": "यसले \"strong evidence\" लाई contradict गर्छ।",
+   "8": "Statement-ले यो sentence-लाई नजिकबाट paraphrase गर्छ।",
+   "9": "\"Still debated\" ले \"clear and agreed\" लाई contradict गर्छ।"
+  }
+ },
+ {
+  "id": "rb_tfng_08",
+  "lesson": {
+   "title": "Topic उल्लेख भए पनि NOT GIVEN (NOT GIVEN when the topic is mentioned)",
+   "text": "Medium level-मा, NOT GIVEN statement-हरू प्रायः त्यस्तो topic-बारे हुन्छन् जसको चर्चा passage-ले गरेकै हुन्छ। उदाहरणका लागि, passage-ले पसलेहरूको डरबारे चर्चा गर्छ, र statement-ले ती पसलेहरूबारे यस्तो निश्चित दाबी गर्छ जसलाई passage-ले कहिल्यै टुङ्गो लगाउँदैन। Topic देखियो भन्दैमा TRUE वा\n\nFALSE नछान्नुहोस्। सोध्नुहोस्: के passage-ले यो निश्चित दाबीको फैसला गर्छ?",
+   "example": "Passage: \"Residents objected to the new bus lane, and the council held a public meeting.\"\nStatement: \"The council changed its plans after the meeting.\"\nMeeting-को उल्लेख छ, तर त्यसको नतिजा छैन → NOT GIVEN।"
+  },
+  "explanations": {
+   "1": "यसले \"car-free for centuries\" लाई contradict गर्छ।",
+   "2": "\"Motor traffic\" = \"cars\" — अर्थ उस्तै छ।",
+   "3": "पसलेहरूको चर्चा गरिएको छ, तर तीमध्ये कसैले आफू गलत थिएँ भनेर स्वीकार्‍यो कि भनेर passage-ले कहिल्यै भन्दैन। यो passage-ले उल्लेख गरेकै topic-मा NOT GIVEN हो।",
+   "4": "यो सिधा paraphrase हो।",
+   "5": "यसले \"all ... in a single year\" लाई contradict गर्छ।",
+   "6": "\"Invested heavily\" = \"improved\" — अर्थ उस्तै छ।",
+   "7": "Study-हरू pedestrianisation-भन्दा पहिले होइन, पछि सुरु भए। यसका लागि दुई paragraph-का मितिहरू तुलना गर्नुपर्छ।",
+   "8": "यसले statement-लाई सिधै contradict गर्छ।",
+   "9": "युरोपका अन्य pedestrian street-हरूसँग कुनै तुलना गरिएको छैन, त्यसैले लम्बाइ मात्रले \"the longest\" लाई न पुष्टि गर्न सक्छ न contradict गर्न सक्छ।"
+  }
+ }
+]

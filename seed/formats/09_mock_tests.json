@@ -1,0 +1,67 @@
+{
+  "_format": {
+    "name": "mock_tests",
+    "group": "content",
+    "table": "mock_tests",
+    "primaryKey": "id",
+    "description": "A full mock test assembling one Listening test, one Reading test, two Writing tasks and Speaking.",
+    "currentSourceInApp": "mock.tests",
+    "fields": {
+      "id": "string",
+      "letter": "string",
+      "title": "string",
+      "listeningTest": "string",
+      "readingTest": "string",
+      "task1": "string",
+      "task2": "string",
+      "speaking": "object"
+    },
+    "required": [
+      "id",
+      "letter",
+      "title",
+      "listeningTest",
+      "readingTest",
+      "task1",
+      "task2",
+      "speaking"
+    ],
+    "relations": [
+      "listeningTest → listening_tests.id",
+      "readingTest → reading_tests.id",
+      "task1/task2 → writing_prompts.id",
+      "speaking.part1 → speaking_part1_topics.id",
+      "speaking.cueCard → speaking_cue_cards.id (Part 3 = its part3)"
+    ],
+    "notes": [],
+    "recordCountToday": 3
+  },
+  "items": [
+    {
+      "id": "mt_a",
+      "letter": "A",
+      "title": "Mock Test A",
+      "listeningTest": "lt_01",
+      "readingTest": "rt_01",
+      "task1": "t1_internet_access",
+      "task2": "t2_remote_work",
+      "speaking": {
+        "part1": "s1_work",
+        "cueCard": "cc07"
+      }
+    },
+    {
+      "id": "mt_b",
+      "letter": "B",
+      "title": "Mock Test B",
+      "listeningTest": "lt_02",
+      "readingTest": "rt_02",
+      "task1": "t1_coffee_exports",
+      "task2": "t2_public_transport_funding",
+      "speaking": {
+        "part1": "s1_hometown",
+        "cueCard": "cc22"
+      }
+    }
+  ]
+}

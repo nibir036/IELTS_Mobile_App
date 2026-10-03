@@ -1,0 +1,1439 @@
+{
+  "_format": {
+    "name": "attempts",
+    "group": "user",
+    "table": "attempts",
+    "primaryKey": "id",
+    "description": "Every practice result (one row per attempt). data holds the kind-specific details.",
+    "currentSourceInApp": "Store attempts; demo seeds assets/demo/parts/seed_*.json",
+    "fields": {
+      "id": "string",
+      "skill": "string",
+      "kind": "string",
+      "title": "string",
+      "refId": "string",
+      "band": "null|number",
+      "score": "integer",
+      "total": "integer",
+      "durationSec": "integer",
+      "data": "object",
+      "userId": "string",
+      "createdAt": "string"
+    },
+    "required": [
+      "id",
+      "userId",
+      "skill",
+      "kind",
+      "createdAt"
+    ],
+    "relations": [
+      "userId → users.id",
+      "refId → the content item (passage, set, test, prompt, card, mock, quiz, lesson)"
+    ],
+    "notes": [
+      "skill: listening|reading|writing|speaking|mock|vocab. One example per skill+kind below.",
+      "band = 0-9 in 0.5 steps (null for unscored); durationSec = time spent."
+    ],
+    "recordCountToday": 15
+  },
+  "items": [
+    {
+      "id": "att_seed_lis_lt_02_d1",
+      "skill": "listening",
+      "kind": "test",
+      "title": "Listening Test 2",
+      "refId": "lt_02",
+      "band": 7.0,
+      "score": 30,
+      "total": 40,
+      "durationSec": 1320,
+      "data": {
+        "testId": "lt_02",
+        "answers": {
+          "1": "Okafor",
+          "2": "Spanish",
+          "3": "intermediate",
+          "4": "Harcour",
+          "5": "07845 219631",
+          "6": "Thursday",
+          "7": "librar",
+          "8": "185",
+          "9": "dictionary",
+          "10": "conversatio",
+          "11": "B",
+          "12": "C",
+          "13": "B",
+          "14": "B",
+          "15": "A",
+          "16": "B",
+          "17": "C",
+          "18": "D",
+          "19": "E",
+          "20": "F",
+          "21": "B",
+          "22": "C",
+          "23": "B",
+          "24": "B",
+          "25": "B",
+          "26": "B",
+          "27": "B",
+          "28": "D",
+          "29": "B",
+          "30": "C",
+          "31": "awake",
+          "32": "buffer",
+          "33": "cortex",
+          "34": "maze",
+          "35": "emotiona",
+          "36": "problem",
+          "37": "smel",
+          "38": "twenty",
+          "39": "names",
+          "40": "40"
+        },
+        "correct": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          36,
+          38,
+          39,
+          40
+        ],
+        "total": 40,
+        "parts": [
+          {
+            "setId": "ls_05",
+            "part": 1,
+            "from": 1,
+            "to": 10,
+            "correct": 6,
+            "total": 10
+          },
+          {
+            "setId": "ls_06",
+            "part": 2,
+            "from": 11,
+            "to": 20,
+            "correct": 10,
+            "total": 10
+          },
+          {
+            "setId": "ls_07",
+            "part": 3,
+            "from": 21,
+            "to": 30,
+            "correct": 6,
+            "total": 10
+          },
+          {
+            "setId": "ls_08",
+            "part": 4,
+            "from": 31,
+            "to": 40,
+            "correct": 8,
+            "total": 10
+          }
+        ],
+        "source": "sheet"
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-28T19:00:00Z"
+    },
+    {
+      "id": "att_seed_lis_ls_07_d0",
+      "skill": "listening",
+      "kind": "mini",
+      "title": "Presentation on campus food waste",
+      "refId": "ls_07",
+      "band": 7.5,
+      "score": 8,
+      "total": 10,
+      "durationSec": 400,
+      "data": {
+        "setId": "ls_07",
+        "part": 3,
+        "mode": "Mini Practice",
+        "answers": {
+          "1": "A",
+          "2": "C",
+          "3": "B",
+          "4": "A",
+          "5": "B",
+          "6": "A",
+          "7": "A",
+          "8": "C",
+          "9": "B",
+          "10": "D"
+        },
+        "correct": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10
+        ],
+        "total": 10,
+        "parts": [
+          {
+            "setId": "ls_07",
+            "part": 3,
+            "from": 1,
+            "to": 10,
+            "correct": 8,
+            "total": 10
+          }
+        ],
+        "source": "player"
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-29T11:00:00Z"
+    },
+    {
+      "id": "att_seed_lis_ll_06",
+      "skill": "listening",
+      "kind": "lesson",
+      "title": "Lesson 1 · Spelling names",
+      "refId": "ll_06",
+      "score": 4,
+      "total": 4,
+      "durationSec": 300,
+      "data": {
+        "lessonId": "ll_06"
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-26T08:00:00Z"
+    },
+    {
+      "id": "att_mock_07",
+      "skill": "mock",
+      "kind": "mock",
+      "title": "Mock Test 07",
+      "refId": "mt_a",
+      "band": 6.5,
+      "durationSec": 9900,
+      "data": {
+        "mockId": "mt_a",
+        "mockTitle": "Mock Test A",
+        "sections": {
+          "listening": 7.0,
+          "reading": 6.5,
+          "writing": 6.0,
+          "speaking": 6.5
+        },
+        "overall": 6.5,
+        "average": 6.5,
+        "listeningScore": {
+          "correct": 31,
+          "total": 40
+        },
+        "readingScore": {
+          "correct": 28,
+          "total": 40
+        },
+        "listeningByPart": [
+          {
+            "label": "Part 1",
+            "correct": 9,
+            "total": 10
+          },
+          {
+            "label": "Part 2",
+            "correct": 8,
+            "total": 10
+          },
+          {
+            "label": "Part 3",
+            "correct": 8,
+            "total": 10
+          },
+          {
+            "label": "Part 4",
+            "correct": 6,
+            "total": 10
+          }
+        ],
+        "writingCriteria": {
+          "TA": 6.0,
+          "CC": 5.5,
+          "LR": 6.0,
+          "GRA": 6.5
+        },
+        "speakingCriteria": {
+          "FC": 6.0,
+          "LR": 6.5,
+          "GRA": 6.5,
+          "P": 7.0
+        },
+        "spokenSec": 720,
+        "speakingSec": {
+          "1": 250,
+          "2": 170,
+          "3": 300
+        },
+        "answers": {
+          "listening": {
+            "1": "fairfax",
+            "2": "27",
+            "3": "BH6 4TR",
+            "4": "519208",
+            "5": "swimming",
+            "6": "family",
+            "7": "45",
+            "8": "postr",
+            "9": "Tuesday",
+            "10": "north",
+            "11": "A",
+            "12": "C",
+            "13": "C",
+            "14": "C",
+            "15": "H",
+            "16": "E",
+            "17": "G",
+            "18": "F",
+            "20": "D",
+            "21": "B",
+            "22": "B",
+            "23": "A",
+            "24": "B",
+            "25": "A",
+            "26": "B",
+            "27": "A",
+            "28": "B",
+            "29": "A,C",
+            "31": "London",
+            "32": "9",
+            "33": "night",
+            "35": "evapration",
+            "36": "buildings",
+            "37": "elderly",
+            "38": "reflect",
+            "39": "tres",
+            "40": "sensors"
+          },
+          "reading": {
+            "1": "TRUE",
+            "2": "FALSE",
+            "3": "TRUE",
+            "4": "FALSE",
+            "5": "NOT GIVEN",
+            "6": "iii",
+            "7": "iv",
+            "8": "v",
+            "9": "vii",
+            "10": "building",
+            "11": "disease",
+            "12": "late summer",
+            "13": "verges",
+            "14": "B",
+            "15": "F",
+            "16": "E",
+            "17": "C",
+            "18": "TRUE",
+            "19": "NOT GIVEN",
+            "20": "FALSE",
+            "21": "FALSE",
+            "22": "NOT GIVEN",
+            "23": "C",
+            "24": "A",
+            "25": "C",
+            "26": "B",
+            "27": "i",
+            "28": "vii",
+            "29": "viii",
+            "30": "iv",
+            "31": "ii",
+            "32": "ix",
+            "33": "NO",
+            "34": "YES",
+            "35": "NO",
+            "36": "YES",
+            "37": "D",
+            "38": "C",
+            "39": "shorter uration",
+            "40": "novelty"
+          }
+        },
+        "writing": {
+          "task1Band": 6.0,
+          "task2Band": 6.0,
+          "task1Words": 169,
+          "task2Words": 273,
+          "feedback": [
+            "Use more linking words (however, moreover, as a result) to improve coherence."
+          ],
+          "task1": "The line graph illustrates the proportion of households which had access to the internet in Canada, Brazil and India from 2000 to 2020.\n\nOverall, internet access rose steadily in all three countries over the period. Canada had the highest figures throughout, while India had the lowest, although it showed the biggest growth at the end.\n\nIn 2000, 42% of Canadian homes were connected, which was more than double the figure for Brazil (18%) and much higher than India, where only 9% of households had access. Over the next ten years, Canada increased to 66% and Brazil rose quickly to 47%. India grew more slowly and reached 24% in 2010.\n\nFrom 2010 to 2020, the growth continued in every country. Canada reached 82% by the end of the period, and Brazil climbed to 72%, so the gap between them became smaller. The most dramatic change was in India, where the percentage jumped from 38% in 2015 to 55% in 2020, although it was still the lowest of the three countries.",
+          "task2": "Nowadays more and more companies allow their staff to work from home, especially after the pandemic. Some people think this arrangement is good for both workers and employers. I mostly agree with this opinion, although I believe there are some disadvantages that should be considered.\n\nOn the one hand, working from home has clear benefits for employees. First of all, they do not need to commute every day, so they save a lot of time and money. For example, in big cities like Dhaka, people can spend two or three hours in traffic, and this time could be used for family or rest. In addition, a flexible schedule helps workers to balance their work and personal life, which can make them more satisfied with their job.\n\nOn the other hand, employers can also gain from remote work. Companies can reduce their overheads because they need smaller offices and pay less for electricity and rent. Moreover, they can recruit talented people from any location, not only from the city where the office is. This means the talent pool is much bigger than before.\n\nHowever, there are some drawbacks. Some employees feel isolated when they work alone for a long time, and junior staff may lose the chance to learn from experienced colleagues. Also, the boundary between work and home can become unclear, so people might work longer hours and suffer from burnout.\n\nIn conclusion, I believe working from home benefits both employees and employers in many ways, such as saving time and reducing costs. Nevertheless, a hybrid model, where staff come to the office some days, may be the best solution to avoid isolation."
+        }
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-27T11:00:00Z"
+    },
+    {
+      "id": "att_seed_read_rt_01",
+      "skill": "reading",
+      "kind": "test",
+      "title": "Academic Reading Test 1",
+      "refId": "rt_01",
+      "band": 7.0,
+      "score": 31,
+      "total": 40,
+      "durationSec": 3480,
+      "data": {
+        "testId": "rt_01",
+        "answers": {
+          "1": "TRUE",
+          "2": "FALSE",
+          "3": "TRUE",
+          "4": "FALSE",
+          "5": "NOT GIVEN",
+          "6": "vi",
+          "7": "iv",
+          "8": "v",
+          "9": "viii",
+          "10": "building",
+          "11": "system",
+          "12": "late summer",
+          "13": "season",
+          "14": "B",
+          "15": "F",
+          "16": "A",
+          "17": "G",
+          "18": "TRUE",
+          "19": "TRUE",
+          "20": "TRUE",
+          "21": "FALSE",
+          "22": "FALSE",
+          "23": "B",
+          "24": "A",
+          "25": "C",
+          "26": "B",
+          "27": "i",
+          "28": "ii",
+          "29": "iii",
+          "30": "iv",
+          "31": "ii",
+          "32": "vi",
+          "33": "YES",
+          "34": "NO",
+          "35": "NO",
+          "37": "B",
+          "38": "C",
+          "39": "shorter duration",
+          "40": "novelty"
+        },
+        "correct": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          12,
+          14,
+          15,
+          17,
+          18,
+          19,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          37,
+          38,
+          39,
+          40
+        ],
+        "total": 40,
+        "passages": [
+          "rp_01",
+          "rp_02",
+          "rp_03"
+        ],
+        "flagged": []
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-24T19:00:00Z"
+    },
+    {
+      "id": "att_seed_read_rp_06",
+      "skill": "reading",
+      "kind": "mini",
+      "title": "The Shop That Came to the Door",
+      "refId": "rp_06",
+      "band": 6.5,
+      "score": 9,
+      "total": 13,
+      "durationSec": 1110,
+      "data": {
+        "passageId": "rp_06",
+        "answers": {
+          "1": "TRUE",
+          "2": "FALSE",
+          "3": "NOT GIVEN",
+          "4": "NOT GIVEN",
+          "5": "FALSE",
+          "6": "E",
+          "7": "D",
+          "8": "D",
+          "9": "G",
+          "10": "library loans",
+          "11": "costs",
+          "12": "car journeys",
+          "13": "season"
+        },
+        "correct": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12
+        ],
+        "total": 13,
+        "passages": [
+          "rp_06"
+        ],
+        "flagged": []
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-22T20:00:00Z"
+    },
+    {
+      "id": "att_seed_read_rl_03",
+      "skill": "reading",
+      "kind": "lesson",
+      "title": "Lesson 1 · Paraphrase spotting",
+      "refId": "rl_03",
+      "score": 3,
+      "total": 3,
+      "durationSec": 480,
+      "data": {
+        "lessonId": "rl_03"
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-25T20:00:00Z"
+    },
+    {
+      "id": "att_seed_vocab_2",
+      "skill": "vocab",
+      "kind": "quiz",
+      "title": "Vocabulary quiz · Band 7+ words",
+      "refId": "quiz_band7",
+      "score": 8,
+      "total": 10,
+      "durationSec": 134,
+      "data": {
+        "answers": [
+          {
+            "qId": "q1",
+            "wordId": "word_feasible",
+            "chosen": 0,
+            "correct": true
+          },
+          {
+            "qId": "q2",
+            "wordId": "word_ubiquitous",
+            "chosen": 1,
+            "correct": true
+          },
+          {
+            "qId": "q3",
+            "wordId": "word_alleviate",
+            "chosen": 2,
+            "correct": true
+          },
+          {
+            "qId": "q4",
+            "wordId": "word_detrimental",
+            "chosen": 0,
+            "correct": false
+          },
+          {
+            "qId": "q5",
+            "wordId": "word_curtail",
+            "chosen": 0,
+            "correct": true
+          },
+          {
+            "qId": "q6",
+            "wordId": "word_advocate",
+            "chosen": 2,
+            "correct": true
+          },
+          {
+            "qId": "q7",
+            "wordId": "word_mitigate",
+            "chosen": 1,
+            "correct": true
+          },
+          {
+            "qId": "q8",
+            "wordId": "word_scrutinise",
+            "chosen": 3,
+            "correct": false
+          },
+          {
+            "qId": "q9",
+            "wordId": "word_exacerbate",
+            "chosen": 1,
+            "correct": true
+          },
+          {
+            "qId": "q10",
+            "wordId": "word_burgeoning",
+            "chosen": 2,
+            "correct": true
+          }
+        ],
+        "elapsedSec": 134,
+        "addedToLearning": 2
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-29T09:00:00Z"
+    },
+    {
+      "id": "att_spk_seed_01",
+      "skill": "speaking",
+      "kind": "part2",
+      "title": "Part 2 · A time you helped someone",
+      "refId": "cc14",
+      "band": 6.5,
+      "durationSec": 240,
+      "data": {
+        "spokenSec": 112,
+        "expectedSec": 120,
+        "questions": [
+          {
+            "q": "Describe a time you helped someone.",
+            "spokenSec": 112
+          }
+        ],
+        "criteria": {
+          "FC": 6.0,
+          "LR": 7.0,
+          "GRA": 6.5,
+          "P": 6.5
+        },
+        "summary": "Relevant, well-organised story. Fillers and two long pauses keep fluency below 7.",
+        "feedback": [
+          "Replace “you know” and “like” with a short pause.",
+          "Practise stress in “particularly” and “struggling”."
+        ],
+        "stats": {
+          "fillers": 7,
+          "pauses": 3,
+          "wpm": 118
+        },
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-28T20:00:00Z"
+    },
+    {
+      "id": "att_spk_seed_02",
+      "skill": "speaking",
+      "kind": "part3",
+      "title": "Part 3 · A park or garden you enjoy spending time in",
+      "refId": "cc09",
+      "band": 6.0,
+      "durationSec": 420,
+      "data": {
+        "spokenSec": 252,
+        "expectedSec": 150,
+        "questions": [
+          {
+            "q": "Why are parks important in cities?",
+            "spokenSec": 58
+          },
+          {
+            "q": "Should parks be free for everyone?",
+            "spokenSec": 49
+          },
+          {
+            "q": "Who should be responsible for keeping parks clean?",
+            "spokenSec": 52
+          },
+          {
+            "q": "Do children today spend enough time outdoors?",
+            "spokenSec": 44
+          },
+          {
+            "q": "Should more roofs be turned into gardens?",
+            "spokenSec": 49
+          }
+        ],
+        "criteria": {
+          "FC": 5.5,
+          "LR": 6.5,
+          "GRA": 6.0,
+          "P": 6.0
+        },
+        "summary": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7.",
+        "feedback": [
+          "Replace fillers like “you know” and “like” with a short pause.",
+          "Mix simple and complex sentences — add one “although” or “which” clause per answer."
+        ],
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-28T19:00:00Z"
+    },
+    {
+      "id": "att_spk_seed_03",
+      "skill": "speaking",
+      "kind": "part1",
+      "title": "Part 1 · Hometown",
+      "refId": "s1_hometown",
+      "band": 7.0,
+      "durationSec": 300,
+      "data": {
+        "spokenSec": 168,
+        "expectedSec": 120,
+        "questions": [
+          {
+            "q": "Where is your hometown?",
+            "spokenSec": 38
+          },
+          {
+            "q": "What do you like most about your hometown?",
+            "spokenSec": 44
+          },
+          {
+            "q": "Has your hometown changed much since you were a child?",
+            "spokenSec": 46
+          },
+          {
+            "q": "Would you like to live there in the future?",
+            "spokenSec": 40
+          }
+        ],
+        "criteria": {
+          "FC": 7.0,
+          "LR": 7.0,
+          "GRA": 6.5,
+          "P": 7.5
+        },
+        "summary": "Fluent, well-developed answers. A few hesitations and minor errors remain.",
+        "feedback": [
+          "Mix simple and complex sentences — add one “although” or “which” clause per answer.",
+          "Replace fillers like “you know” and “like” with a short pause."
+        ],
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-26T18:00:00Z"
+    },
+    {
+      "id": "att_spk_seed_08",
+      "skill": "speaking",
+      "kind": "pronunciation",
+      "title": "Pronunciation · Word set",
+      "refId": "pron_default",
+      "band": null,
+      "score": 4,
+      "total": 6,
+      "durationSec": 300,
+      "data": {
+        "words": [
+          {
+            "word": "struggling",
+            "score": 0.81
+          },
+          {
+            "word": "particularly",
+            "score": 0.72
+          },
+          {
+            "word": "confidence",
+            "score": 0.79
+          },
+          {
+            "word": "calculus",
+            "score": 0.83
+          },
+          {
+            "word": "especially",
+            "score": 0.74
+          },
+          {
+            "word": "comfortable",
+            "score": 0.8
+          }
+        ]
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-27T21:00:00Z"
+    },
+    {
+      "id": "att_w_remote_3",
+      "skill": "writing",
+      "kind": "task2",
+      "title": "Remote work",
+      "refId": "t2_remote_work",
+      "band": 6.0,
+      "durationSec": 2280,
+      "data": {
+        "text": "Over the past decade, remote work has moved from a rare perk to a mainstream arrangement for many office staff. In my view, working from home offers very good things to both workers and companies, although it is not without drawbacks.\n\nFor employees, the most obvious advantage is the time saved on commuting. In a city such as Dhaka, where a single journey can take more than an hour, people who works from home can spend this time with their kids or get some rest before starting work. This tends to improve concentration during working hours. Also, workers are happier. Also they stay longer in the same company.\n\nIn the other hand, employers benefit from lower office costs, which mean they can invest more in staff training. A company that no longer rents a big office in the city centre can save a lot of money every year. Moreover, managers can hire talented staff from other cities, which widens the pool of applicants.\n\nAdmittedly, some workers feel lonely at home, and it is really difficult for new staff to learn from their colleagues. For instance, a junior accountant may not know who to ask when a question appears. However, regular video meetings and one office day per week can solve most of these difficulties.\n\nIn conclusion, I believe that working from home benefits both employees and employers. If companies organise it carefully, the advantages are much greater than the disadvantages, and both sides will be more productive and more satisfied in the long term.",
+        "prompt": "Some people believe that working from home benefits both employees and employers. To what extent do you agree or disagree?",
+        "promptId": "t2_remote_work",
+        "task": 2,
+        "criteria": {
+          "TA": 6.5,
+          "CC": 5.5,
+          "LR": 6.0,
+          "GRA": 6.0
+        },
+        "words": 254,
+        "feedback": [
+          "Use more precise vocabulary instead of informal words.",
+          "Vary your linking words."
+        ],
+        "issues": [
+          {
+            "id": "i1",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 149,
+            "end": 165,
+            "original": "very good things",
+            "suggestion": "tangible benefits",
+            "note": "“Very good things” is vague and informal. A precise collocation such as “tangible benefits” raises your Lexical Resource score.",
+            "sentenceIndex": 1
+          },
+          {
+            "id": "i2",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "agreement",
+            "start": 386,
+            "end": 402,
+            "original": "people who works",
+            "suggestion": "people who work",
+            "note": "“Who” refers to “people”, which is plural, so the verb must be “work”.",
+            "sentenceIndex": 3
+          },
+          {
+            "id": "i3",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 444,
+            "end": 448,
+            "original": "kids",
+            "suggestion": "children",
+            "note": "“Kids” is informal. Use “children” in an academic essay.",
+            "sentenceIndex": 3
+          },
+          {
+            "id": "i4",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 452,
+            "end": 465,
+            "original": "get some rest",
+            "suggestion": "have some rest",
+            "note": "“Get” is overused in informal English. “Have some rest” or “rest” sounds more natural in formal writing.",
+            "sentenceIndex": 3
+          },
+          {
+            "id": "i5",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "sentence opener",
+            "start": 573,
+            "end": 582,
+            "original": "Also they",
+            "suggestion": "As a result, they",
+            "note": "Two sentences in a row start with “Also”. “As a result,” shows the logical link between happiness and staying longer.",
+            "sentenceIndex": 6
+          },
+          {
+            "id": "i6",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "fixed phrase",
+            "start": 617,
+            "end": 634,
+            "original": "In the other hand",
+            "suggestion": "On the other hand",
+            "note": "The contrast linker is always “on the other hand”. Using it correctly shows control of cohesive devices, which counts toward Coherence & Cohesion.",
+            "sentenceIndex": 7
+          },
+          {
+            "id": "i7",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "agreement",
+            "start": 679,
+            "end": 689,
+            "original": "which mean",
+            "suggestion": "which means",
+            "note": "“Which” refers to the whole idea of lower costs, so the verb needs the singular form “means”.",
+            "sentenceIndex": 7
+          },
+          {
+            "id": "i8",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 763,
+            "end": 773,
+            "original": "big office",
+            "suggestion": "large office",
+            "note": "“Big” is informal. “Large” or “spacious” is more appropriate for an office.",
+            "sentenceIndex": 8
+          },
+          {
+            "id": "i9",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 802,
+            "end": 816,
+            "original": "a lot of money",
+            "suggestion": "a considerable amount of money",
+            "note": "“A lot of” is informal. “A considerable amount of” is a more academic quantifier.",
+            "sentenceIndex": 8
+          },
+          {
+            "id": "i10",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 985,
+            "end": 1001,
+            "original": "really difficult",
+            "suggestion": "particularly difficult",
+            "note": "“Really” is conversational. “Particularly” or “especially” suits formal writing better.",
+            "sentenceIndex": 10
+          }
+        ],
+        "strengths": [
+          {
+            "start": 66,
+            "end": 88,
+            "text": "mainstream arrangement"
+          },
+          {
+            "start": 510,
+            "end": 523,
+            "text": "concentration"
+          },
+          {
+            "start": 829,
+            "end": 837,
+            "text": "Moreover"
+          },
+          {
+            "start": 1048,
+            "end": 1060,
+            "text": "For instance"
+          },
+          {
+            "start": 1230,
+            "end": 1243,
+            "text": "In conclusion"
+          }
+        ],
+        "notes": {
+          "TA": "Clear position; second idea needs an example.",
+          "CC": "Linkers repeat; paragraph 3 drifts.",
+          "LR": "Good range; a few informal words.",
+          "GRA": "Mixed structures; 4 agreement slips."
+        },
+        "suggestions": [
+          "Vary linkers: swap two “also” for “moreover”, “in addition”.",
+          "Support the employer point with one concrete example."
+        ]
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-23T20:00:00Z"
+    },
+    {
+      "id": "att_w_coffee",
+      "skill": "writing",
+      "kind": "task1",
+      "title": "Coffee exports, bar chart",
+      "refId": "t1_coffee_exports",
+      "band": 6.0,
+      "durationSec": 1140,
+      "data": {
+        "text": "The bar chart compares the value of coffee exports from Brazil, Vietnam, Colombia and Ethiopia in 2010 and 2020.\n\nOverall, Brazil was by far the largest exporter in both years, although its exports fell slightly over the decade. The other three countries saw small increases.\n\nIn 2010, Brazil exported coffee worth 5.7 billion dollars, which was three times more than Vietnam and Colombia, which both earned 1.9 billion. Ethiopia had the lowest value at only 0.8 billion. By 2020, the figure for Brazil went down to 4.9 billion.\n\nColombia had the biggest rise, and its exports reached 2.5 billion dollars. Vietnam also increase to 2.2 billion. But Ethiopia stayed almost the same, with a small change from 0.8 to 0.9 billion dollars.\n\nTo sum up, Brazil remained the leader, but the gap between it and the other countries got smaller over the period.",
+        "prompt": "The bar chart shows the value of coffee exported by four countries in 2010 and 2020, in billions of US dollars. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "promptId": "t1_coffee_exports",
+        "task": 1,
+        "criteria": {
+          "TA": 6.0,
+          "CC": 6.0,
+          "LR": 5.5,
+          "GRA": 6.0
+        },
+        "words": 151,
+        "feedback": [
+          "Group similar countries together to make comparisons clearer.",
+          "Use a wider range of verbs to describe change (declined, climbed, levelled off)."
+        ],
+        "issues": [
+          {
+            "id": "i1",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "comparison",
+            "start": 346,
+            "end": 367,
+            "original": "three times more than",
+            "suggestion": "three times as much as",
+            "note": "With multiples, “three times as much as” is the accurate structure for comparing values.",
+            "sentenceIndex": 4
+          },
+          {
+            "id": "i2",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 503,
+            "end": 512,
+            "original": "went down",
+            "suggestion": "declined",
+            "note": "“Went down” is informal. “Declined” or “fell” is better for describing data.",
+            "sentenceIndex": 8
+          },
+          {
+            "id": "i3",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "tense",
+            "start": 614,
+            "end": 627,
+            "original": "also increase",
+            "suggestion": "also increased",
+            "note": "The data describes 2020, which is in the past, so use the past tense “increased”.",
+            "sentenceIndex": 12
+          },
+          {
+            "id": "i4",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "sentence opener",
+            "start": 644,
+            "end": 656,
+            "original": "But Ethiopia",
+            "suggestion": "However, Ethiopia",
+            "note": "Starting a sentence with “But” is informal. Use “However,” instead.",
+            "sentenceIndex": 14
+          },
+          {
+            "id": "i5",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 821,
+            "end": 832,
+            "original": "got smaller",
+            "suggestion": "narrowed",
+            "note": "“Got smaller” is informal. “Narrowed” is the precise verb for a gap.",
+            "sentenceIndex": 17
+          }
+        ],
+        "strengths": [
+          {
+            "start": 114,
+            "end": 121,
+            "text": "Overall"
+          },
+          {
+            "start": 134,
+            "end": 140,
+            "text": "by far"
+          },
+          {
+            "start": 153,
+            "end": 161,
+            "text": "exporter"
+          }
+        ]
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-20T19:00:00Z"
+    },
+    {
+      "id": "att_w_drill_1",
+      "skill": "writing",
+      "kind": "drill",
+      "title": "Writing Booster · Make sentences",
+      "refId": "sb_set_make_sentences",
+      "band": null,
+      "score": 5,
+      "total": 6,
+      "durationSec": 480,
+      "data": {
+        "results": [
+          {
+            "id": "sb_01",
+            "correct": true
+          },
+          {
+            "id": "sb_02",
+            "correct": true
+          },
+          {
+            "id": "sb_03",
+            "correct": true
+          },
+          {
+            "id": "sb_04",
+            "correct": false
+          },
+          {
+            "id": "sb_05",
+            "correct": true
+          },
+          {
+            "id": "sb_06",
+            "correct": true
+          }
+        ]
+      },
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-26T19:00:00Z"
+    }
+  ]
+}

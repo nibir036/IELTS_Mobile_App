@@ -1,0 +1,2740 @@
+[
+ {
+  "num": 11,
+  "title": "IELTS Listening Mock Test 3",
+  "description": "Section 1: enquiring about a local language exchange club. Section 2: orientation at a public sports centre (floor plan labelling). Section 3: university research project on student travel and public transport. Section 4: lecture on forests and the water cycle.",
+  "duration_seconds": 1680,
+  "image_prompt": "Create a clean, professional IELTS Listening-style top-down floor plan of a modern public sports centre. The plan must be suitable for a map-labelling listening task. Include: MAIN ENTRANCE / YOU ARE HERE, Reception, Main Gym, Swimming Pool, Fitness Studio, Indoor Court, Changing Rooms, Cafe, First Aid Room, Meeting Room, Toilets, Staff Office. Mark eight target locations with letters A-H. Required spatial arrangement: Main entrance at the bottom centre; Reception immediately inside the entrance; Main gym on the left side; Swimming pool on the right side; Fitness studio towards the rear left; Indoor court towards the rear centre; Changing rooms between the main gym and swimming pool; Cafe near the entrance on the right; First aid room beside the swimming pool; Meeting room behind reception; Toilets beside the main corridor; Staff office behind reception. Use clearly defined rooms, simple corridors, obvious doors, top-down view, clean educational design, restrained colour, highly readable labels. Label target positions only with A-H. Do NOT reveal answer names beside A-H. Do NOT include question numbers, answer key, transcript, or explanatory text.",
+  "sections": [
+   {
+    "key": "s1",
+    "position": 1,
+    "title": "Section 1 — Questions 1-10",
+    "instructions": "LANGUAGE EXCHANGE CLUB. Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 1,
+      "type": "text_input",
+      "prompt": "Ben wants to practise ____.",
+      "max_words": 1,
+      "accepted": [
+       "French"
+      ]
+     },
+     {
+      "qnumber": 2,
+      "type": "text_input",
+      "prompt": "The French group meets on ____.",
+      "max_words": 1,
+      "accepted": [
+       "Thursday"
+      ]
+     },
+     {
+      "qnumber": 3,
+      "type": "text_input",
+      "prompt": "Each session lasts approximately ____ minutes.",
+      "max_words": 1,
+      "accepted": [
+       "90"
+      ]
+     },
+     {
+      "qnumber": 4,
+      "type": "text_input",
+      "prompt": "There is no formal ____.",
+      "max_words": 1,
+      "accepted": [
+       "homework"
+      ]
+     },
+     {
+      "qnumber": 5,
+      "type": "text_input",
+      "prompt": "Membership costs ____ pounds for six months.",
+      "max_words": 1,
+      "accepted": [
+       "30"
+      ]
+     },
+     {
+      "qnumber": 6,
+      "type": "text_input",
+      "prompt": "The group meets at Oak Street Community ____.",
+      "max_words": 1,
+      "accepted": [
+       "Centre",
+       "Center"
+      ]
+     },
+     {
+      "qnumber": 7,
+      "type": "text_input",
+      "prompt": "The group uses Room ____.",
+      "max_words": 1,
+      "accepted": [
+       "Seven",
+       "7"
+      ]
+     },
+     {
+      "qnumber": 8,
+      "type": "text_input",
+      "prompt": "The next meeting is on the ____ of November.",
+      "max_words": 1,
+      "accepted": [
+       "ninth",
+       "9th"
+      ]
+     },
+     {
+      "qnumber": 9,
+      "type": "text_input",
+      "prompt": "Members should register by the ____ of November.",
+      "max_words": 1,
+      "accepted": [
+       "second",
+       "2nd"
+      ]
+     },
+     {
+      "qnumber": 10,
+      "type": "text_input",
+      "prompt": "The group normally has around ____ people.",
+      "max_words": 1,
+      "accepted": [
+       "12",
+       "twelve"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s2a",
+    "position": 2,
+    "title": "Section 2 — Questions 11-15",
+    "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 11,
+      "type": "text_input",
+      "prompt": "The main entrance is at the ____ of the plan.",
+      "max_words": 1,
+      "accepted": [
+       "bottom"
+      ]
+     },
+     {
+      "qnumber": 12,
+      "type": "text_input",
+      "prompt": "Reception is immediately ____ the entrance.",
+      "max_words": 1,
+      "accepted": [
+       "inside"
+      ]
+     },
+     {
+      "qnumber": 13,
+      "type": "text_input",
+      "prompt": "The main gym is on the ____ side.",
+      "max_words": 1,
+      "accepted": [
+       "left"
+      ]
+     },
+     {
+      "qnumber": 14,
+      "type": "text_input",
+      "prompt": "The swimming pool is on the ____ side.",
+      "max_words": 1,
+      "accepted": [
+       "right"
+      ]
+     },
+     {
+      "qnumber": 15,
+      "type": "text_input",
+      "prompt": "The changing rooms are ____ the gym and pool.",
+      "max_words": 1,
+      "accepted": [
+       "between"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s2b",
+    "position": 2,
+    "title": "Section 2 — Questions 16-20 (Floor Plan Labelling)",
+    "instructions": "Label the plan below. Choose the correct letter, A–H.",
+    "image_local": "section-2-map.jpg",
+    "questions": [
+     {
+      "qnumber": 16,
+      "type": "map_label",
+      "prompt": "Reception",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 17,
+      "type": "map_label",
+      "prompt": "Main Gym",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 18,
+      "type": "map_label",
+      "prompt": "Swimming Pool",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     },
+     {
+      "qnumber": 19,
+      "type": "map_label",
+      "prompt": "Changing Rooms",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "d"
+      ]
+     },
+     {
+      "qnumber": 20,
+      "type": "map_label",
+      "prompt": "Fitness Studio",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "e"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s3a",
+    "position": 3,
+    "title": "Section 3 — Questions 21-25",
+    "instructions": "Choose the correct letter, A, B or C.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 21,
+      "type": "single_choice",
+      "prompt": "What is the main focus of the project?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "How students travel to and from university"
+       },
+       {
+        "letter": "B",
+        "text": "The cost of university accommodation"
+       },
+       {
+        "letter": "C",
+        "text": "The design of public transport systems"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 22,
+      "type": "single_choice",
+      "prompt": "Which students will participate?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Students living on campus"
+       },
+       {
+        "letter": "B",
+        "text": "Undergraduate students living off campus"
+       },
+       {
+        "letter": "C",
+        "text": "Postgraduate students"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 23,
+      "type": "single_choice",
+      "prompt": "How many questionnaire responses will they target?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "200"
+       },
+       {
+        "letter": "B",
+        "text": "250"
+       },
+       {
+        "letter": "C",
+        "text": "300"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 24,
+      "type": "single_choice",
+      "prompt": "How many interviews will they conduct?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "15"
+       },
+       {
+        "letter": "B",
+        "text": "20"
+       },
+       {
+        "letter": "C",
+        "text": "25"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 25,
+      "type": "single_choice",
+      "prompt": "How long will the survey remain open?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "2 weeks"
+       },
+       {
+        "letter": "B",
+        "text": "3 weeks"
+       },
+       {
+        "letter": "C",
+        "text": "4 weeks"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s3b",
+    "position": 3,
+    "title": "Section 3 — Questions 26-30",
+    "instructions": "Who will be responsible for each task? Choose the correct letter, A, B or C.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 26,
+      "type": "matching",
+      "prompt": "Designing the questionnaire",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Maya"
+       },
+       {
+        "letter": "B",
+        "text": "Daniel"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 27,
+      "type": "matching",
+      "prompt": "Organising interviews",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Maya"
+       },
+       {
+        "letter": "B",
+        "text": "Daniel"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 28,
+      "type": "matching",
+      "prompt": "Recruiting participants",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Maya"
+       },
+       {
+        "letter": "B",
+        "text": "Daniel"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     },
+     {
+      "qnumber": 29,
+      "type": "matching",
+      "prompt": "Statistical analysis",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Maya"
+       },
+       {
+        "letter": "B",
+        "text": "Daniel"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 30,
+      "type": "matching",
+      "prompt": "Writing the final recommendations",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Maya"
+       },
+       {
+        "letter": "B",
+        "text": "Daniel"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s4",
+    "position": 4,
+    "title": "Section 4 — Questions 31-40",
+    "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 31,
+      "type": "text_input",
+      "prompt": "The water cycle describes the movement of water between the atmosphere, land and bodies of ____.",
+      "max_words": 2,
+      "accepted": [
+       "water"
+      ]
+     },
+     {
+      "qnumber": 32,
+      "type": "text_input",
+      "prompt": "Plants release water vapour through tiny openings in their ____.",
+      "max_words": 2,
+      "accepted": [
+       "leaves"
+      ]
+     },
+     {
+      "qnumber": 33,
+      "type": "text_input",
+      "prompt": "This process is known as ____.",
+      "max_words": 2,
+      "accepted": [
+       "transpiration"
+      ]
+     },
+     {
+      "qnumber": 34,
+      "type": "text_input",
+      "prompt": "Trees can return water vapour to the ____.",
+      "max_words": 2,
+      "accepted": [
+       "atmosphere"
+      ]
+     },
+     {
+      "qnumber": 35,
+      "type": "text_input",
+      "prompt": "Leaves and branches can ____ some rainfall.",
+      "max_words": 2,
+      "accepted": [
+       "intercept"
+      ]
+     },
+     {
+      "qnumber": 36,
+      "type": "text_input",
+      "prompt": "Forest soils can absorb and ____ water.",
+      "max_words": 2,
+      "accepted": [
+       "store"
+      ]
+     },
+     {
+      "qnumber": 37,
+      "type": "text_input",
+      "prompt": "Tree roots can increase water ____ into the soil.",
+      "max_words": 2,
+      "accepted": [
+       "infiltration"
+      ]
+     },
+     {
+      "qnumber": 38,
+      "type": "text_input",
+      "prompt": "Forests can slow the movement of water towards ____.",
+      "max_words": 2,
+      "accepted": [
+       "streams"
+      ]
+     },
+     {
+      "qnumber": 39,
+      "type": "text_input",
+      "prompt": "Removing forests can increase soil ____.",
+      "max_words": 2,
+      "accepted": [
+       "erosion"
+      ]
+     },
+     {
+      "qnumber": 40,
+      "type": "text_input",
+      "prompt": "Planting trees in areas where forests were removed is called ____.",
+      "max_words": 2,
+      "accepted": [
+       "reforestation"
+      ]
+     }
+    ]
+   }
+  ],
+  "audio_local": "full.mp3",
+  "position": 3
+ },
+ {
+  "num": 12,
+  "title": "IELTS Listening Mock Test 4",
+  "description": "Section 1: booking a room at a community centre. Section 2: orientation at a public library (building map labelling). Section 3: university research project on sleep and academic performance. Section 4: lecture on how coral reefs support marine ecosystems.",
+  "duration_seconds": 1680,
+  "image_prompt": "Create a clean, professional IELTS Listening-style top-down floor plan of a modern public library. The plan must be suitable for a map-labelling task. Include: MAIN ENTRANCE / YOU ARE HERE, Reception Desk, Children's Library, Computer Area, Reading Room, Study Room, Cafe, Newspaper Area, Meeting Room, Toilets, Staff Office. Mark eight target locations with letters A-H. Required spatial arrangement: Main entrance at the bottom centre; Reception desk immediately inside the entrance; Children's Library on the left side near the entrance; Computer Area on the right side near the entrance; Reading Room in the centre; Study Room towards the rear left; Newspaper Area towards the rear right; Cafe on the left side behind the Children's Library; Meeting Room behind the reception desk; Toilets beside the central corridor; Staff Office near the rear of the building. Use clearly defined rooms, corridors and doors, top-down view, simple black outlines, restrained colour, high readability, no decorative clutter. Label target locations only with A-H. Do NOT reveal answer names beside the letters. Do NOT include question numbers, answer key, transcript, or explanatory text.",
+  "sections": [
+   {
+    "key": "s1",
+    "position": 1,
+    "title": "Section 1 — Questions 1-10",
+    "instructions": "ROOM BOOKING. Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 1,
+      "type": "text_input",
+      "prompt": "Ethan expects approximately ____ people.",
+      "max_words": 1,
+      "accepted": [
+       "30"
+      ]
+     },
+     {
+      "qnumber": 2,
+      "type": "text_input",
+      "prompt": "He wants to hire the ____ Room.",
+      "max_words": 1,
+      "accepted": [
+       "Willow"
+      ]
+     },
+     {
+      "qnumber": 3,
+      "type": "text_input",
+      "prompt": "The room can accommodate up to ____ people seated.",
+      "max_words": 1,
+      "accepted": [
+       "40"
+      ]
+     },
+     {
+      "qnumber": 4,
+      "type": "text_input",
+      "prompt": "The booking is for Saturday the ____ of December.",
+      "max_words": 1,
+      "accepted": [
+       "14th",
+       "fourteenth"
+      ]
+     },
+     {
+      "qnumber": 5,
+      "type": "text_input",
+      "prompt": "Ethan plans to start the party at ____ o'clock.",
+      "max_words": 1,
+      "accepted": [
+       "2",
+       "two"
+      ]
+     },
+     {
+      "qnumber": 6,
+      "type": "text_input",
+      "prompt": "Room hire costs ____ pounds.",
+      "max_words": 1,
+      "accepted": [
+       "65"
+      ]
+     },
+     {
+      "qnumber": 7,
+      "type": "text_input",
+      "prompt": "A small ____ is available next to the room.",
+      "max_words": 1,
+      "accepted": [
+       "kitchen"
+      ]
+     },
+     {
+      "qnumber": 8,
+      "type": "text_input",
+      "prompt": "The booking requires a ____-pound deposit.",
+      "max_words": 1,
+      "accepted": [
+       "50"
+      ]
+     },
+     {
+      "qnumber": 9,
+      "type": "text_input",
+      "prompt": "The remaining payment is due on the ____.",
+      "max_words": 1,
+      "accepted": [
+       "day"
+      ]
+     },
+     {
+      "qnumber": 10,
+      "type": "text_input",
+      "prompt": "The public car park is behind the ____.",
+      "max_words": 1,
+      "accepted": [
+       "centre",
+       "center"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s2a",
+    "position": 2,
+    "title": "Section 2 — Questions 11-15",
+    "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 11,
+      "type": "text_input",
+      "prompt": "The main entrance is at the ____ of the plan.",
+      "max_words": 1,
+      "accepted": [
+       "bottom"
+      ]
+     },
+     {
+      "qnumber": 12,
+      "type": "text_input",
+      "prompt": "The reception desk is immediately ____ the entrance.",
+      "max_words": 1,
+      "accepted": [
+       "inside"
+      ]
+     },
+     {
+      "qnumber": 13,
+      "type": "text_input",
+      "prompt": "The children's library is on the ____ side.",
+      "max_words": 1,
+      "accepted": [
+       "left"
+      ]
+     },
+     {
+      "qnumber": 14,
+      "type": "text_input",
+      "prompt": "The computer area is on the ____ side.",
+      "max_words": 1,
+      "accepted": [
+       "right"
+      ]
+     },
+     {
+      "qnumber": 15,
+      "type": "text_input",
+      "prompt": "The reading room is in the ____ of the library.",
+      "max_words": 1,
+      "accepted": [
+       "centre",
+       "center"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s2b",
+    "position": 2,
+    "title": "Section 2 — Questions 16-20 (Building Map Labelling)",
+    "instructions": "Label the plan below. Choose the correct letter, A–H.",
+    "image_local": "section-2-map.jpg",
+    "questions": [
+     {
+      "qnumber": 16,
+      "type": "map_label",
+      "prompt": "Reception Desk",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 17,
+      "type": "map_label",
+      "prompt": "Children's Library",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 18,
+      "type": "map_label",
+      "prompt": "Computer Area",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     },
+     {
+      "qnumber": 19,
+      "type": "map_label",
+      "prompt": "Reading Room",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "d"
+      ]
+     },
+     {
+      "qnumber": 20,
+      "type": "map_label",
+      "prompt": "Study Room",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "e"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s3a",
+    "position": 3,
+    "title": "Section 3 — Questions 21-25",
+    "instructions": "Choose the correct letter, A, B or C.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 21,
+      "type": "single_choice",
+      "prompt": "What is the main focus of the project?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "The relationship between sleep and academic performance"
+       },
+       {
+        "letter": "B",
+        "text": "The effect of exercise on university students"
+       },
+       {
+        "letter": "C",
+        "text": "The cost of university accommodation"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 22,
+      "type": "single_choice",
+      "prompt": "Which students will participate?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Final-year students"
+       },
+       {
+        "letter": "B",
+        "text": "First-year students"
+       },
+       {
+        "letter": "C",
+        "text": "Postgraduate students"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 23,
+      "type": "single_choice",
+      "prompt": "How many questionnaire responses will they target?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "200"
+       },
+       {
+        "letter": "B",
+        "text": "240"
+       },
+       {
+        "letter": "C",
+        "text": "300"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 24,
+      "type": "single_choice",
+      "prompt": "How many students will keep a sleep diary?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "20"
+       },
+       {
+        "letter": "B",
+        "text": "30"
+       },
+       {
+        "letter": "C",
+        "text": "40"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 25,
+      "type": "single_choice",
+      "prompt": "How long will the diary period last?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "5 days"
+       },
+       {
+        "letter": "B",
+        "text": "7 days"
+       },
+       {
+        "letter": "C",
+        "text": "14 days"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s3b",
+    "position": 3,
+    "title": "Section 3 — Questions 26-30",
+    "instructions": "Who will be responsible for each task? Choose the correct letter, A, B or C.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 26,
+      "type": "matching",
+      "prompt": "Designing the questionnaire",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Emma"
+       },
+       {
+        "letter": "B",
+        "text": "Lucas"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 27,
+      "type": "matching",
+      "prompt": "Organising the sleep diaries",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Emma"
+       },
+       {
+        "letter": "B",
+        "text": "Lucas"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 28,
+      "type": "matching",
+      "prompt": "Recruiting participants",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Emma"
+       },
+       {
+        "letter": "B",
+        "text": "Lucas"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     },
+     {
+      "qnumber": 29,
+      "type": "matching",
+      "prompt": "Entering questionnaire data",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Emma"
+       },
+       {
+        "letter": "B",
+        "text": "Lucas"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 30,
+      "type": "matching",
+      "prompt": "Writing the final recommendations",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Emma"
+       },
+       {
+        "letter": "B",
+        "text": "Lucas"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s4",
+    "position": 4,
+    "title": "Section 4 — Questions 31-40",
+    "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 31,
+      "type": "text_input",
+      "prompt": "Coral reefs support a large variety of ____ life.",
+      "max_words": 2,
+      "accepted": [
+       "marine"
+      ]
+     },
+     {
+      "qnumber": 32,
+      "type": "text_input",
+      "prompt": "Microscopic organisms living within coral tissues are called ____.",
+      "max_words": 2,
+      "accepted": [
+       "algae"
+      ]
+     },
+     {
+      "qnumber": 33,
+      "type": "text_input",
+      "prompt": "These organisms produce energy through ____.",
+      "max_words": 2,
+      "accepted": [
+       "photosynthesis"
+      ]
+     },
+     {
+      "qnumber": 34,
+      "type": "text_input",
+      "prompt": "Reef-building corals generally require clear, ____ water.",
+      "max_words": 2,
+      "accepted": [
+       "shallow"
+      ]
+     },
+     {
+      "qnumber": 35,
+      "type": "text_input",
+      "prompt": "Fish can use reefs for shelter and ____.",
+      "max_words": 2,
+      "accepted": [
+       "feeding"
+      ]
+     },
+     {
+      "qnumber": 36,
+      "type": "text_input",
+      "prompt": "Healthy reefs can support ____ by providing breeding areas for marine species.",
+      "max_words": 2,
+      "accepted": [
+       "fisheries"
+      ]
+     },
+     {
+      "qnumber": 37,
+      "type": "text_input",
+      "prompt": "Reef structures can reduce the energy of ____ before they reach the shore.",
+      "max_words": 2,
+      "accepted": [
+       "waves"
+      ]
+     },
+     {
+      "qnumber": 38,
+      "type": "text_input",
+      "prompt": "Coral bleaching can occur when corals experience prolonged ____ stress.",
+      "max_words": 2,
+      "accepted": [
+       "heat"
+      ]
+     },
+     {
+      "qnumber": 39,
+      "type": "text_input",
+      "prompt": "Increasing carbon dioxide in seawater contributes to ocean ____.",
+      "max_words": 2,
+      "accepted": [
+       "acidification"
+      ]
+     },
+     {
+      "qnumber": 40,
+      "type": "text_input",
+      "prompt": "One method of protecting reefs is establishing marine ____ areas.",
+      "max_words": 2,
+      "accepted": [
+       "protected"
+      ]
+     }
+    ]
+   }
+  ],
+  "audio_local": "full.mp3",
+  "position": 4
+ },
+ {
+  "num": 13,
+  "title": "IELTS Listening Mock Test 5",
+  "description": "Section 1: enquiring about a local cooking course. Section 2: orientation at a community health centre (floor plan labelling). Section 3: university research project on student use of green transport. Section 4: lecture on how rivers shape landscapes.",
+  "duration_seconds": 1680,
+  "image_prompt": "Create a clean, professional IELTS Listening-style top-down floor plan of a modern community health centre. The plan must be suitable for a map-labelling listening task. Include: MAIN ENTRANCE / YOU ARE HERE, Reception, Waiting Area, Consultation Room 1, Consultation Room 2, Physiotherapy Room, Pharmacy, Cafe, Children's Area, Meeting Room, Toilets, Staff Office. Mark eight target locations with letters A-H. Required spatial arrangement: Main entrance at the bottom centre; Reception immediately inside the entrance; Waiting area in the centre; Consultation Room 1 on the left; Consultation Room 2 on the right; Physiotherapy Room towards the rear left; Pharmacy towards the rear right; Cafe near the entrance on the left; Children's Area near the waiting area on the right; Meeting Room behind reception; Toilets beside the central corridor; Staff Office at the rear. Use clearly defined rooms, simple corridors, obvious doors, top-down view, clean educational design, restrained colour, high readability. Label target locations only with A-H. Do NOT reveal answer names beside the letters. Do NOT include question numbers, answer key, transcript, or explanatory text.",
+  "sections": [
+   {
+    "key": "s1",
+    "position": 1,
+    "title": "Section 1 — Questions 1-10",
+    "instructions": "BEGINNERS' COOKING COURSE. Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 1,
+      "type": "text_input",
+      "prompt": "Michael wants to improve his cooking of vegetables and simple ____ dishes.",
+      "max_words": 1,
+      "accepted": [
+       "meat"
+      ]
+     },
+     {
+      "qnumber": 2,
+      "type": "text_input",
+      "prompt": "The course includes basic sauces, knife skills and meal ____.",
+      "max_words": 1,
+      "accepted": [
+       "planning"
+      ]
+     },
+     {
+      "qnumber": 3,
+      "type": "text_input",
+      "prompt": "The course lasts ____ weeks.",
+      "max_words": 1,
+      "accepted": [
+       "6",
+       "six"
+      ]
+     },
+     {
+      "qnumber": 4,
+      "type": "text_input",
+      "prompt": "Classes are held on ____ evenings.",
+      "max_words": 1,
+      "accepted": [
+       "Wednesday"
+      ]
+     },
+     {
+      "qnumber": 5,
+      "type": "text_input",
+      "prompt": "The course costs ____ pounds.",
+      "max_words": 1,
+      "accepted": [
+       "95"
+      ]
+     },
+     {
+      "qnumber": 6,
+      "type": "text_input",
+      "prompt": "Classes take place at the Riverside Community ____.",
+      "max_words": 1,
+      "accepted": [
+       "Kitchen"
+      ]
+     },
+     {
+      "qnumber": 7,
+      "type": "text_input",
+      "prompt": "The class is held in Kitchen ____.",
+      "max_words": 1,
+      "accepted": [
+       "Three",
+       "3"
+      ]
+     },
+     {
+      "qnumber": 8,
+      "type": "text_input",
+      "prompt": "The kitchen is on the ____ floor.",
+      "max_words": 1,
+      "accepted": [
+       "ground"
+      ]
+     },
+     {
+      "qnumber": 9,
+      "type": "text_input",
+      "prompt": "The next course begins on the ____ of October.",
+      "max_words": 1,
+      "accepted": [
+       "seventh",
+       "7th"
+      ]
+     },
+     {
+      "qnumber": 10,
+      "type": "text_input",
+      "prompt": "The tutor is Laura ____.",
+      "max_words": 1,
+      "accepted": [
+       "Bennett"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s2a",
+    "position": 2,
+    "title": "Section 2 — Questions 11-15",
+    "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 11,
+      "type": "text_input",
+      "prompt": "The main entrance is at the ____ of the plan.",
+      "max_words": 1,
+      "accepted": [
+       "bottom"
+      ]
+     },
+     {
+      "qnumber": 12,
+      "type": "text_input",
+      "prompt": "Reception is immediately ____ the entrance.",
+      "max_words": 1,
+      "accepted": [
+       "inside"
+      ]
+     },
+     {
+      "qnumber": 13,
+      "type": "text_input",
+      "prompt": "The waiting area is in the ____ of the building.",
+      "max_words": 1,
+      "accepted": [
+       "centre",
+       "center"
+      ]
+     },
+     {
+      "qnumber": 14,
+      "type": "text_input",
+      "prompt": "Consultation Room One is on the ____.",
+      "max_words": 1,
+      "accepted": [
+       "left"
+      ]
+     },
+     {
+      "qnumber": 15,
+      "type": "text_input",
+      "prompt": "Consultation Room Two is on the ____.",
+      "max_words": 1,
+      "accepted": [
+       "right"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s2b",
+    "position": 2,
+    "title": "Section 2 — Questions 16-20 (Floor Plan Labelling)",
+    "instructions": "Label the plan below. Choose the correct letter, A–H.",
+    "image_local": "section-2-map.jpg",
+    "questions": [
+     {
+      "qnumber": 16,
+      "type": "map_label",
+      "prompt": "Reception",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 17,
+      "type": "map_label",
+      "prompt": "Waiting Area",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 18,
+      "type": "map_label",
+      "prompt": "Consultation Room 1",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     },
+     {
+      "qnumber": 19,
+      "type": "map_label",
+      "prompt": "Consultation Room 2",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "d"
+      ]
+     },
+     {
+      "qnumber": 20,
+      "type": "map_label",
+      "prompt": "Physiotherapy Room",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "e"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s3a",
+    "position": 3,
+    "title": "Section 3 — Questions 21-25",
+    "instructions": "Choose the correct letter, A, B or C.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 21,
+      "type": "single_choice",
+      "prompt": "What is the main focus of the project?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Why students choose different forms of transport"
+       },
+       {
+        "letter": "B",
+        "text": "The cost of building cycle paths"
+       },
+       {
+        "letter": "C",
+        "text": "Traffic levels in the city centre"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 22,
+      "type": "single_choice",
+      "prompt": "Which students will participate?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Postgraduate students"
+       },
+       {
+        "letter": "B",
+        "text": "Undergraduate students living within ten kilometres of campus"
+       },
+       {
+        "letter": "C",
+        "text": "Students living on campus"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 23,
+      "type": "single_choice",
+      "prompt": "How many questionnaire responses will they target?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "240"
+       },
+       {
+        "letter": "B",
+        "text": "280"
+       },
+       {
+        "letter": "C",
+        "text": "320"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 24,
+      "type": "single_choice",
+      "prompt": "How many interviews will they conduct?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "20"
+       },
+       {
+        "letter": "B",
+        "text": "24"
+       },
+       {
+        "letter": "C",
+        "text": "30"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 25,
+      "type": "single_choice",
+      "prompt": "How long will the questionnaire remain open?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "1 week"
+       },
+       {
+        "letter": "B",
+        "text": "2 weeks"
+       },
+       {
+        "letter": "C",
+        "text": "3 weeks"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s3b",
+    "position": 3,
+    "title": "Section 3 — Questions 26-30",
+    "instructions": "Who will be responsible for each task? Choose the correct letter, A, B or C.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 26,
+      "type": "matching",
+      "prompt": "Designing the questionnaire",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Anna"
+       },
+       {
+        "letter": "B",
+        "text": "Ryan"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 27,
+      "type": "matching",
+      "prompt": "Organising interviews",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Anna"
+       },
+       {
+        "letter": "B",
+        "text": "Ryan"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 28,
+      "type": "matching",
+      "prompt": "Recruiting participants",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Anna"
+       },
+       {
+        "letter": "B",
+        "text": "Ryan"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     },
+     {
+      "qnumber": 29,
+      "type": "matching",
+      "prompt": "Statistical analysis",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Anna"
+       },
+       {
+        "letter": "B",
+        "text": "Ryan"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 30,
+      "type": "matching",
+      "prompt": "Writing the final recommendations",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Anna"
+       },
+       {
+        "letter": "B",
+        "text": "Ryan"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s4",
+    "position": 4,
+    "title": "Section 4 — Questions 31-40",
+    "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 31,
+      "type": "text_input",
+      "prompt": "Three important river processes are erosion, transportation and ____.",
+      "max_words": 2,
+      "accepted": [
+       "deposition"
+      ]
+     },
+     {
+      "qnumber": 32,
+      "type": "text_input",
+      "prompt": "Erosion is the removal of material from the ____.",
+      "max_words": 2,
+      "accepted": [
+       "land"
+      ]
+     },
+     {
+      "qnumber": 33,
+      "type": "text_input",
+      "prompt": "Fast-moving water can transport more ____.",
+      "max_words": 2,
+      "accepted": [
+       "sediment"
+      ]
+     },
+     {
+      "qnumber": 34,
+      "type": "text_input",
+      "prompt": "Smaller sediment particles can remain ____ in the water.",
+      "max_words": 2,
+      "accepted": [
+       "suspended"
+      ]
+     },
+     {
+      "qnumber": 35,
+      "type": "text_input",
+      "prompt": "When a river loses energy, sediment may be ____.",
+      "max_words": 2,
+      "accepted": [
+       "deposited"
+      ]
+     },
+     {
+      "qnumber": 36,
+      "type": "text_input",
+      "prompt": "Rivers in their upper course often flow through ____ terrain.",
+      "max_words": 2,
+      "accepted": [
+       "steeper"
+      ]
+     },
+     {
+      "qnumber": 37,
+      "type": "text_input",
+      "prompt": "Wider river bends are called ____.",
+      "max_words": 2,
+      "accepted": [
+       "meanders"
+      ]
+     },
+     {
+      "qnumber": 38,
+      "type": "text_input",
+      "prompt": "Erosion tends to be stronger on the ____ of a meander.",
+      "max_words": 2,
+      "accepted": [
+       "outside"
+      ]
+     },
+     {
+      "qnumber": 39,
+      "type": "text_input",
+      "prompt": "Repeated flooding can contribute to the development of ____.",
+      "max_words": 2,
+      "accepted": [
+       "floodplains"
+      ]
+     },
+     {
+      "qnumber": 40,
+      "type": "text_input",
+      "prompt": "Modern river management increasingly considers the entire river ____.",
+      "max_words": 2,
+      "accepted": [
+       "system"
+      ]
+     }
+    ]
+   }
+  ],
+  "audio_local": "full.mp3",
+  "position": 5
+ },
+ {
+  "num": 14,
+  "title": "IELTS Listening Mock Test 6",
+  "description": "Section 1: joining a local gardening club. Section 2: orientation at a community arts centre (building map labelling). Section 3: university research project on food waste among students. Section 4: lecture on the role of wetlands in the environment.",
+  "duration_seconds": 1680,
+  "image_prompt": "Create a clean, professional IELTS Listening-style top-down floor plan of a modern community arts centre. The plan must be suitable for a map-labelling listening task. Include: MAIN ENTRANCE / YOU ARE HERE, Reception, Art Gallery, Dance Studio, Music Room, Pottery Workshop, Cafe, Exhibition Hall, Meeting Room, Storage Room, Toilets, Staff Office. Mark eight target locations with letters A-H. Required spatial arrangement: Main entrance at the bottom centre; Reception immediately inside the entrance; Art Gallery on the left near the entrance; Dance Studio on the right near the entrance; Music Room in the central-left area; Pottery Workshop in the central-right area; Exhibition Hall towards the rear centre; Cafe on the left behind the Art Gallery; Meeting Room directly behind Reception; Toilets beside the central corridor; Staff Office at the rear right; Storage Room beside the Pottery Workshop. Use clearly defined rooms, simple corridors, obvious doors, top-down view, clean educational design, restrained colour, high readability. Label target locations only with A-H. Do NOT reveal answer names beside A-H. Do NOT include question numbers, answer key, transcript, or explanatory text.",
+  "sections": [
+   {
+    "key": "s1",
+    "position": 1,
+    "title": "Section 1 — Questions 1-10",
+    "instructions": "BEGINNER GARDENING PROGRAMME. Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 1,
+      "type": "text_input",
+      "prompt": "Oliver is mainly interested in growing ____.",
+      "max_words": 1,
+      "accepted": [
+       "vegetables"
+      ]
+     },
+     {
+      "qnumber": 2,
+      "type": "text_input",
+      "prompt": "The programme lasts ____ weeks.",
+      "max_words": 1,
+      "accepted": [
+       "4",
+       "four"
+      ]
+     },
+     {
+      "qnumber": 3,
+      "type": "text_input",
+      "prompt": "Sessions take place on ____ mornings.",
+      "max_words": 1,
+      "accepted": [
+       "Saturday"
+      ]
+     },
+     {
+      "qnumber": 4,
+      "type": "text_input",
+      "prompt": "Each session starts at ____.",
+      "max_words": 1,
+      "accepted": [
+       "9:30",
+       "9.30"
+      ]
+     },
+     {
+      "qnumber": 5,
+      "type": "text_input",
+      "prompt": "The programme costs ____ pounds.",
+      "max_words": 1,
+      "accepted": [
+       "40"
+      ]
+     },
+     {
+      "qnumber": 6,
+      "type": "text_input",
+      "prompt": "Sessions are held at the Riverside Allotment ____.",
+      "max_words": 1,
+      "accepted": [
+       "Gardens"
+      ]
+     },
+     {
+      "qnumber": 7,
+      "type": "text_input",
+      "prompt": "The group meets in a small ____.",
+      "max_words": 1,
+      "accepted": [
+       "greenhouse"
+      ]
+     },
+     {
+      "qnumber": 8,
+      "type": "text_input",
+      "prompt": "The next programme begins on the ____ of April.",
+      "max_words": 1,
+      "accepted": [
+       "twelfth",
+       "12th"
+      ]
+     },
+     {
+      "qnumber": 9,
+      "type": "text_input",
+      "prompt": "Registration closes on the ____ of March.",
+      "max_words": 1,
+      "accepted": [
+       "twenty-ninth",
+       "29th"
+      ]
+     },
+     {
+      "qnumber": 10,
+      "type": "text_input",
+      "prompt": "There are ____ places available.",
+      "max_words": 1,
+      "accepted": [
+       "16",
+       "sixteen"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s2a",
+    "position": 2,
+    "title": "Section 2 — Questions 11-15",
+    "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 11,
+      "type": "text_input",
+      "prompt": "The main entrance is at the ____ of the plan.",
+      "max_words": 1,
+      "accepted": [
+       "bottom"
+      ]
+     },
+     {
+      "qnumber": 12,
+      "type": "text_input",
+      "prompt": "Reception is immediately ____ the entrance.",
+      "max_words": 1,
+      "accepted": [
+       "inside"
+      ]
+     },
+     {
+      "qnumber": 13,
+      "type": "text_input",
+      "prompt": "The art gallery is on the ____.",
+      "max_words": 1,
+      "accepted": [
+       "left"
+      ]
+     },
+     {
+      "qnumber": 14,
+      "type": "text_input",
+      "prompt": "The dance studio is on the ____.",
+      "max_words": 1,
+      "accepted": [
+       "right"
+      ]
+     },
+     {
+      "qnumber": 15,
+      "type": "text_input",
+      "prompt": "The exhibition hall is towards the ____ centre.",
+      "max_words": 1,
+      "accepted": [
+       "rear"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s2b",
+    "position": 2,
+    "title": "Section 2 — Questions 16-20 (Building Map Labelling)",
+    "instructions": "Label the plan below. Choose the correct letter, A–H.",
+    "image_local": "section-2-map.jpg",
+    "questions": [
+     {
+      "qnumber": 16,
+      "type": "map_label",
+      "prompt": "Reception",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 17,
+      "type": "map_label",
+      "prompt": "Art Gallery",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 18,
+      "type": "map_label",
+      "prompt": "Dance Studio",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     },
+     {
+      "qnumber": 19,
+      "type": "map_label",
+      "prompt": "Music Room",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "d"
+      ]
+     },
+     {
+      "qnumber": 20,
+      "type": "map_label",
+      "prompt": "Pottery Workshop",
+      "options": [
+       {
+        "letter": "A"
+       },
+       {
+        "letter": "B"
+       },
+       {
+        "letter": "C"
+       },
+       {
+        "letter": "D"
+       },
+       {
+        "letter": "E"
+       },
+       {
+        "letter": "F"
+       },
+       {
+        "letter": "G"
+       },
+       {
+        "letter": "H"
+       }
+      ],
+      "accepted": [
+       "e"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s3a",
+    "position": 3,
+    "title": "Section 3 — Questions 21-25",
+    "instructions": "Choose the correct letter, A, B or C.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 21,
+      "type": "single_choice",
+      "prompt": "What is the main focus of the project?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Food waste among university students"
+       },
+       {
+        "letter": "B",
+        "text": "The price of university meals"
+       },
+       {
+        "letter": "C",
+        "text": "Food production in local restaurants"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 22,
+      "type": "single_choice",
+      "prompt": "Which students will participate?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Students in university residences"
+       },
+       {
+        "letter": "B",
+        "text": "Students living in private accommodation"
+       },
+       {
+        "letter": "C",
+        "text": "Postgraduate students only"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 23,
+      "type": "single_choice",
+      "prompt": "How many questionnaire responses will they target?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "240"
+       },
+       {
+        "letter": "B",
+        "text": "260"
+       },
+       {
+        "letter": "C",
+        "text": "300"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 24,
+      "type": "single_choice",
+      "prompt": "How many students will record their food waste?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "30"
+       },
+       {
+        "letter": "B",
+        "text": "40"
+       },
+       {
+        "letter": "C",
+        "text": "50"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 25,
+      "type": "single_choice",
+      "prompt": "How long will the questionnaire remain open?",
+      "options": [
+       {
+        "letter": "A",
+        "text": "2 weeks"
+       },
+       {
+        "letter": "B",
+        "text": "3 weeks"
+       },
+       {
+        "letter": "C",
+        "text": "4 weeks"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s3b",
+    "position": 3,
+    "title": "Section 3 — Questions 26-30",
+    "instructions": "Who will be responsible for each task? Choose the correct letter, A, B or C.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 26,
+      "type": "matching",
+      "prompt": "Designing the questionnaire",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Sophie"
+       },
+       {
+        "letter": "B",
+        "text": "Adam"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 27,
+      "type": "matching",
+      "prompt": "Organising food-waste records",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Sophie"
+       },
+       {
+        "letter": "B",
+        "text": "Adam"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "b"
+      ]
+     },
+     {
+      "qnumber": 28,
+      "type": "matching",
+      "prompt": "Recruiting participants",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Sophie"
+       },
+       {
+        "letter": "B",
+        "text": "Adam"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     },
+     {
+      "qnumber": 29,
+      "type": "matching",
+      "prompt": "Statistical analysis",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Sophie"
+       },
+       {
+        "letter": "B",
+        "text": "Adam"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "a"
+      ]
+     },
+     {
+      "qnumber": 30,
+      "type": "matching",
+      "prompt": "Writing the final recommendations",
+      "options": [
+       {
+        "letter": "A",
+        "text": "Sophie"
+       },
+       {
+        "letter": "B",
+        "text": "Adam"
+       },
+       {
+        "letter": "C",
+        "text": "Both students"
+       }
+      ],
+      "accepted": [
+       "c"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "s4",
+    "position": 4,
+    "title": "Section 4 — Questions 31-40",
+    "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+    "image_local": null,
+    "questions": [
+     {
+      "qnumber": 31,
+      "type": "text_input",
+      "prompt": "Wetlands include marshes, swamps and shallow ____ areas.",
+      "max_words": 2,
+      "accepted": [
+       "coastal"
+      ]
+     },
+     {
+      "qnumber": 32,
+      "type": "text_input",
+      "prompt": "One important function of wetlands is water ____.",
+      "max_words": 2,
+      "accepted": [
+       "storage"
+      ]
+     },
+     {
+      "qnumber": 33,
+      "type": "text_input",
+      "prompt": "Wetland soils and vegetation can hold significant quantities of ____.",
+      "max_words": 2,
+      "accepted": [
+       "water"
+      ]
+     },
+     {
+      "qnumber": 34,
+      "type": "text_input",
+      "prompt": "Wetlands can help reduce the impacts of ____.",
+      "max_words": 2,
+      "accepted": [
+       "floods"
+      ]
+     },
+     {
+      "qnumber": 35,
+      "type": "text_input",
+      "prompt": "Wetland vegetation and soils can trap pollutants and ____.",
+      "max_words": 2,
+      "accepted": [
+       "sediment"
+      ]
+     },
+     {
+      "qnumber": 36,
+      "type": "text_input",
+      "prompt": "Wetland plants can absorb certain ____ from water.",
+      "max_words": 2,
+      "accepted": [
+       "nutrients"
+      ]
+     },
+     {
+      "qnumber": 37,
+      "type": "text_input",
+      "prompt": "Wetlands provide habitat for many species and support biological ____.",
+      "max_words": 2,
+      "accepted": [
+       "diversity"
+      ]
+     },
+     {
+      "qnumber": 38,
+      "type": "text_input",
+      "prompt": "Wetland soils can store ____ for long periods.",
+      "max_words": 2,
+      "accepted": [
+       "carbon"
+      ]
+     },
+     {
+      "qnumber": 39,
+      "type": "text_input",
+      "prompt": "Wetlands have often been drained for agriculture, roads and urban ____.",
+      "max_words": 2,
+      "accepted": [
+       "development"
+      ]
+     },
+     {
+      "qnumber": 40,
+      "type": "text_input",
+      "prompt": "Returning water to previously drained areas can be part of wetland ____.",
+      "max_words": 2,
+      "accepted": [
+       "restoration"
+      ]
+     }
+    ]
+   }
+  ],
+  "audio_local": "full.mp3",
+  "position": 6
+ }
+]

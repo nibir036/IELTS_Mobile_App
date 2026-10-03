@@ -1,0 +1,1177 @@
+{
+ "id": "FT03",
+ "title": "Listening Full Test 3",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "Booking a Canal Narrowboat Holiday",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "A man phones a holiday company to book a week on a canal narrowboat for his family.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lorna",
+     "desc": "Booking adviser at a canal holiday company — female, 40s, warm, efficient, candid; British accent (southern English)"
+    },
+    {
+     "label": "Martin",
+     "desc": "Caller — male, late 30s, friendly, a little unsure, good-humoured; British accent (Midlands)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear a man phoning a holiday company to book a canal narrowboat holiday. First, you have some time to look at Questions 1 to 5.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 1 to 5."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[telephone rings twice, then the line clicks open] [bright, professional] Good morning, Hartwell Waterways, Lorna speaking. How can I help?"
+    },
+    {
+     "speaker": "Martin",
+     "text": "[friendly, slightly unsure] Oh, hello. I'm hoping to book a narrowboat for a week this summer. I've never done anything like this before, so, er, bear with me."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[warm, reassuring] Not at all, most of our customers are first-timers. Let me just take a few details first. Could I have your name?"
+    },
+    {
+     "speaker": "Martin",
+     "text": "Yes, it's Martin Wardrop."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[careful, checking] Is that spelt like the furniture? W-A-R-D-R-O-B-E?"
+    },
+    {
+     "speaker": "Martin",
+     "text": "[light laugh] Everybody says that. No, it's W... A... R... D... R... O... P. There's no E on the end."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[repeating slowly, as if typing] W... A... R... D... R... O... P. Lovely. And how many of you will be on the boat?"
+    },
+    {
+     "speaker": "Martin",
+     "text": "[sighs] Well, it was going to be six. My sister and her husband were coming, but they've had to pull out because of work. So it's just me, my wife and our two boys now."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[noting it down] So that's four of you altogether, then."
+    },
+    {
+     "speaker": "Martin",
+     "text": "That's right."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[practical] And how old are the boys? We put life jackets on board, so I need to know which sizes to give you."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[thinking] Nine and twelve. Well, the younger one's nine now, but he'll be ten by August."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[noting it down] Two junior sizes, then. And they'll need to wear them on deck at all times, I'm afraid, even if they're strong swimmers."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[chuckles] They won't like that, but fair enough."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[practical] And when were you thinking of going? Our hire weeks run Saturday to Saturday."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[thinking aloud] Some time in August. We'd set off on Saturday the twenty-third, I think... [short pause] no, hang on, that's the day we'd have to be home. So we'd set off on the sixteenth."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[checking her screen] Departing the sixteenth of August, back on the twenty-third. Yes, I've got boats available that week. Now, which of our bases would suit you? There are three on this stretch of the canal."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[hopeful] The website mentioned Stoke Lock. That's the nearest one to us."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[apologetic] I'm afraid Stoke Lock is fully booked for the whole of August. And Abbey Basin isn't really an option either, because the canal's closed there until September while they replace the lock gates. [brighter] But we do have boats at Orchard Wharf, which is only about twenty minutes further on."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[agreeable] Orchard Wharf. That's fine, we're driving anyway."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[informative] Speaking of which, you can leave your car at the wharf while you're away. It's twelve pounds a day..."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[doing the sum aloud, slightly alarmed] Twelve a day? So that'd be, er, eighty-four for the week?"
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[reassuring] No, no. If you pay for the whole week up front, it's a flat rate of forty-five pounds. [slightly apologetic] It used to be free, but the landowner started charging last year."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[relieved] Forty-five. That's not bad at all. [hesitant] Er, one other thing that worries me. Do we need any experience? I've only ever rowed a dinghy on a boating lake."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[chuckles] You'd be surprised how many people say that. No experience needed. Before you leave, one of our staff spends about an hour on the boat with you, showing you how to steer and work the locks. Right, shall I tell you about the boats that are free that week?"
+    },
+    {
+     "speaker": "Martin",
+     "text": "Yes, please."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 6 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 6 to 10."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[reading from her screen] OK, there are three. The first is Kingfisher. She sleeps four, and she's the shortest of the three, which makes her much easier to handle. We often recommend her to beginners."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[interested] That sounds ideal, actually."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[candid] The one thing people do comment on is the space. The bedroom's fine, it's got a proper double bed, and the kitchen's very well equipped, but the shower is really tiny. [light laugh] If you're tall, you'll notice."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[wry] I'm six foot two, so... noted. And what does she cost?"
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[clearly] In June she'd be nine hundred and eighty pounds, but August is peak season, so for your week it's one thousand, one hundred and sixty."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[repeating, writing it down] One thousand one hundred and sixty. OK."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[moving on] The second is Moorhen, which sleeps six, so you'd all have more room to spread out. We used to provide a couple of kayaks with her, but there were rather too many, er, accidents, so these days she comes with two bicycles instead. They're handy for riding along the towpath to the village shops."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[enthusiastic] Oh, the boys would love that. Is there a catch?"
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[honest, measured] She's one of our older boats. I wouldn't say the engine's unreliable, because it was fully serviced in the spring, but it is quite loud, so whoever's steering at the back will hear it all day."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[chuckles] Fair enough. And the price for Moorhen?"
+    },
+    {
+     "speaker": "Lorna",
+     "text": "One thousand, three hundred and twenty-five for the week."
+    },
+    {
+     "speaker": "Martin",
+     "text": "Right."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[brightly] And the third is Heron, our newest boat. She was only launched in March, and she also sleeps six. People tend to assume she's got a washing machine, which she hasn't, but she does have a dishwasher, and that always goes down well."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[laughs] My wife would be thrilled. What's the downside?"
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[slightly apologetic] She's the longest boat in the fleet, so she can't turn round in some of the narrower sections, and you'd have to plan your route much more carefully. She's one thousand, four hundred and ninety."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[thinking aloud] Hmm. [short pause] I was leaning towards Kingfisher, but with my height... I think it'll be Moorhen. The bikes swing it, really."
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[pleased] Lovely, I'll reserve her for you now. We'll need a deposit of a quarter of the total within seven days, and I'll email you the paperwork this afternoon."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[warmly] Brilliant. Can I pay the deposit by card over the phone?"
+    },
+    {
+     "speaker": "Lorna",
+     "text": "[helpful] You can, or by bank transfer if you prefer. The details are on the confirmation email. The balance is then due six weeks before you travel."
+    },
+    {
+     "speaker": "Martin",
+     "text": "[pleased] Card's easiest. Thanks so much for your help, Lorna."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 1. You now have one minute to check your answers to Part 1.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-5",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "HARTWELL WATERWAYS — NARROWBOAT BOOKING",
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Customer: Martin ___",
+       "answer": "Wardrop",
+       "accepted": [],
+       "spoken": "W... A... R... D... R... O... P",
+       "evidence": "No, it's W... A... R... D... R... O... P. There's no E on the end.",
+       "trap": "The adviser first suggests the spelling WARDROBE, which the caller rejects."
+      },
+      {
+       "n": 2,
+       "prompt": "Size of party: ___ people",
+       "answer": "4",
+       "accepted": [
+        "four"
+       ],
+       "spoken": "four",
+       "evidence": "So that's four of you altogether, then.",
+       "trap": "Six is mentioned as the original number, and 'two boys' gives another tempting number."
+      },
+      {
+       "n": 3,
+       "prompt": "Start of holiday: Saturday ___ August",
+       "answer": "16th",
+       "accepted": [
+        "16",
+        "sixteenth"
+       ],
+       "spoken": "the sixteenth",
+       "evidence": "that's the day we'd have to be home. So we'd set off on the sixteenth.",
+       "trap": "The caller first says the twenty-third, then realises that is the return date."
+      },
+      {
+       "n": 4,
+       "prompt": "Base where boat is picked up: ___ Wharf",
+       "answer": "Orchard",
+       "accepted": [],
+       "spoken": "Orchard Wharf",
+       "evidence": "But we do have boats at Orchard Wharf, which is only about twenty minutes further on.",
+       "trap": "Stoke Lock (fully booked) and Abbey Basin (canal closed) are both mentioned and rejected."
+      },
+      {
+       "n": 5,
+       "prompt": "Car park: £___ if paying in advance for seven days",
+       "answer": "45",
+       "accepted": [
+        "forty-five"
+       ],
+       "spoken": "forty-five pounds",
+       "evidence": "If you pay for the whole week up front, it's a flat rate of forty-five pounds.",
+       "trap": "The daily rate of twelve pounds and the caller's calculation of eighty-four are both heard first; it also 'used to be free'."
+      }
+     ]
+    },
+    {
+     "range": "6-10",
+     "type": "table_completion",
+     "instructions": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "Boats available: 16–23 August",
+     "table": {
+      "columns": [
+       "Boat",
+       "Sleeps",
+       "Advantage",
+       "Disadvantage",
+       "Price for the week"
+      ],
+      "rows": [
+       [
+        "Kingfisher",
+        "4",
+        "easy to steer — suitable for beginners",
+        "very small (6) ___",
+        "£(7) ___"
+       ],
+       [
+        "Moorhen",
+        "6",
+        "two (8) ___ included",
+        "(9) ___ engine",
+        "£1,325"
+       ],
+       [
+        "Heron",
+        "6",
+        "newest boat; has a (10) ___",
+        "unable to turn in narrow places",
+        "£1,490"
+       ]
+      ]
+     },
+     "items": [
+      {
+       "n": 6,
+       "prompt": "Kingfisher — disadvantage: very small ___",
+       "answer": "shower",
+       "accepted": [],
+       "spoken": "the shower",
+       "evidence": "the kitchen's very well equipped, but the shower is really tiny",
+       "trap": "The bedroom and the kitchen are both mentioned first but described positively."
+      },
+      {
+       "n": 7,
+       "prompt": "Kingfisher — price for the week: £___",
+       "answer": "1,160",
+       "accepted": [
+        "1160"
+       ],
+       "spoken": "one thousand, one hundred and sixty",
+       "evidence": "August is peak season, so for your week it's one thousand, one hundred and sixty.",
+       "trap": "The June price of £980 is given first."
+      },
+      {
+       "n": 8,
+       "prompt": "Moorhen — advantage: two ___ included",
+       "answer": "bicycles",
+       "accepted": [
+        "bikes"
+       ],
+       "spoken": "two bicycles",
+       "evidence": "so these days she comes with two bicycles instead",
+       "trap": "Kayaks used to be supplied with this boat but no longer are."
+      },
+      {
+       "n": 9,
+       "prompt": "Moorhen — disadvantage: ___ engine",
+       "answer": "loud",
+       "accepted": [],
+       "spoken": "loud",
+       "evidence": "I wouldn't say the engine's unreliable, because it was fully serviced in the spring, but it is quite loud",
+       "trap": "'Unreliable' is mentioned but negated with wouldn't; 'older' describes the boat, not the engine's problem."
+      },
+      {
+       "n": 10,
+       "prompt": "Heron — advantage: has a ___",
+       "answer": "dishwasher",
+       "accepted": [],
+       "spoken": "a dishwasher",
+       "evidence": "People tend to assume she's got a washing machine, which she hasn't, but she does have a dishwasher",
+       "trap": "A washing machine is mentioned first but Heron does not have one."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Induction for Volunteer Theatre Ushers",
+   "context": "Monologue in an everyday social context (1 speaker)",
+   "scenario": "The front-of-house manager at a theatre gives an induction talk to a group of new volunteer ushers.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Diane",
+     "desc": "Front-of-house manager — female, 50s, energetic, organised, friendly but firm, occasionally wry; British accent (northern English, light)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear the front-of-house manager at a theatre giving an induction talk to some new volunteer ushers. First, you have some time to look at Questions 11 to 15.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 11 to 15."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[large echoey foyer, a few voices settling] [warm, projecting to a group] Right, good evening, everyone, and welcome to the Corran Theatre. I'm Diane, I run front of house, which means that for the next few months you'll be seeing rather a lot of me. [light laugh] Thank you all for volunteering."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[brisk, practical] We'll start with a quick tour of the ground floor, because the first thing audiences do is ask you where things are. So, we're standing just inside the main entrance, facing into the building. The box office is right here on your right, and the bar runs along the whole of the left-hand wall."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[explaining, a little wry] Now, the cloakroom. Regular visitors will tell you it's next to the box office, because that's where it used to be. It isn't any more; that space is now the shop, selling programmes and souvenirs. The cloakroom has moved to the opposite side, in the corner immediately to your left as you come through the doors, just before the bar begins."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[pointing the way verbally, clear] Straight ahead of us is the grand staircase, which takes you up to the circle, and on either side of it there's a set of double doors into the stalls. To the left of the staircase, a corridor runs all the way along the side of the auditorium, and there's a matching one on the right."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[friendly, informative] Let's take the left-hand corridor first. The first door you come to, on your left, says Technical Store. [firm] That's not ours, please don't go in there. Keep walking right to the far end, and the door facing you is the volunteers' room. That's where you'll leave your bags, sign in and get your briefing before each show."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[slightly amused] People are always surprised by where we've put the lift. You'd expect it beside the main staircase, wouldn't you? But it isn't. It's tucked away in the alcove at the far end of the bar, in the back left-hand corner of the foyer, so if someone in a wheelchair asks, send them past the bar, not towards the stairs."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[serious, measured] Now the right-hand corridor. About halfway along, on your right, is the first-aid room. [emphatic] Don't confuse it with the door at the very end of that corridor. That leads backstage to the stage door, and it's strictly for cast and crew."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[warmly] And finally, something we're rather proud of. The little room underneath the grand staircase, which you get into from the foyer, used to be a storage cupboard. We've turned it into a quiet room, for anyone, child or adult, who finds a performance overwhelming and needs a few minutes somewhere calm."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 16 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 16 to 20."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[practical, brisk] Right, a few things about the job itself. First, what you wear. We'll issue each of you with a burgundy waistcoat and a name badge. We used to hand out jackets, but under the stage lights they were far too hot. What you wear underneath is up to you, within reason: a plain white shirt, and dark trousers or a skirt."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[correcting a common assumption] Some of you may have heard that shirts must be black. That was the old rule, and it's gone. [firm but kind] Shoes, though: I know you're on your feet for three hours, but trainers aren't acceptable, I'm afraid. They need to be black and polished."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[thoughtful, slightly rueful] Latecomers. In the past, we'd simply take them in with a torch during the first scene, and it caused absolute chaos in the rows. So that's stopped. Now they wait until the stage manager radios through to say there's a suitable break, and until then they can follow the show on the monitor in the foyer."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[warning tone] And whatever you do, don't tell a latecomer they'll get their money back. Refunds aren't your decision; that's entirely up to the box office."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[conversational, then emphatic] The interval. People think the interval is all about ice creams, and yes, some of you will have a tray to sell from. But what I really need is for you to stay in your section and keep the aisles and exits clear, because that's when bags and coats start piling up and someone trips. [lighter] We did ask ushers to count the audience at one time, but that's done electronically from the tickets now."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[very serious, slowing down] Fire procedures. Our alarm has two stages. The first is an intermittent tone, and that's an alert only. You don't move anyone, and you don't say a word to the audience. You go straight to the exit you've been allocated on your rota and wait there."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[firm, clear] If the tone becomes continuous, that's when you evacuate your section. And you don't need to ring nine-nine-nine, because the system contacts the fire service automatically. Your job is people, not phone calls."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[encouraging, warmer] One last thing. I'd really encourage you all to come to the dress rehearsal on the twelfth. Now, it isn't so that you can see the show for nothing, although of course you will. And it's not really a chance to meet the actors either; they're far too busy and nervous to chat."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[earnest] The point is that you'll find out exactly when the sudden blackouts and the very loud effects happen. There's a gunshot in act two, for instance. If you know it's coming, you won't be caught out, and you can reassure anyone in your section who's startled."
+    },
+    {
+     "speaker": "Diane",
+     "text": "[bright, wrapping up] Right, that's the talking done. Let's go and find those waistcoats, and then I'll walk you round so you can see it all for yourselves."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 2. You now have one minute to check your answers to Part 2.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-15",
+     "type": "map_labelling",
+     "instructions": "Label the plan below. Write the correct letter, A–H, next to Questions 11–15.",
+     "heading": "Corran Theatre — Ground Floor",
+     "layout": "Plan of the theatre ground floor, oriented with the MAIN ENTRANCE in the middle of the bottom (south) edge. The bottom half of the plan is the FOYER, a wide rectangle. Fixed labelled landmarks: BOX OFFICE immediately inside the entrance on the right (south-east part of foyer); BAR running along the whole left (west) wall of the foyer; GRAND STAIRCASE in the centre of the back (north) side of the foyer; two sets of DOUBLE DOORS into the STALLS, one either side of the staircase; the AUDITORIUM fills the top (north) half, with the STAGE at its far north end; a LEFT CORRIDOR runs north from the foyer's back-left corner along the west side of the auditorium; a RIGHT CORRIDOR runs north from the foyer's back-right corner along the east side of the auditorium. Lettered rooms: A — in the foyer, south-west corner, immediately left of the main entrance, just south of where the bar begins. B — left corridor, first door on the left (west) side near the corridor's start. C — left corridor, at its far north end, the door facing you as you walk along it. D — foyer, against the east wall directly beside (north of) the box office. E — right corridor, a door on the right (east) side about halfway along. F — a small room underneath the grand staircase, entered from the foyer. G — right corridor, the door at its far north end, beside the stage. H — foyer, alcove in the back-left (north-west) corner, at the far end of the bar.",
+     "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E",
+      "F": "F",
+      "G": "G",
+      "H": "H"
+     },
+     "items": [
+      {
+       "n": 11,
+       "prompt": "Cloakroom",
+       "answer": "A",
+       "evidence": "The cloakroom has moved to the opposite side, in the corner immediately to your left as you come through the doors",
+       "trap": "D (beside the box office) is where the cloakroom used to be; it is now the shop."
+      },
+      {
+       "n": 12,
+       "prompt": "Volunteers' room",
+       "answer": "C",
+       "evidence": "Keep walking right to the far end, and the door facing you is the volunteers' room.",
+       "trap": "B, the first door in the same corridor, is the technical store."
+      },
+      {
+       "n": 13,
+       "prompt": "Lift",
+       "answer": "H",
+       "evidence": "It's tucked away in the alcove at the far end of the bar, in the back left-hand corner of the foyer",
+       "trap": "Listeners expect it beside the staircase (F), which the speaker explicitly rejects."
+      },
+      {
+       "n": 14,
+       "prompt": "First-aid room",
+       "answer": "E",
+       "evidence": "About halfway along, on your right, is the first-aid room.",
+       "trap": "G, the door at the very end of the same corridor, leads to the stage door."
+      },
+      {
+       "n": 15,
+       "prompt": "Quiet room",
+       "answer": "F",
+       "evidence": "The little room underneath the grand staircase, which you get into from the foyer, used to be a storage cupboard.",
+       "trap": "'Storage cupboard' describes its former use, and the staircase was earlier rejected as the lift location."
+      }
+     ]
+    },
+    {
+     "range": "16-20",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 16,
+       "prompt": "What does Diane say about the ushers' clothing?",
+       "options": {
+        "A": "Volunteers must supply a dark-coloured shirt.",
+        "B": "Volunteers will be given a garment to wear over their shirt.",
+        "C": "Volunteers may wear any footwear that is comfortable."
+       },
+       "answer": "B",
+       "evidence": "We'll issue each of you with a burgundy waistcoat and a name badge.",
+       "trap": "A was the old rule (black shirts) and is now dropped; C is contradicted because trainers aren't acceptable."
+      },
+      {
+       "n": 17,
+       "prompt": "What should ushers do when people arrive after a performance has started?",
+       "options": {
+        "A": "lead them to their seats immediately using a light",
+        "B": "explain how they can obtain a refund",
+        "C": "direct them to a screen until they can be admitted"
+       },
+       "answer": "C",
+       "evidence": "until then they can follow the show on the monitor in the foyer",
+       "trap": "A was the past practice, now stopped; B is explicitly forbidden — refunds are the box office's decision."
+      },
+      {
+       "n": 18,
+       "prompt": "According to Diane, what is the ushers' main responsibility during the interval?",
+       "options": {
+        "A": "making sure routes through the auditorium are unobstructed",
+        "B": "selling refreshments",
+        "C": "keeping a record of audience numbers"
+       },
+       "answer": "A",
+       "evidence": "keep the aisles and exits clear, because that's when bags and coats start piling up",
+       "trap": "Some ushers do sell ice creams but it is not the main point; counting the audience was done in the past."
+      },
+      {
+       "n": 19,
+       "prompt": "What should ushers do when they first hear the fire alarm?",
+       "options": {
+        "A": "start moving the audience out of the building",
+        "B": "go to a specific exit and remain there",
+        "C": "call the emergency services"
+       },
+       "answer": "B",
+       "evidence": "You go straight to the exit you've been allocated on your rota and wait there.",
+       "trap": "A happens only at the second (continuous) stage; C is unnecessary because the system calls the fire service."
+      },
+      {
+       "n": 20,
+       "prompt": "Why does Diane want the volunteers to attend the dress rehearsal?",
+       "options": {
+        "A": "so that they can watch the production free of charge",
+        "B": "so that they can be introduced to the cast",
+        "C": "so that they know when to expect sudden changes in sound and lighting"
+       },
+       "answer": "C",
+       "evidence": "you'll find out exactly when the sudden blackouts and the very loud effects happen",
+       "trap": "A is true but 'isn't so that'; B is rejected — the actors are too busy to chat."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "River Erosion Field-Trip Report",
+   "context": "Academic discussion: 2 students + lecturer (3 speakers)",
+   "scenario": "Two geography students, Hannah and Callum, discuss the draft of their field-trip report on river bank erosion with their lecturer, Dr Mercer.",
+   "accent": "British (en-GB); one student Scottish-accented (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Dr Mercer",
+     "desc": "Geography lecturer — female, 50s, direct, dry humour, supportive but exacting; British RP accent"
+    },
+    {
+     "label": "Hannah",
+     "desc": "Student — female, early 20s, keen, quick, a little anxious; British accent (southern English)"
+    },
+    {
+     "label": "Callum",
+     "desc": "Student — male, early 20s, laid-back, frank, sceptical; clearly Scottish accent (en-GB)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two geography students, Hannah and Callum, talking to their lecturer, Dr Mercer, about their field-trip report on river erosion. First, you have some time to look at Questions 21 to 25.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 21 to 25."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[small office, a door closing softly] [friendly, brisk] Come in, both of you, sit down. So, I've read your draft on the erosion fieldwork at Ashcombe. There's a lot of good material in it, but structurally it needs some work, so let's go through it section by section."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[keen, slightly nervous] Great, thanks. We were a bit worried about the length, actually."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[dry] Rightly so. Let's start with the site description."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[frank, relaxed] I did wonder if we could just cut that altogether. Everyone on the module knows the site. We all went there on the same day."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[patient, a touch dry] Your external examiner didn't, though. No, it needs to stay. But at the moment it's sitting on its own and repeating half of what's already in your introduction. I'd fold the two together into a single section."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[agreeing] That makes sense. One tidy section rather than two half-empty ones."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[conceding, good-humoured] Fair enough."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[moving on] Then the methods. Now, this is very thorough..."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[anxious, cutting in] Too thorough? Should we shorten it?"
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[reassuring] I wouldn't cut a word of it, actually. It's accurate, and someone could repeat your study from it. The trouble is that three pages on calibrating a flow meter interrupt the reader just when they want your argument. Keep a short summary in the main text, and put the step-by-step detail at the back, after the references."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[making a note] Right, so the full procedure gets tucked in at the end as supplementary material."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[more serious] Next, your velocity and discharge results. [short pause] This is where I have real concerns. Your discharge figures are roughly a hundred times too big."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[slightly defensive] Aye, we wondered about that. Hannah thought the flow meter might've been faulty. Could we get one of the technicians to look at it?"
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[quickly] I did think that at first, but..."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[firm but kind] There's nothing wrong with the meter. I've checked the log, and it was calibrated the day before you went out. The problem is that you measured the channel width in centimetres and the depth in metres and then multiplied them. So it's the working-out that has to be done again, from scratch."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[groans] Oh no. That's embarrassing."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[lightly] It happens every year. Sediment analysis, now. The sieving results look plausible, but the weights for samples four, five and six are oddly identical, which makes me wonder whether the balance was misbehaving that day."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[thinking aloud] Could we add some close-up photos of the samples? Then people could see the difference in grain size for themselves."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[doubtful] Pictures won't tell anyone what anything weighs. Before you change a single number, take your raw data to Julia, the technician in the soils lab. She looks after the balances, and she'll tell you whether those readings can be trusted."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[agreeing] I'll email her today."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[practical] And should we wait to hear from her before we touch the discussion? Because if those weights change, our whole argument about grain size changes too."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[approving] Exactly. Don't rewrite anything that depends on those samples until she's had a look."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[hesitant] And the evaluation? We're well over the word limit, so I was thinking we could just drop it."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[firm] Absolutely not. It's a required section, and you'd lose marks. But it's currently longer than your results, which is the wrong way round. Bring it down to about half its present length, and focus on the two or three limitations that really matter."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[wry chuckle] So halve it, don't bin it."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the discussion, you have some time to look at Questions 26 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 26 to 30."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[curious] Remind me why you chose that stretch of river. It's not the most obvious site."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[thoughtful] Partly access. There's a footpath right down to the bank, so carrying all the kit was easy. But honestly, if that'd been the only thing, we'd have gone to the bridge site, which is even easier to get to."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[enthusiastic] What actually decided it was that the department has records from exactly that stretch going back to the nineteen-nineties, so we could set our results against theirs. The meanders are lovely and pronounced as well, but that wasn't really why."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[measured] Good. Now, your erosion pins. You put twelve into the outer bank in March and measured them again in September."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[defensive] We know twelve isn't many."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[reassuring, then serious] Actually, I don't think the number's the issue; twelve is perfectly respectable for a project this size. And you mention cattle possibly knocking them, but you said yourselves the field was fenced off. What worries me is that March to September misses the winter floods, and that's when most bank erosion takes place."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[quietly] Right. We hadn't thought of that."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[kindly] Don't panic. You can't go back and measure in January now, but you must acknowledge it, and say what you'd expect a winter record to show."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[turning to him] Callum, how did you feel when you saw the outer bank figures?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[candid] Honestly? I'd expected the bank to have retreated by tens of centimetres, from everything in the textbooks, and it had hardly moved at all. [short pause] It's not that I doubted the readings. We measured every pin twice. And they're nothing like the department's older figures either, which showed much faster retreat."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[probing] So how are you going to explain that difference from the earlier data?"
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[confident] I think it's the stone wall the landowner built upstream about ten years ago. It's protecting the bank, so there's less energy reaching our site."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[politely disagreeing] I'm not convinced. The wall's three hundred metres upstream. I'd say it's simply been a run of drier years, so there's been lower discharge."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[sighs, half-laughing] We've been going round in circles on that for a week."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[amused] Well, at least you agree on everything else. You're both happy with scatter graphs for the results?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "Aye, no argument there."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[warmly] And we both want to keep the bits from our conversation with the farmer. That was really useful."
+    },
+    {
+     "speaker": "Dr Mercer",
+     "text": "[thoughtful] Then present both explanations and weigh them up. And before you submit... I'd normally suggest swapping drafts with another group, but nobody else worked on your stretch, so that won't help much. Your reference list is fine; don't touch it. What I'd like you to do is read Pearson's article on artificial bank protection. It'll give you the evidence to judge Hannah's theory properly."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[good-humoured, Scottish lilt] Great. More reading. [chuckles] No, fair enough. Thanks, Dr Mercer."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 3. You now have one minute to check your answers to Part 3.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-25",
+     "type": "matching",
+     "instructions": "What do the students decide to do with each section of their report? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+     "heading": "Actions",
+     "options": {
+      "A": "remove it completely",
+      "B": "reduce its length",
+      "C": "transfer it to an appendix",
+      "D": "include more images",
+      "E": "repeat the calculations",
+      "F": "ask a member of staff to verify it",
+      "G": "merge it with another section"
+     },
+     "items": [
+      {
+       "n": 21,
+       "prompt": "Site description",
+       "answer": "G",
+       "evidence": "I'd fold the two together into a single section.",
+       "trap": "Callum suggests cutting it altogether (A), but the lecturer says it must stay."
+      },
+      {
+       "n": 22,
+       "prompt": "Methods",
+       "answer": "C",
+       "evidence": "put the step-by-step detail at the back, after the references",
+       "trap": "Hannah asks about shortening it (B), but the lecturer wouldn't cut a word."
+      },
+      {
+       "n": 23,
+       "prompt": "Velocity and discharge results",
+       "answer": "E",
+       "evidence": "So it's the working-out that has to be done again, from scratch.",
+       "trap": "Callum suggests getting a technician to check the flow meter (F), which the lecturer rejects."
+      },
+      {
+       "n": 24,
+       "prompt": "Sediment analysis",
+       "answer": "F",
+       "evidence": "take your raw data to Julia, the technician in the soils lab",
+       "trap": "Hannah suggests adding photos (D), which the lecturer dismisses."
+      },
+      {
+       "n": 25,
+       "prompt": "Evaluation",
+       "answer": "B",
+       "evidence": "Bring it down to about half its present length",
+       "trap": "Hannah wants to drop it entirely (A); 'absolutely not'."
+      }
+     ]
+    },
+    {
+     "range": "26-30",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 26,
+       "prompt": "What was the main reason the students selected their section of the river?",
+       "options": {
+        "A": "It was convenient for transporting equipment.",
+        "B": "Earlier data from the same location was available.",
+        "C": "The river bends there were especially clear."
+       },
+       "answer": "B",
+       "evidence": "the department has records from exactly that stretch going back to the nineteen-nineties",
+       "trap": "A was 'partly' a reason but not the deciding one; C is true but 'wasn't really why'."
+      },
+      {
+       "n": 27,
+       "prompt": "What is Dr Mercer's main criticism of the erosion pin data?",
+       "options": {
+        "A": "Too few pins were used to give reliable results.",
+        "B": "Animals may have moved some of the pins.",
+        "C": "The period of measurement left out the key time of year."
+       },
+       "answer": "C",
+       "evidence": "What worries me is that March to September misses the winter floods",
+       "trap": "A is raised by Hannah but the lecturer says twelve is respectable; B is dismissed because the field was fenced."
+      },
+      {
+       "n": 28,
+       "prompt": "How did Callum react to the results from the outer bank?",
+       "options": {
+        "A": "He was surprised that erosion was lower than he had predicted.",
+        "B": "He was pleased that they matched previous findings.",
+        "C": "He suspected that some measurements were inaccurate."
+       },
+       "answer": "A",
+       "evidence": "I'd expected the bank to have retreated by tens of centimetres",
+       "trap": "C is negated ('It's not that I doubted the readings'); B is contradicted ('nothing like the department's older figures')."
+      },
+      {
+       "n": 29,
+       "prompt": "What do Hannah and Callum disagree about?",
+       "options": {
+        "A": "the best way to display their results",
+        "B": "whether to use material from an interview",
+        "C": "the reason for the change in the rate of erosion"
+       },
+       "answer": "C",
+       "evidence": "I'm not convinced. The wall's three hundred metres upstream.",
+       "trap": "Both agree on scatter graphs (A) and on keeping the farmer conversation (B)."
+      },
+      {
+       "n": 30,
+       "prompt": "What does Dr Mercer advise the students to do before submitting the report?",
+       "options": {
+        "A": "update their bibliography",
+        "B": "consult a particular piece of published research",
+        "C": "compare drafts with fellow students"
+       },
+       "answer": "B",
+       "evidence": "What I'd like you to do is read Pearson's article on artificial bank protection.",
+       "trap": "C is what she'd normally suggest but it won't help here; A is rejected ('don't touch it')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "The Economics of the Medieval English Wool Trade",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "A lecturer in economic history gives a talk on the economics of the English wool trade in the Middle Ages.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "Economic history lecturer — male, 50s, articulate, measured, engaging with dry wit; British RP accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about the economics of the medieval English wool trade. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 31 to 40."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture theatre, a faint murmur fading] [clear, engaging] Good morning. Today we're turning to what was, for several centuries, the backbone of the English economy: wool. One historian remarked that England in this period was little more than a sheep farm with a government attached. [wry] An exaggeration, certainly, but not a huge one."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining, steady] So why was English wool so sought after? It wasn't a question of volume; later on, Spain produced considerably more. Nor was it the colour, which actually varied a good deal from region to region. What buyers in Flanders and Italy were paying for was its fineness, by which I mean how thin and soft the individual fibres were, because that determined the quality of the cloth they could weave."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] Now, you might assume that the great flocks belonged to the aristocracy, to earls and barons with vast estates. Some did, of course. But the really large-scale producers were monasteries, particularly those of the Cistercian order, some of which kept ten or fifteen thousand sheep on the uplands of Yorkshire and the Welsh borders."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative, giving figures] Wool was traded by the sack, a standard unit of about three hundred and sixty-four pounds in weight, or roughly the fleeces of two hundred and fifty sheep. At its peak, in the early fourteenth century, England was exporting somewhere in the region of thirty-five thousand sacks a year."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[interested, building] What's economically fascinating is how these monasteries sold their wool. Italian and Flemish merchants would pay for it in advance, sometimes for the next ten or even twenty years' production. [short pause] Now, this wasn't strictly a loan, and it wasn't really investment in the modern sense either. Economic historians generally describe it as a form of credit: the abbeys were, in effect, borrowing against wool that hadn't yet grown."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[cautionary] And this was a risky arrangement. If an epidemic swept through a flock, an abbey could find itself owing years of wool that it simply couldn't deliver. The term contemporaries used for these outbreaks was murrain. That's M... U... double R... A... I... N. It was a rather vague word, covering almost any disease of cattle or sheep, and several abbeys were left heavily in debt by murrain in the late thirteenth century."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[signposting, shifting topic] Let's turn now to the Crown, because English kings were very quick to see wool as a source of revenue. Export duties on wool became one of the largest items of royal income. [sceptical] It's often said that this money went into building castles, but in fact remarkably little did. Overwhelmingly, it paid for military campaigns, above all Edward the Third's campaigns in France during the Hundred Years' War."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] To manage all this, the Crown created what was called the Staple: a single designated town through which all wool exports had to pass. The Staple moved around a great deal at first, between Bruges, Antwerp and a number of English ports, but from thirteen sixty-three it was fixed at Calais, then an English possession, and it remained there for almost two hundred years."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[analytical, emphasising the contrast] Officially, the Staple existed to guarantee quality, so that foreign buyers could trust what they were getting. That was the justification. [slight emphasis] But the real motive was far more practical. With all the wool passing through one place, collection of the tax became much simpler, and far harder to evade."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[dry, amused] The merchants who ran the Staple became extremely wealthy, and they regularly lent money to the king, sometimes in return for reductions in the very duties they were supposed to be paying. So the relationship between the Crown and the wool merchants was, shall we say, rather cosy."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[transitional] Now, these heavy duties on raw wool had an important side effect. Finished cloth was taxed much more lightly, so it increasingly made sense to weave the cloth in England and export that instead. And this shift was helped along by a change in a process called fulling. Fulling means beating woven cloth in water to thicken and clean it, and traditionally it was done by workers trampling it with their feet."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining] By the fourteenth century, fulling was increasingly mechanised. Wind power was tried in some flatter areas, but it proved too unreliable. The mills that succeeded were driven by water, which is why the cloth industry gradually drifted away from the old towns towards hilly districts with fast-flowing streams, such as the Cotswolds and the Pennine valleys."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[warmer, anecdotal] You can still see the profits of all this today. Wealthy wool and cloth merchants spent lavishly on their parish churches, and the so-called wool churches of Suffolk and the Cotswolds are strikingly large for such small villages. If you visit, notice that it isn't spires that dominate; spires are actually quite rare in these areas. What you see are tall, elaborately decorated towers, often paid for by a single merchant family."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful] One more factor deserves a mention. After the Black Death in thirteen forty-eight, labour became scarce and expensive, and many landowners turned their fields over from crops to sheep, since a single shepherd could look after land that had once needed dozens of farm workers. That kept wool production high, even as exports of raw wool began to fall."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[reflective] Finally, decline. By the sixteenth century, English raw wool no longer dominated European markets. Partly that was because English weavers were now using so much of it themselves. But there was also serious competition from Spain, where a breed with an exceptionally fine fleece had been developed. Spanish merino wool gradually took over the luxury end of the market."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lighter, wrapping up] The legacy of the trade survives in some odd places. The Lord Speaker in the House of Lords still sits on the Woolsack, a large cushion stuffed with wool, as a reminder of where England's wealth once came from. [brisk] Next week, we'll look at how the cloth industry developed in its own right."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of the Listening test. You now have two minutes to check your answers.",
+     "pause_after": 120
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "The Medieval English Wool Trade",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "Demand: valued by foreign weavers mainly because of its ___",
+       "answer": "fineness",
+       "accepted": [],
+       "spoken": "its fineness",
+       "evidence": "What buyers in Flanders and Italy were paying for was its fineness",
+       "trap": "Volume and colour are both mentioned and rejected first."
+      },
+      {
+       "n": 32,
+       "prompt": "Many of the biggest flocks were owned by ___, not by the nobility",
+       "answer": "monasteries",
+       "accepted": [],
+       "spoken": "monasteries",
+       "evidence": "But the really large-scale producers were monasteries",
+       "trap": "The aristocracy (earls and barons) is suggested first as the expected answer."
+      },
+      {
+       "n": 33,
+       "prompt": "Payment years ahead by overseas merchants = a kind of ___",
+       "answer": "credit",
+       "accepted": [],
+       "spoken": "credit",
+       "evidence": "Economic historians generally describe it as a form of credit",
+       "trap": "'Loan' and 'investment' are both mentioned and negated."
+      },
+      {
+       "n": 34,
+       "prompt": "Risk: epidemics, called ___, could cause abbeys serious debt",
+       "answer": "murrain",
+       "accepted": [],
+       "spoken": "murrain",
+       "evidence": "The term contemporaries used for these outbreaks was murrain.",
+       "trap": "Generic words 'epidemic' and 'disease' are heard but are not the name asked for; spelling with double R must be caught."
+      },
+      {
+       "n": 35,
+       "prompt": "Royal finance: wool export duties mostly funded military ___ (e.g. in France)",
+       "answer": "campaigns",
+       "accepted": [],
+       "spoken": "military campaigns",
+       "evidence": "Overwhelmingly, it paid for military campaigns",
+       "trap": "Castle-building is mentioned as a common belief but rejected."
+      },
+      {
+       "n": 36,
+       "prompt": "The Staple: permanently based in ___ after 1363",
+       "answer": "Calais",
+       "accepted": [],
+       "spoken": "Calais",
+       "evidence": "from thirteen sixty-three it was fixed at Calais",
+       "trap": "Bruges, Antwerp and English ports were earlier, temporary locations."
+      },
+      {
+       "n": 37,
+       "prompt": "Actual aim of the Staple: easier ___ of duties",
+       "answer": "collection",
+       "accepted": [],
+       "spoken": "collection",
+       "evidence": "collection of the tax became much simpler, and far harder to evade",
+       "trap": "Guaranteeing quality is given as the official justification, not the real motive."
+      },
+      {
+       "n": 38,
+       "prompt": "Rise of cloth: fulling mills were powered by ___",
+       "answer": "water",
+       "accepted": [],
+       "spoken": "water",
+       "evidence": "The mills that succeeded were driven by water",
+       "trap": "Wind power was tried but proved too unreliable; feet were the traditional method."
+      },
+      {
+       "n": 39,
+       "prompt": "'Wool churches': notable for their tall ___",
+       "answer": "towers",
+       "accepted": [],
+       "spoken": "towers",
+       "evidence": "What you see are tall, elaborately decorated towers",
+       "trap": "Spires are mentioned but negated ('it isn't spires that dominate')."
+      },
+      {
+       "n": 40,
+       "prompt": "Decline: competition from wool produced by Spain's ___ sheep",
+       "answer": "merino",
+       "accepted": [],
+       "spoken": "merino",
+       "evidence": "Spanish merino wool gradually took over the luxury end of the market.",
+       "trap": "'Fine fleece' and 'breed' are nearby distractor words; the singular-only answer must be the breed name."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

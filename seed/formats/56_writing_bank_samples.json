@@ -1,0 +1,132 @@
+{
+  "_format": {
+    "name": "writing_bank_samples",
+    "group": "bank",
+    "table": "writing_sample_answers",
+    "primaryKey": "promptId",
+    "description": "Band 6 / 7 / 8 sample answers of each bank question.",
+    "currentSourceInApp": "assets/content/writing_bank.json → *.samples",
+    "fields": {
+      "promptId": "string",
+      "answers": "array"
+    },
+    "notes": [],
+    "recordCountToday": 260
+  },
+  "items": [
+    {
+      "promptId": "wb1_line_01",
+      "answers": [
+        {
+          "band": 6,
+          "label": "Band 6",
+          "words": 183,
+          "text": "The line graph illustrate the proportion of households which had internet at home in Canada, Poland, Brazil and India from 2000 to 2020.\n\nIn 2000, Canada had the highest percentage with 42% of households, while the other three countries were much more lower. Poland had 8%, Brazil had 4% and India had only 1%. Then the figure for Canada increased steadily and reached to 74% in 2008 and 89% in 2016. At the end of the period it was 94%, which was still the highest.\n\nPoland also increased very quickly. It rose to 48% in 2008 and then 70% in 2012. In 2020 Poland was 90%, so it almost catched up with Canada. Brazil grow more slowly, from 4% to 40% in 2012 and 71% in 2020. India was the lowest country during all the period. It stayed below 15% until 2012, but after that it increased sharply to 30% in 2016 and 52% in 2020.\n\nOverall, internet access went up in all four countries. Canada was always the highest and India was always the lowest, but the difference between countries became smaller.",
+          "paragraphs": [
+            [
+              {
+                "text": "The line graph illustrate the proportion of households which had internet at home in Canada, Poland, Brazil and India from 2000 to 2020."
+              }
+            ],
+            [
+              {
+                "text": "In 2000, Canada had the highest percentage with 42% of households, while the other three countries were much more lower. Poland had 8%, Brazil had 4% and India had only 1%. "
+              },
+              {
+                "text": "Then",
+                "mark": "link"
+              },
+              {
+                "text": " the figure for Canada increased steadily and reached to 74% in 2008 and 89% in 2016. At the end of the period it was 94%, which was still the highest."
+              }
+            ],
+            [
+              {
+                "text": "Poland also increased very quickly. It rose to 48% in 2008 and then 70% in 2012. In 2020 Poland was 90%, so it almost catched up with Canada. Brazil grow more slowly, from 4% to 40% in 2012 and 71% in 2020. India was the lowest country during all the period. It stayed below 15% until 2012, but after that it increased sharply to 30% in 2016 and 52% in 2020."
+              }
+            ],
+            [
+              {
+                "text": "Overall,",
+                "mark": "link"
+              },
+              {
+                "text": " internet access went up in all four countries. Canada was always the highest and India was always the lowest, but the difference between countries became smaller."
+              }
+            ]
+          ],
+          "why": "Overview present but placed at the end · key features covered with some mechanical listing · adequate vocabulary with repetition · several errors in verb form and comparatives that do not block meaning."
+        },
+        {
+          "band": 7,
+          "label": "Band 7",
+          "words": 179,
+          "text": "The graph compares the share of homes with an internet connection in four countries, namely Canada, Poland, Brazil and India, over a twenty-year period starting in 2000.\n\nOverall, home internet access expanded considerably in every country. Canada remained the leader throughout, whereas India consistently had the lowest rate, although the differences between the four nations narrowed markedly by 2020.\n\nIn 2000, 42% of Canadian households were online, which was far more than Poland (8%), Brazil (4%) and India (1%). Canada's figure rose steadily to 74% in 2008, after which the growth slowed, finishing at 94% in 2020. Poland, by contrast, saw the most dramatic increase, climbing to 70% in 2012 and then 90% by the end of the period, only four points behind Canada.\n\nBrazil's growth was more gradual but still substantial, with the proportion reaching 40% in 2012 and 71% in 2020. India lagged far behind for the first decade and remained at just 14% in 2012. However, it experienced a rapid surge after this, and more than half of Indian households (52%) had access by 2020.",
+          "paragraphs": [
+            [
+              {
+                "text": "The graph compares the share of homes with an internet connection in four countries, namely Canada, Poland, Brazil and India, over a twenty-year period starting in 2000."
+              }
+            ],
+            [
+              {
+                "text": "Overall,",
+                "mark": "link"
+              },
+              {
+                "text": " home internet access expanded considerably in every country. Canada remained the leader throughout, whereas India consistently had the lowest rate, although the differences between the four nations narrowed markedly by 2020."
+              }
+            ],
+            [
+              {
+                "text": "In 2000, 42% of Canadian households were online, which was far more than Poland (8%), Brazil (4%) and India (1%). Canada's figure rose steadily to 74% in 2008, after which the growth slowed, finishing at 94% in 2020. Poland, by contrast, saw the most dramatic increase, climbing to 70% in 2012 and then 90% by the end of the period, only four points behind Canada."
+              }
+            ],
+            [
+              {
+                "text": "Brazil's growth was more gradual but still substantial, with the proportion reaching 40% in 2012 and 71% in 2020. India lagged far behind for the first decade and remained at just 14% in 2012. "
+              },
+              {
+                "text": "However,",
+                "mark": "link"
+              },
+              {
+                "text": " it experienced a rapid surge after this, and more than half of Indian households (52%) had access by 2020."
+              }
+            ]
+          ],
+          "why": "Clear overview of main trends · key features highlighted with logical progression · range of linking devices · some less common vocabulary · mostly error-free sentences with a minor comparison slip."
+        },
+        {
+          "band": 8,
+          "label": "Band 8",
+          "words": 198,
+          "text": "The line graph tracks the percentage of households with home internet access in Canada, Poland, Brazil and India between 2000 and 2020.\n\nThe most striking feature is the universal upward trend: all four countries recorded substantial growth, and the initially wide disparities between them had narrowed considerably by 2020. Canada had the highest rate of access at every point, while India remained at the bottom throughout.\n\nAt the start of the period, Canada was already well ahead, with 42% of households connected, compared with a mere 8% in Poland, 4% in Brazil and just 1% in India. Canadian access then rose steadily but at a diminishing rate, reaching 83% in 2012 and levelling off at 94% by 2020. Poland's trajectory was far steeper: its figure increased more than eightfold to 70% by 2012 and ultimately stood at 90%, almost matching Canada's.\n\nBrazil and India followed a similar path, albeit from a lower base. Brazilian access climbed consistently to 58% in 2016 and 71% in 2020. India, meanwhile, made little progress in the first eight years, reaching only 6% in 2008, but its growth accelerated sharply thereafter, with the figure more than tripling between 2012 and 2020 to 52%.",
+          "paragraphs": [
+            [
+              {
+                "text": "The line graph tracks the percentage of households with home internet access in Canada, Poland, Brazil and India between 2000 and 2020."
+              }
+            ],
+            [
+              {
+                "text": "The most striking feature is the universal upward trend: all four countries recorded substantial growth, and the initially wide disparities between them had narrowed considerably by 2020. Canada had the highest rate of access at every point, while India remained at the bottom throughout."
+              }
+            ],
+            [
+              {
+                "text": "At the start of the period, Canada was already well ahead, with 42% of households connected, compared with a mere 8% in Poland, 4% in Brazil and just 1% in India. Canadian access then rose steadily but at a diminishing rate, reaching 83% in 2012 and levelling off at 94% by 2020. Poland's trajectory was far steeper: its figure increased more than eightfold to 70% by 2012 and ultimately stood at 90%, almost matching Canada's."
+              }
+            ],
+            [
+              {
+                "text": "Brazil and India followed a similar path, albeit from a lower base. Brazilian access climbed consistently to 58% in 2016 and 71% in 2020. India, meanwhile, made little progress in the first eight years, reaching only 6% in 2008, but its growth accelerated sharply thereafter, with the figure more than tripling between 2012 and 2020 to 52%."
+              }
+            ]
+          ],
+          "why": "Key features skilfully selected · clear, well-placed overview · accurate figures used selectively for comparison · precise vocabulary such as 'trajectory' and 'diminishing rate' · wide range of error-free structures."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_format": {
+    "name": "writing_tests",
+    "group": "bank",
+    "table": "writing_tests",
+    "primaryKey": "id",
+    "description": "Writing Test 1-10 (website tests 11-20).",
+    "currentSourceInApp": "assets/content/tests_bank.json → writing.tests",
+    "fields": {
+      "id": "string",
+      "number": "integer",
+      "title": "string",
+      "task1Id": "string",
+      "task2Id": "string",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 10
+  },
+  "items": [
+    {
+      "id": "wt_01",
+      "number": 1,
+      "title": "Writing Test 1",
+      "task1Id": "wt_01_t1",
+      "task2Id": "wt_01_t2",
+      "data": {
+        "id": "wt_01",
+        "number": 1,
+        "title": "Writing Test 1",
+        "task1": "wt_01_t1",
+        "task2": "wt_01_t2",
+        "source": "website Writing Test 11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+1
+00:00:00,050 --> 00:00:04,140
+Good morning everyone! Today I want
+to give you a brief history of artificial
+
+2
+00:00:04,289 --> 00:00:08,400
+intelligence research, from its formal
+beginnings in the 1950s right up to the
+
+3
+00:00:08,401 --> 00:00:11,041
+present day. Let's start
+right at the beginning.
+
+4
+00:00:11,065 --> 00:00:12,972
+The term "artificial
+intelligence"
+
+5
+00:00:13,110 --> 00:00:18,240
+was first coined in 1956, giving a name
+to a field that researchers had only just
+
+6
+00:00:18,241 --> 00:00:23,640
+begun to define. That name emerged at a
+specific, now famous, event. The conference
+
+7
+00:00:23,641 --> 00:00:27,080
+where the term was first used was the
+Dartmouth Conference, held at Dartmouth
+
+8
+00:00:27,105 --> 00:00:30,680
+College in the United States, where a
+small group of researchers gathered to
+
+9
+00:00:30,681 --> 00:00:34,280
+discuss the possibility of machine
+intelligence. In those early years,
+
+10
+00:00:34,281 --> 00:00:39,620
+progress was actually quite promising.
+Early AI programs in the 1950s and 60s
+
+11
+00:00:39,769 --> 00:00:44,000
+focused on logic problems, using symbolic
+reasoning to solve puzzles and prove
+
+12
+00:00:44,001 --> 00:00:49,480
+mathematical theorems. That early optimism
+didn't last, however. The 1970s saw a
+
+13
+00:00:49,629 --> 00:00:54,480
+period of funding cuts, often referred to
+now as the AI winter, when governments and
+
+14
+00:00:54,481 --> 00:00:58,480
+investors grew disillusioned with the
+field's slow progress. Interest revived
+
+15
+00:00:58,481 --> 00:01:02,960
+somewhat in the following decade. A type
+of program popular in the 1980s was the
+
+16
+00:01:03,010 --> 00:01:07,120
+expert system, designed to capture the
+specialized knowledge of human experts in a
+
+17
+00:01:07,121 --> 00:01:11,920
+particular field, like medical diagnosis.
+These systems relied heavily on rule-based
+
+18
+00:01:11,921 --> 00:01:16,480
+logic, essentially long lists of if-then
+rules written by hand by knowledge
+
+19
+00:01:16,481 --> 00:01:18,688
+engineers working
+with human experts.
+
+20
+00:01:18,712 --> 00:01:21,592
+Unfortunately, expert
+systems also fell short of
+
+21
+00:01:21,729 --> 00:01:25,580
+expectations eventually, and what
+caused a second decline in AI funding was
+
+22
+00:01:25,580 --> 00:01:29,260
+largely unmet expectations, as
+these systems proved brittle and
+
+23
+00:01:29,261 --> 00:01:33,420
+expensive to maintain in the real world.
+The field's fortunes changed again with a
+
+24
+00:01:33,421 --> 00:01:37,740
+shift in approach. The technique that
+became dominant from the 1990s onward was
+
+25
+00:01:37,741 --> 00:01:41,820
+machine learning, where systems learn
+patterns from data rather than following
+
+26
+00:01:41,821 --> 00:01:46,540
+rules written explicitly by programmers.
+One dramatic public demonstration of AI's
+
+27
+00:01:46,639 --> 00:01:52,380
+growing capability came in 1997, when
+IBM's Deep Blue defeated a chess champion,
+
+28
+00:01:52,529 --> 00:01:55,494
+beating the reigning world
+champion Garry Kasparov in
+
+29
+00:01:55,518 --> 00:01:58,547
+a widely publicized match.
+As we moved into the 2000s,
+
+30
+00:01:58,548 --> 00:02:01,184
+another factor became
+crucial to progress.
+
+31
+00:02:01,208 --> 00:02:05,032
+Big data, that is enormous
+quantities of digital information,
+
+32
+00:02:05,144 --> 00:02:07,732
+became crucial for modern
+AI, giving machine learning
+
+33
+00:02:07,756 --> 00:02:10,551
+systems far more material
+to learn from than ever before.
+
+34
+00:02:10,552 --> 00:02:13,329
+Alongside data,
+hardware mattered too.
+
+35
+00:02:13,353 --> 00:02:17,752
+GPUs, originally designed for
+rendering video game graphics,
+
+36
+00:02:17,890 --> 00:02:20,163
+turned out to be
+extremely well suited to the
+
+37
+00:02:20,187 --> 00:02:22,472
+mathematical operations
+behind deep learning,
+
+38
+00:02:22,560 --> 00:02:26,199
+and this hardware advance
+accelerated deep learning enormously.
+
+39
+00:02:26,223 --> 00:02:28,392
+A pivotal moment
+came in 2012, with a
+
+40
+00:02:28,416 --> 00:02:34,644
+competition called ImageNet, in which a deep learning
+system dramatically outperformed previous approaches
+
+41
+00:02:34,668 --> 00:02:39,035
+at recognizing images, convincing many skeptical
+researchers that deep learning was the way forward.
+
+42
+00:02:39,505 --> 00:02:45,963
+Public excitement grew further in 2016, when the AI
+system AlphaGo famously won at the ancient board game
+
+43
+00:02:45,987 --> 00:02:51,736
+Go, defeating a top human professional in a game long
+considered far too complex for computers to master.
+
+44
+00:02:51,760 --> 00:02:54,107
+Much of the progress in
+image recognition around
+
+45
+00:02:54,131 --> 00:02:56,392
+this time relied on a
+particular architecture.
+
+46
+00:02:56,530 --> 00:02:59,019
+The convolutional neural
+network became the standard
+
+47
+00:02:59,043 --> 00:03:01,352
+type of neural network
+commonly used for images,
+
+48
+00:03:01,490 --> 00:03:05,580
+since its structure is particularly well
+suited to recognizing visual patterns.
+
+49
+00:03:05,630 --> 00:03:10,140
+More recently, a different architecture
+has transformed another area entirely.
+
+50
+00:03:10,141 --> 00:03:13,632
+Natural language processing saw
+major progress with transformer
+
+51
+00:03:13,656 --> 00:03:17,272
+models, which now underpin most
+modern language-based AI systems,
+
+52
+00:03:17,310 --> 00:03:20,140
+including translation
+and text generation tools.
+
+53
+00:03:20,190 --> 00:03:22,573
+Now, alongside all
+this technical progress,
+
+54
+00:03:22,597 --> 00:03:25,272
+there are important
+concerns we need to discuss.
+
+55
+00:03:25,373 --> 00:03:30,183
+One ethical concern the lecturer highlights
+is algorithmic bias, where AI systems can
+
+56
+00:03:30,227 --> 00:03:35,032
+unintentionally reproduce or even amplify
+unfair patterns present in their training data.
+
+57
+00:03:35,120 --> 00:03:38,300
+There's also a growing practical
+concern about sustainability.
+
+58
+00:03:38,350 --> 00:03:42,229
+A resource-heavy issue about large
+models is their energy consumption, since
+
+59
+00:03:42,253 --> 00:03:45,992
+training the largest systems can
+require enormous amounts of electricity.
+
+60
+00:03:46,080 --> 00:03:50,060
+Despite all this progress, some
+challenges remain stubbornly difficult.
+
+61
+00:03:50,210 --> 00:03:53,450
+What's still difficult for AI systems
+is common sense reasoning,
+
+62
+00:03:53,474 --> 00:03:56,472
+the kind of everyday understanding
+humans take for granted,
+
+63
+00:03:56,610 --> 00:03:59,500
+but which machines still
+struggle to replicate reliably.
+
+64
+00:03:59,550 --> 00:04:03,420
+Looking ahead, researchers often
+discuss a longer-term goal for the field.
+
+65
+00:04:03,570 --> 00:04:07,392
+The term describing AI matching
+general human ability is general
+
+66
+00:04:07,416 --> 00:04:11,192
+intelligence, sometimes called
+artificial general intelligence,
+
+67
+00:04:11,330 --> 00:04:14,540
+a capability no current
+system has fully achieved.
+
+68
+00:04:14,690 --> 00:04:17,980
+To finish today, I'd like you to
+prepare for next week's seminar.
+
+69
+00:04:18,080 --> 00:04:21,339
+What the lecturer recommends
+reading for next week is a research paper,
+
+70
+00:04:21,440 --> 00:04:23,984
+which I'll upload to the
+course page this afternoon, so
+
+71
+00:04:24,008 --> 00:04:26,472
+please make sure you've
+read it before we meet again.
+

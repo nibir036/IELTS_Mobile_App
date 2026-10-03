@@ -1,0 +1,578 @@
+[
+ {
+  "id": "g01_agreement_1",
+  "title": "1. Subject-Verb Agreement ও বাক্যের ভিত্তি (1/2)",
+  "group": "মডিউল ১ · শূন্য থেকে দক্ষতা: মৌলিক Grammar Engine",
+  "blocks": [
+   [
+    "p",
+    "বাক্যের মূল গঠন-উপাদান, আর সেই ৮টি agreement case যেগুলো আপনার নম্বর ঠিক করে দেয়। পুরো পরীক্ষায় সবচেয়ে কম পরিশ্রমে accuracy-তে সবচেয়ে বড় লাভ এখান থেকেই আসে।"
+   ],
+   [
+    "p",
+    "IELTS-এর কোনো বিশেষ কৌশলে যাওয়ার আগে আপনার বাক্যগুলোকে যান্ত্রিকভাবে নির্ভুল হতে হবে। এই module সেই ৪টি ভুল ঠিক করে, যেগুলো আপনার Writing ও Speaking-এর প্রতিটি লাইনে চুপচাপ নম্বর কমিয়ে দেয়: subject-এর সঙ্গে না-মেলা verb, ঘটনাকে ভুল সময়ে বসানো tense, বাদ পড়া বা ভুলভাবে বসানো article, আর ভুল preposition। এর কোনোটিই কঠিন নয়। সবগুলোই অভ্যাসের ব্যাপার। Module 1 সঠিক অভ্যাসটাকে আপনার স্বাভাবিক অভ্যাসে পরিণত করে, যাতে Module 2-তে গিয়ে আপনি এমন একটা ভিত্তির ওপর বড় ও উচ্চাভিলাষী বাক্য গড়তে পারেন, যেখান থেকে নম্বর চুইয়ে পড়ে না।"
+   ],
+   [
+    "h",
+    "1.1 শুরুতে বাক্যের গঠন-উপাদান (জানেন মনে হলেও এখান থেকেই শুরু করুন)"
+   ],
+   [
+    "p",
+    "এই বই ধরে নেয় আপনি কিছুই জানেন না, তাই আমরা বাক্যের অংশগুলো দিয়ে শুরু করছি। বাংলা বলতে এই নামগুলো মুখস্থ করার দরকার পড়ে না, কিন্তু এই বইয়ের প্রায় প্রতিটি নিয়ম এই নামগুলো দিয়েই বলা হয়েছে, তাই এগুলো চিনতে শিখুন।"
+   ],
+   [
+    "p",
+    "প্রতিটি সাধারণ English বাক্যে ২টি অপরিহার্য অংশ থাকে, আর প্রায়ই একটি তৃতীয় অংশ:"
+   ],
+   [
+    "ul",
+    [
+     "Subject হলো সেই ব্যক্তি বা জিনিস যাকে নিয়ে বাক্যটি, অর্থাৎ যে কাজটি করে। “Students study hard,” বাক্যে subject হলো students।",
+     "Verb হলো কাজ, বা কোনো অবস্থা। “Students study hard,” বাক্যে verb হলো study। Verb be (is, am, are, was, were) কোনো কাজ নয়, একটা অবস্থা বোঝায়: “The graph is clear.”",
+     "Object হলো সেই ব্যক্তি বা জিনিস যার ওপর কাজটা হয়। “Students use the internet,” বাক্যে object হলো the internet।"
+    ]
+   ],
+   [
+    "p",
+    "English-এ স্বাভাবিক ক্রম হলো Subject + Verb + Object (S + V + O)। Students (S) use (V) the internet (O)."
+   ],
+   [
+    "box",
+    "regional",
+    "Regional Tip (বাংলাভাষীদের জন্য)",
+    "বাংলা একটি Subject-Object-Verb ভাষা। আমি ভাত খাই আক্ষরিকভাবে “I rice eat,” এখানে verb একেবারে শেষে। English-এ verb বসে দ্বিতীয় স্থানে, subject-এর ঠিক পরে: “I eat rice.” আপনার লেখা কোনো English বাক্য ভুল ভুল লাগলে প্রথমেই দেখুন, বাংলার অভ্যাসে verb-টা বাক্যের শেষে চলে গেছে কি না।",
+    []
+   ],
+   [
+    "p",
+    "“Agreement” মানে শুধু মিল। Subject-verb agreement হলো সেই নিয়ম যে verb-কে number-এ তার subject-এর সঙ্গে মিলতে হবে। Singular subject (একটি) verb-এর এক রূপ নেয়; plural subject (একাধিক) নেয় আরেক রূপ। পুরো ধারণাটা এটুকুই। এই অধ্যায়ের বাকি অংশ সেই case-গুলো নিয়ে, যেখানে আসল subject-টা চেনা কঠিন।"
+   ],
+   [
+    "h",
+    "1.2 মূল নিয়ম"
+   ],
+   [
+    "p",
+    "Present simple tense-এ subject singular না plural, তার ওপর নির্ভর করে verb বদলায়।"
+   ],
+   [
+    "table",
+    [
+     "Subject",
+     "Verb-এর রূপ",
+     "উদাহরণ"
+    ],
+    [
+     [
+      "Singular (he, she, it, একটি জিনিস)",
+      "verb + s / es",
+      "The student works hard."
+     ],
+     [
+      "Plural (they, একাধিক)",
+      "base verb, কোনো -s নয়",
+      "The students work hard."
+     ],
+     [
+      "I / You / We / They",
+      "base verb, কোনো -s নয়",
+      "They work hard."
+     ]
+    ]
+   ],
+   [
+    "p",
+    "যে ফাঁদে হাজার হাজার বাংলাদেশি candidate পড়েন, সেটা খেয়াল করুন: noun আর verb-এ -s-এর অর্থ উল্টো।"
+   ],
+   [
+    "ul",
+    [
+     "Noun-এ -s মানে plural: one student, many students।",
+     "Verb-এ -s মানে singular: he works, they work।"
+    ]
+   ],
+   [
+    "p",
+    "তাই একটি সঠিক বাক্যে প্রায়ই -s থাকে হয় noun-এ, নয়তো verb-এ, কিন্তু দুটোতেই নয়: The student works. (singular noun, verb-এ -s বসে) / The students work. (plural noun, verb-এ -s নেই)"
+   ],
+   [
+    "p",
+    "Verb be আর have irregular, এগুলো মুখস্থ করতে হবে:"
+   ],
+   [
+    "table",
+    [
+     "Subject",
+     "be (present)",
+     "be (past)",
+     "have (present)"
+    ],
+    [
+     [
+      "Singular (he/she/it, একটি জিনিস)",
+      "is",
+      "was",
+      "has"
+     ],
+     [
+      "Plural / I / you / we / they",
+      "are",
+      "were",
+      "have"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "The result is clear. / The results are clear. The number has risen. / The numbers have risen."
+   ]
+  ]
+ },
+ {
+  "id": "g01_agreement_2",
+  "title": "1. Subject-Verb Agreement ও বাক্যের ভিত্তি (2/2)",
+  "group": "মডিউল ১ · শূন্য থেকে দক্ষতা: মৌলিক Grammar Engine",
+  "blocks": [
+   [
+    "h",
+    "1.3 যে case-গুলো আসলে আপনার নম্বর ঠিক করে"
+   ],
+   [
+    "p",
+    "মূল নিয়মটা সহজ। নম্বর কাটা যায় নিচের case-গুলোতে, যেখানে আসল subject লুকানো থাকে, ছদ্মবেশে থাকে, অথবা কাছের কোনো noun-এর চেয়ে verb থেকে বেশি দূরে থাকে। এই ৮টি আয়ত্ত করুন, তাহলে আপনার লেখা থেকে প্রায় সব agreement ভুল দূর হয়ে যাবে।"
+   ],
+   [
+    "h2",
+    "Case 1 · Subject আর verb-এর মাঝের শব্দ"
+   ],
+   [
+    "p",
+    "Verb মেলে আসল subject-এর সঙ্গে, কখনোই সবচেয়ে কাছের noun-এর সঙ্গে নয়। লেখকরা সবচেয়ে কাছের শব্দটার দিকে টান অনুভব করেন, আর সেটা সাধারণত ভুল।"
+   ],
+   [
+    "pair",
+    "The list of items are on the table.",
+    "The list of items is on the table.",
+    "Subject হলো “list” (singular), “items” নয়। মাঝের phrase-টা কেটে দিন, সত্যিটা পরিষ্কার হয়ে যাবে: “The list … is.”"
+   ],
+   [
+    "pair",
+    "The quality of the answers were poor.",
+    "The quality of the answers was poor.",
+    ""
+   ],
+   [
+    "p",
+    "কৌশল: subject-টা খুঁজে বের করুন, তারপর মনে মনে subject আর verb-এর মাঝের সব শব্দ মুছে ফেলুন। “The list of items is.”"
+   ],
+   [
+    "h2",
+    "Case 2 · “The number of” বনাম “a number of”"
+   ],
+   [
+    "p",
+    "এই জোড়াটা Writing Task 1-এ বারবার আসে, আর দুটো একেবারে উল্টো আচরণ করে।"
+   ],
+   [
+    "ul",
+    [
+     "“The number of + plural noun” singular verb নেয় (subject হলো number, একটি সংখ্যা)।",
+     "“A number of + plural noun” plural verb নেয় (এর মানে শুধু কয়েকটি)।"
+    ]
+   ],
+   [
+    "p",
+    "The number of tourists has increased since 2010. / A number of tourists were waiting outside the museum."
+   ],
+   [
+    "h2",
+    "Case 3 · Collective noun"
+   ],
+   [
+    "p",
+    "Government, team, committee, family, company, public, staff — এই ধরনের শব্দ একটি দলের নাম। IELTS academic writing-এ প্রতিটিকে একটি একক হিসেবে ধরুন এবং singular verb ব্যবহার করুন।"
+   ],
+   [
+    "p",
+    "The government is planning three new policies. / The committee has reached a decision."
+   ],
+   [
+    "p",
+    "(British English-এ কখনো কখনো plural verb চলে, যখন জোরটা দলের আলাদা আলাদা সদস্যের ওপর: “the team are arguing among themselves.” IELTS academic Writing-এ singular-এই থাকুন এবং ধারাবাহিক থাকুন। এটা নিরাপদ, আর কখনো ভুল হয় না।)"
+   ],
+   [
+    "h2",
+    "Case 4 · Indefinite pronoun singular"
+   ],
+   [
+    "p",
+    "Each, every, everyone, everybody, someone, anyone, nobody, either, neither, one — এগুলো সবই singular, আশপাশের শব্দগুলো যত plural-ই দেখাক না কেন।"
+   ],
+   [
+    "p",
+    "Each of the students has a laptop. (“have” নয়) / Everyone in the classes was present. / Neither of the options is acceptable."
+   ],
+   [
+    "h2",
+    "Case 5 · “Neither…nor,” “either…or,” “not only…but also”"
+   ],
+   [
+    "p",
+    "এই জোড়া connector-গুলোর ক্ষেত্রে verb মেলে কাছের subject-এর সঙ্গে, অর্থাৎ verb-এর সবচেয়ে কাছে যেটা আছে।"
+   ],
+   [
+    "p",
+    "Neither the manager nor the employees were informed. (কাছের subject: employees, plural) / Neither the employees nor the manager was informed. (কাছের subject: manager, singular) / Not only the students but also the teacher was worried."
+   ],
+   [
+    "h2",
+    "Case 6 · “And” দিয়ে জোড়া compound subject"
+   ],
+   [
+    "p",
+    "And দিয়ে জোড়া ২টি subject প্রায় সবসময় plural।"
+   ],
+   [
+    "p",
+    "The teacher and the students were in the hall. / Poverty and unemployment remain serious problems."
+   ],
+   [
+    "p",
+    "ব্যতিক্রম: যখন দুটি শব্দ মিলে একটিই জিনিস বোঝায়, তখন singular ধরুন: “Bread and butter is a common breakfast.” IELTS-এ এটা কমই আসে।"
+   ],
+   [
+    "h2",
+    "Case 7 · “There is” আর “there are”"
+   ],
+   [
+    "p",
+    "There-এর পরে verb মেলে আসল subject-এর সঙ্গে, যেটা verb-এর পরে আসে।"
+   ],
+   [
+    "p",
+    "There is a serious problem. (subject: problem, singular) / There are several factors. (subject: factors, plural) / There is a range of options. (subject: range, singular)"
+   ],
+   [
+    "h2",
+    "Case 8 · Uncountable noun, পরিমাণ, আর inverted structure"
+   ],
+   [
+    "p",
+    "Uncountable noun-কে singular ধরা হয় এবং এগুলো কখনো plural -s নেয় না। IELTS-এ বারবার আসা এই set-টা একসঙ্গে মুখস্থ করুন: information, advice, knowledge, research, equipment, furniture, accommodation, traffic, progress, news, money, water, work।"
+   ],
+   [
+    "pair",
+    "The informations are correct and he gave many advices.",
+    "The information is correct and he gave a lot of advice.",
+    ""
+   ],
+   [
+    "p",
+    "সময়, টাকা আর দূরত্বের পরিমাণকে একটি একক পরিমাণ হিসেবে ধরা হয়, তাই এগুলো singular verb নেয়। Ten years is a long time to wait. / Five thousand taka is not enough."
+   ],
+   [
+    "p",
+    "Inverted structure-এ (যেখানে verb subject-এর আগে আসে) verb তখনও subject-এর সঙ্গেই মেলে। বাক্য যখন not only বা hardly-র মতো negative adverb দিয়ে শুরু হয়, verb-এর পরে subject-টা খুঁজে নিয়ে তার সঙ্গে মেলান। Hardly ever does the government reverse such a decision. / Only after 2010 did the figures begin to fall."
+   ],
+   [
+    "p",
+    "(Inversion পুরোপুরি দেখবেন Chapter 8-এ। এখানে শুধু খেয়াল রাখুন যে agreement তখনও প্রযোজ্য।)"
+   ],
+   [
+    "box",
+    "l1",
+    "বাংলাভাষীরা কেন agreement-এ ভুল করেন",
+    "আপনার প্রায় প্রতিটি subject-verb agreement ভুলের মূলে একটাই কারণ: English verb যেভাবে singular বা plural subject অনুযায়ী ending বদলায়, বাংলা verb সেভাবে বদলায় না। Verb-এর রূপ যায় (jay) “he” আর “they” দুটোর জন্যই এক। বাংলা person আর সম্মানসূচক রূপ (formality) চিহ্নিত করে, কিন্তু English যেমন verb-এ singular-plural বদল বাধ্যতামূলক করে, বাংলা তা করে না। যেহেতু আপনার মাতৃভাষা এই বদলের অভ্যাস কখনো গড়ে দেয়নি, তাই বদলটা বাদ পড়লে আপনার কান আপনাকে সতর্ক করে না।",
+    [
+     "Error type 1 · বাদ পড়া third-person -s। বাংলায় কোনো -s যোগ হয় না বলে শিক্ষার্থীরা সব জায়গায় base verb লিখে ফেলেন।\n✗ He go to the market every day. / The population increase rapidly.\n✓ He goes to the market every day. / The population increases rapidly.",
+     "Error type 2 · বাদ পড়া বা ভুল “is / are”। সাধারণ বিবৃতিতে বাংলায় প্রায়ই is-এর আলাদা কোনো শব্দ থাকে না (সে ভালো = “he good”), তাই শিক্ষার্থীরা এটা বাদ দেন বা ভুল number-এর রূপ বেছে নেন।\n✗ Many people is using the internet. / The graph show that pollution have increased.\n✓ Many people are using the internet. / The graph shows that pollution has increased."
+    ]
+   ],
+   [
+    "box",
+    "impact",
+    "এই একটি নিয়মই কেন আপনার band আটকে দেয়",
+    "Examiner-রা সবার আগে subject-verb agreement-এর ভুলটাই খেয়াল করেন, কারণ এটা প্রায় প্রতিটি উত্তরের একেবারে প্রথম লাইনেই দেখা দেয় এবং বারবার ফিরে আসে। যে script-এ agreement ভুল বারবার হয়, সেটা Grammatical Range and Accuracy-তে Band 7-এ পৌঁছাতে পারে না, idea যত ভালোই হোক, কারণ Band 7-এর criterion অনুযায়ী বেশিরভাগ বাক্য ভুলমুক্ত হতে হবে। প্রতি বাক্যে একটা agreement slip থাকলেই সেটা আর হয় না। সবচেয়ে বেশি ক্ষতি হয় Writing Task 1-এ, যেটা চলে the number of, the proportion of, the figure for-এর মতো subject-এর ওপর, আর এর প্রতিটিই singular। Agreement ঠিক করাই পুরো পরীক্ষায় সবচেয়ে কম পরিশ্রমে accuracy-তে সবচেয়ে বড় লাভ।\n\nযে skill-এ কাজে লাগে: Writing, Speaking",
+    [
+     "Task 1: The number of visitors has risen sharply, whereas the proportion of local tourists has fallen.",
+     "Task 2: Although the government provides free healthcare, demand continues to outstrip supply.",
+     "Speaking Part 2: My family lives in a small town, and each of my brothers has a different job."
+    ]
+   ],
+   [
+    "p",
+    "Chapter 1 এখানে শেষ। এরপর Chapter 2 (Tense Mastery & Time Precision)।"
+   ]
+  ]
+ },
+ {
+  "id": "g01_agreement_practice",
+  "title": "1. Practice · Subject-Verb Agreement ও বাক্যের ভিত্তি",
+  "group": "মডিউল ১ · শূন্য থেকে দক্ষতা: মৌলিক Grammar Engine",
+  "blocks": [
+   [
+    "h",
+    "Recap · Agreement-এর মূল নিয়ম"
+   ],
+   [
+    "tip",
+    "Verb-কে number-এ তার subject-এর সঙ্গে মিলতে হবে, সবচেয়ে কাছের noun-এর সঙ্গে নয়। Singular subject verb-এর -s রূপ নেয়; plural subject নেয় না। শুধু এই একটি অভ্যাস ঠিক করলেই আপনার লেখার সবচেয়ে সাধারণ agreement ভুলটা দূর হয়ে যায়।"
+   ],
+   [
+    "p",
+    "**কেন গুরুত্বপূর্ণ:** আপনার লেখা প্রতিটি বাক্যেই subject-verb agreement যাচাই হয়, তাই এখানে একটা খারাপ অভ্যাস বারবার নম্বর কাটায়।"
+   ],
+   [
+    "h2",
+    "মূল নিয়ম"
+   ],
+   [
+    "ul",
+    [
+     "Present simple-এ **singular subject** (he, she, it, একটি জিনিস) verb **+ s/es** নেয়: the student works।",
+     "**Plural subject** নেয় **base verb**, কোনো -s ছাড়া: the students work।",
+     "Noun আর verb-এ -s-এর অর্থ উল্টো: noun-এ -s মানে plural; verb-এ -s মানে singular। একটি সঠিক বাক্যে খুব কমই দুটোতেই -s থাকে।"
+    ]
+   ],
+   [
+    "h2",
+    "যে irregular জোড়াটা মুখস্থ করতে হবে"
+   ],
+   [
+    "ul",
+    [
+     "**be:** is / was (singular) → are / were (plural)",
+     "**have:** has (singular) → have (plural)"
+    ]
+   ],
+   [
+    "p",
+    "The result is clear বনাম the results are clear; the number has risen বনাম the numbers have risen।"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Exercise 1.1 · ভুল চেনা ও শোধরানো",
+     "kind": "correction",
+     "instructions": "নিচের প্রতিটি বাক্যে একটি subject-verb agreement ভুল আছে, শুধু ৩টি ছাড়া, যেগুলো আগে থেকেই সঠিক। ভুল বাক্যগুলো সঠিকভাবে আবার লিখুন, আর সঠিকগুলোর জন্য লিখুন “Correct.” Key দেখার আগে কলম দিয়ে নিজে করুন।",
+     "items": [
+      {
+       "prompt": "The list of approved candidates are posted on the noticeboard.",
+       "answer": "The list of approved candidates is posted on the noticeboard.",
+       "accepted": [
+        "The list of approved candidates is posted on the noticeboard."
+       ],
+       "reason": "Subject হলো “list” (singular), “candidates” নয়। মাঝের “of approved candidates” বাদ দিলেই বোঝা যায়।"
+      },
+      {
+       "prompt": "Each of the students have submitted their assignment.",
+       "answer": "Each of the students has submitted his or her assignment.",
+       "accepted": [
+        "Each of the students has submitted his or her assignment.",
+        "Each of the students has submitted their assignment."
+       ],
+       "reason": "“Each of” সবসময় singular, তাই has।"
+      },
+      {
+       "prompt": "The government are introducing a new tax next year.",
+       "answer": "The government is introducing a new tax next year.",
+       "accepted": [
+        "The government is introducing a new tax next year."
+       ],
+       "reason": "Collective noun-কে একটি একক হিসেবে ধরলে academic writing-এ singular verb বসে।"
+      },
+      {
+       "prompt": "Neither the teacher nor the students was ready for the test.",
+       "answer": "Neither the teacher nor the students were ready for the test.",
+       "accepted": [
+        "Neither the teacher nor the students were ready for the test."
+       ],
+       "reason": "“Neither…nor”-এর ক্ষেত্রে verb মেলে কাছের subject “students”-এর সঙ্গে (plural)।"
+      },
+      {
+       "prompt": "The number of accidents on this road have increased.",
+       "answer": "The number of accidents on this road has increased.",
+       "accepted": [
+        "The number of accidents on this road has increased."
+       ],
+       "reason": "“The number of” সবসময় singular।"
+      },
+      {
+       "prompt": "There is several reasons for this decline.",
+       "answer": "There are several reasons for this decline.",
+       "accepted": [
+        "There are several reasons for this decline."
+       ],
+       "reason": "আসল subject “reasons” plural।"
+      },
+      {
+       "prompt": "A large amount of information were collected during the survey.",
+       "answer": "A large amount of information was collected during the survey.",
+       "accepted": [
+        "A large amount of information was collected during the survey."
+       ],
+       "reason": "“Information” uncountable ও singular, তাই “amount … was.”"
+      },
+      {
+       "prompt": "Ten kilometres are a long way to walk in the heat.",
+       "answer": "Ten kilometres is a long way to walk in the heat.",
+       "accepted": [
+        "Ten kilometres is a long way to walk in the heat."
+       ],
+       "reason": "একটি দূরত্বকে একটি একক পরিমাণ হিসেবে ধরা হয়: singular verb।"
+      },
+      {
+       "prompt": "The committee has agreed on the final budget.",
+       "answer": "Correct.",
+       "accepted": [
+        "Correct.",
+        "Correct",
+        "The committee has agreed on the final budget."
+       ],
+       "reason": "“Committee”-কে একটি একক হিসেবে ধরলে singular “has” বসে।"
+      },
+      {
+       "prompt": "The quality of the roads in rural areas are very poor.",
+       "answer": "The quality of the roads in rural areas is very poor.",
+       "accepted": [
+        "The quality of the roads in rural areas is very poor."
+       ],
+       "reason": "Subject হলো “quality” (singular), “roads” বা “areas” নয়।"
+      },
+      {
+       "prompt": "Poverty and illiteracy remains major obstacles to development.",
+       "answer": "Poverty and illiteracy remain major obstacles to development.",
+       "accepted": [
+        "Poverty and illiteracy remain major obstacles to development."
+       ],
+       "reason": "“And” দিয়ে জোড়া ২টি subject plural।"
+      },
+      {
+       "prompt": "Everyone in the two classes were given a certificate.",
+       "answer": "Everyone in the two classes was given a certificate.",
+       "accepted": [
+        "Everyone in the two classes was given a certificate."
+       ],
+       "reason": "“Everyone” singular, তাই was।"
+      },
+      {
+       "prompt": "Not only the manager but also the workers is unhappy with the plan.",
+       "answer": "Not only the manager but also the workers are unhappy with the plan.",
+       "accepted": [
+        "Not only the manager but also the workers are unhappy with the plan."
+       ],
+       "reason": "“Not only…but also”-এর ক্ষেত্রে verb মেলে কাছের subject “workers”-এর সঙ্গে (plural)।"
+      },
+      {
+       "prompt": "The data collected over ten years show a clear pattern.",
+       "answer": "Correct.",
+       "accepted": [
+        "Correct.",
+        "Correct",
+        "The data collected over ten years show a clear pattern."
+       ],
+       "reason": "“Data”-কে plural বা mass noun হিসেবে ধরা হয়; এখানে “the data … show” গ্রহণযোগ্য এবং সামঞ্জস্যপূর্ণ।"
+      },
+      {
+       "prompt": "My knowledge of these topics are limited.",
+       "answer": "My knowledge of these topics is limited.",
+       "accepted": [
+        "My knowledge of these topics is limited."
+       ],
+       "reason": "“Knowledge” uncountable ও singular; subject হলো “knowledge,” “topics” নয়।"
+      },
+      {
+       "prompt": "A number of students has failed to register on time.",
+       "answer": "A number of students have failed to register on time.",
+       "accepted": [
+        "A number of students have failed to register on time."
+       ],
+       "reason": "“A number of” মানে “several” (কয়েকটি), তাই plural verb নেয়।"
+      },
+      {
+       "prompt": "The population of the coastal cities have grown rapidly.",
+       "answer": "The population of the coastal cities has grown rapidly.",
+       "accepted": [
+        "The population of the coastal cities has grown rapidly."
+       ],
+       "reason": "Subject হলো “population” (singular), “cities” নয়।"
+      },
+      {
+       "prompt": "Neither of the two proposals seem practical.",
+       "answer": "Neither of the two proposals seems practical.",
+       "accepted": [
+        "Neither of the two proposals seems practical."
+       ],
+       "reason": "“Neither” singular, তাই seems।"
+      },
+      {
+       "prompt": "Statistics is a subject that many students find difficult.",
+       "answer": "Correct.",
+       "accepted": [
+        "Correct.",
+        "Correct",
+        "Statistics is a subject that many students find difficult."
+       ],
+       "reason": "বিষয়ের নাম হিসেবে “Statistics” singular: “statistics is.”"
+      },
+      {
+       "prompt": "The equipment in the laboratories need to be replaced.",
+       "answer": "The equipment in the laboratories needs to be replaced.",
+       "accepted": [
+        "The equipment in the laboratories needs to be replaced."
+       ],
+       "reason": "“Equipment” uncountable ও singular।"
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Recap · Agreement-এর ৮টি কঠিন case"
+   ],
+   [
+    "tip",
+    "বেশিরভাগ agreement ভুল মূল নিয়ম থেকে আসে না -- আসে ৮টি ছদ্মবেশী case থেকে, যেখানে আসল subject লুকানো থাকে, দেরিতে আসে, বা অন্য কোনো noun-এর সঙ্গে জোড়া থাকে। এই ৮টি শিখে নিন, তাহলে আপনার essay থেকে প্রায় সব agreement ভুল উধাও হয়ে যাবে।"
+   ],
+   [
+    "p",
+    "**কেন গুরুত্বপূর্ণ:** মূল নিয়মটা সহজ; নম্বর কাটা যায় সেই case-গুলোতে, যেখানে আসল subject চেনা কঠিন।"
+   ],
+   [
+    "h2",
+    "যে case-গুলো আপনার নম্বর ঠিক করে"
+   ],
+   [
+    "ul",
+    [
+     "**Subject আর verb-এর মাঝের শব্দ:** এগুলো উপেক্ষা করুন -- verb মেলে আসল subject-এর সঙ্গে, সবচেয়ে কাছের noun-এর সঙ্গে নয়।",
+     "**\"The number of\" (singular) বনাম \"a number of\" (plural):** the number of tourists has increased, কিন্তু a number of tourists were waiting।",
+     "**Collective noun** (government, team, committee): IELTS academic writing-এ singular।",
+     "**Indefinite pronoun** (each, everyone, neither) সবসময় singular।",
+     "**\"Neither...nor\", \"either...or\"**: verb মেলে কাছের subject-এর সঙ্গে।",
+     "**\"And\" দিয়ে compound subject**: প্রায় সবসময় plural।",
+     "**\"There is / there are\"**: verb-এর পরে যা আসে তার সঙ্গে মেলে।",
+     "**Uncountable noun ও পরিমাণ** (information, ten years): singular, দেখতে plural মনে হলেও।"
+    ]
+   ],
+   [
+    "exercise",
+    {
+     "title": "Exercise 1.2 · IELTS Essay সম্পাদনা",
+     "kind": "essay_edit",
+     "instructions": "নিচের paragraph-টি একটি Band 5.5 Task 2 essay থেকে নেওয়া। এতে ১০টি subject-verb agreement ভুল আছে। সেগুলো খুঁজে বের করুন, তারপর পুরো paragraph-টি সঠিকভাবে আবার লিখুন।",
+     "items": [
+      {
+       "prompt": "Nowadays, the number of people who works from home have increased dramatically. There is many reasons for this change. First, technology allow employees to stay connected from anywhere. Second, each of the major companies now offer flexible arrangements. However, some managers believes that productivity fall when staff is not in the office. In my opinion, the advantages of remote work outweighs the disadvantages, and this trend are likely to continue.",
+       "answer": "Nowadays, the number of people who work from home has increased dramatically. There are many reasons for this change. First, technology allows employees to stay connected from anywhere. Second, each of the major companies now offers flexible arrangements. However, some managers believe that productivity falls when staff are not in the office. In my opinion, the advantages of remote work outweigh the disadvantages, and this trend is likely to continue.",
+       "accepted": [
+        "Nowadays, the number of people who work from home has increased dramatically. There are many reasons for this change. First, technology allows employees to stay connected from anywhere. Second, each of the major companies now offers flexible arrangements. However, some managers believe that productivity falls when staff are not in the office. In my opinion, the advantages of remote work outweigh the disadvantages, and this trend is likely to continue."
+       ],
+       "reason": "১০টি agreement ভুল: who works→work; have increased→has increased (the number singular); There is→There are; technology allow→allows; each of … offer→offers; managers believes→believe; productivity fall→falls; staff is→staff are; advantages … outweighs→outweigh; this trend are→is। সবগুলোর মূলে একই সমস্যা: subject চিনে verb মেলানো হয়নি। কৌশল: subject আর verb-এর মাঝের সব শব্দ বাদ দিয়ে subject-টা বের করুন, তারপর singular না plural দেখে verb বসান।"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+]

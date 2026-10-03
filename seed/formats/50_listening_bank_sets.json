@@ -1,0 +1,903 @@
+{
+  "_format": {
+    "name": "listening_bank_sets",
+    "group": "bank",
+    "table": "listening_sets",
+    "primaryKey": "id",
+    "description": "Listening question bank: 32 recordings, one question format each (lb_…).",
+    "currentSourceInApp": "assets/content/listening_bank.json → sets",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "part": "integer",
+      "title": "string",
+      "context": "string",
+      "audio": "string",
+      "durationSeconds": "integer",
+      "speakers": "array",
+      "transcript": "array",
+      "groups": "array",
+      "data": "object"
+    },
+    "notes": [
+      "audio = R2 object key (audioKey); data.audio = the app asset path."
+    ],
+    "recordCountToday": 32
+  },
+  "items": [
+    {
+      "id": "lb_p1_fn",
+      "source": "bank",
+      "part": 1,
+      "title": "Registering for a Summer Sports Camp",
+      "context": "A parent phones Lakeside Summer Sports Camp to register his son.",
+      "audio": "listening/bank/P1-FN/P1-FN_Form_Note_Completion.mp3",
+      "durationSeconds": 210,
+      "speakers": [
+        {
+          "name": "Emma",
+          "role": "Camp receptionist",
+          "description": "Camp receptionist — female, late 20s, bright and efficient; British accent",
+          "voice": "female"
+        },
+        {
+          "name": "Mr Brandon",
+          "role": "Caller (parent)",
+          "description": "Caller (parent) — male, 40s, relaxed and friendly; British accent",
+          "voice": "male"
+        }
+      ],
+      "transcript": [
+        {
+          "id": "t1",
+          "speaker": "Emma",
+          "text": "Good morning, Lakeside Summer Sports Camp. Emma speaking. How can I help?",
+          "start": 1.5,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t2",
+          "speaker": "Mr Brandon",
+          "text": "Oh, hello. Um, I'd like to book my son onto one of your summer weeks if there are still places.",
+          "start": 5.7,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t3",
+          "speaker": "Emma",
+          "text": "There are, yes, don't worry. I'll just open a registration form. Right. Can I start with your son's name?",
+          "start": 10.9,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t4",
+          "speaker": "Mr Brandon",
+          "text": "It's Oliver. Oliver Brandon.",
+          "start": 19.4,
+          "directions": [],
+          "keywords": [
+            "Brandon"
+          ],
+          "answerTags": [
+            {
+              "after": "Brandon",
+              "question": 1
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "speaker": "Emma",
+          "text": "And could you spell the surname for me?",
+          "start": 21.4,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t6",
+          "speaker": "Mr Brandon",
+          "text": "Sure. B-R-A-N-D-O-N.",
+          "start": 24.0,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t7",
+          "speaker": "Emma",
+          "text": "Lovely, thank you. And how old is Oliver?",
+          "start": 29.7,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t8",
+          "speaker": "Mr Brandon",
+          "text": "Well, he's nine at the moment, but his birthday's next week, so he'll be 10 by the time the camp starts.",
+          "start": 33.8,
+          "directions": [],
+          "keywords": [
+            "10"
+          ],
+          "answerTags": [
+            {
+              "after": "10",
+              "question": 2
+            }
+          ]
+        },
+        {
+          "id": "t9",
+          "speaker": "Emma",
+          "text": "Then I'll put 10 because we go by age at the start of camp. And a contact number for you?",
+          "start": 39.3,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t10",
+          "speaker": "Mr Brandon",
+          "text": "My mobile's best. It's 07845 331290.",
+          "start": 44.7,
+          "directions": [],
+          "keywords": [
+            "07845 331290"
+          ],
+          "answerTags": [
+            {
+              "after": "07845 331290",
+              "question": 3
+            }
+          ]
+        },
+        {
+          "id": "t11",
+          "speaker": "Emma",
+          "text": "07845 331290.",
+          "start": 51.5,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t12",
+          "speaker": "Mr Brandon",
+          "text": "That's it.",
+          "start": 55.6,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t13",
+          "speaker": "Emma",
+          "text": "And your address?",
+          "start": 56.4,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t14",
+          "speaker": "Mr Brandon",
+          "text": "27 Kestrel Close. That's K-E-S-T-R-E-L.",
+          "start": 57.6,
+          "directions": [],
+          "keywords": [
+            "Kestrel"
+          ],
+          "answerTags": [
+            {
+              "after": "Kestrel",
+              "question": 4
+            }
+          ]
+        },
+        {
+          "id": "t15",
+          "speaker": "Emma",
+          "text": "Kestrel Close. And is that here in Hadley?",
+          "start": 63.4,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t16",
+          "speaker": "Mr Brandon",
+          "text": "No, we're just outside Hadley, actually. We're in Ashford.",
+          "start": 67.0,
+          "directions": [],
+          "keywords": [
+            "Ashford"
+          ],
+          "answerTags": [
+            {
+              "after": "Ashford",
+              "question": 5
+            }
+          ]
+        },
+        {
+          "id": "t17",
+          "speaker": "Emma",
+          "text": "Ashford, lovely.",
+          "start": 70.3,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t18",
+          "speaker": "Emma",
+          "text": "Now, which week would you like? We run four weeks in total, but I'm afraid week two is already full.",
+          "start": 71.4,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t19",
+          "speaker": "Mr Brandon",
+          "text": "Hmm, we're away for week one.",
+          "start": 78.9,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t20",
+          "speaker": "Mr Brandon",
+          "text": "So, week three, please.",
+          "start": 81.3,
+          "directions": [],
+          "keywords": [
+            "three"
+          ],
+          "answerTags": [
+            {
+              "after": "three",
+              "question": 6
+            }
+          ]
+        },
+        {
+          "id": "t21",
+          "speaker": "Emma",
+          "text": "Week three. And which sport should he do as his main activity? He can choose football, swimming or tennis.",
+          "start": 82.8,
+          "directions": [],
+          "keywords": [
+            "tennis"
+          ],
+          "answerTags": [
+            {
+              "after": "tennis",
+              "question": 7
+            }
+          ]
+        },
+        {
+          "id": "t22",
+          "speaker": "Mr Brandon",
+          "text": "He'd probably say football, but he did football all last summer and he's really keen to try tennis this time. So, let's go for tennis.",
+          "start": 89.4,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t23",
+          "speaker": "Emma",
+          "text": "Tennis it is.",
+          "start": 96.4,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t24",
+          "speaker": "Emma",
+          "text": "Does Oliver have any allergies we should know about?",
+          "start": 97.8,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t25",
+          "speaker": "Mr Brandon",
+          "text": "He's fine with dairy and gluten and so on, but he's allergic to nuts.",
+          "start": 100.4,
+          "directions": [],
+          "keywords": [
+            "nuts"
+          ],
+          "answerTags": [
+            {
+              "after": "nuts",
+              "question": 8
+            }
+          ]
+        },
+        {
+          "id": "t26",
+          "speaker": "Emma",
+          "text": "Nuts. I'll flag that for the kitchen staff.",
+          "start": 104.6,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t27",
+          "speaker": "Emma",
+          "text": "And who'll be collecting him in the afternoons? Will that be you?",
+          "start": 107.7,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t28",
+          "speaker": "Mr Brandon",
+          "text": "I'm at work until 6:00, so it'll be his grandmother most days.",
+          "start": 111.0,
+          "directions": [],
+          "keywords": [
+            "grandmother"
+          ],
+          "answerTags": [
+            {
+              "after": "grandmother",
+              "question": 9
+            }
+          ]
+        },
+        {
+          "id": "t29",
+          "speaker": "Emma",
+          "text": "That's fine. We'll add her to the pickup list.",
+          "start": 115.0,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t30",
+          "speaker": "Emma",
+          "text": "Last question for the form. How did you hear about us? Was it our website?",
+          "start": 117.8,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t31",
+          "speaker": "Mr Brandon",
+          "text": "Uh, no, actually, we picked up a leaflet at the library.",
+          "start": 122.5,
+          "directions": [],
+          "keywords": [
+            "leaflet"
+          ],
+          "answerTags": [
+            {
+              "after": "leaflet",
+              "question": 10
+            }
+          ]
+        },
+        {
+          "id": "t32",
+          "speaker": "Emma",
+          "text": "Great. That's the form done.",
+          "start": 126.9,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t33",
+          "speaker": "Emma",
+          "text": "Now, a few things to note down. Normal drop-off is at 9:00, but there's an early drop-off from 8:15 if that helps.",
+          "start": 129.2,
+          "directions": [],
+          "keywords": [
+            "8:15"
+          ],
+          "answerTags": [
+            {
+              "after": "8:15",
+              "question": 11
+            }
+          ]
+        },
+        {
+          "id": "t34",
+          "speaker": "Mr Brandon",
+          "text": "8:15. That's perfect for me.",
+          "start": 136.4,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t35",
+          "speaker": "Emma",
+          "text": "The cost for the week is 140 pounds. It's gone up from last year, I'm afraid, when it was 120.",
+          "start": 138.9,
+          "directions": [],
+          "keywords": [
+            "140"
+          ],
+          "answerTags": [
+            {
+              "after": "140",
+              "question": 12
+            }
+          ]
+        },
+        {
+          "id": "t36",
+          "speaker": "Mr Brandon",
+          "text": "Everything's gone up. 140. Fine.",
+          "start": 146.8,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t37",
+          "speaker": "Emma",
+          "text": "Lunch isn't provided, so the children need to bring a packed lunch every day. And please send him with a water bottle with his name on it. We get dozens that look exactly the same.",
+          "start": 149.8,
+          "directions": [],
+          "keywords": [
+            "Lunch",
+            "bottle"
+          ],
+          "answerTags": [
+            {
+              "after": "Lunch",
+              "question": 13
+            },
+            {
+              "after": "bottle",
+              "question": 14
+            }
+          ]
+        },
+        {
+          "id": "t38",
+          "speaker": "Mr Brandon",
+          "text": "I can imagine.",
+          "start": 160.3,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t39",
+          "speaker": "Emma",
+          "text": "One more thing about tennis. Ordinary trainers aren't allowed on the courts, so he'll need proper tennis shoes.",
+          "start": 161.7,
+          "directions": [],
+          "keywords": [
+            "shoes"
+          ],
+          "answerTags": [
+            {
+              "after": "shoes",
+              "question": 15
+            }
+          ]
+        },
+        {
+          "id": "t40",
+          "speaker": "Mr Brandon",
+          "text": "Ah, I'll have to buy some then.",
+          "start": 167.9,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t41",
+          "speaker": "Emma",
+          "text": "If it rains, all the outdoor activities move into the sports hall, so the day still goes ahead. And on the Friday afternoon, there's a short tournament and parents are very welcome to come and watch.",
+          "start": 170.3,
+          "directions": [],
+          "keywords": [
+            "hall",
+            "tournament"
+          ],
+          "answerTags": [
+            {
+              "after": "hall",
+              "question": 16
+            },
+            {
+              "after": "tournament",
+              "question": 17
+            }
+          ]
+        },
+        {
+          "id": "t42",
+          "speaker": "Mr Brandon",
+          "text": "Lovely.",
+          "start": 180.6,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t43",
+          "speaker": "Mr Brandon",
+          "text": "Who does the tennis coaching?",
+          "start": 181.6,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t44",
+          "speaker": "Emma",
+          "text": "That's Mark Tulloch, T-U-L-L-O-C-H. He's been with us for years.",
+          "start": 182.8,
+          "directions": [],
+          "keywords": [
+            "Tulloch"
+          ],
+          "answerTags": [
+            {
+              "after": "Tulloch",
+              "question": 18
+            }
+          ]
+        },
+        {
+          "id": "t45",
+          "speaker": "Mr Brandon",
+          "text": "Great.",
+          "start": 188.9,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t46",
+          "speaker": "Mr Brandon",
+          "text": "And when do I need to pay by?",
+          "start": 189.7,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t47",
+          "speaker": "Emma",
+          "text": "Payment's due by the 20th of June. Sorry, no, the 30th. The 20th was last year's date.",
+          "start": 191.2,
+          "directions": [],
+          "keywords": [
+            "30th"
+          ],
+          "answerTags": [
+            {
+              "after": "30th",
+              "question": 19
+            }
+          ]
+        },
+        {
+          "id": "t48",
+          "speaker": "Mr Brandon",
+          "text": "The 30th.",
+          "start": 198.0,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t49",
+          "speaker": "Mr Brandon",
+          "text": "Can I pay by cheque?",
+          "start": 199.1,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t50",
+          "speaker": "Emma",
+          "text": "We don't take cheques anymore, I'm afraid. It's online only through our website.",
+          "start": 200.2,
+          "directions": [],
+          "keywords": [
+            "online"
+          ],
+          "answerTags": [
+            {
+              "after": "online",
+              "question": 20
+            }
+          ]
+        },
+        {
+          "id": "t51",
+          "speaker": "Mr Brandon",
+          "text": "Online, no problem. Thanks very much for your help.",
+          "start": 204.7,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t52",
+          "speaker": "Emma",
+          "text": "You're welcome.",
+          "start": 207.5,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        },
+        {
+          "id": "t53",
+          "speaker": "Emma",
+          "text": "We'll see Oliver in week three.",
+          "start": 208.5,
+          "directions": [],
+          "keywords": [],
+          "answerTags": []
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "form",
+          "title": "Complete the form",
+          "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+          "questions": [
+            {
+              "number": 1,
+              "label": "Child's name",
+              "before": "Oliver",
+              "after": "",
+              "answer": "Brandon",
+              "answerDisplay": "Brandon",
+              "accepted": [
+                "Brandon"
+              ]
+            },
+            {
+              "number": 2,
+              "label": "Age at start of camp",
+              "before": "",
+              "after": "",
+              "answer": "10",
+              "answerDisplay": "10 / ten",
+              "accepted": [
+                "10",
+                "ten"
+              ]
+            },
+            {
+              "number": 3,
+              "label": "Parent's mobile",
+              "before": "",
+              "after": "",
+              "answer": "07845 331290",
+              "answerDisplay": "07845 331290",
+              "accepted": [
+                "07845 331290",
+                "07845331290"
+              ]
+            },
+            {
+              "number": 4,
+              "label": "Address",
+              "before": "27",
+              "after": "Close",
+              "answer": "Kestrel",
+              "answerDisplay": "Kestrel",
+              "accepted": [
+                "Kestrel"
+              ]
+            },
+            {
+              "number": 5,
+              "label": "Town",
+              "before": "",
+              "after": "",
+              "answer": "Ashford",
+              "answerDisplay": "Ashford",
+              "accepted": [
+                "Ashford"
+              ]
+            },
+            {
+              "number": 6,
+              "label": "Week chosen",
+              "before": "week",
+              "after": "",
+              "answer": "3",
+              "answerDisplay": "3 / three",
+              "accepted": [
+                "3",
+                "three"
+              ]
+            },
+            {
+              "number": 7,
+              "label": "Main sport",
+              "before": "",
+              "after": "",
+              "answer": "tennis",
+              "answerDisplay": "tennis",
+              "accepted": [
+                "tennis"
+              ]
+            },
+            {
+              "number": 8,
+              "label": "Allergy",
+              "before": "",
+              "after": "",
+              "answer": "nuts",
+              "answerDisplay": "nuts",
+              "accepted": [
+                "nuts"
+              ]
+            },
+            {
+              "number": 9,
+              "label": "Collected by",
+              "before": "his",
+              "after": "",
+              "answer": "grandmother",
+              "answerDisplay": "grandmother",
+              "accepted": [
+                "grandmother"
+              ]
+            },
+            {
+              "number": 10,
+              "label": "Heard about camp from",
+              "before": "a",
+              "after": "",
+              "answer": "leaflet",
+              "answerDisplay": "leaflet",
+              "accepted": [
+                "leaflet"
+              ]
+            }
+          ],
+          "formTitle": "Lakeside Summer Camp",
+          "formSubtitle": "Registration form"
+        },
+        {
+          "id": "g2",
+          "type": "notes",
+          "title": "Notes",
+          "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+          "questions": [
+            {
+              "number": 11,
+              "text": "Early drop-off available from ______ am",
+              "source": "Early drop-off available from ___ am",
+              "answer": "8.15",
+              "answerDisplay": "8.15 / 8:15",
+              "accepted": [
+                "8.15",
+                "8:15"
+              ]
+            },
+            {
+              "number": 12,
+              "text": "Cost: £______ per week",
+              "source": "Cost: £___ per week",
+              "answer": "140",
+              "answerDisplay": "140",
+              "accepted": [
+                "140"
+              ]
+            },
+            {
+              "number": 13,
+              "text": "Children must bring a packed ______ every day",
+              "source": "Children must bring a packed ___ every day",
+              "answer": "lunch",
+              "answerDisplay": "lunch",
+              "accepted": [
+                "lunch"
+              ]
+            },
+            {
+              "number": 14,
+              "text": "Also bring a water ______ with name on it",
+              "source": "Also bring a water ___ with name on it",
+              "answer": "bottle",
+              "answerDisplay": "bottle",
+              "accepted": [
+                "bottle"
+              ]
+            },
+            {
+              "number": 15,
+              "text": "For tennis, children need proper tennis ______",
+              "source": "For tennis, children need proper tennis ___",
+              "answer": "shoes",
+              "answerDisplay": "shoes",
+              "accepted": [
+                "shoes"
+              ]
+            },
+            {
+              "number": 16,
+              "text": "In wet weather, activities move to the sports ______",
+              "source": "In wet weather, activities move to the sports ___",
+              "answer": "hall",
+              "answerDisplay": "hall",
+              "accepted": [
+                "hall"
+              ]
+            },
+            {
+              "number": 17,
+              "text": "Friday afternoon: a short ______",
+              "source": "Friday afternoon: a short ___",
+              "answer": "tournament",
+              "answerDisplay": "tournament",
+              "accepted": [
+                "tournament"
+              ]
+            },
+            {
+              "number": 18,
+              "text": "Tennis coach: Mark ______",
+              "source": "Tennis coach: Mark ___",
+              "answer": "Tulloch",
+              "answerDisplay": "Tulloch",
+              "accepted": [
+                "Tulloch"
+              ]
+            },
+            {
+              "number": 19,
+              "text": "Payment due by: ______ June",
+              "source": "Payment due by: ___ June",
+              "answer": "30th",
+              "answerDisplay": "30th / thirtieth",
+              "accepted": [
+                "30th",
+                "thirtieth"
+              ]
+            },
+            {
+              "number": 20,
+              "text": "How to pay: ______ only",
+              "source": "How to pay: ___ only",
+              "answer": "online",
+              "answerDisplay": "online",
+              "accepted": [
+                "online"
+              ]
+            }
+          ]
+        }
+      ],
+      "data": "… the app record (same keys as the source file) …"
+    }
+  ]
+}

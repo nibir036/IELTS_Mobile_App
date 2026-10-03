@@ -1,0 +1,522 @@
+{
+  "hub": {
+    "filters": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "due",
+        "label": "Due today"
+      },
+      {
+        "id": "saved",
+        "label": "Saved"
+      }
+    ],
+    "part1": {
+      "title": "Part 1\nShort Q&A",
+      "duration": "4–5"
+    },
+    "modes": [
+      {
+        "id": "part2",
+        "title": "Part 2",
+        "duration": "3–4 min",
+        "label": "Cue card"
+      },
+      {
+        "id": "part3",
+        "title": "Part 3",
+        "duration": "4–5 min",
+        "label": "Discussion"
+      }
+    ],
+    "mockInterview": {
+      "title": "Mock interview",
+      "subtitle": "Parts 1–3 back to back · 11–14 min"
+    }
+  },
+  "sessionCopy": {
+    "part1": {
+      "label": "Part 1 · Short Q&A",
+      "aimSeconds": [
+        20,
+        30
+      ],
+      "hints": [
+        "Answer directly, then add one detail",
+        "Give a reason, then an example",
+        "Keep it to two or three sentences",
+        "Say yes or no, then why",
+        "Add a short personal example"
+      ]
+    },
+    "part3": {
+      "label": "Part 3 · Discussion",
+      "aimSeconds": [
+        45,
+        60
+      ],
+      "hints": [
+        "State your view, then explain",
+        "Give a reason, then an example",
+        "Weigh up both sides",
+        "Give two clear reasons",
+        "Compare the past and the present"
+      ]
+    }
+  },
+  "vault": {
+    "setLabel": "Sep–Dec 2026 set",
+    "subtitle": "{n} Part 2 topics with sample notes and Part 3 follow-ups"
+  },
+  "recording": {
+    "partBadge": "P2",
+    "prepSeconds": 60,
+    "limitSeconds": 120
+  },
+  "transcript": {
+    "paragraphs": [
+      {
+        "faded": false,
+        "tokens": [
+          {
+            "type": "lead",
+            "text": "Well, I'd like to talk about"
+          },
+          {
+            "type": "text",
+            "text": " a time I helped my younger cousin, Rafi. "
+          },
+          {
+            "type": "filler",
+            "text": "um",
+            "note": "Filler — try a short silent pause instead."
+          },
+          {
+            "type": "text",
+            "text": " He was preparing for his HSC and he was "
+          },
+          {
+            "type": "mispronounced",
+            "text": "struggling",
+            "note": "Stress the first syllable: STRUG-gling."
+          },
+          {
+            "type": "text",
+            "text": " with maths "
+          },
+          {
+            "type": "pause",
+            "text": "‖ 2.4s",
+            "note": "Long pause mid-sentence — link ideas with \"especially\"."
+          },
+          {
+            "type": "text",
+            "text": " especially calculus."
+          }
+        ]
+      },
+      {
+        "faded": false,
+        "tokens": [
+          {
+            "type": "text",
+            "text": "So, "
+          },
+          {
+            "type": "filler",
+            "text": "you know",
+            "note": "Filler — drop it or pause briefly."
+          },
+          {
+            "type": "text",
+            "text": ", every evening for about three weeks I went to his house and we "
+          },
+          {
+            "type": "mispronounced",
+            "text": "practised",
+            "note": "Say PRAK-tist — two syllables, final /t/."
+          },
+          {
+            "type": "text",
+            "text": " past papers together. "
+          },
+          {
+            "type": "filler",
+            "text": "like",
+            "note": "Filler — start the sentence directly."
+          },
+          {
+            "type": "text",
+            "text": " the first week was really hard because "
+          },
+          {
+            "type": "pause",
+            "text": "‖ 1.8s",
+            "note": "Long pause — plan the reason before \"because\"."
+          },
+          {
+            "type": "text",
+            "text": " he had lost confidence."
+          }
+        ]
+      },
+      {
+        "faded": true,
+        "tokens": [
+          {
+            "type": "text",
+            "text": "I think the moment he solved a question on his own…"
+          }
+        ]
+      }
+    ]
+  },
+  "pronunciation": {
+    "startIndex": 1,
+    "nativeWave": [
+      4,
+      12,
+      8,
+      24,
+      32,
+      20,
+      8,
+      12,
+      6,
+      16,
+      10,
+      4,
+      12,
+      6,
+      2
+    ],
+    "userWave": [
+      6,
+      12,
+      16,
+      20,
+      14,
+      28,
+      24,
+      16,
+      10,
+      8,
+      14,
+      6,
+      10,
+      4,
+      4,
+      2
+    ],
+    "words": [
+      {
+        "id": "w1",
+        "word": "struggling",
+        "ipa": "/ˈstrʌɡ.əl.ɪŋ/",
+        "pos": "verb",
+        "syllables": [
+          {
+            "text": "STRUG",
+            "state": "stress"
+          },
+          {
+            "text": "gl",
+            "state": "normal"
+          },
+          {
+            "text": "ing",
+            "state": "error"
+          }
+        ],
+        "feedback": "You said “strug-a-ling” — keep it to two light beats after the stress.",
+        "errorBars": [
+          10,
+          12
+        ],
+        "match": 0.68,
+        "tip": "Stress is right. Blend the last two syllables together.",
+        "retryMatch": 0.81,
+        "retryTip": "Much smoother. Keep the final “-ing” short."
+      },
+      {
+        "id": "w2",
+        "word": "particularly",
+        "ipa": "/pəˈtɪk.jə.lə.li/",
+        "pos": "adverb",
+        "syllables": [
+          {
+            "text": "par",
+            "state": "normal"
+          },
+          {
+            "text": "TIC",
+            "state": "stress"
+          },
+          {
+            "text": "u",
+            "state": "error"
+          },
+          {
+            "text": "lar",
+            "state": "normal"
+          },
+          {
+            "text": "ly",
+            "state": "normal"
+          }
+        ],
+        "feedback": "You said “tic-ker” — the “u” should be a light /jə/.",
+        "errorBars": [
+          5,
+          7
+        ],
+        "match": 0.72,
+        "tip": "Stress is right. Shorten the third syllable and try again.",
+        "retryMatch": 0.84,
+        "retryTip": "Better /jə/ sound. Keep the last two syllables quick."
+      },
+      {
+        "id": "w3",
+        "word": "confidence",
+        "ipa": "/ˈkɒn.fɪ.dəns/",
+        "pos": "noun",
+        "syllables": [
+          {
+            "text": "CON",
+            "state": "stress"
+          },
+          {
+            "text": "fi",
+            "state": "normal"
+          },
+          {
+            "text": "dence",
+            "state": "error"
+          }
+        ],
+        "feedback": "You stressed “-dence” — put the weight on “CON”.",
+        "errorBars": [
+          9,
+          11
+        ],
+        "match": 0.64,
+        "tip": "Move the stress to the first syllable and relax the ending.",
+        "retryMatch": 0.79,
+        "retryTip": "Stress moved correctly. Soften the final /s/."
+      },
+      {
+        "id": "w4",
+        "word": "calculus",
+        "ipa": "/ˈkæl.kjə.ləs/",
+        "pos": "noun",
+        "syllables": [
+          {
+            "text": "CAL",
+            "state": "stress"
+          },
+          {
+            "text": "cu",
+            "state": "error"
+          },
+          {
+            "text": "lus",
+            "state": "normal"
+          }
+        ],
+        "feedback": "You said “cal-ku” — use the weak /kjə/ sound.",
+        "errorBars": [
+          5,
+          7
+        ],
+        "match": 0.7,
+        "tip": "Good stress. Weaken the middle vowel.",
+        "retryMatch": 0.83,
+        "retryTip": "Clearer /kjə/. Nice rhythm."
+      },
+      {
+        "id": "w5",
+        "word": "especially",
+        "ipa": "/ɪˈspeʃ.əl.i/",
+        "pos": "adverb",
+        "syllables": [
+          {
+            "text": "e",
+            "state": "error"
+          },
+          {
+            "text": "SPE",
+            "state": "stress"
+          },
+          {
+            "text": "cial",
+            "state": "normal"
+          },
+          {
+            "text": "ly",
+            "state": "normal"
+          }
+        ],
+        "feedback": "You added “ex-” — start with a short /ɪ/, not /eks/.",
+        "errorBars": [
+          0,
+          2
+        ],
+        "match": 0.74,
+        "tip": "Stress is right. Start the word more softly.",
+        "retryMatch": 0.86,
+        "retryTip": "Clean start. Keep “-cial” as one beat."
+      },
+      {
+        "id": "w6",
+        "word": "comfortable",
+        "ipa": "/ˈkʌmf.tə.bəl/",
+        "pos": "adjective",
+        "syllables": [
+          {
+            "text": "COMF",
+            "state": "stress"
+          },
+          {
+            "text": "ta",
+            "state": "normal"
+          },
+          {
+            "text": "ble",
+            "state": "error"
+          }
+        ],
+        "feedback": "You said four syllables — native speakers use three.",
+        "errorBars": [
+          11,
+          13
+        ],
+        "match": 0.69,
+        "tip": "Drop the “-or-” sound and keep the ending light.",
+        "retryMatch": 0.8,
+        "retryTip": "Three clear beats now. Well done."
+      }
+    ]
+  },
+  "upload": {
+    "autoRetry": true,
+    "wave": [
+      6,
+      24,
+      28,
+      16,
+      13,
+      25,
+      22,
+      22,
+      14,
+      19,
+      28,
+      22,
+      9,
+      25,
+      28,
+      15,
+      16,
+      27,
+      22,
+      20,
+      17,
+      21,
+      27,
+      20,
+      12,
+      26,
+      28,
+      13,
+      18,
+      28,
+      21,
+      17,
+      20,
+      22,
+      26,
+      17,
+      15,
+      27,
+      27,
+      11,
+      20,
+      29,
+      20,
+      14
+    ]
+  },
+  "recordings": {
+    "filters": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "part1",
+        "label": "Part 1"
+      },
+      {
+        "id": "part2",
+        "label": "Part 2"
+      },
+      {
+        "id": "part3",
+        "label": "Part 3"
+      },
+      {
+        "id": "test",
+        "label": "Tests"
+      }
+    ],
+    "groups": [
+      "This week",
+      "Earlier"
+    ]
+  },
+  "feedback": {
+    "summaries": [
+      {
+        "minBand": 8.0,
+        "text": "Natural, fluent answers with precise vocabulary and very few slips."
+      },
+      {
+        "minBand": 7.0,
+        "text": "Fluent, well-developed answers. A few hesitations and minor errors remain."
+      },
+      {
+        "minBand": 6.0,
+        "text": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7."
+      },
+      {
+        "minBand": 5.0,
+        "text": "Answers are on topic but short. Speak for longer and extend each idea."
+      },
+      {
+        "minBand": 0.0,
+        "text": "Very short answers. Aim to speak for the full time and add reasons and examples."
+      }
+    ],
+    "tips": {
+      "FC": [
+        "Replace fillers like “you know” and “like” with a short pause.",
+        "Link ideas with “especially”, “because” and “as a result”."
+      ],
+      "LR": [
+        "Swap common words for precise ones — “crucial” instead of “very important”.",
+        "Use one or two topic phrases per answer, e.g. “green space”, “urban sprawl”."
+      ],
+      "GRA": [
+        "Mix simple and complex sentences — add one “although” or “which” clause per answer.",
+        "Check past tenses when you tell a story."
+      ],
+      "P": [
+        "Practise word stress in “particularly” and “struggling”.",
+        "Slow down slightly and finish the last sound of each word."
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+ "note": "Q8: the tutor calls the Morrison article \"far more technical than a project like yours needs\" (F); Q10: last year's student interviews are \"excellent\" (C). \"Needs a licence\" refers to the government database, which is not a question (D is now a distractor).",
+ "groups": {
+  "g2": {
+   "id": "g2",
+   "type": "matching",
+   "title": "What does the tutor say about each source?",
+   "instruction": "Choose the correct letter, A–F, for each question. You may use any letter more than once.",
+   "options": [
+    {
+     "key": "A",
+     "text": "out of date"
+    },
+    {
+     "key": "B",
+     "text": "too general"
+    },
+    {
+     "key": "C",
+     "text": "very useful"
+    },
+    {
+     "key": "D",
+     "text": "difficult to access"
+    },
+    {
+     "key": "E",
+     "text": "possibly biased"
+    },
+    {
+     "key": "F",
+     "text": "too technical"
+    }
+   ],
+   "questions": [
+    {
+     "number": 6,
+     "text": "the tourism board website",
+     "answer": "E"
+    },
+    {
+     "number": 7,
+     "text": "the 2009 textbook",
+     "answer": "A"
+    },
+    {
+     "number": 8,
+     "text": "the journal article by Morrison",
+     "answer": "F"
+    },
+    {
+     "number": 9,
+     "text": "the international travel trends survey",
+     "answer": "B"
+    },
+    {
+     "number": 10,
+     "text": "last year's student interviews",
+     "answer": "C"
+    }
+   ]
+  }
+ },
+ "speakerMap": {
+  "Project Manager": "Tutor"
+ }
+}

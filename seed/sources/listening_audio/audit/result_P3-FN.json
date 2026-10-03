@@ -1,0 +1,166 @@
+{
+ "code": "P3-FN",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "15",
+   "audio_answer": "15",
+   "evidence": "[0:04]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "solar",
+   "audio_answer": "solar",
+   "evidence": "[0:16]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "wind",
+   "audio_answer": "wind",
+   "evidence": "[0:21]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "8",
+   "audio_answer": "eight",
+   "evidence": "[0:32]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "Sustainable",
+   "audio_answer": "Sustainable",
+   "evidence": "[0:34]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "6",
+   "audio_answer": "six",
+   "evidence": "[0:53]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "Denmark",
+   "audio_answer": "Denmark",
+   "evidence": "[0:58]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "missing",
+   "key": "Energy",
+   "audio_answer": "(not said)",
+   "evidence": "[1:05] 'a report on global solar capacity from the International Agency.'",
+   "note": "Transcript has 'International Agency' with no word in the gap; 'Energy' appears to be absent from the recording (check audio; if truly omitted, re-record or reword)."
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "graph",
+   "audio_answer": "graph",
+   "evidence": "[1:12]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "ok",
+   "key": "statistics",
+   "audio_answer": "statistics",
+   "evidence": "[1:24]",
+   "note": ""
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "4",
+   "audio_answer": "four",
+   "evidence": "[1:28]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "Harvard",
+   "audio_answer": "Harvard",
+   "evidence": "[1:34]",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "214",
+   "audio_answer": "214",
+   "evidence": "[1:38]",
+   "note": "241 is the distractor"
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "Tuesday",
+   "audio_answer": "Tuesday",
+   "evidence": "[1:45]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "3",
+   "audio_answer": "three",
+   "evidence": "[1:49]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "policy",
+   "audio_answer": "policy",
+   "evidence": "[1:51]",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "ok",
+   "key": "summary",
+   "audio_answer": "summary",
+   "evidence": "[1:56]",
+   "note": ""
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "delivery",
+   "audio_answer": "delivery",
+   "evidence": "[2:05]",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "timer",
+   "audio_answer": "timer",
+   "evidence": "[2:10]",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "3rd",
+   "audio_answer": "third",
+   "evidence": "[2:18]",
+   "note": ""
+  }
+ ],
+ "summary": "19 ok; Q8 'Energy' not heard - recording says only 'the International Agency'. (Transcript timestamps restart at 0:00 after each minute; given here as absolute.)"
+}

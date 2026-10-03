@@ -1,0 +1,1823 @@
+{
+  "listening": {
+    "sets": [
+      {
+        "id": "ls_05",
+        "part": 1,
+        "title": "Westbridge Language Centre enrolment",
+        "context": "A man phones a language centre to enrol on an evening course.",
+        "audio": "assets/audio/listening/ls_05.mp3",
+        "durationSeconds": 168,
+        "speakers": [
+          {
+            "name": "Receptionist",
+            "voice": "female"
+          },
+          {
+            "name": "Daniel",
+            "voice": "male"
+          }
+        ],
+        "transcript": [
+          {
+            "id": "t1",
+            "speaker": "Receptionist",
+            "text": "Good morning, Westbridge Language Centre. How can I help you?",
+            "start": 5.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t2",
+            "speaker": "Daniel",
+            "text": "Hi. I'd like to enrol on one of your evening courses, please.",
+            "start": 10.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t3",
+            "speaker": "Receptionist",
+            "text": "Of course. I'll fill in the form for you now. Could I have your surname first?",
+            "start": 15.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t4",
+            "speaker": "Daniel",
+            "text": "Yes, it's Okafor. That's O-K-A-F-O-R.",
+            "start": 20.8,
+            "keywords": [
+              "That's O-K-A-F-O-R"
+            ],
+            "answerTags": [
+              {
+                "after": "That's O-K-A-F-O-R",
+                "question": 1
+              }
+            ]
+          },
+          {
+            "id": "t5",
+            "speaker": "Receptionist",
+            "text": "Thank you. And your first name?",
+            "start": 25.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t6",
+            "speaker": "Daniel",
+            "text": "Daniel.",
+            "start": 28.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t7",
+            "speaker": "Receptionist",
+            "text": "And which language are you interested in, Daniel?",
+            "start": 29.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t8",
+            "speaker": "Daniel",
+            "text": "Well, at first I was thinking about Italian, because I'm visiting Rome next year. But actually I use Spanish much more for work, so Spanish, please.",
+            "start": 33.2,
+            "keywords": [
+              "so Spanish, please"
+            ],
+            "answerTags": [
+              {
+                "after": "so Spanish, please",
+                "question": 2
+              }
+            ]
+          },
+          {
+            "id": "t9",
+            "speaker": "Receptionist",
+            "text": "Fine. Have you studied it before?",
+            "start": 44.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t10",
+            "speaker": "Daniel",
+            "text": "Yes, I did two years at school, so I'm not really a beginner. I took your online test last week and it put me at intermediate level.",
+            "start": 47.1,
+            "keywords": [
+              "it put me at intermediate level"
+            ],
+            "answerTags": [
+              {
+                "after": "it put me at intermediate level",
+                "question": 3
+              }
+            ]
+          },
+          {
+            "id": "t11",
+            "speaker": "Receptionist",
+            "text": "Great, intermediate it is. Now, can I take your address?",
+            "start": 56.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t12",
+            "speaker": "Daniel",
+            "text": "It's 42 Harcourt Road, that's H-A-R-C-O-U-R-T, here in Westbridge.",
+            "start": 60.6,
+            "keywords": [
+              "that's H-A-R-C-O-U-R-T"
+            ],
+            "answerTags": [
+              {
+                "after": "that's H-A-R-C-O-U-R-T",
+                "question": 4
+              }
+            ]
+          },
+          {
+            "id": "t13",
+            "speaker": "Receptionist",
+            "text": "Lovely. And a contact number?",
+            "start": 66.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t14",
+            "speaker": "Daniel",
+            "text": "My mobile is 07845 219630.",
+            "start": 69.5,
+            "keywords": [
+              "My mobile is 07845 219630"
+            ],
+            "answerTags": [
+              {
+                "after": "My mobile is 07845 219630",
+                "question": 5
+              }
+            ]
+          },
+          {
+            "id": "t15",
+            "speaker": "Receptionist",
+            "text": "07845 219630. Now, the intermediate Spanish group meets on two evenings. The Tuesday class is already full, I'm afraid, but there are still a few places on Thursday.",
+            "start": 74.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t16",
+            "speaker": "Daniel",
+            "text": "Thursday is fine for me. I finish work early that day anyway.",
+            "start": 87.5,
+            "keywords": [
+              "Thursday is fine for me"
+            ],
+            "answerTags": [
+              {
+                "after": "Thursday is fine for me",
+                "question": 6
+              }
+            ]
+          },
+          {
+            "id": "t17",
+            "speaker": "Receptionist",
+            "text": "Good. Let me tell you a few practical things. The classes used to be in the main hall, but that's being renovated this term, so they'll be held in the library building instead, on the second floor.",
+            "start": 92.2,
+            "keywords": [
+              "held in the library building"
+            ],
+            "answerTags": [
+              {
+                "after": "held in the library building",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t18",
+            "speaker": "Daniel",
+            "text": "The library building. OK, I know where that is.",
+            "start": 104.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t19",
+            "speaker": "Receptionist",
+            "text": "As for the fee, the standard price for the ten-week course is £210.",
+            "start": 108.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t20",
+            "speaker": "Daniel",
+            "text": "Oh, that's a bit more than I expected.",
+            "start": 114.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t21",
+            "speaker": "Receptionist",
+            "text": "But if you book before the end of this month, there's an early booking discount, so you'd only pay £185.",
+            "start": 117.4,
+            "keywords": [
+              "you'd only pay £185"
+            ],
+            "answerTags": [
+              {
+                "after": "you'd only pay £185",
+                "question": 8
+              }
+            ]
+          },
+          {
+            "id": "t22",
+            "speaker": "Daniel",
+            "text": "Great. I'll pay today, then.",
+            "start": 125.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t23",
+            "speaker": "Receptionist",
+            "text": "For the first class you don't need a textbook, because we provide that, but please bring a dictionary. A paper one is best, because phones aren't allowed in class.",
+            "start": 128.7,
+            "keywords": [
+              "please bring a dictionary"
+            ],
+            "answerTags": [
+              {
+                "after": "please bring a dictionary",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t24",
+            "speaker": "Daniel",
+            "text": "A dictionary, right. Is there anything else on offer for students?",
+            "start": 139.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t25",
+            "speaker": "Receptionist",
+            "text": "Yes. Every Saturday morning we run a free conversation session with native speakers. It's very popular with intermediate students.",
+            "start": 144.7,
+            "keywords": [
+              "a free conversation session"
+            ],
+            "answerTags": [
+              {
+                "after": "a free conversation session",
+                "question": 10
+              }
+            ]
+          },
+          {
+            "id": "t26",
+            "speaker": "Daniel",
+            "text": "That sounds perfect. I'll definitely come along.",
+            "start": 153.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t27",
+            "speaker": "Receptionist",
+            "text": "Wonderful. So you're all booked. You'll get a confirmation email later today.",
+            "start": 157.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t28",
+            "speaker": "Daniel",
+            "text": "Thanks very much for your help.",
+            "start": 162.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t29",
+            "speaker": "Receptionist",
+            "text": "You're welcome. Goodbye.",
+            "start": 165.5,
+            "keywords": [],
+            "answerTags": []
+          }
+        ],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "form",
+            "title": "Complete the form",
+            "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+            "formTitle": "Westbridge Language Centre",
+            "formSubtitle": "Evening course enrolment form",
+            "questions": [
+              {
+                "number": 1,
+                "label": "Surname",
+                "before": "",
+                "after": "",
+                "answer": "Okafor",
+                "accepted": [
+                  "Okafor"
+                ]
+              },
+              {
+                "number": 2,
+                "label": "Language",
+                "before": "",
+                "after": "",
+                "answer": "Spanish",
+                "accepted": [
+                  "Spanish"
+                ]
+              },
+              {
+                "number": 3,
+                "label": "Level",
+                "before": "",
+                "after": "",
+                "answer": "intermediate",
+                "accepted": [
+                  "intermediate"
+                ]
+              },
+              {
+                "number": 4,
+                "label": "Address",
+                "before": "42",
+                "after": "Road, Westbridge",
+                "answer": "Harcourt",
+                "accepted": [
+                  "Harcourt"
+                ]
+              },
+              {
+                "number": 5,
+                "label": "Mobile number",
+                "before": "",
+                "after": "",
+                "answer": "07845 219630",
+                "accepted": [
+                  "07845 219630",
+                  "07845219630"
+                ]
+              },
+              {
+                "number": 6,
+                "label": "Class day",
+                "before": "",
+                "after": "evenings",
+                "answer": "Thursday",
+                "accepted": [
+                  "Thursday",
+                  "Thursdays"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "g2",
+            "type": "gap",
+            "title": "Complete the notes",
+            "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+            "questions": [
+              {
+                "number": 7,
+                "text": "Classes are held on the second floor of the ______ building.",
+                "answer": "library",
+                "accepted": [
+                  "library"
+                ]
+              },
+              {
+                "number": 8,
+                "text": "Early booking price: £______",
+                "answer": "185",
+                "accepted": [
+                  "185",
+                  "£185"
+                ]
+              },
+              {
+                "number": 9,
+                "text": "Students should bring a paper ______ to the first class.",
+                "answer": "dictionary",
+                "accepted": [
+                  "dictionary"
+                ]
+              },
+              {
+                "number": 10,
+                "text": "A free ______ session runs on Saturday mornings.",
+                "answer": "conversation",
+                "accepted": [
+                  "conversation"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ls_06",
+        "part": 2,
+        "title": "Millbrook Riverside Park opening",
+        "context": "A park manager talks on local radio about a new city park.",
+        "audio": "assets/audio/listening/ls_06.mp3",
+        "durationSeconds": 221,
+        "speakers": [
+          {
+            "name": "Host",
+            "voice": "male"
+          },
+          {
+            "name": "Clara",
+            "voice": "female"
+          }
+        ],
+        "transcript": [
+          {
+            "id": "t1",
+            "speaker": "Host",
+            "text": "Good afternoon and welcome back to City Matters. With me in the studio is Clara Mendes, manager of the new Millbrook Riverside Park, which opens to the public this Saturday. Welcome, Clara.",
+            "start": 6.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t2",
+            "speaker": "Host",
+            "text": "Before we get to the opening, can you tell us what was on the site before?",
+            "start": 18.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t3",
+            "speaker": "Clara",
+            "text": "Thank you. Well, I'd like to start with a little history, because a lot of people ask me what was on the site before.",
+            "start": 23.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t4",
+            "speaker": "Clara",
+            "text": "Many people assume it used to be a factory, because of the tall brick chimney we've kept near the entrance. In fact, the chimney belonged to a small boiler house, and the whole site was a railway yard until the late nineteen-nineties.",
+            "start": 31.3,
+            "keywords": [
+              "the whole site was a railway yard"
+            ],
+            "answerTags": [
+              {
+                "after": "the whole site was a railway yard",
+                "question": 1
+              }
+            ]
+          },
+          {
+            "id": "t5",
+            "speaker": "Clara",
+            "text": "After that it was left empty for more than twenty years, and some people even used parts of it to dump rubbish.",
+            "start": 44.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t6",
+            "speaker": "Host",
+            "text": "And it must have been an expensive project. Who paid for it?",
+            "start": 51.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t7",
+            "speaker": "Clara",
+            "text": "Now, paying for the project. The city council contributed about a quarter of the cost, and several local businesses made generous donations. But the majority of the money came from a national lottery grant, and without that the park simply wouldn't exist.",
+            "start": 56.0,
+            "keywords": [
+              "the majority of the money came from a national lottery grant"
+            ],
+            "answerTags": [
+              {
+                "after": "the majority of the money came from a national lottery grant",
+                "question": 2
+              }
+            ]
+          },
+          {
+            "id": "t8",
+            "speaker": "Host",
+            "text": "Parks can be costly to look after, though.",
+            "start": 70.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t9",
+            "speaker": "Clara",
+            "text": "We also thought hard about the long-term running costs. We did discuss relying on volunteers to cut the grass, and someone even suggested bringing in sheep. In the end, rather than mowing large lawns every week, we've planted wildflower meadows, which only need cutting once a year.",
+            "start": 74.5,
+            "keywords": [
+              "we've planted wildflower meadows"
+            ],
+            "answerTags": [
+              {
+                "after": "we've planted wildflower meadows",
+                "question": 3
+              }
+            ]
+          },
+          {
+            "id": "t10",
+            "speaker": "Host",
+            "text": "Are there any rules people should know about?",
+            "start": 91.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t11",
+            "speaker": "Clara",
+            "text": "A few rules for visitors. Dogs are very welcome and can be off the lead in most areas. The one thing we ask is that people don't cycle on the riverside path, because it's quite narrow. There's a separate cycle track along the northern edge instead.",
+            "start": 94.5,
+            "keywords": [
+              "people don't cycle on the riverside path"
+            ],
+            "answerTags": [
+              {
+                "after": "people don't cycle on the riverside path",
+                "question": 4
+              }
+            ]
+          },
+          {
+            "id": "t12",
+            "speaker": "Clara",
+            "text": "And please note there's no car park at all, so we recommend coming by bus. The number 14 stops right outside.",
+            "start": 108.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t13",
+            "speaker": "Host",
+            "text": "So what will people find when they arrive?",
+            "start": 115.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t14",
+            "speaker": "Clara",
+            "text": "Let me now take you on a quick tour of the park, starting at the main entrance on Station Road.",
+            "start": 118.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t15",
+            "speaker": "Clara",
+            "text": "The first building you'll see is the Old Signal Box. We've restored it beautifully, and it's now our information centre, where you can pick up maps and find out about events.",
+            "start": 125.0,
+            "keywords": [
+              "it's now our information centre"
+            ],
+            "answerTags": [
+              {
+                "after": "it's now our information centre",
+                "question": 5
+              }
+            ]
+          },
+          {
+            "id": "t16",
+            "speaker": "Clara",
+            "text": "Straight ahead is the North Meadow. It slopes gently down towards the river, which makes it a natural seating area, so we've built an outdoor theatre there, and the first play will be performed in July.",
+            "start": 135.5,
+            "keywords": [
+              "we've built an outdoor theatre there"
+            ],
+            "answerTags": [
+              {
+                "after": "we've built an outdoor theatre there",
+                "question": 6
+              }
+            ]
+          },
+          {
+            "id": "t17",
+            "speaker": "Host",
+            "text": "That sounds lovely. What else is there?",
+            "start": 147.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t18",
+            "speaker": "Clara",
+            "text": "To the right of the meadow is the Engine Shed, the largest building on the site. Originally we planned to put a railway museum in there, but it would have been too expensive to run, so instead it's become a café with a big terrace.",
+            "start": 151.1,
+            "keywords": [
+              "it's become a café"
+            ],
+            "answerTags": [
+              {
+                "after": "it's become a café",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t19",
+            "speaker": "Clara",
+            "text": "If you follow the path down to Heron Pond, you'll find a bird hide on the far side. Please keep quiet inside it, as kingfishers have been seen there most mornings.",
+            "start": 163.9,
+            "keywords": [
+              "you'll find a bird hide"
+            ],
+            "answerTags": [
+              {
+                "after": "you'll find a bird hide",
+                "question": 8
+              }
+            ]
+          },
+          {
+            "id": "t20",
+            "speaker": "Host",
+            "text": "Is there anywhere to get a view of the whole park?",
+            "start": 173.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t21",
+            "speaker": "Clara",
+            "text": "Next to the pond is the Water Tower. You can't go inside the tank, of course, but we've added a staircase to a viewing platform at the top, which gives you a wonderful view across the whole city.",
+            "start": 176.7,
+            "keywords": [
+              "a viewing platform at the top"
+            ],
+            "answerTags": [
+              {
+                "after": "a viewing platform at the top",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t22",
+            "speaker": "Clara",
+            "text": "Finally, at the East Gate, you'll find the bicycle hire, where you can rent a bike by the hour. Some people expected the children's play area to be there too, but we've placed that beside the main entrance, so it's easier for families arriving by bus.",
+            "start": 188.3,
+            "keywords": [
+              "you'll find the bicycle hire"
+            ],
+            "answerTags": [
+              {
+                "after": "you'll find the bicycle hire",
+                "question": 10
+              }
+            ]
+          },
+          {
+            "id": "t23",
+            "speaker": "Host",
+            "text": "And is anything still to come?",
+            "start": 203.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t24",
+            "speaker": "Clara",
+            "text": "We'd also hoped to open a community garden this year, but that won't be ready until next spring.",
+            "start": 205.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t25",
+            "speaker": "Host",
+            "text": "It sounds wonderful, Clara. Thank you for coming in.",
+            "start": 212.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t26",
+            "speaker": "Clara",
+            "text": "My pleasure. I hope to see lots of your listeners there on Saturday.",
+            "start": 216.3,
+            "keywords": [],
+            "answerTags": []
+          }
+        ],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "mcq",
+            "title": "Choose the correct letter, A, B or C",
+            "questions": [
+              {
+                "number": 1,
+                "text": "Before the park was built, the site was",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "a factory."
+                  },
+                  {
+                    "key": "B",
+                    "text": "a railway yard."
+                  },
+                  {
+                    "key": "C",
+                    "text": "a rubbish tip."
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 2,
+                "text": "Most of the money for the park came from",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "the city council."
+                  },
+                  {
+                    "key": "B",
+                    "text": "local businesses."
+                  },
+                  {
+                    "key": "C",
+                    "text": "a national lottery grant."
+                  }
+                ],
+                "answer": "C"
+              },
+              {
+                "number": 3,
+                "text": "How has the park reduced its maintenance costs?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "by using volunteers to cut the grass"
+                  },
+                  {
+                    "key": "B",
+                    "text": "by planting wildflower meadows"
+                  },
+                  {
+                    "key": "C",
+                    "text": "by keeping sheep on the grass"
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 4,
+                "text": "Visitors to the park are asked to",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "keep dogs on a lead at all times."
+                  },
+                  {
+                    "key": "B",
+                    "text": "avoid cycling on the riverside path."
+                  },
+                  {
+                    "key": "C",
+                    "text": "use the car park on Station Road."
+                  }
+                ],
+                "answer": "B"
+              }
+            ]
+          },
+          {
+            "id": "g2",
+            "type": "matching",
+            "title": "What can visitors find at each place in the park?",
+            "instruction": "Choose SIX answers from the box and write the correct letter, A–H, next to each place.",
+            "options": [
+              {
+                "key": "A",
+                "text": "an information centre"
+              },
+              {
+                "key": "B",
+                "text": "an outdoor theatre"
+              },
+              {
+                "key": "C",
+                "text": "a café"
+              },
+              {
+                "key": "D",
+                "text": "a bird hide"
+              },
+              {
+                "key": "E",
+                "text": "a viewing platform"
+              },
+              {
+                "key": "F",
+                "text": "bicycle hire"
+              },
+              {
+                "key": "G",
+                "text": "a children's play area"
+              },
+              {
+                "key": "H",
+                "text": "a community garden"
+              }
+            ],
+            "questions": [
+              {
+                "number": 5,
+                "text": "The Old Signal Box",
+                "answer": "A"
+              },
+              {
+                "number": 6,
+                "text": "The North Meadow",
+                "answer": "B"
+              },
+              {
+                "number": 7,
+                "text": "The Engine Shed",
+                "answer": "C"
+              },
+              {
+                "number": 8,
+                "text": "Heron Pond",
+                "answer": "D"
+              },
+              {
+                "number": 9,
+                "text": "The Water Tower",
+                "answer": "E"
+              },
+              {
+                "number": 10,
+                "text": "The East Gate",
+                "answer": "F"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ls_07",
+        "part": 3,
+        "title": "Presentation on campus food waste",
+        "context": "Two students discuss their presentation on food waste with their tutor.",
+        "audio": "assets/audio/listening/ls_07.mp3",
+        "durationSeconds": 181,
+        "speakers": [
+          {
+            "name": "Dr Patel",
+            "voice": "female"
+          },
+          {
+            "name": "Leila",
+            "voice": "female"
+          },
+          {
+            "name": "Marcus",
+            "voice": "male"
+          }
+        ],
+        "transcript": [
+          {
+            "id": "t1",
+            "speaker": "Dr Patel",
+            "text": "Come in, Leila, Marcus. So, how's the food waste presentation coming along?",
+            "start": 6.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t2",
+            "speaker": "Leila",
+            "text": "Pretty well, I think. We've decided to focus entirely on the main university canteen.",
+            "start": 12.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t3",
+            "speaker": "Dr Patel",
+            "text": "Why the canteen, rather than the student halls?",
+            "start": 16.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t4",
+            "speaker": "Marcus",
+            "text": "Well, partly because I worked there last summer, so I know how it operates. But the main reason is that the catering manager agreed to give us all their waste records, so we had easy access to the data.",
+            "start": 20.3,
+            "keywords": [
+              "easy access to the data"
+            ],
+            "answerTags": [
+              {
+                "after": "easy access to the data",
+                "question": 1
+              }
+            ]
+          },
+          {
+            "id": "t5",
+            "speaker": "Dr Patel",
+            "text": "That's a real advantage. And you ran a survey as well?",
+            "start": 33.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t6",
+            "speaker": "Leila",
+            "text": "Yes. We asked students why they leave food on their plates. We expected people to say they didn't like the taste, or that they were in a hurry, but by far the most common answer was that the portions are simply too large.",
+            "start": 37.5,
+            "keywords": [
+              "the portions are simply too large"
+            ],
+            "answerTags": [
+              {
+                "after": "the portions are simply too large",
+                "question": 2
+              }
+            ]
+          },
+          {
+            "id": "t7",
+            "speaker": "Dr Patel",
+            "text": "Interesting. How many people did you survey?",
+            "start": 46.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t8",
+            "speaker": "Marcus",
+            "text": "Just over two hundred.",
+            "start": 50.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t9",
+            "speaker": "Dr Patel",
+            "text": "That's a reasonable number. My concern is who they were. If most of them were first-year students, the sample isn't really representative of the whole university.",
+            "start": 52.8,
+            "keywords": [
+              "the sample isn't really representative"
+            ],
+            "answerTags": [
+              {
+                "after": "the sample isn't really representative",
+                "question": 3
+              }
+            ]
+          },
+          {
+            "id": "t10",
+            "speaker": "Leila",
+            "text": "That's true. Most of them were first-years, because we handed out the survey in the halls of residence. We'll mention that as a limitation.",
+            "start": 62.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t11",
+            "speaker": "Dr Patel",
+            "text": "Good. Now, tell me about the trayless trial.",
+            "start": 69.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t12",
+            "speaker": "Leila",
+            "text": "For two weeks, the canteen removed trays, so students could only carry one plate at a time. Some staff thought students would complain, but hardly anyone did. And it reduced food waste significantly, by about eighteen percent.",
+            "start": 72.9,
+            "keywords": [
+              "it reduced food waste significantly"
+            ],
+            "answerTags": [
+              {
+                "after": "it reduced food waste significantly",
+                "question": 4
+              }
+            ]
+          },
+          {
+            "id": "t13",
+            "speaker": "Dr Patel",
+            "text": "That's a striking result. How are you planning to present your data?",
+            "start": 83.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t14",
+            "speaker": "Marcus",
+            "text": "We'd made a set of pie charts, one for each week.",
+            "start": 88.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t15",
+            "speaker": "Dr Patel",
+            "text": "Hmm. In my experience, an audience loses interest after the second or third chart.",
+            "start": 92.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t16",
+            "speaker": "Leila",
+            "text": "Actually, we took photographs of the waste bins at the end of every day. We could show those instead. They're quite shocking.",
+            "start": 98.6,
+            "keywords": [
+              "We could show those instead"
+            ],
+            "answerTags": [
+              {
+                "after": "We could show those instead",
+                "question": 5
+              }
+            ]
+          },
+          {
+            "id": "t17",
+            "speaker": "Dr Patel",
+            "text": "Yes, use the photographs. They'll have far more impact. Keep one simple chart for the overall figures if you like.",
+            "start": 104.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t18",
+            "speaker": "Marcus",
+            "text": "Did you have any problems collecting the data?",
+            "start": 112.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t19",
+            "speaker": "Dr Patel",
+            "text": "I was going to ask you that.",
+            "start": 115.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t20",
+            "speaker": "Marcus",
+            "text": "A couple. On several days the canteen staff forgot to separate the food waste from the packaging, so we couldn't use those figures.",
+            "start": 118.1,
+            "keywords": [
+              "the canteen staff forgot to separate the food waste"
+            ],
+            "answerTags": [
+              {
+                "after": "the canteen staff forgot to separate the food waste",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t21",
+            "speaker": "Leila",
+            "text": "And there's a gap in the middle, because the canteen was closed for a week during the spring holiday. The scales worked perfectly, luckily, and students were happy to be interviewed.",
+            "start": 126.5,
+            "keywords": [
+              "closed for a week during the spring holiday"
+            ],
+            "answerTags": [
+              {
+                "after": "closed for a week during the spring holiday",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t22",
+            "speaker": "Dr Patel",
+            "text": "Fine, just explain the gaps. Now, what about your conclusion?",
+            "start": 134.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t23",
+            "speaker": "Marcus",
+            "text": "We thought we'd compare our results with other universities.",
+            "start": 139.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t24",
+            "speaker": "Dr Patel",
+            "text": "That could take a lot of time, and the data won't be comparable. I'd rather you ended with some practical recommendations for the canteen itself. That's what the catering manager will want to hear.",
+            "start": 143.9,
+            "keywords": [
+              "practical recommendations for the canteen"
+            ],
+            "answerTags": [
+              {
+                "after": "practical recommendations for the canteen",
+                "question": 6
+              }
+            ]
+          },
+          {
+            "id": "t25",
+            "speaker": "Leila",
+            "text": "OK, that makes sense. So what's left to do before next week?",
+            "start": 155.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t26",
+            "speaker": "Marcus",
+            "text": "I'll finish the slides tonight, including the photographs.",
+            "start": 158.9,
+            "keywords": [
+              "I'll finish the slides"
+            ],
+            "answerTags": [
+              {
+                "after": "I'll finish the slides",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t27",
+            "speaker": "Leila",
+            "text": "And I'll write the one-page handout.",
+            "start": 163.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t28",
+            "speaker": "Marcus",
+            "text": "I'll also email the catering manager to check she's happy for us to use the canteen's name.",
+            "start": 165.9,
+            "keywords": [
+              "I'll also email the catering manager"
+            ],
+            "answerTags": [
+              {
+                "after": "I'll also email the catering manager",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t29",
+            "speaker": "Leila",
+            "text": "Then we can rehearse together on Friday to check the timing.",
+            "start": 171.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t30",
+            "speaker": "Dr Patel",
+            "text": "The room's already booked for you, so that's one less thing to worry about. Good luck.",
+            "start": 175.1,
+            "keywords": [],
+            "answerTags": []
+          }
+        ],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "mcq",
+            "title": "Choose the correct letter, A, B or C",
+            "questions": [
+              {
+                "number": 1,
+                "text": "Why did the students choose to study the university canteen?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "They could easily get the data they needed."
+                  },
+                  {
+                    "key": "B",
+                    "text": "Their tutor suggested it."
+                  },
+                  {
+                    "key": "C",
+                    "text": "Marcus is working there at the moment."
+                  }
+                ],
+                "answer": "A"
+              },
+              {
+                "number": 2,
+                "text": "According to the survey, the main reason students waste food is that",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "they dislike the taste."
+                  },
+                  {
+                    "key": "B",
+                    "text": "they are in a hurry."
+                  },
+                  {
+                    "key": "C",
+                    "text": "the portions are too big."
+                  }
+                ],
+                "answer": "C"
+              },
+              {
+                "number": 3,
+                "text": "What is Dr Patel's opinion of the survey?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "The number of students was too small."
+                  },
+                  {
+                    "key": "B",
+                    "text": "The students were not representative."
+                  },
+                  {
+                    "key": "C",
+                    "text": "The questions were well designed."
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 4,
+                "text": "What does Leila say about the trayless trial?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "It led to a large fall in food waste."
+                  },
+                  {
+                    "key": "B",
+                    "text": "Many students complained about it."
+                  },
+                  {
+                    "key": "C",
+                    "text": "It was too short to give reliable results."
+                  }
+                ],
+                "answer": "A"
+              },
+              {
+                "number": 5,
+                "text": "How will the students mainly present their data?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "with a series of pie charts"
+                  },
+                  {
+                    "key": "B",
+                    "text": "with photographs"
+                  },
+                  {
+                    "key": "C",
+                    "text": "with a single line graph"
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 6,
+                "text": "Dr Patel advises the students to end their presentation with",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "recommendations for the canteen."
+                  },
+                  {
+                    "key": "B",
+                    "text": "a comparison with other universities."
+                  },
+                  {
+                    "key": "C",
+                    "text": "a summary of their survey."
+                  }
+                ],
+                "answer": "A"
+              }
+            ]
+          },
+          {
+            "id": "g2",
+            "type": "multi",
+            "title": "Choose TWO letters, A–E",
+            "pick": 2,
+            "questions": [
+              {
+                "number": 7,
+                "text": "Which TWO problems did the students have when collecting data?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "The weighing scales broke."
+                  },
+                  {
+                    "key": "B",
+                    "text": "Staff did not always separate the waste."
+                  },
+                  {
+                    "key": "C",
+                    "text": "Bad weather affected the results."
+                  },
+                  {
+                    "key": "D",
+                    "text": "The canteen closed for a week."
+                  },
+                  {
+                    "key": "E",
+                    "text": "Students refused to be interviewed."
+                  }
+                ],
+                "answer": [
+                  "B",
+                  "D"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "g3",
+            "type": "multi",
+            "title": "Choose TWO letters, A–E",
+            "pick": 2,
+            "questions": [
+              {
+                "number": 9,
+                "text": "Which TWO things will Marcus do before next week?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "book a room"
+                  },
+                  {
+                    "key": "B",
+                    "text": "finish the slides"
+                  },
+                  {
+                    "key": "C",
+                    "text": "write the handout"
+                  },
+                  {
+                    "key": "D",
+                    "text": "contact the catering manager"
+                  },
+                  {
+                    "key": "E",
+                    "text": "rehearse the timing alone"
+                  }
+                ],
+                "answer": [
+                  "B",
+                  "D"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ls_08",
+        "part": 4,
+        "title": "Sleep and memory",
+        "context": "A psychology lecture on how sleep helps the brain store memories.",
+        "audio": "assets/audio/listening/ls_08.mp3",
+        "durationSeconds": 241,
+        "speakers": [
+          {
+            "name": "Lecturer",
+            "voice": "male"
+          }
+        ],
+        "transcript": [
+          {
+            "id": "t1",
+            "speaker": "Lecturer",
+            "text": "Good morning, everyone. Today we're looking at one of the most active areas of research in psychology: the relationship between sleep and memory.",
+            "start": 6.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t2",
+            "speaker": "Lecturer",
+            "text": "For a long time, sleep was seen as a period when the brain simply switched off. We now know that's far from the truth.",
+            "start": 16.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t3",
+            "speaker": "Lecturer",
+            "text": "One of the earliest studies took place in 1924. Two American researchers asked participants to learn lists of nonsense syllables, and then tested them some hours later.",
+            "start": 24.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t4",
+            "speaker": "Lecturer",
+            "text": "They found that people remembered considerably more if they had slept during that period than if they had stayed awake.",
+            "start": 36.0,
+            "keywords": [
+              "than if they had stayed awake"
+            ],
+            "answerTags": [
+              {
+                "after": "than if they had stayed awake",
+                "question": 1
+              }
+            ]
+          },
+          {
+            "id": "t5",
+            "speaker": "Lecturer",
+            "text": "At the time, the explanation was simply that sleep protected memories from interference. Today we believe sleep does something much more active.",
+            "start": 43.0,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t6",
+            "speaker": "Lecturer",
+            "text": "To understand this, we need to look at two brain regions. The first is the hippocampus. When we experience something new, the memory is initially held there, in what we might call a temporary buffer.",
+            "start": 52.6,
+            "keywords": [
+              "a temporary buffer"
+            ],
+            "answerTags": [
+              {
+                "after": "a temporary buffer",
+                "question": 2
+              }
+            ]
+          },
+          {
+            "id": "t7",
+            "speaker": "Lecturer",
+            "text": "The hippocampus can't hold much information for long, though. It's a bit like a notepad rather than a filing cabinet.",
+            "start": 65.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t8",
+            "speaker": "Lecturer",
+            "text": "During deep, slow-wave sleep, memories are gradually transferred from the hippocampus to the cortex, where they can be stored for the long term.",
+            "start": 73.5,
+            "keywords": [
+              "from the hippocampus to the cortex"
+            ],
+            "answerTags": [
+              {
+                "after": "from the hippocampus to the cortex",
+                "question": 3
+              }
+            ]
+          },
+          {
+            "id": "t9",
+            "speaker": "Lecturer",
+            "text": "Some of the clearest evidence for this comes from animal studies. Researchers recorded the activity of individual brain cells in rats while they were running a maze.",
+            "start": 83.3,
+            "keywords": [
+              "while they were running a maze"
+            ],
+            "answerTags": [
+              {
+                "after": "while they were running a maze",
+                "question": 4
+              }
+            ]
+          },
+          {
+            "id": "t10",
+            "speaker": "Lecturer",
+            "text": "When the rats later fell asleep, the same pattern of activity was repeated, as if the animals were replaying the route in their sleep, only much faster.",
+            "start": 93.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t11",
+            "speaker": "Lecturer",
+            "text": "So what about the other main stage of sleep, REM sleep, when most dreaming happens?",
+            "start": 103.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t12",
+            "speaker": "Lecturer",
+            "text": "The evidence here is less clear. However, several studies suggest REM sleep is particularly important for emotional memories, helping us keep the content of an event while reducing its painful feelings.",
+            "start": 109.9,
+            "keywords": [
+              "particularly important for emotional memories"
+            ],
+            "answerTags": [
+              {
+                "after": "particularly important for emotional memories",
+                "question": 5
+              }
+            ]
+          },
+          {
+            "id": "t13",
+            "speaker": "Lecturer",
+            "text": "There's also evidence that REM sleep helps with creative thinking, and in particular with problem solving. People who slept were far more likely to discover a hidden rule in a number puzzle than those who didn't.",
+            "start": 123.2,
+            "keywords": [
+              "in particular with problem solving"
+            ],
+            "answerTags": [
+              {
+                "after": "in particular with problem solving",
+                "question": 6
+              }
+            ]
+          },
+          {
+            "id": "t14",
+            "speaker": "Lecturer",
+            "text": "Now, an intriguing question is whether we can actually strengthen memories while someone is asleep.",
+            "start": 135.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t15",
+            "speaker": "Lecturer",
+            "text": "In one well-known experiment in Germany, participants learned the positions of pairs of cards while a smell, the scent of roses, was present in the room.",
+            "start": 142.2,
+            "keywords": [
+              "while a smell"
+            ],
+            "answerTags": [
+              {
+                "after": "while a smell",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t16",
+            "speaker": "Lecturer",
+            "text": "Some participants were then exposed to the same smell during slow-wave sleep. The next day, they remembered the card positions significantly better than the others.",
+            "start": 152.0,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t17",
+            "speaker": "Lecturer",
+            "text": "Researchers have tried the same thing with sounds, with similar though smaller effects.",
+            "start": 162.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t18",
+            "speaker": "Lecturer",
+            "text": "What about daytime naps? Many people think a nap must be at least an hour to be useful. In fact, a nap of as little as twenty minutes can improve recall.",
+            "start": 168.1,
+            "keywords": [
+              "as little as twenty minutes"
+            ],
+            "answerTags": [
+              {
+                "after": "as little as twenty minutes",
+                "question": 8
+              }
+            ]
+          },
+          {
+            "id": "t19",
+            "speaker": "Lecturer",
+            "text": "Longer naps can bring greater benefits, but they also carry the risk of waking up from deep sleep and feeling groggy for a while.",
+            "start": 178.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t20",
+            "speaker": "Lecturer",
+            "text": "Let's turn briefly to age. As we get older, we get less deep sleep. This may partly explain why older adults often find it harder to learn new names.",
+            "start": 187.1,
+            "keywords": [
+              "harder to learn new names"
+            ],
+            "answerTags": [
+              {
+                "after": "harder to learn new names",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t21",
+            "speaker": "Lecturer",
+            "text": "It's not the whole story, of course, but it's an important factor, and some researchers are now testing ways of boosting deep sleep in older people.",
+            "start": 197.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t22",
+            "speaker": "Lecturer",
+            "text": "Finally, a word for students, since many of you will have exams soon. Staying up all night before an exam is a very bad idea.",
+            "start": 207.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t23",
+            "speaker": "Lecturer",
+            "text": "One study found that missing a night's sleep reduced the ability to form new memories by up to 40 percent.",
+            "start": 216.4,
+            "keywords": [
+              "by up to 40 percent"
+            ],
+            "answerTags": [
+              {
+                "after": "by up to 40 percent",
+                "question": 10
+              }
+            ]
+          },
+          {
+            "id": "t24",
+            "speaker": "Lecturer",
+            "text": "So my advice is simple. Rather than relying on extra hours of study late at night, go to bed at a regular time, and let your brain do some of the work for you.",
+            "start": 223.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t25",
+            "speaker": "Lecturer",
+            "text": "Next week we'll look at dreams in more detail, so please read chapter seven before then.",
+            "start": 234.3,
+            "keywords": [],
+            "answerTags": []
+          }
+        ],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "gap",
+            "title": "Complete the notes",
+            "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+            "questions": [
+              {
+                "number": 1,
+                "text": "1924 study: participants recalled more after sleep than after staying ______.",
+                "answer": "awake",
+                "accepted": [
+                  "awake"
+                ]
+              },
+              {
+                "number": 2,
+                "text": "New memories are first held in the hippocampus, which acts as a temporary ______.",
+                "answer": "buffer",
+                "accepted": [
+                  "buffer"
+                ]
+              },
+              {
+                "number": 3,
+                "text": "During slow-wave sleep, memories move to the ______ for long-term storage.",
+                "answer": "cortex",
+                "accepted": [
+                  "cortex"
+                ]
+              },
+              {
+                "number": 4,
+                "text": "Rats' brain activity while running a ______ was repeated during sleep.",
+                "answer": "maze",
+                "accepted": [
+                  "maze"
+                ]
+              },
+              {
+                "number": 5,
+                "text": "REM sleep may be especially important for ______ memories.",
+                "answer": "emotional",
+                "accepted": [
+                  "emotional"
+                ]
+              },
+              {
+                "number": 6,
+                "text": "REM sleep also appears to help with ______ solving.",
+                "answer": "problem",
+                "accepted": [
+                  "problem"
+                ]
+              },
+              {
+                "number": 7,
+                "text": "Card-position memory improved when a ______ was presented during learning and sleep.",
+                "answer": "smell",
+                "accepted": [
+                  "smell",
+                  "scent"
+                ]
+              },
+              {
+                "number": 8,
+                "text": "A nap of just ______ minutes can improve recall.",
+                "answer": "twenty",
+                "accepted": [
+                  "twenty",
+                  "20"
+                ]
+              },
+              {
+                "number": 9,
+                "text": "Less deep sleep may explain why older adults struggle to learn new ______.",
+                "answer": "names",
+                "accepted": [
+                  "names"
+                ]
+              },
+              {
+                "number": 10,
+                "text": "Missing a night's sleep can reduce new memory formation by up to ______%.",
+                "answer": "40",
+                "accepted": [
+                  "40",
+                  "forty"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tests": [
+      {
+        "id": "lt_02",
+        "number": 2,
+        "title": "Listening Test 2",
+        "sets": [
+          "ls_05",
+          "ls_06",
+          "ls_07",
+          "ls_08"
+        ]
+      }
+    ]
+  }
+}

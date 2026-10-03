@@ -1,0 +1,59 @@
+{
+  "_format": {
+    "name": "users",
+    "group": "user",
+    "table": "users",
+    "primaryKey": "id",
+    "description": "Student account + onboarding profile.",
+    "currentSourceInApp": "Store (SharedPreferences) accounts[]; demo seed assets/demo/parts/accounts.json",
+    "fields": {
+      "id": "string",
+      "name": "string",
+      "phone": "string",
+      "createdAt": "string",
+      "isDemo": "boolean",
+      "profile": "object",
+      "passwordHash": "string"
+    },
+    "required": [
+      "id",
+      "name",
+      "phone",
+      "passwordHash",
+      "createdAt",
+      "profile"
+    ],
+    "relations": [],
+    "notes": [
+      "phone = 10 digits without 0/+880 (1XXXXXXXXX).",
+      "Never store plain passwords; the demo file does only for the local demo.",
+      "profile: plan, targetBand, examDate, testType (always Academic), focusSkills, dailyMinutes, feedbackLanguage, photo (R2 key)."
+    ],
+    "recordCountToday": 1
+  },
+  "items": [
+    {
+      "id": "usr_demo_tanvir",
+      "name": "Tanvir Ahmed",
+      "phone": "1734519208",
+      "createdAt": "2026-06-15T12:00:00Z",
+      "isDemo": true,
+      "profile": {
+        "plan": "Pro",
+        "email": "tanvir.ahmed@example.com",
+        "testType": "Academic",
+        "targetBand": 7.5,
+        "diagnostic": "diagnostic",
+        "focusSkills": [
+          "writing",
+          "speaking"
+        ],
+        "dailyMinutes": 45,
+        "micAllowed": true,
+        "onboarded": true,
+        "examDate": "2026-11-16"
+      },
+      "passwordHash": "argon2id$…"
+    }
+  ]
+}

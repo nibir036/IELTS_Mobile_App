@@ -1,0 +1,88 @@
+{
+  "_format": {
+    "name": "sentence_drills",
+    "group": "content",
+    "table": "sentence_drills",
+    "primaryKey": "id",
+    "description": "Writing Booster sentence-combining drill (C7).",
+    "currentSourceInApp": "writing.sentenceBuilder.drills",
+    "fields": {
+      "id": "string",
+      "instruction": "string",
+      "connector": "string",
+      "function": "string",
+      "sentences": "array",
+      "answer": "array",
+      "prefilled": "integer",
+      "bank": "array",
+      "hint": "string"
+    },
+    "required": [
+      "id",
+      "instruction",
+      "sentences",
+      "answer",
+      "bank"
+    ],
+    "relations": [],
+    "notes": [
+      "answer = the tokens in the correct order; bank = distractors + answer tokens."
+    ],
+    "recordCountToday": 6
+  },
+  "items": [
+    {
+      "id": "sb_01",
+      "instruction": "Combine into one complex sentence",
+      "connector": "which",
+      "function": "Relative clause",
+      "sentences": [
+        "Many cities have introduced bike lanes.",
+        "This has reduced traffic in the centre."
+      ],
+      "answer": [
+        "Many cities",
+        "have introduced",
+        "bike lanes,",
+        "which",
+        "has reduced",
+        "traffic in the centre."
+      ],
+      "prefilled": 2,
+      "bank": [
+        "has reduced",
+        "because",
+        "traffic in the centre.",
+        "which",
+        "bike lanes,"
+      ],
+      "hint": "Use “which” after a comma to refer back to the whole first idea."
+    },
+    {
+      "id": "sb_02",
+      "instruction": "Combine into one complex sentence",
+      "connector": "whereas",
+      "function": "Contrast",
+      "sentences": [
+        "Canada had high internet access in 2000.",
+        "India had very low access."
+      ],
+      "answer": [
+        "Canada had",
+        "high internet access in 2000,",
+        "whereas",
+        "India had",
+        "very low access."
+      ],
+      "prefilled": 1,
+      "bank": [
+        "whereas",
+        "India had",
+        "very low access.",
+        "so",
+        "high internet access in 2000,"
+      ],
+      "hint": "Put “whereas” between the two contrasting facts, after a comma."
+    }
+  ]
+}

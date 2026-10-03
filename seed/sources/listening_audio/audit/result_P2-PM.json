@@ -1,0 +1,166 @@
+{
+ "code": "P2-PM",
+ "items": [
+  {
+   "n": 1,
+   "status": "differs",
+   "key": "F",
+   "audio_answer": "none of A-J (audio puts picnic area to the RIGHT/east of the gate; F is left of the path)",
+   "evidence": "[0:13] \"If you turn right as you come through the gate, the first thing you'll reach is the picnic area\"",
+   "note": "Overflow car park (D, south-east) is reached by going right past the picnic area [1:13], confirming right = east. F is left of the path."
+  },
+  {
+   "n": 2,
+   "status": "ambiguous",
+   "key": "C",
+   "audio_answer": "F or C (turn left, short walk)",
+   "evidence": "[0:21] \"If you turn left instead, a short walk brings you to the children's playground\"",
+   "note": "Left side of gate has F and C; with picnic not at F, the first point on the left (F) fits as well as C."
+  },
+  {
+   "n": 3,
+   "status": "differs",
+   "key": "H",
+   "audio_answer": "A",
+   "evidence": "[0:26] \"Keep following that left-hand path and it curves up the western side of the lake where you'll find the boat house\"",
+   "note": "Western side = A (west shore); key H is east shore."
+  },
+  {
+   "n": 4,
+   "status": "ambiguous",
+   "key": "J",
+   "audio_answer": "E or J",
+   "evidence": "[0:34] \"Right at the top of the ring, directly opposite where we're standing now, is the bird hide\"",
+   "note": "'Top of the ring, directly opposite' best fits E (northern tip); J is the north-east corner. If waterfall is E (Q6), hide would be J."
+  },
+  {
+   "n": 5,
+   "status": "differs",
+   "key": "A",
+   "audio_answer": "none of A-J (on the island in the middle of the lake)",
+   "evidence": "[0:43] \"The viewing platform isn't on the path at all. It's on the little island in the middle of the lake\"",
+   "note": "No letter marks the island; key A (west shore) is where audio places the boathouse."
+  },
+  {
+   "n": 6,
+   "status": "ambiguous",
+   "key": "E",
+   "audio_answer": "E (only if bird hide is J)",
+   "evidence": "[0:49] \"Between the boat house and the bird hide, on the inside of the path, close to the water, is the waterfall\"",
+   "note": "Between boathouse (A, west) and hide; E fits only if hide = J; no letter on NW shore otherwise."
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:57]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "G",
+   "audio_answer": "G",
+   "evidence": "[1:05]",
+   "note": "north-east + stream -> G (I is on the ridge)"
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "D",
+   "audio_answer": "D",
+   "evidence": "[1:13]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "differs",
+   "key": "I",
+   "audio_answer": "H",
+   "evidence": "[1:22] \"halfway up the eastern side of the lake is the lookout tower\"",
+   "note": "H = east shore, halfway up; key I is the ridge above J."
+  },
+  {
+   "n": 11,
+   "status": "differs",
+   "key": "E",
+   "audio_answer": "B (far back-right corner; H also back right)",
+   "evidence": "[1:37] \"it's actually in the far right-hand corner at the back of the building\"",
+   "note": "Key E (first room on left) is exactly the distractor 'by the door'."
+  },
+  {
+   "n": 12,
+   "status": "differs",
+   "key": "A",
+   "audio_answer": "E",
+   "evidence": "[1:42] \"The toilets are on your left as you come in, in the corner nearest the entrance.\"",
+   "note": "E = first room on the left; key A is second room on left."
+  },
+  {
+   "n": 13,
+   "status": "differs",
+   "key": "H",
+   "audio_answer": "I",
+   "evidence": "[1:46] \"The cafe is on the right-hand side, halfway along, between the shop and the room nearest the entrance\"",
+   "note": "I = middle room on the right; key H."
+  },
+  {
+   "n": 14,
+   "status": "differs",
+   "key": "J",
+   "audio_answer": "G (left of the two back-wall rooms, not the corner)",
+   "evidence": "[1:52] \"Along the back wall, there are two larger rooms side by side. The lecture room is the left-hand one of those two.\" [1:57] \"Not the one in the corner.\"",
+   "note": "Key J is back-left CORNER, which the audio explicitly excludes (and assigns to permanent exhibition)."
+  },
+  {
+   "n": 15,
+   "status": "differs",
+   "key": "C",
+   "audio_answer": "A",
+   "evidence": "[1:59] \"The children's activity room is on the left-hand wall between the toilets and the corner room.\"",
+   "note": "Between E (toilets) and J (corner) = A; key C."
+  },
+  {
+   "n": 16,
+   "status": "differs",
+   "key": "F",
+   "audio_answer": "H (right-hand of the two back-wall rooms)",
+   "evidence": "[2:04] \"The temporary exhibition is in the right-hand room of the two along the back wall.\"",
+   "note": "Key F is the front half of central hall."
+  },
+  {
+   "n": 17,
+   "status": "differs",
+   "key": "D",
+   "audio_answer": "J",
+   "evidence": "[2:09] \"The permanent exhibition fills the back left-hand corner.\"",
+   "note": "Key D is the back half of central hall."
+  },
+  {
+   "n": 18,
+   "status": "differs",
+   "key": "I",
+   "audio_answer": "C",
+   "evidence": "[2:11] \"The first aid room is on the right-hand side, nearest the entrance.\"",
+   "note": "C = first room on right; key I."
+  },
+  {
+   "n": 19,
+   "status": "ambiguous",
+   "key": "G",
+   "audio_answer": "no clear letter (D is the only position between hall and back wall)",
+   "evidence": "[2:14] \"Behind the exhibition hall, there are two small rooms.\" [2:17] \"The one on the right, just in front of the temporary exhibition, is the resource room\"",
+   "note": "Plan has no pair of small rooms behind the hall; key G (back wall centre) conflicts with audio putting lecture room/temporary exhibition on the back wall."
+  },
+  {
+   "n": 20,
+   "status": "missing",
+   "key": "B",
+   "audio_answer": "not given (audio places the staff office itself in a small room behind the hall, left; no staircase mentioned)",
+   "evidence": "[2:22] \"And the other small room on the left is the staff office.\"",
+   "note": "No staircase or far back-right corner mentioned; B instead matches where the shop is."
+  }
+ ],
+ "summary": "Recording describes a different layout from the keyed map/plan: only 3/20 ok; map 1 mirrored (boathouse west, lookout east, platform on island), plan 2 entirely rearranged."
+}

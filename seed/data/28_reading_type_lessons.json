@@ -1,0 +1,1002 @@
+{
+  "table": "reading_type_lessons",
+  "source": "IELTS_Reading_Question_Bank-1.pdf",
+  "items": [
+    {
+      "id": "rtl_mcq",
+      "questionType": "mcq",
+      "name": "Multiple Choice",
+      "title": "How to attempt Multiple Choice",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "Multiple Choice checks whether you can find a specific part of the passage and understand it exactly. Some questions test a single detail. Others test the main idea of a paragraph, the writer's purpose, or something the writer implies without stating it directly."
+        },
+        {
+          "heading": "The two formats you will meet",
+          "text": "Choose the correct letter, A, B, C or D. One question, one answer.\nChoose TWO letters, A–E. Two correct options. Each correct letter usually scores one mark."
+        },
+        {
+          "heading": "How the correct answer works",
+          "text": "The correct option almost never repeats the passage word for word. It paraphrases the passage: the same meaning in different words. The wrong options (distractors) often do repeat passage words, because that makes them look attractive."
+        },
+        {
+          "heading": "What evidence to look for",
+          "text": "You need one sentence, or a short group of sentences, that makes the option fully true. Partly true is not enough."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Word-match trap. An option copies words from the passage but changes the meaning.\n2. True but irrelevant. The option is correct information, but it does not answer this question.\n3. Half-right. The first half of the option matches the passage and the second half does not.\n4. Extreme wording. Words such as always, only, all, never, completely are wrong unless the passage is equally strong.\n5. Wrong paragraph. The option describes something from a different part of the passage.",
+          "items": [
+            "Word-match trap. An option copies words from the passage but changes the meaning.",
+            "True but irrelevant. The option is correct information, but it does not answer this question.",
+            "Half-right. The first half of the option matches the passage and the second half does not.",
+            "Extreme wording. Words such as always, only, all, never, completely are wrong unless the passage is equally strong.",
+            "Wrong paragraph. The option describes something from a different part of the passage."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the question stem only (not the options). Underline the key idea: a name, date, number or unusual term.\n2. Questions follow the passage order, so use the previous answer's location to find the next one.\n3. Scan for the key idea or a synonym of it. Read that sentence and the one before and after it.\n4. Now read the options. Cross out any option that contradicts the passage or is not mentioned there.\n5. Choose the option that matches the whole meaning of the evidence. Check the stem and the option together as one complete sentence.\n6. For \"main idea\" or \"purpose\" questions, read the whole paragraph, then ask: Why did the writer include this?",
+          "items": [
+            "Read the question stem only (not the options). Underline the key idea: a name, date, number or unusual term.",
+            "Questions follow the passage order, so use the previous answer's location to find the next one.",
+            "Scan for the key idea or a synonym of it. Read that sentence and the one before and after it.",
+            "Now read the options. Cross out any option that contradicts the passage or is not mentioned there.",
+            "Choose the option that matches the whole meaning of the evidence. Check the stem and the option together as one complete sentence.",
+            "For \"main idea\" or \"purpose\" questions, read the whole paragraph, then ask: Why did the writer include this?"
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"Although the bridge was completed in 1890, it was not opened to cars until 1924, after its deck was strengthened.\"\nWhy was there a delay before cars could use the bridge?\nA The bridge was not finished until 1924.\nB The structure needed to be made stronger.\nC Cars had not yet been invented.\nD The bridge was only designed for trains.\nB is correct: deck was strengthened = made stronger. A copies the date 1924 but gives the wrong event (a word-match trap). C and D are not stated anywhere in the passage."
+        }
+      ]
+    },
+    {
+      "id": "rtl_tfng",
+      "questionType": "tfng",
+      "name": "True / False / Not Given",
+      "title": "How to attempt True / False / Not Given",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "This question type checks whether you can compare a statement with factual information in the passage, precisely and without adding your own knowledge. (For the writer's opinions, IELTS uses YES / NO / NOT GIVEN instead; that is Type 3.)"
+        },
+        {
+          "heading": "The three answers",
+          "text": "",
+          "exhibits": [
+            {
+              "kind": "table",
+              "columns": [
+                "Answer",
+                "Meaning",
+                "Test"
+              ],
+              "rows": [
+                [
+                  "TRUE",
+                  "The passage states the same information, usually in different words.",
+                  "You can point to the sentence that confirms it."
+                ],
+                [
+                  "FALSE",
+                  "The passage states the opposite or something incompatible with the statement.",
+                  "You can point to the sentence that contradicts it."
+                ],
+                [
+                  "NOT GIVEN",
+                  "The passage does not tell us whether the statement is true or false.",
+                  "You cannot point to a sentence that confirms it or contradicts it."
+                ]
+              ]
+            }
+          ],
+          "layout": [
+            {
+              "exhibit": 0
+            }
+          ]
+        },
+        {
+          "heading": "FALSE vs NOT GIVEN: the key difference",
+          "text": "Ask yourself: \"Could the statement still be true without contradicting anything in the passage?\" If yes, it is NOT GIVEN. If no, because the passage makes it impossible, it is FALSE.\nPassage: \"The museum opened in 1998.\" Statement: \"The museum opened in 2005.\" → FALSE (both dates cannot be true).\nPassage: \"The museum opened in 1998.\" Statement: \"The museum was popular when it opened.\" → NOT GIVEN (nothing is said about popularity)."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Qualifiers. All / some / most, always / often, only, first, the largest. Changing one of these words can turn TRUE into FALSE, or into NOT GIVEN.\n2. Comparisons. The statement says X is bigger, earlier or cheaper than Y, but the passage gives information about X only. → usually NOT GIVEN.\n3. Cause and effect. The passage says A and B happened. The statement says A caused B. If no cause is stated → NOT GIVEN.\n4. Word-matching. A statement that repeats many passage words can still be FALSE or NOT GIVEN. Judge the meaning, not the vocabulary.\n5. Outside knowledge. Never use what you know about the topic. Use only the passage.",
+          "items": [
+            "Qualifiers. All / some / most, always / often, only, first, the largest. Changing one of these words can turn TRUE into FALSE, or into NOT GIVEN.",
+            "Comparisons. The statement says X is bigger, earlier or cheaper than Y, but the passage gives information about X only. → usually NOT GIVEN.",
+            "Cause and effect. The passage says A and B happened. The statement says A caused B. If no cause is stated → NOT GIVEN.",
+            "Word-matching. A statement that repeats many passage words can still be FALSE or NOT GIVEN. Judge the meaning, not the vocabulary.",
+            "Outside knowledge. Never use what you know about the topic. Use only the passage."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the statement and underline the keywords (names, numbers, dates) and the qualifier or claim word (only, first, increased, because).\n2. Scan the passage for the keywords or their synonyms. Statements follow passage order.\n3. Read the relevant sentence carefully and compare the claim, not just the topic.\n4. Decide: same meaning → TRUE; opposite or incompatible → FALSE; topic mentioned but claim not settled, or not mentioned at all → NOT GIVEN.\n5. If you cannot find the information after a reasonable search, the answer is often NOT GIVEN. Check that the next statement's location comes after this point in the passage.",
+          "items": [
+            "Read the statement and underline the keywords (names, numbers, dates) and the qualifier or claim word (only, first, increased, because).",
+            "Scan the passage for the keywords or their synonyms. Statements follow passage order.",
+            "Read the relevant sentence carefully and compare the claim, not just the topic.",
+            "Decide: same meaning → TRUE; opposite or incompatible → FALSE; topic mentioned but claim not settled, or not mentioned at all → NOT GIVEN.",
+            "If you cannot find the information after a reasonable search, the answer is often NOT GIVEN. Check that the next statement's location comes after this point in the passage."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"The bakery opened in 2010 and now employs twelve people, most of whom work early morning shifts.\"\n1. The bakery has more than ten employees. → TRUE (twelve)\n2. All the staff work early in the morning. → FALSE (most, not all) 3. The bakery is the largest in the town. → NOT GIVEN (no comparison is made)"
+        }
+      ]
+    },
+    {
+      "id": "rtl_ynng",
+      "questionType": "ynng",
+      "name": "Yes / No / Not Given",
+      "title": "How to attempt Yes / No / Not Given",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "This type checks whether you can identify the writer's opinions, claims and attitudes, not just facts. It is used with passages in which the writer argues a position, evaluates ideas or criticises other views."
+        },
+        {
+          "heading": "The three answers",
+          "text": "",
+          "exhibits": [
+            {
+              "kind": "table",
+              "columns": [
+                "Answer",
+                "Meaning"
+              ],
+              "rows": [
+                [
+                  "YES",
+                  "The statement agrees with the writer's view or claim."
+                ],
+                [
+                  "NO",
+                  "The statement contradicts the writer's view or claim."
+                ],
+                [
+                  "NOT GIVEN",
+                  "It is impossible to say what the writer thinks about this."
+                ]
+              ]
+            }
+          ],
+          "layout": [
+            {
+              "exhibit": 0
+            }
+          ]
+        },
+        {
+          "heading": "How it differs from TRUE / FALSE / NOT GIVEN",
+          "text": "The logic is the same, but you compare the statement with what the writer believes, not simply with facts. A passage may report other people's opinions; those are not the writer's view unless the writer agrees with them.\nPassage: \"Critics claim that the new rules are unfair. In my view, this criticism is mistaken.\"\nStatement: \"The new rules are unfair.\" → NO. The critics believe it, but the writer rejects it."
+        },
+        {
+          "heading": "Signals of the writer's opinion",
+          "text": "I believe, in my view, it seems clear that, unfortunately, surely, rightly, mistakenly, too often, the real problem is, what is needed is. Evaluative adjectives and adverbs (sensible, misguided, regrettably) are strong clues."
+        },
+        {
+          "heading": "Signals of other people's views",
+          "text": "some argue, critics claim, supporters say, it is often said, according to. Check the next sentence to see whether the writer agrees or disagrees."
+        },
+        {
+          "heading": "NO vs NOT GIVEN",
+          "text": "NO: the writer clearly holds the opposite view.\nNOT GIVEN: the writer discusses the topic but does not reveal a view on this particular claim, or does not discuss it at all."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Choosing YES because someone in the passage holds the view.\n2. Choosing NO when the writer is simply silent (that is NOT GIVEN).\n3. Missing a strength change: the writer thinks something is sometimes useful, and the statement says it is always useful → NO.\n4. Missing a concession: \"Although X has some advantages, ...\". Here the writer accepts X's advantages but argues something else.",
+          "items": [
+            "Choosing YES because someone in the passage holds the view.",
+            "Choosing NO when the writer is simply silent (that is NOT GIVEN).",
+            "Missing a strength change: the writer thinks something is sometimes useful, and the statement says it is always useful → NO.",
+            "Missing a concession: \"Although X has some advantages, ...\". Here the writer accepts X's advantages but argues something else."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Skim the passage and note the writer's overall position in a few words.\n2. For each statement, locate the section (statements follow passage order).\n3. Identify whose view is expressed in that section.\n4. Compare the statement with the writer's view: same → YES; opposite → NO; no view on this claim → NOT GIVEN.",
+          "items": [
+            "Skim the passage and note the writer's overall position in a few words.",
+            "For each statement, locate the section (statements follow passage order).",
+            "Identify whose view is expressed in that section.",
+            "Compare the statement with the writer's view: same → YES; opposite → NO; no view on this claim → NOT GIVEN."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"Many schools have banned phones. I think this is a sensible step, although it will not solve every problem of concentration in class.\"\n1. The writer approves of phone bans in schools. → YES\n2. The writer believes phone bans will solve all concentration problems. → NO\n3. The writer thinks teachers should also be banned from using phones. → NOT GIVEN"
+        }
+      ]
+    },
+    {
+      "id": "rtl_matching_info",
+      "questionType": "matching_info",
+      "name": "Matching Information",
+      "title": "How to attempt Matching Information",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You are given a list of pieces of information, such as an example, a reason, a description, a comparison or a date, and must find which paragraph contains each one. It tests scanning, detailed reading and the recognition of paraphrase."
+        },
+        {
+          "heading": "How it differs from Matching Headings",
+          "text": "Headings summarise the main idea of a whole paragraph.\nMatching Information targets a specific detail, often only one sentence, and it may appear anywhere in a paragraph, even as a minor point."
+        },
+        {
+          "heading": "Key rules",
+          "text": "The questions are not in passage order.\nSome paragraphs may contain no answers, and some may contain more than one. Check the instruction for \"NB You may use any letter more than once.\"\nThe wording of the questions describes the type of information (\"a reference to...\", \"an example of...\", \"an explanation of why...\"). Notice this type word; it tells you what to look for."
+        },
+        {
+          "heading": "Useful type words",
+          "text": "",
+          "exhibits": [
+            {
+              "kind": "table",
+              "columns": [
+                "Question says",
+                "Look for"
+              ],
+              "rows": [
+                [
+                  "an example of",
+                  "a specific case, often a name, place or \"for instance\""
+                ],
+                [
+                  "a reason for / explanation of",
+                  "because, since, due to, so, this is why"
+                ],
+                [
+                  "a comparison between",
+                  "more than, unlike, whereas, similar to"
+                ],
+                [
+                  "a description of",
+                  "details of how something looks or works"
+                ],
+                [
+                  "a reference to",
+                  "a brief mention, even a single phrase"
+                ],
+                [
+                  "a prediction",
+                  "will, likely to, in future"
+                ]
+              ]
+            }
+          ],
+          "layout": [
+            {
+              "exhibit": 0
+            }
+          ]
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Topic match without detail match. A paragraph may be about the right topic but not contain the specific information.\n2. Similar details in two paragraphs. Two paragraphs mention the same subject, but only one contains the exact type of information asked.\n3. Spending too long on one question. Because the questions are not in order, move on and return later.",
+          "items": [
+            "Topic match without detail match. A paragraph may be about the right topic but not contain the specific information.",
+            "Similar details in two paragraphs. Two paragraphs mention the same subject, but only one contains the exact type of information asked.",
+            "Spending too long on one question. Because the questions are not in order, move on and return later."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read all the questions first and underline the type word and the key idea in each.\n2. Read the passage one paragraph at a time. After each paragraph, check the question list: \"Does this paragraph contain any of these?\"\n3. Answer the easy ones (names, numbers, distinctive words) first, then use elimination.\n4. Confirm each answer by locating the exact sentence.",
+          "items": [
+            "Read all the questions first and underline the type word and the key idea in each.",
+            "Read the passage one paragraph at a time. After each paragraph, check the question list: \"Does this paragraph contain any of these?\"",
+            "Answer the easy ones (names, numbers, distinctive words) first, then use elimination.",
+            "Confirm each answer by locating the exact sentence."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "A The castle was built in 1250. Its walls are six metres thick.\nB Unlike most castles of the period, it was never attacked, probably because of its remote location.\nWhich paragraph contains: a reason why the castle avoided conflict? → B (\"probably because of its remote location\").\nWhich paragraph contains: a measurement? → A (\"six metres thick\")."
+        }
+      ]
+    },
+    {
+      "id": "rtl_headings",
+      "questionType": "headings",
+      "name": "Matching Headings",
+      "title": "How to attempt Matching Headings",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You choose the heading that best summarises the main idea of each paragraph. It tests your ability to see the overall point of a paragraph, not individual details."
+        },
+        {
+          "heading": "The format",
+          "text": "There are more headings than paragraphs, so some headings are not used.\nEach heading can be used only once.\nSometimes one paragraph is done for you as an example. Cross that heading off the list."
+        },
+        {
+          "heading": "How to find the main idea",
+          "text": "1. The first one or two sentences often state the topic. The last sentence may summarise or conclude.\n2. The middle of the paragraph usually contains supporting details: examples, figures and explanations.\n3. Ask: \"If I had to describe this paragraph in five words, what would I say?\"",
+          "items": [
+            "The first one or two sentences often state the topic. The last sentence may summarise or conclude.",
+            "The middle of the paragraph usually contains supporting details: examples, figures and explanations.",
+            "Ask: \"If I had to describe this paragraph in five words, what would I say?\""
+          ]
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Detail headings. A heading matches a detail mentioned in the paragraph (a date, a name, an example), not its main idea.\n2. Keyword headings. A heading repeats a word from the paragraph but describes something else.\n3. Too broad or too narrow. A heading may describe the whole passage (too broad) or only one sentence (too narrow).\n4. Similar headings. Two headings on the same topic differ in focus, for example \"causes of X\" vs \"effects of X\", or \"early attempts\" vs \"a breakthrough\".\n5. Signal words. Contrast words (however, but, yet) in the middle of a paragraph often mark where the main point begins.",
+          "items": [
+            "Detail headings. A heading matches a detail mentioned in the paragraph (a date, a name, an example), not its main idea.",
+            "Keyword headings. A heading repeats a word from the paragraph but describes something else.",
+            "Too broad or too narrow. A heading may describe the whole passage (too broad) or only one sentence (too narrow).",
+            "Similar headings. Two headings on the same topic differ in focus, for example \"causes of X\" vs \"effects of X\", or \"early attempts\" vs \"a breakthrough\".",
+            "Signal words. Contrast words (however, but, yet) in the middle of a paragraph often mark where the main point begins."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the list of headings first and notice how they differ (causes / effects / history / problems / solutions).\n2. Read the first paragraph. Write your own five-word summary in the margin.\n3. Compare your summary with the headings. Choose the closest match to the whole paragraph.\n4. If two headings seem possible, note both and decide after reading more paragraphs.\n5. At the end, check the unused headings: each should clearly fail to fit any paragraph.",
+          "items": [
+            "Read the list of headings first and notice how they differ (causes / effects / history / problems / solutions).",
+            "Read the first paragraph. Write your own five-word summary in the margin.",
+            "Compare your summary with the headings. Choose the closest match to the whole paragraph.",
+            "If two headings seem possible, note both and decide after reading more paragraphs.",
+            "At the end, check the unused headings: each should clearly fail to fit any paragraph."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Paragraph: \"Bicycles are cheap to buy and run, they take up little space, and they cause no pollution. Cycling also provides regular exercise, which improves health.\"\ni The cost of buying a bicycle\nii The advantages of cycling\niii Pollution in modern cities\nAnswer: ii. Heading i covers only one detail, and heading iii uses a keyword from the paragraph but is not its main idea."
+        }
+      ]
+    },
+    {
+      "id": "rtl_matching_features",
+      "questionType": "matching_features",
+      "name": "Matching Features",
+      "title": "How to attempt Matching Features",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You match a list of statements (facts, opinions, findings or characteristics) to a list of features, usually people (researchers, inventors, writers), places, organisations, time periods or things (theories, products, species). It tests scanning for names and recognising paraphrase."
+        },
+        {
+          "heading": "The format",
+          "text": "A box lists the features, labelled A, B, C...\nEach question is a statement; you write the letter of the matching feature.\nSome features may be used more than once, and some not at all. The instruction usually says \"NB You may use any letter more than once.\"\nThe questions are not in passage order, but the features themselves are often easy to locate because they are names."
+        },
+        {
+          "heading": "How to find the answer",
+          "text": "1. Circle every mention of each feature in the passage, including later references such as surnames, he/she, the team or the French engineer.\n2. Read each statement and identify its key idea.\n3. Look through the parts of the passage around each feature for that idea, expressed in different words.",
+          "items": [
+            "Circle every mention of each feature in the passage, including later references such as surnames, he/she, the team or the French engineer.",
+            "Read each statement and identify its key idea.",
+            "Look through the parts of the passage around each feature for that idea, expressed in different words."
+          ]
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Wrong person. A statement describes an idea that one person reports but another person holds. Check whose view it is.\n2. Pronoun confusion. \"He\" may refer to a different person from the one named in the previous sentence.\n3. Scattered mentions. A feature may be mentioned in several paragraphs. The answer may be in a later mention, not the first.\n4. Shared ideas. Two people may say similar things. Check for details that distinguish them (first, disagreed, later changed his mind).",
+          "items": [
+            "Wrong person. A statement describes an idea that one person reports but another person holds. Check whose view it is.",
+            "Pronoun confusion. \"He\" may refer to a different person from the one named in the previous sentence.",
+            "Scattered mentions. A feature may be mentioned in several paragraphs. The answer may be in a later mention, not the first.",
+            "Shared ideas. Two people may say similar things. Check for details that distinguish them (first, disagreed, later changed his mind)."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the list of features and circle each one in the passage.\n2. Read the statements and underline the key ideas.\n3. Take one feature at a time, read everything the passage says about it, and match all the statements you can.\n4. Use elimination for the remaining statements, but confirm each with evidence.",
+          "items": [
+            "Read the list of features and circle each one in the passage.",
+            "Read the statements and underline the key ideas.",
+            "Take one feature at a time, read everything the passage says about it, and match all the statements you can.",
+            "Use elimination for the remaining statements, but confirm each with evidence."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"Lee argued that the bridge should be built of steel. Park preferred stone, which she believed would last longer, although Lee disputed this.\"\nStatements: 1. favoured a more durable material → Park 2. questioned another person's claim → Lee"
+        }
+      ]
+    },
+    {
+      "id": "rtl_sentence_endings",
+      "questionType": "sentence_endings",
+      "name": "Matching Sentence Endings",
+      "title": "How to attempt Matching Sentence Endings",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You are given the first half of several sentences and a list of possible endings. You must choose the ending that completes each sentence so that it agrees with the passage. It tests understanding of the main ideas and relationships in the passage, such as causes, results and comparisons, and the ability to recognise paraphrase."
+        },
+        {
+          "heading": "The format",
+          "text": "Sentence beginnings are numbered, for example 1–5.\nEndings are lettered, for example A–H. There are always more endings than beginnings. Each ending is used once only.\nThe beginnings usually follow the order of the passage."
+        },
+        {
+          "heading": "Two tests for every answer",
+          "text": "1. Meaning test: the complete sentence must agree with the passage.\n2. Grammar test: the ending must fit grammatically. However, several endings will usually be grammatically possible, so grammar alone is never enough.",
+          "items": [
+            "Meaning test: the complete sentence must agree with the passage.",
+            "Grammar test: the ending must fit grammatically. However, several endings will usually be grammatically possible, so grammar alone is never enough."
+          ]
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. True but unrelated endings. An ending may state something true from the passage that does not complete this beginning correctly.\n2. Keyword endings. An ending may repeat words from the part of the passage that the beginning refers to but change the relationship (for example, cause and effect reversed).\n3. Half-matches. An ending may fit part of the beginning's meaning. Check the whole sentence against the passage.",
+          "items": [
+            "True but unrelated endings. An ending may state something true from the passage that does not complete this beginning correctly.",
+            "Keyword endings. An ending may repeat words from the part of the passage that the beginning refers to but change the relationship (for example, cause and effect reversed).",
+            "Half-matches. An ending may fit part of the beginning's meaning. Check the whole sentence against the passage."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read all the beginnings and underline their key words.\n2. Skim the endings, noting what kind of idea each expresses (a cause, a result, a purpose, a comparison).\n3. Locate the part of the passage for the first beginning (using the passage order).\n4. Before looking at the endings, predict in your own words how the sentence should end.\n5. Choose the ending that matches your prediction. Check both meaning and grammar.\n6. Cross out used endings.",
+          "items": [
+            "Read all the beginnings and underline their key words.",
+            "Skim the endings, noting what kind of idea each expresses (a cause, a result, a purpose, a comparison).",
+            "Locate the part of the passage for the first beginning (using the passage order).",
+            "Before looking at the endings, predict in your own words how the sentence should end.",
+            "Choose the ending that matches your prediction. Check both meaning and grammar.",
+            "Cross out used endings."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"Because the bridge was too narrow for modern lorries, a new one was built further downstream.\"\nBeginning: The new bridge was built because...\nA the old bridge was too narrow for large vehicles.\nB lorries were banned from the town.\nC it was further downstream.\nA is correct. C is a keyword trap: it describes the location, not the reason. B is not stated."
+        }
+      ]
+    },
+    {
+      "id": "rtl_sentence_completion",
+      "questionType": "sentence_completion",
+      "name": "Sentence Completion",
+      "title": "How to attempt Sentence Completion",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You complete sentences that paraphrase information from the passage, using words taken directly from the passage. It tests your ability to locate specific details, recognise paraphrase and follow instructions exactly."
+        },
+        {
+          "heading": "The word limit is a rule, not a suggestion",
+          "text": "Numbers can be written as figures (40) or words (forty).\nHyphenated words (well-known) count as one word.\nIf you exceed the limit, the answer is wrong, even if the information is correct.",
+          "exhibits": [
+            {
+              "kind": "table",
+              "columns": [
+                "Instruction",
+                "Allowed",
+                "Not allowed"
+              ],
+              "rows": [
+                [
+                  "ONE WORD ONLY",
+                  "ice",
+                  "the ice"
+                ],
+                [
+                  "NO MORE THAN TWO WORDS",
+                  "sea ice",
+                  "thin sea ice"
+                ],
+                [
+                  "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+                  "40 litres, 1908",
+                  "about 40 litres"
+                ],
+                [
+                  "NO MORE THAN THREE WORDS",
+                  "a wooden frame",
+                  "a light wooden frame"
+                ]
+              ]
+            }
+          ],
+          "layout": [
+            {
+              "exhibit": 0
+            },
+            {
+              "paragraph": 0
+            },
+            {
+              "paragraph": 1
+            },
+            {
+              "paragraph": 2
+            }
+          ]
+        },
+        {
+          "heading": "Key rules",
+          "text": "1. Use words exactly as they appear in the passage. Do not change the form (produce ≠ production) unless the sentence's grammar clearly requires the passage's form.\n2. The completed sentence must be grammatically correct.\n3. The questions follow the order of the passage.\n4. Spelling must be correct.",
+          "items": [
+            "Use words exactly as they appear in the passage. Do not change the form (produce ≠ production) unless the sentence's grammar clearly requires the passage's form.",
+            "The completed sentence must be grammatically correct.",
+            "The questions follow the order of the passage.",
+            "Spelling must be correct."
+          ]
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Too many words. Students copy a whole phrase when only the key noun is needed.\n2. Wrong form. The gap needs a noun, but the student writes a verb or adjective.\n3. Nearby distractors. The passage mentions several numbers, dates or names close together.\n4. Paraphrased sentence. The sentence in the question uses different words from the passage, so you must recognise synonyms to find the location.",
+          "items": [
+            "Too many words. Students copy a whole phrase when only the key noun is needed.",
+            "Wrong form. The gap needs a noun, but the student writes a verb or adjective.",
+            "Nearby distractors. The passage mentions several numbers, dates or names close together.",
+            "Paraphrased sentence. The sentence in the question uses different words from the passage, so you must recognise synonyms to find the location."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the instruction and circle the word limit.\n2. Read each sentence and predict the type of word needed: a noun, number, adjective or verb, and singular or plural.\n3. Underline keywords in the sentence and think of synonyms.\n4. Scan the passage for the matching section (in order).\n5. Find the exact word(s), check the word limit, and read the complete sentence to confirm grammar and meaning.",
+          "items": [
+            "Read the instruction and circle the word limit.",
+            "Read each sentence and predict the type of word needed: a noun, number, adjective or verb, and singular or plural.",
+            "Underline keywords in the sentence and think of synonyms.",
+            "Scan the passage for the matching section (in order).",
+            "Find the exact word(s), check the word limit, and read the complete sentence to confirm grammar and meaning."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"The castle, built mainly from local sandstone, was completed in 1270.\"\nComplete using NO MORE THAN TWO WORDS AND/OR A NUMBER:\nThe castle was constructed largely from ______ .\n→ local sandstone (two words) ✓ — \"mainly from local sandstone\" ✗ (too many words)"
+        }
+      ]
+    },
+    {
+      "id": "rtl_summary_completion",
+      "questionType": "summary_completion",
+      "name": "Summary Completion",
+      "title": "How to attempt Summary Completion",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You complete a summary of part of the passage by filling gaps. It tests your ability to follow the flow of ideas across several sentences and to recognise paraphrase."
+        },
+        {
+          "heading": "The two formats",
+          "text": "",
+          "exhibits": [
+            {
+              "kind": "table",
+              "columns": [
+                "Format",
+                "What you do",
+                "Key rules"
+              ],
+              "rows": [
+                [
+                  "From the passage",
+                  "Write words taken directly from the passage",
+                  "Obey the word limit exactly; copy spelling carefully"
+                ],
+                [
+                  "From a box (word bank)",
+                  "Choose words or phrases from a list, usually labelled A–J",
+                  "There are more options than gaps; the options usually do not appear in the passage word for word"
+                ]
+              ]
+            }
+          ],
+          "layout": [
+            {
+              "exhibit": 0
+            }
+          ]
+        },
+        {
+          "heading": "How summaries work",
+          "text": "A summary usually covers one section of the passage, often two or three paragraphs, not the whole text.\nThe answers usually follow the order of the passage.\nThe summary paraphrases the passage, so its sentences look different from the original."
+        },
+        {
+          "heading": "Using grammar to help",
+          "text": "Before searching, decide what each gap needs:\nafter a/an/the → a noun;\nafter very/more/quite → an adjective;\nafter to (as in to build) → a verb;\nafter many/several → a plural noun.\nWith a word bank, grammar can immediately eliminate several options."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Word bank options that appear in the passage but in a different context.\n2. Options with the right meaning but the wrong grammar (a verb when a noun is needed).\n3. Opposites: the bank may contain increase and decrease, or rare and common.\n4. Exceeding the word limit in the \"from the passage\" format.",
+          "items": [
+            "Word bank options that appear in the passage but in a different context.",
+            "Options with the right meaning but the wrong grammar (a verb when a noun is needed).",
+            "Opposites: the bank may contain increase and decrease, or rare and common.",
+            "Exceeding the word limit in the \"from the passage\" format."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the title and the whole summary first to understand what it covers.\n2. Identify the section of the passage it summarises (look at the first and last sentences of the summary).\n3. For each gap, predict the meaning and word type.\n4. Word bank: eliminate options by grammar, then choose by meaning. From the passage: find the exact words and check the limit.\n5. Read the completed summary to check that it makes sense and agrees with the passage.",
+          "items": [
+            "Read the title and the whole summary first to understand what it covers.",
+            "Identify the section of the passage it summarises (look at the first and last sentences of the summary).",
+            "For each gap, predict the meaning and word type.",
+            "Word bank: eliminate options by grammar, then choose by meaning. From the passage: find the exact words and check the limit.",
+            "Read the completed summary to check that it makes sense and agrees with the passage."
+          ]
+        },
+        {
+          "heading": "Tiny example (word bank)",
+          "text": "Passage: \"The town's population fell sharply after the factory closed, as young people moved away to find work.\"\nSummary: After the factory shut down, the town's population (1) ______ because younger residents went elsewhere in search of (2) ______ .\nA employment B increased C declined D education E housing\n1 = C (fell sharply = declined; B is the opposite) 2 = A (work = employment)"
+        }
+      ]
+    },
+    {
+      "id": "rtl_note_completion",
+      "questionType": "note_completion",
+      "name": "Note Completion",
+      "title": "How to attempt Note Completion",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You complete a set of notes about part of the passage, using words taken from the passage. The notes are organised under headings and bullet points, like the notes a student makes while reading. The task tests whether you can locate specific details and recognise them when they are expressed in a short, compressed form."
+        },
+        {
+          "heading": "How notes differ from summaries",
+          "text": "A summary is written in full sentences. Notes are not. They leave out articles and linking words, use symbols such as → (leads to), = (means), ≈ (approximately) and e.g. (for example), and often list items after a colon. Because of this, grammar gives fewer clues than in Summary or Sentence Completion. You must rely more on meaning and on the headings."
+        },
+        {
+          "heading": "Use the headings",
+          "text": "The note headings tell you which part of the passage each group of gaps comes from. Read the headings first and match each one to a paragraph. The answers usually follow the order of the passage, but notes are sometimes grouped by topic, so one heading may collect information from two different paragraphs."
+        },
+        {
+          "heading": "The word limit is a rule",
+          "text": "Follow the instruction exactly (ONE WORD ONLY, NO MORE THAN TWO WORDS AND/OR A NUMBER, and so on). Copy the words exactly as they appear in the passage and spell them correctly. A number counts as a number, not as a word, and a hyphenated word counts as one word."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Copying too much. Notes often already contain part of the phrase (\"fruit ______\"), so you need only the missing word.\n2. Nearby numbers and dates. Passages that describe a process or a history contain many figures. Check which event or quantity each figure belongs to.\n3. The wrong form. If the note needs a plural noun or a verb, the passage word must fit that form.\n4. Misleading headings. A heading may describe the topic generally while the answer is a specific detail within it.\n5. Answers from the wrong paragraph. Words that appear in an earlier or later paragraph may look correct but describe something else.",
+          "items": [
+            "Copying too much. Notes often already contain part of the phrase (\"fruit ______\"), so you need only the missing word.",
+            "Nearby numbers and dates. Passages that describe a process or a history contain many figures. Check which event or quantity each figure belongs to.",
+            "The wrong form. If the note needs a plural noun or a verb, the passage word must fit that form.",
+            "Misleading headings. A heading may describe the topic generally while the answer is a specific detail within it.",
+            "Answers from the wrong paragraph. Words that appear in an earlier or later paragraph may look correct but describe something else."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the title and all the headings. Decide which part of the passage the notes cover.\n2. For each gap, read the words on both sides and predict the kind of answer: a number, a place, a noun, an adjective or a verb.\n3. Scan the matching paragraph for the idea, which is usually expressed in different words.\n4. Copy the exact words, check the word limit, and read the completed note to make sure it makes sense.",
+          "items": [
+            "Read the title and all the headings. Decide which part of the passage the notes cover.",
+            "For each gap, read the words on both sides and predict the kind of answer: a number, a place, a noun, an adjective or a verb.",
+            "Scan the matching paragraph for the idea, which is usually expressed in different words.",
+            "Copy the exact words, check the word limit, and read the completed note to make sure it makes sense."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"The bridge, finished in 1932 after eight years of work, was built mainly of steel imported from England.\"\nAnswers (NO MORE THAN TWO WORDS AND/OR A NUMBER): 1 eight years 2 steel. \"1932\" is the completion date, not the length of construction.",
+          "exhibits": [
+            {
+              "kind": "notes",
+              "title": "Harbour bridge",
+              "lines": [
+                {
+                  "text": "construction took (1) ______",
+                  "level": 1
+                },
+                {
+                  "text": "main material: (2) ______ from England",
+                  "level": 1
+                }
+              ]
+            }
+          ],
+          "layout": [
+            {
+              "paragraph": 0
+            },
+            {
+              "exhibit": 0
+            },
+            {
+              "paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rtl_table_completion",
+      "questionType": "table_completion",
+      "name": "Table Completion",
+      "title": "How to attempt Table Completion",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You complete a table that organises information from the passage into rows and columns, using words taken from the passage. The task tests whether you can locate specific details and understand how pieces of information relate to each other: which item has which feature, which date belongs to which event, and which advantage belongs to which method."
+        },
+        {
+          "heading": "How tables work",
+          "text": "The column headings tell you what type of information each column contains (a date, a material, an advantage, a problem). The row headings tell you which item the row describes. Every gap sits where one row meets one column, so it tells you exactly what you need: for example, \"the disadvantage of papyrus\". Work out that question before you look at the passage."
+        },
+        {
+          "heading": "Using the table",
+          "text": "Read along the rows and down the columns. The other cells in the same column show you the form of the answer: if every other cell in a column is a date, the gap is almost certainly a date. The cells in the same row usually come from the same part of the passage."
+        },
+        {
+          "heading": "Order of answers",
+          "text": "Answers usually follow the order of the passage, reading row by row. However, a table sometimes reorganises the passage, so one column may collect details from several paragraphs."
+        },
+        {
+          "heading": "The word limit is a rule",
+          "text": "Follow the instruction exactly, copy words exactly as they appear in the passage, and do not repeat words that are already printed in the cell or the column heading."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Right row, wrong column. The passage gives both an advantage and a disadvantage of the same item close together. Check which column the gap is in.\n2. Neighbouring rows. The passage describes several similar items, so a detail from the next item can look correct.\n3. Repeating the heading. If the column heading is \"Date (century)\", you need only the number, not the word \"century\".\n4. The wrong form. The answer must fit with the other cells in the column (a noun, a number, an adjective).\n5. Too many words. Tables have small cells, and the answer is usually one or two key words.",
+          "items": [
+            "Right row, wrong column. The passage gives both an advantage and a disadvantage of the same item close together. Check which column the gap is in.",
+            "Neighbouring rows. The passage describes several similar items, so a detail from the next item can look correct.",
+            "Repeating the heading. If the column heading is \"Date (century)\", you need only the number, not the word \"century\".",
+            "The wrong form. The answer must fit with the other cells in the column (a noun, a number, an adjective).",
+            "Too many words. Tables have small cells, and the answer is usually one or two key words."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the table title and all the headings. Decide which part of the passage the table covers.\n2. For each gap, name the row and the column (\"material of parchment\") and predict the type of answer.\n3. Find the paragraph about that row, then look for the detail that fits the column.\n4. Copy the exact words, check the word limit, and read the whole row to make sure it makes sense.",
+          "items": [
+            "Read the table title and all the headings. Decide which part of the passage the table covers.",
+            "For each gap, name the row and the column (\"material of parchment\") and predict the type of answer.",
+            "Find the paragraph about that row, then look for the detail that fits the column.",
+            "Copy the exact words, check the word limit, and read the whole row to make sure it makes sense."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"Tin mining began in Cornwall around 2000 BC; copper was mined in Wales a few centuries later.\"\nAnswers (NO MORE THAN THREE WORDS): 1 Cornwall 2 a few centuries later.",
+          "exhibits": [
+            {
+              "kind": "table",
+              "columns": [
+                "Metal",
+                "Region",
+                "Began"
+              ],
+              "rows": [
+                [
+                  "tin",
+                  "(1) ______",
+                  "about 2000 BC"
+                ],
+                [
+                  "copper",
+                  "Wales",
+                  "(2) ______"
+                ]
+              ],
+              "title": "Early mining in Britain"
+            }
+          ],
+          "layout": [
+            {
+              "paragraph": 0
+            },
+            {
+              "exhibit": 0
+            },
+            {
+              "paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rtl_flowchart_completion",
+      "questionType": "flowchart_completion",
+      "name": "Flow-chart Completion",
+      "title": "How to attempt Flow-chart Completion",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You complete a flow-chart that shows the stages of a process or a sequence of events described in the passage. Each box is one stage, and arrows show how one stage leads to the next. The task tests whether you can follow a sequence, recognise which stage the passage is describing, and find specific details within each stage."
+        },
+        {
+          "heading": "How flow-charts work",
+          "text": "The boxes follow the order of the process, and in almost every case they also follow the order of the passage. Some flow-charts split into two or three branches when a process can go in different directions (for example, \"small star\" and \"large star\"), and the branches may join again later."
+        },
+        {
+          "heading": "The two formats",
+          "text": "In most flow-charts, you write words taken directly from the passage and must obey the word limit. In others, you choose answers from a list of words or phrases labelled A, B, C and so on; there are more options than gaps, and the options usually paraphrase the passage."
+        },
+        {
+          "heading": "Reading the layout",
+          "text": "Each box is written in note form, so use the words in the box and the boxes before and after it to predict what is missing: an action, a material, a place, a number or a result. Arrows (→) inside a box mean \"leads to\" or \"produces\"."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. The wrong stage. The passage mentions a detail from an earlier or later stage that is the same type of word. Check the boxes on either side of the gap.\n2. The wrong branch. In a branching flow-chart, both branches contain similar details. Check the condition at the top of each branch.\n3. Numbers and times. Processes contain many numbers (temperatures, durations, quantities). Match each number to its stage.\n4. Repeating words already in the box.\n5. The word form. The answer must fit grammatically into the note in the box.",
+          "items": [
+            "The wrong stage. The passage mentions a detail from an earlier or later stage that is the same type of word. Check the boxes on either side of the gap.",
+            "The wrong branch. In a branching flow-chart, both branches contain similar details. Check the condition at the top of each branch.",
+            "Numbers and times. Processes contain many numbers (temperatures, durations, quantities). Match each number to its stage.",
+            "Repeating words already in the box.",
+            "The word form. The answer must fit grammatically into the note in the box."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the title and all the boxes quickly to understand the whole process.\n2. Find the paragraph where the process starts. Most flow-charts begin at the first stage of the process, not necessarily at Paragraph A.\n3. For each gap, look at the box before and after it, and predict the type of answer.\n4. Move through the passage stage by stage, using sequence words such as first, then, next, after this, once and finally.\n5. Check the word limit (or the list of options) and read each completed box to make sure it makes sense.",
+          "items": [
+            "Read the title and all the boxes quickly to understand the whole process.",
+            "Find the paragraph where the process starts. Most flow-charts begin at the first stage of the process, not necessarily at Paragraph A.",
+            "For each gap, look at the box before and after it, and predict the type of answer.",
+            "Move through the passage stage by stage, using sequence words such as first, then, next, after this, once and finally.",
+            "Check the word limit (or the list of options) and read each completed box to make sure it makes sense."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"First, the grapes are crushed. The juice is then left to ferment in steel tanks for about two weeks before being filtered.\"\nAnswers (ONE WORD ONLY): 1 tanks 2 filtered.",
+          "exhibits": [
+            {
+              "kind": "flowchart",
+              "title": "Making wine",
+              "steps": [
+                "grapes crushed",
+                "juice ferments in (1) ______ for about two weeks",
+                "wine (2) ______"
+              ]
+            }
+          ],
+          "layout": [
+            {
+              "paragraph": 0
+            },
+            {
+              "exhibit": 0
+            },
+            {
+              "paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rtl_diagram_label",
+      "questionType": "diagram_label",
+      "name": "Diagram Label Completion",
+      "title": "How to attempt Diagram Label Completion",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You complete the labels on a diagram of a machine, a structure, a natural feature or a living thing described in the passage. The task tests whether you can connect a written description with a visual layout: where each part is, what it looks like, and what it does."
+        },
+        {
+          "heading": "How diagrams work",
+          "text": "A diagram may show an object from the outside, a cross-section (a view of the inside, as if the object had been cut open), or a series of layers from top to bottom. Some labels are already complete; others contain a gap. A label may name the part itself, or it may describe the part's function, material or position, so the missing word is not always the name of the part."
+        },
+        {
+          "heading": "The two formats",
+          "text": "In most diagrams, you write words taken directly from the passage and must obey the word limit. In others, you choose answers from a list of words labelled A, B, C and so on; there are more options than gaps, and the options often paraphrase the passage."
+        },
+        {
+          "heading": "Reading the layout",
+          "text": "Unlike other completion tasks, the answers are not always in passage order, because a diagram is organised by space, not by time. The numbers usually go from top to bottom or from left to right, while the passage may describe the object from the inside out or from the bottom up. Use position words in the passage (above, below, at the base, inside, surrounding, attached to) to locate each part."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Following the numbers instead of the passage. Answers may be spread across the passage in a different order.\n2. Naming the part when the label asks for its function or material, or the reverse.\n3. Two parts in the same area. The passage may describe two parts near each other, such as an inner and an outer layer.\n4. Repeating words already in the label.\n5. Spelling technical words incorrectly. Copy them letter by letter from the passage.",
+          "items": [
+            "Following the numbers instead of the passage. Answers may be spread across the passage in a different order.",
+            "Naming the part when the label asks for its function or material, or the reverse.",
+            "Two parts in the same area. The passage may describe two parts near each other, such as an inner and an outer layer.",
+            "Repeating words already in the label.",
+            "Spelling technical words incorrectly. Copy them letter by letter from the passage."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Study the diagram: what is the object, and is it an outside view, a cross-section or a series of layers?\n2. Read all the labels, including those that are already complete. They help you find your position in the passage.\n3. Find the part of the passage that describes the object and underline position words.\n4. For each gap, decide whether you need a name, a material, a function or a number.\n5. Check the word limit and make sure each completed label makes sense.",
+          "items": [
+            "Study the diagram: what is the object, and is it an outside view, a cross-section or a series of layers?",
+            "Read all the labels, including those that are already complete. They help you find your position in the passage.",
+            "Find the part of the passage that describes the object and underline position words.",
+            "For each gap, decide whether you need a name, a material, a function or a number.",
+            "Check the word limit and make sure each completed label makes sense."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"A torch has a plastic case. Inside, two batteries sit one above the other, and at the top a small bulb is surrounded by a curved mirror, called a reflector.\"\nAnswers (ONE WORD ONLY): 1 batteries 2 reflector.",
+          "exhibits": [
+            {
+              "kind": "diagram",
+              "caption": "torch (cross-section)",
+              "labels": [
+                {
+                  "text": "plastic case",
+                  "side": "left",
+                  "order": 1
+                },
+                {
+                  "text": "(1) ______ (one above the other)",
+                  "side": "left",
+                  "order": 2
+                },
+                {
+                  "text": "small bulb",
+                  "side": "right",
+                  "order": 1
+                },
+                {
+                  "text": "curved mirror: the (2) ______",
+                  "side": "right",
+                  "order": 2
+                }
+              ]
+            }
+          ],
+          "layout": [
+            {
+              "paragraph": 0
+            },
+            {
+              "exhibit": 0
+            },
+            {
+              "paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rtl_short_answer",
+      "questionType": "short_answer",
+      "name": "Short Answer",
+      "title": "How to attempt Short Answer questions",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You answer questions about specific details in the passage, such as names, dates, numbers, places, reasons and methods, using words taken from the passage. The task tests whether you can scan quickly for information, recognise paraphrase in the question, and give a precise answer within the word limit."
+        },
+        {
+          "heading": "Using the question words",
+          "text": "The question word tells you what kind of answer to look for. \"When\" needs a time or date; \"where\" needs a place; \"who\" needs a person or group; \"how many\" and \"how much\" need a number or quantity; \"how long\" needs a period of time; \"what\" and \"which\" need a thing, and the rest of the question tells you what kind of thing (\"which material\", \"what type of animal\"). Circle the question word and the key noun after it before you scan."
+        },
+        {
+          "heading": "Order of answers",
+          "text": "The answers usually come in the same order as the information in the passage, so the answer to Question 3 is normally found after the answer to Question 2. If you cannot find one answer, leave it and move on; the next answer will narrow down where the missing one must be."
+        },
+        {
+          "heading": "The word limit is a rule",
+          "text": "An answer that goes over the limit is marked wrong, even if it contains the correct information. Numbers can be written as figures or as words. You do not need to write a full sentence, and you should not add words from the question, such as \"It was\" or \"Because\"."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Distractors of the same type. A passage usually contains several dates, numbers or names; only one matches the whole question.\n2. Paraphrased questions. The question may use different words from the passage (\"set up\" for \"founded\", \"roughly\" for \"approximately\").\n3. Negative and limiting words. Words such as \"first\", \"only\", \"most\", \"apart from\" and \"not\" change the answer completely.\n4. Copying too much. A long phrase from the passage may contain the answer but exceed the word limit. Choose the key words.\n5. Spelling. Answers must be spelled correctly; copy names and technical terms letter by letter.",
+          "items": [
+            "Distractors of the same type. A passage usually contains several dates, numbers or names; only one matches the whole question.",
+            "Paraphrased questions. The question may use different words from the passage (\"set up\" for \"founded\", \"roughly\" for \"approximately\").",
+            "Negative and limiting words. Words such as \"first\", \"only\", \"most\", \"apart from\" and \"not\" change the answer completely.",
+            "Copying too much. A long phrase from the passage may contain the answer but exceed the word limit. Choose the key words.",
+            "Spelling. Answers must be spelled correctly; copy names and technical terms letter by letter."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the instructions and note the word limit.\n2. For each question, underline the question word and the key words, and think of possible paraphrases.\n3. Scan the passage for the key words or their paraphrases, especially names, numbers and capital letters.\n4. Read the sentence carefully and check that it answers the whole question, including words such as \"first\" and \"only\".\n5. Write the shortest answer from the passage that fits the limit, and check the spelling.",
+          "items": [
+            "Read the instructions and note the word limit.",
+            "For each question, underline the question word and the key words, and think of possible paraphrases.",
+            "Scan the passage for the key words or their paraphrases, especially names, numbers and capital letters.",
+            "Read the sentence carefully and check that it answers the whole question, including words such as \"first\" and \"only\".",
+            "Write the shortest answer from the passage that fits the limit, and check the spelling."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"The museum, which opened in 1897, was founded by a wealthy merchant, Thomas Hale. It moved to its present building in 1932.\"\n1 When was the museum set up? Answer: 1897 (\"set up\" = \"founded/opened\"; 1932 is the year it moved).\n2 Who established the museum? Answer: Thomas Hale / a wealthy merchant."
+        }
+      ]
+    }
+  ]
+}

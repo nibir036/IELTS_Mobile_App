@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Nexted Ielts App</string>
+	<string>IELTS AI</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -66,5 +66,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>IELTS AI records your speaking answers so it can give you band-score feedback.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose a profile photo or share an image in a study room.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take a profile photo.</string>
 </dict>
 </plist>

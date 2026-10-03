@@ -1,0 +1,166 @@
+{
+ "code": "P2-MC",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:04]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[0:14]-[0:24]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:27]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:36]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[0:45]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:55]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:02]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:13]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[1:17]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:22]",
+   "note": "6:00 minus half an hour = 5.30"
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:27]",
+   "note": "four times a year = every three months"
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:32]",
+   "note": "a quarter = 25%"
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:38]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[1:54]",
+   "note": "portrait = painting"
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[2:05]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "missing",
+   "key": "B",
+   "audio_answer": "none of A-C (about 20 volunteers; 12 are paid guides)",
+   "evidence": "[2:08] \"We have around 20 volunteers, and of our paid staff, 12 work as guides.\"",
+   "note": "Recording explicitly makes the 12 guides PAID staff, so B 'twelve' volunteer guides is wrong; number of volunteer guides never given. Fix stem to 'How many paid guides...' or re-record."
+  },
+  {
+   "n": 17,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[2:16]",
+   "note": ""
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[2:21]",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[2:32]",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[2:34]",
+   "note": ""
+  }
+ ],
+ "summary": "19/20 ok; Q16 audio says 12 are paid-staff guides (volunteers ~20), so 'volunteer guides = twelve' is unsupported."
+}

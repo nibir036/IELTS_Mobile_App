@@ -1,0 +1,96 @@
+{
+  "_format": {
+    "name": "speaking_test_part1_topics",
+    "group": "bank",
+    "table": "speaking_part1_topics",
+    "primaryKey": "id",
+    "description": "Part 1 of Speaking Tests 1-10 (3 topics merged, sections in data).",
+    "currentSourceInApp": "assets/content/tests_bank.json → speaking.part1Topics",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "testId": "string",
+      "category": "string",
+      "topic": "string",
+      "questions": "array",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 10
+  },
+  "items": [
+    {
+      "id": "st_01_p1",
+      "source": "test",
+      "testId": "st_01",
+      "category": "test",
+      "topic": "Your home town · Older people · Free time",
+      "questions": [
+        "Where do you live now?",
+        "What do you like most about living there?",
+        "Is it a good place for older people to live?",
+        "Would you like to live there when you are older?",
+        "Do you spend much time with older members of your family?",
+        "What can younger people learn from older people?",
+        "Do you think older people are respected in your society?",
+        "How is life for older people today different from the past?",
+        "How do you usually spend your evenings?",
+        "Do you have more or less free time than you used to?",
+        "What would you do with more free time?",
+        "Do you prefer active or relaxing free time activities?"
+      ],
+      "data": {
+        "id": "st_01_p1",
+        "test": "st_01",
+        "topic": "Your home town · Older people · Free time",
+        "category": "test",
+        "categoryLabel": "Speaking Test 1",
+        "intro": true,
+        "examinerIntro": "Good morning / afternoon. Can you tell me your full name, please? What can I call you? Where are you from? Can I see your identification, please? Thank you.",
+        "sections": [
+          {
+            "topic": "Your home town",
+            "questions": [
+              "Where do you live now?",
+              "What do you like most about living there?",
+              "Is it a good place for older people to live?",
+              "Would you like to live there when you are older?"
+            ]
+          },
+          {
+            "topic": "Older people",
+            "questions": [
+              "Do you spend much time with older members of your family?",
+              "What can younger people learn from older people?",
+              "Do you think older people are respected in your society?",
+              "How is life for older people today different from the past?"
+            ]
+          },
+          {
+            "topic": "Free time",
+            "questions": [
+              "How do you usually spend your evenings?",
+              "Do you have more or less free time than you used to?",
+              "What would you do with more free time?",
+              "Do you prefer active or relaxing free time activities?"
+            ]
+          }
+        ],
+        "questions": [
+          "Where do you live now?",
+          "What do you like most about living there?",
+          "Is it a good place for older people to live?",
+          "Would you like to live there when you are older?",
+          "Do you spend much time with older members of your family?",
+          "What can younger people learn from older people?",
+          "Do you think older people are respected in your society?",
+          "How is life for older people today different from the past?",
+          "How do you usually spend your evenings?",
+          "Do you have more or less free time than you used to?",
+          "What would you do with more free time?",
+          "Do you prefer active or relaxing free time activities?"
+        ]
+      }
+    }
+  ]
+}

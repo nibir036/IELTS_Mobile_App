@@ -1,0 +1,43 @@
+{
+  "_format": {
+    "name": "recordings",
+    "group": "user",
+    "table": "recordings",
+    "primaryKey": "id",
+    "description": "Speaking recording stored in R2.",
+    "currentSourceInApp": "speaking attempts data + VoiceRecorder",
+    "fields": {
+      "id": "string",
+      "userId": "string",
+      "attemptId": "string",
+      "r2Key": "string",
+      "format": "string",
+      "durationMs": "integer",
+      "bytes": "integer",
+      "createdAt": "string"
+    },
+    "required": [
+      "id",
+      "userId",
+      "r2Key",
+      "durationMs"
+    ],
+    "relations": [
+      "attemptId → attempts.id"
+    ],
+    "notes": [],
+    "recordCountToday": 1
+  },
+  "items": [
+    {
+      "id": "rec_01",
+      "userId": "usr_demo_tanvir",
+      "attemptId": "att_s_p2_1",
+      "r2Key": "recordings/usr_demo_tanvir/att_s_p2_1.wav",
+      "format": "wav",
+      "durationMs": 118000,
+      "bytes": 3776044,
+      "createdAt": "2026-09-29T12:00:00Z"
+    }
+  ]
+}

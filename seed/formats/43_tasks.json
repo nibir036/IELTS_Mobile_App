@@ -1,0 +1,49 @@
+{
+  "_format": {
+    "name": "tasks",
+    "group": "user",
+    "table": "study_tasks",
+    "primaryKey": "id",
+    "description": "Study-plan task on the schedule (B5).",
+    "currentSourceInApp": "Store tasks",
+    "fields": {
+      "id": "string",
+      "title": "string",
+      "skill": "string",
+      "kind": "string",
+      "time": "string",
+      "durationMin": "integer",
+      "done": "boolean",
+      "target": "string",
+      "userId": "string",
+      "date": "string"
+    },
+    "required": [
+      "id",
+      "userId",
+      "title",
+      "date"
+    ],
+    "relations": [
+      "userId → users.id"
+    ],
+    "notes": [
+      "kind: goal|mock|reminder|…; time = HH:mm local."
+    ],
+    "recordCountToday": 1
+  },
+  "items": [
+    {
+      "id": "tsk_home_001",
+      "title": "Listening Part 3 · Set 12",
+      "skill": "listening",
+      "kind": "goal",
+      "time": "18:00",
+      "durationMin": 20,
+      "done": true,
+      "target": "/listening/mini-practice",
+      "userId": "usr_demo_tanvir",
+      "date": "2026-09-29"
+    }
+  ]
+}

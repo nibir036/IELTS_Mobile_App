@@ -1,0 +1,882 @@
+[
+ {
+  "id": "t1_bar",
+  "title": "الجزء B — Bar / Column Graph",
+  "blocks": [
+   [
+    "p",
+    "كل ما تعلّمته في Line graph — قالب الفقرات الأربع، والطريقتان لكتابة الـ introduction، ولغة الأرقام — هو نفسه تمامًا هنا. الذي يتغيّر هو: كيف تجد قصة الـ graph، وكيف ترتّب الـ body. ومع كل نوع مثال كامل واحد، ومعه الـ graph."
+   ],
+   [
+    "h",
+    "Bar / Column Graph — خطوة بخطوة"
+   ],
+   [
+    "h2",
+    "السؤال الأول: هل على المحور الأفقي (axis) زمن أم category؟"
+   ],
+   [
+    "table",
+    [
+     "ماذا يوجد على الـ axis",
+     "كيف تنظر إليه",
+     "اللغة"
+    ],
+    [
+     [
+      "الزمن (سنوات، أشهر)",
+      "مثل الـ line graph — trend، ارتفاع وانخفاض",
+      "rose, fell, peaked (فصل Line graph)"
+     ],
+     [
+      "Category (دولة، وظيفة، عمر)",
+      "مقارنة — الأعلى، الأدنى، الترتيب، الفرق",
+      "higher / lower than, the most, followed by"
+     ],
+     [
+      "Grouped bar (category × سنة)",
+      "الاثنان معًا — قارن الـ categories + كيف تغيّر كل واحد منها",
+      "المجموعتان معًا"
+     ]
+    ]
+   ],
+   [
+    "note",
+    "⚠ أعمدة الـ categories لا \"rise\" ولا \"fall\". إذا لم يكن هناك زمن وكتبت rose/fell، يفترض الـ examiner أنك لم تفهم الـ graph. اكتب: X is higher than Y؛ X has the largest share."
+   ],
+   [
+    "h2",
+    "المثال 1 — bar بسيط (categories فقط)"
+   ],
+   [
+    "ex",
+    "The bar chart shows the amount of coffee consumed per person in five countries in 2022."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p032_1.png",
+    "Coffee consumption per person, 2022"
+   ],
+   [
+    "h2",
+    "الخطوات 1–3 · افهم وضع علامات"
+   ],
+   [
+    "ul",
+    [
+     "الوحدة (unit): kg per person per year. الزمن: سنة واحدة (2022) — إذن ليس trend بل مقارنة؛ الـ tense: past (2022) أو present — كلاهما يصلح، لكن التزم بواحد.",
+     "الأعلى: Finland (12)؛ الأدنى: Japan (3.6). Finland أكثر من ثلاثة أضعاف Japan.",
+     "تظهر مجموعتان: الدولتان الإسكندنافيتان (Nordic) أعلى بكثير (12، 9.9)؛ والثلاث الأخرى أقل من 6."
+    ]
+   ],
+   [
+    "h2",
+    "الخطوة 4 · الـ Introduction"
+   ],
+   [
+    "model",
+    "The bar chart compares how much coffee people in five countries drank per head in 2022, measured in kilograms per year."
+   ],
+   [
+    "h2",
+    "الخطوة 5 · الـ Overview"
+   ],
+   [
+    "model",
+    "Overall, the two Nordic countries consumed far more coffee than the other three, with Finland well ahead of every other nation and Japan at the bottom of the list."
+   ],
+   [
+    "h2",
+    "الخطوة 6 · الـ Body"
+   ],
+   [
+    "p",
+    "في graph الـ categories، رتّب الـ body حسب المجموعات: الفقرة 1 = المجموعة العليا، الفقرة 2 = الباقي. وفي كل مجموعة اذكر الترتيب والفروق."
+   ],
+   [
+    "model",
+    "Finland recorded the highest consumption by a clear margin, at 12 kg per person, followed by Norway with just under 10 kg. Between them, these two countries drank roughly twice as much coffee per head as any of the others.\n\nThe remaining three countries formed a distinct lower group. Brazil, despite being a major coffee producer, consumed 6.1 kg per person, about half the Finnish figure. The United States came next at 4.7 kg, while Japan had the lowest consumption of all, at 3.6 kg, less than a third of the amount in Finland."
+   ],
+   [
+    "p",
+    "(هنا عبارة \"despite being a major coffee producer\" معلومة عامة، وليست في الـ graph؛ حتى كتّاب Band 7 يُدخلون أحيانًا شيئًا كهذا. إذا أردت أن تكون في أمان، فاحذفها.)"
+   ],
+   [
+    "h2",
+    "المثال 2 — grouped bar (category × سنتان)"
+   ],
+   [
+    "ex",
+    "The chart shows how people in the city of Riverton travelled to work in 2000 and 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p033_1.png",
+    "How people travelled to work in Riverton, 2000 and 2020"
+   ],
+   [
+    "h2",
+    "الخطوات 1–3 · افهم وضع علامات"
+   ],
+   [
+    "ul",
+    [
+     "الوحدة: نسبة مئوية (من الـ commuters). سنتان → past tense، والمقارنة في اتجاهين: (a) بين وسائل النقل (modes) في السنة نفسها، (b) بين السنتين للوسيلة نفسها.",
+     "الـ Car هي الأكبر في السنتين، لكنها انخفضت كثيرًا (55 → 40). والـ Bus انخفض أيضًا (25 → 20).",
+     "الـ Train تضاعف أكثر من مرتين (10 → 22)، والـ bicycle تضاعف ثلاث مرات (4 → 12). الـ Walking لم يتغيّر (6).",
+     "القصة: المدينة ابتعدت عن السيارة الخاصة."
+    ]
+   ],
+   [
+    "h2",
+    "الخطوة 4 · الـ Introduction"
+   ],
+   [
+    "model",
+    "The bar chart compares the percentage of commuters in Riverton who used five different methods of transport to get to work in 2000 and in 2020."
+   ],
+   [
+    "h2",
+    "الخطوة 5 · الـ Overview"
+   ],
+   [
+    "model",
+    "Overall, the car remained the most popular way to travel to work in both years, but its share fell noticeably, while rail and cycling became far more common. Walking was the only mode that showed no change."
+   ],
+   [
+    "h2",
+    "الخطوة 6 · الـ Body — \"ما انخفض\" و\"ما ارتفع\""
+   ],
+   [
+    "model",
+    "In 2000, more than half of commuters (55%) drove to work, and a further quarter took the bus. By 2020 both of these figures had fallen, the car to 40% and the bus to 20%, although the car was still the leading choice.\n\nIn contrast, the share of people travelling by train or metro more than doubled, from 10% to 22%, making it the second most common mode in 2020. Cycling grew even faster in relative terms, tripling from 4% to 12%. Walking, meanwhile, stayed constant at 6% in both years."
+   ],
+   [
+    "h",
+    "لغة الـ bar graphs"
+   ],
+   [
+    "table",
+    [
+     "الغرض",
+     "كلمات / عبارات"
+    ],
+    [
+     [
+      "الترتيب",
+      "the most / least popular · the largest / smallest share · the highest / lowest figure · in first / second place · followed by · at the bottom · the only category to …"
+     ],
+     [
+      "النسبة",
+      "accounted for · made up · represented · a quarter / a third / half of · one in five"
+     ],
+     [
+      "التغيّر (grouped)",
+      "more than doubled · tripled · halved · fell by … percentage points · in relative terms · by comparison · the reverse was true for"
+     ],
+     [
+      "المقارنة",
+      "far higher than · slightly lower than · roughly the same as · twice as … as · X times more than · compared with · whereas · while"
+     ]
+    ]
+   ],
+   [
+    "note",
+    "**أخطاء شائعة في الـ bar graphs:** (1) وصف الأعمدة واحدًا واحدًا من اليسار إلى اليمين — بدلًا من ذلك كوّن مجموعات: الكبيرة، والصغيرة، والتي تغيّرت. (2) increased/decreased في chart لا يوجد فيه زمن. (3) نسيان الوحدة (نسبة مئوية؟ عدد؟ بالآلاف؟)."
+   ]
+  ]
+ },
+ {
+  "id": "t1_table",
+  "title": "Table — خطوة بخطوة",
+  "blocks": [
+   [
+    "p",
+    "يبدو الـ table سهلًا، لكنه غالبًا أصعب الأنواع — لأن الـ trend مخفيّ داخل الأرقام ولا يظهر أمامك بوضوح كما في الـ graph. عليك أن تجده بنفسك."
+   ],
+   [
+    "h2",
+    "كيف تقرأ الـ table (دقيقتان)"
+   ],
+   [
+    "ul",
+    [
+     "اقرأ العنوان، وأسماء الصفوف (row labels)، وأسماء الأعمدة (column labels)، والوحدة.",
+     "انظر إلى كل row من اليسار إلى اليمين: هل يرتفع، أم ينخفض، أم يبقى كما هو؟",
+     "انظر إلى كل column من الأعلى إلى الأسفل: أي row هو الأعلى، وأيها الأدنى؟",
+     "ضع علامات على: أكبر رقم، وأصغر رقم، والمجموع (total) إن وُجد، وأي row/column لا يتصرّف مثل الباقي.",
+     "حدّد المجموعات: الصفوف التي تتصرّف بالطريقة نفسها تذهب في الـ paragraph نفسها."
+    ]
+   ],
+   [
+    "ex",
+    "The table shows the number of international students (in thousands) studying in four countries in 2010, 2015 and 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p035_1.png",
+    "International students by host country (thousands)"
+   ],
+   [
+    "h2",
+    "الخطوات 1–3 · ضع علامات"
+   ],
+   [
+    "img",
+    "assets/writing/guide/p035_2.png",
+    "Marked: red = highest, green = lowest, yellow = exceptions"
+   ],
+   [
+    "p",
+    "الـ table بعد وضع العلامات: الأحمر = الأعلى، الأخضر = الأدنى، الأصفر = الاستثناءات"
+   ],
+   [
+    "ul",
+    [
+     "الـ USA هي الأكبر دائمًا، وقد ارتفعت (690 → 1,075) — وتجاوزت المليون في 2020.",
+     "الـ UK ارتفعت ببطء (400 → 550).",
+     "Australia هي الدولة الوحيدة التي انخفض فيها العدد (330 → 290)، ثم ارتفع بقوة (460).",
+     "Canada كانت الأصغر في البداية (95)، لكنها نمت أكثر من خمسة أضعاف (530) حتى كادت تساوي الـ UK.",
+     "كلها أعلى في 2020 مما كانت عليه في 2010."
+    ]
+   ],
+   [
+    "h2",
+    "الخطوة 4 · الـ Introduction"
+   ],
+   [
+    "model",
+    "The table gives the number of overseas students, in thousands, enrolled in the USA, the UK, Australia and Canada at five-year intervals between 2010 and 2020."
+   ],
+   [
+    "h2",
+    "الخطوة 5 · الـ Overview"
+   ],
+   [
+    "model",
+    "Overall, all four countries hosted more international students at the end of the decade than at the start. The USA remained by far the largest destination throughout, while Canada, though the smallest in 2010, showed the fastest growth of all."
+   ],
+   [
+    "h2",
+    "الخطوة 6 · الـ Body — مجموعات حسب السلوك"
+   ],
+   [
+    "p",
+    "الفقرة 1 = الدولتان الكبيرتان اللتان نمتا بثبات (USA، UK). الفقرة 2 = الدولتان اللتان خرجتا عن النمط (Australia، Canada)."
+   ],
+   [
+    "model",
+    "The USA attracted 690,000 foreign students in 2010, already more than the other three countries combined. This figure climbed to 975,000 in 2015 and passed one million (1,075,000) by 2020. The UK, in second place, grew more slowly, from 400,000 to 430,000 and then to 550,000.\n\nAustralia was the only country whose numbers fell, dropping from 330,000 to 290,000 between 2010 and 2015, before recovering strongly to 460,000. Canada, meanwhile, recorded the most dramatic rise: its total of just 95,000 in 2010 nearly doubled to 170,000 by 2015 and then tripled again to 530,000, almost level with the UK."
+   ],
+   [
+    "h",
+    "تقنيات الـ Table"
+   ],
+   [
+    "ul",
+    [
+     "حوّل الأرقام إلى علاقات: more than the other three combined · nearly doubled · almost level with · five times larger.",
+     "مع table صغير (4×3 = 12 رقمًا) ستحتاج إلى كل الأرقام تقريبًا؛ ومع table كبير (6×5 = 30) ستحتاج إلى 8–10 منها.",
+     "اذكر ما لا يتوافق مع النمط (the only country whose numbers fell) — الاستثناء دائمًا \"main feature\".",
+     "لا تكتب بترتيب الصفوف (من الأعلى إلى الأسفل) — اكتب بترتيب السلوك."
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "t1_pie",
+  "title": "Pie Chart — خطوة بخطوة",
+  "blocks": [
+   [
+    "p",
+    "الـ pie chart يُظهر أجزاء من كلّ. لذلك اللغة هنا ليست لغة الـ trends بل لغة النسبة (proportion)."
+   ],
+   [
+    "h2",
+    "لغة النسبة"
+   ],
+   [
+    "table",
+    [
+     "الغرض",
+     "phrase"
+    ],
+    [
+     [
+      "ذكر الحصة",
+      "X accounts for / makes up / represents / constitutes 40% of the total · X takes up a quarter"
+     ],
+     [
+      "الترتيب",
+      "the largest / smallest segment / share / proportion / category · the dominant use · a negligible 2%"
+     ],
+     [
+      "الكسور",
+      "half · just over / under half · a third · roughly a quarter · three-quarters · one in five · one in ten"
+     ],
+     [
+      "الباقي",
+      "the remaining 15% · the rest · together, A and B make up two-thirds · A and B combined"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "Pie chart واحد"
+   ],
+   [
+    "ex",
+    "The pie chart shows the composition of household waste in one city."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p037_1.png",
+    "Composition of household waste in one city"
+   ],
+   [
+    "p",
+    "عندما يكون هناك pie واحد فقط: انتقل من أكبر segment إلى أصغرها، واجمع الأجزاء الصغيرة معًا. الـ Overview = أي segment (أو segments) هو المسيطر. لا يوجد زمن، إذن present tense."
+   ],
+   [
+    "model",
+    "The pie chart shows what proportion of the waste produced by households in one city falls into each of six categories.\n\nOverall, food is by far the largest component, and food and paper together make up more than half of all household waste, whereas garden waste and miscellaneous items form only a small fraction.\n\nFood waste accounts for just over a third of the total (34%), and paper and cardboard for a further 22%. These two categories combined therefore represent 56% of everything that households throw away. Plastics are the third largest category, at 18%, or almost one in five items.\n\nThe remaining three categories are considerably smaller. Glass and metal together make up 12%, garden waste 9%, and other materials just 5%, the smallest share on the chart. In total, these three account for roughly a quarter of household waste."
+   ],
+   [
+    "p",
+    "(160 كلمة. لاحظ: لا توجد كلمة rose/fell واحدة؛ وبجانب كل رقم كسر أو مقارنة.)"
+   ],
+   [
+    "h2",
+    "اثنان أو أكثر من الـ pie charts — وهذا ما يأتي أكثر في الامتحان"
+   ],
+   [
+    "p",
+    "عادةً الشيء نفسه في سنتين أو في مكانين. عندها تكون المهمة كلها مقارنة الـ segment نفسه بين الـ pie الاثنين. وصف الـ pie 1 كله، ثم الـ pie 2 كله — هذه هي إجابة Band 5 التقليدية، لأنها لا تحتوي على أي مقارنة."
+   ],
+   [
+    "ex",
+    "The charts show how adults in one country spent their time online in 2015 and 2023."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p038_1.png",
+    "How adults spent their time online"
+   ],
+   [
+    "h2",
+    "الخطوات 1–3 · ضع علامات"
+   ],
+   [
+    "ul",
+    [
+     "الـ Entertainment (social media، video) ارتفع كثيرًا؛ والاستخدام للـ information والـ work انخفض كثيرًا.",
+     "أكبر segment تغيّر: في 2015 كان news (30%)، وفي 2023 social media (40%).",
+     "الـ Shopping ارتفع قليلًا (10 → 15)."
+    ]
+   ],
+   [
+    "h2",
+    "الخطوة 4 · الـ Introduction"
+   ],
+   [
+    "model",
+    "The two pie charts compare the proportion of online time that adults in one country devoted to five activities in 2015 and 2023."
+   ],
+   [
+    "h2",
+    "الخطوة 5 · الـ Overview"
+   ],
+   [
+    "model",
+    "Overall, internet use shifted strongly from information and work towards entertainment. Social media replaced news as the largest single activity, and together with video streaming it came to account for almost two-thirds of all online time by 2023."
+   ],
+   [
+    "h2",
+    "الخطوة 6 · الـ Body — \"ما ارتفع\" و\"ما انخفض\""
+   ],
+   [
+    "model",
+    "In 2015 social media took up a quarter of people's time online, but by 2023 this had risen to 40%, the largest share on either chart. Video streaming showed a similar pattern, growing from 15% to a quarter, and online shopping increased more modestly, from 10% to 15%.\n\nThe two remaining categories moved in the opposite direction. Reading news and looking for information, which had been the biggest activity in 2015 at 30%, fell to just 12% eight years later. The decline in email and work-related use was even steeper in relative terms, from a fifth of online time to only 8%."
+   ],
+   [
+    "note",
+    "**أخطاء شائعة في الـ pie charts:**\n▸ \"The pie chart increased\" — الـ pie لا يكبر؛ الذي يكبر هو **share** الـ **segment**.\n▸ قول \"which was 100%\" أو جمع الـ segments لإثبات المجموع.\n▸ rose/fell في pie واحد (بلا مقارنة زمنية) — اكتب is the largest، accounts for.\n▸ الـ Percentage point: من 25% إلى 40% هو \"a rise of 15 percentage points\"، وليس \"15 percent\".\n▸ pie كامل، ثم الـ pie الآخر كاملًا — قارن دائمًا بين الـ pie الاثنين segment بعد segment."
+   ]
+  ]
+ },
+ {
+  "id": "t1_combination",
+  "title": "Combination — نوعان مختلفان من الـ visuals معًا",
+  "blocks": [
+   [
+    "p",
+    "أحيانًا يُعطى لك visual اثنان — مثلًا bar chart (الأعداد الكلية) و pie chart (التوزيع في سنة واحدة)، أو map + table. القواعد:"
+   ],
+   [
+    "ul",
+    [
+     "الـ introduction يغطي الـ visual الاثنين، في جملة أو جملتين.",
+     "الـ overview يعطي main point واحدة من كل visual.",
+     "body paragraph واحدة لكل visual. قارن داخل الـ visual نفسه؛ ولا تقارن بين الـ visual الاثنين — إلا إذا كان السؤال نفسه يربطهما (مثلًا الـ pie هو توزيع السنة الأخيرة في الـ bar chart — عندها يمكنك الربط بينهما).",
+     "أعطِ الاثنين عدد كلمات متقاربًا. كثير من الطلاب يصرفون كل شيء على الـ visual الأول ويكتبون سطرين عن الثاني."
+    ]
+   ],
+   [
+    "ex",
+    "The bar chart shows the number of visitors to the National Science Museum from 2015 to 2020, and the pie chart shows where these visitors came from in 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p040_1.png",
+    "Visitors to the National Science Museum · Where 2020 visitors came from"
+   ],
+   [
+    "h2",
+    "الخطوات 1–3"
+   ],
+   [
+    "ul",
+    [
+     "الـ Bar: ارتفع خمس سنوات متتالية (420 → 600)، ثم انهيار في 2020 (210 — ثلث 2019).",
+     "الـ Pie: من زوار 2020، 55% محليون، و30% من أماكن أخرى في البلد، و15% أجانب → 85% من داخل البلد.",
+     "الـ visual الاثنان مرتبطان (الـ pie = bar سنة 2020)، لذلك يمكنك أن تقول \"of those 210,000…\"."
+    ]
+   ],
+   [
+    "h2",
+    "الإجابة الكاملة (172 كلمة)"
+   ],
+   [
+    "model",
+    "The bar chart records annual attendance at the National Science Museum from 2015 to 2020, while the pie chart shows the breakdown of the 2020 audience by place of origin.\n\nOverall, five consecutive years of growth were abruptly reversed in 2020, when visitor numbers fell to their lowest level of the period. That diminished audience was overwhelmingly domestic, with residents of the host city alone accounting for more than half of all visits.\n\nAttendance rose without interruption from 420,000 in 2015 to 600,000 in 2019, a cumulative increase of 43%. Growth was most rapid in the middle of the period, with gains of around 50,000 to 60,000 a year in 2017 and 2018, before slowing slightly in 2019. The following year saw a dramatic collapse to 210,000, roughly a third of the 2019 peak and half the 2015 starting figure.\n\nOf these visitors, 55% were local and a further 30% travelled from other parts of the country, meaning that domestic visitors made up 85% of the total. International tourists represented the remaining 15%, equivalent to a little over 30,000 people."
+   ],
+   [
+    "p",
+    "لاحظ الفقرة الأخيرة: 15% × 210,000 ≈ 31,500 — تم ربط الـ visual الاثنين بشكل صحيح لأن الـ pie يخص السنة نفسها. لكن لا يمكنك أن تكتب \"Local visitors increased\" — لا يوجد pie لسنة 2015، إذن لا توجد بيانات للمقارنة. لا تكتب أبدًا ما ليس في الـ chart؛ وعبارة \"probably because of the pandemic\" — هذه opinion، وهي ممنوعة."
+   ],
+   [
+    "h",
+    "قائمة مراجعة Bar · Table · Pie · Combination"
+   ],
+   [
+    "ul",
+    [
+     "قرّرت: مقارنة أم trend (أم الاثنان)؟",
+     "قبل الكتابة، وضعت علامات على الأعلى، والأدنى، وأكبر تغيّر، والاستثناءات.",
+     "الـ Overview فيه الأول (leader) والـ main pattern، بدون أرقام.",
+     "رتّبت البيانات حسب السلوك، لا بترتيب القراءة.",
+     "حيثما أمكن، عبّرت عن الأرقام كعلاقات (double، a third، level with).",
+     "الـ Pie: قارنت الـ pies segment بعد segment؛ كلمات النسبة؛ rose/fell فقط للمقارنات عبر الزمن.",
+     "الـ Combination: لكل visual فقرته الخاصة؛ المقارنة بينهما (cross-comparison) فقط إذا ربطهما السؤال؛ الكلمات موزّعة بالتساوي.",
+     "لا opinion، ولا معلومات من خارج الـ chart."
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "t1_process",
+  "title": "الجزء C — Flow Chart (Process) · Cycle · Diagram",
+  "blocks": [
+   [
+    "p",
+    "هذه الأنواع ليس فيها أرقام. إذن ليس فيها trend أيضًا. هنا تصف المراحل (process)، أو الأجزاء وكيف ترتبط ببعضها (diagram)، أو التغيّرات في مكان ما (map). قالب الفقرات هو نفسه: introduction → overview → body paragraph اثنتان."
+   ],
+   [
+    "h",
+    "Flow Chart / Process — خطوة بخطوة"
+   ],
+   [
+    "h2",
+    "إلى ماذا تنظر أولًا"
+   ],
+   [
+    "ul",
+    [
+     "كم عدد المراحل (stages)؟ أين تبدأ، وأين تنتهي؟",
+     "Linear (بداية → نهاية) أم cycle (النهاية تعود إلى البداية)؟",
+     "Man-made (عملية في مصنع) أم natural (دورة الماء، دورة حياة حيوان)؟",
+     "هل توجد أقسام (segments) واضحة؟ إذا وُجدت، فكل قسم body paragraph واحدة.",
+     "أي الـ labels هي nouns ويجب تحويلها إلى verbs؟ (\"crushing\" → is crushed)"
+    ]
+   ],
+   [
+    "h2",
+    "اللغة"
+   ],
+   [
+    "table",
+    [
+     "الموضوع",
+     "القاعدة / الكلمات"
+    ],
+    [
+     [
+      "Tense",
+      "Present simple (عادةً لا توجد سنوات)."
+     ],
+     [
+      "Voice",
+      "Man-made process → passive (the beans are roasted). Natural process → active (water evaporates)."
+     ],
+     [
+      "Sequencer",
+      "First / To begin with · Next · Then · After that · Once this is complete · At the following stage · Subsequently · Meanwhile · In the final stage · Finally"
+     ],
+     [
+      "Process verb",
+      "is collected, sorted, cleaned, washed, mixed, heated, cooled, pressed, dried, cut, packed, transported, stored, filtered, separated · is converted into · passes through · is fed into · is removed / added"
+     ],
+     [
+      "Purpose",
+      "in order to · so that · which allows / enables … to …"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "مثال — linear، man-made"
+   ],
+   [
+    "ex",
+    "The diagram shows how olive oil is produced."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p043_1.png",
+    "How olive oil is produced"
+   ],
+   [
+    "h2",
+    "الخطوات 1–3 · افهم"
+   ],
+   [
+    "ul",
+    [
+     "9 مراحل، linear (harvesting → bottling)، man-made، إذن passive + present.",
+     "التقسيم الطبيعي: المراحل 1–5 = تحضير الزيتون وسحقه؛ المراحل 6–9 = فصل الزيت وتعبئته. → body paragraph اثنتان.",
+     "من الـ label إلى الـ verb: harvesting → are harvested؛ washing → are washed؛ crushing → are crushed؛ mixing → is stirred؛ bottling → is bottled."
+    ]
+   ],
+   [
+    "h2",
+    "الخطوة 4 · الـ Introduction"
+   ],
+   [
+    "p",
+    "في introduction الـ process، قل: ماذا يُنتَج / كيف يعمل + كم عدد المراحل."
+   ],
+   [
+    "model",
+    "The diagram illustrates the nine stages involved in turning freshly picked olives into bottled olive oil."
+   ],
+   [
+    "h2",
+    "الخطوة 5 · الـ Overview"
+   ],
+   [
+    "p",
+    "في الـ overview: linear أم cycle، natural أم man-made، كم عدد المراحل الرئيسية (phases)، وما البداية وما النهاية."
+   ],
+   [
+    "model",
+    "Overall, this is a linear, man-made process in three main phases: the olives are first cleaned, then crushed and mixed to release the oil, and finally the oil is separated, filtered and packaged."
+   ],
+   [
+    "h2",
+    "الخطوة 6 · الـ Body — اتبع الأسهم"
+   ],
+   [
+    "model",
+    "The process begins when olives are harvested from the trees between October and December. Any leaves and twigs are removed, and the fruit is washed. The clean olives are then crushed into a thick paste, which is stirred slowly for about thirty minutes so that the tiny drops of oil combine into larger ones.\n\nNext, the paste is placed in a centrifuge, which spins it at high speed to separate the oil from the water and solid matter. The oil that comes out is filtered to remove any remaining particles and stored in stainless steel tanks. In the final stage, it is poured into bottles, ready for sale."
+   ],
+   [
+    "p",
+    "(163 كلمة مع الـ intro/overview. لاحظ: كل مرحلة بصيغة passive؛ تنوّع في الـ sequencers — begins when، then، which، next، in the final stage؛ عبارة \"so that the tiny drops…\" — يمكنك كتابتها إذا كانت في الـ labels الخاصة بالـ diagram، وليس إذا لم تكن.)"
+   ],
+   [
+    "note",
+    "**أخطاء شائعة في الـ process:**\n▸ إضافة معلومات ليست في الـ diagram (أي درجة حرارة، كم من الوقت) — فقط إذا كانت في label.\n▸ شرح سبب حدوث مرحلة ما، إذا كان الـ diagram لا يذكره.\n▸ كلمات الـ trend (increase، decrease) — لا توجد أرقام.\n▸ \"Then… Then… Then…\" — نوّع الـ sequencers.\n▸ حذف الـ overview — اذكر عدد المراحل، والبداية، والنهاية، وهل هي cycle."
+   ],
+   [
+    "h",
+    "Cycle — دورة حياة أو دورة طبيعية"
+   ],
+   [
+    "p",
+    "الـ cycle ليس له \"بداية\" حقيقية. لذلك اختر نقطة بداية منطقية (التبخّر في دورة الماء؛ البيضة في حالة الحشرة)، وقل بوضوح إنها cycle، واربط المرحلة الأخيرة بالأولى. Natural process → active voice، present simple."
+   ],
+   [
+    "ex",
+    "The diagram shows the life cycle of a butterfly."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p045_1.png",
+    "Life cycle of a butterfly"
+   ],
+   [
+    "h2",
+    "الإجابة الكاملة (158 كلمة)"
+   ],
+   [
+    "model",
+    "The diagram illustrates the four stages in the life of a butterfly, from egg to adult.\n\nOverall, this is a natural, continuous cycle in which an egg develops through a feeding stage and a resting stage into an adult insect, which in turn produces new eggs, so the process never ends.\n\nThe cycle begins when an adult butterfly lays its eggs on the leaf of a plant. After a few days, a caterpillar hatches from each egg and spends the following two to three weeks eating leaves and growing rapidly. Once it is fully grown, the caterpillar attaches itself to a stem and forms a hard protective case known as a chrysalis.\n\nInside this case, over a period of roughly two weeks, the insect's body is completely transformed. Eventually an adult butterfly breaks out of the chrysalis. Finally, the adult finds a mate and lays eggs of its own on a fresh leaf, and the cycle begins again."
+   ],
+   [
+    "p",
+    "لاحظ: active voice (lays، hatches، spends، attaches، breaks out)؛ العودة إلى البداية بعبارة \"and the cycle begins again\"؛ المعلومات الزمنية (two to three weeks، two weeks) مأخوذة من الـ labels الخاصة بالـ diagram."
+   ],
+   [
+    "h",
+    "Diagram — كيف يعمل شيء ما"
+   ],
+   [
+    "p",
+    "الـ diagram يُظهر أجزاء آلة أو نظام وكيف ترتبط ببعضها. إنه مثل الـ process تمامًا، لكن إلى جانب الترتيب عليك أن تذكر الموقع أيضًا."
+   ],
+   [
+    "h2",
+    "لغة الأجزاء والموقع"
+   ],
+   [
+    "table",
+    [
+     "الغرض",
+     "phrase"
+    ],
+    [
+     [
+      "البنية",
+      "consists of · is made up of · comprises · has three main parts"
+     ],
+     [
+      "الاتصال",
+      "is attached to · is connected to · is linked to · is mounted on · is fitted with · runs from … to …"
+     ],
+     [
+      "الموقع",
+      "is located above / below / beside / inside / on top of · at the base of · to the left / right of · in the centre"
+     ],
+     [
+      "التدفّق",
+      "flows through · passes through · enters / exits at · is fed into · is pumped / carried / channelled to · rises / falls"
+     ],
+     [
+      "الوظيفة",
+      "which allows … to · so that · in order to · this prevents / ensures …"
+     ]
+    ]
+   ],
+   [
+    "ex",
+    "The diagram shows how a rainwater harvesting system works in a school."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p046_1.png",
+    "Rainwater harvesting system for a school"
+   ],
+   [
+    "h2",
+    "الخطوات 1–3 · افهم"
+   ],
+   [
+    "ul",
+    [
+     "الأجزاء: roof → gutter → downpipe (leaf filter) → first-flush diverter → underground tank (10,000 L) → pump → overhead tank → toilets & garden taps؛ overflow pipe → drain.",
+     "هناك ترتيب يتبع مسار الماء، لذلك نكتبه مثل الـ process؛ بالإضافة إلى مكان كل شيء (underground، overhead، on the roof).",
+     "body paragraph اثنتان: (1) الجمع والتنظيف (roof → tank)، (2) التخزين والاستخدام (tank → taps)."
+    ]
+   ],
+   [
+    "h2",
+    "الإجابة الكاملة (170 كلمة)"
+   ],
+   [
+    "model",
+    "The diagram illustrates the components of a rainwater collection system installed at a school and shows how rain falling on the roof is stored and reused.\n\nOverall, water is collected from the roof, cleaned in two stages, stored in an underground tank and then pumped to a rooftop tank, from which it supplies the school's toilets and garden taps.\n\nRain that lands on the sloping roof runs into a gutter along its edge and then down a vertical pipe fitted with a filter that catches leaves. Below this, a device known as a first-flush diverter sends the first, dirtiest water to the drain and allows the rest to continue into a 10,000-litre tank buried underground.\n\nWhen water is needed, an electric pump located beside the tank lifts it through a pipe to a smaller tank on the roof of the building. From there it flows by gravity to the toilets and the garden taps. If the underground tank becomes full, an overflow pipe carries the excess water to the drain."
+   ],
+   [
+    "p",
+    "إذا كان في المهمة تصميمان (مثلًا نوعان من الجسور أو نوعان من الأساسات)، فصف كل واحد باختصار ثم قارن بينهما — وتكون الفروق عندها هي الـ main feature."
+   ]
+  ]
+ },
+ {
+  "id": "t1_map",
+  "title": "Map — خطوة بخطوة",
+  "blocks": [
+   [
+    "h2",
+    "ثلاثة أنواع من مهام الـ map"
+   ],
+   [
+    "table",
+    [
+     "النوع",
+     "المهمة",
+     "الـ Tense"
+    ],
+    [
+     [
+      "المكان نفسه في زمنين (الأكثر شيوعًا)",
+      "صف التغيّرات",
+      "Past (was built)، أو present perfect (has been built) إذا كانت الـ map الثانية \"today/now\""
+     ],
+     [
+      "الوضع الحالي + خطة مقترحة",
+      "ما الموجود الآن، وما الذي سيحدث حسب الخطة",
+      "Present + future (will be / is to be / is going to be built)"
+     ],
+     [
+      "موقعان محتملان (site A، site B)",
+      "قارن مزايا الموقعين (المسافة، سهولة الوصول، الحجم)",
+      "Present"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "طريقة العمل"
+   ],
+   [
+    "ul",
+    [
+     "ابحث عن البوصلة (compass) (عادةً الشمال في الأعلى). ابحث عن معالم (landmarks) تظهر في الـ map الاثنتين (نهر، الطريق الرئيسي) — تحتاج إليها لتحديد الاتجاهات.",
+     "اكتب قائمة: ما الذي اختفى، وما الجديد، وما الذي تغيّر في الحجم أو الاستخدام، وما الذي لم يتغيّر.",
+     "اجمع التغيّرات في مجموعات: حسب المنطقة (شمال/جنوب، وسط/أطراف) أو حسب النوع (سكن، نقل، مساحات خضراء).",
+     "الـ Overview = الطابع العام للتغيّر: more built-up / larger / more modern / farmland turned into housing / expanded eastwards."
+    ]
+   ],
+   [
+    "h",
+    "لغة الـ maps"
+   ],
+   [
+    "table",
+    [
+     "الغرض",
+     "كلمات / عبارات"
+    ],
+    [
+     [
+      "أفعال التغيّر (passive، past)",
+      "was built / constructed / added / extended / enlarged / expanded · was demolished / removed / knocked down / cleared / cut down · was replaced by / converted into / turned into / redeveloped as · was relocated / moved to"
+     ],
+     [
+      "الموقع",
+      "in the north-east corner · along the river / coast · on the western edge · on the outskirts · adjacent to · next to · opposite · in the centre · on the site of the old … · to the south of · running from north to south · across the road from"
+     ],
+     [
+      "ما لم يتغيّر",
+      "remained / was retained / was kept / stayed in place / was unchanged / still exists"
+     ],
+     [
+      "الحجم",
+      "doubled in size · was reduced by half · now covers … · a much larger …"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "مثال — المكان نفسه في زمنين"
+   ],
+   [
+    "ex",
+    "The maps show the coastal town of Seabrook in 1980 and today."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p049_1.png",
+    "Seabrook, 1980 · Seabrook, today"
+   ],
+   [
+    "h2",
+    "الخطوات 1–3 · قائمة التغيّرات"
+   ],
+   [
+    "table",
+    [
+     "اختفى",
+     "جديد",
+     "تغيّر",
+     "لم يتغيّر"
+    ],
+    [
+     [
+      "farmland (في الجنوب)؛ نصف الـ forest",
+      "hotels (على الـ beach)؛ housing estate؛ shopping centre؛ ring road؛ golf course؛ ferry terminal",
+      "الـ harbour توسّع؛ الـ school تضاعف حجمها",
+      "main road؛ houses؛ beach؛ باقي الـ forest"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "المجموعات: (1) الساحل والميناء (الشرق/الشمال الشرقي)، (2) الجنوب والوسط. الـ Overview: قرية صيد صغيرة → مدينة سياحية وسكنية كبيرة؛ الطريق الرئيسي والبيوت القديمة باقية."
+   ],
+   [
+    "h2",
+    "الإجابة الكاملة (186 كلمة)"
+   ],
+   [
+    "model",
+    "The two maps show how the coastal town of Seabrook has developed since 1980.\n\nOverall, the town has grown from a small fishing settlement into a much larger tourist and residential centre. Most of the change has taken place along the coast and on the former farmland to the south, while the original main road and the houses beside it have been kept.\n\nThe greatest transformation is along the eastern shore. The beach, which in 1980 was undeveloped, is now lined with hotels, and the fishing harbour in the north-east has been extended to include a ferry terminal.\n\nSouth of the main road, the farmland has disappeared completely and has been replaced by a housing estate and a shopping centre, served by a new ring road that curves around the southern edge of the town. In the south-west, about half of the forest has been cut down to make way for a golf course. In the centre, the school has been enlarged to roughly twice its original size, but the original houses along the main road remain as they were."
+   ],
+   [
+    "p",
+    "لاحظ: (1) الـ map الخاصة بسنة 1980 لا تُوصف وحدها — التغيّرات فقط؛ (2) اتجاه في كل جملة (eastern shore، north-east، south of، south-west، in the centre)؛ (3) present perfect بسبب \"today\" (has been extended، has disappeared)؛ (4) الأشياء التي لم تتغيّر مذكورة أيضًا."
+   ],
+   [
+    "note",
+    "**أخطاء شائعة في الـ maps:**\n▸ الـ map 1 كلها، ثم الـ map 2 كلها — هذان جردان (inventories)، وليسا مقارنة.\n▸ الـ Tense: map من الماضي → past؛ خطة → future (will be built / is to be built).\n▸ عدم ذكر الاتجاهات — عندما يقرأ القارئ \"there is a school and a road\" لا يفهم شيئًا.\n▸ نسيان الأشياء التي لم تتغيّر — \"ما بقي كما هو\" جزء من الـ overview.\n▸ \"The town developed because tourists came\" — السبب ليس في الـ chart؛ إنه opinion."
+   ],
+   [
+    "h",
+    "قائمة مراجعة Process · Cycle · Diagram · Map"
+   ],
+   [
+    "ul",
+    [
+     "الـ Process: عدد المراحل، البداية والنهاية، linear/cycle — في الـ overview.",
+     "الـ Process: present simple؛ man-made → passive، natural → active؛ تنوّع في الـ sequencers.",
+     "الـ Diagram: أسماء الأجزاء، الموقع، ترتيب التدفّق.",
+     "الـ Map: التغيّرات (وليس جردين)؛ اتجاهات البوصلة؛ اذكر الأشياء التي لم تتغيّر.",
+     "لم أُضِف شيئًا ليس في الـ visual؛ لا opinion.",
+     "150–190 كلمة، 20 دقيقة."
+    ]
+   ],
+   [
+    "p",
+    "هذا الجزء يُكمل كل أنواع Task 1. في الفصل التالي: إجابات Band 5 و6 و7 و8 كتبها طلاب لكل نوع، مع المناقشة."
+   ]
+  ]
+ },
+ {
+  "id": "t1_sample_lessons",
+  "title": "الدروس الأساسية من الفصل 3 — كل الأنواع معًا",
+  "blocks": [
+   [
+    "table",
+    [
+     "علامات Band 5",
+     "علامات Band 6",
+     "علامات Band 7",
+     "علامات Band 8"
+    ],
+    [
+     [
+      "Introduction منسوخة · لا overview، أو overview في النهاية · data dump / inventory · \"There is\" / \"Then\" مرة بعد مرة · opinion أو تخمين · أخطاء في الـ agreement والـ passive",
+      "Paraphrase · الـ overview موجود · معلومات دقيقة · كلمات عادية · الـ connectives صحيحة لكنها آلية · أخطاء قليلة، range محدود · تعليق في مكان ما",
+      "Pattern في الـ overview · الأرقام كنسب · الفقرات حسب المجموعة/المنطقة · كلمات دقيقة · جمل معقدة صحيحة · زلّة نادرة (تخمين واحد)",
+      "Synthesis · كل رقم/جزء داخل مقارنة · ربط غير ملحوظ · collocation بلا عيب · بلا أخطاء"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "الفصل التالي: Writing Task 2."
+   ]
+  ]
+ }
+]

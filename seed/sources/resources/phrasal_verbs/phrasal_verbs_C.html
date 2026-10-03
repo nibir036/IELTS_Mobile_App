@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phrasal Verbs C</title>
+<style>
+  :root{--bg:#f6f5fb;--card:#fff;--ink:#1c1830;--muted:#6b6580;--accent:#5C3E94;--accent2:#008080;--line:#e7e3f2;--row:#faf9fe}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141026;--card:#1e1836;--ink:#efecf7;--muted:#a49dbd;--accent:#b9a3ea;--accent2:#4bc0c0;--line:#2c2447;--row:#241d40}}
+  :root[data-theme="dark"]{--bg:#141026;--card:#1e1836;--ink:#efecf7;--muted:#a49dbd;--accent:#b9a3ea;--accent2:#4bc0c0;--line:#2c2447;--row:#241d40}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45;padding:20px 16px 60px}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-size:1.4rem;margin:0 0 4px;color:var(--accent)}
+  .sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+  .search{width:100%;padding:11px 14px;font-size:1rem;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);margin-bottom:8px}
+  .search::placeholder{color:var(--muted)}
+  .count{font-size:.82rem;color:var(--muted);margin-bottom:10px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  thead th{position:sticky;top:0;background:var(--accent);color:#fff;font-size:.8rem;text-align:left;padding:9px 12px;font-weight:600;z-index:2}
+  tbody td{padding:9px 12px;border-top:1px solid var(--line);font-size:.9rem;vertical-align:top}
+  tbody tr:nth-child(even){background:var(--row)}
+  .pv{font-weight:700;color:var(--accent);white-space:nowrap}
+  .mean{color:var(--ink)}
+  .ex{color:var(--muted);font-style:italic}
+  .ex b{font-style:normal;color:var(--accent2);font-weight:600}
+  @media(max-width:640px){.ex,thead th.h-ex{display:none}}
+  .noshow{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Phrasal Verbs — C</h1>
+<p class="sub">Module 3, part 2 · phrasal verb · meaning · example. Grouped by base verb; distinct senses listed separately. 150 entries.</p>
+<input id="q" class="search" type="search" placeholder="Search a phrasal verb or meaning — e.g. carry out, come up with…" autocomplete="off">
+<div class="count" id="count"></div>
+<table>
+<thead><tr><th>Phrasal verb</th><th>Meaning</th><th class="h-ex">Example</th></tr></thead>
+<tbody id="tb">
+<tr><td class="pv">call around</td><td class="mean">to phone several people</td><td class="ex">I'll <b>call around</b> to find a venue.</td></tr>
+<tr><td class="pv">call back</td><td class="mean">to return a phone call</td><td class="ex">I'll <b>call</b> you <b>back</b> in five minutes.</td></tr>
+<tr><td class="pv">call for</td><td class="mean">to require or demand</td><td class="ex">The situation <b>calls for</b> calm.</td></tr>
+<tr><td class="pv">call in</td><td class="mean">to summon or request a visit</td><td class="ex">They <b>called in</b> an expert.</td></tr>
+<tr><td class="pv">call off</td><td class="mean">to cancel</td><td class="ex">They <b>called off</b> the wedding.</td></tr>
+<tr><td class="pv">call on</td><td class="mean">to visit; to appeal to someone to act</td><td class="ex">The PM <b>called on</b> citizens to stay calm.</td></tr>
+<tr><td class="pv">call out</td><td class="mean">to shout; to publicly challenge</td><td class="ex">She <b>called out</b> his dishonesty.</td></tr>
+<tr><td class="pv">call up</td><td class="mean">to telephone; to summon to a team</td><td class="ex">He was <b>called up</b> for the national side.</td></tr>
+<tr><td class="pv">calm down</td><td class="mean">to become less agitated</td><td class="ex">Take a breath and <b>calm down</b>.</td></tr>
+<tr><td class="pv">care for</td><td class="mean">to look after; to like</td><td class="ex">She <b>cares for</b> her elderly father.</td></tr>
+<tr><td class="pv">carry on</td><td class="mean">to continue</td><td class="ex">Please <b>carry on</b> with your work.</td></tr>
+<tr><td class="pv">carry out</td><td class="mean">to perform or complete a task</td><td class="ex">They <b>carried out</b> a survey.</td></tr>
+<tr><td class="pv">carry off</td><td class="mean">to succeed at something difficult</td><td class="ex">She <b>carried off</b> the role brilliantly.</td></tr>
+<tr><td class="pv">carry over</td><td class="mean">to continue into another time or place</td><td class="ex">The debate <b>carried over</b> into the evening.</td></tr>
+<tr><td class="pv">carry through</td><td class="mean">to complete despite difficulty</td><td class="ex">They <b>carried</b> the plan <b>through</b>.</td></tr>
+<tr><td class="pv">cash in</td><td class="mean">to exchange for money</td><td class="ex">He <b>cashed in</b> his shares.</td></tr>
+<tr><td class="pv">cash in on</td><td class="mean">to exploit for profit</td><td class="ex">They <b>cashed in on</b> the trend.</td></tr>
+<tr><td class="pv">catch on</td><td class="mean">to become popular; to understand</td><td class="ex">The idea quickly <b>caught on</b>.</td></tr>
+<tr><td class="pv">catch out</td><td class="mean">to trick or expose someone</td><td class="ex">The tricky question <b>caught</b> me <b>out</b>.</td></tr>
+<tr><td class="pv">catch up</td><td class="mean">to reach the same level or point</td><td class="ex">I ran to <b>catch up</b> with them.</td></tr>
+<tr><td class="pv">catch up on</td><td class="mean">to do something overdue</td><td class="ex">I need to <b>catch up on</b> sleep.</td></tr>
+<tr><td class="pv">catch up with</td><td class="mean">(of consequences) to start to affect</td><td class="ex">The late nights <b>caught up with</b> him.</td></tr>
+<tr><td class="pv">chase up</td><td class="mean">to pursue someone for a response</td><td class="ex">I'll <b>chase up</b> the invoice.</td></tr>
+<tr><td class="pv">chase after</td><td class="mean">to pursue</td><td class="ex">The dog <b>chased after</b> the ball.</td></tr>
+<tr><td class="pv">chat up</td><td class="mean">to talk flirtatiously to</td><td class="ex">He tried to <b>chat</b> her <b>up</b>.</td></tr>
+<tr><td class="pv">check in</td><td class="mean">to register at a hotel or airport</td><td class="ex">We <b>checked in</b> two hours early.</td></tr>
+<tr><td class="pv">check out</td><td class="mean">to leave a hotel after paying</td><td class="ex">We must <b>check out</b> by eleven.</td></tr>
+<tr><td class="pv">check out</td><td class="mean">to investigate or look at</td><td class="ex"><b>Check out</b> this new café.</td></tr>
+<tr><td class="pv">check up on</td><td class="mean">to investigate someone's behaviour</td><td class="ex">He's always <b>checking up on</b> me.</td></tr>
+<tr><td class="pv">check over</td><td class="mean">to examine carefully</td><td class="ex">The doctor <b>checked</b> me <b>over</b>.</td></tr>
+<tr><td class="pv">check off</td><td class="mean">to tick items on a list</td><td class="ex">She <b>checked off</b> each name.</td></tr>
+<tr><td class="pv">cheer on</td><td class="mean">to encourage with shouts</td><td class="ex">Fans <b>cheered</b> the team <b>on</b>.</td></tr>
+<tr><td class="pv">cheer up</td><td class="mean">to become or make happier</td><td class="ex">The good news <b>cheered</b> me <b>up</b>.</td></tr>
+<tr><td class="pv">chew over</td><td class="mean">to think carefully about</td><td class="ex">Let me <b>chew over</b> the offer.</td></tr>
+<tr><td class="pv">chew out</td><td class="mean">to scold angrily</td><td class="ex">The boss <b>chewed</b> him <b>out</b>.</td></tr>
+<tr><td class="pv">chicken out</td><td class="mean">to withdraw through fear</td><td class="ex">He <b>chickened out</b> at the last moment.</td></tr>
+<tr><td class="pv">chill out</td><td class="mean">to relax</td><td class="ex">Just <b>chill out</b> and enjoy it.</td></tr>
+<tr><td class="pv">chip in</td><td class="mean">to contribute money or an opinion</td><td class="ex">Everyone <b>chipped in</b> for the gift.</td></tr>
+<tr><td class="pv">chip away at</td><td class="mean">to reduce gradually</td><td class="ex">Doubts <b>chipped away at</b> her confidence.</td></tr>
+<tr><td class="pv">chop down</td><td class="mean">to fell by cutting</td><td class="ex">They <b>chopped down</b> the old oak.</td></tr>
+<tr><td class="pv">chop up</td><td class="mean">to cut into pieces</td><td class="ex"><b>Chop up</b> the onions finely.</td></tr>
+<tr><td class="pv">clam up</td><td class="mean">to become silent, especially from nerves</td><td class="ex">He <b>clammed up</b> when questioned.</td></tr>
+<tr><td class="pv">clamp down on</td><td class="mean">to act strictly to stop something</td><td class="ex">Police <b>clamped down on</b> speeding.</td></tr>
+<tr><td class="pv">clean out</td><td class="mean">to clean thoroughly; to empty</td><td class="ex">I <b>cleaned out</b> the garage.</td></tr>
+<tr><td class="pv">clean up</td><td class="mean">to tidy; to make a large profit</td><td class="ex">Please <b>clean up</b> after the party.</td></tr>
+<tr><td class="pv">clear off</td><td class="mean">to go away (informal)</td><td class="ex">He told them to <b>clear off</b>.</td></tr>
+<tr><td class="pv">clear out</td><td class="mean">to remove unwanted things; to leave</td><td class="ex">I <b>cleared out</b> the old files.</td></tr>
+<tr><td class="pv">clear up</td><td class="mean">to tidy; to resolve; (weather) to improve</td><td class="ex">Let's <b>clear up</b> this misunderstanding.</td></tr>
+<tr><td class="pv">climb down</td><td class="mean">to admit one was wrong</td><td class="ex">The minister had to <b>climb down</b>.</td></tr>
+<tr><td class="pv">cling to</td><td class="mean">to hold tightly to; to refuse to give up</td><td class="ex">She <b>clung to</b> the hope of a cure.</td></tr>
+<tr><td class="pv">clock in</td><td class="mean">to record one's arrival at work</td><td class="ex">We <b>clock in</b> at nine.</td></tr>
+<tr><td class="pv">clock off</td><td class="mean">to record one's departure from work</td><td class="ex">She <b>clocked off</b> early.</td></tr>
+<tr><td class="pv">clock up</td><td class="mean">to accumulate (miles, hours)</td><td class="ex">He <b>clocked up</b> 200 miles.</td></tr>
+<tr><td class="pv">close down</td><td class="mean">to shut permanently</td><td class="ex">The factory <b>closed down</b> last year.</td></tr>
+<tr><td class="pv">close in</td><td class="mean">to approach and surround</td><td class="ex">The fog <b>closed in</b> around us.</td></tr>
+<tr><td class="pv">close off</td><td class="mean">to block access to</td><td class="ex">They <b>closed off</b> the bridge.</td></tr>
+<tr><td class="pv">cloud over</td><td class="mean">to become covered with clouds</td><td class="ex">The sky <b>clouded over</b> by noon.</td></tr>
+<tr><td class="pv">clown around</td><td class="mean">to behave in a silly way</td><td class="ex">Stop <b>clowning around</b> and focus.</td></tr>
+<tr><td class="pv">come about</td><td class="mean">to happen or occur</td><td class="ex">How did this <b>come about</b>?</td></tr>
+<tr><td class="pv">come across</td><td class="mean">to find by chance</td><td class="ex">I <b>came across</b> an old photo.</td></tr>
+<tr><td class="pv">come across</td><td class="mean">to give a particular impression</td><td class="ex">She <b>comes across</b> as confident.</td></tr>
+<tr><td class="pv">come along</td><td class="mean">to make progress; to arrive</td><td class="ex">The project is <b>coming along</b> nicely.</td></tr>
+<tr><td class="pv">come apart</td><td class="mean">to break into pieces</td><td class="ex">The book <b>came apart</b> in my hands.</td></tr>
+<tr><td class="pv">come around</td><td class="mean">to regain consciousness</td><td class="ex">He slowly <b>came around</b> after fainting.</td></tr>
+<tr><td class="pv">come around</td><td class="mean">to change one's opinion</td><td class="ex">She <b>came around</b> to our idea.</td></tr>
+<tr><td class="pv">come back</td><td class="mean">to return</td><td class="ex">Please <b>come back</b> soon.</td></tr>
+<tr><td class="pv">come by</td><td class="mean">to obtain, especially with difficulty</td><td class="ex">Good staff are hard to <b>come by</b>.</td></tr>
+<tr><td class="pv">come down</td><td class="mean">to fall or decrease</td><td class="ex">Prices have <b>come down</b>.</td></tr>
+<tr><td class="pv">come down to</td><td class="mean">to be essentially a matter of</td><td class="ex">It <b>comes down to</b> trust.</td></tr>
+<tr><td class="pv">come down on</td><td class="mean">to punish or criticise harshly</td><td class="ex">The school <b>came down on</b> cheating.</td></tr>
+<tr><td class="pv">come down with</td><td class="mean">to become ill with</td><td class="ex">I've <b>come down with</b> a cold.</td></tr>
+<tr><td class="pv">come forward</td><td class="mean">to offer help or information</td><td class="ex">A witness <b>came forward</b>.</td></tr>
+<tr><td class="pv">come in</td><td class="mean">to arrive; to finish in a race</td><td class="ex">She <b>came in</b> second.</td></tr>
+<tr><td class="pv">come into</td><td class="mean">to inherit</td><td class="ex">He <b>came into</b> a fortune.</td></tr>
+<tr><td class="pv">come off</td><td class="mean">to succeed</td><td class="ex">The gamble <b>came off</b>.</td></tr>
+<tr><td class="pv">come off</td><td class="mean">to become detached</td><td class="ex">A button <b>came off</b> my shirt.</td></tr>
+<tr><td class="pv">come on</td><td class="mean">to make progress; to begin</td><td class="ex">The rain <b>came on</b> suddenly.</td></tr>
+<tr><td class="pv">come out</td><td class="mean">to be published or released</td><td class="ex">Her new book <b>comes out</b> in May.</td></tr>
+<tr><td class="pv">come out</td><td class="mean">(of a stain) to be removed</td><td class="ex">The mark won't <b>come out</b>.</td></tr>
+<tr><td class="pv">come over</td><td class="mean">to visit someone's home</td><td class="ex"><b>Come over</b> for dinner tonight.</td></tr>
+<tr><td class="pv">come over</td><td class="mean">to be suddenly affected by a feeling</td><td class="ex">A wave of dizziness <b>came over</b> me.</td></tr>
+<tr><td class="pv">come through</td><td class="mean">to survive a difficult experience</td><td class="ex">They <b>came through</b> the crisis.</td></tr>
+<tr><td class="pv">come up</td><td class="mean">to arise or be mentioned</td><td class="ex">The topic <b>came up</b> at dinner.</td></tr>
+<tr><td class="pv">come up against</td><td class="mean">to face a difficulty or opponent</td><td class="ex">We <b>came up against</b> strong resistance.</td></tr>
+<tr><td class="pv">come up with</td><td class="mean">to think of or produce</td><td class="ex">She <b>came up with</b> a brilliant idea.</td></tr>
+<tr><td class="pv">come between</td><td class="mean">to damage a relationship between people</td><td class="ex">Don't let money <b>come between</b> you.</td></tr>
+<tr><td class="pv">conk out</td><td class="mean">to stop working; to fall asleep suddenly</td><td class="ex">The old car finally <b>conked out</b>.</td></tr>
+<tr><td class="pv">cook up</td><td class="mean">to invent a story or plan</td><td class="ex">They <b>cooked up</b> an excuse.</td></tr>
+<tr><td class="pv">cool down</td><td class="mean">to become cooler or calmer</td><td class="ex">Let the engine <b>cool down</b>.</td></tr>
+<tr><td class="pv">cool off</td><td class="mean">to become less angry or excited</td><td class="ex">He went for a walk to <b>cool off</b>.</td></tr>
+<tr><td class="pv">cordon off</td><td class="mean">to block an area with a barrier</td><td class="ex">Police <b>cordoned off</b> the scene.</td></tr>
+<tr><td class="pv">cotton on</td><td class="mean">to begin to understand (informal)</td><td class="ex">She soon <b>cottoned on</b> to the trick.</td></tr>
+<tr><td class="pv">cough up</td><td class="mean">to pay reluctantly</td><td class="ex">He finally <b>coughed up</b> the rent.</td></tr>
+<tr><td class="pv">count on</td><td class="mean">to rely on</td><td class="ex">You can <b>count on</b> me.</td></tr>
+<tr><td class="pv">count in</td><td class="mean">to include someone</td><td class="ex"><b>Count</b> me <b>in</b> for the trip.</td></tr>
+<tr><td class="pv">count out</td><td class="mean">to exclude someone</td><td class="ex"><b>Count</b> me <b>out</b> of that plan.</td></tr>
+<tr><td class="pv">count up</td><td class="mean">to add together</td><td class="ex">She <b>counted up</b> the votes.</td></tr>
+<tr><td class="pv">count towards</td><td class="mean">to contribute to a total</td><td class="ex">This test <b>counts towards</b> your grade.</td></tr>
+<tr><td class="pv">cover up</td><td class="mean">to conceal something wrong</td><td class="ex">They tried to <b>cover up</b> the error.</td></tr>
+<tr><td class="pv">cover for</td><td class="mean">to do someone's job; to protect them</td><td class="ex">Can you <b>cover for</b> me on Friday?</td></tr>
+<tr><td class="pv">crack down on</td><td class="mean">to act firmly against</td><td class="ex">The city <b>cracked down on</b> litter.</td></tr>
+<tr><td class="pv">crack up</td><td class="mean">to laugh uncontrollably</td><td class="ex">The joke made us <b>crack up</b>.</td></tr>
+<tr><td class="pv">crack on</td><td class="mean">to continue working briskly (British)</td><td class="ex">Let's <b>crack on</b> with the report.</td></tr>
+<tr><td class="pv">cram for</td><td class="mean">to study intensively before a test</td><td class="ex">She <b>crammed for</b> the exam all night.</td></tr>
+<tr><td class="pv">cram in</td><td class="mean">to fit a lot into a space or time</td><td class="ex">We <b>crammed in</b> three cities in a day.</td></tr>
+<tr><td class="pv">crank up</td><td class="mean">to increase or intensify</td><td class="ex">They <b>cranked up</b> production.</td></tr>
+<tr><td class="pv">crop up</td><td class="mean">to appear unexpectedly</td><td class="ex">A problem <b>cropped up</b> at work.</td></tr>
+<tr><td class="pv">cross off</td><td class="mean">to remove from a list</td><td class="ex"><b>Cross</b> that <b>off</b> the list.</td></tr>
+<tr><td class="pv">cross out</td><td class="mean">to draw a line through</td><td class="ex">She <b>crossed out</b> the mistake.</td></tr>
+<tr><td class="pv">cross over</td><td class="mean">to change from one area to another</td><td class="ex">The actor <b>crossed over</b> into music.</td></tr>
+<tr><td class="pv">cuddle up</td><td class="mean">to sit or lie close for warmth or comfort</td><td class="ex">They <b>cuddled up</b> on the sofa.</td></tr>
+<tr><td class="pv">curl up</td><td class="mean">to sit or lie in a comfortable curled position</td><td class="ex">She <b>curled up</b> with a book.</td></tr>
+<tr><td class="pv">cut across</td><td class="mean">to affect groups beyond normal boundaries</td><td class="ex">The issue <b>cuts across</b> party lines.</td></tr>
+<tr><td class="pv">cut back</td><td class="mean">to reduce</td><td class="ex">The firm <b>cut back</b> on spending.</td></tr>
+<tr><td class="pv">cut back on</td><td class="mean">to reduce consumption of</td><td class="ex">I'm <b>cutting back on</b> sugar.</td></tr>
+<tr><td class="pv">cut down</td><td class="mean">to reduce; to fell a tree</td><td class="ex">They <b>cut down</b> the dead tree.</td></tr>
+<tr><td class="pv">cut down on</td><td class="mean">to reduce the amount of</td><td class="ex">He <b>cut down on</b> coffee.</td></tr>
+<tr><td class="pv">cut in</td><td class="mean">to interrupt; to move in front suddenly</td><td class="ex">A car <b>cut in</b> front of us.</td></tr>
+<tr><td class="pv">cut off</td><td class="mean">to disconnect; to isolate</td><td class="ex">We were <b>cut off</b> mid-call.</td></tr>
+<tr><td class="pv">cut out</td><td class="mean">to remove by cutting; to stop doing</td><td class="ex">He <b>cut out</b> fatty foods.</td></tr>
+<tr><td class="pv">cut out</td><td class="mean">(of an engine) to stop suddenly</td><td class="ex">The motor <b>cut out</b> on the hill.</td></tr>
+<tr><td class="pv">cut up</td><td class="mean">to cut into pieces</td><td class="ex">She <b>cut up</b> the vegetables.</td></tr>
+<tr><td class="pv">cash out</td><td class="mean">to convert assets to cash; to leave with profit</td><td class="ex">Investors <b>cashed out</b> early.</td></tr>
+<tr><td class="pv">catch up with</td><td class="mean">to meet someone after a time apart</td><td class="ex">Let's <b>catch up with</b> each other soon.</td></tr>
+<tr><td class="pv">chalk up</td><td class="mean">to achieve or record (a success)</td><td class="ex">The team <b>chalked up</b> another win.</td></tr>
+<tr><td class="pv">change over</td><td class="mean">to switch from one system to another</td><td class="ex">We <b>changed over</b> to solar power.</td></tr>
+<tr><td class="pv">charge up</td><td class="mean">to fill a battery with power</td><td class="ex">I need to <b>charge up</b> my phone.</td></tr>
+<tr><td class="pv">chase down</td><td class="mean">to pursue and catch</td><td class="ex">She <b>chased down</b> the missing file.</td></tr>
+<tr><td class="pv">chime in</td><td class="mean">to add a remark to a conversation</td><td class="ex">He <b>chimed in</b> with a joke.</td></tr>
+<tr><td class="pv">churn out</td><td class="mean">to produce in large quantities</td><td class="ex">The studio <b>churns out</b> films.</td></tr>
+<tr><td class="pv">clear away</td><td class="mean">to remove to make space</td><td class="ex">Please <b>clear away</b> the dishes.</td></tr>
+<tr><td class="pv">close up</td><td class="mean">to shut; (of a wound) to heal</td><td class="ex">The shop <b>closes up</b> at six.</td></tr>
+<tr><td class="pv">cobble together</td><td class="mean">to make quickly and roughly</td><td class="ex">We <b>cobbled together</b> a plan.</td></tr>
+<tr><td class="pv">come along with</td><td class="mean">to accompany</td><td class="ex">Can I <b>come along with</b> you?</td></tr>
+<tr><td class="pv">come round to</td><td class="mean">to change one's view in favour of</td><td class="ex">He <b>came round to</b> my way of thinking.</td></tr>
+<tr><td class="pv">conjure up</td><td class="mean">to create or bring to mind</td><td class="ex">The smell <b>conjured up</b> the past.</td></tr>
+<tr><td class="pv">connect up</td><td class="mean">to join or link together</td><td class="ex">They <b>connected up</b> the cables.</td></tr>
+<tr><td class="pv">crack open</td><td class="mean">to open (especially a drink)</td><td class="ex">Let's <b>crack open</b> a soda.</td></tr>
+<tr><td class="pv">crash out</td><td class="mean">to fall asleep from exhaustion</td><td class="ex">He <b>crashed out</b> on the sofa.</td></tr>
+<tr><td class="pv">creep up on</td><td class="mean">to approach quietly; to arrive gradually</td><td class="ex">Age <b>creeps up on</b> you.</td></tr>
+<tr><td class="pv">cuddle up to</td><td class="mean">to move close to for warmth or affection</td><td class="ex">The cat <b>cuddled up to</b> me.</td></tr>
+<tr><td class="pv">curl up</td><td class="mean">(of paper) to roll at the edges</td><td class="ex">The photo had <b>curled up</b> with age.</td></tr>
+</tbody>
+</table>
+</div>
+<script>
+(function(){
+  var q=document.getElementById('q'),rows=[].slice.call(document.querySelectorAll('#tb tr')),c=document.getElementById('count');
+  function upd(){var n=rows.filter(function(r){return !r.classList.contains('noshow')}).length;c.textContent=n+' entries shown';}
+  q.addEventListener('input',function(){
+    var t=q.value.trim().toLowerCase();
+    rows.forEach(function(r){r.classList.toggle('noshow', t && r.textContent.toLowerCase().indexOf(t)===-1);});
+    upd();
+  });
+  upd();
+})();
+</script>
+</body>
+</html>

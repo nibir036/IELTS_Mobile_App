@@ -1,0 +1,1120 @@
+{
+ "id": "FT10",
+ "title": "Listening Full Test 10",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "Booking a Wildlife Boat Trip",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "A man phones a boat company in a seaside town to find out about its wildlife-watching trips and book one for his family.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Fiona",
+     "desc": "Booking assistant at the boat company — female, 40s, bright, efficient and chatty; British accent (light northern English)"
+    },
+    {
+     "label": "Daniel",
+     "desc": "Caller — male, late 30s, friendly, slightly hurried, a father organising a family holiday; British accent (southern English)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear a man phoning a company to book a wildlife-watching boat trip. First, you have some time to look at Questions 1 to 6.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[telephone rings twice, then the line clicks open] [bright, professional] Good morning, Calderwick Wildlife Cruises, Fiona speaking. How can I help?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[friendly, slightly hurried] Oh, hello. I'm hoping to book a boat trip for my family next month. We're coming up on holiday. But, um, I have to say I found your website a bit confusing. There seem to be quite a lot of different trips."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[warm, light laugh] You're not the first person to tell me that. It's being redesigned at the moment. Shall I just run through the options for you?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[relieved] That would be brilliant, thanks."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[clear, explaining] Right. The shortest one is what we call the Harbour Trip. That lasts an hour and a quarter, and it goes round the bay and then out to the sandbanks at the mouth of the river."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[interested] And what would we see on that one? My kids are desperate to see dolphins."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[gently honest] Well, I wouldn't book the Harbour Trip for dolphins, I'm afraid. They tend to stay much further out to sea. [brightening] What it is good for is seals. There's a colony of about two hundred that come out of the water onto the sandbanks, and the boat can get surprisingly close."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[pleased] Oh, they'd love that. And where does it go from? Is it the harbour steps? That's where we went from last time, but that was years ago."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[apologetic] It used to be, yes, but the steps were badly damaged in a storm last winter, so all our boats leave from the floating jetty now. That's on the opposite side of the harbour from the fish market, right next to the aquarium."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[repeating slowly, as if writing it down] The jetty... next to the aquarium. Okay. And how much is the Harbour Trip?"
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[reading from a screen] For adults it's sixteen pounds fifty... [short pause] [correcting herself, a little flustered] oh, no, hang on, sorry, I've got last year's price list up. It's eighteen pounds fifty now. And children under fourteen pay half."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[good-humoured sigh] Eighteen fifty. Fair enough. What about the longer trips?"
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[enthusiastic] So the one most families go for is the Island Trip. That goes out to Ravenholm Island. Now, the website still says it's a five-hour trip, but we've shortened it this season, so it's four hours altogether, and that includes your time on the island."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[doubtful] Four hours. Hmm. Is that going to be too long for a seven-year-old, do you think?"
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[reassuring] Honestly, most children cope fine, because they get off the boat halfway through. [informative] The island's best known for its puffins, of course, and you'll almost certainly see gannets as well, diving for fish. [slightly wistful] There used to be a big colony of terns out there too, but they haven't nested on the island for three or four years now."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[thinking aloud] Puffins and gannets. Right. And what is there to actually do once you're on the island?"
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[explaining] You get about forty-five minutes ashore. There's a little medieval chapel, but that's shut while the roof's being repaired, so I'd walk up to the lighthouse. There's a small exhibition inside, and the view from the top is wonderful."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[interested] Sounds great. And the price of that one?"
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[matter-of-fact] It's forty-two pounds per adult, and that includes the landing fee for the island."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[hesitant] Okay. And is there anything in the evenings? My wife mentioned something about a sunset trip."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[helpful] Yes, that's the Evening Cruise. It's two hours, and it heads out to where the dolphins feed. [carefully] Now, we can't promise you'll see them. On average it's about two evenings out of three. But if dolphins are the priority, that's your best chance. It's thirty-five pounds."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[weighing it up, then decisive] Hmm. I think the Island Trip, then. The children are mad about puffins anyway, and we could always try the evening one another year."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[pleased] Lovely. Let me just take a few details from you."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 7 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[efficient] So, which date were you thinking of?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[checking a calendar] We arrive on the twentieth of August, so... the Saturday would be ideal. That's the twenty-second."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[typing, then apologetic] Ah. I'm really sorry, the Island Trip on the twenty-second is completely full. I could do the following day, if that's any good?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[thinking for a second] Sunday the twenty-third, then. Yes, that works fine, actually."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[brisk] Great. And can I take your name?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "It's Daniel Pellow. [slowly, spelling each letter clearly] That's P... E... double L... O... W."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[reading back as she types] B... E..."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[politely correcting her] No, sorry, it's P. P for Peter."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[light laugh] Sorry about that. P... E... double L... O... W. Got it. And that's two adults and two children?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "That's right. The children are seven and eleven."
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[practical] Lovely. Now, on the day, you check in at the little ticket kiosk on the jetty. We used to ask people to turn up ten minutes before departure, but there's a safety briefing on the island boat now, with the lifejackets and so on, so please make sure you're there twenty minutes before it sets off."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[noting it down] Twenty minutes. Fine. And what's the best thing to do about parking? Is there a car park near the jetty?"
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[explaining] There's one right by the beach, but it's very expensive in August. And the supermarket car park is closer, but you can only stay there for two hours, which is no good for a four-hour trip. [brightly] What I'd suggest is the car park behind the library. If you show your boat tickets to the attendant, there's no charge at all."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[pleased] Oh, that's handy. Thanks. And should we bring food?"
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[friendly] There's no café on the island, so I'd bring a packed lunch. And warm clothes, even if it's sunny when you set off. It's always a good few degrees colder out at sea."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[chuckles] Noted. Right, shall I pay now?"
+    },
+    {
+     "speaker": "Fiona",
+     "text": "[cheerful] Yes, please. I'll just put you through to the payment line."
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-6",
+     "type": "table_completion",
+     "instructions": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "CALDERWICK WILDLIFE CRUISES — TRIP OPTIONS",
+     "table": {
+      "columns": [
+       "Trip",
+       "Length",
+       "Wildlife",
+       "Other information",
+       "Adult price"
+      ],
+      "rows": [
+       [
+        "Harbour Trip",
+        "75 minutes",
+        "mainly (1) ___ on the sandbanks",
+        "departs from jetty beside the (2) ___",
+        "£(3) ___"
+       ],
+       [
+        "Island Trip",
+        "(4) ___ hours in total",
+        "puffins and (5) ___",
+        "45 minutes ashore — chapel closed, so visit the (6) ___",
+        "£42 (landing fee included)"
+       ],
+       [
+        "Evening Cruise",
+        "2 hours",
+        "dolphins (seen on most trips)",
+        "best option for dolphins",
+        "£35"
+       ]
+      ]
+     },
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Harbour Trip — wildlife: mainly ___ on the sandbanks",
+       "answer": "seals",
+       "accepted": [],
+       "spoken": "seals",
+       "evidence": "What it is good for is seals",
+       "trap": "Daniel asks about dolphins, but Fiona says they stay further out and are not a reason to book this trip."
+      },
+      {
+       "n": 2,
+       "prompt": "Harbour Trip — departs from the jetty beside the ___",
+       "answer": "aquarium",
+       "accepted": [],
+       "spoken": "aquarium",
+       "evidence": "opposite side of the harbour from the fish market, right next to the aquarium",
+       "trap": "The harbour steps (used in the past) and the fish market (on the other side) are both mentioned."
+      },
+      {
+       "n": 3,
+       "prompt": "Harbour Trip — adult price: £___",
+       "answer": "18.50",
+       "accepted": [
+        "18.5",
+        "£18.50"
+       ],
+       "spoken": "eighteen pounds fifty",
+       "evidence": "It's eighteen pounds fifty now. And children under fourteen pay half",
+       "trap": "Fiona first reads £16.50 from last year's price list, and children pay half."
+      },
+      {
+       "n": 4,
+       "prompt": "Island Trip — length: ___ hours in total",
+       "answer": "4",
+       "accepted": [
+        "four"
+       ],
+       "spoken": "four hours",
+       "evidence": "so it's four hours altogether, and that includes your time on the island",
+       "trap": "The website still says five hours; the trip has been shortened."
+      },
+      {
+       "n": 5,
+       "prompt": "Island Trip — wildlife: puffins and ___",
+       "answer": "gannets",
+       "accepted": [],
+       "spoken": "gannets",
+       "evidence": "you'll almost certainly see gannets as well, diving for fish",
+       "trap": "Terns used to nest on the island but no longer do."
+      },
+      {
+       "n": 6,
+       "prompt": "Island Trip — the chapel is closed, so visit the ___",
+       "answer": "lighthouse",
+       "accepted": [],
+       "spoken": "lighthouse",
+       "evidence": "so I'd walk up to the lighthouse. There's a small exhibition inside",
+       "trap": "The medieval chapel is mentioned first but is shut for repairs; 'exhibition' is inside the lighthouse."
+      }
+     ]
+    },
+    {
+     "range": "7-10",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "BOOKING DETAILS — ISLAND TRIP",
+     "items": [
+      {
+       "n": 7,
+       "prompt": "Date of trip: Sunday ___ August",
+       "answer": "23rd",
+       "accepted": [
+        "23",
+        "twenty-third"
+       ],
+       "spoken": "the twenty-third",
+       "evidence": "Sunday the twenty-third, then. Yes, that works fine",
+       "trap": "The family arrive on the 20th and first ask for Saturday the 22nd, which is full."
+      },
+      {
+       "n": 8,
+       "prompt": "Family name: ___",
+       "answer": "Pellow",
+       "accepted": [],
+       "spoken": "Pellow",
+       "evidence": "It's Daniel Pellow. That's P... E... double L... O... W",
+       "trap": "Fiona mishears the first letter as B; the double L must be spelled correctly."
+      },
+      {
+       "n": 9,
+       "prompt": "Arrive at the ticket kiosk ___ minutes before the boat leaves (for safety briefing)",
+       "answer": "20",
+       "accepted": [
+        "twenty"
+       ],
+       "spoken": "twenty minutes",
+       "evidence": "so please make sure you're there twenty minutes before it sets off",
+       "trap": "Passengers used to be asked to arrive ten minutes before."
+      },
+      {
+       "n": 10,
+       "prompt": "Parking: free car park behind the ___ (show tickets)",
+       "answer": "library",
+       "accepted": [],
+       "spoken": "library",
+       "evidence": "What I'd suggest is the car park behind the library",
+       "trap": "The beach car park is expensive and the supermarket one has a two-hour limit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Changes to Ashbury Market",
+   "context": "Monologue in an everyday social context (local radio talk, with a short host introduction)",
+   "scenario": "On a local radio programme, the town-centre manager explains why the town's outdoor market is being reorganised and describes the new layout of the market square.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Host",
+     "desc": "Local radio presenter — male, 50s, warm and upbeat; British accent"
+    },
+    {
+     "label": "Helen",
+     "desc": "Town-centre manager — female, 40s, confident, candid and well organised; British accent (Midlands)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear a town-centre manager talking on local radio about changes to the town's market. First, you have some time to look at Questions 11 to 16.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Host",
+     "text": "[radio studio, a short jingle fading out] [warm, upbeat] And as promised, I'm joined in the studio by Helen Marsh, Ashbury's town-centre manager, to talk about the changes coming to our market. Helen, welcome."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[friendly, confident] Thanks, Jim. It's good to be here. [measured] I'm sure a lot of your listeners have heard that the market's being reorganised from April, and I'd like to explain why, and what it's actually going to mean for people."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[candid, firm] Let me deal with one rumour straight away. People keep telling me this is all happening because the market's losing traders. That simply isn't the case. We've got more stallholders now than we had five years ago, and there's a waiting list for pitches."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[explaining] What really started this off was a questionnaire we ran last spring. Over two thousand people filled it in, and the clearest message was that anyone working nine to five felt the market was never open when they could get to it. They were asking us, quite simply, to stay open later into the day."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[more serious] The other issue, frankly, was safety. At the moment the stalls run down both sides of Bridge Street, and delivery lorries are still squeezing between them first thing in the morning. We've had two or three near misses with pedestrians this year, and that can't go on."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[even-handed] Now, some of the shopkeepers on the High Street have complained that the stalls hide their windows, and I do understand that. But to be fair, that complaint's been made for decades, and it isn't what's driving the changes. And yes, the old canvas canopies are being replaced, but that's being funded by a regional grant. It's a separate project, not a reason for the move."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[clear, moving on] So, what's changing? First, the Thursday market. Some people assumed we'd move it to Wednesday, and we did look at that, but Wednesday's when the farmers' market runs over in Hexton, and we'd just be competing with them. [reassuring] So Thursday stays Thursday, and the opening hours won't change either."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[explaining] What will be different is what's on sale. From April, Thursdays will be given over entirely to food: fruit and veg, cheese, bread, fish and so on. The clothing and household stalls will move to Saturdays instead, when there's more room."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[sympathetic] I know a lot of traders have been worried about rents. We had originally planned a small increase for everybody to help cover the new canopies, but once the grant came through, there was no need for it. [firm, clear] So for the first twelve months, every trader will pay exactly what they're paying now, and we'll review it after that."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[measured] Some traders have also asked for a discount if they sign up for two years rather than one. That's something we're looking at, but no decision's been made yet, so please don't take it as a promise."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[warmer, enthusiastic] Now, the evening market, which is the really new thing. Our first idea was to hold it every Friday all year round, but the traders pointed out, quite rightly, that hardly anyone's going to stand about in the dark in January. And just once a month didn't seem enough to build up a regular crowd. So it'll be every Friday from May until the end of September, from five till nine."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[apologetic, practical] Parking is the question I get asked most. I'm afraid there's no room to create extra spaces anywhere near the square. We also looked at running a park-and-ride bus from the retail park, but the figures just didn't add up. [brighter] What we have agreed with the council is that the multi-storey on Station Road won't charge for the first two hours on any market day."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 17 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Host",
+     "text": "[curious] And Helen, the stalls are all coming off Bridge Street and into the Market Square itself. Can you describe how it'll be laid out?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[clear, guiding] Of course. Imagine you're standing on the steps of the Town Hall, looking out over the square. The fountain's in the middle in front of you, the High Street runs along the far side, and Church Street comes in on your right."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[explaining] The hot food stalls were the hardest to place. We'd thought about the corner just to your left, beside the Town Hall, but the council offices are right there and nobody wanted cooking smells drifting in. So they'll be in the far left-hand corner, where Bridge Street meets the High Street. That's handy for people coming over the bridge, too."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[informative] The flower stalls need shade, so they won't be out in the open in the corner nearest the High Street on your right. Instead they'll be halfway down the right-hand side of the square, exactly where Church Street comes in, because the church wall keeps the sun off them for most of the day."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[clarifying] The information point is moving too. It used to be in front of the fountain, on the High Street side. From April, you'll find it right beside the fountain, on its left-hand side as you look from the Town Hall steps, so it's the first thing you see if you come in from Bridge Street."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[warm] And finally, we're adding a seating area with benches and some planters. We'd hoped to put that on the left-hand side, beside the bank, but the bank needs that space kept clear for the queue at its cash machines. So the seating will go in the corner just to your right as you come down the Town Hall steps, at the end of the building, which is lovely and sunny in the afternoon."
+    },
+    {
+     "speaker": "Host",
+     "text": "[cheerful, wrapping up] Sounds great. Helen Marsh, thank you very much."
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-12",
+     "type": "multi_select",
+     "instructions": "Choose TWO letters, A–E.",
+     "options": {
+      "A": "a fall in the number of people running stalls",
+      "B": "objections from owners of nearby shops",
+      "C": "a demand for the market to operate at different times",
+      "D": "a risk of accidents in the current location",
+      "E": "the poor condition of the market's equipment"
+     },
+     "answers": [
+      "C",
+      "D"
+     ],
+     "evidence": [
+      "They were asking us, quite simply, to stay open later into the day",
+      "The other issue, frankly, was safety"
+     ],
+     "trap": "A is explicitly denied (more traders than before); B is a real complaint but 'isn't what's driving the changes'; E — the canopies are being replaced, but as a separate grant-funded project, not a reason.",
+     "items": [
+      {
+       "n": 11,
+       "prompt": "Which TWO reasons does Helen give for reorganising the market?"
+      },
+      {
+       "n": 12,
+       "prompt": ""
+      }
+     ]
+    },
+    {
+     "range": "13-16",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 13,
+       "prompt": "What will change about the Thursday market?",
+       "options": {
+        "A": "It will be held on a different day.",
+        "B": "It will sell a narrower range of goods.",
+        "C": "It will open for fewer hours."
+       },
+       "answer": "B",
+       "evidence": "Thursdays will be given over entirely to food",
+       "trap": "A Wednesday move was considered and rejected; Helen says the hours won't change."
+      },
+      {
+       "n": 14,
+       "prompt": "What does Helen say about stallholders' rents?",
+       "options": {
+        "A": "They will go up slightly to pay for new canopies.",
+        "B": "They will not change for a year.",
+        "C": "They will be lower for traders who commit for longer."
+       },
+       "answer": "B",
+       "evidence": "So for the first twelve months, every trader will pay exactly what they're paying now",
+       "trap": "A was the original plan, dropped after the grant; C is only being considered, with no decision made."
+      },
+      {
+       "n": 15,
+       "prompt": "The new evening market will take place",
+       "options": {
+        "A": "weekly throughout the year.",
+        "B": "once a month.",
+        "C": "weekly for part of the year."
+       },
+       "answer": "C",
+       "evidence": "So it'll be every Friday from May until the end of September",
+       "trap": "Every Friday all year was the first idea, rejected by traders; once a month was judged not enough."
+      },
+      {
+       "n": 16,
+       "prompt": "What has been arranged for shoppers who come by car?",
+       "options": {
+        "A": "free parking for a limited period",
+        "B": "additional parking spaces close to the market",
+        "C": "a bus service from a car park outside the centre"
+       },
+       "answer": "A",
+       "evidence": "the multi-storey on Station Road won't charge for the first two hours on any market day",
+       "trap": "Helen says there's no room for extra spaces, and the park-and-ride was too expensive."
+      }
+     ]
+    },
+    {
+     "range": "17-20",
+     "type": "map_labelling",
+     "instructions": "Label the plan below. Write the correct letter, A–H, next to Questions 17–20.",
+     "heading": "NEW MARKET LAYOUT — MARKET SQUARE",
+     "layout": "A rectangular Market Square, wider east–west than north–south. The TOWN HALL fills the north side, with its STEPS in the middle of its south face, leading down into the square (the listener stands on these steps facing south). A FOUNTAIN (circle) is in the centre of the square. The HIGH STREET runs east–west along the whole south side. CHURCH STREET enters the square from the west, at the midpoint of the west side; a CHURCH is drawn just outside the square to the north of Church Street. BRIDGE STREET leaves the square's south-east corner heading east towards a RIVER/BRIDGE drawn at the right-hand edge. A BANK (labelled, with cash machines) stands on the east side of the square, halfway along. COUNCIL OFFICES are labelled at the east end of the Town Hall. Letter positions: A = north-west corner of the square, beside the west end of the Town Hall. B = north-east corner, beside the east end of the Town Hall (by the council offices). C = midpoint of the west side, where Church Street enters. D = immediately east of the fountain. E = east side, in front of the bank. F = south-west corner, at the High Street. G = between the fountain and the High Street (directly south of the fountain). H = south-east corner, where Bridge Street meets the High Street.",
+     "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E",
+      "F": "F",
+      "G": "G",
+      "H": "H"
+     },
+     "items": [
+      {
+       "n": 17,
+       "prompt": "Hot food stalls",
+       "answer": "H",
+       "evidence": "So they'll be in the far left-hand corner, where Bridge Street meets the High Street",
+       "trap": "The corner beside the Town Hall on the left (B) was considered and rejected because of the council offices."
+      },
+      {
+       "n": 18,
+       "prompt": "Flower stalls",
+       "answer": "C",
+       "evidence": "they'll be halfway down the right-hand side of the square, exactly where Church Street comes in",
+       "trap": "The corner nearest the High Street on the right (F) is mentioned and ruled out ('won't be')."
+      },
+      {
+       "n": 19,
+       "prompt": "Information point",
+       "answer": "D",
+       "evidence": "you'll find it right beside the fountain, on its left-hand side as you look from the Town Hall steps",
+       "trap": "It used to be in front of the fountain on the High Street side (G)."
+      },
+      {
+       "n": 20,
+       "prompt": "Seating area",
+       "answer": "A",
+       "evidence": "the seating will go in the corner just to your right as you come down the Town Hall steps",
+       "trap": "The space beside the bank (E) was hoped for but must be kept clear for the cash-machine queue."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "The Economics of Music Streaming",
+   "context": "Academic discussion: 2 students + tutor",
+   "scenario": "Two business students discuss their project on the economics of music streaming with their tutor.",
+   "accent": "Tutor British (en-GB); Maya American (en-US); Callum British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.45 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Dr Hughes",
+     "desc": "Tutor — female, 50s, precise, encouraging but probing; British RP accent"
+    },
+    {
+     "label": "Maya",
+     "desc": "Student — female, early 20s, energetic, quick to form opinions; American accent (en-US)"
+    },
+    {
+     "label": "Callum",
+     "desc": "Student — male, early 20s, cautious, analytical, slightly dry humour; British accent (Scottish-influenced)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two students, Maya and Callum, talking to their tutor about their project on the economics of music streaming. First, you have some time to look at Questions 21 to 25.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[office, a door closing softly] [warm, businesslike] Come in, both of you. So, how's the streaming project going? You're about halfway through now, aren't you?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[energetic] Yeah, just about. And honestly, it's been kind of eye-opening."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[interested] In what way? What's struck you most so far?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[thinking aloud] Well, I went in expecting the big story to be how differently the platforms pay per stream. And they do vary, but it's a fraction of a cent either way, so that wasn't really the headline."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[dry] And everyone keeps telling us that vinyl's making a comeback, but I'd read loads about that before we started, so it was hardly news to me."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[curious] Not the gap between the top artists and everyone else?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[light laugh] No, we kind of knew that going in. The top one percent taking most of the money is no secret."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[emphatic] What neither of us had expected was that the streaming companies themselves are barely making any money. Most of them have run at a loss for years. We'd both assumed they were the ones getting rich."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[knowingly] Yes, that surprises a lot of people. Now, your original plan was to compare artists' contracts across different record labels. You've moved away from that, I gather?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[slightly rueful] We have. It wasn't that the topic had been done to death. There's quite a bit written on it, but we could've found a new angle. [sighs] The problem was that none of the labels would let us see the actual figures. Every contract we asked about was confidential."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[measured] I did warn you it was ambitious, but I wouldn't have told you to drop it. It just wasn't going to work without the numbers. Fair enough. So, you've done some interviews instead. How many?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "Eight. Mostly local musicians, plus a couple of people from small labels."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[thoughtful, probing] Eight's perfectly adequate for a project of this scale, so the number doesn't worry me. And I'm glad you recorded them all. [more critical] What does concern me is the way a few of the questions were worded. Asking someone, 'Don't you feel you're underpaid?' rather invites them to agree with you."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[conceding, a little embarrassed] Yeah, that's fair. That one was mine."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[keen, moving on] Can we talk about the user-centric model? Where your subscription only goes to the artists you actually listen to, rather than into one big pool. I think it'd be so much fairer, especially for niche artists, like jazz or folk musicians, whose fans pay but whose money ends up with the big pop stars."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[sceptical, careful] I'm not so sure. The studies we've read suggest it would shift income by a few percent at most. For the vast majority of musicians, I really don't think it would change much at all."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[even-handed] The platforms also argue it would be expensive to run, though I suspect they've exaggerated that. Anyway, you can present both views. And for the presentation itself?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[enthusiastic] I wanted to do a live demo of the royalty calculator we built, but..."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[interrupting, wry] But the Wi-Fi in that seminar room is a nightmare, so that's out."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[gently] And please don't add any more comparison charts. Your draft slides already have far too many. What would really bring it to life is something more concrete."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[decisive] Then let's follow one local band's earnings over a year, from start to finish. We've got the data from the Harbour Lights interview."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[agreeing] Okay, yeah. Let's go with that."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 26 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[businesslike] Right. Now, in the findings section, you look at different groups in the industry. Talk me through them."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[organised] Sure. We started with the major labels. You'd expect their streaming money to come from whatever's in the charts right now, but it doesn't. Something like seventy percent comes from recordings that are more than eighteen months old. A lot of it's music from the eighties and nineties."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[probing] And why is that, do you think?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[thoughtful] Partly the recommendation algorithms, which keep suggesting familiar songs. And older listeners have finally moved over to streaming, so they're playing what they grew up with."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[adding] And people assume they've got all the power in negotiations with the platforms. We'd question that, actually. The platforms need them, but they need the platforms just as much now."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "Interesting. What about songwriters?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[explaining carefully] I'd assumed streaming would be their biggest earner, but for most of them it isn't. Radio and TV licensing still bring in more. The real finding, though, was that huge sums never reach them, because the information attached to each track, the writers' names and so on, is so often missing or wrong. So the money can't be matched to anyone."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[serious] Yes, that's a well-documented problem. And session musicians?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[a little indignant] That's the one that really got to me. You'd think they'd make up for it by selling T-shirts and things, but they can't, because they're not the face of the band. They're paid a one-off fee for the recording, and that's it. However many millions of times the track's streamed, they don't get another penny."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[quietly] A couple of musicians' unions are campaigning to change that, but nothing's been agreed so far."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[thoughtful] Mm. And the independent labels?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[considering] Some of them sell merchandise, but they always have, so that's nothing new. What has changed is that, by joining together through a few big distributors, they can now negotiate with the platforms on much better terms than they could ten years ago."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[slightly doubtful] I'm not sure that applies to the really small ones, but, yeah, overall that's what the evidence shows."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[encouraging] Fine, just acknowledge that. And the last group, the concert promoters?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[lively] They're actually doing pretty well out of it. They don't earn anything from streams directly. [short pause] But they look at where an artist's listeners are concentrated, city by city, and use that to decide where to book a tour."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[amused] So they profit from streaming without being paid for it."
+    },
+    {
+     "speaker": "Maya",
+     "text": "Exactly. Not from it, but because of it."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[light laugh] Which is a bit ironic, given how little the artists earn from the streams themselves."
+    },
+    {
+     "speaker": "Dr Hughes",
+     "text": "[wrapping up, approving] It is. Well, this is all coming together nicely. Get the revised slides to me by Friday, and we'll go through them next week."
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-25",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 21,
+       "prompt": "What did the students find most surprising at the start of their research?",
+       "options": {
+        "A": "the variation in what different services pay artists",
+        "B": "the renewed popularity of physical formats",
+        "C": "the financial performance of the streaming companies"
+       },
+       "answer": "C",
+       "evidence": "the streaming companies themselves are barely making any money",
+       "trap": "Maya expected per-stream variation to be the story but says it wasn't; Callum already knew about vinyl."
+      },
+      {
+       "n": 22,
+       "prompt": "Why did the students change the focus of their project?",
+       "options": {
+        "A": "The subject had already been thoroughly researched.",
+        "B": "They were unable to access essential information.",
+        "C": "Their tutor considered the topic unsuitable."
+       },
+       "answer": "B",
+       "evidence": "none of the labels would let us see the actual figures",
+       "trap": "Callum says it 'wasn't that the topic had been done to death'; the tutor says she wouldn't have told them to drop it."
+      },
+      {
+       "n": 23,
+       "prompt": "What criticism does the tutor make of the students' interviews?",
+       "options": {
+        "A": "Too few people were interviewed.",
+        "B": "Some questions encouraged particular answers.",
+        "C": "The interviews were not properly recorded."
+       },
+       "answer": "B",
+       "evidence": "rather invites them to agree with you",
+       "trap": "She says the number 'doesn't worry me' and she is glad they recorded them."
+      },
+      {
+       "n": 24,
+       "prompt": "What is Callum's opinion of the user-centric payment model?",
+       "options": {
+        "A": "It would mainly help musicians in minority genres.",
+        "B": "It would be costly for the platforms to operate.",
+        "C": "Its overall effect would be relatively small."
+       },
+       "answer": "C",
+       "evidence": "I really don't think it would change much at all",
+       "trap": "A is Maya's view; B is the platforms' argument, mentioned by the tutor."
+      },
+      {
+       "n": 25,
+       "prompt": "What do the students decide to include in their presentation?",
+       "options": {
+        "A": "a demonstration of a tool they have developed",
+        "B": "a case study of one group of musicians",
+        "C": "additional graphs comparing payments"
+       },
+       "answer": "B",
+       "evidence": "let's follow one local band's earnings over a year",
+       "trap": "The live calculator demo is ruled out because of the Wi-Fi; the tutor asks for no more comparison charts."
+      }
+     ]
+    },
+    {
+     "range": "26-30",
+     "type": "matching",
+     "instructions": "What did the students find out about each of the following groups? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+     "heading": "Findings",
+     "options": {
+      "A": "Streaming is now their largest single source of income.",
+      "B": "Much of what they are owed is not paid because of poor record-keeping.",
+      "C": "Their position when negotiating has improved.",
+      "D": "Most of their streaming revenue comes from older material.",
+      "E": "They receive nothing from repeated plays of their work.",
+      "F": "They rely more heavily on merchandise than in the past.",
+      "G": "They use listening data to plan live events."
+     },
+     "items": [
+      {
+       "n": 26,
+       "prompt": "major record labels",
+       "answer": "D",
+       "evidence": "Something like seventy percent comes from recordings that are more than eighteen months old",
+       "trap": "Negotiating power (C) is discussed for the major labels but Callum questions it."
+      },
+      {
+       "n": 27,
+       "prompt": "songwriters",
+       "answer": "B",
+       "evidence": "huge sums never reach them, because the information attached to each track",
+       "trap": "Callum had assumed streaming was their biggest earner (A), but says it isn't."
+      },
+      {
+       "n": 28,
+       "prompt": "session musicians",
+       "answer": "E",
+       "evidence": "they don't get another penny",
+       "trap": "Selling T-shirts (F) is mentioned but Maya says they can't."
+      },
+      {
+       "n": 29,
+       "prompt": "independent labels",
+       "answer": "C",
+       "evidence": "they can now negotiate with the platforms on much better terms",
+       "trap": "Merchandise (F) is mentioned, but it is 'nothing new' for them."
+      },
+      {
+       "n": 30,
+       "prompt": "concert promoters",
+       "answer": "G",
+       "evidence": "use that to decide where to book a tour",
+       "trap": "They earn nothing from streams directly, so A and E-type income statements are tempting but wrong."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "Animal Camouflage",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "A zoology lecturer explains the main forms of animal camouflage, including background matching, disruptive colouration and counter-shading, and their costs.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "Zoology lecturer — male, 50s, articulate, lively, occasionally dry; British RP accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about animal camouflage. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture theatre, faint murmur fading] [lively, clear] Good morning, everyone. Today we're looking at camouflage: the ways in which animals avoid being detected, or recognised, by predators, or indeed by their prey. It's a field that's changed a great deal in the last twenty years, largely because researchers have started to test ideas experimentally rather than simply describing what they see."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] The simplest strategy is known as background matching, where an animal's colour and pattern resemble its surroundings. A stick insect on a twig, a sandy-coloured lizard on a dune. [explaining] Some species go further, and change their appearance as their surroundings change. The ptarmigan, a bird of mountain and tundra regions, is brown in summer and pure white in winter."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[emphatic, slowing down] Now, you'd naturally assume that it's falling temperatures that trigger the change. They don't. Birds kept in warm conditions still turn white on schedule. What sets off the moult is the shortening of the daylight in autumn, which is a far more reliable signal of the season than the weather."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] Of course, a moult takes weeks. Other animals can change far more quickly. Flatfish such as the plaice, lying on the seabed, adjust both the shade and the pattern of their skin to match the sand or gravel beneath them. [wry] It was once believed this took hours. In fact, filmed experiments show that most of the change happens within seconds."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[aside, slightly amused] You may be wondering why I haven't mentioned the chameleon. The popular idea is that it changes colour to blend in, but that's largely a myth. Its rapid colour changes are mainly signals, to rivals or potential mates, so if anything they make the animal more noticeable, not less."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[shifting, clear] The second strategy is disruptive colouration. Here the markings don't so much match the background as break up the animal's outline. Bold, high-contrast patches create false edges, so a predator's visual system fails to see the separate parts of the body as belonging to a single animal."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining carefully] An important detail is where these markings are placed. Patches in the centre of the body have relatively little effect. It's those that touch the edges of the body that do most to make the body impossible to recognise."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[engaged, storytelling] How do we know any of this actually works? Well, in a well-known series of field experiments, researchers pinned artificial 'moths' to tree trunks in woodland. You might picture solid plastic models, but these targets were triangles cut from paper and printed with different patterns, each with a dead mealworm attached as a reward. The researchers then counted how many mealworms were taken by birds."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[pleased] And the targets with disruptive markings survived significantly longer than those that merely matched the bark, particularly when the markings reached the edges of the triangle."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[moving on, clear] Which brings us to counter-shading. Many animals, from deer to sharks, are darker on their upper surface and paler underneath. The principle is often attributed to a zoologist, but it was in fact first described in the 1890s by an American painter, Abbott Thayer, which is why you'll sometimes see it called Thayer's Law."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining, with emphasis] The logic is this. When light comes from above, a uniformly coloured animal looks lit on its back and dark on its belly, and it's this graded shading that tells our brains we're looking at a solid, three-dimensional object. Counter-shading cancels out the shadow on the underside, so the body appears flat and much harder to pick out."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[intrigued] A nice confirmation of this comes from certain caterpillars that habitually rest upside down beneath twigs. In those species the pattern is reversed: they're paler on the back and darker on the belly. Exactly what you'd predict, since for them it's the belly that faces the light."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] In the sea, counter-shading does a slightly different job. Penguins and many fish are dark on their backs, so that from above they blend with the deep water below. But it's the pale belly that's more interesting. Seen from beneath, against the bright surface of the water, a dark belly would stand out as a clear silhouette. A pale one is far less visible."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[enthusiastic] One of the most striking recent findings comes from palaeontology. A remarkably well-preserved fossil of a small dinosaur, Psittacosaurus \"/ˌsɪt.ə.koʊˈsɔː.rəs/\", retained traces of its original pigment, and it clearly showed counter-shading."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[careful, analytical] What's more, the pattern of the shading can tell us about light conditions. Under direct sunlight in open country, the transition from dark to light on the body is quite sharp and set high up. On this animal, it was gradual and low down, which is what you'd expect under diffuse light. So the evidence points not to the open plains, as had been assumed, but to a forest habitat, with light filtered through a dense canopy."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[briefly] There are other strategies I'll only mention today: masquerade, where an animal resembles an object like a leaf or a bird dropping, and motion dazzle, the bold stripes that may make speed hard to judge. We'll come back to those next week."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[reflective] Finally, it's worth remembering that camouflage isn't free. People often suggest the main cost is the energy needed to produce pigments, but that's actually quite small. The real cost is behavioural. Camouflage only works if the animal stays motionless, so a well-hidden animal spends long periods unable to feed or look for a mate."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[practical, wrapping up] And it ties animals to particular places. A white ptarmigan on a hillside where the snow has melted early is very conspicuous indeed. [dry] With warming winters, that mismatch is becoming a real problem. Right, for next week, please read the two papers on the reading list."
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "ANIMAL CAMOUFLAGE",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "Background matching — ptarmigan: seasonal change of plumage is triggered by reduced ___, not by temperature",
+       "answer": "daylight",
+       "accepted": [],
+       "spoken": "daylight",
+       "evidence": "What sets off the moult is the shortening of the daylight in autumn",
+       "trap": "Falling temperatures are the obvious assumption, explicitly rejected ('They don't')."
+      },
+      {
+       "n": 32,
+       "prompt": "Flatfish (e.g. plaice) alter colour and pattern of skin: most of the change takes ___",
+       "answer": "seconds",
+       "accepted": [],
+       "spoken": "seconds",
+       "evidence": "most of the change happens within seconds",
+       "trap": "It was once believed to take hours; 'weeks' is said for the moult."
+      },
+      {
+       "n": 33,
+       "prompt": "Disruptive colouration — high-contrast patches hide the ___ of the animal",
+       "answer": "outline",
+       "accepted": [],
+       "spoken": "outline",
+       "evidence": "as break up the animal's outline",
+       "trap": "'not so much match the background' — candidates may write 'background' or 'colour'; 'false edges' and 'edges' are said nearby but belong to Q34."
+      },
+      {
+       "n": 34,
+       "prompt": "Markings are most effective when placed at the ___ of the body",
+       "answer": "edges",
+       "accepted": [],
+       "spoken": "edges",
+       "evidence": "It's those that touch the edges of the body",
+       "trap": "Patches in the centre are mentioned first but have little effect."
+      },
+      {
+       "n": 35,
+       "prompt": "Field experiment: imitation moths made of ___, with mealworms as bait",
+       "answer": "paper",
+       "accepted": [],
+       "spoken": "paper",
+       "evidence": "these targets were triangles cut from paper",
+       "trap": "Plastic models are mentioned first, but only as what listeners might picture."
+      },
+      {
+       "n": 36,
+       "prompt": "Counter-shading — first explained by a ___ (Thayer's Law)",
+       "answer": "painter",
+       "accepted": [],
+       "spoken": "painter",
+       "evidence": "by an American painter, Abbott Thayer",
+       "trap": "It is often attributed to a zoologist, which the lecturer corrects."
+      },
+      {
+       "n": 37,
+       "prompt": "Removes the ___ on the lower body so that the animal looks flat",
+       "answer": "shadow",
+       "accepted": [],
+       "spoken": "shadow",
+       "evidence": "Counter-shading cancels out the shadow on the underside",
+       "trap": "'shading', 'belly' and 'light' are all nearby; only 'shadow' is what is cancelled."
+      },
+      {
+       "n": 38,
+       "prompt": "Marine animals: a pale belly is hard to see from below against the light ___ of the water",
+       "answer": "surface",
+       "accepted": [],
+       "spoken": "surface",
+       "evidence": "against the bright surface of the water",
+       "trap": "'deep water' is mentioned for the dark back seen from above."
+      },
+      {
+       "n": 39,
+       "prompt": "Dinosaur fossil: gradual shading suggests the animal lived in a ___ environment",
+       "answer": "forest",
+       "accepted": [],
+       "spoken": "forest",
+       "evidence": "but to a forest habitat, with light filtered through a dense canopy",
+       "trap": "Open plains had been assumed and are rejected; 'canopy' does not fit the gap grammatically as the habitat."
+      },
+      {
+       "n": 40,
+       "prompt": "Main cost of camouflage: animals must remain ___, which reduces time for feeding",
+       "answer": "motionless",
+       "accepted": [],
+       "spoken": "motionless",
+       "evidence": "Camouflage only works if the animal stays motionless",
+       "trap": "The energy cost of producing pigment is suggested first but described as small."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

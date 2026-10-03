@@ -1,0 +1,442 @@
+[
+ {
+  "id": "rb_sentence_completion_01",
+  "lesson": {
+   "title": "শব্দের ধরন আগে থেকে অনুমান করা (Predict the word type)",
+   "text": "Passage পড়ার আগেই ঠিক করে নিন প্রতিটি gap-এ কোন ধরনের শব্দ বসবে। \"is collected in early...\" — এখানে সময়বাচক শব্দ লাগবে, যেমন কোনো ঋতু বা মাসের নাম। \"takes about ... litres of sap\" — এখানে লাগবে একটি সংখ্যা। শব্দের ধরনটা জানা থাকলে আশেপাশের ভুল ধরনের শব্দগুলো সহজেই বাদ দিতে পারবেন।"
+  },
+  "explanations": {
+   "1": "\"Seventy per cent\" = \"most\"। উত্তরটা একটি মাত্র শব্দ।",
+   "2": "উত্তরটা ২টি শব্দের। \"Indigenous peoples of the region\" লিখলে word limit ছাড়িয়ে যাবে।",
+   "3": "Gap-এ \"warmer\"-এর পরে একটি plural noun দরকার।",
+   "4": "\"Networks of plastic tubing\" ৪টি শব্দ, তাই এটা অনেক লম্বা।",
+   "5": "এটা \"small percentage\"-এর সাথে মিলে যায়।",
+   "6": "\"Roughly\" = \"about\"। \"about\" লিখবেন না, কারণ sentence-এ এটা আগেই \"Roughly\" হিসেবে আছে।",
+   "7": "\"flavour\" লিখবেন না: passage-এ \"flavour\" শব্দটা আগের দিকের syrup-এর জন্য ব্যবহার হয়েছে (\"more delicate in flavour\"), আর পরের দিকের syrup-এর জন্য ব্যবহার হয়েছে \"taste\"।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_02",
+  "lesson": {
+   "title": "কাছাকাছি থাকা সংখ্যা (Numbers close together)",
+   "text": "খেলাধুলা বা ইতিহাসের passage-এ অনেক সাল, দূরত্ব আর সংখ্যা পাশাপাশি থাকে। Question sentence সাধারণত সঠিক সংখ্যাটির context-কে paraphrase করে: \"the distance was fixed\", \"women were first allowed\"। তাই paragraph-এ প্রথম যে সংখ্যা চোখে পড়ল সেটাই লিখে দেবেন না — যে সংখ্যার context প্রশ্নের সাথে মেলে, সেটা খুঁজে বের করুন।"
+  },
+  "explanations": {
+   "1": "উত্তরটা ২টি শব্দের। \"Writings\" = \"texts\"।",
+   "2": "\"Greek\" sentence-এ আগেই আছে (\"from Greece\")।",
+   "3": "\"Annual\" = \"yearly\" — দুটোর অর্থ একই।",
+   "4": "1921-এর সাথে গুলিয়ে ফেলবেন না — ওটা official adoption-এর সাল। এটা একটা nearby-number trap।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "\"the year\" শব্দগুলো থাকায় এখানে একটি সাল লাগবে। 1972 লিখবেন না, ওটা Boston-এর সাথে সম্পর্কিত; 1967-ও না।",
+   "7": "একটি শব্দই যথেষ্ট, আর \"team of pacemakers\" লিখলে sentence-এর grammar-এ বসবে না।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_03",
+  "lesson": {
+   "title": "শুধু একটি শব্দ (ONE WORD ONLY)",
+   "text": "Instruction-এ ONE WORD ONLY থাকলে আপনাকে একটি মাত্র মূল শব্দ খুঁজে বের করতে হবে। বিশেষ করে noun-গুলোর দিকে নজর দিন। Article (a, the) আর adjective বাদ দিতে হবে — তবে sentence-এ যদি ঠিক একটি adjective-ই দরকার হয়, তাহলে সেই adjective-টাই উত্তর।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে একটা direct match।",
+   "2": "\"Brood pouch\" হলো ঢাকনা বা আবরণ, ডিম যার ওপর রাখা হয় সেটা নয়; তাছাড়া এটা ২টি শব্দ।",
+   "3": "\"Stored\" sentence-এ আগেই আছে।",
+   "4": "\"groups known as\"-এর পরে plural noun-টাই বসে।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "Accent ছাড়া বানানটাও সঠিক ধরা হবে।",
+   "7": "\"Waterproof\" sentence-এ আগেই আছে।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_04",
+  "lesson": {
+   "title": "Adjective + noun দিয়ে গঠিত উত্তর (Adjective + noun answers)",
+   "text": "কখনো কখনো gap-এ ২ শব্দের একটি phrase লাগে, যেমন adjective আর noun একসাথে (\"natural resistance\", \"steel reinforcement\")। দেখে নিন sentence-এ adjective-টা আগেই আছে কি না। থাকলে শুধু noun-টা লিখলেই হবে; না থাকলে দুটো শব্দই লাগতে পারে। পুরো sentence-টা মনে মনে জোরে পড়ে দেখলে একই শব্দ দুবার লেখার ভুল এড়ানো যায়।"
+  },
+  "explanations": {
+   "1": "\"Type\" = \"kind\" — দুটোর অর্থ একই।",
+   "2": "\"System\" sentence-এ আগেই আছে, আর ২টি শব্দ word limit-এর মধ্যেই পড়ে।",
+   "3": "এটা passage-এর সাথে একটা direct match।",
+   "4": "এটা passage-এর সাথে একটা direct match।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "\"Lack\" = \"without\" — দুটোর অর্থ একই।",
+   "7": "এটা passage-এর সাথে একটা direct match।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_05",
+  "lesson": {
+   "title": "Plural নাকি singular — কোনটা লাগবে (Plural and singular)",
+   "text": "দেখে নিন sentence-এ singular noun লাগবে নাকি plural: \"a ... called\" হলে singular লাগবে; \"substances known as ...\" হলে plural। Passage-এ শব্দটা যে রূপে আছে ঠিক সেই রূপেই copy করুন, আর নিশ্চিত হোন যে সেটা sentence-এর grammar-এর সাথে মিলছে।"
+  },
+  "explanations": {
+   "1": "\"described as\"-এর পরে sentence-এ একটি adjective দরকার।",
+   "2": "এটা passage-এর সাথে একটা direct match।",
+   "3": "\"pigments called\"-এর সাথে plural-টাই মেলে।",
+   "4": "\"Hidden\" = \"concealed\"। \"Large quantities of chlorophyll\" লিখলে word limit ছাড়িয়ে যাবে।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "\"Kind\" = \"type\" — দুটোর অর্থ একই।",
+   "7": "\"Early\" sentence-এ আগেই আছে। \"frost\" আর \"severe frost\" দুটোই word limit-এর মধ্যে, কিন্তু \"severe early frost\" limit-এর বাইরে।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_06",
+  "lesson": {
+   "title": "Paraphrase করা verb চিনে নেওয়া (Paraphrased verbs)",
+   "text": "Question sentence-এ প্রায়ই passage-এর চেয়ে আলাদা verb ব্যবহার করা হয়: \"made its first crossing\"-এর জায়গায় \"was first tested\", \"was employed in\"-এর জায়গায় \"was used for\"। Sentence-এর verb-টা চিহ্নিত করুন, তার synonym ভাবুন, তারপর একই ধারণাটা passage-এ scan করুন। তবে উত্তরের শব্দটা নিজে সরাসরি passage থেকেই আসবে।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে একটা direct match।",
+   "2": "এটা একটা direct match। \"Tin cans\" ব্যবহার করা হয়েছিল air space তৈরি করতে, কিছু মাপার জন্য নয়।",
+   "3": "উত্তরটা ২টি শব্দের। শুধু \"Aircraft\" লিখলেও সঠিক ধরা হবে।",
+   "4": "1955 (patent) বা 1968 (passenger service)-এর সাথে গুলিয়ে ফেলবেন না।",
+   "5": "\"Rubber\" sentence-এ আগেই আছে।",
+   "6": "1994 হলো Channel Tunnel চালু হওয়ার সাল — এটা একটা nearby-number trap।",
+   "7": "এটা passage-এর সাথে একটা direct match।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_07",
+  "lesson": {
+   "title": "যখন sentence পুরো ধারণাটাই অন্যভাবে বলে (When the sentence rephrases a whole idea)",
+   "text": "Medium level-এ question sentence প্রায়ই একটা পুরো ধারণাকে ভিন্ন শব্দে আবার বলে, তাই keyword মিলিয়ে উত্তর খুঁজে পাওয়া যায় না। এর বদলে নিজেকে জিজ্ঞেস করুন: \"Which part of the passage is this sentence about?\" প্রশ্নগুলোর ক্রম আর প্রতিটি paragraph-এর topic কাজে লাগান। সঠিক sentence-টা খুঁজে পেলে, gap-এ ঠিক ঠিক বসে এমন ১টি বা ২টি শব্দ বের করুন।"
+  },
+  "explanations": {
+   "1": "এটা একটা direct match, আর sentence-এর বাকি অংশটা passage-কে paraphrase করেছে।",
+   "2": "উত্তরটা একটি সংখ্যা আর একটি শব্দ। \"Around\" = \"approximately\", যেটা sentence-এ আগেই আছে। \"a million years\" লিখবেন না — ওটা সেই বরফের কথা, যেটা গবেষকেরা এখনো খুঁজে বেড়াচ্ছেন।",
+   "3": "\"Small\" sentence-এ আগেই আছে।",
+   "4": "\"Fewer\" = \"a lower proportion\" — দুটোর অর্থ একই।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "\"Too thin to distinguish\" লিখলে word limit ছাড়িয়ে যাবে, কিন্তু \"too thin\" limit আর grammar দুটোর সাথেই মেলে।",
+   "7": "এটা passage-এর সাথে একটা direct match।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_08",
+  "lesson": {
+   "title": "পরপর আসা মানুষ আর পদার্থ (People and substances in close sequence)",
+   "text": "Passage যখন খুব অল্প জায়গায় একের পর এক কয়েকজন মানুষ আর কয়েকটি পদার্থের কথা বলে, তখন একজনের সাফল্যের পাশেই আরেকজনের পদার্থের নাম থাকতে পারে। উত্তর লেখার আগে নিশ্চিত হোন যে sentence-এর মানুষ, সাল আর পদার্থ — তিনটিই passage-এর একই sentence-এর সাথে মিলছে।"
+  },
+  "explanations": {
+   "1": "\"Most valued skill\" = \"most important quality\" — দুটোর অর্থ একই।",
+   "2": "\"Suggestion\" = \"proposal\" — দুটোর অর্থ একই।",
+   "3": "এটা passage-এর সাথে একটা direct match।",
+   "4": "এটা সাল (1846) আর পদার্থ (ether) দুটোর সাথেই মেলে। 1845-এর nitrous oxide demonstration ব্যর্থ হয়েছিল, তাই সেটা এই sentence-এ খাটে না।",
+   "5": "\"Highly\" sentence-এ আগেই আছে, তাই একটি শব্দই যথেষ্ট।",
+   "6": "এটা passage-এর সাথে একটা direct match।",
+   "7": "John Snow এটা প্রয়োগ করেছিলেন; আর এটা দেওয়া হয়েছিল Queen-কে।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_09",
+  "lesson": {
+   "title": "তিন শব্দের limit (THREE WORDS limits)",
+   "text": "Word limit তিন শব্দ হলে উত্তর ছোট noun phrase হতে পারে (\"the waggle run\", \"angle to the sun\")। অর্থ সম্পূর্ণ করতে যতটুকু শব্দ লাগে, শুধু ততটুকুই নিন: sentence-এ আগেই article থাকলে article লেখা বা না লেখা আপনার ইচ্ছা। দেখে নিন আপনার phrase-এ sentence-এ আগে থেকে থাকা কোনো শব্দ আবার চলে আসছে কি না।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে একটা direct match।",
+   "2": "\"Roughly\" = \"about\", যেটা sentence-এ আগেই আছে।",
+   "3": "উত্তরটা ২ বা ৩টি শব্দের। \"Key\" = \"essential\"।",
+   "4": "\"Represents\" sentence-এ আগেই আছে \"represented by\" হিসেবে।",
+   "5": "বিকল্প ব্যাখ্যা \"energy they use\"-কে passage-এ স্পষ্টভাবে বাতিল করা হয়েছে।",
+   "6": "এটা একটা direct match। \"Much\" sentence-এ আগেই আছে।",
+   "7": "\"Radar\" (Paragraph F) দিয়ে মৌমাছিদের track করা হয়েছিল, কিন্তু খাবার ছাড়া direction পরীক্ষা করা হয়নি — তাই এটা একটা trap।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_10",
+  "lesson": {
+   "title": "একটি শব্দ এবং/অথবা একটি সংখ্যা (ONE WORD AND/OR A NUMBER)",
+   "text": "Instruction-এ ONE WORD AND/OR A NUMBER থাকলে উত্তর হতে পারে একটি শব্দ (locks), একটি সংখ্যা (1869), অথবা একটি সংখ্যা আর একটি শব্দ (193 kilometres)। সংখ্যা ছাড়া ২ শব্দের phrase লেখা যাবে না। মাপের উত্তর লাগলে unit তখনই লিখবেন, যখন sentence-এ unit আগে থেকে নেই।"
+  },
+  "explanations": {
+   "1": "\"Tip\" = \"end\" — দুটোর অর্থ একই।",
+   "2": "1869 (খোলার সাল) বা 1850s (যখন অনুমতি পাওয়া গিয়েছিল)-এর সাথে গুলিয়ে ফেলবেন না।",
+   "3": "\"Similar\" = \"roughly the same\" — দুটোর অর্থ একই।",
+   "4": "উত্তরটা একটি সংখ্যা আর একটি শব্দ। 164 kilometres ছিল আদি দৈর্ঘ্য — এটা একটা nearby-number trap।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "এটা passage-এর সাথে একটা direct match।",
+   "7": "উত্তরটা একটি সংখ্যা আর একটি শব্দ।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_11",
+  "lesson": {
+   "title": "Passage-এ পরিচয় করানো technical term (Technical terms introduced in the passage)",
+   "text": "বিজ্ঞানের passage-এ প্রায়ই একটা বিশেষ term পরিচয় করিয়ে তার সংজ্ঞা দেওয়া হয় (\"known as reverberation time\", \"so-called vineyard style\")। প্রশ্নে হয়তো ধারণাটা সহজ ভাষায় বর্ণনা করে term-টা চাওয়া হবে, আবার হয়তো term-টা দিয়ে তার সংজ্ঞার একটা অংশ চাওয়া হবে। তাই পড়ার সময় প্রতিটি সংজ্ঞার দুটো অংশই খেয়াল করুন।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে একটা direct match।",
+   "2": "Term-টার সংজ্ঞা passage-এই দেওয়া আছে।",
+   "3": "\"Cushions from a nearby theatre\" লিখলে word limit ছাড়িয়ে যাবে।",
+   "4": "\"Around\" = \"about\" — দুটোর অর্থ একই।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "এটা passage-এর সাথে একটা direct match।",
+   "7": "Hyphen দেওয়া শব্দ একটি শব্দ হিসেবেই গণ্য হয়।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_12",
+  "lesson": {
+   "title": "তুলনা আর শতাংশ (Comparisons and percentages)",
+   "text": "Sentence-এ তুলনা যাচাই করা হতে পারে: \"Recycling uses about ... less energy than...\"। নিশ্চিত হোন আপনার উত্তর passage-এর মতো একই তুলনা প্রকাশ করছে, আর সংখ্যাটা ঠিক যে জিনিসগুলোর তুলনা হচ্ছে সেগুলোর কথাই বলছে। Passage-এর একটা শতাংশ এক sentence-এ সাশ্রয় বোঝাতে পারে, আবার পরের sentence-এ উৎপাদনের অংশ বোঝাতে পারে।"
+  },
+  "explanations": {
+   "1": "\"Considered\" = \"regarded as\" — দুটোর অর্থ একই।",
+   "2": "এটা passage-এর সাথে একটা direct match।",
+   "3": "এটা passage-এর সাথে একটা direct match।",
+   "4": "\"Of cheap power\" sentence-এ আগেই আছে।",
+   "5": "\"Protective oxide\"-ও word limit-এর মধ্যে পড়ে, কিন্তু শুধু \"oxide\" দিয়েই sentence সম্পূর্ণ হয়ে যায়।",
+   "6": "\"Ninety-five per cent\" হলো সাশ্রয়ের পরিমাণ, ব্যবহৃত পরিমাণ নয় — এটাই তুলনার trap।",
+   "7": "\"Pay\" = \"reward\" — দুটোর অর্থ একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_13",
+  "lesson": {
+   "title": "তালিকার মধ্যে distractor (Distractors in lists)",
+   "text": "Passage যখন কয়েকটি জিনিসের তালিকা দেয় (\"rocks, tree bark, walls and gravestones\"), তখন sentence সাধারণত বাড়তি কোনো তথ্য দিয়ে তার একটিকে নির্দেশ করে, যেমন \"surfaces that humans have made\"। তালিকা থেকে কোন জিনিসটা বেছে নিতে হবে, সেই clue পেতে question sentence-টা মনোযোগ দিয়ে পড়ুন।"
+  },
+  "explanations": {
+   "1": "\"Mistaken\" = \"confused\" — দুটোর অর্থ একই।",
+   "2": "Sentence-এর শব্দক্রম উল্টে দেওয়া হয়েছে, কিন্তু শব্দগুলো মিলে যায়।",
+   "3": "এটা একটা সংজ্ঞায়িত term।",
+   "4": "\"Breaking down\" = \"wearing away\" — দুটোর অর্থ একই।",
+   "5": "Gap-এ \"lichens\"-এর আগে একটি adjective দরকার।",
+   "6": "উত্তরটা ২টি শব্দের।",
+   "7": "এটা passage-এর সাথে একটা direct match।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_14",
+  "lesson": {
+   "title": "Completion task-এ দাবি বনাম প্রমাণ (Claims vs evidence in completion tasks)",
+   "text": "Sentence হয়তো কোনো জনপ্রিয় দাবির কথা বলবে, আবার হয়তো সেই দাবি যাচাই করা প্রমাণের কথা বলবে। Sentence-টা কীভাবে শুরু হচ্ছে দেখুন (\"according to a popular explanation...\", \"later research found that...\") এবং passage-এর সংশ্লিষ্ট অংশটা খুঁজে বের করুন। একই বিষয়ে sentence কার মত তুলে ধরছে তার ওপর নির্ভর করে উত্তর আলাদা হতে পারে।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে একটা direct match।",
+   "2": "\"Collide and\" sentence-এ আগেই আছে।",
+   "3": "Sentence-টা জনপ্রিয় দাবির কথা বলছে। \"letter pairs\" লিখবেন না — ওটা historian-দের বিকল্প মতের অংশ।",
+   "4": "Sentence-টা historian-দের মত তুলে ধরছে, জনপ্রিয় দাবি নয়।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "\"Most common\" = \"most frequent\" — দুটোর অর্থ একই।",
+   "7": "\"Invention\" = \"design\" — দুটোর অর্থ একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_15",
+  "lesson": {
+   "title": "কঠিন Sentence Completion — ভারী paraphrase আর নিখুঁতভাবে শব্দ তুলে আনা (Hard Sentence Completion — heavy paraphrase and precise extraction)",
+   "text": "Hard level-এ sentence-গুলো passage-এর ধারণাকে নতুন করে সাজায়, প্রায়ই passage-এর ২টি sentence একসাথে জুড়ে দেয়; সঠিক শব্দগুলো হয়তো একটা লম্বা phrase-এর ভেতরে লুকিয়ে থাকে, আর আপনাকে ঠিক যতটুকু অংশ gap-এ বসে ততটুকুই তুলে আনতে হবে;\n\nআশেপাশের একই ধরনের শব্দ (অন্য noun, অন্য সংখ্যা) distractor হিসেবে কাজ করে। উত্তর লেখার পর পুরো sentence-টা আবার পড়ুন এবং নিজেকে জিজ্ঞেস করুন: passage যা বলছে, sentence-টা কি ঠিক সেটাই বলছে — বেশিও না, কমও না?"
+  },
+  "explanations": {
+   "1": "Gap-এ একটি adverb দরকার।",
+   "2": "এখানে ২টি sentence মিলিয়ে পড়তে হবে। \"Twenty thousand hertz\" হলো ঊর্ধ্বসীমা — এটাই distractor।",
+   "3": "এটা passage-এর সাথে একটা direct match।",
+   "4": "\"Faint throbbing sensation\" ৩টি শব্দ, তাই word limit ছাড়িয়ে যায়; এর মূল ২টি শব্দ তুলে আনুন।",
+   "5": "\"Allow sound to travel more effectively\" = \"more favourable\" — দুটোর অর্থ একই।",
+   "6": "\"Trunks\"-এ receptor আছে ঠিকই, কিন্তু সেগুলোতে ভর দেওয়া হয় না — তাই এটা একই ধরনের একটা distractor।",
+   "7": "\"By sight\" = \"visually\" — দুটোর অর্থ একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_16",
+  "lesson": {
+   "title": "ভিন্ন ভিন্ন জায়গার তথ্য মেলানো sentence (Sentences that combine information from different places)",
+   "text": "Hard level-এর একটি sentence হয়তো এক paragraph-এর একটি তথ্যের সাথে আরেক paragraph-এর একটি শর্ত জুড়ে দেবে। প্রথমে sentence-এর সবচেয়ে আলাদা বা চোখে-পড়া অংশটা দিয়ে জায়গাটা খুঁজে বের করুন, তারপর দেখুন উত্তরটা পুরো sentence-এর সাথে সামঞ্জস্যপূর্ণ কি না। প্রশ্নের ক্রম তখনো passage-এর ক্রমই মেনে চলে, তবে কোনো একটা প্রশ্নের জন্য হয়তো আগের paragraph-এ একবার চোখ বুলিয়ে আসতে হবে।"
+  },
+  "explanations": {
+   "1": "\"Comparable\" = \"as fast as\" — দুটোর অর্থ একই।",
+   "2": "\"Powerful\" = \"strong\"। Word limit-এর মধ্যে থাকতে \"Strong\" আর \"long-lasting\" বাদ দিতে হবে।",
+   "3": "Alaska হলো যেখানে ভূমিকম্পটা হয়েছিল — এটা একই ধরনের একটা distractor।",
+   "4": "\"Ignore\" = \"disregard\" — দুটোর অর্থ একই।",
+   "5": "\"pressure\" আর \"water pressure\" দুটোই word limit-এর মধ্যে।",
+   "6": "\"Satellite\" buoy থেকে data পাঠিয়ে দেয় — এটা ধারাবাহিকতার (sequence) একটা distractor।",
+   "7": "\"Structures\" sentence-এ আগেই আছে।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_17",
+  "lesson": {
+   "title": "শর্তসহ প্রক্রিয়ার ব্যাখ্যা (Process explanations with conditions)",
+   "text": "Technical passage-এ প্রক্রিয়া বোঝানো হয় শর্ত দিয়ে (\"only while an organism is alive\", \"after death, no new ... is taken in\")। Sentence হয়তো মূল প্রক্রিয়াটা না দেখে শর্তটাই যাচাই করবে। only, after, until, once, as long as — এই ধরনের শব্দগুলো মন দিয়ে পড়ুন, কারণ উত্তর প্রায়ই এদের পাশেই থাকে।"
+  },
+  "explanations": {
+   "1": "\"Strike\" = \"hit\" — দুটোর অর্থ একই।",
+   "2": "এটাই শর্তটা। \"New\" sentence-এ আগেই আছে।",
+   "3": "এটা hyphen দেওয়া একটি শব্দ হিসেবে গণ্য হয়।",
+   "4": "5,730 years হলো half-life-এর সময়কাল — তাই এটাই nearby-number trap।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "\"Most importantly\" কথাটাই তালিকায় থাকা ৩টি উপাদানের মধ্যে উত্তরটা চিনিয়ে দেয়।",
+   "7": "এটা hyphen দেওয়া একটি term আর একটি সংখ্যা, word limit-এর মধ্যেই।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_18",
+  "lesson": {
+   "title": "শেষ review — চাপের মধ্যেও নিখুঁত থাকা (Final review — precision under pressure)",
+   "text": "এই set-এ Sentence Completion-এর মূল skill-গুলো একসাথে আছে: ভারী paraphrase, word limit মেনে শব্দ তুলে আনা, একই ধরনের distractor, আর শর্ত। প্রতিটি প্রশ্নের জন্য:\n\n১. অর্থ ধরে passage-এর অংশটা খুঁজে বের করুন।\n\n২. শব্দের ধরন অনুমান করুন।\n\n৩. অর্থ সম্পূর্ণ করতে যত কম শব্দ লাগে, ঠিক ততটুকুই তুলে আনুন।\n\n৪. Word limit, বানান আর grammar মিলিয়ে নিন।"
+  },
+  "explanations": {
+   "1": "\"Fundamental problem\" = \"main cause\" — দুটোর অর্থ একই।",
+   "2": "\"Four to five\" হলো সেই মাত্রা যেখানে অবাধ চলাচল থেমে যায় — এটাই nearby-number trap।",
+   "3": "\"Trampling\" হলো সেই কারণ যেটা বাতিল করা হয়েছে।",
+   "4": "\"Escape\" = \"get away\" — দুটোর অর্থ একই।",
+   "5": "এটা একটা সংজ্ঞায়িত term।",
+   "6": "এটা passage-এর সাথে একটা direct match।",
+   "7": "\"In real time\" = \"as events happen\" — দুটোর অর্থ একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_19",
+  "lesson": {
+   "title": "সময়ের সাথে কারণ-ফলাফলের শিকল (Cause chains across time)",
+   "text": "কিছু passage এমন ঘটনার শিকল বর্ণনা করে যা মাস বা বছর ধরে ঘটে: eruption → বায়ুমণ্ডলে কণা → ঠান্ডা হয়ে যাওয়া → ফসল নষ্ট → সামাজিক প্রভাব। Sentence এই শিকলের যেকোনো একটা ধাপকে লক্ষ্য করতে পারে। মনে মনে একটা timeline রাখুন, আর দেখে নিন আপনার উত্তর শিকলের সঠিক ধাপেরই — আগের বা পরের ধাপের নয়।"
+  },
+  "explanations": {
+   "1": "\"Disease\" sentence-এ আগেই আছে।",
+   "2": "এটা একটা সংজ্ঞায়িত term।",
+   "3": "উত্তরটা ২টি শব্দের, হুবহু copy করা।",
+   "4": "উত্তরটা একটি শব্দ, হুবহু copy করা। উত্তরে passage-এর শব্দরূপ অপরিবর্তিত রাখতে হবে।",
+   "5": "\"Snow ... in June\" ফসল নষ্ট করেনি — তাই \"snow\" হলো একই ধাপের একটা distractor।",
+   "6": "এটা passage-এর সাথে একটা direct match।",
+   "7": "এটা passage-এর সাথে একটা direct match।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_20",
+  "lesson": {
+   "title": "শেষবারের review — সব skill একসাথে (Final review)",
+   "text": "Sentence Completion-এর এই শেষ set-এ সব skill একসাথে যাচাই করা হয়েছে: paraphrase, নিখুঁতভাবে শব্দ তুলে আনা, সংখ্যার distractor, শর্ত আর grammar। দ্রুত কাজ করুন, তবে পরের প্রশ্নে যাওয়ার আগে প্রতিটি সম্পূর্ণ sentence passage আর word limit-এর সাথে মিলিয়ে নিন।"
+  },
+  "explanations": {
+   "1": "\"chambers\" আর \"three chambers\" দুটোই word limit-এর মধ্যে।",
+   "2": "Sentence-এ \"equipment failures\"-কে নতুন করে লেখা হয়েছে \"failures of equipment\" হিসেবে।",
+   "3": "\"Withdraw\" = \"removed\" — দুটোর অর্থ একই।",
+   "4": "\"Remain\" = \"stay\" — দুটোর অর্থ একই।",
+   "5": "\"Failed\" = \"stopped working\" — দুটোর অর্থ একই।",
+   "6": "2008 (চালু হওয়া) আর 2016 (tunnel-এ পানি ঢোকা) হলো nearby-number trap।",
+   "7": "\"Adapt\" শব্দটা passage-এ শুধু সংরক্ষিত বীজ সম্পর্কে একটা নেতিবাচক বাক্যে এসেছে, তাই এটা উত্তর নয়।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_01",
+  "lesson": {
+   "title": "আগে grammar দিয়ে বাদ দিন (Eliminate by grammar first)",
+   "text": "Word bank থাকলে প্রথমে প্রতিটি gap-এর grammar দেখুন: noun, adjective, verb নাকি plural। কোন কোন option grammar অনুযায়ী বসতে পারে, সেগুলো চিহ্নিত করুন। তারপর সেই option-গুলোর মধ্য থেকে অর্থ দেখে বেছে নিন। এতে কাজ দ্রুত হয় আর ভুলও কমে।"
+  },
+  "explanations": {
+   "1": "\"Mice and rats\" = \"rodents\"। G (farmers) grammar অনুযায়ী বসতে পারে, কিন্তু কৃষকেরা শস্য মজুত করতেন — শস্যের প্রতি আকৃষ্ট হননি।",
+   "2": "\"helped to\"-এর পরে gap-এ একটি verb লাগবে। I (damage) এর ঠিক উল্টো অর্থ।",
+   "3": "\"Not native\" = \"did not occur\" — দুটোর অর্থ একই।",
+   "4": "H (feared)-এর পক্ষে passage-এ কোনো সমর্থন নেই।",
+   "5": "Gap-এ \"ships\"-এর আগে একটি adjective দরকার। F (rapidly) একটি adverb, তাই এটা বসে না।",
+   "6": "F (rapidly) grammar অনুযায়ী বসতে পারে, কিন্তু passage-এ এর সমর্থন নেই।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_02",
+  "lesson": {
+   "title": "অংশটা খুঁজুন, তারপর ক্রম ধরে এগোন (Find the section, then work in order)",
+   "text": "\"from the passage\" format-এ summary সাধারণত passage-এর একটানা একটা অংশ নিয়ে লেখা হয়। Summary-র প্রথম ধারণাটা passage-এর কোথায় আছে সেটা খুঁজে বের করুন, তারপর একটা একটা gap ধরে passage-এ সামনের দিকে এগোতে থাকুন। প্রতিটি উত্তর হুবহু copy করুন এবং word limit মিলিয়ে নিন।"
+  },
+  "explanations": {
+   "1": "\"slightly\"-এর পরে gap-এ একটি adjective দরকার।",
+   "2": "এটা passage-এর সাথে একটা direct match।",
+   "3": "\"Carry\" = \"transported\" — দুটোর অর্থ একই।",
+   "4": "\"Hydrothermal\" summary-তে আগেই আছে।",
+   "5": "\"Removes\" = \"takes away\" — দুটোর অর্থ একই।",
+   "6": "\"Skeletons\" summary-তে আগেই আছে।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_03",
+  "lesson": {
+   "title": "Word-bank option-এ paraphrase চিনে নেওয়া (Paraphrased word-bank options)",
+   "text": "Word bank-এর option-গুলো সাধারণত passage-এর শব্দের সাথে হুবহু মেলে না। যেমন, passage বলছে \"launched into orbit\", আর option-এ আছে \"space\"; passage বলছে \"inflate rapidly\", আর option-এ আছে \"quickly\"। অর্থ মিলিয়ে উত্তর দিন। যে option passage-এর কোনো শব্দ হুবহু তুলে দেয়, সেটাকে সন্দেহের চোখে দেখুন, কারণ সেটা হয়তো অন্য কোনো context থেকে এসেছে।"
+  },
+  "explanations": {
+   "1": "H (colouring) grammar অনুযায়ী বসতে পারে, কিন্তু passage-এ এটা বলা নেই।",
+   "2": "G (heavy)-এর অর্থ ভুল।",
+   "3": "J (push) এর ঠিক উল্টো অর্থ।",
+   "4": "\"In orbit\" = \"in space\" — দুটোর অর্থ একই।",
+   "5": "অর্থের দিক থেকে এটা একটা direct match।",
+   "6": "I (slowly) এর ঠিক উল্টো অর্থ।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_04",
+  "lesson": {
+   "title": "Summary-তে ২ শব্দের উত্তর (Two-word answers in summaries)",
+   "text": "Word limit দুই শব্দ হলে দেখে নিন phrase-এর কোনো অংশ summary-তে আগেই আছে কি না। Summary-তে যদি লেখা থাকে \"the game spread along trade ...\", তাহলে gap-এ শুধু \"routes\" লাগবে, \"trade routes\" নয়। Gap-এর দুই পাশের শব্দগুলো পড়ে নিলে একই শব্দ দুবার লেখার ভুল হয় না।"
+  },
+  "explanations": {
+   "1": "\"Ancient\" summary-তে আগেই আছে। শুধু \"Army\" লিখলেও সঠিক ধরা হবে।",
+   "2": "এটা passage-এর সাথে একটা direct match।",
+   "3": "\"Trade\" summary-তে আগেই আছে, তাই \"trade routes\" লিখলে শব্দটা দুবার হয়ে যাবে।",
+   "4": "\"Most powerful\" = \"strongest\" — দুটোর অর্থ একই।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "এটা passage-এর সাথে একটা direct match।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_05",
+  "lesson": {
+   "title": "Word bank-এ বিপরীত শব্দের জোড়া (Opposite pairs in the word bank)",
+   "text": "Word bank-এ প্রায়ই বিপরীত শব্দের জোড়া থাকে (stronger/weaker, liquid/solid, easy/difficult)। এমন জোড়া দেখলে সাধারণত একটা উত্তর হয় আর অন্যটা distractor। Passage-এ sentence-টা খুঁজে বের করুন এবং কোন দিকে অর্থ যাচ্ছে তা সাবধানে ঠিক করুন।"
+  },
+  "explanations": {
+   "1": "B (weaker) এর বিপরীত, আর সেটা Question 5-এর জন্য লাগবে।",
+   "2": "F (solid) এর বিপরীত, আর সেটা sentence-এর পরের অংশেই আগে থেকে প্রকাশ করা আছে।",
+   "3": "\"Harsh\" = \"strong\" — দুটোর অর্থ একই।",
+   "4": "J (glands) একটা keyword trap: glands silk তৈরি করে ঠিকই, কিন্তু silk-এর ধরনগুলো glands-এর জন্য নয়।",
+   "5": "এটা passage-এর সাথে একটা direct match।",
+   "6": "\"Progress\" = \"improvements\", আর I (failures) এর বিপরীত।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_06",
+  "lesson": {
+   "title": "যে summary passage-এর কিছু অংশ বাদ দেয় (Summaries that skip parts of the passage)",
+   "text": "Summary passage-এর পুরো কয়েকটি sentence, এমনকি একটা গোটা paragraph-ও বাদ দিতে পারে। যে paragraph পড়ছেন সেখানে পরের উত্তরটা খুঁজে না পেলে সামনে এগিয়ে যান। ভুল paragraph থেকে জোর করে উত্তর বানাবেন না।"
+  },
+  "explanations": {
+   "1": "\"Rather than\" = \"instead of\" — দুটোর অর্থ একই।",
+   "2": "এটা passage-এর সাথে একটা direct match।",
+   "3": "\"Belonging to\" = \"owned by\" — দুটোর অর্থ একই।",
+   "4": "\"felt\"-এর পরে gap-এ একটি adjective দরকার।",
+   "5": "\"Comb\" summary-তে আগেই আছে।",
+   "6": "Gap-এ একটি adverb দরকার।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_07",
+  "lesson": {
+   "title": "বিতর্কের summary (Summaries of debates)",
+   "text": "Passage যখন কয়েকটি hypothesis নিয়ে আলোচনা করে, তখন summary সেগুলোকে সংক্ষেপে তুলে ধরতে পারে — কোনগুলো সমর্থন পেয়েছে আর কোনগুলো বাতিল হয়েছে সেটাসহ। Word bank-এর option-এ প্রায়ই মূল্যায়নসূচক শব্দ থাকে (supported, questioned, confirmed, doubtful)। প্রতিটি hypothesis সম্পর্কে passage-এর রায় কী, সেটা মিলিয়ে দেখুন।"
+  },
+  "explanations": {
+   "1": "\"Cast doubt\" = \"questioned\"। G (confirmed) এর বিপরীত।",
+   "2": "J (colourful)-এর পক্ষে কোনো সমর্থন নেই।",
+   "3": "এটা passage-এর সাথে একটা direct match।",
+   "4": "I (large) এর বিপরীত।",
+   "5": "H (approach) একটা trap, কারণ মাছিরা ডোরাকাটা চামড়ার কাছে \"just as often\" এসেছিল।",
+   "6": "\"Not fully understood\" = \"uncertain\" — দুটোর অর্থ একই।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_08",
+  "lesson": {
+   "title": "Summary-তে মানুষের ভূমিকা (People's roles in a summary)",
+   "text": "Summary যখন বর্ণনা করে কে কী করেছিলেন, তখন gap-এ কারও পেশা, কোনো পদ্ধতি বা কোনো ফলাফল চাওয়া হতে পারে। উত্তর দেওয়ার আগে ঠিক করুন summary-র sentence-টা কোন ব্যক্তির কথা বলছে, তারপর passage-এর যে অংশে সেই ব্যক্তির অবদানের কথা আছে সেটা খুঁজে বের করুন। আশেপাশে অন্য কোনো ব্যক্তিকে বর্ণনা করা শব্দগুলোই মূল distractor।"
+  },
+  "explanations": {
+   "1": "শুধু \"Authority\" লিখলেও সঠিক ধরা হবে।",
+   "2": "\"How often\" = \"frequency\" — দুটোর অর্থ একই।",
+   "3": "এটা passage-এর সাথে একটা direct match।",
+   "4": "Chadwick ছিলেন একজন \"scholar\" — তাই এটা অন্য ব্যক্তির distractor।",
+   "5": "\"On Crete\" summary-তে আগেই আছে।",
+   "6": "\"Pot\" শব্দটাও আছে, কিন্তু drawing-গুলোর জন্য যে term ব্যবহার করা হয়েছে সেটা হলো \"vessels\"।"
+  }
+ }
+]

@@ -1,0 +1,166 @@
+{
+ "code": "P3-MA",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:09]-[0:13]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[0:16]-[0:18]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:22]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:25]-[0:27]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:29]-[0:31]",
+   "note": "Nadia writes; Ethan only checks it"
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "E",
+   "audio_answer": "E",
+   "evidence": "[0:34]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:42]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "differs",
+   "key": "C",
+   "audio_answer": "F",
+   "evidence": "[0:47] 'It's very good research, but it's full of economic modeling, far more technical than a project like yours needs.'",
+   "note": "Final verdict is 'too technical' (F); 'very good research' is the distractor."
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:54]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "differs",
+   "key": "D",
+   "audio_answer": "C",
+   "evidence": "[0:59] 'That needs a license, so don't rely on it. But last year's student interviews are excellent.'",
+   "note": "'Needs a license' (difficult to access) refers to the government database, not the interviews; interviews are 'excellent' = very useful (C)."
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "D",
+   "audio_answer": "D",
+   "evidence": "[1:10]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[1:13]",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[1:18]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "E",
+   "audio_answer": "E",
+   "evidence": "[1:23]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:27]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[1:33]",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:37]",
+   "note": ""
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "D",
+   "audio_answer": "D",
+   "evidence": "[1:42]",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "E",
+   "audio_answer": "E",
+   "evidence": "[1:47] two weeks after week 9 = week 11",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "F",
+   "audio_answer": "F",
+   "evidence": "[1:47]",
+   "note": ""
+  }
+ ],
+ "summary": "18 ok; Q8 recording supports F (too technical), Q10 supports C (very useful) - key's C/D appear swapped onto wrong sources."
+}

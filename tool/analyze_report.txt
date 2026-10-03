@@ -1,0 +1,919 @@
+Resolving dependencies...
+Downloading packages...
+  audio_session 0.1.25 (0.2.4 available)
+  cli_util 0.4.2 (0.6.0 available)
+  code_assets 1.2.1 (2.1.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  cupertino_icons 1.0.9 (2.0.0 available)
+  google_fonts 6.3.3 (9.0.0 available)
+  hooks 2.0.2 (2.2.0 available)
+  just_audio 0.9.46 (0.10.6 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  objective_c 9.5.0 (9.6.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  share_plus 11.1.0 (13.3.0 available)
+  share_plus_platform_interface 6.1.0 (7.2.0 available)
+  test_api 0.7.12 (0.7.14 available)
+  vector_math 2.4.0 (2.4.3 available)
+  win32 5.15.0 (6.4.0 available)
+Got dependencies!
+17 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+ 
+===== flutter analyze ===== 
+Resolving dependencies...
+Downloading packages...
+  audio_session 0.1.25 (0.2.4 available)
+  cli_util 0.4.2 (0.6.0 available)
+  code_assets 1.2.1 (2.1.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  cupertino_icons 1.0.9 (2.0.0 available)
+  google_fonts 6.3.3 (9.0.0 available)
+  hooks 2.0.2 (2.2.0 available)
+  just_audio 0.9.46 (0.10.6 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  objective_c 9.5.0 (9.6.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  share_plus 11.1.0 (13.3.0 available)
+  share_plus_platform_interface 6.1.0 (7.2.0 available)
+  test_api 0.7.12 (0.7.14 available)
+  vector_math 2.4.0 (2.4.3 available)
+  win32 5.15.0 (6.4.0 available)
+Got dependencies!
+17 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing nexted_ielts_app...                                   
+
+   info - Angle brackets will be interpreted as HTML. Try using backticks around the content with angle brackets, or try replacing `<` with `&lt;` and `>` with `&gt;` - lib\app\data\content.dart:45:65 - unintended_html_in_doc_comment
+   info - Angle brackets will be interpreted as HTML. Try using backticks around the content with angle brackets, or try replacing `<` with `&lt;` and `>` with `&gt;` - lib\app\data\content.dart:197:22 - unintended_html_in_doc_comment
+   info - Angle brackets will be interpreted as HTML. Try using backticks around the content with angle brackets, or try replacing `<` with `&lt;` and `>` with `&gt;` - lib\app\data\content.dart:198:29 - unintended_html_in_doc_comment
+   info - Angle brackets will be interpreted as HTML. Try using backticks around the content with angle brackets, or try replacing `<` with `&lt;` and `>` with `&gt;` - lib\features\reading\session.dart:106:38 - unintended_html_in_doc_comment
+   info - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?' - lib\features\speaking\bank.dart:116:5 - use_null_aware_elements
+
+5 issues found. (ran in 67.4s)
+ 
+===== flutter test ===== 
+Resolving dependencies...
+Downloading packages...
+  audio_session 0.1.25 (0.2.4 available)
+  cli_util 0.4.2 (0.6.0 available)
+  code_assets 1.2.1 (2.1.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  cupertino_icons 1.0.9 (2.0.0 available)
+  google_fonts 6.3.3 (9.0.0 available)
+  hooks 2.0.2 (2.2.0 available)
+  just_audio 0.9.46 (0.10.6 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  objective_c 9.5.0 (9.6.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  share_plus 11.1.0 (13.3.0 available)
+  share_plus_platform_interface 6.1.0 (7.2.0 available)
+  test_api 0.7.12 (0.7.14 available)
+  vector_math 2.4.0 (2.4.3 available)
+  win32 5.15.0 (6.4.0 available)
+Got dependencies!
+17 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading D:/dev/nexted_ielts_app/test/content_test.dart
+00:00 +0: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 40/40 → 9.0
+00:00 +1: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +2: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +3: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +4: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +5: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +6: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +7: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +8: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +9: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +10: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +11: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +12: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +13: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +14: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +15: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +16: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +17: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +18: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +19: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +20: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +21: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +22: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +23: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +24: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +25: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +26: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +27: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +28: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +29: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +30: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +31: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +32: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +33: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +34: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +35: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +36: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +37: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +38: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +39: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +40: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +41: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +42: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +43: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +44: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +45: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +46: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +47: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +48: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +49: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +50: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +51: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +52: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +53: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +54: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +55: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +56: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +57: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +58: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +59: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +60: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +61: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +62: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +63: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +64: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +65: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +66: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +67: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +68: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +69: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +70: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +70: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 36/40 → 7.5
+00:00 +71: D:/dev/nexted_ielts_app/test/content_test.dart: collections are present and non-empty
+00:00 +72: D:/dev/nexted_ielts_app/test/content_test.dart: collections are present and non-empty
+00:00 +73: D:/dev/nexted_ielts_app/test/content_test.dart: collections are present and non-empty
+00:00 +74: D:/dev/nexted_ielts_app/test/content_test.dart: collections are present and non-empty
+00:00 +75: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 32/40 → 6.5
+00:00 +76: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 31/40 → 6.0
+00:00 +77: D:/dev/nexted_ielts_app/test/content_test.dart: collections ids are unique per collection
+00:00 +78: D:/dev/nexted_ielts_app/test/content_test.dart: collections ids are unique per collection
+00:00 +79: D:/dev/nexted_ielts_app/test/content_test.dart: collections ids are unique per collection
+00:00 +80: D:/dev/nexted_ielts_app/test/content_test.dart: collections ids are unique per collection
+00:00 +81: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 26/40 → 5.0
+00:00 +82: D:/dev/nexted_ielts_app/test/content_test.dart: reading every test has 3 existing passages totalling 40 questions
+00:00 +83: D:/dev/nexted_ielts_app/test/content_test.dart: reading every test has 3 existing passages totalling 40 questions
+00:00 +84: D:/dev/nexted_ielts_app/test/content_test.dart: reading every test has 3 existing passages totalling 40 questions
+00:00 +85: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 19/40 → 4.5
+00:00 +86: D:/dev/nexted_ielts_app/test/content_test.dart: reading questions are numbered 1..n within each passage
+00:00 +87: D:/dev/nexted_ielts_app/test/content_test.dart: reading questions are numbered 1..n within each passage
+00:00 +88: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 15/40 → 4.0
+00:00 +89: D:/dev/nexted_ielts_app/test/content_test.dart: reading every question has a valid answer
+00:00 +90: D:/dev/nexted_ielts_app/test/content_test.dart: reading every question has a valid answer
+00:00 +91: D:/dev/nexted_ielts_app/test/content_test.dart: reading every question has a valid answer
+00:00 +92: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 11/40 → 3.0
+00:00 +93: D:/dev/nexted_ielts_app/test/content_test.dart: reading evidence phrase appears verbatim in its paragraph
+00:00 +94: D:/dev/nexted_ielts_app/test/content_test.dart: reading evidence phrase appears verbatim in its paragraph
+00:00 +95: D:/dev/nexted_ielts_app/test/content_test.dart: reading evidence phrase appears verbatim in its paragraph
+00:00 +96: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 6/40 → 2.5
+00:00 +97: D:/dev/nexted_ielts_app/test/content_test.dart: listening every test has 4 existing sets (Parts 1–4) totalling 40 questions
+00:00 +98: D:/dev/nexted_ielts_app/test/content_test.dart: listening every test has 4 existing sets (Parts 1–4) totalling 40 questions
+00:00 +99: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 1/40 → 2.0
+00:00 +100: D:/dev/nexted_ielts_app/test/content_test.dart: listening each set's audio asset exists on disk (bank recordings may be pending)
+00:00 +101: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 0/40 → 0.0
+00:00 +102: D:/dev/nexted_ielts_app/test/content_test.dart: listening questions are numbered 1..n within each set (multi counts twice)
+00:00 +103: D:/dev/nexted_ielts_app/test/content_test.dart: listening questions are numbered 1..n within each set (multi counts twice)
+00:00 +104: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) empty list → 0
+00:00 +105: D:/dev/nexted_ielts_app/test/content_test.dart: listening every question has a valid answer
+00:00 +106: D:/dev/nexted_ielts_app/test/content_test.dart: listening every question has a valid answer
+00:00 +107: D:/dev/nexted_ielts_app/test/content_test.dart: listening every question has a valid answer
+00:00 +108: D:/dev/nexted_ielts_app/test/content_test.dart: listening every question has a valid answer
+00:00 +109: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) .375 and .625 round to the half band
+00:00 +110: D:/dev/nexted_ielts_app/test/content_test.dart: listening transcripts are present
+00:00 +111: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) .75 rounds up to the next whole band
+00:00 +112: D:/dev/nexted_ielts_app/test/content_test.dart: listening question bank 32 sets: every part has each of the 8 formats once, 20 questions each
+00:00 +113: D:/dev/nexted_ielts_app/test/content_test.dart: listening question bank 32 sets: every part has each of the 8 formats once, 20 questions each
+00:00 +114: D:/dev/nexted_ielts_app/test/content_test.dart: listening question bank 32 sets: every part has each of the 8 formats once, 20 questions each
+00:00 +115: D:/dev/nexted_ielts_app/test/scoring_test.dart: Store.roundBand / formatBand clamped to 0..9
+00:00 +116: D:/dev/nexted_ielts_app/test/content_test.dart: listening question bank group types are known and carry what the screens need
+00:00 +117: D:/dev/nexted_ielts_app/test/content_test.dart: listening question bank group types are known and carry what the screens need
+00:00 +118: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing returns every criterion as a half band in 3..9
+00:00 +119: D:/dev/nexted_ielts_app/test/content_test.dart: listening question bank transcript lines are in time order and every speaker has a voice
+00:00 +120: D:/dev/nexted_ielts_app/test/content_test.dart: listening question bank transcript lines are in time order and every speaker has a voice
+00:00 +121: D:/dev/nexted_ielts_app/test/content_test.dart: listening question bank transcript lines are in time order and every speaker has a voice
+00:00 +122: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing counts words and asks for the task minimum
+00:00 +123: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank 140 Task 1 (7 types × 20) and 120 Task 2 (6 types × 20) questions
+00:00 +124: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing is deterministic
+00:00 +125: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every Task 1 question has its visual on disk and its data
+00:00 +126: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every Task 1 question has its visual on disk and its data
+00:00 +127: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every Task 1 question has its visual on disk and its data
+00:00 +128: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.speaking every criterion is a half band in 3..9 and band = rounded mean
+00:00 +129: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +130: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +131: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +132: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +133: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +134: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +135: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +136: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +137: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +138: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+00:00 +138 -1: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.matches exact and case-insensitive
+00:00 +138 -1: D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task [E]
+  Expected: a value greater than or equal to <3>
+    Actual: <0>
+     Which: is not a value greater than or equal to <3>
+  wb1_line_01 band 6
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\content_test.dart 337:11                       main.<fn>.<fn>
+  
+00:00 +139 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank 62 Part 1 topics × 5, 200 cue cards, 60 Part 3 topics × 8
+00:00 +140 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank 62 Part 1 topics × 5, 200 cue cards, 60 Part 3 topics × 8
+00:00 +141 -1: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.matches pipe-separated alternatives
+00:00 +142 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank cue cards: 4 bullets, a 2-minute sample, 2 follow-ups, linked Part 3
+00:00 +143 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank cue cards: 4 bullets, a 2-minute sample, 2 follow-ups, linked Part 3
+00:00 +144 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank cue cards: 4 bullets, a 2-minute sample, 2 follow-ups, linked Part 3
+00:00 +145 -1: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.matches blank answers never match
+00:00 +146 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank every marked word has a dictionary entry
+00:00 +147 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank every marked word has a dictionary entry
+00:00 +148 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank every marked word has a dictionary entry
+00:00 +149 -1: D:/dev/nexted_ielts_app/test/content_test.dart: speaking question bank demo topics and cards still resolve by id (mock tests)
+00:00 +150 -1: D:/dev/nexted_ielts_app/test/content_test.dart: writing & speaking prompts have text
+00:00 +151 -1: D:/dev/nexted_ielts_app/test/content_test.dart: writing & speaking part 1 topics have questions, cue cards have bullets
+00:00 +152 -1: D:/dev/nexted_ielts_app/test/content_test.dart: mock tests reference existing listening/reading tests, prompts, topic and cue card
+00:00 +153 -1: D:/dev/nexted_ielts_app/test/content_test.dart: quizzes each quiz has questions with options and an in-range answer
+00:00 +154 -1: D:/dev/nexted_ielts_app/test/content_test.dart: quizzes phrasal verbs and idioms are present
+00:00 +155 -1: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed demo account seed exists with attempts
+00:00 +156 -1: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed seed attempt ids are unique
+00:00 +157 -1: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed attempt refIds resolve to bank content
+00:00 +158 -1: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed band-scored seed attempts use half bands
+00:00 +159 -1: D:/dev/nexted_ielts_app/test/content_test.dart: reading question bank is loaded: 280 sets, 14 type lessons, 20 short tests
+00:00 +160 -1: D:/dev/nexted_ielts_app/test/content_test.dart: reading question bank bank ids resolve through the normal reading lookups
+00:00 +161 -1: D:/dev/nexted_ielts_app/test/content_test.dart: reading question bank questions are numbered 1..n and every stored answer scores as correct
+00:00 +162 -1: D:/dev/nexted_ielts_app/test/content_test.dart: reading question bank a wrong or empty answer is never scored correct
+00:00 +163 -1: D:/dev/nexted_ielts_app/test/content_test.dart: reading question bank short tests: passages exist and question numbers run 1..questionCount
+00:00 +164 -1: D:/dev/nexted_ielts_app/test/content_test.dart: reading question bank diagram sets point to an image that exists
+00:00 +165 -1: D:/dev/nexted_ielts_app/test/content_test.dart: reading question bank gap markers are renumbered in tests
+00:00 +166 -1: D:/dev/nexted_ielts_app/test/content_test.dart: (tearDownAll)
+00:01 +166 -1: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:01 +166 -2: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:01 +166 -2: D:/dev/nexted_ielts_app/test/widget_test.dart: screen catalog covers all 75 canvas screens with unique routes [E]
+  Expected: <75>
+    Actual: <77>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\widget_test.dart 6:5                           main.<fn>
+  
+00:01 +166 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +167 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +168 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +169 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +170 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +171 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +172 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +173 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +174 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +175 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:01 +175 -2: D:/dev/nexted_ielts_app/test/store_test.dart: sign-up can log out and back in with the new password
+00:01 +176 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +177 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +178 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +179 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +180 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +181 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +182 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +183 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +184 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +185 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+00:01 +185 -3: D:/dev/nexted_ielts_app/test/store_test.dart: account management changes are written to SharedPreferences
+00:01 +185 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes [E]
+  Expected: <87>
+    Actual: <89>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\screens_smoke_test.dart 355:5                  main.<fn>
+  
+00:01 +186 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +187 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +188 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +189 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +190 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +191 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +192 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +193 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +194 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +195 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +196 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +197 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +198 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +199 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +200 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +201 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +202 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +203 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +204 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 412x915 · demo]
+00:01 +205 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [night 360x740 · demo]
+00:01 +206 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [night 412x915 · demo]
+00:02 +207 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [day 360x740 · demo]
+00:02 +208 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [day 412x915 · demo]
+00:02 +209 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [night 360x740 · demo]
+00:02 +210 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [night 412x915 · demo]
+00:02 +211 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [day 360x740 · demo]
+00:02 +212 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [day 412x915 · demo]
+00:02 +213 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [night 360x740 · demo]
+00:02 +214 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [night 412x915 · demo]
+00:02 +215 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [day 360x740 · demo]
+00:02 +216 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [day 412x915 · demo]
+00:02 +217 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [night 360x740 · demo]
+00:02 +218 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [night 412x915 · demo]
+00:02 +219 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [day 360x740 · demo]
+00:02 +220 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [day 412x915 · demo]
+00:02 +221 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [night 360x740 · demo]
+00:02 +222 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [night 412x915 · demo]
+00:02 +223 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A6 /onboarding/target-band [day 360x740 · demo]
+00:02 +224 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A6 /onboarding/target-band [day 412x915 · demo]
+00:03 +225 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A6 /onboarding/target-band [night 360x740 · demo]
+00:03 +226 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A6 /onboarding/target-band [night 412x915 · demo]
+00:03 +227 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A7 /onboarding/diagnostic [day 360x740 · demo]
+00:03 +228 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A7 /onboarding/diagnostic [day 412x915 · demo]
+00:03 +229 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A7 /onboarding/diagnostic [night 360x740 · demo]
+00:03 +230 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A7 /onboarding/diagnostic [night 412x915 · demo]
+00:03 +231 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A8 /onboarding/mic-permission [day 360x740 · demo]
+00:03 +232 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A8 /onboarding/mic-permission [day 412x915 · demo]
+00:03 +233 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A8 /onboarding/mic-permission [night 360x740 · demo]
+00:03 +234 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A8 /onboarding/mic-permission [night 412x915 · demo]
+00:03 +235 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [day 360x740 · demo]
+00:03 +236 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [day 412x915 · demo]
+00:03 +237 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [night 360x740 · demo]
+00:03 +238 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [night 412x915 · demo]
+00:03 +239 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [day 360x740 · demo]
+00:03 +240 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [day 412x915 · demo]
+00:03 +241 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [night 360x740 · demo]
+00:03 +242 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [night 412x915 · demo]
+00:04 +243 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [day 360x740 · demo]
+00:04 +244 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [day 412x915 · demo]
+00:04 +245 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [night 360x740 · demo]
+00:04 +246 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [night 412x915 · demo]
+00:04 +247 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [day 360x740 · demo]
+00:04 +248 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [day 412x915 · demo]
+00:04 +249 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [night 360x740 · demo]
+00:04 +250 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [night 412x915 · demo]
+00:04 +251 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [day 360x740 · demo]
+00:04 +252 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [day 412x915 · demo]
+00:04 +253 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [night 360x740 · demo]
+00:04 +254 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [night 412x915 · demo]
+00:04 +255 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [day 360x740 · demo]
+00:04 +256 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [day 412x915 · demo]
+00:04 +257 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [night 360x740 · demo]
+00:04 +258 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [night 412x915 · demo]
+00:05 +259 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [day 360x740 · demo]
+00:05 +260 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [day 412x915 · demo]
+00:05 +261 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [night 360x740 · demo]
+00:05 +262 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [night 412x915 · demo]
+00:05 +263 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [day 360x740 · demo]
+00:05 +264 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [day 412x915 · demo]
+00:05 +265 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [night 360x740 · demo]
+00:05 +266 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [night 412x915 · demo]
+00:05 +267 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C1 /writing [day 360x740 · demo]
+00:05 +268 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C1 /writing [day 412x915 · demo]
+00:05 +269 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C1 /writing [night 360x740 · demo]
+00:05 +270 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C1 /writing [night 412x915 · demo]
+00:05 +271 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [day 360x740 · demo]
+00:06 +272 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [day 412x915 · demo]
+00:06 +273 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [night 360x740 · demo]
+00:06 +274 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [night 412x915 · demo]
+00:06 +275 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [day 360x740 · demo]
+00:06 +276 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [day 412x915 · demo]
+00:06 +277 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [night 360x740 · demo]
+00:06 +278 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [night 412x915 · demo]
+00:06 +279 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C4 /writing/line-review [day 360x740 · demo]
+00:06 +280 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C4 /writing/line-review [day 412x915 · demo]
+00:06 +281 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C4 /writing/line-review [night 360x740 · demo]
+00:06 +282 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C4 /writing/line-review [night 412x915 · demo]
+00:06 +283 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [day 360x740 · demo]
+00:06 +284 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [day 412x915 · demo]
+00:06 +285 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [night 360x740 · demo]
+00:07 +286 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [night 412x915 · demo]
+00:07 +287 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C6 /writing/rewriter [day 360x740 · demo]
+00:07 +288 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C6 /writing/rewriter [day 412x915 · demo]
+00:07 +289 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C6 /writing/rewriter [night 360x740 · demo]
+00:07 +290 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C6 /writing/rewriter [night 412x915 · demo]
+00:07 +291 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C7 /writing/sentence-builder [day 360x740 · demo]
+00:07 +292 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C7 /writing/sentence-builder [day 412x915 · demo]
+00:07 +293 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C7 /writing/sentence-builder [night 360x740 · demo]
+00:07 +294 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C7 /writing/sentence-builder [night 412x915 · demo]
+00:07 +295 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C8 /writing/masterclass [day 360x740 · demo]
+00:07 +296 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C8 /writing/masterclass [day 412x915 · demo]
+00:07 +297 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C8 /writing/masterclass [night 360x740 · demo]
+00:07 +298 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C8 /writing/masterclass [night 412x915 · demo]
+00:08 +299 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [day 360x740 · demo]
+00:08 +300 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [day 412x915 · demo]
+00:08 +301 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [night 360x740 · demo]
+00:08 +302 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [night 412x915 · demo]
+00:08 +303 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C10 /writing/template [day 360x740 · demo]
+00:08 +304 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C10 /writing/template [day 412x915 · demo]
+00:08 +305 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C10 /writing/template [night 360x740 · demo]
+00:08 +306 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C10 /writing/template [night 412x915 · demo]
+00:08 +307 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C11 /writing/ideas [day 360x740 · demo]
+00:08 +308 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C11 /writing/ideas [day 412x915 · demo]
+00:08 +309 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C11 /writing/ideas [night 360x740 · demo]
+00:08 +310 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C11 /writing/ideas [night 412x915 · demo]
+00:09 +311 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C12 /writing/feedback-loading [day 360x740 · demo]
+00:09 +312 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C12 /writing/feedback-loading [day 412x915 · demo]
+00:09 +313 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C12 /writing/feedback-loading [night 360x740 · demo]
+00:09 +314 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C12 /writing/feedback-loading [night 412x915 · demo]
+00:09 +315 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [day 360x740 · demo]
+00:09 +316 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [day 412x915 · demo]
+00:09 +317 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [night 360x740 · demo]
+00:09 +318 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [night 412x915 · demo]
+00:09 +319 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D1 /speaking [day 360x740 · demo]
+00:09 +320 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D1 /speaking [day 412x915 · demo]
+00:09 +321 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D1 /speaking [night 360x740 · demo]
+00:09 +322 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D1 /speaking [night 412x915 · demo]
+00:09 +323 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 360x740 · demo]
+00:09 +324 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 412x915 · demo]
+00:10 +325 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 360x740 · demo]
+00:10 +326 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 412x915 · demo]
+00:10 +327 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [day 360x740 · demo]
+00:10 +328 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [day 412x915 · demo]
+00:10 +329 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [night 360x740 · demo]
+00:10 +330 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [night 412x915 · demo]
+00:10 +331 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D4 /speaking/recording [day 360x740 · demo]
+00:10 +332 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D4 /speaking/recording [day 412x915 · demo]
+00:10 +333 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D4 /speaking/recording [night 360x740 · demo]
+00:10 +334 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D4 /speaking/recording [night 412x915 · demo]
+00:10 +335 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D5 /speaking/transcript [day 360x740 · demo]
+00:10 +336 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D5 /speaking/transcript [day 412x915 · demo]
+00:10 +337 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D5 /speaking/transcript [night 360x740 · demo]
+00:11 +338 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D5 /speaking/transcript [night 412x915 · demo]
+00:11 +339 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [day 360x740 · demo]
+00:11 +340 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [day 412x915 · demo]
+00:11 +341 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [night 360x740 · demo]
+00:11 +342 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [night 412x915 · demo]
+00:11 +343 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [day 360x740 · demo]
+00:11 +344 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [day 412x915 · demo]
+00:11 +345 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [night 360x740 · demo]
+00:11 +346 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [night 412x915 · demo]
+00:11 +347 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D8 /speaking/vault [day 360x740 · demo]
+00:12 +348 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D8 /speaking/vault [day 412x915 · demo]
+00:12 +349 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D8 /speaking/vault [night 360x740 · demo]
+00:13 +350 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D8 /speaking/vault [night 412x915 · demo]
+00:14 +351 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D9 /speaking/upload-failed [day 360x740 · demo]
+00:14 +352 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D9 /speaking/upload-failed [day 412x915 · demo]
+00:14 +353 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D9 /speaking/upload-failed [night 360x740 · demo]
+00:14 +354 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D9 /speaking/upload-failed [night 412x915 · demo]
+00:14 +355 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [day 360x740 · demo]
+00:14 +356 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [day 412x915 · demo]
+00:14 +357 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [night 360x740 · demo]
+00:14 +358 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [night 412x915 · demo]
+00:14 +359 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [day 360x740 · demo]
+00:14 +360 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [day 412x915 · demo]
+00:14 +361 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [night 360x740 · demo]
+00:14 +362 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [night 412x915 · demo]
+00:14 +363 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [day 360x740 · demo]
+00:14 +364 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [day 412x915 · demo]
+00:15 +365 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [night 360x740 · demo]
+00:15 +366 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [night 412x915 · demo]
+00:15 +367 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E1 /reading/library [day 360x740 · demo]
+00:15 +368 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E1 /reading/library [day 412x915 · demo]
+00:15 +369 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E1 /reading/library [night 360x740 · demo]
+00:15 +370 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E1 /reading/library [night 412x915 · demo]
+00:15 +371 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [day 360x740 · demo]
+00:15 +372 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [day 412x915 · demo]
+00:15 +373 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [night 360x740 · demo]
+00:15 +374 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [night 412x915 · demo]
+00:15 +375 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo]
+00:15 +376 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 412x915 · demo]
+00:16 +377 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo]
+00:16 +378 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 412x915 · demo]
+00:16 +379 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [day 360x740 · demo]
+00:16 +380 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [day 412x915 · demo]
+00:16 +381 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [night 360x740 · demo]
+00:16 +382 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [night 412x915 · demo]
+00:16 +383 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E5 /reading [day 360x740 · demo]
+00:16 +384 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E5 /reading [day 412x915 · demo]
+00:16 +385 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E5 /reading [night 360x740 · demo]
+00:16 +386 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E5 /reading [night 412x915 · demo]
+00:16 +387 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [day 360x740 · demo]
+00:16 +388 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [day 412x915 · demo]
+00:16 +389 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [night 360x740 · demo]
+00:16 +390 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [night 412x915 · demo]
+00:17 +391 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F1 /listening/library [day 360x740 · demo]
+00:17 +392 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F1 /listening/library [day 412x915 · demo]
+00:17 +393 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F1 /listening/library [night 360x740 · demo]
+00:17 +394 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F1 /listening/library [night 412x915 · demo]
+00:17 +395 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo]
+00:17 +396 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 412x915 · demo]
+00:17 +397 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo]
+00:17 +398 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 412x915 · demo]
+00:17 +399 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo]
+00:18 +400 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 412x915 · demo]
+00:18 +401 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo]
+00:18 +402 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 412x915 · demo]
+00:18 +403 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 360x740 · demo]
+00:18 +404 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 412x915 · demo]
+00:18 +405 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 360x740 · demo]
+00:18 +406 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 412x915 · demo]
+00:18 +407 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F5 /listening [day 360x740 · demo]
+00:18 +408 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F5 /listening [day 412x915 · demo]
+00:19 +409 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F5 /listening [night 360x740 · demo]
+00:19 +410 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F5 /listening [night 412x915 · demo]
+00:19 +411 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 360x740 · demo]
+00:19 +412 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 412x915 · demo]
+00:19 +413 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 360x740 · demo]
+00:19 +414 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 412x915 · demo]
+00:19 +415 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F7 /listening/mini-practice [day 360x740 · demo]
+00:19 +416 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F7 /listening/mini-practice [day 412x915 · demo]
+00:19 +417 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F7 /listening/mini-practice [night 360x740 · demo]
+00:19 +418 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F7 /listening/mini-practice [night 412x915 · demo]
+00:19 +419 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [day 360x740 · demo]
+00:19 +420 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [day 412x915 · demo]
+00:19 +421 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [night 360x740 · demo]
+00:19 +422 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [night 412x915 · demo]
+00:19 +423 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [day 360x740 · demo]
+00:20 +424 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [day 412x915 · demo]
+00:20 +425 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [night 360x740 · demo]
+00:20 +426 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [night 412x915 · demo]
+00:20 +427 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [day 360x740 · demo]
+00:20 +428 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [day 412x915 · demo]
+00:20 +429 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [night 360x740 · demo]
+00:20 +430 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [night 412x915 · demo]
+00:20 +431 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G3 /mock/listening [day 360x740 · demo]
+00:20 +432 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G3 /mock/listening [day 412x915 · demo]
+00:20 +433 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G3 /mock/listening [night 360x740 · demo]
+00:21 +434 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G3 /mock/listening [night 412x915 · demo]
+00:21 +435 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G4 /mock/transition [day 360x740 · demo]
+00:21 +436 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G4 /mock/transition [day 412x915 · demo]
+00:21 +437 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G4 /mock/transition [night 360x740 · demo]
+00:21 +438 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G4 /mock/transition [night 412x915 · demo]
+00:21 +439 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G5 /mock/reading [day 360x740 · demo]
+00:21 +440 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G5 /mock/reading [day 412x915 · demo]
+00:22 +441 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G5 /mock/reading [night 360x740 · demo]
+00:22 +442 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G5 /mock/reading [night 412x915 · demo]
+00:22 +443 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G6 /mock/writing [day 360x740 · demo]
+00:22 +444 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G6 /mock/writing [day 412x915 · demo]
+00:22 +445 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G6 /mock/writing [night 360x740 · demo]
+00:22 +446 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G6 /mock/writing [night 412x915 · demo]
+00:22 +447 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G7 /mock/speaking [day 360x740 · demo]
+00:22 +448 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G7 /mock/speaking [day 412x915 · demo]
+00:22 +449 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G7 /mock/speaking [night 360x740 · demo]
+00:22 +450 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G7 /mock/speaking [night 412x915 · demo]
+00:22 +451 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G8 /mock/scoring [day 360x740 · demo]
+00:22 +452 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G8 /mock/scoring [day 412x915 · demo]
+00:22 +453 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G8 /mock/scoring [night 360x740 · demo]
+00:22 +454 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G8 /mock/scoring [night 412x915 · demo]
+00:22 +455 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [day 360x740 · demo]
+00:22 +456 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [day 412x915 · demo]
+00:22 +457 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [night 360x740 · demo]
+00:22 +458 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [night 412x915 · demo]
+00:22 +459 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [day 360x740 · demo]
+00:22 +460 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [day 412x915 · demo]
+00:23 +461 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [night 360x740 · demo]
+00:23 +462 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [night 412x915 · demo]
+00:23 +463 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G11 /mock/exit-warning [day 360x740 · demo]
+00:23 +464 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G11 /mock/exit-warning [day 412x915 · demo]
+00:23 +465 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G11 /mock/exit-warning [night 360x740 · demo]
+00:23 +466 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G11 /mock/exit-warning [night 412x915 · demo]
+00:23 +467 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H1 /resources [day 360x740 · demo]
+00:23 +468 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H1 /resources [day 412x915 · demo]
+00:23 +469 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H1 /resources [night 360x740 · demo]
+00:23 +470 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H1 /resources [night 412x915 · demo]
+00:23 +471 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H2 /resources/vault [day 360x740 · demo]
+00:23 +472 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H2 /resources/vault [day 412x915 · demo]
+00:23 +473 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H2 /resources/vault [night 360x740 · demo]
+00:23 +474 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H2 /resources/vault [night 412x915 · demo]
+00:23 +475 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H3 /community [day 360x740 · demo]
+00:23 +476 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H3 /community [day 412x915 · demo]
+00:23 +477 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H3 /community [night 360x740 · demo]
+00:23 +478 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H3 /community [night 412x915 · demo]
+00:23 +479 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H4 /community/room [day 360x740 · demo]
+00:23 +480 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H4 /community/room [day 412x915 · demo]
+00:23 +481 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H4 /community/room [night 360x740 · demo]
+00:23 +482 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H4 /community/room [night 412x915 · demo]
+00:24 +483 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H5 /resources/quiz [day 360x740 · demo]
+00:24 +484 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H5 /resources/quiz [day 412x915 · demo]
+00:24 +485 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H5 /resources/quiz [night 360x740 · demo]
+00:24 +486 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H5 /resources/quiz [night 412x915 · demo]
+00:24 +487 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [day 360x740 · demo]
+00:24 +488 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [day 412x915 · demo]
+00:24 +489 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [night 360x740 · demo]
+00:24 +490 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [night 412x915 · demo]
+00:24 +491 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H7 /resources/academic-words [day 360x740 · demo]
+00:24 +492 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H7 /resources/academic-words [day 412x915 · demo]
+00:24 +493 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H7 /resources/academic-words [night 360x740 · demo]
+00:24 +494 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H7 /resources/academic-words [night 412x915 · demo]
+00:24 +495 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H8 /resources/irregular-verbs [day 360x740 · demo]
+00:24 +496 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H8 /resources/irregular-verbs [day 412x915 · demo]
+00:24 +497 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H8 /resources/irregular-verbs [night 360x740 · demo]
+00:24 +498 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H8 /resources/irregular-verbs [night 412x915 · demo]
+00:24 +499 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H9 /resources/youtube [day 360x740 · demo]
+00:24 +500 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H9 /resources/youtube [day 412x915 · demo]
+00:24 +501 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H9 /resources/youtube [night 360x740 · demo]
+00:24 +502 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H9 /resources/youtube [night 412x915 · demo]
+00:24 +503 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H10 /resources/scoring-criteria [day 360x740 · demo]
+00:24 +504 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H10 /resources/scoring-criteria [day 412x915 · demo]
+00:24 +505 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H10 /resources/scoring-criteria [night 360x740 · demo]
+00:24 +506 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H10 /resources/scoring-criteria [night 412x915 · demo]
+00:24 +507 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H11 /resources/article [day 360x740 · demo]
+00:24 +508 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H11 /resources/article [day 412x915 · demo]
+00:25 +509 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H11 /resources/article [night 360x740 · demo]
+00:25 +510 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H11 /resources/article [night 412x915 · demo]
+00:25 +511 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-phrasal /resources/phrasal-verbs [day 360x740 · demo]
+00:25 +512 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-phrasal /resources/phrasal-verbs [day 412x915 · demo]
+00:25 +513 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-phrasal /resources/phrasal-verbs [night 360x740 · demo]
+00:25 +514 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-phrasal /resources/phrasal-verbs [night 412x915 · demo]
+00:25 +515 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-idioms /resources/idioms [day 360x740 · demo]
+00:25 +516 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-idioms /resources/idioms [day 412x915 · demo]
+00:26 +517 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-idioms /resources/idioms [night 360x740 · demo]
+00:26 +518 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-idioms /resources/idioms [night 412x915 · demo]
+00:26 +519 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [day 360x740 · demo]
+00:26 +520 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [day 412x915 · demo]
+00:26 +521 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [night 360x740 · demo]
+00:26 +522 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [night 412x915 · demo]
+00:26 +523 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [day 360x740 · demo]
+00:26 +524 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [day 412x915 · demo]
+00:26 +525 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [night 360x740 · demo]
+00:26 +526 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [night 412x915 · demo]
+00:26 +527 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticTest /onboarding/diagnostic-test [day 360x740 · demo]
+00:26 +528 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticTest /onboarding/diagnostic-test [day 412x915 · demo]
+00:26 +529 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticTest /onboarding/diagnostic-test [night 360x740 · demo]
+00:27 +530 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticTest /onboarding/diagnostic-test [night 412x915 · demo]
+00:27 +531 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [day 360x740 · demo]
+00:27 +532 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [day 412x915 · demo]
+00:27 +533 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [night 360x740 · demo]
+00:27 +534 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [night 412x915 · demo]
+00:27 +535 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [day 360x740 · demo]
+00:27 +536 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [day 412x915 · demo]
+00:27 +537 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [night 360x740 · demo]
+00:27 +538 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [night 412x915 · demo]
+00:28 +539 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [day 360x740 · demo]
+00:28 +540 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [day 412x915 · demo]
+00:28 +541 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [night 360x740 · demo]
+00:28 +542 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [night 412x915 · demo]
+00:28 +543 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingBank /reading/bank [day 360x740 · demo]
+00:28 +544 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingBank /reading/bank [day 412x915 · demo]
+00:28 +545 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingBank /reading/bank [night 360x740 · demo]
+00:28 +546 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingBank /reading/bank [night 412x915 · demo]
+00:28 +547 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingType /reading/bank/type [day 360x740 · demo]
+00:28 +548 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingType /reading/bank/type [day 412x915 · demo]
+00:28 +549 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingType /reading/bank/type [night 360x740 · demo]
+00:28 +550 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingType /reading/bank/type [night 412x915 · demo]
+00:28 +551 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingTypeLesson /reading/bank/lesson [day 360x740 · demo]
+00:28 +552 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingTypeLesson /reading/bank/lesson [day 412x915 · demo]
+00:28 +553 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingTypeLesson /reading/bank/lesson [night 360x740 · demo]
+00:28 +554 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingTypeLesson /reading/bank/lesson [night 412x915 · demo]
+00:28 +555 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingPracticeTests /reading/bank/tests [day 360x740 · demo]
+00:28 +556 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingPracticeTests /reading/bank/tests [day 412x915 · demo]
+00:28 +557 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingPracticeTests /reading/bank/tests [night 360x740 · demo]
+00:28 +558 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingPracticeTests /reading/bank/tests [night 412x915 · demo]
+00:28 +559 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [day 360x740 · NEW account]
+00:28 +560 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [day 412x915 · NEW account]
+00:28 +561 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [night 360x740 · NEW account]
+00:28 +562 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [night 412x915 · NEW account]
+00:28 +563 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [day 360x740 · NEW account]
+00:28 +564 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [day 412x915 · NEW account]
+00:29 +565 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [night 360x740 · NEW account]
+00:29 +566 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [night 412x915 · NEW account]
+00:29 +567 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [day 360x740 · NEW account]
+00:29 +568 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [day 412x915 · NEW account]
+00:29 +569 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [night 360x740 · NEW account]
+00:29 +570 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [night 412x915 · NEW account]
+00:29 +571 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [day 360x740 · NEW account]
+00:29 +572 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [day 412x915 · NEW account]
+00:29 +573 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [night 360x740 · NEW account]
+00:29 +574 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [night 412x915 · NEW account]
+00:29 +575 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [day 360x740 · NEW account]
+00:29 +576 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [day 412x915 · NEW account]
+00:29 +577 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [night 360x740 · NEW account]
+00:29 +578 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [night 412x915 · NEW account]
+00:29 +579 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [day 360x740 · NEW account]
+00:29 +580 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [day 412x915 · NEW account]
+00:29 +581 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [night 360x740 · NEW account]
+00:29 +582 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [night 412x915 · NEW account]
+00:29 +583 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [day 360x740 · NEW account]
+00:29 +584 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [day 412x915 · NEW account]
+00:29 +585 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [night 360x740 · NEW account]
+00:30 +586 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [night 412x915 · NEW account]
+00:30 +587 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [day 360x740 · NEW account]
+00:30 +588 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [day 412x915 · NEW account]
+00:30 +589 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [night 360x740 · NEW account]
+00:30 +590 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [night 412x915 · NEW account]
+00:30 +591 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [day 360x740 · NEW account]
+00:30 +592 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [day 412x915 · NEW account]
+00:30 +593 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [night 360x740 · NEW account]
+00:30 +594 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [night 412x915 · NEW account]
+00:30 +595 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [day 360x740 · NEW account]
+00:30 +596 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [day 412x915 · NEW account]
+00:30 +597 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [night 360x740 · NEW account]
+00:30 +598 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [night 412x915 · NEW account]
+00:30 +599 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [day 360x740 · NEW account]
+00:30 +600 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [day 412x915 · NEW account]
+00:30 +601 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [night 360x740 · NEW account]
+00:30 +602 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [night 412x915 · NEW account]
+00:30 +603 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [day 360x740 · NEW account]
+00:30 +604 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [day 412x915 · NEW account]
+00:30 +605 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [night 360x740 · NEW account]
+00:30 +606 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [night 412x915 · NEW account]
+00:30 +607 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [day 360x740 · NEW account]
+00:30 +608 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [day 412x915 · NEW account]
+00:30 +609 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [night 360x740 · NEW account]
+00:30 +610 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [night 412x915 · NEW account]
+00:30 +611 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [day 360x740 · NEW account]
+00:30 +612 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [day 412x915 · NEW account]
+00:30 +613 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [night 360x740 · NEW account]
+00:30 +614 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [night 412x915 · NEW account]
+00:30 +615 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [day 360x740 · NEW account]
+00:30 +616 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [day 412x915 · NEW account]
+00:30 +617 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [night 360x740 · NEW account]
+00:30 +618 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [night 412x915 · NEW account]
+00:30 +619 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [day 360x740 · NEW account]
+00:30 +620 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [day 412x915 · NEW account]
+00:30 +621 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [night 360x740 · NEW account]
+00:30 +622 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [night 412x915 · NEW account]
+00:30 +623 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [day 360x740 · NEW account]
+00:31 +624 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [day 412x915 · NEW account]
+00:31 +625 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [night 360x740 · NEW account]
+00:31 +626 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [night 412x915 · NEW account]
+00:31 +627 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [day 360x740 · NEW account]
+00:31 +628 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [day 412x915 · NEW account]
+00:31 +629 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [night 360x740 · NEW account]
+00:31 +630 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [night 412x915 · NEW account]
+00:31 +631 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [day 360x740 · NEW account]
+00:31 +632 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [day 412x915 · NEW account]
+00:31 +633 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [night 360x740 · NEW account]
+00:31 +634 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [night 412x915 · NEW account]
+00:31 +635 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [day 360x740 · NEW account]
+00:31 +636 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [day 412x915 · NEW account]
+00:31 +637 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [night 360x740 · NEW account]
+00:31 +638 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [night 412x915 · NEW account]
+00:31 +639 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [day 360x740 · NEW account]
+00:31 +640 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [day 412x915 · NEW account]
+00:31 +641 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [night 360x740 · NEW account]
+00:31 +642 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [night 412x915 · NEW account]
+00:31 +643 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [day 360x740 · NEW account]
+00:31 +644 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [day 412x915 · NEW account]
+00:31 +645 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [night 360x740 · NEW account]
+00:31 +646 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [night 412x915 · NEW account]
+00:31 +647 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · signed out]
+00:31 +648 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [night 360x740 · signed out]
+00:31 +649 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [day 360x740 · signed out]
+00:31 +650 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [night 360x740 · signed out]
+00:31 +651 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [day 360x740 · signed out]
+00:31 +652 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [night 360x740 · signed out]
+00:31 +653 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [day 360x740 · signed out]
+00:31 +654 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [night 360x740 · signed out]
+00:31 +655 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [day 360x740 · signed out]
+00:31 +656 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [night 360x740 · signed out]
+00:31 +657 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [day 360x740 · signed out]
+00:31 +658 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [night 360x740 · signed out]
+00:31 +659 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [day 360x740 · demo] args={doc: privacy}
+00:32 +660 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [night 360x740 · demo] args={doc: privacy}
+00:32 +661 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: ls_01}
+00:32 +662 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: ls_01}
+00:32 +663 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={testId: lt_01, fresh: true}
+00:32 +664 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={testId: lt_01, fresh: true}
+00:32 +665 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 360x740 · demo] args={testId: lt_02, part: 2}
+00:32 +666 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 360x740 · demo] args={testId: lt_02, part: 2}
+00:32 +667 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 360x740 · demo] args={lessonId: ll_07}
+00:32 +668 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 360x740 · demo] args={lessonId: ll_07}
+00:32 +669 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [day 360x740 · demo] args={testId: rt_02}
+00:32 +670 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [night 360x740 · demo] args={testId: rt_02}
+00:32 +671 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [day 360x740 · demo] args={lessonId: rl_04}
+00:32 +672 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [night 360x740 · demo] args={lessonId: rl_04}
+00:33 +673 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [day 360x740 · demo] args={cardId: cc14}
+00:33 +674 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [night 360x740 · demo] args={cardId: cc14}
+00:33 +675 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 360x740 · demo] args={mock: true}
+00:33 +676 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 360x740 · demo] args={mock: true}
+00:33 +677 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [day 360x740 · demo] args={mockId: mt_b}
+00:33 +678 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [night 360x740 · demo] args={mockId: mt_b}
+00:33 +679 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: shell /home [day 360x740 · demo] args={tab: 3}
+00:33 +680 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: shell /home [night 360x740 · demo] args={tab: 3}
+00:33 +681 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingType /reading/bank/type [day 360x740 · demo] args={type: diagram_label}
+00:33 +682 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingType /reading/bank/type [night 360x740 · demo] args={type: diagram_label}
+00:33 +683 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingTypeLesson /reading/bank/lesson [day 360x740 · demo] args={type: table_completion}
+00:33 +684 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingTypeLesson /reading/bank/lesson [night 360x740 · demo] args={type: table_completion}
+00:33 +685 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingTypeLesson /reading/bank/lesson [day 360x740 · demo] args={type: diagram_label}
+00:33 +686 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-readingTypeLesson /reading/bank/lesson [night 360x740 · demo] args={type: diagram_label}
+00:33 +687 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [day 360x740 · demo] args={passageId: rb_matching_features_04}
+00:33 +688 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [night 360x740 · demo] args={passageId: rb_matching_features_04}
+00:33 +689 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_mcq_05}
+00:33 +690 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_mcq_05}
+00:34 +691 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_headings_07}
+00:34 +692 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_headings_07}
+00:34 +693 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_matching_features_01}
+00:34 +694 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_matching_features_01}
+00:34 +695 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_sentence_endings_01}
+00:34 +696 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_sentence_endings_01}
+00:34 +697 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_summary_completion_01}
+00:34 +698 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_summary_completion_01}
+00:34 +699 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_note_completion_01}
+00:34 +700 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_note_completion_01}
+00:34 +701 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_table_completion_01}
+00:35 +702 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_table_completion_01}
+00:35 +703 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_flowchart_completion_07}
+00:35 +704 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_flowchart_completion_07}
+00:35 +705 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_flowchart_completion_03}
+00:35 +706 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_flowchart_completion_03}
+00:35 +707 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_diagram_label_05}
+00:35 +708 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_diagram_label_05}
+00:35 +709 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={passageId: rb_short_answer_01}
+00:35 +710 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={passageId: rb_short_answer_01}
+00:36 +711 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo] args={testId: rpt_01}
+00:36 +712 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo] args={testId: rpt_01}
+00:36 +713 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: lb_p1_fn, fresh: true}
+00:36 +714 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: lb_p1_fn, fresh: true}
+00:36 +715 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: lb_p3_mc, fresh: true}
+00:36 +716 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: lb_p3_mc, fresh: true}
+00:36 +717 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: lb_p1_ma, fresh: true}
+00:36 +718 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: lb_p1_ma, fresh: true}
+00:37 +719 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: lb_p4_pm, fresh: true}
+00:37 +720 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: lb_p4_pm, fresh: true}
+00:37 +721 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: lb_p2_sc, fresh: true}
+00:37 +722 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: lb_p2_sc, fresh: true}
+00:37 +723 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: lb_p2_tc, fresh: true}
+00:37 +724 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: lb_p2_tc, fresh: true}
+00:37 +725 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: lb_p1_sm, fresh: true}
+00:37 +726 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: lb_p1_sm, fresh: true}
+00:37 +727 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: lb_p4_sa, fresh: true}
+00:38 +728 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: lb_p4_sa, fresh: true}
+00:38 +729 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={setId: lb_p1_fn, fresh: true}
+00:38 +730 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={setId: lb_p1_fn, fresh: true}
+00:38 +731 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={setId: lb_p3_mc, fresh: true}
+00:38 +732 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={setId: lb_p3_mc, fresh: true}
+00:38 +733 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={setId: lb_p3_ma, fresh: true}
+00:38 +734 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={setId: lb_p3_ma, fresh: true}
+00:38 +735 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={setId: lb_p1_pm, fresh: true}
+00:39 +736 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={setId: lb_p1_pm, fresh: true}
+00:39 +737 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={setId: lb_p4_tc, fresh: true}
+00:39 +738 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={setId: lb_p4_tc, fresh: true}
+00:39 +739 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={setId: lb_p3_sm, fresh: true}
+00:40 +740 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={setId: lb_p3_sm, fresh: true}
+00:40 +741 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={setId: lb_p2_sa, fresh: true}
+00:40 +742 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={setId: lb_p2_sa, fresh: true}
+00:40 +743 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 360x740 · demo] args={setId: lb_p1_fn}
+00:40 +744 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 360x740 · demo] args={setId: lb_p1_fn}
+00:40 +745 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [day 360x740 · demo] args={promptId: wb1_map_01}
+00:40 +746 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [night 360x740 · demo] args={promptId: wb1_map_01}
+00:40 +747 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [day 360x740 · demo] args={promptId: wb2_positive-negative_01}
+00:40 +748 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [night 360x740 · demo] args={promptId: wb2_positive-negative_01}
+00:40 +749 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [day 360x740 · demo] args={promptId: wb1_mixed_02}
+00:41 +750 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [night 360x740 · demo] args={promptId: wb1_mixed_02}
+00:41 +751 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [day 360x740 · demo] args={promptId: wb2_two-part_07}
+00:41 +752 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [night 360x740 · demo] args={promptId: wb2_two-part_07}
+00:41 +753 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [day 360x740 · demo] args={part: 1, topicId: sp1_hometown}
+00:41 +754 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [night 360x740 · demo] args={part: 1, topicId: sp1_hometown}
+00:41 +755 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [day 360x740 · demo] args={part: 2, cardId: sp2_people_01}
+00:41 +756 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [night 360x740 · demo] args={part: 2, cardId: sp2_people_01}
+00:41 +757 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [day 360x740 · demo] args={part: 3, topicId: sp3_society_03}
+00:41 +758 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D12 /speaking/samples [night 360x740 · demo] args={part: 3, topicId: sp3_society_03}
+00:41 +759 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [day 360x740 · demo] args={tab: 1}
+00:41 +760 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [night 360x740 · demo] args={tab: 1}
+00:41 +761 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [day 360x740 · demo] args={tab: 2}
+00:41 +762 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [night 360x740 · demo] args={tab: 2}
+00:41 +763 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [day 360x740 · demo] args={tab: 3}
+00:41 +764 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D11 /speaking/library [night 360x740 · demo] args={tab: 3}
+00:41 +765 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 360x740 · demo] args={part: 1, topicId: sp1_music}
+00:41 +766 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 360x740 · demo] args={part: 1, topicId: sp1_music}
+00:41 +767 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 360x740 · demo] args={part: 3, part3TopicId: sp3_technology_02}
+00:41 +768 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 360x740 · demo] args={part: 3, part3TopicId: sp3_technology_02}
+00:41 +769 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 360x740 · demo] args={part: 3, cardId: sp2_places_08}
+00:41 +770 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 360x740 · demo] args={part: 3, cardId: sp2_places_08}
+00:41 +771 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [day 360x740 · demo] args={cardId: sp2_activities_40}
+00:42 +772 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [night 360x740 · demo] args={cardId: sp2_activities_40}
+00:42 +773 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [day 360x740 · demo] args={vocab: [tranquillity, packed to the rafters]}
+00:42 +774 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [night 360x740 · demo] args={vocab: [tranquillity, packed to the rafters]}
+00:42 +775 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: SUMMARY: every screen renders without errors
+00:42 +775 -4: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: SUMMARY: every screen renders without errors [E]
+  Expected: empty
+    Actual: [
+              'X-readingType /reading/bank/type [day 360x740 · demo]: A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/reading/reading_bank_screen.dart:422:23',
+              'X-readingType /reading/bank/type [night 360x740 · demo]: A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/reading/reading_bank_screen.dart:422:23',
+              'X-readingType /reading/bank/type [day 360x740 · demo] args={type: diagram_label}: A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/reading/reading_bank_screen.dart:422:23',
+              'X-readingType /reading/bank/type [night 360x740 · demo] args={type: diagram_label}: A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/reading/reading_bank_screen.dart:422:23',
+              'D12 /speaking/samples [day 360x740 · demo] args={part: 2, cardId: sp2_people_01} (2 errors): A RenderFlex overflowed by 55 pixels on the right.  @ lib/features/speaking/speaking_samples_screen.dart:277:13  |  A RenderFlex overflowed by 22 pixels on the right.  @ lib/app/widgets/kit.dart:914:20',
+              'D12 /speaking/samples [night 360x740 · demo] args={part: 2, cardId: sp2_people_01} (2 errors): A RenderFlex overflowed by 55 pixels on the right.  @ lib/features/speaking/speaking_samples_screen.dart:277:13  |  A RenderFlex overflowed by 22 pixels on the right.  @ lib/app/widgets/kit.dart:914:20'
+            ]
+  6 screen case(s) reported errors:
+  X-readingType /reading/bank/type [day 360x740 · demo]: A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/reading/reading_bank_screen.dart:422:23
+  X-readingType /reading/bank/type [night 360x740 · demo]: A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/reading/reading_bank_screen.dart:422:23
+  X-readingType /reading/bank/type [day 360x740 · demo] args={type: diagram_label}: A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/reading/reading_bank_screen.dart:422:23
+  X-readingType /reading/bank/type [night 360x740 · demo] args={type: diagram_label}: A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/reading/reading_bank_screen.dart:422:23
+  D12 /speaking/samples [day 360x740 · demo] args={part: 2, cardId: sp2_people_01} (2 errors): A RenderFlex overflowed by 55 pixels on the right.  @ lib/features/speaking/speaking_samples_screen.dart:277:13  |  A RenderFlex overflowed by 22 pixels on the right.  @ lib/app/widgets/kit.dart:914:20
+  D12 /speaking/samples [night 360x740 · demo] args={part: 2, cardId: sp2_people_01} (2 errors): A RenderFlex overflowed by 55 pixels on the right.  @ lib/features/speaking/speaking_samples_screen.dart:277:13  |  A RenderFlex overflowed by 22 pixels on the right.  @ lib/app/widgets/kit.dart:914:20
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\screens_smoke_test.dart 365:5                  main.<fn>
+  
+00:42 +775 -4: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (tearDownAll)
+00:42 +775 -4: Some tests failed.
+
+Failing tests:
+  D:/dev/nexted_ielts_app/test/content_test.dart: writing question bank every question has Band 6, 7 and 8 samples long enough for the task
+  D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: SUMMARY: every screen renders without errors
+  D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 12 extra routes
+  D:/dev/nexted_ielts_app/test/widget_test.dart: screen catalog covers all 75 canvas screens with unique routes

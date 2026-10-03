@@ -1,0 +1,166 @@
+{
+ "code": "P1-SA",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "4 / four",
+   "audio_answer": "4",
+   "evidence": "[0:06]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "food tour",
+   "audio_answer": "food tour",
+   "evidence": "[0:15]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "3 hours / three hours",
+   "audio_answer": "three hours",
+   "evidence": "[0:26]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "ferry terminal",
+   "audio_answer": "ferry terminal",
+   "evidence": "[0:31]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "9.30 / 9:30",
+   "audio_answer": "9:30",
+   "evidence": "[0:37]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "Monday",
+   "audio_answer": "Monday",
+   "evidence": "[0:45]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "differs",
+   "key": "£45",
+   "audio_answer": "65",
+   "evidence": "[0:49] \"The night tour is $50, and the harbor one is 65 each.\"",
+   "note": "Key £45 is never said."
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "student card",
+   "audio_answer": "student card",
+   "evidence": "[0:56]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "closed shoes",
+   "audio_answer": "closed shoes",
+   "evidence": "[0:01] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "ok",
+   "key": "light jacket / jacket",
+   "audio_answer": "light jacket",
+   "evidence": "[0:06] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "night market",
+   "audio_answer": "night market",
+   "evidence": "[0:12] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "2 hours / two hours",
+   "audio_answer": "two hours",
+   "evidence": "[0:17] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "lights",
+   "audio_answer": "lights",
+   "evidence": "[0:20] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "by phone",
+   "audio_answer": "by phone",
+   "evidence": "[0:25] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "full refund",
+   "audio_answer": "full refund",
+   "evidence": "[0:31] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "12 / twelve",
+   "audio_answer": "12",
+   "evidence": "[0:38] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "ok",
+   "key": "car park",
+   "audio_answer": "car park",
+   "evidence": "[0:43] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "Tony",
+   "audio_answer": "Tony",
+   "evidence": "[0:48] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "by train",
+   "audio_answer": "by train",
+   "evidence": "[0:55] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "20% / twenty percent",
+   "audio_answer": "20%",
+   "evidence": "[1:03] (second timestamp run; transcript clock restarts after [0:59], so real time is about +1:00)",
+   "note": ""
+  }
+ ],
+ "summary": "19 ok; Q7 differs: the recording gives 65 for the Harbour tour, not 45."
+}

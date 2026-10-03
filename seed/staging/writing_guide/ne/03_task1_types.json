@@ -1,0 +1,882 @@
+[
+ {
+  "id": "t1_bar",
+  "title": "भाग ख — Bar / Column Graph",
+  "blocks": [
+   [
+    "p",
+    "Line graph-मा तपाईंले जे सिक्नुभयो — चार paragraph-को template, introduction लेख्ने २ वटा तरिका, संख्याको भाषा — यहाँ पनि ठ्याक्कै त्यही हो। फरक यति मात्र हो: graph-को कथा कसरी पत्ता लगाउने र body कसरी मिलाउने। हरेक type-सँग graph सहित एउटा पूरा उदाहरण दिइएको छ।"
+   ],
+   [
+    "h",
+    "Bar / Column Graph — चरणबद्ध रूपमा"
+   ],
+   [
+    "h2",
+    "पहिलो प्रश्न: तेर्सो axis-मा समय छ कि category?"
+   ],
+   [
+    "table",
+    [
+     "Axis-मा के छ",
+     "कसरी हेर्ने",
+     "भाषा"
+    ],
+    [
+     [
+      "समय (वर्ष, महिना)",
+      "Line graph जस्तै — trend, बढ्ने र घट्ने",
+      "rose, fell, peaked (Line graph अध्याय)"
+     ],
+     [
+      "Category (देश, पेशा, उमेर)",
+      "तुलना — सबैभन्दा धेरै, सबैभन्दा कम, क्रम, फरक",
+      "higher / lower than, the most, followed by"
+     ],
+     [
+      "Grouped bar (category × वर्ष)",
+      "दुवै — category-हरूको तुलना + हरेक कसरी बदलियो",
+      "दुवै सेट"
+     ]
+    ]
+   ],
+   [
+    "note",
+    "⚠ Category-का bar-हरू \"rise\" वा \"fall\" हुँदैनन्। समय नभएको graph-मा तपाईंले rose/fell लेख्नुभयो भने examiner-ले तपाईंले graph बुझ्नुभएन भन्ने ठान्छ। यसरी लेख्नुहोस्: X is higher than Y; X has the largest share."
+   ],
+   [
+    "h2",
+    "उदाहरण १ — साधारण bar (category मात्र)"
+   ],
+   [
+    "ex",
+    "The bar chart shows the amount of coffee consumed per person in five countries in 2022."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p032_1.png",
+    "Coffee consumption per person, 2022"
+   ],
+   [
+    "h2",
+    "चरण १–३ · बुझ्ने र चिनो लगाउने"
+   ],
+   [
+    "ul",
+    [
+     "Unit: kg per person per year। समय: एउटै वर्ष (2022) — त्यसैले trend होइन, तुलना; tense: past (2022) वा present — दुवै चल्छ, तर एउटैमा टिक्नुहोस्।",
+     "सबैभन्दा धेरै: Finland (12); सबैभन्दा कम: Japan (3.6)। Finland, Japan-भन्दा तीन गुणाभन्दा बढी छ।",
+     "२ वटा समूह देखिन्छन्: २ वटा Nordic देश धेरै माथि छन् (12, 9.9); बाँकी ३ वटा 6-भन्दा तल छन्।"
+    ]
+   ],
+   [
+    "h2",
+    "चरण ४ · Introduction"
+   ],
+   [
+    "model",
+    "The bar chart compares how much coffee people in five countries drank per head in 2022, measured in kilograms per year."
+   ],
+   [
+    "h2",
+    "चरण ५ · Overview"
+   ],
+   [
+    "model",
+    "Overall, the two Nordic countries consumed far more coffee than the other three, with Finland well ahead of every other nation and Japan at the bottom of the list."
+   ],
+   [
+    "h2",
+    "चरण ६ · Body"
+   ],
+   [
+    "p",
+    "Category graph-मा body समूह अनुसार मिलाउनुहोस्: paragraph १ = माथिको समूह, paragraph २ = बाँकी। हरेक समूहमा क्रम र फरक बताउनुहोस्।"
+   ],
+   [
+    "model",
+    "Finland recorded the highest consumption by a clear margin, at 12 kg per person, followed by Norway with just under 10 kg. Between them, these two countries drank roughly twice as much coffee per head as any of the others.\n\nThe remaining three countries formed a distinct lower group. Brazil, despite being a major coffee producer, consumed 6.1 kg per person, about half the Finnish figure. The United States came next at 4.7 kg, while Japan had the lowest consumption of all, at 3.6 kg, less than a third of the amount in Finland."
+   ],
+   [
+    "p",
+    "(यहाँ \"despite being a major coffee producer\" सामान्य ज्ञान हो, graph-मा छैन; Band 7 लेख्नेहरूले पनि कहिलेकाहीँ यस्तो कुरा घुसाउँछन्। सुरक्षित रहन चाहनुहुन्छ भने यसलाई नलेख्नुहोस्।)"
+   ],
+   [
+    "h2",
+    "उदाहरण २ — grouped bar (category × २ वटा वर्ष)"
+   ],
+   [
+    "ex",
+    "The chart shows how people in the city of Riverton travelled to work in 2000 and 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p033_1.png",
+    "How people travelled to work in Riverton, 2000 and 2020"
+   ],
+   [
+    "h2",
+    "चरण १–३ · बुझ्ने र चिनो लगाउने"
+   ],
+   [
+    "ul",
+    [
+     "Unit: प्रतिशत (commuter-हरूको)। २ वटा वर्ष → past tense, र दुई दिशाको तुलना: (क) एउटै वर्षमा mode-हरूबीच, (ख) एउटै mode-को २ वटा वर्षबीच।",
+     "Car दुवै वर्षमा सबैभन्दा ठूलो छ, तर धेरै घट्यो (55 → 40)। Bus पनि घट्यो (25 → 20)।",
+     "Train दोब्बरभन्दा बढी भयो (10 → 22), bicycle तीन गुणा (4 → 12)। Walking उस्तै रह्यो (6)।",
+     "कथा: शहर private car-बाट टाढिँदै गयो।"
+    ]
+   ],
+   [
+    "h2",
+    "चरण ४ · Introduction"
+   ],
+   [
+    "model",
+    "The bar chart compares the percentage of commuters in Riverton who used five different methods of transport to get to work in 2000 and in 2020."
+   ],
+   [
+    "h2",
+    "चरण ५ · Overview"
+   ],
+   [
+    "model",
+    "Overall, the car remained the most popular way to travel to work in both years, but its share fell noticeably, while rail and cycling became far more common. Walking was the only mode that showed no change."
+   ],
+   [
+    "h2",
+    "चरण ६ · Body — \"घटेकाहरू\" र \"बढेकाहरू\""
+   ],
+   [
+    "model",
+    "In 2000, more than half of commuters (55%) drove to work, and a further quarter took the bus. By 2020 both of these figures had fallen, the car to 40% and the bus to 20%, although the car was still the leading choice.\n\nIn contrast, the share of people travelling by train or metro more than doubled, from 10% to 22%, making it the second most common mode in 2020. Cycling grew even faster in relative terms, tripling from 4% to 12%. Walking, meanwhile, stayed constant at 6% in both years."
+   ],
+   [
+    "h",
+    "Bar graph-को भाषा"
+   ],
+   [
+    "table",
+    [
+     "काम",
+     "शब्द / phrase"
+    ],
+    [
+     [
+      "क्रम",
+      "the most / least popular · the largest / smallest share · the highest / lowest figure · in first / second place · followed by · at the bottom · the only category to …"
+     ],
+     [
+      "अनुपात",
+      "accounted for · made up · represented · a quarter / a third / half of · one in five"
+     ],
+     [
+      "परिवर्तन (grouped)",
+      "more than doubled · tripled · halved · fell by … percentage points · in relative terms · by comparison · the reverse was true for"
+     ],
+     [
+      "तुलना",
+      "far higher than · slightly lower than · roughly the same as · twice as … as · X times more than · compared with · whereas · while"
+     ]
+    ]
+   ],
+   [
+    "note",
+    "**Bar graph-मा हुने सामान्य गल्तीहरू:** (१) bar-हरूलाई बायाँबाट दायाँ एक-एक गरी वर्णन गर्नु — बरु समूह बनाउनुहोस्: ठूलाहरू, साना-हरू, बदलिएकाहरू। (२) समय नभएको chart-मा increased/decreased लेख्नु। (३) unit बिर्सनु (प्रतिशत? संख्या? हजारमा?)।"
+   ]
+  ]
+ },
+ {
+  "id": "t1_table",
+  "title": "Table — चरणबद्ध रूपमा",
+  "blocks": [
+   [
+    "p",
+    "Table हेर्दा सजिलो लाग्छ, तर प्रायः यही सबैभन्दा गाह्रो type हो — किनकि trend संख्याभित्र लुकेको हुन्छ, graph-मा जस्तो आँखामा आफैँ ठोक्किँदैन। तपाईंले आफैँ खोज्नुपर्छ।"
+   ],
+   [
+    "h2",
+    "Table कसरी पढ्ने (२ मिनेट)"
+   ],
+   [
+    "ul",
+    [
+     "Title, row label, column label र unit पढ्नुहोस्।",
+     "हरेक row बायाँबाट दायाँ हेर्नुहोस्: बढ्दै छ, घट्दै छ, कि उस्तै छ?",
+     "हरेक column माथिबाट तल हेर्नुहोस्: कुन row सबैभन्दा धेरै, कुन सबैभन्दा कम?",
+     "चिनो लगाउनुहोस्: सबैभन्दा ठूलो संख्या, सबैभन्दा सानो संख्या, total (छ भने), र अरूजस्तो व्यवहार नगर्ने row/column।",
+     "समूह छुट्याउनुहोस्: एकै किसिमले व्यवहार गर्ने row-हरू एउटै paragraph-मा जान्छन्।"
+    ]
+   ],
+   [
+    "ex",
+    "The table shows the number of international students (in thousands) studying in four countries in 2010, 2015 and 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p035_1.png",
+    "International students by host country (thousands)"
+   ],
+   [
+    "h2",
+    "चरण १–३ · चिनो लगाउने"
+   ],
+   [
+    "img",
+    "assets/writing/guide/p035_2.png",
+    "Marked: red = highest, green = lowest, yellow = exceptions"
+   ],
+   [
+    "p",
+    "चिनो लगाइएको table: रातो = सबैभन्दा धेरै, हरियो = सबैभन्दा कम, पहेँलो = अपवाद"
+   ],
+   [
+    "ul",
+    [
+     "USA सधैँ सबैभन्दा ठूलो छ, र बढ्यो (690 → 1,075) — 2020-मा दस लाख नाघ्यो।",
+     "UK बिस्तारै बढ्यो (400 → 550)।",
+     "Australia संख्या घटेको एक मात्र देश हो (330 → 290), त्यसपछि बलियोसँग बढ्यो (460)।",
+     "Canada सुरुमा सबैभन्दा सानो थियो (95), तर पाँच गुणाभन्दा बढी बढेर (530) झन्डै UK बराबर पुग्यो।",
+     "सबै देश 2020-मा 2010-भन्दा माथि छन्।"
+    ]
+   ],
+   [
+    "h2",
+    "चरण ४ · Introduction"
+   ],
+   [
+    "model",
+    "The table gives the number of overseas students, in thousands, enrolled in the USA, the UK, Australia and Canada at five-year intervals between 2010 and 2020."
+   ],
+   [
+    "h2",
+    "चरण ५ · Overview"
+   ],
+   [
+    "model",
+    "Overall, all four countries hosted more international students at the end of the decade than at the start. The USA remained by far the largest destination throughout, while Canada, though the smallest in 2010, showed the fastest growth of all."
+   ],
+   [
+    "h2",
+    "चरण ६ · Body — व्यवहार अनुसार समूह"
+   ],
+   [
+    "p",
+    "Paragraph १ = २ वटा ठूला, लगातार बढ्दै गएका देश (USA, UK)। Paragraph २ = pattern तोड्ने २ वटा देश (Australia, Canada)।"
+   ],
+   [
+    "model",
+    "The USA attracted 690,000 foreign students in 2010, already more than the other three countries combined. This figure climbed to 975,000 in 2015 and passed one million (1,075,000) by 2020. The UK, in second place, grew more slowly, from 400,000 to 430,000 and then to 550,000.\n\nAustralia was the only country whose numbers fell, dropping from 330,000 to 290,000 between 2010 and 2015, before recovering strongly to 460,000. Canada, meanwhile, recorded the most dramatic rise: its total of just 95,000 in 2010 nearly doubled to 170,000 by 2015 and then tripled again to 530,000, almost level with the UK."
+   ],
+   [
+    "h",
+    "Table-का technique-हरू"
+   ],
+   [
+    "ul",
+    [
+     "संख्यालाई सम्बन्धमा बदल्नुहोस्: more than the other three combined · nearly doubled · almost level with · five times larger।",
+     "सानो table (४×३ = १२ वटा संख्या) भए झन्डै सबै संख्या चाहिन्छ; ठूलो table (६×५ = ३०) भए ८–१० वटा।",
+     "Pattern-सँग नमिल्ने कुरा उल्लेख गर्नुहोस् (the only country whose numbers fell) — अपवाद सधैँ एउटा \"main feature\" हो।",
+     "Row-को क्रममा (माथिबाट तल) नलेख्नुहोस् — व्यवहारको क्रममा लेख्नुहोस्।"
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "t1_pie",
+  "title": "Pie Chart — चरणबद्ध रूपमा",
+  "blocks": [
+   [
+    "p",
+    "Pie chart-ले एउटा पूरा चीजका भागहरू देखाउँछ। त्यसैले यहाँको भाषा trend-को होइन, अनुपात (proportion)-को हो।"
+   ],
+   [
+    "h2",
+    "अनुपातको भाषा"
+   ],
+   [
+    "table",
+    [
+     "काम",
+     "phrase"
+    ],
+    [
+     [
+      "भाग बताउने",
+      "X accounts for / makes up / represents / constitutes 40% of the total · X takes up a quarter"
+     ],
+     [
+      "क्रम",
+      "the largest / smallest segment / share / proportion / category · the dominant use · a negligible 2%"
+     ],
+     [
+      "भिन्न (fraction)",
+      "half · just over / under half · a third · roughly a quarter · three-quarters · one in five · one in ten"
+     ],
+     [
+      "बाँकी भाग",
+      "the remaining 15% · the rest · together, A and B make up two-thirds · A and B combined"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "एउटा मात्र pie chart"
+   ],
+   [
+    "ex",
+    "The pie chart shows the composition of household waste in one city."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p037_1.png",
+    "Composition of household waste in one city"
+   ],
+   [
+    "p",
+    "एउटा मात्र pie हुँदा: सबैभन्दा ठूलो segment-बाट सबैभन्दा सानोतिर जानुहोस्, र साना-हरूलाई एकै ठाउँमा समूह बनाउनुहोस्। Overview = कुन segment (वा segment-हरू) हावी छन्। समय छैन, त्यसैले present tense।"
+   ],
+   [
+    "model",
+    "The pie chart shows what proportion of the waste produced by households in one city falls into each of six categories.\n\nOverall, food is by far the largest component, and food and paper together make up more than half of all household waste, whereas garden waste and miscellaneous items form only a small fraction.\n\nFood waste accounts for just over a third of the total (34%), and paper and cardboard for a further 22%. These two categories combined therefore represent 56% of everything that households throw away. Plastics are the third largest category, at 18%, or almost one in five items.\n\nThe remaining three categories are considerably smaller. Glass and metal together make up 12%, garden waste 9%, and other materials just 5%, the smallest share on the chart. In total, these three account for roughly a quarter of household waste."
+   ],
+   [
+    "p",
+    "(१६० शब्द। ध्यान दिनुहोस्: एउटा पनि rose/fell छैन; हरेक संख्याको छेउमा fraction वा तुलना छ।)"
+   ],
+   [
+    "h2",
+    "२ वा बढी pie chart — exam-मा धेरै आउने"
+   ],
+   [
+    "p",
+    "प्रायः एउटै कुरा २ वटा वर्षमा वा २ वटा ठाउँमा हुन्छ। त्यसपछि पूरा काम भनेको २ वटा pie-मा एउटै segment-को तुलना गर्नु हो। पहिले pie १ पूरै, अनि pie २ पूरै वर्णन गर्नु — यो Band 5-को टिपिकल answer हो, किनकि यसमा कुनै तुलना हुँदैन।"
+   ],
+   [
+    "ex",
+    "The charts show how adults in one country spent their time online in 2015 and 2023."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p038_1.png",
+    "How adults spent their time online"
+   ],
+   [
+    "h2",
+    "चरण १–३ · चिनो लगाउने"
+   ],
+   [
+    "ul",
+    [
+     "Entertainment (social media, video) धेरै बढ्यो; information र work-का लागि प्रयोग धेरै घट्यो।",
+     "सबैभन्दा ठूलो segment बदलियो: 2015-मा news (30%), 2023-मा social media (40%)।",
+     "Shopping अलिकति बढ्यो (10 → 15)।"
+    ]
+   ],
+   [
+    "h2",
+    "चरण ४ · Introduction"
+   ],
+   [
+    "model",
+    "The two pie charts compare the proportion of online time that adults in one country devoted to five activities in 2015 and 2023."
+   ],
+   [
+    "h2",
+    "चरण ५ · Overview"
+   ],
+   [
+    "model",
+    "Overall, internet use shifted strongly from information and work towards entertainment. Social media replaced news as the largest single activity, and together with video streaming it came to account for almost two-thirds of all online time by 2023."
+   ],
+   [
+    "h2",
+    "चरण ६ · Body — \"के बढ्यो\" र \"के घट्यो\""
+   ],
+   [
+    "model",
+    "In 2015 social media took up a quarter of people's time online, but by 2023 this had risen to 40%, the largest share on either chart. Video streaming showed a similar pattern, growing from 15% to a quarter, and online shopping increased more modestly, from 10% to 15%.\n\nThe two remaining categories moved in the opposite direction. Reading news and looking for information, which had been the biggest activity in 2015 at 30%, fell to just 12% eight years later. The decline in email and work-related use was even steeper in relative terms, from a fifth of online time to only 8%."
+   ],
+   [
+    "note",
+    "**Pie chart-मा हुने सामान्य गल्तीहरू:**\n▸ \"The pie chart increased\" — pie बढ्दैन; **segment**-को **share** बढ्छ।\n▸ \"which was 100%\" भन्नु वा total प्रमाणित गर्न segment-हरू जोड्नु।\n▸ एउटा मात्र pie-मा (समयको तुलना नभई) rose/fell — is the largest, accounts for लेख्नुहोस्।\n▸ Percentage point: 25% → 40% भनेको \"a rise of 15 percentage points\" हो, \"15 percent\" होइन।\n▸ पहिले एउटा पूरा pie, अनि अर्को पूरा pie — सधैँ २ वटा pie-लाई segment-segment गरी तुलना गर्नुहोस्।"
+   ]
+  ]
+ },
+ {
+  "id": "t1_combination",
+  "title": "Combination — २ वटा फरक visual सँगै",
+  "blocks": [
+   [
+    "p",
+    "कहिलेकाहीँ तपाईंलाई २ वटा visual दिइन्छ — जस्तै एउटा bar chart (कुल संख्या) र एउटा pie chart (एउटा वर्षको भाग-भाग), वा map + table। नियमहरू:"
+   ],
+   [
+    "ul",
+    [
+     "Introduction-ले दुवै visual समेट्छ, एक वा दुई वाक्यमा।",
+     "Overview-ले हरेक visual-बाट एउटा-एउटा main point दिन्छ।",
+     "हरेक visual-का लागि एउटा body paragraph। तुलना एउटै visual-भित्र गर्नुहोस्; २ वटा visual-बीच तुलना नगर्नुहोस् — प्रश्नले नै तिनलाई जोडेको छ भने बाहेक (जस्तै pie भनेको bar chart-को अन्तिम वर्षको भाग-भाग हो — तब जोड्न सकिन्छ)।",
+     "दुवैलाई लगभग बराबर शब्द दिनुहोस्। धेरै विद्यार्थीले पहिलो visual-मै सबै खर्च गर्छन् र दोस्रोमा दुई लाइन मात्र लेख्छन्।"
+    ]
+   ],
+   [
+    "ex",
+    "The bar chart shows the number of visitors to the National Science Museum from 2015 to 2020, and the pie chart shows where these visitors came from in 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p040_1.png",
+    "Visitors to the National Science Museum · Where 2020 visitors came from"
+   ],
+   [
+    "h2",
+    "चरण १–३"
+   ],
+   [
+    "ul",
+    [
+     "Bar: पाँच वर्ष लगातार बढ्यो (420 → 600), त्यसपछि 2020-मा ठूलो गिरावट (210 — 2019-को एक तिहाइ)।",
+     "Pie: 2020-का visitor-मध्ये 55% स्थानीय, 30% देशका अरू ठाउँबाट, 15% विदेशी → 85% स्वदेशी।",
+     "२ वटा visual जोडिएका छन् (pie = 2020-को bar), त्यसैले \"of those 210,000…\" भन्न सकिन्छ।"
+    ]
+   ],
+   [
+    "h2",
+    "पूरा answer (१७२ शब्द)"
+   ],
+   [
+    "model",
+    "The bar chart records annual attendance at the National Science Museum from 2015 to 2020, while the pie chart shows the breakdown of the 2020 audience by place of origin.\n\nOverall, five consecutive years of growth were abruptly reversed in 2020, when visitor numbers fell to their lowest level of the period. That diminished audience was overwhelmingly domestic, with residents of the host city alone accounting for more than half of all visits.\n\nAttendance rose without interruption from 420,000 in 2015 to 600,000 in 2019, a cumulative increase of 43%. Growth was most rapid in the middle of the period, with gains of around 50,000 to 60,000 a year in 2017 and 2018, before slowing slightly in 2019. The following year saw a dramatic collapse to 210,000, roughly a third of the 2019 peak and half the 2015 starting figure.\n\nOf these visitors, 55% were local and a further 30% travelled from other parts of the country, meaning that domestic visitors made up 85% of the total. International tourists represented the remaining 15%, equivalent to a little over 30,000 people."
+   ],
+   [
+    "p",
+    "अन्तिम paragraph-मा ध्यान दिनुहोस्: 15% × 210,000 ≈ 31,500 — २ वटा visual ठीकसँग जोडिएका छन्, किनकि pie त्यही वर्षको हो। तर \"Local visitors increased\" भने लेख्न मिल्दैन — 2015-को pie छैन, त्यसैले तुलना गर्ने data नै छैन। Chart-मा नभएको कुरा कहिल्यै नलेख्नुहोस्; र \"probably because of the pandemic\" — यो opinion हो, निषेधित।"
+   ],
+   [
+    "h",
+    "Bar · Table · Pie · Combination checklist"
+   ],
+   [
+    "ul",
+    [
+     "निर्णय गरेँ: तुलना कि trend (कि दुवै)?",
+     "लेख्नुअघि सबैभन्दा धेरै, सबैभन्दा कम, सबैभन्दा ठूलो परिवर्तन र अपवादमा चिनो लगाएँ।",
+     "Overview-मा leader र main pattern छ, संख्या बिना।",
+     "Data पढ्ने क्रममा होइन, व्यवहार अनुसार मिलाएँ।",
+     "सकेसम्म संख्यालाई सम्बन्धमा व्यक्त गरेँ (double, a third, level with)।",
+     "Pie: pie-हरूलाई segment-segment गरी तुलना गरेँ; अनुपातका शब्द; rose/fell समयको तुलनामा मात्र।",
+     "Combination: हरेक visual-को आफ्नै paragraph; cross-comparison प्रश्नले जोडेको भए मात्र; शब्द बराबर बाँडेँ।",
+     "कुनै opinion छैन, chart-बाहिरको जानकारी छैन।"
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "t1_process",
+  "title": "भाग ग — Flow Chart (Process) · Cycle · Diagram",
+  "blocks": [
+   [
+    "p",
+    "यी type-हरूमा संख्या हुँदैन। त्यसैले trend पनि हुँदैन। यहाँ तपाईं चरणहरू (process), भागहरू र तिनीहरू कसरी जोडिएका छन् (diagram), वा कुनै ठाउँमा भएका परिवर्तन (map) वर्णन गर्नुहुन्छ। Paragraph-को template उस्तै हो: introduction → overview → २ वटा body paragraph।"
+   ],
+   [
+    "h",
+    "Flow Chart / Process — चरणबद्ध रूपमा"
+   ],
+   [
+    "h2",
+    "पहिले के हेर्ने"
+   ],
+   [
+    "ul",
+    [
+     "कति वटा चरण (stage) छन्? कहाँबाट सुरु हुन्छ, कहाँ सकिन्छ?",
+     "Linear (सुरु → अन्त्य) कि cycle (अन्त्य फेरि सुरुमा फर्कन्छ)?",
+     "Man-made (कारखानाको process) कि natural (जलचक्र, कुनै जनावरको जीवनचक्र)?",
+     "स्पष्ट भाग (segment) छन्? छन् भने हरेक भाग एउटा body paragraph हो।",
+     "कुन label-हरू noun हुन्, जसलाई verb-मा बदल्नुपर्छ? (\"crushing\" → is crushed)"
+    ]
+   ],
+   [
+    "h2",
+    "भाषा"
+   ],
+   [
+    "table",
+    [
+     "विषय",
+     "नियम / शब्द"
+    ],
+    [
+     [
+      "Tense",
+      "Present simple (प्रायः वर्ष हुँदैन)।"
+     ],
+     [
+      "Voice",
+      "Man-made process → passive (the beans are roasted)। Natural process → active (water evaporates)।"
+     ],
+     [
+      "Sequencer",
+      "First / To begin with · Next · Then · After that · Once this is complete · At the following stage · Subsequently · Meanwhile · In the final stage · Finally"
+     ],
+     [
+      "Process verb",
+      "is collected, sorted, cleaned, washed, mixed, heated, cooled, pressed, dried, cut, packed, transported, stored, filtered, separated · is converted into · passes through · is fed into · is removed / added"
+     ],
+     [
+      "Purpose",
+      "in order to · so that · which allows / enables … to …"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "उदाहरण — linear, man-made"
+   ],
+   [
+    "ex",
+    "The diagram shows how olive oil is produced."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p043_1.png",
+    "How olive oil is produced"
+   ],
+   [
+    "h2",
+    "चरण १–३ · बुझ्ने"
+   ],
+   [
+    "ul",
+    [
+     "९ वटा चरण, linear (harvesting → bottling), man-made, त्यसैले passive + present।",
+     "स्वाभाविक विभाजन: चरण १–५ = olive तयार पार्ने र कुच्ने; चरण ६–९ = तेल छुट्याउने र प्याक गर्ने। → २ वटा body paragraph।",
+     "Label-बाट verb: harvesting → are harvested; washing → are washed; crushing → are crushed; mixing → is stirred; bottling → is bottled।"
+    ]
+   ],
+   [
+    "h2",
+    "चरण ४ · Introduction"
+   ],
+   [
+    "p",
+    "Process-को introduction-मा भन्नुहोस्: के उत्पादन हुन्छ / कसरी काम गर्छ + कति वटा चरण छन्।"
+   ],
+   [
+    "model",
+    "The diagram illustrates the nine stages involved in turning freshly picked olives into bottled olive oil."
+   ],
+   [
+    "h2",
+    "चरण ५ · Overview"
+   ],
+   [
+    "p",
+    "Overview-मा: linear कि cycle, natural कि man-made, कति वटा मुख्य phase, सुरु र अन्त्य के हो।"
+   ],
+   [
+    "model",
+    "Overall, this is a linear, man-made process in three main phases: the olives are first cleaned, then crushed and mixed to release the oil, and finally the oil is separated, filtered and packaged."
+   ],
+   [
+    "h2",
+    "चरण ६ · Body — तीरहरू पछ्याउँदै"
+   ],
+   [
+    "model",
+    "The process begins when olives are harvested from the trees between October and December. Any leaves and twigs are removed, and the fruit is washed. The clean olives are then crushed into a thick paste, which is stirred slowly for about thirty minutes so that the tiny drops of oil combine into larger ones.\n\nNext, the paste is placed in a centrifuge, which spins it at high speed to separate the oil from the water and solid matter. The oil that comes out is filtered to remove any remaining particles and stored in stainless steel tanks. In the final stage, it is poured into bottles, ready for sale."
+   ],
+   [
+    "p",
+    "(Intro/overview सहित १६३ शब्द। ध्यान दिनुहोस्: हरेक चरण passive छ; sequencer-मा विविधता — begins when, then, which, next, in the final stage; \"so that the tiny drops…\" — यो diagram-का label-मा छ भने लेख्न सकिन्छ, छैन भने होइन।)"
+   ],
+   [
+    "note",
+    "**Process-मा हुने सामान्य गल्तीहरू:**\n▸ Diagram-मा नभएको जानकारी थप्नु (कति तापक्रम, कति समय) — label-मा छ भने मात्र।\n▸ कुनै चरण किन हुन्छ भनेर व्याख्या गर्नु, diagram-ले भनेको छैन भने।\n▸ Trend-का शब्द (increase, decrease) — यहाँ संख्या नै छैन।\n▸ \"Then… Then… Then…\" — sequencer-हरू फेरबदल गर्नुहोस्।\n▸ Overview छुटाउनु — चरणको संख्या, सुरु, अन्त्य, cycle हो कि होइन, बताउनुहोस्।"
+   ],
+   [
+    "h",
+    "Cycle — जीवनचक्र वा प्राकृतिक चक्र"
+   ],
+   [
+    "p",
+    "Cycle-को साँचो \"सुरु\" हुँदैन। त्यसैले तर्कसंगत सुरुको बिन्दु रोज्नुहोस् (जलचक्रमा evaporation; कीराको लागि अण्डा), यो cycle हो भनेर स्पष्ट भन्नुहोस्, र अन्तिम चरणलाई फेरि पहिलोसँग जोड्नुहोस्। Natural process → active voice, present simple।"
+   ],
+   [
+    "ex",
+    "The diagram shows the life cycle of a butterfly."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p045_1.png",
+    "Life cycle of a butterfly"
+   ],
+   [
+    "h2",
+    "पूरा answer (१५८ शब्द)"
+   ],
+   [
+    "model",
+    "The diagram illustrates the four stages in the life of a butterfly, from egg to adult.\n\nOverall, this is a natural, continuous cycle in which an egg develops through a feeding stage and a resting stage into an adult insect, which in turn produces new eggs, so the process never ends.\n\nThe cycle begins when an adult butterfly lays its eggs on the leaf of a plant. After a few days, a caterpillar hatches from each egg and spends the following two to three weeks eating leaves and growing rapidly. Once it is fully grown, the caterpillar attaches itself to a stem and forms a hard protective case known as a chrysalis.\n\nInside this case, over a period of roughly two weeks, the insect's body is completely transformed. Eventually an adult butterfly breaks out of the chrysalis. Finally, the adult finds a mate and lays eggs of its own on a fresh leaf, and the cycle begins again."
+   ],
+   [
+    "p",
+    "ध्यान दिनुहोस्: active voice (lays, hatches, spends, attaches, breaks out); \"and the cycle begins again\" भनेर सुरुमा फर्किनु; समयको जानकारी (two to three weeks, two weeks) diagram-का label-बाट आएको हो।"
+   ],
+   [
+    "h",
+    "Diagram — कुनै चीज कसरी काम गर्छ"
+   ],
+   [
+    "p",
+    "Diagram-ले कुनै मेसिन वा system-का भागहरू र ती कसरी जोडिएका छन् भनेर देखाउँछ। यो process जस्तै हो, तर क्रमसँगै स्थान (position) पनि बताउनुपर्छ।"
+   ],
+   [
+    "h2",
+    "भाग र स्थानको भाषा"
+   ],
+   [
+    "table",
+    [
+     "काम",
+     "phrase"
+    ],
+    [
+     [
+      "बनावट",
+      "consists of · is made up of · comprises · has three main parts"
+     ],
+     [
+      "जोडाइ",
+      "is attached to · is connected to · is linked to · is mounted on · is fitted with · runs from … to …"
+     ],
+     [
+      "स्थान",
+      "is located above / below / beside / inside / on top of · at the base of · to the left / right of · in the centre"
+     ],
+     [
+      "बहाव",
+      "flows through · passes through · enters / exits at · is fed into · is pumped / carried / channelled to · rises / falls"
+     ],
+     [
+      "उद्देश्य",
+      "which allows … to · so that · in order to · this prevents / ensures …"
+     ]
+    ]
+   ],
+   [
+    "ex",
+    "The diagram shows how a rainwater harvesting system works in a school."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p046_1.png",
+    "Rainwater harvesting system for a school"
+   ],
+   [
+    "h2",
+    "चरण १–३ · बुझ्ने"
+   ],
+   [
+    "ul",
+    [
+     "भागहरू: roof → gutter → downpipe (leaf filter) → first-flush diverter → underground tank (10,000 L) → pump → overhead tank → toilets & garden taps; overflow pipe → drain।",
+     "पानीको बाटो पछ्याउँदै एउटा क्रम छ, त्यसैले process जस्तै लेख्छौँ; साथै कुन चीज कहाँ छ (underground, overhead, on the roof)।",
+     "२ वटा body paragraph: (१) संकलन र सफाइ (roof → tank), (२) भण्डारण र प्रयोग (tank → taps)।"
+    ]
+   ],
+   [
+    "h2",
+    "पूरा answer (१७० शब्द)"
+   ],
+   [
+    "model",
+    "The diagram illustrates the components of a rainwater collection system installed at a school and shows how rain falling on the roof is stored and reused.\n\nOverall, water is collected from the roof, cleaned in two stages, stored in an underground tank and then pumped to a rooftop tank, from which it supplies the school's toilets and garden taps.\n\nRain that lands on the sloping roof runs into a gutter along its edge and then down a vertical pipe fitted with a filter that catches leaves. Below this, a device known as a first-flush diverter sends the first, dirtiest water to the drain and allows the rest to continue into a 10,000-litre tank buried underground.\n\nWhen water is needed, an electric pump located beside the tank lifts it through a pipe to a smaller tank on the roof of the building. From there it flows by gravity to the toilets and the garden taps. If the underground tank becomes full, an overflow pipe carries the excess water to the drain."
+   ],
+   [
+    "p",
+    "Task-मा २ वटा design छन् भने (जस्तै २ किसिमका पुल वा २ किसिमका जग), हरेकलाई छोटकरीमा वर्णन गर्नुहोस् र त्यसपछि तुलना गर्नुहोस् — तब फरकहरू नै main feature हुन्।"
+   ]
+  ]
+ },
+ {
+  "id": "t1_map",
+  "title": "Map — चरणबद्ध रूपमा",
+  "blocks": [
+   [
+    "h2",
+    "Map task-का ३ किसिम"
+   ],
+   [
+    "table",
+    [
+     "किसिम",
+     "काम",
+     "Tense"
+    ],
+    [
+     [
+      "एउटै ठाउँ, २ वटा समय (सबैभन्दा धेरै आउने)",
+      "परिवर्तनहरू वर्णन गर्ने",
+      "Past (was built), वा दोस्रो map \"today/now\" हो भने present perfect (has been built)"
+     ],
+     [
+      "अहिलेको अवस्था + प्रस्तावित योजना",
+      "अहिले के छ, योजना अनुसार के हुनेछ",
+      "Present + future (will be / is to be / is going to be built)"
+     ],
+     [
+      "२ वटा सम्भावित ठाउँ (site A, site B)",
+      "२ वटा site-का feature तुलना गर्ने (दूरी, पहुँच, आकार)",
+      "Present"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "कसरी काम गर्ने"
+   ],
+   [
+    "ul",
+    [
+     "Compass खोज्नुहोस् (प्रायः north माथि हुन्छ)। दुवै map-मा देखिने landmark खोज्नुहोस् (नदी, main road) — दिशा बताउन यिनै चाहिन्छन्।",
+     "सूची बनाउनुहोस्: के हरायो, के नयाँ आयो, केको आकार वा प्रयोग बदलियो, के उस्तै रह्यो।",
+     "परिवर्तनहरूलाई समूहमा राख्नुहोस्: क्षेत्र अनुसार (उत्तर/दक्षिण, केन्द्र/किनारा) वा किसिम अनुसार (आवास, यातायात, हरियाली क्षेत्र)।",
+     "Overview = परिवर्तनको समग्र स्वरूप: more built-up / larger / more modern / farmland turned into housing / expanded eastwards।"
+    ]
+   ],
+   [
+    "h",
+    "Map-को भाषा"
+   ],
+   [
+    "table",
+    [
+     "काम",
+     "शब्द / phrase"
+    ],
+    [
+     [
+      "परिवर्तनका verb (passive, past)",
+      "was built / constructed / added / extended / enlarged / expanded · was demolished / removed / knocked down / cleared / cut down · was replaced by / converted into / turned into / redeveloped as · was relocated / moved to"
+     ],
+     [
+      "स्थान",
+      "in the north-east corner · along the river / coast · on the western edge · on the outskirts · adjacent to · next to · opposite · in the centre · on the site of the old … · to the south of · running from north to south · across the road from"
+     ],
+     [
+      "उस्तै रहेको",
+      "remained / was retained / was kept / stayed in place / was unchanged / still exists"
+     ],
+     [
+      "आकार",
+      "doubled in size · was reduced by half · now covers … · a much larger …"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "उदाहरण — एउटै ठाउँ, २ वटा समय"
+   ],
+   [
+    "ex",
+    "The maps show the coastal town of Seabrook in 1980 and today."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p049_1.png",
+    "Seabrook, 1980 · Seabrook, today"
+   ],
+   [
+    "h2",
+    "चरण १–३ · परिवर्तनको सूची"
+   ],
+   [
+    "table",
+    [
+     "हराएको",
+     "नयाँ",
+     "बदलिएको",
+     "उस्तै रहेको"
+    ],
+    [
+     [
+      "farmland (दक्षिणमा); आधा forest",
+      "hotels (beach-मा); housing estate; shopping centre; ring road; golf course; ferry terminal",
+      "harbour ठूलो भयो; school दोब्बर भयो",
+      "main road; houses; beach; बाँकी forest"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "समूहहरू: (१) तट र harbour (पूर्व/उत्तर-पूर्व), (२) दक्षिण र केन्द्र। Overview: सानो माछा मार्ने गाउँ → ठूलो पर्यटकीय र आवासीय शहर; main road र पुराना घरहरू बाँकी छन्।"
+   ],
+   [
+    "h2",
+    "पूरा answer (१८६ शब्द)"
+   ],
+   [
+    "model",
+    "The two maps show how the coastal town of Seabrook has developed since 1980.\n\nOverall, the town has grown from a small fishing settlement into a much larger tourist and residential centre. Most of the change has taken place along the coast and on the former farmland to the south, while the original main road and the houses beside it have been kept.\n\nThe greatest transformation is along the eastern shore. The beach, which in 1980 was undeveloped, is now lined with hotels, and the fishing harbour in the north-east has been extended to include a ferry terminal.\n\nSouth of the main road, the farmland has disappeared completely and has been replaced by a housing estate and a shopping centre, served by a new ring road that curves around the southern edge of the town. In the south-west, about half of the forest has been cut down to make way for a golf course. In the centre, the school has been enlarged to roughly twice its original size, but the original houses along the main road remain as they were."
+   ],
+   [
+    "p",
+    "ध्यान दिनुहोस्: (१) 1980-को map छुट्टै वर्णन गरिएको छैन — परिवर्तन मात्र; (२) हरेक वाक्यमा दिशा छ (eastern shore, north-east, south of, south-west, in the centre); (३) \"today\" भएकाले present perfect (has been extended, has disappeared); (४) उस्तै रहेका कुराहरू पनि उल्लेख गरिएका छन्।"
+   ],
+   [
+    "note",
+    "**Map-मा हुने सामान्य गल्तीहरू:**\n▸ पहिले map १ पूरै, अनि map २ पूरै — यो तुलना होइन, २ वटा सूची (inventory) मात्र हो।\n▸ Tense: विगतको map → past; योजना → future (will be built / is to be built)।\n▸ दिशा नबताउनु — \"there is a school and a road\" पढेर पाठकले केही बुझ्दैन।\n▸ उस्तै रहेका कुरा बिर्सनु — \"के उस्तै रह्यो\" overview-को भाग हो।\n▸ \"The town developed because tourists came\" — कारण chart-मा छैन; यो opinion हो।"
+   ],
+   [
+    "h",
+    "Process · Cycle · Diagram · Map checklist"
+   ],
+   [
+    "ul",
+    [
+     "Process: चरणको संख्या, सुरु र अन्त्य, linear/cycle — overview-मा।",
+     "Process: present simple; man-made → passive, natural → active; sequencer-मा विविधता।",
+     "Diagram: भागहरूको नाम, स्थान, बहावको क्रम।",
+     "Map: परिवर्तनहरू (२ वटा inventory होइन); compass direction; उस्तै रहेका कुराहरूको उल्लेख।",
+     "Visual-मा नभएको केही थपिनँ; कुनै opinion छैन।",
+     "१५०–१९० शब्द, २० मिनेट।"
+    ]
+   ],
+   [
+    "p",
+    "यो भागसँगै Task 1-का सबै type सकिए। अर्को अध्यायमा: हरेक type-का लागि विद्यार्थीहरूले लेखेका Band 5, 6, 7, 8-का answer, छलफलसहित।"
+   ]
+  ]
+ },
+ {
+  "id": "t1_sample_lessons",
+  "title": "अध्याय ३-का मुख्य पाठ — सबै type एकसाथ",
+  "blocks": [
+   [
+    "table",
+    [
+     "Band 5-का संकेत",
+     "Band 6-का संकेत",
+     "Band 7-का संकेत",
+     "Band 8-का संकेत"
+    ],
+    [
+     [
+      "Introduction copy गरिएको · overview छैन, वा अन्त्यमा छ · data dump / inventory · \"There is\" / \"Then\" बारम्बार · opinion वा अड्कल · agreement र passive-का गल्ती",
+      "Paraphrase · overview छ · सही जानकारी · साधारण शब्द · connective सही तर यान्त्रिक · गल्ती कम, range सीमित · कतै एउटा टिप्पणी",
+      "Overview-मा pattern · संख्या अनुपातमा · समूह/क्षेत्र अनुसार paragraph · precise शब्द · complex वाक्य सही · कहिलेकाहीँ एउटा सानो चुक (एउटा अड्कल)",
+      "Synthesis · हरेक संख्या/भाग तुलनाभित्र · नदेखिने linking · निर्दोष collocation · गल्तीरहित"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "अर्को अध्याय: Writing Task 2।"
+   ]
+  ]
+ }
+]

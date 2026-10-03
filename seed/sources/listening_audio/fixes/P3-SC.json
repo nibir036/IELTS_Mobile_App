@@ -1,0 +1,224 @@
+{
+ "note": "Q15: the tutor warns against claims that are \"far too broad\" ([1:45]); \"general\" is never said.",
+ "groups": {
+  "g1": {
+   "id": "g1",
+   "type": "sentence",
+   "title": "Complete the sentences",
+   "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+   "questions": [
+    {
+     "number": 1,
+     "text": "Wei will study bee populations in ______ areas.",
+     "source": "Wei will study bee populations in ___ areas.",
+     "answer": "urban",
+     "answerDisplay": "urban",
+     "accepted": [
+      "urban"
+     ]
+    },
+    {
+     "number": 2,
+     "text": "The research question concerns the effect of ______ on bees.",
+     "source": "The research question concerns the effect of ___ on bees.",
+     "answer": "pesticides",
+     "answerDisplay": "pesticides",
+     "accepted": [
+      "pesticides"
+     ]
+    },
+    {
+     "number": 3,
+     "text": "Wei will compare bee numbers in parks and ______.",
+     "source": "Wei will compare bee numbers in parks and ___.",
+     "answer": "private gardens",
+     "answerDisplay": "private gardens / gardens",
+     "accepted": [
+      "private gardens",
+      "gardens"
+     ]
+    },
+    {
+     "number": 4,
+     "text": "The supervisor suggests also measuring flower ______.",
+     "source": "The supervisor suggests also measuring flower ___.",
+     "answer": "diversity",
+     "answerDisplay": "diversity",
+     "accepted": [
+      "diversity"
+     ]
+    },
+    {
+     "number": 5,
+     "text": "Data will be collected over a ______ period.",
+     "source": "Data will be collected over a ___ period.",
+     "answer": "twelve-month",
+     "answerDisplay": "twelve-month / 12-month",
+     "accepted": [
+      "twelve-month",
+      "12-month"
+     ]
+    },
+    {
+     "number": 6,
+     "text": "Wei needs approval from the ______ committee.",
+     "source": "Wei needs approval from the ___ committee.",
+     "answer": "ethics",
+     "answerDisplay": "ethics",
+     "accepted": [
+      "ethics"
+     ]
+    },
+    {
+     "number": 7,
+     "text": "The main method will be ______ counts.",
+     "source": "The main method will be ___ counts.",
+     "answer": "timed",
+     "answerDisplay": "timed",
+     "accepted": [
+      "timed"
+     ]
+    },
+    {
+     "number": 8,
+     "text": "Wei will also interview local ______.",
+     "source": "Wei will also interview local ___.",
+     "answer": "beekeepers",
+     "answerDisplay": "beekeepers",
+     "accepted": [
+      "beekeepers",
+      "bee keepers",
+      "bee-keepers"
+     ]
+    },
+    {
+     "number": 9,
+     "text": "Counts should follow a standard ______ protocol.",
+     "source": "Counts should follow a standard ___ protocol.",
+     "answer": "survey",
+     "answerDisplay": "survey",
+     "accepted": [
+      "survey"
+     ]
+    },
+    {
+     "number": 10,
+     "text": "Wei must record weather ______ on every visit.",
+     "source": "Wei must record weather ___ on every visit.",
+     "answer": "conditions",
+     "answerDisplay": "conditions",
+     "accepted": [
+      "conditions"
+     ]
+    },
+    {
+     "number": 11,
+     "text": "Wei should keep a field ______.",
+     "source": "Wei should keep a field ___.",
+     "answer": "notebook",
+     "answerDisplay": "notebook",
+     "accepted": [
+      "notebook"
+     ]
+    },
+    {
+     "number": 12,
+     "text": "The supervisor suggests applying for a research ______.",
+     "source": "The supervisor suggests applying for a research ___.",
+     "answer": "grant",
+     "answerDisplay": "grant",
+     "accepted": [
+      "grant"
+     ]
+    },
+    {
+     "number": 13,
+     "text": "Wei will present early results at a ______ in spring.",
+     "source": "Wei will present early results at a ___ in spring.",
+     "answer": "conference",
+     "answerDisplay": "conference",
+     "accepted": [
+      "conference"
+     ]
+    },
+    {
+     "number": 14,
+     "text": "Most studies in the literature review should be from the last ______ years.",
+     "source": "Most studies in the literature review should be from the last ___ years.",
+     "answer": "ten",
+     "answerDisplay": "ten / 10",
+     "accepted": [
+      "ten",
+      "10"
+     ]
+    },
+    {
+     "number": 15,
+     "text": "Wei should avoid claims that are too ______.",
+     "source": "Wei should avoid claims that are too ___.",
+     "answer": "broad",
+     "answerDisplay": "broad",
+     "accepted": [
+      "broad",
+      "far too broad"
+     ]
+    },
+    {
+     "number": 16,
+     "text": "The proposal must be submitted by the end of ______.",
+     "source": "The proposal must be submitted by the end of ___.",
+     "answer": "term",
+     "answerDisplay": "term",
+     "accepted": [
+      "term"
+     ]
+    },
+    {
+     "number": 17,
+     "text": "A pilot study will take place in ______.",
+     "source": "A pilot study will take place in ___.",
+     "answer": "autumn",
+     "answerDisplay": "autumn",
+     "accepted": [
+      "autumn"
+     ]
+    },
+    {
+     "number": 18,
+     "text": "The department can lend Wei a ______.",
+     "source": "The department can lend Wei a ___.",
+     "answer": "camera",
+     "answerDisplay": "camera",
+     "accepted": [
+      "camera"
+     ]
+    },
+    {
+     "number": 19,
+     "text": "Data will be analysed with ______ software.",
+     "source": "Data will be analysed with ___ software.",
+     "answer": "statistical",
+     "answerDisplay": "statistical",
+     "accepted": [
+      "statistical"
+     ]
+    },
+    {
+     "number": 20,
+     "text": "The final report will be about ______ pages long.",
+     "source": "The final report will be about ___ pages long.",
+     "answer": "forty",
+     "answerDisplay": "forty / 40",
+     "accepted": [
+      "forty",
+      "40"
+     ]
+    }
+   ]
+  }
+ },
+ "speakerMap": {
+  "Interviewer": "Supervisor",
+  "Student": "Wei"
+ }
+}

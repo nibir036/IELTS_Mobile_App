@@ -1,0 +1,48 @@
+{
+  "_format": {
+    "name": "subscriptions",
+    "group": "user",
+    "table": "subscriptions",
+    "primaryKey": "id",
+    "description": "A user's paid plan (when payments launch).",
+    "currentSourceInApp": "profile.plan today",
+    "fields": {
+      "id": "string",
+      "userId": "string",
+      "planId": "string",
+      "period": "string",
+      "status": "string",
+      "startedAt": "string",
+      "renewsAt": "string",
+      "provider": "string",
+      "providerRef": "string"
+    },
+    "required": [
+      "id",
+      "userId",
+      "planId",
+      "status"
+    ],
+    "relations": [
+      "planId → plans.id",
+      "userId → users.id"
+    ],
+    "notes": [
+      "provider: bkash|nagad|card — decided when payments are built."
+    ],
+    "recordCountToday": 1
+  },
+  "items": [
+    {
+      "id": "sub_01",
+      "userId": "usr_demo_tanvir",
+      "planId": "pro",
+      "period": "yearly",
+      "status": "active",
+      "startedAt": "2026-09-29T12:00:00Z",
+      "renewsAt": "2027-09-29T12:00:00Z",
+      "provider": "bkash",
+      "providerRef": "…"
+    }
+  ]
+}

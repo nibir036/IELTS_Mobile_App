@@ -1,0 +1,51 @@
+{
+  "_format": {
+    "name": "listening_tests",
+    "group": "content",
+    "table": "listening_tests",
+    "primaryKey": "id",
+    "description": "A full Listening test = 4 sets (Parts 1-4), 40 questions.",
+    "currentSourceInApp": "listening.tests",
+    "fields": {
+      "id": "string",
+      "number": "integer",
+      "title": "string",
+      "sets": "array"
+    },
+    "required": [
+      "id",
+      "number",
+      "title",
+      "sets"
+    ],
+    "relations": [
+      "sets[] → listening_sets.id, one per part, in order"
+    ],
+    "notes": [],
+    "recordCountToday": 2
+  },
+  "items": [
+    {
+      "id": "lt_01",
+      "number": 1,
+      "title": "Listening Test 1",
+      "sets": [
+        "ls_01",
+        "ls_02",
+        "ls_03",
+        "ls_04"
+      ]
+    },
+    {
+      "id": "lt_02",
+      "number": 2,
+      "title": "Listening Test 2",
+      "sets": [
+        "ls_05",
+        "ls_06",
+        "ls_07",
+        "ls_08"
+      ]
+    }
+  ]
+}

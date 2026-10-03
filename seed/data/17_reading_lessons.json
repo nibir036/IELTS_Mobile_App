@@ -1,0 +1,329 @@
+{
+  "table": "lessons",
+  "items": [
+    {
+      "id": "rl_03",
+      "title": "Paraphrase spotting",
+      "keyIdeaLabel": "Key idea",
+      "keyIdea": "IELTS rarely repeats the passage word for word. Questions **paraphrase** it — “rose sharply” becomes “increased dramatically”. Match the **meaning**, not the words.",
+      "uses": [
+        {
+          "label": "Use it for",
+          "value": "T / F / NG, multiple choice"
+        },
+        {
+          "label": "Watch out for",
+          "value": "Same words, new meaning"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rl_03_e1",
+          "seconds": 60,
+          "quote": "“The museum’s visitor numbers doubled within two years of the new wing opening.”",
+          "question": "Which statement has the same meaning?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The new wing took two years to build"
+            },
+            {
+              "key": "B",
+              "text": "Twice as many people visited soon after the wing opened"
+            },
+            {
+              "key": "C",
+              "text": "The museum opened two new wings"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "rl_03_e2",
+          "seconds": 45,
+          "quote": "“Few residents were aware that the scheme existed.”",
+          "question": "Which is the best paraphrase?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Most residents did not know about the scheme"
+            },
+            {
+              "key": "B",
+              "text": "Some residents opposed the scheme"
+            },
+            {
+              "key": "C",
+              "text": "Residents designed the scheme"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "rl_03_e3",
+          "seconds": 60,
+          "quote": "“The prototype failed to perform well in cold conditions.”",
+          "question": "Which paraphrase is correct?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The prototype worked best in winter"
+            },
+            {
+              "key": "B",
+              "text": "Cold weather was never tested"
+            },
+            {
+              "key": "C",
+              "text": "Low temperatures reduced the prototype’s performance"
+            }
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "rl_04",
+      "title": "Skimming vs scanning",
+      "keyIdeaLabel": "Key idea",
+      "keyIdea": "**Skim** for the main idea of each paragraph — first and last sentences. **Scan** for a specific detail — names, numbers, dates — without reading every word.",
+      "uses": [
+        {
+          "label": "Use skimming for",
+          "value": "Matching headings"
+        },
+        {
+          "label": "Use scanning for",
+          "value": "Gap fill, T / F / NG"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rl_04_e1",
+          "seconds": 60,
+          "quote": "“Community projects encourage residents to plant lavender, clover and fruit trees on balconies and in empty lots.”",
+          "question": "Where are residents encouraged to plant?",
+          "options": [
+            {
+              "key": "A",
+              "text": "In school playgrounds"
+            },
+            {
+              "key": "B",
+              "text": "On rooftops only"
+            },
+            {
+              "key": "C",
+              "text": "On balconies and in empty lots"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "rl_04_e2",
+          "seconds": 45,
+          "quote": "“Bees were first kept on London rooftops in the 1990s, but numbers only rose sharply after 2008.”",
+          "question": "When did rooftop hive numbers rise sharply?",
+          "options": [
+            {
+              "key": "A",
+              "text": "In the 1990s"
+            },
+            {
+              "key": "B",
+              "text": "After 2008"
+            },
+            {
+              "key": "C",
+              "text": "Before 2008"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "rl_04_e3",
+          "seconds": 60,
+          "quote": "“Supporters argue that cities offer bees a surprising advantage.”",
+          "question": "Skim the sentence. What is the main idea?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Cities can be good places for bees"
+            },
+            {
+              "key": "B",
+              "text": "Bees prefer the countryside"
+            },
+            {
+              "key": "C",
+              "text": "Supporters sell city honey"
+            }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "rl_05",
+      "title": "False or Not Given?",
+      "keyIdeaLabel": "Key idea",
+      "keyIdea": "Choose **False** only when the passage says the **opposite**. If the passage simply does not tell you, the answer is **Not Given** — never use your own knowledge.",
+      "uses": [
+        {
+          "label": "Answer False when",
+          "value": "The text contradicts it"
+        },
+        {
+          "label": "Answer Not Given when",
+          "value": "The text is silent"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rl_05_e1",
+          "seconds": 60,
+          "quote": "“The bridge was completed in 1932, two years later than planned.”",
+          "question": "Statement: The bridge opened on schedule.",
+          "options": [
+            {
+              "key": "A",
+              "text": "True"
+            },
+            {
+              "key": "B",
+              "text": "False"
+            },
+            {
+              "key": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "rl_05_e2",
+          "seconds": 60,
+          "quote": "“Researchers interviewed 200 farmers across three regions.”",
+          "question": "Statement: The farmers were paid for taking part.",
+          "options": [
+            {
+              "key": "A",
+              "text": "True"
+            },
+            {
+              "key": "B",
+              "text": "False"
+            },
+            {
+              "key": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "rl_05_e3",
+          "seconds": 60,
+          "quote": "“Unlike earlier models, the new engine runs on hydrogen alone.”",
+          "question": "Statement: Earlier models did not run on hydrogen alone.",
+          "options": [
+            {
+              "key": "A",
+              "text": "True"
+            },
+            {
+              "key": "B",
+              "text": "False"
+            },
+            {
+              "key": "C",
+              "text": "Not Given"
+            }
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "rl_06",
+      "title": "Reference words",
+      "keyIdeaLabel": "Key idea",
+      "keyIdea": "Words like **this**, **these**, **it** and **such** point back to an earlier idea. Work out what they refer to and you can follow the argument from sentence to sentence.",
+      "uses": [
+        {
+          "label": "Use it for",
+          "value": "Headings, summary gap fill"
+        },
+        {
+          "label": "Look back",
+          "value": "One or two sentences"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rl_06_e1",
+          "seconds": 45,
+          "quote": "“Engineers added a second cooling fan. This reduced the temperature by 12 degrees.”",
+          "question": "What does “This” refer to?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The temperature"
+            },
+            {
+              "key": "B",
+              "text": "Adding a second cooling fan"
+            },
+            {
+              "key": "C",
+              "text": "The engineers"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "rl_06_e2",
+          "seconds": 45,
+          "quote": "“Bamboo grows rapidly and needs little water. These qualities make it attractive to builders.”",
+          "question": "What are “these qualities”?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fast growth and low water needs"
+            },
+            {
+              "key": "B",
+              "text": "Its strength and colour"
+            },
+            {
+              "key": "C",
+              "text": "Its low price"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "rl_06_e3",
+          "seconds": 60,
+          "quote": "“Early maps often exaggerated coastlines. Such errors misled sailors for centuries.”",
+          "question": "What does “Such errors” refer to?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Mistakes made by sailors"
+            },
+            {
+              "key": "B",
+              "text": "Exaggerated coastlines on early maps"
+            },
+            {
+              "key": "C",
+              "text": "Islands missing from maps"
+            }
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

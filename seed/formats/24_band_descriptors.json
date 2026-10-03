@@ -1,0 +1,185 @@
+{
+  "_format": {
+    "name": "band_descriptors",
+    "group": "content",
+    "table": "band_descriptors",
+    "primaryKey": "key",
+    "description": "Scoring criteria per skill (H10).",
+    "currentSourceInApp": "resources.scoring.skills",
+    "fields": {
+      "key": "string",
+      "name": "string",
+      "intro": "string",
+      "criteria": "object"
+    },
+    "required": [
+      "key",
+      "name",
+      "criteria"
+    ],
+    "relations": [],
+    "notes": [
+      "Write your own plain-English summaries; do not copy the official descriptors verbatim."
+    ],
+    "recordCountToday": 5
+  },
+  "items": [
+    {
+      "key": "listening",
+      "name": "Listening",
+      "intro": "Listening has 40 questions, one mark each. Your raw score is converted to a band. Academic and General Training use the same test and the same scale.",
+      "criteria": {
+        "facts": [
+          {
+            "label": "Parts",
+            "value": "4"
+          },
+          {
+            "label": "Questions",
+            "value": "40"
+          },
+          {
+            "label": "Audio",
+            "value": "≈30 min"
+          },
+          {
+            "label": "Played",
+            "value": "Once only"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "parts",
+            "title": "The four parts",
+            "items": [
+              {
+                "label": "Part 1",
+                "title": "Everyday conversation",
+                "text": "Two people in a social situation, e.g. booking or registering. Easiest part."
+              },
+              {
+                "label": "Part 2",
+                "title": "Everyday monologue",
+                "text": "One speaker on a social topic, e.g. a guided tour or announcement."
+              },
+              {
+                "label": "Part 3",
+                "title": "Study conversation",
+                "text": "Up to four people in an educational or training context, e.g. students and a tutor."
+              },
+              {
+                "label": "Part 4",
+                "title": "Academic lecture",
+                "text": "One speaker on an academic subject. Hardest part."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "title": "Raw score to band",
+            "columns": [
+              "Correct answers",
+              "Band"
+            ],
+            "rows": [
+              [
+                "39–40",
+                "9.0"
+              ],
+              [
+                "37–38",
+                "8.5"
+              ],
+              [
+                "35–36",
+                "8.0"
+              ],
+              [
+                "32–34",
+                "7.5"
+              ],
+              [
+                "30–31",
+                "7.0"
+              ],
+              [
+                "26–29",
+                "6.5"
+              ],
+              [
+                "23–25",
+                "6.0"
+              ],
+              [
+                "18–22",
+                "5.5"
+              ],
+              [
+                "16–17",
+                "5.0"
+              ],
+              [
+                "13–15",
+                "4.5"
+              ],
+              [
+                "11–12",
+                "4.0"
+              ],
+              [
+                "8–10",
+                "3.5"
+              ],
+              [
+                "6–7",
+                "3.0"
+              ],
+              [
+                "4–5",
+                "2.5"
+              ]
+            ],
+            "note": "Approximate: the official conversion shifts slightly from test to test. The app uses this table for your practice scores."
+          },
+          {
+            "type": "bullets",
+            "title": "What Listening tests",
+            "items": [
+              "Main ideas and specific facts",
+              "Opinions, attitudes and a speaker's purpose",
+              "Following how an argument develops",
+              "Recognising paraphrase: the question rarely uses the speaker's words",
+              "Telling apart similar-sounding information and corrections"
+            ]
+          },
+          {
+            "type": "chips",
+            "title": "Question types",
+            "items": [
+              "Multiple choice",
+              "Matching",
+              "Map / plan / diagram labelling",
+              "Form completion",
+              "Note completion",
+              "Table completion",
+              "Flow-chart completion",
+              "Summary completion",
+              "Sentence completion",
+              "Short answer"
+            ]
+          },
+          {
+            "type": "note",
+            "title": "How answers are marked",
+            "items": [
+              "No penalty for wrong answers, so never leave a blank.",
+              "Spelling must be correct; a missing plural -s can make an answer wrong.",
+              "Going over the word limit (e.g. NO MORE THAN TWO WORDS) makes the answer wrong.",
+              "Paper test: 10 minutes to transfer answers. Computer test: 2 minutes to check."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "_format": {
+    "name": "resource_vocabulary",
+    "group": "bank",
+    "table": "vocabulary_words",
+    "primaryKey": "id",
+    "description": "Vocabulary Vault words (vb_…).",
+    "currentSourceInApp": "assets/content/resources_bank.json → vocab",
+    "fields": {
+      "id": "string",
+      "word": "string",
+      "partOfSpeech": "string",
+      "definition": "string",
+      "band": "number",
+      "phonetic": "string",
+      "example": "string",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 1382
+  },
+  "items": [
+    {
+      "id": "vb_absorb",
+      "word": "absorb",
+      "partOfSpeech": "verb",
+      "definition": "To take in or soak up something, such as knowledge, liquid or an experience.",
+      "band": 7.0,
+      "phonetic": "/əbˈzɔːb/",
+      "example": "Children absorb new languages far more quickly than adults.",
+      "data": {
+        "id": "vb_absorb",
+        "word": "absorb",
+        "ipa": "/əbˈzɔːb/",
+        "pos": "verb",
+        "definition": "To take in or soak up something, such as knowledge, liquid or an experience.",
+        "examples": [
+          "Children **absorb** new languages far more quickly than adults.",
+          "The sponge **absorbed** most of the spilt water."
+        ],
+        "synonyms": [
+          "take in",
+          "soak up",
+          "assimilate"
+        ],
+        "register": "neutral",
+        "band": 7.0
+      }
+    }
+  ]
+}

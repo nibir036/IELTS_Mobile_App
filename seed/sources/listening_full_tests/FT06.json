@@ -1,0 +1,1066 @@
+{
+ "id": "FT06",
+ "title": "Listening Full Test 6",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "Joining a Running Club",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "A man who has recently moved to Australia phones a running club about becoming a member and entering its charity ten-kilometre race.",
+   "accent": "Australian (en-AU) secretary · British (en-GB) caller",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Jodie",
+     "desc": "Club secretary — female, 40s, cheerful, relaxed and chatty; Australian accent"
+    },
+    {
+     "label": "Ben",
+     "desc": "Caller — male, early 30s, polite, slightly hesitant, newly arrived; northern English (Manchester) accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear a man phoning a running club to ask about joining the club and entering a race. First, you have some time to look at Questions 1 to 4.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 1 to 4.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[telephone rings twice, then the line clicks open] [bright, friendly] Wattle Bay Runners, Jodie speaking."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[polite, slightly unsure] Oh, hello. Um, I got this number from your website. I'm thinking about joining the club, and I was also hoping to find out about the ten-kilometre race you're organising."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[warm] Lovely, you've come to the right person. I'm the club secretary, so I can help you with both. Can I grab your name first?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Ben. Ben Thursby. [short pause] [a little self-conscious] I've only just moved here from Manchester, so I don't really know anyone yet."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[laughing] Well, a running club's a great way to fix that. Have you been running long?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "[modest] A few years, on and off. I did a couple of half marathons back home, but I've been a bit lazy since the move, to be honest."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[encouraging] No dramas. Right, so the club runs twice a week, Tuesday and Thursday evenings, and we start at six thirty."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[checking] And where do you all meet? The website mentioned the library car park, I think."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[apologetic] Ah, yeah, sorry, the website's a bit out of date. We did use to meet at the library, but then the council started charging for parking there in the evenings. [brighter] So these days we meet at the pavilion in Norfolk Park. It's the building right next to the cricket nets, you can't miss it."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[writing it down] The pavilion, next to the nets. Got it. And is there a membership fee?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[matter-of-fact] There is, it's an annual fee. [short pause] It was sixty-five dollars last year, but we've had to put it up to seventy-two, mostly because our insurance went up."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[easygoing] Seventy-two. That's still very reasonable. Is there anything on top of that?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "Only if you want a club singlet, and they're fifteen dollars. But that's entirely optional. Nobody makes you wear one to training."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[thinking aloud] Right... And what do I need to bring when I sign up? Do you need, um, a doctor's certificate or something? I know some clubs back in England ask for one."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[reassuring] We used to, actually, but not any more. Now you just fill in a short health questionnaire on the night. What you will need to bring is a photo, because we print everyone a membership card, and the card gets you ten per cent off at the sports shop on the high street."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[pleased] A photo, fine, I can sort that out. [short pause] [slightly anxious] Is there a group for people who are, er, getting back into it? I don't want to be left behind on my first night."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[chuckles] Everyone says that. Yes, there's a beginners' group on Tuesdays. It's run by one of our coaches, Gail Kerridge."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Sorry, was that Kerrigan?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[clearly, spelling each letter] No, Kerridge. K... E... double R... I... D... G... E."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[repeating slowly, as if writing] K, E, double R, I, D, G, E. Thanks. And she always takes the beginners?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[warm] She does now. She used to coach the juniors, but she swapped over this year, and honestly, she's brilliant with people who are nervous."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 5 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 5 to 10.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Ben",
+     "text": "[moving on, brisk] Now, the race. The charity ten K. When is it exactly? I saw a poster in a café that said the second of November."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[sighs] Yeah, a lot of those posters went up before we had to change it. It was going to be Sunday the second, but the council's resurfacing the coast road that weekend, so we've moved it back a week. It's now Sunday the ninth."
+    },
+    {
+     "speaker": "Ben",
+     "text": "The ninth of November. [relieved] That actually suits me better. And where does it start? Somebody at work told me it starts at the surf club."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[explaining] It always has done, but the surf club's being rebuilt at the moment, so this year we're starting from the lighthouse, right at the north end of the beach. The finish is still in Norfolk Park, though, so it's a point-to-point course rather than a loop."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[pleased] The lighthouse. That should be a nice view, at least. And how much does it cost to enter?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[careful] That depends. For the general public it's forty-five dollars, but club members get a decent discount, so for members it's thirty."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[checking, unsure he heard] Sorry, thirteen?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[laughing] I wish! No, thirty, three-oh. So if you join before you enter, you save fifteen dollars straight away."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[laughs] Well, that's another good reason to join. And which charity does the money go to?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[warm, a bit more serious] Last year it was the animal shelter, and the year before that it went to the surf lifesaving club. This year the committee voted for the local hospice. A few of our members have had family there, so it means a lot to people."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[sincere] That's a really good cause. [short pause] And, er, how does it work on the day? Do I pick up my number at the start?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[practical] That's how we used to do it, but the queues were terrible and people were missing the start. So now you collect your race pack the day before, on the Saturday, from the marina office, down by the boat ramp. It's open from nine till four."
+    },
+    {
+     "speaker": "Ben",
+     "text": "The marina office. So nothing's given out on the Sunday morning?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[firm but friendly] Nothing at all, so don't leave it till the last minute. There is a bag drop at the lighthouse, though, and we drive all the bags back to the park for you."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[noting it down] Great. And is there anything for people who finish? A medal, or...?"
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[enthusiastic] Everyone gets a medal, yes. We used to hand out T-shirts as well, but to be honest, hardly anybody wore them, so this year every finisher gets a towel instead. A proper beach towel, with the race logo on it."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[amused] A towel. That's actually useful, especially round here."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[laughing] That was the idea. Oh, and there are two water stations on the course, at three and seven kilometres, so you won't need to carry a bottle."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[decisive, cheerful] Brilliant. Right, I'll come along to the pavilion on Tuesday, then, and join properly."
+    },
+    {
+     "speaker": "Jodie",
+     "text": "[warmly] Perfect. Don't forget your photo, and say hello to Gail. She'll look after you."
+    },
+    {
+     "speaker": "Ben",
+     "text": "[smiling] I will. Thanks very much, Jodie. Bye."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 1. You now have one minute to check your answers to Part 1.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-10",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "WATTLE BAY RUNNERS",
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Membership — Training: Tuesdays and Thursdays, 6.30 pm. Meeting point: the (1) ___ in Norfolk Park",
+       "answer": "pavilion",
+       "accepted": [],
+       "spoken": "the pavilion",
+       "evidence": "So these days we meet at the pavilion in Norfolk Park",
+       "trap": "The caller suggests the library car park, which was the old meeting place."
+      },
+      {
+       "n": 2,
+       "prompt": "Yearly fee: $(2) ___ (club singlet costs extra)",
+       "answer": "72",
+       "accepted": [
+        "seventy-two",
+        "$72"
+       ],
+       "spoken": "seventy-two",
+       "evidence": "but we've had to put it up to seventy-two, mostly because our insurance went up",
+       "trap": "Last year's fee of sixty-five dollars and the fifteen-dollar singlet are also mentioned."
+      },
+      {
+       "n": 3,
+       "prompt": "Bring a (3) ___ when signing up (needed for membership card)",
+       "answer": "photo",
+       "accepted": [
+        "photograph"
+       ],
+       "spoken": "a photo",
+       "evidence": "What you will need to bring is a photo",
+       "trap": "A doctor's certificate is suggested but no longer required, and the health questionnaire is filled in on the night."
+      },
+      {
+       "n": 4,
+       "prompt": "Beginners' group (Tuesdays) — coach: Gail (4) ___",
+       "answer": "Kerridge",
+       "accepted": [],
+       "spoken": "Kerridge",
+       "evidence": "No, Kerridge. K... E... double R... I... D... G... E.",
+       "trap": "The caller mishears the name as Kerrigan; the double R must be spelled correctly."
+      },
+      {
+       "n": 5,
+       "prompt": "Charity 10K race — Date: Sunday (5) ___ November",
+       "answer": "9th",
+       "accepted": [
+        "9",
+        "ninth"
+       ],
+       "spoken": "the ninth",
+       "evidence": "so we've moved it back a week. It's now Sunday the ninth.",
+       "trap": "The poster gives the second, the original date before the road works."
+      },
+      {
+       "n": 6,
+       "prompt": "Starting point: the (6) ___ (finish in Norfolk Park)",
+       "answer": "lighthouse",
+       "accepted": [],
+       "spoken": "the lighthouse",
+       "evidence": "so this year we're starting from the lighthouse, right at the north end of the beach",
+       "trap": "The surf club was the start in previous years; Norfolk Park is the finish."
+      },
+      {
+       "n": 7,
+       "prompt": "Entry fee for club members: $(7) ___",
+       "answer": "30",
+       "accepted": [
+        "thirty",
+        "$30"
+       ],
+       "spoken": "thirty",
+       "evidence": "No, thirty, three-oh. So if you join before you enter",
+       "trap": "Forty-five (public price), fifteen (the saving) and the misheard thirteen are all distractors."
+      },
+      {
+       "n": 8,
+       "prompt": "Money raised will go to the local (8) ___",
+       "answer": "hospice",
+       "accepted": [],
+       "spoken": "the local hospice",
+       "evidence": "This year the committee voted for the local hospice.",
+       "trap": "The animal shelter and the surf lifesaving club received the money in earlier years."
+      },
+      {
+       "n": 9,
+       "prompt": "Race pack: pick up on Saturday at the (9) ___ office (9 am – 4 pm)",
+       "answer": "marina",
+       "accepted": [],
+       "spoken": "the marina office",
+       "evidence": "from the marina office, down by the boat ramp",
+       "trap": "Numbers used to be collected at the start, and there is a bag drop at the lighthouse."
+      },
+      {
+       "n": 10,
+       "prompt": "Every runner who completes the course gets a medal and a (10) ___",
+       "answer": "towel",
+       "accepted": [],
+       "spoken": "a towel",
+       "evidence": "so this year every finisher gets a towel instead",
+       "trap": "T-shirts were given in the past; the medal is already in the notes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Outdoor Education Week",
+   "context": "Monologue in an everyday social context (1 speaker)",
+   "scenario": "A primary school head teacher briefs parents at an evening meeting about the Year Six outdoor education week.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Mrs Hallam",
+     "desc": "Head teacher — female, 50s, warm, organised, gently humorous; standard southern British accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear a head teacher talking to parents about a school outdoor education week. First, you have some time to look at Questions 11 to 14.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 11 to 14.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[school hall, a few chairs scraping, then quiet] [warm, welcoming] Good evening, everyone, and thank you for coming out on such a wet night. I know some of you have come straight from work, so I'll try to keep this brisk. As you know, we're here to talk about the Year Six outdoor education week, which takes place in the first week of June."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[reflective] Some of you will remember that when the school first started these trips, about ten years ago, the main idea was simply to get children more active. And fitness is still a very welcome side effect, of course. [short pause] Other parents have said to me that it's a useful step towards secondary school, and I'd agree that it helps with that."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[earnest, slowing down] But what the staff and I really want from the week this year is for the children to learn to manage without us. To pack their own bags, keep track of their own kit, and make decisions in their groups without an adult jumping in to sort everything out. [light laugh] That's harder than it sounds, for them and for us."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[informative] Now, some practical details. We're going back to Brackenside, the centre in mid-Wales that we used last year, so a lot of the staff already know the site well. The children will again be in activity groups of eight, each with its own instructor. [slightly apologetic] We did ask whether the groups could be cut to six, but the centre simply couldn't staff that."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[upbeat] What has changed is that, rather than coming home on the Wednesday as they did last year, the children will stay a second night and come back on the Thursday afternoon. The feedback we had was that one night was over almost before it had begun."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[careful, businesslike] The cost this year is two hundred and ten pounds. I know several families asked whether there's a reduction when brothers and sisters, or twins, go together. I'm afraid the centre doesn't offer one. The coach isn't part of that figure, either. The parents' association has very generously agreed to pay for it this year."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[reassuring] What we can do is let you split the payment into three equal parts, in March, April and May, rather than paying it all at once. Just let the office know which you'd prefer. And if the cost is a real difficulty for any family, please come and talk to me privately. Nobody will miss out for that reason."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[slightly firmer] Mobile phones. Last year, as some of you will recall, we let the children bring them. They were collected when we arrived and handed back for half an hour each evening. [sighs] Honestly, it caused far more homesickness than it cured. So this year, please don't pack a phone at all. If you need to reach your child, ring the centre, and we'll put photos on the school blog every evening."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 15 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 15 to 20.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[clear, organised] Let me run through the activities now, because each one needs something slightly different from you. On the first full day there's cycling, in the morning. Helmets and bikes are provided by the centre, and the children will be back in plenty of time for lunch. [emphatic] However, part of the route goes along a quiet public lane, so this is the one activity the centre won't let a child take part in without your signature on the permission slip."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[light, practical] Then canoeing, on the lake. Everyone is given a wetsuit and a buoyancy aid, so they don't need extra clothes for that. [chuckles] But their feet will get soaked, without exception, so they'll need a second pair of trainers or old shoes to change into afterwards, otherwise they'll be squelching about all day."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[amused] The pond and stream study comes next. Some parents asked if the children should bring a torch, for looking under rocks and so on. They don't need one. [warning tone] What I would say is that the mud at Brackenside is a peculiar shade of orange, and it does not wash out. Please send them in something old that you won't mind putting straight in the bin afterwards."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[enthusiastic] On the second evening, there's a night walk up through the woods, which the children always love. The centre used to lend out lamps for this, but they've stopped doing that now. So every child must bring a torch of their own. It doesn't need to be anything fancy, and please, not one that flashes."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[informative] The orienteering day is the longest one. The groups are out in Gwern Forest from morning until late afternoon, which is too far to come back to the centre, so for once the kitchen won't be providing a hot lunch. Please make sure your child has sandwiches and a drink with them that morning. [short pause] You might think they'd need sun cream, being out all day, but the centre has huge supplies, so please don't send any."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[serious, measured] And finally, climbing, on the indoor wall. The children's harnesses are all checked by the instructors, so you needn't worry about equipment. But the climbing centre insists, and this is their rule rather than ours, on having a list of any medicines a child takes, especially inhalers, before that session. If that applies to your child, please write it on the form that's going home tonight."
+    },
+    {
+     "speaker": "Mrs Hallam",
+     "text": "[light, wrapping up] One last thing. There's a small shop at Brackenside, and in the past children have taken pocket money. This year the shop will be closed for refurbishment, so they won't need any money at all. [warmly] Right, I'll stop there. Are there any questions?"
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 2. You now have one minute to check your answers to Part 2.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-14",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 11,
+       "prompt": "According to the head teacher, the main aim of the week this year is to",
+       "options": {
+        "A": "improve the children's physical fitness.",
+        "B": "help the children become more self-reliant.",
+        "C": "prepare the children for their move to a new school."
+       },
+       "answer": "B",
+       "evidence": "is for the children to learn to manage without us",
+       "trap": "Fitness was the original aim and preparing for secondary school is mentioned as a useful side benefit, but neither is the main aim this year."
+      },
+      {
+       "n": 12,
+       "prompt": "What is different about the week compared with last year?",
+       "options": {
+        "A": "the length of time the children are away",
+        "B": "the number of children in each activity group",
+        "C": "the outdoor centre that the school is using"
+       },
+       "answer": "A",
+       "evidence": "the children will stay a second night and come back on the Thursday afternoon",
+       "trap": "The school considered smaller groups but they stay at eight, and Brackenside was also used last year."
+      },
+      {
+       "n": 13,
+       "prompt": "What does the head teacher say about the cost of the week?",
+       "options": {
+        "A": "Parents may pay in stages.",
+        "B": "It is reduced for families sending more than one child.",
+        "C": "It includes transport to the centre."
+       },
+       "answer": "A",
+       "evidence": "let you split the payment into three equal parts",
+       "trap": "There is no discount for siblings or twins, and the coach is not included in the price (the parents' association pays for it)."
+      },
+      {
+       "n": 14,
+       "prompt": "What is the school's policy on mobile phones this year?",
+       "options": {
+        "A": "They will be handed to staff on arrival.",
+        "B": "They may be used for a short time each evening.",
+        "C": "Children should not bring them."
+       },
+       "answer": "C",
+       "evidence": "So this year, please don't pack a phone at all.",
+       "trap": "A and B describe last year's arrangements, which have now been dropped."
+      }
+     ]
+    },
+    {
+     "range": "15-20",
+     "type": "matching",
+     "instructions": "What do parents need to provide or note for each activity? Choose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+     "options": {
+      "A": "a signed consent form",
+      "B": "a packed lunch",
+      "C": "clothing that can be thrown away",
+      "D": "a change of footwear",
+      "E": "a torch",
+      "F": "sun protection",
+      "G": "spending money",
+      "H": "information about any medication"
+     },
+     "items": [
+      {
+       "n": 15,
+       "prompt": "cycling",
+       "answer": "A",
+       "evidence": "without your signature on the permission slip",
+       "trap": "Helmets are provided and the children return for lunch, so B is not needed."
+      },
+      {
+       "n": 16,
+       "prompt": "canoeing",
+       "answer": "D",
+       "evidence": "they'll need a second pair of trainers or old shoes to change into afterwards",
+       "trap": "Extra clothes are not needed because wetsuits are provided."
+      },
+      {
+       "n": 17,
+       "prompt": "pond and stream study",
+       "answer": "C",
+       "evidence": "Please send them in something old that you won't mind putting straight in the bin afterwards.",
+       "trap": "A torch is suggested by parents for this activity but rejected."
+      },
+      {
+       "n": 18,
+       "prompt": "night walk",
+       "answer": "E",
+       "evidence": "So every child must bring a torch of their own.",
+       "trap": "The centre used to lend lamps, so listeners may think nothing is needed."
+      },
+      {
+       "n": 19,
+       "prompt": "orienteering",
+       "answer": "B",
+       "evidence": "Please make sure your child has sandwiches and a drink with them that morning.",
+       "trap": "Sun cream (F) is raised for this activity but parents are told not to send any."
+      },
+      {
+       "n": 20,
+       "prompt": "climbing",
+       "answer": "H",
+       "evidence": "on having a list of any medicines a child takes, especially inhalers",
+       "trap": "Equipment is checked by the instructors, and the form going home is a means of giving the information, not a consent form; money (G) is not needed for anything."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "Commuting Survey Data",
+   "context": "Academic discussion (2 postgraduate students)",
+   "scenario": "Two postgraduate students discuss the results of their survey into how people in the city commute and use public transport.",
+   "accent": "British (en-GB) · Irish-accented English (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.45 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Niamh",
+     "desc": "Postgraduate student — female, mid-20s, quick, direct, good-humoured; Irish accent (Dublin)"
+    },
+    {
+     "label": "Marcus",
+     "desc": "Postgraduate student — male, late 20s, careful, slightly cautious, thinks aloud; British accent (southern English)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two postgraduate students, Niamh \"/niːv/\" and Marcus, discussing the results of a survey they carried out on commuting and public transport. First, you have some time to look at Questions 21 to 25.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 21 to 25.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[quiet study room, papers shuffling] [tired but friendly] Right, Niamh \"/niːv/\", I've finally got all the responses into one spreadsheet. Four hundred and twelve in total."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[pleased] Not bad at all. Fewer than we hoped, mind you. I think the questionnaire was just too long. Twelve pages was asking a lot of people. So, where did most of them come from in the end? Online?"
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[slightly surprised] That's what I assumed too, given how much we pushed the link on social media. But no, the online version only got about a hundred and thirty. The paper copies did far better, and nearly all of those came from libraries."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[thinking] Really? Not the doctors' surgeries?"
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[dry] We got a grand total of nineteen from the surgeries. And the supermarkets wouldn't let us leave any in the first place, if you remember."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[laughs] Oh yes, I remember the manager's face. [wry] And to think we spent a whole weekend designing that online version. [short pause] Still, at least the paper ones were properly filled in. Half the online people gave up after page three."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[agreeing] Yeah, the completion rate on paper was much better. Anyway."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "OK. So, the big question. Why do the drivers say they don't use the buses? I'd have bet money it'd be the fares."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[measured] So would I. But cost only came third. It isn't the price that puts them off, and it isn't really the journey time, which was second. By some distance, the thing drivers kept coming back to was reliability. Buses not turning up, or two arriving at once."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[nodding, half to herself] That fits with the comments section, actually. People were furious about the number seven route. [short pause] What about the cyclists? I was expecting pages about dangerous traffic."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[considering] There was some of that, and a fair few mentioned showers at work. But the real complaint wasn't safety on the roads at all. It was that there's nowhere to leave a bike. They want secure storage, at the station and at work, because so many of them have had bikes stolen."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[interested] Right. And the over-sixties? I suppose price doesn't matter much to them, since most of them travel free."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[agreeing] Exactly, cost hardly featured. And interestingly, speed wasn't a big deal either. When we asked them to rank things, they put comfort above journey time almost every time. Getting a seat, a smooth ride, that sort of thing. [short pause] [thoughtful] Which surprised me a bit, actually. I'd assumed reliability would top their list as well, the same as it did for the drivers, but it only came third for them."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[thoughtful] That's a nice finding. Now, presentation. Doctor Ellis said tables, didn't she?"
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[hesitant] She did say tables were fine for the appendix. And I'd started doing bar charts for everything."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[firm, enthusiastic] But so much of this is about where people live. I really think the main findings should go on maps. You'd see the gaps in the bus network straight away."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[conceding] Yeah... you're right. Maps for the main results, then. I'll ditch the bar charts."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the discussion, you have some time to look at Questions 26 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 26 to 30.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[more serious] We need to be honest about the sample, though. Doctor Ellis will go straight for it."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[worried] I know. My worry's the young people. I thought we'd hardly have any under twenty-five."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[reassuring] We're actually fine there, they're about twenty-two per cent, which is close to the city as a whole. And before you say it, students aren't a problem either. There were only about forty of them."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[sighs] No, you're right. The thing that does bother me is the postcodes. Nearly two thirds of the responses are from the eastern side of the city, because that's where the libraries we used are."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[agreeing] That's the real weakness, isn't it? We can't say much about the west at all."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[moving on] Agreed. What about the working-from-home question? A lot of people have said that's the most surprising part of the data."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[sceptical] I don't think it surprised anyone, to be honest. It's what every report's been saying for years. My problem with it is the wording. We asked how often people work remotely, and half of them didn't know whether to count a morning at home as a day or not. You can see they've interpreted it in completely different ways."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[suggesting] Would it have helped if it had come earlier, before people got tired?"
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[firm] I don't think where it was made any difference. It's the way we phrased it."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[thinking aloud] Fair enough. Now, the follow-up interviews. You know I was against putting them in at first."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[teasing] You said eight interviews weren't worth the paper."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[light laugh] I did. And it wasn't Doctor Ellis who changed my mind, either, although she did suggest them. And they certainly don't fix the response rate, eight people isn't going to do that. [more animated] It's that they make sense of those odd figures for the occasional bus users, the ones who say they hate the buses and use them anyway. The interviews show why."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[pleased] Great, so they're in. And the national census figures? I'd love to use them to back up our main argument."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[cautious] The trouble is their categories don't match ours. They lump cycling and walking together, for one thing. And they're from four years ago, before all the changes to the bus routes, so any comparison would be a bit misleading."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[reluctant] Hmm. I don't want to bin them completely, though. They took ages to find."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[proposing] How about we stick them at the back, as supporting material, but don't build anything on them?"
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[agreeing] OK, an appendix it is. So, before we see Doctor Ellis on Friday... should we email the bus company for their passenger numbers?"
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[doubtful] They'd take weeks to reply. And there's no time to set up more interviews either."
+    },
+    {
+     "speaker": "Niamh",
+     "text": "[decisive] Then let's go back through the written comments. I noticed we've coded some of them differently from each other, so we should sort that out first."
+    },
+    {
+     "speaker": "Marcus",
+     "text": "[relieved] Good idea. I'll take the first half, you take the second, and we can compare notes on Thursday evening. [light laugh] Then at least we'll walk in on Friday agreeing with each other."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 3. You now have one minute to check your answers to Part 3.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-25",
+     "type": "summary_completion",
+     "instructions": "Complete the summary below. Write ONE WORD ONLY for each answer.",
+     "heading": "Commuting survey: initial findings",
+     "items": [
+      {
+       "n": 21,
+       "prompt": "Most of the completed questionnaires were paper copies collected from (21) ___, rather than online responses.",
+       "answer": "libraries",
+       "accepted": [],
+       "spoken": "libraries",
+       "evidence": "The paper copies did far better, and nearly all of those came from libraries.",
+       "trap": "Online/social media was expected to dominate; doctors' surgeries gave very few and supermarkets refused."
+      },
+      {
+       "n": 22,
+       "prompt": "The main reason car drivers gave for avoiding buses was (22) ___.",
+       "answer": "reliability",
+       "accepted": [],
+       "spoken": "reliability",
+       "evidence": "the thing drivers kept coming back to was reliability",
+       "trap": "Both students expected cost (fares), which came third; journey time came second."
+      },
+      {
+       "n": 23,
+       "prompt": "Cyclists were most concerned about the shortage of secure (23) ___.",
+       "answer": "storage",
+       "accepted": [],
+       "spoken": "storage",
+       "evidence": "They want secure storage, at the station and at work",
+       "trap": "Traffic danger and showers at work are mentioned but are not the main complaint."
+      },
+      {
+       "n": 24,
+       "prompt": "Older respondents valued (24) ___ more highly than speed.",
+       "answer": "comfort",
+       "accepted": [],
+       "spoken": "comfort",
+       "evidence": "they put comfort above journey time almost every time",
+       "trap": "Price might seem likely but older people travel free, and speed is ranked lower."
+      },
+      {
+       "n": 25,
+       "prompt": "The key results will be shown on (25) ___.",
+       "answer": "maps",
+       "accepted": [],
+       "spoken": "maps",
+       "evidence": "Maps for the main results, then.",
+       "trap": "Tables are suggested by the supervisor (only for the appendix) and bar charts are abandoned."
+      }
+     ]
+    },
+    {
+     "range": "26-30",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 26,
+       "prompt": "The students agree that the main weakness of their sample is that",
+       "options": {
+        "A": "young adults are under-represented.",
+        "B": "most respondents live in one area of the city.",
+        "C": "it contains too many students."
+       },
+       "answer": "B",
+       "evidence": "Nearly two thirds of the responses are from the eastern side of the city",
+       "trap": "Marcus worries about young people and students, but Niamh shows both are adequately represented."
+      },
+      {
+       "n": 27,
+       "prompt": "What is Niamh's view of the question about working from home?",
+       "options": {
+        "A": "It was open to more than one interpretation.",
+        "B": "It was placed too late in the questionnaire.",
+        "C": "It produced the most unexpected results."
+       },
+       "answer": "A",
+       "evidence": "You can see they've interpreted it in completely different ways.",
+       "trap": "Others found the results surprising and Marcus suggests moving it earlier, but Niamh rejects both."
+      },
+      {
+       "n": 28,
+       "prompt": "Why does Marcus now support including the follow-up interviews?",
+       "options": {
+        "A": "They help to explain some puzzling data.",
+        "B": "Their supervisor advised them to use them.",
+        "C": "They compensate for the small number of survey responses."
+       },
+       "answer": "A",
+       "evidence": "It's that they make sense of those odd figures for the occasional bus users",
+       "trap": "The supervisor did suggest them but did not persuade him, and he says they don't fix the response rate."
+      },
+      {
+       "n": 29,
+       "prompt": "What do the students decide to do with the national census figures?",
+       "options": {
+        "A": "omit them from the report",
+        "B": "include them in an appendix",
+        "C": "use them as evidence for their main argument"
+       },
+       "answer": "B",
+       "evidence": "OK, an appendix it is.",
+       "trap": "Niamh wants to support the main argument with them and considers that throwing them away would be a waste, but both are rejected."
+      },
+      {
+       "n": 30,
+       "prompt": "What will the students do before meeting their supervisor?",
+       "options": {
+        "A": "check how they have categorised the open responses",
+        "B": "request data from a transport company",
+        "C": "carry out some additional interviews"
+       },
+       "answer": "A",
+       "evidence": "I noticed we've coded some of them differently from each other",
+       "trap": "Contacting the bus company and arranging more interviews are both suggested and ruled out for lack of time."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "How Suspension Bridges Carry Loads",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "An engineering lecturer explains how suspension bridges are built, how they carry loads, and the problems caused by wind, pedestrians and corrosion.",
+   "accent": "American (en-US)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "Engineering lecturer — male, 50s, clear, enthusiastic, slightly wry; General American accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about the engineering of suspension bridges. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 31 to 40.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture hall, a faint murmur fading] [lively, clear] Okay, let's get started. Today we're looking at suspension bridges, which, for the longest spans, are still pretty much the only option we have. I want to focus on how they actually carry loads, and then on what can go wrong."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[conversational] Just to put that in context: a good concrete beam bridge might span a couple of hundred meters between supports, and a cable-stayed bridge perhaps a thousand. The longest suspension bridges now cross more than two kilometers in a single span. [short pause] So whatever they're doing, they're doing it very efficiently, and the reason comes down to how each part shares the work."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured, explaining] The basic idea is simple. The deck, the part you drive on, hangs from vertical cables, and those vertical cables hang from two main cables that run over the tops of the towers. Now, a lot of students assume the main cables are being squeezed by all that weight. [short pause] They aren't. A cable can't resist being squeezed at all. The main cables are only ever in tension. They're being pulled. It's the towers that work in compression, pushing the load straight down into the foundations."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] So where does the pull in the cables end up? At each end of the bridge, the cables are tied into anchorages. These are enormous blocks, and their whole job is to be heavy enough not to be dragged toward the river. On older bridges, they were built of masonry, cut stone, and in a few places the cables were simply anchored into solid rock. But today, almost without exception, anchorages are made of concrete, sometimes hundreds of thousands of tons of it."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[enthusiastic] The main cables themselves are fascinating. You might picture a giant twisted rope, like a ship's hawser. That's not how it's done. Each cable is made of thousands of thin, parallel steel wires, and they're laid in place one at a time, high above the water, by a wheel running backward and forward between the anchorages. [light laugh] The process looks a bit like weaving, but engineers call it spinning, and it can take more than a year."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful, careful] Let's think about the shape of the cable. If you hang a chain between two points, with nothing attached, it forms a curve called a catenary. You'll see that word in older textbooks applied to bridges. But a suspension bridge cable isn't just hanging under its own weight. Once the deck is attached, and the load is spread evenly along the span, the curve is much closer to a parabola. And that's the shape designers actually work with."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[amused, conversational] Here's a detail I love. On the very longest bridges, the towers aren't exactly parallel. They're a few centimeters farther apart at the top than at the bottom. It's not a construction error, and it's not the cables pulling them outward either. [slowing down] It's because each tower points toward the center of the Earth, so the curvature of the planet means they lean very slightly away from each other."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[more serious] Now, what can go wrong? The big enemy is wind. You've probably all seen the film of the Tacoma Narrows Bridge in nineteen forty, twisting until it fell apart. You'll often read that it was destroyed by resonance, like a singer shattering a glass. [firmly] That's not really accurate. Engineers now agree the cause was flutter, a self-feeding twisting motion, where the movement of the deck changes the airflow, which then makes the movement bigger."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] After Tacoma, the first response was to make decks far stiffer. Designers didn't change the shape much at first. Instead, they hung deep trusses underneath the road, a kind of open steel framework, which stopped the deck from twisting. [short pause] Later, especially in Europe, engineers went the other way, with slim box decks shaped rather like an aircraft wing, which they test in wind tunnels before anything is built. Both approaches work, but the wing-shaped decks use far less steel."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[wry] Wind isn't the only problem, though. People can be one too. When London's Millennium Bridge opened in two thousand, which is a very shallow suspension bridge, it started swaying from side to side. Pedestrians unconsciously fell into step with the movement, which made it worse. The bridge was closed, and there was talk of closing it for good, or rebuilding it entirely. [short pause] In the end, the fix was to install dampers, devices that absorb the energy of the motion, a bit like the shock absorbers in a car."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[serious, emphatic] Finally, maintenance. You might expect the biggest long-term worry to be metal fatigue, the gradual weakening from millions of loading cycles. In fact, for main cables, that's a relatively minor issue. The real threat is corrosion. Water gets in between the wires, and once they start to rust, they snap, one at a time, deep inside the cable where nobody can see them."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining] So how do you find a broken wire you can't see? One method is to unwrap sections of cable and inspect them by eye, but that's slow and very expensive. X-rays have been tried, but the cables are just too thick. [interested] What many bridges use now is acoustic monitoring. Microphones are clamped along the cable, and when a wire breaks, it gives off a sharp crack, and the system records exactly where and when it happened."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[practical, wrapping up] Some bridges go further and blow dry air through the cables to stop corrosion before it starts, and we'll look at those systems next week. For now, I'd like you to read the case study on the reading list before Thursday."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of the Listening test. You now have two minutes to check your answers.",
+     "pause_after": 120
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "Suspension bridges: how they carry loads",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "Structure — Main cables: are stretched, i.e. always in (31) ___ (towers in compression)",
+       "answer": "tension",
+       "accepted": [],
+       "spoken": "tension",
+       "evidence": "The main cables are only ever in tension.",
+       "trap": "Students assume the cables are squeezed; compression applies to the towers."
+      },
+      {
+       "n": 32,
+       "prompt": "Anchorages: massive blocks, now generally built of (32) ___",
+       "answer": "concrete",
+       "accepted": [],
+       "spoken": "concrete",
+       "evidence": "anchorages are made of concrete, sometimes hundreds of thousands of tons of it",
+       "trap": "Masonry/stone was used on older bridges, and some cables were anchored in rock."
+      },
+      {
+       "n": 33,
+       "prompt": "Main cables: thousands of parallel steel wires placed individually — this is known as (33) ___",
+       "answer": "spinning",
+       "accepted": [],
+       "spoken": "spinning",
+       "evidence": "but engineers call it spinning, and it can take more than a year",
+       "trap": "The process is said to look like weaving, but that is not the term used."
+      },
+      {
+       "n": 34,
+       "prompt": "With an evenly distributed deck load, the cable forms a (34) ___ (not the curve of a freely hanging chain)",
+       "answer": "parabola",
+       "accepted": [],
+       "spoken": "a parabola",
+       "evidence": "the curve is much closer to a parabola",
+       "trap": "Catenary is the shape of a freely hanging chain, used in older textbooks."
+      },
+      {
+       "n": 35,
+       "prompt": "Towers on very long spans are slightly further apart at the top because of the Earth's (35) ___",
+       "answer": "curvature",
+       "accepted": [],
+       "spoken": "the curvature",
+       "evidence": "so the curvature of the planet means they lean very slightly away from each other",
+       "trap": "A construction error and the pull of the cables are both rejected as explanations."
+      },
+      {
+       "n": 36,
+       "prompt": "Wind — Tacoma Narrows (1940): collapse actually caused by (36) ___",
+       "answer": "flutter",
+       "accepted": [],
+       "spoken": "flutter",
+       "evidence": "Engineers now agree the cause was flutter",
+       "trap": "Resonance is the popular explanation, which the lecturer says is inaccurate."
+      },
+      {
+       "n": 37,
+       "prompt": "First solution: decks stiffened with deep (37) ___ below the road",
+       "answer": "trusses",
+       "accepted": [],
+       "spoken": "trusses",
+       "evidence": "they hung deep trusses underneath the road",
+       "trap": "Wing-shaped box decks and wind tunnels belong to the later, European approach."
+      },
+      {
+       "n": 38,
+       "prompt": "Pedestrians — London's Millennium Bridge: side-to-side movement solved by adding (38) ___",
+       "answer": "dampers",
+       "accepted": [],
+       "spoken": "dampers",
+       "evidence": "the fix was to install dampers, devices that absorb the energy",
+       "trap": "Permanent closure and complete rebuilding were discussed but rejected; shock absorbers are only an analogy."
+      },
+      {
+       "n": 39,
+       "prompt": "Maintenance — Greatest danger to main cables: (39) ___ (fatigue less important)",
+       "answer": "corrosion",
+       "accepted": [],
+       "spoken": "corrosion",
+       "evidence": "The real threat is corrosion.",
+       "trap": "Metal fatigue is the expected answer but is described as relatively minor."
+      },
+      {
+       "n": 40,
+       "prompt": "Broken wires detected by attaching (40) ___ to the cable",
+       "answer": "microphones",
+       "accepted": [],
+       "spoken": "Microphones",
+       "evidence": "Microphones are clamped along the cable",
+       "trap": "Visual inspection by unwrapping is too expensive and X-rays don't work on thick cables."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

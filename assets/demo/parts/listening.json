@@ -1,0 +1,583 @@
+{
+  "landing": {
+    "modules": [
+      {
+        "id": "lessons",
+        "title": "Bite-size Lessons",
+        "count": "19 lessons",
+        "subtitle": "Short lessons, each with an audio exercise",
+        "icon": "lesson"
+      },
+      {
+        "id": "guide",
+        "title": "Listening Guide",
+        "count": "15 chapters",
+        "subtitle": "Zero to Band 9: strategy, every question type, drills · English / বাংলা",
+        "icon": "guide"
+      },
+      {
+        "id": "mini",
+        "title": "Mini Practice",
+        "subtitle": "10-question drills with audio",
+        "icon": "mini"
+      },
+      {
+        "id": "parts",
+        "title": "Part Practice",
+        "subtitle": "Practise one of the 4 parts at a time",
+        "icon": "parts"
+      },
+      {
+        "id": "tests",
+        "title": "Full Listening Test",
+        "subtitle": "40 questions · plays once",
+        "icon": "test"
+      },
+      {
+        "id": "tips",
+        "title": "Listening Tips",
+        "count": "12 guides",
+        "subtitle": "Strategy, question types, traps and test-day skills",
+        "icon": "tips"
+      }
+    ]
+  },
+  "library": {
+    "filters": [
+      "Full tests",
+      "Part 1",
+      "Part 2",
+      "Part 3",
+      "Part 4"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "ll_06",
+      "title": "Spelling names",
+      "body": "Part 1 speakers often **spell** names and streets letter by letter. Write each letter as you hear it, then check the whole word. Phone numbers come in small groups — write them exactly as they are read.",
+      "audio": "assets/audio/listening/ll_06.mp3",
+      "audioDurationSeconds": 52.6,
+      "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p1_fn",
+        "code": "P1-FN",
+        "title": "Registering for a Summer Sports Camp",
+        "from": 10.85,
+        "to": 63.4
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "Child's name: Oliver",
+          "after": "",
+          "answer": "Brandon",
+          "accepted": [
+            "Brandon"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Age at start of camp:",
+          "after": "",
+          "answer": "10 / ten",
+          "accepted": [
+            "10",
+            "ten"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "Parent's mobile:",
+          "after": "",
+          "answer": "07845 331290",
+          "accepted": [
+            "07845 331290",
+            "07845331290"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "Address: 27",
+          "after": "Close",
+          "answer": "Kestrel",
+          "accepted": [
+            "Kestrel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ll_07",
+      "title": "Numbers & prices",
+      "body": "Numbers are easy marks if you are ready for them. Before the audio, look at what sits next to each gap (**£**, a phone code, \"under …\") so you know exactly which kind of number to listen for.",
+      "audio": "assets/audio/listening/ll_07.mp3",
+      "audioDurationSeconds": 26.3,
+      "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p2_fn",
+        "code": "P2-FN",
+        "title": "A Recorded Guide to Sunnyside Leisure Centre",
+        "from": 49.42,
+        "to": 75.72
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "Lockers need a £",
+          "after": "coin",
+          "answer": "1 / one",
+          "accepted": [
+            "1",
+            "one"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Disabled access: use the",
+          "after": "entrance",
+          "answer": "side",
+          "accepted": [
+            "side"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "Reception phone number: 01632 960",
+          "after": "",
+          "answer": "582",
+          "accepted": [
+            "582"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "Junior membership: for people under",
+          "after": "",
+          "answer": "18 / eighteen",
+          "accepted": [
+            "18",
+            "eighteen"
+          ]
+        },
+        {
+          "number": 5,
+          "before": "Racquet hire: £",
+          "after": "",
+          "answer": "3 / three",
+          "accepted": [
+            "3",
+            "three"
+          ]
+        },
+        {
+          "number": 6,
+          "before": "Towel hire: £",
+          "after": "",
+          "answer": "2 / two",
+          "accepted": [
+            "2",
+            "two"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ll_08",
+      "title": "Signpost words",
+      "body": "In a lecture, the notes follow the speaker's order. **Signposts** such as \"before we start\", \"to count species\" or \"the frames we use\" tell you the speaker has moved to the next line of your notes.",
+      "audio": "assets/audio/listening/ll_08.mp3",
+      "audioDurationSeconds": 42.6,
+      "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p4_fn",
+        "code": "P4-FN",
+        "title": "Fieldwork Techniques in Marine Biology",
+        "from": 0.0,
+        "to": 42.6
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "Length of shoreline surveyed:",
+          "after": "metres",
+          "answer": "200",
+          "accepted": [
+            "200"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Group size:",
+          "after": "",
+          "answer": "4 / four",
+          "accepted": [
+            "4",
+            "four"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "Main method: the",
+          "after": "transect",
+          "answer": "quadrat",
+          "accepted": [
+            "quadrat"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "Size of each quadrat:",
+          "after": "metre square",
+          "answer": "1 / one",
+          "accepted": [
+            "1",
+            "one"
+          ]
+        },
+        {
+          "number": 5,
+          "before": "Before starting, record the",
+          "after": "of the tide",
+          "answer": "height",
+          "accepted": [
+            "height"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ll_09",
+      "title": "Hearing the correction",
+      "body": "Speakers change their minds: \"here in Hadley?\" — \"No… **actually**, Ashford.\" Words like **actually**, **but** and **so** warn you that the first idea is not the answer, so wait for the final version.",
+      "audio": "assets/audio/listening/ll_09.mp3",
+      "audioDurationSeconds": 34.2,
+      "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p1_fn",
+        "code": "P1-FN",
+        "title": "Registering for a Summer Sports Camp",
+        "from": 63.4,
+        "to": 97.58
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "Town:",
+          "after": "",
+          "answer": "Ashford",
+          "accepted": [
+            "Ashford"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Week chosen: week",
+          "after": "",
+          "answer": "3 / three",
+          "accepted": [
+            "3",
+            "three"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "Main sport:",
+          "after": "",
+          "answer": "tennis",
+          "accepted": [
+            "tennis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ll_10",
+      "title": "Predict the gap",
+      "body": "Before the audio starts, read each sentence and **predict** the missing word: a day? a length of time? a number? Knowing what you need makes the answer stand out — and the distractor (12 weeks) easier to skip.",
+      "audio": "assets/audio/listening/ll_10.mp3",
+      "audioDurationSeconds": 35.0,
+      "instruction": "Exercise · Write NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p1_sc",
+        "code": "P1-SC",
+        "title": "Signing Up for a Beginners' Cookery Course",
+        "from": 3.52,
+        "to": 38.5
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "The beginners' class runs on",
+          "after": "evenings.",
+          "answer": "Tuesday",
+          "accepted": [
+            "Tuesday"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Each session lasts",
+          "after": "",
+          "answer": "two hours / 2 hours",
+          "accepted": [
+            "two hours",
+            "2 hours"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "The beginners' course runs for",
+          "after": "weeks.",
+          "answer": "eight / 8",
+          "accepted": [
+            "eight",
+            "8"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "There are no more than",
+          "after": "students in a class.",
+          "answer": "twelve / 12",
+          "accepted": [
+            "twelve",
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ll_11",
+      "title": "Reading a table",
+      "body": "Read a table **across each row**: company, price, what is included, notice needed. The speaker usually follows that order, so move your eyes along the row as you listen.",
+      "audio": "assets/audio/listening/ll_11.mp3",
+      "audioDurationSeconds": 33.9,
+      "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p1_tc",
+        "code": "P1-TC",
+        "title": "Comparing Two Removal Companies",
+        "from": 0.0,
+        "to": 33.87
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "Swift Movers — Price: £",
+          "after": "",
+          "answer": "450",
+          "accepted": [
+            "450"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Swift Movers — Included: up to",
+          "after": "boxes",
+          "answer": "20 / twenty",
+          "accepted": [
+            "20",
+            "twenty"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "Swift Movers — Notice needed:",
+          "after": "weeks",
+          "answer": "2 / two",
+          "accepted": [
+            "2",
+            "two"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "Swift Movers — Extra charge for:",
+          "after": "",
+          "answer": "stairs",
+          "accepted": [
+            "stairs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ll_12",
+      "title": "Word limits",
+      "body": "Short answers have a **word limit**. \"Closed shoes\" is two words — fine; \"a pair of closed shoes\" is too many and is marked wrong. Write only the key words you hear.",
+      "audio": "assets/audio/listening/ll_12.mp3",
+      "audioDurationSeconds": 29.7,
+      "instruction": "Exercise · Write NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p1_sa",
+        "code": "P1-SA",
+        "title": "Booking a City Bike Tour",
+        "from": 65.47,
+        "to": 95.15
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "How much does the Harbour tour cost per person?",
+          "after": "",
+          "answer": "$65 / 65 dollars",
+          "accepted": [
+            "$65",
+            "65",
+            "65 dollars",
+            "sixty-five dollars"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "What must students show to get a discount?",
+          "after": "",
+          "answer": "student card",
+          "accepted": [
+            "student card"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "What type of shoes must riders wear?",
+          "after": "",
+          "answer": "closed shoes",
+          "accepted": [
+            "closed shoes"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "What should riders bring as well as sunscreen?",
+          "after": "",
+          "answer": "light jacket / jacket",
+          "accepted": [
+            "light jacket",
+            "jacket"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ll_13",
+      "title": "Paraphrase in lectures",
+      "body": "The sentences you complete **paraphrase** the lecture: \"in the dark\" becomes \"at night\". Listen for the meaning, not for the exact words printed in the question.",
+      "audio": "assets/audio/listening/ll_13.mp3",
+      "audioDurationSeconds": 55.3,
+      "instruction": "Exercise · Write NO MORE THAN TWO WORDS",
+      "source": {
+        "set": "lb_p4_sc",
+        "code": "P4-SC",
+        "title": "How Birds Navigate During Migration",
+        "from": 0.0,
+        "to": 55.27
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "Many songbirds migrate at",
+          "after": "",
+          "answer": "night",
+          "accepted": [
+            "night"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Flying in the dark helps birds avoid",
+          "after": "",
+          "answer": "predators",
+          "accepted": [
+            "predators"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "Birds flying by day often use the",
+          "after": "as a compass.",
+          "answer": "sun",
+          "accepted": [
+            "sun"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "Birds adjust for the movement of the sun using an internal",
+          "after": "",
+          "answer": "clock",
+          "accepted": [
+            "clock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ll_14",
+      "title": "Following a discussion",
+      "body": "In Part 3, students and a tutor talk things through and often **change the plan**: \"we'd planned for 20 minutes…\". Note the final decision, and who is doing which part.",
+      "audio": "assets/audio/listening/ll_14.mp3",
+      "audioDurationSeconds": 38.6,
+      "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p3_fn",
+        "code": "P3-FN",
+        "title": "Planning a Group Presentation on Renewable Energy",
+        "from": 1.54,
+        "to": 40.05
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "Maximum length of presentation:",
+          "after": "minutes",
+          "answer": "15 / fifteen",
+          "accepted": [
+            "15",
+            "fifteen"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Priya: section on",
+          "after": "power",
+          "answer": "solar",
+          "accepted": [
+            "solar"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "Tom: the economics of",
+          "after": "farms",
+          "answer": "wind",
+          "accepted": [
+            "wind"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "Number of academic sources needed: at least",
+          "after": "",
+          "answer": "8 / eight",
+          "accepted": [
+            "8",
+            "eight"
+          ]
+        }
+      ]
+    }
+  ],
+  "miniPractice": {
+    "sort": "In order",
+    "pageSize": 5,
+    "filters": [
+      "All",
+      "Not done",
+      "Part 1",
+      "Part 2",
+      "Part 3",
+      "Part 4"
+    ]
+  }
+}

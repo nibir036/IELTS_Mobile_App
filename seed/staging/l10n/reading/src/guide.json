@@ -1,0 +1,664 @@
+[
+ {
+  "id": "intro",
+  "title": "How to use this guide",
+  "blocks": [
+   [
+    "p",
+    "This guide is written for IELTS Academic Reading. Every example — passages, questions, options and answers — is in English, exactly as you will see it in the test."
+   ],
+   [
+    "p",
+    "It works in three parts: first how the test works and how the band is calculated; then the skills you cannot do well in Reading without; finally the 14 question types one by one — each with its strategy, traps and a worked example from the IELTS AI by nextED question bank."
+   ],
+   [
+    "tip",
+    "You don't need to read everything at once. Read the chapters up to Time management carefully once; after that, before you practise a question type, read just that type's lesson and then start a set of that type in the app."
+   ]
+  ]
+ },
+ {
+  "id": "overview",
+  "title": "IELTS Academic Reading at a glance",
+  "blocks": [
+   [
+    "p",
+    "In IELTS Academic Reading you read 3 long passages and answer 40 questions in 60 minutes. Each correct answer earns 1 mark, and nothing is taken off for a wrong answer."
+   ],
+   [
+    "table",
+    [
+     "Item",
+     "Details"
+    ],
+    [
+     [
+      "Passages",
+      "3 (Sections 1, 2, 3); about 2,150–2,750 words in total"
+     ],
+     [
+      "Questions",
+      "40, usually 13–14 per passage"
+     ],
+     [
+      "Time",
+      "60 minutes — no extra time to fill in the answer sheet"
+     ],
+     [
+      "Sources",
+      "Books, journals, magazines, newspapers — academic topics written for a general reader"
+     ],
+     [
+      "Difficulty",
+      "Passage 1 is usually easiest; Passage 3 is hardest and most argument-based"
+     ],
+     [
+      "Marking",
+      "Each correct answer = 1; no negative marking"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "The big difference from Listening"
+   ],
+   [
+    "p",
+    "In Listening (paper test) you get extra time at the end to transfer your answers, but Reading has no transfer time. On the paper-based test, write your answers on the answer sheet as soon as you finish each passage. On the computer-delivered test you type answers straight onto the screen, so this problem disappears — but the test closes as soon as the 60 minutes are up."
+   ],
+   [
+    "h",
+    "What the passages are like"
+   ],
+   [
+    "ul",
+    [
+     "Topics are usually science, history, environment, psychology, technology, education or business — but no prior knowledge is needed. The answer is always inside the passage.",
+     "At least one passage presents the writer's argument or opinion — this is where Yes / No / Not Given and writer's-view questions come from.",
+     "Some passages include a diagram, a table or a glossary of technical words."
+    ]
+   ],
+   [
+    "tip",
+    "The Reading test checks two things more than your English knowledge: how fast you can find information (locating), and whether you recognise the same idea said in different words (paraphrase). Both skills improve with practice."
+   ]
+  ]
+ },
+ {
+  "id": "band",
+  "title": "How the band score is calculated",
+  "blocks": [
+   [
+    "p",
+    "Your number of correct answers out of 40 (the raw score) is converted to a band with a conversion table. The table below is the one commonly used for Academic Reading; it can shift by 1–2 marks depending on how difficult a particular test is."
+   ],
+   [
+    "table",
+    [
+     "Correct answers (out of 40)",
+     "Band"
+    ],
+    [
+     [
+      "39–40",
+      "9.0"
+     ],
+     [
+      "37–38",
+      "8.5"
+     ],
+     [
+      "35–36",
+      "8.0"
+     ],
+     [
+      "33–34",
+      "7.5"
+     ],
+     [
+      "30–32",
+      "7.0"
+     ],
+     [
+      "27–29",
+      "6.5"
+     ],
+     [
+      "23–26",
+      "6.0"
+     ],
+     [
+      "19–22",
+      "5.5"
+     ],
+     [
+      "15–18",
+      "5.0"
+     ],
+     [
+      "13–14",
+      "4.5"
+     ],
+     [
+      "10–12",
+      "4.0"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "Working back from your target"
+   ],
+   [
+    "ul",
+    [
+     "For Band 6.0: 23 out of 40 — you can afford about 17 mistakes.",
+     "For Band 6.5: 27 — an average of 9 correct per passage.",
+     "For Band 7.0: 30 — an average of 10 correct per passage.",
+     "For Band 8.0: 35 — almost no room for mistakes."
+    ]
+   ],
+   [
+    "tip",
+    "With a target of 6.5 you don't need every question right. Skipping one hard question you've been stuck on for 4 minutes and answering 3 easier ones instead pays off far more. Never leave a question blank — wrong answers lose nothing, so write at least a guess at the end."
+   ],
+   [
+    "p",
+    "Every full test and mock test in IELTS AI by nextED uses this table to show your Reading band."
+   ]
+  ]
+ },
+ {
+  "id": "rules",
+  "title": "Rules for writing answers — where easy marks are lost",
+  "blocks": [
+   [
+    "p",
+    "Many students find the right answer and still lose the mark because they didn't follow the rules for writing it. Learn these rules by heart."
+   ],
+   [
+    "h",
+    "1. Word limit"
+   ],
+   [
+    "p",
+    "If you write more words than the instruction allows, the answer is marked wrong — even when the information is correct."
+   ],
+   [
+    "table",
+    [
+     "Instruction",
+     "Meaning"
+    ],
+    [
+     [
+      "ONE WORD ONLY",
+      "exactly 1 word"
+     ],
+     [
+      "NO MORE THAN TWO WORDS",
+      "1 or 2 words"
+     ],
+     [
+      "ONE WORD AND/OR A NUMBER",
+      "1 word, or 1 number, or 1 word + 1 number"
+     ],
+     [
+      "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+      "up to 3 words, plus 1 number if needed"
+     ]
+    ]
+   ],
+   [
+    "ex",
+    "Passage: \"...grown along the banks of the River Nile.\"\nInstruction: ONE WORD ONLY → Answer: Nile  (\"River Nile\" = 2 words → wrong)"
+   ],
+   [
+    "h",
+    "2. Spelling"
+   ],
+   [
+    "p",
+    "A spelling mistake makes the answer wrong. Answers are usually copied exactly from the passage, so copy the passage's spelling. Both British and American spellings (colour / color) are accepted."
+   ],
+   [
+    "h",
+    "3. Keep the grammar correct"
+   ],
+   [
+    "p",
+    "In completion questions, the sentence must be grammatically correct once your word is in the gap. Watch singular and plural: if the passage says \"seeds\" and the gap comes after \"several\", the answer must be \"seeds\" — \"seed\" is wrong."
+   ],
+   [
+    "h",
+    "4. Numbers, hyphens and capital letters"
+   ],
+   [
+    "ul",
+    [
+     "Numbers can be written as digits (25) — this counts as \"a number\" in the word limit.",
+     "A hyphenated word (well-known, 19th-century) counts as one word.",
+     "Capital or small letters don't matter; you can write the whole answer in CAPITALS.",
+     "Don't invent words that aren't in the passage — completion answers must come from the passage."
+    ]
+   ],
+   [
+    "h",
+    "5. TRUE / FALSE versus YES / NO"
+   ],
+   [
+    "p",
+    "Write exactly what the question asks for. Writing YES in a TRUE / FALSE / NOT GIVEN question, or the other way round, can be marked wrong. Abbreviating to T / F / NG is risky too — write the full word."
+   ],
+   [
+    "h",
+    "6. Letters and roman numerals"
+   ],
+   [
+    "p",
+    "In matching questions write the option letter (A, B, C…) or the heading number (i, ii, iii…) — not the full text. If a heading answer is \"iv\", don't write \"4\"."
+   ],
+   [
+    "tip",
+    "When you practise, write the reason next to every wrong answer: \"word limit\", \"spelling\", \"plural\", \"wrong paragraph\" and so on. After two weeks you'll see that most of your mistakes come from 2–3 particular causes — fix just those and your band goes up."
+   ]
+  ]
+ },
+ {
+  "id": "skills",
+  "title": "The core Reading skills",
+  "blocks": [
+   [
+    "p",
+    "In IELTS Reading there is no time to read every word of every passage. Good readers read in different ways for different jobs. Practise the 5 skills below separately."
+   ],
+   [
+    "h",
+    "Skill 1 — Skimming: getting the big picture"
+   ],
+   [
+    "p",
+    "Skimming means running your eyes quickly over the passage to understand its main topic and structure. In 2–3 minutes you want to know: what the passage is about, and what each paragraph covers."
+   ],
+   [
+    "ol",
+    [
+     "Read the title and any subtitle.",
+     "Read the first sentence of each paragraph (the topic sentence), and the last one if needed.",
+     "Note 2–3 words beside each paragraph: \"history\", \"problem\", \"new research\".",
+     "Don't stop at numbers, names or examples yet — they are for scanning later."
+    ]
+   ],
+   [
+    "h",
+    "Skill 2 — Scanning: finding specific information"
+   ],
+   [
+    "p",
+    "Scanning means looking for one particular word, name, year or number without reading the passage — the way you look up a word in a dictionary. The words in a question that can't be paraphrased (proper nouns, numbers, years, technical terms) are the best ones to scan for."
+   ],
+   [
+    "ex",
+    "Question: In which year did the first public library open in Manchester?\nScan for: Manchester, a year (18__), library"
+   ],
+   [
+    "h",
+    "Skill 3 — Recognising keywords and paraphrase"
+   ],
+   [
+    "p",
+    "IELTS questions almost never repeat the passage's words exactly. They say the same thing in other words — that is paraphrase. Underline the keywords in the question, then think how the passage might express them."
+   ],
+   [
+    "table",
+    [
+     "In the question",
+     "In the passage it might be"
+    ],
+    [
+     [
+      "increase",
+      "rise, grow, climb, go up, a surge in"
+     ],
+     [
+      "important",
+      "significant, crucial, essential, key, vital"
+     ],
+     [
+      "because of",
+      "due to, owing to, as a result of, caused by"
+     ],
+     [
+      "not enough",
+      "a shortage of, insufficient, a lack of, scarce"
+     ],
+     [
+      "old",
+      "ancient, elderly, aged, historic, early"
+     ],
+     [
+      "start",
+      "launch, initiate, set up, establish, introduce"
+     ],
+     [
+      "problem",
+      "issue, challenge, difficulty, drawback"
+     ],
+     [
+      "children",
+      "youngsters, kids, minors, the young"
+     ],
+     [
+      "cheap",
+      "inexpensive, low-cost, affordable"
+     ],
+     [
+      "most",
+      "the majority of, over half, seventy per cent"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "IELTS changes not only single words but the whole sentence structure — active to passive, noun to verb, positive to negative."
+   ],
+   [
+    "ex",
+    "Passage: \"Few visitors came in winter because the road was often closed.\"\nQuestion: Winter access to the site was difficult.\n(road often closed → access difficult;  few visitors → consequence)"
+   ],
+   [
+    "h",
+    "Skill 4 — Reading for detail: understanding the answer sentence"
+   ],
+   [
+    "p",
+    "Once scanning has found the right place, slow down — read not only the sentence with the keyword but the sentences before and after it. These small words can change the meaning completely, so watch them closely:"
+   ],
+   [
+    "ul",
+    [
+     "Qualifiers: some, most, all, only, often, rarely, never, usually",
+     "Contrast: however, but, although, yet, whereas, despite",
+     "Certainty: may, might, could, is thought to, it is likely that, definitely",
+     "Time: initially, later, currently, no longer, until recently"
+    ]
+   ],
+   [
+    "ex",
+    "Passage: \"Most of the early settlers were farmers.\"\nStatement: All of the early settlers were farmers.  → FALSE  (most ≠ all)"
+   ],
+   [
+    "h",
+    "Skill 5 — Following the writer's view and argument"
+   ],
+   [
+    "p",
+    "In Passage 3 the writer often reports other people's views and then gives their own. Telling whose view is whose is essential for Yes / No / Not Given and multiple choice. \"Critics argue…\" and \"It has been claimed…\" introduce other people's views; \"I would argue…\", \"In fact…\" and \"this is misleading\" often show the writer's own view."
+   ],
+   [
+    "tip",
+    "The most effective way to build vocabulary: after every practice set, look at each question and its evidence side by side on the solution screen, and write the paraphrases you missed in a notebook as \"question word = passage word\"."
+   ]
+  ]
+ },
+ {
+  "id": "time",
+  "title": "Time management — a plan for 60 minutes",
+  "blocks": [
+   [
+    "p",
+    "Time is the biggest enemy in Reading. Many students spend too long on Passages 1 and 2 and leave only 10 minutes for Passage 3 — yet Passage 3 also carries 13–14 marks."
+   ],
+   [
+    "table",
+    [
+     "Passage",
+     "Time",
+     "Why"
+    ],
+    [
+     [
+      "Passage 1",
+      "17–18 minutes",
+      "Easiest — save time here"
+     ],
+     [
+      "Passage 2",
+      "20 minutes",
+      "Medium"
+     ],
+     [
+      "Passage 3",
+      "22–23 minutes",
+      "Hardest, argument-based"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "How to work through one passage"
+   ],
+   [
+    "ol",
+    [
+     "First look at the instructions and question types (30 seconds).",
+     "Skim the passage: title and the first sentence of each paragraph (2–3 minutes).",
+     "Underline the keywords in the questions — especially names, numbers and years.",
+     "Scan for one question at a time; when you find the place, read for detail.",
+     "Write the answer (on the paper test, straight onto the answer sheet)."
+    ]
+   ],
+   [
+    "h",
+    "Which questions to do first"
+   ],
+   [
+    "ul",
+    [
+     "For most question types the answers come in passage order (T/F/NG, Y/N/NG, completion, short answer, MCQ). So the answer to question 5 lies between the answers to questions 4 and 6.",
+     "Types whose answers don't follow passage order (Matching Information, Matching Features, Matching Headings) are usually easier after the passage's other questions — by then you know the passage well.",
+     "Matching Headings usually comes first, and doing it first shows you the structure of the whole passage — so many students start with it."
+    ]
+   ],
+   [
+    "h",
+    "What to do when you're stuck"
+   ],
+   [
+    "p",
+    "If you've been stuck on one question for more than 1.5–2 minutes, mark it and move on. Come back at the end if there is time. Until then, don't leave it blank — write your best possible answer."
+   ],
+   [
+    "tip",
+    "Always practise with a timer. Every set in IELTS AI by nextED has one; it's fine to take longer in the first two weeks, but from week three aim to finish a passage in 20 minutes."
+   ]
+  ]
+ },
+ {
+  "id": "types",
+  "title": "The 14 question types",
+  "blocks": [
+   [
+    "p",
+    "IELTS Academic Reading uses 14 types of question. Each tests a slightly different skill and each has its own traps. In the app, every type has its own lesson — what it tests, the format, a step-by-step strategy and the common traps — and 20 practice sets with a worked solution for every answer."
+   ],
+   [
+    "table",
+    [
+     "Question type",
+     "Answers in passage order?",
+     "Main skill"
+    ],
+    [
+     [
+      "Multiple Choice",
+      "Yes",
+      "Detail + paraphrase"
+     ],
+     [
+      "True / False / Not Given",
+      "Yes",
+      "Checking information"
+     ],
+     [
+      "Yes / No / Not Given",
+      "Yes",
+      "The writer's view"
+     ],
+     [
+      "Matching Information",
+      "No",
+      "Scanning"
+     ],
+     [
+      "Matching Headings",
+      "Yes (paragraph order)",
+      "Main idea"
+     ],
+     [
+      "Matching Features",
+      "No",
+      "Scanning + paraphrase"
+     ],
+     [
+      "Matching Sentence Endings",
+      "Yes",
+      "Grammar + meaning"
+     ],
+     [
+      "Sentence Completion",
+      "Yes",
+      "Detail + word limit"
+     ],
+     [
+      "Summary Completion",
+      "Usually",
+      "Paraphrase + grammar"
+     ],
+     [
+      "Note Completion",
+      "Yes",
+      "Scanning"
+     ],
+     [
+      "Table Completion",
+      "Often",
+      "Scanning"
+     ],
+     [
+      "Flow-chart Completion",
+      "Yes",
+      "Understanding a process"
+     ],
+     [
+      "Diagram Label Completion",
+      "Often",
+      "From description to picture"
+     ],
+     [
+      "Short Answer",
+      "Yes",
+      "Scanning + word limit"
+     ]
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "mistakes",
+  "title": "The mistakes that cost the most",
+  "blocks": [
+   [
+    "ol",
+    [
+     "Choosing an answer because a keyword matches. When an option repeats the passage's words exactly, it is often a trap — the correct answer is usually paraphrased.",
+     "Answering from your own knowledge or common sense. Only what the passage says counts; if something is true in real life but not in the passage, the answer is NOT GIVEN.",
+     "Mixing up FALSE and NOT GIVEN. If the passage says the opposite, it's FALSE; if it says nothing, it's NOT GIVEN.",
+     "Breaking the word limit and misspelling — losing marks after finding the right information.",
+     "Getting stuck on one question for too long and leaving no time for the last passage.",
+     "Planning to transfer answers at the end of the paper test — Reading has no transfer time.",
+     "Ignoring qualifiers (some, all, only, may) — one small word can turn TRUE into FALSE.",
+     "Starting to read the passage before reading the list of headings or endings."
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "plan",
+  "title": "A 4-week practice plan",
+  "blocks": [
+   [
+    "p",
+    "With 45–60 minutes a day, this plan covers every Reading question type and full-test practice in four weeks. The IELTS AI by nextED question bank has separate sets for each type (easy, medium, hard), and after every set you can see the evidence and explanation for each answer."
+   ],
+   [
+    "table",
+    [
+     "Week",
+     "Goal",
+     "What to do"
+    ],
+    [
+     [
+      "Week 1",
+      "Build the base",
+      "Read this guide up to the Time management chapter. Each day read the lessons for 2 question types and do 1 easy set of each (no timer). Write down the reason for every mistake."
+     ],
+     [
+      "Week 2",
+      "Know every type",
+      "Finish the lessons and easy sets for the remaining types. Then do medium sets for the 4 types where you made the most mistakes. Start your paraphrase notebook."
+     ],
+     [
+      "Week 3",
+      "Practise against the clock",
+      "2 medium or hard sets a day, 20 minutes each. At the end of the week, 1 full Reading test (60 minutes)."
+     ],
+     [
+      "Week 4",
+      "Practise like the test",
+      "A full test or mock test every other day. On the days in between, redo hard sets and reread the lessons for the types you got wrong in the test."
+     ]
+    ]
+   ],
+   [
+    "h",
+    "After every practice set"
+   ],
+   [
+    "ol",
+    [
+     "Open the solution for every wrong answer: see where the evidence sentence was in the passage.",
+     "Ask yourself what kind of mistake it was: couldn't find the place / missed the paraphrase / fell into a trap / word limit or spelling.",
+     "Write the new paraphrases in your notebook.",
+     "In the next set of the same type, focus on not making that mistake again."
+    ]
+   ],
+   [
+    "tip",
+    "For the first two weeks forget about the band score and focus only on accuracy. Once you read accurately, speed comes by itself; rushing from the start builds bad habits."
+   ]
+  ]
+ },
+ {
+  "id": "testday",
+  "title": "Test-day tips",
+  "blocks": [
+   [
+    "ul",
+    [
+     "At the start, check the clock and write down when each passage should be finished (for example, starting at 10:00: 10:18, 10:38, 11:00).",
+     "Read the instructions of every question group — especially the word limit and whether \"You may use any letter more than once\".",
+     "On the paper test, write each passage's answers on the answer sheet as soon as you finish it; write clearly in pencil.",
+     "On the computer test, use the highlight and notes tools on the passage; after typing an answer, check its spelling again.",
+     "Leave no question blank. In the last 2 minutes, write at least a guess for any questions left.",
+     "Don't panic at a hard passage — the next one may be easier, and every question carries the same mark."
+    ]
+   ],
+   [
+    "tip",
+    "Remember: the answer is always in the passage. Your job is only to find it and make sure with the evidence."
+   ]
+  ]
+ }
+]

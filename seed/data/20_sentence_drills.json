@@ -1,0 +1,162 @@
+{
+  "table": "sentence_drills",
+  "items": [
+    {
+      "id": "sb_01",
+      "instruction": "Combine into one complex sentence",
+      "connector": "which",
+      "function": "Relative clause",
+      "sentences": [
+        "Many cities have introduced bike lanes.",
+        "This has reduced traffic in the centre."
+      ],
+      "answer": [
+        "Many cities",
+        "have introduced",
+        "bike lanes,",
+        "which",
+        "has reduced",
+        "traffic in the centre."
+      ],
+      "prefilled": 2,
+      "bank": [
+        "has reduced",
+        "because",
+        "traffic in the centre.",
+        "which",
+        "bike lanes,"
+      ],
+      "hint": "Use “which” after a comma to refer back to the whole first idea."
+    },
+    {
+      "id": "sb_02",
+      "instruction": "Combine into one complex sentence",
+      "connector": "whereas",
+      "function": "Contrast",
+      "sentences": [
+        "Canada had high internet access in 2000.",
+        "India had very low access."
+      ],
+      "answer": [
+        "Canada had",
+        "high internet access in 2000,",
+        "whereas",
+        "India had",
+        "very low access."
+      ],
+      "prefilled": 1,
+      "bank": [
+        "whereas",
+        "India had",
+        "very low access.",
+        "so",
+        "high internet access in 2000,"
+      ],
+      "hint": "Put “whereas” between the two contrasting facts, after a comma."
+    },
+    {
+      "id": "sb_03",
+      "instruction": "Combine into one complex sentence",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "Office rents have risen sharply.",
+        "More firms allow staff to work from home."
+      ],
+      "answer": [
+        "Office rents",
+        "have risen sharply;",
+        "as a result,",
+        "more firms",
+        "allow remote work."
+      ],
+      "prefilled": 2,
+      "bank": [
+        "more firms",
+        "although",
+        "as a result,",
+        "allow remote work.",
+        "because"
+      ],
+      "hint": "Cause first, then the result introduced by “as a result,”."
+    },
+    {
+      "id": "sb_04",
+      "instruction": "Combine into one complex sentence",
+      "connector": "although",
+      "function": "Concession",
+      "sentences": [
+        "The city built new bike lanes.",
+        "Car traffic did not fall."
+      ],
+      "answer": [
+        "Although",
+        "the city built",
+        "new bike lanes,",
+        "car traffic",
+        "did not fall."
+      ],
+      "prefilled": 3,
+      "bank": [
+        "car traffic",
+        "because",
+        "did not fall.",
+        "however",
+        "so"
+      ],
+      "hint": "After the “although” clause and its comma, add the main clause: subject first, then the verb."
+    },
+    {
+      "id": "sb_05",
+      "instruction": "Combine into one complex sentence",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Many students study abroad.",
+        "Foreign degrees are highly valued."
+      ],
+      "answer": [
+        "Many students",
+        "study abroad",
+        "because",
+        "foreign degrees",
+        "are highly valued."
+      ],
+      "prefilled": 2,
+      "bank": [
+        "although",
+        "foreign degrees",
+        "because",
+        "are highly valued.",
+        "so"
+      ],
+      "hint": "Keep the result first, then give the reason with “because”."
+    },
+    {
+      "id": "sb_06",
+      "instruction": "Combine into one complex sentence",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Air pollution will get worse.",
+        "Governments must limit car use."
+      ],
+      "answer": [
+        "Air pollution",
+        "will get worse",
+        "unless",
+        "governments",
+        "limit car use."
+      ],
+      "prefilled": 1,
+      "bank": [
+        "unless",
+        "governments",
+        "will get worse",
+        "limit car use.",
+        "whereas"
+      ],
+      "hint": "“Unless” means “if … not”: the result comes first, then the condition."
+    }
+  ]
+}

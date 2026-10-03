@@ -1,0 +1,9 @@
+# Docker builds (server/Dockerfile) only need the API server, the seed data
+# and the demo parts — keep the Flutter app, audio and build output out.
+*
+!server/
+!seed/data/
+!assets/demo/parts/
+server/node_modules
+server/.env
+server/dist

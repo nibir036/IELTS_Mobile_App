@@ -1,0 +1,30 @@
+{
+  "_format": {
+    "name": "resource_irregular_verbs",
+    "group": "bank",
+    "table": "irregular_verbs",
+    "primaryKey": "id",
+    "description": "Irregular verbs (iv_<base>).",
+    "currentSourceInApp": "assets/content/resources_bank.json → irregularVerbs",
+    "fields": {
+      "id": "string",
+      "base": "string",
+      "past": "string",
+      "participle": "string",
+      "meaning": "string",
+      "example": "string"
+    },
+    "notes": [],
+    "recordCountToday": 175
+  },
+  "items": [
+    {
+      "id": "iv_arise",
+      "base": "arise",
+      "past": "arose",
+      "participle": "arisen",
+      "meaning": "to happen or come into being",
+      "example": "A problem arose at the last minute."
+    }
+  ]
+}

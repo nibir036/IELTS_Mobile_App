@@ -1,0 +1,30 @@
+{
+  "_format": {
+    "name": "content_documents",
+    "group": "bank",
+    "table": "content_documents",
+    "primaryKey": "id",
+    "description": "Study guides, bank notes, resource lists, speaking glossary and translations, one JSON document each.",
+    "currentSourceInApp": "assets/content/*_guide.json, *_bank.json meta, l10n/",
+    "fields": {
+      "id": "string",
+      "kind": "string",
+      "title": "string",
+      "sortOrder": "integer",
+      "data": "array|object"
+    },
+    "notes": [
+      "id: guide.<module> · meta.<bank> · list.<name> · glossary.speaking · l10n.<lang>.<module>."
+    ],
+    "recordCountToday": 42
+  },
+  "items": [
+    {
+      "id": "guide.listening",
+      "kind": "guide",
+      "title": "IELTS Listening Guide",
+      "sortOrder": 0,
+      "data": "… the app record (same keys as the source file) …"
+    }
+  ]
+}

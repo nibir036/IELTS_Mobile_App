@@ -1,0 +1,1468 @@
+00:00 +0: loading D:/dev/nexted_ielts_app/test/content_test.dart
+00:00 +0: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +1: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +2: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +3: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +4: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +5: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +6: D:/dev/nexted_ielts_app/test/content_test.dart: (setUpAll)
+00:00 +6: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 34/40 → 7.5
+00:00 +7: D:/dev/nexted_ielts_app/test/content_test.dart: collections are present and non-empty
+00:00 +8: D:/dev/nexted_ielts_app/test/content_test.dart: collections are present and non-empty
+00:00 +9: D:/dev/nexted_ielts_app/test/content_test.dart: collections are present and non-empty
+00:00 +10: D:/dev/nexted_ielts_app/test/content_test.dart: collections are present and non-empty
+00:00 +11: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 29/40 → 6.5
+00:00 +12: D:/dev/nexted_ielts_app/test/content_test.dart: collections ids are unique per collection
+00:00 +13: D:/dev/nexted_ielts_app/test/content_test.dart: collections ids are unique per collection
+00:00 +14: D:/dev/nexted_ielts_app/test/content_test.dart: collections ids are unique per collection
+00:00 +15: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 23/40 → 6.0
+00:00 +16: D:/dev/nexted_ielts_app/test/content_test.dart: reading every test has 3 existing passages totalling 40 questions
+00:00 +17: D:/dev/nexted_ielts_app/test/content_test.dart: reading every test has 3 existing passages totalling 40 questions
+00:00 +18: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 18/40 → 5.5
+00:00 +19: D:/dev/nexted_ielts_app/test/content_test.dart: reading questions are numbered 1..n within each passage
+00:00 +20: D:/dev/nexted_ielts_app/test/content_test.dart: reading questions are numbered 1..n within each passage
+00:00 +21: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 16/40 → 5.0
+00:00 +22: D:/dev/nexted_ielts_app/test/content_test.dart: reading every question has a valid answer
+00:00 +23: D:/dev/nexted_ielts_app/test/content_test.dart: reading every question has a valid answer
+00:00 +24: D:/dev/nexted_ielts_app/test/content_test.dart: reading every question has a valid answer
+00:00 +25: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 12/40 → 4.0
+00:00 +26: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 11/40 → 4.0
+00:00 +27: D:/dev/nexted_ielts_app/test/content_test.dart: reading evidence phrase appears verbatim in its paragraph
+00:00 +28: D:/dev/nexted_ielts_app/test/content_test.dart: reading evidence phrase appears verbatim in its paragraph
+00:00 +29: D:/dev/nexted_ielts_app/test/content_test.dart: reading evidence phrase appears verbatim in its paragraph
+00:00 +30: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 7/40 → 3.0
+00:00 +31: D:/dev/nexted_ielts_app/test/content_test.dart: listening every test has 4 existing sets (Parts 1–4) totalling 40 questions
+00:00 +32: D:/dev/nexted_ielts_app/test/content_test.dart: listening every test has 4 existing sets (Parts 1–4) totalling 40 questions
+00:00 +33: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 5/40 → 2.5
+00:00 +34: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 4/40 → 2.5
+00:00 +35: D:/dev/nexted_ielts_app/test/content_test.dart: listening each set's audio asset exists on disk
+00:00 +36: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 3/40 → 2.0
+00:00 +37: D:/dev/nexted_ielts_app/test/content_test.dart: listening questions are numbered 1..10 within each set (multi counts twice)
+00:00 +38: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) 1/40 → 2.0
+00:00 +39: D:/dev/nexted_ielts_app/test/content_test.dart: listening every question has a valid answer
+00:00 +40: D:/dev/nexted_ielts_app/test/content_test.dart: listening every question has a valid answer
+00:00 +41: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) never decreases as the raw score rises
+00:00 +42: D:/dev/nexted_ielts_app/test/content_test.dart: listening transcripts are present
+00:00 +43: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.listeningBand (raw /40) partial tests are scaled to 40
+00:00 +44: D:/dev/nexted_ielts_app/test/content_test.dart: writing & speaking prompts have text
+00:00 +45: D:/dev/nexted_ielts_app/test/content_test.dart: writing & speaking prompts have text
+00:00 +46: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 40/40 → 9.0
+00:00 +47: D:/dev/nexted_ielts_app/test/content_test.dart: writing & speaking part 1 topics have questions, cue cards have bullets
+00:00 +48: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 39/40 → 9.0
+00:00 +49: D:/dev/nexted_ielts_app/test/content_test.dart: mock tests reference existing listening/reading tests, prompts, topic and cue card
+00:00 +50: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 38/40 → 8.5
+00:00 +51: D:/dev/nexted_ielts_app/test/content_test.dart: quizzes each quiz has questions with options and an in-range answer
+00:00 +52: D:/dev/nexted_ielts_app/test/content_test.dart: quizzes each quiz has questions with options and an in-range answer
+00:00 +53: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 36/40 → 8.0
+00:00 +54: D:/dev/nexted_ielts_app/test/content_test.dart: quizzes phrasal verbs and idioms are present
+00:00 +55: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 35/40 → 8.0
+00:00 +56: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed demo account seed exists with attempts
+00:00 +57: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 34/40 → 7.5
+00:00 +58: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed seed attempt ids are unique
+00:00 +59: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 33/40 → 7.5
+00:00 +60: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed attempt refIds resolve to bank content
+00:00 +61: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed attempt refIds resolve to bank content
+00:00 +62: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 30/40 → 7.0
+00:00 +63: D:/dev/nexted_ielts_app/test/content_test.dart: demo seed band-scored seed attempts use half bands
+00:00 +64: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 29/40 → 6.5
+00:00 +65: D:/dev/nexted_ielts_app/test/content_test.dart: (tearDownAll)
+00:00 +65: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 27/40 → 6.5
+00:00 +66: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 26/40 → 6.0
+00:00 +67: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 23/40 → 6.0
+00:00 +68: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 22/40 → 5.5
+00:00 +69: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 19/40 → 5.5
+00:00 +70: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 18/40 → 5.0
+00:00 +71: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 15/40 → 5.0
+00:00 +72: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 14/40 → 4.5
+00:00 +73: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 13/40 → 4.5
+00:00 +74: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 12/40 → 4.0
+00:00 +75: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 10/40 → 4.0
+00:00 +76: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 9/40 → 3.5
+00:00 +77: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 8/40 → 3.5
+00:00 +78: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 7/40 → 3.0
+00:00 +79: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 6/40 → 3.0
+00:00 +80: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 5/40 → 2.5
+00:00 +81: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 4/40 → 2.5
+00:00 +82: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 3/40 → 2.0
+00:00 +83: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 1/40 → 2.0
+00:00 +84: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) 0/40 → 0.0
+00:00 +85: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand Academic (raw /40) partial tests are scaled to 40
+00:00 +86: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 40/40 → 9.0
+00:00 +87: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 39/40 → 8.5
+00:00 +88: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 38/40 → 8.0
+00:00 +89: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 37/40 → 8.0
+00:00 +90: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 36/40 → 7.5
+00:00 +91: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 35/40 → 7.0
+00:00 +92: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 34/40 → 7.0
+00:00 +93: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 33/40 → 6.5
+00:00 +94: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 32/40 → 6.5
+00:00 +95: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 31/40 → 6.0
+00:00 +96: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 30/40 → 6.0
+00:00 +97: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 29/40 → 5.5
+00:00 +98: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 27/40 → 5.5
+00:00 +99: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 26/40 → 5.0
+00:00 +100: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 23/40 → 5.0
+00:00 +101: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 22/40 → 4.5
+00:00 +102: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 19/40 → 4.5
+00:00 +103: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 18/40 → 4.0
+00:00 +104: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 15/40 → 4.0
+00:00 +105: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 14/40 → 3.5
+00:00 +106: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 12/40 → 3.5
+00:00 +107: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 11/40 → 3.0
+00:00 +108: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 9/40 → 3.0
+00:00 +109: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 8/40 → 2.5
+00:00 +110: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 6/40 → 2.5
+00:00 +111: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 5/40 → 2.0
+00:00 +112: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 1/40 → 2.0
+00:00 +113: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) 0/40 → 0.0
+00:00 +114: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.readingBand General Training (raw /40) GT needs more correct answers than Academic for the same band
+00:00 +115: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) empty list → 0
+00:00 +116: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) exact average stays
+00:00 +117: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) .125 rounds down to the whole band
+00:00 +118: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) .25 rounds up to the half band
+00:00 +119: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) .375 and .625 round to the half band
+00:00 +120: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) .75 rounds up to the next whole band
+00:00 +121: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.overall (IELTS rounding) .875 rounds up to the next whole band
+00:00 +122: D:/dev/nexted_ielts_app/test/scoring_test.dart: Store.roundBand / formatBand nearest half band, half-way values round up
+00:00 +123: D:/dev/nexted_ielts_app/test/scoring_test.dart: Store.roundBand / formatBand clamped to 0..9
+00:00 +124: D:/dev/nexted_ielts_app/test/scoring_test.dart: Store.roundBand / formatBand formatBand
+00:00 +125: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing returns every criterion as a half band in 3..9
+00:00 +126: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing empty / very short text scores band 3.0
+00:00 +127: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing band = mean of TA/CC/LR/GRA rounded to the nearest half band
+00:00 +128: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing counts words and asks for the task minimum
+00:00 +129: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing is deterministic
+00:00 +130: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.writing a developed essay beats a one-liner
+00:00 +131: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.speaking silence with seed 0
+00:00 +132: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.speaking every criterion is a half band in 3..9 and band = rounded mean
+00:00 +133: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.speaking speaking longer never lowers the band (same seed)
+00:00 +134: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.speaking length ratio is capped (1.2 × expected)
+00:00 +135: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.speaking expectedSec 0 does not divide by zero
+00:00 +136: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.norm lower-cases, trims and collapses spaces
+00:00 +137: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.norm drops a leading article
+00:00 +138: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.norm keeps words that merely start with an article
+00:00 +139: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.norm only the first article is removed, not inner ones
+00:00 +140: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.norm strips punctuation
+00:00 +141: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.norm empty stays empty
+00:00 +142: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.matches exact and case-insensitive
+00:00 +143: D:/dev/nexted_ielts_app/test/scoring_test.dart: Scoring.matches article on either side
+00:00 +144: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:00 +145: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:00 +146: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:00 +147: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:00 +148: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:00 +149: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:00 +150: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:00 +151: D:/dev/nexted_ielts_app/test/store_test.dart: (setUpAll)
+00:00 +151: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +152: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +153: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +154: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +155: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +156: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +157: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +158: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +159: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +160: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +161: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (setUpAll)
+00:00 +161: D:/dev/nexted_ielts_app/test/store_test.dart: sign-up blank name becomes "Student"
+00:00 +162: D:/dev/nexted_ielts_app/test/store_test.dart: sign-up rejects taken, invalid and weak inputs
+00:00 +163: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 8 extra routes
+00:00 +164: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 8 extra routes
+00:00 +165: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 8 extra routes
+00:00 +166: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: route list: 75 canvas screens + 8 extra routes
+00:00 +167: D:/dev/nexted_ielts_app/test/store_test.dart: account management deleteAccount
+00:00 +168: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +169: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +170: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +171: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +172: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +173: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +174: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +175: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +176: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +177: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +178: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +179: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +180: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +181: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +182: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +183: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +184: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +185: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +186: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +187: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +188: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:00 +189: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · demo]
+00:01 +190: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 412x915 · demo]
+00:01 +191: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [night 360x740 · demo]
+00:01 +192: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [night 412x915 · demo]
+00:01 +193: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [day 360x740 · demo]
+00:01 +194: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [day 412x915 · demo]
+00:01 +195: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [night 360x740 · demo]
+00:01 +196: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [night 412x915 · demo]
+00:01 +197: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [day 360x740 · demo]
+00:01 +198: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [day 412x915 · demo]
+00:01 +199: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [night 360x740 · demo]
+00:01 +200: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [night 412x915 · demo]
+00:01 +201: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [day 360x740 · demo]
+00:01 +202: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [day 412x915 · demo]
+00:01 +203: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [night 360x740 · demo]
+00:01 +204: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [night 412x915 · demo]
+00:02 +205: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [day 360x740 · demo]
+00:02 +206: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [day 412x915 · demo]
+00:02 +207: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [night 360x740 · demo]
+00:02 +208: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [night 412x915 · demo]
+00:02 +209: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A6 /onboarding/target-band [day 360x740 · demo]
+00:02 +210: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A6 /onboarding/target-band [day 412x915 · demo]
+00:02 +211: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A6 /onboarding/target-band [night 360x740 · demo]
+00:02 +212: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A6 /onboarding/target-band [night 412x915 · demo]
+00:02 +213: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A7 /onboarding/diagnostic [day 360x740 · demo]
+00:02 +214: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A7 /onboarding/diagnostic [day 412x915 · demo]
+00:02 +215: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A7 /onboarding/diagnostic [night 360x740 · demo]
+00:02 +216: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A7 /onboarding/diagnostic [night 412x915 · demo]
+00:02 +217: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A8 /onboarding/mic-permission [day 360x740 · demo]
+00:02 +218: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A8 /onboarding/mic-permission [day 412x915 · demo]
+00:02 +219: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A8 /onboarding/mic-permission [night 360x740 · demo]
+00:02 +220: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A8 /onboarding/mic-permission [night 412x915 · demo]
+00:02 +221: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [day 360x740 · demo]
+00:02 +222: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [day 412x915 · demo]
+00:02 +223: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [night 360x740 · demo]
+00:02 +224: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [night 412x915 · demo]
+00:03 +225: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [day 360x740 · demo]
+00:03 +226: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [day 412x915 · demo]
+00:03 +227: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [night 360x740 · demo]
+00:03 +228: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [night 412x915 · demo]
+00:03 +229: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [day 360x740 · demo]
+00:03 +230: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [day 412x915 · demo]
+00:03 +231: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [night 360x740 · demo]
+00:03 +232: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [night 412x915 · demo]
+00:03 +233: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [day 360x740 · demo]
+00:03 +234: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [day 412x915 · demo]
+00:03 +235: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [night 360x740 · demo]
+00:03 +236: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [night 412x915 · demo]
+00:03 +237: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [day 360x740 · demo]
+00:03 +238: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [day 412x915 · demo]
+00:03 +239: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [night 360x740 · demo]
+00:03 +240: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [night 412x915 · demo]
+00:03 +241: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [day 360x740 · demo]
+00:03 +242: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [day 412x915 · demo]
+00:03 +243: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [night 360x740 · demo]
+00:04 +244: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [night 412x915 · demo]
+00:04 +245: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [day 360x740 · demo]
+00:04 +246: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [day 412x915 · demo]
+00:04 +247: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [night 360x740 · demo]
+00:04 +248: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [night 412x915 · demo]
+00:04 +249: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [day 360x740 · demo]
+00:04 +250: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [day 412x915 · demo]
+00:04 +251: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [night 360x740 · demo]
+00:04 +252: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [night 412x915 · demo]
+00:04 +253: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C1 /writing [day 360x740 · demo]
+00:04 +254: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C1 /writing [day 412x915 · demo]
+00:04 +255: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C1 /writing [night 360x740 · demo]
+00:04 +256: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C1 /writing [night 412x915 · demo]
+00:04 +257: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [day 360x740 · demo]
+00:04 +258: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [day 412x915 · demo]
+00:04 +259: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [night 360x740 · demo]
+00:04 +260: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C2 /writing/task1 [night 412x915 · demo]
+00:04 +261: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [day 360x740 · demo]
+00:04 +262: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [day 412x915 · demo]
+00:05 +263: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [night 360x740 · demo]
+00:05 +264: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C3 /writing/task2 [night 412x915 · demo]
+00:05 +265: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C4 /writing/line-review [day 360x740 · demo]
+00:05 +266: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C4 /writing/line-review [day 412x915 · demo]
+00:05 +267: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C4 /writing/line-review [night 360x740 · demo]
+00:05 +268: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C4 /writing/line-review [night 412x915 · demo]
+00:05 +269: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [day 360x740 · demo]
+00:05 +270: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [day 412x915 · demo]
+00:05 +271: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [night 360x740 · demo]
+00:05 +272: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [night 412x915 · demo]
+00:05 +273: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C6 /writing/rewriter [day 360x740 · demo]
+00:05 +274: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C6 /writing/rewriter [day 412x915 · demo]
+00:05 +275: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C6 /writing/rewriter [night 360x740 · demo]
+00:05 +276: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C6 /writing/rewriter [night 412x915 · demo]
+00:05 +277: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C7 /writing/sentence-builder [day 360x740 · demo]
+00:05 +278: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C7 /writing/sentence-builder [day 412x915 · demo]
+00:05 +279: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C7 /writing/sentence-builder [night 360x740 · demo]
+00:05 +280: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C7 /writing/sentence-builder [night 412x915 · demo]
+00:05 +281: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C8 /writing/masterclass [day 360x740 · demo]
+00:05 +282: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C8 /writing/masterclass [day 412x915 · demo]
+00:05 +283: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C8 /writing/masterclass [night 360x740 · demo]
+00:05 +284: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C8 /writing/masterclass [night 412x915 · demo]
+00:06 +285: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [day 360x740 · demo]
+00:06 +286: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [day 412x915 · demo]
+00:06 +287: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [night 360x740 · demo]
+00:06 +288: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [night 412x915 · demo]
+00:06 +289: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C10 /writing/template [day 360x740 · demo]
+00:06 +290: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C10 /writing/template [day 412x915 · demo]
+00:06 +291: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C10 /writing/template [night 360x740 · demo]
+00:06 +292: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C10 /writing/template [night 412x915 · demo]
+00:06 +293: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C11 /writing/ideas [day 360x740 · demo]
+00:06 +294: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C11 /writing/ideas [day 412x915 · demo]
+00:06 +295: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C11 /writing/ideas [night 360x740 · demo]
+00:06 +296: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C11 /writing/ideas [night 412x915 · demo]
+00:06 +297: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C12 /writing/feedback-loading [day 360x740 · demo]
+00:06 +298: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C12 /writing/feedback-loading [day 412x915 · demo]
+00:06 +299: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C12 /writing/feedback-loading [night 360x740 · demo]
+00:06 +300: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C12 /writing/feedback-loading [night 412x915 · demo]
+00:06 +301: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [day 360x740 · demo]
+00:06 +302: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [day 412x915 · demo]
+00:06 +303: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [night 360x740 · demo]
+00:06 +304: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C13 /writing/sample-answer [night 412x915 · demo]
+00:06 +305: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D1 /speaking [day 360x740 · demo]
+00:06 +306: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D1 /speaking [day 412x915 · demo]
+00:06 +307: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D1 /speaking [night 360x740 · demo]
+00:07 +308: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D1 /speaking [night 412x915 · demo]
+00:07 +309: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 360x740 · demo]
+00:07 +310: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 412x915 · demo]
+00:07 +311: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 360x740 · demo]
+00:07 +312: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 412x915 · demo]
+00:07 +313: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [day 360x740 · demo]
+00:07 +314: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [day 412x915 · demo]
+00:07 +315: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [night 360x740 · demo]
+00:07 +316: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [night 412x915 · demo]
+00:07 +317: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D4 /speaking/recording [day 360x740 · demo]
+00:07 +318: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D4 /speaking/recording [day 412x915 · demo]
+00:07 +319: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D4 /speaking/recording [night 360x740 · demo]
+00:07 +320: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D4 /speaking/recording [night 412x915 · demo]
+00:07 +321: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D5 /speaking/transcript [day 360x740 · demo]
+00:07 +322: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D5 /speaking/transcript [day 412x915 · demo]
+00:07 +323: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D5 /speaking/transcript [night 360x740 · demo]
+00:07 +324: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D5 /speaking/transcript [night 412x915 · demo]
+00:07 +325: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [day 360x740 · demo]
+00:08 +326: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [day 412x915 · demo]
+00:08 +327: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [night 360x740 · demo]
+00:08 +328: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [night 412x915 · demo]
+00:08 +329: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [day 360x740 · demo]
+00:08 +330: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [day 412x915 · demo]
+00:08 +331: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [night 360x740 · demo]
+00:08 +332: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D7 /speaking/pronunciation [night 412x915 · demo]
+00:08 +333: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D8 /speaking/vault [day 360x740 · demo]
+00:08 +334: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D8 /speaking/vault [day 412x915 · demo]
+00:08 +335: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D8 /speaking/vault [night 360x740 · demo]
+00:08 +336: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D8 /speaking/vault [night 412x915 · demo]
+00:08 +337: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D9 /speaking/upload-failed [day 360x740 · demo]
+00:08 +338: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D9 /speaking/upload-failed [day 412x915 · demo]
+00:08 +339: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D9 /speaking/upload-failed [night 360x740 · demo]
+00:08 +340: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D9 /speaking/upload-failed [night 412x915 · demo]
+00:08 +341: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [day 360x740 · demo]
+00:08 +342: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [day 412x915 · demo]
+00:09 +343: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [night 360x740 · demo]
+00:09 +344: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [night 412x915 · demo]
+00:09 +345: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E1 /reading/library [day 360x740 · demo]
+00:09 +346: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E1 /reading/library [day 412x915 · demo]
+00:09 +347: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E1 /reading/library [night 360x740 · demo]
+00:09 +348: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E1 /reading/library [night 412x915 · demo]
+00:09 +349: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [day 360x740 · demo]
+00:09 +350: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [day 412x915 · demo]
+00:09 +351: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [night 360x740 · demo]
+00:09 +352: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [night 412x915 · demo]
+00:09 +353: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 360x740 · demo]
+00:09 +354: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [day 412x915 · demo]
+00:09 +355: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 360x740 · demo]
+00:09 +356: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E3 /reading/questions [night 412x915 · demo]
+00:09 +357: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [day 360x740 · demo]
+00:09 +358: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [day 412x915 · demo]
+00:09 +359: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [night 360x740 · demo]
+00:10 +360: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [night 412x915 · demo]
+00:10 +361: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E5 /reading [day 360x740 · demo]
+00:10 +362: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E5 /reading [day 412x915 · demo]
+00:10 +363: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E5 /reading [night 360x740 · demo]
+00:10 +364: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E5 /reading [night 412x915 · demo]
+00:10 +365: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [day 360x740 · demo]
+00:10 +366: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [day 412x915 · demo]
+00:10 +367: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [night 360x740 · demo]
+00:10 +368: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [night 412x915 · demo]
+00:10 +369: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F1 /listening/library [day 360x740 · demo]
+00:10 +370: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F1 /listening/library [day 412x915 · demo]
+00:10 +371: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F1 /listening/library [night 360x740 · demo]
+00:10 +372: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F1 /listening/library [night 412x915 · demo]
+00:10 +373: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F2 /listening/player [day 360x740 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:10 +373 -1: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F2 /listening/player [day 360x740 · demo]
+  
+00:10 +373 -1: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 412x915 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F2 /listening/player [day 412x915 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:10 +373 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 412x915 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F2 /listening/player [day 412x915 · demo]
+  
+00:10 +373 -2: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F2 /listening/player [night 360x740 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:10 +373 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F2 /listening/player [night 360x740 · demo]
+  
+00:10 +373 -3: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 412x915 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F2 /listening/player [night 412x915 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:10 +373 -4: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 412x915 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F2 /listening/player [night 412x915 · demo]
+  
+00:10 +373 -4: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F3 /listening/answer-sheet [day 360x740 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +373 -5: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F3 /listening/answer-sheet [day 360x740 · demo]
+  
+00:11 +373 -5: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 412x915 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F3 /listening/answer-sheet [day 412x915 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +373 -6: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 412x915 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F3 /listening/answer-sheet [day 412x915 · demo]
+  
+00:11 +373 -6: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F3 /listening/answer-sheet [night 360x740 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +373 -7: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F3 /listening/answer-sheet [night 360x740 · demo]
+  
+00:11 +373 -7: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 412x915 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F3 /listening/answer-sheet [night 412x915 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +373 -8: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 412x915 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F3 /listening/answer-sheet [night 412x915 · demo]
+  
+00:11 +373 -8: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 360x740 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F4 /listening/transcript [day 360x740 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +373 -9: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 360x740 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F4 /listening/transcript [day 360x740 · demo]
+  
+00:11 +373 -9: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 412x915 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F4 /listening/transcript [day 412x915 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +373 -10: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 412x915 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F4 /listening/transcript [day 412x915 · demo]
+  
+00:11 +373 -10: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 360x740 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F4 /listening/transcript [night 360x740 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +373 -11: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 360x740 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F4 /listening/transcript [night 360x740 · demo]
+  
+00:11 +373 -11: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 412x915 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F4 /listening/transcript [night 412x915 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +373 -12: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 412x915 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F4 /listening/transcript [night 412x915 · demo]
+  
+00:11 +373 -12: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F5 /listening [day 360x740 · demo]
+00:11 +374 -12: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F5 /listening [day 412x915 · demo]
+00:11 +375 -12: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F5 /listening [night 360x740 · demo]
+00:11 +376 -12: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F5 /listening [night 412x915 · demo]
+00:11 +377 -12: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 360x740 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F6 /listening/lesson [day 360x740 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +377 -13: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 360x740 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F6 /listening/lesson [day 360x740 · demo]
+  
+00:11 +377 -13: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 412x915 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F6 /listening/lesson [day 412x915 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:12 +377 -14: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 412x915 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F6 /listening/lesson [day 412x915 · demo]
+  
+00:12 +377 -14: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 360x740 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F6 /listening/lesson [night 360x740 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:12 +377 -15: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 360x740 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F6 /listening/lesson [night 360x740 · demo]
+  
+00:12 +377 -15: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 412x915 · demo]
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F6 /listening/lesson [night 412x915 · demo]
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:12 +377 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 412x915 · demo] [E]
+  Test failed. See exception logs above.
+  The test description was: F6 /listening/lesson [night 412x915 · demo]
+  
+00:12 +377 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F7 /listening/mini-practice [day 360x740 · demo]
+00:12 +378 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F7 /listening/mini-practice [day 412x915 · demo]
+00:12 +379 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F7 /listening/mini-practice [night 360x740 · demo]
+00:12 +380 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F7 /listening/mini-practice [night 412x915 · demo]
+00:12 +381 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [day 360x740 · demo]
+00:12 +382 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [day 412x915 · demo]
+00:12 +383 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [night 360x740 · demo]
+00:12 +384 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [night 412x915 · demo]
+00:12 +385 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [day 360x740 · demo]
+00:12 +386 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [day 412x915 · demo]
+00:12 +387 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [night 360x740 · demo]
+00:12 +388 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [night 412x915 · demo]
+00:12 +389 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [day 360x740 · demo]
+00:12 +390 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [day 412x915 · demo]
+00:12 +391 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [night 360x740 · demo]
+00:12 +392 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [night 412x915 · demo]
+00:12 +393 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G3 /mock/listening [day 360x740 · demo]
+00:12 +394 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G3 /mock/listening [day 412x915 · demo]
+00:13 +395 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G3 /mock/listening [night 360x740 · demo]
+00:13 +396 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G3 /mock/listening [night 412x915 · demo]
+00:13 +397 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G4 /mock/transition [day 360x740 · demo]
+00:13 +398 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G4 /mock/transition [day 412x915 · demo]
+00:13 +399 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G4 /mock/transition [night 360x740 · demo]
+00:13 +400 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G4 /mock/transition [night 412x915 · demo]
+00:13 +401 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G5 /mock/reading [day 360x740 · demo]
+00:13 +402 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G5 /mock/reading [day 412x915 · demo]
+00:13 +403 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G5 /mock/reading [night 360x740 · demo]
+00:13 +404 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G5 /mock/reading [night 412x915 · demo]
+00:14 +405 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G6 /mock/writing [day 360x740 · demo]
+00:14 +406 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G6 /mock/writing [day 412x915 · demo]
+00:14 +407 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G6 /mock/writing [night 360x740 · demo]
+00:14 +408 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G6 /mock/writing [night 412x915 · demo]
+00:14 +409 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G7 /mock/speaking [day 360x740 · demo]
+00:14 +410 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G7 /mock/speaking [day 412x915 · demo]
+00:14 +411 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G7 /mock/speaking [night 360x740 · demo]
+00:14 +412 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G7 /mock/speaking [night 412x915 · demo]
+00:14 +413 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G8 /mock/scoring [day 360x740 · demo]
+00:14 +414 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G8 /mock/scoring [day 412x915 · demo]
+00:14 +415 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G8 /mock/scoring [night 360x740 · demo]
+00:14 +416 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G8 /mock/scoring [night 412x915 · demo]
+00:14 +417 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [day 360x740 · demo]
+00:14 +418 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [day 412x915 · demo]
+00:14 +419 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [night 360x740 · demo]
+00:14 +420 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [night 412x915 · demo]
+00:14 +421 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [day 360x740 · demo]
+00:14 +422 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [day 412x915 · demo]
+00:14 +423 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [night 360x740 · demo]
+00:14 +424 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [night 412x915 · demo]
+00:14 +425 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G11 /mock/exit-warning [day 360x740 · demo]
+00:14 +426 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G11 /mock/exit-warning [day 412x915 · demo]
+00:14 +427 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G11 /mock/exit-warning [night 360x740 · demo]
+00:14 +428 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G11 /mock/exit-warning [night 412x915 · demo]
+00:14 +429 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H1 /resources [day 360x740 · demo]
+00:15 +430 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H1 /resources [day 412x915 · demo]
+00:15 +431 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H1 /resources [night 360x740 · demo]
+00:15 +432 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H1 /resources [night 412x915 · demo]
+00:15 +433 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H2 /resources/vault [day 360x740 · demo]
+00:15 +434 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H2 /resources/vault [day 412x915 · demo]
+00:15 +435 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H2 /resources/vault [night 360x740 · demo]
+00:15 +436 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H2 /resources/vault [night 412x915 · demo]
+00:15 +437 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H3 /community [day 360x740 · demo]
+00:15 +438 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H3 /community [day 412x915 · demo]
+00:15 +439 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H3 /community [night 360x740 · demo]
+00:15 +440 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H3 /community [night 412x915 · demo]
+00:15 +441 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H4 /community/room [day 360x740 · demo]
+00:15 +442 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H4 /community/room [day 412x915 · demo]
+00:15 +443 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H4 /community/room [night 360x740 · demo]
+00:15 +444 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H4 /community/room [night 412x915 · demo]
+00:15 +445 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H5 /resources/quiz [day 360x740 · demo]
+00:15 +446 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H5 /resources/quiz [day 412x915 · demo]
+00:15 +447 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H5 /resources/quiz [night 360x740 · demo]
+00:15 +448 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H5 /resources/quiz [night 412x915 · demo]
+00:15 +449 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [day 360x740 · demo]
+00:15 +450 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [day 412x915 · demo]
+00:15 +451 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [night 360x740 · demo]
+00:15 +452 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [night 412x915 · demo]
+00:15 +453 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H7 /resources/academic-words [day 360x740 · demo]
+00:15 +454 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H7 /resources/academic-words [day 412x915 · demo]
+00:16 +455 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H7 /resources/academic-words [night 360x740 · demo]
+00:16 +456 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H7 /resources/academic-words [night 412x915 · demo]
+00:16 +457 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H8 /resources/irregular-verbs [day 360x740 · demo]
+00:16 +458 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H8 /resources/irregular-verbs [day 412x915 · demo]
+00:16 +459 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H8 /resources/irregular-verbs [night 360x740 · demo]
+00:16 +460 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H8 /resources/irregular-verbs [night 412x915 · demo]
+00:16 +461 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H9 /resources/youtube [day 360x740 · demo]
+00:16 +462 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H9 /resources/youtube [day 412x915 · demo]
+00:16 +463 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H9 /resources/youtube [night 360x740 · demo]
+00:16 +464 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H9 /resources/youtube [night 412x915 · demo]
+00:16 +465 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H10 /resources/scoring-criteria [day 360x740 · demo]
+00:16 +466 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H10 /resources/scoring-criteria [day 412x915 · demo]
+00:16 +467 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H10 /resources/scoring-criteria [night 360x740 · demo]
+00:16 +468 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H10 /resources/scoring-criteria [night 412x915 · demo]
+00:16 +469 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H11 /resources/article [day 360x740 · demo]
+00:16 +470 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H11 /resources/article [day 412x915 · demo]
+00:16 +471 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H11 /resources/article [night 360x740 · demo]
+00:16 +472 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H11 /resources/article [night 412x915 · demo]
+00:16 +473 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-phrasal /resources/phrasal-verbs [day 360x740 · demo]
+00:16 +474 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-phrasal /resources/phrasal-verbs [day 412x915 · demo]
+00:16 +475 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-phrasal /resources/phrasal-verbs [night 360x740 · demo]
+00:16 +476 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-phrasal /resources/phrasal-verbs [night 412x915 · demo]
+00:17 +477 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-idioms /resources/idioms [day 360x740 · demo]
+00:17 +478 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-idioms /resources/idioms [day 412x915 · demo]
+00:17 +479 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-idioms /resources/idioms [night 360x740 · demo]
+00:17 +480 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-idioms /resources/idioms [night 412x915 · demo]
+00:17 +481 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [day 360x740 · demo]
+00:17 +482 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [day 412x915 · demo]
+00:17 +483 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [night 360x740 · demo]
+00:17 +484 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [night 412x915 · demo]
+00:17 +485 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [day 360x740 · demo]
+00:17 +486 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [day 412x915 · demo]
+00:17 +487 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [night 360x740 · demo]
+00:17 +488 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [night 412x915 · demo]
+00:17 +489 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticTest /onboarding/diagnostic-test [day 360x740 · demo]
+00:17 +490 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticTest /onboarding/diagnostic-test [day 412x915 · demo]
+00:17 +491 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticTest /onboarding/diagnostic-test [night 360x740 · demo]
+00:18 +492 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticTest /onboarding/diagnostic-test [night 412x915 · demo]
+00:18 +493 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [day 360x740 · demo]
+00:18 +494 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [day 412x915 · demo]
+00:18 +495 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [night 360x740 · demo]
+00:18 +496 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [night 412x915 · demo]
+00:18 +497 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [day 360x740 · demo]
+00:18 +498 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [day 412x915 · demo]
+00:18 +499 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [night 360x740 · demo]
+00:18 +500 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [night 412x915 · demo]
+00:18 +501 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [day 360x740 · demo]
+00:18 +502 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [day 412x915 · demo]
+00:18 +503 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [night 360x740 · demo]
+00:18 +504 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [night 412x915 · demo]
+00:18 +505 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [day 360x740 · NEW account]
+00:18 +506 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [day 412x915 · NEW account]
+00:19 +507 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [night 360x740 · NEW account]
+00:19 +508 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B1 /home/dashboard [night 412x915 · NEW account]
+00:19 +509 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [day 360x740 · NEW account]
+00:19 +510 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [day 412x915 · NEW account]
+00:19 +511 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [night 360x740 · NEW account]
+00:19 +512 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B2 /home/first-time [night 412x915 · NEW account]
+00:19 +513 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [day 360x740 · NEW account]
+00:19 +514 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [day 412x915 · NEW account]
+00:19 +515 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [night 360x740 · NEW account]
+00:19 +516 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B4 /home/analytics [night 412x915 · NEW account]
+00:19 +517 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [day 360x740 · NEW account]
+00:19 +518 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [day 412x915 · NEW account]
+00:19 +519 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [night 360x740 · NEW account]
+00:19 +520 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B3 /home/modules [night 412x915 · NEW account]
+00:19 +521 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [day 360x740 · NEW account]
+00:19 +522 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [day 412x915 · NEW account]
+00:19 +523 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [night 360x740 · NEW account]
+00:19 +524 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B5 /home/schedule [night 412x915 · NEW account]
+00:19 +525 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [day 360x740 · NEW account]
+00:19 +526 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [day 412x915 · NEW account]
+00:19 +527 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [night 360x740 · NEW account]
+00:19 +528 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B6 /home/notifications [night 412x915 · NEW account]
+00:19 +529 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [day 360x740 · NEW account]
+00:19 +530 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [day 412x915 · NEW account]
+00:19 +531 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [night 360x740 · NEW account]
+00:19 +532 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B7 /home/profile [night 412x915 · NEW account]
+00:19 +533 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [day 360x740 · NEW account]
+00:19 +534 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [day 412x915 · NEW account]
+00:19 +535 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [night 360x740 · NEW account]
+00:19 +536 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: B8 /search [night 412x915 · NEW account]
+00:19 +537 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [day 360x740 · NEW account]
+00:19 +538 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [day 412x915 · NEW account]
+00:19 +539 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [night 360x740 · NEW account]
+00:19 +540 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G1 /mock [night 412x915 · NEW account]
+00:19 +541 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [day 360x740 · NEW account]
+00:19 +542 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [day 412x915 · NEW account]
+00:20 +543 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [night 360x740 · NEW account]
+00:20 +544 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-certificates /home/certificates [night 412x915 · NEW account]
+00:20 +545 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [day 360x740 · NEW account]
+00:20 +546 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [day 412x915 · NEW account]
+00:20 +547 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [night 360x740 · NEW account]
+00:20 +548 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C9 /writing/history [night 412x915 · NEW account]
+00:20 +549 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [day 360x740 · NEW account]
+00:20 +550 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [day 412x915 · NEW account]
+00:20 +551 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [night 360x740 · NEW account]
+00:20 +552 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D10 /speaking/recordings [night 412x915 · NEW account]
+00:20 +553 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [day 360x740 · NEW account]
+00:20 +554 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [day 412x915 · NEW account]
+00:20 +555 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [night 360x740 · NEW account]
+00:20 +556 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: C5 /writing/band-report [night 412x915 · NEW account]
+00:20 +557 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [day 360x740 · NEW account]
+00:20 +558 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [day 412x915 · NEW account]
+00:20 +559 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [night 360x740 · NEW account]
+00:20 +560 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D6 /speaking/evaluation [night 412x915 · NEW account]
+00:20 +561 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [day 360x740 · NEW account]
+00:20 +562 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [day 412x915 · NEW account]
+00:20 +563 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [night 360x740 · NEW account]
+00:20 +564 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E4 /reading/solution [night 412x915 · NEW account]
+00:20 +565 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [day 360x740 · NEW account]
+00:20 +566 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [day 412x915 · NEW account]
+00:20 +567 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [night 360x740 · NEW account]
+00:20 +568 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F8 /listening/results [night 412x915 · NEW account]
+00:20 +569 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [day 360x740 · NEW account]
+00:20 +570 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [day 412x915 · NEW account]
+00:20 +571 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [night 360x740 · NEW account]
+00:20 +572 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G9 /mock/results [night 412x915 · NEW account]
+00:20 +573 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [day 360x740 · NEW account]
+00:20 +574 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [day 412x915 · NEW account]
+00:20 +575 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [night 360x740 · NEW account]
+00:20 +576 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G10 /mock/improvement-plan [night 412x915 · NEW account]
+00:20 +577 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [day 360x740 · NEW account]
+00:20 +578 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [day 412x915 · NEW account]
+00:20 +579 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [night 360x740 · NEW account]
+00:20 +580 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-mockAnswers /mock/answers [night 412x915 · NEW account]
+00:20 +581 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [day 360x740 · NEW account]
+00:20 +582 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [day 412x915 · NEW account]
+00:20 +583 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [night 360x740 · NEW account]
+00:20 +584 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: H6 /resources/quiz-score [night 412x915 · NEW account]
+00:20 +585 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [day 360x740 · NEW account]
+00:20 +586 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [day 412x915 · NEW account]
+00:20 +587 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [night 360x740 · NEW account]
+00:20 +588 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-diagnosticResult /onboarding/diagnostic-result [night 412x915 · NEW account]
+00:20 +589 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [day 360x740 · NEW account]
+00:21 +590 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [day 412x915 · NEW account]
+00:21 +591 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [night 360x740 · NEW account]
+00:21 +592 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-plans /home/plans [night 412x915 · NEW account]
+00:21 +593 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [day 360x740 · signed out]
+00:21 +594 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A1 / [night 360x740 · signed out]
+00:21 +595 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [day 360x740 · signed out]
+00:21 +596 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A2 /login [night 360x740 · signed out]
+00:21 +597 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [day 360x740 · signed out]
+00:21 +598 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A3 /signup [night 360x740 · signed out]
+00:21 +599 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [day 360x740 · signed out]
+00:21 +600 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A4 /otp [night 360x740 · signed out]
+00:21 +601 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [day 360x740 · signed out]
+00:21 +602 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: A5 /reset-password [night 360x740 · signed out]
+00:21 +603 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [day 360x740 · signed out]
+00:21 +604 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [night 360x740 · signed out]
+00:21 +605 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [day 360x740 · demo] args={doc: privacy}
+00:21 +606 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: X-legal /legal [night 360x740 · demo] args={doc: privacy}
+00:21 +607 -16: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: ls_01}
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F2 /listening/player [day 360x740 · demo] args={setId: ls_01}
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:21 +607 -17: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: ls_01} [E]
+  Test failed. See exception logs above.
+  The test description was: F2 /listening/player [day 360x740 · demo] args={setId: ls_01}
+  
+00:21 +607 -17: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: ls_01}
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F2 /listening/player [night 360x740 · demo] args={setId: ls_01}
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:21 +607 -18: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo] args={setId: ls_01} [E]
+  Test failed. See exception logs above.
+  The test description was: F2 /listening/player [night 360x740 · demo] args={setId: ls_01}
+  
+00:21 +607 -18: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={testId: lt_01, fresh: true}
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F3 /listening/answer-sheet [day 360x740 · demo] args={testId: lt_01, fresh: true}
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:21 +607 -19: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [day 360x740 · demo] args={testId: lt_01, fresh: true} [E]
+  Test failed. See exception logs above.
+  The test description was: F3 /listening/answer-sheet [day 360x740 · demo] args={testId: lt_01, fresh: true}
+  
+00:21 +607 -19: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={testId: lt_01, fresh: true}
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F3 /listening/answer-sheet [night 360x740 · demo] args={testId: lt_01, fresh: true}
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:21 +607 -20: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F3 /listening/answer-sheet [night 360x740 · demo] args={testId: lt_01, fresh: true} [E]
+  Test failed. See exception logs above.
+  The test description was: F3 /listening/answer-sheet [night 360x740 · demo] args={testId: lt_01, fresh: true}
+  
+00:21 +607 -20: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 360x740 · demo] args={testId: lt_02, part: 2}
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F4 /listening/transcript [day 360x740 · demo] args={testId: lt_02, part: 2}
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:21 +607 -21: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [day 360x740 · demo] args={testId: lt_02, part: 2} [E]
+  Test failed. See exception logs above.
+  The test description was: F4 /listening/transcript [day 360x740 · demo] args={testId: lt_02, part: 2}
+  
+00:21 +607 -21: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 360x740 · demo] args={testId: lt_02, part: 2}
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F4 /listening/transcript [night 360x740 · demo] args={testId: lt_02, part: 2}
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:22 +607 -22: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F4 /listening/transcript [night 360x740 · demo] args={testId: lt_02, part: 2} [E]
+  Test failed. See exception logs above.
+  The test description was: F4 /listening/transcript [night 360x740 · demo] args={testId: lt_02, part: 2}
+  
+00:22 +607 -22: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 360x740 · demo] args={lessonId: ll_07}
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F6 /listening/lesson [day 360x740 · demo] args={lessonId: ll_07}
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:22 +607 -23: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [day 360x740 · demo] args={lessonId: ll_07} [E]
+  Test failed. See exception logs above.
+  The test description was: F6 /listening/lesson [day 360x740 · demo] args={lessonId: ll_07}
+  
+00:22 +607 -23: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 360x740 · demo] args={lessonId: ll_07}
+Pending timers:
+Timer (duration: 0:00:15.000000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#6      SimAudio._load (package:nexted_ielts_app/features/listening/sim_audio.dart:123:12)
+<asynchronous suspension>
+(elided 3 frames from dart:async)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2543 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2543:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1974:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  F6 /listening/lesson [night 360x740 · demo] args={lessonId: ll_07}
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:22 +607 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F6 /listening/lesson [night 360x740 · demo] args={lessonId: ll_07} [E]
+  Test failed. See exception logs above.
+  The test description was: F6 /listening/lesson [night 360x740 · demo] args={lessonId: ll_07}
+  
+00:22 +607 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [day 360x740 · demo] args={testId: rt_02}
+00:22 +608 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E2 /reading/passage [night 360x740 · demo] args={testId: rt_02}
+00:22 +609 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [day 360x740 · demo] args={lessonId: rl_04}
+00:22 +610 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: E6 /reading/lesson [night 360x740 · demo] args={lessonId: rl_04}
+00:22 +611 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [day 360x740 · demo] args={cardId: cc14}
+00:22 +612 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D3 /speaking/cue-card [night 360x740 · demo] args={cardId: cc14}
+00:22 +613 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [day 360x740 · demo] args={mock: true}
+00:22 +614 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: D2 /speaking/part-1-3 [night 360x740 · demo] args={mock: true}
+00:22 +615 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [day 360x740 · demo] args={mockId: mt_b}
+00:22 +616 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: G2 /mock/system-check [night 360x740 · demo] args={mockId: mt_b}
+00:22 +617 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: shell /home [day 360x740 · demo] args={tab: 3}
+00:22 +618 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: shell /home [night 360x740 · demo] args={tab: 3}
+00:22 +619 -24: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: SUMMARY: every screen renders without errors
+00:22 +619 -25: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: SUMMARY: every screen renders without errors [E]
+  Expected: empty
+    Actual: [
+              'A1 / [day 360x740 · demo]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14',
+              'A1 / [day 412x915 · demo]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14',
+              'A1 / [night 360x740 · demo]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14',
+              'A1 / [night 412x915 · demo]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14',
+              'A3 /signup [day 360x740 · demo]: A RenderFlex overflowed by 126 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11',
+              'A3 /signup [day 412x915 · demo]: A RenderFlex overflowed by 74 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11',
+              'A3 /signup [night 360x740 · demo]: A RenderFlex overflowed by 126 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11',
+              'A3 /signup [night 412x915 · demo]: A RenderFlex overflowed by 74 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11',
+              'B4 /home/analytics [day 360x740 · demo]: A RenderFlex overflowed by 21 pixels on the right.  @ lib/features/home/analytics_screen.dart:135:20',
+              'B4 /home/analytics [night 360x740 · demo]: A RenderFlex overflowed by 21 pixels on the right.  @ lib/features/home/analytics_screen.dart:135:20',
+              'B5 /home/schedule [day 360x740 · demo]: A RenderFlex overflowed by 15 pixels on the right.  @ lib/features/home/schedule_screen.dart:193:18',
+              'B5 /home/schedule [night 360x740 · demo]: A RenderFlex overflowed by 15 pixels on the right.  @ lib/features/home/schedule_screen.dart:193:18',
+              'B8 /search [day 360x740 · demo]: A RenderFlex overflowed by 48 pixels on the right.  @ lib/features/home/search_screen.dart:353:36',
+              'B8 /search [night 360x740 · demo]: A RenderFlex overflowed by 48 pixels on the right.  @ lib/features/home/search_screen.dart:353:36',
+              'C3 /writing/task2 [day 360x740 · demo]: A RenderFlex overflowed by 16 pixels on the right.  @ lib/features/writing/writing_editor_screen.dart:73:26',
+              'C3 /writing/task2 [night 360x740 · demo]: A RenderFlex overflowed by 16 pixels on the right.  @ lib/features/writing/writing_editor_screen.dart:73:26',
+              'C7 /writing/sentence-builder [day 360x740 · demo]: A RenderFlex overflowed by 50 pixels on the right.  @ lib/features/writing/sentence_builder_screen.dart:338:15',
+              'C7 /writing/sentence-builder [night 360x740 · demo]: A RenderFlex overflowed by 50 pixels on the right.  @ lib/features/writing/sentence_builder_screen.dart:338:15',
+              'C8 /writing/masterclass [day 360x740 · demo]: A RenderFlex overflowed by 23 pixels on the right.  @ lib/features/writing/masterclass_screen.dart:377:24',
+              'C8 /writing/masterclass [night 360x740 · demo]: A RenderFlex overflowed by 23 pixels on the right.  @ lib/features/writing/masterclass_screen.dart:377:24',
+              'D1 /speaking [day 360x740 · demo] (2 errors): A RenderFlex overflowed by 11 pixels on the right.  @ lib/features/speaking/speaking_hub_screen.dart:423:11',
+              'D1 /speaking [night 360x740 · demo] (2 errors): A RenderFlex overflowed by 11 pixels on the right.  @ lib/features/speaking/speaking_hub_screen.dart:423:11',
+              'D4 /speaking/recording [day 360x740 · demo]: A RenderFlex overflowed by 29 pixels on the right.  @ lib/features/speaking/speaking_recording_screen.dart:393:9',
+              'D4 /speaking/recording [night 360x740 · demo]: A RenderFlex overflowed by 29 pixels on the right.  @ lib/features/speaking/speaking_recording_screen.dart:393:9',
+              ...
+            ]
+  79 screen case(s) reported errors:
+  A1 / [day 360x740 · demo]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14
+  A1 / [day 412x915 · demo]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14
+  A1 / [night 360x740 · demo]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14
+  A1 / [night 412x915 · demo]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14
+  A3 /signup [day 360x740 · demo]: A RenderFlex overflowed by 126 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11
+  A3 /signup [day 412x915 · demo]: A RenderFlex overflowed by 74 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11
+  A3 /signup [night 360x740 · demo]: A RenderFlex overflowed by 126 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11
+  A3 /signup [night 412x915 · demo]: A RenderFlex overflowed by 74 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11
+  B4 /home/analytics [day 360x740 · demo]: A RenderFlex overflowed by 21 pixels on the right.  @ lib/features/home/analytics_screen.dart:135:20
+  B4 /home/analytics [night 360x740 · demo]: A RenderFlex overflowed by 21 pixels on the right.  @ lib/features/home/analytics_screen.dart:135:20
+  B5 /home/schedule [day 360x740 · demo]: A RenderFlex overflowed by 15 pixels on the right.  @ lib/features/home/schedule_screen.dart:193:18
+  B5 /home/schedule [night 360x740 · demo]: A RenderFlex overflowed by 15 pixels on the right.  @ lib/features/home/schedule_screen.dart:193:18
+  B8 /search [day 360x740 · demo]: A RenderFlex overflowed by 48 pixels on the right.  @ lib/features/home/search_screen.dart:353:36
+  B8 /search [night 360x740 · demo]: A RenderFlex overflowed by 48 pixels on the right.  @ lib/features/home/search_screen.dart:353:36
+  C3 /writing/task2 [day 360x740 · demo]: A RenderFlex overflowed by 16 pixels on the right.  @ lib/features/writing/writing_editor_screen.dart:73:26
+  C3 /writing/task2 [night 360x740 · demo]: A RenderFlex overflowed by 16 pixels on the right.  @ lib/features/writing/writing_editor_screen.dart:73:26
+  C7 /writing/sentence-builder [day 360x740 · demo]: A RenderFlex overflowed by 50 pixels on the right.  @ lib/features/writing/sentence_builder_screen.dart:338:15
+  C7 /writing/sentence-builder [night 360x740 · demo]: A RenderFlex overflowed by 50 pixels on the right.  @ lib/features/writing/sentence_builder_screen.dart:338:15
+  C8 /writing/masterclass [day 360x740 · demo]: A RenderFlex overflowed by 23 pixels on the right.  @ lib/features/writing/masterclass_screen.dart:377:24
+  C8 /writing/masterclass [night 360x740 · demo]: A RenderFlex overflowed by 23 pixels on the right.  @ lib/features/writing/masterclass_screen.dart:377:24
+  D1 /speaking [day 360x740 · demo] (2 errors): A RenderFlex overflowed by 11 pixels on the right.  @ lib/features/speaking/speaking_hub_screen.dart:423:11
+  D1 /speaking [night 360x740 · demo] (2 errors): A RenderFlex overflowed by 11 pixels on the right.  @ lib/features/speaking/speaking_hub_screen.dart:423:11
+  D4 /speaking/recording [day 360x740 · demo]: A RenderFlex overflowed by 29 pixels on the right.  @ lib/features/speaking/speaking_recording_screen.dart:393:9
+  D4 /speaking/recording [night 360x740 · demo]: A RenderFlex overflowed by 29 pixels on the right.  @ lib/features/speaking/speaking_recording_screen.dart:393:9
+  D8 /speaking/vault [day 360x740 · demo] (44 errors): A RenderFlex overflowed by 81 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11  |  A RenderFlex overflowed by 69 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11  |  A RenderFlex overflowed by 94 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11
+  D8 /speaking/vault [day 412x915 · demo] (44 errors): A RenderFlex overflowed by 29 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11  |  A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11  |  A RenderFlex overflowed by 42 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11
+  D8 /speaking/vault [night 360x740 · demo] (44 errors): A RenderFlex overflowed by 81 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11  |  A RenderFlex overflowed by 69 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11  |  A RenderFlex overflowed by 94 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11
+  D8 /speaking/vault [night 412x915 · demo] (44 errors): A RenderFlex overflowed by 29 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11  |  A RenderFlex overflowed by 17 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11  |  A RenderFlex overflowed by 42 pixels on the right.  @ lib/features/speaking/cue_card_vault_screen.dart:290:11
+  F2 /listening/player [day 360x740 · demo]: A RenderFlex overflowed by 8.0 pixels on the right.  @ lib/features/listening/listening_player_screen.dart:341:15
+  F2 /listening/player [night 360x740 · demo]: A RenderFlex overflowed by 8.0 pixels on the right.  @ lib/features/listening/listening_player_screen.dart:341:15
+  F4 /listening/transcript [day 360x740 · demo]: A RenderFlex overflowed by 4.8 pixels on the right.  @ lib/features/listening/listening_transcript_screen.dart:415:26
+  F4 /listening/transcript [night 360x740 · demo]: A RenderFlex overflowed by 4.8 pixels on the right.  @ lib/features/listening/listening_transcript_screen.dart:415:26
+  G2 /mock/system-check [day 360x740 · demo] (2 errors): A RenderFlex overflowed by 50 pixels on the right.  @ lib/features/mock/mock_system_check_screen.dart:227:9  |  A RenderFlex overflowed by 30 pixels on the right.  @ lib/features/mock/mock_system_check_screen.dart:279:24
+  G2 /mock/system-check [night 360x740 · demo] (2 errors): A RenderFlex overflowed by 50 pixels on the right.  @ lib/features/mock/mock_system_check_screen.dart:227:9  |  A RenderFlex overflowed by 30 pixels on the right.  @ lib/features/mock/mock_system_check_screen.dart:279:24
+  G3 /mock/listening [day 360x740 · demo]: A RenderFlex overflowed by 87 pixels on the right.  @ lib/features/mock/mock_listening_screen.dart:415:14
+  G3 /mock/listening [day 412x915 · demo]: A RenderFlex overflowed by 35 pixels on the right.  @ lib/features/mock/mock_listening_screen.dart:415:14
+  G3 /mock/listening [night 360x740 · demo]: A RenderFlex overflowed by 87 pixels on the right.  @ lib/features/mock/mock_listening_screen.dart:415:14
+  G3 /mock/listening [night 412x915 · demo]: A RenderFlex overflowed by 35 pixels on the right.  @ lib/features/mock/mock_listening_screen.dart:415:14
+  G4 /mock/transition [day 360x740 · demo]: A RenderFlex overflowed by 127 pixels on the right.  @ lib/features/mock/mock_transition_screen.dart:102:11
+  G4 /mock/transition [day 412x915 · demo]: A RenderFlex overflowed by 75 pixels on the right.  @ lib/features/mock/mock_transition_screen.dart:102:11
+  G4 /mock/transition [night 360x740 · demo]: A RenderFlex overflowed by 127 pixels on the right.  @ lib/features/mock/mock_transition_screen.dart:102:11
+  G4 /mock/transition [night 412x915 · demo]: A RenderFlex overflowed by 75 pixels on the right.  @ lib/features/mock/mock_transition_screen.dart:102:11
+  G5 /mock/reading [day 360x740 · demo]: A RenderFlex overflowed by 87 pixels on the right.  @ lib/features/mock/mock_environment_screen.dart:227:23
+  G5 /mock/reading [day 412x915 · demo]: A RenderFlex overflowed by 35 pixels on the right.  @ lib/features/mock/mock_environment_screen.dart:227:23
+  G5 /mock/reading [night 360x740 · demo]: A RenderFlex overflowed by 87 pixels on the right.  @ lib/features/mock/mock_environment_screen.dart:227:23
+  G5 /mock/reading [night 412x915 · demo]: A RenderFlex overflowed by 35 pixels on the right.  @ lib/features/mock/mock_environment_screen.dart:227:23
+  G6 /mock/writing [day 360x740 · demo]: A RenderFlex overflowed by 85 pixels on the bottom.  @ lib/features/mock/mock_writing_screen.dart:112:20
+  G6 /mock/writing [night 360x740 · demo]: A RenderFlex overflowed by 85 pixels on the bottom.  @ lib/features/mock/mock_writing_screen.dart:112:20
+  G7 /mock/speaking [day 360x740 · demo]: A RenderFlex overflowed by 58 pixels on the right.  @ lib/features/mock/mock_speaking_screen.dart:416:11
+  G7 /mock/speaking [day 412x915 · demo]: A RenderFlex overflowed by 6.3 pixels on the right.  @ lib/features/mock/mock_speaking_screen.dart:416:11
+  G7 /mock/speaking [night 360x740 · demo]: A RenderFlex overflowed by 58 pixels on the right.  @ lib/features/mock/mock_speaking_screen.dart:416:11
+  G7 /mock/speaking [night 412x915 · demo]: A RenderFlex overflowed by 6.3 pixels on the right.  @ lib/features/mock/mock_speaking_screen.dart:416:11
+  G8 /mock/scoring [day 360x740 · demo] (2 errors): A RenderFlex overflowed by 18 pixels on the right.  @ lib/features/mock/mock_scoring_screen.dart:394:22
+  G10 /mock/improvement-plan [day 360x740 · demo]: A RenderFlex overflowed by 12 pixels on the right.  @ lib/features/mock/improvement_plan_screen.dart:272:24
+  G10 /mock/improvement-plan [night 360x740 · demo]: A RenderFlex overflowed by 12 pixels on the right.  @ lib/features/mock/improvement_plan_screen.dart:272:24
+  H1 /resources [day 360x740 · demo]: A RenderFlex overflowed by 79 pixels on the right.  @ lib/features/resources/resources_hub_screen.dart:281:11
+  H1 /resources [day 412x915 · demo]: A RenderFlex overflowed by 27 pixels on the right.  @ lib/features/resources/resources_hub_screen.dart:281:11
+  H1 /resources [night 360x740 · demo]: A RenderFlex overflowed by 79 pixels on the right.  @ lib/features/resources/resources_hub_screen.dart:281:11
+  H1 /resources [night 412x915 · demo]: A RenderFlex overflowed by 27 pixels on the right.  @ lib/features/resources/resources_hub_screen.dart:281:11
+  H2 /resources/vault [day 360x740 · demo]: A RenderFlex overflowed by 5.8 pixels on the right.  @ lib/features/resources/vocab_vault_screen.dart:578:11
+  H2 /resources/vault [night 360x740 · demo]: A RenderFlex overflowed by 5.8 pixels on the right.  @ lib/features/resources/vocab_vault_screen.dart:578:11
+  X-plans /home/plans [day 360x740 · demo]: A RenderFlex overflowed by 91 pixels on the right.  @ lib/features/home/plans_screen.dart:242:11
+  X-plans /home/plans [day 412x915 · demo]: A RenderFlex overflowed by 39 pixels on the right.  @ lib/features/home/plans_screen.dart:242:11
+  X-plans /home/plans [night 360x740 · demo]: A RenderFlex overflowed by 91 pixels on the right.  @ lib/features/home/plans_screen.dart:242:11
+  X-plans /home/plans [night 412x915 · demo]: A RenderFlex overflowed by 39 pixels on the right.  @ lib/features/home/plans_screen.dart:242:11
+  B4 /home/analytics [day 360x740 · NEW account]: A RenderFlex overflowed by 21 pixels on the right.  @ lib/features/home/analytics_screen.dart:135:20
+  B4 /home/analytics [night 360x740 · NEW account]: A RenderFlex overflowed by 21 pixels on the right.  @ lib/features/home/analytics_screen.dart:135:20
+  B5 /home/schedule [day 360x740 · NEW account]: A RenderFlex overflowed by 15 pixels on the right.  @ lib/features/home/schedule_screen.dart:193:18
+  B5 /home/schedule [night 360x740 · NEW account]: A RenderFlex overflowed by 15 pixels on the right.  @ lib/features/home/schedule_screen.dart:193:18
+  A1 / [day 360x740 · signed out]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14
+  A1 / [night 360x740 · signed out]: A RenderFlex overflowed by 29 pixels on the bottom.  @ lib/features/access/splash_screen.dart:203:14
+  A3 /signup [day 360x740 · signed out]: A RenderFlex overflowed by 126 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11
+  A3 /signup [night 360x740 · signed out]: A RenderFlex overflowed by 126 pixels on the right.  @ lib/features/access/signup_screen.dart:127:11
+  F2 /listening/player [day 360x740 · demo] args={setId: ls_01}: A RenderFlex overflowed by 8.0 pixels on the right.  @ lib/features/listening/listening_player_screen.dart:341:15
+  F2 /listening/player [night 360x740 · demo] args={setId: ls_01}: A RenderFlex overflowed by 8.0 pixels on the right.  @ lib/features/listening/listening_player_screen.dart:341:15
+  F4 /listening/transcript [day 360x740 · demo] args={testId: lt_02, part: 2}: A RenderFlex overflowed by 4.8 pixels on the right.  @ lib/features/listening/listening_transcript_screen.dart:415:26
+  F4 /listening/transcript [night 360x740 · demo] args={testId: lt_02, part: 2}: A RenderFlex overflowed by 4.8 pixels on the right.  @ lib/features/listening/listening_transcript_screen.dart:415:26
+  G2 /mock/system-check [day 360x740 · demo] args={mockId: mt_b} (2 errors): A RenderFlex overflowed by 50 pixels on the right.  @ lib/features/mock/mock_system_check_screen.dart:227:9  |  A RenderFlex overflowed by 30 pixels on the right.  @ lib/features/mock/mock_system_check_screen.dart:279:24
+  G2 /mock/system-check [night 360x740 · demo] args={mockId: mt_b} (2 errors): A RenderFlex overflowed by 50 pixels on the right.  @ lib/features/mock/mock_system_check_screen.dart:227:9  |  A RenderFlex overflowed by 30 pixels on the right.  @ lib/features/mock/mock_system_check_screen.dart:279:24
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\screens_smoke_test.dart 321:5                  main.<fn>
+  
+00:22 +619 -25: D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: (tearDownAll)
+00:22 +619 -25: Some tests failed.
+
+Failing tests:
+  D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo]
+  D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 360x740 · demo] args={setId: ls_01}
+  D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [day 412x915 · demo]
+  D:/dev/nexted_ielts_app/test/screens_smoke_test.dart: F2 /listening/player [night 360x740 · demo]
+  ... and 21 more

@@ -1,0 +1,528 @@
+[
+ {
+  "id": "rb_tfng_09",
+  "lesson": {
+   "title": "Synonym ও antonym চিনে নেওয়া (Synonyms and antonyms)",
+   "text": "Medium set-এ statement-গুলো সাধারণত passage-এর শব্দ হুবহু ব্যবহার করে না। আপনাকে বুঝতে হবে যে rarely ≈ seldom, expanded ≈ grew, আর expanded-এর উল্টো হলো shrank। যে statement synonym দিয়ে তৈরি, সেটা TRUE হওয়ার সম্ভাবনা বেশি। আর যে statement antonym দিয়ে তৈরি, সেটা FALSE হওয়ার সম্ভাবনা বেশি। তবে সবসময় পুরো বাক্যটা পড়ে নিশ্চিত হবেন, কারণ negative শব্দ (not, never, few) পুরো অর্থ উল্টে দিতে পারে।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Few customers ever used the service.\" Statement: \"The service was seldom used.\" → TRUE। Statement: \"The service was popular.\" → FALSE।"
+  },
+  "explanations": {
+   "1": "এই প্রথা twentieth century-র আগেও ছিল, তাই \"unknown\" কথাটা passage-এর সাথে contradict করে।",
+   "2": "\"Within weeks\" হলো \"slow\"-এর ঠিক উল্টো।",
+   "3": "\"This effect\" বলতে বোঝানো হয়েছে customer-দের আবার ফিরে আসতে উৎসাহ দেওয়া। অর্থাৎ level-গুলো customer-দের থেকে যাওয়ার একটা বাড়তি কারণ দেয়।",
+   "4": "\"Would have used ... frequently anyway\" আর \"already frequent users\" একই কথা বলছে।",
+   "5": "একাধিক membership-এর কথা passage-এ আছে, কিন্তু এই customer-রা কত টাকা খরচ করেন, সে বিষয়ে কিছুই বলা নেই।",
+   "6": "\"Stock\" = \"sell\" — দুটো এখানে একই অর্থ বোঝাচ্ছে।",
+   "7": "Customer-রা কতটা সচেতন, সেটা passage-এ কোথাও আলোচনা করা হয়নি। যে উদ্বেগগুলোর কথা বলা হয়েছে, তা থেকে বোঝা যায় না বেশিরভাগ customer কী জানেন।",
+   "8": "\"Can change ... at any time\" কথাটা \"unable to change\"-কে contradict করে।",
+   "9": "\"Vary widely\" কথাটা \"similar across all\"-কে contradict করে।"
+  }
+ },
+ {
+  "id": "rb_tfng_10",
+  "lesson": {
+   "title": "কে কী করেছে? (Who did what?)",
+   "text": "Passage-এ যখন একাধিক ব্যক্তির কথা থাকে, তখন statement অনেক সময় একজনের কাজ ভুল ব্যক্তির নামে চাপিয়ে দেয়। যেমন, passage বলছে Scientist A X আবিষ্কার করেছেন আর Scientist B সেটা develop করেছেন, কিন্তু statement বলছে B X আবিষ্কার করেছেন। এটা FALSE, কারণ passage আবিষ্কারের কৃতিত্ব অন্য একজনকে দিয়েছে।\n\nপড়ার সময় ছোট করে একটা note রাখুন: ব্যক্তি → কাজ। আর যৌথ কৃতিত্ব বোঝানো শব্দগুলো খেয়াল করুন (\"the team\", \"together\", \"shared\"): তখন যে statement বলে একজন ব্যক্তি একাই কাজটা করেছেন, সেটা FALSE হতে পারে।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Lee designed the engine; Park built the first working model.\"\nStatement: \"Lee built the first working model.\" → FALSE।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সরাসরি paraphrase।",
+   "2": "\"Without damaging\" কথাটা \"harmed\"-কে contradict করে।",
+   "3": "এটা \"tested extensively\"-কে contradict করে। তাছাড়া প্রথম মানুষ রোগীর চিকিৎসা করেছিল Oxford team, Fleming নন।",
+   "4": "এখানে তিনটি paraphrase আছে: \"Came across\" = \"found\", \"paper\" = \"article\", আর \"recognised its potential\" = \"saw that ... could be valuable\"।",
+   "5": "কাজটা সঠিকভাবেই Heatley-র নামে বলা হয়েছে।",
+   "6": "যে ইঁদুরগুলোকে treatment দেওয়া হয়েছিল, তারা সবাই বেঁচে ছিল। যে চারটি মারা গিয়েছিল সেগুলো ছিল untreated ইঁদুর, তাই এই statement দুটো group-কে গুলিয়ে ফেলেছে।",
+   "7": "এই statement passage-এর \"cured\" কথাটাকে contradict করে।",
+   "8": "Passage বলেনি কে এটা খুঁজে পেয়েছিলেন। Florey তখন United States-এ ছিলেন বলেই ধরে নেওয়া যায় না যে তিনিই খুঁজে পেয়েছেন।",
+   "9": "এ বিষয়ে তাঁর অনুভূতির কথা passage-এ কোথাও বলা হয়নি।"
+  }
+ },
+ {
+  "id": "rb_tfng_11",
+  "lesson": {
+   "title": "অনুপাত ও আনুমানিক পরিমাণ (Proportions and approximate quantities)",
+   "text": "Passage-এ অনেক সময় পরিমাণ exact সংখ্যায় না দিয়ে শব্দে বলা হয়: a majority, roughly a third, the bulk of, a handful, nearly all। Statement তখন একই পরিমাণ, অথবা ভিন্ন কোনো পরিমাণ, অন্য একটা expression দিয়ে বলে। দুটোকেই মোটামুটি একটা সংখ্যায় রূপান্তর করে নিন:\n\na majority > 50%\n\nroughly a third ≈ 33%\n\na handful = খুব অল্প কয়েকটি\n\nসংখ্যা দুটো মিলে গেলে → TRUE। স্পষ্টভাবে না মিললে (a handful বনাম most) → FALSE। আর passage যদি কোনো পরিমাণই না দেয় → NOT GIVEN।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Nearly all the volunteers were students.\" Statement: \"Most volunteers were students.\" → TRUE, কারণ nearly all-এর মধ্যে most-ও পড়ে যায়।"
+  },
+  "explanations": {
+   "1": "\"Well over a million\" কথাটা \"fewer than a million\"-কে contradict করে।",
+   "2": "\"A few weeks\" কথাটা \"several months\"-কে contradict করে।",
+   "3": "\"Far too small\" মানেই \"cannot ... alone\" — দুটো একই কথা।",
+   "4": "এটা passage-এর সরাসরি paraphrase।",
+   "5": "Fee-তে কোনো পরিবর্তনের তথ্য passage-এ নেই। চাহিদা বাড়ছিল বলেই প্রতি বছর fee বেড়েছে — এমনটা বলা যায় না।",
+   "6": "\"Varied\" কথাটা \"a single cause\"-কে contradict করে।",
+   "7": "এটা statement-এর সাথে মিলে যায়। খেয়াল করুন, passage এটাকে \"some researchers\"-এর মত হিসেবে দিয়েছে, আর statement-এর hedge \"may\" সেটার সাথে ঠিক মানিয়ে যায়।",
+   "8": "\"A number\" কোনো অনুপাত বোঝায় না। এটা \"most\"-কে confirm-ও করে না, contradict-ও করে না — তাই এটা একটা proportion trap।",
+   "9": "এই statement \"always ... larger\" কথাটাকে contradict করে।"
+  }
+ },
+ {
+  "id": "rb_tfng_12",
+  "lesson": {
+   "title": "Hedged বনাম নিশ্চিত statement (Hedged statements and certain statements)",
+   "text": "গবেষণা নিয়ে লেখা passage-এ প্রায়ই অনিশ্চয়তা প্রকাশ করা হয়: may, might, is thought to, one theory suggests, it remains unclear। যে statement এমন একটা ধারণাকে নিশ্চিত সত্য হিসেবে উপস্থাপন করে (\"X causes Y\", \"engineers have proved\"), সেটা passage-এর সাথে মেলে না। সাধারণত passage যদি স্পষ্ট বলে যে বিষয়টা অনিশ্চিত বা বিতর্কিত, তাহলে উত্তর FALSE; আর passage যদি বিষয়টা নিয়ে কিছুই না বলে, তাহলে NOT GIVEN। উল্টোভাবে, statement নিজেই যদি hedged হয় (\"X may cause Y\"), আর passage X-কে একটা সম্ভাব্য কারণ হিসেবে উল্লেখ করে, তাহলে সেটা TRUE হতে পারে।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"It is still unclear why the birds left the island.\" Statement: \"Scientists have established why the birds left.\" → FALSE।"
+  },
+  "explanations": {
+   "1": "\"In some cases\" = \"some\" — দুটো একই অর্থ।",
+   "2": "Passage নিশ্চিত করছে যে আগুনে কিছু pagoda নষ্ট হয়েছে, কিন্তু কোনো সংখ্যা দেয়নি। তাই \"Many\" confirm-ও করা যায় না, contradict-ও করা যায় না। আগের set-গুলোর \"some / many / most\" trap-এর সাথে মিলিয়ে দেখুন।",
+   "3": "\"Rather than written calculations\" কথাটা statement-কে সরাসরি contradict করে।",
+   "4": "\"Without nails\" কথাটা \"firmly nailed\"-কে contradict করে।",
+   "5": "এটা passage-এর সরাসরি paraphrase।",
+   "6": "Passage স্পষ্টভাবে মতভেদের কথা বলেছে, যা \"engineers agree\"-কে contradict করে। এটাই lesson-এর hedged বনাম certain pattern।",
+   "7": "Passage-এর তথ্য statement-এর সাথে মিলে যায়।",
+   "8": "Passage-এ শুধু scale model-এর ওপর test-এর কথা আছে। Full-size pagoda test করা হয়েছিল কি না — হয়েছে বা হয়নি, কোনোটাই বলা নেই। যে student FALSE বেছে নেন, তিনি ধরে নিচ্ছেন যে passage-এ যে test-গুলোর বর্ণনা আছে, শুধু সেগুলোই কখনো করা হয়েছে।",
+   "9": "\"Explicitly referred to ... as an influence\" = \"said they had been influenced\" — দুটো একই কথা বলছে।"
+  }
+ },
+ {
+  "id": "rb_tfng_13",
+  "lesson": {
+   "title": "Superlative আর ranking-এর ফাঁদ (Superlatives and rankings)",
+   "text": "largest, first, oldest, most powerful — এই ধরনের শব্দ খুব নির্দিষ্ট দাবি করে। Passage-কে ঠিক সেই ranking-টাই support করতে হবে:\n\n\"One of the largest\" ≠ \"the largest\", তাই যে statement \"the largest\" দাবি করে, সেটা সাধারণত NOT GIVEN।\n\nPassage যদি এর চেয়ে বড় বা আগের কোনো কিছুর নাম বলে, তাহলে statement FALSE।\n\nখেয়াল করুন কীসের ranking হচ্ছে (output নাকি physical size) আর কোন সময়ের কথা (\"was the largest until 2011\" মানে \"is the largest\" নয়)।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Opened in 1990, the dam was the country's biggest until a larger one was built in 2005.\" Statement: \"The dam is still the country's biggest.\" → FALSE।"
+  },
+  "explanations": {
+   "1": "\"Calculated in advance\" = \"predicted ahead\" — দুটো একই অর্থ।",
+   "2": "এই তথ্য \"only ... going out\"-এর সম্ভাবনা বাতিল করে দেয়।",
+   "3": "\"Exceed\" = \"more than\" — দুটো কথার অর্থ একই।",
+   "4": "Rance station প্রায় forty-five বছর ধরে সবচেয়ে বড় ছিল, কিন্তু এখন আর নেই। এটাই \"was / is\" trap।",
+   "5": "অন্য power station-এর সাথে মেরামতের কোনো তুলনা passage-এ করা হয়নি।",
+   "6": "\"Badly polluted\" = \"water quality problems\" — একই কথা অন্যভাবে বলা।",
+   "7": "\"Only\" কথাটা \"both directions\"-কে contradict করে।",
+   "8": "খরচও একটা কারণ ছিল, তাই \"entirely for environmental reasons\" কথাটা contradict হয়।",
+   "9": "\"A smaller effect\" মানে তবুও কিছুটা প্রভাব আছে, আর প্রশ্নটা নিয়ে এখনো গবেষণা চলছে। তাই \"shown to have no effect\" কথাটা contradict হয়।"
+  }
+ },
+ {
+  "id": "rb_tfng_14",
+  "lesson": {
+   "title": "Generalisation ও কোন group-এর কথা (Generalisations and the groups they describe)",
+   "text": "Passage হয়তো একটা নির্দিষ্ট group-এর (factory worker, একটা দেশ, একটা company) কী হয়েছিল সেটা বর্ণনা করছে। Statement তখন সেটাকে সবার ওপর generalise করে, অথবা অন্য একটা group-এর ওপর প্রয়োগ করে। Passage যদি বলে এটা শুধু ওই একটা group-এর ক্ষেত্রেই সত্য ছিল, বা স্পষ্ট বলে যে অন্যদের ক্ষেত্রে নয় → FALSE। Passage যদি অন্য group সম্পর্কে কিছুই না বলে → NOT GIVEN।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Miners in the region were given free housing.\" Statement: \"All workers in the region received free housing.\" Passage অন্য worker-দের সম্পর্কে কিছুই বলেনি → NOT GIVEN।"
+  },
+  "explanations": {
+   "1": "এই statement \"several centuries\" কথাটাকে contradict করে।",
+   "2": "\"Paid for the amount they produced\" = \"paid according to output\" — দুটো কথার অর্থ একই।",
+   "3": "\"Disliked\" কথাটা \"encouraged\"-কে contradict করে।",
+   "4": "Passage একটা নির্দিষ্ট group-এর নাম বলেছে, যা \"equally to all adult workers\"-কে contradict করে। অন্য worker-রা সুবিধা পেয়েছিলেন শুধু তখনই, যখন employer এই ব্যবস্থা তাঁদের জন্যও চালু করতে চেয়েছেন।",
+   "5": "Passage-এ যে কারণ দেওয়া হয়েছে, সেটা statement-এর সাথে মিলে যায়।",
+   "6": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "7": "Passage Ford-এর যুক্তিটা জানিয়েছে, ফলাফল নয়। Productivity আসলেই বেড়েছিল কি না, তা বলা নেই।",
+   "8": "Passage \"much of Europe\"-এর জন্য একটা বিস্তৃত সময়কাল দিয়েছে। প্রতিটি দেশ একই সময়ে নাকি ভিন্ন ভিন্ন সময়ে weekend চালু করেছিল, সেটা বলা নেই।",
+   "9": "Passage বলছে \"many\", \"all\" নয়; আর weekend-এর অন্য দিনটা কোনটা, সেটাও বলেনি। Statement দেওয়া তথ্যের বাইরে চলে গেছে।"
+  }
+ },
+ {
+  "id": "rb_tfng_15",
+  "lesson": {
+   "title": "Hard TFNG — implication ও নির্দিষ্ট scope (Implications and precise scope)",
+   "text": "Hard level-এ:\n\nImplication-এর মাধ্যমে FALSE। Contradiction সবসময় এমন একটা বাক্যে থাকে না, যেটা সরাসরি উল্টো কথা বলে। দুটো তথ্য মিলিয়েও সেটা স্পষ্টভাবে বোঝা যেতে পারে। যেমন: passage বলছে একটা ভাষার শতাব্দীর পর শতাব্দী কোনো native speaker ছিল না, আর statement বলছে সেই ভাষা সবসময় বাড়িতে বলা হতো। Tight NOT GIVEN। Statement passage-এর topic আর vocabulary-র খুব কাছাকাছি থাকে, কিন্তু এমন একটা জিনিস যোগ করে যার কোনো support নেই: একটা কারণ, একটা তুলনা, একটা উদ্দেশ্য বা একটা ফলাফল।\n\nScope word। Only, entirely, the main, never, all, completely — এই শব্দগুলো সবার আগে check করুন। উত্তর বাছার আগে statement-এর একমাত্র নির্দিষ্ট দাবিটা অল্প কয়েকটা শব্দে নিজের মতো করে বলুন, আর শুধু সেই দাবিটাই যাচাই করুন।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"The school opened with twelve pupils; within ten years it had over two hundred, though funding remained uncertain.\" Statement: \"The school grew because its funding was secure.\" School বড় হওয়ার অংশটা TRUE, কিন্তু যে কারণ বলা হয়েছে সেটা \"funding remained uncertain\"-কে contradict করে → FALSE।"
+  },
+  "explanations": {
+   "1": "\"Vary widely\" আর \"some suggest\" কথাগুলো \"experts agree\"-কে contradict করে। Statement-এ একটা মাত্র estimate-কে নিশ্চিত হিসেবে উপস্থাপন করা হয়েছে।",
+   "2": "\"Punished\" = \"penalised\", আর \"in some cases\" = \"in some places\" — দুটোই মিলে যায়।",
+   "3": "Statement-এর \"throughout its history\" দাবি থেকেই এই contradiction বেরিয়ে আসে।",
+   "4": "একটা \"movement\"-এ \"prominent role\" মানে অন্যরাও জড়িত ছিলেন, আর passage school ও পরিবারের কথাও বলেছে। এটা \"solely\"-কে contradict করে, তাই এটা implication-এর মাধ্যমে FALSE।",
+   "5": "এটা এই ধারণাকে contradict করে যে বেশিরভাগ ভাষা সহজেই এই model অনুসরণ করতে পারে।",
+   "6": "\"Largely because of\" = \"the main reason\" — দুটো কথার অর্থ একই।",
+   "7": "\"Based on\" = \"modelled on\"। Māori programme-টা যে আগের, সেটা passage থেকে বোঝা যায় (implied)।",
+   "8": "তাঁদের বয়স দেওয়া আছে, কিন্তু training-এর কথা নেই। Topic-টা passage-এ আছে, কিন্তু নির্দিষ্ট দাবিটার মীমাংসা passage করেনি।",
+   "9": "এটা \"technology alone can ensure\"-কে সরাসরি contradict করে।"
+  }
+ },
+ {
+  "id": "rb_tfng_16",
+  "lesson": {
+   "title": "Study-র খুঁটিনাটি — কারা, কতজন, কতদিন, কীসের সাথে তুলনা (Study details)",
+   "text": "Hard level-এর research passage-এ study design নিয়ে খুব নির্দিষ্ট তথ্য থাকে। Statement এগুলোর যেকোনো একটা বদলে দিতে পারে:\n\nকাদের ওপর study করা হয়েছে (একটা নির্দিষ্ট রোগের রোগী, সবাই নয়);\n\nকতজন অংশ নিয়েছিলেন;\n\nstudy কতদিন চলেছিল;\n\ncomparison group কী পেয়েছিল।\n\nPassage যে detail অন্যভাবে নির্দিষ্ট করে বলেছে, statement সেটা বদলে দিলে → FALSE। যে detail passage-এ কখনো উল্লেখই নেই → NOT GIVEN। আরও খেয়াল রাখুন, statement যেন \"reported feeling better\"-কে \"was cured\" বানিয়ে না ফেলে — এতে ফলাফলের ধরনটাই বদলে যায়।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Over three weeks, patients with back pain who did the exercises reported less pain than a group that did not.\" Statement: \"The exercises cured back pain.\" → FALSE? না: passage বলেনি যে ব্যথা সেরে গেছে, আবার এটাও বলেনি যে সারেনি। তাই উত্তর NOT GIVEN — যদি না passage \"no patient was fully free of pain\"-এর মতো কিছু যোগ করে; তখন উত্তর হবে FALSE।"
+  },
+  "explanations": {
+   "1": "এই statement passage-এর \"told\" কথাটাকে contradict করে।",
+   "2": "\"Some ... nothing to do with\" কথাটা \"all\"-কে contradict করে।",
+   "3": "এটা মিলে যায়, এমনকি hedge \"appear\"-ও মিলে যায়।",
+   "4": "Placebo-কে আসল ওষুধ ভাবা মানেই প্রতারিত হওয়া (being deceived), আর \"most ... long assumed\"-এর মধ্যে \"many ... once believed\" পড়ে যায়।",
+   "5": "Passage সংখ্যাটা দিয়েছে, আর সেটা \"several hundred\"-কে contradict করে।",
+   "6": "Comparison group কিছুই পায়নি, অন্য কোনো pill পায়নি।",
+   "7": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "8": "Tumour নিয়ে কোনো open-label study-র কথা passage-এ নেই। Paragraph B-র সাধারণ কথা থেকে বোঝা যায় না open-label placebo কী করে, তাই নির্দিষ্ট দাবিটা confirm-ও হয় না, contradict-ও হয় না। এটা Hard-level NOT GIVEN, কারণ সম্পর্কিত তথ্য passage-এ আছে।",
+   "9": "\"A few\" = \"some\", আর \"none\" = \"no effect\" — দুটোই মিলে যায়।",
+   "10": "এটা passage-এর সাথে সরাসরি contradiction।"
+  }
+ },
+ {
+  "id": "rb_tfng_17",
+  "lesson": {
+   "title": "প্রচলিত বিশ্বাস বনাম passage-এর সংশোধিত বিবরণ (Popular belief vs revised account)",
+   "text": "কিছু Hard passage প্রথমে একটা প্রচলিত গল্প বলে, তারপর নতুন গবেষণার ভিত্তিতে একটা সংশোধিত version দেয়। Statement হয়তো প্রচলিত গল্পটাকে এমনভাবে বলবে, যেন passage সেটাই মেনে নিয়েছে। Passage কোনটাকে তথ্য হিসেবে উপস্থাপন করছে সেটা ঠিক করুন, আর প্রচলিত বিবরণটাকে এমন একটা বিশ্বাস হিসেবে দেখুন, যেটা passage শুধু জানাচ্ছে।\n\nStatement প্রচলিত গল্পের সাথে মেলে, অথচ passage বলছে গবেষণা সেটাকে contradict করে → FALSE।\n\nStatement বলছে \"people believed X\", আর passage বলছে X ব্যাপকভাবে বিশ্বাস করা হতো → TRUE, এমনকি X নিজে মিথ্যা হলেও।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"It was long claimed that the castle was built in a single year; records now show construction lasted a decade.\" Statement: \"The castle was built in one year.\" → FALSE। Statement: \"People once thought the castle was built in one year.\" → TRUE।"
+  },
+  "explanations": {
+   "1": "Statement-টা প্রচলিত বিবরণ কী দাবি করে সেটা নিয়ে, দাবিটা সঠিক কি না তা নিয়ে নয়। তাই এটা TRUE, যদিও Paragraph E দাবিটাকে বাতিল করেছে।",
+   "2": "Archive-এ ফিরে গিয়েছিলেন পরবর্তী ঐতিহাসিকেরা, আর এটা statement-কে contradict করে।",
+   "3": "\"Virus\" = \"disease\", আর ধীরে ধীরে বংশবৃদ্ধি হওয়াটাই ব্যাখ্যা করে কেন bulb-গুলো দুর্লভ ছিল।",
+   "4": "প্রচলিত গল্পের এই অংশটা passage নিশ্চিত করেছে।",
+   "5": "চুক্তি যেখানে হতো সেই জায়গা হিসেবে tavern-এর কথা আছে, কিন্তু মালিকেরা কোনো fee নিতেন কি না, সে বিষয়ে কিছু বলা নেই। Topic-টা আছে, কিন্তু নির্দিষ্ট দাবিটা নেই।",
+   "6": "এটা \"the full agreed price\"-কে contradict করে।",
+   "7": "Statement-এর দুটো অংশই passage-এর সাথে contradict করে।",
+   "8": "লেখকদের নিজেদের trading বা লোকসান নিয়ে কিছুই বলা নেই।",
+   "9": "এটা \"all ... agree\"-কে সরাসরি contradict করে।"
+  }
+ },
+ {
+  "id": "rb_tfng_18",
+  "lesson": {
+   "title": "Evidence-এর জোর বোঝানো শব্দ (Evidence strength words)",
+   "text": "Hard science passage evidence-এর মাত্রা খুব নির্দিষ্টভাবে বলে: demonstrated, confirmed, suggested, consistent with, no clear evidence, inconclusive। Statement-এর জোর passage-এর জোরের সাথে মিলিয়ে দেখুন।\n\nStatement passage-এর চেয়ে বেশি জোরালো, আর passage সন্দেহের ইঙ্গিত দিচ্ছে (\"remains uncertain\") → FALSE।\n\nStatement passage-এর চেয়ে বেশি জোরালো, কিন্তু passage সন্দেহের বিষয়টা নিয়ে কিছু বলেনি → NOT GIVEN।\n\nStatement passage-এর সমান বা কম জোরালো → TRUE।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Early results are consistent with a small benefit, but further trials are needed.\" Statement: \"Trials have proved a large benefit.\" → FALSE। Statement: \"Early results suggest some benefit.\" → TRUE।"
+  },
+  "explanations": {
+   "1": "Passage-এর তথ্য statement-এর সাথে মিলে যায়।",
+   "2": "Statement ঘটনার ক্রমটা উল্টে দিয়েছে।",
+   "3": "এটা passage-এর সরাসরি paraphrase।",
+   "4": "বিজ্ঞানীর পরবর্তী career-এর কথা কোথাও বলা নেই। Evidence ছাড়া দুটো paragraph-কে জুড়ে দেবেন না।",
+   "5": "মিলটা নিশ্চিত করতে pronoun \"them\" কাকে বোঝাচ্ছে, সেটা বের করতে হবে।",
+   "6": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "7": "Passage এটাকে \"direct observation\" বলেছে।",
+   "8": "আনুমানিক বৃদ্ধিটা প্রযোজ্য ছিল \"in suitable conditions\"-এ, আর সেই অবস্থা ছিল শুধু কিছু দিনে। এটা \"every day\"-কে contradict করে।",
+   "9": "Passage বলছে বিষয়টার এখনো মীমাংসা হয়নি, \"little evidence either way\", তাই \"has been shown\" কথাটা contradict হয়। এটাই lesson-এর evidence-strength নিয়ম। Passage যদি প্রশ্নটার উল্লেখই না করত, তাহলে উত্তর হতো NOT GIVEN।"
+  }
+ },
+ {
+  "id": "rb_tfng_19",
+  "lesson": {
+   "title": "তারিখ, সময়সীমা ও আনুমানিক হিসাব (Dates, ranges and estimates)",
+   "text": "Hard passage-এ প্রায়ই আনুমানিক বা বিতর্কিত তারিখ থাকে (\"probably made between the second and first centuries BC\", \"estimates range from...\")। Passage যে তারিখ খোলা রেখেছে, statement যদি সেখানে একটা নির্দিষ্ট তারিখ বসিয়ে দেয়, তাহলে উত্তর সাধারণত NOT GIVEN। FALSE হবে শুধু তখনই, যখন তারিখটা passage-এর দেওয়া সময়সীমার স্পষ্টভাবে বাইরে পড়ে। এছাড়া আলাদা করে খেয়াল করুন জিনিসটা কখন তৈরি হয়েছিল, কখন হারিয়েছিল, কখন পাওয়া গিয়েছিল আর কখন সেটা বোঝা গিয়েছিল। Statement প্রায়ই এগুলো অদলবদল করে।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"The ship sank sometime around 70 BC; the wreck was discovered in 1900.\" Statement: \"The ship sank in 1900.\" → FALSE (ডুবে যাওয়ার তারিখের জায়গায় আবিষ্কারের তারিখ বসানো হয়েছে)।\nStatement: \"The ship sank in 72 BC.\" → NOT GIVEN (\"around 70 BC\"-এর মধ্যে সম্ভব, কিন্তু বলা নেই)।"
+  },
+  "explanations": {
+   "1": "Statement ডুবে যাওয়ার তারিখের জায়গায় আবিষ্কারের তারিখ বসিয়ে দিয়েছে।",
+   "2": "এটা \"immediately recognised\"-কে contradict করে।",
+   "3": "তখন মতভেদ ছিল, যা \"all ... agreed\"-কে contradict করে।",
+   "4": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "5": "\"Previously unreadable\" = \"had not been read before\" — দুটো কথার অর্থ একই।",
+   "6": "Passage স্পষ্ট বলেছে যন্ত্রটা হাতে ঘোরানো হতো (hand-turned), যা weight দিয়ে চালানোর সাথে মেলে না।",
+   "7": "ওই অংশগুলো হারিয়ে গেছে, তাই টিকে থাকা অংশগুলো এটা \"clearly show\" করতে পারে না।",
+   "8": "87 BC সালটা passage-এর দেওয়া সময়সীমার মধ্যে পড়ে, তাই এটা contradict হয় না। কিন্তু কোনো নির্দিষ্ট সাল বলা নেই, তাই confirm-ও হয় না। এটাই lesson-এর approximate-date নিয়ম।",
+   "9": "\"Modelled the heavens\" = \"represented the movements of the heavens\" — দুটো কথার অর্থ একই।"
+  }
+ },
+ {
+  "id": "rb_tfng_20",
+  "lesson": {
+   "title": "সব skill একসাথে (Combining everything)",
+   "text": "এই শেষ set-এ TFNG-র মূল skill-গুলো একসাথে এসেছে: qualifier, study detail, কারণ, evidence-এর জোর আর \"was vs is\"। প্রতিটি statement একটা নির্দিষ্ট checklist ধরে যাচাই করুন:\n\n১. একমাত্র দাবিটা কী?\n\n২. Passage-এর কোথায় সেটা আছে?\n\n৩. Passage কি ঠিক এই দাবিটার মীমাংসা করে?\n\n৪. হ্যাঁ, একই কথা → TRUE।\n\n৫. হ্যাঁ, উল্টো বা অসামঞ্জস্যপূর্ণ কথা → FALSE।\n\n৬. না → NOT GIVEN।\n\nTRUE, FALSE বা NOT GIVEN \"seems to have come up too often\" (অনেকবার এসে গেছে বলে মনে হচ্ছে) — শুধু এই কারণে উত্তর বদলাবেন না। প্রতিটি set-এর নিজস্ব ভারসাম্য থাকে।"
+  },
+  "explanations": {
+   "1": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "2": "এটা \"exactly the same questions\"-কে contradict করে।",
+   "3": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "4": "\"More than twice as likely\"-এর মধ্যে \"more likely\" পড়ে যায়।",
+   "5": "এটা এই দাবিকে contradict করে যে false memory কম বিস্তারিত হয়।",
+   "6": "এটা \"deliberately lying\"-কে সরাসরি contradict করে।",
+   "7": "Passage-এ statement-এর ঠিক উল্টো কথা বলা হয়েছে।",
+   "8": "Passage-এর তথ্য statement-এর সাথে মিলে যায়।",
+   "9": "\"Many places\" দিয়ে \"every country\" confirm-ও হয় না, বাতিলও হয় না। পুরো পরিধিটা passage বলেনি।",
+   "10": "আগের ধারণা ছিল ঠিক উল্টো, যা \"always believed\"-কে contradict করে।"
+  }
+ },
+ {
+  "id": "rb_ynng_01",
+  "lesson": {
+   "title": "শুরুতেই writer-এর অবস্থান ধরা (Spotting the writer's position early)",
+   "text": "Argumentative passage-এ writer-এর মূল অবস্থান সাধারণত প্রথম আর শেষ paragraph-এ পরিষ্কার থাকে। মাঝের paragraph-গুলো কারণ দেখায়, আপত্তির জবাব দেয় আর কিছু শর্ত বা সীমা (qualification) যোগ করে। Passage-এর ওপরে writer-এর অবস্থানটা ৫টি শব্দে লিখে ফেলুন, যেমন \"cities need more trees; plan carefully\"। অনেক YES/NO উত্তর সরাসরি এখান থেকেই চলে আসে, তবে writer যে প্রতিটি qualification যোগ করেন, সেগুলো check করে নিন।",
+   "example": "উদাহরণ — শুরুর লাইন: \"Cycling lanes are the best investment a city can make.\" Statement: \"The writer believes cycling lanes are a poor use of money.\" → NO।"
+  },
+  "explanations": {
+   "1": "Writer এই মতটা স্পষ্টভাবে বাতিল করেছেন।",
+   "2": "\"It seems to me\" দিয়ে বোঝা যায় এটা writer-এর নিজের মত, আর সেটা statement-এর সাথে মেলে।",
+   "3": "Writer emission কমানোকে বেশি গুরুত্বপূর্ণ মনে করেন, যা \"most effective\"-কে contradict করে।",
+   "4": "Writer ঠিক উল্টো কথা বলেছেন।",
+   "5": "\"Deserve to be taken seriously\" = \"worth considering\" — দুটো কথার অর্থ একই।",
+   "6": "\"Usually\" = \"most\" — দুটো কথার অর্থ একই।",
+   "7": "এই দাবি নিয়ে writer কোনো মত প্রকাশ করেননি।",
+   "8": "Passage-এর সাথে এটা সরাসরি মিলে যায়।"
+  }
+ },
+ {
+  "id": "rb_ynng_02",
+  "lesson": {
+   "title": "অন্যের মত বনাম writer-এর মত (Reported views vs the writer's view)",
+   "text": "Writer-রা প্রায়ই আগে একটা মত তুলে ধরেন, তারপর সেটার জবাব দেন: \"Some parents argue that... This, however, overlooks...\"। প্রথম বাক্যটা writer-এর মত নয়। সবসময় পরের অংশে writer-এর প্রতিক্রিয়া পর্যন্ত পড়ুন। however, yet, but, this overlooks, I disagree, there is some truth in this — এই শব্দগুলো দেখে বোঝা যায় writer ওই মতটা বাতিল করছেন, মেনে নিচ্ছেন, নাকি আংশিক মেনে নিচ্ছেন।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Some claim tests are useless. There is some truth in this for very young children, but for older students tests are valuable.\" Statement: \"Tests are useless for all students.\" → NO।"
+  },
+  "explanations": {
+   "1": "\"Does little good\" = \"of little benefit\" — দুটো কথার অর্থ একই।",
+   "2": "\"Little further benefit\" কথাটা \"large additional benefits\"-কে contradict করে। Writer এই finding-টাকে সেই evidence-এর অংশ হিসেবে দেখিয়েছেন, যার ওপর তাঁর মত দাঁড়িয়ে আছে।",
+   "3": "Supporter-রা এই মত পোষণ করেন, কিন্তু writer এ নিয়ে সন্দিহান, যা \"clearly succeeds\"-কে contradict করে।",
+   "4": "Passage-এর তথ্য statement-এর সাথে মিলে যায়।",
+   "5": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "6": "Passage-এর তথ্য statement-এর সাথে মিলে যায়।",
+   "7": "এ বিষয়ে writer কোনো মত দেননি।",
+   "8": "খেলা (play) \"these activities\"-এর মধ্যেই পড়ে।"
+  }
+ },
+ {
+  "id": "rb_ynng_03",
+  "lesson": {
+   "title": "Concession বা মেনে নেওয়া কথা (\"Admittedly...\", \"Of course...\")",
+   "text": "Writer-রা নিজেদের যুক্তি আরও বিশ্বাসযোগ্য করতে এমন কিছু point মেনে নেন, যেগুলো আপাতদৃষ্টিতে অপর পক্ষকে support করে: admittedly, of course, it is true that, I accept that, no doubt। Concession-ও writer-এরই মত। Writer সত্যিই এটা মেনে নেন, যদিও এটা তাঁর মূল যুক্তি নয়। তাই writer যদি বলেন \"Admittedly, typing is faster\", তাহলে statement \"typing is faster than handwriting\" হবে YES, যদিও writer-এর সামগ্রিক অবস্থান handwriting-এর পক্ষে।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Of course, electric cars are expensive. Even so, I believe they are worth buying.\" Statement: \"Electric cars are costly.\" → YES।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "2": "এটা একটা concession, আর concession-ও writer-এরই মত।",
+   "3": "এটা \"required to use pens\"-কে contradict করে।",
+   "4": "Statement-এর hedge \"may\" passage-এর \"seems\"-এর সাথে মানিয়ে যায়।",
+   "5": "এটা \"conclusively settled\"-কে contradict করে।",
+   "6": "এটা অন্যদের মত, যেটা writer বাতিল করেছেন।",
+   "7": "এটা পড়তে কতটা সহজ (readability), সে বিষয়ে writer কোনো মত দেননি।",
+   "8": "Passage-এর সাথে এটা সরাসরি মিলে যায়।"
+  }
+ },
+ {
+  "id": "rb_ynng_04",
+  "lesson": {
+   "title": "Writer-এর মতের জোর (Strength of the writer's view)",
+   "text": "Writer-রা শুধু একমত বা দ্বিমত পোষণ করেন না; তাঁরা একটা নির্দিষ্ট মাত্রা পর্যন্ত একমত হন। যে writer বলেন free entry \"generally the better policy\", তিনি দাবি করছেন না যে \"all museums must be free in all circumstances\"। Statement-এর জোরালো শব্দগুলো (always, all, must, never, completely) writer-এর নিজের শব্দের (generally, usually, in most cases, can) সাথে তুলনা করুন। Statement যদি writer-এর মতের চেয়ে স্পষ্টভাবে বেশি জোরালো হয়, উত্তর সাধারণত NO।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Charging for plastic bags is usually a good idea.\" Statement: \"Charging for plastic bags is always right.\" → NO, কারণ writer ব্যতিক্রমের সুযোগ রেখেছেন।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সরাসরি paraphrase।",
+   "2": "এটা \"cannot discourage\"-কে contradict করে।",
+   "3": "এটা \"always ... new types of visitors\"-কে contradict করে।",
+   "4": "\"Not sufficient on its own\" কথাটা \"alone is enough\"-কে contradict করে।",
+   "5": "\"Too often underfunded\" = \"often lack sufficient funding\" — দুটো কথার অর্থ একই।",
+   "6": "এটা \"never ... any exhibition\"-কে contradict করে। Writer-এর মত statement-এর মতো এতটা চরম নয়।",
+   "7": "কারা কতবার যান, তার কোনো তুলনা passage-এ করা হয়নি।",
+   "8": "Passage-এর তথ্য statement-এর সাথে মিলে যায়।"
+  }
+ },
+ {
+  "id": "rb_ynng_05",
+  "lesson": {
+   "title": "\"Rather than\" ও \"not ... but\" দিয়ে তৈরি বাক্য",
+   "text": "Writer-রা প্রায়ই একই বাক্যে একটা ধারণা বাতিল করে অন্য একটা প্রস্তাব করেন: \"not X but Y\", \"Y rather than X\", \"instead of X, cities should Y\"। এই কাঠামো আপনাকে একসাথে দুটো উত্তর দেয়: যে statement X-কে support করে সেটা NO, আর যেটা Y-কে support করে সেটা YES। এ ধরনের বাক্য ধীরে পড়ুন, কারণ অর্থটা উল্টে ফেলা খুব সহজ।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"The answer is not to close the park but to manage its paths better.\"\nStatement: \"The park should be closed.\" → NO। Statement: \"Better path management is needed.\" → YES।"
+  },
+  "explanations": {
+   "1": "Writer এটা সরাসরি বাতিল করেছেন।",
+   "2": "এটা \"not X but Y\" pattern: Y হলো writer-এর মত।",
+   "3": "এটা একটা concession, যেটা writer সত্যিই মেনে নেন।",
+   "4": "এটা \"most effective\"-কে contradict করে।",
+   "5": "Writer বলেছেন এই শর্তে tax কাজ করতে পারে, কিন্তু বলেননি যে শুধু এই শর্তেই tax গ্রহণযোগ্য। অন্য অবস্থায় গ্রহণযোগ্য হবে কি না, তা বলা নেই। এটা একটা Medium ধরনের trap, অনুশীলনের জন্য এখানে রাখা হয়েছে।",
+   "6": "খরচ (spending) নিয়ে writer কোনো মত দেননি।",
+   "7": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "8": "এটা \"will be enough\"-কে contradict করে।"
+  }
+ },
+ {
+  "id": "rb_ynng_06",
+  "lesson": {
+   "title": "মতের মধ্যে অগ্রাধিকার ও ranking (Priorities and rankings in opinions)",
+   "text": "Writer হয়তো মেনে নেন যে একটা জিনিস ভালো, কিন্তু যুক্তি দেন যে অন্য একটা জিনিস বেশি গুরুত্বপূর্ণ। যেমন: \"Lower fares help, but reliability matters more.\" Statement এই ranking-টা test করতে পারে। \"Price is the most important factor\" → NO। \"Lower fares can help\" → YES। তুলনামূলক ভাষা খুঁজুন: more important, above all, the main, secondary, the first priority।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Cheaper tickets are welcome, but the real priority is more frequent trains.\" Statement: \"Frequency matters more than price.\" → YES।"
+  },
+  "explanations": {
+   "1": "Writer লক্ষ্যগুলোর সাথে একমত, কিন্তু পদ্ধতির সাথে নন।",
+   "2": "এটা writer-এর ranking-এর সাথে মিলে যায়।",
+   "3": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "4": "Writer এই evidence-কে নিজের মতের support হিসেবে দেখিয়েছেন। \"Mainly\" কথাটা \"rather than drivers\" contrast দিয়ে যুক্তিসঙ্গত হয়।",
+   "5": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "6": "Funding কোথা থেকে আসবে, সে বিষয়ে writer কোনো মত দেননি।",
+   "7": "এটা একটা concession, যেটা writer মেনে নেন।",
+   "8": "এ বিষয়ে writer কোনো মত প্রকাশ করেননি।"
+  }
+ },
+ {
+  "id": "rb_ynng_07",
+  "lesson": {
+   "title": "পরোক্ষ মত (Implied opinions)",
+   "text": "Medium level-এ writer-রা প্রায়ই পরোক্ষভাবে মত প্রকাশ করেন: শব্দ বাছাইয়ের মাধ্যমে (\"so-called experts\", \"the understandable wish for certainty\"), irony দিয়ে, অথবা কোনো ফলাফলকে ক্ষতিকর বা উপকারী হিসেবে বর্ণনা করে। এই signal-গুলো থেকে আপনাকে writer-এর মনোভাব বুঝে নিতে হবে। নিজেকে প্রশ্ন করুন: ভাষাটা কি সমর্থন, অসমর্থন নাকি সন্দেহ প্রকাশ করছে?\n\n\"I think\" না লিখেও একটা মত পরিষ্কার হতে পারে। তবে অতিরিক্ত অর্থ খুঁজবেন না: writer যে দাবি নিয়ে কিছুই বলেননি, শুধু tone দেখে সেই দাবির ওপর তাঁর কোনো মত তৈরি হয় না।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"The council's latest plan – its third in two years – promises, once again, to solve the parking problem.\" Statement: \"The writer doubts that the plan will succeed.\" → YES (\"third\", \"once again\", \"promises\" শব্দগুলো থেকে বোঝা যায়)।"
+  },
+  "explanations": {
+   "1": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "2": "\"Most damaging\" কথাটা \"harmless\"-কে contradict করে।",
+   "3": "সাধারণ মানুষ এটাকে অযোগ্যতা (incompetence) ভাবতে পারেন, কিন্তু writer তা ভাবেন না।",
+   "4": "এটা একটা concession, যেটা writer মেনে নিয়েছেন।",
+   "5": "\"In some cases slightly\" কথাটা \"always increases\"-কে contradict করে।",
+   "6": "এটা একটা \"not X but Y\" কাঠামো।",
+   "7": "\"Can be\" আর \"many people find ... difficult\" কথাগুলো \"always easier\"-কে contradict করে।",
+   "8": "এটা এমন একটা NOT GIVEN, যার topic passage-এ আলোচনা করা হয়েছে।",
+   "9": "\"Contribute to\" = \"share some responsibility\" — দুটো কথার অর্থ একই।"
+  }
+ },
+ {
+  "id": "rb_ynng_08",
+  "lesson": {
+   "title": "শর্তসাপেক্ষ মত (Conditional opinions)",
+   "text": "Writer হয়তো কোনো কিছু শুধু নির্দিষ্ট শর্তে support করেন: \"Offsets can be useful if they are verified\", \"provided that...\", \"as long as...\", \"only when...\"। Statement হয়তো: শর্তটা বাদ দিয়ে দেয় (\"offsets are useful\") — writer যদি শর্তের ওপর জোর দেন, তাহলে সাধারণত NO, কারণ statement অতিরিক্ত generalise করছে;\n\nশর্তটা রেখে দেয় — YES;\n\nঅন্য একটা শর্ত যোগ করে — প্রায়ই NOT GIVEN।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Online courses work well, but only for highly motivated learners.\"\nStatement: \"Online courses work well for all learners.\" → NO।"
+  },
+  "explanations": {
+   "1": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "2": "\"Direct money\" = \"channel funding\" — দুটো কথার অর্থ একই।",
+   "3": "\"Some\" কথাটা \"all\"-কে contradict করে।",
+   "4": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "5": "Passage-এর তথ্য statement-এর সাথে মিলে যায়।",
+   "6": "এগুলোর নির্ভরযোগ্যতা নিয়ে আলোচনা আছে, কিন্তু খরচ নিয়ে নয়।",
+   "7": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "8": "Writer কিছু দাবির ব্যাপারে সন্দিহান, কিন্তু কোথাও offset বিক্রি নিষিদ্ধ করার প্রস্তাব দেননি।",
+   "9": "Statement writer-এর শর্তটা রেখে দিয়েছে, তাই এটা মিলে যায়।"
+  }
+ },
+ {
+  "id": "rb_ynng_09",
+  "lesson": {
+   "title": "ঐতিহাসিক ব্যক্তিদের মত নিয়ে writer-এর মূল্যায়ন (Evaluating historical figures' views)",
+   "text": "কিছু passage ঐতিহাসিক চিন্তাবিদদের অবস্থান বর্ণনা করে, তারপর সেগুলোর মূল্যায়ন করে। Statement-গুলো সাধারণত writer-এর মূল্যায়ন নিয়ে হয়, ঐতিহাসিক ব্যক্তিরা কী বিশ্বাস করতেন তা নিয়ে নয়। Statement যদি বলে \"Ruskin's view was too extreme\" আর writer বলেন Ruskin \"went too far\", তাহলে উত্তর YES। আর statement যদি শুধু Ruskin-এর মতটাই আবার বলে (\"restoration is a lie\"), তাহলে আপনাকে check করতে হবে writer সেটার সাথে একমত কি না।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Smith insisted that all ornament was waste. His argument, though influential, ignored the pleasure people take in decoration.\" Statement: \"All ornament is a waste.\" → NO (writer মতটার সমালোচনা করেছেন)।"
+  },
+  "explanations": {
+   "1": "Writer এটাকে প্রতিষ্ঠিত সত্য হিসেবে উপস্থাপন করেছেন।",
+   "2": "এটা \"always easy\"-কে contradict করে।",
+   "3": "\"Largely correct\" = \"broadly right\" — দুটো কথার অর্থ একই।",
+   "4": "এটা Ruskin-এর চরম অবস্থান, যেটা writer বাতিল করেছেন।",
+   "5": "সংরক্ষিত (preserved) building-এর সাথে কোনো তুলনা করা হয়নি।",
+   "6": "এটা \"straightforward\"-কে contradict করে।",
+   "7": "Writer এর মধ্যে কিছুটা মূল্য দেখেন, যা \"no value at all\"-কে contradict করে।",
+   "8": "এটা writer-এর দেওয়া শর্ত।",
+   "9": "উত্তর দিতে হলে আপনাকে বের করতে হবে \"the second\" কাকে বোঝাচ্ছে।"
+  }
+ },
+ {
+  "id": "rb_ynng_10",
+  "lesson": {
+   "title": "আংশিক একমত writer (Writers who partly agree)",
+   "text": "অনেক Medium passage \"yes, but\" অবস্থান নেয়: ধারণাটা মূল্যবান, কিন্তু সেটাকে বাড়িয়ে বলা হয়েছে বা ভুলভাবে প্রয়োগ করা হয়েছে। এমন writer-এর passage থেকে ৩ ধরনের statement আসে:\n\nমূল ধারণা, যেটা writer মেনে নেন → YES;\n\nবাড়িয়ে বলা version, যেটা writer বাতিল করেন → NO;\n\nযে detail-এর writer কোনো মূল্যায়ন করেননি → NOT GIVEN।\n\nপড়ার সময় ২টি তালিকা রাখুন: writer কী মেনে নেন আর কী বাতিল করেন।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Mindfulness can reduce stress for some people, but claims that it cures anxiety disorders go far beyond the evidence.\" Statement: \"Mindfulness may help some people with stress\" → YES। \"Mindfulness cures anxiety disorders\" → NO।"
+  },
+  "explanations": {
+   "1": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "2": "\"Deservedly\" শব্দটা writer-এর সমর্থন বোঝায়।",
+   "3": "\"Unfortunately\" আর \"little more than\" writer-এর অসমর্থন বোঝায়।",
+   "4": "Dweck এই point-টা তুলেছেন, আর writer সেটা সমর্থনের সুরে উল্লেখ করেছেন — এমন একটা সমালোচনার অংশ হিসেবে, যেটা writer নিজেও করেন (\"Unfortunately ...\")।",
+   "5": "এটা \"large improvements for all\"-কে contradict করে।",
+   "6": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "7": "এ বিষয়ে writer কোনো মত প্রকাশ করেননি।",
+   "8": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "9": "এই তুলনা নিয়ে কোনো মত বা তথ্য দেওয়া হয়নি।"
+  }
+ },
+ {
+  "id": "rb_ynng_11",
+  "lesson": {
+   "title": "ভবিষ্যদ্বাণী ও নিশ্চয়তা (Predictions and certainty)",
+   "text": "ভবিষ্যৎ নিয়ে লেখার সময় writer-দের আত্মবিশ্বাসের মাত্রা আলাদা হয়: will certainly, is likely to, may, it is too early to say। Statement যদি writer-এর \"may\"-কে \"will\" বানিয়ে দেয়, আর writer অনিশ্চয়তার ওপর জোর দেন, তাহলে উত্তর সাধারণত NO। আর writer যদি ওই বিষয়ে কোনো ভবিষ্যদ্বাণীই না করেন, তাহলে NOT GIVEN।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"It is possible that prices will fall next year, but nobody can be sure.\"\nStatement: \"Prices will definitely fall next year.\" → NO।"
+  },
+  "explanations": {
+   "1": "\"Tended to grow\" = \"generally increased\" — দুটো কথার অর্থ একই।",
+   "2": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "3": "এটা \"usually ... quickly\"-কে contradict করে।",
+   "4": "এটা \"completely ruled out\"-কে contradict করে, যদিও writer নাটকীয় ভবিষ্যদ্বাণীগুলোর ব্যাপারে সন্দিহান।",
+   "5": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "6": "Writer বিশেষভাবে AI নিয়ে কোনো ভবিষ্যদ্বাণী করেননি। তিনি অনিশ্চয়তা প্রকাশ করেছেন, কিন্তু এই সামগ্রিক ফলাফল নিয়ে কোনো মত দেননি।",
+   "7": "এটা passage-এর সরাসরি paraphrase।",
+   "8": "Writer basic income-কে গবেষণার যোগ্য বিষয় হিসেবে দেখেন, সবচেয়ে ভালো সমাধান হিসেবে নয়। তাঁর সতর্ক tone \"the best solution\"-কে contradict করে।",
+   "9": "এ বিষয়ে writer কোনো মত প্রকাশ করেননি।"
+  }
+ },
+ {
+  "id": "rb_ynng_12",
+  "lesson": {
+   "title": "সমালোচনার জবাব (Responses to criticisms)",
+   "text": "Opinion passage প্রায়ই একটা policy-র সমালোচনাগুলো একে একে তুলে ধরে এবং প্রতিটির জবাব দেয়। Writer-এর জবাব হতে পারে:\n\nসমালোচনা বাতিল করা (\"this argument does not hold\"), তাই যে statement সমালোচনাটা আবার বলে → NO;\n\nমেনে নেওয়া (\"this is a genuine concern\") → YES;\n\nআংশিক মেনে নেওয়া (\"there is something in this, but...\")। এখানে আপনাকে বের করতে হবে writer কোন অংশটা মেনে নিচ্ছেন।\n\nMargin-এ প্রতিটি সমালোচনার পাশে ✔, ✘ বা ½ লিখে রাখুন।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Critics say the tax hurts poorer families. There is something in this, but the health benefits for those families are also greatest.\" Statement: \"The tax has some negative effect on poorer families.\" → YES (আংশিক মেনে নেওয়া)।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "2": "\"Most valuable\" = \"most important\", আর statement-এ \"may\" রাখা হয়েছে।",
+   "3": "এটা আংশিক মেনে নেওয়া, যা \"some validity\"-র সাথে মেলে।",
+   "4": "Writer সমালোচনাটা বাতিল করেছেন।",
+   "5": "\"May\" আর \"mixed\" কথা দুটো \"always\"-কে contradict করে।",
+   "6": "Tax-এর পরিধি বাড়ানো নিয়ে writer কোনো মত দেননি।",
+   "7": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "8": "Writer মেনে নেন যে প্রমাণ করা কঠিন, কিন্তু সিদ্ধান্তটা বাতিল করেন।",
+   "9": "Passage-এ এমন কোনো তুলনা করা হয়নি।"
+  }
+ },
+ {
+  "id": "rb_ynng_13",
+  "lesson": {
+   "title": "Balanced writer আর \"on the one hand ... on the other\" কাঠামো",
+   "text": "Balanced writer সুবিধা আর অসুবিধা দুটোই তুলে ধরেন, এবং দুটোর সাথেই একমত হতে পারেন। সুবিধার কথা বলা statement YES হতে পারে, আবার অসুবিধার কথা বলা statement-ও YES হতে পারে। NO আসে তখন, যখন statement কোনো এক দিককে পুরোপুরি অস্বীকার করে (\"English has brought no benefits\") অথবা এক দিককে চরমে নিয়ে যায়।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Tourism brings money to the island; on the other hand, it strains water supplies.\" Statement: \"Tourism benefits the island's economy\" → YES। \"Tourism strains water supplies\" → YES। \"Tourism has no disadvantages\" → NO।"
+  },
+  "explanations": {
+   "1": "\"Too easily overlooked\" = \"underestimate\" — দুটো কথার অর্থ একই।",
+   "2": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "3": "\"Did nothing to earn\" = \"unearned\" — দুটো কথার অর্থ একই।",
+   "4": "Writer বলেছেন দাবিটা \"needs to be treated with care\", আর statement এর সাথে contradict করে।",
+   "5": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "6": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "7": "বাধ্যতামূলক পড়াশোনা (compulsory study) নিয়ে writer কোনো মত দেননি।",
+   "8": "Passage-এর সাথে এটা সরাসরি মিলে যায়।",
+   "9": "এই তুলনা নিয়ে writer কোনো মত প্রকাশ করেননি।"
+  }
+ },
+ {
+  "id": "rb_ynng_14",
+  "lesson": {
+   "title": "Writer-এর যুক্তির পক্ষে উদাহরণ (Examples that support the argument)",
+   "text": "Writer-রা নিজেদের দাবির পক্ষে ঐতিহাসিক উদাহরণ ব্যবহার করেন। কোনো উদাহরণ নিয়ে statement দিয়ে test করা হতে পারে, writer উদাহরণটা দিয়ে কী দেখাতে চাইছেন তা আপনি বুঝেছেন কি না। যেমন, writer যদি curiosity-driven research-এর পক্ষে যুক্তি দিতে গিয়ে একটা আবিষ্কারকে \"made by researchers with no practical aim in mind\" হিসেবে বর্ণনা করেন, তাহলে statement \"the researchers were trying to solve a practical problem\" → NO। উদাহরণের তথ্য আর writer সেই তথ্য থেকে যে যুক্তি দাঁড় করান — এই দুটোকে আলাদা করে দেখুন।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"Penicillin was found by accident, which shows that unplanned discoveries matter.\" Statement: \"Unplanned discoveries can be important.\" → YES।"
+  },
+  "explanations": {
+   "1": "\"Understandable\" কথাটা \"difficult to understand\"-কে contradict করে।",
+   "2": "Writer এই উদাহরণটা দিয়ে দেখিয়েছেন যে এর ব্যবহারিক প্রয়োগ আগে থেকে কেউ ভাবতে পারেনি (unforeseen)।",
+   "3": "এটা passage-এর সরাসরি paraphrase।",
+   "4": "Writer এটাকে বলেছেন \"a fair point\" — এটা একটা concession, যেটা তিনি মেনে নেন।",
+   "5": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "6": "\"Exaggerate\" = \"overstate\", আর \"are encouraged to\" কথাটা \"tend to\"-কে support করে।",
+   "7": "এ বিষয়ে writer কোনো মত প্রকাশ করেননি।",
+   "8": "এটা \"free from any form of assessment\"-কে contradict করে।",
+   "9": "এ বিষয়ে writer কোনো মত দেননি।"
+  }
+ },
+ {
+  "id": "rb_ynng_15",
+  "lesson": {
+   "title": "Hard YNNG — জটিল ভাষা: double negative, understatement ও irony",
+   "text": "Hard passage-এ মত প্রকাশ করা হয় জটিল ভাষায়:\n\nDouble negative: \"not without merit\" = কিছুটা গুণ আছে; \"hardly unreasonable\" = যুক্তিসঙ্গত।\n\nUnderstatement: \"somewhat less than convincing\" = বিশ্বাসযোগ্য নয়।\n\nIrony: \"a remarkably convenient conclusion\" = একটা সন্দেহজনক সিদ্ধান্ত।\n\nবাক্যের মাঝখানে গুঁজে দেওয়া অন্যের মত: \"what its critics call X, and what might more fairly be called Y\"। এখানে writer Y-কে পছন্দ করেন।\n\nউত্তর দেওয়ার আগে এ ধরনের প্রতিটি phrase-কে writer-এর মতের একটা সহজ, সরল বাক্যে রূপান্তর করে নিন।",
+   "example": "উদাহরণ — Passage-এ বলা আছে: \"The theory is not without its attractions, but it has proved hard to test.\"\nStatement: \"The theory has some appeal.\" → YES।"
+  },
+  "explanations": {
+   "1": "\"Not entirely deserved\" কথাটা \"completely justified\"-কে contradict করে। এখানে understatement বুঝতে হবে।",
+   "2": "Writer এটা সমর্থন করেন।",
+   "3": "\"Not unreasonably\" মানে যুক্তিসঙ্গতভাবে, অর্থাৎ writer মনে করেন critic-দের কথায় যুক্তি ছিল। এখানে double negative বুঝতে হবে।",
+   "4": "এটা \"timing and form\"-এর সাথে মিলে যায়।",
+   "5": "\"No more defensible than\" = \"as difficult to defend as\" — দুটো কথার অর্থ একই।",
+   "6": "\"Hardly controversial\" মানে বিতর্কহীন, যা \"highly controversial\"-কে contradict করে।",
+   "7": "Passage-এ কোনো তুলনা দেওয়া হয়নি।",
+   "8": "\"Tentative\" কথাটা \"definite proof\"-কে contradict করে।",
+   "9": "Writer আগে থেকে সিদ্ধান্ত নিয়ে ফেলার বিরোধী।"
+  }
+ },
+ {
+  "id": "rb_ynng_16",
+  "lesson": {
+   "title": "সমর্থনের মাত্রা আলাদা করা (Distinguishing degrees of support)",
+   "text": "Hard passage-এর writer-রা খুব কমই সরাসরি পক্ষে বা বিপক্ষে থাকেন। তাঁরা হয়তো:\n\nকিছু ব্যবহার সমর্থন করেন (→ সেই ব্যবহারগুলোর জন্য YES);\n\nউৎসাহী সমর্থকদের করা কোনো জোরালো দাবি বাতিল করেন (→ NO);\n\nএকটা উদ্বেগ তোলেন কিন্তু মীমাংসা করেন না (→ যে statement বলে writer বিষয়টার মীমাংসা করেছেন সেটা NO; আর writer যে দিকগুলো নিয়ে কিছু বলেননি, সেগুলো নিয়ে statement হলে NOT GIVEN)।\n\nযে বাক্যে এই কাজগুলো একসাথে করা হয়, সেগুলোর দিকে নজর রাখুন: \"Nudges have their place, though not the place their champions claim.\""
+  },
+  "explanations": {
+   "1": "\"Understandable\" কথাটা \"easy to explain\"-কে support করে, আর writer এরপর কারণগুলোও দিয়েছেন।",
+   "2": "এটা writer-এর স্পষ্ট সমর্থন।",
+   "3": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "4": "Writer এই সিদ্ধান্তটা বাতিল করেছেন।",
+   "5": "এটা writer-এর শর্তসাপেক্ষ মতের সাথে মিলে যায়।",
+   "6": "এটা এমন একটা NOT GIVEN, যার topic passage-এ আলোচনা করা হয়েছে।",
+   "7": "Writer আপত্তিটা শুধু কিছু nudge-এর ক্ষেত্রে মেনে নেন, যা \"all\"-কে contradict করে।",
+   "8": "এটা passage-এর সাথে সরাসরি contradiction।",
+   "9": "\"Greatest contribution\" = \"main legacy\", আর statement-এ \"may\" রাখা হয়েছে।"
+  }
+ }
+]

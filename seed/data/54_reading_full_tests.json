@@ -1,0 +1,335 @@
+{
+ "table": "reading_tests",
+ "items": [
+  {
+   "id": "rt_w01",
+   "kind": "full",
+   "number": 1,
+   "title": "Academic Reading Test 1",
+   "passageIds": [
+    "rt_w01_p1",
+    "rt_w01_p2",
+    "rt_w01_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w01",
+    "number": 1,
+    "title": "Academic Reading Test 1",
+    "passages": [
+     "rt_w01_p1",
+     "rt_w01_p2",
+     "rt_w01_p3"
+    ],
+    "source": "website Reading Mock Test 11"
+   }
+  },
+  {
+   "id": "rt_w02",
+   "kind": "full",
+   "number": 2,
+   "title": "Academic Reading Test 2",
+   "passageIds": [
+    "rt_w02_p1",
+    "rt_w02_p2",
+    "rt_w02_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w02",
+    "number": 2,
+    "title": "Academic Reading Test 2",
+    "passages": [
+     "rt_w02_p1",
+     "rt_w02_p2",
+     "rt_w02_p3"
+    ],
+    "source": "website Reading Mock Test 12"
+   }
+  },
+  {
+   "id": "rt_w03",
+   "kind": "full",
+   "number": 3,
+   "title": "Academic Reading Test 3",
+   "passageIds": [
+    "rt_w03_p1",
+    "rt_w03_p2",
+    "rt_w03_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w03",
+    "number": 3,
+    "title": "Academic Reading Test 3",
+    "passages": [
+     "rt_w03_p1",
+     "rt_w03_p2",
+     "rt_w03_p3"
+    ],
+    "source": "website Reading Mock Test 13"
+   }
+  },
+  {
+   "id": "rt_w04",
+   "kind": "full",
+   "number": 4,
+   "title": "Academic Reading Test 4",
+   "passageIds": [
+    "rt_w04_p1",
+    "rt_w04_p2",
+    "rt_w04_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w04",
+    "number": 4,
+    "title": "Academic Reading Test 4",
+    "passages": [
+     "rt_w04_p1",
+     "rt_w04_p2",
+     "rt_w04_p3"
+    ],
+    "source": "website Reading Mock Test 14"
+   }
+  },
+  {
+   "id": "rt_w05",
+   "kind": "full",
+   "number": 5,
+   "title": "Academic Reading Test 5",
+   "passageIds": [
+    "rt_w05_p1",
+    "rt_w05_p2",
+    "rt_w05_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w05",
+    "number": 5,
+    "title": "Academic Reading Test 5",
+    "passages": [
+     "rt_w05_p1",
+     "rt_w05_p2",
+     "rt_w05_p3"
+    ],
+    "source": "website Reading Mock Test 15"
+   }
+  },
+  {
+   "id": "rt_w06",
+   "kind": "full",
+   "number": 6,
+   "title": "Academic Reading Test 6",
+   "passageIds": [
+    "rt_w06_p1",
+    "rt_w06_p2",
+    "rt_w06_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w06",
+    "number": 6,
+    "title": "Academic Reading Test 6",
+    "passages": [
+     "rt_w06_p1",
+     "rt_w06_p2",
+     "rt_w06_p3"
+    ],
+    "source": "website Reading Mock Test 16"
+   }
+  },
+  {
+   "id": "rt_w07",
+   "kind": "full",
+   "number": 7,
+   "title": "Academic Reading Test 7",
+   "passageIds": [
+    "rt_w07_p1",
+    "rt_w07_p2",
+    "rt_w07_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w07",
+    "number": 7,
+    "title": "Academic Reading Test 7",
+    "passages": [
+     "rt_w07_p1",
+     "rt_w07_p2",
+     "rt_w07_p3"
+    ],
+    "source": "website Reading Mock Test 17"
+   }
+  },
+  {
+   "id": "rt_w08",
+   "kind": "full",
+   "number": 8,
+   "title": "Academic Reading Test 8",
+   "passageIds": [
+    "rt_w08_p1",
+    "rt_w08_p2",
+    "rt_w08_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w08",
+    "number": 8,
+    "title": "Academic Reading Test 8",
+    "passages": [
+     "rt_w08_p1",
+     "rt_w08_p2",
+     "rt_w08_p3"
+    ],
+    "source": "website Reading Mock Test 18"
+   }
+  },
+  {
+   "id": "rt_w09",
+   "kind": "full",
+   "number": 9,
+   "title": "Academic Reading Test 9",
+   "passageIds": [
+    "rt_w09_p1",
+    "rt_w09_p2",
+    "rt_w09_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w09",
+    "number": 9,
+    "title": "Academic Reading Test 9",
+    "passages": [
+     "rt_w09_p1",
+     "rt_w09_p2",
+     "rt_w09_p3"
+    ],
+    "source": "website Reading Mock Test 19"
+   }
+  },
+  {
+   "id": "rt_w10",
+   "kind": "full",
+   "number": 10,
+   "title": "Academic Reading Test 10",
+   "passageIds": [
+    "rt_w10_p1",
+    "rt_w10_p2",
+    "rt_w10_p3"
+   ],
+   "questionTypes": [
+    "tfng",
+    "gap",
+    "heading",
+    "matching",
+    "mcq",
+    "ynng",
+    "summary"
+   ],
+   "questionCount": 40,
+   "minutes": 60,
+   "data": {
+    "id": "rt_w10",
+    "number": 10,
+    "title": "Academic Reading Test 10",
+    "passages": [
+     "rt_w10_p1",
+     "rt_w10_p2",
+     "rt_w10_p3"
+    ],
+    "source": "website Reading Mock Test 20"
+   }
+  }
+ ]
+}

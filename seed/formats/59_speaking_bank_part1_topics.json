@@ -1,0 +1,82 @@
+{
+  "_format": {
+    "name": "speaking_bank_part1_topics",
+    "group": "bank",
+    "table": "speaking_part1_topics",
+    "primaryKey": "id",
+    "description": "Speaking bank Part 1 topics with Band 7+ sample answers.",
+    "currentSourceInApp": "assets/content/speaking_bank.json → part1Topics",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "category": "string",
+      "topic": "string",
+      "questions": "array",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 65
+  },
+  "items": [
+    {
+      "id": "sp1_work",
+      "source": "bank",
+      "category": "personal",
+      "topic": "Work",
+      "questions": [
+        "Do you work or are you a student?",
+        "Why did you choose that job?",
+        "What do you like most about your job?",
+        "Is there anything you dislike about your work?",
+        "Would you like to change your job in the future?"
+      ],
+      "data": {
+        "id": "sp1_work",
+        "bank": true,
+        "topic": "Work",
+        "category": "personal",
+        "categoryLabel": "Personal & Background",
+        "intro": true,
+        "questions": [
+          "Do you work or are you a student?",
+          "Why did you choose that job?",
+          "What do you like most about your job?",
+          "Is there anything you dislike about your work?",
+          "Would you like to change your job in the future?"
+        ],
+        "samples": [
+          {
+            "q": "Do you work or are you a student?",
+            "answer": "I'm working at the moment, at an education consultancy, where I [[predominantly]] help students with their applications abroad. It keeps me busy, but seeing someone reach a goal they worked towards is genuinely rewarding, so the effort feels worthwhile.",
+            "source": 4,
+            "words": 39
+          },
+          {
+            "q": "Why did you choose that job?",
+            "answer": "Mainly because I went through the application process myself as a student and realised how confusing it can be. I wanted to help people [[navigate]] that uncertainty, and this role lets me do exactly that.",
+            "source": null,
+            "words": 35
+          },
+          {
+            "q": "What do you like most about your job?",
+            "answer": "Honestly, it's the people. Every student comes with their own hopes and worries, so no two days are identical, and guiding someone through such a [[daunting]] process gives me a real sense of purpose.",
+            "source": null,
+            "words": 34
+          },
+          {
+            "q": "Is there anything you dislike about your work?",
+            "answer": "The deadlines can be quite stressful, particularly during the main admission seasons when everything seems to arrive at once. There's a lot of paperwork too, and I'll admit the administrative side can get rather [[tedious]].",
+            "source": null,
+            "words": 35
+          },
+          {
+            "q": "Would you like to change your job in the future?",
+            "answer": "Not entirely, but I'd like to grow within the field. Ideally, I'll study abroad myself one day and then come back to a more senior role. For now, though, I'm happy [[honing my skills]] where I am.",
+            "source": null,
+            "words": 37
+          }
+        ]
+      }
+    }
+  ]
+}

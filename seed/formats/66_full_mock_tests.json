@@ -1,0 +1,62 @@
+{
+  "_format": {
+    "name": "full_mock_tests",
+    "group": "bank",
+    "table": "mock_tests",
+    "primaryKey": "id",
+    "description": "Full Mock Test 1-4 = Listening/Reading/Writing/Speaking Test N.",
+    "currentSourceInApp": "assets/content/tests_bank.json → mock.tests",
+    "fields": {
+      "id": "string",
+      "kind": "string",
+      "number": "integer",
+      "letter": "string",
+      "title": "string",
+      "listeningTestId": "string",
+      "readingTestId": "string",
+      "task1Id": "string",
+      "task2Id": "string",
+      "speaking": "object",
+      "writingTestId": "string",
+      "speakingTestId": "string",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 4
+  },
+  "items": [
+    {
+      "id": "mt_01",
+      "kind": "full",
+      "number": 1,
+      "letter": "1",
+      "title": "Full Mock Test 1",
+      "listeningTestId": "lt_w01",
+      "readingTestId": "rt_w01",
+      "task1Id": "wt_01_t1",
+      "task2Id": "wt_01_t2",
+      "speaking": {
+        "part1": "st_01_p1",
+        "cueCard": "st_01_cc"
+      },
+      "writingTestId": "wt_01",
+      "speakingTestId": "st_01",
+      "data": {
+        "id": "mt_01",
+        "number": 1,
+        "letter": "1",
+        "title": "Full Mock Test 1",
+        "listeningTest": "lt_w01",
+        "readingTest": "rt_w01",
+        "task1": "wt_01_t1",
+        "task2": "wt_01_t2",
+        "speaking": {
+          "part1": "st_01_p1",
+          "cueCard": "st_01_cc"
+        },
+        "writingTest": "wt_01",
+        "speakingTest": "st_01"
+      }
+    }
+  ]
+}

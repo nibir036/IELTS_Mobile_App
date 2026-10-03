@@ -1,0 +1,474 @@
+[
+ {
+  "id": "rb_flowchart_completion_05",
+  "lesson": {
+   "title": "নাম দেওয়া ধাপ (Named stages)",
+   "text": "অনেক process passage-এ প্রতিটি ধাপের একটি technical নাম থাকে (coagulation, flocculation, sedimentation)। Flow-chart কখনো নামটা দিয়ে দিয়ে detail জানতে চায়, আবার কখনো detail দিয়ে নামটা জানতে চায়। তাই পড়ার সময় passage-এ প্রতিটি নাম দেওয়া ধাপ দাগিয়ে রাখুন; সাধারণত যে sentence-এ নামটা প্রথম আসে বা ব্যাখ্যা করা হয়, উত্তর সেখানেই থাকে।",
+   "example": "Passage-এ আছে: \"In the final stage, called glazing, the pot is coated with liquid glass.\" Box-এ আছে: \"(1) ______: pot coated with liquid glass\"। উত্তর: glazing।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "2": "\"Aluminium or iron\" অংশটা box-এ আগেই দেওয়া আছে, তাই শুধু salts লিখতে হবে।",
+   "3": "Box-এর \"Called\" আর passage-এর \"known as\" একই অর্থ — এটাই paraphrase।",
+   "4": "ভারী floc নিচে ডুবে যায় এবং সেটাই sludge হয়ে জমে, যা পরে সরিয়ে ফেলা হয়।",
+   "5": "\"Sand, gravel and sometimes\" অংশটা box-এ আগেই দেওয়া আছে, তাই বাকি শব্দ charcoal-টাই উত্তর।",
+   "6": "Box-এর \"Usually\" হলো passage-এর \"most common\"-এর paraphrase। \"Ozone\" আর \"ultraviolet light\" হলো বিকল্প পদ্ধতি, যা কিছু plant ব্যবহার করে — তাই এগুলো উত্তর নয়।",
+   "7": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_06",
+  "lesson": {
+   "title": "Word bank-এ কাছাকাছি অর্থের option (Word banks with similar options)",
+   "text": "Word bank-এ কখনো কখনো ২টি option থাকে যাদের অর্থ কাছাকাছি, যেমন \"kiln\" আর \"oven\", বা \"frost\" আর \"wind\"। এদের মধ্যে কেবল একটিই passage-এর কথার সাথে মেলে। দুটোই সম্ভব মনে হলে passage-এর sentence-এ ফিরে যান এবং সেই option-টা বেছে নিন যেটা passage সমর্থন করে — যেটা শুনতে সবচেয়ে যুক্তিসঙ্গত লাগে সেটা নয়।",
+   "example": "Passage-এ আছে: \"The pots are dried in the sun.\" Options: A sun B fire। উত্তর: A — যদিও পরে pot-গুলো আগুনেও পোড়ানো হয়।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "2": "J (wind) একই ধরনের শব্দ হলেও passage-এ এর কোনো উল্লেখ নেই।",
+   "3": "Mould-এ ছিটানোর জন্যও sand ব্যবহার হয়, কিন্তু এখানে এটা mixing ধাপের সাথে মিলছে।",
+   "4": "এটা হাতে তৈরি করার পদ্ধতি (hand-making method)।",
+   "5": "এটা extrusion পদ্ধতি।",
+   "6": "H (melting)-এর কথা passage-এ কোথাও বলা নেই।",
+   "7": "B (oven)-এর অর্থ কাছাকাছি, কিন্তু passage-এ বলা হয়েছে kiln।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_07",
+  "lesson": {
+   "title": "সঠিক branch অনুসরণ করা (Follow the right branch)",
+   "text": "Flow-chart যখন ভাগ হয়ে যায়, তখন প্রতিটি branch একটি শর্ত দিয়ে শুরু হয়, যেমন \"star similar to the Sun\" বা \"star over eight times the Sun's mass\"। Passage সাধারণত একটি branch পুরোটা বর্ণনা করে, তারপর অন্যটা — প্রায়ই \"by contrast\", \"however\" বা \"for larger stars\"-এর মতো শব্দ দিয়ে। কোনো branch-এর gap-এর উত্তর দেওয়ার আগে passage-এ সেই sentence-টা খুঁজে বের করুন যেটা ওই branch-এর মাথায় লেখা শর্তের সাথে মেলে।",
+   "example": "Branch: \"small dogs: live about (1) ______ years\"। Passage-এ আছে: \"Large breeds live around eight years, whereas small breeds often reach fifteen.\" উত্তর: fifteen, eight নয়।"
+  },
+  "explanations": {
+   "1": "বিস্ফোরিত star-এর shock wave প্রক্রিয়াটা শুরু করতে পারে, কিন্তু collapse-টা আসলে ঘটে \"under gravity\" — আর সেটাই box-এর সাথে মেলে।",
+   "2": "\"At the centre\" অংশটা box-এ আগেই আছে। এই পর্যায়ে এটা এখনো \"main-sequence star\" হয়নি।",
+   "3": "\"Nuclear\" শব্দটা box-এ আগেই দেওয়া আছে।",
+   "4": "Box-এর \"Converted into\" হলো passage-এর \"join together to form\"-এর paraphrase। Iron তৈরি হয় অনেক পরে, এবং শুধু massive star-এ।",
+   "5": "বাঁ দিকের branch-টা Sun-এর মতো star-এর। \"planetary nebula\" তৈরি হয় বাইরের স্তরগুলো থেকে, core থেকে নয়।",
+   "6": "ডান দিকের branch-টা সেই star-এর, যার mass Sun-এর আট গুণেরও বেশি।",
+   "7": "\"Neutron star\" box-এ আগেই দেওয়া আছে।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_08",
+  "lesson": {
+   "title": "Passage যখন সময়ের ক্রমে নেই (When the passage is not in chronological order)",
+   "text": "Medium আর hard passage-এ লেখক সবসময় process-টা ঠিক ক্রম অনুযায়ী বর্ণনা করেন না। একটা paragraph-এ পরের ধাপের কথা আগে আসতে পারে, অথবা দুই ধাপের মাঝে background তথ্য ঢুকে যেতে পারে। ঘটনার ক্রম ঠিক করতে passage নয়, flow-chart ব্যবহার করুন, আর প্রতিটি detail কোথায় বসবে তা বুঝতে \"before\", \"once\", \"only after\" এবং \"at the final stage\"-এর মতো সময়বাচক শব্দ খুঁজুন।",
+   "example": "Passage-এ আছে: \"Before the concert, the orchestra rehearses for weeks. The players are chosen by audition.\" Flow-chart-এর ক্রম: audition → rehearsal → concert।"
+  },
+  "explanations": {
+   "1": "\"a\"-এর পরে singular noun দরকার, আর manuscript সেটা মেলে। \"Methods, results and conclusions\" হলো manuscript-এরই অংশ।",
+   "2": "Passage-এর \"A large proportion\" হলো box-এর \"many papers\"-এর paraphrase।",
+   "3": "\"Independent\" শব্দটা box-এ আগেই আছে, তাই \"independent specialists\" লিখলে শব্দটা দুবার হয়ে যাবে।",
+   "4": "\"evaluate\" verb-টা box-এ আছে। \"Methods\" আর \"conclusions\"-ও box-এ আগেই দেওয়া আছে।",
+   "5": "Box-এর \"Request\" হলো passage-এর \"ask\"-এর paraphrase। Paragraph C-তে বলা হয়েছে reviewer-রা নিজেরা experiment পুনরায় করতে পারেন না — সেটা একটা আলাদা বিষয়।",
+   "6": "এটা editor-এর সামনে থাকা বিকল্পগুলোর মধ্যে তৃতীয়টি।",
+   "7": "\"Detailed\" শব্দটা box-এ আগেই দেওয়া আছে।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_09",
+  "lesson": {
+   "title": "কাছাকাছি সংখ্যার মধ্যে বাছাই (Choosing between similar numbers)",
+   "text": "Process passage-এ প্রায়ই আলাদা আলাদা ধাপের জন্য কয়েকটি সংখ্যা থাকে, যেমন একটা ধাপের সময় আর পুরো process-এর সময়। কোনো সংখ্যা লেখার আগে passage-এ তার আশেপাশের শব্দগুলো পড়ুন এবং নিশ্চিত হন যে সেগুলো box-এর ধাপটাকেই বোঝাচ্ছে। \"in total\", \"the whole process\" এবং \"this stage alone\"-এর মতো শব্দগুলো গুরুত্বপূর্ণ signal।",
+   "example": "Passage-এ আছে: \"Drying takes ten days; the whole process lasts a month.\" Box-এ আছে: \"leaves dried for (1) ______ days\"। উত্তর: 10।"
+  },
+  "explanations": {
+   "1": "\"West bank\" box-এ আগেই দেওয়া আছে।",
+   "2": "\"Hook\" শব্দটা box-এ আগেই দেওয়া আছে।",
+   "3": "\"Jars\" box-এ আগেই আছে, তাই উত্তর শুধু adjective-টা।",
+   "4": "\"Salt\" একটা বেশি সাধারণ শব্দ; passage-এ পদার্থটির নাম বলা হয়েছে natron, আর সেটাই সুনির্দিষ্ট উত্তর।",
+   "5": "70 days হলো পুরো process-এর সময়, drying ধাপের নয়।",
+   "6": "\"Linen\" box-এ আগেই আছে। \"Leaves\" ব্যবহার হতো কেবল \"sometimes\"; linen-এর সাথে যে জিনিসটার নাম একসাথে দেওয়া আছে সেটা হলো \"sawdust\"।",
+   "7": "Mask রাখা হতো মুখের উপরে, স্তরগুলোর মাঝখানে নয়।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_10",
+  "lesson": {
+   "title": "Paraphrase আর word form যাচাইয়ের word bank (Word banks that test paraphrase and word form)",
+   "text": "Medium level-এ word bank-এর option-গুলো খুব কমই passage-এর হুবহু শব্দ হয়। \"Rises\" হয়তো আসবে \"builds\" হিসেবে, আর \"destroyed\" আসবে \"killed\" হিসেবে। কিছু option আবার distractor, কারণ তাদের word form ভুল: যে gap-এ verb দরকার, সেখানে adjective বসতে পারে না। তাই list দেখার আগে প্রতিটি box-এর grammar যাচাই করুন।",
+   "example": "Box: \"the mixture (1) ______ overnight\"। Options: A thickens B thick। শুধু A-ই বসে, কারণ এটা verb।"
+  },
+  "explanations": {
+   "1": "J (browns) হলো carbon-সমৃদ্ধ উপাদান, যা মিশ্রণের অন্য অংশ।",
+   "2": "\"Builds\" হলো \"rises\"-এর paraphrase, আর এটা একটা verb যা \"heat\"-এর পরে বসে।",
+   "3": "Passive form \"are killed\" box-এ ঠিকমতো বসে। C (preserved)-এর অর্থ ঠিক উল্টো।",
+   "4": "Microorganism-গুলোর \"need oxygen\", আর উল্টে দিলে ভেতরে বাতাস ঢোকে। G (water) যোগ করা হয় শুধু \"if the heap is too dry\" — এটা উল্টানোর কারণ নয়।",
+   "5": "Verb-টা মেলে, আর সময়ের ক্রমও ঠিক আছে।",
+   "6": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "7": "\"Water\" box-এ আগেই আছে, তাই G উত্তর হতে পারে না।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_11",
+  "lesson": {
+   "title": "তিনটি branch, প্রতিটিতে একটি gap (Three branches, one gap each)",
+   "text": "কিছু flow-chart তিন বা তার বেশি branch-এ ভাগ হয় — প্রতিটি product বা ফলাফলের জন্য একটি — তারপর আবার এক হয়ে যায়। Passage সাধারণত সবগুলো branch একটাই paragraph-এ বর্ণনা করে, প্রায়ই একটা list আকারে। প্রতিটি branch-কে তার নিজের sentence-এর সাথে মেলান, আর সংখ্যা ও সংরক্ষণের শর্ত (storage conditions) নিয়ে সতর্ক থাকুন, কারণ তিনটি branch-এ একই রকম তথ্য থাকবে।",
+   "example": "Passage-এ আছে: \"Apples keep for months in a cold store; strawberries last only two days.\" Branch: \"strawberries: last (1) ______\"। উত্তর: two days।"
+  },
+  "explanations": {
+   "1": "\"Level\" শব্দটা box-এ আগেই দেওয়া আছে।",
+   "2": "\"A little under a pint\" দুই শব্দের বেশি, আর এটা শুধু একটা আনুমানিক হিসাব; সংখ্যার সাথে unit-ও লিখতে হবে।",
+   "3": "\"Hepatitis and HIV\" হলো উদাহরণ মাত্র; \"screened for\"-এর পরে সাধারণ noun-টাই বসে।",
+   "4": "\"Spun\" শব্দটা box-এ আগেই দেওয়া আছে।",
+   "5": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "6": "মাঝের branch-টা plasma-র; red cell-গুলো refrigerate করা হয়, freeze নয়।",
+   "7": "ডান দিকের branch-টা platelet-এর; 35 days হলো red cell-এর হিসাব।",
+   "8": "এখানে branch-গুলো আবার এক হয়ে যায়।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_12",
+  "lesson": {
+   "title": "Technical শব্দভান্ডার (Technical vocabulary)",
+   "text": "কারুশিল্প আর প্রযুক্তি বিষয়ক passage-এ প্রায়ই বিশেষ term থাকে, যার ব্যাখ্যা একই sentence-এ দেওয়া থাকে (\"a thin strip called the purfling\")। Flow-chart যদি ব্যাখ্যাটা দেয়, তাহলে উত্তর হবে technical term-টা; আর flow-chart যদি term-টা দেয়, তাহলে উত্তর হবে ব্যাখ্যার একটা অংশ। তাই passage-এ ব্যাখ্যার দুটো অংশই পড়ুন।",
+   "example": "Passage-এ আছে: \"The potter uses a wheel-head, the flat disc that spins.\" Box-এ আছে: \"clay placed on the (1) ______\"। উত্তর: wheel-head।"
+  },
+  "explanations": {
+   "1": "উপরের অংশের (top) জন্য \"Spruce\" box-এ আগেই দেওয়া আছে।",
+   "2": "\"Stored for years\" ব্যাখ্যা হিসেবে box-এ আগেই আছে, তাই উত্তর হবে passage যে term-টার সংজ্ঞা দিয়েছে সেটা।",
+   "3": "\"Hot iron\" box-এ আগেই দেওয়া আছে।",
+   "4": "Box-এর \"Test\" হলো passage-এর \"listens to\"-এর paraphrase।",
+   "5": "\"Bar\" শব্দটা box-এ আগেই দেওয়া আছে।",
+   "6": "\"Inlay\" হলো ব্যাখ্যা, তাই উত্তর হবে technical term-টা।",
+   "7": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_13",
+  "lesson": {
+   "title": "কারণ-ফলাফলের শৃঙ্খল (Cause-and-effect chains)",
+   "text": "প্রাকৃতিক process-গুলো প্রায়ই কারণ আর ফলাফলের একটা শৃঙ্খল হিসেবে ব্যাখ্যা করা হয়: A থেকে B হয়, আর B থেকে C হয়। \"as a result\", \"this means that\", \"so\" এবং \"when\"-এর মতো শব্দ ধাপগুলোকে জুড়ে দেয়। Flow-chart-এ প্রতিটি arrow এমনই একটা সংযোগ বোঝায়। কোনো উত্তর নিয়ে সন্দেহ হলে নিজেকে প্রশ্ন করুন: এই ধাপটা কী কারণে হলো, আর এর ফলে পরে কী হলো?",
+   "example": "Passage-এ আছে: \"Heavy rain raised the river, so the fields flooded.\" Flow-chart: heavy rain → river rises → fields (1) ______ উত্তর: flooded।"
+  },
+  "explanations": {
+   "1": "\"Air and soil\" box-এ আগেই দেওয়া আছে।",
+   "2": "\"acid\" শব্দটা box-এ আগেই থাকলেও, acid-টার নাম হলো দুই শব্দের term \"carbonic acid\"।",
+   "3": "\"Joints\" box-এ আগেই দেওয়া আছে।",
+   "4": "Box-এর \"Most rapid\" হলো passage-এর \"fastest\"-এর paraphrase।",
+   "5": "\"and fill with air\"-এর আগে verb দরকার, আর এই verb-টাই box-এর grammar-এ বসে।",
+   "6": "Stalactite-গুলো ছাদ থেকে নিচের দিকে বাড়ে, আর সেগুলো box-এ আগেই দেওয়া আছে।",
+   "7": "\"column\" আর \"single column\" — দুটোই word limit-এর মধ্যে এবং \"a\"-এর পরে grammar অনুযায়ী বসে।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_14",
+  "lesson": {
+   "title": "বড় word limit-এর প্রশ্ন (Longer word limits)",
+   "text": "NO MORE THAN THREE WORDS AND/OR A NUMBER হলে আপনি ছোট phrase লিখতে পারেন, তবুও সবচেয়ে ছোট সেই phrase-টাই লিখুন যা gap-টা পুরোপুরি পূরণ করে। Box-এ unit না থাকলে সংখ্যার সাথে unit লিখতেই হবে। Passage থেকে বাড়তি শব্দ লিখলে কোনো বাড়তি নম্বর পাওয়া যায় না, আর word limit পার হলে মূল শব্দ ঠিক থাকলেও নম্বর কাটা যায়।",
+   "example": "Box: \"water heated to (1) ______\"। Passage-এ আছে: \"heated to 90 degrees Celsius\"। উত্তর: 90 degrees Celsius / 90°C।"
+  },
+  "explanations": {
+   "1": "Unit-টা box-এ নেই, তাই সেটা উত্তরে লিখতেই হবে।",
+   "2": "\"Tall steel tower\" হলো বর্ণনা; যন্ত্রটার নামই সুনির্দিষ্ট উত্তর। \"Tall\" আর \"60 m\" box-এ আগেই দেওয়া আছে।",
+   "3": "\"According to their\" box-এ আগেই দেওয়া আছে।",
+   "4": "Kerosene আর diesel সংগ্রহ করা হয় \"further down\", top-এ নয়।",
+   "5": "ডান দিকের branch-টা নিচে জমা হওয়া সবচেয়ে ভারী fraction-গুলোর।",
+   "6": "\"High temperatures\" box-এ আগেই দেওয়া আছে।",
+   "7": "\"Sulphur dioxide\" হলো পোড়ানোর ফলে তৈরি হওয়া gas; জ্বালানি থেকে যে impurity সরানো হয় সেটা হলো sulphur।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_15",
+  "lesson": {
+   "title": "Paraphrase করা box চিনে নেওয়া (Paraphrased boxes)",
+   "text": "Hard flow-chart-এ box-গুলো খুব কমই passage-এর শব্দ ব্যবহার করে। \"Trigger\" হয়তো বোঝাচ্ছে \"set off\", \"carry fragments to\" বোঝাচ্ছে \"transport pieces of ... to\", আর \"long-lived\" বোঝাচ্ছে \"persist for decades\"। তাই প্রতিটি box-এর শব্দ নয়, অর্থ খুঁজুন। তবে মিলে যাওয়া sentence-টা খুঁজে পাওয়ার পর উত্তরটা কিন্তু passage থেকে হুবহু copy করতে হবে।",
+   "example": "Box: \"the plan was (1) ______ because of cost\"। Passage-এ আছে: \"the scheme was eventually abandoned as too expensive\"। উত্তর: abandoned।"
+  },
+  "explanations": {
+   "1": "\"Stomach\" box-এ আগেই দেওয়া আছে। Enzyme-গুলো tears আর saliva-র সাথে সম্পর্কিত, আর সেগুলোও box-এ আগেই আছে।",
+   "2": "Box-এর \"Trigger\" হলো passage-এর \"cause\"-এর paraphrase। \"Innate immune response\" তিন শব্দ — word limit-এর বাইরে — আর এটা পুরো দ্বিতীয় প্রতিরক্ষা স্তর (second line of defence), box-এ বর্ণিত effect-টা নয়।",
+   "3": "Box-এর \"Carry\" হলো passage-এর \"travel with\"-এর paraphrase। Phagocyte-গুলো microbe গিলে ফেলে ঠিকই, কিন্তু সেগুলোকে lymph node-এ নিয়ে যায় না।",
+   "4": "\"Activated\" box-এ আগেই দেওয়া আছে; এর পরে যে verb-টা আসে সেটাই উত্তর।",
+   "5": "বাঁ দিকের branch-টা B cell-এর।",
+   "6": "\"Viruses inside them\" box-এ আগেই দেওয়া আছে, তাই উত্তর হলো cell-গুলো।",
+   "7": "Box-এর \"Long-lived\" হলো passage-এর \"persist for decades\"-এর paraphrase।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_16",
+  "lesson": {
+   "title": "Background তথ্যসহ লম্বা process (Long processes with background information)",
+   "text": "Hard passage-এ process-এর ধাপগুলোর সাথে পরিসংখ্যান, ইতিহাস আর মতামত মিশে থাকে। সব sentence ধাপ বর্ণনা করে না, কেবল কিছু sentence করে। প্রথমে passage-টা skim করুন এবং প্রতিটি ধাপ কোথায় শুরু হচ্ছে তা দাগিয়ে রাখুন; তারপর খরচ বা সমালোচনার মতো background তথ্যের sentence-গুলো বাদ দিন — যদি না কোনো box সেটাই জানতে চায়।",
+   "example": "Passage-এ আছে: \"Critics say the test is too expensive. In the test, samples are frozen.\" Box: \"samples (1) ______\"। উত্তর: frozen। প্রথম sentence-টা শুধু background।"
+  },
+  "explanations": {
+   "1": "\"Plays a key role in\" হলো \"involved in\"-এর paraphrase। \"Disease\" হলো শুরুর বিন্দু, যা identify করা হয় সেটা নয়।",
+   "2": "Hyphen দেওয়া শব্দ একটা শব্দ হিসেবেই গোনা হয়, তাই উত্তরটা word limit-এর মধ্যে আছে।",
+   "3": "\"Selected\" হলো \"most promising\"-এর paraphrase। শুধু \"Preclinical\" লিখলে \"undergoes\"-এর পরে বসবে না, কারণ সেখানে noun দরকার।",
+   "4": "\"Right\" মানে \"correct\"। \"Whether the drug works\" পরীক্ষা করা হয় Phase II-তে, Phase I-এ নয়।",
+   "5": "Box-এর \"Highest rate of\" হলো passage-এর \"the most\"-এর paraphrase।",
+   "6": "\"Best existing treatment\" box-এ আগেই দেওয়া আছে।",
+   "7": "FDA আর EMA হলো উদাহরণ; সাধারণ term-টাই box-এ আর word limit-এ বসে।",
+   "8": "\"Very rare\" box-এ আগেই দেওয়া আছে।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_17",
+  "lesson": {
+   "title": "কাছাকাছি synonym আর বিপরীত শব্দের word bank (Word banks with near-synonyms and opposites)",
+   "text": "Hard word bank-এ সাধারণভাবে কয়েকটা option-ই সম্ভব মনে হতে পারে, আর কিছু option passage-এর কথার ঠিক উল্টো। \"Conditions\" আর \"climates\" — দুটোই বসছে মনে হতে পারে, কিন্তু passage যদি climate ছাড়াও আরও কিছু list করে, তাহলে কেবল একটাই passage-এর অর্থের সাথে মেলে। আবার passage যেখানে group-গুলো \"divided\" হওয়ার কথা বলছে, সেখানে option-এ \"Merged\" থাকতে পারে। তাই সবসময় একটা নির্দিষ্ট sentence-এর সাথে মিলিয়ে option নিশ্চিত করুন।",
+   "example": "Passage-এ আছে: \"The two companies split in 2010.\" Options: A joined B separated। উত্তর: B; A হলো এর বিপরীত।"
+  },
+  "explanations": {
+   "1": "C (merged) উল্টো ঘটনাটা বোঝায়, যা ঘটে group-গুলো আবার এক হলে।",
+   "2": "\"Random\" box-এ আগেই দেওয়া আছে।",
+   "3": "\"By chance\" মানে \"purely by luck\"। I (selection) সুযোগের (chance) উপর নির্ভর করে না, আর এটা পরের box-এ আগেই দেওয়া আছে।",
+   "4": "G (climates) হলো list করা condition-গুলোর মধ্যে কেবল একটি।",
+   "5": "\"Available\" box-এ আগেই দেওয়া আছে।",
+   "6": "Box-এর \"After long\" হলো passage-এর \"continues for long enough\"-এর paraphrase।",
+   "7": "Box-এর \"Introduce\" হলো passage-এর \"bringing\"-এর paraphrase।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_18",
+  "lesson": {
+   "title": "ইতিহাস আর process মেশানো flow-chart (Flow-charts that combine history and process)",
+   "text": "কিছু flow-chart technical process-এর বদলে সময়ের সাথে ঘটে যাওয়া ঘটনার ক্রম দেখায় — একটা সমস্যা থেকে সমাধান, তারপর তার প্রভাব। এতে তারিখ আর পরিমাণ থাকতে পারে। সময়বাচক expression (by 1900, in 1909, four years later) আর কারণ-ফলাফলের শব্দ (as a result, consequently) খুঁজুন, এবং যাচাই করুন যে প্রতিটি তারিখ বা সংখ্যা সঠিক ঘটনার সাথেই যুক্ত।",
+   "example": "Passage-এ আছে: \"The idea was proposed in 1901 but not tested until 1905.\" Box: \"first test: (1) ______\"। উত্তর: 1905।"
+  },
+  "explanations": {
+   "1": "\"Guano\" আর \"Chilean\" box-এ আগেই দেওয়া আছে।",
+   "2": "1909 হলো Haber-এর laboratory-র কাজের সাল, যা box-এ আগেই আছে। 1898 হলো Crookes-এর সতর্কবার্তার সাল।",
+   "3": "\"Mainly\" শব্দটা natural gas-এর দিকে ইঙ্গিত করে; coal ব্যবহার হয় কেবল কিছু জায়গায়।",
+   "4": "শুধু \"200\" লিখলে \"atmospheric pressure\"-এর আগে grammar ঠিক থাকে না; \"times\" লাগবেই। তাপমাত্রা (450°C) \"heated\"-এর সাথে যুক্ত, যেখানে কোনো gap নেই।",
+   "5": "Box-এর \"Separated\" হলো passage-এর \"removed\"-এর paraphrase।",
+   "6": "\"About\" box-এ আগেই আছে, তাই শুধু \"half\" লিখলেই যথেষ্ট। \"Four billion\" হলো এই process ছাড়া পৃথিবী যত মানুষকে খাওয়াতে পারত সেই সংখ্যা।",
+   "7": "\"Algae\" box-এ আগেই দেওয়া আছে, আর সেগুলো পচে যাওয়ার প্রভাবটাই উত্তর।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_19",
+  "lesson": {
+   "title": "বিমূর্ত বা abstract process (Abstract processes)",
+   "text": "অর্থনৈতিক আর সামাজিক process-এ কোনো বাস্তব (physical) ধাপ থাকে না; ধাপগুলো হলো আচরণ, দাম বা প্রত্যাশার পরিবর্তন। Passage-এ অনেক abstract noun থাকতে পারে (demand, confidence, expectations) যেগুলো দেখতে একই রকম লাগে। প্রতিটি box কোন পরিমাণটা বর্ণনা করছে তা ঠিক করুন, আর পরিবর্তনের দিকটা যাচাই করুন: বাড়ছে না কমছে, বেশি না কম।",
+   "example": "Passage-এ আছে: \"Higher taxes reduce spending, which lowers prices.\" Box: \"less (1) ______ → prices fall\"। উত্তর: spending।"
+  },
+  "explanations": {
+   "1": "\"Interest rate\" হলো সাধারণ term; box-এ দরকার central bank যে নির্দিষ্ট rate ঠিক করে সেটা।",
+   "2": "\"In advance\" মেলে \"The effect begins even before the rate itself changes\"-এর সাথে।",
+   "3": "\"Loans\" box-এ আগেই দেওয়া আছে। Saver-দের যে rate দেওয়া হয় সেটা আলাদা বিষয়।",
+   "4": "ডান দিকের branch-টা currency channel-এর।",
+   "5": "\"Especially\" হলো \"most\"-এর paraphrase। উদাহরণগুলো gap-এর জন্য বেশি লম্বা আর বেশি নির্দিষ্ট।",
+   "6": "এই paragraph-এ \"Confidence\"-এর কথাও আছে, কিন্তু যেটা কমে যায় সেটা confidence নয়।",
+   "7": "\"One\" box-এ আগেই আছে, তাই gap-এ দরকার দ্বিতীয় সংখ্যাটা, তার unit-সহ। \"Two per cent\" হলো inflation target, সময় নয়।",
+   "8": "\"Unemployment rises\" box-এ আগেই দেওয়া আছে।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_20",
+  "lesson": {
+   "title": "Final review — সব skill একসাথে (Final review — putting every skill together)",
+   "text": "এই শেষ set-এ Flow-chart Completion-এর প্রধান সব challenge একসাথে আছে: paraphrase করা box, একটা branch, কয়েকটা সংখ্যা, technical term, background তথ্য আর TWO WORDS AND/OR A NUMBER word limit। নিয়ম মেনে ধাপে ধাপে কাজ করুন: পুরো flow-chart পড়ুন, passage-এ process-এর শুরুটা খুঁজে বের করুন, প্রতিটি উত্তরের ধরন আগে থেকে অনুমান (predict) করুন, branch-এর শর্তগুলো যাচাই করুন, প্রতিটি সংখ্যা কোন ধাপের তা নিশ্চিত করুন, আর শেষে পূরণ করা প্রতিটি box grammar ও word limit-এর জন্য আবার পড়ুন।",
+   "example": "Branch: \"if no match → suspect (1) ______\"। Passage-এ আছে: \"If the profiles differ, the suspect is ruled out.\" উত্তর: ruled out।"
+  },
+  "explanations": {
+   "1": "\"Chain of\" box-এ আগেই দেওয়া আছে।",
+   "2": "\"Purified\" box-এ আগেই আছে; \"DNA ______ and purified\" pattern-এ past participle-টাই বসে।",
+   "3": "\"Polymerase chain reaction\" তিন শব্দ, যা word limit ছাড়িয়ে যায়, তাই abbreviation-টাই লিখতে হবে। Hard set-এ এটা একটা common trap।",
+   "4": "\"About\" মানে \"around\"। \"Four\" ব্যবহার হতো শুরুর দিকের system-এ আর \"thirteen\" পুরোনো US system-এ; কোনোটাই বর্তমান পদ্ধতির কথা বলে না।",
+   "5": "\"According to their\" box-এ আগেই আছে, তাই উত্তর হলো বৈশিষ্ট্যটা (characteristic), পদ্ধতির নাম নয়।",
+   "6": "\"National\" box-এ আগেই দেওয়া আছে।",
+   "7": "ডান দিকের branch-টা match হওয়ার। Gap-এর আগে \"An\" থাকায় এমন শব্দ দরকার যেটা vowel sound দিয়ে শুরু — এটাই \"unrelated\"-কে নিশ্চিত করে।",
+   "8": "\"Secondary\" box-এ আগেই দেওয়া আছে।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_01",
+  "lesson": {
+   "title": "দেওয়া label দিয়ে জায়গা খুঁজে নেওয়া (Use the given labels to find your place)",
+   "text": "সহজ diagram-এ passage জিনিসটাকে অংশ ধরে ধরে বর্ণনা করে, আর কয়েকটা label আগেই দেওয়া থাকে। এই পূরণ করা label-গুলো হলো anchor: আগে passage-এ এগুলো খুঁজে বের করুন, তাহলে বাদ পড়া অংশগুলোর বর্ণনা সাধারণত একই sentence-এ বা পরের sentence-এ পাবেন। \"at the top\", \"around\" এবং \"at the end of\"-এর মতো অবস্থান বোঝানো শব্দগুলো বলে দেয় কোন অংশ কোথায় বসবে।",
+   "example": "দেওয়া label: \"handle\"। Passage-এ আছে: \"The handle is fixed to a metal rod.\" Handle-এর পাশের gap: \"metal (1) ______\"। উত্তর: rod।"
+  },
+  "explanations": {
+   "1": "\"Metal\" আর \"running down the centre\" label-এ আগেই দেওয়া আছে।",
+   "2": "Label-টা দেওয়া label \"piston\"-এর পাশে, আর এটাই সঠিক sentence খুঁজে পেতে সাহায্য করে।",
+   "3": "\"Long outer tube\" হলো barrel-এর বর্ণনা; উত্তর হলো এর নাম।",
+   "4": "\"One-way\" label-এ আগেই দেওয়া আছে। \"valve of the tyre\" একটা আলাদা অংশ।",
+   "5": "\"Nozzle\" থাকে hose-এর মাথায়; বাতাস বহন করে যে অংশ, সেটা nozzle নয়।",
+   "6": "\"Dial\" label-এ আগেই আছে, তাই উত্তর হলো অংশটার নাম।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_02",
+  "lesson": {
+   "title": "স্তরযুক্ত cross-section (Cross-sections with layers)",
+   "text": "স্তরযুক্ত (layered) diagram একটা কাঠামোকে উপর থেকে নিচ পর্যন্ত কয়েকটা band হিসেবে দেখায়। Passage সাধারণত স্তরগুলো ক্রম অনুযায়ী বর্ণনা করে — হয় উপরিভাগ থেকে নিচের দিকে, নয়তো মাটি থেকে উপরের দিকে। Passage কোন দিক থেকে বর্ণনা করছে তা আগে ঠিক করুন, তারপর প্রতিটি স্তরকে তার paragraph-এর সাথে মেলান। Label-এ স্তরের নাম, উপাদান, পুরুত্ব বা উদ্দেশ্য জানতে চাওয়া হতে পারে।",
+   "example": "Passage-এ আছে: \"Beneath the carpet lies a layer of foam, and below that, the wooden floor.\" স্তরগুলো: carpet → (1) ______ → wooden floor। উত্তর: foam।"
+  },
+  "explanations": {
+   "1": "\"mm\" label-এ আগেই আছে, তাই শুধু সংখ্যাটা লিখলেই হবে।",
+   "2": "\"Course\" label-এ আগেই দেওয়া আছে।",
+   "3": "\"Spreads\" আর \"of traffic\" label-এ আগেই দেওয়া আছে।",
+   "4": "\"Crushed\" label-এ আগেই দেওয়া আছে।",
+   "5": "\"Drain away\" দুই শব্দ, যা ONE WORD limit ছাড়িয়ে যাবে, তাই লিখুন \"drain\"।",
+   "6": "Passage স্তরগুলো নিচ থেকে উপরের দিকে বর্ণনা করেছে, কিন্তু diagram সেগুলো দেখাচ্ছে উপর থেকে নিচের দিকে।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_03",
+  "lesson": {
+   "title": "কাজ বর্ণনা করা label (Labels that describe a function)",
+   "text": "অনেক label অংশের নাম জানতে চায় না, বরং জানতে চায় অংশটা কী কাজ করে বা এর ভেতরে কী থাকে, যেমন \"where bees store (1) ______\"। Word bank থাকলে passage-এ অংশটা খুঁজে বের করুন, এটা কী কাজে ব্যবহার হয় তা পড়ুন, আর সেই ব্যবহারের সাথে মেলে এমন option বেছে নিন। জিনিসটার অন্য অংশের নাম দেওয়া option-গুলো common distractor।",
+   "example": "Label: \"drawer: used for storing (1) ______\"। Passage-এ আছে: \"The top drawer holds cutlery.\" Options: A plates B cutlery। উত্তর: B।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "2": "A (pollen)-এর কথা passage-এ বলা নেই।",
+   "3": "D (workers) ভেতর দিয়ে যেতে পারে, তাই তাদের আটকানো হয় না।",
+   "4": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "5": "Label-টা brood box-এর কাজ বর্ণনা করছে।",
+   "6": "H (mice) হলো সেটা যাকে সরু entrance বাইরে রাখে, অংশটা নিজে নয়।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_04",
+  "lesson": {
+   "title": "ভেতরে আর বাইরে (Inside and outside)",
+   "text": "Diagram যখন একটা cross-section দেখায়, তখন কিছু অংশ থাকে সামনে বা বাইরের দিকে, আর কিছু থাকে অনেক ভেতরে। Passage সাধারণত কোনো কিছু জিনিসটার ভেতর দিয়ে যে পথে যায় সেটা অনুসরণ করে — এখানে আলোর পথ। Passage-এ আর diagram-এ একই সাথে সেই পথটা অনুসরণ করুন।",
+   "example": "Passage-এ আছে: \"Water enters through the tap, passes through a filter and leaves through the spout.\" মাঝখানের label: \"(1) ______\"। উত্তর: filter।"
+  },
+  "explanations": {
+   "1": "Label-টা অংশটার বর্ণনা দিচ্ছে, আর উত্তর হলো তার নাম।",
+   "2": "\"Iris\" হলো gap-এর পাশে দেওয়া একটা label।",
+   "3": "Cornea-ও আলো বাঁকায়, কিন্তু \"fine-tunes the focus\" মেলে lens-এর সাথে।",
+   "4": "\"Ciliary\" label-এ আগেই দেওয়া আছে।",
+   "5": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "6": "\"Optic\" label-এ আগেই দেওয়া আছে।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_05",
+  "lesson": {
+   "title": "একই diagram-এ সংখ্যা আর নাম (Numbers and names in the same diagram)",
+   "text": "কিছু label-এ সংখ্যা লাগে, যেমন উচ্চতা, গণনা বা তারিখ। Word limit যখন সংখ্যা লেখার সুযোগ দেয়, তখন যাচাই করুন সংখ্যাটা label-এর অংশটাকেই বোঝাচ্ছে কি না। একটা building নিয়ে passage-এর একটাই paragraph-এ উচ্চতা, তলার সংখ্যা আর নির্মাণের তারিখ — সবই থাকতে পারে।",
+   "example": "Passage-এ আছে: \"The tower, built in 1820, has six floors and is 25 metres tall.\" Label: \"tower: (1) ______ floors\"। উত্তর: six / 6।"
+  },
+  "explanations": {
+   "1": "Label কাজটা বলে দিচ্ছে; উত্তর হলো নাম।",
+   "2": "\"Four\" label-এ আগেই দেওয়া আছে।",
+   "3": "\"Up to\" মানে সর্বোচ্চ সংখ্যা, অর্থাৎ ten — সাধারণ চার থেকে সাতের range নয়।",
+   "4": "Label-টা fantail-এর অবস্থান বর্ণনা করছে।",
+   "5": "\"Sack\" label-এ আগেই দেওয়া আছে।",
+   "6": "\"Pair of\" label-এ আগেই দেওয়া আছে।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_06",
+  "lesson": {
+   "title": "Word bank-এ বিপরীত শব্দ (Opposites in the word bank)",
+   "text": "Word bank-এ প্রায়ই এমন একটা option থাকে যার অর্থ সঠিক উত্তরের ঠিক উল্টো, যেমন \"washed out\" আর \"deposited\", বা \"added\" আর \"removed\"। এই trap-গুলো কাজ করে কারণ দুটো option-ই একই topic-এর। কোনো label যখন একটা process বর্ণনা করে, তখন সাবধানে ঠিক করুন ওই স্তরে কিছু যোগ হচ্ছে নাকি হারিয়ে যাচ্ছে।",
+   "example": "Passage-এ আছে: \"Rain removes salt from the upper layer.\" Label: \"upper layer: salt (1) ______\"। Options: A added B removed। উত্তর: B।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "2": "H (roots)-ও topsoil-এ পাওয়া যায়, কিন্তু সেগুলো মাটিকে গাঢ় রং দেয় না।",
+   "3": "B (deposited) বর্ণনা করে B horizon-এ কী ঘটে — অর্থাৎ বিপরীত process। E (sand) হলো যা পেছনে থেকে যায়।",
+   "4": "\"Iron\" label-এ আগেই দেওয়া আছে।",
+   "5": "\"Weathered parent\" label-এ আগেই দেওয়া আছে।",
+   "6": "এটা profile-এর সবচেয়ে নিচের স্তর।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_07",
+  "lesson": {
+   "title": "কাছাকাছি technical term (Similar technical terms)",
+   "text": "প্রাকৃতিক বৈশিষ্ট্য নিয়ে passage-এ প্রায়ই এমন জোড়া term থাকে যেগুলো সহজেই গুলিয়ে যায়, যেমন \"magma\" (মাটির নিচের গলিত পাথর) আর \"lava\" (ভূপৃষ্ঠের গলিত পাথর), অথবা \"main vent\" আর \"side vent\"। Diagram যাচাই করে আপনি পার্থক্যটা খেয়াল করেছেন কি না। Passage যখন কোনো term-এর সংজ্ঞা দেয়, তখন সংজ্ঞাটা underline করুন এবং label-এর অবস্থানের সাথে মনোযোগ দিয়ে মিলিয়ে দেখুন।",
+   "example": "Passage-এ আছে: \"Groundwater lies below the surface; runoff flows over it.\" ভূপৃষ্ঠের উপরের label: \"(1) ______\"। উত্তর: runoff।"
+  },
+  "explanations": {
+   "1": "\"pyroclastic flow\" পাহাড়ের গা বেয়ে নিচে নামে, আকাশের দিকে উপরে ওঠে না।",
+   "2": "Label-টা হলো সংজ্ঞা, তাই উত্তর হবে term-টা।",
+   "3": "\"Ash\" label-এ আগেই আছে। শুধু \"Lava\" লিখলেও সঠিক, তবে \"hardened lava\" হলো পুরো phrase, আর এটা word limit-এর মধ্যেই।",
+   "4": "\"Main vent\" আগেই দেওয়া আছে; এই label-টা ঢালের (slope) উপর।",
+   "5": "Plural রূপটাই verb \"move\"-এর সাথে মেলে। Pyroclastic flow খুব দ্রুত চলে, ধীরে নয়।",
+   "6": "\"Narrow pipe\" label-এ আগেই দেওয়া আছে।",
+   "7": "মাটির নিচের গলিত পাথর হলো \"magma\", \"lava\" নয় — তাই \"lava chamber\" লিখলে ভুল হবে।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_08",
+  "lesson": {
+   "title": "একই স্তরে কয়েকটা label (Several labels in one layer)",
+   "text": "স্তরযুক্ত diagram-এ একটা স্তরের দুই বা তার বেশি label থাকতে পারে: তার নাম, তার ভেতরে কী আছে, আর সে কী কাজ করে। Passage সাধারণত পুরো স্তরটা একটাই paragraph-এ বর্ণনা করে, তাই ওই paragraph-টা মনোযোগ দিয়ে পড়ুন এবং প্রতিটি label-কে আলাদা আলাদা detail-এর সাথে মেলান। Label যখন ভেতরের উপাদান জানতে চায়, তখন স্তরের নাম লিখবেন না।",
+   "example": "Passage-এ আছে: \"The crust, the thinnest layer, is made of granite and basalt.\" Label-গুলো: \"(1) ______: thinnest layer\" এবং \"made of granite and (2) ______\"। উত্তর: crust, basalt।"
+  },
+  "explanations": {
+   "1": "\"Filled with keratin\" label-এ আগেই আছে; gap-এ দরকার cell-গুলোকে বর্ণনা করে এমন একটা adjective।",
+   "2": "\"Melanin\" হলো যা এরা তৈরি করে, আর সেটা label-এ আগেই দেওয়া আছে।",
+   "3": "Label-এ ভেতরের উপাদানগুলোর list দেওয়া আছে, তাই উত্তর হলো স্তরের নাম।",
+   "4": "\"Hair\" label-এ আগেই দেওয়া আছে।",
+   "5": "\"Subcutaneous\" হলো আরেকটা নাম, কিন্তু \"subcutaneous layer\" দুই শব্দ।",
+   "6": "\"Fat\" দিয়ে স্তরটা তৈরি; শরীরের জন্য এটা যা জমা রাখে তা হলো energy।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_09",
+  "lesson": {
+   "title": "Adjective না noun — কোনটা লাগবে (Adjectives and nouns)",
+   "text": "কোনো label-এ হয়তো adjective লাগবে (\"thin and ______\"), আবার কোনোটায় noun (\"packed with ______\")। Gap-এর দুই পাশের শব্দগুলো দেখুন। TWO WORDS হলে হয়তো adjective আর noun একসাথে লাগবে, যেমন \"air spaces\"। নিশ্চিত হন আপনার উত্তর label-এর অর্থের সাথে তো বটেই, grammar-এর সাথেও মিলছে।",
+   "example": "Label: \"walls are thick and (1) ______\"। Passage-এ আছে: \"the walls are thick and waterproof\"। উত্তর: waterproof (\"thick\"-এর সাথে মেলাতে একটা adjective)।"
+  },
+  "explanations": {
+   "1": "\"Waxy\" label-এ আগেই দেওয়া আছে।",
+   "2": "Adjective-টা \"thin and\"-এর সাথে মেলে।",
+   "3": "\"Chlorophyll\" হলো chloroplast-এর ভেতরের রঞ্জক (pigment); cell-গুলো ভরা থাকে chloroplast দিয়ে।",
+   "4": "Plural noun-টা verb \"allow\"-এর সাথে মেলে।",
+   "5": "\"Water and minerals\" তিন শব্দ, word limit-এর বাইরে, তাই লিখুন \"water\"। \"Sugar\" বহন করে phloem, আর সেটা label-এ আগেই দেওয়া আছে।",
+   "6": "Label-টা lower epidermis-এর উপর, আর passage বলছে বেশিরভাগ stomata সেখানেই পাওয়া যায়।",
+   "7": "Label-এর \"Opened and closed by\" হলো passage-এর \"which open ... and close\"-এর paraphrase।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_10",
+  "lesson": {
+   "title": "কাঠামোর ভেতর দিয়ে প্রবাহ অনুসরণ (Following the flow through a structure)",
+   "text": "Power station, পানি সরবরাহ ব্যবস্থা আর engine-এর diagram-এ প্রায়ই কোনো কিছু ভেতর দিয়ে প্রবাহিত হতে দেখা যায়: পানি, বাতাস বা জ্বালানি। Passage সাধারণত শুরু থেকে শেষ পর্যন্ত সেই একই পথ অনুসরণ করে। পড়ার সময় diagram-এ আঙুল দিয়ে প্রবাহটা অনুসরণ করুন, আর প্রতিটি gap-এ থেমে দেখুন passage ঠিক সেই মুহূর্তে কোন অংশের বর্ণনা দিচ্ছে।",
+   "example": "Passage-এ আছে: \"Air enters through the filter, passes the fan and leaves through the vent.\" বের হওয়ার মুখের label: \"(1) ______\"। উত্তর: vent।"
+  },
+  "explanations": {
+   "1": "Label-টা হলো সংজ্ঞা, তাই উত্তর হবে term-টা।",
+   "2": "\"Metal\" label-এ আগেই আছে। বানানটা সাবধানে copy করুন।",
+   "3": "\"Steep pipe\" label-এ আগেই দেওয়া আছে।",
+   "4": "\"During floods\" মেলে Paragraph F-এর শুরুর সাথে। এই paragraph-টা passage-এর একদম শেষে আসে, কিন্তু label-টা diagram-এর বাঁ দিকে, dam-এর পাশে।",
+   "5": "Turbine আলাদা label হিসেবে দেওয়া আছে; magnet থাকে generator-এর ভেতরে।",
+   "6": "\"Increases\" label-এ আগেই দেওয়া আছে।",
+   "7": "Spillway-ও নদীতে পানি ফিরিয়ে দেয়, তবে কেবল বন্যার বাড়তি পানি; tailrace হলো সেই জায়গা যেখান দিয়ে turbine পার হওয়ার পর পানি বেরিয়ে যায়।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_11",
+  "lesson": {
+   "title": "Machine-এর ভেতরের process নিয়ে word bank (Word banks for processes inside a machine)",
+   "text": "Diagram যখন একটা চালু machine দেখায়, তখন অনেক label পরিবর্তন বর্ণনা করে: কিছু বাড়ে বা কমে, শোষিত হয় বা বেরিয়ে যায়, তরল বা gas হয়ে যায়। Word bank-এ দুই দিকের option-ই থাকবে। প্রতিটি label-এর জন্য passage-এ অংশটা খুঁজে বের করুন এবং নিজেকে জিজ্ঞেস করুন: এখানে কী বদলাচ্ছে, আর কোন দিকে?",
+   "example": "Passage-এ আছে: \"In the boiler, water turns to steam.\" Label: \"boiler: water becomes (1) ______\"। Options: A ice B steam C liquid। উত্তর: B।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)। তাপ বেরিয়ে যায় পরে, condenser-এ।",
+   "2": "Evaporator-এ refrigerant বাষ্প হয়ে যায়, অর্থাৎ gas হয়। C (liquid) হলো condenser পার হওয়ার পরের refrigerant-এর অবস্থা।",
+   "3": "I (fan)-এর কথা passage-এ বলা নেই।",
+   "4": "J (volume)-এর কথা বলা নেই; আসলে gas চেপে ধরলে তার volume কমে যায়।",
+   "5": "B (absorbs) হলো বিপরীত process, যা ঘটে evaporator-এ।",
+   "6": "H (rises) হলো বিপরীত, যা ঘটে compressor-এ।"
+  }
+ },
+ {
+  "id": "rb_diagram_label_12",
+  "lesson": {
+   "title": "অন্য ভাষার শব্দ আর অস্বাভাবিক বানান (Words from other languages and unusual spellings)",
+   "text": "ইতিহাস নিয়ে passage-এ প্রায়ই বিশেষ ধরনের শব্দ থাকে, যার কিছু অন্য ভাষা থেকে ধার করা, যেমন \"portcullis\" বা \"bailey\"। সময়ের চাপে এগুলোর বানান ভুল হওয়া খুব সহজ। এ ধরনের উত্তর পেলে একটা একটা অক্ষর করে copy করুন। সঠিক অংশটা খুঁজে পেলেও বানান ভুল হলে উত্তরটা ভুল ধরা হয়।",
+   "example": "Passage-এ আছে: \"The knights wore a hauberk, a shirt of chain mail.\" Label: \"(1) ______: shirt of chain mail\"। উত্তর: hauberk, \"hawberk\" নয়।"
+  },
+  "explanations": {
+   "1": "\"Ditch\" label-এ আছে; উত্তর হলো নামটা।",
+   "2": "এটা passage-এর সাথে সরাসরি মিলে যায় (direct match)।",
+   "3": "\"Iron grille\" হলো বর্ণনা। Murder hole-গুলো থাকে passage-এর ছাদে, এগুলো কোনো grille নয়।",
+   "4": "\"Narrow arrow\" label-এ আগেই দেওয়া আছে।",
+   "5": "এটা হাঁটার পথটার (walkway) নাম।",
+   "6": "Label-টা হলো সংজ্ঞা।",
+   "7": "\"Towers\"-ও curtain wall-কে শক্তিশালী করত, কিন্তু keep হলো সেই বিশাল tower এবং শেষ আশ্রয়স্থল।"
+  }
+ }
+]

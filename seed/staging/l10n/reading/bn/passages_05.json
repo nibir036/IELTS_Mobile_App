@@ -1,0 +1,431 @@
+[
+ {
+  "id": "rb_matching_features_13",
+  "lesson": {
+   "title": "একই জায়গায় একাধিক পদক্ষেপ (Places with several measures)",
+   "text": "Feature-গুলো যখন জায়গা (place), তখন একেকটা paragraph-এ কয়েকটা পদক্ষেপ (measure) আর কয়েকটা ফলাফলের কথা থাকতে পারে। প্রতিটা statement এগুলোর মধ্যে মাত্র একটাকে বেছে নেয়। তাই একটা match পেয়েই paragraph পড়া থামাবেন না, কারণ একই জায়গা দুই-তিনটা statement-এর উত্তর হতে পারে।"
+  },
+  "explanations": {
+   "1": "Passage-এর \"Sinking\" = statement-এর \"subside\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "3": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "4": "Passage-এর \"Return of rain\" = statement-এর \"a change in the weather\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "5": "Passage-এর \"Public education campaigns\" = statement-এর \"public information\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "6": "Option D এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "7": "Option B এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "8": "Option A এখানে দ্বিতীয়বার ব্যবহার হয়েছে।"
+  }
+ },
+ {
+  "id": "rb_matching_features_14",
+  "lesson": {
+   "title": "Evidence-কে সঠিক hypothesis-এর সাথে মেলানো (Evidence attached to the right hypothesis)",
+   "text": "Passage-এ যখন কয়েকটা hypothesis থাকে আর প্রত্যেকটার নিজস্ব evidence থাকে, তখন statement-গুলো প্রায়ই hypothesis-টার কথা না বলে একটা নির্দিষ্ট evidence-এর কথা বলে। নিজেকে জিজ্ঞেস করুন: \"Which hypothesis is this evidence used to support or challenge?\" অর্থাৎ এই evidence কোন hypothesis-কে সমর্থন বা চ্যালেঞ্জ করতে ব্যবহার হয়েছে? কিছু evidence দুই পক্ষই ভিন্ন ভিন্নভাবে ব্যবহার করে, তাই নির্দিষ্ট sentence-টায় evidence কোন দিকে যাচ্ছে সেটা যাচাই করুন।"
+  },
+  "explanations": {
+   "1": "Iridium-এর evidence impact hypothesis-কে সমর্থন করে।",
+   "2": "এটা gradual decline-এর পক্ষের evidence, আর এই evidence নিয়েই প্রশ্ন তোলা হয়েছিল।",
+   "3": "এটা combined explanation-এর paragraph-এ আছে, আর এখানে দুটো ঘটনাই জড়িত।",
+   "4": "Option B এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "5": "\"Underestimated\" = \"not sufficiently recognised\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "6": "Gradual decline (A) বলে \"millions of years\" ধরে চলা জলবায়ু আর sea-level পরিবর্তনের কথা, \"hundreds of thousands of years\" ধরে চলা ঘটনার কথা নয়। Option C এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "7": "Option D এখানে দ্বিতীয়বার ব্যবহার হয়েছে।"
+  }
+ },
+ {
+  "id": "rb_matching_features_15",
+  "lesson": {
+   "title": "কঠিন Matching Features — অবস্থান বদল ও cross-reference (Hard sets)",
+   "text": "Hard set-এ:\n\nএকজন researcher কয়েকটা paragraph-এ আসতে পারেন, কখনো একে অপরের জবাব দিতে পারেন; কেউ আগের মত বদলাতে পারেন, বা আগের প্রতিপক্ষের সাথে একসাথে কাজ করতে পারেন; statement-গুলো অনেক বেশি paraphrase করা থাকে, আর সেগুলো কোনো method, conclusion বা response বোঝাতে পারে;\n\nকিছু feature একবারও ব্যবহার না-ও হতে পারে।\n\nউত্তর দেওয়ার আগে প্রতিটা feature-এর সব mention খুঁজে বের করুন, আর ক্রমটা লিখে রাখুন (original claim → challenge → response)।"
+  },
+  "explanations": {
+   "1": "এটাই passage-এ বর্ণিত সেই proportional pattern।",
+   "2": "এটা paradox-এর ব্যাপারে Easterlin-এর ব্যাখ্যা।",
+   "3": "এই method অনুভূতিগুলো ঠিক যখন ঘটছে তখনই রেকর্ড করে।",
+   "4": "\"Neutral\" = \"impartial\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "5": "এই পার্থক্যটা Kahneman আর Deaton-এর study-র paragraph-এ বলা হয়েছে, আর সেই study-তেই এটা প্রয়োগ করা হয়েছিল।",
+   "6": "Easterlin-এর response আছে paragraph C-তে, অর্থাৎ Stevenson–Wolfers-এর paragraph-এ — তাই পরে তাঁর নাম আবার কোথায় এসেছে সেটা খেয়াল রাখতে হবে। Option A এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "7": "এটা joint finding। C সাধারণভাবে emotional well-being-এর plateau পেয়েছিল, কোনো subgroup-এর নয় — তাই C এখানে trap।",
+   "8": "Option D এখানে দ্বিতীয়বার ব্যবহার হয়েছে।"
+  }
+ },
+ {
+  "id": "rb_matching_features_16",
+  "lesson": {
+   "title": "একে অপরের মত সংশোধন করা scholar-রা (Scholars who qualify one another)",
+   "text": "Academic debate নিয়ে Hard passage-এ এমন scholar-দের কথা থাকতে পারে যাঁরা একে অপরের কাজের ওপর ভিত্তি করে এগোন, সেটা সংশোধন (qualify) করেন বা বাতিল করেন। একই topic, যেমন \"the stability of printed texts\", নিয়ে দুজন scholar সম্পূর্ণ উল্টো অবস্থান নিতে পারেন। Statement-গুলো একটা অবস্থানকে খুব নির্দিষ্টভাবে বর্ণনা করবে। প্রত্যেক scholar-এর অংশটা পড়ে তাঁর বিশেষ claim-টা নোট করুন, তারপর statement-গুলো সেই claim-এর সাথে মিলিয়ে দেখুন।"
+  },
+  "explanations": {
+   "1": "\"Not a natural feature\" = \"not inherent\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "3": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "4": "\"Changed the way people thought\" = \"altered patterns of thinking\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "5": "\"Cheap\" = \"inexpensive\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "6": "Option A এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "7": "Febvre আর Martin (B) printer-দের মুনাফা-খোঁজা হিসেবে বর্ণনা করেছেন, কিন্তু printer-রা যে প্রায়ই ব্যর্থ হতেন সেটা শুধু Pettegree-ই বলেছেন। Option E এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "8": "Johns (D) এই দাবিকে চ্যালেঞ্জ করেন, তাই D এখানে trap। Option C এখানে দ্বিতীয়বার ব্যবহার হয়েছে।"
+  }
+ },
+ {
+  "id": "rb_matching_features_17",
+  "lesson": {
+   "title": "Feature যখন ব্যাখ্যা, মানুষ নয় (Features that are explanations, not people)",
+   "text": "Feature-গুলো যখন নামওয়ালা scholar না হয়ে hypothesis হয়, তখন passage প্রতিটা hypothesis-কে কয়েকজন researcher-এর কথার মাধ্যমে বর্ণনা করতে পারে, আবার একটা hypothesis-এর evidence এমন paragraph-এ দিতে পারে যেটা মূলত অন্য hypothesis নিয়ে। তাই প্রতিটা statement-কে সেই ব্যাখ্যার সাথে মেলান যেটা নিয়ে statement-টা কথা বলছে — statement-টা কোন paragraph-এ পাওয়া গেল সেটার সাথে নয়।"
+  },
+  "explanations": {
+   "1": "এগুলোই সেই natural record।",
+   "2": "এটা warfare explanation-এর বিরুদ্ধে আপত্তি।",
+   "3": "Drought এখানে শুধু একটা উদাহরণ হিসেবে এসেছে, তাই A এখানে trap। Statement-টা আসলে political mechanism নিয়ে।",
+   "4": "এটা environmental damage-এর paragraph-এ আছে। Deforestation যে drought-কে আরও খারাপ করে — এই দাবিটা ওই ব্যাখ্যারই অংশ।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "6": "Option A এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "7": "Option D এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "8": "Option B এখানে দ্বিতীয়বার ব্যবহার হয়েছে।"
+  }
+ },
+ {
+  "id": "rb_matching_features_18",
+  "lesson": {
+   "title": "একটা ধারণার strong ও weak version (Strong and weak versions of an idea)",
+   "text": "Debate-এ প্রায়ই একটা theory-র strong version (ভাষা চিন্তাকে নির্ধারণ করে) আর weak version (কিছু ক্ষেত্রে ভাষা চিন্তাকে প্রভাবিত করে) আলাদা করা হয়। একজন scholar strong version বাতিল করে weak version মেনে নিতে পারেন। Statement-গুলো দুটোর যেকোনোটার কথা বলতে পারে। প্রত্যেক scholar কোন version সমর্থন করছেন, বাতিল করছেন, বা কোনটার পক্ষে evidence দিচ্ছেন — সেটা সাবধানে যাচাই করুন।"
+  },
+  "explanations": {
+   "1": "\"Oblige\" = \"require\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "Hopi ভাষা নিয়ে Whorf-এর দাবি পরে ভুল প্রমাণিত হয়েছিল।",
+   "3": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "4": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "5": "\"Compass directions\" = \"fixed geographical directions\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "6": "\"Human vision\" হলো সব মানুষের সেই একই শারীরিক feature। Option B এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "7": "Pinker (C)-ও strong claim-এর বিরোধিতা করেন, কিন্তু ঠিক এই কথাটা Deutscher-এর। Option E এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "8": "Option C এখানে দ্বিতীয়বার ব্যবহার হয়েছে।"
+  }
+ },
+ {
+  "id": "rb_matching_features_19",
+  "lesson": {
+   "title": "Feature যখন মাপকাঠি বা index (Features that are measures or indices)",
+   "text": "Feature-গুলো যখন measure (index, indicator, system), তখন statement-গুলো বলে প্রতিটা measure-এ কী ধরা হয়, কী বাদ দেওয়া হয়, এটা কোন উদ্দেশ্যে তৈরি, বা এর কোন সমালোচনা হয়েছে। কয়েকটা measure-এ একই ধরনের component (যেমন health) থাকতে পারে, তাই হুবহু কোন combination বা কোন নির্দিষ্ট সমালোচনার কথা বলা হচ্ছে সেটা খুঁজুন।"
+  },
+  "explanations": {
+   "1": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "2": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "3": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "4": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "6": "GPI (C)-র সমালোচনা হলো এটা জিনিসের টাকার মূল্য বসায় — এটা ভিন্ন একটা সমালোচনা, তাই C এখানে trap। Option B এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "7": "Option A এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "8": "Option C এখানে দ্বিতীয়বার ব্যবহার হয়েছে।"
+  }
+ },
+ {
+  "id": "rb_matching_features_20",
+  "lesson": {
+   "title": "Final review — পুরো method একসাথে (The complete method)",
+   "text": "এই শেষ set-এ Hard level-এর সব skill একসাথে আছে:\n\nকয়েকজন researcher-এর কথার মাধ্যমে বর্ণিত hypothesis;\n\nএমন evidence যেটা একটা ধারণাকে সমর্থন করে আর আরেকটাকে দুর্বল করে;\n\nএকাধিক paragraph-এ উল্লেখ থাকা feature;\n\nmethod, claim আর criticism নিয়ে paraphrase করা statement।\n\nউত্তর দেওয়ার আগে প্রতিটা hypothesis-এর claim, evidence আর criticism একটা map-এর মতো সাজিয়ে নিন।"
+  },
+  "explanations": {
+   "1": "\"Treadmills\" = \"machines\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "3": "এটা savanna hypothesis-এর শুরুর ধারণা (assumption), যেটাকে পরে woodland-এর evidence (Paragraph C) চ্যালেঞ্জ করেছে।",
+   "4": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "5": "Option B এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "6": "Option C এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "7": "Option A এখানে দ্বিতীয়বার ব্যবহার হয়েছে।",
+   "8": "এটাই সেই combined, gradual view-এর কথা।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_01",
+  "lesson": {
+   "title": "দেখার আগে predict করুন (Predict before you look)",
+   "text": "Easy set-এ প্রতিটা beginning পরিষ্কারভাবে passage-এর একটা sentence-এর দিকে ইঙ্গিত করে। সেই sentence-টা খুঁজে নিজের ভাষায় ending-টা predict করুন, যেমন \"...because the army needed food that would last\"। তারপর সেই ending খুঁজুন যেটা আপনার prediction-কে প্রকাশ করে। এতে শুধু passage-এর শব্দ হুবহু repeat করা ending-গুলোর ফাঁদে পড়া থেকে বাঁচবেন।"
+  },
+  "explanations": {
+   "1": "\"Forces\" = \"armed forces\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "এটা Appert-এর নিজের বিশ্বাস। A হলো Pasteur-এর ব্যাখ্যা, তাই এই beginning-এর জন্য A একটা trap।",
+   "3": "\"Microorganisms\" = \"tiny living organisms\", আর \"growth\" = \"multiply\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "4": "\"Lighter\" = \"less heavy\", আর \"stronger\" = \"less likely to break\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "5": "H একটা trap: can opener-এর কথা passage-এ আছে, কিন্তু সাধারণ মানুষের ঘরে canned food পৌঁছানোর কারণ সেটা নয়।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_02",
+  "lesson": {
+   "title": "কারণ, ফলাফল ও উদ্দেশ্যের ending (Cause, effect and purpose endings)",
+   "text": "অনেক beginning-এ because, so that, as a result, বা help, reduce, lead to-র মতো verb থাকে। আগে ঠিক করুন beginning-টার দরকার কারণ (cause), ফলাফল (effect) নাকি উদ্দেশ্য (purpose), তারপর সেই ধরনের ending খুঁজুন। একটা ending সত্য হয়েও ভুল ধরনের হতে পারে — যেমন beginning-এর দরকার ফলাফল, কিন্তু ending দিচ্ছে কারণ।"
+  },
+  "explanations": {
+   "1": "\"Useless\" = \"little value\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "Beginning-টার দরকার একটা কারণ, আর \"runs off more quickly\" = \"flows off more rapidly\"।",
+   "3": "Beginning-টার দরকার একটা উদ্দেশ্য (purpose)। H-ও grammar-এর দিক থেকে বসে যায়, কিন্তু passage-এ বলা নেই যে artificial wetland মাছের জন্য বানানো হয়েছিল।",
+   "4": "G peatland সম্পর্কে সত্য, কিন্তু peatland drain করলে কেন climate change বাড়ে সেটা ব্যাখ্যা করে না — তাই G একটা true-but-unrelated trap।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_03",
+  "lesson": {
+   "title": "সময়ের শব্দওয়ালা beginning (Beginnings with time words)",
+   "text": "Beginning-এ প্রায়ই সময়ের reference থাকে: \"In ancient times,\", \"After the 1820s,\", \"Today,\"। এগুলো ঠিক বলে দেয় passage-এর কোথায় খুঁজতে হবে। অন্য সময়ের ending-গুলো সত্য কথা হতে পারে, কিন্তু সেগুলো ভুল সময়ের বর্ণনা — এটা খুব common একটা trap।"
+  },
+  "explanations": {
+   "1": "\"All directions\" = \"every direction\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "E passage-এর বিপরীত কথা বলে: lens-টা এক টুকরো কাচ ছিল না।",
+   "3": "\"Identify\" = \"recognise\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "4": "G একটা keyword trap: fog-এর কথা passage-এ আছে, কিন্তু অন্য প্রসঙ্গে।",
+   "5": "\"Reliable backup\" = \"dependable alternative\"। H passage-এ বলা নেই — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_04",
+  "lesson": {
+   "title": "নাম ও আবিষ্কারওয়ালা beginning (Name and invention beginnings)",
+   "text": "Beginning-এ যখন কোনো আবিষ্কারক বা product-এর নাম থাকে (\"Cristofori's instrument...\"), তখন ending সাধারণত বলে সেটার মধ্যে নতুন কী ছিল বা সেটা কেন সফল হয়েছিল। এমন sentence খুঁজুন যেটা আবিষ্কারটার গুরুত্ব ব্যাখ্যা করে, শুধু সেটা যে ছিল সেটুকু নয়।"
+  },
+  "explanations": {
+   "1": "এটা harpsichord-এর সীমাবদ্ধতা।",
+   "2": "G একটা false detail: hammer-গুলো leather দিয়ে মোড়ানো ছিল, আর string-গুলোতে আঘাত করা হতো (struck), টেনে বাজানো হতো না (plucked)।",
+   "3": "F পরিবর্তনের পেছনের চাহিদার কথা বলে, কিন্তু \"so that\"-এর purpose structure-এর সাথে খাপ খায় না।",
+   "4": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "5": "H acoustic piano-র কথা বলছে, digital piano-র নয়।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_05",
+  "lesson": {
+   "title": "Ending-এ বৈজ্ঞানিক অনিশ্চয়তা (Scientific uncertainty in endings)",
+   "text": "Science passage-এ প্রায়ই বলা থাকে যে কোনো প্রভাব এখনো পুরোপুরি বোঝা যায়নি। বিজ্ঞানীরা কী জানেন তা নিয়ে যে beginning, তার সাথে এমন ending মিলবে না যেটা প্রভাবটাকে নিশ্চিত হিসেবে বলে। নিশ্চয়তার মাত্রা মেলান: beginning যদি বলে \"Researchers are still unsure...\", তাহলে ending-এও অনিশ্চয়তা বা একটা উত্তর-না-পাওয়া প্রশ্ন থাকতে হবে।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "2": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "3": "D আর H জানা তথ্য, অনিশ্চয়তা নয় — তাই এগুলো \"not yet sure\" pattern-এর সাথে মেলে না।",
+   "4": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "5": "\"Farmland\" = \"agricultural land\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_06",
+  "lesson": {
+   "title": "দ্বিতীয় filter হিসেবে grammar যাচাই (Checking grammar as a second filter)",
+   "text": "অর্থ দেখে বেছে নেওয়ার পর grammar মিলিয়ে দেখুন। Beginning যদি \"so that\", \"in order to\" বা \"because\" দিয়ে শেষ হয়, তাহলে শুধু কিছু নির্দিষ্ট ending স্বাভাবিকভাবে বসে:\n\nin order to + base verb (\"to grow food\");\n\nbecause + clause (\"they...\");\n\nso that + subject + verb।\n\nশুধু grammar দিয়ে উত্তর পাবেন না, কিন্তু এটা দিয়ে দ্রুত ১-২টা ending বাদ দিতে পারবেন।"
+  },
+  "explanations": {
+   "1": "\"in order to\"-এর পরে শুধু base verb দিয়ে শুরু হওয়া ending বসে: A, D বা G। এর মধ্যে শুধু D যুদ্ধকালীন উদ্দেশ্যের সাথে মেলে। G ১৯৭০-এর দশকের revival-এর কথা, তাই এটা wrong-period trap।",
+   "2": "\"More plentiful\" = \"easier to obtain\"। B নির্মাণকাজের কারণে garden বন্ধ হওয়ার কথা বলে, যেটা passage শুধু আধুনিক garden-এর সাথে যুক্ত করেছে (Paragraph F)।",
+   "3": "\"Contaminated\" = \"polluted\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "4": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_07",
+  "lesson": {
+   "title": "একই topic-এ কয়েকটা ending (Several endings on the same topic)",
+   "text": "Medium level-এ ৩-৪টা ending একই প্রাণী বা ধারণা নিয়ে হতে পারে, শুধু একটা মূল detail-এ আলাদা (method বনাম result, cause বনাম effect, এক species বনাম আরেক species)। Beginning-টা ঠিক কোন সম্পর্ক চাইছে সেটা বুঝুন, তারপর সঠিক subject-এর জন্য সেই সম্পর্ক প্রকাশ করে এমন ending বেছে নিন।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "2": "H-কে passage স্পষ্টভাবে বাদ দিয়েছে: \"cannot be estimated from growth rings\"।",
+   "3": "F shark সম্পর্কে সত্য, কিন্তু passage ঠান্ডা পানিকে তাদের দীর্ঘ জীবনের সাথে যুক্ত করেছে, তাদের ঝুঁকির সাথে নয়। এটা একটা same-subject trap।",
+   "4": "I-কে passage-এ গবেষণার কারণ (prompt) হিসেবে বলা হয়নি।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "6": "এটা সরাসরি match — statement আর passage-এর কথা একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_08",
+  "lesson": {
+   "title": "কারণ-ফলাফল উল্টে দেওয়া ending (Endings that reverse cause and effect)",
+   "text": "Medium level-এর একটা শক্ত distractor সঠিক ধারণাগুলোই ব্যবহার করে, কিন্তু উল্টো দিকে। যেমন passage বলছে \"prices rise as seats fill\", আর ending বলছে \"seats fill because prices rise\"। বেছে নেওয়ার আগে দেখুন passage-এ কোনটা cause আর কোনটা effect, আর পুরো sentence-টা যেন সেই ক্রমটাই রাখে।"
+  },
+  "explanations": {
+   "1": "\"Controls removed\" = \"regulation ended\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "3": "I তথ্যগুলো উল্টে দিয়েছে: business traveller-রা শেষ মুহূর্তে (short notice) টিকিট কাটেন, আগে থেকে নয়।",
+   "4": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "5": "G critic-দের কথাটা উল্টে দিয়েছে, কারণ জটিলতা তুলনা করা আরও কঠিন করে তোলে।",
+   "6": "E হলো সেই প্রচলিত বিশ্বাস যার পক্ষে passage বলছে \"little evidence\" আছে — তাই এটাই cause-reversal trap।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_09",
+  "lesson": {
+   "title": "একই passage-এ দাবি, প্রমাণ ও সমালোচনা (Claims, evidence and criticism in one passage)",
+   "text": "Passage যখন একটা theory, তার পক্ষের evidence আর পরের সমালোচনা — তিনটাই দেয়, তখন beginning এই তিনটার যেকোনোটার কথা বলতে পারে। দেখুন beginning-টা theory কী দাবি করে, কোন evidence ব্যবহার হয়েছে, নাকি critic-রা কী পেয়েছেন — সেটা জানতে চাইছে। ভুল category-র ending-গুলোই মূল distractor।"
+  },
+  "explanations": {
+   "1": "I একটা সত্য detail, কিন্তু Dunbar-এর ধারণা যে পর্যবেক্ষণের ওপর দাঁড়িয়ে, সেটা এটা নয়।",
+   "2": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "3": "E-র পক্ষে কোনো সমর্থন নেই, আর এটা finding-এর বিপরীত।",
+   "4": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "5": "\"Diet\" = \"what animals eat\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "6": "C শুধু online contact-এর কথা বলে, critic-রা যে সাধারণ কথাটা মেনে নেন সেটা নয় — তাই এটা same-topic trap।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_10",
+  "lesson": {
+   "title": "সুবিধা ও সংঘাত (Benefits and conflicts)",
+   "text": "Conservation passage-এ প্রায়ই সুবিধা (ecological, economic) আর সংঘাত (কৃষক বা জমির মালিকদের সাথে) — দুটো পাশাপাশি থাকে। Beginning নিরপেক্ষভাবে শুরু হতে পারে (\"Beaver dams...\"), আর আপনাকে positive আর negative ending-এর মধ্যে বাছতে হবে। Beginning-টা ঠিক কোন sentence-এর কথা বলছে সেটা দেখুন। দুই ধরনের ending-ই passage-এর কোথাও না কোথাও সত্য হতে পারে।"
+  },
+  "explanations": {
+   "1": "এগুলোই সেই মূল্যবান product।",
+   "2": "I বলে beaver-রা কীভাবে এসে থাকতে পারে, কেন তাদের থাকতে দেওয়া হয়েছিল সেটা নয়।",
+   "3": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "4": "\"Partly eased\" মানে research উদ্বেগটা কমিয়েছে, পুরোপুরি দূর করেনি — এটাই মিলছে। F passage-এর বিপরীত, কারণ release ইতিমধ্যে শুরু হয়েছে।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "6": "\"Inconvenient\" পরিবর্তন = \"disruptive\"।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_11",
+  "lesson": {
+   "title": "ঘটনার পরিণাম নিয়ে beginning (Beginnings that refer to consequences of events)",
+   "text": "History passage ঘটনাকে তার ফলাফলের সাথে যুক্ত করে: \"The First World War led governments to...\", \"The 1920 conference resulted in...\"। কয়েকটা ending একই ক্ষেত্রে, যেমন passport design-এ, ভিন্ন ভিন্ন সময়ের পরিবর্তনের কথা বলতে পারে। যে paragraph-এ ঘটনাটা আছে সেটা ধরে, নির্দিষ্ট ঘটনাকে তার নির্দিষ্ট পরিণামের সাথে মেলান।"
+  },
+  "explanations": {
+   "1": "I-কে passage স্পষ্টভাবে নাকচ করেছে।",
+   "2": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "3": "\"Concerned about spies\" = \"security reasons\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "4": "F পরের একটা সময়ের কথা, আর তাও শুধু \"in some cases\" — তাই এটা wrong-period trap।",
+   "5": "H electronic chip-এর কথা বলে, যেটা পরের একটা development।",
+   "6": "এটা সরাসরি match — statement আর passage-এর কথা একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_12",
+  "lesson": {
+   "title": "সাধারণ কথার উদাহরণ (Examples that illustrate a general point)",
+   "text": "কিছু beginning একটা নির্দিষ্ট উদাহরণের নাম দেয় (\"Blackbirds in cities...\"), আর সঠিক ending বলে সেই উদাহরণ কী দেখায় বা প্রাণীটা কীভাবে বদলেছে। অন্য ending-গুলো অন্য প্রাণীর adaptation-এর কথা বলতে পারে। কোন উদাহরণ কোন পরিবর্তনের সাথে যায় সেটা খেয়াল রাখুন, আর অন্য species-এর জন্য সঠিক ending দেখে বিভ্রান্ত হবেন না।"
+  },
+  "explanations": {
+   "1": "I ব্যাখ্যা করে কিছু পাখি কেন আগে গান গায়, কেন উঁচু pitch-এ গায় সেটা নয়।",
+   "2": "\"Rarely dangerous\" = \"seldom pose a real threat\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "3": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "4": "H উল্টো উপসংহার — যে পার্থক্যগুলো আসে lizard-রা কীভাবে বেড়ে ওঠে তা থেকে।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "6": "G বলে কোন species ভালোভাবে টিকে থাকে, শহর কেন study-র জন্য কাজে লাগে সেটা নয়।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_13",
+  "lesson": {
+   "title": "ফলাফল বনাম সীমাবদ্ধতা (Findings vs limitations)",
+   "text": "Research passage প্রায়ই আগে finding আর পরে limitation বলে (\"however, the companies taking part were not typical...\")। Beginning দুটোর যেকোনোটা জানতে চাইতে পারে। Limitation শুরু হওয়ার signal word খুঁজুন (however, critics note, one weakness, it is unclear whether)। Beginning যে category চায়, ending-কেও সেই category-র হতে হবে।"
+  },
+  "explanations": {
+   "1": "এটা supporter-দের যুক্তি।",
+   "2": "G-কে \"maintaining full pay\" নাকচ করে দেয়।",
+   "3": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "4": "এটা কিছু organisation সম্পর্কে একটা finding।",
+   "5": "এটা একটা limitation। I passage-এ বলা নেই, কারণ manufacturing-এর ফলাফল জানা যায়নি।",
+   "6": "এটা সরাসরি match — statement আর passage-এর কথা একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_14",
+  "lesson": {
+   "title": "Ending-এ technical ব্যাখ্যা (Technical explanations in endings)",
+   "text": "Science passage একটা mechanism কয়েকটা ধাপে ব্যাখ্যা করতে পারে। Ending-গুলো mechanism, তার প্রভাব, বা একটা practical application-এর কথা বলতে পারে। কিছু distractor mechanism-টাকে এমনভাবে ভুল বলে যে শুনতে বিশ্বাসযোগ্য লাগে — যেমন \"pigments reflect blue light\", অথচ passage বলছে কোনো blue pigment নেই। Passage-এর হুবহু ব্যাখ্যাটা মিলিয়ে দেখুন।"
+  },
+  "explanations": {
+   "1": "C সরাসরি \"contain no blue pigment\"-এর বিপরীত।",
+   "2": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "3": "H একটা keyword trap: melanin আছে ঠিকই, কিন্তু সেটা রং বদলে যাওয়ার ব্যাখ্যা দেয় না।",
+   "4": "এই বৈপরীত্য দেখায় যে pigment-এর রং ফিকে হয় কারণ তাদের chemical ভেঙে যায়। A structural colour-এর কথা বলে, pigment-এর নয়, তাই এই beginning-টা সম্পূর্ণ করে না।",
+   "5": "I-কে নাকচ করে \"reproducing them on a large scale at low cost remains a challenge\"।",
+   "6": "এটা সরাসরি match — statement আর passage-এর কথা একই।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_15",
+  "lesson": {
+   "title": "কঠিন Matching Sentence Endings — বিমূর্ত ending (Abstract endings)",
+   "text": "Hard level-এ:\n\nending-গুলো abstract আর অনেক বেশি paraphrase করা (\"the absence of a convincing explanation\", \"nobody knew why lemons worked\"-এর বদলে);\n\nসাধারণত ১০টা বা তার বেশি ending থাকে, আর তার কয়েকটা passage-এর সত্য কথা, কিন্তু সেগুলো অন্য beginning সম্পূর্ণ করে;\n\nকিছু beginning-এর জন্য দুটো sentence-এর তথ্য একসাথে মেলাতে হয়।\n\nStrategy: প্রতিটা beginning-এর জন্য সহজ কথায় একটা ছোট prediction লিখুন, তারপর সেটাকে ending-গুলোর abstract ভাষায় রূপান্তর করুন। অর্থ আর scope — দুদিক থেকেই পুরো sentence-টা passage-এর সাথে মিলিয়ে দেখুন।"
+  },
+  "explanations": {
+   "1": "\"Systematically\" = \"in a consistent, organised way\"। J passage-এ বলা নেই — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "\"Heating\" = \"a processing method\", আর \"destroyed much of its effectiveness\" = \"damaged the active substance\"। G পরের একটা আবিষ্কার নিয়ে keyword trap।",
+   "3": "H Rogers-এর কথা উল্টে দিয়েছে: বাইরের লোক যে innovation প্রচার করে সেটা বাধার মুখে পড়তে পারে (Paragraph E)।",
+   "4": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "5": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "6": "Option I সরাসরি Paragraph E-র কথার বিপরীত (\"can be more influential than scientific evidence\")।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_16",
+  "lesson": {
+   "title": "Paradox ও উল্টো-মনে-হওয়া যুক্তি (Paradoxes and counter-intuitive reasoning)",
+   "text": "কিছু Hard passage একটা paradox ব্যাখ্যা করে। এখানে যেমন, সমাজের জন্য অত্যন্ত মূল্যবান একটা ওষুধ খুব কম টাকা আয় করে। Beginning জানতে চাইতে পারে paradox-টার কারণ, অথবা প্রস্তাবিত সমাধান। কিছু ending ইচ্ছা করে common-sense কথা হিসেবে রাখা হয়, যেগুলো passage বাতিল করে দেয়। Passage-এর যুক্তি ধাপে ধাপে অনুসরণ করুন, সেটা অবাক করা মনে হলেও।"
+  },
+  "explanations": {
+   "1": "\"Multiply\" = \"increase in number\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "2": "F দীর্ঘমেয়াদি রোগের ওষুধের কথা বলে — ঠিক উল্টো ক্ষেত্র। H হলো সেই common-sense ভুল পড়া যেটা passage বাতিল করে (\"used as little as possible\")।",
+   "3": "\"Easiest to discover\" = \"most accessible sources ... already exploited\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "4": "I যুক্তিটাকে বাড়িয়ে বলেছে: push incentive অপ্রয়োজনীয় — এমন কথা বলা হয়নি; pull incentive \"also needed\"।",
+   "5": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "6": "J সত্য, কিন্তু এটা ব্যবহার কমানো নিয়ে, payment scheme নিয়ে নয় — তাই এটা true-but-unrelated trap।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_17",
+  "lesson": {
+   "title": "জনপ্রিয় version বনাম মূল research (Popularised versions vs original research)",
+   "text": "Hard passage research আসলে কী পেয়েছিল আর সেটা কীভাবে জনপ্রিয় হয়েছে — এই দুটো আলাদা করতে পারে। Beginning দুটোর যেকোনোটা নিয়ে হতে পারে। জনপ্রিয় version-কে প্রকাশ করা একটা ending প্রচলিত বিশ্বাস নিয়ে beginning-এর জন্য সঠিক হতে পারে, কিন্তু মূল study নিয়ে beginning-এর জন্য ভুল। প্রতিটা beginning কার দাবির কথা বলছে সেটা চিহ্নিত করুন।"
+  },
+  "explanations": {
+   "1": "H প্রচলিত \"talent\" ধারণাকে প্রকাশ করে, যেটা study-তে পাওয়া যায়নি।",
+   "2": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "3": "J ভুল, কারণ study-টা ছিল violinist-দের নিয়ে।",
+   "4": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "5": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "6": "I writer-এর পরামর্শের উল্টো, আর G হলো সেই জনপ্রিয় দাবি যেটাকে writer \"exaggerated\" বলেছেন।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_18",
+  "lesson": {
+   "title": "পরে সফল হওয়া ব্যর্থতা (Failures that led to later success)",
+   "text": "History-of-science passage প্রায়ই এমন একটা প্রাথমিক চেষ্টার কথা বলে যেটা ব্যর্থ হয়েছিল, কিন্তু যার method পরে সঠিক প্রমাণিত হয়েছে। Beginning জানতে চাইতে পারে সেটা কেন ব্যর্থ হলো, অথবা সেটা কী প্রমাণ করল। এদের জন্য আলাদা ending লাগে: একটা বাধা নিয়ে, আরেকটা দীর্ঘস্থায়ী মূল্য নিয়ে। এ দুটো গুলিয়ে ফেলবেন না।"
+  },
+  "explanations": {
+   "1": "এটা passage-এর কথার একটা paraphrase।",
+   "2": "\"Fishermen and sailors\" = \"people at sea\" — অর্থাৎ একই কথা, শুধু ভিন্ন শব্দে বলা।",
+   "3": "H ব্যাখ্যা করে method-টা কেন ধীর ছিল, forecast কেন ভুল হলো সেটা নয়। এটাই lesson-এর failure বনাম vindication-এর পার্থক্য।",
+   "4": "এটাই তাঁর কাজের দীর্ঘস্থায়ী মূল্য।",
+   "5": "F passage-এর বিপরীত, কারণ equation-গুলো জানা ছিল এবং ব্যবহারও হয়েছিল।",
+   "6": "J বেশি জোরালো, কারণ ensemble uncertainty মাপে, কিন্তু সেটা দূর করে না।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_19",
+  "lesson": {
+   "title": "তত্ত্বের খণ্ডন (Refutations)",
+   "text": "Passage যখন একটা বিখ্যাত theory আর তারপর সেটাকে খণ্ডন বা সীমিত করে এমন evidence দেয়, তখন beginning মূল claim, counter-evidence, বা পরিমার্জিত conclusion — যেকোনোটা নিয়ে হতে পারে। কিছু ending মূল theory-র prediction আবার বলে; এগুলো theory নিয়ে beginning সম্পূর্ণ করে, evidence নিয়ে beginning নয়। প্রতিটা beginning-কে তার stage-এর সাথে মেলান।"
+  },
+  "explanations": {
+   "1": "F হলো Hardin-এর conclusion, প্রত্যেক herder-এর আচরণের কারণ নয়।",
+   "2": "এটা passage-এর কথার সরাসরি paraphrase।",
+   "3": "এটা counter-evidence stage-এর কথা, মূল claim-এর নয়।",
+   "4": "Option I-এর কথা passage-এ কোথাও বলা নেই।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "6": "এটা passage-এর কথার সরাসরি paraphrase।"
+  }
+ },
+ {
+  "id": "rb_sentence_endings_20",
+  "lesson": {
+   "title": "Final review — পুরো method একসাথে (The complete method)",
+   "text": "এই শেষ set-এ মূল skill-গুলো একসাথে আছে: abstract ending, কয়েকটা true-but-unrelated ending, উল্টে দেওয়া cause ও effect, আর এমন beginning যেখানে তথ্য একসাথে মেলাতে হয়। প্রতিটা beginning-এর জন্য:\n\n১. Passage-এর অংশটা খুঁজে বের করুন।\n\n২. সহজ কথায় ending-টা predict করুন।\n\n৩. আপনার prediction-কে abstract ending-এর সাথে মেলান।\n\n৪. অর্থ, scope আর grammar নিশ্চিত করুন।"
+  },
+  "explanations": {
+   "1": "G ব্যাখ্যা করে শহরগুলোর উদ্দেশ্য কীভাবে ফুরিয়ে গেল, তাদের শুরু কীভাবে হলো সেটা নয় — তাই এটা cause-reversal trap।",
+   "2": "এটাই সেই self-reinforcing advantage-এর কথা।",
+   "3": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "4": "I passage-এর বিপরীত।",
+   "5": "এটা সরাসরি match — statement আর passage-এর কথা একই।",
+   "6": "এটা সরাসরি match — statement আর passage-এর কথা একই।"
+  }
+ }
+]

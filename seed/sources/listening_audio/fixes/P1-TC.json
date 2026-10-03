@@ -1,0 +1,249 @@
+{
+ "note": "Table 2 rebuilt in the order of the recording: it never mentions the number of movers, a parking permit, a list of large items or a confirmation call; the team comes at 5 p.m., furniture goes in bubble wrap (gap is \"bubble\" to keep ONE WORD) and the cancellation notice is one month.",
+ "groups": {
+  "g2": {
+   "type": "table",
+   "title": "CityMove: further details",
+   "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+   "columns": [
+    "Item",
+    "Details"
+   ],
+   "rows": [
+    [
+     "Insurance covers up to",
+     "£(8)___ of damage"
+    ],
+    [
+     "Piano fee paid",
+     "on the (9)___, with the rest of the (10)___"
+    ],
+    [
+     "Cancellation fee",
+     "charged if less than one (11)___'s notice; fee is £(12)___"
+    ],
+    [
+     "Reference number",
+     "(13)___"
+    ],
+    [
+     "Van",
+     "a (14)___ van for a (15)___-bedroom house"
+    ],
+    [
+     "Available day",
+     "next (16)___"
+    ],
+    [
+     "Furniture protected with",
+     "(17)___ wrap"
+    ],
+    [
+     "Team arrives at",
+     "(18)___ p.m."
+    ],
+    [
+     "Loading starts",
+     "that (19)___"
+    ],
+    [
+     "Note the quote as",
+     "the (20)___ quote"
+    ]
+   ],
+   "questions": [
+    {
+     "number": 8,
+     "label": "Insurance covers up to",
+     "before": "£",
+     "after": "of damage",
+     "row": 0,
+     "col": 1,
+     "answer": "10,000",
+     "answerDisplay": "10,000 / 10000",
+     "accepted": [
+      "10,000",
+      "10000",
+      "ten thousand"
+     ]
+    },
+    {
+     "number": 9,
+     "label": "Piano fee paid",
+     "before": "on the",
+     "after": ", with the rest of the (10) …",
+     "row": 1,
+     "col": 1,
+     "answer": "day",
+     "answerDisplay": "day",
+     "accepted": [
+      "day"
+     ]
+    },
+    {
+     "number": 10,
+     "label": "Piano fee paid",
+     "before": "on the (9) …, with the rest of the",
+     "after": "",
+     "row": 1,
+     "col": 1,
+     "answer": "balance",
+     "answerDisplay": "balance",
+     "accepted": [
+      "balance"
+     ]
+    },
+    {
+     "number": 11,
+     "label": "Cancellation fee",
+     "before": "charged if less than one",
+     "after": "'s notice; fee is £(12) …",
+     "row": 2,
+     "col": 1,
+     "answer": "month",
+     "answerDisplay": "month",
+     "accepted": [
+      "month"
+     ]
+    },
+    {
+     "number": 12,
+     "label": "Cancellation fee",
+     "before": "charged if less than one (11) …'s notice; fee is £",
+     "after": "",
+     "row": 2,
+     "col": 1,
+     "answer": "50",
+     "answerDisplay": "50 / fifty",
+     "accepted": [
+      "50",
+      "fifty"
+     ]
+    },
+    {
+     "number": 13,
+     "label": "Reference number",
+     "before": "",
+     "after": "",
+     "row": 3,
+     "col": 1,
+     "answer": "274",
+     "answerDisplay": "274",
+     "accepted": [
+      "274"
+     ]
+    },
+    {
+     "number": 14,
+     "label": "Van",
+     "before": "a",
+     "after": "van for a (15) …-bedroom house",
+     "row": 4,
+     "col": 1,
+     "answer": "large",
+     "answerDisplay": "large",
+     "accepted": [
+      "large"
+     ]
+    },
+    {
+     "number": 15,
+     "label": "Van",
+     "before": "a (14) … van for a",
+     "after": "-bedroom house",
+     "row": 4,
+     "col": 1,
+     "answer": "3",
+     "answerDisplay": "3 / three",
+     "accepted": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "number": 16,
+     "label": "Available day",
+     "before": "next",
+     "after": "",
+     "row": 5,
+     "col": 1,
+     "answer": "Wednesday",
+     "answerDisplay": "Wednesday",
+     "accepted": [
+      "Wednesday"
+     ]
+    },
+    {
+     "number": 17,
+     "label": "Furniture protected with",
+     "before": "",
+     "after": "wrap",
+     "row": 6,
+     "col": 1,
+     "answer": "bubble",
+     "answerDisplay": "bubble",
+     "accepted": [
+      "bubble"
+     ]
+    },
+    {
+     "number": 18,
+     "label": "Team arrives at",
+     "before": "",
+     "after": "p.m.",
+     "row": 7,
+     "col": 1,
+     "answer": "5",
+     "answerDisplay": "5 / five",
+     "accepted": [
+      "5",
+      "five"
+     ]
+    },
+    {
+     "number": 19,
+     "label": "Loading starts",
+     "before": "that",
+     "after": "",
+     "row": 8,
+     "col": 1,
+     "answer": "evening",
+     "answerDisplay": "evening",
+     "accepted": [
+      "evening"
+     ]
+    },
+    {
+     "number": 20,
+     "label": "Note the quote as",
+     "before": "the",
+     "after": "quote",
+     "row": 9,
+     "col": 1,
+     "answer": "CM",
+     "answerDisplay": "CM",
+     "accepted": [
+      "CM"
+     ]
+    }
+   ],
+   "id": "g2"
+  }
+ },
+ "scenario": "Helen phones two removal companies, Swift Movers and CityMove, to compare quotes and asks CityMove for more details.",
+ "context": "Helen phones two removal companies, Swift Movers and CityMove, to compare quotes and asks CityMove for more details.",
+ "speakerMap": {
+  "Customer": "Helen"
+ },
+ "speakerSplit": {
+  "Company Representative": [
+   {
+    "name": "Swift"
+   },
+   {
+    "name": "CityMove",
+    "from": "that's us"
+   }
+  ]
+ }
+}

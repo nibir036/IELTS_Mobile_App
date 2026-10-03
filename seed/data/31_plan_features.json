@@ -1,0 +1,53 @@
+{
+  "table": "plan_features",
+  "items": [
+    {
+      "id": "mockTests",
+      "label": "Full mock tests",
+      "free": "1 / month",
+      "pro": "Unlimited"
+    },
+    {
+      "id": "writingFeedback",
+      "label": "AI writing feedback",
+      "free": "3 / month",
+      "pro": "Unlimited"
+    },
+    {
+      "id": "speakingEvaluations",
+      "label": "AI speaking evaluations",
+      "free": "3 / month",
+      "pro": "Unlimited"
+    },
+    {
+      "id": "pronunciation",
+      "label": "Pronunciation scoring",
+      "free": "no",
+      "pro": "yes"
+    },
+    {
+      "id": "library",
+      "label": "Full content library",
+      "free": "Starter set",
+      "pro": "yes"
+    },
+    {
+      "id": "analytics",
+      "label": "Detailed analytics",
+      "free": "Basic",
+      "pro": "yes"
+    },
+    {
+      "id": "certificates",
+      "label": "Certificates",
+      "free": "yes",
+      "pro": "yes"
+    },
+    {
+      "id": "community",
+      "label": "Community & speaking rooms",
+      "free": "yes",
+      "pro": "yes"
+    }
+  ]
+}

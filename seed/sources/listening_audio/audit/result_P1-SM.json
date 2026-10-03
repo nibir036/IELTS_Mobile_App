@@ -1,0 +1,166 @@
+{
+ "code": "P1-SM",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "address",
+   "audio_answer": "address",
+   "evidence": "[0:06]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "residents",
+   "audio_answer": "residents",
+   "evidence": "[0:13]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "missing",
+   "key": "12 / twelve",
+   "audio_answer": "",
+   "evidence": "[0:19] \"It does cost a small fee for non-residents, but that won't apply to you.\"",
+   "note": "No amount given."
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "10 / ten",
+   "audio_answer": "10",
+   "evidence": "[0:24]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "3 / three",
+   "audio_answer": "3",
+   "evidence": "[0:28]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "20 / twenty",
+   "audio_answer": "20",
+   "evidence": "[0:32]",
+   "note": "recording says \"20 cents\", summary says pence; number matches"
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "computers",
+   "audio_answer": "computers",
+   "evidence": "[0:37]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "wifi",
+   "audio_answer": "Wi-Fi",
+   "evidence": "[0:42]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "signature",
+   "audio_answer": "signature",
+   "evidence": "[0:48]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "ok",
+   "key": "holidays",
+   "audio_answer": "holidays",
+   "evidence": "[0:54]",
+   "note": ""
+  },
+  {
+   "n": 11,
+   "status": "missing",
+   "key": "app",
+   "audio_answer": "(website)",
+   "evidence": "[0:59] \"members can renew books online through the library's website.\"",
+   "note": "No app is mentioned and nothing is said to be easier to use."
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "5 / five",
+   "audio_answer": "5",
+   "evidence": "[1:04]",
+   "note": "recording says \"$5\", summary uses £"
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "book",
+   "audio_answer": "book",
+   "evidence": "[1:10]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "storytime",
+   "audio_answer": "storytime",
+   "evidence": "[1:13]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "2 / two",
+   "audio_answer": "2",
+   "evidence": "[1:19]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "borrowed",
+   "audio_answer": "borrowed",
+   "evidence": "[1:24]",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "ok",
+   "key": "Saturdays / Saturday",
+   "audio_answer": "Saturday",
+   "evidence": "[1:30]",
+   "note": ""
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "3 / three",
+   "audio_answer": "3",
+   "evidence": "[1:37]",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "June",
+   "audio_answer": "June",
+   "evidence": "[1:42]",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "bookmark",
+   "audio_answer": "bookmark",
+   "evidence": "[1:49]",
+   "note": ""
+  }
+ ],
+ "summary": "18 ok; Q3 (non-resident fee amount) and Q11 (app) are not in the recording; currency in the recording is cents/$ while the summary uses pence/£."
+}

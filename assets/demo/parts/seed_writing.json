@@ -1,0 +1,806 @@
+{
+  "attempts": [
+    {
+      "id": "att_w_remote_3",
+      "skill": "writing",
+      "kind": "task2",
+      "title": "Remote work",
+      "refId": "t2_remote_work",
+      "band": 6.0,
+      "durationSec": 2280,
+      "daysAgo": 6,
+      "hour": 20,
+      "data": {
+        "text": "Over the past decade, remote work has moved from a rare perk to a mainstream arrangement for many office staff. In my view, working from home offers very good things to both workers and companies, although it is not without drawbacks.\n\nFor employees, the most obvious advantage is the time saved on commuting. In a city such as Dhaka, where a single journey can take more than an hour, people who works from home can spend this time with their kids or get some rest before starting work. This tends to improve concentration during working hours. Also, workers are happier. Also they stay longer in the same company.\n\nIn the other hand, employers benefit from lower office costs, which mean they can invest more in staff training. A company that no longer rents a big office in the city centre can save a lot of money every year. Moreover, managers can hire talented staff from other cities, which widens the pool of applicants.\n\nAdmittedly, some workers feel lonely at home, and it is really difficult for new staff to learn from their colleagues. For instance, a junior accountant may not know who to ask when a question appears. However, regular video meetings and one office day per week can solve most of these difficulties.\n\nIn conclusion, I believe that working from home benefits both employees and employers. If companies organise it carefully, the advantages are much greater than the disadvantages, and both sides will be more productive and more satisfied in the long term.",
+        "prompt": "Some people believe that working from home benefits both employees and employers. To what extent do you agree or disagree?",
+        "promptId": "t2_remote_work",
+        "task": 2,
+        "criteria": {
+          "TA": 6.5,
+          "CC": 5.5,
+          "LR": 6.0,
+          "GRA": 6.0
+        },
+        "words": 254,
+        "feedback": [
+          "Use more precise vocabulary instead of informal words.",
+          "Vary your linking words."
+        ],
+        "issues": [
+          {
+            "id": "i1",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 149,
+            "end": 165,
+            "original": "very good things",
+            "suggestion": "tangible benefits",
+            "note": "“Very good things” is vague and informal. A precise collocation such as “tangible benefits” raises your Lexical Resource score.",
+            "sentenceIndex": 1
+          },
+          {
+            "id": "i2",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "agreement",
+            "start": 386,
+            "end": 402,
+            "original": "people who works",
+            "suggestion": "people who work",
+            "note": "“Who” refers to “people”, which is plural, so the verb must be “work”.",
+            "sentenceIndex": 3
+          },
+          {
+            "id": "i3",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 444,
+            "end": 448,
+            "original": "kids",
+            "suggestion": "children",
+            "note": "“Kids” is informal. Use “children” in an academic essay.",
+            "sentenceIndex": 3
+          },
+          {
+            "id": "i4",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 452,
+            "end": 465,
+            "original": "get some rest",
+            "suggestion": "have some rest",
+            "note": "“Get” is overused in informal English. “Have some rest” or “rest” sounds more natural in formal writing.",
+            "sentenceIndex": 3
+          },
+          {
+            "id": "i5",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "sentence opener",
+            "start": 573,
+            "end": 582,
+            "original": "Also they",
+            "suggestion": "As a result, they",
+            "note": "Two sentences in a row start with “Also”. “As a result,” shows the logical link between happiness and staying longer.",
+            "sentenceIndex": 6
+          },
+          {
+            "id": "i6",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "fixed phrase",
+            "start": 617,
+            "end": 634,
+            "original": "In the other hand",
+            "suggestion": "On the other hand",
+            "note": "The contrast linker is always “on the other hand”. Using it correctly shows control of cohesive devices, which counts toward Coherence & Cohesion.",
+            "sentenceIndex": 7
+          },
+          {
+            "id": "i7",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "agreement",
+            "start": 679,
+            "end": 689,
+            "original": "which mean",
+            "suggestion": "which means",
+            "note": "“Which” refers to the whole idea of lower costs, so the verb needs the singular form “means”.",
+            "sentenceIndex": 7
+          },
+          {
+            "id": "i8",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 763,
+            "end": 773,
+            "original": "big office",
+            "suggestion": "large office",
+            "note": "“Big” is informal. “Large” or “spacious” is more appropriate for an office.",
+            "sentenceIndex": 8
+          },
+          {
+            "id": "i9",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 802,
+            "end": 816,
+            "original": "a lot of money",
+            "suggestion": "a considerable amount of money",
+            "note": "“A lot of” is informal. “A considerable amount of” is a more academic quantifier.",
+            "sentenceIndex": 8
+          },
+          {
+            "id": "i10",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 985,
+            "end": 1001,
+            "original": "really difficult",
+            "suggestion": "particularly difficult",
+            "note": "“Really” is conversational. “Particularly” or “especially” suits formal writing better.",
+            "sentenceIndex": 10
+          }
+        ],
+        "strengths": [
+          {
+            "start": 66,
+            "end": 88,
+            "text": "mainstream arrangement"
+          },
+          {
+            "start": 510,
+            "end": 523,
+            "text": "concentration"
+          },
+          {
+            "start": 829,
+            "end": 837,
+            "text": "Moreover"
+          },
+          {
+            "start": 1048,
+            "end": 1060,
+            "text": "For instance"
+          },
+          {
+            "start": 1230,
+            "end": 1243,
+            "text": "In conclusion"
+          }
+        ],
+        "notes": {
+          "TA": "Clear position; second idea needs an example.",
+          "CC": "Linkers repeat; paragraph 3 drifts.",
+          "LR": "Good range; a few informal words.",
+          "GRA": "Mixed structures; 4 agreement slips."
+        },
+        "suggestions": [
+          "Vary linkers: swap two “also” for “moreover”, “in addition”.",
+          "Support the employer point with one concrete example."
+        ]
+      }
+    },
+    {
+      "id": "att_w_coffee",
+      "skill": "writing",
+      "kind": "task1",
+      "title": "Coffee exports, bar chart",
+      "refId": "t1_coffee_exports",
+      "band": 6.0,
+      "durationSec": 1140,
+      "daysAgo": 9,
+      "hour": 19,
+      "data": {
+        "text": "The bar chart compares the value of coffee exports from Brazil, Vietnam, Colombia and Ethiopia in 2010 and 2020.\n\nOverall, Brazil was by far the largest exporter in both years, although its exports fell slightly over the decade. The other three countries saw small increases.\n\nIn 2010, Brazil exported coffee worth 5.7 billion dollars, which was three times more than Vietnam and Colombia, which both earned 1.9 billion. Ethiopia had the lowest value at only 0.8 billion. By 2020, the figure for Brazil went down to 4.9 billion.\n\nColombia had the biggest rise, and its exports reached 2.5 billion dollars. Vietnam also increase to 2.2 billion. But Ethiopia stayed almost the same, with a small change from 0.8 to 0.9 billion dollars.\n\nTo sum up, Brazil remained the leader, but the gap between it and the other countries got smaller over the period.",
+        "prompt": "The bar chart shows the value of coffee exported by four countries in 2010 and 2020, in billions of US dollars. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "promptId": "t1_coffee_exports",
+        "task": 1,
+        "criteria": {
+          "TA": 6.0,
+          "CC": 6.0,
+          "LR": 5.5,
+          "GRA": 6.0
+        },
+        "words": 151,
+        "feedback": [
+          "Group similar countries together to make comparisons clearer.",
+          "Use a wider range of verbs to describe change (declined, climbed, levelled off)."
+        ],
+        "issues": [
+          {
+            "id": "i1",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "comparison",
+            "start": 346,
+            "end": 367,
+            "original": "three times more than",
+            "suggestion": "three times as much as",
+            "note": "With multiples, “three times as much as” is the accurate structure for comparing values.",
+            "sentenceIndex": 4
+          },
+          {
+            "id": "i2",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 503,
+            "end": 512,
+            "original": "went down",
+            "suggestion": "declined",
+            "note": "“Went down” is informal. “Declined” or “fell” is better for describing data.",
+            "sentenceIndex": 8
+          },
+          {
+            "id": "i3",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "tense",
+            "start": 614,
+            "end": 627,
+            "original": "also increase",
+            "suggestion": "also increased",
+            "note": "The data describes 2020, which is in the past, so use the past tense “increased”.",
+            "sentenceIndex": 12
+          },
+          {
+            "id": "i4",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "sentence opener",
+            "start": 644,
+            "end": 656,
+            "original": "But Ethiopia",
+            "suggestion": "However, Ethiopia",
+            "note": "Starting a sentence with “But” is informal. Use “However,” instead.",
+            "sentenceIndex": 14
+          },
+          {
+            "id": "i5",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 821,
+            "end": 832,
+            "original": "got smaller",
+            "suggestion": "narrowed",
+            "note": "“Got smaller” is informal. “Narrowed” is the precise verb for a gap.",
+            "sentenceIndex": 17
+          }
+        ],
+        "strengths": [
+          {
+            "start": 114,
+            "end": 121,
+            "text": "Overall"
+          },
+          {
+            "start": 134,
+            "end": 140,
+            "text": "by far"
+          },
+          {
+            "start": 153,
+            "end": 161,
+            "text": "exporter"
+          }
+        ]
+      }
+    },
+    {
+      "id": "att_w_transport",
+      "skill": "writing",
+      "kind": "task2",
+      "title": "Public transport funding",
+      "refId": "t2_public_transport_funding",
+      "band": 6.0,
+      "durationSec": 2460,
+      "daysAgo": 13,
+      "hour": 18,
+      "data": {
+        "text": "Traffic congestion is a serious problem in many cities around the world. Some people argue that governments should invest in public transport, while others believe that building more roads is the best solution. This essay will discuss both views before giving my opinion.\n\nOn the one hand, supporters of new roads say that wider streets allow cars to move faster. In countries where many people already own a car, more roads can reduce journey times in the short term. In addition, roads are essential for delivery trucks, which carry food and other goods to shops.\n\nOn the other hand, I think that spending on buses and trains is a better long-term plan. A single train can carry a lot of passengers, so it takes hundreds of cars off the road. Moreover, public transport produces less pollution per person, which is important for the health of people who live in big cities. Studies also show that new roads often fill up with more cars within a few years, so the problem soon returns.\n\nAnd public transport helps poorer people who cannot afford a car to reach jobs and schools. This makes society more fair and it's good for the economy.\n\nIn conclusion, although building roads can give quick relief, I believe governments should spend more money on public transport because it is cheaper, cleaner and fairer in the long run.",
+        "prompt": "Some people think governments should spend more money on public transport, while others believe building more roads is the better way to reduce traffic. Discuss both views and give your own opinion.",
+        "promptId": "t2_public_transport_funding",
+        "task": 2,
+        "criteria": {
+          "TA": 6.5,
+          "CC": 6.0,
+          "LR": 6.0,
+          "GRA": 5.5
+        },
+        "words": 230,
+        "feedback": [
+          "Give one specific example to support the road-building view.",
+          "Check comparative forms and avoid contractions."
+        ],
+        "issues": [
+          {
+            "id": "i1",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 681,
+            "end": 700,
+            "original": "a lot of passengers",
+            "suggestion": "a large number of passengers",
+            "note": "With countable nouns, “a large number of” is more academic than “a lot of”.",
+            "sentenceIndex": 7
+          },
+          {
+            "id": "i2",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 864,
+            "end": 874,
+            "original": "big cities",
+            "suggestion": "large cities",
+            "note": "“Big” is informal. “Large” or “major” cities sounds more academic.",
+            "sentenceIndex": 8
+          },
+          {
+            "id": "i3",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "sentence opener",
+            "start": 988,
+            "end": 998,
+            "original": "And public",
+            "suggestion": "Furthermore, public",
+            "note": "Starting a sentence with “And” is informal. “Furthermore,” adds the point formally.",
+            "sentenceIndex": 10
+          },
+          {
+            "id": "i4",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "comparative",
+            "start": 1099,
+            "end": 1108,
+            "original": "more fair",
+            "suggestion": "fairer",
+            "note": "“Fair” is a one-syllable adjective, so the comparative is “fairer”.",
+            "sentenceIndex": 11
+          },
+          {
+            "id": "i5",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "contraction",
+            "start": 1113,
+            "end": 1117,
+            "original": "it's",
+            "suggestion": "it is",
+            "note": "Avoid contractions in academic writing: write “it is”.",
+            "sentenceIndex": 11
+          }
+        ],
+        "strengths": [
+          {
+            "start": 8,
+            "end": 18,
+            "text": "congestion"
+          },
+          {
+            "start": 469,
+            "end": 480,
+            "text": "In addition"
+          },
+          {
+            "start": 745,
+            "end": 753,
+            "text": "Moreover"
+          },
+          {
+            "start": 1141,
+            "end": 1154,
+            "text": "In conclusion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "att_w_water",
+      "skill": "writing",
+      "kind": "task1",
+      "title": "Water cycle, process",
+      "refId": "t1_water_cycle",
+      "band": 5.5,
+      "durationSec": 1260,
+      "daysAgo": 17,
+      "hour": 19,
+      "data": {
+        "text": "The diagram show how water moves around the Earth in a cycle.\n\nFirst, the sun heats the water in the oceans and it turns into water vapour. This vapour goes up into the sky. When it is high, the air is cold so the vapour becomes small drops of water and makes clouds.\n\nNext, the clouds move over the land with the wind. When the drops get heavy, they fall down as rain or snow. This is called precipitation. Some of the rain runs over the ground into rivers and lakes, and some goes into the soil and becomes groundwater.\n\nFinally the water in rivers and under the ground goes back to the sea. Then the sun heats it again and the whole process starts again from the beginning.\n\nIn conclusion, the water cycle has four main stages which are evaporation, condensation, precipitation and collection, and it never stops.",
+        "prompt": "The diagram shows the water cycle, the continuous movement of water on, above and below the surface of the Earth. Summarise the information by selecting and reporting the main features.",
+        "promptId": "t1_water_cycle",
+        "task": 1,
+        "criteria": {
+          "TA": 5.5,
+          "CC": 5.5,
+          "LR": 5.5,
+          "GRA": 5.0
+        },
+        "words": 149,
+        "feedback": [
+          "Write at least 150 words.",
+          "Begin with an overview of the number of stages in the process.",
+          "Use the passive voice to describe processes (water is heated…)."
+        ],
+        "issues": [
+          {
+            "id": "i1",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "agreement",
+            "start": 0,
+            "end": 16,
+            "original": "The diagram show",
+            "suggestion": "The diagram shows",
+            "note": "“The diagram” is singular, so the verb needs an -s: “shows”.",
+            "sentenceIndex": 0
+          },
+          {
+            "id": "i2",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 152,
+            "end": 159,
+            "original": "goes up",
+            "suggestion": "rises",
+            "note": "“Goes up” is informal. “Rises” is the precise verb for vapour.",
+            "sentenceIndex": 2
+          },
+          {
+            "id": "i3",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "punctuation",
+            "start": 202,
+            "end": 209,
+            "original": "cold so",
+            "suggestion": "cold, so",
+            "note": "Put a comma before “so” when it joins two full clauses.",
+            "sentenceIndex": 3
+          },
+          {
+            "id": "i4",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 335,
+            "end": 344,
+            "original": "get heavy",
+            "suggestion": "become heavy",
+            "note": "“Get” is informal. “Become” is more suitable for describing a process.",
+            "sentenceIndex": 5
+          },
+          {
+            "id": "i5",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "punctuation",
+            "start": 523,
+            "end": 534,
+            "original": "Finally the",
+            "suggestion": "Finally, the",
+            "note": "Put a comma after an introductory linker such as “Finally”.",
+            "sentenceIndex": 8
+          }
+        ],
+        "strengths": [
+          {
+            "start": 393,
+            "end": 406,
+            "text": "precipitation"
+          },
+          {
+            "start": 509,
+            "end": 520,
+            "text": "groundwater"
+          },
+          {
+            "start": 740,
+            "end": 751,
+            "text": "evaporation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "att_w_remote_2",
+      "skill": "writing",
+      "kind": "task2",
+      "title": "Remote work",
+      "refId": "t2_remote_work",
+      "band": 5.5,
+      "durationSec": 2400,
+      "daysAgo": 20,
+      "hour": 21,
+      "data": {
+        "text": "Nowadays many people work from home instead of going to the office. I think this is good for workers and also for companies, but there are some problems too.\n\nFirstly, workers do not need to travel, so they save a lot of time and money. In Dhaka the traffic is very heavy and people spend two hours every day on the bus. If they work at home they can sleep more and they are not tired.\n\nSecondly, companies can pay less for offices. They don't need a big building so they can use the money for other things like salaries. Also the workers are more happy so they do not leave the company.\n\nBut there are some disadvantages. Some people feel alone at home and they cannot ask their colleagues when they have a problem. Also the internet is sometimes slow in some areas.\n\nIn conclusion, I think working from home is good for both workers and companies, but the companies should help the workers who feel alone.",
+        "prompt": "Some people believe that working from home benefits both employees and employers. To what extent do you agree or disagree?",
+        "promptId": "t2_remote_work",
+        "task": 2,
+        "criteria": {
+          "TA": 6.0,
+          "CC": 5.5,
+          "LR": 5.0,
+          "GRA": 5.5
+        },
+        "words": 168,
+        "feedback": [
+          "Write at least 250 words — you wrote 168.",
+          "Use more linking words (however, moreover, as a result) to improve coherence."
+        ],
+        "issues": [
+          {
+            "id": "i1",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 212,
+            "end": 225,
+            "original": "a lot of time",
+            "suggestion": "a great deal of time",
+            "note": "“A lot of” is informal. “A great deal of” suits uncountable nouns in formal writing.",
+            "sentenceIndex": 2
+          },
+          {
+            "id": "i2",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "contraction",
+            "start": 438,
+            "end": 443,
+            "original": "don't",
+            "suggestion": "do not",
+            "note": "Avoid contractions in academic writing: write “do not”.",
+            "sentenceIndex": 6
+          },
+          {
+            "id": "i3",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 451,
+            "end": 463,
+            "original": "big building",
+            "suggestion": "large building",
+            "note": "“Big” is informal. Use “large”.",
+            "sentenceIndex": 6
+          },
+          {
+            "id": "i4",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "comparative",
+            "start": 543,
+            "end": 553,
+            "original": "more happy",
+            "suggestion": "happier",
+            "note": "“Happy” forms its comparative with -er: “happier”.",
+            "sentenceIndex": 7
+          },
+          {
+            "id": "i5",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "sentence opener",
+            "start": 589,
+            "end": 598,
+            "original": "But there",
+            "suggestion": "However, there",
+            "note": "Starting a sentence with “But” is informal. Use “However,”.",
+            "sentenceIndex": 8
+          }
+        ],
+        "strengths": [
+          {
+            "start": 680,
+            "end": 690,
+            "text": "colleagues"
+          },
+          {
+            "start": 769,
+            "end": 782,
+            "text": "In conclusion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "att_w_remote_1",
+      "skill": "writing",
+      "kind": "task2",
+      "title": "Remote work",
+      "refId": "t2_remote_work",
+      "band": 5.0,
+      "durationSec": 2100,
+      "daysAgo": 27,
+      "hour": 20,
+      "data": {
+        "text": "Working from home is very popular now. Many people like it and many companies like it too. I agree that it is good for employees and employers.\n\nEmployees can stay at home with their family and they don't have to sit in traffic. This is good because traffic in my city is really bad. They can also wear comfortable clothes and eat at home, which save money.\n\nEmployers also have benefits. They do not need to rent a big office and they can save a lot of money. And workers work more hours at home because they do not travel.\n\nBut some workers are lazy at home and the boss cannot see them. This is a problem for the company.\n\nIn conclusion, working from home is good for employees and employers, but companies must check the work of their staff.",
+        "prompt": "Some people believe that working from home benefits both employees and employers. To what extent do you agree or disagree?",
+        "promptId": "t2_remote_work",
+        "task": 2,
+        "criteria": {
+          "TA": 5.5,
+          "CC": 5.0,
+          "LR": 4.5,
+          "GRA": 5.0
+        },
+        "words": 140,
+        "feedback": [
+          "Write at least 250 words — you wrote 140.",
+          "Organise your answer into clear paragraphs with one main idea each.",
+          "Vary your vocabulary — avoid repeating the same words."
+        ],
+        "issues": [
+          {
+            "id": "i1",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "contraction",
+            "start": 199,
+            "end": 204,
+            "original": "don't",
+            "suggestion": "do not",
+            "note": "Avoid contractions in academic writing: write “do not”.",
+            "sentenceIndex": 3
+          },
+          {
+            "id": "i2",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "repetition",
+            "start": 229,
+            "end": 241,
+            "original": "This is good",
+            "suggestion": "This is beneficial",
+            "note": "You use “good” three times. A synonym such as “beneficial” shows a wider range.",
+            "sentenceIndex": 4
+          },
+          {
+            "id": "i3",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal word",
+            "start": 272,
+            "end": 282,
+            "original": "really bad",
+            "suggestion": "particularly severe",
+            "note": "“Really bad” is conversational. “Particularly severe” is more precise.",
+            "sentenceIndex": 4
+          },
+          {
+            "id": "i4",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "agreement",
+            "start": 340,
+            "end": 350,
+            "original": "which save",
+            "suggestion": "which saves",
+            "note": "“Which” refers to the whole idea, so use the singular verb “saves”.",
+            "sentenceIndex": 5
+          },
+          {
+            "id": "i5",
+            "type": "vocab",
+            "title": "Vocabulary",
+            "label": "informal phrase",
+            "start": 445,
+            "end": 459,
+            "original": "a lot of money",
+            "suggestion": "a considerable amount of money",
+            "note": "“A lot of” is informal. Use “a considerable amount of”.",
+            "sentenceIndex": 7
+          },
+          {
+            "id": "i6",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "sentence opener",
+            "start": 461,
+            "end": 472,
+            "original": "And workers",
+            "suggestion": "Moreover, workers",
+            "note": "Starting a sentence with “And” is informal. Use “Moreover,”.",
+            "sentenceIndex": 8
+          },
+          {
+            "id": "i7",
+            "type": "grammar",
+            "title": "Grammar",
+            "label": "sentence opener",
+            "start": 526,
+            "end": 534,
+            "original": "But some",
+            "suggestion": "However, some",
+            "note": "Starting a sentence with “But” is informal. Use “However,”.",
+            "sentenceIndex": 9
+          }
+        ],
+        "strengths": [
+          {
+            "start": 303,
+            "end": 314,
+            "text": "comfortable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "att_w_drill_1",
+      "skill": "writing",
+      "kind": "drill",
+      "title": "Writing Booster · Make sentences",
+      "refId": "sb_set_make_sentences",
+      "band": null,
+      "score": 5,
+      "total": 6,
+      "durationSec": 480,
+      "daysAgo": 3,
+      "hour": 19,
+      "data": {
+        "results": [
+          {
+            "id": "sb_01",
+            "correct": true
+          },
+          {
+            "id": "sb_02",
+            "correct": true
+          },
+          {
+            "id": "sb_03",
+            "correct": true
+          },
+          {
+            "id": "sb_04",
+            "correct": false
+          },
+          {
+            "id": "sb_05",
+            "correct": true
+          },
+          {
+            "id": "sb_06",
+            "correct": true
+          }
+        ]
+      }
+    }
+  ],
+  "kv": {
+    "writing.draft.task2": {
+      "promptId": "t2_free_public_transport",
+      "text": "Public transport is used by millions of people every day, and some argue that it should be completely free. I partly agree with this view, because free buses and trains would bring clear benefits, although the cost to governments would be high.\n\nThe main advantage of free public transport is that it would encourage more people to leave their cars at home. In cities such as Dhaka, where traffic jams waste hours every day, even a small shift from private cars to buses could reduce congestion and air pollution. Moreover, low-income families, who spend a large share of their wages on travel, would have more money for food, education and healthcare.\n\nHowever, running a transport network is extremely expensive. If passengers paid nothing, the money would have to come from taxes, and many people who never use buses or trains would feel that this is unfair. In addition, free services could become overcrowded at peak times, which might discourage",
+      "elapsedSec": 1140
+    },
+    "writing.lessons.done": [
+      "wl_01",
+      "wl_02",
+      "wl_03"
+    ],
+    "writing.lessons.pos": {
+      "wl_04": 192
+    },
+    "writing.template.values": {
+      "tpl_opinion|0|1": "remote work",
+      "tpl_opinion|0|3": "employers and staff"
+    },
+    "writing.ideas.bookmarks": [
+      "t2_air_travel_tax",
+      "t2_remote_work"
+    ]
+  }
+}

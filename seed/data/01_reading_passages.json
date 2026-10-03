@@ -1,0 +1,2154 @@
+{
+  "table": "reading_passages",
+  "items": [
+    {
+      "id": "rp_01",
+      "title": "The Return of the Urban Beekeeper",
+      "topic": "Environment",
+      "difficulty": "easy",
+      "words": 730,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Twenty years ago, keeping bees in a city was considered eccentric, the kind of pastime pursued by a handful of enthusiasts with more patience than neighbours. Today, hives sit on the roofs of hotels, offices and schools in cities from London to Tokyo, and urban honey has become a small but profitable industry. Bees were first kept on London rooftops in noticeable numbers in the 1990s, but the number of hives only rose sharply after 2008, when news reports about declining bee populations persuaded many city dwellers that they could personally help. Some companies now pay specialist firms to install and look after hives, and hand out jars of 'rooftop honey' to guests and clients as a symbol of their environmental commitment."
+        },
+        {
+          "letter": "B",
+          "text": "Supporters argue that cities offer bees a surprising advantage. Parks, gardens, cemeteries and street trees provide a variety of flowers across a long season, from early crocuses in February to late-flowering ivy in October, while pesticide use is often lower than on farmland, where huge fields may be planted with a single crop. Cities are also slightly warmer than the surrounding countryside, which allows bees to forage on cool days when rural colonies stay inside the hive. Railway embankments and canal banks, often left undisturbed for years, add further strips of wild vegetation. Many beekeepers also report that urban colonies are calmer and easier to manage, although there is little scientific evidence to support this claim."
+        },
+        {
+          "letter": "C",
+          "text": "Yet some ecologists are cautious. They point out that honeybees compete with wild pollinators for the same flowers, and that a rapid rise in hives may harm local bumblebee populations. A single honeybee colony can contain up to 50,000 workers, which together visit millions of flowers in a season, whereas a bumblebee nest rarely holds more than a few hundred insects. Productivity is also lower than many assume: a survey of 400 London hives found that city colonies yielded, on average, slightly less honey than those in the countryside, largely because forage runs out by late summer. In the most crowded districts, researchers estimated that there were more hives than the available flowers could support. Some scientists also worry that dense clusters of hives make it easier for parasites such as the varroa mite to pass from one colony to the next."
+        },
+        {
+          "letter": "D",
+          "text": "In response, several cities have introduced rules for new beekeepers. In Paris and Toronto, hives must now be registered with the local council, and some London boroughs limit the number of colonies allowed on a single building. Beginners are increasingly required to complete a short training course before they are given a permit. Supporters of the rules say that they protect not only wild insects but also the bees themselves, since poorly managed colonies are more likely to spread disease to neighbouring hives. Critics, however, argue that registration is difficult to enforce, as many hobbyists simply ignore it and inspectors rarely have time to climb onto roofs."
+        },
+        {
+          "letter": "E",
+          "text": "Other groups are focusing on food rather than hives. Community projects encourage residents to plant lavender, clover and fruit trees on balconies and in empty lots, so that both honeybees and wild species have enough to eat. One Berlin scheme has planted more than 30,000 flowering shrubs since 2015, choosing species that bloom in late summer, when food is scarcest. In London, volunteers now record the flowering times of street trees so that gaps in the food supply can be identified and filled. Some local authorities have also stopped cutting the grass on roadside verges so often, allowing wild flowers such as dandelions and knapweed to grow. Early results suggest that these 'pollinator corridors' benefit a far wider range of insects than new hives do, including butterflies, hoverflies and solitary bees."
+        },
+        {
+          "letter": "F",
+          "text": "For most urban beekeepers, profit is not the main motivation. Surveys suggest that the majority keep bees to reconnect with nature, and many donate their honey to local schools. Teachers who host hives say that pupils who were once afraid of insects quickly become fascinated by the organised life of the colony, and some schools now use the hive to teach biology, mathematics and even business skills. As one keeper put it, the real product of a city hive is not honey but curiosity. Whether that curiosity eventually extends to the thousands of less visible species that share the city with honeybees may decide whether the urban beekeeping boom is remembered as a success."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Urban honey is now sold for a profit.",
+              "answer": "TRUE",
+              "evidenceParagraph": "A",
+              "evidence": "urban honey has become a small but profitable industry",
+              "explanation": "Paragraph A says urban honey has become **a small but profitable industry**, so the statement agrees with the passage."
+            },
+            {
+              "number": 2,
+              "text": "The number of hives in London grew quickly throughout the 1990s.",
+              "answer": "FALSE",
+              "evidenceParagraph": "A",
+              "evidence": "the number of hives only rose sharply after 2008",
+              "explanation": "Bees were kept in the 1990s, but numbers **only rose sharply after 2008**. The word \"only\" contradicts rapid growth in the 1990s, so the answer is FALSE."
+            },
+            {
+              "number": 3,
+              "text": "Temperatures in cities are a little higher than in the nearby countryside.",
+              "answer": "TRUE",
+              "evidenceParagraph": "B",
+              "evidence": "Cities are also slightly warmer than the surrounding countryside",
+              "explanation": "\"A little higher\" paraphrases **slightly warmer**, and \"nearby countryside\" paraphrases **surrounding countryside**. The answer is TRUE."
+            },
+            {
+              "number": 4,
+              "text": "Research has proved that urban bee colonies are calmer than rural ones.",
+              "answer": "FALSE",
+              "evidenceParagraph": "B",
+              "evidence": "there is little scientific evidence to support this claim",
+              "explanation": "Beekeepers *report* that urban colonies are calmer, but the passage says there is **little scientific evidence** for this. The statement says it has been proved, so it is FALSE."
+            },
+            {
+              "number": 5,
+              "text": "Honey from city hives tastes different from countryside honey.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "C",
+              "evidence": "slightly less honey than those in the countryside",
+              "explanation": "Paragraph C compares the **amount** of honey, not its taste. Taste is never mentioned, so the answer is NOT GIVEN."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "heading",
+          "title": "Match each paragraph to a heading",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings. There are more headings than paragraphs.",
+          "headings": [
+            {
+              "key": "i",
+              "text": "A hobby becomes a business"
+            },
+            {
+              "key": "ii",
+              "text": "Why cities suit bees"
+            },
+            {
+              "key": "iii",
+              "text": "Too many bees for too few flowers"
+            },
+            {
+              "key": "iv",
+              "text": "Regulating newcomers to the hobby"
+            },
+            {
+              "key": "v",
+              "text": "Feeding insects instead of adding hives"
+            },
+            {
+              "key": "vi",
+              "text": "Selling city honey abroad"
+            },
+            {
+              "key": "vii",
+              "text": "A reward that is educational rather than financial"
+            },
+            {
+              "key": "viii",
+              "text": "The cost of installing a rooftop hive"
+            }
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph C",
+              "paragraph": "C",
+              "answer": "iii",
+              "evidenceParagraph": "C",
+              "evidence": "honeybees compete with wild pollinators for the same flowers",
+              "explanation": "Paragraph C explains that honeybees **compete** with wild pollinators and that some districts have **more hives than the available flowers could support**. That is heading iii."
+            },
+            {
+              "number": 7,
+              "text": "Paragraph D",
+              "paragraph": "D",
+              "answer": "iv",
+              "evidenceParagraph": "D",
+              "evidence": "several cities have introduced rules for new beekeepers",
+              "explanation": "The whole paragraph is about **registration, limits and training** for beginners, which matches heading iv."
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "paragraph": "E",
+              "answer": "v",
+              "evidenceParagraph": "E",
+              "evidence": "Other groups are focusing on food rather than hives",
+              "explanation": "Paragraph E is about **planting flowers** for insects rather than adding hives. Heading iii is a trap: shortage of flowers is the problem in C, but E describes the solution."
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "paragraph": "F",
+              "answer": "vii",
+              "evidenceParagraph": "F",
+              "evidence": "profit is not the main motivation",
+              "explanation": "Paragraph F says **profit is not the main motivation** and describes how hives are used to teach pupils. Heading i is a trap: business is mentioned in A, not F."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "title": "Complete the sentences",
+          "instruction": "Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "Some London boroughs limit the number of colonies on a single ______.",
+              "accepted": [
+                "building",
+                "a single building"
+              ],
+              "answer": "building",
+              "evidenceParagraph": "D",
+              "evidence": "limit the number of colonies allowed on a single building",
+              "explanation": "Paragraph D says some boroughs limit colonies **on a single building**."
+            },
+            {
+              "number": 11,
+              "text": "Poorly managed colonies are more likely to spread ______ to neighbouring hives.",
+              "accepted": [
+                "disease"
+              ],
+              "answer": "disease",
+              "evidenceParagraph": "D",
+              "evidence": "more likely to spread disease to neighbouring hives",
+              "explanation": "The rules protect bees because badly managed colonies may spread **disease**."
+            },
+            {
+              "number": 12,
+              "text": "The Berlin scheme chose shrubs that flower in ______, when food is scarcest.",
+              "accepted": [
+                "late summer"
+              ],
+              "answer": "late summer",
+              "evidenceParagraph": "E",
+              "evidence": "choosing species that bloom in late summer",
+              "explanation": "\"Flower\" paraphrases **bloom**; the answer is **late summer** (two words, within the limit)."
+            },
+            {
+              "number": 13,
+              "text": "Wild flowers now grow because councils cut the grass on roadside ______ less often.",
+              "accepted": [
+                "verges",
+                "roadside verges"
+              ],
+              "answer": "verges",
+              "evidenceParagraph": "E",
+              "evidence": "stopped cutting the grass on roadside verges so often",
+              "explanation": "The word after \"roadside\" in paragraph E is **verges**."
+            }
+          ]
+        }
+      ],
+      "part": 1
+    },
+    {
+      "id": "rp_02",
+      "title": "Messages Under the Pavement: The Pneumatic Post",
+      "topic": "History",
+      "difficulty": "medium",
+      "words": 760,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "For roughly a century, the fastest way to send a written message across many European cities was neither the telegraph nor the telephone, but a network of metal tubes buried beneath the streets. Letters were rolled up, sealed inside cylindrical canisters and pushed through the pipes by compressed air, arriving at a distant post office within minutes. At its peak, the Paris system alone contained more than 400 kilometres of tubing, and the pale blue letter cards it carried became so familiar that Parisians simply called them 'blues'. Yet by the late twentieth century almost all of these networks had fallen silent, and today few city residents know that they ever existed."
+        },
+        {
+          "letter": "B",
+          "text": "The idea of moving objects through tubes using air pressure was not new. Engineers had experimented with it since the early nineteenth century, and several ambitious schemes proposed carrying passengers in pneumatic trains. Most of these failed, largely because it proved impossible to keep the long leather seals along the track airtight, particularly in cold or wet weather. Message tubes, by contrast, were narrow enough to be made from ordinary iron pipe, and the canisters inside them were light enough to be moved with modest amounts of pressure. The first practical system was installed in London in 1853, linking the stock exchange with the central telegraph station a few hundred metres away."
+        },
+        {
+          "letter": "C",
+          "text": "That first line reveals the problem the technology was designed to solve. The electric telegraph could carry a message between cities in seconds, but once it reached a central office it still had to be delivered by hand across congested streets. Telegraph companies found that this final stage often took longer than the transmission itself. Messenger boys on foot and horse-drawn carriages were slow and expensive, and in the busiest financial districts, where a delay of ten minutes could cost a trader a fortune, customers were unwilling to wait. Tubes offered a way to move paper between offices without entering the traffic at all."
+        },
+        {
+          "letter": "D",
+          "text": "Over the following decades, systems spread to Berlin, Vienna, Paris, Prague and dozens of other cities. Their layout varied, but most were built as a series of loops, with canisters travelling in one direction only and being transferred by hand at junction offices. Steam engines at central stations compressed air to push the carriers forward, while vacuum pumps drew them along return lines. A typical canister moved at 30 to 40 kilometres per hour, which was slower than a train but considerably faster than any vehicle in the crowded streets above. Crucially, the service was also opened to the general public, who could pay a premium to send a letter across the city in under two hours."
+        },
+        {
+          "letter": "E",
+          "text": "For ordinary citizens, the pneumatic post occupied a position somewhere between a letter and a telephone call. Diaries and novels of the period suggest that it was used for arrangements that were urgent but not quite urgent enough to justify a telegram: confirming dinner invitations, cancelling appointments or sending a quick apology. Because the letter cards were cheap and could be written in a hurry, they encouraged a brief, almost conversational style of writing. Some historians have compared this to the text messages of the early twenty-first century, although others think the comparison exaggerates how frequently most people used the service."
+        },
+        {
+          "letter": "F",
+          "text": "The decline of the tubes was gradual rather than sudden. The spread of the private telephone after the Second World War removed much of the demand for fast short messages, and the cost of maintaining ageing pipes under constantly redeveloped streets rose steadily. Blockages were a persistent difficulty: when a canister became stuck, workers had to calculate its position by measuring the air pressure, then dig up the road to remove it. Berlin closed its public network in the 1970s, and Paris followed in 1984. In most cities, the pipes were simply abandoned where they lay, and many remain underground to this day."
+        },
+        {
+          "letter": "G",
+          "text": "Yet the underlying technology never entirely disappeared. Hospitals, banks and supermarkets continue to use smaller pneumatic systems to transport blood samples, cash and documents between departments, and modern versions are controlled by computers that can route a carrier automatically to any of hundreds of stations. For some engineers, the old city networks also offer an intriguing lesson. Proposals to deliver parcels through underground pipes, reducing the number of vans on city streets, are essentially a larger version of an idea that the nineteenth century had already made work. Whether such schemes can overcome the cost of digging new tunnels beneath modern cities remains to be seen."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching",
+          "title": "Which paragraph contains the following information?",
+          "instruction": "Write the correct letter. You may use any letter more than once.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "an explanation of why early attempts to carry people by air pressure were unsuccessful",
+              "answer": "B",
+              "evidenceParagraph": "B",
+              "evidence": "it proved impossible to keep the long leather seals along the track airtight",
+              "explanation": "Paragraph B says passenger schemes failed because the **leather seals could not be kept airtight**."
+            },
+            {
+              "number": 2,
+              "text": "a description of how workers found a canister that had become stuck",
+              "answer": "F",
+              "evidenceParagraph": "F",
+              "evidence": "calculate its position by measuring the air pressure",
+              "explanation": "Paragraph F explains that workers located blockages by **measuring the air pressure**."
+            },
+            {
+              "number": 3,
+              "text": "a comparison with a more recent form of communication",
+              "answer": "E",
+              "evidenceParagraph": "E",
+              "evidence": "compared this to the text messages of the early twenty-first century",
+              "explanation": "Paragraph E compares pneumatic letter cards to **text messages**."
+            },
+            {
+              "number": 4,
+              "text": "examples of organisations that still use the technology today",
+              "answer": "G",
+              "evidenceParagraph": "G",
+              "evidence": "Hospitals, banks and supermarkets continue to use smaller pneumatic systems",
+              "explanation": "Paragraph G lists **hospitals, banks and supermarkets** as current users."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 5,
+              "text": "The first working message tube connected two places in the same city.",
+              "answer": "TRUE",
+              "evidenceParagraph": "B",
+              "evidence": "linking the stock exchange with the central telegraph station a few hundred metres away",
+              "explanation": "The London line linked two buildings **a few hundred metres away** from each other, so they were in the same city. TRUE."
+            },
+            {
+              "number": 6,
+              "text": "Delivering a telegram inside a city could take longer than sending it between cities.",
+              "answer": "TRUE",
+              "evidenceParagraph": "C",
+              "evidence": "this final stage often took longer than the transmission itself",
+              "explanation": "Paragraph C says the hand delivery stage **often took longer than the transmission itself**. TRUE."
+            },
+            {
+              "number": 7,
+              "text": "In most networks, canisters could travel in either direction through the same tube.",
+              "answer": "FALSE",
+              "evidenceParagraph": "D",
+              "evidence": "canisters travelling in one direction only",
+              "explanation": "Paragraph D says canisters travelled **in one direction only**, which contradicts the statement. FALSE."
+            },
+            {
+              "number": 8,
+              "text": "Canisters in the tubes moved faster than trains.",
+              "answer": "FALSE",
+              "evidenceParagraph": "D",
+              "evidence": "slower than a train but considerably faster than any vehicle in the crowded streets above",
+              "explanation": "Canisters were **slower than a train**; they were only faster than street traffic. FALSE."
+            },
+            {
+              "number": 9,
+              "text": "The Paris network was longer than the Berlin network.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "A",
+              "evidence": "the Paris system alone contained more than 400 kilometres of tubing",
+              "explanation": "The passage gives the length of the **Paris** system only. Berlin's size is never stated, so we cannot compare them: NOT GIVEN."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "mcq",
+          "title": "Choose the correct letter, A, B, C or D",
+          "questions": [
+            {
+              "number": 10,
+              "text": "According to paragraph C, tubes were especially valuable in financial districts because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "telegraph lines there were often damaged"
+                },
+                {
+                  "key": "B",
+                  "text": "even short delays could be very costly"
+                },
+                {
+                  "key": "C",
+                  "text": "messenger boys refused to work there"
+                },
+                {
+                  "key": "D",
+                  "text": "the streets were too narrow for carriages"
+                }
+              ],
+              "answer": "B",
+              "evidenceParagraph": "C",
+              "evidence": "a delay of ten minutes could cost a trader a fortune",
+              "explanation": "A **ten-minute delay could cost a trader a fortune**, so speed mattered most there. The other options are not mentioned."
+            },
+            {
+              "number": 11,
+              "text": "The writer says that the cheap letter cards encouraged people to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "write in a short, informal way"
+                },
+                {
+                  "key": "B",
+                  "text": "send more telegrams"
+                },
+                {
+                  "key": "C",
+                  "text": "keep a personal diary"
+                },
+                {
+                  "key": "D",
+                  "text": "stop using the telephone"
+                }
+              ],
+              "answer": "A",
+              "evidenceParagraph": "E",
+              "evidence": "they encouraged a brief, almost conversational style of writing",
+              "explanation": "\"Short, informal\" paraphrases **brief, almost conversational**. Diaries are mentioned only as historical sources."
+            },
+            {
+              "number": 12,
+              "text": "What were the main reasons for the decline of the pneumatic post?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "A sudden series of pipe failures"
+                },
+                {
+                  "key": "B",
+                  "text": "The arrival of computer networks"
+                },
+                {
+                  "key": "C",
+                  "text": "Wider telephone ownership and rising maintenance costs"
+                },
+                {
+                  "key": "D",
+                  "text": "A government ban on underground systems"
+                }
+              ],
+              "answer": "C",
+              "evidenceParagraph": "F",
+              "evidence": "The spread of the private telephone after the Second World War removed much of the demand for fast short messages",
+              "explanation": "Paragraph F names **the private telephone** and the **rising cost of maintaining ageing pipes**. It also says the decline was **gradual rather than sudden**, which rules out A."
+            },
+            {
+              "number": 13,
+              "text": "Why does the writer mention proposals to deliver parcels through underground pipes?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "To criticise modern engineers"
+                },
+                {
+                  "key": "B",
+                  "text": "To show that an old idea may still be relevant"
+                },
+                {
+                  "key": "C",
+                  "text": "To explain why the city networks were abandoned"
+                },
+                {
+                  "key": "D",
+                  "text": "To argue that delivery vans should be banned"
+                }
+              ],
+              "answer": "B",
+              "evidenceParagraph": "G",
+              "evidence": "essentially a larger version of an idea that the nineteenth century had already made work",
+              "explanation": "The writer presents parcel pipes as **a larger version** of the nineteenth-century idea, showing that it remains relevant."
+            }
+          ]
+        }
+      ],
+      "part": 2
+    },
+    {
+      "id": "rp_03",
+      "title": "The Elastic Hour: How the Mind Builds Time",
+      "topic": "Science",
+      "difficulty": "hard",
+      "words": 780,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Few experiences are as universal, or as puzzling, as the sense that time does not pass at a constant rate. A ten-minute wait for a delayed train can feel interminable, while an absorbing conversation of the same length seems to vanish. Older adults commonly report that the years now slip by far more quickly than they did in childhood. For much of the twentieth century, psychologists tended to explain such impressions by appealing to a single internal clock: a hypothetical pacemaker emitting regular pulses, which the brain counted in order to estimate duration. When the clock ran fast, as it was thought to do under stress or excitement, more pulses accumulated and an interval seemed longer."
+        },
+        {
+          "letter": "B",
+          "text": "The internal-clock model has proved remarkably durable, not least because it makes clear predictions that can be tested in the laboratory. Participants who are mildly warmed, given stimulants or shown threatening images do tend to overestimate short intervals, which is consistent with a pacemaker that has been sped up. Yet a growing body of research suggests that the model, at least in its simplest form, cannot account for many of the distortions people experience in everyday life. There is, for one thing, no convincing anatomical evidence of a dedicated timing organ; instead, timing-related activity appears across numerous brain regions and seems to depend heavily on the kind of task being performed."
+        },
+        {
+          "letter": "C",
+          "text": "A crucial distinction, now widely accepted, is between prospective and retrospective judgements of time. In a prospective judgement, a person knows in advance that they will be asked how long something lasts and can deliberately attend to its passage. In a retrospective judgement, the question comes as a surprise, and the person must reconstruct the duration afterwards from memory. The two appear to rely on quite different processes. Prospective estimates are strongly affected by attention: the more closely one monitors time, the more slowly it seems to pass, which is why a watched pot proverbially never boils. Retrospective estimates, by contrast, seem to be governed less by attention than by the quantity of distinct memories an interval has left behind."
+        },
+        {
+          "letter": "D",
+          "text": "This distinction helps to resolve what is sometimes called the holiday paradox. While on an unfamiliar and eventful holiday, people often feel that the days are flying past, since their attention is occupied by novel surroundings rather than by the clock. On returning home, however, the same week may seem to have lasted far longer than a week at work, because it is richly stocked with separate memories. A routine week, which may have dragged at the time, collapses in retrospect into a handful of indistinguishable recollections. The paradox, in other words, arises because experience and memory apply different measures to the same stretch of time."
+        },
+        {
+          "letter": "E",
+          "text": "Laboratory studies of the so-called oddball effect point in a similar direction. When participants watch a sequence of identical images interrupted by a single unexpected one, they consistently judge the unexpected image to have been displayed for longer, even when all the images appeared for exactly the same period. One interpretation is that the brain responds less vigorously to stimuli it has already encountered and can predict, and that this reduced response is misread as a shorter duration. On this account, the perception of time is not read directly from a clock at all but inferred from the amount of neural effort that a moment demands."
+        },
+        {
+          "letter": "F",
+          "text": "Such findings have prompted a reinterpretation of the familiar complaint that life accelerates with age. Although the complaint has sometimes been attributed to a general slowing of biological processes, there is little experimental support for the idea that older people's judgements of short intervals differ markedly from those of younger adults. A more persuasive explanation may be that adult life simply contains fewer genuinely new experiences. Childhood and adolescence are crowded with first occasions, such as first journeys, first jobs and first friendships, each of which lays down a distinct memory. Later decades, organised around established routines, may provide memory with less material from which to reconstruct their length."
+        },
+        {
+          "letter": "G",
+          "text": "If this reasoning is correct, it carries a modestly encouraging implication. The apparent speed of passing years may not be an inevitable consequence of ageing but, at least in part, a product of how one lives. Some researchers have suggested, only half in jest, that deliberately seeking out novelty, whether by learning a skill, visiting unfamiliar places or varying daily routes, might lengthen one's life, not in objective terms but in the way it is remembered. The claim remains largely untested, and critics caution that novelty can itself become routine. Nevertheless, it reflects a significant shift in thinking: time, as experienced, is less something the mind measures than something it constructs."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "heading",
+          "title": "Match each paragraph to a heading",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings. There are more headings than paragraphs.",
+          "headings": [
+            {
+              "key": "i",
+              "text": "The appeal and the limits of a traditional explanation"
+            },
+            {
+              "key": "ii",
+              "text": "Two ways of judging how long something lasted"
+            },
+            {
+              "key": "iii",
+              "text": "Why an eventful week can seem both short and long"
+            },
+            {
+              "key": "iv",
+              "text": "Predictability and the perception of duration"
+            },
+            {
+              "key": "v",
+              "text": "A fresh account of a common complaint about ageing"
+            },
+            {
+              "key": "vi",
+              "text": "The possibility that remembered time can be extended"
+            },
+            {
+              "key": "vii",
+              "text": "The discovery of a timing organ in the brain"
+            },
+            {
+              "key": "viii",
+              "text": "Cultural differences in attitudes towards punctuality"
+            },
+            {
+              "key": "ix",
+              "text": "How stress damages memory of events"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Paragraph B",
+              "paragraph": "B",
+              "answer": "i",
+              "evidenceParagraph": "B",
+              "evidence": "The internal-clock model has proved remarkably durable",
+              "explanation": "Paragraph B first explains why the clock model has **lasted** (it is testable) and then why it **cannot account for** everyday distortions. Heading vii is a trap: the paragraph says there is **no** convincing evidence of a timing organ."
+            },
+            {
+              "number": 2,
+              "text": "Paragraph C",
+              "paragraph": "C",
+              "answer": "ii",
+              "evidenceParagraph": "C",
+              "evidence": "A crucial distinction, now widely accepted, is between prospective and retrospective judgements of time",
+              "explanation": "Paragraph C defines **prospective** and **retrospective** judgements, the two ways of judging duration."
+            },
+            {
+              "number": 3,
+              "text": "Paragraph D",
+              "paragraph": "D",
+              "answer": "iii",
+              "evidenceParagraph": "D",
+              "evidence": "This distinction helps to resolve what is sometimes called the holiday paradox",
+              "explanation": "A holiday feels short while it happens but long in memory: the **holiday paradox** in heading iii."
+            },
+            {
+              "number": 4,
+              "text": "Paragraph E",
+              "paragraph": "E",
+              "answer": "iv",
+              "evidenceParagraph": "E",
+              "evidence": "the brain responds less vigorously to stimuli it has already encountered and can predict",
+              "explanation": "The oddball effect links **predictable** stimuli to shorter perceived durations, which is heading iv."
+            },
+            {
+              "number": 5,
+              "text": "Paragraph F",
+              "paragraph": "F",
+              "answer": "v",
+              "evidenceParagraph": "F",
+              "evidence": "Such findings have prompted a reinterpretation of the familiar complaint that life accelerates with age",
+              "explanation": "Paragraph F offers a **new explanation** (fewer new experiences) for the feeling that life speeds up with age."
+            },
+            {
+              "number": 6,
+              "text": "Paragraph G",
+              "paragraph": "G",
+              "answer": "vi",
+              "evidenceParagraph": "G",
+              "evidence": "might lengthen one's life, not in objective terms but in the way it is remembered",
+              "explanation": "Paragraph G suggests novelty could make life **seem longer in memory**, which matches heading vi."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "ynng",
+          "title": "Yes / No / Not Given",
+          "instruction": "Do the following statements agree with the views of the writer?",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 7,
+              "text": "One reason the internal-clock model has survived is that it can be tested experimentally.",
+              "answer": "YES",
+              "evidenceParagraph": "B",
+              "evidence": "not least because it makes clear predictions that can be tested in the laboratory",
+              "explanation": "The writer says the model has been durable **not least because** its predictions **can be tested in the laboratory**. YES."
+            },
+            {
+              "number": 8,
+              "text": "Most researchers still dispute the distinction between prospective and retrospective judgements.",
+              "answer": "NO",
+              "evidenceParagraph": "C",
+              "evidence": "A crucial distinction, now widely accepted",
+              "explanation": "The writer describes the distinction as **now widely accepted**, which contradicts the statement. NO."
+            },
+            {
+              "number": 9,
+              "text": "A general slowing of biological processes is the most convincing explanation for time seeming to speed up with age.",
+              "answer": "NO",
+              "evidenceParagraph": "F",
+              "evidence": "there is little experimental support for the idea",
+              "explanation": "The writer says there is **little experimental support** for this and calls a different explanation **more persuasive**. NO."
+            },
+            {
+              "number": 10,
+              "text": "The oddball effect is stronger in children than in adults.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "E",
+              "evidence": "they consistently judge the unexpected image to have been displayed for longer",
+              "explanation": "Paragraph E describes the oddball effect but never compares **age groups**. NOT GIVEN."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "mcq",
+          "title": "Choose the correct letter, A, B, C or D",
+          "questions": [
+            {
+              "number": 11,
+              "text": "According to paragraph C, retrospective estimates of time depend mainly on",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "how carefully a person watched the clock"
+                },
+                {
+                  "key": "B",
+                  "text": "the number of distinct memories that were formed"
+                },
+                {
+                  "key": "C",
+                  "text": "the person's level of stress at the time"
+                },
+                {
+                  "key": "D",
+                  "text": "how surprising the question was"
+                }
+              ],
+              "answer": "B",
+              "evidenceParagraph": "C",
+              "evidence": "the quantity of distinct memories an interval has left behind",
+              "explanation": "Retrospective estimates depend on **the quantity of distinct memories**. Option A describes *prospective* estimates, which depend on attention."
+            },
+            {
+              "number": 12,
+              "text": "What does the writer say about the suggestion that novelty could lengthen life?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It has been confirmed by several studies."
+                },
+                {
+                  "key": "B",
+                  "text": "It was intended entirely as a joke."
+                },
+                {
+                  "key": "C",
+                  "text": "It has not yet been properly tested."
+                },
+                {
+                  "key": "D",
+                  "text": "It applies only to older people."
+                }
+              ],
+              "answer": "C",
+              "evidenceParagraph": "G",
+              "evidence": "The claim remains largely untested",
+              "explanation": "The writer states that **the claim remains largely untested**. \"Only half in jest\" means it was *partly* serious, so B is wrong."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "title": "Complete the sentences",
+          "instruction": "Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "questions": [
+            {
+              "number": 13,
+              "text": "In the oddball effect, the brain's weaker response to predictable images is misread as a ______.",
+              "accepted": [
+                "shorter duration"
+              ],
+              "answer": "shorter duration",
+              "evidenceParagraph": "E",
+              "evidence": "this reduced response is misread as a shorter duration",
+              "explanation": "\"Weaker response\" paraphrases **reduced response**, which is misread as **a shorter duration**."
+            },
+            {
+              "number": 14,
+              "text": "Critics warn that ______ can itself become routine.",
+              "accepted": [
+                "novelty"
+              ],
+              "answer": "novelty",
+              "evidenceParagraph": "G",
+              "evidence": "critics caution that novelty can itself become routine",
+              "explanation": "\"Warn\" paraphrases **caution**; the word is **novelty**."
+            }
+          ]
+        }
+      ],
+      "part": 3
+    },
+    {
+      "id": "rp_04",
+      "title": "School Streets: Reclaiming the Road at the School Gate",
+      "topic": "Society",
+      "difficulty": "easy",
+      "words": 710,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Every weekday morning, the roads around many primary schools follow the same pattern. For about twenty minutes, cars queue along narrow streets, park on pavements and turn in tight spaces while children and parents try to squeeze past them. Once the bell rings, the traffic disappears as quickly as it arrived. For decades this daily rush was accepted as an unavoidable part of school life. In recent years, however, a simple idea has begun to change it: closing the street outside the school gate to motor traffic at the start and end of the school day."
+        },
+        {
+          "letter": "B",
+          "text": "These 'school streets', as they are usually known, work in a straightforward way. Signs are placed at each end of the road, and for a fixed period, often from 8.15 to 9.15 in the morning and from 2.45 to 3.45 in the afternoon, only pedestrians and cyclists may enter. Residents who live on the street, as well as emergency vehicles and drivers with disabilities, are normally allowed through. In some places, the closure is enforced by volunteers who move temporary barriers into position; in others, cameras record the number plates of vehicles that enter without permission, and drivers receive a fine by post."
+        },
+        {
+          "letter": "C",
+          "text": "The first schemes appeared in northern Italy in the late 1980s, but the idea spread slowly at first. It gained momentum in the 2010s, when concern about air pollution near schools grew rapidly. Studies had shown that children are particularly vulnerable to traffic fumes, partly because they breathe faster than adults and partly because their height places them closer to vehicle exhausts. By 2020, several hundred schemes were operating in Britain alone, and the number rose sharply during the coronavirus pandemic, when local authorities were given emergency funding to create more space for walking and cycling."
+        },
+        {
+          "letter": "D",
+          "text": "Evidence about the effects of school streets is still being collected, but early results are encouraging. One evaluation of thirty-seven schemes in a large English city found that levels of nitrogen dioxide, a gas produced mainly by diesel engines, fell by up to 23 per cent outside participating schools during the morning closure. Over the same period, the proportion of children who walked, cycled or scooted to school rose, while the number who were driven fell by around a fifth. Head teachers also reported that the atmosphere at the school gate had changed, with parents stopping to talk rather than hurrying back to their cars, and a large majority of parents said they would like the scheme to continue."
+        },
+        {
+          "letter": "E",
+          "text": "Not everyone is convinced. One common concern is that traffic is simply moved onto neighbouring roads, where parents park instead. Monitoring suggests that this happens in some cases, although the extra traffic on surrounding streets is usually smaller than feared, because some families change their habits altogether rather than parking a little further away. Other objections come from residents who, although allowed to drive through, must explain themselves to volunteers every day, and from parents who drive their children to school on the way to work and see the closures as an unfair burden."
+        },
+        {
+          "letter": "F",
+          "text": "Planners emphasise that the success of a scheme depends heavily on local conditions. School streets work best on short, quiet roads with no through traffic, where a closure causes little disruption; they are much harder to introduce outside schools on main roads or bus routes. Involving the community early also appears to matter. In one town, a trial that was introduced with little warning was abandoned after a month of complaints, while a similar scheme nearby, designed after meetings with parents, residents and pupils, is still in place six years later."
+        },
+        {
+          "letter": "G",
+          "text": "For some supporters, the real importance of school streets lies beyond the school gate. By showing that a street can be used for something other than moving and parking cars, even for just two hours a day, the schemes invite residents to imagine other possibilities. In several cities, closures that began as school streets have become permanent pedestrian areas, complete with benches, planters and play equipment. Children who once had to hold an adult's hand on the pavement can now chalk pictures on the road. What started as a response to a morning traffic jam may yet change how communities think about the space outside their front doors."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Cyclists are allowed to enter a school street while it is closed.",
+              "answer": "TRUE",
+              "evidenceParagraph": "B",
+              "evidence": "only pedestrians and cyclists may enter",
+              "explanation": "Paragraph B says **only pedestrians and cyclists may enter** during the closure. TRUE."
+            },
+            {
+              "number": 2,
+              "text": "People who live on a school street cannot drive to their homes during a closure.",
+              "answer": "FALSE",
+              "evidenceParagraph": "B",
+              "evidence": "Residents who live on the street, as well as emergency vehicles and drivers with disabilities, are normally allowed through",
+              "explanation": "Residents are **normally allowed through**, which contradicts the statement. FALSE."
+            },
+            {
+              "number": 3,
+              "text": "The first school streets were introduced in Britain.",
+              "answer": "FALSE",
+              "evidenceParagraph": "C",
+              "evidence": "The first schemes appeared in northern Italy",
+              "explanation": "The first schemes appeared in **northern Italy**, not Britain. FALSE."
+            },
+            {
+              "number": 4,
+              "text": "Children breathe more quickly than adults.",
+              "answer": "TRUE",
+              "evidenceParagraph": "C",
+              "evidence": "they breathe faster than adults",
+              "explanation": "\"More quickly\" paraphrases **faster**. TRUE."
+            },
+            {
+              "number": 5,
+              "text": "Cameras are more effective than volunteers at enforcing closures.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "B",
+              "evidence": "cameras record the number plates of vehicles that enter without permission",
+              "explanation": "Both methods are described, but the passage never says which works **better**. NOT GIVEN."
+            },
+            {
+              "number": 6,
+              "text": "The evaluation of thirty-seven schemes also recorded a fall in noise levels.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "D",
+              "evidence": "levels of nitrogen dioxide, a gas produced mainly by diesel engines, fell by up to 23 per cent",
+              "explanation": "The evaluation reports **nitrogen dioxide** and travel habits. **Noise** is not mentioned. NOT GIVEN."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "matching",
+          "title": "Which paragraph contains the following information?",
+          "instruction": "Write the correct letter. You may use any letter more than once.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "questions": [
+            {
+              "number": 7,
+              "text": "an example of a scheme that was stopped",
+              "answer": "F",
+              "evidenceParagraph": "F",
+              "evidence": "was abandoned after a month of complaints",
+              "explanation": "Paragraph F describes a trial that **was abandoned after a month of complaints**."
+            },
+            {
+              "number": 8,
+              "text": "a reason why nearby roads may not become as busy as expected",
+              "answer": "E",
+              "evidenceParagraph": "E",
+              "evidence": "some families change their habits altogether rather than parking a little further away",
+              "explanation": "Paragraph E explains that extra traffic is **smaller than feared** because some families **change their habits altogether**."
+            },
+            {
+              "number": 9,
+              "text": "a reference to money that helped councils create more schemes",
+              "answer": "C",
+              "evidenceParagraph": "C",
+              "evidence": "local authorities were given emergency funding",
+              "explanation": "Paragraph C mentions **emergency funding** during the pandemic."
+            },
+            {
+              "number": 10,
+              "text": "a mention of closures becoming permanent",
+              "answer": "G",
+              "evidenceParagraph": "G",
+              "evidence": "have become permanent pedestrian areas",
+              "explanation": "Paragraph G says some closures **have become permanent pedestrian areas**."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "title": "Complete the summary",
+          "instruction": "Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "questions": [
+            {
+              "number": 11,
+              "text": "Nitrogen dioxide is a gas that comes mainly from ______.",
+              "accepted": [
+                "diesel engines"
+              ],
+              "answer": "diesel engines",
+              "evidenceParagraph": "D",
+              "evidence": "a gas produced mainly by diesel engines",
+              "explanation": "\"Comes mainly from\" paraphrases **produced mainly by**: the answer is **diesel engines**."
+            },
+            {
+              "number": 12,
+              "text": "The number of children who were driven to school fell by around a ______.",
+              "accepted": [
+                "fifth",
+                "a fifth"
+              ],
+              "answer": "fifth",
+              "evidenceParagraph": "D",
+              "evidence": "the number who were driven fell by around a fifth",
+              "explanation": "Paragraph D says the number driven **fell by around a fifth**."
+            },
+            {
+              "number": 13,
+              "text": "Schemes are much harder to introduce on main roads or ______.",
+              "accepted": [
+                "bus routes"
+              ],
+              "answer": "bus routes",
+              "evidenceParagraph": "F",
+              "evidence": "much harder to introduce outside schools on main roads or bus routes",
+              "explanation": "Paragraph F lists **main roads or bus routes** as difficult locations."
+            }
+          ]
+        }
+      ],
+      "part": 1
+    },
+    {
+      "id": "rp_05",
+      "title": "Chrononutrition: Does the Clock on the Plate Matter?",
+      "topic": "Health",
+      "difficulty": "medium",
+      "words": 720,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Nutrition advice has traditionally focused on two questions: what we eat, and how much. A third question, when we eat, has until recently received far less attention. Over the past two decades, however, a field known as chrononutrition has begun to examine whether the timing of meals affects health independently of their content. Its central claim is that the body processes identical food differently depending on the hour at which it arrives, and that eating out of step with our internal rhythms may contribute to weight gain and metabolic disease."
+        },
+        {
+          "letter": "B",
+          "text": "The idea rests on the discovery that almost every tissue in the body contains its own biological clock. A master clock in the brain, set largely by exposure to daylight, coordinates the activity of these peripheral clocks, which regulate processes such as the release of digestive enzymes and the sensitivity of cells to insulin, the hormone that controls blood sugar. Crucially, the peripheral clocks in the liver and gut are influenced not only by light but also by food. When meals arrive at unusual times, these clocks can drift out of alignment with the master clock, a condition researchers describe as internal desynchrony."
+        },
+        {
+          "letter": "C",
+          "text": "Some of the strongest evidence comes from studies of shift workers, who regularly eat and sleep at times that conflict with daylight. Large surveys have found that people with long histories of night work have higher rates of type 2 diabetes and obesity than day workers, even after differences in diet and physical activity are taken into account. Such observational studies cannot prove cause and effect, since night workers may differ from day workers in other ways. Controlled laboratory experiments, however, have produced similar findings. When healthy volunteers were kept on a schedule in which they ate and slept twelve hours out of phase with their normal routine, their blood sugar after meals rose within days to levels usually seen in people at risk of diabetes."
+        },
+        {
+          "letter": "D",
+          "text": "Laboratory work has also shown that the same meal produces a noticeably larger rise in blood sugar when eaten in the evening than in the morning. This appears to be because insulin sensitivity is highest early in the day and declines as evening approaches. In one trial, two groups of overweight adults followed diets containing identical numbers of calories for twelve weeks. The group that consumed most of its daily energy at breakfast lost significantly more weight than the group that ate its largest meal in the evening. Findings like these have given new life to the old saying that one should breakfast like a king and dine like a pauper."
+        },
+        {
+          "letter": "E",
+          "text": "A related approach, known as time-restricted eating, limits all food intake to a window of eight to ten hours each day, without necessarily changing what or how much is eaten. Experiments in mice produced striking results: animals fed a high-fat diet within a restricted window remained considerably leaner than those given the same food around the clock. Human trials have been more modest. Some have reported improvements in blood pressure and insulin sensitivity, but others have found that participants lose weight mainly because a shorter eating window leads them, without intending to, to eat less."
+        },
+        {
+          "letter": "F",
+          "text": "It is here that the enthusiasm surrounding chrononutrition deserves some caution. Many of the human studies involve small numbers of participants followed for only a few weeks, and the results of different trials do not always agree. Individual variation also complicates the picture. People differ in their chronotype, their natural tendency to be active early or late in the day, and a schedule that suits a so-called morning lark may not suit a night owl. There is also a practical difficulty: family routines, working hours and social life often make an early evening meal impossible, and advice that people cannot follow is of limited value."
+        },
+        {
+          "letter": "G",
+          "text": "Nonetheless, most researchers in the field agree on a few cautious recommendations. Eating a substantial breakfast, avoiding large meals late at night and keeping mealtimes reasonably regular from day to day are unlikely to cause harm and may bring benefits, particularly for people at risk of metabolic disease. What chrononutrition does not yet justify is the confident, one-size-fits-all rules promoted by some diet books, which often present early findings from small studies as settled fact. The clock, it seems, is one ingredient in a healthy diet, but it is not a substitute for the others."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "heading",
+          "title": "Match each paragraph to a heading",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings. There are more headings than paragraphs.",
+          "headings": [
+            {
+              "key": "i",
+              "text": "A field that asks a third question about diet"
+            },
+            {
+              "key": "ii",
+              "text": "Clocks throughout the body"
+            },
+            {
+              "key": "iii",
+              "text": "Evidence from people who work unusual hours"
+            },
+            {
+              "key": "iv",
+              "text": "Why the same meal can have different effects"
+            },
+            {
+              "key": "v",
+              "text": "Limiting the hours in which food is eaten"
+            },
+            {
+              "key": "vi",
+              "text": "Reasons to be careful about the evidence"
+            },
+            {
+              "key": "vii",
+              "text": "The role of exercise in weight loss"
+            },
+            {
+              "key": "viii",
+              "text": "How diet books became popular"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Paragraph B",
+              "paragraph": "B",
+              "answer": "ii",
+              "evidenceParagraph": "B",
+              "evidence": "almost every tissue in the body contains its own biological clock",
+              "explanation": "Paragraph B describes the **master clock** and the **peripheral clocks** in body tissues."
+            },
+            {
+              "number": 2,
+              "text": "Paragraph C",
+              "paragraph": "C",
+              "answer": "iii",
+              "evidenceParagraph": "C",
+              "evidence": "Some of the strongest evidence comes from studies of shift workers",
+              "explanation": "Paragraph C is built around evidence from **shift workers** and night work."
+            },
+            {
+              "number": 3,
+              "text": "Paragraph D",
+              "paragraph": "D",
+              "answer": "iv",
+              "evidenceParagraph": "D",
+              "evidence": "the same meal produces a noticeably larger rise in blood sugar when eaten in the evening than in the morning",
+              "explanation": "Paragraph D explains why **the same meal** affects blood sugar differently in the morning and evening."
+            },
+            {
+              "number": 4,
+              "text": "Paragraph E",
+              "paragraph": "E",
+              "answer": "v",
+              "evidenceParagraph": "E",
+              "evidence": "limits all food intake to a window of eight to ten hours each day",
+              "explanation": "Paragraph E is about **time-restricted eating**, limiting food to an eight-to-ten-hour window."
+            },
+            {
+              "number": 5,
+              "text": "Paragraph F",
+              "paragraph": "F",
+              "answer": "vi",
+              "evidenceParagraph": "F",
+              "evidence": "the enthusiasm surrounding chrononutrition deserves some caution",
+              "explanation": "Paragraph F lists weaknesses: **small studies**, **individual variation** and practical difficulty. Heading viii is a trap: diet books appear in G, not F."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "ynng",
+          "title": "Yes / No / Not Given",
+          "instruction": "Do the following statements agree with the views of the writer?",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "text": "Surveys of shift workers show that night work causes diabetes.",
+              "answer": "NO",
+              "evidenceParagraph": "C",
+              "evidence": "Such observational studies cannot prove cause and effect",
+              "explanation": "The writer says such studies **cannot prove cause and effect**, so the claim that they *show* causation contradicts the writer. NO."
+            },
+            {
+              "number": 7,
+              "text": "Advice that people are unable to follow is not very useful.",
+              "answer": "YES",
+              "evidenceParagraph": "F",
+              "evidence": "advice that people cannot follow is of limited value",
+              "explanation": "\"Not very useful\" paraphrases **of limited value**. YES."
+            },
+            {
+              "number": 8,
+              "text": "Night owls should eat their largest meal late in the evening.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "F",
+              "evidence": "a schedule that suits a so-called morning lark may not suit a night owl",
+              "explanation": "The writer says schedules may differ for night owls but gives **no advice** about when they should eat. NOT GIVEN."
+            },
+            {
+              "number": 9,
+              "text": "Some diet books make claims that go beyond the current evidence.",
+              "answer": "YES",
+              "evidenceParagraph": "G",
+              "evidence": "What chrononutrition does not yet justify is the confident, one-size-fits-all rules promoted by some diet books",
+              "explanation": "The writer says the evidence **does not yet justify** the rules in some diet books. YES."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "title": "Complete the summary",
+          "instruction": "Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "The master clock in the brain is set largely by exposure to ______.",
+              "accepted": [
+                "daylight"
+              ],
+              "answer": "daylight",
+              "evidenceParagraph": "B",
+              "evidence": "set largely by exposure to daylight",
+              "explanation": "Paragraph B says the master clock is **set largely by exposure to daylight**."
+            },
+            {
+              "number": 11,
+              "text": "Insulin sensitivity is highest ______ in the day.",
+              "accepted": [
+                "early"
+              ],
+              "answer": "early",
+              "evidenceParagraph": "D",
+              "evidence": "insulin sensitivity is highest early in the day",
+              "explanation": "The word is **early**: sensitivity is highest early and declines towards evening."
+            },
+            {
+              "number": 12,
+              "text": "Mice fed a high-fat diet within a restricted window stayed considerably ______.",
+              "accepted": [
+                "leaner"
+              ],
+              "answer": "leaner",
+              "evidenceParagraph": "E",
+              "evidence": "remained considerably leaner",
+              "explanation": "\"Stayed\" paraphrases **remained**; the answer is **leaner**."
+            },
+            {
+              "number": 13,
+              "text": "A person's natural tendency to be active early or late in the day is called their ______.",
+              "accepted": [
+                "chronotype"
+              ],
+              "answer": "chronotype",
+              "evidenceParagraph": "F",
+              "evidence": "People differ in their chronotype, their natural tendency to be active early or late in the day",
+              "explanation": "Paragraph F defines **chronotype** as this natural tendency."
+            }
+          ]
+        }
+      ],
+      "part": 2
+    },
+    {
+      "id": "rp_06",
+      "title": "The Shop That Came to the Door",
+      "topic": "Business",
+      "difficulty": "easy",
+      "words": 756,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "For much of the twentieth century, households in the remote villages of northern England and Scotland did a large part of their shopping without ever leaving home. Twice a week, sometimes more, a converted lorry or van would pull up at the end of the lane, a bell would ring, and residents would climb aboard to buy bread, paraffin, tinned goods and sewing thread. These mobile shops, known locally as 'travellers', filled a gap that fixed retailers could not afford to serve. At their peak in the late 1950s, one trade directory listed more than 2,300 of them operating across Britain. For many families, the arrival of the van was one of the fixed points of the week."
+        },
+        {
+          "letter": "B",
+          "text": "The earliest mobile shops were horse-drawn carts, often run by bakers or grocers who wanted to reach customers beyond walking distance of their premises. The real expansion, however, came after the First World War, when thousands of ex-army lorries were sold off cheaply. Enterprising shopkeepers fitted these vehicles with wooden shelves, a counter at the rear and, in some cases, a small paraffin stove to keep the driver warm in winter. By 1930 a well-equipped van could carry around 400 different items, a range that would have impressed many village shops of the time. Some firms painted their vans in bright colours and gave them names, partly so that customers could recognise them from a distance across open fields."
+        },
+        {
+          "letter": "C",
+          "text": "Running a traveller was demanding work. A typical owner-driver started before dawn, loading stock from a wholesaler in the nearest market town, and might not return until after dark. Routes were planned with great care: each village had to be visited on the same day and at roughly the same time every week, because customers organised their household routines around the van's arrival. Records kept by one Cumbrian operator, Walter Heslop, show that he covered 190 miles a week and served about 340 regular households. His ledgers also reveal that almost a third of his sales were made on credit, with families settling their accounts at the end of each month."
+        },
+        {
+          "letter": "D",
+          "text": "The mobile shop was more than a place to buy goods. For elderly or isolated residents, the weekly visit was frequently their main contact with the outside world. Drivers delivered letters, passed on news from neighbouring farms and occasionally collected prescriptions from the chemist in town. Oral history interviews recorded in the 1990s suggest that many former customers remembered the driver's conversation as clearly as the goods they bought. Some operators even acted as informal bankers, cashing cheques for pensioners who lived many miles from the nearest branch."
+        },
+        {
+          "letter": "E",
+          "text": "From the 1960s onwards, however, the trade entered a long decline. Rising car ownership meant that more rural families could drive to supermarkets, where prices were lower and choice was far greater. At the same time, stricter food hygiene regulations required operators to install refrigeration and running water, investments that many small businesses could not justify. The number of mobile shops fell steadily, and by 1985 fewer than 400 were thought to remain in operation. In some areas the closure of village schools and post offices also reduced the number of people living in remote settlements, shrinking the customer base still further. Operators who survived often did so by specialising, for example in fresh fish or hardware, rather than trying to compete with supermarkets on price."
+        },
+        {
+          "letter": "F",
+          "text": "Recently, though, the idea has begun to return in a new form. Several rural councils have supported community-owned vans that combine a small grocery with services such as parcel collection and library loans. Unlike their predecessors, these vehicles use card readers and online ordering, allowing customers to request specific products in advance. Supporters argue that they reduce the number of individual car journeys and help older residents remain independent. Critics, on the other hand, point out that most of these schemes still depend on public grants and have yet to show that they can survive on sales alone."
+        },
+        {
+          "letter": "G",
+          "text": "Whether the modern traveller will become a permanent feature of rural life remains uncertain. What is clear is that the original mobile shops solved a problem that has never entirely disappeared: how to bring everyday goods to people who live far from the places where those goods are sold. Historians of retailing have begun to take a closer interest in the subject, and a small collection of restored vans can now be seen at a transport museum in County Durham, where visitors are invited to step inside and imagine the busy Saturday rounds of the past."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Mobile shops were at their most numerous in the late 1950s.",
+              "answer": "TRUE",
+              "evidenceParagraph": "A",
+              "evidence": "At their peak in the late 1950s",
+              "explanation": "Paragraph A says mobile shops reached their **peak in the late 1950s**. \"Most numerous\" is a paraphrase of \"peak\", so the answer is TRUE."
+            },
+            {
+              "number": 2,
+              "text": "The first mobile shops were mainly operated by chemists.",
+              "answer": "FALSE",
+              "evidenceParagraph": "B",
+              "evidence": "often run by bakers or grocers",
+              "explanation": "Paragraph B says the earliest carts were **run by bakers or grocers**. Chemists appear only in paragraph D, as a place drivers collected prescriptions from, so the statement is FALSE."
+            },
+            {
+              "number": 3,
+              "text": "Shopkeepers were able to buy former military lorries at low prices after the First World War.",
+              "answer": "TRUE",
+              "evidenceParagraph": "B",
+              "evidence": "thousands of ex-army lorries were sold off cheaply",
+              "explanation": "\"Ex-army lorries were **sold off cheaply**\" matches \"former military lorries at low prices\", so the answer is TRUE."
+            },
+            {
+              "number": 4,
+              "text": "Walter Heslop employed an assistant to help him on his rounds.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "C",
+              "evidence": "Records kept by one Cumbrian operator, Walter Heslop",
+              "explanation": "Paragraph C gives Heslop's **mileage, customers and credit sales**, but says nothing about staff. The information is simply not in the passage, so the answer is NOT GIVEN."
+            },
+            {
+              "number": 5,
+              "text": "Most of Heslop's sales were made on credit.",
+              "answer": "FALSE",
+              "evidenceParagraph": "C",
+              "evidence": "almost a third of his sales were made on credit",
+              "explanation": "The ledgers show **almost a third** of sales were on credit. A third is not \"most\", so the passage contradicts the statement: FALSE."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "matching",
+          "title": "Which paragraph contains the following information?",
+          "instruction": "Write the correct letter. You may use any letter more than once.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "text": "a reason why some operators could not meet new legal requirements",
+              "answer": "E",
+              "evidenceParagraph": "E",
+              "evidence": "investments that many small businesses could not justify",
+              "explanation": "Paragraph E explains that hygiene rules demanded **refrigeration and running water**, which many small businesses **could not justify** paying for."
+            },
+            {
+              "number": 7,
+              "text": "a description of how the inside of a vehicle was equipped",
+              "answer": "B",
+              "evidenceParagraph": "B",
+              "evidence": "fitted these vehicles with wooden shelves, a counter at the rear",
+              "explanation": "Paragraph B describes the **shelves, rear counter and paraffin stove** fitted inside the converted lorries."
+            },
+            {
+              "number": 8,
+              "text": "a reference to financial help given to older customers",
+              "answer": "D",
+              "evidenceParagraph": "D",
+              "evidence": "cashing cheques for pensioners",
+              "explanation": "Paragraph D says some operators acted as **informal bankers**, cashing cheques for pensioners. Don't confuse this with credit sales in C, which were for all families."
+            },
+            {
+              "number": 9,
+              "text": "a place where people can view preserved vehicles today",
+              "answer": "G",
+              "evidenceParagraph": "G",
+              "evidence": "a small collection of restored vans can now be seen at a transport museum",
+              "explanation": "Paragraph G mentions **restored vans** on display at a **transport museum** in County Durham."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "title": "Complete the summary",
+          "instruction": "Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "Modern community-owned vans sell groceries and also offer services such as parcel collection and ______.",
+              "answer": "library loans",
+              "evidenceParagraph": "F",
+              "evidence": "services such as parcel collection and library loans",
+              "explanation": "Paragraph F lists **parcel collection and library loans** as the extra services.",
+              "accepted": [
+                "library loans"
+              ]
+            },
+            {
+              "number": 11,
+              "text": "Online ordering allows customers to request particular products ______.",
+              "answer": "in advance",
+              "evidenceParagraph": "F",
+              "evidence": "allowing customers to request specific products in advance",
+              "explanation": "Customers can request specific products **in advance** using online ordering.",
+              "accepted": [
+                "in advance"
+              ]
+            },
+            {
+              "number": 12,
+              "text": "Supporters claim the vans reduce the number of individual ______.",
+              "answer": "car journeys",
+              "evidenceParagraph": "F",
+              "evidence": "reduce the number of individual car journeys",
+              "explanation": "The passage says the vans **reduce the number of individual car journeys**. \"Individual\" is already in the sentence, so two words are enough.",
+              "accepted": [
+                "car journeys"
+              ]
+            },
+            {
+              "number": 13,
+              "text": "Critics note that most schemes still rely on ______ rather than sales.",
+              "answer": "public grants",
+              "evidenceParagraph": "F",
+              "evidence": "most of these schemes still depend on public grants",
+              "explanation": "\"Rely on\" paraphrases **depend on**; the schemes depend on **public grants**.",
+              "accepted": [
+                "public grants",
+                "grants"
+              ]
+            }
+          ]
+        }
+      ],
+      "part": 1
+    },
+    {
+      "id": "rp_07",
+      "title": "Two Languages, One Lesson",
+      "topic": "Education",
+      "difficulty": "medium",
+      "words": 770,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "For most of the twentieth century, the accepted wisdom in language teaching was that the classroom should be a monolingual space. Pupils learning English, French or Spanish were expected to hear and use only the target language, and teachers who slipped into the pupils' home language were often regarded as having failed. The reasoning seemed straightforward: the more exposure learners received to the new language, the faster they would acquire it, and every minute spent in their first language was a minute lost. Textbooks of the period frequently included advice on how to avoid translation altogether, recommending gestures, pictures and demonstrations instead."
+        },
+        {
+          "letter": "B",
+          "text": "Over the past two decades, this assumption has been challenged by a growing body of classroom research. Linguists working in multilingual schools noticed that pupils routinely moved between languages when discussing difficult ideas with one another, even when teachers had banned the practice. Rather than treating this behaviour as a sign of weakness, some researchers began to describe it as a resource. The term 'translanguaging', originally used to describe a bilingual teaching method in Welsh schools, came to refer more broadly to the ways in which multilingual speakers draw on their full range of languages in order to make meaning."
+        },
+        {
+          "letter": "C",
+          "text": "One of the more detailed investigations was carried out over three years in eleven secondary schools in a large port city, where more than forty home languages were spoken. The research team, led by the applied linguist Dr Maren Oduya, compared science lessons in which pupils were permitted to discuss new concepts in any language with lessons conducted strictly in English. Pupils in the flexible classes scored, on average, 12 per cent higher on end-of-unit tests. Perhaps more surprisingly, their written English was no weaker than that of the control group, and in some cases their use of technical vocabulary was more precise."
+        },
+        {
+          "letter": "D",
+          "text": "Oduya's team suggested that the explanation lay in the difference between understanding a concept and expressing it. When pupils first met a complex idea, such as the distinction between mass and weight, they were able to work out its meaning through discussion in the language they knew best. Once the concept was secure, attaching the English terms to it became a relatively simple task. In the English-only lessons, by contrast, many pupils appeared to memorise the vocabulary without fully grasping the idea behind it, and this weakness became evident when they were asked to apply the concept to an unfamiliar problem. Several teachers in the study also reported that pupils who had worked through a concept in their home language asked more questions in the later, English-medium part of the lesson."
+        },
+        {
+          "letter": "E",
+          "text": "Not everyone is persuaded. Critics argue that the benefits reported in such studies may depend heavily on the skill of individual teachers, and that in less carefully managed classrooms the home language can easily come to dominate. There is also a practical difficulty: in a class where pupils speak a dozen different languages, the teacher cannot possibly understand every conversation, and may therefore be unable to identify misunderstandings. A small-scale study in a rural district found that, without clear rules about when each language should be used, pupils' exposure to English fell by almost half within a single term. Some teachers also worry that pupils who share a home language may unintentionally exclude classmates who do not speak it."
+        },
+        {
+          "letter": "F",
+          "text": "Supporters of translanguaging accept that it is not a method that can simply be switched on. They stress that it works best as a planned strategy rather than an informal tolerance of mixed language use. In the classrooms observed by Oduya's team, teachers typically allowed open discussion in any language during the early stages of a task, but required the final written product to be in English. Some schools also produced bilingual glossaries, compiled partly by the pupils themselves, which linked key terms in English to their equivalents in the most widely spoken home languages."
+        },
+        {
+          "letter": "G",
+          "text": "The debate has implications that go beyond language teaching. If pupils' home languages are treated as a tool for learning rather than an obstacle, schools may need to reconsider how they train teachers, design assessments and communicate with parents. For many families, the change of attitude also carries a symbolic value. Parents interviewed during the port city study frequently said that their children had become less reluctant to use the family language at home once it had been welcomed at school, a result that the researchers had not set out to measure but considered among the most significant of the project. Whether such effects can be reproduced in other settings is a question that further research will need to address."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "heading",
+          "title": "Match each paragraph to a heading",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings below.",
+          "headings": [
+            {
+              "key": "i",
+              "text": "The traditional view of the language classroom"
+            },
+            {
+              "key": "ii",
+              "text": "A new way of seeing how pupils use languages"
+            },
+            {
+              "key": "iii",
+              "text": "Measuring the results of a flexible approach"
+            },
+            {
+              "key": "iv",
+              "text": "Why understanding should come before vocabulary"
+            },
+            {
+              "key": "v",
+              "text": "Doubts and practical difficulties"
+            },
+            {
+              "key": "vi",
+              "text": "The importance of careful planning"
+            },
+            {
+              "key": "vii",
+              "text": "Wider consequences for schools and families"
+            },
+            {
+              "key": "viii",
+              "text": "The history of bilingual education in Wales"
+            },
+            {
+              "key": "ix",
+              "text": "Government funding for language research"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Paragraph B",
+              "answer": "ii",
+              "evidenceParagraph": "B",
+              "evidence": "some researchers began to describe it as a resource",
+              "explanation": "Paragraph B describes a shift from seeing language mixing as **a sign of weakness** to seeing it as **a resource**. Heading viii is a trap: Welsh schools are mentioned only as the origin of a term.",
+              "paragraph": "B"
+            },
+            {
+              "number": 2,
+              "text": "Paragraph C",
+              "answer": "iii",
+              "evidenceParagraph": "C",
+              "evidence": "Pupils in the flexible classes scored, on average, 12 per cent higher",
+              "explanation": "Paragraph C reports the **test results** of Oduya's study comparing flexible and English-only lessons.",
+              "paragraph": "C"
+            },
+            {
+              "number": 3,
+              "text": "Paragraph D",
+              "answer": "iv",
+              "evidenceParagraph": "D",
+              "evidence": "the difference between understanding a concept and expressing it",
+              "explanation": "Paragraph D explains that pupils first **grasp the concept** in their best language and only then attach English terms.",
+              "paragraph": "D"
+            },
+            {
+              "number": 4,
+              "text": "Paragraph E",
+              "answer": "v",
+              "evidenceParagraph": "E",
+              "evidence": "There is also a practical difficulty",
+              "explanation": "Paragraph E opens with **\"Not everyone is persuaded\"** and then gives criticisms and a **practical difficulty**.",
+              "paragraph": "E"
+            },
+            {
+              "number": 5,
+              "text": "Paragraph F",
+              "answer": "vi",
+              "evidenceParagraph": "F",
+              "evidence": "it works best as a planned strategy",
+              "explanation": "The key idea of paragraph F is that translanguaging must be a **planned strategy**, not informal tolerance.",
+              "paragraph": "F"
+            },
+            {
+              "number": 6,
+              "text": "Paragraph G",
+              "answer": "vii",
+              "evidenceParagraph": "G",
+              "evidence": "implications that go beyond language teaching",
+              "explanation": "Paragraph G moves beyond the classroom to **teacher training, assessment and parents** — wider consequences for schools and families.",
+              "paragraph": "G"
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "mcq",
+          "title": "Choose the correct letter, A, B, C or D",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "number": 7,
+              "text": "According to paragraph A, teachers who used pupils' home language were traditionally seen as",
+              "answer": "B",
+              "evidenceParagraph": "A",
+              "evidence": "teachers who slipped into the pupils' home language were often regarded as having failed",
+              "explanation": "Paragraph A says such teachers were **regarded as having failed**. The other options are not stated.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "especially skilful."
+                },
+                {
+                  "key": "B",
+                  "text": "unsuccessful."
+                },
+                {
+                  "key": "C",
+                  "text": "old-fashioned."
+                },
+                {
+                  "key": "D",
+                  "text": "too strict with pupils."
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "text": "The term 'translanguaging' was originally used to describe",
+              "answer": "C",
+              "evidenceParagraph": "B",
+              "evidence": "originally used to describe a bilingual teaching method in Welsh schools",
+              "explanation": "The word **originally** signals the answer: a **bilingual teaching method in Welsh schools**. Its broader meaning (option B) came later.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a research project in a port city."
+                },
+                {
+                  "key": "B",
+                  "text": "the way all multilingual speakers make meaning."
+                },
+                {
+                  "key": "C",
+                  "text": "a teaching method used in Wales."
+                },
+                {
+                  "key": "D",
+                  "text": "a type of science lesson."
+                }
+              ]
+            },
+            {
+              "number": 9,
+              "text": "What did Oduya's study find about pupils in the flexible classes?",
+              "answer": "D",
+              "evidenceParagraph": "C",
+              "evidence": "their written English was no weaker than that of the control group",
+              "explanation": "Paragraph C says their written English was **no weaker** than the control group's, and sometimes their technical vocabulary was **more precise**. Options A and C contradict this.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Their written English was weaker than that of other pupils."
+                },
+                {
+                  "key": "B",
+                  "text": "They scored 12 per cent lower on end-of-unit tests."
+                },
+                {
+                  "key": "C",
+                  "text": "They used fewer technical words."
+                },
+                {
+                  "key": "D",
+                  "text": "Their written English did not suffer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 10,
+              "text": "The port city study lasted for three years.",
+              "answer": "TRUE",
+              "evidenceParagraph": "C",
+              "evidence": "carried out over three years in eleven secondary schools",
+              "explanation": "Paragraph C says the investigation was **carried out over three years**, so the answer is TRUE."
+            },
+            {
+              "number": 11,
+              "text": "In the rural district study, clear rules about language use led to a fall in pupils' exposure to English.",
+              "answer": "FALSE",
+              "evidenceParagraph": "E",
+              "evidence": "without clear rules about when each language should be used, pupils' exposure to English fell by almost half",
+              "explanation": "The fall happened **without** clear rules, not because of them. The statement reverses the cause, so it is FALSE."
+            },
+            {
+              "number": 12,
+              "text": "In the classrooms Oduya's team observed, pupils' final written work had to be in English.",
+              "answer": "TRUE",
+              "evidenceParagraph": "F",
+              "evidence": "required the final written product to be in English",
+              "explanation": "Teachers **required the final written product to be in English**, which matches the statement: TRUE."
+            },
+            {
+              "number": 13,
+              "text": "The bilingual glossaries were later published for use in other schools.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "F",
+              "evidence": "Some schools also produced bilingual glossaries",
+              "explanation": "Paragraph F says the glossaries were **compiled partly by pupils**, but nothing about publication or use elsewhere. The answer is NOT GIVEN."
+            }
+          ]
+        }
+      ],
+      "part": 2
+    },
+    {
+      "id": "rp_08",
+      "title": "Teaching Machines to Forget",
+      "topic": "Technology",
+      "difficulty": "hard",
+      "words": 760,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "When a person asks a company to delete their personal data, the request is, in principle, simple to satisfy: the relevant records are located and erased. For organisations that use machine learning, however, the situation is considerably more complicated. A model trained on millions of examples does not store those examples in a form that can be neatly removed; instead, the information is dispersed across billions of numerical parameters, each shaped slightly by every piece of data the model encountered. Deleting the original record from a database leaves the model's learned behaviour untouched, and in some cases the model may still be able to reproduce fragments of the data it was trained on."
+        },
+        {
+          "letter": "B",
+          "text": "This mismatch has given rise to a field known as machine unlearning, which seeks methods for removing the influence of specific data from a trained model. The most reliable approach is also the most obvious: discard the model and retrain it from scratch without the offending data. For small systems this is practical, but for large models the cost is prohibitive. One estimate, produced by an industry consortium, put the energy required to retrain a single large language model at roughly the annual electricity consumption of 1,200 households, a figure that makes routine retraining in response to individual requests unrealistic."
+        },
+        {
+          "letter": "C",
+          "text": "Researchers have therefore explored cheaper alternatives. One early proposal, sometimes described as 'sharded' training, involves dividing the training data into many separate portions and training a smaller sub-model on each. When a deletion request arrives, only the sub-model that saw the relevant data needs to be retrained. The approach reduces costs substantially, but it has a drawback: models assembled from many independently trained parts tend to perform less well than a single model trained on all the data at once, and the loss of accuracy grows as the number of shards increases. Choosing how many shards to use therefore involves a trade-off between the cost of future deletions and the quality of the model."
+        },
+        {
+          "letter": "D",
+          "text": "A second family of techniques attempts to reverse the effect of particular examples directly, by adjusting the model's parameters in the opposite direction to the changes those examples originally caused. These 'approximate' methods are fast, often requiring only minutes of computation, but they raise a difficult question of verification. Because a model's behaviour emerges from the interaction of vast numbers of parameters, it is hard to demonstrate that the influence of a particular record has genuinely disappeared rather than merely become less visible. In one series of experiments, a team of researchers found that models which appeared to have forgotten certain training examples could be prompted to recall them after a small amount of further training on unrelated material."
+        },
+        {
+          "letter": "E",
+          "text": "The verification problem is not merely technical; it also has legal and ethical dimensions. Data protection laws in several jurisdictions grant individuals a right to have their information erased, but these laws were drafted with conventional databases in mind and say little about statistical models. Regulators have so far been reluctant to state whether an approximately unlearned model satisfies an erasure request. Some legal scholars argue that the law should require only that the model no longer reveals the individual's data; others maintain that any residual influence, however small, amounts to continued processing of personal information. Until the question is settled, companies face considerable uncertainty about what they must do when a request arrives."
+        },
+        {
+          "letter": "F",
+          "text": "There is also a broader concern about who benefits from unlearning. The techniques were initially discussed as a means of protecting privacy, but the same methods could be used to remove material for less admirable reasons: to conceal evidence of biased training data, for instance, or to erase content that a company later finds commercially inconvenient. Because unlearning leaves few visible traces, outsiders may have no way of knowing what has been removed. For this reason, several researchers have proposed that any use of unlearning should be recorded in an independent log, open to inspection by auditors, though no such system yet exists on a large scale."
+        },
+        {
+          "letter": "G",
+          "text": "It seems unlikely that a single solution will emerge. What the debate has already achieved, however, is a shift in how developers think about data at the design stage. Rather than treating training data as a permanent foundation, some organisations now keep detailed records of which data was used to train which model, and structure their systems so that particular sources can be withdrawn later if necessary. In this sense, the ability to forget is gradually becoming part of how machine learning systems are built, rather than a repair attempted after the fact."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching",
+          "title": "Which paragraph contains the following information?",
+          "instruction": "Write the correct letter. You may use any letter more than once.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "an example of how unlearning could be used dishonestly",
+              "answer": "F",
+              "evidenceParagraph": "F",
+              "evidence": "to conceal evidence of biased training data",
+              "explanation": "Paragraph F warns that unlearning could be used **to conceal evidence of biased training data** — a dishonest purpose."
+            },
+            {
+              "number": 2,
+              "text": "a comparison between the cost of retraining and household energy use",
+              "answer": "B",
+              "evidenceParagraph": "B",
+              "evidence": "the annual electricity consumption of 1,200 households",
+              "explanation": "Paragraph B compares retraining energy with the **annual electricity consumption of 1,200 households**."
+            },
+            {
+              "number": 3,
+              "text": "a reference to organisations changing how they document training data",
+              "answer": "G",
+              "evidenceParagraph": "G",
+              "evidence": "keep detailed records of which data was used to train which model",
+              "explanation": "Paragraph G says some organisations now **keep detailed records** of which data trained which model."
+            },
+            {
+              "number": 4,
+              "text": "an explanation of why removing a record from a database is not enough",
+              "answer": "A",
+              "evidenceParagraph": "A",
+              "evidence": "Deleting the original record from a database leaves the model's learned behaviour untouched",
+              "explanation": "Paragraph A explains that deleting the record **leaves the model's learned behaviour untouched**."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 5,
+              "text": "Retraining a model from scratch is the most dependable way of removing the influence of data.",
+              "answer": "TRUE",
+              "evidenceParagraph": "B",
+              "evidence": "The most reliable approach is also the most obvious",
+              "explanation": "\"Most dependable\" paraphrases **most reliable**, and the approach described is retraining from scratch: TRUE."
+            },
+            {
+              "number": 6,
+              "text": "Sharded training produces models that are more accurate than a single model trained on all the data.",
+              "answer": "FALSE",
+              "evidenceParagraph": "C",
+              "evidence": "tend to perform less well than a single model trained on all the data at once",
+              "explanation": "Sharded models **perform less well**, and accuracy falls further as shards increase. The statement says the opposite: FALSE."
+            },
+            {
+              "number": 7,
+              "text": "Approximate unlearning methods can often be completed in a matter of minutes.",
+              "answer": "TRUE",
+              "evidenceParagraph": "D",
+              "evidence": "often requiring only minutes of computation",
+              "explanation": "Paragraph D says approximate methods are fast, **often requiring only minutes**: TRUE."
+            },
+            {
+              "number": 8,
+              "text": "The researchers in paragraph D were employed by a commercial technology company.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "D",
+              "evidence": "a team of researchers found that models which appeared to have forgotten",
+              "explanation": "The passage describes only **a team of researchers** and never says who employed them. The answer is NOT GIVEN."
+            },
+            {
+              "number": 9,
+              "text": "Independent logs recording the use of unlearning are already in widespread use.",
+              "answer": "FALSE",
+              "evidenceParagraph": "F",
+              "evidence": "no such system yet exists on a large scale",
+              "explanation": "Such logs have only been **proposed**; **no such system yet exists on a large scale**. The statement is contradicted: FALSE."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "mcq",
+          "title": "Choose the correct letter, A, B, C or D",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "What did the experiments described in paragraph D show?",
+              "answer": "B",
+              "evidenceParagraph": "D",
+              "evidence": "could be prompted to recall them after a small amount of further training on unrelated material",
+              "explanation": "Models that **appeared to have forgotten** examples could **recall them** after further training. This is why verification is hard.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Approximate methods take longer than full retraining."
+                },
+                {
+                  "key": "B",
+                  "text": "Apparently forgotten data could sometimes be brought back."
+                },
+                {
+                  "key": "C",
+                  "text": "Unrelated training material improves a model's privacy."
+                },
+                {
+                  "key": "D",
+                  "text": "Most models cannot store examples at all."
+                }
+              ]
+            },
+            {
+              "number": 11,
+              "text": "According to paragraph E, legal scholars disagree about",
+              "answer": "C",
+              "evidenceParagraph": "E",
+              "evidence": "Some legal scholars argue that the law should require only that the model no longer reveals the individual's data",
+              "explanation": "One group says the model need only **no longer reveal** the data; the other says **any residual influence** is still processing. The disagreement is about what counts as compliance.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "whether individuals should have a right to erasure."
+                },
+                {
+                  "key": "B",
+                  "text": "which countries' data protection laws apply to models."
+                },
+                {
+                  "key": "C",
+                  "text": "what a model must achieve to satisfy an erasure request."
+                },
+                {
+                  "key": "D",
+                  "text": "whether regulators should be allowed to inspect databases."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "title": "Complete the sentences",
+          "instruction": "Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 12,
+              "text": "In a trained model, information from the data is spread across billions of numerical ______.",
+              "answer": "parameters",
+              "evidenceParagraph": "A",
+              "evidence": "dispersed across billions of numerical parameters",
+              "explanation": "\"Spread\" paraphrases **dispersed**; the information is dispersed across numerical **parameters**.",
+              "accepted": [
+                "parameters"
+              ]
+            },
+            {
+              "number": 13,
+              "text": "In sharded training, a smaller ______ is trained on each portion of the data.",
+              "answer": "sub-model",
+              "evidenceParagraph": "C",
+              "evidence": "training a smaller sub-model on each",
+              "explanation": "Paragraph C says a smaller **sub-model** is trained on each portion. A hyphenated word counts as one word.",
+              "accepted": [
+                "sub-model",
+                "submodel"
+              ]
+            },
+            {
+              "number": 14,
+              "text": "Data protection laws were drafted with conventional ______ in mind.",
+              "answer": "databases",
+              "evidenceParagraph": "E",
+              "evidence": "drafted with conventional databases in mind",
+              "explanation": "The laws were written with **conventional databases** in mind, not statistical models.",
+              "accepted": [
+                "databases"
+              ]
+            }
+          ]
+        }
+      ],
+      "part": 3
+    },
+    {
+      "id": "rp_09",
+      "title": "Echoes in Stone: The Science of Archaeoacoustics",
+      "topic": "Arts",
+      "difficulty": "hard",
+      "words": 764,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Archaeologists have traditionally reconstructed the past through what can be seen and handled: walls, pottery, tools, bones. Sound, by its nature, leaves no direct physical trace, and for most of the discipline's history it was assumed to lie beyond the reach of scientific study. Over the past thirty years, however, a small but increasingly influential group of researchers has argued that the acoustic properties of ancient spaces can be measured, modelled and interpreted, and that doing so may reveal aspects of past experience that conventional methods overlook. The field they have created is known as archaeoacoustics."
+        },
+        {
+          "letter": "B",
+          "text": "The basic techniques are borrowed from architectural acoustics. Researchers place a sound source, typically a loudspeaker emitting a sweeping tone or a sharp burst of noise, at a chosen point within a structure and record the result with microphones positioned elsewhere. From these recordings they calculate measures such as reverberation time, the period taken for a sound to fade by sixty decibels, and identify resonant frequencies at which the space amplifies sound. Where a structure has been partly destroyed, digital models can be used to estimate how it would originally have sounded, although the reliability of such reconstructions depends heavily on assumptions about missing roofs, wall coverings and the number of people present. Measurements are usually repeated several times at each position, and at different times of day, to reduce the influence of wind and background noise."
+        },
+        {
+          "letter": "C",
+          "text": "Some of the most striking results have come from underground chambers. In surveys of a group of Neolithic rock-cut tombs on a Mediterranean island, researchers found that several inner chambers resonated strongly at frequencies between 95 and 120 hertz, a range that falls within the lower register of the adult male voice. Chanting at these frequencies produced a powerful, almost physical sensation that participants described as seeming to come from the walls themselves. Similar resonances have since been reported at sites in Ireland and Peru, prompting speculation that ancient builders may have deliberately shaped spaces to enhance vocal performance."
+        },
+        {
+          "letter": "D",
+          "text": "It is this last claim that has attracted the sharpest criticism. Sceptics point out that almost any enclosed stone chamber of a certain size will resonate within the range of the human voice, simply as a consequence of its dimensions. Demonstrating that a resonance exists is therefore very different from demonstrating that it was intended. In a widely discussed review, the acoustician Tomas Revel argued that many early archaeoacoustic studies had examined only sites where interesting effects were expected, and had rarely compared them with ordinary structures of similar shape. Without such comparisons, he noted, researchers risked mistaking accidental properties for evidence of design. Revel did not reject the field as a whole, however; he argued that its methods needed to become more rigorous if its conclusions were to be taken seriously."
+        },
+        {
+          "letter": "E",
+          "text": "Partly in response to these objections, more recent projects have adopted a comparative approach. A study of prehistoric rock art in a river valley in southern Africa measured echo strength at 64 painted rock shelters and at 58 unpainted shelters nearby. Painted locations were found to produce noticeably stronger echoes on average, a pattern that would be difficult to explain by chance. The researchers were careful, however, not to conclude that the paintings were placed for acoustic reasons alone; they suggested instead that sound may have been one of several factors, alongside visibility and access to water, that made certain locations seem significant."
+        },
+        {
+          "letter": "F",
+          "text": "Archaeoacoustics also raises questions about how evidence of experience should be interpreted. Even if a resonance was deliberately created, we cannot know with confidence how it was perceived. A sensation that a modern visitor finds uncanny may have been ordinary to people who encountered it regularly, and the meanings attached to sound vary enormously between cultures. Written records, where they exist, rarely describe sound in any detail, which makes the task harder still. For this reason, some practitioners have begun to work alongside anthropologists who study present-day communities, not to project modern beliefs onto the past, but to widen the range of possible interpretations that archaeologists consider."
+        },
+        {
+          "letter": "G",
+          "text": "Despite these uncertainties, the field has had a noticeable effect on museum and heritage practice. Several sites now offer visitors recordings or live demonstrations designed to convey how a space would once have sounded, and conservation plans increasingly include acoustic measurements taken before any restoration work begins, since the addition of modern flooring or lighting can subtly alter a chamber's acoustic character. Whether or not the grander claims about intentional design are eventually confirmed, archaeoacoustics has at least ensured that the sensory dimension of ancient places is no longer ignored."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "heading",
+          "title": "Match each paragraph to a heading",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings below.",
+          "headings": [
+            {
+              "key": "i",
+              "text": "Methods borrowed from the study of buildings"
+            },
+            {
+              "key": "ii",
+              "text": "Chambers that amplify the human voice"
+            },
+            {
+              "key": "iii",
+              "text": "Accident or intention?"
+            },
+            {
+              "key": "iv",
+              "text": "Comparing marked and unmarked places"
+            },
+            {
+              "key": "v",
+              "text": "The problem of knowing how sound was experienced"
+            },
+            {
+              "key": "vi",
+              "text": "A practical influence on heritage sites"
+            },
+            {
+              "key": "vii",
+              "text": "The high cost of acoustic equipment"
+            },
+            {
+              "key": "viii",
+              "text": "Music as the origin of religious ritual"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Paragraph B",
+              "answer": "i",
+              "evidenceParagraph": "B",
+              "evidence": "The basic techniques are borrowed from architectural acoustics",
+              "explanation": "Paragraph B explains the **techniques borrowed from architectural acoustics** — loudspeakers, microphones and reverberation time. Heading vii is a trap: equipment is mentioned, but not its cost.",
+              "paragraph": "B"
+            },
+            {
+              "number": 2,
+              "text": "Paragraph C",
+              "answer": "ii",
+              "evidenceParagraph": "C",
+              "evidence": "within the lower register of the adult male voice",
+              "explanation": "Paragraph C describes underground chambers that **resonate** at frequencies of the **adult male voice**.",
+              "paragraph": "C"
+            },
+            {
+              "number": 3,
+              "text": "Paragraph D",
+              "answer": "iii",
+              "evidenceParagraph": "D",
+              "evidence": "Demonstrating that a resonance exists is therefore very different from demonstrating that it was intended",
+              "explanation": "Paragraph D asks whether resonances were **intended** or simply **a consequence of dimensions** — accident or intention.",
+              "paragraph": "D"
+            },
+            {
+              "number": 4,
+              "text": "Paragraph E",
+              "answer": "iv",
+              "evidenceParagraph": "E",
+              "evidence": "measured echo strength at 64 painted rock shelters and at 58 unpainted shelters",
+              "explanation": "The comparative study in paragraph E contrasts **painted** (marked) and **unpainted** (unmarked) shelters.",
+              "paragraph": "E"
+            },
+            {
+              "number": 5,
+              "text": "Paragraph G",
+              "answer": "vi",
+              "evidenceParagraph": "G",
+              "evidence": "the field has had a noticeable effect on museum and heritage practice",
+              "explanation": "Paragraph G describes the field's **effect on museum and heritage practice**, such as demonstrations and conservation plans.",
+              "paragraph": "G"
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "ynng",
+          "title": "Yes / No / Not Given",
+          "instruction": "Do the following statements agree with the claims of the writer in the passage?",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "text": "Sound was once thought to be impossible to study scientifically in archaeology.",
+              "answer": "YES",
+              "evidenceParagraph": "A",
+              "evidence": "it was assumed to lie beyond the reach of scientific study",
+              "explanation": "The writer says sound was **assumed to lie beyond the reach of scientific study** for most of the discipline's history: YES."
+            },
+            {
+              "number": 7,
+              "text": "Digital reconstructions of damaged structures can be relied on to give accurate results.",
+              "answer": "NO",
+              "evidenceParagraph": "B",
+              "evidence": "the reliability of such reconstructions depends heavily on assumptions",
+              "explanation": "The writer stresses that reliability **depends heavily on assumptions** about missing features, so they cannot simply be relied on: NO."
+            },
+            {
+              "number": 8,
+              "text": "Finding a resonance in a chamber is sufficient evidence that it was designed deliberately.",
+              "answer": "NO",
+              "evidenceParagraph": "D",
+              "evidence": "Demonstrating that a resonance exists is therefore very different from demonstrating that it was intended",
+              "explanation": "The writer says showing a resonance exists is **very different** from showing it was intended. The statement contradicts this: NO."
+            },
+            {
+              "number": 9,
+              "text": "Archaeoacoustics is a more valuable approach than conventional excavation.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "A",
+              "evidence": "may reveal aspects of past experience that conventional methods overlook",
+              "explanation": "The writer says the field **may reveal** things other methods overlook, but never ranks it as **more valuable** than excavation. NOT GIVEN."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "mcq",
+          "title": "Choose the correct letter, A, B, C or D",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "What was measured in the study in southern Africa?",
+              "answer": "B",
+              "evidenceParagraph": "E",
+              "evidence": "measured echo strength at 64 painted rock shelters and at 58 unpainted shelters nearby",
+              "explanation": "The study **measured echo strength** at painted and unpainted shelters. Visibility and water (C) were suggested factors, not measurements.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "The age of the rock paintings."
+                },
+                {
+                  "key": "B",
+                  "text": "The strength of echoes at different shelters."
+                },
+                {
+                  "key": "C",
+                  "text": "The distance from each shelter to water."
+                },
+                {
+                  "key": "D",
+                  "text": "The number of paintings in each shelter."
+                }
+              ]
+            },
+            {
+              "number": 11,
+              "text": "Why have some archaeoacousticians begun working with anthropologists?",
+              "answer": "D",
+              "evidenceParagraph": "F",
+              "evidence": "to widen the range of possible interpretations that archaeologists consider",
+              "explanation": "Paragraph F says the aim is **not to project modern beliefs onto the past** (so A is wrong) but **to widen the range of possible interpretations**.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "To apply modern beliefs directly to ancient sites."
+                },
+                {
+                  "key": "B",
+                  "text": "To record the music of present-day communities."
+                },
+                {
+                  "key": "C",
+                  "text": "To prove that resonances were created deliberately."
+                },
+                {
+                  "key": "D",
+                  "text": "To broaden the explanations archaeologists take into account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "title": "Complete the sentences",
+          "instruction": "Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "questions": [
+            {
+              "number": 12,
+              "text": "Reverberation time is the period needed for a sound to fade by sixty ______.",
+              "answer": "decibels",
+              "evidenceParagraph": "B",
+              "evidence": "the period taken for a sound to fade by sixty decibels",
+              "explanation": "Paragraph B defines reverberation time as the time for a sound **to fade by sixty decibels**.",
+              "accepted": [
+                "decibels",
+                "decibel"
+              ]
+            },
+            {
+              "number": 13,
+              "text": "Resonances in the Mediterranean tombs fell within the lower register of the adult male ______.",
+              "answer": "voice",
+              "evidenceParagraph": "C",
+              "evidence": "within the lower register of the adult male voice",
+              "explanation": "The frequencies fall within the lower register of the **adult male voice**.",
+              "accepted": [
+                "voice"
+              ]
+            },
+            {
+              "number": 14,
+              "text": "Conservation plans now often include acoustic measurements taken before any ______ begins.",
+              "answer": "restoration work",
+              "evidenceParagraph": "G",
+              "evidence": "taken before any restoration work begins",
+              "explanation": "Measurements are taken **before any restoration work begins**, because new flooring or lighting can change a chamber's sound.",
+              "accepted": [
+                "restoration work",
+                "restoration"
+              ]
+            }
+          ]
+        }
+      ],
+      "part": 3
+    }
+  ]
+}

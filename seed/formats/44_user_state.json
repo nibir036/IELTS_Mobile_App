@@ -1,0 +1,129 @@
+{
+  "_format": {
+    "name": "user_state",
+    "group": "user",
+    "table": "user_state",
+    "primaryKey": "userId+key",
+    "description": "Per-user saved state: saved words, bookmarks, drafts, progress.",
+    "currentSourceInApp": "Store kv",
+    "fields": {
+      "userId": "string",
+      "key": "string",
+      "value": "array|boolean|object"
+    },
+    "required": [
+      "userId",
+      "key",
+      "value"
+    ],
+    "relations": [
+      "userId → users.id"
+    ],
+    "notes": [
+      "27 keys in use today, e.g. community.dms, community.readRooms, community.sent.room_speaking_p2, home.studyReminders, listening.inProgress, listening.lesson.ll_07, listening.mini.inProgress, mock.plan.att_mock_07, reading.highlights.rp_05, reading.inProgress, reading.lessonProgress, resources.academicDay …",
+      "Drafts and in-progress tests can stay on the device; saved words/cards/bookmarks should sync."
+    ],
+    "recordCountToday": 6
+  },
+  "items": [
+    {
+      "userId": "usr_demo_tanvir",
+      "key": "community.dms",
+      "value": [
+        {
+          "id": "dm_anika",
+          "letter": "AN",
+          "name": "Anika R.",
+          "tone": "blush",
+          "unread": 1,
+          "messages": [
+            {
+              "id": "dm_anika_1",
+              "type": "text",
+              "authorName": "Anika R.",
+              "initials": "AN",
+              "tone": "blush",
+              "time": "7:52 PM",
+              "text": "Shall we do Part 3 again tomorrow?"
+            }
+          ]
+        },
+        {
+          "id": "dm_sadia",
+          "letter": "SH",
+          "name": "Sadia H.",
+          "tone": "lavender",
+          "unread": 1,
+          "messages": [
+            {
+              "id": "dm_sadia_1",
+              "type": "text",
+              "authorName": "Sadia H.",
+              "initials": "SH",
+              "tone": "lavender",
+              "time": "6:30 PM",
+              "text": "Sent you my cue card notes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "userId": "usr_demo_tanvir",
+      "key": "community.readRooms",
+      "value": []
+    },
+    {
+      "userId": "usr_demo_tanvir",
+      "key": "community.sent.room_speaking_p2",
+      "value": [
+        {
+          "id": "sent_seed_1",
+          "type": "text",
+          "authorName": "Tanvir Ahmed",
+          "initials": "TA",
+          "mine": true,
+          "time": "8:14 PM",
+          "afterId": "m1",
+          "text": "Yes! I need help with longer answers."
+        }
+      ]
+    },
+    {
+      "userId": "usr_demo_tanvir",
+      "key": "home.studyReminders",
+      "value": true
+    },
+    {
+      "userId": "usr_demo_tanvir",
+      "key": "listening.inProgress",
+      "value": {
+        "testId": "lt_w01",
+        "title": "Listening Test 1",
+        "answers": {
+          "1": "French",
+          "2": "Thursday",
+          "3": "90",
+          "4": "homework"
+        },
+        "current": 5,
+        "part": 0,
+        "audioPart": 0,
+        "audioSec": 64,
+        "audioDone": false,
+        "remainingSec": 1245
+      }
+    },
+    {
+      "userId": "usr_demo_tanvir",
+      "key": "listening.lesson.ll_07",
+      "value": {
+        "answers": {
+          "1": "1",
+          "2": "side"
+        },
+        "current": 3
+      }
+    }
+  ]
+}

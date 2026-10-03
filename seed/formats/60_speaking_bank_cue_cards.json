@@ -1,0 +1,48 @@
+{
+  "_format": {
+    "name": "speaking_bank_cue_cards",
+    "group": "bank",
+    "table": "speaking_cue_cards",
+    "primaryKey": "id",
+    "description": "Speaking bank Part 2 cue cards (sample talk, follow-ups, Part 3 with samples).",
+    "currentSourceInApp": "assets/content/speaking_bank.json → cueCards",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "category": "string",
+      "topic": "string",
+      "title": "string",
+      "prompt": "string",
+      "bullets": "array",
+      "part3": "array",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 207
+  },
+  "items": [
+    {
+      "id": "sp2_people_01",
+      "source": "bank",
+      "category": "people",
+      "topic": "People",
+      "title": "Describe a person who has influenced you",
+      "prompt": "Describe a person who has influenced you",
+      "bullets": [
+        "who the person is",
+        "how you know them",
+        "what they did",
+        "and how they influenced you"
+      ],
+      "part3": [
+        "Do you think it is important for young people to have role models?",
+        "How have the types of role models changed since your grandparents' time?",
+        "Do you think people are more influenced by role models in real life or in the media?",
+        "Why do some public figures fail to remain positive role models over time?",
+        "In the future, do you think AI or fictional characters could become role models?",
+        "Some believe children should care for their parents in old age. Do you agree?"
+      ],
+      "data": "… the app record (same keys as the source file) …"
+    }
+  ]
+}

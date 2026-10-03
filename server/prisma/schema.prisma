@@ -1,0 +1,797 @@
+// IELTS AI by nextED — PostgreSQL schema (Prisma 6)
+//
+// Groups (same as seed/README.md):
+//   content  01-29  same for every student (loaded from seed/data)
+//   config   30-35  settings you change without an app release
+//   user     40-47  created by students (+ auth tables)
+//
+// Conventions: ids are the stable string ids from seed/data (rp_, rb_, ls_, w2_ ...);
+// rows loaded from the app's content banks / full tests also keep the app's own
+// record in `data` (JSONB), which the content API returns as-is.
+// user rows get cuid ids. Nested structures (paragraphs, question groups,
+// transcripts ...) are JSONB so their shape can grow without migrations.
+// Table and column names are snake_case in Postgres.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────── CONTENT ───────────────────────────────
+
+/// One reading passage. source = "library" (demo passage, format 01), "bank"
+/// (question-bank set practising one question type, format 27) or "test"
+/// (passage of an Academic Reading Test 1–10, format 53; test_id = its test).
+model ReadingPassage {
+  id                 String   @id
+  source             String   @default("library")
+  part               Int
+  title              String
+  topic              String
+  difficulty         String
+  words              Int?
+  paragraphs         Json
+  groups             Json
+  questionCount      Int?     @map("question_count")
+  bankSet            Int?     @map("bank_set")
+  questionType       String?  @map("question_type")
+  questionTypeName   String?  @map("question_type_name")
+  questionTypeDetail String?  @map("question_type_detail")
+  lesson             Json?
+  passageNote        String?  @map("passage_note")
+  testId             String?  @map("test_id")
+  data               Json?
+  createdAt          DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt          DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  typeLesson ReadingTypeLesson? @relation(fields: [questionType], references: [questionType])
+
+  @@index([source, part])
+  @@index([questionType, bankSet])
+  @@map("reading_passages")
+}
+
+/// kind = "full" (Academic Reading Test 1–10: 3 passages, 40 questions, 60 min),
+/// "short" (bank practice test) or "demo" (the original demo tests rt_01 …).
+model ReadingTest {
+  id            String   @id
+  kind          String   @default("full")
+  number        Int
+  title         String
+  passageIds    String[] @map("passage_ids")
+  questionTypes String[] @default([]) @map("question_types")
+  questionCount Int?     @map("question_count")
+  minutes       Int?
+  data          Json?
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt     DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  mockTests MockTest[]
+
+  @@unique([kind, number])
+  @@map("reading_tests")
+}
+
+/// "How to attempt …" strategy lesson for one reading question type.
+model ReadingTypeLesson {
+  id           String   @id
+  questionType String   @unique @map("question_type")
+  name         String
+  title        String
+  sections     Json
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt    DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  passages ReadingPassage[]
+
+  @@map("reading_type_lessons")
+}
+
+/// source = "demo" (ls_…), "bank" (question bank lb_…, format 50) or "test"
+/// (part of Listening Test 1–4, lt_w…, format 51; test_id = its test).
+model ListeningSet {
+  id              String   @id
+  source          String   @default("demo")
+  testId          String?  @map("test_id")
+  part            Int
+  title           String
+  context         String?
+  /// R2 object key
+  audio           String
+  durationSeconds Int      @map("duration_seconds")
+  speakers        Json?
+  transcript      Json
+  groups          Json
+  data            Json?
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt       DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([part])
+  @@index([source, part])
+  @@map("listening_sets")
+}
+
+/// kind = "full" (Listening Test 1–4) or "demo" (the original lt_01 / lt_02).
+model ListeningTest {
+  id        String   @id
+  kind      String   @default("full")
+  number    Int
+  title     String
+  setIds    String[] @map("set_ids")
+  data      Json?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  mockTests MockTest[]
+
+  @@unique([kind, number])
+  @@map("listening_tests")
+}
+
+/// task = 1 (Academic Task 1, with chart or picture) or 2 (essay).
+/// source = "demo" (t1_/t2_…), "bank" (wb1_/wb2_…, format 55) or "test"
+/// (Writing Test 1–10, wt_NN_t1/t2, format 57). Bank samples are in
+/// writing_sample_answers (format 56).
+model WritingPrompt {
+  id          String   @id
+  source      String   @default("demo")
+  testId      String?  @map("test_id")
+  task        Int
+  type        String
+  topic       String?
+  title       String
+  prompt      String
+  chart       Json?
+  ideas       Json?
+  modelAnswer Json?    @map("model_answer")
+  /// picture of a Task 1 test prompt (app asset path)
+  image       String?
+  data        Json?
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  sampleAnswers WritingSampleAnswer?
+  mockTask1     MockTest[]           @relation("MockTask1")
+  mockTask2     MockTest[]           @relation("MockTask2")
+  testTask1     WritingTest[]        @relation("WritingTestTask1")
+  testTask2     WritingTest[]        @relation("WritingTestTask2")
+
+  @@index([task, type])
+  @@index([source, task])
+  @@map("writing_prompts")
+}
+
+model WritingSampleAnswer {
+  promptId  String   @id @map("prompt_id")
+  answers   Json
+  modelWhy  Json?    @map("model_why")
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  prompt WritingPrompt @relation(fields: [promptId], references: [id], onDelete: Cascade)
+
+  @@map("writing_sample_answers")
+}
+
+/// Writing Test 1–10: one Task 1 + one Task 2 prompt.
+model WritingTest {
+  id        String   @id
+  number    Int      @unique
+  title     String
+  task1Id   String   @map("task1_id")
+  task2Id   String   @map("task2_id")
+  data      Json?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  task1     WritingPrompt @relation("WritingTestTask1", fields: [task1Id], references: [id])
+  task2     WritingPrompt @relation("WritingTestTask2", fields: [task2Id], references: [id])
+  mockTests MockTest[]
+
+  @@map("writing_tests")
+}
+
+model WritingTemplate {
+  id        String   @id
+  type      String
+  title     String
+  /// task1 | task2
+  task      String
+  sections  Json
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("writing_templates")
+}
+
+/// Writing Booster sentence-combining drill. purpose = the drill's "function" label.
+model SentenceDrill {
+  id          String   @id
+  instruction String
+  connector   String?
+  purpose     String?
+  sentences   Json
+  answer      Json
+  prefilled   Int?
+  bank        Json
+  hint        String?
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("sentence_drills")
+}
+
+/// source = "demo" (s1_…), "bank" (format 59) or "test" (Speaking Test 1–10, format 62).
+model SpeakingPart1Topic {
+  id        String   @id
+  source    String   @default("demo")
+  testId    String?  @map("test_id")
+  category  String?
+  topic     String
+  questions Json
+  data      Json?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  speakingTests SpeakingTest[]
+
+  @@index([source, category])
+  @@map("speaking_part1_topics")
+}
+
+model SpeakingCueCard {
+  id          String   @id
+  source      String   @default("demo")
+  testId      String?  @map("test_id")
+  category    String?
+  topic       String
+  title       String
+  prompt      String
+  bullets     Json
+  part3       Json
+  sampleNotes Json?    @map("sample_notes")
+  /// e.g. "2026-09/2026-12" when cue cards rotate by exam season
+  season      String?
+  data        Json?
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  part3Sets     SpeakingPart3Set[]
+  speakingTests SpeakingTest[]
+
+  @@index([source, category])
+  @@map("speaking_cue_cards")
+}
+
+/// Part 3 discussion: demo sets tied to a cue card, bank topics (format 61,
+/// theme = the bank category) and test topics (format 64).
+model SpeakingPart3Set {
+  id        String   @id
+  source    String   @default("demo")
+  testId    String?  @map("test_id")
+  category  String?
+  topic     String
+  theme     String
+  cueCardId String?  @map("cue_card_id")
+  questions Json
+  data      Json?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  cueCard SpeakingCueCard? @relation(fields: [cueCardId], references: [id], onDelete: SetNull)
+
+  @@index([source, category])
+  @@map("speaking_part3_sets")
+}
+
+/// Speaking Test 1–10: Part 1 topic, Part 2 cue card, Part 3 topics.
+model SpeakingTest {
+  id        String   @id
+  number    Int      @unique
+  title     String
+  part1Id   String   @map("part1_id")
+  cueCardId String   @map("cue_card_id")
+  part3Ids  String[] @map("part3_ids")
+  data      Json?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  part1     SpeakingPart1Topic @relation(fields: [part1Id], references: [id])
+  cueCard   SpeakingCueCard    @relation(fields: [cueCardId], references: [id])
+  mockTests MockTest[]
+
+  @@map("speaking_tests")
+}
+
+model PronunciationWord {
+  id           String   @id
+  word         String
+  ipa          String
+  partOfSpeech String?  @map("part_of_speech")
+  syllables    Json
+  tip          String?
+  /// groups words into one drill of ~7 words (the "set" field in seed data)
+  drillSet     String?  @map("drill_set")
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt    DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("pronunciation_words")
+}
+
+/// kind = "full" (Full Mock Test 1–4 = test N of every module) or "demo" (mt_a …).
+model MockTest {
+  id              String   @id
+  kind            String   @default("full")
+  number          Int?
+  letter          String   @unique
+  title           String
+  listeningTestId String   @map("listening_test_id")
+  readingTestId   String   @map("reading_test_id")
+  task1Id         String   @map("task1_id")
+  task2Id         String   @map("task2_id")
+  /// { part1: speaking_part1_topics.id, cueCard: speaking_cue_cards.id }
+  speaking        Json
+  writingTestId   String?  @map("writing_test_id")
+  speakingTestId  String?  @map("speaking_test_id")
+  data            Json?
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt       DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  listeningTest ListeningTest @relation(fields: [listeningTestId], references: [id])
+  readingTest   ReadingTest   @relation(fields: [readingTestId], references: [id])
+  task1         WritingPrompt @relation("MockTask1", fields: [task1Id], references: [id])
+  task2         WritingPrompt @relation("MockTask2", fields: [task2Id], references: [id])
+  writingTest   WritingTest?  @relation(fields: [writingTestId], references: [id])
+  speakingTest  SpeakingTest? @relation(fields: [speakingTestId], references: [id])
+
+  @@map("mock_tests")
+}
+
+/// Bite-size lessons for reading / listening / writing. The lesson body
+/// (key idea, exercises, rows, formula …) differs per skill, so it lives in data.
+model Lesson {
+  id        String   @id
+  skill     String
+  sortOrder Int      @default(0) @map("sort_order")
+  title     String
+  data      Json
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([skill, sortOrder])
+  @@map("lessons")
+}
+
+model VocabQuiz {
+  id        String   @id
+  title     String
+  level     String
+  prompt    String?
+  questions Json
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("vocab_quizzes")
+}
+
+/// kind = "phrasal" (phrasal verb) or "idiom". Rows from the resources bank
+/// (format 68) carry the app record in data.
+model Phrase {
+  id        String   @id
+  kind      String
+  phrase    String
+  meaning   String
+  example   String
+  register  String?
+  topic     String?
+  care      String?
+  data      Json?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([kind])
+  @@map("phrases")
+}
+
+model VocabularyWord {
+  id           String   @id
+  word         String
+  partOfSpeech String   @map("part_of_speech")
+  definition   String
+  band         Float
+  category     String?
+  phonetic     String?
+  example      String?
+  data         Json?
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt    DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  wordOfTheDay WordOfTheDay[]
+
+  @@index([category])
+  @@map("vocabulary_words")
+}
+
+/// One row per day (Asia/Dhaka date).
+model WordOfTheDay {
+  date   DateTime @id @db.Date
+  wordId String   @map("word_id")
+
+  word VocabularyWord @relation(fields: [wordId], references: [id])
+
+  @@map("word_of_the_day")
+}
+
+model AcademicWord {
+  id           String   @id
+  word         String
+  partOfSpeech String   @map("part_of_speech")
+  meaning      String
+  day          Int?
+  sublist      Int?
+  data         Json?
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt    DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([day])
+  @@map("academic_words")
+}
+
+model IrregularVerb {
+  id         String   @id
+  base       String
+  past       String
+  participle String
+  meaning    String?
+  example    String?
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt  DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("irregular_verbs")
+}
+
+model Article {
+  id         String   @id
+  series     String
+  sortOrder  Int      @default(0) @map("sort_order")
+  chip       String?
+  breadcrumb String?
+  title      String
+  meta       String?
+  defaultTip Int?     @map("default_tip")
+  tips       Json
+  tryIt      Json?    @map("try_it")
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt  DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([series, sortOrder])
+  @@map("articles")
+}
+
+/// Whole documents and small lists the app reads as one piece: study guides
+/// (kind "guide"), bank notes ("meta"), resource lists ("list"), the speaking
+/// glossary ("glossary") and translations ("l10n", id l10n.<lang>.<module>).
+/// data = the app's JSON exactly (format 71).
+model ContentDocument {
+  id        String   @id
+  kind      String
+  title     String?
+  sortOrder Int      @default(0) @map("sort_order")
+  data      Json
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([kind, sortOrder])
+  @@map("content_documents")
+}
+
+model BandDescriptor {
+  key       String   @id
+  name      String
+  intro     String?
+  criteria  Json
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("band_descriptors")
+}
+
+// ─────────────────────────────── CONFIG ────────────────────────────────
+
+/// Prices in BDT.
+model Plan {
+  id            String   @id
+  sortOrder     Int      @default(0) @map("sort_order")
+  name          String
+  tagline       String?
+  priceMonthly  Int      @map("price_monthly")
+  priceYearly   Int      @map("price_yearly")
+  launchPricing Boolean  @default(false) @map("launch_pricing")
+  highlights    Json?
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt     DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  subscriptions Subscription[]
+
+  @@map("plans")
+}
+
+model PlanFeature {
+  id        String   @id
+  sortOrder Int      @default(0) @map("sort_order")
+  label     String
+  free      String
+  pro       String
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("plan_features")
+}
+
+model CertificateDefinition {
+  id          String   @id
+  sortOrder   Int      @default(0) @map("sort_order")
+  code        String   @unique
+  title       String
+  description String?
+  icon        String?
+  /// { type: count|band|streak|parts, … } evaluated against attempts
+  rule        Json
+  unit        String?
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("certificate_definitions")
+}
+
+/// Terms / privacy, versioned: users accept a specific version.
+model LegalDocument {
+  /// terms | privacy
+  id        String
+  version   String
+  title     String
+  intro     String?
+  sections  Json
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@id([id, version])
+  @@map("legal_documents")
+}
+
+/// Community rooms. official = created by nextED; user rooms have createdById.
+model Room {
+  id          String   @id @default(cuid())
+  letter      String
+  name        String
+  tone        String
+  topic       String
+  official    Boolean  @default(false)
+  createdById String?  @map("created_by_id")
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  createdBy User?         @relation(fields: [createdById], references: [id], onDelete: SetNull)
+  messages  RoomMessage[]
+
+  @@map("rooms")
+}
+
+model AppConfig {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("app_config")
+}
+
+// ──────────────────────────────── USERS ────────────────────────────────
+
+model User {
+  id              String    @id @default(cuid())
+  name            String
+  /// 10 digits without 0 / +880 (1XXXXXXXXX)
+  phone           String    @unique
+  passwordHash    String    @map("password_hash")
+  isDemo          Boolean   @default(false) @map("is_demo")
+  /// plan, targetBand, examDate, testType, focusSkills, dailyMinutes,
+  /// feedbackLanguage, photo (R2 key), onboarded …
+  profile         Json      @default("{}")
+  phoneVerifiedAt DateTime? @map("phone_verified_at") @db.Timestamptz(3)
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt       DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  sessions      Session[]
+  attempts      Attempt[]
+  notifications Notification[]
+  tasks         StudyTask[]
+  state         UserState[]
+  recordings    Recording[]
+  roomMessages  RoomMessage[]
+  rooms         Room[]
+  subscriptions Subscription[]
+
+  @@map("users")
+}
+
+/// Login session (refresh token). Only the token hash is stored.
+model Session {
+  id         String    @id @default(cuid())
+  userId     String    @map("user_id")
+  tokenHash  String    @unique @map("token_hash")
+  userAgent  String?   @map("user_agent")
+  expiresAt  DateTime  @map("expires_at") @db.Timestamptz(3)
+  revokedAt  DateTime? @map("revoked_at") @db.Timestamptz(3)
+  createdAt  DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  lastUsedAt DateTime? @map("last_used_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("sessions")
+}
+
+/// One-time codes for sign-up / password reset. Only the code hash is stored.
+model OtpCode {
+  id         String    @id @default(cuid())
+  phone      String
+  /// signup | reset | change_phone
+  purpose    String
+  codeHash   String    @map("code_hash")
+  attempts   Int       @default(0)
+  expiresAt  DateTime  @map("expires_at") @db.Timestamptz(3)
+  consumedAt DateTime? @map("consumed_at") @db.Timestamptz(3)
+  createdAt  DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  @@index([phone, purpose, createdAt])
+  @@map("otp_codes")
+}
+
+/// Every practice result. data holds the kind-specific details.
+model Attempt {
+  id          String   @id @default(cuid())
+  userId      String   @map("user_id")
+  /// listening | reading | writing | speaking | mock | vocab
+  skill       String
+  kind        String
+  title       String?
+  /// the content item: passage, set, test, prompt, card, mock, quiz, lesson
+  refId       String?  @map("ref_id")
+  /// 0-9 in 0.5 steps; null when unscored
+  band        Float?
+  score       Int?
+  total       Int?
+  durationSec Int?     @map("duration_sec")
+  data        Json?
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  /// last change (a speaking attempt is updated when its scores arrive); used by /v1/sync
+  updatedAt   DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recordings Recording[]
+
+  @@index([userId, skill, createdAt])
+  @@index([userId, refId])
+  @@index([userId, updatedAt])
+  @@map("attempts")
+}
+
+model Notification {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  type      String
+  skill     String?
+  title     String
+  body      String?
+  read      Boolean  @default(false)
+  /// app route to open, with optional route arguments
+  target    String?
+  args      Json?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([userId, updatedAt])
+  @@map("notifications")
+}
+
+/// Study-plan task on the schedule.
+model StudyTask {
+  id          String   @id @default(cuid())
+  userId      String   @map("user_id")
+  title       String
+  skill       String?
+  kind        String?
+  /// HH:mm local
+  time        String?
+  durationMin Int?     @map("duration_min")
+  done        Boolean  @default(false)
+  target      String?
+  date        DateTime @db.Date
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, date])
+  @@map("study_tasks")
+}
+
+/// Per-user saved state (saved words, bookmarks, highlights, progress …).
+model UserState {
+  userId    String   @map("user_id")
+  key       String
+  value     Json
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, key])
+  @@map("user_state")
+}
+
+/// Speaking recording stored in R2.
+model Recording {
+  id         String   @id @default(cuid())
+  userId     String   @map("user_id")
+  attemptId  String?  @map("attempt_id")
+  r2Key      String   @map("r2_key")
+  format     String   @default("wav")
+  durationMs Int      @map("duration_ms")
+  bytes      Int?
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attempt Attempt? @relation(fields: [attemptId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@map("recordings")
+}
+
+/// Community chat message: text | voice | image | ai | system.
+model RoomMessage {
+  id         String   @id @default(cuid())
+  roomId     String   @map("room_id")
+  /// null for ai / system messages
+  userId     String?  @map("user_id")
+  type       String
+  text       String?
+  r2Key      String?  @map("r2_key")
+  durationMs Int?     @map("duration_ms")
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  room Room  @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([roomId, createdAt])
+  @@map("room_messages")
+}
+
+model Subscription {
+  id          String    @id @default(cuid())
+  userId      String    @map("user_id")
+  planId      String    @map("plan_id")
+  /// monthly | yearly
+  period      String?
+  /// active | cancelled | expired | pending
+  status      String
+  startedAt   DateTime? @map("started_at") @db.Timestamptz(3)
+  renewsAt    DateTime? @map("renews_at") @db.Timestamptz(3)
+  /// bkash | nagad | card
+  provider    String?
+  providerRef String?   @map("provider_ref")
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan Plan @relation(fields: [planId], references: [id])
+
+  @@index([userId])
+  @@map("subscriptions")
+}

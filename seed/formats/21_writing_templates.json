@@ -1,0 +1,147 @@
+{
+  "_format": {
+    "name": "writing_templates",
+    "group": "content",
+    "table": "writing_templates",
+    "primaryKey": "id",
+    "description": "Essay/report template with fill-in slots (C10).",
+    "currentSourceInApp": "writing.templates.items",
+    "fields": {
+      "id": "string",
+      "type": "string",
+      "title": "string",
+      "task": "string",
+      "sections": "array"
+    },
+    "required": [
+      "id",
+      "type",
+      "title",
+      "task",
+      "sections"
+    ],
+    "relations": [],
+    "notes": [
+      "segments[] are text or {slot} pieces; task: task1|task2."
+    ],
+    "recordCountToday": 22
+  },
+  "items": [
+    {
+      "id": "tpl_opinion",
+      "type": "Opinion",
+      "title": "Task 2 · Opinion essay",
+      "task": "task2",
+      "sections": [
+        {
+          "title": "Introduction",
+          "subtitle": "Paraphrase + your position",
+          "segments": [
+            {
+              "text": "It is often argued that "
+            },
+            {
+              "slot": "topic"
+            },
+            {
+              "text": " benefits "
+            },
+            {
+              "slot": "group"
+            },
+            {
+              "text": ". I "
+            },
+            {
+              "slot": "agree / disagree"
+            },
+            {
+              "text": " because "
+            },
+            {
+              "slot": "reason 1"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "slot": "reason 2"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "title": "Body paragraph 1",
+          "subtitle": "Reason 1 + example",
+          "segments": [
+            {
+              "text": "The main reason is that "
+            },
+            {
+              "slot": "reason 1"
+            },
+            {
+              "text": ". For example, "
+            },
+            {
+              "slot": "specific example"
+            },
+            {
+              "text": ", which shows "
+            },
+            {
+              "slot": "result"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "title": "Body paragraph 2",
+          "subtitle": "Reason 2 + example",
+          "segments": [
+            {
+              "text": "Another reason is that "
+            },
+            {
+              "slot": "reason 2"
+            },
+            {
+              "text": ". This is clear when "
+            },
+            {
+              "slot": "specific example"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "title": "Conclusion",
+          "subtitle": "Restate + final thought",
+          "segments": [
+            {
+              "text": "In conclusion, I firmly believe that "
+            },
+            {
+              "slot": "position"
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "slot": "final thought"
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

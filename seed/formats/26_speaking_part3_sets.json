@@ -1,0 +1,67 @@
+{
+  "_format": {
+    "name": "speaking_part3_sets",
+    "group": "content",
+    "table": "speaking_part3_sets",
+    "primaryKey": "id",
+    "description": "Speaking Part 3 discussion set: 4-5 abstract questions on a theme, usually linked to a Part 2 cue card.",
+    "currentSourceInApp": "speaking.cueCards[].part3 (the app builds Part 3 from the linked cue card today)",
+    "fields": {
+      "id": "string",
+      "topic": "string",
+      "theme": "string",
+      "cueCardId": "string",
+      "questions": "array"
+    },
+    "required": [
+      "id",
+      "topic",
+      "theme",
+      "questions"
+    ],
+    "relations": [
+      "cueCardId → speaking_cue_cards.id (optional; empty = standalone Part 3 practice)"
+    ],
+    "notes": [
+      "Exported from the cue cards, one set per card. New Part 3 sets can be written without a cue card."
+    ],
+    "recordCountToday": 44,
+    "practiceParts": [
+      {
+        "part": 3,
+        "label": "Speaking Part 3 (discussion)",
+        "minutes": "4-5",
+        "format": "Examiner asks deeper follow-up questions on the Part 2 theme",
+        "practisedOn": "Speaking → Part 3 (D2); mock G7"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "p3_cc07",
+      "topic": "People",
+      "theme": "Describe a person who taught you something useful",
+      "cueCardId": "cc07",
+      "questions": [
+        "What qualities make a good teacher?",
+        "Do people learn more from family or from school?",
+        "Is it better to learn practical skills from a person or from online videos?",
+        "Should older people keep learning new skills?",
+        "How has the role of teachers changed in recent years?"
+      ]
+    },
+    {
+      "id": "p3_cc22",
+      "topic": "Places",
+      "theme": "Describe a quiet place you like to visit",
+      "cueCardId": "cc22",
+      "questions": [
+        "Why do people need quiet places in cities?",
+        "Are libraries still important today?",
+        "Is noise pollution getting worse in your country?",
+        "Should there be more rules about noise in public places?",
+        "Do young people enjoy silence as much as older people?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "lengthLabel": "2 h 45 m",
+    "durationLabel": "about 2 h 45 min"
+  },
+  "timing": {
+    "listeningExtraSeconds": 120,
+    "readingSeconds": 3600,
+    "writingSeconds": 3600
+  },
+  "systemChecks": [
+    {
+      "id": "headphones",
+      "title": "Headphones",
+      "subtitle": "Left and right channels OK",
+      "icon": "headphones",
+      "control": "testSound",
+      "passOrder": 1
+    },
+    {
+      "id": "microphone",
+      "title": "Microphone",
+      "subtitle": "Say “Hello, my name is…”",
+      "icon": "microphone",
+      "control": "level",
+      "passOrder": 4
+    },
+    {
+      "id": "connection",
+      "title": "Connection",
+      "subtitle": "Stable · answers autosave",
+      "icon": "connection",
+      "control": "check",
+      "passOrder": 2
+    },
+    {
+      "id": "stickyTimer",
+      "title": "Sticky exam timer",
+      "subtitle": "Stays on top in every section",
+      "icon": "timer",
+      "control": "toggle",
+      "passOrder": 3
+    }
+  ],
+  "sections": [
+    {
+      "key": "listening",
+      "name": "Listening",
+      "note": "Audio plays once · 4 parts · 40 questions",
+      "timeLabel": "30+2 min",
+      "shortTimeLabel": "32 min"
+    },
+    {
+      "key": "reading",
+      "name": "Reading",
+      "note": "3 passages · 40 questions",
+      "timeLabel": "60 min",
+      "shortTimeLabel": "60 min"
+    },
+    {
+      "key": "writing",
+      "name": "Writing",
+      "note": "Task 1 + Task 2",
+      "timeLabel": "60 min",
+      "shortTimeLabel": "60 min"
+    },
+    {
+      "key": "speaking",
+      "name": "Speaking",
+      "note": "Recorded · Parts 1–3",
+      "timeLabel": "11–14 min",
+      "shortTimeLabel": "11–14 min"
+    }
+  ],
+  "transitions": {
+    "reading": {
+      "doneCount": 1,
+      "completedLine": "Listening complete · answers saved",
+      "headline": "Reading starts in",
+      "note": "No extra transfer time in Reading — answer directly on screen.",
+      "cta": "Start Reading now",
+      "countdownSeconds": 30,
+      "startSeconds": 24
+    },
+    "writing": {
+      "doneCount": 2,
+      "completedLine": "Reading complete · answers saved",
+      "headline": "Writing starts in",
+      "note": "Task 1 and Task 2 share one 60-minute timer — spend about 20 minutes on Task 1.",
+      "cta": "Start Writing now",
+      "countdownSeconds": 30,
+      "startSeconds": 24
+    },
+    "speaking": {
+      "doneCount": 3,
+      "completedLine": "Writing complete · essays saved",
+      "headline": "Speaking starts in",
+      "note": "Find a quiet room — all three parts are recorded without a pause.",
+      "cta": "Start Speaking now",
+      "countdownSeconds": 30,
+      "startSeconds": 24
+    }
+  },
+  "writingTasks": [
+    {
+      "id": "task1",
+      "label": "Task 1",
+      "minWords": 150,
+      "editorLabel": "Your report",
+      "requirement": "Write at least 150 words. Suggested time: 20 minutes."
+    },
+    {
+      "id": "task2",
+      "label": "Task 2",
+      "minWords": 250,
+      "editorLabel": "Your essay",
+      "requirement": "Write at least 250 words. Suggested time: 40 minutes."
+    }
+  ],
+  "speaking": {
+    "expectedSeconds": 660,
+    "parts": [
+      {
+        "id": "sp_1",
+        "part": 1,
+        "promptLabel": "Examiner questions",
+        "hint": "Answer naturally · 2–3 sentences for each question.",
+        "prepSeconds": 0,
+        "speakSeconds": 240,
+        "followUpSeconds": 0
+      },
+      {
+        "id": "sp_2",
+        "part": 2,
+        "promptLabel": "Cue card",
+        "hint": "1 minute to prepare, then speak for up to 2 minutes.",
+        "prepSeconds": 60,
+        "speakSeconds": 120,
+        "followUpSeconds": 45
+      },
+      {
+        "id": "sp_3",
+        "part": 3,
+        "promptLabel": "Discussion",
+        "hint": "Give reasons and examples · the examiner may ask you to compare or speculate.",
+        "prepSeconds": 0,
+        "speakSeconds": 300,
+        "followUpSeconds": 0
+      }
+    ]
+  },
+  "scoring": {
+    "etaLabel": "~3 min left",
+    "provisional": [
+      {
+        "key": "listening",
+        "name": "Listening",
+        "readyAfterStep": 0
+      },
+      {
+        "key": "reading",
+        "name": "Reading",
+        "readyAfterStep": 0
+      },
+      {
+        "key": "writing",
+        "name": "Writing",
+        "readyAfterStep": 2
+      },
+      {
+        "key": "speaking",
+        "name": "Speaking",
+        "readyAfterStep": 3
+      }
+    ],
+    "steps": [
+      {
+        "id": "w1",
+        "title": "Writing Task 1",
+        "doneTitle": "Writing Task 1 scored",
+        "detail": "Checking task achievement",
+        "doneDetail": "4 criteria checked"
+      },
+      {
+        "id": "w2",
+        "title": "Writing Task 2",
+        "doneTitle": "Writing Task 2 scored",
+        "detail": "Checking coherence & cohesion",
+        "doneDetail": "4 criteria checked"
+      },
+      {
+        "id": "sp",
+        "title": "Speaking Parts 1–3",
+        "doneTitle": "Speaking scored",
+        "detail": "Transcribing your recordings",
+        "doneDetail": "Fluency, vocabulary, grammar, pronunciation"
+      }
+    ]
+  },
+  "exitWarning": {
+    "sectionName": "Reading",
+    "title": "Reading · Passage 3",
+    "secondsLeft": 298,
+    "banner": "5 minutes left — answers save automatically."
+  },
+  "plan": {
+    "titleTemplate": "Your plan to {target}",
+    "subtitleTemplate": "3 weeks · 35 min a day · built from {mock}",
+    "weekTints": [
+      "none",
+      "lavender",
+      "pink"
+    ],
+    "criteriaLabels": {
+      "TA": "Task Achievement",
+      "CC": "Coherence & Cohesion",
+      "LR": "Lexical Resource",
+      "GRA": "Grammatical Range & Accuracy",
+      "FC": "Fluency & Coherence",
+      "P": "Pronunciation"
+    },
+    "nextMock": {
+      "title": "{mock}",
+      "detail": "{date} · 9:00 AM",
+      "time": "09:00",
+      "durationMin": 165,
+      "target": "/mock/system-check"
+    },
+    "templates": {
+      "writing": {
+        "skillName": "Writing",
+        "focus": "{criterion}",
+        "items": [
+          {
+            "id": "writing_1",
+            "title": "Writing Booster · Linking",
+            "detail": "4 drills · 12 min each",
+            "durationMin": 45,
+            "target": "/writing/sentence-builder"
+          },
+          {
+            "id": "writing_2",
+            "title": "Task 2 Essay · 2 essays",
+            "detail": "AI feedback on paragraphing",
+            "durationMin": 40,
+            "target": "/writing"
+          }
+        ]
+      },
+      "listening": {
+        "skillName": "Listening",
+        "focus": "{part} questions",
+        "items": [
+          {
+            "id": "listening_1",
+            "title": "Part Practice · {part}",
+            "detail": "5 sets · note completion",
+            "durationMin": 30,
+            "target": "/listening/mini-practice"
+          },
+          {
+            "id": "listening_2",
+            "title": "Listening Tips · Note completion",
+            "detail": "Article · 6 min read",
+            "durationMin": 10,
+            "target": "/listening/lesson"
+          }
+        ]
+      },
+      "speaking": {
+        "skillName": "Speaking",
+        "focus": "{criterion}",
+        "items": [
+          {
+            "id": "speaking_1",
+            "title": "Speaking Part 3 · 6 questions",
+            "detail": "Record · filler-word tracking",
+            "durationMin": 25,
+            "target": "/speaking/part-1-3"
+          },
+          {
+            "id": "speaking_2",
+            "title": "Cue card practice · 3 cards",
+            "detail": "Part 2 · 2-minute answers",
+            "durationMin": 20,
+            "target": "/speaking/cue-card"
+          }
+        ]
+      },
+      "reading": {
+        "skillName": "Reading",
+        "focus": "Note completion",
+        "items": [
+          {
+            "id": "reading_1",
+            "title": "Timed passage · Note completion",
+            "detail": "1 passage · 20 min",
+            "durationMin": 20,
+            "target": "/reading/library"
+          },
+          {
+            "id": "reading_2",
+            "title": "Skimming & scanning lesson",
+            "detail": "Lesson · 8 min",
+            "durationMin": 10,
+            "target": "/reading/lesson"
+          }
+        ]
+      }
+    }
+  }
+}

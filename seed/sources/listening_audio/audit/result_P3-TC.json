@@ -1,0 +1,166 @@
+{
+ "code": "P3-TC",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "chalk",
+   "audio_answer": "chalk",
+   "evidence": "[0:04]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "30",
+   "audio_answer": "30",
+   "evidence": "[0:04]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "flooding",
+   "audio_answer": "flooding",
+   "evidence": "[0:32]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "coastal",
+   "audio_answer": "coastal",
+   "evidence": "[0:16]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "differs",
+   "key": "Hadleigh",
+   "audio_answer": "Cliffside",
+   "evidence": "[0:21] 'Cliffside itself, about a mile inland. C l i f f s i d e.'",
+   "note": "Town is spelled out as Cliffside; 'Hadleigh' never mentioned."
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "4",
+   "audio_answer": "4",
+   "evidence": "[0:51]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "clinometer",
+   "audio_answer": "clinometer",
+   "evidence": "[0:55]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "vests",
+   "audio_answer": "vests",
+   "evidence": "[1:02]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "11",
+   "audio_answer": "11",
+   "evidence": "[1:07]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "ok",
+   "key": "45",
+   "audio_answer": "45",
+   "evidence": "[1:11]",
+   "note": ""
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "Friday",
+   "audio_answer": "Friday",
+   "evidence": "[1:14]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "coastguard",
+   "audio_answer": "Coast Guard",
+   "evidence": "[1:19]",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "tablet",
+   "audio_answer": "tablet",
+   "evidence": "[1:25]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "2",
+   "audio_answer": "two",
+   "evidence": "[1:27]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "3",
+   "audio_answer": "three",
+   "evidence": "[1:30]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "residents",
+   "audio_answer": "residents",
+   "evidence": "[1:33]",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "differs",
+   "key": "B",
+   "audio_answer": "A",
+   "evidence": "[0:46] 'Marsh Point, but if the conditions are bad there, we'll fall back on Cliffside, site A.'",
+   "note": "Main site is Marsh Point (B); backup is site A."
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "8",
+   "audio_answer": "8",
+   "evidence": "[1:37]",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "district",
+   "audio_answer": "district",
+   "evidence": "[1:40]",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "Monday",
+   "audio_answer": "Monday",
+   "evidence": "[1:46]",
+   "note": ""
+  }
+ ],
+ "summary": "18 ok; Q5 recording gives 'Cliffside' (spelled), Q17 backup is Site A."
+}

@@ -1,0 +1,845 @@
+{
+  "table": "vocab_quizzes",
+  "items": [
+    {
+      "id": "quiz_band6",
+      "title": "Vocabulary quiz · Band 6 words",
+      "level": "Band 6",
+      "prompt": "Choose the best meaning",
+      "questions": [
+        {
+          "id": "b6q1",
+          "word": "reliable",
+          "partOfSpeech": "adjective",
+          "phonetic": "/rɪˈlaɪ.ə.bəl/",
+          "options": [
+            "very old-fashioned",
+            "able to be trusted",
+            "hard to find",
+            "quite noisy"
+          ],
+          "answer": 1,
+          "example": "The train service is more reliable than it used to be.",
+          "meaningShort": "able to be trusted",
+          "wordId": "word_reliable"
+        },
+        {
+          "id": "b6q2",
+          "word": "decline",
+          "partOfSpeech": "verb",
+          "phonetic": "/dɪˈklaɪn/",
+          "options": [
+            "to grow quickly",
+            "to stay the same",
+            "to arrive late",
+            "to become less"
+          ],
+          "answer": 3,
+          "example": "Sales of printed newspapers continued to decline.",
+          "meaningShort": "become less",
+          "wordId": "word_decline"
+        },
+        {
+          "id": "b6q3",
+          "word": "essential",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ɪˈsen.ʃəl/",
+          "options": [
+            "completely necessary",
+            "slightly useful",
+            "rarely used",
+            "very cheap"
+          ],
+          "answer": 0,
+          "example": "Clean water is essential for good health.",
+          "meaningShort": "completely necessary",
+          "wordId": "word_essential"
+        },
+        {
+          "id": "b6q4",
+          "word": "benefit",
+          "partOfSpeech": "noun",
+          "phonetic": "/ˈben.ɪ.fɪt/",
+          "options": [
+            "a serious problem",
+            "a formal rule",
+            "a helpful advantage",
+            "a short delay"
+          ],
+          "answer": 2,
+          "example": "One benefit of cycling is that it costs nothing.",
+          "meaningShort": "a helpful advantage",
+          "wordId": "word_benefit"
+        },
+        {
+          "id": "b6q5",
+          "word": "rural",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˈrʊə.rəl/",
+          "options": [
+            "relating to the sea",
+            "very crowded",
+            "made by machines",
+            "relating to the countryside"
+          ],
+          "answer": 3,
+          "example": "Many young people leave rural areas to find work.",
+          "meaningShort": "relating to the countryside",
+          "wordId": "word_rural"
+        },
+        {
+          "id": "b6q6",
+          "word": "affordable",
+          "partOfSpeech": "adjective",
+          "phonetic": "/əˈfɔː.də.bəl/",
+          "options": [
+            "too heavy to carry",
+            "cheap enough to buy",
+            "impossible to repair",
+            "easy to break"
+          ],
+          "answer": 1,
+          "example": "The city needs more affordable housing.",
+          "meaningShort": "cheap enough to buy",
+          "wordId": "word_affordable"
+        },
+        {
+          "id": "b6q7",
+          "word": "improve",
+          "partOfSpeech": "verb",
+          "phonetic": "/ɪmˈpruːv/",
+          "options": [
+            "to throw away",
+            "to count again",
+            "to make better",
+            "to keep secret"
+          ],
+          "answer": 2,
+          "example": "Reading every day can improve your vocabulary.",
+          "meaningShort": "make better",
+          "wordId": "word_improve"
+        },
+        {
+          "id": "b6q8",
+          "word": "pollution",
+          "partOfSpeech": "noun",
+          "phonetic": "/pəˈluː.ʃən/",
+          "options": [
+            "damage to air, water or land",
+            "a type of weather",
+            "a kind of transport",
+            "a public holiday"
+          ],
+          "answer": 0,
+          "example": "Traffic is the main cause of air pollution in the city.",
+          "meaningShort": "damage to air, water or land",
+          "wordId": "word_pollution"
+        },
+        {
+          "id": "b6q9",
+          "word": "convenient",
+          "partOfSpeech": "adjective",
+          "phonetic": "/kənˈviː.ni.ənt/",
+          "options": [
+            "dangerous to use",
+            "easy and suitable",
+            "very expensive",
+            "hard to reach"
+          ],
+          "answer": 1,
+          "example": "Online banking is convenient for busy people.",
+          "meaningShort": "easy and suitable",
+          "wordId": "word_convenient"
+        },
+        {
+          "id": "b6q10",
+          "word": "encourage",
+          "partOfSpeech": "verb",
+          "phonetic": "/ɪnˈkʌr.ɪdʒ/",
+          "options": [
+            "to stop someone",
+            "to punish someone",
+            "to forget someone",
+            "to give someone confidence or support"
+          ],
+          "answer": 3,
+          "example": "Teachers should encourage students to ask questions.",
+          "meaningShort": "give someone confidence or support",
+          "wordId": "word_encourage"
+        }
+      ]
+    },
+    {
+      "id": "quiz_band7",
+      "title": "Vocabulary quiz · Band 7+ words",
+      "level": "Band 7",
+      "prompt": "Choose the best meaning",
+      "questions": [
+        {
+          "id": "q1",
+          "word": "feasible",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˈfiː.zə.bəl/",
+          "options": [
+            "possible to do",
+            "difficult to believe",
+            "easy to forget",
+            "very expensive"
+          ],
+          "answer": 0,
+          "example": "Building a new bridge is feasible within the budget.",
+          "meaningShort": "possible to do",
+          "wordId": "word_feasible"
+        },
+        {
+          "id": "q2",
+          "word": "ubiquitous",
+          "partOfSpeech": "adjective",
+          "phonetic": "/juːˈbɪk.wɪ.təs/",
+          "options": [
+            "rare and valuable",
+            "found everywhere",
+            "hard to see",
+            "very old"
+          ],
+          "answer": 1,
+          "example": "Smartphones have become ubiquitous in classrooms.",
+          "meaningShort": "found everywhere",
+          "wordId": "word_ubiquitous"
+        },
+        {
+          "id": "q3",
+          "word": "alleviate",
+          "partOfSpeech": "verb",
+          "phonetic": "/əˈliː.vi.eɪt/",
+          "options": [
+            "to hide something",
+            "to raise something",
+            "to make less severe",
+            "to repeat something"
+          ],
+          "answer": 2,
+          "example": "Extra buses could alleviate traffic congestion.",
+          "meaningShort": "make less severe",
+          "wordId": "word_alleviate"
+        },
+        {
+          "id": "q4",
+          "word": "detrimental",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˌdet.rɪˈmen.təl/",
+          "options": [
+            "very helpful",
+            "causing harm",
+            "slightly unusual",
+            "easy to notice"
+          ],
+          "answer": 1,
+          "example": "Too much screen time can be detrimental to sleep.",
+          "meaningShort": "causing harm",
+          "wordId": "word_detrimental"
+        },
+        {
+          "id": "q5",
+          "word": "curtail",
+          "partOfSpeech": "verb",
+          "phonetic": "/kɜːˈteɪl/",
+          "options": [
+            "to reduce or limit",
+            "to decorate",
+            "to make longer",
+            "to celebrate"
+          ],
+          "answer": 0,
+          "example": "The council plans to curtail car use in the centre.",
+          "meaningShort": "reduce or limit",
+          "wordId": "word_curtail"
+        },
+        {
+          "id": "q6",
+          "word": "advocate",
+          "partOfSpeech": "verb",
+          "phonetic": "/ˈæd.və.keɪt/",
+          "options": [
+            "to oppose strongly",
+            "to ignore",
+            "to publicly support",
+            "to measure"
+          ],
+          "answer": 2,
+          "example": "Many experts advocate a four-day working week.",
+          "meaningShort": "publicly support",
+          "wordId": "word_advocate"
+        },
+        {
+          "id": "q7",
+          "word": "mitigate",
+          "partOfSpeech": "verb",
+          "phonetic": "/ˈmɪt.ɪ.ɡeɪt/",
+          "options": [
+            "to make something worse",
+            "to make something less harmful",
+            "to measure something exactly",
+            "to delay something"
+          ],
+          "answer": 1,
+          "example": "Planting trees can help mitigate the effects of city heat.",
+          "meaningShort": "make less harmful",
+          "wordId": "word_mitigate"
+        },
+        {
+          "id": "q8",
+          "word": "scrutinise",
+          "partOfSpeech": "verb",
+          "phonetic": "/ˈskruː.tɪ.naɪz/",
+          "options": [
+            "to examine closely",
+            "to throw away",
+            "to agree quickly",
+            "to copy exactly"
+          ],
+          "answer": 0,
+          "example": "Examiners scrutinise every paragraph for coherence.",
+          "meaningShort": "examine closely",
+          "wordId": "word_scrutinise"
+        },
+        {
+          "id": "q9",
+          "word": "exacerbate",
+          "partOfSpeech": "verb",
+          "phonetic": "/ɪɡˈzæs.ə.beɪt/",
+          "options": [
+            "to solve",
+            "to make worse",
+            "to explain",
+            "to share"
+          ],
+          "answer": 1,
+          "example": "Cutting funding would exacerbate the housing crisis.",
+          "meaningShort": "make worse",
+          "wordId": "word_exacerbate"
+        },
+        {
+          "id": "q10",
+          "word": "burgeoning",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˈbɜː.dʒən.ɪŋ/",
+          "options": [
+            "shrinking slowly",
+            "staying the same",
+            "growing quickly",
+            "hidden from view"
+          ],
+          "answer": 2,
+          "example": "The city has a burgeoning tech industry.",
+          "meaningShort": "growing quickly",
+          "wordId": "word_burgeoning"
+        }
+      ]
+    },
+    {
+      "id": "quiz_band8",
+      "title": "Vocabulary quiz · Band 8 words",
+      "level": "Band 8",
+      "prompt": "Choose the best meaning",
+      "questions": [
+        {
+          "id": "b8q1",
+          "word": "ubiquity",
+          "partOfSpeech": "noun",
+          "phonetic": "/juːˈbɪk.wə.ti/",
+          "options": [
+            "great age",
+            "the fact of being everywhere",
+            "deep sadness",
+            "careful planning"
+          ],
+          "answer": 1,
+          "example": "The ubiquity of phones has changed how we socialise.",
+          "meaningShort": "the fact of being everywhere",
+          "wordId": "word_ubiquity"
+        },
+        {
+          "id": "b8q2",
+          "word": "pragmatic",
+          "partOfSpeech": "adjective",
+          "phonetic": "/præɡˈmæt.ɪk/",
+          "options": [
+            "full of romantic ideas",
+            "extremely careless",
+            "rather shy",
+            "dealing with problems sensibly"
+          ],
+          "answer": 3,
+          "example": "The council took a pragmatic approach to the budget.",
+          "meaningShort": "dealing with problems sensibly",
+          "wordId": "word_pragmatic"
+        },
+        {
+          "id": "b8q3",
+          "word": "ameliorate",
+          "partOfSpeech": "verb",
+          "phonetic": "/əˈmiː.li.ə.reɪt/",
+          "options": [
+            "to make a situation better",
+            "to make a situation worse",
+            "to describe in detail",
+            "to hide from view"
+          ],
+          "answer": 0,
+          "example": "New policies aim to ameliorate living conditions in poorer districts.",
+          "meaningShort": "make a situation better",
+          "wordId": "word_ameliorate"
+        },
+        {
+          "id": "b8q4",
+          "word": "tenuous",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˈten.ju.əs/",
+          "options": [
+            "very strong",
+            "widely known",
+            "weak or slight",
+            "legally required"
+          ],
+          "answer": 2,
+          "example": "The link between the two events is tenuous at best.",
+          "meaningShort": "weak or slight",
+          "wordId": "word_tenuous"
+        },
+        {
+          "id": "b8q5",
+          "word": "proliferation",
+          "partOfSpeech": "noun",
+          "phonetic": "/prəˌlɪf.ərˈeɪ.ʃən/",
+          "options": [
+            "a gradual decline",
+            "a formal agreement",
+            "a careful check",
+            "a rapid increase in number"
+          ],
+          "answer": 3,
+          "example": "The proliferation of fast-food outlets worries health experts.",
+          "meaningShort": "a rapid increase in number",
+          "wordId": "word_proliferation"
+        },
+        {
+          "id": "b8q6",
+          "word": "intrinsic",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ɪnˈtrɪn.zɪk/",
+          "options": [
+            "added from outside",
+            "belonging naturally to something",
+            "temporary and changing",
+            "rarely noticed"
+          ],
+          "answer": 1,
+          "example": "Curiosity has intrinsic value in education.",
+          "meaningShort": "belonging naturally to something",
+          "wordId": "word_intrinsic"
+        },
+        {
+          "id": "b8q7",
+          "word": "juxtapose",
+          "partOfSpeech": "verb",
+          "phonetic": "/ˌdʒʌk.stəˈpəʊz/",
+          "options": [
+            "to move far apart",
+            "to repeat many times",
+            "to place side by side for contrast",
+            "to remove completely"
+          ],
+          "answer": 2,
+          "example": "The exhibition juxtaposes ancient tools with modern machines.",
+          "meaningShort": "place side by side for contrast",
+          "wordId": "word_juxtapose"
+        },
+        {
+          "id": "b8q8",
+          "word": "salient",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˈseɪ.li.ənt/",
+          "options": [
+            "most noticeable or important",
+            "completely hidden",
+            "very small",
+            "slightly wrong"
+          ],
+          "answer": 0,
+          "example": "Summarise only the salient features of the chart.",
+          "meaningShort": "most noticeable or important",
+          "wordId": "word_salient"
+        },
+        {
+          "id": "b8q9",
+          "word": "unprecedented",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ʌnˈpres.ɪ.den.tɪd/",
+          "options": [
+            "happening very often",
+            "never having happened before",
+            "planned in advance",
+            "easily explained"
+          ],
+          "answer": 1,
+          "example": "The region saw unprecedented levels of rainfall.",
+          "meaningShort": "never having happened before",
+          "wordId": "word_unprecedented"
+        },
+        {
+          "id": "b8q10",
+          "word": "equitable",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˈek.wɪ.tə.bəl/",
+          "options": [
+            "extremely generous",
+            "badly organised",
+            "very old",
+            "fair and reasonable"
+          ],
+          "answer": 3,
+          "example": "An equitable tax system asks more from those who earn more.",
+          "meaningShort": "fair and reasonable",
+          "wordId": "word_equitable"
+        }
+      ]
+    },
+    {
+      "id": "quiz_academic",
+      "title": "Vocabulary quiz · Academic Word List",
+      "level": "Academic",
+      "prompt": "Choose the best meaning",
+      "questions": [
+        {
+          "id": "acq1",
+          "word": "hypothesis",
+          "partOfSpeech": "noun",
+          "phonetic": "/haɪˈpɒθ.ə.sɪs/",
+          "options": [
+            "a proven fact",
+            "an idea to be tested",
+            "a list of sources",
+            "a final result"
+          ],
+          "answer": 1,
+          "example": "The researchers tested their hypothesis over two years.",
+          "meaningShort": "an idea to be tested",
+          "wordId": "word_hypothesis"
+        },
+        {
+          "id": "acq2",
+          "word": "significant",
+          "partOfSpeech": "adjective",
+          "phonetic": "/sɪɡˈnɪf.ɪ.kənt/",
+          "options": [
+            "completely unknown",
+            "slightly damaged",
+            "officially banned",
+            "large or important enough to notice"
+          ],
+          "answer": 3,
+          "example": "There was a significant rise in online sales.",
+          "meaningShort": "large or important enough to notice",
+          "wordId": "word_significant"
+        },
+        {
+          "id": "acq3",
+          "word": "fluctuate",
+          "partOfSpeech": "verb",
+          "phonetic": "/ˈflʌk.tʃu.eɪt/",
+          "options": [
+            "to rise and fall irregularly",
+            "to stay exactly the same",
+            "to disappear suddenly",
+            "to be measured"
+          ],
+          "answer": 0,
+          "example": "Oil prices fluctuated throughout the decade.",
+          "meaningShort": "rise and fall irregularly",
+          "wordId": "word_fluctuate"
+        },
+        {
+          "id": "acq4",
+          "word": "derive",
+          "partOfSpeech": "verb",
+          "phonetic": "/dɪˈraɪv/",
+          "options": [
+            "to give something away",
+            "to hide the truth",
+            "to get something from a source",
+            "to break a rule"
+          ],
+          "answer": 2,
+          "example": "Much of the country's income is derived from tourism.",
+          "meaningShort": "get something from a source",
+          "wordId": "word_derive"
+        },
+        {
+          "id": "acq5",
+          "word": "empirical",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ɪmˈpɪr.ɪ.kəl/",
+          "options": [
+            "based on personal feeling",
+            "purely imaginary",
+            "very old-fashioned",
+            "based on observation or experiment"
+          ],
+          "answer": 3,
+          "example": "There is little empirical evidence for the claim.",
+          "meaningShort": "based on observation or experiment",
+          "wordId": "word_empirical"
+        },
+        {
+          "id": "acq6",
+          "word": "allocate",
+          "partOfSpeech": "verb",
+          "phonetic": "/ˈæl.ə.keɪt/",
+          "options": [
+            "to take back by force",
+            "to give for a particular purpose",
+            "to count twice",
+            "to delay payment"
+          ],
+          "answer": 1,
+          "example": "The government allocated more funds to rural schools.",
+          "meaningShort": "give for a particular purpose",
+          "wordId": "word_allocate"
+        },
+        {
+          "id": "acq7",
+          "word": "subsequent",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˈsʌb.sɪ.kwənt/",
+          "options": [
+            "happening before",
+            "happening at the same time",
+            "happening after",
+            "never happening"
+          ],
+          "answer": 2,
+          "example": "Subsequent studies confirmed the original findings.",
+          "meaningShort": "happening after",
+          "wordId": "word_subsequent"
+        },
+        {
+          "id": "acq8",
+          "word": "infer",
+          "partOfSpeech": "verb",
+          "phonetic": "/ɪnˈfɜːr/",
+          "options": [
+            "to reach a conclusion from evidence",
+            "to state openly",
+            "to disagree strongly",
+            "to copy word for word"
+          ],
+          "answer": 0,
+          "example": "From the data, we can infer that demand is rising.",
+          "meaningShort": "reach a conclusion from evidence",
+          "wordId": "word_infer"
+        },
+        {
+          "id": "acq9",
+          "word": "criteria",
+          "partOfSpeech": "noun",
+          "phonetic": "/kraɪˈtɪə.ri.ə/",
+          "options": [
+            "types of transport",
+            "standards used for judging",
+            "rules of grammar",
+            "sources of energy"
+          ],
+          "answer": 1,
+          "example": "Essays are marked against four criteria.",
+          "meaningShort": "standards used for judging",
+          "wordId": "word_criteria"
+        },
+        {
+          "id": "acq10",
+          "word": "comprise",
+          "partOfSpeech": "verb",
+          "phonetic": "/kəmˈpraɪz/",
+          "options": [
+            "to argue against",
+            "to improve slowly",
+            "to reduce in size",
+            "to consist of"
+          ],
+          "answer": 3,
+          "example": "The test comprises four separate sections.",
+          "meaningShort": "consist of",
+          "wordId": "word_comprise"
+        }
+      ]
+    },
+    {
+      "id": "quiz_collocations",
+      "title": "Vocabulary quiz · Collocations",
+      "level": "Collocations",
+      "prompt": "Choose the best meaning",
+      "questions": [
+        {
+          "id": "coq1",
+          "word": "make progress",
+          "partOfSpeech": "collocation",
+          "phonetic": "/meɪk ˈprəʊ.ɡres/",
+          "options": [
+            "to cause a problem",
+            "to improve or move forward",
+            "to finish suddenly",
+            "to lose interest"
+          ],
+          "answer": 1,
+          "example": "She has made real progress with her pronunciation.",
+          "meaningShort": "improve or move forward",
+          "wordId": "word_make_progress"
+        },
+        {
+          "id": "coq2",
+          "word": "pose a threat",
+          "partOfSpeech": "collocation",
+          "phonetic": "/pəʊz ə θret/",
+          "options": [
+            "to take a photograph",
+            "to make a promise",
+            "to solve a problem",
+            "to be a possible danger"
+          ],
+          "answer": 3,
+          "example": "Rising sea levels pose a threat to coastal towns.",
+          "meaningShort": "be a possible danger",
+          "wordId": "word_pose_a_threat"
+        },
+        {
+          "id": "coq3",
+          "word": "conduct research",
+          "partOfSpeech": "collocation",
+          "phonetic": "/kənˈdʌkt rɪˈsɜːtʃ/",
+          "options": [
+            "to carry out a study",
+            "to cancel a study",
+            "to read a summary",
+            "to publish a novel"
+          ],
+          "answer": 0,
+          "example": "The university conducted research into sleep patterns.",
+          "meaningShort": "carry out a study",
+          "wordId": "word_conduct_research"
+        },
+        {
+          "id": "coq4",
+          "word": "raise awareness",
+          "partOfSpeech": "collocation",
+          "phonetic": "/reɪz əˈweə.nəs/",
+          "options": [
+            "to increase prices",
+            "to build something taller",
+            "to make people know more about something",
+            "to wake someone up"
+          ],
+          "answer": 2,
+          "example": "The campaign aims to raise awareness of food waste.",
+          "meaningShort": "make people know more about something",
+          "wordId": "word_raise_awareness"
+        },
+        {
+          "id": "coq5",
+          "word": "heavy traffic",
+          "partOfSpeech": "collocation",
+          "phonetic": "/ˈhev.i ˈtræf.ɪk/",
+          "options": [
+            "very large lorries",
+            "expensive transport",
+            "traffic at night only",
+            "large, slow-moving amounts of vehicles"
+          ],
+          "answer": 3,
+          "example": "Heavy traffic made us late for the exam.",
+          "meaningShort": "large, slow-moving amounts of vehicles",
+          "wordId": "word_heavy_traffic"
+        },
+        {
+          "id": "coq6",
+          "word": "take measures",
+          "partOfSpeech": "collocation",
+          "phonetic": "/teɪk ˈmeʒ.əz/",
+          "options": [
+            "to check someone's height",
+            "to take action to deal with something",
+            "to go shopping",
+            "to agree to a price"
+          ],
+          "answer": 1,
+          "example": "Schools must take measures to reduce bullying.",
+          "meaningShort": "take action to deal with something",
+          "wordId": "word_take_measures"
+        },
+        {
+          "id": "coq7",
+          "word": "a sharp increase",
+          "partOfSpeech": "collocation",
+          "phonetic": "/ə ʃɑːp ˈɪŋ.kriːs/",
+          "options": [
+            "a slow fall",
+            "a dangerous tool",
+            "a sudden, large rise",
+            "a small change"
+          ],
+          "answer": 2,
+          "example": "The graph shows a sharp increase in 2015.",
+          "meaningShort": "a sudden, large rise",
+          "wordId": "word_a_sharp_increase"
+        },
+        {
+          "id": "coq8",
+          "word": "meet a deadline",
+          "partOfSpeech": "collocation",
+          "phonetic": "/miːt ə ˈded.laɪn/",
+          "options": [
+            "to finish something on time",
+            "to meet someone new",
+            "to miss an appointment",
+            "to arrange a meeting"
+          ],
+          "answer": 0,
+          "example": "The team worked late to meet the deadline.",
+          "meaningShort": "finish something on time",
+          "wordId": "word_meet_a_deadline"
+        },
+        {
+          "id": "coq9",
+          "word": "bridge the gap",
+          "partOfSpeech": "collocation",
+          "phonetic": "/brɪdʒ ðə ɡæp/",
+          "options": [
+            "to build a bridge",
+            "to reduce the difference between two things",
+            "to make a hole",
+            "to cross a river"
+          ],
+          "answer": 1,
+          "example": "Scholarships can help bridge the gap between rich and poor students.",
+          "meaningShort": "reduce the difference between two things",
+          "wordId": "word_bridge_the_gap"
+        },
+        {
+          "id": "coq10",
+          "word": "draw a conclusion",
+          "partOfSpeech": "collocation",
+          "phonetic": "/drɔː ə kənˈkluː.ʒən/",
+          "options": [
+            "to sketch a picture",
+            "to end a story badly",
+            "to copy a result",
+            "to decide something after considering facts"
+          ],
+          "answer": 3,
+          "example": "It is too early to draw a conclusion from the survey.",
+          "meaningShort": "decide something after considering facts",
+          "wordId": "word_draw_a_conclusion"
+        }
+      ]
+    }
+  ]
+}

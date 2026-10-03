@@ -1,0 +1,1654 @@
+[
+ {
+  "id": "rb_sentence_completion_01",
+  "questionTypeName": "Sentence Completion",
+  "title": "From Tree to Table",
+  "lesson": {
+   "title": "Predict the word type",
+   "text": "Before looking at the passage, decide what kind of word fills each gap. \"is collected in early...\" needs a time word such as a season or month. \"takes about ... litres of sap\" needs a number. Knowing the word type helps you ignore nearby words of the wrong kind.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Most of the world's maple syrup comes from the province of ______ .",
+    "answer": "Quebec",
+    "evidence": "The Canadian province of Quebec alone produces around seventy per cent of the world's supply.",
+    "explanation": "\"Seventy per cent\" = \"most\". The answer is one word."
+   },
+   {
+    "n": 2,
+    "q": "European settlers learned how to make maple sugar from ______ .",
+    "answer": "Indigenous peoples",
+    "evidence": "Indigenous peoples of the region ... taught early settlers the technique.",
+    "explanation": "This is two words. \"Indigenous peoples of the region\" would exceed the limit."
+   },
+   {
+    "n": 3,
+    "q": "Sap flows well when freezing nights are followed by warmer ______ .",
+    "answer": "days",
+    "evidence": "nights when temperatures fall below freezing, followed by days when they rise above it.",
+    "explanation": "The gap needs a plural noun after \"warmer\"."
+   },
+   {
+    "n": 4,
+    "q": "In modern systems, sap travels through ______ to a central building.",
+    "answer": "plastic tubing",
+    "evidence": "networks of plastic tubing, which carry the sap directly to a central building.",
+    "explanation": "\"Networks of plastic tubing\" is four words, so it is too long."
+   },
+   {
+    "n": 5,
+    "q": "Fresh sap contains only a small percentage of ______ .",
+    "answer": "sugar",
+    "evidence": "contains only about two to three per cent sugar.",
+    "explanation": "This matches \"small percentage\"."
+   },
+   {
+    "n": 6,
+    "q": "Roughly ______ of sap are required to produce one litre of syrup.",
+    "answer": "forty litres / 40 litres",
+    "evidence": "about forty litres of sap are needed to make just one litre of syrup.",
+    "explanation": "\"Roughly\" = \"about\". Do not include \"about\", because it is already in the sentence as \"Roughly\"."
+   },
+   {
+    "n": 7,
+    "q": "Syrup made later in the season is darker and has a stronger ______ .",
+    "answer": "taste",
+    "evidence": "syrup produced later is darker and has a stronger taste.",
+    "explanation": "Do not write \"flavour\": the passage uses \"flavour\" for early syrup (\"more delicate in flavour\") and \"taste\" for later syrup."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_02",
+  "questionTypeName": "Sentence Completion",
+  "title": "The Long Run",
+  "lesson": {
+   "title": "Numbers close together",
+   "text": "Sports and history passages contain many dates, distances and figures near each other. The question sentence usually paraphrases the context of the correct number: \"the distance was fixed\", \"women were first allowed\". Find the number whose context matches, not just the first number you see in that paragraph.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Historians are doubtful about the story because it appears in texts written ______ after the battle.",
+    "answer": "several centuries",
+    "evidence": "the legend appears in writings produced several centuries later.",
+    "explanation": "This is two words. \"Writings\" = \"texts\"."
+   },
+   {
+    "n": 2,
+    "q": "The winner of the first Olympic marathon was a ______ from Greece.",
+    "answer": "water carrier",
+    "evidence": "Spyridon Louis, a Greek water carrier.",
+    "explanation": "\"Greek\" is already in the sentence (\"from Greece\")."
+   },
+   {
+    "n": 3,
+    "q": "The oldest yearly marathon still held takes place in ______ .",
+    "answer": "Boston",
+    "evidence": "the Boston Marathon ... is the oldest annual marathon still running.",
+    "explanation": "\"Annual\" = \"yearly\"."
+   },
+   {
+    "n": 4,
+    "q": "The distance used today was first run at the Olympic Games in ______ .",
+    "answer": "1908",
+    "evidence": "The current distance ... dates from the London Olympics of 1908.",
+    "explanation": "Do not confuse this with 1921, the year of official adoption. This is a nearby-number trap."
+   },
+   {
+    "n": 5,
+    "q": "The distance became the official standard in ______ .",
+    "answer": "1921",
+    "evidence": "It was officially adopted as the standard marathon distance in 1921.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "Women first competed in an Olympic marathon in the year ______ .",
+    "answer": "1984",
+    "evidence": "A women's marathon was first included in the Olympic Games in 1984, in Los Angeles.",
+    "explanation": "The words \"the year\" require a date. Do not write 1972, which relates to Boston, or 1967."
+   },
+   {
+    "n": 7,
+    "q": "Kipchoge's run under two hours was not an official record partly because of the use of rotating ______ .",
+    "answer": "pacemakers",
+    "evidence": "such as a rotating team of pacemakers.",
+    "explanation": "One word is enough, and \"team of pacemakers\" would not fit the sentence grammatically."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_03",
+  "questionTypeName": "Sentence Completion",
+  "title": "Winter Fathers",
+  "lesson": {
+   "title": "ONE WORD ONLY",
+   "text": "When the instruction says ONE WORD ONLY, you must find the single key word. Look especially for nouns. Articles (a, the) and adjectives must be left out unless the single word itself is the adjective the sentence needs.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Emperor penguins breed on sea ice during the Antarctic ______ .",
+    "answer": "winter",
+    "evidence": "the only animal that breeds during the Antarctic winter.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "The male keeps the egg warm by holding it on his ______ .",
+    "answer": "feet",
+    "evidence": "balances it on his feet.",
+    "explanation": "\"Brood pouch\" is the covering, not what the egg is held on, and it is two words."
+   },
+   {
+    "n": 3,
+    "q": "The male survives without food by using stored ______ .",
+    "answer": "fat",
+    "evidence": "surviving on the fat stored in his body.",
+    "explanation": "\"Stored\" is already in the sentence."
+   },
+   {
+    "n": 4,
+    "q": "Males stand together in groups known as ______ .",
+    "answer": "huddles",
+    "evidence": "tightly packed groups called huddles.",
+    "explanation": "The plural noun fits \"groups known as\"."
+   },
+   {
+    "n": 5,
+    "q": "The chick's first food is a substance produced in the male's ______ .",
+    "answer": "throat",
+    "evidence": "a milky substance produced in his throat.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "Older chicks gather in groups called ______ .",
+    "answer": "crèches (creches)",
+    "evidence": "groups known as crèches.",
+    "explanation": "The spelling without the accent is also accepted."
+   },
+   {
+    "n": 7,
+    "q": "Some colonies have failed because the ice broke up before the chicks had developed waterproof ______ .",
+    "answer": "feathers",
+    "evidence": "before the young had developed their waterproof feathers.",
+    "explanation": "\"Waterproof\" is already in the sentence."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_04",
+  "questionTypeName": "Sentence Completion",
+  "title": "The Green Steel",
+  "lesson": {
+   "title": "Adjective + noun answers",
+   "text": "Sometimes the gap needs a two-word phrase such as an adjective with a noun (\"natural resistance\", \"steel reinforcement\"). Check whether the sentence already contains the adjective. If it does, you need only the noun; if not, you may need both words. Reading the complete sentence aloud in your head helps you avoid duplication.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Although it is used like wood, bamboo is actually a kind of ______ .",
+    "answer": "grass",
+    "evidence": "Bamboo is a type of grass, not a tree.",
+    "explanation": "\"Type\" = \"kind\"."
+   },
+   {
+    "n": 2,
+    "q": "After harvesting, new growth comes from the ______ system.",
+    "answer": "underground root",
+    "evidence": "new shoots grow from the underground root system.",
+    "explanation": "\"System\" is already in the sentence, and two words fit the limit."
+   },
+   {
+    "n": 3,
+    "q": "The solid sections that divide bamboo stems are known as ______ .",
+    "answer": "nodes",
+    "evidence": "solid sections called nodes.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 4,
+    "q": "Insects are attracted to untreated bamboo because of the ______ it contains.",
+    "answer": "starch",
+    "evidence": "beetles, which feed on the starch it contains.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 5,
+    "q": "Modern methods of protection use solutions of ______ .",
+    "answer": "salts",
+    "evidence": "Modern treatments use solutions of salts.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "Obtaining approval for bamboo buildings is difficult in countries without appropriate ______ .",
+    "answer": "building codes",
+    "evidence": "Many countries lack building codes that specify how bamboo should be used.",
+    "explanation": "\"Lack\" = \"without\"."
+   },
+   {
+    "n": 7,
+    "q": "Engineered bamboo products are formed into boards and beams of ______ .",
+    "answer": "uniform size",
+    "evidence": "boards and beams of uniform size.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_05",
+  "questionTypeName": "Sentence Completion",
+  "title": "Autumn Colours",
+  "lesson": {
+   "title": "Plural and singular",
+   "text": "Check whether the sentence needs a singular or plural noun: \"a ... called\" needs a singular; \"substances known as ...\" needs a plural. Copy the word in the same form that appears in the passage, and make sure it fits the grammar of the sentence.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Trees that lose their leaves every year are described as ______ .",
+    "answer": "deciduous",
+    "evidence": "deciduous trees – those that lose their leaves each year.",
+    "explanation": "The sentence needs an adjective after \"described as\"."
+   },
+   {
+    "n": 2,
+    "q": "In autumn, trees recover nutrients such as ______ from their leaves.",
+    "answer": "nitrogen",
+    "evidence": "useful nutrients from the leaves, such as nitrogen.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 3,
+    "q": "Yellow and orange colours are produced by pigments called ______ .",
+    "answer": "carotenoids",
+    "evidence": "pigments called carotenoids.",
+    "explanation": "The plural fits \"pigments called\"."
+   },
+   {
+    "n": 4,
+    "q": "During summer, these pigments are concealed by ______ .",
+    "answer": "chlorophyll",
+    "evidence": "they are hidden by the much larger quantities of chlorophyll.",
+    "explanation": "\"Hidden\" = \"concealed\". \"Large quantities of chlorophyll\" would exceed the limit."
+   },
+   {
+    "n": 5,
+    "q": "Red colours come from ______ that many trees produce in autumn.",
+    "answer": "anthocyanins",
+    "evidence": "pigments called anthocyanins ... many trees actively produce them in autumn.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "One theory suggests that red pigments work like a type of ______ .",
+    "answer": "sunscreen",
+    "evidence": "anthocyanins act as a kind of sunscreen.",
+    "explanation": "\"Kind\" = \"type\"."
+   },
+   {
+    "n": 7,
+    "q": "An early ______ can prevent the colours from developing fully.",
+    "answer": "(severe) frost",
+    "evidence": "A severe early frost ... can kill the leaves before the colours develop fully.",
+    "explanation": "\"Early\" is already in the sentence. Both \"frost\" and \"severe frost\" are within the limit, but \"severe early frost\" is not."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_06",
+  "questionTypeName": "Sentence Completion",
+  "title": "Riding on Air",
+  "lesson": {
+   "title": "Paraphrased verbs",
+   "text": "The question sentence often uses a different verb from the passage: \"was first tested\" for \"made its first crossing\", \"was used for\" for \"was employed in\". Identify the verb in the sentence, think of synonyms, and scan for the matching idea. The answer word itself will come directly from the passage.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Hovercraft face little ______ because they do not touch the surface.",
+    "answer": "friction",
+    "evidence": "Because it does not touch the surface beneath it, it experiences very little friction.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "In his early experiments, Cockerell measured the lifting force using a set of ______ .",
+    "answer": "kitchen scales",
+    "evidence": "a set of kitchen scales, which he used to measure the lifting force.",
+    "explanation": "This is a direct match. \"Tin cans\" were used to create the air space, not to measure anything."
+   },
+   {
+    "n": 3,
+    "q": "Manufacturers were uncertain whether the vehicle should be classed as a ship or ______ .",
+    "answer": "an aircraft",
+    "evidence": "unclear whether the new vehicle was a ship or an aircraft.",
+    "explanation": "This is two words. \"Aircraft\" alone is also accepted."
+   },
+   {
+    "n": 4,
+    "q": "The first full-sized hovercraft travelled across the English Channel in ______ .",
+    "answer": "1959",
+    "evidence": "In 1959, a full-sized experimental craft ... crossed the English Channel.",
+    "explanation": "Do not confuse this with 1955 (the patent) or 1968 (the passenger service)."
+   },
+   {
+    "n": 5,
+    "q": "Air loss at the edges was reduced by adding a rubber ______ .",
+    "answer": "skirt",
+    "evidence": "a flexible rubber 'skirt' around the base.",
+    "explanation": "\"Rubber\" is already in the sentence."
+   },
+   {
+    "n": 6,
+    "q": "The cross-Channel hovercraft service stopped operating in ______ .",
+    "answer": "2000",
+    "evidence": "It ended in 2000.",
+    "explanation": "1994 is the opening of the Channel Tunnel, a nearby-number trap."
+   },
+   {
+    "n": 7,
+    "q": "Hovercraft are useful for rescue services in places with mud, ______ or ice.",
+    "answer": "shallow water",
+    "evidence": "areas of mud, shallow water or ice.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_07",
+  "questionTypeName": "Sentence Completion",
+  "title": "Frozen Archives",
+  "lesson": {
+   "title": "When the sentence rephrases a whole idea",
+   "text": "At Medium level, the question sentence often restates a whole idea in different words, so you cannot find it by matching keywords. Instead, ask: \"Which part of the passage is this sentence about?\" Use the order of questions and the topic of each paragraph. Once you have found the right sentence, identify the one or two words that fill the gap exactly.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Antarctica provides the longest records partly because its ______ is low and its ice is thick.",
+    "answer": "snowfall",
+    "evidence": "where snowfall is low and the ice is very thick.",
+    "explanation": "This is a direct match, and the rest of the sentence paraphrases the passage."
+   },
+   {
+    "n": 2,
+    "q": "The Dome C core contains ice that is approximately ______ old.",
+    "answer": "800,000 years",
+    "evidence": "reached ice around 800,000 years old.",
+    "explanation": "This is a number plus one word. \"Around\" = \"approximately\", which is already in the sentence. Do not write \"a million years\", which refers to ice researchers are still trying to find."
+   },
+   {
+    "n": 3,
+    "q": "Samples of the ancient atmosphere are preserved in small ______ within the ice.",
+    "answer": "bubbles",
+    "evidence": "tiny bubbles of air.",
+    "explanation": "\"Small\" is already in the sentence."
+   },
+   {
+    "n": 4,
+    "q": "Snow that falls in colder conditions contains a lower proportion of heavy ______ .",
+    "answer": "isotopes",
+    "evidence": "colder conditions produce snow with fewer heavy isotopes.",
+    "explanation": "\"Fewer\" = \"a lower proportion\"."
+   },
+   {
+    "n": 5,
+    "q": "Greater amounts of ______ in glacial ice suggest that conditions were drier and windier.",
+    "answer": "dust",
+    "evidence": "Dust ... is more abundant in ice from glacial periods, indicating that the climate was then drier and windier.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "In deeper ice, annual layers cannot be counted because they have become ______ .",
+    "answer": "too thin",
+    "evidence": "squeezes the layers until they become too thin to distinguish.",
+    "explanation": "\"Too thin to distinguish\" would exceed the limit, but \"too thin\" fits both the limit and the grammar."
+   },
+   {
+    "n": 7,
+    "q": "Some researchers are collecting ice from ______ before the records are lost.",
+    "answer": "mountain glaciers",
+    "evidence": "collect and store cores from mountain glaciers that are melting rapidly.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_08",
+  "questionTypeName": "Sentence Completion",
+  "title": "The End of Agony",
+  "lesson": {
+   "title": "People and substances in close sequence",
+   "text": "When a passage introduces several people and substances in quick succession, a sentence may describe one person's achievement with another's substance nearby. Before writing an answer, confirm that the person, date and substance in the sentence all match the same passage sentence.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Before anaesthesia, the most important quality in a surgeon was ______ .",
+    "answer": "speed",
+    "evidence": "Speed was the surgeon's most valued skill.",
+    "explanation": "\"Most valued skill\" = \"most important quality\"."
+   },
+   {
+    "n": 2,
+    "q": "Davy's proposal that nitrous oxide could help in surgery was ______ .",
+    "answer": "ignored",
+    "evidence": "The suggestion was ignored.",
+    "explanation": "\"Suggestion\" = \"proposal\"."
+   },
+   {
+    "n": 3,
+    "q": "Wells decided to try nitrous oxide after seeing an injured man at a ______ .",
+    "answer": "public show",
+    "evidence": "after watching a man at a public show injure his leg.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 4,
+    "q": "In 1846, a patient had a ______ removed without pain.",
+    "answer": "tumour",
+    "evidence": "A patient had a tumour removed from his neck.",
+    "explanation": "This matches the date (1846) and the substance (ether). The 1845 nitrous oxide demonstration failed, so it does not fit this sentence."
+   },
+   {
+    "n": 5,
+    "q": "One danger of ether in operating rooms was that it was highly ______ .",
+    "answer": "flammable",
+    "evidence": "was highly flammable – a serious danger in operating rooms lit by candles and gas lamps.",
+    "explanation": "\"Highly\" is already in the sentence, so one word is enough."
+   },
+   {
+    "n": 6,
+    "q": "Simpson tested chloroform with colleagues during a ______ .",
+    "answer": "dinner party",
+    "evidence": "by inhaling it themselves at a dinner party.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 7,
+    "q": "The use of anaesthetics in childbirth became acceptable after it was given to ______ .",
+    "answer": "Queen Victoria",
+    "evidence": "administered chloroform to Queen Victoria.",
+    "explanation": "John Snow administered it; it was given to the Queen."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_09",
+  "questionTypeName": "Sentence Completion",
+  "title": "Directions by Dance",
+  "lesson": {
+   "title": "THREE WORDS limits",
+   "text": "With a three-word limit, answers may be short noun phrases (\"the waggle run\", \"angle to the sun\"). Take only the words needed to complete the meaning: articles are optional where the sentence already has one. Check that your phrase does not repeat any word already in the sentence.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Von Frisch showed that bees dance on the ______ of the honeycomb.",
+    "answer": "vertical surface",
+    "evidence": "on the vertical surface of the honeycomb.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "The round dance is used when food is found within about ______ of the hive.",
+    "answer": "fifty metres",
+    "evidence": "within roughly fifty metres.",
+    "explanation": "\"Roughly\" = \"about\", which is already in the sentence."
+   },
+   {
+    "n": 3,
+    "q": "In the waggle dance, the essential information is contained in the ______ .",
+    "answer": "(straight) waggle run",
+    "evidence": "The straight 'waggle run' contains the key information.",
+    "explanation": "This is two or three words. \"Key\" = \"essential\"."
+   },
+   {
+    "n": 4,
+    "q": "On the honeycomb, the direction of the sun is represented by ______ .",
+    "answer": "straight up",
+    "evidence": "straight up on the comb represents the direction of the sun.",
+    "explanation": "\"Represents\" is already in the sentence as \"represented by\"."
+   },
+   {
+    "n": 5,
+    "q": "Bees seem to measure distance using the ______ they see while flying.",
+    "answer": "optical flow",
+    "evidence": "the 'optical flow' of the landscape passing beneath them.",
+    "explanation": "The alternative, \"energy they use\", is explicitly rejected in the passage."
+   },
+   {
+    "n": 6,
+    "q": "Bees trained in patterned tunnels signalled distances that were much ______ than the true distance.",
+    "answer": "greater",
+    "evidence": "signal distances much greater than they had actually travelled.",
+    "explanation": "This is a direct match. \"Much\" is already in the sentence."
+   },
+   {
+    "n": 7,
+    "q": "A ______ was used to show that bees follow dance directions even without food present.",
+    "answer": "(small) robotic bee",
+    "evidence": "a small robotic bee to perform dances.",
+    "explanation": "\"Radar\" (Paragraph F) tracked bees but did not test directions without food, which makes it a trap."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_10",
+  "questionTypeName": "Sentence Completion",
+  "title": "The Shortcut Between Seas",
+  "lesson": {
+   "title": "ONE WORD AND/OR A NUMBER",
+   "text": "With the instruction ONE WORD AND/OR A NUMBER, possible answers are a single word (locks), a single number (1869), or a number with one word (193 kilometres). A phrase of two words without a number is not allowed. When a measurement is needed, include the unit only if the sentence does not already contain it.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The canal saves ships from travelling around the southern end of ______ .",
+    "answer": "Africa",
+    "evidence": "without sailing around the southern tip of Africa.",
+    "explanation": "\"Tip\" = \"end\"."
+   },
+   {
+    "n": 2,
+    "q": "Construction of the canal started in ______ .",
+    "answer": "1859",
+    "evidence": "Construction began in 1859.",
+    "explanation": "Do not confuse this with 1869 (the opening) or the 1850s (when permission was obtained)."
+   },
+   {
+    "n": 3,
+    "q": "The canal does not need locks because the two seas are at a similar ______ .",
+    "answer": "level",
+    "evidence": "the Mediterranean and Red Sea are at roughly the same level.",
+    "explanation": "\"Similar\" = \"roughly the same\"."
+   },
+   {
+    "n": 4,
+    "q": "At present, the canal is about ______ long.",
+    "answer": "193 kilometres",
+    "evidence": "it now extends for approximately 193 kilometres.",
+    "explanation": "This is a number plus one word. 164 kilometres was the original length, a nearby-number trap."
+   },
+   {
+    "n": 5,
+    "q": "In 1875, the Egyptian ruler's shares were purchased by the ______ government.",
+    "answer": "British",
+    "evidence": "they were bought by the British government.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "Ships usually travel through narrow sections in ______ .",
+    "answer": "convoys",
+    "evidence": "vessels travel in convoys.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 7,
+    "q": "In 2021, a container ship blocked the canal for ______ .",
+    "answer": "six days / 6 days",
+    "evidence": "For six days, no ships could pass.",
+    "explanation": "This is a number plus one word."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_11",
+  "questionTypeName": "Sentence Completion",
+  "title": "The Sound of a Room",
+  "lesson": {
+   "title": "Technical terms introduced in the passage",
+   "text": "Science passages often introduce a special term and define it (\"known as reverberation time\", \"so-called vineyard style\"). Questions may describe the concept in plain words and ask for the term, or use the term and ask for part of its definition. Notice both halves of each definition as you read.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Sabine carried out his measurements at night because the building was ______ .",
+    "answer": "quiet",
+    "evidence": "Working at night, when the building was quiet.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "The length of time a sound takes to die away is called the ______ .",
+    "answer": "reverberation time",
+    "evidence": "how long it took for a sound to fade away ... a quantity now known as reverberation time.",
+    "explanation": "The term is defined in the passage."
+   },
+   {
+    "n": 3,
+    "q": "Sabine investigated the effect of absorbent materials using ______ .",
+    "answer": "cushions",
+    "evidence": "He moved cushions from a nearby theatre in and out of the hall.",
+    "explanation": "\"Cushions from a nearby theatre\" would exceed the limit."
+   },
+   {
+    "n": 4,
+    "q": "For orchestral music, a reverberation time of about ______ is preferred.",
+    "answer": "two seconds",
+    "evidence": "typically around two seconds.",
+    "explanation": "\"Around\" = \"about\"."
+   },
+   {
+    "n": 5,
+    "q": "In shoebox halls, reflections from the ______ create a sense of being surrounded by sound.",
+    "answer": "side walls",
+    "evidence": "sound reflected from the side walls reaches listeners from the side.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "In vineyard-style halls, sound is reflected to listeners by the ______ .",
+    "answer": "terraces",
+    "evidence": "the terraces themselves are designed to reflect sound towards listeners.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 7,
+    "q": "Acoustic models may be built at ______ of the real size.",
+    "answer": "one-tenth",
+    "evidence": "built at one-tenth of the full size.",
+    "explanation": "A hyphenated word counts as one word."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_12",
+  "questionTypeName": "Sentence Completion",
+  "title": "The Metal That Returns",
+  "lesson": {
+   "title": "Comparisons and percentages",
+   "text": "Sentences may test comparisons: \"Recycling uses about ... less energy than...\". Make sure your answer expresses the same comparison as the passage, and that the figure refers to the correct things being compared. A percentage in the passage may describe savings in one sentence and share of production in the next.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "In the nineteenth century, aluminium was regarded as a ______ .",
+    "answer": "precious metal",
+    "evidence": "aluminium was considered a precious metal.",
+    "explanation": "\"Considered\" = \"regarded as\"."
+   },
+   {
+    "n": 2,
+    "q": "Hall and Héroult developed a method of producing aluminium that depended on ______ .",
+    "answer": "electricity",
+    "evidence": "a practical method of producing aluminium using electricity.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 3,
+    "q": "The oxide used to make aluminium comes from a rock called ______ .",
+    "answer": "bauxite",
+    "evidence": "The oxide itself is obtained from bauxite, a reddish rock.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 4,
+    "q": "Smelters are often built close to ______ of cheap power.",
+    "answer": "sources",
+    "evidence": "located near sources of cheap power.",
+    "explanation": "\"Of cheap power\" is already in the sentence."
+   },
+   {
+    "n": 5,
+    "q": "Aluminium is resistant to corrosion because of a thin layer of ______ .",
+    "answer": "oxide",
+    "evidence": "a thin protective layer of oxide forms on its surface.",
+    "explanation": "\"Protective oxide\" is also within the limit, but \"oxide\" alone completes the sentence."
+   },
+   {
+    "n": 6,
+    "q": "Recycling aluminium uses about ______ of the energy needed to produce new metal.",
+    "answer": "five per cent / 5 per cent",
+    "evidence": "requires only around five per cent of the energy.",
+    "explanation": "\"Ninety-five per cent\" is the saving, not the amount used, which makes it the comparison trap."
+   },
+   {
+    "n": 7,
+    "q": "Cans are recycled more often where ______ reward people for returning them.",
+    "answer": "deposit schemes",
+    "evidence": "especially where deposit schemes pay consumers to return them.",
+    "explanation": "\"Pay\" = \"reward\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_13",
+  "questionTypeName": "Sentence Completion",
+  "title": "Living Together",
+  "lesson": {
+   "title": "Distractors in lists",
+   "text": "When the passage lists several items (\"rocks, tree bark, walls and gravestones\"), the sentence usually points to one of them through extra detail, for example \"surfaces that humans have made\". Read the question sentence closely for the clue that selects one item from the list.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Lichens are sometimes confused with plants or ______ .",
+    "answer": "mosses",
+    "evidence": "often mistaken for plants or mosses.",
+    "explanation": "\"Mistaken\" = \"confused\"."
+   },
+   {
+    "n": 2,
+    "q": "The fungus protects its partners from strong sunlight and from ______ .",
+    "answer": "drying out",
+    "evidence": "protects the partner organisms from drying out and from strong sunlight.",
+    "explanation": "The sentence order is reversed, but the words match."
+   },
+   {
+    "n": 3,
+    "q": "A close, long-term relationship between species is known as ______ .",
+    "answer": "symbiosis",
+    "evidence": "symbiosis – a close, long-term relationship between different species.",
+    "explanation": "This is a defined term."
+   },
+   {
+    "n": 4,
+    "q": "By gradually wearing away rock, lichens help to create ______ .",
+    "answer": "soil",
+    "evidence": "by slowly breaking down the rock surface, they contribute to the formation of soil.",
+    "explanation": "\"Breaking down\" = \"wearing away\"."
+   },
+   {
+    "n": 5,
+    "q": "Lichenometry involves measuring the ______ lichens on a surface.",
+    "answer": "largest",
+    "evidence": "by measuring the size of the largest lichens growing on it.",
+    "explanation": "The gap needs an adjective before \"lichens\"."
+   },
+   {
+    "n": 6,
+    "q": "Lichens are particularly sensitive to the pollutant ______ .",
+    "answer": "sulphur dioxide",
+    "evidence": "highly sensitive to air pollution, particularly sulphur dioxide.",
+    "explanation": "This is two words."
+   },
+   {
+    "n": 7,
+    "q": "In 2016, researchers discovered that many lichens contain a type of ______ .",
+    "answer": "yeast",
+    "evidence": "a previously unrecognised type of yeast.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_14",
+  "questionTypeName": "Sentence Completion",
+  "title": "The Keyboard Puzzle",
+  "lesson": {
+   "title": "Claims vs evidence in completion tasks",
+   "text": "Sentences may report either a popular claim or the evidence that tests it. Read the sentence's framing (\"according to a popular explanation...\", \"later research found that...\") and find the matching part of the passage. The same topic may yield different answers depending on whose view the sentence reports.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The QWERTY layout takes its name from the first six letters of the ______ .",
+    "answer": "top row",
+    "evidence": "after the first six letters of the top row.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "On early typewriters, the arms of neighbouring keys struck in quick succession could collide and ______ .",
+    "answer": "jam",
+    "evidence": "they could collide and jam.",
+    "explanation": "\"Collide and\" is already in the sentence."
+   },
+   {
+    "n": 3,
+    "q": "A widely told story claims that letters were arranged to slow typists and so reduce ______ .",
+    "answer": "jamming",
+    "evidence": "Sholes deliberately arranged the letters to slow typists down and so reduce jamming.",
+    "explanation": "The sentence reports the popular claim. Do not write \"letter pairs\", which belongs to the historians' alternative view."
+   },
+   {
+    "n": 4,
+    "q": "Historians suggest that the aim was to separate ______ that often appear together.",
+    "answer": "letter pairs",
+    "evidence": "to separate letter pairs that frequently occur together.",
+    "explanation": "The sentence reports the historians' view, not the popular claim."
+   },
+   {
+    "n": 5,
+    "q": "Some researchers believe the layout was also influenced by ______ .",
+    "answer": "telegraph operators",
+    "evidence": "influenced by the needs of telegraph operators.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "Dvorak placed the most frequent letters in the ______ .",
+    "answer": "middle row",
+    "evidence": "placed the most common letters in the middle row.",
+    "explanation": "\"Most common\" = \"most frequent\"."
+   },
+   {
+    "n": 7,
+    "q": "Some of Dvorak's studies may have been affected by his ______ in the design.",
+    "answer": "financial interest",
+    "evidence": "Dvorak himself, who had a financial interest in his invention.",
+    "explanation": "\"Invention\" = \"design\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_15",
+  "questionTypeName": "Sentence Completion",
+  "title": "Voices Below Hearing",
+  "lesson": {
+   "title": "Hard Sentence Completion — heavy paraphrase and precise extraction",
+   "text": "At Hard level:\n\nthe sentences restructure the passage's ideas, often combining two passage sentences; the correct words may be embedded in a longer phrase, and you must extract exactly the part that fits;\n\nnearby words of the same type (other nouns, other numbers) act as distractors. After writing an answer, reread the complete sentence and ask whether it says exactly what the passage says, no more and no less.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Researchers were puzzled that elephant groups sometimes changed direction ______ while far apart.",
+    "answer": "simultaneously",
+    "evidence": "sometimes changing direction simultaneously while kilometres apart.",
+    "explanation": "The gap needs an adverb."
+   },
+   {
+    "n": 2,
+    "q": "Infrasound refers to sounds with a frequency lower than about ______ .",
+    "answer": "twenty hertz / 20 hertz",
+    "evidence": "Human hearing typically ranges from around twenty hertz ... Sounds below this range are known as infrasound.",
+    "explanation": "You must combine two sentences. \"Twenty thousand hertz\" is the upper limit, which is the distractor."
+   },
+   {
+    "n": 3,
+    "q": "Before studying elephants, Payne had researched the songs of ______ .",
+    "answer": "humpback whales",
+    "evidence": "who had previously studied the songs of humpback whales.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 4,
+    "q": "Payne first detected the elephants' calls as a ______ in the air.",
+    "answer": "throbbing sensation",
+    "evidence": "she noticed a faint throbbing sensation in the air.",
+    "explanation": "\"Faint throbbing sensation\" is three words and exceeds the limit, so extract the two-word core."
+   },
+   {
+    "n": 5,
+    "q": "Elephant calls travel further at night because of more favourable ______ .",
+    "answer": "atmospheric conditions",
+    "evidence": "when atmospheric conditions allow sound to travel more effectively.",
+    "explanation": "\"Allow sound to travel more effectively\" = \"more favourable\"."
+   },
+   {
+    "n": 6,
+    "q": "Elephants may improve their detection of ground vibrations by leaning on their ______ .",
+    "answer": "front feet",
+    "evidence": "leaning forward on their front feet.",
+    "explanation": "\"Trunks\" contain receptors but are not leaned on, which makes it a same-type distractor."
+   },
+   {
+    "n": 7,
+    "q": "Acoustic monitoring is useful in areas where counting elephants visually is almost impossible because of ______ .",
+    "answer": "dense vegetation",
+    "evidence": "areas where dense vegetation makes counting them by sight nearly impossible.",
+    "explanation": "\"By sight\" = \"visually\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_16",
+  "questionTypeName": "Sentence Completion",
+  "title": "Racing the Wave",
+  "lesson": {
+   "title": "Sentences that combine information from different places",
+   "text": "A Hard sentence may combine a fact from one paragraph with a condition from another. Locate the sentence using its most distinctive element first, then check that the answer is consistent with the whole sentence. The question order still follows the passage, but one question may need you to glance back at an earlier paragraph.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "In deep water, a tsunami can move as fast as a ______ .",
+    "answer": "jet aircraft",
+    "evidence": "at speeds comparable to those of a jet aircraft.",
+    "explanation": "\"Comparable\" = \"as fast as\"."
+   },
+   {
+    "n": 2,
+    "q": "People living near the source of a tsunami are advised to regard powerful ______ as a signal to leave.",
+    "answer": "earthquake shaking",
+    "evidence": "to treat strong or long-lasting earthquake shaking as a natural warning.",
+    "explanation": "\"Powerful\" = \"strong\". \"Strong\" and \"long-lasting\" must be omitted to stay within the limit."
+   },
+   {
+    "n": 3,
+    "q": "The Pacific warning system was created after a tsunami killed many people in ______ .",
+    "answer": "Hawaii",
+    "evidence": "after a tsunami generated by an earthquake near Alaska caused many deaths in Hawaii.",
+    "explanation": "Alaska is where the earthquake occurred, which is a same-type distractor."
+   },
+   {
+    "n": 4,
+    "q": "Relying only on seismic data caused frequent ______, leading some people to disregard warnings.",
+    "answer": "false alarms",
+    "evidence": "warnings based on seismic data alone led to many false alarms ... some people began to ignore warnings.",
+    "explanation": "\"Ignore\" = \"disregard\"."
+   },
+   {
+    "n": 5,
+    "q": "Deep-ocean sensors detect a tsunami by recording a rise in ______ .",
+    "answer": "(water) pressure",
+    "evidence": "measure changes in water pressure ... a small but measurable rise in pressure.",
+    "explanation": "Both \"pressure\" and \"water pressure\" are within the limit."
+   },
+   {
+    "n": 6,
+    "q": "Data from the sea floor are sent to a surface buoy using ______ .",
+    "answer": "sound",
+    "evidence": "The sensor transmits the data by sound to a buoy.",
+    "explanation": "\"Satellite\" relays data from the buoy, which makes it a sequence distractor."
+   },
+   {
+    "n": 7,
+    "q": "Some coastal communities without hills have constructed tall buildings known as ______ structures.",
+    "answer": "vertical evacuation",
+    "evidence": "vertical evacuation structures – strong, tall buildings.",
+    "explanation": "\"Structures\" is already in the sentence."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_17",
+  "questionTypeName": "Sentence Completion",
+  "title": "Clocks in Carbon",
+  "lesson": {
+   "title": "Process explanations with conditions",
+   "text": "Technical passages explain processes with conditions (\"only while an organism is alive\", \"after death, no new ... is taken in\"). Sentences may test the condition rather than the main process. Read carefully for words like only, after, until, once, as long as, since the answer often sits next to them.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Carbon-14 is formed when ______ hit nitrogen atoms in the upper atmosphere.",
+    "answer": "cosmic rays",
+    "evidence": "when cosmic rays from space strike nitrogen atoms.",
+    "explanation": "\"Strike\" = \"hit\"."
+   },
+   {
+    "n": 2,
+    "q": "Living things obtain carbon-14 only as long as they continue to take in new ______ .",
+    "answer": "carbon",
+    "evidence": "When an organism dies, it stops taking in new carbon.",
+    "explanation": "This is the condition. \"New\" is already in the sentence."
+   },
+   {
+    "n": 3,
+    "q": "The time taken for half of the carbon-14 in a sample to decay is called its ______ .",
+    "answer": "half-life",
+    "evidence": "a period known as its half-life.",
+    "explanation": "This counts as one hyphenated word."
+   },
+   {
+    "n": 4,
+    "q": "Radiocarbon dating cannot reliably be used for material older than about ______ .",
+    "answer": "50,000 years",
+    "evidence": "After about 50,000 years, too little carbon-14 remains to be measured reliably.",
+    "explanation": "5,730 years is the half-life, which makes it the nearby-number trap."
+   },
+   {
+    "n": 5,
+    "q": "Levels of carbon-14 have varied partly because of changes in the Earth's ______ and in solar activity.",
+    "answer": "magnetic field",
+    "evidence": "changes in the Earth's magnetic field and in solar activity.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "The most important material used for calibration is ______, which can be dated exactly.",
+    "answer": "tree rings",
+    "evidence": "most importantly tree rings, which can be dated to the exact year.",
+    "explanation": "\"Most importantly\" identifies the answer among the three materials listed."
+   },
+   {
+    "n": 7,
+    "q": "Because they are very old, fossil fuels contain no ______ .",
+    "answer": "carbon-14",
+    "evidence": "fossil fuels, which contain no carbon-14 because they are millions of years old.",
+    "explanation": "This is a hyphenated term plus a number, within the limit."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_18",
+  "questionTypeName": "Sentence Completion",
+  "title": "The Physics of Crowds",
+  "lesson": {
+   "title": "Final review — precision under pressure",
+   "text": "This set combines the main Sentence Completion skills: heavy paraphrase, word-limit extraction, same-type distractors, and conditions. For each question:\n\n1. Locate the section by meaning.\n\n2. Predict the word type.\n\n3. Extract the minimum words that complete the meaning.\n\n4. Check the limit, spelling and grammar.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "According to researchers, the main cause of most crowd disasters is ______ rather than panic.",
+    "answer": "density",
+    "evidence": "the fundamental problem is not panic but density.",
+    "explanation": "\"Fundamental problem\" = \"main cause\"."
+   },
+   {
+    "n": 2,
+    "q": "Above about ______ per square metre, crowd turbulence may develop.",
+    "answer": "six people / 6 people",
+    "evidence": "above about six people per square metre.",
+    "explanation": "\"Four to five\" is the level at which free movement stops, which makes it the nearby-number trap."
+   },
+   {
+    "n": 3,
+    "q": "Most deaths in crowd disasters result from ______, which prevents people breathing.",
+    "answer": "compressive asphyxia",
+    "evidence": "Most deaths ... are caused not by trampling but by compressive asphyxia.",
+    "explanation": "\"Trampling\" is the rejected cause."
+   },
+   {
+    "n": 4,
+    "q": "Warning signs include people climbing ______ to get away.",
+    "answer": "barriers",
+    "evidence": "people climbing barriers to escape.",
+    "explanation": "\"Escape\" = \"get away\"."
+   },
+   {
+    "n": 5,
+    "q": "Dangerous conditions often develop at narrow points known as ______ .",
+    "answer": "bottlenecks",
+    "evidence": "bottlenecks – narrow points such as entrances.",
+    "explanation": "This is a defined term."
+   },
+   {
+    "n": 6,
+    "q": "After redesign, the pilgrimage site spread the crowd over several ______ .",
+    "answer": "floors",
+    "evidence": "allowing the crowd to be spread across several floors.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 7,
+    "q": "Video analysis allows organisers to measure ______ as events happen.",
+    "answer": "crowd density",
+    "evidence": "Video analysis can measure crowd density in real time.",
+    "explanation": "\"In real time\" = \"as events happen\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_19",
+  "questionTypeName": "Sentence Completion",
+  "title": "A Summer That Never Came",
+  "lesson": {
+   "title": "Cause chains across time",
+   "text": "Some passages describe a chain of events that unfolds over months or years: eruption → particles in the atmosphere → cooling → crop failures → social effects. Sentences may target any link. Keep a mental timeline and check that your answer belongs to the correct link in the chain, not the one before or after it.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Many deaths near Tambora were caused not by the eruption itself but by the ______ and disease that followed.",
+    "answer": "starvation",
+    "evidence": "many more from the starvation and disease that followed.",
+    "explanation": "\"Disease\" is already in the sentence."
+   },
+   {
+    "n": 2,
+    "q": "The sulphur from Tambora rose into the ______, above the level where weather occurs.",
+    "answer": "stratosphere",
+    "evidence": "high into the stratosphere, the layer of the atmosphere above the level at which weather occurs.",
+    "explanation": "This is a defined term."
+   },
+   {
+    "n": 3,
+    "q": "The droplets remained in the upper atmosphere for months because they were not ______ by rain.",
+    "answer": "washed out",
+    "evidence": "they were not washed out by rain.",
+    "explanation": "This is two words, copied exactly."
+   },
+   {
+    "n": 4,
+    "q": "The droplets cooled the planet because they ______ part of the incoming sunlight back into space.",
+    "answer": "reflected",
+    "evidence": "The aerosols reflected part of the incoming sunlight back into space.",
+    "explanation": "This is one word, copied exactly. Answers must keep the passage's word form."
+   },
+   {
+    "n": 5,
+    "q": "In New England, crops were destroyed by ______ in midsummer.",
+    "answer": "frosts",
+    "evidence": "frosts in July and August killed crops.",
+    "explanation": "\"Snow ... in June\" was not what destroyed the crops, which makes \"snow\" a same-link distractor."
+   },
+   {
+    "n": 6,
+    "q": "The writers near Lake Geneva stayed indoors because of storms and ______ .",
+    "answer": "heavy rain",
+    "evidence": "Confined indoors for days by storms and heavy rain.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 7,
+    "q": "The cause of the unusual weather was confirmed partly by evidence from ______ .",
+    "answer": "ice cores",
+    "evidence": "Evidence from ice cores ... has helped confirm the scale of Tambora's impact.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_sentence_completion_20",
+  "questionTypeName": "Sentence Completion",
+  "title": "A Safe Place for Seeds",
+  "lesson": {
+   "title": "Final review",
+   "text": "This last Sentence Completion set tests all the skills together: paraphrase, precise extraction, number distractors, conditions and grammar. Work quickly but check each completed sentence against the passage and the word limit before moving on.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The vault's seeds are stored in ______ located at the end of a long tunnel.",
+    "answer": "(three) chambers",
+    "evidence": "At its end are three chambers.",
+    "explanation": "Both \"chambers\" and \"three chambers\" are within the limit."
+   },
+   {
+    "n": 2,
+    "q": "Seed collections elsewhere have been damaged by flooding, fire and failures of ______ .",
+    "answer": "equipment",
+    "evidence": "damaged by floods, fire or equipment failures.",
+    "explanation": "The sentence rewrites \"equipment failures\" as \"failures of equipment\"."
+   },
+   {
+    "n": 3,
+    "q": "Seeds stored at Svalbard can be removed only by the ______ that sent them.",
+    "answer": "depositing institutions",
+    "evidence": "The depositing institutions retain ownership of their seeds, and only they may withdraw them.",
+    "explanation": "\"Withdraw\" = \"removed\"."
+   },
+   {
+    "n": 4,
+    "q": "The vault was built at a high elevation so that it would stay ______ if polar ice melted.",
+    "answer": "dry",
+    "evidence": "built well above sea level, so that it would remain dry even if polar ice melted.",
+    "explanation": "\"Remain\" = \"stay\"."
+   },
+   {
+    "n": 5,
+    "q": "It was expected that frozen ground would keep the seeds cold if the ______ stopped working.",
+    "answer": "cooling equipment",
+    "evidence": "even if the vault's cooling equipment failed.",
+    "explanation": "\"Failed\" = \"stopped working\"."
+   },
+   {
+    "n": 6,
+    "q": "The first withdrawal of seeds from the vault took place in ______ .",
+    "answer": "2015",
+    "evidence": "in 2015, when the first withdrawal was made.",
+    "explanation": "2008 (opening) and 2016 (water in the tunnel) are nearby-number traps."
+   },
+   {
+    "n": 7,
+    "q": "Unlike stored seeds, crops cultivated by farmers can continue to ______ .",
+    "answer": "evolve",
+    "evidence": "crops grown by farmers continue to evolve.",
+    "explanation": "\"Adapt\" appears in the passage only in a negative statement about stored seeds, so it is not the answer."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_01",
+  "questionTypeName": "Summary Completion",
+  "title": "The Cat That Walked In",
+  "lesson": {
+   "title": "Eliminate by grammar first",
+   "text": "With a word bank, first check each gap's grammar: noun, adjective, verb or plural. Mark which options could fit grammatically. Then choose by meaning among those candidates. This makes the task faster and reduces mistakes.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "D",
+    "evidence": "their stores attracted mice and rats.",
+    "explanation": "\"Mice and rats\" = \"rodents\". G (farmers) is grammatically possible, but farmers stored the grain rather than being attracted to it."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "B",
+    "evidence": "they helped protect food supplies.",
+    "explanation": "After \"helped to\", the gap needs a verb. I (damage) is the opposite."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "E",
+    "evidence": "wildcats are not native to Cyprus.",
+    "explanation": "\"Not native\" = \"did not occur\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "A",
+    "evidence": "Cats achieved their greatest status in ancient Egypt.",
+    "explanation": "H (feared) is not supported."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "J",
+    "evidence": "probably carried on trading ships.",
+    "explanation": "The gap needs an adjective before \"ships\". F (rapidly) is an adverb and does not fit."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "C",
+    "evidence": "cats were rarely bred selectively until the nineteenth century.",
+    "explanation": "F (rapidly) is grammatically possible but not supported."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_02",
+  "questionTypeName": "Summary Completion",
+  "title": "Salt of the Earth",
+  "lesson": {
+   "title": "Find the section, then work in order",
+   "text": "In the \"from the passage\" format, the summary usually covers a continuous section. Find where the summary's first idea appears, then move forward through the passage gap by gap. Copy each answer exactly and check the word limit.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "acidic",
+    "evidence": "Rain is slightly acidic, because it absorbs a small amount of carbon dioxide.",
+    "explanation": "The gap needs an adjective after \"slightly\"."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "weathering",
+    "evidence": "a process known as weathering.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "rivers",
+    "evidence": "Rivers carry these dissolved minerals to the sea.",
+    "explanation": "\"Carry\" = \"transported\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "vents",
+    "evidence": "openings called hydrothermal vents.",
+    "explanation": "\"Hydrothermal\" is already in the summary."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "evaporation",
+    "evidence": "evaporation removes only pure water, leaving the salts behind.",
+    "explanation": "\"Removes\" = \"takes away\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "shells",
+    "evidence": "taken up by marine organisms to build shells and skeletons.",
+    "explanation": "\"Skeletons\" is already in the summary."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_03",
+  "questionTypeName": "Summary Completion",
+  "title": "The Engineering of Folds",
+  "lesson": {
+   "title": "Paraphrased word-bank options",
+   "text": "Word-bank options usually do not match the passage wording exactly. For example, the passage says \"launched into orbit\" and the option says \"space\"; the passage says \"inflate rapidly\" and the option says \"quickly\". Match the meaning. Be suspicious of options that repeat a passage word exactly, since they may come from a different context.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "A",
+    "evidence": "usually without cutting or gluing.",
+    "explanation": "H (colouring) is grammatically possible but not stated."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "C",
+    "evidence": "collapsed into a compact block ... launched in a compact form.",
+    "explanation": "G (heavy) is the wrong meaning."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "D",
+    "evidence": "opened in a single movement by pulling on opposite corners.",
+    "explanation": "J (push) is the opposite."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "B",
+    "evidence": "unfolded once the spacecraft was in orbit.",
+    "explanation": "\"In orbit\" = \"in space\"."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "E",
+    "evidence": "then expanded inside the blood vessel.",
+    "explanation": "This is a direct match in meaning."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "F",
+    "evidence": "allow airbags to inflate rapidly.",
+    "explanation": "I (slowly) is the opposite."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_04",
+  "questionTypeName": "Summary Completion",
+  "title": "Kings, Queens and Computers",
+  "lesson": {
+   "title": "Two-word answers in summaries",
+   "text": "With a two-word limit, check whether the summary already contains part of the phrase. If the summary says \"the game spread along trade ...\", the gap needs only \"routes\", not \"trade routes\". Reading the words either side of the gap prevents duplication.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "Indian army",
+    "evidence": "the four divisions of an ancient Indian army.",
+    "explanation": "\"Ancient\" is already in the summary. \"Army\" alone is also acceptable."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "Islamic world",
+    "evidence": "adopted throughout the Islamic world.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "routes",
+    "evidence": "carried along trade routes.",
+    "explanation": "\"Trade\" is already in the summary, so \"trade routes\" would duplicate it."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "queen",
+    "evidence": "the queen became the most powerful piece on the board.",
+    "explanation": "\"Most powerful\" = \"strongest\"."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "chess clocks",
+    "evidence": "Chess clocks were introduced to limit the time players could spend on their moves.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "milestone",
+    "evidence": "widely seen as a milestone in artificial intelligence.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_05",
+  "questionTypeName": "Summary Completion",
+  "title": "Threads of Steel",
+  "lesson": {
+   "title": "Opposite pairs in the word bank",
+   "text": "Word banks often include pairs of opposites (stronger/weaker, liquid/solid, easy/difficult). When you see such a pair, one is usually the answer and the other a distractor. Find the sentence in the passage and decide the direction carefully.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "E",
+    "evidence": "Weight for weight, some types of spider silk are stronger than steel.",
+    "explanation": "B (weaker) is its opposite and is needed for Question 5."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "A",
+    "evidence": "Inside the glands, the silk exists as a liquid.",
+    "explanation": "F (solid) is the opposite, and it is already expressed later in the sentence."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "C",
+    "evidence": "requires high temperatures and harsh chemicals.",
+    "explanation": "\"Harsh\" = \"strong\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "D",
+    "evidence": "each suited to a particular purpose.",
+    "explanation": "J (glands) is a keyword trap: glands produce the silk, but the silk types are not for glands."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "B",
+    "evidence": "early artificial fibres were considerably weaker than natural silk.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "G",
+    "evidence": "Progress has been made in recent years.",
+    "explanation": "\"Progress\" = \"improvements\", and I (failures) is the opposite."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_06",
+  "questionTypeName": "Summary Completion",
+  "title": "Stairs That Move",
+  "lesson": {
+   "title": "Summaries that skip parts of the passage",
+   "text": "A summary may leave out whole sentences or even a paragraph of the passage. If you cannot find the next answer in the paragraph you are reading, move forward. Don't force an answer from the wrong paragraph.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "steps",
+    "evidence": "a sloping conveyor belt with ridges rather than steps.",
+    "explanation": "\"Rather than\" = \"instead of\"."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "prize",
+    "evidence": "where it won a prize.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "trademark",
+    "evidence": "was originally a trademark belonging to the Otis company.",
+    "explanation": "\"Belonging to\" = \"owned by\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "nervous",
+    "evidence": "many customers were nervous about using the new machine.",
+    "explanation": "The gap needs an adjective after \"felt\"."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "plate",
+    "evidence": "the 'comb plate' at each end.",
+    "explanation": "\"Comb\" is already in the summary."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "continuously",
+    "evidence": "escalators move people continuously.",
+    "explanation": "The gap needs an adverb."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_07",
+  "questionTypeName": "Summary Completion",
+  "title": "The Riddle of the Stripes",
+  "lesson": {
+   "title": "Summaries of debates",
+   "text": "When a passage discusses several hypotheses, the summary may report them in a condensed form, including which ones were supported and which were rejected. Word-bank options often include evaluative words (supported, questioned, confirmed, doubtful). Check the passage's judgement for each hypothesis.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "A",
+    "evidence": "Studies of how lions and hyenas see ... have cast doubt on this idea.",
+    "explanation": "\"Cast doubt\" = \"questioned\". G (confirmed) is the opposite."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "E",
+    "evidence": "zebra stripes would probably appear as a uniform grey.",
+    "explanation": "J (colourful) is not supported."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "C",
+    "evidence": "there is little direct evidence.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "F",
+    "evidence": "the cooling effect ... to be too small to explain the stripes.",
+    "explanation": "I (large) is the opposite."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "B",
+    "evidence": "far less successful at landing on them.",
+    "explanation": "H (approach) is a trap, because flies approached striped coats \"just as often\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "D",
+    "evidence": "Why stripes should confuse flies is not fully understood.",
+    "explanation": "\"Not fully understood\" = \"uncertain\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_08",
+  "questionTypeName": "Summary Completion",
+  "title": "The Script No One Could Read",
+  "lesson": {
+   "title": "People's roles in a summary",
+   "text": "When a summary narrates who did what, gaps may ask for a profession, a method or a result. Before answering, identify which person the summary sentence refers to, and find the part of the passage describing that person's contribution. Words describing a different person nearby are the main distractors.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "great authority",
+    "evidence": "Because of his great authority, this view was widely accepted.",
+    "explanation": "\"Authority\" alone is also acceptable."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "positions",
+    "evidence": "recording how often each sign appeared and in which positions.",
+    "explanation": "\"How often\" = \"frequency\"."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "endings",
+    "evidence": "differing only in their endings.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "architect",
+    "evidence": "Michael Ventris, a British architect.",
+    "explanation": "Chadwick was a \"scholar\", which makes it the other-person distractor."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "places",
+    "evidence": "might be the names of places on the island.",
+    "explanation": "\"On Crete\" is already in the summary."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "vessels",
+    "evidence": "drawings of vessels accompanied by words that ... correctly described the vessels.",
+    "explanation": "\"Pot\" also appears, but \"vessels\" is the term used for the drawings."
+   }
+  ]
+ }
+]

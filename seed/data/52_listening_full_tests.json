@@ -1,0 +1,105 @@
+{
+ "table": "listening_tests",
+ "items": [
+  {
+   "id": "lt_w01",
+   "kind": "full",
+   "number": 1,
+   "title": "Listening Test 1",
+   "setIds": [
+    "lt_w01_p1",
+    "lt_w01_p2",
+    "lt_w01_p3",
+    "lt_w01_p4"
+   ],
+   "data": {
+    "id": "lt_w01",
+    "number": 1,
+    "title": "Listening Test 1",
+    "sets": [
+     "lt_w01_p1",
+     "lt_w01_p2",
+     "lt_w01_p3",
+     "lt_w01_p4"
+    ],
+    "description": "Section 1: enquiring about a local language exchange club. Section 2: orientation at a public sports centre (floor plan labelling). Section 3: university research project on student travel and public transport. Section 4: lecture on forests and the water cycle.",
+    "source": "website test 11"
+   }
+  },
+  {
+   "id": "lt_w02",
+   "kind": "full",
+   "number": 2,
+   "title": "Listening Test 2",
+   "setIds": [
+    "lt_w02_p1",
+    "lt_w02_p2",
+    "lt_w02_p3",
+    "lt_w02_p4"
+   ],
+   "data": {
+    "id": "lt_w02",
+    "number": 2,
+    "title": "Listening Test 2",
+    "sets": [
+     "lt_w02_p1",
+     "lt_w02_p2",
+     "lt_w02_p3",
+     "lt_w02_p4"
+    ],
+    "description": "Section 1: booking a room at a community centre. Section 2: orientation at a public library (building map labelling). Section 3: university research project on sleep and academic performance. Section 4: lecture on how coral reefs support marine ecosystems.",
+    "source": "website test 12"
+   }
+  },
+  {
+   "id": "lt_w03",
+   "kind": "full",
+   "number": 3,
+   "title": "Listening Test 3",
+   "setIds": [
+    "lt_w03_p1",
+    "lt_w03_p2",
+    "lt_w03_p3",
+    "lt_w03_p4"
+   ],
+   "data": {
+    "id": "lt_w03",
+    "number": 3,
+    "title": "Listening Test 3",
+    "sets": [
+     "lt_w03_p1",
+     "lt_w03_p2",
+     "lt_w03_p3",
+     "lt_w03_p4"
+    ],
+    "description": "Section 1: enquiring about a local cooking course. Section 2: orientation at a community health centre (floor plan labelling). Section 3: university research project on student use of green transport. Section 4: lecture on how rivers shape landscapes.",
+    "source": "website test 13"
+   }
+  },
+  {
+   "id": "lt_w04",
+   "kind": "full",
+   "number": 4,
+   "title": "Listening Test 4",
+   "setIds": [
+    "lt_w04_p1",
+    "lt_w04_p2",
+    "lt_w04_p3",
+    "lt_w04_p4"
+   ],
+   "data": {
+    "id": "lt_w04",
+    "number": 4,
+    "title": "Listening Test 4",
+    "sets": [
+     "lt_w04_p1",
+     "lt_w04_p2",
+     "lt_w04_p3",
+     "lt_w04_p4"
+    ],
+    "description": "Section 1: joining a local gardening club. Section 2: orientation at a community arts centre (building map labelling). Section 3: university research project on food waste among students. Section 4: lecture on the role of wetlands in the environment.",
+    "source": "website test 14"
+   }
+  }
+ ]
+}

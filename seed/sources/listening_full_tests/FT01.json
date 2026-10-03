@@ -1,0 +1,1160 @@
+{
+ "id": "FT01",
+ "title": "Listening Full Test 1",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "Hiring a Community Hall",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "A man phones a community centre to hire its hall for his mother's seventieth birthday party.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Janet",
+     "desc": "Centre bookings manager — female, 50s, brisk but warm, efficient; British accent (southern England)"
+    },
+    {
+     "label": "Daniel",
+     "desc": "Caller — male, 30s, friendly, slightly rushed and disorganised; British accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear a man phoning a community centre to book a room for a family party. First, you have some time to look at Questions 1 to 6.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Janet",
+     "text": "[telephone rings twice, then the line clicks open] [brisk, friendly] Good morning, Larkfield Community Centre, Janet speaking. How can I help?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[friendly, slightly rushed] Oh, hello. Um, I'm ringing about hiring one of your rooms for a party. It's for my mum — she's turning seventy, and we wanted to do something a bit special for her."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[warm] Oh, how lovely. Well, you've come to the right place, we do a lot of birthdays. Let me just take a few details first. Could I have your name?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "Yes, it's Daniel Cartwell."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[typing, murmuring] Daniel... Cartwright, was that?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[light laugh] Everyone says that. No, it's Cartwell. C... A... R... T... W... E... double L."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[repeating slowly, as if writing it down] C, A, R, T, W, E, double L. Got it, thank you. And what sort of date were you thinking of?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[thinking aloud] Well, her actual birthday is Wednesday the tenth of May, but obviously a weekday's no good for most people, so we were looking at the Saturday after that... the thirteenth."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[apologetic] Ah. [short pause] I'm afraid the thirteenth has gone. We've got a wedding reception in all day. How about the following Saturday?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[hesitant, checking] So that'd be... the twentieth?"
+    },
+    {
+     "speaker": "Janet",
+     "text": "That's right. The twentieth is completely free at the moment."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[relieved] Then let's go for that. My sister did say she couldn't make the thirteenth anyway, so it's probably for the best."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[efficient] Lovely, I'll pencil you in. And roughly how many guests are you expecting?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[uncertain, a little embarrassed] That's the tricky bit. We sent out sixty invitations, but quite a few people are bringing partners, and Mum keeps adding cousins I've never heard of... [chuckles] so realistically we're planning for about eighty-five."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[thoughtful] Eighty-five. Right, that does narrow things down. Our Willow Room is lovely, but it only takes forty-five, so that's out. The main hall holds two hundred..."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[doubtful] That sounds a bit enormous for us."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[agreeing] It can feel rather empty with a smaller group, yes. So I'd suggest the Orchard Room. It takes up to a hundred, and it opens straight onto the garden, which is nice in May."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[pleased] Oh, that sounds perfect. Mum's a keen gardener."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[informative] Now, the price. On a Saturday the standard rate is forty-five pounds an hour..."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[slightly worried] Ah. Right."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[correcting herself, a little flustered] No, hang on, sorry, that's the main hall. I was looking at the wrong line. The Orchard Room is thirty-eight pounds an hour."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[relieved] Thirty-eight. That's better than I expected. Is there a discount for people who live locally? Someone told me there was."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[regretful] There used to be, but the trustees stopped it last year, I'm afraid."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[good-humoured] Never mind. And what time could we get in? We'd want to put decorations up."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[helpful] The room's free from midday, so you can come in any time after that, but the time you spend decorating does count towards the hire."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[laughs] Then we'll be quick about it. Probably three o'clock until eleven."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[typing] Three till eleven. Now, as for what's included... tables and chairs, of course, and we can lend you white tablecloths at no extra charge. There's a fully equipped kitchen, with plates and cutlery for a hundred."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "And glasses?"
+    },
+    {
+     "speaker": "Janet",
+     "text": "[apologetic sigh] We had a set of glasses, but so many got broken that we don't supply them any more. So you'd have to bring your own glasses, or hire some."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[noting it down] Right. I'll ask the caterers, they might have some."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 7 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Janet",
+     "text": "[brisk] Now, there are a few other things I should mention. Parking first."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "Yes, that'll matter. A lot of Mum's friends drive."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[reassuring] Well, the car park has forty spaces, and it doesn't shut at night, so nobody gets locked in. People used to need a permit to park there, but we got rid of that system a couple of years ago."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "Great."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[slightly cautious] The only thing is, there's a yoga class in the studio on Saturday evenings, and they normally take about a dozen of those spaces until half past seven. So your first guests might struggle a little."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[thinking] OK, I'll tell people not to come too early. Now, music. My cousin's band is playing. Is that all right?"
+    },
+    {
+     "speaker": "Janet",
+     "text": "[cheerful] Of course. Our licence runs until midnight on Saturdays. It's only on weekday evenings that things have to stop at eleven."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "And would they have to use your sound system?"
+    },
+    {
+     "speaker": "Janet",
+     "text": "No, they don't need to, most bands prefer their own. [more serious] What we do ask, though, is that you put a short note through the doors of the houses on Mill Lane, at least a week before the party, so they know there'll be some noise. We've had complaints in the past when people weren't warned."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[agreeably] That's fair enough. I can do that."
+    },
+    {
+     "speaker": "Janet",
+     "text": "And will you be doing the food yourselves?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[laughing] That's been a long family debate. My aunt offered to cook everything, but she's seventy-three herself, and we didn't want her stuck in a kitchen all night. Then someone suggested everybody bringing a dish, but Mum said that would be like asking her guests to pay to come."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[chuckles] I can see her point."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "So in the end we've gone for a local firm, Hollis Catering. They'll bring hot dishes already cooked and just keep them warm in your ovens."
+    },
+    {
+     "speaker": "Janet",
+     "text": "That's no problem at all. [businesslike] Finally, there's a deposit of a hundred pounds to secure the date, and you get that back as long as the room's left tidy."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "Can I pay that now? I've got my card here."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[apologetic] Normally, yes, but our card machine's being replaced this week, so I can't take cards at the moment. And we don't accept bank transfers any more. Our treasurer found it too hard to match payments to bookings."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[slightly puzzled] So..."
+    },
+    {
+     "speaker": "Janet",
+     "text": "So you'd need to drop it into the office here, cash or a cheque. We're open nine till five on weekdays."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[decisive] I'm driving past on Thursday anyway, so I'll call in then."
+    },
+    {
+     "speaker": "Janet",
+     "text": "[warm, wrapping up] Perfect. I'll hold the room until Friday, and once the deposit's in, it's confirmed. And happy birthday to your mum!"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[smiling] Thanks, I'll pass that on. Bye now."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 1. You now have one minute to check your answers to Part 1.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-6",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "ROOM HIRE ENQUIRY — LARKFIELD COMMUNITY CENTRE",
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Name of person booking: Daniel ___",
+       "answer": "Cartwell",
+       "accepted": [],
+       "spoken": "Cartwell",
+       "evidence": "No, it's Cartwell. C... A... R... T... W... E... double L.",
+       "trap": "Janet first writes 'Cartwright'; the double L must be caught from the spelling."
+      },
+      {
+       "n": 2,
+       "prompt": "Event: mother's 70th birthday, Saturday ___ May",
+       "answer": "20th",
+       "accepted": [
+        "20",
+        "twentieth",
+        "the 20th"
+       ],
+       "spoken": "twentieth",
+       "evidence": "The twentieth is completely free at the moment.",
+       "trap": "Her birthday is the tenth and the family first wanted the thirteenth, which is already booked."
+      },
+      {
+       "n": 3,
+       "prompt": "Approximate number of guests: ___",
+       "answer": "85",
+       "accepted": [
+        "eighty-five"
+       ],
+       "spoken": "eighty-five",
+       "evidence": "so realistically we're planning for about eighty-five",
+       "trap": "Sixty invitations were sent; forty-five and two hundred are room capacities."
+      },
+      {
+       "n": 4,
+       "prompt": "Room recommended: the ___ Room (has access to garden)",
+       "answer": "Orchard",
+       "accepted": [],
+       "spoken": "Orchard",
+       "evidence": "So I'd suggest the Orchard Room. It takes up to a hundred",
+       "trap": "The Willow Room is mentioned first but is too small, and the main hall is rejected as too big."
+      },
+      {
+       "n": 5,
+       "prompt": "Saturday charge: £___ per hour",
+       "answer": "38",
+       "accepted": [
+        "£38",
+        "thirty-eight"
+       ],
+       "spoken": "thirty-eight",
+       "evidence": "The Orchard Room is thirty-eight pounds an hour.",
+       "trap": "Janet first quotes forty-five pounds, which is the main hall's rate."
+      },
+      {
+       "n": 6,
+       "prompt": "Not included in hire — hirer to provide own ___",
+       "answer": "glasses",
+       "accepted": [],
+       "spoken": "glasses",
+       "evidence": "So you'd have to bring your own glasses, or hire some.",
+       "trap": "Tablecloths, plates and cutlery are all mentioned but are supplied by the centre."
+      }
+     ]
+    },
+    {
+     "range": "7-10",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 7,
+       "prompt": "What does Janet say about the car park?",
+       "options": {
+        "A": "Drivers must display a permit.",
+        "B": "Part of it may be unavailable early in the evening.",
+        "C": "It is locked after a certain time."
+       },
+       "answer": "B",
+       "evidence": "they normally take about a dozen of those spaces until half past seven",
+       "trap": "Permits were needed in the past (A) and Janet says it doesn't shut at night (C)."
+      },
+      {
+       "n": 8,
+       "prompt": "What must Daniel do because of the band?",
+       "options": {
+        "A": "make sure the music ends by 11 p.m.",
+        "B": "let local residents know about the party beforehand",
+        "C": "arrange for the band to use the centre's equipment"
+       },
+       "answer": "B",
+       "evidence": "put a short note through the doors of the houses on Mill Lane, at least a week before the party",
+       "trap": "Eleven o'clock applies only on weekdays (A), and the band doesn't need to use the sound system (C)."
+      },
+      {
+       "n": 9,
+       "prompt": "How will the food for the party be provided?",
+       "options": {
+        "A": "A relative will prepare it.",
+        "B": "Guests will each contribute something.",
+        "C": "A company will deliver it ready to serve."
+       },
+       "answer": "C",
+       "evidence": "They'll bring hot dishes already cooked and just keep them warm in your ovens.",
+       "trap": "The aunt's offer (A) and the bring-a-dish idea (B) are both discussed and rejected."
+      },
+      {
+       "n": 10,
+       "prompt": "How will Daniel pay the deposit?",
+       "options": {
+        "A": "by card during this phone call",
+        "B": "by transferring money from his bank",
+        "C": "by taking it to the centre in person"
+       },
+       "answer": "C",
+       "evidence": "So you'd need to drop it into the office here, cash or a cheque.",
+       "trap": "Daniel offers his card but the machine is being replaced (A), and bank transfers aren't accepted any more (B)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Open Day at Brickfield City Farm",
+   "context": "Monologue in an everyday social context (volunteer briefing)",
+   "scenario": "A volunteer coordinator briefs a group of new volunteers before a city farm's open day.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Megan",
+     "desc": "Volunteer coordinator — female, late 30s, energetic, warm, practical; British accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear a volunteer coordinator talking to a group of new volunteers about a city farm's open day. First, you have some time to look at Questions 11 to 15.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Megan",
+     "text": "[cheerful, voice slightly raised to address a group] Right, good morning, everyone, and thank you so much for coming along. I'm Megan, I coordinate the volunteers here at Brickfield City Farm, and I'll be your main point of contact on Saturday. I know one or two of you have helped out before, but most of you are new, so I'll go through everything from the beginning."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[warm, explaining] Now, you may have heard that this is our twentieth year, and yes, there will be a cake. [light laugh] A very large one. But the anniversary isn't really why we're holding the open day. Nor is it mainly about money. We'll have collection buckets, of course, but the new roof for the goat barn has already been paid for by a council grant."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[candid, more serious] The honest truth is that we're seriously short of regular helpers, especially on weekday mornings, and an open day is far and away the best way we've found of signing people up. So if anyone shows an interest, please send them to the green gazebo."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[informative] A few things are different from last year. Last time, we charged visitors three pounds at the gate, which caused long queues and, frankly, put some local families off. This year, thanks to a sponsor, there won't be any charge at all. Some people have rung up asking whether they need to book a place online. They don't, they can just turn up. And the hours are exactly the same as before: ten until four."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[lighter, amused] Right, the animals. The rabbits are always the most popular, with the guinea pigs a close second. Children can feed them, we sell little bags of feed for fifty pence, and that's absolutely fine."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[firmer, emphasising] What we don't allow is children walking around holding them. Rabbits wriggle, and if they're dropped they can be badly hurt. So the rule is that the child sits down on the bench first, and then you place the rabbit on a towel on their lap. [casual] Last year we put the rabbits back in their hutches at lunchtime to give them a rest, but in fact they coped perfectly well, so they'll be out all day this time."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[reflective, a little rueful] People often ask me what I worry about most on the day. Parking always looks chaotic from the gate, but it does sort itself out, because the school next door lets us use their playground. And the queue for the café can get long, but people are usually very patient when there's cake involved."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[serious, slowing down] No, what really keeps me awake is the lost children's point. Last year we had eleven children separated from their parents in a single afternoon, and one little boy was missing for nearly forty minutes. So whoever's on that point needs to stay there, and not wander off to help elsewhere."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[practical] And the weather. If it rains, the tractor rides will still run, because the trailer's covered. We used to move the craft tables into the big barn when it rained, but the noise upset the animals, so now they go into the classroom instead. The only activity we'll actually call off is the pony rides. The ground gets far too slippery."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 16 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Megan",
+     "text": "[brisk, orienting the group] OK, if you look at the plan I've given you, I'll show you where everything's going to be on the day. We're standing at the main entrance, at the bottom of the plan, facing into the farm, so north is straight ahead. The main path runs from here up to the duck pond in the middle. It then splits and goes round both sides of the pond, and the two halves join up again on the far side."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[explaining] First aid. In previous years the first-aid post was right beside the café, which is just inside the gate on your left. But it got far too crowded there, so this year it's moving further up on the same side, right against the west fence, just south of the big barn. So it isn't on the main path at all. It's over by the fence."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[emphatic] Now, the lost children's point, and please do remember where this is. Lots of parents assume it'll be at the entrance, and we'll put a sign up here, but the point itself is beyond the pond, at the place where the two paths meet again. So that's on the north side of the pond."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[clear, matter-of-fact] Pony rides. You'd expect them to be in the paddock, but the paddock's being used for the sheep-shearing display this year. So the ponies will be in the small field in the bottom right-hand corner of the site, the south-east corner, to your right as you come in."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[informative] The plant sale is new this year. It'll be along the north fence, at the very top of the plan, halfway between the big barn and the orchard. [slightly apologetic] It won't be inside the orchard itself, I'm afraid, because the trees are being pruned that week."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[wrapping up] And finally, the cheese-making demonstration. Originally we'd planned to have it in the barn, by the door, but there just isn't enough light in there. So it'll be over on the east side of the site, between the orchard and the paddock, right up against the east fence."
+    },
+    {
+     "speaker": "Megan",
+     "text": "[warm, upbeat] Right, that's everything from me. Grab a coffee, and I'll come round and give you your T-shirts."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 2. You now have one minute to check your answers to Part 2.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-15",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 11,
+       "prompt": "What is the main reason for holding this year's open day?",
+       "options": {
+        "A": "to celebrate a special year in the farm's history",
+        "B": "to raise money for repairs to a building",
+        "C": "to find more people to help at the farm"
+       },
+       "answer": "C",
+       "evidence": "we're seriously short of regular helpers, especially on weekday mornings",
+       "trap": "The twentieth year is mentioned but 'isn't really why' (A); the barn roof is already paid for (B)."
+      },
+      {
+       "n": 12,
+       "prompt": "What is different about this year's open day?",
+       "options": {
+        "A": "Visitors have to reserve tickets beforehand.",
+        "B": "Visitors will not have to pay to get in.",
+        "C": "It will finish earlier in the afternoon."
+       },
+       "answer": "B",
+       "evidence": "This year, thanks to a sponsor, there won't be any charge at all.",
+       "trap": "Booking online is raised but not needed (A); the hours are 'exactly the same' (C)."
+      },
+      {
+       "n": 13,
+       "prompt": "What rule do volunteers have to follow with the rabbits?",
+       "options": {
+        "A": "Children may only hold them when seated.",
+        "B": "They must go back in their hutches at midday.",
+        "C": "Only volunteers are allowed to feed them."
+       },
+       "answer": "A",
+       "evidence": "the rule is that the child sits down on the bench first",
+       "trap": "Hutches at lunchtime was last year's practice (B); children are allowed to feed them (C)."
+      },
+      {
+       "n": 14,
+       "prompt": "Which aspect of the day is Megan most anxious about?",
+       "options": {
+        "A": "finding space for visitors' cars",
+        "B": "children becoming separated from adults",
+        "C": "long waits for refreshments"
+       },
+       "answer": "B",
+       "evidence": "what really keeps me awake is the lost children's point",
+       "trap": "Parking (A) and café queues (C) are both mentioned but dismissed as problems that sort themselves out."
+      },
+      {
+       "n": 15,
+       "prompt": "What will happen if the weather is wet?",
+       "options": {
+        "A": "The pony rides will not take place.",
+        "B": "The craft activities will be moved to the barn.",
+        "C": "The tractor rides will be stopped."
+       },
+       "answer": "A",
+       "evidence": "The only activity we'll actually call off is the pony rides.",
+       "trap": "Crafts used to go into the barn but now go to the classroom (B); tractor rides still run (C)."
+      }
+     ]
+    },
+    {
+     "range": "16-20",
+     "type": "map_labelling",
+     "instructions": "Label the plan below. Write the correct letter, A–I, next to Questions 16–20.",
+     "heading": "Brickfield City Farm — Open Day Plan",
+     "layout": "A rectangular site, north at the top. The MAIN ENTRANCE is in the middle of the south (bottom) edge. A MAIN PATH runs straight north from the entrance to the DUCK POND in the centre of the site; at the pond the path splits into two halves that pass round the west and east sides of the pond and join up again on its north side. The CAFÉ (labelled) is just inside the entrance, to the west (left) of the main path. The BIG BARN (labelled) occupies the north-west corner. The ORCHARD (labelled) occupies the north-east corner. The PADDOCK (labelled) is on the east side of the site, level with the duck pond, below the orchard. Letters: A = beside the main path on its west side, between the Café and the Duck Pond. B = just inside the entrance on the east (right) side of the main path, opposite the Café. C = on the north side of the Duck Pond, exactly where the two halves of the path rejoin. D = immediately outside the Big Barn's door on its east side, facing the pond. E = against the east fence, between the Orchard (to its north) and the Paddock (to its south). F = a small field in the south-east (bottom right-hand) corner of the site. G = inside the Orchard, in its north-east corner. H = against the west fence, between the Café and the Big Barn, directly south of the barn. I = against the north fence, halfway between the Big Barn and the Orchard.",
+     "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E",
+      "F": "F",
+      "G": "G",
+      "H": "H",
+      "I": "I"
+     },
+     "items": [
+      {
+       "n": 16,
+       "prompt": "First-aid post",
+       "answer": "H",
+       "evidence": "right against the west fence, just south of the big barn",
+       "trap": "It used to be beside the café, and A (beside the path on the same side) is a distractor; Megan stresses it 'isn't on the main path at all'."
+      },
+      {
+       "n": 17,
+       "prompt": "Lost children's point",
+       "answer": "C",
+       "evidence": "at the place where the two paths meet again. So that's on the north side of the pond",
+       "trap": "Parents assume it is at the entrance (B), where only a sign will be."
+      },
+      {
+       "n": 18,
+       "prompt": "Pony rides",
+       "answer": "F",
+       "evidence": "the ponies will be in the small field in the bottom right-hand corner of the site",
+       "trap": "The paddock (next to E) is where listeners expect them, but it's being used for sheep-shearing."
+      },
+      {
+       "n": 19,
+       "prompt": "Plant sale",
+       "answer": "I",
+       "evidence": "along the north fence, at the very top of the plan, halfway between the big barn and the orchard",
+       "trap": "It is not inside the orchard (G), because the trees are being pruned."
+      },
+      {
+       "n": 20,
+       "prompt": "Cheese-making demonstration",
+       "answer": "E",
+       "evidence": "between the orchard and the paddock, right up against the east fence",
+       "trap": "It was originally planned for the barn door (D) but there isn't enough light."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "Dissertation: Food-Packaging Waste in Supermarkets",
+   "context": "Academic discussion (2 students + tutor)",
+   "scenario": "Two students, Kirsty and Owen, discuss their joint dissertation on food-packaging waste in supermarkets with their tutor, Dr Lawson.",
+   "accent": "Tutor British (en-GB); Kirsty Australian (en-AU); Owen British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Dr Lawson",
+     "desc": "Tutor — male, 50s, calm, measured, dry humour; British accent"
+    },
+    {
+     "label": "Kirsty",
+     "desc": "Student — female, early 20s, lively, direct, enthusiastic; Australian accent"
+    },
+    {
+     "label": "Owen",
+     "desc": "Student — male, early 20s, thoughtful, slightly hesitant; British accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two students, Kirsty and Owen, talking to their tutor about their dissertation on food-packaging waste in supermarkets. First, you have some time to look at Questions 21 to 25.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[door closes softly] [welcoming, relaxed] Come in, both of you, have a seat. So, it's been about a month since we last met. How's the packaging project going?"
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[upbeat] Pretty well, I think. Though you'll have noticed from the outline that it's changed quite a bit since then."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[curious] Yes, I did. You were originally going to look at plastic waste across the whole retail sector, weren't you? Now it's just food packaging in supermarkets. Was that because of what I said about the scope?"
+    },
+    {
+     "speaker": "Owen",
+     "text": "[slightly sheepish] Well, you did say it was ambitious, and to be fair you were right. But honestly, we'd probably have stuck with it if we could. The real problem was that the council wouldn't give us the waste figures broken down by type of business. They said the data simply wasn't held in that form."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[agreeing] Whereas the supermarkets publish their own packaging reports, so at least there's something to work with."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[dry] And there I was thinking you'd taken my advice. [chuckles] Still, it's a much tighter project now, and a great deal more manageable. So, you've done your store visits now?"
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[enthusiastic] Yeah, three stores, all in the city centre. And some of it wasn't what we expected at all. We'd assumed loose fruit and veg would be dearer than the packaged stuff..."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[interrupting gently] Which it was, in one shop."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[conceding quickly] In one shop, sure, but in the other two it actually worked out cheaper per kilo. What really struck us was how little room it got. In the biggest store the loose produce took up barely a fifth of the display."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[thoughtful] And the managers kept telling us that loose items get bruised and damaged more, so there's more waste. But honestly, we didn't see much sign of that."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[measured] Interesting. Let's talk about your shopper survey. How many responses have you got?"
+    },
+    {
+     "speaker": "Owen",
+     "text": "[slightly defensive] Sixty-two. We know that's not huge."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[reassuring] For a dissertation, that's perfectly defensible, I wouldn't worry about the numbers. And I know some people would say you should have done it online rather than standing outside shops with clipboards, but face to face tends to get you more thoughtful answers."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[more serious] No, my concern is the wording. Take question four. You ask people whether they agree that supermarkets use far too much unnecessary plastic. You're more or less telling people what to think."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[wincing, light laugh] Yeah... reading it back, it's not exactly neutral, is it?"
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[practical] Then acknowledge that as a limitation, and don't build too much on that question. Now, compostable packaging. You've written quite a lot on that."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[keen] Yes, I think it's one of the more hopeful developments. It does cost the supermarkets more, but..."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[cutting in, firm but friendly] See, the cost isn't really what bothers me. And yes, shoppers get confused about which bin it goes in, but that's true of nearly all packaging. My real problem with it is that our local plant can't actually process it. So it gets sent to landfill with everything else, and nobody's any better off."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[conceding a little] That's true round here. It's not true everywhere, though."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[moving on] Which brings us to the international chapter. Owen, I gather you wanted to add Germany and France?"
+    },
+    {
+     "speaker": "Owen",
+     "text": "[hopeful] I did. The German deposit scheme is fascinating."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[dry] I'm sure it is, but you're already well over the word count. I wouldn't get rid of the chapter altogether, because the comparison does strengthen your argument, but it can't stand on its own."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[thinking aloud] So... we squeeze it down to a couple of pages and fold it into the literature review?"
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "Exactly that."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[resigned, good-humoured sigh] OK. Goodbye, France."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the discussion, you have some time to look at Questions 26 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[businesslike] Right, let's go through your main sources, because one or two of them worry me slightly. First, the government report on packaging waste, the one from twenty nineteen."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[eager] That's our main source for the national figures. We thought we'd check its numbers against the industry ones?"
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[gently correcting] You could, but there's no real need. There's an updated edition. It came out last spring, with figures up to twenty twenty-four. You should be using that one rather than the old one."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[surprised] Oh. We had no idea. Right, we'll swap it."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[slightly dismayed] Though if the figures have changed much, we'll have to redo a couple of our graphs."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[unsympathetic but kind] Probably, yes. But better now than after the examiners have noticed."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "Then the Packaging Industry Alliance website."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[sceptical] Honestly, I'd rather leave that out. They're a lobby group. Of course they say packaging reduces food waste."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[considered] They're not neutral, certainly. But ignoring them completely would look as if you hadn't considered the other side. What I'd do is compare their statistics with the university study from Exeter, and see whether they hold up."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[agreeing] That makes sense."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "And the television documentary... Wrapped, I think it was called."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[enthusiastic] Oh, I love that one. I was going to quote the presenter in our introduction. She's got this brilliant line about plastic mountains."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[amused, but firm] It's a good line, but a documentary isn't evidence in academic terms. It's fine for giving you a feel for the debate, but I wouldn't cite it."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[slightly disappointed] OK, so it's just something we watched to get our heads round the issue, then."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "The PhD thesis from Leeds, by Dr Okafor?"
+    },
+    {
+     "speaker": "Owen",
+     "text": "[keen] Yeah, that one's really close to what we're doing. Kirsty thought we could borrow her questionnaire design..."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[light laugh] But our survey's already done, so that's a bit late now."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[thoughtful] Quite. But she mentions that she collected weekly store data she didn't have space to analyse. If I were you, I'd email her and ask whether she'd share it. Researchers are usually happy to."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[pleased] That would save us weeks."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "And lastly, the newspaper interview with the chief executive of Fairway supermarkets."
+    },
+    {
+     "speaker": "Kirsty",
+     "text": "[uncertain] We weren't sure about that one. Newspapers aren't exactly peer-reviewed."
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "Normally I'd agree. But it's the only time anyone at that level has admitted publicly that their targets won't be met, so his exact words matter. Use them, word for word, in quotation marks."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[hesitant] Should we put the whole article in an appendix as well?"
+    },
+    {
+     "speaker": "Dr Lawson",
+     "text": "[mild, unhurried] No, I wouldn't bother with that. The quotation's enough. Right, shall we look at your timetable?"
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 3. You now have one minute to check your answers to Part 3.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-25",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 21,
+       "prompt": "Why did the students narrow the focus of their dissertation?",
+       "options": {
+        "A": "Their tutor told them the original plan was too ambitious.",
+        "B": "They were unable to obtain some information they needed.",
+        "C": "They found the supermarket reports more interesting."
+       },
+       "answer": "B",
+       "evidence": "the council wouldn't give us the waste figures broken down by type of business",
+       "trap": "Owen admits the tutor called it ambitious (A) but says that isn't why; supermarket reports are mentioned only as something available (C)."
+      },
+      {
+       "n": 22,
+       "prompt": "What surprised the students about loose fruit and vegetables?",
+       "options": {
+        "A": "It was usually more expensive than packaged produce.",
+        "B": "It was given relatively little space in stores.",
+        "C": "It was often in poor condition."
+       },
+       "answer": "B",
+       "evidence": "What really struck us was how little room it got.",
+       "trap": "It was dearer in only one shop (A); managers claimed it gets damaged but the students saw little sign of that (C)."
+      },
+      {
+       "n": 23,
+       "prompt": "What is the tutor's view of the students' survey?",
+       "options": {
+        "A": "The sample is too small to be useful.",
+        "B": "One item may have influenced the responses.",
+        "C": "It ought to have been carried out online."
+       },
+       "answer": "B",
+       "evidence": "You're more or less telling people what to think.",
+       "trap": "He says sixty-two is 'perfectly defensible' (A) and defends face-to-face collection (C)."
+      },
+      {
+       "n": 24,
+       "prompt": "What is Kirsty's main objection to compostable packaging?",
+       "options": {
+        "A": "It increases costs for retailers.",
+        "B": "Customers do not know how to dispose of it.",
+        "C": "It cannot be dealt with in the area."
+       },
+       "answer": "C",
+       "evidence": "My real problem with it is that our local plant can't actually process it.",
+       "trap": "Cost is Owen's point and Kirsty says it 'isn't really what bothers' her (A); confusion is admitted but true of all packaging (B)."
+      },
+      {
+       "n": 25,
+       "prompt": "What do they decide to do with the chapter on other countries?",
+       "options": {
+        "A": "remove it completely",
+        "B": "shorten it and include it in another section",
+        "C": "expand it to cover more countries"
+       },
+       "answer": "B",
+       "evidence": "we squeeze it down to a couple of pages and fold it into the literature review",
+       "trap": "Owen wanted to add Germany and France (C); the tutor says he wouldn't get rid of it altogether (A)."
+      }
+     ]
+    },
+    {
+     "range": "26-30",
+     "type": "matching",
+     "instructions": "What do the students decide to do with each of the following sources? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+     "options": {
+      "A": "use it only for general background",
+      "B": "verify its data using another source",
+      "C": "quote from it directly",
+      "D": "replace it with a more recent version",
+      "E": "contact the author for further material",
+      "F": "use it as a model for their own research tool",
+      "G": "include it in full as an appendix"
+     },
+     "items": [
+      {
+       "n": 26,
+       "prompt": "the government report",
+       "answer": "D",
+       "evidence": "You should be using that one rather than the old one.",
+       "trap": "Kirsty suggests checking its numbers against industry figures (B), but the tutor says there's no need."
+      },
+      {
+       "n": 27,
+       "prompt": "the industry website",
+       "answer": "B",
+       "evidence": "compare their statistics with the university study from Exeter",
+       "trap": "Owen wants to leave it out, but the tutor rejects that."
+      },
+      {
+       "n": 28,
+       "prompt": "the documentary",
+       "answer": "A",
+       "evidence": "It's fine for giving you a feel for the debate, but I wouldn't cite it.",
+       "trap": "Kirsty planned to quote the presenter (C), which the tutor rules out."
+      },
+      {
+       "n": 29,
+       "prompt": "the PhD thesis",
+       "answer": "E",
+       "evidence": "I'd email her and ask whether she'd share it.",
+       "trap": "Borrowing her questionnaire design (F) is mentioned but it is too late."
+      },
+      {
+       "n": 30,
+       "prompt": "the newspaper interview",
+       "answer": "C",
+       "evidence": "Use them, word for word, in quotation marks.",
+       "trap": "Kirsty doubts newspapers, and Owen's appendix idea (G) is rejected."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "The History and Science of Glassmaking",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "A lecturer gives a talk on what glass is and how glassmaking developed from the ancient world to the present.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "University lecturer — female, 40s, articulate, lively, occasionally wry; British accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about the history and science of glassmaking. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture theatre, faint murmur fading] [lively, clear] Good afternoon, everyone. Today we're turning to a material that's so familiar we hardly notice it: glass. I want to look first at what glass actually is, and then trace how people learned to make it, and to make it better, over roughly four and a half thousand years."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining carefully] So, the science. Most of the solids we think of as hard, metals, salt, ice, are crystalline. Their atoms are lined up in a neat, repeating lattice, rather like soldiers on parade. Glass isn't like that. When you examine its structure, the arrangement of the atoms is random. It's essentially the structure of a liquid that's been frozen in place before it had time to organise itself."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[wry] This has given rise to a famous myth, which I'm sure some of you have heard: that glass is really a very slow-moving liquid, and that's why old church windows are thicker at the bottom. It isn't true. Calculations suggest that glass at room temperature wouldn't flow noticeably in the entire lifetime of the universe. The thick bottoms are simply because glaziers tended to put the heavier edge of an uneven pane at the bottom."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] The main ingredient of most glass is silica, which in practice means sand. The difficulty is that pure silica only melts at around seventeen hundred degrees Celsius, far hotter than any ancient furnace could reach. So glassmakers added soda, that is, sodium carbonate, which brings the melting point down dramatically. An ingredient that does this job is known as a flux, and do note that word, because you'll meet it again and again in the literature."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] But soda on its own creates a problem. Soda glass is chemically unstable. Strange as it sounds, it will slowly dissolve in water. People often guess that it's acid that attacks it, but in fact ordinary rain is quite enough, given time. The solution was to add lime, which acts as a stabiliser, and that combination of sand, soda and lime is still the basis of about ninety per cent of the glass made today."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[shifting tone, narrative] Now to the history. The oldest glass objects we know of come from Mesopotamia, from about four and a half thousand years ago. You might imagine cups or bottles, but those didn't appear for another thousand years or so. The earliest objects were beads: small, brightly coloured, and treated almost like precious stones."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[enthusiastic] The real revolution came in the first century BC, probably somewhere along the coast of what's now Syria, with the invention of glassblowing. Instead of slowly shaping glass around a core, a worker could gather molten glass on the end of a hollow tube and blow it into shape in a matter of seconds. Suddenly, glass was cheap."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] The Romans adopted the technique with great enthusiasm. They did make some window glass, though it was thick and not very transparent. But the commonest use for blown glass was containers. Now, you might expect these held wine. In fact wine was mostly kept in clay jars called amphorae, which were cheaper and far less fragile. Glass was particularly valued for perfume, because unlike clay, it doesn't absorb the scent or alter it."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[narrative] Let's jump forward to medieval Venice, which became the centre of European glassmaking. In twelve ninety-one the city ordered all its glassmakers to move to the nearby island of Murano. You'll often read that this was done to protect trade secrets, and it certainly helped with that. But the official reason given in the decree was the danger of fire. Venice was a crowded city full of wooden buildings, and the furnaces burned day and night."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining] Murano's great achievement was a glass called cristallo, which was almost colourless. Ordinary glass had a greenish tint, which comes from iron in the sand. It isn't caused by copper, as is sometimes claimed; copper tends to give a blue colour. The Venetians found that adding a small amount of manganese cancelled out the green, which is why manganese is sometimes nicknamed glassmaker's soap."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] In England, in the sixteen seventies, George Ravenscroft began adding lead oxide to his glass. People assume lead glass must be stronger, but it's actually rather softer, which makes it easier to cut. What it gained was brilliance. Lead makes glass bend light much more, so when it's cut into facets, it sparkles. [dry] That's the origin of what we call lead crystal, which, ironically, given what I said earlier, isn't a crystal at all."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[moving on] For centuries, making flat glass for windows remained difficult. You either blew a large cylinder and cut it open, or spun a disc. Both methods left the glass slightly wavy and uneven. The breakthrough came in the nineteen fifties with the float process, developed by Alastair Pilkington in Britain."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining clearly] In the float process, molten glass is poured continuously onto a bath of molten tin. People sometimes assume mercury was used, because it's liquid at room temperature, but it boils far too easily. Tin stays liquid over the whole working range, and because its surface is perfectly flat, the glass floating on top ends up perfectly flat as well. Almost all window glass is made this way today."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] Finally, a word about safety glass. Toughened glass is made by heating ordinary glass and then cooling the outside very quickly using jets of air. Water was tried, but it cools the surface so violently that the glass simply cracks. This rapid cooling puts the surface under compression, which makes the glass several times stronger. And if it does break, it shatters into small, blunt pieces rather than dangerous shards."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[wrapping up, friendly] Next week we'll look at more modern uses, glass in fibre-optic cables and so on, so please read chapter six before then."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of the Listening test. You now have two minutes to check your answers.",
+     "pause_after": 120
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "GLASS: SCIENCE AND HISTORY",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "Structure: unlike in crystalline solids, atoms in glass have a ___ arrangement",
+       "answer": "random",
+       "accepted": [],
+       "spoken": "random",
+       "evidence": "the arrangement of the atoms is random",
+       "trap": "'neat, repeating lattice' describes crystals, not glass."
+      },
+      {
+       "n": 32,
+       "prompt": "Soda (sodium carbonate) lowers the melting temperature of silica — it is an example of a ___",
+       "answer": "flux",
+       "accepted": [],
+       "spoken": "flux",
+       "evidence": "An ingredient that does this job is known as a flux",
+       "trap": "Candidates may write 'soda' or 'sand', which are named just before."
+      },
+      {
+       "n": 33,
+       "prompt": "Without lime, soda glass will gradually be destroyed by ___",
+       "answer": "water",
+       "accepted": [
+        "rain"
+       ],
+       "spoken": "water",
+       "evidence": "Strange as it sounds, it will slowly dissolve in water.",
+       "trap": "Acid is the common guess but is explicitly corrected."
+      },
+      {
+       "n": 34,
+       "prompt": "First glass objects (Mesopotamia, c. 4,500 years ago): ___",
+       "answer": "beads",
+       "accepted": [],
+       "spoken": "beads",
+       "evidence": "The earliest objects were beads: small, brightly coloured",
+       "trap": "Cups and bottles came about a thousand years later."
+      },
+      {
+       "n": 35,
+       "prompt": "Roman blown-glass containers were especially used for ___ (glass did not change its smell)",
+       "answer": "perfume",
+       "accepted": [],
+       "spoken": "perfume",
+       "evidence": "Glass was particularly valued for perfume, because unlike clay",
+       "trap": "Wine is suggested but was mostly kept in clay amphorae."
+      },
+      {
+       "n": 36,
+       "prompt": "1291: glassmakers moved to Murano — officially because of the risk of ___",
+       "answer": "fire",
+       "accepted": [],
+       "spoken": "fire",
+       "evidence": "the official reason given in the decree was the danger of fire",
+       "trap": "Protecting trade secrets is the popular explanation, not the official one."
+      },
+      {
+       "n": 37,
+       "prompt": "Greenish colour of ordinary glass was due to ___ (removed by adding manganese)",
+       "answer": "iron",
+       "accepted": [],
+       "spoken": "iron",
+       "evidence": "Ordinary glass had a greenish tint, which comes from iron in the sand.",
+       "trap": "Copper is mentioned as a mistaken explanation."
+      },
+      {
+       "n": 38,
+       "prompt": "Ravenscroft's lead glass (1670s): softer than earlier glass, but notable for its ___",
+       "answer": "brilliance",
+       "accepted": [],
+       "spoken": "brilliance",
+       "evidence": "What it gained was brilliance.",
+       "trap": "People assume it is stronger; 'softer' is said just before."
+      },
+      {
+       "n": 39,
+       "prompt": "Float process (1950s): liquid glass spread over a surface of melted ___",
+       "answer": "tin",
+       "accepted": [],
+       "spoken": "tin",
+       "evidence": "molten glass is poured continuously onto a bath of molten tin",
+       "trap": "Mercury is mentioned as a wrong assumption."
+      },
+      {
+       "n": 40,
+       "prompt": "Toughened glass: outer surface rapidly cooled with ___",
+       "answer": "air",
+       "accepted": [],
+       "spoken": "air",
+       "evidence": "cooling the outside very quickly using jets of air",
+       "trap": "Water was tried but makes the glass crack."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

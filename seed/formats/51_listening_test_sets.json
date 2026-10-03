@@ -1,0 +1,243 @@
+{
+  "_format": {
+    "name": "listening_test_sets",
+    "group": "bank",
+    "table": "listening_sets",
+    "primaryKey": "id",
+    "description": "Parts 1-4 of Listening Tests 1-4 (lt_wNN_pK), 10 questions each, no transcript.",
+    "currentSourceInApp": "assets/content/tests_bank.json → listening.sets",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "testId": "string",
+      "part": "integer",
+      "title": "string",
+      "context": "string",
+      "audio": "string",
+      "durationSeconds": "integer",
+      "speakers": "array",
+      "transcript": "array",
+      "groups": "array",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 16
+  },
+  "items": [
+    {
+      "id": "lt_w01_p1",
+      "source": "test",
+      "testId": "lt_w01",
+      "part": 1,
+      "title": "Enquiring about a local language exchange club",
+      "context": "Enquiring about a local language exchange club",
+      "audio": "listening/lt_w01_p1.mp3",
+      "durationSeconds": 272,
+      "speakers": [],
+      "transcript": [],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "gap",
+          "title": "Language Exchange Club",
+          "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Ben wants to practise ______.",
+              "answer": "French",
+              "accepted": [
+                "French"
+              ]
+            },
+            {
+              "number": 2,
+              "text": "The French group meets on ______.",
+              "answer": "Thursday",
+              "accepted": [
+                "Thursday"
+              ]
+            },
+            {
+              "number": 3,
+              "text": "Each session lasts approximately ______ minutes.",
+              "answer": "90",
+              "accepted": [
+                "90"
+              ]
+            },
+            {
+              "number": 4,
+              "text": "There is no formal ______.",
+              "answer": "homework",
+              "accepted": [
+                "homework"
+              ]
+            },
+            {
+              "number": 5,
+              "text": "Membership costs ______ pounds for six months.",
+              "answer": "30",
+              "accepted": [
+                "30"
+              ]
+            },
+            {
+              "number": 6,
+              "text": "The group meets at Oak Street Community ______.",
+              "answer": "Centre",
+              "accepted": [
+                "Centre",
+                "Center"
+              ]
+            },
+            {
+              "number": 7,
+              "text": "The group uses Room ______.",
+              "answer": "Seven",
+              "accepted": [
+                "Seven",
+                "7"
+              ]
+            },
+            {
+              "number": 8,
+              "text": "The next meeting is on the ______ of November.",
+              "answer": "ninth",
+              "accepted": [
+                "ninth",
+                "9th"
+              ]
+            },
+            {
+              "number": 9,
+              "text": "Members should register by the ______ of November.",
+              "answer": "second",
+              "accepted": [
+                "second",
+                "2nd"
+              ]
+            },
+            {
+              "number": 10,
+              "text": "The group normally has around ______ people.",
+              "answer": "12",
+              "accepted": [
+                "12",
+                "twelve"
+              ]
+            }
+          ]
+        }
+      ],
+      "data": {
+        "id": "lt_w01_p1",
+        "part": 1,
+        "test": "lt_w01",
+        "title": "Enquiring about a local language exchange club",
+        "context": "Enquiring about a local language exchange club",
+        "audio": "assets/audio/listening/lt_w01_p1.mp3",
+        "durationSeconds": 272,
+        "transcriptStatus": "none",
+        "speakers": [],
+        "transcript": [],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "gap",
+            "title": "Language Exchange Club",
+            "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+            "questions": [
+              {
+                "number": 1,
+                "text": "Ben wants to practise ______.",
+                "answer": "French",
+                "accepted": [
+                  "French"
+                ]
+              },
+              {
+                "number": 2,
+                "text": "The French group meets on ______.",
+                "answer": "Thursday",
+                "accepted": [
+                  "Thursday"
+                ]
+              },
+              {
+                "number": 3,
+                "text": "Each session lasts approximately ______ minutes.",
+                "answer": "90",
+                "accepted": [
+                  "90"
+                ]
+              },
+              {
+                "number": 4,
+                "text": "There is no formal ______.",
+                "answer": "homework",
+                "accepted": [
+                  "homework"
+                ]
+              },
+              {
+                "number": 5,
+                "text": "Membership costs ______ pounds for six months.",
+                "answer": "30",
+                "accepted": [
+                  "30"
+                ]
+              },
+              {
+                "number": 6,
+                "text": "The group meets at Oak Street Community ______.",
+                "answer": "Centre",
+                "accepted": [
+                  "Centre",
+                  "Center"
+                ]
+              },
+              {
+                "number": 7,
+                "text": "The group uses Room ______.",
+                "answer": "Seven",
+                "accepted": [
+                  "Seven",
+                  "7"
+                ]
+              },
+              {
+                "number": 8,
+                "text": "The next meeting is on the ______ of November.",
+                "answer": "ninth",
+                "accepted": [
+                  "ninth",
+                  "9th"
+                ]
+              },
+              {
+                "number": 9,
+                "text": "Members should register by the ______ of November.",
+                "answer": "second",
+                "accepted": [
+                  "second",
+                  "2nd"
+                ]
+              },
+              {
+                "number": 10,
+                "text": "The group normally has around ______ people.",
+                "answer": "12",
+                "accepted": [
+                  "12",
+                  "twelve"
+                ]
+              }
+            ]
+          }
+        ],
+        "source": "website Listening Mock Test 3 (test 11)"
+      }
+    }
+  ]
+}

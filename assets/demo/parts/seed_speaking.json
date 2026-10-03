@@ -1,0 +1,1186 @@
+{
+  "attempts": [
+    {
+      "id": "att_spk_seed_01",
+      "skill": "speaking",
+      "kind": "part2",
+      "title": "Part 2 · A time you helped someone",
+      "refId": "cc14",
+      "band": 6.5,
+      "durationSec": 240,
+      "daysAgo": 1,
+      "hour": 20,
+      "data": {
+        "spokenSec": 112,
+        "expectedSec": 120,
+        "questions": [
+          {
+            "q": "Describe a time you helped someone.",
+            "spokenSec": 112
+          }
+        ],
+        "criteria": {
+          "FC": 6.0,
+          "LR": 7.0,
+          "GRA": 6.5,
+          "P": 6.5
+        },
+        "summary": "Relevant, well-organised story. Fillers and two long pauses keep fluency below 7.",
+        "feedback": [
+          "Replace “you know” and “like” with a short pause.",
+          "Practise stress in “particularly” and “struggling”."
+        ],
+        "stats": {
+          "fillers": 7,
+          "pauses": 3,
+          "wpm": 118
+        },
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "att_spk_seed_02",
+      "skill": "speaking",
+      "kind": "part3",
+      "title": "Part 3 · A park or garden you enjoy spending time in",
+      "refId": "cc09",
+      "band": 6.0,
+      "durationSec": 420,
+      "daysAgo": 1,
+      "hour": 19,
+      "data": {
+        "spokenSec": 252,
+        "expectedSec": 150,
+        "questions": [
+          {
+            "q": "Why are parks important in cities?",
+            "spokenSec": 58
+          },
+          {
+            "q": "Should parks be free for everyone?",
+            "spokenSec": 49
+          },
+          {
+            "q": "Who should be responsible for keeping parks clean?",
+            "spokenSec": 52
+          },
+          {
+            "q": "Do children today spend enough time outdoors?",
+            "spokenSec": 44
+          },
+          {
+            "q": "Should more roofs be turned into gardens?",
+            "spokenSec": 49
+          }
+        ],
+        "criteria": {
+          "FC": 5.5,
+          "LR": 6.5,
+          "GRA": 6.0,
+          "P": 6.0
+        },
+        "summary": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7.",
+        "feedback": [
+          "Replace fillers like “you know” and “like” with a short pause.",
+          "Mix simple and complex sentences — add one “although” or “which” clause per answer."
+        ],
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "att_spk_seed_03",
+      "skill": "speaking",
+      "kind": "part1",
+      "title": "Part 1 · Hometown",
+      "refId": "s1_hometown",
+      "band": 7.0,
+      "durationSec": 300,
+      "daysAgo": 3,
+      "hour": 18,
+      "data": {
+        "spokenSec": 168,
+        "expectedSec": 120,
+        "questions": [
+          {
+            "q": "Where is your hometown?",
+            "spokenSec": 38
+          },
+          {
+            "q": "What do you like most about your hometown?",
+            "spokenSec": 44
+          },
+          {
+            "q": "Has your hometown changed much since you were a child?",
+            "spokenSec": 46
+          },
+          {
+            "q": "Would you like to live there in the future?",
+            "spokenSec": 40
+          }
+        ],
+        "criteria": {
+          "FC": 7.0,
+          "LR": 7.0,
+          "GRA": 6.5,
+          "P": 7.5
+        },
+        "summary": "Fluent, well-developed answers. A few hesitations and minor errors remain.",
+        "feedback": [
+          "Mix simple and complex sentences — add one “although” or “which” clause per answer.",
+          "Replace fillers like “you know” and “like” with a short pause."
+        ],
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "att_spk_seed_04",
+      "skill": "speaking",
+      "kind": "part3",
+      "title": "Speaking Test 04",
+      "refId": "mock_interview",
+      "band": 6.0,
+      "durationSec": 840,
+      "daysAgo": 8,
+      "hour": 17,
+      "data": {
+        "test": true,
+        "spokenSec": 756,
+        "expectedSec": 270,
+        "questions": [
+          {
+            "q": "Where is your hometown?",
+            "spokenSec": 40
+          },
+          {
+            "q": "What do you like most about your hometown?",
+            "spokenSec": 36
+          },
+          {
+            "q": "Has your hometown changed much since you were a child?",
+            "spokenSec": 42
+          },
+          {
+            "q": "Would you like to live there in the future?",
+            "spokenSec": 38
+          },
+          {
+            "q": "Why are parks important in cities?",
+            "spokenSec": 55
+          },
+          {
+            "q": "Should parks be free for everyone?",
+            "spokenSec": 50
+          },
+          {
+            "q": "Who should be responsible for keeping parks clean?",
+            "spokenSec": 48
+          },
+          {
+            "q": "Do children today spend enough time outdoors?",
+            "spokenSec": 52
+          },
+          {
+            "q": "Should more roofs be turned into gardens?",
+            "spokenSec": 45
+          }
+        ],
+        "criteria": {
+          "FC": 6.0,
+          "LR": 6.0,
+          "GRA": 5.5,
+          "P": 6.5
+        },
+        "summary": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7.",
+        "feedback": [
+          "Check past tenses when you tell a story.",
+          "Replace fillers like “you know” and “like” with a short pause."
+        ],
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "att_spk_seed_05",
+      "skill": "speaking",
+      "kind": "part2",
+      "title": "Part 2 · A place you visited that was noisy",
+      "refId": "cc52",
+      "band": 6.0,
+      "durationSec": 200,
+      "daysAgo": 11,
+      "hour": 19,
+      "data": {
+        "spokenSec": 118,
+        "expectedSec": 120,
+        "questions": [
+          {
+            "q": "Describe a place you visited that was noisy",
+            "spokenSec": 118
+          }
+        ],
+        "criteria": {
+          "FC": 5.5,
+          "LR": 6.5,
+          "GRA": 6.0,
+          "P": 6.0
+        },
+        "summary": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7.",
+        "feedback": [
+          "Replace fillers like “you know” and “like” with a short pause.",
+          "Check past tenses when you tell a story."
+        ],
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "att_spk_seed_06",
+      "skill": "speaking",
+      "kind": "part2",
+      "title": "Part 2 · A piece of technology you use every day",
+      "refId": "cc31",
+      "band": 7.0,
+      "durationSec": 210,
+      "daysAgo": 14,
+      "hour": 20,
+      "data": {
+        "spokenSec": 120,
+        "expectedSec": 120,
+        "questions": [
+          {
+            "q": "Describe a piece of technology you use every day",
+            "spokenSec": 120
+          }
+        ],
+        "criteria": {
+          "FC": 7.0,
+          "LR": 7.5,
+          "GRA": 6.5,
+          "P": 7.0
+        },
+        "summary": "Fluent, well-developed answers. A few hesitations and minor errors remain.",
+        "feedback": [
+          "Mix simple and complex sentences — add one “although” or “which” clause per answer.",
+          "Slow down slightly and finish the last sound of each word."
+        ],
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "att_spk_seed_07",
+      "skill": "speaking",
+      "kind": "part2",
+      "title": "Part 2 · A person who taught you something useful",
+      "refId": "cc07",
+      "band": 6.5,
+      "durationSec": 200,
+      "daysAgo": 18,
+      "hour": 19,
+      "data": {
+        "spokenSec": 106,
+        "expectedSec": 120,
+        "questions": [
+          {
+            "q": "Describe a person who taught you something useful",
+            "spokenSec": 106
+          }
+        ],
+        "criteria": {
+          "FC": 6.0,
+          "LR": 6.5,
+          "GRA": 6.5,
+          "P": 7.0
+        },
+        "summary": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7.",
+        "feedback": [
+          "Link ideas with “especially”, “because” and “as a result”.",
+          "Mix simple and complex sentences — add one “although” or “which” clause per answer."
+        ],
+        "transcript": {
+          "demo": true,
+          "paragraphs": [
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "lead",
+                  "text": "Well, I'd like to talk about"
+                },
+                {
+                  "type": "text",
+                  "text": " a time I helped my younger cousin, Rafi. "
+                },
+                {
+                  "type": "filler",
+                  "text": "um",
+                  "note": "Filler — try a short silent pause instead."
+                },
+                {
+                  "type": "text",
+                  "text": " He was preparing for his HSC and he was "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "struggling",
+                  "note": "Stress the first syllable: STRUG-gling."
+                },
+                {
+                  "type": "text",
+                  "text": " with maths "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 2.4s",
+                  "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                },
+                {
+                  "type": "text",
+                  "text": " especially calculus."
+                }
+              ]
+            },
+            {
+              "faded": false,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "So, "
+                },
+                {
+                  "type": "filler",
+                  "text": "you know",
+                  "note": "Filler — drop it or pause briefly."
+                },
+                {
+                  "type": "text",
+                  "text": ", every evening for about three weeks I went to his house and we "
+                },
+                {
+                  "type": "mispronounced",
+                  "text": "practised",
+                  "note": "Say PRAK-tist — two syllables, final /t/."
+                },
+                {
+                  "type": "text",
+                  "text": " past papers together. "
+                },
+                {
+                  "type": "filler",
+                  "text": "like",
+                  "note": "Filler — start the sentence directly."
+                },
+                {
+                  "type": "text",
+                  "text": " the first week was really hard because "
+                },
+                {
+                  "type": "pause",
+                  "text": "‖ 1.8s",
+                  "note": "Long pause — plan the reason before \"because\"."
+                },
+                {
+                  "type": "text",
+                  "text": " he had lost confidence."
+                }
+              ]
+            },
+            {
+              "faded": true,
+              "tokens": [
+                {
+                  "type": "text",
+                  "text": "I think the moment he solved a question on his own…"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "att_spk_seed_08",
+      "skill": "speaking",
+      "kind": "pronunciation",
+      "title": "Pronunciation · Word set",
+      "refId": "pron_default",
+      "band": null,
+      "score": 4,
+      "total": 6,
+      "durationSec": 300,
+      "daysAgo": 2,
+      "hour": 21,
+      "data": {
+        "words": [
+          {
+            "word": "struggling",
+            "score": 0.81
+          },
+          {
+            "word": "particularly",
+            "score": 0.72
+          },
+          {
+            "word": "confidence",
+            "score": 0.79
+          },
+          {
+            "word": "calculus",
+            "score": 0.83
+          },
+          {
+            "word": "especially",
+            "score": 0.74
+          },
+          {
+            "word": "comfortable",
+            "score": 0.8
+          }
+        ]
+      }
+    }
+  ],
+  "kv": {
+    "speaking.savedCards": [
+      "cc07",
+      "cc52"
+    ],
+    "speaking.notes.cc14": [
+      "younger cousin, Rafi",
+      "HSC maths, failing mock",
+      "evenings, 3 weeks, past papers"
+    ],
+    "speaking.pronScores": {
+      "w1": [
+        0.68,
+        0.81
+      ],
+      "w2": [
+        0.72
+      ]
+    },
+    "speaking.part1Answered": 47,
+    "speaking.pendingUpload": {
+      "title": "Part 2 · A place you visited that was noisy",
+      "cardTitle": "Describe a place you\nvisited that was noisy",
+      "spokenSec": 124,
+      "sizeMb": 3.1,
+      "progress": 0.62,
+      "recordedAt": "8:12 PM",
+      "attempt": {
+        "id": "att_spk_seed_pending",
+        "skill": "speaking",
+        "kind": "part2",
+        "title": "Part 2 · A place you visited that was noisy",
+        "refId": "cc52",
+        "band": 6.5,
+        "durationSec": 240,
+        "data": {
+          "spokenSec": 124,
+          "expectedSec": 120,
+          "questions": [
+            {
+              "q": "Describe a place you visited that was noisy",
+              "spokenSec": 124
+            }
+          ],
+          "criteria": {
+            "FC": 6.0,
+            "LR": 7.0,
+            "GRA": 6.5,
+            "P": 6.5
+          },
+          "summary": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7.",
+          "feedback": [
+            "Replace fillers like “you know” and “like” with a short pause.",
+            "Practise word stress in “particularly” and “struggling”."
+          ],
+          "transcript": {
+            "demo": true,
+            "paragraphs": [
+              {
+                "faded": false,
+                "tokens": [
+                  {
+                    "type": "lead",
+                    "text": "Well, I'd like to talk about"
+                  },
+                  {
+                    "type": "text",
+                    "text": " a time I helped my younger cousin, Rafi. "
+                  },
+                  {
+                    "type": "filler",
+                    "text": "um",
+                    "note": "Filler — try a short silent pause instead."
+                  },
+                  {
+                    "type": "text",
+                    "text": " He was preparing for his HSC and he was "
+                  },
+                  {
+                    "type": "mispronounced",
+                    "text": "struggling",
+                    "note": "Stress the first syllable: STRUG-gling."
+                  },
+                  {
+                    "type": "text",
+                    "text": " with maths "
+                  },
+                  {
+                    "type": "pause",
+                    "text": "‖ 2.4s",
+                    "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                  },
+                  {
+                    "type": "text",
+                    "text": " especially calculus."
+                  }
+                ]
+              },
+              {
+                "faded": false,
+                "tokens": [
+                  {
+                    "type": "text",
+                    "text": "So, "
+                  },
+                  {
+                    "type": "filler",
+                    "text": "you know",
+                    "note": "Filler — drop it or pause briefly."
+                  },
+                  {
+                    "type": "text",
+                    "text": ", every evening for about three weeks I went to his house and we "
+                  },
+                  {
+                    "type": "mispronounced",
+                    "text": "practised",
+                    "note": "Say PRAK-tist — two syllables, final /t/."
+                  },
+                  {
+                    "type": "text",
+                    "text": " past papers together. "
+                  },
+                  {
+                    "type": "filler",
+                    "text": "like",
+                    "note": "Filler — start the sentence directly."
+                  },
+                  {
+                    "type": "text",
+                    "text": " the first week was really hard because "
+                  },
+                  {
+                    "type": "pause",
+                    "text": "‖ 1.8s",
+                    "note": "Long pause — plan the reason before \"because\"."
+                  },
+                  {
+                    "type": "text",
+                    "text": " he had lost confidence."
+                  }
+                ]
+              },
+              {
+                "faded": true,
+                "tokens": [
+                  {
+                    "type": "text",
+                    "text": "I think the moment he solved a question on his own…"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

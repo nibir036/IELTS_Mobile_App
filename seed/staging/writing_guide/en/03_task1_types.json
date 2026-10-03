@@ -1,0 +1,882 @@
+[
+ {
+  "id": "t1_bar",
+  "title": "Part B — Bar / Column Graph",
+  "blocks": [
+   [
+    "p",
+    "Everything you learned in Line graph — the four-paragraph template, the two methods of writing the introduction, the language of numbers — is exactly the same here. What changes is: how you find the story of the graph and how you arrange the body. Each type comes with one complete example, graph included."
+   ],
+   [
+    "h",
+    "Bar / Column Graph — step by step"
+   ],
+   [
+    "h2",
+    "First question: is there time or a category on the horizontal axis?"
+   ],
+   [
+    "table",
+    [
+     "What is on the axis",
+     "How to look at it",
+     "Language"
+    ],
+    [
+     [
+      "Time (years, months)",
+      "Like a line graph — trend, rises and falls",
+      "rose, fell, peaked (Line graph chapter)"
+     ],
+     [
+      "Category (country, job, age)",
+      "Comparison — highest, lowest, order, gap",
+      "higher / lower than, the most, followed by"
+     ],
+     [
+      "Grouped bar (category × year)",
+      "Both — compare the categories + how each one changed",
+      "Both sets"
+     ]
+    ]
+   ],
+   [
+    "note",
+    "⚠ The bars of categories do not \"rise\" or \"fall\". If there is no time and you write rose/fell, the examiner assumes you have not understood the graph. Write: X is higher than Y; X has the largest share."
+   ],
+   [
+    "h2",
+    "Example 1 — simple bar (categories only)"
+   ],
+   [
+    "ex",
+    "The bar chart shows the amount of coffee consumed per person in five countries in 2022."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p032_1.png",
+    "Coffee consumption per person, 2022"
+   ],
+   [
+    "h2",
+    "Steps 1–3 · Understand and mark"
+   ],
+   [
+    "ul",
+    [
+     "Unit: kg per person per year. Time: a single year (2022) — so not trend but comparison; tense: past (2022) or present — both work, but stick to one.",
+     "Highest: Finland (12); lowest: Japan (3.6). Finland is more than three times Japan.",
+     "Two groups can be seen: the two Nordic countries are far above (12, 9.9); the other three are below 6."
+    ]
+   ],
+   [
+    "h2",
+    "Step 4 · Introduction"
+   ],
+   [
+    "model",
+    "The bar chart compares how much coffee people in five countries drank per head in 2022, measured in kilograms per year."
+   ],
+   [
+    "h2",
+    "Step 5 · Overview"
+   ],
+   [
+    "model",
+    "Overall, the two Nordic countries consumed far more coffee than the other three, with Finland well ahead of every other nation and Japan at the bottom of the list."
+   ],
+   [
+    "h2",
+    "Step 6 · Body"
+   ],
+   [
+    "p",
+    "In a category graph, arrange the body by group: para 1 = the top group, para 2 = the rest. In each group, state the order and the gaps."
+   ],
+   [
+    "model",
+    "Finland recorded the highest consumption by a clear margin, at 12 kg per person, followed by Norway with just under 10 kg. Between them, these two countries drank roughly twice as much coffee per head as any of the others.\n\nThe remaining three countries formed a distinct lower group. Brazil, despite being a major coffee producer, consumed 6.1 kg per person, about half the Finnish figure. The United States came next at 4.7 kg, while Japan had the lowest consumption of all, at 3.6 kg, less than a third of the amount in Finland."
+   ],
+   [
+    "p",
+    "(Here \"despite being a major coffee producer\" is general knowledge, not in the graph; even Band 7 writers sometimes slip this kind of thing in. If you want to stay safe, leave it out.)"
+   ],
+   [
+    "h2",
+    "Example 2 — grouped bar (category × two years)"
+   ],
+   [
+    "ex",
+    "The chart shows how people in the city of Riverton travelled to work in 2000 and 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p033_1.png",
+    "How people travelled to work in Riverton, 2000 and 2020"
+   ],
+   [
+    "h2",
+    "Steps 1–3 · Understand and mark"
+   ],
+   [
+    "ul",
+    [
+     "Unit: percentage (of commuters). Two years → past tense, and comparison in two directions: (a) between the modes in the same year, (b) between the two years for the same mode.",
+     "Car is the biggest in both years, but fell a lot (55 → 40). Bus also fell (25 → 20).",
+     "Train more than doubled (10 → 22), bicycle tripled (4 → 12). Walking unchanged (6).",
+     "The story: the city has moved away from the private car."
+    ]
+   ],
+   [
+    "h2",
+    "Step 4 · Introduction"
+   ],
+   [
+    "model",
+    "The bar chart compares the percentage of commuters in Riverton who used five different methods of transport to get to work in 2000 and in 2020."
+   ],
+   [
+    "h2",
+    "Step 5 · Overview"
+   ],
+   [
+    "model",
+    "Overall, the car remained the most popular way to travel to work in both years, but its share fell noticeably, while rail and cycling became far more common. Walking was the only mode that showed no change."
+   ],
+   [
+    "h2",
+    "Step 6 · Body — \"those that fell\" and \"those that rose\""
+   ],
+   [
+    "model",
+    "In 2000, more than half of commuters (55%) drove to work, and a further quarter took the bus. By 2020 both of these figures had fallen, the car to 40% and the bus to 20%, although the car was still the leading choice.\n\nIn contrast, the share of people travelling by train or metro more than doubled, from 10% to 22%, making it the second most common mode in 2020. Cycling grew even faster in relative terms, tripling from 4% to 12%. Walking, meanwhile, stayed constant at 6% in both years."
+   ],
+   [
+    "h",
+    "The language of bar graphs"
+   ],
+   [
+    "table",
+    [
+     "Purpose",
+     "Words / phrases"
+    ],
+    [
+     [
+      "Order",
+      "the most / least popular · the largest / smallest share · the highest / lowest figure · in first / second place · followed by · at the bottom · the only category to …"
+     ],
+     [
+      "Proportion",
+      "accounted for · made up · represented · a quarter / a third / half of · one in five"
+     ],
+     [
+      "Change (grouped)",
+      "more than doubled · tripled · halved · fell by … percentage points · in relative terms · by comparison · the reverse was true for"
+     ],
+     [
+      "Comparison",
+      "far higher than · slightly lower than · roughly the same as · twice as … as · X times more than · compared with · whereas · while"
+     ]
+    ]
+   ],
+   [
+    "note",
+    "**Common mistakes in bar graphs:** (1) describing the bars one by one from left to right — instead, make groups: the big ones, the small ones, the ones that changed. (2) increased/decreased on a chart that has no time. (3) forgetting the unit (percentage? number? in thousands?)."
+   ]
+  ]
+ },
+ {
+  "id": "t1_table",
+  "title": "Table — step by step",
+  "blocks": [
+   [
+    "p",
+    "A table looks easy, but it is often the hardest type — because the trend is hidden inside the numbers and does not jump out at you the way it does in a graph. You have to find it yourself."
+   ],
+   [
+    "h2",
+    "How to read a table (2 minutes)"
+   ],
+   [
+    "ul",
+    [
+     "Read the title, row labels, column labels and unit.",
+     "Look at each row from left to right: rising, falling, or the same?",
+     "Look at each column from top to bottom: which row is highest, which is lowest?",
+     "Mark: the biggest number, the smallest number, the total (if there is one), and any row/column that does not behave like the others.",
+     "Decide the groups: rows that behave in the same way go in the same paragraph."
+    ]
+   ],
+   [
+    "ex",
+    "The table shows the number of international students (in thousands) studying in four countries in 2010, 2015 and 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p035_1.png",
+    "International students by host country (thousands)"
+   ],
+   [
+    "h2",
+    "Steps 1–3 · Mark"
+   ],
+   [
+    "img",
+    "assets/writing/guide/p035_2.png",
+    "Marked: red = highest, green = lowest, yellow = exceptions"
+   ],
+   [
+    "p",
+    "Marked table: red = highest, green = lowest, yellow = exceptions"
+   ],
+   [
+    "ul",
+    [
+     "The USA is always the biggest, and it grew (690 → 1,075) — passing one million in 2020.",
+     "The UK grew slowly (400 → 550).",
+     "Australia is the only country where the number fell (330 → 290), then it rose strongly (460).",
+     "Canada was the smallest at the start (95), but grew more than five-fold (530) to almost equal the UK.",
+     "All of them are higher in 2020 than in 2010."
+    ]
+   ],
+   [
+    "h2",
+    "Step 4 · Introduction"
+   ],
+   [
+    "model",
+    "The table gives the number of overseas students, in thousands, enrolled in the USA, the UK, Australia and Canada at five-year intervals between 2010 and 2020."
+   ],
+   [
+    "h2",
+    "Step 5 · Overview"
+   ],
+   [
+    "model",
+    "Overall, all four countries hosted more international students at the end of the decade than at the start. The USA remained by far the largest destination throughout, while Canada, though the smallest in 2010, showed the fastest growth of all."
+   ],
+   [
+    "h2",
+    "Step 6 · Body — groups by behaviour"
+   ],
+   [
+    "p",
+    "Para 1 = the two big, steadily growing countries (USA, UK). Para 2 = the two that broke the pattern (Australia, Canada)."
+   ],
+   [
+    "model",
+    "The USA attracted 690,000 foreign students in 2010, already more than the other three countries combined. This figure climbed to 975,000 in 2015 and passed one million (1,075,000) by 2020. The UK, in second place, grew more slowly, from 400,000 to 430,000 and then to 550,000.\n\nAustralia was the only country whose numbers fell, dropping from 330,000 to 290,000 between 2010 and 2015, before recovering strongly to 460,000. Canada, meanwhile, recorded the most dramatic rise: its total of just 95,000 in 2010 nearly doubled to 170,000 by 2015 and then tripled again to 530,000, almost level with the UK."
+   ],
+   [
+    "h",
+    "Table techniques"
+   ],
+   [
+    "ul",
+    [
+     "Turn numbers into relationships: more than the other three combined · nearly doubled · almost level with · five times larger.",
+     "With a small table (4×3 = 12 numbers) you will need almost all the numbers; with a big table (6×5 = 30), 8–10 of them.",
+     "Mention whatever does not fit the pattern (the only country whose numbers fell) — an exception is always a \"main feature\".",
+     "Do not write in the order of the rows (top to bottom) — write in the order of behaviour."
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "t1_pie",
+  "title": "Pie Chart — step by step",
+  "blocks": [
+   [
+    "p",
+    "A pie chart shows parts of a whole. So the language here is not the language of trends but of proportion."
+   ],
+   [
+    "h2",
+    "The language of proportion"
+   ],
+   [
+    "table",
+    [
+     "Purpose",
+     "phrase"
+    ],
+    [
+     [
+      "Stating a share",
+      "X accounts for / makes up / represents / constitutes 40% of the total · X takes up a quarter"
+     ],
+     [
+      "Order",
+      "the largest / smallest segment / share / proportion / category · the dominant use · a negligible 2%"
+     ],
+     [
+      "Fractions",
+      "half · just over / under half · a third · roughly a quarter · three-quarters · one in five · one in ten"
+     ],
+     [
+      "The rest",
+      "the remaining 15% · the rest · together, A and B make up two-thirds · A and B combined"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "A single pie chart"
+   ],
+   [
+    "ex",
+    "The pie chart shows the composition of household waste in one city."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p037_1.png",
+    "Composition of household waste in one city"
+   ],
+   [
+    "p",
+    "When there is only one pie: go from the biggest segment to the smallest, and group the small ones together. Overview = which segment(s) dominate. There is no time, so present tense."
+   ],
+   [
+    "model",
+    "The pie chart shows what proportion of the waste produced by households in one city falls into each of six categories.\n\nOverall, food is by far the largest component, and food and paper together make up more than half of all household waste, whereas garden waste and miscellaneous items form only a small fraction.\n\nFood waste accounts for just over a third of the total (34%), and paper and cardboard for a further 22%. These two categories combined therefore represent 56% of everything that households throw away. Plastics are the third largest category, at 18%, or almost one in five items.\n\nThe remaining three categories are considerably smaller. Glass and metal together make up 12%, garden waste 9%, and other materials just 5%, the smallest share on the chart. In total, these three account for roughly a quarter of household waste."
+   ],
+   [
+    "p",
+    "(160 words. Notice: there is not a single rose/fell; every number has a fraction or a comparison beside it.)"
+   ],
+   [
+    "h2",
+    "Two or more pie charts — what comes up more often in the exam"
+   ],
+   [
+    "p",
+    "Usually the same thing in two years or in two places. Then the whole task is to compare the same segment across the two pies. Describing all of pie 1, then all of pie 2 — that is the classic Band 5 answer, because it contains no comparison."
+   ],
+   [
+    "ex",
+    "The charts show how adults in one country spent their time online in 2015 and 2023."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p038_1.png",
+    "How adults spent their time online"
+   ],
+   [
+    "h2",
+    "Steps 1–3 · Mark"
+   ],
+   [
+    "ul",
+    [
+     "Entertainment (social media, video) rose a lot; use for information and work fell a lot.",
+     "The largest segment changed: in 2015 news (30%), in 2023 social media (40%).",
+     "Shopping rose slightly (10 → 15)."
+    ]
+   ],
+   [
+    "h2",
+    "Step 4 · Introduction"
+   ],
+   [
+    "model",
+    "The two pie charts compare the proportion of online time that adults in one country devoted to five activities in 2015 and 2023."
+   ],
+   [
+    "h2",
+    "Step 5 · Overview"
+   ],
+   [
+    "model",
+    "Overall, internet use shifted strongly from information and work towards entertainment. Social media replaced news as the largest single activity, and together with video streaming it came to account for almost two-thirds of all online time by 2023."
+   ],
+   [
+    "h2",
+    "Step 6 · Body — \"what rose\" and \"what fell\""
+   ],
+   [
+    "model",
+    "In 2015 social media took up a quarter of people's time online, but by 2023 this had risen to 40%, the largest share on either chart. Video streaming showed a similar pattern, growing from 15% to a quarter, and online shopping increased more modestly, from 10% to 15%.\n\nThe two remaining categories moved in the opposite direction. Reading news and looking for information, which had been the biggest activity in 2015 at 30%, fell to just 12% eight years later. The decline in email and work-related use was even steeper in relative terms, from a fifth of online time to only 8%."
+   ],
+   [
+    "note",
+    "**Common mistakes in pie charts:**\n▸ \"The pie chart increased\" — a pie does not grow; the **share** of a **segment** grows.\n▸ Saying \"which was 100%\" or adding up the segments to prove the total.\n▸ rose/fell on a single pie (with no time comparison) — write is the largest, accounts for.\n▸ Percentage point: 25% → 40% is \"a rise of 15 percentage points\", not \"15 percent\".\n▸ One whole pie, then the other whole pie — always compare the two pies segment by segment."
+   ]
+  ]
+ },
+ {
+  "id": "t1_combination",
+  "title": "Combination — two different visuals together",
+  "blocks": [
+   [
+    "p",
+    "Sometimes you are given two visuals — for example a bar chart (total numbers) and a pie chart (the breakdown for one year), or a map + a table. The rules:"
+   ],
+   [
+    "ul",
+    [
+     "The introduction covers both visuals, in one or two sentences.",
+     "The overview gives one main point from each visual.",
+     "One body paragraph for each visual. Make comparisons within the same visual; do not compare across the two visuals — unless the question itself links them (e.g. the pie is the breakdown of the bar chart's last year — then you can link them).",
+     "Give the two roughly equal words. Many students spend everything on the first visual and write two lines on the second."
+    ]
+   ],
+   [
+    "ex",
+    "The bar chart shows the number of visitors to the National Science Museum from 2015 to 2020, and the pie chart shows where these visitors came from in 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p040_1.png",
+    "Visitors to the National Science Museum · Where 2020 visitors came from"
+   ],
+   [
+    "h2",
+    "Steps 1–3"
+   ],
+   [
+    "ul",
+    [
+     "Bar: rose for five years in a row (420 → 600), then a collapse in 2020 (210 — one third of 2019).",
+     "Pie: of the 2020 visitors, 55% local, 30% from elsewhere in the country, 15% foreign → 85% domestic.",
+     "The two visuals are linked (pie = the 2020 bar), so you can say \"of those 210,000…\"."
+    ]
+   ],
+   [
+    "h2",
+    "Full answer (172 words)"
+   ],
+   [
+    "model",
+    "The bar chart records annual attendance at the National Science Museum from 2015 to 2020, while the pie chart shows the breakdown of the 2020 audience by place of origin.\n\nOverall, five consecutive years of growth were abruptly reversed in 2020, when visitor numbers fell to their lowest level of the period. That diminished audience was overwhelmingly domestic, with residents of the host city alone accounting for more than half of all visits.\n\nAttendance rose without interruption from 420,000 in 2015 to 600,000 in 2019, a cumulative increase of 43%. Growth was most rapid in the middle of the period, with gains of around 50,000 to 60,000 a year in 2017 and 2018, before slowing slightly in 2019. The following year saw a dramatic collapse to 210,000, roughly a third of the 2019 peak and half the 2015 starting figure.\n\nOf these visitors, 55% were local and a further 30% travelled from other parts of the country, meaning that domestic visitors made up 85% of the total. International tourists represented the remaining 15%, equivalent to a little over 30,000 people."
+   ],
+   [
+    "p",
+    "Notice the last paragraph: 15% × 210,000 ≈ 31,500 — the two visuals have been linked correctly because the pie is for that same year. But you could not write \"Local visitors increased\" — there is no 2015 pie, so there is no data to compare. Never write what is not in the chart; and \"probably because of the pandemic\" — that is opinion, forbidden."
+   ],
+   [
+    "h",
+    "Bar · Table · Pie · Combination checklist"
+   ],
+   [
+    "ul",
+    [
+     "Decided: comparison or trend (or both)?",
+     "Before writing, marked the highest, the lowest, the biggest change and the exceptions.",
+     "Overview has the leader and the main pattern, without numbers.",
+     "Arranged the data by behaviour, not in reading order.",
+     "Wherever possible, expressed numbers as relationships (double, a third, level with).",
+     "Pie: compared the pies segment by segment; words of proportion; rose/fell only for comparisons over time.",
+     "Combination: each visual has its own paragraph; cross-comparison only if the question links them; words shared equally.",
+     "No opinion, no information from outside the chart."
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "t1_process",
+  "title": "Part C — Flow Chart (Process) · Cycle · Diagram",
+  "blocks": [
+   [
+    "p",
+    "These types have no numbers. So there is no trend either. Here you describe stages (process), parts and how they relate (diagram), or changes to a place (map). The paragraph template is the same: introduction → overview → two body paragraphs."
+   ],
+   [
+    "h",
+    "Flow Chart / Process — step by step"
+   ],
+   [
+    "h2",
+    "What to look at first"
+   ],
+   [
+    "ul",
+    [
+     "How many stages are there? Where does it start, where does it end?",
+     "Linear (start → end) or cycle (the end returns to the start)?",
+     "Man-made (a factory process) or natural (the water cycle, an animal's life cycle)?",
+     "Are there clear sections (segments)? If so, each section is one body paragraph.",
+     "Which labels are nouns that need to be turned into verbs? (\"crushing\" → is crushed)"
+    ]
+   ],
+   [
+    "h2",
+    "Language"
+   ],
+   [
+    "table",
+    [
+     "Topic",
+     "Rule / words"
+    ],
+    [
+     [
+      "Tense",
+      "Present simple (there are usually no years)."
+     ],
+     [
+      "Voice",
+      "Man-made process → passive (the beans are roasted). Natural process → active (water evaporates)."
+     ],
+     [
+      "Sequencer",
+      "First / To begin with · Next · Then · After that · Once this is complete · At the following stage · Subsequently · Meanwhile · In the final stage · Finally"
+     ],
+     [
+      "Process verb",
+      "is collected, sorted, cleaned, washed, mixed, heated, cooled, pressed, dried, cut, packed, transported, stored, filtered, separated · is converted into · passes through · is fed into · is removed / added"
+     ],
+     [
+      "Purpose",
+      "in order to · so that · which allows / enables … to …"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "Example — linear, man-made"
+   ],
+   [
+    "ex",
+    "The diagram shows how olive oil is produced."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p043_1.png",
+    "How olive oil is produced"
+   ],
+   [
+    "h2",
+    "Steps 1–3 · Understand"
+   ],
+   [
+    "ul",
+    [
+     "9 stages, linear (harvesting → bottling), man-made, so passive + present.",
+     "Natural division: stages 1–5 = preparing and crushing the olives; stages 6–9 = separating and packing the oil. → two body paragraphs.",
+     "From label to verb: harvesting → are harvested; washing → are washed; crushing → are crushed; mixing → is stirred; bottling → is bottled."
+    ]
+   ],
+   [
+    "h2",
+    "Step 4 · Introduction"
+   ],
+   [
+    "p",
+    "In a process introduction, say: what is produced / how it works + how many stages."
+   ],
+   [
+    "model",
+    "The diagram illustrates the nine stages involved in turning freshly picked olives into bottled olive oil."
+   ],
+   [
+    "h2",
+    "Step 5 · Overview"
+   ],
+   [
+    "p",
+    "In the overview: linear or cycle, natural or man-made, how many main phases, what the start and end are."
+   ],
+   [
+    "model",
+    "Overall, this is a linear, man-made process in three main phases: the olives are first cleaned, then crushed and mixed to release the oil, and finally the oil is separated, filtered and packaged."
+   ],
+   [
+    "h2",
+    "Step 6 · Body — following the arrows"
+   ],
+   [
+    "model",
+    "The process begins when olives are harvested from the trees between October and December. Any leaves and twigs are removed, and the fruit is washed. The clean olives are then crushed into a thick paste, which is stirred slowly for about thirty minutes so that the tiny drops of oil combine into larger ones.\n\nNext, the paste is placed in a centrifuge, which spins it at high speed to separate the oil from the water and solid matter. The oil that comes out is filtered to remove any remaining particles and stored in stainless steel tanks. In the final stage, it is poured into bottles, ready for sale."
+   ],
+   [
+    "p",
+    "(163 words including the intro/overview. Notice: every stage is passive; variety in the sequencers — begins when, then, which, next, in the final stage; \"so that the tiny drops…\" — you can write this if it is in the diagram's labels, not if it isn't.)"
+   ],
+   [
+    "note",
+    "**Common mistakes in a process:**\n▸ Adding information that is not in the diagram (what temperature, how long) — only if it is in a label.\n▸ Explaining why a stage happens, if the diagram does not say.\n▸ Trend words (increase, decrease) — there are no numbers.\n▸ \"Then… Then… Then…\" — vary the sequencers.\n▸ Leaving out the overview — state the number of stages, the start, the end, whether it is a cycle."
+   ],
+   [
+    "h",
+    "Cycle — a life cycle or a natural cycle"
+   ],
+   [
+    "p",
+    "A cycle has no real \"start\". So choose a logical starting point (evaporation in the water cycle; the egg for an insect), say clearly that it is a cycle, and join the last stage back to the first. Natural process → active voice, present simple."
+   ],
+   [
+    "ex",
+    "The diagram shows the life cycle of a butterfly."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p045_1.png",
+    "Life cycle of a butterfly"
+   ],
+   [
+    "h2",
+    "Full answer (158 words)"
+   ],
+   [
+    "model",
+    "The diagram illustrates the four stages in the life of a butterfly, from egg to adult.\n\nOverall, this is a natural, continuous cycle in which an egg develops through a feeding stage and a resting stage into an adult insect, which in turn produces new eggs, so the process never ends.\n\nThe cycle begins when an adult butterfly lays its eggs on the leaf of a plant. After a few days, a caterpillar hatches from each egg and spends the following two to three weeks eating leaves and growing rapidly. Once it is fully grown, the caterpillar attaches itself to a stem and forms a hard protective case known as a chrysalis.\n\nInside this case, over a period of roughly two weeks, the insect's body is completely transformed. Eventually an adult butterfly breaks out of the chrysalis. Finally, the adult finds a mate and lays eggs of its own on a fresh leaf, and the cycle begins again."
+   ],
+   [
+    "p",
+    "Notice: active voice (lays, hatches, spends, attaches, breaks out); returning to the start with \"and the cycle begins again\"; the time information (two to three weeks, two weeks) comes from the diagram's labels."
+   ],
+   [
+    "h",
+    "Diagram — how something works"
+   ],
+   [
+    "p",
+    "A diagram shows the parts of a machine or system and how they are connected. It is just like a process, but along with the order you also have to state the position."
+   ],
+   [
+    "h2",
+    "The language of parts and position"
+   ],
+   [
+    "table",
+    [
+     "Purpose",
+     "phrase"
+    ],
+    [
+     [
+      "Structure",
+      "consists of · is made up of · comprises · has three main parts"
+     ],
+     [
+      "Connection",
+      "is attached to · is connected to · is linked to · is mounted on · is fitted with · runs from … to …"
+     ],
+     [
+      "Position",
+      "is located above / below / beside / inside / on top of · at the base of · to the left / right of · in the centre"
+     ],
+     [
+      "Flow",
+      "flows through · passes through · enters / exits at · is fed into · is pumped / carried / channelled to · rises / falls"
+     ],
+     [
+      "Function",
+      "which allows … to · so that · in order to · this prevents / ensures …"
+     ]
+    ]
+   ],
+   [
+    "ex",
+    "The diagram shows how a rainwater harvesting system works in a school."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p046_1.png",
+    "Rainwater harvesting system for a school"
+   ],
+   [
+    "h2",
+    "Steps 1–3 · Understand"
+   ],
+   [
+    "ul",
+    [
+     "Parts: roof → gutter → downpipe (leaf filter) → first-flush diverter → underground tank (10,000 L) → pump → overhead tank → toilets & garden taps; overflow pipe → drain.",
+     "There is an order following the path of the water, so we write it like a process; plus where each thing is (underground, overhead, on the roof).",
+     "Two body paragraphs: (1) collection and cleaning (roof → tank), (2) storage and use (tank → taps)."
+    ]
+   ],
+   [
+    "h2",
+    "Full answer (170 words)"
+   ],
+   [
+    "model",
+    "The diagram illustrates the components of a rainwater collection system installed at a school and shows how rain falling on the roof is stored and reused.\n\nOverall, water is collected from the roof, cleaned in two stages, stored in an underground tank and then pumped to a rooftop tank, from which it supplies the school's toilets and garden taps.\n\nRain that lands on the sloping roof runs into a gutter along its edge and then down a vertical pipe fitted with a filter that catches leaves. Below this, a device known as a first-flush diverter sends the first, dirtiest water to the drain and allows the rest to continue into a 10,000-litre tank buried underground.\n\nWhen water is needed, an electric pump located beside the tank lifts it through a pipe to a smaller tank on the roof of the building. From there it flows by gravity to the toilets and the garden taps. If the underground tank becomes full, an overflow pipe carries the excess water to the drain."
+   ],
+   [
+    "p",
+    "If the task has two designs (e.g. two kinds of bridge or two kinds of foundation), describe each one briefly and then compare them — the differences are then the main feature."
+   ]
+  ]
+ },
+ {
+  "id": "t1_map",
+  "title": "Map — step by step",
+  "blocks": [
+   [
+    "h2",
+    "Three kinds of map task"
+   ],
+   [
+    "table",
+    [
+     "Type",
+     "Task",
+     "Tense"
+    ],
+    [
+     [
+      "The same place, two times (most common)",
+      "Describe the changes",
+      "Past (was built), or present perfect (has been built) if the second map is \"today/now\""
+     ],
+     [
+      "The current situation + a proposed plan",
+      "What is there now, what will happen under the plan",
+      "Present + future (will be / is to be / is going to be built)"
+     ],
+     [
+      "Two possible locations (site A, site B)",
+      "Compare the features of the two sites (distance, access, size)",
+      "Present"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "How to work"
+   ],
+   [
+    "ul",
+    [
+     "Find the compass (usually north is at the top). Find landmarks that appear on both maps (a river, the main road) — you need these to give directions.",
+     "Make a list: what has disappeared, what is new, what has changed in size or use, what is unchanged.",
+     "Group the changes: by area (north/south, centre/edge) or by type (housing, transport, green areas).",
+     "Overview = the overall character of the change: more built-up / larger / more modern / farmland turned into housing / expanded eastwards."
+    ]
+   ],
+   [
+    "h",
+    "The language of maps"
+   ],
+   [
+    "table",
+    [
+     "Purpose",
+     "Words / phrases"
+    ],
+    [
+     [
+      "Verbs of change (passive, past)",
+      "was built / constructed / added / extended / enlarged / expanded · was demolished / removed / knocked down / cleared / cut down · was replaced by / converted into / turned into / redeveloped as · was relocated / moved to"
+     ],
+     [
+      "Position",
+      "in the north-east corner · along the river / coast · on the western edge · on the outskirts · adjacent to · next to · opposite · in the centre · on the site of the old … · to the south of · running from north to south · across the road from"
+     ],
+     [
+      "Unchanged",
+      "remained / was retained / was kept / stayed in place / was unchanged / still exists"
+     ],
+     [
+      "Size",
+      "doubled in size · was reduced by half · now covers … · a much larger …"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "Example — the same place, two times"
+   ],
+   [
+    "ex",
+    "The maps show the coastal town of Seabrook in 1980 and today."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p049_1.png",
+    "Seabrook, 1980 · Seabrook, today"
+   ],
+   [
+    "h2",
+    "Steps 1–3 · List of changes"
+   ],
+   [
+    "table",
+    [
+     "Disappeared",
+     "New",
+     "Changed",
+     "Unchanged"
+    ],
+    [
+     [
+      "farmland (in the south); half of the forest",
+      "hotels (on the beach); housing estate; shopping centre; ring road; golf course; ferry terminal",
+      "harbour enlarged; school doubled",
+      "main road; houses; beach; the rest of the forest"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "Groups: (1) the coast and harbour (east/north-east), (2) the south and the centre. Overview: small fishing village → large tourist and residential town; the main road and the old houses remain."
+   ],
+   [
+    "h2",
+    "Full answer (186 words)"
+   ],
+   [
+    "model",
+    "The two maps show how the coastal town of Seabrook has developed since 1980.\n\nOverall, the town has grown from a small fishing settlement into a much larger tourist and residential centre. Most of the change has taken place along the coast and on the former farmland to the south, while the original main road and the houses beside it have been kept.\n\nThe greatest transformation is along the eastern shore. The beach, which in 1980 was undeveloped, is now lined with hotels, and the fishing harbour in the north-east has been extended to include a ferry terminal.\n\nSouth of the main road, the farmland has disappeared completely and has been replaced by a housing estate and a shopping centre, served by a new ring road that curves around the southern edge of the town. In the south-west, about half of the forest has been cut down to make way for a golf course. In the centre, the school has been enlarged to roughly twice its original size, but the original houses along the main road remain as they were."
+   ],
+   [
+    "p",
+    "Notice: (1) the 1980 map is not described separately — only the changes; (2) a direction in every sentence (eastern shore, north-east, south of, south-west, in the centre); (3) present perfect because of \"today\" (has been extended, has disappeared); (4) the unchanged things are mentioned too."
+   ],
+   [
+    "note",
+    "**Common mistakes in maps:**\n▸ All of map 1, then all of map 2 — that is two inventories, not a comparison.\n▸ Tense: a map of the past → past; a plan → future (will be built / is to be built).\n▸ Not giving directions — reading \"there is a school and a road\", the reader understands nothing.\n▸ Forgetting the unchanged things — \"what has stayed the same\" is part of the overview.\n▸ \"The town developed because tourists came\" — the reason is not in the chart; it is opinion."
+   ],
+   [
+    "h",
+    "Process · Cycle · Diagram · Map checklist"
+   ],
+   [
+    "ul",
+    [
+     "Process: number of stages, start and end, linear/cycle — in the overview.",
+     "Process: present simple; man-made → passive, natural → active; variety in sequencers.",
+     "Diagram: names of the parts, position, order of the flow.",
+     "Map: the changes (not two inventories); compass directions; mention the unchanged things.",
+     "Added nothing that is not in the visual; no opinion.",
+     "150–190 words, 20 minutes."
+    ]
+   ],
+   [
+    "p",
+    "This part completes all the Task 1 types. In the next chapter: Band 5, 6, 7, 8 answers written by students for each type, with discussion."
+   ]
+  ]
+ },
+ {
+  "id": "t1_sample_lessons",
+  "title": "Key lessons from Chapter 3 — all types together",
+  "blocks": [
+   [
+    "table",
+    [
+     "Signs of Band 5",
+     "Signs of Band 6",
+     "Signs of Band 7",
+     "Signs of Band 8"
+    ],
+    [
+     [
+      "Introduction copied · no overview, or overview at the end · data dump / inventory · \"There is\" / \"Then\" again and again · opinion or guesswork · agreement and passive errors",
+      "Paraphrase · overview present · accurate information · ordinary words · connectives correct but mechanical · few errors, limited range · a comment somewhere",
+      "Pattern in the overview · numbers as proportions · paragraphs by group/area · precise words · complex sentences correct · a rare slip (one guess)",
+      "Synthesis · every number/part inside a comparison · invisible linking · flawless collocation · error-free"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "Next chapter: Writing Task 2."
+   ]
+  ]
+ }
+]

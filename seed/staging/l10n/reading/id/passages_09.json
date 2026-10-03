@@ -1,0 +1,474 @@
+[
+ {
+  "id": "rb_flowchart_completion_05",
+  "lesson": {
+   "title": "Tahap yang punya nama (Named stages)",
+   "text": "Banyak passage tentang proses memberi setiap tahap sebuah nama teknis (coagulation, flocculation, sedimentation). Flow-chart bisa mencetak namanya lalu menanyakan detailnya, atau mencetak detailnya lalu menanyakan namanya. Saat membaca, tandai setiap tahap yang punya nama di passage; jawabannya biasanya ada di sentence yang memperkenalkan atau menjelaskan nama itu.",
+   "example": "Passage: \"In the final stage, called glazing, the pot is coated with liquid glass.\" Box: \"(1) ______: pot coated with liquid glass\". Jawaban: glazing."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage (direct match).",
+   "2": "\"Aluminium or iron\" sudah ada di box, jadi cukup tulis salts.",
+   "3": "\"Called\" di box sama artinya dengan \"known as\" di passage — inilah paraphrase-nya.",
+   "4": "Floc yang berat tenggelam dan menjadi sludge, lalu sludge itu dibuang.",
+   "5": "\"Sand, gravel and sometimes\" sudah ada di box, jadi jawabannya kata yang tersisa, yaitu charcoal.",
+   "6": "\"Usually\" di box adalah paraphrase dari \"most common\" di passage. \"Ozone\" dan \"ultraviolet light\" adalah cara lain yang dipakai beberapa instalasi, jadi bukan jawabannya.",
+   "7": "Ini cocok langsung dengan passage (direct match)."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_06",
+  "lesson": {
+   "title": "Word bank dengan option yang mirip (Word banks with similar options)",
+   "text": "Sebuah word bank bisa berisi dua option yang artinya mirip, misalnya \"kiln\" dan \"oven\", atau \"frost\" dan \"wind\". Hanya satu yang cocok dengan apa yang benar-benar dikatakan passage. Jika dua option sama-sama tampak mungkin, kembali ke sentence di passage dan pilih yang didukung oleh passage, bukan yang terdengar paling masuk akal.",
+   "example": "Passage: \"The pots are dried in the sun.\" Options: A sun B fire. Jawaban: A, meskipun pot itu nanti juga dibakar."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage (direct match).",
+   "2": "J (wind) jenisnya mirip, tetapi tidak disebut di passage.",
+   "3": "Sand juga dipakai untuk menaburi cetakan, tetapi di sini sand cocok dengan tahap pencampuran.",
+   "4": "Ini adalah metode pembuatan dengan tangan.",
+   "5": "Ini adalah metode extrusion.",
+   "6": "H (melting) tidak disebut di passage.",
+   "7": "B (oven) artinya mirip, tetapi passage mengatakan kiln."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_07",
+  "lesson": {
+   "title": "Ikuti branch yang benar (Follow the right branch)",
+   "text": "Jika flow-chart bercabang, setiap branch dimulai dengan sebuah kondisi, misalnya \"star similar to the Sun\" atau \"star over eight times the Sun's mass\". Passage biasanya menjelaskan satu branch sampai selesai, lalu branch yang lain, sering dengan kata seperti \"by contrast\", \"however\" atau \"for larger stars\". Sebelum menjawab gap di sebuah branch, cari sentence di passage yang cocok dengan kondisi di bagian atas branch itu.",
+   "example": "Branch: \"small dogs: live about (1) ______ years\". Passage: \"Large breeds live around eight years, whereas small breeds often reach fifteen.\" Jawaban: fifteen, bukan eight."
+  },
+  "explanations": {
+   "1": "Gelombang kejut dari bintang yang meledak mungkin memulai prosesnya, tetapi keruntuhannya sendiri terjadi \"under gravity\", dan inilah yang cocok dengan box.",
+   "2": "\"At the centre\" sudah ada di box. Pada tahap ini ia belum menjadi \"main-sequence star\".",
+   "3": "\"Nuclear\" sudah ada di box.",
+   "4": "\"Converted into\" sama artinya dengan \"join together to form\". Iron baru dihasilkan nanti, dan hanya di bintang yang sangat besar.",
+   "5": "Branch kiri adalah bintang yang mirip Matahari. Yang membentuk \"planetary nebula\" adalah lapisan luarnya, bukan intinya.",
+   "6": "Branch kanan adalah bintang yang massanya lebih dari delapan kali massa Matahari.",
+   "7": "\"Neutron star\" sudah ada di box."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_08",
+  "lesson": {
+   "title": "Saat passage tidak berurutan waktu (When the passage is not in chronological order)",
+   "text": "Pada passage tingkat sedang dan sulit, penulis mungkin tidak menjelaskan proses secara berurutan. Sebuah paragraph bisa menyebut tahap yang lebih akhir sebelum tahap yang lebih awal, atau menambahkan informasi latar belakang di antara tahap-tahap. Gunakan flow-chart, bukan passage, untuk menentukan urutan kejadian, dan cari kata penunjuk waktu seperti \"before\", \"once\", \"only after\" dan \"at the final stage\" untuk menempatkan setiap detail.",
+   "example": "Passage: \"Before the concert, the orchestra rehearses for weeks. The players are chosen by audition.\" Urutan di flow-chart: audition → rehearsal → concert."
+  },
+  "explanations": {
+   "1": "Noun tunggal cocok setelah \"a\". \"Methods, results and conclusions\" adalah bagian-bagian dari manuscript.",
+   "2": "\"A large proportion\" sama artinya dengan \"many papers\".",
+   "3": "\"Independent\" sudah ada di box, jadi menulis \"independent specialists\" berarti mengulang kata.",
+   "4": "Verb \"evaluate\" ada di box. \"Methods\" dan \"conclusions\" juga sudah ada di box.",
+   "5": "\"Request\" sama artinya dengan \"ask\". Paragraph C mengatakan bahwa reviewer tidak bisa mengulang eksperimen sendiri, dan itu adalah poin yang berbeda.",
+   "6": "Ini adalah pilihan ketiga dari editor.",
+   "7": "\"Detailed\" sudah ada di box."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_09",
+  "lesson": {
+   "title": "Memilih di antara angka yang mirip (Choosing between similar numbers)",
+   "text": "Passage tentang proses sering berisi beberapa angka untuk tahap yang berbeda, misalnya waktu untuk satu langkah dan waktu untuk seluruh proses. Sebelum menulis sebuah angka, baca kata-kata di sekitarnya di passage dan pastikan kata-kata itu menjelaskan tahap yang sama dengan box. Kata seperti \"in total\", \"the whole process\" dan \"this stage alone\" adalah tanda penting.",
+   "example": "Passage: \"Drying takes ten days; the whole process lasts a month.\" Box: \"leaves dried for (1) ______ days\". Jawaban: 10."
+  },
+  "explanations": {
+   "1": "\"West bank\" sudah ada di box.",
+   "2": "\"Hook\" sudah ada di box.",
+   "3": "\"Jars\" sudah ada di box, jadi jawabannya hanya adjective-nya.",
+   "4": "\"Salt\" adalah kata yang lebih umum; passage menyebut nama zat itu natron, dan itulah jawaban yang tepat.",
+   "5": "70 hari adalah waktu untuk seluruh proses, bukan untuk tahap pengeringan.",
+   "6": "\"Linen\" sudah ada di box. \"Leaves\" hanya dipakai \"sometimes\"; \"sawdust\" adalah benda yang disebut bersama linen.",
+   "7": "Topeng diletakkan di atas wajah, bukan di antara lapisan-lapisan."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_10",
+  "lesson": {
+   "title": "Word bank yang menguji paraphrase dan word form (Word banks that test paraphrase and word form)",
+   "text": "Pada tingkat sedang, option di word bank jarang memakai kata yang sama dengan passage. \"Rises\" bisa muncul sebagai \"builds\", dan \"destroyed\" sebagai \"killed\". Beberapa option juga menjadi distractor karena word form-nya salah: adjective tidak bisa mengisi gap yang membutuhkan verb. Periksa grammar setiap box sebelum Anda melihat daftar option.",
+   "example": "Box: \"the mixture (1) ______ overnight\". Options: A thickens B thick. Hanya A, sebuah verb, yang cocok."
+  },
+  "explanations": {
+   "1": "J (browns) adalah bahan yang kaya karbon, yaitu bagian lain dari campuran.",
+   "2": "\"Builds\" adalah paraphrase dari \"rises\", dan merupakan verb yang cocok setelah \"heat\".",
+   "3": "Bentuk passive \"are killed\" cocok dengan box. C (preserved) artinya berlawanan.",
+   "4": "Mikroorganisme \"need oxygen\", dan membalik tumpukan membuat udara masuk. G (water) hanya ditambahkan \"if the heap is too dry\", dan itu bukan alasan membalik tumpukan.",
+   "5": "Verb-nya cocok, dan urutan waktunya benar.",
+   "6": "Ini cocok langsung dengan passage (direct match).",
+   "7": "\"Water\" sudah ada di box, jadi G tidak mungkin jawabannya."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_11",
+  "lesson": {
+   "title": "Tiga branch, masing-masing satu gap (Three branches, one gap each)",
+   "text": "Beberapa flow-chart terbagi menjadi tiga branch atau lebih, satu untuk setiap produk atau hasil, lalu bergabung lagi. Passage biasanya menjelaskan semua branch dalam satu paragraph, sering dalam bentuk daftar. Cocokkan setiap branch dengan sentence-nya sendiri, dan berhati-hatilah dengan angka dan kondisi penyimpanan, karena ketiga branch akan berisi informasi yang mirip.",
+   "example": "Passage: \"Apples keep for months in a cold store; strawberries last only two days.\" Branch: \"strawberries: last (1) ______\". Jawaban: two days."
+  },
+  "explanations": {
+   "1": "\"Level\" sudah ada di box.",
+   "2": "\"A little under a pint\" lebih dari dua kata dan hanya perkiraan; satuannya harus ditulis bersama angkanya.",
+   "3": "\"Hepatitis and HIV\" hanya contoh; noun yang umum yang cocok setelah \"screened for\".",
+   "4": "\"Spun\" sudah ada di box.",
+   "5": "Ini cocok langsung dengan passage (direct match).",
+   "6": "Branch tengah adalah plasma; red cells disimpan di lemari pendingin.",
+   "7": "Branch kanan adalah platelets; 35 hari adalah angka untuk red cells.",
+   "8": "Di sini semua branch bergabung lagi."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_12",
+  "lesson": {
+   "title": "Kosakata teknis (Technical vocabulary)",
+   "text": "Passage tentang kerajinan dan teknologi sering memperkenalkan istilah khusus yang dijelaskan dalam sentence yang sama (\"a thin strip called the purfling\"). Jika flow-chart memberi deskripsinya, jawabannya adalah istilah teknisnya; jika flow-chart memberi istilahnya, jawabannya adalah bagian dari deskripsinya. Baca kedua bagian penjelasan itu di passage.",
+   "example": "Passage: \"The potter uses a wheel-head, the flat disc that spins.\" Box: \"clay placed on the (1) ______\". Jawaban: wheel-head."
+  },
+  "explanations": {
+   "1": "\"Spruce\" sudah ada di box untuk bagian atas (top).",
+   "2": "\"Stored for years\" sudah ada di box sebagai penjelasannya, jadi jawabannya adalah istilah yang didefinisikan oleh passage.",
+   "3": "\"Hot iron\" sudah ada di box.",
+   "4": "\"Test\" adalah paraphrase dari \"listens to\".",
+   "5": "\"Bar\" sudah ada di box.",
+   "6": "\"Inlay\" adalah deskripsinya, jadi jawabannya adalah istilah teknisnya.",
+   "7": "Ini cocok langsung dengan passage (direct match)."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_13",
+  "lesson": {
+   "title": "Rantai sebab-akibat (Cause-and-effect chains)",
+   "text": "Proses alam sering dijelaskan sebagai rantai sebab dan akibat: A menyebabkan B, lalu B menyebabkan C. Kata seperti \"as a result\", \"this means that\", \"so\" dan \"when\" menghubungkan tahap-tahapnya. Di flow-chart, setiap panah mewakili salah satu hubungan ini. Jika Anda ragu dengan sebuah jawaban, tanyakan: apa yang menyebabkan tahap ini, dan apa yang disebabkannya sesudahnya?",
+   "example": "Passage: \"Heavy rain raised the river, so the fields flooded.\" Flow-chart: heavy rain → river rises → fields (1) ______ Jawaban: flooded."
+  },
+  "explanations": {
+   "1": "\"Air and soil\" sudah ada di box.",
+   "2": "Walaupun \"acid\" sudah ada di box, nama asam itu adalah istilah dua kata \"carbonic acid\".",
+   "3": "\"Joints\" sudah ada di box.",
+   "4": "\"Most rapid\" sama artinya dengan \"fastest\".",
+   "5": "Verb ini cocok dengan grammar box, yaitu sebelum \"and fill with air\".",
+   "6": "Stalactites tumbuh ke bawah dari atap gua dan sudah ada di box.",
+   "7": "\"column\" maupun \"single column\" sama-sama sesuai dengan word limit dan cocok dengan grammar setelah \"a\"."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_14",
+  "lesson": {
+   "title": "Word limit yang lebih panjang (Longer word limits)",
+   "text": "Dengan NO MORE THAN THREE WORDS AND/OR A NUMBER, Anda boleh menulis frasa pendek, tetapi tetap tulis frasa terpendek yang sudah menjawab gap secara lengkap. Angka harus ditulis bersama satuannya jika satuan itu tidak ada di box. Kata tambahan dari passage tidak memberi nilai, dan jika melewati word limit, nilai hilang walaupun kata kuncinya benar.",
+   "example": "Box: \"water heated to (1) ______\". Passage: \"heated to 90 degrees Celsius\". Jawaban: 90 degrees Celsius / 90°C."
+  },
+  "explanations": {
+   "1": "Satuannya tidak ada di box, jadi satuan itu harus ditulis.",
+   "2": "\"Tall steel tower\" adalah deskripsinya; nama alat itulah jawaban yang tepat. \"Tall\" dan \"60 m\" sudah ada di box.",
+   "3": "\"According to their\" sudah ada di box.",
+   "4": "Kerosene dan diesel dikumpulkan \"further down\", bukan di bagian atas.",
+   "5": "Branch kanan adalah fraksi paling berat di bagian bawah.",
+   "6": "\"High temperatures\" sudah ada di box.",
+   "7": "\"Sulphur dioxide\" adalah gas yang dihasilkan saat pembakaran; kotoran yang dibuang dari bahan bakar adalah sulphur."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_15",
+  "lesson": {
+   "title": "Box yang di-paraphrase (Paraphrased boxes)",
+   "text": "Pada flow-chart yang sulit, box jarang memakai kata-kata dari passage. \"Trigger\" bisa menggantikan \"set off\", \"carry fragments to\" menggantikan \"transport pieces of ... to\", dan \"long-lived\" menggantikan \"persist for decades\". Cari makna setiap box, bukan kata-katanya. Setelah Anda menemukan sentence yang cocok, jawabannya tetap harus disalin persis dari passage.",
+   "example": "Box: \"the plan was (1) ______ because of cost\". Passage: \"the scheme was eventually abandoned as too expensive\". Jawaban: abandoned."
+  },
+  "explanations": {
+   "1": "\"Stomach\" sudah ada di box. Enzim adalah milik tears dan saliva, yang juga sudah ada di box.",
+   "2": "\"Trigger\" sama artinya dengan \"cause\". \"Innate immune response\" terdiri dari tiga kata, melewati word limit, dan itu adalah seluruh garis pertahanan kedua, bukan akibat yang dijelaskan di box.",
+   "3": "\"Carry\" sama artinya dengan \"travel with\". Phagocytes menelan mikroba, tetapi tidak membawanya ke lymph nodes.",
+   "4": "\"Activated\" sudah ada di box; verb yang mengikutinya adalah jawabannya.",
+   "5": "Branch kiri adalah B cells.",
+   "6": "\"Viruses inside them\" sudah ada di box, jadi jawabannya adalah sel-selnya (cells).",
+   "7": "\"Long-lived\" adalah paraphrase dari \"persist for decades\"."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_16",
+  "lesson": {
+   "title": "Proses panjang dengan informasi latar belakang (Long processes with background information)",
+   "text": "Passage yang sulit mencampur tahap-tahap proses dengan statistik, sejarah dan pendapat. Hanya sebagian sentence yang menjelaskan tahap-tahapnya. Skim passage terlebih dahulu dan tandai di mana setiap tahap dimulai; lalu abaikan sentence yang memberi latar belakang, seperti biaya dan kritik, kecuali ada box yang menanyakannya.",
+   "example": "Passage: \"Critics say the test is too expensive. In the test, samples are frozen.\" Box: \"samples (1) ______\". Jawaban: frozen. Sentence pertama hanya latar belakang."
+  },
+  "explanations": {
+   "1": "\"Plays a key role in\" sama artinya dengan \"involved in\". \"Disease\" adalah titik awalnya, bukan hal yang diidentifikasi.",
+   "2": "Kata yang memakai tanda hubung dihitung sebagai satu kata, jadi jawabannya masih dalam word limit.",
+   "3": "\"Selected\" adalah paraphrase dari \"most promising\". \"Preclinical\" saja tidak cocok setelah \"undergoes\", karena di situ dibutuhkan noun.",
+   "4": "\"Right\" sama artinya dengan \"correct\". \"Whether the drug works\" diuji di Phase II, bukan Phase I.",
+   "5": "\"Highest rate of\" adalah paraphrase dari \"the most\".",
+   "6": "\"Best existing treatment\" sudah ada di box.",
+   "7": "FDA dan EMA hanya contoh; istilah umumnya yang cocok dengan box dan word limit.",
+   "8": "\"Very rare\" sudah ada di box."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_17",
+  "lesson": {
+   "title": "Word bank dengan sinonim dekat dan lawan kata (Word banks with near-synonyms and opposites)",
+   "text": "Pada word bank yang sulit, beberapa option mungkin secara umum bisa dipakai, dan sebagian justru berlawanan dengan apa yang dikatakan passage. \"Conditions\" dan \"climates\" mungkin sama-sama tampak cocok, tetapi hanya satu yang sesuai dengan makna passage jika passage menyebut lebih dari sekadar iklim. \"Merged\" bisa muncul di tempat passage menjelaskan kelompok yang \"divided\". Selalu pastikan option itu dengan sebuah sentence tertentu di passage.",
+   "example": "Passage: \"The two companies split in 2010.\" Options: A joined B separated. Jawaban: B; A adalah kebalikannya."
+  },
+  "explanations": {
+   "1": "C (merged) menjelaskan hal yang berlawanan, yaitu yang terjadi ketika kelompok-kelompok itu bersatu kembali.",
+   "2": "\"Random\" sudah ada di box.",
+   "3": "\"By chance\" sama artinya dengan \"purely by luck\". I (selection) tidak bergantung pada kebetulan dan sudah ada di box berikutnya.",
+   "4": "G (climates) hanya salah satu dari kondisi-kondisi yang disebut.",
+   "5": "\"Available\" sudah ada di box.",
+   "6": "\"After long\" adalah paraphrase dari \"continues for long enough\".",
+   "7": "\"Introduce\" adalah paraphrase dari \"bringing\"."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_18",
+  "lesson": {
+   "title": "Flow-chart yang menggabungkan sejarah dan proses (Flow-charts that combine history and process)",
+   "text": "Beberapa flow-chart menunjukkan rangkaian kejadian dari waktu ke waktu, dari sebuah masalah ke solusinya dan akibat-akibatnya, bukan proses teknis. Flow-chart seperti ini bisa berisi tahun dan jumlah. Cari ungkapan waktu (by 1900, in 1909, four years later) dan kata sebab-akibat (as a result, consequently), lalu pastikan setiap tahun atau angka memang milik kejadian yang benar.",
+   "example": "Passage: \"The idea was proposed in 1901 but not tested until 1905.\" Box: \"first test: (1) ______\". Jawaban: 1905."
+  },
+  "explanations": {
+   "1": "\"Guano\" dan \"Chilean\" sudah ada di box.",
+   "2": "1909 adalah tahun kerja laboratorium Haber, yang sudah ada di box. 1898 adalah tahun peringatan Crookes.",
+   "3": "\"Mainly\" menunjuk ke natural gas; coal hanya dipakai di beberapa tempat.",
+   "4": "\"200\" saja tidak cocok secara grammar sebelum \"atmospheric pressure\"; kata \"times\" diperlukan. Suhunya (450°C) milik \"heated\", yang tidak punya gap.",
+   "5": "\"Separated\" adalah paraphrase dari \"removed\".",
+   "6": "\"About\" sudah ada di box, jadi \"half\" sudah cukup. \"Four billion\" adalah jumlah orang yang bisa dihidupi dunia tanpa proses ini.",
+   "7": "\"Algae\" sudah ada di box, dan akibat dari pembusukannya itulah jawabannya."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_19",
+  "lesson": {
+   "title": "Proses abstrak (Abstract processes)",
+   "text": "Proses ekonomi dan sosial tidak punya langkah fisik; tahap-tahapnya berupa perubahan perilaku, harga atau harapan. Passage bisa memakai banyak abstract noun (demand, confidence, expectations) yang tampak mirip. Tentukan besaran apa yang dijelaskan oleh setiap box, dan periksa arah perubahannya: naik atau turun, lebih banyak atau lebih sedikit.",
+   "example": "Passage: \"Higher taxes reduce spending, which lowers prices.\" Box: \"less (1) ______ → prices fall\". Jawaban: spending."
+  },
+  "explanations": {
+   "1": "\"Interest rate\" adalah istilah umum; box membutuhkan suku bunga khusus yang ditetapkan oleh bank sentral.",
+   "2": "\"In advance\" cocok dengan \"The effect begins even before the rate itself changes\".",
+   "3": "\"Loans\" sudah ada di box. Suku bunga yang dibayarkan kepada penabung adalah poin yang berbeda.",
+   "4": "Branch kanan adalah jalur mata uang (currency channel).",
+   "5": "\"Especially\" adalah paraphrase dari \"most\". Contoh-contohnya terlalu panjang dan terlalu spesifik untuk gap ini.",
+   "6": "\"Confidence\" juga disebut di paragraph ini, tetapi bukan itu yang menjadi lebih rendah.",
+   "7": "\"One\" sudah ada di box, jadi gap membutuhkan angka kedua beserta satuannya. \"Two per cent\" adalah target inflasi, bukan waktu.",
+   "8": "\"Unemployment rises\" sudah ada di box."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_20",
+  "lesson": {
+   "title": "Final review — menggabungkan semua skill (Final review — putting every skill together)",
+   "text": "Set terakhir ini menggabungkan tantangan utama Flow-chart Completion: box yang di-paraphrase, sebuah branch, beberapa angka, istilah teknis, informasi latar belakang dan word limit TWO WORDS AND/OR A NUMBER. Kerjakan secara sistematis: baca seluruh flow-chart, temukan awal proses di passage, perkirakan jenis setiap jawaban, periksa kondisi branch, pastikan setiap angka milik tahap yang benar, dan terakhir baca ulang setiap box yang sudah terisi untuk memeriksa grammar dan word limit.",
+   "example": "Branch: \"if no match → suspect (1) ______\". Passage: \"If the profiles differ, the suspect is ruled out.\" Jawaban: ruled out."
+  },
+  "explanations": {
+   "1": "\"Chain of\" sudah ada di box.",
+   "2": "\"Purified\" sudah ada di box; past participle cocok dengan pola \"DNA ______ and purified\".",
+   "3": "\"Polymerase chain reaction\" terdiri dari tiga kata dan melewati word limit, jadi singkatannya yang harus dipakai. Ini adalah trap yang umum di set yang sulit.",
+   "4": "\"About\" sama artinya dengan \"around\". \"Four\" dipakai pada sistem awal dan \"thirteen\" pada sistem lama di AS; keduanya tidak menjelaskan praktik saat ini.",
+   "5": "\"According to their\" sudah ada di box, jadi jawabannya adalah ciri-cirinya, bukan nama metodenya.",
+   "6": "\"National\" sudah ada di box.",
+   "7": "Branch kanan adalah hasil yang cocok (match). \"An\" sebelum gap membutuhkan kata yang diawali bunyi vokal, dan ini memastikan jawabannya \"unrelated\".",
+   "8": "\"Secondary\" sudah ada di box."
+  }
+ },
+ {
+  "id": "rb_diagram_label_01",
+  "lesson": {
+   "title": "Gunakan label yang sudah diberikan untuk menemukan posisi Anda (Use the given labels to find your place)",
+   "text": "Pada diagram yang mudah, passage menjelaskan sebuah benda bagian demi bagian, dan beberapa label sudah diberikan. Label yang sudah terisi ini adalah titik acuan (anchor): cari dulu label itu di passage, dan bagian yang hilang biasanya dijelaskan di sentence yang sama atau sentence berikutnya. Kata penunjuk posisi, seperti \"at the top\", \"around\" dan \"at the end of\", memberi tahu Anda letak setiap bagian.",
+   "example": "Label yang diberikan: \"handle\". Passage: \"The handle is fixed to a metal rod.\" Gap di sebelah handle: \"metal (1) ______\". Jawaban: rod."
+  },
+  "explanations": {
+   "1": "\"Metal\" dan \"running down the centre\" sudah ada di label.",
+   "2": "Label ini berada di sebelah label yang sudah diberikan, yaitu \"piston\", dan itu membantu Anda menemukan sentence yang tepat.",
+   "3": "\"Long outer tube\" menjelaskan barrel; jawabannya adalah nama bagian itu.",
+   "4": "\"One-way\" sudah ada di label. Bagian \"valve of the tyre\" adalah bagian yang berbeda.",
+   "5": "\"Nozzle\" berada di ujung hose, bukan bagian yang mengalirkan udara.",
+   "6": "\"Dial\" sudah ada di label, jadi jawabannya adalah nama bagian itu."
+  }
+ },
+ {
+  "id": "rb_diagram_label_02",
+  "lesson": {
+   "title": "Cross-section berlapis (Cross-sections with layers)",
+   "text": "Diagram berlapis menunjukkan sebuah struktur sebagai susunan lapisan dari atas ke bawah. Passage biasanya menjelaskan lapisan-lapisan itu secara berurutan, entah dari permukaan ke bawah atau dari tanah ke atas. Tentukan arah yang dipakai passage, lalu cocokkan setiap lapisan dengan paragraph-nya. Label bisa menanyakan nama lapisan, bahannya, ketebalannya atau fungsinya.",
+   "example": "Passage: \"Beneath the carpet lies a layer of foam, and below that, the wooden floor.\" Lapisan: carpet → (1) ______ → wooden floor. Jawaban: foam."
+  },
+  "explanations": {
+   "1": "\"mm\" sudah ada di label, jadi cukup tulis angkanya.",
+   "2": "\"Course\" sudah ada di label.",
+   "3": "\"Spreads\" dan \"of traffic\" sudah ada di label.",
+   "4": "\"Crushed\" sudah ada di label.",
+   "5": "\"Drain away\" terdiri dari dua kata dan melewati word limit ONE WORD, jadi tulis \"drain\".",
+   "6": "Passage menjelaskan lapisan dari bawah ke atas, tetapi diagram menunjukkannya dari atas ke bawah."
+  }
+ },
+ {
+  "id": "rb_diagram_label_03",
+  "lesson": {
+   "title": "Label yang menjelaskan fungsi (Labels that describe a function)",
+   "text": "Banyak label tidak menanyakan nama sebuah bagian, tetapi apa fungsinya atau apa isinya, misalnya \"where bees store (1) ______\". Jika ada word bank, cari bagian itu di passage, baca untuk apa bagian itu dipakai, lalu pilih option yang cocok dengan fungsinya. Option yang menyebut bagian lain dari benda itu adalah distractor yang umum.",
+   "example": "Label: \"drawer: used for storing (1) ______\". Passage: \"The top drawer holds cutlery.\" Options: A plates B cutlery. Jawaban: B."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage (direct match).",
+   "2": "A (pollen) tidak disebut di passage.",
+   "3": "D (workers) bisa lewat, jadi mereka tidak tertahan.",
+   "4": "Ini cocok langsung dengan passage (direct match).",
+   "5": "Label ini menjelaskan fungsi dari brood box.",
+   "6": "H (mice) adalah yang dihalangi oleh pintu masuk yang lebih sempit, bukan bagian itu sendiri."
+  }
+ },
+ {
+  "id": "rb_diagram_label_04",
+  "lesson": {
+   "title": "Bagian dalam dan bagian luar (Inside and outside)",
+   "text": "Jika diagram menunjukkan cross-section, sebagian bagian berada di depan atau di luar, dan sebagian lagi jauh di dalam. Passage biasanya mengikuti jalur sesuatu yang melewati benda itu: di sini, jalur cahaya. Ikuti jalur itu di passage dan di diagram secara bersamaan.",
+   "example": "Passage: \"Water enters through the tap, passes through a filter and leaves through the spout.\" Label di tengah: \"(1) ______\". Jawaban: filter."
+  },
+  "explanations": {
+   "1": "Label ini menjelaskan bagiannya, dan jawabannya adalah nama bagian itu.",
+   "2": "\"Iris\" adalah label yang sudah diberikan di sebelah gap.",
+   "3": "Cornea juga membelokkan cahaya, tetapi \"fine-tunes the focus\" cocok dengan lens.",
+   "4": "\"Ciliary\" sudah ada di label.",
+   "5": "Ini cocok langsung dengan passage (direct match).",
+   "6": "\"Optic\" sudah ada di label."
+  }
+ },
+ {
+  "id": "rb_diagram_label_05",
+  "lesson": {
+   "title": "Angka dan nama dalam diagram yang sama (Numbers and names in the same diagram)",
+   "text": "Beberapa label membutuhkan angka, seperti tinggi, jumlah atau tahun. Jika word limit mengizinkan angka, pastikan angka itu merujuk ke bagian yang sama dengan label. Passage tentang sebuah bangunan bisa memuat tinggi, jumlah lantai dan tahun pembangunan sekaligus dalam satu paragraph.",
+   "example": "Passage: \"The tower, built in 1820, has six floors and is 25 metres tall.\" Label: \"tower: (1) ______ floors\". Jawaban: six / 6."
+  },
+  "explanations": {
+   "1": "Label memberi fungsinya; jawabannya adalah namanya.",
+   "2": "\"Four\" sudah ada di label.",
+   "3": "\"Up to\" merujuk ke jumlah maksimum, yaitu sepuluh, bukan kisaran biasa empat sampai tujuh.",
+   "4": "Label ini menjelaskan posisi fantail.",
+   "5": "\"Sack\" sudah ada di label.",
+   "6": "\"Pair of\" sudah ada di label."
+  }
+ },
+ {
+  "id": "rb_diagram_label_06",
+  "lesson": {
+   "title": "Lawan kata di word bank (Opposites in the word bank)",
+   "text": "Word bank sering berisi option yang artinya berlawanan dengan jawaban yang benar, misalnya \"washed out\" dan \"deposited\", atau \"added\" dan \"removed\". Trap seperti ini berhasil karena kedua option berasal dari topik yang sama. Jika sebuah label menjelaskan proses, tentukan dengan teliti apakah sesuatu bertambah atau berkurang di lapisan itu.",
+   "example": "Passage: \"Rain removes salt from the upper layer.\" Label: \"upper layer: salt (1) ______\". Options: A added B removed. Jawaban: B."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage (direct match).",
+   "2": "H (roots) juga ada di topsoil, tetapi bukan itu yang membuat warnanya gelap.",
+   "3": "B (deposited) menjelaskan apa yang terjadi di B horizon, yaitu proses yang berlawanan. E (sand) adalah yang tertinggal.",
+   "4": "\"Iron\" sudah ada di label.",
+   "5": "\"Weathered parent\" sudah ada di label.",
+   "6": "Ini adalah lapisan paling bawah dari profil tanah."
+  }
+ },
+ {
+  "id": "rb_diagram_label_07",
+  "lesson": {
+   "title": "Istilah teknis yang mirip (Similar technical terms)",
+   "text": "Passage tentang bentuk alam sering berisi pasangan istilah yang mudah tertukar, misalnya \"magma\" (batuan cair di bawah tanah) dan \"lava\" (batuan cair di permukaan), atau \"main vent\" dan \"side vent\". Diagram menguji apakah Anda menyadari perbedaannya. Jika passage mendefinisikan sebuah istilah, garis bawahi definisinya dan bandingkan dengan teliti dengan posisi label.",
+   "example": "Passage: \"Groundwater lies below the surface; runoff flows over it.\" Label di permukaan: \"(1) ______\". Jawaban: runoff."
+  },
+  "explanations": {
+   "1": "Sebuah \"pyroclastic flow\" bergerak menuruni gunung, bukan naik ke langit.",
+   "2": "Label ini adalah definisinya, jadi jawabannya adalah istilahnya.",
+   "3": "\"Ash\" sudah ada di label. \"Lava\" saja juga benar, tetapi \"hardened lava\" adalah frasa lengkapnya dan masih dalam word limit.",
+   "4": "\"Main vent\" sudah diberikan; label ini berada di lereng gunung.",
+   "5": "Bentuk plural cocok dengan verb \"move\". Pyroclastic flows bergerak sangat cepat, bukan pelan.",
+   "6": "\"Narrow pipe\" sudah ada di label.",
+   "7": "Batuan cair di bawah tanah adalah \"magma\", bukan \"lava\", jadi \"lava chamber\" salah."
+  }
+ },
+ {
+  "id": "rb_diagram_label_08",
+  "lesson": {
+   "title": "Beberapa label dalam satu lapisan (Several labels in one layer)",
+   "text": "Dalam diagram berlapis, satu lapisan bisa punya dua label atau lebih: namanya, isinya dan fungsinya. Passage biasanya menjelaskan seluruh lapisan dalam satu paragraph, jadi baca paragraph itu dengan teliti dan cocokkan setiap label dengan detail yang berbeda. Jangan menulis nama lapisan jika label menanyakan isinya.",
+   "example": "Passage: \"The crust, the thinnest layer, is made of granite and basalt.\" Label: \"(1) ______: thinnest layer\" dan \"made of granite and (2) ______\". Jawaban: crust, basalt."
+  },
+  "explanations": {
+   "1": "\"Filled with keratin\" sudah ada di label; gap membutuhkan adjective yang menjelaskan sel-selnya.",
+   "2": "\"Melanin\" adalah yang mereka hasilkan, dan itu sudah ada di label.",
+   "3": "Label ini menyebutkan isinya, jadi jawabannya adalah nama lapisannya.",
+   "4": "\"Hair\" sudah ada di label.",
+   "5": "\"Subcutaneous\" adalah nama lain, tetapi \"subcutaneous layer\" terdiri dari dua kata.",
+   "6": "\"Fat\" adalah bahan pembentuk lapisan itu; yang disimpannya untuk tubuh adalah energy."
+  }
+ },
+ {
+  "id": "rb_diagram_label_09",
+  "lesson": {
+   "title": "Adjective dan noun (Adjectives and nouns)",
+   "text": "Sebuah label bisa membutuhkan adjective (\"thin and ______\") atau noun (\"packed with ______\"). Lihat kata-kata di kedua sisi gap. Dengan TWO WORDS, Anda mungkin perlu adjective dan noun sekaligus, seperti \"air spaces\". Pastikan jawaban Anda cocok dengan grammar label dan juga dengan maknanya.",
+   "example": "Label: \"walls are thick and (1) ______\". Passage: \"the walls are thick and waterproof\". Jawaban: waterproof (sebuah adjective, agar sepadan dengan \"thick\")."
+  },
+  "explanations": {
+   "1": "\"Waxy\" sudah ada di label.",
+   "2": "Adjective ini sepadan dengan \"thin and\".",
+   "3": "\"Chlorophyll\" adalah pigmen di dalam chloroplasts; sel-sel itu penuh dengan chloroplasts.",
+   "4": "Noun plural cocok dengan verb \"allow\".",
+   "5": "\"Water and minerals\" terdiri dari tiga kata dan melewati word limit, jadi tulis \"water\". \"Sugar\" dibawa oleh phloem, yang sudah ada di label.",
+   "6": "Label ini berada di lower epidermis, tempat yang menurut passage memiliki stomata paling banyak.",
+   "7": "\"Opened and closed by\" adalah paraphrase dari \"which open ... and close\"."
+  }
+ },
+ {
+  "id": "rb_diagram_label_10",
+  "lesson": {
+   "title": "Mengikuti aliran melalui sebuah struktur (Following the flow through a structure)",
+   "text": "Diagram pembangkit listrik, sistem air dan mesin sering menunjukkan sesuatu yang mengalir melewatinya: air, udara atau bahan bakar. Passage biasanya mengikuti jalur yang sama dari awal sampai akhir. Telusuri aliran itu dengan jari Anda di diagram sambil membaca, dan berhenti di setiap gap untuk menemukan bagian yang sedang dijelaskan passage pada titik itu.",
+   "example": "Passage: \"Air enters through the filter, passes the fan and leaves through the vent.\" Label di jalan keluar: \"(1) ______\". Jawaban: vent."
+  },
+  "explanations": {
+   "1": "Label ini adalah definisinya, jadi jawabannya adalah istilahnya.",
+   "2": "\"Metal\" sudah ada di label. Salin ejaannya dengan teliti.",
+   "3": "\"Steep pipe\" sudah ada di label.",
+   "4": "\"During floods\" cocok dengan awal Paragraph F. Paragraph ini muncul paling akhir di passage, tetapi labelnya ada di sisi kiri diagram, di sebelah bendungan (dam).",
+   "5": "Turbine sudah diberikan sebagai label tersendiri; generator-lah yang berisi magnet.",
+   "6": "\"Increases\" sudah ada di label.",
+   "7": "Spillway juga mengembalikan air ke sungai, tetapi hanya kelebihan air banjir; tailrace adalah tempat air keluar setelah melewati turbine."
+  }
+ },
+ {
+  "id": "rb_diagram_label_11",
+  "lesson": {
+   "title": "Word bank untuk proses di dalam mesin (Word banks for processes inside a machine)",
+   "text": "Jika diagram menunjukkan mesin yang sedang bekerja, banyak label menjelaskan perubahan: sesuatu naik atau turun, diserap atau dilepaskan, menjadi cair atau gas. Word bank akan berisi kedua arah perubahan itu. Untuk setiap label, cari bagiannya di passage dan tanyakan: apa yang berubah di sini, dan ke arah mana?",
+   "example": "Passage: \"In the boiler, water turns to steam.\" Label: \"boiler: water becomes (1) ______\". Options: A ice B steam C liquid. Jawaban: B."
+  },
+  "explanations": {
+   "1": "Ini cocok langsung dengan passage (direct match). Panasnya baru dilepaskan nanti, di condenser.",
+   "2": "Di evaporator, refrigerant menguap, jadi berubah menjadi gas. C (liquid) menjelaskan refrigerant setelah melewati condenser.",
+   "3": "I (fan) tidak disebut di passage.",
+   "4": "J (volume) tidak disebut; menekan gas justru mengurangi volumenya.",
+   "5": "B (absorbs) adalah proses yang berlawanan, yang terjadi di evaporator.",
+   "6": "H (rises) adalah kebalikannya, yang terjadi di compressor."
+  }
+ },
+ {
+  "id": "rb_diagram_label_12",
+  "lesson": {
+   "title": "Kata dari bahasa lain dan ejaan yang tidak biasa (Words from other languages and unusual spellings)",
+   "text": "Passage tentang sejarah sering memakai kata-kata khusus, sebagian dipinjam dari bahasa lain, seperti \"portcullis\" atau \"bailey\". Kata seperti ini mudah salah eja saat waktu sempit. Jika jawaban Anda berupa kata seperti ini, salin huruf demi huruf. Jawaban yang salah eja dinilai salah, walaupun Anda sudah menemukan bagian yang benar.",
+   "example": "Passage: \"The knights wore a hauberk, a shirt of chain mail.\" Label: \"(1) ______: shirt of chain mail\". Jawaban: hauberk, bukan \"hawberk\"."
+  },
+  "explanations": {
+   "1": "\"Ditch\" ada di label; jawabannya adalah namanya.",
+   "2": "Ini cocok langsung dengan passage (direct match).",
+   "3": "\"Iron grille\" adalah deskripsinya. Murder holes ada di atap lorong, bukan berupa jeruji.",
+   "4": "\"Narrow arrow\" sudah ada di label.",
+   "5": "Ini adalah nama jalan setapak di atas tembok (walkway).",
+   "6": "Label ini adalah definisinya.",
+   "7": "\"Towers\" juga memperkuat curtain wall, tetapi keep adalah menara yang sangat besar dan tempat perlindungan terakhir."
+  }
+ }
+]

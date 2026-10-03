@@ -1,0 +1,146 @@
+{
+  "table": "certificate_definitions",
+  "items": [
+    {
+      "id": "first_mock",
+      "code": "FM",
+      "title": "First full mock test",
+      "description": "Completed a full four-skill IELTS Academic mock test.",
+      "icon": "mock",
+      "rule": {
+        "type": "count",
+        "skill": "mock",
+        "kinds": [
+          "mock"
+        ],
+        "goal": 1
+      },
+      "unit": "mock tests"
+    },
+    {
+      "id": "mock_65",
+      "code": "M65",
+      "title": "Band 6.5 in a mock",
+      "description": "Scored an overall Band 6.5 or higher in a full mock test.",
+      "icon": "trophy",
+      "rule": {
+        "type": "mockOverall",
+        "band": 6.5
+      }
+    },
+    {
+      "id": "mock_70",
+      "code": "M70",
+      "title": "Band 7.0 in a mock",
+      "description": "Scored an overall Band 7.0 or higher in a full mock test.",
+      "icon": "trophy",
+      "rule": {
+        "type": "mockOverall",
+        "band": 7.0
+      }
+    },
+    {
+      "id": "target_listening",
+      "code": "TL",
+      "title": "Listening on target",
+      "description": "Reached your target band in Listening.",
+      "icon": "listening",
+      "rule": {
+        "type": "skillTarget",
+        "skill": "listening"
+      }
+    },
+    {
+      "id": "target_reading",
+      "code": "TR",
+      "title": "Reading on target",
+      "description": "Reached your target band in Reading.",
+      "icon": "reading",
+      "rule": {
+        "type": "skillTarget",
+        "skill": "reading"
+      }
+    },
+    {
+      "id": "target_writing",
+      "code": "TW",
+      "title": "Writing on target",
+      "description": "Reached your target band in Writing.",
+      "icon": "writing",
+      "rule": {
+        "type": "skillTarget",
+        "skill": "writing"
+      }
+    },
+    {
+      "id": "target_speaking",
+      "code": "TS",
+      "title": "Speaking on target",
+      "description": "Reached your target band in Speaking.",
+      "icon": "speaking",
+      "rule": {
+        "type": "skillTarget",
+        "skill": "speaking"
+      }
+    },
+    {
+      "id": "essays_10",
+      "code": "E10",
+      "title": "10 writing essays",
+      "description": "Wrote and submitted ten Task 1 or Task 2 essays for feedback.",
+      "icon": "pen",
+      "rule": {
+        "type": "count",
+        "skill": "writing",
+        "kinds": [
+          "task1",
+          "task2"
+        ],
+        "goal": 10
+      },
+      "unit": "essays"
+    },
+    {
+      "id": "speaking_20",
+      "code": "S20",
+      "title": "20 speaking answers",
+      "description": "Recorded twenty Part 1, 2 or 3 speaking answers.",
+      "icon": "mic",
+      "rule": {
+        "type": "count",
+        "skill": "speaking",
+        "kinds": [
+          "part1",
+          "part2",
+          "part3"
+        ],
+        "goal": 20
+      },
+      "unit": "answers"
+    },
+    {
+      "id": "streak_7",
+      "code": "ST7",
+      "title": "7-day streak",
+      "description": "Practised on seven days in a row.",
+      "icon": "fire",
+      "rule": {
+        "type": "streak",
+        "goal": 7
+      },
+      "unit": "days"
+    },
+    {
+      "id": "listening_parts",
+      "code": "LP4",
+      "title": "All Listening parts",
+      "description": "Practised every part of the Listening test, Parts 1 to 4.",
+      "icon": "headphones",
+      "rule": {
+        "type": "listeningParts",
+        "goal": 4
+      },
+      "unit": "parts"
+    }
+  ]
+}

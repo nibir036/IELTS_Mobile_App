@@ -1,0 +1,216 @@
+{
+  "table": "phrases",
+  "items": [
+    {
+      "id": "id_a_double_edged_sword",
+      "phrase": "a double-edged sword",
+      "meaning": "something that has both advantages and disadvantages",
+      "example": "Social media is a double-edged sword: it connects people but can also spread misinformation.",
+      "register": "both",
+      "topic": "Technology"
+    },
+    {
+      "id": "id_the_tip_of_the_iceberg",
+      "phrase": "the tip of the iceberg",
+      "meaning": "a small, visible part of a much larger problem",
+      "example": "The reported cases of plastic pollution are only the tip of the iceberg.",
+      "register": "both",
+      "topic": "Environment"
+    },
+    {
+      "id": "id_a_drop_in_the_ocean",
+      "phrase": "a drop in the ocean",
+      "meaning": "an amount too small to make a real difference",
+      "example": "Planting a few trees in the city centre is a drop in the ocean compared with what is needed.",
+      "register": "both",
+      "topic": "Environment"
+    },
+    {
+      "id": "id_a_far_cry_from",
+      "phrase": "a far cry from",
+      "meaning": "very different from something",
+      "example": "Today’s smartphones are a far cry from the bulky mobile phones of the 1990s.",
+      "register": "both",
+      "topic": "Technology"
+    },
+    {
+      "id": "id_food_for_thought",
+      "phrase": "food for thought",
+      "meaning": "an idea that makes you think seriously",
+      "example": "The documentary about fast fashion gave me a lot of food for thought.",
+      "register": "speaking",
+      "topic": "Society"
+    },
+    {
+      "id": "id_a_piece_of_cake",
+      "phrase": "a piece of cake",
+      "meaning": "something very easy to do",
+      "example": "The first part of the test was a piece of cake, but the essay was harder.",
+      "register": "speaking",
+      "topic": "Education",
+      "care": "Informal — fine in Speaking, avoid in Academic Writing."
+    },
+    {
+      "id": "id_hit_the_books",
+      "phrase": "hit the books",
+      "meaning": "to study hard",
+      "example": "I've got to hit the books this weekend because my exam is on Monday.",
+      "register": "speaking",
+      "topic": "Education",
+      "care": "Informal — Speaking only."
+    },
+    {
+      "id": "id_once_in_a_blue_moon",
+      "phrase": "once in a blue moon",
+      "meaning": "very rarely",
+      "example": "I eat fast food once in a blue moon, usually when I'm travelling.",
+      "register": "speaking",
+      "topic": "Health",
+      "care": "Informal — Speaking only."
+    },
+    {
+      "id": "id_under_the_weather",
+      "phrase": "under the weather",
+      "meaning": "slightly ill",
+      "example": "I felt a bit under the weather last week, so I stayed at home.",
+      "register": "speaking",
+      "topic": "Health",
+      "care": "Informal — Speaking only."
+    },
+    {
+      "id": "id_burn_the_midnight_oil",
+      "phrase": "burn the midnight oil",
+      "meaning": "to work or study late into the night",
+      "example": "Before deadlines, many students burn the midnight oil to finish their projects.",
+      "register": "speaking",
+      "topic": "Education",
+      "care": "Informal — natural in Speaking; use a neutral phrase in essays."
+    },
+    {
+      "id": "id_in_the_long_run",
+      "phrase": "in the long run",
+      "meaning": "over a long period of time; eventually",
+      "example": "Investing in public transport will save money in the long run.",
+      "register": "both",
+      "topic": "Society"
+    },
+    {
+      "id": "id_a_vicious_circle",
+      "phrase": "a vicious circle",
+      "meaning": "a situation where one problem causes another that makes the first worse",
+      "example": "Poverty and poor education can form a vicious circle that is hard to break.",
+      "register": "both",
+      "topic": "Society"
+    },
+    {
+      "id": "id_keep_an_eye_on",
+      "phrase": "keep an eye on",
+      "meaning": "to watch or monitor something carefully",
+      "example": "Parents should keep an eye on how much time children spend online.",
+      "register": "both",
+      "topic": "Technology"
+    },
+    {
+      "id": "id_go_the_extra_mile",
+      "phrase": "go the extra mile",
+      "meaning": "to make more effort than is expected",
+      "example": "The best employees are often those who go the extra mile for customers.",
+      "register": "speaking",
+      "topic": "Work",
+      "care": "Slightly informal — better in Speaking than in essays."
+    },
+    {
+      "id": "id_the_bottom_line",
+      "phrase": "the bottom line",
+      "meaning": "the most important fact or consideration",
+      "example": "The bottom line is that companies will not change unless it is profitable.",
+      "register": "speaking",
+      "topic": "Work",
+      "care": "Informal as a sentence opener — avoid in Academic Writing."
+    },
+    {
+      "id": "id_up_to_date",
+      "phrase": "up to date",
+      "meaning": "modern, or having the latest information",
+      "example": "It is hard for schools to keep their equipment up to date.",
+      "register": "both",
+      "topic": "Technology"
+    },
+    {
+      "id": "id_a_steep_learning_curve",
+      "phrase": "a steep learning curve",
+      "meaning": "a situation where you must learn a lot very quickly",
+      "example": "Starting my first job was a steep learning curve, especially with new software.",
+      "register": "both",
+      "topic": "Work"
+    },
+    {
+      "id": "id_break_the_ice",
+      "phrase": "break the ice",
+      "meaning": "to make people feel more relaxed when they first meet",
+      "example": "Our teacher used a quick game to break the ice on the first day.",
+      "register": "speaking",
+      "topic": "Education",
+      "care": "Informal — Speaking only."
+    },
+    {
+      "id": "id_see_eye_to_eye",
+      "phrase": "see eye to eye",
+      "meaning": "to agree with someone",
+      "example": "My parents and I don't always see eye to eye about my career plans.",
+      "register": "speaking",
+      "topic": "Everyday life",
+      "care": "Informal — Speaking only."
+    },
+    {
+      "id": "id_a_mixed_blessing",
+      "phrase": "a mixed blessing",
+      "meaning": "something that has good and bad effects",
+      "example": "Tourism is a mixed blessing for small islands: it brings jobs but damages nature.",
+      "register": "both",
+      "topic": "Travel"
+    },
+    {
+      "id": "id_off_the_beaten_track",
+      "phrase": "off the beaten track",
+      "meaning": "in a quiet place that few people visit",
+      "example": "I prefer holidays off the beaten track, away from crowded resorts.",
+      "register": "speaking",
+      "topic": "Travel",
+      "care": "Informal — Speaking only."
+    },
+    {
+      "id": "id_make_ends_meet",
+      "phrase": "make ends meet",
+      "meaning": "to have just enough money to pay for basic needs",
+      "example": "Rising rents mean many young workers struggle to make ends meet.",
+      "register": "both",
+      "topic": "Society"
+    },
+    {
+      "id": "id_at_the_crossroads",
+      "phrase": "at the crossroads",
+      "meaning": "at a point where an important decision must be made",
+      "example": "Many countries are at a crossroads between fossil fuels and clean energy.",
+      "register": "both",
+      "topic": "Environment"
+    },
+    {
+      "id": "id_take_something_for_granted",
+      "phrase": "take something for granted",
+      "meaning": "to fail to appreciate something because it is always there",
+      "example": "In wealthy countries, people often take clean water for granted.",
+      "register": "both",
+      "topic": "Environment"
+    },
+    {
+      "id": "id_learn_the_ropes",
+      "phrase": "learn the ropes",
+      "meaning": "to learn how to do a job or activity",
+      "example": "It took me a few weeks to learn the ropes at my part-time job.",
+      "register": "speaking",
+      "topic": "Work",
+      "care": "Informal — Speaking only."
+    }
+  ]
+}

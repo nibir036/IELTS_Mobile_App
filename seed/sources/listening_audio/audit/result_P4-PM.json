@@ -1,0 +1,166 @@
+{
+ "code": "P4-PM",
+ "items": [
+  {
+   "n": 1,
+   "status": "differs",
+   "key": "C",
+   "audio_answer": "A",
+   "evidence": "[0:17] 'the changing room, which is labeled A'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter C; the positional description (just inside west entrance) fits the key's position, but a listener would write the spoken letter A. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 2,
+   "status": "differs",
+   "key": "F",
+   "audio_answer": "B",
+   "evidence": "[0:26] 'moved east into the cold room, marked as B'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter F; the positional description (east of changing room) fits the key's position, but a listener would write the spoken letter B. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 3,
+   "status": "differs",
+   "key": "A",
+   "audio_answer": "C",
+   "evidence": "[0:34] 'the warm room, labeled C'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter A; the positional description (next along the route (centre)) fits the key's position, but a listener would write the spoken letter C. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 4,
+   "status": "differs",
+   "key": "H",
+   "audio_answer": "D",
+   "evidence": "[0:46] 'at the eastern end, sits the hot room, marked D'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter H; the positional description (eastern end) fits the key's position, but a listener would write the spoken letter D. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 5,
+   "status": "differs",
+   "key": "J",
+   "audio_answer": "E",
+   "evidence": "[0:53] 'the furnace, labeled E, located beneath the hot room'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter J; the positional description (recording says beneath the hot room; key position J is outside against east wall - only loosely consistent) fits the key's position, but a listener would write the spoken letter E. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 6,
+   "status": "differs",
+   "key": "B",
+   "audio_answer": "F",
+   "evidence": "[1:03] 'to the north of it, we find the exercise yard, marked F'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter B; the positional description (north of changing room) fits the key's position, but a listener would write the spoken letter F. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 7,
+   "status": "differs",
+   "key": "E",
+   "audio_answer": "G",
+   "evidence": "[1:14] 'to the south of the changing room is the garden, labeled G'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter E; the positional description (south of changing room) fits the key's position, but a listener would write the spoken letter G. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 8,
+   "status": "differs",
+   "key": "I",
+   "audio_answer": "H",
+   "evidence": "[1:24] 'close to the cold room, you'll find the cold plunge pool, marked H'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter I; the positional description (near cold room) fits the key's position, but a listener would write the spoken letter H. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 9,
+   "status": "differs",
+   "key": "D",
+   "audio_answer": "I",
+   "evidence": "[1:31] 'Next to that is the massage room, labeled one' (= I)",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter D; the positional description ('next to that' (plunge pool) is vague; key D is south side of centre) fits the key's position, but a listener would write the spoken letter I. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 10,
+   "status": "differs",
+   "key": "G",
+   "audio_answer": "J",
+   "evidence": "[1:39] 'tucked away near the entrance ... the latrine, marked J'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter G; the positional description (near entrance (SW corner)) fits the key's position, but a listener would write the spoken letter J. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 11,
+   "status": "differs",
+   "key": "G",
+   "audio_answer": "A",
+   "evidence": "[1:58] 'the furnace mouth, labeled A'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter G; the positional description (start of system / far left) fits the key's position, but a listener would write the spoken letter A. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 12,
+   "status": "differs",
+   "key": "D",
+   "audio_answer": "B",
+   "evidence": "[2:05] 'brick pillars, marked B'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter D; the positional description (under the floor) fits the key's position, but a listener would write the spoken letter B. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 13,
+   "status": "differs",
+   "key": "A",
+   "audio_answer": "C",
+   "evidence": "[2:13] 'the raised floor itself, labeled C'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter A; the positional description (on top of pillars) fits the key's position, but a listener would write the spoken letter C. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 14,
+   "status": "differs",
+   "key": "J",
+   "audio_answer": "D",
+   "evidence": "[2:23] 'hollow wall tiles, marked D'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter J; the positional description (walls) fits the key's position, but a listener would write the spoken letter D. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 15,
+   "status": "differs",
+   "key": "B",
+   "audio_answer": "E",
+   "evidence": "[2:32] 'the chimney, labeled E'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter B; the positional description (exit) fits the key's position, but a listener would write the spoken letter E. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 16,
+   "status": "differs",
+   "key": "H",
+   "audio_answer": "F",
+   "evidence": "[2:40] 'Below the furnace ... the ash pit, marked F'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter H; the positional description (below furnace) fits the key's position, but a listener would write the spoken letter F. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 17,
+   "status": "differs",
+   "key": "C",
+   "audio_answer": "G",
+   "evidence": "[2:49] 'the fuel store, labeled G'",
+   "note": "Recording reads the labels A-J in strict sequence, contradicting the key letter C; the positional description (near furnace) fits the key's position, but a listener would write the spoken letter G. Fix: re-record without letters, or relabel the plan to match the narration."
+  },
+  {
+   "n": 18,
+   "status": "differs",
+   "key": "E",
+   "audio_answer": "H",
+   "evidence": "[2:58] 'the service passage, marked H'",
+   "note": "Recording reads labels A-J in sequence, contradicting key letter E; listener would write H."
+  },
+  {
+   "n": 19,
+   "status": "differs",
+   "key": "F",
+   "audio_answer": "I",
+   "evidence": "[3:05] 'a temperature vent, labeled I'",
+   "note": "Recording reads labels A-J in sequence, contradicting key letter F; listener would write I."
+  },
+  {
+   "n": 20,
+   "status": "differs",
+   "key": "I",
+   "audio_answer": "J",
+   "evidence": "[3:13] 'an inspection hatch, marked J'",
+   "note": "Recording reads labels A-J in sequence, contradicting key letter I; listener would write J."
+  }
+ ],
+ "summary": "All 20 differ: narration names labels A-J in order for both plan and hypocaust diagram, contradicting every key letter (positions described mostly match the key's layout; furnace 'beneath the hot room' vs key J outside east wall)."
+}

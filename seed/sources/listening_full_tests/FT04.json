@@ -1,0 +1,1104 @@
+{
+ "id": "FT04",
+ "title": "Listening Full Test 4",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "Reporting a Lost Bag",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "A woman phones a railway company's lost property office to report a bag she left on a train the previous evening.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Gareth",
+     "desc": "Lost property clerk — male, 40s, calm, patient, methodical; British accent (light Midlands)"
+    },
+    {
+     "label": "Helen",
+     "desc": "Caller — female, late 40s, articulate but tired and slightly flustered; British accent (southern English)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear a woman phoning a railway company's lost property office about a bag she left on a train. First, you have some time to look at Questions 1 to 5.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 1 to 5.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[telephone rings twice, then the line clicks open] [polite, professional] Good afternoon, Westmere Railways lost property office, Gareth speaking. How can I help?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[slightly anxious, speaking quickly] Oh, hello. Um, I think I left a bag on one of your trains, and I'm really hoping someone's handed it in."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[calm, reassuring] Right, well, you've come to the right place. I'll take a few details first, and then I'll have a look at what's come in. Can I start with your name?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "Yes, it's Helen Prothero."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[careful] And could you spell the surname for me?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[slowly, spelling each letter clearly] P… R… O… T… H… E… R… O."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[reading back as he types] P… R… O… T… H… E… R… O… E?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[correcting him politely, a little weary] No, there's no E at the end. Everyone adds one. It just finishes with the O."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[light laugh] Sorry about that. I've taken it off. And a contact number?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "My mobile's best. It's oh-seven-seven-one-two… [short pause] six-four-eight, three-oh-nine."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[repeating slowly] Oh-seven-seven-one-two, six-four-eight, three-oh-nine. Lovely. Now, when did you travel?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[thinking aloud] It was Wednesday evening… so that would be the seventh."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[double-checking] The seventh. So that's two days ago?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[short pause] [flustered, correcting herself] Oh, no, hang on, I'm muddling it up. Wednesday was when I travelled up for the conference. I came back yesterday, on Thursday, so it was the eighth. Sorry, it's been a long week."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[kindly] Not a problem. Thursday the eighth. And do you know which train it was?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[explaining] It was from Redbourne to Kingsford. I was booked on the six-fifteen, but the last session overran and I missed it by about a minute, [sighs] so I ended up getting the next one, the six forty-five."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[typing] The eighteen forty-five from Redbourne. That's the slow one, isn't it? Stops at every station."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[wry] It certainly felt like it."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[checking] And was it a direct train, or did you have to change anywhere along the way? Sometimes bags end up being handed in at a different station."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[confident] No, it was direct, thank goodness. I don't think I could have coped with a change. I just sat there with my eyes closed until Kingsford, and then, well… [sighs] I got off without it."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[businesslike] Do you remember which part of the train you were in? It helps the cleaning teams know where to look."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[light laugh] Well, after the week I'd had, I'd have loved to be in first class, but I wasn't. The standard carriages were absolutely packed, so I went and found a seat in the quiet coach, right at the front."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[pleased] The quiet coach, that's useful. They're usually less cluttered, so things get spotted. And where did you put the bag? Under the seat?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[firm] No, it's too bulky, it wouldn't fit under the seat. I put it up on the luggage rack, right above my head. [ruefully] That's exactly why I forgot it. I couldn't see it."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[sympathetic] That's the most common one, honestly. Out of sight, out of mind."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 6 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 6 to 10.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[methodical] Right, now I need a description of the bag itself. What sort of bag is it? A suitcase, a rucksack…?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[thinking] It's a holdall. [short pause] My son calls it my gym bag, but it isn't really, I've never taken it near a gym. It's a proper holdall, with two handles and a long shoulder strap."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "A holdall. And what colour is it?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[hesitant, then definite] Well, it looks black in some lights, and the man at the station desk last night wrote down black, but it definitely isn't. It's navy blue, with a cream strap."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[noting it down] Navy blue, cream strap. Is there anything that makes it stand out? A name tag, a label?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[apologetic] There used to be a name tag, but it tore off ages ago and I never replaced it. [brightening] But there's a little metal key ring on the zip. It's shaped like a lighthouse. [chuckles] My husband says it looks more like a rocket, but it's a lighthouse. We bought it on holiday in Cornwall."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[amused] A lighthouse. That's actually really helpful. It's those little details that let us match an item to the right person."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[more serious] And what was inside it? Anything valuable?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[relieved, then worried] Well, luckily my laptop wasn't in it, I'd put that in my backpack, and my purse was in my coat pocket. But my camera was in there, and that's what I'm really upset about. All the photos from the week are on it. The rest is just clothes and a paperback."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[reassuring] I'll mark the camera as the main item of value. Let me just check the system for yesterday evening… [short pause] Nothing matching yet, I'm afraid, but please don't worry. Anything found on the late trains is collected at the end of the line, and it usually reaches us here a day or two later."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[hopeful] Oh, that's good to know. And if it does turn up, how do I get it back?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[clear, explaining] You can either come and collect it from this office, at Kingsford station, or we can post it to you. There is a fee, I'm afraid, either way."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[cautious] How much are we talking about?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[slightly apologetic] To collect it in person, it's twelve pounds. It used to be ten, but it went up in April. If you'd rather we posted it, it's the twelve plus postage, and for a bag that size you'd be looking at another fifteen or so on top."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[resigned, good-humoured] In that case I'll definitely come and pick it up myself. I only live twenty minutes away. Twelve pounds it is."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[helpful] Just bring some photo ID with you, a driving licence or a passport, and we're open eight till six, Monday to Saturday. And I'll ring your mobile the moment anything comes in."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[warm, grateful] Thank you so much, Gareth. You've been really kind."
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-10",
+     "type": "form_completion",
+     "instructions": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+     "heading": "WESTMERE RAILWAYS — LOST PROPERTY REPORT",
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Name: Helen (1) ___",
+       "answer": "Prothero",
+       "accepted": [
+        "PROTHERO"
+       ],
+       "spoken": "P… R… O… T… H… E… R… O",
+       "evidence": "P… R… O… T… H… E… R… O. P… R… O… T… H… E… R… O… E? No, there's no E at the end",
+       "trap": "The clerk reads the name back with a final E, which the caller rejects."
+      },
+      {
+       "n": 2,
+       "prompt": "Date of journey: (2) ___",
+       "answer": "8th",
+       "accepted": [
+        "8",
+        "eighth",
+        "the 8th",
+        "Thursday 8th"
+       ],
+       "spoken": "the eighth",
+       "evidence": "I came back yesterday, on Thursday, so it was the eighth",
+       "trap": "She first gives Wednesday the seventh, the day of her outward journey."
+      },
+      {
+       "n": 3,
+       "prompt": "Train: the (3) ___ service from Redbourne to Kingsford",
+       "answer": "6.45",
+       "accepted": [
+        "6:45",
+        "18.45",
+        "18:45",
+        "6.45 pm",
+        "six forty-five"
+       ],
+       "spoken": "the six forty-five",
+       "evidence": "so I ended up getting the next one, the six forty-five",
+       "trap": "She was booked on the 6.15 but missed it."
+      },
+      {
+       "n": 4,
+       "prompt": "Seat: in the (4) ___ coach",
+       "answer": "quiet",
+       "accepted": [
+        "quiet coach"
+       ],
+       "spoken": "quiet",
+       "evidence": "I went and found a seat in the quiet coach, right at the front",
+       "trap": "First class is mentioned but she says she wasn't in it."
+      },
+      {
+       "n": 5,
+       "prompt": "Bag was placed on the (5) ___",
+       "answer": "luggage rack",
+       "accepted": [
+        "rack"
+       ],
+       "spoken": "luggage rack",
+       "evidence": "it wouldn't fit under the seat. I put it up on the luggage rack",
+       "trap": "The clerk suggests under the seat, which she rules out."
+      },
+      {
+       "n": 6,
+       "prompt": "Type of bag: (6) ___",
+       "answer": "holdall",
+       "accepted": [
+        "a holdall"
+       ],
+       "spoken": "holdall",
+       "evidence": "My son calls it my gym bag, but it isn't really, I've never taken it near a gym. It's a proper holdall",
+       "trap": "'Gym bag' (her son's name for it) and suitcase/rucksack are mentioned but rejected."
+      },
+      {
+       "n": 7,
+       "prompt": "Colour: (7) ___ (strap is cream)",
+       "answer": "navy blue",
+       "accepted": [
+        "navy"
+       ],
+       "spoken": "navy blue",
+       "evidence": "but it definitely isn't. It's navy blue, with a cream strap",
+       "trap": "Black is what the station staff wrote down, but she says it isn't black."
+      },
+      {
+       "n": 8,
+       "prompt": "Identifying feature: metal key ring in the form of a (8) ___",
+       "answer": "lighthouse",
+       "accepted": [],
+       "spoken": "lighthouse",
+       "evidence": "My husband says it looks more like a rocket, but it's a lighthouse",
+       "trap": "Her husband thinks it resembles a rocket; the name tag no longer exists."
+      },
+      {
+       "n": 9,
+       "prompt": "Main valuable item inside: (9) ___",
+       "answer": "camera",
+       "accepted": [
+        "a camera",
+        "her camera"
+       ],
+       "spoken": "camera",
+       "evidence": "But my camera was in there, and that's what I'm really upset about",
+       "trap": "The laptop and purse are mentioned but were not in the bag."
+      },
+      {
+       "n": 10,
+       "prompt": "Charge for collecting from the office: £(10) ___",
+       "answer": "12",
+       "accepted": [
+        "£12",
+        "twelve"
+       ],
+       "spoken": "twelve pounds",
+       "evidence": "To collect it in person, it's twelve pounds. It used to be ten",
+       "trap": "The old charge was £10, and postage would add about £15."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "The Mill Lane Allotment Scheme",
+   "context": "Monologue in an everyday social context (1 speaker)",
+   "scenario": "A council officer speaks to residents at a public meeting about a new community allotment scheme on a former plant nursery site.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Joanna",
+     "desc": "Council community projects officer — female, 40s, warm, organised, confident public speaker; British accent (neutral southern English)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear a council officer talking to local residents about a new community allotment scheme. First, you have some time to look at Questions 11 to 14.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 11 to 14.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[small community hall, a few chairs scraping, then quiet] [warm, projecting to a room] Good evening, everyone, and thank you for coming out on such a wet night. My name's Joanna Pike, and I'm the community projects officer at Ashworth District Council. I'm here to tell you about our new allotment scheme at Mill Lane, which opens to plot holders in March."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[conversational] For those of you who don't know it, the site used to be a commercial plant nursery. It closed about six years ago, and it's been empty ever since. [light laugh] Well, empty apart from a lot of brambles."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[measured] Now, quite a few of you have asked why we went for Mill Lane rather than the field behind the leisure centre, so let me deal with that first. I know some people were hoping the new site would be easy to get to by bus, and I have to be honest, it isn't ideal from that point of view. The nearest stop is a good fifteen minutes' walk away."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[slightly amused, correcting a misconception] There's also a rumour going round that the land was given to the council free of charge. That's not quite right, I'm afraid. We lease it from the Haddon Estate, although, admittedly, the rent is very modest."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[emphatic, clear] What actually decided it was, first of all, the ground itself. When we had samples analysed, the soil came back as being of exceptionally high quality, which I suppose is the result of decades of the nursery digging in compost. [short pause] And the second thing, which saved us a great deal of money, is that because it was a nursery, there's already a mains water connection on site. So we haven't had to pay to bring a supply in from the road."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[candid] One thing Mill Lane is not, though, is sheltered. The northern edge is very exposed, and the winds there can be fierce, so we'll be planting a native hedge along that side over the winter."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[practical, moving on] Right, the money. A full plot will cost sixty pounds a year, and a half plot thirty-five. So what do you get for that? Well, people often assume that water is included. It isn't, I'm afraid. Each row of plots has its own meter, and the cost is divided between the plot holders in that row, so it's charged separately."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[upbeat] What the fee does cover is unlimited use of everything in the communal tool store: spades, forks, wheelbarrows, even a rotavator. [short pause] And every autumn, the council will drop off a load of well-rotted manure at every plot, which, if you've ever tried to buy the stuff, you'll know is well worth having."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[apologetic] In our pilot scheme at Brook Street, we also gave out free packets of seeds to new tenants, but sadly the budget won't stretch to that this time round. [encouraging] And there's a gardeners' association, which I'd really urge you to join. But that's run by the volunteers themselves and it has its own small subscription, so it isn't part of what you pay us."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 15 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 15 to 20.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[clear, signposting] Now, you should all have a copy of the site plan, so let me take you round the different areas, because each one has its own arrangements."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[firm but friendly] Starting at the main gate on Mill Lane itself. You don't need to book a time to visit; you can come whenever you like between dawn and dusk. At Brook Street, people got into the habit of leaving the gate open during the day while they were working, and we had several thefts. So at Mill Lane, it has to be kept locked at all times, even when you're on site. You'll each be given the code."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[warm] Just inside the gate is the orchard: twelve apple and plum trees that the nursery left behind. We did consider allocating the trees to individual plot holders, but we decided against it. When the fruit's ripe, anyone who has a plot is welcome to help themselves. [light laugh] Within reason, please. The volunteers prune the trees on Saturday mornings, but that doesn't mean you can only go in at weekends; it's open every day."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[thoughtful] In the middle of the site there's a wildlife pond. You might expect us to have banned strimmers and mowers around it, to protect the frogs and newts, but in fact our ecologist says occasional cutting is perfectly fine. What we do insist on is that young children never go near the water on their own. If you bring your kids, an adult must be with them there at all times."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[clear, informative] Next to the car park, you'll see eight raised beds, built at waist height. These aren't for general use. They're set aside for gardeners who use a wheelchair, or who find kneeling and bending difficult. There's a set of long-handled tools stored right beside them, too, so nobody has to carry heavy equipment across the site."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[brisk] Beyond those is the polytunnel, which is for raising seedlings in spring. It's unlocked all week, but space on the benches is limited, so you can't just turn up with your trays. You'll need to reserve a bench in advance through the online system."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[explaining] And finally, at the far end, by the back gate, are the compost bays. A volunteer has to be there to check what goes in, otherwise we end up with plastic and goodness knows what else, so they're only open on Saturdays and Sundays."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[serious, slowing down] And while we're down at that end: some of you will remember the bonfires at Brook Street. Please be aware that they're not permitted anywhere at Mill Lane, and that includes the compost area. The houses are just too close."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[wrapping up, warm] Application forms are on the table by the door. There's an open day on the first Saturday in February if you'd like to look round before you sign up. Right, I think I've talked for long enough. Are there any questions?"
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-12",
+     "type": "multi_select",
+     "instructions": "Choose TWO letters, A–E.",
+     "options": {
+      "A": "It can easily be reached by public transport.",
+      "B": "The ground is very fertile.",
+      "C": "There is an existing water supply.",
+      "D": "The council obtained the land at no cost.",
+      "E": "It is well protected from the wind."
+     },
+     "answers": [
+      "B",
+      "C"
+     ],
+     "evidence": [
+      "the soil came back as being of exceptionally high quality",
+      "there's already a mains water connection on site"
+     ],
+     "trap": "Bus access (A) is admitted to be poor, the free-land idea (D) is called a rumour (the land is leased), and the site is described as exposed, not sheltered (E).",
+     "items": [
+      {
+       "n": 11,
+       "prompt": "Which TWO reasons does the speaker give for choosing the Mill Lane site?"
+      },
+      {
+       "n": 12,
+       "prompt": ""
+      }
+     ]
+    },
+    {
+     "range": "13-14",
+     "type": "multi_select",
+     "instructions": "Choose TWO letters, A–E.",
+     "options": {
+      "A": "the cost of the water used",
+      "B": "access to shared equipment",
+      "C": "a yearly supply of fertiliser",
+      "D": "seeds for new plot holders",
+      "E": "membership of a gardening club"
+     },
+     "answers": [
+      "B",
+      "C"
+     ],
+     "evidence": [
+      "What the fee does cover is unlimited use of everything in the communal tool store",
+      "the council will drop off a load of well-rotted manure at every plot"
+     ],
+     "trap": "Water (A) is charged separately, free seeds (D) were only given in the pilot scheme, and the association (E) has its own subscription.",
+     "items": [
+      {
+       "n": 13,
+       "prompt": "Which TWO things are included in the annual plot fee?"
+      },
+      {
+       "n": 14,
+       "prompt": ""
+      }
+     ]
+    },
+    {
+     "range": "15-20",
+     "type": "matching",
+     "instructions": "What does the speaker say about each of the following areas of the site? Choose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+     "options": {
+      "A": "can only be used at weekends",
+      "B": "intended for people with limited mobility",
+      "C": "children must be accompanied",
+      "D": "must be reserved beforehand",
+      "E": "fires are allowed",
+      "F": "power tools are not permitted",
+      "G": "produce may be taken by any plot holder",
+      "H": "must never be left open"
+     },
+     "items": [
+      {
+       "n": 15,
+       "prompt": "main gate",
+       "answer": "H",
+       "evidence": "it has to be kept locked at all times, even when you're on site",
+       "trap": "Booking (D) is mentioned and rejected; the gate used to be left open at Brook Street."
+      },
+      {
+       "n": 16,
+       "prompt": "orchard",
+       "answer": "G",
+       "evidence": "anyone who has a plot is welcome to help themselves",
+       "trap": "Saturday pruning suggests weekends (A), but the speaker says it is open every day."
+      },
+      {
+       "n": 17,
+       "prompt": "wildlife pond",
+       "answer": "C",
+       "evidence": "If you bring your kids, an adult must be with them there at all times",
+       "trap": "A ban on strimmers and mowers (F) is expected but denied."
+      },
+      {
+       "n": 18,
+       "prompt": "raised beds",
+       "answer": "B",
+       "evidence": "They're set aside for gardeners who use a wheelchair, or who find kneeling and bending difficult",
+       "trap": "The raised beds are next to the car park and have their own tools, which may suggest other options, but only B matches the stated restriction."
+      },
+      {
+       "n": 19,
+       "prompt": "polytunnel",
+       "answer": "D",
+       "evidence": "You'll need to reserve a bench in advance through the online system",
+       "trap": "It is described as unlocked all week, which may tempt A or H."
+      },
+      {
+       "n": 20,
+       "prompt": "compost bays",
+       "answer": "A",
+       "evidence": "so they're only open on Saturdays and Sundays",
+       "trap": "Bonfires (E) are mentioned in connection with this area but are not permitted."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "A Sleep and Memory Experiment",
+   "context": "Academic discussion between two students (2 speakers)",
+   "scenario": "Two psychology students review the procedure and results of an experiment they ran on the effect of sleep on memory, and plan their report and presentation.",
+   "accent": "American (en-US) and British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.45 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Maya",
+     "desc": "Psychology student — female, early 20s, relaxed, direct, quick to challenge; American accent (General American)"
+    },
+    {
+     "label": "Josh",
+     "desc": "Psychology student — male, early 20s, thoughtful, slightly anxious, open to persuasion; British accent (southern English)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two psychology students, Maya and Josh, discussing an experiment they carried out on sleep and memory. First, you have some time to look at Questions 21 to 24.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 21 to 24.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Josh",
+     "text": "[quiet study room] [friendly, a little rushed] Right, Maya, shall we go through the procedure section first? Dr Hollis said it has to be clear enough for someone else to repeat the study exactly."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[easygoing] Sure. So, recruitment. We were originally going to put posters up all over campus, remember?"
+    },
+    {
+     "speaker": "Josh",
+     "text": "[dry] And we got precisely three volunteers out of that."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[laughs] Right. And the emails to the first-year class lists didn't do much better. It was really the item in the department's newsletter that got us most of our people. Something like thirty of the forty came through that."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[thoughtful] Yeah, and I think we should be upfront about it, because it might affect who took part. People who actually read the newsletter are probably more motivated than average."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[agreeing] Good point. Okay, then the learning session. Everyone studied the same sixty pairs of unrelated words. Where do we say that happened? Because it changed, didn't it?"
+    },
+    {
+     "speaker": "Josh",
+     "text": "[recalling] It did. We'd booked the lab, but then the postgrads needed it for their own testing. And you suggested letting people learn the words in their own rooms…"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[wincing slightly] Which would've been a disaster. No control over noise or anything. So in the end we used that quiet room in the library, the one on the second floor."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[noting it] Yes. Okay. And then the sleep group went home to bed, and we measured their sleep. [hesitant] I still wish we'd been able to borrow the EEG headset from the sleep lab."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[pragmatic] Josh, we weren't trained to use it, and it would've cost a fortune. The wristband was fine. Everyone in the sleep group wore one overnight, and it gave us total sleep time."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[unconvinced] And the sleep diaries?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[firm] We asked them to fill one in, sure, but half of them didn't bother, so they really weren't our main measure. I'd mention them in a footnote at most."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[accepting] Fair enough. Then, twelve hours after learning, everyone came back. And before the actual memory test, we did the alertness check."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[clarifying] Which ended up being just the questionnaire. We'd planned a reaction-time task as well, but it took fifteen minutes per person and we didn't have the time. So it was the questionnaire on its own, rating how awake they felt. And then the recall test."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the discussion, you have some time to look at Questions 25 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen and answer Questions 25 to 30.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Josh",
+     "text": "[more animated] Okay, results. So the sleep group did better, as we predicted. But honestly, what I didn't see coming was how big the gap was."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[sceptical] Really? The studies we read found roughly a twenty percent advantage for sleep, and ours was eighteen. That's pretty standard. [short pause] No, what got me was where the advantage came from. Nearly all of it was on the pairs that people had rated as the hardest to learn. On the easy ones, the two groups were almost level."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[conceding] Hmm. Yeah, when you put it like that, the overall difference is in line with the literature. It's the hard-pair thing that's odd. [short pause] And the wake group did about as badly as we expected, so there's nothing strange there."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[thinking aloud] Speaking of the wake group, I was worried that some of them might have had a nap during the day, which would mess everything up."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[doubtful] I don't think napping was the problem. We asked every one of them, and nobody said they'd slept. And they were all tested within ten minutes of the right time, so the timing's fine too. What does bother me is the two who said they'd gone over the words in their heads on the bus."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[groaning] Oh, yeah. They were actually practising them on purpose. That's a real issue. We should have told everyone not to do that."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[agreeing] Definitely. We'll mention it."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[half joking] In the limitations section, or as some kind of confession?"
+    },
+    {
+     "speaker": "Josh",
+     "text": "[laughs] Limitations. Hollis appreciates honesty, as long as it's in the right place."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[shifting to a more critical tone] Now, limitations. I think the obvious criticism Hollis will make is the sample size. Forty people isn't many."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[measured] Everyone says that, but forty's not unusual for this kind of study. What worries me far more is that the sleep group learned the words in the evening and the wake group learned them in the morning. So time of day is mixed up with sleep. We can't separate the two."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[adding] And they were all undergraduates, aged eighteen to twenty-two."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[dismissive but polite] That's a limitation, sure, but it's not specific to us. Most memory research uses students. It's the timing that's our own fault."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[firm, reasoning it through] Okay, but I don't think the timing thing makes the whole study worthless. Far from it. And we couldn't have tested everybody in the evening; the whole design needs a night's sleep for one group and a day awake for the other. [short pause] But look, the questionnaire showed both groups felt equally alert when they were tested. We can use that to argue the time of day probably didn't make much difference."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[slowly persuaded] That's true. It doesn't solve it completely, but it helps. Okay. [short pause] What about participant seventeen? Fifty-nine out of sixty. My instinct is just to take them out."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[shocked] Josh! We can't just delete data because it's inconvenient. Hollis would go through the roof."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[tentative] Well, could we email them and ask whether they'd seen the list before?"
+    },
+    {
+     "speaker": "Maya",
+     "text": "[patient] We promised everyone anonymity. We don't even have their names linked to the numbers."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[sighs] Fair point. So we leave them in and flag it up when we discuss the results."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[decisive] Exactly. [changing topic] And then the presentation. I thought we'd spend most of it on the wristbands, since no other group measured sleep that way."
+    },
+    {
+     "speaker": "Josh",
+     "text": "[gently disagreeing] Hmm, it's only ten minutes, though, and the method's the least exciting part. I'd rather build it around the hard-pair result. That's what people will actually remember."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[conceding, good-humoured] Yeah, okay, you've convinced me. And ideas for future studies?"
+    },
+    {
+     "speaker": "Josh",
+     "text": "[practical] Just one slide, right at the end. Nothing more."
+    },
+    {
+     "speaker": "Maya",
+     "text": "[wrapping up, businesslike] Great. So I'll draft the procedure tonight, you take the results, and we swap on Thursday and check each other's sections?"
+    },
+    {
+     "speaker": "Josh",
+     "text": "[relieved] Deal. And we can put all the wristband details in an appendix, so that work still gets some credit."
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-24",
+     "type": "flow_chart_completion",
+     "instructions": "Complete the flow chart below. Write ONE WORD ONLY for each answer.",
+     "heading": "PROCEDURE",
+     "items": [
+      {
+       "n": 21,
+       "prompt": "Most of the 40 participants were recruited through a (21) ___",
+       "answer": "newsletter",
+       "accepted": [],
+       "spoken": "newsletter",
+       "evidence": "It was really the item in the department's newsletter that got us most of our people",
+       "trap": "Posters and class-list emails were tried but produced few volunteers."
+      },
+      {
+       "n": 22,
+       "prompt": "↓ All participants studied 60 word pairs in a quiet room in the (22) ___",
+       "answer": "library",
+       "accepted": [],
+       "spoken": "library",
+       "evidence": "So in the end we used that quiet room in the library",
+       "trap": "The lab was booked but became unavailable, and participants' own rooms were suggested and rejected."
+      },
+      {
+       "n": 23,
+       "prompt": "↓ The sleep group's sleep was measured by a (23) ___ worn overnight",
+       "answer": "wristband",
+       "accepted": [
+        "wrist band"
+       ],
+       "spoken": "wristband",
+       "evidence": "The wristband was fine. Everyone in the sleep group wore one overnight",
+       "trap": "An EEG headset was wanted but not used, and sleep diaries were not the main measure."
+      },
+      {
+       "n": 24,
+       "prompt": "↓ 12 hours later, alertness was assessed with a (24) ___ only, before the recall test",
+       "answer": "questionnaire",
+       "accepted": [],
+       "spoken": "questionnaire",
+       "evidence": "So it was the questionnaire on its own, rating how awake they felt",
+       "trap": "A reaction-time task was planned but dropped."
+      }
+     ]
+    },
+    {
+     "range": "25-30",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 25,
+       "prompt": "What do the students agree was unexpected about their results?",
+       "options": {
+        "A": "the overall size of the sleep group's advantage",
+        "B": "how poorly the wake group performed",
+        "C": "the type of items on which sleep made a difference"
+       },
+       "answer": "C",
+       "evidence": "Nearly all of it was on the pairs that people had rated as the hardest to learn",
+       "trap": "Josh first says the size of the gap surprised him (A) but concedes it matches the literature; the wake group did as expected (B)."
+      },
+      {
+       "n": 26,
+       "prompt": "Which problem with the wake group do they both regard as serious?",
+       "options": {
+        "A": "Some participants slept during the day.",
+        "B": "Some participants deliberately rehearsed the material.",
+        "C": "Some participants were tested at the wrong time."
+       },
+       "answer": "B",
+       "evidence": "They were actually practising them on purpose. That's a real issue",
+       "trap": "Maya worries about naps (A) but nobody reported sleeping; testing times (C) were within ten minutes."
+      },
+      {
+       "n": 27,
+       "prompt": "What does Josh consider the main weakness of the study?",
+       "options": {
+        "A": "the number of people who took part",
+        "B": "the times at which the groups learned the words",
+        "C": "the narrow age range of the participants"
+       },
+       "answer": "B",
+       "evidence": "What worries me far more is that the sleep group learned the words in the evening",
+       "trap": "Maya raises sample size (A) and age (C), but Josh dismisses both as less important."
+      },
+      {
+       "n": 28,
+       "prompt": "What is Maya's view of the time-of-day problem?",
+       "options": {
+        "A": "Some of the data they collected can be used to reduce its importance.",
+        "B": "It makes the findings of the study meaningless.",
+        "C": "It could have been avoided by testing everyone at the same time of day."
+       },
+       "answer": "A",
+       "evidence": "We can use that to argue the time of day probably didn't make much difference",
+       "trap": "She explicitly rejects B ('far from it') and explains why C was impossible."
+      },
+      {
+       "n": 29,
+       "prompt": "What do they decide to do about participant seventeen?",
+       "options": {
+        "A": "exclude the scores from the analysis",
+        "B": "keep the scores and comment on them",
+        "C": "ask the participant for more information"
+       },
+       "answer": "B",
+       "evidence": "So we leave them in and flag it up when we discuss the results",
+       "trap": "Josh first wants to remove the data (A) and then to email the participant (C); Maya rules out both."
+      },
+      {
+       "n": 30,
+       "prompt": "What will be the main focus of their presentation?",
+       "options": {
+        "A": "the way sleep was measured",
+        "B": "the finding about difficult word pairs",
+        "C": "possible directions for further research"
+       },
+       "answer": "B",
+       "evidence": "I'd rather build it around the hard-pair result",
+       "trap": "Maya proposes focusing on the wristbands (A) but changes her mind; future research (C) gets only one slide at the end."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "Bioluminescence in Deep-Sea Animals",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "A marine biology lecturer explains how deep-sea animals produce light, the different functions this light serves, and some applications of the research.",
+   "accent": "Australian (en-AU)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "Marine biology lecturer — male, 50s, enthusiastic, articulate, dry sense of humour; Australian accent (educated, moderate)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about bioluminescence in deep-sea animals. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Now listen carefully and answer Questions 31 to 40.",
+     "pause_after": 2
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture theatre, faint murmur fading] [warm, clear] Morning, everyone. Today we're heading down into the deep ocean, below about two hundred metres, where sunlight barely reaches, to look at bioluminescence: the production of light by living organisms. [wry] It's not a rare curiosity, by the way. Down there, it's thought that roughly three-quarters of all animals can make their own light."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured, explaining carefully] So, how is it done? In most cases the light comes from a chemical reaction. A light-emitting compound, known generally as a luciferin, reacts with oxygen, and that reaction is speeded up by an enzyme called luciferase. [short pause] In some jellyfish, the reaction is set off by calcium, and students often write that calcium is what the luciferin combines with. It isn't. Calcium is only the trigger."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[enthusiastic] What's remarkable is how efficient this is. An old-fashioned light bulb loses most of its energy as heat. Bioluminescence loses almost none that way, which is why it's often described as cold light. For an animal that may go weeks between meals, that efficiency really matters."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] Then there's colour. In shallow coastal waters, you'll find quite a lot of green light, and a handful of species produce yellow. But in the deep ocean, the light is overwhelmingly blue, and that's because blue wavelengths travel the furthest through seawater. Most deep-sea animals, in fact, can't even see other colours."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[curious, engaging] And how do animals switch the light on and off? Well, that varies. Many species control it directly through their nervous system, so a flash can last a fraction of a second. Others, which have glowing tissue that's permanently lit, cover it with folds of skin, rather like shutters, or rotate the light organ inwards. Either way, the light is under the animal's control, and that's important for everything I'm going to describe."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[clarifying] I should add that not every glowing animal makes its own chemicals. Some appear to get their luciferin from their diet, from the food they eat. And others, the anglerfish being the classic example, don't produce the light themselves at all. Instead, they house bacteria inside specialised organs, and it's those that glow. The fish supplies nutrients; the bacteria supply light. A neat arrangement."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[signposting] Right. So that's the how. Now for the more interesting question: why? Why would an animal spend energy, however little, on making light, when doing so might also reveal it to something hungry? Biologists generally group the functions into three: hiding, defending and hunting. Plus one more I'll come to at the end."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining, slowing down] Let's start with hiding. In the upper part of the deep sea, there's still a faint glow coming from the surface. Now, to a predator looking up from below, it isn't an animal's colour, or even its size, that gives it away. It's its silhouette, that dark outline against the dim light above. So many fish and squid have light organs along their bellies, and they adjust the brightness to match the light from above. The outline simply disappears. This is called counter-illumination."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lively] Defence next. In shallow water, a squid that's under attack squirts out ink. But think about it: in complete darkness, a cloud of black ink is pretty useless. So some deep-sea squid, and certain shrimps too, release a glowing mucus instead. The predator is left lunging at a bright, sticky cloud while its prey slips away into the dark."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful] And then there's a rather clever strategy that's been nicknamed the burglar alarm. Some jellyfish, when they're grabbed, produce a spinning display of flashing light. You'd assume the aim is to frighten the attacker. Well, it's not so much about scaring it off as attracting attention. The flashes can be seen a long way off, and they bring in a larger predator, which may well go after whatever's attacking the jellyfish."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[animated] Now, hunting. The anglerfish I mentioned dangles its glowing lure in front of its mouth, and curious prey swim straight towards it. But my favourite example is the dragonfish. [short pause] Remember I said most deep-sea animals only see blue? Well, the dragonfish has organs under its eyes that give out red light. Its prey can't detect it, so the dragonfish is effectively using a private searchlight."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] And the fourth function: communication. Lanternfish have rows of light organs called photophores, and the pattern differs from one species to another. For a long time, people assumed these patterns mainly helped the fish to stay together in shoals. More recent work, though, suggests that their real purpose is to help individuals recognise potential mates of their own species in the dark."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[candid] I should say that studying all this is extremely difficult. Many of these animals are fragile, and when they're hauled up in nets from several kilometres down, they rarely survive the journey, and their light organs are often damaged. What's more, the moment you shine a torch at them to take a photograph, you swamp their own light completely. [short pause] So a lot of what we now know comes from cameras on remotely operated vehicles, which can sit quietly in the dark for hours and record extremely faint flashes."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[upbeat, wrapping up] Finally, a word on why this research matters outside marine biology. The genes for luciferase have been put to use well beyond the sea. One early application was in tests to detect bacteria in food, and that still goes on. But by far their most important use today is in medical research, especially on cancer. Scientists insert the gene into cancer cells, so that they can watch, in a living animal, how tumours grow and spread. So, from the bottom of the ocean to the hospital, which is quite a journey."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[brisk] Right, next week, we'll look at sound in the deep sea. Please read chapter seven before then."
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "BIOLUMINESCENCE IN DEEP-SEA ANIMALS",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "How light is produced: a luciferin combines with (31) ___; the enzyme luciferase accelerates this",
+       "answer": "oxygen",
+       "accepted": [],
+       "spoken": "oxygen",
+       "evidence": "A light-emitting compound, known generally as a luciferin, reacts with oxygen",
+       "trap": "Calcium is mentioned as what students wrongly think luciferin combines with; it is only the trigger."
+      },
+      {
+       "n": 32,
+       "prompt": "Called 'cold light' because hardly any energy is wasted as (32) ___",
+       "answer": "heat",
+       "accepted": [],
+       "spoken": "heat",
+       "evidence": "An old-fashioned light bulb loses most of its energy as heat. Bioluminescence loses almost none that way",
+       "trap": "Listeners must link 'none that way' back to heat; the light bulb comparison invites confusion."
+      },
+      {
+       "n": 33,
+       "prompt": "Colour: mostly (33) ___, which travels furthest in seawater",
+       "answer": "blue",
+       "accepted": [],
+       "spoken": "blue",
+       "evidence": "But in the deep ocean, the light is overwhelmingly blue",
+       "trap": "Green and yellow are mentioned for shallow coastal waters."
+      },
+      {
+       "n": 34,
+       "prompt": "Some species (e.g. anglerfish) depend on (34) ___ kept in special organs to produce light",
+       "answer": "bacteria",
+       "accepted": [],
+       "spoken": "bacteria",
+       "evidence": "they house bacteria inside specialised organs, and it's those that glow",
+       "trap": "Obtaining luciferin from the diet is a different method mentioned just before."
+      },
+      {
+       "n": 35,
+       "prompt": "Hiding (counter-illumination): lights on the underside hide the animal's (35) ___ from predators below",
+       "answer": "silhouette",
+       "accepted": [],
+       "spoken": "silhouette",
+       "evidence": "it isn't an animal's colour, or even its size, that gives it away. It's its silhouette",
+       "trap": "Colour and size are mentioned and explicitly rejected."
+      },
+      {
+       "n": 36,
+       "prompt": "Defence: some squid and shrimps release a luminous (36) ___ to distract predators",
+       "answer": "mucus",
+       "accepted": [],
+       "spoken": "mucus",
+       "evidence": "release a glowing mucus instead",
+       "trap": "Ink is what shallow-water squid use and is described as useless in the dark."
+      },
+      {
+       "n": 37,
+       "prompt": "'Burglar alarm': a jellyfish's flashes draw in a bigger (37) ___ that may attack its attacker",
+       "answer": "predator",
+       "accepted": [],
+       "spoken": "predator",
+       "evidence": "they bring in a larger predator, which may well go after whatever's attacking the jellyfish",
+       "trap": "Frightening the attacker is suggested and rejected ('not so much about scaring it off')."
+      },
+      {
+       "n": 38,
+       "prompt": "Hunting: dragonfish emit (38) ___ light that their prey cannot see",
+       "answer": "red",
+       "accepted": [],
+       "spoken": "red",
+       "evidence": "the dragonfish has organs under its eyes that give out red light",
+       "trap": "Blue, the usual colour, is recalled in the sentence just before."
+      },
+      {
+       "n": 39,
+       "prompt": "Communication: lanternfish light patterns now thought to help them identify (39) ___",
+       "answer": "mates",
+       "accepted": [],
+       "spoken": "mates",
+       "evidence": "their real purpose is to help individuals recognise potential mates",
+       "trap": "Staying together in shoals was the earlier, now doubted explanation."
+      },
+      {
+       "n": 40,
+       "prompt": "Medical use: luciferase genes allow scientists to observe how (40) ___ develop",
+       "answer": "tumours",
+       "accepted": [
+        "tumors"
+       ],
+       "spoken": "tumours",
+       "evidence": "so that they can watch, in a living animal, how tumours grow and spread",
+       "trap": "Detecting bacteria in food is an earlier, less important use."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "account": {
+      "id": "usr_demo_tanvir",
+      "name": "Tanvir Ahmed",
+      "phone": "1734519208",
+      "password": "Demo@1234",
+      "createdAt": "2026-06-15T10:00:00",
+      "isDemo": true,
+      "profile": {
+        "plan": "Pro",
+        "email": "tanvir.ahmed@example.com",
+        "testType": "Academic",
+        "targetBand": 7.5,
+        "examDaysFromNow": 48,
+        "diagnostic": "diagnostic",
+        "focusSkills": [
+          "writing",
+          "speaking"
+        ],
+        "dailyMinutes": 45,
+        "micAllowed": true,
+        "onboarded": true
+      }
+    },
+    "data": {},
+    "seedVersion": 5
+  }
+]

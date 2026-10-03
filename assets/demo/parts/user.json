@@ -1,0 +1,25 @@
+{
+  "id": "stu_001",
+  "name": "Tanvir Ahmed",
+  "firstName": "Tanvir",
+  "initials": "TA",
+  "phoneCountryCode": "+880",
+  "phone": "1734 519208",
+  "phoneMasked": "+880 1734 ••• 208",
+  "email": "tanvir.ahmed@example.com",
+  "plan": "Pro",
+  "testType": "Academic",
+  "targetBand": 7.5,
+  "estimatedBand": 6.5,
+  "examDate": "2026-11-14",
+  "examDateLabel": "Sat 14 Nov",
+  "daysToExam": 48,
+  "streakDays": 12,
+  "greeting": "Good evening",
+  "skills": [
+    { "key": "listening", "name": "Listening", "band": 7.0, "progress": 0.62 },
+    { "key": "reading", "name": "Reading", "band": 6.5, "progress": 0.48 },
+    { "key": "writing", "name": "Writing", "band": 6.0, "progress": 0.35 },
+    { "key": "speaking", "name": "Speaking", "band": 6.5, "progress": 0.41 }
+  ]
+}

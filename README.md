@@ -1,17 +1,47 @@
-# nexted_ielts_app
+# IELTS AI by nextED
 
-A new Flutter project.
+Flutter app for IELTS preparation — Listening, Reading, Writing, Speaking,
+full mock exams, resources and an in-app community.
 
-## Getting Started
+## Current stage: design build (demo data)
 
-This project is a starting point for a Flutter application.
+The UI is a screen-for-screen build of the **IELTS Platform — Day & Night**
+canvas (75 screens, rows A–H, each in Day and Night mode). The database / API
+layer is disconnected: every screen reads from
+`assets/demo/demo_data.json`.
 
-A few resources to get you started if this is your first Flutter project:
+```
+lib/
+  main.dart                 loads demo data, runs IeltsAiApp
+  app/
+    app.dart                MaterialApp, theme mode, route table
+    routes.dart             Routes.* for every screen + ScreenCatalog (A1…H11)
+    nav.dart                context.push / replace / resetTo / back / toast
+    data/demo.dart          Demo.section('writing'), Demo.user, JSON helpers
+    theme/                  Day/Night tokens (context.tk), ThemeData, controller
+    widgets/                shared kit (cards, buttons, chips, progress…) + AppIcons
+  features/
+    shell/                  bottom-nav shell: Home · Practice · Mock · Community · Profile
+    access/   (A1–A8)       splash, login, sign-up, OTP, reset, onboarding
+    home/     (B1–B8)       dashboard, module hub, analytics, schedule, notifications, profile, search
+    writing/  (C1–C13)
+    speaking/ (D1–D10)
+    reading/  (E1–E6)
+    listening/(F1–F8)
+    mock/     (G1–G11)
+    resources/(H1–H11)      resources + community
+    gallery/                Profile › Screen gallery: open any screen by its canvas code
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Demo JSON top-level keys: `user`, `access`, `home`, `writing`, `speaking`,
+`reading`, `listening`, `mock`, `resources` — shaped to become the seed data
+in the database phase.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Theme: switch Day/Night on the splash screen or in Profile.
+
+## Run
+
+```
+flutter pub get
+flutter run
+```

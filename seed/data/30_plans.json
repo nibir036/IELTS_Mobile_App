@@ -1,0 +1,31 @@
+{
+  "table": "plans",
+  "items": [
+    {
+      "id": "free",
+      "name": "Free",
+      "tagline": "Everything you need to start practising.",
+      "priceMonthly": 0,
+      "priceYearly": 0,
+      "launchPricing": false,
+      "highlights": [
+        "Practice questions for all four skills",
+        "1 full mock test a month",
+        "3 AI writing reports a month"
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "tagline": "Unlimited AI feedback for every skill.",
+      "priceMonthly": 499,
+      "priceYearly": 3999,
+      "launchPricing": true,
+      "highlights": [
+        "Unlimited mock tests with band reports",
+        "Unlimited AI writing and speaking feedback",
+        "Pronunciation scoring and the full content library"
+      ]
+    }
+  ]
+}

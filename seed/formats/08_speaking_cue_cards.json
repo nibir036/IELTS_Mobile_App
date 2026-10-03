@@ -1,0 +1,93 @@
+{
+  "_format": {
+    "name": "speaking_cue_cards",
+    "group": "content",
+    "table": "speaking_cue_cards",
+    "primaryKey": "id",
+    "description": "Speaking Part 2 cue card with bullets, Part 3 follow-ups and sample notes.",
+    "currentSourceInApp": "speaking.cueCards",
+    "fields": {
+      "id": "string",
+      "topic": "string",
+      "title": "string",
+      "prompt": "string",
+      "bullets": "array",
+      "part3": "array",
+      "sampleNotes": "array"
+    },
+    "required": [
+      "id",
+      "topic",
+      "title",
+      "prompt",
+      "bullets",
+      "part3"
+    ],
+    "relations": [],
+    "notes": [
+      "topic: People|Places|Objects|Events|Experiences|Media.",
+      "Add \"season\" (e.g. \"2026-09/2026-12\") when you rotate cue cards by exam season.",
+      "part3 inside the card is kept for the linked Part 3 discussion; Part 3 is also its own table (26)."
+    ],
+    "recordCountToday": 44,
+    "practiceParts": [
+      {
+        "part": 2,
+        "label": "Speaking Part 2 (long turn)",
+        "minutes": "3-4",
+        "format": "1 min preparation, then speak for up to 2 min on the cue card",
+        "practisedOn": "Speaking → cue card (D3) → recording (D4); mock G7"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "cc07",
+      "topic": "People",
+      "title": "Describe a person who taught you something useful",
+      "prompt": "Describe a person who taught you something useful",
+      "bullets": [
+        "who this person is",
+        "what they taught you",
+        "how they taught you",
+        "and explain why it was useful"
+      ],
+      "part3": [
+        "What qualities make a good teacher?",
+        "Do people learn more from family or from school?",
+        "Is it better to learn practical skills from a person or from online videos?",
+        "Should older people keep learning new skills?",
+        "How has the role of teachers changed in recent years?"
+      ],
+      "sampleNotes": [
+        "My grandfather — retired electrician, patient and calm",
+        "Taught me to fix basic wiring and change a fuse at 14",
+        "Useful: saved money, gave me confidence to try repairs myself"
+      ]
+    },
+    {
+      "id": "cc22",
+      "topic": "Places",
+      "title": "Describe a quiet place you like to visit",
+      "prompt": "Describe a quiet place you like to visit",
+      "bullets": [
+        "where it is",
+        "how often you go there",
+        "what you do there",
+        "and explain why you like it"
+      ],
+      "part3": [
+        "Why do people need quiet places in cities?",
+        "Are libraries still important today?",
+        "Is noise pollution getting worse in your country?",
+        "Should there be more rules about noise in public places?",
+        "Do young people enjoy silence as much as older people?"
+      ],
+      "sampleNotes": [
+        "Rooftop garden of the city library, 10 minutes from home",
+        "Go most Saturday mornings — read, plan my week",
+        "Contrast with traffic noise; helps me think clearly"
+      ]
+    }
+  ]
+}

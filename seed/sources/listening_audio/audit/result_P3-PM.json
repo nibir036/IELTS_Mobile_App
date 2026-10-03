@@ -1,0 +1,166 @@
+{
+ "code": "P3-PM",
+ "items": [
+  {
+   "n": 1,
+   "status": "differs",
+   "key": "D",
+   "audio_answer": "H",
+   "evidence": "[0:08] 'it's against the south wall just to your right.'",
+   "note": "D is left of the door; recording says right = H. Note H also matches the emergency shower (Q8), so the recorded plan is internally inconsistent with the layout."
+  },
+  {
+   "n": 2,
+   "status": "differs",
+   "key": "H",
+   "audio_answer": "G",
+   "evidence": "[0:23] 'In the middle of the room at the instructor's desk facing the door.'",
+   "note": "Desk is in the centre (G), not right of the door."
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:27] left-hand end of back wall",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "F",
+   "audio_answer": "F",
+   "evidence": "[0:27] middle",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "J",
+   "audio_answer": "J",
+   "evidence": "[0:27] right-hand end nearest the corner",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "differs",
+   "key": "B",
+   "audio_answer": "E",
+   "evidence": "[0:40] 'On the same wall at the far end, just below workbench three'",
+   "note": "'Same wall' = right-hand (east) wall, far end next to workbench 3 = north-east corner (E), not north-west (B)."
+  },
+  {
+   "n": 7,
+   "status": "differs",
+   "key": "E",
+   "audio_answer": "I",
+   "evidence": "[0:33] 'tall unit running down the right-hand wall... runs most of the length of that wall.'",
+   "note": "Storage cupboard is along the east wall (I = east wall halfway along); E is taken by the fume cupboard per recording."
+  },
+  {
+   "n": 8,
+   "status": "differs",
+   "key": "C",
+   "audio_answer": "H",
+   "evidence": "[0:53] 'in the corner on the right as you come in, at the bottom end of the storage cupboard.'",
+   "note": "South-east corner = H, not west wall (C). Collides with Q1, which the recording also puts at H."
+  },
+  {
+   "n": 9,
+   "status": "ambiguous",
+   "key": "G",
+   "audio_answer": "G? (unclear)",
+   "evidence": "[0:46] 'small machine just to the right of your desk'",
+   "note": "Recording puts the desk itself in the centre (G); the machine is 'to the right of' it, which matches no labelled position. Unused letters per recording are B and C, neither fits."
+  },
+  {
+   "n": 10,
+   "status": "differs",
+   "key": "I",
+   "audio_answer": "D",
+   "evidence": "[0:17] 'Turn left as you come in and it's tucked into the corner.'",
+   "note": "Left of the door, south-west corner = D, not east wall (I)."
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "E",
+   "audio_answer": "E",
+   "evidence": "[1:02]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[1:13] nearest the door on north wall",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "G",
+   "audio_answer": "G",
+   "evidence": "[1:13]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[1:13]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "J",
+   "audio_answer": "J",
+   "evidence": "[1:21] 'on the wall opposite the door in the upper half'",
+   "note": "East wall, northern half; J (north-east corner) is the best fit given charging station below it."
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:21] 'Below it, on the same wall'",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "differs",
+   "key": "I",
+   "audio_answer": "H",
+   "evidence": "[1:28] 'on the south wall at the end nearest the door.'",
+   "note": "Door is mid west wall, so south wall's west end = H; I is the south-east corner."
+  },
+  {
+   "n": 18,
+   "status": "differs",
+   "key": "D",
+   "audio_answer": "I",
+   "evidence": "[1:28] 'The waste disposal bin is at the other end of that same wall.'",
+   "note": "Other (east) end of south wall = I (south-east corner); D is south wall middle."
+  },
+  {
+   "n": 19,
+   "status": "differs",
+   "key": "H",
+   "audio_answer": "F",
+   "evidence": "[1:35] 'Just inside the door, on your left as you come in.'",
+   "note": "Entering eastwards through the west wall, left = north side of door = F."
+  },
+  {
+   "n": 20,
+   "status": "ambiguous",
+   "key": "F",
+   "audio_answer": "none fits (south of door)",
+   "evidence": "[1:38] 'Just inside the door too, but on your right.'",
+   "note": "Right of door = west wall just south of door; F is north of the door (the first-aid kit's spot per audio). No option marks west wall south of door; nearest is H (south wall west end), which the recording gives to the glove drawer."
+  }
+ ],
+ "summary": "9 ok; 9 differ, 2 ambiguous - the recorded directions describe a different layout from the keyed plan (Map 1: Q1,2,6,7,8,10; Map 2: Q17-20). Plan images/positions or audio need rework."
+}

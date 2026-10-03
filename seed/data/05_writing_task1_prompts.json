@@ -1,0 +1,697 @@
+{
+  "table": "writing_prompts",
+  "items": [
+    {
+      "id": "t1_internet_access",
+      "type": "line",
+      "title": "Internet access",
+      "prompt": "The graph shows the percentage of households with internet access in three countries between 2000 and 2020. Summarise the information by selecting and reporting the main features.",
+      "chart": {
+        "unit": "%",
+        "xLabels": [
+          "2000",
+          "2005",
+          "2010",
+          "2015",
+          "2020"
+        ],
+        "series": [
+          {
+            "name": "Canada",
+            "values": [
+              42,
+              55,
+              66,
+              74,
+              82
+            ]
+          },
+          {
+            "name": "Brazil",
+            "values": [
+              18,
+              32,
+              47,
+              60,
+              72
+            ]
+          },
+          {
+            "name": "India",
+            "values": [
+              9,
+              15,
+              24,
+              38,
+              55
+            ]
+          }
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The line graph compares the proportion of households with internet access in Canada, Brazil and India between 2000 and 2020.\n\nOverall, access rose steadily in all three countries over the period, although Canada remained the most connected nation throughout, while India, despite starting from the lowest base, recorded the most dramatic growth in the final decade.\n\nIn 2000, just over two-fifths of Canadian households (42%) were online, compared with 18% in Brazil and a mere 9% in India. Over the following ten years, the Canadian figure climbed to 66%, whereas Brazil saw its share more than double to 47%. India, by contrast, progressed relatively slowly, reaching only 24% by 2010.\n\nFrom 2010 onwards, the gap between the three countries narrowed considerably. Canada continued its upward trend to finish at 82% in 2020, and Brazil rose at a similar pace to 72%. Meanwhile, the proportion of connected homes in India accelerated sharply, more than doubling in ten years to reach 55% by the end of the period, although it still lagged some way behind the other two countries."
+      }
+    },
+    {
+      "id": "t1_coffee_exports",
+      "type": "bar",
+      "title": "Coffee exports",
+      "prompt": "The bar chart shows the value of coffee exported by four countries in 2010 and 2020, in billions of US dollars. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "unit": "US$ bn",
+        "xLabels": [
+          "Brazil",
+          "Vietnam",
+          "Colombia",
+          "Ethiopia"
+        ],
+        "series": [
+          {
+            "name": "2010",
+            "values": [
+              5.7,
+              1.9,
+              1.9,
+              0.8
+            ]
+          },
+          {
+            "name": "2020",
+            "values": [
+              4.9,
+              2.2,
+              2.5,
+              0.9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "t1_water_cycle",
+      "type": "process",
+      "title": "Water cycle",
+      "prompt": "The diagram shows the water cycle, the continuous movement of water on, above and below the surface of the Earth. Summarise the information by selecting and reporting the main features.",
+      "chart": {
+        "steps": [
+          "Evaporation from oceans",
+          "Water vapour rises and cools in the atmosphere",
+          "Condensation into clouds",
+          "Precipitation as rain or snow",
+          "Surface run-off and infiltration",
+          "Return to rivers and the sea"
+        ]
+      }
+    },
+    {
+      "id": "w1_01",
+      "type": "line",
+      "title": "International tourist arrivals in three cities",
+      "prompt": "The graph below shows the number of international tourists (in millions) who visited three cities between 2004 and 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "unit": "millions",
+        "xLabels": [
+          "2004",
+          "2008",
+          "2012",
+          "2016",
+          "2020",
+          "2024"
+        ],
+        "series": [
+          {
+            "name": "Lisbon",
+            "values": [
+              2.1,
+              2.6,
+              3.4,
+              4.8,
+              1.3,
+              5.9
+            ]
+          },
+          {
+            "name": "Prague",
+            "values": [
+              4.2,
+              4.6,
+              5.1,
+              5.6,
+              1.4,
+              5.3
+            ]
+          },
+          {
+            "name": "Vienna",
+            "values": [
+              3.5,
+              3.9,
+              4.3,
+              4.7,
+              1.2,
+              4.9
+            ]
+          }
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The line graph illustrates how many international visitors, in millions, travelled to Lisbon, Prague and Vienna over a twenty-year period from 2004 to 2024.\n\nOverall, all three cities attracted more foreign tourists by the end of the period, despite a dramatic collapse in 2020. The most striking feature is the rapid rise of Lisbon, which began as the least visited city but finished well ahead of the other two.\n\nIn 2004, Prague was the most popular destination with 4.2 million arrivals, followed by Vienna with 3.5 million, while Lisbon received only 2.1 million. Over the next twelve years, Prague and Vienna grew steadily, reaching 5.6 and 4.7 million respectively in 2016. Lisbon, however, expanded far more quickly, more than doubling to 4.8 million and drawing level with Vienna.\n\nIn 2020, visitor numbers plummeted in every city to between 1.2 and 1.4 million. The recovery that followed was uneven: by 2024 Lisbon had surged to a peak of 5.9 million, whereas Prague (5.3 million) had not quite regained its earlier level and Vienna climbed only slightly above it, to 4.9 million."
+      }
+    },
+    {
+      "id": "w1_02",
+      "type": "line",
+      "title": "Electricity generation by source",
+      "prompt": "The graph below shows the proportion of electricity generated from four sources in one European country between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "unit": "%",
+        "xLabels": [
+          "2000",
+          "2005",
+          "2010",
+          "2015",
+          "2020"
+        ],
+        "series": [
+          {
+            "name": "Coal",
+            "values": [
+              48,
+              44,
+              35,
+              22,
+              9
+            ]
+          },
+          {
+            "name": "Natural gas",
+            "values": [
+              30,
+              34,
+              38,
+              36,
+              33
+            ]
+          },
+          {
+            "name": "Wind",
+            "values": [
+              2,
+              5,
+              11,
+              20,
+              31
+            ]
+          },
+          {
+            "name": "Solar",
+            "values": [
+              0,
+              1,
+              4,
+              9,
+              15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "w1_03",
+      "type": "bar",
+      "title": "Weekly exercise by age and gender",
+      "prompt": "The bar chart below shows the percentage of men and women in one country who did at least 150 minutes of exercise per week in 2022, by age group. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "unit": "%",
+        "xLabels": [
+          "16–24",
+          "25–34",
+          "35–44",
+          "45–54",
+          "55–64",
+          "65+"
+        ],
+        "series": [
+          {
+            "name": "Men",
+            "values": [
+              74,
+              68,
+              61,
+              55,
+              49,
+              38
+            ]
+          },
+          {
+            "name": "Women",
+            "values": [
+              63,
+              60,
+              58,
+              54,
+              47,
+              31
+            ]
+          }
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The bar chart compares the proportions of men and women in one country who exercised for at least 150 minutes a week in 2022, across six age groups.\n\nOverall, participation in regular exercise declined steadily with age for both sexes. Men were more active than women in every age bracket, although the difference was most noticeable among the youngest and oldest adults.\n\nAmong 16- to 24-year-olds, almost three-quarters of men (74%) met the weekly target, compared with 63% of women, a gap of eleven percentage points. For men, the figure then fell consistently, to 61% in the 35–44 group and 55% among those aged 45 to 54. The decrease for women over the same ages was much more gradual, from 60% to 54%, which meant that the two sexes were almost level in middle age.\n\nIn the older age groups, the downward trend continued. Just under half of men aged 55 to 64 exercised sufficiently, compared with 47% of women. The lowest rates were recorded among people aged 65 and over, where only 38% of men and fewer than a third of women (31%) reached the recommended level."
+      }
+    },
+    {
+      "id": "w1_04",
+      "type": "pie",
+      "title": "Household spending, 1980 and 2020",
+      "prompt": "The pie charts below show how the average household in one country spent its income in 1980 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "unit": "%",
+        "charts": [
+          {
+            "label": "1980",
+            "slices": [
+              {
+                "name": "Food",
+                "value": 32
+              },
+              {
+                "name": "Housing",
+                "value": 21
+              },
+              {
+                "name": "Transport",
+                "value": 14
+              },
+              {
+                "name": "Clothing",
+                "value": 11
+              },
+              {
+                "name": "Leisure",
+                "value": 9
+              },
+              {
+                "name": "Other",
+                "value": 13
+              }
+            ]
+          },
+          {
+            "label": "2020",
+            "slices": [
+              {
+                "name": "Food",
+                "value": 17
+              },
+              {
+                "name": "Housing",
+                "value": 34
+              },
+              {
+                "name": "Transport",
+                "value": 15
+              },
+              {
+                "name": "Clothing",
+                "value": 5
+              },
+              {
+                "name": "Leisure",
+                "value": 16
+              },
+              {
+                "name": "Other",
+                "value": 13
+              }
+            ]
+          }
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The two pie charts illustrate the proportion of income that an average household in one country allocated to six categories of expenditure in 1980 and 2020.\n\nOverall, the pattern of spending changed considerably over the forty years. Whereas food was the largest single expense in 1980, housing had become by far the biggest outgoing by 2020, and leisure also grew in importance.\n\nIn 1980, almost a third of household income (32%) was spent on food, while housing accounted for just over a fifth (21%). Transport took 14% of the budget, clothing 11% and leisure a modest 9%. The remaining 13% went on other items.\n\nBy 2020, the share devoted to housing had risen sharply to 34%, making it more than twice as large as the proportion spent on food, which had almost halved to 17%. Similarly, spending on clothing fell from 11% to only 5%. In contrast, leisure activities absorbed a significantly larger share, at 16%, while the figures for transport and other expenses remained virtually unchanged at 15% and 13% respectively."
+      }
+    },
+    {
+      "id": "w1_05",
+      "type": "table",
+      "title": "Underground railway systems in five cities",
+      "prompt": "The table below gives information about the underground railway systems in five cities. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "columns": [
+          "City",
+          "Date opened",
+          "Route length (km)",
+          "Passengers per year (millions)"
+        ],
+        "rows": [
+          [
+            "London",
+            "1863",
+            "402",
+            "1,026"
+          ],
+          [
+            "Paris",
+            "1900",
+            "226",
+            "1,498"
+          ],
+          [
+            "Tokyo",
+            "1927",
+            "304",
+            "2,860"
+          ],
+          [
+            "Washington DC",
+            "1976",
+            "208",
+            "112"
+          ],
+          [
+            "Kyoto",
+            "1981",
+            "31",
+            "126"
+          ]
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The table compares the underground railway networks of five cities in terms of when they opened, the length of their routes and the number of passengers they carry annually.\n\nOverall, the older systems tend to be the most extensive, although the size of a network does not necessarily determine how heavily it is used. Tokyo's system is by far the busiest, while the Kyoto metro is the smallest by a wide margin.\n\nLondon has the oldest underground railway, which opened in 1863, and it also has the longest route, at 402 kilometres. Paris followed in 1900 and Tokyo in 1927, with networks of 226 and 304 kilometres respectively. The two most recent systems, in Washington DC (1976) and Kyoto (1981), differ greatly in scale: Washington's route covers 208 kilometres, whereas Kyoto's is just 31 kilometres long.\n\nIn terms of passenger numbers, Tokyo carries an impressive 2,860 million people a year, almost twice as many as Paris (1,498 million). Despite having the longest network, London transports around 1,026 million passengers. Washington DC, meanwhile, serves only 112 million, fewer even than the much shorter Kyoto system, with 126 million."
+      }
+    },
+    {
+      "id": "w1_06",
+      "type": "process",
+      "title": "Recycling glass bottles",
+      "prompt": "The diagram below shows how glass bottles are recycled. Summarise the information by selecting and reporting the main features.",
+      "chart": {
+        "steps": [
+          "Used bottles are placed in public bottle banks",
+          "Bottles are collected by lorry and taken to a recycling plant",
+          "Glass is sorted by colour and washed to remove labels and dirt",
+          "Clean glass is crushed into small pieces called cullet",
+          "Cullet is mixed with sand, soda ash and limestone",
+          "The mixture is melted in a furnace at about 1,500°C",
+          "Molten glass is poured into moulds to form new bottles",
+          "New bottles are filled, sealed and delivered to shops"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The diagram illustrates the stages by which used glass bottles are collected, processed and turned into new bottles that are returned to the shops.\n\nOverall, the process is cyclical and consists of eight main steps, beginning with the collection of empty bottles from bottle banks and ending with the delivery of new, filled bottles to retailers.\n\nAt the first stage, consumers place their empty bottles in public bottle banks. These are then emptied by lorries, which transport the glass to a recycling plant. On arrival, the bottles are sorted according to colour and washed thoroughly so that labels and dirt are removed. The clean glass is subsequently crushed into small fragments, which are known as cullet.\n\nIn the next phase, the cullet is combined with raw materials, namely sand, soda ash and limestone. This mixture is heated in a furnace to a temperature of approximately 1,500 degrees Celsius until it melts. The molten glass is then poured into moulds, where it is shaped into new bottles. Finally, these bottles are filled with drinks, sealed and distributed to shops, after which the cycle can begin again."
+      }
+    },
+    {
+      "id": "w1_07",
+      "type": "map",
+      "title": "Changes to the village of Ashford Green",
+      "prompt": "The maps below show the village of Ashford Green in 1995 and today. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "before": {
+          "label": "1995",
+          "features": [
+            "Main road running east–west through the village centre",
+            "Farmland to the north of the main road",
+            "Small primary school next to the church",
+            "Railway station in the south-east, with a goods yard",
+            "Row of shops along the main road",
+            "Woodland in the south-west corner",
+            "Village green in the centre"
+          ]
+        },
+        "after": {
+          "label": "Today",
+          "features": [
+            "Main road still runs east–west; a bypass now passes north of the village",
+            "Farmland replaced by a housing estate with around 200 homes",
+            "Primary school enlarged and a playing field added",
+            "Railway station retained; goods yard converted into a car park",
+            "Shops along the main road, plus a new supermarket on the eastern edge",
+            "Woodland reduced by half; a cycle path runs through it",
+            "Village green unchanged"
+          ]
+        }
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The two maps show how the village of Ashford Green has developed between 1995 and the present day.\n\nOverall, the village has become more residential and better connected, although several original features, such as the station and the village green, remain.\n\nIn 1995, the village was centred on a green, with a row of shops along a main road that ran from east to west. To the north of this road lay open farmland, while a small primary school stood beside the church. In the south-east there was a railway station with a goods yard, and the south-western corner was covered by woodland.\n\nSince then, the farmland to the north has been replaced by a housing estate of around 200 homes, and a bypass has been constructed beyond it, so traffic can now avoid the centre. The school has been extended and now has its own playing field. The goods yard is now a car park, and a supermarket has opened on the eastern edge. Finally, the woodland has been reduced to half its former size, with a cycle path now running through it."
+      }
+    },
+    {
+      "id": "w1_08",
+      "type": "mixed",
+      "title": "College enrolment and student funding",
+      "prompt": "The bar chart below shows the number of students enrolled on five types of course at a technical college in 2014 and 2024, and the pie chart shows how students paid their fees in 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "parts": [
+          {
+            "type": "bar",
+            "unit": "students",
+            "xLabels": [
+              "Engineering",
+              "Computing",
+              "Health care",
+              "Construction",
+              "Hospitality"
+            ],
+            "series": [
+              {
+                "name": "2014",
+                "values": [
+                  820,
+                  540,
+                  610,
+                  700,
+                  450
+                ]
+              },
+              {
+                "name": "2024",
+                "values": [
+                  760,
+                  1230,
+                  940,
+                  520,
+                  380
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pie",
+            "unit": "%",
+            "charts": [
+              {
+                "label": "Fees paid by (2024)",
+                "slices": [
+                  {
+                    "name": "Government loan",
+                    "value": 46
+                  },
+                  {
+                    "name": "Employer",
+                    "value": 24
+                  },
+                  {
+                    "name": "Family",
+                    "value": 18
+                  },
+                  {
+                    "name": "Scholarship",
+                    "value": 8
+                  },
+                  {
+                    "name": "Own savings",
+                    "value": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The bar chart compares student numbers on five types of course at a technical college in 2014 and 2024, while the pie chart shows how students financed their studies in 2024.\n\nOverall, enrolment shifted markedly towards computing and health care over the decade, while the more traditional practical subjects lost students. In terms of funding, government loans were the most common source of payment.\n\nIn 2014, engineering was the most popular course, with 820 students, followed by construction with 700. Health care, computing and hospitality attracted between 450 and 610 students each. By 2024, however, computing had more than doubled to 1,230 enrolments, making it by far the largest department, and health care had also grown substantially, to 940. In contrast, numbers fell in engineering (760), construction (520) and hospitality (380).\n\nTurning to funding, almost half of all students (46%) relied on a government loan in 2024. Employers paid the fees of nearly a quarter of learners (24%), and a further 18% were supported by their families. Only a small minority were funded by scholarships (8%) or paid from their own savings (4%)."
+      }
+    },
+    {
+      "id": "w1_09",
+      "type": "bar",
+      "title": "Car ownership in five countries",
+      "prompt": "The bar chart below shows the number of cars per 1,000 people in five countries in 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "unit": "cars per 1,000 people",
+        "xLabels": [
+          "USA",
+          "Germany",
+          "Japan",
+          "Mexico",
+          "China"
+        ],
+        "series": [
+          {
+            "name": "2000",
+            "values": [
+              760,
+              530,
+              410,
+              150,
+              12
+            ]
+          },
+          {
+            "name": "2020",
+            "values": [
+              820,
+              580,
+              590,
+              290,
+              190
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "w1_10",
+      "type": "pie",
+      "title": "Sources of household waste",
+      "prompt": "The pie charts below show the composition of household waste in one city in 2005 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "unit": "%",
+        "charts": [
+          {
+            "label": "2005",
+            "slices": [
+              {
+                "name": "Food and garden",
+                "value": 38
+              },
+              {
+                "name": "Paper and card",
+                "value": 24
+              },
+              {
+                "name": "Plastics",
+                "value": 11
+              },
+              {
+                "name": "Glass",
+                "value": 9
+              },
+              {
+                "name": "Metals",
+                "value": 6
+              },
+              {
+                "name": "Other",
+                "value": 12
+              }
+            ]
+          },
+          {
+            "label": "2025",
+            "slices": [
+              {
+                "name": "Food and garden",
+                "value": 31
+              },
+              {
+                "name": "Paper and card",
+                "value": 15
+              },
+              {
+                "name": "Plastics",
+                "value": 22
+              },
+              {
+                "name": "Glass",
+                "value": 7
+              },
+              {
+                "name": "Metals",
+                "value": 5
+              },
+              {
+                "name": "Other",
+                "value": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "w1_11",
+      "type": "table",
+      "title": "Average weekly hours of screen time",
+      "prompt": "The table below shows the average number of hours per week that children in three age groups spent on different screen activities in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "columns": [
+          "Activity",
+          "Ages 5–7",
+          "Ages 8–11",
+          "Ages 12–15"
+        ],
+        "rows": [
+          [
+            "Watching TV / video",
+            "9.5",
+            "11.0",
+            "12.5"
+          ],
+          [
+            "Gaming",
+            "3.0",
+            "6.5",
+            "8.0"
+          ],
+          [
+            "Social media",
+            "0.5",
+            "2.0",
+            "9.0"
+          ],
+          [
+            "Homework online",
+            "0.5",
+            "2.5",
+            "5.5"
+          ],
+          [
+            "Total",
+            "13.5",
+            "22.0",
+            "35.0"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "w1_12",
+      "type": "process",
+      "title": "Producing chocolate from cocoa beans",
+      "prompt": "The diagram below shows the stages in the production of chocolate from cocoa beans. Summarise the information by selecting and reporting the main features.",
+      "chart": {
+        "steps": [
+          "Ripe cocoa pods are harvested by hand from the trees",
+          "Pods are split open and the beans removed",
+          "Beans are left to ferment under banana leaves for about a week",
+          "Beans are dried in the sun and packed into sacks",
+          "Sacks are shipped to a chocolate factory",
+          "Beans are roasted and their shells removed",
+          "The remaining nibs are ground into a thick liquid",
+          "The liquid is mixed with sugar and milk, then poured into moulds"
+        ]
+      }
+    }
+  ]
+}

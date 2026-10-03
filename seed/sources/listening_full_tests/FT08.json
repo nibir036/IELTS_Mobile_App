@@ -1,0 +1,1121 @@
+{
+ "id": "FT08",
+ "title": "Listening Full Test 8",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "A Volunteer Conservation Week",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "A British woman phones a Canadian conservation organisation to enquire about a volunteer week of trail repair and wildlife surveys in a national park.",
+   "accent": "Canadian (en-CA) organiser · British (en-GB) caller",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Greg",
+     "desc": "Volunteer coordinator — male, 40s, relaxed, friendly, outdoorsy; Canadian accent (en-CA)"
+    },
+    {
+     "label": "Helen",
+     "desc": "Caller — female, early 30s, polite, curious, a little self-deprecating; British accent (en-GB)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear a woman phoning an organisation to ask about a volunteer conservation holiday. First, you have some time to look at Questions 1 to 5.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Greg",
+     "text": "[a phone line clicks open] [warm, easy-going] Good afternoon, Northwood Conservation Volunteers, Greg speaking. How can I help?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[polite, slightly hesitant] Oh, hello. I'm calling from England, actually, so, um, sorry if there's a bit of a delay on the line. I saw your website and I'm interested in one of the volunteer weeks in the national park."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[friendly] No problem at all, you're coming through fine. You'd be looking at Kettle Ridge, then. That's the only park we're working in this summer."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[relieved] Yes, that's the one. Could you tell me a bit about what the volunteers actually do? The website was a little bit vague."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[light laugh] Yeah, we keep meaning to update it. So basically there are two parts to it. Half the time you're out on the trails doing repairs, and the rest of the time you're helping our ecologists with wildlife surveys."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[interested] What kind of wildlife? I read something about birds."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[explaining] Right, that'd be the old page. For years the surveys were all about songbirds, counting nests, that kind of thing. And people still ask about the beavers, because they're kind of famous out there. But this season the funding's come through to study bats, so that's what all the survey work is focused on."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[delighted] Oh, I'd love that, actually. And the trail work, is that very heavy?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[reassuring, but honest] It's physical, I won't pretend it isn't. The park's had a lot of erosion. Last year the volunteers rebuilt the boardwalks across the wetland, so those are done. This year it's mainly the steeper sections up the ridge, where the old wooden steps have rotted, so you'd be pulling those out and putting new ones in."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[thoughtful] Right. OK. [short pause] And dates. I'm fairly flexible, but July would suit me best."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[typing, murmuring] July, let me pull that up. [normal voice] So each week runs Sunday to Saturday. The week starting the fifth is full, I'm afraid."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[hopeful] What about the twelfth?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[checking, then apologetic] The twelfth... I've got one place left. Oh, no, hang on, somebody reserved that this morning. Sorry about that. But the week beginning the nineteenth has plenty of room."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[decisive] The nineteenth, then. That's better, actually, because I've got a wedding on the twelfth anyway. [chuckles] I don't know why I suggested it."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[laughs] Fair enough. Now, cost. The standard fee is five hundred and sixty dollars for the week. That covers your accommodation, all your meals and transport inside the park."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[checking] Is that Canadian dollars?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[matter-of-fact] Canadian, yes. There is a reduced rate of four hundred and twenty for full-time students."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[wry] Ah. I finished university about ten years ago, so I don't think that one applies to me."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[good-humoured] Afraid not. And accommodation: a lot of people assume they'll be camping in tents, but we stopped doing that a few years back after some, ah, encounters with the local bears."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[alarmed laugh] Right!"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[chuckling] So now everyone stays in a bunkhouse near the ranger station. There are a couple of log cabins on the site as well, but those are for the staff, unfortunately."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[amused] A bunkhouse. That sounds very Canadian."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 6 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Greg",
+     "text": "[practical] So, packing. We'll email you a full list, but just so you know, we provide work gloves, hard hats and all the tools. Bedding's provided too, so you won't need a sleeping bag."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[making a note] Good, that saves on luggage. What about equipment for the bat surveys? Do I need anything special?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[explaining] The bat detectors, the electronic gadgets that pick up their calls, we lend you those. They're expensive and pretty delicate. But we've only got a few pairs of binoculars, and they're always in demand, so we do ask volunteers to bring their own."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[thinking aloud] I've got an old pair somewhere in the loft. [brisk] And do I need to be especially fit?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[candid] Reasonably. The guidance used to say you had to manage twenty kilometres a day on foot, which put a lot of people off, and frankly most days we weren't doing anything like that. So now we say you need to be comfortable hiking about twelve kilometres a day, with a pack."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[confident] Twelve's fine. I do a lot of walking at home."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[businesslike] Great. And in terms of paperwork, you don't need any first-aid qualification, all our team leaders are trained, but we do need a reference from your employer or a tutor, just saying you're reliable."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[cheerful] I can get one from my manager, no problem. Now, how would I actually get to the park? I'm assuming I'd fly into Toronto?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[explaining] Most people do, yeah. Then you'd take the train north. We used to pick people up at the airport, but it was a five-hour drive each way, so we don't do that any more. Instead there's a free shuttle bus from the train station in Pellatt."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[unsure] Sorry, could you spell that?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[slowly, spelling each letter clearly] Sure. P... E... double L... A... T... T."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[repeating slowly, as if writing it down] P, E, double L, A, double T. Got it."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[helpful] The shuttle leaves at four on the Sunday afternoon, so you'd want to be on the morning train."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[thinking] OK. And is there any free time during the week, or is it all work?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[upbeat] There's free time most evenings, and on the final day there's an optional trip. It used to be a boat cruise on the lake, but the operator went out of business, so now it's a canoe trip with one of the rangers. That's forty dollars extra. Or if you'd prefer, there's a guided hike that's free, but honestly, most people have had enough of hiking by then."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[laughs] I can imagine. I'll go for the canoe trip, I think. [short pause] So what's the next step?"
+    },
+    {
+     "speaker": "Greg",
+     "text": "[wrapping up, friendly] I'll send you an application form by email. If I could just take your name and email address?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[clearly] It's Helen Marsh, and the email is helen dot marsh at our mail dot com, all one word."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[reading back] Helen dot marsh at ourmail dot com. Perfect. You should get that within the hour."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[warm] Brilliant. Thanks so much, Greg, you've been really helpful."
+    },
+    {
+     "speaker": "Greg",
+     "text": "[cheerful] My pleasure. Hope we see you in July. Bye now."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 1. You now have one minute to check your answers to Part 1.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-10",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "KETTLE RIDGE NATIONAL PARK — VOLUNTEER WEEKS",
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Wildlife surveys: this year's research is on ___",
+       "answer": "bats",
+       "accepted": [
+        "bats"
+       ],
+       "spoken": "bats",
+       "evidence": "this season the funding's come through to study bats",
+       "trap": "Birds (the old surveys) and beavers (famous in the park) are both mentioned first."
+      },
+      {
+       "n": 2,
+       "prompt": "Trail repairs: replace rotten ___ on the steep slopes of the ridge",
+       "answer": "steps",
+       "accepted": [
+        "steps"
+       ],
+       "spoken": "steps",
+       "evidence": "where the old wooden steps have rotted",
+       "trap": "Boardwalks are mentioned, but they were rebuilt last year."
+      },
+      {
+       "n": 3,
+       "prompt": "Week chosen: starts on Sunday ___ July",
+       "answer": "19",
+       "accepted": [
+        "19th",
+        "nineteenth",
+        "19"
+       ],
+       "spoken": "the nineteenth",
+       "evidence": "But the week beginning the nineteenth has plenty of room",
+       "trap": "The fifth is full and the last place on the twelfth has just been taken; Helen also has a wedding on the twelfth."
+      },
+      {
+       "n": 4,
+       "prompt": "Fee: $___ (includes all food)",
+       "answer": "560",
+       "accepted": [
+        "560",
+        "$560"
+       ],
+       "spoken": "five hundred and sixty dollars",
+       "evidence": "The standard fee is five hundred and sixty dollars for the week",
+       "trap": "The student rate of 420 is mentioned, but Helen is not a student."
+      },
+      {
+       "n": 5,
+       "prompt": "Volunteers sleep in a ___ (not tents)",
+       "answer": "bunkhouse",
+       "accepted": [
+        "bunkhouse"
+       ],
+       "spoken": "bunkhouse",
+       "evidence": "So now everyone stays in a bunkhouse near the ranger station",
+       "trap": "Tents were used in the past; the log cabins are only for staff."
+      },
+      {
+       "n": 6,
+       "prompt": "Volunteers must bring their own ___ (detectors are lent)",
+       "answer": "binoculars",
+       "accepted": [
+        "binoculars"
+       ],
+       "spoken": "binoculars",
+       "evidence": "we've only got a few pairs of binoculars, and they're always in demand, so we do ask volunteers to bring their own",
+       "trap": "Gloves, hard hats, tools, bedding and bat detectors are all supplied."
+      },
+      {
+       "n": 7,
+       "prompt": "Fitness: should be able to walk around ___ km per day carrying a backpack",
+       "answer": "12",
+       "accepted": [
+        "12",
+        "twelve"
+       ],
+       "spoken": "twelve",
+       "evidence": "comfortable hiking about twelve kilometres a day, with a pack",
+       "trap": "The old guidance said twenty kilometres."
+      },
+      {
+       "n": 8,
+       "prompt": "Need to provide a ___ (e.g. from a manager)",
+       "answer": "reference",
+       "accepted": [
+        "reference"
+       ],
+       "spoken": "reference",
+       "evidence": "but we do need a reference from your employer or a tutor",
+       "trap": "A first-aid qualification is mentioned but is not required ('you don't need')."
+      },
+      {
+       "n": 9,
+       "prompt": "Free bus to the park from the railway station in ___",
+       "answer": "Pellatt",
+       "accepted": [
+        "Pellatt"
+       ],
+       "spoken": "Pellatt",
+       "evidence": "there's a free shuttle bus from the train station in Pellatt",
+       "trap": "Airport pick-ups used to be offered but have stopped; name spelled with two double letters."
+      },
+      {
+       "n": 10,
+       "prompt": "Last day: optional ___ trip (costs extra)",
+       "answer": "canoe",
+       "accepted": [
+        "canoe"
+       ],
+       "spoken": "canoe",
+       "evidence": "so now it's a canoe trip with one of the rangers",
+       "trap": "The boat cruise no longer runs and the guided hike is free."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Ashcombe Botanic Garden",
+   "context": "Monologue in an everyday social context (1 speaker)",
+   "scenario": "A volunteer guide welcomes a group of visitors to a botanical garden, explains the map and describes what is happening in each glasshouse.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Marion",
+     "desc": "Volunteer guide — female, 60s, warm, enthusiastic, slightly projecting to a small group; British accent (en-GB)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear a guide giving a talk to a group of visitors at a botanical garden. First, you have some time to look at Questions 11 to 15.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Marion",
+     "text": "[faint chatter of a small group fading] [warm, welcoming, projecting slightly] Good morning, everyone, and welcome to Ashcombe Botanic Garden. My name's Marion, and I'm one of the volunteer guides here. Before you head off and explore, I'll give you a quick introduction so you can make the most of your visit."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[practical] You should all have a copy of the map, which I'll talk you through in a moment. We're standing in the Visitor Centre, which is just inside the main entrance, on the left as you come in. The shop's in here too, so if you want to buy seeds or gifts, this is the place."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[clear, guiding] Now, if you look straight across the main path, directly opposite us, you'll see a low brick building with a green door. A lot of people assume that's another shop and wander in asking for packets of seeds. [light laugh] It isn't. That's our Seed Bank, where we store seeds from over four thousand species. It's open to the public every morning, and there's a small exhibition inside."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[brisk] Next, the café. If you were here a few years ago, you might remember it beside the lake, on the west shore. Well, it isn't there any more. That building was far too small. The new café is on Lime Avenue, which is the long, straight path running east from the lake towards the Walled Garden. As you walk along it, the café's on your right, so on the south side, about halfway along. [light] You can't miss it; there's a big terrace."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[cheerful, a little louder] Families, this is for you. The children's trail, which is a sort of treasure hunt with twelve wooden animals to find, used to begin here at the Visitor Centre, and I'm afraid the leaflet still says it does. [apologetic] The leaflets were printed before we changed things."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[clear] It now starts from that old café building I mentioned, on the western shore of the lake, right where the woodland begins. The trail then winds through the trees up to the bird hide in the north-west corner. So that's where it finishes, not where it starts."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[enthusiastic] Then there are our bees. We have six hives, and people often expect to find them in the Walled Garden, among all the flowers. [chuckles] And they used to be there, but they were a bit too close to the visitors for comfort. So they've moved to a quiet spot behind the Palm House. Go round the back of it and you'll find them right up against the northern boundary wall. There's a viewing screen, so you can watch them safely."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[measured, regretful] The little building right next to the Palm House, on its eastern side, is the Victorian fernery. Sadly, that's closed this year while the roof is repaired, so please don't try to go in."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[clear] And finally on the map, the Herb Garden. It's inside the Walled Garden, at the far end of Lime Avenue. Just before you go through the gate, on your left, there's a fenced area full of bins and heaps. That's our composting demonstration. Don't stop there! Go through the gate and carry on to the far right-hand corner, the north-eastern corner, and that's where the herbs are. [warm] It smells wonderful at this time of year."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 16 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Marion",
+     "text": "[shifting to a new topic, brightly] Now let me tell you about our glasshouses, because each one has something a bit special going on at the moment."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[proud] The biggest, of course, is the Palm House. It's over a hundred and fifty years old, and it's home to some enormous palms and banana plants. [apologetic laugh] People always ask if they can try the bananas. I'm afraid you can't. They aren't really grown for eating. What you can do, though, is climb the spiral staircase to the gallery that runs right round the top of the building. From up there you're level with the crowns of the palms. It's quite a view."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[lighter, informative] Much smaller is the Alpine House. Alpine plants are tiny, so they're easy to overlook. We've put hand lenses on chains along the benches, so you can get a really close look at the flowers. Some are only a few millimetres across. [matter-of-fact] The Alpine House is also where we used to run our potting classes, but there wasn't enough room, so they've moved. I'll come back to that in a moment."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[excited, dropping her voice slightly] In the Desert House we have something of a celebrity. It's an agave, sometimes called the century plant, which was planted back in nineteen seventy-one and had never flowered. Until this month. It's sent up a flower spike nearly eight metres tall, and it won't happen again, because agaves die after flowering. So don't miss it."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[slightly wistful] Some of you may remember Arthur, the volunteer who used to give talks in the Desert House about the history of the glasshouses. He retired last spring, unfortunately, so if that's what you're interested in, you'll need the guidebook."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[informative] The Orchid House is kept very warm and humid, so you might want to take your coat off. Vanilla is actually an orchid, and visitors sometimes ask whether they can taste the vanilla we grow. [light laugh] Sadly not. Our vines are still far too young to produce pods."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[engaged, explaining] But the scientists there are working on some very rare orchids, and because the insects that normally pollinate them don't live in this country, the team has to do that job themselves, with a tiny paintbrush. On weekday mornings you can watch them at work through the window of the laboratory."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[warm, amused] And finally, the Water-lily House, with the giant lilies whose leaves can be two metres across. In Victorian times they used to sit small children on the leaves to show how strong they were. [chuckles] We don't do that any more, before anyone asks!"
+    },
+    {
+     "speaker": "Marion",
+     "text": "[clear, inviting] But this is now where those potting classes I mentioned take place. Every afternoon at two o'clock there's a free half-hour session where you can learn how to take cuttings and pot up a plant to take home. There's no need to book; just turn up."
+    },
+    {
+     "speaker": "Marion",
+     "text": "[wrapping up, friendly] Right, I think that's everything. Do enjoy your visit!"
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 2. You now have one minute to check your answers to Part 2.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-15",
+     "type": "map_labelling",
+     "instructions": "Label the map below. Write the correct letter, A–H, next to Questions 11–15.",
+     "heading": "Ashcombe Botanic Garden",
+     "layout": "Plan of a rectangular garden, north at the top. The Main Entrance is in the middle of the south (bottom) edge, with a Car Park outside it to the bottom right. A Main Path runs straight north from the Main Entrance to a large oval Lake in the centre of the garden. Just inside the entrance, on the WEST (left) side of the Main Path, is the labelled Visitor Centre. The western half of the garden north of the Visitor Centre is labelled Woodland. On the north side of the Lake is a large labelled building, the Palm House. Lime Avenue (labelled) is a straight path running east from the east shore of the Lake to the gate of the Walled Garden (labelled), a square enclosure occupying the north-east corner of the garden. Letters: A — a small building on the EAST side of the Main Path, directly opposite the Visitor Centre. B — a small building on the WEST shore of the Lake, at the edge of the Woodland. C — a small area immediately NORTH of (behind) the Palm House, against the northern boundary wall. D — a small building attached to the EAST side of the Palm House. E — inside the Walled Garden, in its far north-east corner. F — on the SOUTH side of Lime Avenue, about halfway along. G — on the NORTH side of Lime Avenue, just outside the Walled Garden gate. H — in the Woodland, in the north-west corner of the garden.",
+     "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E",
+      "F": "F",
+      "G": "G",
+      "H": "H"
+     },
+     "items": [
+      {
+       "n": 11,
+       "prompt": "Seed Bank",
+       "answer": "A",
+       "evidence": "directly opposite us, you'll see a low brick building with a green door",
+       "trap": "Listeners may think the seed shop is opposite, but the shop is in the Visitor Centre itself."
+      },
+      {
+       "n": 12,
+       "prompt": "Café",
+       "answer": "F",
+       "evidence": "the café's on your right, so on the south side, about halfway along",
+       "trap": "The café used to be on the west shore of the lake (B)."
+      },
+      {
+       "n": 13,
+       "prompt": "Start of children's trail",
+       "answer": "B",
+       "evidence": "It now starts from that old café building I mentioned, on the western shore of the lake",
+       "trap": "The leaflet says the Visitor Centre, and the bird hide (H) is where the trail finishes."
+      },
+      {
+       "n": 14,
+       "prompt": "Beehives",
+       "answer": "C",
+       "evidence": "Go round the back of it and you'll find them right up against the northern boundary wall",
+       "trap": "The hives used to be in the Walled Garden; the fernery (D) is beside the Palm House, not behind it."
+      },
+      {
+       "n": 15,
+       "prompt": "Herb Garden",
+       "answer": "E",
+       "evidence": "carry on to the far right-hand corner, the north-eastern corner, and that's where the herbs are",
+       "trap": "The composting area (G) is just outside the gate on the left."
+      }
+     ]
+    },
+    {
+     "range": "16-20",
+     "type": "matching",
+     "instructions": "What can visitors see or do in each of the following glasshouses? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+     "options": {
+      "A": "watch plants being pollinated by hand",
+      "B": "sample produce grown there",
+      "C": "join a short practical session",
+      "D": "see a plant flowering for the first time since it was planted",
+      "E": "examine very small flowers with a magnifying glass",
+      "F": "view the tops of tall plants from a high position",
+      "G": "listen to a volunteer describe the building's past"
+     },
+     "items": [
+      {
+       "n": 16,
+       "prompt": "Palm House",
+       "answer": "F",
+       "evidence": "From up there you're level with the crowns of the palms",
+       "trap": "Bananas grow there but visitors cannot try them (B)."
+      },
+      {
+       "n": 17,
+       "prompt": "Alpine House",
+       "answer": "E",
+       "evidence": "We've put hand lenses on chains along the benches, so you can get a really close look at the flowers",
+       "trap": "Potting classes (C) used to be held here but have moved."
+      },
+      {
+       "n": 18,
+       "prompt": "Desert House",
+       "answer": "D",
+       "evidence": "planted back in nineteen seventy-one and had never flowered. Until this month",
+       "trap": "History talks (G) used to be given here, but the volunteer has retired."
+      },
+      {
+       "n": 19,
+       "prompt": "Orchid House",
+       "answer": "A",
+       "evidence": "the team has to do that job themselves, with a tiny paintbrush",
+       "trap": "Visitors ask to taste the vanilla (B), but the vines are too young."
+      },
+      {
+       "n": 20,
+       "prompt": "Water-lily House",
+       "answer": "C",
+       "evidence": "there's a free half-hour session where you can learn how to take cuttings",
+       "trap": "Children sitting on the leaves is a Victorian practice that no longer happens; the classes were formerly in the Alpine House."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "Placements in a Theatre Costume Department",
+   "context": "Academic/training discussion (2 students)",
+   "scenario": "Two drama students, Freya and Callum, evaluate the work placements they did in the costume department of a regional theatre and plan a presentation.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.45 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Freya",
+     "desc": "Student — female, about 21, thoughtful, articulate, quietly decisive; light Southern English accent (en-GB)"
+    },
+    {
+     "label": "Callum",
+     "desc": "Student — male, about 22, lively, quick to react, often changes his mind; deeper voice, Northern English accent (en-GB)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two drama students, Freya and Callum, discussing the work placements they did in the costume department of a theatre. First, you have some time to look at Questions 21 to 25.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Freya",
+     "text": "[friendly, settling in] So, shall we make a start on this evaluation? It's due on Friday, and I'd quite like to get the presentation sorted out as well."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[easy-going] Yeah, go on. The form says reasons for choosing the placement first."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[light laugh] Well, you'll have to do that bit, because I didn't really have a choice. It was the only one left by the time I applied. Why did you go for costume? I always thought you were set on doing set design."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[thinking back] So did I, to be honest. And Dr Harmon did say costume might suit me better, because of my essay on fashion history, but I didn't take much notice at the time. What actually made up my mind was finding out the Riverside Playhouse was putting on that Restoration comedy. I'm completely obsessed with seventeenth-century clothes."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[teasing] And there was me thinking it was because your nan taught you to sew."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[chuckles] Well, she did, and it came in handy once I was there, but no, that's not why I applied."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[brisk] OK. First impressions next."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[animated] I remember being amazed by how early everything had to be ready. Finished costumes two whole weeks before the first night!"
+    },
+    {
+     "speaker": "Freya",
+     "text": "[measured] Mm, that didn't surprise me so much. Our lecturer had warned us about it. And I knew it'd be a small team, so there being only four of them wasn't a shock either. What really took me aback was the store room. I'd assumed they made everything from scratch for each show, but most of what they used had been worn before, in earlier productions, and was just altered and re-trimmed."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[agreeing, amused] Yeah, some of those coats must have been in about thirty plays."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[moving on] And then there's the section on supervision. Lorna, basically."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[a little grumbling] I mean, she's brilliant, but I did think she asked too much of us sometimes. Expecting us to finish a whole bodice in a day..."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[disagreeing, gently] I don't think that's fair. She never asked for anything she hadn't shown us first. If anything, I'd say she was better with a needle than with words. She'd just do things rather than explain them."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[firm] No, I can't agree with that. Her explanations were really clear. It's just that she talked incredibly fast."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[conceding, laughing] Fair enough. But one thing we definitely agree on is that she trusted us with far more than I'd expected. I was altering a costume for the lead actor in my second week!"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[warmly] Absolutely. I never thought they'd let me anywhere near the main cast."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[sighs] Now, difficulties. For me, the hardest thing at first was the jargon. Toiles, basques, breaking down. I had to keep a glossary in the back of my notebook."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[shrugging] That didn't bother me. I'd picked most of it up from Nan. The evening shifts were what got me... [correcting himself] actually, no, they weren't too bad once I'd got used to them. I'm a night owl anyway."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[thoughtful] I didn't mind them at all. I liked being there during the show. But what we both struggled with was the reflective log."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[groans] Oh, don't. I was writing up three days at a time on a Sunday night."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[rueful] Same. There just wasn't a spare moment in the day to sit down and write anything."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[moving on] OK, and the presentation. I wondered about comparing costume for the stage with costume for film."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[doubtful] Neither of us has done any film work, though. We'd just be guessing."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[conceding] True. What about sustainability, then? All that re-using of costumes you were talking about?"
+    },
+    {
+     "speaker": "Freya",
+     "text": "[hesitant] I did think about that, but Dr Harmon said last year's group did exactly that topic, and she'd rather we didn't repeat it."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[thinking aloud] Right. Then how about how costume affects the way actors play a part? Remember Daniel saying he couldn't find his character until he'd put on those boots?"
+    },
+    {
+     "speaker": "Freya",
+     "text": "[enthusiastic] Yes! We've got loads of examples like that. Let's go with it."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the discussion, you have some time to look at Questions 26 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Callum",
+     "text": "[upbeat] Right, the section on tasks. Dyeing and ageing the fabric, the breaking down, was easily my favourite thing."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[wry] Not mine. I came home covered in dye every day. [short pause] But it'd be perfect for the final-year project, wouldn't it? Making a costume look as if it's been worn for years."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[decisive] Definitely. Let's put that down. We'll both build it into our projects."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[thoughtful] Fittings next. We'd sort of done measuring on the course, but only on each other, which isn't the same as dealing with a nervous actor at all."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[agreeing] No. And if we end up as wardrobe assistants, which is what we're both aiming for, that's what we'd be doing all day long."
+    },
+    {
+     "speaker": "Freya",
+     "text": "So it's directly relevant. Yes."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[doubtful] The running repairs during performances... I'd expected that to teach us a lot, you know, quick fixes under pressure."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[sighs] But it was mostly sewing buttons back on. It wasn't nearly as useful as I'd thought it would be."
+    },
+    {
+     "speaker": "Callum",
+     "text": "Would you want more practice at it?"
+    },
+    {
+     "speaker": "Freya",
+     "text": "[laughs] Hardly. I've sewn on enough buttons for a lifetime."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[keen] Pattern cutting, though, that's different. We only ever got to watch Lorna doing it."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[eager] I know. I'd love to do a proper course in it. [hesitant] Could we use it in the project?"
+    },
+    {
+     "speaker": "Freya",
+     "text": "[doubtful] Not unless we get a lot better at it first. It'd be far too ambitious. But yes, we should both ask the department about extra tuition."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[dismissive] And finally, the inventory. Logging every single costume in the database. I thought that was a complete waste of time."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[disagreeing] At first I did too. But when the director wanted that green cloak from three years ago, it took five minutes to find, purely because of the records."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[conceding slowly] OK, that's true. It's not that it was pointless. It's that nobody ever told us why we were doing it."
+    },
+    {
+     "speaker": "Freya",
+     "text": "[decisive] Exactly. So we should recommend that next year's students get that explained at the start."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[relieved] Agreed. Right, I think that's the form done. Coffee?"
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 3. You now have one minute to check your answers to Part 3.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-25",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 21,
+       "prompt": "Why did Callum choose a placement in the costume department?",
+       "options": {
+        "A": "He already had some sewing skills.",
+        "B": "He wanted to work on a play set in a particular historical period.",
+        "C": "His tutor told him it would match his strengths."
+       },
+       "answer": "B",
+       "evidence": "What actually made up my mind was finding out the Riverside Playhouse was putting on that Restoration comedy",
+       "trap": "His tutor's suggestion (C) was ignored at the time, and his sewing (A) helped later but 'that's not why I applied'."
+      },
+      {
+       "n": 22,
+       "prompt": "What surprised Freya when she began her placement?",
+       "options": {
+        "A": "the small number of staff",
+        "B": "the amount of clothing that had been used before",
+        "C": "the early deadline for completing costumes"
+       },
+       "answer": "B",
+       "evidence": "most of what they used had been worn before, in earlier productions",
+       "trap": "The deadline surprised Callum, not Freya; she expected a small team."
+      },
+      {
+       "n": 23,
+       "prompt": "What do the students agree about Lorna, their supervisor?",
+       "options": {
+        "A": "She made unreasonable demands on students.",
+        "B": "Her practical skills were stronger than her teaching.",
+        "C": "She gave students more responsibility than they had anticipated."
+       },
+       "answer": "C",
+       "evidence": "she trusted us with far more than I'd expected",
+       "trap": "A is only Callum's view and Freya rejects it; B is only Freya's view and Callum rejects it."
+      },
+      {
+       "n": 24,
+       "prompt": "What difficulty did both students experience?",
+       "options": {
+        "A": "keeping their placement diary up to date",
+        "B": "working late in the evenings",
+        "C": "learning the specialist vocabulary"
+       },
+       "answer": "A",
+       "evidence": "But what we both struggled with was the reflective log",
+       "trap": "The jargon was hard only for Freya; Callum starts to complain about evening shifts but corrects himself, and Freya liked them."
+      },
+      {
+       "n": 25,
+       "prompt": "What will the students' presentation be about?",
+       "options": {
+        "A": "differences between stage and screen costume",
+        "B": "ways of reducing waste in costume departments",
+        "C": "the influence of costume on an actor's performance"
+       },
+       "answer": "C",
+       "evidence": "how costume affects the way actors play a part",
+       "trap": "Film is rejected for lack of experience; sustainability is rejected because last year's group did it."
+      }
+     ]
+    },
+    {
+     "range": "26-30",
+     "type": "matching",
+     "instructions": "What do the students decide about each of the following tasks they did on their placement? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+     "options": {
+      "A": "They will make use of it in their final-year work.",
+      "B": "They would like further instruction in it.",
+      "C": "It was less valuable than they had predicted.",
+      "D": "It is closely linked to the careers they want.",
+      "E": "They both found it the most enjoyable task.",
+      "F": "Its purpose should be made clear to future students.",
+      "G": "They had already covered it fully on their course."
+     },
+     "items": [
+      {
+       "n": 26,
+       "prompt": "dyeing and ageing fabric",
+       "answer": "A",
+       "evidence": "We'll both build it into our projects",
+       "trap": "It was Callum's favourite task, but not Freya's (E)."
+      },
+      {
+       "n": 27,
+       "prompt": "fitting costumes on actors",
+       "answer": "D",
+       "evidence": "if we end up as wardrobe assistants, which is what we're both aiming for",
+       "trap": "They did measuring on the course, but 'only on each other', so G is wrong."
+      },
+      {
+       "n": 28,
+       "prompt": "repairing costumes during performances",
+       "answer": "C",
+       "evidence": "It wasn't nearly as useful as I'd thought it would be",
+       "trap": "Callum asks about more practice (B), but Freya says 'Hardly'."
+      },
+      {
+       "n": 29,
+       "prompt": "pattern cutting",
+       "answer": "B",
+       "evidence": "we should both ask the department about extra tuition",
+       "trap": "Callum suggests using it in the project (A), but Freya says it would be too ambitious."
+      },
+      {
+       "n": 30,
+       "prompt": "recording items in a database",
+       "answer": "F",
+       "evidence": "we should recommend that next year's students get that explained at the start",
+       "trap": "Callum first calls it a waste of time (C), then changes his mind."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "Ice Cores and Past Climate",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "A lecturer in physical geography explains how glacier ice forms, how ice cores are dated and analysed, and what they reveal about past climate.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "University lecturer — male, 50s, authoritative, engaging, dry humour, measured pace; British RP (en-GB)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about how glaciers and ice cores record past climate. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture theatre, faint murmur fading] [clear, engaging] Good morning. Last week we looked at tree rings and lake sediments as records of past climate. Today I want to turn to what is, arguably, the richest archive of all, and that's the ice locked up in glaciers and ice sheets."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured, explaining] Let's start with how glacier ice actually forms. Snow that survives the summer melt is gradually buried by later falls, and under that weight it's compressed into a dense, granular material. You'll sometimes see the French word névé used for it, but the term glaciologists generally prefer is firn, that's F-I-R-N. Firn is no longer snow, but it isn't yet ice either."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[deliberate] Over decades, as the firn is pressed down further, the gaps between the grains close up, and the air in them is sealed off in tiny bubbles. [emphatic] And those bubbles are the key point. People sometimes imagine the old air is somehow dissolved into the ice. It isn't. It's physically trapped, as genuine samples of the ancient atmosphere."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful aside] One complication, incidentally: while the firn is still porous, air can circulate within it, so the gas in a bubble is always somewhat younger than the ice that surrounds it. We correct for that, but it's worth bearing in mind."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[brisk] So, how do we date an ice core? Near the top, we can simply count annual layers, rather like counting tree rings. Now, students often assume the layers show up because of differences in colour. [slight smile in voice] It isn't so much colour as dust. Snow that falls in spring and early summer contains a lot more of it, blown in from dry regions, so each year shows up as a slightly cloudier band."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[serious] Further down, though, the layers are squeezed so thin that counting becomes impossible. So we look for marker horizons. Large volcanic eruptions are ideal. You might expect us to look for ash, but ash rarely travels that far. What does reach the poles is acid, carried in the atmosphere and then deposited in the snow, and we can detect it by passing an electric current along the core."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] If we know the date of the eruption, from historical records for example, we have a fixed point in the core. The eruption of Tambora, in Indonesia, in eighteen fifteen is a classic example. It shows up clearly in cores from both poles, and it's linked in written accounts to the so-called year without a summer, when harvests failed across much of Europe."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[reflective] Between these fixed points, we also use computer models of how ice flows and thins with depth. They're not perfect, and you'll find that published ages for the deepest ice can differ by several thousand years, depending on the team. But taken together, these methods give us a timescale we can have reasonable confidence in."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[clear, slowing slightly] Now to temperature. Water molecules come in slightly different weights, depending on which isotopes they contain. Isotopes of hydrogen are sometimes measured as a cross-check, but the standard measure is oxygen. Specifically, we look at the ratio of heavy oxygen to the normal, lighter form."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining] The colder the air, the fewer heavy molecules make it as far as the ice sheet, so a lower ratio means a colder climate. It's an indirect method, but a remarkably reliable one."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[emphatic] Then there are the gases in those bubbles. Two in particular matter. Carbon dioxide, of course, and also methane, which is produced largely by wetlands, so it tells us a great deal about rainfall in the tropics. [dry] Nitrogen, by contrast, makes up most of the air in the bubbles, but since its level hardly changes, it's of very little use to us."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] What these gas records show, quite strikingly, is that carbon dioxide and temperature have risen and fallen together throughout the last eight hundred thousand years."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[comparative] Where do the cores come from? The longest continuous record we have, covering roughly eight hundred thousand years, comes from Antarctica, where snowfall is so light that a great many years are packed into each metre. Greenland is different. Its cores cover a much shorter period, and they can't compete on length. What Greenland offers instead is detail. The heavier snowfall means each year's layer is thick enough to examine individually, even season by season."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[shifting focus] It isn't only the polar ice sheets that matter. High mountain glaciers, in the Andes and the Himalayas, for instance, preserve their own records. [qualifying] These are less useful for temperature than you might think, because local conditions vary so much. Their real value is as a record of rainfall, particularly the strength of the monsoon over past centuries."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[grave] Unfortunately, many of these glaciers are melting so fast that their records are being lost before we can study them. In the past, cores were simply sent to laboratory freezers, mostly in Europe and North America. But freezers fail, and funding runs out. So a recent international project has started storing duplicate cores in Antarctica, in a cave dug into the snow, where the temperature stays below minus fifty degrees without any machinery at all."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[looking ahead, enthusiastic] Finally, the frontier of the field. Several teams are now drilling in search of ice one and a half million years old. Why? Because at some point around a million years ago, the pattern of ice ages changed. [deliberate] They didn't become more frequent. In fact, the reverse is true. They became less frequent, but each one was longer and considerably more severe."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful] Nobody yet knows why, and ice from that period may well hold the answer. [wrapping up] Next week we'll look at the methods used to drill and transport these cores, which is a story in itself."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of the Listening test. You now have two minutes to check your answers.",
+     "pause_after": 120
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "Ice cores as records of past climate",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "Formation of glacier ice: compressed snow that has lasted a summer becomes ___ (the preferred scientific term), and later ice",
+       "answer": "firn",
+       "accepted": [
+        "firn"
+       ],
+       "spoken": "firn",
+       "evidence": "the term glaciologists generally prefer is firn",
+       "trap": "The French word névé is mentioned but is not the preferred term."
+      },
+      {
+       "n": 32,
+       "prompt": "Samples of ancient air are held in very small ___ within the ice",
+       "answer": "bubbles",
+       "accepted": [
+        "bubbles"
+       ],
+       "spoken": "bubbles",
+       "evidence": "the air in them is sealed off in tiny bubbles",
+       "trap": "The lecturer rejects the idea that the air is dissolved in the ice."
+      },
+      {
+       "n": 33,
+       "prompt": "Dating — upper ice: annual bands can be seen because seasonal snow contains extra ___",
+       "answer": "dust",
+       "accepted": [
+        "dust"
+       ],
+       "spoken": "dust",
+       "evidence": "It isn't so much colour as dust",
+       "trap": "Colour is the common assumption, rejected with 'isn't so much... as'."
+      },
+      {
+       "n": 34,
+       "prompt": "Dating — deeper ice: volcanic eruptions leave a layer of ___",
+       "answer": "acid",
+       "accepted": [
+        "acid"
+       ],
+       "spoken": "acid",
+       "evidence": "What does reach the poles is acid",
+       "trap": "Ash is expected but 'rarely travels that far'."
+      },
+      {
+       "n": 35,
+       "prompt": "Temperature: usual method compares heavy and light isotopes of ___",
+       "answer": "oxygen",
+       "accepted": [
+        "oxygen"
+       ],
+       "spoken": "oxygen",
+       "evidence": "but the standard measure is oxygen",
+       "trap": "Hydrogen isotopes are mentioned but only as an occasional cross-check."
+      },
+      {
+       "n": 36,
+       "prompt": "Gases: CO₂ and ___ (gives evidence about tropical wetlands)",
+       "answer": "methane",
+       "accepted": [
+        "methane"
+       ],
+       "spoken": "methane",
+       "evidence": "and also methane, which is produced largely by wetlands",
+       "trap": "Nitrogen is the most abundant gas but is of little use."
+      },
+      {
+       "n": 37,
+       "prompt": "Greenland cores: cover fewer years than Antarctic ones but provide more ___",
+       "answer": "detail",
+       "accepted": [
+        "detail"
+       ],
+       "spoken": "detail",
+       "evidence": "What Greenland offers instead is detail",
+       "trap": "Length is Antarctica's advantage, not Greenland's."
+      },
+      {
+       "n": 38,
+       "prompt": "Mountain glaciers: mainly valuable for information about past ___",
+       "answer": "rainfall",
+       "accepted": [
+        "rainfall"
+       ],
+       "spoken": "rainfall",
+       "evidence": "Their real value is as a record of rainfall",
+       "trap": "Temperature is mentioned but they are 'less useful for temperature than you might think'."
+      },
+      {
+       "n": 39,
+       "prompt": "Copies of cores now kept in Antarctica in a ___",
+       "answer": "cave",
+       "accepted": [
+        "cave"
+       ],
+       "spoken": "cave",
+       "evidence": "in a cave dug into the snow",
+       "trap": "Cores were formerly stored in laboratory freezers in Europe and North America."
+      },
+      {
+       "n": 40,
+       "prompt": "About a million years ago, ice ages became longer and more ___",
+       "answer": "severe",
+       "accepted": [
+        "severe"
+       ],
+       "spoken": "severe",
+       "evidence": "each one was longer and considerably more severe",
+       "trap": "'They didn't become more frequent' — frequent is the negated distractor."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+  "_format": {
+    "name": "reading_test_passages",
+    "group": "bank",
+    "table": "reading_passages",
+    "primaryKey": "id",
+    "description": "Passages 1-3 of Academic Reading Tests 1-10 (rt_wNN_pK).",
+    "currentSourceInApp": "assets/content/tests_bank.json → reading.passages",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "testId": "string",
+      "part": "integer",
+      "title": "string",
+      "topic": "string",
+      "difficulty": "string",
+      "words": "integer",
+      "paragraphs": "array",
+      "groups": "array",
+      "questionCount": "integer",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 30
+  },
+  "items": [
+    {
+      "id": "rt_w01_p1",
+      "source": "test",
+      "testId": "rt_w01",
+      "part": 1,
+      "title": "The Domestication and Early Migration of the Dromedary Camel",
+      "topic": "Archaeology",
+      "difficulty": "easy",
+      "words": 711,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "The dromedary camel (Camelus dromedarius), distinguished by its single dorsal hump, represents one of the most transformative domestic animals in the history of arid landscapes. Endowed with extraordinary physiological adaptations—including the ability to withstand substantial water loss, endure extreme ambient temperatures, and metabolize concentrated fat deposits in its hump for energy—this resilient ungulate revolutionized human mobility across desert frontiers. However, determining precisely where, when, and how this species transitioned from a hunted wild game animal to an indispensable domestic beast of burden has long challenged archaeologists, paleontologists, and evolutionary geneticists."
+        },
+        {
+          "letter": "B",
+          "text": "Paleontological and archaeological records indicate that wild dromedaries were once widely distributed across the hyper-arid regions of North Africa and the Arabian Peninsula during the Pleistocene and early Holocene epochs. Following the end of the Last Glacial Maximum, the gradual desiccation of these territories restricted wild herds to coastal fringes and regional refugia. Zooarchaeological excavations at coastal sites such as Umm al-Nar and Tell Abraq, located in modern-day United Arab Emirates and Oman, demonstrate that human communities in the fifth to third millennia BCE exploited wild dromedaries almost exclusively for their meat, hide, and bone marrow, hunting them alongside marine resources without any indications of animal husbandry or selective breeding."
+        },
+        {
+          "letter": "C",
+          "text": "Modern genetic mapping, utilizing mitochondrial DNA and ancient genomic sequencing from fossilized bones, has pinpointed the southeast coast of the Arabian Peninsula as the primary geographic cradle of dromedary domestication. Geneticists have identified a pronounced demographic bottleneck in wild populations during the early second millennium BCE, followed by a sudden expansion of domestic lineages. This genetic transition coincides with archaeological evidence showing an abrupt shift in bone assemblages: juvenile culling patterns, morphological reductions in overall body size, and bone pathographies indicative of repetitive mechanical loading begin appearing systematically in deposits dating to between 1200 and 900 BCE."
+        },
+        {
+          "letter": "D",
+          "text": "The primary impetus for the initial domestication of the dromedary was likely nutritional rather than logistical. Early pastoralist communities in the arid interior of Oman and Yemen realized that captured female camels could provide a reliable, perennial supply of nutritious milk in environments where cattle and sheep perished from dehydration. Furthermore, camel dung provided an invaluable source of combustible fuel in barren desert expanses devoid of wood. Over successive generations, human selection favored more docile temperaments, enabling herders to manage larger herds and integrate them into nomadic pastoral routines."
+        },
+        {
+          "letter": "E",
+          "text": "The technological innovation that unlocked the full economic potential of the dromedary was the development of specialized pack and riding saddles. The earliest camel saddles, engineered in South Arabia during the late second millennium BCE, were simple cushions placed behind the hump. While sufficient for modest cargo transport, they offered poor stability for human riders during combat or rapid transit. By the early first millennium BCE, Arabian craftspeople engineered the rigid North Arabian saddle, which rested directly over the animal's hump using an arched wooden frame secured with girth straps. This mechanical breakthrough distributed cargo weight evenly across the camel's ribcage, allowing a single animal to carry loads exceeding 200 kilograms over hundreds of kilometers while providing an elevated, stable firing platform for armed riders."
+        },
+        {
+          "letter": "F",
+          "text": "The introduction of efficient saddlery revolutionized ancient global trade networks, directly catalyzing the expansion of the legendary Incense Route. For centuries, the lucrative trade in aromatic gums—specifically frankincense (Boswellia carterii) and myrrh (Commiphora myrrha) harvested in Dhofar and southern Arabia—had been constrained by the limitations of donkey caravans and coastal shipping. Dromedary camel caravans could traverse harsh, waterless desert stretches of the Rub' al Khali and the Hijaz mountains that were completely impassable to other pack animals, linking remote production centers in South Arabia to affluent consumer markets in Mesopotamia, the Levant, Egypt, and the Mediterranean basin."
+        },
+        {
+          "letter": "G",
+          "text": "Following the establishment of these trade arteries, domestic dromedaries spread rapidly beyond their Arabian homeland. Assyrian royal reliefs dating to the ninth and eighth centuries BCE frequently depict Arabian auxiliary forces riding camels into battle. By the sixth century BCE, the Persian Achaemenid Empire deployed vast camel supply trains during military campaigns into Egypt, permanently introducing the domestic dromedary to the Nile Valley and across North Africa. In these newly adopted territories, the single-humped camel largely displaced indigenous draught oxen in arid farming, securing its enduring legacy as the \"ship of the desert\" and fundamentally redrawing the economic geography of the ancient world."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "The dromedary camel stores large amounts of water directly inside its hump.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 2,
+              "text": "Archaeological findings at Tell Abraq show that early Bronze Age inhabitants domesticated camels for milk production.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 3,
+              "text": "Modern genetic research identifies southeastern Arabia as the main origin of dromedary domestication.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 4,
+              "text": "The earliest camel saddles positioned the rider or cargo directly over the animal's hump.",
+              "answer": "FALSE"
+            },
+            {
+              "number": 5,
+              "text": "The North Arabian saddle allowed camels to transport loads weighing more than 200 kilograms.",
+              "answer": "TRUE"
+            },
+            {
+              "number": 6,
+              "text": "The incense trade between South Arabia and Mesopotamia was entirely conducted via ocean vessels prior to camel domestication.",
+              "answer": "NOT GIVEN"
+            },
+            {
+              "number": 7,
+              "text": "Persian military operations contributed to the spread of domestic dromedaries into North Africa.",
+              "answer": "TRUE"
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "title": "Complete the notes",
+          "instruction": "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+          "questions": [
+            {
+              "number": 8,
+              "text": "Changes in bone collections dated between ______ indicate the arrival of domestic camels.",
+              "answer": "1200 and 900 BCE",
+              "accepted": [
+                "1200 and 900 BCE",
+                "1200–900 BCE"
+              ]
+            },
+            {
+              "number": 9,
+              "text": "Early herders valued camels initially for their milk and utilized ______ as a source of fuel.",
+              "answer": "camel dung",
+              "accepted": [
+                "camel dung",
+                "dung"
+              ]
+            },
+            {
+              "number": 10,
+              "text": "Early South Arabian saddles were placed ______ the hump.",
+              "answer": "behind",
+              "accepted": [
+                "behind"
+              ]
+            },
+            {
+              "number": 11,
+              "text": "The North Arabian saddle utilized a rigid ______ to distribute heavy weight across the camel's ribs.",
+              "answer": "arched wooden frame",
+              "accepted": [
+                "arched wooden frame",
+                "wooden frame"
+              ]
+            },
+            {
+              "number": 12,
+              "text": "Camels enabled traders to transport valuable goods like myrrh and ______ across otherwise impassable deserts.",
+              "answer": "frankincense",
+              "accepted": [
+                "frankincense"
+              ]
+            },
+            {
+              "number": 13,
+              "text": "Relieved images from the ______ empire show Arabian fighters mounted on camels in battle.",
+              "answer": "Assyrian",
+              "accepted": [
+                "Assyrian"
+              ]
+            }
+          ]
+        }
+      ],
+      "questionCount": 13,
+      "data": "… the app record (same keys as the source file) …"
+    }
+  ]
+}

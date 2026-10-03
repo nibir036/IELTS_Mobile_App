@@ -1,0 +1,963 @@
+{
+  "dashboard": {
+    "wordOfTheDay": {
+      "id": "word_ubiquitous",
+      "word": "Ubiquitous",
+      "partOfSpeech": "adj.",
+      "definition": "Found everywhere.",
+      "example": "Smartphones have become ubiquitous in classrooms."
+    }
+  },
+  "firstTime": {
+    "diagnosticMinutes": 40,
+    "checklist": [
+      {
+        "id": "step_account",
+        "title": "Create your account",
+        "check": "account",
+        "target": ""
+      },
+      {
+        "id": "step_target",
+        "title": "Set your target band",
+        "check": "targetBand",
+        "target": "targetBand"
+      },
+      {
+        "id": "step_exam_date",
+        "title": "Choose your exam date",
+        "check": "examDate",
+        "target": "targetBand"
+      },
+      {
+        "id": "step_mic",
+        "title": "Allow microphone access",
+        "check": "mic",
+        "target": "micPermission"
+      },
+      {
+        "id": "step_diagnostic",
+        "title": "Take the diagnostic",
+        "check": "practice",
+        "target": "diagnosticTest"
+      },
+      {
+        "id": "step_speaking",
+        "title": "Record your first speaking answer",
+        "check": "speaking",
+        "target": "speakingHub"
+      }
+    ],
+    "emptyCards": [
+      {
+        "id": "empty_essays",
+        "icon": "doc",
+        "title": "No essays yet",
+        "subtitle": "Writing unlocks after diagnostic",
+        "target": "writingSelector"
+      },
+      {
+        "id": "empty_recordings",
+        "icon": "mic",
+        "title": "No recordings",
+        "subtitle": "Try a Part 1 warm-up",
+        "target": "speakingHub"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "mod_vocab",
+      "title": "Resources",
+      "icon": "vocab",
+      "tint": "lavender",
+      "skill": "vocab",
+      "goal": 5,
+      "target": "vocabVault",
+      "items": [
+        {
+          "id": "mod_vocab_quiz",
+          "title": "Vocabulary quiz rounds",
+          "icon": "sparkle",
+          "target": "vocabQuiz",
+          "skill": "vocab",
+          "kind": "quiz",
+          "goal": 5,
+          "highlight": true
+        },
+        {
+          "id": "mod_vocab_grammar",
+          "title": "Grammar Course · English / বাংলা",
+          "icon": "article",
+          "target": "grammarGuide",
+          "meta": "11 chapters"
+        },
+        {
+          "id": "mod_vocab_lessons",
+          "title": "Vocabulary Lessons · English / বাংলা",
+          "icon": "article",
+          "target": "vocabGuide",
+          "meta": "49 lessons",
+          "liveCount": "vocabGuide"
+        },
+        {
+          "id": "mod_vocab_vault",
+          "title": "Vocab Vault",
+          "icon": "bookmark",
+          "target": "vocabVault",
+          "meta": "Saved words",
+          "liveCount": "vaultWords"
+        },
+        {
+          "id": "mod_vocab_pv",
+          "title": "Phrasal Verbs",
+          "icon": "article",
+          "target": "phrasalVerbs",
+          "meta": "A–Z",
+          "liveCount": "phrasalVerbs"
+        },
+        {
+          "id": "mod_vocab_idioms",
+          "title": "Idioms",
+          "icon": "article",
+          "target": "idioms",
+          "meta": "A–Z",
+          "liveCount": "idioms"
+        },
+        {
+          "id": "mod_vocab_topics",
+          "title": "Topic Vocabulary",
+          "icon": "article",
+          "target": "topicVocab",
+          "meta": "23 topics",
+          "liveCount": "topicVocab"
+        },
+        {
+          "id": "mod_vocab_awl",
+          "title": "Academic Words",
+          "icon": "article",
+          "target": "academicWords",
+          "meta": "Daily 20",
+          "liveCount": "academicWords"
+        },
+        {
+          "id": "mod_vocab_verbs",
+          "title": "Irregular Verbs",
+          "icon": "doc",
+          "target": "irregularVerbs",
+          "meta": "Reference",
+          "liveCount": "irregularVerbs"
+        },
+        {
+          "id": "mod_scoring_criteria",
+          "title": "Scoring Criteria",
+          "icon": "chart",
+          "target": "scoringCriteria",
+          "meta": "4 skills · band 9–4"
+        }
+      ]
+    },
+    {
+      "id": "mod_writing",
+      "title": "Writing Practice",
+      "icon": "writing",
+      "tint": "lavender",
+      "skill": "writing",
+      "goal": 46,
+      "target": "writingSelector",
+      "items": [
+        {
+          "id": "mod_writing_guide",
+          "title": "Writing Guide · English / বাংলা",
+          "icon": "article",
+          "target": "writingGuide",
+          "meta": "23 chapters"
+        },
+        {
+          "id": "mod_writing_tips",
+          "title": "Writing Tips",
+          "icon": "sparkle",
+          "target": "articleTips",
+          "args": {
+            "series": "writing"
+          },
+          "meta": "6 articles"
+        },
+        {
+          "id": "mod_writing_tests",
+          "title": "Full tests",
+          "icon": "doc",
+          "target": "writingTests",
+          "countOf": "writingTests",
+          "unit": "tests",
+          "meta": "10 tests"
+        },
+        {
+          "id": "mod_writing_t1",
+          "title": "Task 1 Report",
+          "icon": "chart",
+          "skill": "writing",
+          "kind": "task1",
+          "goal": 15,
+          "target": "writingQuestions",
+          "countOf": "writingTask1",
+          "args": {
+            "task": 1
+          }
+        },
+        {
+          "id": "mod_writing_t2",
+          "title": "Task 2 Essay",
+          "icon": "doc",
+          "skill": "writing",
+          "kind": "task2",
+          "goal": 31,
+          "target": "writingQuestions",
+          "countOf": "writingTask2",
+          "args": {
+            "task": 2
+          }
+        },
+        {
+          "id": "mod_writing_booster",
+          "title": "Writing Booster · Linking",
+          "icon": "pen",
+          "meta": "",
+          "highlight": true,
+          "target": "sentenceBuilder"
+        },
+        {
+          "id": "mod_writing_template",
+          "title": "Writing Template",
+          "icon": "article",
+          "meta": "22 templates",
+          "target": "writingTemplate",
+          "countOf": "writingTemplates",
+          "unit": "templates"
+        },
+        {
+          "id": "mod_writing_ideas",
+          "title": "Ideas & Topics",
+          "icon": "sparkle",
+          "target": "ideasTopics",
+          "meta": "31 questions",
+          "countOf": "writingIdeas",
+          "unit": "questions"
+        },
+        {
+          "id": "mod_writing_samples",
+          "title": "Sample Answers",
+          "icon": "medal",
+          "target": "writingSampleAnswer",
+          "meta": "Band 6–8",
+          "countOf": "writingSamples",
+          "unit": "answers"
+        }
+      ],
+      "expanded": true
+    },
+    {
+      "id": "mod_speaking",
+      "title": "Speaking Practice",
+      "icon": "speaking",
+      "tint": "pink",
+      "skill": "speaking",
+      "goal": 60,
+      "target": "speakingHub",
+      "items": [
+        {
+          "id": "mod_sp_hub",
+          "title": "Speaking hub",
+          "icon": "mic",
+          "target": "speakingHub",
+          "highlight": true
+        },
+        {
+          "id": "mod_sp_guide",
+          "title": "Speaking Guide · English / বাংলা",
+          "icon": "article",
+          "target": "speakingGuide",
+          "meta": "22 chapters"
+        },
+        {
+          "id": "mod_sp_tips",
+          "title": "Speaking Tips",
+          "icon": "sparkle",
+          "target": "articleTips",
+          "args": {
+            "series": "speaking"
+          },
+          "meta": "6 articles"
+        },
+        {
+          "id": "mod_sp_tests",
+          "title": "Full tests",
+          "icon": "doc",
+          "target": "speakingTests",
+          "countOf": "speakingTests",
+          "unit": "tests",
+          "meta": "10 tests"
+        },
+        {
+          "id": "mod_sp_p1",
+          "title": "Part 1 · Interview",
+          "icon": "chat",
+          "target": "cueCardVault",
+          "skill": "speaking",
+          "kind": "part1",
+          "goal": 16,
+          "args": {
+            "part": 1
+          },
+          "countOf": "part1Topics"
+        },
+        {
+          "id": "mod_sp_p2",
+          "title": "Part 2 · Cue cards",
+          "icon": "doc",
+          "target": "cueCardVault",
+          "skill": "speaking",
+          "kind": "part2",
+          "goal": 44,
+          "countOf": "cueCards",
+          "args": {
+            "part": 2
+          }
+        },
+        {
+          "id": "mod_sp_p3",
+          "title": "Part 3 · Discussion",
+          "icon": "chat",
+          "target": "cueCardVault",
+          "skill": "speaking",
+          "kind": "part3",
+          "goal": 60,
+          "args": {
+            "part": 3
+          },
+          "countOf": "part3Topics"
+        },
+        {
+          "id": "mod_sp_pron",
+          "title": "Pronunciation trainer",
+          "icon": "speaking",
+          "target": "pronunciation",
+          "skill": "speaking",
+          "kind": "pronunciation",
+          "meta": "Word drills"
+        },
+        {
+          "id": "mod_sp_rec",
+          "title": "My recordings",
+          "icon": "clock",
+          "target": "myRecordings"
+        }
+      ]
+    },
+    {
+      "id": "mod_listening",
+      "title": "Listening Skills",
+      "icon": "listening",
+      "tint": "lavender",
+      "skill": "listening",
+      "goal": 10,
+      "target": "listeningLanding",
+      "items": [
+        {
+          "id": "mod_li_land",
+          "title": "Listening overview",
+          "icon": "listening",
+          "target": "listeningLanding",
+          "highlight": true
+        },
+        {
+          "id": "mod_li_guide",
+          "title": "Listening Guide · English / বাংলা",
+          "icon": "article",
+          "target": "listeningGuide",
+          "meta": "15 chapters"
+        },
+        {
+          "id": "mod_li_tips",
+          "title": "Listening Tips",
+          "icon": "sparkle",
+          "target": "articleTips",
+          "args": {
+            "series": "listening"
+          },
+          "meta": "8 articles"
+        },
+        {
+          "id": "mod_li_tests",
+          "title": "Full tests",
+          "icon": "check",
+          "target": "listeningLibrary",
+          "skill": "listening",
+          "kind": "test",
+          "goal": 2,
+          "countOf": "listeningTests",
+          "args": {
+            "filter": 0
+          }
+        },
+        {
+          "id": "mod_li_sets",
+          "title": "Part practice",
+          "icon": "doc",
+          "target": "listeningMiniList",
+          "skill": "listening",
+          "kind": "mini",
+          "goal": 8,
+          "countOf": "listeningSets"
+        },
+        {
+          "id": "mod_li_lesson",
+          "title": "Bite-size lessons",
+          "icon": "sparkle",
+          "target": "listeningLesson",
+          "skill": "listening",
+          "kind": "lesson",
+          "meta": "Lessons"
+        }
+      ]
+    },
+    {
+      "id": "mod_reading",
+      "title": "Reading Skills",
+      "icon": "reading",
+      "tint": "pink",
+      "skill": "reading",
+      "goal": 12,
+      "target": "readingLanding",
+      "items": [
+        {
+          "id": "mod_re_land",
+          "title": "Reading overview",
+          "icon": "reading",
+          "target": "readingLanding",
+          "highlight": true
+        },
+        {
+          "id": "mod_reading_guide",
+          "title": "Reading Guide · English / বাংলা",
+          "icon": "article",
+          "target": "readingGuide",
+          "meta": "10 chapters"
+        },
+        {
+          "id": "mod_re_tests",
+          "title": "Full tests",
+          "icon": "check",
+          "target": "readingLibrary",
+          "skill": "reading",
+          "kind": "test",
+          "goal": 3,
+          "countOf": "readingTests"
+        },
+        {
+          "id": "mod_re_practice",
+          "title": "Short practice tests",
+          "icon": "doc",
+          "target": "readingPracticeTests",
+          "countOf": "readingPracticeTests",
+          "unit": "tests"
+        },
+        {
+          "id": "mod_re_bank",
+          "title": "Question bank · 14 question types",
+          "icon": "article",
+          "target": "readingBank",
+          "countOf": "readingBankSets",
+          "unit": "sets"
+        },
+        {
+          "id": "mod_re_lesson",
+          "title": "Lessons & exercises",
+          "icon": "sparkle",
+          "target": "readingLesson",
+          "skill": "reading",
+          "kind": "lesson",
+          "meta": "Lessons"
+        }
+      ]
+    }
+  ],
+  "analytics": {
+    "weakestTargets": {
+      "writing": "masterclass",
+      "speaking": "speakingHub",
+      "listening": "listeningLanding",
+      "reading": "readingLanding"
+    }
+  },
+  "schedule": {
+    "filters": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "writing",
+        "label": "Writing"
+      },
+      {
+        "id": "listening",
+        "label": "Listening"
+      },
+      {
+        "id": "mock",
+        "label": "Mock"
+      }
+    ]
+  },
+  "notifications": {
+    "filters": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "ai",
+        "label": "AI results"
+      },
+      {
+        "id": "reminder",
+        "label": "Reminders"
+      }
+    ]
+  },
+  "profile": {
+    "learning": [
+      {
+        "id": "saved",
+        "title": "Saved materials",
+        "icon": "bookmark",
+        "target": "vocabVault"
+      },
+      {
+        "id": "calendar",
+        "title": "Calendar",
+        "icon": "calendar",
+        "target": "schedule"
+      },
+      {
+        "id": "certificates",
+        "title": "Certificates",
+        "icon": "medal",
+        "target": "certificates"
+      },
+      {
+        "id": "recordings",
+        "title": "My recordings",
+        "icon": "mic",
+        "target": "myRecordings"
+      }
+    ]
+  },
+  "search": {
+    "filters": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "practice",
+        "label": "Practice"
+      },
+      {
+        "id": "lessons",
+        "label": "Lessons"
+      },
+      {
+        "id": "vocab",
+        "label": "Vocab"
+      },
+      {
+        "id": "mine",
+        "label": "Your work"
+      }
+    ],
+    "index": [
+      {
+        "id": "srch_001",
+        "type": "Guide",
+        "category": "resources",
+        "title": "Using cohesive devices naturally",
+        "subtitle": "Resources · Writing · 7 min read",
+        "keywords": "cohesive devices cohesion linking coherence",
+        "target": "articleTips"
+      },
+      {
+        "id": "srch_002",
+        "type": "Drill",
+        "category": "drills",
+        "title": "Linking words: contrast & addition",
+        "subtitle": "Writing Booster · 12 questions",
+        "keywords": "cohesive devices linking words connectors",
+        "target": "sentenceBuilder"
+      },
+      {
+        "id": "srch_003",
+        "type": "Vocab",
+        "category": "vocab",
+        "title": "furthermore, nonetheless, whereas",
+        "subtitle": "Vault · 3 saved phrases",
+        "keywords": "cohesive devices linking connectors",
+        "target": "vocabVault"
+      },
+      {
+        "id": "srch_005",
+        "type": "Descriptor",
+        "category": "resources",
+        "title": "Coherence & Cohesion · Band 7",
+        "subtitle": "Official band descriptors",
+        "keywords": "cohesive devices criteria descriptors",
+        "target": "scoringCriteria"
+      },
+      {
+        "id": "srch_006",
+        "type": "Guide",
+        "category": "resources",
+        "title": "Paragraph structure for Task 2",
+        "subtitle": "Resources · Writing · 5 min read",
+        "keywords": "cohesive devices paragraphing topic sentence",
+        "target": "masterclass"
+      },
+      {
+        "id": "srch_007",
+        "type": "Guide",
+        "category": "resources",
+        "title": "Referencing: this, these, such",
+        "subtitle": "Resources · Grammar · 4 min read",
+        "keywords": "cohesive devices reference pronouns",
+        "target": "articleTips"
+      },
+      {
+        "id": "srch_008",
+        "type": "Guide",
+        "category": "resources",
+        "title": "Signposting in Speaking Part 3",
+        "subtitle": "Resources · Speaking · 6 min read",
+        "keywords": "cohesive devices discourse markers fluency",
+        "target": "articleTips"
+      },
+      {
+        "id": "srch_009",
+        "type": "Vocab",
+        "category": "vocab",
+        "title": "consequently, as a result, hence",
+        "subtitle": "Vault · cause & effect",
+        "keywords": "cohesive devices linking result",
+        "target": "vocabVault"
+      },
+      {
+        "id": "srch_010",
+        "type": "Vocab",
+        "category": "vocab",
+        "title": "similarly, likewise, in the same way",
+        "subtitle": "Vault · comparison",
+        "keywords": "cohesive devices linking comparison",
+        "target": "vocabVault"
+      },
+      {
+        "id": "srch_011",
+        "type": "Vocab",
+        "category": "vocab",
+        "title": "to illustrate, for instance, namely",
+        "subtitle": "Vault · examples",
+        "keywords": "cohesive devices linking examples",
+        "target": "vocabVault"
+      },
+      {
+        "id": "srch_012",
+        "type": "Drill",
+        "category": "drills",
+        "title": "Sentence combining: relative clauses",
+        "subtitle": "Sentence Builder · 10 questions",
+        "keywords": "cohesive devices complex sentences",
+        "target": "sentenceBuilder"
+      },
+      {
+        "id": "srch_013",
+        "type": "Drill",
+        "category": "drills",
+        "title": "Overusing linkers: spot the error",
+        "subtitle": "Writing Booster · 8 questions",
+        "keywords": "cohesive devices mechanical overuse",
+        "target": "sentenceBuilder"
+      },
+      {
+        "id": "srch_015",
+        "type": "Guide",
+        "category": "resources",
+        "title": "Part 4 note completion strategy",
+        "subtitle": "Resources · Listening · 6 min read",
+        "keywords": "listening part 4 note completion",
+        "target": "listeningLesson"
+      },
+      {
+        "id": "srch_016",
+        "type": "Drill",
+        "category": "drills",
+        "title": "Task 1 line graph: describing trends",
+        "subtitle": "Writing Task 1 · 10 questions",
+        "keywords": "task 1 line graph trends academic",
+        "target": "writingTask1Editor"
+      },
+      {
+        "id": "srch_017",
+        "type": "Guide",
+        "category": "resources",
+        "title": "Matching headings in 4 steps",
+        "subtitle": "Resources · Reading · 5 min read",
+        "keywords": "reading matching headings paragraphs",
+        "target": "readingLesson"
+      },
+      {
+        "id": "srch_018",
+        "type": "Drill",
+        "category": "drills",
+        "title": "The th sound: think vs sink",
+        "subtitle": "Pronunciation trainer · 15 words",
+        "keywords": "pronunciation th sound speaking",
+        "target": "pronunciation"
+      }
+    ]
+  },
+  "certificates": {
+    "intro": "Milestones you unlock as you practise. Each one is earned from your own results.",
+    "items": [
+      {
+        "id": "first_mock",
+        "code": "FM",
+        "title": "First full mock test",
+        "description": "Completed a full four-skill IELTS Academic mock test.",
+        "icon": "mock",
+        "rule": {
+          "type": "count",
+          "skill": "mock",
+          "kinds": [
+            "mock"
+          ],
+          "goal": 1
+        },
+        "unit": "mock tests"
+      },
+      {
+        "id": "mock_65",
+        "code": "M65",
+        "title": "Band 6.5 in a mock",
+        "description": "Scored an overall Band 6.5 or higher in a full mock test.",
+        "icon": "trophy",
+        "rule": {
+          "type": "mockOverall",
+          "band": 6.5
+        }
+      },
+      {
+        "id": "mock_70",
+        "code": "M70",
+        "title": "Band 7.0 in a mock",
+        "description": "Scored an overall Band 7.0 or higher in a full mock test.",
+        "icon": "trophy",
+        "rule": {
+          "type": "mockOverall",
+          "band": 7.0
+        }
+      },
+      {
+        "id": "target_listening",
+        "code": "TL",
+        "title": "Listening on target",
+        "description": "Reached your target band in Listening.",
+        "icon": "listening",
+        "rule": {
+          "type": "skillTarget",
+          "skill": "listening"
+        }
+      },
+      {
+        "id": "target_reading",
+        "code": "TR",
+        "title": "Reading on target",
+        "description": "Reached your target band in Reading.",
+        "icon": "reading",
+        "rule": {
+          "type": "skillTarget",
+          "skill": "reading"
+        }
+      },
+      {
+        "id": "target_writing",
+        "code": "TW",
+        "title": "Writing on target",
+        "description": "Reached your target band in Writing.",
+        "icon": "writing",
+        "rule": {
+          "type": "skillTarget",
+          "skill": "writing"
+        }
+      },
+      {
+        "id": "target_speaking",
+        "code": "TS",
+        "title": "Speaking on target",
+        "description": "Reached your target band in Speaking.",
+        "icon": "speaking",
+        "rule": {
+          "type": "skillTarget",
+          "skill": "speaking"
+        }
+      },
+      {
+        "id": "essays_10",
+        "code": "E10",
+        "title": "10 writing essays",
+        "description": "Wrote and submitted ten Task 1 or Task 2 essays for feedback.",
+        "icon": "pen",
+        "rule": {
+          "type": "count",
+          "skill": "writing",
+          "kinds": [
+            "task1",
+            "task2"
+          ],
+          "goal": 10
+        },
+        "unit": "essays"
+      },
+      {
+        "id": "speaking_20",
+        "code": "S20",
+        "title": "20 speaking answers",
+        "description": "Recorded twenty Part 1, 2 or 3 speaking answers.",
+        "icon": "mic",
+        "rule": {
+          "type": "count",
+          "skill": "speaking",
+          "kinds": [
+            "part1",
+            "part2",
+            "part3"
+          ],
+          "goal": 20
+        },
+        "unit": "answers"
+      },
+      {
+        "id": "streak_7",
+        "code": "ST7",
+        "title": "7-day streak",
+        "description": "Practised on seven days in a row.",
+        "icon": "fire",
+        "rule": {
+          "type": "streak",
+          "goal": 7
+        },
+        "unit": "days"
+      },
+      {
+        "id": "listening_parts",
+        "code": "LP4",
+        "title": "All Listening parts",
+        "description": "Practised every part of the Listening test, Parts 1 to 4.",
+        "icon": "headphones",
+        "rule": {
+          "type": "listeningParts",
+          "goal": 4
+        },
+        "unit": "parts"
+      }
+    ]
+  },
+  "plans": {
+    "currency": "৳",
+    "pricingLabel": "Launch pricing",
+    "pricingNote": "Launch pricing in Bangladeshi taka. Prices may change when payments open.",
+    "plans": [
+      {
+        "id": "free",
+        "name": "Free",
+        "tagline": "Everything you need to start practising.",
+        "priceMonthly": 0,
+        "priceYearly": 0,
+        "launchPricing": false,
+        "highlights": [
+          "Practice questions for all four skills",
+          "1 full mock test a month",
+          "3 AI writing reports a month"
+        ]
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "tagline": "Unlimited AI feedback for every skill.",
+        "priceMonthly": 499,
+        "priceYearly": 3999,
+        "launchPricing": true,
+        "highlights": [
+          "Unlimited mock tests with band reports",
+          "Unlimited AI writing and speaking feedback",
+          "Pronunciation scoring and the full content library"
+        ]
+      }
+    ],
+    "features": [
+      {
+        "id": "mockTests",
+        "label": "Full mock tests",
+        "free": "1 / month",
+        "pro": "Unlimited"
+      },
+      {
+        "id": "writingFeedback",
+        "label": "AI writing feedback",
+        "free": "3 / month",
+        "pro": "Unlimited"
+      },
+      {
+        "id": "speakingEvaluations",
+        "label": "AI speaking evaluations",
+        "free": "3 / month",
+        "pro": "Unlimited"
+      },
+      {
+        "id": "pronunciation",
+        "label": "Pronunciation scoring",
+        "free": "no",
+        "pro": "yes"
+      },
+      {
+        "id": "library",
+        "label": "Full content library",
+        "free": "Starter set",
+        "pro": "yes"
+      },
+      {
+        "id": "analytics",
+        "label": "Detailed analytics",
+        "free": "Basic",
+        "pro": "yes"
+      },
+      {
+        "id": "certificates",
+        "label": "Certificates",
+        "free": "yes",
+        "pro": "yes"
+      },
+      {
+        "id": "community",
+        "label": "Community & speaking rooms",
+        "free": "yes",
+        "pro": "yes"
+      }
+    ],
+    "comingSoon": {
+      "title": "Payments open soon",
+      "body": "We’re putting the finishing touches to Pro. Nothing is charged today — turn on the reminder and we’ll tell you the moment you can upgrade.",
+      "toggleLabel": "Notify me when Pro launches",
+      "confirmation": "You’re on the list. We’ll notify you when Pro launches."
+    },
+    "proRenewalNote": "Your renewal date and receipts will appear here once payments open."
+  }
+}

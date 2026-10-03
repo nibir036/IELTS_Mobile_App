@@ -1,0 +1,4124 @@
+[
+{
+"id": "tv_family_isolation",
+"word": "isolation",
+"pos": "topic term (Family & Relationships)",
+"en": "the state of being alone and cut off"
+},
+{
+"id": "tv_family_loneliness",
+"word": "loneliness",
+"pos": "topic term (Family & Relationships)",
+"en": "sadness from lacking company"
+},
+{
+"id": "tv_family_dependency",
+"word": "dependency",
+"pos": "topic term (Family & Relationships)",
+"en": "excessive reliance on another"
+},
+{
+"id": "tv_family_independence",
+"word": "independence",
+"pos": "topic term (Family & Relationships)",
+"en": "the ability to rely on oneself"
+},
+{
+"id": "tv_family_autonomy",
+"word": "autonomy",
+"pos": "topic term (Family & Relationships)",
+"en": "freedom to make one's own decisions"
+},
+{
+"id": "tv_family_work_life_balance",
+"word": "work-life balance",
+"pos": "topic term (Family & Relationships)",
+"en": "dividing time fairly between job and home"
+},
+{
+"id": "tv_family_obligation",
+"word": "obligation",
+"pos": "topic term (Family & Relationships)",
+"en": "a duty one is bound to fulfil"
+},
+{
+"id": "tv_family_responsibility",
+"word": "responsibility",
+"pos": "topic term (Family & Relationships)",
+"en": "a duty to deal with something"
+},
+{
+"id": "tv_family_household_chores",
+"word": "household chores",
+"pos": "topic term (Family & Relationships)",
+"en": "routine tasks of running a home"
+},
+{
+"id": "tv_family_tradition",
+"word": "tradition",
+"pos": "topic term (Family & Relationships)",
+"en": "a long-established family or social custom"
+},
+{
+"id": "tv_family_values",
+"word": "values",
+"pos": "topic term (Family & Relationships)",
+"en": "the principles a family holds important"
+},
+{
+"id": "tv_family_heritage",
+"word": "heritage",
+"pos": "topic term (Family & Relationships)",
+"en": "cultural background inherited from ancestors"
+},
+{
+"id": "tv_family_reunion",
+"word": "reunion",
+"pos": "topic term (Family & Relationships)",
+"en": "a gathering of people after time apart"
+},
+{
+"id": "tv_family_bonding",
+"word": "bonding",
+"pos": "topic term (Family & Relationships)",
+"en": "forming a close relationship"
+},
+{
+"id": "tv_family_nurturing",
+"word": "nurturing",
+"pos": "topic term (Family & Relationships)",
+"en": "caring and encouraging in manner"
+},
+{
+"id": "tv_family_overprotective",
+"word": "overprotective",
+"pos": "topic term (Family & Relationships)",
+"en": "guarding someone more than is healthy"
+},
+{
+"id": "tv_family_neglect",
+"word": "neglect",
+"pos": "topic term (Family & Relationships)",
+"en": "failure to give proper care or attention"
+},
+{
+"id": "tv_family_reliance",
+"word": "reliance",
+"pos": "topic term (Family & Relationships)",
+"en": "dependence on someone for support"
+},
+{
+"id": "tv_culture_culture",
+"word": "culture",
+"pos": "topic term (Culture & Tradition)",
+"en": "the shared customs, beliefs, and arts of a people"
+},
+{
+"id": "tv_culture_tradition",
+"word": "tradition",
+"pos": "topic term (Culture & Tradition)",
+"en": "a custom passed down over generations"
+},
+{
+"id": "tv_culture_custom",
+"word": "custom",
+"pos": "topic term (Culture & Tradition)",
+"en": "a usual way of behaving in a society"
+},
+{
+"id": "tv_culture_ritual",
+"word": "ritual",
+"pos": "topic term (Culture & Tradition)",
+"en": "a set of actions performed in a fixed way"
+},
+{
+"id": "tv_culture_ceremony",
+"word": "ceremony",
+"pos": "topic term (Culture & Tradition)",
+"en": "a formal event marking an occasion"
+},
+{
+"id": "tv_culture_heritage",
+"word": "heritage",
+"pos": "topic term (Culture & Tradition)",
+"en": "valued traditions and achievements inherited from the past"
+},
+{
+"id": "tv_culture_legacy",
+"word": "legacy",
+"pos": "topic term (Culture & Tradition)",
+"en": "something handed down from earlier generations"
+},
+{
+"id": "tv_culture_ancestry",
+"word": "ancestry",
+"pos": "topic term (Culture & Tradition)",
+"en": "one's family and cultural origins"
+},
+{
+"id": "tv_culture_identity",
+"word": "identity",
+"pos": "topic term (Culture & Tradition)",
+"en": "the characteristics that define a person or group"
+},
+{
+"id": "tv_culture_ethnicity",
+"word": "ethnicity",
+"pos": "topic term (Culture & Tradition)",
+"en": "belonging to a group with shared culture or descent"
+},
+{
+"id": "tv_culture_indigenous",
+"word": "indigenous",
+"pos": "topic term (Culture & Tradition)",
+"en": "native to and originating in a place"
+},
+{
+"id": "tv_culture_folklore",
+"word": "folklore",
+"pos": "topic term (Culture & Tradition)",
+"en": "the traditional stories and beliefs of a people"
+},
+{
+"id": "tv_culture_mythology",
+"word": "mythology",
+"pos": "topic term (Culture & Tradition)",
+"en": "a body of traditional myths"
+},
+{
+"id": "tv_culture_folk",
+"word": "folk",
+"pos": "topic term (Culture & Tradition)",
+"en": "relating to the traditional culture of ordinary people"
+},
+{
+"id": "tv_culture_cuisine",
+"word": "cuisine",
+"pos": "topic term (Culture & Tradition)",
+"en": "a characteristic style of cooking"
+},
+{
+"id": "tv_culture_costume",
+"word": "costume",
+"pos": "topic term (Culture & Tradition)",
+"en": "traditional dress of a region or era"
+},
+{
+"id": "tv_culture_attire",
+"word": "attire",
+"pos": "topic term (Culture & Tradition)",
+"en": "clothes worn for a particular occasion"
+},
+{
+"id": "tv_culture_artefact",
+"word": "artefact",
+"pos": "topic term (Culture & Tradition)",
+"en": "an object made by humans, often historical"
+},
+{
+"id": "tv_culture_craftsmanship",
+"word": "craftsmanship",
+"pos": "topic term (Culture & Tradition)",
+"en": "skill in making things by hand"
+},
+{
+"id": "tv_culture_handicraft",
+"word": "handicraft",
+"pos": "topic term (Culture & Tradition)",
+"en": "a skilled handmade object or activity"
+},
+{
+"id": "tv_culture_cultural_diversity",
+"word": "cultural diversity",
+"pos": "topic term (Culture & Tradition)",
+"en": "the presence of many different cultures"
+},
+{
+"id": "tv_culture_multiculturalism",
+"word": "multiculturalism",
+"pos": "topic term (Culture & Tradition)",
+"en": "the coexistence of several cultures in one place"
+},
+{
+"id": "tv_culture_cosmopolitan",
+"word": "cosmopolitan",
+"pos": "topic term (Culture & Tradition)",
+"en": "including people and influences from many countries"
+},
+{
+"id": "tv_culture_assimilation",
+"word": "assimilation",
+"pos": "topic term (Culture & Tradition)",
+"en": "adopting the culture of a dominant group"
+},
+{
+"id": "tv_culture_integration",
+"word": "integration",
+"pos": "topic term (Culture & Tradition)",
+"en": "becoming part of a wider society while keeping identity"
+},
+{
+"id": "tv_culture_acculturation",
+"word": "acculturation",
+"pos": "topic term (Culture & Tradition)",
+"en": "cultural change from contact between groups"
+},
+{
+"id": "tv_culture_cultural_exchange",
+"word": "cultural exchange",
+"pos": "topic term (Culture & Tradition)",
+"en": "the sharing of ideas and customs between groups"
+},
+{
+"id": "tv_culture_cross_cultural",
+"word": "cross-cultural",
+"pos": "topic term (Culture & Tradition)",
+"en": "involving two or more cultures"
+},
+{
+"id": "tv_culture_cultural_heritage",
+"word": "cultural heritage",
+"pos": "topic term (Culture & Tradition)",
+"en": "traditions and sites inherited from the past"
+},
+{
+"id": "tv_culture_preservation",
+"word": "preservation",
+"pos": "topic term (Culture & Tradition)",
+"en": "keeping something safe from loss or decay"
+},
+{
+"id": "tv_culture_conservation",
+"word": "conservation",
+"pos": "topic term (Culture & Tradition)",
+"en": "protection of valued places and traditions"
+},
+{
+"id": "tv_culture_revival",
+"word": "revival",
+"pos": "topic term (Culture & Tradition)",
+"en": "a renewal of interest in an old practice"
+},
+{
+"id": "tv_culture_renaissance",
+"word": "renaissance",
+"pos": "topic term (Culture & Tradition)",
+"en": "a period of renewed cultural flourishing"
+},
+{
+"id": "tv_culture_continuity",
+"word": "continuity",
+"pos": "topic term (Culture & Tradition)",
+"en": "the unbroken passing on of traditions"
+},
+{
+"id": "tv_culture_extinction",
+"word": "extinction",
+"pos": "topic term (Culture & Tradition)",
+"en": "the complete dying out of a practice or language"
+},
+{
+"id": "tv_culture_erosion",
+"word": "erosion",
+"pos": "topic term (Culture & Tradition)",
+"en": "the gradual weakening of something"
+},
+{
+"id": "tv_culture_homogenisation",
+"word": "homogenisation",
+"pos": "topic term (Culture & Tradition)",
+"en": "the process of becoming uniform and alike"
+},
+{
+"id": "tv_culture_westernisation",
+"word": "westernisation",
+"pos": "topic term (Culture & Tradition)",
+"en": "adopting Western culture and values"
+},
+{
+"id": "tv_culture_globalisation",
+"word": "globalisation",
+"pos": "topic term (Culture & Tradition)",
+"en": "increasing interconnection of the world's cultures"
+},
+{
+"id": "tv_culture_cultural_identity",
+"word": "cultural identity",
+"pos": "topic term (Culture & Tradition)",
+"en": "the sense of belonging to a culture"
+},
+{
+"id": "tv_culture_norms",
+"word": "norms",
+"pos": "topic term (Culture & Tradition)",
+"en": "accepted standards of behaviour in a group"
+},
+{
+"id": "tv_culture_values",
+"word": "values",
+"pos": "topic term (Culture & Tradition)",
+"en": "the principles a culture holds important"
+},
+{
+"id": "tv_culture_belief",
+"word": "belief",
+"pos": "topic term (Culture & Tradition)",
+"en": "something accepted as true by a group"
+},
+{
+"id": "tv_culture_superstition",
+"word": "superstition",
+"pos": "topic term (Culture & Tradition)",
+"en": "a belief based on tradition rather than reason"
+},
+{
+"id": "tv_culture_etiquette",
+"word": "etiquette",
+"pos": "topic term (Culture & Tradition)",
+"en": "the rules of polite social behaviour"
+},
+{
+"id": "tv_culture_protocol",
+"word": "protocol",
+"pos": "topic term (Culture & Tradition)",
+"en": "accepted formal rules for an occasion"
+},
+{
+"id": "tv_culture_taboo",
+"word": "taboo",
+"pos": "topic term (Culture & Tradition)",
+"en": "something forbidden by custom"
+},
+{
+"id": "tv_culture_convention",
+"word": "convention",
+"pos": "topic term (Culture & Tradition)",
+"en": "a widely accepted way of doing things"
+},
+{
+"id": "tv_culture_rite_of_passage",
+"word": "rite of passage",
+"pos": "topic term (Culture & Tradition)",
+"en": "a ceremony marking a life stage"
+},
+{
+"id": "tv_culture_festivity",
+"word": "festivity",
+"pos": "topic term (Culture & Tradition)",
+"en": "joyful celebration of an occasion"
+},
+{
+"id": "tv_culture_festival",
+"word": "festival",
+"pos": "topic term (Culture & Tradition)",
+"en": "a day or period of cultural celebration"
+},
+{
+"id": "tv_culture_commemorate",
+"word": "commemorate",
+"pos": "topic term (Culture & Tradition)",
+"en": "to honour the memory of a person or event"
+},
+{
+"id": "tv_culture_observe",
+"word": "observe",
+"pos": "topic term (Culture & Tradition)",
+"en": "to follow a custom or holiday"
+},
+{
+"id": "tv_culture_symbolic",
+"word": "symbolic",
+"pos": "topic term (Culture & Tradition)",
+"en": "representing a deeper meaning"
+},
+{
+"id": "tv_culture_emblem",
+"word": "emblem",
+"pos": "topic term (Culture & Tradition)",
+"en": "a symbol standing for a group or idea"
+},
+{
+"id": "tv_culture_embody",
+"word": "embody",
+"pos": "topic term (Culture & Tradition)",
+"en": "to express or represent an idea in physical form"
+},
+{
+"id": "tv_culture_ancestral",
+"word": "ancestral",
+"pos": "topic term (Culture & Tradition)",
+"en": "relating to one's forebears"
+},
+{
+"id": "tv_culture_time_honoured",
+"word": "time-honoured",
+"pos": "topic term (Culture & Tradition)",
+"en": "respected because of long use"
+},
+{
+"id": "tv_culture_deep_rooted",
+"word": "deep-rooted",
+"pos": "topic term (Culture & Tradition)",
+"en": "firmly established over a long time"
+},
+{
+"id": "tv_culture_long_standing",
+"word": "long-standing",
+"pos": "topic term (Culture & Tradition)",
+"en": "having existed for a long time"
+},
+{
+"id": "tv_culture_quaint",
+"word": "quaint",
+"pos": "topic term (Culture & Tradition)",
+"en": "attractively old-fashioned"
+},
+{
+"id": "tv_culture_authentic",
+"word": "authentic",
+"pos": "topic term (Culture & Tradition)",
+"en": "genuine and true to origin"
+},
+{
+"id": "tv_culture_indigenous_knowledge",
+"word": "indigenous knowledge",
+"pos": "topic term (Culture & Tradition)",
+"en": "traditional understanding held by native peoples"
+},
+{
+"id": "tv_culture_oral_tradition",
+"word": "oral tradition",
+"pos": "topic term (Culture & Tradition)",
+"en": "culture passed on by word of mouth"
+},
+{
+"id": "tv_culture_dialect",
+"word": "dialect",
+"pos": "topic term (Culture & Tradition)",
+"en": "a regional form of a language"
+},
+{
+"id": "tv_culture_vernacular",
+"word": "vernacular",
+"pos": "topic term (Culture & Tradition)",
+"en": "the everyday language of ordinary people"
+},
+{
+"id": "tv_culture_multilingual",
+"word": "multilingual",
+"pos": "topic term (Culture & Tradition)",
+"en": "able to use several languages"
+},
+{
+"id": "tv_culture_stereotype",
+"word": "stereotype",
+"pos": "topic term (Culture & Tradition)",
+"en": "a fixed, oversimplified image of a group"
+},
+{
+"id": "tv_culture_prejudice",
+"word": "prejudice",
+"pos": "topic term (Culture & Tradition)",
+"en": "an unfair opinion formed in advance"
+},
+{
+"id": "tv_culture_ethnocentrism",
+"word": "ethnocentrism",
+"pos": "topic term (Culture & Tradition)",
+"en": "judging others by one's own culture"
+},
+{
+"id": "tv_culture_cultural_relativism",
+"word": "cultural relativism",
+"pos": "topic term (Culture & Tradition)",
+"en": "judging a culture by its own standards"
+},
+{
+"id": "tv_culture_tolerance",
+"word": "tolerance",
+"pos": "topic term (Culture & Tradition)",
+"en": "acceptance of beliefs different from one's own"
+},
+{
+"id": "tv_culture_coexistence",
+"word": "coexistence",
+"pos": "topic term (Culture & Tradition)",
+"en": "living together peacefully despite differences"
+},
+{
+"id": "tv_culture_harmony",
+"word": "harmony",
+"pos": "topic term (Culture & Tradition)",
+"en": "peaceful agreement and balance"
+},
+{
+"id": "tv_culture_cultural_appropriation",
+"word": "cultural appropriation",
+"pos": "topic term (Culture & Tradition)",
+"en": "adopting elements of another culture inappropriately"
+},
+{
+"id": "tv_culture_diffusion",
+"word": "diffusion",
+"pos": "topic term (Culture & Tradition)",
+"en": "the spread of cultural traits between groups"
+},
+{
+"id": "tv_culture_fusion",
+"word": "fusion",
+"pos": "topic term (Culture & Tradition)",
+"en": "a blend of different cultural elements"
+},
+{
+"id": "tv_culture_hybrid",
+"word": "hybrid",
+"pos": "topic term (Culture & Tradition)",
+"en": "something combining two distinct influences"
+},
+{
+"id": "tv_culture_melting_pot",
+"word": "melting pot",
+"pos": "topic term (Culture & Tradition)",
+"en": "a place where cultures blend together"
+},
+{
+"id": "tv_culture_pilgrimage",
+"word": "pilgrimage",
+"pos": "topic term (Culture & Tradition)",
+"en": "a journey to a sacred place"
+},
+{
+"id": "tv_culture_sacred",
+"word": "sacred",
+"pos": "topic term (Culture & Tradition)",
+"en": "regarded with deep religious respect"
+},
+{
+"id": "tv_culture_secular",
+"word": "secular",
+"pos": "topic term (Culture & Tradition)",
+"en": "not connected with religion"
+},
+{
+"id": "tv_culture_devout",
+"word": "devout",
+"pos": "topic term (Culture & Tradition)",
+"en": "deeply religious in practice"
+},
+{
+"id": "tv_culture_generational",
+"word": "generational",
+"pos": "topic term (Culture & Tradition)",
+"en": "relating to or shared across age groups"
+},
+{
+"id": "tv_culture_nostalgia",
+"word": "nostalgia",
+"pos": "topic term (Culture & Tradition)",
+"en": "sentimental longing for the past"
+},
+{
+"id": "tv_culture_modernity",
+"word": "modernity",
+"pos": "topic term (Culture & Tradition)",
+"en": "the condition of being modern"
+},
+{
+"id": "tv_culture_adapt",
+"word": "adapt",
+"pos": "topic term (Culture & Tradition)",
+"en": "to adjust to new conditions"
+},
+{
+"id": "tv_culture_perpetuate",
+"word": "perpetuate",
+"pos": "topic term (Culture & Tradition)",
+"en": "to make something continue indefinitely"
+},
+{
+"id": "tv_culture_instil",
+"word": "instil",
+"pos": "topic term (Culture & Tradition)",
+"en": "to establish an idea gradually in someone"
+},
+{
+"id": "tv_culture_cultural_capital",
+"word": "cultural capital",
+"pos": "topic term (Culture & Tradition)",
+"en": "knowledge and tastes that confer social advantage"
+},
+{
+"id": "tv_globalisation_globalisation",
+"word": "globalisation",
+"pos": "topic term (Globalisation)",
+"en": "the growing interconnection of the world's economies and cultures"
+},
+{
+"id": "tv_globalisation_interconnected",
+"word": "interconnected",
+"pos": "topic term (Globalisation)",
+"en": "linked so each part affects the others"
+},
+{
+"id": "tv_globalisation_interdependence",
+"word": "interdependence",
+"pos": "topic term (Globalisation)",
+"en": "mutual reliance between countries or groups"
+},
+{
+"id": "tv_globalisation_integration",
+"word": "integration",
+"pos": "topic term (Globalisation)",
+"en": "the joining of economies or systems into one"
+},
+{
+"id": "tv_globalisation_free_trade",
+"word": "free trade",
+"pos": "topic term (Globalisation)",
+"en": "trade without tariffs or restrictions"
+},
+{
+"id": "tv_globalisation_tariff",
+"word": "tariff",
+"pos": "topic term (Globalisation)",
+"en": "a tax on imported goods"
+},
+{
+"id": "tv_globalisation_protectionism",
+"word": "protectionism",
+"pos": "topic term (Globalisation)",
+"en": "shielding home industries from foreign competition"
+},
+{
+"id": "tv_globalisation_liberalisation",
+"word": "liberalisation",
+"pos": "topic term (Globalisation)",
+"en": "the removal of restrictions on trade or markets"
+},
+{
+"id": "tv_globalisation_deregulation",
+"word": "deregulation",
+"pos": "topic term (Globalisation)",
+"en": "reducing government control over an industry"
+},
+{
+"id": "tv_globalisation_multinational",
+"word": "multinational",
+"pos": "topic term (Globalisation)",
+"en": "a company operating in many countries"
+},
+{
+"id": "tv_globalisation_corporation",
+"word": "corporation",
+"pos": "topic term (Globalisation)",
+"en": "a large company or group of companies"
+},
+{
+"id": "tv_globalisation_conglomerate",
+"word": "conglomerate",
+"pos": "topic term (Globalisation)",
+"en": "a corporation of many diverse businesses"
+},
+{
+"id": "tv_globalisation_outsourcing",
+"word": "outsourcing",
+"pos": "topic term (Globalisation)",
+"en": "hiring outside firms to do work"
+},
+{
+"id": "tv_globalisation_offshoring",
+"word": "offshoring",
+"pos": "topic term (Globalisation)",
+"en": "moving operations to another country"
+},
+{
+"id": "tv_globalisation_supply_chain",
+"word": "supply chain",
+"pos": "topic term (Globalisation)",
+"en": "the network that produces and delivers goods"
+},
+{
+"id": "tv_globalisation_logistics",
+"word": "logistics",
+"pos": "topic term (Globalisation)",
+"en": "the management of moving goods and resources"
+},
+{
+"id": "tv_globalisation_export",
+"word": "export",
+"pos": "topic term (Globalisation)",
+"en": "goods sold to another country"
+},
+{
+"id": "tv_globalisation_import",
+"word": "import",
+"pos": "topic term (Globalisation)",
+"en": "goods bought from another country"
+},
+{
+"id": "tv_globalisation_foreign_investment",
+"word": "foreign investment",
+"pos": "topic term (Globalisation)",
+"en": "money invested from abroad"
+},
+{
+"id": "tv_globalisation_capital_flow",
+"word": "capital flow",
+"pos": "topic term (Globalisation)",
+"en": "the movement of money across borders"
+},
+{
+"id": "tv_globalisation_emerging_market",
+"word": "emerging market",
+"pos": "topic term (Globalisation)",
+"en": "a developing economy with fast growth"
+},
+{
+"id": "tv_globalisation_developed_country",
+"word": "developed country",
+"pos": "topic term (Globalisation)",
+"en": "a wealthy, industrialised nation"
+},
+{
+"id": "tv_globalisation_developing_country",
+"word": "developing country",
+"pos": "topic term (Globalisation)",
+"en": "a poorer nation building its economy"
+},
+{
+"id": "tv_globalisation_global_south",
+"word": "Global South",
+"pos": "topic term (Globalisation)",
+"en": "the world's poorer, often southern nations"
+},
+{
+"id": "tv_globalisation_economic_growth",
+"word": "economic growth",
+"pos": "topic term (Globalisation)",
+"en": "an increase in a country's output"
+},
+{
+"id": "tv_globalisation_prosperity",
+"word": "prosperity",
+"pos": "topic term (Globalisation)",
+"en": "the state of being successful and wealthy"
+},
+{
+"id": "tv_globalisation_disparity",
+"word": "disparity",
+"pos": "topic term (Globalisation)",
+"en": "a great difference, especially in wealth"
+},
+{
+"id": "tv_globalisation_inequality",
+"word": "inequality",
+"pos": "topic term (Globalisation)",
+"en": "unequal distribution of wealth or opportunity"
+},
+{
+"id": "tv_globalisation_exploitation",
+"word": "exploitation",
+"pos": "topic term (Globalisation)",
+"en": "unfairly using people or resources for profit"
+},
+{
+"id": "tv_globalisation_sweatshop",
+"word": "sweatshop",
+"pos": "topic term (Globalisation)",
+"en": "a workplace with poor pay and conditions"
+},
+{
+"id": "tv_globalisation_labour_market",
+"word": "labour market",
+"pos": "topic term (Globalisation)",
+"en": "the supply of and demand for workers"
+},
+{
+"id": "tv_globalisation_cheap_labour",
+"word": "cheap labour",
+"pos": "topic term (Globalisation)",
+"en": "workers available at low cost"
+},
+{
+"id": "tv_globalisation_migration",
+"word": "migration",
+"pos": "topic term (Globalisation)",
+"en": "the movement of people between places"
+},
+{
+"id": "tv_globalisation_brain_drain",
+"word": "brain drain",
+"pos": "topic term (Globalisation)",
+"en": "the loss of skilled people to other countries"
+},
+{
+"id": "tv_globalisation_remittance",
+"word": "remittance",
+"pos": "topic term (Globalisation)",
+"en": "money sent home by workers abroad"
+},
+{
+"id": "tv_globalisation_diaspora",
+"word": "diaspora",
+"pos": "topic term (Globalisation)",
+"en": "people from one homeland scattered worldwide"
+},
+{
+"id": "tv_globalisation_cultural_exchange",
+"word": "cultural exchange",
+"pos": "topic term (Globalisation)",
+"en": "the sharing of customs and ideas across cultures"
+},
+{
+"id": "tv_globalisation_homogenisation",
+"word": "homogenisation",
+"pos": "topic term (Globalisation)",
+"en": "the process of cultures becoming alike"
+},
+{
+"id": "tv_globalisation_westernisation",
+"word": "westernisation",
+"pos": "topic term (Globalisation)",
+"en": "the spread of Western culture and values"
+},
+{
+"id": "tv_globalisation_americanisation",
+"word": "Americanisation",
+"pos": "topic term (Globalisation)",
+"en": "the spread of American culture and products"
+},
+{
+"id": "tv_globalisation_cultural_imperialism",
+"word": "cultural imperialism",
+"pos": "topic term (Globalisation)",
+"en": "one culture dominating and displacing others"
+},
+{
+"id": "tv_globalisation_hybridisation",
+"word": "hybridisation",
+"pos": "topic term (Globalisation)",
+"en": "the blending of cultural forms"
+},
+{
+"id": "tv_globalisation_connectivity",
+"word": "connectivity",
+"pos": "topic term (Globalisation)",
+"en": "the state of being linked, especially digitally"
+},
+{
+"id": "tv_globalisation_digital_divide",
+"word": "digital divide",
+"pos": "topic term (Globalisation)",
+"en": "the gap between those with and without technology access"
+},
+{
+"id": "tv_globalisation_borderless",
+"word": "borderless",
+"pos": "topic term (Globalisation)",
+"en": "operating without regard to national borders"
+},
+{
+"id": "tv_globalisation_transnational",
+"word": "transnational",
+"pos": "topic term (Globalisation)",
+"en": "extending across national boundaries"
+},
+{
+"id": "tv_globalisation_cosmopolitan",
+"word": "cosmopolitan",
+"pos": "topic term (Globalisation)",
+"en": "familiar with and at ease across many cultures"
+},
+{
+"id": "tv_globalisation_global_village",
+"word": "global village",
+"pos": "topic term (Globalisation)",
+"en": "the world seen as one closely linked community"
+},
+{
+"id": "tv_globalisation_standardisation",
+"word": "standardisation",
+"pos": "topic term (Globalisation)",
+"en": "making things uniform to a common standard"
+},
+{
+"id": "tv_globalisation_commodity",
+"word": "commodity",
+"pos": "topic term (Globalisation)",
+"en": "a raw material or product traded in bulk"
+},
+{
+"id": "tv_globalisation_market",
+"word": "market",
+"pos": "topic term (Globalisation)",
+"en": "the arena in which goods are bought and sold"
+},
+{
+"id": "tv_globalisation_competition",
+"word": "competition",
+"pos": "topic term (Globalisation)",
+"en": "rivalry between firms or countries"
+},
+{
+"id": "tv_globalisation_competitiveness",
+"word": "competitiveness",
+"pos": "topic term (Globalisation)",
+"en": "the ability to compete successfully"
+},
+{
+"id": "tv_globalisation_comparative_advantage",
+"word": "comparative advantage",
+"pos": "topic term (Globalisation)",
+"en": "producing something at lower relative cost"
+},
+{
+"id": "tv_globalisation_economies_of_scale",
+"word": "economies of scale",
+"pos": "topic term (Globalisation)",
+"en": "cost savings from producing in large quantities"
+},
+{
+"id": "tv_globalisation_monopoly",
+"word": "monopoly",
+"pos": "topic term (Globalisation)",
+"en": "exclusive control of a market by one firm"
+},
+{
+"id": "tv_globalisation_privatisation",
+"word": "privatisation",
+"pos": "topic term (Globalisation)",
+"en": "transferring state assets to private owners"
+},
+{
+"id": "tv_globalisation_trade_bloc",
+"word": "trade bloc",
+"pos": "topic term (Globalisation)",
+"en": "a group of countries with shared trade rules"
+},
+{
+"id": "tv_globalisation_treaty",
+"word": "treaty",
+"pos": "topic term (Globalisation)",
+"en": "a formal agreement between states"
+},
+{
+"id": "tv_globalisation_sanction",
+"word": "sanction",
+"pos": "topic term (Globalisation)",
+"en": "a penalty imposed on a country"
+},
+{
+"id": "tv_globalisation_embargo",
+"word": "embargo",
+"pos": "topic term (Globalisation)",
+"en": "an official ban on trade with a country"
+},
+{
+"id": "tv_globalisation_diplomacy",
+"word": "diplomacy",
+"pos": "topic term (Globalisation)",
+"en": "managing relations between countries"
+},
+{
+"id": "tv_globalisation_cooperation",
+"word": "cooperation",
+"pos": "topic term (Globalisation)",
+"en": "working together toward a shared goal"
+},
+{
+"id": "tv_globalisation_multilateral",
+"word": "multilateral",
+"pos": "topic term (Globalisation)",
+"en": "involving many countries acting together"
+},
+{
+"id": "tv_globalisation_bilateral",
+"word": "bilateral",
+"pos": "topic term (Globalisation)",
+"en": "involving two countries"
+},
+{
+"id": "tv_globalisation_sovereignty",
+"word": "sovereignty",
+"pos": "topic term (Globalisation)",
+"en": "a nation's supreme authority over itself"
+},
+{
+"id": "tv_globalisation_autonomy",
+"word": "autonomy",
+"pos": "topic term (Globalisation)",
+"en": "the freedom to govern oneself"
+},
+{
+"id": "tv_globalisation_dependency",
+"word": "dependency",
+"pos": "topic term (Globalisation)",
+"en": "excessive reliance on another country"
+},
+{
+"id": "tv_globalisation_vulnerability",
+"word": "vulnerability",
+"pos": "topic term (Globalisation)",
+"en": "exposure to harm or shocks"
+},
+{
+"id": "tv_globalisation_volatility",
+"word": "volatility",
+"pos": "topic term (Globalisation)",
+"en": "rapid, unpredictable change"
+},
+{
+"id": "tv_globalisation_recession",
+"word": "recession",
+"pos": "topic term (Globalisation)",
+"en": "a period of economic decline"
+},
+{
+"id": "tv_globalisation_contagion",
+"word": "contagion",
+"pos": "topic term (Globalisation)",
+"en": "the spread of financial trouble between markets"
+},
+{
+"id": "tv_globalisation_boom",
+"word": "boom",
+"pos": "topic term (Globalisation)",
+"en": "a period of rapid economic growth"
+},
+{
+"id": "tv_globalisation_foreign_aid",
+"word": "foreign aid",
+"pos": "topic term (Globalisation)",
+"en": "help given by one country to another"
+},
+{
+"id": "tv_globalisation_sustainable_development",
+"word": "sustainable development",
+"pos": "topic term (Globalisation)",
+"en": "growth that meets present needs without harming the future"
+},
+{
+"id": "tv_globalisation_carbon_footprint",
+"word": "carbon footprint",
+"pos": "topic term (Globalisation)",
+"en": "the greenhouse gases an activity produces"
+},
+{
+"id": "tv_globalisation_globalist",
+"word": "globalist",
+"pos": "topic term (Globalisation)",
+"en": "favouring global integration and cooperation"
+},
+{
+"id": "tv_globalisation_nationalism",
+"word": "nationalism",
+"pos": "topic term (Globalisation)",
+"en": "strong devotion to one's own nation"
+},
+{
+"id": "tv_globalisation_anti_globalisation",
+"word": "anti-globalisation",
+"pos": "topic term (Globalisation)",
+"en": "opposition to global economic integration"
+},
+{
+"id": "tv_globalisation_backlash",
+"word": "backlash",
+"pos": "topic term (Globalisation)",
+"en": "a strong adverse reaction"
+},
+{
+"id": "tv_globalisation_localisation",
+"word": "localisation",
+"pos": "topic term (Globalisation)",
+"en": "adapting products to local markets"
+},
+{
+"id": "tv_globalisation_glocalisation",
+"word": "glocalisation",
+"pos": "topic term (Globalisation)",
+"en": "blending global reach with local adaptation"
+},
+{
+"id": "tv_globalisation_neoliberalism",
+"word": "neoliberalism",
+"pos": "topic term (Globalisation)",
+"en": "a policy favouring free markets and open trade"
+},
+{
+"id": "tv_globalisation_deindustrialisation",
+"word": "deindustrialisation",
+"pos": "topic term (Globalisation)",
+"en": "the decline of manufacturing in a region"
+},
+{
+"id": "tv_globalisation_urbanisation",
+"word": "urbanisation",
+"pos": "topic term (Globalisation)",
+"en": "the growth of cities as people move from the land"
+},
+{
+"id": "tv_globalisation_market_access",
+"word": "market access",
+"pos": "topic term (Globalisation)",
+"en": "the ability to sell in a foreign market"
+},
+{
+"id": "tv_globalisation_trade_deficit",
+"word": "trade deficit",
+"pos": "topic term (Globalisation)",
+"en": "importing more in value than one exports"
+},
+{
+"id": "tv_globalisation_trade_surplus",
+"word": "trade surplus",
+"pos": "topic term (Globalisation)",
+"en": "exporting more in value than one imports"
+},
+{
+"id": "tv_globalisation_interconnectedness",
+"word": "interconnectedness",
+"pos": "topic term (Globalisation)",
+"en": "the quality of being mutually linked"
+},
+{
+"id": "tv_globalisation_proliferation",
+"word": "proliferation",
+"pos": "topic term (Globalisation)",
+"en": "rapid increase or spread"
+},
+{
+"id": "tv_economy_economy",
+"word": "economy",
+"pos": "topic term (Economy & Money)",
+"en": "a country's system of producing and using wealth"
+},
+{
+"id": "tv_economy_economic",
+"word": "economic",
+"pos": "topic term (Economy & Money)",
+"en": "relating to the economy or money"
+},
+{
+"id": "tv_economy_gross_domestic_product",
+"word": "gross domestic product",
+"pos": "topic term (Economy & Money)",
+"en": "the total value of a country's output"
+},
+{
+"id": "tv_economy_growth",
+"word": "growth",
+"pos": "topic term (Economy & Money)",
+"en": "an increase in economic output over time"
+},
+{
+"id": "tv_economy_recession",
+"word": "recession",
+"pos": "topic term (Economy & Money)",
+"en": "a period of economic decline"
+},
+{
+"id": "tv_economy_depression",
+"word": "depression",
+"pos": "topic term (Economy & Money)",
+"en": "a severe and prolonged economic downturn"
+},
+{
+"id": "tv_economy_downturn",
+"word": "downturn",
+"pos": "topic term (Economy & Money)",
+"en": "a decline in economic activity"
+},
+{
+"id": "tv_economy_recovery",
+"word": "recovery",
+"pos": "topic term (Economy & Money)",
+"en": "a return to growth after a decline"
+},
+{
+"id": "tv_economy_boom",
+"word": "boom",
+"pos": "topic term (Economy & Money)",
+"en": "a period of rapid economic expansion"
+},
+{
+"id": "tv_economy_inflation",
+"word": "inflation",
+"pos": "topic term (Economy & Money)",
+"en": "a general rise in prices over time"
+},
+{
+"id": "tv_economy_deflation",
+"word": "deflation",
+"pos": "topic term (Economy & Money)",
+"en": "a general fall in prices"
+},
+{
+"id": "tv_economy_stagnation",
+"word": "stagnation",
+"pos": "topic term (Economy & Money)",
+"en": "a period of little or no growth"
+},
+{
+"id": "tv_economy_cost_of_living",
+"word": "cost of living",
+"pos": "topic term (Economy & Money)",
+"en": "the money needed for everyday essentials"
+},
+{
+"id": "tv_economy_purchasing_power",
+"word": "purchasing power",
+"pos": "topic term (Economy & Money)",
+"en": "the amount of goods money can buy"
+},
+{
+"id": "tv_economy_standard_of_living",
+"word": "standard of living",
+"pos": "topic term (Economy & Money)",
+"en": "the level of comfort and wealth people enjoy"
+},
+{
+"id": "tv_economy_income",
+"word": "income",
+"pos": "topic term (Economy & Money)",
+"en": "money received from work or investments"
+},
+{
+"id": "tv_economy_wage",
+"word": "wage",
+"pos": "topic term (Economy & Money)",
+"en": "regular payment for work, usually hourly"
+},
+{
+"id": "tv_economy_expenditure",
+"word": "expenditure",
+"pos": "topic term (Economy & Money)",
+"en": "the act of spending money"
+},
+{
+"id": "tv_economy_revenue",
+"word": "revenue",
+"pos": "topic term (Economy & Money)",
+"en": "income earned by a business or government"
+},
+{
+"id": "tv_economy_profit",
+"word": "profit",
+"pos": "topic term (Economy & Money)",
+"en": "money gained after costs are paid"
+},
+{
+"id": "tv_economy_loss",
+"word": "loss",
+"pos": "topic term (Economy & Money)",
+"en": "money lost when costs exceed income"
+},
+{
+"id": "tv_economy_budget",
+"word": "budget",
+"pos": "topic term (Economy & Money)",
+"en": "a plan for income and spending"
+},
+{
+"id": "tv_economy_deficit",
+"word": "deficit",
+"pos": "topic term (Economy & Money)",
+"en": "spending more than is earned"
+},
+{
+"id": "tv_economy_surplus",
+"word": "surplus",
+"pos": "topic term (Economy & Money)",
+"en": "an excess of income over spending"
+},
+{
+"id": "tv_economy_debt",
+"word": "debt",
+"pos": "topic term (Economy & Money)",
+"en": "money that is owed"
+},
+{
+"id": "tv_economy_credit",
+"word": "credit",
+"pos": "topic term (Economy & Money)",
+"en": "the ability to borrow money"
+},
+{
+"id": "tv_economy_loan",
+"word": "loan",
+"pos": "topic term (Economy & Money)",
+"en": "a sum of money that is borrowed"
+},
+{
+"id": "tv_economy_interest_rate",
+"word": "interest rate",
+"pos": "topic term (Economy & Money)",
+"en": "the cost of borrowing money"
+},
+{
+"id": "tv_economy_mortgage",
+"word": "mortgage",
+"pos": "topic term (Economy & Money)",
+"en": "a loan to buy property"
+},
+{
+"id": "tv_economy_savings",
+"word": "savings",
+"pos": "topic term (Economy & Money)",
+"en": "money kept rather than spent"
+},
+{
+"id": "tv_economy_investment",
+"word": "investment",
+"pos": "topic term (Economy & Money)",
+"en": "putting money into something to earn a return"
+},
+{
+"id": "tv_economy_capital",
+"word": "capital",
+"pos": "topic term (Economy & Money)",
+"en": "wealth used to produce more wealth"
+},
+{
+"id": "tv_economy_asset",
+"word": "asset",
+"pos": "topic term (Economy & Money)",
+"en": "something valuable that is owned"
+},
+{
+"id": "tv_economy_liability",
+"word": "liability",
+"pos": "topic term (Economy & Money)",
+"en": "a financial debt or obligation"
+},
+{
+"id": "tv_economy_currency",
+"word": "currency",
+"pos": "topic term (Economy & Money)",
+"en": "the money used in a country"
+},
+{
+"id": "tv_economy_exchange_rate",
+"word": "exchange rate",
+"pos": "topic term (Economy & Money)",
+"en": "the value of one currency against another"
+},
+{
+"id": "tv_economy_devaluation",
+"word": "devaluation",
+"pos": "topic term (Economy & Money)",
+"en": "a deliberate reduction in a currency's value"
+},
+{
+"id": "tv_economy_appreciation",
+"word": "appreciation",
+"pos": "topic term (Economy & Money)",
+"en": "a rise in a currency's or asset's value"
+},
+{
+"id": "tv_economy_depreciation",
+"word": "depreciation",
+"pos": "topic term (Economy & Money)",
+"en": "a fall in value over time"
+},
+{
+"id": "tv_economy_stock_market",
+"word": "stock market",
+"pos": "topic term (Economy & Money)",
+"en": "where company shares are bought and sold"
+},
+{
+"id": "tv_economy_share",
+"word": "share",
+"pos": "topic term (Economy & Money)",
+"en": "a unit of ownership in a company"
+},
+{
+"id": "tv_economy_dividend",
+"word": "dividend",
+"pos": "topic term (Economy & Money)",
+"en": "a payment made to shareholders"
+},
+{
+"id": "tv_economy_shareholder",
+"word": "shareholder",
+"pos": "topic term (Economy & Money)",
+"en": "a person who owns shares in a company"
+},
+{
+"id": "tv_economy_bond",
+"word": "bond",
+"pos": "topic term (Economy & Money)",
+"en": "a loan to a government or firm that pays interest"
+},
+{
+"id": "tv_economy_portfolio",
+"word": "portfolio",
+"pos": "topic term (Economy & Money)",
+"en": "a collection of investments held together"
+},
+{
+"id": "tv_economy_speculation",
+"word": "speculation",
+"pos": "topic term (Economy & Money)",
+"en": "risky trading in hope of quick profit"
+},
+{
+"id": "tv_economy_volatility",
+"word": "volatility",
+"pos": "topic term (Economy & Money)",
+"en": "the tendency to change rapidly and unpredictably"
+},
+{
+"id": "tv_economy_bull_market",
+"word": "bull market",
+"pos": "topic term (Economy & Money)",
+"en": "a period of rising share prices"
+},
+{
+"id": "tv_economy_bear_market",
+"word": "bear market",
+"pos": "topic term (Economy & Money)",
+"en": "a period of falling share prices"
+},
+{
+"id": "tv_economy_crash",
+"word": "crash",
+"pos": "topic term (Economy & Money)",
+"en": "a sudden, severe fall in market value"
+},
+{
+"id": "tv_economy_bubble",
+"word": "bubble",
+"pos": "topic term (Economy & Money)",
+"en": "an unsustainable rise in asset prices"
+},
+{
+"id": "tv_economy_supply_and_demand",
+"word": "supply and demand",
+"pos": "topic term (Economy & Money)",
+"en": "the forces that set prices in a market"
+},
+{
+"id": "tv_economy_consumer",
+"word": "consumer",
+"pos": "topic term (Economy & Money)",
+"en": "a person who buys goods and services"
+},
+{
+"id": "tv_economy_consumption",
+"word": "consumption",
+"pos": "topic term (Economy & Money)",
+"en": "the using up of goods and services"
+},
+{
+"id": "tv_economy_disposable_income",
+"word": "disposable income",
+"pos": "topic term (Economy & Money)",
+"en": "money left after taxes and essentials"
+},
+{
+"id": "tv_economy_affluence",
+"word": "affluence",
+"pos": "topic term (Economy & Money)",
+"en": "the state of having plenty of money"
+},
+{
+"id": "tv_economy_poverty",
+"word": "poverty",
+"pos": "topic term (Economy & Money)",
+"en": "the state of being extremely poor"
+},
+{
+"id": "tv_economy_destitution",
+"word": "destitution",
+"pos": "topic term (Economy & Money)",
+"en": "extreme poverty and hardship"
+},
+{
+"id": "tv_economy_welfare",
+"word": "welfare",
+"pos": "topic term (Economy & Money)",
+"en": "government support for those in need"
+},
+{
+"id": "tv_economy_subsidy",
+"word": "subsidy",
+"pos": "topic term (Economy & Money)",
+"en": "financial support from the state"
+},
+{
+"id": "tv_economy_taxation",
+"word": "taxation",
+"pos": "topic term (Economy & Money)",
+"en": "the system of charging taxes"
+},
+{
+"id": "tv_economy_tax_evasion",
+"word": "tax evasion",
+"pos": "topic term (Economy & Money)",
+"en": "illegally avoiding paying tax"
+},
+{
+"id": "tv_economy_austerity",
+"word": "austerity",
+"pos": "topic term (Economy & Money)",
+"en": "strict policy of cutting public spending"
+},
+{
+"id": "tv_economy_stimulus",
+"word": "stimulus",
+"pos": "topic term (Economy & Money)",
+"en": "government spending to revive the economy"
+},
+{
+"id": "tv_economy_monetary_policy",
+"word": "monetary policy",
+"pos": "topic term (Economy & Money)",
+"en": "central-bank control of money and rates"
+},
+{
+"id": "tv_economy_fiscal_policy",
+"word": "fiscal policy",
+"pos": "topic term (Economy & Money)",
+"en": "government use of spending and tax"
+},
+{
+"id": "tv_economy_central_bank",
+"word": "central bank",
+"pos": "topic term (Economy & Money)",
+"en": "the institution that manages a nation's money"
+},
+{
+"id": "tv_economy_unemployment",
+"word": "unemployment",
+"pos": "topic term (Economy & Money)",
+"en": "the state of lacking paid work"
+},
+{
+"id": "tv_economy_employment",
+"word": "employment",
+"pos": "topic term (Economy & Money)",
+"en": "the condition of having paid work"
+},
+{
+"id": "tv_economy_workforce",
+"word": "workforce",
+"pos": "topic term (Economy & Money)",
+"en": "all the people available for work"
+},
+{
+"id": "tv_economy_productivity",
+"word": "productivity",
+"pos": "topic term (Economy & Money)",
+"en": "output produced per worker or hour"
+},
+{
+"id": "tv_economy_labour",
+"word": "labour",
+"pos": "topic term (Economy & Money)",
+"en": "work, or the people who do it"
+},
+{
+"id": "tv_economy_enterprise",
+"word": "enterprise",
+"pos": "topic term (Economy & Money)",
+"en": "a business, or the spirit of starting one"
+},
+{
+"id": "tv_economy_entrepreneur",
+"word": "entrepreneur",
+"pos": "topic term (Economy & Money)",
+"en": "a person who starts and runs a business"
+},
+{
+"id": "tv_economy_market_economy",
+"word": "market economy",
+"pos": "topic term (Economy & Money)",
+"en": "an economy run largely by private trade"
+},
+{
+"id": "tv_economy_free_market",
+"word": "free market",
+"pos": "topic term (Economy & Money)",
+"en": "trade with little government control"
+},
+{
+"id": "tv_economy_privatisation",
+"word": "privatisation",
+"pos": "topic term (Economy & Money)",
+"en": "transfer of state assets to private owners"
+},
+{
+"id": "tv_economy_nationalisation",
+"word": "nationalisation",
+"pos": "topic term (Economy & Money)",
+"en": "transfer of private assets to the state"
+},
+{
+"id": "tv_economy_regulation",
+"word": "regulation",
+"pos": "topic term (Economy & Money)",
+"en": "rules controlling economic activity"
+},
+{
+"id": "tv_economy_bailout",
+"word": "bailout",
+"pos": "topic term (Economy & Money)",
+"en": "emergency financial rescue of a firm"
+},
+{
+"id": "tv_economy_bankruptcy",
+"word": "bankruptcy",
+"pos": "topic term (Economy & Money)",
+"en": "legal declaration of being unable to pay debts"
+},
+{
+"id": "tv_economy_insolvency",
+"word": "insolvency",
+"pos": "topic term (Economy & Money)",
+"en": "inability to pay one's debts"
+},
+{
+"id": "tv_economy_wealth_gap",
+"word": "wealth gap",
+"pos": "topic term (Economy & Money)",
+"en": "the difference in wealth between groups"
+},
+{
+"id": "tv_economy_redistribution",
+"word": "redistribution",
+"pos": "topic term (Economy & Money)",
+"en": "sharing wealth more evenly through policy"
+},
+{
+"id": "tv_economy_economic_reform",
+"word": "economic reform",
+"pos": "topic term (Economy & Money)",
+"en": "changes to improve how an economy works"
+},
+{
+"id": "tv_economy_trade",
+"word": "trade",
+"pos": "topic term (Economy & Money)",
+"en": "the buying and selling of goods and services"
+},
+{
+"id": "tv_economy_commerce",
+"word": "commerce",
+"pos": "topic term (Economy & Money)",
+"en": "large-scale business activity"
+},
+{
+"id": "tv_economy_transaction",
+"word": "transaction",
+"pos": "topic term (Economy & Money)",
+"en": "an instance of buying or selling"
+},
+{
+"id": "tv_economy_cashless",
+"word": "cashless",
+"pos": "topic term (Economy & Money)",
+"en": "done without physical money"
+},
+{
+"id": "tv_economy_financial_literacy",
+"word": "financial literacy",
+"pos": "topic term (Economy & Money)",
+"en": "the ability to manage money wisely"
+},
+{
+"id": "tv_science_research",
+"word": "research",
+"pos": "topic term (Science & Research)",
+"en": "careful study to discover new facts"
+},
+{
+"id": "tv_science_hypothesis",
+"word": "hypothesis",
+"pos": "topic term (Science & Research)",
+"en": "a proposed explanation to be tested"
+},
+{
+"id": "tv_science_theory",
+"word": "theory",
+"pos": "topic term (Science & Research)",
+"en": "a well-supported explanation of phenomena"
+},
+{
+"id": "tv_science_experiment",
+"word": "experiment",
+"pos": "topic term (Science & Research)",
+"en": "a test done to investigate a question"
+},
+{
+"id": "tv_science_methodology",
+"word": "methodology",
+"pos": "topic term (Science & Research)",
+"en": "the system of methods used in a study"
+},
+{
+"id": "tv_science_analysis",
+"word": "analysis",
+"pos": "topic term (Science & Research)",
+"en": "detailed examination of data or elements"
+},
+{
+"id": "tv_science_data",
+"word": "data",
+"pos": "topic term (Science & Research)",
+"en": "facts and figures collected for study"
+},
+{
+"id": "tv_science_evidence",
+"word": "evidence",
+"pos": "topic term (Science & Research)",
+"en": "facts that support a conclusion"
+},
+{
+"id": "tv_science_finding",
+"word": "finding",
+"pos": "topic term (Science & Research)",
+"en": "a result discovered through research"
+},
+{
+"id": "tv_science_conclusion",
+"word": "conclusion",
+"pos": "topic term (Science & Research)",
+"en": "a judgment reached after reasoning"
+},
+{
+"id": "tv_science_variable",
+"word": "variable",
+"pos": "topic term (Science & Research)",
+"en": "a factor that can change in an experiment"
+},
+{
+"id": "tv_science_correlation",
+"word": "correlation",
+"pos": "topic term (Science & Research)",
+"en": "a mutual relationship between two things"
+},
+{
+"id": "tv_science_causation",
+"word": "causation",
+"pos": "topic term (Science & Research)",
+"en": "the relationship where one thing causes another"
+},
+{
+"id": "tv_science_sample",
+"word": "sample",
+"pos": "topic term (Science & Research)",
+"en": "a small group studied to represent a whole"
+},
+{
+"id": "tv_science_control_group",
+"word": "control group",
+"pos": "topic term (Science & Research)",
+"en": "a group not given the treatment, for comparison"
+},
+{
+"id": "tv_science_placebo",
+"word": "placebo",
+"pos": "topic term (Science & Research)",
+"en": "a dummy treatment used as a comparison"
+},
+{
+"id": "tv_science_reliability",
+"word": "reliability",
+"pos": "topic term (Science & Research)",
+"en": "the degree to which results can be trusted"
+},
+{
+"id": "tv_science_validity",
+"word": "validity",
+"pos": "topic term (Science & Research)",
+"en": "how well a study measures what it claims to"
+},
+{
+"id": "tv_science_accuracy",
+"word": "accuracy",
+"pos": "topic term (Science & Research)",
+"en": "closeness to the true value"
+},
+{
+"id": "tv_science_precision",
+"word": "precision",
+"pos": "topic term (Science & Research)",
+"en": "the degree of exactness in measurement"
+},
+{
+"id": "tv_science_bias",
+"word": "bias",
+"pos": "topic term (Science & Research)",
+"en": "a distortion that skews results unfairly"
+},
+{
+"id": "tv_science_replicate",
+"word": "replicate",
+"pos": "topic term (Science & Research)",
+"en": "to repeat a study to check its results"
+},
+{
+"id": "tv_science_peer_review",
+"word": "peer review",
+"pos": "topic term (Science & Research)",
+"en": "evaluation of research by other experts"
+},
+{
+"id": "tv_science_empirical",
+"word": "empirical",
+"pos": "topic term (Science & Research)",
+"en": "based on observation and experiment"
+},
+{
+"id": "tv_science_qualitative",
+"word": "qualitative",
+"pos": "topic term (Science & Research)",
+"en": "based on qualities rather than numbers"
+},
+{
+"id": "tv_science_quantitative",
+"word": "quantitative",
+"pos": "topic term (Science & Research)",
+"en": "based on measurable quantities"
+},
+{
+"id": "tv_science_observation",
+"word": "observation",
+"pos": "topic term (Science & Research)",
+"en": "the act of noting and recording facts"
+},
+{
+"id": "tv_science_phenomenon",
+"word": "phenomenon",
+"pos": "topic term (Science & Research)",
+"en": "an observable fact or event"
+},
+{
+"id": "tv_science_discovery",
+"word": "discovery",
+"pos": "topic term (Science & Research)",
+"en": "the finding of something previously unknown"
+},
+{
+"id": "tv_science_breakthrough",
+"word": "breakthrough",
+"pos": "topic term (Science & Research)",
+"en": "a sudden important advance"
+},
+{
+"id": "tv_science_innovation",
+"word": "innovation",
+"pos": "topic term (Science & Research)",
+"en": "a new method, idea, or product"
+},
+{
+"id": "tv_science_invention",
+"word": "invention",
+"pos": "topic term (Science & Research)",
+"en": "a newly created device or process"
+},
+{
+"id": "tv_science_advancement",
+"word": "advancement",
+"pos": "topic term (Science & Research)",
+"en": "progress or improvement"
+},
+{
+"id": "tv_science_technology",
+"word": "technology",
+"pos": "topic term (Science & Research)",
+"en": "the application of science to practical tasks"
+},
+{
+"id": "tv_science_laboratory",
+"word": "laboratory",
+"pos": "topic term (Science & Research)",
+"en": "a place equipped for scientific work"
+},
+{
+"id": "tv_science_apparatus",
+"word": "apparatus",
+"pos": "topic term (Science & Research)",
+"en": "equipment used for a scientific purpose"
+},
+{
+"id": "tv_science_specimen",
+"word": "specimen",
+"pos": "topic term (Science & Research)",
+"en": "a sample taken for study"
+},
+{
+"id": "tv_science_trial",
+"word": "trial",
+"pos": "topic term (Science & Research)",
+"en": "a test of something, especially a treatment"
+},
+{
+"id": "tv_science_clinical_trial",
+"word": "clinical trial",
+"pos": "topic term (Science & Research)",
+"en": "a controlled study of a medical treatment"
+},
+{
+"id": "tv_science_simulation",
+"word": "simulation",
+"pos": "topic term (Science & Research)",
+"en": "an imitation of a process by a model"
+},
+{
+"id": "tv_science_model",
+"word": "model",
+"pos": "topic term (Science & Research)",
+"en": "a simplified representation of a system"
+},
+{
+"id": "tv_science_parameter",
+"word": "parameter",
+"pos": "topic term (Science & Research)",
+"en": "a limit or factor defining a system"
+},
+{
+"id": "tv_science_statistics",
+"word": "statistics",
+"pos": "topic term (Science & Research)",
+"en": "the study and use of numerical data"
+},
+{
+"id": "tv_science_significant",
+"word": "significant",
+"pos": "topic term (Science & Research)",
+"en": "large enough to be meaningful, not by chance"
+},
+{
+"id": "tv_science_margin_of_error",
+"word": "margin of error",
+"pos": "topic term (Science & Research)",
+"en": "the range within which a result may vary"
+},
+{
+"id": "tv_science_anomaly",
+"word": "anomaly",
+"pos": "topic term (Science & Research)",
+"en": "something that deviates from the norm"
+},
+{
+"id": "tv_science_benchmark",
+"word": "benchmark",
+"pos": "topic term (Science & Research)",
+"en": "a standard against which things are measured"
+},
+{
+"id": "tv_science_criterion",
+"word": "criterion",
+"pos": "topic term (Science & Research)",
+"en": "a standard by which something is judged"
+},
+{
+"id": "tv_science_assumption",
+"word": "assumption",
+"pos": "topic term (Science & Research)",
+"en": "something accepted as true without proof"
+},
+{
+"id": "tv_science_interpretation",
+"word": "interpretation",
+"pos": "topic term (Science & Research)",
+"en": "an explanation of the meaning of results"
+},
+{
+"id": "tv_science_implication",
+"word": "implication",
+"pos": "topic term (Science & Research)",
+"en": "a likely consequence suggested by findings"
+},
+{
+"id": "tv_science_application",
+"word": "application",
+"pos": "topic term (Science & Research)",
+"en": "a practical use of a discovery"
+},
+{
+"id": "tv_science_scrutiny",
+"word": "scrutiny",
+"pos": "topic term (Science & Research)",
+"en": "close and critical examination"
+},
+{
+"id": "tv_science_rigorous",
+"word": "rigorous",
+"pos": "topic term (Science & Research)",
+"en": "extremely thorough and careful"
+},
+{
+"id": "tv_science_systematic",
+"word": "systematic",
+"pos": "topic term (Science & Research)",
+"en": "done according to a fixed plan or system"
+},
+{
+"id": "tv_science_objective",
+"word": "objective",
+"pos": "topic term (Science & Research)",
+"en": "not influenced by personal feelings"
+},
+{
+"id": "tv_science_subjective",
+"word": "subjective",
+"pos": "topic term (Science & Research)",
+"en": "based on personal opinion or feeling"
+},
+{
+"id": "tv_science_hypothesise",
+"word": "hypothesise",
+"pos": "topic term (Science & Research)",
+"en": "to put forward an idea to be tested"
+},
+{
+"id": "tv_science_investigate",
+"word": "investigate",
+"pos": "topic term (Science & Research)",
+"en": "to examine something carefully"
+},
+{
+"id": "tv_science_examine",
+"word": "examine",
+"pos": "topic term (Science & Research)",
+"en": "to inspect closely and in detail"
+},
+{
+"id": "tv_science_demonstrate",
+"word": "demonstrate",
+"pos": "topic term (Science & Research)",
+"en": "to show clearly with evidence"
+},
+{
+"id": "tv_science_verify",
+"word": "verify",
+"pos": "topic term (Science & Research)",
+"en": "to check that something is true"
+},
+{
+"id": "tv_science_validate",
+"word": "validate",
+"pos": "topic term (Science & Research)",
+"en": "to confirm that something is sound"
+},
+{
+"id": "tv_science_refute",
+"word": "refute",
+"pos": "topic term (Science & Research)",
+"en": "to prove a claim wrong"
+},
+{
+"id": "tv_science_disprove",
+"word": "disprove",
+"pos": "topic term (Science & Research)",
+"en": "to show that something is false"
+},
+{
+"id": "tv_science_substantiate",
+"word": "substantiate",
+"pos": "topic term (Science & Research)",
+"en": "to provide evidence to support a claim"
+},
+{
+"id": "tv_science_quantify",
+"word": "quantify",
+"pos": "topic term (Science & Research)",
+"en": "to express or measure as a number"
+},
+{
+"id": "tv_science_estimate",
+"word": "estimate",
+"pos": "topic term (Science & Research)",
+"en": "to roughly calculate a value"
+},
+{
+"id": "tv_science_calibrate",
+"word": "calibrate",
+"pos": "topic term (Science & Research)",
+"en": "to adjust an instrument for accuracy"
+},
+{
+"id": "tv_science_synthesise",
+"word": "synthesise",
+"pos": "topic term (Science & Research)",
+"en": "to combine parts into a whole"
+},
+{
+"id": "tv_science_genetics",
+"word": "genetics",
+"pos": "topic term (Science & Research)",
+"en": "the study of heredity and genes"
+},
+{
+"id": "tv_science_biotechnology",
+"word": "biotechnology",
+"pos": "topic term (Science & Research)",
+"en": "technology based on biology"
+},
+{
+"id": "tv_science_molecule",
+"word": "molecule",
+"pos": "topic term (Science & Research)",
+"en": "the smallest unit of a chemical compound"
+},
+{
+"id": "tv_science_organism",
+"word": "organism",
+"pos": "topic term (Science & Research)",
+"en": "an individual living thing"
+},
+{
+"id": "tv_science_ecosystem",
+"word": "ecosystem",
+"pos": "topic term (Science & Research)",
+"en": "a community of organisms and their environment"
+},
+{
+"id": "tv_science_particle",
+"word": "particle",
+"pos": "topic term (Science & Research)",
+"en": "a tiny piece of matter"
+},
+{
+"id": "tv_science_radiation",
+"word": "radiation",
+"pos": "topic term (Science & Research)",
+"en": "energy emitted as waves or particles"
+},
+{
+"id": "tv_science_catalyst",
+"word": "catalyst",
+"pos": "topic term (Science & Research)",
+"en": "something that speeds up a reaction or change"
+},
+{
+"id": "tv_science_reaction",
+"word": "reaction",
+"pos": "topic term (Science & Research)",
+"en": "a process in which substances change"
+},
+{
+"id": "tv_science_interdisciplinary",
+"word": "interdisciplinary",
+"pos": "topic term (Science & Research)",
+"en": "combining two or more fields of study"
+},
+{
+"id": "tv_science_cutting_edge",
+"word": "cutting-edge",
+"pos": "topic term (Science & Research)",
+"en": "at the most advanced stage of development"
+},
+{
+"id": "tv_science_pioneering",
+"word": "pioneering",
+"pos": "topic term (Science & Research)",
+"en": "being among the first to explore something"
+},
+{
+"id": "tv_science_ethics",
+"word": "ethics",
+"pos": "topic term (Science & Research)",
+"en": "moral principles governing conduct"
+},
+{
+"id": "tv_science_ethical",
+"word": "ethical",
+"pos": "topic term (Science & Research)",
+"en": "morally right and proper"
+},
+{
+"id": "tv_science_funding",
+"word": "funding",
+"pos": "topic term (Science & Research)",
+"en": "money provided for a project"
+},
+{
+"id": "tv_science_grant",
+"word": "grant",
+"pos": "topic term (Science & Research)",
+"en": "a sum of money awarded for research"
+},
+{
+"id": "tv_science_scholar",
+"word": "scholar",
+"pos": "topic term (Science & Research)",
+"en": "a person engaged in advanced study"
+},
+{
+"id": "tv_science_dissertation",
+"word": "dissertation",
+"pos": "topic term (Science & Research)",
+"en": "a long essay based on original research"
+},
+{
+"id": "tv_science_publication",
+"word": "publication",
+"pos": "topic term (Science & Research)",
+"en": "a published piece of research"
+},
+{
+"id": "tv_science_citation",
+"word": "citation",
+"pos": "topic term (Science & Research)",
+"en": "a reference to a source in research"
+},
+{
+"id": "tv_science_groundbreaking",
+"word": "groundbreaking",
+"pos": "topic term (Science & Research)",
+"en": "introducing new and important ideas"
+},
+{
+"id": "tv_art_creativity",
+"word": "creativity",
+"pos": "topic term (Art & Creativity)",
+"en": "the ability to produce original ideas"
+},
+{
+"id": "tv_art_imagination",
+"word": "imagination",
+"pos": "topic term (Art & Creativity)",
+"en": "the power to form new ideas or images"
+},
+{
+"id": "tv_art_inspiration",
+"word": "inspiration",
+"pos": "topic term (Art & Creativity)",
+"en": "a sudden stimulus to create"
+},
+{
+"id": "tv_art_originality",
+"word": "originality",
+"pos": "topic term (Art & Creativity)",
+"en": "the quality of being new and unusual"
+},
+{
+"id": "tv_art_expression",
+"word": "expression",
+"pos": "topic term (Art & Creativity)",
+"en": "the act of conveying feeling or ideas"
+},
+{
+"id": "tv_art_masterpiece",
+"word": "masterpiece",
+"pos": "topic term (Art & Creativity)",
+"en": "an outstanding work of art"
+},
+{
+"id": "tv_art_aesthetic",
+"word": "aesthetic",
+"pos": "topic term (Art & Creativity)",
+"en": "concerned with beauty and taste"
+},
+{
+"id": "tv_art_composition",
+"word": "composition",
+"pos": "topic term (Art & Creativity)",
+"en": "the arrangement of elements in a work"
+},
+{
+"id": "tv_art_technique",
+"word": "technique",
+"pos": "topic term (Art & Creativity)",
+"en": "a method of doing something skilfully"
+},
+{
+"id": "tv_art_medium",
+"word": "medium",
+"pos": "topic term (Art & Creativity)",
+"en": "the material or means an artist uses"
+},
+{
+"id": "tv_art_canvas",
+"word": "canvas",
+"pos": "topic term (Art & Creativity)",
+"en": "cloth on which a painting is made"
+},
+{
+"id": "tv_art_sculpture",
+"word": "sculpture",
+"pos": "topic term (Art & Creativity)",
+"en": "art made by shaping solid materials"
+},
+{
+"id": "tv_art_portrait",
+"word": "portrait",
+"pos": "topic term (Art & Creativity)",
+"en": "a representation of a person"
+},
+{
+"id": "tv_art_landscape",
+"word": "landscape",
+"pos": "topic term (Art & Creativity)",
+"en": "a picture of natural scenery"
+},
+{
+"id": "tv_art_abstract",
+"word": "abstract",
+"pos": "topic term (Art & Creativity)",
+"en": "not representing things realistically"
+},
+{
+"id": "tv_art_figurative",
+"word": "figurative",
+"pos": "topic term (Art & Creativity)",
+"en": "representing recognisable subjects"
+},
+{
+"id": "tv_art_realism",
+"word": "realism",
+"pos": "topic term (Art & Creativity)",
+"en": "depicting subjects truthfully and plainly"
+},
+{
+"id": "tv_art_genre",
+"word": "genre",
+"pos": "topic term (Art & Creativity)",
+"en": "a category of artistic work"
+},
+{
+"id": "tv_art_style",
+"word": "style",
+"pos": "topic term (Art & Creativity)",
+"en": "a distinctive manner of expression"
+},
+{
+"id": "tv_art_movement",
+"word": "movement",
+"pos": "topic term (Art & Creativity)",
+"en": "a trend in art shared by many artists"
+},
+{
+"id": "tv_art_avant_garde",
+"word": "avant-garde",
+"pos": "topic term (Art & Creativity)",
+"en": "radically new and experimental"
+},
+{
+"id": "tv_art_contemporary",
+"word": "contemporary",
+"pos": "topic term (Art & Creativity)",
+"en": "belonging to the present time"
+},
+{
+"id": "tv_art_classical",
+"word": "classical",
+"pos": "topic term (Art & Creativity)",
+"en": "following traditional, established forms"
+},
+{
+"id": "tv_art_exhibition",
+"word": "exhibition",
+"pos": "topic term (Art & Creativity)",
+"en": "a public display of works of art"
+},
+{
+"id": "tv_art_gallery",
+"word": "gallery",
+"pos": "topic term (Art & Creativity)",
+"en": "a place where art is shown"
+},
+{
+"id": "tv_art_curator",
+"word": "curator",
+"pos": "topic term (Art & Creativity)",
+"en": "a person who manages a collection"
+},
+{
+"id": "tv_art_patron",
+"word": "patron",
+"pos": "topic term (Art & Creativity)",
+"en": "a person who supports an artist financially"
+},
+{
+"id": "tv_art_commission",
+"word": "commission",
+"pos": "topic term (Art & Creativity)",
+"en": "a request to produce a work for payment"
+},
+{
+"id": "tv_art_masterful",
+"word": "masterful",
+"pos": "topic term (Art & Creativity)",
+"en": "showing great skill"
+},
+{
+"id": "tv_art_skilful",
+"word": "skilful",
+"pos": "topic term (Art & Creativity)",
+"en": "having or showing great ability"
+},
+{
+"id": "tv_art_talent",
+"word": "talent",
+"pos": "topic term (Art & Creativity)",
+"en": "a natural ability to do something well"
+},
+{
+"id": "tv_art_gifted",
+"word": "gifted",
+"pos": "topic term (Art & Creativity)",
+"en": "having exceptional natural ability"
+},
+{
+"id": "tv_art_prodigy",
+"word": "prodigy",
+"pos": "topic term (Art & Creativity)",
+"en": "a young person with remarkable talent"
+},
+{
+"id": "tv_art_virtuoso",
+"word": "virtuoso",
+"pos": "topic term (Art & Creativity)",
+"en": "a performer of great technical skill"
+},
+{
+"id": "tv_art_craftsmanship",
+"word": "craftsmanship",
+"pos": "topic term (Art & Creativity)",
+"en": "skill and care in making things"
+},
+{
+"id": "tv_art_artisan",
+"word": "artisan",
+"pos": "topic term (Art & Creativity)",
+"en": "a skilled maker of handmade goods"
+},
+{
+"id": "tv_art_performance",
+"word": "performance",
+"pos": "topic term (Art & Creativity)",
+"en": "the act of presenting art to an audience"
+},
+{
+"id": "tv_art_audience",
+"word": "audience",
+"pos": "topic term (Art & Creativity)",
+"en": "the people watching or listening"
+},
+{
+"id": "tv_art_spectator",
+"word": "spectator",
+"pos": "topic term (Art & Creativity)",
+"en": "a person who watches an event"
+},
+{
+"id": "tv_art_critique",
+"word": "critique",
+"pos": "topic term (Art & Creativity)",
+"en": "a detailed assessment of a work"
+},
+{
+"id": "tv_art_critic",
+"word": "critic",
+"pos": "topic term (Art & Creativity)",
+"en": "a person who judges art professionally"
+},
+{
+"id": "tv_art_review",
+"word": "review",
+"pos": "topic term (Art & Creativity)",
+"en": "a published assessment of a work"
+},
+{
+"id": "tv_art_interpretation",
+"word": "interpretation",
+"pos": "topic term (Art & Creativity)",
+"en": "a particular way of understanding a work"
+},
+{
+"id": "tv_art_symbolism",
+"word": "symbolism",
+"pos": "topic term (Art & Creativity)",
+"en": "the use of symbols to express ideas"
+},
+{
+"id": "tv_art_metaphor",
+"word": "metaphor",
+"pos": "topic term (Art & Creativity)",
+"en": "a figure describing one thing as another"
+},
+{
+"id": "tv_art_narrative",
+"word": "narrative",
+"pos": "topic term (Art & Creativity)",
+"en": "a story or account of events"
+},
+{
+"id": "tv_art_evocative",
+"word": "evocative",
+"pos": "topic term (Art & Creativity)",
+"en": "bringing strong feelings or memories to mind"
+},
+{
+"id": "tv_art_poignant",
+"word": "poignant",
+"pos": "topic term (Art & Creativity)",
+"en": "evoking a keen sense of sadness"
+},
+{
+"id": "tv_art_provocative",
+"word": "provocative",
+"pos": "topic term (Art & Creativity)",
+"en": "intended to stir strong reaction"
+},
+{
+"id": "tv_art_innovative",
+"word": "innovative",
+"pos": "topic term (Art & Creativity)",
+"en": "introducing new ideas or methods"
+},
+{
+"id": "tv_art_experimental",
+"word": "experimental",
+"pos": "topic term (Art & Creativity)",
+"en": "based on untried new approaches"
+},
+{
+"id": "tv_art_conventional",
+"word": "conventional",
+"pos": "topic term (Art & Creativity)",
+"en": "following accepted, traditional forms"
+},
+{
+"id": "tv_art_visionary",
+"word": "visionary",
+"pos": "topic term (Art & Creativity)",
+"en": "showing original and imaginative foresight"
+},
+{
+"id": "tv_art_ingenious",
+"word": "ingenious",
+"pos": "topic term (Art & Creativity)",
+"en": "cleverly inventive"
+},
+{
+"id": "tv_art_versatile",
+"word": "versatile",
+"pos": "topic term (Art & Creativity)",
+"en": "able to adapt to many tasks or styles"
+},
+{
+"id": "tv_art_improvise",
+"word": "improvise",
+"pos": "topic term (Art & Creativity)",
+"en": "to create without preparation"
+},
+{
+"id": "tv_art_render",
+"word": "render",
+"pos": "topic term (Art & Creativity)",
+"en": "to represent or depict artistically"
+},
+{
+"id": "tv_art_depict",
+"word": "depict",
+"pos": "topic term (Art & Creativity)",
+"en": "to show or represent in art"
+},
+{
+"id": "tv_art_portray",
+"word": "portray",
+"pos": "topic term (Art & Creativity)",
+"en": "to represent a subject in art"
+},
+{
+"id": "tv_art_embellish",
+"word": "embellish",
+"pos": "topic term (Art & Creativity)",
+"en": "to decorate or add detail"
+},
+{
+"id": "tv_art_ornate",
+"word": "ornate",
+"pos": "topic term (Art & Creativity)",
+"en": "elaborately decorated"
+},
+{
+"id": "tv_art_minimalist",
+"word": "minimalist",
+"pos": "topic term (Art & Creativity)",
+"en": "using very simple, spare forms"
+},
+{
+"id": "tv_art_texture",
+"word": "texture",
+"pos": "topic term (Art & Creativity)",
+"en": "the surface quality of a work"
+},
+{
+"id": "tv_art_palette",
+"word": "palette",
+"pos": "topic term (Art & Creativity)",
+"en": "the range of colours an artist uses"
+},
+{
+"id": "tv_art_hue",
+"word": "hue",
+"pos": "topic term (Art & Creativity)",
+"en": "a shade or variety of a colour"
+},
+{
+"id": "tv_art_contrast",
+"word": "contrast",
+"pos": "topic term (Art & Creativity)",
+"en": "a striking difference between elements"
+},
+{
+"id": "tv_art_harmony",
+"word": "harmony",
+"pos": "topic term (Art & Creativity)",
+"en": "a pleasing arrangement of parts"
+},
+{
+"id": "tv_art_proportion",
+"word": "proportion",
+"pos": "topic term (Art & Creativity)",
+"en": "the relation of parts in size"
+},
+{
+"id": "tv_art_perspective",
+"word": "perspective",
+"pos": "topic term (Art & Creativity)",
+"en": "the illusion of depth in a picture"
+},
+{
+"id": "tv_art_patronage",
+"word": "patronage",
+"pos": "topic term (Art & Creativity)",
+"en": "financial support given to artists"
+},
+{
+"id": "tv_art_heritage",
+"word": "heritage",
+"pos": "topic term (Art & Creativity)",
+"en": "artistic traditions inherited from the past"
+},
+{
+"id": "tv_art_cultural_value",
+"word": "cultural value",
+"pos": "topic term (Art & Creativity)",
+"en": "the worth of art to a society"
+},
+{
+"id": "tv_art_appreciation",
+"word": "appreciation",
+"pos": "topic term (Art & Creativity)",
+"en": "understanding and enjoyment of art"
+},
+{
+"id": "tv_art_funding",
+"word": "funding",
+"pos": "topic term (Art & Creativity)",
+"en": "money provided to support the arts"
+},
+{
+"id": "tv_art_subsidy",
+"word": "subsidy",
+"pos": "topic term (Art & Creativity)",
+"en": "financial aid from the government"
+},
+{
+"id": "tv_art_accessible",
+"word": "accessible",
+"pos": "topic term (Art & Creativity)",
+"en": "easy to reach, use, or understand"
+},
+{
+"id": "tv_art_elitist",
+"word": "elitist",
+"pos": "topic term (Art & Creativity)",
+"en": "favouring a privileged few"
+},
+{
+"id": "tv_art_mainstream",
+"word": "mainstream",
+"pos": "topic term (Art & Creativity)",
+"en": "accepted by most people as normal"
+},
+{
+"id": "tv_art_commercial",
+"word": "commercial",
+"pos": "topic term (Art & Creativity)",
+"en": "made mainly to earn money"
+},
+{
+"id": "tv_art_self_expression",
+"word": "self-expression",
+"pos": "topic term (Art & Creativity)",
+"en": "conveying one's own feelings and ideas"
+},
+{
+"id": "tv_art_craft",
+"word": "craft",
+"pos": "topic term (Art & Creativity)",
+"en": "skilled making, often by hand"
+},
+{
+"id": "tv_art_performing_arts",
+"word": "performing arts",
+"pos": "topic term (Art & Creativity)",
+"en": "arts performed before an audience"
+},
+{
+"id": "tv_art_fine_art",
+"word": "fine art",
+"pos": "topic term (Art & Creativity)",
+"en": "art made chiefly for beauty"
+},
+{
+"id": "tv_art_installation",
+"word": "installation",
+"pos": "topic term (Art & Creativity)",
+"en": "a large three-dimensional artwork in a space"
+},
+{
+"id": "tv_art_legacy",
+"word": "legacy",
+"pos": "topic term (Art & Creativity)",
+"en": "a lasting artistic influence"
+},
+{
+"id": "tv_art_influential",
+"word": "influential",
+"pos": "topic term (Art & Creativity)",
+"en": "having a strong effect on others"
+},
+{
+"id": "tv_art_timeless",
+"word": "timeless",
+"pos": "topic term (Art & Creativity)",
+"en": "not affected by the passing of time"
+},
+{
+"id": "tv_art_evoke",
+"word": "evoke",
+"pos": "topic term (Art & Creativity)",
+"en": "to bring a feeling or memory to mind"
+},
+{
+"id": "tv_art_captivate",
+"word": "captivate",
+"pos": "topic term (Art & Creativity)",
+"en": "to attract and hold attention"
+},
+{
+"id": "tv_art_stimulate",
+"word": "stimulate",
+"pos": "topic term (Art & Creativity)",
+"en": "to encourage activity or thought"
+},
+{
+"id": "tv_sport_athlete",
+"word": "athlete",
+"pos": "topic term (Sport & Leisure)",
+"en": "a person trained in a physical sport"
+},
+{
+"id": "tv_sport_athletic",
+"word": "athletic",
+"pos": "topic term (Sport & Leisure)",
+"en": "physically fit and good at sport"
+},
+{
+"id": "tv_sport_competitive",
+"word": "competitive",
+"pos": "topic term (Sport & Leisure)",
+"en": "eager to win or do better than others"
+},
+{
+"id": "tv_sport_competition",
+"word": "competition",
+"pos": "topic term (Sport & Leisure)",
+"en": "an organised contest between rivals"
+},
+{
+"id": "tv_sport_tournament",
+"word": "tournament",
+"pos": "topic term (Sport & Leisure)",
+"en": "a series of contests to find a winner"
+},
+{
+"id": "tv_sport_championship",
+"word": "championship",
+"pos": "topic term (Sport & Leisure)",
+"en": "a contest to decide the overall best"
+},
+{
+"id": "tv_sport_opponent",
+"word": "opponent",
+"pos": "topic term (Sport & Leisure)",
+"en": "a person competing against another"
+},
+{
+"id": "tv_sport_rival",
+"word": "rival",
+"pos": "topic term (Sport & Leisure)",
+"en": "a competitor one regularly faces"
+},
+{
+"id": "tv_sport_spectator",
+"word": "spectator",
+"pos": "topic term (Sport & Leisure)",
+"en": "a person who watches a sporting event"
+},
+{
+"id": "tv_sport_supporter",
+"word": "supporter",
+"pos": "topic term (Sport & Leisure)",
+"en": "a devoted fan of a team"
+},
+{
+"id": "tv_sport_coach",
+"word": "coach",
+"pos": "topic term (Sport & Leisure)",
+"en": "a person who trains a team or athlete"
+},
+{
+"id": "tv_sport_referee",
+"word": "referee",
+"pos": "topic term (Sport & Leisure)",
+"en": "an official who enforces the rules"
+},
+{
+"id": "tv_sport_stadium",
+"word": "stadium",
+"pos": "topic term (Sport & Leisure)",
+"en": "a large venue for sporting events"
+},
+{
+"id": "tv_sport_arena",
+"word": "arena",
+"pos": "topic term (Sport & Leisure)",
+"en": "an enclosed area for sports or performances"
+},
+{
+"id": "tv_sport_venue",
+"word": "venue",
+"pos": "topic term (Sport & Leisure)",
+"en": "the place where an event is held"
+},
+{
+"id": "tv_sport_fitness",
+"word": "fitness",
+"pos": "topic term (Sport & Leisure)",
+"en": "the state of being physically healthy"
+},
+{
+"id": "tv_sport_stamina",
+"word": "stamina",
+"pos": "topic term (Sport & Leisure)",
+"en": "the ability to sustain prolonged effort"
+},
+{
+"id": "tv_sport_endurance",
+"word": "endurance",
+"pos": "topic term (Sport & Leisure)",
+"en": "the capacity to withstand strain"
+},
+{
+"id": "tv_sport_agility",
+"word": "agility",
+"pos": "topic term (Sport & Leisure)",
+"en": "the ability to move quickly and easily"
+},
+{
+"id": "tv_sport_strength",
+"word": "strength",
+"pos": "topic term (Sport & Leisure)",
+"en": "physical power"
+},
+{
+"id": "tv_sport_flexibility",
+"word": "flexibility",
+"pos": "topic term (Sport & Leisure)",
+"en": "the ability to bend and stretch easily"
+},
+{
+"id": "tv_sport_coordination",
+"word": "coordination",
+"pos": "topic term (Sport & Leisure)",
+"en": "the smooth control of movement"
+},
+{
+"id": "tv_sport_discipline",
+"word": "discipline",
+"pos": "topic term (Sport & Leisure)",
+"en": "controlled, consistent effort"
+},
+{
+"id": "tv_sport_dedication",
+"word": "dedication",
+"pos": "topic term (Sport & Leisure)",
+"en": "commitment to a task or goal"
+},
+{
+"id": "tv_sport_perseverance",
+"word": "perseverance",
+"pos": "topic term (Sport & Leisure)",
+"en": "persistence despite difficulty"
+},
+{
+"id": "tv_sport_motivation",
+"word": "motivation",
+"pos": "topic term (Sport & Leisure)",
+"en": "the drive to achieve something"
+},
+{
+"id": "tv_sport_teamwork",
+"word": "teamwork",
+"pos": "topic term (Sport & Leisure)",
+"en": "cooperative effort by a group"
+},
+{
+"id": "tv_sport_sportsmanship",
+"word": "sportsmanship",
+"pos": "topic term (Sport & Leisure)",
+"en": "fair and generous conduct in sport"
+},
+{
+"id": "tv_sport_fair_play",
+"word": "fair play",
+"pos": "topic term (Sport & Leisure)",
+"en": "honest and just conduct in a game"
+},
+{
+"id": "tv_sport_rivalry",
+"word": "rivalry",
+"pos": "topic term (Sport & Leisure)",
+"en": "intense competition between opponents"
+},
+{
+"id": "tv_sport_victory",
+"word": "victory",
+"pos": "topic term (Sport & Leisure)",
+"en": "success in a contest"
+},
+{
+"id": "tv_sport_defeat",
+"word": "defeat",
+"pos": "topic term (Sport & Leisure)",
+"en": "a loss in a contest"
+},
+{
+"id": "tv_sport_draw",
+"word": "draw",
+"pos": "topic term (Sport & Leisure)",
+"en": "a result in which neither side wins"
+},
+{
+"id": "tv_sport_performance",
+"word": "performance",
+"pos": "topic term (Sport & Leisure)",
+"en": "how well someone plays or competes"
+},
+{
+"id": "tv_sport_record",
+"word": "record",
+"pos": "topic term (Sport & Leisure)",
+"en": "the best result ever achieved"
+},
+{
+"id": "tv_sport_medal",
+"word": "medal",
+"pos": "topic term (Sport & Leisure)",
+"en": "an award for success in a contest"
+},
+{
+"id": "tv_sport_trophy",
+"word": "trophy",
+"pos": "topic term (Sport & Leisure)",
+"en": "a prize awarded to a winner"
+},
+{
+"id": "tv_sport_title",
+"word": "title",
+"pos": "topic term (Sport & Leisure)",
+"en": "the status of champion"
+},
+{
+"id": "tv_sport_underdog",
+"word": "underdog",
+"pos": "topic term (Sport & Leisure)",
+"en": "a competitor expected to lose"
+},
+{
+"id": "tv_sport_favourite",
+"word": "favourite",
+"pos": "topic term (Sport & Leisure)",
+"en": "a competitor expected to win"
+},
+{
+"id": "tv_sport_amateur",
+"word": "amateur",
+"pos": "topic term (Sport & Leisure)",
+"en": "someone who plays without being paid"
+},
+{
+"id": "tv_sport_professional",
+"word": "professional",
+"pos": "topic term (Sport & Leisure)",
+"en": "someone paid to play a sport"
+},
+{
+"id": "tv_sport_league",
+"word": "league",
+"pos": "topic term (Sport & Leisure)",
+"en": "a group of teams that compete regularly"
+},
+{
+"id": "tv_sport_squad",
+"word": "squad",
+"pos": "topic term (Sport & Leisure)",
+"en": "the full group of players in a team"
+},
+{
+"id": "tv_sport_tactics",
+"word": "tactics",
+"pos": "topic term (Sport & Leisure)",
+"en": "the plans used to win a game"
+},
+{
+"id": "tv_sport_strategy",
+"word": "strategy",
+"pos": "topic term (Sport & Leisure)",
+"en": "an overall plan to achieve a goal"
+},
+{
+"id": "tv_sport_training",
+"word": "training",
+"pos": "topic term (Sport & Leisure)",
+"en": "regular practice to improve skill"
+},
+{
+"id": "tv_sport_warm_up",
+"word": "warm-up",
+"pos": "topic term (Sport & Leisure)",
+"en": "gentle exercise before activity"
+},
+{
+"id": "tv_sport_injury",
+"word": "injury",
+"pos": "topic term (Sport & Leisure)",
+"en": "physical harm from activity"
+},
+{
+"id": "tv_sport_recovery",
+"word": "recovery",
+"pos": "topic term (Sport & Leisure)",
+"en": "the process of returning to health"
+},
+{
+"id": "tv_sport_rehabilitation",
+"word": "rehabilitation",
+"pos": "topic term (Sport & Leisure)",
+"en": "treatment to restore fitness after injury"
+},
+{
+"id": "tv_sport_doping",
+"word": "doping",
+"pos": "topic term (Sport & Leisure)",
+"en": "illegal use of drugs to boost performance"
+},
+{
+"id": "tv_sport_performance_enhancing",
+"word": "performance-enhancing",
+"pos": "topic term (Sport & Leisure)",
+"en": "improving sporting ability, often illegally"
+},
+{
+"id": "tv_sport_sedentary",
+"word": "sedentary",
+"pos": "topic term (Sport & Leisure)",
+"en": "involving much sitting and little activity"
+},
+{
+"id": "tv_sport_active_lifestyle",
+"word": "active lifestyle",
+"pos": "topic term (Sport & Leisure)",
+"en": "a way of living with regular exercise"
+},
+{
+"id": "tv_sport_wellbeing",
+"word": "wellbeing",
+"pos": "topic term (Sport & Leisure)",
+"en": "the state of being comfortable and healthy"
+},
+{
+"id": "tv_sport_recreation",
+"word": "recreation",
+"pos": "topic term (Sport & Leisure)",
+"en": "activity done for enjoyment"
+},
+{
+"id": "tv_sport_leisure",
+"word": "leisure",
+"pos": "topic term (Sport & Leisure)",
+"en": "free time for relaxation"
+},
+{
+"id": "tv_sport_hobby",
+"word": "hobby",
+"pos": "topic term (Sport & Leisure)",
+"en": "an activity done for pleasure"
+},
+{
+"id": "tv_sport_pastime",
+"word": "pastime",
+"pos": "topic term (Sport & Leisure)",
+"en": "an activity that passes time pleasantly"
+},
+{
+"id": "tv_sport_relaxation",
+"word": "relaxation",
+"pos": "topic term (Sport & Leisure)",
+"en": "the state of being free from tension"
+},
+{
+"id": "tv_sport_unwind",
+"word": "unwind",
+"pos": "topic term (Sport & Leisure)",
+"en": "to relax after effort or stress"
+},
+{
+"id": "tv_sport_recharge",
+"word": "recharge",
+"pos": "topic term (Sport & Leisure)",
+"en": "to regain energy and freshness"
+},
+{
+"id": "tv_sport_spectator_sport",
+"word": "spectator sport",
+"pos": "topic term (Sport & Leisure)",
+"en": "a sport watched by many people"
+},
+{
+"id": "tv_sport_contact_sport",
+"word": "contact sport",
+"pos": "topic term (Sport & Leisure)",
+"en": "a sport involving physical contact"
+},
+{
+"id": "tv_sport_extreme_sport",
+"word": "extreme sport",
+"pos": "topic term (Sport & Leisure)",
+"en": "a high-risk, thrilling activity"
+},
+{
+"id": "tv_sport_team_sport",
+"word": "team sport",
+"pos": "topic term (Sport & Leisure)",
+"en": "a sport played by groups against each other"
+},
+{
+"id": "tv_sport_individual_sport",
+"word": "individual sport",
+"pos": "topic term (Sport & Leisure)",
+"en": "a sport contested by single competitors"
+},
+{
+"id": "tv_sport_grassroots",
+"word": "grassroots",
+"pos": "topic term (Sport & Leisure)",
+"en": "at the local, community level"
+},
+{
+"id": "tv_sport_facility",
+"word": "facility",
+"pos": "topic term (Sport & Leisure)",
+"en": "a place or equipment for an activity"
+},
+{
+"id": "tv_sport_participation",
+"word": "participation",
+"pos": "topic term (Sport & Leisure)",
+"en": "the act of taking part"
+},
+{
+"id": "tv_sport_sponsorship",
+"word": "sponsorship",
+"pos": "topic term (Sport & Leisure)",
+"en": "financial support in return for promotion"
+},
+{
+"id": "tv_sport_commercialisation",
+"word": "commercialisation",
+"pos": "topic term (Sport & Leisure)",
+"en": "turning something into a source of profit"
+},
+{
+"id": "tv_sport_athleticism",
+"word": "athleticism",
+"pos": "topic term (Sport & Leisure)",
+"en": "physical skill, fitness, and strength"
+},
+{
+"id": "tv_sport_spectacle",
+"word": "spectacle",
+"pos": "topic term (Sport & Leisure)",
+"en": "an impressive, dramatic event"
+},
+{
+"id": "tv_sport_morale",
+"word": "morale",
+"pos": "topic term (Sport & Leisure)",
+"en": "the confidence and spirit of a group"
+},
+{
+"id": "tv_sport_comeback",
+"word": "comeback",
+"pos": "topic term (Sport & Leisure)",
+"en": "a return to success after setbacks"
+},
+{
+"id": "tv_sport_debut",
+"word": "debut",
+"pos": "topic term (Sport & Leisure)",
+"en": "a first appearance in competition"
+},
+{
+"id": "tv_sport_qualifier",
+"word": "qualifier",
+"pos": "topic term (Sport & Leisure)",
+"en": "a match to earn entry to a competition"
+},
+{
+"id": "tv_sport_knockout",
+"word": "knockout",
+"pos": "topic term (Sport & Leisure)",
+"en": "a stage where losers are eliminated"
+},
+{
+"id": "tv_sport_fixture",
+"word": "fixture",
+"pos": "topic term (Sport & Leisure)",
+"en": "a scheduled sporting match"
+},
+{
+"id": "tv_sport_season",
+"word": "season",
+"pos": "topic term (Sport & Leisure)",
+"en": "the part of the year when a sport is played"
+},
+{
+"id": "tv_sport_pursuit",
+"word": "pursuit",
+"pos": "topic term (Sport & Leisure)",
+"en": "an activity someone engages in"
+},
+{
+"id": "tv_sport_exhilarating",
+"word": "exhilarating",
+"pos": "topic term (Sport & Leisure)",
+"en": "making one feel very excited and alive"
+},
+{
+"id": "tv_sport_adrenaline",
+"word": "adrenaline",
+"pos": "topic term (Sport & Leisure)",
+"en": "a hormone linked to excitement and energy"
+},
+{
+"id": "tv_sport_camaraderie",
+"word": "camaraderie",
+"pos": "topic term (Sport & Leisure)",
+"en": "friendship and trust among a group"
+},
+{
+"id": "tv_sport_spectatorship",
+"word": "spectatorship",
+"pos": "topic term (Sport & Leisure)",
+"en": "the activity of watching events"
+},
+{
+"id": "tv_sport_retire",
+"word": "retire",
+"pos": "topic term (Sport & Leisure)",
+"en": "to stop competing professionally"
+},
+{
+"id": "tv_sport_compete",
+"word": "compete",
+"pos": "topic term (Sport & Leisure)",
+"en": "to take part in a contest"
+},
+{
+"id": "tv_sport_excel",
+"word": "excel",
+"pos": "topic term (Sport & Leisure)",
+"en": "to perform exceptionally well"
+},
+{
+"id": "tv_food_nutrition",
+"word": "nutrition",
+"pos": "topic term (Food & Diet)",
+"en": "the process of getting nourishment from food"
+},
+{
+"id": "tv_food_nutrient",
+"word": "nutrient",
+"pos": "topic term (Food & Diet)",
+"en": "a substance that provides nourishment"
+},
+{
+"id": "tv_food_nutritious",
+"word": "nutritious",
+"pos": "topic term (Food & Diet)",
+"en": "full of nourishing value"
+},
+{
+"id": "tv_food_diet",
+"word": "diet",
+"pos": "topic term (Food & Diet)",
+"en": "the kinds of food a person usually eats"
+},
+{
+"id": "tv_food_balanced_diet",
+"word": "balanced diet",
+"pos": "topic term (Food & Diet)",
+"en": "a diet with the right mix of nutrients"
+},
+{
+"id": "tv_food_calorie",
+"word": "calorie",
+"pos": "topic term (Food & Diet)",
+"en": "a unit measuring the energy in food"
+},
+{
+"id": "tv_food_protein",
+"word": "protein",
+"pos": "topic term (Food & Diet)",
+"en": "a nutrient needed to build the body"
+},
+{
+"id": "tv_food_carbohydrate",
+"word": "carbohydrate",
+"pos": "topic term (Food & Diet)",
+"en": "a nutrient that gives the body energy"
+},
+{
+"id": "tv_food_vitamin",
+"word": "vitamin",
+"pos": "topic term (Food & Diet)",
+"en": "a substance in food vital for health"
+},
+{
+"id": "tv_food_mineral",
+"word": "mineral",
+"pos": "topic term (Food & Diet)",
+"en": "a natural substance the body needs"
+},
+{
+"id": "tv_food_fibre",
+"word": "fibre",
+"pos": "topic term (Food & Diet)",
+"en": "plant material that aids digestion"
+},
+{
+"id": "tv_food_ingredient",
+"word": "ingredient",
+"pos": "topic term (Food & Diet)",
+"en": "a component used in a dish"
+},
+{
+"id": "tv_food_cuisine",
+"word": "cuisine",
+"pos": "topic term (Food & Diet)",
+"en": "a style of cooking from a region"
+},
+{
+"id": "tv_food_flavour",
+"word": "flavour",
+"pos": "topic term (Food & Diet)",
+"en": "the taste of a food or drink"
+},
+{
+"id": "tv_food_texture",
+"word": "texture",
+"pos": "topic term (Food & Diet)",
+"en": "the feel of food in the mouth"
+},
+{
+"id": "tv_food_appetite",
+"word": "appetite",
+"pos": "topic term (Food & Diet)",
+"en": "a desire for food"
+},
+{
+"id": "tv_food_portion",
+"word": "portion",
+"pos": "topic term (Food & Diet)",
+"en": "the amount of food served to one person"
+},
+{
+"id": "tv_food_serving",
+"word": "serving",
+"pos": "topic term (Food & Diet)",
+"en": "a single measured amount of food"
+},
+{
+"id": "tv_food_staple",
+"word": "staple",
+"pos": "topic term (Food & Diet)",
+"en": "a basic food eaten regularly"
+},
+{
+"id": "tv_food_produce",
+"word": "produce",
+"pos": "topic term (Food & Diet)",
+"en": "fresh fruit and vegetables"
+},
+{
+"id": "tv_food_organic",
+"word": "organic",
+"pos": "topic term (Food & Diet)",
+"en": "grown without artificial chemicals"
+},
+{
+"id": "tv_food_processed_food",
+"word": "processed food",
+"pos": "topic term (Food & Diet)",
+"en": "food altered from its natural state"
+},
+{
+"id": "tv_food_additive",
+"word": "additive",
+"pos": "topic term (Food & Diet)",
+"en": "a substance added to food"
+},
+{
+"id": "tv_food_preservative",
+"word": "preservative",
+"pos": "topic term (Food & Diet)",
+"en": "a substance that keeps food fresh"
+},
+{
+"id": "tv_food_artificial",
+"word": "artificial",
+"pos": "topic term (Food & Diet)",
+"en": "made by humans, not natural"
+},
+{
+"id": "tv_food_refined",
+"word": "refined",
+"pos": "topic term (Food & Diet)",
+"en": "processed to remove natural parts"
+},
+{
+"id": "tv_food_wholesome",
+"word": "wholesome",
+"pos": "topic term (Food & Diet)",
+"en": "good for health and wellbeing"
+},
+{
+"id": "tv_food_junk_food",
+"word": "junk food",
+"pos": "topic term (Food & Diet)",
+"en": "food high in fat, sugar, or salt and low in value"
+},
+{
+"id": "tv_food_fast_food",
+"word": "fast food",
+"pos": "topic term (Food & Diet)",
+"en": "quickly prepared, often unhealthy food"
+},
+{
+"id": "tv_food_takeaway",
+"word": "takeaway",
+"pos": "topic term (Food & Diet)",
+"en": "a meal bought to eat elsewhere"
+},
+{
+"id": "tv_food_home_cooked",
+"word": "home-cooked",
+"pos": "topic term (Food & Diet)",
+"en": "prepared at home rather than bought"
+},
+{
+"id": "tv_food_vegetarian",
+"word": "vegetarian",
+"pos": "topic term (Food & Diet)",
+"en": "eating no meat or fish"
+},
+{
+"id": "tv_food_vegan",
+"word": "vegan",
+"pos": "topic term (Food & Diet)",
+"en": "eating no animal products at all"
+},
+{
+"id": "tv_food_plant_based",
+"word": "plant-based",
+"pos": "topic term (Food & Diet)",
+"en": "based mainly on foods from plants"
+},
+{
+"id": "tv_food_obesity",
+"word": "obesity",
+"pos": "topic term (Food & Diet)",
+"en": "the condition of being very overweight"
+},
+{
+"id": "tv_food_overweight",
+"word": "overweight",
+"pos": "topic term (Food & Diet)",
+"en": "weighing more than is healthy"
+},
+{
+"id": "tv_food_malnutrition",
+"word": "malnutrition",
+"pos": "topic term (Food & Diet)",
+"en": "poor health from a lack of proper food"
+},
+{
+"id": "tv_food_deficiency",
+"word": "deficiency",
+"pos": "topic term (Food & Diet)",
+"en": "a lack of something needed"
+},
+{
+"id": "tv_food_consumption",
+"word": "consumption",
+"pos": "topic term (Food & Diet)",
+"en": "the eating or using of food"
+},
+{
+"id": "tv_food_overeat",
+"word": "overeat",
+"pos": "topic term (Food & Diet)",
+"en": "to eat more than the body needs"
+},
+{
+"id": "tv_food_moderation",
+"word": "moderation",
+"pos": "topic term (Food & Diet)",
+"en": "avoiding excess in eating or drinking"
+},
+{
+"id": "tv_food_indulge",
+"word": "indulge",
+"pos": "topic term (Food & Diet)",
+"en": "to allow oneself a pleasure"
+},
+{
+"id": "tv_food_crave",
+"word": "crave",
+"pos": "topic term (Food & Diet)",
+"en": "to feel a strong desire for food"
+},
+{
+"id": "tv_food_digest",
+"word": "digest",
+"pos": "topic term (Food & Diet)",
+"en": "to break down food in the body"
+},
+{
+"id": "tv_food_metabolism",
+"word": "metabolism",
+"pos": "topic term (Food & Diet)",
+"en": "the body's process of using energy"
+},
+{
+"id": "tv_food_hydration",
+"word": "hydration",
+"pos": "topic term (Food & Diet)",
+"en": "keeping the body supplied with water"
+},
+{
+"id": "tv_food_seasoning",
+"word": "seasoning",
+"pos": "topic term (Food & Diet)",
+"en": "salt, herbs, or spices added to food"
+},
+{
+"id": "tv_food_spice",
+"word": "spice",
+"pos": "topic term (Food & Diet)",
+"en": "an aromatic substance used to flavour food"
+},
+{
+"id": "tv_food_recipe",
+"word": "recipe",
+"pos": "topic term (Food & Diet)",
+"en": "instructions for preparing a dish"
+},
+{
+"id": "tv_food_culinary",
+"word": "culinary",
+"pos": "topic term (Food & Diet)",
+"en": "relating to cooking"
+},
+{
+"id": "tv_food_gourmet",
+"word": "gourmet",
+"pos": "topic term (Food & Diet)",
+"en": "of high quality, for fine tastes"
+},
+{
+"id": "tv_food_delicacy",
+"word": "delicacy",
+"pos": "topic term (Food & Diet)",
+"en": "a prized or unusual food"
+},
+{
+"id": "tv_food_appetising",
+"word": "appetising",
+"pos": "topic term (Food & Diet)",
+"en": "looking or smelling good to eat"
+},
+{
+"id": "tv_food_savoury",
+"word": "savoury",
+"pos": "topic term (Food & Diet)",
+"en": "salty or spicy rather than sweet"
+},
+{
+"id": "tv_food_bland",
+"word": "bland",
+"pos": "topic term (Food & Diet)",
+"en": "lacking strong flavour"
+},
+{
+"id": "tv_food_nourishing",
+"word": "nourishing",
+"pos": "topic term (Food & Diet)",
+"en": "providing what is needed for health"
+},
+{
+"id": "tv_food_perishable",
+"word": "perishable",
+"pos": "topic term (Food & Diet)",
+"en": "likely to decay quickly"
+},
+{
+"id": "tv_food_preserve",
+"word": "preserve",
+"pos": "topic term (Food & Diet)",
+"en": "to keep food from spoiling"
+},
+{
+"id": "tv_food_spoilage",
+"word": "spoilage",
+"pos": "topic term (Food & Diet)",
+"en": "the decay of food"
+},
+{
+"id": "tv_food_food_security",
+"word": "food security",
+"pos": "topic term (Food & Diet)",
+"en": "reliable access to enough safe food"
+},
+{
+"id": "tv_food_famine",
+"word": "famine",
+"pos": "topic term (Food & Diet)",
+"en": "an extreme and widespread shortage of food"
+},
+{
+"id": "tv_food_scarcity",
+"word": "scarcity",
+"pos": "topic term (Food & Diet)",
+"en": "a shortage of something"
+},
+{
+"id": "tv_food_surplus",
+"word": "surplus",
+"pos": "topic term (Food & Diet)",
+"en": "more than is needed"
+},
+{
+"id": "tv_food_food_waste",
+"word": "food waste",
+"pos": "topic term (Food & Diet)",
+"en": "edible food that is thrown away"
+},
+{
+"id": "tv_food_sustainable",
+"word": "sustainable",
+"pos": "topic term (Food & Diet)",
+"en": "able to continue without harming the future"
+},
+{
+"id": "tv_food_agriculture",
+"word": "agriculture",
+"pos": "topic term (Food & Diet)",
+"en": "the practice of farming"
+},
+{
+"id": "tv_food_cultivation",
+"word": "cultivation",
+"pos": "topic term (Food & Diet)",
+"en": "the growing of crops"
+},
+{
+"id": "tv_food_harvest",
+"word": "harvest",
+"pos": "topic term (Food & Diet)",
+"en": "the gathering of ripe crops"
+},
+{
+"id": "tv_food_livestock",
+"word": "livestock",
+"pos": "topic term (Food & Diet)",
+"en": "farm animals raised for food"
+},
+{
+"id": "tv_food_import",
+"word": "import",
+"pos": "topic term (Food & Diet)",
+"en": "food brought in from abroad"
+},
+{
+"id": "tv_food_locally_sourced",
+"word": "locally sourced",
+"pos": "topic term (Food & Diet)",
+"en": "produced near where it is sold"
+},
+{
+"id": "tv_food_genetically_modified",
+"word": "genetically modified",
+"pos": "topic term (Food & Diet)",
+"en": "having altered genes for farming"
+},
+{
+"id": "tv_food_hygiene",
+"word": "hygiene",
+"pos": "topic term (Food & Diet)",
+"en": "practices that keep food clean and safe"
+},
+{
+"id": "tv_food_contamination",
+"word": "contamination",
+"pos": "topic term (Food & Diet)",
+"en": "the presence of harmful substances in food"
+},
+{
+"id": "tv_food_foodborne",
+"word": "foodborne",
+"pos": "topic term (Food & Diet)",
+"en": "carried or spread by food"
+},
+{
+"id": "tv_food_additive_free",
+"word": "additive-free",
+"pos": "topic term (Food & Diet)",
+"en": "containing no added chemicals"
+},
+{
+"id": "tv_food_dietary",
+"word": "dietary",
+"pos": "topic term (Food & Diet)",
+"en": "relating to diet"
+},
+{
+"id": "tv_food_palate",
+"word": "palate",
+"pos": "topic term (Food & Diet)",
+"en": "a person's sense of taste"
+},
+{
+"id": "tv_food_comfort_food",
+"word": "comfort food",
+"pos": "topic term (Food & Diet)",
+"en": "food that gives a sense of wellbeing"
+},
+{
+"id": "tv_food_consume",
+"word": "consume",
+"pos": "topic term (Food & Diet)",
+"en": "to eat or drink something"
+},
+{
+"id": "tv_food_edible",
+"word": "edible",
+"pos": "topic term (Food & Diet)",
+"en": "safe or suitable to be eaten"
+},
+{
+"id": "tv_food_nutritional_value",
+"word": "nutritional value",
+"pos": "topic term (Food & Diet)",
+"en": "the worth of a food for health"
+},
+{
+"id": "tv_food_supplement",
+"word": "supplement",
+"pos": "topic term (Food & Diet)",
+"en": "a product taken to add nutrients"
+},
+{
+"id": "tv_food_farm_to_table",
+"word": "farm-to-table",
+"pos": "topic term (Food & Diet)",
+"en": "food served soon after being grown"
+},
+{
+"id": "tv_food_seasonal",
+"word": "seasonal",
+"pos": "topic term (Food & Diet)",
+"en": "available at a certain time of year"
+},
+{
+"id": "tv_food_staple_crop",
+"word": "staple crop",
+"pos": "topic term (Food & Diet)",
+"en": "a main food crop of a region"
+},
+{
+"id": "tv_food_overindulgence",
+"word": "overindulgence",
+"pos": "topic term (Food & Diet)",
+"en": "excessive eating or drinking"
+},
+{
+"id": "tv_food_well_balanced",
+"word": "well-balanced",
+"pos": "topic term (Food & Diet)",
+"en": "containing a good mix of nutrients"
+},
+{
+"id": "tv_urbanisation_urbanisation",
+"word": "urbanisation",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "the growth of towns as people move from rural areas"
+},
+{
+"id": "tv_urbanisation_urban",
+"word": "urban",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "relating to a town or city"
+},
+{
+"id": "tv_urbanisation_rural",
+"word": "rural",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "relating to the countryside"
+},
+{
+"id": "tv_urbanisation_metropolis",
+"word": "metropolis",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a large, busy city"
+},
+{
+"id": "tv_urbanisation_metropolitan",
+"word": "metropolitan",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "relating to a large city and its suburbs"
+},
+{
+"id": "tv_urbanisation_megacity",
+"word": "megacity",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a city with over ten million people"
+},
+{
+"id": "tv_urbanisation_suburb",
+"word": "suburb",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a residential area on a city's edge"
+},
+{
+"id": "tv_urbanisation_suburban",
+"word": "suburban",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "relating to the suburbs"
+},
+{
+"id": "tv_urbanisation_inner_city",
+"word": "inner city",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "the central, often poorer area of a city"
+},
+{
+"id": "tv_urbanisation_city_centre",
+"word": "city centre",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "the busy commercial heart of a city"
+},
+{
+"id": "tv_urbanisation_district",
+"word": "district",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "an area of a city with a distinct character"
+},
+{
+"id": "tv_urbanisation_neighbourhood",
+"word": "neighbourhood",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a local area where people live"
+},
+{
+"id": "tv_urbanisation_residential",
+"word": "residential",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "designed for people to live in"
+},
+{
+"id": "tv_urbanisation_commercial",
+"word": "commercial",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "used for business and trade"
+},
+{
+"id": "tv_urbanisation_industrial",
+"word": "industrial",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "relating to factories and manufacturing"
+},
+{
+"id": "tv_urbanisation_housing",
+"word": "housing",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "buildings where people live, collectively"
+},
+{
+"id": "tv_urbanisation_accommodation",
+"word": "accommodation",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a place for someone to live or stay"
+},
+{
+"id": "tv_urbanisation_dwelling",
+"word": "dwelling",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a place of residence"
+},
+{
+"id": "tv_urbanisation_tenant",
+"word": "tenant",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a person who rents a property"
+},
+{
+"id": "tv_urbanisation_landlord",
+"word": "landlord",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a person who rents property to others"
+},
+{
+"id": "tv_urbanisation_rent",
+"word": "rent",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "money paid to use a property"
+},
+{
+"id": "tv_urbanisation_mortgage",
+"word": "mortgage",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a loan used to buy a home"
+},
+{
+"id": "tv_urbanisation_affordability",
+"word": "affordability",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "how far people can pay for something"
+},
+{
+"id": "tv_urbanisation_property",
+"word": "property",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "land or buildings that are owned"
+},
+{
+"id": "tv_urbanisation_real_estate",
+"word": "real estate",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "land and buildings as a market"
+},
+{
+"id": "tv_urbanisation_infrastructure",
+"word": "infrastructure",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "the basic systems a city needs to function"
+},
+{
+"id": "tv_urbanisation_amenities",
+"word": "amenities",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "useful features that make life easier"
+},
+{
+"id": "tv_urbanisation_utilities",
+"word": "utilities",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "essential services like water and power"
+},
+{
+"id": "tv_urbanisation_sanitation",
+"word": "sanitation",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "systems for clean water and waste"
+},
+{
+"id": "tv_urbanisation_slum",
+"word": "slum",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a crowded, poor urban area"
+},
+{
+"id": "tv_urbanisation_shanty_town",
+"word": "shanty town",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "a settlement of makeshift homes"
+},
+{
+"id": "tv_urbanisation_informal_settlement",
+"word": "informal settlement",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "unplanned housing without legal title"
+},
+{
+"id": "tv_urbanisation_overcrowding",
+"word": "overcrowding",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "too many people in too little space"
+},
+{
+"id": "tv_urbanisation_congestion",
+"word": "congestion",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "severe crowding, especially of traffic"
+},
+{
+"id": "tv_urbanisation_population_density",
+"word": "population density",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "the number of people per unit of area"
+},
+{
+"id": "tv_urbanisation_sprawl",
+"word": "sprawl",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "the uncontrolled spread of a city"
+},
+{
+"id": "tv_urbanisation_expansion",
+"word": "expansion",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "the act of growing larger in area"
+},
+{
+"id": "tv_urbanisation_development",
+"word": "development",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "the building of new structures on land"
+},
+{
+"id": "tv_urbanisation_redevelopment",
+"word": "redevelopment",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "rebuilding a run-down area"
+},
+{
+"id": "tv_urbanisation_regeneration",
+"word": "regeneration",
+"pos": "topic term (Urbanisation & Housing)",
+"en": "bringing new life to a declining area"
+}
+]

@@ -1,0 +1,178 @@
+{
+ "note": "Q10: compressed air's main problem is high cost (A). Timeline options now 1970s-2020s (A-F) so each heard decade has one letter: pumped hydro 1980s (B), lithium-ion patents 1990s (C), grid-scale batteries 2000s (D), battery costs fall 2010s (E), green hydrogen 2020s (F).",
+ "groups": {
+  "g2": {
+   "id": "g2",
+   "type": "matching",
+   "title": "What is the main limitation of each technology?",
+   "instruction": "Choose the correct letter, A–F, for each question. You may use any letter more than once.",
+   "options": [
+    {
+     "key": "A",
+     "text": "high cost"
+    },
+    {
+     "key": "B",
+     "text": "limited by geography"
+    },
+    {
+     "key": "C",
+     "text": "short storage duration"
+    },
+    {
+     "key": "D",
+     "text": "energy lost in conversion"
+    },
+    {
+     "key": "E",
+     "text": "safety concerns"
+    },
+    {
+     "key": "F",
+     "text": "scarce materials"
+    }
+   ],
+   "questions": [
+    {
+     "number": 6,
+     "text": "pumped hydro",
+     "answer": "B"
+    },
+    {
+     "number": 7,
+     "text": "lithium-ion batteries",
+     "answer": "F"
+    },
+    {
+     "number": 8,
+     "text": "flywheels",
+     "answer": "C"
+    },
+    {
+     "number": 9,
+     "text": "hydrogen",
+     "answer": "D"
+    },
+    {
+     "number": 10,
+     "text": "compressed air",
+     "answer": "A"
+    }
+   ]
+  },
+  "g3": {
+   "id": "g3",
+   "type": "matching",
+   "title": "In which country is each project?",
+   "instruction": "Choose the correct letter, A–E, for each question. You may use any letter more than once.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Germany"
+    },
+    {
+     "key": "B",
+     "text": "Australia"
+    },
+    {
+     "key": "C",
+     "text": "Norway"
+    },
+    {
+     "key": "D",
+     "text": "Japan"
+    },
+    {
+     "key": "E",
+     "text": "Chile"
+    }
+   ],
+   "questions": [
+    {
+     "number": 11,
+     "text": "the largest pumped-hydro plant in the case studies",
+     "answer": "C"
+    },
+    {
+     "number": 12,
+     "text": "a major hydrogen export project",
+     "answer": "B"
+    },
+    {
+     "number": 13,
+     "text": "a well-known large battery trial",
+     "answer": "A"
+    },
+    {
+     "number": 14,
+     "text": "a solar-plus-storage desert project",
+     "answer": "E"
+    },
+    {
+     "number": 15,
+     "text": "an early flywheel research programme",
+     "answer": "D"
+    }
+   ]
+  },
+  "g4": {
+   "id": "g4",
+   "type": "matching",
+   "title": "In which decade did each development happen?",
+   "instruction": "Choose the correct letter, A–F, for each question. You may use any letter more than once.",
+   "options": [
+    {
+     "key": "A",
+     "text": "1970s"
+    },
+    {
+     "key": "B",
+     "text": "1980s"
+    },
+    {
+     "key": "C",
+     "text": "1990s"
+    },
+    {
+     "key": "D",
+     "text": "2000s"
+    },
+    {
+     "key": "E",
+     "text": "2010s"
+    },
+    {
+     "key": "F",
+     "text": "2020s"
+    }
+   ],
+   "questions": [
+    {
+     "number": 16,
+     "text": "first commercial pumped-hydro plants",
+     "answer": "B"
+    },
+    {
+     "number": 17,
+     "text": "first lithium-ion battery patents",
+     "answer": "C"
+    },
+    {
+     "number": 18,
+     "text": "first grid-scale battery storage",
+     "answer": "D"
+    },
+    {
+     "number": 19,
+     "text": "a rapid fall in battery costs",
+     "answer": "E"
+    },
+    {
+     "number": 20,
+     "text": "large-scale green hydrogen projects",
+     "answer": "F"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+  "_format": {
+    "name": "writing_task2_prompts",
+    "group": "content",
+    "table": "writing_prompts",
+    "primaryKey": "id",
+    "description": "Writing Task 2 essay question with idea bank, vocabulary and optional model answer.",
+    "currentSourceInApp": "writing.task2",
+    "fields": {
+      "id": "string",
+      "type": "string",
+      "topic": "string",
+      "title": "string",
+      "prompt": "string",
+      "ideas": "object",
+      "modelAnswer": "object"
+    },
+    "required": [
+      "id",
+      "type",
+      "topic",
+      "title",
+      "prompt"
+    ],
+    "relations": [],
+    "notes": [
+      "type: opinion|discussion|advantages|problem|two-part.",
+      "Stored in writing_prompts with task = 2.",
+      "ideas.for/against/vocabulary feed the Ideas screen (C11)."
+    ],
+    "recordCountToday": 31,
+    "practiceParts": [
+      {
+        "part": "task2",
+        "label": "Writing Task 2",
+        "minWords": 250,
+        "minutes": 40,
+        "weight": "two thirds of the Writing band",
+        "practisedOn": "Writing → Task 2 editor (C3); mock G6"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "t2_remote_work",
+      "type": "opinion",
+      "topic": "Work",
+      "title": "Working from home",
+      "prompt": "Some people believe that working from home benefits both employees and employers. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Employers can recruit talent from any location",
+          "Lower office costs can be reinvested in staff",
+          "Employees save time and money on commuting",
+          "Flexible schedules can raise job satisfaction and loyalty"
+        ],
+        "against": [
+          "Staff may feel isolated and lonely",
+          "Junior employees lose informal learning from colleagues",
+          "Boundaries between work and home life can blur",
+          "Team creativity and spontaneous collaboration may suffer"
+        ],
+        "vocabulary": [
+          "hybrid model",
+          "commute",
+          "work–life balance",
+          "overheads",
+          "talent pool",
+          "productivity",
+          "self-discipline",
+          "burnout"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "Over the past decade, remote work has shifted from a rare privilege to a mainstream arrangement for millions of office staff. In my view, its advantages for both employers and employees clearly outweigh the drawbacks, provided that it is managed sensibly.\n\nTo begin with, companies can recruit talent regardless of location, which widens the pool of skilled applicants considerably. Moreover, savings on office space can be reinvested in training, technology or higher salaries. A firm that no longer rents an entire floor in a central business district, for instance, may be able to fund professional courses for every member of staff.\n\nEmployees, meanwhile, gain hours that would otherwise be lost to commuting. In congested cities such as Dhaka, where a single journey can exceed an hour, this time can be devoted to rest, exercise or family, all of which tend to improve concentration and job satisfaction. As a result, workers who are trusted to manage their own schedules are often more loyal and less likely to resign.\n\nAdmittedly, working from home is not without its challenges. Some staff feel isolated, and junior employees may miss the informal learning that happens in a shared office. However, these problems can largely be solved through regular video meetings and occasional in-person days rather than by abandoning remote work altogether. Indeed, many organisations already combine home and office working with considerable success.\n\nIn conclusion, I firmly believe that working from home benefits both sides of the employment relationship. With clear communication and a flexible hybrid model, its drawbacks are minor compared with the gains in productivity, cost and wellbeing."
+      }
+    },
+    {
+      "id": "t2_public_transport_funding",
+      "type": "discussion",
+      "topic": "Transport",
+      "title": "Public transport or more roads",
+      "prompt": "Some people think governments should spend more money on public transport, while others believe building more roads is the better way to reduce traffic. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Buses and trains move far more people per square metre of space",
+          "Public transport reduces emissions and air pollution",
+          "Affordable transit helps low-income workers reach jobs",
+          "New roads tend to fill with extra traffic (induced demand)"
+        ],
+        "against": [
+          "Rural areas often depend on roads rather than rail",
+          "Freight and emergency services need good road networks",
+          "Public transport projects are expensive and slow to build",
+          "Many people value the flexibility of private cars"
+        ],
+        "vocabulary": [
+          "traffic congestion",
+          "induced demand",
+          "infrastructure",
+          "mass transit",
+          "commuter",
+          "carbon emissions",
+          "rush hour",
+          "urban sprawl"
+        ]
+      }
+    }
+  ]
+}

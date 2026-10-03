@@ -1,0 +1,224 @@
+[
+ {
+  "id": "l07_practice",
+  "title": "7. Listening Practice dan Penutup Module",
+  "group": "Practice test",
+  "blocks": [
+   [
+    "p",
+    "Tangga latihan tujuh level secara lengkap — self-check, drill terbimbing dan mandiri, latihan trap, dan mini-test campuran gaya Part 1 / Part 3 — ditambah rangkuman Module 1."
+   ],
+   [
+    "p",
+    "Semua isi Module 1 mengarah ke sini. Strategi yang hanya dibaca cepat terlupakan; strategi yang dilatih menjadi naluri. File ini menaiki tangga latihan tujuh level, menggabungkan prediksi, keyword, paraphrase, distractor, dan semua question type dalam satu latihan yang bertahap."
+   ],
+   [
+    "p",
+    "Catatan tentang audio: panduan tertulis tidak bisa memutar rekaman, jadi sebagian besar drill di bawah memberikan transkrip singkat untuk dibaca dengan kecepatan bicara, lalu dijawab. Ini melatih gerakan pikiran yang persis Anda butuhkan. Untuk puncak tangga, yaitu tes berwaktu dan tes lengkap, terapkan sistem ini pada audio sungguhan. Biarkan Error Log Anda tetap terbuka sepanjang latihan — setiap jawaban yang salah mendapat reason code."
+   ],
+   [
+    "h",
+    "Level 1: Pahami (self-check singkat)"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Level 1 self-check",
+     "kind": "essay_edit",
+     "instructions": "Jawab masing-masing dalam satu baris.",
+     "items": [
+      {
+       "prompt": "1. What single question do you ask of every gap before the audio?\n2. Which three kinds of word are almost never paraphrased?\n3. In the shape [decoy] + [signal] + [answer], where is the correct answer?\n4. In multiple choice, what does hearing an option's words tell you?\n5. When you miss an answer, what is the one thing you must not do?",
+       "answer": "1. “What kind of answer am I about to hear?” 2. Names, numbers, dates. 3. After the signal. 4. Almost nothing, until the speaker endorses it. 5. Chase it backwards while the audio moves on.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 2: Latihan terbimbing"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.1: Prediksi",
+     "kind": "essay_edit",
+     "instructions": "Untuk setiap gap, tulis bentuk grammatical dan jenis informasinya.",
+     "items": [
+      {
+       "prompt": "1. “The café seats about ____ people.”\n2. “Bring a ____ in case it rains.”\n3. “The session is led by Dr ____.”\n4. “The castle dates from the ____ century.”\n5. “Tickets are available from the ____ office.”",
+       "answer": "1. Number (a people count). 2. Noun, object (umbrella, coat). 3. Name (a surname). 4. An ordinal number (a century). 5. Noun, place/role before “office” (ticket, box, main).",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.2: Keyword anchor",
+     "kind": "essay_edit",
+     "instructions": "Garis bawahi satu keyword terbaik dan beri label (anchor, strong content, concept).",
+     "items": [
+      {
+       "prompt": "1. “The library reopened in 2019 after refurbishment.”\n2. “The main problem was a lack of parking.”\n3. “Ask for Mrs Delgado at the desk.”\n4. “The tour is popular with families.”",
+       "answer": "1. 2019, anchor. 2. parking, strong content (or “problem” as a concept warning of paraphrase). 3. Delgado, anchor (name). 4. popular, concept — expect a paraphrase like “families love it.”",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.3: Paraphrase",
+     "kind": "essay_edit",
+     "instructions": "Coba kerjakan sendiri dulu, lalu bandingkan dengan model answer.",
+     "items": [
+      {
+       "prompt": "Write one likely paraphrase for each: expensive, begin, difficult, close to.",
+       "answer": "expensive: costly, pricey, dear. begin: start, get under way, kick off. difficult: hard, tricky, tough. close to: near, a short way from, within reach of.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 3: Latihan mandiri"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.4: Note completion",
+     "kind": "essay_edit",
+     "instructions": "Coba kerjakan sendiri dulu, lalu bandingkan dengan model answer.",
+     "items": [
+      {
+       "prompt": "Notes: Club name = ____ (1); Meets on = ____ (2); Cost per term = ____ (3); Bring your own = ____ (4). Transcript: “Welcome to the Riverside Photography Club. We meet every Thursday evening in the community hall. Membership is twenty-five pounds a term, which covers everything except that you'll need to bring your own camera, of course.” Write 1 to 4, obeying a two-word-and-or-a-number limit.",
+       "answer": "1. Riverside Photography (Club), trimmed to fit. 2. Thursday(s). 3. 25 pounds / twenty-five pounds. 4. (a) camera — “covers everything except” is the signpost that isolates what you must bring.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.5: Multiple choice",
+     "kind": "essay_edit",
+     "instructions": "Coba kerjakan sendiri dulu, lalu bandingkan dengan model answer.",
+     "items": [
+      {
+       "prompt": "Q: “How did the speaker travel to the conference?” A) train B) car C) plane. Transcript: “I'd planned to fly, but the flights were so expensive that I ended up driving, which actually gave me a chance to see the countryside.”",
+       "answer": "B, car. “Planned to fly” (plane) is the decoy; “but… I ended up driving” gives the answer. Choosing C because “fly” came first is the correction-trap error.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 4: Latihan trap"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.6: Sebutkan trap-nya",
+     "kind": "essay_edit",
+     "instructions": "Setiap item di sini mengandung distractor. Sebutkan jenis trap-nya (correction, two-number, rejected option, speaker attribution, negation) dan berikan jawabannya.",
+     "items": [
+      {
+       "prompt": "1. “The deposit's usually a hundred, but returning customers pay just seventy.”\n2. “We'll meet at the library, actually the café is quieter, let's do that.”\n3. “Which two are provided? Towels are, and a hairdryer, but soap you bring yourself.”\n4. “Ravi thought the plan was risky; Mia disagreed, calling it perfectly safe.”\n5. “The trip isn't cancelled, it's just been postponed to next week.”",
+       "answer": "1. Two-number trap. Answer: 70 (returning customers), decoy 100.\n2. Correction trap. Answer: café, decoy library, signal “actually.”\n3. Rejected-option trap. Answers: towels and a hairdryer; soap is denied.\n4. Speaker-attribution trap. Ravi = risky, Mia = safe.\n5. Negation trap. Answer: postponed to next week, not cancelled.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 5: Latihan campuran (mini-test gaya Part 1)"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Level 5 mini-test (gaya Part 1)",
+     "kind": "essay_edit",
+     "instructions": "Bacakan sekali dengan kecepatan alami: “Good morning, Greenfield Leisure Centre, how can I help? Hi, I'd like to book a badminton court. Can I take your name? It's Tomas Reinholt. That's R-E-I-N-H-O-L-T. And a contact number? It's 0-1-6-3-2, then 5-5-double-8-1-9. Which day would you like? Saturday, if possible. Morning. Saturday morning is fully booked, I'm afraid, but Sunday morning has space. Sunday's fine. Courts are nine pounds an hour, though before eleven it's a reduced rate of six pounds. We'll come at ten, so the cheaper one. And do we bring anything? Rackets can be hired for two pounds, but do bring your own indoor shoes, that's essential.”",
+     "items": [
+      {
+       "prompt": "Questions (NO MORE THAN TWO WORDS AND/OR A NUMBER): 1. Surname 2. Contact number 3. Day booked 4. Price per hour they will pay 5. Item they must bring",
+       "answer": "1. Reinholt (spelled out, get it exact). 2. 01632 55819 (note “double 8” is two eights). 3. Sunday — Saturday morning is “fully booked,” the decoy. 4. 6 pounds — nine pounds is the standard rate (decoy); “before eleven… six” plus “we'll come at ten” selects six. 5. (indoor) shoes — rackets “can be hired” (optional decoy); shoes are “essential.” If you missed the number, log it as SP or CL and slow down on digit strings; if you missed 3 or 4, log DS — both were two-option traps resolved by a later condition.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 6: Question type campuran (mini-test gaya Part 3)"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Level 6 mini-test (gaya Part 3)",
+     "kind": "essay_edit",
+     "instructions": "Bacakan sekali: “Tutor: So, your group project on renewable energy. Who's covering what? Nadia: I'll take solar power, it's what I know best. Kofi: I was going to do solar too, but since Nadia's on it, I'll cover wind. Leah: That leaves me with hydro, which is fine. Tutor: Have you decided on your main data source? Nadia: We looked at using a public survey, but the sample was tiny. Kofi: Right, so we're going with the government energy reports instead, they're much more reliable. Leah: Agreed, the reports it is.”",
+     "items": [
+      {
+       "prompt": "Matching: which topic does each student cover — 1. Nadia 2. Kofi 3. Leah? Multiple choice: 4. What data source did the group finally choose? A) a public survey B) government reports C) their own experiment.",
+       "answer": "1. Nadia = solar. 2. Kofi = wind (switched from solar because Nadia took it; the abandoned choice is the decoy). 3. Leah = hydro. 4. B, government reports — the public survey was considered but rejected (“the sample was tiny”); “going with the government energy reports instead” is the decision, confirmed by “the reports it is.”",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 7: Tes lengkap (menerapkan sistem pada audio sungguhan)"
+   ],
+   [
+    "p",
+    "Panduan tertulis tidak bisa memberi Anda tes listening lengkap dengan suara, dan tes lengkap yang “hanya transkrip” bukanlah tes yang sebenarnya, karena membaca menghilangkan tekanan yang menjadi dasar tes ini. Untuk Level 7, pakai audio sungguhan dengan kecepatan asli, diputar sekali, dan terapkan sistem Module 1 dengan tepat:"
+   ],
+   [
+    "ul",
+    [
+     "Di setiap jeda sebelum audio, prediksi bentuk setiap gap dan tetapkan keyword anchor Anda.",
+     "Putar audio hanya sekali. Jangan pernah menghentikan atau mengulang saat latihan berwaktu.",
+     "Tulis jawaban saat itu juga, patuhi word limit, dan percayai bahwa jawaban completion adalah kata-kata yang persis.",
+     "Anggap setiap “but, actually, sorry, instead” sebagai alarm distractor.",
+     "Jika melewatkan satu jawaban, reset dengan bersih dan lanjutkan.",
+     "Setelah selesai, nilai hasilnya, lalu isi Error Log Anda dengan reason code untuk setiap kesalahan."
+    ]
+   ],
+   [
+    "tip",
+    "Kerjakan tes lengkap pada jam yang sama dengan ujian sungguhan Anda, dalam sekali duduk, tanpa jeda. Otak Anda perlu berlatih bukan hanya soal question, tetapi juga daya tahan. Siswa yang hanya berlatih satu bagian setiap kali sering kaget betapa lelahnya mereka saat sampai di Part 4 pada hari ujian."
+   ],
+   [
+    "h",
+    "Rangkuman Module 1: mindset Listening, dalam satu tarikan napas"
+   ],
+   [
+    "p",
+    "Sebelum setiap part, prediksi setiap gap dan tetapkan anchor Anda. Selama audio, dengarkan maknanya, ikuti signpost, dan tunggu keputusan speaker sebelum Anda memilih. Anggap setiap “but, actually, sorry, instead” sebagai alarm. Tulis jawaban seketika dan patuhi word limit. Saat melewatkan satu jawaban, reset dan lanjutkan tanpa menoleh ke belakang. Setelah itu, catat setiap kesalahan berdasarkan alasannya, dan latih alasan yang paling sering muncul."
+   ],
+   [
+    "p",
+    "Itulah seluruh isi module ini. Bukan sekadar “dengarkan baik-baik”, melainkan urutan keputusan yang tepat yang sekarang bisa Anda jalankan kapan saja. Saat Anda bisa melakukannya tanpa berpikir, Anda tidak lagi berharap bisa menangkap jawaban — Anda menunggunya, tepat di tempat yang sudah Anda ketahui."
+   ]
+  ]
+ }
+]

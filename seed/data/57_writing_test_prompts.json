@@ -1,0 +1,615 @@
+{
+ "table": "writing_prompts",
+ "items": [
+  {
+   "id": "wt_01_t1",
+   "source": "test",
+   "testId": "wt_01",
+   "task": 1,
+   "type": "line",
+   "title": "Global prices of wheat, corn and sugar, 2010–2022",
+   "prompt": "The line graph below shows the changes in the average global price of three agricultural commodities (wheat, corn, and sugar) per metric tonne between 2010 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_01_task1.jpg",
+   "data": {
+    "id": "wt_01_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_01",
+    "number": 1,
+    "type": "line",
+    "typeLabel": "Line graph",
+    "title": "Global prices of wheat, corn and sugar, 2010–2022",
+    "statement": "The line graph below shows the changes in the average global price of three agricultural commodities (wheat, corn, and sugar) per metric tonne between 2010 and 2022.",
+    "prompt": "The line graph below shows the changes in the average global price of three agricultural commodities (wheat, corn, and sugar) per metric tonne between 2010 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The line graph below shows the changes in the average global price of three agricultural commodities (wheat, corn, and sugar) per metric tonne between 2010 and 2022.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_01_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_01_t2",
+   "source": "test",
+   "testId": "wt_01",
+   "task": 2,
+   "type": "opinion",
+   "title": "Public libraries",
+   "prompt": "With the rapid rise of digital books, online news outlets, and streaming media, physical public libraries have become an unnecessary government expenditure. To what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_01_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_01",
+    "number": 1,
+    "type": "opinion",
+    "typeLabel": "Opinion",
+    "title": "Public libraries",
+    "question": "With the rapid rise of digital books, online news outlets, and streaming media, physical public libraries have become an unnecessary government expenditure. To what extent do you agree or disagree with this statement?",
+    "prompt": "With the rapid rise of digital books, online news outlets, and streaming media, physical public libraries have become an unnecessary government expenditure. To what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "With the rapid rise of digital books, online news outlets, and streaming media, physical public libraries have become an unnecessary government expenditure. To what extent do you agree or disagree with this statement?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_02_t1",
+   "source": "test",
+   "testId": "wt_02",
+   "task": 1,
+   "type": "process",
+   "title": "Commercial olive oil production process",
+   "prompt": "The process diagram below shows how commercial olive oil is extracted and processed from raw olives. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_02_task1.jpg",
+   "data": {
+    "id": "wt_02_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_02",
+    "number": 2,
+    "type": "process",
+    "typeLabel": "Process diagram",
+    "title": "Commercial olive oil production process",
+    "statement": "The process diagram below shows how commercial olive oil is extracted and processed from raw olives.",
+    "prompt": "The process diagram below shows how commercial olive oil is extracted and processed from raw olives. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The process diagram below shows how commercial olive oil is extracted and processed from raw olives.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_02_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_02_t2",
+   "source": "test",
+   "testId": "wt_02",
+   "task": 2,
+   "type": "discussion",
+   "title": "Juvenile crime responsibility",
+   "prompt": "Some people believe that the best way to reduce juvenile crime is to hold parents legally and financially responsible for the actions of their underage children. Others argue that teenagers should be held individually accountable for their own illegal behavior. Discuss both views and give your opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_02_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_02",
+    "number": 2,
+    "type": "discussion",
+    "typeLabel": "Discussion",
+    "title": "Juvenile crime responsibility",
+    "question": "Some people believe that the best way to reduce juvenile crime is to hold parents legally and financially responsible for the actions of their underage children. Others argue that teenagers should be held individually accountable for their own illegal behavior. Discuss both views and give your opinion.",
+    "prompt": "Some people believe that the best way to reduce juvenile crime is to hold parents legally and financially responsible for the actions of their underage children. Others argue that teenagers should be held individually accountable for their own illegal behavior. Discuss both views and give your opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "Some people believe that the best way to reduce juvenile crime is to hold parents legally and financially responsible for the actions of their underage children. Others argue that teenagers should be held individually accountable for their own illegal behavior. Discuss both views and give your opinion.",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_03_t1",
+   "source": "test",
+   "testId": "wt_03",
+   "task": 1,
+   "type": "mixed",
+   "title": "Commuter transport modes and travel times in a European city, 2005 and 2020",
+   "prompt": "The table and bar chart below show the proportion of commuters using four different transport modes in a European city, as well as the average travel times recorded in 2005 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_03_task1.jpg",
+   "data": {
+    "id": "wt_03_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_03",
+    "number": 3,
+    "type": "mixed",
+    "typeLabel": "Mixed charts",
+    "title": "Commuter transport modes and travel times in a European city, 2005 and 2020",
+    "statement": "The table and bar chart below show the proportion of commuters using four different transport modes in a European city, as well as the average travel times recorded in 2005 and 2020.",
+    "prompt": "The table and bar chart below show the proportion of commuters using four different transport modes in a European city, as well as the average travel times recorded in 2005 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The table and bar chart below show the proportion of commuters using four different transport modes in a European city, as well as the average travel times recorded in 2005 and 2020.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_03_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_03_t2",
+   "source": "test",
+   "testId": "wt_03",
+   "task": 2,
+   "type": "problem",
+   "title": "Traditional arts decline",
+   "prompt": "In many countries, traditional arts such as folk music, classical theater, and handicraft painting are losing popularity among younger generations. What are the main reasons for this decline? What measures can be taken to revive young people's interest in traditional arts?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_03_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_03",
+    "number": 3,
+    "type": "problem",
+    "typeLabel": "Causes & solutions",
+    "title": "Traditional arts decline",
+    "question": "In many countries, traditional arts such as folk music, classical theater, and handicraft painting are losing popularity among younger generations. What are the main reasons for this decline? What measures can be taken to revive young people's interest in traditional arts?",
+    "prompt": "In many countries, traditional arts such as folk music, classical theater, and handicraft painting are losing popularity among younger generations. What are the main reasons for this decline? What measures can be taken to revive young people's interest in traditional arts?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "In many countries, traditional arts such as folk music, classical theater, and handicraft painting are losing popularity among younger generations. What are the main reasons for this decline? What measures can be taken to revive young people's interest in traditional arts?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_04_t1",
+   "source": "test",
+   "testId": "wt_04",
+   "task": 1,
+   "type": "map",
+   "title": "Coastal peninsula before and after resort development, 1985–2020",
+   "prompt": "The maps below show a coastal peninsula in 1985 and its transformation into a tourist resort destination by 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_04_task1.jpg",
+   "data": {
+    "id": "wt_04_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_04",
+    "number": 4,
+    "type": "map",
+    "typeLabel": "Maps",
+    "title": "Coastal peninsula before and after resort development, 1985–2020",
+    "statement": "The maps below show a coastal peninsula in 1985 and its transformation into a tourist resort destination by 2020.",
+    "prompt": "The maps below show a coastal peninsula in 1985 and its transformation into a tourist resort destination by 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The maps below show a coastal peninsula in 1985 and its transformation into a tourist resort destination by 2020.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_04_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_04_t2",
+   "source": "test",
+   "testId": "wt_04",
+   "task": 2,
+   "type": "two_part",
+   "title": "Fast food popularity",
+   "prompt": "Fast food consumption has increased dramatically worldwide, leading to higher rates of lifestyle-related health conditions such as obesity and diabetes. Why has fast food become so popular in recent years? Is the widespread adoption of fast-food diets a positive or negative development overall?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_04_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_04",
+    "number": 4,
+    "type": "two_part",
+    "typeLabel": "Two-part question",
+    "title": "Fast food popularity",
+    "question": "Fast food consumption has increased dramatically worldwide, leading to higher rates of lifestyle-related health conditions such as obesity and diabetes. Why has fast food become so popular in recent years? Is the widespread adoption of fast-food diets a positive or negative development overall?",
+    "prompt": "Fast food consumption has increased dramatically worldwide, leading to higher rates of lifestyle-related health conditions such as obesity and diabetes. Why has fast food become so popular in recent years? Is the widespread adoption of fast-food diets a positive or negative development overall?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "Fast food consumption has increased dramatically worldwide, leading to higher rates of lifestyle-related health conditions such as obesity and diabetes. Why has fast food become so popular in recent years? Is the widespread adoption of fast-food diets a positive or negative development overall?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_05_t1",
+   "source": "test",
+   "testId": "wt_05",
+   "task": 1,
+   "type": "pie",
+   "title": "Water use by sector in three world regions",
+   "prompt": "The pie charts below show the percentage distribution of water usage across domestic, agricultural, and industrial sectors in three regions of the world (North America, Sub-Saharan Africa, and East Asia). Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_05_task1.jpg",
+   "data": {
+    "id": "wt_05_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_05",
+    "number": 5,
+    "type": "pie",
+    "typeLabel": "Pie chart",
+    "title": "Water use by sector in three world regions",
+    "statement": "The pie charts below show the percentage distribution of water usage across domestic, agricultural, and industrial sectors in three regions of the world (North America, Sub-Saharan Africa, and East Asia).",
+    "prompt": "The pie charts below show the percentage distribution of water usage across domestic, agricultural, and industrial sectors in three regions of the world (North America, Sub-Saharan Africa, and East Asia). Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The pie charts below show the percentage distribution of water usage across domestic, agricultural, and industrial sectors in three regions of the world (North America, Sub-Saharan Africa, and East Asia).",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_05_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_05_t2",
+   "source": "test",
+   "testId": "wt_05",
+   "task": 2,
+   "type": "two_part",
+   "title": "Personality tests in hiring",
+   "prompt": "Many multinational companies now require job applicants to take personality assessments and psychological profiling tests before extending employment offers. What are the primary factors driving this hiring trend? What impact does this practice have on job seekers? ​\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_05_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_05",
+    "number": 5,
+    "type": "two_part",
+    "typeLabel": "Two-part question",
+    "title": "Personality tests in hiring",
+    "question": "Many multinational companies now require job applicants to take personality assessments and psychological profiling tests before extending employment offers. What are the primary factors driving this hiring trend? What impact does this practice have on job seekers? ​",
+    "prompt": "Many multinational companies now require job applicants to take personality assessments and psychological profiling tests before extending employment offers. What are the primary factors driving this hiring trend? What impact does this practice have on job seekers? ​\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "Many multinational companies now require job applicants to take personality assessments and psychological profiling tests before extending employment offers. What are the primary factors driving this hiring trend? What impact does this practice have on job seekers? ​",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_06_t1",
+   "source": "test",
+   "testId": "wt_06",
+   "task": 1,
+   "type": "bar",
+   "title": "Weekly working hours by gender in five sectors, 2022",
+   "prompt": "The bar chart below shows the total number of hours worked per week by male and female employees in five different industrial sectors in a South European country in 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_06_task1.jpg",
+   "data": {
+    "id": "wt_06_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_06",
+    "number": 6,
+    "type": "bar",
+    "typeLabel": "Bar chart",
+    "title": "Weekly working hours by gender in five sectors, 2022",
+    "statement": "The bar chart below shows the total number of hours worked per week by male and female employees in five different industrial sectors in a South European country in 2022.",
+    "prompt": "The bar chart below shows the total number of hours worked per week by male and female employees in five different industrial sectors in a South European country in 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The bar chart below shows the total number of hours worked per week by male and female employees in five different industrial sectors in a South European country in 2022.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_06_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_06_t2",
+   "source": "test",
+   "testId": "wt_06",
+   "task": 2,
+   "type": "discussion",
+   "title": "Universal basic income",
+   "prompt": "Some people believe that governments should provide a guaranteed basic income (UBI) to every citizen, regardless of their employment status or wealth. Others argue that this would reduce work motivation and drain public finances. Discuss both views and give your opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_06_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_06",
+    "number": 6,
+    "type": "discussion",
+    "typeLabel": "Discussion",
+    "title": "Universal basic income",
+    "question": "Some people believe that governments should provide a guaranteed basic income (UBI) to every citizen, regardless of their employment status or wealth. Others argue that this would reduce work motivation and drain public finances. Discuss both views and give your opinion.",
+    "prompt": "Some people believe that governments should provide a guaranteed basic income (UBI) to every citizen, regardless of their employment status or wealth. Others argue that this would reduce work motivation and drain public finances. Discuss both views and give your opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "Some people believe that governments should provide a guaranteed basic income (UBI) to every citizen, regardless of their employment status or wealth. Others argue that this would reduce work motivation and drain public finances. Discuss both views and give your opinion.",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_07_t1",
+   "source": "test",
+   "testId": "wt_07",
+   "task": 1,
+   "type": "process",
+   "title": "Life cycle of the salmon",
+   "prompt": "The diagrams below illustrate the life cycle of the salmon, a species of migratory fish. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_07_task1.jpg",
+   "data": {
+    "id": "wt_07_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_07",
+    "number": 7,
+    "type": "process",
+    "typeLabel": "Diagram",
+    "title": "Life cycle of the salmon",
+    "statement": "The diagrams below illustrate the life cycle of the salmon, a species of migratory fish.",
+    "prompt": "The diagrams below illustrate the life cycle of the salmon, a species of migratory fish. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The diagrams below illustrate the life cycle of the salmon, a species of migratory fish.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_07_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_07_t2",
+   "source": "test",
+   "testId": "wt_07",
+   "task": 2,
+   "type": "two_part",
+   "title": "Rural depopulation",
+   "prompt": "In recent years, an increasing number of people are moving from small rural villages to mega-cities, leading to the rapid depopulation of countryside areas. What are the main causes of rural depopulation? What consequences does this demographic shift have for rural communities?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_07_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_07",
+    "number": 7,
+    "type": "two_part",
+    "typeLabel": "Two-part question",
+    "title": "Rural depopulation",
+    "question": "In recent years, an increasing number of people are moving from small rural villages to mega-cities, leading to the rapid depopulation of countryside areas. What are the main causes of rural depopulation? What consequences does this demographic shift have for rural communities?",
+    "prompt": "In recent years, an increasing number of people are moving from small rural villages to mega-cities, leading to the rapid depopulation of countryside areas. What are the main causes of rural depopulation? What consequences does this demographic shift have for rural communities?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "In recent years, an increasing number of people are moving from small rural villages to mega-cities, leading to the rapid depopulation of countryside areas. What are the main causes of rural depopulation? What consequences does this demographic shift have for rural communities?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_08_t1",
+   "source": "test",
+   "testId": "wt_08",
+   "task": 1,
+   "type": "mixed",
+   "title": "Internet access and online shopping spending in three South-East Asian nations, 2015–2023",
+   "prompt": "The table and line graph below give information about internet access rates and online shopping expenditures in three South-East Asian nations between 2015 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_08_task1.jpg",
+   "data": {
+    "id": "wt_08_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_08",
+    "number": 8,
+    "type": "mixed",
+    "typeLabel": "Mixed charts",
+    "title": "Internet access and online shopping spending in three South-East Asian nations, 2015–2023",
+    "statement": "The table and line graph below give information about internet access rates and online shopping expenditures in three South-East Asian nations between 2015 and 2023.",
+    "prompt": "The table and line graph below give information about internet access rates and online shopping expenditures in three South-East Asian nations between 2015 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The table and line graph below give information about internet access rates and online shopping expenditures in three South-East Asian nations between 2015 and 2023.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_08_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_08_t2",
+   "source": "test",
+   "testId": "wt_08",
+   "task": 2,
+   "type": "advantages",
+   "title": "Remote work",
+   "prompt": "In many professional industries, working remotely from home using internet technologies has become the norm rather than commuting to a central office building. To what extent do you agree or disagree that the benefits of remote work outweigh its disadvantages for workers and employers?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_08_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_08",
+    "number": 8,
+    "type": "advantages",
+    "typeLabel": "Advantages & disadvantages",
+    "title": "Remote work",
+    "question": "In many professional industries, working remotely from home using internet technologies has become the norm rather than commuting to a central office building. To what extent do you agree or disagree that the benefits of remote work outweigh its disadvantages for workers and employers?",
+    "prompt": "In many professional industries, working remotely from home using internet technologies has become the norm rather than commuting to a central office building. To what extent do you agree or disagree that the benefits of remote work outweigh its disadvantages for workers and employers?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "In many professional industries, working remotely from home using internet technologies has become the norm rather than commuting to a central office building. To what extent do you agree or disagree that the benefits of remote work outweigh its disadvantages for workers and employers?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_09_t1",
+   "source": "test",
+   "testId": "wt_09",
+   "task": 1,
+   "type": "map",
+   "title": "Norbury town in 1970 and planned redevelopment for 2030",
+   "prompt": "The maps below show the town of Norbury as it was in 1970 and the proposed redevelopment plans for 2030. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_09_task1.jpg",
+   "data": {
+    "id": "wt_09_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_09",
+    "number": 9,
+    "type": "map",
+    "typeLabel": "Maps",
+    "title": "Norbury town in 1970 and planned redevelopment for 2030",
+    "statement": "The maps below show the town of Norbury as it was in 1970 and the proposed redevelopment plans for 2030.",
+    "prompt": "The maps below show the town of Norbury as it was in 1970 and the proposed redevelopment plans for 2030. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The maps below show the town of Norbury as it was in 1970 and the proposed redevelopment plans for 2030.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_09_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_09_t2",
+   "source": "test",
+   "testId": "wt_09",
+   "task": 2,
+   "type": "problem",
+   "title": "Plastic packaging",
+   "prompt": "Excessive plastic packaging in supermarket goods has led to severe global environmental pollution. What are the primary reasons why manufacturers continue to use plastic packaging, and what effective measures can be taken to reduce its use?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_09_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_09",
+    "number": 9,
+    "type": "problem",
+    "typeLabel": "Causes & solutions",
+    "title": "Plastic packaging",
+    "question": "Excessive plastic packaging in supermarket goods has led to severe global environmental pollution. What are the primary reasons why manufacturers continue to use plastic packaging, and what effective measures can be taken to reduce its use?",
+    "prompt": "Excessive plastic packaging in supermarket goods has led to severe global environmental pollution. What are the primary reasons why manufacturers continue to use plastic packaging, and what effective measures can be taken to reduce its use?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "Excessive plastic packaging in supermarket goods has led to severe global environmental pollution. What are the primary reasons why manufacturers continue to use plastic packaging, and what effective measures can be taken to reduce its use?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_10_t1",
+   "source": "test",
+   "testId": "wt_10",
+   "task": 1,
+   "type": "mixed",
+   "title": "Global freshwater use by activity and agricultural use by crop",
+   "prompt": "The pie chart below illustrates the proportion of global freshwater used across different human activities, and the bar chart shows the breakdown of agricultural water use by crop type. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_10_task1.jpg",
+   "data": {
+    "id": "wt_10_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_10",
+    "number": 10,
+    "type": "mixed",
+    "typeLabel": "Mixed charts",
+    "title": "Global freshwater use by activity and agricultural use by crop",
+    "statement": "The pie chart below illustrates the proportion of global freshwater used across different human activities, and the bar chart shows the breakdown of agricultural water use by crop type.",
+    "prompt": "The pie chart below illustrates the proportion of global freshwater used across different human activities, and the bar chart shows the breakdown of agricultural water use by crop type. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The pie chart below illustrates the proportion of global freshwater used across different human activities, and the bar chart shows the breakdown of agricultural water use by crop type.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_10_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_10_t2",
+   "source": "test",
+   "testId": "wt_10",
+   "task": 2,
+   "type": "two_part",
+   "title": "Private healthcare",
+   "prompt": "In many parts of the world, people are relying more on private healthcare services rather than national public health systems. Why is this shift occurring? Is this a positive or negative development for society?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_10_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_10",
+    "number": 10,
+    "type": "two_part",
+    "typeLabel": "Two-part question",
+    "title": "Private healthcare",
+    "question": "In many parts of the world, people are relying more on private healthcare services rather than national public health systems. Why is this shift occurring? Is this a positive or negative development for society?",
+    "prompt": "In many parts of the world, people are relying more on private healthcare services rather than national public health systems. Why is this shift occurring? Is this a positive or negative development for society?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "In many parts of the world, people are relying more on private healthcare services rather than national public health systems. Why is this shift occurring? Is this a positive or negative development for society?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  }
+ ]
+}

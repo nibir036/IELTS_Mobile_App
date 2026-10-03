@@ -1,0 +1,882 @@
+[
+ {
+  "id": "t1_bar",
+  "title": "পর্ব খ — Bar / Column Graph",
+  "blocks": [
+   [
+    "p",
+    "Line graph-এ যা শিখেছেন — চার paragraph-এর ছাঁচ, introduction-এর দুই পদ্ধতি, সংখ্যার ভাষা — সবই এখানে একই। যা বদলায় তা হল: graph-এর গল্পটা কীভাবে খুঁজবেন এবং body কীভাবে সাজাবেন। প্রতিটি type-এ একটা করে পূর্ণ উদাহরণ graph-সহ।"
+   ],
+   [
+    "h",
+    "Bar / Column Graph — ধাপে ধাপে"
+   ],
+   [
+    "h2",
+    "প্রথম প্রশ্ন: horizontal axis-এ সময় না category?"
+   ],
+   [
+    "table",
+    [
+     "Axis-এ কী আছে",
+     "কীভাবে দেখবেন",
+     "ভাষা"
+    ],
+    [
+     [
+      "সময় (সাল, মাস)",
+      "Line graph-এর মতো — trend, বাড়া-কমা",
+      "rose, fell, peaked (Line graph অধ্যায়)"
+     ],
+     [
+      "Category (দেশ, কাজ, বয়স)",
+      "তুলনা — সবচেয়ে বেশি, কম, ক্রম, ব্যবধান",
+      "higher / lower than, the most, followed by"
+     ],
+     [
+      "Grouped bar (category × সাল)",
+      "দুটোই — category তুলনা + প্রতিটি কীভাবে বদলাল",
+      "দুই সেটই"
+     ]
+    ]
+   ],
+   [
+    "note",
+    "⚠ Category-র bar \"rise\" বা \"fall\" করে না। সময় না থাকলে rose/fell লিখলে examiner ধরে নেন আপনি graph বোঝেননি। লিখুন: X is higher than Y; X has the largest share।"
+   ],
+   [
+    "h2",
+    "উদাহরণ ১ — সাধারণ bar (শুধু category)"
+   ],
+   [
+    "ex",
+    "The bar chart shows the amount of coffee consumed per person in five countries in 2022."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p032_1.png",
+    "Coffee consumption per person, 2022"
+   ],
+   [
+    "h2",
+    "ধাপ ১–৩ · বোঝা ও দাগানো"
+   ],
+   [
+    "ul",
+    [
+     "Unit: kg per person per year। সময়: একটাই সাল (2022) — তাই trend নয়, তুলনা; tense: past (2022) বা present — দুটোই চলে, তবে একটাতে থাকুন।",
+     "সবচেয়ে বেশি: Finland (12); সবচেয়ে কম: Japan (3.6)। Finland জাপানের তিন গুণের বেশি।",
+     "দুই দল দেখা যাচ্ছে: দুই Nordic দেশ অনেক ওপরে (12, 9.9); বাকি তিনটা ৬-এর নিচে।"
+    ]
+   ],
+   [
+    "h2",
+    "ধাপ ৪ · Introduction"
+   ],
+   [
+    "model",
+    "The bar chart compares how much coffee people in five countries drank per head in 2022, measured in kilograms per year."
+   ],
+   [
+    "h2",
+    "ধাপ ৫ · Overview"
+   ],
+   [
+    "model",
+    "Overall, the two Nordic countries consumed far more coffee than the other three, with Finland well ahead of every other nation and Japan at the bottom of the list."
+   ],
+   [
+    "h2",
+    "ধাপ ৬ · Body"
+   ],
+   [
+    "p",
+    "Category graph-এ body সাজান দল অনুযায়ী: para 1 = ওপরের দল, para 2 = বাকিরা। প্রতিটি দলে ক্রম ও ব্যবধান বলুন।"
+   ],
+   [
+    "model",
+    "Finland recorded the highest consumption by a clear margin, at 12 kg per person, followed by Norway with just under 10 kg. Between them, these two countries drank roughly twice as much coffee per head as any of the others.\n\nThe remaining three countries formed a distinct lower group. Brazil, despite being a major coffee producer, consumed 6.1 kg per person, about half the Finnish figure. The United States came next at 4.7 kg, while Japan had the lowest consumption of all, at 3.6 kg, less than a third of the amount in Finland."
+   ],
+   [
+    "p",
+    "(এখানে \"despite being a major coffee producer\" — এটা সাধারণ জ্ঞান, graph-এ নেই; Band 7 লেখকরাও মাঝে মাঝে এমন লিখে ফেলেন। নিরাপদ থাকতে চাইলে বাদ দিন।)"
+   ],
+   [
+    "h2",
+    "উদাহরণ ২ — grouped bar (category × দুই সাল)"
+   ],
+   [
+    "ex",
+    "The chart shows how people in the city of Riverton travelled to work in 2000 and 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p033_1.png",
+    "How people travelled to work in Riverton, 2000 and 2020"
+   ],
+   [
+    "h2",
+    "ধাপ ১–৩ · বোঝা ও দাগানো"
+   ],
+   [
+    "ul",
+    [
+     "Unit: শতাংশ (commuter-দের)। দুটো সাল → past tense, এবং দুই দিকের তুলনা: (ক) একই সালে mode-গুলোর মধ্যে, (খ) একই mode-এর দুই সালের মধ্যে।",
+     "Car দুই সালেই সবচেয়ে বড়, কিন্তু অনেক কমেছে (55 → 40)। Bus-ও কমেছে (25 → 20)।",
+     "Train দ্বিগুণের বেশি (10 → 22), bicycle তিন গুণ (4 → 12)। Walking অপরিবর্তিত (6)।",
+     "গল্প: শহর private car থেকে সরে গেছে।"
+    ]
+   ],
+   [
+    "h2",
+    "ধাপ ৪ · Introduction"
+   ],
+   [
+    "model",
+    "The bar chart compares the percentage of commuters in Riverton who used five different methods of transport to get to work in 2000 and in 2020."
+   ],
+   [
+    "h2",
+    "ধাপ ৫ · Overview"
+   ],
+   [
+    "model",
+    "Overall, the car remained the most popular way to travel to work in both years, but its share fell noticeably, while rail and cycling became far more common. Walking was the only mode that showed no change."
+   ],
+   [
+    "h2",
+    "ধাপ ৬ · Body — \"যারা কমল\" ও \"যারা বাড়ল\""
+   ],
+   [
+    "model",
+    "In 2000, more than half of commuters (55%) drove to work, and a further quarter took the bus. By 2020 both of these figures had fallen, the car to 40% and the bus to 20%, although the car was still the leading choice.\n\nIn contrast, the share of people travelling by train or metro more than doubled, from 10% to 22%, making it the second most common mode in 2020. Cycling grew even faster in relative terms, tripling from 4% to 12%. Walking, meanwhile, stayed constant at 6% in both years."
+   ],
+   [
+    "h",
+    "Bar graph-এর ভাষা"
+   ],
+   [
+    "table",
+    [
+     "কাজ",
+     "শব্দ / phrase"
+    ],
+    [
+     [
+      "ক্রম",
+      "the most / least popular · the largest / smallest share · the highest / lowest figure · in first / second place · followed by · at the bottom · the only category to …"
+     ],
+     [
+      "অনুপাত",
+      "accounted for · made up · represented · a quarter / a third / half of · one in five"
+     ],
+     [
+      "পরিবর্তন (grouped)",
+      "more than doubled · tripled · halved · fell by … percentage points · in relative terms · by comparison · the reverse was true for"
+     ],
+     [
+      "তুলনা",
+      "far higher than · slightly lower than · roughly the same as · twice as … as · X times more than · compared with · whereas · while"
+     ]
+    ]
+   ],
+   [
+    "note",
+    "**Bar graph-এ common ভুল:** (১) bar-গুলো বাম থেকে ডানে এক এক করে বর্ণনা — বদলে দল করুন: বড়রা, ছোটরা, যারা বদলাল। (২) সময় নেই এমন chart-এ increased/decreased। (৩) unit ভুলে যাওয়া (শতাংশ? সংখ্যা? হাজারে?)।"
+   ]
+  ]
+ },
+ {
+  "id": "t1_table",
+  "title": "Table — ধাপে ধাপে",
+  "blocks": [
+   [
+    "p",
+    "Table দেখতে সহজ, কিন্তু প্রায়ই সবচেয়ে কঠিন type — কারণ trend-টা সংখ্যার ভেতরে লুকিয়ে থাকে, graph-এর মতো চোখে পড়ে না। আপনাকে নিজে খুঁজে বের করতে হবে।"
+   ],
+   [
+    "h2",
+    "Table পড়ার পদ্ধতি (২ মিনিট)"
+   ],
+   [
+    "ul",
+    [
+     "Title, row label, column label, unit পড়ুন।",
+     "প্রতিটি row বামে থেকে ডানে দেখুন: বাড়ছে, কমছে, না একই?",
+     "প্রতিটি column ওপর থেকে নিচে দেখুন: কোন row সবচেয়ে বেশি, কোনটা কম?",
+     "দাগ দিন: সবচেয়ে বড় সংখ্যা, সবচেয়ে ছোট সংখ্যা, total (থাকলে), আর যে row/column অন্যদের মতো আচরণ করছে না।",
+     "দল ঠিক করুন: যে row-গুলো একই রকম আচরণ করে, তারা একই paragraph-এ।"
+    ]
+   ],
+   [
+    "ex",
+    "The table shows the number of international students (in thousands) studying in four countries in 2010, 2015 and 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p035_1.png",
+    "International students by host country (thousands)"
+   ],
+   [
+    "h2",
+    "ধাপ ১–৩ · দাগানো"
+   ],
+   [
+    "img",
+    "assets/writing/guide/p035_2.png",
+    "Marked: red = highest, green = lowest, yellow = exceptions"
+   ],
+   [
+    "p",
+    "দাগানো table: লাল = সর্বোচ্চ, সবুজ = সর্বনিম্ন, হলুদ = ব্যতিক্রম"
+   ],
+   [
+    "ul",
+    [
+     "USA সব সময় সবচেয়ে বড়, এবং বেড়েছে (690 → 1,075) — ২০২০-এ দশ লাখ পার।",
+     "UK ধীরে বেড়েছে (400 → 550)।",
+     "Australia একমাত্র দেশ যেখানে কমেছে (330 → 290), তারপর জোরে বেড়েছে (460)।",
+     "Canada শুরুতে সবচেয়ে ছোট (95), কিন্তু পাঁচ গুণের বেশি বেড়ে (530) প্রায় UK-র সমান।",
+     "সবগুলোই ২০২০-এ ২০১০-এর চেয়ে বেশি।"
+    ]
+   ],
+   [
+    "h2",
+    "ধাপ ৪ · Introduction"
+   ],
+   [
+    "model",
+    "The table gives the number of overseas students, in thousands, enrolled in the USA, the UK, Australia and Canada at five-year intervals between 2010 and 2020."
+   ],
+   [
+    "h2",
+    "ধাপ ৫ · Overview"
+   ],
+   [
+    "model",
+    "Overall, all four countries hosted more international students at the end of the decade than at the start. The USA remained by far the largest destination throughout, while Canada, though the smallest in 2010, showed the fastest growth of all."
+   ],
+   [
+    "h2",
+    "ধাপ ৬ · Body — আচরণ অনুযায়ী দল"
+   ],
+   [
+    "p",
+    "Para 1 = দুই বড়, স্থির-বৃদ্ধির দেশ (USA, UK)। Para 2 = যে দুটো pattern ভেঙেছে (Australia, Canada)।"
+   ],
+   [
+    "model",
+    "The USA attracted 690,000 foreign students in 2010, already more than the other three countries combined. This figure climbed to 975,000 in 2015 and passed one million (1,075,000) by 2020. The UK, in second place, grew more slowly, from 400,000 to 430,000 and then to 550,000.\n\nAustralia was the only country whose numbers fell, dropping from 330,000 to 290,000 between 2010 and 2015, before recovering strongly to 460,000. Canada, meanwhile, recorded the most dramatic rise: its total of just 95,000 in 2010 nearly doubled to 170,000 by 2015 and then tripled again to 530,000, almost level with the UK."
+   ],
+   [
+    "h",
+    "Table-এর কৌশল"
+   ],
+   [
+    "ul",
+    [
+     "সংখ্যাকে সম্পর্কে রূপান্তর করুন: more than the other three combined · nearly doubled · almost level with · five times larger।",
+     "ছোট table (৪×৩ = ১২ সংখ্যা) হলে প্রায় সব সংখ্যা লাগবে; বড় table (৬×৫ = ৩০) হলে ৮–১০টা।",
+     "যা pattern-এর সাথে মেলে না সেটা বলুন (the only country whose numbers fell) — ব্যতিক্রম সবসময় \"main feature\"।",
+     "Row-এর ক্রমে (ওপর থেকে নিচে) লিখবেন না — আচরণের ক্রমে লিখুন।"
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "t1_pie",
+  "title": "Pie Chart — ধাপে ধাপে",
+  "blocks": [
+   [
+    "p",
+    "Pie chart দেখায় পুরোটার অংশ (parts of a whole)। তাই এখানে ভাষা trend-এর নয়, অনুপাতের (proportion)।"
+   ],
+   [
+    "h2",
+    "অনুপাতের ভাষা"
+   ],
+   [
+    "table",
+    [
+     "কাজ",
+     "phrase"
+    ],
+    [
+     [
+      "অংশ বলা",
+      "X accounts for / makes up / represents / constitutes 40% of the total · X takes up a quarter"
+     ],
+     [
+      "ক্রম",
+      "the largest / smallest segment / share / proportion / category · the dominant use · a negligible 2%"
+     ],
+     [
+      "ভগ্নাংশ",
+      "half · just over / under half · a third · roughly a quarter · three-quarters · one in five · one in ten"
+     ],
+     [
+      "বাকিটা",
+      "the remaining 15% · the rest · together, A and B make up two-thirds · A and B combined"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "একটা pie chart"
+   ],
+   [
+    "ex",
+    "The pie chart shows the composition of household waste in one city."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p037_1.png",
+    "Composition of household waste in one city"
+   ],
+   [
+    "p",
+    "একটা মাত্র pie হলে: বড় অংশ থেকে ছোট অংশে যান, ছোটগুলো একসাথে করুন। Overview = কোন অংশ(গুলো) প্রধান। সময় নেই, তাই present tense।"
+   ],
+   [
+    "model",
+    "The pie chart shows what proportion of the waste produced by households in one city falls into each of six categories.\n\nOverall, food is by far the largest component, and food and paper together make up more than half of all household waste, whereas garden waste and miscellaneous items form only a small fraction.\n\nFood waste accounts for just over a third of the total (34%), and paper and cardboard for a further 22%. These two categories combined therefore represent 56% of everything that households throw away. Plastics are the third largest category, at 18%, or almost one in five items.\n\nThe remaining three categories are considerably smaller. Glass and metal together make up 12%, garden waste 9%, and other materials just 5%, the smallest share on the chart. In total, these three account for roughly a quarter of household waste."
+   ],
+   [
+    "p",
+    "(১৬০ শব্দ। লক্ষ করুন: rose/fell একটাও নেই; প্রতিটি সংখ্যার পাশে ভগ্নাংশ বা তুলনা আছে।)"
+   ],
+   [
+    "h2",
+    "দুই বা তার বেশি pie chart — পরীক্ষায় যেটা বেশি আসে"
+   ],
+   [
+    "p",
+    "সাধারণত একই জিনিস দুই সালে বা দুই জায়গায়। তখন পুরো task-টাই হল একই segment-কে দুই pie-তে তুলনা করা। Pie 1 পুরো বর্ণনা, তারপর pie 2 পুরো বর্ণনা — এটা classic Band 5 উত্তর, কারণ তাতে কোনো তুলনা নেই।"
+   ],
+   [
+    "ex",
+    "The charts show how adults in one country spent their time online in 2015 and 2023."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p038_1.png",
+    "How adults spent their time online"
+   ],
+   [
+    "h2",
+    "ধাপ ১–৩ · দাগানো"
+   ],
+   [
+    "ul",
+    [
+     "Entertainment (social media, video) অনেক বেড়েছে; information ও work-এর ব্যবহার অনেক কমেছে।",
+     "সবচেয়ে বড় segment বদলে গেছে: ২০১৫-তে news (30%), ২০২৩-এ social media (40%)।",
+     "Shopping সামান্য বেড়েছে (10 → 15)।"
+    ]
+   ],
+   [
+    "h2",
+    "ধাপ ৪ · Introduction"
+   ],
+   [
+    "model",
+    "The two pie charts compare the proportion of online time that adults in one country devoted to five activities in 2015 and 2023."
+   ],
+   [
+    "h2",
+    "ধাপ ৫ · Overview"
+   ],
+   [
+    "model",
+    "Overall, internet use shifted strongly from information and work towards entertainment. Social media replaced news as the largest single activity, and together with video streaming it came to account for almost two-thirds of all online time by 2023."
+   ],
+   [
+    "h2",
+    "ধাপ ৬ · Body — \"যা বাড়ল\" ও \"যা কমল\""
+   ],
+   [
+    "model",
+    "In 2015 social media took up a quarter of people's time online, but by 2023 this had risen to 40%, the largest share on either chart. Video streaming showed a similar pattern, growing from 15% to a quarter, and online shopping increased more modestly, from 10% to 15%.\n\nThe two remaining categories moved in the opposite direction. Reading news and looking for information, which had been the biggest activity in 2015 at 30%, fell to just 12% eight years later. The decline in email and work-related use was even steeper in relative terms, from a fifth of online time to only 8%."
+   ],
+   [
+    "note",
+    "**Pie chart-এ common ভুল:**\n▸ \"The pie chart increased\" — pie বাড়ে না; **segment**-এর **share** বাড়ে।\n▸ \"which was 100%\" বলা বা segment যোগ করে total প্রমাণ করা।\n▸ একটা pie-তে (সময়-তুলনা ছাড়া) rose/fell — লিখুন is the largest, accounts for।\n▸ Percentage point: 25% → 40% হল \"a rise of 15 percentage points\", \"15 percent\" নয়।\n▸ একটা pie পুরো, তারপর আরেকটা পুরো — সবসময় segment ধরে ধরে দুই pie-র তুলনা।"
+   ]
+  ]
+ },
+ {
+  "id": "t1_combination",
+  "title": "Combination — দুটো ভিন্ন visual একসাথে",
+  "blocks": [
+   [
+    "p",
+    "মাঝে মাঝে দুটো visual দেয়া হয় — যেমন একটা bar chart (মোট সংখ্যা) আর একটা pie chart (কোনো এক সালের ভাগ), বা map + table। নিয়ম:"
+   ],
+   [
+    "ul",
+    [
+     "Introduction দুটো visual-কেই cover করবে, এক বা দুই বাক্যে।",
+     "Overview-তে প্রতিটি visual থেকে একটা করে main point।",
+     "প্রতিটি visual-এর জন্য একটা body paragraph। তুলনা করবেন একই visual-এর ভেতরে; দুই visual-এর মধ্যে তুলনা নয় — যদি না প্রশ্ন নিজেই তাদের জোড়ে (যেমন pie-টা bar-এর শেষ সালের ভাগ — তখন জোড়া যায়)।",
+     "দুটোকে মোটামুটি সমান শব্দ দিন। অনেকে প্রথম visual-এ সব খরচ করে দ্বিতীয়টায় দুই লাইন লেখেন।"
+    ]
+   ],
+   [
+    "ex",
+    "The bar chart shows the number of visitors to the National Science Museum from 2015 to 2020, and the pie chart shows where these visitors came from in 2020."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p040_1.png",
+    "Visitors to the National Science Museum · Where 2020 visitors came from"
+   ],
+   [
+    "h2",
+    "ধাপ ১–৩"
+   ],
+   [
+    "ul",
+    [
+     "Bar: পাঁচ বছর টানা বেড়েছে (420 → 600), তারপর ২০২০-এ ধস (210 — ২০১৯-এর এক-তৃতীয়াংশ)।",
+     "Pie: ২০২০-এর দর্শকের ৫৫% স্থানীয়, ৩০% দেশের অন্য জায়গা, ১৫% বিদেশি → ৮৫% দেশি।",
+     "দুটো visual জোড়া আছে (pie = ২০২০-এর bar), তাই \"of those 210,000…\" বলা যায়।"
+    ]
+   ],
+   [
+    "h2",
+    "পুরো উত্তর (172 words)"
+   ],
+   [
+    "model",
+    "The bar chart records annual attendance at the National Science Museum from 2015 to 2020, while the pie chart shows the breakdown of the 2020 audience by place of origin.\n\nOverall, five consecutive years of growth were abruptly reversed in 2020, when visitor numbers fell to their lowest level of the period. That diminished audience was overwhelmingly domestic, with residents of the host city alone accounting for more than half of all visits.\n\nAttendance rose without interruption from 420,000 in 2015 to 600,000 in 2019, a cumulative increase of 43%. Growth was most rapid in the middle of the period, with gains of around 50,000 to 60,000 a year in 2017 and 2018, before slowing slightly in 2019. The following year saw a dramatic collapse to 210,000, roughly a third of the 2019 peak and half the 2015 starting figure.\n\nOf these visitors, 55% were local and a further 30% travelled from other parts of the country, meaning that domestic visitors made up 85% of the total. International tourists represented the remaining 15%, equivalent to a little over 30,000 people."
+   ],
+   [
+    "p",
+    "লক্ষ করুন শেষ paragraph: 15% × 210,000 ≈ 31,500 — দুটো visual-কে সঠিকভাবে জোড়া হয়েছে কারণ pie-টা ওই সালেরই। কিন্তু \"Local visitors increased\" লেখা যেত না — ২০১৫-র pie নেই, তাই তুলনার তথ্য নেই। Chart-এ যা নেই তা কখনো লিখবেন না; আর \"probably because of the pandemic\" — সেটা opinion, নিষিদ্ধ।"
+   ],
+   [
+    "h",
+    "Bar · Table · Pie · Combination checklist"
+   ],
+   [
+    "ul",
+    [
+     "ঠিক করেছি: তুলনা না trend (না দুটোই)?",
+     "লেখার আগে সর্বোচ্চ, সর্বনিম্ন, সবচেয়ে বড় পরিবর্তন ও ব্যতিক্রম দাগিয়েছি।",
+     "Overview-তে leader ও main pattern, সংখ্যা ছাড়া।",
+     "Data সাজিয়েছি আচরণ অনুযায়ী, পড়ার ক্রমে নয়।",
+     "যেখানে সম্ভব সংখ্যাকে সম্পর্কে বলেছি (double, a third, level with)।",
+     "Pie: segment ধরে ধরে pie-গুলোর তুলনা; proportion-এর শব্দ; rose/fell শুধু সময়-তুলনায়।",
+     "Combination: প্রতিটি visual-এর নিজের paragraph; cross-comparison শুধু প্রশ্নে জোড়া থাকলে; শব্দ সমান ভাগ।",
+     "কোনো opinion নেই, chart-এর বাইরের তথ্য নেই।"
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "t1_process",
+  "title": "পর্ব গ — Flow Chart (Process) · Cycle · Diagram",
+  "blocks": [
+   [
+    "p",
+    "এই type-গুলোতে কোনো সংখ্যা নেই। তাই trend-ও নেই। এখানে বর্ণনা করবেন ধাপ (process), যন্ত্রাংশ ও তাদের সম্পর্ক (diagram), বা জায়গার পরিবর্তন (map)। Paragraph-এর ছাঁচ একই: introduction → overview → দুটো body।"
+   ],
+   [
+    "h",
+    "Flow Chart / Process — ধাপে ধাপে"
+   ],
+   [
+    "h2",
+    "প্রথমে কী দেখবেন"
+   ],
+   [
+    "ul",
+    [
+     "ধাপ (stage) কয়টা? শুরু কোথায়, শেষ কোথায়?",
+     "Linear (শুরু → শেষ) না cycle (শেষটা আবার শুরুতে ফেরে)?",
+     "Man-made (কারখানার process) না natural (বৃষ্টিচক্র, প্রাণীর জীবনচক্র)?",
+     "স্পষ্ট ভাগ (segment) আছে? থাকলে প্রতিটি ভাগ একটা body paragraph।",
+     "কোন label-গুলো noun, যেগুলোকে verb বানাতে হবে? (\"crushing\" → is crushed)"
+    ]
+   ],
+   [
+    "h2",
+    "ভাষা"
+   ],
+   [
+    "table",
+    [
+     "বিষয়",
+     "নিয়ম / শব্দ"
+    ],
+    [
+     [
+      "Tense",
+      "Present simple (সাধারণত সাল থাকে না)।"
+     ],
+     [
+      "Voice",
+      "Man-made process → passive (the beans are roasted)। Natural process → active (water evaporates)।"
+     ],
+     [
+      "Sequencer",
+      "First / To begin with · Next · Then · After that · Once this is complete · At the following stage · Subsequently · Meanwhile · In the final stage · Finally"
+     ],
+     [
+      "Process verb",
+      "is collected, sorted, cleaned, washed, mixed, heated, cooled, pressed, dried, cut, packed, transported, stored, filtered, separated · is converted into · passes through · is fed into · is removed / added"
+     ],
+     [
+      "Purpose",
+      "in order to · so that · which allows / enables … to …"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "উদাহরণ — linear, man-made"
+   ],
+   [
+    "ex",
+    "The diagram shows how olive oil is produced."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p043_1.png",
+    "How olive oil is produced"
+   ],
+   [
+    "h2",
+    "ধাপ ১–৩ · বোঝা"
+   ],
+   [
+    "ul",
+    [
+     "৯টা ধাপ, linear (harvesting → bottling), man-made, তাই passive + present।",
+     "স্বাভাবিক ভাগ: ধাপ ১–৫ = olive তৈরি ও গুঁড়ো করা; ধাপ ৬–৯ = তেল আলাদা করা ও প্যাক করা। → দুই body paragraph।",
+     "Label থেকে verb: harvesting → are harvested; washing → are washed; crushing → are crushed; mixing → is stirred; bottling → is bottled।"
+    ]
+   ],
+   [
+    "h2",
+    "ধাপ ৪ · Introduction"
+   ],
+   [
+    "p",
+    "Process-এর introduction-এ বলুন: কী তৈরি হয় / কীভাবে কাজ করে + কয়টা ধাপ।"
+   ],
+   [
+    "model",
+    "The diagram illustrates the nine stages involved in turning freshly picked olives into bottled olive oil."
+   ],
+   [
+    "h2",
+    "ধাপ ৫ · Overview"
+   ],
+   [
+    "p",
+    "Overview-তে: linear না cycle, natural না man-made, কয়টা মূল phase, শুরু ও শেষ কী।"
+   ],
+   [
+    "model",
+    "Overall, this is a linear, man-made process in three main phases: the olives are first cleaned, then crushed and mixed to release the oil, and finally the oil is separated, filtered and packaged."
+   ],
+   [
+    "h2",
+    "ধাপ ৬ · Body — arrow অনুসরণ করে"
+   ],
+   [
+    "model",
+    "The process begins when olives are harvested from the trees between October and December. Any leaves and twigs are removed, and the fruit is washed. The clean olives are then crushed into a thick paste, which is stirred slowly for about thirty minutes so that the tiny drops of oil combine into larger ones.\n\nNext, the paste is placed in a centrifuge, which spins it at high speed to separate the oil from the water and solid matter. The oil that comes out is filtered to remove any remaining particles and stored in stainless steel tanks. In the final stage, it is poured into bottles, ready for sale."
+   ],
+   [
+    "p",
+    "(১৬৩ শব্দ সহ intro/overview। লক্ষ করুন: প্রতিটি ধাপ passive; sequencer-এ বৈচিত্র্য — begins when, then, which, next, in the final stage; \"so that the tiny drops…\" — এটা diagram-এর label-এ থাকলে লেখা যায়, না থাকলে নয়।)"
+   ],
+   [
+    "note",
+    "**Process-এ common ভুল:**\n▸ Diagram-এ নেই এমন তথ্য যোগ করা (কত তাপমাত্রা, কত সময়) — label-এ থাকলে তবেই।\n▸ কোনো ধাপ কেন হয় তা ব্যাখ্যা করা, যদি diagram না বলে।\n▸ Trend-এর শব্দ (increase, decrease) — সংখ্যা নেই।\n▸ \"Then… Then… Then…\" — sequencer বদলান।\n▸ Overview বাদ দেয়া — ধাপের সংখ্যা, শুরু, শেষ, cycle কি না — এগুলো বলুন।"
+   ],
+   [
+    "h",
+    "Cycle — জীবনচক্র বা প্রাকৃতিক চক্র"
+   ],
+   [
+    "p",
+    "Cycle-এর আসল \"শুরু\" নেই। তাই একটা যুক্তিসঙ্গত starting point বেছে নিন (বৃষ্টিচক্রে evaporation; পোকার ক্ষেত্রে ডিম), স্পষ্ট বলুন এটা cycle, আর শেষ ধাপকে আবার প্রথম ধাপের সাথে জুড়ে দিন। Natural process → active voice, present simple।"
+   ],
+   [
+    "ex",
+    "The diagram shows the life cycle of a butterfly."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p045_1.png",
+    "Life cycle of a butterfly"
+   ],
+   [
+    "h2",
+    "পুরো উত্তর (158 words)"
+   ],
+   [
+    "model",
+    "The diagram illustrates the four stages in the life of a butterfly, from egg to adult.\n\nOverall, this is a natural, continuous cycle in which an egg develops through a feeding stage and a resting stage into an adult insect, which in turn produces new eggs, so the process never ends.\n\nThe cycle begins when an adult butterfly lays its eggs on the leaf of a plant. After a few days, a caterpillar hatches from each egg and spends the following two to three weeks eating leaves and growing rapidly. Once it is fully grown, the caterpillar attaches itself to a stem and forms a hard protective case known as a chrysalis.\n\nInside this case, over a period of roughly two weeks, the insect's body is completely transformed. Eventually an adult butterfly breaks out of the chrysalis. Finally, the adult finds a mate and lays eggs of its own on a fresh leaf, and the cycle begins again."
+   ],
+   [
+    "p",
+    "লক্ষ করুন: active voice (lays, hatches, spends, attaches, breaks out); \"and the cycle begins again\" দিয়ে শুরুতে ফেরা; সময়ের তথ্য (two to three weeks, two weeks) diagram-এর label থেকেই এসেছে।"
+   ],
+   [
+    "h",
+    "Diagram — কোনো কিছু কীভাবে কাজ করে"
+   ],
+   [
+    "p",
+    "Diagram দেখায় একটা যন্ত্র বা system-এর অংশগুলো এবং তারা কীভাবে যুক্ত। এটা process-এর মতোই, তবে ক্রমের সাথে অবস্থান (position)-ও বলতে হয়।"
+   ],
+   [
+    "h2",
+    "অংশ ও অবস্থানের ভাষা"
+   ],
+   [
+    "table",
+    [
+     "কাজ",
+     "phrase"
+    ],
+    [
+     [
+      "গঠন",
+      "consists of · is made up of · comprises · has three main parts"
+     ],
+     [
+      "সংযোগ",
+      "is attached to · is connected to · is linked to · is mounted on · is fitted with · runs from … to …"
+     ],
+     [
+      "অবস্থান",
+      "is located above / below / beside / inside / on top of · at the base of · to the left / right of · in the centre"
+     ],
+     [
+      "প্রবাহ",
+      "flows through · passes through · enters / exits at · is fed into · is pumped / carried / channelled to · rises / falls"
+     ],
+     [
+      "উদ্দেশ্য",
+      "which allows … to · so that · in order to · this prevents / ensures …"
+     ]
+    ]
+   ],
+   [
+    "ex",
+    "The diagram shows how a rainwater harvesting system works in a school."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p046_1.png",
+    "Rainwater harvesting system for a school"
+   ],
+   [
+    "h2",
+    "ধাপ ১–৩ · বোঝা"
+   ],
+   [
+    "ul",
+    [
+     "অংশ: roof → gutter → downpipe (leaf filter) → first-flush diverter → underground tank (10,000 L) → pump → overhead tank → toilets & garden taps; overflow pipe → drain।",
+     "পানির পথ ধরে ক্রম আছে, তাই process-এর মতো লিখব; সাথে কোথায় কী আছে (underground, overhead, on the roof)।",
+     "দুই body: (১) সংগ্রহ ও পরিশোধন (roof → tank), (২) সংরক্ষণ ও ব্যবহার (tank → taps)।"
+    ]
+   ],
+   [
+    "h2",
+    "পুরো উত্তর (170 words)"
+   ],
+   [
+    "model",
+    "The diagram illustrates the components of a rainwater collection system installed at a school and shows how rain falling on the roof is stored and reused.\n\nOverall, water is collected from the roof, cleaned in two stages, stored in an underground tank and then pumped to a rooftop tank, from which it supplies the school's toilets and garden taps.\n\nRain that lands on the sloping roof runs into a gutter along its edge and then down a vertical pipe fitted with a filter that catches leaves. Below this, a device known as a first-flush diverter sends the first, dirtiest water to the drain and allows the rest to continue into a 10,000-litre tank buried underground.\n\nWhen water is needed, an electric pump located beside the tank lifts it through a pipe to a smaller tank on the roof of the building. From there it flows by gravity to the toilets and the garden taps. If the underground tank becomes full, an overflow pipe carries the excess water to the drain."
+   ],
+   [
+    "p",
+    "যদি task-এ দুটো design থাকে (যেমন দুই রকম bridge বা দুই রকম foundation), প্রতিটি সংক্ষেপে বর্ণনা করে তারপর তুলনা করুন — পার্থক্যই তখন main feature।"
+   ]
+  ]
+ },
+ {
+  "id": "t1_map",
+  "title": "Map — ধাপে ধাপে",
+  "blocks": [
+   [
+    "h2",
+    "তিন রকম map task"
+   ],
+   [
+    "table",
+    [
+     "ধরন",
+     "কাজ",
+     "Tense"
+    ],
+    [
+     [
+      "একই জায়গা, দুই সময় (সবচেয়ে common)",
+      "পরিবর্তন বর্ণনা",
+      "Past (was built), বা present perfect (has been built) যদি দ্বিতীয় map \"today/now\""
+     ],
+     [
+      "এখনকার অবস্থা + প্রস্তাবিত পরিকল্পনা",
+      "এখন কী আছে, পরিকল্পনায় কী হবে",
+      "Present + future (will be / is to be / is going to be built)"
+     ],
+     [
+      "দুটো সম্ভাব্য জায়গা (site A, site B)",
+      "দুই site-এর feature তুলনা (দূরত্ব, যাতায়াত, আকার)",
+      "Present"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "কীভাবে কাজ করবেন"
+   ],
+   [
+    "ul",
+    [
+     "Compass খুঁজুন (সাধারণত ওপরে north)। এমন landmark খুঁজুন যা দুই map-এই আছে (নদী, main road) — দিক বলতে এগুলো লাগবে।",
+     "তালিকা করুন: কী হারিয়েছে, কী নতুন এসেছে, কী আকার বা ব্যবহার বদলেছে, কী অপরিবর্তিত।",
+     "পরিবর্তনগুলো দল করুন: এলাকা অনুযায়ী (উত্তর/দক্ষিণ, কেন্দ্র/প্রান্ত) বা ধরন অনুযায়ী (বাড়িঘর, যাতায়াত, সবুজ এলাকা)।",
+     "Overview = পরিবর্তনের সামগ্রিক চরিত্র: more built-up / larger / more modern / farmland turned into housing / expanded eastwards।"
+    ]
+   ],
+   [
+    "h",
+    "Map-এর ভাষা"
+   ],
+   [
+    "table",
+    [
+     "কাজ",
+     "শব্দ / phrase"
+    ],
+    [
+     [
+      "পরিবর্তনের verb (passive, past)",
+      "was built / constructed / added / extended / enlarged / expanded · was demolished / removed / knocked down / cleared / cut down · was replaced by / converted into / turned into / redeveloped as · was relocated / moved to"
+     ],
+     [
+      "অবস্থান",
+      "in the north-east corner · along the river / coast · on the western edge · on the outskirts · adjacent to · next to · opposite · in the centre · on the site of the old … · to the south of · running from north to south · across the road from"
+     ],
+     [
+      "অপরিবর্তিত",
+      "remained / was retained / was kept / stayed in place / was unchanged / still exists"
+     ],
+     [
+      "আকার",
+      "doubled in size · was reduced by half · now covers … · a much larger …"
+     ]
+    ]
+   ],
+   [
+    "h2",
+    "উদাহরণ — একই জায়গা, দুই সময়"
+   ],
+   [
+    "ex",
+    "The maps show the coastal town of Seabrook in 1980 and today."
+   ],
+   [
+    "img",
+    "assets/writing/guide/p049_1.png",
+    "Seabrook, 1980 · Seabrook, today"
+   ],
+   [
+    "h2",
+    "ধাপ ১–৩ · পরিবর্তনের তালিকা"
+   ],
+   [
+    "table",
+    [
+     "হারিয়েছে",
+     "নতুন",
+     "বদলেছে",
+     "অপরিবর্তিত"
+    ],
+    [
+     [
+      "farmland (দক্ষিণে); অর্ধেক forest",
+      "hotels (beach-এ); housing estate; shopping centre; ring road; golf course; ferry terminal",
+      "harbour বড় হয়েছে; school দ্বিগুণ",
+      "main road; houses; beach; বাকি forest"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "দল: (১) উপকূল ও harbour (পূর্ব/উত্তর-পূর্ব), (২) দক্ষিণ ও কেন্দ্র। Overview: ছোট মাছধরা গ্রাম → বড় tourist ও residential town; মূল রাস্তা ও পুরনো বাড়ি রয়ে গেছে।"
+   ],
+   [
+    "h2",
+    "পুরো উত্তর (186 words)"
+   ],
+   [
+    "model",
+    "The two maps show how the coastal town of Seabrook has developed since 1980.\n\nOverall, the town has grown from a small fishing settlement into a much larger tourist and residential centre. Most of the change has taken place along the coast and on the former farmland to the south, while the original main road and the houses beside it have been kept.\n\nThe greatest transformation is along the eastern shore. The beach, which in 1980 was undeveloped, is now lined with hotels, and the fishing harbour in the north-east has been extended to include a ferry terminal.\n\nSouth of the main road, the farmland has disappeared completely and has been replaced by a housing estate and a shopping centre, served by a new ring road that curves around the southern edge of the town. In the south-west, about half of the forest has been cut down to make way for a golf course. In the centre, the school has been enlarged to roughly twice its original size, but the original houses along the main road remain as they were."
+   ],
+   [
+    "p",
+    "লক্ষ করুন: (১) ১৯৮০-র map আলাদা করে বর্ণনা করা হয়নি — শুধু পরিবর্তন; (২) প্রতিটি বাক্যে দিক (eastern shore, north-east, south of, south-west, in the centre); (৩) \"today\" বলে present perfect (has been extended, has disappeared); (৪) অপরিবর্তিত জিনিসও বলা হয়েছে।"
+   ],
+   [
+    "note",
+    "**Map-এ common ভুল:**\n▸ Map 1 পুরো, তারপর map 2 পুরো — এটা দুটো inventory, তুলনা নয়।\n▸ Tense: অতীতের map → past; পরিকল্পনা → future (will be built / is to be built)।\n▸ দিক না বলা — \"there is a school and a road\" পড়ে reader কিছুই বোঝে না।\n▸ অপরিবর্তিত জিনিস ভুলে যাওয়া — \"কী একই আছে\" overview-র অংশ।\n▸ \"The town developed because tourists came\" — কারণ chart-এ নেই; opinion।"
+   ],
+   [
+    "h",
+    "Process · Cycle · Diagram · Map checklist"
+   ],
+   [
+    "ul",
+    [
+     "Process: ধাপের সংখ্যা, শুরু ও শেষ, linear/cycle — overview-তে।",
+     "Process: present simple; man-made → passive, natural → active; sequencer-এ বৈচিত্র্য।",
+     "Diagram: অংশের নাম, অবস্থান, প্রবাহের ক্রম।",
+     "Map: পরিবর্তন (দুই inventory নয়); compass direction; অপরিবর্তিত জিনিস উল্লেখ।",
+     "Visual-এ নেই এমন কিছু যোগ করিনি; কোনো opinion নেই।",
+     "১৫০–১৯০ শব্দ, ২০ মিনিট।"
+    ]
+   ],
+   [
+    "p",
+    "এই পর্বে Task 1-এর সব type শেষ। পরের অধ্যায়ে প্রতিটি type-এর জন্য student-দের লেখা Band 5, 6, 7, 8 উত্তর ও তার আলোচনা।"
+   ]
+  ]
+ },
+ {
+  "id": "t1_sample_lessons",
+  "title": "অধ্যায় ৩ থেকে মূল শিক্ষা — সব type মিলিয়ে",
+  "blocks": [
+   [
+    "table",
+    [
+     "Band 5-এর চিহ্ন",
+     "Band 6-এর চিহ্ন",
+     "Band 7-এর চিহ্ন",
+     "Band 8-এর চিহ্ন"
+    ],
+    [
+     [
+      "Introduction copy · overview নেই বা শেষে · data dump / inventory · \"There is\" / \"Then\" বারবার · opinion বা অনুমান · agreement ও passive ভুল",
+      "Paraphrase · overview আছে · সঠিক তথ্য · সাধারণ শব্দ · connective ঠিক কিন্তু যান্ত্রিক · ভুল কম, range কম · কোথাও একটা মন্তব্য",
+      "Overview-তে pattern · সংখ্যা অনুপাতে · দল/এলাকা অনুযায়ী para · precise শব্দ · complex বাক্য সঠিক · rare slip (একটা অনুমান)",
+      "Synthesis · প্রতিটি সংখ্যা/অংশ তুলনার ভেতরে · সংযোগ অদৃশ্য · collocation নিখুঁত · ভুলশূন্য"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "পরের অধ্যায়: Writing Task 2।"
+   ]
+  ]
+ }
+]

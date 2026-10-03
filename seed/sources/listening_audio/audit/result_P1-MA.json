@@ -1,0 +1,166 @@
+{
+ "code": "P1-MA",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:06]/[0:09] \"Okay, so Priya's on registration.\"",
+   "note": "Speaker 1 = Sam, Speaker 2 = Priya (confirmed by \"See you there, Sam\" at [1:40])"
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:09]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[0:18]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:26]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:32]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "D",
+   "audio_answer": "D",
+   "evidence": "[0:41]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:46]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "E",
+   "audio_answer": "E",
+   "evidence": "[0:52]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "missing",
+   "key": "C",
+   "audio_answer": "(C for \"teenagers from the sixth form\")",
+   "evidence": "[0:55] \"And the teenagers from the sixth form?\" [0:57] \"I'd say the car park.\"",
+   "note": "No scout troop is mentioned; the group sent to the car park is the sixth-form teenagers. Rename item 9 to match, and the key C would then be correct."
+  },
+  {
+   "n": 10,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[1:01]",
+   "note": ""
+  },
+  {
+   "n": 11,
+   "status": "missing",
+   "key": "A",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (extra gloves) never mentioned"
+  },
+  {
+   "n": 12,
+   "status": "missing",
+   "key": "E",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (rubbish bags) never mentioned"
+  },
+  {
+   "n": 13,
+   "status": "missing",
+   "key": "C",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (first-aid kit) never mentioned"
+  },
+  {
+   "n": 14,
+   "status": "missing",
+   "key": "D",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (water bottles) never mentioned"
+  },
+  {
+   "n": 15,
+   "status": "missing",
+   "key": "B",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (recycling bins) never mentioned"
+  },
+  {
+   "n": 16,
+   "status": "missing",
+   "key": "A",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (registration time) never mentioned"
+  },
+  {
+   "n": 17,
+   "status": "missing",
+   "key": "B",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (start time) never mentioned"
+  },
+  {
+   "n": 18,
+   "status": "missing",
+   "key": "D",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (break time) never mentioned"
+  },
+  {
+   "n": 19,
+   "status": "missing",
+   "key": "E",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (photos/final count time) never mentioned"
+  },
+  {
+   "n": 20,
+   "status": "missing",
+   "key": "F",
+   "audio_answer": "",
+   "evidence": "Recording ends at [1:40]; after the area assignments (to [1:03]) it discusses benefits of green schemes (composting, car sharing, etc.) instead.",
+   "note": "Item sources (end time) never mentioned"
+  }
+ ],
+ "summary": "Q1-8 and Q10 ok; Q9 group is named differently (sixth-form teenagers, not scouts); Q11-20 (item sources and timings) are not in the recording, which covers green-scheme benefits instead."
+}

@@ -1,0 +1,17 @@
+{
+ "about": "Items from sir's Speaking guide (seed/sources/guides/IELTS_Speaking_Guide_book_full.html) that the bank did not already cover. Everything else in the guide's Part 1 topic bank and 40-card bank duplicates the bank and is left out. Cards are matched by their prompt; Part 3 links point at existing bank topics (which carry sample answers).",
+ "cards": [
+  {"title": "Describe a person who taught you something useful.", "category": "people", "part3": ["sp3_education_02", "sp3_people_04"]},
+  {"title": "Describe a place you visited that was very different from where you live.", "category": "places", "part3": ["sp3_culture_04", "sp3_environment_03"]},
+  {"title": "Describe a place where you like to study or work.", "category": "places", "part3": ["sp3_education_02", "sp3_environment_08"]},
+  {"title": "Describe something you bought that you were not happy with.", "category": "objects", "part3": ["sp3_culture_07", "sp3_society_03"]},
+  {"title": "Describe a sporting event you watched or took part in.", "category": "experiences", "part3": ["sp3_culture_06", "sp3_people_07"]},
+  {"title": "Describe a time when the weather changed your plans.", "category": "experiences", "part3": ["sp3_environment_02", "sp3_environment_03"]},
+  {"title": "Describe a job you would like to do in the future.", "category": "activities", "part3": ["sp3_education_03", "sp3_education_05"]}
+ ],
+ "part1": [
+  {"heading": "Animals & Pets", "id": "sp1_animals", "topic": "Animals and pets", "category": "interests"},
+  {"heading": "Nature, Parks & the Outdoors", "id": "sp1_nature", "topic": "Nature and parks", "category": "interests"},
+  {"heading": "Noise", "id": "sp1_noise", "topic": "Noise", "category": "daily"}
+ ]
+}

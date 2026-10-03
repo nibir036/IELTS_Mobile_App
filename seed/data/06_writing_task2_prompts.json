@@ -1,0 +1,1010 @@
+{
+  "table": "writing_prompts",
+  "items": [
+    {
+      "id": "t2_remote_work",
+      "type": "opinion",
+      "topic": "Work",
+      "title": "Working from home",
+      "prompt": "Some people believe that working from home benefits both employees and employers. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Employers can recruit talent from any location",
+          "Lower office costs can be reinvested in staff",
+          "Employees save time and money on commuting",
+          "Flexible schedules can raise job satisfaction and loyalty"
+        ],
+        "against": [
+          "Staff may feel isolated and lonely",
+          "Junior employees lose informal learning from colleagues",
+          "Boundaries between work and home life can blur",
+          "Team creativity and spontaneous collaboration may suffer"
+        ],
+        "vocabulary": [
+          "hybrid model",
+          "commute",
+          "work–life balance",
+          "overheads",
+          "talent pool",
+          "productivity",
+          "self-discipline",
+          "burnout"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "Over the past decade, remote work has shifted from a rare privilege to a mainstream arrangement for millions of office staff. In my view, its advantages for both employers and employees clearly outweigh the drawbacks, provided that it is managed sensibly.\n\nTo begin with, companies can recruit talent regardless of location, which widens the pool of skilled applicants considerably. Moreover, savings on office space can be reinvested in training, technology or higher salaries. A firm that no longer rents an entire floor in a central business district, for instance, may be able to fund professional courses for every member of staff.\n\nEmployees, meanwhile, gain hours that would otherwise be lost to commuting. In congested cities such as Dhaka, where a single journey can exceed an hour, this time can be devoted to rest, exercise or family, all of which tend to improve concentration and job satisfaction. As a result, workers who are trusted to manage their own schedules are often more loyal and less likely to resign.\n\nAdmittedly, working from home is not without its challenges. Some staff feel isolated, and junior employees may miss the informal learning that happens in a shared office. However, these problems can largely be solved through regular video meetings and occasional in-person days rather than by abandoning remote work altogether. Indeed, many organisations already combine home and office working with considerable success.\n\nIn conclusion, I firmly believe that working from home benefits both sides of the employment relationship. With clear communication and a flexible hybrid model, its drawbacks are minor compared with the gains in productivity, cost and wellbeing."
+      }
+    },
+    {
+      "id": "t2_public_transport_funding",
+      "type": "discussion",
+      "topic": "Transport",
+      "title": "Public transport or more roads",
+      "prompt": "Some people think governments should spend more money on public transport, while others believe building more roads is the better way to reduce traffic. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Buses and trains move far more people per square metre of space",
+          "Public transport reduces emissions and air pollution",
+          "Affordable transit helps low-income workers reach jobs",
+          "New roads tend to fill with extra traffic (induced demand)"
+        ],
+        "against": [
+          "Rural areas often depend on roads rather than rail",
+          "Freight and emergency services need good road networks",
+          "Public transport projects are expensive and slow to build",
+          "Many people value the flexibility of private cars"
+        ],
+        "vocabulary": [
+          "traffic congestion",
+          "induced demand",
+          "infrastructure",
+          "mass transit",
+          "commuter",
+          "carbon emissions",
+          "rush hour",
+          "urban sprawl"
+        ]
+      }
+    },
+    {
+      "id": "t2_free_public_transport",
+      "type": "opinion",
+      "topic": "Transport",
+      "title": "Free public transport",
+      "prompt": "Some people believe that public transport should be free for everyone. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Encourages people to leave cars at home",
+          "Helps low-income households with living costs",
+          "Removes ticketing costs and speeds up boarding",
+          "Cleaner air and less congestion in city centres"
+        ],
+        "against": [
+          "Huge cost to taxpayers",
+          "Overcrowding may worsen without extra investment",
+          "Money could be better spent improving frequency and reliability",
+          "Those who can afford to pay would also be subsidised"
+        ],
+        "vocabulary": [
+          "subsidy",
+          "fare",
+          "ridership",
+          "taxpayer",
+          "overcrowding",
+          "modal shift",
+          "means-tested",
+          "public purse"
+        ]
+      }
+    },
+    {
+      "id": "t2_air_travel_tax",
+      "type": "opinion",
+      "topic": "Environment",
+      "title": "Taxing air travel",
+      "prompt": "Some people say that governments should tax air travel heavily to protect the environment. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Aviation is a fast-growing source of carbon emissions",
+          "Prices would reflect the true environmental cost of flying",
+          "Revenue could fund rail and green technology",
+          "Frequent flyers, often wealthy, would pay most"
+        ],
+        "against": [
+          "Poorer families could be priced out of holidays",
+          "Tourism-dependent economies would suffer",
+          "Business travel costs would rise",
+          "Travellers might simply fly from neighbouring countries"
+        ],
+        "vocabulary": [
+          "carbon footprint",
+          "levy",
+          "frequent-flyer",
+          "short-haul",
+          "offset",
+          "polluter pays",
+          "tourism revenue",
+          "deterrent"
+        ]
+      }
+    },
+    {
+      "id": "t2_renewable_energy",
+      "type": "discussion",
+      "topic": "Environment",
+      "title": "Renewables vs cost of living",
+      "prompt": "Some people argue that switching to renewable energy is worth the higher cost of living, while others believe household bills should come first. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Long-term protection from volatile fossil-fuel prices",
+          "Reduced emissions and health costs from pollution",
+          "Creates new jobs in green industries",
+          "Renewable costs are falling rapidly"
+        ],
+        "against": [
+          "Short-term bill increases hurt poorer households",
+          "Grid upgrades and storage require major investment",
+          "Intermittent supply from wind and solar",
+          "Some workers in fossil-fuel industries lose jobs"
+        ],
+        "vocabulary": [
+          "energy security",
+          "fuel poverty",
+          "intermittent",
+          "transition",
+          "grid",
+          "subsidise",
+          "fossil fuels",
+          "long-term investment"
+        ]
+      }
+    },
+    {
+      "id": "t2_free_university",
+      "type": "opinion",
+      "topic": "Education",
+      "title": "Free university education",
+      "prompt": "Some people believe that university education should be free for all students. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Talented students from poor families can access higher education",
+          "Graduates benefit the economy and pay more tax later",
+          "Removes the burden of student debt",
+          "Education is a public good, not just a private benefit"
+        ],
+        "against": [
+          "Enormous cost to taxpayers, including those who never attend",
+          "May lead to overcrowded courses and lower quality",
+          "Graduates earn more, so they could reasonably contribute",
+          "Funds may be better spent on schools and vocational training"
+        ],
+        "vocabulary": [
+          "tuition fees",
+          "student loan",
+          "social mobility",
+          "tertiary education",
+          "graduate premium",
+          "means-tested grant",
+          "public good",
+          "access"
+        ]
+      }
+    },
+    {
+      "id": "t2_ai_jobs",
+      "type": "opinion",
+      "topic": "Technology",
+      "title": "AI and jobs",
+      "prompt": "Some people fear that artificial intelligence will replace more jobs than it creates. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Automation can replace routine clerical and manual tasks",
+          "AI now performs some skilled work such as translation and coding",
+          "Job losses may happen faster than retraining",
+          "Benefits may concentrate among a few technology firms"
+        ],
+        "against": [
+          "Past technologies created more jobs than they destroyed",
+          "New roles emerge in design, maintenance and oversight of AI",
+          "Higher productivity lowers prices and boosts demand",
+          "Many jobs require human empathy and judgement"
+        ],
+        "vocabulary": [
+          "automation",
+          "redundancy",
+          "reskilling",
+          "labour market",
+          "obsolete",
+          "productivity gains",
+          "displacement",
+          "augment"
+        ]
+      }
+    },
+    {
+      "id": "t2_public_healthcare",
+      "type": "discussion",
+      "topic": "Health",
+      "title": "Free vs paid healthcare",
+      "prompt": "Some people think healthcare should be provided free by the government, while others believe individuals should pay for their own treatment. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Health is a basic right regardless of income",
+          "Early treatment prevents costlier illness later",
+          "A healthy workforce benefits the whole economy",
+          "Removes fear of medical bills and bankruptcy"
+        ],
+        "against": [
+          "Heavy burden on public finances",
+          "Long waiting lists in some state systems",
+          "Payment may discourage unnecessary visits",
+          "Private competition can drive innovation and efficiency"
+        ],
+        "vocabulary": [
+          "universal healthcare",
+          "waiting list",
+          "insurance",
+          "out-of-pocket",
+          "preventive care",
+          "taxation",
+          "welfare state",
+          "access to treatment"
+        ]
+      }
+    },
+    {
+      "id": "t2_four_day_week",
+      "type": "discussion",
+      "topic": "Work",
+      "title": "Four-day working week",
+      "prompt": "Some people believe a four-day working week would benefit employees and businesses, while others think it would harm productivity. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Well-rested staff are often more productive",
+          "Better work–life balance and mental health",
+          "Attracts and retains skilled employees",
+          "Fewer commuting days reduce emissions"
+        ],
+        "against": [
+          "Some services need cover five or more days a week",
+          "Compressed hours may cause fatigue",
+          "Small businesses may struggle with costs",
+          "Output may fall in sectors where time equals production"
+        ],
+        "vocabulary": [
+          "compressed hours",
+          "trial",
+          "productivity",
+          "staff retention",
+          "wellbeing",
+          "output",
+          "shift pattern",
+          "burnout"
+        ]
+      }
+    },
+    {
+      "id": "t2_prison_sentences",
+      "type": "opinion",
+      "topic": "Crime",
+      "title": "Longer prison sentences",
+      "prompt": "Some people think that longer prison sentences are the best way to reduce crime. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Dangerous offenders are kept away from the public",
+          "Severe penalties may deter potential criminals",
+          "Victims may feel justice has been served",
+          "Offers society a clear message about serious crime"
+        ],
+        "against": [
+          "Prisons can act as 'schools of crime'",
+          "Long sentences are extremely expensive",
+          "Certainty of being caught deters more than severity",
+          "Rehabilitation and education reduce reoffending more effectively"
+        ],
+        "vocabulary": [
+          "deterrent",
+          "reoffending",
+          "rehabilitation",
+          "custodial sentence",
+          "recidivism",
+          "community service",
+          "offender",
+          "root causes"
+        ]
+      }
+    },
+    {
+      "id": "t2_child_advertising",
+      "type": "problem",
+      "topic": "Media",
+      "title": "Advertising aimed at children",
+      "prompt": "Advertising aimed at children is becoming more common. What problems does this cause, and what measures could be taken to solve them?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Problem: children cannot always tell adverts from content",
+          "Problem: promotes unhealthy food and pester power",
+          "Problem: encourages materialism and peer pressure",
+          "Problem: targeted online ads collect children's data"
+        ],
+        "against": [
+          "Solution: ban junk-food adverts during children's programmes",
+          "Solution: teach media literacy in schools",
+          "Solution: stricter rules on data collection for under-16s",
+          "Solution: parents use controls and discuss adverts with children"
+        ],
+        "vocabulary": [
+          "pester power",
+          "impressionable",
+          "consumerism",
+          "media literacy",
+          "regulation",
+          "watershed",
+          "influencer marketing",
+          "junk food"
+        ]
+      }
+    },
+    {
+      "id": "w2_01",
+      "type": "opinion",
+      "topic": "Education",
+      "title": "Practical skills at school",
+      "prompt": "Some people believe that schools should teach practical life skills, such as managing money and cooking, instead of focusing mainly on academic subjects. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Young adults often lack basic budgeting skills and fall into debt",
+          "Cooking lessons can improve diet and long-term health",
+          "Not every family can teach these skills at home",
+          "Practical lessons engage students who struggle with theory"
+        ],
+        "against": [
+          "Academic knowledge is essential for further study and careers",
+          "Timetables are already overcrowded",
+          "Parents are responsible for teaching everyday skills",
+          "Literacy and numeracy underpin all practical skills anyway"
+        ],
+        "vocabulary": [
+          "curriculum",
+          "financial literacy",
+          "life skills",
+          "well-rounded",
+          "vocational",
+          "core subjects",
+          "numeracy",
+          "hands-on"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "It is sometimes argued that schools devote too much time to traditional academic subjects and too little to the practical skills that young people need in adult life. While I accept that such skills are valuable, I disagree that they should replace academic learning; instead, they should be integrated into it.\n\nOn the one hand, there is a strong case for teaching practical competences. Many young adults leave school without knowing how to create a budget, compare loans or cook a simple, nutritious meal. As a result, some fall into debt soon after receiving their first salary, while others rely heavily on processed food. Moreover, not every child grows up in a household where these lessons are passed on, so the school may be the only place where disadvantaged pupils can acquire them.\n\nOn the other hand, academic subjects provide the foundation for almost everything else. A student cannot understand interest rates without mathematics, nor read a rental contract carefully without strong literacy. Furthermore, subjects such as science and history develop analytical thinking, which is essential for higher education and for many careers. If these were reduced significantly, school leavers might be able to cook but would be poorly equipped to compete in a knowledge-based economy.\n\nIn my view, the most sensible solution is to combine the two. Mathematics lessons, for instance, could include projects on household budgeting, and science classes could explore nutrition through practical cookery. In this way, pupils would apply theoretical knowledge to real situations without sacrificing academic depth.\n\nIn conclusion, although practical life skills deserve a place in the curriculum, they should complement rather than replace academic subjects. A well-designed timetable can prepare young people both for further study and for independent adult life."
+      }
+    },
+    {
+      "id": "w2_02",
+      "type": "discussion",
+      "topic": "Education",
+      "title": "Starting school early",
+      "prompt": "Some people think children should start formal schooling at the age of four or five, while others believe they should not begin until the age of seven. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Early start helps children from disadvantaged homes catch up",
+          "Allows parents to return to work",
+          "Young children absorb language and routines quickly",
+          "Early identification of learning difficulties"
+        ],
+        "against": [
+          "Play-based learning builds creativity and social skills",
+          "Early academic pressure may cause stress and dislike of school",
+          "Some high-performing systems start at seven",
+          "Children develop at different rates"
+        ],
+        "vocabulary": [
+          "formal education",
+          "early years",
+          "play-based learning",
+          "developmental stage",
+          "literacy",
+          "readiness",
+          "socialisation",
+          "attainment gap"
+        ]
+      }
+    },
+    {
+      "id": "w2_03",
+      "type": "advantages",
+      "topic": "Technology",
+      "title": "Online shopping",
+      "prompt": "More and more people are choosing to buy goods online rather than in shops. Do the advantages of this trend outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Convenience: shop at any time from anywhere",
+          "Easy to compare prices and read reviews",
+          "Access to a far wider range of products",
+          "Helpful for elderly, disabled or rural consumers"
+        ],
+        "against": [
+          "Closure of high-street shops and loss of local jobs",
+          "Extra packaging and delivery emissions",
+          "Risk of fraud and data theft",
+          "Cannot see, touch or try products before buying"
+        ],
+        "vocabulary": [
+          "e-commerce",
+          "high street",
+          "convenience",
+          "impulse buying",
+          "delivery",
+          "retailer",
+          "consumer",
+          "online fraud"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "In recent years, a growing number of consumers have switched from visiting shops to purchasing goods on the internet. Although this development has certain drawbacks, I believe that its benefits are considerably greater.\n\nThe most obvious advantage of online shopping is convenience. Customers can order almost anything at any time of day, without travelling or queuing, which is particularly valuable for people with long working hours. In addition, the internet makes it easy to compare prices across dozens of retailers and to read reviews from previous buyers, so consumers are better informed and less likely to be overcharged. Online stores are also a lifeline for elderly or disabled people and for those in rural areas, who may otherwise have very limited access to shops.\n\nNevertheless, the trend does have negative consequences. Traditional high streets have suffered as footfall declines, and many small businesses have closed, taking local jobs with them. Furthermore, the rise in home deliveries has increased traffic and packaging waste. There is also the risk of online fraud, as criminals can steal card details from poorly protected websites.\n\nHowever, I would argue that these problems can be addressed. Many independent retailers now sell online as well as in person, reaching customers far beyond their own town. Delivery firms are gradually adopting electric vans and recyclable packaging, and secure payment systems have made fraud much less common than it once was. The advantages, by contrast, are fundamental and lasting.\n\nIn conclusion, while online shopping has contributed to the decline of some high streets and has environmental costs, its convenience, choice and accessibility mean that the advantages clearly outweigh the disadvantages."
+      }
+    },
+    {
+      "id": "w2_04",
+      "type": "problem",
+      "topic": "Technology",
+      "title": "Young people and smartphones",
+      "prompt": "Many young people now spend several hours a day using their smartphones. What problems does this cause, and what can be done to address them?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Problem: lack of sleep from late-night use",
+          "Problem: reduced concentration in class",
+          "Problem: less physical activity and face-to-face contact",
+          "Problem: exposure to cyberbullying and harmful content"
+        ],
+        "against": [
+          "Solution: phone-free rules during school hours",
+          "Solution: screen-time limits and parental controls",
+          "Solution: design regulations to curb addictive features",
+          "Solution: promote sport, clubs and offline hobbies"
+        ],
+        "vocabulary": [
+          "screen time",
+          "addictive",
+          "attention span",
+          "cyberbullying",
+          "sedentary",
+          "parental controls",
+          "digital wellbeing",
+          "notifications"
+        ]
+      }
+    },
+    {
+      "id": "w2_05",
+      "type": "problem",
+      "topic": "Environment",
+      "title": "Plastic in the oceans",
+      "prompt": "Large amounts of plastic waste end up in the world's oceans. What are the causes of this problem, and what measures could be taken to solve it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Cause: heavy use of single-use packaging",
+          "Cause: poor waste collection in many coastal regions",
+          "Cause: litter carried by rivers to the sea",
+          "Cause: lost fishing nets and equipment"
+        ],
+        "against": [
+          "Solution: taxes or bans on single-use plastics",
+          "Solution: invest in waste management in developing regions",
+          "Solution: deposit-return schemes for bottles",
+          "Solution: require manufacturers to fund recycling"
+        ],
+        "vocabulary": [
+          "single-use",
+          "biodegradable",
+          "marine life",
+          "microplastics",
+          "landfill",
+          "deposit-return scheme",
+          "waste management",
+          "producer responsibility"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "Every year, millions of tonnes of plastic find their way into the sea, harming marine life and entering the human food chain. This essay will examine the main causes of this problem and suggest some practical solutions.\n\nThe primary cause is the enormous quantity of single-use plastic that modern societies consume. Bottles, bags, straws and food packaging are designed to be used once and thrown away, and because they are cheap, there is little incentive to reuse them. A second cause is inadequate waste management. In many rapidly growing coastal cities, rubbish collection is irregular, and waste is often dumped in open sites or rivers, from which it is carried directly into the ocean. Finally, the fishing industry itself contributes, since lost or abandoned nets account for a significant proportion of plastic at sea.\n\nSeveral measures could reduce this pollution. Governments should impose taxes on, or ban, the most common single-use items. The charge on plastic bags introduced in many countries, for example, has cut their use dramatically within a few years. Secondly, wealthier nations and international organisations could fund better waste collection and recycling facilities in regions where rubbish currently escapes into waterways. In addition, deposit-return schemes, in which customers receive a small refund for returning bottles, have proved highly effective at increasing recycling rates. Manufacturers could also be made legally responsible for the waste their products create.\n\nIn conclusion, ocean plastic results largely from excessive disposable packaging, weak waste systems and fishing practices. A combination of taxation, investment in infrastructure and producer responsibility offers the best chance of reducing the flow of plastic into the sea."
+      }
+    },
+    {
+      "id": "w2_06",
+      "type": "two-part",
+      "topic": "Environment",
+      "title": "Fast fashion",
+      "prompt": "Many people buy new clothes frequently, even when their old ones are still in good condition. Why do people do this? What effects does it have on the environment?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Reason: cheap 'fast fashion' makes clothes affordable",
+          "Reason: social media and influencers drive trends",
+          "Reason: shopping as a leisure activity",
+          "Reason: low quality means clothes wear out quickly"
+        ],
+        "against": [
+          "Effect: high water use in cotton production",
+          "Effect: textile dyes pollute rivers",
+          "Effect: huge volumes of clothing sent to landfill",
+          "Effect: synthetic fibres release microplastics when washed"
+        ],
+        "vocabulary": [
+          "fast fashion",
+          "disposable",
+          "trend-driven",
+          "textile waste",
+          "second-hand",
+          "consumerism",
+          "carbon footprint",
+          "garment"
+        ]
+      }
+    },
+    {
+      "id": "w2_07",
+      "type": "opinion",
+      "topic": "Health",
+      "title": "Taxing sugary food",
+      "prompt": "Some people think governments should tax sugary foods and drinks to improve public health. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Higher prices reduce consumption, especially among young people",
+          "Manufacturers reformulate products with less sugar",
+          "Revenue can fund sport and health education",
+          "Lower rates of obesity and diabetes reduce healthcare costs"
+        ],
+        "against": [
+          "Hits low-income families hardest",
+          "Restricts personal freedom of choice",
+          "People may switch to other unhealthy products",
+          "Education may change habits more effectively than tax"
+        ],
+        "vocabulary": [
+          "obesity",
+          "sugar tax",
+          "reformulate",
+          "regressive tax",
+          "public health",
+          "diet-related illness",
+          "consumption",
+          "nanny state"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "Rising rates of obesity and diabetes have led some people to call for taxes on products that are high in sugar. I largely agree with this proposal, although I believe that a tax alone would not be sufficient to change people's eating habits.\n\nThe main argument in favour of such a tax is that price strongly influences behaviour. When sugary drinks become more expensive, people, and particularly teenagers with limited pocket money, tend to buy fewer of them. Perhaps more importantly, a tax encourages manufacturers to reformulate their products. In several countries that introduced a levy on soft drinks, companies reduced the sugar content of many popular brands in order to avoid the charge, which benefited every consumer without anyone having to change their shopping. In addition, the revenue raised can be used for health education or school sports facilities.\n\nCritics argue that such taxes are unfair because they affect low-income households most, as these families spend a larger share of their income on food. Others claim that adults should be free to decide what they eat without government interference. These objections have some validity, but the burden of diet-related illness also falls heavily on poorer communities, and the cost of treating it is paid by all taxpayers. Moreover, people remain free to buy sugary products; they simply pay a price closer to their true social cost.\n\nNevertheless, taxation should form part of a wider strategy. Clear food labelling, cookery lessons in schools and restrictions on junk-food advertising to children would all reinforce its effect.\n\nIn conclusion, I agree that governments should tax sugary foods and drinks, as this is an effective way to reduce consumption and improve recipes, provided it is combined with education and other supporting measures."
+      }
+    },
+    {
+      "id": "w2_08",
+      "type": "discussion",
+      "topic": "Health",
+      "title": "Who is responsible for health?",
+      "prompt": "Some people believe that individuals are responsible for their own health, while others think that governments should take the main responsibility for keeping people healthy. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Individuals choose their diet, exercise and habits",
+          "Personal responsibility encourages healthier lifestyles",
+          "Governments cannot monitor private behaviour",
+          "Adults should have freedom of choice"
+        ],
+        "against": [
+          "Governments control healthcare, food regulation and pollution",
+          "Poverty limits people's healthy choices",
+          "Public campaigns and vaccination programmes save lives",
+          "Urban design affects how active people can be"
+        ],
+        "vocabulary": [
+          "lifestyle choices",
+          "preventive",
+          "public health campaign",
+          "regulation",
+          "sedentary",
+          "life expectancy",
+          "vaccination",
+          "wellbeing"
+        ]
+      }
+    },
+    {
+      "id": "w2_09",
+      "type": "advantages",
+      "topic": "Work",
+      "title": "Changing careers",
+      "prompt": "Nowadays, many people change their career several times during their working lives. Do the advantages of this outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Wider range of skills and experience",
+          "Greater job satisfaction by finding the right fit",
+          "Adaptability in a fast-changing economy",
+          "Avoids boredom and burnout"
+        ],
+        "against": [
+          "Loss of seniority and salary when starting again",
+          "Retraining costs time and money",
+          "Employers may see frequent changes as unreliable",
+          "Less opportunity to develop deep expertise"
+        ],
+        "vocabulary": [
+          "career change",
+          "transferable skills",
+          "retrain",
+          "job security",
+          "seniority",
+          "adaptability",
+          "lifelong learning",
+          "fulfilment"
+        ]
+      }
+    },
+    {
+      "id": "w2_10",
+      "type": "two-part",
+      "topic": "Work",
+      "title": "Young people and self-employment",
+      "prompt": "In many countries, an increasing number of young people want to work for themselves rather than for a company. Why is this? Is it a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Reason: digital platforms make starting a business cheaper",
+          "Reason: desire for independence and flexibility",
+          "Positive: encourages innovation and job creation",
+          "Positive: builds initiative and practical skills"
+        ],
+        "against": [
+          "Reason: lack of secure graduate jobs",
+          "Negative: irregular income and no sick pay or pension",
+          "Negative: many start-ups fail within a few years",
+          "Negative: isolation and long working hours"
+        ],
+        "vocabulary": [
+          "self-employed",
+          "entrepreneur",
+          "start-up",
+          "freelance",
+          "gig economy",
+          "financial insecurity",
+          "autonomy",
+          "initiative"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "In many parts of the world, young people are increasingly choosing to become self-employed rather than join established companies. This essay will explain the reasons for this trend and argue that, on balance, it is a positive development.\n\nThere are several reasons why self-employment appeals to the younger generation. Firstly, technology has made it far easier and cheaper to start a business. With a laptop and a social media account, a graphic designer or a baker can reach customers across the country without renting premises. Secondly, many young people value independence and flexibility more highly than their parents did, and they are attracted by the idea of choosing their own projects and working hours. Finally, in some countries, secure entry-level jobs have become scarce, so creating their own work may seem the most realistic option.\n\nIn my opinion, this trend is largely beneficial. Young entrepreneurs often bring fresh ideas to the market, and successful small businesses eventually create jobs for others. Even those whose ventures do not succeed usually gain valuable skills, such as marketing, budgeting and negotiation, which make them more attractive to future employers. For the economy as a whole, a culture of initiative and innovation is a considerable asset.\n\nThat said, self-employment carries real risks. Income can be irregular, and freelancers typically have no paid holidays, sick pay or employer pension contributions. Governments could reduce these dangers by offering simple pension schemes and basic business training for new entrepreneurs.\n\nIn conclusion, the growth of self-employment among young people is driven by technology, changing values and a difficult job market. Provided that suitable support is available, I believe it is a positive development for individuals and society alike."
+      }
+    },
+    {
+      "id": "w2_11",
+      "type": "problem",
+      "topic": "Society",
+      "title": "Ageing populations",
+      "prompt": "In many countries, the proportion of older people is steadily increasing. What problems does this cause for society, and what solutions can you suggest?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Problem: rising pension costs and fewer taxpayers",
+          "Problem: greater demand on health and care services",
+          "Problem: labour shortages in key sectors",
+          "Problem: loneliness among elderly people"
+        ],
+        "against": [
+          "Solution: gradually raise the retirement age",
+          "Solution: encourage skilled immigration",
+          "Solution: invest in preventive healthcare and home care technology",
+          "Solution: community schemes linking young and old"
+        ],
+        "vocabulary": [
+          "ageing population",
+          "life expectancy",
+          "pension",
+          "retirement age",
+          "dependency ratio",
+          "workforce",
+          "elderly care",
+          "birth rate"
+        ]
+      }
+    },
+    {
+      "id": "w2_12",
+      "type": "two-part",
+      "topic": "Society",
+      "title": "Living alone",
+      "prompt": "In many countries, more and more people are choosing to live alone. What are the reasons for this? Do you think it is a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Reason: people marry later or not at all",
+          "Reason: greater financial independence, especially among women",
+          "Positive: privacy and personal freedom",
+          "Positive: develops independence and self-reliance"
+        ],
+        "against": [
+          "Reason: longer life expectancy leaves many elderly people widowed",
+          "Negative: loneliness and mental health problems",
+          "Negative: higher housing demand and costs",
+          "Negative: less efficient use of energy and space"
+        ],
+        "vocabulary": [
+          "single-person household",
+          "independence",
+          "isolation",
+          "loneliness",
+          "housing shortage",
+          "urbanisation",
+          "widowed",
+          "social ties"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The number of single-person households has risen sharply in many countries over recent decades. In this essay, I will explore why this has happened and explain why I consider it a mixed, but mainly negative, development.\n\nOne key reason is that people are marrying later, or choosing not to marry at all, so there is a longer period of adulthood spent outside a family home. Rising incomes, particularly among women, have also made it financially possible for many adults to rent or buy a home of their own. In addition, because people now live longer, many elderly people continue to live alone after the death of a partner, often for twenty years or more.\n\nLiving alone certainly offers some benefits. It gives people complete privacy and control over their own space, and it can encourage independence and self-reliance. For young professionals, a period of living alone may be an important stage of personal development.\n\nHowever, I believe the disadvantages are more serious. The most significant is loneliness, which research has linked to depression and poorer physical health, especially among older people who may go days without speaking to anyone. Furthermore, when each person occupies a separate flat, cities need far more housing, which pushes up prices and increases energy consumption, since heating and appliances are shared by fewer people. In already crowded cities such as London or Seoul, this places heavy pressure on the housing market.\n\nIn conclusion, the trend towards living alone results from later marriage, greater financial independence and longer lives. Although it brings freedom and privacy, its social and environmental costs lead me to view it as a largely negative development that governments and communities should take steps to address."
+      }
+    },
+    {
+      "id": "w2_13",
+      "type": "problem",
+      "topic": "Crime",
+      "title": "Youth crime",
+      "prompt": "In some countries, the number of crimes committed by teenagers is increasing. What are the causes of this, and what solutions can you suggest?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Cause: lack of parental supervision",
+          "Cause: poverty and limited opportunities",
+          "Cause: peer pressure and gang culture",
+          "Cause: school exclusion and boredom"
+        ],
+        "against": [
+          "Solution: youth centres, sport and mentoring programmes",
+          "Solution: support for struggling families",
+          "Solution: keep at-risk pupils in education",
+          "Solution: restorative justice rather than prison for first offences"
+        ],
+        "vocabulary": [
+          "juvenile delinquency",
+          "peer pressure",
+          "deprived",
+          "mentoring",
+          "restorative justice",
+          "at-risk",
+          "antisocial behaviour",
+          "role model"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "In a number of countries, crime committed by teenagers appears to be on the rise, causing concern among parents and policymakers alike. This essay will discuss the main causes of this problem and propose several possible solutions.\n\nThe first cause is often found within the family. When parents work long hours or are absent altogether, teenagers may receive little supervision or guidance, and they are more likely to spend unstructured time on the streets. A second factor is poverty. Young people growing up in deprived neighbourhoods may see few legitimate routes to success, and some are tempted by the quick money offered by theft or drug dealing. Peer pressure also plays an important role, since adolescents are strongly influenced by the need to belong, and joining a group that breaks the law can seem attractive to those who feel excluded at school.\n\nTo tackle these causes, a combination of measures is required. Local authorities should invest in youth centres, sports clubs and mentoring schemes that offer young people a safe place to go and positive adult role models. Schools, meanwhile, should try to keep struggling pupils in education by providing extra support rather than excluding them, as exclusion frequently leads directly to crime. In addition, social services could offer practical help to families under strain. Finally, for first-time offenders, restorative justice, in which young people meet their victims and repair the harm they have caused, has been shown to reduce reoffending more effectively than detention.\n\nIn conclusion, youth crime is closely linked to weak supervision, poverty and peer influence. By providing constructive activities, educational support and more rehabilitative forms of justice, society can prevent many teenagers from following a criminal path."
+      }
+    },
+    {
+      "id": "w2_14",
+      "type": "opinion",
+      "topic": "Crime",
+      "title": "Surveillance cameras",
+      "prompt": "Some people think that installing more surveillance cameras in public places is the best way to reduce crime. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Cameras may deter theft and vandalism",
+          "Footage helps police identify and convict offenders",
+          "People feel safer in monitored areas",
+          "Useful for finding missing persons"
+        ],
+        "against": [
+          "Crime may simply move to areas without cameras",
+          "Serious threats to privacy and civil liberties",
+          "Expensive to install and monitor",
+          "Better lighting, policing and social programmes address root causes"
+        ],
+        "vocabulary": [
+          "surveillance",
+          "CCTV",
+          "deterrent",
+          "privacy",
+          "civil liberties",
+          "displacement",
+          "footage",
+          "law enforcement"
+        ]
+      }
+    },
+    {
+      "id": "w2_15",
+      "type": "opinion",
+      "topic": "Media",
+      "title": "Negative news",
+      "prompt": "News media tend to focus mainly on problems and negative events rather than positive developments. Some people think this is harmful to individuals and society. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Constant bad news can raise anxiety and hopelessness",
+          "Gives a distorted, overly pessimistic view of the world",
+          "May reduce trust in institutions and each other",
+          "Positive stories could inspire people to act"
+        ],
+        "against": [
+          "Journalism's role is to expose problems and hold power to account",
+          "Warning people about risks keeps them safe",
+          "Audiences choose to read dramatic stories",
+          "Positive news can seem like propaganda or advertising"
+        ],
+        "vocabulary": [
+          "negativity bias",
+          "sensationalism",
+          "watchdog",
+          "headline",
+          "public trust",
+          "anxiety",
+          "accountability",
+          "constructive journalism"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "It is often observed that newspapers, television and news websites concentrate heavily on disasters, crime and conflict while largely ignoring positive events. I partly agree that this has harmful effects, but I also believe that reporting problems is an essential function of the media.\n\nThere is little doubt that an unbalanced diet of bad news can damage individuals. People who follow the news closely may develop a sense of anxiety and helplessness, particularly when stories about war or climate change appear hour after hour on their phones. Moreover, constant negativity can distort people's understanding of the world. Many surveys have found that the public believes crime and poverty are increasing even in periods when they are actually falling, largely because dramatic incidents receive so much coverage. Such pessimism can undermine trust in institutions and discourage people from taking part in public life.\n\nOn the other hand, journalists are not simply entertainers. One of their most important duties is to expose corruption, injustice and danger so that governments and companies can be held accountable. A report on unsafe buildings or contaminated water may be deeply unpleasant, but it can save lives. If the media focused mainly on good news, they would risk becoming a kind of public relations service for the powerful.\n\nThe solution, in my opinion, is not to abandon negative reporting but to balance it. So-called constructive journalism, which explains what is being done to solve a problem as well as describing the problem itself, can inform audiences without leaving them feeling powerless.\n\nIn conclusion, although the media's focus on negative events can cause anxiety and a distorted view of reality, reporting problems remains vital. A more balanced approach would serve both individuals and society better."
+      }
+    },
+    {
+      "id": "w2_16",
+      "type": "two-part",
+      "topic": "Media",
+      "title": "Interest in celebrities",
+      "prompt": "Many people are very interested in the private lives of celebrities. Why is this? Is it a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Reason: entertainment and escape from daily routine",
+          "Reason: social media creates a feeling of personal connection",
+          "Positive: celebrities can promote good causes",
+          "Positive: shared topics of conversation"
+        ],
+        "against": [
+          "Reason: media profit from gossip and scandal",
+          "Negative: unrealistic standards of beauty and wealth",
+          "Negative: invasion of celebrities' privacy",
+          "Negative: distracts from important news"
+        ],
+        "vocabulary": [
+          "celebrity culture",
+          "paparazzi",
+          "tabloid",
+          "role model",
+          "invasion of privacy",
+          "fan base",
+          "influencer",
+          "materialism"
+        ]
+      }
+    },
+    {
+      "id": "w2_17",
+      "type": "advantages",
+      "topic": "Globalisation",
+      "title": "Multinational companies",
+      "prompt": "Large multinational companies are opening branches and factories in many developing countries. Do the advantages of this outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Creates jobs and raises wages",
+          "Transfers technology and management skills",
+          "Brings investment and tax revenue",
+          "Improves infrastructure and access to goods"
+        ],
+        "against": [
+          "Local businesses may be driven out",
+          "Profits flow back to wealthy countries",
+          "Risk of poor working conditions and pollution",
+          "Loss of cultural identity and local traditions"
+        ],
+        "vocabulary": [
+          "multinational",
+          "foreign direct investment",
+          "developing economy",
+          "exploitation",
+          "technology transfer",
+          "supply chain",
+          "labour standards",
+          "homogenisation"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "Over the past few decades, multinational corporations have established offices and factories in a large number of developing nations. While this trend raises legitimate concerns, I believe that its advantages generally outweigh the disadvantages.\n\nThe most important benefit is employment. A single factory run by an international firm can provide thousands of jobs, often at wages higher than those offered by local employers. Bangladesh's garment industry and Vietnam's electronics sector, for example, have lifted millions of people out of poverty in this way. In addition, multinationals bring technology and management expertise that gradually spread to local companies, as employees gain skills and later start their own businesses. Governments also benefit from tax revenue and from improvements to roads, ports and power supplies that such investment often requires.\n\nHowever, the presence of global companies is not without problems. Small local firms may be unable to compete with the prices and marketing power of international brands, and some are forced to close. Furthermore, a large share of the profits is transferred to shareholders in wealthier countries rather than reinvested locally. There have also been serious cases of unsafe working conditions and environmental damage where regulation is weak.\n\nNevertheless, most of these drawbacks can be reduced through sensible policy rather than by rejecting foreign investment. Developing countries can enforce labour and environmental standards, require companies to source some materials locally and invest tax revenue in education, so that their own businesses become more competitive over time.\n\nIn conclusion, although multinational companies can harm local businesses and exploit weak regulation, the jobs, skills and investment they bring are substantial. With effective government oversight, I believe the advantages of their expansion clearly outweigh the disadvantages."
+      }
+    },
+    {
+      "id": "w2_18",
+      "type": "discussion",
+      "topic": "Globalisation",
+      "title": "English as a global language",
+      "prompt": "Some people believe that the spread of English as an international language is beneficial, while others think it threatens local languages and cultures. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Enables international business, science and travel",
+          "Access to global education and online information",
+          "Improves job prospects for individuals",
+          "Helps people from different cultures communicate"
+        ],
+        "against": [
+          "Minority languages may disappear",
+          "Local literature and traditions can be neglected",
+          "Native English speakers gain an unfair advantage",
+          "Young people may lose connection with their heritage"
+        ],
+        "vocabulary": [
+          "lingua franca",
+          "bilingual",
+          "linguistic diversity",
+          "endangered language",
+          "cultural heritage",
+          "globalisation",
+          "mother tongue",
+          "communication barrier"
+        ]
+      }
+    },
+    {
+      "id": "w2_19",
+      "type": "problem",
+      "topic": "Transport",
+      "title": "Traffic congestion in cities",
+      "prompt": "Traffic congestion is becoming a serious problem in many major cities. What are the main causes of this, and what measures could be taken to reduce it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Cause: rising car ownership",
+          "Cause: inadequate or unreliable public transport",
+          "Cause: urban sprawl and long commutes",
+          "Cause: jobs concentrated in city centres"
+        ],
+        "against": [
+          "Solution: congestion charges for city centres",
+          "Solution: invest in frequent buses, metro and cycle lanes",
+          "Solution: encourage flexible and remote working",
+          "Solution: plan mixed-use neighbourhoods"
+        ],
+        "vocabulary": [
+          "congestion charge",
+          "gridlock",
+          "rush hour",
+          "car-sharing",
+          "park and ride",
+          "cycle lane",
+          "urban planning",
+          "commute"
+        ]
+      }
+    },
+    {
+      "id": "w2_20",
+      "type": "opinion",
+      "topic": "Government",
+      "title": "Spending on space exploration",
+      "prompt": "Some people think that governments should stop spending money on space exploration and use it to solve problems on Earth instead. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "ideas": {
+        "for": [
+          "Poverty, hunger and healthcare need urgent funding",
+          "Climate change requires massive investment",
+          "Private companies can now fund space projects",
+          "Public money should meet citizens' immediate needs"
+        ],
+        "against": [
+          "Space research produces useful technologies (satellites, materials)",
+          "Satellites monitor climate and disasters",
+          "Space budgets are small compared with total spending",
+          "Exploration inspires young people to study science"
+        ],
+        "vocabulary": [
+          "space exploration",
+          "satellite",
+          "budget",
+          "spin-off technology",
+          "priorities",
+          "scientific advancement",
+          "public funds",
+          "long-term"
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "Some argue that the vast sums spent on space programmes would be better used to tackle poverty, disease and climate change here on Earth. Although I understand this view, I disagree that governments should abandon space exploration altogether.\n\nThose who support the proposal make a reasonable point. Millions of people still lack clean water, adequate healthcare or enough to eat, and it may seem morally difficult to justify sending rockets to Mars while these needs remain unmet. Furthermore, private companies are now willing to invest in rockets and satellites themselves, so it could be argued that taxpayers no longer need to fund this work.\n\nHowever, I believe this argument overlooks several important points. Firstly, space research has produced technologies that directly improve life on Earth. Satellite systems provide weather forecasts, navigation and communications, and they allow scientists to monitor deforestation, melting ice caps and rising sea levels with great accuracy. Without them, our response to climate change and natural disasters would be far less effective. Secondly, the budgets involved are relatively modest. In most countries with space programmes, spending on space represents less than one per cent of the government budget, so cancelling it would do little to solve global poverty. Finally, space exploration inspires young people to study science and engineering, fields on which future solutions to earthly problems will depend.\n\nIt is also questionable whether private firms, which are driven by profit, should control research that affects all of humanity.\n\nIn conclusion, while problems on Earth must remain a priority, space exploration contributes to solving many of them and costs comparatively little. Governments should therefore continue to fund it, alongside, rather than instead of, their efforts to improve life on our own planet."
+      }
+    }
+  ]
+}

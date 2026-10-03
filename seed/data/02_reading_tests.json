@@ -1,0 +1,35 @@
+{
+  "table": "reading_tests",
+  "items": [
+    {
+      "id": "rt_01",
+      "number": 1,
+      "title": "Academic Reading Test 1",
+      "passages": [
+        "rp_01",
+        "rp_02",
+        "rp_03"
+      ]
+    },
+    {
+      "id": "rt_02",
+      "number": 2,
+      "title": "Academic Reading Test 2",
+      "passages": [
+        "rp_06",
+        "rp_07",
+        "rp_08"
+      ]
+    },
+    {
+      "id": "rt_03",
+      "number": 3,
+      "title": "Academic Reading Test 3",
+      "passages": [
+        "rp_04",
+        "rp_05",
+        "rp_09"
+      ]
+    }
+  ]
+}

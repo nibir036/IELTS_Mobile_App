@@ -1,19 +1,26 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
-import 'core/router/app_router.dart';
 
-void main() {
-  runApp(const NextEdIeltsApp());
-}
+import 'app/app.dart';
+import 'app/data/demo.dart';
+import 'app/data/l10n.dart';
+import 'app/data/store.dart';
+import 'app/services/sync_service.dart';
 
-class NextEdIeltsApp extends StatelessWidget {
-  const NextEdIeltsApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp.router(
-      title: 'NextEd IELTS',
-      theme: ThemeData(colorSchemeSeed: Colors.indigo, useMaterial3: true),
-      routerConfig: appRouter,
-    );
-  }
+/// IELTS AI by nextED.
+///
+/// Content is bundled (`assets/`). Accounts and progress live in a local
+/// store on the device (`lib/app/data/store.dart`); built with
+/// `--dart-define=API_BASE_URL=…` they belong to server accounts and are
+/// synced by [SyncService]. Without it the app runs offline with demo
+/// accounts.
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Demo.load();
+  await Store.I.load();
+  SyncService.I.init();
+  unawaited(SyncService.I.syncNow());
+  await ContentL10n.init();
+  runApp(const IeltsAiApp());
 }

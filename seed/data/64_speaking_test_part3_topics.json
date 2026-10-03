@@ -1,0 +1,805 @@
+{
+ "table": "speaking_part3_sets",
+ "items": [
+  {
+   "id": "st_01_p3_1",
+   "source": "test",
+   "testId": "st_01",
+   "category": "test",
+   "topic": "Age and society",
+   "theme": "Speaking Test 1",
+   "questions": [
+    "What roles do older people usually play in families in your country?",
+    "Do you think societies value the experience of older people enough?",
+    "How can communities make life better for their older members?"
+   ],
+   "data": {
+    "id": "st_01_p3_1",
+    "test": "st_01",
+    "topic": "Age and society",
+    "category": "test",
+    "categoryLabel": "Speaking Test 1",
+    "questions": [
+     {
+      "q": "What roles do older people usually play in families in your country?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think societies value the experience of older people enough?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "How can communities make life better for their older members?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_01_p3_2",
+   "source": "test",
+   "testId": "st_01",
+   "category": "test",
+   "topic": "Generations",
+   "theme": "Speaking Test 1",
+   "questions": [
+    "What are the main differences between the older and younger generations today?",
+    "Do you think the gap between generations is growing?",
+    "How can different generations understand each other better?"
+   ],
+   "data": {
+    "id": "st_01_p3_2",
+    "test": "st_01",
+    "topic": "Generations",
+    "category": "test",
+    "categoryLabel": "Speaking Test 1",
+    "questions": [
+     {
+      "q": "What are the main differences between the older and younger generations today?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think the gap between generations is growing?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "How can different generations understand each other better?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_02_p3_1",
+   "source": "test",
+   "testId": "st_02",
+   "category": "test",
+   "topic": "Fame and society",
+   "theme": "Speaking Test 2",
+   "questions": [
+    "Why do you think some people become famous while others do not?",
+    "Are the people who are famous today good role models for the young?",
+    "Has the way people become famous changed in recent years?"
+   ],
+   "data": {
+    "id": "st_02_p3_1",
+    "test": "st_02",
+    "topic": "Fame and society",
+    "category": "test",
+    "categoryLabel": "Speaking Test 2",
+    "questions": [
+     {
+      "q": "Why do you think some people become famous while others do not?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Are the people who are famous today good role models for the young?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Has the way people become famous changed in recent years?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_02_p3_2",
+   "source": "test",
+   "testId": "st_02",
+   "category": "test",
+   "topic": "Influence of public figures",
+   "theme": "Speaking Test 2",
+   "questions": [
+    "How much influence do famous people have on society?",
+    "Should famous people be involved in social or political causes?",
+    "Do you think fame usually brings happiness?"
+   ],
+   "data": {
+    "id": "st_02_p3_2",
+    "test": "st_02",
+    "topic": "Influence of public figures",
+    "category": "test",
+    "categoryLabel": "Speaking Test 2",
+    "questions": [
+     {
+      "q": "How much influence do famous people have on society?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Should famous people be involved in social or political causes?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think fame usually brings happiness?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_03_p3_1",
+   "source": "test",
+   "testId": "st_03",
+   "category": "test",
+   "topic": "Friendship",
+   "theme": "Speaking Test 3",
+   "questions": [
+    "What qualities make a good friend?",
+    "Do you think it is possible to have many close friends?",
+    "Why do some friendships last a lifetime while others fade?"
+   ],
+   "data": {
+    "id": "st_03_p3_1",
+    "test": "st_03",
+    "topic": "Friendship",
+    "category": "test",
+    "categoryLabel": "Speaking Test 3",
+    "questions": [
+     {
+      "q": "What qualities make a good friend?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think it is possible to have many close friends?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Why do some friendships last a lifetime while others fade?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_03_p3_2",
+   "source": "test",
+   "testId": "st_03",
+   "category": "test",
+   "topic": "Friendship and modern life",
+   "theme": "Speaking Test 3",
+   "questions": [
+    "How has technology changed the way friendships are formed?",
+    "Do you think online friends can be as close as friends met in person?",
+    "Is it harder to make new friends as an adult? Why?"
+   ],
+   "data": {
+    "id": "st_03_p3_2",
+    "test": "st_03",
+    "topic": "Friendship and modern life",
+    "category": "test",
+    "categoryLabel": "Speaking Test 3",
+    "questions": [
+     {
+      "q": "How has technology changed the way friendships are formed?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think online friends can be as close as friends met in person?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Is it harder to make new friends as an adult? Why?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_04_p3_1",
+   "source": "test",
+   "testId": "st_04",
+   "category": "test",
+   "topic": "Work and ability",
+   "theme": "Speaking Test 4",
+   "questions": [
+    "What makes someone good at their job?",
+    "Is natural talent or hard work more important for success at work?",
+    "Do you think job satisfaction is more important than a high salary?"
+   ],
+   "data": {
+    "id": "st_04_p3_1",
+    "test": "st_04",
+    "topic": "Work and ability",
+    "category": "test",
+    "categoryLabel": "Speaking Test 4",
+    "questions": [
+     {
+      "q": "What makes someone good at their job?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Is natural talent or hard work more important for success at work?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think job satisfaction is more important than a high salary?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_04_p3_2",
+   "source": "test",
+   "testId": "st_04",
+   "category": "test",
+   "topic": "Careers and the future",
+   "theme": "Speaking Test 4",
+   "questions": [
+    "How have people’s attitudes towards work changed over time?",
+    "Do you think people will change jobs more often in the future?",
+    "Should young people focus on one career or try many different ones?"
+   ],
+   "data": {
+    "id": "st_04_p3_2",
+    "test": "st_04",
+    "topic": "Careers and the future",
+    "category": "test",
+    "categoryLabel": "Speaking Test 4",
+    "questions": [
+     {
+      "q": "How have people’s attitudes towards work changed over time?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think people will change jobs more often in the future?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Should young people focus on one career or try many different ones?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_05_p3_1",
+   "source": "test",
+   "testId": "st_05",
+   "category": "test",
+   "topic": "Family life",
+   "theme": "Speaking Test 5",
+   "questions": [
+    "How important is family in your culture?",
+    "Do you think family relationships are as strong as they were in the past?",
+    "What can families do to spend more quality time together?"
+   ],
+   "data": {
+    "id": "st_05_p3_1",
+    "test": "st_05",
+    "topic": "Family life",
+    "category": "test",
+    "categoryLabel": "Speaking Test 5",
+    "questions": [
+     {
+      "q": "How important is family in your culture?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think family relationships are as strong as they were in the past?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "What can families do to spend more quality time together?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_05_p3_2",
+   "source": "test",
+   "testId": "st_05",
+   "category": "test",
+   "topic": "Family and society",
+   "theme": "Speaking Test 5",
+   "questions": [
+    "How are family roles changing in modern society?",
+    "Do you think children should look after their parents when they grow old?",
+    "What effect does modern working life have on family relationships?"
+   ],
+   "data": {
+    "id": "st_05_p3_2",
+    "test": "st_05",
+    "topic": "Family and society",
+    "category": "test",
+    "categoryLabel": "Speaking Test 5",
+    "questions": [
+     {
+      "q": "How are family roles changing in modern society?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think children should look after their parents when they grow old?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "What effect does modern working life have on family relationships?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_06_p3_1",
+   "source": "test",
+   "testId": "st_06",
+   "category": "test",
+   "topic": "Humour and people",
+   "theme": "Speaking Test 6",
+   "questions": [
+    "Why is a sense of humour considered an attractive quality?",
+    "Do you think humour is the same across different cultures?",
+    "Can humour help people deal with difficult situations?"
+   ],
+   "data": {
+    "id": "st_06_p3_1",
+    "test": "st_06",
+    "topic": "Humour and people",
+    "category": "test",
+    "categoryLabel": "Speaking Test 6",
+    "questions": [
+     {
+      "q": "Why is a sense of humour considered an attractive quality?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think humour is the same across different cultures?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Can humour help people deal with difficult situations?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_06_p3_2",
+   "source": "test",
+   "testId": "st_06",
+   "category": "test",
+   "topic": "Fun and wellbeing",
+   "theme": "Speaking Test 6",
+   "questions": [
+    "How important is laughter for a person’s health?",
+    "Do you think people today take life too seriously?",
+    "What role does entertainment play in helping people relax?"
+   ],
+   "data": {
+    "id": "st_06_p3_2",
+    "test": "st_06",
+    "topic": "Fun and wellbeing",
+    "category": "test",
+    "categoryLabel": "Speaking Test 6",
+    "questions": [
+     {
+      "q": "How important is laughter for a person’s health?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think people today take life too seriously?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "What role does entertainment play in helping people relax?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_07_p3_1",
+   "source": "test",
+   "testId": "st_07",
+   "category": "test",
+   "topic": "Intelligence",
+   "theme": "Speaking Test 7",
+   "questions": [
+    "What does it really mean to be intelligent?",
+    "Do you think intelligence is only about academic ability?",
+    "Can a person become more intelligent, or is it fixed?"
+   ],
+   "data": {
+    "id": "st_07_p3_1",
+    "test": "st_07",
+    "topic": "Intelligence",
+    "category": "test",
+    "categoryLabel": "Speaking Test 7",
+    "questions": [
+     {
+      "q": "What does it really mean to be intelligent?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think intelligence is only about academic ability?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Can a person become more intelligent, or is it fixed?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_07_p3_2",
+   "source": "test",
+   "testId": "st_07",
+   "category": "test",
+   "topic": "Education and ability",
+   "theme": "Speaking Test 7",
+   "questions": [
+    "How well do schools measure students’ true abilities?",
+    "Do you think exams are a fair way to judge intelligence?",
+    "Which is more valuable in life, intelligence or hard work?"
+   ],
+   "data": {
+    "id": "st_07_p3_2",
+    "test": "st_07",
+    "topic": "Education and ability",
+    "category": "test",
+    "categoryLabel": "Speaking Test 7",
+    "questions": [
+     {
+      "q": "How well do schools measure students’ true abilities?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think exams are a fair way to judge intelligence?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Which is more valuable in life, intelligence or hard work?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_08_p3_1",
+   "source": "test",
+   "testId": "st_08",
+   "category": "test",
+   "topic": "Working with others",
+   "theme": "Speaking Test 8",
+   "questions": [
+    "What are the advantages and disadvantages of working in a team?",
+    "Why do some people prefer to work alone?",
+    "How can teams avoid disagreements?"
+   ],
+   "data": {
+    "id": "st_08_p3_1",
+    "test": "st_08",
+    "topic": "Working with others",
+    "category": "test",
+    "categoryLabel": "Speaking Test 8",
+    "questions": [
+     {
+      "q": "What are the advantages and disadvantages of working in a team?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Why do some people prefer to work alone?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "How can teams avoid disagreements?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_08_p3_2",
+   "source": "test",
+   "testId": "st_08",
+   "category": "test",
+   "topic": "Cooperation and success",
+   "theme": "Speaking Test 8",
+   "questions": [
+    "Do you think cooperation is becoming more important in the workplace?",
+    "How can schools prepare students to work well with others?",
+    "Is competition or cooperation more useful for getting good results?"
+   ],
+   "data": {
+    "id": "st_08_p3_2",
+    "test": "st_08",
+    "topic": "Cooperation and success",
+    "category": "test",
+    "categoryLabel": "Speaking Test 8",
+    "questions": [
+     {
+      "q": "Do you think cooperation is becoming more important in the workplace?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "How can schools prepare students to work well with others?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Is competition or cooperation more useful for getting good results?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_09_p3_1",
+   "source": "test",
+   "testId": "st_09",
+   "category": "test",
+   "topic": "Childhood today",
+   "theme": "Speaking Test 9",
+   "questions": [
+    "How is childhood today different from childhood in the past?",
+    "Do you think children grow up too quickly nowadays?",
+    "What are the most important things children should learn?"
+   ],
+   "data": {
+    "id": "st_09_p3_1",
+    "test": "st_09",
+    "topic": "Childhood today",
+    "category": "test",
+    "categoryLabel": "Speaking Test 9",
+    "questions": [
+     {
+      "q": "How is childhood today different from childhood in the past?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think children grow up too quickly nowadays?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "What are the most important things children should learn?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_09_p3_2",
+   "source": "test",
+   "testId": "st_09",
+   "category": "test",
+   "topic": "Raising children",
+   "theme": "Speaking Test 9",
+   "questions": [
+    "Whose responsibility is it to teach children good behaviour?",
+    "Do you think children today have too much freedom or too little?",
+    "How can adults help children develop into responsible people?"
+   ],
+   "data": {
+    "id": "st_09_p3_2",
+    "test": "st_09",
+    "topic": "Raising children",
+    "category": "test",
+    "categoryLabel": "Speaking Test 9",
+    "questions": [
+     {
+      "q": "Whose responsibility is it to teach children good behaviour?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think children today have too much freedom or too little?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "How can adults help children develop into responsible people?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_10_p3_1",
+   "source": "test",
+   "testId": "st_10",
+   "category": "test",
+   "topic": "Helping and kindness",
+   "theme": "Speaking Test 10",
+   "questions": [
+    "Why do some people go out of their way to help others?",
+    "Do you think people are less willing to help strangers than in the past?",
+    "How can a society encourage people to be more helpful?"
+   ],
+   "data": {
+    "id": "st_10_p3_1",
+    "test": "st_10",
+    "topic": "Helping and kindness",
+    "category": "test",
+    "categoryLabel": "Speaking Test 10",
+    "questions": [
+     {
+      "q": "Why do some people go out of their way to help others?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think people are less willing to help strangers than in the past?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "How can a society encourage people to be more helpful?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "st_10_p3_2",
+   "source": "test",
+   "testId": "st_10",
+   "category": "test",
+   "topic": "Support in the community",
+   "theme": "Speaking Test 10",
+   "questions": [
+    "What kinds of support should communities offer people in difficulty?",
+    "Is it better to receive help from family or from professionals?",
+    "Do you think people should always help others, even when it is inconvenient?"
+   ],
+   "data": {
+    "id": "st_10_p3_2",
+    "test": "st_10",
+    "topic": "Support in the community",
+    "category": "test",
+    "categoryLabel": "Speaking Test 10",
+    "questions": [
+     {
+      "q": "What kinds of support should communities offer people in difficulty?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Is it better to receive help from family or from professionals?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     },
+     {
+      "q": "Do you think people should always help others, even when it is inconvenient?",
+      "tag": "",
+      "tagLabel": "",
+      "answer": ""
+     }
+    ]
+   }
+  }
+ ]
+}

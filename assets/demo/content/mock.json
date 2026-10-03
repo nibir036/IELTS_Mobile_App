@@ -1,0 +1,45 @@
+{
+  "mock": {
+    "tests": [
+      {
+        "id": "mt_a",
+        "letter": "A",
+        "title": "Mock Test A",
+        "listeningTest": "lt_01",
+        "readingTest": "rt_01",
+        "task1": "t1_internet_access",
+        "task2": "t2_remote_work",
+        "speaking": {
+          "part1": "s1_work",
+          "cueCard": "cc07"
+        }
+      },
+      {
+        "id": "mt_b",
+        "letter": "B",
+        "title": "Mock Test B",
+        "listeningTest": "lt_02",
+        "readingTest": "rt_02",
+        "task1": "t1_coffee_exports",
+        "task2": "t2_public_transport_funding",
+        "speaking": {
+          "part1": "s1_hometown",
+          "cueCard": "cc22"
+        }
+      },
+      {
+        "id": "mt_c",
+        "letter": "C",
+        "title": "Mock Test C",
+        "listeningTest": "lt_01",
+        "readingTest": "rt_03",
+        "task1": "t1_water_cycle",
+        "task2": "t2_free_university",
+        "speaking": {
+          "part1": "s1_technology",
+          "cueCard": "cc31"
+        }
+      }
+    ]
+  }
+}

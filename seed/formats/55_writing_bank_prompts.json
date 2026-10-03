@@ -1,0 +1,102 @@
+{
+  "_format": {
+    "name": "writing_bank_prompts",
+    "group": "bank",
+    "table": "writing_prompts",
+    "primaryKey": "id",
+    "description": "Writing question bank: 140 Task 1 + 120 Task 2 questions (wb1_/wb2_…).",
+    "currentSourceInApp": "assets/content/writing_bank.json → task1, task2",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "task": "integer",
+      "type": "string",
+      "title": "string",
+      "prompt": "string",
+      "chart": "object",
+      "modelAnswer": "object",
+      "image": "string",
+      "data": "object",
+      "topic": "string"
+    },
+    "notes": [
+      "Band 6/7/8 samples are in 56_writing_bank_samples (writing_sample_answers).",
+      "image = R2 key of the rendered Task 1 visual; chart = its data."
+    ],
+    "recordCountToday": 260
+  },
+  "items": [
+    {
+      "id": "wb1_line_01",
+      "source": "bank",
+      "task": 1,
+      "type": "line",
+      "title": "Households with home internet access, 2000–2020",
+      "prompt": "The line graph below shows the percentage of households with internet access at home in four countries between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "title": "Households with home internet access, 2000–2020",
+        "unit": "% of households",
+        "xLabels": [
+          "2000",
+          "2004",
+          "2008",
+          "2012",
+          "2016",
+          "2020"
+        ],
+        "series": [
+          {
+            "name": "Canada",
+            "values": [
+              42,
+              61,
+              74,
+              83,
+              89,
+              94
+            ]
+          },
+          {
+            "name": "Poland",
+            "values": [
+              8,
+              26,
+              48,
+              70,
+              80,
+              90
+            ]
+          },
+          {
+            "name": "Brazil",
+            "values": [
+              4,
+              10,
+              25,
+              40,
+              58,
+              71
+            ]
+          },
+          {
+            "name": "India",
+            "values": [
+              1,
+              2,
+              6,
+              14,
+              30,
+              52
+            ]
+          }
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The line graph tracks the percentage of households with home internet access in Canada, Poland, Brazil and India between 2000 and 2020.\n\nThe most striking feature is the universal upward trend: all four countries recorded substantial growth, and the initially wide disparities between them had narrowed considerably by 2020. Canada had the highest rate of access at every point, while India remained at the bottom throughout.\n\nAt the start of the period, Canada was already well ahead, with 42% of households connected, compared with a mere 8% in Poland, 4% in Brazil and just 1% in India. Canadian access then rose steadily but at a diminishing rate, reaching 83% in 2012 and levelling off at 94% by 2020. Poland's trajectory was far steeper: its figure increased more than eightfold to 70% by 2012 and ultimately stood at 90%, almost matching Canada's.\n\nBrazil and India followed a similar path, albeit from a lower base. Brazilian access climbed consistently to 58% in 2016 and 71% in 2020. India, meanwhile, made little progress in the first eight years, reaching only 6% in 2008, but its growth accelerated sharply thereafter, with the figure more than tripling between 2012 and 2020 to 52%."
+      },
+      "image": "writing/task1/wb1_line_01.webp",
+      "data": "… the app record (same keys as the source file) …"
+    }
+  ]
+}

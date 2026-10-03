@@ -1,0 +1,431 @@
+[
+ {
+  "id": "rb_matching_features_13",
+  "lesson": {
+   "title": "أماكن فيها عدة إجراءات (Places with several measures)",
+   "text": "عندما تكون الـ features أماكن، قد يصف كل paragraph عدة إجراءات (measures) وعدة نتائج. وكل statement يختار واحدًا منها فقط. لذلك لا تتوقف عن قراءة الـ paragraph بعد أن تجد match واحدًا، لأن المكان نفسه قد يكون جوابًا لـ statement اثنين أو ثلاثة."
+  },
+  "explanations": {
+   "1": "\"Sinking\" = \"subside\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "3": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "4": "\"Return of rain\" = \"a change in the weather\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "5": "\"Public education campaigns\" = \"public information\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "6": "الـ option D مستخدم هنا للمرة الثانية.",
+   "7": "الـ option B مستخدم هنا للمرة الثانية.",
+   "8": "الـ option A مستخدم هنا للمرة الثانية."
+  }
+ },
+ {
+  "id": "rb_matching_features_14",
+  "lesson": {
+   "title": "ربط الـ evidence بالفرضية الصحيحة (Evidence attached to the right hypothesis)",
+   "text": "عندما يعرض الـ passage عدة فرضيات (hypotheses)، لكل واحدة منها evidence خاص بها، فإن الـ statements تصف غالبًا جزءًا من الـ evidence وليس الفرضية نفسها. اسأل نفسك: \"Which hypothesis is this evidence used to support or challenge?\" (أي فرضية يُستخدم هذا الـ evidence لدعمها أو للتشكيك فيها؟). بعض الـ evidence يستخدمه فريقان بطريقتين مختلفتين، لذلك تحقّق من الاتجاه في الجملة المحددة."
+  },
+  "explanations": {
+   "1": "دليل الـ iridium يدعم فرضية الاصطدام (impact hypothesis).",
+   "2": "هذا evidence على التراجع التدريجي (gradual decline)، وقد تم التشكيك فيه.",
+   "3": "يظهر هذا في الـ paragraph الذي يتحدث عن التفسيرات المجتمعة (combined explanations)، ويتعلق بالحدثين معًا.",
+   "4": "الـ option B مستخدم هنا للمرة الثانية.",
+   "5": "\"Underestimated\" = \"not sufficiently recognised\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "6": "فرضية التراجع التدريجي (A) تصف تغيرات في المناخ ومستوى البحر على مدى \"millions of years\"، وليس أحداثًا استمرت \"hundreds of thousands of years\". الـ option C مستخدم هنا للمرة الثانية.",
+   "7": "الـ option D مستخدم هنا للمرة الثانية."
+  }
+ },
+ {
+  "id": "rb_matching_features_15",
+  "lesson": {
+   "title": "Matching Features الصعبة — تغيّر المواقف والإحالات المتبادلة (Hard sets)",
+   "text": "في الـ Hard sets:\n\nقد يظهر الباحثون (researchers) في عدة paragraphs، ويرد بعضهم على بعض أحيانًا؛ وقد يعدّل باحث رأيًا سابقًا له، أو يتعاون مع خصم سابق؛ وتكون الـ statements معاد صياغتها (paraphrase) بشكل كبير، وقد تصف method أو conclusion أو response؛\n\nوقد لا تُستخدم بعض الـ features أبدًا.\n\nلكل feature، اجمع كل المواضع التي ذُكر فيها قبل أن تجيب، وسجّل الترتيب (original claim → challenge → response)."
+  },
+  "explanations": {
+   "1": "هذا هو النمط التناسبي (proportional pattern).",
+   "2": "هذا هو تفسير Easterlin للمفارقة (paradox).",
+   "3": "هذا يسجّل المشاعر في لحظة حدوثها.",
+   "4": "\"Neutral\" = \"impartial\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "5": "يُقدَّم هذا التمييز في الـ paragraph الذي يتحدث عن دراسة Kahneman وDeaton، وهي الدراسة التي طبّقته.",
+   "6": "يظهر رد Easterlin في الـ paragraph C، وهو paragraph دراسة Stevenson–Wolfers، لذلك عليك أن تتابع ذكره لاحقًا. الـ option A مستخدم هنا للمرة الثانية.",
+   "7": "هذه هي النتيجة المشتركة (joint finding). أما C فقد وجد ثباتًا (plateau) في الرفاه العاطفي بشكل عام، وليس لمجموعة فرعية، وهذا يجعل C فخًّا (trap).",
+   "8": "الـ option D مستخدم هنا للمرة الثانية."
+  }
+ },
+ {
+  "id": "rb_matching_features_16",
+  "lesson": {
+   "title": "علماء يقيّد بعضهم آراء بعض (Scholars who qualify one another)",
+   "text": "قد تعرض الـ passages الصعبة عن النقاشات الأكاديمية علماء يبني بعضهم على عمل بعض، أو يقيّدونه، أو يرفضونه. وقد يناقش عالِمان الموضوع نفسه، مثل \"the stability of printed texts\"، ويأخذ كل منهما موقفًا معاكسًا. وتصف الـ statements الموقف بدقة. اقرأ الجزء الخاص بكل عالِم وسجّل الـ claim المميز له، ثم قارن الـ statements بهذا الـ claim."
+  },
+  "explanations": {
+   "1": "\"Not a natural feature\" = \"not inherent\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "3": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "4": "\"Changed the way people thought\" = \"altered patterns of thinking\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "5": "\"Cheap\" = \"inexpensive\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "6": "الـ option A مستخدم هنا للمرة الثانية.",
+   "7": "يصف Febvre وMartin (B) الطابعين بأنهم يسعون إلى الربح، لكن Pettegree وحده يذكر أنهم كانوا يفشلون كثيرًا. الـ option E مستخدم هنا للمرة الثانية.",
+   "8": "يعترض Johns (D) على هذه الفكرة، وهذا يجعل D فخًّا (trap). الـ option C مستخدم هنا للمرة الثانية."
+  }
+ },
+ {
+  "id": "rb_matching_features_17",
+  "lesson": {
+   "title": "Features هي تفسيرات وليست أشخاصًا (Features that are explanations, not people)",
+   "text": "عندما تكون الـ features فرضيات (hypotheses) وليست أسماء علماء، قد يصف الـ passage كل فرضية بكلمات عدة باحثين، وقد يعرض evidence لفرضية ما داخل paragraph يتحدث أساسًا عن فرضية أخرى. اربط كل statement بالتفسير الذي يتعلق به، وليس بالـ paragraph الذي يظهر فيه."
+  },
+  "explanations": {
+   "1": "هذه هي السجلات الطبيعية (natural records).",
+   "2": "هذا هو الاعتراض على تفسير الحروب (warfare explanation).",
+   "3": "يظهر الجفاف (drought) هنا كمثال فقط، لذلك A فخ (trap). فالـ statement يتعلق بالآلية السياسية.",
+   "4": "يظهر هذا في الـ paragraph الخاص بالضرر البيئي. والـ claim بأن إزالة الغابات تزيد الجفاف سوءًا ينتمي إلى ذلك التفسير.",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "6": "الـ option A مستخدم هنا للمرة الثانية.",
+   "7": "الـ option D مستخدم هنا للمرة الثانية.",
+   "8": "الـ option B مستخدم هنا للمرة الثانية."
+  }
+ },
+ {
+  "id": "rb_matching_features_18",
+  "lesson": {
+   "title": "النسخة القوية والنسخة الضعيفة من الفكرة (Strong and weak versions of an idea)",
+   "text": "كثيرًا ما تميّز النقاشات بين نسخة قوية من النظرية (اللغة تحدد التفكير) ونسخة ضعيفة منها (اللغة تؤثر في التفكير في بعض المجالات). وقد يرفض العلماء النسخة القوية ويقبلون الضعيفة. وقد تصف الـ statements أيًّا من النسختين. تحقّق بدقة من النسخة التي يدعمها كل عالِم، أو يرفضها، أو يقدّم evidence عليها."
+  },
+  "explanations": {
+   "1": "\"Oblige\" = \"require\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "تم دحض الـ claim الذي قاله Whorf عن لغة Hopi.",
+   "3": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "4": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "5": "\"Compass directions\" = \"fixed geographical directions\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "6": "\"Human vision\" هو الصفة الجسدية المشتركة. الـ option B مستخدم هنا للمرة الثانية.",
+   "7": "يعارض Pinker (C) أيضًا الـ claims القوية، لكن هذه الصياغة المحددة تعود إلى Deutscher. الـ option E مستخدم هنا للمرة الثانية.",
+   "8": "الـ option C مستخدم هنا للمرة الثانية."
+  }
+ },
+ {
+  "id": "rb_matching_features_19",
+  "lesson": {
+   "title": "Features هي مقاييس أو مؤشرات (Features that are measures or indices)",
+   "text": "عندما تكون الـ features مقاييس (مؤشرات، أدلة، أنظمة)، تصف الـ statements ما يشمله كل مقياس، أو ما يستبعده، أو الغرض الذي صُمّم له، أو الانتقاد الذي وُجّه إليه. وقد تشترك عدة مقاييس في مكوّنات متشابهة (مثل الصحة)، لذلك ابحث عن التركيبة الدقيقة أو الانتقاد المحدد."
+  },
+  "explanations": {
+   "1": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "2": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "3": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "4": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "6": "يُنتقد الـ GPI (C) لأنه يعطي الأشياء قيمًا مالية، وهذا انتقاد مختلف، ولذلك C فخ (trap). الـ option B مستخدم هنا للمرة الثانية.",
+   "7": "الـ option A مستخدم هنا للمرة الثانية.",
+   "8": "الـ option C مستخدم هنا للمرة الثانية."
+  }
+ },
+ {
+  "id": "rb_matching_features_20",
+  "lesson": {
+   "title": "المراجعة النهائية — الطريقة كاملة (The complete method)",
+   "text": "يجمع هذا الـ set الأخير مهارات المستوى الصعب (Hard):\n\nفرضيات يصفها عدة باحثين؛\n\nevidence يدعم فكرة ويضعف فكرة أخرى؛\n\nfeatures مذكورة في أكثر من paragraph؛\n\nstatements معاد صياغتها (paraphrase) عن methods وclaims وانتقادات.\n\nقبل أن تجيب، حدّد لكل فرضية الـ claim الخاص بها والـ evidence والانتقاد."
+  },
+  "explanations": {
+   "1": "\"Treadmills\" = \"machines\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "3": "هذا هو الافتراض الأول لفرضية السافانا (savanna hypothesis)، وقد شكّك فيه لاحقًا evidence الغابات (Paragraph C).",
+   "4": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "5": "الـ option B مستخدم هنا للمرة الثانية.",
+   "6": "الـ option C مستخدم هنا للمرة الثانية.",
+   "7": "الـ option A مستخدم هنا للمرة الثانية.",
+   "8": "هذه هي النظرة المجتمعة والتدريجية (combined, gradual view)."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_01",
+  "lesson": {
+   "title": "توقّع قبل أن تنظر (Predict before you look)",
+   "text": "في الـ sets السهلة، تشير كل بداية (beginning) بوضوح إلى جملة واحدة في الـ passage. اعثر على تلك الجملة وتوقّع النهاية (ending) بكلماتك الخاصة، مثلًا \"...because the army needed food that would last\". ثم ابحث عن الـ ending الذي يعبّر عن توقعك. هذا يمنعك من الانجذاب إلى endings تكرر كلمات الـ passage فقط."
+  },
+  "explanations": {
+   "1": "\"Forces\" = \"armed forces\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "هذا هو اعتقاد Appert نفسه. أما A فهو تفسير Pasteur، وهذا يجعل A فخًّا (trap) لهذه الـ beginning.",
+   "3": "\"Microorganisms\" = \"tiny living organisms\"، و\"growth\" = \"multiply\"، أي المعنى نفسه بكلمات مختلفة.",
+   "4": "\"Lighter\" = \"less heavy\"، و\"stronger\" = \"less likely to break\"، أي المعنى نفسه بكلمات مختلفة.",
+   "5": "H فخ (trap): فتّاحة العلب (can opener) مذكورة، لكنها ليست السبب في وصول الطعام المعلّب إلى البيوت العادية."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_02",
+  "lesson": {
+   "title": "Endings السبب والنتيجة والغرض (Cause, effect and purpose endings)",
+   "text": "كثير من الـ beginnings تحتوي على because أو so that أو as a result، أو على verbs مثل help أو reduce أو lead to. حدّد هل تحتاج الـ beginning إلى سبب (cause) أم نتيجة (effect) أم غرض (purpose)، ثم ابحث عن endings من هذا النوع. قد يكون الـ ending صحيحًا لكنه من النوع الخطأ، مثلًا سبب بينما تحتاج الـ beginning إلى نتيجة."
+  },
+  "explanations": {
+   "1": "\"Useless\" = \"little value\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "تحتاج الـ beginning إلى سبب (cause)، و\"runs off more quickly\" = \"flows off more rapidly\".",
+   "3": "تحتاج الـ beginning إلى غرض (purpose). الـ option H ممكن أيضًا من ناحية الـ grammar، لكن الـ passage لا يقول إن الأراضي الرطبة الاصطناعية بُنيت من أجل الأسماك.",
+   "4": "G صحيح بالنسبة لأراضي الخث (peatlands)، لكنه لا يشرح لماذا يساهم تجفيفها في تغيّر المناخ، لذلك G فخ من نوع true-but-unrelated (صحيح لكن لا علاقة له).",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_03",
+  "lesson": {
+   "title": "Beginnings فيها كلمات زمنية (Beginnings with time words)",
+   "text": "كثيرًا ما تتضمن الـ beginnings إشارات زمنية مثل: \"In ancient times,\"، \"After the 1820s,\"، \"Today,\". هذه الكلمات تخبرك بالضبط أين تبحث في الـ passage. أما الـ endings التي تتحدث عن فترة أخرى فقد تكون جملًا صحيحة، لكنها تصف الزمن الخطأ، وهذا فخ (trap) شائع."
+  },
+  "explanations": {
+   "1": "\"All directions\" = \"every direction\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "E يناقض الـ passage: فالعدسة (lens) لم تكن قطعة زجاج واحدة.",
+   "3": "\"Identify\" = \"recognise\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "4": "G فخ keyword (keyword trap): الضباب (fog) مذكور، لكن في سياق مختلف.",
+   "5": "\"Reliable backup\" = \"dependable alternative\"، أي المعنى نفسه بكلمات مختلفة. أما H فغير مذكور في الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_04",
+  "lesson": {
+   "title": "Beginnings فيها اسم مخترع أو اختراع (Name and invention beginnings)",
+   "text": "عندما تذكر الـ beginning اسم مخترع أو منتج (\"Cristofori's instrument...\")، فإن الـ ending يصف غالبًا ما كان جديدًا فيه أو سبب نجاحه. ابحث عن الجملة التي تشرح أهمية الابتكار، وليس مجرد وجوده."
+  },
+  "explanations": {
+   "1": "هذا هو القيد أو العيب (limitation) في آلة الـ harpsichord.",
+   "2": "G تفصيل خاطئ: المطارق (hammers) كانت مغطاة بالجلد، والأوتار كانت تُضرب ولا تُنقر.",
+   "3": "F يذكر الطلب الذي كان وراء التغيير، لكنه لا يناسب تركيب الغرض \"so that\".",
+   "4": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "5": "H يتحدث عن البيانو الصوتي (acoustic)، وليس عن البيانو الرقمي (digital)."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_05",
+  "lesson": {
+   "title": "عدم اليقين العلمي في الـ endings (Scientific uncertainty in endings)",
+   "text": "كثيرًا ما تقول الـ passages العلمية إن بعض التأثيرات لم تُفهم بشكل كامل بعد. والـ ending الذي يقدّم تأثيرًا على أنه مؤكد قد لا يناسب beginning تتحدث عمّا يعرفه العلماء. طابِق درجة اليقين: إذا قالت الـ beginning \"Researchers are still unsure...\"، فيجب أن يعبّر الـ ending عن عدم يقين أو عن سؤال لم يُجَب عنه."
+  },
+  "explanations": {
+   "1": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "2": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "3": "D وH حقائق معروفة وليست أمورًا غير مؤكدة، وهذا يكسر نمط \"not yet sure\".",
+   "4": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "5": "\"Farmland\" = \"agricultural land\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase)."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_06",
+  "lesson": {
+   "title": "فحص الـ grammar كمرشّح ثانٍ (Checking grammar as a second filter)",
+   "text": "بعد أن تختار حسب المعنى، افحص الـ grammar. إذا انتهت الـ beginning بـ \"so that\" أو \"in order to\" أو \"because\"، فإن بعض الـ endings فقط تناسبها بشكل طبيعي:\n\nin order to + base verb (\"to grow food\")؛\n\nbecause + clause (\"they...\")؛\n\nso that + subject + verb.\n\nالـ grammar وحدها لن تعطيك الجواب، لكنها تستطيع أن تستبعد بسرعة ending أو اثنين."
+  },
+  "explanations": {
+   "1": "بعد \"in order to\" لا يناسب إلا الـ endings التي تبدأ بـ base verb، وهي A أو D أو G. والـ option D وحده يطابق الغرض في زمن الحرب. أما G فهو من فترة إحياء السبعينيات (1970s revival)، وهذا يجعله فخ الفترة الخطأ (wrong-period trap).",
+   "2": "\"More plentiful\" = \"easier to obtain\"، أي المعنى نفسه بكلمات مختلفة. أما B فيصف الإغلاق بسبب البناء، وهذا ما يربطه الـ passage بالحدائق الحديثة فقط (Paragraph F).",
+   "3": "\"Contaminated\" = \"polluted\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "4": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_07",
+  "lesson": {
+   "title": "عدة endings عن الموضوع نفسه (Several endings on the same topic)",
+   "text": "في المستوى المتوسط (Medium)، قد تتعلق 3 أو 4 endings بالحيوان نفسه أو الفكرة نفسها، وتختلف في تفصيل أساسي (الطريقة أم النتيجة، السبب أم النتيجة، نوع أم نوع آخر). حدّد العلاقة المحددة التي تحتاجها الـ beginning، ثم اختر الـ ending الذي يعبّر عن هذه العلاقة للموضوع (subject) الصحيح."
+  },
+  "explanations": {
+   "1": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "2": "H مستبعد بشكل صريح: \"cannot be estimated from growth rings\".",
+   "3": "F صحيح بالنسبة لسمك القرش (shark)، لكن الـ passage يربط الماء البارد بطول عمره، وليس بضعفه أمام الخطر. هذا فخ الموضوع نفسه (same-subject trap).",
+   "4": "لا يذكر الـ passage أن I هو ما دفع (prompted) العلماء إلى دراسة عمر الحيتان.",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "6": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_08",
+  "lesson": {
+   "title": "Endings تعكس السبب والنتيجة (Endings that reverse cause and effect)",
+   "text": "من الـ distractors القوية في المستوى المتوسط ما يستخدم الأفكار الصحيحة لكن في الاتجاه الخطأ. مثلًا، يقول الـ passage \"prices rise as seats fill\"، ويقول الـ ending \"seats fill because prices rise\". قبل أن تختار، تحقّق أي فكرة هي السبب (cause) وأيها النتيجة (effect) في الـ passage، وتأكد أن الجملة الكاملة تحافظ على هذا الترتيب."
+  },
+  "explanations": {
+   "1": "\"Controls removed\" = \"regulation ended\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "3": "I يعكس الحقائق: المسافرون لأغراض العمل يحجزون في وقت قصير قبل السفر، وليس مبكرًا.",
+   "4": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "5": "G يعكس فكرة النقاد، لأن التعقيد يجعل المقارنة أصعب.",
+   "6": "E هو الاعتقاد الشائع الذي يقول الـ passage إن عليه \"little evidence\"، لذلك هو فخ عكس السبب والنتيجة (cause-reversal trap)."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_09",
+  "lesson": {
+   "title": "Claims وevidence وانتقادات في passage واحد (Claims, evidence and criticism in one passage)",
+   "text": "عندما يعرض الـ passage نظرية، والـ evidence الذي يدعمها، ثم الانتقادات اللاحقة لها، فقد تشير الـ beginnings إلى أي واحد من هذه الثلاثة. تحقّق هل تسأل الـ beginning عمّا تقوله النظرية (claim)، أم عن الـ evidence الذي استُخدم، أم عمّا وجده النقاد. والـ endings التي تنتمي إلى الفئة الخطأ هي الـ distractors الأساسية."
+  },
+  "explanations": {
+   "1": "I تفصيل صحيح، لكنه ليس الملاحظة التي بُنيت عليها فكرته.",
+   "2": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "3": "E غير مدعوم في الـ passage، وهو يناقض النتيجة (finding).",
+   "4": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "5": "\"Diet\" = \"what animals eat\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "6": "C يتحدث فقط عن العلاقات عبر الإنترنت (online contacts)، وليس الفكرة العامة التي يقبلها النقاد، وهذا يجعله فخ الموضوع نفسه (same-topic trap)."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_10",
+  "lesson": {
+   "title": "الفوائد والصراعات (Benefits and conflicts)",
+   "text": "كثيرًا ما توازن passages حماية البيئة بين الفوائد (البيئية والاقتصادية) والصراعات (مع المزارعين أو ملّاك الأراضي). وقد تبدأ الـ beginnings بشكل محايد (\"Beaver dams...\")، وتطلب منك أن تختار بين ending إيجابي وending سلبي. تحقّق من الجملة المحددة التي تشير إليها الـ beginning، فقد يكون النوعان صحيحين في مكان ما من الـ passage."
+  },
+  "explanations": {
+   "1": "هذه هي المنتجات القيّمة.",
+   "2": "I يصف كيف ربما وصلت القنادس (beavers)، وليس لماذا سُمح لها بالبقاء.",
+   "3": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "4": "\"Partly eased\" تطابق أن البحث قلّل القلق دون أن يزيله تمامًا. أما F فيناقضه الـ passage، لأن عمليات الإطلاق (releases) بدأت بالفعل.",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "6": "تغييرات \"Inconvenient\" = \"disruptive\"، أي المعنى نفسه بكلمات مختلفة."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_11",
+  "lesson": {
+   "title": "Beginnings تتحدث عن نتائج الأحداث (Beginnings that refer to consequences of events)",
+   "text": "تربط الـ passages التاريخية الأحداث بنتائجها: \"The First World War led governments to...\"، \"The 1920 conference resulted in...\". وقد تصف عدة endings تغييرات في المجال نفسه، مثل تصميم جواز السفر، لكن من فترات مختلفة. طابِق الحدث المحدد بنتيجته المحددة، مستعينًا بالـ paragraph الذي يظهر فيه الحدث."
+  },
+  "explanations": {
+   "1": "I يناقضه الـ passage بشكل صريح.",
+   "2": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "3": "\"Concerned about spies\" = \"security reasons\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "4": "F ينتمي إلى فترة لاحقة، ولا يحدث إلا \"in some cases\"، لذلك هو فخ الفترة الخطأ (wrong-period trap).",
+   "5": "H يتحدث عن الشرائح الإلكترونية (electronic chips)، وهي تطوّر جاء لاحقًا.",
+   "6": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_12",
+  "lesson": {
+   "title": "أمثلة توضّح فكرة عامة (Examples that illustrate a general point)",
+   "text": "بعض الـ beginnings تذكر مثالًا محددًا (\"Blackbirds in cities...\")، والـ ending الصحيح يذكر ما يوضّحه هذا المثال أو كيف تغيّر الحيوان. وقد تصف endings أخرى تكيّفات (adaptations) حيوانات أخرى. تابِع أي مثال ينتمي إلى أي تغيير، ولا تنشغل بـ endings صحيحة لكنها تخص نوعًا آخر من الحيوانات."
+  },
+  "explanations": {
+   "1": "I يشرح لماذا تغرّد بعض الطيور في وقت أبكر، وليس لماذا تغرّد بنبرة أعلى (higher pitch).",
+   "2": "\"Rarely dangerous\" = \"seldom pose a real threat\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "3": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "4": "H هو الاستنتاج المعاكس، أي أن الاختلافات تأتي من طريقة نموّ السحالي (lizards).",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "6": "G يصف الأنواع التي تزدهر، وليس سبب فائدة المدن للدراسة."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_13",
+  "lesson": {
+   "title": "النتائج مقابل حدود الدراسة (Findings vs limitations)",
+   "text": "كثيرًا ما تعرض passages الأبحاث النتائج (findings) ثم حدود الدراسة (limitations) (\"however, the companies taking part were not typical...\"). وقد تسأل الـ beginnings عن أيٍّ منهما. ابحث عن الكلمات الإشارية التي تقدّم الـ limitations (however، critics note، one weakness، it is unclear whether). ويجب أن يطابق الـ ending الفئة التي تحتاجها الـ beginning."
+  },
+  "explanations": {
+   "1": "هذا هو منطق المؤيدين (supporters).",
+   "2": "G يناقضه قول الـ passage \"maintaining full pay\".",
+   "3": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "4": "هذه نتيجة (finding) تخص بعض المؤسسات فقط.",
+   "5": "هذا limitation (حدّ من حدود الدراسة). أما I فغير مذكور، لأن نتائج قطاع التصنيع غير معروفة.",
+   "6": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_14",
+  "lesson": {
+   "title": "الشروح التقنية في الـ endings (Technical explanations in endings)",
+   "text": "قد تشرح الـ passages العلمية آلية (mechanism) على عدة خطوات. وقد تصف الـ endings الآلية نفسها، أو تأثيرها، أو تطبيقًا عمليًا لها. بعض الـ distractors تذكر الآلية بشكل خاطئ لكنه يبدو معقولًا، مثلًا \"pigments reflect blue light\" بينما يقول الـ passage إنه لا توجد صبغة زرقاء. تحقّق من الشرح الدقيق في الـ passage."
+  },
+  "explanations": {
+   "1": "C يناقض مباشرة عبارة \"contain no blue pigment\".",
+   "2": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "3": "H فخ keyword (keyword trap): الـ melanin موجود، لكنه لا يشرح تغيّر المظهر.",
+   "4": "تُظهر المقارنة أن الأصباغ (pigments) تبهت لأن موادها الكيميائية تتحلل. أما A فيصف اللون البنيوي (structural colour) وليس الصبغة، لذلك لا يكمل هذه الـ beginning.",
+   "5": "I يناقضه قول الـ passage \"reproducing them on a large scale at low cost remains a challenge\".",
+   "6": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_15",
+  "lesson": {
+   "title": "Matching Sentence Endings الصعبة — endings مجرّدة (Abstract endings)",
+   "text": "في المستوى الصعب (Hard):\n\nتكون الـ endings مجرّدة (abstract) ومعاد صياغتها (paraphrase) بشكل كبير (\"the absence of a convincing explanation\" بدلًا من \"nobody knew why lemons worked\")؛\n\nيوجد عادةً 10 endings أو أكثر، وبعضها جمل صحيحة من الـ passage لكنها تكمل beginning أخرى؛\n\nبعض الـ beginnings تتطلب منك أن تجمع معلومات من جملتين.\n\nالـ Strategy: لكل beginning، اكتب توقّعًا (prediction) قصيرًا بكلمات بسيطة، ثم حوّله إلى اللغة المجرّدة التي تستخدمها الـ endings. وتحقّق من الجملة الكاملة مقابل الـ passage من ناحية المعنى والنطاق (scope) معًا."
+  },
+  "explanations": {
+   "1": "\"Systematically\" = \"in a consistent, organised way\"، أي المعنى نفسه بكلمات مختلفة. أما J فغير مذكور.",
+   "2": "\"Heating\" = \"a processing method\"، و\"destroyed much of its effectiveness\" = \"damaged the active substance\". أما G ففخ keyword (keyword trap) يتعلق باكتشاف جاء لاحقًا.",
+   "3": "H يعكس فكرة Rogers: فالابتكارات التي يروّج لها أشخاص من الخارج قد تواجه مقاومة (Paragraph E).",
+   "4": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "5": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "6": "I يناقض الـ Paragraph E (\"can be more influential than scientific evidence\")."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_16",
+  "lesson": {
+   "title": "المفارقات والتفكير المخالف للمتوقع (Paradoxes and counter-intuitive reasoning)",
+   "text": "بعض الـ passages الصعبة تشرح مفارقة (paradox). هنا، الدواء الذي له قيمة كبيرة جدًا للمجتمع يحقق أرباحًا قليلة. وقد تسأل الـ beginnings عن سبب المفارقة أو عن الحل المقترح. وقد تكون الـ endings جملًا تبدو منطقية بالحس العام (common sense) لكن الـ passage يرفضها عمدًا. تابِع منطق الـ passage خطوة بخطوة، حتى لو بدا مفاجئًا."
+  },
+  "explanations": {
+   "1": "\"Multiply\" = \"increase in number\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "2": "F يصف أدوية الأمراض طويلة الأمد، وهي الحالة المعاكسة. أما H فهو الفهم الخاطئ المبني على الحس العام، وهو ما يرفضه الـ passage (\"used as little as possible\").",
+   "3": "\"Easiest to discover\" = \"most accessible sources ... already exploited\"، أي المعنى نفسه بكلمات مختلفة.",
+   "4": "I يبالغ في الحجة: الـ passage لا يقول إن حوافز الدفع المسبق (push incentives) غير ضرورية؛ بل يقول إن حوافز المكافأة (pull incentives) \"also needed\".",
+   "5": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "6": "J صحيح، لكنه يتعلق بتقليل الاستخدام وليس بأنظمة الدفع، لذلك هو فخ true-but-unrelated (صحيح لكن لا علاقة له)."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_17",
+  "lesson": {
+   "title": "النسخة الشائعة مقابل البحث الأصلي (Popularised versions vs original research)",
+   "text": "قد تميّز الـ passages الصعبة بين ما وجده البحث فعلًا وكيف انتشر بين الناس بصورة مبسّطة. وقد تتعلق الـ beginnings بأيٍّ منهما. والـ ending الذي يعكس النسخة الشائعة قد يكون صحيحًا لـ beginning عن الاعتقاد الشائع، لكنه خاطئ لـ beginning عن الدراسة الأصلية. حدّد صاحب الـ claim الذي تتعلق به كل beginning."
+  },
+  "explanations": {
+   "1": "H يعكس النظرة التقليدية عن \"talent\"، وهي ما لم تذكره الدراسة.",
+   "2": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "3": "J خاطئ، لأن الدراسة كانت عن عازفي الكمان (violinists).",
+   "4": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "5": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "6": "I عكس نصيحة الكاتب، وG هو الـ claim الشائع الذي يصفه الكاتب بأنه \"exaggerated\"."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_18",
+  "lesson": {
+   "title": "إخفاقات أدّت إلى نجاح لاحق (Failures that led to later success)",
+   "text": "كثيرًا ما تصف passages تاريخ العلوم محاولة مبكرة فشلت، لكن طريقتها ثبتت صحتها لاحقًا. وقد تسأل الـ beginnings عن سبب فشلها أو عمّا أثبتته. وهذان يحتاجان إلى endings مختلفة: واحد عن العقبة، وآخر عن القيمة الدائمة. لا تخلط بينهما."
+  },
+  "explanations": {
+   "1": "هذه paraphrase (إعادة صياغة) لكلام الـ passage.",
+   "2": "\"Fishermen and sailors\" = \"people at sea\"، أي أن المعنى واحد لكن بكلمات مختلفة (paraphrase).",
+   "3": "H يشرح لماذا كانت الطريقة بطيئة، وليس لماذا كان التنبؤ (forecast) خاطئًا. وهذا هو التمييز بين الفشل وثبوت الصحة لاحقًا الذي شرحه الدرس.",
+   "4": "هذه هي القيمة الدائمة لعمله.",
+   "5": "F يناقض الـ passage، لأن المعادلات (equations) كانت معروفة ومستخدمة.",
+   "6": "J قوي أكثر من اللازم، لأن الـ ensembles تقيس عدم اليقين لكنها لا تزيله."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_19",
+  "lesson": {
+   "title": "الدحض (Refutations)",
+   "text": "عندما يعرض الـ passage نظرية مشهورة ثم evidence يدحضها أو يحدّ منها، فقد تتعلق الـ beginnings بالـ claim الأصلي، أو بالـ evidence المضاد، أو بالاستنتاج المعدَّل. وقد تعيد بعض الـ endings ذكر توقع النظرية الأصلية؛ وهذه تكمل الـ beginnings التي تتحدث عن النظرية، وليس الـ beginnings التي تتحدث عن الـ evidence. اربط كل beginning بالمرحلة التي تنتمي إليها."
+  },
+  "explanations": {
+   "1": "F هو استنتاج Hardin، وليس سبب سلوك كل راعٍ (herder).",
+   "2": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage.",
+   "3": "هذه هي مرحلة الـ evidence المضاد (counter-evidence).",
+   "4": "I غير مذكور في الـ passage.",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "6": "هذه paraphrase مباشرة (إعادة صياغة مباشرة) لكلام الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_endings_20",
+  "lesson": {
+   "title": "المراجعة النهائية — الطريقة كاملة (The complete method)",
+   "text": "يجمع هذا الـ set الأخير المهارات الأساسية: endings مجرّدة، وعدة endings من نوع true-but-unrelated، وعكس السبب والنتيجة، وbeginnings تتطلب منك أن تجمع المعلومات. لكل beginning:\n\n1. حدّد مكان الجزء المطلوب في الـ passage.\n\n2. توقّع الـ ending بكلمات بسيطة.\n\n3. طابِق توقعك مع الـ ending المجرّد.\n\n4. تأكد من المعنى والنطاق (scope) والـ grammar."
+  },
+  "explanations": {
+   "1": "G يشرح لماذا فقدت المدن وظيفتها، وليس كيف نشأت، لذلك هو فخ عكس السبب والنتيجة (cause-reversal trap).",
+   "2": "هذه هي الميزة التي تقوّي نفسها بنفسها (self-reinforcing advantage).",
+   "3": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "4": "I يناقض الـ passage.",
+   "5": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage.",
+   "6": "هذا match مباشر (تطابق مباشر): ما يقوله الـ statement هو نفسه ما يقوله الـ passage."
+  }
+ }
+]

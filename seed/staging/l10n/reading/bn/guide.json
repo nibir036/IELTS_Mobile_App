@@ -1,0 +1,664 @@
+[
+ {
+  "id": "intro",
+  "title": "এই guide কীভাবে ব্যবহার করবেন",
+  "blocks": [
+   [
+    "p",
+    "এই guide-টা লেখা হয়েছে IELTS Academic Reading-এর জন্য। প্রতিটি অধ্যায়ে ব্যাখ্যা বাংলায়, কিন্তু passage, question, option আর answer-এর উদাহরণ ইংরেজিতে — কারণ পরীক্ষায় আপনি ঠিক এগুলোই দেখবেন।"
+   ],
+   [
+    "p",
+    "Guide-টা তিন ভাগে সাজানো: প্রথমে test-টা কীভাবে কাজ করে আর band কীভাবে হিসাব হয়; তারপর যে skill-গুলো ছাড়া Reading-এ ভালো করা যায় না; শেষে ১৪টি question type একটা একটা করে — প্রতিটির জন্য strategy, trap আর IELTS AI by nextED-এর question bank থেকে নেওয়া worked example।"
+   ],
+   [
+    "tip",
+    "পুরো guide একবারে পড়ার দরকার নেই। Time management অধ্যায় পর্যন্ত একবার ভালো করে পড়ুন, তারপর যে question type practice করবেন, শুধু সেই type-এর lesson পড়ে app-এ ওই type-এর set শুরু করুন।"
+   ]
+  ]
+ },
+ {
+  "id": "overview",
+  "title": "IELTS Academic Reading — এক নজরে",
+  "blocks": [
+   [
+    "p",
+    "IELTS Academic Reading test-এ আপনাকে ৩টি লম্বা passage পড়ে মোট ৪০টি question-এর উত্তর দিতে হয়, সময় ৬০ মিনিট। প্রতিটি সঠিক উত্তরে ১ নম্বর, ভুল উত্তরে কোনো নম্বর কাটা হয় না।"
+   ],
+   [
+    "table",
+    [
+     "বিষয়",
+     "তথ্য"
+    ],
+    [
+     [
+      "Passage",
+      "৩টি (Section 1, 2, 3); মোট প্রায় ২,১৫০–২,৭৫০ শব্দ"
+     ],
+     [
+      "Question",
+      "৪০টি, প্রতি passage-এ সাধারণত ১৩–১৪টি"
+     ],
+     [
+      "সময়",
+      "৬০ মিনিট — answer sheet-এ লেখার জন্য আলাদা সময় নেই"
+     ],
+     [
+      "Passage-এর উৎস",
+      "বই, journal, magazine, newspaper — সাধারণ পাঠকের জন্য লেখা academic topic"
+     ],
+     [
+      "Difficulty",
+      "সাধারণত Passage 1 সহজ, Passage 3 সবচেয়ে কঠিন ও যুক্তিনির্ভর"
+     ],
+     [
+      "Marking",
+      "প্রতিটি সঠিক answer = ১; negative marking নেই"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "Listening আর Reading-এর বড় পার্থক্য"
+   ],
+   [
+    "p",
+    "Listening-এ শেষে answer transfer করার জন্য অতিরিক্ত সময় পাওয়া যায় (paper test-এ), কিন্তু Reading-এ কোনো transfer time নেই। Paper-based test দিলে প্রতিটি passage শেষ করেই answer sheet-এ উত্তর লিখে ফেলুন। Computer-delivered test-এ উত্তর সরাসরি screen-এ টাইপ হয়, তাই এই সমস্যা নেই — কিন্তু ৬০ মিনিট শেষ হলেই test বন্ধ হয়ে যায়।"
+   ],
+   [
+    "h",
+    "Passage-গুলো কেমন হয়"
+   ],
+   [
+    "ul",
+    [
+     "Topic সাধারণত science, history, environment, psychology, technology, education বা business — কিন্তু কোনো বিষয়ে আগে থেকে জ্ঞান লাগে না। উত্তর সবসময় passage-এর ভেতরেই থাকে।",
+     "কমপক্ষে একটি passage-এ লেখকের argument বা মতামত থাকে — এখানেই Yes / No / Not Given আর writer's view-এর question আসে।",
+     "কিছু passage-এ diagram, table বা technical শব্দের glossary থাকতে পারে।"
+    ]
+   ],
+   [
+    "tip",
+    "Reading test আসলে ইংরেজি জ্ঞানের চেয়ে বেশি যাচাই করে দুটো জিনিস: দ্রুত তথ্য খুঁজে বের করার ক্ষমতা (locating) আর একই কথা অন্য শব্দে বলা হলে সেটা চিনতে পারা (paraphrase)। এই দুটো skill-ই practice দিয়ে বাড়ানো যায়।"
+   ]
+  ]
+ },
+ {
+  "id": "band",
+  "title": "Band score কীভাবে হিসাব হয়",
+  "blocks": [
+   [
+    "p",
+    "৪০টির মধ্যে আপনার সঠিক উত্তরের সংখ্যাকে (raw score) একটি conversion table দিয়ে band-এ রূপান্তর করা হয়। নিচের table-টা Academic Reading-এর জন্য সাধারণভাবে ব্যবহৃত হিসাব; প্রতিটি test-এর কঠিনতা অনুযায়ী ১–২ নম্বর এদিক-ওদিক হতে পারে।"
+   ],
+   [
+    "table",
+    [
+     "সঠিক উত্তর (৪০-এর মধ্যে)",
+     "Band"
+    ],
+    [
+     [
+      "39–40",
+      "9.0"
+     ],
+     [
+      "37–38",
+      "8.5"
+     ],
+     [
+      "35–36",
+      "8.0"
+     ],
+     [
+      "33–34",
+      "7.5"
+     ],
+     [
+      "30–32",
+      "7.0"
+     ],
+     [
+      "27–29",
+      "6.5"
+     ],
+     [
+      "23–26",
+      "6.0"
+     ],
+     [
+      "19–22",
+      "5.5"
+     ],
+     [
+      "15–18",
+      "5.0"
+     ],
+     [
+      "13–14",
+      "4.5"
+     ],
+     [
+      "10–12",
+      "4.0"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "আপনার target অনুযায়ী হিসাব"
+   ],
+   [
+    "ul",
+    [
+     "Band 6.0 চাইলে: ৪০-এর মধ্যে ২৩টি — অর্থাৎ প্রায় ১৭টি ভুল করার সুযোগ আছে।",
+     "Band 6.5 চাইলে: ২৭টি — প্রতি passage-এ গড়ে ৯টি সঠিক।",
+     "Band 7.0 চাইলে: ৩০টি — প্রতি passage-এ গড়ে ১০টি সঠিক।",
+     "Band 8.0 চাইলে: ৩৫টি — প্রায় কোনো ভুলের জায়গা নেই।"
+    ]
+   ],
+   [
+    "tip",
+    "Target band 6.5 হলে প্রতিটি question-এ সঠিক হতে হবে এমন নয়। কঠিন একটি question-এ ৪ মিনিট আটকে থাকার চেয়ে সেটা বাদ দিয়ে সহজ ৩টি question করা অনেক লাভজনক। কোনো question-ই খালি রাখবেন না — ভুলে নম্বর কাটে না, তাই শেষে অন্তত একটি guess লিখে দিন।"
+   ],
+   [
+    "p",
+    "IELTS AI by nextED app-এর প্রতিটি full test আর mock test শেষে এই table দিয়েই আপনার Reading band দেখানো হয়।"
+   ]
+  ]
+ },
+ {
+  "id": "rules",
+  "title": "Answer লেখার নিয়ম — যেখানে সহজ নম্বর হারায়",
+  "blocks": [
+   [
+    "p",
+    "অনেক student সঠিক উত্তর খুঁজে পেয়েও নম্বর হারান শুধু লেখার নিয়ম না মানার কারণে। এই নিয়মগুলো মুখস্থ করে ফেলুন।"
+   ],
+   [
+    "h",
+    "১. Word limit"
+   ],
+   [
+    "p",
+    "Instruction-এ যা লেখা থাকে, তার বেশি শব্দ লিখলে উত্তর ভুল ধরা হয় — এমনকি তথ্য সঠিক হলেও।"
+   ],
+   [
+    "table",
+    [
+     "Instruction",
+     "মানে"
+    ],
+    [
+     [
+      "ONE WORD ONLY",
+      "ঠিক ১টি শব্দ"
+     ],
+     [
+      "NO MORE THAN TWO WORDS",
+      "১ বা ২টি শব্দ"
+     ],
+     [
+      "ONE WORD AND/OR A NUMBER",
+      "১টি শব্দ, বা ১টি সংখ্যা, বা ১টি শব্দ + ১টি সংখ্যা"
+     ],
+     [
+      "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+      "সর্বোচ্চ ৩টি শব্দ, সাথে চাইলে ১টি সংখ্যা"
+     ]
+    ]
+   ],
+   [
+    "ex",
+    "Passage: \"...grown along the banks of the River Nile.\"\nInstruction: ONE WORD ONLY → Answer: Nile  (\"River Nile\" = 2 words → wrong)"
+   ],
+   [
+    "h",
+    "২. Spelling"
+   ],
+   [
+    "p",
+    "বানান ভুল হলে উত্তর ভুল। উত্তর সাধারণত passage থেকে হুবহু কপি করতে হয়, তাই passage-এর বানানটাই লিখুন। British ও American দুই রকম বানানই (colour / color) গ্রহণযোগ্য।"
+   ],
+   [
+    "h",
+    "৩. Grammar ঠিক রাখা"
+   ],
+   [
+    "p",
+    "Completion question-এ আপনার শব্দ বসানোর পর পুরো sentence-টা grammatically ঠিক হতে হবে। Singular / plural খেয়াল করুন: passage-এ \"seeds\" থাকলে আর gap-এর আগে \"several\" থাকলে উত্তর অবশ্যই \"seeds\" — \"seed\" লিখলে ভুল।"
+   ],
+   [
+    "h",
+    "৪. সংখ্যা, hyphen আর capital letter"
+   ],
+   [
+    "ul",
+    [
+     "সংখ্যা digit-এ লেখা যায় (25) — এটা word limit-এ \"a number\" হিসেবে গোনা হয়।",
+     "Hyphen দেওয়া শব্দ (well-known, 19th-century) একটি শব্দ হিসেবে গোনা হয়।",
+     "Capital বা small letter-এ কিছু যায় আসে না; পুরো উত্তর CAPITAL-এ লিখলেও চলে।",
+     "Passage-এ যে শব্দ নেই, এমন শব্দ বানিয়ে লিখবেন না — completion-এর উত্তর passage থেকেই নিতে হয়।"
+    ]
+   ],
+   [
+    "h",
+    "৫. TRUE / FALSE বনাম YES / NO"
+   ],
+   [
+    "p",
+    "Question যেটা চাইছে ঠিক সেটাই লিখুন। TRUE / FALSE / NOT GIVEN question-এ YES লিখলে বা উল্টোটা করলে উত্তর ভুল ধরা হতে পারে। T / F / NG সংক্ষেপে লেখাও ঝুঁকিপূর্ণ — পুরো শব্দ লিখুন।"
+   ],
+   [
+    "h",
+    "৬. Letter আর roman numeral"
+   ],
+   [
+    "p",
+    "Matching question-এ option-এর letter (A, B, C…) বা heading-এর number (i, ii, iii…) লিখতে হয় — পুরো text নয়। Heading-এর উত্তর \"iv\" হলে \"4\" লিখবেন না।"
+   ],
+   [
+    "tip",
+    "Practice-এর সময় প্রতিটি ভুল উত্তরের পাশে কারণ লিখে রাখুন: \"word limit\", \"spelling\", \"plural\", \"wrong paragraph\" ইত্যাদি। দুই সপ্তাহ পর দেখবেন আপনার বেশিরভাগ ভুল ২–৩টি নির্দিষ্ট কারণে হচ্ছে — তখন শুধু সেগুলো ঠিক করলেই band বাড়বে।"
+   ]
+  ]
+ },
+ {
+  "id": "skills",
+  "title": "Reading-এর মূল skill-গুলো",
+  "blocks": [
+   [
+    "p",
+    "IELTS Reading-এ পুরো passage প্রতিটি শব্দ ধরে পড়ার সময় নেই। ভালো reader-রা পরিস্থিতি অনুযায়ী ভিন্ন ভিন্ন ভাবে পড়েন। নিচের ৫টি skill আলাদা করে practice করুন।"
+   ],
+   [
+    "h",
+    "Skill ১ — Skimming: পুরো ছবিটা ধরা"
+   ],
+   [
+    "p",
+    "Skimming মানে দ্রুত চোখ বুলিয়ে passage-এর মূল বিষয় আর গঠন বোঝা। ২–৩ মিনিটের মধ্যে আপনি জানতে চান: passage-টা কী নিয়ে, আর কোন paragraph-এ কী আছে।"
+   ],
+   [
+    "ol",
+    [
+     "Title আর subtitle পড়ুন।",
+     "প্রতিটি paragraph-এর প্রথম sentence (topic sentence) পড়ুন, দরকার হলে শেষ sentence-ও।",
+     "প্রতিটি paragraph-এর পাশে ২–৩ শব্দে নোট লিখুন: \"history\", \"problem\", \"new research\"।",
+     "সংখ্যা, নাম আর উদাহরণে এখন আটকাবেন না — ওগুলো পরে scanning-এর সময় কাজে লাগবে।"
+    ]
+   ],
+   [
+    "h",
+    "Skill ২ — Scanning: নির্দিষ্ট তথ্য খোঁজা"
+   ],
+   [
+    "p",
+    "Scanning মানে passage না পড়ে নির্দিষ্ট একটি শব্দ, নাম, সাল বা সংখ্যা খোঁজা — যেভাবে dictionary-তে শব্দ খোঁজেন। Question-এর যে শব্দগুলো paraphrase হতে পারে না (proper noun, সংখ্যা, সাল, technical term), সেগুলোই scanning-এর জন্য সবচেয়ে ভালো।"
+   ],
+   [
+    "ex",
+    "Question: In which year did the first public library open in Manchester?\nScan for: Manchester, a year (18__), library"
+   ],
+   [
+    "h",
+    "Skill ৩ — Keyword আর paraphrase চেনা"
+   ],
+   [
+    "p",
+    "IELTS-এর question প্রায় কখনোই passage-এর শব্দ হুবহু ব্যবহার করে না। একই অর্থ অন্য শব্দে বলে — এটাই paraphrase। Question-এর keyword underline করুন, তারপর ভাবুন passage-এ সেটা কীভাবে লেখা থাকতে পারে।"
+   ],
+   [
+    "table",
+    [
+     "Question-এ",
+     "Passage-এ হতে পারে"
+    ],
+    [
+     [
+      "increase",
+      "rise, grow, climb, go up, a surge in"
+     ],
+     [
+      "important",
+      "significant, crucial, essential, key, vital"
+     ],
+     [
+      "because of",
+      "due to, owing to, as a result of, caused by"
+     ],
+     [
+      "not enough",
+      "a shortage of, insufficient, a lack of, scarce"
+     ],
+     [
+      "old",
+      "ancient, elderly, aged, historic, early"
+     ],
+     [
+      "start",
+      "launch, initiate, set up, establish, introduce"
+     ],
+     [
+      "problem",
+      "issue, challenge, difficulty, drawback"
+     ],
+     [
+      "children",
+      "youngsters, kids, minors, the young"
+     ],
+     [
+      "cheap",
+      "inexpensive, low-cost, affordable"
+     ],
+     [
+      "most",
+      "the majority of, over half, seventy per cent"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "শুধু synonym নয়, IELTS পুরো sentence-এর গঠনও পাল্টে দেয় — active থেকে passive, noun থেকে verb, positive থেকে negative।"
+   ],
+   [
+    "ex",
+    "Passage: \"Few visitors came in winter because the road was often closed.\"\nQuestion: Winter access to the site was difficult.\n(road often closed → access difficult;  few visitors → consequence)"
+   ],
+   [
+    "h",
+    "Skill ৪ — Detail পড়া: উত্তরের sentence-টা ঠিকমতো বোঝা"
+   ],
+   [
+    "p",
+    "Scanning দিয়ে সঠিক জায়গা পাওয়ার পর ধীরে পড়ুন — শুধু keyword-ওয়ালা sentence নয়, তার আগের আর পরের sentence-ও। এই ছোট শব্দগুলো অর্থ পুরো পাল্টে দিতে পারে, তাই এগুলোর দিকে বিশেষ নজর দিন:"
+   ],
+   [
+    "ul",
+    [
+     "Qualifier: some, most, all, only, often, rarely, never, usually",
+     "Contrast: however, but, although, yet, whereas, despite",
+     "Certainty: may, might, could, is thought to, it is likely that, definitely",
+     "Time: initially, later, currently, no longer, until recently"
+    ]
+   ],
+   [
+    "ex",
+    "Passage: \"Most of the early settlers were farmers.\"\nStatement: All of the early settlers were farmers.  → FALSE  (most ≠ all)"
+   ],
+   [
+    "h",
+    "Skill ৫ — লেখকের মত ও argument বোঝা"
+   ],
+   [
+    "p",
+    "Passage 3-এ প্রায়ই লেখক অন্যদের মত উল্লেখ করেন, তারপর নিজের মত দেন। কার মত কোনটা — এটা আলাদা করতে পারা Yes / No / Not Given আর multiple choice-এর জন্য জরুরি। \"Critics argue…\", \"It has been claimed…\" মানে অন্যের মত; \"I would argue…\", \"In fact…\", \"this is misleading\" প্রায়ই লেখকের নিজের মত দেখায়।"
+   ],
+   [
+    "tip",
+    "Vocabulary বাড়ানোর সবচেয়ে কার্যকর উপায়: প্রতিটি practice set শেষে solution screen-এ question আর evidence পাশাপাশি দেখুন, আর যে paraphrase-গুলো ধরতে পারেননি সেগুলো একটি খাতায় \"question-এর শব্দ = passage-এর শব্দ\" আকারে লিখে রাখুন।"
+   ]
+  ]
+ },
+ {
+  "id": "time",
+  "title": "Time management — ৬০ মিনিটের পরিকল্পনা",
+  "blocks": [
+   [
+    "p",
+    "Reading-এ সবচেয়ে বড় শত্রু হলো সময়। অনেক student Passage 1 আর 2-এ বেশি সময় দিয়ে Passage 3-এর জন্য মাত্র ১০ মিনিট রাখেন — অথচ Passage 3-এও ১৩–১৪টি নম্বর আছে।"
+   ],
+   [
+    "table",
+    [
+     "Passage",
+     "সময়",
+     "কেন"
+    ],
+    [
+     [
+      "Passage 1",
+      "১৭–১৮ মিনিট",
+      "সবচেয়ে সহজ — এখানে সময় বাঁচান"
+     ],
+     [
+      "Passage 2",
+      "২০ মিনিট",
+      "মাঝারি"
+     ],
+     [
+      "Passage 3",
+      "২২–২৩ মিনিট",
+      "সবচেয়ে কঠিন, argument-নির্ভর"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "একটি passage-এর ভেতরে কীভাবে কাজ করবেন"
+   ],
+   [
+    "ol",
+    [
+     "প্রথমে question-গুলোর instruction আর type দেখে নিন (৩০ সেকেন্ড)।",
+     "Passage skim করুন: title, প্রতিটি paragraph-এর প্রথম sentence (২–৩ মিনিট)।",
+     "Question-এর keyword underline করুন — বিশেষ করে নাম, সংখ্যা আর সাল।",
+     "একটা একটা question করে scan করুন, সঠিক জায়গা পেলে detail পড়ুন।",
+     "Answer লিখুন (paper test হলে তখনই answer sheet-এ)।"
+    ]
+   ],
+   [
+    "h",
+    "কোন question আগে করবেন"
+   ],
+   [
+    "ul",
+    [
+     "বেশিরভাগ question type-এ উত্তর passage-এর ক্রম অনুযায়ী আসে (T/F/NG, Y/N/NG, completion, short answer, MCQ)। তাই question 5-এর উত্তর question 4 আর 6-এর উত্তরের মাঝখানে পাবেন।",
+     "যে type-এ উত্তর ক্রম অনুযায়ী আসে না (Matching Information, Matching Features, Matching Headings), সেগুলো সাধারণত passage-এর বাকি question-গুলোর পরে করা সহজ — কারণ ততক্ষণে আপনি passage-টা ভালো চেনেন।",
+     "Matching Headings সাধারণত প্রথমেই আসে এবং এটা আগে করলে পুরো passage-এর গঠন বুঝে যাবেন — তাই অনেকে এটা শুরুতেই করেন।"
+    ]
+   ],
+   [
+    "h",
+    "আটকে গেলে কী করবেন"
+   ],
+   [
+    "p",
+    "কোনো একটি question-এ ১.৫–২ মিনিটের বেশি আটকে থাকলে সেটার পাশে একটি চিহ্ন দিয়ে পরের question-এ যান। সময় থাকলে শেষে ফিরে আসুন। ফেরার সময় পর্যন্ত খালি না রেখে একটি সম্ভাব্য উত্তর লিখে রাখুন।"
+   ],
+   [
+    "tip",
+    "Practice-এর সময় সবসময় timer চালিয়ে পড়ুন। IELTS AI by nextED app-এর প্রতিটি set-এ timer আছে; প্রথম দুই সপ্তাহ সময় একটু বেশি লাগলে সমস্যা নেই, কিন্তু তৃতীয় সপ্তাহ থেকে একটি passage ২০ মিনিটে শেষ করার লক্ষ্য রাখুন।"
+   ]
+  ]
+ },
+ {
+  "id": "types",
+  "title": "১৪টি question type",
+  "blocks": [
+   [
+    "p",
+    "IELTS Academic Reading-এ মোট ১৪ ধরনের question আসে। প্রতিটি type কিছুটা ভিন্ন skill যাচাই করে, আর প্রতিটির নিজস্ব trap আছে। App-এ প্রতিটি type-এর আলাদা lesson আছে — এটি কী যাচাই করে, format, ধাপে ধাপে strategy আর সাধারণ trap — আর আছে ২০টি করে practice set, প্রতিটি উত্তরের ব্যাখ্যাসহ।"
+   ],
+   [
+    "table",
+    [
+     "Question type",
+     "উত্তর কি passage-এর ক্রমে আসে?",
+     "মূল skill"
+    ],
+    [
+     [
+      "Multiple Choice",
+      "হ্যাঁ",
+      "Detail + paraphrase"
+     ],
+     [
+      "True / False / Not Given",
+      "হ্যাঁ",
+      "তথ্য মেলানো"
+     ],
+     [
+      "Yes / No / Not Given",
+      "হ্যাঁ",
+      "লেখকের মত"
+     ],
+     [
+      "Matching Information",
+      "না",
+      "Scanning"
+     ],
+     [
+      "Matching Headings",
+      "হ্যাঁ (paragraph-এর ক্রমে)",
+      "Main idea"
+     ],
+     [
+      "Matching Features",
+      "না",
+      "Scanning + paraphrase"
+     ],
+     [
+      "Matching Sentence Endings",
+      "হ্যাঁ",
+      "Grammar + অর্থ"
+     ],
+     [
+      "Sentence Completion",
+      "হ্যাঁ",
+      "Detail + word limit"
+     ],
+     [
+      "Summary Completion",
+      "সাধারণত হ্যাঁ",
+      "Paraphrase + grammar"
+     ],
+     [
+      "Note Completion",
+      "হ্যাঁ",
+      "Scanning"
+     ],
+     [
+      "Table Completion",
+      "প্রায়ই হ্যাঁ",
+      "Scanning"
+     ],
+     [
+      "Flow-chart Completion",
+      "হ্যাঁ",
+      "Process বোঝা"
+     ],
+     [
+      "Diagram Label Completion",
+      "প্রায়ই হ্যাঁ",
+      "বর্ণনা থেকে ছবি"
+     ],
+     [
+      "Short Answer",
+      "হ্যাঁ",
+      "Scanning + word limit"
+     ]
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "mistakes",
+  "title": "যে ভুলগুলো সবচেয়ে বেশি band কমায়",
+  "blocks": [
+   [
+    "ol",
+    [
+     "Keyword মিলে গেলেই উত্তর ধরে নেওয়া। Passage-এর শব্দ হুবহু option-এ থাকলে সেটা প্রায়ই trap — সঠিক উত্তর সাধারণত paraphrase করা থাকে।",
+     "নিজের জ্ঞান বা common sense দিয়ে উত্তর দেওয়া। Passage যা বলে শুধু সেটাই হিসাব হয়; বাস্তবে সত্য হলেও passage-এ না থাকলে উত্তর NOT GIVEN।",
+     "FALSE আর NOT GIVEN গুলিয়ে ফেলা। Passage উল্টো কথা বললে FALSE; কিছুই না বললে NOT GIVEN।",
+     "Word limit ভাঙা আর বানান ভুল — সঠিক তথ্য খুঁজে পেয়েও নম্বর হারানো।",
+     "একটি question-এ অনেকক্ষণ আটকে থেকে শেষ passage-এর জন্য সময় না রাখা।",
+     "Paper test-এ শেষে answer transfer করার পরিকল্পনা করা — Reading-এ কোনো transfer time নেই।",
+     "Qualifier (some, all, only, may) উপেক্ষা করা — একটি ছোট শব্দই উত্তর TRUE থেকে FALSE করে দিতে পারে।",
+     "Heading বা ending-এর list আগে না পড়ে সরাসরি passage পড়া শুরু করা।"
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "plan",
+  "title": "৪ সপ্তাহের practice plan",
+  "blocks": [
+   [
+    "p",
+    "প্রতিদিন ৪৫–৬০ মিনিট সময় দিলে এই plan-এ চার সপ্তাহে Reading-এর সব question type আর full test practice হয়ে যাবে। IELTS AI by nextED app-এর question bank-এ প্রতিটি type-এর আলাদা set আছে (easy, medium, hard), আর প্রতিটি set শেষে প্রতিটি উত্তরের evidence আর ব্যাখ্যা দেখা যায়।"
+   ],
+   [
+    "table",
+    [
+     "সপ্তাহ",
+     "লক্ষ্য",
+     "কী করবেন"
+    ],
+    [
+     [
+      "সপ্তাহ ১",
+      "ভিত তৈরি",
+      "এই guide-এর Time management অধ্যায় পর্যন্ত পড়ুন। প্রতিদিন ২টি question type-এর lesson পড়ে ওই type-এর ১টি easy set করুন (timer ছাড়া)। প্রতিটি ভুলের কারণ লিখে রাখুন।"
+     ],
+     [
+      "সপ্তাহ ২",
+      "সব type চেনা",
+      "বাকি type-গুলোর lesson আর easy set শেষ করুন। তারপর যে ৪টি type-এ সবচেয়ে বেশি ভুল হয়েছে, সেগুলোর medium set করুন। Paraphrase খাতা শুরু করুন।"
+     ],
+     [
+      "সপ্তাহ ৩",
+      "সময় ধরে practice",
+      "প্রতিদিন ২টি medium বা hard set, প্রতিটি ২০ মিনিটে। সপ্তাহের শেষে ১টি full Reading test (৬০ মিনিট)।"
+     ],
+     [
+      "সপ্তাহ ৪",
+      "Test-এর মতো practice",
+      "একদিন পরপর full test বা mock test। মাঝের দিনগুলোতে test-এ যে type-এ ভুল হয়েছে, সেই type-এর hard set আর lesson আবার দেখুন।"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "প্রতিটি practice set-এর পর"
+   ],
+   [
+    "ol",
+    [
+     "প্রতিটি ভুল উত্তরের solution খুলুন: evidence sentence-টা passage-এ কোথায় ছিল দেখুন।",
+     "নিজেকে জিজ্ঞেস করুন ভুলটা কোন ধরনের: জায়গা খুঁজে পাইনি / paraphrase ধরতে পারিনি / trap-এ পড়েছি / word limit বা বানান।",
+     "নতুন paraphrase-গুলো খাতায় লিখুন।",
+     "একই type-এর পরের set-এ ঠিক ওই ভুলটা না করার দিকে মন দিন।"
+    ]
+   ],
+   [
+    "tip",
+    "Band score নিয়ে চিন্তা না করে প্রথম দুই সপ্তাহ শুধু accuracy-র দিকে মন দিন। সঠিকভাবে পড়তে শিখলে speed নিজে থেকেই আসে; কিন্তু শুরু থেকেই তাড়াহুড়ো করলে ভুলের অভ্যাস তৈরি হয়।"
+   ]
+  ]
+ },
+ {
+  "id": "testday",
+  "title": "পরীক্ষার দিনের tips",
+  "blocks": [
+   [
+    "ul",
+    [
+     "শুরুতেই ঘড়ি দেখে তিনটি passage শেষ করার সময় লিখে রাখুন (যেমন শুরু ১০:০০ হলে: ১০:১৮, ১০:৩৮, ১১:০০)।",
+     "প্রতিটি question group-এর instruction পড়ুন — বিশেষ করে word limit আর \"You may use any letter more than once\" আছে কিনা।",
+     "Paper test-এ প্রতিটি passage শেষ করেই answer sheet-এ উত্তর লিখে ফেলুন; পেনসিল দিয়ে পরিষ্কার করে লিখুন।",
+     "Computer test-এ passage-এ highlight আর note করার সুবিধা ব্যবহার করুন; উত্তর টাইপ করার পর বানান আবার দেখে নিন।",
+     "কোনো question খালি রাখবেন না। শেষ ২ মিনিটে বাকি থাকা question-গুলোতে অন্তত একটি guess লিখে দিন।",
+     "একটি কঠিন passage দেখে ঘাবড়াবেন না — পরের passage সহজ হতে পারে, আর প্রতিটি question-এর নম্বর সমান।"
+    ]
+   ],
+   [
+    "tip",
+    "মনে রাখুন: উত্তর সবসময় passage-এর ভেতরেই আছে। আপনার কাজ শুধু খুঁজে বের করা আর প্রমাণ (evidence) দেখে নিশ্চিত হওয়া।"
+   ]
+  ]
+ }
+]

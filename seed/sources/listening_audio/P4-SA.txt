@@ -1,0 +1,71 @@
+A Lecture on the Development of Artificial Intelligence
+
+[0:00] Lecturer: Good morning, everyone. Today, I want to give you a brief history of artificial intelligence research.
+
+[0:04] Lecturer: From its formal beginnings in the 1950s right up to the present day. Let's start right at the beginning.
+
+[0:09] Lecturer: The term artificial intelligence was first coined in 1956, giving a name to a field that researchers had only just begun to define.
+
+[0:15] Lecturer: That name emerged at a specific, now famous event, the conference where the term was first used was the Dartmouth conference, held at Dartmouth College in the United States, where a small group of researchers had gathered to discuss the possibility of machine intelligence.
+
+[0:25] Lecturer: In those early years, progress was actually quite promising.
+
+[0:28] Lecturer: Early AI programs in the 1950s and 60s focused on logic problems, using symbolic reasoning to solve puzzles and prove mathematical theorems.
+
+[0:34] Lecturer: That early optimism didn't last, however.
+
+[0:37] Lecturer: The 1970s saw a period of funding cuts, often referred to now as the AI winter, when governments and investors grew disillusioned with the field's slow progress.
+
+[0:43] Lecturer: Interest revived somewhat in the following decade.
+
+[0:46] Lecturer: A type of program popular in the 1980s was the expert system, designed to capture the specialized knowledge of human experts in a particular field, like medical diagnosis.
+
+[0:55] Lecturer: These systems relied heavily on rule-based logic, essentially long lists of if-then rules written by hand by knowledge engineers working with human experts.
+
+[1:03] Lecturer: Unfortunately, expert systems also fell short of expectations eventually, and what caused a second decline in AI funding was largely unmet expectations, as these systems proved brittle and expensive to maintain in the real world.
+
+[1:11] Lecturer: The field's fortunes changed again with a shift in approach.
+
+[1:13] Lecturer: The technique that became dominant from the 1990s onward was machine learning, where systems learn patterns from data rather than following rules written explicitly by programmers.
+
+[1:20] Lecturer: One dramatic public demonstration of AI's growing capability came in 1997, when IBM's Deep Blue defeated a chess champion, beating the reigning world champion Garry Kasparov in a widely publicized match.
+
+[1:29] Lecturer: As we moved into the 2000s, another factor became crucial to progress.
+
+[1:33] Lecturer: Big data, that is, enormous quantities of digital information, became crucial for modern AI, giving machine learning systems far more material to learn from than ever before.
+
+[1:41] Lecturer: Alongside data, hardware mattered too.
+
+[1:43] Lecturer: GPUs, originally designed for rendering video game graphics, turned out to be extremely well suited to the mathematical operations behind deep learning, and this hardware advance accelerated deep learning enormously.
+
+[1:51] Lecturer: A pivotal moment came in 2012 with a competition called ImageNet, in which a deep learning system dramatically out-performed previous approaches at recognizing images, convincing many skeptical researchers that deep learning was the way forward.
+
+[2:00] Lecturer: Public excitement grew further in 2016, when the AI system AlphaGo famously won at the ancient board game Go, defeating a top human professional in a game long considered far too complex for computers to master.
+
+[2:10] Lecturer: Much of the progress in image recognition around this time relied on a particular architecture.
+
+[2:15] Lecturer: The convolutional neural network became the standard type of neural network commonly used for images, since its structure is particularly well suited to recognizing visual patterns.
+
+[2:23] Lecturer: More recently, a different architecture has transformed another area entirely.
+
+[2:26] Lecturer: Natural language processing saw major progress with transformer models, which now underpin most modern language-based AI systems, including translation and text generation tools.
+
+[2:33] Lecturer: Now, alongside all this technical progress, there are important concerns we need to discuss.
+
+[2:37] Lecturer: One ethical concern the lecturer highlights is algorithmic bias, where AI systems can unintentionally reproduce or even amplify unfair patterns present in their training data.
+
+[2:44] Lecturer: There's also a growing practical concern about sustainability.
+
+[2:46] Lecturer: A resource-heavy issue about large models is their energy consumption, since training the largest systems can require enormous amounts of electricity.
+
+[2:53] Lecturer: Despite all this progress, some challenges remain stubbornly difficult.
+
+[2:56] Lecturer: What's still difficult for AI systems is common-sense reasoning, the kind of everyday understanding humans take for granted, but which machines still struggle to replicate reliably.
+
+[3:04] Lecturer: Looking ahead, researchers often discuss a longer-term goal for the field.
+
+[3:07] Lecturer: The term describing AI matching general human ability is general intelligence, sometimes called artificial general intelligence, a capability no current system has fully achieved.
+
+[3:15] Lecturer: To finish today, I'd like you to prepare for next week's seminar.
+
+[3:18] Lecturer: What the lecturer recommends reading for next week is a research paper, which I'll upload to the course page this afternoon, so please make sure you've read it before we meet again.

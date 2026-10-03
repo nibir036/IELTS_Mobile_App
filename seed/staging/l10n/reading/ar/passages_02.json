@@ -1,0 +1,528 @@
+[
+ {
+  "id": "rb_tfng_09",
+  "lesson": {
+   "title": "التعرّف على الـ synonym والـ antonym (Synonyms and antonyms)",
+   "text": "في مجموعات المستوى Medium، نادرًا ما تكرر الـ statements كلمات الـ passage نفسها. عليك أن تعرف أن rarely ≈ seldom، وأن expanded ≈ grew، وأن expanded هي عكس shrank. الـ statement المبنيّ على synonym (كلمة مرادفة) يُرجَّح أن يكون TRUE. والـ statement المبنيّ على antonym (كلمة معاكسة) يُرجَّح أن يكون FALSE. تأكّد دائمًا بقراءة الجملة كاملة، لأن كلمات النفي (not، never، few) قد تقلب المعنى.",
+   "example": "مثال — في الـ passage: \"Few customers ever used the service.\" الـ Statement: \"The service was seldom used.\" ← TRUE. الـ Statement: \"The service was popular.\" ← FALSE."
+  },
+  "explanations": {
+   "1": "هذه الممارسة كانت موجودة قبل twentieth century، لذلك فإن كلمة \"unknown\" تتعارض مع الـ passage.",
+   "2": "عبارة \"Within weeks\" هي عكس \"slow\" تمامًا.",
+   "3": "عبارة \"This effect\" تعني تشجيع العملاء على العودة، إذن المستويات المختلفة تعطي العملاء سببًا إضافيًا للبقاء.",
+   "4": "عبارة \"Would have used ... frequently anyway\" تعني نفس \"already frequent users\".",
+   "5": "الـ passage يذكر أن الناس ينتمون إلى عدة برامج، لكنه لا يقول شيئًا عن مقدار ما ينفقه هؤلاء العملاء.",
+   "6": "كلمة \"Stock\" = \"sell\"، أي أن المعنى هنا واحد.",
+   "7": "لا يناقش الـ passage أبدًا مدى وعي العملاء. والمخاوف المذكورة لا تخبرنا بما يعرفه أغلب العملاء.",
+   "8": "عبارة \"Can change ... at any time\" تتعارض مع \"unable to change\".",
+   "9": "عبارة \"Vary widely\" تتعارض مع \"similar across all\"."
+  }
+ },
+ {
+  "id": "rb_tfng_10",
+  "lesson": {
+   "title": "من فعل ماذا؟ (Who did what?)",
+   "text": "عندما يتحدث الـ passage عن عدة أشخاص، قد ينسب الـ statement فعلًا ما إلى الشخص الخطأ. مثلًا: يقول الـ passage إن العالِم A اكتشف X وإن العالِم B طوّره، بينما يقول الـ statement إن B هو من اكتشف X. هذا FALSE، لأن الـ passage ينسب الاكتشاف إلى شخص آخر.\n\nسجّل ملاحظة سريعة أثناء القراءة: الشخص ← الفعل. وانتبه أيضًا إلى الفضل المشترك (\"the team\"، \"together\"، \"shared\"): فالـ statement الذي يقول إن شخصًا واحدًا فعل شيئًا وحده قد يكون عندها FALSE.",
+   "example": "مثال — في الـ passage: \"Lee designed the engine; Park built the first working model.\"\nالـ Statement: \"Lee built the first working model.\" ← FALSE."
+  },
+  "explanations": {
+   "1": "هذه paraphrase (إعادة صياغة) مباشرة.",
+   "2": "عبارة \"Without damaging\" تتعارض مع \"harmed\".",
+   "3": "هذا يتعارض مع \"tested extensively\". أول مريض بشري عالجه فريق Oxford، وليس Fleming.",
+   "4": "\"Came across\" = \"found\"، و\"paper\" = \"article\"، و\"recognised its potential\" = \"saw that ... could be valuable\"، أي أن كل زوج من هذه العبارات بالمعنى نفسه هنا.",
+   "5": "الفعل منسوب بشكل صحيح إلى Heatley.",
+   "6": "كل الفئران التي عولجت بقيت على قيد الحياة. أما الأربعة التي ماتت فكانت من الفئران التي لم تُعالَج، لذلك يخلط هذا الـ statement بين المجموعتين.",
+   "7": "هذا يتعارض مع \"cured\".",
+   "8": "لا يقول الـ passage من الذي وجده. ولا يمكن أن نفترض أنه Florey لمجرد أنه كان في الولايات المتحدة.",
+   "9": "لا يذكر الـ passage أبدًا مشاعره تجاه هذا الأمر."
+  }
+ },
+ {
+  "id": "rb_tfng_11",
+  "lesson": {
+   "title": "النِّسب والكميات التقريبية (Proportions and approximate quantities)",
+   "text": "كثيرًا ما يعبّر الـ passage عن الكميات بالكلمات بدلًا من الأرقام الدقيقة: a majority، roughly a third، the bulk of، a handful، nearly all. ثم يستخدم الـ statement تعبيرًا مختلفًا للكمية نفسها، أو لكمية مختلفة. حوّل التعبيرين إلى رقم تقريبي:\n\na majority > 50%\n\nroughly a third ≈ 33%\n\na handful = عدد قليل جدًا\n\nإذا كان الرقمان متوافقين ← TRUE. وإذا كانا غير متوافقين بوضوح (a handful مقابل most) ← FALSE. وإذا لم يذكر الـ passage أي كمية أصلًا ← NOT GIVEN.",
+   "example": "مثال — في الـ passage: \"Nearly all the volunteers were students.\" الـ Statement: \"Most volunteers were students.\" ← TRUE، لأن nearly all تشمل most."
+  },
+  "explanations": {
+   "1": "عبارة \"Well over a million\" تتعارض مع \"fewer than a million\".",
+   "2": "عبارة \"A few weeks\" تتعارض مع \"several months\".",
+   "3": "\"Far too small\" = \"cannot ... alone\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "4": "هذه paraphrase (إعادة صياغة) مباشرة.",
+   "5": "لا توجد أي معلومة عن تغيّر الرسوم. وزيادة الطلب لا تعني أن الرسوم ارتفعت كل عام.",
+   "6": "كلمة \"Varied\" تتعارض مع \"a single cause\".",
+   "7": "هذا يطابق الـ statement. لاحظ أن الـ passage يقدّم هذا على أنه رأي \"some researchers\"، وكلمة \"may\" في الـ statement (وهي تعبير غير قاطع) تناسب ذلك.",
+   "8": "عبارة \"A number\" لا تعطي أي نسبة. فهي لا تؤكد \"most\" ولا تتعارض معها، لذلك هذا trap (فخّ) خاص بالنِّسب.",
+   "9": "هذا يتعارض مع \"always ... larger\"."
+  }
+ },
+ {
+  "id": "rb_tfng_12",
+  "lesson": {
+   "title": "الـ statement غير القاطع مقابل القاطع (Hedged statements and certain statements)",
+   "text": "الـ passages التي تتحدث عن الأبحاث كثيرًا ما تعبّر عن عدم اليقين: may، might، is thought to، one theory suggests، it remains unclear. والـ statement الذي يقدّم مثل هذه الفكرة كحقيقة مؤكدة (\"X causes Y\"، \"engineers have proved\") لا يطابق الـ passage. في الغالب يكون FALSE إذا قال الـ passage صراحةً إن الأمر غير مؤكد أو مختلَف عليه، ويكون NOT GIVEN إذا لم يتناول الـ passage المسألة أصلًا. وبالعكس، الـ statement الذي هو نفسه غير قاطع (\"X may cause Y\") يمكن أن يكون TRUE عندما يذكر الـ passage أن X سبب محتمل.",
+   "example": "مثال — في الـ passage: \"It is still unclear why the birds left the island.\" الـ Statement: \"Scientists have established why the birds left.\" ← FALSE."
+  },
+  "explanations": {
+   "1": "\"In some cases\" = \"some\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "2": "يؤكد الـ passage أن بعض الـ pagodas فُقدت بسبب الحرائق، لكنه لا يذكر عددًا. لذلك لا يمكن تأكيد \"Many\" ولا نفيها. قارن ذلك بفخاخ \"some / many / most\" في المجموعات السابقة.",
+   "3": "عبارة \"Rather than written calculations\" تتعارض مباشرة مع الـ statement.",
+   "4": "عبارة \"Without nails\" تتعارض مع \"firmly nailed\".",
+   "5": "هذه paraphrase (إعادة صياغة) مباشرة.",
+   "6": "يذكر الـ passage صراحةً وجود خلاف، وهذا يتعارض مع \"engineers agree\". هذا هو نمط \"غير القاطع مقابل القاطع\" الذي شرحه الدرس.",
+   "7": "هذا يطابق الـ statement.",
+   "8": "يذكر الـ passage اختبارات على نماذج مصغّرة فقط. فهو لا يقول إن الـ pagodas بحجمها الكامل اختُبرت، ولا يقول إنها لم تُختبر. الطالب الذي يختار FALSE يفترض أن الاختبارات المذكورة هي الاختبارات الوحيدة التي أُجريت على الإطلاق.",
+   "9": "\"Explicitly referred to ... as an influence\" = \"said they had been influenced\"، أي أن العبارتين هنا بالمعنى نفسه."
+  }
+ },
+ {
+  "id": "rb_tfng_13",
+  "lesson": {
+   "title": "فخّ صيغ التفضيل والترتيب (Superlatives and rankings)",
+   "text": "كلمات مثل largest، first، oldest، most powerful تعبّر عن ادعاءات دقيقة. ويجب أن يدعم الـ passage الترتيب نفسه بالضبط:\n\n\"One of the largest\" ≠ \"the largest\"، لذلك فإن الـ statement الذي يقول \"the largest\" يكون في الغالب NOT GIVEN.\n\nإذا ذكر الـ passage شيئًا أكبر أو أقدم، فالـ statement يكون FALSE.\n\nتحقّق مما يتم ترتيبه (الإنتاج أم الحجم الفعلي) ومتى (\"was the largest until 2011\" ليست \"is the largest\").",
+   "example": "مثال — في الـ passage: \"Opened in 1990, the dam was the country's biggest until a larger one was built in 2005.\" الـ Statement: \"The dam is still the country's biggest.\" ← FALSE."
+  },
+  "explanations": {
+   "1": "\"Calculated in advance\" = \"predicted ahead\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "2": "هذا ينفي فكرة \"only ... going out\"، أي أن الأمر لا يقتصر على اتجاه واحد.",
+   "3": "\"Exceed\" = \"more than\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "4": "كانت محطة Rance الأكبر لنحو خمسة وأربعين عامًا، لكنها لم تعد كذلك. هذا هو فخّ \"was / is\".",
+   "5": "لا يقارن الـ passage الإصلاحات بمحطات الطاقة الأخرى أبدًا.",
+   "6": "\"Badly polluted\" = \"water quality problems\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "7": "كلمة \"Only\" تتعارض مع \"both directions\".",
+   "8": "التكلفة كانت سببًا أيضًا، لذلك فإن \"entirely for environmental reasons\" تتعارض مع الـ passage.",
+   "9": "عبارة \"A smaller effect\" تعني أنه ما زال هناك تأثير ما، والمسألة ما زالت قيد الدراسة، لذلك فإن \"shown to have no effect\" تتعارض مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_tfng_14",
+  "lesson": {
+   "title": "التعميم وأيّ group يقصده الكلام (Generalisations and the groups they describe)",
+   "text": "قد يصف الـ passage ما حدث لمجموعة واحدة (عمال المصانع، أو بلد واحد، أو شركة واحدة). ثم يعمّم الـ statement ذلك على الجميع، أو ينسبه إلى مجموعة أخرى. إذا قال الـ passage إن الأمر صحيح لمجموعة واحدة فقط، أو قال صراحةً إنه لا ينطبق على غيرها ← FALSE. وإذا لم يقل الـ passage شيئًا عن المجموعة الأخرى ← NOT GIVEN.",
+   "example": "مثال — في الـ passage: \"Miners in the region were given free housing.\" الـ Statement: \"All workers in the region received free housing.\" الـ passage لا يقول شيئًا عن العمال الآخرين ← NOT GIVEN."
+  },
+  "explanations": {
+   "1": "هذا يتعارض مع \"several centuries\".",
+   "2": "\"Paid for the amount they produced\" = \"paid according to output\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "3": "كلمة \"Disliked\" تتعارض مع \"encouraged\".",
+   "4": "يذكر الـ passage مجموعة محددة، وهذا يتعارض مع \"equally to all adult workers\". أما العمال الآخرون فلم يستفيدوا إلا عندما قرّر أصحاب العمل توسيع هذا الترتيب ليشملهم.",
+   "5": "السبب المذكور في الـ passage يطابق الـ statement.",
+   "6": "هذا تعارض مباشر.",
+   "7": "ينقل الـ passage حجة Ford، وليس النتيجة. ولا يذكر هل ارتفعت الإنتاجية فعلًا أم لا.",
+   "8": "يعطي الـ passage فترة زمنية عامة لـ \"much of Europe\". ولا يقول هل اعتمدت كل الدول عطلة نهاية الأسبوع في الوقت نفسه أم في أوقات مختلفة.",
+   "9": "يقول الـ passage \"many\" وليس \"all\"، ولا يذكر أيّ يوم آخر يكمّل عطلة نهاية الأسبوع. الـ statement يتجاوز المعلومات المعطاة."
+  }
+ },
+ {
+  "id": "rb_tfng_15",
+  "lesson": {
+   "title": "Hard TFNG — المعنى الضمني والـ scope الدقيق (Implications and precise scope)",
+   "text": "في المستوى Hard:\n\nFALSE بالاستنتاج الضمني. قد لا يكون التعارض جملة واحدة تقول العكس، بل قد ينتج بوضوح من معلومتين معًا. مثلًا: يقول الـ passage إن لغة ما لم يكن لها متحدثون أصليون لقرون، ويقول الـ statement إنها كانت تُتحدَّث دائمًا في البيت. NOT GIVEN الدقيق. تبقى الـ statements قريبة جدًا من موضوع الـ passage ومفرداته، لكنها تضيف عنصرًا واحدًا لا دليل عليه: سببًا، أو مقارنة، أو دافعًا، أو نتيجة.\n\nكلمات الـ scope (النطاق). كلمات مثل only، entirely، the main، never، all، completely هي أول ما يجب أن تتحقق منه. قبل أن تختار، أعد صياغة الادعاء الدقيق الوحيد في الـ statement بكلمات قليلة، واختبر هذا الادعاء وحده.",
+   "example": "مثال — في الـ passage: \"The school opened with twelve pupils; within ten years it had over two hundred, though funding remained uncertain.\" الـ Statement: \"The school grew because its funding was secure.\" جزء نموّ المدرسة TRUE، لكن السبب المذكور يتعارض مع \"funding remained uncertain\" ← FALSE."
+  },
+  "explanations": {
+   "1": "عبارتا \"Vary widely\" و\"some suggest\" تتعارضان مع \"experts agree\". والـ statement يقدّم تقديرًا واحدًا كأنه مؤكد.",
+   "2": "\"Punished\" = \"penalised\"، و\"in some cases\" = \"in some places\"، أي أن كل زوج من هذه العبارات بالمعنى نفسه هنا.",
+   "3": "هذا التعارض ينتج من ادعاء الـ statement حول \"throughout its history\".",
+   "4": "وجود \"prominent role\" في \"movement\" يعني ضمنيًا أن آخرين شاركوا أيضًا، كما يذكر الـ passage المدارس والعائلات. وهذا يتعارض مع \"solely\"، لذلك الإجابة FALSE بالاستنتاج الضمني.",
+   "5": "هذا يتعارض مع فكرة أن أغلب اللغات تستطيع اتباع هذا النموذج بسهولة.",
+   "6": "\"Largely because of\" = \"the main reason\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "7": "\"Based on\" = \"modelled on\". ويُفهم ضمنيًا أن برنامج Māori كان أقدم.",
+   "8": "يذكر الـ passage أعمارهم، لكنه لا يذكر تدريبهم. الموضوع موجود، لكن الادعاء الدقيق لا يمكن الحكم عليه.",
+   "9": "هذا يتعارض مباشرة مع \"technology alone can ensure\"."
+  }
+ },
+ {
+  "id": "rb_tfng_16",
+  "lesson": {
+   "title": "تفاصيل الدراسة — من، وكم عددهم، وكم المدة، ومقارنةً بماذا (Study details)",
+   "text": "تحتوي الـ passages الصعبة عن الأبحاث على تفاصيل دقيقة عن تصميم الدراسة. وقد يغيّر الـ statement واحدة منها:\n\nمن الذين شملتهم الدراسة (مرضى بحالة معينة، وليس الجميع)؛\n\nكم عدد المشاركين؛\n\nكم استمرت الدراسة؛\n\nماذا حصلت مجموعة المقارنة.\n\nإذا تغيّرت تفصيلة يذكرها الـ passage بشكل مختلف ← FALSE. وإذا كانت التفصيلة غير مذكورة أبدًا في الـ passage ← NOT GIVEN. وانتبه أيضًا إلى الادعاءات التي تحوّل \"reported feeling better\" إلى \"was cured\"، لأن هذا يغيّر نوع النتيجة.",
+   "example": "مثال — في الـ passage: \"Over three weeks, patients with back pain who did the exercises reported less pain than a group that did not.\" الـ Statement: \"The exercises cured back pain.\" ← FALSE؟ لا: الـ passage لا يقول إن الألم شُفي، ولا يقول إنه لم يُشفَ. الإجابة NOT GIVEN، إلا إذا أضاف الـ passage شيئًا مثل \"no patient was fully free of pain\"، وعندها تصبح الإجابة FALSE."
+  },
+  "explanations": {
+   "1": "هذا يتعارض مع \"told\".",
+   "2": "عبارة \"Some ... nothing to do with\" تتعارض مع \"all\".",
+   "3": "هذا يطابق الـ statement، بما في ذلك التعبير غير القاطع \"appear\".",
+   "4": "الاعتقاد بأن الـ placebo دواء حقيقي = التعرّض للخداع، وعبارة \"most ... long assumed\" تشمل \"many ... once believed\".",
+   "5": "يذكر الـ passage العدد، وهو يتعارض مع \"several hundred\".",
+   "6": "مجموعة المقارنة لم تحصل على أي شيء، وليس على حبة دواء مختلفة.",
+   "7": "هذا تطابق مباشر.",
+   "8": "لا يذكر الـ passage أي دراسة open-label عن الأورام. والفكرة العامة في Paragraph B لا تحسم ما تفعله الـ open-label placebos، لذلك فإن هذا الادعاء المحدد لا يتأكد ولا يتعارض. هذا NOT GIVEN من المستوى Hard، لأن هناك معلومات قريبة من الموضوع موجودة في الـ passage.",
+   "9": "\"A few\" = \"some\"، و\"none\" = \"no effect\"، أي أن كل زوج من هذه العبارات بالمعنى نفسه هنا.",
+   "10": "هذا تعارض مباشر."
+  }
+ },
+ {
+  "id": "rb_tfng_17",
+  "lesson": {
+   "title": "الاعتقاد الشائع مقابل الرواية المصحَّحة في الـ passage (Popular belief vs revised account)",
+   "text": "بعض الـ passages الصعبة تعرض قصة شائعة، ثم نسخة مصحَّحة مبنية على أبحاث أحدث. وقد يصف الـ statement القصة الشائعة كأنها ما يقبله الـ passage. حدّد ما يقدّمه الـ passage على أنه حقيقة، وتعامل مع الرواية الشائعة على أنها اعتقاد ينقله الـ passage فقط.\n\nالـ statement الذي يطابق القصة الشائعة، بينما يقول الـ passage إن الأبحاث تتعارض معها ← FALSE.\n\nالـ statement الذي يقول \"people believed X\"، بينما يقول الـ passage إن X كان اعتقادًا منتشرًا ← TRUE، حتى لو كان X نفسه غير صحيح.",
+   "example": "مثال — في الـ passage: \"It was long claimed that the castle was built in a single year; records now show construction lasted a decade.\" الـ Statement: \"The castle was built in one year.\" ← FALSE. الـ Statement: \"People once thought the castle was built in one year.\" ← TRUE."
+  },
+  "explanations": {
+   "1": "الـ statement يتحدث عمّا تدّعيه الرواية الشائعة، وليس عن صحة هذا الادعاء. لذلك هو TRUE، رغم أن Paragraph E يرفض الادعاء نفسه.",
+   "2": "العودة إلى الأرشيف هي ما فعله المؤرخون اللاحقون، وهذا يتعارض مع الـ statement.",
+   "3": "\"Virus\" = \"disease\"، وتكاثر البصيلات ببطء يفسّر لماذا كانت نادرة.",
+   "4": "هذا الجزء من القصة التقليدية مؤكَّد.",
+   "5": "يذكر الـ passage الحانات على أنها المكان الذي كانت تُعقَد فيه العقود، لكنه لا يقول شيئًا عن رسوم يأخذها أصحابها. الموضوع موجود، لكن الادعاء الدقيق غير موجود.",
+   "6": "هذا يتعارض مع \"the full agreed price\".",
+   "7": "جزءا الـ statement كلاهما يتعارضان مع الـ passage.",
+   "8": "لا يقول الـ passage شيئًا عن تجارة المؤلفين أنفسهم أو خسائرهم.",
+   "9": "هذا يتعارض مباشرة مع \"all ... agree\"."
+  }
+ },
+ {
+  "id": "rb_tfng_18",
+  "lesson": {
+   "title": "كلمات تبيّن قوة الـ evidence (Evidence strength words)",
+   "text": "الـ passages العلمية الصعبة تحدّد درجة قوة الـ evidence (الدليل) بدقة: demonstrated، confirmed، suggested، consistent with، no clear evidence، inconclusive. طابِق قوة الـ statement مع القوة الموجودة في الـ passage.\n\nالـ statement أقوى من الـ passage، والـ passage يشير إلى الشك (\"remains uncertain\") ← FALSE.\n\nالـ statement أقوى من الـ passage، لكن الـ passage لا يتناول مسألة الشك ← NOT GIVEN.\n\nالـ statement مساوٍ للـ passage في القوة أو أضعف منه ← TRUE.",
+   "example": "مثال — في الـ passage: \"Early results are consistent with a small benefit, but further trials are needed.\" الـ Statement: \"Trials have proved a large benefit.\" ← FALSE. الـ Statement: \"Early results suggest some benefit.\" ← TRUE."
+  },
+  "explanations": {
+   "1": "هذا يطابق الـ statement.",
+   "2": "الـ statement يعكس ترتيب الأحداث.",
+   "3": "هذه paraphrase (إعادة صياغة) مباشرة.",
+   "4": "لا يذكر الـ passage أبدًا المسيرة المهنية اللاحقة للعالِم. لا تربط بين الـ paragraphs دون دليل.",
+   "5": "عليك أن تعرف إلى من يعود الضمير \"them\" لكي تتأكد من التطابق.",
+   "6": "هذا تعارض مباشر.",
+   "7": "يسمّي الـ passage هذا \"direct observation\".",
+   "8": "الزيادة التقديرية كانت \"in suitable conditions\"، وهذه الظروف لم تحدث إلا في بعض الأيام. وهذا يتعارض مع \"every day\".",
+   "9": "يقول الـ passage إن المسألة لم تُحسَم، مع \"little evidence either way\"، لذلك فإن \"has been shown\" تتعارض معه. هذه هي قاعدة قوة الـ evidence التي شرحها الدرس. ولو لم يذكر الـ passage هذه المسألة أصلًا، لكانت الإجابة NOT GIVEN."
+  }
+ },
+ {
+  "id": "rb_tfng_19",
+  "lesson": {
+   "title": "التواريخ والفترات والتقديرات (Dates, ranges and estimates)",
+   "text": "كثيرًا ما تعطي الـ passages الصعبة تواريخ تقريبية أو مختلَفًا عليها (\"probably made between the second and first centuries BC\"، \"estimates range from...\"). والـ statement الذي يحدّد تاريخًا دقيقًا تركه الـ passage مفتوحًا يكون في الغالب NOT GIVEN. ولا يكون FALSE إلا إذا كان التاريخ خارج الفترة التي يذكرها الـ passage بوضوح. وميّز أيضًا بين متى صُنع الشيء، ومتى فُقد، ومتى وُجد، ومتى فُهم. فالـ statements كثيرًا ما تبدّل بين هذه التواريخ.",
+   "example": "مثال — في الـ passage: \"The ship sank sometime around 70 BC; the wreck was discovered in 1900.\" الـ Statement: \"The ship sank in 1900.\" ← FALSE (وُضع تاريخ الاكتشاف مكان تاريخ الغرق).\nالـ Statement: \"The ship sank in 72 BC.\" ← NOT GIVEN (ممكن ضمن \"around 70 BC\"، لكنه غير مذكور)."
+  },
+  "explanations": {
+   "1": "الـ statement يضع تاريخ الاكتشاف مكان تاريخ الغرق.",
+   "2": "هذا يتعارض مع \"immediately recognised\".",
+   "3": "كان هناك خلاف، وهذا يتعارض مع \"all ... agreed\".",
+   "4": "هذا تعارض مباشر.",
+   "5": "\"Previously unreadable\" = \"had not been read before\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "6": "يحدّد الـ passage أن الآلية كانت تُدار باليد، وهذا لا يتوافق مع تشغيلها بالأثقال.",
+   "7": "بما أن تلك الأجزاء مفقودة، فلا يمكن للأجزاء الباقية أن \"clearly show\" هذا الأمر.",
+   "8": "سنة 87 BC تقع ضمن الفترة التي يذكرها الـ passage، لذلك لا يوجد تعارض. لكن لا توجد سنة دقيقة مذكورة، لذلك لا يوجد تأكيد أيضًا. هذه هي قاعدة التاريخ التقريبي التي شرحها الدرس.",
+   "9": "\"Modelled the heavens\" = \"represented the movements of the heavens\"، أي أن العبارتين هنا بالمعنى نفسه."
+  }
+ },
+ {
+  "id": "rb_tfng_20",
+  "lesson": {
+   "title": "الجمع بين كل المهارات (Combining everything)",
+   "text": "هذه المجموعة الأخيرة تجمع أهم مهارات TFNG: كلمات التقييد (qualifiers)، وتفاصيل الدراسة، والأسباب، وقوة الـ evidence، و\"was vs is\". تعامل مع كل statement باتباع قائمة ثابتة من الخطوات:\n\n1. ما هو الادعاء الوحيد؟\n\n2. أين يوجد في الـ passage؟\n\n3. هل يحسم الـ passage هذا الادعاء نفسه بالضبط؟\n\n4. نعم، بالمعنى نفسه ← TRUE.\n\n5. نعم، بالمعنى المعاكس أو بمعنى لا يتوافق معه ← FALSE.\n\n6. لا ← NOT GIVEN.\n\nلا تغيّر إجابتك لمجرد أن TRUE أو FALSE أو NOT GIVEN \"seems to have come up too often\". لكل مجموعة توازنها الخاص."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر.",
+   "2": "هذا يتعارض مع \"exactly the same questions\".",
+   "3": "هذا تعارض مباشر.",
+   "4": "عبارة \"More than twice as likely\" تشمل \"more likely\".",
+   "5": "هذا يتعارض مع الادعاء بأن الذكريات الزائفة أقل تفصيلًا.",
+   "6": "هذا يتعارض مباشرة مع \"deliberately lying\".",
+   "7": "هذا عكس الـ statement.",
+   "8": "هذا يطابق الـ statement.",
+   "9": "عبارة \"Many places\" لا تؤكد \"every country\" ولا تنفيها. الـ passage لا يخبرنا بالمدى الكامل.",
+   "10": "الافتراض السابق كان العكس، وهذا يتعارض مع \"always believed\"."
+  }
+ },
+ {
+  "id": "rb_ynng_01",
+  "lesson": {
+   "title": "تحديد موقف الكاتب من البداية (Spotting the writer's position early)",
+   "text": "في الـ passage الجدلي، يكون الموقف الرئيسي للكاتب واضحًا عادةً في الـ paragraph الأول والأخير. أما الـ paragraphs الوسطى فتعطي الأسباب، وترد على الاعتراضات، وتضيف بعض التحفّظات. اكتب موقف الكاتب في خمس كلمات أعلى الـ passage، مثلًا \"cities need more trees; plan carefully\". كثير من إجابات YES/NO تنتج مباشرة من هذا الموقف، لكن تحقّق من كل تحفّظ يضيفه الكاتب.",
+   "example": "مثال — الجملة الافتتاحية: \"Cycling lanes are the best investment a city can make.\" الـ Statement: \"The writer believes cycling lanes are a poor use of money.\" ← NO."
+  },
+  "explanations": {
+   "1": "الكاتب يرفض هذا الرأي صراحةً.",
+   "2": "عبارة \"It seems to me\" تدل على رأي الكاتب نفسه، وهو يطابق الـ statement.",
+   "3": "يرى الكاتب أن تقليل الانبعاثات أهم، وهذا يتعارض مع \"most effective\".",
+   "4": "الكاتب يقول العكس.",
+   "5": "\"Deserve to be taken seriously\" = \"worth considering\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "6": "\"Usually\" = \"most\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "7": "لا يعبّر الكاتب عن أي رأي في هذا الادعاء.",
+   "8": "هذا تطابق مباشر."
+  }
+ },
+ {
+  "id": "rb_ynng_02",
+  "lesson": {
+   "title": "آراء الآخرين مقابل رأي الكاتب (Reported views vs the writer's view)",
+   "text": "كثيرًا ما يعرض الكتّاب رأيًا ما ثم يردّون عليه: \"Some parents argue that... This, however, overlooks...\". الجملة الأولى ليست رأي الكاتب. تابع القراءة دائمًا حتى تصل إلى ردّ فعل الكاتب. كلمات مثل however، yet، but، this overlooks، I disagree، there is some truth in this تكشف هل يرفض الكاتب الرأي المنقول، أم يقبله، أم يقبله جزئيًا.",
+   "example": "مثال — في الـ passage: \"Some claim tests are useless. There is some truth in this for very young children, but for older students tests are valuable.\" الـ Statement: \"Tests are useless for all students.\" ← NO."
+  },
+  "explanations": {
+   "1": "\"Does little good\" = \"of little benefit\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "2": "عبارة \"Little further benefit\" تتعارض مع \"large additional benefits\". ويقدّم الكاتب هذه النتيجة كجزء من الأدلة التي يبني عليها رأيه.",
+   "3": "المؤيدون يتبنّون هذا الرأي، لكن الكاتب يشكّ فيه، وهذا يتعارض مع \"clearly succeeds\".",
+   "4": "هذا يطابق الـ statement.",
+   "5": "هذا تعارض مباشر.",
+   "6": "هذا يطابق الـ statement.",
+   "7": "لا يعبّر الكاتب عن أي رأي في هذا الأمر.",
+   "8": "اللعب من ضمن \"these activities\"."
+  }
+ },
+ {
+  "id": "rb_ynng_03",
+  "lesson": {
+   "title": "التنازلات أو الاعتراف بنقطة للطرف الآخر (\"Admittedly...\"، \"Of course...\")",
+   "text": "يجعل الكتّاب حججهم أكثر إقناعًا عندما يعترفون بنقاط تبدو في صالح الطرف الآخر: admittedly، of course، it is true that، I accept that، no doubt. هذا الاعتراف (concession) هو رأي الكاتب فعلًا. فالكاتب يقبله حقًا، حتى لو لم يكن حجته الرئيسية. لذلك إذا قال الكاتب \"Admittedly, typing is faster\"، فإن الـ statement \"typing is faster than handwriting\" يكون YES، حتى لو كان الموقف العام للكاتب في صالح الكتابة باليد.",
+   "example": "مثال — في الـ passage: \"Of course, electric cars are expensive. Even so, I believe they are worth buying.\" الـ Statement: \"Electric cars are costly.\" ← YES."
+  },
+  "explanations": {
+   "1": "هذا تعارض مباشر.",
+   "2": "هذا concession (اعتراف بنقطة للطرف الآخر)، وهو مع ذلك رأي الكاتب.",
+   "3": "هذا يتعارض مع \"required to use pens\".",
+   "4": "التعبير غير القاطع \"may\" في الـ statement يناسب كلمة \"seems\".",
+   "5": "هذا يتعارض مع \"conclusively settled\".",
+   "6": "هذا هو الرأي المنقول الذي يرفضه الكاتب.",
+   "7": "لا يعطي الكاتب أي رأي عن سهولة قراءتها.",
+   "8": "هذا تطابق مباشر."
+  }
+ },
+ {
+  "id": "rb_ynng_04",
+  "lesson": {
+   "title": "قوة رأي الكاتب (Strength of the writer's view)",
+   "text": "الكتّاب لا يكتفون بالموافقة أو الرفض، بل يوافقون بدرجة معينة. فالكاتب الذي يقول إن الدخول المجاني \"generally the better policy\" لا يدّعي أن \"all museums must be free in all circumstances\". قارن كلمات القوة في الـ statement (always، all، must، never، completely) بكلمات الكاتب نفسه (generally، usually، in most cases، can). إذا كان الـ statement أقوى بوضوح من رأي الكاتب، فالإجابة في الغالب NO.",
+   "example": "مثال — في الـ passage: \"Charging for plastic bags is usually a good idea.\" الـ Statement: \"Charging for plastic bags is always right.\" ← NO، لأن الكاتب يترك مجالًا للاستثناءات."
+  },
+  "explanations": {
+   "1": "هذه paraphrase (إعادة صياغة) مباشرة.",
+   "2": "هذا يتعارض مع \"cannot discourage\".",
+   "3": "هذا يتعارض مع \"always ... new types of visitors\".",
+   "4": "عبارة \"Not sufficient on its own\" تتعارض مع \"alone is enough\".",
+   "5": "\"Too often underfunded\" = \"often lack sufficient funding\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "6": "هذا يتعارض مع \"never ... any exhibition\". رأي الكاتب أقل إطلاقًا من الـ statement.",
+   "7": "لا توجد أي مقارنة بين عدد مرات زيارتهم.",
+   "8": "هذا يطابق الـ statement."
+  }
+ },
+ {
+  "id": "rb_ynng_05",
+  "lesson": {
+   "title": "الجمل المبنية على \"Rather than\" و\"not ... but\"",
+   "text": "كثيرًا ما يرفض الكتّاب فكرة ويقترحون فكرة أخرى في الجملة نفسها: \"not X but Y\"، \"Y rather than X\"، \"instead of X, cities should Y\". هذه التراكيب تعطيك إجابتين في وقت واحد: الـ statement الذي يؤيد X يكون NO، والـ statement الذي يؤيد Y يكون YES. اقرأ هذه الجمل ببطء، لأن من السهل أن تعكس معناها.",
+   "example": "مثال — في الـ passage: \"The answer is not to close the park but to manage its paths better.\"\nالـ Statement: \"The park should be closed.\" ← NO. الـ Statement: \"Better path management is needed.\" ← YES."
+  },
+  "explanations": {
+   "1": "الكاتب يرفض هذا مباشرة.",
+   "2": "هذا هو نمط \"not X but Y\": والـ Y هو رأي الكاتب.",
+   "3": "هذا concession (اعتراف بنقطة) يقبله الكاتب فعلًا.",
+   "4": "هذا يتعارض مع \"most effective\".",
+   "5": "يقول الكاتب إن الضرائب يمكن أن تنجح في ظل هذا الشرط، لكنه لا يقول إنها مقبولة في ظله فقط. ولا يذكر هل ستكون مقبولة في غير ذلك. هذا trap (فخّ) من نوع المستوى Medium وُضع هنا للتدريب.",
+   "6": "لا يعبّر الكاتب عن أي رأي في الإنفاق.",
+   "7": "هذا تطابق مباشر.",
+   "8": "هذا يتعارض مع \"will be enough\"."
+  }
+ },
+ {
+  "id": "rb_ynng_06",
+  "lesson": {
+   "title": "الأولويات والترتيب داخل الرأي (Priorities and rankings in opinions)",
+   "text": "قد يقبل الكاتب أن شيئًا ما جيد، بينما يرى أن شيئًا آخر أهم منه. مثلًا: \"Lower fares help, but reliability matters more.\" وقد تختبر الـ statements هذا الترتيب. \"Price is the most important factor\" ← NO. \"Lower fares can help\" ← YES. ابحث عن لغة المقارنة: more important، above all، the main، secondary، the first priority.",
+   "example": "مثال — في الـ passage: \"Cheaper tickets are welcome, but the real priority is more frequent trains.\" الـ Statement: \"Frequency matters more than price.\" ← YES."
+  },
+  "explanations": {
+   "1": "الكاتب يوافق على الأهداف لكنه لا يوافق على الطريقة.",
+   "2": "هذا يطابق ترتيب الكاتب.",
+   "3": "هذا تعارض مباشر.",
+   "4": "يقدّم الكاتب هذا الدليل على أنه يدعم رأيه. وكلمة \"Mainly\" مبرَّرة بالمقابلة \"rather than drivers\".",
+   "5": "هذا تعارض مباشر.",
+   "6": "لا يعطي الكاتب أي رأي في مصادر التمويل.",
+   "7": "هذا concession (اعتراف بنقطة) يقبله الكاتب.",
+   "8": "لا يعبّر الكاتب عن أي رأي."
+  }
+ },
+ {
+  "id": "rb_ynng_07",
+  "lesson": {
+   "title": "الآراء الضمنية (Implied opinions)",
+   "text": "في المستوى Medium، كثيرًا ما يعبّر الكتّاب عن آرائهم بشكل غير مباشر: من خلال اختيار الكلمات (\"so-called experts\"، \"the understandable wish for certainty\")، أو من خلال السخرية، أو بوصف نتيجة ما بأنها ضارة أو مفيدة. عليك أن تستنتج موقف الكاتب من هذه الإشارات. اسأل نفسك: هل تُظهر اللغة استحسانًا أم رفضًا أم شكًّا؟\n\nقد يكون الرأي واضحًا دون كلمات مثل \"I think\". لكن احذر من المبالغة في التفسير: النبرة وحدها لا تصنع رأيًا في ادعاء لم يتناوله الكاتب أبدًا.",
+   "example": "مثال — في الـ passage: \"The council's latest plan – its third in two years – promises, once again, to solve the parking problem.\" الـ Statement: \"The writer doubts that the plan will succeed.\" ← YES (يظهر ذلك من \"third\" و\"once again\" و\"promises\")."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر.",
+   "2": "عبارة \"Most damaging\" تتعارض مع \"harmless\".",
+   "3": "قد يرى الناس ذلك عدم كفاءة، لكن الكاتب لا يراه كذلك.",
+   "4": "هذا concession (اعتراف بنقطة) يقبله الكاتب.",
+   "5": "عبارة \"In some cases slightly\" تتعارض مع \"always increases\".",
+   "6": "هذا تركيب \"not X but Y\".",
+   "7": "عبارتا \"Can be\" و\"many people find ... difficult\" تتعارضان مع \"always easier\".",
+   "8": "هذا NOT GIVEN في موضوع يناقشه الـ passage.",
+   "9": "\"Contribute to\" = \"share some responsibility\"، أي أن العبارتين هنا بالمعنى نفسه."
+  }
+ },
+ {
+  "id": "rb_ynng_08",
+  "lesson": {
+   "title": "الآراء المشروطة (Conditional opinions)",
+   "text": "قد يؤيد الكاتب شيئًا ما في ظل شروط معينة فقط: \"Offsets can be useful if they are verified\"، \"provided that...\"، \"as long as...\"، \"only when...\". وقد تقوم الـ statements بما يلي: حذف الشرط (\"offsets are useful\") — وتكون الإجابة في الغالب NO إذا كان الكاتب يؤكد على الشرط، لأن الـ statement يعمّم أكثر من اللازم؛\n\nالإبقاء على الشرط — YES؛\n\nإضافة شرط مختلف — وكثيرًا ما تكون الإجابة NOT GIVEN.",
+   "example": "مثال — في الـ passage: \"Online courses work well, but only for highly motivated learners.\"\nالـ Statement: \"Online courses work well for all learners.\" ← NO."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر.",
+   "2": "\"Direct money\" = \"channel funding\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "3": "كلمة \"Some\" تتعارض مع \"all\".",
+   "4": "هذا تعارض مباشر.",
+   "5": "هذا يطابق الـ statement.",
+   "6": "يناقش الكاتب مدى موثوقيتها، لكنه لا يناقش تكلفتها.",
+   "7": "هذا تعارض مباشر.",
+   "8": "الكاتب متشكك في بعض الادعاءات، لكنه لا يقترح أبدًا منع بيع الـ offsets.",
+   "9": "الـ statement يحتفظ بشرط الكاتب، لذلك فهو يطابقه."
+  }
+ },
+ {
+  "id": "rb_ynng_09",
+  "lesson": {
+   "title": "تقييم الكاتب لآراء شخصيات تاريخية (Writers who evaluate historical figures' views)",
+   "text": "بعض الـ passages تصف مواقف مفكرين تاريخيين ثم تقيّمها. وتتعلق الـ statements عادةً بتقييم الكاتب، وليس بما كانت تعتقده تلك الشخصيات. إذا قال الـ statement \"Ruskin's view was too extreme\" وقال الكاتب إن Ruskin \"went too far\"، فالإجابة YES. أما إذا كان الـ statement يكرر رأي Ruskin فقط (\"restoration is a lie\")، فعليك أن تتحقق هل يوافق الكاتب عليه أم لا.",
+   "example": "مثال — في الـ passage: \"Smith insisted that all ornament was waste. His argument, though influential, ignored the pleasure people take in decoration.\" الـ Statement: \"All ornament is a waste.\" ← NO (الكاتب ينتقد هذا الرأي)."
+  },
+  "explanations": {
+   "1": "يقدّم الكاتب هذا على أنه حقيقة مقبولة.",
+   "2": "هذا يتعارض مع \"always easy\".",
+   "3": "\"Largely correct\" = \"broadly right\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "4": "هذا هو موقف Ruskin المتطرف، والكاتب يرفضه.",
+   "5": "لا توجد أي مقارنة مع المباني المحفوظة.",
+   "6": "هذا يتعارض مع \"straightforward\".",
+   "7": "يرى الكاتب بعض القيمة، وهذا يتعارض مع \"no value at all\".",
+   "8": "هذا هو شرط الكاتب.",
+   "9": "للإجابة عن هذا، عليك أن تحدد إلى ماذا تشير عبارة \"the second\"."
+  }
+ },
+ {
+  "id": "rb_ynng_10",
+  "lesson": {
+   "title": "الكاتب الذي يوافق جزئيًا (Writers who partly agree)",
+   "text": "كثير من الـ passages في المستوى Medium تتخذ موقف \"yes, but\": الفكرة قيّمة، لكن تمت المبالغة فيها أو تطبيقها بشكل خاطئ. ومع هذا النوع من الكتّاب تظهر ثلاثة أنواع من الـ statements:\n\nالفكرة الأساسية التي يقبلها الكاتب ← YES؛\n\nالنسخة المبالَغ فيها التي يرفضها الكاتب ← NO؛\n\nالتفاصيل التي لا يقيّمها الكاتب ← NOT GIVEN.\n\nاحتفظ بقائمتين أثناء القراءة: ما يقبله الكاتب، وما يرفضه.",
+   "example": "مثال — في الـ passage: \"Mindfulness can reduce stress for some people, but claims that it cures anxiety disorders go far beyond the evidence.\" الـ Statements: \"Mindfulness may help some people with stress\" ← YES. \"Mindfulness cures anxiety disorders\" ← NO."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر.",
+   "2": "كلمة \"Deservedly\" تُظهر استحسان الكاتب.",
+   "3": "كلمتا \"Unfortunately\" و\"little more than\" تُظهران رفض الكاتب.",
+   "4": "Dweck هي من تطرح هذه النقطة، وينقلها الكاتب باستحسان كجزء من انتقاد يشاركها فيه (\"Unfortunately ...\").",
+   "5": "هذا يتعارض مع \"large improvements for all\".",
+   "6": "هذا تعارض مباشر.",
+   "7": "لا يعبّر الكاتب عن أي رأي.",
+   "8": "هذا تعارض مباشر.",
+   "9": "لا يوجد أي رأي أو معلومة عن هذه المقارنة."
+  }
+ },
+ {
+  "id": "rb_ynng_11",
+  "lesson": {
+   "title": "التوقعات ودرجة اليقين (Predictions and certainty)",
+   "text": "عندما يتحدث الكتّاب عن المستقبل، تختلف درجة ثقتهم: will certainly، is likely to، may، it is too early to say. والـ statement الذي يحوّل \"may\" عند الكاتب إلى \"will\" يكون في الغالب NO إذا كان الكاتب يؤكد على عدم اليقين. ويكون NOT GIVEN إذا لم يقدّم الكاتب أي توقع حول تلك النقطة أصلًا.",
+   "example": "مثال — في الـ passage: \"It is possible that prices will fall next year, but nobody can be sure.\"\nالـ Statement: \"Prices will definitely fall next year.\" ← NO."
+  },
+  "explanations": {
+   "1": "\"Tended to grow\" = \"generally increased\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "2": "هذا تعارض مباشر.",
+   "3": "هذا يتعارض مع \"usually ... quickly\".",
+   "4": "هذا يتعارض مع \"completely ruled out\"، رغم أن الكاتب متشكك في التوقعات المبالَغ فيها.",
+   "5": "هذا تطابق مباشر.",
+   "6": "لا يقدّم الكاتب أي توقع خاص بالـ AI تحديدًا. فهو يعبّر عن عدم اليقين، لكنه لا يعطي رأيًا في هذه النتيجة الصافية.",
+   "7": "هذه paraphrase (إعادة صياغة) مباشرة.",
+   "8": "يرى الكاتب أن الدخل الأساسي يستحق الدراسة، وليس أنه الحل الأفضل. والنبرة الحذرة تتعارض مع \"the best solution\".",
+   "9": "لا يعبّر الكاتب عن أي رأي."
+  }
+ },
+ {
+  "id": "rb_ynng_12",
+  "lesson": {
+   "title": "الردّ على الانتقادات (Responses to criticisms)",
+   "text": "كثيرًا ما تعرض الـ passages التي تعبّر عن رأي انتقادات لسياسة ما، ثم تردّ على كل انتقاد. وقد يكون ردّ الكاتب:\n\nرفض الانتقاد (\"this argument does not hold\")، وعندها فالـ statement الذي يكرر الانتقاد ← NO؛\n\nقبول الانتقاد (\"this is a genuine concern\") ← YES؛\n\nقبوله جزئيًا (\"there is something in this, but...\"). وهنا عليك أن تحدد أيّ جزء يقبله الكاتب.\n\nضع علامة بجانب كل انتقاد في الهامش: ✔ أو ✘ أو ½.",
+   "example": "مثال — في الـ passage: \"Critics say the tax hurts poorer families. There is something in this, but the health benefits for those families are also greatest.\" الـ Statement: \"The tax has some negative effect on poorer families.\" ← YES (قبول جزئي)."
+  },
+  "explanations": {
+   "1": "هذا تعارض مباشر.",
+   "2": "\"Most valuable\" = \"most important\"، وكلمة \"may\" باقية في الـ statement.",
+   "3": "هذا قبول جزئي، وهو يطابق \"some validity\".",
+   "4": "الكاتب يرفض هذا الانتقاد.",
+   "5": "كلمتا \"May\" و\"mixed\" تتعارضان مع \"always\".",
+   "6": "لا يعطي الكاتب أي رأي في توسيع الضريبة.",
+   "7": "هذا تطابق مباشر.",
+   "8": "يقبل الكاتب أن الإثبات صعب، لكنه يرفض النتيجة.",
+   "9": "لا توجد أي مقارنة."
+  }
+ },
+ {
+  "id": "rb_ynng_13",
+  "lesson": {
+   "title": "الكاتب المتوازن وتركيب \"on the one hand ... on the other\"",
+   "text": "الكاتب المتوازن يعرض الفوائد والتكاليف، وقد يوافق على الجانبين معًا. فالـ statement الذي يعبّر عن فائدة قد يكون YES، والـ statement الذي يعبّر عن تكلفة قد يكون YES أيضًا. أما ما يؤدي إلى NO فهو الـ statement الذي ينكر أحد الجانبين تمامًا (\"English has brought no benefits\") أو يدفع أحد الجانبين إلى حدّ التطرف.",
+   "example": "مثال — في الـ passage: \"Tourism brings money to the island; on the other hand, it strains water supplies.\" الـ Statements: \"Tourism benefits the island's economy\" ← YES. \"Tourism strains water supplies\" ← YES. \"Tourism has no disadvantages\" ← NO."
+  },
+  "explanations": {
+   "1": "\"Too easily overlooked\" = \"underestimate\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "2": "هذا تعارض مباشر.",
+   "3": "\"Did nothing to earn\" = \"unearned\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "4": "هذا يتعارض مع الادعاء الذي يقول الكاتب إنه \"needs to be treated with care\".",
+   "5": "هذا تطابق مباشر.",
+   "6": "هذا تعارض مباشر.",
+   "7": "لا يعطي الكاتب أي رأي في الدراسة الإلزامية.",
+   "8": "هذا تطابق مباشر.",
+   "9": "لا يعبّر الكاتب عن أي رأي في هذه المقارنة."
+  }
+ },
+ {
+  "id": "rb_ynng_14",
+  "lesson": {
+   "title": "الأمثلة التي تدعم حجة الكاتب (Examples that support the writer's argument)",
+   "text": "يستخدم الكتّاب أمثلة تاريخية لدعم ادعاءاتهم. والـ statement الذي يتحدث عن مثال ما قد يختبر هل فهمت ما يريد الكاتب إثباته بهذا المثال. إذا وصف الكاتب اكتشافًا بأنه \"made by researchers with no practical aim in mind\" ليدافع عن البحث القائم على الفضول، فإن الـ statement \"the researchers were trying to solve a practical problem\" ← NO. ميّز بين حقائق المثال والحجة التي يستخلصها الكاتب منها.",
+   "example": "مثال — في الـ passage: \"Penicillin was found by accident, which shows that unplanned discoveries matter.\" الـ Statement: \"Unplanned discoveries can be important.\" ← YES."
+  },
+  "explanations": {
+   "1": "كلمة \"Understandable\" تتعارض مع \"difficult to understand\".",
+   "2": "يستخدم الكاتب هذا المثال ليبيّن أن التطبيق العملي لم يكن متوقَّعًا.",
+   "3": "هذه paraphrase (إعادة صياغة) مباشرة.",
+   "4": "يصف الكاتب هذا بأنه \"a fair point\"، أي concession (اعتراف بنقطة) يقبله.",
+   "5": "هذا تعارض مباشر.",
+   "6": "\"Exaggerate\" = \"overstate\"، وعبارة \"are encouraged to\" تدعم \"tend to\".",
+   "7": "لا يعبّر الكاتب عن أي رأي.",
+   "8": "هذا يتعارض مع \"free from any form of assessment\".",
+   "9": "لا يعطي الكاتب أي رأي."
+  }
+ },
+ {
+  "id": "rb_ynng_15",
+  "lesson": {
+   "title": "Hard YNNG — النفي المزدوج والتهوين والسخرية (double negatives, understatement and irony)",
+   "text": "تعبّر الـ passages الصعبة عن الآراء بلغة معقدة:\n\nالنفي المزدوج (double negatives): \"not without merit\" = فيه بعض الميزة؛ \"hardly unreasonable\" = معقول.\n\nالتهوين (understatement): \"somewhat less than convincing\" = غير مقنع.\n\nالسخرية (irony): \"a remarkably convenient conclusion\" = نتيجة مثيرة للشك.\n\nآراء منسوبة لآخرين يتركها الكاتب في منتصف الجملة: \"what its critics call X, and what might more fairly be called Y\". الكاتب يفضّل Y.\n\nحوّل كل عبارة من هذا النوع إلى جملة بسيطة تعبّر عن رأي الكاتب قبل أن تجيب.",
+   "example": "مثال — في الـ passage: \"The theory is not without its attractions, but it has proved hard to test.\"\nالـ Statement: \"The theory has some appeal.\" ← YES."
+  },
+  "explanations": {
+   "1": "عبارة \"Not entirely deserved\" تتعارض مع \"completely justified\". وهذا يعتمد على التهوين (understatement).",
+   "2": "الكاتب يؤيد هذا.",
+   "3": "\"Not unreasonably\" = بشكل معقول، أي أن الكاتب يرى أن للنقّاد وجهة نظر صحيحة. وهذا يعتمد على النفي المزدوج.",
+   "4": "هذا يطابق \"timing and form\".",
+   "5": "\"No more defensible than\" = \"as difficult to defend as\"، أي أن العبارتين هنا بالمعنى نفسه.",
+   "6": "\"Hardly controversial\" = غير مثير للجدل، وهذا يتعارض مع \"highly controversial\".",
+   "7": "لا توجد أي مقارنة.",
+   "8": "كلمة \"Tentative\" تتعارض مع \"definite proof\".",
+   "9": "الكاتب يعارض اتخاذ القرار مسبقًا."
+  }
+ },
+ {
+  "id": "rb_ynng_16",
+  "lesson": {
+   "title": "التمييز بين درجات التأييد (Distinguishing degrees of support)",
+   "text": "نادرًا ما يكتفي الكتّاب في المستوى Hard بالتأييد أو المعارضة فقط. فقد:\n\nيؤيدون بعض الاستخدامات (← YES لتلك الاستخدامات)؛\n\nيرفضون ادعاءً قويًا يطرحه المتحمسون (← NO)؛\n\nيثيرون قلقًا دون أن يحسموه (← الـ statements التي تقول إن الكاتب حسمه تكون NO؛ والـ statements عن جوانب أخرى لم يتناولها تكون NOT GIVEN).\n\nانتبه إلى الجمل التي تجمع بين هذه الحركات: \"Nudges have their place, though not the place their champions claim.\""
+  },
+  "explanations": {
+   "1": "كلمة \"Understandable\" تدعم \"easy to explain\"، ثم يذكر الكاتب الأسباب.",
+   "2": "هذا تأييد صريح.",
+   "3": "هذا تعارض مباشر.",
+   "4": "الكاتب يرفض هذه النتيجة.",
+   "5": "هذا يطابق الرأي المشروط.",
+   "6": "هذا NOT GIVEN في موضوع يناقشه الـ passage.",
+   "7": "يقبل الكاتب الاعتراض بالنسبة لبعض الـ nudges فقط، وهذا يتعارض مع \"all\".",
+   "8": "هذا تعارض مباشر.",
+   "9": "\"Greatest contribution\" = \"main legacy\"، وكلمة \"may\" باقية في الـ statement."
+  }
+ }
+]

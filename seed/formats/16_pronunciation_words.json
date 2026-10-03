@@ -1,0 +1,84 @@
+{
+  "_format": {
+    "name": "pronunciation_words",
+    "group": "content",
+    "table": "pronunciation_words",
+    "primaryKey": "id",
+    "description": "Word for the pronunciation drill (D7) with IPA and stressed syllable.",
+    "currentSourceInApp": "speaking.pronunciation.words (demo feedback fields removed: those are per attempt)",
+    "fields": {
+      "id": "string",
+      "word": "string",
+      "ipa": "string",
+      "partOfSpeech": "string",
+      "syllables": "array",
+      "tip": "string",
+      "set": "string"
+    },
+    "required": [
+      "id",
+      "word",
+      "ipa",
+      "syllables"
+    ],
+    "relations": [],
+    "notes": [
+      "set groups words into a drill of ~7 words."
+    ],
+    "recordCountToday": 6
+  },
+  "items": [
+    {
+      "id": "pw_struggling",
+      "word": "struggling",
+      "ipa": "/ˈstrʌɡ.əl.ɪŋ/",
+      "partOfSpeech": "verb",
+      "syllables": [
+        {
+          "text": "STRUG",
+          "stress": true
+        },
+        {
+          "text": "gl",
+          "stress": false
+        },
+        {
+          "text": "ing",
+          "stress": false
+        }
+      ],
+      "tip": "Stress is right. Blend the last two syllables together.",
+      "set": "default"
+    },
+    {
+      "id": "pw_particularly",
+      "word": "particularly",
+      "ipa": "/pəˈtɪk.jə.lə.li/",
+      "partOfSpeech": "adverb",
+      "syllables": [
+        {
+          "text": "par",
+          "stress": false
+        },
+        {
+          "text": "TIC",
+          "stress": true
+        },
+        {
+          "text": "u",
+          "stress": false
+        },
+        {
+          "text": "lar",
+          "stress": false
+        },
+        {
+          "text": "ly",
+          "stress": false
+        }
+      ],
+      "tip": "Stress is right. Shorten the third syllable and try again.",
+      "set": "default"
+    }
+  ]
+}

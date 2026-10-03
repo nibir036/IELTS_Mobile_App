@@ -1,0 +1,23 @@
+name = "ielts-ai-api"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# Models on OpenRouter — change here without touching code.
+# Writing/speaking scoring needs a strong text model; the audio model must
+# accept `input_audio` (Gemini Flash models do).
+[vars]
+WRITING_MODEL = "google/gemini-2.5-flash"
+SPEAKING_MODEL = "google/gemini-2.5-flash"
+AUDIO_MODEL = "google/gemini-2.5-flash"
+ALLOWED_ORIGIN = "*"
+DEMO_OTP = "123456"
+APP_URL = "https://ieltsai.nexted.app"
+
+# Existing R2 bucket for recordings (create/rename to match yours).
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "ielts-ai-recordings"
+
+# Secrets (never commit these):
+#   npx wrangler secret put OPENROUTER_API_KEY
+#   npx wrangler secret put APP_KEY          # shared key the app sends as X-App-Key

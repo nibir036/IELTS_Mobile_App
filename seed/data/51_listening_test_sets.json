@@ -1,0 +1,4041 @@
+{
+ "table": "listening_sets",
+ "items": [
+  {
+   "id": "lt_w01_p1",
+   "source": "test",
+   "testId": "lt_w01",
+   "part": 1,
+   "title": "Enquiring about a local language exchange club",
+   "context": "Enquiring about a local language exchange club",
+   "audio": "listening/lt_w01_p1.mp3",
+   "durationSeconds": 272,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Language Exchange Club",
+     "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "Ben wants to practise ______.",
+       "answer": "French",
+       "accepted": [
+        "French"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "The French group meets on ______.",
+       "answer": "Thursday",
+       "accepted": [
+        "Thursday"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "Each session lasts approximately ______ minutes.",
+       "answer": "90",
+       "accepted": [
+        "90"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "There is no formal ______.",
+       "answer": "homework",
+       "accepted": [
+        "homework"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "Membership costs ______ pounds for six months.",
+       "answer": "30",
+       "accepted": [
+        "30"
+       ]
+      },
+      {
+       "number": 6,
+       "text": "The group meets at Oak Street Community ______.",
+       "answer": "Centre",
+       "accepted": [
+        "Centre",
+        "Center"
+       ]
+      },
+      {
+       "number": 7,
+       "text": "The group uses Room ______.",
+       "answer": "Seven",
+       "accepted": [
+        "Seven",
+        "7"
+       ]
+      },
+      {
+       "number": 8,
+       "text": "The next meeting is on the ______ of November.",
+       "answer": "ninth",
+       "accepted": [
+        "ninth",
+        "9th"
+       ]
+      },
+      {
+       "number": 9,
+       "text": "Members should register by the ______ of November.",
+       "answer": "second",
+       "accepted": [
+        "second",
+        "2nd"
+       ]
+      },
+      {
+       "number": 10,
+       "text": "The group normally has around ______ people.",
+       "answer": "12",
+       "accepted": [
+        "12",
+        "twelve"
+       ]
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w01_p1",
+    "part": 1,
+    "test": "lt_w01",
+    "title": "Enquiring about a local language exchange club",
+    "context": "Enquiring about a local language exchange club",
+    "audio": "assets/audio/listening/lt_w01_p1.mp3",
+    "durationSeconds": 272,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Language Exchange Club",
+      "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "Ben wants to practise ______.",
+        "answer": "French",
+        "accepted": [
+         "French"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "The French group meets on ______.",
+        "answer": "Thursday",
+        "accepted": [
+         "Thursday"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "Each session lasts approximately ______ minutes.",
+        "answer": "90",
+        "accepted": [
+         "90"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "There is no formal ______.",
+        "answer": "homework",
+        "accepted": [
+         "homework"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "Membership costs ______ pounds for six months.",
+        "answer": "30",
+        "accepted": [
+         "30"
+        ]
+       },
+       {
+        "number": 6,
+        "text": "The group meets at Oak Street Community ______.",
+        "answer": "Centre",
+        "accepted": [
+         "Centre",
+         "Center"
+        ]
+       },
+       {
+        "number": 7,
+        "text": "The group uses Room ______.",
+        "answer": "Seven",
+        "accepted": [
+         "Seven",
+         "7"
+        ]
+       },
+       {
+        "number": 8,
+        "text": "The next meeting is on the ______ of November.",
+        "answer": "ninth",
+        "accepted": [
+         "ninth",
+         "9th"
+        ]
+       },
+       {
+        "number": 9,
+        "text": "Members should register by the ______ of November.",
+        "answer": "second",
+        "accepted": [
+         "second",
+         "2nd"
+        ]
+       },
+       {
+        "number": 10,
+        "text": "The group normally has around ______ people.",
+        "answer": "12",
+        "accepted": [
+         "12",
+         "twelve"
+        ]
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 3 (test 11)"
+   }
+  },
+  {
+   "id": "lt_w01_p2",
+   "source": "test",
+   "testId": "lt_w01",
+   "part": 2,
+   "title": "Orientation at a public sports centre (floor plan labelling)",
+   "context": "Orientation at a public sports centre (floor plan labelling)",
+   "audio": "listening/lt_w01_p2.mp3",
+   "durationSeconds": 205,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Complete the notes",
+     "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "The main entrance is at the ______ of the plan.",
+       "answer": "bottom",
+       "accepted": [
+        "bottom"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "Reception is immediately ______ the entrance.",
+       "answer": "inside",
+       "accepted": [
+        "inside"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "The main gym is on the ______ side.",
+       "answer": "left",
+       "accepted": [
+        "left"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "The swimming pool is on the ______ side.",
+       "answer": "right",
+       "accepted": [
+        "right"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "The changing rooms are ______ the gym and pool.",
+       "answer": "between",
+       "accepted": [
+        "between"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g2",
+     "type": "map",
+     "title": "Label the plan",
+     "instruction": "Label the plan below. Choose the correct letter, A–H.",
+     "image": "assets/listening/maps/lt_w01_plan.jpg",
+     "layoutIntro": "",
+     "options": [
+      {
+       "key": "A",
+       "text": ""
+      },
+      {
+       "key": "B",
+       "text": ""
+      },
+      {
+       "key": "C",
+       "text": ""
+      },
+      {
+       "key": "D",
+       "text": ""
+      },
+      {
+       "key": "E",
+       "text": ""
+      },
+      {
+       "key": "F",
+       "text": ""
+      },
+      {
+       "key": "G",
+       "text": ""
+      },
+      {
+       "key": "H",
+       "text": ""
+      }
+     ],
+     "questions": [
+      {
+       "number": 6,
+       "text": "Reception",
+       "answer": "A"
+      },
+      {
+       "number": 7,
+       "text": "Main Gym",
+       "answer": "B"
+      },
+      {
+       "number": 8,
+       "text": "Swimming Pool",
+       "answer": "C"
+      },
+      {
+       "number": 9,
+       "text": "Changing Rooms",
+       "answer": "D"
+      },
+      {
+       "number": 10,
+       "text": "Fitness Studio",
+       "answer": "E"
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w01_p2",
+    "part": 2,
+    "test": "lt_w01",
+    "title": "Orientation at a public sports centre (floor plan labelling)",
+    "context": "Orientation at a public sports centre (floor plan labelling)",
+    "audio": "assets/audio/listening/lt_w01_p2.mp3",
+    "durationSeconds": 205,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Complete the notes",
+      "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "The main entrance is at the ______ of the plan.",
+        "answer": "bottom",
+        "accepted": [
+         "bottom"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "Reception is immediately ______ the entrance.",
+        "answer": "inside",
+        "accepted": [
+         "inside"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "The main gym is on the ______ side.",
+        "answer": "left",
+        "accepted": [
+         "left"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "The swimming pool is on the ______ side.",
+        "answer": "right",
+        "accepted": [
+         "right"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "The changing rooms are ______ the gym and pool.",
+        "answer": "between",
+        "accepted": [
+         "between"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "g2",
+      "type": "map",
+      "title": "Label the plan",
+      "instruction": "Label the plan below. Choose the correct letter, A–H.",
+      "image": "assets/listening/maps/lt_w01_plan.jpg",
+      "layoutIntro": "",
+      "options": [
+       {
+        "key": "A",
+        "text": ""
+       },
+       {
+        "key": "B",
+        "text": ""
+       },
+       {
+        "key": "C",
+        "text": ""
+       },
+       {
+        "key": "D",
+        "text": ""
+       },
+       {
+        "key": "E",
+        "text": ""
+       },
+       {
+        "key": "F",
+        "text": ""
+       },
+       {
+        "key": "G",
+        "text": ""
+       },
+       {
+        "key": "H",
+        "text": ""
+       }
+      ],
+      "questions": [
+       {
+        "number": 6,
+        "text": "Reception",
+        "answer": "A"
+       },
+       {
+        "number": 7,
+        "text": "Main Gym",
+        "answer": "B"
+       },
+       {
+        "number": 8,
+        "text": "Swimming Pool",
+        "answer": "C"
+       },
+       {
+        "number": 9,
+        "text": "Changing Rooms",
+        "answer": "D"
+       },
+       {
+        "number": 10,
+        "text": "Fitness Studio",
+        "answer": "E"
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 3 (test 11)"
+   }
+  },
+  {
+   "id": "lt_w01_p3",
+   "source": "test",
+   "testId": "lt_w01",
+   "part": 3,
+   "title": "University research project on student travel and public transport",
+   "context": "University research project on student travel and public transport",
+   "audio": "listening/lt_w01_p3.mp3",
+   "durationSeconds": 232,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "mcq",
+     "title": "Choose the correct letter, A, B or C",
+     "questions": [
+      {
+       "number": 1,
+       "text": "What is the main focus of the project?",
+       "options": [
+        {
+         "key": "A",
+         "text": "How students travel to and from university"
+        },
+        {
+         "key": "B",
+         "text": "The cost of university accommodation"
+        },
+        {
+         "key": "C",
+         "text": "The design of public transport systems"
+        }
+       ],
+       "answer": "A"
+      },
+      {
+       "number": 2,
+       "text": "Which students will participate?",
+       "options": [
+        {
+         "key": "A",
+         "text": "Students living on campus"
+        },
+        {
+         "key": "B",
+         "text": "Undergraduate students living off campus"
+        },
+        {
+         "key": "C",
+         "text": "Postgraduate students"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 3,
+       "text": "How many questionnaire responses will they target?",
+       "options": [
+        {
+         "key": "A",
+         "text": "200"
+        },
+        {
+         "key": "B",
+         "text": "250"
+        },
+        {
+         "key": "C",
+         "text": "300"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 4,
+       "text": "How many interviews will they conduct?",
+       "options": [
+        {
+         "key": "A",
+         "text": "15"
+        },
+        {
+         "key": "B",
+         "text": "20"
+        },
+        {
+         "key": "C",
+         "text": "25"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 5,
+       "text": "How long will the survey remain open?",
+       "options": [
+        {
+         "key": "A",
+         "text": "2 weeks"
+        },
+        {
+         "key": "B",
+         "text": "3 weeks"
+        },
+        {
+         "key": "C",
+         "text": "4 weeks"
+        }
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "id": "g2",
+     "type": "matching",
+     "title": "Who will be responsible for each task?",
+     "instruction": "Choose the correct letter, A, B or C, next to each task.",
+     "options": [
+      {
+       "key": "A",
+       "text": "Maya"
+      },
+      {
+       "key": "B",
+       "text": "Daniel"
+      },
+      {
+       "key": "C",
+       "text": "Both students"
+      }
+     ],
+     "questions": [
+      {
+       "number": 6,
+       "text": "Designing the questionnaire",
+       "answer": "A"
+      },
+      {
+       "number": 7,
+       "text": "Organising interviews",
+       "answer": "B"
+      },
+      {
+       "number": 8,
+       "text": "Recruiting participants",
+       "answer": "C"
+      },
+      {
+       "number": 9,
+       "text": "Statistical analysis",
+       "answer": "A"
+      },
+      {
+       "number": 10,
+       "text": "Writing the final recommendations",
+       "answer": "C"
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w01_p3",
+    "part": 3,
+    "test": "lt_w01",
+    "title": "University research project on student travel and public transport",
+    "context": "University research project on student travel and public transport",
+    "audio": "assets/audio/listening/lt_w01_p3.mp3",
+    "durationSeconds": 232,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "mcq",
+      "title": "Choose the correct letter, A, B or C",
+      "questions": [
+       {
+        "number": 1,
+        "text": "What is the main focus of the project?",
+        "options": [
+         {
+          "key": "A",
+          "text": "How students travel to and from university"
+         },
+         {
+          "key": "B",
+          "text": "The cost of university accommodation"
+         },
+         {
+          "key": "C",
+          "text": "The design of public transport systems"
+         }
+        ],
+        "answer": "A"
+       },
+       {
+        "number": 2,
+        "text": "Which students will participate?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Students living on campus"
+         },
+         {
+          "key": "B",
+          "text": "Undergraduate students living off campus"
+         },
+         {
+          "key": "C",
+          "text": "Postgraduate students"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 3,
+        "text": "How many questionnaire responses will they target?",
+        "options": [
+         {
+          "key": "A",
+          "text": "200"
+         },
+         {
+          "key": "B",
+          "text": "250"
+         },
+         {
+          "key": "C",
+          "text": "300"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 4,
+        "text": "How many interviews will they conduct?",
+        "options": [
+         {
+          "key": "A",
+          "text": "15"
+         },
+         {
+          "key": "B",
+          "text": "20"
+         },
+         {
+          "key": "C",
+          "text": "25"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 5,
+        "text": "How long will the survey remain open?",
+        "options": [
+         {
+          "key": "A",
+          "text": "2 weeks"
+         },
+         {
+          "key": "B",
+          "text": "3 weeks"
+         },
+         {
+          "key": "C",
+          "text": "4 weeks"
+         }
+        ],
+        "answer": "B"
+       }
+      ]
+     },
+     {
+      "id": "g2",
+      "type": "matching",
+      "title": "Who will be responsible for each task?",
+      "instruction": "Choose the correct letter, A, B or C, next to each task.",
+      "options": [
+       {
+        "key": "A",
+        "text": "Maya"
+       },
+       {
+        "key": "B",
+        "text": "Daniel"
+       },
+       {
+        "key": "C",
+        "text": "Both students"
+       }
+      ],
+      "questions": [
+       {
+        "number": 6,
+        "text": "Designing the questionnaire",
+        "answer": "A"
+       },
+       {
+        "number": 7,
+        "text": "Organising interviews",
+        "answer": "B"
+       },
+       {
+        "number": 8,
+        "text": "Recruiting participants",
+        "answer": "C"
+       },
+       {
+        "number": 9,
+        "text": "Statistical analysis",
+        "answer": "A"
+       },
+       {
+        "number": 10,
+        "text": "Writing the final recommendations",
+        "answer": "C"
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 3 (test 11)"
+   }
+  },
+  {
+   "id": "lt_w01_p4",
+   "source": "test",
+   "testId": "lt_w01",
+   "part": 4,
+   "title": "Lecture on forests and the water cycle",
+   "context": "Lecture on forests and the water cycle",
+   "audio": "listening/lt_w01_p4.mp3",
+   "durationSeconds": 288,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Complete the notes",
+     "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "The water cycle describes the movement of water between the atmosphere, land and bodies of ______.",
+       "answer": "water",
+       "accepted": [
+        "water"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "Plants release water vapour through tiny openings in their ______.",
+       "answer": "leaves",
+       "accepted": [
+        "leaves"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "This process is known as ______.",
+       "answer": "transpiration",
+       "accepted": [
+        "transpiration"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "Trees can return water vapour to the ______.",
+       "answer": "atmosphere",
+       "accepted": [
+        "atmosphere"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "Leaves and branches can ______ some rainfall.",
+       "answer": "intercept",
+       "accepted": [
+        "intercept"
+       ]
+      },
+      {
+       "number": 6,
+       "text": "Forest soils can absorb and ______ water.",
+       "answer": "store",
+       "accepted": [
+        "store"
+       ]
+      },
+      {
+       "number": 7,
+       "text": "Tree roots can increase water ______ into the soil.",
+       "answer": "infiltration",
+       "accepted": [
+        "infiltration"
+       ]
+      },
+      {
+       "number": 8,
+       "text": "Forests can slow the movement of water towards ______.",
+       "answer": "streams",
+       "accepted": [
+        "streams"
+       ]
+      },
+      {
+       "number": 9,
+       "text": "Removing forests can increase soil ______.",
+       "answer": "erosion",
+       "accepted": [
+        "erosion"
+       ]
+      },
+      {
+       "number": 10,
+       "text": "Planting trees in areas where forests were removed is called ______.",
+       "answer": "reforestation",
+       "accepted": [
+        "reforestation"
+       ]
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w01_p4",
+    "part": 4,
+    "test": "lt_w01",
+    "title": "Lecture on forests and the water cycle",
+    "context": "Lecture on forests and the water cycle",
+    "audio": "assets/audio/listening/lt_w01_p4.mp3",
+    "durationSeconds": 288,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Complete the notes",
+      "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "The water cycle describes the movement of water between the atmosphere, land and bodies of ______.",
+        "answer": "water",
+        "accepted": [
+         "water"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "Plants release water vapour through tiny openings in their ______.",
+        "answer": "leaves",
+        "accepted": [
+         "leaves"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "This process is known as ______.",
+        "answer": "transpiration",
+        "accepted": [
+         "transpiration"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "Trees can return water vapour to the ______.",
+        "answer": "atmosphere",
+        "accepted": [
+         "atmosphere"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "Leaves and branches can ______ some rainfall.",
+        "answer": "intercept",
+        "accepted": [
+         "intercept"
+        ]
+       },
+       {
+        "number": 6,
+        "text": "Forest soils can absorb and ______ water.",
+        "answer": "store",
+        "accepted": [
+         "store"
+        ]
+       },
+       {
+        "number": 7,
+        "text": "Tree roots can increase water ______ into the soil.",
+        "answer": "infiltration",
+        "accepted": [
+         "infiltration"
+        ]
+       },
+       {
+        "number": 8,
+        "text": "Forests can slow the movement of water towards ______.",
+        "answer": "streams",
+        "accepted": [
+         "streams"
+        ]
+       },
+       {
+        "number": 9,
+        "text": "Removing forests can increase soil ______.",
+        "answer": "erosion",
+        "accepted": [
+         "erosion"
+        ]
+       },
+       {
+        "number": 10,
+        "text": "Planting trees in areas where forests were removed is called ______.",
+        "answer": "reforestation",
+        "accepted": [
+         "reforestation"
+        ]
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 3 (test 11)"
+   }
+  },
+  {
+   "id": "lt_w02_p1",
+   "source": "test",
+   "testId": "lt_w02",
+   "part": 1,
+   "title": "Booking a room at a community centre",
+   "context": "Booking a room at a community centre",
+   "audio": "listening/lt_w02_p1.mp3",
+   "durationSeconds": 246,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Room Booking",
+     "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "Ethan expects approximately ______ people.",
+       "answer": "30",
+       "accepted": [
+        "30"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "He wants to hire the ______ Room.",
+       "answer": "Willow",
+       "accepted": [
+        "Willow"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "The room can accommodate up to ______ people seated.",
+       "answer": "40",
+       "accepted": [
+        "40"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "The booking is for Saturday the ______ of December.",
+       "answer": "14th",
+       "accepted": [
+        "14th",
+        "fourteenth"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "Ethan plans to start the party at ______ o'clock.",
+       "answer": "2",
+       "accepted": [
+        "2",
+        "two"
+       ]
+      },
+      {
+       "number": 6,
+       "text": "Room hire costs ______ pounds.",
+       "answer": "65",
+       "accepted": [
+        "65"
+       ]
+      },
+      {
+       "number": 7,
+       "text": "A small ______ is available next to the room.",
+       "answer": "kitchen",
+       "accepted": [
+        "kitchen"
+       ]
+      },
+      {
+       "number": 8,
+       "text": "The booking requires a ______-pound deposit.",
+       "answer": "50",
+       "accepted": [
+        "50"
+       ]
+      },
+      {
+       "number": 9,
+       "text": "The remaining payment is due on the ______.",
+       "answer": "day",
+       "accepted": [
+        "day"
+       ]
+      },
+      {
+       "number": 10,
+       "text": "The public car park is behind the ______.",
+       "answer": "centre",
+       "accepted": [
+        "centre",
+        "center"
+       ]
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w02_p1",
+    "part": 1,
+    "test": "lt_w02",
+    "title": "Booking a room at a community centre",
+    "context": "Booking a room at a community centre",
+    "audio": "assets/audio/listening/lt_w02_p1.mp3",
+    "durationSeconds": 246,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Room Booking",
+      "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "Ethan expects approximately ______ people.",
+        "answer": "30",
+        "accepted": [
+         "30"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "He wants to hire the ______ Room.",
+        "answer": "Willow",
+        "accepted": [
+         "Willow"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "The room can accommodate up to ______ people seated.",
+        "answer": "40",
+        "accepted": [
+         "40"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "The booking is for Saturday the ______ of December.",
+        "answer": "14th",
+        "accepted": [
+         "14th",
+         "fourteenth"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "Ethan plans to start the party at ______ o'clock.",
+        "answer": "2",
+        "accepted": [
+         "2",
+         "two"
+        ]
+       },
+       {
+        "number": 6,
+        "text": "Room hire costs ______ pounds.",
+        "answer": "65",
+        "accepted": [
+         "65"
+        ]
+       },
+       {
+        "number": 7,
+        "text": "A small ______ is available next to the room.",
+        "answer": "kitchen",
+        "accepted": [
+         "kitchen"
+        ]
+       },
+       {
+        "number": 8,
+        "text": "The booking requires a ______-pound deposit.",
+        "answer": "50",
+        "accepted": [
+         "50"
+        ]
+       },
+       {
+        "number": 9,
+        "text": "The remaining payment is due on the ______.",
+        "answer": "day",
+        "accepted": [
+         "day"
+        ]
+       },
+       {
+        "number": 10,
+        "text": "The public car park is behind the ______.",
+        "answer": "centre",
+        "accepted": [
+         "centre",
+         "center"
+        ]
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 4 (test 12)"
+   }
+  },
+  {
+   "id": "lt_w02_p2",
+   "source": "test",
+   "testId": "lt_w02",
+   "part": 2,
+   "title": "Orientation at a public library (building map labelling)",
+   "context": "Orientation at a public library (building map labelling)",
+   "audio": "listening/lt_w02_p2.mp3",
+   "durationSeconds": 195,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Complete the notes",
+     "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "The main entrance is at the ______ of the plan.",
+       "answer": "bottom",
+       "accepted": [
+        "bottom"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "The reception desk is immediately ______ the entrance.",
+       "answer": "inside",
+       "accepted": [
+        "inside"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "The children's library is on the ______ side.",
+       "answer": "left",
+       "accepted": [
+        "left"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "The computer area is on the ______ side.",
+       "answer": "right",
+       "accepted": [
+        "right"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "The reading room is in the ______ of the library.",
+       "answer": "centre",
+       "accepted": [
+        "centre",
+        "center"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g2",
+     "type": "map",
+     "title": "Label the plan",
+     "instruction": "Label the plan below. Choose the correct letter, A–H.",
+     "image": "assets/listening/maps/lt_w02_plan.jpg",
+     "layoutIntro": "",
+     "options": [
+      {
+       "key": "A",
+       "text": ""
+      },
+      {
+       "key": "B",
+       "text": ""
+      },
+      {
+       "key": "C",
+       "text": ""
+      },
+      {
+       "key": "D",
+       "text": ""
+      },
+      {
+       "key": "E",
+       "text": ""
+      },
+      {
+       "key": "F",
+       "text": ""
+      },
+      {
+       "key": "G",
+       "text": ""
+      },
+      {
+       "key": "H",
+       "text": ""
+      }
+     ],
+     "questions": [
+      {
+       "number": 6,
+       "text": "Reception Desk",
+       "answer": "A"
+      },
+      {
+       "number": 7,
+       "text": "Children's Library",
+       "answer": "B"
+      },
+      {
+       "number": 8,
+       "text": "Computer Area",
+       "answer": "C"
+      },
+      {
+       "number": 9,
+       "text": "Reading Room",
+       "answer": "D"
+      },
+      {
+       "number": 10,
+       "text": "Study Room",
+       "answer": "E"
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w02_p2",
+    "part": 2,
+    "test": "lt_w02",
+    "title": "Orientation at a public library (building map labelling)",
+    "context": "Orientation at a public library (building map labelling)",
+    "audio": "assets/audio/listening/lt_w02_p2.mp3",
+    "durationSeconds": 195,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Complete the notes",
+      "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "The main entrance is at the ______ of the plan.",
+        "answer": "bottom",
+        "accepted": [
+         "bottom"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "The reception desk is immediately ______ the entrance.",
+        "answer": "inside",
+        "accepted": [
+         "inside"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "The children's library is on the ______ side.",
+        "answer": "left",
+        "accepted": [
+         "left"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "The computer area is on the ______ side.",
+        "answer": "right",
+        "accepted": [
+         "right"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "The reading room is in the ______ of the library.",
+        "answer": "centre",
+        "accepted": [
+         "centre",
+         "center"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "g2",
+      "type": "map",
+      "title": "Label the plan",
+      "instruction": "Label the plan below. Choose the correct letter, A–H.",
+      "image": "assets/listening/maps/lt_w02_plan.jpg",
+      "layoutIntro": "",
+      "options": [
+       {
+        "key": "A",
+        "text": ""
+       },
+       {
+        "key": "B",
+        "text": ""
+       },
+       {
+        "key": "C",
+        "text": ""
+       },
+       {
+        "key": "D",
+        "text": ""
+       },
+       {
+        "key": "E",
+        "text": ""
+       },
+       {
+        "key": "F",
+        "text": ""
+       },
+       {
+        "key": "G",
+        "text": ""
+       },
+       {
+        "key": "H",
+        "text": ""
+       }
+      ],
+      "questions": [
+       {
+        "number": 6,
+        "text": "Reception Desk",
+        "answer": "A"
+       },
+       {
+        "number": 7,
+        "text": "Children's Library",
+        "answer": "B"
+       },
+       {
+        "number": 8,
+        "text": "Computer Area",
+        "answer": "C"
+       },
+       {
+        "number": 9,
+        "text": "Reading Room",
+        "answer": "D"
+       },
+       {
+        "number": 10,
+        "text": "Study Room",
+        "answer": "E"
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 4 (test 12)"
+   }
+  },
+  {
+   "id": "lt_w02_p3",
+   "source": "test",
+   "testId": "lt_w02",
+   "part": 3,
+   "title": "University research project on sleep and academic performance",
+   "context": "University research project on sleep and academic performance",
+   "audio": "listening/lt_w02_p3.mp3",
+   "durationSeconds": 233,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "mcq",
+     "title": "Choose the correct letter, A, B or C",
+     "questions": [
+      {
+       "number": 1,
+       "text": "What is the main focus of the project?",
+       "options": [
+        {
+         "key": "A",
+         "text": "The relationship between sleep and academic performance"
+        },
+        {
+         "key": "B",
+         "text": "The effect of exercise on university students"
+        },
+        {
+         "key": "C",
+         "text": "The cost of university accommodation"
+        }
+       ],
+       "answer": "A"
+      },
+      {
+       "number": 2,
+       "text": "Which students will participate?",
+       "options": [
+        {
+         "key": "A",
+         "text": "Final-year students"
+        },
+        {
+         "key": "B",
+         "text": "First-year students"
+        },
+        {
+         "key": "C",
+         "text": "Postgraduate students"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 3,
+       "text": "How many questionnaire responses will they target?",
+       "options": [
+        {
+         "key": "A",
+         "text": "200"
+        },
+        {
+         "key": "B",
+         "text": "240"
+        },
+        {
+         "key": "C",
+         "text": "300"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 4,
+       "text": "How many students will keep a sleep diary?",
+       "options": [
+        {
+         "key": "A",
+         "text": "20"
+        },
+        {
+         "key": "B",
+         "text": "30"
+        },
+        {
+         "key": "C",
+         "text": "40"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 5,
+       "text": "How long will the diary period last?",
+       "options": [
+        {
+         "key": "A",
+         "text": "5 days"
+        },
+        {
+         "key": "B",
+         "text": "7 days"
+        },
+        {
+         "key": "C",
+         "text": "14 days"
+        }
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "id": "g2",
+     "type": "matching",
+     "title": "Who will be responsible for each task?",
+     "instruction": "Choose the correct letter, A, B or C, next to each task.",
+     "options": [
+      {
+       "key": "A",
+       "text": "Emma"
+      },
+      {
+       "key": "B",
+       "text": "Lucas"
+      },
+      {
+       "key": "C",
+       "text": "Both students"
+      }
+     ],
+     "questions": [
+      {
+       "number": 6,
+       "text": "Designing the questionnaire",
+       "answer": "A"
+      },
+      {
+       "number": 7,
+       "text": "Organising the sleep diaries",
+       "answer": "B"
+      },
+      {
+       "number": 8,
+       "text": "Recruiting participants",
+       "answer": "C"
+      },
+      {
+       "number": 9,
+       "text": "Entering questionnaire data",
+       "answer": "A"
+      },
+      {
+       "number": 10,
+       "text": "Writing the final recommendations",
+       "answer": "C"
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w02_p3",
+    "part": 3,
+    "test": "lt_w02",
+    "title": "University research project on sleep and academic performance",
+    "context": "University research project on sleep and academic performance",
+    "audio": "assets/audio/listening/lt_w02_p3.mp3",
+    "durationSeconds": 233,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "mcq",
+      "title": "Choose the correct letter, A, B or C",
+      "questions": [
+       {
+        "number": 1,
+        "text": "What is the main focus of the project?",
+        "options": [
+         {
+          "key": "A",
+          "text": "The relationship between sleep and academic performance"
+         },
+         {
+          "key": "B",
+          "text": "The effect of exercise on university students"
+         },
+         {
+          "key": "C",
+          "text": "The cost of university accommodation"
+         }
+        ],
+        "answer": "A"
+       },
+       {
+        "number": 2,
+        "text": "Which students will participate?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Final-year students"
+         },
+         {
+          "key": "B",
+          "text": "First-year students"
+         },
+         {
+          "key": "C",
+          "text": "Postgraduate students"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 3,
+        "text": "How many questionnaire responses will they target?",
+        "options": [
+         {
+          "key": "A",
+          "text": "200"
+         },
+         {
+          "key": "B",
+          "text": "240"
+         },
+         {
+          "key": "C",
+          "text": "300"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 4,
+        "text": "How many students will keep a sleep diary?",
+        "options": [
+         {
+          "key": "A",
+          "text": "20"
+         },
+         {
+          "key": "B",
+          "text": "30"
+         },
+         {
+          "key": "C",
+          "text": "40"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 5,
+        "text": "How long will the diary period last?",
+        "options": [
+         {
+          "key": "A",
+          "text": "5 days"
+         },
+         {
+          "key": "B",
+          "text": "7 days"
+         },
+         {
+          "key": "C",
+          "text": "14 days"
+         }
+        ],
+        "answer": "B"
+       }
+      ]
+     },
+     {
+      "id": "g2",
+      "type": "matching",
+      "title": "Who will be responsible for each task?",
+      "instruction": "Choose the correct letter, A, B or C, next to each task.",
+      "options": [
+       {
+        "key": "A",
+        "text": "Emma"
+       },
+       {
+        "key": "B",
+        "text": "Lucas"
+       },
+       {
+        "key": "C",
+        "text": "Both students"
+       }
+      ],
+      "questions": [
+       {
+        "number": 6,
+        "text": "Designing the questionnaire",
+        "answer": "A"
+       },
+       {
+        "number": 7,
+        "text": "Organising the sleep diaries",
+        "answer": "B"
+       },
+       {
+        "number": 8,
+        "text": "Recruiting participants",
+        "answer": "C"
+       },
+       {
+        "number": 9,
+        "text": "Entering questionnaire data",
+        "answer": "A"
+       },
+       {
+        "number": 10,
+        "text": "Writing the final recommendations",
+        "answer": "C"
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 4 (test 12)"
+   }
+  },
+  {
+   "id": "lt_w02_p4",
+   "source": "test",
+   "testId": "lt_w02",
+   "part": 4,
+   "title": "Lecture on how coral reefs support marine ecosystems",
+   "context": "Lecture on how coral reefs support marine ecosystems",
+   "audio": "listening/lt_w02_p4.mp3",
+   "durationSeconds": 276,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Complete the notes",
+     "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "Coral reefs support a large variety of ______ life.",
+       "answer": "marine",
+       "accepted": [
+        "marine"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "Microscopic organisms living within coral tissues are called ______.",
+       "answer": "algae",
+       "accepted": [
+        "algae"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "These organisms produce energy through ______.",
+       "answer": "photosynthesis",
+       "accepted": [
+        "photosynthesis"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "Reef-building corals generally require clear, ______ water.",
+       "answer": "shallow",
+       "accepted": [
+        "shallow"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "Fish can use reefs for shelter and ______.",
+       "answer": "feeding",
+       "accepted": [
+        "feeding"
+       ]
+      },
+      {
+       "number": 6,
+       "text": "Healthy reefs can support ______ by providing breeding areas for marine species.",
+       "answer": "fisheries",
+       "accepted": [
+        "fisheries"
+       ]
+      },
+      {
+       "number": 7,
+       "text": "Reef structures can reduce the energy of ______ before they reach the shore.",
+       "answer": "waves",
+       "accepted": [
+        "waves"
+       ]
+      },
+      {
+       "number": 8,
+       "text": "Coral bleaching can occur when corals experience prolonged ______ stress.",
+       "answer": "heat",
+       "accepted": [
+        "heat"
+       ]
+      },
+      {
+       "number": 9,
+       "text": "Increasing carbon dioxide in seawater contributes to ocean ______.",
+       "answer": "acidification",
+       "accepted": [
+        "acidification"
+       ]
+      },
+      {
+       "number": 10,
+       "text": "One method of protecting reefs is establishing marine ______ areas.",
+       "answer": "protected",
+       "accepted": [
+        "protected"
+       ]
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w02_p4",
+    "part": 4,
+    "test": "lt_w02",
+    "title": "Lecture on how coral reefs support marine ecosystems",
+    "context": "Lecture on how coral reefs support marine ecosystems",
+    "audio": "assets/audio/listening/lt_w02_p4.mp3",
+    "durationSeconds": 276,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Complete the notes",
+      "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "Coral reefs support a large variety of ______ life.",
+        "answer": "marine",
+        "accepted": [
+         "marine"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "Microscopic organisms living within coral tissues are called ______.",
+        "answer": "algae",
+        "accepted": [
+         "algae"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "These organisms produce energy through ______.",
+        "answer": "photosynthesis",
+        "accepted": [
+         "photosynthesis"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "Reef-building corals generally require clear, ______ water.",
+        "answer": "shallow",
+        "accepted": [
+         "shallow"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "Fish can use reefs for shelter and ______.",
+        "answer": "feeding",
+        "accepted": [
+         "feeding"
+        ]
+       },
+       {
+        "number": 6,
+        "text": "Healthy reefs can support ______ by providing breeding areas for marine species.",
+        "answer": "fisheries",
+        "accepted": [
+         "fisheries"
+        ]
+       },
+       {
+        "number": 7,
+        "text": "Reef structures can reduce the energy of ______ before they reach the shore.",
+        "answer": "waves",
+        "accepted": [
+         "waves"
+        ]
+       },
+       {
+        "number": 8,
+        "text": "Coral bleaching can occur when corals experience prolonged ______ stress.",
+        "answer": "heat",
+        "accepted": [
+         "heat"
+        ]
+       },
+       {
+        "number": 9,
+        "text": "Increasing carbon dioxide in seawater contributes to ocean ______.",
+        "answer": "acidification",
+        "accepted": [
+         "acidification"
+        ]
+       },
+       {
+        "number": 10,
+        "text": "One method of protecting reefs is establishing marine ______ areas.",
+        "answer": "protected",
+        "accepted": [
+         "protected"
+        ]
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 4 (test 12)"
+   }
+  },
+  {
+   "id": "lt_w03_p1",
+   "source": "test",
+   "testId": "lt_w03",
+   "part": 1,
+   "title": "Enquiring about a local cooking course",
+   "context": "Enquiring about a local cooking course",
+   "audio": "listening/lt_w03_p1.mp3",
+   "durationSeconds": 236,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Beginners' Cooking Course",
+     "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "Michael wants to improve his cooking of vegetables and simple ______ dishes.",
+       "answer": "meat",
+       "accepted": [
+        "meat"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "The course includes basic sauces, knife skills and meal ______.",
+       "answer": "planning",
+       "accepted": [
+        "planning"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "The course lasts ______ weeks.",
+       "answer": "6",
+       "accepted": [
+        "6",
+        "six"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "Classes are held on ______ evenings.",
+       "answer": "Wednesday",
+       "accepted": [
+        "Wednesday"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "The course costs ______ pounds.",
+       "answer": "95",
+       "accepted": [
+        "95"
+       ]
+      },
+      {
+       "number": 6,
+       "text": "Classes take place at the Riverside Community ______.",
+       "answer": "Kitchen",
+       "accepted": [
+        "Kitchen"
+       ]
+      },
+      {
+       "number": 7,
+       "text": "The class is held in Kitchen ______.",
+       "answer": "Three",
+       "accepted": [
+        "Three",
+        "3"
+       ]
+      },
+      {
+       "number": 8,
+       "text": "The kitchen is on the ______ floor.",
+       "answer": "ground",
+       "accepted": [
+        "ground"
+       ]
+      },
+      {
+       "number": 9,
+       "text": "The next course begins on the ______ of October.",
+       "answer": "seventh",
+       "accepted": [
+        "seventh",
+        "7th"
+       ]
+      },
+      {
+       "number": 10,
+       "text": "The tutor is Laura ______.",
+       "answer": "Bennett",
+       "accepted": [
+        "Bennett"
+       ]
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w03_p1",
+    "part": 1,
+    "test": "lt_w03",
+    "title": "Enquiring about a local cooking course",
+    "context": "Enquiring about a local cooking course",
+    "audio": "assets/audio/listening/lt_w03_p1.mp3",
+    "durationSeconds": 236,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Beginners' Cooking Course",
+      "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "Michael wants to improve his cooking of vegetables and simple ______ dishes.",
+        "answer": "meat",
+        "accepted": [
+         "meat"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "The course includes basic sauces, knife skills and meal ______.",
+        "answer": "planning",
+        "accepted": [
+         "planning"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "The course lasts ______ weeks.",
+        "answer": "6",
+        "accepted": [
+         "6",
+         "six"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "Classes are held on ______ evenings.",
+        "answer": "Wednesday",
+        "accepted": [
+         "Wednesday"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "The course costs ______ pounds.",
+        "answer": "95",
+        "accepted": [
+         "95"
+        ]
+       },
+       {
+        "number": 6,
+        "text": "Classes take place at the Riverside Community ______.",
+        "answer": "Kitchen",
+        "accepted": [
+         "Kitchen"
+        ]
+       },
+       {
+        "number": 7,
+        "text": "The class is held in Kitchen ______.",
+        "answer": "Three",
+        "accepted": [
+         "Three",
+         "3"
+        ]
+       },
+       {
+        "number": 8,
+        "text": "The kitchen is on the ______ floor.",
+        "answer": "ground",
+        "accepted": [
+         "ground"
+        ]
+       },
+       {
+        "number": 9,
+        "text": "The next course begins on the ______ of October.",
+        "answer": "seventh",
+        "accepted": [
+         "seventh",
+         "7th"
+        ]
+       },
+       {
+        "number": 10,
+        "text": "The tutor is Laura ______.",
+        "answer": "Bennett",
+        "accepted": [
+         "Bennett"
+        ]
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 5 (test 13)"
+   }
+  },
+  {
+   "id": "lt_w03_p2",
+   "source": "test",
+   "testId": "lt_w03",
+   "part": 2,
+   "title": "Orientation at a community health centre (floor plan labelling)",
+   "context": "Orientation at a community health centre (floor plan labelling)",
+   "audio": "listening/lt_w03_p2.mp3",
+   "durationSeconds": 206,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Complete the notes",
+     "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "The main entrance is at the ______ of the plan.",
+       "answer": "bottom",
+       "accepted": [
+        "bottom"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "Reception is immediately ______ the entrance.",
+       "answer": "inside",
+       "accepted": [
+        "inside"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "The waiting area is in the ______ of the building.",
+       "answer": "centre",
+       "accepted": [
+        "centre",
+        "center"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "Consultation Room One is on the ______.",
+       "answer": "left",
+       "accepted": [
+        "left"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "Consultation Room Two is on the ______.",
+       "answer": "right",
+       "accepted": [
+        "right"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g2",
+     "type": "map",
+     "title": "Label the plan",
+     "instruction": "Label the plan below. Choose the correct letter, A–H.",
+     "image": "assets/listening/maps/lt_w03_plan.jpg",
+     "layoutIntro": "",
+     "options": [
+      {
+       "key": "A",
+       "text": ""
+      },
+      {
+       "key": "B",
+       "text": ""
+      },
+      {
+       "key": "C",
+       "text": ""
+      },
+      {
+       "key": "D",
+       "text": ""
+      },
+      {
+       "key": "E",
+       "text": ""
+      },
+      {
+       "key": "F",
+       "text": ""
+      },
+      {
+       "key": "G",
+       "text": ""
+      },
+      {
+       "key": "H",
+       "text": ""
+      }
+     ],
+     "questions": [
+      {
+       "number": 6,
+       "text": "Reception",
+       "answer": "A"
+      },
+      {
+       "number": 7,
+       "text": "Waiting Area",
+       "answer": "B"
+      },
+      {
+       "number": 8,
+       "text": "Consultation Room 1",
+       "answer": "C"
+      },
+      {
+       "number": 9,
+       "text": "Consultation Room 2",
+       "answer": "D"
+      },
+      {
+       "number": 10,
+       "text": "Physiotherapy Room",
+       "answer": "E"
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w03_p2",
+    "part": 2,
+    "test": "lt_w03",
+    "title": "Orientation at a community health centre (floor plan labelling)",
+    "context": "Orientation at a community health centre (floor plan labelling)",
+    "audio": "assets/audio/listening/lt_w03_p2.mp3",
+    "durationSeconds": 206,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Complete the notes",
+      "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "The main entrance is at the ______ of the plan.",
+        "answer": "bottom",
+        "accepted": [
+         "bottom"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "Reception is immediately ______ the entrance.",
+        "answer": "inside",
+        "accepted": [
+         "inside"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "The waiting area is in the ______ of the building.",
+        "answer": "centre",
+        "accepted": [
+         "centre",
+         "center"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "Consultation Room One is on the ______.",
+        "answer": "left",
+        "accepted": [
+         "left"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "Consultation Room Two is on the ______.",
+        "answer": "right",
+        "accepted": [
+         "right"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "g2",
+      "type": "map",
+      "title": "Label the plan",
+      "instruction": "Label the plan below. Choose the correct letter, A–H.",
+      "image": "assets/listening/maps/lt_w03_plan.jpg",
+      "layoutIntro": "",
+      "options": [
+       {
+        "key": "A",
+        "text": ""
+       },
+       {
+        "key": "B",
+        "text": ""
+       },
+       {
+        "key": "C",
+        "text": ""
+       },
+       {
+        "key": "D",
+        "text": ""
+       },
+       {
+        "key": "E",
+        "text": ""
+       },
+       {
+        "key": "F",
+        "text": ""
+       },
+       {
+        "key": "G",
+        "text": ""
+       },
+       {
+        "key": "H",
+        "text": ""
+       }
+      ],
+      "questions": [
+       {
+        "number": 6,
+        "text": "Reception",
+        "answer": "A"
+       },
+       {
+        "number": 7,
+        "text": "Waiting Area",
+        "answer": "B"
+       },
+       {
+        "number": 8,
+        "text": "Consultation Room 1",
+        "answer": "C"
+       },
+       {
+        "number": 9,
+        "text": "Consultation Room 2",
+        "answer": "D"
+       },
+       {
+        "number": 10,
+        "text": "Physiotherapy Room",
+        "answer": "E"
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 5 (test 13)"
+   }
+  },
+  {
+   "id": "lt_w03_p3",
+   "source": "test",
+   "testId": "lt_w03",
+   "part": 3,
+   "title": "University research project on student use of green transport",
+   "context": "University research project on student use of green transport",
+   "audio": "listening/lt_w03_p3.mp3",
+   "durationSeconds": 210,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "mcq",
+     "title": "Choose the correct letter, A, B or C",
+     "questions": [
+      {
+       "number": 1,
+       "text": "What is the main focus of the project?",
+       "options": [
+        {
+         "key": "A",
+         "text": "Why students choose different forms of transport"
+        },
+        {
+         "key": "B",
+         "text": "The cost of building cycle paths"
+        },
+        {
+         "key": "C",
+         "text": "Traffic levels in the city centre"
+        }
+       ],
+       "answer": "A"
+      },
+      {
+       "number": 2,
+       "text": "Which students will participate?",
+       "options": [
+        {
+         "key": "A",
+         "text": "Postgraduate students"
+        },
+        {
+         "key": "B",
+         "text": "Undergraduate students living within ten kilometres of campus"
+        },
+        {
+         "key": "C",
+         "text": "Students living on campus"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 3,
+       "text": "How many questionnaire responses will they target?",
+       "options": [
+        {
+         "key": "A",
+         "text": "240"
+        },
+        {
+         "key": "B",
+         "text": "280"
+        },
+        {
+         "key": "C",
+         "text": "320"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 4,
+       "text": "How many interviews will they conduct?",
+       "options": [
+        {
+         "key": "A",
+         "text": "20"
+        },
+        {
+         "key": "B",
+         "text": "24"
+        },
+        {
+         "key": "C",
+         "text": "30"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 5,
+       "text": "How long will the questionnaire remain open?",
+       "options": [
+        {
+         "key": "A",
+         "text": "1 week"
+        },
+        {
+         "key": "B",
+         "text": "2 weeks"
+        },
+        {
+         "key": "C",
+         "text": "3 weeks"
+        }
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "id": "g2",
+     "type": "matching",
+     "title": "Who will be responsible for each task?",
+     "instruction": "Choose the correct letter, A, B or C, next to each task.",
+     "options": [
+      {
+       "key": "A",
+       "text": "Anna"
+      },
+      {
+       "key": "B",
+       "text": "Ryan"
+      },
+      {
+       "key": "C",
+       "text": "Both students"
+      }
+     ],
+     "questions": [
+      {
+       "number": 6,
+       "text": "Designing the questionnaire",
+       "answer": "A"
+      },
+      {
+       "number": 7,
+       "text": "Organising interviews",
+       "answer": "B"
+      },
+      {
+       "number": 8,
+       "text": "Recruiting participants",
+       "answer": "C"
+      },
+      {
+       "number": 9,
+       "text": "Statistical analysis",
+       "answer": "A"
+      },
+      {
+       "number": 10,
+       "text": "Writing the final recommendations",
+       "answer": "C"
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w03_p3",
+    "part": 3,
+    "test": "lt_w03",
+    "title": "University research project on student use of green transport",
+    "context": "University research project on student use of green transport",
+    "audio": "assets/audio/listening/lt_w03_p3.mp3",
+    "durationSeconds": 210,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "mcq",
+      "title": "Choose the correct letter, A, B or C",
+      "questions": [
+       {
+        "number": 1,
+        "text": "What is the main focus of the project?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Why students choose different forms of transport"
+         },
+         {
+          "key": "B",
+          "text": "The cost of building cycle paths"
+         },
+         {
+          "key": "C",
+          "text": "Traffic levels in the city centre"
+         }
+        ],
+        "answer": "A"
+       },
+       {
+        "number": 2,
+        "text": "Which students will participate?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Postgraduate students"
+         },
+         {
+          "key": "B",
+          "text": "Undergraduate students living within ten kilometres of campus"
+         },
+         {
+          "key": "C",
+          "text": "Students living on campus"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 3,
+        "text": "How many questionnaire responses will they target?",
+        "options": [
+         {
+          "key": "A",
+          "text": "240"
+         },
+         {
+          "key": "B",
+          "text": "280"
+         },
+         {
+          "key": "C",
+          "text": "320"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 4,
+        "text": "How many interviews will they conduct?",
+        "options": [
+         {
+          "key": "A",
+          "text": "20"
+         },
+         {
+          "key": "B",
+          "text": "24"
+         },
+         {
+          "key": "C",
+          "text": "30"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 5,
+        "text": "How long will the questionnaire remain open?",
+        "options": [
+         {
+          "key": "A",
+          "text": "1 week"
+         },
+         {
+          "key": "B",
+          "text": "2 weeks"
+         },
+         {
+          "key": "C",
+          "text": "3 weeks"
+         }
+        ],
+        "answer": "B"
+       }
+      ]
+     },
+     {
+      "id": "g2",
+      "type": "matching",
+      "title": "Who will be responsible for each task?",
+      "instruction": "Choose the correct letter, A, B or C, next to each task.",
+      "options": [
+       {
+        "key": "A",
+        "text": "Anna"
+       },
+       {
+        "key": "B",
+        "text": "Ryan"
+       },
+       {
+        "key": "C",
+        "text": "Both students"
+       }
+      ],
+      "questions": [
+       {
+        "number": 6,
+        "text": "Designing the questionnaire",
+        "answer": "A"
+       },
+       {
+        "number": 7,
+        "text": "Organising interviews",
+        "answer": "B"
+       },
+       {
+        "number": 8,
+        "text": "Recruiting participants",
+        "answer": "C"
+       },
+       {
+        "number": 9,
+        "text": "Statistical analysis",
+        "answer": "A"
+       },
+       {
+        "number": 10,
+        "text": "Writing the final recommendations",
+        "answer": "C"
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 5 (test 13)"
+   }
+  },
+  {
+   "id": "lt_w03_p4",
+   "source": "test",
+   "testId": "lt_w03",
+   "part": 4,
+   "title": "Lecture on how rivers shape landscapes",
+   "context": "Lecture on how rivers shape landscapes",
+   "audio": "listening/lt_w03_p4.mp3",
+   "durationSeconds": 261,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Complete the notes",
+     "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "Three important river processes are erosion, transportation and ______.",
+       "answer": "deposition",
+       "accepted": [
+        "deposition"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "Erosion is the removal of material from the ______.",
+       "answer": "land",
+       "accepted": [
+        "land"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "Fast-moving water can transport more ______.",
+       "answer": "sediment",
+       "accepted": [
+        "sediment"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "Smaller sediment particles can remain ______ in the water.",
+       "answer": "suspended",
+       "accepted": [
+        "suspended"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "When a river loses energy, sediment may be ______.",
+       "answer": "deposited",
+       "accepted": [
+        "deposited"
+       ]
+      },
+      {
+       "number": 6,
+       "text": "Rivers in their upper course often flow through ______ terrain.",
+       "answer": "steeper",
+       "accepted": [
+        "steeper"
+       ]
+      },
+      {
+       "number": 7,
+       "text": "Wider river bends are called ______.",
+       "answer": "meanders",
+       "accepted": [
+        "meanders"
+       ]
+      },
+      {
+       "number": 8,
+       "text": "Erosion tends to be stronger on the ______ of a meander.",
+       "answer": "outside",
+       "accepted": [
+        "outside"
+       ]
+      },
+      {
+       "number": 9,
+       "text": "Repeated flooding can contribute to the development of ______.",
+       "answer": "floodplains",
+       "accepted": [
+        "floodplains"
+       ]
+      },
+      {
+       "number": 10,
+       "text": "Modern river management increasingly considers the entire river ______.",
+       "answer": "system",
+       "accepted": [
+        "system"
+       ]
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w03_p4",
+    "part": 4,
+    "test": "lt_w03",
+    "title": "Lecture on how rivers shape landscapes",
+    "context": "Lecture on how rivers shape landscapes",
+    "audio": "assets/audio/listening/lt_w03_p4.mp3",
+    "durationSeconds": 261,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Complete the notes",
+      "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "Three important river processes are erosion, transportation and ______.",
+        "answer": "deposition",
+        "accepted": [
+         "deposition"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "Erosion is the removal of material from the ______.",
+        "answer": "land",
+        "accepted": [
+         "land"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "Fast-moving water can transport more ______.",
+        "answer": "sediment",
+        "accepted": [
+         "sediment"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "Smaller sediment particles can remain ______ in the water.",
+        "answer": "suspended",
+        "accepted": [
+         "suspended"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "When a river loses energy, sediment may be ______.",
+        "answer": "deposited",
+        "accepted": [
+         "deposited"
+        ]
+       },
+       {
+        "number": 6,
+        "text": "Rivers in their upper course often flow through ______ terrain.",
+        "answer": "steeper",
+        "accepted": [
+         "steeper"
+        ]
+       },
+       {
+        "number": 7,
+        "text": "Wider river bends are called ______.",
+        "answer": "meanders",
+        "accepted": [
+         "meanders"
+        ]
+       },
+       {
+        "number": 8,
+        "text": "Erosion tends to be stronger on the ______ of a meander.",
+        "answer": "outside",
+        "accepted": [
+         "outside"
+        ]
+       },
+       {
+        "number": 9,
+        "text": "Repeated flooding can contribute to the development of ______.",
+        "answer": "floodplains",
+        "accepted": [
+         "floodplains"
+        ]
+       },
+       {
+        "number": 10,
+        "text": "Modern river management increasingly considers the entire river ______.",
+        "answer": "system",
+        "accepted": [
+         "system"
+        ]
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 5 (test 13)"
+   }
+  },
+  {
+   "id": "lt_w04_p1",
+   "source": "test",
+   "testId": "lt_w04",
+   "part": 1,
+   "title": "Joining a local gardening club",
+   "context": "Joining a local gardening club",
+   "audio": "listening/lt_w04_p1.mp3",
+   "durationSeconds": 236,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Beginner Gardening Programme",
+     "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "Oliver is mainly interested in growing ______.",
+       "answer": "vegetables",
+       "accepted": [
+        "vegetables"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "The programme lasts ______ weeks.",
+       "answer": "4",
+       "accepted": [
+        "4",
+        "four"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "Sessions take place on ______ mornings.",
+       "answer": "Saturday",
+       "accepted": [
+        "Saturday"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "Each session starts at ______.",
+       "answer": "9:30",
+       "accepted": [
+        "9:30",
+        "9.30"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "The programme costs ______ pounds.",
+       "answer": "40",
+       "accepted": [
+        "40"
+       ]
+      },
+      {
+       "number": 6,
+       "text": "Sessions are held at the Riverside Allotment ______.",
+       "answer": "Gardens",
+       "accepted": [
+        "Gardens"
+       ]
+      },
+      {
+       "number": 7,
+       "text": "The group meets in a small ______.",
+       "answer": "greenhouse",
+       "accepted": [
+        "greenhouse"
+       ]
+      },
+      {
+       "number": 8,
+       "text": "The next programme begins on the ______ of April.",
+       "answer": "twelfth",
+       "accepted": [
+        "twelfth",
+        "12th"
+       ]
+      },
+      {
+       "number": 9,
+       "text": "Registration closes on the ______ of March.",
+       "answer": "twenty-ninth",
+       "accepted": [
+        "twenty-ninth",
+        "29th"
+       ]
+      },
+      {
+       "number": 10,
+       "text": "There are ______ places available.",
+       "answer": "16",
+       "accepted": [
+        "16",
+        "sixteen"
+       ]
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w04_p1",
+    "part": 1,
+    "test": "lt_w04",
+    "title": "Joining a local gardening club",
+    "context": "Joining a local gardening club",
+    "audio": "assets/audio/listening/lt_w04_p1.mp3",
+    "durationSeconds": 236,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Beginner Gardening Programme",
+      "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "Oliver is mainly interested in growing ______.",
+        "answer": "vegetables",
+        "accepted": [
+         "vegetables"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "The programme lasts ______ weeks.",
+        "answer": "4",
+        "accepted": [
+         "4",
+         "four"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "Sessions take place on ______ mornings.",
+        "answer": "Saturday",
+        "accepted": [
+         "Saturday"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "Each session starts at ______.",
+        "answer": "9:30",
+        "accepted": [
+         "9:30",
+         "9.30"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "The programme costs ______ pounds.",
+        "answer": "40",
+        "accepted": [
+         "40"
+        ]
+       },
+       {
+        "number": 6,
+        "text": "Sessions are held at the Riverside Allotment ______.",
+        "answer": "Gardens",
+        "accepted": [
+         "Gardens"
+        ]
+       },
+       {
+        "number": 7,
+        "text": "The group meets in a small ______.",
+        "answer": "greenhouse",
+        "accepted": [
+         "greenhouse"
+        ]
+       },
+       {
+        "number": 8,
+        "text": "The next programme begins on the ______ of April.",
+        "answer": "twelfth",
+        "accepted": [
+         "twelfth",
+         "12th"
+        ]
+       },
+       {
+        "number": 9,
+        "text": "Registration closes on the ______ of March.",
+        "answer": "twenty-ninth",
+        "accepted": [
+         "twenty-ninth",
+         "29th"
+        ]
+       },
+       {
+        "number": 10,
+        "text": "There are ______ places available.",
+        "answer": "16",
+        "accepted": [
+         "16",
+         "sixteen"
+        ]
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 6 (test 14)"
+   }
+  },
+  {
+   "id": "lt_w04_p2",
+   "source": "test",
+   "testId": "lt_w04",
+   "part": 2,
+   "title": "Orientation at a community arts centre (building map labelling)",
+   "context": "Orientation at a community arts centre (building map labelling)",
+   "audio": "listening/lt_w04_p2.mp3",
+   "durationSeconds": 207,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Complete the notes",
+     "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "The main entrance is at the ______ of the plan.",
+       "answer": "bottom",
+       "accepted": [
+        "bottom"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "Reception is immediately ______ the entrance.",
+       "answer": "inside",
+       "accepted": [
+        "inside"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "The art gallery is on the ______.",
+       "answer": "left",
+       "accepted": [
+        "left"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "The dance studio is on the ______.",
+       "answer": "right",
+       "accepted": [
+        "right"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "The exhibition hall is towards the ______ centre.",
+       "answer": "rear",
+       "accepted": [
+        "rear"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g2",
+     "type": "map",
+     "title": "Label the plan",
+     "instruction": "Label the plan below. Choose the correct letter, A–H.",
+     "image": "assets/listening/maps/lt_w04_plan.jpg",
+     "layoutIntro": "",
+     "options": [
+      {
+       "key": "A",
+       "text": ""
+      },
+      {
+       "key": "B",
+       "text": ""
+      },
+      {
+       "key": "C",
+       "text": ""
+      },
+      {
+       "key": "D",
+       "text": ""
+      },
+      {
+       "key": "E",
+       "text": ""
+      },
+      {
+       "key": "F",
+       "text": ""
+      },
+      {
+       "key": "G",
+       "text": ""
+      },
+      {
+       "key": "H",
+       "text": ""
+      }
+     ],
+     "questions": [
+      {
+       "number": 6,
+       "text": "Reception",
+       "answer": "A"
+      },
+      {
+       "number": 7,
+       "text": "Art Gallery",
+       "answer": "B"
+      },
+      {
+       "number": 8,
+       "text": "Dance Studio",
+       "answer": "C"
+      },
+      {
+       "number": 9,
+       "text": "Music Room",
+       "answer": "D"
+      },
+      {
+       "number": 10,
+       "text": "Pottery Workshop",
+       "answer": "E"
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w04_p2",
+    "part": 2,
+    "test": "lt_w04",
+    "title": "Orientation at a community arts centre (building map labelling)",
+    "context": "Orientation at a community arts centre (building map labelling)",
+    "audio": "assets/audio/listening/lt_w04_p2.mp3",
+    "durationSeconds": 207,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Complete the notes",
+      "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "The main entrance is at the ______ of the plan.",
+        "answer": "bottom",
+        "accepted": [
+         "bottom"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "Reception is immediately ______ the entrance.",
+        "answer": "inside",
+        "accepted": [
+         "inside"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "The art gallery is on the ______.",
+        "answer": "left",
+        "accepted": [
+         "left"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "The dance studio is on the ______.",
+        "answer": "right",
+        "accepted": [
+         "right"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "The exhibition hall is towards the ______ centre.",
+        "answer": "rear",
+        "accepted": [
+         "rear"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "g2",
+      "type": "map",
+      "title": "Label the plan",
+      "instruction": "Label the plan below. Choose the correct letter, A–H.",
+      "image": "assets/listening/maps/lt_w04_plan.jpg",
+      "layoutIntro": "",
+      "options": [
+       {
+        "key": "A",
+        "text": ""
+       },
+       {
+        "key": "B",
+        "text": ""
+       },
+       {
+        "key": "C",
+        "text": ""
+       },
+       {
+        "key": "D",
+        "text": ""
+       },
+       {
+        "key": "E",
+        "text": ""
+       },
+       {
+        "key": "F",
+        "text": ""
+       },
+       {
+        "key": "G",
+        "text": ""
+       },
+       {
+        "key": "H",
+        "text": ""
+       }
+      ],
+      "questions": [
+       {
+        "number": 6,
+        "text": "Reception",
+        "answer": "A"
+       },
+       {
+        "number": 7,
+        "text": "Art Gallery",
+        "answer": "B"
+       },
+       {
+        "number": 8,
+        "text": "Dance Studio",
+        "answer": "C"
+       },
+       {
+        "number": 9,
+        "text": "Music Room",
+        "answer": "D"
+       },
+       {
+        "number": 10,
+        "text": "Pottery Workshop",
+        "answer": "E"
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 6 (test 14)"
+   }
+  },
+  {
+   "id": "lt_w04_p3",
+   "source": "test",
+   "testId": "lt_w04",
+   "part": 3,
+   "title": "University research project on food waste among students",
+   "context": "University research project on food waste among students",
+   "audio": "listening/lt_w04_p3.mp3",
+   "durationSeconds": 238,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "mcq",
+     "title": "Choose the correct letter, A, B or C",
+     "questions": [
+      {
+       "number": 1,
+       "text": "What is the main focus of the project?",
+       "options": [
+        {
+         "key": "A",
+         "text": "Food waste among university students"
+        },
+        {
+         "key": "B",
+         "text": "The price of university meals"
+        },
+        {
+         "key": "C",
+         "text": "Food production in local restaurants"
+        }
+       ],
+       "answer": "A"
+      },
+      {
+       "number": 2,
+       "text": "Which students will participate?",
+       "options": [
+        {
+         "key": "A",
+         "text": "Students in university residences"
+        },
+        {
+         "key": "B",
+         "text": "Students living in private accommodation"
+        },
+        {
+         "key": "C",
+         "text": "Postgraduate students only"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 3,
+       "text": "How many questionnaire responses will they target?",
+       "options": [
+        {
+         "key": "A",
+         "text": "240"
+        },
+        {
+         "key": "B",
+         "text": "260"
+        },
+        {
+         "key": "C",
+         "text": "300"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 4,
+       "text": "How many students will record their food waste?",
+       "options": [
+        {
+         "key": "A",
+         "text": "30"
+        },
+        {
+         "key": "B",
+         "text": "40"
+        },
+        {
+         "key": "C",
+         "text": "50"
+        }
+       ],
+       "answer": "B"
+      },
+      {
+       "number": 5,
+       "text": "How long will the questionnaire remain open?",
+       "options": [
+        {
+         "key": "A",
+         "text": "2 weeks"
+        },
+        {
+         "key": "B",
+         "text": "3 weeks"
+        },
+        {
+         "key": "C",
+         "text": "4 weeks"
+        }
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "id": "g2",
+     "type": "matching",
+     "title": "Who will be responsible for each task?",
+     "instruction": "Choose the correct letter, A, B or C, next to each task.",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sophie"
+      },
+      {
+       "key": "B",
+       "text": "Adam"
+      },
+      {
+       "key": "C",
+       "text": "Both students"
+      }
+     ],
+     "questions": [
+      {
+       "number": 6,
+       "text": "Designing the questionnaire",
+       "answer": "A"
+      },
+      {
+       "number": 7,
+       "text": "Organising food-waste records",
+       "answer": "B"
+      },
+      {
+       "number": 8,
+       "text": "Recruiting participants",
+       "answer": "C"
+      },
+      {
+       "number": 9,
+       "text": "Statistical analysis",
+       "answer": "A"
+      },
+      {
+       "number": 10,
+       "text": "Writing the final recommendations",
+       "answer": "C"
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w04_p3",
+    "part": 3,
+    "test": "lt_w04",
+    "title": "University research project on food waste among students",
+    "context": "University research project on food waste among students",
+    "audio": "assets/audio/listening/lt_w04_p3.mp3",
+    "durationSeconds": 238,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "mcq",
+      "title": "Choose the correct letter, A, B or C",
+      "questions": [
+       {
+        "number": 1,
+        "text": "What is the main focus of the project?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Food waste among university students"
+         },
+         {
+          "key": "B",
+          "text": "The price of university meals"
+         },
+         {
+          "key": "C",
+          "text": "Food production in local restaurants"
+         }
+        ],
+        "answer": "A"
+       },
+       {
+        "number": 2,
+        "text": "Which students will participate?",
+        "options": [
+         {
+          "key": "A",
+          "text": "Students in university residences"
+         },
+         {
+          "key": "B",
+          "text": "Students living in private accommodation"
+         },
+         {
+          "key": "C",
+          "text": "Postgraduate students only"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 3,
+        "text": "How many questionnaire responses will they target?",
+        "options": [
+         {
+          "key": "A",
+          "text": "240"
+         },
+         {
+          "key": "B",
+          "text": "260"
+         },
+         {
+          "key": "C",
+          "text": "300"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 4,
+        "text": "How many students will record their food waste?",
+        "options": [
+         {
+          "key": "A",
+          "text": "30"
+         },
+         {
+          "key": "B",
+          "text": "40"
+         },
+         {
+          "key": "C",
+          "text": "50"
+         }
+        ],
+        "answer": "B"
+       },
+       {
+        "number": 5,
+        "text": "How long will the questionnaire remain open?",
+        "options": [
+         {
+          "key": "A",
+          "text": "2 weeks"
+         },
+         {
+          "key": "B",
+          "text": "3 weeks"
+         },
+         {
+          "key": "C",
+          "text": "4 weeks"
+         }
+        ],
+        "answer": "B"
+       }
+      ]
+     },
+     {
+      "id": "g2",
+      "type": "matching",
+      "title": "Who will be responsible for each task?",
+      "instruction": "Choose the correct letter, A, B or C, next to each task.",
+      "options": [
+       {
+        "key": "A",
+        "text": "Sophie"
+       },
+       {
+        "key": "B",
+        "text": "Adam"
+       },
+       {
+        "key": "C",
+        "text": "Both students"
+       }
+      ],
+      "questions": [
+       {
+        "number": 6,
+        "text": "Designing the questionnaire",
+        "answer": "A"
+       },
+       {
+        "number": 7,
+        "text": "Organising food-waste records",
+        "answer": "B"
+       },
+       {
+        "number": 8,
+        "text": "Recruiting participants",
+        "answer": "C"
+       },
+       {
+        "number": 9,
+        "text": "Statistical analysis",
+        "answer": "A"
+       },
+       {
+        "number": 10,
+        "text": "Writing the final recommendations",
+        "answer": "C"
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 6 (test 14)"
+   }
+  },
+  {
+   "id": "lt_w04_p4",
+   "source": "test",
+   "testId": "lt_w04",
+   "part": 4,
+   "title": "Lecture on the role of wetlands in the environment",
+   "context": "Lecture on the role of wetlands in the environment",
+   "audio": "listening/lt_w04_p4.mp3",
+   "durationSeconds": 234,
+   "speakers": [],
+   "transcript": [],
+   "groups": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "title": "Complete the notes",
+     "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+     "questions": [
+      {
+       "number": 1,
+       "text": "Wetlands include marshes, swamps and shallow ______ areas.",
+       "answer": "coastal",
+       "accepted": [
+        "coastal"
+       ]
+      },
+      {
+       "number": 2,
+       "text": "One important function of wetlands is water ______.",
+       "answer": "storage",
+       "accepted": [
+        "storage"
+       ]
+      },
+      {
+       "number": 3,
+       "text": "Wetland soils and vegetation can hold significant quantities of ______.",
+       "answer": "water",
+       "accepted": [
+        "water"
+       ]
+      },
+      {
+       "number": 4,
+       "text": "Wetlands can help reduce the impacts of ______.",
+       "answer": "floods",
+       "accepted": [
+        "floods"
+       ]
+      },
+      {
+       "number": 5,
+       "text": "Wetland vegetation and soils can trap pollutants and ______.",
+       "answer": "sediment",
+       "accepted": [
+        "sediment"
+       ]
+      },
+      {
+       "number": 6,
+       "text": "Wetland plants can absorb certain ______ from water.",
+       "answer": "nutrients",
+       "accepted": [
+        "nutrients"
+       ]
+      },
+      {
+       "number": 7,
+       "text": "Wetlands provide habitat for many species and support biological ______.",
+       "answer": "diversity",
+       "accepted": [
+        "diversity"
+       ]
+      },
+      {
+       "number": 8,
+       "text": "Wetland soils can store ______ for long periods.",
+       "answer": "carbon",
+       "accepted": [
+        "carbon"
+       ]
+      },
+      {
+       "number": 9,
+       "text": "Wetlands have often been drained for agriculture, roads and urban ______.",
+       "answer": "development",
+       "accepted": [
+        "development"
+       ]
+      },
+      {
+       "number": 10,
+       "text": "Returning water to previously drained areas can be part of wetland ______.",
+       "answer": "restoration",
+       "accepted": [
+        "restoration"
+       ]
+      }
+     ]
+    }
+   ],
+   "data": {
+    "id": "lt_w04_p4",
+    "part": 4,
+    "test": "lt_w04",
+    "title": "Lecture on the role of wetlands in the environment",
+    "context": "Lecture on the role of wetlands in the environment",
+    "audio": "assets/audio/listening/lt_w04_p4.mp3",
+    "durationSeconds": 234,
+    "transcriptStatus": "none",
+    "speakers": [],
+    "transcript": [],
+    "groups": [
+     {
+      "id": "g1",
+      "type": "gap",
+      "title": "Complete the notes",
+      "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+      "questions": [
+       {
+        "number": 1,
+        "text": "Wetlands include marshes, swamps and shallow ______ areas.",
+        "answer": "coastal",
+        "accepted": [
+         "coastal"
+        ]
+       },
+       {
+        "number": 2,
+        "text": "One important function of wetlands is water ______.",
+        "answer": "storage",
+        "accepted": [
+         "storage"
+        ]
+       },
+       {
+        "number": 3,
+        "text": "Wetland soils and vegetation can hold significant quantities of ______.",
+        "answer": "water",
+        "accepted": [
+         "water"
+        ]
+       },
+       {
+        "number": 4,
+        "text": "Wetlands can help reduce the impacts of ______.",
+        "answer": "floods",
+        "accepted": [
+         "floods"
+        ]
+       },
+       {
+        "number": 5,
+        "text": "Wetland vegetation and soils can trap pollutants and ______.",
+        "answer": "sediment",
+        "accepted": [
+         "sediment"
+        ]
+       },
+       {
+        "number": 6,
+        "text": "Wetland plants can absorb certain ______ from water.",
+        "answer": "nutrients",
+        "accepted": [
+         "nutrients"
+        ]
+       },
+       {
+        "number": 7,
+        "text": "Wetlands provide habitat for many species and support biological ______.",
+        "answer": "diversity",
+        "accepted": [
+         "diversity"
+        ]
+       },
+       {
+        "number": 8,
+        "text": "Wetland soils can store ______ for long periods.",
+        "answer": "carbon",
+        "accepted": [
+         "carbon"
+        ]
+       },
+       {
+        "number": 9,
+        "text": "Wetlands have often been drained for agriculture, roads and urban ______.",
+        "answer": "development",
+        "accepted": [
+         "development"
+        ]
+       },
+       {
+        "number": 10,
+        "text": "Returning water to previously drained areas can be part of wetland ______.",
+        "answer": "restoration",
+        "accepted": [
+         "restoration"
+        ]
+       }
+      ]
+     }
+    ],
+    "source": "website Listening Mock Test 6 (test 14)"
+   }
+  }
+ ]
+}

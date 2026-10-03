@@ -1,0 +1,4124 @@
+[
+{
+"id": "vb_widens",
+"word": "widens",
+"pos": "verb",
+"en": "Makes or becomes wider or greater."
+},
+{
+"id": "vb_willing",
+"word": "willing",
+"pos": "adjective",
+"en": "Ready and happy to do something."
+},
+{
+"id": "vb_wisdom",
+"word": "wisdom",
+"pos": "noun",
+"en": "The quality of having good judgement based on knowledge and experience."
+},
+{
+"id": "vb_wisely",
+"word": "wisely",
+"pos": "adverb",
+"en": "In a way that shows good sense and judgement."
+},
+{
+"id": "vb_withdraw",
+"word": "withdraw",
+"pos": "verb",
+"en": "To pull back or remove oneself from something."
+},
+{
+"id": "vb_worse",
+"word": "worse",
+"pos": "adjective",
+"en": "Of poorer quality or in a more unfavourable state."
+},
+{
+"id": "vb_worthwhile",
+"word": "worthwhile",
+"pos": "adjective",
+"en": "Worth the time, money, or effort spent."
+},
+{
+"id": "vb_youthful",
+"word": "youthful",
+"pos": "adjective",
+"en": "Young or seeming young; full of youthful energy."
+},
+{
+"id": "id_a_blessing_in_disguise",
+"word": "a blessing in disguise",
+"pos": "idiom",
+"en": "something good that first seemed bad"
+},
+{
+"id": "id_a_bitter_pill_to_swallow",
+"word": "a bitter pill to swallow",
+"pos": "idiom",
+"en": "an unpleasant fact one must accept"
+},
+{
+"id": "id_a_dime_a_dozen",
+"word": "a dime a dozen",
+"pos": "idiom",
+"en": "very common and of little value"
+},
+{
+"id": "id_a_drop_in_the_ocean",
+"word": "a drop in the ocean",
+"pos": "idiom",
+"en": "a tiny amount compared to what is needed"
+},
+{
+"id": "id_a_far_cry_from",
+"word": "a far cry from",
+"pos": "idiom",
+"en": "very different from"
+},
+{
+"id": "id_a_piece_of_cake",
+"word": "a piece of cake",
+"pos": "idiom",
+"en": "very easy"
+},
+{
+"id": "id_a_slap_on_the_wrist",
+"word": "a slap on the wrist",
+"pos": "idiom",
+"en": "a very mild punishment"
+},
+{
+"id": "id_a_storm_in_a_teacup",
+"word": "a storm in a teacup",
+"pos": "idiom",
+"en": "a big fuss over something trivial"
+},
+{
+"id": "id_a_stone_s_throw",
+"word": "a stone's throw",
+"pos": "idiom",
+"en": "a very short distance"
+},
+{
+"id": "id_a_taste_of_your_own_medicine",
+"word": "a taste of your own medicine",
+"pos": "idiom",
+"en": "the same bad treatment you give others"
+},
+{
+"id": "id_a_chip_on_your_shoulder",
+"word": "a chip on your shoulder",
+"pos": "idiom",
+"en": "a lasting grievance or resentment"
+},
+{
+"id": "id_a_dark_horse",
+"word": "a dark horse",
+"pos": "idiom",
+"en": "a surprising, little-known competitor"
+},
+{
+"id": "id_a_leopard_can_t_change_its_spots",
+"word": "a leopard can't change its spots",
+"pos": "idiom",
+"en": "people cannot change their basic nature"
+},
+{
+"id": "id_a_penny_for_your_thoughts",
+"word": "a penny for your thoughts",
+"pos": "idiom",
+"en": "tell me what you are thinking"
+},
+{
+"id": "id_a_whole_new_ball_game",
+"word": "a whole new ball game",
+"pos": "idiom",
+"en": "a completely different situation"
+},
+{
+"id": "id_a_close_shave",
+"word": "a close shave",
+"pos": "idiom",
+"en": "a narrow escape from danger"
+},
+{
+"id": "id_a_fish_out_of_water",
+"word": "a fish out of water",
+"pos": "idiom",
+"en": "someone uncomfortable in a situation"
+},
+{
+"id": "id_a_hot_potato",
+"word": "a hot potato",
+"pos": "idiom",
+"en": "a controversial, awkward issue"
+},
+{
+"id": "id_a_needle_in_a_haystack",
+"word": "a needle in a haystack",
+"pos": "idiom",
+"en": "something almost impossible to find"
+},
+{
+"id": "id_a_once_in_a_blue_moon",
+"word": "a once in a blue moon",
+"pos": "idiom",
+"en": "very rarely"
+},
+{
+"id": "id_a_shot_in_the_dark",
+"word": "a shot in the dark",
+"pos": "idiom",
+"en": "a wild guess"
+},
+{
+"id": "id_a_sight_for_sore_eyes",
+"word": "a sight for sore eyes",
+"pos": "idiom",
+"en": "a welcome, pleasing sight"
+},
+{
+"id": "id_a_tall_order",
+"word": "a tall order",
+"pos": "idiom",
+"en": "a difficult demand or task"
+},
+{
+"id": "id_a_tough_cookie",
+"word": "a tough cookie",
+"pos": "idiom",
+"en": "a strong, determined person"
+},
+{
+"id": "id_above_board",
+"word": "above board",
+"pos": "idiom",
+"en": "honest and legitimate"
+},
+{
+"id": "id_above_and_beyond",
+"word": "above and beyond",
+"pos": "idiom",
+"en": "more than is required"
+},
+{
+"id": "id_achilles_heel",
+"word": "Achilles' heel",
+"pos": "idiom",
+"en": "a person's one weak point"
+},
+{
+"id": "id_across_the_board",
+"word": "across the board",
+"pos": "idiom",
+"en": "applying to everyone or everything"
+},
+{
+"id": "id_actions_speak_louder_than_words",
+"word": "actions speak louder than words",
+"pos": "idiom",
+"en": "what you do matters more than what you say"
+},
+{
+"id": "id_add_fuel_to_the_fire",
+"word": "add fuel to the fire",
+"pos": "idiom",
+"en": "to make a bad situation worse"
+},
+{
+"id": "id_add_insult_to_injury",
+"word": "add insult to injury",
+"pos": "idiom",
+"en": "to make a bad situation even worse"
+},
+{
+"id": "id_against_the_clock",
+"word": "against the clock",
+"pos": "idiom",
+"en": "rushing to finish before a deadline"
+},
+{
+"id": "id_against_the_grain",
+"word": "against the grain",
+"pos": "idiom",
+"en": "contrary to one's nature or custom"
+},
+{
+"id": "id_ahead_of_the_curve",
+"word": "ahead of the curve",
+"pos": "idiom",
+"en": "more advanced than others"
+},
+{
+"id": "id_ahead_of_time",
+"word": "ahead of time",
+"pos": "idiom",
+"en": "earlier than planned"
+},
+{
+"id": "id_air_your_dirty_laundry",
+"word": "air your dirty laundry",
+"pos": "idiom",
+"en": "to discuss private matters in public"
+},
+{
+"id": "id_all_ears",
+"word": "all ears",
+"pos": "idiom",
+"en": "listening very attentively"
+},
+{
+"id": "id_all_in_a_day_s_work",
+"word": "all in a day's work",
+"pos": "idiom",
+"en": "a normal part of one's routine"
+},
+{
+"id": "id_all_in_the_same_boat",
+"word": "all in the same boat",
+"pos": "idiom",
+"en": "in the same difficult situation"
+},
+{
+"id": "id_all_over_the_place",
+"word": "all over the place",
+"pos": "idiom",
+"en": "disorganised; everywhere"
+},
+{
+"id": "id_all_thumbs",
+"word": "all thumbs",
+"pos": "idiom",
+"en": "clumsy with one's hands"
+},
+{
+"id": "id_all_bark_and_no_bite",
+"word": "all bark and no bite",
+"pos": "idiom",
+"en": "threatening but harmless"
+},
+{
+"id": "id_all_in_your_head",
+"word": "all in your head",
+"pos": "idiom",
+"en": "imagined, not real"
+},
+{
+"id": "id_an_arm_and_a_leg",
+"word": "an arm and a leg",
+"pos": "idiom",
+"en": "a very large amount of money"
+},
+{
+"id": "id_an_axe_to_grind",
+"word": "an axe to grind",
+"pos": "idiom",
+"en": "a private, selfish reason to complain"
+},
+{
+"id": "id_an_old_flame",
+"word": "an old flame",
+"pos": "idiom",
+"en": "a former romantic partner"
+},
+{
+"id": "id_an_uphill_battle",
+"word": "an uphill battle",
+"pos": "idiom",
+"en": "a difficult, prolonged struggle"
+},
+{
+"id": "id_answer_the_call",
+"word": "answer the call",
+"pos": "idiom",
+"en": "to respond to a need or duty"
+},
+{
+"id": "id_apple_of_someone_s_eye",
+"word": "apple of someone's eye",
+"pos": "idiom",
+"en": "a cherished, favourite person"
+},
+{
+"id": "id_armed_to_the_teeth",
+"word": "armed to the teeth",
+"pos": "idiom",
+"en": "heavily equipped"
+},
+{
+"id": "id_around_the_clock",
+"word": "around the clock",
+"pos": "idiom",
+"en": "all day and all night"
+},
+{
+"id": "id_as_easy_as_pie",
+"word": "as easy as pie",
+"pos": "idiom",
+"en": "very easy"
+},
+{
+"id": "id_as_fit_as_a_fiddle",
+"word": "as fit as a fiddle",
+"pos": "idiom",
+"en": "in very good health"
+},
+{
+"id": "id_as_good_as_gold",
+"word": "as good as gold",
+"pos": "idiom",
+"en": "very well-behaved"
+},
+{
+"id": "id_as_right_as_rain",
+"word": "as right as rain",
+"pos": "idiom",
+"en": "perfectly well"
+},
+{
+"id": "id_as_the_crow_flies",
+"word": "as the crow flies",
+"pos": "idiom",
+"en": "in a straight line; by the shortest route"
+},
+{
+"id": "id_at_a_crossroads",
+"word": "at a crossroads",
+"pos": "idiom",
+"en": "at a point of important decision"
+},
+{
+"id": "id_at_a_loss",
+"word": "at a loss",
+"pos": "idiom",
+"en": "unsure what to do or say"
+},
+{
+"id": "id_at_a_snail_s_pace",
+"word": "at a snail's pace",
+"pos": "idiom",
+"en": "very slowly"
+},
+{
+"id": "id_at_arm_s_length",
+"word": "at arm's length",
+"pos": "idiom",
+"en": "at a distance; avoiding closeness"
+},
+{
+"id": "id_at_death_s_door",
+"word": "at death's door",
+"pos": "idiom",
+"en": "very close to dying"
+},
+{
+"id": "id_at_face_value",
+"word": "at face value",
+"pos": "idiom",
+"en": "accepted as it appears, without question"
+},
+{
+"id": "id_at_loggerheads",
+"word": "at loggerheads",
+"pos": "idiom",
+"en": "in strong disagreement"
+},
+{
+"id": "id_at_odds",
+"word": "at odds",
+"pos": "idiom",
+"en": "in conflict or disagreement"
+},
+{
+"id": "id_at_the_crack_of_dawn",
+"word": "at the crack of dawn",
+"pos": "idiom",
+"en": "very early in the morning"
+},
+{
+"id": "id_at_the_drop_of_a_hat",
+"word": "at the drop of a hat",
+"pos": "idiom",
+"en": "immediately, without hesitation"
+},
+{
+"id": "id_at_the_eleventh_hour",
+"word": "at the eleventh hour",
+"pos": "idiom",
+"en": "at the very last moment"
+},
+{
+"id": "id_at_the_end_of_your_rope",
+"word": "at the end of your rope",
+"pos": "idiom",
+"en": "having no patience or strength left"
+},
+{
+"id": "id_at_the_end_of_the_day",
+"word": "at the end of the day",
+"pos": "idiom",
+"en": "when everything is considered"
+},
+{
+"id": "id_at_your_fingertips",
+"word": "at your fingertips",
+"pos": "idiom",
+"en": "easily available"
+},
+{
+"id": "id_at_your_wits_end",
+"word": "at your wits' end",
+"pos": "idiom",
+"en": "extremely worried and unable to cope"
+},
+{
+"id": "id_against_all_odds",
+"word": "against all odds",
+"pos": "idiom",
+"en": "despite great difficulty or unlikelihood"
+},
+{
+"id": "id_a_cut_above",
+"word": "a cut above",
+"pos": "idiom",
+"en": "better than the rest"
+},
+{
+"id": "id_a_done_deal",
+"word": "a done deal",
+"pos": "idiom",
+"en": "something already finalised"
+},
+{
+"id": "id_a_drop_in_the_bucket",
+"word": "a drop in the bucket",
+"pos": "idiom",
+"en": "a tiny, insignificant amount"
+},
+{
+"id": "id_a_feather_in_your_cap",
+"word": "a feather in your cap",
+"pos": "idiom",
+"en": "an achievement to be proud of"
+},
+{
+"id": "id_a_frog_in_your_throat",
+"word": "a frog in your throat",
+"pos": "idiom",
+"en": "difficulty speaking due to a dry throat"
+},
+{
+"id": "id_a_hard_nut_to_crack",
+"word": "a hard nut to crack",
+"pos": "idiom",
+"en": "a difficult problem or person"
+},
+{
+"id": "id_a_house_of_cards",
+"word": "a house of cards",
+"pos": "idiom",
+"en": "a fragile, unstable structure or plan"
+},
+{
+"id": "id_a_labour_of_love",
+"word": "a labour of love",
+"pos": "idiom",
+"en": "work done for pleasure, not reward"
+},
+{
+"id": "id_a_load_off_your_mind",
+"word": "a load off your mind",
+"pos": "idiom",
+"en": "a relief from worry"
+},
+{
+"id": "id_a_long_shot",
+"word": "a long shot",
+"pos": "idiom",
+"en": "something unlikely to succeed"
+},
+{
+"id": "id_a_man_of_his_word",
+"word": "a man of his word",
+"pos": "idiom",
+"en": "someone who keeps promises"
+},
+{
+"id": "id_a_mixed_bag",
+"word": "a mixed bag",
+"pos": "idiom",
+"en": "a mixture of good and bad"
+},
+{
+"id": "id_a_numbers_game",
+"word": "a numbers game",
+"pos": "idiom",
+"en": "success depending on quantity"
+},
+{
+"id": "id_a_race_against_time",
+"word": "a race against time",
+"pos": "idiom",
+"en": "a rush to finish before it's too late"
+},
+{
+"id": "id_a_recipe_for_disaster",
+"word": "a recipe for disaster",
+"pos": "idiom",
+"en": "something likely to go badly wrong"
+},
+{
+"id": "id_a_rule_of_thumb",
+"word": "a rule of thumb",
+"pos": "idiom",
+"en": "a rough, practical guideline"
+},
+{
+"id": "id_a_safe_pair_of_hands",
+"word": "a safe pair of hands",
+"pos": "idiom",
+"en": "a reliable, trustworthy person"
+},
+{
+"id": "id_a_sore_point",
+"word": "a sore point",
+"pos": "idiom",
+"en": "a sensitive subject"
+},
+{
+"id": "id_a_wake_up_call",
+"word": "a wake-up call",
+"pos": "idiom",
+"en": "an event that prompts needed change"
+},
+{
+"id": "id_a_weight_off_your_shoulders",
+"word": "a weight off your shoulders",
+"pos": "idiom",
+"en": "relief from a burden"
+},
+{
+"id": "id_all_s_well_that_ends_well",
+"word": "all's well that ends well",
+"pos": "idiom",
+"en": "problems don't matter if the result is good"
+},
+{
+"id": "id_apples_and_oranges",
+"word": "apples and oranges",
+"pos": "idiom",
+"en": "two things too different to compare"
+},
+{
+"id": "id_as_clear_as_mud",
+"word": "as clear as mud",
+"pos": "idiom",
+"en": "not clear at all"
+},
+{
+"id": "id_at_the_helm",
+"word": "at the helm",
+"pos": "idiom",
+"en": "in charge or control"
+},
+{
+"id": "id_asleep_at_the_wheel",
+"word": "asleep at the wheel",
+"pos": "idiom",
+"en": "not paying attention to one's duty"
+},
+{
+"id": "id_back_to_square_one",
+"word": "back to square one",
+"pos": "idiom",
+"en": "back to the very beginning"
+},
+{
+"id": "id_back_to_the_drawing_board",
+"word": "back to the drawing board",
+"pos": "idiom",
+"en": "to start planning again after a failure"
+},
+{
+"id": "id_back_the_wrong_horse",
+"word": "back the wrong horse",
+"pos": "idiom",
+"en": "to support someone or something that loses"
+},
+{
+"id": "id_bad_blood",
+"word": "bad blood",
+"pos": "idiom",
+"en": "long-standing ill feeling between people"
+},
+{
+"id": "id_a_bad_apple",
+"word": "a bad apple",
+"pos": "idiom",
+"en": "one person who corrupts a group"
+},
+{
+"id": "id_the_ball_is_in_your_court",
+"word": "the ball is in your court",
+"pos": "idiom",
+"en": "it is your turn to act or decide"
+},
+{
+"id": "id_a_ballpark_figure",
+"word": "a ballpark figure",
+"pos": "idiom",
+"en": "a rough estimate"
+},
+{
+"id": "id_bark_up_the_wrong_tree",
+"word": "bark up the wrong tree",
+"pos": "idiom",
+"en": "to pursue a mistaken line of thought"
+},
+{
+"id": "id_a_basket_case",
+"word": "a basket case",
+"pos": "idiom",
+"en": "someone or something unable to function"
+},
+{
+"id": "id_beat_around_the_bush",
+"word": "beat around the bush",
+"pos": "idiom",
+"en": "to avoid saying something directly"
+},
+{
+"id": "id_beat_a_dead_horse",
+"word": "beat a dead horse",
+"pos": "idiom",
+"en": "to waste effort on a settled matter"
+},
+{
+"id": "id_beat_someone_to_the_punch",
+"word": "beat someone to the punch",
+"pos": "idiom",
+"en": "to act before someone else can"
+},
+{
+"id": "id_beauty_is_in_the_eye_of_the_beholder",
+"word": "beauty is in the eye of the beholder",
+"pos": "idiom",
+"en": "beauty is a matter of personal taste"
+},
+{
+"id": "id_beggars_can_t_be_choosers",
+"word": "beggars can't be choosers",
+"pos": "idiom",
+"en": "take what is offered when you have no choice"
+},
+{
+"id": "id_behind_bars",
+"word": "behind bars",
+"pos": "idiom",
+"en": "in prison"
+},
+{
+"id": "id_behind_closed_doors",
+"word": "behind closed doors",
+"pos": "idiom",
+"en": "in private, away from public view"
+},
+{
+"id": "id_behind_someone_s_back",
+"word": "behind someone's back",
+"pos": "idiom",
+"en": "without someone's knowledge"
+},
+{
+"id": "id_behind_the_scenes",
+"word": "behind the scenes",
+"pos": "idiom",
+"en": "out of public view"
+},
+{
+"id": "id_bells_and_whistles",
+"word": "bells and whistles",
+"pos": "idiom",
+"en": "attractive extra features"
+},
+{
+"id": "id_below_the_belt",
+"word": "below the belt",
+"pos": "idiom",
+"en": "unfair or cruel"
+},
+{
+"id": "id_bend_over_backwards",
+"word": "bend over backwards",
+"pos": "idiom",
+"en": "to try very hard to help"
+},
+{
+"id": "id_bend_the_rules",
+"word": "bend the rules",
+"pos": "idiom",
+"en": "to relax rules slightly"
+},
+{
+"id": "id_bend_someone_s_ear",
+"word": "bend someone's ear",
+"pos": "idiom",
+"en": "to talk to someone at length"
+},
+{
+"id": "id_the_best_of_both_worlds",
+"word": "the best of both worlds",
+"pos": "idiom",
+"en": "the benefits of two different things"
+},
+{
+"id": "id_the_best_thing_since_sliced_bread",
+"word": "the best thing since sliced bread",
+"pos": "idiom",
+"en": "an excellent new idea or product"
+},
+{
+"id": "id_better_late_than_never",
+"word": "better late than never",
+"pos": "idiom",
+"en": "doing something late is better than not at all"
+},
+{
+"id": "id_better_safe_than_sorry",
+"word": "better safe than sorry",
+"pos": "idiom",
+"en": "it is wiser to take precautions"
+},
+{
+"id": "id_between_a_rock_and_a_hard_place",
+"word": "between a rock and a hard place",
+"pos": "idiom",
+"en": "facing two equally bad choices"
+},
+{
+"id": "id_beyond_the_pale",
+"word": "beyond the pale",
+"pos": "idiom",
+"en": "unacceptable; outside the bounds of decency"
+},
+{
+"id": "id_big_fish_in_a_small_pond",
+"word": "big fish in a small pond",
+"pos": "idiom",
+"en": "important only within a small group"
+},
+{
+"id": "id_bigger_fish_to_fry",
+"word": "bigger fish to fry",
+"pos": "idiom",
+"en": "more important things to deal with"
+},
+{
+"id": "id_the_big_picture",
+"word": "the big picture",
+"pos": "idiom",
+"en": "the overall situation"
+},
+{
+"id": "id_a_bird_s_eye_view",
+"word": "a bird's-eye view",
+"pos": "idiom",
+"en": "a view from high above; an overview"
+},
+{
+"id": "id_bite_off_more_than_you_can_chew",
+"word": "bite off more than you can chew",
+"pos": "idiom",
+"en": "to take on more than you can manage"
+},
+{
+"id": "id_bite_the_bullet",
+"word": "bite the bullet",
+"pos": "idiom",
+"en": "to face something difficult bravely"
+},
+{
+"id": "id_bite_the_dust",
+"word": "bite the dust",
+"pos": "idiom",
+"en": "to fail or come to an end"
+},
+{
+"id": "id_bite_the_hand_that_feeds_you",
+"word": "bite the hand that feeds you",
+"pos": "idiom",
+"en": "to harm someone who helps you"
+},
+{
+"id": "id_bite_your_tongue",
+"word": "bite your tongue",
+"pos": "idiom",
+"en": "to stop yourself from saying something"
+},
+{
+"id": "id_bits_and_pieces",
+"word": "bits and pieces",
+"pos": "idiom",
+"en": "small, varied odds and ends"
+},
+{
+"id": "id_the_bitter_end",
+"word": "the bitter end",
+"pos": "idiom",
+"en": "the very end, despite difficulties"
+},
+{
+"id": "id_the_black_sheep",
+"word": "the black sheep",
+"pos": "idiom",
+"en": "the odd or disgraced member of a group"
+},
+{
+"id": "id_a_blank_cheque",
+"word": "a blank cheque",
+"pos": "idiom",
+"en": "complete freedom to act or spend"
+},
+{
+"id": "id_blaze_a_trail",
+"word": "blaze a trail",
+"pos": "idiom",
+"en": "to be a pioneer"
+},
+{
+"id": "id_blood_is_thicker_than_water",
+"word": "blood is thicker than water",
+"pos": "idiom",
+"en": "family bonds are the strongest"
+},
+{
+"id": "id_blow_a_fuse",
+"word": "blow a fuse",
+"pos": "idiom",
+"en": "to lose one's temper"
+},
+{
+"id": "id_blow_off_steam",
+"word": "blow off steam",
+"pos": "idiom",
+"en": "to release energy or anger"
+},
+{
+"id": "id_blow_your_own_trumpet",
+"word": "blow your own trumpet",
+"pos": "idiom",
+"en": "to boast about yourself"
+},
+{
+"id": "id_blow_the_whistle",
+"word": "blow the whistle",
+"pos": "idiom",
+"en": "to report wrongdoing"
+},
+{
+"id": "id_blow_things_out_of_proportion",
+"word": "blow things out of proportion",
+"pos": "idiom",
+"en": "to exaggerate the importance of"
+},
+{
+"id": "id_blue_in_the_face",
+"word": "blue in the face",
+"pos": "idiom",
+"en": "until exhausted by effort, usually in vain"
+},
+{
+"id": "id_a_bolt_from_the_blue",
+"word": "a bolt from the blue",
+"pos": "idiom",
+"en": "a complete and sudden surprise"
+},
+{
+"id": "id_a_bone_of_contention",
+"word": "a bone of contention",
+"pos": "idiom",
+"en": "a cause of ongoing disagreement"
+},
+{
+"id": "id_a_bone_to_pick",
+"word": "a bone to pick",
+"pos": "idiom",
+"en": "a complaint to discuss with someone"
+},
+{
+"id": "id_bored_stiff",
+"word": "bored stiff",
+"pos": "idiom",
+"en": "extremely bored"
+},
+{
+"id": "id_born_with_a_silver_spoon_in_your_mouth",
+"word": "born with a silver spoon in your mouth",
+"pos": "idiom",
+"en": "born into a wealthy family"
+},
+{
+"id": "id_both_sides_of_the_coin",
+"word": "both sides of the coin",
+"pos": "idiom",
+"en": "both aspects of a situation"
+},
+{
+"id": "id_the_bottom_line",
+"word": "the bottom line",
+"pos": "idiom",
+"en": "the most important fact or result"
+},
+{
+"id": "id_bounce_ideas_off_someone",
+"word": "bounce ideas off someone",
+"pos": "idiom",
+"en": "to test ideas by discussing them"
+},
+{
+"id": "id_brain_drain",
+"word": "brain drain",
+"pos": "idiom",
+"en": "the loss of skilled people to other places"
+},
+{
+"id": "id_bread_and_butter",
+"word": "bread and butter",
+"pos": "idiom",
+"en": "one's main source of income"
+},
+{
+"id": "id_break_a_leg",
+"word": "break a leg",
+"pos": "idiom",
+"en": "good luck (said to performers)"
+},
+{
+"id": "id_break_new_ground",
+"word": "break new ground",
+"pos": "idiom",
+"en": "to do something innovative"
+},
+{
+"id": "id_break_the_bank",
+"word": "break the bank",
+"pos": "idiom",
+"en": "to cost more than one can afford"
+},
+{
+"id": "id_break_the_ice",
+"word": "break the ice",
+"pos": "idiom",
+"en": "to ease tension at a first meeting"
+},
+{
+"id": "id_break_the_mould",
+"word": "break the mould",
+"pos": "idiom",
+"en": "to do something in a new way"
+},
+{
+"id": "id_break_the_news",
+"word": "break the news",
+"pos": "idiom",
+"en": "to tell someone important news"
+},
+{
+"id": "id_a_breath_of_fresh_air",
+"word": "a breath of fresh air",
+"pos": "idiom",
+"en": "a welcome, refreshing change"
+},
+{
+"id": "id_breathe_down_someone_s_neck",
+"word": "breathe down someone's neck",
+"pos": "idiom",
+"en": "to watch someone too closely"
+},
+{
+"id": "id_breathe_easy",
+"word": "breathe easy",
+"pos": "idiom",
+"en": "to relax after worry"
+},
+{
+"id": "id_bright_and_early",
+"word": "bright and early",
+"pos": "idiom",
+"en": "very early in the morning"
+},
+{
+"id": "id_bring_home_the_bacon",
+"word": "bring home the bacon",
+"pos": "idiom",
+"en": "to earn money for the family"
+},
+{
+"id": "id_bring_something_to_light",
+"word": "bring something to light",
+"pos": "idiom",
+"en": "to reveal something hidden"
+},
+{
+"id": "id_bring_to_the_table",
+"word": "bring to the table",
+"pos": "idiom",
+"en": "to contribute (skills or ideas)"
+},
+{
+"id": "id_in_broad_daylight",
+"word": "in broad daylight",
+"pos": "idiom",
+"en": "openly, during the day"
+},
+{
+"id": "id_build_bridges",
+"word": "build bridges",
+"pos": "idiom",
+"en": "to improve relations between people"
+},
+{
+"id": "id_burn_bridges",
+"word": "burn bridges",
+"pos": "idiom",
+"en": "to destroy relationships permanently"
+},
+{
+"id": "id_burn_the_candle_at_both_ends",
+"word": "burn the candle at both ends",
+"pos": "idiom",
+"en": "to exhaust oneself by doing too much"
+},
+{
+"id": "id_burn_the_midnight_oil",
+"word": "burn the midnight oil",
+"pos": "idiom",
+"en": "to work late into the night"
+},
+{
+"id": "id_a_burning_question",
+"word": "a burning question",
+"pos": "idiom",
+"en": "an urgent, important question"
+},
+{
+"id": "id_bury_the_hatchet",
+"word": "bury the hatchet",
+"pos": "idiom",
+"en": "to end a quarrel and make peace"
+},
+{
+"id": "id_bury_your_head_in_the_sand",
+"word": "bury your head in the sand",
+"pos": "idiom",
+"en": "to refuse to face a problem"
+},
+{
+"id": "id_butterflies_in_your_stomach",
+"word": "butterflies in your stomach",
+"pos": "idiom",
+"en": "a nervous, fluttery feeling"
+},
+{
+"id": "id_by_a_hair_s_breadth",
+"word": "by a hair's breadth",
+"pos": "idiom",
+"en": "by a very small margin"
+},
+{
+"id": "id_by_all_means",
+"word": "by all means",
+"pos": "idiom",
+"en": "certainly; of course"
+},
+{
+"id": "id_by_and_large",
+"word": "by and large",
+"pos": "idiom",
+"en": "on the whole; generally"
+},
+{
+"id": "id_by_far",
+"word": "by far",
+"pos": "idiom",
+"en": "by a great amount"
+},
+{
+"id": "id_by_hook_or_by_crook",
+"word": "by hook or by crook",
+"pos": "idiom",
+"en": "by any means necessary"
+},
+{
+"id": "id_by_leaps_and_bounds",
+"word": "by leaps and bounds",
+"pos": "idiom",
+"en": "very rapidly"
+},
+{
+"id": "id_by_no_means",
+"word": "by no means",
+"pos": "idiom",
+"en": "not at all; definitely not"
+},
+{
+"id": "id_by_the_book",
+"word": "by the book",
+"pos": "idiom",
+"en": "strictly according to the rules"
+},
+{
+"id": "id_by_the_skin_of_your_teeth",
+"word": "by the skin of your teeth",
+"pos": "idiom",
+"en": "only just; barely"
+},
+{
+"id": "id_by_word_of_mouth",
+"word": "by word of mouth",
+"pos": "idiom",
+"en": "by people telling one another"
+},
+{
+"id": "id_a_big_mouth",
+"word": "a big mouth",
+"pos": "idiom",
+"en": "someone who talks too much or reveals secrets"
+},
+{
+"id": "id_bend_the_truth",
+"word": "bend the truth",
+"pos": "idiom",
+"en": "to tell a mild lie"
+},
+{
+"id": "id_the_best_of_a_bad_bunch",
+"word": "the best of a bad bunch",
+"pos": "idiom",
+"en": "the least bad of poor options"
+},
+{
+"id": "id_bite_your_lip",
+"word": "bite your lip",
+"pos": "idiom",
+"en": "to hold back a reaction or comment"
+},
+{
+"id": "id_blow_your_mind",
+"word": "blow your mind",
+"pos": "idiom",
+"en": "to amaze or astonish you"
+},
+{
+"id": "id_boil_the_ocean",
+"word": "boil the ocean",
+"pos": "idiom",
+"en": "to attempt something impossibly large"
+},
+{
+"id": "id_a_breeze",
+"word": "a breeze",
+"pos": "idiom",
+"en": "something very easy"
+},
+{
+"id": "id_burning_the_candle",
+"word": "burning the candle",
+"pos": "idiom",
+"en": "working or socialising to exhaustion"
+},
+{
+"id": "id_back_to_basics",
+"word": "back to basics",
+"pos": "idiom",
+"en": "returning to fundamental principles"
+},
+{
+"id": "id_call_it_a_day",
+"word": "call it a day",
+"pos": "idiom",
+"en": "to stop working for the day"
+},
+{
+"id": "id_call_it_quits",
+"word": "call it quits",
+"pos": "idiom",
+"en": "to stop or give up"
+},
+{
+"id": "id_call_the_shots",
+"word": "call the shots",
+"pos": "idiom",
+"en": "to be in control; to make the decisions"
+},
+{
+"id": "id_call_a_spade_a_spade",
+"word": "call a spade a spade",
+"pos": "idiom",
+"en": "to speak plainly and honestly"
+},
+{
+"id": "id_the_calm_before_the_storm",
+"word": "the calm before the storm",
+"pos": "idiom",
+"en": "a quiet period before trouble"
+},
+{
+"id": "id_a_can_of_worms",
+"word": "a can of worms",
+"pos": "idiom",
+"en": "a complicated, troublesome issue"
+},
+{
+"id": "id_can_t_make_head_nor_tail_of",
+"word": "can't make head nor tail of",
+"pos": "idiom",
+"en": "to be unable to understand"
+},
+{
+"id": "id_cards_on_the_table",
+"word": "cards on the table",
+"pos": "idiom",
+"en": "being open about one's intentions"
+},
+{
+"id": "id_carry_the_can",
+"word": "carry the can",
+"pos": "idiom",
+"en": "to take the blame"
+},
+{
+"id": "id_carry_the_day",
+"word": "carry the day",
+"pos": "idiom",
+"en": "to win or be successful"
+},
+{
+"id": "id_a_cash_cow",
+"word": "a cash cow",
+"pos": "idiom",
+"en": "a steady, reliable source of profit"
+},
+{
+"id": "id_cast_a_shadow_over",
+"word": "cast a shadow over",
+"pos": "idiom",
+"en": "to spoil or cloud"
+},
+{
+"id": "id_castles_in_the_air",
+"word": "castles in the air",
+"pos": "idiom",
+"en": "unrealistic hopes or plans"
+},
+{
+"id": "id_a_catch_22",
+"word": "a catch-22",
+"pos": "idiom",
+"en": "a no-win situation with contradictory rules"
+},
+{
+"id": "id_has_the_cat_got_your_tongue",
+"word": "has the cat got your tongue?",
+"pos": "idiom",
+"en": "why are you silent?"
+},
+{
+"id": "id_catch_someone_red_handed",
+"word": "catch someone red-handed",
+"pos": "idiom",
+"en": "to catch someone in the act"
+},
+{
+"id": "id_catch_your_eye",
+"word": "catch your eye",
+"pos": "idiom",
+"en": "to attract your attention"
+},
+{
+"id": "id_caught_napping",
+"word": "caught napping",
+"pos": "idiom",
+"en": "caught unprepared"
+},
+{
+"id": "id_caught_off_guard",
+"word": "caught off guard",
+"pos": "idiom",
+"en": "surprised and unprepared"
+},
+{
+"id": "id_caught_in_the_crossfire",
+"word": "caught in the crossfire",
+"pos": "idiom",
+"en": "harmed by a conflict between others"
+},
+{
+"id": "id_chalk_and_cheese",
+"word": "chalk and cheese",
+"pos": "idiom",
+"en": "completely different"
+},
+{
+"id": "id_champing_at_the_bit",
+"word": "champing at the bit",
+"pos": "idiom",
+"en": "impatient and eager to start"
+},
+{
+"id": "id_a_change_of_heart",
+"word": "a change of heart",
+"pos": "idiom",
+"en": "a change of opinion or feeling"
+},
+{
+"id": "id_change_your_tune",
+"word": "change your tune",
+"pos": "idiom",
+"en": "to change your attitude or opinion"
+},
+{
+"id": "id_chase_rainbows",
+"word": "chase rainbows",
+"pos": "idiom",
+"en": "to pursue unrealistic goals"
+},
+{
+"id": "id_chase_your_tail",
+"word": "chase your tail",
+"pos": "idiom",
+"en": "to be busy but achieve little"
+},
+{
+"id": "id_cheesed_off",
+"word": "cheesed off",
+"pos": "idiom",
+"en": "annoyed or fed up (British)"
+},
+{
+"id": "id_chew_the_fat",
+"word": "chew the fat",
+"pos": "idiom",
+"en": "to chat in a relaxed way"
+},
+{
+"id": "id_a_chicken_and_egg_situation",
+"word": "a chicken-and-egg situation",
+"pos": "idiom",
+"en": "unclear which of two things caused the other"
+},
+{
+"id": "id_chickens_come_home_to_roost",
+"word": "chickens come home to roost",
+"pos": "idiom",
+"en": "bad past actions return to cause trouble"
+},
+{
+"id": "id_a_chink_in_the_armour",
+"word": "a chink in the armour",
+"pos": "idiom",
+"en": "a weak point in an otherwise strong position"
+},
+{
+"id": "id_a_chip_off_the_old_block",
+"word": "a chip off the old block",
+"pos": "idiom",
+"en": "a child like a parent"
+},
+{
+"id": "id_clear_as_a_bell",
+"word": "clear as a bell",
+"pos": "idiom",
+"en": "very clear and easy to hear"
+},
+{
+"id": "id_clear_the_air",
+"word": "clear the air",
+"pos": "idiom",
+"en": "to resolve tension by talking honestly"
+},
+{
+"id": "id_climb_the_ladder",
+"word": "climb the ladder",
+"pos": "idiom",
+"en": "to advance in one's career"
+},
+{
+"id": "id_clip_someone_s_wings",
+"word": "clip someone's wings",
+"pos": "idiom",
+"en": "to restrict someone's freedom or power"
+},
+{
+"id": "id_a_close_call",
+"word": "a close call",
+"pos": "idiom",
+"en": "a narrow escape"
+},
+{
+"id": "id_close_but_no_cigar",
+"word": "close but no cigar",
+"pos": "idiom",
+"en": "almost successful, but not quite"
+},
+{
+"id": "id_close_ranks",
+"word": "close ranks",
+"pos": "idiom",
+"en": "to unite to defend against outsiders"
+},
+{
+"id": "id_close_to_home",
+"word": "close to home",
+"pos": "idiom",
+"en": "affecting one personally"
+},
+{
+"id": "id_clutch_at_straws",
+"word": "clutch at straws",
+"pos": "idiom",
+"en": "to try anything in desperation"
+},
+{
+"id": "id_a_cock_and_bull_story",
+"word": "a cock-and-bull story",
+"pos": "idiom",
+"en": "an unbelievable, far-fetched tale"
+},
+{
+"id": "id_cold_feet",
+"word": "cold feet",
+"pos": "idiom",
+"en": "nervousness before a big event"
+},
+{
+"id": "id_the_cold_shoulder",
+"word": "the cold shoulder",
+"pos": "idiom",
+"en": "deliberate unfriendliness"
+},
+{
+"id": "id_cold_turkey",
+"word": "cold turkey",
+"pos": "idiom",
+"en": "stopping a habit abruptly"
+},
+{
+"id": "id_come_apart_at_the_seams",
+"word": "come apart at the seams",
+"pos": "idiom",
+"en": "to fall apart; to break down"
+},
+{
+"id": "id_come_a_long_way",
+"word": "come a long way",
+"pos": "idiom",
+"en": "to make great progress"
+},
+{
+"id": "id_come_clean",
+"word": "come clean",
+"pos": "idiom",
+"en": "to confess the truth"
+},
+{
+"id": "id_come_full_circle",
+"word": "come full circle",
+"pos": "idiom",
+"en": "to return to the original position"
+},
+{
+"id": "id_come_hell_or_high_water",
+"word": "come hell or high water",
+"pos": "idiom",
+"en": "whatever difficulties arise"
+},
+{
+"id": "id_come_into_your_own",
+"word": "come into your own",
+"pos": "idiom",
+"en": "to become very effective or successful"
+},
+{
+"id": "id_come_out_of_your_shell",
+"word": "come out of your shell",
+"pos": "idiom",
+"en": "to become more confident and sociable"
+},
+{
+"id": "id_come_rain_or_shine",
+"word": "come rain or shine",
+"pos": "idiom",
+"en": "whatever happens"
+},
+{
+"id": "id_come_to_a_head",
+"word": "come to a head",
+"pos": "idiom",
+"en": "to reach a critical point"
+},
+{
+"id": "id_come_to_blows",
+"word": "come to blows",
+"pos": "idiom",
+"en": "to start fighting"
+},
+{
+"id": "id_come_to_grips_with",
+"word": "come to grips with",
+"pos": "idiom",
+"en": "to begin to deal with something difficult"
+},
+{
+"id": "id_come_to_terms_with",
+"word": "come to terms with",
+"pos": "idiom",
+"en": "to accept something difficult"
+},
+{
+"id": "id_come_what_may",
+"word": "come what may",
+"pos": "idiom",
+"en": "whatever happens"
+},
+{
+"id": "id_cook_the_books",
+"word": "cook the books",
+"pos": "idiom",
+"en": "to falsify financial records"
+},
+{
+"id": "id_cool_as_a_cucumber",
+"word": "cool as a cucumber",
+"pos": "idiom",
+"en": "very calm and composed"
+},
+{
+"id": "id_cost_an_arm_and_a_leg",
+"word": "cost an arm and a leg",
+"pos": "idiom",
+"en": "to be very expensive"
+},
+{
+"id": "id_a_couch_potato",
+"word": "a couch potato",
+"pos": "idiom",
+"en": "a lazy person who watches a lot of TV"
+},
+{
+"id": "id_count_your_blessings",
+"word": "count your blessings",
+"pos": "idiom",
+"en": "to be grateful for what you have"
+},
+{
+"id": "id_cover_your_tracks",
+"word": "cover your tracks",
+"pos": "idiom",
+"en": "to hide evidence of what you have done"
+},
+{
+"id": "id_crack_a_joke",
+"word": "crack a joke",
+"pos": "idiom",
+"en": "to tell a joke"
+},
+{
+"id": "id_crack_the_whip",
+"word": "crack the whip",
+"pos": "idiom",
+"en": "to use authority to make people work harder"
+},
+{
+"id": "id_cramp_someone_s_style",
+"word": "cramp someone's style",
+"pos": "idiom",
+"en": "to restrict someone's freedom to act"
+},
+{
+"id": "id_a_crash_course",
+"word": "a crash course",
+"pos": "idiom",
+"en": "an intensive short course"
+},
+{
+"id": "id_the_cream_of_the_crop",
+"word": "the cream of the crop",
+"pos": "idiom",
+"en": "the very best"
+},
+{
+"id": "id_a_creature_of_habit",
+"word": "a creature of habit",
+"pos": "idiom",
+"en": "someone who likes fixed routines"
+},
+{
+"id": "id_crocodile_tears",
+"word": "crocodile tears",
+"pos": "idiom",
+"en": "insincere displays of sorrow"
+},
+{
+"id": "id_cross_swords",
+"word": "cross swords",
+"pos": "idiom",
+"en": "to argue or disagree strongly"
+},
+{
+"id": "id_cross_that_bridge_when_you_come_to_it",
+"word": "cross that bridge when you come to it",
+"pos": "idiom",
+"en": "to deal with a problem only when it arises"
+},
+{
+"id": "id_cross_your_fingers",
+"word": "cross your fingers",
+"pos": "idiom",
+"en": "to hope for good luck"
+},
+{
+"id": "id_cross_your_mind",
+"word": "cross your mind",
+"pos": "idiom",
+"en": "to occur to you briefly"
+},
+{
+"id": "id_cry_over_spilt_milk",
+"word": "cry over spilt milk",
+"pos": "idiom",
+"en": "to regret what cannot be changed"
+},
+{
+"id": "id_cry_wolf",
+"word": "cry wolf",
+"pos": "idiom",
+"en": "to raise a false alarm repeatedly"
+},
+{
+"id": "id_cry_your_eyes_out",
+"word": "cry your eyes out",
+"pos": "idiom",
+"en": "to cry a great deal"
+},
+{
+"id": "id_curiosity_killed_the_cat",
+"word": "curiosity killed the cat",
+"pos": "idiom",
+"en": "being too inquisitive can be dangerous"
+},
+{
+"id": "id_cut_a_long_story_short",
+"word": "cut a long story short",
+"pos": "idiom",
+"en": "to summarise"
+},
+{
+"id": "id_cut_and_dried",
+"word": "cut and dried",
+"pos": "idiom",
+"en": "already decided; straightforward"
+},
+{
+"id": "id_cut_and_run",
+"word": "cut and run",
+"pos": "idiom",
+"en": "to leave quickly to avoid trouble"
+},
+{
+"id": "id_cut_corners",
+"word": "cut corners",
+"pos": "idiom",
+"en": "to do something cheaply or carelessly"
+},
+{
+"id": "id_cut_from_the_same_cloth",
+"word": "cut from the same cloth",
+"pos": "idiom",
+"en": "very similar in character"
+},
+{
+"id": "id_cut_no_ice",
+"word": "cut no ice",
+"pos": "idiom",
+"en": "to have no effect or influence"
+},
+{
+"id": "id_cut_the_mustard",
+"word": "cut the mustard",
+"pos": "idiom",
+"en": "to meet the required standard"
+},
+{
+"id": "id_cut_to_the_chase",
+"word": "cut to the chase",
+"pos": "idiom",
+"en": "to get to the main point"
+},
+{
+"id": "id_cut_your_losses",
+"word": "cut your losses",
+"pos": "idiom",
+"en": "to stop before losing even more"
+},
+{
+"id": "id_cut_your_teeth_on",
+"word": "cut your teeth on",
+"pos": "idiom",
+"en": "to gain early experience from"
+},
+{
+"id": "id_the_cutting_edge",
+"word": "the cutting edge",
+"pos": "idiom",
+"en": "the most advanced stage of development"
+},
+{
+"id": "id_caught_between_two_stools",
+"word": "caught between two stools",
+"pos": "idiom",
+"en": "failing by trying to do two things at once"
+},
+{
+"id": "id_cheek_by_jowl",
+"word": "cheek by jowl",
+"pos": "idiom",
+"en": "very close together"
+},
+{
+"id": "id_child_s_play",
+"word": "child's play",
+"pos": "idiom",
+"en": "something very easy"
+},
+{
+"id": "id_a_chip_on_your_shoulder_2",
+"word": "a chip on your shoulder",
+"pos": "idiom",
+"en": "a defensive or resentful attitude"
+},
+{
+"id": "id_clear_cut",
+"word": "clear-cut",
+"pos": "idiom",
+"en": "obvious and definite"
+},
+{
+"id": "id_cloud_nine",
+"word": "cloud nine",
+"pos": "idiom",
+"en": "a state of extreme happiness"
+},
+{
+"id": "id_cold_hard_cash",
+"word": "cold hard cash",
+"pos": "idiom",
+"en": "physical money, not credit"
+},
+{
+"id": "id_cover_all_the_bases",
+"word": "cover all the bases",
+"pos": "idiom",
+"en": "to deal with every possibility"
+},
+{
+"id": "id_cross_the_line",
+"word": "cross the line",
+"pos": "idiom",
+"en": "to behave unacceptably"
+},
+{
+"id": "id_a_cut_above_the_rest",
+"word": "a cut above the rest",
+"pos": "idiom",
+"en": "clearly better than the others"
+},
+{
+"id": "id_a_damp_squib",
+"word": "a damp squib",
+"pos": "idiom",
+"en": "a disappointing failure after high hopes"
+},
+{
+"id": "id_dance_to_someone_s_tune",
+"word": "dance to someone's tune",
+"pos": "idiom",
+"en": "to do whatever someone wants"
+},
+{
+"id": "id_dead_as_a_doornail",
+"word": "dead as a doornail",
+"pos": "idiom",
+"en": "completely dead or finished"
+},
+{
+"id": "id_a_dead_end",
+"word": "a dead end",
+"pos": "idiom",
+"en": "a situation with no way forward"
+},
+{
+"id": "id_a_dead_heat",
+"word": "a dead heat",
+"pos": "idiom",
+"en": "a tie; a result too close to separate"
+},
+{
+"id": "id_dead_on_your_feet",
+"word": "dead on your feet",
+"pos": "idiom",
+"en": "extremely tired"
+},
+{
+"id": "id_a_dead_ringer",
+"word": "a dead ringer",
+"pos": "idiom",
+"en": "an exact lookalike"
+},
+{
+"id": "id_dead_to_the_world",
+"word": "dead to the world",
+"pos": "idiom",
+"en": "deeply asleep"
+},
+{
+"id": "id_deliver_the_goods",
+"word": "deliver the goods",
+"pos": "idiom",
+"en": "to produce what is expected"
+},
+{
+"id": "id_the_devil_is_in_the_detail",
+"word": "the devil is in the detail",
+"pos": "idiom",
+"en": "small details often cause problems"
+},
+{
+"id": "id_play_devil_s_advocate",
+"word": "play devil's advocate",
+"pos": "idiom",
+"en": "to argue the opposite side for discussion"
+},
+{
+"id": "id_better_the_devil_you_know",
+"word": "better the devil you know",
+"pos": "idiom",
+"en": "a familiar risk is safer than an unknown one"
+},
+{
+"id": "id_a_different_kettle_of_fish",
+"word": "a different kettle of fish",
+"pos": "idiom",
+"en": "a completely different matter"
+},
+{
+"id": "id_dig_deep",
+"word": "dig deep",
+"pos": "idiom",
+"en": "to make a great effort or give generously"
+},
+{
+"id": "id_dig_your_heels_in",
+"word": "dig your heels in",
+"pos": "idiom",
+"en": "to refuse firmly to change"
+},
+{
+"id": "id_dip_your_toe_in_the_water",
+"word": "dip your toe in the water",
+"pos": "idiom",
+"en": "to try something cautiously"
+},
+{
+"id": "id_dirt_cheap",
+"word": "dirt cheap",
+"pos": "idiom",
+"en": "extremely inexpensive"
+},
+{
+"id": "id_do_a_double_take",
+"word": "do a double take",
+"pos": "idiom",
+"en": "to look again in surprise"
+},
+{
+"id": "id_do_the_trick",
+"word": "do the trick",
+"pos": "idiom",
+"en": "to achieve the desired result"
+},
+{
+"id": "id_the_do_s_and_don_ts",
+"word": "the do's and don'ts",
+"pos": "idiom",
+"en": "the rules of what to do and avoid"
+},
+{
+"id": "id_dodge_a_bullet",
+"word": "dodge a bullet",
+"pos": "idiom",
+"en": "to narrowly avoid trouble"
+},
+{
+"id": "id_a_dog_eat_dog_world",
+"word": "a dog-eat-dog world",
+"pos": "idiom",
+"en": "a ruthlessly competitive environment"
+},
+{
+"id": "id_a_dog_s_dinner",
+"word": "a dog's dinner",
+"pos": "idiom",
+"en": "a mess (British)"
+},
+{
+"id": "id_a_dog_s_life",
+"word": "a dog's life",
+"pos": "idiom",
+"en": "a hard, unhappy life"
+},
+{
+"id": "id_dog_tired",
+"word": "dog-tired",
+"pos": "idiom",
+"en": "utterly exhausted"
+},
+{
+"id": "id_done_and_dusted",
+"word": "done and dusted",
+"pos": "idiom",
+"en": "completely finished"
+},
+{
+"id": "id_donkey_s_years",
+"word": "donkey's years",
+"pos": "idiom",
+"en": "a very long time"
+},
+{
+"id": "id_don_t_count_your_chickens_before_they_hatch",
+"word": "don't count your chickens before they hatch",
+"pos": "idiom",
+"en": "don't assume success too early"
+},
+{
+"id": "id_don_t_judge_a_book_by_its_cover",
+"word": "don't judge a book by its cover",
+"pos": "idiom",
+"en": "don't judge by appearance"
+},
+{
+"id": "id_don_t_look_a_gift_horse_in_the_mouth",
+"word": "don't look a gift horse in the mouth",
+"pos": "idiom",
+"en": "don't find fault with a gift"
+},
+{
+"id": "id_don_t_put_all_your_eggs_in_one_basket",
+"word": "don't put all your eggs in one basket",
+"pos": "idiom",
+"en": "don't risk everything on one thing"
+},
+{
+"id": "id_a_double_edged_sword",
+"word": "a double-edged sword",
+"pos": "idiom",
+"en": "something with both good and bad effects"
+},
+{
+"id": "id_a_double_whammy",
+"word": "a double whammy",
+"pos": "idiom",
+"en": "two bad things happening together"
+},
+{
+"id": "id_down_and_out",
+"word": "down and out",
+"pos": "idiom",
+"en": "having no money or prospects"
+},
+{
+"id": "id_down_in_the_dumps",
+"word": "down in the dumps",
+"pos": "idiom",
+"en": "feeling sad or depressed"
+},
+{
+"id": "id_down_the_drain",
+"word": "down the drain",
+"pos": "idiom",
+"en": "wasted"
+},
+{
+"id": "id_down_the_line",
+"word": "down the line",
+"pos": "idiom",
+"en": "at a later time"
+},
+{
+"id": "id_down_to_earth",
+"word": "down to earth",
+"pos": "idiom",
+"en": "practical and sensible"
+},
+{
+"id": "id_down_to_the_wire",
+"word": "down to the wire",
+"pos": "idiom",
+"en": "until the very last moment"
+},
+{
+"id": "id_drag_your_feet",
+"word": "drag your feet",
+"pos": "idiom",
+"en": "to delay doing something deliberately"
+},
+{
+"id": "id_draw_a_blank",
+"word": "draw a blank",
+"pos": "idiom",
+"en": "to fail to find or remember something"
+},
+{
+"id": "id_draw_straws",
+"word": "draw straws",
+"pos": "idiom",
+"en": "to choose by chance"
+},
+{
+"id": "id_draw_the_line",
+"word": "draw the line",
+"pos": "idiom",
+"en": "to set a limit on what is acceptable"
+},
+{
+"id": "id_dressed_to_kill",
+"word": "dressed to kill",
+"pos": "idiom",
+"en": "dressed very strikingly"
+},
+{
+"id": "id_dressed_to_the_nines",
+"word": "dressed to the nines",
+"pos": "idiom",
+"en": "dressed very smartly"
+},
+{
+"id": "id_drive_a_hard_bargain",
+"word": "drive a hard bargain",
+"pos": "idiom",
+"en": "to negotiate firmly for a good deal"
+},
+{
+"id": "id_drive_someone_up_the_wall",
+"word": "drive someone up the wall",
+"pos": "idiom",
+"en": "to annoy someone intensely"
+},
+{
+"id": "id_drop_like_flies",
+"word": "drop like flies",
+"pos": "idiom",
+"en": "to collapse or fail in large numbers"
+},
+{
+"id": "id_drop_someone_a_line",
+"word": "drop someone a line",
+"pos": "idiom",
+"en": "to send a short message"
+},
+{
+"id": "id_drop_the_ball",
+"word": "drop the ball",
+"pos": "idiom",
+"en": "to make a mistake or fail a duty"
+},
+{
+"id": "id_drown_your_sorrows",
+"word": "drown your sorrows",
+"pos": "idiom",
+"en": "to drink to forget your troubles"
+},
+{
+"id": "id_a_dry_run",
+"word": "a dry run",
+"pos": "idiom",
+"en": "a practice or rehearsal"
+},
+{
+"id": "id_dust_yourself_off",
+"word": "dust yourself off",
+"pos": "idiom",
+"en": "to recover from a setback"
+},
+{
+"id": "id_dyed_in_the_wool",
+"word": "dyed in the wool",
+"pos": "idiom",
+"en": "having fixed, unchangeable opinions"
+},
+{
+"id": "id_his_days_are_numbered",
+"word": "his days are numbered",
+"pos": "idiom",
+"en": "something or someone will not last long"
+},
+{
+"id": "id_drastic_times_call_for_drastic_measures",
+"word": "drastic times call for drastic measures",
+"pos": "idiom",
+"en": "extreme situations require extreme responses"
+},
+{
+"id": "id_an_eager_beaver",
+"word": "an eager beaver",
+"pos": "idiom",
+"en": "an enthusiastic, hard-working person"
+},
+{
+"id": "id_the_early_bird_catches_the_worm",
+"word": "the early bird catches the worm",
+"pos": "idiom",
+"en": "those who act early gain an advantage"
+},
+{
+"id": "id_easier_said_than_done",
+"word": "easier said than done",
+"pos": "idiom",
+"en": "harder to do than to suggest"
+},
+{
+"id": "id_easy_come_easy_go",
+"word": "easy come, easy go",
+"pos": "idiom",
+"en": "things gained easily are lost easily"
+},
+{
+"id": "id_easy_does_it",
+"word": "easy does it",
+"pos": "idiom",
+"en": "do it slowly and carefully"
+},
+{
+"id": "id_eat_humble_pie",
+"word": "eat humble pie",
+"pos": "idiom",
+"en": "to admit you were wrong and apologise"
+},
+{
+"id": "id_eat_like_a_bird",
+"word": "eat like a bird",
+"pos": "idiom",
+"en": "to eat very little"
+},
+{
+"id": "id_eat_like_a_horse",
+"word": "eat like a horse",
+"pos": "idiom",
+"en": "to eat a great deal"
+},
+{
+"id": "id_eat_your_heart_out",
+"word": "eat your heart out",
+"pos": "idiom",
+"en": "to feel great envy or longing"
+},
+{
+"id": "id_eat_your_words",
+"word": "eat your words",
+"pos": "idiom",
+"en": "to admit that what you said was wrong"
+},
+{
+"id": "id_elbow_grease",
+"word": "elbow grease",
+"pos": "idiom",
+"en": "hard physical effort"
+},
+{
+"id": "id_the_elephant_in_the_room",
+"word": "the elephant in the room",
+"pos": "idiom",
+"en": "an obvious problem no one will discuss"
+},
+{
+"id": "id_the_end_of_the_road",
+"word": "the end of the road",
+"pos": "idiom",
+"en": "the point where something must stop"
+},
+{
+"id": "id_on_an_even_keel",
+"word": "on an even keel",
+"pos": "idiom",
+"en": "steady and balanced"
+},
+{
+"id": "id_every_cloud_has_a_silver_lining",
+"word": "every cloud has a silver lining",
+"pos": "idiom",
+"en": "every difficulty has a positive side"
+},
+{
+"id": "id_every_dog_has_its_day",
+"word": "every dog has its day",
+"pos": "idiom",
+"en": "everyone gets a chance eventually"
+},
+{
+"id": "id_every_now_and_then",
+"word": "every now and then",
+"pos": "idiom",
+"en": "occasionally"
+},
+{
+"id": "id_every_trick_in_the_book",
+"word": "every trick in the book",
+"pos": "idiom",
+"en": "all possible methods"
+},
+{
+"id": "id_explore_every_avenue",
+"word": "explore every avenue",
+"pos": "idiom",
+"en": "to try every possibility"
+},
+{
+"id": "id_an_eye_for_an_eye",
+"word": "an eye for an eye",
+"pos": "idiom",
+"en": "revenge of the same kind as the injury"
+},
+{
+"id": "id_eyeball_to_eyeball",
+"word": "eyeball to eyeball",
+"pos": "idiom",
+"en": "in direct, tense confrontation"
+},
+{
+"id": "id_eyes_bigger_than_your_stomach",
+"word": "eyes bigger than your stomach",
+"pos": "idiom",
+"en": "to take more food than you can eat"
+},
+{
+"id": "id_have_eyes_in_the_back_of_your_head",
+"word": "have eyes in the back of your head",
+"pos": "idiom",
+"en": "to be aware of everything around you"
+},
+{
+"id": "id_see_eye_to_eye",
+"word": "see eye to eye",
+"pos": "idiom",
+"en": "to agree completely"
+},
+{
+"id": "id_end_in_tears",
+"word": "end in tears",
+"pos": "idiom",
+"en": "to finish badly"
+},
+{
+"id": "id_enough_on_your_plate",
+"word": "enough on your plate",
+"pos": "idiom",
+"en": "as much to deal with as you can manage"
+},
+{
+"id": "id_err_on_the_side_of_caution",
+"word": "err on the side of caution",
+"pos": "idiom",
+"en": "to choose the safer, more careful option"
+},
+{
+"id": "id_every_man_for_himself",
+"word": "every man for himself",
+"pos": "idiom",
+"en": "each person must look after themselves"
+},
+{
+"id": "id_the_exception_that_proves_the_rule",
+"word": "the exception that proves the rule",
+"pos": "idiom",
+"en": "an unusual case that highlights the norm"
+},
+{
+"id": "id_on_the_edge_of_your_seat",
+"word": "on the edge of your seat",
+"pos": "idiom",
+"en": "very excited or anxious to know what happens"
+},
+{
+"id": "id_keep_an_eye_out",
+"word": "keep an eye out",
+"pos": "idiom",
+"en": "to stay alert for something"
+},
+{
+"id": "id_cost_the_earth",
+"word": "cost the earth",
+"pos": "idiom",
+"en": "to be extremely expensive"
+},
+{
+"id": "id_down_to_a_fine_art",
+"word": "down to a fine art",
+"pos": "idiom",
+"en": "done so often it is now perfected"
+},
+{
+"id": "id_drive_a_wedge_between",
+"word": "drive a wedge between",
+"pos": "idiom",
+"en": "to cause division between people"
+},
+{
+"id": "id_draw_to_a_close",
+"word": "draw to a close",
+"pos": "idiom",
+"en": "to come to an end"
+},
+{
+"id": "id_dead_and_buried",
+"word": "dead and buried",
+"pos": "idiom",
+"en": "completely finished and forgotten"
+},
+{
+"id": "id_devil_may_care",
+"word": "devil-may-care",
+"pos": "idiom",
+"en": "carefree and reckless"
+},
+{
+"id": "id_dot_the_i_s_and_cross_the_t_s",
+"word": "dot the i's and cross the t's",
+"pos": "idiom",
+"en": "to attend to every small detail"
+},
+{
+"id": "id_early_days",
+"word": "early days",
+"pos": "idiom",
+"en": "too soon to judge the outcome"
+},
+{
+"id": "id_face_the_music",
+"word": "face the music",
+"pos": "idiom",
+"en": "to accept the consequences of one's actions"
+},
+{
+"id": "id_fair_and_square",
+"word": "fair and square",
+"pos": "idiom",
+"en": "honestly and according to the rules"
+},
+{
+"id": "id_a_fair_weather_friend",
+"word": "a fair-weather friend",
+"pos": "idiom",
+"en": "a friend only in good times"
+},
+{
+"id": "id_fall_from_grace",
+"word": "fall from grace",
+"pos": "idiom",
+"en": "to lose status or favour"
+},
+{
+"id": "id_fall_on_deaf_ears",
+"word": "fall on deaf ears",
+"pos": "idiom",
+"en": "to be ignored"
+},
+{
+"id": "id_fall_through_the_cracks",
+"word": "fall through the cracks",
+"pos": "idiom",
+"en": "to be overlooked or neglected"
+},
+{
+"id": "id_far_fetched",
+"word": "far-fetched",
+"pos": "idiom",
+"en": "hard to believe; unlikely"
+},
+{
+"id": "id_feather_your_nest",
+"word": "feather your nest",
+"pos": "idiom",
+"en": "to enrich yourself, often improperly"
+},
+{
+"id": "id_feel_under_the_weather",
+"word": "feel under the weather",
+"pos": "idiom",
+"en": "to feel slightly unwell"
+},
+{
+"id": "id_few_and_far_between",
+"word": "few and far between",
+"pos": "idiom",
+"en": "rare"
+},
+{
+"id": "id_a_fifth_wheel",
+"word": "a fifth wheel",
+"pos": "idiom",
+"en": "an unnecessary, unwanted person"
+},
+{
+"id": "id_fight_fire_with_fire",
+"word": "fight fire with fire",
+"pos": "idiom",
+"en": "to respond using the opponent's methods"
+},
+{
+"id": "id_fight_tooth_and_nail",
+"word": "fight tooth and nail",
+"pos": "idiom",
+"en": "to fight with great determination"
+},
+{
+"id": "id_find_your_feet",
+"word": "find your feet",
+"pos": "idiom",
+"en": "to become comfortable in a new situation"
+},
+{
+"id": "id_go_over_with_a_fine_tooth_comb",
+"word": "go over with a fine-tooth comb",
+"pos": "idiom",
+"en": "to examine very thoroughly"
+},
+{
+"id": "id_first_and_foremost",
+"word": "first and foremost",
+"pos": "idiom",
+"en": "most importantly; above all"
+},
+{
+"id": "id_fish_for_compliments",
+"word": "fish for compliments",
+"pos": "idiom",
+"en": "to try to make people praise you"
+},
+{
+"id": "id_fit_the_bill",
+"word": "fit the bill",
+"pos": "idiom",
+"en": "to be exactly what is needed"
+},
+{
+"id": "id_a_flash_in_the_pan",
+"word": "a flash in the pan",
+"pos": "idiom",
+"en": "a brief success that is not repeated"
+},
+{
+"id": "id_flesh_and_blood",
+"word": "flesh and blood",
+"pos": "idiom",
+"en": "one's own relatives; human nature"
+},
+{
+"id": "id_flog_a_dead_horse",
+"word": "flog a dead horse",
+"pos": "idiom",
+"en": "to waste effort on a hopeless cause"
+},
+{
+"id": "id_fly_off_the_handle",
+"word": "fly off the handle",
+"pos": "idiom",
+"en": "to lose one's temper suddenly"
+},
+{
+"id": "id_a_fly_on_the_wall",
+"word": "a fly on the wall",
+"pos": "idiom",
+"en": "an unseen observer"
+},
+{
+"id": "id_follow_suit",
+"word": "follow suit",
+"pos": "idiom",
+"en": "to do the same as someone else"
+},
+{
+"id": "id_food_for_thought",
+"word": "food for thought",
+"pos": "idiom",
+"en": "something worth thinking about"
+},
+{
+"id": "id_a_fool_s_errand",
+"word": "a fool's errand",
+"pos": "idiom",
+"en": "a pointless task"
+},
+{
+"id": "id_foot_the_bill",
+"word": "foot the bill",
+"pos": "idiom",
+"en": "to pay for something"
+},
+{
+"id": "id_for_the_birds",
+"word": "for the birds",
+"pos": "idiom",
+"en": "worthless or trivial"
+},
+{
+"id": "id_forbidden_fruit",
+"word": "forbidden fruit",
+"pos": "idiom",
+"en": "something desirable because it is not allowed"
+},
+{
+"id": "id_force_of_habit",
+"word": "force of habit",
+"pos": "idiom",
+"en": "something done automatically from routine"
+},
+{
+"id": "id_a_foregone_conclusion",
+"word": "a foregone conclusion",
+"pos": "idiom",
+"en": "a result that is certain in advance"
+},
+{
+"id": "id_forty_winks",
+"word": "forty winks",
+"pos": "idiom",
+"en": "a short nap"
+},
+{
+"id": "id_fresh_as_a_daisy",
+"word": "fresh as a daisy",
+"pos": "idiom",
+"en": "full of energy and alert"
+},
+{
+"id": "id_from_rags_to_riches",
+"word": "from rags to riches",
+"pos": "idiom",
+"en": "from poverty to great wealth"
+},
+{
+"id": "id_from_scratch",
+"word": "from scratch",
+"pos": "idiom",
+"en": "from the very beginning"
+},
+{
+"id": "id_from_the_bottom_of_your_heart",
+"word": "from the bottom of your heart",
+"pos": "idiom",
+"en": "with deep sincerity"
+},
+{
+"id": "id_straight_from_the_horse_s_mouth",
+"word": "straight from the horse's mouth",
+"pos": "idiom",
+"en": "from the original, reliable source"
+},
+{
+"id": "id_from_the_word_go",
+"word": "from the word go",
+"pos": "idiom",
+"en": "from the very start"
+},
+{
+"id": "id_full_of_beans",
+"word": "full of beans",
+"pos": "idiom",
+"en": "lively and energetic"
+},
+{
+"id": "id_full_steam_ahead",
+"word": "full steam ahead",
+"pos": "idiom",
+"en": "with maximum energy and commitment"
+},
+{
+"id": "id_the_gift_of_the_gab",
+"word": "the gift of the gab",
+"pos": "idiom",
+"en": "the ability to talk easily and persuasively"
+},
+{
+"id": "id_a_game_plan",
+"word": "a game plan",
+"pos": "idiom",
+"en": "a strategy for achieving a goal"
+},
+{
+"id": "id_get_a_grip",
+"word": "get a grip",
+"pos": "idiom",
+"en": "to take control of one's emotions"
+},
+{
+"id": "id_get_a_kick_out_of",
+"word": "get a kick out of",
+"pos": "idiom",
+"en": "to enjoy greatly"
+},
+{
+"id": "id_get_down_to_brass_tacks",
+"word": "get down to brass tacks",
+"pos": "idiom",
+"en": "to focus on the essential details"
+},
+{
+"id": "id_get_off_on_the_wrong_foot",
+"word": "get off on the wrong foot",
+"pos": "idiom",
+"en": "to begin badly"
+},
+{
+"id": "id_get_off_scot_free",
+"word": "get off scot-free",
+"pos": "idiom",
+"en": "to escape without punishment"
+},
+{
+"id": "id_get_out_of_hand",
+"word": "get out of hand",
+"pos": "idiom",
+"en": "to become uncontrollable"
+},
+{
+"id": "id_get_the_ball_rolling",
+"word": "get the ball rolling",
+"pos": "idiom",
+"en": "to start something"
+},
+{
+"id": "id_get_the_green_light",
+"word": "get the green light",
+"pos": "idiom",
+"en": "to get permission to proceed"
+},
+{
+"id": "id_get_the_hang_of",
+"word": "get the hang of",
+"pos": "idiom",
+"en": "to learn how to do something"
+},
+{
+"id": "id_get_the_picture",
+"word": "get the picture",
+"pos": "idiom",
+"en": "to understand the situation"
+},
+{
+"id": "id_get_the_short_end_of_the_stick",
+"word": "get the short end of the stick",
+"pos": "idiom",
+"en": "to receive the worse part of a deal"
+},
+{
+"id": "id_get_the_show_on_the_road",
+"word": "get the show on the road",
+"pos": "idiom",
+"en": "to begin an activity"
+},
+{
+"id": "id_get_to_the_bottom_of",
+"word": "get to the bottom of",
+"pos": "idiom",
+"en": "to find the true cause of"
+},
+{
+"id": "id_get_your_act_together",
+"word": "get your act together",
+"pos": "idiom",
+"en": "to organise yourself and perform better"
+},
+{
+"id": "id_get_your_foot_in_the_door",
+"word": "get your foot in the door",
+"pos": "idiom",
+"en": "to gain an initial entry or opportunity"
+},
+{
+"id": "id_get_wind_of",
+"word": "get wind of",
+"pos": "idiom",
+"en": "to hear a rumour of something"
+},
+{
+"id": "id_give_it_a_shot",
+"word": "give it a shot",
+"pos": "idiom",
+"en": "to make an attempt"
+},
+{
+"id": "id_give_someone_the_benefit_of_the_doubt",
+"word": "give someone the benefit of the doubt",
+"pos": "idiom",
+"en": "to trust someone despite uncertainty"
+},
+{
+"id": "id_go_against_the_grain",
+"word": "go against the grain",
+"pos": "idiom",
+"en": "to conflict with one's instincts"
+},
+{
+"id": "id_go_belly_up",
+"word": "go belly up",
+"pos": "idiom",
+"en": "(of a business) to fail"
+},
+{
+"id": "id_go_down_in_flames",
+"word": "go down in flames",
+"pos": "idiom",
+"en": "to fail dramatically"
+},
+{
+"id": "id_go_down_like_a_lead_balloon",
+"word": "go down like a lead balloon",
+"pos": "idiom",
+"en": "to be very badly received"
+},
+{
+"id": "id_go_dutch",
+"word": "go Dutch",
+"pos": "idiom",
+"en": "to split the cost equally"
+},
+{
+"id": "id_go_off_the_rails",
+"word": "go off the rails",
+"pos": "idiom",
+"en": "to lose control or behave badly"
+},
+{
+"id": "id_go_out_on_a_limb",
+"word": "go out on a limb",
+"pos": "idiom",
+"en": "to take a risk or an exposed position"
+},
+{
+"id": "id_go_overboard",
+"word": "go overboard",
+"pos": "idiom",
+"en": "to do something to excess"
+},
+{
+"id": "id_go_the_extra_mile",
+"word": "go the extra mile",
+"pos": "idiom",
+"en": "to make a special effort"
+},
+{
+"id": "id_go_to_pieces",
+"word": "go to pieces",
+"pos": "idiom",
+"en": "to lose emotional control"
+},
+{
+"id": "id_go_with_the_flow",
+"word": "go with the flow",
+"pos": "idiom",
+"en": "to accept events as they happen"
+},
+{
+"id": "id_it_goes_without_saying",
+"word": "it goes without saying",
+"pos": "idiom",
+"en": "it is obvious"
+},
+{
+"id": "id_grasp_at_straws",
+"word": "grasp at straws",
+"pos": "idiom",
+"en": "to try anything in desperation"
+},
+{
+"id": "id_green_with_envy",
+"word": "green with envy",
+"pos": "idiom",
+"en": "very jealous"
+},
+{
+"id": "id_the_grass_is_always_greener",
+"word": "the grass is always greener",
+"pos": "idiom",
+"en": "others' situations seem better than yours"
+},
+{
+"id": "id_grin_and_bear_it",
+"word": "grin and bear it",
+"pos": "idiom",
+"en": "to endure something unpleasant without complaint"
+},
+{
+"id": "id_grist_to_the_mill",
+"word": "grist to the mill",
+"pos": "idiom",
+"en": "useful material or experience"
+},
+{
+"id": "id_a_grey_area",
+"word": "a grey area",
+"pos": "idiom",
+"en": "a situation where rules are unclear"
+},
+{
+"id": "id_give_someone_a_run_for_their_money",
+"word": "give someone a run for their money",
+"pos": "idiom",
+"en": "to compete strongly against someone"
+},
+{
+"id": "id_get_a_word_in_edgeways",
+"word": "get a word in edgeways",
+"pos": "idiom",
+"en": "to manage to speak in a conversation"
+},
+{
+"id": "id_give_the_game_away",
+"word": "give the game away",
+"pos": "idiom",
+"en": "to reveal a secret unintentionally"
+},
+{
+"id": "id_get_something_off_your_chest",
+"word": "get something off your chest",
+"pos": "idiom",
+"en": "to talk about something that worries you"
+},
+{
+"id": "id_go_back_a_long_way",
+"word": "go back a long way",
+"pos": "idiom",
+"en": "to have known each other for years"
+},
+{
+"id": "id_go_from_strength_to_strength",
+"word": "go from strength to strength",
+"pos": "idiom",
+"en": "to become more and more successful"
+},
+{
+"id": "id_go_pear_shaped",
+"word": "go pear-shaped",
+"pos": "idiom",
+"en": "to go wrong (British)"
+},
+{
+"id": "id_get_your_money_s_worth",
+"word": "get your money's worth",
+"pos": "idiom",
+"en": "to receive good value"
+},
+{
+"id": "id_give_and_take",
+"word": "give and take",
+"pos": "idiom",
+"en": "mutual compromise"
+},
+{
+"id": "id_a_gentleman_s_agreement",
+"word": "a gentleman's agreement",
+"pos": "idiom",
+"en": "an informal agreement based on trust"
+},
+{
+"id": "id_good_things_come_to_those_who_wait",
+"word": "good things come to those who wait",
+"pos": "idiom",
+"en": "patience is rewarded"
+},
+{
+"id": "id_get_the_wrong_end_of_the_stick",
+"word": "get the wrong end of the stick",
+"pos": "idiom",
+"en": "to misunderstand something"
+},
+{
+"id": "id_go_the_whole_hog",
+"word": "go the whole hog",
+"pos": "idiom",
+"en": "to do something completely"
+},
+{
+"id": "id_give_someone_the_runaround",
+"word": "give someone the runaround",
+"pos": "idiom",
+"en": "to deceive or evade someone with delays"
+},
+{
+"id": "id_a_ghost_of_a_chance",
+"word": "a ghost of a chance",
+"pos": "idiom",
+"en": "a very slight chance"
+},
+{
+"id": "id_get_carried_away",
+"word": "get carried away",
+"pos": "idiom",
+"en": "to become too excited or enthusiastic"
+},
+{
+"id": "id_go_all_out",
+"word": "go all out",
+"pos": "idiom",
+"en": "to make a maximum effort"
+},
+{
+"id": "id_hands_down",
+"word": "hands down",
+"pos": "idiom",
+"en": "easily; without doubt"
+},
+{
+"id": "id_my_hands_are_tied",
+"word": "my hands are tied",
+"pos": "idiom",
+"en": "unable to act freely"
+},
+{
+"id": "id_hang_by_a_thread",
+"word": "hang by a thread",
+"pos": "idiom",
+"en": "to be in a very precarious state"
+},
+{
+"id": "id_hang_in_there",
+"word": "hang in there",
+"pos": "idiom",
+"en": "to persevere through difficulty"
+},
+{
+"id": "id_hang_someone_out_to_dry",
+"word": "hang someone out to dry",
+"pos": "idiom",
+"en": "to abandon someone in trouble"
+},
+{
+"id": "id_happy_as_a_clam",
+"word": "happy as a clam",
+"pos": "idiom",
+"en": "very happy and content"
+},
+{
+"id": "id_hard_and_fast",
+"word": "hard and fast",
+"pos": "idiom",
+"en": "(of rules) strict and unchangeable"
+},
+{
+"id": "id_haste_makes_waste",
+"word": "haste makes waste",
+"pos": "idiom",
+"en": "rushing leads to mistakes"
+},
+{
+"id": "id_have_a_ball",
+"word": "have a ball",
+"pos": "idiom",
+"en": "to have a great time"
+},
+{
+"id": "id_have_a_heart_of_gold",
+"word": "have a heart of gold",
+"pos": "idiom",
+"en": "to be very kind and generous"
+},
+{
+"id": "id_have_a_lot_on_your_plate",
+"word": "have a lot on your plate",
+"pos": "idiom",
+"en": "to have a lot to deal with"
+},
+{
+"id": "id_have_a_soft_spot_for",
+"word": "have a soft spot for",
+"pos": "idiom",
+"en": "to feel special affection for"
+},
+{
+"id": "id_have_an_ace_up_your_sleeve",
+"word": "have an ace up your sleeve",
+"pos": "idiom",
+"en": "to have a secret advantage"
+},
+{
+"id": "id_have_your_cake_and_eat_it",
+"word": "have your cake and eat it",
+"pos": "idiom",
+"en": "to want two desirable but incompatible things"
+},
+{
+"id": "id_have_your_hands_full",
+"word": "have your hands full",
+"pos": "idiom",
+"en": "to be very busy"
+},
+{
+"id": "id_head_and_shoulders_above",
+"word": "head and shoulders above",
+"pos": "idiom",
+"en": "far superior to"
+},
+{
+"id": "id_have_your_head_in_the_clouds",
+"word": "have your head in the clouds",
+"pos": "idiom",
+"en": "to be unrealistic or daydreaming"
+},
+{
+"id": "id_head_over_heels",
+"word": "head over heels",
+"pos": "idiom",
+"en": "deeply in love"
+},
+{
+"id": "id_a_head_start",
+"word": "a head start",
+"pos": "idiom",
+"en": "an advantage gained by starting early"
+},
+{
+"id": "id_hear_it_on_the_grapevine",
+"word": "hear it on the grapevine",
+"pos": "idiom",
+"en": "to hear news through rumour"
+},
+{
+"id": "id_hedge_your_bets",
+"word": "hedge your bets",
+"pos": "idiom",
+"en": "to reduce risk by supporting more than one option"
+},
+{
+"id": "id_hell_bent_on",
+"word": "hell-bent on",
+"pos": "idiom",
+"en": "utterly determined to do something"
+},
+{
+"id": "id_high_and_dry",
+"word": "high and dry",
+"pos": "idiom",
+"en": "stranded without help"
+},
+{
+"id": "id_hit_a_nerve",
+"word": "hit a nerve",
+"pos": "idiom",
+"en": "to touch on a sensitive subject"
+},
+{
+"id": "id_hit_and_miss",
+"word": "hit and miss",
+"pos": "idiom",
+"en": "sometimes good, sometimes bad"
+},
+{
+"id": "id_hit_it_off",
+"word": "hit it off",
+"pos": "idiom",
+"en": "to get on well immediately"
+},
+{
+"id": "id_hit_the_books",
+"word": "hit the books",
+"pos": "idiom",
+"en": "to study hard"
+},
+{
+"id": "id_hit_the_ceiling",
+"word": "hit the ceiling",
+"pos": "idiom",
+"en": "to become very angry"
+},
+{
+"id": "id_hit_the_ground_running",
+"word": "hit the ground running",
+"pos": "idiom",
+"en": "to start a task with great energy"
+},
+{
+"id": "id_hit_the_hay",
+"word": "hit the hay",
+"pos": "idiom",
+"en": "to go to bed"
+},
+{
+"id": "id_hit_the_jackpot",
+"word": "hit the jackpot",
+"pos": "idiom",
+"en": "to have great, often sudden, success"
+},
+{
+"id": "id_hit_the_nail_on_the_head",
+"word": "hit the nail on the head",
+"pos": "idiom",
+"en": "to describe something exactly right"
+},
+{
+"id": "id_hit_the_road",
+"word": "hit the road",
+"pos": "idiom",
+"en": "to leave or set off on a journey"
+},
+{
+"id": "id_hit_the_sack",
+"word": "hit the sack",
+"pos": "idiom",
+"en": "to go to bed"
+},
+{
+"id": "id_hit_the_wall",
+"word": "hit the wall",
+"pos": "idiom",
+"en": "to reach the limit of one's endurance"
+},
+{
+"id": "id_hold_all_the_cards",
+"word": "hold all the cards",
+"pos": "idiom",
+"en": "to have all the advantages"
+},
+{
+"id": "id_hold_the_fort",
+"word": "hold the fort",
+"pos": "idiom",
+"en": "to take charge while someone is away"
+},
+{
+"id": "id_hold_your_horses",
+"word": "hold your horses",
+"pos": "idiom",
+"en": "to wait; to be patient"
+},
+{
+"id": "id_hold_your_tongue",
+"word": "hold your tongue",
+"pos": "idiom",
+"en": "to stay silent"
+},
+{
+"id": "id_hook_line_and_sinker",
+"word": "hook, line and sinker",
+"pos": "idiom",
+"en": "completely (deceived)"
+},
+{
+"id": "id_a_horse_of_a_different_colour",
+"word": "a horse of a different colour",
+"pos": "idiom",
+"en": "a completely separate matter"
+},
+{
+"id": "id_how_the_land_lies",
+"word": "how the land lies",
+"pos": "idiom",
+"en": "how the situation currently stands"
+},
+{
+"id": "id_the_icing_on_the_cake",
+"word": "the icing on the cake",
+"pos": "idiom",
+"en": "an extra benefit on top of something good"
+},
+{
+"id": "id_if_the_shoe_fits_wear_it",
+"word": "if the shoe fits, wear it",
+"pos": "idiom",
+"en": "accept criticism that applies to you"
+},
+{
+"id": "id_if_worst_comes_to_worst",
+"word": "if worst comes to worst",
+"pos": "idiom",
+"en": "in the worst possible case"
+},
+{
+"id": "id_in_a_flash",
+"word": "in a flash",
+"pos": "idiom",
+"en": "very quickly"
+},
+{
+"id": "id_in_a_league_of_your_own",
+"word": "in a league of your own",
+"pos": "idiom",
+"en": "far better than everyone else"
+},
+{
+"id": "id_in_a_nutshell",
+"word": "in a nutshell",
+"pos": "idiom",
+"en": "in brief; summed up"
+},
+{
+"id": "id_in_a_pickle",
+"word": "in a pickle",
+"pos": "idiom",
+"en": "in a difficult situation"
+},
+{
+"id": "id_in_black_and_white",
+"word": "in black and white",
+"pos": "idiom",
+"en": "in writing; clearly stated"
+},
+{
+"id": "id_in_cold_blood",
+"word": "in cold blood",
+"pos": "idiom",
+"en": "cruelly and without emotion"
+},
+{
+"id": "id_in_deep_water",
+"word": "in deep water",
+"pos": "idiom",
+"en": "in serious trouble"
+},
+{
+"id": "id_in_full_swing",
+"word": "in full swing",
+"pos": "idiom",
+"en": "at the height of activity"
+},
+{
+"id": "id_in_hot_water",
+"word": "in hot water",
+"pos": "idiom",
+"en": "in trouble"
+},
+{
+"id": "id_in_over_your_head",
+"word": "in over your head",
+"pos": "idiom",
+"en": "in a situation too difficult to manage"
+},
+{
+"id": "id_in_seventh_heaven",
+"word": "in seventh heaven",
+"pos": "idiom",
+"en": "extremely happy"
+},
+{
+"id": "id_in_the_bag",
+"word": "in the bag",
+"pos": "idiom",
+"en": "certain to be achieved"
+},
+{
+"id": "id_in_the_balance",
+"word": "in the balance",
+"pos": "idiom",
+"en": "uncertain; undecided"
+},
+{
+"id": "id_in_the_black",
+"word": "in the black",
+"pos": "idiom",
+"en": "making a profit; not in debt"
+},
+{
+"id": "id_in_the_dark",
+"word": "in the dark",
+"pos": "idiom",
+"en": "unaware; uninformed"
+},
+{
+"id": "id_in_the_doghouse",
+"word": "in the doghouse",
+"pos": "idiom",
+"en": "in disgrace or disfavour"
+},
+{
+"id": "id_in_the_driver_s_seat",
+"word": "in the driver's seat",
+"pos": "idiom",
+"en": "in control of a situation"
+},
+{
+"id": "id_in_the_heat_of_the_moment",
+"word": "in the heat of the moment",
+"pos": "idiom",
+"en": "while feeling strong emotion"
+},
+{
+"id": "id_in_the_know",
+"word": "in the know",
+"pos": "idiom",
+"en": "having inside information"
+},
+{
+"id": "id_in_the_long_run",
+"word": "in the long run",
+"pos": "idiom",
+"en": "over a long period of time"
+},
+{
+"id": "id_in_the_nick_of_time",
+"word": "in the nick of time",
+"pos": "idiom",
+"en": "just in time, at the last moment"
+},
+{
+"id": "id_in_the_pipeline",
+"word": "in the pipeline",
+"pos": "idiom",
+"en": "being planned or developed"
+},
+{
+"id": "id_in_the_red",
+"word": "in the red",
+"pos": "idiom",
+"en": "in debt; losing money"
+},
+{
+"id": "id_in_the_same_boat",
+"word": "in the same boat",
+"pos": "idiom",
+"en": "in the same difficult situation"
+},
+{
+"id": "id_in_the_spotlight",
+"word": "in the spotlight",
+"pos": "idiom",
+"en": "receiving a lot of public attention"
+},
+{
+"id": "id_in_the_swing_of_things",
+"word": "in the swing of things",
+"pos": "idiom",
+"en": "comfortable with an activity or routine"
+},
+{
+"id": "id_in_two_minds",
+"word": "in two minds",
+"pos": "idiom",
+"en": "unable to decide"
+},
+{
+"id": "id_in_your_element",
+"word": "in your element",
+"pos": "idiom",
+"en": "doing what you enjoy and do well"
+},
+{
+"id": "id_the_ins_and_outs",
+"word": "the ins and outs",
+"pos": "idiom",
+"en": "the precise details of something"
+},
+{
+"id": "id_iron_out_the_kinks",
+"word": "iron out the kinks",
+"pos": "idiom",
+"en": "to resolve small problems"
+},
+{
+"id": "id_it_takes_two_to_tango",
+"word": "it takes two to tango",
+"pos": "idiom",
+"en": "both people share the responsibility"
+},
+{
+"id": "id_it_s_not_rocket_science",
+"word": "it's not rocket science",
+"pos": "idiom",
+"en": "it is not difficult to understand"
+},
+{
+"id": "id_itchy_feet",
+"word": "itchy feet",
+"pos": "idiom",
+"en": "a strong desire to travel or move on"
+},
+{
+"id": "id_have_a_whale_of_a_time",
+"word": "have a whale of a time",
+"pos": "idiom",
+"en": "to enjoy oneself enormously"
+},
+{
+"id": "id_hang_on_every_word",
+"word": "hang on every word",
+"pos": "idiom",
+"en": "to listen with total attention"
+},
+{
+"id": "id_have_second_thoughts",
+"word": "have second thoughts",
+"pos": "idiom",
+"en": "to begin to doubt a decision"
+},
+{
+"id": "id_have_your_work_cut_out",
+"word": "have your work cut out",
+"pos": "idiom",
+"en": "to face a difficult task"
+},
+{
+"id": "id_head_for_the_hills",
+"word": "head for the hills",
+"pos": "idiom",
+"en": "to flee from danger"
+},
+{
+"id": "id_hold_water",
+"word": "hold water",
+"pos": "idiom",
+"en": "(of an argument) to seem valid"
+},
+{
+"id": "id_hot_on_the_heels_of",
+"word": "hot on the heels of",
+"pos": "idiom",
+"en": "following very closely after"
+},
+{
+"id": "id_handle_with_kid_gloves",
+"word": "handle with kid gloves",
+"pos": "idiom",
+"en": "to treat very gently or carefully"
+},
+{
+"id": "id_have_a_field_day",
+"word": "have a field day",
+"pos": "idiom",
+"en": "to take full, gleeful advantage of a chance"
+},
+{
+"id": "id_hard_to_swallow",
+"word": "hard to swallow",
+"pos": "idiom",
+"en": "difficult to believe or accept"
+},
+{
+"id": "id_hang_up_your_boots",
+"word": "hang up your boots",
+"pos": "idiom",
+"en": "to retire"
+},
+{
+"id": "id_keep_your_head_above_water",
+"word": "keep your head above water",
+"pos": "idiom",
+"en": "to manage to survive, especially financially"
+},
+{
+"id": "id_high_time",
+"word": "high time",
+"pos": "idiom",
+"en": "the right time, or past it"
+},
+{
+"id": "id_hit_home",
+"word": "hit home",
+"pos": "idiom",
+"en": "to have a strong, personal effect"
+},
+{
+"id": "id_in_a_bind",
+"word": "in a bind",
+"pos": "idiom",
+"en": "in a difficult situation"
+},
+{
+"id": "id_in_the_fast_lane",
+"word": "in the fast lane",
+"pos": "idiom",
+"en": "living an exciting, high-pressure life"
+},
+{
+"id": "id_in_the_lap_of_luxury",
+"word": "in the lap of luxury",
+"pos": "idiom",
+"en": "in very comfortable, rich surroundings"
+},
+{
+"id": "id_in_the_thick_of_it",
+"word": "in the thick of it",
+"pos": "idiom",
+"en": "deeply involved in a busy situation"
+},
+{
+"id": "id_in_your_face",
+"word": "in your face",
+"pos": "idiom",
+"en": "aggressive and hard to ignore"
+},
+{
+"id": "id_it_rings_a_bell",
+"word": "it rings a bell",
+"pos": "idiom",
+"en": "it sounds familiar"
+},
+{
+"id": "id_it_s_a_small_world",
+"word": "it's a small world",
+"pos": "idiom",
+"en": "said on an unexpected connection"
+},
+{
+"id": "id_in_the_same_vein",
+"word": "in the same vein",
+"pos": "idiom",
+"en": "in a similar manner or style"
+},
+{
+"id": "id_jack_of_all_trades",
+"word": "jack of all trades",
+"pos": "idiom",
+"en": "a person who can do many different jobs"
+},
+{
+"id": "id_jewel_in_the_crown",
+"word": "jewel in the crown",
+"pos": "idiom",
+"en": "the most valuable or impressive part of something"
+},
+{
+"id": "id_jockey_for_position",
+"word": "jockey for position",
+"pos": "idiom",
+"en": "compete with others to gain an advantage"
+},
+{
+"id": "id_jog_someone_s_memory",
+"word": "jog someone's memory",
+"pos": "idiom",
+"en": "help someone remember something"
+},
+{
+"id": "id_join_forces",
+"word": "join forces",
+"pos": "idiom",
+"en": "work together to achieve a shared aim"
+},
+{
+"id": "id_join_the_club",
+"word": "join the club",
+"pos": "idiom",
+"en": "said to show you share someone's bad experience"
+},
+{
+"id": "id_jump_at_the_chance",
+"word": "jump at the chance",
+"pos": "idiom",
+"en": "accept an opportunity eagerly"
+},
+{
+"id": "id_jump_in_at_the_deep_end",
+"word": "jump in at the deep end",
+"pos": "idiom",
+"en": "start something difficult with no help or preparation"
+},
+{
+"id": "id_jump_on_the_bandwagon",
+"word": "jump on the bandwagon",
+"pos": "idiom",
+"en": "join something popular, often for your own advantage"
+},
+{
+"id": "id_jump_ship",
+"word": "jump ship",
+"pos": "idiom",
+"en": "leave an organisation suddenly, often to join a rival"
+},
+{
+"id": "id_jump_the_gun",
+"word": "jump the gun",
+"pos": "idiom",
+"en": "do something too soon, before the right time"
+},
+{
+"id": "id_jump_the_queue",
+"word": "jump the queue",
+"pos": "idiom",
+"en": "go ahead of people who have been waiting longer"
+},
+{
+"id": "id_jump_through_hoops",
+"word": "jump through hoops",
+"pos": "idiom",
+"en": "do many difficult things in order to get something"
+},
+{
+"id": "id_jump_to_conclusions",
+"word": "jump to conclusions",
+"pos": "idiom",
+"en": "decide something too quickly, without knowing all the facts"
+},
+{
+"id": "id_just_around_the_corner",
+"word": "just around the corner",
+"pos": "idiom",
+"en": "going to happen very soon"
+},
+{
+"id": "id_just_what_the_doctor_ordered",
+"word": "just what the doctor ordered",
+"pos": "idiom",
+"en": "exactly what was needed"
+},
+{
+"id": "id_keep_a_lid_on_something",
+"word": "keep a lid on something",
+"pos": "idiom",
+"en": "control something to stop it increasing or becoming known"
+},
+{
+"id": "id_keep_a_low_profile",
+"word": "keep a low profile",
+"pos": "idiom",
+"en": "avoid attracting attention"
+},
+{
+"id": "id_keep_a_straight_face",
+"word": "keep a straight face",
+"pos": "idiom",
+"en": "manage not to laugh"
+},
+{
+"id": "id_keep_abreast_of_something",
+"word": "keep abreast of something",
+"pos": "idiom",
+"en": "stay informed about the latest developments"
+},
+{
+"id": "id_keep_pace_with",
+"word": "keep pace with",
+"pos": "idiom",
+"en": "develop or change at the same speed as"
+},
+{
+"id": "id_keep_someone_in_the_loop",
+"word": "keep someone in the loop",
+"pos": "idiom",
+"en": "keep someone informed about something"
+},
+{
+"id": "id_keep_something_under_wraps",
+"word": "keep something under wraps",
+"pos": "idiom",
+"en": "keep something secret"
+},
+{
+"id": "id_keep_up_appearances",
+"word": "keep up appearances",
+"pos": "idiom",
+"en": "pretend that everything is fine when it is not"
+},
+{
+"id": "id_keep_up_with_the_joneses",
+"word": "keep up with the Joneses",
+"pos": "idiom",
+"en": "try to own the same things as your neighbours"
+},
+{
+"id": "id_keep_your_chin_up",
+"word": "keep your chin up",
+"pos": "idiom",
+"en": "stay cheerful in a difficult situation"
+},
+{
+"id": "id_keep_your_cool",
+"word": "keep your cool",
+"pos": "idiom",
+"en": "stay calm in a difficult situation"
+},
+{
+"id": "id_keep_your_nose_to_the_grindstone",
+"word": "keep your nose to the grindstone",
+"pos": "idiom",
+"en": "work hard continuously for a long time"
+},
+{
+"id": "id_keep_your_options_open",
+"word": "keep your options open",
+"pos": "idiom",
+"en": "avoid deciding now so that you still have choices"
+},
+{
+"id": "id_keep_your_word",
+"word": "keep your word",
+"pos": "idiom",
+"en": "do what you promised to do"
+},
+{
+"id": "id_kick_the_habit",
+"word": "kick the habit",
+"pos": "idiom",
+"en": "stop doing something harmful that you do regularly"
+},
+{
+"id": "id_kick_yourself",
+"word": "kick yourself",
+"pos": "idiom",
+"en": "feel annoyed with yourself for a mistake"
+},
+{
+"id": "id_kill_two_birds_with_one_stone",
+"word": "kill two birds with one stone",
+"pos": "idiom",
+"en": "achieve two things with a single action"
+},
+{
+"id": "id_know_something_inside_out",
+"word": "know something inside out",
+"pos": "idiom",
+"en": "know something extremely well"
+},
+{
+"id": "id_know_something_like_the_back_of_your_hand",
+"word": "know something like the back of your hand",
+"pos": "idiom",
+"en": "be extremely familiar with a place or thing"
+},
+{
+"id": "id_labour_the_point",
+"word": "labour the point",
+"pos": "idiom",
+"en": "repeat or explain something more than necessary"
+},
+{
+"id": "id_land_on_your_feet",
+"word": "land on your feet",
+"pos": "idiom",
+"en": "be lucky and end up in a good situation"
+},
+{
+"id": "id_larger_than_life",
+"word": "larger than life",
+"pos": "idiom",
+"en": "more exciting or noticeable than ordinary people"
+},
+{
+"id": "id_last_but_not_least",
+"word": "last but not least",
+"pos": "idiom",
+"en": "importantly, although mentioned last"
+},
+{
+"id": "id_laugh_all_the_way_to_the_bank",
+"word": "laugh all the way to the bank",
+"pos": "idiom",
+"en": "make a lot of money easily"
+},
+{
+"id": "id_laugh_your_head_off",
+"word": "laugh your head off",
+"pos": "idiom",
+"en": "laugh very loudly and for a long time"
+},
+{
+"id": "id_lay_down_the_law",
+"word": "lay down the law",
+"pos": "idiom",
+"en": "tell people firmly what they must do"
+},
+{
+"id": "id_lead_by_example",
+"word": "lead by example",
+"pos": "idiom",
+"en": "show others how to behave by doing it yourself"
+},
+{
+"id": "id_learn_the_hard_way",
+"word": "learn the hard way",
+"pos": "idiom",
+"en": "learn something through an unpleasant experience"
+},
+{
+"id": "id_leave_a_bad_taste_in_your_mouth",
+"word": "leave a bad taste in your mouth",
+"pos": "idiom",
+"en": "leave you with an unpleasant feeling afterwards"
+},
+{
+"id": "id_leave_much_to_be_desired",
+"word": "leave much to be desired",
+"pos": "idiom",
+"en": "be unsatisfactory; not be good enough"
+},
+{
+"id": "id_leave_no_stone_unturned",
+"word": "leave no stone unturned",
+"pos": "idiom",
+"en": "try every possible way to find or achieve something"
+},
+{
+"id": "id_leave_someone_in_the_lurch",
+"word": "leave someone in the lurch",
+"pos": "idiom",
+"en": "leave someone in a difficult situation without help"
+},
+{
+"id": "id_left_right_and_centre",
+"word": "left, right and centre",
+"pos": "idiom",
+"en": "everywhere; in large numbers"
+},
+{
+"id": "id_lend_a_hand",
+"word": "lend a hand",
+"pos": "idiom",
+"en": "help someone"
+},
+{
+"id": "id_lend_an_ear",
+"word": "lend an ear",
+"pos": "idiom",
+"en": "listen to someone sympathetically"
+},
+{
+"id": "id_lend_weight_to",
+"word": "lend weight to",
+"pos": "idiom",
+"en": "make an idea or argument seem more likely to be true"
+},
+{
+"id": "id_let_bygones_be_bygones",
+"word": "let bygones be bygones",
+"pos": "idiom",
+"en": "forgive past disagreements and forget them"
+},
+{
+"id": "id_let_sleeping_dogs_lie",
+"word": "let sleeping dogs lie",
+"pos": "idiom",
+"en": "avoid restarting an old problem or argument"
+},
+{
+"id": "id_let_someone_off_the_hook",
+"word": "let someone off the hook",
+"pos": "idiom",
+"en": "free someone from blame or a duty"
+},
+{
+"id": "id_let_the_cat_out_of_the_bag",
+"word": "let the cat out of the bag",
+"pos": "idiom",
+"en": "reveal a secret by mistake"
+},
+{
+"id": "id_let_the_dust_settle",
+"word": "let the dust settle",
+"pos": "idiom",
+"en": "wait for a situation to become calm again"
+},
+{
+"id": "id_let_your_guard_down",
+"word": "let your guard down",
+"pos": "idiom",
+"en": "relax and stop being careful"
+},
+{
+"id": "id_let_your_hair_down",
+"word": "let your hair down",
+"pos": "idiom",
+"en": "relax and enjoy yourself"
+},
+{
+"id": "id_level_the_playing_field",
+"word": "level the playing field",
+"pos": "idiom",
+"en": "make a situation fair for everyone"
+},
+{
+"id": "id_lick_your_wounds",
+"word": "lick your wounds",
+"pos": "idiom",
+"en": "recover after a defeat or disappointment"
+},
+{
+"id": "id_lie_through_your_teeth",
+"word": "lie through your teeth",
+"pos": "idiom",
+"en": "lie openly and without shame"
+},
+{
+"id": "id_like_a_broken_record",
+"word": "like a broken record",
+"pos": "idiom",
+"en": "repeating the same thing so often it is annoying"
+},
+{
+"id": "id_like_a_bull_in_a_china_shop",
+"word": "like a bull in a china shop",
+"pos": "idiom",
+"en": "very clumsy or careless in a delicate situation"
+},
+{
+"id": "id_like_a_duck_to_water",
+"word": "like a duck to water",
+"pos": "idiom",
+"en": "naturally and easily, without difficulty"
+},
+{
+"id": "id_like_a_red_rag_to_a_bull",
+"word": "like a red rag to a bull",
+"pos": "idiom",
+"en": "certain to make someone very angry"
+},
+{
+"id": "id_like_clockwork",
+"word": "like clockwork",
+"pos": "idiom",
+"en": "very smoothly and regularly, exactly as planned"
+},
+{
+"id": "id_like_it_or_lump_it",
+"word": "like it or lump it",
+"pos": "idiom",
+"en": "accept something because you cannot change it"
+},
+{
+"id": "id_like_there_s_no_tomorrow",
+"word": "like there's no tomorrow",
+"pos": "idiom",
+"en": "in large amounts, without thinking about the future"
+},
+{
+"id": "id_like_two_peas_in_a_pod",
+"word": "like two peas in a pod",
+"pos": "idiom",
+"en": "very similar in appearance or character"
+},
+{
+"id": "id_like_water_off_a_duck_s_back",
+"word": "like water off a duck's back",
+"pos": "idiom",
+"en": "having no effect on someone, especially criticism"
+},
+{
+"id": "id_line_your_pockets",
+"word": "line your pockets",
+"pos": "idiom",
+"en": "make money dishonestly, especially from your position"
+},
+{
+"id": "id_live_and_learn",
+"word": "live and learn",
+"pos": "idiom",
+"en": "said when you learn something from a mistake"
+},
+{
+"id": "id_live_from_hand_to_mouth",
+"word": "live from hand to mouth",
+"pos": "idiom",
+"en": "have only just enough money to survive"
+},
+{
+"id": "id_live_it_up",
+"word": "live it up",
+"pos": "idiom",
+"en": "enjoy yourself, often by spending a lot of money"
+},
+{
+"id": "id_lock_horns",
+"word": "lock horns",
+"pos": "idiom",
+"en": "argue or fight with someone"
+},
+{
+"id": "id_look_before_you_leap",
+"word": "look before you leap",
+"pos": "idiom",
+"en": "think carefully before you act"
+},
+{
+"id": "id_look_on_the_bright_side",
+"word": "look on the bright side",
+"pos": "idiom",
+"en": "see the positive side of a bad situation"
+},
+{
+"id": "id_look_the_other_way",
+"word": "look the other way",
+"pos": "idiom",
+"en": "deliberately ignore something wrong"
+},
+{
+"id": "id_lose_face",
+"word": "lose face",
+"pos": "idiom",
+"en": "lose other people's respect; be embarrassed"
+},
+{
+"id": "id_lose_heart",
+"word": "lose heart",
+"pos": "idiom",
+"en": "become discouraged"
+},
+{
+"id": "id_lose_sleep_over_something",
+"word": "lose sleep over something",
+"pos": "idiom",
+"en": "worry a lot about something"
+},
+{
+"id": "id_lose_the_plot",
+"word": "lose the plot",
+"pos": "idiom",
+"en": "become confused or start behaving irrationally"
+},
+{
+"id": "id_lose_touch",
+"word": "lose touch",
+"pos": "idiom",
+"en": "stop communicating with someone"
+},
+{
+"id": "id_lose_track_of_time",
+"word": "lose track of time",
+"pos": "idiom",
+"en": "forget what time it is because you are busy"
+},
+{
+"id": "id_lose_your_temper",
+"word": "lose your temper",
+"pos": "idiom",
+"en": "suddenly become very angry"
+},
+{
+"id": "id_lost_for_words",
+"word": "lost for words",
+"pos": "idiom",
+"en": "so surprised or emotional that you cannot speak"
+},
+{
+"id": "id_lost_in_translation",
+"word": "lost in translation",
+"pos": "idiom",
+"en": "when meaning is lost after being put into another language"
+},
+{
+"id": "id_loud_and_clear",
+"word": "loud and clear",
+"pos": "idiom",
+"en": "clearly and easily understood"
+},
+{
+"id": "id_low_hanging_fruit",
+"word": "low-hanging fruit",
+"pos": "idiom",
+"en": "the tasks that are easiest to do or achieve"
+},
+{
+"id": "id_make_a_beeline_for",
+"word": "make a beeline for",
+"pos": "idiom",
+"en": "go directly and quickly towards something"
+}
+]

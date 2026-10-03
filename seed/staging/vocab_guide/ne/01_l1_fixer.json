@@ -1,0 +1,857 @@
+[
+ {
+  "id": "v1_intro",
+  "title": "बंगलादेशी विद्यार्थीको L1 Interference Fixer",
+  "group": "अध्याय १ · L1 Interference Fixer (बंगालीको प्रभावले हुने गल्ती)",
+  "blocks": [
+   [
+    "p",
+    "धेरैजसो बंगलादेशी candidate-हरूले सबैभन्दा सजिलो अङ्क यहीँ गुमाउँछन्। यो अध्यायका वाक्यहरू कमजोर विद्यार्थीले लेख्दैनन्। यी वाक्य राम्रा, धाराप्रवाह बोल्ने विद्यार्थीहरूले लेख्छन् — जसको English-लाई भित्रभित्रै चुपचाप बंगाली भाषाले आकार दिइरहेको हुन्छ।"
+   ],
+   [
+    "p",
+    "तलको हरेक गल्ती वास्तवमा एकदम सही बंगाली सोचको हुबहु अनुवाद हो। समस्या बंगाली भाषामा होइन। समस्या भनेको बंगाली वाक्यको बनावटलाई शब्द-शब्द गरेर English-मा लैजानु हो — र examiner-ले यो तुरुन्तै चिनिहाल्छन्।"
+   ],
+   [
+    "p",
+    "यसलाई first-language (L1) interference भनिन्छ, अर्थात् मातृभाषाको प्रभाव। यो गल्ती पहिल्यै अनुमान गर्न सकिन्छ, यसको एउटा निश्चित pattern हुन्छ — र pattern भएकैले यसलाई सुधार्न सकिन्छ। सबै ३० वटा गल्ती ध्यान दिएर पढ्नुहोस्, र तीमध्ये कुन-कुन तपाईं आफैँ गर्नुहुन्छ भनेर टिपेर राख्नुहोस्।"
+   ],
+   [
+    "p",
+    "त्यसपछि अन्तिमका दुई वटा exercise set answer key हेर्नुअघि कलम लिएर गर्नुहोस्। हरेक गल्तीमा तपाईंले ५ वटा कुरा पाउनुहुन्छ: गलत वाक्य, त्यो गल्ती जन्माउने बंगाली logic, Band 9 स्तरको सही रूप, ठ्याक्कै कुन grammar वा शब्दको नियम, र यो गल्तीले तपाईंलाई कति नोक्सान गर्छ भन्ने बारेमा examiner-को दृष्टिकोण।"
+   ]
+  ]
+ },
+ {
+  "id": "v1_errors_1",
+  "title": "३० वटा मुख्य गल्ती (१–१०)",
+  "group": "अध्याय १ · L1 Interference Fixer (बंगालीको प्रभावले हुने गल्ती)",
+  "blocks": [
+   [
+    "h2",
+    "गल्ती १"
+   ],
+   [
+    "pair",
+    "I discussed about the problem with my teacher.",
+    "I discussed the problem with my teacher.",
+    "Discuss एउटा transitive verb हो: यसको पछाडि कुनै preposition बिना सिधै object आउँछ। enter, approach, reach, marry, request र lack-मा पनि यही नियम लाग्छ। तपाईं discuss a problem भन्नुहुन्छ, discuss about a problem होइन। noun प्रयोग गर्न चाहनुहुन्छ भने have a discussion about भन्नुहोस्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমি শিক্ষকের সাথে সমস্যাটি নিয়ে আলোচনা করেছি. यहाँ নিয়ে (niye) शब्दले “about”-को अर्थ बोक्छ, त्यसैले विद्यार्थीहरू discuss-सँग about जोडिदिन्छन्।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** यो एउटै preposition बंगलादेशी candidate-को लेखाइ चिन्ने सबैभन्दा भरपर्दो चिह्नमध्ये एक हो। यो Grammatical Range and Accuracy र Lexical Resource दुवैमा पर्छ, किनभने यो collocation-को गल्ती हो। एक पटक भए त्यो slip हो; बारम्बार भए यो पक्का बानी बनिसकेको देखिन्छ, र त्यसले तपाईंलाई Band 6.5-मै रोकिराख्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती २"
+   ],
+   [
+    "pair",
+    "The writer emphasised on the need for reform.",
+    "The writer emphasised the need for reform. / The writer placed emphasis on the need for reform.",
+    "Emphasise transitive हो र यसपछि कुनै preposition आउँदैन। on चाहिँ noun रूपसँग मात्र आउँछ: place emphasis on, put stress on। कुनै एउटा बनावट रोज्नुहोस्; दुवैलाई मिसाउनुहुँदैन।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "লেখক সংস্কারের প্রয়োজনীয়তার উপর জোর দিয়েছেন. জোর দেওয়া (jor deoa, “to give stress”)-सँग উপর (upor, “on”) आउँछ, त्यसैले English-मा पनि on सर्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** कुनै लेख वा policy-ले के “highlight” गर्छ भन्ने Task 2 essay-हरूमा यो निरन्तर आउँछ। यसलाई सही लेख्दा examiner-ले बुझ्छन् कि एउटै विचारको verb र noun दुवै रूप तपाईंको नियन्त्रणमा छन् — Band 7-ले ठ्याक्कै यही flexibility-लाई पुरस्कृत गर्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती ३"
+   ],
+   [
+    "pair",
+    "We reached to the station just before the train left.",
+    "We reached the station just before the train left. / We arrived at the station just in time.",
+    "Reach transitive हो: reach a place, कुनै preposition चाहिँदैन। arrive रोज्नुहुन्छ भने यसपछि at (कुनै एउटा ठाउँ) वा in (ठूलो क्षेत्र) आउँछ: arrive at the station, arrive in Dhaka।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমরা স্টেশনে পৌঁছেছি. স্টেশন-मा लागेको स्थान बुझाउने प्रत्यय ে (-e, “to/at”) English-मा to बन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Reach to सानो तर धेरै देखिने गल्ती हो, खासगरी Speaking Part 2-को कथा भन्दा। यसलाई सुधार्दा तपाईंको कथा भनाइबाट बारम्बार लाग्ने accuracy penalty हट्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती ४"
+   ],
+   [
+    "pair",
+    "My cousin is married with a doctor.",
+    "My cousin is married to a doctor.",
+    "निश्चित collocation married to हो, married with कहिल्यै होइन। अर्को व्यक्तिसँग मिलेर केही गर्दा with आउँछ, तर विवाह भएको व्यक्तिको लागि married to भनिन्छ। engaged to, related to-सँग तुलना गर्नुहोस्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার চাচাতো ভাইয়ের একজন ডাক্তারের সাথে বিয়ে হয়েছে. সাথে (shathe)-को अर्थ “with” हो, त्यसैले married-पछि with आउँछ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** नातासम्बन्धका शब्द Speaking Part 1 (family)-मा निरन्तर आउँछन्। यहाँको collocation slip एक्लै हेर्दा सानो हो, तर स्वाभाविक शब्द-जोडी सुन्न खोजिरहेका examiner-लाई यो सम्झनामा रहन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती ५"
+   ],
+   [
+    "pair",
+    "My manager is senior than me.",
+    "My manager is senior to me. / My manager is more experienced than I am.",
+    "Latin-बाट आएका केही comparative adjective-पछि than होइन, to आउँछ: senior to, junior to, superior to, inferior to, prior to। सामान्य comparative (bigger, faster)-पछि मात्र than आउँछ।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার ম্যানেজার আমার থেকে সিনিয়র. থেকে (theke)-को अर्थ “from” र “than” दुवै हो, त्यसैले विद्यार्थीहरू senior-पछि than प्रयोग गर्छन्।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** superior to र prior to सही प्रयोग गर्नु Band 7.5-को एउटा शान्त संकेत हो। यसले कम प्रचलित शब्द र तिनका collocation-को जानकारी देखाउँछ, जसलाई band descriptor-ले सिधै पुरस्कृत गर्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती ६"
+   ],
+   [
+    "pair",
+    "I prefer reading books than watching television.",
+    "I prefer reading books to watching television.",
+    "Prefer-पछि than होइन, to आउँछ: prefer A to B। दुवै option verb भए दुवैलाई एउटै रूपमा राख्नुहोस्: prefer reading to watching। अर्को बनावट would rather read than watch हो, जहाँ than सही हो।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমি টেলিভিশন দেখার থেকে বই পড়া বেশি পছন্দ করি. यहाँ पनि থেকে (theke, “than/from”)-ले than तानेर ल्याउँछ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Prefer Speaking Part 1-मा धेरै प्रयोग हुने verb हो। prefer to pattern यो अध्यायको सबैभन्दा फाइदाजनक सुधारमध्ये एक हो, किनभने तपाईं यसलाई लगभग हरेक interview-मा प्रयोग गर्नुहुन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती ७"
+   ],
+   [
+    "pair",
+    "She is very good in mathematics and physics.",
+    "She is very good at mathematics and physics.",
+    "सीप बुझाउने adjective-पछि at आउँछ: good at, skilled at, talented at, poor at। in चाहिँ पूरै विषय-क्षेत्रका लागि मात्र, फरक बनावटमा प्रयोग हुन्छ (a degree in physics)।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "সে অঙ্ক আর পদার্থবিজ্ঞানে খুব ভালো. विषयका नाममा लागेको स्थान बुझाउने ে (-e, “in”) in बन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Speaking Part 1 (study and work)-मा क्षमताको वर्णन गर्नैपर्छ। Good at र good in adjective-plus-preposition-को क्लासिक परीक्षा हो, र यहाँ लगातार सही हुँदा तपाईंको collocation profile माथि उठ्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती ८"
+   ],
+   [
+    "pair",
+    "My teacher gave me a very useful advice.",
+    "My teacher gave me a very useful piece of advice. / My teacher gave me some very useful advice.",
+    "Advice uncountable हो: a/an लाग्दैन, plural -s लाग्दैन, र verb singular हुन्छ। गन्नुपर्यो भने partitive प्रयोग गर्नुहोस्: a piece of advice, two pieces of advice।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার শিক্ষক আমাকে একটি খুব দরকারি উপদেশ দিয়েছেন. উপদেশ (upodesh, “advice”) बंगालीमा countable हो, त्यसैले একটি (ekti, “a/one”) जोडिन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Uncountable noun-को नियन्त्रण यत्तिकै होइन, कारणले नै South Asian गल्तीहरूको checklist-मा छ। a advice वा advices लेख्नु तुरुन्तै Band 6-को word-formation चिह्न हो; piece of लगाएर सुधार्दा तपाईंलाई नियम थाहा छ भन्ने देखिन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती ९"
+   ],
+   [
+    "pair",
+    "The library provides many informations and equipments.",
+    "The library provides a great deal of information and equipment.",
+    "Information, equipment, furniture, research, knowledge, accommodation, traffic र progress सबै English-मा uncountable हुन्। यिनमा कहिल्यै -s लाग्दैन। मात्रा बुझाउन a great deal of, a large amount of वा much प्रयोग गर्नुहोस्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "লাইব্রেরি অনেক তথ্য এবং সরঞ্জাম সরবরাহ করে. তথ্য (tottho) र সরঞ্জাম (shoronjam) बंगालीमा countable जस्तै व्यवहार गर्छन्, त्यसैले English-को plural -s थपिन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** यी आठ वटा शब्द लगभग हरेक academic essay-मा आउँछन्। यीमध्ये एउटैलाई पनि बारम्बार plural बनाउँदा Lexical Resource Band 6-मा झर्न सक्छ, किनभने word formation त्यही criterion भित्र मूल्याङ्कन हुन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती १०"
+   ],
+   [
+    "pair",
+    "I am completely agree with this statement.",
+    "I completely agree with this statement. / I am in complete agreement with this statement.",
+    "Agree पूर्ण verb हो, adjective होइन। यसको साथमा am/is/are आउँदैन। कि verb प्रयोग गर्नुहोस् (I agree), कि noun phrase (I am in agreement)। am agree कहिल्यै होइन।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমি এই বক্তব্যের সাথে সম্পূর্ণ একমত. একমত (ekmot) “सहमत” हुनुको अवस्था हो, जुन adjective जस्तो लाग्छ, त्यसैले विद्यार्थीहरू am थपिदिन्छन्।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Agree-and-disagree essay सबैभन्दा धेरै आउने Task 2 प्रकार हो। पहिलो वाक्यमै I am agree लेख्दा examiner-ले तपाईंको तर्क पढ्नुअघि नै Band 5.5-को grammar profile देख्छन्। यो धेरै मूल्यवान सुधार हो।"
+   ]
+  ]
+ },
+ {
+  "id": "v1_errors_2",
+  "title": "३० वटा मुख्य गल्ती (११–२०)",
+  "group": "अध्याय १ · L1 Interference Fixer (बंगालीको प्रभावले हुने गल्ती)",
+  "blocks": [
+   [
+    "h2",
+    "गल्ती ११"
+   ],
+   [
+    "pair",
+    "Everybody in my office are working overtime this week.",
+    "Everybody in my office is working overtime this week.",
+    "Everybody, everyone, somebody, nobody, each र neither grammar-को हिसाबले singular हुन् र यिनपछि singular verb आउँछ, जतिसुकै मानिसको कुरा गरून्। बीचमा आउने phrase (in my office)-ले यो नियम बदल्दैन।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার অফিসের সবাই এই সপ্তাহে অতিরিক্ত সময় কাজ করছে. সবাই (shobai, “everybody”)-ले धेरै मानिसलाई जनाउँछ, त्यसैले verb plural जस्तो लाग्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Indefinite pronoun-सँग subject-verb agreement Band 6-को एउटा बारम्बार हुने slip हो। यो पूरै लेखाइभरि दोहोरिने भएकाले यहाँ एउटा सही बानी बसाल्दा हरेक paragraph-मा अङ्क जोगिन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती १२"
+   ],
+   [
+    "pair",
+    "One of my friend is studying in Canada.",
+    "One of my friends is studying in Canada.",
+    "one of-पछि noun plural हुनैपर्छ (one of my friends), किनभने तपाईं एउटा समूहबाट एक जना छान्दै हुनुहुन्छ। तर verb भने singular नै रहन्छ, किनभने वास्तविक subject one हो: one of my friends is।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার এক বন্ধু কানাডায় পড় ছে. এক বন্ধু (ek bondhu, “one friend”) बंगालीमा singular हो, त्यसैले friend singular नै रहन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** यो दुई भागको trap हो: noun plural, verb singular। candidate-हरूले प्रायः एउटा भाग सुधार्छन् र अर्को छुटाउँछन्। दुवै सही हुनु Speaking Part 1-मा Band 7-को स्पष्ट accuracy संकेत हो।"
+   ],
+   [
+    "h2",
+    "गल्ती १३"
+   ],
+   [
+    "pair",
+    "Every students must bring their identity card.",
+    "Every student must bring their identity card. / All students must bring their identity cards.",
+    "Every र each-पछि सधैँ singular noun र singular verb आउँछ: every student is। plural noun चाहिन्छ भने determiner बदलेर all बनाउनुहोस्: all students are।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "প্রত্যেক ছাত্রকে তাদের পরিচয়পত্র আনতে হবে. बंगाली noun-लाई plural रूपमा बाँध्नुपर्दैन, त्यसैले ছাত্র (chhatro, “student”)-लाई लचिलो रूपमा बुझिन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Every-सँग plural noun राख्नु countability-को आधारभूत गल्ती हो, जसले Grammatical Range and Accuracy-लाई छिट्टै सीमित गर्छ। मनमा every-लाई singular-सँग जोडिदिएपछि यो सुधार यान्त्रिक रूपमै हुन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती १४"
+   ],
+   [
+    "pair",
+    "The number of road accidents are increasing every year.",
+    "The number of road accidents is increasing every year.",
+    "यो वाक्यको subject number (singular) हो, accidents होइन। The number of + plural noun-पछि singular verb आउँछ। यसको तुलनामा a number of + plural noun-को अर्थ “several” (केही/धेरै) हो र यसपछि plural verb आउँछ: a number of accidents are unreported।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "সড় ক দুর্ঘটনার সংখ্যা প্রতি বছর বাড় ছে. plural अर्थ “accidents” verb-को ठीक अगाडि बस्छ र verb-लाई plural तर्फ तान्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** यही phrase, the number of, Task 1-मा सधैँ काम लाग्ने phrase हो। यसमा agreement सही गर्नु data description-मा पाइने सबैभन्दा स्पष्ट देखिने accuracy जितमध्ये एक हो।"
+   ],
+   [
+    "h2",
+    "गल्ती १५"
+   ],
+   [
+    "pair",
+    "Despite of the heavy rain, the ceremony continued.",
+    "Despite the heavy rain, the ceremony continued. / In spite of the heavy rain, the ceremony continued.",
+    "Despite-पछि of आउँदैन। In spite of-मा भने of रहन्छ। दुवैपछि noun वा -ing रूप आउँछ, पूरा clause कहिल्यै आउँदैन। पूरा clause-का लागि although प्रयोग गर्नुहोस्: Although it rained heavily, the ceremony continued."
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "ভারী বৃষ্টি সত্ত্বেও, অনুষ্ঠান চলতে থাকল. সত্ত্বেও (sotteo)-को अनुवाद “in spite of” हुन्छ, त्यसैले विद्यार्थीहरू दुईलाई मिसाएर despite of बनाउँछन्।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** despite of मिश्रण बंगलादेशी Task 2 लेखाइमा concession-सम्बन्धी सबैभन्दा सामान्य गल्तीमध्ये एक हो। concession essay-को मुख्य चाल भएकाले यो गल्ती धेरै देखिन्छ, त्यसैले यसलाई पूरै हटाउनु लायक छ।"
+   ],
+   [
+    "h2",
+    "गल्ती १६"
+   ],
+   [
+    "pair",
+    "After his studies, he returned back to his hometown.",
+    "After his studies, he returned to his hometown.",
+    "Return-को अर्थ नै “go back” (फर्केर जानु) हो, त्यसैले returned back दोहोरो हो। repeat again, revert back, reverse back र ascend up-मा पनि यस्तै दोहोरोपन हुन्छ। एउटै verb प्रयोग गर्नुहोस्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "পড়াশোনা শেষে সে তার নিজ শহরে ফিরে গেছে. ফিরে যাওয়া (phire jaoa)-मा नै “फर्केर जानु”-को अर्थ छ, त्यसैले English-मा माथिबाट back थपिन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** दोहोरोपन Lexical Resource-को कमजोरी हो: यसले शब्दको अर्थ पूरा आत्मसात् भएको छैन भन्ने देखाउँछ। यस्ता दोहोरो शब्द हटाउँदा तपाईंको लेखाइ कसिलो र सटीक हुन्छ, जुन ठ्याक्कै Band 8-को “conveying precise meaning” गुण हो।"
+   ],
+   [
+    "h2",
+    "गल्ती १७"
+   ],
+   [
+    "pair",
+    "Students must learn to cope up with academic pressure.",
+    "Students must learn to cope with academic pressure.",
+    "सही verb cope with हो, up बिना। बीचमा घुस्ने up एउटा South Asian क्षेत्रीय बानी हो। सही put up with (सहनु)-सँग तुलना गर्नुहोस्, जुन साँच्चै फरक phrasal verb हो।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "শিক্ষার্থীদের শিক্ষাগত চাপের সাথে খাপ খাওয়াতে শিখতে হবে. बंगालीमा कुनै up छैन; keep up, put up with जस्ता अरू phrasal verb-सँगको गलत तुलनाले up थपिन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Phrasal verb-को accuracy Lexical Resource अन्तर्गत मूल्याङ्कन हुन्छ। Cope up with-लाई examiner-ले तुरुन्तै क्षेत्रीय गल्तीको रूपमा चिन्छन्, त्यसैले यसलाई हटाउँदा तपाईंको Speaking band निर्भर रहने स्वाभाविक, native जस्तो गुण अझ तिखो हुन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती १८"
+   ],
+   [
+    "pair",
+    "The committee comprises of twelve senior members.",
+    "The committee comprises twelve senior members. / The committee is composed of twelve senior members. / The committee consists of twelve senior members.",
+    "Comprise transitive हो र यसपछि of आउँदैन। of चाहिँ consist of र be composed of-सँग आउँछ। यिनलाई मिसाएर comprises of कहिल्यै नबनाउनुहोस्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "কমিটি বারো জন প্রবীণ সদস্য নিয়ে গঠিত. নিয়ে গঠিত (niye gothito, “formed with/of”) “comprises of”-मा रूपान्तर हुन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Task 1-को pie-chart र process वर्णनमा यो धेरै आउँछ। consists of वा comprises सही रोज्दा कम प्रचलित academic verb-माथिको नियन्त्रण देखिन्छ, जुन Band 7-को range चिह्न हो।"
+   ],
+   [
+    "h2",
+    "गल्ती १९"
+   ],
+   [
+    "pair",
+    "I have visited Cox’s Bazar last winter with my family.",
+    "I visited Cox’s Bazar last winter with my family.",
+    "सकिइसकेको समय बुझाउने अभिव्यक्ति (last winter, in 2019, two years ago) भए simple past नै चाहिन्छ। सकिइसकेको समय स्पष्ट भनिएको वाक्यमा present perfect आउन सक्दैन। present perfect खुला वा अझै चलिरहेको समयका लागि मात्र प्रयोग गर्नुहोस् (I have visited Cox’s Bazar several times)।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমি গত শীতে পরিবারসহ কক্সবাজার গিয়েছি. बोलचालको बंगालीमा “I went” र “I have gone” दुवैका लागि एउटै past रूप प्रयोग हुन्छ, त्यसैले present perfect आवश्यकताभन्दा बढी प्रयोग हुन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Speaking Part 2-मा, जहाँ तपाईं अतीतको अनुभव सुनाउनुहुन्छ, यो tense-को टकराव content-स्तरको गल्ती हो। दुई मिनेटको कुराभरि लगातार past tense राख्नु fluency र accuracy दुवैको बलियो संकेत हो।"
+   ],
+   [
+    "h2",
+    "गल्ती २०"
+   ],
+   [
+    "pair",
+    "I am living in Dhaka since 2015.",
+    "I have been living in Dhaka since 2015. / I have lived in Dhaka since 2015.",
+    "अतीतमा सुरु भएर अहिलेसम्म चलिरहेको अवधिका लागि present continuous होइन, present perfect वा present perfect continuous चाहिन्छ। since र for जस्ता संकेत-शब्दले तपाईंलाई perfect रूपतर्फ लैजान्छन्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমি ২০১৫ সাল থেকে ঢাকায় থাকছি. बंगालीको continuous रूप থাকছি (thakchhi)-ले चलिरहेको अवधि बुझाउँछ, त्यसैले यो English-को present continuous-मा रूपान्तर हुन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Speaking Part 1-मा समयको नियन्त्रणले Band 6 र Band 7-लाई छुट्याउँछ। have been + -ing since pattern धेरै प्रयोग हुने बनावट हो — मुखमा आफैँ आउने नहुन्जेल यसको अभ्यास गर्नुहोस्।"
+   ]
+  ]
+ },
+ {
+  "id": "v1_errors_3",
+  "title": "३० वटा मुख्य गल्ती (२१–३०)",
+  "group": "अध्याय १ · L1 Interference Fixer (बंगालीको प्रभावले हुने गल्ती)",
+  "blocks": [
+   [
+    "h2",
+    "गल्ती २१"
+   ],
+   [
+    "pair",
+    "My friend told to me that the interview went well.",
+    "My friend told me that the interview went well. / My friend said to me that the interview went well.",
+    "Tell-पछि व्यक्ति सिधै आउँछ, to बिना (tell me, tell him)। Say-ले भने व्यक्तिअघि to चाहिन्छ (say to me)। यी दुई verb-को pattern फरक छ: tell someone something र say something to someone।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার বন্ধু আমাকে বলল যে সাক্ষাৎকারটি ভালো হয়েছে. আমাকে বলল (amake bollo, “told me”)-भित्र “to me”-को अर्थ हुन्छ, जुन English-मा छुट्टै लेखिन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Reported speech Speaking Part 2-का कथाभरि आउँछ। tell/say-को भिन्नता एउटा सटीक शब्द-भिन्नता हो, र यसलाई नियन्त्रण गर्दा धेरै प्रयोग हुने reporting verb-माथि साँचो पकड देखिन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती २२"
+   ],
+   [
+    "pair",
+    "According to me, the voting age should be lowered.",
+    "In my opinion, the voting age should be lowered. / To my mind, the voting age should be lowered.",
+    "According to-ले बाहिरको स्रोत जनाउँछ (according to the report, according to experts), तपाईंको आफ्नै विचार होइन। आफ्नो विचारका लागि in my opinion, from my perspective वा I would argue that प्रयोग गर्नुहोस्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার মতে, ভোটের বয়স কমানো উচিত. আমার মতে (amar mote) “in my opinion”-का लागि निश्चित phrase हो, र यो शाब्दिक रूपमा “according to me”-मा रूपान्तर हुन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** According to me बंगलादेशी Task 2 essay र Speaking Part 3-मा विचार व्यक्त गर्ने phrase-को सबैभन्दा धेरै हुने गल्तीमध्ये एक हो। यसको सट्टा विभिन्न opinion marker प्रयोग गर्दा Lexical Resource र examiner-ले अपेक्षा गर्ने academic register दुवै माथि उठ्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती २३"
+   ],
+   [
+    "pair",
+    "Maximum people in my country depend on agriculture.",
+    "Most people in my country depend on agriculture. / The majority of people in my country depend on agriculture.",
+    "Maximum noun वा adjective हो, जसको अर्थ सम्भव भएसम्मको सबैभन्दा बढी मात्रा हो (the maximum speed)। यसको अर्थ “most” होइन। कुनै समूहको ठूलो भाग बुझाउन most, the majority of वा the bulk of प्रयोग गर्नुहोस्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার দেশের বেশিরভাগ মানুষ কৃষির উপর নির্ভর করে. বেশিরভাগ (beshirbhag, “most”)-लाई गलत रूपमा “maximum” अनुवाद गरिन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Maximum people Lexical Resource अन्तर्गत शब्द-छनोटको स्पष्ट गल्ती हो। यसको सट्टा the majority of वा the bulk of प्रयोग गर्दा Task 2-ले पुरस्कृत गर्ने quantifier-को range पनि तपाईंसँग हुन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती २४"
+   ],
+   [
+    "pair",
+    "I have to give an important exam at the end of this month.",
+    "I have to sit an important exam at the end of this month. / I have to take an important exam at the end of this month.",
+    "English-मा विद्यार्थीले exam sit वा take गर्छ; examiner वा संस्थाले मात्र exam set वा give गर्छ। Give an exam भन्दा भूमिका उल्टिन्छ।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "এই মাসের শেষে আমাকে একটি গুরুত্বপূর্ণ পরীক্ষা দিতে হবে. পরীক্ষা দেওয়া (porikkha deoa, “to give an exam”)-मा দেওয়া (deoa, “give”) प्रयोग हुन्छ, त्यसैले विद्यार्थीहरू “give an exam” भन्छन्।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** शिक्षासम्बन्धी शब्द Speaking Part 1-को केन्द्रमा हुन्छन्। Sit an exam (British प्रयोग, IELTS-मा रुचाइने) स्वाभाविक collocation हो, जुन give an exam-भन्दा तुरुन्तै बढी native जस्तो सुनिन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती २५"
+   ],
+   [
+    "pair",
+    "Try not to do the same mistake in the next test.",
+    "Try not to make the same mistake in the next test.",
+    "English-ले collocation अनुसार do र make छुट्याउँछ। make-सँग आउँछन्: a mistake, a decision, progress, an effort, an arrangement; do-सँग आउँछन्: homework, research, a favour, business, damage। बंगालीको করা-ले यी सबै समेट्छ, त्यसैले यो विभाजन निश्चित जोडीका रूपमा सिक्नुपर्छ।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "পরের পরীক্ষায় একই ভুল কোরো না. ভুল করা (bhul kora)-मा করা (kora) प्रयोग हुन्छ, जसले “do” र “make” दुवैलाई समेट्छ, त्यसैले do a mistake बन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** do/make विभाजन भाषाको सबैभन्दा धेरै आउने collocation परीक्षामध्ये एक हो। लगातार सही हुनु Lexical Resource-को बलियो संकेत हो; बारम्बार slip हुँदा तपाईं Band 6-मै रोकिनुहुन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती २६"
+   ],
+   [
+    "pair",
+    "I have not met my school friends since a long time.",
+    "I have not met my school friends for a long time.",
+    "Since-पछि कुनै काम सुरु भएको समय-बिन्दु आउँछ (since 2015, since Monday)। For-पछि समयको लम्बाइ आउँछ (for a long time, for three years)। “A long time” अवधि हो, त्यसैले यसपछि for आउँछ।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমি অনেকদিন ধরে আমার স্কুলের বন্ধুদের সাথে দেখা করিনি. ধরে (dhore)-ले समयको फैलावट जनाउँछ र यसलाई ढिलो-ढालो रूपमा “since” बुझिन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** since/for भिन्नता Error 20-को present perfect-सँग सिधै जोडिन्छ। दुवैलाई सँगै पक्का गर्दा Speaking Part 1-भरि दोहोरिरहने सम्बन्धित गल्तीहरूको समूह नै हट्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती २७"
+   ],
+   [
+    "pair",
+    "Please off the fan and light before you leave the room.",
+    "Please turn off the fan and the light before you leave the room.",
+    "बिजुलीका उपकरणका लागि English-मा turn on र turn off (वा switch on/off) phrasal verb प्रयोग हुन्छ। Off verb होइन, र open/close ढोका र झ्यालका लागि हो, बत्ती र पङ्खाका लागि होइन।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "ঘর ছাড়ার আগে ফ্যান আর লাইট বন্ধ করো. বন্ধ করা (bondho kora, “to close/shut off”) “off” बन्छ, र খোলা (khola, “to open”) “open” बन्छ, जसबाट off the fan, open the light बन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Open the light र off the fan प्रस्ट क्षेत्रीय शाब्दिक अनुवाद (calque) हुन्। यी Writing-मा कमै आउँछन्, तर घर र दैनिक दिनचर्याबारे Speaking Part 1-मा देखिन्छन्, जहाँ examiner ठ्याक्कै स्वाभाविक phrasal verb सुन्न खोजिरहेका हुन्छन्।"
+   ],
+   [
+    "h2",
+    "गल्ती २८"
+   ],
+   [
+    "pair",
+    "My all relatives gathered for the wedding celebration.",
+    "All my relatives gathered for the wedding celebration.",
+    "English-मा all possessive-भन्दा अगाडि आउँछ: all my relatives, all his money, all our efforts। बंगालीको क्रम “my all” उल्टिन्छ। both my parents, half my salary-मा पनि यही नियम लाग्छ।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমার সব আত্মীয় বিয়ের অনুষ্ঠানে জড়ো হয়েছিল. আমার সব (amar shob, शाब्दिक रूपमा “my all”)-ले possessive-लाई all-भन्दा अगाडि राख्छ, र त्यही क्रम English-मा सर्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Determiner-को क्रम Grammatical Range and Accuracy-को एउटा सूक्ष्म बुँदा हो। एक्लै हेर्दा सानो हो, तर लगातार सही हुँदा यसले उच्च band-को बोलाइ र लेखाइलाई छुट्याउने सहज, स्वाभाविक प्रवाहमा योगदान दिन्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती २९"
+   ],
+   [
+    "pair",
+    "Myself Rahim, and I am here to talk about my hometown.",
+    "My name is Rahim, and I am here to talk about my hometown. / I am Rahim, and I would like to talk about my hometown.",
+    "Myself reflexive pronoun हो (I did it myself); यसले नाम परिचय गराउन सक्दैन। नामअघि My name is वा I am प्रयोग गर्नुहोस्।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "আমি রহিম, আর আমি আমার শহর নিয়ে কথা বলতে এসেছি. आफ्नो परिचय घोषणा गर्ने बानी गैर-मानक “Myself Rahim” बन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** IELTS Speaking test-मा औपचारिक रूपमा आफ्नो परिचय दिनुपर्दैन, तर दिनुभयो भने Myself Rahim तुरुन्तै क्षेत्रीय चिह्न बन्छ। स्वाभाविक I am Rahim-ले fluency र lexis-मा बलियो पहिलो छाप छोड्छ।"
+   ],
+   [
+    "h2",
+    "गल्ती ३०"
+   ],
+   [
+    "pair",
+    "I passed out from university in 2019 with a degree in economics.",
+    "I graduated from university in 2019 with a degree in economics.",
+    "Standard English-मा pass out-को अर्थ बेहोस हुनु वा होस गुमाउनु हो। degree पूरा गरेको बुझाउन graduate from वा complete my studies at प्रयोग गर्नुहोस्। यो grammar-को गल्ती होइन, false friend (चिनेजस्तो देखिने तर फरक अर्थ भएको शब्द) हो।"
+   ],
+   [
+    "box",
+    "l1",
+    "बंगाली logic",
+    "यो सिधै बंगालीबाट गरिएको अनुवाद होइन, बरु संस्थागत English-को बानी हो: पूरै दक्षिण एसियामा “pass out” “graduate”-को अर्थमा व्यापक रूपमा प्रयोग हुन्छ।",
+    []
+   ],
+   [
+    "note",
+    "**Examiner-को नजरमा:** Passed out from university सुनेर examiner साँच्चै अलमलमा पर्न सक्छन्, किनभने यसको standard अर्थ “बेहोस भयो” हो। शैक्षिक पृष्ठभूमि लगभग हरेक Speaking Part 1-मा सोधिने भएकाले यसको सट्टा graduated from भन्दा स्पष्टता र register दुवै एकैसाथ जोगिन्छ।"
+   ]
+  ]
+ },
+ {
+  "id": "v1_practice",
+  "title": "Practice · L1 गल्ती पत्ता लगाएर सुधार्नुहोस्",
+  "group": "अध्याय १ · L1 Interference Fixer (बंगालीको प्रभावले हुने गल्ती)",
+  "blocks": [
+   [
+    "tip",
+    "Answer key हेर्नुअघि दुवै exercise कलम लिएर पूरै गर्नुहोस्। पहिले key नपढ्नुहोस्; चिन्न सक्नु र आफैँ लेख्न सक्नु एउटै कुरा होइन।"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Exercise 1.1 · L1 गल्ती पत्ता लगाउनुहोस्",
+     "kind": "essay_edit",
+     "instructions": "तलका १५ वटा वाक्य प्रत्येकमा बंगालीबाट English-मा अनुवाद गर्दा भएको एउटा लुकेको गल्ती छ। गल्तीमुनि रेखा तान्नुहोस् र वाक्यलाई सही, स्वाभाविक English-मा फेरि लेख्नुहोस्।",
+     "items": [
+      {
+       "prompt": "Scientists are still discussing about the real causes of climate change.",
+       "answer": "Scientists are still discussing the real causes of climate change.",
+       "accepted": [],
+       "reason": "discuss transitive हो र यसको object सिधै आउँछ; discuss about लेख्दा verb-मा पहिल्यै भएको अर्थ दोहोरिन्छ।"
+      },
+      {
+       "prompt": "This report comprises of five main sections and a short appendix.",
+       "answer": "This report comprises five main sections and a short appendix. (or consists of)",
+       "accepted": [],
+       "reason": "comprise-पछि of आउँदैन; of चाहिँ consist of र be composed of-सँग मात्र आउँछ।"
+      },
+      {
+       "prompt": "My elder brother is senior than me by four years.",
+       "answer": "My elder brother is senior to me by four years.",
+       "accepted": [],
+       "reason": "Latin-बाट आएका comparative (senior, junior, superior, prior)-पछि सधैँ to आउँछ, than कहिल्यै होइन।"
+      },
+      {
+       "prompt": "My sister is married with a civil engineer from Khulna.",
+       "answer": "My sister is married to a civil engineer from Khulna.",
+       "accepted": [],
+       "reason": "निश्चित collocation married to हो; with कसैसँग मिलेर केही गर्दा प्रयोग हुन्छ, विवाहको बन्धन बुझाउन होइन।"
+      },
+      {
+       "prompt": "I have been staying in this hostel since my first year, and I am living here still now.",
+       "answer": "I have been staying in this hostel since my first year, and I still live here.",
+       "accepted": [],
+       "reason": "अतीतमा सुरु भएर अहिले पनि चलिरहेको अवस्थाका लागि present continuous होइन, present perfect चाहिन्छ।"
+      },
+      {
+       "prompt": "The counsellor gave me two very useful advices about choosing a subject.",
+       "answer": "The counsellor gave me two very useful pieces of advice about choosing a subject.",
+       "accepted": [],
+       "reason": "advice uncountable हो, त्यसैले यसमा plural -s लाग्दैन; गन्नुपर्यो भने pieces of advice प्रयोग गर्नुहोस्।"
+      },
+      {
+       "prompt": "Everyone in our study group are preparing hard for the mock test.",
+       "answer": "Everyone in our study group is preparing hard for the mock test.",
+       "accepted": [],
+       "reason": "everyone grammar-को हिसाबले singular हो, जतिसुकै मानिसलाई जनाओस्; in our study group phrase-ले verb बदल्दैन।"
+      },
+      {
+       "prompt": "Despite of the heavy workload, she submitted every assignment on time.",
+       "answer": "Despite the heavy workload, she submitted every assignment on time.",
+       "accepted": [],
+       "reason": "despite-पछि of आउँदैन; in spite of-मा मात्र of रहन्छ।"
+      },
+      {
+       "prompt": "According to me, public libraries should stay open late into the evening.",
+       "answer": "In my opinion, public libraries should stay open late into the evening.",
+       "accepted": [],
+       "reason": "according to-ले बाहिरको स्रोत जनाउँछ, तपाईंको आफ्नै विचार होइन; आफ्नो लागि in my opinion प्रयोग गर्नुहोस्।"
+      },
+      {
+       "prompt": "The number of private cars on the road are rising sharply each year.",
+       "answer": "The number of private cars on the road is rising sharply each year.",
+       "accepted": [],
+       "reason": "वास्तविक subject number (singular) हो; the number of-पछि सधैँ singular verb आउँछ।"
+      },
+      {
+       "prompt": "It is difficult for many workers to cope up with rapid technological change.",
+       "answer": "It is difficult for many workers to cope with rapid technological change.",
+       "accepted": [],
+       "reason": "सही verb cope with हो; थपिएको up एउटा क्षेत्रीय बानी हो, phrase-मा यसको कुनै आधार छैन।"
+      },
+      {
+       "prompt": "Please open the light; the room is too dark to read in.",
+       "answer": "Please turn on the light; the room is too dark to read in.",
+       "accepted": [],
+       "reason": "बत्ती र उपकरण turn on वा off गरिन्छ; open/close ढोका र झ्यालका लागि हो।"
+      },
+      {
+       "prompt": "We reached to the examination hall twenty minutes before it started.",
+       "answer": "We reached the examination hall twenty minutes before it started. (or arrived at)",
+       "accepted": [],
+       "reason": "reach transitive हो र यसपछि कुनै preposition आउँदैन; arrive-पछि at वा in आउँछ।"
+      },
+      {
+       "prompt": "Most students prefer group study than studying alone at home.",
+       "answer": "Most students prefer group study to studying alone at home.",
+       "accepted": [],
+       "reason": "prefer-सँग than होइन, to आउँछ; दुवै option-लाई एउटै रूपमा राख्नुहोस् (study to studying)।"
+      },
+      {
+       "prompt": "After completing his research, he returned back to his home country.",
+       "answer": "After completing his research, he returned to his home country.",
+       "accepted": [],
+       "reason": "return-को अर्थ नै “go back” (फर्केर जानु) हो, त्यसैले back अनावश्यक छ।"
+      }
+     ]
+    }
+   ],
+   [
+    "exercise",
+    {
+     "title": "Exercise 1.2 · बंगालीबाट Band 9 अनुवाद चुनौती",
+     "kind": "essay_edit",
+     "instructions": "हरेक बंगाली विचार पढ्नुहोस् र त्यसलाई व्यक्त गर्ने एउटा स्वाभाविक, गल्तीरहित IELTS वाक्य लेख्नुहोस्। शब्द-शब्द अनुवाद नगर्नुहोस्; अर्थको अनुवाद गर्नुहोस्। हरेक विचारमा Part A-का trap-हरूमध्ये कम्तीमा एउटा लुकेको छ।",
+     "items": [
+      {
+       "prompt": "বেশিরভাগ মানুষ মনে করে যে প্রযুক্তি আমাদের দৈনন্দিন জীবনকে অনেক সহজ করেছে।",
+       "answer": "Most people believe that technology has made our daily lives much easier.",
+       "accepted": [],
+       "reason": "Trap: most-को ठाउँमा maximum लेख्ने गल्ती; वर्तमानसँग सम्बन्ध भएको परिवर्तनका लागि present perfect प्रयोग गर्नुहोस्।"
+      },
+      {
+       "prompt": "যানজট সত্ত্বেও, শহরের বেশিরভাগ মানুষ এখনও ব্যক্তিগত গাড়ি ব্যবহার করতে পছন্দ করে।",
+       "answer": "Despite the traffic congestion, most city dwellers still prefer to use private cars.",
+       "accepted": [],
+       "reason": "Trap: despite of; prefer … to।"
+      },
+      {
+       "prompt": "আমার মতে, সরকারের উচিত শিক্ষা খাতে আরও বেশি বিনিয়োগ করা।",
+       "answer": "In my opinion, the government should invest more heavily in the education sector.",
+       "accepted": [],
+       "reason": "Trap: according to me; invest in।"
+      },
+      {
+       "prompt": "আমি ২০১৮ সাল থেকে এই বিষয়ের উপর গবেষণা করছি।",
+       "answer": "I have been researching this subject since 2018.",
+       "accepted": [],
+       "reason": "Trap: since-सँग present continuous; research transitive हो, about चाहिँदैन।"
+      },
+      {
+       "prompt": "দূষণ জনস্বাস্থ্যের জন্য একটি মারাত্মক হুমকি সৃষ্টি করছে।",
+       "answer": "Pollution poses a serious threat to public health.",
+       "accepted": [],
+       "reason": "Trap: अस्पष्ट verb-को सट्टा सटीक collocation pose a threat to प्रयोग गर्नुहोस्।"
+      },
+      {
+       "prompt": "তরুণ প্রজন্মের জন্য কর্মসংস্থানের সুযোগ তৈরি করা অত্যন্ত জরুরি।",
+       "answer": "It is essential to create employment opportunities for the younger generation.",
+       "accepted": [],
+       "reason": "Trap: औपचारिक it is essential to; स्वाभाविक phrase the younger generation।"
+      },
+      {
+       "prompt": "যদিও অনেক শিক্ষার্থী ইংরেজিতে ভালো, তবুও তারা পরীক্ষায় ভালো ফল করতে পারে না।",
+       "answer": "Although many students are good at English, they fail to perform well in the exam.",
+       "accepted": [],
+       "reason": "Trap: good in-लाई good at बनाउनुहोस्; पूरा clause-सँग although।"
+      },
+      {
+       "prompt": "আমি একদিন আমার নিজের একটি প্রতিষ্ঠান গড়ে তুলতে চাই।",
+       "answer": "I hope to build my own company one day.",
+       "accepted": [],
+       "reason": "Trap: शब्द-शब्द अनुवाद होइन, स्वाभाविक build/establish a company र hope to।"
+      },
+      {
+       "prompt": "দারিদ্র্য দূর করা যেকোনো উন্নয়নশীল দেশের সবচেয়ে বড় চ্যালেঞ্জ।",
+       "answer": "Eradicating poverty is the biggest challenge for any developing nation.",
+       "accepted": [],
+       "reason": "Trap: eradicate-ले remove-लाई माथिल्लो स्तरमा लैजान्छ; subject-को रूपमा gerund।"
+      },
+      {
+       "prompt": "যদি সরকার আরও কঠোর আইন প্রণয়ন করত, তাহলে অপরাধের হার কমে যেত।",
+       "answer": "If the government enacted stricter laws, the crime rate would decrease.",
+       "accepted": [],
+       "reason": "Trap: second conditional (if-पछि past, परिणाम भागमा would); the crime rate, the rate of crime are होइन।"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+]

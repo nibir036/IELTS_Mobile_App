@@ -1,0 +1,3860 @@
+{
+ "table": "speaking_part1_topics",
+ "items": [
+  {
+   "id": "sp1_work",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Work",
+   "questions": [
+    "Do you work or are you a student?",
+    "Why did you choose that job?",
+    "What do you like most about your job?",
+    "Is there anything you dislike about your work?",
+    "Would you like to change your job in the future?"
+   ],
+   "data": {
+    "id": "sp1_work",
+    "bank": true,
+    "topic": "Work",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": true,
+    "questions": [
+     "Do you work or are you a student?",
+     "Why did you choose that job?",
+     "What do you like most about your job?",
+     "Is there anything you dislike about your work?",
+     "Would you like to change your job in the future?"
+    ],
+    "samples": [
+     {
+      "q": "Do you work or are you a student?",
+      "answer": "I'm working at the moment, at an education consultancy, where I [[predominantly]] help students with their applications abroad. It keeps me busy, but seeing someone reach a goal they worked towards is genuinely rewarding, so the effort feels worthwhile.",
+      "source": 4,
+      "words": 39
+     },
+     {
+      "q": "Why did you choose that job?",
+      "answer": "Mainly because I went through the application process myself as a student and realised how confusing it can be. I wanted to help people [[navigate]] that uncertainty, and this role lets me do exactly that.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "What do you like most about your job?",
+      "answer": "Honestly, it's the people. Every student comes with their own hopes and worries, so no two days are identical, and guiding someone through such a [[daunting]] process gives me a real sense of purpose.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Is there anything you dislike about your work?",
+      "answer": "The deadlines can be quite stressful, particularly during the main admission seasons when everything seems to arrive at once. There's a lot of paperwork too, and I'll admit the administrative side can get rather [[tedious]].",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Would you like to change your job in the future?",
+      "answer": "Not entirely, but I'd like to grow within the field. Ideally, I'll study abroad myself one day and then come back to a more senior role. For now, though, I'm happy [[honing my skills]] where I am.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_studies",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Studies",
+   "questions": [
+    "What subject did you study?",
+    "Why did you choose that subject?",
+    "Did you enjoy your time at university?",
+    "What was the most useful thing you learned?",
+    "Would you like to study something else in the future?"
+   ],
+   "data": {
+    "id": "sp1_studies",
+    "bank": true,
+    "topic": "Studies",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": true,
+    "questions": [
+     "What subject did you study?",
+     "Why did you choose that subject?",
+     "Did you enjoy your time at university?",
+     "What was the most useful thing you learned?",
+     "Would you like to study something else in the future?"
+    ],
+    "samples": [
+     {
+      "q": "What subject did you study?",
+      "answer": "I studied business administration at university, with a focus on management. It gave me a broad understanding of how organisations actually run, which has proved surprisingly [[invaluable]] in the work I do now.",
+      "source": 5,
+      "words": 33
+     },
+     {
+      "q": "Why did you choose that subject?",
+      "answer": "Partly because of my father, to be honest. Growing up around his small business, I saw how much planning goes into keeping things running, and I suppose that [[sparked my interest]] in management quite early on.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Did you enjoy your time at university?",
+      "answer": "Very much, on the whole. The coursework was demanding at times, but I made some lifelong friends and took part in a few debating events. Those years really helped me become more [[self-assured]] and independent.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "What was the most useful thing you learned?",
+      "answer": "Probably how to communicate clearly in a professional setting. We did a lot of group presentations, which I dreaded at first, but they gradually made me far more [[articulate]], and I rely on that every day at work.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Would you like to study something else in the future?",
+      "answer": "Yes, I'd love to do a master's abroad, possibly in international education or management. I feel it would deepen my understanding of the field and [[open doors]] that aren't really available to me here.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_hometown",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Hometown",
+   "questions": [
+    "Where is your hometown?",
+    "What do you like most about your hometown?",
+    "Is your hometown a good place for visitors?",
+    "Has your hometown changed much in recent years?",
+    "Do you prefer living in a city or the countryside?"
+   ],
+   "data": {
+    "id": "sp1_hometown",
+    "bank": true,
+    "topic": "Hometown",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": true,
+    "questions": [
+     "Where is your hometown?",
+     "What do you like most about your hometown?",
+     "Is your hometown a good place for visitors?",
+     "Has your hometown changed much in recent years?",
+     "Do you prefer living in a city or the countryside?"
+    ],
+    "samples": [
+     {
+      "q": "Where is your hometown?",
+      "answer": "I'm from Sirajganj, a modest town in the north of Bangladesh, right beside the Jamuna river. It's about four hours from Dhaka by road, and I've lived there most of my life, so it has a certain [[tranquillity]] that feels like home.",
+      "source": 1,
+      "words": 42
+     },
+     {
+      "q": "What do you like most about your hometown?",
+      "answer": "Without doubt, the river. In the evenings I often walk along the Jamuna embankment, and watching the sun set over the water is incredibly [[soothing]]. The people are warm and welcoming too, which gives it a real sense of community.",
+      "source": null,
+      "words": 40
+     },
+     {
+      "q": "Is your hometown a good place for visitors?",
+      "answer": "It's not a major tourist destination, but it has its charms. Sirajganj is known for its handloom weaving, and visitors can take a boat trip on the Jamuna. It suits anyone who enjoys a slower, more [[laid-back]] pace.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Has your hometown changed much in recent years?",
+      "answer": "Quite a lot, actually. There are more shops, better roads and far more traffic than when I was younger. Some of it is welcome progress, but part of me misses how quiet and [[unspoilt]] it used to feel.",
+      "source": 11,
+      "words": 38
+     },
+     {
+      "q": "Do you prefer living in a city or the countryside?",
+      "answer": "That's a tough one. I enjoy the energy of a city, but I genuinely appreciate the calm of the countryside. Honestly, the [[ideal]] for me would be a quieter town that isn't too far from a city.",
+      "source": 12,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_home",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Home",
+   "questions": [
+    "Do you live in a house or a flat?",
+    "How long have you lived there?",
+    "Which room do you spend the most time in?",
+    "Is there anything you'd like to change about your home?",
+    "What kind of home would you like to live in in the future?"
+   ],
+   "data": {
+    "id": "sp1_home",
+    "bank": true,
+    "topic": "Home",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": true,
+    "questions": [
+     "Do you live in a house or a flat?",
+     "How long have you lived there?",
+     "Which room do you spend the most time in?",
+     "Is there anything you'd like to change about your home?",
+     "What kind of home would you like to live in in the future?"
+    ],
+    "samples": [
+     {
+      "q": "Do you live in a house or a flat?",
+      "answer": "I live in a flat, on the third floor of a building in a quiet residential area. It's a three-bedroom place I share with my family. It suits us well, though I do [[occasionally]] wish we had a bit more open space around us.",
+      "source": 2,
+      "words": 44
+     },
+     {
+      "q": "How long have you lived there?",
+      "answer": "Well over a decade now, since I was a teenager. Before that we rented a smaller place nearby, so moving there felt like a real step up, and the flat is full of [[fond memories]] for all of us.",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "Which room do you spend the most time in?",
+      "answer": "Definitely my bedroom, which doubles as my study, so I'm in there for most of the day when I'm home. I've arranged it to be quiet and comfortable, which makes it easy to [[concentrate]].",
+      "source": 13,
+      "words": 34
+     },
+     {
+      "q": "Is there anything you'd like to change about your home?",
+      "answer": "I'd love a bigger balcony, to be honest. Ours is quite narrow, so there isn't much room for plants or a chair. A bit more outdoor space would make it far more [[inviting]] on pleasant evenings.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "What kind of home would you like to live in in the future?",
+      "answer": "Ideally, a small house with a garden, somewhere peaceful but still within reach of the town. I'd like to grow a few vegetables and have space for bookshelves. Nothing grand, just somewhere that feels like a genuine [[sanctuary]].",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_family",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Family",
+   "questions": [
+    "Can you tell me about your family?",
+    "Do you spend much time with your family?",
+    "Who are you closest to in your family?",
+    "What do you like to do together as a family?",
+    "Has your family changed much in recent years?"
+   ],
+   "data": {
+    "id": "sp1_family",
+    "bank": true,
+    "topic": "Family",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "Can you tell me about your family?",
+     "Do you spend much time with your family?",
+     "Who are you closest to in your family?",
+     "What do you like to do together as a family?",
+     "Has your family changed much in recent years?"
+    ],
+    "samples": [
+     {
+      "q": "Can you tell me about your family?",
+      "answer": "It's a fairly typical family. There are five of us: my parents, my two sisters and me, although my elder sister is married now and lives in Dhaka with her husband and children. My father ran a small business until he retired recently, and my mother looks after the home. We're quite [[close-knit]], and those of us at home usually have dinner together every night.",
+      "source": 3,
+      "words": 65
+     },
+     {
+      "q": "Do you spend much time with your family?",
+      "answer": "Quite a lot, especially in the evenings. Once work is done, we tend to gather in the living room over tea and chat about our day. Those relaxed moments help me [[wind down]] after a long day.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Who are you closest to in your family?",
+      "answer": "Probably my younger sister. She's a student and incredibly hard-working, so we often talk about her studies and plans. I feel quite [[protective]] of her, and she's usually the first person I share news with.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "What do you like to do together as a family?",
+      "answer": "We love visiting my grandparents in our ancestral village, which isn't far from Sirajganj. The whole family gathers there, especially during Eid, and those visits have an [[unhurried]] warmth that I really treasure.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Has your family changed much in recent years?",
+      "answer": "Quite a bit, actually. My elder sister got married and moved to Dhaka, and my father has recently retired, so he's at home far more. It was a big [[adjustment]] at first, but it's brought us even closer.",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_name",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Your name",
+   "questions": [
+    "Does your name have any special meaning?",
+    "Who chose your name?",
+    "Do you have a nickname?",
+    "What names are popular in your country?",
+    "Would you ever change your name?"
+   ],
+   "data": {
+    "id": "sp1_name",
+    "bank": true,
+    "topic": "Your name",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "Does your name have any special meaning?",
+     "Who chose your name?",
+     "Do you have a nickname?",
+     "What names are popular in your country?",
+     "Would you ever change your name?"
+    ],
+    "samples": [
+     {
+      "q": "Does your name have any special meaning?",
+      "answer": "Yes, it does actually. My name carries a meaning connected to guidance and light, which is fairly common in our culture. I quite like it, because names here are usually chosen with real [[deliberation]] behind them.",
+      "source": 6,
+      "words": 36
+     },
+     {
+      "q": "Who chose your name?",
+      "answer": "My grandfather did, actually. In our family it's [[customary]] for the eldest relative to suggest a name, and my parents were happy to go along with it. I think that's quite a touching tradition.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you have a nickname?",
+      "answer": "Yes, like most people in Bangladesh, I have a short nickname that my family and close friends use. My formal name is really only for official documents, so the nickname feels far more [[affectionate]] and personal.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "What names are popular in your country?",
+      "answer": "Names with religious or poetic meanings are very popular here, particularly Arabic and Bengali ones. Recently, though, I've noticed parents choosing shorter, more modern names, which reflects a broader [[generational change]] in taste.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Would you ever change your name?",
+      "answer": "No, I can't imagine doing that. My name connects me to my grandfather and to my family's traditions, so changing it would feel like losing part of my [[heritage]].",
+      "source": null,
+      "words": 29
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_routine",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Daily routine",
+   "questions": [
+    "What is your typical daily routine?",
+    "Do you usually get up early?",
+    "Which part of the day do you like most?",
+    "Do you prefer having a routine or variety?",
+    "Has your routine changed much since you were a student?"
+   ],
+   "data": {
+    "id": "sp1_routine",
+    "bank": true,
+    "topic": "Daily routine",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "What is your typical daily routine?",
+     "Do you usually get up early?",
+     "Which part of the day do you like most?",
+     "Do you prefer having a routine or variety?",
+     "Has your routine changed much since you were a student?"
+    ],
+    "samples": [
+     {
+      "q": "What is your typical daily routine?",
+      "answer": "It's fairly structured on weekdays. I get up around seven, have a quick breakfast, and I'm at work by nine. After work I usually study for a couple of hours, then [[unwind]] before bed. Weekends are far more relaxed.",
+      "source": 7,
+      "words": 39
+     },
+     {
+      "q": "Do you usually get up early?",
+      "answer": "Yes, on weekdays I'm up by seven. I've found I think much more clearly in the mornings, so I make the most of that quiet, [[uninterrupted]] time. On weekends, though, I happily allow myself a lie-in.",
+      "source": 30,
+      "words": 36
+     },
+     {
+      "q": "Which part of the day do you like most?",
+      "answer": "The early morning, surprisingly. It's quiet, the day hasn't got hectic yet, and I feel clear-headed. A calm start with a cup of tea genuinely sets a [[productive]] tone for everything that follows.",
+      "source": 16,
+      "words": 33
+     },
+     {
+      "q": "Do you prefer having a routine or variety?",
+      "answer": "A bit of both, ideally. A steady routine keeps me productive, but I'd get bored without some variety. So I like structure on weekdays and something a little more [[spontaneous]] at the weekend.",
+      "source": 39,
+      "words": 33
+     },
+     {
+      "q": "Has your routine changed much since you were a student?",
+      "answer": "Quite significantly. At university my days were far more flexible, and I'd often stay up late and sleep in. Now that I work full-time, I've had to become much more [[disciplined]], which has honestly been good for me.",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_neighbours",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Neighbours",
+   "questions": [
+    "Do you know your neighbours well?",
+    "How often do you see your neighbours?",
+    "Do you ever help your neighbours?",
+    "What do you think makes a good neighbour?",
+    "Do you think people are as close to their neighbours as they used to be?"
+   ],
+   "data": {
+    "id": "sp1_neighbours",
+    "bank": true,
+    "topic": "Neighbours",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "Do you know your neighbours well?",
+     "How often do you see your neighbours?",
+     "Do you ever help your neighbours?",
+     "What do you think makes a good neighbour?",
+     "Do you think people are as close to their neighbours as they used to be?"
+    ],
+    "samples": [
+     {
+      "q": "Do you know your neighbours well?",
+      "answer": "Reasonably well, yes. In our building people are fairly friendly, so we greet each other and occasionally chat. I wouldn't say we're close, but there's a warm, [[cordial]] relationship, which matters when you live so near people.",
+      "source": 8,
+      "words": 37
+     },
+     {
+      "q": "How often do you see your neighbours?",
+      "answer": "Almost every day, just in passing, on the stairs or near the entrance, and we usually exchange a quick greeting. During Eid, though, we visit each other properly and share food, which is a [[heartwarming]] custom.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you ever help your neighbours?",
+      "answer": "Now and then, yes. There's an elderly man on our floor, so I sometimes carry his shopping upstairs or help with small errands. It's only a small gesture, but I think these acts of [[goodwill]] matter in a community.",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "What do you think makes a good neighbour?",
+      "answer": "Someone who's respectful and considerate, really. A good neighbour keeps the noise down, says hello and is willing to lend a hand in an emergency, but also respects your privacy and doesn't [[pry]].",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Do you think people are as close to their neighbours as they used to be?",
+      "answer": "Not really, especially in bigger cities. When I was younger, neighbours would drop in unannounced for tea. Nowadays people are busier and more private, so those bonds have [[eroded]] somewhat.",
+      "source": null,
+      "words": 30
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_friends",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Friends",
+   "questions": [
+    "Do you have many friends?",
+    "How did you meet your closest friends?",
+    "Can you describe your best friend?",
+    "What do you usually do with your friends?",
+    "Do you think it's easy to make friends as an adult?"
+   ],
+   "data": {
+    "id": "sp1_friends",
+    "bank": true,
+    "topic": "Friends",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "Do you have many friends?",
+     "How did you meet your closest friends?",
+     "Can you describe your best friend?",
+     "What do you usually do with your friends?",
+     "Do you think it's easy to make friends as an adult?"
+    ],
+    "samples": [
+     {
+      "q": "Do you have many friends?",
+      "answer": "I wouldn't say many, but I have a small circle I really trust. I've always preferred a few close friendships over a wide range of [[acquaintances]]. Those are the people I can be completely myself around.",
+      "source": 9,
+      "words": 36
+     },
+     {
+      "q": "How did you meet your closest friends?",
+      "answer": "Most of them are from school and university, so we've known each other for years and share a lot of history. A couple are former colleagues too, which shows that friendships can [[blossom]] in unexpected places.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Can you describe your best friend?",
+      "answer": "Sure. He's easygoing, genuinely kind and a great listener, which is probably why we've stayed close for so long. He has this [[reassuring]] way of putting things in perspective whenever I'm stressed.",
+      "source": 20,
+      "words": 32
+     },
+     {
+      "q": "What do you usually do with your friends?",
+      "answer": "Nothing too elaborate. We usually meet at a local tea stall and chat for hours, or watch a cricket match together. Sometimes we take a walk by the river. It's the easy, [[unpretentious]] company that I value most.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Do you think it's easy to make friends as an adult?",
+      "answer": "Not as easy as it was at school. Adults are busy with work and family, so there are fewer chances to connect naturally. Friendships still form, but they take more time and [[deliberate]] effort.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_childhood",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Childhood",
+   "questions": [
+    "Where did you grow up?",
+    "What did you enjoy doing as a child?",
+    "Did you have any hobbies as a child?",
+    "Did you have much freedom as a child?",
+    "Do you think children today have a better childhood than you had?"
+   ],
+   "data": {
+    "id": "sp1_childhood",
+    "bank": true,
+    "topic": "Childhood",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "Where did you grow up?",
+     "What did you enjoy doing as a child?",
+     "Did you have any hobbies as a child?",
+     "Did you have much freedom as a child?",
+     "Do you think children today have a better childhood than you had?"
+    ],
+    "samples": [
+     {
+      "q": "Where did you grow up?",
+      "answer": "Mostly in Sirajganj, although I spent many school holidays at my grandparents' home in our village nearby. Both places shaped me, and I still feel a strong sense of [[belonging]] whenever I go back.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "What did you enjoy doing as a child?",
+      "answer": "I was quite an outdoorsy kid. I'd spend hours playing cricket with the neighbourhood children until it got dark. Looking back, those were some of the most [[carefree]] times of my life.",
+      "source": 10,
+      "words": 32
+     },
+     {
+      "q": "Did you have any hobbies as a child?",
+      "answer": "Plenty. I was always outside playing cricket, and I also loved reading comics and adventure stories. Those simple hobbies kept me endlessly [[entertained]], long before phones and screens took over.",
+      "source": 59,
+      "words": 30
+     },
+     {
+      "q": "Did you have much freedom as a child?",
+      "answer": "Quite a lot, compared to children in big cities today. As long as I was home before dark, my parents were fairly relaxed. Our neighbourhood felt safe, so I could [[roam]] around with friends quite freely.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think children today have a better childhood than you had?",
+      "answer": "In some ways, yes. They have access to far more information and opportunities. However, I think they spend too much time indoors on screens and miss out on the kind of [[unstructured]] outdoor play I enjoyed.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_languages",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Languages",
+   "questions": [
+    "What languages do you speak?",
+    "Is English widely spoken in your country?",
+    "Would you like to learn another language?",
+    "Do you find learning languages difficult?",
+    "Do you think children should learn a foreign language at school?"
+   ],
+   "data": {
+    "id": "sp1_languages",
+    "bank": true,
+    "topic": "Languages",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "What languages do you speak?",
+     "Is English widely spoken in your country?",
+     "Would you like to learn another language?",
+     "Do you find learning languages difficult?",
+     "Do you think children should learn a foreign language at school?"
+    ],
+    "samples": [
+     {
+      "q": "What languages do you speak?",
+      "answer": "I speak Bengali as my mother tongue, and English fairly fluently. I picked up English mostly through school and a lot of self-study, and I use it daily at work, so it's become almost [[instinctive]].",
+      "source": 14,
+      "words": 35
+     },
+     {
+      "q": "Is English widely spoken in your country?",
+      "answer": "It's widely understood in cities, particularly in business, universities and among younger people. In rural areas, though, Bengali is used for almost everything. English is increasingly seen as a [[gateway]] to better jobs and study opportunities.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Would you like to learn another language?",
+      "answer": "I'd love to learn Arabic, mainly so I can understand the Quran more deeply. I've also considered German, since some students I advise are interested in universities there, so it could give me a [[competitive edge]] at work.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Do you find learning languages difficult?",
+      "answer": "It can be, especially as an adult. Grammar and vocabulary take time, but the real challenge is speaking confidently without fear of mistakes. I think consistent practice and [[immersion]] matter far more than natural talent.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you think children should learn a foreign language at school?",
+      "answer": "Absolutely. Children pick up languages far more easily than adults, and early exposure builds confidence. In such an [[interconnected]] world, a second language gives them a real advantage later in life.",
+      "source": null,
+      "words": 31
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_future-plans",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Future plans",
+   "questions": [
+    "What are your plans for the future?",
+    "Which country would you most like to study in?",
+    "Where would you like to live in the future?",
+    "Do you usually plan things carefully?",
+    "Do you think your life will be very different in ten years?"
+   ],
+   "data": {
+    "id": "sp1_future-plans",
+    "bank": true,
+    "topic": "Future plans",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "What are your plans for the future?",
+     "Which country would you most like to study in?",
+     "Where would you like to live in the future?",
+     "Do you usually plan things carefully?",
+     "Do you think your life will be very different in ten years?"
+    ],
+    "samples": [
+     {
+      "q": "What are your plans for the future?",
+      "answer": "In the short term, I'm focused on strengthening my career and possibly studying abroad. Longer term, I'd like to reach a point where my work has real impact and I have the [[stability]] to enjoy life a little more.",
+      "source": 15,
+      "words": 39
+     },
+     {
+      "q": "Which country would you most like to study in?",
+      "answer": "Probably the UK or Canada. Both have excellent universities and a strong reputation in business and education. Having helped so many students apply there, I understand the process well, which makes the idea far less [[intimidating]].",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Where would you like to live in the future?",
+      "answer": "I'd happily spend a few years abroad for study, but eventually I'd like to settle back in Bangladesh, perhaps in Dhaka or near my hometown. My family is here, and I feel deeply [[rooted]] in this place.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you usually plan things carefully?",
+      "answer": "For important matters, definitely. I like to set clear goals and break them into manageable steps. That said, I've learned that life rarely goes exactly to plan, so staying [[adaptable]] is just as important.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you think your life will be very different in ten years?",
+      "answer": "I imagine so. Hopefully I'll have completed further studies and be in a more senior position. I might have a family of my own by then too, so my priorities will probably [[evolve]] quite a lot.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_weekends",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Weekends",
+   "questions": [
+    "What do you usually do at the weekend?",
+    "Who do you usually spend your weekends with?",
+    "Do you prefer weekdays or weekends?",
+    "Did you do anything special last weekend?",
+    "Are your weekends different now from when you were a child?"
+   ],
+   "data": {
+    "id": "sp1_weekends",
+    "bank": true,
+    "topic": "Weekends",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "What do you usually do at the weekend?",
+     "Who do you usually spend your weekends with?",
+     "Do you prefer weekdays or weekends?",
+     "Did you do anything special last weekend?",
+     "Are your weekends different now from when you were a child?"
+    ],
+    "samples": [
+     {
+      "q": "What do you usually do at the weekend?",
+      "answer": "I try to keep weekends flexible after a busy week. Usually I catch up on sleep, meet a friend or two, and maybe run some errands. If I'm lucky, I'll fit in a book or a film to properly [[recharge]].",
+      "source": 17,
+      "words": 40
+     },
+     {
+      "q": "Who do you usually spend your weekends with?",
+      "answer": "Mostly with my family, to be honest. My younger sister and I sometimes go out for snacks, and occasionally we all visit my grandparents in the village. Evenings are usually for friends, so my weekends feel pleasantly [[well-rounded]].",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Do you prefer weekdays or weekends?",
+      "answer": "Weekends, without question. Weekdays are productive but tiring, whereas weekends give me space to rest and see people. That balance is what keeps me [[going]] through the week.",
+      "source": 85,
+      "words": 28
+     },
+     {
+      "q": "Did you do anything special last weekend?",
+      "answer": "Nothing extraordinary. On Friday I went to the mosque for Friday prayers, then spent the afternoon reading. On Saturday I met two old friends for tea, and we ended up chatting for hours, which was [[thoroughly]] enjoyable.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Are your weekends different now from when you were a child?",
+      "answer": "Completely. As a child, weekends meant endless cricket and visits to relatives. Now they're mostly about resting and catching up on things I couldn't do during the week, so they feel less [[adventurous]] but more precious.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_sleep",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Sleep",
+   "questions": [
+    "How many hours do you usually sleep?",
+    "Do you usually sleep well?",
+    "Do you take naps during the day?",
+    "What do you do when you can't fall asleep?",
+    "Do you think people get enough sleep nowadays?"
+   ],
+   "data": {
+    "id": "sp1_sleep",
+    "bank": true,
+    "topic": "Sleep",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "How many hours do you usually sleep?",
+     "Do you usually sleep well?",
+     "Do you take naps during the day?",
+     "What do you do when you can't fall asleep?",
+     "Do you think people get enough sleep nowadays?"
+    ],
+    "samples": [
+     {
+      "q": "How many hours do you usually sleep?",
+      "answer": "Usually around seven hours on weeknights, which seems to be enough for me. At weekends I sometimes sleep a little longer to [[make up for]] the week, although I try not to overdo it.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you usually sleep well?",
+      "answer": "Mostly, yes, though it varies. When my mind is calm I fall asleep quickly, but on stressful days it takes a while to switch off. I've learned that avoiding my phone before bed is [[remarkably]] effective.",
+      "source": 18,
+      "words": 36
+     },
+     {
+      "q": "Do you take naps during the day?",
+      "answer": "Rarely on workdays, since there simply isn't time. On Fridays, though, I sometimes have a short nap after lunch. Even twenty minutes leaves me feeling [[refreshed]] and noticeably sharper for the rest of the day.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "What do you do when you can't fall asleep?",
+      "answer": "I usually get up and read something light for a while rather than lying there frustrated. Sometimes a cup of warm milk helps too. Once my mind settles, I tend to [[drift off]] fairly quickly.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you think people get enough sleep nowadays?",
+      "answer": "Not really, particularly young people. Many stay up late on their phones or working, then wake early for work or classes. I think sleep is often treated as a [[luxury]] rather than a necessity these days.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_time",
+   "source": "bank",
+   "category": "personal",
+   "topic": "Time and punctuality",
+   "questions": [
+    "Are you a punctual person?",
+    "How do you feel when other people are late?",
+    "Are you good at managing your time?",
+    "Do you usually wear a watch?",
+    "Do you think people are busier today than in the past?"
+   ],
+   "data": {
+    "id": "sp1_time",
+    "bank": true,
+    "topic": "Time and punctuality",
+    "category": "personal",
+    "categoryLabel": "Personal & Background",
+    "intro": false,
+    "questions": [
+     "Are you a punctual person?",
+     "How do you feel when other people are late?",
+     "Are you good at managing your time?",
+     "Do you usually wear a watch?",
+     "Do you think people are busier today than in the past?"
+    ],
+    "samples": [
+     {
+      "q": "Are you a punctual person?",
+      "answer": "I'd like to think so, yes. I genuinely dislike keeping people waiting, so I usually aim to arrive a little early. To me, being on time is a simple way of showing [[consideration]] for others.",
+      "source": 19,
+      "words": 35
+     },
+     {
+      "q": "How do you feel when other people are late?",
+      "answer": "It depends on the situation. If it's a friend and only a few minutes, I don't mind at all. But if someone is repeatedly late for professional meetings, I find it quite [[exasperating]], because it wastes everyone's time.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Are you good at managing your time?",
+      "answer": "Mostly, yes. I rely a lot on a simple to-do list, which keeps me on track. I'm not perfect, and things occasionally slip, but planning ahead stops me feeling [[overwhelmed]].",
+      "source": 33,
+      "words": 30
+     },
+     {
+      "q": "Do you usually wear a watch?",
+      "answer": "Not anymore. I used to wear one my father gave me, but now I just check the time on my phone. I still keep that watch safely in a drawer, though, because it has real [[sentimental value]].",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you think people are busier today than in the past?",
+      "answer": "I'd say so. With smartphones, we're always reachable, so work often spills into our personal time. Our parents seemed to have clearer boundaries, whereas now life feels far more [[fast-paced]] and demanding.",
+      "source": null,
+      "words": 32
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_cooking",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Cooking",
+   "questions": [
+    "Who does most of the cooking in your family?",
+    "Do you enjoy cooking?",
+    "What dishes can you cook?",
+    "Do you find cooking relaxing?",
+    "Do you think children should learn to cook?"
+   ],
+   "data": {
+    "id": "sp1_cooking",
+    "bank": true,
+    "topic": "Cooking",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "Who does most of the cooking in your family?",
+     "Do you enjoy cooking?",
+     "What dishes can you cook?",
+     "Do you find cooking relaxing?",
+     "Do you think children should learn to cook?"
+    ],
+    "samples": [
+     {
+      "q": "Who does most of the cooking in your family?",
+      "answer": "My mother, without a doubt. She's an excellent cook and takes real pride in it. My younger sister and I help occasionally, but honestly, nobody can [[replicate]] her fish curry, no matter how hard we try.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you enjoy cooking?",
+      "answer": "I do, actually, though I only really cook at the weekend. During the week I'm too busy, but on a lazy Saturday I quite enjoy trying a new recipe. I find the whole process rather [[therapeutic]] after a hectic week.",
+      "source": 21,
+      "words": 40
+     },
+     {
+      "q": "What dishes can you cook?",
+      "answer": "Nothing too ambitious. I can make a decent chicken curry, khichuri and simple fried fish. Lately I've been trying to [[master]] a proper biryani, although my first attempts were fairly disappointing, to put it kindly.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you find cooking relaxing?",
+      "answer": "Surprisingly, yes. When I'm not rushed, following a recipe and getting fully [[immersed]] in it takes my mind off everything else. And of course there's the reward of a good meal at the end.",
+      "source": 53,
+      "words": 34
+     },
+     {
+      "q": "Do you think children should learn to cook?",
+      "answer": "Definitely. Cooking is a basic life skill, and it teaches children about nutrition and independence. If they learn early, they're far less likely to [[fall back on]] fast food when they eventually live on their own.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_meals",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Meals and eating out",
+   "questions": [
+    "What do you usually have for breakfast?",
+    "What is your favourite meal of the day?",
+    "Do you prefer eating at home or in restaurants?",
+    "Is there a traditional dish from your country you'd recommend?",
+    "Have your eating habits changed in recent years?"
+   ],
+   "data": {
+    "id": "sp1_meals",
+    "bank": true,
+    "topic": "Meals and eating out",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "What do you usually have for breakfast?",
+     "What is your favourite meal of the day?",
+     "Do you prefer eating at home or in restaurants?",
+     "Is there a traditional dish from your country you'd recommend?",
+     "Have your eating habits changed in recent years?"
+    ],
+    "samples": [
+     {
+      "q": "What do you usually have for breakfast?",
+      "answer": "Usually something simple, like paratha with egg or a bit of vegetable curry, along with a cup of tea. It's not elaborate, but it's [[wholesome]] and keeps me going until lunch.",
+      "source": null,
+      "words": 31
+     },
+     {
+      "q": "What is your favourite meal of the day?",
+      "answer": "Definitely dinner. It's the one meal where the whole family sits down together and actually talks, so it's as much about the company as the food. It's become a small daily [[ritual]] I really value.",
+      "source": 22,
+      "words": 35
+     },
+     {
+      "q": "Do you prefer eating at home or in restaurants?",
+      "answer": "Mostly at home, to be honest. Home-cooked food is healthier and more comforting. That said, I do enjoy dining out now and then, especially when it's a chance to [[socialise]] with friends over a meal.",
+      "source": 40,
+      "words": 35
+     },
+     {
+      "q": "Is there a traditional dish from your country you'd recommend?",
+      "answer": "I'd definitely recommend hilsa fish, especially cooked in mustard sauce. It's our national fish, and it has a rich, [[distinctive]] flavour. During Pohela Boishakh, many families eat it with panta bhat.",
+      "source": null,
+      "words": 31
+     },
+     {
+      "q": "Have your eating habits changed in recent years?",
+      "answer": "Somewhat, yes. I used to eat a lot of fried street food, but now I try to cut back on oily snacks and eat more vegetables. I haven't given them up completely, but I'm certainly more [[health-conscious]] than before.",
+      "source": null,
+      "words": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_shopping",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Shopping",
+   "questions": [
+    "Where do you usually go shopping?",
+    "Do you enjoy shopping?",
+    "Do you prefer shopping alone or with others?",
+    "Do you ever buy things on impulse?",
+    "Has the way people shop in your country changed?"
+   ],
+   "data": {
+    "id": "sp1_shopping",
+    "bank": true,
+    "topic": "Shopping",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "Where do you usually go shopping?",
+     "Do you enjoy shopping?",
+     "Do you prefer shopping alone or with others?",
+     "Do you ever buy things on impulse?",
+     "Has the way people shop in your country changed?"
+    ],
+    "samples": [
+     {
+      "q": "Where do you usually go shopping?",
+      "answer": "For everyday things, I go to the local market near our home, which is always [[bustling]]. For larger purchases, I'd rather order online or visit one of the bigger shopping centres, where there's more choice.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you enjoy shopping?",
+      "answer": "It depends what I'm shopping for, honestly. I like buying books or a bit of tech, but clothes shopping [[drains]] me quickly. These days I do most of it online, which saves me a lot of time.",
+      "source": 23,
+      "words": 37
+     },
+     {
+      "q": "Do you prefer shopping alone or with others?",
+      "answer": "Alone, usually, because I like to get in and out quickly. When I go with my sister, it turns into an afternoon of [[browsing]] every single shop, which is fun occasionally but exhausting.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Do you ever buy things on impulse?",
+      "answer": "Occasionally, especially books. If I see an interesting title, I find it hard to resist, even if I already have a pile waiting to be read. Otherwise, I'm fairly [[prudent]] with what I spend.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Has the way people shop in your country changed?",
+      "answer": "Dramatically. Not long ago almost everyone shopped at markets, but now online shopping and home delivery are extremely common, especially in cities. Still, traditional markets remain [[resilient]], because people enjoy bargaining and seeing products in person.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_clothes",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Clothes",
+   "questions": [
+    "What kind of clothes do you like to wear?",
+    "Do you wear different clothes at work and at home?",
+    "Do you ever wear traditional clothes?",
+    "Do you spend a lot on clothes?",
+    "Have clothing styles in your country changed much?"
+   ],
+   "data": {
+    "id": "sp1_clothes",
+    "bank": true,
+    "topic": "Clothes",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "What kind of clothes do you like to wear?",
+     "Do you wear different clothes at work and at home?",
+     "Do you ever wear traditional clothes?",
+     "Do you spend a lot on clothes?",
+     "Have clothing styles in your country changed much?"
+    ],
+    "samples": [
+     {
+      "q": "What kind of clothes do you like to wear?",
+      "answer": "I tend to keep it simple and comfortable, mostly casual shirts and jeans. I'm not one for chasing trends. As long as something is neat and [[versatile]], I'm perfectly happy with it.",
+      "source": 24,
+      "words": 32
+     },
+     {
+      "q": "Do you wear different clothes at work and at home?",
+      "answer": "Yes, quite different. At work I wear formal shirts and trousers, since a [[polished]] appearance matters when meeting students and parents. At home, though, I change straight into something loose and comfortable.",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Do you ever wear traditional clothes?",
+      "answer": "Yes, mostly on special occasions. For Eid and weddings I always wear a panjabi, which is a long traditional shirt. I really enjoy it, because it feels festive and connects me to our [[cultural roots]].",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you spend a lot on clothes?",
+      "answer": "Not really. I buy new clothes mainly before Eid or when something wears out. I'd rather invest in a few good-quality items than lots of cheap ones that quickly lose their shape, as it's more [[economical]] in the long run.",
+      "source": null,
+      "words": 40
+     },
+     {
+      "q": "Have clothing styles in your country changed much?",
+      "answer": "Considerably, especially among young people. Western styles like jeans and T-shirts are now everyday wear in towns and cities. Even so, traditional clothing remains [[deeply ingrained]], particularly during festivals and family celebrations.",
+      "source": null,
+      "words": 32
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_phones",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Mobile phones",
+   "questions": [
+    "When did you get your first mobile phone?",
+    "How often do you use your mobile phone?",
+    "What do you mainly use your phone for?",
+    "Do you prefer phone calls or text messages?",
+    "Do you think young children should have smartphones?"
+   ],
+   "data": {
+    "id": "sp1_phones",
+    "bank": true,
+    "topic": "Mobile phones",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "When did you get your first mobile phone?",
+     "How often do you use your mobile phone?",
+     "What do you mainly use your phone for?",
+     "Do you prefer phone calls or text messages?",
+     "Do you think young children should have smartphones?"
+    ],
+    "samples": [
+     {
+      "q": "When did you get your first mobile phone?",
+      "answer": "I got my first one when I started college, at around sixteen. It was a basic model that could only make calls and send texts, but I was absolutely [[thrilled]] with it, even though it seems ancient by today's standards.",
+      "source": null,
+      "words": 40
+     },
+     {
+      "q": "How often do you use your mobile phone?",
+      "answer": "Far too often, if I'm honest. It's become almost [[indispensable]] for work and staying in touch, so it's rarely out of my hand. Lately I've been trying to set limits, because it's easy to lose track of time.",
+      "source": 25,
+      "words": 38
+     },
+     {
+      "q": "What do you mainly use your phone for?",
+      "answer": "Mostly for work, to be honest. I reply to students' messages, check emails and join video calls. Outside work, I read the news and keep in touch with my elder sister in Dhaka, so it's become a real [[lifeline]].",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "Do you prefer phone calls or text messages?",
+      "answer": "For quick things, texting, since it's fast and doesn't interrupt anyone. But for anything important, I much prefer a call. You can hear the tone of someone's voice, which makes the exchange feel far more [[genuine]].",
+      "source": 96,
+      "words": 36
+     },
+     {
+      "q": "Do you think young children should have smartphones?",
+      "answer": "Not at a very young age. A basic phone for emergencies is sensible, but [[unrestricted]] internet access can be harmful. I think parents should introduce smartphones gradually and keep an eye on how they're used.",
+      "source": null,
+      "words": 35
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_technology",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Technology",
+   "questions": [
+    "What technology do you use most often?",
+    "How does technology help you in your work?",
+    "Do you think you rely too much on technology?",
+    "Is there any piece of technology you'd like to buy?",
+    "Do older people in your country find technology difficult?"
+   ],
+   "data": {
+    "id": "sp1_technology",
+    "bank": true,
+    "topic": "Technology",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "What technology do you use most often?",
+     "How does technology help you in your work?",
+     "Do you think you rely too much on technology?",
+     "Is there any piece of technology you'd like to buy?",
+     "Do older people in your country find technology difficult?"
+    ],
+    "samples": [
+     {
+      "q": "What technology do you use most often?",
+      "answer": "My laptop, without question. I use it all day at work for applications, emails and research, and in the evenings for studying. My phone is a close second, but the laptop is really the [[backbone]] of my working day.",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "How does technology help you in your work?",
+      "answer": "Enormously. Almost every application is submitted online now, and I can hold video meetings with universities abroad. Tasks that once took days can be done in hours, which has [[streamlined]] our work considerably.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Do you think you rely too much on technology?",
+      "answer": "To some extent, yes. It makes life easier, but I've noticed I reach for my phone out of habit rather than need. I'm trying to be more [[mindful]], especially in the evenings when I should be relaxing.",
+      "source": 26,
+      "words": 37
+     },
+     {
+      "q": "Is there any piece of technology you'd like to buy?",
+      "answer": "I'd quite like a good e-reader. I read a lot, and carrying several books around isn't very practical. An e-reader would be lighter and easier on the eyes than my phone, so it seems a [[worthwhile]] investment.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do older people in your country find technology difficult?",
+      "answer": "Many do, although it's improving. My grandfather, for instance, now makes video calls to my elder sister, but it took a lot of patience to teach him. Once they see the benefits, older people can be surprisingly [[receptive]].",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_health",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Exercise and health",
+   "questions": [
+    "Do you do any sports or exercise?",
+    "Did you play any sports at school?",
+    "Do you prefer exercising alone or with other people?",
+    "Do you have a healthy lifestyle?",
+    "Are people in your country becoming more health-conscious?"
+   ],
+   "data": {
+    "id": "sp1_health",
+    "bank": true,
+    "topic": "Exercise and health",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "Do you do any sports or exercise?",
+     "Did you play any sports at school?",
+     "Do you prefer exercising alone or with other people?",
+     "Do you have a healthy lifestyle?",
+     "Are people in your country becoming more health-conscious?"
+    ],
+    "samples": [
+     {
+      "q": "Do you do any sports or exercise?",
+      "answer": "I try to, though not as consistently as I should. I go for a brisk walk most evenings, and occasionally I play badminton. I always feel [[rejuvenated]] afterwards, so I really ought to do more of it.",
+      "source": 27,
+      "words": 37
+     },
+     {
+      "q": "Did you play any sports at school?",
+      "answer": "Yes, cricket was my main sport, and I played for my school team for a couple of years. I wasn't the most talented player, but I made up for it with [[sheer enthusiasm]], and it taught me a lot about teamwork.",
+      "source": null,
+      "words": 41
+     },
+     {
+      "q": "Do you prefer exercising alone or with other people?",
+      "answer": "It depends. For walking, I prefer being alone, because it gives me time to think. For something like badminton, though, company makes it far more enjoyable and keeps me [[accountable]], so I'm less likely to skip it.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you have a healthy lifestyle?",
+      "answer": "Reasonably, I'd say. I eat home-cooked food most of the time and try to stay active, but my sleep could be better. It's an ongoing effort, but I think I'm gradually [[cultivating]] better habits.",
+      "source": 28,
+      "words": 34
+     },
+     {
+      "q": "Are people in your country becoming more health-conscious?",
+      "answer": "Gradually, yes. You now see many people walking or jogging in parks early in the morning, which was rare before. There's a [[heightened awareness]] of diet too, although fast food is still hugely popular among young people.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_tea-coffee",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Tea or coffee",
+   "questions": [
+    "Do you prefer tea or coffee?",
+    "How do you take your tea?",
+    "Do you often drink tea outside the home?",
+    "Is coffee becoming more popular in your country?",
+    "Do you think you drink too much tea?"
+   ],
+   "data": {
+    "id": "sp1_tea-coffee",
+    "bank": true,
+    "topic": "Tea or coffee",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "Do you prefer tea or coffee?",
+     "How do you take your tea?",
+     "Do you often drink tea outside the home?",
+     "Is coffee becoming more popular in your country?",
+     "Do you think you drink too much tea?"
+    ],
+    "samples": [
+     {
+      "q": "Do you prefer tea or coffee?",
+      "answer": "Tea, without a doubt. It's a bit of a [[ritual]] here, and I probably have three or four cups a day. Coffee is fine occasionally, but nothing quite beats a hot cup of tea in the morning.",
+      "source": 29,
+      "words": 37
+     },
+     {
+      "q": "How do you take your tea?",
+      "answer": "I like it strong, with milk and just a little sugar. My mother sometimes adds ginger or cardamom, especially in winter, which gives it a lovely [[aromatic]] quality. Plain black tea is fine too, but milk tea is my favourite.",
+      "source": null,
+      "words": 40
+     },
+     {
+      "q": "Do you often drink tea outside the home?",
+      "answer": "Quite often, yes. Roadside tea stalls are everywhere here, and meeting friends at one is a big part of our social life. There's a [[convivial]] atmosphere at those stalls that you simply can't find in a café.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Is coffee becoming more popular in your country?",
+      "answer": "Definitely, especially among young people in cities. New coffee shops keep opening in Dhaka, and they've become [[trendy]] places to study or meet friends. Tea is still far more common, though, particularly outside the big cities.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think you drink too much tea?",
+      "answer": "Possibly, yes. Three or four cups a day may be a bit much, especially in the evening, as it sometimes keeps me awake. I've been trying to [[cut back]] after dinner, though with mixed results so far.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_housework",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Housework",
+   "questions": [
+    "Do you do much housework?",
+    "Which household chore do you dislike the most?",
+    "Did you help with housework as a child?",
+    "Is housework shared equally between men and women in your country?",
+    "Do you think children should do housework?"
+   ],
+   "data": {
+    "id": "sp1_housework",
+    "bank": true,
+    "topic": "Housework",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "Do you do much housework?",
+     "Which household chore do you dislike the most?",
+     "Did you help with housework as a child?",
+     "Is housework shared equally between men and women in your country?",
+     "Do you think children should do housework?"
+    ],
+    "samples": [
+     {
+      "q": "Do you do much housework?",
+      "answer": "A fair amount, yes. I take care of my own room and help out at the weekend. I can't say I enjoy it, but there's a certain satisfaction in a [[tidy]], well-organised space.",
+      "source": 31,
+      "words": 33
+     },
+     {
+      "q": "Which household chore do you dislike the most?",
+      "answer": "Washing dishes, without a doubt. After a big family meal there's always a mountain of them, and it seems to take forever. I'd much rather sweep the floor or do the shopping than face that [[seemingly endless]] pile.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Did you help with housework as a child?",
+      "answer": "A little. My mother expected us to make our beds and keep our school things in order. At the time I [[grumbled]] about it, but looking back, those small responsibilities taught me to look after my own space.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Is housework shared equally between men and women in your country?",
+      "answer": "Not yet, honestly. Traditionally, women have done most of it, and that's still common. However, younger couples, especially in cities, are increasingly sharing chores, which I see as a [[welcome shift]].",
+      "source": null,
+      "words": 31
+     },
+     {
+      "q": "Do you think children should do housework?",
+      "answer": "Yes, within reason. Simple chores like tidying their room or setting the table teach responsibility. It also stops them from [[taking for granted]] how much work goes into running a home.",
+      "source": null,
+      "words": 31
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_money",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Money",
+   "questions": [
+    "Did you get pocket money when you were a child?",
+    "Are you good at saving money?",
+    "What do you spend most of your money on?",
+    "Do you prefer paying in cash or by mobile?",
+    "Do you think schools should teach children about money?"
+   ],
+   "data": {
+    "id": "sp1_money",
+    "bank": true,
+    "topic": "Money",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "Did you get pocket money when you were a child?",
+     "Are you good at saving money?",
+     "What do you spend most of your money on?",
+     "Do you prefer paying in cash or by mobile?",
+     "Do you think schools should teach children about money?"
+    ],
+    "samples": [
+     {
+      "q": "Did you get pocket money when you were a child?",
+      "answer": "Yes, a small amount each week from my father. I usually spent it on snacks or comics, but occasionally I'd save up for a new cricket bat. That was probably my first lesson in [[delayed gratification]].",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Are you good at saving money?",
+      "answer": "I'm getting better at it. I used to spend fairly carelessly, but now I set aside a fixed amount each month before anything else. Being [[frugal]] in small ways gives me real peace of mind.",
+      "source": 32,
+      "words": 35
+     },
+     {
+      "q": "What do you spend most of your money on?",
+      "answer": "Apart from contributing to household expenses, mostly books, transport and the occasional meal out with friends. I'm also putting money aside for studying abroad, so I try not to [[splash out]] on anything unnecessary.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you prefer paying in cash or by mobile?",
+      "answer": "Mostly by mobile these days. Mobile banking apps are hugely popular in Bangladesh, and they've [[revolutionised]] everyday payments here. Rickshaw fares and small market purchases are still usually paid in cash, though.",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Do you think schools should teach children about money?",
+      "answer": "Absolutely. Many young people finish school without knowing how to budget or save properly. Basic financial lessons would help them avoid debt and make [[informed decisions]] once they start earning.",
+      "source": null,
+      "words": 30
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_habits",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Habits",
+   "questions": [
+    "What good habits do you have?",
+    "Do you have any habits you would like to change?",
+    "How do you usually develop a new habit?",
+    "Did you have any bad habits as a child?",
+    "Do you think we learn our habits from our family?"
+   ],
+   "data": {
+    "id": "sp1_habits",
+    "bank": true,
+    "topic": "Habits",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "What good habits do you have?",
+     "Do you have any habits you would like to change?",
+     "How do you usually develop a new habit?",
+     "Did you have any bad habits as a child?",
+     "Do you think we learn our habits from our family?"
+    ],
+    "samples": [
+     {
+      "q": "What good habits do you have?",
+      "answer": "I'd say reading before bed is my best habit. I also keep a to-do list and try to walk most evenings. None of these are dramatic, but together they make my days feel more [[purposeful]].",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you have any habits you would like to change?",
+      "answer": "One or two, definitely. I spend too long on my phone, and I sometimes [[procrastinate]]. I'm slowly working on both, though old habits are surprisingly hard to break.",
+      "source": 34,
+      "words": 28
+     },
+     {
+      "q": "How do you usually develop a new habit?",
+      "answer": "I start small and attach it to something I already do. For example, I read ten pages right after my evening tea. Keeping it manageable like that makes a new habit much easier to [[sustain]].",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Did you have any bad habits as a child?",
+      "answer": "Oh yes, I used to bite my nails constantly, especially before exams. My mother tried everything to stop me. Eventually I simply [[outgrew]] it, although I still catch myself doing it when I'm nervous.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you think we learn our habits from our family?",
+      "answer": "To a large extent, yes. I got my love of tea and my habit of rising early from my parents. Children [[absorb]] a great deal simply by watching the adults around them, both good and bad.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_free-time",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Free time",
+   "questions": [
+    "What do you usually do in your free time?",
+    "Do you prefer spending your free time alone or with others?",
+    "How do you relax after a busy day?",
+    "Do you have enough free time?",
+    "Do you think people have less free time today than in the past?"
+   ],
+   "data": {
+    "id": "sp1_free-time",
+    "bank": true,
+    "topic": "Free time",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "What do you usually do in your free time?",
+     "Do you prefer spending your free time alone or with others?",
+     "How do you relax after a busy day?",
+     "Do you have enough free time?",
+     "Do you think people have less free time today than in the past?"
+    ],
+    "samples": [
+     {
+      "q": "What do you usually do in your free time?",
+      "answer": "It varies with my mood. Often I'll read or listen to music, and if I have more time I'll meet friends or watch a film. I try to spend it on things that genuinely relax me rather than mindless [[scrolling]].",
+      "source": 41,
+      "words": 40
+     },
+     {
+      "q": "Do you prefer spending your free time alone or with others?",
+      "answer": "A mixture, really. After a long day with students, I often need some quiet time alone to recover. But at weekends I actively seek out friends, because I'd feel quite [[isolated]] without them.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "How do you relax after a busy day?",
+      "answer": "Usually with something simple. I'll read, listen to music, or watch an episode of a show. Anything that lets me properly [[decompress]] from work does the trick.",
+      "source": 35,
+      "words": 27
+     },
+     {
+      "q": "Do you have enough free time?",
+      "answer": "Not really, if I'm honest. Between work and study, my weekdays fill up fast. I [[safeguard]] my weekends fiercely, but I do wish I had a little more downtime during the week.",
+      "source": 58,
+      "words": 32
+     },
+     {
+      "q": "Do you think people have less free time today than in the past?",
+      "answer": "In a sense, yes. People work longer hours and are constantly connected, so leisure time gets squeezed. Ironically, though, much of our free time is now spent on screens rather than genuinely [[fulfilling]] activities.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_transport",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Transport",
+   "questions": [
+    "How do you usually travel around?",
+    "Do you often use public transport?",
+    "How do you usually get to work?",
+    "Is traffic a problem where you live?",
+    "Would you like to own a car one day?"
+   ],
+   "data": {
+    "id": "sp1_transport",
+    "bank": true,
+    "topic": "Transport",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "How do you usually travel around?",
+     "Do you often use public transport?",
+     "How do you usually get to work?",
+     "Is traffic a problem where you live?",
+     "Would you like to own a car one day?"
+    ],
+    "samples": [
+     {
+      "q": "How do you usually travel around?",
+      "answer": "Mostly by bus and rickshaw for daily trips, and occasionally a ride-share app when I'm in a hurry. It works well enough, though the traffic can turn even a short journey into a real [[ordeal]].",
+      "source": 83,
+      "words": 35
+     },
+     {
+      "q": "Do you often use public transport?",
+      "answer": "Quite often, yes, mainly buses and the occasional rickshaw for shorter trips. It's affordable and saves the stress of parking, although it can get [[congested]] during peak hours, which is the main downside.",
+      "source": 36,
+      "words": 33
+     },
+     {
+      "q": "How do you usually get to work?",
+      "answer": "Usually by rickshaw, since the office is only a short ride from home. On pleasant mornings I sometimes walk instead. It's a fairly [[stress-free]] commute compared to what my elder sister faces in Dhaka traffic.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Is traffic a problem where you live?",
+      "answer": "Very much so, especially in the bigger cities. Congestion during rush hour is genuinely frustrating and eats into everyone's day. I think better public transport is really the only [[viable]] long-term solution.",
+      "source": 84,
+      "words": 32
+     },
+     {
+      "q": "Would you like to own a car one day?",
+      "answer": "Perhaps eventually, mainly for family trips to our village. For now, though, it isn't really necessary, and the running costs are quite high. A motorbike might be a more [[sensible compromise]] in the meantime.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_walking",
+   "source": "bank",
+   "category": "lifestyle",
+   "topic": "Walking",
+   "questions": [
+    "Do you like walking?",
+    "How often do you go for a walk?",
+    "Where do you like to go for a walk?",
+    "Did you walk a lot as a child?",
+    "Do you think people walk less nowadays than in the past?"
+   ],
+   "data": {
+    "id": "sp1_walking",
+    "bank": true,
+    "topic": "Walking",
+    "category": "lifestyle",
+    "categoryLabel": "Lifestyle & Habits",
+    "intro": false,
+    "questions": [
+     "Do you like walking?",
+     "How often do you go for a walk?",
+     "Where do you like to go for a walk?",
+     "Did you walk a lot as a child?",
+     "Do you think people walk less nowadays than in the past?"
+    ],
+    "samples": [
+     {
+      "q": "Do you like walking?",
+      "answer": "I do, more than I expected to. A slow evening walk is one of my favourite ways to unwind, and it's good for my health too. It clears my head far more [[effectively]] than sitting in front of a screen.",
+      "source": 37,
+      "words": 40
+     },
+     {
+      "q": "How often do you go for a walk?",
+      "answer": "Almost every evening, weather permitting. I usually walk for around half an hour after work. During the monsoon it's harder, but I try to keep it up, because skipping it leaves me feeling [[restless]].",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Where do you like to go for a walk?",
+      "answer": "My favourite spot is the embankment along the Jamuna. The breeze off the river is lovely, and the view at sunset is [[breathtaking]]. It's quite popular too, so I often bump into people I know.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Did you walk a lot as a child?",
+      "answer": "Constantly. I walked to school every day with my friends, and we'd often take the long way home just to [[dawdle]] and chat. Those walks were a highlight of the day rather than a chore.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you think people walk less nowadays than in the past?",
+      "answer": "Definitely. With rickshaws, motorbikes and ride-share apps so readily available, many people won't even walk short distances. It's a pity, because walking is such a simple way to stay fit and [[clear-headed]].",
+      "source": null,
+      "words": 32
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_weather",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Weather and seasons",
+   "questions": [
+    "What's the weather like where you live?",
+    "What kind of weather do you like?",
+    "What is your favourite season?",
+    "Does the weather affect your daily plans?",
+    "Has the weather in your country changed in recent years?"
+   ],
+   "data": {
+    "id": "sp1_weather",
+    "bank": true,
+    "topic": "Weather and seasons",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "What's the weather like where you live?",
+     "What kind of weather do you like?",
+     "What is your favourite season?",
+     "Does the weather affect your daily plans?",
+     "Has the weather in your country changed in recent years?"
+    ],
+    "samples": [
+     {
+      "q": "What's the weather like where you live?",
+      "answer": "Hot and humid for much of the year. We have a long summer, then a heavy monsoon from around June, and a short, pleasant winter. The monsoon rain can be [[torrential]], and flooding is common near the river.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "What kind of weather do you like?",
+      "answer": "I'm fondest of mild, sunny weather, the kind you get here in winter. It's warm enough to be comfortable but not stifling, so you can actually enjoy being outside. The intense summer heat I find rather [[oppressive]].",
+      "source": 81,
+      "words": 37
+     },
+     {
+      "q": "What is your favourite season?",
+      "answer": "Winter, easily. It's short here but lovely, with cool, pleasant days and clear skies. It's the season when I feel most [[energetic]] and want to be out and about, so I always look forward to it.",
+      "source": 82,
+      "words": 36
+     },
+     {
+      "q": "Does the weather affect your daily plans?",
+      "answer": "Quite a bit, actually. The rainy season here can be [[relentless]], so I often check the forecast before heading out. On a pleasant, sunny day I'm far more likely to go out and do something active.",
+      "source": 38,
+      "words": 36
+     },
+     {
+      "q": "Has the weather in your country changed in recent years?",
+      "answer": "People certainly feel it has. Summers seem hotter and longer, and the rains are less predictable than they used to be. My grandfather often says the seasons have become far more [[erratic]] than in his youth.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_reading",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Reading and books",
+   "questions": [
+    "Do you like reading?",
+    "What kind of books do you enjoy?",
+    "Do you prefer printed books or e-books?",
+    "What did you read as a child?",
+    "Do you think young people read less than they used to?"
+   ],
+   "data": {
+    "id": "sp1_reading",
+    "bank": true,
+    "topic": "Reading and books",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Do you like reading?",
+     "What kind of books do you enjoy?",
+     "Do you prefer printed books or e-books?",
+     "What did you read as a child?",
+     "Do you think young people read less than they used to?"
+    ],
+    "samples": [
+     {
+      "q": "Do you like reading?",
+      "answer": "Yes, very much. I've been a keen reader since childhood. I mostly read non-fiction these days, especially business or self-improvement, since I enjoy the feeling of [[broadening]] my knowledge with each book.",
+      "source": 42,
+      "words": 32
+     },
+     {
+      "q": "What kind of books do you enjoy?",
+      "answer": "I lean towards non-fiction, particularly psychology and personal growth. Occasionally I'll pick up a good novel to switch off, but generally I prefer something that offers a genuine [[insight]] or two.",
+      "source": 43,
+      "words": 31
+     },
+     {
+      "q": "Do you prefer printed books or e-books?",
+      "answer": "Printed books, definitely. I love the feel of paper and being able to see my progress through the pages. That said, e-books are handy for travelling, so I can see myself [[embracing]] both eventually.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "What did you read as a child?",
+      "answer": "Mostly comics and adventure stories, which I borrowed from friends or bought with my pocket money. I remember being completely [[engrossed]] in them, often reading late into the night by torchlight.",
+      "source": null,
+      "words": 31
+     },
+     {
+      "q": "Do you think young people read less than they used to?",
+      "answer": "In terms of books, probably yes, as phones and social media compete for their attention. But they actually read a great deal online. The problem is that it's often [[fragmented]] content rather than anything in depth.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_music",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Music",
+   "questions": [
+    "Do you like listening to music?",
+    "What kind of music is popular in your country?",
+    "Can you play a musical instrument?",
+    "Do you like singing?",
+    "Do you think children should learn music at school?"
+   ],
+   "data": {
+    "id": "sp1_music",
+    "bank": true,
+    "topic": "Music",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Do you like listening to music?",
+     "What kind of music is popular in your country?",
+     "Can you play a musical instrument?",
+     "Do you like singing?",
+     "Do you think children should learn music at school?"
+    ],
+    "samples": [
+     {
+      "q": "Do you like listening to music?",
+      "answer": "I do, it's part of my daily life really. I listen while I work, travel and relax. My taste is fairly [[eclectic]], from mellow acoustic tracks to a bit of classical when I need to concentrate.",
+      "source": 44,
+      "words": 36
+     },
+     {
+      "q": "What kind of music is popular in your country?",
+      "answer": "Traditional folk music is still hugely popular, especially Baul songs and the classics of Tagore and Nazrul. Younger people also love modern Bangla bands and Western pop, so there's a fascinating [[fusion]] of old and new.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Can you play a musical instrument?",
+      "answer": "Not properly, unfortunately. I dabbled with the guitar as a teenager but never [[persevered]]. It's one of those things I'd genuinely love to return to one day, when I finally have the time.",
+      "source": 45,
+      "words": 33
+     },
+     {
+      "q": "Do you like singing?",
+      "answer": "I enjoy it, though only in private or among close friends. I wouldn't sing in front of a crowd, but humming along to a favourite song is one of life's simple [[pleasures]].",
+      "source": 73,
+      "words": 32
+     },
+     {
+      "q": "Do you think children should learn music at school?",
+      "answer": "I really think they should. Learning an instrument teaches discipline and patience, and it gives children a [[creative outlet]] that other subjects don't always offer. I sometimes wish I'd had more encouragement myself when I was younger.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_sport",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Sport",
+   "questions": [
+    "What sports do you like?",
+    "Did you play much sport as a child?",
+    "Do you enjoy watching sports?",
+    "Is there a sport you would like to try in the future?",
+    "Do you think sport is important for young people?"
+   ],
+   "data": {
+    "id": "sp1_sport",
+    "bank": true,
+    "topic": "Sport",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "What sports do you like?",
+     "Did you play much sport as a child?",
+     "Do you enjoy watching sports?",
+     "Is there a sport you would like to try in the future?",
+     "Do you think sport is important for young people?"
+    ],
+    "samples": [
+     {
+      "q": "What sports do you like?",
+      "answer": "Cricket, above all, which is almost a national obsession here. I enjoy playing casually, but I love watching it even more. I also play a bit of badminton, which is a fun way to stay [[active]] with friends.",
+      "source": 46,
+      "words": 38
+     },
+     {
+      "q": "Did you play much sport as a child?",
+      "answer": "All the time. After school, my friends and I would play cricket in any open field we could find, often until it got dark. Those [[makeshift]] matches, with a taped tennis ball and a wooden bat, are some of my happiest memories.",
+      "source": null,
+      "words": 42
+     },
+     {
+      "q": "Do you enjoy watching sports?",
+      "answer": "Absolutely, especially cricket. There's a real buzz when the national team is playing, and the whole country seems to stop and watch. Even people who aren't usually into sport get [[caught up]] in the excitement.",
+      "source": 47,
+      "words": 35
+     },
+     {
+      "q": "Is there a sport you would like to try in the future?",
+      "answer": "I'd love to learn to swim properly, which might sound surprising given that I grew up beside a huge river. I can just about stay afloat, but I'd like to improve, partly for fitness and partly because it's such a [[vital life skill]].",
+      "source": null,
+      "words": 43
+     },
+     {
+      "q": "Do you think sport is important for young people?",
+      "answer": "Definitely. Beyond keeping them fit, sport teaches young people how to cope with losing, cooperate with others and stay disciplined. At a time when so many kids are [[glued to their screens]], getting them outside matters more than ever.",
+      "source": null,
+      "words": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_photos",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Photos and memories",
+   "questions": [
+    "Do you like taking photos?",
+    "What do you usually take photos of?",
+    "Do you like keeping photos of special events?",
+    "Do you prefer printed photos or keeping them on your phone?",
+    "Do you think people take too many photos nowadays?"
+   ],
+   "data": {
+    "id": "sp1_photos",
+    "bank": true,
+    "topic": "Photos and memories",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Do you like taking photos?",
+     "What do you usually take photos of?",
+     "Do you like keeping photos of special events?",
+     "Do you prefer printed photos or keeping them on your phone?",
+     "Do you think people take too many photos nowadays?"
+    ],
+    "samples": [
+     {
+      "q": "Do you like taking photos?",
+      "answer": "I do, casually at least. I mostly take photos on my phone when I travel or see something striking. I'm no expert, but I love the idea of [[preserving]] a moment so I can look back on it later.",
+      "source": 48,
+      "words": 39
+     },
+     {
+      "q": "What do you usually take photos of?",
+      "answer": "Mostly landscapes and family moments. The Jamuna at sunset is a favourite subject, because the light on the water is just [[breathtaking]]. I also take lots of pictures of my nephew whenever we visit my sister in Dhaka.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Do you like keeping photos of special events?",
+      "answer": "Definitely. I love looking back at photos from trips and celebrations, because they bring the feelings of that day rushing back. They're some of my most [[treasured]] possessions, honestly.",
+      "source": 76,
+      "words": 29
+     },
+     {
+      "q": "Do you prefer printed photos or keeping them on your phone?",
+      "answer": "Practically, I keep almost everything on my phone, but I have a real soft spot for printed photos. My mother still has old albums from her wedding, and flicking through them together has a [[nostalgic]] charm that scrolling never quite matches.",
+      "source": null,
+      "words": 41
+     },
+     {
+      "q": "Do you think people take too many photos nowadays?",
+      "answer": "I think so, yes. Because it costs nothing, people snap hundreds of pictures and hardly ever look at them again. Sometimes I feel we're so busy [[capturing]] a moment that we forget to actually enjoy it.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_art",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Art and drawing",
+   "questions": [
+    "Are you interested in art?",
+    "What kind of art do you like?",
+    "Are you good at drawing or painting?",
+    "Did you do art at school when you were a child?",
+    "Do you think art is important in education?"
+   ],
+   "data": {
+    "id": "sp1_art",
+    "bank": true,
+    "topic": "Art and drawing",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "Are you interested in art?",
+     "What kind of art do you like?",
+     "Are you good at drawing or painting?",
+     "Did you do art at school when you were a child?",
+     "Do you think art is important in education?"
+    ],
+    "samples": [
+     {
+      "q": "Are you interested in art?",
+      "answer": "I appreciate it, though from a distance. I enjoy visiting exhibitions and admiring how much emotion an artist can [[convey]] in a single piece, even if I can't create anything like it myself.",
+      "source": 68,
+      "words": 33
+     },
+     {
+      "q": "What kind of art do you like?",
+      "answer": "I'm most drawn to traditional Bangladeshi art, particularly the colourful rickshaw paintings you see everywhere here. They're bold, cheerful and full of detail, and I love that such [[intricate]] work decorates something so ordinary.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Are you good at drawing or painting?",
+      "answer": "Not really, I'll admit. I enjoy looking at art far more than creating it. My drawing skills are fairly [[rudimentary]], so I happily leave that to more talented people.",
+      "source": 49,
+      "words": 29
+     },
+     {
+      "q": "Did you do art at school when you were a child?",
+      "answer": "We had art classes in primary school, and I remember enjoying them even though my pictures were fairly clumsy. It was a nice break from memorising facts, and it let us be a bit more [[imaginative]] than usual.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Do you think art is important in education?",
+      "answer": "Absolutely. Art encourages children to think creatively and express feelings they might not have words for yet. Sadly, it's often [[sidelined]] here in favour of subjects seen as more practical, which I think is a real missed opportunity.",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_collecting",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Collecting",
+   "questions": [
+    "Do you collect anything?",
+    "Did you collect anything as a child?",
+    "What kinds of things do people in your country collect?",
+    "Why do you think people like collecting things?",
+    "Would you like to start a new collection in the future?"
+   ],
+   "data": {
+    "id": "sp1_collecting",
+    "bank": true,
+    "topic": "Collecting",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Do you collect anything?",
+     "Did you collect anything as a child?",
+     "What kinds of things do people in your country collect?",
+     "Why do you think people like collecting things?",
+     "Would you like to start a new collection in the future?"
+    ],
+    "samples": [
+     {
+      "q": "Do you collect anything?",
+      "answer": "Books, if that counts. I find it hard to give any away, so my collection just keeps growing. There's something comforting about a shelf full of books you've read, or still [[intend]] to read one day.",
+      "source": 50,
+      "words": 36
+     },
+     {
+      "q": "Did you collect anything as a child?",
+      "answer": "Stamps and coins, like lots of children back then. My father would sometimes bring home old coins that customers had given him at the shop, and I kept them in a tin box as if they were [[priceless]] treasures.",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "What kinds of things do people in your country collect?",
+      "answer": "Stamps and coins used to be the classic choices, though they're less common now. These days younger people are more likely to collect cricket [[memorabilia]], like signed bats or team jerseys, which says a lot about how much the sport means here.",
+      "source": null,
+      "words": 42
+     },
+     {
+      "q": "Why do you think people like collecting things?",
+      "answer": "I think it gives people a sense of purpose and achievement, slowly building something over time. There's also the [[thrill of the hunt]], that excitement of finally finding the one missing piece you've been searching for.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Would you like to start a new collection in the future?",
+      "answer": "Maybe, if I ever get to study abroad. I'd love to collect something small from every city I visit, nothing expensive, just a modest [[memento]] that brings the experience back whenever I look at it.",
+      "source": null,
+      "words": 35
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_games",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Games",
+   "questions": [
+    "Do you play any video games?",
+    "What games did you play when you were a child?",
+    "Do you enjoy playing board games?",
+    "Do adults in your country play games?",
+    "Do you think video games are good for children?"
+   ],
+   "data": {
+    "id": "sp1_games",
+    "bank": true,
+    "topic": "Games",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Do you play any video games?",
+     "What games did you play when you were a child?",
+     "Do you enjoy playing board games?",
+     "Do adults in your country play games?",
+     "Do you think video games are good for children?"
+    ],
+    "samples": [
+     {
+      "q": "Do you play any video games?",
+      "answer": "Occasionally, mostly simple ones on my phone to pass the time. I'm not a serious gamer by any means. For me it's more of a light [[distraction]] during a break than a proper hobby.",
+      "source": 51,
+      "words": 34
+     },
+     {
+      "q": "What games did you play when you were a child?",
+      "answer": "Mostly outdoor games with the neighbourhood kids, like hide and seek, kabaddi and, of course, cricket. We spent long, [[carefree]] afternoons outside, and nobody needed a screen to have a good time.",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Do you enjoy playing board games?",
+      "answer": "I do, especially carrom, which is hugely popular in Bangladesh. My family sometimes plays after dinner, and it gets surprisingly [[cut-throat]], particularly between me and my younger sister, who absolutely hates losing.",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Do adults in your country play games?",
+      "answer": "Quite a lot, actually. Older men often gather at tea stalls to play cards or chess in the evenings, and ludo on mobile phones has become a national [[pastime]] for people of all ages.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you think video games are good for children?",
+      "answer": "In moderation, they can be. Some games genuinely improve problem-solving and reaction speed. The real issue is when children play for hours on end, because it can become quite [[addictive]] and take time away from studying and being outdoors.",
+      "source": null,
+      "words": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_outdoors",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Outdoor activities",
+   "questions": [
+    "Do you enjoy outdoor activities?",
+    "What outdoor activities are popular in your country?",
+    "Did you spend a lot of time outdoors as a child?",
+    "Do you prefer being indoors or outdoors?",
+    "Do you think people spend less time outdoors than in the past?"
+   ],
+   "data": {
+    "id": "sp1_outdoors",
+    "bank": true,
+    "topic": "Outdoor activities",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Do you enjoy outdoor activities?",
+     "What outdoor activities are popular in your country?",
+     "Did you spend a lot of time outdoors as a child?",
+     "Do you prefer being indoors or outdoors?",
+     "Do you think people spend less time outdoors than in the past?"
+    ],
+    "samples": [
+     {
+      "q": "Do you enjoy outdoor activities?",
+      "answer": "Yes, whenever I get the chance. I love being outdoors, whether it's a walk by the river or a short trip somewhere green. Being in nature is easily the best way for me to [[rejuvenate]].",
+      "source": 52,
+      "words": 35
+     },
+     {
+      "q": "What outdoor activities are popular in your country?",
+      "answer": "Cricket is the obvious one, played in every field and alley. Apart from that, people enjoy fishing, boating on the rivers and family picnics, which are a [[cherished]] winter tradition here.",
+      "source": null,
+      "words": 31
+     },
+     {
+      "q": "Did you spend a lot of time outdoors as a child?",
+      "answer": "Almost constantly. My mother had a hard time getting me inside before dark. I was either playing cricket, climbing trees or wandering along the riverbank, so I was [[perpetually]] covered in mud when I finally came home.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you prefer being indoors or outdoors?",
+      "answer": "Given the choice, outdoors, though the weather here decides a lot. In the height of summer the heat can be [[sweltering]], so I stay in, but on a cool winter morning nothing beats being outside.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you think people spend less time outdoors than in the past?",
+      "answer": "Sadly, yes. Cities are more crowded, open spaces are disappearing, and screens keep people indoors. I think we're gradually becoming [[disconnected from]] nature, which probably affects our mood and health more than we realise.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_gardening",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Gardening",
+   "questions": [
+    "Are you interested in gardening?",
+    "What kind of plants do you have at home?",
+    "Does anyone in your family enjoy gardening?",
+    "Did you do any gardening as a child?",
+    "Would you like to have a garden of your own one day?"
+   ],
+   "data": {
+    "id": "sp1_gardening",
+    "bank": true,
+    "topic": "Gardening",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Are you interested in gardening?",
+     "What kind of plants do you have at home?",
+     "Does anyone in your family enjoy gardening?",
+     "Did you do any gardening as a child?",
+     "Would you like to have a garden of your own one day?"
+    ],
+    "samples": [
+     {
+      "q": "Are you interested in gardening?",
+      "answer": "A little, yes. We keep a few potted plants at home, and I quite enjoy tending to them. There's something calming about [[nurturing]] something and watching it grow because of the small effort you put in.",
+      "source": 54,
+      "words": 36
+     },
+     {
+      "q": "What kind of plants do you have at home?",
+      "answer": "Mostly small, [[low-maintenance]] ones on our balcony, like aloe vera, a money plant and a couple of chilli plants. My mother also grows a few herbs, which she proudly uses in her cooking.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Does anyone in your family enjoy gardening?",
+      "answer": "My grandmother, without a doubt. At the village home she grows beans, pumpkins and all sorts of vegetables. Her understanding of soil and seasons is completely [[instinctive]], built up over decades rather than learned from books.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Did you do any gardening as a child?",
+      "answer": "A little, at my grandparents' house. My grandfather would let me help plant seeds, and I remember checking every morning to see if anything had [[sprouted]]. That kind of patience didn't come naturally to me back then.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Would you like to have a garden of your own one day?",
+      "answer": "I'd love that. Living in a flat, a proper garden isn't really possible, but in the future I'd like a small plot where I could grow vegetables. Eating something you've grown yourself must be incredibly [[rewarding]].",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_writing",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Writing",
+   "questions": [
+    "Do you like writing?",
+    "Did you enjoy writing when you were at school?",
+    "Do you often write emails or letters?",
+    "Have you ever written a poem or a story?",
+    "Do you think handwriting will still be important in the future?"
+   ],
+   "data": {
+    "id": "sp1_writing",
+    "bank": true,
+    "topic": "Writing",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Do you like writing?",
+     "Did you enjoy writing when you were at school?",
+     "Do you often write emails or letters?",
+     "Have you ever written a poem or a story?",
+     "Do you think handwriting will still be important in the future?"
+    ],
+    "samples": [
+     {
+      "q": "Do you like writing?",
+      "answer": "I do, actually. My work involves a fair bit of writing, and I've grown to enjoy shaping ideas into clear, [[coherent]] sentences. I sometimes jot down thoughts in a notebook too, just for myself.",
+      "source": 55,
+      "words": 34
+     },
+     {
+      "q": "Did you enjoy writing when you were at school?",
+      "answer": "Not especially, to be honest. Essay writing felt like a chore because we mostly had to memorise model answers. It was only at university that I started to enjoy it, once I could [[articulate]] my own ideas rather than copying someone else's.",
+      "source": null,
+      "words": 42
+     },
+     {
+      "q": "Do you often write emails or letters?",
+      "answer": "Emails, yes, mostly for work. Handwritten letters have almost disappeared, which is a shame. There's a personal warmth to a letter that a quick email just can't quite [[replicate]].",
+      "source": 95,
+      "words": 29
+     },
+     {
+      "q": "Have you ever written a poem or a story?",
+      "answer": "Only a few short poems in Bengali when I was a teenager, mostly about the river and the monsoon. They were fairly [[sentimental]], looking back, but I still keep them in an old notebook at home.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think handwriting will still be important in the future?",
+      "answer": "Less than before, certainly, since so much is typed now. Still, I think it will always matter to some degree. A handwritten note has a personal touch, and writing by hand helps ideas [[sink in]] far better than typing does.",
+      "source": null,
+      "words": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_dancing",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Dancing",
+   "questions": [
+    "Can you dance?",
+    "Is dancing popular in your country?",
+    "Did you learn to dance when you were a child?",
+    "Do you enjoy watching other people dance?",
+    "Do you think dancing is a good way to keep fit?"
+   ],
+   "data": {
+    "id": "sp1_dancing",
+    "bank": true,
+    "topic": "Dancing",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "Can you dance?",
+     "Is dancing popular in your country?",
+     "Did you learn to dance when you were a child?",
+     "Do you enjoy watching other people dance?",
+     "Do you think dancing is a good way to keep fit?"
+    ],
+    "samples": [
+     {
+      "q": "Can you dance?",
+      "answer": "Not particularly well. I'll join in at weddings and celebrations, which is impossible to avoid here, but I'd never call myself a dancer. I do it purely for the fun of the moment rather than any real [[flair]].",
+      "source": 56,
+      "words": 38
+     },
+     {
+      "q": "Is dancing popular in your country?",
+      "answer": "Very much so, especially at weddings and cultural festivals. Classical and folk dance are also taught formally, and during Pohela Boishakh you often see groups performing in [[vibrant]] traditional costumes.",
+      "source": null,
+      "words": 30
+     },
+     {
+      "q": "Did you learn to dance when you were a child?",
+      "answer": "No, dance lessons were more common for girls where I grew up. My younger sister took classical dance classes for a few years, though, and she was genuinely [[graceful]], unlike her brother.",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Do you enjoy watching other people dance?",
+      "answer": "Definitely, especially skilled performers. I once watched a Manipuri dance performance at a cultural event, and the control and precision were [[mesmerising]]. It's a completely different experience from watching relatives dance at a wedding.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you think dancing is a good way to keep fit?",
+      "answer": "I'd say it's one of the best, because people forget they're exercising. It works the whole body and lifts your mood at the same time, so it's far easier to [[stick with]] than a dull gym routine.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_hobbies",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Hobbies",
+   "questions": [
+    "What hobbies do you have?",
+    "Did you have any hobbies as a child?",
+    "Do you prefer doing hobbies alone or with others?",
+    "Is there a new hobby you would like to try?",
+    "Do you think it's important to have hobbies?"
+   ],
+   "data": {
+    "id": "sp1_hobbies",
+    "bank": true,
+    "topic": "Hobbies",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "questions": [
+     "What hobbies do you have?",
+     "Did you have any hobbies as a child?",
+     "Do you prefer doing hobbies alone or with others?",
+     "Is there a new hobby you would like to try?",
+     "Do you think it's important to have hobbies?"
+    ],
+    "samples": [
+     {
+      "q": "What hobbies do you have?",
+      "answer": "Reading is my main one, usually with a cup of tea in the evening. I also enjoy long walks by the river and watching cricket, which becomes something of an [[obsession]] during big tournaments.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Did you have any hobbies as a child?",
+      "answer": "Plenty. I collected stamps, flew kites on the rooftop and played cricket whenever I could. Kite flying was my favourite, and I'd spend hours trying to [[outmanoeuvre]] the neighbours' kites and cut their strings.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you prefer doing hobbies alone or with others?",
+      "answer": "It depends on the hobby. Reading and writing I much prefer in [[solitude]], in a quiet corner. But sport and travel are far better shared, because the fun is really in the company.",
+      "source": 60,
+      "words": 33
+     },
+     {
+      "q": "Is there a new hobby you would like to try?",
+      "answer": "Yes, I'd love to learn photography properly. I already enjoy taking casual shots, so mastering the technical side, like lighting and composition, feels like a natural and exciting [[progression]].",
+      "source": 57,
+      "words": 29
+     },
+     {
+      "q": "Do you think it's important to have hobbies?",
+      "answer": "I really do. Hobbies give you a break from the pressure of work and let you do something purely for enjoyment. Without them, life can easily become a [[monotonous]] cycle of working, eating and sleeping.",
+      "source": null,
+      "words": 35
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_films",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Films and cinema",
+   "questions": [
+    "Do you like watching films?",
+    "What kind of films are popular in your country?",
+    "Do you prefer watching films at home or at the cinema?",
+    "What was the last film you watched?",
+    "Do you think films can help people learn a language?"
+   ],
+   "data": {
+    "id": "sp1_films",
+    "bank": true,
+    "topic": "Films and cinema",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "Do you like watching films?",
+     "What kind of films are popular in your country?",
+     "Do you prefer watching films at home or at the cinema?",
+     "What was the last film you watched?",
+     "Do you think films can help people learn a language?"
+    ],
+    "samples": [
+     {
+      "q": "Do you like watching films?",
+      "answer": "I do, very much. It's my go-to way to unwind at the weekend. I enjoy a good thriller or a thoughtful drama, and I especially like films that are genuinely [[thought-provoking]] long after they've ended.",
+      "source": 61,
+      "words": 35
+     },
+     {
+      "q": "What kind of films are popular in your country?",
+      "answer": "Commercial action films and romantic dramas have always been popular here, along with Indian and Hollywood blockbusters. Recently, though, some Bangladeshi directors have made [[critically acclaimed]] films that are attracting a younger, more discerning audience.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you prefer watching films at home or at the cinema?",
+      "answer": "Both have their charm, but I usually watch at home for the comfort. That said, for a big, visually [[spectacular]] film, the cinema experience is hard to beat, so I save those for the big screen.",
+      "source": 62,
+      "words": 36
+     },
+     {
+      "q": "What was the last film you watched?",
+      "answer": "It was a historical drama about the Liberation War, which I watched with my father. It was quite heavy in places, but it was [[beautifully shot]], and it sparked a long conversation between us about what my grandparents lived through at that time.",
+      "source": null,
+      "words": 43
+     },
+     {
+      "q": "Do you think films can help people learn a language?",
+      "answer": "Without a doubt. My English listening improved a lot through watching films with subtitles. You pick up natural expressions, [[intonation]] and slang that textbooks rarely teach, and it's far more enjoyable than studying grammar.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_tv",
+   "source": "bank",
+   "category": "culture",
+   "topic": "TV and streaming",
+   "questions": [
+    "Do you watch much television?",
+    "Do you use streaming services?",
+    "What kind of programmes do you like?",
+    "Did you watch much TV when you were a child?",
+    "Do you think people watch too much TV nowadays?"
+   ],
+   "data": {
+    "id": "sp1_tv",
+    "bank": true,
+    "topic": "TV and streaming",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "Do you watch much television?",
+     "Do you use streaming services?",
+     "What kind of programmes do you like?",
+     "Did you watch much TV when you were a child?",
+     "Do you think people watch too much TV nowadays?"
+    ],
+    "samples": [
+     {
+      "q": "Do you watch much television?",
+      "answer": "Not traditional TV, no. Like a lot of people my age, I've shifted almost [[entirely]] to streaming, so I watch what I want, when I want. It gives me far more control over my viewing.",
+      "source": 63,
+      "words": 35
+     },
+     {
+      "q": "Do you use streaming services?",
+      "answer": "All the time. They've completely [[transformed]] how I watch things. Having a huge library available whenever I want is incredibly convenient, and I honestly can't imagine going back to fixed TV schedules.",
+      "source": 79,
+      "words": 32
+     },
+     {
+      "q": "What kind of programmes do you like?",
+      "answer": "I gravitate towards documentaries and the occasional gripping drama. Documentaries in particular appeal to me, because I get to relax and gain a bit of [[insight]] at the same time, which feels like time well spent.",
+      "source": 64,
+      "words": 36
+     },
+     {
+      "q": "Did you watch much TV when you were a child?",
+      "answer": "Quite a lot, especially cartoons after school and cricket matches with my father. Back then the whole family gathered around one television, so watching something together was a real [[communal]] experience, which I sometimes miss.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you think people watch too much TV nowadays?",
+      "answer": "I think screen time in general is the issue now rather than TV itself. With streaming, it's so easy to [[binge-watch]] an entire series in one weekend, and many people, including me occasionally, lose track of time completely.",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_social-media",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Social media",
+   "questions": [
+    "Which social media apps do you use most?",
+    "Do you often post things online?",
+    "Do you use social media a lot?",
+    "Do you think social media is good for young people?",
+    "Has social media changed the way people communicate?"
+   ],
+   "data": {
+    "id": "sp1_social-media",
+    "bank": true,
+    "topic": "Social media",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "Which social media apps do you use most?",
+     "Do you often post things online?",
+     "Do you use social media a lot?",
+     "Do you think social media is good for young people?",
+     "Has social media changed the way people communicate?"
+    ],
+    "samples": [
+     {
+      "q": "Which social media apps do you use most?",
+      "answer": "Facebook, mainly, because it's by far the most widely used platform in Bangladesh. It's where my family and friends share news, and for many local businesses it's become [[indispensable]] for reaching customers.",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Do you often post things online?",
+      "answer": "Not very often. I'm more of a [[passive]] user, scrolling and reading rather than sharing. When I do post, it's usually photos from a trip or a family occasion, just to keep relatives in the loop.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you use social media a lot?",
+      "answer": "More than I'd like to admit. I use it to stay in touch and follow the news, but I've noticed how easily an hour [[vanishes]]. I'm trying to use it more intentionally rather than out of pure habit.",
+      "source": 65,
+      "words": 38
+     },
+     {
+      "q": "Do you think social media is good for young people?",
+      "answer": "It's a [[double-edged sword]]. It helps them learn, connect and express themselves, but it can also fuel anxiety and constant comparison with others. I think the key is teaching young people to use it wisely rather than banning it.",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "Has social media changed the way people communicate?",
+      "answer": "Enormously. People message constantly but talk face to face less, and conversations have become much shorter and more [[fragmented]]. On the positive side, it's much easier for me to stay in touch with friends who've moved abroad.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_festivals",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Festivals and celebrations",
+   "questions": [
+    "What festivals do you celebrate?",
+    "Which festival do you enjoy the most?",
+    "How do you usually celebrate special occasions?",
+    "How did you celebrate festivals when you were a child?",
+    "Do you think festivals have changed over the years?"
+   ],
+   "data": {
+    "id": "sp1_festivals",
+    "bank": true,
+    "topic": "Festivals and celebrations",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "What festivals do you celebrate?",
+     "Which festival do you enjoy the most?",
+     "How do you usually celebrate special occasions?",
+     "How did you celebrate festivals when you were a child?",
+     "Do you think festivals have changed over the years?"
+    ],
+    "samples": [
+     {
+      "q": "What festivals do you celebrate?",
+      "answer": "The two Eids are the biggest for us, along with cultural events like Pohela Boishakh, the Bengali New Year. They're wonderful occasions, full of food, family and colour, and the whole community becomes [[vibrant]].",
+      "source": 66,
+      "words": 34
+     },
+     {
+      "q": "Which festival do you enjoy the most?",
+      "answer": "Eid-ul-Fitr, without a doubt. After a month of fasting, there's a wonderful sense of relief and joy, and the whole family comes together, often at our village home. The [[jubilant]] mood lasts for days.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "How do you usually celebrate special occasions?",
+      "answer": "Usually with family and a large meal, which is really at the heart of any celebration here. We dress up, visit relatives, and the day is loud, lively and warm. Food is always the [[centrepiece]].",
+      "source": 67,
+      "words": 35
+     },
+     {
+      "q": "How did you celebrate festivals when you were a child?",
+      "answer": "Eid was the highlight of my year. I'd get new clothes, and older relatives would give us salami, a small gift of money. My cousins and I would compare how much we'd collected, which was [[fiercely competitive]].",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you think festivals have changed over the years?",
+      "answer": "In some ways, yes. People now send greetings online instead of visiting everyone in person, and celebrations have become more [[commercialised]], with lots of shopping. But the core of it, family and food, has stayed exactly the same.",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_museums",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Museums",
+   "questions": [
+    "Are there many museums in your hometown?",
+    "Do you like visiting museums?",
+    "When did you last visit a museum?",
+    "Did you go to museums on school trips?",
+    "Do you think museums will still be popular in the future?"
+   ],
+   "data": {
+    "id": "sp1_museums",
+    "bank": true,
+    "topic": "Museums",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "Are there many museums in your hometown?",
+     "Do you like visiting museums?",
+     "When did you last visit a museum?",
+     "Did you go to museums on school trips?",
+     "Do you think museums will still be popular in the future?"
+    ],
+    "samples": [
+     {
+      "q": "Are there many museums in your hometown?",
+      "answer": "Not really. Sirajganj is a modest town, so there's nothing major. The best known is Tagore's old family estate at Shahzadpur, which has been turned into a museum and is quite [[atmospheric]].",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Do you like visiting museums?",
+      "answer": "Yes, actually. I find them fascinating, especially history museums, because they bring the past to life in a way books can't. I don't go nearly often enough, but each visit is genuinely [[enlightening]].",
+      "source": 69,
+      "words": 33
+     },
+     {
+      "q": "When did you last visit a museum?",
+      "answer": "About a year ago, I went to the Liberation War Museum in Dhaka while visiting my sister. It was an incredibly moving experience, and some of the personal letters on display were genuinely [[harrowing]] to read.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Did you go to museums on school trips?",
+      "answer": "Only once or twice, as school trips weren't very common where I grew up. I remember being [[captivated]] by the old coins and weapons, though, and asking the guide far too many questions.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Do you think museums will still be popular in the future?",
+      "answer": "I think so, as long as they adapt. Young people expect interactive displays and digital content now, so museums that feel dull and [[static]] may struggle. But seeing real historical objects in person will always have its appeal.",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_events",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Concerts and events",
+   "questions": [
+    "Have you ever been to a concert?",
+    "What kind of events are held in your town?",
+    "Do you enjoy going to public events?",
+    "Do you prefer watching events live or online?",
+    "Is there an event you would love to attend in the future?"
+   ],
+   "data": {
+    "id": "sp1_events",
+    "bank": true,
+    "topic": "Concerts and events",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "Have you ever been to a concert?",
+     "What kind of events are held in your town?",
+     "Do you enjoy going to public events?",
+     "Do you prefer watching events live or online?",
+     "Is there an event you would love to attend in the future?"
+    ],
+    "samples": [
+     {
+      "q": "Have you ever been to a concert?",
+      "answer": "A few times, yes, mostly local ones. There's a special energy to live music that a recording just can't capture. Being surrounded by a crowd who love the same songs is genuinely [[exhilarating]].",
+      "source": 70,
+      "words": 33
+     },
+     {
+      "q": "What kind of events are held in your town?",
+      "answer": "Mostly local fairs, religious gatherings and cultural programmes on national days. The Baishakhi fair is probably the biggest, with stalls selling handicrafts and snacks, and it draws a [[sizeable]] crowd from the surrounding villages.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you enjoy going to public events?",
+      "answer": "I do, in moderation. Cultural fairs and festivals have a wonderful atmosphere, and I like being part of the crowd. Very large, [[chaotic]] events can be a bit much for me, though, so I pick and choose.",
+      "source": 77,
+      "words": 37
+     },
+     {
+      "q": "Do you prefer watching events live or online?",
+      "answer": "Live, if possible, because the atmosphere is half the experience. Watching online is convenient, but it feels a bit [[detached]], as if you're looking in from the outside rather than actually taking part.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Is there an event you would love to attend in the future?",
+      "answer": "I'd love to watch a cricket World Cup match in a big stadium, ideally with Bangladesh playing. Being among thousands of passionate fans would be a [[once-in-a-lifetime]] experience, and I'd happily travel abroad for it.",
+      "source": null,
+      "words": 35
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_tradition",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Traditional culture",
+   "questions": [
+    "What traditions are important in your family?",
+    "Do you think traditional culture is important?",
+    "Did your grandparents teach you about traditions?",
+    "Do you ever wear traditional clothes?",
+    "Do you think young people are losing interest in traditional culture?"
+   ],
+   "data": {
+    "id": "sp1_tradition",
+    "bank": true,
+    "topic": "Traditional culture",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "What traditions are important in your family?",
+     "Do you think traditional culture is important?",
+     "Did your grandparents teach you about traditions?",
+     "Do you ever wear traditional clothes?",
+     "Do you think young people are losing interest in traditional culture?"
+    ],
+    "samples": [
+     {
+      "q": "What traditions are important in your family?",
+      "answer": "Respecting elders is central, so we greet older relatives formally and seek their blessings at Eid. We also make pitha, traditional rice cakes, in winter, which is a [[time-honoured]] ritual my mother learned from my grandmother.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think traditional culture is important?",
+      "answer": "Very much so. It gives people a sense of identity and connects generations. In a fast-changing world, I think [[preserving]] our traditions, our language and festivals especially, matters more than ever.",
+      "source": 71,
+      "words": 31
+     },
+     {
+      "q": "Did your grandparents teach you about traditions?",
+      "answer": "Very much so, especially my grandmother. She has little formal education, but she's a [[treasure trove]] of folk tales, proverbs and old customs. Listening to her stories as a child gave me a real sense of where I come from.",
+      "source": null,
+      "words": 40
+     },
+     {
+      "q": "Do you ever wear traditional clothes?",
+      "answer": "Quite often, actually. I wear a panjabi at Eid, at weddings and on Pohela Boishakh. It's comfortable and elegant, and wearing it gives me a quiet sense of [[belonging]] to something bigger than myself.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you think young people are losing interest in traditional culture?",
+      "answer": "To some extent, yes, mainly because of global influences and social media. But I don't think it's [[diminishing]] entirely. Many young people still take great pride in their roots, just alongside a more modern lifestyle.",
+      "source": 80,
+      "words": 35
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_food-culture",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Local food",
+   "questions": [
+    "What is a typical meal in Bangladesh?",
+    "Is food an important part of your culture?",
+    "What's your favourite local dish?",
+    "Can you cook any local dishes?",
+    "Has the food in your country changed in recent years?"
+   ],
+   "data": {
+    "id": "sp1_food-culture",
+    "bank": true,
+    "topic": "Local food",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "What is a typical meal in Bangladesh?",
+     "Is food an important part of your culture?",
+     "What's your favourite local dish?",
+     "Can you cook any local dishes?",
+     "Has the food in your country changed in recent years?"
+    ],
+    "samples": [
+     {
+      "q": "What is a typical meal in Bangladesh?",
+      "answer": "Rice is the foundation of almost every meal, usually with fish curry, lentils and some vegetables. There's even a saying that fish and rice make a Bengali, so it's [[deeply rooted]] in our identity.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Is food an important part of your culture?",
+      "answer": "Enormously. In Bangladesh, food is at the centre of almost every gathering. Sharing a meal is how we express [[hospitality]], so it's really far more than just eating.",
+      "source": 72,
+      "words": 28
+     },
+     {
+      "q": "What's your favourite local dish?",
+      "answer": "Hilsa cooked in mustard sauce, without question. Hilsa is our national fish, and my mother's version is [[unrivalled]] in my opinion. Coming from a river town, fresh fish is something I'd miss terribly if I lived abroad.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Can you cook any local dishes?",
+      "answer": "Only a few basic ones, like dal and a simple egg curry. My mother is an excellent cook, so I've never really had to [[fend for myself]] in the kitchen, which I know will have to change if I study abroad.",
+      "source": null,
+      "words": 41
+     },
+     {
+      "q": "Has the food in your country changed in recent years?",
+      "answer": "Quite noticeably. Fast food outlets and cafés have [[mushroomed]] in towns as well as cities, and young people love burgers and pizza. Still, when it comes to family gatherings, traditional home cooking always wins.",
+      "source": null,
+      "words": 35
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_news",
+   "source": "bank",
+   "category": "culture",
+   "topic": "News",
+   "questions": [
+    "Do you follow the news?",
+    "What kind of news are you most interested in?",
+    "How do you usually get your news?",
+    "Did your family watch the news together when you were young?",
+    "Do you trust the news you read online?"
+   ],
+   "data": {
+    "id": "sp1_news",
+    "bank": true,
+    "topic": "News",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "Do you follow the news?",
+     "What kind of news are you most interested in?",
+     "How do you usually get your news?",
+     "Did your family watch the news together when you were young?",
+     "Do you trust the news you read online?"
+    ],
+    "samples": [
+     {
+      "q": "Do you follow the news?",
+      "answer": "Yes, I like to stay [[informed]], mostly through news apps and a bit of online reading. I try not to overdo it, though, because too much news can be draining. A quick daily catch-up is usually enough.",
+      "source": 74,
+      "words": 37
+     },
+     {
+      "q": "What kind of news are you most interested in?",
+      "answer": "Mostly education and international news, since both relate to my job. Changes to student visa rules abroad, for example, directly affect the students I advise, so I [[keep a close eye]] on them.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "How do you usually get your news?",
+      "answer": "Almost entirely online, through my phone. It's quick and I can check headlines whenever I have a spare moment. I rarely watch the news on television any more, which feels [[outdated]] to me now.",
+      "source": 75,
+      "words": 34
+     },
+     {
+      "q": "Did your family watch the news together when you were young?",
+      "answer": "Every evening, yes. My father [[religiously]] watched the eight o'clock news, and we all had to stay quiet until it finished. As a child I found it boring, but now I realise how much I picked up just by listening.",
+      "source": null,
+      "words": 40
+     },
+     {
+      "q": "Do you trust the news you read online?",
+      "answer": "Not everything, no. There's a lot of misleading content online, especially on social media, so I try to [[cross-check]] stories with reliable sources before believing them. I think media literacy should really be taught in schools now.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_comedy",
+   "source": "bank",
+   "category": "culture",
+   "topic": "Comedy",
+   "questions": [
+    "Who makes you laugh the most?",
+    "Do you like watching comedy shows?",
+    "Are you good at telling jokes?",
+    "What did you find funny when you were a child?",
+    "Do you think humour is different in different cultures?"
+   ],
+   "data": {
+    "id": "sp1_comedy",
+    "bank": true,
+    "topic": "Comedy",
+    "category": "culture",
+    "categoryLabel": "Entertainment & Culture",
+    "intro": false,
+    "questions": [
+     "Who makes you laugh the most?",
+     "Do you like watching comedy shows?",
+     "Are you good at telling jokes?",
+     "What did you find funny when you were a child?",
+     "Do you think humour is different in different cultures?"
+    ],
+    "samples": [
+     {
+      "q": "Who makes you laugh the most?",
+      "answer": "My grandfather, surprisingly. He's in his eighties but still incredibly sharp, and he has a wonderfully [[dry sense of humour]]. He'll say something outrageous with a completely straight face, and the whole family ends up in fits of laughter.",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "Do you like watching comedy shows?",
+      "answer": "Yes, I love a good laugh at the end of a long day. Comedy is the easiest way for me to switch off. I especially enjoy clever, [[observational]] humour that plays on everyday situations.",
+      "source": 78,
+      "words": 34
+     },
+     {
+      "q": "Are you good at telling jokes?",
+      "answer": "Not especially. I always rush the punchline or start laughing before I finish. I'm much better at [[witty]] remarks in the moment, reacting to what's happening around me, than at telling a prepared joke.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "What did you find funny when you were a child?",
+      "answer": "Mostly slapstick, like cartoons where characters fell over or got chased. My sister and I used to watch Mr Bean together and laugh until our stomachs hurt. That kind of physical comedy is [[universally]] funny, I think.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you think humour is different in different cultures?",
+      "answer": "Definitely. A lot of humour depends on wordplay and shared references, so it often gets [[lost in translation]]. I've noticed that some Bengali jokes simply don't work in English, however carefully I try to explain them.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_plans",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Plans and decisions",
+   "questions": [
+    "Do you like making plans?",
+    "Do you usually plan your weekends?",
+    "Are you good at making decisions?",
+    "Who do you ask for advice when you have an important decision to make?",
+    "Is it better to plan for the future or live in the moment?"
+   ],
+   "data": {
+    "id": "sp1_plans",
+    "bank": true,
+    "topic": "Plans and decisions",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Do you like making plans?",
+     "Do you usually plan your weekends?",
+     "Are you good at making decisions?",
+     "Who do you ask for advice when you have an important decision to make?",
+     "Is it better to plan for the future or live in the moment?"
+    ],
+    "samples": [
+     {
+      "q": "Do you like making plans?",
+      "answer": "I do, generally. Having a rough plan gives me direction and stops me wasting time. That said, I try not to over-plan, because some of the best moments come from being a little [[spontaneous]].",
+      "source": 86,
+      "words": 34
+     },
+     {
+      "q": "Do you usually plan your weekends?",
+      "answer": "Loosely. I'll usually have one or two things in mind, like visiting relatives or catching up on reading, but I leave plenty of room for rest. After a busy week, a [[laid-back]] weekend is exactly what I need.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Are you good at making decisions?",
+      "answer": "I'd say I'm decisive with small things, but I take my time over big ones, weighing up the options carefully. Occasionally I [[deliberate]] for too long, but I'd rather be thorough than rush and regret it.",
+      "source": 89,
+      "words": 36
+     },
+     {
+      "q": "Who do you ask for advice when you have an important decision to make?",
+      "answer": "Usually my father. He ran his own business for over thirty years, so he has a very practical, [[level-headed]] way of looking at things. For more personal matters, though, I often talk to my elder sister.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Is it better to plan for the future or live in the moment?",
+      "answer": "I think you need a balance. Planning ahead gives you security, especially with things like careers and savings. But if you're [[fixated on]] the future all the time, you can easily miss the joy of what's happening right now.",
+      "source": null,
+      "words": 39
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_organised",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Being organised",
+   "questions": [
+    "Are you an organised person?",
+    "How do you keep track of your tasks?",
+    "Are you more productive in the morning or the evening?",
+    "Were you organised when you were a child?",
+    "Do you think it's important for students to be organised?"
+   ],
+   "data": {
+    "id": "sp1_organised",
+    "bank": true,
+    "topic": "Being organised",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Are you an organised person?",
+     "How do you keep track of your tasks?",
+     "Are you more productive in the morning or the evening?",
+     "Were you organised when you were a child?",
+     "Do you think it's important for students to be organised?"
+    ],
+    "samples": [
+     {
+      "q": "Are you an organised person?",
+      "answer": "Fairly, yes. I like to keep things in order, both my space and my schedule, because clutter genuinely stresses me out. A little organisation up front spares me a lot of [[hassle]] later.",
+      "source": 97,
+      "words": 33
+     },
+     {
+      "q": "How do you keep track of your tasks?",
+      "answer": "I rely mostly on my phone's calendar and a simple to-do list. At work I'm handling applications for lots of students with different deadlines, so writing everything down is [[non-negotiable]] for me.",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Are you more productive in the morning or the evening?",
+      "answer": "Definitely the morning. My mind is [[sharpest]] then, so I tackle my hardest tasks early. By the evening my focus fades, so I save lighter activities for later in the day.",
+      "source": 87,
+      "words": 31
+     },
+     {
+      "q": "Were you organised when you were a child?",
+      "answer": "Not at all, I'm afraid. My school bag was always a mess and I was forever losing pencils. My mother [[despaired of]] me at times, so being organised is definitely something I learned later in life.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think it's important for students to be organised?",
+      "answer": "Absolutely, and I see it every day in my job. The students who stay organised tend to meet deadlines calmly, while the others end up [[scrambling]] at the last minute and making careless mistakes on their applications.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_change",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Change",
+   "questions": [
+    "Do you often change your daily routine?",
+    "Do you welcome change in your life?",
+    "Has anything changed in your life recently?",
+    "Is there anything you would like to change about your life?",
+    "Do you think older people find change harder than young people?"
+   ],
+   "data": {
+    "id": "sp1_change",
+    "bank": true,
+    "topic": "Change",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Do you often change your daily routine?",
+     "Do you welcome change in your life?",
+     "Has anything changed in your life recently?",
+     "Is there anything you would like to change about your life?",
+     "Do you think older people find change harder than young people?"
+    ],
+    "samples": [
+     {
+      "q": "Do you often change your daily routine?",
+      "answer": "Not much during the week, as my working hours are fairly fixed. I do try to vary my weekends, though, because doing exactly the same thing every day can make life feel a bit [[stale]].",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do you welcome change in your life?",
+      "answer": "Cautiously, yes. I'm comfortable with routine, but I've learned that a bit of change usually leads to growth. So even when it feels [[daunting]] at first, I try to see it as an opportunity rather than a threat.",
+      "source": 88,
+      "words": 38
+     },
+     {
+      "q": "Has anything changed in your life recently?",
+      "answer": "Yes, my father retired recently after running his business for over thirty years. It's been a real [[period of adjustment]] for the whole family, since he's at home all day now, but it's lovely to see him finally relaxing.",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "Is there anything you would like to change about your life?",
+      "answer": "I'd like to study abroad at some point, which would be a big change. After years of helping other students do it, I feel ready to step out of my own [[comfort zone]] and experience it myself.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you think older people find change harder than young people?",
+      "answer": "Generally, yes, though not always. My grandfather is in his eighties and still [[remarkably adaptable]], and he even video calls my sister in Dhaka. But many older people understandably feel more secure with familiar routines.",
+      "source": null,
+      "words": 35
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_patience",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Patience",
+   "questions": [
+    "Are you a patient person?",
+    "Is patience important in your job?",
+    "Were you patient as a child?",
+    "Who is the most patient person you know?",
+    "Do you think people are less patient nowadays than in the past?"
+   ],
+   "data": {
+    "id": "sp1_patience",
+    "bank": true,
+    "topic": "Patience",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Are you a patient person?",
+     "Is patience important in your job?",
+     "Were you patient as a child?",
+     "Who is the most patient person you know?",
+     "Do you think people are less patient nowadays than in the past?"
+    ],
+    "samples": [
+     {
+      "q": "Are you a patient person?",
+      "answer": "Reasonably, yes, though it depends on the situation. I'm quite patient with people, but I can get [[restless]] when I'm stuck waiting, in traffic for instance. It's something I'm consciously working on.",
+      "source": 90,
+      "words": 32
+     },
+     {
+      "q": "Is patience important in your job?",
+      "answer": "Hugely important. Visa and admission processes can take months, and students naturally get anxious. Part of my role is reassuring them and staying calm and [[composed]], even when they call me for the tenth time about the same thing.",
+      "source": null,
+      "words": 39
+     },
+     {
+      "q": "Were you patient as a child?",
+      "answer": "Not in the slightest. I wanted everything immediately, whether it was my food, a new toy or my turn at batting. My parents constantly told me to wait, which I found completely [[infuriating]] at the time.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Who is the most patient person you know?",
+      "answer": "My mother, without question. She looks after our home, helps care for my grandparents and still finds time for everyone. I've never seen her lose her temper, which is honestly [[admirable]] given how much she juggles.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think people are less patient nowadays than in the past?",
+      "answer": "I'd say so. We're used to [[instant gratification]] now, with fast internet, quick deliveries and endless entertainment on our phones. As a result, waiting even a few minutes can feel unbearable to many people.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_colours",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Colours",
+   "questions": [
+    "Do you have a favourite colour?",
+    "What colours do you usually wear?",
+    "Is there a colour you don't like?",
+    "Do colours have special meanings in your country?",
+    "Do you think colours can affect people's mood?"
+   ],
+   "data": {
+    "id": "sp1_colours",
+    "bank": true,
+    "topic": "Colours",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Do you have a favourite colour?",
+     "What colours do you usually wear?",
+     "Is there a colour you don't like?",
+     "Do colours have special meanings in your country?",
+     "Do you think colours can affect people's mood?"
+    ],
+    "samples": [
+     {
+      "q": "Do you have a favourite colour?",
+      "answer": "I do, it's blue. I find it calming and easy on the eye, so a lot of my clothes and even my room lean towards it. It has a [[soothing]] quality that I'm naturally drawn to.",
+      "source": 91,
+      "words": 36
+     },
+     {
+      "q": "What colours do you usually wear?",
+      "answer": "Mostly [[understated]] shades like navy, grey and white for everyday wear, since they look smart for work. On festival days, though, I'm happy to wear something brighter to match the mood.",
+      "source": null,
+      "words": 31
+     },
+     {
+      "q": "Is there a colour you don't like?",
+      "answer": "Not strongly, but I'm not keen on very bright orange or neon shades. They feel a bit loud and [[garish]] to me, especially on clothes, although I can see why some people love them.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do colours have special meanings in your country?",
+      "answer": "Yes, quite a few. Red and white are strongly associated with Pohela Boishakh, and the green and red of our flag are [[symbolic]] too, representing the land and the sacrifice of those who fought for independence.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think colours can affect people's mood?",
+      "answer": "I really believe they can. Soft blues and greens make a room feel calm, while warm colours tend to be more energising. That's probably why hospitals and offices choose their colour schemes so [[deliberately]].",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_numbers",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Lucky numbers",
+   "questions": [
+    "Are you good with numbers?",
+    "Did you enjoy maths at school?",
+    "Is there a number you consider lucky?",
+    "Do people in your country believe in lucky numbers?",
+    "Do you think people remember numbers less than they used to?"
+   ],
+   "data": {
+    "id": "sp1_numbers",
+    "bank": true,
+    "topic": "Lucky numbers",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Are you good with numbers?",
+     "Did you enjoy maths at school?",
+     "Is there a number you consider lucky?",
+     "Do people in your country believe in lucky numbers?",
+     "Do you think people remember numbers less than they used to?"
+    ],
+    "samples": [
+     {
+      "q": "Are you good with numbers?",
+      "answer": "Reasonably good, I'd say. My business studies involved plenty of accounting and statistics, and I often helped my father with his shop accounts, so I'm fairly [[proficient]] with everyday calculations and budgets.",
+      "source": null,
+      "words": 32
+     },
+     {
+      "q": "Did you enjoy maths at school?",
+      "answer": "I did, mostly. I liked that there was always a clear answer, unlike essay questions. Geometry was my weak point, though, and some of those proofs left me utterly [[baffled]].",
+      "source": null,
+      "words": 30
+     },
+     {
+      "q": "Is there a number you consider lucky?",
+      "answer": "Not really, to be honest. I'm not very [[superstitious]] about numbers. I know many people have a lucky one, but I've never felt that any particular number has made a difference in my life.",
+      "source": 92,
+      "words": 34
+     },
+     {
+      "q": "Do people in your country believe in lucky numbers?",
+      "answer": "Some do, though it's not as big a thing as in some other countries. You'll occasionally hear of people paying extra for a phone number with a [[distinctive]] pattern, but most people don't take it too seriously.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you think people remember numbers less than they used to?",
+      "answer": "Definitely. I remember knowing dozens of phone numbers by heart as a child, but now I barely know my own sister's. We've [[outsourced]] our memory to our phones, which is convenient but slightly worrying.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_gifts",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Gifts",
+   "questions": [
+    "Do you enjoy giving gifts?",
+    "What was the last gift you bought for someone?",
+    "Do you like receiving gifts?",
+    "When do people give gifts in your country?",
+    "Do you think it's better to give money or a gift?"
+   ],
+   "data": {
+    "id": "sp1_gifts",
+    "bank": true,
+    "topic": "Gifts",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Do you enjoy giving gifts?",
+     "What was the last gift you bought for someone?",
+     "Do you like receiving gifts?",
+     "When do people give gifts in your country?",
+     "Do you think it's better to give money or a gift?"
+    ],
+    "samples": [
+     {
+      "q": "Do you enjoy giving gifts?",
+      "answer": "I really do. I love the challenge of finding something that suits the person perfectly, and their reaction when they open it is the best part. A [[thoughtful]] gift means far more than an expensive one.",
+      "source": 93,
+      "words": 36
+     },
+     {
+      "q": "What was the last gift you bought for someone?",
+      "answer": "A set of picture books for my four-year-old nephew. He's at that age where he wants stories read to him constantly, so I chose ones with [[vivid]] illustrations. My sister says he takes them to bed every night.",
+      "source": null,
+      "words": 38
+     },
+     {
+      "q": "Do you like receiving gifts?",
+      "answer": "Of course, who doesn't? But what I appreciate most is the thought behind it. A small, meaningful present from someone who knows me well means much more than something [[lavish]] given without much care.",
+      "source": 94,
+      "words": 34
+     },
+     {
+      "q": "When do people give gifts in your country?",
+      "answer": "Mainly at Eid, weddings and birthdays, although birthdays are a more recent custom in many families. At weddings especially, gift-giving is quite an [[elaborate]] affair, and relatives sometimes feel pressure to give something impressive.",
+      "source": null,
+      "words": 34
+     },
+     {
+      "q": "Do you think it's better to give money or a gift?",
+      "answer": "It depends on the person. Money is practical, especially for newly married couples, and Eid salami is a much-loved custom. But a carefully chosen gift shows real [[consideration]], so for close friends I'd always choose something personal.",
+      "source": null,
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_helping",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Helping others",
+   "questions": [
+    "Do you enjoy helping other people?",
+    "How do you usually help people in your family?",
+    "Did your parents teach you to help others?",
+    "Do people in your country often help their neighbours?",
+    "Do you think people are less helpful than they used to be?"
+   ],
+   "data": {
+    "id": "sp1_helping",
+    "bank": true,
+    "topic": "Helping others",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Do you enjoy helping other people?",
+     "How do you usually help people in your family?",
+     "Did your parents teach you to help others?",
+     "Do people in your country often help their neighbours?",
+     "Do you think people are less helpful than they used to be?"
+    ],
+    "samples": [
+     {
+      "q": "Do you enjoy helping other people?",
+      "answer": "I really do. My whole job is essentially about helping people reach their goals, and I find that deeply [[fulfilling]]. Even small acts of help brighten my day, and they usually come back around in some form.",
+      "source": 98,
+      "words": 37
+     },
+     {
+      "q": "How do you usually help people in your family?",
+      "answer": "Mostly with practical things. I sort out bills and online forms for my parents, and I help my younger sister with her English. It's nothing [[heroic]], but it takes a bit of pressure off everyone.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Did your parents teach you to help others?",
+      "answer": "Very much so. My father often let struggling customers pay later, and my mother always shares food with the neighbours. Growing up around that kind of [[generosity]], helping others just became second nature to me.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "Do people in your country often help their neighbours?",
+      "answer": "Traditionally, yes, especially in villages and small towns like mine. If someone's ill or there's a wedding, neighbours [[rally round]] without being asked. In big cities like Dhaka, though, people tend to keep themselves to themselves more.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you think people are less helpful than they used to be?",
+      "answer": "Not less helpful, just busier. When there's a flood, I've seen people raise money and deliver supplies remarkably quickly, often [[mobilising]] through social media. The kindness is still there, it simply looks different now.",
+      "source": null,
+      "words": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_strangers",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Talking to strangers",
+   "questions": [
+    "Do you find it easy to talk to strangers?",
+    "In what situations do you talk to strangers?",
+    "Were you told not to talk to strangers as a child?",
+    "Are people in your country friendly towards strangers?",
+    "Do you think it's safe to talk to strangers online?"
+   ],
+   "data": {
+    "id": "sp1_strangers",
+    "bank": true,
+    "topic": "Talking to strangers",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Do you find it easy to talk to strangers?",
+     "In what situations do you talk to strangers?",
+     "Were you told not to talk to strangers as a child?",
+     "Are people in your country friendly towards strangers?",
+     "Do you think it's safe to talk to strangers online?"
+    ],
+    "samples": [
+     {
+      "q": "Do you find it easy to talk to strangers?",
+      "answer": "It depends on the setting, but generally yes. I'm fairly comfortable striking up a conversation, and you often learn something interesting. A little friendliness goes a long way in putting people at [[ease]].",
+      "source": 99,
+      "words": 33
+     },
+     {
+      "q": "In what situations do you talk to strangers?",
+      "answer": "Most often while travelling, on long bus journeys to Dhaka, for instance. Four hours is a long time, so chatting to the person beside you is almost [[inevitable]]. I've had some surprisingly deep conversations that way.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Were you told not to talk to strangers as a child?",
+      "answer": "Yes, my mother was quite strict about it, especially in crowded places like markets. Looking back, it was a [[perfectly reasonable]] rule, although in our small neighbourhood almost nobody was really a stranger.",
+      "source": null,
+      "words": 33
+     },
+     {
+      "q": "Are people in your country friendly towards strangers?",
+      "answer": "Generally, very. Bangladeshis are known for their [[warmth]], and it's quite normal for someone to invite a traveller for tea or walk them somewhere rather than just pointing. Foreign visitors often mention how welcoming people are.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think it's safe to talk to strangers online?",
+      "answer": "It can be, but you have to be cautious. It's very easy for people to [[misrepresent themselves]] online, so I'd never share personal details with someone I hadn't met. Young people especially need to be careful.",
+      "source": null,
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_happiness",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Happiness",
+   "questions": [
+    "Would you say you're a happy person?",
+    "What kinds of things make you happy?",
+    "What made you happy when you were a child?",
+    "Do you think money can buy happiness?",
+    "Do you think people are happier now than in the past?"
+   ],
+   "data": {
+    "id": "sp1_happiness",
+    "bank": true,
+    "topic": "Happiness",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "questions": [
+     "Would you say you're a happy person?",
+     "What kinds of things make you happy?",
+     "What made you happy when you were a child?",
+     "Do you think money can buy happiness?",
+     "Do you think people are happier now than in the past?"
+    ],
+    "samples": [
+     {
+      "q": "Would you say you're a happy person?",
+      "answer": "I'd say so, yes. I have a supportive family, a job that feels meaningful and good health. I've learned not to [[take things for granted]], and that alone makes me feel quite fortunate most days.",
+      "source": null,
+      "words": 35
+     },
+     {
+      "q": "What kinds of things make you happy?",
+      "answer": "Simple things, mostly. Time with people I love, a good book, a quiet evening after a productive day. I've realised over time that lasting [[contentment]] rarely comes from big events, but from small, everyday moments.",
+      "source": 100,
+      "words": 35
+     },
+     {
+      "q": "What made you happy when you were a child?",
+      "answer": "Very simple pleasures, honestly. Flying kites on the roof, visiting my grandparents in the village and eating mangoes straight from their trees. Life felt [[blissfully]] uncomplicated back then, with no deadlines or responsibilities to worry about.",
+      "source": null,
+      "words": 36
+     },
+     {
+      "q": "Do you think money can buy happiness?",
+      "answer": "Only up to a point. Having enough to live comfortably certainly reduces stress, but beyond that, relationships and purpose matter far more. Some of the most cheerful people I know, like my grandmother, live very [[frugally]] indeed.",
+      "source": null,
+      "words": 37
+     },
+     {
+      "q": "Do you think people are happier now than in the past?",
+      "answer": "It's hard to say. Life is certainly more comfortable, but people seem more stressed and constantly [[compare themselves]] with others online. My grandparents had far less, yet they seem more at peace than many young people I know.",
+      "source": null,
+      "words": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_animals",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Animals and pets",
+   "questions": [
+    "Do you have a pet?",
+    "What's your favourite animal?",
+    "Are pets popular in your country?"
+   ],
+   "data": {
+    "id": "sp1_animals",
+    "bank": true,
+    "topic": "Animals and pets",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "source": "guide",
+    "questions": [
+     "Do you have a pet?",
+     "What's your favourite animal?",
+     "Are pets popular in your country?"
+    ],
+    "samples": [
+     {
+      "q": "Do you have a pet?",
+      "answer": "Not at the moment. We had a cat for years when I was growing up, but in a rented flat with a strict landlord it's just not practical right now.",
+      "source": "guide",
+      "words": 30
+     },
+     {
+      "q": "What's your favourite animal?",
+      "answer": "Elephants. There's something calming about how slowly and deliberately they move, and I've read they have incredible memories, which I find fascinating.",
+      "source": "guide",
+      "words": 22
+     },
+     {
+      "q": "Are pets popular in your country?",
+      "answer": "More than they used to be, especially cats, which are seen as easier to keep in apartments. Dogs are still less common in cities, partly for cultural reasons and partly because there's nowhere to walk them.",
+      "source": "guide",
+      "words": 36
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_nature",
+   "source": "bank",
+   "category": "interests",
+   "topic": "Nature and parks",
+   "questions": [
+    "Do you often go to parks?",
+    "Do you prefer the countryside or the city?",
+    "Did you spend much time outdoors as a child?"
+   ],
+   "data": {
+    "id": "sp1_nature",
+    "bank": true,
+    "topic": "Nature and parks",
+    "category": "interests",
+    "categoryLabel": "Interests & Hobbies",
+    "intro": false,
+    "source": "guide",
+    "questions": [
+     "Do you often go to parks?",
+     "Do you prefer the countryside or the city?",
+     "Did you spend much time outdoors as a child?"
+    ],
+    "samples": [
+     {
+      "q": "Do you often go to parks?",
+      "answer": "Not as often as I'd like. There's one decent park about twenty minutes from my flat, and I try to go early on Friday mornings before it fills up. The rest of the week I rarely see anything green.",
+      "source": "guide",
+      "words": 39
+     },
+     {
+      "q": "Do you prefer the countryside or the city?",
+      "answer": "For living, the city — I need the jobs, the internet, the convenience. For a break, the countryside, no question. Two days by a river does more for my head than a month of weekends in town.",
+      "source": "guide",
+      "words": 36
+     },
+     {
+      "q": "Did you spend much time outdoors as a child?",
+      "answer": "All the time. Our neighbourhood was much less built-up then, so there were fields to play in and ponds to swim in. Children today in the same area have a playground the size of a car park.",
+      "source": "guide",
+      "words": 37
+     }
+    ]
+   }
+  },
+  {
+   "id": "sp1_noise",
+   "source": "bank",
+   "category": "daily",
+   "topic": "Noise",
+   "questions": [
+    "Do you mind noise?",
+    "Is your area noisy?",
+    "Do you think cities are noisier than they used to be?"
+   ],
+   "data": {
+    "id": "sp1_noise",
+    "bank": true,
+    "topic": "Noise",
+    "category": "daily",
+    "categoryLabel": "Daily Life & Opinions",
+    "intro": false,
+    "source": "guide",
+    "questions": [
+     "Do you mind noise?",
+     "Is your area noisy?",
+     "Do you think cities are noisier than they used to be?"
+    ],
+    "samples": [
+     {
+      "q": "Do you mind noise?",
+      "answer": "It depends on the kind. Background noise — a café, traffic — I can tune out. What I can't stand is someone's phone speaker on a bus; that gets under my skin instantly.",
+      "source": "guide",
+      "words": 31
+     },
+     {
+      "q": "Is your area noisy?",
+      "answer": "Very. There's construction on two sides of our building and a main road on the third, so the only quiet hour is between four and five in the morning.",
+      "source": "guide",
+      "words": 29
+     },
+     {
+      "q": "Do you think cities are noisier than they used to be?",
+      "answer": "Undoubtedly. My parents talk about hearing birds from their window in the same area where I now hear only horns. More people, more vehicles, more construction — the noise is just the sum of all that.",
+      "source": "guide",
+      "words": 35
+     }
+    ]
+   }
+  }
+ ]
+}

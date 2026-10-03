@@ -1,0 +1,47 @@
+{
+  "_format": {
+    "name": "listening_full_tests",
+    "group": "bank",
+    "table": "listening_tests",
+    "primaryKey": "id",
+    "description": "Listening Test 1-4 (website tests 11-14).",
+    "currentSourceInApp": "assets/content/tests_bank.json → listening.tests",
+    "fields": {
+      "id": "string",
+      "kind": "string",
+      "number": "integer",
+      "title": "string",
+      "setIds": "array",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 4
+  },
+  "items": [
+    {
+      "id": "lt_w01",
+      "kind": "full",
+      "number": 1,
+      "title": "Listening Test 1",
+      "setIds": [
+        "lt_w01_p1",
+        "lt_w01_p2",
+        "lt_w01_p3",
+        "lt_w01_p4"
+      ],
+      "data": {
+        "id": "lt_w01",
+        "number": 1,
+        "title": "Listening Test 1",
+        "sets": [
+          "lt_w01_p1",
+          "lt_w01_p2",
+          "lt_w01_p3",
+          "lt_w01_p4"
+        ],
+        "description": "Section 1: enquiring about a local language exchange club. Section 2: orientation at a public sports centre (floor plan labelling). Section 3: university research project on student travel and public transport. Section 4: lecture on forests and the water cycle.",
+        "source": "website test 11"
+      }
+    }
+  ]
+}

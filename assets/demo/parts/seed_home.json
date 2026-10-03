@@ -1,0 +1,299 @@
+{
+  "attempts": [
+    {
+      "id": "att_home_session_00",
+      "skill": "listening",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 2400,
+      "daysAgo": 0,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_01",
+      "skill": "reading",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 840,
+      "daysAgo": 1,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_02",
+      "skill": "writing",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 360,
+      "daysAgo": 2,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_03",
+      "skill": "speaking",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 900,
+      "daysAgo": 3,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_04",
+      "skill": "listening",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 1140,
+      "daysAgo": 4,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_05",
+      "skill": "reading",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 360,
+      "daysAgo": 5,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_06",
+      "skill": "writing",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 1320,
+      "daysAgo": 6,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_07",
+      "skill": "speaking",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 1140,
+      "daysAgo": 7,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_08",
+      "skill": "listening",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 720,
+      "daysAgo": 8,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_09",
+      "skill": "reading",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 1020,
+      "daysAgo": 9,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_10",
+      "skill": "writing",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 1500,
+      "daysAgo": 10,
+      "hour": 8,
+      "data": {}
+    },
+    {
+      "id": "att_home_session_11",
+      "skill": "speaking",
+      "kind": "session",
+      "title": "Study session",
+      "refId": "",
+      "band": null,
+      "durationSec": 900,
+      "daysAgo": 11,
+      "hour": 8,
+      "data": {}
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf_home_001",
+      "type": "ai",
+      "skill": "writing",
+      "title": "Task 2 essay scored",
+      "body": "Remote work · tap to see feedback",
+      "minutesAgo": 2,
+      "read": false,
+      "target": "/writing/band-report"
+    },
+    {
+      "id": "ntf_home_002",
+      "type": "ai",
+      "skill": "speaking",
+      "title": "Part 2 evaluation ready",
+      "body": "Helping someone · pronunciation tips inside",
+      "minutesAgo": 60,
+      "read": false,
+      "target": "/speaking/evaluation"
+    },
+    {
+      "id": "ntf_home_003",
+      "type": "reminder",
+      "title": "Mock Test 08 next week",
+      "body": "9:00 AM · check your headphones",
+      "minutesAgo": 240,
+      "read": false,
+      "target": "/mock/system-check"
+    },
+    {
+      "id": "ntf_home_004",
+      "type": "community",
+      "title": "3 new messages in Speaking Room",
+      "body": "Anika: anyone up for Part 3 practice?",
+      "daysAgo": 1,
+      "minutesAgo": 120,
+      "read": true,
+      "target": "/community/room",
+      "args": {
+        "roomId": "room_speaking_p2"
+      }
+    },
+    {
+      "id": "ntf_home_005",
+      "type": "reminder",
+      "title": "Keep your streak going",
+      "body": "Study 20 min today to reach 12 days",
+      "daysAgo": 1,
+      "minutesAgo": 600,
+      "read": true,
+      "target": "/home/schedule"
+    },
+    {
+      "id": "ntf_home_006",
+      "type": "system",
+      "title": "Welcome to IELTS AI, Tanvir",
+      "body": "Set your target band and take the diagnostic to get a study plan.",
+      "daysAgo": 57,
+      "read": true,
+      "target": "/onboarding/diagnostic"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_home_001",
+      "title": "Listening Part 3 · Set 12",
+      "skill": "listening",
+      "kind": "goal",
+      "dayOffset": 0,
+      "time": "18:00",
+      "durationMin": 20,
+      "done": true,
+      "target": "/listening/mini-practice"
+    },
+    {
+      "id": "tsk_home_002",
+      "title": "Task 2 Essay: Technology",
+      "skill": "writing",
+      "kind": "deadline",
+      "dayOffset": 0,
+      "time": "23:59",
+      "durationMin": 40,
+      "done": false,
+      "target": "/writing/task2"
+    },
+    {
+      "id": "tsk_home_003",
+      "title": "Vocabulary quiz · Round 4",
+      "skill": "vocab",
+      "kind": "reminder",
+      "dayOffset": 0,
+      "time": "21:00",
+      "durationMin": 10,
+      "done": false,
+      "target": "/resources/quiz"
+    },
+    {
+      "id": "tsk_home_004",
+      "title": "Part 1 warm-up · Hometown",
+      "skill": "speaking",
+      "kind": "goal",
+      "dayOffset": -1,
+      "time": "19:00",
+      "durationMin": 15,
+      "done": true,
+      "target": "/speaking"
+    },
+    {
+      "id": "tsk_home_005",
+      "title": "Matching headings drill",
+      "skill": "reading",
+      "kind": "goal",
+      "dayOffset": 1,
+      "time": "19:30",
+      "durationMin": 20,
+      "done": false,
+      "target": "/reading"
+    },
+    {
+      "id": "tsk_home_006",
+      "title": "Task 1 line graph",
+      "skill": "writing",
+      "kind": "goal",
+      "dayOffset": 2,
+      "time": "20:00",
+      "durationMin": 20,
+      "done": false,
+      "target": "/writing/task1"
+    },
+    {
+      "id": "tsk_home_007",
+      "title": "Part 2 cue card practice",
+      "skill": "speaking",
+      "kind": "reminder",
+      "dayOffset": 3,
+      "time": "20:00",
+      "durationMin": 15,
+      "done": false,
+      "target": "/speaking"
+    }
+  ],
+  "kv": {
+    "search.recent": [
+      "Part 4 note completion",
+      "Task 1 line graph",
+      "matching headings",
+      "th sound"
+    ],
+    "home.studyReminders": true
+  }
+}

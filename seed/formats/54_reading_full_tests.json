@@ -1,0 +1,58 @@
+{
+  "_format": {
+    "name": "reading_full_tests",
+    "group": "bank",
+    "table": "reading_tests",
+    "primaryKey": "id",
+    "description": "Academic Reading Test 1-10 (website tests 11-20).",
+    "currentSourceInApp": "assets/content/tests_bank.json → reading.tests",
+    "fields": {
+      "id": "string",
+      "kind": "string",
+      "number": "integer",
+      "title": "string",
+      "passageIds": "array",
+      "questionTypes": "array",
+      "questionCount": "integer",
+      "minutes": "integer",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 10
+  },
+  "items": [
+    {
+      "id": "rt_w01",
+      "kind": "full",
+      "number": 1,
+      "title": "Academic Reading Test 1",
+      "passageIds": [
+        "rt_w01_p1",
+        "rt_w01_p2",
+        "rt_w01_p3"
+      ],
+      "questionTypes": [
+        "tfng",
+        "gap",
+        "heading",
+        "matching",
+        "mcq",
+        "ynng",
+        "summary"
+      ],
+      "questionCount": 40,
+      "minutes": 60,
+      "data": {
+        "id": "rt_w01",
+        "number": 1,
+        "title": "Academic Reading Test 1",
+        "passages": [
+          "rt_w01_p1",
+          "rt_w01_p2",
+          "rt_w01_p3"
+        ],
+        "source": "website Reading Mock Test 11"
+      }
+    }
+  ]
+}

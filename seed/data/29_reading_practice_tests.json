@@ -1,0 +1,366 @@
+{
+  "table": "reading_tests",
+  "source": "IELTS_Reading_Question_Bank-1.pdf",
+  "items": [
+    {
+      "id": "rpt_01",
+      "number": 1,
+      "title": "Reading Practice Test 1",
+      "kind": "short",
+      "passages": [
+        "rb_mcq_01",
+        "rb_matching_features_07",
+        "rb_table_completion_15"
+      ],
+      "questionTypes": [
+        "mcq",
+        "matching_features",
+        "table_completion"
+      ],
+      "questionCount": 24,
+      "minutes": 36
+    },
+    {
+      "id": "rpt_02",
+      "number": 2,
+      "title": "Reading Practice Test 2",
+      "kind": "short",
+      "passages": [
+        "rb_tfng_01",
+        "rb_sentence_endings_07",
+        "rb_flowchart_completion_15"
+      ],
+      "questionTypes": [
+        "tfng",
+        "sentence_endings",
+        "flowchart_completion"
+      ],
+      "questionCount": 21,
+      "minutes": 32
+    },
+    {
+      "id": "rpt_03",
+      "number": 3,
+      "title": "Reading Practice Test 3",
+      "kind": "short",
+      "passages": [
+        "rb_ynng_01",
+        "rb_sentence_completion_07",
+        "rb_diagram_label_15"
+      ],
+      "questionTypes": [
+        "ynng",
+        "sentence_completion",
+        "diagram_label"
+      ],
+      "questionCount": 22,
+      "minutes": 33
+    },
+    {
+      "id": "rpt_04",
+      "number": 4,
+      "title": "Reading Practice Test 4",
+      "kind": "short",
+      "passages": [
+        "rb_matching_info_01",
+        "rb_summary_completion_07",
+        "rb_short_answer_15"
+      ],
+      "questionTypes": [
+        "matching_info",
+        "summary_completion",
+        "short_answer"
+      ],
+      "questionCount": 21,
+      "minutes": 32
+    },
+    {
+      "id": "rpt_05",
+      "number": 5,
+      "title": "Reading Practice Test 5",
+      "kind": "short",
+      "passages": [
+        "rb_headings_01",
+        "rb_note_completion_07",
+        "rb_mcq_15"
+      ],
+      "questionTypes": [
+        "headings",
+        "note_completion",
+        "mcq"
+      ],
+      "questionCount": 21,
+      "minutes": 32
+    },
+    {
+      "id": "rpt_06",
+      "number": 6,
+      "title": "Reading Practice Test 6",
+      "kind": "short",
+      "passages": [
+        "rb_matching_features_01",
+        "rb_table_completion_07",
+        "rb_tfng_15"
+      ],
+      "questionTypes": [
+        "matching_features",
+        "table_completion",
+        "tfng"
+      ],
+      "questionCount": 25,
+      "minutes": 38
+    },
+    {
+      "id": "rpt_07",
+      "number": 7,
+      "title": "Reading Practice Test 7",
+      "kind": "short",
+      "passages": [
+        "rb_sentence_endings_01",
+        "rb_flowchart_completion_07",
+        "rb_ynng_15"
+      ],
+      "questionTypes": [
+        "sentence_endings",
+        "flowchart_completion",
+        "ynng"
+      ],
+      "questionCount": 21,
+      "minutes": 32
+    },
+    {
+      "id": "rpt_08",
+      "number": 8,
+      "title": "Reading Practice Test 8",
+      "kind": "short",
+      "passages": [
+        "rb_sentence_completion_01",
+        "rb_diagram_label_07",
+        "rb_matching_info_15"
+      ],
+      "questionTypes": [
+        "sentence_completion",
+        "diagram_label",
+        "matching_info"
+      ],
+      "questionCount": 23,
+      "minutes": 35
+    },
+    {
+      "id": "rpt_09",
+      "number": 9,
+      "title": "Reading Practice Test 9",
+      "kind": "short",
+      "passages": [
+        "rb_summary_completion_01",
+        "rb_short_answer_07",
+        "rb_headings_15"
+      ],
+      "questionTypes": [
+        "summary_completion",
+        "short_answer",
+        "headings"
+      ],
+      "questionCount": 20,
+      "minutes": 30
+    },
+    {
+      "id": "rpt_10",
+      "number": 10,
+      "title": "Reading Practice Test 10",
+      "kind": "short",
+      "passages": [
+        "rb_note_completion_01",
+        "rb_mcq_07",
+        "rb_matching_features_15"
+      ],
+      "questionTypes": [
+        "note_completion",
+        "mcq",
+        "matching_features"
+      ],
+      "questionCount": 23,
+      "minutes": 35
+    },
+    {
+      "id": "rpt_11",
+      "number": 11,
+      "title": "Reading Practice Test 11",
+      "kind": "short",
+      "passages": [
+        "rb_table_completion_01",
+        "rb_tfng_07",
+        "rb_sentence_endings_15"
+      ],
+      "questionTypes": [
+        "table_completion",
+        "tfng",
+        "sentence_endings"
+      ],
+      "questionCount": 23,
+      "minutes": 35
+    },
+    {
+      "id": "rpt_12",
+      "number": 12,
+      "title": "Reading Practice Test 12",
+      "kind": "short",
+      "passages": [
+        "rb_flowchart_completion_01",
+        "rb_ynng_07",
+        "rb_sentence_completion_15"
+      ],
+      "questionTypes": [
+        "flowchart_completion",
+        "ynng",
+        "sentence_completion"
+      ],
+      "questionCount": 23,
+      "minutes": 35
+    },
+    {
+      "id": "rpt_13",
+      "number": 13,
+      "title": "Reading Practice Test 13",
+      "kind": "short",
+      "passages": [
+        "rb_diagram_label_01",
+        "rb_matching_info_07",
+        "rb_summary_completion_15"
+      ],
+      "questionTypes": [
+        "diagram_label",
+        "matching_info",
+        "summary_completion"
+      ],
+      "questionCount": 20,
+      "minutes": 30
+    },
+    {
+      "id": "rpt_14",
+      "number": 14,
+      "title": "Reading Practice Test 14",
+      "kind": "short",
+      "passages": [
+        "rb_short_answer_01",
+        "rb_headings_07",
+        "rb_note_completion_15"
+      ],
+      "questionTypes": [
+        "short_answer",
+        "headings",
+        "note_completion"
+      ],
+      "questionCount": 20,
+      "minutes": 30
+    },
+    {
+      "id": "rpt_15",
+      "number": 15,
+      "title": "Reading Practice Test 15",
+      "kind": "short",
+      "passages": [
+        "rb_mcq_02",
+        "rb_matching_features_08",
+        "rb_table_completion_16"
+      ],
+      "questionTypes": [
+        "mcq",
+        "matching_features",
+        "table_completion"
+      ],
+      "questionCount": 24,
+      "minutes": 36
+    },
+    {
+      "id": "rpt_16",
+      "number": 16,
+      "title": "Reading Practice Test 16",
+      "kind": "short",
+      "passages": [
+        "rb_tfng_02",
+        "rb_sentence_endings_08",
+        "rb_flowchart_completion_16"
+      ],
+      "questionTypes": [
+        "tfng",
+        "sentence_endings",
+        "flowchart_completion"
+      ],
+      "questionCount": 22,
+      "minutes": 33
+    },
+    {
+      "id": "rpt_17",
+      "number": 17,
+      "title": "Reading Practice Test 17",
+      "kind": "short",
+      "passages": [
+        "rb_ynng_02",
+        "rb_sentence_completion_08",
+        "rb_diagram_label_16"
+      ],
+      "questionTypes": [
+        "ynng",
+        "sentence_completion",
+        "diagram_label"
+      ],
+      "questionCount": 22,
+      "minutes": 33
+    },
+    {
+      "id": "rpt_18",
+      "number": 18,
+      "title": "Reading Practice Test 18",
+      "kind": "short",
+      "passages": [
+        "rb_matching_info_02",
+        "rb_summary_completion_08",
+        "rb_short_answer_16"
+      ],
+      "questionTypes": [
+        "matching_info",
+        "summary_completion",
+        "short_answer"
+      ],
+      "questionCount": 22,
+      "minutes": 33
+    },
+    {
+      "id": "rpt_19",
+      "number": 19,
+      "title": "Reading Practice Test 19",
+      "kind": "short",
+      "passages": [
+        "rb_headings_02",
+        "rb_note_completion_08",
+        "rb_mcq_16"
+      ],
+      "questionTypes": [
+        "headings",
+        "note_completion",
+        "mcq"
+      ],
+      "questionCount": 22,
+      "minutes": 33
+    },
+    {
+      "id": "rpt_20",
+      "number": 20,
+      "title": "Reading Practice Test 20",
+      "kind": "short",
+      "passages": [
+        "rb_matching_features_02",
+        "rb_table_completion_08",
+        "rb_tfng_16"
+      ],
+      "questionTypes": [
+        "matching_features",
+        "table_completion",
+        "tfng"
+      ],
+      "questionCount": 26,
+      "minutes": 39
+    }
+  ]
+}

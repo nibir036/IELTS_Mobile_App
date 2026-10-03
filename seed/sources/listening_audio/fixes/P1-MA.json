@@ -1,0 +1,186 @@
+{
+ "note": "Q9: the recording's group is \"the teenagers from the sixth form\", not a scout troop. Q11-20: the recording never covers supplies or timings; after [1:03] it lists the benefits of five green schemes, so Q11-20 are now notes on those, in audio order.",
+ "groups": {
+  "g2": {
+   "id": "g2",
+   "type": "matching",
+   "title": "Which area is each group assigned to?",
+   "instruction": "Choose the correct letter, A–F, for each question. You may use any letter more than once.",
+   "options": [
+    {
+     "key": "A",
+     "text": "North Beach"
+    },
+    {
+     "key": "B",
+     "text": "the pier"
+    },
+    {
+     "key": "C",
+     "text": "the car park"
+    },
+    {
+     "key": "D",
+     "text": "the dunes"
+    },
+    {
+     "key": "E",
+     "text": "the café strip"
+    },
+    {
+     "key": "F",
+     "text": "the rock pools"
+    }
+   ],
+   "questions": [
+    {
+     "number": 6,
+     "text": "the under-16 group",
+     "answer": "D"
+    },
+    {
+     "number": 7,
+     "text": "the corporate volunteers",
+     "answer": "B"
+    },
+    {
+     "number": 8,
+     "text": "the family group",
+     "answer": "E"
+    },
+    {
+     "number": 9,
+     "text": "the sixth-form students",
+     "answer": "C"
+    },
+    {
+     "number": 10,
+     "text": "the regular volunteers",
+     "answer": "A"
+    }
+   ]
+  },
+  "g3": {
+   "type": "notes",
+   "title": "Benefits to mention when thanking volunteers",
+   "instruction": "Write ONE WORD ONLY for each answer.",
+   "questions": [
+    {
+     "number": 11,
+     "text": "Composting bins: reduce ______",
+     "source": "Composting bins: reduce ___",
+     "answer": "landfill",
+     "answerDisplay": "landfill",
+     "accepted": [
+      "landfill"
+     ]
+    },
+    {
+     "number": 12,
+     "text": "Car-sharing scheme: mainly cuts ______",
+     "source": "Car-sharing scheme: mainly cuts ___",
+     "answer": "emissions",
+     "answerDisplay": "emissions",
+     "accepted": [
+      "emissions"
+     ]
+    },
+    {
+     "number": 13,
+     "text": "… caused by all the extra ______",
+     "source": "… caused by all the extra ___",
+     "answer": "traffic",
+     "answerDisplay": "traffic",
+     "accepted": [
+      "traffic"
+     ]
+    },
+    {
+     "number": 14,
+     "text": "Bring-your-own-bag scheme: run by some of the ______",
+     "source": "Bring-your-own-bag scheme: run by some of the ___",
+     "answer": "shops",
+     "answerDisplay": "shops",
+     "accepted": [
+      "shops"
+     ]
+    },
+    {
+     "number": 15,
+     "text": "… especially helps ______",
+     "source": "… especially helps ___",
+     "answer": "wildlife",
+     "answerDisplay": "wildlife",
+     "accepted": [
+      "wildlife"
+     ]
+    }
+   ],
+   "id": "g3"
+  },
+  "g4": {
+   "type": "notes",
+   "title": "Benefits to mention (continued)",
+   "instruction": "Write ONE WORD ONLY for each answer.",
+   "questions": [
+    {
+     "number": 16,
+     "text": "… because plastic bags end up in the ______",
+     "source": "… because plastic bags end up in the ___",
+     "answer": "water",
+     "answerDisplay": "water",
+     "accepted": [
+      "water"
+     ]
+    },
+    {
+     "number": 17,
+     "text": "Can and bottle return scheme: raises funds for ______",
+     "source": "Can and bottle return scheme: raises funds for ___",
+     "answer": "schools",
+     "answerDisplay": "schools",
+     "accepted": [
+      "schools"
+     ]
+    },
+    {
+     "number": 18,
+     "text": "… the deposits go to the local ______ school",
+     "source": "… the deposits go to the local ___ school",
+     "answer": "primary",
+     "answerDisplay": "primary",
+     "accepted": [
+      "primary"
+     ]
+    },
+    {
+     "number": 19,
+     "text": "Energy-saving light bulbs: being handed out by the ______",
+     "source": "Energy-saving light bulbs: being handed out by the ___",
+     "answer": "council",
+     "answerDisplay": "council",
+     "accepted": [
+      "council"
+     ]
+    },
+    {
+     "number": 20,
+     "text": "… mainly save money on people's ______ bills",
+     "source": "… mainly save money on people's ___ bills",
+     "answer": "electricity",
+     "answerDisplay": "electricity",
+     "accepted": [
+      "electricity"
+     ]
+    }
+   ],
+   "id": "g4"
+  }
+ },
+ "scenario": "Two organisers, Sam and Priya, plan Saturday's beach clean-up: who does each job, where each group works, and the benefits of local green schemes to mention when thanking volunteers.",
+ "context": "Two organisers, Sam and Priya, plan Saturday's beach clean-up: who does each job, where each group works, and the benefits of local green schemes to mention when thanking volunteers.",
+ "speakerMap": {
+  "Speaker 1": "Priya",
+  "Speaker 2": "Sam"
+ }
+}

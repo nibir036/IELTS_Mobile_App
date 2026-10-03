@@ -1,0 +1,474 @@
+[
+ {
+  "id": "rb_flowchart_completion_05",
+  "lesson": {
+   "title": "مراحل لها أسماء (Named stages)",
+   "text": "كثير من الـ passages التي تصف عملية (process) تعطي كل مرحلة اسمًا تقنيًا (coagulation, flocculation, sedimentation). قد يكتب الـ flow-chart اسم المرحلة ويطلب منك تفصيلًا عنها، أو يكتب التفصيل ويطلب منك الاسم. ضع علامة على كل مرحلة لها اسم في الـ passage أثناء القراءة؛ فالإجابة تكون عادةً في الجملة التي تقدّم الاسم أو تشرحه.",
+   "example": "في الـ passage: \"In the final stage, called glazing, the pot is coated with liquid glass.\" وفي الـ box: \"(1) ______: pot coated with liquid glass\". الإجابة: glazing."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "2": "عبارة \"Aluminium or iron\" موجودة مسبقًا في الـ box، لذلك تكتب salts فقط.",
+   "3": "كلمة \"Called\" في الـ box تعني نفس \"known as\" في الـ passage، وهذه paraphrase (إعادة صياغة).",
+   "4": "الـ floc الثقيل يغوص إلى الأسفل ويصبح الـ sludge الذي تتم إزالته.",
+   "5": "عبارة \"Sand, gravel and sometimes\" موجودة مسبقًا في الـ box، لذلك الكلمة الباقية charcoal هي الإجابة.",
+   "6": "كلمة \"Usually\" في الـ box هي paraphrase لعبارة \"most common\" في الـ passage. أما \"Ozone\" و\"ultraviolet light\" فهي بدائل تستخدمها بعض المحطات فقط، لذلك ليست الإجابة.",
+   "7": "هذا تطابق مباشر (direct match) مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_06",
+  "lesson": {
+   "title": "بنك كلمات فيه options متشابهة (Word banks with similar options)",
+   "text": "قد يحتوي بنك الكلمات (word bank) على option اثنين متقاربين في المعنى، مثل \"kiln\" و\"oven\"، أو \"frost\" و\"wind\". واحد منهما فقط يطابق ما يقوله الـ passage فعلًا. عندما يبدو لك أن الاثنين ممكنان، ارجع إلى الجملة في الـ passage واختر الـ option الذي تدعمه الجملة، لا الذي يبدو لك الأكثر احتمالًا.",
+   "example": "في الـ passage: \"The pots are dried in the sun.\" والـ options: A sun B fire. الإجابة: A، مع أن الأواني تُحرق في الفرن لاحقًا أيضًا."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "2": "الـ option J (wind) من نوع مشابه، لكنه غير مذكور في الـ passage.",
+   "3": "الرمل (sand) يُستخدم أيضًا لرشّ القالب، لكنه هنا يطابق مرحلة الخلط.",
+   "4": "هذه هي طريقة الصنع باليد.",
+   "5": "هذه هي طريقة البثق (extrusion).",
+   "6": "الـ option H (melting) غير مذكور في الـ passage.",
+   "7": "الـ option B (oven) له معنى مشابه، لكن الـ passage يقول kiln."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_07",
+  "lesson": {
+   "title": "اتبع الفرع الصحيح (Follow the right branch)",
+   "text": "عندما ينقسم الـ flow-chart، يبدأ كل فرع بشرط، مثل \"star similar to the Sun\" أو \"star over eight times the Sun's mass\". عادةً يصف الـ passage فرعًا كاملًا ثم الفرع الآخر، وغالبًا بكلمات مثل \"by contrast\" أو \"however\" أو \"for larger stars\". قبل أن تجيب عن فراغ في أي فرع، ابحث عن الجملة في الـ passage التي تطابق الشرط المكتوب في أعلى ذلك الفرع.",
+   "example": "الفرع: \"small dogs: live about (1) ______ years\". وفي الـ passage: \"Large breeds live around eight years, whereas small breeds often reach fifteen.\" الإجابة: fifteen، وليست eight."
+  },
+  "explanations": {
+   "1": "موجة الصدمة من نجم ينفجر قد تبدأ العملية، لكن الانهيار نفسه يحدث \"under gravity\"، وهذا ما يطابق الـ box.",
+   "2": "عبارة \"At the centre\" موجودة مسبقًا في الـ box. وفي هذه المرحلة لم يصبح بعد \"main-sequence star\".",
+   "3": "كلمة \"Nuclear\" موجودة مسبقًا في الـ box.",
+   "4": "عبارة \"Converted into\" تعني \"join together to form\". أما الحديد (iron) فلا يتكوّن إلا لاحقًا، في النجوم الضخمة.",
+   "5": "الفرع الأيسر هو النجم الشبيه بالشمس. والـ \"planetary nebula\" تتكوّن من الطبقات الخارجية، لا من اللبّ (core).",
+   "6": "الفرع الأيمن هو النجم الذي تزيد كتلته على ثمانية أضعاف كتلة الشمس.",
+   "7": "عبارة \"Neutron star\" موجودة مسبقًا في الـ box."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_08",
+  "lesson": {
+   "title": "عندما لا يكون الـ passage بالترتيب الزمني (When the passage is not in chronological order)",
+   "text": "في الـ passages المتوسطة والصعبة، قد لا يصف الكاتب العملية بالترتيب الدقيق. قد تذكر فقرة (paragraph) مرحلة لاحقة قبل مرحلة سابقة، أو تضيف معلومات خلفية بين المراحل. استخدم الـ flow-chart، لا الـ passage، لتحديد ترتيب الأحداث، وابحث عن كلمات الزمن مثل \"before\" و\"once\" و\"only after\" و\"at the final stage\" لتضع كل تفصيل في مكانه.",
+   "example": "في الـ passage: \"Before the concert, the orchestra rehearses for weeks. The players are chosen by audition.\" والترتيب في الـ flow-chart: audition → rehearsal → concert."
+  },
+  "explanations": {
+   "1": "الاسم المفرد (singular noun) يناسب \"a\". أما \"Methods, results and conclusions\" فهي أجزاء من الـ manuscript.",
+   "2": "عبارة \"A large proportion\" تعني \"many papers\".",
+   "3": "كلمة \"Independent\" موجودة مسبقًا في الـ box، لذلك كتابة \"independent specialists\" تكرّر كلمة.",
+   "4": "الـ verb \"evaluate\" موجود في الـ box، وكذلك \"Methods\" و\"conclusions\" موجودتان في الـ box.",
+   "5": "كلمة \"Request\" تعني \"ask\". أما الـ paragraph C فيقول إن المراجعين لا يستطيعون إعادة التجارب بأنفسهم، وهذه نقطة مختلفة.",
+   "6": "هذا هو الخيار الثالث من خيارات المحرّر (editor).",
+   "7": "كلمة \"Detailed\" موجودة مسبقًا في الـ box."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_09",
+  "lesson": {
+   "title": "الاختيار بين أرقام متشابهة (Choosing between similar numbers)",
+   "text": "الـ passages التي تصف عملية تحتوي غالبًا على عدة أرقام لمراحل مختلفة، مثل مدة خطوة واحدة ومدة العملية كلها. قبل أن تكتب رقمًا، اقرأ الكلمات المحيطة به في الـ passage وتأكد أنها تصف نفس المرحلة الموجودة في الـ box. كلمات مثل \"in total\" و\"the whole process\" و\"this stage alone\" إشارات مهمة.",
+   "example": "في الـ passage: \"Drying takes ten days; the whole process lasts a month.\" وفي الـ box: \"leaves dried for (1) ______ days\". الإجابة: 10."
+  },
+  "explanations": {
+   "1": "عبارة \"West bank\" موجودة مسبقًا في الـ box.",
+   "2": "كلمة \"Hook\" موجودة مسبقًا في الـ box.",
+   "3": "كلمة \"Jars\" موجودة مسبقًا في الـ box، لذلك الإجابة هي الصفة (adjective) فقط.",
+   "4": "كلمة \"Salt\" كلمة عامة أكثر؛ أما الـ passage فيسمّي المادة natron، وهي الإجابة الدقيقة.",
+   "5": "70 يومًا هي مدة العملية كلها، وليست مدة مرحلة التجفيف.",
+   "6": "كلمة \"Linen\" موجودة مسبقًا في الـ box. أما \"Leaves\" فقد استُخدمت \"sometimes\" فقط؛ و\"sawdust\" هي المادة المذكورة مع linen.",
+   "7": "القناع (mask) وُضع على الوجه، وليس بين الطبقات."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_10",
+  "lesson": {
+   "title": "بنك كلمات يختبر الـ paraphrase وشكل الكلمة (Word banks that test paraphrase and word form)",
+   "text": "في المستوى المتوسط، نادرًا ما تكون الـ options في بنك الكلمات هي نفس كلمات الـ passage. قد تظهر \"Rises\" بصيغة \"builds\"، و\"destroyed\" بصيغة \"killed\". وبعض الـ options تكون distractors لأن شكل الكلمة (word form) خطأ: فالـ adjective لا يمكن أن يملأ فراغًا يحتاج إلى verb. افحص الـ grammar في كل box قبل أن تنظر إلى القائمة.",
+   "example": "في الـ box: \"the mixture (1) ______ overnight\". والـ options: A thickens B thick. فقط A يناسب، لأنه verb."
+  },
+  "explanations": {
+   "1": "الـ option J (browns) هي المواد الغنية بالكربون، وهي الجزء الآخر من الخليط.",
+   "2": "كلمة \"Builds\" هي paraphrase لكلمة \"rises\"، وهي verb يناسب الموقع بعد \"heat\".",
+   "3": "صيغة المبني للمجهول (passive) \"are killed\" تناسب الـ box. أما C (preserved) فمعناها عكس ذلك.",
+   "4": "الكائنات الدقيقة \"need oxygen\"، والتقليب يُدخل الهواء. أما G (water) فيُضاف فقط \"if the heap is too dry\"، وهذا ليس سبب التقليب.",
+   "5": "الـ verb يطابق، وتسلسل الوقت صحيح.",
+   "6": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "7": "كلمة \"Water\" موجودة مسبقًا في الـ box، لذلك لا يمكن أن يكون G هو الإجابة."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_11",
+  "lesson": {
+   "title": "ثلاثة فروع، وفراغ واحد في كل فرع (Three branches, one gap each)",
+   "text": "بعض الـ flow-charts تنقسم إلى ثلاثة فروع أو أكثر، فرع لكل منتج أو نتيجة، ثم تلتقي مرة أخرى. عادةً يصف الـ passage الفروع في paragraph واحد، وغالبًا على شكل قائمة. طابق كل فرع مع الجملة الخاصة به، وانتبه جيدًا للأرقام وظروف التخزين، لأن الفروع الثلاثة ستحتوي على معلومات متشابهة.",
+   "example": "في الـ passage: \"Apples keep for months in a cold store; strawberries last only two days.\" والفرع: \"strawberries: last (1) ______\". الإجابة: two days."
+  },
+  "explanations": {
+   "1": "كلمة \"Level\" موجودة مسبقًا في الـ box.",
+   "2": "عبارة \"A little under a pint\" أكثر من كلمتين، وهي تقريبية فقط؛ ويجب كتابة الوحدة مع الرقم.",
+   "3": "عبارة \"Hepatitis and HIV\" مجرد أمثلة؛ والاسم العام هو الذي يناسب \"screened for\".",
+   "4": "كلمة \"Spun\" موجودة مسبقًا في الـ box.",
+   "5": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "6": "الفرع الأوسط هو البلازما (plasma)؛ أما خلايا الدم الحمراء (red cells) فتُحفظ في الثلاجة.",
+   "7": "الفرع الأيمن هو الصفائح الدموية (platelets)؛ أما 35 يومًا فهو الرقم الخاص بخلايا الدم الحمراء.",
+   "8": "هنا تلتقي الفروع مرة أخرى."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_12",
+  "lesson": {
+   "title": "المفردات التقنية (Technical vocabulary)",
+   "text": "الـ passages عن الحِرَف والتكنولوجيا تقدّم غالبًا مصطلحات خاصة، وتشرحها في نفس الجملة (\"a thin strip called the purfling\"). عندما يعطيك الـ flow-chart الوصف، تكون الإجابة هي المصطلح التقني؛ وعندما يعطيك المصطلح، تكون الإجابة جزءًا من الوصف. اقرأ نصفَي الشرح في الـ passage.",
+   "example": "في الـ passage: \"The potter uses a wheel-head, the flat disc that spins.\" وفي الـ box: \"clay placed on the (1) ______\". الإجابة: wheel-head."
+  },
+  "explanations": {
+   "1": "كلمة \"Spruce\" موجودة مسبقًا في الـ box الخاص بالجزء العلوي.",
+   "2": "عبارة \"Stored for years\" موجودة مسبقًا في الـ box كشرح، لذلك الإجابة هي المصطلح الذي يعرّفه الـ passage.",
+   "3": "عبارة \"Hot iron\" موجودة مسبقًا في الـ box.",
+   "4": "كلمة \"Test\" هي paraphrase لعبارة \"listens to\".",
+   "5": "كلمة \"Bar\" موجودة مسبقًا في الـ box.",
+   "6": "كلمة \"Inlay\" هي الوصف، لذلك الإجابة هي المصطلح التقني.",
+   "7": "هذا تطابق مباشر (direct match) مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_13",
+  "lesson": {
+   "title": "سلاسل السبب والنتيجة (Cause-and-effect chains)",
+   "text": "تُشرح العمليات الطبيعية غالبًا كسلسلة من الأسباب والنتائج: A يسبب B، و B يسبب C. كلمات مثل \"as a result\" و\"this means that\" و\"so\" و\"when\" تربط بين المراحل. وفي الـ flow-chart يمثّل كل سهم رابطًا من هذه الروابط. إذا لم تكن متأكدًا من إجابة، فاسأل نفسك: ما الذي سبّب هذه المرحلة، وماذا سبّبت بعدها؟",
+   "example": "في الـ passage: \"Heavy rain raised the river, so the fields flooded.\" والـ flow-chart: heavy rain → river rises → fields (1) ______ الإجابة: flooded."
+  },
+  "explanations": {
+   "1": "عبارة \"Air and soil\" موجودة مسبقًا في الـ box.",
+   "2": "مع أن كلمة \"acid\" موجودة مسبقًا في الـ box، فإن اسم الحمض هو المصطلح المكوّن من كلمتين \"carbonic acid\".",
+   "3": "كلمة \"Joints\" موجودة مسبقًا في الـ box.",
+   "4": "عبارة \"Most rapid\" تعني \"fastest\".",
+   "5": "الـ verb يناسب الـ grammar في الـ box، قبل \"and fill with air\".",
+   "6": "الـ stalactites تنمو من السقف إلى الأسفل، وهي موجودة مسبقًا في الـ box.",
+   "7": "كل من \"column\" و\"single column\" يناسب الـ word limit ويناسب الـ grammar بعد \"a\"."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_14",
+  "lesson": {
+   "title": "حدود كلمات أطول (Longer word limits)",
+   "text": "مع تعليمات NO MORE THAN THREE WORDS AND/OR A NUMBER يمكنك أن تكتب عبارات قصيرة، لكن يجب أن تكتب أقصر عبارة تجيب عن الفراغ إجابة كاملة. ويجب أن تكتب الوحدة مع الرقم إذا لم تكن الوحدة موجودة في الـ box. الكلمات الزائدة من الـ passage لا تعطيك درجات، وتجاوز الـ word limit يُفقدك الدرجة حتى لو كانت الكلمة المهمة صحيحة.",
+   "example": "في الـ box: \"water heated to (1) ______\". وفي الـ passage: \"heated to 90 degrees Celsius\". الإجابة: 90 degrees Celsius / 90°C."
+  },
+  "explanations": {
+   "1": "الوحدة غير موجودة في الـ box، لذلك يجب كتابتها.",
+   "2": "عبارة \"Tall steel tower\" هي الوصف؛ أما الإجابة الدقيقة فهي اسم المعدّة. وكلمة \"Tall\" و\"60 m\" موجودتان مسبقًا في الـ box.",
+   "3": "عبارة \"According to their\" موجودة مسبقًا في الـ box.",
+   "4": "الكيروسين والديزل يُجمعان \"further down\"، وليس في الأعلى.",
+   "5": "الفرع الأيمن هو الأجزاء الأثقل في الأسفل.",
+   "6": "عبارة \"High temperatures\" موجودة مسبقًا في الـ box.",
+   "7": "عبارة \"Sulphur dioxide\" هي الغاز الناتج عن الاحتراق؛ أما الشائبة التي تُزال من الوقود فهي sulphur."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_15",
+  "lesson": {
+   "title": "boxes فيها paraphrase (Paraphrased boxes)",
+   "text": "في الـ flow-charts الصعبة، نادرًا ما تستخدم الـ boxes كلمات الـ passage. قد تأتي \"Trigger\" بدلًا من \"set off\"، و\"carry fragments to\" بدلًا من \"transport pieces of ... to\"، و\"long-lived\" بدلًا من \"persist for decades\". ابحث عن معنى كل box، لا عن كلماته. وبعد أن تجد الجملة المطابقة، يجب أن تنسخ الإجابة نفسها من الـ passage كما هي تمامًا.",
+   "example": "في الـ box: \"the plan was (1) ______ because of cost\". وفي الـ passage: \"the scheme was eventually abandoned as too expensive\". الإجابة: abandoned."
+  },
+  "explanations": {
+   "1": "كلمة \"Stomach\" موجودة مسبقًا في الـ box. والإنزيمات تخص الدموع واللعاب، وهما موجودان مسبقًا في الـ box أيضًا.",
+   "2": "كلمة \"Trigger\" تعني \"cause\". أما \"Innate immune response\" فهي ثلاث كلمات، أي أكثر من الـ word limit، وهي خط الدفاع الثاني كله، وليست الأثر الموصوف في الـ box.",
+   "3": "كلمة \"Carry\" تعني \"travel with\". الـ phagocytes تبتلع الميكروبات لكنها لا تنقلها إلى الغدد الليمفاوية (lymph nodes).",
+   "4": "كلمة \"Activated\" موجودة مسبقًا في الـ box؛ والإجابة هي الـ verb الذي يأتي بعدها.",
+   "5": "الفرع الأيسر هو الـ B cells.",
+   "6": "عبارة \"Viruses inside them\" موجودة مسبقًا في الـ box، لذلك الإجابة هي cells.",
+   "7": "كلمة \"Long-lived\" هي paraphrase لعبارة \"persist for decades\"."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_16",
+  "lesson": {
+   "title": "عمليات طويلة مع معلومات خلفية (Long processes with background information)",
+   "text": "الـ passages الصعبة تخلط مراحل العملية بالإحصاءات والتاريخ والآراء. بعض الجمل فقط هي التي تصف المراحل. اعمل skim للـ passage أولًا وضع علامة حيث تبدأ كل مرحلة؛ ثم تجاهل الجمل التي تعطي معلومات خلفية، مثل التكاليف والانتقادات، إلا إذا طلبها أحد الـ boxes.",
+   "example": "في الـ passage: \"Critics say the test is too expensive. In the test, samples are frozen.\" وفي الـ box: \"samples (1) ______\". الإجابة: frozen. الجملة الأولى معلومات خلفية فقط."
+  },
+  "explanations": {
+   "1": "عبارة \"Plays a key role in\" تعني \"involved in\". وكلمة \"Disease\" هي نقطة البداية، وليست الشيء الذي يتم تحديده.",
+   "2": "الكلمة التي فيها شَرطة (hyphen) تُحسب كلمة واحدة، لذلك الإجابة ضمن الـ word limit.",
+   "3": "كلمة \"Selected\" هي paraphrase لعبارة \"most promising\". وكلمة \"Preclinical\" وحدها لا تناسب بعد \"undergoes\"، لأنها تحتاج إلى noun.",
+   "4": "كلمة \"Right\" تعني \"correct\". أما \"Whether the drug works\" فيتم اختباره في Phase II، وليس في Phase I.",
+   "5": "عبارة \"Highest rate of\" هي paraphrase لعبارة \"the most\".",
+   "6": "عبارة \"Best existing treatment\" موجودة مسبقًا في الـ box.",
+   "7": "الـ FDA والـ EMA مجرد أمثلة؛ والمصطلح العام هو الذي يناسب الـ box والـ word limit.",
+   "8": "عبارة \"Very rare\" موجودة مسبقًا في الـ box."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_17",
+  "lesson": {
+   "title": "بنك كلمات فيه مترادفات قريبة وأضداد (Word banks with near-synonyms and opposites)",
+   "text": "في بنوك الكلمات الصعبة، قد تكون عدة options ممكنة بشكل عام، وبعضها يكون عكس ما يقوله الـ passage. قد يبدو أن \"Conditions\" و\"climates\" يناسبان معًا، لكن واحدًا فقط يطابق معنى الـ passage إذا كان الـ passage يذكر أشياء أكثر من المناخ. وقد تظهر \"Merged\" حيث يصف الـ passage مجموعات يتم \"divided\". تأكّد دائمًا من الـ option بمقارنته بجملة محددة.",
+   "example": "في الـ passage: \"The two companies split in 2010.\" والـ options: A joined B separated. الإجابة: B؛ أما A فهو العكس."
+  },
+  "explanations": {
+   "1": "الـ option C (merged) يصف العكس، وهو ما يحدث عندما تجتمع المجموعات مرة أخرى.",
+   "2": "كلمة \"Random\" موجودة مسبقًا في الـ box.",
+   "3": "عبارة \"By chance\" تعني \"purely by luck\". أما I (selection) فلا يعتمد على الصدفة، وهو موجود مسبقًا في الـ box التالي.",
+   "4": "الـ option G (climates) هو واحد فقط من الظروف المذكورة.",
+   "5": "كلمة \"Available\" موجودة مسبقًا في الـ box.",
+   "6": "عبارة \"After long\" هي paraphrase لعبارة \"continues for long enough\".",
+   "7": "كلمة \"Introduce\" هي paraphrase لكلمة \"bringing\"."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_18",
+  "lesson": {
+   "title": "flow-charts تجمع بين التاريخ والعملية (Flow-charts that combine history and process)",
+   "text": "بعض الـ flow-charts تعرض سلسلة أحداث عبر الزمن، من مشكلة إلى حلّ ثم آثاره، بدلًا من عملية تقنية. وقد تحتوي على تواريخ وكميات. ابحث عن تعبيرات الزمن (by 1900, in 1909, four years later) وكلمات السبب والنتيجة (as a result, consequently)، وتأكد أن كل تاريخ أو رقم ينتمي إلى الحدث الصحيح.",
+   "example": "في الـ passage: \"The idea was proposed in 1901 but not tested until 1905.\" وفي الـ box: \"first test: (1) ______\". الإجابة: 1905."
+  },
+  "explanations": {
+   "1": "كلمتا \"Guano\" و\"Chilean\" موجودتان مسبقًا في الـ box.",
+   "2": "عام 1909 هو تاريخ عمل Haber في المختبر، وهو موجود مسبقًا في الـ box. أما 1898 فهو تاريخ تحذير Crookes.",
+   "3": "كلمة \"Mainly\" تشير إلى الغاز الطبيعي؛ أما الفحم فيُستخدم في بعض الأماكن فقط.",
+   "4": "الرقم \"200\" وحده لا يناسب الـ grammar قبل \"atmospheric pressure\"؛ بل نحتاج إلى \"times\". أما درجة الحرارة (450°C) فتخص \"heated\"، ولا يوجد فيها فراغ.",
+   "5": "كلمة \"Separated\" هي paraphrase لكلمة \"removed\".",
+   "6": "كلمة \"About\" موجودة مسبقًا في الـ box، لذلك تكفي \"half\". أما \"Four billion\" فهو عدد الناس الذي يمكن أن يعيله العالم بدون هذه العملية.",
+   "7": "كلمة \"Algae\" موجودة مسبقًا في الـ box، والإجابة هي أثر تحلّلها."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_19",
+  "lesson": {
+   "title": "العمليات المجرّدة (Abstract processes)",
+   "text": "العمليات الاقتصادية والاجتماعية ليس لها خطوات مادية؛ فمراحلها تغيّرات في السلوك أو الأسعار أو التوقعات. وقد يستخدم الـ passage كثيرًا من الأسماء المجرّدة (demand, confidence, expectations) التي تبدو متشابهة. حدّد الكمية التي يصفها كل box، وتأكد من اتجاه التغيّر: ارتفاع أم انخفاض، أكثر أم أقل.",
+   "example": "في الـ passage: \"Higher taxes reduce spending, which lowers prices.\" وفي الـ box: \"less (1) ______ → prices fall\". الإجابة: spending."
+  },
+  "explanations": {
+   "1": "عبارة \"Interest rate\" هي المصطلح العام؛ أما الـ box فيحتاج إلى السعر المحدد الذي يضعه البنك المركزي.",
+   "2": "عبارة \"In advance\" تطابق \"The effect begins even before the rate itself changes\".",
+   "3": "كلمة \"Loans\" موجودة مسبقًا في الـ box. أما الفوائد التي تُدفع للمدّخرين فهي نقطة مختلفة.",
+   "4": "الفرع الأيمن هو قناة العملة (currency channel).",
+   "5": "كلمة \"Especially\" هي paraphrase لكلمة \"most\". والأمثلة طويلة جدًا ومحددة جدًا بالنسبة إلى الفراغ.",
+   "6": "كلمة \"Confidence\" مذكورة أيضًا في هذا الـ paragraph، لكنها ليست الشيء الذي ينخفض.",
+   "7": "كلمة \"One\" موجودة مسبقًا في الـ box، لذلك يحتاج الفراغ إلى الرقم الثاني مع وحدته. أما \"Two per cent\" فهو هدف التضخم، وليس مدة زمنية.",
+   "8": "عبارة \"Unemployment rises\" موجودة مسبقًا في الـ box."
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_20",
+  "lesson": {
+   "title": "مراجعة نهائية: جمع كل المهارات معًا (Final review — putting every skill together)",
+   "text": "هذه المجموعة الأخيرة تجمع التحديات الرئيسية في Flow-chart Completion: boxes فيها paraphrase، وفرع (branch)، وعدة أرقام، ومصطلحات تقنية، ومعلومات خلفية، و word limit هو TWO WORDS AND/OR A NUMBER. اعمل بطريقة منظمة: اقرأ الـ flow-chart كله، وحدّد بداية العملية في الـ passage، وتوقّع نوع كل إجابة، وافحص شروط الفروع، وتأكد من المرحلة التي ينتمي إليها كل رقم، وفي النهاية أعد قراءة كل box مكتمل لتتأكد من الـ grammar والـ word limit.",
+   "example": "الفرع: \"if no match → suspect (1) ______\". وفي الـ passage: \"If the profiles differ, the suspect is ruled out.\" الإجابة: ruled out."
+  },
+  "explanations": {
+   "1": "عبارة \"Chain of\" موجودة مسبقًا في الـ box.",
+   "2": "كلمة \"Purified\" موجودة مسبقًا في الـ box؛ والـ past participle يناسب النمط \"DNA ______ and purified\".",
+   "3": "عبارة \"Polymerase chain reaction\" ثلاث كلمات، وهذا يتجاوز الـ word limit، لذلك يجب استخدام الاختصار. وهذا trap شائع في المجموعات الصعبة.",
+   "4": "كلمة \"About\" تعني \"around\". أما \"Four\" فاستُخدم في الأنظمة المبكرة، و\"thirteen\" في النظام الأمريكي الأقدم؛ ولا أحد منهما يصف الممارسة الحالية.",
+   "5": "عبارة \"According to their\" موجودة مسبقًا في الـ box، لذلك الإجابة هي الخاصية، وليست اسم الطريقة.",
+   "6": "كلمة \"National\" موجودة مسبقًا في الـ box.",
+   "7": "الفرع الأيمن هو حالة التطابق (match). وكلمة \"An\" قبل الفراغ تحتاج إلى كلمة تبدأ بصوت حرف علّة (vowel sound)، وهذا يؤكد أن الإجابة \"unrelated\".",
+   "8": "كلمة \"Secondary\" موجودة مسبقًا في الـ box."
+  }
+ },
+ {
+  "id": "rb_diagram_label_01",
+  "lesson": {
+   "title": "استخدم الـ labels المعطاة لتعرف مكانك (Use the given labels to find your place)",
+   "text": "في الـ diagram السهل، يصف الـ passage الشيء جزءًا جزءًا، وتكون عدة labels مكتوبة مسبقًا. هذه الـ labels المكتملة نقاط ارتكاز: ابحث عنها في الـ passage أولًا، وغالبًا ستجد الأجزاء الناقصة موصوفة في نفس الجملة أو في الجملة التالية. كلمات المكان، مثل \"at the top\" و\"around\" و\"at the end of\"، تخبرك أين يقع كل جزء.",
+   "example": "الـ label المعطى: \"handle\". وفي الـ passage: \"The handle is fixed to a metal rod.\" والفراغ بجانب المقبض: \"metal (1) ______\". الإجابة: rod."
+  },
+  "explanations": {
+   "1": "كلمة \"Metal\" وعبارة \"running down the centre\" موجودتان مسبقًا في الـ label.",
+   "2": "هذا الـ label يقع بجانب الـ label المعطى \"piston\"، وهذا يساعدك على إيجاد الجملة الصحيحة.",
+   "3": "عبارة \"Long outer tube\" تصف الـ barrel؛ والإجابة هي اسمه.",
+   "4": "كلمة \"One-way\" موجودة مسبقًا في الـ label. أما \"valve of the tyre\" فهو جزء مختلف.",
+   "5": "الـ \"Nozzle\" في طرف الخرطوم، وليس هو الجزء الذي ينقل الهواء.",
+   "6": "كلمة \"Dial\" موجودة مسبقًا في الـ label، لذلك الإجابة هي اسم الجزء."
+  }
+ },
+ {
+  "id": "rb_diagram_label_02",
+  "lesson": {
+   "title": "مقاطع عرضية فيها طبقات (Cross-sections with layers)",
+   "text": "الـ diagram الذي فيه طبقات يعرض البناء كسلسلة من الأشرطة، من الأعلى إلى الأسفل. عادةً يصف الـ passage الطبقات بالترتيب، إما من السطح إلى الأسفل أو من الأرض إلى الأعلى. حدّد الاتجاه الذي يتبعه الـ passage، ثم طابق كل طبقة مع الـ paragraph الخاص بها. قد تطلب الـ labels اسم الطبقة أو مادتها أو سُمكها أو الغرض منها.",
+   "example": "في الـ passage: \"Beneath the carpet lies a layer of foam, and below that, the wooden floor.\" والطبقات: carpet → (1) ______ → wooden floor. الإجابة: foam."
+  },
+  "explanations": {
+   "1": "كلمة \"mm\" موجودة مسبقًا في الـ label، لذلك تحتاج إلى الرقم فقط.",
+   "2": "كلمة \"Course\" موجودة مسبقًا في الـ label.",
+   "3": "كلمة \"Spreads\" وعبارة \"of traffic\" موجودتان مسبقًا في الـ label.",
+   "4": "كلمة \"Crushed\" موجودة مسبقًا في الـ label.",
+   "5": "عبارة \"Drain away\" كلمتان، وهذا يتجاوز الـ word limit وهو ONE WORD، لذلك اكتب \"drain\".",
+   "6": "الـ passage يصف الطبقات من الأسفل إلى الأعلى، لكن الـ diagram يعرضها من الأعلى إلى الأسفل."
+  }
+ },
+ {
+  "id": "rb_diagram_label_03",
+  "lesson": {
+   "title": "labels تصف وظيفة (Labels that describe a function)",
+   "text": "كثير من الـ labels لا تطلب اسم الجزء، بل ما يفعله أو ما يحتويه، مثل \"where bees store (1) ______\". عندما يوجد بنك كلمات، ابحث عن الجزء في الـ passage، واقرأ فيمَ يُستخدم، ثم اختر الـ option الذي يطابق هذا الاستخدام. الـ options التي تسمّي أجزاء أخرى من الشيء هي distractors شائعة.",
+   "example": "الـ label: \"drawer: used for storing (1) ______\". وفي الـ passage: \"The top drawer holds cutlery.\" والـ options: A plates B cutlery. الإجابة: B."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "2": "الـ option A (pollen) غير مذكور في الـ passage.",
+   "3": "الـ option D (workers) يستطيعون المرور، لذلك لا يتم منعهم.",
+   "4": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "5": "الـ label يصف وظيفة الـ brood box.",
+   "6": "الـ option H (mice) هو ما يمنعه المدخل الأضيق من الدخول، وليس الجزء نفسه."
+  }
+ },
+ {
+  "id": "rb_diagram_label_04",
+  "lesson": {
+   "title": "الداخل والخارج (Inside and outside)",
+   "text": "عندما يعرض الـ diagram مقطعًا عرضيًا، تكون بعض الأجزاء في الأمام أو في الخارج، وأجزاء أخرى في العمق بالداخل. عادةً يتبع الـ passage مسار شيء ما عبر هذا الجسم: وهنا هو مسار الضوء. تتبّع هذا المسار في الـ passage وعلى الـ diagram في الوقت نفسه.",
+   "example": "في الـ passage: \"Water enters through the tap, passes through a filter and leaves through the spout.\" والـ label في المنتصف: \"(1) ______\". الإجابة: filter."
+  },
+  "explanations": {
+   "1": "الـ label يصف الجزء، والإجابة هي اسمه.",
+   "2": "كلمة \"Iris\" هي label معطى بجانب الفراغ.",
+   "3": "القرنية (cornea) تكسر الضوء أيضًا، لكن عبارة \"fine-tunes the focus\" تطابق العدسة (lens).",
+   "4": "كلمة \"Ciliary\" موجودة مسبقًا في الـ label.",
+   "5": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "6": "كلمة \"Optic\" موجودة مسبقًا في الـ label."
+  }
+ },
+ {
+  "id": "rb_diagram_label_05",
+  "lesson": {
+   "title": "أرقام وأسماء في نفس الـ diagram (Numbers and names in the same diagram)",
+   "text": "بعض الـ labels تحتاج إلى رقم، مثل ارتفاع أو عدد أو تاريخ. عندما يسمح الـ word limit برقم، تأكد أن الرقم يخص نفس الجزء الموجود في الـ label. فالـ passage الذي يتحدث عن مبنى قد يذكر الارتفاعات وعدد الطوابق وتواريخ البناء كلها في paragraph واحد.",
+   "example": "في الـ passage: \"The tower, built in 1820, has six floors and is 25 metres tall.\" والـ label: \"tower: (1) ______ floors\". الإجابة: six / 6."
+  },
+  "explanations": {
+   "1": "الـ label يعطي الوظيفة؛ والإجابة هي الاسم.",
+   "2": "كلمة \"Four\" موجودة مسبقًا في الـ label.",
+   "3": "عبارة \"Up to\" تشير إلى الحد الأقصى، وهو ten، وليس المدى المعتاد من four إلى seven.",
+   "4": "الـ label يصف موقع الـ fantail.",
+   "5": "كلمة \"Sack\" موجودة مسبقًا في الـ label.",
+   "6": "عبارة \"Pair of\" موجودة مسبقًا في الـ label."
+  }
+ },
+ {
+  "id": "rb_diagram_label_06",
+  "lesson": {
+   "title": "الأضداد في بنك الكلمات (Opposites in the word bank)",
+   "text": "كثيرًا ما يحتوي بنك الكلمات على option معناه عكس الإجابة الصحيحة، مثل \"washed out\" و\"deposited\"، أو \"added\" و\"removed\". هذه الـ traps تنجح لأن الـ options الاثنين ينتميان إلى نفس الموضوع. عندما يصف الـ label عملية، حدّد بعناية هل الشيء يُكتسب أم يُفقد في تلك الطبقة.",
+   "example": "في الـ passage: \"Rain removes salt from the upper layer.\" والـ label: \"upper layer: salt (1) ______\". والـ options: A added B removed. الإجابة: B."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "2": "الـ option H (roots) موجودة أيضًا في الطبقة العليا من التربة (topsoil)، لكنها لا تعطيها لونها الداكن.",
+   "3": "الـ option B (deposited) يصف ما يحدث في الـ B horizon، وهي العملية المعاكسة. أما E (sand) فهو ما يبقى بعد ذلك.",
+   "4": "كلمة \"Iron\" موجودة مسبقًا في الـ label.",
+   "5": "عبارة \"Weathered parent\" موجودة مسبقًا في الـ label.",
+   "6": "هذه هي الطبقة الأدنى في المقطع (profile)."
+  }
+ },
+ {
+  "id": "rb_diagram_label_07",
+  "lesson": {
+   "title": "مصطلحات تقنية متشابهة (Similar technical terms)",
+   "text": "الـ passages عن الظواهر الطبيعية تحتوي غالبًا على أزواج من المصطلحات يسهل الخلط بينها، مثل \"magma\" (صخور منصهرة تحت الأرض) و\"lava\" (صخور منصهرة على السطح)، أو \"main vent\" و\"side vent\". والـ diagram يختبر هل لاحظت الفرق. عندما يعرّف الـ passage مصطلحًا، ضع خطًا تحت التعريف وقارنه بدقة مع موقع الـ label.",
+   "example": "في الـ passage: \"Groundwater lies below the surface; runoff flows over it.\" والـ label على السطح: \"(1) ______\". الإجابة: runoff."
+  },
+  "explanations": {
+   "1": "الـ \"pyroclastic flow\" يتحرك نزولًا على الجبل، وليس صعودًا إلى السماء.",
+   "2": "الـ label هو التعريف، لذلك الإجابة هي المصطلح.",
+   "3": "كلمة \"Ash\" موجودة مسبقًا في الـ label. وكلمة \"Lava\" وحدها صحيحة أيضًا، لكن \"hardened lava\" هي العبارة الكاملة وهي ضمن الـ word limit.",
+   "4": "عبارة \"Main vent\" معطاة مسبقًا؛ وهذا الـ label موجود على المنحدر.",
+   "5": "صيغة الجمع (plural) تناسب الـ verb \"move\". والـ pyroclastic flows تتحرك بسرعة كبيرة، وليس ببطء.",
+   "6": "عبارة \"Narrow pipe\" موجودة مسبقًا في الـ label.",
+   "7": "الصخور المنصهرة تحت الأرض اسمها \"magma\"، وليس \"lava\"، لذلك تكون \"lava chamber\" إجابة خاطئة."
+  }
+ },
+ {
+  "id": "rb_diagram_label_08",
+  "lesson": {
+   "title": "عدة labels في طبقة واحدة (Several labels in one layer)",
+   "text": "في الـ diagram الذي فيه طبقات، قد يكون للطبقة الواحدة labels اثنان أو أكثر: اسمها، وما تحتويه، وما تفعله. عادةً يصف الـ passage الطبقة كلها في paragraph واحد، لذلك اقرأ هذا الـ paragraph بعناية وطابق كل label مع تفصيل مختلف. لا تكتب اسم الطبقة عندما يطلب الـ label محتوياتها.",
+   "example": "في الـ passage: \"The crust, the thinnest layer, is made of granite and basalt.\" والـ labels: \"(1) ______: thinnest layer\" و\"made of granite and (2) ______\". الإجابات: crust, basalt."
+  },
+  "explanations": {
+   "1": "عبارة \"Filled with keratin\" موجودة مسبقًا في الـ label؛ والفراغ يحتاج إلى adjective يصف الخلايا.",
+   "2": "كلمة \"Melanin\" هي ما تنتجه هذه الخلايا، وهي موجودة مسبقًا في الـ label.",
+   "3": "الـ label يذكر المحتويات، لذلك الإجابة هي اسم الطبقة.",
+   "4": "كلمة \"Hair\" موجودة مسبقًا في الـ label.",
+   "5": "كلمة \"Subcutaneous\" اسم بديل، لكن \"subcutaneous layer\" كلمتان.",
+   "6": "كلمة \"Fat\" هي المادة التي تتكوّن منها الطبقة؛ أما ما تخزّنه للجسم فهو الطاقة (energy)."
+  }
+ },
+ {
+  "id": "rb_diagram_label_09",
+  "lesson": {
+   "title": "الصفات والأسماء (Adjectives and nouns)",
+   "text": "قد يحتاج الـ label إلى adjective (\"thin and ______\") أو إلى noun (\"packed with ______\"). انظر إلى الكلمات على جانبَي الفراغ. ومع TWO WORDS قد تحتاج إلى adjective و noun معًا، مثل \"air spaces\". تأكد أن إجابتك تناسب الـ grammar في الـ label، وتناسب معناه أيضًا.",
+   "example": "الـ label: \"walls are thick and (1) ______\". وفي الـ passage: \"the walls are thick and waterproof\". الإجابة: waterproof (وهي adjective لتناسب \"thick\")."
+  },
+  "explanations": {
+   "1": "كلمة \"Waxy\" موجودة مسبقًا في الـ label.",
+   "2": "الـ adjective يناسب \"thin and\".",
+   "3": "كلمة \"Chlorophyll\" هي الصبغة الموجودة داخل الـ chloroplasts؛ أما الخلايا فهي مليئة بالـ chloroplasts.",
+   "4": "الـ plural noun يناسب الـ verb \"allow\".",
+   "5": "عبارة \"Water and minerals\" ثلاث كلمات، أي أكثر من الـ word limit، لذلك اكتب \"water\". أما \"Sugar\" فينقله الـ phloem، وهو موجود مسبقًا في الـ label.",
+   "6": "الـ label موجود على الـ lower epidermis، حيث يقول الـ passage إن معظم الـ stomata توجد.",
+   "7": "عبارة \"Opened and closed by\" هي paraphrase لعبارة \"which open ... and close\"."
+  }
+ },
+ {
+  "id": "rb_diagram_label_10",
+  "lesson": {
+   "title": "تتبّع الجريان عبر البناء (Following the flow through a structure)",
+   "text": "الـ diagrams الخاصة بمحطات الطاقة وأنظمة المياه والمحركات تعرض غالبًا شيئًا يجري خلالها: الماء أو الهواء أو الوقود. وعادةً يتبع الـ passage نفس المسار من البداية إلى النهاية. تتبّع الجريان بإصبعك على الـ diagram أثناء القراءة، وتوقّف عند كل فراغ لتجد الجزء الذي يصفه الـ passage في تلك النقطة.",
+   "example": "في الـ passage: \"Air enters through the filter, passes the fan and leaves through the vent.\" والـ label عند المخرج: \"(1) ______\". الإجابة: vent."
+  },
+  "explanations": {
+   "1": "الـ label هو التعريف، لذلك الإجابة هي المصطلح.",
+   "2": "كلمة \"Metal\" موجودة مسبقًا في الـ label. انسخ التهجئة (spelling) بعناية.",
+   "3": "عبارة \"Steep pipe\" موجودة مسبقًا في الـ label.",
+   "4": "عبارة \"During floods\" تطابق بداية Paragraph F. هذا الـ paragraph يأتي في آخر الـ passage، لكن الـ label موجود على يسار الـ diagram، بجانب السد.",
+   "5": "الـ turbine معطى كـ label منفصل؛ أما الذي يحتوي على المغناطيسات فهو الـ generator.",
+   "6": "كلمة \"Increases\" موجودة مسبقًا في الـ label.",
+   "7": "الـ spillway يعيد الماء إلى النهر أيضًا، لكن ماء الفيضان الزائد فقط؛ أما الـ tailrace فهو المكان الذي يخرج منه الماء بعد مروره عبر الـ turbine."
+  }
+ },
+ {
+  "id": "rb_diagram_label_11",
+  "lesson": {
+   "title": "بنوك كلمات لعمليات داخل آلة (Word banks for processes inside a machine)",
+   "text": "عندما يعرض الـ diagram آلة تعمل، فإن كثيرًا من الـ labels تصف تغيّرات: شيء يرتفع أو ينخفض، أو يُمتص أو يُطلق، أو يصبح سائلًا أو غازًا. وبنك الكلمات سيحتوي على الاتجاهين. لكل label، ابحث عن الجزء في الـ passage واسأل: ما الذي يتغيّر هنا، وفي أي اتجاه؟",
+   "example": "في الـ passage: \"In the boiler, water turns to steam.\" والـ label: \"boiler: water becomes (1) ______\". والـ options: A ice B steam C liquid. الإجابة: B."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match) مع الـ passage. أما الحرارة فتُطلق لاحقًا، عند الـ condenser.",
+   "2": "عند الـ evaporator يتبخّر الـ refrigerant، فيصبح غازًا. أما C (liquid) فيصف الـ refrigerant بعد الـ condenser.",
+   "3": "الـ option I (fan) غير مذكور في الـ passage.",
+   "4": "الـ option J (volume) غير مذكور؛ وفي الحقيقة ضغط الغاز يقلّل حجمه.",
+   "5": "الـ option B (absorbs) هو العملية المعاكسة، وهي تحدث عند الـ evaporator.",
+   "6": "الـ option H (rises) هو العكس، وهو يحدث عند الـ compressor."
+  }
+ },
+ {
+  "id": "rb_diagram_label_12",
+  "lesson": {
+   "title": "كلمات من لغات أخرى وتهجئات غير مألوفة (Words from other languages and unusual spellings)",
+   "text": "الـ passages عن التاريخ تستخدم غالبًا كلمات متخصصة، وبعضها مأخوذ من لغات أخرى، مثل \"portcullis\" أو \"bailey\". ومن السهل أن تخطئ في تهجئتها تحت ضغط الوقت. عندما تجد إجابة من هذا النوع، انسخها حرفًا حرفًا. فالإجابة ذات التهجئة الخاطئة تُحسب خطأ، حتى لو وجدت الجزء الصحيح.",
+   "example": "في الـ passage: \"The knights wore a hauberk, a shirt of chain mail.\" والـ label: \"(1) ______: shirt of chain mail\". الإجابة: hauberk، وليست \"hawberk\"."
+  },
+  "explanations": {
+   "1": "كلمة \"Ditch\" موجودة في الـ label؛ والإجابة هي الاسم.",
+   "2": "هذا تطابق مباشر (direct match) مع الـ passage.",
+   "3": "عبارة \"Iron grille\" هي الوصف. أما الـ murder holes فهي في سقف الممر، وليست شبكة حديدية (grille).",
+   "4": "عبارة \"Narrow arrow\" موجودة مسبقًا في الـ label.",
+   "5": "هذا هو اسم الممشى (walkway).",
+   "6": "الـ label هو التعريف.",
+   "7": "الـ \"Towers\" قوّت الـ curtain wall أيضًا، لكن الـ keep هو البرج الضخم والملجأ الأخير."
+  }
+ }
+]

@@ -1,0 +1,108 @@
+{
+  "_format": {
+    "name": "legal_documents",
+    "group": "config",
+    "table": "legal_documents",
+    "primaryKey": "id",
+    "description": "Terms of Use and Privacy Policy (versioned).",
+    "currentSourceInApp": "access.legal",
+    "fields": {
+      "id": "string",
+      "version": "string",
+      "title": "string",
+      "intro": "string",
+      "sections": "array"
+    },
+    "required": [
+      "id",
+      "version",
+      "title",
+      "sections"
+    ],
+    "relations": [],
+    "notes": [
+      "Draft pending legal review. Keep old versions: users accept a specific version."
+    ],
+    "recordCountToday": 2
+  },
+  "items": [
+    {
+      "id": "terms",
+      "version": "2026-09-28",
+      "title": "Terms of Use",
+      "intro": "These terms explain the deal between you and nextED when you use IELTS AI by nextED (\"the app\"). Please read them — by creating an account or using the app you agree to them.",
+      "sections": [
+        {
+          "heading": "1. Who we are",
+          "body": [
+            "IELTS AI is an IELTS Academic preparation app made by nextED, a company based in Bangladesh. When these terms say \"we\" or \"us\", they mean nextED."
+          ]
+        },
+        {
+          "heading": "2. Not the official IELTS test",
+          "body": [
+            "IELTS is a registered trademark of the British Council, IDP: IELTS Australia and Cambridge University Press & Assessment. IELTS AI is independent: we are not affiliated with, endorsed by or approved by any of them.",
+            "Our practice tests are written by us to match the format of the real exam. The bands we give are estimates to guide your study — they are not official results and cannot be used for visa, university or job applications."
+          ]
+        },
+        {
+          "heading": "3. Your account",
+          "body": [
+            "You sign up with a Bangladeshi mobile number and a password. Keep your password private: you are responsible for what happens on your account.",
+            "Give us accurate details and one account per person. If you are under 18, please use the app with a parent's or guardian's permission."
+          ]
+        },
+        {
+          "heading": "4. Using the app fairly",
+          "body": [
+            "You may use the app for your own IELTS preparation. Please don't:"
+          ],
+          "bullets": [
+            "copy, sell or republish our tests, lessons, sample answers or audio",
+            "upload content that is offensive, unlawful or not your own work",
+            "try to break, overload or reverse-engineer the app or its AI features",
+            "share your account or use someone else's"
+          ]
+        },
+        {
+          "heading": "5. AI scoring and feedback",
+          "body": [
+            "Your essays and speaking recordings are scored by artificial intelligence (AI). AI can make mistakes, so treat its bands and comments as helpful guidance, not a guarantee of your exam result.",
+            "When there is no internet connection some practice is scored offline with a simpler demo model; the app tells you when this happens."
+          ]
+        },
+        {
+          "heading": "6. Your content",
+          "body": [
+            "The essays, answers and recordings you create stay yours. You give us permission to store and process them only so we can score them, show you feedback and keep your progress history."
+          ]
+        },
+        {
+          "heading": "7. Plans and payment",
+          "body": [
+            "Some features may need a paid plan. Prices and what each plan includes are shown in the app before you pay. We will never charge you without your clear confirmation."
+          ]
+        },
+        {
+          "heading": "8. Closing your account",
+          "body": [
+            "You can stop using the app at any time and ask us to delete your account (see the Privacy Policy). We may suspend an account that breaks these terms, after warning you where we reasonably can."
+          ]
+        },
+        {
+          "heading": "9. Our responsibility",
+          "body": [
+            "We work hard to keep the app accurate and available, but we provide it \"as is\". We are not responsible for your official exam result or for losses caused by events outside our reasonable control. Nothing in these terms removes rights you have under the laws of Bangladesh."
+          ]
+        },
+        {
+          "heading": "10. Changes and contact",
+          "body": [
+            "If we change these terms we will update the date above and tell you in the app for important changes. These terms are governed by the laws of Bangladesh.",
+            "Questions? Email us at support@nexted.app."
+          ]
+        }
+      ]
+    }
+  ]
+}

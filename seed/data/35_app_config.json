@@ -1,0 +1,197 @@
+{
+  "table": "app_config",
+  "items": [
+    {
+      "key": "diagnostic",
+      "value": {
+        "diagnosticTest": {
+          "id": "diag_full",
+          "totalMinutes": 45,
+          "summary": "45 min · all four skills · instant band estimate",
+          "sections": [
+            {
+              "id": "listening",
+              "skill": "Listening",
+              "minutes": 10
+            },
+            {
+              "id": "reading",
+              "skill": "Reading",
+              "minutes": 15
+            },
+            {
+              "id": "writing",
+              "skill": "Writing",
+              "minutes": 15
+            },
+            {
+              "id": "speaking",
+              "skill": "Speaking",
+              "minutes": 5
+            }
+          ]
+        },
+        "customPlan": {
+          "skills": [
+            {
+              "id": "listening",
+              "label": "Listening"
+            },
+            {
+              "id": "reading",
+              "label": "Reading"
+            },
+            {
+              "id": "writing",
+              "label": "Writing"
+            },
+            {
+              "id": "speaking",
+              "label": "Speaking"
+            }
+          ],
+          "dailyMinuteOptions": [
+            30,
+            45,
+            60
+          ]
+        },
+        "test": {
+          "listeningFallbackSet": "lb_p1_fn",
+          "readingPassages": [
+            "rp_01",
+            "rp_04",
+            "rp_06"
+          ],
+          "writingPrompts": [
+            "t2_remote_work",
+            "t2_free_university",
+            "t2_ai_jobs",
+            "t2_free_public_transport"
+          ],
+          "speakingTopics": [
+            "s1_work",
+            "s1_hometown",
+            "s1_hobbies",
+            "s1_home"
+          ],
+          "speakingQuestions": 2,
+          "speakingMaxSeconds": 45,
+          "speakingExpectedSeconds": 30,
+          "writingMinWords": 120,
+          "steps": {
+            "listening": {
+              "title": "Listening",
+              "part": "Part 1 · everyday conversation",
+              "intro": "The recording plays once, as in the real test. Answer the questions while you listen."
+            },
+            "reading": {
+              "title": "Reading",
+              "part": "One Academic passage",
+              "intro": "Read the passage, then answer every question. Switch between Passage and Questions at any time."
+            },
+            "writing": {
+              "title": "Writing",
+              "part": "Task 2 · one paragraph",
+              "intro": "Write ONE well-developed paragraph giving your opinion, with a reason and an example. Aim for at least 120 words."
+            },
+            "speaking": {
+              "title": "Speaking",
+              "part": "Part 1 · two questions",
+              "intro": "Answer each question out loud. Speak for 20–45 seconds; recording stops automatically at 45 seconds."
+            }
+          },
+          "exit": {
+            "title": "Leave the diagnostic?",
+            "body": "Your answers are not saved. You can start the diagnostic again from Home at any time."
+          },
+          "micOff": {
+            "title": "Microphone is off",
+            "body": "IELTS AI can't use your microphone. Turn it on in Settings to record, or skip Speaking — your other bands still count."
+          }
+        },
+        "result": {
+          "title": "Your diagnostic result",
+          "subtitle": "An estimate from a short test — take a full mock for an exam-length score.",
+          "practice": {
+            "listening": {
+              "title": "Listening practice",
+              "subtitle": "Form, note and map completion drills",
+              "route": "listeningLanding"
+            },
+            "reading": {
+              "title": "Reading practice",
+              "subtitle": "Timed passages with an AI paragraph locator",
+              "route": "readingLanding"
+            },
+            "writing": {
+              "title": "Writing practice",
+              "subtitle": "Task 2 essays with line-by-line AI feedback",
+              "route": "writingSelector"
+            },
+            "speaking": {
+              "title": "Speaking practice",
+              "subtitle": "Part 1–3 questions with AI band feedback",
+              "route": "speakingHub"
+            }
+          },
+          "mockStep": {
+            "title": "Take a full mock test",
+            "subtitle": "All four skills under exam timing",
+            "route": "mockSystemCheck"
+          },
+          "scheduleStep": {
+            "title": "Plan your study week",
+            "subtitle": "Add practice sessions to your schedule",
+            "route": "schedule"
+          }
+        }
+      }
+    },
+    {
+      "key": "mock.timing",
+      "value": {
+        "listeningExtraSeconds": 120,
+        "readingSeconds": 3600,
+        "writingSeconds": 3600
+      }
+    },
+    {
+      "key": "mock.systemChecks",
+      "value": [
+        {
+          "id": "headphones",
+          "title": "Headphones",
+          "subtitle": "Left and right channels OK",
+          "icon": "headphones",
+          "control": "testSound",
+          "passOrder": 1
+        },
+        {
+          "id": "microphone",
+          "title": "Microphone",
+          "subtitle": "Say “Hello, my name is…”",
+          "icon": "microphone",
+          "control": "level",
+          "passOrder": 4
+        },
+        {
+          "id": "connection",
+          "title": "Connection",
+          "subtitle": "Stable · answers autosave",
+          "icon": "connection",
+          "control": "check",
+          "passOrder": 2
+        },
+        {
+          "id": "stickyTimer",
+          "title": "Sticky exam timer",
+          "subtitle": "Stays on top in every section",
+          "icon": "timer",
+          "control": "toggle",
+          "passOrder": 3
+        }
+      ]
+    }
+  ]
+}

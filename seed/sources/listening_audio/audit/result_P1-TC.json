@@ -1,0 +1,166 @@
+{
+ "code": "P1-TC",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "450",
+   "audio_answer": "450",
+   "evidence": "[0:04]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "20 / twenty",
+   "audio_answer": "20",
+   "evidence": "[0:13]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "2 / two",
+   "audio_answer": "2",
+   "evidence": "[0:18]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "stairs",
+   "audio_answer": "stairs",
+   "evidence": "[0:25]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "500",
+   "audio_answer": "500",
+   "evidence": "[0:42]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "packing",
+   "audio_answer": "packing",
+   "evidence": "[0:49]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "48 / forty-eight",
+   "audio_answer": "48",
+   "evidence": "[0:56]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "Wednesday",
+   "audio_answer": "Wednesday",
+   "evidence": "[1:50] \"a slot free next Wednesday\"",
+   "note": "the 12th is never stated, but the gap answer is supported"
+  },
+  {
+   "n": 9,
+   "status": "differs",
+   "key": "8 / eight",
+   "audio_answer": "5 (p.m.)",
+   "evidence": "[2:03] \"The team would arrive at 5:00 p.m., ready to start loading that evening.\"",
+   "note": "Table prints \"a.m.\"; recording says 5 p.m. Fix table and key together."
+  },
+  {
+   "n": 10,
+   "status": "missing",
+   "key": "3 / three",
+   "audio_answer": "",
+   "evidence": "Never stated; no mention of how many movers.",
+   "note": ""
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "large",
+   "audio_answer": "large",
+   "evidence": "[1:43]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "10,000 / 10000",
+   "audio_answer": "10,000",
+   "evidence": "[1:03]",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "differs",
+   "key": "blankets",
+   "audio_answer": "bubble wrap",
+   "evidence": "[1:57] \"We wrap everything in bubble wrap before loading.\"",
+   "note": "\"bubble wrap\" is two words; breaks ONE WORD limit too."
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "day",
+   "audio_answer": "day",
+   "evidence": "[1:19]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "50",
+   "audio_answer": "50",
+   "evidence": "[1:31]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "differs",
+   "key": "14 / fourteen",
+   "audio_answer": "one month",
+   "evidence": "[1:26] \"If you cancel with less than one month's notice, there's a cancellation fee.\"",
+   "note": "Does not fit the \"___ days' notice\" frame."
+  },
+  {
+   "n": 17,
+   "status": "missing",
+   "key": "council",
+   "audio_answer": "",
+   "evidence": "Parking permit never mentioned.",
+   "note": ""
+  },
+  {
+   "n": 18,
+   "status": "missing",
+   "key": "list",
+   "audio_answer": "",
+   "evidence": "No request to send a list of large items.",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "274",
+   "audio_answer": "274",
+   "evidence": "[1:37] \"Your reference number is 274.\" / [2:12] \"CM quote\"",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "missing",
+   "key": "Monday",
+   "audio_answer": "",
+   "evidence": "No confirmation call mentioned.",
+   "note": ""
+  }
+ ],
+ "summary": "Q1-8, 11, 12, 14, 15, 19 ok; Q9 (5 p.m.), Q13 (bubble wrap), Q16 (one month) differ; Q10, 17, 18, 20 are never mentioned."
+}

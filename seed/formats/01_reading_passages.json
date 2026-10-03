@@ -1,0 +1,833 @@
+{
+  "_format": {
+    "name": "reading_passages",
+    "group": "content",
+    "table": "reading_passages",
+    "primaryKey": "id",
+    "description": "One Academic reading passage = one Reading part (Part 1, 2 or 3) with its question groups (12-14 questions, numbered 1..n locally).",
+    "currentSourceInApp": "assets/demo/content/reading_*.json → reading.passages",
+    "fields": {
+      "id": "string",
+      "title": "string",
+      "topic": "string",
+      "difficulty": "string",
+      "words": "integer",
+      "paragraphs": "array",
+      "groups": "array",
+      "part": "integer"
+    },
+    "required": [
+      "id",
+      "part",
+      "title",
+      "topic",
+      "difficulty",
+      "paragraphs",
+      "groups"
+    ],
+    "relations": [
+      "groups[].questions[].evidenceParagraph → paragraphs[].letter",
+      "part = the passage position it fills in a full test (reading_tests.passages[part-1])"
+    ],
+    "notes": [
+      "Group types: tfng, ynng, heading, matching, mcq, gap (see CONTENT_SCHEMA.md).",
+      "Every question needs answer, evidenceParagraph, evidence (verbatim phrase) and explanation.",
+      "part: 1|2|3 (Passage 1 easy, 2 medium, 3 hard). One example per part below.",
+      "difficulty: easy|medium|hard; topic from the fixed topic list."
+    ],
+    "recordCountToday": 9,
+    "practiceParts": [
+      {
+        "part": 1,
+        "label": "Reading Part 1 (Passage 1)",
+        "difficulty": "easy",
+        "questions": "13",
+        "words": "700-900",
+        "typicalQuestionTypes": [
+          "tfng",
+          "gap",
+          "matching"
+        ],
+        "practisedOn": "Reading library → Passage 1 filter; full test Q1-13"
+      },
+      {
+        "part": 2,
+        "label": "Reading Part 2 (Passage 2)",
+        "difficulty": "medium",
+        "questions": "13",
+        "words": "750-950",
+        "typicalQuestionTypes": [
+          "heading",
+          "matching",
+          "mcq",
+          "gap"
+        ],
+        "practisedOn": "Passage 2 filter; full test Q14-26"
+      },
+      {
+        "part": 3,
+        "label": "Reading Part 3 (Passage 3)",
+        "difficulty": "hard",
+        "questions": "14",
+        "words": "800-950",
+        "typicalQuestionTypes": [
+          "ynng",
+          "mcq",
+          "matching",
+          "gap"
+        ],
+        "practisedOn": "Passage 3 filter; full test Q27-40"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "rp_01",
+      "title": "The Return of the Urban Beekeeper",
+      "topic": "Environment",
+      "difficulty": "easy",
+      "words": 730,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Twenty years ago, keeping bees in a city was considered eccentric, the kind of pastime pursued by a handful of enthusiasts with more patience than neighbours. Today, hives sit on the roofs of hotels, offices and schools in cities from London to Tokyo, and urban honey has become a small but profitable industry. Bees were first kept on London rooftops in noticeable numbers in the 1990s, but the number of hives only rose sharply after 2008, when news reports about declining bee populations persuaded many city dwellers that they could personally help. Some companies now pay specialist firms to install and look after hives, and hand out jars of 'rooftop honey' to guests and clients as a symbol of their environmental commitment."
+        },
+        {
+          "letter": "B",
+          "text": "Supporters argue that cities offer bees a surprising advantage. Parks, gardens, cemeteries and street trees provide a variety of flowers across a long season, from early crocuses in February to late-flowering ivy in October, while pesticide use is often lower than on farmland, where huge fields may be planted with a single crop. Cities are also slightly warmer than the surrounding countryside, which allows bees to forage on cool days when rural colonies stay inside the hive. Railway embankments and canal banks, often left undisturbed for years, add further strips of wild vegetation. Many beekeepers also report that urban colonies are calmer and easier to manage, although there is little scientific evidence to support this claim."
+        },
+        {
+          "letter": "C",
+          "text": "Yet some ecologists are cautious. They point out that honeybees compete with wild pollinators for the same flowers, and that a rapid rise in hives may harm local bumblebee populations. A single honeybee colony can contain up to 50,000 workers, which together visit millions of flowers in a season, whereas a bumblebee nest rarely holds more than a few hundred insects. Productivity is also lower than many assume: a survey of 400 London hives found that city colonies yielded, on average, slightly less honey than those in the countryside, largely because forage runs out by late summer. In the most crowded districts, researchers estimated that there were more hives than the available flowers could support. Some scientists also worry that dense clusters of hives make it easier for parasites such as the varroa mite to pass from one colony to the next."
+        },
+        {
+          "letter": "D",
+          "text": "In response, several cities have introduced rules for new beekeepers. In Paris and Toronto, hives must now be registered with the local council, and some London boroughs limit the number of colonies allowed on a single building. Beginners are increasingly required to complete a short training course before they are given a permit. Supporters of the rules say that they protect not only wild insects but also the bees themselves, since poorly managed colonies are more likely to spread disease to neighbouring hives. Critics, however, argue that registration is difficult to enforce, as many hobbyists simply ignore it and inspectors rarely have time to climb onto roofs."
+        },
+        {
+          "letter": "E",
+          "text": "Other groups are focusing on food rather than hives. Community projects encourage residents to plant lavender, clover and fruit trees on balconies and in empty lots, so that both honeybees and wild species have enough to eat. One Berlin scheme has planted more than 30,000 flowering shrubs since 2015, choosing species that bloom in late summer, when food is scarcest. In London, volunteers now record the flowering times of street trees so that gaps in the food supply can be identified and filled. Some local authorities have also stopped cutting the grass on roadside verges so often, allowing wild flowers such as dandelions and knapweed to grow. Early results suggest that these 'pollinator corridors' benefit a far wider range of insects than new hives do, including butterflies, hoverflies and solitary bees."
+        },
+        {
+          "letter": "F",
+          "text": "For most urban beekeepers, profit is not the main motivation. Surveys suggest that the majority keep bees to reconnect with nature, and many donate their honey to local schools. Teachers who host hives say that pupils who were once afraid of insects quickly become fascinated by the organised life of the colony, and some schools now use the hive to teach biology, mathematics and even business skills. As one keeper put it, the real product of a city hive is not honey but curiosity. Whether that curiosity eventually extends to the thousands of less visible species that share the city with honeybees may decide whether the urban beekeeping boom is remembered as a success."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Urban honey is now sold for a profit.",
+              "answer": "TRUE",
+              "evidenceParagraph": "A",
+              "evidence": "urban honey has become a small but profitable industry",
+              "explanation": "Paragraph A says urban honey has become **a small but profitable industry**, so the statement agrees with the passage."
+            },
+            {
+              "number": 2,
+              "text": "The number of hives in London grew quickly throughout the 1990s.",
+              "answer": "FALSE",
+              "evidenceParagraph": "A",
+              "evidence": "the number of hives only rose sharply after 2008",
+              "explanation": "Bees were kept in the 1990s, but numbers **only rose sharply after 2008**. The word \"only\" contradicts rapid growth in the 1990s, so the answer is FALSE."
+            },
+            {
+              "number": 3,
+              "text": "Temperatures in cities are a little higher than in the nearby countryside.",
+              "answer": "TRUE",
+              "evidenceParagraph": "B",
+              "evidence": "Cities are also slightly warmer than the surrounding countryside",
+              "explanation": "\"A little higher\" paraphrases **slightly warmer**, and \"nearby countryside\" paraphrases **surrounding countryside**. The answer is TRUE."
+            },
+            {
+              "number": 4,
+              "text": "Research has proved that urban bee colonies are calmer than rural ones.",
+              "answer": "FALSE",
+              "evidenceParagraph": "B",
+              "evidence": "there is little scientific evidence to support this claim",
+              "explanation": "Beekeepers *report* that urban colonies are calmer, but the passage says there is **little scientific evidence** for this. The statement says it has been proved, so it is FALSE."
+            },
+            {
+              "number": 5,
+              "text": "Honey from city hives tastes different from countryside honey.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "C",
+              "evidence": "slightly less honey than those in the countryside",
+              "explanation": "Paragraph C compares the **amount** of honey, not its taste. Taste is never mentioned, so the answer is NOT GIVEN."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "heading",
+          "title": "Match each paragraph to a heading",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings. There are more headings than paragraphs.",
+          "headings": [
+            {
+              "key": "i",
+              "text": "A hobby becomes a business"
+            },
+            {
+              "key": "ii",
+              "text": "Why cities suit bees"
+            },
+            {
+              "key": "iii",
+              "text": "Too many bees for too few flowers"
+            },
+            {
+              "key": "iv",
+              "text": "Regulating newcomers to the hobby"
+            },
+            {
+              "key": "v",
+              "text": "Feeding insects instead of adding hives"
+            },
+            {
+              "key": "vi",
+              "text": "Selling city honey abroad"
+            },
+            {
+              "key": "vii",
+              "text": "A reward that is educational rather than financial"
+            },
+            {
+              "key": "viii",
+              "text": "The cost of installing a rooftop hive"
+            }
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph C",
+              "paragraph": "C",
+              "answer": "iii",
+              "evidenceParagraph": "C",
+              "evidence": "honeybees compete with wild pollinators for the same flowers",
+              "explanation": "Paragraph C explains that honeybees **compete** with wild pollinators and that some districts have **more hives than the available flowers could support**. That is heading iii."
+            },
+            {
+              "number": 7,
+              "text": "Paragraph D",
+              "paragraph": "D",
+              "answer": "iv",
+              "evidenceParagraph": "D",
+              "evidence": "several cities have introduced rules for new beekeepers",
+              "explanation": "The whole paragraph is about **registration, limits and training** for beginners, which matches heading iv."
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "paragraph": "E",
+              "answer": "v",
+              "evidenceParagraph": "E",
+              "evidence": "Other groups are focusing on food rather than hives",
+              "explanation": "Paragraph E is about **planting flowers** for insects rather than adding hives. Heading iii is a trap: shortage of flowers is the problem in C, but E describes the solution."
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "paragraph": "F",
+              "answer": "vii",
+              "evidenceParagraph": "F",
+              "evidence": "profit is not the main motivation",
+              "explanation": "Paragraph F says **profit is not the main motivation** and describes how hives are used to teach pupils. Heading i is a trap: business is mentioned in A, not F."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "title": "Complete the sentences",
+          "instruction": "Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "Some London boroughs limit the number of colonies on a single ______.",
+              "accepted": [
+                "building",
+                "a single building"
+              ],
+              "answer": "building",
+              "evidenceParagraph": "D",
+              "evidence": "limit the number of colonies allowed on a single building",
+              "explanation": "Paragraph D says some boroughs limit colonies **on a single building**."
+            },
+            {
+              "number": 11,
+              "text": "Poorly managed colonies are more likely to spread ______ to neighbouring hives.",
+              "accepted": [
+                "disease"
+              ],
+              "answer": "disease",
+              "evidenceParagraph": "D",
+              "evidence": "more likely to spread disease to neighbouring hives",
+              "explanation": "The rules protect bees because badly managed colonies may spread **disease**."
+            },
+            {
+              "number": 12,
+              "text": "The Berlin scheme chose shrubs that flower in ______, when food is scarcest.",
+              "accepted": [
+                "late summer"
+              ],
+              "answer": "late summer",
+              "evidenceParagraph": "E",
+              "evidence": "choosing species that bloom in late summer",
+              "explanation": "\"Flower\" paraphrases **bloom**; the answer is **late summer** (two words, within the limit)."
+            },
+            {
+              "number": 13,
+              "text": "Wild flowers now grow because councils cut the grass on roadside ______ less often.",
+              "accepted": [
+                "verges",
+                "roadside verges"
+              ],
+              "answer": "verges",
+              "evidenceParagraph": "E",
+              "evidence": "stopped cutting the grass on roadside verges so often",
+              "explanation": "The word after \"roadside\" in paragraph E is **verges**."
+            }
+          ]
+        }
+      ],
+      "part": 1
+    },
+    {
+      "id": "rp_02",
+      "title": "Messages Under the Pavement: The Pneumatic Post",
+      "topic": "History",
+      "difficulty": "medium",
+      "words": 760,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "For roughly a century, the fastest way to send a written message across many European cities was neither the telegraph nor the telephone, but a network of metal tubes buried beneath the streets. Letters were rolled up, sealed inside cylindrical canisters and pushed through the pipes by compressed air, arriving at a distant post office within minutes. At its peak, the Paris system alone contained more than 400 kilometres of tubing, and the pale blue letter cards it carried became so familiar that Parisians simply called them 'blues'. Yet by the late twentieth century almost all of these networks had fallen silent, and today few city residents know that they ever existed."
+        },
+        {
+          "letter": "B",
+          "text": "The idea of moving objects through tubes using air pressure was not new. Engineers had experimented with it since the early nineteenth century, and several ambitious schemes proposed carrying passengers in pneumatic trains. Most of these failed, largely because it proved impossible to keep the long leather seals along the track airtight, particularly in cold or wet weather. Message tubes, by contrast, were narrow enough to be made from ordinary iron pipe, and the canisters inside them were light enough to be moved with modest amounts of pressure. The first practical system was installed in London in 1853, linking the stock exchange with the central telegraph station a few hundred metres away."
+        },
+        {
+          "letter": "C",
+          "text": "That first line reveals the problem the technology was designed to solve. The electric telegraph could carry a message between cities in seconds, but once it reached a central office it still had to be delivered by hand across congested streets. Telegraph companies found that this final stage often took longer than the transmission itself. Messenger boys on foot and horse-drawn carriages were slow and expensive, and in the busiest financial districts, where a delay of ten minutes could cost a trader a fortune, customers were unwilling to wait. Tubes offered a way to move paper between offices without entering the traffic at all."
+        },
+        {
+          "letter": "D",
+          "text": "Over the following decades, systems spread to Berlin, Vienna, Paris, Prague and dozens of other cities. Their layout varied, but most were built as a series of loops, with canisters travelling in one direction only and being transferred by hand at junction offices. Steam engines at central stations compressed air to push the carriers forward, while vacuum pumps drew them along return lines. A typical canister moved at 30 to 40 kilometres per hour, which was slower than a train but considerably faster than any vehicle in the crowded streets above. Crucially, the service was also opened to the general public, who could pay a premium to send a letter across the city in under two hours."
+        },
+        {
+          "letter": "E",
+          "text": "For ordinary citizens, the pneumatic post occupied a position somewhere between a letter and a telephone call. Diaries and novels of the period suggest that it was used for arrangements that were urgent but not quite urgent enough to justify a telegram: confirming dinner invitations, cancelling appointments or sending a quick apology. Because the letter cards were cheap and could be written in a hurry, they encouraged a brief, almost conversational style of writing. Some historians have compared this to the text messages of the early twenty-first century, although others think the comparison exaggerates how frequently most people used the service."
+        },
+        {
+          "letter": "F",
+          "text": "The decline of the tubes was gradual rather than sudden. The spread of the private telephone after the Second World War removed much of the demand for fast short messages, and the cost of maintaining ageing pipes under constantly redeveloped streets rose steadily. Blockages were a persistent difficulty: when a canister became stuck, workers had to calculate its position by measuring the air pressure, then dig up the road to remove it. Berlin closed its public network in the 1970s, and Paris followed in 1984. In most cities, the pipes were simply abandoned where they lay, and many remain underground to this day."
+        },
+        {
+          "letter": "G",
+          "text": "Yet the underlying technology never entirely disappeared. Hospitals, banks and supermarkets continue to use smaller pneumatic systems to transport blood samples, cash and documents between departments, and modern versions are controlled by computers that can route a carrier automatically to any of hundreds of stations. For some engineers, the old city networks also offer an intriguing lesson. Proposals to deliver parcels through underground pipes, reducing the number of vans on city streets, are essentially a larger version of an idea that the nineteenth century had already made work. Whether such schemes can overcome the cost of digging new tunnels beneath modern cities remains to be seen."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching",
+          "title": "Which paragraph contains the following information?",
+          "instruction": "Write the correct letter. You may use any letter more than once.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "an explanation of why early attempts to carry people by air pressure were unsuccessful",
+              "answer": "B",
+              "evidenceParagraph": "B",
+              "evidence": "it proved impossible to keep the long leather seals along the track airtight",
+              "explanation": "Paragraph B says passenger schemes failed because the **leather seals could not be kept airtight**."
+            },
+            {
+              "number": 2,
+              "text": "a description of how workers found a canister that had become stuck",
+              "answer": "F",
+              "evidenceParagraph": "F",
+              "evidence": "calculate its position by measuring the air pressure",
+              "explanation": "Paragraph F explains that workers located blockages by **measuring the air pressure**."
+            },
+            {
+              "number": 3,
+              "text": "a comparison with a more recent form of communication",
+              "answer": "E",
+              "evidenceParagraph": "E",
+              "evidence": "compared this to the text messages of the early twenty-first century",
+              "explanation": "Paragraph E compares pneumatic letter cards to **text messages**."
+            },
+            {
+              "number": 4,
+              "text": "examples of organisations that still use the technology today",
+              "answer": "G",
+              "evidenceParagraph": "G",
+              "evidence": "Hospitals, banks and supermarkets continue to use smaller pneumatic systems",
+              "explanation": "Paragraph G lists **hospitals, banks and supermarkets** as current users."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 5,
+              "text": "The first working message tube connected two places in the same city.",
+              "answer": "TRUE",
+              "evidenceParagraph": "B",
+              "evidence": "linking the stock exchange with the central telegraph station a few hundred metres away",
+              "explanation": "The London line linked two buildings **a few hundred metres away** from each other, so they were in the same city. TRUE."
+            },
+            {
+              "number": 6,
+              "text": "Delivering a telegram inside a city could take longer than sending it between cities.",
+              "answer": "TRUE",
+              "evidenceParagraph": "C",
+              "evidence": "this final stage often took longer than the transmission itself",
+              "explanation": "Paragraph C says the hand delivery stage **often took longer than the transmission itself**. TRUE."
+            },
+            {
+              "number": 7,
+              "text": "In most networks, canisters could travel in either direction through the same tube.",
+              "answer": "FALSE",
+              "evidenceParagraph": "D",
+              "evidence": "canisters travelling in one direction only",
+              "explanation": "Paragraph D says canisters travelled **in one direction only**, which contradicts the statement. FALSE."
+            },
+            {
+              "number": 8,
+              "text": "Canisters in the tubes moved faster than trains.",
+              "answer": "FALSE",
+              "evidenceParagraph": "D",
+              "evidence": "slower than a train but considerably faster than any vehicle in the crowded streets above",
+              "explanation": "Canisters were **slower than a train**; they were only faster than street traffic. FALSE."
+            },
+            {
+              "number": 9,
+              "text": "The Paris network was longer than the Berlin network.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "A",
+              "evidence": "the Paris system alone contained more than 400 kilometres of tubing",
+              "explanation": "The passage gives the length of the **Paris** system only. Berlin's size is never stated, so we cannot compare them: NOT GIVEN."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "mcq",
+          "title": "Choose the correct letter, A, B, C or D",
+          "questions": [
+            {
+              "number": 10,
+              "text": "According to paragraph C, tubes were especially valuable in financial districts because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "telegraph lines there were often damaged"
+                },
+                {
+                  "key": "B",
+                  "text": "even short delays could be very costly"
+                },
+                {
+                  "key": "C",
+                  "text": "messenger boys refused to work there"
+                },
+                {
+                  "key": "D",
+                  "text": "the streets were too narrow for carriages"
+                }
+              ],
+              "answer": "B",
+              "evidenceParagraph": "C",
+              "evidence": "a delay of ten minutes could cost a trader a fortune",
+              "explanation": "A **ten-minute delay could cost a trader a fortune**, so speed mattered most there. The other options are not mentioned."
+            },
+            {
+              "number": 11,
+              "text": "The writer says that the cheap letter cards encouraged people to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "write in a short, informal way"
+                },
+                {
+                  "key": "B",
+                  "text": "send more telegrams"
+                },
+                {
+                  "key": "C",
+                  "text": "keep a personal diary"
+                },
+                {
+                  "key": "D",
+                  "text": "stop using the telephone"
+                }
+              ],
+              "answer": "A",
+              "evidenceParagraph": "E",
+              "evidence": "they encouraged a brief, almost conversational style of writing",
+              "explanation": "\"Short, informal\" paraphrases **brief, almost conversational**. Diaries are mentioned only as historical sources."
+            },
+            {
+              "number": 12,
+              "text": "What were the main reasons for the decline of the pneumatic post?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "A sudden series of pipe failures"
+                },
+                {
+                  "key": "B",
+                  "text": "The arrival of computer networks"
+                },
+                {
+                  "key": "C",
+                  "text": "Wider telephone ownership and rising maintenance costs"
+                },
+                {
+                  "key": "D",
+                  "text": "A government ban on underground systems"
+                }
+              ],
+              "answer": "C",
+              "evidenceParagraph": "F",
+              "evidence": "The spread of the private telephone after the Second World War removed much of the demand for fast short messages",
+              "explanation": "Paragraph F names **the private telephone** and the **rising cost of maintaining ageing pipes**. It also says the decline was **gradual rather than sudden**, which rules out A."
+            },
+            {
+              "number": 13,
+              "text": "Why does the writer mention proposals to deliver parcels through underground pipes?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "To criticise modern engineers"
+                },
+                {
+                  "key": "B",
+                  "text": "To show that an old idea may still be relevant"
+                },
+                {
+                  "key": "C",
+                  "text": "To explain why the city networks were abandoned"
+                },
+                {
+                  "key": "D",
+                  "text": "To argue that delivery vans should be banned"
+                }
+              ],
+              "answer": "B",
+              "evidenceParagraph": "G",
+              "evidence": "essentially a larger version of an idea that the nineteenth century had already made work",
+              "explanation": "The writer presents parcel pipes as **a larger version** of the nineteenth-century idea, showing that it remains relevant."
+            }
+          ]
+        }
+      ],
+      "part": 2
+    },
+    {
+      "id": "rp_03",
+      "title": "The Elastic Hour: How the Mind Builds Time",
+      "topic": "Science",
+      "difficulty": "hard",
+      "words": 780,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Few experiences are as universal, or as puzzling, as the sense that time does not pass at a constant rate. A ten-minute wait for a delayed train can feel interminable, while an absorbing conversation of the same length seems to vanish. Older adults commonly report that the years now slip by far more quickly than they did in childhood. For much of the twentieth century, psychologists tended to explain such impressions by appealing to a single internal clock: a hypothetical pacemaker emitting regular pulses, which the brain counted in order to estimate duration. When the clock ran fast, as it was thought to do under stress or excitement, more pulses accumulated and an interval seemed longer."
+        },
+        {
+          "letter": "B",
+          "text": "The internal-clock model has proved remarkably durable, not least because it makes clear predictions that can be tested in the laboratory. Participants who are mildly warmed, given stimulants or shown threatening images do tend to overestimate short intervals, which is consistent with a pacemaker that has been sped up. Yet a growing body of research suggests that the model, at least in its simplest form, cannot account for many of the distortions people experience in everyday life. There is, for one thing, no convincing anatomical evidence of a dedicated timing organ; instead, timing-related activity appears across numerous brain regions and seems to depend heavily on the kind of task being performed."
+        },
+        {
+          "letter": "C",
+          "text": "A crucial distinction, now widely accepted, is between prospective and retrospective judgements of time. In a prospective judgement, a person knows in advance that they will be asked how long something lasts and can deliberately attend to its passage. In a retrospective judgement, the question comes as a surprise, and the person must reconstruct the duration afterwards from memory. The two appear to rely on quite different processes. Prospective estimates are strongly affected by attention: the more closely one monitors time, the more slowly it seems to pass, which is why a watched pot proverbially never boils. Retrospective estimates, by contrast, seem to be governed less by attention than by the quantity of distinct memories an interval has left behind."
+        },
+        {
+          "letter": "D",
+          "text": "This distinction helps to resolve what is sometimes called the holiday paradox. While on an unfamiliar and eventful holiday, people often feel that the days are flying past, since their attention is occupied by novel surroundings rather than by the clock. On returning home, however, the same week may seem to have lasted far longer than a week at work, because it is richly stocked with separate memories. A routine week, which may have dragged at the time, collapses in retrospect into a handful of indistinguishable recollections. The paradox, in other words, arises because experience and memory apply different measures to the same stretch of time."
+        },
+        {
+          "letter": "E",
+          "text": "Laboratory studies of the so-called oddball effect point in a similar direction. When participants watch a sequence of identical images interrupted by a single unexpected one, they consistently judge the unexpected image to have been displayed for longer, even when all the images appeared for exactly the same period. One interpretation is that the brain responds less vigorously to stimuli it has already encountered and can predict, and that this reduced response is misread as a shorter duration. On this account, the perception of time is not read directly from a clock at all but inferred from the amount of neural effort that a moment demands."
+        },
+        {
+          "letter": "F",
+          "text": "Such findings have prompted a reinterpretation of the familiar complaint that life accelerates with age. Although the complaint has sometimes been attributed to a general slowing of biological processes, there is little experimental support for the idea that older people's judgements of short intervals differ markedly from those of younger adults. A more persuasive explanation may be that adult life simply contains fewer genuinely new experiences. Childhood and adolescence are crowded with first occasions, such as first journeys, first jobs and first friendships, each of which lays down a distinct memory. Later decades, organised around established routines, may provide memory with less material from which to reconstruct their length."
+        },
+        {
+          "letter": "G",
+          "text": "If this reasoning is correct, it carries a modestly encouraging implication. The apparent speed of passing years may not be an inevitable consequence of ageing but, at least in part, a product of how one lives. Some researchers have suggested, only half in jest, that deliberately seeking out novelty, whether by learning a skill, visiting unfamiliar places or varying daily routes, might lengthen one's life, not in objective terms but in the way it is remembered. The claim remains largely untested, and critics caution that novelty can itself become routine. Nevertheless, it reflects a significant shift in thinking: time, as experienced, is less something the mind measures than something it constructs."
+        }
+      ],
+      "groups": [
+        {
+          "id": "g1",
+          "type": "heading",
+          "title": "Match each paragraph to a heading",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings. There are more headings than paragraphs.",
+          "headings": [
+            {
+              "key": "i",
+              "text": "The appeal and the limits of a traditional explanation"
+            },
+            {
+              "key": "ii",
+              "text": "Two ways of judging how long something lasted"
+            },
+            {
+              "key": "iii",
+              "text": "Why an eventful week can seem both short and long"
+            },
+            {
+              "key": "iv",
+              "text": "Predictability and the perception of duration"
+            },
+            {
+              "key": "v",
+              "text": "A fresh account of a common complaint about ageing"
+            },
+            {
+              "key": "vi",
+              "text": "The possibility that remembered time can be extended"
+            },
+            {
+              "key": "vii",
+              "text": "The discovery of a timing organ in the brain"
+            },
+            {
+              "key": "viii",
+              "text": "Cultural differences in attitudes towards punctuality"
+            },
+            {
+              "key": "ix",
+              "text": "How stress damages memory of events"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Paragraph B",
+              "paragraph": "B",
+              "answer": "i",
+              "evidenceParagraph": "B",
+              "evidence": "The internal-clock model has proved remarkably durable",
+              "explanation": "Paragraph B first explains why the clock model has **lasted** (it is testable) and then why it **cannot account for** everyday distortions. Heading vii is a trap: the paragraph says there is **no** convincing evidence of a timing organ."
+            },
+            {
+              "number": 2,
+              "text": "Paragraph C",
+              "paragraph": "C",
+              "answer": "ii",
+              "evidenceParagraph": "C",
+              "evidence": "A crucial distinction, now widely accepted, is between prospective and retrospective judgements of time",
+              "explanation": "Paragraph C defines **prospective** and **retrospective** judgements, the two ways of judging duration."
+            },
+            {
+              "number": 3,
+              "text": "Paragraph D",
+              "paragraph": "D",
+              "answer": "iii",
+              "evidenceParagraph": "D",
+              "evidence": "This distinction helps to resolve what is sometimes called the holiday paradox",
+              "explanation": "A holiday feels short while it happens but long in memory: the **holiday paradox** in heading iii."
+            },
+            {
+              "number": 4,
+              "text": "Paragraph E",
+              "paragraph": "E",
+              "answer": "iv",
+              "evidenceParagraph": "E",
+              "evidence": "the brain responds less vigorously to stimuli it has already encountered and can predict",
+              "explanation": "The oddball effect links **predictable** stimuli to shorter perceived durations, which is heading iv."
+            },
+            {
+              "number": 5,
+              "text": "Paragraph F",
+              "paragraph": "F",
+              "answer": "v",
+              "evidenceParagraph": "F",
+              "evidence": "Such findings have prompted a reinterpretation of the familiar complaint that life accelerates with age",
+              "explanation": "Paragraph F offers a **new explanation** (fewer new experiences) for the feeling that life speeds up with age."
+            },
+            {
+              "number": 6,
+              "text": "Paragraph G",
+              "paragraph": "G",
+              "answer": "vi",
+              "evidenceParagraph": "G",
+              "evidence": "might lengthen one's life, not in objective terms but in the way it is remembered",
+              "explanation": "Paragraph G suggests novelty could make life **seem longer in memory**, which matches heading vi."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "ynng",
+          "title": "Yes / No / Not Given",
+          "instruction": "Do the following statements agree with the views of the writer?",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 7,
+              "text": "One reason the internal-clock model has survived is that it can be tested experimentally.",
+              "answer": "YES",
+              "evidenceParagraph": "B",
+              "evidence": "not least because it makes clear predictions that can be tested in the laboratory",
+              "explanation": "The writer says the model has been durable **not least because** its predictions **can be tested in the laboratory**. YES."
+            },
+            {
+              "number": 8,
+              "text": "Most researchers still dispute the distinction between prospective and retrospective judgements.",
+              "answer": "NO",
+              "evidenceParagraph": "C",
+              "evidence": "A crucial distinction, now widely accepted",
+              "explanation": "The writer describes the distinction as **now widely accepted**, which contradicts the statement. NO."
+            },
+            {
+              "number": 9,
+              "text": "A general slowing of biological processes is the most convincing explanation for time seeming to speed up with age.",
+              "answer": "NO",
+              "evidenceParagraph": "F",
+              "evidence": "there is little experimental support for the idea",
+              "explanation": "The writer says there is **little experimental support** for this and calls a different explanation **more persuasive**. NO."
+            },
+            {
+              "number": 10,
+              "text": "The oddball effect is stronger in children than in adults.",
+              "answer": "NOT GIVEN",
+              "evidenceParagraph": "E",
+              "evidence": "they consistently judge the unexpected image to have been displayed for longer",
+              "explanation": "Paragraph E describes the oddball effect but never compares **age groups**. NOT GIVEN."
+            }
+          ]
+        },
+        {
+          "id": "g3",
+          "type": "mcq",
+          "title": "Choose the correct letter, A, B, C or D",
+          "questions": [
+            {
+              "number": 11,
+              "text": "According to paragraph C, retrospective estimates of time depend mainly on",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "how carefully a person watched the clock"
+                },
+                {
+                  "key": "B",
+                  "text": "the number of distinct memories that were formed"
+                },
+                {
+                  "key": "C",
+                  "text": "the person's level of stress at the time"
+                },
+                {
+                  "key": "D",
+                  "text": "how surprising the question was"
+                }
+              ],
+              "answer": "B",
+              "evidenceParagraph": "C",
+              "evidence": "the quantity of distinct memories an interval has left behind",
+              "explanation": "Retrospective estimates depend on **the quantity of distinct memories**. Option A describes *prospective* estimates, which depend on attention."
+            },
+            {
+              "number": 12,
+              "text": "What does the writer say about the suggestion that novelty could lengthen life?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It has been confirmed by several studies."
+                },
+                {
+                  "key": "B",
+                  "text": "It was intended entirely as a joke."
+                },
+                {
+                  "key": "C",
+                  "text": "It has not yet been properly tested."
+                },
+                {
+                  "key": "D",
+                  "text": "It applies only to older people."
+                }
+              ],
+              "answer": "C",
+              "evidenceParagraph": "G",
+              "evidence": "The claim remains largely untested",
+              "explanation": "The writer states that **the claim remains largely untested**. \"Only half in jest\" means it was *partly* serious, so B is wrong."
+            }
+          ]
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "title": "Complete the sentences",
+          "instruction": "Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "questions": [
+            {
+              "number": 13,
+              "text": "In the oddball effect, the brain's weaker response to predictable images is misread as a ______.",
+              "accepted": [
+                "shorter duration"
+              ],
+              "answer": "shorter duration",
+              "evidenceParagraph": "E",
+              "evidence": "this reduced response is misread as a shorter duration",
+              "explanation": "\"Weaker response\" paraphrases **reduced response**, which is misread as **a shorter duration**."
+            },
+            {
+              "number": 14,
+              "text": "Critics warn that ______ can itself become routine.",
+              "accepted": [
+                "novelty"
+              ],
+              "answer": "novelty",
+              "evidenceParagraph": "G",
+              "evidence": "critics caution that novelty can itself become routine",
+              "explanation": "\"Warn\" paraphrases **caution**; the word is **novelty**."
+            }
+          ]
+        }
+      ],
+      "part": 3
+    }
+  ]
+}

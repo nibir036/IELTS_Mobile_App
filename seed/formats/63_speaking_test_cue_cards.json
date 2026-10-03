@@ -1,0 +1,88 @@
+{
+  "_format": {
+    "name": "speaking_test_cue_cards",
+    "group": "bank",
+    "table": "speaking_cue_cards",
+    "primaryKey": "id",
+    "description": "Part 2 cue cards of Speaking Tests 1-10.",
+    "currentSourceInApp": "assets/content/tests_bank.json → speaking.cueCards",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "testId": "string",
+      "category": "string",
+      "topic": "string",
+      "title": "string",
+      "prompt": "string",
+      "bullets": "array",
+      "part3": "array",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 10
+  },
+  "items": [
+    {
+      "id": "st_01_cc",
+      "source": "test",
+      "testId": "st_01",
+      "category": "test",
+      "topic": "Speaking Test 1",
+      "title": "Describe an older person you know and admire",
+      "prompt": "Describe an older person you know and admire",
+      "bullets": [
+        "who this person is",
+        "how you know them",
+        "what they are like",
+        "and explain why you admire them"
+      ],
+      "part3": [
+        "What roles do older people usually play in families in your country?",
+        "Do you think societies value the experience of older people enough?",
+        "How can communities make life better for their older members?",
+        "What are the main differences between the older and younger generations today?",
+        "Do you think the gap between generations is growing?",
+        "How can different generations understand each other better?"
+      ],
+      "data": {
+        "id": "st_01_cc",
+        "test": "st_01",
+        "number": 1,
+        "cardNumber": 1,
+        "category": "test",
+        "categoryLabel": "Speaking Test 1",
+        "topic": "Speaking Test 1",
+        "title": "Describe an older person you know and admire",
+        "prompt": "Describe an older person you know and admire",
+        "bullets": [
+          "who this person is",
+          "how you know them",
+          "what they are like",
+          "and explain why you admire them"
+        ],
+        "followUps": [
+          {
+            "q": "Do you see this person often?",
+            "answer": ""
+          },
+          {
+            "q": "Would you like to be like them when you are older?",
+            "answer": ""
+          }
+        ],
+        "part3Topics": [
+          "st_01_p3_1",
+          "st_01_p3_2"
+        ],
+        "part3": [
+          "What roles do older people usually play in families in your country?",
+          "Do you think societies value the experience of older people enough?",
+          "How can communities make life better for their older members?",
+          "What are the main differences between the older and younger generations today?",
+          "Do you think the gap between generations is growing?",
+          "How can different generations understand each other better?"
+        ]
+      }
+    }
+  ]
+}

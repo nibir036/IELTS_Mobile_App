@@ -1,0 +1,442 @@
+[
+ {
+  "id": "rb_sentence_completion_01",
+  "lesson": {
+   "title": "शब्दको प्रकार पहिले नै अनुमान गर्नुहोस् (Predict the word type)",
+   "text": "Passage हेर्नुअघि नै हरेक gap-मा कस्तो किसिमको शब्द बस्छ भनेर तय गर्नुहोस्। \"is collected in early...\" मा समय जनाउने शब्द चाहिन्छ, जस्तै कुनै ऋतु वा महिनाको नाम। \"takes about ... litres of sap\" मा एउटा संख्या चाहिन्छ। शब्दको प्रकार थाहा भयो भने नजिकै भएका गलत प्रकारका शब्दहरूलाई सजिलै छोड्न सकिन्छ।"
+  },
+  "explanations": {
+   "1": "\"Seventy per cent\" = \"most\"। Answer एउटा मात्र शब्दको हो।",
+   "2": "Answer २ वटा शब्दको हो। \"Indigenous peoples of the region\" लेख्नुभयो भने word limit नाघ्छ।",
+   "3": "Gap-मा \"warmer\" पछि एउटा plural noun चाहिन्छ।",
+   "4": "\"Networks of plastic tubing\" ४ वटा शब्द हो, त्यसैले यो धेरै लामो हुन्छ।",
+   "5": "यो \"small percentage\" सँग मिल्छ।",
+   "6": "\"Roughly\" = \"about\"। \"about\" नलेख्नुहोस्, किनभने sentence-मा यो पहिले नै \"Roughly\" को रूपमा छ।",
+   "7": "\"flavour\" नलेख्नुहोस्: passage-मा \"flavour\" शब्द सुरुको syrup-का लागि प्रयोग भएको छ (\"more delicate in flavour\"), र पछिको syrup-का लागि \"taste\" प्रयोग भएको छ।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_02",
+  "lesson": {
+   "title": "नजिक-नजिक भएका संख्याहरू (Numbers close together)",
+   "text": "खेलकुद र इतिहासका passage-हरूमा धेरै मिति, दूरी र अङ्कहरू एकअर्काको नजिकै हुन्छन्। Question sentence-ले प्रायः सही संख्याको सन्दर्भलाई paraphrase गर्छ: \"the distance was fixed\", \"women were first allowed\"। त्यो paragraph-मा पहिलो देखिएको संख्या मात्र होइन, जुन संख्याको सन्दर्भ मिल्छ त्यही खोज्नुहोस्।"
+  },
+  "explanations": {
+   "1": "Answer २ वटा शब्दको हो। \"Writings\" = \"texts\"।",
+   "2": "\"Greek\" sentence-मा पहिले नै छ (\"from Greece\")।",
+   "3": "\"Annual\" = \"yearly\" — दुवैको अर्थ एउटै हो।",
+   "4": "यसलाई 1921 सँग नझुक्किनुहोस्, जुन आधिकारिक रूपमा अपनाइएको वर्ष हो। यो नजिकैको संख्याको trap हो।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "\"the year\" शब्दहरूले गर्दा यहाँ मिति चाहिन्छ। 1972 नलेख्नुहोस्, जुन Boston सँग सम्बन्धित छ, र 1967 पनि नलेख्नुहोस्।",
+   "7": "एउटा शब्द नै पुग्छ, र \"team of pacemakers\" grammar अनुसार sentence-मा मिल्दैन।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_03",
+  "lesson": {
+   "title": "ONE WORD ONLY (एउटा मात्र शब्द)",
+   "text": "Instruction-मा ONE WORD ONLY लेखिएको छ भने तपाईंले एउटै मुख्य शब्द खोज्नुपर्छ। विशेष गरी noun-हरू खोज्नुहोस्। Article (a, the) र adjective-हरू छोड्नुपर्छ, तर sentence-लाई चाहिने त्यो एउटै शब्द नै adjective हो भने चाहिँ त्यही लेख्नुहोस्।"
+  },
+  "explanations": {
+   "1": "यो सिधै मिल्ने (direct match) answer हो।",
+   "2": "\"Brood pouch\" भनेको छोप्ने भाग हो, अण्डा राखिने ठाउँ होइन, र यो २ वटा शब्द पनि हो।",
+   "3": "\"Stored\" sentence-मा पहिले नै छ।",
+   "4": "\"groups known as\" पछि plural noun मिल्छ।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "Accent चिह्न बिनाको spelling पनि सही मानिन्छ।",
+   "7": "\"Waterproof\" sentence-मा पहिले नै छ।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_04",
+  "lesson": {
+   "title": "Adjective + noun भएका answer-हरू (Adjective + noun answers)",
+   "text": "कहिलेकाहीँ gap-मा adjective र noun मिलेर बनेको २ शब्दको phrase चाहिन्छ (\"natural resistance\", \"steel reinforcement\")। Sentence-मा adjective पहिले नै छ कि छैन हेर्नुहोस्। छ भने noun मात्र चाहिन्छ; छैन भने दुवै शब्द चाहिन सक्छ। पूरा sentence मनमनै पढेर हेर्दा एउटै शब्द दोहोरिने गल्ती हुँदैन।"
+  },
+  "explanations": {
+   "1": "\"Type\" = \"kind\" — दुवैको अर्थ एउटै हो।",
+   "2": "\"System\" sentence-मा पहिले नै छ, र २ वटा शब्द word limit भित्र पर्छ।",
+   "3": "यो सिधै मिल्ने (direct match) answer हो।",
+   "4": "यो सिधै मिल्ने (direct match) answer हो।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "\"Lack\" = \"without\" — दुवैको अर्थ एउटै हो।",
+   "7": "यो सिधै मिल्ने (direct match) answer हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_05",
+  "lesson": {
+   "title": "Plural कि singular — कुन चाहिन्छ (Plural and singular)",
+   "text": "Sentence-लाई singular noun चाहिन्छ कि plural, जाँच्नुहोस्: \"a ... called\" मा singular चाहिन्छ; \"substances known as ...\" मा plural चाहिन्छ। Passage-मा जुन रूपमा शब्द छ, त्यही रूपमा सार्नुहोस्, र त्यो sentence-को grammar सँग मिल्छ कि मिल्दैन निश्चित गर्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"described as\" पछि sentence-लाई एउटा adjective चाहिन्छ।",
+   "2": "यो सिधै मिल्ने (direct match) answer हो।",
+   "3": "\"pigments called\" पछि plural मिल्छ।",
+   "4": "\"Hidden\" = \"concealed\"। \"Large quantities of chlorophyll\" लेख्नुभयो भने word limit नाघ्छ।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "\"Kind\" = \"type\" — दुवैको अर्थ एउटै हो।",
+   "7": "\"Early\" sentence-मा पहिले नै छ। \"frost\" र \"severe frost\" दुवै word limit भित्र पर्छन्, तर \"severe early frost\" पर्दैन।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_06",
+  "lesson": {
+   "title": "Paraphrase गरिएका verb-हरू (Paraphrased verbs)",
+   "text": "Question sentence-ले प्रायः passage-भन्दा फरक verb प्रयोग गर्छ: \"made its first crossing\" को सट्टा \"was first tested\", \"was employed in\" को सट्टा \"was used for\"। Sentence-को verb चिन्नुहोस्, त्यसका synonym-हरू सोच्नुहोस्, र मिल्ने विचार खोज्न scan गर्नुहोस्। Answer-को शब्द भने सिधै passage-बाटै आउँछ।"
+  },
+  "explanations": {
+   "1": "यो सिधै मिल्ने (direct match) answer हो।",
+   "2": "यो सिधै मिल्ने (direct match) answer हो। \"Tin cans\" हावाको खाली ठाउँ बनाउन प्रयोग गरिएका थिए, केही नाप्न होइन।",
+   "3": "Answer २ वटा शब्दको हो। \"Aircraft\" मात्र लेखे पनि सही मानिन्छ।",
+   "4": "यसलाई 1955 (patent) वा 1968 (यात्रु सेवा) सँग नझुक्किनुहोस्।",
+   "5": "\"Rubber\" sentence-मा पहिले नै छ।",
+   "6": "1994 Channel Tunnel खुलेको वर्ष हो; यो नजिकैको संख्याको trap हो।",
+   "7": "यो सिधै मिल्ने (direct match) answer हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_07",
+  "lesson": {
+   "title": "जब sentence-ले पूरै विचार अर्कै तरिकाले भन्छ (When the sentence rephrases a whole idea)",
+   "text": "Medium level-मा question sentence-ले प्रायः पूरै विचारलाई फरक शब्दमा फेरि भन्छ, त्यसैले keyword मिलाएर answer भेट्न सकिँदैन। बरु आफैंलाई सोध्नुहोस्: \"Which part of the passage is this sentence about?\" Question-हरूको क्रम र हरेक paragraph-को topic प्रयोग गर्नुहोस्। सही sentence भेटेपछि gap-मा ठ्याक्कै मिल्ने १ वा २ वटा शब्द पत्ता लगाउनुहोस्।"
+  },
+  "explanations": {
+   "1": "यो सिधै मिल्ने (direct match) answer हो, र sentence-को बाँकी भागले passage-लाई paraphrase गरेको छ।",
+   "2": "यो एउटा संख्या र एउटा शब्द हो। \"Around\" = \"approximately\", जुन sentence-मा पहिले नै छ। \"a million years\" नलेख्नुहोस्; त्यो अनुसन्धानकर्ताहरूले अझै खोजिरहेको हिउँको कुरा हो।",
+   "3": "\"Small\" sentence-मा पहिले नै छ।",
+   "4": "\"Fewer\" = \"a lower proportion\" — दुवैको अर्थ एउटै हो।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "\"Too thin to distinguish\" लेख्दा word limit नाघ्छ, तर \"too thin\" word limit र grammar दुवैमा मिल्छ।",
+   "7": "यो सिधै मिल्ने (direct match) answer हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_08",
+  "lesson": {
+   "title": "छिटो-छिटो आउने व्यक्ति र पदार्थहरू (People and substances in close sequence)",
+   "text": "Passage-ले धेरै व्यक्ति र पदार्थहरूलाई एकपछि अर्को गर्दै छिटो-छिटो चिनाउँछ भने, कुनै sentence-ले एक जना व्यक्तिको उपलब्धिको कुरा गर्दा नजिकै अर्कै व्यक्तिको पदार्थ पनि हुन सक्छ। Answer लेख्नुअघि sentence-मा भएको व्यक्ति, मिति र पदार्थ तीनवटै passage-को एउटै sentence सँग मिल्छन् कि मिल्दैनन् पक्का गर्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Most valued skill\" = \"most important quality\" — दुवैको अर्थ एउटै हो।",
+   "2": "\"Suggestion\" = \"proposal\" — दुवैको अर्थ एउटै हो।",
+   "3": "यो सिधै मिल्ने (direct match) answer हो।",
+   "4": "यो मिति (1846) र पदार्थ (ether) दुवैसँग मिल्छ। 1845 को nitrous oxide प्रदर्शन असफल भएको थियो, त्यसैले त्यो यो sentence-मा मिल्दैन।",
+   "5": "\"Highly\" sentence-मा पहिले नै छ, त्यसैले एउटा शब्द नै पुग्छ।",
+   "6": "यो सिधै मिल्ने (direct match) answer हो।",
+   "7": "यो John Snow ले दिएका थिए; यो रानी (the Queen) लाई दिइएको थियो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_09",
+  "lesson": {
+   "title": "तीन शब्दको limit (THREE WORDS limits)",
+   "text": "३ शब्दको limit हुँदा answer-हरू छोटा noun phrase हुन सक्छन् (\"the waggle run\", \"angle to the sun\")। अर्थ पूरा गर्न जति शब्द चाहिन्छ, त्यति मात्र लिनुहोस्: sentence-मा पहिले नै article छ भने article राख्नु जरुरी छैन। तपाईंको phrase-ले sentence-मा पहिले नै भएको कुनै शब्द दोहोर्याउँदैन भनेर जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "यो सिधै मिल्ने (direct match) answer हो।",
+   "2": "\"Roughly\" = \"about\", जुन sentence-मा पहिले नै छ।",
+   "3": "Answer २ वा ३ वटा शब्दको हो। \"Key\" = \"essential\"।",
+   "4": "\"Represents\" sentence-मा पहिले नै \"represented by\" को रूपमा छ।",
+   "5": "अर्को विकल्प, \"energy they use\", लाई passage-ले स्पष्ट रूपमा अस्वीकार गरेको छ।",
+   "6": "यो सिधै मिल्ने (direct match) answer हो। \"Much\" sentence-मा पहिले नै छ।",
+   "7": "\"Radar\" (Paragraph F) ले माहुरीहरूलाई track गर्यो, तर खाना नभएका दिशाहरूको परीक्षण गरेन, त्यसैले यो trap हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_10",
+  "lesson": {
+   "title": "ONE WORD AND/OR A NUMBER (एउटा शब्द र/वा एउटा संख्या)",
+   "text": "Instruction ONE WORD AND/OR A NUMBER हुँदा answer एउटा मात्र शब्द (locks), एउटा मात्र संख्या (1869), वा एउटा संख्या र एउटा शब्द (193 kilometres) हुन सक्छ। संख्या बिनाको २ शब्दको phrase लेख्न पाइँदैन। नाप चाहिएको छ भने, sentence-मा unit पहिले नै छैन भने मात्र unit लेख्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Tip\" = \"end\" — दुवैको अर्थ एउटै हो।",
+   "2": "यसलाई 1869 (खुलेको वर्ष) वा 1850s (अनुमति पाएको समय) सँग नझुक्किनुहोस्।",
+   "3": "\"Similar\" = \"roughly the same\" — दुवैको अर्थ एउटै हो।",
+   "4": "यो एउटा संख्या र एउटा शब्द हो। 164 kilometres सुरुको लम्बाइ थियो; यो नजिकैको संख्याको trap हो।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "यो सिधै मिल्ने (direct match) answer हो।",
+   "7": "यो एउटा संख्या र एउटा शब्द हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_11",
+  "lesson": {
+   "title": "Passage-ले चिनाएका technical शब्दहरू (Technical terms introduced in the passage)",
+   "text": "विज्ञानका passage-हरूले प्रायः कुनै विशेष शब्द (term) चिनाएर त्यसको परिभाषा दिन्छन् (\"known as reverberation time\", \"so-called vineyard style\")। Question-ले त्यो अवधारणालाई सजिलो शब्दमा बताएर term सोध्न सक्छ, वा term प्रयोग गरेर त्यसको परिभाषाको केही भाग सोध्न सक्छ। पढ्दा हरेक परिभाषाका दुवै भागमा ध्यान दिनुहोस्।"
+  },
+  "explanations": {
+   "1": "यो सिधै मिल्ने (direct match) answer हो।",
+   "2": "यो term passage-मा परिभाषित गरिएको छ।",
+   "3": "\"Cushions from a nearby theatre\" लेख्दा word limit नाघ्छ।",
+   "4": "\"Around\" = \"about\" — दुवैको अर्थ एउटै हो।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "यो सिधै मिल्ने (direct match) answer हो।",
+   "7": "Hyphen भएको शब्दलाई एउटै शब्द मानिन्छ।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_12",
+  "lesson": {
+   "title": "तुलना र प्रतिशत (Comparisons and percentages)",
+   "text": "Sentence-हरूले तुलनाको परीक्षण गर्न सक्छन्: \"Recycling uses about ... less energy than...\"। तपाईंको answer-ले passage-मा भएकै तुलना व्यक्त गर्छ, र त्यो अङ्क सही कुराहरूको तुलनासँग सम्बन्धित छ भनेर पक्का गर्नुहोस्। Passage-को एउटा sentence-मा प्रतिशतले बचतको कुरा गर्न सक्छ भने अर्को sentence-मा उत्पादनको हिस्साको कुरा।"
+  },
+  "explanations": {
+   "1": "\"Considered\" = \"regarded as\" — दुवैको अर्थ एउटै हो।",
+   "2": "यो सिधै मिल्ने (direct match) answer हो।",
+   "3": "यो सिधै मिल्ने (direct match) answer हो।",
+   "4": "\"Of cheap power\" sentence-मा पहिले नै छ।",
+   "5": "\"Protective oxide\" पनि word limit भित्र पर्छ, तर \"oxide\" मात्रले नै sentence पूरा हुन्छ।",
+   "6": "\"Ninety-five per cent\" बचत हो, प्रयोग भएको मात्रा होइन; त्यसैले यो तुलनाको trap हो।",
+   "7": "\"Pay\" = \"reward\" — दुवैको अर्थ एउटै हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_13",
+  "lesson": {
+   "title": "सूचीमा हुने distractor-हरू (Distractors in lists)",
+   "text": "Passage-ले धेरै कुराहरूको सूची दिन्छ भने (\"rocks, tree bark, walls and gravestones\"), sentence-ले प्रायः थप विवरण दिएर तीमध्ये एउटालाई संकेत गर्छ, जस्तै \"surfaces that humans have made\"। सूचीबाट एउटा कुरा छान्ने संकेत भेट्न question sentence ध्यान दिएर पढ्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Mistaken\" = \"confused\" — दुवैको अर्थ एउटै हो।",
+   "2": "Sentence-मा शब्दहरूको क्रम उल्टो छ, तर शब्दहरू मिल्छन्।",
+   "3": "यो passage-मा परिभाषित गरिएको term हो।",
+   "4": "\"Breaking down\" = \"wearing away\" — दुवैको अर्थ एउटै हो।",
+   "5": "Gap-मा \"lichens\" अघि एउटा adjective चाहिन्छ।",
+   "6": "Answer २ वटा शब्दको हो।",
+   "7": "यो सिधै मिल्ने (direct match) answer हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_14",
+  "lesson": {
+   "title": "Completion task-मा दाबी र प्रमाण (Claims vs evidence in completion tasks)",
+   "text": "Sentence-हरूले कि त कुनै लोकप्रिय दाबी (claim) बताउँछन्, कि त त्यसलाई जाँच्ने evidence। Sentence कसरी सुरु भएको छ हेर्नुहोस् (\"according to a popular explanation...\", \"later research found that...\") र passage-को मिल्ने भाग खोज्नुहोस्। Sentence-ले कसको विचार बताइरहेको छ, त्यसअनुसार एउटै topic-बाट फरक-फरक answer आउन सक्छ।"
+  },
+  "explanations": {
+   "1": "यो सिधै मिल्ने (direct match) answer हो।",
+   "2": "\"Collide and\" sentence-मा पहिले नै छ।",
+   "3": "Sentence-ले लोकप्रिय दाबी बताइरहेको छ। \"letter pairs\" नलेख्नुहोस्; त्यो इतिहासकारहरूको वैकल्पिक विचारको कुरा हो।",
+   "4": "Sentence-ले इतिहासकारहरूको विचार बताइरहेको छ, लोकप्रिय दाबी होइन।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "\"Most common\" = \"most frequent\" — दुवैको अर्थ एउटै हो।",
+   "7": "\"Invention\" = \"design\" — दुवैको अर्थ एउटै हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_15",
+  "lesson": {
+   "title": "कठिन Sentence Completion — धेरै paraphrase र ठ्याक्कै शब्द निकाल्ने (Hard Sentence Completion — heavy paraphrase and precise extraction)",
+   "text": "Hard level-मा:\n\nsentence-हरूले passage-का विचारलाई नयाँ ढङ्गले मिलाउँछन्, प्रायः passage-का २ वटा sentence जोडेर; सही शब्दहरू कुनै लामो phrase-भित्र लुकेका हुन सक्छन्, र gap-मा ठ्याक्कै मिल्ने भाग मात्र तपाईंले निकाल्नुपर्छ;\n\nनजिकैका उही प्रकारका शब्दहरू (अरू noun, अरू संख्या) distractor को काम गर्छन्। Answer लेखिसकेपछि पूरा sentence फेरि पढ्नुहोस् र आफैंलाई सोध्नुहोस्: के यसले passage-ले भनेको कुरा ठ्याक्कै भन्छ — न बढी, न कम?"
+  },
+  "explanations": {
+   "1": "Gap-मा एउटा adverb चाहिन्छ।",
+   "2": "तपाईंले २ वटा sentence जोड्नुपर्छ। \"Twenty thousand hertz\" माथिल्लो सीमा हो; त्यही distractor हो।",
+   "3": "यो सिधै मिल्ने (direct match) answer हो।",
+   "4": "\"Faint throbbing sensation\" ३ वटा शब्द हो र word limit नाघ्छ, त्यसैले मूल २ शब्द मात्र निकाल्नुहोस्।",
+   "5": "\"Allow sound to travel more effectively\" = \"more favourable\" — दुवैको अर्थ एउटै हो।",
+   "6": "\"Trunks\" मा receptor-हरू हुन्छन्, तर त्यसमा अडेस लगाइँदैन; त्यसैले यो उही प्रकारको distractor हो।",
+   "7": "\"By sight\" = \"visually\" — दुवैको अर्थ एउटै हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_16",
+  "lesson": {
+   "title": "फरक-फरक ठाउँको जानकारी जोड्ने sentence-हरू (Sentences that combine information from different places)",
+   "text": "Hard sentence-ले एउटा paragraph-को तथ्य र अर्को paragraph-को शर्त जोड्न सक्छ। पहिले sentence-को सबैभन्दा छुट्टै देखिने भाग प्रयोग गरेर passage-मा ठाउँ पत्ता लगाउनुहोस्, अनि answer पूरै sentence सँग मिल्छ कि मिल्दैन जाँच्नुहोस्। Question-हरूको क्रम अझै पनि passage-कै क्रममा हुन्छ, तर कुनै एउटा question-का लागि अघिल्लो paragraph-मा फेरि एकपटक हेर्नुपर्ने हुन सक्छ।"
+  },
+  "explanations": {
+   "1": "\"Comparable\" = \"as fast as\" — दुवैको अर्थ एउटै हो।",
+   "2": "\"Powerful\" = \"strong\"। Word limit भित्र रहन \"Strong\" र \"long-lasting\" छोड्नुपर्छ।",
+   "3": "Alaska भनेको भूकम्प गएको ठाउँ हो; यो उही प्रकारको distractor हो।",
+   "4": "\"Ignore\" = \"disregard\" — दुवैको अर्थ एउटै हो।",
+   "5": "\"pressure\" र \"water pressure\" दुवै word limit भित्र पर्छन्।",
+   "6": "\"Satellite\" ले buoy बाट data अगाडि पठाउँछ; त्यसैले यो क्रम (sequence) को distractor हो।",
+   "7": "\"Structures\" sentence-मा पहिले नै छ।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_17",
+  "lesson": {
+   "title": "शर्तसहितका प्रक्रियाको व्याख्या (Process explanations with conditions)",
+   "text": "Technical passage-हरूले प्रक्रियाहरू शर्तसहित बुझाउँछन् (\"only while an organism is alive\", \"after death, no new ... is taken in\")। Sentence-हरूले मुख्य प्रक्रियाको सट्टा शर्तको परीक्षण गर्न सक्छन्। only, after, until, once, as long as जस्ता शब्दहरू ध्यान दिएर पढ्नुहोस्, किनभने answer प्रायः तिनैको छेउमा हुन्छ।"
+  },
+  "explanations": {
+   "1": "\"Strike\" = \"hit\" — दुवैको अर्थ एउटै हो।",
+   "2": "यही शर्त हो। \"New\" sentence-मा पहिले नै छ।",
+   "3": "यसलाई hyphen भएको एउटै शब्द मानिन्छ।",
+   "4": "5,730 years half-life हो; त्यसैले यो नजिकैको संख्याको trap हो।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "\"Most importantly\" ले सूचीमा दिइएका ३ वटा पदार्थमध्ये answer कुन हो भनेर देखाउँछ।",
+   "7": "यो hyphen भएको एउटा term र एउटा संख्या हो, word limit भित्रै।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_18",
+  "lesson": {
+   "title": "अन्तिम पुनरावलोकन — दबाबमा पनि ठ्याक्कै (Final review — precision under pressure)",
+   "text": "यो set-मा Sentence Completion का मुख्य skill-हरू सँगै छन्: धेरै paraphrase, word limit मानेर शब्द निकाल्ने, उही प्रकारका distractor, र शर्तहरू। हरेक question-का लागि:\n\n१. अर्थको आधारमा passage-को भाग पत्ता लगाउनुहोस्।\n\n२. शब्दको प्रकार अनुमान गर्नुहोस्।\n\n३. अर्थ पूरा गर्न चाहिने सबैभन्दा कम शब्द मात्र निकाल्नुहोस्।\n\n४. Word limit, spelling र grammar जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Fundamental problem\" = \"main cause\" — दुवैको अर्थ एउटै हो।",
+   "2": "\"Four to five\" त्यो तह हो जहाँ स्वतन्त्र रूपमा हिँडडुल रोकिन्छ; त्यसैले यो नजिकैको संख्याको trap हो।",
+   "3": "\"Trampling\" लाई कारणको रूपमा अस्वीकार गरिएको छ।",
+   "4": "\"Escape\" = \"get away\" — दुवैको अर्थ एउटै हो।",
+   "5": "यो passage-मा परिभाषित गरिएको term हो।",
+   "6": "यो सिधै मिल्ने (direct match) answer हो।",
+   "7": "\"In real time\" = \"as events happen\" — दुवैको अर्थ एउटै हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_19",
+  "lesson": {
+   "title": "समयसँगै अघि बढ्ने कारणको शृङ्खला (Cause chains across time)",
+   "text": "केही passage-हरूले महिनौं वा वर्षौंसम्म चल्ने घटनाहरूको शृङ्खला बताउँछन्: ज्वालामुखी विस्फोट → वायुमण्डलमा कणहरू → चिसो हुनु → बाली नष्ट हुनु → सामाजिक असर। Sentence-हरूले यो शृङ्खलाको जुनसुकै कडी (link) लाई निशाना बनाउन सक्छन्। मनमनै समयरेखा बनाउनुहोस् र तपाईंको answer शृङ्खलाको सही कडीको हो, त्यसभन्दा अघि वा पछिको होइन भनेर जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Disease\" sentence-मा पहिले नै छ।",
+   "2": "यो passage-मा परिभाषित गरिएको term हो।",
+   "3": "Answer २ वटा शब्दको हो, ठ्याक्कै सारिएको।",
+   "4": "Answer एउटा शब्दको हो, ठ्याक्कै सारिएको। Answer-मा passage-कै शब्दको रूप राख्नुपर्छ।",
+   "5": "\"Snow ... in June\" ले बाली नष्ट गरेको होइन, त्यसैले \"snow\" उही कडीको distractor हो।",
+   "6": "यो सिधै मिल्ने (direct match) answer हो।",
+   "7": "यो सिधै मिल्ने (direct match) answer हो।"
+  }
+ },
+ {
+  "id": "rb_sentence_completion_20",
+  "lesson": {
+   "title": "अन्तिम पुनरावलोकन (Final review)",
+   "text": "Sentence Completion को यो अन्तिम set-ले सबै skill-हरू सँगै जाँच्छ: paraphrase, ठ्याक्कै शब्द निकाल्ने, संख्याका distractor, शर्तहरू र grammar। छिटो काम गर्नुहोस्, तर अर्को question-मा जानुअघि हरेक पूरा भएको sentence-लाई passage र word limit सँग मिलाएर जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"chambers\" र \"three chambers\" दुवै word limit भित्र पर्छन्।",
+   "2": "Sentence-ले \"equipment failures\" लाई \"failures of equipment\" भनेर फेरि लेखेको छ।",
+   "3": "\"Withdraw\" = \"removed\" — दुवैको अर्थ एउटै हो।",
+   "4": "\"Remain\" = \"stay\" — दुवैको अर्थ एउटै हो।",
+   "5": "\"Failed\" = \"stopped working\" — दुवैको अर्थ एउटै हो।",
+   "6": "2008 (खुलेको वर्ष) र 2016 (tunnel-मा पानी पसेको वर्ष) नजिकैका संख्याका trap हुन्।",
+   "7": "\"Adapt\" passage-मा राखिएका बीउहरूबारे नकारात्मक भनाइमा मात्र आउँछ, त्यसैले यो answer होइन।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_01",
+  "lesson": {
+   "title": "पहिले grammar हेरेर option हटाउनुहोस् (Eliminate by grammar first)",
+   "text": "Word bank भएको task-मा पहिले हरेक gap-को grammar जाँच्नुहोस्: noun, adjective, verb वा plural। Grammar अनुसार कुन-कुन option मिल्न सक्छन्, चिनो लगाउनुहोस्। त्यसपछि ती option-हरूमध्ये अर्थको आधारमा छान्नुहोस्। यसो गर्दा काम छिटो हुन्छ र गल्ती कम हुन्छ।"
+  },
+  "explanations": {
+   "1": "\"Mice and rats\" = \"rodents\"। G (farmers) grammar अनुसार मिल्न सक्छ, तर किसानहरूले अन्न भण्डार गरेका थिए, उनीहरू अन्नतिर आकर्षित भएका थिएनन्।",
+   "2": "\"helped to\" पछि gap-मा verb चाहिन्छ। I (damage) उल्टो अर्थ हो।",
+   "3": "\"Not native\" = \"did not occur\" — दुवैको अर्थ एउटै हो।",
+   "4": "H (feared) लाई passage-ले समर्थन गर्दैन।",
+   "5": "Gap-मा \"ships\" अघि एउटा adjective चाहिन्छ। F (rapidly) adverb हो, त्यसैले मिल्दैन।",
+   "6": "F (rapidly) grammar अनुसार मिल्न सक्छ, तर passage-ले यसलाई समर्थन गर्दैन।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_02",
+  "lesson": {
+   "title": "पहिले भाग पत्ता लगाउनुहोस्, अनि क्रमैसँग अघि बढ्नुहोस् (Find the section, then work in order)",
+   "text": "\"from the passage\" format-मा summary-ले प्रायः passage-को लगातारको एउटै भाग समेट्छ। Summary-को पहिलो विचार passage-मा कहाँ छ पत्ता लगाउनुहोस्, अनि एक-एक gap गर्दै passage-मा अगाडि बढ्नुहोस्। हरेक answer ठ्याक्कै सार्नुहोस् र word limit जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"slightly\" पछि gap-मा एउटा adjective चाहिन्छ।",
+   "2": "यो सिधै मिल्ने (direct match) answer हो।",
+   "3": "\"Carry\" = \"transported\" — दुवैको अर्थ एउटै हो।",
+   "4": "\"Hydrothermal\" summary-मा पहिले नै छ।",
+   "5": "\"Removes\" = \"takes away\" — दुवैको अर्थ एउटै हो।",
+   "6": "\"Skeletons\" summary-मा पहिले नै छ।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_03",
+  "lesson": {
+   "title": "Paraphrase गरिएका word bank option-हरू (Paraphrased word-bank options)",
+   "text": "Word bank का option-हरू प्रायः passage-का शब्दसँग ठ्याक्कै मिल्दैनन्। जस्तै, passage-मा \"launched into orbit\" छ भने option-मा \"space\" हुन्छ; passage-मा \"inflate rapidly\" छ भने option-मा \"quickly\" हुन्छ। अर्थ मिलाउनुहोस्। Passage-को शब्द ठ्याक्कै दोहोर्याउने option-हरूमा शंका गर्नुहोस्, किनभने ती अर्कै सन्दर्भबाट आएका हुन सक्छन्।"
+  },
+  "explanations": {
+   "1": "H (colouring) grammar अनुसार मिल्न सक्छ, तर passage-मा भनिएको छैन।",
+   "2": "G (heavy) को अर्थ गलत छ।",
+   "3": "J (push) उल्टो अर्थ हो।",
+   "4": "\"In orbit\" = \"in space\" — दुवैको अर्थ एउटै हो।",
+   "5": "अर्थको हिसाबले यो सिधै मिल्छ (direct match)।",
+   "6": "I (slowly) उल्टो अर्थ हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_04",
+  "lesson": {
+   "title": "Summary-मा २ शब्दका answer-हरू (Two-word answers in summaries)",
+   "text": "२ शब्दको limit हुँदा summary-मा phrase-को केही भाग पहिले नै छ कि छैन जाँच्नुहोस्। Summary-मा \"the game spread along trade ...\" छ भने gap-मा \"routes\" मात्र चाहिन्छ, \"trade routes\" होइन। Gap-को दुवैतिरका शब्द पढ्दा शब्द दोहोरिने गल्ती हुँदैन।"
+  },
+  "explanations": {
+   "1": "\"Ancient\" summary-मा पहिले नै छ। \"Army\" मात्र लेखे पनि सही मानिन्छ।",
+   "2": "यो सिधै मिल्ने (direct match) answer हो।",
+   "3": "\"Trade\" summary-मा पहिले नै छ, त्यसैले \"trade routes\" लेख्दा शब्द दोहोरिन्छ।",
+   "4": "\"Most powerful\" = \"strongest\" — दुवैको अर्थ एउटै हो।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "यो सिधै मिल्ने (direct match) answer हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_05",
+  "lesson": {
+   "title": "Word bank-मा उल्टो अर्थका जोडीहरू (Opposite pairs in the word bank)",
+   "text": "Word bank-मा प्रायः उल्टो अर्थका जोडीहरू हुन्छन् (stronger/weaker, liquid/solid, easy/difficult)। यस्तो जोडी देख्नुभयो भने प्रायः एउटा answer हुन्छ र अर्को distractor। Passage-मा त्यो sentence खोज्नुहोस् र अर्थ कुन दिशातिर छ, ध्यान दिएर निर्णय गर्नुहोस्।"
+  },
+  "explanations": {
+   "1": "B (weaker) यसको उल्टो हो, र यो Question 5 का लागि चाहिन्छ।",
+   "2": "F (solid) उल्टो अर्थ हो, र त्यो कुरा sentence-को पछिल्लो भागमा पहिले नै भनिएको छ।",
+   "3": "\"Harsh\" = \"strong\" — दुवैको अर्थ एउटै हो।",
+   "4": "J (glands) keyword trap हो: glands ले silk बनाउँछन्, तर silk का प्रकारहरू glands का लागि होइनन्।",
+   "5": "यो सिधै मिल्ने (direct match) answer हो।",
+   "6": "\"Progress\" = \"improvements\", र I (failures) उल्टो अर्थ हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_06",
+  "lesson": {
+   "title": "Passage-का केही भाग छोड्ने summary-हरू (Summaries that skip parts of the passage)",
+   "text": "Summary-ले passage-का पूरै sentence-हरू, वा पूरै एउटा paragraph नै छोड्न सक्छ। तपाईंले पढिरहेको paragraph-मा अर्को answer भेटिएन भने अगाडि बढ्नुहोस्। गलत paragraph-बाट जबरजस्ती answer ननिकाल्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Rather than\" = \"instead of\" — दुवैको अर्थ एउटै हो।",
+   "2": "यो सिधै मिल्ने (direct match) answer हो।",
+   "3": "\"Belonging to\" = \"owned by\" — दुवैको अर्थ एउटै हो।",
+   "4": "\"felt\" पछि gap-मा एउटा adjective चाहिन्छ।",
+   "5": "\"Comb\" summary-मा पहिले नै छ।",
+   "6": "Gap-मा एउटा adverb चाहिन्छ।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_07",
+  "lesson": {
+   "title": "बहस (debate) का summary-हरू (Summaries of debates)",
+   "text": "Passage-ले धेरै hypothesis (परिकल्पना) बारे छलफल गर्छ भने summary-ले तिनलाई छोटकरीमा बताउन सक्छ, कुन-कुनलाई समर्थन मिल्यो र कुन-कुन अस्वीकार गरिए भन्ने कुरासहित। Word bank का option-हरूमा प्रायः मूल्याङ्कन गर्ने शब्दहरू हुन्छन् (supported, questioned, confirmed, doubtful)। हरेक hypothesis बारे passage-को निर्णय के छ, जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Cast doubt\" = \"questioned\"। G (confirmed) उल्टो अर्थ हो।",
+   "2": "J (colourful) लाई passage-ले समर्थन गर्दैन।",
+   "3": "यो सिधै मिल्ने (direct match) answer हो।",
+   "4": "I (large) उल्टो अर्थ हो।",
+   "5": "H (approach) trap हो, किनभने झिँगाहरू धर्का भएका छालातिर पनि \"just as often\" नजिक गए।",
+   "6": "\"Not fully understood\" = \"uncertain\" — दुवैको अर्थ एउटै हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_08",
+  "lesson": {
+   "title": "Summary-मा व्यक्तिहरूको भूमिका (People's roles in a summary)",
+   "text": "Summary-ले कसले के गर्यो भनेर बताउँछ भने gap-हरूले कुनै पेशा, तरिका वा परिणाम सोध्न सक्छन्। Answer दिनुअघि summary-को sentence कुन व्यक्तिको बारेमा हो चिन्नुहोस्, र passage-मा त्यो व्यक्तिको योगदान बताउने भाग खोज्नुहोस्। नजिकै अर्कै व्यक्तिको वर्णन गर्ने शब्दहरू नै मुख्य distractor हुन्।"
+  },
+  "explanations": {
+   "1": "\"Authority\" मात्र लेखे पनि सही मानिन्छ।",
+   "2": "\"How often\" = \"frequency\" — दुवैको अर्थ एउटै हो।",
+   "3": "यो सिधै मिल्ने (direct match) answer हो।",
+   "4": "Chadwick चाहिँ \"scholar\" थिए, त्यसैले यो अर्को व्यक्तिसँग जोडिएको distractor हो।",
+   "5": "\"On Crete\" summary-मा पहिले नै छ।",
+   "6": "\"Pot\" पनि passage-मा आउँछ, तर चित्रहरूका लागि प्रयोग भएको term \"vessels\" हो।"
+  }
+ }
+]

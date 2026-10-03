@@ -1,0 +1,1800 @@
+{
+  "listening": {
+    "sets": [
+      {
+        "id": "ls_01",
+        "part": 1,
+        "title": "Harbour Sports Club membership",
+        "context": "A man phones a sports club to join.",
+        "audio": "assets/audio/listening/ls_01.mp3",
+        "durationSeconds": 177,
+        "speakers": [
+          {
+            "name": "Receptionist",
+            "voice": "female"
+          },
+          {
+            "name": "Jonathan",
+            "voice": "male"
+          }
+        ],
+        "transcript": [
+          {
+            "id": "t1",
+            "speaker": "Receptionist",
+            "text": "Good morning, Harbour Sports Club, Emma speaking. How can I help?",
+            "start": 4.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t2",
+            "speaker": "Jonathan",
+            "text": "Hi there. I'd like to become a member, please. I've just moved to the area.",
+            "start": 9.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t3",
+            "speaker": "Receptionist",
+            "text": "Lovely. I can take your details over the phone and get the form started for you. Could I have your name first?",
+            "start": 15.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t4",
+            "speaker": "Jonathan",
+            "text": "Yes, it's Jonathan Fairfax.",
+            "start": 22.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t5",
+            "speaker": "Receptionist",
+            "text": "Could you spell your surname for me?",
+            "start": 26.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t6",
+            "speaker": "Jonathan",
+            "text": "Of course. It's F-A-I-R-F-A-X.",
+            "start": 29.0,
+            "keywords": [
+              "F-A-I-R-F-A-X"
+            ],
+            "answerTags": [
+              {
+                "after": "F-A-I-R-F-A-X",
+                "question": 1
+              }
+            ]
+          },
+          {
+            "id": "t7",
+            "speaker": "Receptionist",
+            "text": "Fairfax, thank you. And what's your address?",
+            "start": 32.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t8",
+            "speaker": "Jonathan",
+            "text": "It's 72 Weston Road. Oh, sorry, no, that was my old flat. It's number 27 Weston Road.",
+            "start": 36.7,
+            "keywords": [
+              "number 27"
+            ],
+            "answerTags": [
+              {
+                "after": "number 27",
+                "question": 2
+              }
+            ]
+          },
+          {
+            "id": "t9",
+            "speaker": "Receptionist",
+            "text": "27 Weston Road. And the postcode?",
+            "start": 45.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t10",
+            "speaker": "Jonathan",
+            "text": "It's BH6 4TR. That's B-H-6, then 4-T-R.",
+            "start": 48.9,
+            "keywords": [
+              "BH6 4TR"
+            ],
+            "answerTags": [
+              {
+                "after": "BH6 4TR",
+                "question": 3
+              }
+            ]
+          },
+          {
+            "id": "t11",
+            "speaker": "Receptionist",
+            "text": "Great. What's the best phone number to reach you on?",
+            "start": 54.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t12",
+            "speaker": "Jonathan",
+            "text": "There's a landline at the house, but I'm hardly ever in. My mobile is best. It's 07734 519208.",
+            "start": 58.6,
+            "keywords": [
+              "07734 519208"
+            ],
+            "answerTags": [
+              {
+                "after": "07734 519208",
+                "question": 4
+              }
+            ]
+          },
+          {
+            "id": "t13",
+            "speaker": "Receptionist",
+            "text": "07734 519208. Thanks. Now, we like to know which activities members are most interested in, so we can send the right timetables.",
+            "start": 68.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t14",
+            "speaker": "Jonathan",
+            "text": "Well, I was thinking about tennis, but I hear the courts are booked up most evenings. So I'd say swimming, mainly in the evenings after work.",
+            "start": 79.3,
+            "keywords": [
+              "So I'd say swimming"
+            ],
+            "answerTags": [
+              {
+                "after": "So I'd say swimming",
+                "question": 5
+              }
+            ]
+          },
+          {
+            "id": "t15",
+            "speaker": "Receptionist",
+            "text": "Evening swimming. The pool's open until ten, so that should suit you.",
+            "start": 88.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t16",
+            "speaker": "Jonathan",
+            "text": "Perfect.",
+            "start": 93.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t17",
+            "speaker": "Receptionist",
+            "text": "And which type of membership would you like? We have individual, couple and family.",
+            "start": 95.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t18",
+            "speaker": "Jonathan",
+            "text": "I was going to go for individual, but my wife and our two kids want to come along too, so I think family makes more sense.",
+            "start": 101.0,
+            "keywords": [
+              "family makes more sense"
+            ],
+            "answerTags": [
+              {
+                "after": "family makes more sense",
+                "question": 6
+              }
+            ]
+          },
+          {
+            "id": "t19",
+            "speaker": "Receptionist",
+            "text": "No problem. And would you prefer to pay annually or monthly?",
+            "start": 109.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t20",
+            "speaker": "Jonathan",
+            "text": "Monthly, please. How much would that be?",
+            "start": 114.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t21",
+            "speaker": "Receptionist",
+            "text": "The individual rate is 38 pounds a month, but the family membership is 45 pounds a month, and that covers two adults and up to three children.",
+            "start": 118.1,
+            "keywords": [
+              "45 pounds a month"
+            ],
+            "answerTags": [
+              {
+                "after": "45 pounds a month",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t22",
+            "speaker": "Jonathan",
+            "text": "That's very reasonable.",
+            "start": 127.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t23",
+            "speaker": "Receptionist",
+            "text": "Can I ask how you heard about us? Was it through our website?",
+            "start": 129.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t24",
+            "speaker": "Jonathan",
+            "text": "No, actually. A neighbour mentioned you, but what made me call was a poster I saw in the library.",
+            "start": 134.4,
+            "keywords": [
+              "a poster"
+            ],
+            "answerTags": [
+              {
+                "after": "a poster",
+                "question": 8
+              }
+            ]
+          },
+          {
+            "id": "t25",
+            "speaker": "Receptionist",
+            "text": "Oh good, so they did put it up. Now, when would you like your membership to start?",
+            "start": 141.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t26",
+            "speaker": "Jonathan",
+            "text": "Could I start on Monday?",
+            "start": 147.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t27",
+            "speaker": "Receptionist",
+            "text": "I'm afraid the pool is closed on Mondays this month for maintenance. How about Tuesday?",
+            "start": 149.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t28",
+            "speaker": "Jonathan",
+            "text": "Tuesday's fine.",
+            "start": 155.4,
+            "keywords": [
+              "Tuesday's fine"
+            ],
+            "answerTags": [
+              {
+                "after": "Tuesday's fine",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t29",
+            "speaker": "Receptionist",
+            "text": "And one last thing. When you come in, please don't use the south car park, because it's being resurfaced. Use the north car park, which is right next to the main entrance.",
+            "start": 157.2,
+            "keywords": [
+              "Use the north car park"
+            ],
+            "answerTags": [
+              {
+                "after": "Use the north car park",
+                "question": 10
+              }
+            ]
+          },
+          {
+            "id": "t30",
+            "speaker": "Jonathan",
+            "text": "The north car park. Got it. Thanks so much for your help.",
+            "start": 167.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t31",
+            "speaker": "Receptionist",
+            "text": "You're welcome, Mr Fairfax. We'll see you on Tuesday.",
+            "start": 172.9,
+            "keywords": [],
+            "answerTags": []
+          }
+        ],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "form",
+            "title": "Complete the form",
+            "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+            "formTitle": "Harbour Sports Club",
+            "formSubtitle": "Membership form",
+            "questions": [
+              {
+                "number": 1,
+                "label": "Name",
+                "before": "Jonathan",
+                "after": "",
+                "answer": "Fairfax",
+                "accepted": [
+                  "Fairfax"
+                ]
+              },
+              {
+                "number": 2,
+                "label": "Address",
+                "before": "",
+                "after": ", Weston Road",
+                "answer": "27",
+                "accepted": [
+                  "27"
+                ]
+              },
+              {
+                "number": 3,
+                "label": "Postcode",
+                "before": "",
+                "after": "",
+                "answer": "BH6 4TR",
+                "accepted": [
+                  "BH6 4TR",
+                  "BH64TR"
+                ]
+              },
+              {
+                "number": 4,
+                "label": "Phone",
+                "before": "07734",
+                "after": "",
+                "answer": "519208",
+                "accepted": [
+                  "519208",
+                  "519 208"
+                ]
+              },
+              {
+                "number": 5,
+                "label": "Preferred activity",
+                "before": "Evening",
+                "after": "",
+                "answer": "swimming",
+                "accepted": [
+                  "swimming"
+                ]
+              },
+              {
+                "number": 6,
+                "label": "Membership type",
+                "before": "",
+                "after": " — monthly",
+                "answer": "family",
+                "accepted": [
+                  "family"
+                ]
+              },
+              {
+                "number": 7,
+                "label": "Fee",
+                "before": "£",
+                "after": " per month",
+                "answer": "45",
+                "accepted": [
+                  "45",
+                  "45.00"
+                ]
+              },
+              {
+                "number": 8,
+                "label": "Heard about us",
+                "before": "a",
+                "after": " in the library",
+                "answer": "poster",
+                "accepted": [
+                  "poster"
+                ]
+              },
+              {
+                "number": 9,
+                "label": "Start day",
+                "before": "",
+                "after": "",
+                "answer": "Tuesday",
+                "accepted": [
+                  "Tuesday",
+                  "Tue"
+                ]
+              },
+              {
+                "number": 10,
+                "label": "Parking",
+                "before": "Use the",
+                "after": " car park",
+                "answer": "north",
+                "accepted": [
+                  "north"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ls_02",
+        "part": 2,
+        "title": "Ashford Maritime Museum",
+        "context": "A guide welcomes a group of visitors to a maritime museum.",
+        "audio": "assets/audio/listening/ls_02.mp3",
+        "durationSeconds": 197,
+        "speakers": [
+          {
+            "name": "Guide",
+            "voice": "male"
+          }
+        ],
+        "transcript": [
+          {
+            "id": "t1",
+            "speaker": "Guide",
+            "text": "Good morning, everyone, and welcome to the Ashford Maritime Museum. My name's Daniel, and I'm one of the volunteer guides here.",
+            "start": 5.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t2",
+            "speaker": "Guide",
+            "text": "Before you head off to explore, I'd like to give you a quick introduction to the building and tell you what you'll find in each area.",
+            "start": 14.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t3",
+            "speaker": "Guide",
+            "text": "A lot of visitors assume this building was once a fish market, because the fish quay is just outside the front door.",
+            "start": 22.0,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t4",
+            "speaker": "Guide",
+            "text": "In fact, it was built in 1842 as the town's customs house, where merchants paid tax on the goods their ships brought in.",
+            "start": 29.4,
+            "keywords": [
+              "built in 1842 as the town's customs house"
+            ],
+            "answerTags": [
+              {
+                "after": "built in 1842 as the town's customs house",
+                "question": 1
+              }
+            ]
+          },
+          {
+            "id": "t5",
+            "speaker": "Guide",
+            "text": "It only became a museum in the 1970s, after the shipbuilders' warehouse next door was knocked down.",
+            "start": 37.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t6",
+            "speaker": "Guide",
+            "text": "Now, some news for regular visitors. Entry is still seven pounds for adults, I'm afraid, so it hasn't become free, although under-sixteens still get in without paying.",
+            "start": 44.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t7",
+            "speaker": "Guide",
+            "text": "What has changed is that since April we've extended our opening hours, so we now close at six rather than five.",
+            "start": 56.7,
+            "keywords": [
+              "extended our opening hours"
+            ],
+            "answerTags": [
+              {
+                "after": "extended our opening hours",
+                "question": 2
+              }
+            ]
+          },
+          {
+            "id": "t8",
+            "speaker": "Guide",
+            "text": "We're also hoping to launch an audio guide app, but that won't be ready until next year.",
+            "start": 64.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t9",
+            "speaker": "Guide",
+            "text": "So, where to start? Most people go straight into the Harbour Gallery, but I'd suggest you begin with the short film in the Orientation Room.",
+            "start": 70.6,
+            "keywords": [
+              "begin with the short film"
+            ],
+            "answerTags": [
+              {
+                "after": "begin with the short film",
+                "question": 3
+              }
+            ]
+          },
+          {
+            "id": "t10",
+            "speaker": "Guide",
+            "text": "It's only twelve minutes long and it gives you a timeline that makes everything else much easier to follow.",
+            "start": 80.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t11",
+            "speaker": "Guide",
+            "text": "A quick practical point: reception no longer has space to store luggage, so any large bags must go in the lockers on the lower ground floor.",
+            "start": 86.7,
+            "keywords": [
+              "must go in the lockers"
+            ],
+            "answerTags": [
+              {
+                "after": "must go in the lockers",
+                "question": 4
+              }
+            ]
+          },
+          {
+            "id": "t12",
+            "speaker": "Guide",
+            "text": "Right, the areas themselves. The Harbour Gallery has our collection of oil paintings of the port.",
+            "start": 96.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t13",
+            "speaker": "Guide",
+            "text": "Some of them are very fragile, so please keep your cameras and phones away in there. Photography isn't allowed in that gallery at all.",
+            "start": 103.3,
+            "keywords": [
+              "Photography isn't allowed"
+            ],
+            "answerTags": [
+              {
+                "after": "Photography isn't allowed",
+                "question": 5
+              }
+            ]
+          },
+          {
+            "id": "t14",
+            "speaker": "Guide",
+            "text": "Next door is the Shipwreck Room. We used to run free guided talks in there, but these days it's self-guided.",
+            "start": 111.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t15",
+            "speaker": "Guide",
+            "text": "The highlight is the original captain's log from the Mary Ellen, along with letters written by her crew, the real documents, not copies.",
+            "start": 119.0,
+            "keywords": [
+              "the real documents"
+            ],
+            "answerTags": [
+              {
+                "after": "the real documents",
+                "question": 6
+              }
+            ]
+          },
+          {
+            "id": "t16",
+            "speaker": "Guide",
+            "text": "Then there's the Lighthouse Tower. You can climb all ninety steps, but it costs an extra two pounds on top of your ticket.",
+            "start": 127.9,
+            "keywords": [
+              "costs an extra two pounds"
+            ],
+            "answerTags": [
+              {
+                "after": "costs an extra two pounds",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t17",
+            "speaker": "Guide",
+            "text": "People expect a spectacular view from the top, but to be honest the windows are rather small.",
+            "start": 136.0,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t18",
+            "speaker": "Guide",
+            "text": "On the first floor you'll find the Rope Workshop. At eleven and at two, one of our volunteers shows you how rope was made by hand, so you can watch the whole process live.",
+            "start": 142.7,
+            "keywords": [
+              "watch the whole process live"
+            ],
+            "answerTags": [
+              {
+                "after": "watch the whole process live",
+                "question": 8
+              }
+            ]
+          },
+          {
+            "id": "t19",
+            "speaker": "Guide",
+            "text": "If you have children with you, head for the Children's Deck. They can dress up as sailors, try tying knots and steer a model ship, so it's all hands-on.",
+            "start": 153.4,
+            "keywords": [
+              "all hands-on"
+            ],
+            "answerTags": [
+              {
+                "after": "all hands-on",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t20",
+            "speaker": "Guide",
+            "text": "I should mention that the Navigation Room on the same floor is temporarily closed while we repair the roof.",
+            "start": 163.0,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t21",
+            "speaker": "Guide",
+            "text": "And finally, the Captain's Café on the top floor. The cakes are excellent, but the real reason to go up is the terrace.",
+            "start": 169.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t22",
+            "speaker": "Guide",
+            "text": "From there you get the best view of the town and the whole harbour, much better than from the tower.",
+            "start": 177.4,
+            "keywords": [
+              "the best view of the town"
+            ],
+            "answerTags": [
+              {
+                "after": "the best view of the town",
+                "question": 10
+              }
+            ]
+          },
+          {
+            "id": "t23",
+            "speaker": "Guide",
+            "text": "The café stays open until half past five, so there's plenty of time.",
+            "start": 183.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t24",
+            "speaker": "Guide",
+            "text": "If you have any questions, you'll find me or one of the other guides in the entrance hall.",
+            "start": 188.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t25",
+            "speaker": "Guide",
+            "text": "Enjoy your visit, everyone.",
+            "start": 194.5,
+            "keywords": [],
+            "answerTags": []
+          }
+        ],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "mcq",
+            "title": "Choose the correct letter, A, B or C",
+            "questions": [
+              {
+                "number": 1,
+                "text": "The museum building was originally used as",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "a customs house"
+                  },
+                  {
+                    "key": "B",
+                    "text": "a fish market"
+                  },
+                  {
+                    "key": "C",
+                    "text": "a shipbuilders' warehouse"
+                  }
+                ],
+                "answer": "A"
+              },
+              {
+                "number": 2,
+                "text": "What has recently changed at the museum?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Entry is now free."
+                  },
+                  {
+                    "key": "B",
+                    "text": "It closes later."
+                  },
+                  {
+                    "key": "C",
+                    "text": "There is a new audio guide app."
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 3,
+                "text": "The guide recommends that visitors begin by",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "going to the Harbour Gallery."
+                  },
+                  {
+                    "key": "B",
+                    "text": "climbing the Lighthouse Tower."
+                  },
+                  {
+                    "key": "C",
+                    "text": "watching a film."
+                  }
+                ],
+                "answer": "C"
+              },
+              {
+                "number": 4,
+                "text": "Visitors with large bags should",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "leave them at reception."
+                  },
+                  {
+                    "key": "B",
+                    "text": "carry them on the front."
+                  },
+                  {
+                    "key": "C",
+                    "text": "put them in lockers."
+                  }
+                ],
+                "answer": "C"
+              }
+            ]
+          },
+          {
+            "id": "g2",
+            "type": "matching",
+            "title": "What does the guide say about each area of the museum?",
+            "instruction": "Choose SIX answers from the box and write the correct letter, A–H, next to Questions 5–10.",
+            "options": [
+              {
+                "key": "A",
+                "text": "free guided talks"
+              },
+              {
+                "key": "B",
+                "text": "hands-on activities"
+              },
+              {
+                "key": "C",
+                "text": "temporarily closed"
+              },
+              {
+                "key": "D",
+                "text": "best view of the town"
+              },
+              {
+                "key": "E",
+                "text": "original documents"
+              },
+              {
+                "key": "F",
+                "text": "live demonstration"
+              },
+              {
+                "key": "G",
+                "text": "extra charge"
+              },
+              {
+                "key": "H",
+                "text": "no photography"
+              }
+            ],
+            "questions": [
+              {
+                "number": 5,
+                "text": "Harbour Gallery",
+                "answer": "H"
+              },
+              {
+                "number": 6,
+                "text": "Shipwreck Room",
+                "answer": "E"
+              },
+              {
+                "number": 7,
+                "text": "Lighthouse Tower",
+                "answer": "G"
+              },
+              {
+                "number": 8,
+                "text": "Rope Workshop",
+                "answer": "F"
+              },
+              {
+                "number": 9,
+                "text": "Children's Deck",
+                "answer": "B"
+              },
+              {
+                "number": 10,
+                "text": "Captain's Café",
+                "answer": "D"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ls_03",
+        "part": 3,
+        "title": "Choosing a research topic",
+        "context": "A tutor and a student, Maya, discuss her research project.",
+        "audio": "assets/audio/listening/ls_03.mp3",
+        "durationSeconds": 165,
+        "speakers": [
+          {
+            "name": "Tutor",
+            "voice": "male"
+          },
+          {
+            "name": "Maya",
+            "voice": "female"
+          }
+        ],
+        "transcript": [
+          {
+            "id": "t1",
+            "speaker": "Tutor",
+            "text": "Come in, Maya. Have a seat. How's the project planning going?",
+            "start": 6.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t2",
+            "speaker": "Maya",
+            "text": "Better, I think. I've narrowed it down to two ideas since our last meeting.",
+            "start": 11.4,
+            "keywords": [
+              "narrowed it down to two ideas"
+            ],
+            "answerTags": [
+              {
+                "after": "narrowed it down to two ideas",
+                "question": 1
+              }
+            ]
+          },
+          {
+            "id": "t3",
+            "speaker": "Tutor",
+            "text": "Good. I know you were worried about the proposal deadline, but that's not for another fortnight, so there's no rush.",
+            "start": 16.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t4",
+            "speaker": "Tutor",
+            "text": "So, you mentioned last week you were thinking about urban noise.",
+            "start": 24.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t5",
+            "speaker": "Maya",
+            "text": "I was, and there's actually plenty of research on it. But honestly the data collection would have taken the whole term. I'd need readings from dozens of sites.",
+            "start": 29.2,
+            "keywords": [
+              "data collection would have taken the whole term"
+            ],
+            "answerTags": [
+              {
+                "after": "data collection would have taken the whole term",
+                "question": 2
+              }
+            ]
+          },
+          {
+            "id": "t6",
+            "speaker": "Tutor",
+            "text": "That's a fair point. So what have you settled on instead?",
+            "start": 38.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t7",
+            "speaker": "Maya",
+            "text": "I did consider air quality in city parks, but I'm leaning towards rooftop gardens and how they affect building temperature.",
+            "start": 42.7,
+            "keywords": [
+              "rooftop gardens and how they affect building temperature"
+            ],
+            "answerTags": [
+              {
+                "after": "rooftop gardens and how they affect building temperature",
+                "question": 3
+              }
+            ]
+          },
+          {
+            "id": "t8",
+            "speaker": "Tutor",
+            "text": "Interesting. There's quite a lot published on that already, isn't there?",
+            "start": 50.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t9",
+            "speaker": "Maya",
+            "text": "There is, which is actually why I like it. It won't save me any time reading, but I can compare my results with earlier studies.",
+            "start": 55.5,
+            "keywords": [
+              "compare my results"
+            ],
+            "answerTags": [
+              {
+                "after": "compare my results",
+                "question": 4
+              }
+            ]
+          },
+          {
+            "id": "t10",
+            "speaker": "Tutor",
+            "text": "Good. And where would you take your measurements? Not in the lab, I hope.",
+            "start": 63.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t11",
+            "speaker": "Maya",
+            "text": "No. The library has a green roof, and the facilities team said I could use it from next month.",
+            "start": 69.0,
+            "keywords": [
+              "green roof"
+            ],
+            "answerTags": [
+              {
+                "after": "green roof",
+                "question": 5
+              }
+            ]
+          },
+          {
+            "id": "t12",
+            "speaker": "Tutor",
+            "text": "Make sure you get that permission in writing. Facilities staff change, and you don't want to lose access halfway through.",
+            "start": 75.4,
+            "keywords": [
+              "permission in writing"
+            ],
+            "answerTags": [
+              {
+                "after": "permission in writing",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t13",
+            "speaker": "Maya",
+            "text": "I'll email them today. What about equipment? I'd looked at buying temperature loggers online, but they're quite expensive.",
+            "start": 83.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t14",
+            "speaker": "Tutor",
+            "text": "Don't spend your own money on them.",
+            "start": 91.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t15",
+            "speaker": "Maya",
+            "text": "No, I'll borrow temperature loggers from the geography department instead. They have about twenty.",
+            "start": 94.6,
+            "keywords": [
+              "borrow temperature loggers from the geography department"
+            ],
+            "answerTags": [
+              {
+                "after": "borrow temperature loggers from the geography department",
+                "question": 6
+              }
+            ]
+          },
+          {
+            "id": "t16",
+            "speaker": "Tutor",
+            "text": "Twenty should be plenty. Now, the timetable. Your literature review was originally due in week four, but we've moved it. It needs to be finished by week six.",
+            "start": 101.1,
+            "keywords": [
+              "finished by week six"
+            ],
+            "answerTags": [
+              {
+                "after": "finished by week six",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t17",
+            "speaker": "Maya",
+            "text": "Week six. OK. Should I include studies from other countries?",
+            "start": 112.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t18",
+            "speaker": "Tutor",
+            "text": "Yes, and they don't all have to be recent ones. But focus on cities with a similar climate to ours, otherwise the comparison won't hold.",
+            "start": 117.2,
+            "keywords": [
+              "similar climate"
+            ],
+            "answerTags": [
+              {
+                "after": "similar climate",
+                "question": 8
+              }
+            ]
+          },
+          {
+            "id": "t19",
+            "speaker": "Maya",
+            "text": "That makes sense. I'd also thought about interviewing the building managers.",
+            "start": 126.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t20",
+            "speaker": "Tutor",
+            "text": "That would be nice to have, but it's not essential. I'd leave it unless you have spare time.",
+            "start": 131.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t21",
+            "speaker": "Maya",
+            "text": "Fair enough. And the final report, is it still four thousand words?",
+            "start": 137.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t22",
+            "speaker": "Tutor",
+            "text": "Three and a half thousand, plus appendices. And keep the method section short. Examiners care much more about your analysis.",
+            "start": 142.8,
+            "keywords": [
+              "keep the method section short"
+            ],
+            "answerTags": [
+              {
+                "after": "keep the method section short",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t23",
+            "speaker": "Maya",
+            "text": "Got it. Short method, more analysis.",
+            "start": 151.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t24",
+            "speaker": "Tutor",
+            "text": "Is there anything else you're unsure about?",
+            "start": 154.6,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t25",
+            "speaker": "Maya",
+            "text": "Not right now. I'll send you a draft outline by Friday.",
+            "start": 157.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t26",
+            "speaker": "Tutor",
+            "text": "Perfect. Good luck, Maya.",
+            "start": 162.0,
+            "keywords": [],
+            "answerTags": []
+          }
+        ],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "mcq",
+            "title": "Choose the correct letter, A, B or C",
+            "questions": [
+              {
+                "number": 1,
+                "text": "At the start of the tutorial, Maya says she has",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "narrowed her ideas down to two."
+                  },
+                  {
+                    "key": "B",
+                    "text": "finished her proposal."
+                  },
+                  {
+                    "key": "C",
+                    "text": "changed her supervisor."
+                  }
+                ],
+                "answer": "A"
+              },
+              {
+                "number": 2,
+                "text": "Why did Maya reject her first topic on urban noise?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "There was too little existing research."
+                  },
+                  {
+                    "key": "B",
+                    "text": "Data would take too long to collect."
+                  },
+                  {
+                    "key": "C",
+                    "text": "Her tutor thought it was too broad."
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 3,
+                "text": "What topic has Maya settled on?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Rooftop gardens and building temperature"
+                  },
+                  {
+                    "key": "B",
+                    "text": "Urban noise near schools"
+                  },
+                  {
+                    "key": "C",
+                    "text": "Air quality in city parks"
+                  }
+                ],
+                "answer": "A"
+              },
+              {
+                "number": 4,
+                "text": "Why does Maya like the fact that there is published research?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "It will save her time."
+                  },
+                  {
+                    "key": "B",
+                    "text": "She can compare her results."
+                  },
+                  {
+                    "key": "C",
+                    "text": "It is easy to find."
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 5,
+                "text": "Where will Maya take her measurements?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "On the library's green roof"
+                  },
+                  {
+                    "key": "B",
+                    "text": "In the geography lab"
+                  },
+                  {
+                    "key": "C",
+                    "text": "At a local park"
+                  }
+                ],
+                "answer": "A"
+              },
+              {
+                "number": 6,
+                "text": "How will Maya get temperature loggers?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Buy them online"
+                  },
+                  {
+                    "key": "B",
+                    "text": "Borrow them from geography"
+                  },
+                  {
+                    "key": "C",
+                    "text": "Share them with a classmate"
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 7,
+                "text": "When must the literature review be finished?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Week four"
+                  },
+                  {
+                    "key": "B",
+                    "text": "Week six"
+                  },
+                  {
+                    "key": "C",
+                    "text": "Week eight"
+                  }
+                ],
+                "answer": "B"
+              },
+              {
+                "number": 8,
+                "text": "Which studies should Maya focus on?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "Recent ones only"
+                  },
+                  {
+                    "key": "B",
+                    "text": "Cities with a similar climate"
+                  },
+                  {
+                    "key": "C",
+                    "text": "Those by local authors"
+                  }
+                ],
+                "answer": "B"
+              }
+            ]
+          },
+          {
+            "id": "g2",
+            "type": "multi",
+            "title": "Choose TWO letters, A–E",
+            "pick": 2,
+            "questions": [
+              {
+                "number": 9,
+                "text": "Which TWO things does the tutor advise Maya to do?",
+                "options": [
+                  {
+                    "key": "A",
+                    "text": "get written permission to use the site"
+                  },
+                  {
+                    "key": "B",
+                    "text": "buy her own equipment"
+                  },
+                  {
+                    "key": "C",
+                    "text": "keep the method section brief"
+                  },
+                  {
+                    "key": "D",
+                    "text": "interview the building managers"
+                  },
+                  {
+                    "key": "E",
+                    "text": "include only recent studies"
+                  }
+                ],
+                "answer": [
+                  "A",
+                  "C"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ls_04",
+        "part": 4,
+        "title": "Urban heat islands",
+        "context": "A lecturer explains why cities are warmer than the countryside and what can be done about it.",
+        "audio": "assets/audio/listening/ls_04.mp3",
+        "durationSeconds": 194,
+        "speakers": [
+          {
+            "name": "Lecturer",
+            "voice": "female"
+          }
+        ],
+        "transcript": [
+          {
+            "id": "t1",
+            "speaker": "Lecturer",
+            "text": "Good afternoon. Today we're looking at a phenomenon that affects almost every large city on the planet: the urban heat island.",
+            "start": 7.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t2",
+            "speaker": "Lecturer",
+            "text": "Put simply, an urban heat island is a built-up area that is noticeably warmer than the countryside around it.",
+            "start": 15.0,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t3",
+            "speaker": "Lecturer",
+            "text": "The effect was first described in the early nineteenth century by Luke Howard, an amateur scientist who is better known for naming the clouds.",
+            "start": 21.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t4",
+            "speaker": "Lecturer",
+            "text": "Howard kept careful temperature records in London and compared them with readings taken in nearby villages.",
+            "start": 29.8,
+            "keywords": [
+              "temperature records in London"
+            ],
+            "answerTags": [
+              {
+                "after": "temperature records in London",
+                "question": 1
+              }
+            ]
+          },
+          {
+            "id": "t5",
+            "speaker": "Lecturer",
+            "text": "So how big is the difference? You will sometimes read that city centres can be twelve degrees warmer, but that figure comes from a single, very unusual night.",
+            "start": 36.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t6",
+            "speaker": "Lecturer",
+            "text": "A more typical maximum is around seven degrees, and in most cities the average difference is much smaller.",
+            "start": 45.7,
+            "keywords": [
+              "around seven degrees"
+            ],
+            "answerTags": [
+              {
+                "after": "around seven degrees",
+                "question": 2
+              }
+            ]
+          },
+          {
+            "id": "t7",
+            "speaker": "Lecturer",
+            "text": "Interestingly, the gap is not greatest in the middle of a hot afternoon, as you might expect.",
+            "start": 52.4,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t8",
+            "speaker": "Lecturer",
+            "text": "It is actually at night that the difference is most marked, because the city releases the heat it has stored during the day.",
+            "start": 58.8,
+            "keywords": [
+              "at night"
+            ],
+            "answerTags": [
+              {
+                "after": "at night",
+                "question": 3
+              }
+            ]
+          },
+          {
+            "id": "t9",
+            "speaker": "Lecturer",
+            "text": "That brings us to the causes. The first is the materials we build with.",
+            "start": 66.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t10",
+            "speaker": "Lecturer",
+            "text": "Dark surfaces, and asphalt in particular, absorb a great deal of solar energy and then give it off slowly for hours.",
+            "start": 70.8,
+            "keywords": [
+              "asphalt"
+            ],
+            "answerTags": [
+              {
+                "after": "asphalt",
+                "question": 4
+              }
+            ]
+          },
+          {
+            "id": "t11",
+            "speaker": "Lecturer",
+            "text": "Concrete and brick behave in a similar way, though they are generally a little paler.",
+            "start": 78.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t12",
+            "speaker": "Lecturer",
+            "text": "The second cause is the lack of vegetation. In the countryside, plants and moist soil cool the air through evaporation.",
+            "start": 84.0,
+            "keywords": [
+              "through evaporation"
+            ],
+            "answerTags": [
+              {
+                "after": "through evaporation",
+                "question": 5
+              }
+            ]
+          },
+          {
+            "id": "t13",
+            "speaker": "Lecturer",
+            "text": "In a city, rainwater is quickly carried away by drains, so there is far less moisture available for this natural cooling.",
+            "start": 91.9,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t14",
+            "speaker": "Lecturer",
+            "text": "The third cause is waste heat. Vehicles contribute, of course, but a surprisingly large share is released by buildings, through heating systems, lighting and machinery.",
+            "start": 100.1,
+            "keywords": [
+              "released by buildings"
+            ],
+            "answerTags": [
+              {
+                "after": "released by buildings",
+                "question": 6
+              }
+            ]
+          },
+          {
+            "id": "t15",
+            "speaker": "Lecturer",
+            "text": "And the shape of the city matters too: tall buildings along narrow streets trap warm air and block the wind.",
+            "start": 110.5,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t16",
+            "speaker": "Lecturer",
+            "text": "Why does any of this matter? Hotter cities use more energy for cooling, and air pollution tends to be worse.",
+            "start": 117.0,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t17",
+            "speaker": "Lecturer",
+            "text": "But the most serious concern is health. During heatwaves, the group most at risk is the elderly, particularly those who live alone.",
+            "start": 124.2,
+            "keywords": [
+              "the elderly"
+            ],
+            "answerTags": [
+              {
+                "after": "the elderly",
+                "question": 7
+              }
+            ]
+          },
+          {
+            "id": "t18",
+            "speaker": "Lecturer",
+            "text": "Young children are also vulnerable, but studies consistently show the highest death rates among older people.",
+            "start": 132.8,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t19",
+            "speaker": "Lecturer",
+            "text": "So what can planners do? One simple approach is so-called cool roofs.",
+            "start": 139.7,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t20",
+            "speaker": "Lecturer",
+            "text": "These are roofs painted white or covered with light materials so that they reflect sunlight rather than absorbing it.",
+            "start": 144.5,
+            "keywords": [
+              "reflect sunlight"
+            ],
+            "answerTags": [
+              {
+                "after": "reflect sunlight",
+                "question": 8
+              }
+            ]
+          },
+          {
+            "id": "t21",
+            "speaker": "Lecturer",
+            "text": "Another is to increase green space. Many people assume that grass is enough, but in fact it provides relatively little cooling.",
+            "start": 151.3,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t22",
+            "speaker": "Lecturer",
+            "text": "The most effective measure is planting trees along streets, because they provide shade as well as releasing moisture.",
+            "start": 159.1,
+            "keywords": [
+              "planting trees"
+            ],
+            "answerTags": [
+              {
+                "after": "planting trees",
+                "question": 9
+              }
+            ]
+          },
+          {
+            "id": "t23",
+            "speaker": "Lecturer",
+            "text": "Finally, cities need better data. Here in our own city, researchers originally planned to use weather balloons.",
+            "start": 166.2,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t24",
+            "speaker": "Lecturer",
+            "text": "Instead, they attached two hundred small sensors to lampposts, which now record temperature every ten minutes.",
+            "start": 173.5,
+            "keywords": [
+              "small sensors"
+            ],
+            "answerTags": [
+              {
+                "after": "small sensors",
+                "question": 10
+              }
+            ]
+          },
+          {
+            "id": "t25",
+            "speaker": "Lecturer",
+            "text": "The results have already shown which neighbourhoods need the most urgent attention.",
+            "start": 181.1,
+            "keywords": [],
+            "answerTags": []
+          },
+          {
+            "id": "t26",
+            "speaker": "Lecturer",
+            "text": "In next week's session we'll look at some of that data in detail, so please read chapter five before then.",
+            "start": 186.6,
+            "keywords": [],
+            "answerTags": []
+          }
+        ],
+        "groups": [
+          {
+            "id": "g1",
+            "type": "gap",
+            "title": "Complete the notes",
+            "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+            "questions": [
+              {
+                "number": 1,
+                "text": "Luke Howard compared temperatures in ______ with those in nearby villages.",
+                "answer": "London",
+                "accepted": [
+                  "London"
+                ]
+              },
+              {
+                "number": 2,
+                "text": "Typical maximum difference between city and countryside: about ______ degrees.",
+                "answer": "7",
+                "accepted": [
+                  "7",
+                  "seven"
+                ]
+              },
+              {
+                "number": 3,
+                "text": "The difference is greatest at ______.",
+                "answer": "night",
+                "accepted": [
+                  "night",
+                  "nighttime",
+                  "night-time"
+                ]
+              },
+              {
+                "number": 4,
+                "text": "Dark surfaces, especially ______, absorb solar energy.",
+                "answer": "asphalt",
+                "accepted": [
+                  "asphalt"
+                ]
+              },
+              {
+                "number": 5,
+                "text": "Plants and moist soil cool the air through ______.",
+                "answer": "evaporation",
+                "accepted": [
+                  "evaporation"
+                ]
+              },
+              {
+                "number": 6,
+                "text": "Much waste heat is released by ______.",
+                "answer": "buildings",
+                "accepted": [
+                  "buildings"
+                ]
+              },
+              {
+                "number": 7,
+                "text": "Group most at risk during heatwaves: the ______.",
+                "answer": "elderly",
+                "accepted": [
+                  "elderly"
+                ]
+              },
+              {
+                "number": 8,
+                "text": "Cool roofs ______ sunlight instead of absorbing it.",
+                "answer": "reflect",
+                "accepted": [
+                  "reflect"
+                ]
+              },
+              {
+                "number": 9,
+                "text": "Most effective measure: planting ______ along streets.",
+                "answer": "trees",
+                "accepted": [
+                  "trees"
+                ]
+              },
+              {
+                "number": 10,
+                "text": "Local researchers attached 200 ______ to lampposts.",
+                "answer": "sensors",
+                "accepted": [
+                  "sensors"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tests": [
+      {
+        "id": "lt_01",
+        "number": 1,
+        "title": "Listening Test 1",
+        "sets": [
+          "ls_01",
+          "ls_02",
+          "ls_03",
+          "ls_04"
+        ]
+      }
+    ]
+  }
+}

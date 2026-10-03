@@ -1,0 +1,20 @@
+{
+  "promptId": "wb1_table_17",
+  "samples": [
+    {
+      "band": 6,
+      "text": "The table shows the prices of six everyday items in five cities in 2024, and the prices are in US dollars.\n\nOverall, City A is the most expensive city for most of the items and City D is the cheapest for all of them.\n\nIn City A, a cup of coffee costs $5.20 and a loaf of bread costs $3.90. A cinema ticket is $16.00 and a restaurant meal is $28.00, which are the highest prices. The monthly transport pass is very expensive, $132.00. City E is also expensive, for example a restaurant meal cost $24.00 and a cinema ticket cost $14.50. Petrol in City E is $2.10, it is the most expensive petrol.\n\nCity C is in the middle with $3.80 for coffee and $85.00 for a transport pass. On the other hand, City B and City D is much cheaper. In City D a coffee is only $1.40, bread is $0.90 and a transport pass is $19.00. City B is a little more expensive than City D, for example coffee is $2.10 and a meal is $9.00.",
+      "why": "Clear but simple overview · accurate prices organised city by city with limited comparison · repetitive structures (is, costs) · verb agreement errors and a comma splice that do not affect understanding."
+    },
+    {
+      "band": 7,
+      "text": "The table compares the cost of six common items, in US dollars, in five different cities in 2024.\n\nOverall, City A was the most expensive place for most items, while City D was the cheapest for every item. City E and City C also had relatively high prices, whereas prices in City B were generally low.\n\nThe largest difference between the cities was in the price of a monthly transport pass, which cost $132.00 in City A, about seven times as much as in City D ($19.00). This pass was also expensive in City C, at $85.00, but it cost only $28.00 in City B. Similarly, a restaurant meal in City A cost $28.00, compared with just $6.50 in City D, and a cinema ticket was $16.00 in City A but only $4.00 in City D.\n\nSmaller items showed the same pattern. A cup of coffee cost $5.20 in City A and $4.60 in City E, whereas in City B and City D it cost $2.10 and $1.40 respectively. The only exception to City A's high prices was petrol, which was most expensive in City E, at $2.10 a litre, and in City C ($1.85), while City A's price was $1.60.",
+      "why": "Clear overview identifying the dearest and cheapest cities · key contrasts highlighted, including the petrol exception · logical progression · good range of comparative structures · mostly error-free with some repetition of cost."
+    },
+    {
+      "band": 8,
+      "text": "The table shows how much six everyday goods and services cost in five cities in 2024, with all prices given in US dollars.\n\nIt is clear that City A was the most expensive of the five cities for nearly every item, whereas City D was consistently the cheapest. Petrol was the only item that did not follow this pattern, being dearest in City E.\n\nThe gap between the most and least expensive cities was widest for the monthly transport pass, which cost $132.00 in City A but just $19.00 in City D, roughly a seventh of the price. City C and City E occupied an intermediate position, at $85.00 and $60.00 respectively, while City B's pass was relatively affordable at $28.00. Leisure costs followed a similar pattern: a restaurant meal ranged from $28.00 in City A to $6.50 in City D, and a cinema ticket from $16.00 to $4.00, a fourfold difference.\n\nFor everyday purchases, the differences were smaller in absolute terms but still considerable. Coffee cost $5.20 in City A, almost four times the $1.40 charged in City D, and bread $3.90 compared with $0.90. Petrol, however, was priced highest in City E at $2.10 and City C at $1.85, with City A's figure of $1.60 only third highest.",
+      "why": "Well-judged overview including the one exception · figures selected selectively with accurate ratios · cohesion managed skilfully · precise vocabulary (dearest, intermediate, fourfold) · wide range of accurate structures."
+    }
+  ]
+}

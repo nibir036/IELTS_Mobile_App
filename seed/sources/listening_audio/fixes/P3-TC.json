@@ -1,0 +1,392 @@
+{
+ "note": "Q4 (was Q5): the town is Cliffside, spelled out ([0:21]); the backup site is A ([0:46]). Both tables renumbered to follow the recording: Table 1 now goes site by site (Cliffside then Marsh Point), and the backup-site row moved to Q6 where it is heard; the other answers are unchanged.",
+ "groups": {
+  "g1": {
+   "type": "table",
+   "title": "Site comparison",
+   "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+   "columns": [
+    "Site",
+    "Coastline",
+    "Erosion rate",
+    "Main hazard",
+    "Access to beach",
+    "Nearest settlement"
+   ],
+   "rows": [
+    [
+     "Site A: Cliffside Bay",
+     "(1)___ cliffs",
+     "(2)___ cm per year",
+     "rockfalls",
+     "via a (3)___ path",
+     "(4)___ (town)"
+    ],
+    [
+     "Site B: Marsh Point",
+     "sand dunes",
+     "15 cm per year",
+     "(5)___ at high tide",
+     "from the car park",
+     "a village"
+    ]
+   ],
+   "questions": [
+    {
+     "number": 1,
+     "label": "Site A: Cliffside Bay · Coastline",
+     "before": "",
+     "after": "cliffs",
+     "row": 0,
+     "col": 1,
+     "answer": "chalk",
+     "answerDisplay": "chalk",
+     "accepted": [
+      "chalk"
+     ]
+    },
+    {
+     "number": 2,
+     "label": "Site A: Cliffside Bay · Erosion rate",
+     "before": "",
+     "after": "cm per year",
+     "row": 0,
+     "col": 2,
+     "answer": "30",
+     "answerDisplay": "30 / thirty",
+     "accepted": [
+      "30",
+      "thirty"
+     ]
+    },
+    {
+     "number": 3,
+     "label": "Site A: Cliffside Bay · Access to beach",
+     "before": "via a",
+     "after": "path",
+     "row": 0,
+     "col": 4,
+     "answer": "coastal",
+     "answerDisplay": "coastal",
+     "accepted": [
+      "coastal"
+     ]
+    },
+    {
+     "number": 4,
+     "label": "Site A: Cliffside Bay · Nearest settlement",
+     "before": "",
+     "after": "(town)",
+     "row": 0,
+     "col": 5,
+     "answer": "Cliffside",
+     "answerDisplay": "Cliffside",
+     "accepted": [
+      "Cliffside"
+     ]
+    },
+    {
+     "number": 5,
+     "label": "Site B: Marsh Point · Main hazard",
+     "before": "",
+     "after": "at high tide",
+     "row": 1,
+     "col": 3,
+     "answer": "flooding",
+     "answerDisplay": "flooding",
+     "accepted": [
+      "flooding",
+      "floods"
+     ]
+    }
+   ],
+   "id": "g1"
+  },
+  "g2": {
+   "type": "table",
+   "title": "Fieldwork logistics",
+   "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+   "columns": [
+    "Item",
+    "Details"
+   ],
+   "rows": [
+    [
+     "Main site",
+     "Marsh Point"
+    ],
+    [
+     "Backup site",
+     "Site (6)___"
+    ],
+    [
+     "Group size",
+     "(7)___ students per group"
+    ],
+    [
+     "Equipment",
+     "a (8)___ and a measuring tape"
+    ],
+    [
+     "Safety",
+     "high-visibility (9)___"
+    ],
+    [
+     "Low tide",
+     "around (10)___ a.m."
+    ],
+    [
+     "Journey",
+     "about (11)___ minutes by coach"
+    ],
+    [
+     "Risk assessment due",
+     "(12)___"
+    ],
+    [
+     "Weather check",
+     "with the (13)___"
+    ],
+    [
+     "Data recording",
+     "using an app on a (14)___"
+    ],
+    [
+     "Supervising staff",
+     "(15)___"
+    ],
+    [
+     "Report deadline",
+     "within (16)___ weeks of the trip"
+    ],
+    [
+     "Photography rule",
+     "no photographs of local (17)___"
+    ],
+    [
+     "Coach cost",
+     "£(18)___ per student (return)"
+    ],
+    [
+     "Permission from",
+     "the (19)___ council"
+    ],
+    [
+     "Final decision by",
+     "(20)___"
+    ]
+   ],
+   "questions": [
+    {
+     "number": 6,
+     "label": "Backup site",
+     "before": "Site",
+     "after": "",
+     "row": 1,
+     "col": 1,
+     "answer": "A",
+     "answerDisplay": "A",
+     "accepted": [
+      "A"
+     ]
+    },
+    {
+     "number": 7,
+     "label": "Group size",
+     "before": "",
+     "after": "students per group",
+     "row": 2,
+     "col": 1,
+     "answer": "4",
+     "answerDisplay": "4 / four",
+     "accepted": [
+      "4",
+      "four"
+     ]
+    },
+    {
+     "number": 8,
+     "label": "Equipment",
+     "before": "a",
+     "after": "and a measuring tape",
+     "row": 3,
+     "col": 1,
+     "answer": "clinometer",
+     "answerDisplay": "clinometer",
+     "accepted": [
+      "clinometer"
+     ]
+    },
+    {
+     "number": 9,
+     "label": "Safety",
+     "before": "high-visibility",
+     "after": "",
+     "row": 4,
+     "col": 1,
+     "answer": "vests",
+     "answerDisplay": "vests",
+     "accepted": [
+      "vests"
+     ]
+    },
+    {
+     "number": 10,
+     "label": "Low tide",
+     "before": "around",
+     "after": "a.m.",
+     "row": 5,
+     "col": 1,
+     "answer": "11",
+     "answerDisplay": "11 / eleven",
+     "accepted": [
+      "11",
+      "eleven"
+     ]
+    },
+    {
+     "number": 11,
+     "label": "Journey",
+     "before": "about",
+     "after": "minutes by coach",
+     "row": 6,
+     "col": 1,
+     "answer": "45",
+     "answerDisplay": "45 / forty-five",
+     "accepted": [
+      "45",
+      "forty-five"
+     ]
+    },
+    {
+     "number": 12,
+     "label": "Risk assessment due",
+     "before": "",
+     "after": "",
+     "row": 7,
+     "col": 1,
+     "answer": "Friday",
+     "answerDisplay": "Friday",
+     "accepted": [
+      "Friday"
+     ]
+    },
+    {
+     "number": 13,
+     "label": "Weather check",
+     "before": "with the",
+     "after": "",
+     "row": 8,
+     "col": 1,
+     "answer": "coastguard",
+     "answerDisplay": "coastguard",
+     "accepted": [
+      "coastguard",
+      "coastguard office",
+      "coast guard"
+     ]
+    },
+    {
+     "number": 14,
+     "label": "Data recording",
+     "before": "using an app on a",
+     "after": "",
+     "row": 9,
+     "col": 1,
+     "answer": "tablet",
+     "answerDisplay": "tablet",
+     "accepted": [
+      "tablet"
+     ]
+    },
+    {
+     "number": 15,
+     "label": "Supervising staff",
+     "before": "",
+     "after": "",
+     "row": 10,
+     "col": 1,
+     "answer": "2",
+     "answerDisplay": "2 / two",
+     "accepted": [
+      "2",
+      "two"
+     ]
+    },
+    {
+     "number": 16,
+     "label": "Report deadline",
+     "before": "within",
+     "after": "weeks of the trip",
+     "row": 11,
+     "col": 1,
+     "answer": "3",
+     "answerDisplay": "3 / three",
+     "accepted": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "number": 17,
+     "label": "Photography rule",
+     "before": "no photographs of local",
+     "after": "",
+     "row": 12,
+     "col": 1,
+     "answer": "residents",
+     "answerDisplay": "residents",
+     "accepted": [
+      "residents"
+     ]
+    },
+    {
+     "number": 18,
+     "label": "Coach cost",
+     "before": "£",
+     "after": "per student (return)",
+     "row": 13,
+     "col": 1,
+     "answer": "8",
+     "answerDisplay": "8 / eight",
+     "accepted": [
+      "8",
+      "eight"
+     ]
+    },
+    {
+     "number": 19,
+     "label": "Permission from",
+     "before": "the",
+     "after": "council",
+     "row": 14,
+     "col": 1,
+     "answer": "district",
+     "answerDisplay": "district",
+     "accepted": [
+      "district"
+     ]
+    },
+    {
+     "number": 20,
+     "label": "Final decision by",
+     "before": "",
+     "after": "",
+     "row": 15,
+     "col": 1,
+     "answer": "Monday",
+     "answerDisplay": "Monday",
+     "accepted": [
+      "Monday"
+     ]
+    }
+   ],
+   "id": "g2"
+  }
+ },
+ "speakerMap": {
+  "Interviewer": "Tutor",
+  "Speaker 2": "Leah",
+  "Expert": "Josh"
+ }
+}

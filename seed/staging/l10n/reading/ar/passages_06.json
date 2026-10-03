@@ -1,0 +1,442 @@
+[
+ {
+  "id": "rb_sentence_completion_01",
+  "lesson": {
+   "title": "توقّع نوع الكلمة (Predict the word type)",
+   "text": "قبل أن تقرأ الـ passage، حدِّد نوع الكلمة التي تملأ كل gap (فراغ). عبارة \"is collected in early...\" تحتاج إلى كلمة تدل على الوقت، مثل فصل من فصول السنة أو اسم شهر. وعبارة \"takes about ... litres of sap\" تحتاج إلى رقم. عندما تعرف نوع الكلمة، يسهل عليك أن تتجاهل الكلمات القريبة التي ليست من النوع الصحيح."
+  },
+  "explanations": {
+   "1": "\"Seventy per cent\" = \"most\". الإجابة كلمة واحدة فقط.",
+   "2": "الإجابة كلمتان. أما \"Indigenous peoples of the region\" فتتجاوز الـ word limit (الحد الأقصى للكلمات).",
+   "3": "الـ gap يحتاج إلى plural noun بعد \"warmer\".",
+   "4": "عبارة \"Networks of plastic tubing\" تتكوّن من 4 كلمات، لذلك هي أطول من المسموح.",
+   "5": "هذه الإجابة تطابق \"small percentage\".",
+   "6": "\"Roughly\" = \"about\". لا تكتب \"about\"، لأنها موجودة أصلًا في الجملة بصيغة \"Roughly\".",
+   "7": "لا تكتب \"flavour\": فالـ passage يستخدم \"flavour\" للـ syrup المبكر (\"more delicate in flavour\")، ويستخدم \"taste\" للـ syrup الذي يُنتَج لاحقًا."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_02",
+  "lesson": {
+   "title": "أرقام متقاربة (Numbers close together)",
+   "text": "تحتوي نصوص الرياضة والتاريخ على كثير من السنوات والمسافات والأرقام قريبة من بعضها. وعادةً تقوم جملة الـ question بعمل paraphrase (إعادة صياغة) لسياق الرقم الصحيح، مثل: \"the distance was fixed\"، \"women were first allowed\". ابحث عن الرقم الذي يطابق سياقُه السؤال، ولا تكتفِ بأول رقم تراه في ذلك الـ paragraph."
+  },
+  "explanations": {
+   "1": "الإجابة كلمتان. \"Writings\" = \"texts\".",
+   "2": "كلمة \"Greek\" موجودة أصلًا في الجملة (\"from Greece\").",
+   "3": "\"Annual\" = \"yearly\" — لهما المعنى نفسه.",
+   "4": "لا تخلط بينها وبين 1921، وهي سنة الاعتماد الرسمي. هذا trap (فخ) الأرقام المتقاربة.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "عبارة \"the year\" تتطلب تاريخًا. لا تكتب 1972، فهي تخص بوسطن، ولا تكتب 1967.",
+   "7": "كلمة واحدة تكفي، كما أن \"team of pacemakers\" لا تناسب الجملة من ناحية الـ grammar."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_03",
+  "lesson": {
+   "title": "كلمة واحدة فقط (ONE WORD ONLY)",
+   "text": "عندما تقول التعليمات ONE WORD ONLY، يجب أن تجد الكلمة الأساسية الوحيدة. ابحث بشكل خاص عن الأسماء (nouns). يجب حذف الـ articles (a, the) والصفات (adjectives)، إلا إذا كانت الكلمة الوحيدة نفسها هي الـ adjective الذي تحتاجه الجملة."
+  },
+  "explanations": {
+   "1": "هذه مطابقة مباشرة مع الـ passage.",
+   "2": "\"Brood pouch\" هو الغطاء، وليس الشيء الذي تُحمَل عليه البيضة، كما أنه كلمتان.",
+   "3": "كلمة \"Stored\" موجودة أصلًا في الجملة.",
+   "4": "الـ plural noun يناسب عبارة \"groups known as\".",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "الكتابة بدون علامة الـ accent مقبولة أيضًا.",
+   "7": "كلمة \"Waterproof\" موجودة أصلًا في الجملة."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_04",
+  "lesson": {
+   "title": "إجابات من adjective + noun (Adjective + noun answers)",
+   "text": "أحيانًا يحتاج الـ gap إلى عبارة من كلمتين، مثل adjective مع noun (\"natural resistance\"، \"steel reinforcement\"). تأكّد هل الجملة تحتوي على الـ adjective أصلًا. إذا كانت تحتويه، فأنت تحتاج إلى الـ noun فقط؛ وإذا لم تكن تحتويه، فقد تحتاج إلى الكلمتين معًا. قراءة الجملة كاملة بصوت داخلي في ذهنك تساعدك على تجنّب التكرار."
+  },
+  "explanations": {
+   "1": "\"Type\" = \"kind\" — لهما المعنى نفسه.",
+   "2": "كلمة \"System\" موجودة أصلًا في الجملة، والكلمتان تناسبان الـ word limit.",
+   "3": "هذه مطابقة مباشرة مع الـ passage.",
+   "4": "هذه مطابقة مباشرة مع الـ passage.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "\"Lack\" = \"without\" — لهما المعنى نفسه.",
+   "7": "هذه مطابقة مباشرة مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_05",
+  "lesson": {
+   "title": "المفرد والجمع (Plural and singular)",
+   "text": "تأكّد هل الجملة تحتاج إلى noun مفرد (singular) أم جمع (plural): عبارة \"a ... called\" تحتاج إلى مفرد؛ وعبارة \"substances known as ...\" تحتاج إلى جمع. انسخ الكلمة بالصيغة نفسها التي تظهر بها في الـ passage، وتأكّد أنها تناسب الـ grammar في الجملة."
+  },
+  "explanations": {
+   "1": "الجملة تحتاج إلى adjective بعد \"described as\".",
+   "2": "هذه مطابقة مباشرة مع الـ passage.",
+   "3": "صيغة الجمع (plural) تناسب عبارة \"pigments called\".",
+   "4": "\"Hidden\" = \"concealed\". أما \"Large quantities of chlorophyll\" فتتجاوز الـ word limit.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "\"Kind\" = \"type\" — لهما المعنى نفسه.",
+   "7": "كلمة \"Early\" موجودة أصلًا في الجملة. كلٌّ من \"frost\" و\"severe frost\" ضمن الـ word limit، لكن \"severe early frost\" ليست ضمنه."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_06",
+  "lesson": {
+   "title": "أفعال معاد صياغتها (Paraphrased verbs)",
+   "text": "كثيرًا ما تستخدم جملة الـ question فعلًا (verb) مختلفًا عن الـ passage: \"was first tested\" بدلًا من \"made its first crossing\"، و\"was used for\" بدلًا من \"was employed in\". حدِّد الـ verb في الجملة، وفكّر في مرادفاته (synonyms)، ثم اعمل scan للبحث عن الفكرة المطابقة. أما كلمة الإجابة نفسها فستأتي من الـ passage مباشرة."
+  },
+  "explanations": {
+   "1": "هذه مطابقة مباشرة مع الـ passage.",
+   "2": "هذه مطابقة مباشرة مع الـ passage. أما \"Tin cans\" فقد استُخدمت لصنع الفراغ الهوائي، وليس لقياس أي شيء.",
+   "3": "الإجابة كلمتان. وكلمة \"Aircraft\" وحدها مقبولة أيضًا.",
+   "4": "لا تخلط بينها وبين 1955 (براءة الاختراع) أو 1968 (خدمة نقل الركاب).",
+   "5": "كلمة \"Rubber\" موجودة أصلًا في الجملة.",
+   "6": "1994 هي سنة افتتاح نفق المانش (Channel Tunnel)، وهذا trap الأرقام المتقاربة.",
+   "7": "هذه مطابقة مباشرة مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_07",
+  "lesson": {
+   "title": "عندما تعيد الجملة صياغة فكرة كاملة (When the sentence rephrases a whole idea)",
+   "text": "في المستوى المتوسط (Medium)، كثيرًا ما تعيد جملة الـ question التعبير عن فكرة كاملة بكلمات مختلفة، فلا تستطيع أن تجدها بمطابقة الـ keywords. بدلًا من ذلك، اسأل نفسك: \"Which part of the passage is this sentence about?\" (عن أي جزء من الـ passage تتحدث هذه الجملة؟). استفد من ترتيب الأسئلة ومن موضوع كل paragraph. وعندما تجد الجملة الصحيحة، حدِّد الكلمة أو الكلمتين اللتين تملآن الـ gap بدقة."
+  },
+  "explanations": {
+   "1": "هذه مطابقة مباشرة، وبقية الجملة paraphrase لما في الـ passage.",
+   "2": "الإجابة رقم مع كلمة واحدة. \"Around\" = \"approximately\"، وهي موجودة أصلًا في الجملة. لا تكتب \"a million years\"، فهي تشير إلى الجليد الذي ما زال الباحثون يحاولون العثور عليه.",
+   "3": "كلمة \"Small\" موجودة أصلًا في الجملة.",
+   "4": "\"Fewer\" = \"a lower proportion\" — لهما المعنى نفسه.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "عبارة \"Too thin to distinguish\" تتجاوز الـ word limit، أما \"too thin\" فتناسب الـ word limit والـ grammar معًا.",
+   "7": "هذه مطابقة مباشرة مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_08",
+  "lesson": {
+   "title": "أشخاص ومواد متتابعة بسرعة (People and substances in close sequence)",
+   "text": "عندما يقدّم الـ passage عدة أشخاص ومواد واحدًا تلو الآخر بسرعة، قد تصف الجملة إنجاز شخص ما بينما تكون مادة تخص شخصًا آخر قريبة منها في النص. قبل أن تكتب الإجابة، تأكّد أن الشخص والتاريخ والمادة في الجملة كلها تطابق الجملة نفسها في الـ passage."
+  },
+  "explanations": {
+   "1": "\"Most valued skill\" = \"most important quality\" — لهما المعنى نفسه.",
+   "2": "\"Suggestion\" = \"proposal\" — لهما المعنى نفسه.",
+   "3": "هذه مطابقة مباشرة مع الـ passage.",
+   "4": "هذه الإجابة تطابق التاريخ (1846) والمادة (ether). أما عرض أكسيد النيتروز (nitrous oxide) سنة 1845 فقد فشل، لذلك لا يناسب هذه الجملة.",
+   "5": "كلمة \"Highly\" موجودة أصلًا في الجملة، لذلك تكفي كلمة واحدة.",
+   "6": "هذه مطابقة مباشرة مع الـ passage.",
+   "7": "John Snow هو الذي أعطاه؛ والملكة هي التي أُعطي لها."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_09",
+  "lesson": {
+   "title": "حد الثلاث كلمات (THREE WORDS limits)",
+   "text": "عندما يكون الحد ثلاث كلمات، قد تكون الإجابات عبارات اسمية قصيرة (\"the waggle run\"، \"angle to the sun\"). خذ فقط الكلمات اللازمة لإكمال المعنى: الـ articles اختيارية إذا كانت الجملة تحتوي على article أصلًا. وتأكّد أن عبارتك لا تكرر أي كلمة موجودة في الجملة."
+  },
+  "explanations": {
+   "1": "هذه مطابقة مباشرة مع الـ passage.",
+   "2": "\"Roughly\" = \"about\"، وهي موجودة أصلًا في الجملة.",
+   "3": "الإجابة كلمتان أو ثلاث. \"Key\" = \"essential\".",
+   "4": "كلمة \"Represents\" موجودة أصلًا في الجملة بصيغة \"represented by\".",
+   "5": "البديل الآخر، \"energy they use\"، يرفضه الـ passage بشكل صريح.",
+   "6": "هذه مطابقة مباشرة مع الـ passage. وكلمة \"Much\" موجودة أصلًا في الجملة.",
+   "7": "\"Radar\" (Paragraph F) تتبّع النحل، لكنه لم يختبر الاتجاهات بدون طعام، ولهذا فهو trap."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_10",
+  "lesson": {
+   "title": "كلمة واحدة و/أو رقم (ONE WORD AND/OR A NUMBER)",
+   "text": "مع تعليمات ONE WORD AND/OR A NUMBER، يمكن أن تكون الإجابة كلمة واحدة (locks)، أو رقمًا واحدًا (1869)، أو رقمًا مع كلمة واحدة (193 kilometres). أما عبارة من كلمتين بدون رقم فغير مسموحة. وعندما تحتاج إلى قياس، اكتب الوحدة فقط إذا لم تكن موجودة أصلًا في الجملة."
+  },
+  "explanations": {
+   "1": "\"Tip\" = \"end\" — لهما المعنى نفسه.",
+   "2": "لا تخلط بينها وبين 1869 (الافتتاح) أو الـ 1850s (عندما تم الحصول على الإذن).",
+   "3": "\"Similar\" = \"roughly the same\" — لهما المعنى نفسه.",
+   "4": "الإجابة رقم مع كلمة واحدة. أما 164 kilometres فكان الطول الأصلي، وهذا trap الأرقام المتقاربة.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "هذه مطابقة مباشرة مع الـ passage.",
+   "7": "الإجابة رقم مع كلمة واحدة."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_11",
+  "lesson": {
+   "title": "المصطلحات العلمية التي يقدّمها الـ passage (Technical terms introduced in the passage)",
+   "text": "كثيرًا ما تقدّم النصوص العلمية مصطلحًا خاصًا ثم تعرّفه (\"known as reverberation time\"، \"so-called vineyard style\"). قد تصف الأسئلة الفكرة بكلمات بسيطة وتطلب منك المصطلح، أو تستخدم المصطلح وتطلب جزءًا من تعريفه. انتبه إلى نصفَي كل تعريف أثناء القراءة."
+  },
+  "explanations": {
+   "1": "هذه مطابقة مباشرة مع الـ passage.",
+   "2": "المصطلح معرَّف في الـ passage.",
+   "3": "عبارة \"Cushions from a nearby theatre\" تتجاوز الـ word limit.",
+   "4": "\"Around\" = \"about\" — لهما المعنى نفسه.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "هذه مطابقة مباشرة مع الـ passage.",
+   "7": "الكلمة التي تحتوي على hyphen (شَرطة) تُحسَب كلمة واحدة."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_12",
+  "lesson": {
+   "title": "المقارنات والنسب المئوية (Comparisons and percentages)",
+   "text": "قد تختبر الجمل المقارنات، مثل: \"Recycling uses about ... less energy than...\". تأكّد أن إجابتك تعبّر عن المقارنة نفسها الموجودة في الـ passage، وأن الرقم يشير إلى الأشياء الصحيحة التي تتم مقارنتها. فقد تصف نسبة مئوية في الـ passage التوفير في جملة، ثم حصة الإنتاج في الجملة التالية."
+  },
+  "explanations": {
+   "1": "\"Considered\" = \"regarded as\" — لهما المعنى نفسه.",
+   "2": "هذه مطابقة مباشرة مع الـ passage.",
+   "3": "هذه مطابقة مباشرة مع الـ passage.",
+   "4": "عبارة \"Of cheap power\" موجودة أصلًا في الجملة.",
+   "5": "عبارة \"Protective oxide\" أيضًا ضمن الـ word limit، لكن كلمة \"oxide\" وحدها تكمل الجملة.",
+   "6": "\"Ninety-five per cent\" هي نسبة التوفير، وليست الكمية المستخدمة، ولهذا فهي trap المقارنة.",
+   "7": "\"Pay\" = \"reward\" — لهما المعنى نفسه."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_13",
+  "lesson": {
+   "title": "الـ distractors في القوائم (Distractors in lists)",
+   "text": "عندما يذكر الـ passage قائمة من عدة أشياء (\"rocks, tree bark, walls and gravestones\")، تشير الجملة عادةً إلى واحد منها من خلال تفصيل إضافي، مثل \"surfaces that humans have made\". اقرأ جملة الـ question بدقة لتجد المفتاح الذي يحدّد شيئًا واحدًا من القائمة."
+  },
+  "explanations": {
+   "1": "\"Mistaken\" = \"confused\" — لهما المعنى نفسه.",
+   "2": "ترتيب الجملة معكوس، لكن الكلمات متطابقة.",
+   "3": "هذا مصطلح معرَّف في الـ passage.",
+   "4": "\"Breaking down\" = \"wearing away\" — لهما المعنى نفسه.",
+   "5": "الـ gap يحتاج إلى adjective قبل \"lichens\".",
+   "6": "الإجابة كلمتان.",
+   "7": "هذه مطابقة مباشرة مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_14",
+  "lesson": {
+   "title": "الادعاءات مقابل الأدلة في أسئلة الإكمال (Claims vs evidence in completion tasks)",
+   "text": "قد تنقل الجمل إما ادعاءً شائعًا وإما الدليل الذي يختبر هذا الادعاء. اقرأ طريقة تقديم الجملة (\"according to a popular explanation...\"، \"later research found that...\") وابحث عن الجزء المطابق في الـ passage. فالموضوع نفسه قد يعطي إجابات مختلفة حسب رأي من تنقله الجملة."
+  },
+  "explanations": {
+   "1": "هذه مطابقة مباشرة مع الـ passage.",
+   "2": "عبارة \"Collide and\" موجودة أصلًا في الجملة.",
+   "3": "الجملة تنقل الادعاء الشائع. لا تكتب \"letter pairs\"، فهي تخص الرأي البديل للمؤرخين.",
+   "4": "الجملة تنقل رأي المؤرخين، وليس الادعاء الشائع.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "\"Most common\" = \"most frequent\" — لهما المعنى نفسه.",
+   "7": "\"Invention\" = \"design\" — لهما المعنى نفسه."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_15",
+  "lesson": {
+   "title": "Sentence Completion الصعبة — paraphrase قوي واستخراج دقيق (Hard Sentence Completion — heavy paraphrase and precise extraction)",
+   "text": "في المستوى الصعب (Hard):\n\nتعيد الجمل ترتيب أفكار الـ passage، وكثيرًا ما تجمع بين جملتين من الـ passage؛ وقد تكون الكلمات الصحيحة داخل عبارة أطول، وعليك أن تستخرج بالضبط الجزء الذي يناسب الـ gap؛\n\nوالكلمات القريبة من النوع نفسه (أسماء أخرى، أرقام أخرى) تعمل كـ distractors (مشتِّتات). بعد أن تكتب الإجابة، اقرأ الجملة كاملة مرة أخرى واسأل نفسك: هل تقول بالضبط ما يقوله الـ passage، لا أكثر ولا أقل؟"
+  },
+  "explanations": {
+   "1": "الـ gap يحتاج إلى adverb.",
+   "2": "عليك أن تجمع بين جملتين. أما \"Twenty thousand hertz\" فهو الحد الأعلى، وهو الـ distractor.",
+   "3": "هذه مطابقة مباشرة مع الـ passage.",
+   "4": "عبارة \"Faint throbbing sensation\" ثلاث كلمات وتتجاوز الـ word limit، لذلك استخرج الجزء الأساسي المكوّن من كلمتين.",
+   "5": "\"Allow sound to travel more effectively\" = \"more favourable\" — لهما المعنى نفسه.",
+   "6": "\"Trunks\" تحتوي على مستقبِلات (receptors)، لكن الفيلة لا تستند عليها، ولهذا فهي distractor من النوع نفسه.",
+   "7": "\"By sight\" = \"visually\" — لهما المعنى نفسه."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_16",
+  "lesson": {
+   "title": "جمل تجمع معلومات من أماكن مختلفة (Sentences that combine information from different places)",
+   "text": "في المستوى الصعب، قد تجمع الجملة بين حقيقة من paragraph وشرط من paragraph آخر. حدِّد مكان الجملة أولًا باستخدام أكثر عناصرها تميّزًا، ثم تأكّد أن الإجابة تتفق مع الجملة كلها. ترتيب الأسئلة ما زال يتبع ترتيب الـ passage، لكن قد يحتاج سؤال واحد منك إلى أن تنظر بسرعة إلى paragraph سابق."
+  },
+  "explanations": {
+   "1": "\"Comparable\" = \"as fast as\" — لهما المعنى نفسه.",
+   "2": "\"Powerful\" = \"strong\". يجب حذف \"Strong\" و\"long-lasting\" حتى تبقى ضمن الـ word limit.",
+   "3": "Alaska هي المكان الذي وقع فيه الزلزال، ولهذا فهي distractor من النوع نفسه.",
+   "4": "\"Ignore\" = \"disregard\" — لهما المعنى نفسه.",
+   "5": "كلٌّ من \"pressure\" و\"water pressure\" ضمن الـ word limit.",
+   "6": "\"Satellite\" ينقل البيانات من العوّامة (buoy)، ولهذا فهو distractor في تسلسل العملية.",
+   "7": "كلمة \"Structures\" موجودة أصلًا في الجملة."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_17",
+  "lesson": {
+   "title": "شرح العمليات مع الشروط (Process explanations with conditions)",
+   "text": "تشرح النصوص التقنية العمليات مع شروطها (\"only while an organism is alive\"، \"after death, no new ... is taken in\"). قد تختبر الجمل الشرط بدلًا من العملية الأساسية. اقرأ بعناية وانتبه إلى كلمات مثل only وafter وuntil وonce وas long as، لأن الإجابة غالبًا تكون بجانبها."
+  },
+  "explanations": {
+   "1": "\"Strike\" = \"hit\" — لهما المعنى نفسه.",
+   "2": "هذا هو الشرط. وكلمة \"New\" موجودة أصلًا في الجملة.",
+   "3": "هذه تُحسَب كلمة واحدة فيها hyphen.",
+   "4": "5,730 years هي فترة نصف العمر (half-life)، ولهذا فهي trap الأرقام المتقاربة.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "عبارة \"Most importantly\" تحدّد الإجابة من بين المواد الثلاث المذكورة.",
+   "7": "هذا مصطلح فيه hyphen مع رقم، وهو ضمن الـ word limit."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_18",
+  "lesson": {
+   "title": "مراجعة نهائية — الدقة تحت الضغط (Final review — precision under pressure)",
+   "text": "تجمع هذه المجموعة أهم مهارات Sentence Completion: الـ paraphrase القوي، والاستخراج حسب الـ word limit، والـ distractors من النوع نفسه، والشروط. في كل سؤال:\n\n1. حدِّد الجزء المناسب من النص حسب المعنى.\n\n2. توقّع نوع الكلمة.\n\n3. استخرج أقل عدد من الكلمات يكمل المعنى.\n\n4. تحقّق من الـ word limit والإملاء والـ grammar."
+  },
+  "explanations": {
+   "1": "\"Fundamental problem\" = \"main cause\" — لهما المعنى نفسه.",
+   "2": "\"Four to five\" هو المستوى الذي تتوقف عنده الحركة الحرة، ولهذا فهو trap الأرقام المتقاربة.",
+   "3": "\"Trampling\" هو السبب الذي رفضه الـ passage.",
+   "4": "\"Escape\" = \"get away\" — لهما المعنى نفسه.",
+   "5": "هذا مصطلح معرَّف في الـ passage.",
+   "6": "هذه مطابقة مباشرة مع الـ passage.",
+   "7": "\"In real time\" = \"as events happen\" — لهما المعنى نفسه."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_19",
+  "lesson": {
+   "title": "سلاسل الأسباب عبر الزمن (Cause chains across time)",
+   "text": "بعض النصوص تصف سلسلة من الأحداث تمتد عبر أشهر أو سنوات: ثوران بركاني ← جزيئات في الغلاف الجوي ← انخفاض درجة الحرارة ← فشل المحاصيل ← آثار اجتماعية. قد تستهدف الجمل أي حلقة في هذه السلسلة. احتفظ في ذهنك بخط زمني، وتأكّد أن إجابتك تنتمي إلى الحلقة الصحيحة في السلسلة، وليس إلى الحلقة التي قبلها أو بعدها."
+  },
+  "explanations": {
+   "1": "كلمة \"Disease\" موجودة أصلًا في الجملة.",
+   "2": "هذا مصطلح معرَّف في الـ passage.",
+   "3": "الإجابة كلمتان منسوختان بالضبط.",
+   "4": "الإجابة كلمة واحدة منسوخة بالضبط. يجب أن تحافظ الإجابات على صيغة الكلمة كما هي في الـ passage.",
+   "5": "\"Snow ... in June\" لم يكن هو ما دمّر المحاصيل، ولهذا فإن \"snow\" هي distractor من الحلقة نفسها.",
+   "6": "هذه مطابقة مباشرة مع الـ passage.",
+   "7": "هذه مطابقة مباشرة مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_sentence_completion_20",
+  "lesson": {
+   "title": "مراجعة نهائية (Final review)",
+   "text": "هذه آخر مجموعة في Sentence Completion، وهي تختبر كل المهارات معًا: الـ paraphrase، والاستخراج الدقيق، والـ distractors الرقمية، والشروط، والـ grammar. اعمل بسرعة، لكن قارن كل جملة أكملتها بالـ passage وبالـ word limit قبل أن تنتقل إلى السؤال التالي."
+  },
+  "explanations": {
+   "1": "كلٌّ من \"chambers\" و\"three chambers\" ضمن الـ word limit.",
+   "2": "الجملة تعيد كتابة \"equipment failures\" على شكل \"failures of equipment\".",
+   "3": "\"Withdraw\" = \"removed\" — لهما المعنى نفسه.",
+   "4": "\"Remain\" = \"stay\" — لهما المعنى نفسه.",
+   "5": "\"Failed\" = \"stopped working\" — لهما المعنى نفسه.",
+   "6": "2008 (الافتتاح) و2016 (دخول الماء إلى النفق) هما trap الأرقام المتقاربة.",
+   "7": "كلمة \"Adapt\" تظهر في الـ passage فقط في جملة نفي عن البذور المخزّنة، لذلك ليست هي الإجابة."
+  }
+ },
+ {
+  "id": "rb_summary_completion_01",
+  "lesson": {
+   "title": "استبعد بالـ grammar أولًا (Eliminate by grammar first)",
+   "text": "عندما يكون هناك word bank (قائمة كلمات)، تحقّق أولًا من الـ grammar المطلوب في كل gap: noun أم adjective أم verb أم plural. ضع علامة على الـ options التي يمكن أن تناسب من ناحية الـ grammar. ثم اختر من بينها حسب المعنى. هذا يجعل المهمة أسرع ويقلّل الأخطاء."
+  },
+  "explanations": {
+   "1": "\"Mice and rats\" = \"rodents\". الخيار G (farmers) ممكن من ناحية الـ grammar، لكن المزارعين هم الذين خزّنوا الحبوب، ولم يكونوا هم من انجذبوا إليها.",
+   "2": "بعد \"helped to\" يحتاج الـ gap إلى verb. أما I (damage) فهو عكس المعنى المطلوب.",
+   "3": "\"Not native\" = \"did not occur\" — لهما المعنى نفسه.",
+   "4": "الخيار H (feared) لا يدعمه الـ passage.",
+   "5": "الـ gap يحتاج إلى adjective قبل \"ships\". أما F (rapidly) فهو adverb ولا يناسب.",
+   "6": "الخيار F (rapidly) ممكن من ناحية الـ grammar، لكن الـ passage لا يدعمه."
+  }
+ },
+ {
+  "id": "rb_summary_completion_02",
+  "lesson": {
+   "title": "حدِّد الجزء المناسب ثم اعمل بالترتيب (Find the section, then work in order)",
+   "text": "في نوع \"from the passage\"، يغطي الـ summary عادةً جزءًا متصلًا من النص. ابحث عن المكان الذي تظهر فيه أول فكرة في الـ summary، ثم تقدّم في الـ passage من gap إلى gap. انسخ كل إجابة بالضبط وتحقّق من الـ word limit."
+  },
+  "explanations": {
+   "1": "الـ gap يحتاج إلى adjective بعد \"slightly\".",
+   "2": "هذه مطابقة مباشرة مع الـ passage.",
+   "3": "\"Carry\" = \"transported\" — لهما المعنى نفسه.",
+   "4": "كلمة \"Hydrothermal\" موجودة أصلًا في الـ summary.",
+   "5": "\"Removes\" = \"takes away\" — لهما المعنى نفسه.",
+   "6": "كلمة \"Skeletons\" موجودة أصلًا في الـ summary."
+  }
+ },
+ {
+  "id": "rb_summary_completion_03",
+  "lesson": {
+   "title": "خيارات الـ word bank المعاد صياغتها (Paraphrased word-bank options)",
+   "text": "خيارات الـ word bank عادةً لا تطابق كلمات الـ passage حرفيًا. مثلًا، يقول الـ passage \"launched into orbit\" بينما يقول الـ option \"space\"؛ ويقول الـ passage \"inflate rapidly\" بينما يقول الـ option \"quickly\". طابِق المعنى. وكن حذرًا من الـ options التي تكرر كلمة من الـ passage حرفيًا، لأنها قد تأتي من سياق مختلف."
+  },
+  "explanations": {
+   "1": "الخيار H (colouring) ممكن من ناحية الـ grammar، لكنه غير مذكور في الـ passage.",
+   "2": "الخيار G (heavy) معناه خاطئ.",
+   "3": "الخيار J (push) هو عكس المعنى المطلوب.",
+   "4": "\"In orbit\" = \"in space\" — لهما المعنى نفسه.",
+   "5": "هذه مطابقة مباشرة في المعنى.",
+   "6": "الخيار I (slowly) هو عكس المعنى المطلوب."
+  }
+ },
+ {
+  "id": "rb_summary_completion_04",
+  "lesson": {
+   "title": "إجابات من كلمتين في الـ summary (Two-word answers in summaries)",
+   "text": "عندما يكون الحد كلمتين، تأكّد هل الـ summary يحتوي أصلًا على جزء من العبارة. إذا كان الـ summary يقول \"the game spread along trade ...\"، فالـ gap يحتاج فقط إلى \"routes\"، وليس \"trade routes\". قراءة الكلمات على جانبَي الـ gap تمنعك من التكرار."
+  },
+  "explanations": {
+   "1": "كلمة \"Ancient\" موجودة أصلًا في الـ summary. وكلمة \"Army\" وحدها مقبولة أيضًا.",
+   "2": "هذه مطابقة مباشرة مع الـ passage.",
+   "3": "كلمة \"Trade\" موجودة أصلًا في الـ summary، لذلك فإن \"trade routes\" ستكررها.",
+   "4": "\"Most powerful\" = \"strongest\" — لهما المعنى نفسه.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "هذه مطابقة مباشرة مع الـ passage."
+  }
+ },
+ {
+  "id": "rb_summary_completion_05",
+  "lesson": {
+   "title": "الأزواج المتضادة في الـ word bank (Opposite pairs in the word bank)",
+   "text": "كثيرًا ما تحتوي الـ word bank على أزواج من الكلمات المتضادة (stronger/weaker، liquid/solid، easy/difficult). عندما ترى زوجًا كهذا، تكون إحدى الكلمتين عادةً هي الإجابة والأخرى distractor. ابحث عن الجملة في الـ passage وحدِّد الاتجاه الصحيح بعناية."
+  },
+  "explanations": {
+   "1": "الخيار B (weaker) هو عكسها، وهو مطلوب في Question 5.",
+   "2": "الخيار F (solid) هو العكس، كما أن هذه الفكرة معبَّر عنها أصلًا في آخر الجملة.",
+   "3": "\"Harsh\" = \"strong\" — لهما المعنى نفسه.",
+   "4": "الخيار J (glands) هو trap الـ keyword: فالغدد (glands) هي التي تنتج الحرير، لكن أنواع الحرير ليست مخصصة للغدد.",
+   "5": "هذه مطابقة مباشرة مع الـ passage.",
+   "6": "\"Progress\" = \"improvements\"، والخيار I (failures) هو العكس."
+  }
+ },
+ {
+  "id": "rb_summary_completion_06",
+  "lesson": {
+   "title": "الـ summary الذي يتخطى أجزاءً من الـ passage (Summaries that skip parts of the passage)",
+   "text": "قد يترك الـ summary جملًا كاملة أو حتى paragraph كاملًا من الـ passage. إذا لم تجد الإجابة التالية في الـ paragraph الذي تقرؤه، فتقدّم إلى الأمام. لا تفرض إجابة من الـ paragraph الخطأ."
+  },
+  "explanations": {
+   "1": "\"Rather than\" = \"instead of\" — لهما المعنى نفسه.",
+   "2": "هذه مطابقة مباشرة مع الـ passage.",
+   "3": "\"Belonging to\" = \"owned by\" — لهما المعنى نفسه.",
+   "4": "الـ gap يحتاج إلى adjective بعد \"felt\".",
+   "5": "كلمة \"Comb\" موجودة أصلًا في الـ summary.",
+   "6": "الـ gap يحتاج إلى adverb."
+  }
+ },
+ {
+  "id": "rb_summary_completion_07",
+  "lesson": {
+   "title": "ملخّصات النقاشات العلمية (Summaries of debates)",
+   "text": "عندما يناقش الـ passage عدة فرضيات، قد يعرضها الـ summary بشكل مختصر، ويذكر أيّها تم دعمه وأيّها تم رفضه. وكثيرًا ما تحتوي خيارات الـ word bank على كلمات تقييمية (supported، questioned، confirmed، doubtful). تحقّق من حكم الـ passage على كل فرضية."
+  },
+  "explanations": {
+   "1": "\"Cast doubt\" = \"questioned\". أما G (confirmed) فهو العكس.",
+   "2": "الخيار J (colourful) لا يدعمه الـ passage.",
+   "3": "هذه مطابقة مباشرة مع الـ passage.",
+   "4": "الخيار I (large) هو العكس.",
+   "5": "الخيار H (approach) هو trap، لأن الذباب اقترب من الجلود المخططة \"just as often\".",
+   "6": "\"Not fully understood\" = \"uncertain\" — لهما المعنى نفسه."
+  }
+ },
+ {
+  "id": "rb_summary_completion_08",
+  "lesson": {
+   "title": "أدوار الأشخاص في الـ summary (People's roles in a summary)",
+   "text": "عندما يروي الـ summary من فعل ماذا، قد تطلب الـ gaps مهنةً أو طريقةً أو نتيجةً. قبل أن تجيب، حدِّد الشخص الذي تتحدث عنه جملة الـ summary، وابحث عن الجزء من الـ passage الذي يصف مساهمة هذا الشخص. والكلمات القريبة التي تصف شخصًا آخر هي الـ distractors الرئيسية."
+  },
+  "explanations": {
+   "1": "كلمة \"Authority\" وحدها مقبولة أيضًا.",
+   "2": "\"How often\" = \"frequency\" — لهما المعنى نفسه.",
+   "3": "هذه مطابقة مباشرة مع الـ passage.",
+   "4": "Chadwick كان \"scholar\"، ولهذا فهي distractor يخص شخصًا آخر.",
+   "5": "عبارة \"On Crete\" موجودة أصلًا في الـ summary.",
+   "6": "كلمة \"Pot\" تظهر أيضًا، لكن \"vessels\" هي الكلمة المستخدمة للرسومات."
+  }
+ }
+]

@@ -1,0 +1,1202 @@
+{
+ "id": "FT02",
+ "title": "Listening Full Test 2",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "Joining a Car-Share Club",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "A woman phones a city car-share club to become a member.",
+   "accent": "Australian (en-AU)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Craig",
+     "desc": "Membership officer — male, 30s, easy-going, helpful, slightly chatty; Australian accent"
+    },
+    {
+     "label": "Joanna",
+     "desc": "Caller — female, late 20s, friendly, organised but a little hurried; Australian accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear a woman phoning a car-share club to become a member. First, you have some time to look at Questions 1 to 7.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Craig",
+     "text": "[telephone rings twice, then the line clicks open] [cheerful, professional] Harbour Car Share, Craig speaking. How can I help?"
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[friendly, slightly hurried] Oh, hi, Craig. I'd like to join the club, please. The online form kept freezing on me, so I thought I'd just ring."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[apologetic chuckle] Yeah, sorry about that. No worries, I can do it over the phone. Can I start with your name?"
+    },
+    {
+     "speaker": "Joanna",
+     "text": "Sure. It's Joanna Pellowe."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[careful] And how do you spell the surname?"
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[slowly, spelling each letter clearly] P... E... double L... O... W... E."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[reading back as he types] P... E... double L... O... W..."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[quickly, politely correcting him] Sorry, there's an E on the end as well. People always leave it off."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[light laugh] Got it, with the E. And your home address?"
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[clearly] It's flat six, forty-two Lennox Street, in Rozelle."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[murmuring as he types] Lennox Street... [normal voice] and the postcode?"
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[thinking] Two-oh-three-nine... [short pause] [correcting herself, a bit embarrassed] no, hang on, that's the office. Home is two-oh-three-seven."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[reading back slowly] Two-oh-three-seven. Lovely. Now, we ask everyone what they'll mainly be using the cars for. Is it mostly for work, or...?"
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[thoughtful] Not for work, no. I cycle to the office. I used to borrow a friend's car to take my sister to the airport, but she's moved to Perth now, so... [warmly] these days it'd mostly be to drive up and see my grandmother. She lives in a little town in the Blue Mountains, and the train doesn't go all the way."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[sympathetic] Yeah, the trains up there aren't great at weekends. And which of our car bays would be handiest for you? In Rozelle we've got three."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[considering] Well, the one at the light rail stop would be ideal, but every time I've looked on the map, the cars there are booked out."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[rueful] That one's very popular, I'm afraid."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[thinking aloud] And the bay outside the library, I thought that'd be the closest, but..."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[helpful] Ah, that one's actually closed till the end of the year. The council's digging up the road there."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[decisive] Right, then put me down for the one behind the swimming pool. It's only a five-minute walk, so that's fine."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[typing] Behind the pool, no problem. You can change that any time in the app anyway. [explaining, clear] Now, we've got three plans. There's Casual, which has no monthly fee but higher hourly rates; there's Plus, which has a small monthly fee and cheaper hours; and Premium, which is really for people who drive most days."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[hesitant] I was thinking Casual, because I honestly won't drive that much. Maybe twice a month?"
+    },
+    {
+     "speaker": "Craig",
+     "text": "[measured, reasoning it through] You could. But two return trips to the mountains a month, they're long bookings, say six or seven hours each. On Casual you'd be paying the higher rate the whole time. I reckon the middle one would work out cheaper for you."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[doing the maths slowly] Hmm... yeah, if they're full-day trips... [decisive] Okay, you've talked me into it. I'll go for Plus. Not Premium, though, that's way more than I need."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[laughs] Fair enough. Plus it is."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "And what's the monthly fee on that? The website said twelve dollars fifty."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[apologetic] Ah, that's last year's figure, the page hasn't been updated. It went up in July. It's fourteen dollars ninety-five a month now."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[resigned, good-humoured] Fourteen ninety-five. Okay. Still a lot cheaper than running my own car."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[businesslike] Definitely. Now, we'll need a scan of your driver's licence, front and back, and something showing your address. A bank statement's fine..."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[awkward] I don't get paper statements any more. It's all online, and the screenshots don't actually show my address."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[thinking] Right. We used to take mobile phone bills, but we can't accept those any more, head office changed the rules. Have you got a gas or an electricity bill?"
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[relieved] The gas is in my flatmate's name, but I can send you my electricity bill, that's got my name and address on it."
+    },
+    {
+     "speaker": "Craig",
+     "text": "Perfect. Just email it to us with the licence scan."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 8 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[slightly anxious] Can I ask about the rules? What happens if I'm late bringing a car back? The traffic coming down from the mountains can be awful on a Sunday night."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[reassuring] It happens. If you can, extend the booking in the app before it runs out. If you don't, there is a charge. It used to be a flat twenty-five dollars, whatever happened, which people thought was a bit harsh if they were only five minutes over."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[wry] I can imagine."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[clear, explaining] So now it's worked out in blocks of fifteen minutes. You pay a small fee for each block you're over. [emphatic] We don't charge you for a whole extra hour, which is what some of the other clubs do."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[curious] That sounds fairer. And is there anything I have to do before I drive off? Do I need to ring you?"
+    },
+    {
+     "speaker": "Craig",
+     "text": "[casual] You don't need to call us. That's what we used to ask, but the app does all that now. Some members check the petrol gauge, but honestly, our staff refuel the cars, and there's a fuel card in the glovebox if you do run low, so that's not something you need to worry about."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "Oh, right."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[more serious, emphatic] The one thing we do insist on is that you walk around the car and take pictures of any scratches or dents in the app. Otherwise you could end up getting blamed for them."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[serious] Good to know. I'll make sure I do that."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[upbeat] So, would you like to make your first booking now? Your membership card takes about five days to come in the post."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[hesitant] Oh, so I'd have to wait for that anyway?"
+    },
+    {
+     "speaker": "Craig",
+     "text": "[quickly] No, no, you don't need the card. Once your documents are approved, you can unlock the cars with your phone. That's usually the same day."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[pleased] Oh, good. I was hoping to go up this Saturday."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[checking, murmuring] Let me see... [normal voice] yep, the hatchback behind the pool is free all day Saturday."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[thinking aloud, hesitant] Actually... I'd better not book it yet. My grandmother sometimes goes to her bridge club on a Saturday, and I don't want to drive all that way if she isn't going to be home. I'll ring her tonight and then book it in the app."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[easy-going] No problem at all. I'll email you a link to the app in the next few minutes."
+    },
+    {
+     "speaker": "Joanna",
+     "text": "[warmly] Great. Thanks so much for your help, Craig."
+    },
+    {
+     "speaker": "Craig",
+     "text": "[cheerful] My pleasure, Joanna. Enjoy the drive."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 1. You now have one minute to check your answers to Part 1.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-7",
+     "type": "form_completion",
+     "instructions": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+     "heading": "HARBOUR CAR SHARE — NEW MEMBER DETAILS",
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Name: Joanna ___",
+       "answer": "Pellowe",
+       "accepted": [
+        "PELLOWE"
+       ],
+       "spoken": "P... E... double L... O... W... E",
+       "evidence": "P... E... double L... O... W... E.",
+       "trap": "Craig reads it back without the final E, and the caller has to add it again."
+      },
+      {
+       "n": 2,
+       "prompt": "Postcode: ___",
+       "answer": "2037",
+       "accepted": [
+        "two-oh-three-seven"
+       ],
+       "spoken": "two-oh-three-seven",
+       "evidence": "no, hang on, that's the office. Home is two-oh-three-seven.",
+       "trap": "She first gives 2039, which is her office postcode."
+      },
+      {
+       "n": 3,
+       "prompt": "Main use of cars: trips to see her ___",
+       "answer": "grandmother",
+       "accepted": [],
+       "spoken": "grandmother",
+       "evidence": "these days it'd mostly be to drive up and see my grandmother",
+       "trap": "Her sister (airport trips) was the past reason; work is ruled out."
+      },
+      {
+       "n": 4,
+       "prompt": "Preferred car bay: the one behind the ___",
+       "answer": "swimming pool",
+       "accepted": [
+        "pool"
+       ],
+       "spoken": "swimming pool",
+       "evidence": "then put me down for the one behind the swimming pool",
+       "trap": "The light rail stop bay is always booked and the library bay is closed for roadworks."
+      },
+      {
+       "n": 5,
+       "prompt": "Membership plan: ___",
+       "answer": "Plus",
+       "accepted": [
+        "Plus plan"
+       ],
+       "spoken": "Plus",
+       "evidence": "I'll go for Plus. Not Premium, though",
+       "trap": "She first wants Casual, and Premium is also mentioned and rejected."
+      },
+      {
+       "n": 6,
+       "prompt": "Monthly fee: $ ___",
+       "answer": "14.95",
+       "accepted": [
+        "$14.95",
+        "14,95"
+       ],
+       "spoken": "fourteen dollars ninety-five",
+       "evidence": "It's fourteen dollars ninety-five a month now.",
+       "trap": "The website's out-of-date figure of $12.50 is said first."
+      },
+      {
+       "n": 7,
+       "prompt": "Proof of address to be emailed: ___",
+       "answer": "electricity bill",
+       "accepted": [],
+       "spoken": "electricity bill",
+       "evidence": "I can send you my electricity bill, that's got my name and address on it",
+       "trap": "A bank statement is acceptable but she can't supply one, phone bills are no longer accepted, and the gas bill isn't in her name."
+      }
+     ]
+    },
+    {
+     "range": "8-10",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 8,
+       "prompt": "What happens now if a member returns a car late?",
+       "options": {
+        "A": "They pay a fixed penalty.",
+        "B": "They are charged for an additional hour.",
+        "C": "They pay for each quarter of an hour."
+       },
+       "answer": "C",
+       "evidence": "So now it's worked out in blocks of fifteen minutes. You pay a small fee for each block you're over.",
+       "trap": "A was the old system ($25 flat); B is what other clubs do, which Craig says they don't."
+      },
+      {
+       "n": 9,
+       "prompt": "What must members do before driving off?",
+       "options": {
+        "A": "Record any damage to the vehicle",
+        "B": "Make sure there is enough fuel",
+        "C": "Phone the club's office"
+       },
+       "answer": "A",
+       "evidence": "you walk around the car and take pictures of any scratches or dents in the app",
+       "trap": "Phoning was the old rule ('You don't need to call us'); checking fuel is something some members do but is unnecessary."
+      },
+      {
+       "n": 10,
+       "prompt": "Why doesn't Joanna make a booking during the call?",
+       "options": {
+        "A": "She hasn't received her membership card.",
+        "B": "The car she wants is unavailable.",
+        "C": "She needs to check a relative's plans."
+       },
+       "answer": "C",
+       "evidence": "I don't want to drive all that way if she isn't going to be home. I'll ring her tonight",
+       "trap": "She thinks she must wait for the card but Craig says it isn't needed; the hatchback is free on Saturday."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "The Ashcombe Heritage Trail",
+   "context": "Monologue in an everyday social context (local radio talk, with short introduction by a presenter)",
+   "scenario": "A local radio presenter introduces the council's heritage officer, who describes a new heritage trail in the town.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech (presenter introduction + main speaker; one voice per label)",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Presenter",
+     "desc": "Local radio presenter — male, 40s, warm, upbeat, polished; British accent"
+    },
+    {
+     "label": "Ruth",
+     "desc": "Council heritage officer — female, 50s, enthusiastic, articulate, occasionally wry; British (southern English) accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear a local radio presenter introducing a heritage officer, who is talking about a new heritage trail in her town. First, you have some time to look at Questions 11 to 16.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Presenter",
+     "text": "[radio studio, a short jingle fading out] [warm, lively] Good morning, and welcome back to Ashcombe Today. Now, those small metal discs that have appeared in the town centre pavements are part of the new Ashcombe Heritage Trail, which opens this Saturday, and here to tell us all about it is the council's heritage officer, Ruth Penhale. Morning, Ruth."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[cheerful] Morning, Steve, and thanks for having me. [settling in, enthusiastic] Well, the trail links fourteen places of interest in the old town, but this morning I'll just pick out six of the main ones."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[informative] Let's start at the Corn Exchange on the High Street. A lot of people still think of it as the place to get a coffee, and there was a café on the ground floor for years, but it closed last spring and the space is empty for now. What you will find just inside the entrance hall is a model of the town as it looked in about eighteen fifty. [warm] It was built by pupils from Ashcombe Primary as a class project last term, and it's remarkably detailed. They even put tiny sheep in the market square."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[slightly regretful] From there, the trail goes down Well Lane to St Bride's Well. This is one of the oldest sites in the town; there's been a spring there since medieval times. We'd originally planned to put one of our audio posts there, where you press a button and hear a short recording, but the budget didn't stretch that far, sadly."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[careful, serious] And I should warn listeners: the well sits at the bottom of a flight of very narrow, uneven steps. We did look into putting in a ramp, but because the stonework is protected, we weren't given permission. So I'm afraid it isn't a stop that anyone in a wheelchair will be able to get down to."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[brighter] Just past the well, you come to the Tannery Bridge over the river. Now, generations of Ashcombe people have called it the black bridge, because that's the colour it's been for as long as anyone can remember. But when our conservation team scraped back the layers of paint last year, they discovered the ironwork had first been painted a deep green, and that's the shade you'll see there now. [light laugh] It's caused a few complaints, actually."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[informative] Then it's back up the hill to the Market Cross. You'll see people climbing the steps around the base hoping for a view, but to be honest, you can't see much from there; the buildings are too close. What makes the cross special is the bell at the top. The original was stolen in the nineteen seventies and never recovered. The one hanging there now was cast last year by a foundry in Devon, copied exactly from old photographs."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[informative, slightly apologetic] Round the corner from the cross are the Weavers' Cottages, a row of five little houses where cloth used to be made by hand. People are often disappointed to learn that they're all private homes now, so you can't just wander in. But the owners of the end cottage have very kindly agreed to let us in once a month, which means the only way to see inside is to book a place on one of our guided walks."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[enthusiastic] And finally, there's the old Railway Goods Shed, down by the station car park. There's one of our audio posts inside, and if you press the button, you'll hear recordings we made with men and women who worked on the railway in the nineteen fifties and sixties."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[matter-of-fact] A lot of people ask me whether there's somewhere to eat in the shed. There isn't, I'm afraid, though the Signal Box Café is just over the road. And if you're after a view over the whole town, the best place is really the old water tower behind the station, but that's not part of the trail, because it isn't open to the public."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 17 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Presenter",
+     "text": "[interested] Ruth, tell us about those discs in the pavement."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[chuckles] Ah, the markers. Well, there was quite a debate about those. Some councillors wanted them made from recycled plastic, to be environmentally friendly, but in the end we went for bronze, because it lasts so much longer. [warm] They were designed by Ellen Marsh, a sculptor who's lived in Ashcombe all her life. They shouldn't need replacing for a very long time; we're hoping they'll still be there in fifty years."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[practical] As for how long it takes, the leaflet says forty-five minutes, but that's if you walk briskly and don't stop at all. If you actually read the information boards, I'd allow about an hour and a half. Some people make a whole morning of it and have lunch at the end, but that's up to you."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[advisory] There's also a free app to go with the trail. Some people tell me they prefer it to the printed leaflet, but personally I find the map in the leaflet much easier to follow. There's a paid version of the app with extra content, too, but honestly, the free one has everything most visitors would need."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[emphatic, slowing down] My main piece of advice is this: the mobile signal in the old streets is terrible. So if you want to use the app, make sure you've got it on your phone before you leave home."
+    },
+    {
+     "speaker": "Presenter",
+     "text": "[curious] And is there any way listeners can get involved?"
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[grateful] Well, we've had a wonderful response to our appeal for volunteer guides. In fact, we've got all the guides we need for this year, so thank you to everyone who came forward. Last year we asked people to suggest buildings to include, and that went well, too."
+    },
+    {
+     "speaker": "Ruth",
+     "text": "[eager, warm] What we're short of now is pictures. If you've got old photographs of the town in a drawer at home, shops, street parties, anything, we'd love to scan them for the trail website. You can drop them at the library, and we'll return them within a week."
+    },
+    {
+     "speaker": "Presenter",
+     "text": "[wrapping up, cheerful] Lovely. Ruth Penhale, thank you very much."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 2. You now have one minute to check your answers to Part 2.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-16",
+     "type": "matching",
+     "instructions": "What does the speaker say about each of the following places on the heritage trail? Choose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+     "options": {
+      "A": "has an interactive audio feature",
+      "B": "can only be entered as part of an organised group",
+      "C": "has a display made by local children",
+      "D": "has been returned to its original colour",
+      "E": "offers a view across the town",
+      "F": "has a café on site",
+      "G": "is inaccessible to wheelchair users",
+      "H": "contains a reproduction of a missing object"
+     },
+     "items": [
+      {
+       "n": 11,
+       "prompt": "The Corn Exchange",
+       "answer": "C",
+       "evidence": "It was built by pupils from Ashcombe Primary as a class project last term",
+       "trap": "F: there used to be a café here, but it closed last spring."
+      },
+      {
+       "n": 12,
+       "prompt": "St Bride's Well",
+       "answer": "G",
+       "evidence": "it isn't a stop that anyone in a wheelchair will be able to get down to",
+       "trap": "A: an audio post was planned here but never installed."
+      },
+      {
+       "n": 13,
+       "prompt": "The Tannery Bridge",
+       "answer": "D",
+       "evidence": "they discovered the ironwork had first been painted a deep green, and that's the shade you'll see there now",
+       "trap": "Black is the colour people remember, not the original colour."
+      },
+      {
+       "n": 14,
+       "prompt": "The Market Cross",
+       "answer": "H",
+       "evidence": "The one hanging there now was cast last year by a foundry in Devon, copied exactly from old photographs",
+       "trap": "E: people climb the steps for a view, but the speaker says you can't see much."
+      },
+      {
+       "n": 15,
+       "prompt": "The Weavers' Cottages",
+       "answer": "B",
+       "evidence": "the only way to see inside is to book a place on one of our guided walks",
+       "trap": "Listeners may think they can't be visited at all because they are private homes."
+      },
+      {
+       "n": 16,
+       "prompt": "The Railway Goods Shed",
+       "answer": "A",
+       "evidence": "if you press the button, you'll hear recordings we made with men and women who worked on the railway",
+       "trap": "F and E: a café is across the road and the best view is from the water tower, neither of which is part of the shed."
+      }
+     ]
+    },
+    {
+     "range": "17-20",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 17,
+       "prompt": "What does the speaker say about the trail markers?",
+       "options": {
+        "A": "They are made of recycled material.",
+        "B": "They were created by someone from the town.",
+        "C": "They are likely to need replacing soon."
+       },
+       "answer": "B",
+       "evidence": "They were designed by Ellen Marsh, a sculptor who's lived in Ashcombe all her life",
+       "trap": "A: recycled plastic was proposed but bronze was chosen; C: they 'shouldn't need replacing for a very long time'."
+      },
+      {
+       "n": 18,
+       "prompt": "How long does the speaker suggest allowing for the trail?",
+       "options": {
+        "A": "under an hour",
+        "B": "around ninety minutes",
+        "C": "half a day"
+       },
+       "answer": "B",
+       "evidence": "If you actually read the information boards, I'd allow about an hour and a half.",
+       "trap": "A is the leaflet's figure (45 minutes); C is what some people choose to do, with lunch."
+      },
+      {
+       "n": 19,
+       "prompt": "What is the speaker's main advice about the app?",
+       "options": {
+        "A": "Install it before setting out.",
+        "B": "Use it instead of the printed map.",
+        "C": "Pay for the full version."
+       },
+       "answer": "A",
+       "evidence": "make sure you've got it on your phone before you leave home",
+       "trap": "B: she personally prefers the leaflet map; C: the free version is enough."
+      },
+      {
+       "n": 20,
+       "prompt": "What are listeners asked to do?",
+       "options": {
+        "A": "lend images of the town's past",
+        "B": "volunteer to lead walks",
+        "C": "propose buildings to be added to the trail"
+       },
+       "answer": "A",
+       "evidence": "If you've got old photographs of the town in a drawer at home",
+       "trap": "B: enough guides have already been found; C: building suggestions were requested last year."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "Seminar Presentation: How Young Children Acquire Language",
+   "context": "Academic discussion (2 students)",
+   "scenario": "Two students, Hannah and Liam, prepare a seminar presentation on how young children acquire language.",
+   "accent": "British (en-GB) and New Zealand (en-NZ)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.45 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Hannah",
+     "desc": "Student — female, early 20s, organised, a little anxious, quick; British (southern English) accent"
+    },
+    {
+     "label": "Liam",
+     "desc": "Student — male, early 20s, relaxed, confident, persuasive; New Zealand accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two students, Hannah and Liam, preparing a seminar presentation on how young children acquire language. First, you have some time to look at Questions 21 to 24.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[quiet study room] [brisk, a little stressed] Okay, Liam, we've got twenty minutes for the whole presentation, including questions, so we really need to decide what goes in and what comes out."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[relaxed] Yeah, fair enough. I made a list last night. Shall we go through it?"
+    },
+    {
+     "speaker": "Hannah",
+     "text": "Go on."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[reading from notes] Right, first, Chomsky, and the idea that we're born with some kind of built-in grammar."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[doubtful] Hmm. I mean, it's important, obviously, but everyone in the group did that to death in first year. If we spend five minutes on it, people will just switch off."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[agreeing] True. So we cut it, then. We can mention his name in passing, but not give it a section. [short pause] Next, kids who grow up with two languages."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[hesitant] I was wondering about dropping that, actually. It's such a huge area."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[firm but friendly] Ah, no, I really think we need it. Half the people in our seminar group grew up speaking more than one language at home. They'll want to hear about it."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[conceding] Fair point. Keep it, but keep it short. What's next?"
+    },
+    {
+     "speaker": "Liam",
+     "text": "[enthusiastic] Children learning sign language. There's that brilliant study from Nicaragua."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[regretful] I'd love to include that, but realistically, we'd have to explain how sign languages work first, and we just haven't got the time."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[sighs] Yeah, you're right. It'd need a whole presentation of its own. And what about screen time, whether toddlers pick up words from the television?"
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[dismissive] I'd have said drop that, to be honest. The research is pretty thin."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[persuasive] But that's kind of the point, isn't it? Everyone assumes educational programmes help, and the evidence says they mostly don't, not unless an adult is watching and talking about it with the child. That's a nice surprising finding. Just a minute or two."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[laughs] All right, you win. And then babbling, which obviously stays. It's where everything starts."
+    },
+    {
+     "speaker": "Liam",
+     "text": "Definitely."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[moving on] Okay. Then the main section: child-directed speech. You know, the way adults talk to babies, with the high pitch and the exaggerated tune. Did anything in the reading surprise you?"
+    },
+    {
+     "speaker": "Liam",
+     "text": "[thoughtful] A couple of things. I'd always assumed it was mainly mothers who did it, and that dads sort of talked to babies the same way they talk to anyone else. But that study showed fathers change their voices just as much. That really surprised me."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[interested] Mm. What about the bit showing that newborns would rather listen to it than to normal adult speech? I thought that was amazing, at only a few days old."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[unimpressed, easy] Honestly, that didn't really surprise me. Babies like anything that sounds a bit musical. [more animated] What did get me was that it isn't universal. I'd taken it for granted that every culture does it, but there are communities where adults hardly speak directly to babies at all, and the kids still learn to talk perfectly well."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[agreeing] Yes, that was striking. And older brothers and sisters doing it to toddlers, I found that quite unexpected."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[chuckles] Not me. I've got a four-year-old niece, and she talks to her baby brother exactly like that."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[laughs] Fair enough. And the old claim that it holds back vocabulary?"
+    },
+    {
+     "speaker": "Liam",
+     "text": "[matter-of-fact] Well, nobody really believes that any more. The studies show the opposite, which is pretty much what I'd have expected."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the discussion, you have some time to look at Questions 25 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[hesitant] Now, about the video. I was planning to show that clip of my cousin's little boy, the one where he's naming everything in the garden."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[mildly sceptical] It's lovely, but it's nearly ten minutes long, isn't it?"
+    },
+    {
+     "speaker": "Hannah",
+     "text": "Oh, I'd only play a minute of it, I can cut it down easily. And the sound's fine, I recorded it on a decent microphone. [short pause] [sighs] But I've decided not to use it after all. I mentioned it to my cousin, and she wasn't keen on her son being shown to a room full of strangers."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[understanding] No, absolutely, that's her call. We'll find something online instead."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[enthusiastic] Then I want to do the 'wug' experiment. You know, the one where kids are shown a drawing of a made-up creature called a wug, and then two of them, and they have to finish the sentence: 'There are two...'"
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[doubtful] Isn't it a bit old, though? It was done in the nineteen fifties."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[firm] It's old, but it hasn't dated at all. I don't think there's anything that shows more clearly that kids aren't just copying what they hear. They've never heard the word 'wugs', so they must be applying a rule."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[hesitant] Some people say the results were overstated, though. That a lot of the kids were just guessing."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[polite but dismissive] I've read that critique, and I don't buy it. The results have been repeated loads of times."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[thinking] Okay. That leads nicely into mistakes like 'I goed' or 'two mouses'."
+    },
+    {
+     "speaker": "Liam",
+     "text": "Yeah. Parents get really worried about those."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[amused] And they correct them constantly, which, according to everything we read, makes almost no difference."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[agreeing] Right. And people think they've stopped by about four, but actually some kids carry on making them till they're six or seven."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[emphatic] The point we need to get across is that they're not a sign that anything's wrong. It's the reverse, really: the child has worked out the rule and is just using it too widely. That's a step forward."
+    },
+    {
+     "speaker": "Liam",
+     "text": "Agreed. That's our key message for that section."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[practical] What about a handout? Last time the tutor said ours was far too long."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[thinking] I'd rather not give anything out at the start. People just read it instead of listening."
+    },
+    {
+     "speaker": "Liam",
+     "text": "We could put all the references on the final slide..."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[doubtful] Nobody can copy down twenty references in the thirty seconds it's up."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[decisive] Okay, so let's email a one-page summary to everyone once the session's over."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "Yes, that's the best option."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[anxious] I'm a bit worried about questions at the end, though. What if someone asks something we can't answer?"
+    },
+    {
+     "speaker": "Liam",
+     "text": "[relaxed] That doesn't bother me. We just say we'll look into it. And we've left five minutes, which is plenty. [more serious] What I'm more concerned about is what happened last term, when we asked for questions and there was total silence. It was so awkward."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[laughs] Oh, I remember. So should we get a friend to ask something?"
+    },
+    {
+     "speaker": "Liam",
+     "text": "[chuckles] Better than that, we'll finish with a question for them to discuss in pairs. That'll get them talking."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[businesslike] Right. So what next? Should we book a meeting with Dr Morgan to check the plan?"
+    },
+    {
+     "speaker": "Liam",
+     "text": "[hesitant] I don't think we need to. She said she's happy as long as we stick to the outline. And we can't really run through it properly till the slides are finished."
+    },
+    {
+     "speaker": "Hannah",
+     "text": "[agreeing] True. The problem is, most of our sources are from the nineties. We need some recent research, especially on bilingualism."
+    },
+    {
+     "speaker": "Liam",
+     "text": "[decisive] Okay, let's both spend tomorrow in the library looking for studies from the last five years, and then meet up again on Thursday."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 3. You now have one minute to check your answers to Part 3.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-22",
+     "type": "multi_select",
+     "instructions": "Choose TWO letters, A–E.",
+     "options": {
+      "A": "the theory that grammar is innate",
+      "B": "bilingual children",
+      "C": "the acquisition of sign language",
+      "D": "the influence of television",
+      "E": "babbling"
+     },
+     "answers": [
+      "A",
+      "C"
+     ],
+     "evidence": [
+      "We can mention his name in passing, but not give it a section",
+      "It'd need a whole presentation of its own"
+     ],
+     "trap": "B and D are each suggested for cutting by Hannah but Liam persuades her to keep them; E stays.",
+     "items": [
+      {
+       "n": 21,
+       "prompt": "Which TWO topics do the students decide to leave out of their presentation?"
+      },
+      {
+       "n": 22,
+       "prompt": ""
+      }
+     ]
+    },
+    {
+     "range": "23-24",
+     "type": "multi_select",
+     "instructions": "Choose TWO letters, A–E.",
+     "options": {
+      "A": "Men adapt their speech to babies as much as women do.",
+      "B": "Newborn babies prefer it to ordinary adult speech.",
+      "C": "It is not used in all societies.",
+      "D": "Young children use it with younger siblings.",
+      "E": "It does not slow down vocabulary development."
+     },
+     "answers": [
+      "A",
+      "C"
+     ],
+     "evidence": [
+      "But that study showed fathers change their voices just as much. That really surprised me.",
+      "What did get me was that it isn't universal."
+     ],
+     "trap": "B and D surprised Hannah, not Liam; E is what Liam expected.",
+     "items": [
+      {
+       "n": 23,
+       "prompt": "Which TWO findings about child-directed speech surprised Liam?"
+      },
+      {
+       "n": 24,
+       "prompt": ""
+      }
+     ]
+    },
+    {
+     "range": "25-30",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 25,
+       "prompt": "Why has Hannah decided not to show the video clip?",
+       "options": {
+        "A": "It would take up too much time.",
+        "B": "The sound quality is poor.",
+        "C": "A family member has objected."
+       },
+       "answer": "C",
+       "evidence": "she wasn't keen on her son being shown to a room full of strangers",
+       "trap": "A is Liam's worry, but Hannah can cut it down; B is denied ('the sound's fine')."
+      },
+      {
+       "n": 26,
+       "prompt": "What is Liam's opinion of the 'wug' experiment?",
+       "options": {
+        "A": "It is too old to be relevant now.",
+        "B": "It is convincing evidence that children learn rules.",
+        "C": "Its findings have been exaggerated."
+       },
+       "answer": "B",
+       "evidence": "I don't think there's anything that shows more clearly that kids aren't just copying what they hear",
+       "trap": "A and C are Hannah's reservations, both rejected by Liam."
+      },
+      {
+       "n": 27,
+       "prompt": "What do the students agree about errors such as 'I goed'?",
+       "options": {
+        "A": "They show that a child is making progress.",
+        "B": "Parents should point them out to the child.",
+        "C": "They have usually disappeared by the age of four."
+       },
+       "answer": "A",
+       "evidence": "the child has worked out the rule and is just using it too widely. That's a step forward.",
+       "trap": "B: correcting 'makes almost no difference'; C: some children continue until six or seven."
+      },
+      {
+       "n": 28,
+       "prompt": "What do the students decide to do about the handout?",
+       "options": {
+        "A": "give it out before they begin",
+        "B": "include the references on a slide",
+        "C": "send it to people afterwards"
+       },
+       "answer": "C",
+       "evidence": "let's email a one-page summary to everyone once the session's over",
+       "trap": "A and B are both suggested and rejected by Hannah."
+      },
+      {
+       "n": 29,
+       "prompt": "What is Liam worried about regarding the question session?",
+       "options": {
+        "A": "not knowing the answers",
+        "B": "not having enough time",
+        "C": "the audience not responding"
+       },
+       "answer": "C",
+       "evidence": "when we asked for questions and there was total silence",
+       "trap": "A is Hannah's worry ('That doesn't bother me'); B is dismissed ('five minutes, which is plenty')."
+      },
+      {
+       "n": 30,
+       "prompt": "What will the students do next?",
+       "options": {
+        "A": "arrange to see their tutor",
+        "B": "rehearse the presentation",
+        "C": "look for more up-to-date studies"
+       },
+       "answer": "C",
+       "evidence": "let's both spend tomorrow in the library looking for studies from the last five years",
+       "trap": "A is suggested but Liam says it isn't necessary; B can't happen until the slides are finished."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "Urban Heat Islands",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "A lecturer in urban geography gives a talk on the causes and effects of urban heat islands and on ways of reducing them.",
+   "accent": "Canadian (en-CA)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "University lecturer in urban geography — female, 40s, energetic, clear, engaging; Canadian accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about urban heat islands. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture hall, a low murmur fading] [warm, energetic] Okay, good afternoon, everyone. Today we're turning to a topic that's become increasingly urgent for city planners, and that's what's known as the urban heat island: the simple fact that cities are often a great deal hotter than the countryside around them."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explanatory] The difference can be dramatic. In extreme cases, a large city can be as much as twelve degrees warmer than the farmland that surrounds it. [emphatic, slowing down] And here's what surprises most people. The gap isn't at its greatest in the middle of the afternoon, when the sun is strongest. It's widest at night, because the city keeps releasing the heat it has soaked up during the day for hours after sunset, while the countryside cools down quite quickly."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] So what causes it? Well, the first factor is the materials we build with. Dark surfaces like asphalt and roofing tar absorb most of the sunlight that hits them, rather than bouncing it back. Scientists describe this property using the term albedo, that's A... L... B... E... D... O, which is simply a measure of how much light a surface reflects."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[light, illustrative] Fresh snow, for example, has a very high albedo; it sends most of the light back into the sky. Asphalt, on the other hand, has an extremely low albedo, which is why a parking lot in July can burn your feet."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] The second factor is the shape of the city. Tall buildings placed close together form what are called urban canyons. Heat bounces back and forth between the walls and gets trapped, and the buildings also block the wind that would otherwise carry that warm air away."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful] And third, there's what we call waste heat: the heat given off by human activity. You'd probably guess that traffic is the main source, and in a lot of cities, that's true. But in the case study I'll be referring to throughout today, which looked at a mid-sized city in Ontario, it wasn't vehicles that produced the most waste heat. It was industry, largely because of a cluster of factories right next to downtown. Air conditioning units came a fairly distant third."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[serious] Now, the effects. The most obvious one is on health. Heat waves kill more people in North America each year than any other type of weather event, and the elderly are especially at risk, because the body's ability to cool itself declines with age."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] But there's an economic side, too. When a city heats up, demand for electricity rises sharply, mainly because of all those air conditioners running at once, and utilities sometimes struggle to keep up. Natural gas use, by contrast, hardly changes at all in summer, so that isn't really where the costs come from."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[engaged] There's also an effect on water that's often overlooked. When rain falls on hot pavement and rooftops, the water warms up before it drains into streams and rivers. And that's a real problem for fish that depend on cold water. In the Ontario study, researchers recorded a sharp decline in trout in the streams below the city. [aside] Not salmon, interestingly; they'd disappeared from that river long before the city expanded, so it's trout that are now under pressure."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[brisk, transitioning] So, what can be done? Let's look at four approaches. The first is the cool roof. People tend to picture white roof tiles, but in fact most cool roofs are just ordinary roofs with a reflective coating applied on top, usually white or pale grey. It's cheap, it can go onto an existing building, and it can lower the surface temperature of a roof by thirty degrees or more."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[balanced] The second approach is the green roof, a roof planted with vegetation. Green roofs cool the air through evaporation, and they soak up rainwater, which helps reduce flooding. They're a lot more expensive than cool roofs, though, and many older buildings simply aren't strong enough to support the weight of wet soil."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[enthusiastic] The third approach, and probably the one residents like best, is planting street trees. But not all trees are equally useful. The key thing isn't how tall a tree grows. What really matters is having wide canopies, that's the spreading layer of branches and leaves that actually throws shade onto the street. A tall, narrow tree like a poplar does surprisingly little."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] In the Ontario city, the tree-planting program was interesting because of where it was targeted. You might expect planners to start with the oldest neighbourhoods, or with the downtown core, where it's hottest. Instead, they focused on districts where people had a low income, because those areas had the fewest trees to begin with, and residents there were the least likely to own air conditioners."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] The fourth approach is the cool pavement: road and sidewalk surfaces that are made lighter in colour. These do work, but they've turned out to have an unexpected drawback. On bright days, the light reflected off them creates glare, which pedestrians find really uncomfortable, and some studies suggest they can actually make people walking on them feel hotter, not cooler."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[reflective] So why haven't these measures been adopted everywhere? You'd assume the main obstacle is the initial cost, and that's certainly an issue. But the city officials interviewed in the Ontario study said that wasn't really what held them back. The bigger problem, they said, was maintenance. Reflective coatings get dirty and gradually lose their effect, and young trees need regular watering for several years. The money for that kind of upkeep just isn't there in most budgets."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[wrapping up, brisk] Okay. Next week we'll look at how heat islands are measured, using satellite images and sensors mounted on buses. Please read chapter seven before then."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of the Listening test. You now have two minutes to check your answers.",
+     "pause_after": 120
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "URBAN HEAT ISLANDS",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "Causes — The temperature difference between a city and the surrounding area is largest at ___",
+       "answer": "night",
+       "accepted": [],
+       "spoken": "night",
+       "evidence": "It's widest at night, because the city keeps releasing the heat",
+       "trap": "Listeners may expect the afternoon, which the lecturer explicitly rejects."
+      },
+      {
+       "n": 32,
+       "prompt": "Dark materials such as asphalt reflect little light: they have a low ___",
+       "answer": "albedo",
+       "accepted": [],
+       "spoken": "albedo",
+       "evidence": "Asphalt, on the other hand, has an extremely low albedo",
+       "trap": "The prompt paraphrases 'absorb most of the sunlight'; fresh snow is an example of the opposite."
+      },
+      {
+       "n": 33,
+       "prompt": "In the Ontario study, most waste heat came from ___",
+       "answer": "industry",
+       "accepted": [],
+       "spoken": "industry",
+       "evidence": "It was industry, largely because of a cluster of factories",
+       "trap": "Traffic is the usual main source and air conditioning is mentioned as third."
+      },
+      {
+       "n": 34,
+       "prompt": "Effects — Hot weather sharply increases the need for ___",
+       "answer": "electricity",
+       "accepted": [],
+       "spoken": "electricity",
+       "evidence": "When a city heats up, demand for electricity rises sharply",
+       "trap": "Natural gas is mentioned but its use hardly changes."
+      },
+      {
+       "n": 35,
+       "prompt": "Warm runoff has led to a fall in numbers of ___ in nearby streams",
+       "answer": "trout",
+       "accepted": [],
+       "spoken": "trout",
+       "evidence": "researchers recorded a sharp decline in trout in the streams below the city",
+       "trap": "Salmon is mentioned but had disappeared long before."
+      },
+      {
+       "n": 36,
+       "prompt": "Solutions — Cool roofs: usually a reflective ___ is added to a normal roof",
+       "answer": "coating",
+       "accepted": [],
+       "spoken": "coating",
+       "evidence": "ordinary roofs with a reflective coating applied on top",
+       "trap": "White roof tiles are what people imagine, not what is usually used."
+      },
+      {
+       "n": 37,
+       "prompt": "Street trees: the best species have broad ___",
+       "answer": "canopies",
+       "accepted": [],
+       "spoken": "canopies",
+       "evidence": "What really matters is having wide canopies",
+       "trap": "Height is mentioned first and rejected; the plural form is spoken."
+      },
+      {
+       "n": 38,
+       "prompt": "Ontario planting programme aimed at areas where residents' ___ was low",
+       "answer": "income",
+       "accepted": [],
+       "spoken": "income",
+       "evidence": "they focused on districts where people had a low income",
+       "trap": "The oldest neighbourhoods and the downtown core are suggested and rejected."
+      },
+      {
+       "n": 39,
+       "prompt": "Cool pavements: reflected light can cause ___, which people on foot dislike",
+       "answer": "glare",
+       "accepted": [],
+       "spoken": "glare",
+       "evidence": "the light reflected off them creates glare, which pedestrians find really uncomfortable",
+       "trap": "Heat is also mentioned as a possible problem, but the gap requires what reflected light creates."
+      },
+      {
+       "n": 40,
+       "prompt": "Officials see ___, not set-up costs, as the main barrier",
+       "answer": "maintenance",
+       "accepted": [
+        "upkeep"
+       ],
+       "spoken": "maintenance",
+       "evidence": "The bigger problem, they said, was maintenance.",
+       "trap": "Initial cost is the expected answer but officials say it wasn't the main problem; 'upkeep' is a synonym but the spoken word is maintenance."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "_format": {
+    "name": "irregular_verbs",
+    "group": "content",
+    "table": "irregular_verbs",
+    "primaryKey": "id",
+    "description": "Irregular verb forms.",
+    "currentSourceInApp": "resources.irregularVerbs.verbs",
+    "fields": {
+      "base": "string",
+      "past": "string",
+      "participle": "string",
+      "id": "string"
+    },
+    "required": [
+      "id",
+      "base",
+      "past",
+      "participle"
+    ],
+    "relations": [],
+    "notes": [
+      "Alternatives separated by \"/\" (learnt/learned) are accepted by the practice mode."
+    ],
+    "recordCountToday": 37
+  },
+  "items": [
+    {
+      "base": "arise",
+      "past": "arose",
+      "participle": "arisen",
+      "id": "iv_arise"
+    },
+    {
+      "base": "awake",
+      "past": "awoke",
+      "participle": "awoken",
+      "id": "iv_awake"
+    }
+  ]
+}

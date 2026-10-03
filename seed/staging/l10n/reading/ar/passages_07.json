@@ -1,0 +1,481 @@
+[
+ {
+  "id": "rb_summary_completion_09",
+  "lesson": {
+   "title": "الـ summary التقنية والـ options المجردة (Technical summaries with abstract options)",
+   "text": "في الـ summary التقنية، تكون الـ options في الـ word bank غالبًا أسماء مجردة (abstract nouns) مثل (accuracy, delay, distance, correction). اقرأ جملة الـ summary وحدد بدقة عن أي كمية أو فكرة تتحدث، ثم طابقها مع الـ passage. قد تبدو عدة options تقنية ومقبولة؛ لكن option واحدًا فقط يصف الجزء الصحيح من العملية."
+  },
+  "explanations": {
+   "1": "الـ option H (distance) يحسبه جهاز الاستقبال (receiver)، ولا يرسله القمر الصناعي (satellite).",
+   "2": "هذا تطابق مباشر (direct match). أما I (cheap) فيناسب الـ grammar لكنه لا يناسب المعنى.",
+   "3": "هذا تطابق مباشر (direct match).",
+   "4": "الساعة التي \"gains\" وقتًا تعمل بسرعة زائدة (fast)، لذلك يكون F (slow) هو الـ trap. صحيح أن أحد التأثيرات يجعل الساعات أبطأ، لكن التأثير الكلي هو الزيادة (gaining).",
+   "5": "عبارة \"Bounce off\" تعني نفس معنى \"reflected off\".",
+   "6": "الـ option G (kilometres) يشير إلى الخطأ الذي كانت ستسببه النسبية (relativity) لولا التصحيح، لذلك هو trap من نوع التفصيل القريب (nearby-detail trap)."
+  }
+ },
+ {
+  "id": "rb_summary_completion_10",
+  "lesson": {
+   "title": "جمل الـ summary التي تختصر paragraph كاملة (Summary sentences that compress a paragraph)",
+   "text": "قد تختصر جملة واحدة في الـ summary فقرة (paragraph) كاملة في سطر واحد. حدد الفكرة الرئيسية لتلك الـ paragraph، ثم ابحث عن الكلمة أو العبارة الدقيقة التي يحتاجها الفراغ (gap). قد تبدو عدة تفاصيل من الـ paragraph ممكنة؛ اختر التفصيل الذي يكمل الفكرة المحددة في الـ summary."
+  },
+  "explanations": {
+   "1": "كلمة \"Ethiopian\" موجودة أصلًا في الـ summary. وكلمة \"Kaldi\" وحدها لا تناسب الـ article \"an\".",
+   "2": "كلمة \"Night-time\" مكتوبة بـ hyphen، لذلك تُحسب كلمتين. وإضافة \"and devotions\" تتجاوز الـ word limit.",
+   "3": "الفراغ (gap) يحتاج إلى verb بعد \"tried to\".",
+   "4": "هذا تطابق مباشر (direct match).",
+   "5": "كلمة \"Particularly\" تعني نفس معنى \"especially\".",
+   "6": "كلمة \"Harvests\" سبب لتغيرات الأسعار، وليست التغيرات نفسها، ولهذا هي الـ trap."
+  }
+ },
+ {
+  "id": "rb_summary_completion_11",
+  "lesson": {
+   "title": "options تظهر في الـ passage لكن في سياق مختلف (Options that appear in the passage in a different context)",
+   "text": "في المستوى المتوسط (Medium)، يحتوي الـ word bank غالبًا على كلمة يستخدمها الـ passage فعلًا، لكن لفكرة مختلفة. مثلًا، قد يقول الـ passage إن رسوم البريد القديمة كانت تعتمد على المسافة (distance)، وإن الرسوم الجديدة كانت تعتمد على الوزن (weight). الكلمتان موجودتان، لكن واحدة فقط تناسب فراغًا معينًا. عندما يطابق option كلمة من الـ passage تمامًا، تأكد من الجملة التي جاءت منها تلك الكلمة.",
+   "example": "Passage: \"Tickets were once priced by age; now they are priced by time of day.\" Summary: \"The new system sets prices according to ______\" Options: A age B time. الإجابة الصحيحة: B. الـ option A كلمة حقيقية من الـ passage، لكنها تصف النظام القديم."
+  },
+  "explanations": {
+   "1": "عبارة \"The person who received\" تعني \"recipient\". أما A (sender) فيصف النظام الجديد بعد الإصلاح.",
+   "2": "بعد \"without\" يحتاج الفراغ إلى صيغة -ing. وكلمة \"Unopened\" تعني \"without opening\".",
+   "3": "حساب الرسوم وتحصيلها عمل إداري (administration). أما J (transport) فتستبعده الـ summary نفسها (\"rather than transport\").",
+   "4": "الـ option E (weight) هو trap السياق: فالرسوم الجديدة كانت تعتمد فعلًا على الوزن (\"below a certain weight\").",
+   "5": "الـ option I (remove) هو الـ trap. فالعلامات كان يمكن إزالتها، أي كانت سهلة الإزالة وليست صعبة.",
+   "6": "هذا تطابق مباشر (direct match)."
+  }
+ },
+ {
+  "id": "rb_summary_completion_12",
+  "lesson": {
+   "title": "الأرقام والوحدات والأفكار المخالفة للتوقع (Numbers, units and ideas that go against expectation)",
+   "text": "عندما يأتي الفراغ في الـ summary بعد \"for over\" أو \"for up to\"، تكون الإجابة عادةً رقمًا مع وحدته (\"three hours\"). لا تنسخ كلمات موجودة أصلًا في الـ summary. كما تختبر الـ summary كثيرًا أفكارًا مخالفة للتوقع. فإذا قال الـ passage إن الغواصين يُخرجون الهواء من رئاتهم قبل الغوص، فإن الفراغ بعد \"Rather than filling their lungs, many divers ...\" يحتاج إلى ذلك الفعل المفاجئ.",
+   "example": "Passage: \"Surprisingly, the plant grows faster in shade than in full sun.\" Summary: \"Unlike most plants, it grows best in ______\" الإجابة الصحيحة: shade (وليس \"full sun\")."
+  },
+  "explanations": {
+   "1": "كلمة \"Over\" تعني \"more than\"، وهي موجودة أصلًا في الـ summary. وعبارة \"A thousand metres\" عمق وليست وقتًا.",
+   "2": "هذا هو الفعل المخالف للتوقع. والفراغ يحتاج إلى verb بعد \"many divers\".",
+   "3": "هذه كلمتان. وكلمة \"Bends\" وحدها مقبولة أيضًا.",
+   "4": "الهيموغلوبين (Haemoglobin) ينقل الأكسجين في الدم، لذلك هو trap من النوع نفسه (same-type trap).",
+   "5": "عبارة \"Brain and\" موجودة أصلًا في الـ summary.",
+   "6": "كلمة \"Clear\" تعني \"removed\"."
+  }
+ },
+ {
+  "id": "rb_summary_completion_13",
+  "lesson": {
+   "title": "كلمات متقاربة المعنى تختلف في القوة (Near-synonyms that differ in strength)",
+   "text": "يحتوي الـ word bank في المستوى المتوسط غالبًا على أزواج متقاربة في المعنى لكنها تختلف في الدرجة أو الاتجاه: reduce / eliminate، gentle / sudden، late / early. قد يناسب كلا الـ options الـ grammar والموضوع. والصياغة الدقيقة في الـ passage هي التي تحدد الإجابة الصحيحة. مثلًا، كلمة \"dampen\" تعني reduce (يقلل)، وليس eliminate (يزيل تمامًا).",
+   "example": "Passage: \"The new drug eased the symptoms in most patients.\" Options: A relieved B cured. الإجابة الصحيحة: A. كلمة \"Eased\" أضعف من \"cured\"."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match).",
+   "2": "الـ option C (sudden) عكسه تقريبًا، والسائق الأول يضغط على الفرامل \"slightly\" فقط.",
+   "3": "الـ option E (early) هو العكس.",
+   "4": "صيغة الجمع (plural) تناسب الـ grammar بعد \"without any\".",
+   "5": "الـ option G (steady) هو العكس.",
+   "6": "كلمة \"Dampen\" تعني \"reduce\". أما I (eliminate) فهو أقوى من اللازم، كما أن الباحثين يضيفون تحفظًا بشأن الطرق السريعة الحقيقية."
+  }
+ },
+ {
+  "id": "rb_summary_completion_14",
+  "lesson": {
+   "title": "تحديد المكان الذي تبدأ منه الـ summary (Finding where the summary starts)",
+   "text": "نادرًا ما تغطي الـ summary الـ passage كله. هنا تبدأ الـ summary بقصة الاختراع، لذلك فالإجابة الأولى ليست في Paragraph A. قد تبدو كلمات في paragraph سابقة صحيحة، لكنها تنتمي إلى جزء آخر من القصة. اقرأ الجملة الأولى في الـ summary، وحدد الـ paragraph المطابقة لها، وابدأ البحث من هناك.",
+   "example": "إذا بدأت الـ summary بعبارة \"After moving to Paris, she ...\"، فتجاوز الـ paragraphs التي تتحدث عن طفولتها وابدأ من حيث تُذكر باريس (Paris) لأول مرة."
+  },
+  "explanations": {
+   "1": "كلمة \"Undignified\" في Paragraph A هي الـ trap. فهي تصف النظرة العامة إلى الطريقة الأقدم، وهذا يأتي قبل الجزء الذي تغطيه هذه الـ summary.",
+   "2": "عبارة \"Piece of\" موجودة أصلًا في الـ summary.",
+   "3": "عبارة \"Taken apart\" تعني \"separated\".",
+   "4": "هذا تطابق مباشر (direct match).",
+   "5": "هذا تطابق مباشر (direct match).",
+   "6": "كلمة \"Rubber\" موجودة أصلًا في الـ summary."
+  }
+ },
+ {
+  "id": "rb_summary_completion_15",
+  "lesson": {
+   "title": "الـ word bank الصعب والنتائج المعدَّلة (Hard word banks and revised findings)",
+   "text": "في المستوى الصعب (Hard)، تكون الـ options في الـ word bank أسماء وصفات مجردة، وغالبًا ما تختصر الـ summary قصة من 3 مراحل: الادعاء الأصلي، ثم البحث الذي أثاره، ثم مراجعة لاحقة. الـ options التي تناسب الادعاء الأصلي تصبح traps عندما يصف الفراغ المراجعة. لكل فراغ، حدد أولًا المرحلة التي تصفها الجملة، ثم اختر.",
+   "example": "Passage: \"The bridge was once thought unsafe; tests later showed it was sound.\" Summary: \"Later tests showed that the bridge was ______\" Options: A dangerous B safe. الإجابة الصحيحة: B. الـ option A يطابق الاعتقاد القديم، وليس النتيجة اللاحقة."
+  },
+  "explanations": {
+   "1": "الـ option C (cruelty) هو trap: فقد قيل إن الشهود كانوا غير مبالين (uncaring)، وليس قساة (cruel).",
+   "2": "كلمة \"Diffusion\" تعني \"spreading\". أما J (acceptance) فلا يناسب المعنى.",
+   "3": "هذا الفراغ ينتمي إلى مرحلة المراجعة في القصة.",
+   "4": "الـ option I (stronger) هو العكس.",
+   "5": "تسعة من كل عشرة تجعل التدخل (intervention) هو الحالة المعتادة، أي القاعدة (the norm).",
+   "6": "الـ option F (smaller) يطابق الفكرة الأصلية من المختبر، وليس النتيجة في العالم الحقيقي."
+  }
+ },
+ {
+  "id": "rb_summary_completion_16",
+  "lesson": {
+   "title": "الـ summary التي تقارن بين حالتين (Summaries that contrast two states)",
+   "text": "عندما يصف الـ passage شيئًا واحدًا في حالتين (منفرد ومتجمع في أسراب، قبل وبعد)، فإنه يعطي تفاصيل متوازية لكل حالة، وكل تفصيل منها قد يكون إجابة محتملة. قبل أن تكتب، تأكد من الحالة التي تشير إليها جملة الـ summary. فالتفصيل الذي يخص الحالة الأخرى سيكون من نوع الكلمة نفسه وسيبدو صحيحًا.",
+   "example": "Passage: \"In winter the fox's coat is white; in summer it is brown.\" Summary: \"During the warmer months, its coat turns ______\" الإجابة الصحيحة: brown. كلمة \"White\" من نوع الكلمة نفسه، لكنها تصف الحالة الأخرى."
+  },
+  "explanations": {
+   "1": "عبارة \"By day\" تصف الجراد المتجمع (gregarious locusts)، أي الحالة الأخرى، كما أنها تظهر أصلًا لاحقًا في جملة الـ summary نفسها.",
+   "2": "عام 2009 هو تاريخ اكتشاف السيروتونين (serotonin)، وعام 2019 هو تاريخ تفشٍّ للجراد. كلاهما trap من نوع الرقم القريب (nearby-number trap).",
+   "3": "كلمة \"Stroking\" تعني \"touching\"، وعبارة \"was enough\" تطابق الـ summary.",
+   "4": "كلمة \"Rise\" تعني \"increases levels\".",
+   "5": "عبارة \"Colour and\" موجودة أصلًا في الـ summary.",
+   "6": "هذا تطابق مباشر (direct match). كلمة \"Insecticides\" من نوع الكلمة نفسه، لكنها تتعلق بمكافحة الإنسان للجراد، وليس بغذاء الجراد."
+  }
+ },
+ {
+  "id": "rb_summary_completion_17",
+  "lesson": {
+   "title": "options تناسب أكثر من فراغ (Options that fit several gaps)",
+   "text": "في الـ word bank الصعب، يتم اختيار الـ distractors بحيث يناسب كثير من الـ options الـ grammar في أكثر من فراغ. مثلًا، weaker / stronger وidentical / different وinvention / evolution كلها ممكنة من حيث الـ grammar في أكثر من مكان. لذلك لن يساعدك الـ grammar كثيرًا في تضييق الاختيار. عليك أن تحسم كل فراغ بالمعنى، ومن المفيد أن تكتب توقعك الخاص قبل أن تنظر إلى الـ options.",
+   "example": "Summary: \"After training, the athletes' reaction times became ______\" Options: A shorter B longer C faster. الـ option A وC كلاهما يناسب الـ grammar؛ لكن عبارة الـ passage \"reaction times fell\" هي التي تحسم الإجابة: A."
+  },
+  "explanations": {
+   "1": "الـ option G (evolution) يناسب الـ grammar لكنه يعكس الفكرة: فالقراءة لم تتطور تطورًا طبيعيًا (did not evolve).",
+   "2": "كلمة \"Discrimination\" هنا تعني \"distinguishing\" (التمييز بين الأشكال).",
+   "3": "كلمة \"Skill\" تعني \"ability\".",
+   "4": "كلمة \"Declined\" تعني أصبح أضعف. أما E (stronger) فيصف الاستجابة للكلمات، وليس للوجوه.",
+   "5": "عبارة \"The same\" تعني \"identical\". أما I (different) فهو العكس.",
+   "6": "الـ option J (age) غير مذكور كعامل مؤثر."
+  }
+ },
+ {
+  "id": "rb_summary_completion_18",
+  "lesson": {
+   "title": "استخراج الإجابة من الـ noun phrases الطويلة (Extracting answers from long noun phrases)",
+   "text": "تجمع الـ passages الصعبة معلومات كثيرة داخل noun phrases طويلة، مثل \"a type of teosinte from the valley of the Balsas River in south-western Mexico\". وفراغ الـ summary يحتاج عادةً إلى جزء واحد فقط من هذه العبارة، والـ summary نفسها كثيرًا ما تقدم الباقي (\"teosinte from the valley of the ______\"). اقرأ الكلمات على جانبي الفراغ، ثم خذ الكلمات الناقصة فقط.",
+   "example": "Passage: \"a small wooden box with a brass lock\". Summary: \"the letters were kept in a small wooden ______\" الإجابة الصحيحة: box (وليس \"wooden box\")."
+  },
+  "explanations": {
+   "1": "كلمة \"Only\" موجودة أصلًا في الـ summary. وكلمة \"Hundreds\" تصف الذرة (maize)، وليس الـ teosinte.",
+   "2": "الفراغ يحتاج إلى verb بعد \"could\"، وكلمة \"easily\" موجودة أصلًا في الـ summary.",
+   "3": "عبارة \"The valley of the\" موجودة أصلًا في الـ summary. وعبارة \"Balsas River in south-western Mexico\" تتجاوز الـ word limit.",
+   "4": "هذا تطابق مباشر (direct match).",
+   "5": "هذه 3 كلمات. وعبارة \"With a few large ears\" موجودة أصلًا في الـ summary.",
+   "6": "الإجابة \"Oaxaca, Mexico\" مقبولة أيضًا. أما \"The Andes\" فهي المكان الذي انتشرت إليه الذرة لاحقًا، لذلك هي trap من النوع نفسه (same-type trap)."
+  }
+ },
+ {
+  "id": "rb_summary_completion_19",
+  "lesson": {
+   "title": "الـ summary التي تصحح اعتقادًا سابقًا (Summaries that correct an earlier belief)",
+   "text": "عندما يستبدل الـ passage تفسيرًا قديمًا بتفسير جديد، يحتوي الـ word bank غالبًا على كلمات للتفسيرين. قد يسأل الفراغ عما \"had usually been interpreted as\" (الرأي القديم) أو عما \"suggested\" دراسة جديدة (الرأي الجديد). انظر إلى الـ tense وكلمات النقل (reporting words) حول كل فراغ لتحدد أي رأي يصفه.",
+   "example": "Passage: \"The marks were thought to be damage; they are now known to be decoration.\" Summary: \"The marks had long been regarded as ______\" Options: A damage B decoration. الإجابة الصحيحة: A."
+  },
+  "explanations": {
+   "1": "الـ option J (sand) يناسب الـ grammar لكنه غير مذكور.",
+   "2": "الـ option D (weaker) يصف ما يفعله ماء البحر بالخرسانة الحديثة، وهذا هو الـ trap هنا.",
+   "3": "عبارة \"Had usually been interpreted\" تشير إلى الرأي القديم. أما I (careful) فهو العكس.",
+   "4": "هذا هو الرأي الجديد الذي نقلته دراسة 2023. أما H (cold) فهو العكس.",
+   "5": "الـ option G (widens) هو التأثير المعاكس.",
+   "6": "عبارة \"When first set\" تعني \"initially\". أما C (stronger) فقد استُخدم بالفعل للتأثير طويل المدى في الفراغ 2."
+  }
+ },
+ {
+  "id": "rb_summary_completion_20",
+  "lesson": {
+   "title": "مراجعة نهائية — طريقة Summary Completion كاملة (Final review — the complete Summary Completion method)",
+   "text": "تجمع هذه المجموعة الأخيرة المهارات الرئيسية: تحديد الجزء الذي تغطيه الـ summary، وتوقع نوع الكلمة، والتعرف على الـ paraphrase (إعادة الصياغة)، ورفض التواريخ القريبة من النوع نفسه، واستخراج أقل عدد من الكلمات ضمن الـ word limit. لكل فراغ: (1) حدد الجملة المطابقة؛ (2) توقع ما هو ناقص؛ (3) انسخ الكلمات كما هي تمامًا؛ (4) تحقق من الـ word limit والإملاء والـ grammar في الجملة بعد إكمالها."
+  },
+  "explanations": {
+   "1": "عبارة \"Large quantities of\" تعني \"a large amount of\"، وهي موجودة أصلًا في الـ summary.",
+   "2": "كلمة \"Abandoned\" تعني \"left\". أما September 1846 (العلق في الجليد) وJune 1847 (وفاة Franklin) فهما trap من نوع التاريخ القريب (nearby-date traps). والإجابة \"1848\" وحدها مقبولة أيضًا.",
+   "3": "كلمة \"The\" موجودة أصلًا في الـ summary.",
+   "4": "عبارة \"Used to seal\" تعني \"sealing\". وعبارة \"at the time\" في الـ summary تشير إلى أن هذا هو التفسير الأقدم الذي شُكك فيه لاحقًا.",
+   "5": "عبارة \"Not markedly greater\" تعني \"similar\".",
+   "6": "كلمة \"Inuit\" موجودة أصلًا في الـ summary. وكلمة \"Knowledge\" (Paragraph F) من نوع الكلمة نفسه، لكن \"oral history\" هو ما حدد مكان حطام السفن."
+  }
+ },
+ {
+  "id": "rb_note_completion_01",
+  "lesson": {
+   "title": "طابق كل heading مع paragraph (Match each heading to a paragraph)",
+   "text": "في المجموعة السهلة، تأتي كل مجموعة من الـ notes عادةً من paragraph واحدة. قبل أن تبحث عن أي إجابة، اقرأ الـ headings واكتب بجانب كل واحد منها حرف الـ paragraph المطابقة (\"Origins\" → A، \"A luxury item\" → B). ثم ابحث في تلك الـ paragraph فقط عن الفراغات الموجودة تحت ذلك الـ heading.",
+   "example": "Heading: \"Growing pineapples in Europe\". ابحث عن الـ paragraph التي تصف البيوت الزجاجية (greenhouses) والبستانيين (gardeners)، وليس عن الـ paragraph التي تتحدث عن السفن أو الأسعار."
+  },
+  "explanations": {
+   "1": "عبارة \"Brazil and\" موجودة أصلًا في الـ notes.",
+   "2": "عبارة \"Struck by\" تعني \"impressed by\".",
+   "3": "الفراغ يحتاج إلى verb في الماضي (past tense) بعد \"most fruits\".",
+   "4": "عبارة \"Buildings, gateposts and\" موجودة أصلًا في الـ notes.",
+   "5": "عبارة \"Known as\" تعني \"called\".",
+   "6": "كلمة \"Bark\" وحدها مقبولة أيضًا.",
+   "7": "عبارة \"Up to\" موجودة أصلًا في الـ notes. وأواخر القرن السابع عشر تاريخ، وليس مدة زمنية.",
+   "8": "كلمة \"Faster\" موجودة أصلًا في الـ notes. أما \"Canning\" فهو تغيير آخر في القرن التاسع عشر: يتعلق بحفظ الطعام، وليس بالنقل."
+  }
+ },
+ {
+  "id": "rb_note_completion_02",
+  "lesson": {
+   "title": "الـ notes تحذف الكلمات الصغيرة (Notes leave out small words)",
+   "text": "تحذف الـ notes الـ articles (a, the) وكلمات الربط وكثيرًا من الـ verbs، لذلك غالبًا لا يحيط بالفراغ إلا كلمتان أو 3 كلمات. لا تبحث في الـ passage عن عبارة الـ note نفسها حرفيًا. ابحث عن الفكرة، ثم خذ الـ keyword. مثلًا، الـ note \"depend on (2) ______\" تطابق جملة الـ passage \"Instead, they rely on their fur.\"",
+   "example": "Note: \"diet: mainly (1) ______\" Passage: \"Its diet consists largely of seeds.\" الإجابة الصحيحة: seeds."
+  },
+  "explanations": {
+   "1": "كلمتا \"Heaviest\" و\"family\" موجودتان أصلًا في الـ notes.",
+   "2": "عبارة \"Rely on\" تعني \"depend on\".",
+   "3": "هذا تطابق مباشر (direct match). وكلمة \"Fat\" هي الـ trap: فهذا ما تستخدمه الثدييات البحرية الأخرى.",
+   "4": "الفراغ يحتاج إلى صيغة -ing بعد \"spent\".",
+   "5": "كلمة \"Spills\" موجودة أصلًا في الـ notes. وعبارة \"Serious threat\" تعني \"major danger\".",
+   "6": "كلمة \"A\" موجودة أصلًا في الـ notes.",
+   "7": "كلمة \"Flat\" موجودة أصلًا في الـ notes.",
+   "8": "هذا تطابق مباشر (direct match)."
+  }
+ },
+ {
+  "id": "rb_note_completion_03",
+  "lesson": {
+   "title": "التواريخ في الخط الزمني (Dates in a timeline)",
+   "text": "كثيرًا ما تُنظَّم notes التاريخ على شكل خط زمني (timeline)، مع تاريخ في بداية كل نقطة. وقد يذكر الـ passage تاريخين للاختراع نفسه: تاريخ تصميمه وتاريخ تسجيل براءة اختراعه (patent). قبل أن تكتب تاريخًا، اقرأ الـ note بعناية لتعرف إلى أي حدث يشير.",
+   "example": "Passage: \"He built the engine in 1885 and patented it in 1886.\" Note: \"patent granted: (1) ______\" الإجابة الصحيحة: 1886."
+  },
+  "explanations": {
+   "1": "عبارة \"Best known for\" تعني \"linked with\".",
+   "2": "عبارة \"Designed mainly to\" تعني \"intended mainly for\".",
+   "3": "عبارتا \"Tended to\" و\"unexpectedly\" موجودتان أصلًا في الـ notes.",
+   "4": "عبارة \"Small metal\" موجودة أصلًا في الـ notes.",
+   "5": "عبارة \"In large quantities\" تعني \"large-scale production\".",
+   "6": "عام 1913 هو تاريخ تصميمه للمشبك (fastener)، وليس تاريخ تسجيل براءة الاختراع. هذا هو trap الخط الزمني.",
+   "7": "هذا تطابق مباشر (direct match). وعام 1923 هو تاريخ ظهور الاسم، وليس أصله.",
+   "8": "عبارة \"Children's clothing\" تعني \"clothing for children\"."
+  }
+ },
+ {
+  "id": "rb_note_completion_04",
+  "lesson": {
+   "title": "ما الذي يُحسب كلمة واحدة (What counts as one word)",
+   "text": "مع التعليمات ONE WORD AND/OR A NUMBER، يُحسب الحرف الواحد (مثل C في \"vitamin C\") كلمة واحدة، ويُحسب الرقم رقمًا وليس كلمة. والوحدات المطبوعة أصلًا في الـ notes لا تُنسخ مرة أخرى. إذا كانت الـ note تقول \"over 100,000 (3) ______\"، فالناقص هو الوحدة فقط.",
+   "example": "Passage: \"It is rich in vitamin A.\" Note: \"rich in vitamin (1) ______\" الإجابة الصحيحة: A."
+  },
+  "explanations": {
+   "1": "كلمة \"Six\" هي العدد الموجود في Madagascar فقط، وليس العدد الكلي.",
+   "2": "عبارة \"Soft, spongy\" موجودة أصلًا في الـ notes.",
+   "3": "الرقم موجود أصلًا في الـ notes؛ والناقص هو الوحدة فقط.",
+   "4": "كلمة \"Swells\" تصف موسم الأمطار، أي العكس.",
+   "5": "عبارة \"Clear annual\" موجودة أصلًا في الـ notes.",
+   "6": "الحرف الواحد يُحسب كلمة واحدة.",
+   "7": "كلمة \"Oil\" تُصنع من البذور، وليس من اللحاء (bark).",
+   "8": "كلمة \"Fruit\" موجودة أصلًا في الـ notes."
+  }
+ },
+ {
+  "id": "rb_note_completion_05",
+  "lesson": {
+   "title": "الرموز في الـ notes (Symbols in notes)",
+   "text": "كثيرًا ما تستخدم الـ notes رموزًا بدل الكلمات. وأكثرها شيوعًا: → (يؤدي إلى / ينتج عنه)، = (يعني / هو)، ≈ (تقريبًا)، + (و)، ↑ و↓ (زيادة ونقصان)، وe.g. (مثلًا). حوّل كل رمز إلى كلمات قبل أن تبحث في الـ passage. مثلًا، \"logging = resting still at the (6) ______\" تعني \"logging is resting still at the ______\".",
+   "example": "Note: \"total ≈ (1) ______ per day\". Passage: \"about six hours a day\". الإجابة الصحيحة: six hours."
+  },
+  "explanations": {
+   "1": "كلمة \"Open\" وعبارة \"at the surface\" موجودتان أصلًا في الـ notes.",
+   "2": "هذا تطابق مباشر (direct match).",
+   "3": "الرمز \"+\" يعني \"and\". وكلمة \"Sharks\" (Paragraph C) مثال على حيوان مفترس (predator)، وليست ما يراقبه الدماغ في هذه الجملة.",
+   "4": "الرمز \"=\" يعني \"is\".",
+   "5": "الرمز \"≈\" يعني \"around\".",
+   "6": "عبارة \"Sea floor\" تصف وضعية راحة مختلفة.",
+   "7": "الرمز \"→\" يعني \"results in\"، وعبارة \"may help protect\" تطابقه.",
+   "8": "الفراغ يحتاج إلى صيغة -ing بعد \"while\"."
+  }
+ },
+ {
+  "id": "rb_note_completion_06",
+  "lesson": {
+   "title": "ONE WORD ONLY والأسماء (ONE WORD ONLY and names)",
+   "text": "مع التعليمات ONE WORD ONLY، تكون كثير من الإجابات أسماء (لأماكن أو منظمات أو عمليات) أو مصطلحات تقنية. إذا كان الاسم من عدة كلمات، فإن الـ notes تطبع عادةً كل كلماته إلا واحدة (\"the International Ice (5) ______\"). انسخ الكلمة الناقصة كما هي تمامًا، بما في ذلك الحرف الكبير (capital letter).",
+   "example": "Passage: \"The Royal Geographical Society funded the trip.\" Note: \"funded by the Royal Geographical (1) ______\" الإجابة الصحيحة: Society."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match).",
+   "2": "كلمة \"Antarctica\" هي مصدر أكبر الجبال الجليدية، وليس جبال شمال الأطلسي.",
+   "3": "كلمة \"Beneath\" تعني \"below\".",
+   "4": "عبارة \"Bergy bits\" تصف قطعًا أكبر قليلًا، كما أنها كلمتان.",
+   "5": "الكلمة الأخيرة فقط من الاسم هي الناقصة.",
+   "6": "عبارة \"Aircraft, satellites and\" موجودة أصلًا في الـ notes.",
+   "7": "عبارة \"Such as\" تعني \"e.g.\". وكلمة \"Phytoplankton\" نباتات، وليست معادن (minerals).",
+   "8": "مشكلة الذوبان موجودة أصلًا في الـ notes."
+  }
+ },
+ {
+  "id": "rb_note_completion_07",
+  "lesson": {
+   "title": "notes مرتبة حسب الموضوع لا حسب الـ paragraph (Notes grouped by topic, not by paragraph)",
+   "text": "في المستوى المتوسط (Medium)، كثيرًا ما تُرتَّب الـ notes حسب الموضوع (\"Key innovations\"، \"Problems\") بدل أن تتبع الـ passage فقرة بعد فقرة. لذلك قد يجمع heading واحد تفاصيل من أجزاء مختلفة من الـ passage، وقد يأتي الفراغ الأخير من paragraph أسبق من الـ paragraph التي جاء منها الفراغ الذي قبله. استخدم الـ heading لتحدد نوع المعلومة التي تحتاجها، ثم ابحث عنها أينما ظهرت.",
+   "example": "Heading: \"Problems\". يذكر الـ passage مشكلة في Paragraph B ومشكلة أخرى في Paragraph E. وكلتاهما تنتمي إلى الـ heading نفسه، مع أن معلومات أخرى تأتي بينهما."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match).",
+   "2": "كلمة \"Cargo\" مستخدمة في الاثنين. وعبارة \"The Caribbean\" هي المنطقة العامة، وليست وجهة الشحنة الأولى.",
+   "3": "عبارة \"Create demand\" تعني \"built demand\".",
+   "4": "هذا تطابق مباشر (direct match).",
+   "5": "كلمة \"Uniform\" تعني \"of equal size\".",
+   "6": "هذه هي مهارة التجميع حسب الموضوع: فالـ heading \"Problems\" يجمع هذا التفصيل من Paragraph E.",
+   "7": "الفراغ يحتاج إلى adjective بعد \"had become\".",
+   "8": "تأتي هذه الإجابة من Paragraph D، قبل تفاصيل \"Problems\" في Paragraph E، لأن الـ notes مرتبة حسب الموضوع. والإجابة \"The 1830s\" مقبولة أيضًا."
+  }
+ },
+ {
+  "id": "rb_note_completion_08",
+  "lesson": {
+   "title": "الدليل والقيود في الـ notes (Evidence and limitations in notes)",
+   "text": "كثيرًا ما تفصل notes البحث بين النتيجة (finding) وحدودها (limitation)، أحيانًا بنقطة فرعية مكتوب عليها \"limitation\" أو \"but\". الفراغ الموجود تحت الـ limitation يحتاج إلى الكلمات التي تعبّر عن الشك أو الضعف، وليس إلى النتيجة نفسها. اقرأ النقطة كاملة، بما فيها أي نقاط فرعية، قبل أن تختار.",
+   "example": "Passage: \"The drug reduced pain, but the trial was small.\" Notes: \"• result: less pain – limitation: (1) ______ trial\". الإجابة الصحيحة: small."
+  },
+  "explanations": {
+   "1": "عبارة \"Five hundred million\" رقم، لذلك تناسب الـ word limit. والرقم نفسه يظهر للخلايا العصبية (neurons) في Paragraph B، لذلك تحقق من السياق: هنا الرقم يعبّر عن سنوات.",
+   "2": "الكلمة المكتوبة بـ hyphen تُحسب كلمة واحدة. وعبارة \"Five hundred million\" هي العدد الكلي للخلايا العصبية، وليست النسبة الموجودة في الأذرع.",
+   "3": "عبارة \"Of jars\" موجودة أصلًا في الـ notes.",
+   "4": "عبارة \"Learning by\" موجودة أصلًا في الـ notes.",
+   "5": "النقطة الفرعية تطلب الـ limitation، وليس النتيجة الأصلية.",
+   "6": "عبارة \"Water current\" تعني \"current of water\".",
+   "7": "عبارة \"Assembles into\" تعني \"build\".",
+   "8": "كلمة \"Despite\" في الـ notes تقابل كلمة \"Surprisingly\". والكلمة المكتوبة بـ hyphen تُحسب كلمة واحدة.",
+   "9": "كلمة \"Largely\" تعني \"mostly\"."
+  }
+ },
+ {
+  "id": "rb_note_completion_09",
+  "lesson": {
+   "title": "الهدف مقابل النتيجة (Aim versus result)",
+   "text": "كثيرًا ما تصف قصص الاكتشافات ما كان شخص يحاول فعله وما حدث فعلًا. والـ notes تفصل بينهما بعناوين مثل \"aim\" و\"result\". ومن السهل الخلط بينهما لأنهما يظهران متقاربين في الـ passage. قبل أن تكتب، تأكد من العنوان المطبوع قبل الفراغ.",
+   "example": "Passage: \"He set out to find a new route to India but reached the Caribbean.\" Notes: \"aim: route to (1) ______\" الإجابة الصحيحة: India."
+  },
+  "explanations": {
+   "1": "عبارة \"Plants, insects and\" موجودة أصلًا في الـ notes.",
+   "2": "كلمة \"Sea\" موجودة أصلًا في الـ notes.",
+   "3": "هذا هو الهدف (aim). أما النتيجة، وهي صبغة بنفسجية (purple dye)، فهي في نقطة منفصلة.",
+   "4": "كلمة \"Coal\" موجودة أصلًا في الـ notes.",
+   "5": "هذه هي النتيجة (result). وكلمة \"Silk\" هي ما جرّب عليه الصبغة، وليست ما أنتج المحلول.",
+   "6": "كلمة \"Queen\" موجودة أصلًا في الـ notes.",
+   "7": "طوّرت بريطانيا وفرنسا أيضًا أصباغًا، لكنهما لم تسيطرا على هذه الصناعة.",
+   "8": "عبارة \"And bacteria\" موجودة أصلًا في الـ notes."
+  }
+ },
+ {
+  "id": "rb_note_completion_10",
+  "lesson": {
+   "title": "الأعداد الكبيرة والكسور (Large numbers and fractions)",
+   "text": "عندما تحتاج الـ note إلى كمية كبيرة (\"about (1) ______ tonnes\") أو كسر (\"≈ (2) ______ sand and gravel\")، قد يكتبها الـ passage بالكلمات (\"fifty billion\"، \"three-quarters\"). يمكنك نسخها بالكلمات أو بالأرقام، لكن لا تكرر الوحدة المطبوعة أصلًا في الـ note. وتحقق أيضًا مما يقيسه الرقم: الكمية المستخرجة، أو نسبة من خليط، أو سنة.",
+   "example": "Passage: \"Around two-thirds of the land is forest.\" Note: \"forest ≈ (1) ______ of land\". الإجابة الصحيحة: two-thirds."
+  },
+  "explanations": {
+   "1": "كلمة \"Tonnes\" موجودة أصلًا في الـ notes.",
+   "2": "الرمز \"≈\" يعني \"roughly\". والكلمة المكتوبة بـ hyphen تُحسب كلمة واحدة.",
+   "3": "عبارة \"Rounded and\" موجودة أصلًا في الـ notes.",
+   "4": "هذا تطابق مباشر (direct match).",
+   "5": "كلمة \"Lower\" موجودة أصلًا في الـ notes.",
+   "6": "عبارة \"Lost to the\" موجودة أصلًا في الـ notes.",
+   "7": "الـ \"Recycled concrete\" بديل أيضًا، لكنه يحل محل المادة الجديدة بدل أن يتحول إلى رمل، والطاقة مذكورة فقط مع الصخور المسحوقة (crushed rock).",
+   "8": "كلمة \"A\" موجودة أصلًا في الـ notes."
+  }
+ },
+ {
+  "id": "rb_note_completion_11",
+  "lesson": {
+   "title": "الأسهم التي توضح السبب والنتيجة (Arrows that show cause and effect)",
+   "text": "السهم (→) في الـ notes يربط السبب بنتيجته، أو الفعل بما ينتج عنه. إذا جاء الفراغ قبل السهم، فأنت تحتاج إلى السبب؛ وإذا جاء بعده، فأنت تحتاج إلى النتيجة. اقرأ جملة الـ passage التي تربط بين الاثنين، وحدد أي طرف من العلاقة يسأل عنه الفراغ.",
+   "example": "Passage: \"Heavy rain caused the river to overflow.\" Note: \"(1) ______ → river overflowed\". الإجابة الصحيحة: heavy rain (السبب)."
+  },
+  "explanations": {
+   "1": "الفراغ يأتي بعد السهم، لذلك فهو النتيجة.",
+   "2": "الفراغ يأتي قبل السهم، لذلك فهو جزء من السبب. وكلمة \"High\" موجودة أصلًا في الـ notes.",
+   "3": "عبارة \"More than 1,800\" هي عدد الوفيات، ولهذا هي trap من نوع الرقم القريب (nearby-number trap).",
+   "4": "الفراغ يأتي بعد السهم: إغلاق مصبات الأنهار (estuaries) يؤدي إلى خط ساحلي أقصر.",
+   "5": "عبارة \"Turned ... into\" تعني \"turn into\".",
+   "6": "عبارة \"Environmental groups, fishermen and\" موجودة أصلًا في الـ notes.",
+   "7": "عبارة \"Close only during\" موجودة أصلًا في الـ notes.",
+   "8": "الفراغ يحتاج إلى verb بعد \"allowed to\"."
+  }
+ },
+ {
+  "id": "rb_note_completion_12",
+  "lesson": {
+   "title": "المصطلحات التقنية في الـ notes (Technical terms in notes)",
+   "text": "تستخدم notes العلوم المصطلحات التقنية الموجودة في الـ passage، لكنها قد تعرضها بطريقة مختلفة: كعنوان تتبعه نقطتان (\"master clock: in the (2) ______\")، أو كتعريف (\"made by the (5) ______ gland\"). عندما يعرّف الـ passage مصطلحًا (\"the hypothalamus, a region at the base of the brain\")، تكون الإجابة عادةً هي المصطلح نفسه، وليس الشرح.",
+   "example": "Passage: \"Chlorophyll, the green pigment in leaves, absorbs light.\" Note: \"light absorbed by (1) ______\" الإجابة الصحيحة: chlorophyll."
+  },
+  "explanations": {
+   "1": "عبارة \"Temperature, hormones and\" موجودة أصلًا في الـ notes.",
+   "2": "اكتب المصطلح، وليس تعريفه (\"a region at the base of the brain\").",
+   "3": "كلمة \"Slightly\" موجودة أصلًا في الـ notes.",
+   "4": "هذا تطابق مباشر (direct match).",
+   "5": "كلمة \"Gland\" موجودة أصلًا في الـ notes.",
+   "6": "الاختصار \"E.g.\" يعني \"for example\"؛ والشاشات (screens) هي المثال على مصدر الضوء.",
+   "7": "كلمة \"Westwards\" هي الاتجاه الأسهل، أي العكس.",
+   "8": "كلمة \"Workers\" موجودة أصلًا في الـ notes."
+  }
+ },
+ {
+  "id": "rb_note_completion_13",
+  "lesson": {
+   "title": "اختيار التفصيل الصحيح من قائمة (Choosing the right detail from a list)",
+   "text": "كثيرًا ما يذكر الـ passage عدة تفاصيل في جملة واحدة (\"writing, weights, measures and money\"؛ \"swords, spears and crossbows\"). والـ notes تطبع عادةً معظم القائمة وتترك عنصرًا واحدًا فراغًا. قارن الـ notes بقائمة الـ passage عنصرًا عنصرًا، واكتب العنصر الناقص فقط.",
+   "example": "Passage: \"The shop sold bread, cakes and pies.\" Notes: \"products: bread, (1) ______, pies\". الإجابة الصحيحة: cakes."
+  },
+  "explanations": {
+   "1": "هذا تطابق مباشر (direct match).",
+   "2": "246 BC و221 BC سنوات، وليست أعمارًا.",
+   "3": "باقي عناصر القائمة موجودة أصلًا في الـ notes.",
+   "4": "كلمة \"Soldiers\" موجودة أصلًا في الـ notes.",
+   "5": "عبارة \"Individually by hand\" من 3 كلمات وتتجاوز الـ word limit، لذلك اكتب \"by hand\" فقط.",
+   "6": "كلمة \"Within\" موجودة أصلًا في الـ notes.",
+   "7": "كلمة \"Chromium\" هي التفسير الأقدم الذي رفضه البحث الأحدث.",
+   "8": "هذا تطابق مباشر (direct match)."
+  }
+ },
+ {
+  "id": "rb_note_completion_14",
+  "lesson": {
+   "title": "الـ notes التي تقسم العملية إلى خطوات (Notes that break a process into steps)",
+   "text": "عندما يشرح الـ passage عملية ما (كيف ينتشر شيء، أو كيف تعمل طريقة)، قد تحوّل الـ notes كل خطوة إلى سطر قصير. وكثيرًا ما يشرح الـ passage الخطوات بترتيب مختلف عن ترتيب الـ notes، أو يجمع خطوتين في جملة واحدة. حدد كل خطوة في الـ notes، ثم ابحث عن الجزء من جملة الـ passage الذي يصفها.",
+   "example": "Passage: \"Seeds are carried by birds, which drop them far from the parent plant.\" Notes: \"• seeds carried by (1) ______ • dropped far from (2) ______\" الإجابات الصحيحة: birds؛ parent plant."
+  },
+  "explanations": {
+   "1": "كلمة \"Removing\" موجودة أصلًا في الـ notes.",
+   "2": "عبارة \"To insecticides\" موجودة أصلًا في الـ notes.",
+   "3": "عبارة \"Butterflies and flies\" أمثلة، وليست المجموعة كلها.",
+   "4": "عبارة \"Much harder\" تعني \"less able\". والفراغ يحتاج إلى verb بعد \"to\".",
+   "5": "هذه هي الخطوة الأولى في عملية الانتشار.",
+   "6": "عبارة \"Do not hatch\" تعني \"fail to hatch\". وهذه هي الخطوة الثانية.",
+   "7": "الفراغ يحتاج إلى adverb بعد \"chosen\".",
+   "8": "كلمة \"Only\" موجودة أصلًا في الـ notes."
+  }
+ },
+ {
+  "id": "rb_note_completion_15",
+  "lesson": {
+   "title": "Note Completion الصعب — headings مجردة وparaphrase كثيف (Hard Note Completion — abstract headings and heavy paraphrase)",
+   "text": "في المستوى الصعب (Hard)، تكون الـ headings مجردة (\"Working conditions\"، \"Method of presentation\")، ونادرًا ما تشترك الـ notes في كلمات مع الـ passage. ومع ONE WORD ONLY، عليك أيضًا أن تجد الكلمة الواحدة التي تحمل المعنى. الاستراتيجية: حوّل كل note إلى سؤال (\"What was she excluded from?\")، وابحث عن الجملة التي تجيب عنه، ثم اختر الكلمة الواحدة التي تناسب المعنى والـ grammar في الـ note معًا.",
+   "example": "Note: \"excluded from (1) ______ on grounds of sex\". Passage: \"women were not allowed on the expeditions\". الإجابة الصحيحة: expeditions."
+  },
+  "explanations": {
+   "1": "كلمة \"Echo\" موجودة أصلًا في الـ notes.",
+   "2": "عبارة \"Not permitted\" تعني \"not allowed\". وكلمة \"Research\" موجودة أصلًا في الـ notes.",
+   "3": "عبارة \"Along the centre\" تعني \"central\". وكلمة \"Ridge\" هي سلسلة الجبال نفسها، وليست ما يمتد على طولها.",
+   "4": "هذا هو تفسيرها للوادي.",
+   "5": "كلمة \"Locations\" تعني \"positions\".",
+   "6": "كلمة \"Lines\" موجودة أصلًا في الـ notes.",
+   "7": "الـ note تحتاج إلى past participle بعد \"data\".",
+   "8": "صيغة الجمع (plural) تناسب \"one of the ...\"."
+  }
+ },
+ {
+  "id": "rb_note_completion_16",
+  "lesson": {
+   "title": "أرقام وأسماء كثيرة وطرق متنافسة (Many numbers, names and competing methods)",
+   "text": "تحتوي passages التاريخ الصعبة على أرقام كثيرة (تواريخ، ومبالغ مالية، وقياسات) وعدة أشخاص بأسمائهم. والـ distractors تكون عادةً تفاصيل حقيقية من الـ passage من النوع نفسه، لكنها مرتبطة بحدث مختلف: سنة كارثة بدل سنة قانون، أو اسم صانع ساعات بدل اسم ملّاح. لكل فراغ، حدد الحدث الدقيق الذي تصفه الـ note قبل أن تختار رقمًا أو اسمًا.",
+   "example": "Passage: \"A shipwreck in 1707 led Parliament to pass a law in 1714.\" Note: \"law passed: (1) ______\". الإجابة الصحيحة: 1714."
+  },
+  "explanations": {
+   "1": "عبارة \"Every hour\" تعني \"per hour\". وعبارة \"Half a degree\" هي الدقة التي تطلبها الجائزة، أي trap من النوع نفسه (same-type trap).",
+   "2": "كلمة \"Useless\" تعني \"unreliable\"، وكلمة \"rolling\" تعني \"moving\".",
+   "3": "عام 1707 هو سنة غرق السفينة، أي trap التاريخ.",
+   "4": "هذه 3 كلمات. وكلمة \"Within\" موجودة أصلًا في الـ notes.",
+   "5": "كلمة \"Method\" موجودة أصلًا في الـ notes.",
+   "6": "كلمة \"Across\" موجودة أصلًا في الـ notes.",
+   "7": "عبارة \"The Pacific\" هي المكان الذي أبحر فيه Cook ومعه نسخة من الساعة، وليست رحلة الاختبار.",
+   "8": "هذه 3 كلمات، أي ضمن الـ word limit. صحيح أن \"Parliament\" هو من دفع المبلغ، لكن الاستئناف (appeal) كان إلى الملك.",
+   "9": "استخدم James Cook النسخة لكنه لم يصنعها، ولهذا يكون \"James Cook\" هو trap الاسم."
+  }
+ }
+]

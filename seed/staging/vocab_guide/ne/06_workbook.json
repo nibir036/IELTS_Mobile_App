@@ -1,0 +1,569 @@
+[
+ {
+  "id": "v6_intro",
+  "title": "पूरा workbook: कसरी प्रयोग गर्ने",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "p",
+    "यो अध्यायमा किताबका सबै कुरा परीक्षाकै वातावरणमा एकसाथ प्रयोग गरिन्छ। Part 1-मा २ वटा अभ्यास छन्: २० वटा sentence transformation, जहाँ साधारण Band 6-को वाक्यलाई चम्किलो Band 9-को वाक्यमा उकास्नुपर्छ; र ५ वटा पूरा Band 6 essay, जसलाई तपाईंले Band 8.5 देखि 9.0 स्तरमा फेरि लेख्नुपर्छ। Part 2-मा model उत्तरसहित ५ वटा पूरा Speaking simulation छन्। कलम लिएर काम गर्नुहोस्, model पढ्नुअघि हरेक item आफैं प्रयास गर्नुहोस्, र key-सँग आफ्नो लेखाइ दाँजेर हेर्नुहोस् — आफैंलाई सोध्नुहोस्, अध्याय १ देखि ५ को ठ्याक्कै कुन tool तपाईंले प्रयोग गर्न सक्नुभएन।"
+   ],
+   [
+    "ol",
+    [
+     "कलम लिएर काम गर्नुहोस्।",
+     "Model पढ्नुअघि हरेक item आफैं प्रयास गर्नुहोस्।",
+     "Key-सँग आफ्नो लेखाइ दाँजेर हेर्नुहोस्।",
+     "आफैंलाई सोध्नुहोस्, अध्याय १ देखि ५ को ठ्याक्कै कुन tool तपाईंले प्रयोग गर्न सक्नुभएन।"
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "v6_transformations",
+  "title": "Section 1 · २० वटा sentence transformation",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "exercise",
+    {
+     "title": "Section 1: २० वटा Sentence Transformation चुनौती",
+     "kind": "essay_edit",
+     "instructions": "तलका हरेक वाक्य लगभग Band 6.0 स्तरका छन्। हरेकलाई एउटै Band 9.0 स्तरको वाक्यमा फेरि लेख्नुहोस्: vocabulary सुधार्नुहोस्, मातृभाषाबाट आएका गल्ती सच्याउनुहोस्, र बनावट अझ कसिलो बनाउनुहोस्। लक्ष्य सटीकता हो, लामा शब्द मात्र होइन।",
+     "items": [
+      {
+       "prompt": "Nowadays, technology is a very important thing in our life.",
+       "answer": "In the modern era, technology plays an indispensable role in our daily lives.",
+       "accepted": [],
+       "reason": "Upgrade: very important thing-को सट्टा indispensable role।"
+      },
+      {
+       "prompt": "Many people think that money can make them happy.",
+       "answer": "Many people believe that wealth is the key to happiness.",
+       "accepted": [],
+       "reason": "Upgrade: think-को सट्टा believe; money-को सट्टा wealth; वाक्य अझ कसिलो।"
+      },
+      {
+       "prompt": "Pollution is a big problem and it is very bad for our health.",
+       "answer": "Pollution poses a serious threat to public health.",
+       "accepted": [],
+       "reason": "Upgrade: big problem र very bad — दुवै मिलेर एउटा सटीक collocation बनेको छ।"
+      },
+      {
+       "prompt": "The government should give more money to education.",
+       "answer": "The government should allocate greater funding to education.",
+       "accepted": [],
+       "reason": "Upgrade: give more money to-को सट्टा allocate greater funding।"
+      },
+      {
+       "prompt": "A lot of students go abroad to get a good job.",
+       "answer": "A significant proportion of students go abroad in pursuit of well-paid employment.",
+       "accepted": [],
+       "reason": "Upgrade: a lot of-को सट्टा a significant proportion of; a good job-को सट्टा well-paid employment।"
+      },
+      {
+       "prompt": "Cutting trees is a very bad thing for the environment.",
+       "answer": "Deforestation has a detrimental effect on the environment.",
+       "accepted": [],
+       "reason": "Upgrade: cutting trees-को सट्टा deforestation; very bad thing-को सट्टा detrimental effect।"
+      },
+      {
+       "prompt": "Children spend too much time on their phones and it is not good.",
+       "answer": "Children spend excessive time on their phones, which can be detrimental to their development.",
+       "accepted": [],
+       "reason": "Upgrade: अस्पष्ट not good-को ठाउँमा एउटा स्पष्ट परिणाम राखिएको छ।"
+      },
+      {
+       "prompt": "Public transport can help to reduce traffic in the cities.",
+       "answer": "An efficient public transport system can substantially reduce urban traffic congestion.",
+       "accepted": [],
+       "reason": "Upgrade: help to reduce traffic-को सट्टा reduce traffic congestion।"
+      },
+      {
+       "prompt": "Exams give a lot of pressure to students.",
+       "answer": "Examinations place considerable pressure on students.",
+       "accepted": [],
+       "reason": "Upgrade: give a lot of pressure to-को सट्टा place considerable pressure on।"
+      },
+      {
+       "prompt": "Tourism is good for the economy of a country.",
+       "answer": "Tourism makes a substantial contribution to a nation’s economy.",
+       "accepted": [],
+       "reason": "Upgrade: good for the economy-को सट्टा makes a substantial contribution।"
+      },
+      {
+       "prompt": "Poor people cannot get good healthcare.",
+       "answer": "Disadvantaged people often lack access to adequate healthcare.",
+       "accepted": [],
+       "reason": "Upgrade: poor people cannot get good-को सट्टा lack access to adequate।"
+      },
+      {
+       "prompt": "Social media has changed the way people talk to each other.",
+       "answer": "Social media has fundamentally transformed the way people communicate.",
+       "accepted": [],
+       "reason": "Upgrade: changed the way people talk-को सट्टा transformed the way people communicate।"
+      },
+      {
+       "prompt": "Fast food is popular but it causes many health problems.",
+       "answer": "Although fast food is popular, it gives rise to numerous health problems.",
+       "accepted": [],
+       "reason": "Upgrade: but … causes many-को सट्टा although … gives rise to numerous।"
+      },
+      {
+       "prompt": "Big companies should do more to save the environment.",
+       "answer": "Large corporations should do more to protect the environment.",
+       "accepted": [],
+       "reason": "Upgrade: big companies-को सट्टा large corporations; save-को सट्टा protect।"
+      },
+      {
+       "prompt": "Learning English is very important for getting a good job.",
+       "answer": "A command of English is crucial for securing well-paid employment.",
+       "accepted": [],
+       "reason": "Upgrade: learning English is very important for getting a good job-को सट्टा सटीक nominal phrasing (noun-मा आधारित बनावट)।"
+      },
+      {
+       "prompt": "The rich are becoming richer and the poor are becoming poorer.",
+       "answer": "The gap between rich and poor continues to widen.",
+       "accepted": [],
+       "reason": "Upgrade: एकै किसिमका comparative दोहोर्याउनुको सट्टा एउटा सटीक clause प्रयोग गरिएको छ।"
+      },
+      {
+       "prompt": "Watching too much TV is a waste of time for children.",
+       "answer": "Excessive television viewing is an unproductive use of children’s time.",
+       "accepted": [],
+       "reason": "Upgrade: watching too much TV is a waste of time-लाई formal register-मा लगिएको छ।"
+      },
+      {
+       "prompt": "Crime happens because people do not have jobs.",
+       "answer": "Crime often stems from unemployment and a lack of opportunity.",
+       "accepted": [],
+       "reason": "Upgrade: happens because people do not have jobs-को सट्टा stems from unemployment।"
+      },
+      {
+       "prompt": "Old traditions are disappearing because of modern life.",
+       "answer": "Long-standing traditions are gradually disappearing as a result of modern life.",
+       "accepted": [],
+       "reason": "Upgrade: old-को सट्टा long-standing; because of-को सट्टा as a result of।"
+      },
+      {
+       "prompt": "Renewable energy is better than fossil fuels.",
+       "answer": "Renewable energy is a cleaner and more sustainable alternative to fossil fuels.",
+       "accepted": [],
+       "reason": "Upgrade: अस्पष्ट better than-को ठाउँमा स्पष्ट कारण दिइएको छ।"
+      }
+     ]
+    }
+   ],
+   [
+    "note",
+    "**यी किन काम गर्छन्:** हरेक transformation-मा धेरै प्रयोग हुने एउटा शब्दको सट्टा सटीक शब्द राखिएको छ, दुई वटा कमजोर clause मिलाएर एउटा नियन्त्रित वाक्य बनाइएको छ, र साधारण linker-को सट्टा सही cohesive device प्रयोग गरिएको छ। यही सटीकता र नियन्त्रण सँगै हुँदा वाक्य Band 6 बाट Band 9 मा पुग्छ।"
+   ]
+  ]
+ },
+ {
+  "id": "v6_essay_1",
+  "title": "Section 2 · Essay फेरि लेख्ने अभ्यास 1 (Opinion)",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Task 2-को प्रश्न (Opinion — मत):** Some people believe that university education should be free for all students. To what extent do you agree or disagree?"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Essay 1 · Band 6.0-को मस्यौदा",
+     "kind": "essay_edit",
+     "instructions": "यो Band 6.0 essay-लाई Band 8.5 देखि 9.0 स्तरमा फेरि लेख्नुहोस्: idea-हरू उस्तै राख्नुहोस्, तर भाषा सुधार्नुहोस् (L1 बाट आएका गल्ती हटाउनुहोस्, धेरै प्रयोग हुने शब्द बदल्नुहोस्, cohesive device प्रयोग गर्नुहोस्, हरेक paragraph-मा एउटा formal collocation थप्नुहोस्)। त्यसपछि model rewrite-सँग दाँजेर हेर्नुहोस्।",
+     "items": [
+      {
+       "prompt": "Nowadays, education is a very important thing for everyone. Some people think that university education should be free for all students. I am agree with this idea because it has many good points.\n\nFirst, free university can help poor students. Many talented students cannot go to university because it is very costly. If education is free, they can also get a chance to study and get a good job. This is good for the whole country because it makes more skilled people.\n\nBut some people say that free education is a big problem for the government. The government has to spend a lot of money and this money comes from tax. Also, if university is free, maybe some students will not study seriously.\n\nHowever, I think the advantages are more than the disadvantages. A country becomes strong when its people are educated. So the government should give importance on free education.\n\nIn conclusion, I agree that university education should be free because it helps poor students and it is good for the country.",
+       "answer": "It is often argued that university education should be provided free of charge to all students. I strongly agree with this view, primarily because it widens access and strengthens the economy in the long run.\n\nThe most compelling argument concerns equality of opportunity. At present, many talented young people are unable to attend university because tuition fees are prohibitively expensive. If higher education were free, these students could also pursue their ambitions and secure well-paid employment. Society as a whole would reap the benefits, since a larger pool of skilled graduates drives national productivity.\n\nAdmittedly, critics contend that free education places a heavy financial burden on the state, funded ultimately through taxation. They further argue that students may value their studies less when they cost nothing.\n\nNevertheless, these drawbacks are outweighed by the wider gains. A nation prospers when its population is well educated, and public investment in universities tends to pay for itself through higher earnings and tax revenue. Governments should therefore prioritise funding for higher education.\n\nIn conclusion, I firmly believe that university education should be free, as it removes financial barriers for disadvantaged students and yields lasting benefits for the country.",
+       "accepted": [],
+       "reason": "Key upgrade-हरू: I am agree-को सट्टा I strongly agree; give importance on-को सट्टा prioritise; but-को सट्टा Admittedly र Nevertheless; एउटा second conditional (if … were free … could); collocation: reap the benefits, place a burden on, drive productivity।"
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "id": "v6_essay_2",
+  "title": "Section 2 · Essay फेरि लेख्ने अभ्यास 2 (Discuss both views)",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Task 2-को प्रश्न (Discuss both views — दुवै मतको छलफल):** Some people think children should start school at a very early age. Others believe they should start later. Discuss both views and give your own opinion."
+   ],
+   [
+    "exercise",
+    {
+     "title": "Essay 2 · Band 6.0-को मस्यौदा",
+     "kind": "essay_edit",
+     "instructions": "यो Band 6.0 essay-लाई Band 8.5 देखि 9.0 स्तरमा फेरि लेख्नुहोस्: idea-हरू उस्तै राख्नुहोस्, तर भाषा सुधार्नुहोस् (L1 बाट आएका गल्ती हटाउनुहोस्, धेरै प्रयोग हुने शब्द बदल्नुहोस्, cohesive device प्रयोग गर्नुहोस्, हरेक paragraph-मा एउटा formal collocation थप्नुहोस्)। त्यसपछि model rewrite-सँग दाँजेर हेर्नुहोस्।",
+     "items": [
+      {
+       "prompt": "There is a big debate about when children should start school. Some people think children should start school when they are very young. Other people think it is better to start later. In this essay I will discuss about both sides.\n\nOn one hand, starting school early has many good points. Young children can learn many things quickly. They also learn how to make friends and follow rules. This helps them in the future.\n\nOn the other hand, some people think early school is bad for children. Small children need to play and they should not have pressure. If they start too early, maybe they will not enjoy their childhood. Also, they can feel stress.\n\nIn my opinion, both sides have good points. But I think it is better to start school at a normal age, not too early and not too late. Children should learn but they should also have time to play.\n\nIn conclusion, there are different opinions about this topic. I think a balance is the best way for children.",
+       "answer": "There is considerable debate about the ideal age for children to begin formal schooling. While some argue that children should start as early as possible, others maintain that a later start is preferable. This essay will examine both views before giving my opinion.\n\nOn the one hand, an early start offers clear advantages. Young children absorb new knowledge remarkably quickly, and school helps them develop social skills such as making friends and following rules, which benefit them throughout life.\n\nOn the other hand, critics contend that beginning school too soon can be detrimental. Young children need ample time to play and should not face academic pressure prematurely; otherwise, they may lose the freedom of childhood and experience unnecessary stress.\n\nFrom my perspective, both positions have merit, but the most sensible approach is to strike a balance: children should begin at a moderate age, neither too early nor too late, so that structured learning and free play can coexist.\n\nIn conclusion, although opinions on this issue differ, I believe a balanced starting age best serves children’s long-term development.",
+       "accepted": [],
+       "reason": "Key upgrade-हरू: discuss about-को सट्टा examine; good points-को सट्टा advantages र merit; bad-को सट्टा detrimental; strike a balance; on the one hand … on the other hand सटीक रूपमा प्रयोग।"
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "id": "v6_essay_3",
+  "title": "Section 2 · Essay फेरि लेख्ने अभ्यास 3 (Problem and solution)",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Task 2-को प्रश्न (Problem and solution — समस्या र समाधान):** Traffic congestion is a growing problem in many cities. What are the causes, and what solutions can you suggest?"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Essay 3 · Band 6.0-को मस्यौदा",
+     "kind": "essay_edit",
+     "instructions": "यो Band 6.0 essay-लाई Band 8.5 देखि 9.0 स्तरमा फेरि लेख्नुहोस्: idea-हरू उस्तै राख्नुहोस्, तर भाषा सुधार्नुहोस् (L1 बाट आएका गल्ती हटाउनुहोस्, धेरै प्रयोग हुने शब्द बदल्नुहोस्, cohesive device प्रयोग गर्नुहोस्, हरेक paragraph-मा एउटा formal collocation थप्नुहोस्)। त्यसपछि model rewrite-सँग दाँजेर हेर्नुहोस्।",
+     "items": [
+      {
+       "prompt": "Traffic congestion is a very big problem in many cities today. There are many causes of this problem and we can find some solutions also.\n\nThe main cause is that there are too many cars on the road. Nowadays, many people can buy their own car, so the roads become full. Another cause is that public transport is not good in many cities, so people prefer private cars. Also, roads are old and small.\n\nThis problem causes many difficulties. People waste a lot of time in traffic and it also creates pollution.\n\nThere are some solutions for this problem. First, the government should make public transport better so that people use it. Second, they can build more roads and flyovers. Also, they can make a rule to reduce cars in the city center.\n\nIn conclusion, traffic congestion is a serious problem but it can be solved if the government takes good steps.",
+       "answer": "Traffic congestion has become a pressing problem in many cities. This essay will outline its principal causes before proposing several viable solutions.\n\nThe primary cause is the sheer number of vehicles on the roads. As incomes rise, private car ownership has soared, leaving streets heavily congested. A further factor is inadequate public transport, which pushes commuters toward private cars, while ageing and narrow road networks compound the problem. The consequences are significant: commuters waste countless hours in gridlock, and vehicle emissions worsen urban air quality.\n\nFortunately, the issue can be addressed. Governments should first invest in efficient mass transit so that commuters have an attractive alternative to driving. Expanding the road network and building flyovers would ease the burden on existing routes. In addition, introducing a congestion charge would discourage private car use in city centres.\n\nIn conclusion, although traffic congestion is a serious problem, it can be substantially reduced if authorities implement effective measures, particularly by improving public transport and discouraging unnecessary car journeys.",
+       "accepted": [],
+       "reason": "Key upgrade-हरू: very big problem-को सट्टा pressing problem; soared, gridlock, ease the burden, congestion charge, implement effective measures; also-को सट्टा A further factor र In addition।"
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "id": "v6_essay_4",
+  "title": "Section 2 · Essay फेरि लेख्ने अभ्यास 4 (Advantages and disadvantages)",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Task 2-को प्रश्न (Advantages and disadvantages — फाइदा र बेफाइदा):** More and more people are working from home. Do the advantages of this outweigh the disadvantages?"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Essay 4 · Band 6.0-को मस्यौदा",
+     "kind": "essay_edit",
+     "instructions": "यो Band 6.0 essay-लाई Band 8.5 देखि 9.0 स्तरमा फेरि लेख्नुहोस्: idea-हरू उस्तै राख्नुहोस्, तर भाषा सुधार्नुहोस् (L1 बाट आएका गल्ती हटाउनुहोस्, धेरै प्रयोग हुने शब्द बदल्नुहोस्, cohesive device प्रयोग गर्नुहोस्, हरेक paragraph-मा एउटा formal collocation थप्नुहोस्)। त्यसपछि model rewrite-सँग दाँजेर हेर्नुहोस्।",
+     "items": [
+      {
+       "prompt": "These days, more and more people are working from home. Some people think it has many advantages, but others think it has disadvantages. In my opinion, the advantages are more.\n\nThere are many good things about working from home. First, people can save time because they do not need to travel to office. So they can spend this time with family. Second, they feel relaxed and comfortable in their home.\n\nBut there are also some bad things. When people work from home, they can feel lonely. Also, sometimes it is difficult to focus because of family and other distractions. Some people also work less.\n\nHowever, I think the advantages are bigger. With good discipline, people can do their work properly at home. Companies also save money on office rent.\n\nIn conclusion, working from home has both good and bad sides, but I believe the advantages are more than the disadvantages.",
+       "answer": "In recent years, remote working has become increasingly widespread. While it carries certain drawbacks, I firmly believe that its advantages outweigh them.\n\nThe benefits are considerable. Firstly, employees no longer need to commute, which saves a great deal of time that can instead be spent with family. Secondly, working in the comfort of one’s own home can reduce stress and improve wellbeing.\n\nAdmittedly, there are disadvantages. Remote workers may feel isolated from colleagues, and domestic distractions can make it difficult to concentrate; a minority may also become less productive without direct supervision.\n\nNevertheless, these drawbacks can largely be overcome. With sufficient self-discipline, most people can work just as effectively from home, and employers benefit too, since they can reduce expenditure on office space. On balance, the flexibility and savings that remote working offers are more significant than its shortcomings.\n\nIn conclusion, although working from home has both merits and limitations, I am convinced that its advantages, particularly greater flexibility and reduced commuting, clearly outweigh the disadvantages.",
+       "accepted": [],
+       "reason": "Key upgrade-हरू: good things र bad things-को सट्टा benefits र drawbacks; bigger-को सट्टा outweigh; reduce expenditure; On balance; the advantages are more-को सट्टा its advantages clearly outweigh।"
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "id": "v6_essay_5",
+  "title": "Section 2 · Essay फेरि लेख्ने अभ्यास 5 (Two-part direct question)",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Task 2-को प्रश्न (Two-part direct question — दुई भागको सिधा प्रश्न):** Many people today prefer fast food to home-cooked meals. Why is this? Is it a positive or negative development?"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Essay 5 · Band 6.0-को मस्यौदा",
+     "kind": "essay_edit",
+     "instructions": "यो Band 6.0 essay-लाई Band 8.5 देखि 9.0 स्तरमा फेरि लेख्नुहोस्: idea-हरू उस्तै राख्नुहोस्, तर भाषा सुधार्नुहोस् (L1 बाट आएका गल्ती हटाउनुहोस्, धेरै प्रयोग हुने शब्द बदल्नुहोस्, cohesive device प्रयोग गर्नुहोस्, हरेक paragraph-मा एउटा formal collocation थप्नुहोस्)। त्यसपछि model rewrite-सँग दाँजेर हेर्नुहोस्।",
+     "items": [
+      {
+       "prompt": "Nowadays, many people prefer fast food instead of home-cooked meals. There are some reasons for this and I think it is a negative development.\n\nThere are many reasons why people like fast food. The main reason is that people are very busy today, so they do not have time to cook. Fast food is quick and easy. Another reason is that fast food is tasty and cheap. Also, there are many fast food shops everywhere.\n\nHowever, I think this is a negative thing. Fast food has a lot of fat and sugar, so it is very bad for health. It causes many diseases like obesity. Home-cooked food is more healthy and clean.\n\nIn conclusion, people prefer fast food because it is quick and cheap, but I think it is a negative development because it is bad for our health.",
+       "answer": "These days, a growing number of people favour fast food over home-cooked meals. This essay will explain why this shift has occurred and argue that it is, on balance, a negative development.\n\nSeveral factors explain the trend. The primary reason is the hectic pace of modern life: many people simply lack the time to prepare meals, and fast food is quick and convenient. In addition, it is inexpensive and palatable, and outlets are now ubiquitous in most cities.\n\nHowever, I regard this development as largely detrimental. Fast food is typically high in fat, salt, and sugar, and therefore has a harmful effect on health, contributing to conditions such as obesity and heart disease. Home-cooked meals, by contrast, are generally more nutritious and hygienic.\n\nIn conclusion, although people increasingly turn to fast food because it is fast and affordable, I believe the trend is a negative one, since it poses a serious threat to public health.",
+       "accepted": [],
+       "reason": "Key upgrade-हरू: prefer … instead of-को सट्टा favour … over; tasty-को सट्टा palatable; everywhere-को सट्टा ubiquitous; very bad for health-को सट्टा has a harmful effect on health र poses a serious threat to public health।"
+      }
+     ]
+    }
+   ]
+  ]
+ },
+ {
+  "id": "v6_speaking_1",
+  "title": "Speaking simulation 1 · Describe a place you enjoy visiting.",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "p",
+    "Workbook-को यो दोस्रो भागमा ५ वटा पूरा Speaking simulation छन्। हरेकमा एउटा Part 2 cue card, एउटा model long-turn उत्तर, model उत्तरसहित केही Part 3 follow-up प्रश्न, र एउटा छोटो lexical analysis छ। Model-हरू स्वाभाविक बोलचालको register-मा लेखिएका छन्, त्यसैले तिनमा contraction र idiom खुलेर प्रयोग गरिएका छन्। Speaking-का लागि यो ठ्याक्कै सही हो, र Writing Task 2-का लागि ठ्याक्कै गलत: ध्यान दिनुहोस्, यी उत्तरलाई माथि उठाउने idiom-खालको भाषालाई नै अध्याय ५ ले तपाईंको essay बाट टाढा राख्न भनेको थियो।"
+   ],
+   [
+    "ol",
+    [
+     "Cue card पढ्नुहोस्।",
+     "योजना बनाउन आफूलाई १ मिनेट दिनुहोस्।",
+     "Model पढ्नुअघि २ मिनेट बोल्नुहोस्।",
+     "सक्नुहुन्छ भने आफ्नो कुरा record गर्नुहोस्।",
+     "Model-का हरेक idiom र collocation-मुनि रेखा तान्नुहोस्।",
+     "तपाईंले त्यो स्तरको केही बोल्न सक्नुभयो कि भनेर जाँच्नुहोस्।",
+     "Examiner ले केमा नम्बर दिन्थे भनेर पत्ता लगाउन lexical analysis प्रयोग गर्नुहोस्।"
+    ]
+   ],
+   [
+    "note",
+    "**Part 2 cue card · Describe a place you enjoy visiting.**\nYou should say:\n• where it is\n• how often you go there\n• what you do there\n• why you enjoy visiting it"
+   ],
+   [
+    "h2",
+    "Model long turn (नमुना उत्तर)"
+   ],
+   [
+    "model",
+    "I’d like to talk about a small hill town called Bandarban, in the southeast of Bangladesh. It isn’t exactly a stone’s throw away from where I live, so I only manage to go there once in a blue moon, maybe once a year, but it’s always worth the long journey.\n\nWhat I love about it is that it’s completely off the beaten track. While a lot of tourists head to the crowded beaches, Bandarban is quieter and surrounded by breathtaking scenery: green hills, winding rivers, and tiny villages. When I’m there, I usually go hiking, explore the local markets, and just soak up the peace and quiet.\n\nThe main reason I enjoy it so much is that it gives me a real change of scenery. Living in a busy city, I’m always caught up in the daily grind, so escaping to the hills feels like a breath of fresh air. The last time I went, I reached the top of a hill right at sunrise, and honestly, that view was the icing on the cake. It was almost the trip of a lifetime, and I came back feeling completely recharged."
+   ],
+   [
+    "h2",
+    "Part 3 · छलफल"
+   ],
+   [
+    "p",
+    "**Why do people enjoy travelling to new places?**"
+   ],
+   [
+    "model",
+    "I think travel broadens people’s horizons. When you visit somewhere unfamiliar, you experience a different culture and way of life, which gives you a fresh perspective. For a lot of people it’s also a chance to escape their routine and recharge, so it’s really the best of both worlds: you relax and you learn something at the same time."
+   ],
+   [
+    "p",
+    "**Does tourism benefit local communities?**"
+   ],
+   [
+    "model",
+    "By and large, yes. Tourism can boost the local economy and create jobs, especially in remote areas. That said, it’s a bit of a double-edged sword, because mass tourism can put a strain on local resources and even degrade natural attractions, so it has to be managed carefully."
+   ],
+   [
+    "p",
+    "**Do people travel more now than in the past?**"
+   ],
+   [
+    "model",
+    "Definitely. Air travel has become far more affordable, and social media makes distant places look appealing, so more people have caught the travel bug. In the past, international travel was a luxury; nowadays, it’s within reach for the average family."
+   ],
+   [
+    "tip",
+    "**Lexical analysis:** Long turn-ले स्वाभाविक idiom-हरूबाट नम्बर पाउँछ (a stone’s throw away, once in a blue moon, off the beaten track, a change of scenery, the daily grind, a breath of fresh air, the icing on the cake, the trip of a lifetime), जुन सहज वर्णनभित्र बुनिएका छन्; साथै collocation breathtaking scenery पनि छ। Part 3-मा register अलिकति छलफलतिर सर्छ, र broaden horizons, the best of both worlds, boost the local economy, a double-edged sword, र put a strain on आउँछन्। यी हरेक Speaking-का हुन्; एउटा पनि Task 2 essay-को होइन।"
+   ]
+  ]
+ },
+ {
+  "id": "v6_speaking_2",
+  "title": "Speaking simulation 2 · Describe a skill you would like to learn.",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Part 2 cue card · Describe a skill you would like to learn.**\nYou should say:\n• what the skill is\n• how you would learn it\n• how long it might take\n• why you want to learn it"
+   ],
+   [
+    "h2",
+    "Model long turn (नमुना उत्तर)"
+   ],
+   [
+    "model",
+    "A skill I’d really love to learn is playing the guitar. I’ve wanted to pick it up for years, but I’ve never had the time to properly sit down and practise.\n\nI’d probably learn it through a mix of online tutorials and a local teacher, because I think I’d need someone to help me get the hang of the basics. I imagine it would be a steep learning curve at first, especially learning the chords, and I’d have to burn the midnight oil to make real progress. Realistically, it might take a year or so before I could play a full song without stumbling.\n\nThe main reason I want to learn it is that music is a wonderful way to unwind after a long day. At the moment I’m caught up in the daily grind, and I think playing an instrument would help me relax and switch off completely. On top of that, being able to play at family gatherings would be the icing on the cake. Even if I’m never brilliant at it, I’d be over the moon just to strum a few tunes for the people I love."
+   ],
+   [
+    "h2",
+    "Part 3 · छलफल"
+   ],
+   [
+    "p",
+    "**Is it better to learn a skill from a teacher or by yourself?**"
+   ],
+   [
+    "model",
+    "It depends on the skill, but I think a teacher gives you a real head start. They can spot your mistakes and stop you from picking up bad habits. That said, teaching yourself builds discipline, so ideally you’d combine the two and get the best of both worlds."
+   ],
+   [
+    "p",
+    "**Why do some people find it hard to learn new skills as adults?**"
+   ],
+   [
+    "model",
+    "More often than not, it comes down to time and confidence. Adults are busy and afraid of failing, so they give up before they really get to grips with it. Children, by contrast, learn through trial and error without worrying about looking silly."
+   ],
+   [
+    "p",
+    "**Should schools teach more practical skills?**"
+   ],
+   [
+    "model",
+    "Absolutely. I’d argue that schools place too much emphasis on exams and not enough on practical, transferable skills. Teaching things like budgeting or basic coding would equip students far better for real life."
+   ],
+   [
+    "tip",
+    "**Lexical analysis:** Long turn पढाइ र मेहनतसँग जोडिएका idiom-मा भर पर्छ (pick it up, get the hang of, a steep learning curve, burn the midnight oil, the daily grind, switch off, the icing on the cake, over the moon), साथै स्वाभाविक verb unwind। Part 3-मा a head start, the best of both worlds, get to grips with, trial and error, र essay-शैलीका collocation place emphasis on, transferable skills, र equip students ले register माथि उठाउँछन्, जसले candidate हल्का कथा भन्नेबाट तर्कपूर्ण छलफलसम्म सजिलै जान सक्छन् भन्ने देखाउँछ।"
+   ]
+  ]
+ },
+ {
+  "id": "v6_speaking_3",
+  "title": "Speaking simulation 3 · Describe a piece of technology you find useful.",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Part 2 cue card · Describe a piece of technology you find useful.**\nYou should say:\n• what it is\n• how you use it\n• how often you use it\n• why it is so useful to you"
+   ],
+   [
+    "h2",
+    "Model long turn (नमुना उत्तर)"
+   ],
+   [
+    "model",
+    "The piece of technology I find most useful is, without a doubt, my smartphone. It sounds obvious, but I honestly couldn’t get through the day without it. I use it around the clock, from the moment I wake up to the moment I go to sleep.\n\nI rely on it for pretty much everything: checking emails, navigating unfamiliar streets, paying bills, and staying in touch with family. Because so much information is at my fingertips, tasks that used to take hours are now a piece of cake. If I need directions, for instance, I no longer have to ask around; I just tap the screen and go.\n\nThe main reason it’s so useful is that it’s basically several devices rolled into one, so it saves me a huge amount of time. Of course, it’s a bit of a double-edged sword, because I can easily end up glued to the screen, but as long as I keep it in check, the benefits far outweigh that. For me, it’s genuinely a game changer, and it’s honestly hard to imagine going back to life without it."
+   ],
+   [
+    "h2",
+    "Part 3 · छलफल"
+   ],
+   [
+    "p",
+    "**Has technology made people’s lives easier or more stressful?**"
+   ],
+   [
+    "model",
+    "It’s genuinely both. On the one hand, technology has transformed the way we work and communicate, making everything faster. On the other, being constantly connected can be exhausting, and a lot of people struggle to switch off. So I’d say it’s a mixed blessing."
+   ],
+   [
+    "p",
+    "**Do you think people rely too much on technology?**"
+   ],
+   [
+    "model",
+    "More often than not, yes. Many of us can’t navigate without a map app or even remember a phone number anymore. It’s convenient, but it does make you wonder whether we’re quietly losing some basic skills along the way."
+   ],
+   [
+    "p",
+    "**How might technology change the way we work in the future?**"
+   ],
+   [
+    "model",
+    "I imagine automation will reshape the job market completely. A lot of routine tasks will be automated, which could render some jobs obsolete, but it should also create brand-new roles. The key will be helping people keep up with the times through proper retraining."
+   ],
+   [
+    "tip",
+    "**Lexical analysis:** Long turn सहज सुनिन technology-खालका idiom प्रयोग गर्छ (around the clock, at my fingertips, a piece of cake, a double-edged sword, glued to the screen, keep it in check, a game changer)। Part 3-मा formal तिर ढल्केका collocation आउँछन्: transform the way we, a mixed blessing, reshape the job market, render obsolete, र keep up with the times। यो यस्तो candidate-को राम्रो उदाहरण हो, जो Part 2-मा कुराकानीको शैलीमा र Part 3-मा बढी विश्लेषणात्मक शैलीमा बोल्न सक्छन्, तर कहिल्यै essay जस्तो कडा हुँदैनन्।"
+   ]
+  ]
+ },
+ {
+  "id": "v6_speaking_4",
+  "title": "Speaking simulation 4 · Describe a time when you helped someone.",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Part 2 cue card · Describe a time when you helped someone.**\nYou should say:\n• who you helped\n• how you helped them\n• why they needed help\n• how you felt about helping them"
+   ],
+   [
+    "h2",
+    "Model long turn (नमुना उत्तर)"
+   ],
+   [
+    "model",
+    "I’d like to talk about a time I helped a younger cousin of mine who was struggling with his studies. He was in at the deep end, preparing for a big exam, and he was really down in the dumps because he’d fallen badly behind.\n\nI offered to lend a hand and tutor him a couple of evenings a week. We went through the topics he found difficult, and I tried to help him get to grips with the trickier concepts. It wasn’t always a piece of cake, because he’d lost a lot of confidence, so I had to go the extra mile to keep him motivated.\n\nHe needed help because both his parents worked long hours and couldn’t sit with him, so he’d basically been left to cope on his own. In the end, he pulled his socks up and passed with flying colours.\n\nHonestly, I was over the moon when I heard the result. Helping him turned out to be a real labour of love, and seeing him succeed was the icing on the cake. It reminded me just how rewarding it is to give someone a helping hand when they need it."
+   ],
+   [
+    "h2",
+    "Part 3 · छलफल"
+   ],
+   [
+    "p",
+    "**Why is it important to help others in society?**"
+   ],
+   [
+    "model",
+    "I think helping others creates a stronger sense of community. When people lend a hand, it builds trust and mutual support, which benefits everyone. A society where people only look out for themselves tends to be far more divided."
+   ],
+   [
+    "p",
+    "**Should helping others be taught in schools?**"
+   ],
+   [
+    "model",
+    "Definitely. Schools play a pivotal role in shaping a child’s character, so encouraging students to volunteer instils values like empathy and responsibility. If children learn to help early on, it usually stays with them for life."
+   ],
+   [
+    "p",
+    "**Do people help each other less than they used to?**"
+   ],
+   [
+    "model",
+    "It’s hard to say, but many would argue that busy, urban lifestyles have made people more self-centred. That said, social media has also made it easier to organise help quickly, so in some ways the spirit of helping is alive and well, just in a different form."
+   ],
+   [
+    "tip",
+    "**Lexical analysis:** यो long turn एउटा अनुभवको कथा भन्छ, त्यसैले यसमा स्वाभाविक idiom धेरै छन्: in at the deep end, down in the dumps, lend a hand, get to grips with, a piece of cake, go the extra mile, pull his socks up, pass with flying colours, over the moon, a labour of love, the icing on the cake, र a helping hand। जबरजस्ती नघुसाई सँगै प्रयोग गर्दा यिनले साँचो fluency देखाउँछन्। त्यसपछि Part 3-मा बढी academic play a pivotal role in, shaping character, र instil values आउँछन्, जुन समाजबारेको अमूर्त छलफलमा मिल्छन्।"
+   ]
+  ]
+ },
+ {
+  "id": "v6_speaking_5",
+  "title": "Speaking simulation 5 · Describe an environmental problem in your area.",
+  "group": "Chapter 6 · Workbook and Self-Assessment",
+  "blocks": [
+   [
+    "note",
+    "**Part 2 cue card · Describe an environmental problem in your area.**\nYou should say:\n• what the problem is\n• what causes it\n• how it affects people\n• what could be done to solve it"
+   ],
+   [
+    "h2",
+    "Model long turn (नमुना उत्तर)"
+   ],
+   [
+    "model",
+    "The biggest environmental problem in my city is air pollution, which has become a really pressing concern over the last few years. On a bad day, the air is so hazy that you can barely see across the street.\n\nThe main causes are the sheer number of vehicles on the roads and the emissions from nearby factories. Because the city has grown so quickly, the infrastructure simply hasn’t kept up, so traffic is bumper to bumper for most of the day, and all those vehicles emit huge amounts of pollution.\n\nIt affects people in a big way. Many residents suffer from breathing problems, and children and the elderly are hit the hardest. Honestly, on some mornings it feels like the whole city grinds to a halt under a blanket of smog.\n\nAs for solutions, I think the authorities need to invest in public transport and gradually discourage private car use, perhaps through a congestion charge. Planting more trees and creating green spaces would help too. It certainly won’t be solved overnight, but if everyone plays their part, I’m hopeful things can improve."
+   ],
+   [
+    "h2",
+    "Part 3 · छलफल"
+   ],
+   [
+    "p",
+    "**Whose responsibility is it to protect the environment?**"
+   ],
+   [
+    "model",
+    "I’d say it’s a shared responsibility. Governments need to implement effective measures and regulate industry, but individuals also have to play their part by cutting their carbon footprint. Neither side can solve it alone."
+   ],
+   [
+    "p",
+    "**Are people today more environmentally aware than before?**"
+   ],
+   [
+    "model",
+    "By and large, yes. People are far more conscious of issues like climate change, and going green has become quite mainstream. That said, awareness doesn’t always translate into action, so there’s still a long way to go."
+   ],
+   [
+    "p",
+    "**Can technology solve environmental problems?**"
+   ],
+   [
+    "model",
+    "To a certain extent. Renewable energy and cleaner transport are genuine game changers that could mitigate a lot of damage. But technology alone isn’t a silver bullet; it has to go hand in hand with real changes in how we live and consume."
+   ],
+   [
+    "tip",
+    "**Lexical analysis:** यो topic essay-को विषयसँग नजिक भएकाले long turn-ले स्वाभाविक idiom (bumper to bumper, grinds to a halt, play their part) लाई अध्याय ४ मा पनि आउने topic collocation-सँग मिसाउँछ (a pressing concern, emissions, infrastructure, invest in public transport, discourage private car use, congestion charge, green spaces)। Part 3 अझ तर्कको भाषातिर जान्छ: implement effective measures, carbon footprint, going green, mitigate, a game changer, a silver bullet, र go hand in hand। यसले Speaking Part 3 र essay vocabulary बीचको उपयोगी मेल देखाउँछ, र idiom-हरूले कुरालाई कण्ठ गरेर भनेजस्तो नभई स्वाभाविक बोलीजस्तो सुनाउँछन्।"
+   ]
+  ]
+ }
+]

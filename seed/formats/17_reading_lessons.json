@@ -1,0 +1,112 @@
+{
+  "_format": {
+    "name": "reading_lessons",
+    "group": "content",
+    "table": "lessons",
+    "primaryKey": "id",
+    "description": "Bite-size Reading lesson with key idea and exercises.",
+    "currentSourceInApp": "reading.lessons",
+    "fields": {
+      "id": "string",
+      "title": "string",
+      "keyIdeaLabel": "string",
+      "keyIdea": "string",
+      "uses": "array",
+      "exercises": "array"
+    },
+    "required": [
+      "id",
+      "title",
+      "keyIdea",
+      "exercises"
+    ],
+    "relations": [],
+    "notes": [
+      "Stored in lessons with skill = reading; order = position in the list."
+    ],
+    "recordCountToday": 4
+  },
+  "items": [
+    {
+      "id": "rl_03",
+      "title": "Paraphrase spotting",
+      "keyIdeaLabel": "Key idea",
+      "keyIdea": "IELTS rarely repeats the passage word for word. Questions **paraphrase** it — “rose sharply” becomes “increased dramatically”. Match the **meaning**, not the words.",
+      "uses": [
+        {
+          "label": "Use it for",
+          "value": "T / F / NG, multiple choice"
+        },
+        {
+          "label": "Watch out for",
+          "value": "Same words, new meaning"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "rl_03_e1",
+          "seconds": 60,
+          "quote": "“The museum’s visitor numbers doubled within two years of the new wing opening.”",
+          "question": "Which statement has the same meaning?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The new wing took two years to build"
+            },
+            {
+              "key": "B",
+              "text": "Twice as many people visited soon after the wing opened"
+            },
+            {
+              "key": "C",
+              "text": "The museum opened two new wings"
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "rl_03_e2",
+          "seconds": 45,
+          "quote": "“Few residents were aware that the scheme existed.”",
+          "question": "Which is the best paraphrase?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Most residents did not know about the scheme"
+            },
+            {
+              "key": "B",
+              "text": "Some residents opposed the scheme"
+            },
+            {
+              "key": "C",
+              "text": "Residents designed the scheme"
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "rl_03_e3",
+          "seconds": 60,
+          "quote": "“The prototype failed to perform well in cold conditions.”",
+          "question": "Which paraphrase is correct?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The prototype worked best in winter"
+            },
+            {
+              "key": "B",
+              "text": "Cold weather was never tested"
+            },
+            {
+              "key": "C",
+              "text": "Low temperatures reduced the prototype’s performance"
+            }
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

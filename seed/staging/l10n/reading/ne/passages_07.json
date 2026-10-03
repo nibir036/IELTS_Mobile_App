@@ -1,0 +1,481 @@
+[
+ {
+  "id": "rb_summary_completion_09",
+  "lesson": {
+   "title": "Technical summary र abstract option-हरू (Technical summaries with abstract options)",
+   "text": "Technical summary-मा word bank-का option-हरू प्रायः abstract noun हुन्छन् (accuracy, delay, distance, correction)। Summary-को sentence पढ्नुहोस् र त्यसले ठ्याक्कै कुन मात्रा वा कुन idea-को कुरा गरिरहेको छ भनेर पत्ता लगाउनुहोस्, अनि passage-सँग मिलाउनुहोस्। धेरै option technical र ठीकै जस्ता सुनिन सक्छन्; तर process-को सही भाग बताउने option एउटा मात्र हुन्छ।"
+  },
+  "explanations": {
+   "1": "H (distance) receiver-ले हिसाब गर्छ, satellite-ले पठाउँदैन।",
+   "2": "यो सीधा मेल (direct match) हो। I (cheap) grammar-मा मिल्छ, तर अर्थमा मिल्दैन।",
+   "3": "यो सीधा मेल (direct match) हो।",
+   "4": "समय \"gains\" गर्ने घडी वास्तवमा छिटो चल्छ, त्यसैले F (slow) यहाँ trap हो। एउटा effect-ले घडीलाई ढिलो बनाउँछ, तर सबै मिलाएर हेर्दा परिणाम gaining नै हो।",
+   "5": "\"Bounce off\" र \"reflected off\" को अर्थ एउटै हो।",
+   "6": "G (kilometres) ले correction नगरेको भए relativity-का कारण हुने error-लाई जनाउँछ, त्यसैले यो नजिकैको detail-को trap (nearby-detail trap) हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_10",
+  "lesson": {
+   "title": "पूरै paragraph-लाई एक लाइनमा खुम्च्याउने summary sentence (Summary sentences that compress a paragraph)",
+   "text": "Summary-को एउटै sentence-ले पूरै paragraph-लाई एक लाइनमा खुम्च्याउन सक्छ। पहिले त्यो paragraph-को मुख्य कुरा पहिचान गर्नुहोस्, अनि gap-लाई चाहिने ठ्याक्कै word वा phrase खोज्नुहोस्। Paragraph-का धेरै detail मिल्ने जस्ता लाग्न सक्छन्; summary-को त्यही विशेष idea पूरा गर्ने detail छान्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Ethiopian\" summary-मा पहिल्यै छ। \"Kaldi\" मात्र लेख्दा article \"an\" सँग मिल्दैन।",
+   "2": "\"Night-time\" मा hyphen छ, त्यसैले यसलाई २ वटा word गनिन्छ। \"and devotions\" थप्दा word limit नाघ्छ।",
+   "3": "\"tried to\" पछि gap-मा verb चाहिन्छ।",
+   "4": "यो सीधा मेल (direct match) हो।",
+   "5": "\"Particularly\" र \"especially\" को अर्थ एउटै हो।",
+   "6": "\"Harvests\" मूल्य परिवर्तनको कारण हो, परिवर्तन आफैं होइन, त्यसैले यो trap हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_11",
+  "lesson": {
+   "title": "Passage-मा अर्कै context-मा आएका option (Options that appear in the passage in a different context)",
+   "text": "Medium level-मा word bank-मा प्रायः यस्तो word हुन्छ जुन passage-मा साँच्चै छ, तर अर्कै idea-का लागि प्रयोग भएको हुन्छ। जस्तै, passage-ले भन्न सक्छ कि पुरानो हुलाक शुल्क दूरी (distance) अनुसार हुन्थ्यो र नयाँ शुल्क तौल (weight) अनुसार। दुवै word passage-मा छन्, तर कुनै एउटा gap-मा एउटा मात्र मिल्छ। कुनै option passage-को word-सँग ठ्याक्कै मिल्यो भने, त्यो word कुन sentence-बाट आएको हो जाँच्नुहोस्।",
+   "example": "Passage: \"Tickets were once priced by age; now they are priced by time of day.\" Summary: \"The new system sets prices according to ______\" Options: A age B time. सही उत्तर: B। A passage-को साँच्चैको word हो, तर यसले पुरानो system-को वर्णन गर्छ।"
+  },
+  "explanations": {
+   "1": "\"The person who received\" = \"recipient\"। A (sender) ले सुधार (reform) पछिको नयाँ system-को वर्णन गर्छ।",
+   "2": "\"without\" पछि gap-मा -ing form चाहिन्छ। \"Unopened\" = \"without opening\"।",
+   "3": "शुल्क हिसाब गर्ने र उठाउने काम administration हो। J (transport) लाई summary आफैंले हटाइदिन्छ (\"rather than transport\")।",
+   "4": "E (weight) context trap हो: नयाँ शुल्क साँच्चै तौलमा भर पर्थ्यो (\"below a certain weight\")।",
+   "5": "I (remove) trap हो। छापहरू हटाउन सकिन्थ्यो, त्यसैले तिनलाई हटाउन सजिलो थियो, गाह्रो होइन।",
+   "6": "यो सीधा मेल (direct match) हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_12",
+  "lesson": {
+   "title": "संख्या, unit र अपेक्षाभन्दा उल्टो idea (Numbers, units and ideas that go against expectation)",
+   "text": "Summary-को gap \"for over\" वा \"for up to\" पछि आयो भने, उत्तर प्रायः unit सहितको संख्या हुन्छ (\"three hours\")। Summary-मा पहिल्यै भएका word फेरि नसार्नुहोस्। Summary-ले प्रायः अपेक्षाभन्दा उल्टो idea पनि जाँच्छ। Passage-ले diver-हरू डुबुल्की मार्नुअघि सास बाहिर फाल्छन् भन्छ भने, \"Rather than filling their lungs, many divers ...\" पछिको gap-मा त्यही अचम्मको काम चाहिन्छ।",
+   "example": "Passage: \"Surprisingly, the plant grows faster in shade than in full sun.\" Summary: \"Unlike most plants, it grows best in ______\" सही उत्तर: shade (\"full sun\" होइन)।"
+  },
+  "explanations": {
+   "1": "\"Over\" = \"more than\", र यो summary-मा पहिल्यै छ। \"A thousand metres\" गहिराइ हो, समय होइन।",
+   "2": "यो अपेक्षाभन्दा उल्टो (counter-intuitive) काम हो। \"many divers\" पछि gap-मा verb चाहिन्छ।",
+   "3": "यो २ वटा word हो। \"Bends\" मात्र लेखे पनि सही मानिन्छ।",
+   "4": "Haemoglobin ले रगतमा oxygen बोक्छ, त्यसैले यो उही प्रकारको trap (same-type trap) हो।",
+   "5": "\"Brain and\" summary-मा पहिल्यै छ।",
+   "6": "\"Clear\" र \"removed\" को अर्थ एउटै हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_13",
+  "lesson": {
+   "title": "बलमा फरक पर्ने near-synonym (Near-synonyms that differ in strength)",
+   "text": "Medium word bank-मा प्रायः अर्थमा नजिक तर मात्रा वा दिशामा फरक हुने जोडी हुन्छन्: reduce / eliminate, gentle / sudden, late / early। दुवै option grammar र topic-मा मिल्न सक्छन्। कुन सही हो भन्ने कुरा passage-को ठ्याक्कै शब्दले निर्णय गर्छ। जस्तै, \"dampen\" को अर्थ reduce हो, eliminate होइन।",
+   "example": "Passage: \"The new drug eased the symptoms in most patients.\" Options: A relieved B cured. सही उत्तर: A। \"Eased\" शब्द \"cured\" भन्दा कमजोर हो।"
+  },
+  "explanations": {
+   "1": "यो सीधा मेल (direct match) हो।",
+   "2": "C (sudden) यसको लगभग उल्टो हो, र पहिलो चालकले \"slightly\" मात्र brake लगाउँछ।",
+   "3": "E (early) उल्टो अर्थ हो।",
+   "4": "\"without any\" पछि plural रूप grammar-मा मिल्छ।",
+   "5": "G (steady) उल्टो अर्थ हो।",
+   "6": "\"Dampen\" = \"reduce\"। I (eliminate) धेरै बलियो हो, र researcher-हरूले वास्तविक motorway-बारे सावधानी पनि थपेका छन्।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_14",
+  "lesson": {
+   "title": "Summary कहाँबाट सुरु हुन्छ पत्ता लगाउने (Finding where the summary starts)",
+   "text": "Summary-ले विरलै पूरै passage समेट्छ। यहाँ summary आविष्कारको कथाबाट सुरु हुन्छ, त्यसैले पहिलो उत्तर Paragraph A-मा छैन। अघिल्लो paragraph-का word सही जस्ता देखिन सक्छन्, तर ती कथाको अर्कै भागका हुन्। Summary-को पहिलो sentence पढ्नुहोस्, त्यससँग मिल्ने paragraph खोज्नुहोस्, अनि त्यहीँबाट खोज्न सुरु गर्नुहोस्।",
+   "example": "Summary \"After moving to Paris, she ...\" बाट सुरु हुन्छ भने, उनको बाल्यकालका paragraph-हरू छोडिदिनुहोस्, र Paris पहिलो पटक जहाँ आउँछ त्यहीँबाट खोज्न सुरु गर्नुहोस्।"
+  },
+  "explanations": {
+   "1": "Paragraph A-को \"Undignified\" trap हो। यसले पुरानो तरिकाबारे आम धारणाको वर्णन गर्छ, जुन यो summary-ले समेट्ने भागभन्दा अगाडि आउँछ।",
+   "2": "\"Piece of\" summary-मा पहिल्यै छ।",
+   "3": "\"Taken apart\" र \"separated\" को अर्थ एउटै हो।",
+   "4": "यो सीधा मेल (direct match) हो।",
+   "5": "यो सीधा मेल (direct match) हो।",
+   "6": "\"Rubber\" summary-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_15",
+  "lesson": {
+   "title": "कठिन word bank र पछि सच्याइएका finding (Hard word banks and revised findings)",
+   "text": "Hard level-मा word bank-का option-हरू abstract noun र adjective हुन्छन्, र summary-ले प्रायः एउटा कथालाई ३ चरणमा खुम्च्याउँछ: सुरुको दाबी, त्यसले जन्माएको अनुसन्धान, र पछिको सच्याइ (revision)। Gap-ले revision-को वर्णन गर्दा, सुरुको दाबीसँग मिल्ने option-हरू trap बन्छन्। हरेक gap-का लागि, उत्तर छान्नुअघि त्यो sentence-ले कुन चरणको वर्णन गर्छ भनेर तय गर्नुहोस्।",
+   "example": "Passage: \"The bridge was once thought unsafe; tests later showed it was sound.\" Summary: \"Later tests showed that the bridge was ______\" Options: A dangerous B safe. सही उत्तर: B। A पहिलेको धारणासँग मिल्छ, पछिको finding-सँग होइन।"
+  },
+  "explanations": {
+   "1": "C (cruelty) trap हो: साक्षीहरूलाई वास्ता नगर्ने (uncaring) भनिएको थियो, क्रूर (cruel) होइन।",
+   "2": "\"Diffusion\" = \"spreading\"। J (acceptance) अर्थमा मिल्दैन।",
+   "3": "यो gap कथाको revision चरणको हो।",
+   "4": "I (stronger) उल्टो अर्थ हो।",
+   "5": "दसमध्ये नौ भन्नाले हस्तक्षेप (intervention) सामान्य कुरा, अर्थात् norm, भयो।",
+   "6": "F (smaller) सुरुको प्रयोगशाला (laboratory) idea-सँग मिल्छ, वास्तविक संसारको finding-सँग होइन।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_16",
+  "lesson": {
+   "title": "२ अवस्थाको तुलना गर्ने summary (Summaries that contrast two states)",
+   "text": "Passage-ले एउटै कुरालाई २ अवस्थामा वर्णन गर्दा (एक्लै बस्ने र झुन्डमा बस्ने, पहिले र पछि), हरेक अवस्थाका लागि मिल्दाजुल्दा detail दिन्छ, र हरेक detail सम्भावित उत्तर हुन सक्छ। लेख्नुअघि, summary-को sentence कुन अवस्थाको कुरा गर्दैछ जाँच्नुहोस्। अर्को अवस्थाको detail पनि उही प्रकारको word हुन्छ र सही जस्तै देखिन्छ।",
+   "example": "Passage: \"In winter the fox's coat is white; in summer it is brown.\" Summary: \"During the warmer months, its coat turns ______\" सही उत्तर: brown। \"White\" पनि उही प्रकारको word हो, तर यसले अर्को अवस्थाको वर्णन गर्छ।"
+  },
+  "explanations": {
+   "1": "\"By day\" ले gregarious (झुन्डमा बस्ने) सलह, अर्थात् अर्को अवस्थाको वर्णन गर्छ, र यो summary-को sentence-मा पछि पहिल्यै आइसकेको छ।",
+   "2": "2009 serotonin पत्ता लागेको वर्ष हो, र 2019 प्रकोप (outbreak) को वर्ष। दुवै नजिकैको संख्याको trap (nearby-number trap) हुन्।",
+   "3": "\"Stroking\" = \"touching\", र \"was enough\" summary-सँग मिल्छ।",
+   "4": "\"Rise\" र \"increases levels\" को अर्थ एउटै हो।",
+   "5": "\"Colour and\" summary-मा पहिल्यै छ।",
+   "6": "यो सीधा मेल (direct match) हो। \"Insecticides\" पनि उही प्रकारको word हो, तर यो मानिसले गर्ने नियन्त्रणसँग सम्बन्धित छ, सलहको खानासँग होइन।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_17",
+  "lesson": {
+   "title": "धेरै gap-मा मिल्ने option (Options that fit several gaps)",
+   "text": "Hard word bank-मा distractor-हरू यसरी छानिन्छन् कि धेरै option धेरै gap-को grammar-मा मिल्छन्। जस्तै, weaker / stronger, identical / different र invention / evolution सबै grammar अनुसार एकभन्दा बढी ठाउँमा बस्न सक्छन्। Grammar-ले छनोटलाई धेरै साँघुरो बनाउँदैन। हरेक gap अर्थका आधारमा निर्णय गर्नुपर्छ, र option हेर्नुअघि आफ्नै अनुमान (prediction) लेख्नु सहयोगी हुन्छ।",
+   "example": "Summary: \"After training, the athletes' reaction times became ______\" Options: A shorter B longer C faster. A र C दुवै grammar-मा मिल्छन्; passage-को phrase \"reaction times fell\" ले उत्तर तय गर्छ: A।"
+  },
+  "explanations": {
+   "1": "G (evolution) grammar-मा मिल्छ तर कुरालाई उल्टो बनाउँछ: पढ्ने क्षमता evolve भएको होइन।",
+   "2": "यहाँ \"Discrimination\" = \"distinguishing\" (आकारहरू छुट्याउनु)।",
+   "3": "\"Skill\" र \"ability\" को अर्थ एउटै हो।",
+   "4": "\"Declined\" = कमजोर भयो। E (stronger) ले word-हरूप्रतिको प्रतिक्रियाको वर्णन गर्छ, अनुहारप्रतिको होइन।",
+   "5": "\"The same\" = \"identical\"। I (different) उल्टो अर्थ हो।",
+   "6": "J (age) लाई कारक (factor) को रूपमा उल्लेख गरिएको छैन।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_18",
+  "lesson": {
+   "title": "लामो noun phrase बाट उत्तर निकाल्ने (Extracting answers from long noun phrases)",
+   "text": "Hard passage-हरूले धेरै जानकारी लामो noun phrase-मा कोचेर राख्छन्, जस्तै \"a type of teosinte from the valley of the Balsas River in south-western Mexico\"। Summary-को gap-लाई प्रायः त्यो phrase-को एउटा भाग मात्र चाहिन्छ, र बाँकी भाग summary आफैंले दिएको हुन्छ (\"teosinte from the valley of the ______\")। Gap-को दुवैतिरका word पढ्नुहोस्, अनि छुटेका word मात्र लिनुहोस्।",
+   "example": "Passage: \"a small wooden box with a brass lock\"। Summary: \"the letters were kept in a small wooden ______\" सही उत्तर: box (\"wooden box\" होइन)।"
+  },
+  "explanations": {
+   "1": "\"Only\" summary-मा पहिल्यै छ। \"Hundreds\" ले maize-को वर्णन गर्छ, teosinte-को होइन।",
+   "2": "\"could\" पछि gap-मा verb चाहिन्छ, र \"easily\" summary-मा पहिल्यै छ।",
+   "3": "\"The valley of the\" summary-मा पहिल्यै छ। \"Balsas River in south-western Mexico\" लेख्दा word limit नाघ्छ।",
+   "4": "यो सीधा मेल (direct match) हो।",
+   "5": "यो ३ वटा word हो। \"With a few large ears\" summary-मा पहिल्यै छ।",
+   "6": "\"Oaxaca, Mexico\" लेखे पनि सही मानिन्छ। \"The Andes\" मा maize पछि मात्र फैलिएको हो, त्यसैले यो उही प्रकारको trap (same-type trap) हो।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_19",
+  "lesson": {
+   "title": "पहिलेको धारणा सच्याउने summary (Summaries that correct an earlier belief)",
+   "text": "Passage-ले पुरानो व्याख्यालाई नयाँ व्याख्याले बदल्दा, word bank-मा प्रायः दुवैका लागि word हुन्छन्। कुनै gap-ले कुनै कुरालाई \"had usually been interpreted as\" (पुरानो धारणा) के भनेर बुझिन्थ्यो, वा नयाँ अध्ययनले के \"suggested\" (नयाँ धारणा) गर्‍यो भनेर सोध्न सक्छ। Gap-ले कुन धारणाको वर्णन गर्छ भनेर तय गर्न, हरेक gap वरिपरिको verb tense र reporting word जाँच्नुहोस्।",
+   "example": "Passage: \"The marks were thought to be damage; they are now known to be decoration.\" Summary: \"The marks had long been regarded as ______\" Options: A damage B decoration. सही उत्तर: A।"
+  },
+  "explanations": {
+   "1": "J (sand) grammar-मा मिल्छ तर passage-मा उल्लेख छैन।",
+   "2": "D (weaker) ले समुद्री पानीले आधुनिक concrete-लाई के गर्छ भनेर वर्णन गर्छ, त्यसैले यहाँ यो trap हो।",
+   "3": "\"Had usually been interpreted\" ले पुरानो धारणा जनाउँछ। I (careful) उल्टो अर्थ हो।",
+   "4": "यो 2023 को अध्ययनले बताएको नयाँ धारणा हो। H (cold) उल्टो अर्थ हो।",
+   "5": "G (widens) उल्टो effect हो।",
+   "6": "\"When first set\" = \"initially\"। C (stronger) gap 2-मा लामो समयको effect-का लागि पहिल्यै प्रयोग भइसकेको छ।"
+  }
+ },
+ {
+  "id": "rb_summary_completion_20",
+  "lesson": {
+   "title": "अन्तिम पुनरावलोकन — Summary Completion-को पूरा तरिका (Final review — the complete Summary Completion method)",
+   "text": "यो अन्तिम set-ले मुख्य सीपहरू एकैठाउँ जोड्छ: summary-ले समेट्ने भाग पत्ता लगाउने, word-को प्रकार अनुमान गर्ने, paraphrase चिन्ने, उही प्रकारका नजिकैका मिति (date) अस्वीकार गर्ने, र word limit भित्र सबैभन्दा कम word निकाल्ने। हरेक gap-का लागि: (1) मिल्ने sentence खोज्नुहोस्; (2) के छुटेको छ अनुमान गर्नुहोस्; (3) ठ्याक्कै word सार्नुहोस्; (4) पूरा भएको sentence-को word limit, spelling र grammar जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Large quantities of\" = \"a large amount of\", जुन summary-मा पहिल्यै छ।",
+   "2": "\"Abandoned\" = \"left\"। September 1846 (बरफमा फसेको) र June 1847 (Franklin-को मृत्यु) नजिकैका मितिका trap (nearby-date trap) हुन्। \"1848\" मात्र लेखे पनि सही मानिन्छ।",
+   "3": "\"The\" summary-मा पहिल्यै छ।",
+   "4": "\"Used to seal\" = \"sealing\"। Summary-को \"at the time\" ले यो पहिलेको व्याख्या हो, जसलाई पछि प्रश्न उठाइयो, भन्ने संकेत गर्छ।",
+   "5": "\"Not markedly greater\" र \"similar\" को अर्थ एउटै हो।",
+   "6": "\"Inuit\" summary-मा पहिल्यै छ। \"Knowledge\" (Paragraph F) उही प्रकारको word हो, तर जहाजको भग्नावशेष (wreck) फेला पार्न मद्दत गर्ने चाहिँ \"oral history\" हो।"
+  }
+ },
+ {
+  "id": "rb_note_completion_01",
+  "lesson": {
+   "title": "हरेक heading-लाई एउटा paragraph-सँग मिलाउने (Match each heading to a paragraph)",
+   "text": "सजिलो set-मा notes-को हरेक समूह प्रायः एउटै paragraph-बाट आउँछ। कुनै पनि उत्तर खोज्नुअघि heading-हरू पढ्नुहोस् र हरेकको छेउमा मिल्ने paragraph letter लेख्नुहोस् (\"Origins\" → A, \"A luxury item\" → B)। त्यसपछि त्यो heading मुनिका gap-का लागि त्यही paragraph मात्र खोज्नुहोस्।",
+   "example": "Heading: \"Growing pineapples in Europe\"। Greenhouse र मालीहरू (gardeners) को वर्णन गर्ने paragraph खोज्नुहोस्, जहाज वा मूल्यबारेको paragraph होइन।"
+  },
+  "explanations": {
+   "1": "\"Brazil and\" notes-मा पहिल्यै छ।",
+   "2": "\"Struck by\" र \"impressed by\" को अर्थ एउटै हो।",
+   "3": "\"most fruits\" पछि gap-मा past tense verb चाहिन्छ।",
+   "4": "\"Buildings, gateposts and\" notes-मा पहिल्यै छ।",
+   "5": "\"Known as\" र \"called\" को अर्थ एउटै हो।",
+   "6": "\"Bark\" मात्र लेखे पनि सही मानिन्छ।",
+   "7": "\"Up to\" notes-मा पहिल्यै छ। सत्रौं शताब्दीको अन्त्य (late seventeenth century) मिति हो, समयको लम्बाइ होइन।",
+   "8": "\"Faster\" notes-मा पहिल्यै छ। \"Canning\" उन्नाइसौं शताब्दीको अर्कै परिवर्तन हो: यो खाना जोगाउने (preservation) कुरा हो, ढुवानी (transport) होइन।"
+  }
+ },
+ {
+  "id": "rb_note_completion_02",
+  "lesson": {
+   "title": "Notes-मा साना word-हरू छुटाइन्छन् (Notes leave out small words)",
+   "text": "Notes-मा article (a, the), linking word र धेरै verb हटाइन्छन्, त्यसैले gap वरिपरि प्रायः २-३ वटा word मात्र हुन्छन्। Note-को ठ्याक्कै phrase passage-मा नखोज्नुहोस्। Idea खोज्नुहोस्, अनि मुख्य word लिनुहोस्। जस्तै, note \"depend on (2) ______\" passage-को sentence \"Instead, they rely on their fur.\" सँग मिल्छ।",
+   "example": "Note: \"diet: mainly (1) ______\" Passage: \"Its diet consists largely of seeds.\" सही उत्तर: seeds।"
+  },
+  "explanations": {
+   "1": "\"Heaviest\" र \"family\" notes-मा पहिल्यै छन्।",
+   "2": "\"Rely on\" र \"depend on\" को अर्थ एउटै हो।",
+   "3": "यो सीधा मेल (direct match) हो। \"Fat\" trap हो: अरू समुद्री स्तनधारी (marine mammal) ले त्यो प्रयोग गर्छन्।",
+   "4": "\"spent\" पछि gap-मा -ing form चाहिन्छ।",
+   "5": "\"Spills\" notes-मा पहिल्यै छ। \"Serious threat\" = \"major danger\"।",
+   "6": "\"A\" notes-मा पहिल्यै छ।",
+   "7": "\"Flat\" notes-मा पहिल्यै छ।",
+   "8": "यो सीधा मेल (direct match) हो।"
+  }
+ },
+ {
+  "id": "rb_note_completion_03",
+  "lesson": {
+   "title": "Timeline-मा दिइएका मिति (Dates in a timeline)",
+   "text": "इतिहासका notes प्रायः timeline-को रूपमा मिलाइएका हुन्छन्, हरेक bullet-को सुरुमा मिति (date) हुन्छ। Passage-ले एउटै आविष्कारका २ वटा मिति दिन सक्छ: design गरिएको मिति र patent गरिएको मिति। मिति लेख्नुअघि, note ले कुन घटनाको कुरा गर्छ भनेर ध्यान दिएर पढ्नुहोस्।",
+   "example": "Passage: \"He built the engine in 1885 and patented it in 1886.\" Note: \"patent granted: (1) ______\" सही उत्तर: 1886।"
+  },
+  "explanations": {
+   "1": "\"Best known for\" र \"linked with\" को अर्थ एउटै हो।",
+   "2": "\"Designed mainly to\" र \"intended mainly for\" को अर्थ एउटै हो।",
+   "3": "\"Tended to\" र \"unexpectedly\" notes-मा पहिल्यै छन्।",
+   "4": "\"Small metal\" notes-मा पहिल्यै छ।",
+   "5": "\"In large quantities\" र \"large-scale production\" को अर्थ एउटै हो।",
+   "6": "1913 मा उनले fastener design गरेका हुन्, patent भएको होइन। यही timeline trap हो।",
+   "7": "यो सीधा मेल (direct match) हो। 1923 मा नाम सुरु गरिएको हो, त्यो यसको उत्पत्ति होइन।",
+   "8": "\"Children's clothing\" र \"clothing for children\" को अर्थ एउटै हो।"
+  }
+ },
+ {
+  "id": "rb_note_completion_04",
+  "lesson": {
+   "title": "एउटा word भनेर के गनिन्छ (What counts as one word)",
+   "text": "ONE WORD AND/OR A NUMBER भन्ने निर्देशन हुँदा, एउटा अक्षर (जस्तै \"vitamin C\" को C) लाई एउटा word गनिन्छ, र संख्यालाई word होइन, संख्या नै गनिन्छ। Notes-मा पहिल्यै छापिएको unit फेरि सार्नु हुँदैन। Note-मा \"over 100,000 (3) ______\" लेखिएको छ भने, unit मात्र छुटेको हुन्छ।",
+   "example": "Passage: \"It is rich in vitamin A.\" Note: \"rich in vitamin (1) ______\" सही उत्तर: A।"
+  },
+  "explanations": {
+   "1": "\"Six\" Madagascar-मा मात्र पाइने संख्या हो, जम्मा संख्या होइन।",
+   "2": "\"Soft, spongy\" notes-मा पहिल्यै छ।",
+   "3": "संख्या notes-मा पहिल्यै छ; unit मात्र छुटेको छ।",
+   "4": "\"Swells\" ले वर्षायामको वर्णन गर्छ, जुन उल्टो हो।",
+   "5": "\"Clear annual\" notes-मा पहिल्यै छ।",
+   "6": "एउटा अक्षरलाई एउटा word गनिन्छ।",
+   "7": "\"Oil\" बीउ (seed) बाट बनाइन्छ, बोक्रा (bark) बाट होइन।",
+   "8": "\"Fruit\" notes-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_05",
+  "lesson": {
+   "title": "Notes-मा प्रयोग हुने symbol (Symbols in notes)",
+   "text": "Notes-मा प्रायः word-को सट्टा symbol प्रयोग हुन्छन्। सबैभन्दा धेरै प्रयोग हुने यी हुन्: → (निम्त्याउँछ / परिणाम हुन्छ), = (अर्थ हो / हो), ≈ (लगभग), + (र), ↑ र ↓ (वृद्धि र कमी), र e.g. (उदाहरणका लागि)। Passage खोज्नुअघि हरेक symbol-लाई word-मा बदलेर बुझ्नुहोस्। जस्तै, \"logging = resting still at the (6) ______\" को अर्थ हो \"logging is resting still at the ______\"।",
+   "example": "Note: \"total ≈ (1) ______ per day\"। Passage: \"about six hours a day\"। सही उत्तर: six hours।"
+  },
+  "explanations": {
+   "1": "\"Open\" र \"at the surface\" notes-मा पहिल्यै छन्।",
+   "2": "यो सीधा मेल (direct match) हो।",
+   "3": "Symbol \"+\" = \"and\"। \"Sharks\" (Paragraph C) शिकारी (predator) को उदाहरण हो, यो sentence-मा दिमागले निगरानी गर्ने कुरा होइन।",
+   "4": "Symbol \"=\" को अर्थ \"is\" हो।",
+   "5": "\"≈\" को अर्थ \"around\" (लगभग) हो।",
+   "6": "\"Sea floor\" ले आराम गर्ने अर्कै स्थितिको वर्णन गर्छ।",
+   "7": "Symbol \"→\" को अर्थ \"results in\" हो, र \"may help protect\" मिल्छ।",
+   "8": "\"while\" पछि gap-मा -ing form चाहिन्छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_06",
+  "lesson": {
+   "title": "ONE WORD ONLY र नामहरू (ONE WORD ONLY and names)",
+   "text": "ONE WORD ONLY हुँदा धेरै उत्तर नाम (ठाउँ, संस्था वा process-का) वा technical term हुन्छन्। नाममा धेरै word छन् भने, notes-मा प्रायः एउटाबाहेक सबै छापिएका हुन्छन् (\"the International Ice (5) ______\")। छुटेको word ठूलो अक्षर (capital letter) सहित ठ्याक्कै सार्नुहोस्।",
+   "example": "Passage: \"The Royal Geographical Society funded the trip.\" Note: \"funded by the Royal Geographical (1) ______\" सही उत्तर: Society।"
+  },
+  "explanations": {
+   "1": "यो सीधा मेल (direct match) हो।",
+   "2": "\"Antarctica\" सबैभन्दा ठूला iceberg-को स्रोत हो, North Atlantic-का iceberg-को होइन।",
+   "3": "\"Beneath\" र \"below\" को अर्थ एउटै हो।",
+   "4": "\"Bergy bits\" अलि ठूला हुन्छन्, र यो २ वटा word हो।",
+   "5": "नामको अन्तिम word मात्र छुटेको छ।",
+   "6": "\"Aircraft, satellites and\" notes-मा पहिल्यै छ।",
+   "7": "\"Such as\" = \"e.g.\"। \"Phytoplankton\" बिरुवा हुन्, खनिज (mineral) होइनन्।",
+   "8": "पग्लने समस्या notes-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_07",
+  "lesson": {
+   "title": "Paragraph अनुसार होइन, topic अनुसार मिलाइएका notes (Notes grouped by topic, not by paragraph)",
+   "text": "Medium level-मा notes प्रायः passage-को paragraph-पिच्छे क्रम नमानी topic अनुसार मिलाइन्छन् (\"Key innovations\", \"Problems\")। त्यसैले एउटै heading-ले passage-का फरक-फरक भागबाट detail जम्मा गर्न सक्छ, र अन्तिम gap त्यसभन्दा अघिल्लो gap-को भन्दा पनि पहिलेको paragraph-बाट आउन सक्छ। कस्तो जानकारी चाहिन्छ भनेर heading-बाट तय गर्नुहोस्, अनि त्यो जहाँ आए पनि त्यहाँ खोज्नुहोस्।",
+   "example": "Heading: \"Problems\"। Passage-मा एउटा समस्या Paragraph B-मा र अर्को Paragraph E-मा उल्लेख छ। बीचमा अरू जानकारी आए पनि दुवै उही heading मुनि पर्छन्।"
+  },
+  "explanations": {
+   "1": "यो सीधा मेल (direct match) हो।",
+   "2": "\"Cargo\" दुवैमा प्रयोग भएको छ। \"The Caribbean\" सामान्य क्षेत्र हो, पहिलो cargo-को गन्तव्य होइन।",
+   "3": "\"Create demand\" र \"built demand\" को अर्थ एउटै हो।",
+   "4": "यो सीधा मेल (direct match) हो।",
+   "5": "\"Uniform\" र \"of equal size\" को अर्थ एउटै हो।",
+   "6": "यही topic अनुसार समूह बनाउने सीप हो: heading \"Problems\" ले यो detail Paragraph E-बाट जम्मा गर्छ।",
+   "7": "\"had become\" पछि gap-मा adjective चाहिन्छ।",
+   "8": "Notes topic अनुसार मिलाइएकाले, यो उत्तर Paragraph E-का \"Problems\" detail-भन्दा अगाडि, Paragraph D-बाट आउँछ। \"The 1830s\" लेखे पनि सही मानिन्छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_08",
+  "lesson": {
+   "title": "Notes-मा evidence र त्यसका सीमा (Evidence and limitations in notes)",
+   "text": "अनुसन्धानका notes-ले प्रायः finding र त्यसको सीमा (limitation) छुट्याउँछन्, कहिलेकाहीँ \"limitation\" वा \"but\" लेखिएको sub-bullet प्रयोग गरेर। Limitation मुनिको gap-मा शंका वा कमजोरी देखाउने word चाहिन्छ, finding आफैं होइन। छान्नुअघि sub-bullet सहित पूरा bullet पढ्नुहोस्।",
+   "example": "Passage: \"The drug reduced pain, but the trial was small.\" Notes: \"• result: less pain – limitation: (1) ______ trial\"। सही उत्तर: small।"
+  },
+  "explanations": {
+   "1": "\"Five hundred million\" संख्या हो, त्यसैले word limit-मा अटाउँछ। Paragraph B-मा neuron-का लागि पनि यही संख्या आउँछ, त्यसैले context जाँच्नुहोस्: यहाँ यो वर्ष हो।",
+   "2": "Hyphen भएको word-लाई एउटा word गनिन्छ। \"Five hundred million\" neuron-को जम्मा संख्या हो, हातहरू (arms) मा भएको हिस्सा होइन।",
+   "3": "\"Of jars\" notes-मा पहिल्यै छ।",
+   "4": "\"Learning by\" notes-मा पहिल्यै छ।",
+   "5": "Sub-bullet ले limitation सोधेको छ, सुरुको finding होइन।",
+   "6": "\"Water current\" र \"current of water\" को अर्थ एउटै हो।",
+   "7": "\"Assembles into\" र \"build\" को अर्थ एउटै हो।",
+   "8": "Notes-को \"Despite\" ले \"Surprisingly\" लाई जनाउँछ। Hyphen भएको word-लाई एउटा word गनिन्छ।",
+   "9": "\"Largely\" र \"mostly\" को अर्थ एउटै हो।"
+  }
+ },
+ {
+  "id": "rb_note_completion_09",
+  "lesson": {
+   "title": "उद्देश्य र परिणाम (Aim versus result)",
+   "text": "आविष्कारका कथाहरूले प्रायः कसैले के गर्न खोजेको थियो र वास्तवमा के भयो भनेर बताउँछन्। Notes-ले यी दुईलाई \"aim\" र \"result\" जस्ता label-ले छुट्याउँछन्। दुवै passage-मा नजिकै आउने भएकाले यिनलाई सजिलै झुक्किन सकिन्छ। लेख्नुअघि gap-भन्दा अगाडि कुन label छापिएको छ जाँच्नुहोस्।",
+   "example": "Passage: \"He set out to find a new route to India but reached the Caribbean.\" Notes: \"aim: route to (1) ______\" सही उत्तर: India।"
+  },
+  "explanations": {
+   "1": "\"Plants, insects and\" notes-मा पहिल्यै छ।",
+   "2": "\"Sea\" notes-मा पहिल्यै छ।",
+   "3": "यो aim हो। Result, अर्थात् बैजनी रङ (purple dye), छुट्टै bullet-मा छ।",
+   "4": "\"Coal\" notes-मा पहिल्यै छ।",
+   "5": "यो result हो। \"Silk\" मा उनले रङ (dye) परीक्षण गरेका थिए, त्यसले घोल (solution) बनाएको होइन।",
+   "6": "\"Queen\" notes-मा पहिल्यै छ।",
+   "7": "Britain र France ले पनि रङ (dye) विकास गरे, तर तिनको प्रभुत्व थिएन।",
+   "8": "\"And bacteria\" notes-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_10",
+  "lesson": {
+   "title": "ठूला संख्या र भिन्न (Large numbers and fractions)",
+   "text": "Note-लाई ठूलो परिमाण (\"about (1) ______ tonnes\") वा भिन्न (\"≈ (2) ______ sand and gravel\") चाहिँदा, passage-ले त्यसलाई शब्दमा लेखेको हुन सक्छ (\"fifty billion\", \"three-quarters\")। तपाईं शब्दमा वा अंकमा सार्न सक्नुहुन्छ, तर note-मा पहिल्यै छापिएको unit दोहोर्‍याउनु हुँदैन। संख्याले के नाप्छ भनेर पनि जाँच्नुहोस्: निकालिएको परिमाण, मिश्रणको हिस्सा, वा वर्ष।",
+   "example": "Passage: \"Around two-thirds of the land is forest.\" Note: \"forest ≈ (1) ______ of land\"। सही उत्तर: two-thirds।"
+  },
+  "explanations": {
+   "1": "\"Tonnes\" notes-मा पहिल्यै छ।",
+   "2": "\"≈\" = \"roughly\"। Hyphen भएको word-लाई एउटा word गनिन्छ।",
+   "3": "\"Rounded and\" notes-मा पहिल्यै छ।",
+   "4": "यो सीधा मेल (direct match) हो।",
+   "5": "\"Lower\" notes-मा पहिल्यै छ।",
+   "6": "\"Lost to the\" notes-मा पहिल्यै छ।",
+   "7": "\"Recycled concrete\" पनि एउटा विकल्प हो, तर यसले बालुवा बन्नुको सट्टा नयाँ सामग्रीको ठाउँ लिन्छ, र energy-को कुरा crushed rock-का लागि मात्र उल्लेख छ।",
+   "8": "\"A\" notes-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_11",
+  "lesson": {
+   "title": "कारण र परिणाम देखाउने arrow (Arrows that show cause and effect)",
+   "text": "Notes-मा arrow (→) ले कारणलाई परिणामसँग, वा कामलाई त्यसको नतिजासँग जोड्छ। Gap arrow-भन्दा अगाडि छ भने कारण चाहिन्छ; पछाडि छ भने परिणाम चाहिन्छ। यी दुईलाई जोड्ने passage-को sentence पढ्नुहोस्, र gap-ले सम्बन्धको कुन पक्ष सोधेको छ तय गर्नुहोस्।",
+   "example": "Passage: \"Heavy rain caused the river to overflow.\" Note: \"(1) ______ → river overflowed\"। सही उत्तर: heavy rain (कारण)।"
+  },
+  "explanations": {
+   "1": "Gap arrow-पछि आउँछ, त्यसैले यो परिणाम हो।",
+   "2": "Gap arrow-भन्दा अगाडि आउँछ, त्यसैले यो कारणको भाग हो। \"High\" notes-मा पहिल्यै छ।",
+   "3": "\"More than 1,800\" मृत्यु भएकाहरूको संख्या हो, त्यसैले यो नजिकैको संख्याको trap (nearby-number trap) हो।",
+   "4": "Gap arrow-पछि आउँछ: estuary-हरू बन्द गर्दा तटरेखा (coastline) छोटो हुन्छ।",
+   "5": "\"Turned ... into\" र \"turn into\" को अर्थ एउटै हो।",
+   "6": "\"Environmental groups, fishermen and\" notes-मा पहिल्यै छ।",
+   "7": "\"Close only during\" notes-मा पहिल्यै छ।",
+   "8": "\"allowed to\" पछि gap-मा verb चाहिन्छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_12",
+  "lesson": {
+   "title": "Notes-भित्रका technical term-हरू (Technical terms in notes)",
+   "text": "विज्ञानका notes-ले passage-कै technical term प्रयोग गर्छन्, तर फरक ढंगले देखाउन सक्छन्: colon सहितको label-को रूपमा (\"master clock: in the (2) ______\"), वा परिभाषाको रूपमा (\"made by the (5) ______ gland\")। Passage-ले कुनै term-को परिभाषा दिँदा (\"the hypothalamus, a region at the base of the brain\"), उत्तर प्रायः term आफैं हुन्छ, व्याख्या होइन।",
+   "example": "Passage: \"Chlorophyll, the green pigment in leaves, absorbs light.\" Note: \"light absorbed by (1) ______\" सही उत्तर: chlorophyll।"
+  },
+  "explanations": {
+   "1": "\"Temperature, hormones and\" notes-मा पहिल्यै छ।",
+   "2": "Term लेख्नुहोस्, त्यसको परिभाषा (\"a region at the base of the brain\") होइन।",
+   "3": "\"Slightly\" notes-मा पहिल्यै छ।",
+   "4": "यो सीधा मेल (direct match) हो।",
+   "5": "\"Gland\" notes-मा पहिल्यै छ।",
+   "6": "\"E.g.\" = \"for example\"; screen प्रकाशको स्रोतको उदाहरण हो।",
+   "7": "\"Westwards\" सजिलो दिशा हो, अर्थात् उल्टो।",
+   "8": "\"Workers\" notes-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_13",
+  "lesson": {
+   "title": "सूचीबाट सही detail छान्ने (Choosing the right detail from a list)",
+   "text": "Passage-हरूले प्रायः एउटै sentence-मा धेरै detail-को सूची दिन्छन् (\"writing, weights, measures and money\"; \"swords, spears and crossbows\")। Notes-ले प्रायः सूचीका धेरैजसो कुरा छाप्छन् र एउटा item-लाई gap बनाउँछन्। Notes र passage-को सूचीलाई एक-एक item गरेर तुलना गर्नुहोस्, र छुटेको item मात्र लेख्नुहोस्।",
+   "example": "Passage: \"The shop sold bread, cakes and pies.\" Notes: \"products: bread, (1) ______, pies\"। सही उत्तर: cakes।"
+  },
+  "explanations": {
+   "1": "यो सीधा मेल (direct match) हो।",
+   "2": "246 BC र 221 BC वर्ष हुन्, उमेर होइनन्।",
+   "3": "सूचीका अरू item-हरू notes-मा पहिल्यै छन्।",
+   "4": "\"Soldiers\" notes-मा पहिल्यै छ।",
+   "5": "\"Individually by hand\" ३ वटा word हो र word limit नाघ्छ, त्यसैले \"by hand\" मात्र लेख्नुहोस्।",
+   "6": "\"Within\" notes-मा पहिल्यै छ।",
+   "7": "\"Chromium\" पहिलेको व्याख्या हो, जसलाई नयाँ अनुसन्धानले अस्वीकार गर्‍यो।",
+   "8": "यो सीधा मेल (direct match) हो।"
+  }
+ },
+ {
+  "id": "rb_note_completion_14",
+  "lesson": {
+   "title": "Process-लाई चरणमा भाग गर्ने notes (Notes that break a process into steps)",
+   "text": "Passage-ले कुनै process (कुनै कुरा कसरी फैलिन्छ, कुनै तरिका कसरी काम गर्छ) व्याख्या गर्दा, notes-ले हरेक चरणलाई छोटो लाइनमा बदल्न सक्छन्। Passage-ले प्रायः चरणहरू notes-भन्दा फरक क्रममा व्याख्या गर्छ, वा २ वटा चरण एउटै sentence-मा जोड्छ। Notes-मा हरेक चरण पहिचान गर्नुहोस्, अनि passage-को sentence-को कुन भागले त्यसको वर्णन गर्छ खोज्नुहोस्।",
+   "example": "Passage: \"Seeds are carried by birds, which drop them far from the parent plant.\" Notes: \"• seeds carried by (1) ______ • dropped far from (2) ______\" सही उत्तर: birds; parent plant।"
+  },
+  "explanations": {
+   "1": "\"Removing\" notes-मा पहिल्यै छ।",
+   "2": "\"To insecticides\" notes-मा पहिल्यै छ।",
+   "3": "\"Butterflies and flies\" उदाहरण मात्र हुन्, पूरा समूह होइनन्।",
+   "4": "\"Much harder\" = \"less able\"। \"to\" पछि gap-मा verb चाहिन्छ।",
+   "5": "यो फैलिने process-को पहिलो चरण हो।",
+   "6": "\"Do not hatch\" = \"fail to hatch\"। यो दोस्रो चरण हो।",
+   "7": "\"chosen\" पछि gap-मा adverb चाहिन्छ।",
+   "8": "\"Only\" notes-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_15",
+  "lesson": {
+   "title": "Hard Note Completion — abstract heading र धेरै paraphrase (Hard Note Completion — abstract headings and heavy paraphrase)",
+   "text": "Hard level-मा heading-हरू abstract हुन्छन् (\"Working conditions\", \"Method of presentation\") र notes-मा passage-का word विरलै हुन्छन्। ONE WORD ONLY हुँदा, अर्थ बोक्ने त्यो एउटै word पनि खोज्नुपर्छ। तरिका: हरेक note-लाई प्रश्नमा बदल्नुहोस् (\"What was she excluded from?\"), त्यसको उत्तर दिने sentence खोज्नुहोस्, र note-को अर्थ र grammar दुवैमा मिल्ने एउटा word छान्नुहोस्।",
+   "example": "Note: \"excluded from (1) ______ on grounds of sex\"। Passage: \"women were not allowed on the expeditions\"। सही उत्तर: expeditions।"
+  },
+  "explanations": {
+   "1": "\"Echo\" notes-मा पहिल्यै छ।",
+   "2": "\"Not permitted\" = \"not allowed\"। \"Research\" notes-मा पहिल्यै छ।",
+   "3": "\"Along the centre\" = \"central\"। \"Ridge\" आफैं पर्वतशृंखला हो, त्यसको बीचबाट जाने कुरा होइन।",
+   "4": "यो उपत्यका (valley) बारे उनको व्याख्या हो।",
+   "5": "\"Locations\" र \"positions\" को अर्थ एउटै हो।",
+   "6": "\"Lines\" notes-मा पहिल्यै छ।",
+   "7": "\"data\" पछि note-मा past participle चाहिन्छ।",
+   "8": "Plural रूप \"one of the ...\" सँग मिल्छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_16",
+  "lesson": {
+   "title": "धेरै संख्या, नाम र प्रतिस्पर्धी तरिका (Many numbers, names and competing methods)",
+   "text": "Hard इतिहासका passage-मा धेरै अंक (मिति, रकम, नापजाँच) र नाम भएका धेरै व्यक्ति हुन्छन्। Distractor-हरू प्रायः passage-कै उही प्रकारका साँचो detail हुन्, तर अर्कै घटनासँग जोडिएका: कानुनको वर्षको सट्टा दुर्घटनाको वर्ष, navigator-को नामको सट्टा घडी बनाउनेको नाम। हरेक gap-का लागि, अंक वा नाम छान्नुअघि note-ले वर्णन गरेको ठ्याक्कै घटना खोज्नुहोस्।",
+   "example": "Passage: \"A shipwreck in 1707 led Parliament to pass a law in 1714.\" Note: \"law passed: (1) ______\"। सही उत्तर: 1714।"
+  },
+  "explanations": {
+   "1": "\"Every hour\" = \"per hour\"। \"Half a degree\" पुरस्कार (prize) का लागि चाहिने शुद्धता (accuracy) हो, यो उही प्रकारको trap (same-type trap) हो।",
+   "2": "\"Useless\" को अर्थ \"unreliable\" हो, र \"rolling\" को अर्थ \"moving\" हो।",
+   "3": "1707 जहाज दुर्घटनाको वर्ष हो, यो मितिको trap (date trap) हो।",
+   "4": "यो ३ वटा word हो। \"Within\" notes-मा पहिल्यै छ।",
+   "5": "\"Method\" notes-मा पहिल्यै छ।",
+   "6": "\"Across\" notes-मा पहिल्यै छ।",
+   "7": "\"The Pacific\" मा Cook एउटा copy लिएर यात्रा गरेका थिए, त्यो परीक्षण यात्रा (trial voyage) होइन।",
+   "8": "यो ३ वटा word हो, word limit भित्रै छ। रकम \"Parliament\" ले तिरेको हो, तर अपील (appeal) चाहिँ King-सँग गरिएको थियो।",
+   "9": "James Cook ले copy प्रयोग गरे तर बनाएनन्, त्यसैले \"James Cook\" नामको trap (name trap) हो।"
+  }
+ }
+]

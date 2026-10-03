@@ -1,0 +1,43 @@
+{
+  "_format": {
+    "name": "speaking_bank_part3_topics",
+    "group": "bank",
+    "table": "speaking_part3_sets",
+    "primaryKey": "id",
+    "description": "Speaking bank Part 3 discussion topics (questions with sample answers in data).",
+    "currentSourceInApp": "assets/content/speaking_bank.json → part3Topics",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "category": "string",
+      "topic": "string",
+      "theme": "string",
+      "questions": "array",
+      "data": "object"
+    },
+    "notes": [
+      "questions = the question texts; data.questions = {q, tag, answer …}."
+    ],
+    "recordCountToday": 60
+  },
+  "items": [
+    {
+      "id": "sp3_people_01",
+      "source": "bank",
+      "category": "people",
+      "topic": "Role Models",
+      "theme": "People & Relationships",
+      "questions": [
+        "Do you think it is important for young people to have role models?",
+        "How have the types of role models changed since your grandparents' time?",
+        "How do role models affect the way people behave in a society?",
+        "Why do some public figures fail to remain positive role models over time?",
+        "In the future, do you think AI or fictional characters could become role models?",
+        "What can be done to encourage young people to choose positive role models?",
+        "Do you think people are more influenced by role models in real life or in the media?",
+        "Some people say governments should promote positive role models. Do you agree?"
+      ],
+      "data": "… the app record (same keys as the source file) …"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idioms A</title>
+<style>
+  :root{--bg:#f6f5fb;--card:#fff;--ink:#1c1830;--muted:#6b6580;--accent:#5C3E94;--accent2:#008080;--line:#e7e3f2;--row:#faf9fe}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141026;--card:#1e1836;--ink:#efecf7;--muted:#a49dbd;--accent:#b9a3ea;--accent2:#4bc0c0;--line:#2c2447;--row:#241d40}}
+  :root[data-theme="dark"]{--bg:#141026;--card:#1e1836;--ink:#efecf7;--muted:#a49dbd;--accent:#b9a3ea;--accent2:#4bc0c0;--line:#2c2447;--row:#241d40}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45;padding:20px 16px 60px}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-size:1.4rem;margin:0 0 4px;color:var(--accent)}
+  .sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+  .search{width:100%;padding:11px 14px;font-size:1rem;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);margin-bottom:8px}
+  .search::placeholder{color:var(--muted)}
+  .count{font-size:.82rem;color:var(--muted);margin-bottom:10px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  thead th{position:sticky;top:0;background:var(--accent);color:#fff;font-size:.8rem;text-align:left;padding:9px 12px;font-weight:600;z-index:2}
+  tbody td{padding:9px 12px;border-top:1px solid var(--line);font-size:.9rem;vertical-align:top}
+  tbody tr:nth-child(even){background:var(--row)}
+  .pv{font-weight:700;color:var(--accent)}
+  .mean{color:var(--ink)}
+  .ex{color:var(--muted);font-style:italic}
+  .ex b{font-style:normal;color:var(--accent2);font-weight:600}
+  @media(max-width:640px){.ex,thead th.h-ex{display:none}}
+  .noshow{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Idioms — A</h1>
+<p class="sub">Module 4, part 1 · idiom · meaning · example. Searchable. 96 entries.</p>
+<input id="q" class="search" type="search" placeholder="Search an idiom or meaning — e.g. piece of cake, at a loss…" autocomplete="off">
+<div class="count" id="count"></div>
+<table>
+<thead><tr><th>Idiom</th><th>Meaning</th><th class="h-ex">Example</th></tr></thead>
+<tbody id="tb">
+<tr><td class="pv">a blessing in disguise</td><td class="mean">something good that first seemed bad</td><td class="ex">Losing that job was <b>a blessing in disguise</b>.</td></tr>
+<tr><td class="pv">a bitter pill to swallow</td><td class="mean">an unpleasant fact one must accept</td><td class="ex">The defeat was <b>a bitter pill to swallow</b>.</td></tr>
+<tr><td class="pv">a dime a dozen</td><td class="mean">very common and of little value</td><td class="ex">Such apps are <b>a dime a dozen</b>.</td></tr>
+<tr><td class="pv">a drop in the ocean</td><td class="mean">a tiny amount compared to what is needed</td><td class="ex">My donation is just <b>a drop in the ocean</b>.</td></tr>
+<tr><td class="pv">a far cry from</td><td class="mean">very different from</td><td class="ex">This is <b>a far cry from</b> home.</td></tr>
+<tr><td class="pv">a piece of cake</td><td class="mean">very easy</td><td class="ex">The test was <b>a piece of cake</b>.</td></tr>
+<tr><td class="pv">a slap on the wrist</td><td class="mean">a very mild punishment</td><td class="ex">He got off with <b>a slap on the wrist</b>.</td></tr>
+<tr><td class="pv">a storm in a teacup</td><td class="mean">a big fuss over something trivial</td><td class="ex">The row was <b>a storm in a teacup</b>.</td></tr>
+<tr><td class="pv">a stone's throw</td><td class="mean">a very short distance</td><td class="ex">The beach is <b>a stone's throw</b> away.</td></tr>
+<tr><td class="pv">a taste of your own medicine</td><td class="mean">the same bad treatment you give others</td><td class="ex">He finally got <b>a taste of his own medicine</b>.</td></tr>
+<tr><td class="pv">a chip on your shoulder</td><td class="mean">a lasting grievance or resentment</td><td class="ex">He has <b>a chip on his shoulder</b> about school.</td></tr>
+<tr><td class="pv">a dark horse</td><td class="mean">a surprising, little-known competitor</td><td class="ex">She was <b>a dark horse</b> in the race.</td></tr>
+<tr><td class="pv">a leopard can't change its spots</td><td class="mean">people cannot change their basic nature</td><td class="ex">He lied again — <b>a leopard can't change its spots</b>.</td></tr>
+<tr><td class="pv">a penny for your thoughts</td><td class="mean">tell me what you are thinking</td><td class="ex">You're quiet — <b>a penny for your thoughts</b>?</td></tr>
+<tr><td class="pv">a whole new ball game</td><td class="mean">a completely different situation</td><td class="ex">Managing people is <b>a whole new ball game</b>.</td></tr>
+<tr><td class="pv">a close shave</td><td class="mean">a narrow escape from danger</td><td class="ex">That was <b>a close shave</b> on the road.</td></tr>
+<tr><td class="pv">a fish out of water</td><td class="mean">someone uncomfortable in a situation</td><td class="ex">I felt like <b>a fish out of water</b> there.</td></tr>
+<tr><td class="pv">a hot potato</td><td class="mean">a controversial, awkward issue</td><td class="ex">Tax reform is <b>a hot potato</b>.</td></tr>
+<tr><td class="pv">a needle in a haystack</td><td class="mean">something almost impossible to find</td><td class="ex">Finding it was <b>a needle in a haystack</b>.</td></tr>
+<tr><td class="pv">a once in a blue moon</td><td class="mean">very rarely</td><td class="ex">We meet <b>once in a blue moon</b>.</td></tr>
+<tr><td class="pv">a shot in the dark</td><td class="mean">a wild guess</td><td class="ex">My answer was <b>a shot in the dark</b>.</td></tr>
+<tr><td class="pv">a sight for sore eyes</td><td class="mean">a welcome, pleasing sight</td><td class="ex">You're <b>a sight for sore eyes</b>!</td></tr>
+<tr><td class="pv">a tall order</td><td class="mean">a difficult demand or task</td><td class="ex">Finishing today is <b>a tall order</b>.</td></tr>
+<tr><td class="pv">a tough cookie</td><td class="mean">a strong, determined person</td><td class="ex">She's <b>a tough cookie</b>.</td></tr>
+<tr><td class="pv">above board</td><td class="mean">honest and legitimate</td><td class="ex">The deal was entirely <b>above board</b>.</td></tr>
+<tr><td class="pv">above and beyond</td><td class="mean">more than is required</td><td class="ex">She went <b>above and beyond</b> to help.</td></tr>
+<tr><td class="pv">Achilles' heel</td><td class="mean">a person's one weak point</td><td class="ex">Pride is his <b>Achilles' heel</b>.</td></tr>
+<tr><td class="pv">across the board</td><td class="mean">applying to everyone or everything</td><td class="ex">Pay rose <b>across the board</b>.</td></tr>
+<tr><td class="pv">actions speak louder than words</td><td class="mean">what you do matters more than what you say</td><td class="ex">Prove it — <b>actions speak louder than words</b>.</td></tr>
+<tr><td class="pv">add fuel to the fire</td><td class="mean">to make a bad situation worse</td><td class="ex">His comment <b>added fuel to the fire</b>.</td></tr>
+<tr><td class="pv">add insult to injury</td><td class="mean">to make a bad situation even worse</td><td class="ex">To <b>add insult to injury</b>, they fined us too.</td></tr>
+<tr><td class="pv">against the clock</td><td class="mean">rushing to finish before a deadline</td><td class="ex">We worked <b>against the clock</b>.</td></tr>
+<tr><td class="pv">against the grain</td><td class="mean">contrary to one's nature or custom</td><td class="ex">Lying goes <b>against the grain</b> for her.</td></tr>
+<tr><td class="pv">ahead of the curve</td><td class="mean">more advanced than others</td><td class="ex">Their design is <b>ahead of the curve</b>.</td></tr>
+<tr><td class="pv">ahead of time</td><td class="mean">earlier than planned</td><td class="ex">We finished <b>ahead of time</b>.</td></tr>
+<tr><td class="pv">air your dirty laundry</td><td class="mean">to discuss private matters in public</td><td class="ex">Don't <b>air your dirty laundry</b> online.</td></tr>
+<tr><td class="pv">all ears</td><td class="mean">listening very attentively</td><td class="ex">Go on, I'm <b>all ears</b>.</td></tr>
+<tr><td class="pv">all in a day's work</td><td class="mean">a normal part of one's routine</td><td class="ex">Long hours are <b>all in a day's work</b>.</td></tr>
+<tr><td class="pv">all in the same boat</td><td class="mean">in the same difficult situation</td><td class="ex">We're <b>all in the same boat</b> here.</td></tr>
+<tr><td class="pv">all over the place</td><td class="mean">disorganised; everywhere</td><td class="ex">My notes are <b>all over the place</b>.</td></tr>
+<tr><td class="pv">all thumbs</td><td class="mean">clumsy with one's hands</td><td class="ex">I'm <b>all thumbs</b> with tools.</td></tr>
+<tr><td class="pv">all bark and no bite</td><td class="mean">threatening but harmless</td><td class="ex">The boss is <b>all bark and no bite</b>.</td></tr>
+<tr><td class="pv">all in your head</td><td class="mean">imagined, not real</td><td class="ex">The fear was <b>all in his head</b>.</td></tr>
+<tr><td class="pv">an arm and a leg</td><td class="mean">a very large amount of money</td><td class="ex">The repair cost <b>an arm and a leg</b>.</td></tr>
+<tr><td class="pv">an axe to grind</td><td class="mean">a private, selfish reason to complain</td><td class="ex">He has <b>an axe to grind</b> with the council.</td></tr>
+<tr><td class="pv">an old flame</td><td class="mean">a former romantic partner</td><td class="ex">She bumped into <b>an old flame</b>.</td></tr>
+<tr><td class="pv">an uphill battle</td><td class="mean">a difficult, prolonged struggle</td><td class="ex">Reform was <b>an uphill battle</b>.</td></tr>
+<tr><td class="pv">answer the call</td><td class="mean">to respond to a need or duty</td><td class="ex">Volunteers <b>answered the call</b>.</td></tr>
+<tr><td class="pv">apple of someone's eye</td><td class="mean">a cherished, favourite person</td><td class="ex">His daughter is the <b>apple of his eye</b>.</td></tr>
+<tr><td class="pv">armed to the teeth</td><td class="mean">heavily equipped</td><td class="ex">They arrived <b>armed to the teeth</b> with data.</td></tr>
+<tr><td class="pv">around the clock</td><td class="mean">all day and all night</td><td class="ex">Staff worked <b>around the clock</b>.</td></tr>
+<tr><td class="pv">as easy as pie</td><td class="mean">very easy</td><td class="ex">Setting it up was <b>as easy as pie</b>.</td></tr>
+<tr><td class="pv">as fit as a fiddle</td><td class="mean">in very good health</td><td class="ex">At eighty, he's <b>as fit as a fiddle</b>.</td></tr>
+<tr><td class="pv">as good as gold</td><td class="mean">very well-behaved</td><td class="ex">The children were <b>as good as gold</b>.</td></tr>
+<tr><td class="pv">as right as rain</td><td class="mean">perfectly well</td><td class="ex">After a rest she was <b>as right as rain</b>.</td></tr>
+<tr><td class="pv">as the crow flies</td><td class="mean">in a straight line; by the shortest route</td><td class="ex">It's two miles <b>as the crow flies</b>.</td></tr>
+<tr><td class="pv">at a crossroads</td><td class="mean">at a point of important decision</td><td class="ex">Her career is <b>at a crossroads</b>.</td></tr>
+<tr><td class="pv">at a loss</td><td class="mean">unsure what to do or say</td><td class="ex">I'm <b>at a loss</b> to explain it.</td></tr>
+<tr><td class="pv">at a snail's pace</td><td class="mean">very slowly</td><td class="ex">Traffic moved <b>at a snail's pace</b>.</td></tr>
+<tr><td class="pv">at arm's length</td><td class="mean">at a distance; avoiding closeness</td><td class="ex">She keeps colleagues <b>at arm's length</b>.</td></tr>
+<tr><td class="pv">at death's door</td><td class="mean">very close to dying</td><td class="ex">He was <b>at death's door</b> last winter.</td></tr>
+<tr><td class="pv">at face value</td><td class="mean">accepted as it appears, without question</td><td class="ex">Don't take the ad <b>at face value</b>.</td></tr>
+<tr><td class="pv">at loggerheads</td><td class="mean">in strong disagreement</td><td class="ex">The two sides are <b>at loggerheads</b>.</td></tr>
+<tr><td class="pv">at odds</td><td class="mean">in conflict or disagreement</td><td class="ex">The reports are <b>at odds</b> with each other.</td></tr>
+<tr><td class="pv">at the crack of dawn</td><td class="mean">very early in the morning</td><td class="ex">We left <b>at the crack of dawn</b>.</td></tr>
+<tr><td class="pv">at the drop of a hat</td><td class="mean">immediately, without hesitation</td><td class="ex">He'll help <b>at the drop of a hat</b>.</td></tr>
+<tr><td class="pv">at the eleventh hour</td><td class="mean">at the very last moment</td><td class="ex">They signed <b>at the eleventh hour</b>.</td></tr>
+<tr><td class="pv">at the end of your rope</td><td class="mean">having no patience or strength left</td><td class="ex">I'm <b>at the end of my rope</b>.</td></tr>
+<tr><td class="pv">at the end of the day</td><td class="mean">when everything is considered</td><td class="ex"><b>At the end of the day</b>, health matters most.</td></tr>
+<tr><td class="pv">at your fingertips</td><td class="mean">easily available</td><td class="ex">Information is <b>at your fingertips</b> now.</td></tr>
+<tr><td class="pv">at your wits' end</td><td class="mean">extremely worried and unable to cope</td><td class="ex">I'm <b>at my wits' end</b> with this bug.</td></tr>
+<tr><td class="pv">against all odds</td><td class="mean">despite great difficulty or unlikelihood</td><td class="ex"><b>Against all odds</b>, they won.</td></tr>
+<tr><td class="pv">a cut above</td><td class="mean">better than the rest</td><td class="ex">Her work is <b>a cut above</b> the others.</td></tr>
+<tr><td class="pv">a done deal</td><td class="mean">something already finalised</td><td class="ex">The merger is <b>a done deal</b>.</td></tr>
+<tr><td class="pv">a drop in the bucket</td><td class="mean">a tiny, insignificant amount</td><td class="ex">The fine is <b>a drop in the bucket</b> for them.</td></tr>
+<tr><td class="pv">a feather in your cap</td><td class="mean">an achievement to be proud of</td><td class="ex">The award is <b>a feather in her cap</b>.</td></tr>
+<tr><td class="pv">a frog in your throat</td><td class="mean">difficulty speaking due to a dry throat</td><td class="ex">Excuse me, I have <b>a frog in my throat</b>.</td></tr>
+<tr><td class="pv">a hard nut to crack</td><td class="mean">a difficult problem or person</td><td class="ex">That client is <b>a hard nut to crack</b>.</td></tr>
+<tr><td class="pv">a house of cards</td><td class="mean">a fragile, unstable structure or plan</td><td class="ex">The scheme collapsed like <b>a house of cards</b>.</td></tr>
+<tr><td class="pv">a labour of love</td><td class="mean">work done for pleasure, not reward</td><td class="ex">The garden is <b>a labour of love</b>.</td></tr>
+<tr><td class="pv">a load off your mind</td><td class="mean">a relief from worry</td><td class="ex">That's <b>a load off my mind</b>.</td></tr>
+<tr><td class="pv">a long shot</td><td class="mean">something unlikely to succeed</td><td class="ex">It's <b>a long shot</b>, but worth trying.</td></tr>
+<tr><td class="pv">a man of his word</td><td class="mean">someone who keeps promises</td><td class="ex">He's <b>a man of his word</b>.</td></tr>
+<tr><td class="pv">a mixed bag</td><td class="mean">a mixture of good and bad</td><td class="ex">The reviews were <b>a mixed bag</b>.</td></tr>
+<tr><td class="pv">a numbers game</td><td class="mean">success depending on quantity</td><td class="ex">Sales is <b>a numbers game</b>.</td></tr>
+<tr><td class="pv">a race against time</td><td class="mean">a rush to finish before it's too late</td><td class="ex">It was <b>a race against time</b> to rebuild.</td></tr>
+<tr><td class="pv">a recipe for disaster</td><td class="mean">something likely to go badly wrong</td><td class="ex">Rushing it is <b>a recipe for disaster</b>.</td></tr>
+<tr><td class="pv">a rule of thumb</td><td class="mean">a rough, practical guideline</td><td class="ex">As <b>a rule of thumb</b>, drink more water.</td></tr>
+<tr><td class="pv">a safe pair of hands</td><td class="mean">a reliable, trustworthy person</td><td class="ex">She's <b>a safe pair of hands</b>.</td></tr>
+<tr><td class="pv">a sore point</td><td class="mean">a sensitive subject</td><td class="ex">Money is <b>a sore point</b> for him.</td></tr>
+<tr><td class="pv">a wake-up call</td><td class="mean">an event that prompts needed change</td><td class="ex">The illness was <b>a wake-up call</b>.</td></tr>
+<tr><td class="pv">a weight off your shoulders</td><td class="mean">relief from a burden</td><td class="ex">Finishing felt like <b>a weight off my shoulders</b>.</td></tr>
+<tr><td class="pv">all's well that ends well</td><td class="mean">problems don't matter if the result is good</td><td class="ex">We were late, but <b>all's well that ends well</b>.</td></tr>
+<tr><td class="pv">apples and oranges</td><td class="mean">two things too different to compare</td><td class="ex">Comparing them is <b>apples and oranges</b>.</td></tr>
+<tr><td class="pv">as clear as mud</td><td class="mean">not clear at all</td><td class="ex">The instructions were <b>as clear as mud</b>.</td></tr>
+<tr><td class="pv">at the helm</td><td class="mean">in charge or control</td><td class="ex">With her <b>at the helm</b>, the firm thrived.</td></tr>
+<tr><td class="pv">asleep at the wheel</td><td class="mean">not paying attention to one's duty</td><td class="ex">Regulators were <b>asleep at the wheel</b>.</td></tr>
+</tbody>
+</table>
+</div>
+<script>
+(function(){
+  var q=document.getElementById('q'),rows=[].slice.call(document.querySelectorAll('#tb tr')),c=document.getElementById('count');
+  function upd(){var n=rows.filter(function(r){return !r.classList.contains('noshow')}).length;c.textContent=n+' entries shown';}
+  q.addEventListener('input',function(){
+    var t=q.value.trim().toLowerCase();
+    rows.forEach(function(r){r.classList.toggle('noshow', t && r.textContent.toLowerCase().indexOf(t)===-1);});
+    upd();
+  });
+  upd();
+})();
+</script>
+</body>
+</html>

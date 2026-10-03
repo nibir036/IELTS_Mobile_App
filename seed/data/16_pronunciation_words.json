@@ -1,0 +1,149 @@
+{
+  "table": "pronunciation_words",
+  "items": [
+    {
+      "id": "pw_struggling",
+      "word": "struggling",
+      "ipa": "/ˈstrʌɡ.əl.ɪŋ/",
+      "partOfSpeech": "verb",
+      "syllables": [
+        {
+          "text": "STRUG",
+          "stress": true
+        },
+        {
+          "text": "gl",
+          "stress": false
+        },
+        {
+          "text": "ing",
+          "stress": false
+        }
+      ],
+      "tip": "Stress is right. Blend the last two syllables together.",
+      "set": "default"
+    },
+    {
+      "id": "pw_particularly",
+      "word": "particularly",
+      "ipa": "/pəˈtɪk.jə.lə.li/",
+      "partOfSpeech": "adverb",
+      "syllables": [
+        {
+          "text": "par",
+          "stress": false
+        },
+        {
+          "text": "TIC",
+          "stress": true
+        },
+        {
+          "text": "u",
+          "stress": false
+        },
+        {
+          "text": "lar",
+          "stress": false
+        },
+        {
+          "text": "ly",
+          "stress": false
+        }
+      ],
+      "tip": "Stress is right. Shorten the third syllable and try again.",
+      "set": "default"
+    },
+    {
+      "id": "pw_confidence",
+      "word": "confidence",
+      "ipa": "/ˈkɒn.fɪ.dəns/",
+      "partOfSpeech": "noun",
+      "syllables": [
+        {
+          "text": "CON",
+          "stress": true
+        },
+        {
+          "text": "fi",
+          "stress": false
+        },
+        {
+          "text": "dence",
+          "stress": false
+        }
+      ],
+      "tip": "Move the stress to the first syllable and relax the ending.",
+      "set": "default"
+    },
+    {
+      "id": "pw_calculus",
+      "word": "calculus",
+      "ipa": "/ˈkæl.kjə.ləs/",
+      "partOfSpeech": "noun",
+      "syllables": [
+        {
+          "text": "CAL",
+          "stress": true
+        },
+        {
+          "text": "cu",
+          "stress": false
+        },
+        {
+          "text": "lus",
+          "stress": false
+        }
+      ],
+      "tip": "Good stress. Weaken the middle vowel.",
+      "set": "default"
+    },
+    {
+      "id": "pw_especially",
+      "word": "especially",
+      "ipa": "/ɪˈspeʃ.əl.i/",
+      "partOfSpeech": "adverb",
+      "syllables": [
+        {
+          "text": "e",
+          "stress": false
+        },
+        {
+          "text": "SPE",
+          "stress": true
+        },
+        {
+          "text": "cial",
+          "stress": false
+        },
+        {
+          "text": "ly",
+          "stress": false
+        }
+      ],
+      "tip": "Stress is right. Start the word more softly.",
+      "set": "default"
+    },
+    {
+      "id": "pw_comfortable",
+      "word": "comfortable",
+      "ipa": "/ˈkʌmf.tə.bəl/",
+      "partOfSpeech": "adjective",
+      "syllables": [
+        {
+          "text": "COMF",
+          "stress": true
+        },
+        {
+          "text": "ta",
+          "stress": false
+        },
+        {
+          "text": "ble",
+          "stress": false
+        }
+      ],
+      "tip": "Drop the “-or-” sound and keep the ending light.",
+      "set": "default"
+    }
+  ]
+}

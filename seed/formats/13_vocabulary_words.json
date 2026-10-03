@@ -1,0 +1,52 @@
+{
+  "_format": {
+    "name": "vocabulary_words",
+    "group": "content",
+    "table": "vocabulary_words",
+    "primaryKey": "id",
+    "description": "Vocabulary vault word (also used for word of the day and quiz links).",
+    "currentSourceInApp": "assets/demo/parts/resources.json → vault.words + hub.wordOfTheDay",
+    "fields": {
+      "id": "string",
+      "word": "string",
+      "partOfSpeech": "string",
+      "definition": "string",
+      "band": "integer",
+      "category": "string",
+      "phonetic": "string",
+      "example": "string"
+    },
+    "required": [
+      "id",
+      "word",
+      "partOfSpeech",
+      "definition",
+      "band",
+      "category"
+    ],
+    "relations": [],
+    "notes": [
+      "phonetic and example are optional but needed for word of the day.",
+      "category: one of vault.categories (Band 7+ words, Linking words, Phrasal verbs, Topic words)."
+    ],
+    "recordCountToday": 19
+  },
+  "items": [
+    {
+      "id": "word_alleviate",
+      "word": "Alleviate",
+      "partOfSpeech": "verb",
+      "definition": "To make a problem less severe.",
+      "band": 7,
+      "category": "Band 7+ words"
+    },
+    {
+      "id": "word_albeit",
+      "word": "Albeit",
+      "partOfSpeech": "conjunction",
+      "definition": "Although; even though.",
+      "band": 8,
+      "category": "Linking"
+    }
+  ]
+}

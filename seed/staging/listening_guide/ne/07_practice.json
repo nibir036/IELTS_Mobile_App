@@ -1,0 +1,224 @@
+[
+ {
+  "id": "l07_practice",
+  "title": "7. Listening Practice र Module-को समापन",
+  "group": "Practice test (अभ्यास)",
+  "blocks": [
+   [
+    "p",
+    "पूरा ७ चरणको practice ladder — self-check, guided र independent drill, trap practice, अनि Part 1 / Part 3 शैलीका mixed mini-test — साथै Module 1-को सारांश।"
+   ],
+   [
+    "p",
+    "Module 1-का सबै कुरा यहीँ आएर जोडिन्छन्। जुन strategy पढिन्छ मात्र, त्यो छिट्टै बिर्सिन्छ; जुन strategy अभ्यास गरिन्छ, त्यो बानी बन्छ। यो file ७ चरणको practice ladder चढ्दै माथि जान्छ, र prediction, keyword, paraphrase, distractor अनि सबै question type-लाई एकै ठाउँमा ल्याएर क्रमशः कठिन हुँदै जाने एउटा workout बनाउँछ।"
+   ],
+   [
+    "p",
+    "Audio-बारे एउटा कुरा: छापिएको guide-ले recording बजाउन सक्दैन, त्यसैले तलका धेरैजसो drill-मा एउटा छोटो transcript दिइएको छ — बोल्ने गतिमा पढ्नुहोस्, अनि answer दिनुहोस्। यसले तपाईंलाई चाहिने ठ्याक्कै त्यही मानसिक काम अभ्यास गराउँछ। Ladder-को माथिल्लो चरणमा, timed र full test-मा, यो system साँचो audio-मा लागू गर्नुहोस्। सुरुदेखि अन्त्यसम्म आफ्नो Error Log खुला राख्नुहोस् — हरेक गलत answer-लाई एउटा reason code दिनुहोस्।"
+   ],
+   [
+    "h",
+    "Level 1: बुझ्नुहोस् (छोटो self-check)"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Level 1 self-check",
+     "kind": "essay_edit",
+     "instructions": "हरेकको उत्तर एक लाइनमा दिनुहोस्।",
+     "items": [
+      {
+       "prompt": "1. What single question do you ask of every gap before the audio?\n2. Which three kinds of word are almost never paraphrased?\n3. In the shape [decoy] + [signal] + [answer], where is the correct answer?\n4. In multiple choice, what does hearing an option's words tell you?\n5. When you miss an answer, what is the one thing you must not do?",
+       "answer": "1. “What kind of answer am I about to hear?” 2. Names, numbers, dates. 3. After the signal. 4. Almost nothing, until the speaker endorses it. 5. Chase it backwards while the audio moves on.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 2: Guided practice"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.1: Prediction",
+     "kind": "essay_edit",
+     "instructions": "हरेक gap-का लागि grammatical shape र information type लेख्नुहोस्।",
+     "items": [
+      {
+       "prompt": "1. “The café seats about ____ people.”\n2. “Bring a ____ in case it rains.”\n3. “The session is led by Dr ____.”\n4. “The castle dates from the ____ century.”\n5. “Tickets are available from the ____ office.”",
+       "answer": "1. Number (a people count). 2. Noun, object (umbrella, coat). 3. Name (a surname). 4. An ordinal number (a century). 5. Noun, place/role before “office” (ticket, box, main).",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.2: Keyword anchor",
+     "kind": "essay_edit",
+     "instructions": "सबैभन्दा राम्रो एउटा keyword-लाई underline गर्नुहोस् र त्यसलाई label दिनुहोस् (anchor, strong content, concept)।",
+     "items": [
+      {
+       "prompt": "1. “The library reopened in 2019 after refurbishment.”\n2. “The main problem was a lack of parking.”\n3. “Ask for Mrs Delgado at the desk.”\n4. “The tour is popular with families.”",
+       "answer": "1. 2019, anchor. 2. parking, strong content (or “problem” as a concept warning of paraphrase). 3. Delgado, anchor (name). 4. popular, concept — expect a paraphrase like “families love it.”",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.3: Paraphrase",
+     "kind": "essay_edit",
+     "instructions": "पहिले आफैं प्रयास गर्नुहोस्, अनि model answer-सँग दाँजेर हेर्नुहोस्।",
+     "items": [
+      {
+       "prompt": "Write one likely paraphrase for each: expensive, begin, difficult, close to.",
+       "answer": "expensive: costly, pricey, dear. begin: start, get under way, kick off. difficult: hard, tricky, tough. close to: near, a short way from, within reach of.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 3: Independent practice"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.4: Note completion",
+     "kind": "essay_edit",
+     "instructions": "पहिले आफैं प्रयास गर्नुहोस्, अनि model answer-सँग दाँजेर हेर्नुहोस्।",
+     "items": [
+      {
+       "prompt": "Notes: Club name = ____ (1); Meets on = ____ (2); Cost per term = ____ (3); Bring your own = ____ (4). Transcript: “Welcome to the Riverside Photography Club. We meet every Thursday evening in the community hall. Membership is twenty-five pounds a term, which covers everything except that you'll need to bring your own camera, of course.” Write 1 to 4, obeying a two-word-and-or-a-number limit.",
+       "answer": "1. Riverside Photography (Club), trimmed to fit. 2. Thursday(s). 3. 25 pounds / twenty-five pounds. 4. (a) camera — “covers everything except” is the signpost that isolates what you must bring.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.5: Multiple choice",
+     "kind": "essay_edit",
+     "instructions": "पहिले आफैं प्रयास गर्नुहोस्, अनि model answer-सँग दाँजेर हेर्नुहोस्।",
+     "items": [
+      {
+       "prompt": "Q: “How did the speaker travel to the conference?” A) train B) car C) plane. Transcript: “I'd planned to fly, but the flights were so expensive that I ended up driving, which actually gave me a chance to see the countryside.”",
+       "answer": "B, car. “Planned to fly” (plane) is the decoy; “but… I ended up driving” gives the answer. Choosing C because “fly” came first is the correction-trap error.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 4: Trap practice"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 7.6: Trap-को नाम भन्नुहोस्",
+     "kind": "essay_edit",
+     "instructions": "यहाँ हरेक item-मा एउटा distractor छ। Trap-को प्रकारको नाम भन्नुहोस् (correction, two-number, rejected option, speaker attribution, negation) र answer दिनुहोस्।",
+     "items": [
+      {
+       "prompt": "1. “The deposit's usually a hundred, but returning customers pay just seventy.”\n2. “We'll meet at the library, actually the café is quieter, let's do that.”\n3. “Which two are provided? Towels are, and a hairdryer, but soap you bring yourself.”\n4. “Ravi thought the plan was risky; Mia disagreed, calling it perfectly safe.”\n5. “The trip isn't cancelled, it's just been postponed to next week.”",
+       "answer": "1. Two-number trap. Answer: 70 (returning customers), decoy 100.\n2. Correction trap. Answer: café, decoy library, signal “actually.”\n3. Rejected-option trap. Answers: towels and a hairdryer; soap is denied.\n4. Speaker-attribution trap. Ravi = risky, Mia = safe.\n5. Negation trap. Answer: postponed to next week, not cancelled.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 5: Mixed practice (Part 1 शैलीको mini-test)"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Level 5 mini-test (Part 1 शैली)",
+     "kind": "essay_edit",
+     "instructions": "सामान्य गतिमा एक पटक पढ्नुहोस्: “Good morning, Greenfield Leisure Centre, how can I help? Hi, I'd like to book a badminton court. Can I take your name? It's Tomas Reinholt. That's R-E-I-N-H-O-L-T. And a contact number? It's 0-1-6-3-2, then 5-5-double-8-1-9. Which day would you like? Saturday, if possible. Morning. Saturday morning is fully booked, I'm afraid, but Sunday morning has space. Sunday's fine. Courts are nine pounds an hour, though before eleven it's a reduced rate of six pounds. We'll come at ten, so the cheaper one. And do we bring anything? Rackets can be hired for two pounds, but do bring your own indoor shoes, that's essential.”",
+     "items": [
+      {
+       "prompt": "Questions (NO MORE THAN TWO WORDS AND/OR A NUMBER): 1. Surname 2. Contact number 3. Day booked 4. Price per hour they will pay 5. Item they must bring",
+       "answer": "1. Reinholt (spelled out, get it exact). 2. 01632 55819 (note “double 8” is two eights). 3. Sunday — Saturday morning is “fully booked,” the decoy. 4. 6 pounds — nine pounds is the standard rate (decoy); “before eleven… six” plus “we'll come at ten” selects six. 5. (indoor) shoes — rackets “can be hired” (optional decoy); shoes are “essential.” If you missed the number, log it as SP or CL and slow down on digit strings; if you missed 3 or 4, log DS — both were two-option traps resolved by a later condition.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 6: Mixed question type (Part 3 शैलीको mini-test)"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Level 6 mini-test (Part 3 शैली)",
+     "kind": "essay_edit",
+     "instructions": "एक पटक पढ्नुहोस्: “Tutor: So, your group project on renewable energy. Who's covering what? Nadia: I'll take solar power, it's what I know best. Kofi: I was going to do solar too, but since Nadia's on it, I'll cover wind. Leah: That leaves me with hydro, which is fine. Tutor: Have you decided on your main data source? Nadia: We looked at using a public survey, but the sample was tiny. Kofi: Right, so we're going with the government energy reports instead, they're much more reliable. Leah: Agreed, the reports it is.”",
+     "items": [
+      {
+       "prompt": "Matching: which topic does each student cover — 1. Nadia 2. Kofi 3. Leah? Multiple choice: 4. What data source did the group finally choose? A) a public survey B) government reports C) their own experiment.",
+       "answer": "1. Nadia = solar. 2. Kofi = wind (switched from solar because Nadia took it; the abandoned choice is the decoy). 3. Leah = hydro. 4. B, government reports — the public survey was considered but rejected (“the sample was tiny”); “going with the government energy reports instead” is the decision, confirmed by “the reports it is.”",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h",
+    "Level 7: Full test (system-लाई साँचो audio-मा लागू गर्ने)"
+   ],
+   [
+    "p",
+    "छापिएको guide-ले तपाईंलाई आवाजसहितको पूरा listening test दिन सक्दैन, र “transcript मात्र” भएको full test साँचो test होइन, किनकि पढ्दा त्यो दबाब हराउँछ जसमा test आधारित छ। Level 7-का लागि साँचो audio, साँचो गतिमा, एक पटक मात्र बजाएर प्रयोग गर्नुहोस्, र Module 1-को system ठ्याक्कै लागू गर्नुहोस्:"
+   ],
+   [
+    "ul",
+    [
+     "Audio-अघिको हरेक pause-मा हरेक gap-को shape predict गर्नुहोस् र keyword anchor तय गर्नुहोस्।",
+     "Audio एक पटक मात्र बजाउनुहोस्। Timed run-को बेला कहिल्यै pause वा replay नगर्नुहोस्।",
+     "Answer तुरुन्तै लेख्नुहोस्, word limit मान्नुहोस्, र completion answer-हरू ठ्याक्कै सुनिएकै शब्द हुन्छन् भन्नेमा भरोसा गर्नुहोस्।",
+     "हरेक “but, actually, sorry, instead”-लाई distractor-को alarm मान्नुहोस्।",
+     "कुनै answer छुट्यो भने सफासँग reset गर्नुहोस् र अगाडि बढ्नुहोस्।",
+     "त्यसपछि mark गर्नुहोस्, अनि हरेक गल्तीका लागि reason code राखेर Error Log भर्नुहोस्।"
+    ]
+   ],
+   [
+    "tip",
+    "आफ्ना full test-हरू साँचो परीक्षाकै समयमा, एकै बसाइमा, कुनै pause बिना दिनुहोस्। तपाईंको दिमागलाई question मात्र होइन, लामो समयसम्म टिकिरहने क्षमता (stamina) को पनि अभ्यास चाहिन्छ। एक पटकमा एउटा section मात्र अभ्यास गर्ने student-हरू परीक्षाको दिन Part 4 सम्म पुग्दा आफू कति थाकिसकेका हुन्छन् देखेर प्रायः छक्क पर्छन्।"
+   ],
+   [
+    "h",
+    "Module 1-को सारांश: एकै सासमा Listening mindset"
+   ],
+   [
+    "p",
+    "हरेक part-अघि हरेक gap predict गर्नुहोस् र anchor तय गर्नुहोस्। Audio चलिरहँदा अर्थका लागि सुन्नुहोस्, signpost-हरूलाई पछ्याउँदै जानुहोस्, र answer पक्का गर्नुअघि अन्तिम निर्णय (verdict) नसुनेसम्म पर्खनुहोस्। हरेक “but, actually, sorry, instead”-लाई alarm मान्नुहोस्। Answer तुरुन्तै लेख्नुहोस् र word limit मान्नुहोस्। कुनै answer छुट्यो भने reset गर्नुहोस् र पछाडि नफर्की अगाडि बढ्नुहोस्। पछि हरेक गल्तीलाई कारणअनुसार log गर्नुहोस्, र सबैभन्दा धेरै देखिने कारणको drill गर्नुहोस्।"
+   ],
+   [
+    "p",
+    "यही नै पूरा module हो। “ध्यान दिएर सुन्नुहोस्” होइन, बरु निर्णयहरूको एउटा ठ्याक्कै क्रम, जुन अब तपाईं चाहेको बेला चलाउन सक्नुहुन्छ। जब तपाईं नसोचीकनै यो गर्न सक्नुहुन्छ, तब तपाईं answer समात्ने आशामा बस्नुहुन्न — तपाईं answer-को प्रतीक्षा गर्नुहुन्छ, ठ्याक्कै त्यही ठाउँमा जहाँ त्यो आउँछ भनेर तपाईंलाई थाहा थियो।"
+   ]
+  ]
+ }
+]

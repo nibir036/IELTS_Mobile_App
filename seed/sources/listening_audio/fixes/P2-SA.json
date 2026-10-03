@@ -1,0 +1,210 @@
+{
+ "note": "Accepted answers widened to the words heard: Q9 fares are \"half price\" ([0:43]); Q16 \"screens showing real-time arrival information\" ([1:10]).",
+ "groups": {
+  "g1": {
+   "id": "g1",
+   "type": "short",
+   "title": "Answer the questions",
+   "instruction": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+   "questions": [
+    {
+     "number": 1,
+     "text": "Which route number is changing?",
+     "answer": "42",
+     "answerDisplay": "42 / forty-two",
+     "accepted": [
+      "42",
+      "forty-two"
+     ]
+    },
+    {
+     "number": 2,
+     "text": "On which day do the changes begin?",
+     "answer": "Monday",
+     "answerDisplay": "Monday / Monday the 3rd",
+     "accepted": [
+      "Monday",
+      "Monday the 3rd"
+     ]
+    },
+    {
+     "number": 3,
+     "text": "How many extra stops are being added?",
+     "answer": "3",
+     "answerDisplay": "3 / three",
+     "accepted": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "number": 4,
+     "text": "Which stop will be removed?",
+     "answer": "Elm Street",
+     "answerDisplay": "Elm Street",
+     "accepted": [
+      "Elm Street"
+     ]
+    },
+    {
+     "number": 5,
+     "text": "What time will the first bus leave?",
+     "answer": "6 a.m.",
+     "answerDisplay": "6 a.m. / 6:00",
+     "accepted": [
+      "6 a.m.",
+      "6:00"
+     ]
+    },
+    {
+     "number": 6,
+     "text": "How often will buses run at peak times?",
+     "answer": "every 10 minutes",
+     "answerDisplay": "every 10 minutes / every ten minutes",
+     "accepted": [
+      "every 10 minutes",
+      "every ten minutes"
+     ]
+    },
+    {
+     "number": 7,
+     "text": "What type of bus will be used on the route?",
+     "answer": "electric buses",
+     "answerDisplay": "electric (buses)",
+     "accepted": [
+      "electric buses",
+      "electric"
+     ]
+    },
+    {
+     "number": 8,
+     "text": "Where can passengers find full details and maps?",
+     "answer": "the website",
+     "answerDisplay": "the website",
+     "accepted": [
+      "the website"
+     ]
+    },
+    {
+     "number": 9,
+     "text": "By how much will fares be reduced?",
+     "answer": "50%",
+     "answerDisplay": "50% / half (price)",
+     "accepted": [
+      "50%",
+      "fifty percent",
+      "half",
+      "half price",
+      "by half"
+     ]
+    },
+    {
+     "number": 10,
+     "text": "Which stop now has a new shelter?",
+     "answer": "Park Road",
+     "answerDisplay": "Park Road",
+     "accepted": [
+      "Park Road"
+     ]
+    },
+    {
+     "number": 11,
+     "text": "How long will the changes last?",
+     "answer": "6 months",
+     "answerDisplay": "6 months / six months",
+     "accepted": [
+      "6 months",
+      "six months"
+     ]
+    },
+    {
+     "number": 12,
+     "text": "What should passengers call with questions?",
+     "answer": "the helpline",
+     "answerDisplay": "the helpline",
+     "accepted": [
+      "the helpline"
+     ]
+    },
+    {
+     "number": 13,
+     "text": "On which day will there be a reduced service?",
+     "answer": "Sundays",
+     "answerDisplay": "Sunday(s)",
+     "accepted": [
+      "Sundays",
+      "Sunday"
+     ]
+    },
+    {
+     "number": 14,
+     "text": "What free service do the new buses offer?",
+     "answer": "wifi",
+     "answerDisplay": "wifi",
+     "accepted": [
+      "wifi"
+     ]
+    },
+    {
+     "number": 15,
+     "text": "Where does the route now end?",
+     "answer": "at the hospital",
+     "answerDisplay": "(at) the hospital",
+     "accepted": [
+      "at the hospital",
+      "the hospital"
+     ]
+    },
+    {
+     "number": 16,
+     "text": "What is being installed at bus stops?",
+     "answer": "real-time screens",
+     "answerDisplay": "(real-time) screens",
+     "accepted": [
+      "real-time screens",
+      "screens",
+      "real-time information screens"
+     ]
+    },
+    {
+     "number": 17,
+     "text": "Who is not affected by the changes?",
+     "answer": "school bus users",
+     "answerDisplay": "school bus users",
+     "accepted": [
+      "school bus users"
+     ]
+    },
+    {
+     "number": 18,
+     "text": "What is the reason for the changes?",
+     "answer": "the roadworks",
+     "answerDisplay": "(the) roadworks",
+     "accepted": [
+      "the roadworks",
+      "roadworks"
+     ]
+    },
+    {
+     "number": 19,
+     "text": "When is normal service expected to return?",
+     "answer": "next year",
+     "answerDisplay": "next year / next spring",
+     "accepted": [
+      "next year",
+      "next spring"
+     ]
+    },
+    {
+     "number": 20,
+     "text": "Where can passengers get a refund?",
+     "answer": "the ticket office",
+     "answerDisplay": "the ticket office",
+     "accepted": [
+      "the ticket office"
+     ]
+    }
+   ]
+  }
+ }
+}

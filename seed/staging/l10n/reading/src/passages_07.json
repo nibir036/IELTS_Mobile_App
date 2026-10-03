@@ -1,0 +1,1752 @@
+[
+ {
+  "id": "rb_summary_completion_09",
+  "questionTypeName": "Summary Completion",
+  "title": "Finding Your Place from Space",
+  "lesson": {
+   "title": "Technical summaries with abstract options",
+   "text": "In technical summaries, word-bank options are often abstract nouns (accuracy, delay, distance, correction). Read the summary sentence and identify exactly which quantity or idea it is talking about, then match it to the passage. Several options may sound technical and plausible; only one describes the right part of the process.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "B",
+    "evidence": "the precise time at which the signal was sent.",
+    "explanation": "H (distance) is calculated by the receiver, not sent by the satellite."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "A",
+    "evidence": "each satellite carries extremely accurate atomic clocks.",
+    "explanation": "This is a direct match. I (cheap) fits the grammar but not the meaning."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "C",
+    "evidence": "the extra measurement allows the receiver to correct its own clock error.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "D",
+    "evidence": "the satellite clocks gain about thirty-eight millionths of a second each day.",
+    "explanation": "A clock that \"gains\" time runs fast, which makes F (slow) the trap. One effect makes them run slower, but the combined effect is gaining."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "E",
+    "evidence": "they may bounce off buildings.",
+    "explanation": "\"Bounce off\" = \"reflected off\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "J",
+    "evidence": "ordinary receivers can typically determine their position to within a few metres.",
+    "explanation": "G (kilometres) refers to the error that relativity would cause without correction, which makes it a nearby-detail trap."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_10",
+  "questionTypeName": "Summary Completion",
+  "title": "From Bean to Coffeehouse",
+  "lesson": {
+   "title": "Summary sentences that compress a paragraph",
+   "text": "A single summary sentence may compress a whole paragraph into one line. Identify the main point of that paragraph, then find the precise word or phrase the gap requires. Several details from the paragraph may seem possible; choose the one that completes the summary's specific idea.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "goat herder",
+    "evidence": "an Ethiopian goat herder named Kaldi.",
+    "explanation": "\"Ethiopian\" is already in the summary. \"Kaldi\" alone would not fit the article \"an\"."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "night-time prayers",
+    "evidence": "to help them stay awake during night-time prayers and devotions.",
+    "explanation": "\"Night-time\" is hyphenated, so this counts as two words. Adding \"and devotions\" would exceed the limit."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "ban",
+    "evidence": "there were several attempts to ban them.",
+    "explanation": "The gap needs a verb after \"tried to\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "penny universities",
+    "evidence": "they became known as 'penny universities', since for the price of a cup of coffee ...",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "Java",
+    "evidence": "particularly on the island of Java.",
+    "explanation": "\"Particularly\" = \"especially\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "prices",
+    "evidence": "The prices farmers receive can vary sharply ... which makes their incomes uncertain.",
+    "explanation": "\"Harvests\" is a cause of the price changes, not the changes themselves, which makes it the trap."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_11",
+  "questionTypeName": "Summary Completion",
+  "title": "Paying for the Post",
+  "lesson": {
+   "title": "Options that appear in the passage in a different context",
+   "text": "At Medium level, the word bank often contains a word that the passage does use, but for a different idea. For example, the passage may say that old postal charges depended on distance and that the new charge depended on weight. Both words appear, but only one fits a given gap. When an option matches a passage word exactly, check which sentence that word came from.",
+   "example": "Passage: \"Tickets were once priced by age; now they are priced by time of day.\" Summary: \"The new system sets prices according to ______\" Options: A age B time. Answer: B. A is a real passage word, but it describes the old system."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "F",
+    "evidence": "They were normally paid by the person who received the letter, not by the sender.",
+    "explanation": "\"The person who received\" = \"recipient\". A (sender) describes the new system after the reform."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "G",
+    "evidence": "handed the letter back unopened.",
+    "explanation": "After \"without\", the gap needs an -ing form. \"Unopened\" = \"without opening\"."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "D",
+    "evidence": "the cost of calculating charges and collecting money on delivery.",
+    "explanation": "Calculating and collecting charges is administration. J (transport) is ruled out by the summary itself (\"rather than transport\")."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "H",
+    "evidence": "a single low rate ... regardless of distance.",
+    "explanation": "E (weight) is the context trap: the new charge did depend on weight (\"below a certain weight\")."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "C",
+    "evidence": "The red ink ... was difficult to see on it and could be removed.",
+    "explanation": "I (remove) is the trap. The marks could be removed, so they were easy to remove, not hard."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "B",
+    "evidence": "several decades before the Post Office's profits returned to their earlier level.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_12",
+  "questionTypeName": "Summary Completion",
+  "title": "Built for the Deep",
+  "lesson": {
+   "title": "Numbers, units and ideas that go against expectation",
+   "text": "When a summary gap follows \"for over\" or \"for up to\", the answer is usually a number with its unit (\"three hours\"). Do not copy words that are already in the summary. Summaries also often test ideas that go against expectation. If the passage says that divers breathe out before diving, a gap after \"Rather than filling their lungs, many divers ...\" needs that surprising action.",
+   "example": "Passage: \"Surprisingly, the plant grows faster in shade than in full sun.\" Summary: \"Unlike most plants, it grows best in ______\" Answer: shade (not \"full sun\")."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "three hours / 3 hours",
+    "evidence": "one was recorded staying underwater for more than three hours.",
+    "explanation": "\"Over\" = \"more than\", and it is already in the summary. \"A thousand metres\" is a depth, not a time."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "breathe out",
+    "evidence": "Many actually breathe out before they descend.",
+    "explanation": "This is the counter-intuitive action. The gap needs a verb after \"many divers\"."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "the bends",
+    "evidence": "the painful and dangerous condition known to human divers as \"the bends\"",
+    "explanation": "This is two words. \"Bends\" alone is also acceptable."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "myoglobin",
+    "evidence": "Their muscles are packed with myoglobin ... the muscles of some whales and seals appear almost black.",
+    "explanation": "Haemoglobin carries oxygen in the blood, which makes it the same-type trap."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "heart",
+    "evidence": "directed mainly to the brain and heart.",
+    "explanation": "\"Brain and\" is already in the summary."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "lactic acid",
+    "evidence": "a process that generates lactic acid ... breathing repeatedly to clear this waste product.",
+    "explanation": "\"Clear\" = \"removed\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_13",
+  "questionTypeName": "Summary Completion",
+  "title": "Jams from Nowhere",
+  "lesson": {
+   "title": "Near-synonyms that differ in strength",
+   "text": "Medium word banks often contain pairs that are close in meaning but differ in degree or direction: reduce / eliminate, gentle / sudden, late / early. Both options may fit the grammar and the topic. The passage's exact wording decides which is correct. For example, \"dampen\" means reduce, not eliminate.",
+   "example": "Passage: \"The new drug eased the symptoms in most patients.\" Options: A relieved B cured. Answer: A. \"Eased\" is weaker than \"cured\"."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "J",
+    "evidence": "they arise from the behaviour of drivers themselves.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "B",
+    "evidence": "a gentle slowing near the front becomes a complete stop further back.",
+    "explanation": "C (sudden) is its near-opposite, and the first driver brakes only \"slightly\"."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "D",
+    "evidence": "The driver behind reacts a fraction of a second late.",
+    "explanation": "E (early) is the opposite."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "A",
+    "evidence": "without any obstacle at all.",
+    "explanation": "The plural fits the grammar after \"without any\"."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "F",
+    "evidence": "above a certain density of vehicles, smooth traffic flow becomes unstable.",
+    "explanation": "G (steady) is the opposite."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "H",
+    "evidence": "its presence was enough to dampen the waves.",
+    "explanation": "\"Dampen\" = \"reduce\". I (eliminate) is too strong, and the researchers add a caution about real motorways."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_14",
+  "questionTypeName": "Summary Completion",
+  "title": "Listening to the Chest",
+  "lesson": {
+   "title": "Finding where the summary starts",
+   "text": "A summary rarely covers the whole passage. Here, the summary begins with the story of the invention, so the first answer is not in Paragraph A. Words in an earlier paragraph can look correct but belong to a different part of the story. Read the summary's first sentence, find its matching paragraph, and start searching there.",
+   "example": "If a summary begins \"After moving to Paris, she ...\", skip the paragraphs about her childhood and start where Paris is first mentioned."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "improper",
+    "evidence": "he felt that placing his ear on her chest would be improper.",
+    "explanation": "\"Undignified\" in Paragraph A is the trap. It describes the general view of the older method, which comes before the section this summary covers."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "wood",
+    "evidence": "children playing with a long piece of wood.",
+    "explanation": "\"Piece of\" is already in the summary."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "carrying",
+    "evidence": "which could be taken apart for carrying.",
+    "explanation": "\"Taken apart\" = \"separated\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "death",
+    "evidence": "compared what he had heard with what was found in their bodies after death.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "terms",
+    "evidence": "It introduced many terms that doctors still use today.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "tubes",
+    "evidence": "two earpieces connected by flexible rubber tubes.",
+    "explanation": "\"Rubber\" is already in the summary."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_15",
+  "questionTypeName": "Summary Completion",
+  "title": "The Crowd That Did Nothing?",
+  "lesson": {
+   "title": "Hard word banks and revised findings",
+   "text": "At Hard level, the word-bank options are abstract nouns and adjectives, and the summary often compresses a story in three stages: the original claim, the research it inspired, and a later revision. Options that fit the original claim become traps when the gap describes the revision. For each gap, decide which stage the sentence describes before choosing.",
+   "example": "Passage: \"The bridge was once thought unsafe; tests later showed it was sound.\" Summary: \"Later tests showed that the bridge was ______\" Options: A dangerous B safe. Answer: B. A matches the earlier belief, not the later finding."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "E",
+    "evidence": "widely taken as evidence that city dwellers were indifferent to one another.",
+    "explanation": "C (cruelty) is a trap: the witnesses were said to be uncaring, not cruel."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "H",
+    "evidence": "responsibility is spread across everyone present ... 'diffusion of responsibility'.",
+    "explanation": "\"Diffusion\" = \"spreading\". J (acceptance) does not fit the meaning."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "G",
+    "evidence": "the original newspaper account was seriously inaccurate.",
+    "explanation": "This gap belongs to the revision stage of the story."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "B",
+    "evidence": "the effect was weaker in situations that were clearly dangerous.",
+    "explanation": "I (stronger) is the opposite."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "D",
+    "evidence": "In around nine out of ten incidents, at least one bystander intervened.",
+    "explanation": "Nine out of ten makes intervention the usual case, the norm."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "A",
+    "evidence": "the chance that someone would help increased as the number of bystanders rose.",
+    "explanation": "F (smaller) matches the original laboratory idea, not the real-world finding."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_16",
+  "questionTypeName": "Summary Completion",
+  "title": "Two Forms of One Insect",
+  "lesson": {
+   "title": "Summaries that contrast two states",
+   "text": "When a passage describes one thing in two states (solitary and swarming, before and after), it gives parallel details for each state, and every detail is a potential answer. Before writing, check which state the summary sentence refers to. A detail from the other state will be the same type of word and will look correct.",
+   "example": "Passage: \"In winter the fox's coat is white; in summer it is brown.\" Summary: \"During the warmer months, its coat turns ______\" Answer: brown. \"White\" is the same type of word but describes the other state."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "at night",
+    "evidence": "Solitary locusts ... tend to fly at night.",
+    "explanation": "\"By day\" describes gregarious locusts, the other state, and it already appears later in the summary sentence."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "1921",
+    "evidence": "Only in 1921 did ... Boris Uvarov show that the two forms were stages of the same insect.",
+    "explanation": "2009 is the serotonin discovery, and 2019 is an outbreak. Both are nearby-number traps."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "hind legs",
+    "evidence": "repeatedly stroking the hind legs of a solitary locust ... was enough to make it behave gregariously.",
+    "explanation": "\"Stroking\" = \"touching\", and \"was enough\" matches the summary."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "serotonin",
+    "evidence": "this contact causes a rise in the chemical serotonin in the locust's nervous system.",
+    "explanation": "\"Rise\" = \"increases levels\"."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "body shape",
+    "evidence": "the change in colour and body shape takes longer, developing over several generations.",
+    "explanation": "\"Colour and\" is already in the summary."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "toxic plants",
+    "evidence": "swarming locusts often feed on toxic plants.",
+    "explanation": "This is a direct match. \"Insecticides\" is the same type of word but concerns human control, not the locusts' diet."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_17",
+  "questionTypeName": "Summary Completion",
+  "title": "The Reading Brain",
+  "lesson": {
+   "title": "Options that fit several gaps",
+   "text": "In Hard word banks, the distractors are chosen so that many options fit the grammar of several gaps. For example, weaker / stronger, identical / different and invention / evolution are all grammatically possible in more than one place. Grammar will not narrow the choice much. You must decide each gap by meaning, and it helps to write your own prediction before looking at the options.",
+   "example": "Summary: \"After training, the athletes' reaction times became ______\" Options: A shorter B longer C faster. A and C both fit the grammar; the passage phrase \"reaction times fell\" decides it: A."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "C",
+    "evidence": "Writing was invented only around five thousand years ago ... Cultural inventions such as reading ...",
+    "explanation": "G (evolution) fits the grammar but reverses the point: reading did not evolve."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "F",
+    "evidence": "its original function was the fine visual discrimination of shapes.",
+    "explanation": "\"Discrimination\" here = \"distinguishing\" (telling shapes apart)."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "H",
+    "evidence": "the response of the word-form area to written words was strongly related to reading skill.",
+    "explanation": "\"Skill\" = \"ability\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "A",
+    "evidence": "responses to faces in the same area declined slightly.",
+    "explanation": "\"Declined\" = became weaker. E (stronger) describes the responses to words, not to faces."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "D",
+    "evidence": "the visual system evolved to treat mirror images as the same object.",
+    "explanation": "\"The same\" = \"identical\". I (different) is the opposite."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "B",
+    "evidence": "illiterate adults often differ from literate ones in many ways besides reading, such as schooling and occupation.",
+    "explanation": "J (age) is not mentioned as a factor."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_18",
+  "questionTypeName": "Summary Completion",
+  "title": "From Grass to Grain",
+  "lesson": {
+   "title": "Extracting answers from long noun phrases",
+   "text": "Hard passages pack information into long noun phrases, such as \"a type of teosinte from the valley of the Balsas River in south-western Mexico\". The summary gap usually needs only one part of that phrase, and the summary itself often supplies the rest (\"teosinte from the valley of the ______\"). Read the words on both sides of the gap, then take only the words that are missing.",
+   "example": "Passage: \"a small wooden box with a brass lock\". Summary: \"the letters were kept in a small wooden ______\" Answer: box (not \"wooden box\")."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "five to twelve / 5–12",
+    "evidence": "produces small ears with only five to twelve kernels.",
+    "explanation": "\"Only\" is already in the summary. \"Hundreds\" describes maize, not teosinte."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "interbreed",
+    "evidence": "He found that the two could interbreed easily.",
+    "explanation": "The gap needs a verb after \"could\", and \"easily\" is already in the summary."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "Balsas River",
+    "evidence": "a type of teosinte from the valley of the Balsas River in south-western Mexico.",
+    "explanation": "\"The valley of the\" is already in the summary. \"Balsas River in south-western Mexico\" would exceed the limit."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "exposed",
+    "evidence": "A small change in this gene left the kernels exposed.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "single tall stalk",
+    "evidence": "producing a single tall stalk with a few large ears.",
+    "explanation": "This is three words. \"With a few large ears\" is already in the summary."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "Oaxaca",
+    "evidence": "come from a cave in Oaxaca, Mexico.",
+    "explanation": "\"Oaxaca, Mexico\" is also acceptable. \"The Andes\" is where maize spread later, which makes it a same-type trap."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_19",
+  "questionTypeName": "Summary Completion",
+  "title": "Stone That Heals Itself",
+  "lesson": {
+   "title": "Summaries that correct an earlier belief",
+   "text": "When a passage replaces an old interpretation with a new one, the word bank often contains words for both. A gap may ask what something \"had usually been interpreted as\" (the old view) or what a new study \"suggested\" (the new view). Check the verb tense and the reporting words around each gap to decide which view it describes.",
+   "example": "Passage: \"The marks were thought to be damage; they are now known to be decoration.\" Summary: \"The marks had long been regarded as ______\" Options: A damage B decoration. Answer: A."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "E",
+    "evidence": "Roman builders mixed lime, water and a volcanic ash called pozzolana.",
+    "explanation": "J (sand) fits the grammar but is not mentioned."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "C",
+    "evidence": "Rather than weakening the structure ... this process appears to have strengthened it over time.",
+    "explanation": "D (weaker) describes what seawater does to modern concrete, which is the trap here."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "A",
+    "evidence": "They had generally been regarded as evidence of careless mixing.",
+    "explanation": "\"Had usually been interpreted\" signals the old view. I (careful) is the opposite."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "B",
+    "evidence": "the Romans used quicklime ... and mixed it hot.",
+    "explanation": "This is the new view reported by the 2023 study. H (cold) is the opposite."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "F",
+    "evidence": "the lime in the clasts dissolved and then formed calcium carbonate, filling the cracks.",
+    "explanation": "G (widens) is the opposite effect."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "D",
+    "evidence": "Roman concrete was generally weaker than modern concrete when first set.",
+    "explanation": "\"When first set\" = \"initially\". C (stronger) was already used for the long-term effect in gap 2."
+   }
+  ]
+ },
+ {
+  "id": "rb_summary_completion_20",
+  "questionTypeName": "Summary Completion",
+  "title": "The Lost Expedition",
+  "lesson": {
+   "title": "Final review — the complete Summary Completion method",
+   "text": "This final set combines the main skills: finding the section the summary covers, predicting the word type, recognising paraphrase, rejecting nearby dates of the same type, and extracting the minimum words within the limit. For each gap: (1) locate the matching sentence; (2) predict what is missing; (3) copy the exact words; (4) check the word limit, the spelling and the grammar of the completed sentence.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "tinned food",
+    "evidence": "supplies intended to last three years, including large quantities of tinned food.",
+    "explanation": "\"Large quantities of\" = \"a large amount of\", which is already in the summary."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "April 1848",
+    "evidence": "the survivors had abandoned the ships in April 1848.",
+    "explanation": "\"Abandoned\" = \"left\". September 1846 (trapped in ice) and June 1847 (Franklin's death) are nearby-date traps. \"1848\" alone is also acceptable."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "permafrost",
+    "evidence": "buried on Beechey Island, where the permafrost had preserved them remarkably well.",
+    "explanation": "\"The\" is already in the summary."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "solder",
+    "evidence": "poisoned by lead from the solder used to seal the tins of food.",
+    "explanation": "\"Used to seal\" = \"sealing\". The words \"at the time\" in the summary signal that this is the earlier explanation, later questioned."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "contemporaries",
+    "evidence": "the men's exposure was not markedly greater than that of their contemporaries.",
+    "explanation": "\"Not markedly greater\" = \"similar\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "oral history",
+    "evidence": "located with the help of Inuit oral history.",
+    "explanation": "\"Inuit\" is already in the summary. \"Knowledge\" (Paragraph F) is the same type of word, but \"oral history\" is what located the wrecks."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_01",
+  "questionTypeName": "Note Completion",
+  "title": "The Royal Fruit",
+  "lesson": {
+   "title": "Match each heading to a paragraph",
+   "text": "In an easy set, each group of notes usually comes from one paragraph. Before you look for any answer, read the headings and write the matching paragraph letter next to each one (\"Origins\" → A, \"A luxury item\" → B). Then search only that paragraph for the gaps under the heading.",
+   "example": "Heading: \"Growing pineapples in Europe\". Look for the paragraph that describes greenhouses and gardeners, not the one about ships or prices."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "Paraguay",
+    "evidence": "probably first cultivated in the region of present-day Brazil and Paraguay.",
+    "explanation": "\"Brazil and\" is already in the notes."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "sweetness",
+    "evidence": "were struck by its sweetness.",
+    "explanation": "\"Struck by\" = \"impressed by\"."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "rotted",
+    "evidence": "most fruits rotted long before they arrived.",
+    "explanation": "The gap needs a past-tense verb after \"most fruits\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "furniture",
+    "evidence": "the fruit appeared as a decoration on buildings, gateposts and furniture.",
+    "explanation": "\"Buildings, gateposts and\" is already in the notes."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "pineries",
+    "evidence": "special heated greenhouses, known as 'pineries'.",
+    "explanation": "\"Known as\" = \"called\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "tree bark",
+    "evidence": "pits filled with rotting tree bark, which produced heat as it decayed.",
+    "explanation": "\"Bark\" alone is also acceptable."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "four years / 4 years",
+    "evidence": "A single fruit could take up to four years to grow.",
+    "explanation": "\"Up to\" is already in the notes. The late seventeenth century is a date, not a length of time."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "steamships",
+    "evidence": "Faster steamships made it possible to transport fresh fruit.",
+    "explanation": "\"Faster\" is already in the notes. \"Canning\" is a different nineteenth-century change: preservation, not transport."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_02",
+  "questionTypeName": "Note Completion",
+  "title": "Warm in Cold Water",
+  "lesson": {
+   "title": "Notes leave out small words",
+   "text": "Notes remove articles (a, the), linking words and many verbs, so the gap is often surrounded by only two or three words. Do not look for the exact phrase of the note in the passage. Look for the idea, then take the key word. For example, the note \"depend on (2) ______\" matches the passage sentence \"Instead, they rely on their fur.\"",
+   "example": "Note: \"diet: mainly (1) ______\" Passage: \"Its diet consists largely of seeds.\" Answer: seeds."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "weasel",
+    "evidence": "They are the heaviest members of the weasel family.",
+    "explanation": "\"Heaviest\" and \"family\" are already in the notes."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "fur",
+    "evidence": "Instead, they rely on their fur.",
+    "explanation": "\"Rely on\" = \"depend on\"."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "air",
+    "evidence": "The fur traps a layer of air next to the skin.",
+    "explanation": "This is a direct match. \"Fat\" is the trap: that is what other marine mammals use."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "grooming",
+    "evidence": "Sea otters spend several hours every day grooming.",
+    "explanation": "The gap needs an -ing form after \"spent\"."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "oil",
+    "evidence": "oil spills are a serious threat to them.",
+    "explanation": "\"Spills\" is already in the notes. \"Serious threat\" = \"major danger\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "quarter",
+    "evidence": "an adult must eat about a quarter of its body weight every day.",
+    "explanation": "\"A\" is already in the notes."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "stone",
+    "evidence": "an otter places a flat stone on its chest and strikes a hard shell against it.",
+    "explanation": "\"Flat\" is already in the notes."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "1911",
+    "evidence": "After an international agreement banned the hunting in 1911.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_03",
+  "questionTypeName": "Note Completion",
+  "title": "A Fastener That Took Decades",
+  "lesson": {
+   "title": "Dates in a timeline",
+   "text": "History notes are often organised as a timeline, with dates at the start of each bullet. A passage may give two dates for the same invention: when it was designed and when it was patented. Before you write a date, read the note carefully to see which event it refers to.",
+   "example": "Passage: \"He built the engine in 1885 and patented it in 1886.\" Note: \"patent granted: (1) ______\" Answer: 1886."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "sewing machine",
+    "evidence": "Elias Howe, best known for his work on the sewing machine.",
+    "explanation": "\"Best known for\" = \"linked with\"."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "shoes",
+    "evidence": "It was designed mainly to fasten shoes.",
+    "explanation": "\"Designed mainly to\" = \"intended mainly for\"."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "spring open",
+    "evidence": "tended to spring open unexpectedly.",
+    "explanation": "\"Tended to\" and \"unexpectedly\" are already in the notes."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "teeth",
+    "evidence": "small metal teeth, rather than hooks, fitted neatly into one another.",
+    "explanation": "\"Small metal\" is already in the notes."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "machine",
+    "evidence": "He also designed a machine that could produce the fastener in large quantities.",
+    "explanation": "\"In large quantities\" = \"large-scale production\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "1917",
+    "evidence": "His design, patented in 1917.",
+    "explanation": "1913 is when he designed the fastener, not when it was patented. This is the timeline trap."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "sound",
+    "evidence": "the name referred to the sound the fastener made.",
+    "explanation": "This is a direct match. 1923 is when the name was introduced, not its origin."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "children",
+    "evidence": "In the 1930s, however, the fastener began to appear on children's clothing.",
+    "explanation": "\"Children's clothing\" = \"clothing for children\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_04",
+  "questionTypeName": "Note Completion",
+  "title": "The Upside-Down Tree",
+  "lesson": {
+   "title": "What counts as one word",
+   "text": "With the instruction ONE WORD AND/OR A NUMBER, a single letter (such as the C in \"vitamin C\") counts as one word, and a number counts as a number, not a word. Units that are already printed in the notes should not be copied again. If a note says \"over 100,000 (3) ______\", only the unit is missing.",
+   "example": "Passage: \"It is rich in vitamin A.\" Note: \"rich in vitamin (1) ______\" Answer: A."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "eight / 8",
+    "evidence": "There are eight species, six of which are found only in Madagascar.",
+    "explanation": "\"Six\" is the number found only in Madagascar, not the total."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "wood",
+    "evidence": "Its trunk is made of soft, spongy wood.",
+    "explanation": "\"Soft, spongy\" is already in the notes."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "litres",
+    "evidence": "A large tree can store more than a hundred thousand litres.",
+    "explanation": "The number is already in the notes; only the unit is missing."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "shrinks",
+    "evidence": "The trunk visibly swells after the rains and shrinks during the dry months.",
+    "explanation": "\"Swells\" describes the rainy season, the opposite."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "rings",
+    "evidence": "their wood does not form clear annual rings.",
+    "explanation": "\"Clear annual\" is already in the notes."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "C",
+    "evidence": "a dry, powdery pulp that is rich in vitamin C.",
+    "explanation": "A single letter counts as one word."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "cloth",
+    "evidence": "strong fibres that are made into rope, baskets and cloth.",
+    "explanation": "\"Oil\" is made from the seeds, not the bark."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "bats",
+    "evidence": "pollinated mainly by fruit bats.",
+    "explanation": "\"Fruit\" is already in the notes."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_05",
+  "questionTypeName": "Note Completion",
+  "title": "Half Asleep",
+  "lesson": {
+   "title": "Symbols in notes",
+   "text": "Notes often use symbols instead of words. The most common are: → (leads to / results in), = (means / is), ≈ (approximately), + (and), ↑ and ↓ (increase and decrease), and e.g. (for example). Translate each symbol into words before you search the passage. For example, \"logging = resting still at the (6) ______\" means \"logging is resting still at the ______\".",
+   "example": "Note: \"total ≈ (1) ______ per day\". Passage: \"about six hours a day\". Answer: six hours."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "(its) blowhole",
+    "evidence": "it must consciously rise to the surface and open its blowhole.",
+    "explanation": "\"Open\" and \"at the surface\" are already in the notes."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "brain activity",
+    "evidence": "Russian scientists who recorded the brain activity of bottlenose dolphins.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "danger",
+    "evidence": "controlling breathing and watching for danger.",
+    "explanation": "The symbol \"+\" = \"and\". \"Sharks\" (Paragraph C) is an example of a predator, not what the brain watches for in this sentence."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "closed",
+    "evidence": "the eye connected to the sleeping half of the brain is closed.",
+    "explanation": "The symbol \"=\" means \"is\"."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "eight hours / 8 hours",
+    "evidence": "for a total of around eight hours a day.",
+    "explanation": "\"≈\" = \"around\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "surface",
+    "evidence": "rest motionless at the surface in a position known as 'logging'.",
+    "explanation": "\"Sea floor\" describes a different resting position."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "calf",
+    "evidence": "Scientists believe that this may help protect the calf.",
+    "explanation": "The symbol \"→\" = \"results in\", and \"may help protect\" matches."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "flying",
+    "evidence": "Frigatebirds ... have been recorded sleeping with one half of the brain while flying.",
+    "explanation": "The gap needs an -ing form after \"while\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_06",
+  "questionTypeName": "Note Completion",
+  "title": "Floating Mountains",
+  "lesson": {
+   "title": "ONE WORD ONLY and names",
+   "text": "With ONE WORD ONLY, many answers are names (of places, organisations or processes) or technical terms. If a name has several words, the notes usually print all but one of them (\"the International Ice (5) ______\"). Copy the missing word exactly, including the capital letter.",
+   "example": "Passage: \"The Royal Geographical Society funded the trip.\" Note: \"funded by the Royal Geographical (1) ______\" Answer: Society."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "calving",
+    "evidence": "The process by which they break away is called calving.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "Greenland",
+    "evidence": "Most icebergs in the North Atlantic come from glaciers on the west coast of Greenland.",
+    "explanation": "\"Antarctica\" is the source of the largest icebergs, not the North Atlantic ones."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "surface",
+    "evidence": "Roughly nine-tenths of an iceberg's volume lies beneath the surface.",
+    "explanation": "\"Beneath\" = \"below\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "growlers",
+    "evidence": "Small pieces less than a metre high are known as 'growlers'.",
+    "explanation": "\"Bergy bits\" are slightly larger, and they are two words."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "Patrol",
+    "evidence": "established the International Ice Patrol in 1914.",
+    "explanation": "Only the last word of the name is missing."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "radar",
+    "evidence": "Today it uses aircraft, satellites and radar.",
+    "explanation": "\"Aircraft, satellites and\" is already in the notes."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "iron",
+    "evidence": "they release fresh water and minerals such as iron.",
+    "explanation": "\"Such as\" = \"e.g.\". \"Phytoplankton\" are plants, not minerals."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "cost",
+    "evidence": "mainly because of the cost and the difficulty of preventing the ice from melting.",
+    "explanation": "The melting problem is already in the notes."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_07",
+  "questionTypeName": "Note Completion",
+  "title": "The Frozen Water Trade",
+  "lesson": {
+   "title": "Notes grouped by topic, not by paragraph",
+   "text": "At Medium level, notes are often organised by topic (\"Key innovations\", \"Problems\") rather than following the passage paragraph by paragraph. One heading may therefore collect details from different parts of the passage, and the last gap may come from a paragraph earlier than the one before it. Use the heading to decide what kind of information you need, then look for it wherever it appears.",
+   "example": "Heading: \"Problems\". The passage mentions one problem in Paragraph B and another in Paragraph E. Both belong under the same heading, even though other information comes between them."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "1806",
+    "evidence": "In 1806, a young Boston businessman named Frederic Tudor had an idea.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "Martinique",
+    "evidence": "His first cargo, sent to the island of Martinique.",
+    "explanation": "\"Cargo\" is used in both. \"The Caribbean\" is the general region, not the destination of the first cargo."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "cold drinks",
+    "evidence": "giving away cold drinks to create demand.",
+    "explanation": "\"Create demand\" = \"built demand\"."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "sawdust",
+    "evidence": "sawdust, a waste product from timber mills that was available cheaply.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "ice cutter",
+    "evidence": "a horse-drawn ice cutter that sliced frozen lakes into a grid of uniform blocks.",
+    "explanation": "\"Uniform\" = \"of equal size\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "mild winters",
+    "evidence": "Mild winters could produce thin ice and poor harvests.",
+    "explanation": "This is the topic-grouping skill: the heading \"Problems\" collects this detail from Paragraph E."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "polluted",
+    "evidence": "many lakes and rivers became polluted, raising concerns about the cleanliness of ice.",
+    "explanation": "The gap needs an adjective after \"had become\"."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "1830s",
+    "evidence": "By the 1830s, Tudor was shipping ice as far as India.",
+    "explanation": "This answer comes from Paragraph D, before the \"Problems\" details in Paragraph E, because the notes are grouped by topic. \"The 1830s\" is also acceptable."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_08",
+  "questionTypeName": "Note Completion",
+  "title": "Minds in Eight Arms",
+  "lesson": {
+   "title": "Evidence and limitations in notes",
+   "text": "Research notes often separate a finding from its limitation, sometimes using a sub-bullet marked \"limitation\" or \"but\". A gap under a limitation needs the words that express doubt or weakness, not the finding itself. Read the whole bullet, including any sub-bullets, before choosing.",
+   "example": "Passage: \"The drug reduced pain, but the trial was small.\" Notes: \"• result: less pain – limitation: (1) ______ trial\". Answer: small."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "500 million / five hundred million",
+    "evidence": "their evolutionary line separated from our own more than five hundred million years ago.",
+    "explanation": "\"Five hundred million\" is a number, so it fits the limit. The same figure appears for neurons in Paragraph B, so check the context: here it is years."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "two-thirds",
+    "evidence": "about two-thirds of them are located not in the brain but in the arms.",
+    "explanation": "A hyphenated word counts as one word. \"Five hundred million\" is the total number of neurons, not the share in the arms."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "(the) lids",
+    "evidence": "Octopuses have learned to unscrew the lids of jars.",
+    "explanation": "\"Of jars\" is already in the notes."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "observation",
+    "evidence": "suggesting learning by observation.",
+    "explanation": "\"Learning by\" is already in the notes."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "mixed results",
+    "evidence": "later attempts to repeat the experiment produced mixed results.",
+    "explanation": "The sub-bullet asks for the limitation, not the original finding."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "current",
+    "evidence": "pushed the objects into a current of water.",
+    "explanation": "\"Water current\" = \"current of water\"."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "shelter",
+    "evidence": "carrying coconut shells, which it later assembles into a shelter.",
+    "explanation": "\"Assembles into\" = \"build\"."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "colour-blind",
+    "evidence": "Surprisingly, octopuses are thought to be colour-blind.",
+    "explanation": "\"Despite\" in the notes reflects \"Surprisingly\". A hyphenated word counts as one word."
+   },
+   {
+    "n": 9,
+    "q": "",
+    "answer": "solitary",
+    "evidence": "they are largely solitary, so their abilities probably evolved to deal with ... rather than living in social groups.",
+    "explanation": "\"Largely\" = \"mostly\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_09",
+  "questionTypeName": "Note Completion",
+  "title": "The Accidental Colour",
+  "lesson": {
+   "title": "Aim versus result",
+   "text": "Stories of discovery often describe what someone was trying to do and what actually happened. Notes separate these with labels such as \"aim\" and \"result\". The two are easily confused because both appear close together in the passage. Before you write, check which label is printed before the gap.",
+   "example": "Passage: \"He set out to find a new route to India but reached the Caribbean.\" Notes: \"aim: route to (1) ______\" Answer: India."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "shellfish",
+    "evidence": "all dyes used to colour cloth came from natural sources: plants, insects and shellfish.",
+    "explanation": "\"Plants, insects and\" is already in the notes."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "snails",
+    "evidence": "extracted from thousands of sea snails.",
+    "explanation": "\"Sea\" is already in the notes."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "quinine",
+    "evidence": "Perkin attempted to produce quinine artificially.",
+    "explanation": "This is the aim. The result, a purple dye, is a separate bullet."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "tar",
+    "evidence": "chemicals found in coal tar.",
+    "explanation": "\"Coal\" is already in the notes."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "alcohol",
+    "evidence": "When Perkin tried to clean his flask with alcohol ... the residue dissolved to give a brilliant purple solution.",
+    "explanation": "This is the result. \"Silk\" is what he tested the dye on, not what produced the solution."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "Victoria",
+    "evidence": "Queen Victoria wore a mauve dress to a royal wedding in 1858.",
+    "explanation": "\"Queen\" is already in the notes."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "German",
+    "evidence": "German companies ... soon dominated the industry.",
+    "explanation": "Britain and France also developed dyes, but they did not dominate."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "cells",
+    "evidence": "certain dyes stained particular cells and bacteria.",
+    "explanation": "\"And bacteria\" is already in the notes."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_10",
+  "questionTypeName": "Note Completion",
+  "title": "Running Out of Sand",
+  "lesson": {
+   "title": "Large numbers and fractions",
+   "text": "When a note needs a large quantity (\"about (1) ______ tonnes\") or a fraction (\"≈ (2) ______ sand and gravel\"), the passage may write it in words (\"fifty billion\", \"three-quarters\"). You may copy it in words or figures, but the unit already printed in the note must not be repeated. Also check what the number measures: amount extracted, share of a mixture, or year.",
+   "example": "Passage: \"Around two-thirds of the land is forest.\" Note: \"forest ≈ (1) ______ of land\". Answer: two-thirds."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "fifty billion / 50 billion",
+    "evidence": "around fifty billion tonnes are extracted each year.",
+    "explanation": "\"Tonnes\" is already in the notes."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "three-quarters",
+    "evidence": "Concrete, which is roughly three-quarters sand and gravel by weight.",
+    "explanation": "\"≈\" = \"roughly\". A hyphenated word counts as one word."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "smooth",
+    "evidence": "its grains are rounded and smooth, so they do not bind together well.",
+    "explanation": "\"Rounded and\" is already in the notes."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "angular",
+    "evidence": "Construction requires the angular grains found in rivers, lakes and coastal areas.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "water tables",
+    "evidence": "Removing sand from riverbeds can deepen channels, lower water tables and undermine bridges.",
+    "explanation": "\"Lower\" is already in the notes."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "sea",
+    "evidence": "has contributed to the loss of land to the sea.",
+    "explanation": "\"Lost to the\" is already in the notes."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "crushed rock",
+    "evidence": "Crushed rock can be manufactured into sand ... although producing it requires energy.",
+    "explanation": "\"Recycled concrete\" is also an alternative, but it replaces new material rather than being made into sand, and energy is mentioned only for crushed rock."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "strategic resource",
+    "evidence": "treating sand as a strategic resource rather than an unlimited one.",
+    "explanation": "\"A\" is already in the notes."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_11",
+  "questionTypeName": "Note Completion",
+  "title": "Holding Back the Sea",
+  "lesson": {
+   "title": "Arrows that show cause and effect",
+   "text": "An arrow (→) in notes links a cause to its effect or an action to its result. If the gap comes before the arrow, you need the cause; if it comes after, you need the result. Read the passage sentence that links the two and decide which side of the relationship the gap asks for.",
+   "example": "Passage: \"Heavy rain caused the river to overflow.\" Note: \"(1) ______ → river overflowed\". Answer: heavy rain (the cause)."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "polders",
+    "evidence": "have drained lakes and marshes to create farmland, known as polders.",
+    "explanation": "The gap follows the arrow, so it is the result."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "spring tide",
+    "evidence": "a severe storm combined with a high spring tide drove the North Sea against the coast.",
+    "explanation": "The gap comes before the arrow, so it is part of the cause. \"High\" is already in the notes."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "100,000 / a hundred thousand",
+    "evidence": "around a hundred thousand people had to leave their homes.",
+    "explanation": "\"More than 1,800\" is the number of deaths, which makes it the nearby-number trap."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "coastline",
+    "evidence": "Its central idea was to shorten the coastline by closing off the estuaries.",
+    "explanation": "The gap follows the arrow: closing estuaries results in a shorter coastline."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "fresh water",
+    "evidence": "A complete dam would have turned the salt water behind it into fresh water.",
+    "explanation": "\"Turned ... into\" = \"turn into\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "oyster farmers",
+    "evidence": "environmental groups, fishermen and oyster farmers objected strongly.",
+    "explanation": "\"Environmental groups, fishermen and\" is already in the notes."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "dangerous storms",
+    "evidence": "gates that remain open in normal conditions ... and close only during dangerous storms.",
+    "explanation": "\"Close only during\" is already in the notes."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "flood",
+    "evidence": "certain low-lying areas were designated to flood safely during high water.",
+    "explanation": "The gap needs a verb after \"allowed to\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_12",
+  "questionTypeName": "Note Completion",
+  "title": "The Body's Clock",
+  "lesson": {
+   "title": "Technical terms in notes",
+   "text": "Science notes use the passage's technical terms, but they may present them differently: as a label followed by a colon (\"master clock: in the (2) ______\"), or as a definition (\"made by the (5) ______ gland\"). When the passage defines a term (\"the hypothalamus, a region at the base of the brain\"), the answer is usually the term itself, not the explanation.",
+   "example": "Passage: \"Chlorophyll, the green pigment in leaves, absorbs light.\" Note: \"light absorbed by (1) ______\" Answer: chlorophyll."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "digestion",
+    "evidence": "affect body temperature, hormone levels and digestion.",
+    "explanation": "\"Temperature, hormones and\" is already in the notes."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "hypothalamus",
+    "evidence": "the master clock is located in a small group of cells in the hypothalamus.",
+    "explanation": "Write the term, not its definition (\"a region at the base of the brain\")."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "longer",
+    "evidence": "their daily cycles drifted, typically becoming slightly longer than twenty-four hours.",
+    "explanation": "\"Slightly\" is already in the notes."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "light",
+    "evidence": "external cues, of which the most important is light.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "pineal",
+    "evidence": "the hormone melatonin, produced by the pineal gland.",
+    "explanation": "\"Gland\" is already in the notes."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "screens",
+    "evidence": "which is why exposure to screens late at night may delay sleep.",
+    "explanation": "\"E.g.\" = \"for example\"; screens are the example of a light source."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "eastwards",
+    "evidence": "Most people find travelling eastwards more difficult than travelling westwards.",
+    "explanation": "\"Westwards\" is the easier direction, the opposite."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "shift",
+    "evidence": "Similar problems affect shift workers.",
+    "explanation": "\"Workers\" is already in the notes."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_13",
+  "questionTypeName": "Note Completion",
+  "title": "The Silent Army",
+  "lesson": {
+   "title": "Choosing the right detail from a list",
+   "text": "Passages often list several details in one sentence (\"writing, weights, measures and money\"; \"swords, spears and crossbows\"). The notes usually print most of the list and leave one item as the gap. Compare the notes with the passage list item by item and write only the item that is missing.",
+   "example": "Passage: \"The shop sold bread, cakes and pies.\" Notes: \"products: bread, (1) ______, pies\". Answer: cakes."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "well",
+    "evidence": "farmers digging a well near the city of Xi'an.",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "thirteen / 13",
+    "evidence": "in 246 BC, when he was only thirteen years old.",
+    "explanation": "246 BC and 221 BC are years, not ages."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "money",
+    "evidence": "standard systems of writing, weights, measures and money.",
+    "explanation": "The other items of the list are already in the notes."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "eight thousand / 8,000",
+    "evidence": "the pits contain around eight thousand soldiers.",
+    "explanation": "\"Soldiers\" is already in the notes."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "by hand",
+    "evidence": "the heads, hair and facial features were shaped individually by hand.",
+    "explanation": "\"Individually by hand\" is three words and exceeds the limit, so write only \"by hand\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "minutes",
+    "evidence": "the paint dries, curls and flakes off within minutes.",
+    "explanation": "\"Within\" is already in the notes."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "surrounding soil",
+    "evidence": "due mainly to the properties of the surrounding soil.",
+    "explanation": "\"Chromium\" is the earlier explanation, which the newer research rejected."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "mercury",
+    "evidence": "scientific tests of the soil have found unusually high levels of mercury.",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_14",
+  "questionTypeName": "Note Completion",
+  "title": "Fighting Disease with Bacteria",
+  "lesson": {
+   "title": "Notes that break a process into steps",
+   "text": "When a passage explains a process (how something spreads, how a method works), the notes may turn each step into a short line. The passage often explains the steps in a different order from the notes, or combines two steps in one sentence. Identify each step in the notes, then find the part of the passage sentence that describes it.",
+   "example": "Passage: \"Seeds are carried by birds, which drop them far from the parent plant.\" Notes: \"• seeds carried by (1) ______ • dropped far from (2) ______\" Answers: birds; parent plant."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "standing water",
+    "evidence": "removing the standing water in which mosquitoes breed.",
+    "explanation": "\"Removing\" is already in the notes."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "resistance",
+    "evidence": "mosquitoes can develop resistance to insecticides.",
+    "explanation": "\"To insecticides\" is already in the notes."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "insect species",
+    "evidence": "found naturally in around half of all insect species.",
+    "explanation": "\"Butterflies and flies\" are examples, not the whole group."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "multiply",
+    "evidence": "made it much harder for viruses such as dengue to multiply inside the mosquito.",
+    "explanation": "\"Much harder\" = \"less able\". The gap needs a verb after \"to\"."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "(their) eggs",
+    "evidence": "pass it on to all their offspring through their eggs.",
+    "explanation": "This is the first step of the spreading process."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "hatch",
+    "evidence": "If a female without Wolbachia mates with a male that carries it, her eggs do not hatch.",
+    "explanation": "\"Do not hatch\" = \"fail to hatch\". This is the second step."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "randomly",
+    "evidence": "neighbourhoods were randomly chosen either to receive Wolbachia mosquitoes or not.",
+    "explanation": "The gap needs an adverb after \"chosen\"."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "male mosquitoes",
+    "evidence": "Only male mosquitoes carrying the bacterium are released ... this approach aims to reduce the size of the mosquito population.",
+    "explanation": "\"Only\" is already in the notes."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_15",
+  "questionTypeName": "Note Completion",
+  "title": "Drawing the Invisible",
+  "lesson": {
+   "title": "Hard Note Completion — abstract headings and heavy paraphrase",
+   "text": "At Hard level, headings are abstract (\"Working conditions\", \"Method of presentation\") and the notes rarely share words with the passage. With ONE WORD ONLY, you must also find the single word that carries the meaning. Strategy: turn each note into a question (\"What was she excluded from?\"), find the sentence that answers it, and choose the one word that fits both the meaning and the grammar of the note.",
+   "example": "Note: \"excluded from (1) ______ on grounds of sex\". Passage: \"women were not allowed on the expeditions\". Answer: expeditions."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "sounders",
+    "evidence": "After the First World War, echo sounders ... made it possible to record continuous profiles.",
+    "explanation": "\"Echo\" is already in the notes."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "vessels",
+    "evidence": "women were not permitted to work aboard the laboratory's research vessels.",
+    "explanation": "\"Not permitted\" = \"not allowed\". \"Research\" is already in the notes."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "valley",
+    "evidence": "A deep valley appeared to run along the centre of a great undersea mountain range.",
+    "explanation": "\"Along the centre\" = \"central\". \"Ridge\" is the mountain range itself, not what runs along it."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "rift",
+    "evidence": "She suggested that it was a rift, where the sea floor was being pulled apart.",
+    "explanation": "This is her interpretation of the valley."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "earthquakes",
+    "evidence": "He was persuaded only when the locations of earthquakes ... were found to follow the line of the valley.",
+    "explanation": "\"Locations\" = \"positions\"."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "contour",
+    "evidence": "Instead of the conventional method of showing depth with contour lines.",
+    "explanation": "\"Lines\" is already in the notes."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "classified",
+    "evidence": "The United States Navy ... classified detailed depth data as secret.",
+    "explanation": "The note needs a past participle after \"data\"."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "cartographers",
+    "evidence": "named her one of the most important cartographers of the twentieth century.",
+    "explanation": "The plural fits \"one of the ...\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_note_completion_16",
+  "questionTypeName": "Note Completion",
+  "title": "The Clock That Found the Sea",
+  "lesson": {
+   "title": "Many numbers, names and competing methods",
+   "text": "Hard history passages contain many figures (dates, sums of money, measurements) and several named people. Distractors are usually real passage details of the same type attached to a different event: the year of a disaster instead of the year of a law, a watchmaker's name instead of a navigator's. For each gap, find the exact event the note describes before choosing a figure or a name.",
+   "example": "Passage: \"A shipwreck in 1707 led Parliament to pass a law in 1714.\" Note: \"law passed: (1) ______\". Answer: 1714."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "",
+    "answer": "fifteen degrees / 15 degrees",
+    "evidence": "the Earth rotates through fifteen degrees every hour.",
+    "explanation": "\"Every hour\" = \"per hour\". \"Half a degree\" is the accuracy required by the prize, a same-type trap."
+   },
+   {
+    "n": 2,
+    "q": "",
+    "answer": "pendulum",
+    "evidence": "the pendulum clocks of the period were useless on a rolling ship.",
+    "explanation": "\"Useless\" = \"unreliable\", and \"rolling\" = \"moving\"."
+   },
+   {
+    "n": 3,
+    "q": "",
+    "answer": "1714",
+    "evidence": "In 1714, the British Parliament passed the Longitude Act.",
+    "explanation": "1707 is the year of the shipwreck, the date trap."
+   },
+   {
+    "n": 4,
+    "q": "",
+    "answer": "half a degree",
+    "evidence": "a practical method of finding longitude at sea to within half a degree.",
+    "explanation": "This is three words. \"Within\" is already in the notes."
+   },
+   {
+    "n": 5,
+    "q": "",
+    "answer": "lunar distance",
+    "evidence": "measuring the position of the Moon against the stars, the 'lunar distance' method.",
+    "explanation": "\"Method\" is already in the notes."
+   },
+   {
+    "n": 6,
+    "q": "",
+    "answer": "thirteen centimetres / 13 centimetres",
+    "evidence": "only about thirteen centimetres across.",
+    "explanation": "\"Across\" is already in the notes."
+   },
+   {
+    "n": 7,
+    "q": "",
+    "answer": "Jamaica",
+    "evidence": "On a voyage to Jamaica in 1761–62, it lost only about five seconds.",
+    "explanation": "\"The Pacific\" is where Cook sailed with a copy, not the trial voyage."
+   },
+   {
+    "n": 8,
+    "q": "",
+    "answer": "King George III",
+    "evidence": "after appealing directly to King George III.",
+    "explanation": "This is three words, within the limit. \"Parliament\" paid the sum, but the appeal was to the King."
+   },
+   {
+    "n": 9,
+    "q": "",
+    "answer": "Larcum Kendall",
+    "evidence": "a copy of H4, made by the watchmaker Larcum Kendall.",
+    "explanation": "James Cook used the copy but did not make it, which makes \"James Cook\" the name trap."
+   }
+  ]
+ }
+]

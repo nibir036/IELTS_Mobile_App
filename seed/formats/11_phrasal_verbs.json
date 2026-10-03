@@ -1,0 +1,48 @@
+{
+  "_format": {
+    "name": "phrasal_verbs",
+    "group": "content",
+    "table": "phrases",
+    "primaryKey": "id",
+    "description": "Phrasal verb with meaning, example, register and topic.",
+    "currentSourceInApp": "resources.phrasalVerbs",
+    "fields": {
+      "id": "string",
+      "phrase": "string",
+      "meaning": "string",
+      "example": "string",
+      "register": "string",
+      "topic": "string"
+    },
+    "required": [
+      "id",
+      "phrase",
+      "meaning",
+      "example",
+      "register"
+    ],
+    "relations": [],
+    "notes": [
+      "register: speaking|writing|both. Stored in phrases with kind = \"phrasal\"."
+    ],
+    "recordCountToday": 30
+  },
+  "items": [
+    {
+      "id": "pv_bring_about",
+      "phrase": "bring about",
+      "meaning": "to cause something to happen, often a change",
+      "example": "Stricter recycling laws could bring about a real shift in how households deal with waste.",
+      "register": "writing",
+      "topic": "Environment"
+    },
+    {
+      "id": "pv_cut_down_on",
+      "phrase": "cut down on",
+      "meaning": "to reduce the amount of something you use or do",
+      "example": "I've been trying to cut down on screen time before bed because it affects my sleep.",
+      "register": "speaking",
+      "topic": "Health"
+    }
+  ]
+}

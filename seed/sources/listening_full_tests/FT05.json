@@ -1,0 +1,1180 @@
+{
+ "id": "FT05",
+ "title": "Listening Full Test 5",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "A Home Contents Insurance Quote",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "A man who has just moved home phones an insurance company to get a quote for home contents insurance.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Priya",
+     "desc": "Insurance adviser — female, late 20s, bright, efficient and polite; British accent (southern English)"
+    },
+    {
+     "label": "Daniel",
+     "desc": "Caller — male, late 30s, friendly, slightly hurried, good-humoured; British accent (northern English)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear a man phoning an insurance company to get a quote for home contents insurance. First, you have some time to look at Questions 1 to 6.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Priya",
+     "text": "[telephone rings twice, then the line clicks open] [bright, professional] Good afternoon, Hartwell Home Insurance, you're speaking to Priya. How can I help?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[friendly, a little hurried] Oh, hello. I'm after a quote for contents insurance. I've just moved into a new place, and my old policy doesn't transfer, apparently. [light laugh] Which nobody told me."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[warm] That happens a lot, don't worry. I can do a quote for you now, it'll only take ten minutes or so. Could I start with your name?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "Yes, it's Daniel Fairleigh."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[typing, careful] Daniel... and the surname, is that F... A... I... R... L... E... Y?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[patient chuckle, used to this] Everyone does that. No, it's F... A... I... R... L... E... I... G... H."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[repeating slowly as she types] L... E... I... G... H. Sorry about that. And the address of the property you'd like insured?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[clearly] Twenty-two Meadowcroft Road, in Selby."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[friendly] And when did you move in?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[laughs] Only last Saturday. There are still boxes absolutely everywhere."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[efficient] Thank you. And what type of property is it? A house, a flat...?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[thinking aloud] Well, the estate agent advertised it as a flat, but it isn't really, because it's on two floors and it's got its own front door. [decisive] It's a maisonette."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[typing] A maisonette, fine. We actually treat those the same as houses. [short pause] And could I ask your occupation? It does make a small difference to the price."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[amused] Does it? Well, I was a teacher for years, chemistry, but I retrained a while back, so I'm a pharmacist now."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[pleasant] Pharmacist, lovely. Now, the total value of your contents. That's basically everything you'd take with you if you moved: furniture, clothes, electrical goods, and so on."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[hesitant] Er, I did try to work it out last night. I came to about thirty thousand pounds."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[gently cautious] Most people underestimate, I'm afraid. Did that include things like clothes, and all your kitchen equipment?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[sighs] Ah... no, it didn't. [short pause] Let's say thirty-eight thousand, to be on the safe side."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[approving] Thirty-eight thousand. That's probably wiser. And is there any single item worth more than two thousand pounds? We'd need to list those separately."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[thinking] Hmm. My bike cost a lot, but it was just under two thousand. I used to have quite a good watch, but I sold that last year. [suddenly remembering] Oh, the telescope! That was about two thousand four hundred."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[typing] A telescope. I'll put that down as a specified item. Last question in this section: have you made any claims on home insurance in the past five years?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[matter-of-fact] Just one. About three years ago a pipe burst in the flat upstairs, and it came through my ceiling."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[checking] Ah. And was that recorded as flood damage, or...?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[firm] No, the insurer was quite clear it wasn't a flood, because that's water coming in from outside. They put it down as water damage."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[efficient] Then that's what I'll put."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[slightly worried] Will a claim like that push the price up much?"
+    },
+    {
+     "speaker": "Priya",
+     "text": "[reassuring, honest] A little, but not a great deal, as it wasn't your fault and it was more than two years ago."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 7 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Priya",
+     "text": "[brisk, explaining] Right, so based on all that, I can offer you three levels of cover. The first is called Essential."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[wry] The cheapest, I imagine."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[light laugh] That's right. For your property, Essential would be nine pounds eighty-five a month."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[surprised] Oh. I'm sure I saw eight ninety-five on your website."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[apologetic] You may well have, that was the price until the end of last month. It went up on the first, I'm afraid, so it's nine eighty-five now. [clearly] Essential doesn't include accidental damage, and the excess, which is what you'd pay towards any claim yourself, is two hundred and fifty pounds."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[unimpressed] Hmm. That's quite a lot."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[neutral] It is. Then there's Standard, at sixteen pounds forty a month. That does cover accidental damage, so if you spilt paint on the carpet, say, or dropped your laptop. And the excess comes down to a hundred."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[interested] What about things I take out of the house? I carry my laptop to work and back every day."
+    },
+    {
+     "speaker": "Priya",
+     "text": "Standard covers your belongings away from home as well. Some insurers limit that to a thousand pounds, but ours goes up to fifteen hundred pounds."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[thinking aloud] Fifteen hundred. Well, the laptop's worth a lot less than that, so that'd be fine."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[upbeat] And finally there's Premium, which is twenty-three pounds ninety a month. That has everything in Standard, plus a couple of extras."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "Such as?"
+    },
+    {
+     "speaker": "Priya",
+     "text": "[explaining] Well, people often assume it includes medical cover, but that's really something for travel insurance. What Premium does give you is legal expenses. So if you ended up in a dispute with a builder, for instance, or a neighbour, we'd help with the solicitor's fees."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[dry chuckle] Given my last neighbour, that's quite tempting."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[laughs softly] And the other extra is to do with keys. If your house keys are lost or stolen, we won't just pay for new keys, anyone can get those cut. We pay to have all the locks changed."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[approving] That's sensible, actually. Whoever found them might know the address."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[agreeing] Exactly. Would you like me to email all three quotes so you can compare them properly?"
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[relieved] Yes, please. I'm leaning towards Standard, to be honest, but I'd like to talk it over with my partner first. [short pause] Is the price fixed if I take a few days?"
+    },
+    {
+     "speaker": "Priya",
+     "text": "[reassuring] The quote's valid for thirty days, so there's no rush. And if you pay for the whole year in one go, rather than monthly, it works out about eight per cent cheaper."
+    },
+    {
+     "speaker": "Daniel",
+     "text": "[pleased] Good to know. Thanks very much, Priya, you've been really helpful."
+    },
+    {
+     "speaker": "Priya",
+     "text": "[warm] My pleasure. The email should be with you in the next few minutes. Goodbye!"
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 1. You now have one minute to check your answers to Part 1.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-6",
+     "type": "form_completion",
+     "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "HARTWELL HOME INSURANCE — CONTENTS QUOTE",
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Name: Daniel (1) ___",
+       "answer": "Fairleigh",
+       "accepted": [],
+       "spoken": "F... A... I... R... L... E... I... G... H",
+       "evidence": "No, it's F... A... I... R... L... E... I... G... H",
+       "trap": "The adviser first spells the more common form 'Fairley', which Daniel corrects."
+      },
+      {
+       "n": 2,
+       "prompt": "Property: 22 Meadowcroft Road, Selby — a (2) ___",
+       "answer": "maisonette",
+       "accepted": [],
+       "spoken": "maisonette",
+       "evidence": "it's on two floors and it's got its own front door. It's a maisonette",
+       "trap": "'Flat' (the estate agent's description) and 'house' (the category it is treated as) are both mentioned."
+      },
+      {
+       "n": 3,
+       "prompt": "Occupation: (3) ___",
+       "answer": "pharmacist",
+       "accepted": [],
+       "spoken": "pharmacist",
+       "evidence": "but I retrained a while back, so I'm a pharmacist now",
+       "trap": "He was a (chemistry) teacher for years before retraining."
+      },
+      {
+       "n": 4,
+       "prompt": "Estimated value of contents: £(4) ___",
+       "answer": "38,000",
+       "accepted": [
+        "38000",
+        "£38,000",
+        "£38000"
+       ],
+       "spoken": "thirty-eight thousand",
+       "evidence": "Let's say thirty-eight thousand, to be on the safe side",
+       "trap": "He first gives thirty thousand, which excluded clothes and kitchen equipment."
+      },
+      {
+       "n": 5,
+       "prompt": "Item worth over £2,000, to be listed separately: (5) ___",
+       "answer": "telescope",
+       "accepted": [],
+       "spoken": "telescope",
+       "evidence": "Oh, the telescope! That was about two thousand four hundred",
+       "trap": "The bike was just under the limit and the watch has been sold."
+      },
+      {
+       "n": 6,
+       "prompt": "Claim in last five years: (6) ___ damage",
+       "answer": "water",
+       "accepted": [],
+       "spoken": "water",
+       "evidence": "They put it down as water damage",
+       "trap": "The adviser suggests 'flood' damage, which Daniel rejects."
+      }
+     ]
+    },
+    {
+     "range": "7-10",
+     "type": "table_completion",
+     "instructions": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "Levels of cover",
+     "table": {
+      "columns": [
+       "Level of cover",
+       "Cost per month",
+       "Accidental damage",
+       "Other details"
+      ],
+      "rows": [
+       [
+        "Essential",
+        "£(7) ___",
+        "not included",
+        "excess of £250"
+       ],
+       [
+        "Standard",
+        "£16.40",
+        "included",
+        "excess of £100; belongings outside the home covered up to £(8) ___"
+       ],
+       [
+        "Premium",
+        "£23.90",
+        "included",
+        "covers (9) ___ expenses; if keys are lost, pays to replace all (10) ___"
+       ]
+      ]
+     },
+     "items": [
+      {
+       "n": 7,
+       "prompt": "Essential — cost per month: £(7) ___",
+       "answer": "9.85",
+       "accepted": [
+        "£9.85"
+       ],
+       "spoken": "nine eighty-five",
+       "evidence": "It went up on the first, I'm afraid, so it's nine eighty-five now",
+       "trap": "Daniel quotes the old website price of £8.95."
+      },
+      {
+       "n": 8,
+       "prompt": "Standard — belongings outside the home covered up to £(8) ___",
+       "answer": "1,500",
+       "accepted": [
+        "1500",
+        "£1,500",
+        "£1500"
+       ],
+       "spoken": "fifteen hundred pounds",
+       "evidence": "Some insurers limit that to a thousand pounds, but ours goes up to fifteen hundred pounds",
+       "trap": "£1,000 is the limit used by other insurers."
+      },
+      {
+       "n": 9,
+       "prompt": "Premium — covers (9) ___ expenses",
+       "answer": "legal",
+       "accepted": [],
+       "spoken": "legal",
+       "evidence": "What Premium does give you is legal expenses",
+       "trap": "Medical cover is mentioned but rejected as belonging to travel insurance."
+      },
+      {
+       "n": 10,
+       "prompt": "Premium — if keys are lost, pays to replace all (10) ___",
+       "answer": "locks",
+       "accepted": [],
+       "spoken": "locks",
+       "evidence": "We pay to have all the locks changed",
+       "trap": "'Keys' is mentioned first, but she says the policy won't just pay for new keys."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Arriving in Kelmouth",
+   "context": "Monologue in an everyday social context (1 speaker)",
+   "scenario": "A coach-tour guide describes the seaside town of Kelmouth to her passengers as the coach arrives.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Guide",
+     "desc": "Coach-tour guide — female, 50s, cheerful, chatty and experienced, projecting over a microphone; British accent (south-west England)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear a tour guide talking to a group of passengers on a coach as they arrive in a seaside town. First, you have some time to look at Questions 11 to 16.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Guide",
+     "text": "[soft click of a coach microphone] [cheerful, projecting] Right, everyone, welcome to Kelmouth! We've just pulled into the coach park, which, as you can see, is right at the western end of the seafront. Before you all rush off, let me give you a quick idea of where everything is. If you've got the little map I handed out this morning, have it ready."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[clear, orienting] On the map the sea is along the bottom, so north is at the top. The long road running east along the seafront is the Promenade, and about halfway along it you'll see the clock tower. That's the easiest place to get your bearings, because Church Street runs straight up the hill from the clock tower to the Market Square."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[informative] So, first of all, the tourist information centre. Those of you who came on this trip a few years ago might remember it up in the Market Square, next to the church. [short pause] Well, it isn't there any more. That building's the town library now."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[pointing out the route] The centre moved down to the seafront. Walk along the Promenade with the sea on your right. You'll pass the deckchair hire place on the beach side, and the tourist office is just after the clock tower, on your left, looking out over the sand."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[enthusiastic] Now, if you like art, you're in for a treat. Head up Church Street from the clock tower. There's a bank on the corner on your right, [dry aside] which is useful, because a few of the little shops here still won't take cards. But keep going, and about halfway up the hill, on the left, is the Harbour Light Gallery. It's tiny, but it's got some lovely paintings of the coast."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[warm, recommending] At the top of Church Street you come out into the Market Square. The church is straight ahead of you, on the far side, and the building to the right of it is the library I mentioned. For lunch, I'd really recommend The Lobster Pot. People expect it to be on the seafront, but it isn't. It's tucked away in the top left-hand corner of the square, so on the opposite side from the library."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[informative] Back down on the seafront, if you carry on east along the Promenade, you'll come to the harbour. Do visit the lifeboat museum there. [short pause] It used to be out at the very end of the jetty, in the old boathouse, but that was badly damaged in a storm, so now it's on the north side of the harbour, right beside the slipway, where the lifeboats were launched in the old days."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[encouraging] A lot of you were asking about the seal-watching trips. You buy your tickets on board, and the boats don't go from the slipway, because the water there is far too shallow at low tide. They leave from the far end of the jetty instead, so allow a few minutes to walk out there."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[softer, almost confidential] And finally, if you want the best view in Kelmouth, and it's my favourite spot, don't go to the harbour at all. Come back here to the coach park and take the steps at the western end, up onto the headland. At the top of the steps there's a little viewpoint with a bench. On a clear day you can see three lighthouses from there."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 17 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Guide",
+     "text": "[practical, friendly] Now, people always ask me about the beach. It did get one of those national awards for clean beaches, but that was a good few years ago, and it lost it last year. Nothing serious, just a paperwork problem, I'm told."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[matter-of-fact] It's usually packed in the mornings, and it doesn't really empty out until about five, so don't expect much peace and quiet after lunch either. [serious, slowing down] What you do need to know is that when the tide's going out, there's a strong current near the rocks. The lifeguards put up red flags then, and nobody should go in the water until they come down."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[storytelling, lively] A little bit of history. Most visitors assume Kelmouth grew rich on fishing. And there were fishing boats, of course, but they only ever really fed the town itself. The money came from slate. It was dug out of the quarries a few miles inland and shipped all over the world from this harbour."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[thoughtful] The railway arrived in the eighteen-seventies and brought the first holidaymakers, but by then the big houses on the hill had already been built. So tourism came later; it wasn't what made the town wealthy."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[enthusiastic, then frank] Now, food. You can't leave Kelmouth without trying a saffron bun. Every café sells them, but, between you and me, the café ones mostly come from a factory up the road. Go to Pengelly's on Church Street instead. They're proper bakers, and they make their own."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[light laugh] People will tell you they have to be eaten warm, but honestly, they're just as good cold. And there's no need to rush over there first thing, either, because they bake all day long."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[firmer, important] Right, now the important bit, so please listen. We'd originally planned to leave at half past five, but the driver has to have the coach back at the depot earlier than we thought, so we'll be leaving at five o'clock sharp instead."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[explaining] We'll go from right here in the coach park, the same spot you're getting off. The driver did think about picking you up by the harbour, but there just isn't room for a coach to turn round there. [wry] And please don't try ringing me if you're running late. The phone signal on this bit of coast is hopeless, so I probably wouldn't get the call anyway."
+    },
+    {
+     "speaker": "Guide",
+     "text": "[cheerful, wrapping up] So, five o'clock, here. Have a wonderful afternoon, and mind the seagulls if you're eating outside. [laughs] They're bigger than you'd think, and they're not shy!"
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 2. You now have one minute to check your answers to Part 2.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-16",
+     "type": "map_labelling",
+     "instructions": "Label the map below. Write the correct letter, A–I, next to Questions 11–16.",
+     "heading": "Kelmouth town centre and seafront",
+     "layout": "Plan of Kelmouth, north at the top. The sea fills the bottom (south) edge, with a strip of beach along it. The Promenade runs west–east along the seafront just above the beach. The Coach Park is at the far west (left) end of the Promenade. A Clock Tower stands on the Promenade about halfway along. Church Street runs north from the Clock Tower up to Market Square at the top centre of the map; St Anne's Church stands on the north (far) side of Market Square, in the middle. The Harbour is at the far east (right) end of the Promenade; a Slipway runs down into the water on the north side of the harbour, and a long Jetty runs south out to sea from the southern side of the harbour. Steps lead up from the western edge of the Coach Park onto a Headland at the far left of the map. Lettered positions: B — on the beach (south) side of the Promenade, between the Coach Park and the Clock Tower. E — on the land (north) side of the Promenade, immediately east of the Clock Tower. F — on the east side of Church Street, on its bottom corner with the Promenade. C — on the west side of Church Street, halfway up. A — in the north-west corner of Market Square, west of the church. G — on the east side of Market Square, immediately to the right of the church. H — on the north side of the Harbour, beside the Slipway. D — at the far (southern) end of the Jetty. I — on the Headland at the top of the Steps, west of the Coach Park.",
+     "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E",
+      "F": "F",
+      "G": "G",
+      "H": "H",
+      "I": "I"
+     },
+     "items": [
+      {
+       "n": 11,
+       "prompt": "Tourist information centre",
+       "answer": "E",
+       "evidence": "the tourist office is just after the clock tower, on your left, looking out over the sand",
+       "trap": "G (its old site next to the church, now the library) and B (deckchair hire on the beach side) are both mentioned."
+      },
+      {
+       "n": 12,
+       "prompt": "Art gallery",
+       "answer": "C",
+       "evidence": "about halfway up the hill, on the left, is the Harbour Light Gallery",
+       "trap": "F is the bank on the right-hand corner of Church Street."
+      },
+      {
+       "n": 13,
+       "prompt": "Recommended restaurant",
+       "answer": "A",
+       "evidence": "It's tucked away in the top left-hand corner of the square, so on the opposite side from the library",
+       "trap": "Listeners may expect the seafront, which is rejected, or confuse it with G, the library beside the church."
+      },
+      {
+       "n": 14,
+       "prompt": "Lifeboat museum",
+       "answer": "H",
+       "evidence": "now it's on the north side of the harbour, right beside the slipway",
+       "trap": "D, the end of the jetty, was its previous location."
+      },
+      {
+       "n": 15,
+       "prompt": "Departure point for boat trips",
+       "answer": "D",
+       "evidence": "They leave from the far end of the jetty instead",
+       "trap": "The slipway (H) is mentioned and rejected as too shallow."
+      },
+      {
+       "n": 16,
+       "prompt": "Viewpoint",
+       "answer": "I",
+       "evidence": "take the steps at the western end, up onto the headland. At the top of the steps there's a little viewpoint",
+       "trap": "The harbour is mentioned and rejected ('don't go to the harbour at all')."
+      }
+     ]
+    },
+    {
+     "range": "17-20",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 17,
+       "prompt": "What does the guide say about Kelmouth's beach?",
+       "options": {
+        "A": "Bathing is dangerous at certain stages of the tide.",
+        "B": "It has been recognised for its cleanliness this year.",
+        "C": "It becomes much quieter after midday."
+       },
+       "answer": "A",
+       "evidence": "when the tide's going out, there's a strong current near the rocks",
+       "trap": "B: the award was won years ago and lost last year; C: it doesn't empty out until about five."
+      },
+      {
+       "n": 18,
+       "prompt": "According to the guide, the town's wealth originally came from",
+       "options": {
+        "A": "the fishing industry.",
+        "B": "the export of a building material.",
+        "C": "visitors brought by the railway."
+       },
+       "answer": "B",
+       "evidence": "The money came from slate. It was dug out of the quarries a few miles inland and shipped all over the world",
+       "trap": "Fishing 'only ever really fed the town' and tourism came after the town was already wealthy."
+      },
+      {
+       "n": 19,
+       "prompt": "What advice does the guide give about saffron buns?",
+       "options": {
+        "A": "Buy them from a shop that produces them on the premises.",
+        "B": "Eat them while they are still hot.",
+        "C": "Go early in the day before they sell out."
+       },
+       "answer": "A",
+       "evidence": "They're proper bakers, and they make their own",
+       "trap": "B: she says they're just as good cold; C: there's no need to rush because they bake all day."
+      },
+      {
+       "n": 20,
+       "prompt": "What are passengers told about the return journey?",
+       "options": {
+        "A": "The pick-up point has been moved.",
+        "B": "The departure time is earlier than planned.",
+        "C": "Passengers who are delayed should phone her."
+       },
+       "answer": "B",
+       "evidence": "we'll be leaving at five o'clock sharp instead",
+       "trap": "A: the harbour pick-up was considered but rejected; C: she asks them not to ring her."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "Case Study: A Failed Product Launch",
+   "context": "Academic discussion (2 students + tutor)",
+   "scenario": "Two business students, Leah and Owen, discuss with their tutor a case study about a cycle manufacturer's unsuccessful launch of an electric bike.",
+   "accent": "Tutor British (en-GB); Leah Canadian (en-CA); Owen British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Dr Morgan",
+     "desc": "Business tutor — female, 50s, warm but probing, precise; British accent (RP)"
+    },
+    {
+     "label": "Leah",
+     "desc": "Student — female, early 20s, thoughtful, articulate, quietly confident; Canadian accent"
+    },
+    {
+     "label": "Owen",
+     "desc": "Student — male, early 20s, enthusiastic, quick to jump in, good at conceding; British accent (Midlands)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two business students, Leah and Owen, talking to their tutor about a case study of a product launch that failed. First, you have some time to look at Questions 21 to 24.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[a door closes softly] [warm, brisk] Come in, both of you, have a seat. So, you've been working on the Calder Cycles case. How are you getting on with it? The presentation's in three weeks, so let's use today to check your main arguments."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[enthusiastic] Really well, actually. It's much more interesting than the one we did last term."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[pleased] Good. Leah, what struck you first when you read it?"
+    },
+    {
+     "speaker": "Leah",
+     "text": "[thoughtful] Well, I expected the launch budget to be enormous, and it was, but for a national campaign that's pretty normal. And I knew Calder had done really well with their road bikes, which is presumably why they were so confident. [emphatic] What I genuinely didn't see coming was that the Glide was off the market after only eight months."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[agreeing] Mm. Most firms would give a new product at least two or three years to find its feet."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[jumping in] And that's partly what made us look at their market research."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "Go on."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[confident] Well, some people in our seminar said it was out of date, but it wasn't, they did it the year before launch, which seems fine. And yes, it cost a fortune, but that's not really the point. [slightly incredulous] The problem was who they asked. They surveyed their existing customers, who are mostly serious club cyclists, and they're exactly the people who'd never dream of buying an electric bike."
+    },
+    {
+     "speaker": "Leah",
+     "text": "[dry] Right. They basically asked the wrong crowd."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[measured] I'd agree with that. What about the price? That's what students usually blame first."
+    },
+    {
+     "speaker": "Leah",
+     "text": "[hesitant] We did wonder about that. Should they have launched it cheaper?"
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[considered] Well, let's be accurate. It wasn't priced in line with its rivals; it was about four hundred pounds more than the nearest competitor. So I wouldn't call it a bargain. But would a lower launch price have saved it? I doubt it. In the one month they discounted it heavily, sales hardly moved. [firm] So, in my view, it isn't the price that sank it."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[conceding] Fair enough."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "And the timing of the launch?"
+    },
+    {
+     "speaker": "Owen",
+     "text": "[slightly sheepish] I was going to say autumn was the wrong season to launch a bike. Nobody buys one in October."
+    },
+    {
+     "speaker": "Leah",
+     "text": "[gently disagreeing] But the case gives figures for that, Owen. E-bike sales don't really drop in the autumn, because people buy them for commuting, not for fun."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[reluctant] Hmm, okay, true. And the launch had already been put back from June, but a few months' delay isn't unusual, is it?"
+    },
+    {
+     "speaker": "Leah",
+     "text": "[decisive] No. What really hurt them was that Voltra brought out its cheaper model just three weeks before."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[agreeing] Yeah, that's what did the damage. I think we're both agreed on that."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[approving] I'd go along with that. And Calder knew Voltra's model was coming, too; it had been in the trade press for months. They just assumed their brand name would carry them."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the discussion, you have some time to look at Questions 25 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[moving things along] Right, now your problem analysis. The case lists six main problems. Let's go through what you think caused each one. Start with the late deliveries to the shops."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[thinking aloud] Well, my first thought was that the production schedule was just unrealistic."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[doubtful] Was it, though? Have a look at the factory figures in the appendix."
+    },
+    {
+     "speaker": "Leah",
+     "text": "[realising] Oh. They actually hit every production target, so the bikes were ready on time. It's just that nobody told the warehouse the launch date had changed, so no transport had been booked. [short pause] So really, sales and logistics simply weren't talking to each other."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[nodding along] Fair enough."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "Next, the complaints about the battery."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[confident] Now this one I'm sure was the supplier. They switched to a different battery maker about six months before launch."
+    },
+    {
+     "speaker": "Leah",
+     "text": "[politely disagreeing] I thought that too at first, but the case says the new batteries actually did better in lab tests than the old ones. The issue was that every trial ride took place in summer. Nobody had ridden one in cold, wet weather, and that's when the range just collapsed."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[wry] Which, in Britain, is rather a large oversight."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[conceding] Yeah, okay. So they hadn't tried it out properly on actual roads in all seasons."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "And the online reviews?"
+    },
+    {
+     "speaker": "Leah",
+     "text": "[dry, wincing] Those were brutal."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[explaining] You'd expect them to be about the battery again, but most of them weren't, actually. The ads said you could go a hundred kilometres on one charge, and the reviewers were getting about sixty."
+    },
+    {
+     "speaker": "Leah",
+     "text": "So people felt the marketing had promised far more than the bike could deliver."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[wry] And reviewers don't forgive that. Once a few of those went up, the star rating never recovered."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[probing] What about the poor sales through independent bike shops?"
+    },
+    {
+     "speaker": "Owen",
+     "text": "[tentative] Was it because Calder was pushing people to buy direct from their website, so the shops resented it?"
+    },
+    {
+     "speaker": "Leah",
+     "text": "[firm] No, they only started selling online after the shops had given up on it. When customers were interviewed, the main complaint was that shop assistants couldn't answer basic questions, about charging, the motor, anything. Calder never ran a single session to show them the product."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[approving] Quite right. And independent shops were supposed to bring in forty per cent of sales, so that really mattered. [short pause] Then there's the high rate of returns."
+    },
+    {
+     "speaker": "Leah",
+     "text": "That was mostly faulty brakes, wasn't it?"
+    },
+    {
+     "speaker": "Owen",
+     "text": "[explaining] Right, and that goes back to the factory after all. The board insisted on launching in time for the big trade show, so the assembly line had half the usual time to build the first batch. Things got rushed, and the brakes weren't fitted properly."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[thoughtful] So the factory did meet the target, but at a price."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[emphatic] Exactly. The date they'd been given was never achievable in the first place."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "And finally, the launch going over budget."
+    },
+    {
+     "speaker": "Owen",
+     "text": "[hesitant] I assumed the new battery supplier had charged more."
+    },
+    {
+     "speaker": "Leah",
+     "text": "[correcting him] They were cheaper, actually, that was half the reason Calder switched. The overspend was mostly because the motors came from Japan and were priced in yen, and the pound fell sharply that spring, so every motor cost them about fifteen per cent more than they'd budgeted for."
+    },
+    {
+     "speaker": "Dr Morgan",
+     "text": "[pleased] Exactly. Something completely outside their control, which is worth stressing in your presentation. [brisk] Right, good work, both of you. Let's meet again next Thursday."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 3. You now have one minute to check your answers to Part 3.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-24",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 21,
+       "prompt": "What did Leah find most surprising about the case?",
+       "options": {
+        "A": "the amount spent on launching the product",
+        "B": "the company's previous record of success",
+        "C": "how soon the product was withdrawn"
+       },
+       "answer": "C",
+       "evidence": "What I genuinely didn't see coming was that the Glide was off the market after only eight months",
+       "trap": "A: she expected the big budget; B: she already knew about the road bikes' success."
+      },
+      {
+       "n": 22,
+       "prompt": "What is Owen's view of Calder's market research?",
+       "options": {
+        "A": "It focused on an unsuitable group of people.",
+        "B": "It was carried out too long before the launch.",
+        "C": "It cost more than it should have."
+       },
+       "answer": "A",
+       "evidence": "The problem was who they asked. They surveyed their existing customers",
+       "trap": "B: he says it wasn't out of date; C: he admits it was expensive but says that's not the point."
+      },
+      {
+       "n": 23,
+       "prompt": "What does the tutor say about the price of the bike?",
+       "options": {
+        "A": "It was similar to that of competing models.",
+        "B": "It should have been reduced at launch.",
+        "C": "It was not the main reason the bike failed."
+       },
+       "answer": "C",
+       "evidence": "So, in my view, it isn't the price that sank it",
+       "trap": "A: it 'wasn't priced in line with its rivals'; B: she doubts a lower launch price would have helped."
+      },
+      {
+       "n": 24,
+       "prompt": "What do the students agree was the problem with the timing of the launch?",
+       "options": {
+        "A": "It came too soon after a rival product.",
+        "B": "It took place in an unfavourable season.",
+        "C": "It had been postponed for too long."
+       },
+       "answer": "A",
+       "evidence": "What really hurt them was that Voltra brought out its cheaper model just three weeks before",
+       "trap": "B: Owen's autumn idea is contradicted by the sales figures; C: they agree the delay wasn't unusual."
+      }
+     ]
+    },
+    {
+     "range": "25-30",
+     "type": "matching",
+     "instructions": "What do the students decide was the main cause of each problem? Choose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+     "heading": "Causes",
+     "options": {
+      "A": "a change of component supplier",
+      "B": "a lack of staff training",
+      "C": "an unrealistic deadline",
+      "D": "exaggerated advertising claims",
+      "E": "inadequate testing in real-life conditions",
+      "F": "poor communication between departments",
+      "G": "a change in exchange rates",
+      "H": "a decision to focus on online sales"
+     },
+     "items": [
+      {
+       "n": 25,
+       "prompt": "late deliveries to shops",
+       "answer": "F",
+       "evidence": "So really, sales and logistics simply weren't talking to each other",
+       "trap": "Owen suggests C (an unrealistic schedule), but the factory hit its targets."
+      },
+      {
+       "n": 26,
+       "prompt": "complaints about the battery",
+       "answer": "E",
+       "evidence": "Nobody had ridden one in cold, wet weather, and that's when the range just collapsed",
+       "trap": "Owen suggests A (the new battery supplier), but the new batteries did better in lab tests."
+      },
+      {
+       "n": 27,
+       "prompt": "negative online reviews",
+       "answer": "D",
+       "evidence": "So people felt the marketing had promised far more than the bike could deliver",
+       "trap": "The battery (E) is expected but rejected: 'most of them weren't'."
+      },
+      {
+       "n": 28,
+       "prompt": "poor sales in independent shops",
+       "answer": "B",
+       "evidence": "Calder never ran a single session to show them the product",
+       "trap": "Owen suggests H (online selling), but online sales only began after the shops had given up."
+      },
+      {
+       "n": 29,
+       "prompt": "a high rate of returns",
+       "answer": "C",
+       "evidence": "The date they'd been given was never achievable in the first place",
+       "trap": "C was rejected for late deliveries, so listeners may not expect it to be used here."
+      },
+      {
+       "n": 30,
+       "prompt": "the launch going over budget",
+       "answer": "G",
+       "evidence": "the pound fell sharply that spring, so every motor cost them about fifteen per cent more",
+       "trap": "Owen suggests A (the new supplier charged more), but they were cheaper."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "The Printing Press and the Spread of Literacy",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "A history lecturer gives a talk on the invention of the printing press and how reading spread in early modern Europe.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.55 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "History lecturer — male, 50s, engaging, articulate, slightly wry; British accent (RP)"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about the printing press and the spread of literacy in early modern Europe. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture hall, a faint murmur fading] [engaging, clear] Good morning. Today we're looking at one of the most celebrated inventions in European history, the printing press, and at a question that's much harder to answer than it looks: did printing actually make people literate?"
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] Let's start with what came before. There's a popular image of books being copied by monks in candlelit monasteries. And that image used to be accurate, say, in the eleventh century. [short pause] But by the fifteenth century, most copying had moved out of the monasteries altogether. It was done in commercial workshops, and these were clustered around the universities, because that's where the demand for texts was."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[brisk] So there was already a book trade. What Johannes Gutenberg did, in Mainz, around fourteen-fifty, was make it dramatically faster. But it's worth being precise about what he invented, because it wasn't the press. Presses had been used for centuries to squeeze grapes for wine and olives for oil, and he simply adapted one."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining carefully] Nor was movable type entirely new: it had been used in Korea and China long before. His real breakthrough was the hand mould. This was a small, adjustable device that allowed a worker to cast thousands of identical metal letters very quickly, all exactly the same height, so they could be locked together into a page."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[emphatic, slowing down] The effect on speed was staggering. A skilled scribe might need several months to copy a single book. In the same time, a small print shop with three or four workers could produce several hundred copies, and every one of them would be identical, errors included."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful] He also had to solve a problem with ink. The water-based inks that scribes had always used simply ran off metal type. So he turned instead to an oil-based ink, much closer to the varnishes that painters were using at the time. [light, aside] The Flemish painters had been experimenting with oils for a generation, so the knowledge was there."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[wry] Now, you might assume the Bible was the bread and butter of the early printers. It wasn't. The famous Gutenberg Bible was a prestige project, and it very nearly bankrupted him. [emphatic] The steady money came from indulgences. These were single printed sheets, certificates sold by the Church that promised forgiveness of sins, and printers turned them out by the tens of thousands."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] Printing spread remarkably fast. By fifteen hundred there were presses in more than two hundred and fifty towns. But it didn't spread evenly. Printers needed customers, so they followed the money, along the main trade routes, and above all to cities that held the great annual fairs, like Frankfurt and Lyon, where they could sell their stock to dealers from all over Europe."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[slightly amused] Interestingly, university towns weren't nearly as attractive to printers as you'd expect. Their demand was steady, but it was small."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] Venice is the classic example. It had no great university to speak of, but it was the commercial capital of the Mediterranean, and by fifteen hundred it had more printers than any other city in Europe."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[building, more animated] The real test of printing's power came in fifteen-seventeen, with Martin Luther. His arguments against the Church spread faster than anything had spread before, and one reason is the language he chose. Scholarly debate was conducted in Latin, but Luther wrote his pamphlets in the vernacular. [clarifying] That's the ordinary language people actually spoke at home, in his case German."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] And these pamphlets were short, cheap and often illustrated, so even people who couldn't read could have them read aloud to them. Which brings us to literacy itself."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[posing a problem] How do historians actually measure literacy in a period with no censuses and no exams? School records barely survive, so they can't be used. Instead, historians count signatures, mostly in marriage registers, where the bride and groom either wrote their names or simply made a mark."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[cautionary] But there's a serious flaw in this method. In this period, reading was taught first, and writing only later, if at all. Plenty of people could read perfectly well but never learned to write. So signature counts almost certainly underestimate how many people could read."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured] Even so, the trend is clear. In England, perhaps one man in ten could sign his name around fifteen hundred. By seventeen hundred it was closer to one in two, though the figure was much higher in towns than in the countryside."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[emphatic] This is especially true for women. Girls were rarely kept at school for long. Most learned to read at home, and generally not from a priest or a private tutor, as is sometimes claimed, but from their mothers. So female reading ability is almost invisible in the records."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[conversational] So what did ordinary people read? Not the classics, I'm afraid. In many households the most widely owned printed book wasn't even the Bible. It was the almanac, a cheap booklet bought every year, with a calendar, the dates of markets, weather predictions and advice on farming."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[light laugh] Its predictions were often wildly wrong, of course, but people kept buying it, and for many families it was the first thing they ever learned to read."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful] Ballads and chapbooks, which were little paper-covered storybooks, were enormously popular too, but they tended to be passed around and read until they fell apart, rather than kept on a shelf."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[concluding, reflective] Finally, the long-term effect on language itself. Printing is often credited with fixing English grammar. In fact, grammar changed rather little because of it. What printers did gradually standardise was spelling. A printer selling books across a whole country needed consistent forms, and over a couple of centuries, the endless local variations slowly disappeared."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[wrapping up] So, did printing make people literate? Not on its own. It made reading matter cheap and plentiful, but schooling, religion and trade did much of the rest. We'll pick that up next week."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of the Listening test. You now have two minutes to check your answers.",
+     "pause_after": 120
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "The printing press and literacy in early modern Europe",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "Before printing: by the 15th century, most books were copied in commercial workshops located near (31) ___",
+       "answer": "universities",
+       "accepted": [],
+       "spoken": "universities",
+       "evidence": "It was done in commercial workshops, and these were clustered around the universities",
+       "trap": "Monasteries were the main copying centres earlier, but not by the fifteenth century."
+      },
+      {
+       "n": 32,
+       "prompt": "Gutenberg's key innovation: a hand (32) ___ used to produce identical metal letters",
+       "answer": "mould",
+       "accepted": [
+        "mold"
+       ],
+       "spoken": "mould",
+       "evidence": "His real breakthrough was the hand mould",
+       "trap": "The press itself and movable type are both mentioned and rejected as his invention."
+      },
+      {
+       "n": 33,
+       "prompt": "Ink: oil-based, similar to substances used by (33) ___",
+       "answer": "painters",
+       "accepted": [],
+       "spoken": "painters",
+       "evidence": "much closer to the varnishes that painters were using at the time",
+       "trap": "Scribes are mentioned, but their water-based ink was unsuitable."
+      },
+      {
+       "n": 34,
+       "prompt": "Main source of regular income for early printers: (34) ___",
+       "answer": "indulgences",
+       "accepted": [],
+       "spoken": "indulgences",
+       "evidence": "The steady money came from indulgences",
+       "trap": "The Bible is the expected answer but is rejected: 'It wasn't'."
+      },
+      {
+       "n": 35,
+       "prompt": "Spread of printing: especially to cities holding major (35) ___",
+       "answer": "fairs",
+       "accepted": [],
+       "spoken": "fairs",
+       "evidence": "above all to cities that held the great annual fairs",
+       "trap": "University towns are mentioned but were less attractive to printers."
+      },
+      {
+       "n": 36,
+       "prompt": "Luther's pamphlets: written in the (36) ___ (= everyday spoken language), not Latin",
+       "answer": "vernacular",
+       "accepted": [],
+       "spoken": "vernacular",
+       "evidence": "but Luther wrote his pamphlets in the vernacular",
+       "trap": "Latin and German are both mentioned; the gap requires the general term."
+      },
+      {
+       "n": 37,
+       "prompt": "Literacy is usually measured by counting (37) ___ in marriage records",
+       "answer": "signatures",
+       "accepted": [],
+       "spoken": "signatures",
+       "evidence": "Instead, historians count signatures, mostly in marriage registers",
+       "trap": "School records are mentioned but rejected because they barely survive."
+      },
+      {
+       "n": 38,
+       "prompt": "Women: most were taught to read at home by their (38) ___",
+       "answer": "mothers",
+       "accepted": [],
+       "spoken": "mothers",
+       "evidence": "not from a priest or a private tutor, as is sometimes claimed, but from their mothers",
+       "trap": "Priests and private tutors are mentioned and rejected."
+      },
+      {
+       "n": 39,
+       "prompt": "In many homes, the commonest printed book was the (39) ___",
+       "answer": "almanac",
+       "accepted": [
+        "almanack"
+       ],
+       "spoken": "almanac",
+       "evidence": "It was the almanac, a cheap booklet bought every year",
+       "trap": "The Bible is mentioned and rejected ('wasn't even the Bible')."
+      },
+      {
+       "n": 40,
+       "prompt": "Long-term effect: printing made (40) ___ more uniform",
+       "answer": "spelling",
+       "accepted": [],
+       "spoken": "spelling",
+       "evidence": "What printers did gradually standardise was spelling",
+       "trap": "Grammar is mentioned first but the lecturer says it changed rather little."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

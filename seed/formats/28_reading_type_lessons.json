@@ -1,0 +1,173 @@
+{
+  "_format": {
+    "name": "reading_type_lessons",
+    "group": "content",
+    "table": "reading_type_lessons",
+    "primaryKey": "id",
+    "description": "Strategy lesson for one Reading question type (\"How to attempt ...\"), shown before its practice sets.",
+    "currentSourceInApp": "IELTS_Reading_Question_Bank-1.pdf (not yet in the app)",
+    "fields": {
+      "id": "string",
+      "questionType": "string",
+      "name": "string",
+      "title": "string",
+      "sections": "array"
+    },
+    "required": [
+      "id",
+      "questionType",
+      "name",
+      "title",
+      "sections"
+    ],
+    "relations": [
+      "questionType → reading_bank_passages.questionType"
+    ],
+    "notes": [
+      "sections[] = {heading, text} in PDF order (\"What it tests\", \"Common traps\", \"Step-by-step strategy\", \"Tiny example\", ...).",
+      "items = the numbered list when a section is a list; exhibits = tables / notes / flow-charts / diagrams shown in the lesson, layout = the order of paragraphs and exhibits in that section.",
+      "One record per question type (14)."
+    ],
+    "recordCountToday": 14
+  },
+  "items": [
+    {
+      "id": "rtl_mcq",
+      "questionType": "mcq",
+      "name": "Multiple Choice",
+      "title": "How to attempt Multiple Choice",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "Multiple Choice checks whether you can find a specific part of the passage and understand it exactly. Some questions test a single detail. Others test the main idea of a paragraph, the writer's purpose, or something the writer implies without stating it directly."
+        },
+        {
+          "heading": "The two formats you will meet",
+          "text": "Choose the correct letter, A, B, C or D. One question, one answer.\nChoose TWO letters, A–E. Two correct options. Each correct letter usually scores one mark."
+        },
+        {
+          "heading": "How the correct answer works",
+          "text": "The correct option almost never repeats the passage word for word. It paraphrases the passage: the same meaning in different words. The wrong options (distractors) often do repeat passage words, because that makes them look attractive."
+        },
+        {
+          "heading": "What evidence to look for",
+          "text": "You need one sentence, or a short group of sentences, that makes the option fully true. Partly true is not enough."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Word-match trap. An option copies words from the passage but changes the meaning.\n2. True but irrelevant. The option is correct information, but it does not answer this question.\n3. Half-right. The first half of the option matches the passage and the second half does not.\n4. Extreme wording. Words such as always, only, all, never, completely are wrong unless the passage is equally strong.\n5. Wrong paragraph. The option describes something from a different part of the passage.",
+          "items": [
+            "Word-match trap. An option copies words from the passage but changes the meaning.",
+            "True but irrelevant. The option is correct information, but it does not answer this question.",
+            "Half-right. The first half of the option matches the passage and the second half does not.",
+            "Extreme wording. Words such as always, only, all, never, completely are wrong unless the passage is equally strong.",
+            "Wrong paragraph. The option describes something from a different part of the passage."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the question stem only (not the options). Underline the key idea: a name, date, number or unusual term.\n2. Questions follow the passage order, so use the previous answer's location to find the next one.\n3. Scan for the key idea or a synonym of it. Read that sentence and the one before and after it.\n4. Now read the options. Cross out any option that contradicts the passage or is not mentioned there.\n5. Choose the option that matches the whole meaning of the evidence. Check the stem and the option together as one complete sentence.\n6. For \"main idea\" or \"purpose\" questions, read the whole paragraph, then ask: Why did the writer include this?",
+          "items": [
+            "Read the question stem only (not the options). Underline the key idea: a name, date, number or unusual term.",
+            "Questions follow the passage order, so use the previous answer's location to find the next one.",
+            "Scan for the key idea or a synonym of it. Read that sentence and the one before and after it.",
+            "Now read the options. Cross out any option that contradicts the passage or is not mentioned there.",
+            "Choose the option that matches the whole meaning of the evidence. Check the stem and the option together as one complete sentence.",
+            "For \"main idea\" or \"purpose\" questions, read the whole paragraph, then ask: Why did the writer include this?"
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"Although the bridge was completed in 1890, it was not opened to cars until 1924, after its deck was strengthened.\"\nWhy was there a delay before cars could use the bridge?\nA The bridge was not finished until 1924.\nB The structure needed to be made stronger.\nC Cars had not yet been invented.\nD The bridge was only designed for trains.\nB is correct: deck was strengthened = made stronger. A copies the date 1924 but gives the wrong event (a word-match trap). C and D are not stated anywhere in the passage."
+        }
+      ]
+    },
+    {
+      "id": "rtl_table_completion",
+      "questionType": "table_completion",
+      "name": "Table Completion",
+      "title": "How to attempt Table Completion",
+      "sections": [
+        {
+          "heading": "What it tests",
+          "text": "You complete a table that organises information from the passage into rows and columns, using words taken from the passage. The task tests whether you can locate specific details and understand how pieces of information relate to each other: which item has which feature, which date belongs to which event, and which advantage belongs to which method."
+        },
+        {
+          "heading": "How tables work",
+          "text": "The column headings tell you what type of information each column contains (a date, a material, an advantage, a problem). The row headings tell you which item the row describes. Every gap sits where one row meets one column, so it tells you exactly what you need: for example, \"the disadvantage of papyrus\". Work out that question before you look at the passage."
+        },
+        {
+          "heading": "Using the table",
+          "text": "Read along the rows and down the columns. The other cells in the same column show you the form of the answer: if every other cell in a column is a date, the gap is almost certainly a date. The cells in the same row usually come from the same part of the passage."
+        },
+        {
+          "heading": "Order of answers",
+          "text": "Answers usually follow the order of the passage, reading row by row. However, a table sometimes reorganises the passage, so one column may collect details from several paragraphs."
+        },
+        {
+          "heading": "The word limit is a rule",
+          "text": "Follow the instruction exactly, copy words exactly as they appear in the passage, and do not repeat words that are already printed in the cell or the column heading."
+        },
+        {
+          "heading": "Common traps",
+          "text": "1. Right row, wrong column. The passage gives both an advantage and a disadvantage of the same item close together. Check which column the gap is in.\n2. Neighbouring rows. The passage describes several similar items, so a detail from the next item can look correct.\n3. Repeating the heading. If the column heading is \"Date (century)\", you need only the number, not the word \"century\".\n4. The wrong form. The answer must fit with the other cells in the column (a noun, a number, an adjective).\n5. Too many words. Tables have small cells, and the answer is usually one or two key words.",
+          "items": [
+            "Right row, wrong column. The passage gives both an advantage and a disadvantage of the same item close together. Check which column the gap is in.",
+            "Neighbouring rows. The passage describes several similar items, so a detail from the next item can look correct.",
+            "Repeating the heading. If the column heading is \"Date (century)\", you need only the number, not the word \"century\".",
+            "The wrong form. The answer must fit with the other cells in the column (a noun, a number, an adjective).",
+            "Too many words. Tables have small cells, and the answer is usually one or two key words."
+          ]
+        },
+        {
+          "heading": "Step-by-step strategy",
+          "text": "1. Read the table title and all the headings. Decide which part of the passage the table covers.\n2. For each gap, name the row and the column (\"material of parchment\") and predict the type of answer.\n3. Find the paragraph about that row, then look for the detail that fits the column.\n4. Copy the exact words, check the word limit, and read the whole row to make sure it makes sense.",
+          "items": [
+            "Read the table title and all the headings. Decide which part of the passage the table covers.",
+            "For each gap, name the row and the column (\"material of parchment\") and predict the type of answer.",
+            "Find the paragraph about that row, then look for the detail that fits the column.",
+            "Copy the exact words, check the word limit, and read the whole row to make sure it makes sense."
+          ]
+        },
+        {
+          "heading": "Tiny example",
+          "text": "Passage: \"Tin mining began in Cornwall around 2000 BC; copper was mined in Wales a few centuries later.\"\nAnswers (NO MORE THAN THREE WORDS): 1 Cornwall 2 a few centuries later.",
+          "exhibits": [
+            {
+              "kind": "table",
+              "columns": [
+                "Metal",
+                "Region",
+                "Began"
+              ],
+              "rows": [
+                [
+                  "tin",
+                  "(1) ______",
+                  "about 2000 BC"
+                ],
+                [
+                  "copper",
+                  "Wales",
+                  "(2) ______"
+                ]
+              ],
+              "title": "Early mining in Britain"
+            }
+          ],
+          "layout": [
+            {
+              "paragraph": 0
+            },
+            {
+              "exhibit": 0
+            },
+            {
+              "paragraph": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

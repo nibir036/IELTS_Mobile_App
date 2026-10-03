@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idioms C</title>
+<style>
+  :root{--bg:#f6f5fb;--card:#fff;--ink:#1c1830;--muted:#6b6580;--accent:#5C3E94;--accent2:#008080;--line:#e7e3f2;--row:#faf9fe}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141026;--card:#1e1836;--ink:#efecf7;--muted:#a49dbd;--accent:#b9a3ea;--accent2:#4bc0c0;--line:#2c2447;--row:#241d40}}
+  :root[data-theme="dark"]{--bg:#141026;--card:#1e1836;--ink:#efecf7;--muted:#a49dbd;--accent:#b9a3ea;--accent2:#4bc0c0;--line:#2c2447;--row:#241d40}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45;padding:20px 16px 60px}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-size:1.4rem;margin:0 0 4px;color:var(--accent)}
+  .sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+  .search{width:100%;padding:11px 14px;font-size:1rem;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);margin-bottom:8px}
+  .search::placeholder{color:var(--muted)}
+  .count{font-size:.82rem;color:var(--muted);margin-bottom:10px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  thead th{position:sticky;top:0;background:var(--accent);color:#fff;font-size:.8rem;text-align:left;padding:9px 12px;font-weight:600;z-index:2}
+  tbody td{padding:9px 12px;border-top:1px solid var(--line);font-size:.9rem;vertical-align:top}
+  tbody tr:nth-child(even){background:var(--row)}
+  .pv{font-weight:700;color:var(--accent)}
+  .mean{color:var(--ink)}
+  .ex{color:var(--muted);font-style:italic}
+  .ex b{font-style:normal;color:var(--accent2);font-weight:600}
+  @media(max-width:640px){.ex,thead th.h-ex{display:none}}
+  .noshow{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Idioms — C</h1>
+<p class="sub">Module 4, part 3 · idiom · meaning · example. Searchable. 100 entries.</p>
+<input id="q" class="search" type="search" placeholder="Search an idiom or meaning — e.g. cut corners, cold feet…" autocomplete="off">
+<div class="count" id="count"></div>
+<table>
+<thead><tr><th>Idiom</th><th>Meaning</th><th class="h-ex">Example</th></tr></thead>
+<tbody id="tb">
+<tr><td class="pv">call it a day</td><td class="mean">to stop working for the day</td><td class="ex">Let's <b>call it a day</b> and finish tomorrow.</td></tr>
+<tr><td class="pv">call it quits</td><td class="mean">to stop or give up</td><td class="ex">After years of trying, they <b>called it quits</b>.</td></tr>
+<tr><td class="pv">call the shots</td><td class="mean">to be in control; to make the decisions</td><td class="ex">The manager <b>calls the shots</b>.</td></tr>
+<tr><td class="pv">call a spade a spade</td><td class="mean">to speak plainly and honestly</td><td class="ex">Let's <b>call a spade a spade</b>.</td></tr>
+<tr><td class="pv">the calm before the storm</td><td class="mean">a quiet period before trouble</td><td class="ex">The empty office felt like <b>the calm before the storm</b>.</td></tr>
+<tr><td class="pv">a can of worms</td><td class="mean">a complicated, troublesome issue</td><td class="ex">That question opens <b>a can of worms</b>.</td></tr>
+<tr><td class="pv">can't make head nor tail of</td><td class="mean">to be unable to understand</td><td class="ex">I <b>can't make head nor tail of</b> this form.</td></tr>
+<tr><td class="pv">cards on the table</td><td class="mean">being open about one's intentions</td><td class="ex">Let me put my <b>cards on the table</b>.</td></tr>
+<tr><td class="pv">carry the can</td><td class="mean">to take the blame</td><td class="ex">He had to <b>carry the can</b> for the error.</td></tr>
+<tr><td class="pv">carry the day</td><td class="mean">to win or be successful</td><td class="ex">Her argument <b>carried the day</b>.</td></tr>
+<tr><td class="pv">a cash cow</td><td class="mean">a steady, reliable source of profit</td><td class="ex">The app became their <b>cash cow</b>.</td></tr>
+<tr><td class="pv">cast a shadow over</td><td class="mean">to spoil or cloud</td><td class="ex">The news <b>cast a shadow over</b> the party.</td></tr>
+<tr><td class="pv">castles in the air</td><td class="mean">unrealistic hopes or plans</td><td class="ex">He builds <b>castles in the air</b>.</td></tr>
+<tr><td class="pv">a catch-22</td><td class="mean">a no-win situation with contradictory rules</td><td class="ex">Needing experience to get a job is a <b>catch-22</b>.</td></tr>
+<tr><td class="pv">has the cat got your tongue?</td><td class="mean">why are you silent?</td><td class="ex">You're quiet — <b>cat got your tongue</b>?</td></tr>
+<tr><td class="pv">catch someone red-handed</td><td class="mean">to catch someone in the act</td><td class="ex">He was <b>caught red-handed</b> stealing.</td></tr>
+<tr><td class="pv">catch your eye</td><td class="mean">to attract your attention</td><td class="ex">The bright sign <b>caught my eye</b>.</td></tr>
+<tr><td class="pv">caught napping</td><td class="mean">caught unprepared</td><td class="ex">The defence was <b>caught napping</b>.</td></tr>
+<tr><td class="pv">caught off guard</td><td class="mean">surprised and unprepared</td><td class="ex">The question <b>caught</b> me <b>off guard</b>.</td></tr>
+<tr><td class="pv">caught in the crossfire</td><td class="mean">harmed by a conflict between others</td><td class="ex">Staff were <b>caught in the crossfire</b> of the dispute.</td></tr>
+<tr><td class="pv">chalk and cheese</td><td class="mean">completely different</td><td class="ex">The brothers are <b>chalk and cheese</b>.</td></tr>
+<tr><td class="pv">champing at the bit</td><td class="mean">impatient and eager to start</td><td class="ex">The team is <b>champing at the bit</b> to begin.</td></tr>
+<tr><td class="pv">a change of heart</td><td class="mean">a change of opinion or feeling</td><td class="ex">She had a <b>change of heart</b> and stayed.</td></tr>
+<tr><td class="pv">change your tune</td><td class="mean">to change your attitude or opinion</td><td class="ex">He soon <b>changed his tune</b>.</td></tr>
+<tr><td class="pv">chase rainbows</td><td class="mean">to pursue unrealistic goals</td><td class="ex">Stop <b>chasing rainbows</b> and be practical.</td></tr>
+<tr><td class="pv">chase your tail</td><td class="mean">to be busy but achieve little</td><td class="ex">I've been <b>chasing my tail</b> all day.</td></tr>
+<tr><td class="pv">cheesed off</td><td class="mean">annoyed or fed up (British)</td><td class="ex">I'm really <b>cheesed off</b> with the delays.</td></tr>
+<tr><td class="pv">chew the fat</td><td class="mean">to chat in a relaxed way</td><td class="ex">We <b>chewed the fat</b> over coffee.</td></tr>
+<tr><td class="pv">a chicken-and-egg situation</td><td class="mean">unclear which of two things caused the other</td><td class="ex">It's a <b>chicken-and-egg situation</b>.</td></tr>
+<tr><td class="pv">chickens come home to roost</td><td class="mean">bad past actions return to cause trouble</td><td class="ex">His lies meant the <b>chickens came home to roost</b>.</td></tr>
+<tr><td class="pv">a chink in the armour</td><td class="mean">a weak point in an otherwise strong position</td><td class="ex">Pride was the <b>chink in his armour</b>.</td></tr>
+<tr><td class="pv">a chip off the old block</td><td class="mean">a child like a parent</td><td class="ex">She's a <b>chip off the old block</b>.</td></tr>
+<tr><td class="pv">clear as a bell</td><td class="mean">very clear and easy to hear</td><td class="ex">The recording was <b>clear as a bell</b>.</td></tr>
+<tr><td class="pv">clear the air</td><td class="mean">to resolve tension by talking honestly</td><td class="ex">Let's talk and <b>clear the air</b>.</td></tr>
+<tr><td class="pv">climb the ladder</td><td class="mean">to advance in one's career</td><td class="ex">She's quickly <b>climbing the ladder</b>.</td></tr>
+<tr><td class="pv">clip someone's wings</td><td class="mean">to restrict someone's freedom or power</td><td class="ex">The new rules <b>clipped his wings</b>.</td></tr>
+<tr><td class="pv">a close call</td><td class="mean">a narrow escape</td><td class="ex">That was a <b>close call</b> on the stairs.</td></tr>
+<tr><td class="pv">close but no cigar</td><td class="mean">almost successful, but not quite</td><td class="ex">Nice try — <b>close but no cigar</b>.</td></tr>
+<tr><td class="pv">close ranks</td><td class="mean">to unite to defend against outsiders</td><td class="ex">The firm <b>closed ranks</b> after the scandal.</td></tr>
+<tr><td class="pv">close to home</td><td class="mean">affecting one personally</td><td class="ex">His comment hit <b>close to home</b>.</td></tr>
+<tr><td class="pv">clutch at straws</td><td class="mean">to try anything in desperation</td><td class="ex">He was <b>clutching at straws</b> for an excuse.</td></tr>
+<tr><td class="pv">a cock-and-bull story</td><td class="mean">an unbelievable, far-fetched tale</td><td class="ex">He told some <b>cock-and-bull story</b>.</td></tr>
+<tr><td class="pv">cold feet</td><td class="mean">nervousness before a big event</td><td class="ex">He got <b>cold feet</b> before the wedding.</td></tr>
+<tr><td class="pv">the cold shoulder</td><td class="mean">deliberate unfriendliness</td><td class="ex">She gave him <b>the cold shoulder</b>.</td></tr>
+<tr><td class="pv">cold turkey</td><td class="mean">stopping a habit abruptly</td><td class="ex">He quit smoking <b>cold turkey</b>.</td></tr>
+<tr><td class="pv">come apart at the seams</td><td class="mean">to fall apart; to break down</td><td class="ex">The plan <b>came apart at the seams</b>.</td></tr>
+<tr><td class="pv">come a long way</td><td class="mean">to make great progress</td><td class="ex">Technology has <b>come a long way</b>.</td></tr>
+<tr><td class="pv">come clean</td><td class="mean">to confess the truth</td><td class="ex">He finally <b>came clean</b> about it.</td></tr>
+<tr><td class="pv">come full circle</td><td class="mean">to return to the original position</td><td class="ex">Fashion has <b>come full circle</b>.</td></tr>
+<tr><td class="pv">come hell or high water</td><td class="mean">whatever difficulties arise</td><td class="ex">I'll be there <b>come hell or high water</b>.</td></tr>
+<tr><td class="pv">come into your own</td><td class="mean">to become very effective or successful</td><td class="ex">She <b>came into her own</b> as a leader.</td></tr>
+<tr><td class="pv">come out of your shell</td><td class="mean">to become more confident and sociable</td><td class="ex">He's <b>come out of his shell</b> lately.</td></tr>
+<tr><td class="pv">come rain or shine</td><td class="mean">whatever happens</td><td class="ex">She runs <b>come rain or shine</b>.</td></tr>
+<tr><td class="pv">come to a head</td><td class="mean">to reach a critical point</td><td class="ex">The dispute <b>came to a head</b> yesterday.</td></tr>
+<tr><td class="pv">come to blows</td><td class="mean">to start fighting</td><td class="ex">They nearly <b>came to blows</b> over it.</td></tr>
+<tr><td class="pv">come to grips with</td><td class="mean">to begin to deal with something difficult</td><td class="ex">We must <b>come to grips with</b> the problem.</td></tr>
+<tr><td class="pv">come to terms with</td><td class="mean">to accept something difficult</td><td class="ex">She <b>came to terms with</b> the loss.</td></tr>
+<tr><td class="pv">come what may</td><td class="mean">whatever happens</td><td class="ex">I'll support you <b>come what may</b>.</td></tr>
+<tr><td class="pv">cook the books</td><td class="mean">to falsify financial records</td><td class="ex">The firm was accused of <b>cooking the books</b>.</td></tr>
+<tr><td class="pv">cool as a cucumber</td><td class="mean">very calm and composed</td><td class="ex">She stayed <b>cool as a cucumber</b>.</td></tr>
+<tr><td class="pv">cost an arm and a leg</td><td class="mean">to be very expensive</td><td class="ex">The wedding <b>cost an arm and a leg</b>.</td></tr>
+<tr><td class="pv">a couch potato</td><td class="mean">a lazy person who watches a lot of TV</td><td class="ex">Don't be a <b>couch potato</b> all weekend.</td></tr>
+<tr><td class="pv">count your blessings</td><td class="mean">to be grateful for what you have</td><td class="ex">When things are hard, <b>count your blessings</b>.</td></tr>
+<tr><td class="pv">cover your tracks</td><td class="mean">to hide evidence of what you have done</td><td class="ex">The thief <b>covered his tracks</b>.</td></tr>
+<tr><td class="pv">crack a joke</td><td class="mean">to tell a joke</td><td class="ex">He <b>cracked a joke</b> to lighten the mood.</td></tr>
+<tr><td class="pv">crack the whip</td><td class="mean">to use authority to make people work harder</td><td class="ex">The deadline made her <b>crack the whip</b>.</td></tr>
+<tr><td class="pv">cramp someone's style</td><td class="mean">to restrict someone's freedom to act</td><td class="ex">Having a chaperone <b>cramped his style</b>.</td></tr>
+<tr><td class="pv">a crash course</td><td class="mean">an intensive short course</td><td class="ex">I took a <b>crash course</b> in Spanish.</td></tr>
+<tr><td class="pv">the cream of the crop</td><td class="mean">the very best</td><td class="ex">These students are the <b>cream of the crop</b>.</td></tr>
+<tr><td class="pv">a creature of habit</td><td class="mean">someone who likes fixed routines</td><td class="ex">He's a <b>creature of habit</b>.</td></tr>
+<tr><td class="pv">crocodile tears</td><td class="mean">insincere displays of sorrow</td><td class="ex">She shed <b>crocodile tears</b>.</td></tr>
+<tr><td class="pv">cross swords</td><td class="mean">to argue or disagree strongly</td><td class="ex">The two have <b>crossed swords</b> before.</td></tr>
+<tr><td class="pv">cross that bridge when you come to it</td><td class="mean">to deal with a problem only when it arises</td><td class="ex">We'll <b>cross that bridge when we come to it</b>.</td></tr>
+<tr><td class="pv">cross your fingers</td><td class="mean">to hope for good luck</td><td class="ex"><b>Cross your fingers</b> for me.</td></tr>
+<tr><td class="pv">cross your mind</td><td class="mean">to occur to you briefly</td><td class="ex">It never <b>crossed my mind</b>.</td></tr>
+<tr><td class="pv">cry over spilt milk</td><td class="mean">to regret what cannot be changed</td><td class="ex">No use <b>crying over spilt milk</b>.</td></tr>
+<tr><td class="pv">cry wolf</td><td class="mean">to raise a false alarm repeatedly</td><td class="ex">He <b>cried wolf</b> so often no one believed him.</td></tr>
+<tr><td class="pv">cry your eyes out</td><td class="mean">to cry a great deal</td><td class="ex">She <b>cried her eyes out</b> at the film.</td></tr>
+<tr><td class="pv">curiosity killed the cat</td><td class="mean">being too inquisitive can be dangerous</td><td class="ex">Don't pry — <b>curiosity killed the cat</b>.</td></tr>
+<tr><td class="pv">cut a long story short</td><td class="mean">to summarise</td><td class="ex">To <b>cut a long story short</b>, we lost.</td></tr>
+<tr><td class="pv">cut and dried</td><td class="mean">already decided; straightforward</td><td class="ex">The matter isn't as <b>cut and dried</b> as it seems.</td></tr>
+<tr><td class="pv">cut and run</td><td class="mean">to leave quickly to avoid trouble</td><td class="ex">When things got hard, he <b>cut and ran</b>.</td></tr>
+<tr><td class="pv">cut corners</td><td class="mean">to do something cheaply or carelessly</td><td class="ex">Don't <b>cut corners</b> on safety.</td></tr>
+<tr><td class="pv">cut from the same cloth</td><td class="mean">very similar in character</td><td class="ex">The two leaders are <b>cut from the same cloth</b>.</td></tr>
+<tr><td class="pv">cut no ice</td><td class="mean">to have no effect or influence</td><td class="ex">Excuses <b>cut no ice</b> with her.</td></tr>
+<tr><td class="pv">cut the mustard</td><td class="mean">to meet the required standard</td><td class="ex">He couldn't <b>cut the mustard</b> in the role.</td></tr>
+<tr><td class="pv">cut to the chase</td><td class="mean">to get to the main point</td><td class="ex">Let's <b>cut to the chase</b>.</td></tr>
+<tr><td class="pv">cut your losses</td><td class="mean">to stop before losing even more</td><td class="ex">We decided to <b>cut our losses</b> and sell.</td></tr>
+<tr><td class="pv">cut your teeth on</td><td class="mean">to gain early experience from</td><td class="ex">She <b>cut her teeth on</b> local journalism.</td></tr>
+<tr><td class="pv">the cutting edge</td><td class="mean">the most advanced stage of development</td><td class="ex">Their research is at the <b>cutting edge</b>.</td></tr>
+<tr><td class="pv">caught between two stools</td><td class="mean">failing by trying to do two things at once</td><td class="ex">He was <b>caught between two stools</b>.</td></tr>
+<tr><td class="pv">cheek by jowl</td><td class="mean">very close together</td><td class="ex">The houses stand <b>cheek by jowl</b>.</td></tr>
+<tr><td class="pv">child's play</td><td class="mean">something very easy</td><td class="ex">For an expert, it's <b>child's play</b>.</td></tr>
+<tr><td class="pv">a chip on your shoulder</td><td class="mean">a defensive or resentful attitude</td><td class="ex">He has a <b>chip on his shoulder</b> about it.</td></tr>
+<tr><td class="pv">clear-cut</td><td class="mean">obvious and definite</td><td class="ex">It was a <b>clear-cut</b> decision.</td></tr>
+<tr><td class="pv">cloud nine</td><td class="mean">a state of extreme happiness</td><td class="ex">She's been on <b>cloud nine</b> since the news.</td></tr>
+<tr><td class="pv">cold hard cash</td><td class="mean">physical money, not credit</td><td class="ex">They paid in <b>cold hard cash</b>.</td></tr>
+<tr><td class="pv">cover all the bases</td><td class="mean">to deal with every possibility</td><td class="ex">The plan <b>covers all the bases</b>.</td></tr>
+<tr><td class="pv">cross the line</td><td class="mean">to behave unacceptably</td><td class="ex">That joke <b>crossed the line</b>.</td></tr>
+<tr><td class="pv">a cut above the rest</td><td class="mean">clearly better than the others</td><td class="ex">Her writing is <b>a cut above the rest</b>.</td></tr>
+</tbody>
+</table>
+</div>
+<script>
+(function(){
+  var q=document.getElementById('q'),rows=[].slice.call(document.querySelectorAll('#tb tr')),c=document.getElementById('count');
+  function upd(){var n=rows.filter(function(r){return !r.classList.contains('noshow')}).length;c.textContent=n+' entries shown';}
+  q.addEventListener('input',function(){
+    var t=q.value.trim().toLowerCase();
+    rows.forEach(function(r){r.classList.toggle('noshow', t && r.textContent.toLowerCase().indexOf(t)===-1);});
+    upd();
+  });
+  upd();
+})();
+</script>
+</body>
+</html>

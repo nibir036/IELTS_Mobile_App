@@ -1,0 +1,245 @@
+{
+ "note": "Q3: no fee amount is said (only \"a small fee for non-residents\") so the gap is now \"fee\"; Q11: renewals are via the website (no app). Money is in dollars/cents as heard ([0:32] 20 cents, [1:04] $5).",
+ "groups": {
+  "g1": {
+   "id": "g1",
+   "type": "summary",
+   "title": "Complete the summary",
+   "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+   "summary": "To join Riverside Library, new members must show proof of (1)___. Membership is free for local (2)___, while non-residents pay a small (3)___. Adults can borrow up to (4)___ items at a time, for (5)___ weeks. Items returned late are fined (6)___ cents per day. The library card also gives access to the (7)___ and free (8)___. Children can join if a parent provides a (9)___. The library is open daily except on public (10)___. Books can be renewed online through the library's (11)___. A replacement card costs $(12)___. The library runs a monthly (13)___ club for adults and a weekly (14)___ session for children. Study rooms can be booked for a maximum of (15)___ hours. Reference books cannot be (16)___. Donated books are accepted only on (17)___. Members receive an email (18)___ days before items are due. The annual open day takes place in (19)___. Today, new members receive a free (20)___.",
+   "questions": [
+    {
+     "number": 1,
+     "text": "To join Riverside Library, new members must show proof of ______.",
+     "before": "To join Riverside Library, new members must show proof of",
+     "after": ".",
+     "answer": "address",
+     "answerDisplay": "address",
+     "accepted": [
+      "address"
+     ]
+    },
+    {
+     "number": 2,
+     "text": "Membership is free for local ______, while non-residents pay a small (3) ….",
+     "before": "Membership is free for local",
+     "after": ", while non-residents pay a small (3) ….",
+     "answer": "residents",
+     "answerDisplay": "residents",
+     "accepted": [
+      "residents"
+     ]
+    },
+    {
+     "number": 3,
+     "text": "Membership is free for local (2) …, while non-residents pay a small ______.",
+     "before": "Membership is free for local (2) …, while non-residents pay a small",
+     "after": ".",
+     "answer": "fee",
+     "answerDisplay": "fee",
+     "accepted": [
+      "fee"
+     ]
+    },
+    {
+     "number": 4,
+     "text": "Adults can borrow up to ______ items at a time, for (5) … weeks.",
+     "before": "Adults can borrow up to",
+     "after": "items at a time, for (5) … weeks.",
+     "answer": "10",
+     "answerDisplay": "10 / ten",
+     "accepted": [
+      "10",
+      "ten"
+     ]
+    },
+    {
+     "number": 5,
+     "text": "Adults can borrow up to (4) … items at a time, for ______ weeks.",
+     "before": "Adults can borrow up to (4) … items at a time, for",
+     "after": "weeks.",
+     "answer": "3",
+     "answerDisplay": "3 / three",
+     "accepted": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "number": 6,
+     "text": "Items returned late are fined ______ cents per day.",
+     "before": "Items returned late are fined",
+     "after": "cents per day.",
+     "answer": "20",
+     "answerDisplay": "20 / twenty",
+     "accepted": [
+      "20",
+      "twenty"
+     ]
+    },
+    {
+     "number": 7,
+     "text": "The library card also gives access to the ______ and free (8) ….",
+     "before": "The library card also gives access to the",
+     "after": "and free (8) ….",
+     "answer": "computers",
+     "answerDisplay": "computers",
+     "accepted": [
+      "computers"
+     ]
+    },
+    {
+     "number": 8,
+     "text": "The library card also gives access to the (7) … and free ______.",
+     "before": "The library card also gives access to the (7) … and free",
+     "after": ".",
+     "answer": "wifi",
+     "answerDisplay": "wifi",
+     "accepted": [
+      "wifi"
+     ]
+    },
+    {
+     "number": 9,
+     "text": "Children can join if a parent provides a ______.",
+     "before": "Children can join if a parent provides a",
+     "after": ".",
+     "answer": "signature",
+     "answerDisplay": "signature",
+     "accepted": [
+      "signature"
+     ]
+    },
+    {
+     "number": 10,
+     "text": "The library is open daily except on public ______.",
+     "before": "The library is open daily except on public",
+     "after": ".",
+     "answer": "holidays",
+     "answerDisplay": "holidays",
+     "accepted": [
+      "holidays"
+     ]
+    },
+    {
+     "number": 11,
+     "text": "Books can be renewed online through the library's ______.",
+     "before": "Books can be renewed online through the library's",
+     "after": ".",
+     "answer": "website",
+     "answerDisplay": "website",
+     "accepted": [
+      "website",
+      "web site"
+     ]
+    },
+    {
+     "number": 12,
+     "text": "A replacement card costs $______.",
+     "before": "A replacement card costs $",
+     "after": ".",
+     "answer": "5",
+     "answerDisplay": "5 / five",
+     "accepted": [
+      "5",
+      "five"
+     ]
+    },
+    {
+     "number": 13,
+     "text": "The library runs a monthly ______ club for adults and a weekly (14) … session for children.",
+     "before": "The library runs a monthly",
+     "after": "club for adults and a weekly (14) … session for children.",
+     "answer": "book",
+     "answerDisplay": "book",
+     "accepted": [
+      "book"
+     ]
+    },
+    {
+     "number": 14,
+     "text": "The library runs a monthly (13) … club for adults and a weekly ______ session for children.",
+     "before": "The library runs a monthly (13) … club for adults and a weekly",
+     "after": "session for children.",
+     "answer": "storytime",
+     "answerDisplay": "storytime",
+     "accepted": [
+      "storytime"
+     ]
+    },
+    {
+     "number": 15,
+     "text": "Study rooms can be booked for a maximum of ______ hours.",
+     "before": "Study rooms can be booked for a maximum of",
+     "after": "hours.",
+     "answer": "2",
+     "answerDisplay": "2 / two",
+     "accepted": [
+      "2",
+      "two"
+     ]
+    },
+    {
+     "number": 16,
+     "text": "Reference books cannot be ______.",
+     "before": "Reference books cannot be",
+     "after": ".",
+     "answer": "borrowed",
+     "answerDisplay": "borrowed",
+     "accepted": [
+      "borrowed"
+     ]
+    },
+    {
+     "number": 17,
+     "text": "Donated books are accepted only on ______.",
+     "before": "Donated books are accepted only on",
+     "after": ".",
+     "answer": "Saturdays",
+     "answerDisplay": "Saturdays / Saturday",
+     "accepted": [
+      "Saturdays",
+      "Saturday"
+     ]
+    },
+    {
+     "number": 18,
+     "text": "Members receive an email ______ days before items are due.",
+     "before": "Members receive an email",
+     "after": "days before items are due.",
+     "answer": "3",
+     "answerDisplay": "3 / three",
+     "accepted": [
+      "3",
+      "three"
+     ]
+    },
+    {
+     "number": 19,
+     "text": "The annual open day takes place in ______.",
+     "before": "The annual open day takes place in",
+     "after": ".",
+     "answer": "June",
+     "answerDisplay": "June",
+     "accepted": [
+      "June"
+     ]
+    },
+    {
+     "number": 20,
+     "text": "Today, new members receive a free ______.",
+     "before": "Today, new members receive a free",
+     "after": ".",
+     "answer": "bookmark",
+     "answerDisplay": "bookmark",
+     "accepted": [
+      "bookmark"
+     ]
+    }
+   ]
+  }
+ },
+ "speakerMap": {
+  "New Member": "Tom"
+ }
+}

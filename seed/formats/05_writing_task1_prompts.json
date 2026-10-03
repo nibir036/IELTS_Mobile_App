@@ -1,0 +1,130 @@
+{
+  "_format": {
+    "name": "writing_task1_prompts",
+    "group": "content",
+    "table": "writing_prompts",
+    "primaryKey": "id",
+    "description": "Academic Writing Task 1 prompt with chart data and an optional model answer.",
+    "currentSourceInApp": "writing.task1",
+    "fields": {
+      "id": "string",
+      "type": "string",
+      "title": "string",
+      "prompt": "string",
+      "chart": "object",
+      "modelAnswer": "object"
+    },
+    "required": [
+      "id",
+      "type",
+      "title",
+      "prompt",
+      "chart"
+    ],
+    "relations": [],
+    "notes": [
+      "type: line|bar|pie|table|process|map|mixed; chart shape depends on type (CONTENT_SCHEMA.md).",
+      "Stored in one writing_prompts table with task = 1."
+    ],
+    "recordCountToday": 15,
+    "practiceParts": [
+      {
+        "part": "task1",
+        "label": "Writing Task 1",
+        "minWords": 150,
+        "minutes": 20,
+        "weight": "one third of the Writing band",
+        "practisedOn": "Writing → Task 1 editor (C2); mock G6"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "t1_internet_access",
+      "type": "line",
+      "title": "Internet access",
+      "prompt": "The graph shows the percentage of households with internet access in three countries between 2000 and 2020. Summarise the information by selecting and reporting the main features.",
+      "chart": {
+        "unit": "%",
+        "xLabels": [
+          "2000",
+          "2005",
+          "2010",
+          "2015",
+          "2020"
+        ],
+        "series": [
+          {
+            "name": "Canada",
+            "values": [
+              42,
+              55,
+              66,
+              74,
+              82
+            ]
+          },
+          {
+            "name": "Brazil",
+            "values": [
+              18,
+              32,
+              47,
+              60,
+              72
+            ]
+          },
+          {
+            "name": "India",
+            "values": [
+              9,
+              15,
+              24,
+              38,
+              55
+            ]
+          }
+        ]
+      },
+      "modelAnswer": {
+        "band": 8,
+        "text": "The line graph compares the proportion of households with internet access in Canada, Brazil and India between 2000 and 2020.\n\nOverall, access rose steadily in all three countries over the period, although Canada remained the most connected nation throughout, while India, despite starting from the lowest base, recorded the most dramatic growth in the final decade.\n\nIn 2000, just over two-fifths of Canadian households (42%) were online, compared with 18% in Brazil and a mere 9% in India. Over the following ten years, the Canadian figure climbed to 66%, whereas Brazil saw its share more than double to 47%. India, by contrast, progressed relatively slowly, reaching only 24% by 2010.\n\nFrom 2010 onwards, the gap between the three countries narrowed considerably. Canada continued its upward trend to finish at 82% in 2020, and Brazil rose at a similar pace to 72%. Meanwhile, the proportion of connected homes in India accelerated sharply, more than doubling in ten years to reach 55% by the end of the period, although it still lagged some way behind the other two countries."
+      }
+    },
+    {
+      "id": "t1_coffee_exports",
+      "type": "bar",
+      "title": "Coffee exports",
+      "prompt": "The bar chart shows the value of coffee exported by four countries in 2010 and 2020, in billions of US dollars. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chart": {
+        "unit": "US$ bn",
+        "xLabels": [
+          "Brazil",
+          "Vietnam",
+          "Colombia",
+          "Ethiopia"
+        ],
+        "series": [
+          {
+            "name": "2010",
+            "values": [
+              5.7,
+              1.9,
+              1.9,
+              0.8
+            ]
+          },
+          {
+            "name": "2020",
+            "values": [
+              4.9,
+              2.2,
+              2.5,
+              0.9
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

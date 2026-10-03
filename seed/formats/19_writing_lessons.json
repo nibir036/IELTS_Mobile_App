@@ -1,0 +1,66 @@
+{
+  "_format": {
+    "name": "writing_lessons",
+    "group": "content",
+    "table": "lessons",
+    "primaryKey": "id",
+    "description": "Writing masterclass lesson (C8).",
+    "currentSourceInApp": "writing.masterclass.lessons",
+    "fields": {
+      "id": "string",
+      "label": "string",
+      "minutes": "integer",
+      "title": "string",
+      "lessonLabel": "string",
+      "formula": "array",
+      "keyPoints": "array"
+    },
+    "required": [
+      "id",
+      "title",
+      "formula",
+      "keyPoints"
+    ],
+    "relations": [],
+    "notes": [
+      "Stored in lessons with skill = writing."
+    ],
+    "recordCountToday": 6
+  },
+  "items": [
+    {
+      "id": "wl_01",
+      "label": "Task",
+      "minutes": 6,
+      "title": "Understanding the task",
+      "lessonLabel": "Lesson 1 · Read the question",
+      "formula": [
+        "Topic",
+        "Instruction",
+        "Scope"
+      ],
+      "keyPoints": [
+        "Underline the topic words in the question.",
+        "Identify the instruction: agree, discuss, or solve.",
+        "Answer every part of the question."
+      ]
+    },
+    {
+      "id": "wl_02",
+      "label": "Paraphrase",
+      "minutes": 8,
+      "title": "Paraphrasing the question",
+      "lessonLabel": "Lesson 2 · Paraphrase formula",
+      "formula": [
+        "Synonyms",
+        "Word forms",
+        "Structure"
+      ],
+      "keyPoints": [
+        "Replace key words with accurate synonyms.",
+        "Change word forms (benefit → beneficial).",
+        "Reorder the sentence structure."
+      ]
+    }
+  ]
+}

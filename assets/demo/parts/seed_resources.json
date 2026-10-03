@@ -1,0 +1,240 @@
+{
+  "attempts": [
+    {
+      "id": "att_seed_vocab_2",
+      "skill": "vocab",
+      "kind": "quiz",
+      "title": "Vocabulary quiz · Band 7+ words",
+      "refId": "quiz_band7",
+      "score": 8,
+      "total": 10,
+      "durationSec": 134,
+      "daysAgo": 0,
+      "hour": 9,
+      "data": {
+        "answers": [
+          {
+            "qId": "q1",
+            "wordId": "word_feasible",
+            "chosen": 0,
+            "correct": true
+          },
+          {
+            "qId": "q2",
+            "wordId": "word_ubiquitous",
+            "chosen": 1,
+            "correct": true
+          },
+          {
+            "qId": "q3",
+            "wordId": "word_alleviate",
+            "chosen": 2,
+            "correct": true
+          },
+          {
+            "qId": "q4",
+            "wordId": "word_detrimental",
+            "chosen": 0,
+            "correct": false
+          },
+          {
+            "qId": "q5",
+            "wordId": "word_curtail",
+            "chosen": 0,
+            "correct": true
+          },
+          {
+            "qId": "q6",
+            "wordId": "word_advocate",
+            "chosen": 2,
+            "correct": true
+          },
+          {
+            "qId": "q7",
+            "wordId": "word_mitigate",
+            "chosen": 1,
+            "correct": true
+          },
+          {
+            "qId": "q8",
+            "wordId": "word_scrutinise",
+            "chosen": 3,
+            "correct": false
+          },
+          {
+            "qId": "q9",
+            "wordId": "word_exacerbate",
+            "chosen": 1,
+            "correct": true
+          },
+          {
+            "qId": "q10",
+            "wordId": "word_burgeoning",
+            "chosen": 2,
+            "correct": true
+          }
+        ],
+        "elapsedSec": 134,
+        "addedToLearning": 2
+      }
+    },
+    {
+      "id": "att_seed_vocab_1",
+      "skill": "vocab",
+      "kind": "quiz",
+      "title": "Vocabulary quiz · Band 7+ words",
+      "refId": "quiz_band7",
+      "score": 6,
+      "total": 10,
+      "durationSec": 171,
+      "daysAgo": 4,
+      "hour": 20,
+      "data": {
+        "answers": [
+          {
+            "qId": "q1",
+            "wordId": "word_feasible",
+            "chosen": 0,
+            "correct": true
+          },
+          {
+            "qId": "q2",
+            "wordId": "word_ubiquitous",
+            "chosen": 0,
+            "correct": false
+          },
+          {
+            "qId": "q3",
+            "wordId": "word_alleviate",
+            "chosen": 2,
+            "correct": true
+          },
+          {
+            "qId": "q4",
+            "wordId": "word_detrimental",
+            "chosen": 1,
+            "correct": true
+          },
+          {
+            "qId": "q5",
+            "wordId": "word_curtail",
+            "chosen": 2,
+            "correct": false
+          },
+          {
+            "qId": "q6",
+            "wordId": "word_advocate",
+            "chosen": 2,
+            "correct": true
+          },
+          {
+            "qId": "q7",
+            "wordId": "word_mitigate",
+            "chosen": 1,
+            "correct": true
+          },
+          {
+            "qId": "q8",
+            "wordId": "word_scrutinise",
+            "chosen": 0,
+            "correct": true
+          },
+          {
+            "qId": "q9",
+            "wordId": "word_exacerbate",
+            "chosen": 0,
+            "correct": false
+          },
+          {
+            "qId": "q10",
+            "wordId": "word_burgeoning",
+            "chosen": 0,
+            "correct": false
+          }
+        ],
+        "elapsedSec": 171,
+        "addedToLearning": 4
+      }
+    }
+  ],
+  "kv": {
+    "resources.savedWords": [
+      "word_mitigate",
+      "word_detrimental",
+      "word_scrutinise",
+      "word_alleviate",
+      "word_feasible"
+    ],
+    "resources.wordMastery": {
+      "word_alleviate": "learning",
+      "word_albeit": "mastered",
+      "word_as_a_result": "mastered",
+      "word_consequently": "learning",
+      "word_detrimental": "learning",
+      "word_deal_with": "mastered",
+      "word_feasible": "mastered",
+      "word_furthermore": "mastered",
+      "word_mitigate": "learning",
+      "word_scrutinise": "learning",
+      "aw_allocate": "mastered",
+      "aw_coherent": "mastered",
+      "aw_derive": "learning",
+      "aw_equate": "learning",
+      "aw_distinct": "learning",
+      "aw_impact": "learning"
+    },
+    "resources.academicDay": 6,
+    "resources.academicLearnedPrior": 98,
+    "community.readRooms": [],
+    "community.dms": [
+      {
+        "id": "dm_anika",
+        "letter": "AN",
+        "name": "Anika R.",
+        "tone": "blush",
+        "unread": 1,
+        "messages": [
+          {
+            "id": "dm_anika_1",
+            "type": "text",
+            "authorName": "Anika R.",
+            "initials": "AN",
+            "tone": "blush",
+            "time": "7:52 PM",
+            "text": "Shall we do Part 3 again tomorrow?"
+          }
+        ]
+      },
+      {
+        "id": "dm_sadia",
+        "letter": "SH",
+        "name": "Sadia H.",
+        "tone": "lavender",
+        "unread": 1,
+        "messages": [
+          {
+            "id": "dm_sadia_1",
+            "type": "text",
+            "authorName": "Sadia H.",
+            "initials": "SH",
+            "tone": "lavender",
+            "time": "6:30 PM",
+            "text": "Sent you my cue card notes"
+          }
+        ]
+      }
+    ],
+    "community.sent.room_speaking_p2": [
+      {
+        "id": "sent_seed_1",
+        "type": "text",
+        "authorName": "Tanvir Ahmed",
+        "initials": "TA",
+        "mine": true,
+        "time": "8:14 PM",
+        "afterId": "m1",
+        "text": "Yes! I need help with longer answers."
+      }
+    ]
+  }
+}

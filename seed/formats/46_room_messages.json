@@ -1,0 +1,54 @@
+{
+  "_format": {
+    "name": "room_messages",
+    "group": "user",
+    "table": "room_messages",
+    "primaryKey": "id",
+    "description": "Community chat message (text, voice, image, AI partner).",
+    "currentSourceInApp": "resources.speakingRoom.messages + kv community.sent.*",
+    "fields": {
+      "id": "string",
+      "roomId": "string",
+      "userId": "string",
+      "type": "string",
+      "text": "string",
+      "createdAt": "string",
+      "r2Key": "string",
+      "durationMs": "integer"
+    },
+    "required": [
+      "id",
+      "roomId",
+      "userId",
+      "type",
+      "createdAt"
+    ],
+    "relations": [
+      "roomId → rooms.id",
+      "userId → users.id"
+    ],
+    "notes": [
+      "type: text|voice|image|ai|system."
+    ],
+    "recordCountToday": 2
+  },
+  "items": [
+    {
+      "id": "m1",
+      "roomId": "room_speaking_p2",
+      "userId": "usr_anika",
+      "type": "text",
+      "text": "Anyone up for Part 3 practice? Topic is environment.",
+      "createdAt": "2026-09-29T12:00:00Z"
+    },
+    {
+      "id": "m2",
+      "roomId": "room_speaking_p2",
+      "userId": "usr_demo_tanvir",
+      "type": "voice",
+      "r2Key": "chat/usr_demo_tanvir/m2.m4a",
+      "durationMs": 14000,
+      "createdAt": "2026-09-29T12:00:00Z"
+    }
+  ]
+}

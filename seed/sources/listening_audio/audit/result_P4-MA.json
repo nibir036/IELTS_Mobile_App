@@ -1,0 +1,166 @@
+{
+ "code": "P4-MA",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[0:21]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "D",
+   "audio_answer": "D",
+   "evidence": "[0:31]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[0:38]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[0:44]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "E",
+   "audio_answer": "E",
+   "evidence": "[0:52]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:04]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "F",
+   "audio_answer": "F",
+   "evidence": "[1:09]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[1:17]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "D",
+   "audio_answer": "D",
+   "evidence": "[1:24]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "differs",
+   "key": "B",
+   "audio_answer": "A (high cost)",
+   "evidence": "[1:29] 'compressed air, suitable caverns exist in more places than you'd think, so the main problem is high cost'",
+   "note": "Recording explicitly rules out geography for compressed air."
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "C",
+   "audio_answer": "C",
+   "evidence": "[1:38]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "B",
+   "audio_answer": "B",
+   "evidence": "[1:44]",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "A",
+   "audio_answer": "A",
+   "evidence": "[1:49]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "E",
+   "audio_answer": "E",
+   "evidence": "[1:54]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "D",
+   "audio_answer": "D",
+   "evidence": "[2:00]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "differs",
+   "key": "A",
+   "audio_answer": "1980s (not among options A-E; no valid letter)",
+   "evidence": "[2:13] 'The first commercial pumped hydro plants opened in the 1980s.'",
+   "note": "Key expects 1920s; recording says 1980s, which is not an option. [2:10] line before it is also garbled ('Pumped hydro is an old idea, but in the national grid, we'll be modeling this term')."
+  },
+  {
+   "n": 17,
+   "status": "differs",
+   "key": "B",
+   "audio_answer": "C (1990s)",
+   "evidence": "[2:19] 'The early lithium ion battery patents ... date from the 1990s.'",
+   "note": "Key expects 1970s."
+  },
+  {
+   "n": 18,
+   "status": "differs",
+   "key": "C",
+   "audio_answer": "2000s (not among options A-E; no valid letter)",
+   "evidence": "[2:25] 'The first grid scale battery storage installations then appeared in the 2000s'",
+   "note": "Key expects 1990s; 2000s not an option."
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "D",
+   "audio_answer": "D",
+   "evidence": "[2:33]",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "E",
+   "audio_answer": "E",
+   "evidence": "[2:40]",
+   "note": ""
+  }
+ ],
+ "summary": "Q10 (cost, not geography) and timeline Q16-18 (1980s/1990s/2000s vs key 1920s/1970s/1990s) contradict the key; Q16 and Q18 have no valid option."
+}

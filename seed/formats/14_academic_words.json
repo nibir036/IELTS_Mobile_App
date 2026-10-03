@@ -1,0 +1,48 @@
+{
+  "_format": {
+    "name": "academic_words",
+    "group": "content",
+    "table": "academic_words",
+    "primaryKey": "id",
+    "description": "Academic Word List entry assigned to a study day (30 days x 20 words).",
+    "currentSourceInApp": "resources.academicWords.words",
+    "fields": {
+      "id": "string",
+      "word": "string",
+      "partOfSpeech": "string",
+      "meaning": "string",
+      "day": "integer",
+      "sublist": "integer"
+    },
+    "required": [
+      "id",
+      "word",
+      "partOfSpeech",
+      "meaning",
+      "day"
+    ],
+    "relations": [],
+    "notes": [
+      "day: 1-30 study day; sublist: AWL sublist 1-10."
+    ],
+    "recordCountToday": 6
+  },
+  "items": [
+    {
+      "id": "aw_allocate",
+      "word": "allocate",
+      "partOfSpeech": "v.",
+      "meaning": "assign for a purpose",
+      "day": 1,
+      "sublist": 2
+    },
+    {
+      "id": "aw_coherent",
+      "word": "coherent",
+      "partOfSpeech": "adj.",
+      "meaning": "logical and consistent",
+      "day": 1,
+      "sublist": 2
+    }
+  ]
+}

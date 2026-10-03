@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Irregular Verbs</title>
+<style>
+  :root{--bg:#f6f5fb;--card:#fff;--ink:#1c1830;--muted:#6b6580;--accent:#5C3E94;--accent2:#008080;--line:#e7e3f2;--row:#faf9fe;--chip:#eef7f7}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141026;--card:#1e1836;--ink:#efecf7;--muted:#a49dbd;--accent:#b9a3ea;--accent2:#4bc0c0;--line:#2c2447;--row:#241d40;--chip:#17302f}}
+  :root[data-theme="dark"]{--bg:#141026;--card:#1e1836;--ink:#efecf7;--muted:#a49dbd;--accent:#b9a3ea;--accent2:#4bc0c0;--line:#2c2447;--row:#241d40;--chip:#17302f}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45;padding:20px 16px 60px}
+  .wrap{max-width:900px;margin:0 auto}
+  h1{font-size:1.4rem;margin:0 0 4px;color:var(--accent)}
+  .sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+  .search{width:100%;padding:11px 14px;font-size:1rem;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);margin-bottom:14px}
+  .search::placeholder{color:var(--muted)}
+  .count{font-size:.82rem;color:var(--muted);margin-bottom:10px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  thead th{position:sticky;top:0;background:var(--accent);color:#fff;font-size:.82rem;text-align:left;padding:10px 12px;font-weight:600;z-index:2}
+  tbody td{padding:9px 12px;border-top:1px solid var(--line);font-size:.92rem;vertical-align:top}
+  tbody tr:nth-child(even){background:var(--row)}
+  .base{font-weight:700;color:var(--accent)}
+  .form{color:var(--accent2);font-weight:600;white-space:nowrap}
+  .mean{color:var(--muted)}
+  .ex{font-style:italic}
+  .ex b{font-style:normal;color:var(--accent2);font-weight:600}
+  @media(max-width:620px){.mean,.ex{display:none}thead th.h-mean,thead th.h-ex{display:none}}
+  .noshow{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Irregular Verbs</h1>
+<p class="sub">Base form · past simple · past participle · meaning · example. 190 verbs, alphabetical.</p>
+<input id="q" class="search" type="search" placeholder="Search a verb (any form) — e.g. go, went, bought…" autocomplete="off">
+<div class="count" id="count"></div>
+<table>
+<thead><tr><th>Base</th><th>Past simple</th><th>Past participle</th><th class="h-mean">Meaning</th><th class="h-ex">Example</th></tr></thead>
+<tbody id="tb">
+<tr><td class="base">arise</td><td class="form">arose</td><td class="form">arisen</td><td class="mean">to happen or come into being</td><td class="ex">A problem <b>arose</b> at the last minute.</td></tr>
+<tr><td class="base">awake</td><td class="form">awoke</td><td class="form">awoken</td><td class="mean">to wake from sleep</td><td class="ex">She <b>awoke</b> to the sound of rain.</td></tr>
+<tr><td class="base">be</td><td class="form">was / were</td><td class="form">been</td><td class="mean">to exist; to have a state</td><td class="ex">They <b>were</b> delighted with the result.</td></tr>
+<tr><td class="base">bear</td><td class="form">bore</td><td class="form">borne</td><td class="mean">to carry or endure</td><td class="ex">He <b>bore</b> the pain without complaint.</td></tr>
+<tr><td class="base">beat</td><td class="form">beat</td><td class="form">beaten</td><td class="mean">to defeat; to hit repeatedly</td><td class="ex">Our team <b>beat</b> the champions.</td></tr>
+<tr><td class="base">become</td><td class="form">became</td><td class="form">become</td><td class="mean">to come to be</td><td class="ex">She <b>became</b> a doctor at 28.</td></tr>
+<tr><td class="base">begin</td><td class="form">began</td><td class="form">begun</td><td class="mean">to start</td><td class="ex">The film had already <b>begun</b>.</td></tr>
+<tr><td class="base">bend</td><td class="form">bent</td><td class="form">bent</td><td class="mean">to curve or make crooked</td><td class="ex">He <b>bent</b> down to pick it up.</td></tr>
+<tr><td class="base">bet</td><td class="form">bet</td><td class="form">bet</td><td class="mean">to risk money on an outcome</td><td class="ex">I <b>bet</b> ten pounds on the race.</td></tr>
+<tr><td class="base">bid</td><td class="form">bid</td><td class="form">bid</td><td class="mean">to offer a price</td><td class="ex">She <b>bid</b> for the painting at auction.</td></tr>
+<tr><td class="base">bind</td><td class="form">bound</td><td class="form">bound</td><td class="mean">to tie or fasten</td><td class="ex">They <b>bound</b> the papers together.</td></tr>
+<tr><td class="base">bite</td><td class="form">bit</td><td class="form">bitten</td><td class="mean">to cut with the teeth</td><td class="ex">The dog <b>bit</b> the postman.</td></tr>
+<tr><td class="base">bleed</td><td class="form">bled</td><td class="form">bled</td><td class="mean">to lose blood</td><td class="ex">The cut <b>bled</b> for a while.</td></tr>
+<tr><td class="base">blow</td><td class="form">blew</td><td class="form">blown</td><td class="mean">to move air; to send out breath</td><td class="ex">The wind <b>blew</b> the roof off.</td></tr>
+<tr><td class="base">break</td><td class="form">broke</td><td class="form">broken</td><td class="mean">to separate into pieces</td><td class="ex">He <b>broke</b> his arm skiing.</td></tr>
+<tr><td class="base">breed</td><td class="form">bred</td><td class="form">bred</td><td class="mean">to produce young; to raise</td><td class="ex">They <b>bred</b> horses for racing.</td></tr>
+<tr><td class="base">bring</td><td class="form">brought</td><td class="form">brought</td><td class="mean">to carry towards</td><td class="ex">She <b>brought</b> a gift for the host.</td></tr>
+<tr><td class="base">broadcast</td><td class="form">broadcast</td><td class="form">broadcast</td><td class="mean">to transmit by radio or TV</td><td class="ex">The match was <b>broadcast</b> live.</td></tr>
+<tr><td class="base">build</td><td class="form">built</td><td class="form">built</td><td class="mean">to construct</td><td class="ex">They <b>built</b> a new bridge.</td></tr>
+<tr><td class="base">burn</td><td class="form">burnt / burned</td><td class="form">burnt / burned</td><td class="mean">to be on fire; to scorch</td><td class="ex">I <b>burnt</b> the toast again.</td></tr>
+<tr><td class="base">burst</td><td class="form">burst</td><td class="form">burst</td><td class="mean">to break open suddenly</td><td class="ex">The balloon <b>burst</b> with a bang.</td></tr>
+<tr><td class="base">buy</td><td class="form">bought</td><td class="form">bought</td><td class="mean">to purchase</td><td class="ex">We <b>bought</b> the house last year.</td></tr>
+<tr><td class="base">cast</td><td class="form">cast</td><td class="form">cast</td><td class="mean">to throw; to assign a role</td><td class="ex">He <b>cast</b> the line into the river.</td></tr>
+<tr><td class="base">catch</td><td class="form">caught</td><td class="form">caught</td><td class="mean">to seize; to capture</td><td class="ex">She <b>caught</b> the ball cleanly.</td></tr>
+<tr><td class="base">choose</td><td class="form">chose</td><td class="form">chosen</td><td class="mean">to select</td><td class="ex">They <b>chose</b> the cheaper option.</td></tr>
+<tr><td class="base">cling</td><td class="form">clung</td><td class="form">clung</td><td class="mean">to hold on tightly</td><td class="ex">The child <b>clung</b> to her mother.</td></tr>
+<tr><td class="base">come</td><td class="form">came</td><td class="form">come</td><td class="mean">to move towards</td><td class="ex">They <b>came</b> to the party late.</td></tr>
+<tr><td class="base">cost</td><td class="form">cost</td><td class="form">cost</td><td class="mean">to have a price</td><td class="ex">The repair <b>cost</b> a fortune.</td></tr>
+<tr><td class="base">creep</td><td class="form">crept</td><td class="form">crept</td><td class="mean">to move slowly and quietly</td><td class="ex">He <b>crept</b> up the stairs.</td></tr>
+<tr><td class="base">cut</td><td class="form">cut</td><td class="form">cut</td><td class="mean">to divide with a blade</td><td class="ex">She <b>cut</b> the cake into slices.</td></tr>
+<tr><td class="base">deal</td><td class="form">dealt</td><td class="form">dealt</td><td class="mean">to handle; to distribute</td><td class="ex">He <b>dealt</b> with the problem calmly.</td></tr>
+<tr><td class="base">dig</td><td class="form">dug</td><td class="form">dug</td><td class="mean">to make a hole</td><td class="ex">They <b>dug</b> a well in the yard.</td></tr>
+<tr><td class="base">do</td><td class="form">did</td><td class="form">done</td><td class="mean">to perform an action</td><td class="ex">She <b>did</b> her homework early.</td></tr>
+<tr><td class="base">draw</td><td class="form">drew</td><td class="form">drawn</td><td class="mean">to make a picture; to pull</td><td class="ex">He <b>drew</b> a map on the napkin.</td></tr>
+<tr><td class="base">dream</td><td class="form">dreamt / dreamed</td><td class="form">dreamt / dreamed</td><td class="mean">to imagine while asleep</td><td class="ex">I <b>dreamt</b> of flying last night.</td></tr>
+<tr><td class="base">drink</td><td class="form">drank</td><td class="form">drunk</td><td class="mean">to swallow liquid</td><td class="ex">They <b>drank</b> their coffee quickly.</td></tr>
+<tr><td class="base">drive</td><td class="form">drove</td><td class="form">driven</td><td class="mean">to operate a vehicle</td><td class="ex">She <b>drove</b> all the way home.</td></tr>
+<tr><td class="base">eat</td><td class="form">ate</td><td class="form">eaten</td><td class="mean">to consume food</td><td class="ex">We <b>ate</b> at a new restaurant.</td></tr>
+<tr><td class="base">fall</td><td class="form">fell</td><td class="form">fallen</td><td class="mean">to drop down</td><td class="ex">He <b>fell</b> off his bike.</td></tr>
+<tr><td class="base">feed</td><td class="form">fed</td><td class="form">fed</td><td class="mean">to give food to</td><td class="ex">She <b>fed</b> the cat this morning.</td></tr>
+<tr><td class="base">feel</td><td class="form">felt</td><td class="form">felt</td><td class="mean">to sense or experience</td><td class="ex">I <b>felt</b> nervous before the test.</td></tr>
+<tr><td class="base">fight</td><td class="form">fought</td><td class="form">fought</td><td class="mean">to struggle against</td><td class="ex">They <b>fought</b> for their rights.</td></tr>
+<tr><td class="base">find</td><td class="form">found</td><td class="form">found</td><td class="mean">to discover</td><td class="ex">I <b>found</b> my keys at last.</td></tr>
+<tr><td class="base">flee</td><td class="form">fled</td><td class="form">fled</td><td class="mean">to run away</td><td class="ex">The crowd <b>fled</b> the scene.</td></tr>
+<tr><td class="base">fling</td><td class="form">flung</td><td class="form">flung</td><td class="mean">to throw forcefully</td><td class="ex">She <b>flung</b> the door open.</td></tr>
+<tr><td class="base">fly</td><td class="form">flew</td><td class="form">flown</td><td class="mean">to move through the air</td><td class="ex">We <b>flew</b> to Rome in May.</td></tr>
+<tr><td class="base">forbid</td><td class="form">forbade</td><td class="form">forbidden</td><td class="mean">to order not to do</td><td class="ex">The school <b>forbade</b> phones in class.</td></tr>
+<tr><td class="base">forecast</td><td class="form">forecast</td><td class="form">forecast</td><td class="mean">to predict</td><td class="ex">They <b>forecast</b> heavy rain.</td></tr>
+<tr><td class="base">forget</td><td class="form">forgot</td><td class="form">forgotten</td><td class="mean">to fail to remember</td><td class="ex">I <b>forgot</b> her birthday.</td></tr>
+<tr><td class="base">forgive</td><td class="form">forgave</td><td class="form">forgiven</td><td class="mean">to stop blaming</td><td class="ex">She <b>forgave</b> him eventually.</td></tr>
+<tr><td class="base">freeze</td><td class="form">froze</td><td class="form">frozen</td><td class="mean">to turn to ice; to stop</td><td class="ex">The lake <b>froze</b> overnight.</td></tr>
+<tr><td class="base">get</td><td class="form">got</td><td class="form">got / gotten</td><td class="mean">to obtain or become</td><td class="ex">He <b>got</b> a new job.</td></tr>
+<tr><td class="base">give</td><td class="form">gave</td><td class="form">given</td><td class="mean">to hand over</td><td class="ex">They <b>gave</b> generously to charity.</td></tr>
+<tr><td class="base">go</td><td class="form">went</td><td class="form">gone</td><td class="mean">to move or travel</td><td class="ex">We <b>went</b> to the coast.</td></tr>
+<tr><td class="base">grind</td><td class="form">ground</td><td class="form">ground</td><td class="mean">to crush into powder</td><td class="ex">She <b>ground</b> the coffee beans.</td></tr>
+<tr><td class="base">grow</td><td class="form">grew</td><td class="form">grown</td><td class="mean">to increase; to develop</td><td class="ex">The company <b>grew</b> rapidly.</td></tr>
+<tr><td class="base">hang</td><td class="form">hung</td><td class="form">hung</td><td class="mean">to suspend from above</td><td class="ex">He <b>hung</b> the picture on the wall.</td></tr>
+<tr><td class="base">have</td><td class="form">had</td><td class="form">had</td><td class="mean">to possess</td><td class="ex">They <b>had</b> a wonderful time.</td></tr>
+<tr><td class="base">hear</td><td class="form">heard</td><td class="form">heard</td><td class="mean">to perceive sound</td><td class="ex">I <b>heard</b> the news yesterday.</td></tr>
+<tr><td class="base">hide</td><td class="form">hid</td><td class="form">hidden</td><td class="mean">to conceal</td><td class="ex">She <b>hid</b> the gift in the cupboard.</td></tr>
+<tr><td class="base">hit</td><td class="form">hit</td><td class="form">hit</td><td class="mean">to strike</td><td class="ex">The ball <b>hit</b> the window.</td></tr>
+<tr><td class="base">hold</td><td class="form">held</td><td class="form">held</td><td class="mean">to grasp or contain</td><td class="ex">He <b>held</b> the door for me.</td></tr>
+<tr><td class="base">hurt</td><td class="form">hurt</td><td class="form">hurt</td><td class="mean">to cause pain</td><td class="ex">I <b>hurt</b> my knee running.</td></tr>
+<tr><td class="base">keep</td><td class="form">kept</td><td class="form">kept</td><td class="mean">to retain; to continue</td><td class="ex">She <b>kept</b> all his letters.</td></tr>
+<tr><td class="base">kneel</td><td class="form">knelt</td><td class="form">knelt</td><td class="mean">to go down on the knees</td><td class="ex">He <b>knelt</b> to tie his shoe.</td></tr>
+<tr><td class="base">know</td><td class="form">knew</td><td class="form">known</td><td class="mean">to be aware of</td><td class="ex">I <b>knew</b> the answer at once.</td></tr>
+<tr><td class="base">lay</td><td class="form">laid</td><td class="form">laid</td><td class="mean">to put down flat</td><td class="ex">She <b>laid</b> the baby in the cot.</td></tr>
+<tr><td class="base">lead</td><td class="form">led</td><td class="form">led</td><td class="mean">to guide or be in charge</td><td class="ex">He <b>led</b> the team to victory.</td></tr>
+<tr><td class="base">lean</td><td class="form">leant / leaned</td><td class="form">leant / leaned</td><td class="mean">to rest against; to incline</td><td class="ex">She <b>leant</b> against the wall.</td></tr>
+<tr><td class="base">leap</td><td class="form">leapt / leaped</td><td class="form">leapt / leaped</td><td class="mean">to jump</td><td class="ex">The cat <b>leapt</b> onto the sill.</td></tr>
+<tr><td class="base">learn</td><td class="form">learnt / learned</td><td class="form">learnt / learned</td><td class="mean">to gain knowledge</td><td class="ex">I <b>learnt</b> to swim as a child.</td></tr>
+<tr><td class="base">leave</td><td class="form">left</td><td class="form">left</td><td class="mean">to go away; to let remain</td><td class="ex">They <b>left</b> early to beat traffic.</td></tr>
+<tr><td class="base">lend</td><td class="form">lent</td><td class="form">lent</td><td class="mean">to give temporarily</td><td class="ex">He <b>lent</b> me his umbrella.</td></tr>
+<tr><td class="base">let</td><td class="form">let</td><td class="form">let</td><td class="mean">to allow</td><td class="ex">She <b>let</b> the children stay up.</td></tr>
+<tr><td class="base">lie</td><td class="form">lay</td><td class="form">lain</td><td class="mean">to rest horizontally</td><td class="ex">He <b>lay</b> on the sofa all afternoon.</td></tr>
+<tr><td class="base">light</td><td class="form">lit</td><td class="form">lit</td><td class="mean">to set burning; to illuminate</td><td class="ex">She <b>lit</b> the candles.</td></tr>
+<tr><td class="base">lose</td><td class="form">lost</td><td class="form">lost</td><td class="mean">to fail to keep or win</td><td class="ex">We <b>lost</b> the match narrowly.</td></tr>
+<tr><td class="base">make</td><td class="form">made</td><td class="form">made</td><td class="mean">to create</td><td class="ex">She <b>made</b> a delicious meal.</td></tr>
+<tr><td class="base">mean</td><td class="form">meant</td><td class="form">meant</td><td class="mean">to signify; to intend</td><td class="ex">I <b>meant</b> no offence.</td></tr>
+<tr><td class="base">meet</td><td class="form">met</td><td class="form">met</td><td class="mean">to come together</td><td class="ex">We <b>met</b> at university.</td></tr>
+<tr><td class="base">mislay</td><td class="form">mislaid</td><td class="form">mislaid</td><td class="mean">to lose temporarily</td><td class="ex">I <b>mislaid</b> my glasses again.</td></tr>
+<tr><td class="base">mislead</td><td class="form">misled</td><td class="form">misled</td><td class="mean">to give a wrong impression</td><td class="ex">The advert <b>misled</b> customers.</td></tr>
+<tr><td class="base">misread</td><td class="form">misread</td><td class="form">misread</td><td class="mean">to read wrongly</td><td class="ex">He <b>misread</b> the instructions.</td></tr>
+<tr><td class="base">mistake</td><td class="form">mistook</td><td class="form">mistaken</td><td class="mean">to identify wrongly</td><td class="ex">I <b>mistook</b> her for her sister.</td></tr>
+<tr><td class="base">misunderstand</td><td class="form">misunderstood</td><td class="form">misunderstood</td><td class="mean">to fail to understand correctly</td><td class="ex">They <b>misunderstood</b> my point.</td></tr>
+<tr><td class="base">mow</td><td class="form">mowed</td><td class="form">mown / mowed</td><td class="mean">to cut grass</td><td class="ex">He <b>mowed</b> the lawn on Sunday.</td></tr>
+<tr><td class="base">overcome</td><td class="form">overcame</td><td class="form">overcome</td><td class="mean">to defeat or deal with</td><td class="ex">She <b>overcame</b> her fear of heights.</td></tr>
+<tr><td class="base">overhear</td><td class="form">overheard</td><td class="form">overheard</td><td class="mean">to hear unintentionally</td><td class="ex">I <b>overheard</b> their conversation.</td></tr>
+<tr><td class="base">oversleep</td><td class="form">overslept</td><td class="form">overslept</td><td class="mean">to sleep too long</td><td class="ex">He <b>overslept</b> and missed the bus.</td></tr>
+<tr><td class="base">overtake</td><td class="form">overtook</td><td class="form">overtaken</td><td class="mean">to pass; to catch up with</td><td class="ex">The car <b>overtook</b> us on the bend.</td></tr>
+<tr><td class="base">pay</td><td class="form">paid</td><td class="form">paid</td><td class="mean">to give money for</td><td class="ex">They <b>paid</b> the bill in cash.</td></tr>
+<tr><td class="base">prove</td><td class="form">proved</td><td class="form">proven / proved</td><td class="mean">to show to be true</td><td class="ex">The theory <b>proved</b> correct.</td></tr>
+<tr><td class="base">put</td><td class="form">put</td><td class="form">put</td><td class="mean">to place</td><td class="ex">She <b>put</b> the book on the shelf.</td></tr>
+<tr><td class="base">quit</td><td class="form">quit</td><td class="form">quit</td><td class="mean">to stop or leave</td><td class="ex">He <b>quit</b> his job last month.</td></tr>
+<tr><td class="base">read</td><td class="form">read</td><td class="form">read</td><td class="mean">to look at and understand text</td><td class="ex">I <b>read</b> the whole book overnight.</td></tr>
+<tr><td class="base">rid</td><td class="form">rid</td><td class="form">rid</td><td class="mean">to free from something</td><td class="ex">They <b>rid</b> the house of pests.</td></tr>
+<tr><td class="base">ride</td><td class="form">rode</td><td class="form">ridden</td><td class="mean">to travel on or in</td><td class="ex">She <b>rode</b> her bike to work.</td></tr>
+<tr><td class="base">ring</td><td class="form">rang</td><td class="form">rung</td><td class="mean">to make a bell sound; to call</td><td class="ex">The phone <b>rang</b> twice.</td></tr>
+<tr><td class="base">rise</td><td class="form">rose</td><td class="form">risen</td><td class="mean">to go up</td><td class="ex">Prices <b>rose</b> sharply.</td></tr>
+<tr><td class="base">run</td><td class="form">ran</td><td class="form">run</td><td class="mean">to move quickly on foot</td><td class="ex">He <b>ran</b> a marathon last year.</td></tr>
+<tr><td class="base">saw</td><td class="form">sawed</td><td class="form">sawn / sawed</td><td class="mean">to cut with a saw</td><td class="ex">They <b>sawed</b> the plank in half.</td></tr>
+<tr><td class="base">say</td><td class="form">said</td><td class="form">said</td><td class="mean">to speak words</td><td class="ex">She <b>said</b> she would come.</td></tr>
+<tr><td class="base">see</td><td class="form">saw</td><td class="form">seen</td><td class="mean">to perceive with the eyes</td><td class="ex">I <b>saw</b> him at the station.</td></tr>
+<tr><td class="base">seek</td><td class="form">sought</td><td class="form">sought</td><td class="mean">to look for</td><td class="ex">They <b>sought</b> advice from a lawyer.</td></tr>
+<tr><td class="base">sell</td><td class="form">sold</td><td class="form">sold</td><td class="mean">to exchange for money</td><td class="ex">We <b>sold</b> the car cheaply.</td></tr>
+<tr><td class="base">send</td><td class="form">sent</td><td class="form">sent</td><td class="mean">to cause to go</td><td class="ex">She <b>sent</b> the parcel yesterday.</td></tr>
+<tr><td class="base">set</td><td class="form">set</td><td class="form">set</td><td class="mean">to place; to fix</td><td class="ex">He <b>set</b> the table for dinner.</td></tr>
+<tr><td class="base">sew</td><td class="form">sewed</td><td class="form">sewn / sewed</td><td class="mean">to join with thread</td><td class="ex">She <b>sewed</b> a button on.</td></tr>
+<tr><td class="base">shake</td><td class="form">shook</td><td class="form">shaken</td><td class="mean">to move quickly to and fro</td><td class="ex">He <b>shook</b> my hand firmly.</td></tr>
+<tr><td class="base">shed</td><td class="form">shed</td><td class="form">shed</td><td class="mean">to let fall; to get rid of</td><td class="ex">The tree <b>shed</b> its leaves.</td></tr>
+<tr><td class="base">shine</td><td class="form">shone</td><td class="form">shone</td><td class="mean">to give out light</td><td class="ex">The sun <b>shone</b> all day.</td></tr>
+<tr><td class="base">shoot</td><td class="form">shot</td><td class="form">shot</td><td class="mean">to fire; to move fast</td><td class="ex">He <b>shot</b> the ball into the net.</td></tr>
+<tr><td class="base">show</td><td class="form">showed</td><td class="form">shown / showed</td><td class="mean">to let be seen</td><td class="ex">She <b>showed</b> me the photos.</td></tr>
+<tr><td class="base">shrink</td><td class="form">shrank</td><td class="form">shrunk</td><td class="mean">to become smaller</td><td class="ex">The shirt <b>shrank</b> in the wash.</td></tr>
+<tr><td class="base">shut</td><td class="form">shut</td><td class="form">shut</td><td class="mean">to close</td><td class="ex">He <b>shut</b> the window.</td></tr>
+<tr><td class="base">sing</td><td class="form">sang</td><td class="form">sung</td><td class="mean">to make musical sounds</td><td class="ex">She <b>sang</b> beautifully.</td></tr>
+<tr><td class="base">sink</td><td class="form">sank</td><td class="form">sunk</td><td class="mean">to go under water</td><td class="ex">The boat <b>sank</b> within minutes.</td></tr>
+<tr><td class="base">sit</td><td class="form">sat</td><td class="form">sat</td><td class="mean">to rest on a seat</td><td class="ex">They <b>sat</b> by the fire.</td></tr>
+<tr><td class="base">sleep</td><td class="form">slept</td><td class="form">slept</td><td class="mean">to rest in sleep</td><td class="ex">I <b>slept</b> for ten hours.</td></tr>
+<tr><td class="base">slide</td><td class="form">slid</td><td class="form">slid</td><td class="mean">to move smoothly</td><td class="ex">The glass <b>slid</b> across the table.</td></tr>
+<tr><td class="base">sling</td><td class="form">slung</td><td class="form">slung</td><td class="mean">to throw casually; to hang</td><td class="ex">He <b>slung</b> the bag over his shoulder.</td></tr>
+<tr><td class="base">slit</td><td class="form">slit</td><td class="form">slit</td><td class="mean">to make a narrow cut</td><td class="ex">She <b>slit</b> the envelope open.</td></tr>
+<tr><td class="base">smell</td><td class="form">smelt / smelled</td><td class="form">smelt / smelled</td><td class="mean">to perceive by the nose</td><td class="ex">I <b>smelt</b> something burning.</td></tr>
+<tr><td class="base">sow</td><td class="form">sowed</td><td class="form">sown / sowed</td><td class="mean">to plant seeds</td><td class="ex">They <b>sowed</b> wheat in spring.</td></tr>
+<tr><td class="base">speak</td><td class="form">spoke</td><td class="form">spoken</td><td class="mean">to talk</td><td class="ex">She <b>spoke</b> to the manager.</td></tr>
+<tr><td class="base">speed</td><td class="form">sped / speeded</td><td class="form">sped / speeded</td><td class="mean">to move fast</td><td class="ex">The train <b>sped</b> through the station.</td></tr>
+<tr><td class="base">spell</td><td class="form">spelt / spelled</td><td class="form">spelt / spelled</td><td class="mean">to name the letters of</td><td class="ex">He <b>spelt</b> his name aloud.</td></tr>
+<tr><td class="base">spend</td><td class="form">spent</td><td class="form">spent</td><td class="mean">to use money or time</td><td class="ex">We <b>spent</b> the day at the beach.</td></tr>
+<tr><td class="base">spill</td><td class="form">spilt / spilled</td><td class="form">spilt / spilled</td><td class="mean">to let liquid fall</td><td class="ex">I <b>spilt</b> coffee on my shirt.</td></tr>
+<tr><td class="base">spin</td><td class="form">spun</td><td class="form">spun</td><td class="mean">to turn round quickly</td><td class="ex">The wheel <b>spun</b> fast.</td></tr>
+<tr><td class="base">spit</td><td class="form">spat</td><td class="form">spat</td><td class="mean">to force from the mouth</td><td class="ex">He <b>spat</b> out the sour fruit.</td></tr>
+<tr><td class="base">split</td><td class="form">split</td><td class="form">split</td><td class="mean">to divide</td><td class="ex">They <b>split</b> the bill evenly.</td></tr>
+<tr><td class="base">spoil</td><td class="form">spoilt / spoiled</td><td class="form">spoilt / spoiled</td><td class="mean">to ruin; to over-indulge</td><td class="ex">The rain <b>spoilt</b> our picnic.</td></tr>
+<tr><td class="base">spread</td><td class="form">spread</td><td class="form">spread</td><td class="mean">to extend over an area</td><td class="ex">The fire <b>spread</b> quickly.</td></tr>
+<tr><td class="base">spring</td><td class="form">sprang</td><td class="form">sprung</td><td class="mean">to jump suddenly</td><td class="ex">The cat <b>sprang</b> onto the fence.</td></tr>
+<tr><td class="base">stand</td><td class="form">stood</td><td class="form">stood</td><td class="mean">to be upright</td><td class="ex">She <b>stood</b> at the back.</td></tr>
+<tr><td class="base">steal</td><td class="form">stole</td><td class="form">stolen</td><td class="mean">to take without permission</td><td class="ex">Someone <b>stole</b> my bike.</td></tr>
+<tr><td class="base">stick</td><td class="form">stuck</td><td class="form">stuck</td><td class="mean">to attach; to become fixed</td><td class="ex">The stamp <b>stuck</b> to my finger.</td></tr>
+<tr><td class="base">sting</td><td class="form">stung</td><td class="form">stung</td><td class="mean">to prick with a sharp point</td><td class="ex">A bee <b>stung</b> him on the arm.</td></tr>
+<tr><td class="base">stink</td><td class="form">stank</td><td class="form">stunk</td><td class="mean">to smell very bad</td><td class="ex">The bin <b>stank</b> in the heat.</td></tr>
+<tr><td class="base">stride</td><td class="form">strode</td><td class="form">stridden</td><td class="mean">to walk with long steps</td><td class="ex">He <b>strode</b> across the room.</td></tr>
+<tr><td class="base">strike</td><td class="form">struck</td><td class="form">struck</td><td class="mean">to hit; to stop work</td><td class="ex">Lightning <b>struck</b> the tower.</td></tr>
+<tr><td class="base">string</td><td class="form">strung</td><td class="form">strung</td><td class="mean">to thread; to hang in a line</td><td class="ex">They <b>strung</b> lights across the yard.</td></tr>
+<tr><td class="base">strive</td><td class="form">strove</td><td class="form">striven</td><td class="mean">to try very hard</td><td class="ex">She <b>strove</b> to improve daily.</td></tr>
+<tr><td class="base">swear</td><td class="form">swore</td><td class="form">sworn</td><td class="mean">to promise; to curse</td><td class="ex">He <b>swore</b> to tell the truth.</td></tr>
+<tr><td class="base">sweep</td><td class="form">swept</td><td class="form">swept</td><td class="mean">to clean with a brush</td><td class="ex">She <b>swept</b> the floor.</td></tr>
+<tr><td class="base">swell</td><td class="form">swelled</td><td class="form">swollen / swelled</td><td class="mean">to grow larger</td><td class="ex">His ankle <b>swelled</b> up.</td></tr>
+<tr><td class="base">swim</td><td class="form">swam</td><td class="form">swum</td><td class="mean">to move through water</td><td class="ex">They <b>swam</b> across the bay.</td></tr>
+<tr><td class="base">swing</td><td class="form">swung</td><td class="form">swung</td><td class="mean">to move back and forth</td><td class="ex">The gate <b>swung</b> open.</td></tr>
+<tr><td class="base">take</td><td class="form">took</td><td class="form">taken</td><td class="mean">to get hold of; to carry</td><td class="ex">She <b>took</b> the early train.</td></tr>
+<tr><td class="base">teach</td><td class="form">taught</td><td class="form">taught</td><td class="mean">to give knowledge to</td><td class="ex">He <b>taught</b> me to drive.</td></tr>
+<tr><td class="base">tear</td><td class="form">tore</td><td class="form">torn</td><td class="mean">to pull apart</td><td class="ex">She <b>tore</b> the letter in two.</td></tr>
+<tr><td class="base">tell</td><td class="form">told</td><td class="form">told</td><td class="mean">to inform</td><td class="ex">He <b>told</b> me the news.</td></tr>
+<tr><td class="base">think</td><td class="form">thought</td><td class="form">thought</td><td class="mean">to use the mind</td><td class="ex">I <b>thought</b> about it all night.</td></tr>
+<tr><td class="base">throw</td><td class="form">threw</td><td class="form">thrown</td><td class="mean">to send through the air</td><td class="ex">He <b>threw</b> the ball to me.</td></tr>
+<tr><td class="base">thrust</td><td class="form">thrust</td><td class="form">thrust</td><td class="mean">to push forcefully</td><td class="ex">She <b>thrust</b> the note into my hand.</td></tr>
+<tr><td class="base">tread</td><td class="form">trod</td><td class="form">trodden</td><td class="mean">to step or walk on</td><td class="ex">He <b>trod</b> carefully on the ice.</td></tr>
+<tr><td class="base">undergo</td><td class="form">underwent</td><td class="form">undergone</td><td class="mean">to experience something</td><td class="ex">She <b>underwent</b> surgery.</td></tr>
+<tr><td class="base">understand</td><td class="form">understood</td><td class="form">understood</td><td class="mean">to grasp the meaning</td><td class="ex">I <b>understood</b> the lesson.</td></tr>
+<tr><td class="base">undertake</td><td class="form">undertook</td><td class="form">undertaken</td><td class="mean">to commit to a task</td><td class="ex">They <b>undertook</b> a huge project.</td></tr>
+<tr><td class="base">undo</td><td class="form">undid</td><td class="form">undone</td><td class="mean">to reverse; to unfasten</td><td class="ex">He <b>undid</b> the knot.</td></tr>
+<tr><td class="base">uphold</td><td class="form">upheld</td><td class="form">upheld</td><td class="mean">to support or confirm</td><td class="ex">The court <b>upheld</b> the ruling.</td></tr>
+<tr><td class="base">upset</td><td class="form">upset</td><td class="form">upset</td><td class="mean">to disturb; to overturn</td><td class="ex">The news <b>upset</b> everyone.</td></tr>
+<tr><td class="base">wake</td><td class="form">woke</td><td class="form">woken</td><td class="mean">to stop sleeping</td><td class="ex">I <b>woke</b> at dawn.</td></tr>
+<tr><td class="base">wear</td><td class="form">wore</td><td class="form">worn</td><td class="mean">to have on the body</td><td class="ex">She <b>wore</b> a red dress.</td></tr>
+<tr><td class="base">weave</td><td class="form">wove</td><td class="form">woven</td><td class="mean">to interlace threads</td><td class="ex">They <b>wove</b> baskets by hand.</td></tr>
+<tr><td class="base">weep</td><td class="form">wept</td><td class="form">wept</td><td class="mean">to cry</td><td class="ex">She <b>wept</b> at the ending.</td></tr>
+<tr><td class="base">wet</td><td class="form">wet / wetted</td><td class="form">wet / wetted</td><td class="mean">to make damp</td><td class="ex">He <b>wet</b> the cloth first.</td></tr>
+<tr><td class="base">win</td><td class="form">won</td><td class="form">won</td><td class="mean">to be victorious</td><td class="ex">They <b>won</b> the championship.</td></tr>
+<tr><td class="base">wind</td><td class="form">wound</td><td class="form">wound</td><td class="mean">to turn or twist</td><td class="ex">She <b>wound</b> the thread round the spool.</td></tr>
+<tr><td class="base">withdraw</td><td class="form">withdrew</td><td class="form">withdrawn</td><td class="mean">to take back or leave</td><td class="ex">He <b>withdrew</b> some cash.</td></tr>
+<tr><td class="base">withhold</td><td class="form">withheld</td><td class="form">withheld</td><td class="mean">to refuse to give</td><td class="ex">They <b>withheld</b> their consent.</td></tr>
+<tr><td class="base">withstand</td><td class="form">withstood</td><td class="form">withstood</td><td class="mean">to resist successfully</td><td class="ex">The bridge <b>withstood</b> the flood.</td></tr>
+<tr><td class="base">wring</td><td class="form">wrung</td><td class="form">wrung</td><td class="mean">to twist to squeeze out</td><td class="ex">She <b>wrung</b> out the towel.</td></tr>
+<tr><td class="base">write</td><td class="form">wrote</td><td class="form">written</td><td class="mean">to form letters or words</td><td class="ex">He <b>wrote</b> a long letter.</td></tr>
+</tbody>
+</table>
+</div>
+<script>
+(function(){
+  var q=document.getElementById('q'),rows=[].slice.call(document.querySelectorAll('#tb tr')),c=document.getElementById('count');
+  function upd(){var n=rows.filter(function(r){return !r.classList.contains('noshow')}).length;c.textContent=n+' verb'+(n===1?'':'s')+' shown';}
+  q.addEventListener('input',function(){
+    var t=q.value.trim().toLowerCase();
+    rows.forEach(function(r){r.classList.toggle('noshow', t && r.textContent.toLowerCase().indexOf(t)===-1);});
+    upd();
+  });
+  upd();
+})();
+</script>
+</body>
+</html>

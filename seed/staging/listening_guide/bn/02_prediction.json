@@ -1,0 +1,261 @@
+[
+ {
+  "id": "l02_prediction",
+  "title": "2. Prediction, Keyword আর Paraphrase চেনা",
+  "group": "কৌশল",
+  "blocks": [
+   [
+    "p",
+    "Listening-এর ইঞ্জিন: প্রতিটি gap-এর ধরন predict করা, এমন anchor keyword বেছে নেওয়া যা পরীক্ষা লুকাতে পারে না, আর audio বাজার আগেই সম্ভাব্য paraphrase-গুলো মাথায় তৈরি রাখা।"
+   ],
+   [
+    "p",
+    "এই তিনটি দক্ষতাই Listening-এর ইঞ্জিন। Prediction আপনার কানকে বলে কীসের জন্য অপেক্ষা করতে হবে। Keyword আপনার চোখকে বলে কোথায় অপেক্ষা করতে হবে। Paraphrase চেনা আপনাকে বলে answer এলে সেটা কেমন শোনাবে, কারণ answer প্রায় কখনোই আপনার প্রত্যাশিত শব্দে আসবে না। এই তিনটি আয়ত্ত করুন, তাহলে audio শুরুর আগেই Listening test-এর অর্ধেক জেতা হয়ে যাবে।"
+   ],
+   [
+    "h",
+    "PART 3"
+   ],
+   [
+    "h",
+    "Question Prediction"
+   ],
+   [
+    "p",
+    "Band 8 আর Band 6 candidate-কে সবচেয়ে বেশি আলাদা করে prediction-এর অভ্যাস, অথচ প্রায় কেউই এটা ঠিকমতো শেখায় না। Beginner একটা question পড়ে আর অপেক্ষা করে। Expert একটা question পড়ে আর জানেন কী আসছে।"
+   ],
+   [
+    "note",
+    "Audio শুরুর আগে প্রতিটি gap দেখে নিজেকে জিজ্ঞেস করুন: “What kind of answer am I about to hear?” — কী ধরনের answer শুনতে যাচ্ছি? এই প্রশ্নটা মনের ভেতর একটা ছাঁকনি বসিয়ে দেয়, আর এই ছাঁকনিই দুইশো শব্দের স্রোতের মধ্যে থেকে একটা শব্দ ধরতে সাহায্য করে।"
+   ],
+   [
+    "p",
+    "দুই স্তরে predict করুন। স্তর ১ হলো grammar-এর ধরন: হারানো শব্দটা কি noun, verb, adjective নাকি number? Gap-এর আশেপাশের শব্দ দেখে প্রায় সবসময়ই বোঝা যায় (“open until ____”-এ একটা time লাগবে; “must not ____ inside”-এ একটা verb লাগবে; “surprisingly ____”-এ একটা adjective লাগবে; “bring your own ____”-এ একটা countable noun লাগবে)। স্তর ২ হলো তথ্যের ধরন: নাম, জায়গা, মাপ, তারিখ, দাম, বস্তু, পদ/ভূমিকা।"
+   ],
+   [
+    "table",
+    [
+     "Gap-এ যদি লাগে…",
+     "আপনার কান অপেক্ষা করবে…"
+    ],
+    [
+     [
+      "একটা number",
+      "অঙ্ক, পরিমাণ, “how many,” দাম"
+     ],
+     [
+      "একটা date",
+      "বার, মাস, চার অঙ্কের সাল"
+     ],
+     [
+      "একটা time",
+      "ঘড়ির সময়, “quarter past,” “half past”"
+     ],
+     [
+      "একটা নাম (মানুষ)",
+      "প্রায়ই বানান করে বলা হয়; অক্ষর ধরে ধরে শুনুন"
+     ],
+     [
+      "একটা নাম (জায়গা)",
+      "রাস্তা, ভবন, শহর — প্রায়ই বানান করে বলা হয়"
+     ],
+     [
+      "একটা মাপ",
+      "Metre, kilo, minute, degree, percentage"
+     ],
+     [
+      "একটা বস্তু / জিনিস",
+      "একটা concrete noun; singular না plural দেখে নিন"
+     ],
+     [
+      "একটা পদ / কাজ",
+      "Manager, guide, receptionist, professor"
+     ],
+     [
+      "একটা verb / কাজ",
+      "কেউ কী করে, কী করতে হবে, বা কী এড়াতে হবে"
+     ],
+     [
+      "একটা adjective",
+      "গুণ বা মনোভাব বোঝানো একটা বর্ণনামূলক শব্দ"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "শুধু gap পর্যন্ত নয়, gap-এর চারপাশটা পড়ুন। Beginner শুধু gap-এর আগের শব্দগুলো পড়ে; expert পরের শব্দগুলোও পড়েন, কারণ gap-এর পরের শব্দটা প্রায়ই আগের শব্দের চেয়ে অনেক বেশি grammar ঠিক করে দেয় আর অর্থকে সরু করে আনে। “The museum's ____ collection attracts thousands of visitors” — এটা তখনই predict করা যায় যখন gap পেরিয়ে “collection” পর্যন্ত পড়েন; এই শব্দটাই বলে দেয় answer হবে একটা adjective বা noun, যা কোন ধরনের collection তা বোঝায়।"
+   ],
+   [
+    "p",
+    "Singular না plural, সেটাও predict করুন, কারণ gap-এর আশেপাশের শব্দ প্রায়ই তা জানিয়ে দেয় (“there is a ____” হলে singular হতেই হবে; “guests are given two ____” হলে plural; “each room has its own ____” হলে singular)। এটা শুধু answer ধরার ব্যাপার নয়; আপনি যা predict করেছিলেন আর যা শুনলেন তা না মিললে, সেটা একটা কাজের সতর্কসংকেত যে আপনি ভুল শুনেছেন।"
+   ],
+   [
+    "p",
+    "লেখার আগে word limit মেনে চলুন। প্রতিটি completion task-এ একটা নির্দেশ থাকে, যেমন “Write ONE WORD ONLY” বা “NO MORE THAN TWO WORDS AND/OR A NUMBER.” যেখানে ২টি শব্দের অনুমতি, সেখানে ৩টি শব্দ লিখলে অর্থ একদম ঠিক হলেও answer ভুল ধরা হবে। Answer কত লম্বা হবে সেটাও predict করুন, আর limit যদি এক শব্দ হয়, তাহলে বক্তার বলা বাড়তি বর্ণনামূলক শব্দ ঠেসে ঢোকাবেন না।"
+   ],
+   [
+    "tip",
+    "Hyphen দেওয়া শব্দ (part-time, twenty-five, check-in) একটা শব্দ হিসেবে গোনা হয়। অঙ্কে লেখা সংখ্যা (25, 1990) শব্দ নয়, number হিসেবে গোনা হয়। এটা জানলে one-word limit-এর মধ্যেও নির্ভয়ে “part-time” লিখতে পারবেন।"
+   ],
+   [
+    "p",
+    "একটা উদাহরণ: একটা note completion set-এ চাওয়া হয়েছে Name, Number of nights, Room type ____ room, Extra charge for ____। জোরে জোরে predict করতে করতে expert ভাবেন: একটা পদবি, সম্ভবত বানান করে বলা হবে; একটা ছোট সংখ্যা; “room”-এর আগে একটা ছোট adjective (single, double, standard, deluxe); বাড়তি টাকা দিতে হয় এমন কিছুর একটা noun (breakfast, parking, wifi, a pet)। ১৫ সেকেন্ডে ৪টি টানটান জাল পাতা হয়ে গেল — এখন প্রতিটি answer তার জন্য অপেক্ষা করা জালে এসে পড়ে, আর আশেপাশের বাকি কথা চোখ এড়িয়ে চলে যায়।"
+   ],
+   [
+    "tip",
+    "Audio শুরুর আগেই যদি একটা set-এর gap-গুলো predict করা শেষ হয়ে যায়, বসে থাকবেন না। পরের set-টা আগেভাগে পড়ে রাখুন। যারা ধীরে পড়ে তাদের জন্য বিরতি কখনোই যথেষ্ট লম্বা হয় না, তাই যে দ্রুত predict করে সে সময় জমিয়ে রেখে সামনের অংশ পড়ে ফেলে।"
+   ],
+   [
+    "h",
+    "PART 4"
+   ],
+   [
+    "h",
+    "Keyword"
+   ],
+   [
+    "p",
+    "একজন দুর্বল candidate-কে একটা question প্রস্তুত করতে দিন, আর দেখুন সে কী করে: প্রায় প্রতিটি শব্দের নিচে দাগ দেয়। সবকিছুর নিচে দাগ মানে কোনোকিছুর নিচেই দাগ নেই। Keyword-এর দক্ষতা মানে এমন অল্প কয়েকটা শব্দ বেছে নেওয়া যেগুলো সত্যিই answer খুঁজে পেতে সাহায্য করবে, আর বাকিগুলো বাদ দেওয়া।"
+   ],
+   [
+    "p",
+    "সব শব্দ সমান নয়। Strong keyword question-এর নির্দিষ্ট অর্থ বহন করে (অসাধারণ noun, নির্দিষ্ট verb, topic)। Weak keyword হলো সাধারণ, কম তথ্যের শব্দ (the, a, some, thing, people), যেগুলো কোনো দিক দেখায় না। Unique keyword passage-এর অন্য কোথাও আসার সম্ভাবনা কম (একটা proper name, একটা number, একটা technical term), আর এগুলোই সবচেয়ে দামি। Generic keyword বড় অর্থের, তাই এগুলো দিয়ে জায়গা খুঁজে পাওয়া কঠিন (problem, change, area)। Concept keyword কোনো একটা শব্দের বদলে একটা ধারণা বহন করে, আর সতর্ক করে দেয় যে paraphrase আসছে।"
+   ],
+   [
+    "note",
+    "নাম, number আর date প্রায় কখনোই paraphrase করা হয় না। Content word-গুলো প্রায় সবসময়ই হয়। তাই আপনার সবচেয়ে ভালো anchor হলো সেই শব্দগুলো যেগুলো পরীক্ষা পাল্টাতে পারে না: “cheap”-কে বানিয়ে দিতে পারে “won't break the bank,” কিন্তু 1985 সালকে 1985 ছাড়া আর কিছুই বানাতে পারে না।"
+   ],
+   [
+    "p",
+    "Keyword বাছাইয়ের অগ্রাধিকার: ১) যে unique anchor পাল্টাতে পারে না (নাম, number, date, technical term) — সবার আগে দাগ দিন; ২) যে strong content word অর্থ বহন করে — দাগ দিন, তবে আশা করুন এগুলো paraphrase হবে; ৩) যে concept word সতর্ক করে যে paraphrase আসছে — মনে মনে খেয়াল রাখুন; ৪) weak আর generic শব্দ — বাদ দিন।"
+   ],
+   [
+    "p",
+    "একটা উদাহরণ: “In 1996, the company moved its headquarters to ____.” এখানে সবচেয়ে strong keyword হলো 1996 — এমন একটা anchor যা paraphrase করা যায় না। “in ninety-six” শোনামাত্র বুঝবেন answer ঠিক এখনই আসছে, এমনকি “headquarters” আর “moved” যদি বদলে “relocated its main offices” হয়ে যায়, তবুও।"
+   ],
+   [
+    "tip",
+    "Question-এ কোনো number বা নাম থাকলে, সেটাই সাধারণত আপনার একমাত্র সেরা keyword। ওটায় গোল দাগ দিন আর বাকিগুলো নিয়ে দুশ্চিন্তা ছাড়ুন। পরীক্ষা আপনাকে এমন একটা শব্দ দিয়েছে যেটা লুকানোর অনুমতি তার নেই।"
+   ],
+   [
+    "h",
+    "PART 5"
+   ],
+   [
+    "h",
+    "Paraphrase চেনা"
+   ],
+   [
+    "p",
+    "এই module-এর সবচেয়ে গভীর chapter এটাই, কারণ paraphrase-এর ওপরেই পুরো test চলে। এটা পুরোপুরি বুঝে গেলে পরীক্ষাকে আর ফাঁদের মতো লাগবে না, বরং মনে হবে এমন একটা অনুবাদ যা আপনি করতে পারেন।"
+   ],
+   [
+    "note",
+    "Question আর audio একই অর্থ বহন করে, শুধু ভিন্ন শব্দে। পরীক্ষা দেখছে, শব্দ বদলে গেলেও আপনি অর্থটা চিনতে পারেন কি না। মিলে যাওয়া একটা শব্দ শুনতে পান কি না, সেটা দেখছে না।"
+   ],
+   [
+    "p",
+    "Paraphrase যেসব রূপে আসে: (1) synonym — cost হয়ে যায় price/fee/charge; (2) word class বদল — “the decision to close” হয়ে যায় “they decided to close”; (3) active/passive অদলবদল — “the council built the bridge” হয়ে যায় “the bridge was built by the council”; (4) expression বা বর্ণনা — “cheap” হয়ে যায় “won't break the bank”; (5) পরোক্ষ কথা — answer সরাসরি না বলে ইঙ্গিতে বোঝানো হয়; (6) সংখ্যার paraphrase — 50% হয়ে যায় “half”, doubled হয়ে যায় “twice as many”; (7) ধারণাগত (conceptual) paraphrase — পুরো ধারণাটা নতুন করে বলা হয়, একটা শব্দও মেলে না।"
+   ],
+   [
+    "p",
+    "শোনার আগেই paraphrase predict করুন: এখানেই prediction আর paraphrase এক জায়গায় মেলে, আর এটাই module-এর সবচেয়ে দামি drill। আপনার strong keyword-টা নিয়ে নিজেকে জিজ্ঞেস করুন, “If the exam does not use this word, how else might they say it?” — পরীক্ষা এই শব্দটা ব্যবহার না করলে আর কীভাবে বলতে পারে? ২ সেকেন্ড সময় নিয়ে বিকল্পগুলো ভেবে নিন, যাতে paraphrase এলে কান যেকোনোটার জন্যই তৈরি থাকে।"
+   ],
+   [
+    "p",
+    "Expert-এর ভাবনা: question-এ আছে “The main disadvantage of the site was its ____,” আর audio-তে বলা হচ্ছে “The one real drawback with the location was how far it sat from the station.” Beginner “disadvantage” শব্দটা শোনার অপেক্ষায় থাকে, সেটা কখনো আসে না, আর পুরো বাক্যটাই মিস করে। অভিজ্ঞ student “drawback”-কে মিল হিসেবে ধরে ফেলে, কিন্তু এক মুহূর্ত দেরিতে। Expert candidate আগেই মাথায় রেখেছিলেন disadvantage = drawback/downside/problem/negative, তাই “drawback” আসামাত্র কোনো দেরি ছাড়াই ধরা পড়ল, আর “location” যে “site”-এর paraphrase তা পরিষ্কার ছিল; answer — station থেকে দূরত্ব — একদম ঠিকঠাক ধরা পড়ল। Expert বেশি ভালো শোনেননি — তিনি বেশি ভালোভাবে প্রত্যাশা করেছিলেন।"
+   ],
+   [
+    "tip",
+    "Question-এর content word-গুলোই সবচেয়ে বেশি paraphrase হয়। সবচেয়ে কম বদলায় নাম, number আর date। Content word-এর ক্ষেত্রে অর্থ শুনুন, আর না-বদলানো শব্দগুলোর ক্ষেত্রে আওয়াজটা শুনুন।"
+   ]
+  ]
+ },
+ {
+  "id": "l02_prediction_practice",
+  "title": "2. Practice · Prediction, Keyword আর Paraphrase চেনা",
+  "group": "কৌশল",
+  "blocks": [
+   [
+    "h2",
+    "Drill 2.1 (Level 1): Answer-এর shape কী?"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 2.1 (Level 1): Answer-এর shape কী?",
+     "kind": "essay_edit",
+     "instructions": "প্রতিটি gap-এর জন্য grammar-এর ধরন (noun, verb, adjective, number) আর তথ্যের ধরন লিখুন।",
+     "items": [
+      {
+       "prompt": "1. “The next train departs at ____.”\n2. “Please do not ____ the exhibits.”\n3. “The workshop is held every ____.” (a day)\n4. “Membership costs ____ a month.”\n5. “Wear ____ shoes for the walk.”\n6. “Leave your bag at the ____ desk.”",
+       "answer": "1. Number, a time. 2. Verb: touch, photograph, lean on. 3. Noun, a day of the week. 4. Number, a price. 5. Adjective (comfortable, sturdy, waterproof). 6. Noun/role word before “desk” (reception, information, front).\nLesson: every gap tells you its own shape if you read both sides of it.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h2",
+    "Drill 2.2 (Level 2): সেরা keyword বেছে নিন"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 2.2 (Level 2): সেরা keyword বেছে নিন",
+     "kind": "essay_edit",
+     "instructions": "প্রতিটি question-এ answer খুঁজে পেতে আপনি যে একটিমাত্র (ONE) শব্দের ওপর ভরসা করবেন, তার নিচে দাগ দিন, আর বলুন সেটা কোন ধরনের (unique anchor, strong content, concept)।",
+     "items": [
+      {
+       "prompt": "1. “How much does the annual pass cost?”\n2. “In 2010, the factory switched to solar power.”\n3. “The main difficulty with the plan was funding.”\n4. “Passengers should report to Professor Nolan.”\n5. “The village is famous for its cheese.”",
+       "answer": "1. cost — strong content, likely paraphrased to price/how much.\n2. 2010 — unique anchor, cannot change.\n3. funding/difficulty — concept; expect the paraphrase “the hard part,” “money.”\n4. Nolan — unique anchor, a name.\n5. cheese — strong, fairly unique content word.\nLesson: a name, number, or date in the question usually wins as your keyword.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h2",
+    "Drill 2.3 (Level 2): Paraphrase predict করুন"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 2.3 (Level 2): Paraphrase predict করুন",
+     "kind": "essay_edit",
+     "instructions": "আগে নিজে চেষ্টা করুন, তারপর model answer-এর সঙ্গে মিলিয়ে দেখুন।",
+     "items": [
+      {
+       "prompt": "For each keyword, write two or three ways the audio might reword it: buy, dangerous, increase, nearby, important, children.",
+       "answer": "buy: purchase, pick up, pay for. dangerous: risky, unsafe, hazardous. increase: rise, go up, climb. nearby: close by, within walking distance, a short way off. important: crucial, vital, key, essential. children: kids, youngsters, the young.\nLesson: doing this for two seconds per keyword before the audio is exactly what turns a surprise into an expected event.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ],
+   [
+    "h2",
+    "Drill 2.4 (Level 3): Paraphrase মেলান"
+   ],
+   [
+    "exercise",
+    {
+     "title": "Drill 2.4 (Level 3): Paraphrase মেলান",
+     "kind": "essay_edit",
+     "instructions": "প্রতিটি question phrase (1–6)-কে সেই audio phrase (A–F)-এর সঙ্গে মেলান, যেটা একই অর্থ বহন করে।",
+     "items": [
+      {
+       "prompt": "Questions: 1. cheap to run 2. difficult to find 3. the decision to expand 4. built in 1990 5. very popular 6. close to the coast\nAudio: A. “they chose to grow the business” B. “always packed with visitors” C. “dates back to nineteen ninety” D. “costs very little to keep going” E. “just a short drive from the sea” F. “not easy to track down”",
+       "answer": "1→D, 2→F, 3→A (note the word-class change: decision→chose, expand→grow), 4→C (the fixed number survives unchanged), 5→B, 6→E.\nLesson: in every pair the meaning is identical while the words are almost entirely different. Train your mind to hear meaning, not words.",
+       "accepted": [],
+       "reason": ""
+      }
+     ]
+    }
+   ]
+  ]
+ }
+]

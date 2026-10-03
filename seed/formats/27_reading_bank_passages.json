@@ -1,0 +1,2537 @@
+{
+  "_format": {
+    "name": "reading_bank_passages",
+    "group": "content",
+    "table": "reading_passages",
+    "primaryKey": "id",
+    "description": "Question-bank passage: one short Academic reading passage practising ONE question type (5-10 questions), with a set lesson, questions, answers, evidence and explanations. Same table and shape as reading_passages, plus bank fields.",
+    "currentSourceInApp": "IELTS_Reading_Question_Bank-1.pdf (not yet in the app)",
+    "fields": {
+      "id": "string",
+      "bankSet": "integer",
+      "questionType": "string",
+      "questionTypeName": "string",
+      "questionTypeDetail": "string",
+      "part": "integer",
+      "difficulty": "string",
+      "topic": "string",
+      "title": "string",
+      "words": "integer",
+      "paragraphs": "array",
+      "lesson": "object",
+      "groups": "array",
+      "questionCount": "integer",
+      "passageNote": "string"
+    },
+    "required": [
+      "id",
+      "bankSet",
+      "questionType",
+      "part",
+      "difficulty",
+      "topic",
+      "title",
+      "paragraphs",
+      "groups",
+      "questionCount"
+    ],
+    "relations": [
+      "groups[].questions[].evidenceParagraph → paragraphs[].letter",
+      "questionType → reading_type_lessons.questionType (the \"How to attempt\" lesson for this type)",
+      "id ← reading_practice_tests.passages[]"
+    ],
+    "notes": [
+      "id = rb_<questionType>_<NN> (NN = bankSet, 01-20 within the type). part: EASY→1, MEDIUM→2, HARD→3.",
+      "questionType: mcq, tfng, ynng, matching_info, headings, matching_features, sentence_endings, sentence_completion, summary_completion, note_completion, table_completion, flowchart_completion, diagram_label, short_answer.",
+      "Group types: mcq, multi (pick N, number = first, numbers = all, answer = list), tfng, ynng, heading, matching, matching_features, sentence_endings, gap (sentence completion), short_answer, summary, notes, table, flowchart, diagram.",
+      "Gaps are written \"______\"; in summary/notes/table/flowchart/diagram they are \"(n) ______\" and questions[] carry only number + answer data.",
+      "answer = canonical answer; accepted = every form the PDF allows (\"a / b\" alternatives and optional \"(the)\" words expanded); answerDisplay = the PDF answer text when it differs from answer.",
+      "evidence = the PDF evidence text without surrounding quotes; evidenceIsQuote = true when it is a verbatim passage quote (false for descriptions such as NOT GIVEN reasons). evidenceParagraphSource: \"stated\" (PDF gives the paragraph), \"derived\" (found by locating the quote), null (unknown).",
+      "flowchart.steps[] items are strings (one box) or {\"branches\": [[boxes of column 1], [column 2], ...]} for parallel boxes.",
+      "diagram.labels[]: side left|right, order = top-to-bottom position on that side; caption = the italic text in/above the drawing; annotations = further italic notes.",
+      "notes.lines[].level: 0 heading, 1 bullet, 2 sub-bullet (dash).",
+      "Groups have no \"id\" collisions within a passage (g1, g2 ...). Question numbers are local (1..n); the app offsets them in tests.",
+      "One example per question type below."
+    ],
+    "recordCountToday": 280,
+    "practiceParts": [
+      {
+        "part": 1,
+        "label": "Easy sets (Passage 1 level)",
+        "difficulty": "easy",
+        "sets": "01-06 in every type"
+      },
+      {
+        "part": 2,
+        "label": "Medium sets (Passage 2 level)",
+        "difficulty": "medium",
+        "sets": "07-14 in every type"
+      },
+      {
+        "part": 3,
+        "label": "Hard sets (Passage 3 level)",
+        "difficulty": "hard",
+        "sets": "15-20 in every type"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "rb_mcq_05",
+      "bankSet": 5,
+      "questionType": "mcq",
+      "questionTypeName": "Multiple Choice",
+      "questionTypeDetail": "Multiple Choice (single answer A–D, plus one \"Choose TWO letters\" question)",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Linguistics — children growing up with two languages",
+      "title": "Growing Up with Two Languages",
+      "words": 592,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "More than half of the world's population is thought to use two or more languages in daily life, and many children grow up hearing more than one language from birth. Yet for much of the twentieth century, parents in many countries were advised to avoid raising children bilingually. Teachers and doctors warned that learning two languages at once would confuse young children, slow their development and harm their performance at school. Some families who spoke a minority language at home were even encouraged to abandon it."
+        },
+        {
+          "letter": "B",
+          "text": "These warnings were based largely on early studies that compared bilingual and monolingual children on vocabulary and intelligence tests. The bilingual children often scored lower. Later researchers pointed out serious problems with these studies. The tests were usually given only in the majority language, and the bilingual children in them often came from poorer families than the monolingual children they were compared with. When studies from the 1960s onwards took account of these factors, the supposed disadvantage largely disappeared."
+        },
+        {
+          "letter": "C",
+          "text": "One behaviour that particularly worried parents was \"code-mixing\": using words from both languages in the same sentence. A child might say \"I want more leche\", mixing English with the Spanish word for milk. For many years this was taken as a sign that the child could not tell the two languages apart. Researchers now interpret it quite differently. Young bilingual children mix words mainly when they do not yet know a word in the language they are speaking, and they tend to adjust their choice of language to the person they are talking to. Adult bilinguals mix languages too, often deliberately, and linguists regard this as a normal and skilful use of two languages rather than a sign of confusion."
+        },
+        {
+          "letter": "D",
+          "text": "It is true that, if each language is measured separately, bilingual children often know fewer words in each one than monolingual children of the same age. However, when the words they know in both languages are counted together, their total vocabulary is usually similar to, and sometimes larger than, that of monolingual children. The gap in each individual language also tends to narrow as children grow older and continue to use both languages."
+        },
+        {
+          "letter": "E",
+          "text": "Parents often ask which method of raising a bilingual child works best. A popular approach is \"one parent, one language\", in which each parent always speaks a different language to the child. Many families find this helpful, but research suggests that the particular method matters less than the amount and variety of exposure a child receives. A child who hears a language only occasionally, or only in one setting, is unlikely to become confident in it. Children are also sensitive to attitudes: if they sense that one of their languages is not valued, they may start refusing to speak it."
+        },
+        {
+          "letter": "F",
+          "text": "In recent decades, some researchers have gone further and claimed that bilingualism brings cognitive advantages. Because bilinguals constantly select one language while keeping the other inactive, it has been suggested that they become better at controlling their attention and switching between tasks. Several studies reported such benefits, but others, including some very large ones, have failed to find them. At present, the question remains a matter of lively debate."
+        },
+        {
+          "letter": "G",
+          "text": "What researchers do agree on is that growing up with two languages does not harm children's development. The old advice to abandon a home language is now regarded as mistaken, and many specialists believe that it may have cost families an important part of their cultural connections. For most children, learning two languages is simply a normal part of growing up in a multilingual world."
+        }
+      ],
+      "lesson": {
+        "title": "\"Choose TWO letters\" questions",
+        "text": "In a Choose TWO question, treat each of the five options as a separate True/False check against the passage. Usually two options are clearly supported, and the other three are unsupported, contradicted, or attributed to the wrong time or group. Do not choose an option just because it sounds reasonable. Each correct option must be stated in the passage. The two letters can be written in either order.",
+        "example": "Passage: \"Volunteers repaired the fence and planted trees; they did not have time to paint the shed.\" Which TWO things did the volunteers do? A repaired the fence ✓ B painted the shed ✗ C planted trees ✓ D built a shed ✗ E cut the grass ✗ (not mentioned)."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "mcq",
+          "title": "Choose the correct letter",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "number": 1,
+              "text": "In the twentieth century, some families were advised to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "teach their children a second language at school."
+                },
+                {
+                  "key": "B",
+                  "text": "stop using a minority language at home."
+                },
+                {
+                  "key": "C",
+                  "text": "speak two languages to children from birth."
+                },
+                {
+                  "key": "D",
+                  "text": "have their children's intelligence tested."
+                }
+              ],
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "evidence": "Some families who spoke a minority language at home were even encouraged to abandon it",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Abandon\" = \"stop using\". C is the opposite of the advice given at the time. Intelligence tests (D) appear in Paragraph B, but as a research method, not as advice to families."
+            },
+            {
+              "number": 2,
+              "text": "According to paragraph B, early studies of bilingual children were unreliable partly because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "they included too few children."
+                },
+                {
+                  "key": "B",
+                  "text": "the tests were in only one language."
+                },
+                {
+                  "key": "C",
+                  "text": "the bilingual children were younger."
+                },
+                {
+                  "key": "D",
+                  "text": "researchers did not publish their results."
+                }
+              ],
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "evidence": "The tests were usually given only in the majority language",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Only in the majority language\" = \"in only one language\". The other problem mentioned is family income, not sample size (A) or the children's age (C)."
+            },
+            {
+              "number": 3,
+              "text": "How do researchers now view code-mixing in young children?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "as evidence that children confuse their languages"
+                },
+                {
+                  "key": "B",
+                  "text": "as a habit children should be discouraged from developing"
+                },
+                {
+                  "key": "C",
+                  "text": "as a normal strategy, often used when a word is not known"
+                },
+                {
+                  "key": "D",
+                  "text": "as something that happens only in adults"
+                }
+              ],
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "evidence": "Young bilingual children mix words mainly when they do not yet know a word ... linguists regard this as a normal and skilful use",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "stated",
+              "explanation": "Option C combines both points. A is the old interpretation. D is contradicted, because the passage says adults mix languages \"too\"."
+            },
+            {
+              "number": 4,
+              "text": "What does the writer say about bilingual children's vocabulary?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It is smaller overall than that of monolingual children."
+                },
+                {
+                  "key": "B",
+                  "text": "It is larger in each language than that of monolingual children."
+                },
+                {
+                  "key": "C",
+                  "text": "Its combined size is usually comparable to that of monolingual children."
+                },
+                {
+                  "key": "D",
+                  "text": "It stops growing once children start school."
+                }
+              ],
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "evidence": "when the words they know in both languages are counted together, their total vocabulary is usually similar to ... that of monolingual children",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Counted together ... similar\" = \"combined size ... comparable\". A contradicts this. B confuses combined vocabulary with vocabulary in each language, where bilingual children often know fewer words."
+            },
+            {
+              "number": 5,
+              "text": "According to paragraph E, what matters most in raising a bilingual child?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "following the \"one parent, one language\" method"
+                },
+                {
+                  "key": "B",
+                  "text": "beginning before the child is one year old"
+                },
+                {
+                  "key": "C",
+                  "text": "how much varied contact the child has with each language"
+                },
+                {
+                  "key": "D",
+                  "text": "using both languages in every conversation"
+                }
+              ],
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "evidence": "the particular method matters less than the amount and variety of exposure a child receives",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Amount and variety of exposure\" = \"how much varied contact\". A is a word-match trap: the method is mentioned but is said to matter less. B and D are not mentioned."
+            }
+          ]
+        },
+        {
+          "id": "g2",
+          "type": "multi",
+          "title": "Choose TWO letters",
+          "instruction": "Choose TWO letters, A–E.",
+          "pick": 2,
+          "questions": [
+            {
+              "number": 6,
+              "numbers": [
+                6,
+                7
+              ],
+              "text": "Which TWO of the following statements about bilingualism are supported by the passage?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "All studies have confirmed that bilinguals have better attention control."
+                },
+                {
+                  "key": "B",
+                  "text": "Children may reject a language they feel is not valued."
+                },
+                {
+                  "key": "C",
+                  "text": "Bilingual children always start speaking later than other children."
+                },
+                {
+                  "key": "D",
+                  "text": "The advice to give up home languages is now seen as wrong."
+                },
+                {
+                  "key": "E",
+                  "text": "Adult bilinguals never mix their languages."
+                }
+              ],
+              "answer": [
+                "B",
+                "D"
+              ],
+              "answerNote": "in either order",
+              "accepted": [
+                "B",
+                "D"
+              ],
+              "evidence": "if they sense that one of their languages is not valued, they may start refusing to speak it\nThe old advice to abandon a home language is now regarded as mistaken",
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "stated",
+              "evidenceItems": [
+                {
+                  "key": "B",
+                  "evidence": "if they sense that one of their languages is not valued, they may start refusing to speak it",
+                  "evidenceIsQuote": true,
+                  "evidenceParagraph": "E",
+                  "evidenceParagraphSource": "stated"
+                },
+                {
+                  "key": "D",
+                  "evidence": "The old advice to abandon a home language is now regarded as mistaken",
+                  "evidenceIsQuote": true,
+                  "evidenceParagraph": "G",
+                  "evidenceParagraphSource": "stated"
+                }
+              ],
+              "explanation": "A is contradicted by \"others ... have failed to find them\" in Paragraph F. C is never stated. E is contradicted by \"Adult bilinguals mix languages too\" in Paragraph C."
+            }
+          ]
+        }
+      ],
+      "questionCount": 7
+    },
+    {
+      "id": "rb_tfng_01",
+      "bankSet": 1,
+      "questionType": "tfng",
+      "questionTypeName": "True / False / Not Given",
+      "questionTypeDetail": "True / False / Not Given",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Wildlife — the migration of the Arctic tern",
+      "title": "The Longest Journey",
+      "words": 599,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "The Arctic tern is a slender seabird, weighing little more than a hundred grams – roughly the weight of a small apple. Its grey and white feathers, black cap and bright red beak make it easy to recognise, but its appearance gives little hint of its most remarkable characteristic. Each year, the Arctic tern makes the longest migration known of any animal, travelling from its breeding grounds in the far north to the seas around Antarctica and back again."
+        },
+        {
+          "letter": "B",
+          "text": "Arctic terns breed during the northern summer in a wide area around the Arctic, including parts of northern Europe, Greenland, Canada and Alaska. They usually nest in colonies on the ground, often on small islands or coastal gravel, where they lay one to three eggs in a simple hollow. The adults defend their nests fiercely, diving at any intruder – including humans – and striking with their sharp beaks. Once the chicks can fly, the birds begin their journey south."
+        },
+        {
+          "letter": "C",
+          "text": "For many years, the full extent of this journey could only be estimated. Scientists knew that terns ringed in the north were later found in the south, but they had little information about the routes the birds took. This changed in the early twenty-first century, when researchers attached tiny tracking devices, weighing about as much as a paper clip, to terns nesting in Greenland and Iceland. The devices recorded the level of daylight, which allowed the birds' approximate position to be calculated each day."
+        },
+        {
+          "letter": "D",
+          "text": "The results were surprising. Rather than flying directly from north to south, the birds followed winding routes. Many flew south along the coast of western Europe and Africa, then some crossed the Atlantic to follow the coast of South America, while others continued along the African side. On their return journey, they travelled in a large S-shaped path across the Atlantic. These routes are much longer than the straight-line distance, but they allow the birds to take advantage of prevailing winds, which reduce the energy needed for flight. The tracked terns covered, on average, around 70,000 kilometres in a single year."
+        },
+        {
+          "letter": "E",
+          "text": "The journey is not made in a single effort. The terns stop for several weeks in areas of the North Atlantic where food is plentiful, feeding on small fish and other creatures near the surface of the sea. Here they build up the energy they need to continue. They also feed while travelling, catching fish by hovering briefly above the water and then diving in."
+        },
+        {
+          "letter": "F",
+          "text": "Because they spend the northern summer in the Arctic and then travel to Antarctic waters during the southern summer, Arctic terns experience two summers each year. As a result, they probably see more daylight than any other creature on Earth. Near the poles, the sun does not set at all for part of the summer, so for much of their lives the terns live in almost continuous light."
+        },
+        {
+          "letter": "G",
+          "text": "Arctic terns are also long-lived for a bird of their size. Individuals have been recorded reaching an age of more than thirty years. Over such a lifetime, a single tern may fly a total distance roughly equal to three return journeys from the Earth to the Moon."
+        },
+        {
+          "letter": "H",
+          "text": "Although the species is widespread, some populations have declined, and scientists are concerned about the effects of changes in the ocean on the fish the terns depend on. Because they breed in the north, feed in the Atlantic and spend part of the year in the far south, Arctic terns are affected by conditions across a large part of the planet – which also makes them useful indicators of the health of the world's oceans."
+        }
+      ],
+      "lesson": {
+        "title": "Numbers and dates",
+        "text": "In easy sets, many statements contain a number, a date or a distance. Find that figure or a close equivalent in the passage (70,000 may appear as seventy thousand, and half as 50%). Then check what the number refers to. A statement can use the right number for the wrong thing (FALSE), or add a detail about the number that the passage never gives (NOT GIVEN).",
+        "example": "Passage: \"The tower is 90 metres tall.\" Statement: \"The tower is 90 metres wide.\" → FALSE? No: the passage says nothing about width, so it is NOT GIVEN. It would be FALSE only if the passage gave a different width."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "tfng",
+          "title": "True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the reading passage? Write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "An Arctic tern weighs more than a kilogram.",
+              "answer": "FALSE",
+              "accepted": [
+                "FALSE"
+              ],
+              "evidence": "weighing little more than a hundred grams",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "stated",
+              "explanation": "A hundred grams is far less than a kilogram, so the passage contradicts the statement."
+            },
+            {
+              "number": 2,
+              "text": "Arctic terns usually return to the same nesting site every year.",
+              "answer": "NOT GIVEN",
+              "accepted": [
+                "NOT GIVEN"
+              ],
+              "evidence": "Paragraph B describes where terns nest (\"in colonies on the ground, often on small islands or coastal gravel\").",
+              "evidenceIsQuote": false,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The passage never says whether individual birds return to the same site each year, so the statement cannot be confirmed or contradicted."
+            },
+            {
+              "number": 3,
+              "text": "Adult terns may attack people who come close to their nests.",
+              "answer": "TRUE",
+              "accepted": [
+                "TRUE"
+              ],
+              "evidence": "diving at any intruder – including humans – and striking with their sharp beaks",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Striking ... intruders including humans\" = \"may attack people\"."
+            },
+            {
+              "number": 4,
+              "text": "Before the tracking study, scientists had no evidence that Arctic terns travelled south.",
+              "answer": "FALSE",
+              "accepted": [
+                "FALSE"
+              ],
+              "evidence": "Scientists knew that terns ringed in the north were later found in the south",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "stated",
+              "explanation": "Scientists already had evidence from ringed birds before the tracking study. What they lacked was information about the routes."
+            },
+            {
+              "number": 5,
+              "text": "The terns' routes between north and south were longer than a direct flight would be.",
+              "answer": "TRUE",
+              "accepted": [
+                "TRUE"
+              ],
+              "evidence": "These routes are much longer than the straight-line distance",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Straight-line distance\" = \"direct flight\"."
+            },
+            {
+              "number": 6,
+              "text": "Terns rest for several weeks in the North Atlantic where there is plenty of food.",
+              "answer": "TRUE",
+              "accepted": [
+                "TRUE"
+              ],
+              "evidence": "The terns stop for several weeks in areas of the North Atlantic where food is plentiful",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Stop\" = \"rest\", and \"plentiful\" = \"plenty of food\"."
+            },
+            {
+              "number": 7,
+              "text": "Arctic terns sleep while flying over the ocean.",
+              "answer": "NOT GIVEN",
+              "accepted": [
+                "NOT GIVEN"
+              ],
+              "evidence": "Paragraph E describes feeding while travelling, but the passage never mentions sleep.",
+              "evidenceIsQuote": false,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "stated",
+              "explanation": "Nothing confirms or contradicts the statement."
+            },
+            {
+              "number": 8,
+              "text": "Arctic tern populations have declined in every region where they breed.",
+              "answer": "FALSE",
+              "accepted": [
+                "FALSE"
+              ],
+              "evidence": "Although the species is widespread, some populations have declined",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "H",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Some\" contradicts \"every region\". This is a qualifier trap. Note that it is FALSE, not NOT GIVEN, because \"some populations have declined\" means the decline is not universal."
+            }
+          ]
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": "rb_ynng_01",
+      "bankSet": 1,
+      "questionType": "ynng",
+      "questionTypeName": "Yes / No / Not Given",
+      "questionTypeDetail": "Yes / No / Not Given",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Urban environment — the case for street trees",
+      "title": "Why Our Streets Need Trees",
+      "words": 475,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "When city budgets are tight, trees are often among the first things to be cut – sometimes literally. Planting schemes are postponed, and mature trees that cause inconvenience are removed rather than maintained. I believe this is a serious mistake. Street trees are not a decorative luxury but one of the most cost-effective investments a city can make in the health and comfort of its residents."
+        },
+        {
+          "letter": "B",
+          "text": "The most obvious benefit is shade. On a hot summer day, the temperature of a paved street beneath a row of large trees can be many degrees lower than that of an exposed street nearby. As heatwaves become more frequent, this is not merely a matter of comfort. Extreme heat is dangerous, particularly for elderly people and young children, and it seems to me irresponsible to leave the streets of our cities without the natural protection that trees provide."
+        },
+        {
+          "letter": "C",
+          "text": "Trees also help to manage rainwater. Their leaves intercept rain and their roots help water soak into the ground, reducing the amount that rushes into drains during storms. They absorb some pollutants from the air, although I would not want to exaggerate this effect: trees cannot solve the problem of air pollution on their own, and reducing traffic emissions remains far more important."
+        },
+        {
+          "letter": "D",
+          "text": "There is also growing evidence that trees affect how people feel. Streets with trees are generally perceived as more attractive, and people are more likely to walk along them. Some studies have linked greener neighbourhoods with lower levels of stress. I find these findings persuasive, even if the reasons for them are not fully understood."
+        },
+        {
+          "letter": "E",
+          "text": "Opponents of street trees raise several objections, and some of them deserve to be taken seriously. Roots can damage pavements and underground pipes, falling leaves must be cleared, and branches occasionally fall in storms. But these problems usually result from poor planning rather than from trees themselves. Choosing species suited to the space available, giving roots enough soil and maintaining trees properly can prevent most of them. Removing a healthy tree because its leaves are untidy is, in my view, rather like demolishing a house because its windows need cleaning."
+        },
+        {
+          "letter": "F",
+          "text": "Another common objection is cost. Trees must be bought, planted, watered and pruned, and in the early years many die if they are neglected. Yet when their benefits – lower cooling costs, reduced flooding, improved health – are taken into account, well-planned tree schemes pay for themselves many times over. The real waste of money is planting trees and then failing to look after them."
+        },
+        {
+          "letter": "G",
+          "text": "Cities should therefore treat trees as essential infrastructure, just like roads, pipes and street lighting. That means long-term budgets for maintenance, careful choice of species, and particular attention to poorer neighbourhoods, which often have far fewer trees than wealthier ones. A city that plants wisely today will be cooler, healthier and more pleasant for decades to come."
+        }
+      ],
+      "lesson": {
+        "title": "Spotting the writer's position early",
+        "text": "In an argumentative passage, the writer's main position is usually clear in the first and last paragraphs. Middle paragraphs give reasons, deal with objections and offer qualifications. Write the writer's position in five words at the top of the passage, for example \"cities need more trees; plan carefully\". Many YES/NO answers follow directly from it, but check each qualification the writer adds.",
+        "example": "Opening: \"Cycling lanes are the best investment a city can make.\" Statement: \"The writer believes cycling lanes are a poor use of money.\" → NO."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "ynng",
+          "title": "Yes / No / Not Given",
+          "instruction": "Do the following statements agree with the claims of the writer in the reading passage? Write\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Street trees should be regarded as a decorative luxury.",
+              "answer": "NO",
+              "accepted": [
+                "NO"
+              ],
+              "evidence": "Street trees are not a decorative luxury but one of the most cost-effective investments",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "stated",
+              "explanation": "The writer explicitly rejects this view."
+            },
+            {
+              "number": 2,
+              "text": "It is irresponsible to leave city streets without tree shade during heatwaves.",
+              "answer": "YES",
+              "accepted": [
+                "YES"
+              ],
+              "evidence": "it seems to me irresponsible to leave the streets of our cities without the natural protection that trees provide",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"It seems to me\" marks the writer's own view, and it matches the statement."
+            },
+            {
+              "number": 3,
+              "text": "Trees are the most effective way of reducing air pollution.",
+              "answer": "NO",
+              "accepted": [
+                "NO"
+              ],
+              "evidence": "trees cannot solve the problem of air pollution on their own, and reducing traffic emissions remains far more important",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "stated",
+              "explanation": "The writer considers reducing emissions more important, which contradicts \"most effective\"."
+            },
+            {
+              "number": 4,
+              "text": "The link between trees and lower stress has been fully explained.",
+              "answer": "NO",
+              "accepted": [
+                "NO"
+              ],
+              "evidence": "even if the reasons for them are not fully understood",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "stated",
+              "explanation": "The writer states the opposite."
+            },
+            {
+              "number": 5,
+              "text": "Some objections to street trees are worth considering.",
+              "answer": "YES",
+              "accepted": [
+                "YES"
+              ],
+              "evidence": "some of them deserve to be taken seriously",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Deserve to be taken seriously\" = \"worth considering\"."
+            },
+            {
+              "number": 6,
+              "text": "Most problems caused by street trees are the result of poor planning.",
+              "answer": "YES",
+              "accepted": [
+                "YES"
+              ],
+              "evidence": "these problems usually result from poor planning rather than from trees themselves",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "stated",
+              "explanation": "\"Usually\" = \"most\"."
+            },
+            {
+              "number": 7,
+              "text": "Fruit trees are the most suitable species for city streets.",
+              "answer": "NOT GIVEN",
+              "accepted": [
+                "NOT GIVEN"
+              ],
+              "evidence": "The writer recommends \"species suited to the space available\" (Paragraph E) but never mentions fruit trees.",
+              "evidenceIsQuote": false,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "stated",
+              "explanation": "No view on this claim is expressed."
+            },
+            {
+              "number": 8,
+              "text": "Poorer neighbourhoods should receive particular attention in tree planting.",
+              "answer": "YES",
+              "accepted": [
+                "YES"
+              ],
+              "evidence": "particular attention to poorer neighbourhoods, which often have far fewer trees",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "G",
+              "evidenceParagraphSource": "stated",
+              "explanation": "This is a direct match."
+            }
+          ]
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": "rb_matching_info_01",
+      "bankSet": 1,
+      "questionType": "matching_info",
+      "questionTypeName": "Matching Information",
+      "questionTypeDetail": "Matching Information",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "History of technology — the development of the bicycle",
+      "title": "Two Wheels",
+      "words": 637,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "The bicycle is so familiar today that it is easy to forget how long it took to develop. The first machine that could reasonably be called a bicycle appeared in Germany in 1817. Invented by Karl Drais, it had two wheels in line and a steerable front wheel, but no pedals: riders sat on a seat and pushed themselves along with their feet. Known as the \"running machine\", it enjoyed a brief period of fashion among wealthy young men, who raced them along city streets and public paths. Complaints from pedestrians led some cities to ban the machines from pavements."
+        },
+        {
+          "letter": "B",
+          "text": "The next major step came in the 1860s, when pedals were attached directly to the front wheel of a similar two-wheeled machine, probably first in France. The new \"velocipede\" could now be ridden without the rider's feet touching the ground. However, the machines were made largely of wood with iron tyres, and on the rough roads of the time they gave such an uncomfortable ride that they earned the nickname \"boneshakers\"."
+        },
+        {
+          "letter": "C",
+          "text": "Because the pedals were fixed directly to the front wheel, each turn of the pedals moved the machine forward by exactly one turn of the wheel. To travel faster, designers made the front wheel larger. By the 1870s this had led to the \"high-wheeler\", often later called the \"penny-farthing\" after the difference in size between a large British coin and a small one. Some front wheels were as much as one and a half metres in diameter. The machines were fast and, on good roads, relatively comfortable, but they were also dangerous. Riders sat high above the ground, and if the front wheel struck an obstacle, they could be thrown forward over the handlebars."
+        },
+        {
+          "letter": "D",
+          "text": "The dangers of the high-wheeler meant that cycling remained largely the sport of athletic young men. The machine that changed this was the \"safety bicycle\", developed in England in the 1880s. One of the most successful early designs was produced in 1885 by John Kemp Starley. It had two wheels of similar size and a chain that connected the pedals to the rear wheel. Using gears of different sizes, the chain allowed a small wheel to turn quickly, so that the machine could be fast without being tall. Riders could now put their feet on the ground when they stopped."
+        },
+        {
+          "letter": "E",
+          "text": "Another important improvement came shortly afterwards. In 1888, a Scottish veterinary surgeon named John Boyd Dunlop developed an air-filled rubber tyre, reportedly to make his young son's tricycle more comfortable. Pneumatic tyres absorbed the shocks of uneven roads far better than solid ones, and they were quickly adopted by bicycle manufacturers. Within a few years, the basic design of the bicycle – two equal wheels, a chain drive and air-filled tyres – had taken the form it still has today."
+        },
+        {
+          "letter": "F",
+          "text": "The safety bicycle led to a cycling boom in the 1890s in Europe and North America. For the first time, large numbers of people could travel several kilometres quickly and cheaply without a horse. The bicycle was particularly significant for women, for whom it offered a new independence of movement. It also encouraged changes in women's clothing, as long, heavy skirts proved impractical for cycling. Some writers of the time argued that the bicycle had done more to promote women's freedom than almost anything else."
+        },
+        {
+          "letter": "G",
+          "text": "In the twentieth century, cars replaced bicycles as the main means of transport in many wealthy countries, although in others, and in some European cities, cycling remained common. In recent decades, concern about traffic, pollution and health has brought renewed interest. Many cities have built cycle lanes and introduced public bicycle-sharing schemes, while electric bicycles have made cycling practical for longer distances and hilly areas. More than two hundred years after the running machine, the bicycle is once again being promoted as a vehicle for the future."
+        }
+      ],
+      "lesson": {
+        "title": "Use names, dates and numbers first",
+        "text": "In an easy Matching Information set, several questions contain or imply a specific detail: a date, an inventor, a number, or a distinctive object. Answer those first, because they are fastest to find. Then use the paragraphs you have not yet used to help locate the harder items. Remember that one paragraph can contain two answers.",
+        "example": "Question: \"the name of a person who improved the design\". Scan for capital letters (names) and read the sentence around each one."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching",
+          "title": "Matching Information",
+          "instruction": "The reading passage has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G.\nNB You may use any letter more than once.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "reusable": true,
+          "questions": [
+            {
+              "number": 1,
+              "text": "an explanation of why front wheels became larger",
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "evidence": "each turn of the pedals moved the machine forward by exactly one turn of the wheel. To travel faster, designers made the front wheel larger.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This is the explanation (cause → effect). Note that C is used twice in this set."
+            },
+            {
+              "number": 2,
+              "text": "a reference to restrictions on where early machines could be ridden",
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "evidence": "Complaints from pedestrians led some cities to ban the machines from pavements.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Ban from pavements\" = \"restrictions on where machines could be ridden\"."
+            },
+            {
+              "number": 3,
+              "text": "the reason why one type of machine received an unflattering nickname",
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "evidence": "they gave such an uncomfortable ride that they earned the nickname 'boneshakers'.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The uncomfortable ride is the reason for the name. Paragraph C also mentions a nickname (\"penny-farthing\"), but it gives a different reason (coin sizes), and that name is not unflattering."
+            },
+            {
+              "number": 4,
+              "text": "a description of how a chain made it possible to build a lower, fast machine",
+              "answer": "D",
+              "accepted": [
+                "D"
+              ],
+              "evidence": "the chain allowed a small wheel to turn quickly, so that the machine could be fast without being tall.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Without being tall\" = \"lower\"."
+            },
+            {
+              "number": 5,
+              "text": "a mention of the effect of cycling on what people wore",
+              "answer": "F",
+              "accepted": [
+                "F"
+              ],
+              "evidence": "It also encouraged changes in women's clothing.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "F",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Clothing\" = \"what people wore\"."
+            },
+            {
+              "number": 6,
+              "text": "a claim about why a new type of tyre was first invented",
+              "answer": "E",
+              "accepted": [
+                "E"
+              ],
+              "evidence": "reportedly to make his young son's tricycle more comfortable.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Reportedly\" matches \"a claim\"."
+            },
+            {
+              "number": 7,
+              "text": "a reference to machines that use electrical power",
+              "answer": "G",
+              "accepted": [
+                "G"
+              ],
+              "evidence": "electric bicycles have made cycling practical for longer distances.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "G",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Electric\" = \"electrical power\"."
+            },
+            {
+              "number": 8,
+              "text": "a description of a risk faced by riders of one type of machine",
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "evidence": "if the front wheel struck an obstacle, they could be thrown forward over the handlebars.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This describes the risk of riding a high-wheeler."
+            }
+          ]
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": "rb_headings_01",
+      "bankSet": 1,
+      "questionType": "headings",
+      "questionTypeName": "Matching Headings",
+      "questionTypeDetail": "Matching Headings",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "History of everyday objects — the umbrella",
+      "title": "Under Cover",
+      "words": 506,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "The umbrella is one of the oldest portable devices still in everyday use. Images of shades held over important people appear in the art of ancient Egypt, Assyria and China, dating back several thousand years. In these early societies, umbrellas were used mainly to provide protection from the sun rather than the rain, and they were often symbols of high rank. Only kings, nobles and religious leaders were entitled to have a servant hold a shade above them."
+        },
+        {
+          "letter": "B",
+          "text": "The Chinese are usually credited with developing umbrellas that could protect against rain. Early Chinese umbrellas were made of silk or paper, and some were treated with wax or oil so that they would repel water. There is evidence that folding umbrellas, which could be opened and closed with a mechanism of ribs and a sliding collar, were being used in China many centuries ago. From China, the umbrella spread to Korea, Japan and other parts of Asia."
+        },
+        {
+          "letter": "C",
+          "text": "In Europe, umbrellas were rarely seen for many centuries, and when they reappeared, they were associated mainly with women. Sunshades became fashionable accessories among wealthy women in France and Italy in the seventeenth and eighteenth centuries. A man carrying an umbrella, however, was widely regarded as weak or unmanly. It was assumed that a gentleman would travel by carriage, and that only someone too poor to afford one would need to protect himself from the rain."
+        },
+        {
+          "letter": "D",
+          "text": "This attitude began to change in the second half of the eighteenth century, largely thanks to one man. Jonas Hanway, a London merchant and traveller, carried an umbrella in public for around thirty years, despite being mocked in the streets. Carriage drivers, who feared that umbrellas would reduce demand for their services, were said to have shouted insults at him. Gradually, however, other men followed his example, and by the end of the century the umbrella had become an acceptable item for men in Britain. For some time, umbrellas were even nicknamed \"Hanways\"."
+        },
+        {
+          "letter": "E",
+          "text": "Early European umbrellas were heavy and awkward. Their frames were made of wood or whalebone, and when wet, the covering of oiled cotton or silk became heavy and difficult to dry. A major improvement came in 1852, when an English manufacturer, Samuel Fox, designed an umbrella with a frame of steel ribs. Steel was lighter and stronger than earlier materials, and Fox's design became the basis for most umbrellas produced afterwards. In the twentieth century, compact folding umbrellas and waterproof synthetic fabrics made umbrellas smaller, cheaper and more convenient."
+        },
+        {
+          "letter": "F",
+          "text": "Today, around the world, hundreds of millions of umbrellas are sold every year, and in some cities it is possible to borrow one from a public sharing scheme on a rainy day. Yet the basic design has changed surprisingly little. Engineers have experimented with umbrellas that resist strong winds, umbrellas without central poles and even devices that blow a shield of air above the user's head, but none of these has replaced the traditional form. The umbrella remains a simple solution that works well enough to have survived for thousands of years."
+        }
+      ],
+      "lesson": {
+        "title": "Use the first sentence",
+        "text": "In easy passages, the first sentence of each paragraph usually tells you the topic directly. Read it carefully, then skim the rest of the paragraph to confirm. If the rest of the paragraph develops the same idea, the first sentence is your main idea.",
+        "example": "\"The new bridge brought many benefits to the town. Journeys became shorter, trade increased, and...\" → main idea: benefits of the new bridge."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "heading",
+          "title": "Matching Headings",
+          "instruction": "The reading passage has six paragraphs, A–F.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i–viii.",
+          "headingsTitle": "List of Headings",
+          "headings": [
+            {
+              "key": "i",
+              "text": "The man who made umbrellas respectable"
+            },
+            {
+              "key": "ii",
+              "text": "A modern invention that replaced the umbrella"
+            },
+            {
+              "key": "iii",
+              "text": "An ancient symbol of status"
+            },
+            {
+              "key": "iv",
+              "text": "Improvements in materials and design"
+            },
+            {
+              "key": "v",
+              "text": "An enduring design despite new ideas"
+            },
+            {
+              "key": "vi",
+              "text": "Early rain protection in Asia"
+            },
+            {
+              "key": "vii",
+              "text": "The role of carriage drivers in umbrella sales"
+            },
+            {
+              "key": "viii",
+              "text": "An accessory considered unsuitable for men"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "Paragraph A",
+              "paragraph": "A",
+              "answer": "iii",
+              "accepted": [
+                "iii"
+              ],
+              "evidence": "they were often symbols of high rank. Only kings, nobles and religious leaders were entitled ...",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The paragraph's main point is that umbrellas were a status symbol."
+            },
+            {
+              "number": 2,
+              "text": "Paragraph B",
+              "paragraph": "B",
+              "answer": "vi",
+              "accepted": [
+                "vi"
+              ],
+              "evidence": "The Chinese are usually credited with developing umbrellas that could protect against rain.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The whole paragraph concerns early waterproof umbrellas in Asia."
+            },
+            {
+              "number": 3,
+              "text": "Paragraph C",
+              "paragraph": "C",
+              "answer": "viii",
+              "accepted": [
+                "viii"
+              ],
+              "evidence": "A man carrying an umbrella, however, was widely regarded as weak or unmanly.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The contrast word \"however\" introduces the main point about men. The first sentence introduces the European context."
+            },
+            {
+              "number": 4,
+              "text": "Paragraph D",
+              "paragraph": "D",
+              "answer": "i",
+              "accepted": [
+                "i"
+              ],
+              "evidence": "Jonas Hanway ... carried an umbrella in public for around thirty years ... by the end of the century the umbrella had become an acceptable item for men.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "Hanway made umbrellas acceptable. Heading vii is a detail trap: carriage drivers are mentioned only briefly, and the paragraph says nothing about their role in sales."
+            },
+            {
+              "number": 5,
+              "text": "Paragraph E",
+              "paragraph": "E",
+              "answer": "iv",
+              "accepted": [
+                "iv"
+              ],
+              "evidence": "A major improvement came in 1852 ... steel ribs ... compact folding umbrellas and waterproof synthetic fabrics.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The paragraph covers improvements in both materials and design."
+            },
+            {
+              "number": 6,
+              "text": "Paragraph F",
+              "paragraph": "F",
+              "answer": "v",
+              "accepted": [
+                "v"
+              ],
+              "evidence": "the basic design has changed surprisingly little ... none of these has replaced the traditional form.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "F",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This matches \"enduring design despite new ideas\". Heading ii contradicts the paragraph, since nothing has replaced the umbrella."
+            }
+          ],
+          "unusedOptions": [
+            "ii",
+            "vii"
+          ]
+        }
+      ],
+      "questionCount": 6
+    },
+    {
+      "id": "rb_matching_features_01",
+      "bankSet": 1,
+      "questionType": "matching_features",
+      "questionTypeName": "Matching Features",
+      "questionTypeDetail": "Matching Features",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Exploration history — the race to the ends of the Earth in Antarctica",
+      "title": "The Frozen Continent",
+      "words": 449,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Antarctica was the last continent to be discovered. For centuries, geographers had speculated that a great southern land must exist to balance the landmasses of the northern hemisphere, but no one had seen it. In 1820, an expedition led by the Russian naval officer Fabian von Bellingshausen became one of the first to sight the Antarctic ice shelf, although he himself did not describe it as a continent. Several other voyages in the same period reported land in the far south, and historians still debate who deserves credit for the first sighting."
+        },
+        {
+          "letter": "B",
+          "text": "The early twentieth century saw a series of attempts to reach the South Pole. The Norwegian explorer Roald Amundsen had originally planned to travel to the North Pole but changed his plans secretly after learning that others had claimed to reach it. Drawing on experience gained from Arctic peoples, he relied on sledges pulled by dogs and on clothing made from animal furs. His team reached the South Pole in December 1911 and returned safely."
+        },
+        {
+          "letter": "C",
+          "text": "The British naval officer Robert Falcon Scott led a rival expedition. Scott used a combination of motor sledges, ponies and dogs, but the motor sledges broke down and the ponies suffered badly in the cold, so that for much of the journey his men pulled their own sledges. Scott's team of five reached the Pole in January 1912, about five weeks after Amundsen, only to find the Norwegian flag already there. All five died on the return journey, overcome by cold, hunger and exhaustion. Scott's diaries, found with the bodies months later, made him a national hero in Britain."
+        },
+        {
+          "letter": "D",
+          "text": "The Irish-born explorer Ernest Shackleton had earlier come within about 180 kilometres of the Pole, turning back to save his men's lives. In 1914, he set out to cross the entire continent. His ship, the Endurance, became trapped in sea ice and was eventually crushed. For many months the crew lived on the ice, then sailed in small boats to a remote island. Shackleton and a few companions then made an extraordinary voyage of more than 1,000 kilometres across stormy seas in an open boat to seek help. Remarkably, every member of the expedition survived."
+        },
+        {
+          "letter": "E",
+          "text": "The Australian geologist Douglas Mawson led an expedition that focused on scientific research rather than on reaching the Pole. His team mapped long stretches of coastline and collected valuable scientific data. During a journey across the ice in 1912, both of Mawson's companions died – one fell into a deep crack in the ice together with most of the food – and Mawson struggled back alone for weeks, arriving at his base just after the relief ship had departed. He was forced to spend another winter in Antarctica."
+        }
+      ],
+      "lesson": {
+        "title": "One paragraph per person",
+        "text": "In easy sets, each person is usually described mainly in one paragraph. Locate each person's paragraph first, then match statements by reading that paragraph carefully. Watch for statements that paraphrase dates (\"a few weeks after the other team\"), and details such as survival vs death.",
+        "example": null
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "matching_features",
+          "title": "Matching Features",
+          "instruction": "Look at the following statements (Questions 1–7) and the list of explorers below.\nMatch each statement with the correct explorer, A–E.\nNB You may use any letter more than once.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fabian von Bellingshausen"
+            },
+            {
+              "key": "B",
+              "text": "Roald Amundsen"
+            },
+            {
+              "key": "C",
+              "text": "Robert Falcon Scott"
+            },
+            {
+              "key": "D",
+              "text": "Ernest Shackleton"
+            },
+            {
+              "key": "E",
+              "text": "Douglas Mawson"
+            }
+          ],
+          "optionsTitle": "List of Explorers",
+          "reusable": true,
+          "questions": [
+            {
+              "number": 1,
+              "text": "changed his destination without announcing it publicly",
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "evidence": "changed his plans secretly.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Secretly\" = \"without announcing it publicly\"."
+            },
+            {
+              "number": 2,
+              "text": "reached the Pole several weeks after a rival",
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "evidence": "reached the Pole in January 1912, about five weeks after Amundsen.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Five weeks\" = \"several weeks\"."
+            },
+            {
+              "number": 3,
+              "text": "led an expedition in which no one died, despite losing the ship",
+              "answer": "D",
+              "accepted": [
+                "D"
+              ],
+              "evidence": "His ship ... was eventually crushed ... every member of the expedition survived.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This is a direct match."
+            },
+            {
+              "number": 4,
+              "text": "gave priority to science rather than to reaching the Pole",
+              "answer": "E",
+              "accepted": [
+                "E"
+              ],
+              "evidence": "focused on scientific research rather than on reaching the Pole.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This is a direct match."
+            },
+            {
+              "number": 5,
+              "text": "did not identify what he saw as a continent",
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "evidence": "he himself did not describe it as a continent.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This is a direct match."
+            },
+            {
+              "number": 6,
+              "text": "learned methods from peoples living in cold northern regions",
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "evidence": "Drawing on experience gained from Arctic peoples.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "B is used twice."
+            },
+            {
+              "number": 7,
+              "text": "abandoned an earlier attempt to reach the Pole to protect his team",
+              "answer": "D",
+              "accepted": [
+                "D"
+              ],
+              "evidence": "had earlier come within about 180 kilometres of the Pole, turning back to save his men's lives.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "D is used twice."
+            }
+          ]
+        }
+      ],
+      "questionCount": 7
+    },
+    {
+      "id": "rb_sentence_endings_01",
+      "bankSet": 1,
+      "questionType": "sentence_endings",
+      "questionTypeName": "Matching Sentence Endings",
+      "questionTypeDetail": "Matching Sentence Endings",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "History of food technology — the invention of canned food",
+      "title": "Food in a Can",
+      "words": 429,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "For most of history, preserving food for long periods was difficult. People dried, salted, smoked or pickled food, but these methods changed its taste and texture and did not work for all foods. Armies and navies faced particular problems. Soldiers on long campaigns and sailors on long voyages often suffered from poor diets, and diseases caused by a lack of fresh food were common."
+        },
+        {
+          "letter": "B",
+          "text": "At the end of the eighteenth century, the French government, then at war with much of Europe, offered a large prize to anyone who could develop a better method of preserving food for its forces. The prize was eventually won by Nicolas Appert, a confectioner and chef from Paris. After years of experiments, Appert found that food sealed in glass bottles and then heated in boiling water would remain edible for months, or even years. In 1810, he published a book describing his method, and he was awarded the prize."
+        },
+        {
+          "letter": "C",
+          "text": "Appert did not know why his method worked. He believed that the key was to keep air away from the food. It was only about fifty years later that the French scientist Louis Pasteur showed that food spoils because of the growth of microorganisms, and that heating kills them. Appert's method succeeded because heating destroyed these microorganisms and sealing prevented new ones from entering."
+        },
+        {
+          "letter": "D",
+          "text": "Glass bottles had disadvantages: they were heavy and easily broken. In the same year that Appert published his book, a patent was granted in Britain for preserving food in containers made of tin-plated iron. Tin cans were stronger and lighter than glass, making them more suitable for transport. By the 1820s, British factories were producing canned food for the navy and for explorers travelling to remote regions."
+        },
+        {
+          "letter": "E",
+          "text": "Early cans were extremely heavy and difficult to open. Instructions sometimes advised users to open them with a chisel and hammer, and soldiers used knives or bayonets. Surprisingly, a dedicated can opener was not invented until around fifty years after cans came into use, when thinner metal made cans easier to open. Early openers were awkward to use, and the design familiar today, with a rotating wheel that cuts around the rim, appeared later still."
+        },
+        {
+          "letter": "F",
+          "text": "At first, canned food was expensive and used mainly by armies, navies and explorers. During the second half of the nineteenth century, machines were developed that could make cans much more quickly and cheaply, and canned food became available to ordinary households. It allowed people in cities to eat fruit, vegetables, meat and fish that had been produced far away and in different seasons, changing diets in many countries."
+        }
+      ],
+      "lesson": {
+        "title": "Predict before you look",
+        "text": "In easy sets, each beginning points clearly to one sentence in the passage. Find that sentence and predict the ending in your own words, for example \"...because the army needed food that would last\". Then find the ending that expresses your prediction. This prevents you from being attracted by endings that simply repeat passage vocabulary.",
+        "example": null
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "sentence_endings",
+          "title": "Matching Sentence Endings",
+          "instruction": "Complete each sentence with the correct ending, A–H, below.\nWrite the correct letter, A–H.",
+          "endingsTitle": "List of Endings",
+          "endings": [
+            {
+              "key": "A",
+              "text": "tiny living organisms multiply in it."
+            },
+            {
+              "key": "B",
+              "text": "it wanted a better way to supply its armed forces with food."
+            },
+            {
+              "key": "C",
+              "text": "manufacturing became faster and less costly."
+            },
+            {
+              "key": "D",
+              "text": "they were less heavy and less likely to break."
+            },
+            {
+              "key": "E",
+              "text": "it had been sealed in glass."
+            },
+            {
+              "key": "F",
+              "text": "he believed that air had been kept out."
+            },
+            {
+              "key": "G",
+              "text": "explorers needed food for long journeys."
+            },
+            {
+              "key": "H",
+              "text": "the can opener had been invented."
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "text": "The French government offered a prize because",
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "evidence": "offered a large prize to anyone who could develop a better method of preserving food for its forces.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Forces\" = \"armed forces\"."
+            },
+            {
+              "number": 2,
+              "text": "Appert thought that his method worked because",
+              "answer": "F",
+              "accepted": [
+                "F"
+              ],
+              "evidence": "He believed that the key was to keep air away from the food.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This is Appert's own belief. A is Pasteur's explanation, which makes A a trap for this beginning."
+            },
+            {
+              "number": 3,
+              "text": "Pasteur later explained that food goes bad because",
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "evidence": "food spoils because of the growth of microorganisms.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Microorganisms\" = \"tiny living organisms\", and \"growth\" = \"multiply\"."
+            },
+            {
+              "number": 4,
+              "text": "Tin cans were more practical than glass bottles because",
+              "answer": "D",
+              "accepted": [
+                "D"
+              ],
+              "evidence": "Tin cans were stronger and lighter than glass.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Lighter\" = \"less heavy\", and \"stronger\" = \"less likely to break\"."
+            },
+            {
+              "number": 5,
+              "text": "Canned food became available to ordinary people because",
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "evidence": "machines were developed that could make cans much more quickly and cheaply.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "F",
+              "evidenceParagraphSource": "derived",
+              "explanation": "H is a trap: the can opener is mentioned, but it is not the reason canned food reached ordinary households."
+            }
+          ],
+          "unusedOptions": [
+            "E",
+            "G",
+            "H"
+          ]
+        }
+      ],
+      "questionCount": 5
+    },
+    {
+      "id": "rb_sentence_completion_01",
+      "bankSet": 1,
+      "questionType": "sentence_completion",
+      "questionTypeName": "Sentence Completion",
+      "questionTypeDetail": "Sentence Completion",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Food production — making maple syrup",
+      "title": "From Tree to Table",
+      "words": 475,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Maple syrup is produced almost entirely in north-eastern North America, where the sugar maple tree grows in large numbers. The Canadian province of Quebec alone produces around seventy per cent of the world's supply. Long before European settlers arrived, Indigenous peoples of the region collected the sweet liquid, or sap, from maple trees and boiled it to produce sugar, and they taught early settlers the technique."
+        },
+        {
+          "letter": "B",
+          "text": "Sap is collected in late winter and early spring. At this time of year, the trees respond to a particular pattern of weather: nights when temperatures fall below freezing, followed by days when they rise above it. During the cold nights, the tree draws water up from its roots; during the warmer days, pressure inside the tree increases and pushes the sap out through any opening in the bark. Without these alternating conditions, the sap does not flow well. The collecting season typically lasts only four to six weeks."
+        },
+        {
+          "letter": "C",
+          "text": "To collect sap, producers drill a small hole in the trunk of each tree and insert a spout, known as a tap. Traditionally, a metal bucket was hung below the tap to catch the dripping sap. Today, many large producers instead connect thousands of trees with networks of plastic tubing, which carry the sap directly to a central building called a sugar house. Some systems use pumps to create a vacuum in the tubes, which increases the amount of sap collected. A healthy tree can be tapped every year for many decades without being harmed, provided that the holes are not too large or too numerous."
+        },
+        {
+          "letter": "D",
+          "text": "Fresh sap is clear and watery and contains only about two to three per cent sugar. To turn it into syrup, most of the water must be removed. This is done by boiling the sap in a large, shallow pan called an evaporator, heated by wood, oil or gas. As the water evaporates, the sap becomes thicker and sweeter, and it develops its characteristic colour and flavour. On average, about forty litres of sap are needed to make just one litre of syrup, which explains why maple syrup is relatively expensive."
+        },
+        {
+          "letter": "E",
+          "text": "Many modern producers first pass the sap through a machine that uses reverse osmosis – forcing the liquid through a fine membrane – to remove a large proportion of the water before boiling. This greatly reduces the amount of fuel and time required. The final stage of boiling, however, is still necessary to develop the syrup's flavour."
+        },
+        {
+          "letter": "F",
+          "text": "Maple syrup is graded according to its colour and taste. Syrup produced early in the season tends to be lighter in colour and more delicate in flavour, while syrup produced later is darker and has a stronger taste. Scientists are concerned that warmer winters may affect the industry in future, since the freezing nights on which sap flow depends are becoming less reliable in some areas."
+        }
+      ],
+      "lesson": {
+        "title": "Predict the word type",
+        "text": "Before looking at the passage, decide what kind of word fills each gap. \"is collected in early...\" needs a time word such as a season or month. \"takes about ... litres of sap\" needs a number. Knowing the word type helps you ignore nearby words of the wrong kind.",
+        "example": null
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "gap",
+          "title": "Sentence Completion",
+          "instruction": "Complete the sentences below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Most of the world's maple syrup comes from the province of ______ .",
+              "answer": "Quebec",
+              "accepted": [
+                "Quebec"
+              ],
+              "evidence": "The Canadian province of Quebec alone produces around seventy per cent of the world's supply.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Seventy per cent\" = \"most\". The answer is one word."
+            },
+            {
+              "number": 2,
+              "text": "European settlers learned how to make maple sugar from ______ .",
+              "answer": "Indigenous peoples",
+              "accepted": [
+                "Indigenous peoples"
+              ],
+              "evidence": "Indigenous peoples of the region ... taught early settlers the technique.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This is two words. \"Indigenous peoples of the region\" would exceed the limit."
+            },
+            {
+              "number": 3,
+              "text": "Sap flows well when freezing nights are followed by warmer ______ .",
+              "answer": "days",
+              "accepted": [
+                "days"
+              ],
+              "evidence": "nights when temperatures fall below freezing, followed by days when they rise above it.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The gap needs a plural noun after \"warmer\"."
+            },
+            {
+              "number": 4,
+              "text": "In modern systems, sap travels through ______ to a central building.",
+              "answer": "plastic tubing",
+              "accepted": [
+                "plastic tubing"
+              ],
+              "evidence": "networks of plastic tubing, which carry the sap directly to a central building.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Networks of plastic tubing\" is four words, so it is too long."
+            },
+            {
+              "number": 5,
+              "text": "Fresh sap contains only a small percentage of ______ .",
+              "answer": "sugar",
+              "accepted": [
+                "sugar"
+              ],
+              "evidence": "contains only about two to three per cent sugar.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This matches \"small percentage\"."
+            },
+            {
+              "number": 6,
+              "text": "Roughly ______ of sap are required to produce one litre of syrup.",
+              "answer": "forty litres",
+              "answerDisplay": "forty litres / 40 litres",
+              "accepted": [
+                "forty litres",
+                "40 litres"
+              ],
+              "evidence": "about forty litres of sap are needed to make just one litre of syrup.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Roughly\" = \"about\". Do not include \"about\", because it is already in the sentence as \"Roughly\"."
+            },
+            {
+              "number": 7,
+              "text": "Syrup made later in the season is darker and has a stronger ______ .",
+              "answer": "taste",
+              "accepted": [
+                "taste"
+              ],
+              "evidence": "syrup produced later is darker and has a stronger taste.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "F",
+              "evidenceParagraphSource": "derived",
+              "explanation": "Do not write \"flavour\": the passage uses \"flavour\" for early syrup (\"more delicate in flavour\") and \"taste\" for later syrup."
+            }
+          ]
+        }
+      ],
+      "questionCount": 7
+    },
+    {
+      "id": "rb_summary_completion_01",
+      "bankSet": 1,
+      "questionType": "summary_completion",
+      "questionTypeName": "Summary Completion",
+      "questionTypeDetail": "Summary Completion (with word bank)",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Animal history — how cats became domestic",
+      "title": "The Cat That Walked In",
+      "words": 419,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Unlike dogs, which were domesticated from wolves by hunter-gatherers, cats appear to have joined human communities much later and largely on their own terms. All domestic cats are descended from a wild species, the African wildcat, which still lives across North Africa and the Middle East. Genetic studies of modern cats and of ancient remains have helped scientists trace how and when this wild animal became a household companion."
+        },
+        {
+          "letter": "B",
+          "text": "The process probably began around ten thousand years ago in the region of the Middle East where farming first developed. When people began to grow and store grain, their stores attracted mice and rats. These, in turn, attracted wildcats, which found a reliable supply of prey around human settlements. People probably tolerated or welcomed the cats because they helped protect food supplies. Over many generations, the cats that were least fearful of humans would have had the greatest success in these new surroundings."
+        },
+        {
+          "letter": "C",
+          "text": "The earliest evidence of a close relationship between people and cats comes from the island of Cyprus, where archaeologists discovered a grave around 9,500 years old containing a human skeleton buried alongside a cat. Because wildcats are not native to Cyprus, the cat, or its ancestors, must have been brought to the island by boat, suggesting that people valued cats enough to transport them."
+        },
+        {
+          "letter": "D",
+          "text": "Cats achieved their greatest status in ancient Egypt. Egyptians kept cats as pets, associated them with a goddess, and in some periods mummified enormous numbers of them. Killing a cat could be severely punished. Egyptian paintings show cats sitting under chairs, wearing collars and accompanying people on hunting trips."
+        },
+        {
+          "letter": "E",
+          "text": "A large genetic study published in 2017 suggested that cats spread in two main waves. The first occurred with the spread of farming from the Middle East into Europe. The second, several thousand years later, involved cats from Egypt, which spread widely across Europe, Africa and Asia, probably carried on trading ships, where they would have been useful for controlling rats. The same study found that cats changed relatively little in appearance during most of their history with humans; the tabby pattern, for example, became common only in the Middle Ages."
+        },
+        {
+          "letter": "F",
+          "text": "In fact, domestic cats remain surprisingly similar to their wild ancestors. Many can survive independently if necessary, and domestic and wild cats can still breed together. Some researchers describe cats as only \"semi-domesticated\". Unlike dogs, which were bred intensively for particular tasks, cats were rarely bred selectively until the nineteenth century, when cat shows became popular and people began to develop distinct breeds."
+        }
+      ],
+      "lesson": {
+        "title": "Eliminate by grammar first",
+        "text": "With a word bank, first check each gap's grammar: noun, adjective, verb or plural. Mark which options could fit grammatically. Then choose by meaning among those candidates. This makes the task faster and reduces mistakes.",
+        "example": null
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "summary",
+          "title": "How cats joined human society",
+          "instruction": "Complete the summary using the list of words, A–J, below.",
+          "wordLimit": null,
+          "options": [
+            {
+              "key": "A",
+              "text": "respected"
+            },
+            {
+              "key": "B",
+              "text": "protect"
+            },
+            {
+              "key": "C",
+              "text": "selectively"
+            },
+            {
+              "key": "D",
+              "text": "rodents"
+            },
+            {
+              "key": "E",
+              "text": "occur"
+            },
+            {
+              "key": "F",
+              "text": "rapidly"
+            },
+            {
+              "key": "G",
+              "text": "farmers"
+            },
+            {
+              "key": "H",
+              "text": "feared"
+            },
+            {
+              "key": "I",
+              "text": "damage"
+            },
+            {
+              "key": "J",
+              "text": "trading"
+            }
+          ],
+          "text": "Cats probably first lived close to humans about ten thousand years ago, when the storage of grain by early farmers attracted (1) ______ . Wildcats followed this source of food, and people accepted them because they helped to (2) ______ stored crops. The oldest evidence of a close bond comes from a burial in Cyprus, and since wildcats did not (3) ______ on the island, people must have transported them there. Later, cats were highly (4) ______ in Egypt. Genetic research indicates that Egyptian cats spread widely, probably carried on (5) ______ ships. Cats were not bred (6) ______ until the nineteenth century.",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "D",
+              "accepted": [
+                "D"
+              ],
+              "evidence": "their stores attracted mice and rats.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Mice and rats\" = \"rodents\". G (farmers) is grammatically possible, but farmers stored the grain rather than being attracted to it."
+            },
+            {
+              "number": 2,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "evidence": "they helped protect food supplies.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "After \"helped to\", the gap needs a verb. I (damage) is the opposite."
+            },
+            {
+              "number": 3,
+              "answer": "E",
+              "accepted": [
+                "E"
+              ],
+              "evidence": "wildcats are not native to Cyprus.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Not native\" = \"did not occur\"."
+            },
+            {
+              "number": 4,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "evidence": "Cats achieved their greatest status in ancient Egypt.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "H (feared) is not supported."
+            },
+            {
+              "number": 5,
+              "answer": "J",
+              "accepted": [
+                "J"
+              ],
+              "evidence": "probably carried on trading ships.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The gap needs an adjective before \"ships\". F (rapidly) is an adverb and does not fit."
+            },
+            {
+              "number": 6,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "evidence": "cats were rarely bred selectively until the nineteenth century.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "F",
+              "evidenceParagraphSource": "derived",
+              "explanation": "F (rapidly) is grammatically possible but not supported."
+            }
+          ],
+          "unusedOptions": [
+            "F",
+            "G",
+            "H",
+            "I"
+          ]
+        }
+      ],
+      "questionCount": 6
+    },
+    {
+      "id": "rb_note_completion_01",
+      "bankSet": 1,
+      "questionType": "note_completion",
+      "questionTypeName": "Note Completion",
+      "questionTypeDetail": "Note Completion",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Food history — the pineapple in Europe",
+      "title": "The Royal Fruit",
+      "words": 422,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "The pineapple is native to South America, where it was probably first cultivated in the region of present-day Brazil and Paraguay. By the time Europeans arrived in the Americas, it was grown widely across the Caribbean. Christopher Columbus and his crew encountered the fruit on the island of Guadeloupe in 1493 and were struck by its sweetness, which was rare in a world where sugar was still expensive."
+        },
+        {
+          "letter": "B",
+          "text": "Carrying pineapples back to Europe proved difficult. The voyage across the Atlantic took several weeks, and most fruits rotted long before they arrived. Only a few survived in good condition, and those that did were extremely valuable. As a result, the pineapple quickly became a symbol of wealth and luxury. Kings and nobles were painted holding pineapples, and the fruit appeared as a decoration on buildings, gateposts and furniture."
+        },
+        {
+          "letter": "C",
+          "text": "Because importing pineapples was so unreliable, wealthy Europeans tried to grow them at home. This was a considerable challenge in a cold climate. The first success in Europe is usually credited to growers in the Netherlands in the late seventeenth century. Gardeners built special heated greenhouses, known as \"pineries\", and placed the plants in pits filled with rotting tree bark, which produced heat as it decayed. A single fruit could take up to four years to grow, and a gardener had to keep the temperature steady throughout the winter."
+        },
+        {
+          "letter": "D",
+          "text": "The cost of producing a pineapple in this way was enormous. In eighteenth-century Britain, a single home-grown fruit could cost as much as a new carriage. Some people did not eat their pineapples at all. Instead, they displayed them at dinner parties as a centrepiece, and the same fruit might be passed from one party to another until it began to rot. Businesses even rented out pineapples by the evening to people who wanted to impress their guests but could not afford to buy one."
+        },
+        {
+          "letter": "E",
+          "text": "In the nineteenth century, the situation changed. Faster steamships made it possible to transport fresh fruit across the ocean, and large plantations were established in places such as the Azores and, later, Hawaii. The invention of canning allowed pineapples to be preserved and sold far from where they were grown. By the early twentieth century, canned pineapple had become an ordinary food in many countries."
+        },
+        {
+          "letter": "F",
+          "text": "Today, pineapples are grown in many tropical countries, with Costa Rica among the largest producers. Once a fruit for kings, the pineapple is now one of the most widely eaten tropical fruits in the world, although it remains a popular decorative symbol of welcome and hospitality."
+        }
+      ],
+      "lesson": {
+        "title": "Match each heading to a paragraph",
+        "text": "In an easy set, each group of notes usually comes from one paragraph. Before you look for any answer, read the headings and write the matching paragraph letter next to each one (\"Origins\" → A, \"A luxury item\" → B). Then search only that paragraph for the gaps under the heading.",
+        "example": "Heading: \"Growing pineapples in Europe\". Look for the paragraph that describes greenhouses and gardeners, not the one about ships or prices."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "notes",
+          "title": "The pineapple in Europe",
+          "instruction": "Complete the notes below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "lines": [
+            {
+              "text": "Origins",
+              "level": 0
+            },
+            {
+              "text": "first grown in South America, probably in present-day Brazil and (1) ______",
+              "level": 1
+            },
+            {
+              "text": "Columbus found it on Guadeloupe; impressed by its (2) ______",
+              "level": 1
+            },
+            {
+              "text": "A luxury item",
+              "level": 0
+            },
+            {
+              "text": "most fruits (3) ______ during the Atlantic crossing",
+              "level": 1
+            },
+            {
+              "text": "shown in portraits; used as decoration on buildings, gateposts and (4) ______",
+              "level": 1
+            },
+            {
+              "text": "Growing pineapples in Europe",
+              "level": 0
+            },
+            {
+              "text": "heated greenhouses called (5) ______",
+              "level": 1
+            },
+            {
+              "text": "heat also produced by rotting (6) ______ in pits",
+              "level": 1
+            },
+            {
+              "text": "one fruit could need up to (7) ______ to grow",
+              "level": 1
+            },
+            {
+              "text": "Changes in the nineteenth century",
+              "level": 0
+            },
+            {
+              "text": "transport improved by faster (8) ______",
+              "level": 1
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "answer": "Paraguay",
+              "accepted": [
+                "Paraguay"
+              ],
+              "evidence": "probably first cultivated in the region of present-day Brazil and Paraguay.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Brazil and\" is already in the notes."
+            },
+            {
+              "number": 2,
+              "answer": "sweetness",
+              "accepted": [
+                "sweetness"
+              ],
+              "evidence": "were struck by its sweetness.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "A",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Struck by\" = \"impressed by\"."
+            },
+            {
+              "number": 3,
+              "answer": "rotted",
+              "accepted": [
+                "rotted"
+              ],
+              "evidence": "most fruits rotted long before they arrived.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The gap needs a past-tense verb after \"most fruits\"."
+            },
+            {
+              "number": 4,
+              "answer": "furniture",
+              "accepted": [
+                "furniture"
+              ],
+              "evidence": "the fruit appeared as a decoration on buildings, gateposts and furniture.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Buildings, gateposts and\" is already in the notes."
+            },
+            {
+              "number": 5,
+              "answer": "pineries",
+              "accepted": [
+                "pineries"
+              ],
+              "evidence": "special heated greenhouses, known as 'pineries'.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Known as\" = \"called\"."
+            },
+            {
+              "number": 6,
+              "answer": "tree bark",
+              "accepted": [
+                "tree bark",
+                "bark"
+              ],
+              "evidence": "pits filled with rotting tree bark, which produced heat as it decayed.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Bark\" alone is also acceptable."
+            },
+            {
+              "number": 7,
+              "answer": "four years",
+              "answerDisplay": "four years / 4 years",
+              "accepted": [
+                "four years",
+                "4 years"
+              ],
+              "evidence": "A single fruit could take up to four years to grow.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Up to\" is already in the notes. The late seventeenth century is a date, not a length of time."
+            },
+            {
+              "number": 8,
+              "answer": "steamships",
+              "accepted": [
+                "steamships"
+              ],
+              "evidence": "Faster steamships made it possible to transport fresh fruit.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Faster\" is already in the notes. \"Canning\" is a different nineteenth-century change: preservation, not transport."
+            }
+          ]
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": "rb_table_completion_01",
+      "bankSet": 1,
+      "questionType": "table_completion",
+      "questionTypeName": "Table Completion",
+      "questionTypeDetail": "Table Completion",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "History of writing — early writing surfaces",
+      "title": "Surfaces for Writing",
+      "words": 496,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Before printing, and long before screens, the material on which people wrote shaped how texts were produced, stored and shared. Over thousands of years, several writing surfaces were developed, each suited to the resources and needs of the societies that used them."
+        },
+        {
+          "letter": "B",
+          "text": "Papyrus was first made in Egypt around 3000 BC from the papyrus plant, a tall reed that grew along the River Nile. The stems were cut into thin strips, laid in two layers at right angles and pressed together; the plant's own sap helped bind them. The sheets were joined end to end to form long rolls. Papyrus was light and relatively cheap to produce in Egypt, and it was exported across the Mediterranean. However, it became brittle and cracked when folded, and it decayed quickly in damp climates, which is why most surviving examples come from the dry sands of Egypt."
+        },
+        {
+          "letter": "C",
+          "text": "Parchment was made from animal skin, usually that of sheep, goats or calves. The skin was soaked, scraped clean and stretched on a frame to dry. According to an ancient story, it was developed in the city of Pergamon, in what is now Turkey, when supplies of papyrus were cut off; the word \"parchment\" comes from the city's name, although animal skins had been used for writing earlier. Parchment was very durable and could be written on both sides, and it could be folded into pages, which encouraged the use of the book, or codex, in place of the roll. Its main disadvantage was cost: a single large book could require the skins of hundreds of animals."
+        },
+        {
+          "letter": "D",
+          "text": "Wax tablets were used widely in ancient Greece and Rome for everyday writing. A wooden board was hollowed out and filled with a layer of beeswax, and the writer scratched letters into the wax with a pointed tool called a stylus. The flat end of the stylus could be used to smooth the wax, so that the tablet could be used again and again. Tablets were ideal for school exercises, notes and accounts, but they were unsuitable for permanent records, because the writing could easily be erased or melted."
+        },
+        {
+          "letter": "E",
+          "text": "Paper was invented in China. Official records credit its development to Cai Lun, a court official, in AD 105, although simpler forms existed earlier. It was made by breaking down plant fibres, such as tree bark, hemp and old rags, in water, spreading the mixture on a screen and letting it dry into a thin sheet. The technique spread slowly westwards, reaching the Islamic world in the eighth century and Europe several centuries later. Paper was much cheaper than parchment and could be produced in large quantities, which made it essential to the spread of printing in the fifteenth century."
+        },
+        {
+          "letter": "F",
+          "text": "Each of these materials survives in some form today. Parchment is still used for a few legal and ceremonial documents, papyrus is produced for tourists in Egypt, and paper, despite predictions of a \"paperless office\", remains one of the most widely used materials in the world."
+        }
+      ],
+      "lesson": {
+        "title": "Work row by row",
+        "text": "In an easy table, each row usually comes from one paragraph. Find the paragraph that describes the item in the row heading, then look for the details asked for by each column. Finish one row before you move to the next, and the answers will follow the order of the passage.",
+        "example": "Row \"Parchment\", column \"Made from\". Go to the paragraph about parchment and look for the material: animal skin."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "table",
+          "title": "Early writing surfaces",
+          "instruction": "Complete the table below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+          "columns": [
+            "Material",
+            "Made from",
+            "Main advantage(s)",
+            "Main drawback"
+          ],
+          "rows": [
+            [
+              "Papyrus",
+              "strips of a reed that grew beside the (1) ______",
+              "light; cheap to produce",
+              "cracked when folded; decayed in (2) ______ climates"
+            ],
+            [
+              "Parchment",
+              "skins of sheep, goats or (3) ______",
+              "durable; could be folded into (4) ______",
+              "high cost"
+            ],
+            [
+              "Wax tablets",
+              "wooden board filled with (5) ______",
+              "could be reused many times",
+              "writing easily erased or (6) ______"
+            ],
+            [
+              "Paper",
+              "plant fibres, e.g. bark, hemp and old (7) ______",
+              "cheap; produced in large (8) ______",
+              "—"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "answer": "River Nile",
+              "answerDisplay": "River Nile / Nile",
+              "accepted": [
+                "River Nile",
+                "Nile"
+              ],
+              "evidence": "a tall reed that grew along the River Nile.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Along\" = \"beside\"."
+            },
+            {
+              "number": 2,
+              "answer": "damp",
+              "accepted": [
+                "damp"
+              ],
+              "evidence": "it decayed quickly in damp climates.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This is the drawback column. \"Dry\" describes where papyrus survives, the opposite."
+            },
+            {
+              "number": 3,
+              "answer": "calves",
+              "accepted": [
+                "calves"
+              ],
+              "evidence": "Parchment was made from animal skin, usually that of sheep, goats or calves.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Sheep, goats or\" is already in the cell."
+            },
+            {
+              "number": 4,
+              "answer": "pages",
+              "accepted": [
+                "pages"
+              ],
+              "evidence": "it could be folded into pages.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "This is the advantage column. \"High cost\" is already given as the drawback."
+            },
+            {
+              "number": 5,
+              "answer": "beeswax",
+              "accepted": [
+                "beeswax"
+              ],
+              "evidence": "A wooden board was hollowed out and filled with a layer of beeswax.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Stylus\" is the writing tool, not what filled the board."
+            },
+            {
+              "number": 6,
+              "answer": "melted",
+              "accepted": [
+                "melted"
+              ],
+              "evidence": "the writing could easily be erased or melted.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Erased or\" is already in the cell."
+            },
+            {
+              "number": 7,
+              "answer": "rags",
+              "accepted": [
+                "rags"
+              ],
+              "evidence": "plant fibres, such as tree bark, hemp and old rags.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Old\" is already in the cell."
+            },
+            {
+              "number": 8,
+              "answer": "quantities",
+              "accepted": [
+                "quantities"
+              ],
+              "evidence": "could be produced in large quantities.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Large\" is already in the cell."
+            }
+          ]
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": "rb_flowchart_completion_01",
+      "bankSet": 1,
+      "questionType": "flowchart_completion",
+      "questionTypeName": "Flow-chart Completion",
+      "questionTypeDetail": "Flow-chart Completion",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Industry and environment — how paper is recycled",
+      "title": "Second Life for Paper",
+      "words": 339,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Paper is one of the most widely recycled materials in the world. In many European countries, more than seventy per cent of used paper is collected for recycling. Recycling reduces the number of trees that must be cut down and uses considerably less energy and water than making paper from new wood fibres."
+        },
+        {
+          "letter": "B",
+          "text": "The process begins with collection. Used paper is gathered from homes, offices and businesses, either mixed with other recyclable materials or kept separate. At a sorting facility, it is separated into grades, such as newspaper, cardboard and office paper, because each grade contains fibres of a different quality and is suited to different products."
+        },
+        {
+          "letter": "C",
+          "text": "The sorted paper is then taken to a paper mill, where it is placed in a large vat called a pulper. There it is mixed with water and stirred vigorously until the fibres separate and form a thick, porridge-like mixture known as pulp. Screens remove unwanted items such as staples, plastic and glue."
+        },
+        {
+          "letter": "D",
+          "text": "Next, the ink must be removed. In a process called de-inking, air is blown into the pulp together with soap-like chemicals. The ink particles stick to the air bubbles, rise to the surface and form a foam, which is skimmed off. For some products, such as brown cardboard, de-inking is unnecessary. If white paper is required, the pulp may also be bleached."
+        },
+        {
+          "letter": "E",
+          "text": "The cleaned pulp is then sprayed onto a moving mesh screen. As water drains away, the fibres bond together into a continuous sheet. The sheet passes between heavy rollers that squeeze out more water, and then over heated cylinders that dry it. Finally, the paper is wound into enormous rolls, which are cut to size for use."
+        },
+        {
+          "letter": "F",
+          "text": "Paper cannot be recycled indefinitely. Each time it is processed, its fibres become shorter and weaker, and after about five to seven cycles they are too short to bond together. New fibres from wood must therefore be added to maintain quality. Paper that has been contaminated with food or grease, such as used pizza boxes, is often unsuitable for recycling."
+        }
+      ],
+      "lesson": {
+        "title": "Follow the sequence words",
+        "text": "In an easy flow-chart, the passage describes the process step by step, using sequence words such as begins, then, next and finally. Each box normally matches one or two sentences, in the same order. Find the sequence word that starts each stage, and look for the answer within that stage before moving on.",
+        "example": "Passage: \"Next, the ink must be removed.\" Box: \"de-inking: ink ... removed\". This box matches the stage introduced by \"Next\"."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "flowchart",
+          "title": "Recycling paper",
+          "instruction": "Complete the flow-chart below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": "NO MORE THAN TWO WORDS",
+          "steps": [
+            "used paper collected from homes, offices and businesses",
+            "sorted into (1) ______ (e.g. newspaper, cardboard)",
+            "mixed with water in a (2) ______ → fibres separate into pulp",
+            "(3) ______ remove staples, plastic and glue",
+            "de-inking: ink sticks to air (4) ______ → foam skimmed off",
+            "pulp may be (5) ______ if white paper is needed",
+            "pulp sprayed onto a moving (6) ______ → sheet forms",
+            "rollers squeeze out water; heated (7) ______ dry the sheet",
+            "paper wound into large rolls"
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "answer": "grades",
+              "accepted": [
+                "grades"
+              ],
+              "evidence": "it is separated into grades, such as newspaper, cardboard and office paper.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Such as\" = \"e.g.\"."
+            },
+            {
+              "number": 2,
+              "answer": "pulper",
+              "accepted": [
+                "pulper"
+              ],
+              "evidence": "it is placed in a large vat called a pulper.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Pulp\" is the result, which is already in the box."
+            },
+            {
+              "number": 3,
+              "answer": "screens",
+              "accepted": [
+                "screens"
+              ],
+              "evidence": "Screens remove unwanted items such as staples, plastic and glue.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The gap needs a plural noun before \"remove\"."
+            },
+            {
+              "number": 4,
+              "answer": "bubbles",
+              "accepted": [
+                "bubbles"
+              ],
+              "evidence": "The ink particles stick to the air bubbles, rise to the surface and form a foam.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Air\" is already in the box."
+            },
+            {
+              "number": 5,
+              "answer": "bleached",
+              "accepted": [
+                "bleached"
+              ],
+              "evidence": "If white paper is required, the pulp may also be bleached.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Required\" = \"needed\"."
+            },
+            {
+              "number": 6,
+              "answer": "mesh screen",
+              "accepted": [
+                "mesh screen"
+              ],
+              "evidence": "The cleaned pulp is then sprayed onto a moving mesh screen.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Moving\" is already in the box."
+            },
+            {
+              "number": 7,
+              "answer": "cylinders",
+              "accepted": [
+                "cylinders"
+              ],
+              "evidence": "then over heated cylinders that dry it.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Rollers\" squeeze out water; they are a different part of the stage."
+            }
+          ]
+        }
+      ],
+      "questionCount": 7
+    },
+    {
+      "id": "rb_diagram_label_01",
+      "bankSet": 1,
+      "questionType": "diagram_label",
+      "questionTypeName": "Diagram Label Completion",
+      "questionTypeDetail": "Diagram Label Completion",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "Everyday technology — how a bicycle pump works",
+      "title": "Under Pressure",
+      "words": 296,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "The bicycle pump is one of the simplest machines in everyday use, yet it demonstrates a basic principle of physics: when a gas is squeezed into a smaller space, its pressure rises. A good pump allows a cyclist to inflate a tyre to several times the pressure of the surrounding air in less than a minute."
+        },
+        {
+          "letter": "B",
+          "text": "The main body of the pump is a long tube called the barrel, usually made of aluminium or strong plastic. At the top, the cyclist holds a handle, which is fixed to a metal rod running down the centre of the barrel. At the lower end of the rod is the piston, a disc that fits closely inside the barrel."
+        },
+        {
+          "letter": "C",
+          "text": "The piston is surrounded by a flexible washer made of rubber or leather. When the handle is pushed down, the washer presses firmly against the wall of the barrel, forming a seal, so that the air below the piston is squeezed. When the handle is pulled up, the washer bends slightly, allowing air to flow past it into the lower part of the barrel, ready for the next stroke."
+        },
+        {
+          "letter": "D",
+          "text": "At the bottom of the barrel is a one-way valve, which allows air to leave the pump but prevents it from flowing back in. From here, a flexible hose carries the air to the tyre. At the end of the hose, a nozzle is pressed onto the valve of the tyre and held in place with a small lever."
+        },
+        {
+          "letter": "E",
+          "text": "Larger pumps, designed to stand on the floor, often have a gauge, a small dial mounted near the base, which shows the pressure inside the tyre. This allows the cyclist to inflate the tyre to exactly the pressure recommended by the manufacturer, which is usually printed on the side of the tyre."
+        }
+      ],
+      "lesson": {
+        "title": "Use the given labels to find your place",
+        "text": "In an easy diagram, the passage describes the object part by part, and several labels are already given. These completed labels are anchors: find them in the passage first, and the missing parts will usually be described in the same or the next sentence. Position words, such as \"at the top\", \"around\" and \"at the end of\", tell you where each part belongs.",
+        "example": "Given label: \"handle\". Passage: \"The handle is fixed to a metal rod.\" Gap next to the handle: \"metal (1) ______\". Answer: rod."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "diagram",
+          "title": "A bicycle pump",
+          "instruction": "Label the diagram below.\nChoose ONE WORD ONLY from the passage for each answer.",
+          "wordLimit": "ONE WORD ONLY",
+          "caption": "bicycle pump (cross-section)",
+          "labels": [
+            {
+              "text": "handle",
+              "side": "left",
+              "order": 1
+            },
+            {
+              "text": "metal (1) ______ running down the centre",
+              "side": "left",
+              "order": 2
+            },
+            {
+              "text": "piston",
+              "side": "left",
+              "order": 3
+            },
+            {
+              "text": "(2) ______ of rubber or leather forms a seal",
+              "side": "left",
+              "order": 4
+            },
+            {
+              "text": "(3) ______: long outer tube",
+              "side": "right",
+              "order": 1
+            },
+            {
+              "text": "one-way (4) ______",
+              "side": "right",
+              "order": 2
+            },
+            {
+              "text": "flexible (5) ______ carries air to the tyre",
+              "side": "right",
+              "order": 3
+            },
+            {
+              "text": "(6) ______: dial showing tyre pressure",
+              "side": "right",
+              "order": 4
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "answer": "rod",
+              "accepted": [
+                "rod"
+              ],
+              "evidence": "a handle, which is fixed to a metal rod running down the centre of the barrel.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Metal\" and \"running down the centre\" are already in the label."
+            },
+            {
+              "number": 2,
+              "answer": "washer",
+              "accepted": [
+                "washer"
+              ],
+              "evidence": "The piston is surrounded by a flexible washer made of rubber or leather ... forming a seal.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The label is next to the given label \"piston\", which helps you find the right sentence."
+            },
+            {
+              "number": 3,
+              "answer": "barrel",
+              "accepted": [
+                "barrel"
+              ],
+              "evidence": "The main body of the pump is a long tube called the barrel.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Long outer tube\" describes the barrel; the answer is its name."
+            },
+            {
+              "number": 4,
+              "answer": "valve",
+              "accepted": [
+                "valve"
+              ],
+              "evidence": "At the bottom of the barrel is a one-way valve.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"One-way\" is already in the label. The \"valve of the tyre\" is a different part."
+            },
+            {
+              "number": 5,
+              "answer": "hose",
+              "accepted": [
+                "hose"
+              ],
+              "evidence": "a flexible hose carries the air to the tyre.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Nozzle\" is at the end of the hose, not the part that carries the air."
+            },
+            {
+              "number": 6,
+              "answer": "gauge",
+              "accepted": [
+                "gauge"
+              ],
+              "evidence": "a gauge, a small dial mounted near the base, which shows the pressure inside the tyre.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Dial\" is already in the label, so the answer is the name of the part."
+            }
+          ]
+        }
+      ],
+      "questionCount": 6
+    },
+    {
+      "id": "rb_short_answer_01",
+      "bankSet": 1,
+      "questionType": "short_answer",
+      "questionTypeName": "Short Answer",
+      "questionTypeDetail": "Short Answer",
+      "part": 1,
+      "difficulty": "easy",
+      "topic": "History of everyday objects — the zip fastener",
+      "title": "The Slow Success of the Zip",
+      "words": 336,
+      "paragraphs": [
+        {
+          "letter": "A",
+          "text": "Few inventions are used as often, or noticed as rarely, as the zip. It fastens clothes, bags, tents and sleeping bags all over the world, and billions are produced every year. Yet it took more than forty years, and the work of several inventors, before this simple device became a success."
+        },
+        {
+          "letter": "B",
+          "text": "The first version was designed by Whitcomb Judson, an American engineer, who presented it at the Chicago World's Fair in 1893. Judson called his invention a \"clasp locker\" and designed it to fasten high boots, which at the time had to be laced up by hand, a slow and tiresome job. The clasp locker, however, was unreliable: it often came open unexpectedly or became stuck, and few people bought it."
+        },
+        {
+          "letter": "C",
+          "text": "The problem was solved by Gideon Sundback, an engineer born in Sweden, who worked for Judson's company, the Universal Fastener Company. In 1913, he developed what he called the \"hookless fastener\". Instead of hooks, it used rows of small metal teeth, which he increased from four per inch to ten per inch, making the fastener far more secure. Sundback also designed a machine that could produce his fastener cheaply and in large quantities."
+        },
+        {
+          "letter": "D",
+          "text": "At first, the new fastener was used mainly for money belts and tobacco pouches. Its real breakthrough came in 1923, when the B.F. Goodrich Company used it on a new range of rubber boots. The company named the boots \"Zippers\", after the sound the fastener made when it was opened and closed, and the name soon came to be used for the fastener itself."
+        },
+        {
+          "letter": "E",
+          "text": "It was still some time before zips appeared widely on clothing. In the 1930s, they were promoted for children's clothes, because they allowed young children to dress themselves. Fashion designers in Paris then began to use them in men's trousers, and by the end of the decade the zip had largely replaced buttons in many types of garment. Today, the largest manufacturer is the Japanese company YKK, which produces around half of all the zips in the world."
+        }
+      ],
+      "lesson": {
+        "title": "Scanning for names and numbers",
+        "text": "In easy short-answer sets, most answers are names, places, dates and numbers, which are easy to spot because they begin with capital letters or are written as figures. Scan for these first, then read the surrounding sentence to check that it matches the question. Remember that there are usually several names and numbers in the passage, and only one fits each question.",
+        "example": "Question: \"In which city was the first store opened?\" Passage: \"Founded in Boston, the company opened its first store in Chicago.\" Answer: Chicago."
+      },
+      "groups": [
+        {
+          "id": "g1",
+          "type": "short_answer",
+          "title": "Short Answer",
+          "instruction": "Answer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+          "wordLimit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+          "questions": [
+            {
+              "number": 1,
+              "text": "At which event did Whitcomb Judson first show his invention?",
+              "answer": "Chicago World's Fair",
+              "answerDisplay": "(the) Chicago World's Fair",
+              "accepted": [
+                "Chicago World's Fair"
+              ],
+              "evidence": "who presented it at the Chicago World's Fair in 1893.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Show\" = \"presented\". The answer is three words, within the limit. The date 1893 is not an event."
+            },
+            {
+              "number": 2,
+              "text": "What type of footwear was the clasp locker designed for?",
+              "answer": "boots",
+              "answerDisplay": "(high) boots",
+              "accepted": [
+                "boots",
+                "high boots"
+              ],
+              "evidence": "designed it to fasten high boots.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "B",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The rubber boots of 1923 were a later product by B.F. Goodrich, not the purpose of the clasp locker."
+            },
+            {
+              "number": 3,
+              "text": "In which country was Gideon Sundback born?",
+              "answer": "Sweden",
+              "accepted": [
+                "Sweden"
+              ],
+              "evidence": "Gideon Sundback, an engineer born in Sweden.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "He worked for an American company, but he was born in Sweden."
+            },
+            {
+              "number": 4,
+              "text": "How many teeth per inch did Sundback's improved fastener have?",
+              "answer": "ten",
+              "answerDisplay": "ten / 10",
+              "accepted": [
+                "ten",
+                "10"
+              ],
+              "evidence": "which he increased from four per inch to ten per inch.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "C",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"Four\" was the number before his improvement."
+            },
+            {
+              "number": 5,
+              "text": "What gave the zipper its name?",
+              "answer": "sound",
+              "answerDisplay": "(the) sound",
+              "accepted": [
+                "sound",
+                "the sound"
+              ],
+              "evidence": "named the boots 'Zippers', after the sound the fastener made when it was opened and closed.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "D",
+              "evidenceParagraphSource": "derived",
+              "explanation": "The name came from the sound, not from the company or the boots."
+            },
+            {
+              "number": 6,
+              "text": "Which company makes about half of the world's zips today?",
+              "answer": "YKK",
+              "accepted": [
+                "YKK"
+              ],
+              "evidence": "the Japanese company YKK, which produces around half of all the zips in the world.",
+              "evidenceIsQuote": true,
+              "evidenceParagraph": "E",
+              "evidenceParagraphSource": "derived",
+              "explanation": "\"About\" = \"around\". B.F. Goodrich and the Universal Fastener Company are earlier companies."
+            }
+          ]
+        }
+      ],
+      "questionCount": 6
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "table": "writing_sample_answers",
+  "items": [
+    {
+      "promptId": "t2_remote_work",
+      "answers": [
+        {
+          "band": "Band 6",
+          "words": 262,
+          "paragraphs": [
+            [
+              {
+                "text": "Nowadays many people work from home instead of going to the office. "
+              },
+              {
+                "text": "I think",
+                "mark": "link"
+              },
+              {
+                "text": " this is good for workers and also for companies, but there are some problems too."
+              }
+            ],
+            [
+              {
+                "text": "Firstly,",
+                "mark": "link"
+              },
+              {
+                "text": " workers do not need to travel, so they save time and money. "
+              },
+              {
+                "text": "Also,",
+                "mark": "link"
+              },
+              {
+                "text": " companies can pay less for offices…"
+              }
+            ]
+          ],
+          "why": "Clear position · relevant main ideas · simple, sometimes repetitive linking · limited range of vocabulary and some grammar errors."
+        },
+        {
+          "band": "Band 7",
+          "words": 276,
+          "paragraphs": [
+            [
+              {
+                "text": "In recent years, working from home has become far more common. "
+              },
+              {
+                "text": "In my opinion,",
+                "mark": "link"
+              },
+              {
+                "text": " it brings real benefits to both employees and employers, although it has some disadvantages."
+              }
+            ],
+            [
+              {
+                "text": "Firstly,",
+                "mark": "link"
+              },
+              {
+                "text": " employees avoid long commutes, which gives them more time for rest. "
+              },
+              {
+                "text": "In addition,",
+                "mark": "link"
+              },
+              {
+                "text": " businesses can reduce the cost of renting office space…"
+              }
+            ]
+          ],
+          "why": "Clear position throughout · logical paragraphs with a range of linkers · good vocabulary with some less common words · mostly accurate complex sentences."
+        }
+      ],
+      "modelWhy": {
+        "task1": "Clear overview of the main trends · key features selected and compared with accurate figures · logical paragraphs with varied linking · precise, less common vocabulary for describing change.",
+        "task2": "Clear position from the first paragraph · each main idea developed with a relevant example · varied, natural linking · precise vocabulary and a wide range of accurate complex sentences."
+      }
+    }
+  ]
+}

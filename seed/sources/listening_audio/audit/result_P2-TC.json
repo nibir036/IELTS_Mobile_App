@@ -1,0 +1,166 @@
+{
+ "code": "P2-TC",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "Friday",
+   "audio_answer": "Friday",
+   "evidence": "[0:04]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "fireworks",
+   "audio_answer": "fireworks",
+   "evidence": "[0:04]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "Elm",
+   "audio_answer": "Elm",
+   "evidence": "[0:11]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "5 / five",
+   "audio_answer": "5 / five",
+   "evidence": "[0:18]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "bandstand",
+   "audio_answer": "bandstand",
+   "evidence": "[0:18]",
+   "note": "'band stand' by the river"
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "15",
+   "audio_answer": "15",
+   "evidence": "[0:25]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "chair",
+   "audio_answer": "chair",
+   "evidence": "[0:25]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "library",
+   "audio_answer": "library",
+   "evidence": "[0:31]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "advance",
+   "audio_answer": "advance",
+   "evidence": "[0:36]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "ok",
+   "key": "trophy",
+   "audio_answer": "trophy",
+   "evidence": "[0:44]",
+   "note": ""
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "station",
+   "audio_answer": "station",
+   "evidence": "[0:47]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "20 / twenty",
+   "audio_answer": "20 / twenty",
+   "evidence": "[0:47]",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "2 / two",
+   "audio_answer": "2 / two",
+   "evidence": "[0:53]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "children",
+   "audio_answer": "children",
+   "evidence": "[0:53]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "stadium",
+   "audio_answer": "stadium",
+   "evidence": "[0:55]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "10 / ten",
+   "audio_answer": "10 / ten",
+   "evidence": "[0:59]",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "ok",
+   "key": "bridge",
+   "audio_answer": "bridge",
+   "evidence": "[0:01]*",
+   "note": "transcript timestamps reset to [0:01] after 0:59 (~1:01 actual)"
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "information",
+   "audio_answer": "information",
+   "evidence": "[0:01]*",
+   "note": "~1:0x actual"
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "stage",
+   "audio_answer": "stage",
+   "evidence": "[0:01]*",
+   "note": "~1:0x actual"
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "green",
+   "audio_answer": "green",
+   "evidence": "[0:01]*",
+   "note": "yellow = security (distractor)"
+  }
+ ],
+ "summary": "20/20 ok; transcript timestamps after 0:59 wrap to [0:01] (transcription artefact)."
+}

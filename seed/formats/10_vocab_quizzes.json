@@ -1,0 +1,200 @@
+{
+  "_format": {
+    "name": "vocab_quizzes",
+    "group": "content",
+    "table": "vocab_quizzes",
+    "primaryKey": "id",
+    "description": "A 10-question vocabulary quiz round (choose the meaning).",
+    "currentSourceInApp": "resources.quizzes",
+    "fields": {
+      "id": "string",
+      "title": "string",
+      "level": "string",
+      "prompt": "string",
+      "questions": "array"
+    },
+    "required": [
+      "id",
+      "title",
+      "level",
+      "questions"
+    ],
+    "relations": [
+      "questions[].wordId → vocabulary_words.id (optional)"
+    ],
+    "notes": [
+      "questions[].answer = index into options."
+    ],
+    "recordCountToday": 5
+  },
+  "items": [
+    {
+      "id": "quiz_band6",
+      "title": "Vocabulary quiz · Band 6 words",
+      "level": "Band 6",
+      "prompt": "Choose the best meaning",
+      "questions": [
+        {
+          "id": "b6q1",
+          "word": "reliable",
+          "partOfSpeech": "adjective",
+          "phonetic": "/rɪˈlaɪ.ə.bəl/",
+          "options": [
+            "very old-fashioned",
+            "able to be trusted",
+            "hard to find",
+            "quite noisy"
+          ],
+          "answer": 1,
+          "example": "The train service is more reliable than it used to be.",
+          "meaningShort": "able to be trusted",
+          "wordId": "word_reliable"
+        },
+        {
+          "id": "b6q2",
+          "word": "decline",
+          "partOfSpeech": "verb",
+          "phonetic": "/dɪˈklaɪn/",
+          "options": [
+            "to grow quickly",
+            "to stay the same",
+            "to arrive late",
+            "to become less"
+          ],
+          "answer": 3,
+          "example": "Sales of printed newspapers continued to decline.",
+          "meaningShort": "become less",
+          "wordId": "word_decline"
+        },
+        {
+          "id": "b6q3",
+          "word": "essential",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ɪˈsen.ʃəl/",
+          "options": [
+            "completely necessary",
+            "slightly useful",
+            "rarely used",
+            "very cheap"
+          ],
+          "answer": 0,
+          "example": "Clean water is essential for good health.",
+          "meaningShort": "completely necessary",
+          "wordId": "word_essential"
+        },
+        {
+          "id": "b6q4",
+          "word": "benefit",
+          "partOfSpeech": "noun",
+          "phonetic": "/ˈben.ɪ.fɪt/",
+          "options": [
+            "a serious problem",
+            "a formal rule",
+            "a helpful advantage",
+            "a short delay"
+          ],
+          "answer": 2,
+          "example": "One benefit of cycling is that it costs nothing.",
+          "meaningShort": "a helpful advantage",
+          "wordId": "word_benefit"
+        },
+        {
+          "id": "b6q5",
+          "word": "rural",
+          "partOfSpeech": "adjective",
+          "phonetic": "/ˈrʊə.rəl/",
+          "options": [
+            "relating to the sea",
+            "very crowded",
+            "made by machines",
+            "relating to the countryside"
+          ],
+          "answer": 3,
+          "example": "Many young people leave rural areas to find work.",
+          "meaningShort": "relating to the countryside",
+          "wordId": "word_rural"
+        },
+        {
+          "id": "b6q6",
+          "word": "affordable",
+          "partOfSpeech": "adjective",
+          "phonetic": "/əˈfɔː.də.bəl/",
+          "options": [
+            "too heavy to carry",
+            "cheap enough to buy",
+            "impossible to repair",
+            "easy to break"
+          ],
+          "answer": 1,
+          "example": "The city needs more affordable housing.",
+          "meaningShort": "cheap enough to buy",
+          "wordId": "word_affordable"
+        },
+        {
+          "id": "b6q7",
+          "word": "improve",
+          "partOfSpeech": "verb",
+          "phonetic": "/ɪmˈpruːv/",
+          "options": [
+            "to throw away",
+            "to count again",
+            "to make better",
+            "to keep secret"
+          ],
+          "answer": 2,
+          "example": "Reading every day can improve your vocabulary.",
+          "meaningShort": "make better",
+          "wordId": "word_improve"
+        },
+        {
+          "id": "b6q8",
+          "word": "pollution",
+          "partOfSpeech": "noun",
+          "phonetic": "/pəˈluː.ʃən/",
+          "options": [
+            "damage to air, water or land",
+            "a type of weather",
+            "a kind of transport",
+            "a public holiday"
+          ],
+          "answer": 0,
+          "example": "Traffic is the main cause of air pollution in the city.",
+          "meaningShort": "damage to air, water or land",
+          "wordId": "word_pollution"
+        },
+        {
+          "id": "b6q9",
+          "word": "convenient",
+          "partOfSpeech": "adjective",
+          "phonetic": "/kənˈviː.ni.ənt/",
+          "options": [
+            "dangerous to use",
+            "easy and suitable",
+            "very expensive",
+            "hard to reach"
+          ],
+          "answer": 1,
+          "example": "Online banking is convenient for busy people.",
+          "meaningShort": "easy and suitable",
+          "wordId": "word_convenient"
+        },
+        {
+          "id": "b6q10",
+          "word": "encourage",
+          "partOfSpeech": "verb",
+          "phonetic": "/ɪnˈkʌr.ɪdʒ/",
+          "options": [
+            "to stop someone",
+            "to punish someone",
+            "to forget someone",
+            "to give someone confidence or support"
+          ],
+          "answer": 3,
+          "example": "Teachers should encourage students to ask questions.",
+          "meaningShort": "give someone confidence or support",
+          "wordId": "word_encourage"
+        }
+      ]
+    }
+  ]
+}

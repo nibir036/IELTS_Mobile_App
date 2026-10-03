@@ -1,0 +1,31 @@
+{
+  "_format": {
+    "name": "word_of_the_day",
+    "group": "content",
+    "table": "word_of_the_day",
+    "primaryKey": "date",
+    "description": "Which vocabulary word is shown on each day.",
+    "currentSourceInApp": "resources.hub.wordOfTheDay (single fixed word today)",
+    "fields": {
+      "date": "string",
+      "wordId": "string"
+    },
+    "required": [
+      "date",
+      "wordId"
+    ],
+    "relations": [
+      "wordId → vocabulary_words.id"
+    ],
+    "notes": [
+      "One row per day (Asia/Dhaka date)."
+    ],
+    "recordCountToday": 1
+  },
+  "items": [
+    {
+      "date": "2026-09-29",
+      "wordId": "word_ubiquitous"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+ "code": "P3-SC",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "urban",
+   "audio_answer": "urban",
+   "evidence": "[0:03]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "pesticides",
+   "audio_answer": "pesticides",
+   "evidence": "[0:14]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "private gardens / gardens",
+   "audio_answer": "gardens",
+   "evidence": "[0:25]",
+   "note": "Audio: 'parks with gardens, public green space against private' - 'gardens' (accepted) is what is heard."
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "diversity",
+   "audio_answer": "diversity",
+   "evidence": "[0:29]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "twelve-month",
+   "audio_answer": "12-month",
+   "evidence": "[0:38]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "ethics",
+   "audio_answer": "ethics",
+   "evidence": "[0:45]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "timed",
+   "audio_answer": "timed",
+   "evidence": "[0:54]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "beekeepers",
+   "audio_answer": "bee keepers",
+   "evidence": "[1:03]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "survey",
+   "audio_answer": "survey",
+   "evidence": "[1:08]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "ok",
+   "key": "conditions",
+   "audio_answer": "conditions",
+   "evidence": "[1:15]",
+   "note": ""
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "notebook",
+   "audio_answer": "notebook",
+   "evidence": "[1:24]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "grant",
+   "audio_answer": "grant",
+   "evidence": "[1:30]",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "conference",
+   "audio_answer": "conference",
+   "evidence": "[1:36]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "ten",
+   "audio_answer": "10",
+   "evidence": "[1:40]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "differs",
+   "key": "general",
+   "audio_answer": "broad",
+   "evidence": "[1:45] 'claims that are far too broad. Six sites in one city can't tell you about bees across the whole country.'",
+   "note": "Word spoken is 'broad'; 'general' never said. Accept 'broad' (and perhaps keep 'general')."
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "term",
+   "audio_answer": "term",
+   "evidence": "[1:55]",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "ok",
+   "key": "autumn",
+   "audio_answer": "autumn",
+   "evidence": "[2:01]",
+   "note": ""
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "camera",
+   "audio_answer": "camera",
+   "evidence": "[2:09]",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "statistical",
+   "audio_answer": "statistical",
+   "evidence": "[2:13]",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "forty",
+   "audio_answer": "40",
+   "evidence": "[2:18]",
+   "note": ""
+  }
+ ],
+ "summary": "19 ok; Q15 recording says 'broad', not 'general'."
+}

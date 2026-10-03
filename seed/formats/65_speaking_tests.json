@@ -1,0 +1,47 @@
+{
+  "_format": {
+    "name": "speaking_tests",
+    "group": "bank",
+    "table": "speaking_tests",
+    "primaryKey": "id",
+    "description": "Speaking Test 1-10 (website tests 11-20).",
+    "currentSourceInApp": "assets/content/tests_bank.json → speaking.tests",
+    "fields": {
+      "id": "string",
+      "number": "integer",
+      "title": "string",
+      "part1Id": "string",
+      "cueCardId": "string",
+      "part3Ids": "array",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 10
+  },
+  "items": [
+    {
+      "id": "st_01",
+      "number": 1,
+      "title": "Speaking Test 1",
+      "part1Id": "st_01_p1",
+      "cueCardId": "st_01_cc",
+      "part3Ids": [
+        "st_01_p3_1",
+        "st_01_p3_2"
+      ],
+      "data": {
+        "id": "st_01",
+        "number": 1,
+        "title": "Speaking Test 1",
+        "part1": "st_01_p1",
+        "cueCard": "st_01_cc",
+        "part3": [
+          "st_01_p3_1",
+          "st_01_p3_2"
+        ],
+        "description": "Part 1: Your home town, Older people, Free time. Part 2: Describe an older person you know and admire. Part 3: two-way discussion.",
+        "source": "website Speaking Test 11"
+      }
+    }
+  ]
+}

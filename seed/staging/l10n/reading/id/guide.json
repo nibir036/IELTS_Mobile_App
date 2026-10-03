@@ -1,0 +1,664 @@
+[
+ {
+  "id": "intro",
+  "title": "Cara memakai guide ini",
+  "blocks": [
+   [
+    "p",
+    "Guide ini ditulis untuk IELTS Academic Reading. Semua contoh — passage, question, option, dan jawaban — ditulis dalam bahasa Inggris, persis seperti yang akan Anda lihat saat tes."
+   ],
+   [
+    "p",
+    "Guide ini terdiri dari tiga bagian: pertama, cara kerja tes dan cara band dihitung; kedua, skill yang wajib Anda kuasai agar bisa bagus di Reading; terakhir, 14 question type satu per satu — masing-masing dengan strategi, trap, dan contoh yang sudah dikerjakan dari bank soal IELTS AI by nextED."
+   ],
+   [
+    "tip",
+    "Anda tidak perlu membaca semuanya sekaligus. Bacalah bab-bab sampai Time management dengan teliti satu kali; setelah itu, sebelum berlatih sebuah question type, baca saja lesson untuk type tersebut, lalu mulai satu set dari type itu di aplikasi."
+   ]
+  ]
+ },
+ {
+  "id": "overview",
+  "title": "IELTS Academic Reading secara singkat",
+  "blocks": [
+   [
+    "p",
+    "Di IELTS Academic Reading, Anda membaca 3 passage panjang dan menjawab 40 question dalam 60 menit. Setiap jawaban benar mendapat 1 nilai, dan tidak ada pengurangan nilai untuk jawaban salah."
+   ],
+   [
+    "table",
+    [
+     "Hal",
+     "Keterangan"
+    ],
+    [
+     [
+      "Passage",
+      "3 (Section 1, 2, 3); total sekitar 2.150–2.750 kata"
+     ],
+     [
+      "Question",
+      "40, biasanya 13–14 per passage"
+     ],
+     [
+      "Waktu",
+      "60 menit — tidak ada waktu tambahan untuk mengisi answer sheet"
+     ],
+     [
+      "Sumber",
+      "Buku, jurnal, majalah, koran — topik akademik yang ditulis untuk pembaca umum"
+     ],
+     [
+      "Tingkat kesulitan",
+      "Passage 1 biasanya paling mudah; Passage 3 paling sulit dan paling banyak berisi argumen"
+     ],
+     [
+      "Penilaian",
+      "Setiap jawaban benar = 1; tidak ada nilai minus"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "Perbedaan besar dengan Listening"
+   ],
+   [
+    "p",
+    "Di Listening (tes kertas), Anda mendapat waktu tambahan di akhir untuk memindahkan jawaban, tetapi Reading tidak punya waktu pemindahan jawaban. Di tes berbasis kertas, tulis jawaban Anda di answer sheet begitu Anda selesai mengerjakan setiap passage. Di tes berbasis komputer, Anda mengetik jawaban langsung di layar, jadi masalah ini tidak ada — tetapi tes langsung ditutup begitu 60 menit habis."
+   ],
+   [
+    "h",
+    "Seperti apa passage-nya"
+   ],
+   [
+    "ul",
+    [
+     "Topiknya biasanya sains, sejarah, lingkungan, psikologi, teknologi, pendidikan, atau bisnis — tetapi Anda tidak perlu pengetahuan khusus sebelumnya. Jawabannya selalu ada di dalam passage.",
+     "Paling tidak satu passage berisi argumen atau pendapat penulis — dari sinilah muncul question Yes / No / Not Given dan question tentang pandangan penulis (writer's view).",
+     "Beberapa passage berisi diagram, tabel, atau glosarium berisi kata-kata teknis."
+    ]
+   ],
+   [
+    "tip",
+    "Tes Reading lebih banyak menguji dua hal daripada pengetahuan bahasa Inggris Anda: seberapa cepat Anda bisa menemukan informasi (locating), dan apakah Anda bisa mengenali ide yang sama yang diungkapkan dengan kata-kata lain (paraphrase). Kedua skill ini makin bagus dengan latihan."
+   ]
+  ]
+ },
+ {
+  "id": "band",
+  "title": "Cara band score dihitung",
+  "blocks": [
+   [
+    "p",
+    "Jumlah jawaban benar Anda dari 40 soal (raw score) diubah menjadi band dengan tabel konversi. Tabel di bawah ini adalah tabel yang umum dipakai untuk Academic Reading; angkanya bisa bergeser 1–2 nilai tergantung tingkat kesulitan tes tertentu."
+   ],
+   [
+    "table",
+    [
+     "Jawaban benar (dari 40)",
+     "Band"
+    ],
+    [
+     [
+      "39–40",
+      "9.0"
+     ],
+     [
+      "37–38",
+      "8.5"
+     ],
+     [
+      "35–36",
+      "8.0"
+     ],
+     [
+      "33–34",
+      "7.5"
+     ],
+     [
+      "30–32",
+      "7.0"
+     ],
+     [
+      "27–29",
+      "6.5"
+     ],
+     [
+      "23–26",
+      "6.0"
+     ],
+     [
+      "19–22",
+      "5.5"
+     ],
+     [
+      "15–18",
+      "5.0"
+     ],
+     [
+      "13–14",
+      "4.5"
+     ],
+     [
+      "10–12",
+      "4.0"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "Menghitung mundur dari target Anda"
+   ],
+   [
+    "ul",
+    [
+     "Untuk Band 6.0: 23 dari 40 — Anda masih boleh salah sekitar 17 soal.",
+     "Untuk Band 6.5: 27 — rata-rata 9 jawaban benar per passage.",
+     "Untuk Band 7.0: 30 — rata-rata 10 jawaban benar per passage.",
+     "Untuk Band 8.0: 35 — hampir tidak ada ruang untuk salah."
+    ]
+   ],
+   [
+    "tip",
+    "Dengan target 6.5, Anda tidak perlu menjawab semua question dengan benar. Melewati satu question sulit yang sudah membuat Anda terjebak selama 4 menit, lalu menjawab 3 question yang lebih mudah, jauh lebih menguntungkan. Jangan pernah membiarkan question kosong — jawaban salah tidak mengurangi nilai, jadi di akhir tulis paling tidak sebuah tebakan."
+   ],
+   [
+    "p",
+    "Setiap full test dan mock test di IELTS AI by nextED memakai tabel ini untuk menunjukkan band Reading Anda."
+   ]
+  ]
+ },
+ {
+  "id": "rules",
+  "title": "Aturan menulis jawaban — tempat nilai mudah hilang",
+  "blocks": [
+   [
+    "p",
+    "Banyak siswa sudah menemukan jawaban yang benar, tetapi tetap kehilangan nilai karena tidak mengikuti aturan cara menulisnya. Hafalkan aturan-aturan ini."
+   ],
+   [
+    "h",
+    "1. Word limit"
+   ],
+   [
+    "p",
+    "Jika Anda menulis lebih banyak kata daripada yang diizinkan instruksi, jawaban dianggap salah — walaupun informasinya benar."
+   ],
+   [
+    "table",
+    [
+     "Instruksi",
+     "Artinya"
+    ],
+    [
+     [
+      "ONE WORD ONLY",
+      "tepat 1 kata"
+     ],
+     [
+      "NO MORE THAN TWO WORDS",
+      "1 atau 2 kata"
+     ],
+     [
+      "ONE WORD AND/OR A NUMBER",
+      "1 kata, atau 1 angka, atau 1 kata + 1 angka"
+     ],
+     [
+      "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+      "paling banyak 3 kata, ditambah 1 angka jika perlu"
+     ]
+    ]
+   ],
+   [
+    "ex",
+    "Passage: \"...grown along the banks of the River Nile.\"\nInstruction: ONE WORD ONLY → Answer: Nile  (\"River Nile\" = 2 words → wrong)"
+   ],
+   [
+    "h",
+    "2. Ejaan (spelling)"
+   ],
+   [
+    "p",
+    "Satu kesalahan ejaan membuat jawaban salah. Jawaban biasanya disalin persis dari passage, jadi salinlah ejaan yang dipakai di passage. Ejaan British maupun American (colour / color) sama-sama diterima."
+   ],
+   [
+    "h",
+    "3. Jaga agar grammar tetap benar"
+   ],
+   [
+    "p",
+    "Di question completion, kalimatnya harus benar secara grammar setelah kata Anda dimasukkan ke dalam titik-titik. Perhatikan bentuk tunggal dan jamak: jika passage menulis \"seeds\" dan titik-titiknya ada setelah \"several\", jawabannya harus \"seeds\" — \"seed\" salah."
+   ],
+   [
+    "h",
+    "4. Angka, tanda hubung, dan huruf kapital"
+   ],
+   [
+    "ul",
+    [
+     "Angka boleh ditulis dengan digit (25) — ini dihitung sebagai \"a number\" dalam word limit.",
+     "Kata yang memakai tanda hubung (well-known, 19th-century) dihitung sebagai satu kata.",
+     "Huruf besar atau kecil tidak berpengaruh; Anda boleh menulis seluruh jawaban dengan HURUF KAPITAL.",
+     "Jangan mengarang kata yang tidak ada di passage — jawaban completion harus diambil dari passage."
+    ]
+   ],
+   [
+    "h",
+    "5. TRUE / FALSE dan YES / NO"
+   ],
+   [
+    "p",
+    "Tulis persis apa yang diminta question. Menulis YES di question TRUE / FALSE / NOT GIVEN, atau sebaliknya, bisa dianggap salah. Menyingkat menjadi T / F / NG juga berisiko — tulis kata lengkapnya."
+   ],
+   [
+    "h",
+    "6. Huruf dan angka Romawi"
+   ],
+   [
+    "p",
+    "Di question matching, tulis huruf option (A, B, C…) atau nomor heading (i, ii, iii…) — bukan teks lengkapnya. Jika jawaban heading-nya \"iv\", jangan tulis \"4\"."
+   ],
+   [
+    "tip",
+    "Saat berlatih, tulis alasan di samping setiap jawaban yang salah: \"word limit\", \"spelling\", \"plural\", \"wrong paragraph\", dan sebagainya. Setelah dua minggu, Anda akan melihat bahwa sebagian besar kesalahan Anda berasal dari 2–3 penyebab tertentu — perbaiki itu saja dan band Anda akan naik."
+   ]
+  ]
+ },
+ {
+  "id": "skills",
+  "title": "Skill utama Reading",
+  "blocks": [
+   [
+    "p",
+    "Di IELTS Reading tidak ada waktu untuk membaca setiap kata di setiap passage. Pembaca yang baik membaca dengan cara yang berbeda untuk tujuan yang berbeda. Latih 5 skill di bawah ini secara terpisah."
+   ],
+   [
+    "h",
+    "Skill 1 — Skimming: menangkap gambaran besar"
+   ],
+   [
+    "p",
+    "Skimming berarti menyapu passage dengan cepat menggunakan mata untuk memahami topik utama dan strukturnya. Dalam 2–3 menit, Anda ingin tahu: passage ini tentang apa, dan apa isi setiap paragraph."
+   ],
+   [
+    "ol",
+    [
+     "Baca judul dan subjudul (jika ada).",
+     "Baca kalimat pertama setiap paragraph (topic sentence), dan kalimat terakhir jika perlu.",
+     "Tulis catatan 2–3 kata di samping setiap paragraph: \"history\", \"problem\", \"new research\".",
+     "Jangan berhenti di angka, nama, atau contoh dulu — itu untuk scanning nanti."
+    ]
+   ],
+   [
+    "h",
+    "Skill 2 — Scanning: mencari informasi tertentu"
+   ],
+   [
+    "p",
+    "Scanning berarti mencari satu kata, nama, tahun, atau angka tertentu tanpa membaca isi passage — seperti saat Anda mencari kata di kamus. Kata-kata di question yang tidak bisa di-paraphrase (nama diri, angka, tahun, istilah teknis) adalah kata terbaik untuk di-scan."
+   ],
+   [
+    "ex",
+    "Question: In which year did the first public library open in Manchester?\nScan for: Manchester, a year (18__), library"
+   ],
+   [
+    "h",
+    "Skill 3 — Mengenali keyword dan paraphrase"
+   ],
+   [
+    "p",
+    "Question IELTS hampir tidak pernah mengulang kata-kata passage secara persis. Question mengatakan hal yang sama dengan kata-kata lain — itulah paraphrase. Garis bawahi keyword di question, lalu pikirkan bagaimana passage mungkin mengungkapkannya."
+   ],
+   [
+    "table",
+    [
+     "Di question",
+     "Di passage mungkin tertulis"
+    ],
+    [
+     [
+      "increase",
+      "rise, grow, climb, go up, a surge in"
+     ],
+     [
+      "important",
+      "significant, crucial, essential, key, vital"
+     ],
+     [
+      "because of",
+      "due to, owing to, as a result of, caused by"
+     ],
+     [
+      "not enough",
+      "a shortage of, insufficient, a lack of, scarce"
+     ],
+     [
+      "old",
+      "ancient, elderly, aged, historic, early"
+     ],
+     [
+      "start",
+      "launch, initiate, set up, establish, introduce"
+     ],
+     [
+      "problem",
+      "issue, challenge, difficulty, drawback"
+     ],
+     [
+      "children",
+      "youngsters, kids, minors, the young"
+     ],
+     [
+      "cheap",
+      "inexpensive, low-cost, affordable"
+     ],
+     [
+      "most",
+      "the majority of, over half, seventy per cent"
+     ]
+    ]
+   ],
+   [
+    "p",
+    "IELTS tidak hanya mengganti kata satu per satu, tetapi juga seluruh struktur kalimat — dari active ke passive, dari noun ke verb, dari positif ke negatif."
+   ],
+   [
+    "ex",
+    "Passage: \"Few visitors came in winter because the road was often closed.\"\nQuestion: Winter access to the site was difficult.\n(road often closed → access difficult;  few visitors → consequence)"
+   ],
+   [
+    "h",
+    "Skill 4 — Membaca detail: memahami kalimat jawaban"
+   ],
+   [
+    "p",
+    "Begitu scanning sudah menemukan tempat yang tepat, pelan-pelan — baca bukan hanya kalimat yang berisi keyword, tetapi juga kalimat sebelum dan sesudahnya. Kata-kata kecil berikut bisa mengubah makna sepenuhnya, jadi perhatikan baik-baik:"
+   ],
+   [
+    "ul",
+    [
+     "Qualifier: some, most, all, only, often, rarely, never, usually",
+     "Kontras: however, but, although, yet, whereas, despite",
+     "Kepastian: may, might, could, is thought to, it is likely that, definitely",
+     "Waktu: initially, later, currently, no longer, until recently"
+    ]
+   ],
+   [
+    "ex",
+    "Passage: \"Most of the early settlers were farmers.\"\nStatement: All of the early settlers were farmers.  → FALSE  (most ≠ all)"
+   ],
+   [
+    "h",
+    "Skill 5 — Mengikuti pandangan dan argumen penulis"
+   ],
+   [
+    "p",
+    "Di Passage 3, penulis sering melaporkan pandangan orang lain, lalu memberikan pandangannya sendiri. Membedakan pandangan siapa yang mana sangat penting untuk Yes / No / Not Given dan multiple choice. \"Critics argue…\" dan \"It has been claimed…\" memperkenalkan pandangan orang lain; \"I would argue…\", \"In fact…\" dan \"this is misleading\" sering menunjukkan pandangan penulis sendiri."
+   ],
+   [
+    "tip",
+    "Cara paling efektif untuk menambah kosakata: setelah setiap set latihan, lihat setiap question dan evidence-nya berdampingan di layar solusi, lalu tulis paraphrase yang terlewat di buku catatan dengan format \"kata di question = kata di passage\"."
+   ]
+  ]
+ },
+ {
+  "id": "time",
+  "title": "Time management — rencana untuk 60 menit",
+  "blocks": [
+   [
+    "p",
+    "Waktu adalah musuh terbesar di Reading. Banyak siswa menghabiskan terlalu banyak waktu di Passage 1 dan 2, sehingga hanya tersisa 10 menit untuk Passage 3 — padahal Passage 3 juga bernilai 13–14 poin."
+   ],
+   [
+    "table",
+    [
+     "Passage",
+     "Waktu",
+     "Alasan"
+    ],
+    [
+     [
+      "Passage 1",
+      "17–18 menit",
+      "Paling mudah — hemat waktu di sini"
+     ],
+     [
+      "Passage 2",
+      "20 menit",
+      "Sedang"
+     ],
+     [
+      "Passage 3",
+      "22–23 menit",
+      "Paling sulit, banyak berisi argumen"
+     ]
+    ]
+   ],
+   [
+    "h",
+    "Cara mengerjakan satu passage"
+   ],
+   [
+    "ol",
+    [
+     "Pertama, lihat instruksi dan question type (30 detik).",
+     "Skim passage: judul dan kalimat pertama setiap paragraph (2–3 menit).",
+     "Garis bawahi keyword di question — terutama nama, angka, dan tahun.",
+     "Scan untuk satu question setiap kali; begitu tempatnya ketemu, baca detailnya.",
+     "Tulis jawabannya (di tes kertas, langsung di answer sheet)."
+    ]
+   ],
+   [
+    "h",
+    "Question mana yang dikerjakan lebih dulu"
+   ],
+   [
+    "ul",
+    [
+     "Untuk sebagian besar question type, jawabannya muncul sesuai urutan passage (T/F/NG, Y/N/NG, completion, short answer, MCQ). Jadi jawaban question 5 terletak di antara jawaban question 4 dan 6.",
+     "Type yang jawabannya tidak mengikuti urutan passage (Matching Information, Matching Features, Matching Headings) biasanya lebih mudah dikerjakan setelah question lain dari passage itu — saat itu Anda sudah mengenal passage-nya dengan baik.",
+     "Matching Headings biasanya muncul paling awal, dan mengerjakannya lebih dulu memperlihatkan struktur seluruh passage — karena itu banyak siswa memulai dari situ."
+    ]
+   ],
+   [
+    "h",
+    "Apa yang dilakukan saat terjebak"
+   ],
+   [
+    "p",
+    "Jika Anda sudah terjebak di satu question lebih dari 1,5–2 menit, tandai lalu lanjutkan. Kembali lagi di akhir jika masih ada waktu. Sampai saat itu, jangan biarkan kosong — tulis jawaban terbaik yang bisa Anda berikan."
+   ],
+   [
+    "tip",
+    "Selalu berlatih dengan timer. Setiap set di IELTS AI by nextED punya timer; tidak apa-apa jika Anda butuh waktu lebih lama di dua minggu pertama, tetapi mulai minggu ketiga, targetkan menyelesaikan satu passage dalam 20 menit."
+   ]
+  ]
+ },
+ {
+  "id": "types",
+  "title": "14 question type",
+  "blocks": [
+   [
+    "p",
+    "IELTS Academic Reading memakai 14 question type. Masing-masing menguji skill yang sedikit berbeda dan punya trap sendiri. Di aplikasi, setiap type punya lesson sendiri — apa yang diuji, formatnya, strategi langkah demi langkah, dan trap yang umum — serta 20 set latihan dengan pembahasan untuk setiap jawaban."
+   ],
+   [
+    "table",
+    [
+     "Question type",
+     "Jawaban sesuai urutan passage?",
+     "Skill utama"
+    ],
+    [
+     [
+      "Multiple Choice",
+      "Ya",
+      "Detail + paraphrase"
+     ],
+     [
+      "True / False / Not Given",
+      "Ya",
+      "Mencocokkan informasi"
+     ],
+     [
+      "Yes / No / Not Given",
+      "Ya",
+      "Pandangan penulis"
+     ],
+     [
+      "Matching Information",
+      "Tidak",
+      "Scanning"
+     ],
+     [
+      "Matching Headings",
+      "Ya (urutan paragraph)",
+      "Ide utama"
+     ],
+     [
+      "Matching Features",
+      "Tidak",
+      "Scanning + paraphrase"
+     ],
+     [
+      "Matching Sentence Endings",
+      "Ya",
+      "Grammar + makna"
+     ],
+     [
+      "Sentence Completion",
+      "Ya",
+      "Detail + word limit"
+     ],
+     [
+      "Summary Completion",
+      "Biasanya",
+      "Paraphrase + grammar"
+     ],
+     [
+      "Note Completion",
+      "Ya",
+      "Scanning"
+     ],
+     [
+      "Table Completion",
+      "Sering",
+      "Scanning"
+     ],
+     [
+      "Flow-chart Completion",
+      "Ya",
+      "Memahami sebuah proses"
+     ],
+     [
+      "Diagram Label Completion",
+      "Sering",
+      "Dari deskripsi ke gambar"
+     ],
+     [
+      "Short Answer",
+      "Ya",
+      "Scanning + word limit"
+     ]
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "mistakes",
+  "title": "Kesalahan yang paling merugikan",
+  "blocks": [
+   [
+    "ol",
+    [
+     "Memilih jawaban karena ada keyword yang sama. Jika sebuah option mengulang kata-kata passage secara persis, sering kali itu trap — jawaban yang benar biasanya sudah di-paraphrase.",
+     "Menjawab berdasarkan pengetahuan sendiri atau akal sehat. Hanya yang dikatakan passage yang dihitung; jika sesuatu benar di dunia nyata tetapi tidak ada di passage, jawabannya NOT GIVEN.",
+     "Tertukar antara FALSE dan NOT GIVEN. Jika passage mengatakan kebalikannya, jawabannya FALSE; jika passage tidak mengatakan apa-apa, jawabannya NOT GIVEN.",
+     "Melanggar word limit dan salah ejaan — kehilangan nilai padahal informasinya sudah ketemu.",
+     "Terjebak terlalu lama di satu question sehingga tidak ada waktu untuk passage terakhir.",
+     "Berencana memindahkan jawaban di akhir tes kertas — Reading tidak punya waktu pemindahan jawaban.",
+     "Mengabaikan qualifier (some, all, only, may) — satu kata kecil bisa mengubah TRUE menjadi FALSE.",
+     "Mulai membaca passage sebelum membaca daftar heading atau ending."
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "plan",
+  "title": "Rencana latihan 4 minggu",
+  "blocks": [
+   [
+    "p",
+    "Dengan 45–60 menit sehari, rencana ini mencakup semua question type Reading dan latihan full test dalam empat minggu. Bank soal IELTS AI by nextED punya set terpisah untuk setiap type (easy, medium, hard), dan setelah setiap set Anda bisa melihat evidence dan penjelasan untuk setiap jawaban."
+   ],
+   [
+    "table",
+    [
+     "Minggu",
+     "Tujuan",
+     "Yang dilakukan"
+    ],
+    [
+     [
+      "Minggu 1",
+      "Membangun dasar",
+      "Baca guide ini sampai bab Time management. Setiap hari, baca lesson untuk 2 question type dan kerjakan 1 easy set untuk masing-masing (tanpa timer). Catat alasan setiap kesalahan."
+     ],
+     [
+      "Minggu 2",
+      "Mengenal semua type",
+      "Selesaikan lesson dan easy set untuk type yang tersisa. Lalu kerjakan medium set untuk 4 type yang paling banyak salahnya. Mulai buku catatan paraphrase Anda."
+     ],
+     [
+      "Minggu 3",
+      "Berlatih melawan waktu",
+      "2 medium atau hard set sehari, masing-masing 20 menit. Di akhir minggu, 1 full Reading test (60 menit)."
+     ],
+     [
+      "Minggu 4",
+      "Berlatih seperti tes sungguhan",
+      "Full test atau mock test setiap dua hari sekali. Di hari-hari di antaranya, ulangi hard set dan baca lagi lesson untuk type yang salah di tes."
+     ]
+    ]
+   ],
+   [
+    "h",
+    "Setelah setiap set latihan"
+   ],
+   [
+    "ol",
+    [
+     "Buka solusi untuk setiap jawaban yang salah: lihat di mana evidence sentence-nya berada di passage.",
+     "Tanyakan pada diri sendiri jenis kesalahannya: tidak menemukan tempatnya / tidak menangkap paraphrase / masuk ke trap / word limit atau ejaan.",
+     "Tulis paraphrase baru di buku catatan Anda.",
+     "Di set berikutnya dari type yang sama, fokuslah agar tidak mengulang kesalahan itu."
+    ]
+   ],
+   [
+    "tip",
+    "Selama dua minggu pertama, lupakan band score dan fokus hanya pada ketepatan. Begitu Anda membaca dengan tepat, kecepatan akan datang dengan sendirinya; terburu-buru sejak awal justru membentuk kebiasaan buruk."
+   ]
+  ]
+ },
+ {
+  "id": "testday",
+  "title": "Tips di hari tes",
+  "blocks": [
+   [
+    "ul",
+    [
+     "Di awal tes, lihat jam dan tulis kapan setiap passage harus selesai (misalnya, jika mulai pukul 10:00: 10:18, 10:38, 11:00).",
+     "Baca instruksi setiap kelompok question — terutama word limit dan apakah ada kalimat \"You may use any letter more than once\".",
+     "Di tes kertas, tulis jawaban setiap passage di answer sheet begitu Anda selesai mengerjakannya; tulis dengan jelas menggunakan pensil.",
+     "Di tes komputer, pakai fitur highlight dan catatan pada passage; setelah mengetik jawaban, periksa lagi ejaannya.",
+     "Jangan biarkan ada question yang kosong. Di 2 menit terakhir, tulis paling tidak sebuah tebakan untuk question yang tersisa.",
+     "Jangan panik saat bertemu passage yang sulit — passage berikutnya mungkin lebih mudah, dan setiap question bernilai sama."
+    ]
+   ],
+   [
+    "tip",
+    "Ingat: jawabannya selalu ada di dalam passage. Tugas Anda hanya menemukannya dan memastikannya dengan evidence."
+   ]
+  ]
+ }
+]

@@ -1,0 +1,166 @@
+{
+ "code": "P2-FN",
+ "items": [
+  {
+   "n": 1,
+   "status": "ok",
+   "key": "7 / seven",
+   "audio_answer": "7 / seven",
+   "evidence": "[0:06]",
+   "note": ""
+  },
+  {
+   "n": 2,
+   "status": "ok",
+   "key": "Wednesdays / Wednesday",
+   "audio_answer": "Wednesdays / Wednesday",
+   "evidence": "[0:15]",
+   "note": ""
+  },
+  {
+   "n": 3,
+   "status": "ok",
+   "key": "25",
+   "audio_answer": "25",
+   "evidence": "[0:22]",
+   "note": ""
+  },
+  {
+   "n": 4,
+   "status": "ok",
+   "key": "2 / two",
+   "audio_answer": "2 / two",
+   "evidence": "[0:27]",
+   "note": ""
+  },
+  {
+   "n": 5,
+   "status": "ok",
+   "key": "first",
+   "audio_answer": "first",
+   "evidence": "[0:33]",
+   "note": ""
+  },
+  {
+   "n": 6,
+   "status": "ok",
+   "key": "6 / six",
+   "audio_answer": "6 / six",
+   "evidence": "[0:38]",
+   "note": ""
+  },
+  {
+   "n": 7,
+   "status": "ok",
+   "key": "Saturdays / Saturday",
+   "audio_answer": "Saturdays / Saturday",
+   "evidence": "[0:42]",
+   "note": ""
+  },
+  {
+   "n": 8,
+   "status": "ok",
+   "key": "1 / one",
+   "audio_answer": "1 / one",
+   "evidence": "[0:45]",
+   "note": ""
+  },
+  {
+   "n": 9,
+   "status": "ok",
+   "key": "side",
+   "audio_answer": "side",
+   "evidence": "[0:49]",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "status": "differs",
+   "key": "330",
+   "audio_answer": "no 330; full number given is 01632 960 582",
+   "evidence": "[0:54] \"To speak to someone at reception, please call 01632 960 582.\"",
+   "note": "Stem prefix '01492 582 ___' does not match the spoken number at all; '330' is never said. Either change the stem (e.g. '01632 960 ___' -> 582) or re-record."
+  },
+  {
+   "n": 11,
+   "status": "ok",
+   "key": "18 / eighteen",
+   "audio_answer": "18 / eighteen",
+   "evidence": "[0:59]",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "status": "ok",
+   "key": "3 / three",
+   "audio_answer": "3 / three",
+   "evidence": "[1:04]",
+   "note": ""
+  },
+  {
+   "n": 13,
+   "status": "ok",
+   "key": "2 / two",
+   "audio_answer": "2 / two",
+   "evidence": "[1:04]",
+   "note": ""
+  },
+  {
+   "n": 14,
+   "status": "ok",
+   "key": "5 / five",
+   "audio_answer": "5 / five",
+   "evidence": "[1:08]",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "status": "ok",
+   "key": "2 / Two",
+   "audio_answer": "2 / Two",
+   "evidence": "[1:13]",
+   "note": ""
+  },
+  {
+   "n": 16,
+   "status": "ok",
+   "key": "12 / twelve",
+   "audio_answer": "12 / twelve",
+   "evidence": "[1:19]",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "status": "ok",
+   "key": "pool",
+   "audio_answer": "pool",
+   "evidence": "[1:23]",
+   "note": ""
+  },
+  {
+   "n": 18,
+   "status": "ok",
+   "key": "blue",
+   "audio_answer": "blue",
+   "evidence": "[1:26]",
+   "note": "black = fitness instructors (distractor)"
+  },
+  {
+   "n": 19,
+   "status": "ok",
+   "key": "7 / seven",
+   "audio_answer": "7 / seven",
+   "evidence": "[1:30]",
+   "note": ""
+  },
+  {
+   "n": 20,
+   "status": "ok",
+   "key": "4 / four",
+   "audio_answer": "4 / four",
+   "evidence": "[1:36]",
+   "note": ""
+  }
+ ],
+ "summary": "19/20 ok; Q10 phone number in audio (01632 960 582) does not match stem/key (01492 582 330)."
+}

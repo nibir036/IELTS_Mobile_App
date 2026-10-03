@@ -1,0 +1,76 @@
+{
+  "_format": {
+    "name": "reading_practice_tests",
+    "group": "content",
+    "table": "reading_tests",
+    "primaryKey": "id",
+    "description": "Short Reading practice test assembled from question-bank sets: Part 1 easy + Part 2 medium + Part 3 hard, three different question types, 15-25 questions.",
+    "currentSourceInApp": "IELTS_Reading_Question_Bank-1.pdf (not yet in the app); assembled by tool/import_reading_bank.py (no new content)",
+    "fields": {
+      "id": "string",
+      "number": "integer",
+      "title": "string",
+      "kind": "string",
+      "passages": "array",
+      "questionTypes": "array",
+      "questionCount": "integer",
+      "minutes": "integer"
+    },
+    "required": [
+      "id",
+      "number",
+      "title",
+      "kind",
+      "passages",
+      "questionCount",
+      "minutes"
+    ],
+    "relations": [
+      "passages[] → reading_passages.id (rb_*), in order Part 1, 2, 3"
+    ],
+    "notes": [
+      "kind = \"short\" (full tests are kind \"full\": 3 passages, 40 questions, 60 minutes).",
+      "minutes = questionCount x 1.5, rounded half up. Question numbers are offset by the app, like reading_tests.",
+      "No set is used in more than one practice test."
+    ],
+    "recordCountToday": 20
+  },
+  "items": [
+    {
+      "id": "rpt_01",
+      "number": 1,
+      "title": "Reading Practice Test 1",
+      "kind": "short",
+      "passages": [
+        "rb_mcq_01",
+        "rb_matching_features_07",
+        "rb_table_completion_15"
+      ],
+      "questionTypes": [
+        "mcq",
+        "matching_features",
+        "table_completion"
+      ],
+      "questionCount": 24,
+      "minutes": 36
+    },
+    {
+      "id": "rpt_02",
+      "number": 2,
+      "title": "Reading Practice Test 2",
+      "kind": "short",
+      "passages": [
+        "rb_tfng_01",
+        "rb_sentence_endings_07",
+        "rb_flowchart_completion_15"
+      ],
+      "questionTypes": [
+        "tfng",
+        "sentence_endings",
+        "flowchart_completion"
+      ],
+      "questionCount": 21,
+      "minutes": 32
+    }
+  ]
+}

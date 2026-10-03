@@ -1,0 +1,49 @@
+{
+  "_format": {
+    "name": "reading_tests",
+    "group": "content",
+    "table": "reading_tests",
+    "primaryKey": "id",
+    "description": "A full Academic Reading test = 3 passages, 40 questions, 60 minutes.",
+    "currentSourceInApp": "reading.tests",
+    "fields": {
+      "id": "string",
+      "number": "integer",
+      "title": "string",
+      "passages": "array"
+    },
+    "required": [
+      "id",
+      "number",
+      "title",
+      "passages"
+    ],
+    "relations": [
+      "passages[] → reading_passages.id (order = Passage 1,2,3; question counts must sum to 40)"
+    ],
+    "notes": [],
+    "recordCountToday": 3
+  },
+  "items": [
+    {
+      "id": "rt_01",
+      "number": 1,
+      "title": "Academic Reading Test 1",
+      "passages": [
+        "rp_01",
+        "rp_02",
+        "rp_03"
+      ]
+    },
+    {
+      "id": "rt_02",
+      "number": 2,
+      "title": "Academic Reading Test 2",
+      "passages": [
+        "rp_06",
+        "rp_07",
+        "rp_08"
+      ]
+    }
+  ]
+}

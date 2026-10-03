@@ -1,0 +1,2074 @@
+[
+ {
+  "id": "rb_tfng_09",
+  "questionTypeName": "True / False / Not Given",
+  "title": "Points of Loyalty",
+  "lesson": {
+   "title": "Synonyms and antonyms",
+   "text": "In Medium sets, statements rarely repeat the passage's words. You must recognise that rarely ≈ seldom, expanded ≈ grew, and that expanded is the opposite of shrank. A statement built on a synonym is a TRUE candidate. A statement built on an antonym is a FALSE candidate. Always confirm with the whole sentence, because negatives (not, never, few) can reverse the meaning.",
+   "example": "Passage: \"Few customers ever used the service.\" Statement: \"The service was seldom used.\" → TRUE. Statement: \"The service was popular.\" → FALSE."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Rewarding repeat customers was unknown before the twentieth century.",
+    "answer": "FALSE",
+    "evidence": "In the nineteenth century, some shops in the United States gave customers copper tokens",
+    "explanation": "The practice existed before the twentieth century, so \"unknown\" is contradicted."
+   },
+   {
+    "n": 2,
+    "q": "Other airlines were slow to copy the programme launched in 1981.",
+    "answer": "FALSE",
+    "evidence": "Other airlines copied the idea within weeks",
+    "explanation": "\"Within weeks\" is the opposite of \"slow\"."
+   },
+   {
+    "n": 3,
+    "q": "Different membership levels give customers an extra reason to remain with a company.",
+    "answer": "TRUE",
+    "evidence": "Programmes that offer different levels of membership ... strengthen this effect, because customers want to reach or keep a higher status",
+    "explanation": "\"This effect\" refers to encouraging customers to return, so the levels give an extra reason to stay."
+   },
+   {
+    "n": 4,
+    "q": "Research indicates that loyalty programmes attract many customers who were already frequent users.",
+    "answer": "TRUE",
+    "evidence": "the customers who join are often those who would have used the company frequently anyway",
+    "explanation": "\"Would have used ... frequently anyway\" = \"already frequent users\"."
+   },
+   {
+    "n": 5,
+    "q": "Customers who belong to several competing programmes spend more money overall.",
+    "answer": "NOT GIVEN",
+    "evidence": "many people belong to competing programmes at the same time",
+    "explanation": "Multiple membership is mentioned, but nothing is said about how much these customers spend."
+   },
+   {
+    "n": 6,
+    "q": "Companies use data from loyalty programmes when deciding what products to sell.",
+    "answer": "TRUE",
+    "evidence": "can be used to target offers, design stores and decide which products to stock",
+    "explanation": "\"Stock\" = \"sell\"."
+   },
+   {
+    "n": 7,
+    "q": "Most customers are unaware that their purchases are being recorded.",
+    "answer": "NOT GIVEN",
+    "evidence": "Paragraph E mentions privacy campaigners' concerns about data collection.",
+    "explanation": "Customers' awareness is never discussed. The concerns do not tell us what most customers know."
+   },
+   {
+    "n": 8,
+    "q": "Airlines are unable to change the number of miles required for a free flight.",
+    "answer": "FALSE",
+    "evidence": "the airline \"controls ... the number of miles needed for a free flight, and can change the second at any time\"",
+    "explanation": "\"Can change ... at any time\" contradicts \"unable to change\"."
+   },
+   {
+    "n": 9,
+    "q": "Breakage rates are similar across all loyalty programmes.",
+    "answer": "FALSE",
+    "evidence": "Estimates of breakage vary widely between programmes",
+    "explanation": "\"Vary widely\" contradicts \"similar across all\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_10",
+  "questionTypeName": "True / False / Not Given",
+  "title": "The Long Road to Penicillin",
+  "lesson": {
+   "title": "Who did what?",
+   "text": "When a passage involves several people, statements may attach an action to the wrong person. For example, the passage says Scientist A discovered X and Scientist B developed it, and the statement says B discovered X. That is FALSE, because the passage assigns the discovery to someone else.\n\nKeep a quick note of person → action as you read. Also notice collective credit (\"the team\", \"together\", \"shared\"): a statement that one person did something alone may then be FALSE.",
+   "example": "Passage: \"Lee designed the engine; Park built the first working model.\"\nStatement: \"Lee built the first working model.\" → FALSE."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Fleming noticed the effect of the mould after returning from a holiday.",
+    "answer": "TRUE",
+    "evidence": "returned to his laboratory in London after a holiday and noticed something unusual",
+    "explanation": "This is a direct paraphrase."
+   },
+   {
+    "n": 2,
+    "q": "Fleming showed that penicillin harmed human white blood cells.",
+    "answer": "FALSE",
+    "evidence": "penicillin could kill several types of harmful bacteria without damaging human white blood cells",
+    "explanation": "\"Without damaging\" contradicts \"harmed\"."
+   },
+   {
+    "n": 3,
+    "q": "Fleming tested penicillin extensively on human patients.",
+    "answer": "FALSE",
+    "evidence": "did not test penicillin systematically as a treatment for infections in animals or people",
+    "explanation": "This contradicts \"tested extensively\". The first human patient was treated by the Oxford team, not by Fleming."
+   },
+   {
+    "n": 4,
+    "q": "Chain found Fleming's article and saw that the discovery could be valuable.",
+    "answer": "TRUE",
+    "evidence": "Chain came across Fleming's paper and recognised its potential",
+    "explanation": "\"Came across\" = \"found\", \"paper\" = \"article\", and \"recognised its potential\" = \"saw that ... could be valuable\"."
+   },
+   {
+    "n": 5,
+    "q": "Heatley designed equipment used to produce penicillin at Oxford.",
+    "answer": "TRUE",
+    "evidence": "Norman Heatley, played an essential part by designing ingenious equipment",
+    "explanation": "The action is correctly attributed to Heatley."
+   },
+   {
+    "n": 6,
+    "q": "Half of the mice given penicillin in the 1940 experiment died.",
+    "answer": "FALSE",
+    "evidence": "four were then given penicillin ... those that received penicillin survived",
+    "explanation": "All the treated mice survived. The four that died were the untreated mice, so this statement confuses the two groups."
+   },
+   {
+    "n": 7,
+    "q": "The police officer was cured by penicillin.",
+    "answer": "FALSE",
+    "evidence": "the supply of penicillin ran out before he could be cured, and he later died",
+    "explanation": "This contradicts \"cured\"."
+   },
+   {
+    "n": 8,
+    "q": "The melon mould was discovered by Florey.",
+    "answer": "NOT GIVEN",
+    "evidence": "A new strain ... found on a mouldy melon in an American market",
+    "explanation": "The passage does not say who found it. It cannot be assumed to be Florey just because he was in the United States."
+   },
+   {
+    "n": 9,
+    "q": "Heatley was disappointed not to receive the Nobel Prize.",
+    "answer": "NOT GIVEN",
+    "evidence": "Heatley \"received no share of the prize\"",
+    "explanation": "His feelings about this are never mentioned."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_11",
+  "questionTypeName": "True / False / Not Given",
+  "title": "Pollinators on the Move",
+  "lesson": {
+   "title": "Proportions and approximate quantities",
+   "text": "Passages often express amounts with words rather than exact numbers: a majority, roughly a third, the bulk of, a handful, nearly all. Statements then use a different expression for the same, or a different, amount. Convert both into a rough figure:\n\na majority > 50%\n\nroughly a third ≈ 33%\n\na handful = very few\n\nIf the figures are compatible → TRUE. If they are clearly incompatible (a handful vs most) → FALSE. If the passage gives no amount at all → NOT GIVEN.",
+   "example": "Passage: \"Nearly all the volunteers were students.\" Statement: \"Most volunteers were students.\" → TRUE, because nearly all includes most."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Fewer than a million bee colonies are brought to the almond orchards each year.",
+    "answer": "FALSE",
+    "evidence": "well over a million honeybee colonies",
+    "explanation": "\"Well over a million\" contradicts \"fewer than a million\"."
+   },
+   {
+    "n": 2,
+    "q": "Almond trees flower for a period of several months.",
+    "answer": "FALSE",
+    "evidence": "the short flowering period, which lasts only a few weeks",
+    "explanation": "\"A few weeks\" contradicts \"several months\"."
+   },
+   {
+    "n": 3,
+    "q": "Wild insects alone cannot pollinate the almond orchards.",
+    "answer": "TRUE",
+    "evidence": "The local population of wild pollinators is therefore far too small to pollinate the trees",
+    "explanation": "\"Far too small\" = \"cannot ... alone\"."
+   },
+   {
+    "n": 4,
+    "q": "For many commercial beekeepers, pollination fees are a bigger source of income than honey.",
+    "answer": "TRUE",
+    "evidence": "For many commercial beekeepers, these fees now make up a larger part of their income than the sale of honey",
+    "explanation": "This is a direct paraphrase."
+   },
+   {
+    "n": 5,
+    "q": "The fees paid for each hive have risen every year since the early 2000s.",
+    "answer": "NOT GIVEN",
+    "evidence": "Farmers \"pay a fee for each colony\" (Paragraph C), and demand has increased (Paragraph D)",
+    "explanation": "No information is given about changes in the fee. Rising demand does not tell us fees rose every year."
+   },
+   {
+    "n": 6,
+    "q": "Scientists have identified a single cause for the high losses of bee colonies.",
+    "answer": "FALSE",
+    "evidence": "The causes appear to be varied and are still being investigated",
+    "explanation": "\"Varied\" contradicts \"a single cause\"."
+   },
+   {
+    "n": 7,
+    "q": "Moving hives long distances may cause stress to bee colonies.",
+    "answer": "TRUE",
+    "evidence": "Transporting hives over long distances is stressful for the colonies",
+    "explanation": "This matches the statement. Note that the passage gives this as the view of \"some researchers\", which the hedge \"may\" in the statement fits."
+   },
+   {
+    "n": 8,
+    "q": "Most almond farmers now plant flowers between their trees.",
+    "answer": "NOT GIVEN",
+    "evidence": "A number now plant flowering plants between the rows",
+    "explanation": "\"A number\" gives no proportion. It neither confirms nor contradicts \"most\", so this is a proportion trap."
+   },
+   {
+    "n": 9,
+    "q": "Self-pollinating almond varieties always produce larger harvests.",
+    "answer": "FALSE",
+    "evidence": "These varieties may produce smaller harvests in some conditions",
+    "explanation": "This contradicts \"always ... larger\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_12",
+  "questionTypeName": "True / False / Not Given",
+  "title": "Towers That Bend",
+  "lesson": {
+   "title": "Hedged statements and certain statements",
+   "text": "Passages about research often express uncertainty: may, might, is thought to, one theory suggests, it remains unclear. A statement that presents such an idea as certain fact (\"X causes Y\", \"engineers have proved\") does not match. Usually it is FALSE if the passage explicitly says the matter is uncertain or disputed, and NOT GIVEN if the passage simply doesn't address it. Conversely, a statement that is itself hedged (\"X may cause Y\") can be TRUE when the passage reports X as a possible cause.",
+   "example": "Passage: \"It is still unclear why the birds left the island.\" Statement: \"Scientists have established why the birds left.\" → FALSE."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Some wooden pagodas in Japan are more than a thousand years old.",
+    "answer": "TRUE",
+    "evidence": "have stood for hundreds of years, in some cases more than a thousand",
+    "explanation": "\"In some cases\" = \"some\"."
+   },
+   {
+    "n": 2,
+    "q": "Many pagodas have been destroyed by fire.",
+    "answer": "NOT GIVEN",
+    "evidence": "pagodas have been lost to fire, lightning and war",
+    "explanation": "The passage confirms that pagodas have been lost to fire but gives no number. \"Many\" cannot be confirmed or contradicted. Compare the \"some / many / most\" traps in the earlier sets."
+   },
+   {
+    "n": 3,
+    "q": "The builders of the pagodas used detailed written calculations.",
+    "answer": "FALSE",
+    "evidence": "craftsmen working with traditional knowledge rather than written calculations",
+    "explanation": "\"Rather than written calculations\" directly contradicts the statement."
+   },
+   {
+    "n": 4,
+    "q": "The storeys of a pagoda are firmly nailed together.",
+    "answer": "FALSE",
+    "evidence": "connected by wooden joints without nails or metal fixings",
+    "explanation": "\"Without nails\" contradicts \"firmly nailed\"."
+   },
+   {
+    "n": 5,
+    "q": "The flexible joints help the tower absorb the energy of earthquakes.",
+    "answer": "TRUE",
+    "evidence": "This flexibility allows energy from the shaking to be absorbed as the wooden joints rub and shift",
+    "explanation": "This is a direct paraphrase."
+   },
+   {
+    "n": 6,
+    "q": "Engineers agree that the central pillar is the main reason pagodas survive earthquakes.",
+    "answer": "FALSE",
+    "evidence": "Others argue that its role in earthquakes has been exaggerated ... results of different experiments have not always agreed",
+    "explanation": "The passage explicitly reports disagreement, which contradicts \"engineers agree\". This is the hedged-versus-certain pattern from the lesson."
+   },
+   {
+    "n": 7,
+    "q": "In some pagodas, the central pillar hangs without touching the ground.",
+    "answer": "TRUE",
+    "evidence": "in some cases does not even rest on the ground, instead hanging from the top of the building",
+    "explanation": "This matches the statement."
+   },
+   {
+    "n": 8,
+    "q": "Shaking-table tests have been carried out on full-size pagodas.",
+    "answer": "NOT GIVEN",
+    "evidence": "building scale models and placing them on 'shaking tables'",
+    "explanation": "The passage mentions tests on scale models only. It neither says that full-size pagodas were tested nor that they were not. A student who chooses FALSE is assuming that the only tests described are the only tests ever carried out."
+   },
+   {
+    "n": 9,
+    "q": "The designers of the Tokyo tower said they had been influenced by pagodas.",
+    "answer": "TRUE",
+    "evidence": "they explicitly referred to the traditional pagoda as an influence",
+    "explanation": "\"Explicitly referred to ... as an influence\" = \"said they had been influenced\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_13",
+  "questionTypeName": "True / False / Not Given",
+  "title": "Power from the Moon's Pull",
+  "lesson": {
+   "title": "Superlatives and rankings",
+   "text": "Words such as largest, first, oldest, most powerful make precise claims. The passage must support the exact ranking:\n\n\"One of the largest\" ≠ \"the largest\", so a statement claiming \"the largest\" is usually NOT GIVEN.\n\nIf the passage names something bigger or earlier, the statement is FALSE.\n\nCheck what is being ranked (output vs physical size) and when (\"was the largest until 2011\" is not \"is the largest\").",
+   "example": "Passage: \"Opened in 1990, the dam was the country's biggest until a larger one was built in 2005.\" Statement: \"The dam is still the country's biggest.\" → FALSE."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The timing of tides can be predicted years ahead.",
+    "answer": "TRUE",
+    "evidence": "can be calculated years in advance",
+    "explanation": "\"Calculated in advance\" = \"predicted ahead\"."
+   },
+   {
+    "n": 2,
+    "q": "Tidal barrages can only produce electricity when the tide is going out.",
+    "answer": "FALSE",
+    "evidence": "Some barrages also generate power as the tide flows in",
+    "explanation": "This rules out \"only ... going out\"."
+   },
+   {
+    "n": 3,
+    "q": "The tidal range at the Rance estuary can be more than twelve metres.",
+    "answer": "TRUE",
+    "evidence": "the tidal range ... can exceed twelve metres",
+    "explanation": "\"Exceed\" = \"more than\"."
+   },
+   {
+    "n": 4,
+    "q": "The Rance station is currently the largest tidal power station in the world.",
+    "answer": "FALSE",
+    "evidence": "In 2011, the Rance station was overtaken by a plant at Sihwa Lake",
+    "explanation": "The Rance station was the largest for about forty-five years, but it no longer is. This is the \"was / is\" trap."
+   },
+   {
+    "n": 5,
+    "q": "The Rance station has required fewer repairs than other power stations of its age.",
+    "answer": "NOT GIVEN",
+    "evidence": "The station \"still operates today\" and is cited as evidence of reliability",
+    "explanation": "No comparison of repairs with other power stations is made."
+   },
+   {
+    "n": 6,
+    "q": "The lake at Sihwa had water quality problems before the turbines were installed.",
+    "answer": "TRUE",
+    "evidence": "\"the enclosed water became badly polluted\" (Paragraph D), before turbines improved it.",
+    "explanation": "\"Badly polluted\" = \"water quality problems\"."
+   },
+   {
+    "n": 7,
+    "q": "The Sihwa plant generates electricity in both directions of the tide.",
+    "answer": "FALSE",
+    "evidence": "the Sihwa plant generates power only as the tide flows in",
+    "explanation": "\"Only\" contradicts \"both directions\"."
+   },
+   {
+    "n": 8,
+    "q": "Plans for large tidal barrages in Britain were rejected entirely for environmental reasons.",
+    "answer": "FALSE",
+    "evidence": "abandoned \"partly because of these concerns and partly because of cost\"",
+    "explanation": "Cost was also a reason, so \"entirely for environmental reasons\" is contradicted."
+   },
+   {
+    "n": 9,
+    "q": "Tidal stream turbines have been shown to have no effect on the environment.",
+    "answer": "FALSE",
+    "evidence": "they are expected to have a smaller effect ... although this is still being studied",
+    "explanation": "\"A smaller effect\" still means some effect, and the question is still being studied, so \"shown to have no effect\" is contradicted."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_14",
+  "questionTypeName": "True / False / Not Given",
+  "title": "How the Weekend Was Made",
+  "lesson": {
+   "title": "Generalisations and the groups they describe",
+   "text": "A passage may describe what happened to one group (factory workers, one country, one company). The statement then generalises it to everyone, or applies it to a different group. The passage says it was true of one group only, or explicitly not of others → FALSE. The passage says nothing about the other group → NOT GIVEN.",
+   "example": "Passage: \"Miners in the region were given free housing.\" Statement: \"All workers in the region received free housing.\" The passage says nothing about other workers → NOT GIVEN."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The two-day weekend for ordinary workers has existed for several centuries.",
+    "answer": "FALSE",
+    "evidence": "barely a century old",
+    "explanation": "This contradicts \"several centuries\"."
+   },
+   {
+    "n": 2,
+    "q": "\"Saint Monday\" was mainly practised by workers who were paid according to their output.",
+    "answer": "TRUE",
+    "evidence": "craftsmen who were paid for the amount they produced rather than for their time took Monday off",
+    "explanation": "\"Paid for the amount they produced\" = \"paid according to output\"."
+   },
+   {
+    "n": 3,
+    "q": "Employers encouraged the custom of taking Mondays off.",
+    "answer": "FALSE",
+    "evidence": "Employers disliked the practice",
+    "explanation": "\"Disliked\" contradicts \"encouraged\"."
+   },
+   {
+    "n": 4,
+    "q": "Nineteenth-century factory laws on Saturday hours applied equally to all adult workers.",
+    "answer": "FALSE",
+    "evidence": "the laws \"applied mainly to women and children\"",
+    "explanation": "The passage names a specific group, which contradicts \"equally to all adult workers\". Other workers benefited only when employers chose to extend the arrangement."
+   },
+   {
+    "n": 5,
+    "q": "Football matches were scheduled on Saturday afternoons partly because many working men were free then.",
+    "answer": "TRUE",
+    "evidence": "scheduled for Saturday afternoons, when large numbers of working men were free to attend",
+    "explanation": "The reason given matches the statement."
+   },
+   {
+    "n": 6,
+    "q": "Henry Ford reduced his workers' weekly pay when he introduced the five-day week.",
+    "answer": "FALSE",
+    "evidence": "without reducing workers' weekly pay",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 7,
+    "q": "Ford's workers became more productive after the five-day week was introduced.",
+    "answer": "NOT GIVEN",
+    "evidence": "Ford argued that workers with more free time would be more productive",
+    "explanation": "The passage reports Ford's argument, not the result. Whether productivity actually rose is not stated."
+   },
+   {
+    "n": 8,
+    "q": "The weekend was introduced at the same time in every European country.",
+    "answer": "NOT GIVEN",
+    "evidence": "In Britain and much of Europe, the two-day weekend became normal for many workers in the decades after the Second World War",
+    "explanation": "The passage gives a broad period for \"much of Europe\". It does not say whether every country adopted the weekend at the same time or at different times."
+   },
+   {
+    "n": 9,
+    "q": "All countries with Muslim majorities have a Friday–Saturday weekend.",
+    "answer": "NOT GIVEN",
+    "evidence": "in many countries with Muslim majorities, the weekend includes Friday",
+    "explanation": "The passage says \"many\", not \"all\", and it does not say which other day forms the weekend. The statement goes beyond the information given."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_15",
+  "questionTypeName": "True / False / Not Given",
+  "title": "Bringing Languages Back",
+  "lesson": {
+   "title": "Hard TFNG — implications and precise scope",
+   "text": "At Hard level:\n\nFALSE by implication. The contradiction may not be one sentence that says the opposite. It may follow clearly from two pieces of information. For example: the passage says a language had no native speakers for centuries, and the statement says it was always spoken at home. Tight NOT GIVEN. Statements stay very close to the passage's topic and vocabulary but add one unsupported element: a cause, a comparison, a motive or a result.\n\nScope words. Only, entirely, the main, never, all, completely are the words to check first. Before choosing, restate the statement's one precise claim in a few words, and test only that claim.",
+   "example": "Passage: \"The school opened with twelve pupils; within ten years it had over two hundred, though funding remained uncertain.\" Statement: \"The school grew because its funding was secure.\" Growth is TRUE, but the stated cause contradicts \"funding remained uncertain\" → FALSE."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Experts agree that half of the world's languages will disappear this century.",
+    "answer": "FALSE",
+    "evidence": "Estimates ... vary widely, but some suggest that it could be as many as half",
+    "explanation": "\"Vary widely\" and \"some suggest\" contradict \"experts agree\". A single estimate is presented as certain in the statement."
+   },
+   {
+    "n": 2,
+    "q": "In some places, children have been penalised for using their home language at school.",
+    "answer": "TRUE",
+    "evidence": "children were punished for speaking their home language at school",
+    "explanation": "\"Punished\" = \"penalised\", and \"in some cases\" = \"in some places\"."
+   },
+   {
+    "n": 3,
+    "q": "Hebrew continued to be spoken at home by a community of native speakers throughout its history.",
+    "answer": "FALSE",
+    "evidence": "it had no community of native speakers using it in daily life",
+    "explanation": "This contradiction follows from the statement's claim about \"throughout its history\"."
+   },
+   {
+    "n": 4,
+    "q": "Ben-Yehuda was solely responsible for the revival of Hebrew.",
+    "answer": "FALSE",
+    "evidence": "a movement in which the linguist Eliezer Ben-Yehuda played a prominent role",
+    "explanation": "A \"prominent role\" in a \"movement\" implies others were involved, and the passage also mentions schools and families. This contradicts \"solely\", so it is FALSE by implication."
+   },
+   {
+    "n": 5,
+    "q": "Linguists believe the revival of Hebrew provides a model that most endangered languages could easily follow.",
+    "answer": "FALSE",
+    "evidence": "linguists caution that it took place under unusual historical conditions that other communities are unlikely to share",
+    "explanation": "This contradicts the idea that most languages could easily follow the model."
+   },
+   {
+    "n": 6,
+    "q": "Education has been the main reason for the growth of Welsh speakers in certain age groups.",
+    "answer": "TRUE",
+    "evidence": "in some age groups the number of speakers has increased, largely because of education",
+    "explanation": "\"Largely because of\" = \"the main reason\"."
+   },
+   {
+    "n": 7,
+    "q": "The Hawaiian language nest programme was modelled on an earlier programme in New Zealand.",
+    "answer": "TRUE",
+    "evidence": "The model was based on a similar programme developed among the Māori of New Zealand",
+    "explanation": "\"Based on\" = \"modelled on\". The Māori programme is implied to be earlier."
+   },
+   {
+    "n": 8,
+    "q": "Most of the fluent speakers in the first Hawaiian language nests had trained as teachers.",
+    "answer": "NOT GIVEN",
+    "evidence": "cared for entirely in Hawaiian by fluent speakers, many of them elderly",
+    "explanation": "Their age is given, but their training is not. The topic appears, but the precise claim is not settled."
+   },
+   {
+    "n": 9,
+    "q": "Technology alone can ensure the survival of an endangered language.",
+    "answer": "FALSE",
+    "evidence": "Official status, schools and technology can support this process, but they cannot replace it",
+    "explanation": "This directly contradicts \"technology alone can ensure\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_16",
+  "questionTypeName": "True / False / Not Given",
+  "title": "Honest Placebos",
+  "lesson": {
+   "title": "Study details — who, how many, how long, compared with what",
+   "text": "Hard research passages contain precise details about study design. Statements may alter one of them:\n\nwho was studied (patients with one condition, not everyone);\n\nhow many people took part;\n\nhow long the study lasted;\n\nwhat the comparison group received.\n\nAn altered detail that the passage specifies differently → FALSE. A detail the passage never mentions → NOT GIVEN. Also watch for claims that turn \"reported feeling better\" into \"was cured\", which changes the kind of result.",
+   "example": "Passage: \"Over three weeks, patients with back pain who did the exercises reported less pain than a group that did not.\" Statement: \"The exercises cured back pain.\" → FALSE? No: the passage does not say the pain was cured, nor that it was not. The answer is NOT GIVEN, unless the passage adds something like \"no patient was fully free of pain\", which would make it FALSE."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "In typical drug trials, patients are told whether they are receiving a placebo.",
+    "answer": "FALSE",
+    "evidence": "usually neither the patients nor the doctors know who has received which",
+    "explanation": "This contradicts \"told\"."
+   },
+   {
+    "n": 2,
+    "q": "All of the improvement seen in placebo groups is caused by the placebo itself.",
+    "answer": "FALSE",
+    "evidence": "Some of this improvement has nothing to do with the placebo itself",
+    "explanation": "\"Some ... nothing to do with\" contradicts \"all\"."
+   },
+   {
+    "n": 3,
+    "q": "Placebo responses appear to be weaker for measurable physical changes than for symptoms patients report.",
+    "answer": "TRUE",
+    "evidence": "strongest for symptoms that patients experience and report themselves ... weakest or absent for measurable changes",
+    "explanation": "This matches, including the hedge \"appear\"."
+   },
+   {
+    "n": 4,
+    "q": "Many researchers once believed that placebos only work if patients are deceived.",
+    "answer": "TRUE",
+    "evidence": "Most doctors and researchers long assumed that for a placebo to work, patients had to believe they were receiving real medicine",
+    "explanation": "Believing a placebo is real medicine = being deceived, and \"most ... long assumed\" includes \"many ... once believed\"."
+   },
+   {
+    "n": 5,
+    "q": "The 2010 study involved several hundred patients.",
+    "answer": "FALSE",
+    "evidence": "around eighty patients",
+    "explanation": "The passage gives the number, and it contradicts \"several hundred\"."
+   },
+   {
+    "n": 6,
+    "q": "In the 2010 study, the comparison group received a different kind of pill.",
+    "answer": "FALSE",
+    "evidence": "Half were given no treatment",
+    "explanation": "The comparison group received nothing, not a different pill."
+   },
+   {
+    "n": 7,
+    "q": "Patients in the open-placebo group were told the pills contained no medication.",
+    "answer": "TRUE",
+    "evidence": "were told honestly that the pills contained no medication",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 8,
+    "q": "Open-label placebos have been found to shrink tumours.",
+    "answer": "NOT GIVEN",
+    "evidence": "Paragraph B says placebo responses are \"weakest or absent\" for measurable changes such as tumour size. Paragraph E lists the conditions studied with open-label placebos.",
+    "explanation": "No open-label study of tumours is reported. Paragraph B's general point does not settle what open-label placebos do, so the specific claim is neither confirmed nor contradicted. This is a Hard-level NOT GIVEN, because related information is present."
+   },
+   {
+    "n": 9,
+    "q": "Some studies of open placebos have found no effect.",
+    "answer": "TRUE",
+    "evidence": "a few have found none",
+    "explanation": "\"A few\" = \"some\", and \"none\" = \"no effect\"."
+   },
+   {
+    "n": 10,
+    "q": "Supporters recommend open-label placebos as a replacement for treatment of serious illnesses.",
+    "answer": "FALSE",
+    "evidence": "Even supporters stress that open-label placebos are not a substitute for effective treatment of serious diseases",
+    "explanation": "This is a direct contradiction."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_17",
+  "questionTypeName": "True / False / Not Given",
+  "title": "The Flower That Crashed",
+  "lesson": {
+   "title": "Popular belief vs the passage's revised account",
+   "text": "Some Hard passages present a popular story and then a revised version based on newer research. Statements may describe the popular story as if it were what the passage accepts. Decide what the passage presents as fact, and treat the popular account as a belief that the passage reports.\n\nA statement matching the popular story, when the passage says research contradicts it → FALSE.\n\nA statement that \"people believed X\", when the passage says X was widely believed → TRUE, even if X itself is false.",
+   "example": "Passage: \"It was long claimed that the castle was built in a single year; records now show construction lasted a decade.\" Statement: \"The castle was built in one year.\" → FALSE. Statement: \"People once thought the castle was built in one year.\" → TRUE."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The popular account of tulip mania claims that the collapse damaged the Dutch economy.",
+    "answer": "TRUE",
+    "evidence": "According to the familiar account ... the Dutch economy was thrown into crisis",
+    "explanation": "The statement is about what the popular account claims, not whether it is correct. It is therefore TRUE, even though Paragraph E rejects the claim itself."
+   },
+   {
+    "n": 2,
+    "q": "The 1841 book was based mainly on archival contracts and court records.",
+    "answer": "FALSE",
+    "evidence": "That book relied heavily on pamphlets ... many of which were moralising works",
+    "explanation": "Returning to the archives is what later historians did, which contradicts the statement."
+   },
+   {
+    "n": 3,
+    "q": "The most valuable tulips were rare partly because of a disease affecting the bulbs.",
+    "answer": "TRUE",
+    "evidence": "the patterns were caused by a virus that also weakened the bulbs, so that they multiplied slowly",
+    "explanation": "\"Virus\" = \"disease\", and multiplying slowly explains why the bulbs were rare."
+   },
+   {
+    "n": 4,
+    "q": "Some tulip bulbs were sold for prices similar to that of a house.",
+    "answer": "TRUE",
+    "evidence": "some of the highest recorded prices were ... comparable to the cost of a substantial house",
+    "explanation": "This part of the traditional story is confirmed."
+   },
+   {
+    "n": 5,
+    "q": "Tavern owners charged traders a fee for contracts agreed on their premises.",
+    "answer": "NOT GIVEN",
+    "evidence": "Many of these contracts were agreed in taverns, among groups of traders",
+    "explanation": "Taverns are mentioned as the place where contracts were agreed, but nothing is said about fees charged by their owners. The topic appears, but the precise claim is absent."
+   },
+   {
+    "n": 6,
+    "q": "Courts required buyers to pay the full agreed price for their contracts.",
+    "answer": "FALSE",
+    "evidence": "buyers paid only a small fraction of the agreed price, or nothing at all",
+    "explanation": "This contradicts \"the full agreed price\"."
+   },
+   {
+    "n": 7,
+    "q": "Historians have found evidence that large numbers of poor people were ruined by tulip trading.",
+    "answer": "FALSE",
+    "evidence": "consisting largely of merchants and skilled craftsmen rather than the poor ... few, if any, documented cases of people who were bankrupted",
+    "explanation": "Both parts of the statement are contradicted."
+   },
+   {
+    "n": 8,
+    "q": "The authors of the moralising pamphlets had themselves lost money in the tulip trade.",
+    "answer": "NOT GIVEN",
+    "evidence": "The pamphlets \"were written to teach a moral lesson\"",
+    "explanation": "Nothing is said about the authors' own trading or losses."
+   },
+   {
+    "n": 9,
+    "q": "All economists now agree that tulip mania was not a speculative bubble.",
+    "answer": "FALSE",
+    "evidence": "Not all economists accept the revised view entirely. Some argue that ... still shows features of a speculative bubble",
+    "explanation": "This directly contradicts \"all ... agree\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_18",
+  "questionTypeName": "True / False / Not Given",
+  "title": "Seeding the Clouds",
+  "lesson": {
+   "title": "Evidence strength words",
+   "text": "Hard science passages grade evidence precisely: demonstrated, confirmed, suggested, consistent with, no clear evidence, inconclusive. Match the strength of the statement to the strength in the passage.\n\nStatement stronger than the passage and the passage signals doubt (\"remains uncertain\") → FALSE.\n\nStatement stronger than the passage but the passage does not address the doubt → NOT GIVEN.\n\nStatement equal to or weaker than the passage → TRUE.",
+   "example": "Passage: \"Early results are consistent with a small benefit, but further trials are needed.\" Statement: \"Trials have proved a large benefit.\" → FALSE. Statement: \"Early results suggest some benefit.\" → TRUE."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The effect of dry ice on moist air was discovered during an experiment.",
+    "answer": "TRUE",
+    "evidence": "While experimenting with a freezer chamber filled with moist air, he dropped in some dry ice ... and saw a cloud of tiny ice crystals form",
+    "explanation": "This matches the statement."
+   },
+   {
+    "n": 2,
+    "q": "Silver iodide was used in cloud seeding before dry ice.",
+    "answer": "FALSE",
+    "evidence": "dry ice was used first, and \"Soon afterwards, a colleague found that particles of silver iodide ... could have a similar effect\"",
+    "explanation": "The statement reverses the sequence."
+   },
+   {
+    "n": 3,
+    "q": "Seeding works by providing particles on which ice crystals can form.",
+    "answer": "TRUE",
+    "evidence": "they lack particles around which ice crystals can form. If suitable particles are introduced, ice crystals begin to grow",
+    "explanation": "This is a direct paraphrase."
+   },
+   {
+    "n": 4,
+    "q": "The scientist who discovered the effect of dry ice later directed government seeding programmes.",
+    "answer": "NOT GIVEN",
+    "evidence": "Paragraph A describes the discovery, and Paragraph C says governments \"launched seeding programmes\".",
+    "explanation": "The scientist's later career is never mentioned. Do not connect the two paragraphs without evidence."
+   },
+   {
+    "n": 5,
+    "q": "Several early programmes that reported success did not use randomised comparisons.",
+    "answer": "TRUE",
+    "evidence": "\"several early programmes that claimed success did not use them\" (Paragraph D), where \"them\" refers to randomised comparisons.",
+    "explanation": "You must resolve the pronoun \"them\" to confirm the match."
+   },
+   {
+    "n": 6,
+    "q": "The 2003 review found convincing proof that cloud seeding increases rainfall.",
+    "answer": "FALSE",
+    "evidence": "there was still no convincing scientific proof",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 7,
+    "q": "The 2017 project directly observed ice crystals forming along the paths of seeding aircraft.",
+    "answer": "TRUE",
+    "evidence": "They were able to follow lines of ice crystals forming along the paths of the seeding aircraft",
+    "explanation": "The passage calls this \"direct observation\"."
+   },
+   {
+    "n": 8,
+    "q": "The long-term study found that seeding increased snowfall on every day it was used.",
+    "answer": "FALSE",
+    "evidence": "suitable conditions occurred only on some days",
+    "explanation": "The estimated increase applied \"in suitable conditions\", which occurred only on some days. This contradicts \"every day\"."
+   },
+   {
+    "n": 9,
+    "q": "Seeding rain in one area has been shown to reduce rainfall in neighbouring areas.",
+    "answer": "FALSE",
+    "evidence": "Questions also remain about whether increasing rainfall in one area might reduce it elsewhere, although there is little evidence either way",
+    "explanation": "The passage says the matter is unresolved, with \"little evidence either way\", so \"has been shown\" is contradicted. This is the evidence-strength rule from the lesson. If the passage had not mentioned the question at all, the answer would be NOT GIVEN."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_19",
+  "questionTypeName": "True / False / Not Given",
+  "title": "The Machine from the Sea",
+  "lesson": {
+   "title": "Dates, ranges and estimates",
+   "text": "Hard passages often give approximate or disputed dates (\"probably made between the second and first centuries BC\", \"estimates range from...\"). A statement that fixes an exact date the passage leaves open is usually NOT GIVEN. It is FALSE only if the date falls clearly outside the passage's range. Also distinguish when an object was made, when it was lost, when it was found and when it was understood. Statements often swap these.",
+   "example": "Passage: \"The ship sank sometime around 70 BC; the wreck was discovered in 1900.\" Statement: \"The ship sank in 1900.\" → FALSE (the discovery date has been swapped in).\nStatement: \"The ship sank in 72 BC.\" → NOT GIVEN (possible within \"around 70 BC\", but not stated)."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The ship carrying the mechanism sank in 1900.",
+    "answer": "FALSE",
+    "evidence": "the wreck \"is thought to have sunk sometime in the first half of the first century BC\"; 1900 is when it was discovered",
+    "explanation": "The statement swaps the discovery date for the sinking date."
+   },
+   {
+    "n": 2,
+    "q": "The mechanism was immediately recognised as important when it was brought up from the wreck.",
+    "answer": "FALSE",
+    "evidence": "attracted little attention at first",
+    "explanation": "This contradicts \"immediately recognised\"."
+   },
+   {
+    "n": 3,
+    "q": "All scholars initially agreed that the mechanism came from the ancient ship.",
+    "answer": "FALSE",
+    "evidence": "Some scholars at first suggested that the object must be much more recent ... Others insisted ... that it belonged to the ancient wreck",
+    "explanation": "There was disagreement, which contradicts \"all ... agreed\"."
+   },
+   {
+    "n": 4,
+    "q": "Early X-ray images allowed researchers to see the internal structure of the device clearly.",
+    "answer": "FALSE",
+    "evidence": "the images could not show the internal structure clearly",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 5,
+    "q": "The 2005 study revealed inscriptions that had not been read before.",
+    "answer": "TRUE",
+    "evidence": "thousands of tiny letters ... many of them previously unreadable",
+    "explanation": "\"Previously unreadable\" = \"had not been read before\"."
+   },
+   {
+    "n": 6,
+    "q": "The mechanism was powered by a system of weights.",
+    "answer": "FALSE",
+    "evidence": "operated by turning a handle on its side",
+    "explanation": "The passage specifies a hand-turned mechanism, which is incompatible with power from weights."
+   },
+   {
+    "n": 7,
+    "q": "The surviving parts clearly show how the planets' positions were displayed.",
+    "answer": "FALSE",
+    "evidence": "many researchers believe that the device also displayed their positions, although the parts that would have done so are lost",
+    "explanation": "Because those parts are lost, the surviving parts cannot \"clearly show\" this."
+   },
+   {
+    "n": 8,
+    "q": "The mechanism was made in 87 BC.",
+    "answer": "NOT GIVEN",
+    "evidence": "estimates ... range across the second and early first centuries BC",
+    "explanation": "The year 87 BC falls within the range the passage gives, so it is not contradicted. But no exact year is stated, so it is not confirmed either. This is the approximate-date rule from the lesson."
+   },
+   {
+    "n": 9,
+    "q": "Ancient writings mention devices that represented the movements of the heavens.",
+    "answer": "TRUE",
+    "evidence": "references in ancient writings to devices that modelled the heavens",
+    "explanation": "\"Modelled the heavens\" = \"represented the movements of the heavens\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_tfng_20",
+  "questionTypeName": "True / False / Not Given",
+  "title": "The Fallible Witness",
+  "lesson": {
+   "title": "Combining everything",
+   "text": "This final set combines the main TFNG skills: qualifiers, study details, causes, evidence strength and \"was vs is\". Work through each statement with a fixed checklist:\n\n1. What is the one claim?\n\n2. Where is it in the passage?\n\n3. Does the passage settle this exact claim?\n\n4. Yes, the same → TRUE.\n\n5. Yes, the opposite or incompatible → FALSE.\n\n6. No → NOT GIVEN.\n\nDo not change an answer just because TRUE, FALSE or NOT GIVEN \"seems to have come up too often\". Every set has its own balance.",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Memories are reconstructed rather than simply replayed.",
+    "answer": "TRUE",
+    "evidence": "memory does not work like a video recording. It is reconstructed each time we recall an event",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "In Loftus's experiment, all participants were asked exactly the same questions.",
+    "answer": "FALSE",
+    "evidence": "The key question was worded differently for different groups",
+    "explanation": "This contradicts \"exactly the same questions\"."
+   },
+   {
+    "n": 3,
+    "q": "The film shown to participants included a scene with broken glass.",
+    "answer": "FALSE",
+    "evidence": "There had been none in the film",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 4,
+    "q": "Participants who heard \"smashed\" were more likely to report seeing broken glass.",
+    "answer": "TRUE",
+    "evidence": "those who had heard 'smashed' were more than twice as likely to report having seen it",
+    "explanation": "\"More than twice as likely\" includes \"more likely\"."
+   },
+   {
+    "n": 5,
+    "q": "False memories are usually less detailed than genuine memories.",
+    "answer": "FALSE",
+    "evidence": "Such false memories could be ... described in vivid detail, making them difficult to distinguish from genuine memories",
+    "explanation": "This contradicts the claim that false memories are less detailed."
+   },
+   {
+    "n": 6,
+    "q": "Most of the DNA exoneration cases involved witnesses who were deliberately lying.",
+    "answer": "FALSE",
+    "evidence": "they were not lying, but they were wrong",
+    "explanation": "This directly contradicts \"deliberately lying\"."
+   },
+   {
+    "n": 7,
+    "q": "The presence of a weapon tends to make witnesses more accurate in identifying faces.",
+    "answer": "FALSE",
+    "evidence": "witnesses are less accurate \"when a weapon was present\"",
+    "explanation": "This is the opposite of the statement."
+   },
+   {
+    "n": 8,
+    "q": "Positive feedback after an identification can increase a witness's confidence.",
+    "answer": "TRUE",
+    "evidence": "Feedback given after an identification ... can make witnesses more confident without making them more accurate",
+    "explanation": "This matches the statement."
+   },
+   {
+    "n": 9,
+    "q": "The reforms described have been adopted in every country.",
+    "answer": "NOT GIVEN",
+    "evidence": "These findings have led to reforms in many places",
+    "explanation": "\"Many places\" neither confirms nor rules out \"every country\". The passage does not tell us the full extent."
+   },
+   {
+    "n": 10,
+    "q": "Researchers have always believed that confidence recorded immediately is a good guide to accuracy.",
+    "answer": "FALSE",
+    "evidence": "It was long assumed by researchers that a witness's confidence was a poor guide ... More recent studies suggest ...",
+    "explanation": "The earlier assumption was the opposite, which contradicts \"always believed\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_01",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "Why Our Streets Need Trees",
+  "lesson": {
+   "title": "Spotting the writer's position early",
+   "text": "In an argumentative passage, the writer's main position is usually clear in the first and last paragraphs. Middle paragraphs give reasons, deal with objections and offer qualifications. Write the writer's position in five words at the top of the passage, for example \"cities need more trees; plan carefully\". Many YES/NO answers follow directly from it, but check each qualification the writer adds.",
+   "example": "Opening: \"Cycling lanes are the best investment a city can make.\" Statement: \"The writer believes cycling lanes are a poor use of money.\" → NO."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Street trees should be regarded as a decorative luxury.",
+    "answer": "NO",
+    "evidence": "Street trees are not a decorative luxury but one of the most cost-effective investments",
+    "explanation": "The writer explicitly rejects this view."
+   },
+   {
+    "n": 2,
+    "q": "It is irresponsible to leave city streets without tree shade during heatwaves.",
+    "answer": "YES",
+    "evidence": "it seems to me irresponsible to leave the streets of our cities without the natural protection that trees provide",
+    "explanation": "\"It seems to me\" marks the writer's own view, and it matches the statement."
+   },
+   {
+    "n": 3,
+    "q": "Trees are the most effective way of reducing air pollution.",
+    "answer": "NO",
+    "evidence": "trees cannot solve the problem of air pollution on their own, and reducing traffic emissions remains far more important",
+    "explanation": "The writer considers reducing emissions more important, which contradicts \"most effective\"."
+   },
+   {
+    "n": 4,
+    "q": "The link between trees and lower stress has been fully explained.",
+    "answer": "NO",
+    "evidence": "even if the reasons for them are not fully understood",
+    "explanation": "The writer states the opposite."
+   },
+   {
+    "n": 5,
+    "q": "Some objections to street trees are worth considering.",
+    "answer": "YES",
+    "evidence": "some of them deserve to be taken seriously",
+    "explanation": "\"Deserve to be taken seriously\" = \"worth considering\"."
+   },
+   {
+    "n": 6,
+    "q": "Most problems caused by street trees are the result of poor planning.",
+    "answer": "YES",
+    "evidence": "these problems usually result from poor planning rather than from trees themselves",
+    "explanation": "\"Usually\" = \"most\"."
+   },
+   {
+    "n": 7,
+    "q": "Fruit trees are the most suitable species for city streets.",
+    "answer": "NOT GIVEN",
+    "evidence": "The writer recommends \"species suited to the space available\" (Paragraph E) but never mentions fruit trees.",
+    "explanation": "No view on this claim is expressed."
+   },
+   {
+    "n": 8,
+    "q": "Poorer neighbourhoods should receive particular attention in tree planting.",
+    "answer": "YES",
+    "evidence": "particular attention to poorer neighbourhoods, which often have far fewer trees",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_02",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "How Much Homework Is Too Much?",
+  "lesson": {
+   "title": "Reported views vs the writer's view",
+   "text": "Writers often present an opinion before responding to it: \"Some parents argue that... This, however, overlooks...\". The first sentence is not the writer's view. Always read on to the writer's reaction. Words such as however, yet, but, this overlooks, I disagree, there is some truth in this reveal whether the writer rejects, accepts or partly accepts the reported view.",
+   "example": "Passage: \"Some claim tests are useless. There is some truth in this for very young children, but for older students tests are valuable.\" Statement: \"Tests are useless for all students.\" → NO."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Much of the homework given to young children is of little benefit.",
+    "answer": "YES",
+    "evidence": "for young children, in particular, much of the homework currently set does little good",
+    "explanation": "\"Does little good\" = \"of little benefit\"."
+   },
+   {
+    "n": 2,
+    "q": "More than two hours of homework a night brings large additional benefits for secondary students.",
+    "answer": "NO",
+    "evidence": "Beyond around two hours a night, additional homework appears to bring little further benefit",
+    "explanation": "\"Little further benefit\" contradicts \"large additional benefits\". The writer presents this finding as part of the evidence that informs their view."
+   },
+   {
+    "n": 3,
+    "q": "Homework for young children clearly succeeds in teaching independent working habits.",
+    "answer": "NO",
+    "evidence": "This is a reasonable hope, but I am not convinced that it is borne out in practice",
+    "explanation": "The supporters hold this view, but the writer doubts it, which contradicts \"clearly succeeds\"."
+   },
+   {
+    "n": 4,
+    "q": "Homework may benefit children whose parents can help them more than other children.",
+    "answer": "YES",
+    "evidence": "A task intended to help all children can therefore end up favouring those who are already advantaged",
+    "explanation": "This matches the statement."
+   },
+   {
+    "n": 5,
+    "q": "Schools generally give enough attention to the unequal effects of homework.",
+    "answer": "NO",
+    "evidence": "Schools rarely take this problem seriously enough",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 6,
+    "q": "Reading at home is valuable for young children.",
+    "answer": "YES",
+    "evidence": "Reading is the obvious exception ... I would encourage every family to make reading a daily habit",
+    "explanation": "This matches the statement."
+   },
+   {
+    "n": 7,
+    "q": "Children should be given homework during school holidays.",
+    "answer": "NOT GIVEN",
+    "evidence": "School holidays are never mentioned.",
+    "explanation": "The writer expresses no view on this."
+   },
+   {
+    "n": 8,
+    "q": "Play is an important part of children's development.",
+    "answer": "YES",
+    "evidence": "These activities are not a waste of time ... they are an essential part of development",
+    "explanation": "Play is among \"these activities\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_03",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "The Case for the Pen",
+  "lesson": {
+   "title": "Concessions (\"Admittedly...\", \"Of course...\")",
+   "text": "Writers make their arguments more convincing by admitting points that seem to support the other side: admittedly, of course, it is true that, I accept that, no doubt. A concession is the writer's view. The writer genuinely accepts it, even though it is not the main argument. So if the writer says \"Admittedly, typing is faster\", a statement \"typing is faster than handwriting\" is YES, even if the writer's overall position favours handwriting.",
+   "example": "Passage: \"Of course, electric cars are expensive. Even so, I believe they are worth buying.\" Statement: \"Electric cars are costly.\" → YES."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Handwriting should be completely replaced by typing in schools.",
+    "answer": "NO",
+    "evidence": "I believe it would be a mistake to abandon handwriting altogether",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 2,
+    "q": "For most adults, typing is quicker than writing by hand.",
+    "answer": "YES",
+    "evidence": "Admittedly, typing ... is faster for most adults",
+    "explanation": "This is a concession, and it is still the writer's view."
+   },
+   {
+    "n": 3,
+    "q": "Students who find writing painful should be required to use pens.",
+    "answer": "NO",
+    "evidence": "nobody should be forced to struggle with a pen when a better alternative exists",
+    "explanation": "This contradicts \"required to use pens\"."
+   },
+   {
+    "n": 4,
+    "q": "Learning to form letters by hand may help children remember them.",
+    "answer": "YES",
+    "evidence": "The physical effort of shaping each letter seems to help fix its form in memory. I find this evidence convincing",
+    "explanation": "The hedge \"may\" in the statement fits \"seems\"."
+   },
+   {
+    "n": 5,
+    "q": "The research on note-taking has conclusively settled the question.",
+    "answer": "NO",
+    "evidence": "I would not claim they settle the question",
+    "explanation": "This contradicts \"conclusively settled\"."
+   },
+   {
+    "n": 6,
+    "q": "Handwriting is mainly valued out of nostalgia.",
+    "answer": "NO",
+    "evidence": "Some argue that handwriting is simply old-fashioned ... a form of nostalgia. I disagree",
+    "explanation": "This is the reported view that the writer rejects."
+   },
+   {
+    "n": 7,
+    "q": "Joined-up writing is easier to read than separate letters.",
+    "answer": "NOT GIVEN",
+    "evidence": "Joined-up writing is mentioned only in Paragraph A, as something schools teach less.",
+    "explanation": "The writer gives no view on its readability."
+   },
+   {
+    "n": 8,
+    "q": "Schools should teach both handwriting and typing.",
+    "answer": "YES",
+    "evidence": "The sensible approach is to teach both",
+    "explanation": "This is a direct match."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_04",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "Open Doors",
+  "lesson": {
+   "title": "Strength of the writer's view",
+   "text": "Writers don't only agree or disagree; they agree to a degree. A writer who says free entry is \"generally the better policy\" does not claim that \"all museums must be free in all circumstances\". Compare the strength words in the statement (always, all, must, never, completely) with the writer's own words (generally, usually, in most cases, can). If the statement is clearly stronger than the writer's view, the answer is usually NO.",
+   "example": "Passage: \"Charging for plastic bags is usually a good idea.\" Statement: \"Charging for plastic bags is always right.\" → NO, because the writer allows exceptions."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Free entry is generally preferable for the permanent collections of publicly funded museums.",
+    "answer": "YES",
+    "evidence": "for publicly funded museums, free entry to permanent collections is generally the better policy",
+    "explanation": "This is a direct paraphrase."
+   },
+   {
+    "n": 2,
+    "q": "A small entry fee cannot discourage low-income families from visiting.",
+    "answer": "NO",
+    "evidence": "even a modest charge can be a real barrier",
+    "explanation": "This contradicts \"cannot discourage\"."
+   },
+   {
+    "n": 3,
+    "q": "Removing charges has always attracted many new types of visitors.",
+    "answer": "NO",
+    "evidence": "the increase has not always been as broad as supporters hoped. Much of the growth has sometimes come from people who were already regular museum-goers",
+    "explanation": "This contradicts \"always ... new types of visitors\"."
+   },
+   {
+    "n": 4,
+    "q": "Free entry alone is enough to widen museum audiences.",
+    "answer": "NO",
+    "evidence": "Free entry ... is necessary for wider access but not sufficient on its own",
+    "explanation": "\"Not sufficient on its own\" contradicts \"alone is enough\"."
+   },
+   {
+    "n": 5,
+    "q": "Outreach programmes in museums often lack sufficient funding.",
+    "answer": "YES",
+    "evidence": "it is too often underfunded",
+    "explanation": "\"Too often underfunded\" = \"often lack sufficient funding\"."
+   },
+   {
+    "n": 6,
+    "q": "Museums should never charge for any exhibition.",
+    "answer": "NO",
+    "evidence": "I see no objection to museums charging for special temporary exhibitions",
+    "explanation": "This contradicts \"never ... any exhibition\". The writer's view is less absolute than the statement."
+   },
+   {
+    "n": 7,
+    "q": "International tourists visit museums more often than local residents.",
+    "answer": "NOT GIVEN",
+    "evidence": "International tourists are mentioned only as people who \"can afford to pay\"",
+    "explanation": "No comparison of how often they visit is made."
+   },
+   {
+    "n": 8,
+    "q": "Charging for entry will prevent some people from visiting museums.",
+    "answer": "YES",
+    "evidence": "charging guarantees that some will not [come]",
+    "explanation": "This matches the statement."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_05",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "Loving Places to Death",
+  "lesson": {
+   "title": "\"Rather than\" and \"not ... but\"",
+   "text": "Writers often reject one idea and propose another in the same sentence: \"not X but Y\", \"Y rather than X\", \"instead of X, cities should Y\". These structures give you two answers at once: a statement supporting X is NO, and a statement supporting Y is YES. Read such sentences slowly, because it is easy to reverse them.",
+   "example": "Passage: \"The answer is not to close the park but to manage its paths better.\"\nStatement: \"The park should be closed.\" → NO. Statement: \"Better path management is needed.\" → YES."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Tourism itself is the main cause of the problems described.",
+    "answer": "NO",
+    "evidence": "It would be easy to conclude that tourism itself is the problem. I think that conclusion is wrong",
+    "explanation": "The writer rejects this directly."
+   },
+   {
+    "n": 2,
+    "q": "The concentration of visitors in particular places and times is the real difficulty.",
+    "answer": "YES",
+    "evidence": "The difficulty is not that people travel, but that visitors are concentrated in a small number of places, at the same times",
+    "explanation": "This is the \"not X but Y\" pattern: Y is the writer's view."
+   },
+   {
+    "n": 3,
+    "q": "A temporary closure can sometimes be appropriate for a damaged site.",
+    "answer": "YES",
+    "evidence": "Occasionally, when a site has been seriously damaged, a temporary closure may be justified",
+    "explanation": "This is a concession that the writer genuinely accepts."
+   },
+   {
+    "n": 4,
+    "q": "Bans are the most effective general response to overtourism.",
+    "answer": "NO",
+    "evidence": "As a general policy, however, I find bans too blunt",
+    "explanation": "This contradicts \"most effective\"."
+   },
+   {
+    "n": 5,
+    "q": "Tourist taxes are only acceptable if the money benefits residents and sites.",
+    "answer": "NOT GIVEN",
+    "evidence": "Tourist taxes, if the revenue is used to benefit residents and maintain sites, can ensure that visitors contribute",
+    "explanation": "The writer says taxes can work under this condition, but does not say they are acceptable only under it. Whether they would be acceptable otherwise is not stated. This is a Medium-style trap placed here for practice."
+   },
+   {
+    "n": 6,
+    "q": "Cruise passengers spend less money locally than other tourists.",
+    "answer": "NOT GIVEN",
+    "evidence": "Cruise ships are mentioned only in relation to sudden surges of passengers",
+    "explanation": "No view on spending is expressed."
+   },
+   {
+    "n": 7,
+    "q": "Regulating short-term rentals is necessary to keep historic centres lived in.",
+    "answer": "YES",
+    "evidence": "In my view, such regulation is necessary if historic centres are to remain places where people actually live",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 8,
+    "q": "Individual tourists' choices will be enough to solve overtourism.",
+    "answer": "NO",
+    "evidence": "it would be unrealistic to rely on individual choices alone",
+    "explanation": "This contradicts \"will be enough\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_06",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "The Price of a Free Ride",
+  "lesson": {
+   "title": "Priorities and rankings in opinions",
+   "text": "A writer may accept that something is good while arguing that something else is more important. For example: \"Lower fares help, but reliability matters more.\" Statements may test the ranking. \"Price is the most important factor\" → NO. \"Lower fares can help\" → YES. Look for comparative language: more important, above all, the main, secondary, the first priority.",
+   "example": "Passage: \"Cheaper tickets are welcome, but the real priority is more frequent trains.\" Statement: \"Frequency matters more than price.\" → YES."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The writer agrees with the aims of those who campaign for free public transport.",
+    "answer": "YES",
+    "evidence": "I share their goals, but I am not persuaded that abolishing fares is the best way",
+    "explanation": "The writer agrees with the aims but not with the method."
+   },
+   {
+    "n": 2,
+    "q": "Improving services would attract more drivers than removing fares.",
+    "answer": "YES",
+    "evidence": "In my view, these improvements would do more to attract drivers than a lower price",
+    "explanation": "This matches the writer's ranking."
+   },
+   {
+    "n": 3,
+    "q": "The main reason people drive is the price of public transport tickets.",
+    "answer": "NO",
+    "evidence": "what keeps them in their cars is not mainly the price of a ticket",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 4,
+    "q": "Free travel mainly attracts people who previously walked or cycled.",
+    "answer": "YES",
+    "evidence": "a large share of the new passengers are people who previously walked or cycled, rather than drivers",
+    "explanation": "The writer presents this evidence as supporting their view. \"Mainly\" is justified by the contrast \"rather than drivers\"."
+   },
+   {
+    "n": 5,
+    "q": "Fares on public transport should be set at a high level.",
+    "answer": "NO",
+    "evidence": "None of this means that fares should be high",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 6,
+    "q": "Free travel for older people should be funded by national government rather than cities.",
+    "answer": "NOT GIVEN",
+    "evidence": "The writer supports free travel for older people (Paragraph D) but never discusses who should pay for it.",
+    "explanation": "No view is given on funding sources."
+   },
+   {
+    "n": 7,
+    "q": "Free public transport may be sensible in some small towns.",
+    "answer": "YES",
+    "evidence": "in small towns with modest ticket income, free travel may well make sense",
+    "explanation": "This is a concession that the writer accepts."
+   },
+   {
+    "n": 8,
+    "q": "Electric buses should be introduced before fares are reduced.",
+    "answer": "NOT GIVEN",
+    "evidence": "Electric buses are not mentioned.",
+    "explanation": "No view is expressed."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_07",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "The Courage to Say \"We Don't Know\"",
+  "lesson": {
+   "title": "Implied opinions",
+   "text": "At Medium level, writers often express views indirectly: through word choice (\"so-called experts\", \"the understandable wish for certainty\"), through irony, or by describing a consequence as harmful or beneficial. You must infer the writer's attitude from these signals. Ask: Does the language show approval, disapproval or doubt?\n\nA view can be clear without the words \"I think\". But be careful not to over-read: tone alone does not create a view on a claim the writer never addresses.",
+   "example": "Passage: \"The council's latest plan – its third in two years – promises, once again, to solve the parking problem.\" Statement: \"The writer doubts that the plan will succeed.\" → YES (shown through \"third\", \"once again\", \"promises\")."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "It is understandable that scientists feel pressure to sound certain.",
+    "answer": "YES",
+    "evidence": "The temptation is understandable",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "Overstating certainty is a harmless way of making advice easier to follow.",
+    "answer": "NO",
+    "evidence": "It is also, I believe, one of the most damaging mistakes",
+    "explanation": "\"Most damaging\" contradicts \"harmless\"."
+   },
+   {
+    "n": 3,
+    "q": "Changes in scientific advice are a sign of poor scientific work.",
+    "answer": "NO",
+    "evidence": "\"To scientists, this is simply how knowledge advances\" (Paragraph B); changes should be seen \"not as failures but as evidence that science is working\" (Paragraph F)",
+    "explanation": "The public may see it as incompetence, but the writer does not."
+   },
+   {
+    "n": 4,
+    "q": "There are situations in which clear instructions must be given without delay.",
+    "answer": "YES",
+    "evidence": "there are certainly situations ... in which clear instructions must be given quickly",
+    "explanation": "This is a concession accepted by the writer."
+   },
+   {
+    "n": 5,
+    "q": "Research shows that admitting uncertainty always increases public trust.",
+    "answer": "NO",
+    "evidence": "most people's trust in the source does not fall, and in some cases slightly increases",
+    "explanation": "\"In some cases slightly\" contradicts \"always increases\"."
+   },
+   {
+    "n": 6,
+    "q": "Concealing uncertainty is more damaging to trust than uncertainty itself.",
+    "answer": "YES",
+    "evidence": "What damages trust ... is not uncertainty itself but the discovery that uncertainty was concealed",
+    "explanation": "This is a \"not X but Y\" structure."
+   },
+   {
+    "n": 7,
+    "q": "Numerical ranges are always easier for the public to understand than words.",
+    "answer": "NO",
+    "evidence": "Numbers and ranges can be clearer, but they must be presented carefully, since many people find probabilities difficult",
+    "explanation": "\"Can be\" and \"many people find ... difficult\" contradict \"always easier\"."
+   },
+   {
+    "n": 8,
+    "q": "Scientists should receive formal training in communicating with the media.",
+    "answer": "NOT GIVEN",
+    "evidence": "Paragraph E discusses how to communicate, but formal training is never mentioned.",
+    "explanation": "This is NOT GIVEN on a topic the passage discusses."
+   },
+   {
+    "n": 9,
+    "q": "Journalists who demand simple answers share some responsibility for the problem.",
+    "answer": "YES",
+    "evidence": "Journalists and politicians who demand simple certainties ... contribute to the problem they complain about",
+    "explanation": "\"Contribute to\" = \"share some responsibility\"."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_08",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "Paying Someone Else to Cut",
+  "lesson": {
+   "title": "Conditional opinions",
+   "text": "A writer may support something only under certain conditions: \"Offsets can be useful if they are verified\", \"provided that...\", \"as long as...\", \"only when...\". Statements may: drop the condition (\"offsets are useful\") — usually NO if the writer stresses the condition, because the statement overgeneralises;\n\nkeep the condition — YES;\n\nintroduce a different condition — often NOT GIVEN.",
+   "example": "Passage: \"Online courses work well, but only for highly motivated learners.\"\nStatement: \"Online courses work well for all learners.\" → NO."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The basic principle behind carbon offsets is reasonable.",
+    "answer": "YES",
+    "evidence": "In principle, the idea is sound ... I have no objection to the principle",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "Offsets can channel funding to projects in poorer countries.",
+    "answer": "YES",
+    "evidence": "Offsets can also direct money to projects in poorer countries",
+    "explanation": "\"Direct money\" = \"channel funding\"."
+   },
+   {
+    "n": 3,
+    "q": "All forest protection schemes have exaggerated their benefits.",
+    "answer": "NO",
+    "evidence": "Investigations of some forest protection schemes have concluded that the reductions claimed were greatly exaggerated",
+    "explanation": "\"Some\" contradicts \"all\"."
+   },
+   {
+    "n": 4,
+    "q": "Carbon stored in forests is as permanent as carbon released from fossil fuels.",
+    "answer": "NO",
+    "evidence": "Carbon stored in trees can be released again ... whereas carbon released by burning fossil fuels remains in the atmosphere for centuries. Treating the two as equivalent is, in my view, misleading",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 5,
+    "q": "Improvements in offset standards are to be welcomed.",
+    "answer": "YES",
+    "evidence": "This is true, and it is welcome",
+    "explanation": "This matches the statement."
+   },
+   {
+    "n": 6,
+    "q": "Offset projects that capture landfill methane are the cheapest kind to run.",
+    "answer": "NOT GIVEN",
+    "evidence": "Landfill methane projects \"have a stronger record\"",
+    "explanation": "Their reliability is discussed, but not their cost."
+   },
+   {
+    "n": 7,
+    "q": "Offsets should replace direct efforts to reduce emissions.",
+    "answer": "NO",
+    "evidence": "Offsets should come after serious efforts to cut emissions directly, not instead of them",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 8,
+    "q": "Airlines should be banned from selling offsets to passengers.",
+    "answer": "NOT GIVEN",
+    "evidence": "Airlines are mentioned only as an example in Paragraph A.",
+    "explanation": "The writer is sceptical about some claims but never proposes banning the sale of offsets."
+   },
+   {
+    "n": 9,
+    "q": "Offsets are suitable for emissions that are hard to eliminate, provided high standards are applied.",
+    "answer": "YES",
+    "evidence": "Used honestly and with high standards, offsets can play a supporting role ... particularly for emissions that are genuinely difficult to eliminate",
+    "explanation": "The statement keeps the writer's condition, so it matches."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_09",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "Restore or Preserve?",
+  "lesson": {
+   "title": "Writers who evaluate historical figures' views",
+   "text": "Some passages describe the positions of historical thinkers and then evaluate them. The statements usually concern the writer's evaluation, not what the historical figures believed. If a statement says \"Ruskin's view was too extreme\" and the writer says Ruskin \"went too far\", the answer is YES. If a statement simply repeats Ruskin's opinion (\"restoration is a lie\"), you must check whether the writer agrees with it.",
+   "example": "Passage: \"Smith insisted that all ornament was waste. His argument, though influential, ignored the pleasure people take in decoration.\" Statement: \"All ornament is a waste.\" → NO (the writer criticises the view)."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Viollet-le-Duc's restorations helped to prevent some buildings from collapsing.",
+    "answer": "YES",
+    "evidence": "His restorations saved many buildings that might otherwise have collapsed",
+    "explanation": "The writer presents this as accepted fact."
+   },
+   {
+    "n": 2,
+    "q": "It is always easy to distinguish Viollet-le-Duc's additions from medieval work.",
+    "answer": "NO",
+    "evidence": "it is now often difficult to tell which is which",
+    "explanation": "This contradicts \"always easy\"."
+   },
+   {
+    "n": 3,
+    "q": "Ruskin's emphasis on honesty in treating old buildings is broadly right.",
+    "answer": "YES",
+    "evidence": "Ruskin's insistence on honesty seems to me largely correct",
+    "explanation": "\"Largely correct\" = \"broadly right\"."
+   },
+   {
+    "n": 4,
+    "q": "Historic buildings should be allowed to fall into ruin rather than be restored.",
+    "answer": "NO",
+    "evidence": "Few people ... would accept that outcome, and I do not think they should",
+    "explanation": "This is Ruskin's extreme position, which the writer rejects."
+   },
+   {
+    "n": 5,
+    "q": "Viollet-le-Duc's work is more popular with visitors than buildings preserved in Ruskin's way.",
+    "answer": "NOT GIVEN",
+    "evidence": "Viollet-le-Duc's restorations \"remain popular with visitors\"",
+    "explanation": "No comparison with preserved buildings is made."
+   },
+   {
+    "n": 6,
+    "q": "Applying modern conservation principles is usually straightforward.",
+    "answer": "NO",
+    "evidence": "applying them is often a matter of difficult judgement rather than simple rules",
+    "explanation": "This contradicts \"straightforward\"."
+   },
+   {
+    "n": 7,
+    "q": "Reconstructing destroyed buildings has no value at all.",
+    "answer": "NO",
+    "evidence": "it can restore a place's meaning for the community",
+    "explanation": "The writer sees some value, which contradicts \"no value at all\"."
+   },
+   {
+    "n": 8,
+    "q": "Reconstructions should be clearly identified as reconstructions.",
+    "answer": "YES",
+    "evidence": "provided that it is honestly presented as a reconstruction",
+    "explanation": "This is the writer's condition."
+   },
+   {
+    "n": 9,
+    "q": "Treating buildings as historical evidence should take priority over their appearance.",
+    "answer": "YES",
+    "evidence": "\"The best practice, in my view, accepts both values but gives priority to the second\" (Paragraph G), where the second value is buildings \"as evidence and as survivors\".",
+    "explanation": "To answer this, you must identify what \"the second\" refers to."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_10",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "The Trouble with \"Growth Mindset\"",
+  "lesson": {
+   "title": "Writers who partly agree",
+   "text": "Many Medium passages take a \"yes, but\" position: the idea is valuable, but it has been exaggerated or misapplied. Such writers produce statements of three kinds:\n\nthe core idea the writer accepts → YES;\n\nthe exaggerated version the writer rejects → NO;\n\ndetails the writer doesn't evaluate → NOT GIVEN.\n\nKeep two lists as you read: what the writer accepts and what the writer rejects.",
+   "example": "Passage: \"Mindfulness can reduce stress for some people, but claims that it cures anxiety disorders go far beyond the evidence.\" Statements: \"Mindfulness may help some people with stress\" → YES. \"Mindfulness cures anxiety disorders\" → NO."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The central idea of growth mindset has real value.",
+    "answer": "YES",
+    "evidence": "I think its central insight is valuable",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 2,
+    "q": "Dweck's early findings on praise deserved the attention they received.",
+    "answer": "YES",
+    "evidence": "have deservedly been widely discussed",
+    "explanation": "\"Deservedly\" shows the writer's approval."
+   },
+   {
+    "n": 3,
+    "q": "Displaying posters about effort is an effective way of applying growth mindset.",
+    "answer": "NO",
+    "evidence": "\"'growth mindset' came to mean little more than posters on classroom walls\" and \"Unfortunately ... it was often simplified\"",
+    "explanation": "\"Unfortunately\" and \"little more than\" show the writer's disapproval."
+   },
+   {
+    "n": 4,
+    "q": "Praising effort that does not lead to progress can be misleading.",
+    "answer": "YES",
+    "evidence": "praising effort that is not producing progress can be misleading",
+    "explanation": "Dweck makes this point, and the writer reports it approvingly as part of a criticism they share (\"Unfortunately ...\")."
+   },
+   {
+    "n": 5,
+    "q": "Growth-mindset programmes produce large improvements for all students.",
+    "answer": "NO",
+    "evidence": "only small improvements ... smaller or negligible for others",
+    "explanation": "This contradicts \"large improvements for all\"."
+   },
+   {
+    "n": 6,
+    "q": "The claim that growth mindset could transform whole schools was supported by evidence.",
+    "answer": "NO",
+    "evidence": "were never supported by the evidence",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 7,
+    "q": "Growth-mindset programmes should be compulsory in all schools.",
+    "answer": "NOT GIVEN",
+    "evidence": "The writer says brief programmes \"may well be worthwhile\" (Paragraph E) but never discusses making them compulsory.",
+    "explanation": "No view is expressed."
+   },
+   {
+    "n": 8,
+    "q": "A small average effect means that an intervention is worthless.",
+    "answer": "NO",
+    "evidence": "a small average effect is not the same as no effect ... may well be worthwhile",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 9,
+    "q": "Growth-mindset ideas are more widely used in primary schools than in secondary schools.",
+    "answer": "NOT GIVEN",
+    "evidence": "The passage says the idea \"spread through schools\" (Paragraph A) but never distinguishes between types of school.",
+    "explanation": "No view or information on this comparison is given."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_11",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "Machines and Jobs",
+  "lesson": {
+   "title": "Predictions and certainty",
+   "text": "When writers discuss the future, they vary in confidence: will certainly, is likely to, may, it is too early to say. A statement that turns the writer's \"may\" into \"will\" is usually NO if the writer stresses uncertainty. It is NOT GIVEN if the writer makes no prediction on that point at all.",
+   "example": "Passage: \"It is possible that prices will fall next year, but nobody can be sure.\"\nStatement: \"Prices will definitely fall next year.\" → NO."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Over the long term, technological change has generally increased the total number of jobs.",
+    "answer": "YES",
+    "evidence": "the overall number of jobs has tended to grow over the long run",
+    "explanation": "\"Tended to grow\" = \"generally increased\"."
+   },
+   {
+    "n": 2,
+    "q": "The nineteenth-century textile workers had no reason to fear for their own jobs.",
+    "answer": "NO",
+    "evidence": "The textile workers' fears were justified for them personally",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 3,
+    "q": "Workers who lose their jobs to machines usually find new jobs quickly.",
+    "answer": "NO",
+    "evidence": "did not automatically move into the new jobs; many experienced long periods of unemployment",
+    "explanation": "This contradicts \"usually ... quickly\"."
+   },
+   {
+    "n": 4,
+    "q": "The possibility that machines could do almost any human job can be completely ruled out.",
+    "answer": "NO",
+    "evidence": "I do not think we can dismiss this possibility",
+    "explanation": "This contradicts \"completely ruled out\", even though the writer is sceptical of dramatic predictions."
+   },
+   {
+    "n": 5,
+    "q": "Technology has more commonly altered workers' tasks than eliminated their jobs.",
+    "answer": "YES",
+    "evidence": "technology has more often changed what workers do than replaced them entirely",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "Artificial intelligence will create more jobs than it destroys.",
+    "answer": "NOT GIVEN",
+    "evidence": "It is too early to know whether this pattern will continue",
+    "explanation": "The writer makes no prediction about AI specifically. They express uncertainty but no view on this net outcome."
+   },
+   {
+    "n": 7,
+    "q": "Without intervention, the benefits of new technology may be distributed unevenly.",
+    "answer": "YES",
+    "evidence": "Without deliberate policies, the benefits of new technology may be shared very unequally",
+    "explanation": "This is a direct paraphrase."
+   },
+   {
+    "n": 8,
+    "q": "A basic income is the best solution to job losses caused by technology.",
+    "answer": "NO",
+    "evidence": "Such ideas deserve serious study, but they raise difficult questions about cost",
+    "explanation": "The writer treats basic income as worth studying, not as the best solution. The cautious tone contradicts \"the best solution\"."
+   },
+   {
+    "n": 9,
+    "q": "Companies that use automation should pay higher taxes.",
+    "answer": "NOT GIVEN",
+    "evidence": "Taxes on companies are not discussed.",
+    "explanation": "No view is expressed."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_12",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "A Tax on Sweetness",
+  "lesson": {
+   "title": "Responses to criticisms",
+   "text": "Opinion passages often list criticisms of a policy and respond to each one. The writer's response may:\n\nreject the criticism (\"this argument does not hold\"), so a statement repeating the criticism → NO;\n\naccept it (\"this is a genuine concern\") → YES;\n\npartly accept it (\"there is something in this, but...\"). Here you must work out which part the writer accepts.\n\nLabel each criticism in the margin with ✔, ✘ or ½.",
+   "example": "Passage: \"Critics say the tax hurts poorer families. There is something in this, but the health benefits for those families are also greatest.\" Statement: \"The tax has some negative effect on poorer families.\" → YES (partly accepted)."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Sugar taxes are a complete solution to diet-related disease.",
+    "answer": "NO",
+    "evidence": "\"they are no cure-all\" (Paragraph A); \"will not solve the problem of poor diet on their own\" (Paragraph G)",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 2,
+    "q": "Changes by manufacturers may be the most important effect of sugar taxes.",
+    "answer": "YES",
+    "evidence": "This effect ... may be the most valuable outcome of such taxes",
+    "explanation": "\"Most valuable\" = \"most important\", and \"may\" is kept in the statement."
+   },
+   {
+    "n": 3,
+    "q": "The objection that sugar taxes affect poorer households more has some validity.",
+    "answer": "YES",
+    "evidence": "There is something in this",
+    "explanation": "This is a partial acceptance, which matches \"some validity\"."
+   },
+   {
+    "n": 4,
+    "q": "Sugar taxes are an unjustified interference in personal freedom.",
+    "answer": "NO",
+    "evidence": "I find this argument unconvincing",
+    "explanation": "The writer rejects the criticism."
+   },
+   {
+    "n": 5,
+    "q": "People always replace sugary drinks with other sweet foods.",
+    "answer": "NO",
+    "evidence": "people may simply replace ... The evidence on this point is mixed",
+    "explanation": "\"May\" and \"mixed\" contradict \"always\"."
+   },
+   {
+    "n": 6,
+    "q": "The tax on sugary drinks should be extended to sweets and cakes.",
+    "answer": "NOT GIVEN",
+    "evidence": "The writer notes that drinks are \"only one source of sugar\" (Paragraph E) but does not propose taxing other foods.",
+    "explanation": "No view on extending the tax is given."
+   },
+   {
+    "n": 7,
+    "q": "Effective policy on diet needs to address several factors at once.",
+    "answer": "YES",
+    "evidence": "effective policy must address several of them together",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 8,
+    "q": "The difficulty of proving health effects is a strong reason to abandon sugar taxes.",
+    "answer": "NO",
+    "evidence": "This is true, but it is not a strong argument against the policy",
+    "explanation": "The writer accepts that proof is difficult but rejects the conclusion."
+   },
+   {
+    "n": 9,
+    "q": "Sugar taxes have been more successful in some countries than in others.",
+    "answer": "NOT GIVEN",
+    "evidence": "The passage describes effects in general and never compares countries' results.",
+    "explanation": "No comparison is made."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_13",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "One Language for the World?",
+  "lesson": {
+   "title": "Balanced writers and \"on the one hand ... on the other\"",
+   "text": "A balanced writer presents benefits and costs and may agree with both. A statement expressing a benefit can be YES, and a statement expressing a cost can also be YES. What produces NO is a statement that denies one side entirely (\"English has brought no benefits\") or pushes one side to an extreme.",
+   "example": "Passage: \"Tourism brings money to the island; on the other hand, it strains water supplies.\" Statements: \"Tourism benefits the island's economy\" → YES. \"Tourism strains water supplies\" → YES. \"Tourism has no disadvantages\" → NO."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Native English speakers tend to underestimate the disadvantages of English's global role.",
+    "answer": "YES",
+    "evidence": "its costs are too easily overlooked by those of us who speak English as our first language",
+    "explanation": "\"Too easily overlooked\" = \"underestimate\"."
+   },
+   {
+    "n": 2,
+    "q": "People in other countries should be discouraged from learning English.",
+    "answer": "NO",
+    "evidence": "It would be patronising to suggest that people in other countries should be discouraged from learning it",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 3,
+    "q": "Native speakers have an unearned advantage in international communication.",
+    "answer": "YES",
+    "evidence": "Native speakers enjoy an advantage that they did nothing to earn",
+    "explanation": "\"Did nothing to earn\" = \"unearned\"."
+   },
+   {
+    "n": 4,
+    "q": "English is the main cause of the disappearance of most endangered languages.",
+    "answer": "NO",
+    "evidence": "Most endangered languages are under pressure not from English but from national or regional languages",
+    "explanation": "This contradicts the claim, which the writer says \"needs to be treated with care\"."
+   },
+   {
+    "n": 5,
+    "q": "Losing the use of a language in higher education is a real cause for concern.",
+    "answer": "YES",
+    "evidence": "This loss of domains is, I believe, a genuine concern",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 6,
+    "q": "Policies to keep national languages in universities are unreasonable.",
+    "answer": "NO",
+    "evidence": "such policies seem to me entirely reasonable",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 7,
+    "q": "Native English speakers should be required to learn a second language at school.",
+    "answer": "NOT GIVEN",
+    "evidence": "The writer criticises native speakers for making \"little effort to learn other languages\" (Paragraph F) but proposes no school requirement.",
+    "explanation": "No view on compulsory study is given."
+   },
+   {
+    "n": 8,
+    "q": "Native speakers can be more difficult to understand than non-native speakers in some international contexts.",
+    "answer": "YES",
+    "evidence": "native speakers are sometimes harder to understand in international settings than non-native speakers",
+    "explanation": "This is a direct match."
+   },
+   {
+    "n": 9,
+    "q": "English is easier to learn than most other languages.",
+    "answer": "NOT GIVEN",
+    "evidence": "The writer discusses the costs of learning English for non-native speakers (Paragraph C), but never compares its difficulty with that of other languages.",
+    "explanation": "No view on this comparison is expressed."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_14",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "The Value of Useless Knowledge",
+  "lesson": {
+   "title": "Examples that support the writer's argument",
+   "text": "Writers use historical examples to support their claims. A statement about an example can test whether you understand what the writer uses it to show. If the writer describes a discovery as \"made by researchers with no practical aim in mind\" in order to argue for curiosity-driven research, then the statement \"the researchers were trying to solve a practical problem\" → NO. Distinguish the example's facts from the argument the writer draws from them.",
+   "example": "Passage: \"Penicillin was found by accident, which shows that unplanned discoveries matter.\" Statement: \"Unplanned discoveries can be important.\" → YES."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The trend towards goal-directed research funding is difficult to understand.",
+    "answer": "NO",
+    "evidence": "I believe this trend, though understandable, is short-sighted",
+    "explanation": "\"Understandable\" contradicts \"difficult to understand\"."
+   },
+   {
+    "n": 2,
+    "q": "The researchers who studied atoms in magnetic fields were aiming to develop medical scanners.",
+    "answer": "NO",
+    "evidence": "pursued in the early twentieth century for purely theoretical reasons",
+    "explanation": "The writer uses this example to show that the application was unforeseen."
+   },
+   {
+    "n": 3,
+    "q": "The most valuable applications of research are often hard to foresee.",
+    "answer": "YES",
+    "evidence": "The most important applications are often the least predictable",
+    "explanation": "This is a direct paraphrase."
+   },
+   {
+    "n": 4,
+    "q": "Taxpayers have a right to expect that research will eventually benefit society.",
+    "answer": "YES",
+    "evidence": "taxpayers are entitled to expect that research will eventually benefit society",
+    "explanation": "The writer calls this \"a fair point\", a concession they accept."
+   },
+   {
+    "n": 5,
+    "q": "All scientific research should be driven by curiosity.",
+    "answer": "NO",
+    "evidence": "I do not argue that all research should be curiosity-driven",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 6,
+    "q": "Researchers tend to overstate the likely benefits of their work in funding applications.",
+    "answer": "YES",
+    "evidence": "applicants are encouraged to exaggerate the likely benefits",
+    "explanation": "\"Exaggerate\" = \"overstate\", and \"are encouraged to\" supports \"tend to\"."
+   },
+   {
+    "n": 7,
+    "q": "Private companies fund more applied research than governments do.",
+    "answer": "NOT GIVEN",
+    "evidence": "Private companies are not mentioned.",
+    "explanation": "No view is expressed."
+   },
+   {
+    "n": 8,
+    "q": "Basic research should be free from any form of assessment.",
+    "answer": "NO",
+    "evidence": "None of this means that basic research should escape scrutiny",
+    "explanation": "This contradicts \"free from any form of assessment\"."
+   },
+   {
+    "n": 9,
+    "q": "Curiosity-driven research is more enjoyable for scientists than applied research.",
+    "answer": "NOT GIVEN",
+    "evidence": "The writer discusses the training value of curiosity-driven research (Paragraph F) but not scientists' enjoyment.",
+    "explanation": "No view is given."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_15",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "Great Individuals or Great Forces?",
+  "lesson": {
+   "title": "Hard YNNG — double negatives, understatement and irony",
+   "text": "Hard passages express views through complex language:\n\nDouble negatives: \"not without merit\" = has some merit; \"hardly unreasonable\" = reasonable.\n\nUnderstatement: \"somewhat less than convincing\" = unconvincing.\n\nIrony: \"a remarkably convenient conclusion\" = a suspicious conclusion.\n\nAttributed views dropped mid-sentence: \"what its critics call X, and what might more fairly be called Y\". The writer prefers Y.\n\nTranslate each such phrase into a plain statement of the writer's view before answering.",
+   "example": "Passage: \"The theory is not without its attractions, but it has proved hard to test.\"\nStatement: \"The theory has some appeal.\" → YES."
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "Modern ridicule of Carlyle's position is completely justified.",
+    "answer": "NO",
+    "evidence": "That mockery, I shall suggest, is not entirely deserved",
+    "explanation": "\"Not entirely deserved\" contradicts \"completely justified\". This relies on understatement."
+   },
+   {
+    "n": 2,
+    "q": "The study of ordinary people's lives revealed things that the study of rulers could not.",
+    "answer": "YES",
+    "evidence": "\"revealed patterns that the study of rulers alone could never have shown\" (Paragraph B); \"The achievements ... are beyond dispute\" (Paragraph C)",
+    "explanation": "The writer endorses this."
+   },
+   {
+    "n": 3,
+    "q": "Critics were wrong to say that some social histories made events seem inevitable.",
+    "answer": "NO",
+    "evidence": "Critics complained, not unreasonably, that such accounts made events appear inevitable",
+    "explanation": "\"Not unreasonably\" = reasonably, so the writer thinks the critics had a point. This relies on a double negative."
+   },
+   {
+    "n": 4,
+    "q": "Individual decisions can influence the timing and form of major events.",
+    "answer": "YES",
+    "evidence": "whether it happened in a particular year, and in a particular way, may depend on the decisions of a small number of people",
+    "explanation": "This matches \"timing and form\"."
+   },
+   {
+    "n": 5,
+    "q": "Denying the importance of individuals is as difficult to defend as Carlyle's position.",
+    "answer": "YES",
+    "evidence": "a form of dogmatism no more defensible than Carlyle's",
+    "explanation": "\"No more defensible than\" = \"as difficult to defend as\"."
+   },
+   {
+    "n": 6,
+    "q": "The idea that people act within limits set by circumstances is highly controversial.",
+    "answer": "NO",
+    "evidence": "is hardly controversial",
+    "explanation": "\"Hardly controversial\" = uncontroversial, which contradicts \"highly controversial\"."
+   },
+   {
+    "n": 7,
+    "q": "Spencer's work was more widely read than Carlyle's in the nineteenth century.",
+    "answer": "NOT GIVEN",
+    "evidence": "Spencer's response is described (Paragraph B), but readership is not mentioned.",
+    "explanation": "No comparison is given."
+   },
+   {
+    "n": 8,
+    "q": "Studies of leaders removed by chance have provided definite proof of their influence.",
+    "answer": "NO",
+    "evidence": "The findings are tentative",
+    "explanation": "\"Tentative\" contradicts \"definite proof\"."
+   },
+   {
+    "n": 9,
+    "q": "Historians should decide in advance whether individuals or forces are more important.",
+    "answer": "NO",
+    "evidence": "\"That is a question that can only be answered by examining the evidence for each event\" (Paragraph E); \"discover, case by case\" (Paragraph G)",
+    "explanation": "The writer opposes deciding in advance."
+   }
+  ]
+ },
+ {
+  "id": "rb_ynng_16",
+  "questionTypeName": "Yes / No / Not Given",
+  "title": "The Gentle Push",
+  "lesson": {
+   "title": "Distinguishing degrees of support",
+   "text": "Hard writers rarely simply support or oppose. They may:\n\nendorse some uses (→ YES for those uses);\n\nreject a strong claim made by enthusiasts (→ NO);\n\nraise a concern without resolving it (→ statements claiming the writer has resolved it are NO; statements about other, unaddressed aspects are NOT GIVEN).\n\nWatch for sentences that combine these moves: \"Nudges have their place, though not the place their champions claim.\"",
+   "example": null
+  },
+  "questions": [
+   {
+    "n": 1,
+    "q": "The popularity of nudging is easy to explain.",
+    "answer": "YES",
+    "evidence": "The appeal of nudging is understandable",
+    "explanation": "\"Understandable\" supports \"easy to explain\", and the writer goes on to give the reasons."
+   },
+   {
+    "n": 2,
+    "q": "Automatic enrolment in pension schemes has been a worthwhile policy.",
+    "answer": "YES",
+    "evidence": "I regard this as a genuine and valuable policy success",
+    "explanation": "This is an explicit endorsement."
+   },
+   {
+    "n": 3,
+    "q": "Nudges usually produce effects as large as those reported in academic journals.",
+    "answer": "NO",
+    "evidence": "considerably more modest than those reported in academic journals",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 4,
+    "q": "Evidence of small effects shows that nudging does not work.",
+    "answer": "NO",
+    "evidence": "This does not show that nudging fails; it shows that its effects are usually incremental",
+    "explanation": "The writer rejects this conclusion."
+   },
+   {
+    "n": 5,
+    "q": "Nudges could be harmful if they replaced policies addressing underlying causes.",
+    "answer": "YES",
+    "evidence": "If nudges come to be seen as a substitute for such policies ... their net effect could be harmful",
+    "explanation": "This matches the conditional view."
+   },
+   {
+    "n": 6,
+    "q": "Nudge units in some countries have been closed because of poor results.",
+    "answer": "NOT GIVEN",
+    "evidence": "Nudge units and their trials are discussed (Paragraphs A and C), but closures are never mentioned.",
+    "explanation": "This is NOT GIVEN on a topic the passage discusses."
+   },
+   {
+    "n": 7,
+    "q": "All nudges are a form of manipulation.",
+    "answer": "NO",
+    "evidence": "There is force in this where nudges are hidden ... But the objection loses much of its force when applied to transparent measures",
+    "explanation": "The writer accepts the objection only for some nudges, which contradicts \"all\"."
+   },
+   {
+    "n": 8,
+    "q": "It is possible to present choices in a completely neutral way.",
+    "answer": "NO",
+    "evidence": "there is no neutral way of presenting choices",
+    "explanation": "This is a direct contradiction."
+   },
+   {
+    "n": 9,
+    "q": "Nudging's main legacy may be encouraging governments to test their policies.",
+    "answer": "YES",
+    "evidence": "Its greatest contribution may prove to be ... the habit it has encouraged in governments of testing whether their policies actually work",
+    "explanation": "\"Greatest contribution\" = \"main legacy\", and \"may\" is kept in the statement."
+   }
+  ]
+ }
+]

@@ -1,0 +1,461 @@
+{
+  "generatedFrom": "assets/demo/demo_data.json",
+  "formats": [
+    {
+      "file": "01_reading_passages.json",
+      "group": "content",
+      "table": "reading_passages",
+      "records": 9,
+      "exported": true
+    },
+    {
+      "file": "02_reading_tests.json",
+      "group": "content",
+      "table": "reading_tests",
+      "records": 3,
+      "exported": true
+    },
+    {
+      "file": "03_listening_sets.json",
+      "group": "content",
+      "table": "listening_sets",
+      "records": 8,
+      "exported": true
+    },
+    {
+      "file": "04_listening_tests.json",
+      "group": "content",
+      "table": "listening_tests",
+      "records": 2,
+      "exported": true
+    },
+    {
+      "file": "05_writing_task1_prompts.json",
+      "group": "content",
+      "table": "writing_prompts",
+      "records": 15,
+      "exported": true
+    },
+    {
+      "file": "06_writing_task2_prompts.json",
+      "group": "content",
+      "table": "writing_prompts",
+      "records": 31,
+      "exported": true
+    },
+    {
+      "file": "07_speaking_part1_topics.json",
+      "group": "content",
+      "table": "speaking_part1_topics",
+      "records": 16,
+      "exported": true
+    },
+    {
+      "file": "08_speaking_cue_cards.json",
+      "group": "content",
+      "table": "speaking_cue_cards",
+      "records": 44,
+      "exported": true
+    },
+    {
+      "file": "09_mock_tests.json",
+      "group": "content",
+      "table": "mock_tests",
+      "records": 3,
+      "exported": true
+    },
+    {
+      "file": "10_vocab_quizzes.json",
+      "group": "content",
+      "table": "vocab_quizzes",
+      "records": 5,
+      "exported": true
+    },
+    {
+      "file": "11_phrasal_verbs.json",
+      "group": "content",
+      "table": "phrases",
+      "records": 30,
+      "exported": true
+    },
+    {
+      "file": "12_idioms.json",
+      "group": "content",
+      "table": "phrases",
+      "records": 25,
+      "exported": true
+    },
+    {
+      "file": "13_vocabulary_words.json",
+      "group": "content",
+      "table": "vocabulary_words",
+      "records": 19,
+      "exported": true
+    },
+    {
+      "file": "14_academic_words.json",
+      "group": "content",
+      "table": "academic_words",
+      "records": 6,
+      "exported": true
+    },
+    {
+      "file": "15_irregular_verbs.json",
+      "group": "content",
+      "table": "irregular_verbs",
+      "records": 37,
+      "exported": true
+    },
+    {
+      "file": "16_pronunciation_words.json",
+      "group": "content",
+      "table": "pronunciation_words",
+      "records": 6,
+      "exported": true
+    },
+    {
+      "file": "17_reading_lessons.json",
+      "group": "content",
+      "table": "lessons",
+      "records": 4,
+      "exported": true
+    },
+    {
+      "file": "18_listening_lessons.json",
+      "group": "content",
+      "table": "lessons",
+      "records": 9,
+      "exported": true
+    },
+    {
+      "file": "19_writing_lessons.json",
+      "group": "content",
+      "table": "lessons",
+      "records": 6,
+      "exported": true
+    },
+    {
+      "file": "20_sentence_drills.json",
+      "group": "content",
+      "table": "sentence_drills",
+      "records": 6,
+      "exported": true
+    },
+    {
+      "file": "21_writing_templates.json",
+      "group": "content",
+      "table": "writing_templates",
+      "records": 22,
+      "exported": true
+    },
+    {
+      "file": "22_writing_sample_answers.json",
+      "group": "content",
+      "table": "writing_sample_answers",
+      "records": 1,
+      "exported": true
+    },
+    {
+      "file": "23_articles.json",
+      "group": "content",
+      "table": "articles",
+      "records": 24,
+      "exported": true
+    },
+    {
+      "file": "24_band_descriptors.json",
+      "group": "content",
+      "table": "band_descriptors",
+      "records": 5,
+      "exported": true
+    },
+    {
+      "file": "25_word_of_the_day.json",
+      "group": "content",
+      "table": "word_of_the_day",
+      "records": 1,
+      "exported": true
+    },
+    {
+      "file": "26_speaking_part3_sets.json",
+      "group": "content",
+      "table": "speaking_part3_sets",
+      "records": 44,
+      "exported": true
+    },
+    {
+      "file": "27_reading_bank_passages.json",
+      "group": "content",
+      "table": "reading_passages",
+      "records": 280,
+      "exported": true
+    },
+    {
+      "file": "28_reading_type_lessons.json",
+      "group": "content",
+      "table": "reading_type_lessons",
+      "records": 14,
+      "exported": true
+    },
+    {
+      "file": "29_reading_practice_tests.json",
+      "group": "content",
+      "table": "reading_tests",
+      "records": 20,
+      "exported": true
+    },
+    {
+      "file": "30_plans.json",
+      "group": "config",
+      "table": "plans",
+      "records": 2,
+      "exported": true
+    },
+    {
+      "file": "31_plan_features.json",
+      "group": "config",
+      "table": "plan_features",
+      "records": 8,
+      "exported": true
+    },
+    {
+      "file": "32_certificates.json",
+      "group": "config",
+      "table": "certificate_definitions",
+      "records": 11,
+      "exported": true
+    },
+    {
+      "file": "33_legal_documents.json",
+      "group": "config",
+      "table": "legal_documents",
+      "records": 2,
+      "exported": true
+    },
+    {
+      "file": "34_community_rooms.json",
+      "group": "config",
+      "table": "rooms",
+      "records": 5,
+      "exported": true
+    },
+    {
+      "file": "35_app_config.json",
+      "group": "config",
+      "table": "app_config",
+      "records": 3,
+      "exported": true
+    },
+    {
+      "file": "40_users.json",
+      "group": "user",
+      "table": "users",
+      "records": 0,
+      "exported": false
+    },
+    {
+      "file": "41_attempts.json",
+      "group": "user",
+      "table": "attempts",
+      "records": 0,
+      "exported": false
+    },
+    {
+      "file": "42_notifications.json",
+      "group": "user",
+      "table": "notifications",
+      "records": 0,
+      "exported": false
+    },
+    {
+      "file": "43_tasks.json",
+      "group": "user",
+      "table": "study_tasks",
+      "records": 0,
+      "exported": false
+    },
+    {
+      "file": "44_user_state.json",
+      "group": "user",
+      "table": "user_state",
+      "records": 0,
+      "exported": false
+    },
+    {
+      "file": "45_recordings.json",
+      "group": "user",
+      "table": "recordings",
+      "records": 0,
+      "exported": false
+    },
+    {
+      "file": "46_room_messages.json",
+      "group": "user",
+      "table": "room_messages",
+      "records": 0,
+      "exported": false
+    },
+    {
+      "file": "47_subscriptions.json",
+      "group": "user",
+      "table": "subscriptions",
+      "records": 0,
+      "exported": false
+    },
+    {
+      "file": "50_listening_bank_sets.json",
+      "group": "bank",
+      "table": "listening_sets",
+      "records": 32,
+      "exported": true
+    },
+    {
+      "file": "51_listening_test_sets.json",
+      "group": "bank",
+      "table": "listening_sets",
+      "records": 16,
+      "exported": true
+    },
+    {
+      "file": "52_listening_full_tests.json",
+      "group": "bank",
+      "table": "listening_tests",
+      "records": 4,
+      "exported": true
+    },
+    {
+      "file": "53_reading_test_passages.json",
+      "group": "bank",
+      "table": "reading_passages",
+      "records": 30,
+      "exported": true
+    },
+    {
+      "file": "54_reading_full_tests.json",
+      "group": "bank",
+      "table": "reading_tests",
+      "records": 10,
+      "exported": true
+    },
+    {
+      "file": "55_writing_bank_prompts.json",
+      "group": "bank",
+      "table": "writing_prompts",
+      "records": 260,
+      "exported": true
+    },
+    {
+      "file": "56_writing_bank_samples.json",
+      "group": "bank",
+      "table": "writing_sample_answers",
+      "records": 260,
+      "exported": true
+    },
+    {
+      "file": "57_writing_test_prompts.json",
+      "group": "bank",
+      "table": "writing_prompts",
+      "records": 20,
+      "exported": true
+    },
+    {
+      "file": "58_writing_tests.json",
+      "group": "bank",
+      "table": "writing_tests",
+      "records": 10,
+      "exported": true
+    },
+    {
+      "file": "59_speaking_bank_part1_topics.json",
+      "group": "bank",
+      "table": "speaking_part1_topics",
+      "records": 65,
+      "exported": true
+    },
+    {
+      "file": "60_speaking_bank_cue_cards.json",
+      "group": "bank",
+      "table": "speaking_cue_cards",
+      "records": 207,
+      "exported": true
+    },
+    {
+      "file": "61_speaking_bank_part3_topics.json",
+      "group": "bank",
+      "table": "speaking_part3_sets",
+      "records": 60,
+      "exported": true
+    },
+    {
+      "file": "62_speaking_test_part1_topics.json",
+      "group": "bank",
+      "table": "speaking_part1_topics",
+      "records": 10,
+      "exported": true
+    },
+    {
+      "file": "63_speaking_test_cue_cards.json",
+      "group": "bank",
+      "table": "speaking_cue_cards",
+      "records": 10,
+      "exported": true
+    },
+    {
+      "file": "64_speaking_test_part3_topics.json",
+      "group": "bank",
+      "table": "speaking_part3_sets",
+      "records": 20,
+      "exported": true
+    },
+    {
+      "file": "65_speaking_tests.json",
+      "group": "bank",
+      "table": "speaking_tests",
+      "records": 10,
+      "exported": true
+    },
+    {
+      "file": "66_full_mock_tests.json",
+      "group": "bank",
+      "table": "mock_tests",
+      "records": 4,
+      "exported": true
+    },
+    {
+      "file": "67_resource_vocabulary.json",
+      "group": "bank",
+      "table": "vocabulary_words",
+      "records": 1382,
+      "exported": true
+    },
+    {
+      "file": "68_resource_phrases.json",
+      "group": "bank",
+      "table": "phrases",
+      "records": 2417,
+      "exported": true
+    },
+    {
+      "file": "69_resource_academic_words.json",
+      "group": "bank",
+      "table": "academic_words",
+      "records": 686,
+      "exported": true
+    },
+    {
+      "file": "70_resource_irregular_verbs.json",
+      "group": "bank",
+      "table": "irregular_verbs",
+      "records": 175,
+      "exported": true
+    },
+    {
+      "file": "71_content_documents.json",
+      "group": "bank",
+      "table": "content_documents",
+      "records": 42,
+      "exported": true
+    }
+  ],
+  "bankGeneratedFrom": "assets/content/*.json (tool/build_seed_banks.py)"
+}

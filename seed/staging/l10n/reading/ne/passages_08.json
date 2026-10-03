@@ -1,0 +1,505 @@
+[
+ {
+  "id": "rb_note_completion_17",
+  "lesson": {
+   "title": "एउटै notes-मा hypothesis र त्यसको सुधार",
+   "text": "Notes-ले पछि सुधार गरिएको कुनै scientific विचारको बारेमा कुरा गर्दा \"Original hypothesis\", \"Problems with it\" र \"Revised view\" जस्ता heading-ले notes-लाई चरण अनुसार छुट्याउँछन्। Passage-ले तीनै चरणमा उस्तै-उस्तै vocabulary प्रयोग गर्छ (infection, exposure, microbes, hygiene)। त्यसैले लेख्नुअघि आफ्नो answer gap-को ठीक माथिको heading-मा भनिएको चरणबाटै आएको हो भनेर पक्का गर्नुहोस्।",
+   "example": "Headings: \"Original view: caused by (1) ______\" र \"Revised view: caused by (2) ______\"। Passage-ले दुवै कारण लगातार दुई paragraph-मा दिन्छ; हरेक answer आफ्नै मिल्ने चरणबाट लिनुपर्छ।"
+  },
+  "explanations": {
+   "1": "\"Brothers and sisters\" (Paragraph A) तीन शब्द हो, त्यसैले word limit नाघ्छ; \"siblings\" ले एउटै शब्दमा त्यही अर्थ दिन्छ।",
+   "2": "यो आम मानिसहरूले गरेको व्याख्या (popular interpretation) हो, जसलाई notes-ले scientific claim भन्दा छुट्टै देखाएको छ।",
+   "3": "यो \"Problems\" चरणको कुरा हो। \"Allergies\" चाहिँ original hypothesis-ले व्याख्या गर्न खोजेको कुरा हो।",
+   "4": "\"Methods\" शब्द notes-मा पहिल्यै छ। \"Industrial\" मात्र लेखे पनि answer मान्य हुन्छ।",
+   "5": "\"Far more\" notes-मा पहिल्यै दिइएको छ।",
+   "6": "यो revised view हो। \"Infections in general\" चाहिँ revised view-ले अस्वीकार गर्ने विचार हो।",
+   "7": "Note-मा \"help the immune system\" पछि एउटा verb चाहिन्छ।",
+   "8": "\"Handwashing and\" notes-मा पहिल्यै दिइएको छ।"
+  }
+ },
+ {
+  "id": "rb_note_completion_18",
+  "lesson": {
+   "title": "Paragraph-हरूमा फैलिएको कारण र परिणामको शृङ्खला",
+   "text": "कठिन science passage-हरूले एउटा शृङ्खला (chain) बुझाउँछन्: एउटा रसायन निस्कन्छ → माथि जान्छ → टुक्रिन्छ → केही कुरा नष्ट गर्छ। Notes-ले हरेक कडीलाई छुट्टै line-मा देखाउन सक्छ, र एउटा कडीको व्याख्या एउटा paragraph-मा हुँदा त्यसको परिणाम अर्को paragraph-मा वर्णन गरिएको हुन सक्छ। शृङ्खलालाई क्रमैसँग पछ्याउनुहोस्, र तपाईंले छान्ने शब्द note-ले वर्णन गरेको कडीकै हो भनेर पक्का गर्नुहोस्।",
+   "example": "Passage: \"Sunlight breaks the molecule apart, releasing chlorine, which destroys ozone.\" Note: \"released by sunlight: (1) ______\" उत्तर: chlorine (\"ozone\" होइन, किनकि ozone त नष्ट हुने कुरा हो)।"
+  },
+  "explanations": {
+   "1": "\"Ultraviolet radiation\" दुई शब्द हो; \"harmful\" थप्दा तीन शब्द हुन्छ, जुन अझै word limit भित्रै छ।",
+   "2": "बाँकी दुई वटा कुरा notes-मा पहिल्यै दिइएका छन्।",
+   "3": "Ozone नष्ट हुनुअघिको शृङ्खलाको अन्तिम कडी यही हो। \"Ozone molecules\" नष्ट हुने कुरा हुन्, नष्ट गर्ने होइनन्।",
+   "4": "\"British Antarctic Survey\" संस्था (organisation) हो, ठाउँ होइन।",
+   "5": "\"Around\" = \"about\"। \"Since the 1960s\" notes-मा पहिल्यै छ।",
+   "6": "\"Rejected as\" passage-सँग सिधै मिल्छ।",
+   "7": "\"Stratospheric\" notes-मा पहिल्यै छ।",
+   "8": "यो तीन शब्द हो, word limit भित्रै छ।",
+   "9": "\"2060s\" मात्र लेखे पनि मान्य हुन्छ। 1980 चाहिँ फर्कनुपर्ने लक्ष्य स्तर (target level) हो, सुधार हुने मिति होइन।"
+  }
+ },
+ {
+  "id": "rb_note_completion_19",
+  "lesson": {
+   "title": "धेरै छोटो पारिएका notes",
+   "text": "केही notes लगभग पूरै चिन्ह र छोटकरी रूप (abbreviation) मा लेखिएका हुन्छन्: \"est. 1m pieces 1–10 cm: too small to (2) ______\"। खोज्नुअघि हरेक note-लाई पूरा वाक्य बनाएर फैलाउनुहोस् (\"An estimated one million pieces between one and ten centimetres are too small to ...\")। फैलाइएको वाक्य passage-सँग मिलाउन धेरै सजिलो हुन्छ, र gap-लाई कस्तो grammar चाहिन्छ भन्ने पनि देखाउँछ।",
+   "example": "Note: \"pop. ↑ 3× since 1950\"। फैलाउँदा: \"The population has tripled since 1950.\""
+  },
+  "explanations": {
+   "1": "\"Over\" = \"more than\"। \"A million\" चाहिँ साना टुक्राहरूको अनुमान हो।",
+   "2": "फैलाउँदा note यस्तो हुन्छ: \"An estimated one million pieces ... are too small to track\"। Gap-लाई एउटा verb चाहिन्छ।",
+   "3": "\"Layered\" notes-मा पहिल्यै छ।",
+   "4": "\"Chain\" notes-मा पहिल्यै छ।",
+   "5": "Russian satellite चाहिँ 2009 को ठोक्काइ (collision) मा संलग्न थियो, 2007 को test-मा होइन।",
+   "6": "यो सिधै मिल्ने answer हो।",
+   "7": "\"Yrs\" = \"years\", जुन notes-मा पहिल्यै छ। Hyphen भएको संख्या एउटै शब्द गनिन्छ।",
+   "8": "\"Internet satellite\" notes-मा पहिल्यै छ।",
+   "9": "\"Robotic arms\" विकास भइरहेको अर्को तरिका हो, 2018 को test-को भाग होइन।"
+  }
+ },
+ {
+  "id": "rb_note_completion_20",
+  "lesson": {
+   "title": "अन्तिम पुनरावलोकन — Note Completion-को पूरा तरिका",
+   "text": "यो अन्तिम set-मा सबै मुख्य सीपहरू एकै ठाउँमा छन्: abstract heading-लाई passage-सँग मिलाउने, छोटो पारिएका notes फैलाउने, कुनै प्रक्रियालाई क्रमैसँग पछ्याउने, claim-लाई त्यसको आलोचना र बचाउबाट छुट्याउने, र word limit भित्र सबैभन्दा कम शब्द सार्ने। हरेक gap-का लागि: (१) heading कुन भागको हो चिन्नुहोस्; (२) note-लाई वाक्य बनाएर फैलाउनुहोस्; (३) मिल्ने विचार खोज्नुहोस्; (४) ठ्याक्कै शब्दहरू सार्नुहोस् र word limit तथा grammar जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Such as\" = \"e.g.\" — दुवैको अर्थ एउटै हो।",
+   "2": "\"Red\" notes-मा पहिल्यै छ। \"Iron oxide\" चाहिँ ochre बनेको पदार्थ हो, रङ (pigment) को नाम होइन।",
+   "3": "\"Stalactites\" त्यही खनिजले बन्छन्; चित्रहरूलाई ढाक्ने कुरा ती होइनन्।",
+   "4": "तीर (arrow) को अर्थ \"decays into\" हो।",
+   "5": "फैलाउँदा note यस्तो हुन्छ: \"The age of the crust is the minimum age of the painting\"।",
+   "6": "\"Modern humans\" त्यतिबेला युरोपमा आइपुगेकै थिएनन्, त्यसैले claim-ले Neanderthals-तिर औंल्याउँछ।",
+   "7": "यो \"Criticism\" heading मुनिको, आलोचकहरूको बुँदा हो।",
+   "8": "\"Natural\" notes-मा पहिल्यै छ।",
+   "9": "यो मिति निकाल्ने टोली (dating team) को बचाउ हो। \"Inwards\" notes-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_01",
+  "lesson": {
+   "title": "Row-row गरेर काम गर्नुहोस्",
+   "text": "सजिलो table-मा हरेक row सामान्यतया एउटै paragraph-बाट आउँछ। Row heading-मा भएको कुराको वर्णन गर्ने paragraph खोज्नुहोस्, अनि हरेक column-ले मागेको विवरण खोज्नुहोस्। अर्को row-मा जानुअघि एउटा row पूरा गर्नुहोस्; answer-हरू passage-कै क्रममा आउँछन्।",
+   "example": "Row \"Parchment\", column \"Made from\"। Parchment-को बारेको paragraph-मा जानुहोस् र त्यो केबाट बनेको हो खोज्नुहोस्: animal skin।"
+  },
+  "explanations": {
+   "1": "\"Along\" = \"beside\" — दुवैको अर्थ एउटै हो।",
+   "2": "यो कमजोरी (drawback) को column हो। \"Dry\" ले papyrus जोगिने ठाउँको वर्णन गर्छ, जुन उल्टो कुरा हो।",
+   "3": "\"Sheep, goats or\" cell-मा पहिल्यै छ।",
+   "4": "यो फाइदा (advantage) को column हो। \"High cost\" कमजोरीको रूपमा पहिल्यै दिइएको छ।",
+   "5": "\"Stylus\" लेख्ने औजार हो, board भर्ने कुरा होइन।",
+   "6": "\"Erased or\" cell-मा पहिल्यै छ।",
+   "7": "\"Old\" cell-मा पहिल्यै छ।",
+   "8": "\"Large\" cell-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_02",
+  "lesson": {
+   "title": "Column heading-ले answer कस्तो हुन्छ भन्छ",
+   "text": "खोज्नुअघि column heading र त्यही column-का अरू cell-हरू हेर्नुहोस्। \"Typical span\" heading भएको column-लाई दूरी वा संख्या चाहिन्छ; \"How the load is carried\" heading भएको column-लाई संरचनाको कुनै भाग चाहिन्छ। शब्द कस्तो हुन्छ भनेर पहिल्यै अनुमान गर्दा अर्कै column-को विवरण छान्ने गल्ती हुँदैन।",
+   "example": "Column: \"Year opened\"। अरू cell-हरू: 1890, 1932। Gap: (3) ______ Answer-को प्रकार: एउटा साल।"
+  },
+  "explanations": {
+   "1": "\"Each\" cell-मा पहिल्यै छ।",
+   "2": "Column heading \"Typical span\" ले संख्या चाहिने संकेत दिन्छ। \"Metres\" cell-मा पहिल्यै छ।",
+   "3": "\"Common on\" cell-मा पहिल्यै छ।",
+   "4": "\"Steel wire\" चाहिँ suspension cable बनाउने पदार्थ हो, जुन अर्को row-को कुरा हो।",
+   "5": "\"Tall\" cell-मा पहिल्यै छ।",
+   "6": "बहुवचन (plural) रूप passage-सँग मिल्छ।",
+   "7": "\"From towers to the\" cell-मा पहिल्यै छ।",
+   "8": "2022 चाहिँ एउटा suspension bridge खुलेको साल हो, जुन अघिल्लो row-को कुरा हो।"
+  }
+ },
+ {
+  "id": "rb_table_completion_03",
+  "lesson": {
+   "title": "Gap नै row heading हुँदा",
+   "text": "कहिलेकाहीँ gap पहिलो column-मा हुन्छ: तपाईंलाई वर्णन दिइन्छ र कुराको नाम आफैं भर्नुपर्छ। त्यो row-का अरू cell-हरू पढ्नुहोस् (कहाँ पाइन्छ, यसका विशेषता के हुन्), तीसँग मिल्ने paragraph खोज्नुहोस्, र नाम त्यही paragraph-बाट लिनुहोस्।",
+   "example": "Row: \"(1) ______ | lives in Arctic | white fur\"। Paragraph: \"The polar bear lives in the Arctic; its fur appears white.\" उत्तर: polar bear। Row-का अरू cell-हरू हेरेरै paragraph चिनिन्छ।"
+  },
+  "explanations": {
+   "1": "Row-का अरू cell-हरूले (एउटा कुम, क्षेत्रहरू) paragraph चिनाउँछन्, र नाम त्यहीँबाट आउँछ।",
+   "2": "\"Minus\" र \"degrees\" cell-मा पहिल्यै छन्।",
+   "3": "\"Central Asia\" चाहिँ घरपालुवा Bactrian camel बस्ने ठाउँ हो, जुन माथिको row-को कुरा हो।",
+   "4": "यो सिधै मिल्ने answer हो।",
+   "5": "\"A\" cell-मा पहिल्यै छ।",
+   "6": "\"Dogs and foxes\" चाहिँ llama-हरूले धपाउने जनावर हुन्, उनीहरूले रखवारी गर्ने होइनन्।",
+   "7": "\"Lacks natural\" र \"does not contain the natural\" को अर्थ एउटै हो।",
+   "8": "\"More than\" र \"natural colours\" cell-मा पहिल्यै छन्।"
+  }
+ },
+ {
+  "id": "rb_table_completion_04",
+  "lesson": {
+   "title": "Cell-मा पहिल्यै भएका शब्दहरू",
+   "text": "Table-का cell-हरू छोटा हुन्छन्, त्यसैले वाक्यांशको धेरैजसो भाग प्रायः पहिल्यै छापिएको हुन्छ र एउटा मात्र शब्द छुटेको हुन्छ। ONE WORD ONLY हुँदा cell ध्यान दिएर पढ्नुहोस् र कुन एउटा शब्दले यसलाई पूरा गर्छ भनेर सोध्नुहोस्। Passage-मा \"shale become slate\" छ र cell-मा \"slate (from mudstone or ______)\" छ भने तपाईंलाई \"shale\" मात्र चाहिन्छ।",
+   "example": "Cell: \"made from shells and (1) ______\"। Passage: \"made from shells and skeletons\"। उत्तर: skeletons। बाँकी शब्दहरू cell-मा पहिल्यै छापिएका छन्, त्यसैले यो एउटा शब्द मात्र लेख्नुपर्छ।"
+  },
+  "explanations": {
+   "1": "\"And becomes solid\" cell-मा पहिल्यै छ। \"Erupts\" ले ज्वालामुखी चट्टान (volcanic rocks) को मात्र वर्णन गर्छ।",
+   "2": "\"Can\" र \"on water\" cell-मा पहिल्यै छन्।",
+   "3": "\"Buried, compressed and\" cell-मा पहिल्यै छ।",
+   "4": "\"Commonly found\" = \"common\" — दुवैको अर्थ एउटै हो।",
+   "5": "\"Heat and\" cell-मा पहिल्यै छ।",
+   "6": "\"Mudstone or\" cell-मा पहिल्यै छ। \"Limestone\" चाहिँ marble बन्छ, slate होइन।",
+   "7": "\"Sculptors\" को सम्बन्ध marble-सँग हो, slate-सँग होइन।"
+  }
+ },
+ {
+  "id": "rb_table_completion_05",
+  "lesson": {
+   "title": "Table-मा मिति र समयावधि",
+   "text": "\"Date\" वा \"Origin\" heading भएको column-लाई एउटा साल (1642), एउटा दशक (the 1850s) वा एउटा शताब्दी (the fourteenth century) चाहिन सक्छ। Cell-को ठ्याक्कै शब्द हेर्नुहोस्: \"by the ______\" र \"from the ______\" लाई सामान्यतया दशक वा शताब्दी चाहिन्छ। Passage-ले एउटै यन्त्रका लागि दुई वटा मिति दिन्छ भने (पहिलो desktop model र पहिलो pocket model), row-का अरू cell-हरूले कुन मिल्छ भनेर बताउँछन्।",
+   "example": "Row: \"Pocket radio | early (1) ______\"। Passage: \"Desktop radios appeared in the 1920s; pocket radios followed in the 1950s.\" उत्तर: 1950s। Row pocket radio-को हो, त्यसैले 1920s होइन।"
+  },
+  "explanations": {
+   "1": "Cell-मा भएको \"By the\" लाई एउटा समयावधि चाहिन्छ, यहाँ एउटा शताब्दी।",
+   "2": "यो strengths (बलियो पक्ष) को column हो।",
+   "3": "\"Interlocking\" cell-मा पहिल्यै छ।",
+   "4": "यो weaknesses (कमजोर पक्ष) को column हो; \"expensive\" cell-मा पहिल्यै छ।",
+   "5": "\"Scales\" cell-मा पहिल्यै छ।",
+   "6": "\"Three\" cell-मा पहिल्यै छ।",
+   "7": "\"From the\" cell-मा पहिल्यै छ।",
+   "8": "यो row pocket calculator-को बारेमा हो। Early 1960s चाहिँ desktop electronic calculator देखा परेको समय हो।"
+  }
+ },
+ {
+  "id": "rb_table_completion_06",
+  "lesson": {
+   "title": "तुलना गर्ने table र उस्तै-उस्तै row-हरू",
+   "text": "तुलना गर्ने (comparison) table-ले धेरै उस्तै कुराहरूको बारेमा एकै प्रकारको जानकारी माग्छ: यहाँ चार वटा बाँदर-जातका जनावर (ape) को बासस्थान, खाना र सामाजिक जीवन। कुराहरू उस्तै भएकाले passage-ले हरेकका लागि उस्तै शब्द प्रयोग गर्छ (fruit, forest, groups)। तपाईंले छान्ने विवरण row-मा नाम दिइएको ape-कै हो भनेर जाँच्नुहोस्।",
+   "example": "Row \"Chimpanzee | main food: (1) ______\"। Orangutan र chimpanzee दुवैले fruit खान्छन्, तर answer चाहिँ chimpanzee-को paragraph-बाटै लिनुपर्छ।"
+  },
+  "explanations": {
+   "1": "\"Mainly\" cell-मा पहिल्यै छ। Chimpanzee-ले पनि मुख्य रूपमा fruit नै खान्छ, तर यो row orangutan-को बारेमा हो।",
+   "2": "\"Largely\" cell-मा पहिल्यै छ।",
+   "3": "\"Leaves, stems and\" cell-मा पहिल्यै छ।",
+   "4": "Gap-लाई \"a\" पछि एउटा noun चाहिन्छ।",
+   "5": "\"Forest, woodland and\" cell-मा पहिल्यै छ।",
+   "6": "\"Termites\" लाई औजार प्रयोग गरेर निकालिन्छ, जुन शिकार गर्नु होइन।",
+   "7": "संख्या word limit-मा मिल्छ। \"Around\" = \"about\"।",
+   "8": "\"Hold high\" cell-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_07",
+  "lesson": {
+   "title": "सूची भएका cell-हरू",
+   "text": "Medium level-मा एउटै cell-मा प्रायः semicolon-ले छुट्याइएको छोटो सूची हुन्छ: \"olive oil; whale oil; from the 1860s, (3) ______\"। Passage-ले सूचीका कुराहरू फरक-फरक ठाउँमा, कहिलेकाहीँ फरक वाक्यहरूमा दिन्छ। पहिल्यै छापिएका कुराहरू पढ्नुहोस्, तिनलाई passage-मा खोज्नुहोस्, र छुटेको कुरा तिनकै नजिक खोज्नुहोस्; cell-मा कुनै शर्त (\"from the 1860s\") छ भने त्यो पनि जाँच्नुहोस्।",
+   "example": "Cell: \"wheat; barley; later (1) ______\"। Passage: \"Early farmers grew wheat and barley; maize arrived much later.\" उत्तर: maize। छापिएका कुराहरूको नजिकै छुटेको कुरा भेटिन्छ।"
+  },
+  "explanations": {
+   "1": "Cell-को \"Later\" ले उन्नाइसौं शताब्दीको पदार्थतिर, अर्थात् सूचीको अन्तिम कुरातिर, संकेत गर्छ।",
+   "2": "यो problems column हो; \"burned cleanly\" चाहिँ फाइदा हो।",
+   "3": "Cell-को \"from the 1860s\" भन्ने शर्तले यसलाई चिनाउँछ। \"Petroleum\" चाहिँ kerosene निकालिएको (refine गरिएको) कच्चा पदार्थ हो।",
+   "4": "\"Glass\" cell-मा पहिल्यै छ।",
+   "5": "यो सिधै मिल्ने answer हो।",
+   "6": "1780 चाहिँ Argand-को lamp-को मिति हो, जुन माथिको row-मा छ।",
+   "7": "\"Occasional\" = \"occasionally caused\" — दुवैको अर्थ एउटै हो।",
+   "8": "\"Carbon\" cell-मा पहिल्यै छ।",
+   "9": "यो सिधै मिल्ने answer हो।"
+  }
+ },
+ {
+  "id": "rb_table_completion_08",
+  "lesson": {
+   "title": "Cell-मा तुलना र परिमाण",
+   "text": "केही cell-ले तुलना देखाउँछन् (\"uses less than (5) ______ the energy of distillation\") वा एकाइसहितको परिमाण देखाउँछन् (\"only a few (8) ______ per square metre daily\")। पूरै cell पढ्नुहोस् र ठ्याक्कै के छुटेको छ भनेर निर्णय गर्नुहोस्: फरकको आकार, एकाइ (unit), वा तुलना गरिएको कुरा। त्यसपछि उही तुलना गर्ने passage-को वाक्य खोज्नुहोस्।",
+   "example": "Cell: \"costs about (1) ______ of the old method\"। Passage: \"It costs roughly a third as much as the old method.\" उत्तर: a third। यहाँ फरकको आकार मात्र छुटेको छ।"
+  },
+  "explanations": {
+   "1": "\"Then cooled\" cell-मा पहिल्यै छ।",
+   "2": "\"Very salty or\" cell-मा पहिल्यै छ।",
+   "3": "\"Waste heat\" चाहिँ त्यो ठाउँ रोज्नुको कारण हो, ठाउँ आफैं होइन।",
+   "4": "\"membrane\" र \"semi-permeable membrane\" (hyphen भएको शब्द एउटै गनिन्छ) दुवै word limit भित्रै छन्।",
+   "5": "यही तुलना हो। \"Ninety-seven per cent\" र \"one and a half litres\" फरक परिमाणहरू हुन्।",
+   "6": "\"Can become\" cell-मा पहिल्यै छ।",
+   "7": "Cell-को \"Sloping\" ले cover बनाउने पानाको (sheet) वर्णन गर्छ।",
+   "8": "एकाइ (unit) मात्र छुटेको छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_09",
+  "lesson": {
+   "title": "उस्तै देखिने धेरै संख्याहरू",
+   "text": "विभिन्न प्रणालीहरूको तुलना गर्ने passage-मा उस्तै देखिने दर्जनौं संख्या हुन सक्छन् (365, 354, 365.25, 260)। Table-ले row र column-बाट तपाईंलाई कुन संख्या चाहिन्छ भनेर बताउँछ: row-ले प्रणालीको नाम दिन्छ र column-ले नापको नाम दिन्छ। संख्या छान्नुअघि त्यसले के नाप्छ भनेर शब्दमा भन्नुहोस् (\"the length of the Islamic year\")।",
+   "example": "Passage: \"Planet A orbits in 88 days; Planet B in 225 days.\" Row: \"Planet B | orbit (days): (1) ______\"। उत्तर: 225। Row-मा Planet B-को नाम छ, त्यसैले 88 होइन।"
+  },
+  "explanations": {
+   "1": "\"Years\" cell-मा पहिल्यै छ।",
+   "2": "\"The star\" cell-मा पहिल्यै छ।",
+   "3": "Basis column-का अरू cell-हरूले (\"solar\") एउटा adjective चाहिने देखाउँछन्।",
+   "4": "\"Thirty-three\" चाहिँ चाडपर्वहरू फेरि उही मौसममा फर्कन लाग्ने वर्षहरूको संख्या हो, वर्षको लम्बाइ होइन।",
+   "5": "\"Ten days\" चाहिँ सोह्रौं शताब्दीसम्म जम्मा भएको गल्ती हो, वार्षिक गल्ती होइन।",
+   "6": "1582 मा calendar सुरु गरिएको थियो, र 1918 मा Russia-ले परिवर्तन गरेको थियो।",
+   "7": "365 cell-मा पहिल्यै छ।",
+   "8": "Hyphen भएको संख्या एउटै शब्द गनिन्छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_10",
+  "lesson": {
+   "title": "Row-हरू passage भन्दा फरक क्रममा हुँदा",
+   "text": "Table-हरूले प्रायः row-हरूलाई passage-ले वर्णन गरेको क्रममा होइन, तार्किक क्रममा (मिति अनुसार, आकार अनुसार) राख्छन्। यहाँ row-हरू सबैभन्दा पुरानो battery-देखि सबैभन्दा नयाँसम्म छन्, तर passage-ले सबैभन्दा धेरै प्रयोग हुने प्रकारको कुरा पहिले गर्छ। Row 1 पहिलो paragraph-बाटै आउँछ भनेर नमान्नुहोस्। हरेक row-लाई त्यसको नामबाट खोज्नुहोस्।",
+   "example": "Table rows: \"Bronze Age | Iron Age\"। Passage-को क्रम: पहिले Iron Age (Paragraph B), त्यसपछि Bronze Age (Paragraph C)। पहिलो row-का answer-हरू Paragraph C-मा छन्।"
+  },
+  "explanations": {
+   "1": "पहिलो row Paragraph C-बाट आउँछ, B-बाट होइन। 1800 चाहिँ Volta-को पहिलो battery-को मिति हो, जुन lead-acid battery थिएन।",
+   "2": "\"Very widely\" ले \"among the most\" सँग मेल खान्छ।",
+   "3": "\"Starting car\" cell-मा पहिल्यै छ।",
+   "4": "\"Robust\" cell-मा पहिल्यै छ।",
+   "5": "यो weaknesses (कमजोर पक्ष) को column हो।",
+   "6": "2019 चाहिँ Nobel Prize पाएको साल हो, व्यापारिक प्रयोग (commercial use) सुरु भएको होइन।",
+   "7": "\"Lithium and\" cell-मा पहिल्यै छ।",
+   "8": "\"Far more\" cell-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_11",
+  "lesson": {
+   "title": "Column heading-मा एकाइ (unit)",
+   "text": "Column heading-मा \"Distance (km)\" जस्तो एकाइ (unit) समावेश छ भने त्यो column-का cell-हरूमा संख्या मात्र हुन्छ। एकाइ बिना संख्या मात्र लेख्नुहोस्। उही passage-का अरू एकाइहरू (litres, years, hours) फरक column वा फरक तथ्यका हुन्।",
+   "example": "Heading: \"Height (m)\"। Passage: \"The tower is 324 metres tall.\" उत्तर: 324। एकाइ heading-मा पहिल्यै छ, त्यसैले संख्या मात्र लेख्नुहोस्।"
+  },
+  "explanations": {
+   "1": "\"Central\" cell-मा पहिल्यै छ।",
+   "2": "Heading-ले एकाइ (km) पहिल्यै दिएको छ, त्यसैले संख्या मात्र लेख्नुहोस्।",
+   "3": "\"A clock in their\" cell-मा पहिल्यै छ।",
+   "4": "\"Fresh grass\" चाहिँ वर्षाले उमार्ने कुरा हो, जनावरहरूले पछ्याउने कुरा होइन।",
+   "5": "\"Mexican\" cell-मा पहिल्यै छ।",
+   "6": "\"Exceed\" = \"over\"; एकाइ heading-मा छ।",
+   "7": "\"Atlantic Ocean\" चाहिँ फराकिलो क्षेत्र हो, नाम दिइएको गन्तव्य होइन।",
+   "8": "Gap-लाई \"has never been\" पछि past participle चाहिन्छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_12",
+  "lesson": {
+   "title": "Cell-को आफ्नै grammar",
+   "text": "Table-का cell-हरू पूरा वाक्य होइनन्, तर तिनको पनि grammar हुन्छ। \"may (4) ______ in hot water\" लाई verb चाहिन्छ; \"good (3) ______\" लाई noun चाहिन्छ; \"(2) ______ easily\" लाई \"easily\" सँग मिल्ने verb चाहिन्छ। ONE WORD ONLY हुँदा passage-को शब्द आफ्नै मूल रूपमा ठ्याक्कै मिल्नुपर्छ, त्यसैले cell-को grammar-ले सम्भावित शब्दहरूमध्ये छान्न मद्दत गर्छ।",
+   "example": "Cell: \"may (1) ______ in sunlight\"। Passage: \"The colour can fade in strong sunlight.\" उत्तर: fade। \"may\" पछि base verb मिल्छ, र यो passage-को ठ्याक्कै रूप हो।"
+  },
+  "explanations": {
+   "1": "Gap-लाई \"the\" पछि plural noun चाहिन्छ।",
+   "2": "Verb रूप \"creases\" ले \"fabric ______ easily\" मा ठ्याक्कै मिल्छ।",
+   "3": "Gap-लाई \"excellent\" पछि noun चाहिन्छ।",
+   "4": "\"can\" पछि base verb मिल्छ।",
+   "5": "\"Silk moth\" cell-मा पहिल्यै छ।",
+   "6": "\"Natural\" cell-मा पहिल्यै छ।",
+   "7": "Cotton-ले पनि moisture सोस्छ, तर त्यो फाइदाको रूपमा; यो row चाहिँ nylon-को कमजोरीको बारेमा हो।"
+  }
+ },
+ {
+  "id": "rb_table_completion_13",
+  "lesson": {
+   "title": "\"How it works\" column-हरू",
+   "text": "\"How it works\" वा \"Method\" heading भएको column-लाई नतिजा होइन, कुनै भाग (part) वा प्रक्रिया चाहिन्छ। Passage-ले प्रायः कुनै प्रविधिलाई दुई चरणमा बुझाउँछ: त्यो केबाट बनेको छ, र त्यसले के हासिल गर्छ। Cell-ले हासिल हुने कुरा पहिल्यै भनेको छ भने (\"... resist sideways forces\"), gap-लाई त्यो नतिजा ल्याउने भाग चाहिन्छ।",
+   "example": "Cell: \"rubber (1) ______ absorb vibration\"। Passage: \"Rubber pads under the machine absorb vibration.\" उत्तर: pads। नतिजा (absorb vibration) cell-मा पहिल्यै छ, gap-लाई भाग चाहिन्छ।"
+  },
+  "explanations": {
+   "1": "यो भाग (component) हो; \"separate building from foundations\" चाहिँ cell-मा पहिल्यै भएको नतिजा हो।",
+   "2": "यो limitation (सीमितता) को column हो।",
+   "3": "\"Steel\" cell-मा पहिल्यै छ। \"Six hundred tonnes\" यसको तौल हो, यो के हो भन्ने होइन।",
+   "4": "\"Diagonal steel\" cell-मा पहिल्यै छ।",
+   "5": "यो सिधै मिल्ने answer हो।",
+   "6": "\"Flexible\" cell-मा पहिल्यै छ।",
+   "7": "Limitation column-लाई समस्या चाहिन्छ, जुन यहाँ adjective-को रूपमा व्यक्त गरिएको छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_14",
+  "lesson": {
+   "title": "घुमाउरो तरिकाले भनिएका फाइदाहरू",
+   "text": "Passage-हरूले प्रायः \"advantage\" शब्द प्रयोग नगरी फाइदा व्यक्त गर्छन्: \"Because trains never encounter traffic, metros are fast and reliable.\"। Table-को \"Advantage\" column-ले यस्ता भनाइहरू जम्मा गर्छ। सकारात्मक मूल्याङ्कन (fast, cheap, reliable, far less) र because वा since ले सुरु हुने कारणहरू खोज्नुहोस्।",
+   "example": "Passage: \"Since trams run on electricity, they produce no exhaust in the street.\" Column \"Advantage\": \"no street (1) ______\"। उत्तर: exhaust। फाइदा \"since\" ले सुरु हुने कारणमा लुकेको छ।"
+  },
+  "explanations": {
+   "1": "यो सिधै मिल्ने answer हो।",
+   "2": "फाइदा \"because\" मार्फत व्यक्त गरिएको छ। \"Fast and\" cell-मा पहिल्यै छ।",
+   "3": "Cell-को \"May\" ले passage-को \"are thought to\" लाई जनाउँछ।",
+   "4": "\"Pay before\" cell-मा पहिल्यै छ।",
+   "5": "\"Small\" र \"of the cost\" cell-मा पहिल्यै छन्।",
+   "6": "यो disadvantage (बेफाइदा) को column हो।",
+   "7": "Accent बिनाको \"Medellin\" पनि मान्य हुन्छ। \"Curitiba\" र \"Bogotá\" चाहिँ BRT-का उदाहरण हुन्।",
+   "8": "\"Limited\" cell-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_15",
+  "lesson": {
+   "title": "कठिन Table Completion — claim, evidence र criticism column-हरू",
+   "text": "कठिन table-हरूले प्रायः theory-हरूको तुलना गर्छन्, जसमा मुख्य claim, त्यसलाई समर्थन गर्ने evidence र आलोचना (criticism) का column हुन्छन्। Passage-को हरेक paragraph-मा यी तीनै हुन्छन्, तर passage-ले तिनमा label लगाउँदैन। संकेतहरू खोज्नुहोस्: \"supporters argue\", \"draws support from\", \"points to\" ले evidence सुरु गर्छन्; \"critics\", \"however\", \"its weakness\" ले criticism सुरु गर्छन्। Answer छान्नुअघि हरेक विवरणलाई सही column-मा राख्नुहोस्।",
+   "example": "Passage: \"The theory is supported by fossil footprints, but critics note that the footprints are poorly dated.\" Column \"Criticism\": \"footprints poorly (1) ______\"। उत्तर: dated। \"critics\" ले criticism-को संकेत दिन्छ।"
+  },
+  "explanations": {
+   "1": "\"Whereas\" ले त्यो भिन्नता (contrast) देखाउँछ जसलाई theory-ले evidence-को रूपमा प्रयोग गर्छ।",
+   "2": "\"Critics\" ले criticism column-को संकेत दिन्छ।",
+   "3": "\"Expressed emotion\" cell-मा पहिल्यै छ।",
+   "4": "\"Draws support from\" ले evidence column-को संकेत दिन्छ।",
+   "5": "\"Its weakness\" ले criticism column-को संकेत दिन्छ।",
+   "6": "\"Gossip\" चाहिँ कुराकानीले कसरी काम गर्छ भन्ने हो, यसले केको ठाउँ लियो भन्ने होइन।",
+   "7": "\"Points to\" ले evidence-को संकेत दिन्छ।",
+   "8": "Cell-ले passage-कै संरचना दोहोर्‍याउँछ; \"not how it began\" पहिल्यै छापिएको छ।",
+   "9": "Passage-मा \"Brain-imaging\" hyphen सहित छ, तर cell-लाई क्रियाकलापको प्रकार मात्र चाहिन्छ: brain।"
+  }
+ },
+ {
+  "id": "rb_table_completion_16",
+  "lesson": {
+   "title": "Row-हरूमा छरिएका साल र technical शब्दहरू",
+   "text": "Research-सम्बन्धी कठिन passage-हरूमा धेरै मिति र technical शब्दहरू नजिकै आउँछन्, र तीमध्ये केही model-मा पछि थपिएका कुराका हुन्छन् (\"In 2000, Baddeley added a fourth component\")। Cell-ले साल माग्छ भने त्यसले मूल प्रस्ताव (original proposal) भन्न खोजेको हो कि पछिको परिवर्तन, निर्णय गर्नुहोस्। शब्द माग्छ भने row र column-ले कुन भाग वा प्रक्रियाको वर्णन गर्छन् भनेर जाँच्नुहोस्।",
+   "example": "Passage: \"The theory was proposed in 1950 and revised in 1972.\" Cell: \"Proposed (year): (1) ______\"। उत्तर: 1950। 1972 चाहिँ पछिको परिवर्तन हो।"
+  },
+  "explanations": {
+   "1": "\"Twenty to thirty\" सेकेन्डको संख्या हो, item-हरूको होइन।",
+   "2": "Gap-लाई \"through\" पछि noun चाहिन्छ।",
+   "3": "\"Brain\" cell-मा पहिल्यै छ।",
+   "4": "\"Too\" cell-मा पहिल्यै छ।",
+   "5": "2000 चाहिँ episodic buffer थपिएको साल हो — त्यो पछिको परिवर्तन हो, मूल प्रस्ताव होइन।",
+   "6": "\"Episodic\" cell-मा पहिल्यै छ; \"added later\" ले 2000 को परिवर्तनको संकेत दिन्छ।",
+   "7": "\"-task experiments\" cell-मा पहिल्यै छ।",
+   "8": "\"Capital letters\" चाहिँ shallow processing-को उदाहरण हो।",
+   "9": "दुवैमध्ये कुनै पनि verb-ले cell सही रूपमा पूरा गर्छ; एउटा शब्द मात्र लेख्न पाइन्छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_17",
+  "lesson": {
+   "title": "फरक row-हरूमा उही शब्द",
+   "text": "तुलना गर्ने कठिन passage-हरूमा उही शब्द धेरै कुराहरूको वर्णनमा आउन सक्छ। यहाँ \"soil\" जंगलका लागि carbon भण्डारको रूपमा पनि आउँछ, र rock dust-ले सुधार गर्न सक्ने कुराको रूपमा पनि। कुन ठाउँमा आएको शब्द चाहिन्छ भनेर row र column दुवैले मिलेर निर्णय गर्छन्। दोहोरिएको शब्द लेख्नुअघि त्यो तपाईंको row-को कुराबारेको paragraph-बाटै आएको हो भनेर जाँच्नुहोस्।",
+   "example": "Row: \"Method B | benefit: better (1) ______\"। \"Water\" Method A र Method B दुवैमा उल्लेख छ; answer Method B-को वर्णनबाट मात्र लिनुहोस्।"
+  },
+  "explanations": {
+   "1": "यो reforestation row-को भण्डारण (storage) column हो। \"Soil\" Paragraph D-मा फेरि आउँछ, तर त्यहाँ यो सुधार गरिने कुरा हो, भण्डार होइन।",
+   "2": "\"Fire, disease or\" cell-मा पहिल्यै छ।",
+   "3": "\"Underground\" cell-मा पहिल्यै छ।",
+   "4": "Gap-लाई \"measured\" पछि adverb चाहिन्छ।",
+   "5": "\"High cost\" cell-मा पहिल्यै छ।",
+   "6": "\"Basalt\" चट्टान हो, carbon भण्डार हुने रूप होइन।",
+   "7": "यो weathering row-को benefits column हो, जहाँ \"soil\" दोस्रो पटक आउँछ।",
+   "8": "\"Phytoplankton\" चाहिँ बढ्ने कुरा हो, थपिने कुरा होइन।",
+   "9": "\"Possible harm to\" cell-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_18",
+  "lesson": {
+   "title": "एउटै विवरण एकभन्दा बढी row-का लागि",
+   "text": "कहिलेकाहीँ passage-मा एउटै विवरण दुई फरक कुराहरूका लागि आउँछ। यहाँ cholera र influenza दुवै सिपाहीहरू (troops) मार्फत फैलिएका थिए, र दुई वटा महामारी (epidemic) एउटै bacterium-ले गर्दा भएका थिए। एउटा row-को विवरण अर्को row-का लागि trap बन्न सक्छ। हरेक gap-का लागि त्यो row-को कुराबारेको paragraph-मा फर्कनुहोस् र answer त्यही कुराका लागि भनिएको छ कि छैन जाँच्नुहोस्।",
+   "example": "Passage: \"Both the dog and the fox hunt at night, but only the fox stores food.\" Row \"Dog | habit: (1) ______\"। उत्तर: hunts at night; \"stores food\" चाहिँ fox-को मात्र हो।"
+  },
+  "explanations": {
+   "1": "\"The 2010s\" चाहिँ bacterium पहिचान गरिएको समय हो, plague सुरु भएको होइन।",
+   "2": "\"Victims'\" cell-मा पहिल्यै छ।",
+   "3": "\"Scale of impact\" cell-मा पहिल्यै छ।",
+   "4": "\"Mainly\" ले \"lice\" लाई हटाउँछ, किनकि केही researcher-हरूले मात्र lice-को ठूलो भूमिका थियो भन्ने विश्वास गर्छन्।",
+   "5": "\"Higher\" cell-मा पहिल्यै छ।",
+   "6": "Cholera पनि \"by troops\" फैलिएको थियो, तर cell-ले यो कसरी सर्छ (transmit हुन्छ) भनेर सोध्छ, जुन पानीमार्फत हो।",
+   "7": "\"And clean water supplies\" cell-मा पहिल्यै छ।",
+   "8": "यो विवरण cholera-का लागि पनि सत्य हो, तर यहाँ Paragraph E-मा influenza-का लागि भनिएको छ, त्यसैले यो row-मा मिल्छ। \"Spain\" चाहिँ रोगको खबर पहिलो पटक व्यापक रूपमा आएको ठाउँ मात्र हो।"
+  }
+ },
+ {
+  "id": "rb_table_completion_19",
+  "lesson": {
+   "title": "अरू मानिसहरूबाट आउने चुनौतीहरू",
+   "text": "Theory-हरूको table-मा \"Limitation or challenge\" column-मा अर्कै researcher-को निष्कर्ष (Heckscher–Ohlin theory-को Leontief-ले गरेको परीक्षण) हुन सक्छ, वा अर्को theory-ले समाधान गर्न खोजेको समस्या (Smith-को theory-को कमजोरी, जसलाई Ricardo-ले सम्बोधन गरे) हुन सक्छ। त्यसैले एउटा row-को answer अर्को व्यक्तिबारेको paragraph-मा आउन सक्छ। हरेक theory-को paragraph र त्यसपछिको paragraph पनि पढ्नुहोस्।",
+   "example": "Passage: \"Theory X could not explain Y. Theory Z was later proposed to solve this.\" Row \"Theory X | weakness: could not explain (1) ______\"। उत्तर: Y। Theory X-को कमजोरी Theory Z-बारेको वाक्यबाट पनि पुष्टि हुन्छ।"
+  },
+  "explanations": {
+   "1": "\"Gold and\" cell-मा पहिल्यै छ।",
+   "2": "Gap-लाई \"produces more\" पछि adverb चाहिन्छ।",
+   "3": "\"Opportunity\" cell-मा पहिल्यै छ। माथिको row-मा भएको Smith-को theory-को सीमितता नै Ricardo-को theory-ले समाधान गरेको समस्या हो।",
+   "4": "Gap-लाई \"move\" पछि adverb चाहिन्छ।",
+   "5": "\"Scarce\" ले import-मा प्रयोग हुने तत्वहरू (factors) को वर्णन गर्छ, जुन उल्टो कुरा हो।",
+   "6": "चुनौती उही paragraph-मा अर्कै अर्थशास्त्री Leontief-बाट आउँछ। \"Capital\" अर्को factor हो, तर निष्कर्ष त्यो होइन।",
+   "7": "\"Economies of\" cell-मा पहिल्यै छ।",
+   "8": "\"Greater\" cell-मा पहिल्यै छ।"
+  }
+ },
+ {
+  "id": "rb_table_completion_20",
+  "lesson": {
+   "title": "अन्तिम पुनरावलोकन — Table Completion-को पूरा तरिका",
+   "text": "यो अन्तिम set-मा सबै मुख्य सीपहरू एकै ठाउँमा छन्: हरेक row-को paragraph चिन्ने, विवरणहरूलाई claim, evidence र weakness column-मा राख्ने, उस्तै देखिने धेरै संख्या र मितिहरूमध्ये छान्ने, र सबैभन्दा कम शब्द सार्ने। हरेक gap-का लागि: (१) row र column-को नाम भन्नुहोस्; (२) column र छेउछाउका cell-हरूबाट answer कस्तो हुन्छ अनुमान गर्नुहोस्; (३) त्यो row-बारेको paragraph-मा विवरण खोज्नुहोस्; (४) word limit र cell-को grammar जाँच्नुहोस्।"
+  },
+  "explanations": {
+   "1": "Gap-लाई \"humans\" पछि verb चाहिन्छ।",
+   "2": "1300 चाहिँ बसोबास (settlement) गरिएको मिति हो, समयको लम्बाइ होइन।",
+   "3": "\"Critics note\" ले weakness column-को संकेत दिन्छ।",
+   "4": "\"Steppe\" चाहिँ सानो हुँदै गएको कुरा हो, घाँसे मैदानको ठाउँ लिने कुरा होइन।",
+   "5": "\"Supporters point out\" ले evidence column-को संकेत दिन्छ।",
+   "6": "\"Many earlier\" cell-मा पहिल्यै छ।",
+   "7": "\"A\" cell-मा पहिल्यै छ।",
+   "8": "\"Island\" cell-मा पहिल्यै छ।",
+   "9": "\"Ten thousand years ago\" (मूल भूभागका अन्तिम mammoth) र \"four thousand years ago\" (Wrangel Island) अरू row-का हुन्।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_01",
+  "lesson": {
+   "title": "क्रम जनाउने शब्दहरू पछ्याउनुहोस्",
+   "text": "सजिलो flow-chart-मा passage-ले begins, then, next र finally जस्ता क्रम जनाउने शब्द (sequence words) प्रयोग गरेर प्रक्रियालाई चरण-चरण गरेर वर्णन गर्छ। हरेक box सामान्यतया एक वा दुई वाक्यसँग, उही क्रममा मिल्छ। हरेक चरण सुरु गर्ने sequence word खोज्नुहोस्, र अगाडि बढ्नुअघि answer त्यही चरणभित्र खोज्नुहोस्।",
+   "example": "Passage: \"Next, the ink must be removed.\" Box: \"de-inking: ink ... removed\"। यो box \"Next\" ले सुरु गरेको चरणसँग मिल्छ।"
+  },
+  "explanations": {
+   "1": "\"Such as\" = \"e.g.\" — दुवैको अर्थ एउटै हो।",
+   "2": "\"Pulp\" नतिजा हो, जुन box-मा पहिल्यै छ।",
+   "3": "Gap-लाई \"remove\" अघि plural noun चाहिन्छ।",
+   "4": "\"Air\" box-मा पहिल्यै छ।",
+   "5": "\"Required\" = \"needed\" — दुवैको अर्थ एउटै हो।",
+   "6": "\"Moving\" box-मा पहिल्यै छ।",
+   "7": "\"Rollers\" ले पानी निचोर्छन्; ती यो चरणको अर्कै भाग हुन्।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_02",
+  "lesson": {
+   "title": "हरेक box-मा ONE WORD",
+   "text": "ONE WORD AND/OR A NUMBER हुँदा gap सामान्यतया मुख्य noun (कुनै पदार्थ, कुनै उत्पादन) वा के हुन्छ भनेर बताउने verb (turned, added) हुन्छ। Box-को grammar जाँच्नुहोस्: \"slabs stacked and ______\" पछि \"stacked\" सँग मिल्ने past participle चाहिन्छ।",
+   "example": "Box: \"dough kneaded and ______\"। Passage: \"The dough is kneaded and then shaped into loaves.\" उत्तर: shaped। \"kneaded\" सँग मिल्ने past participle चाहिन्छ।"
+  },
+  "explanations": {
+   "1": "\"Lactic\" box-मा पहिल्यै छ।",
+   "2": "\"Starter culture\" अघिल्लो चरणमा थपिएको थियो।",
+   "3": "\"Whey\" चाहिँ बगाएर हटाइने तरल पदार्थ हो, जुन box-मा पहिल्यै छ।",
+   "4": "Past participle-ले \"cut, stacked and\" सँग मेल खान्छ।",
+   "5": "यो सिधै मिल्ने answer हो।",
+   "6": "\"Often overnight\" box-मा पहिल्यै छ।",
+   "7": "\"Three months\" चाहिँ mild cheddar-का लागि लाग्ने समय हो।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_03",
+  "lesson": {
+   "title": "Option-को सूची भएका flow-chart-हरू",
+   "text": "सूचीबाट answer छान्दा option-हरू प्रायः passage-का ठ्याक्कै शब्द होइनन्, paraphrase हुन्छन्, र gap-भन्दा option धेरै हुन्छन्। पहिले हरेक box-लाई कस्तो शब्द चाहिन्छ भनेर निर्णय गर्नुहोस् (ठाउँ, खाना, रङ, कुनै काम), त्यसपछि passage-मा त्यो चरण खोज्नुहोस्, अनि उही अर्थ भएको option छान्नुहोस्। प्रयोग गरिसकेको option काट्दै जानुहोस्।",
+   "example": "Box: \"young birds leave the (1) ______\"। Passage: \"the chicks fly from the nest\"। Options: A tree B nest C ground। उत्तर: B। यहाँ एउटा ठाउँ चाहिन्छ, र passage-को nest नै option B हो।"
+  },
+  "explanations": {
+   "1": "J (sand) उही प्रकारको शब्द हो, तर passage-मा उल्लेख छैन।",
+   "2": "यो सिधै मिल्ने answer हो।",
+   "3": "C (shrimp) समुद्रमा खाने खाना हो, जुन पछिको चरण हो।",
+   "4": "\"Become\" = \"turn\" — दुवैको अर्थ एउटै हो।",
+   "5": "यो समुद्रमा हुने चरण हो।",
+   "6": "चुम्बकीय क्षेत्र (magnetic field) समुद्र पार गर्नका लागि हो; गन्ध (smell) चाहिँ आफ्नो घरको नदी चिन्नका लागि हो।",
+   "7": "H (swimming) trap हो: तिनीहरू खोलाको उल्टो दिशामा (upstream) पौडिरहन्छन्।"
+  }
+ },
+ {
+  "id": "rb_flowchart_completion_04",
+  "lesson": {
+   "title": "प्रक्रियामा समय र तापक्रम",
+   "text": "प्रक्रियाबारेका passage-हरूले प्रायः धेरै समय र तापक्रम दिन्छन् (\"within twenty-four hours\", \"twenty to forty minutes\", \"below twenty-seven degrees\")। तपाईंलाई कुन चाहिन्छ भनेर box-ले बताउँछ: processing अघिको समय-सीमा, कुनै चरणको लम्बाइ, वा अधिकतम तापक्रम। Passage-मा संख्याको वरिपरिका शब्द जाँच्नुहोस्, र एकाइ (unit) box-मा पहिल्यै छ भने त्यसलाई नसार्नुहोस्।",
+   "example": "Box: \"baked at (1) ______ degrees\"। Passage: \"The loaves are baked at 220 degrees for 30 minutes.\" उत्तर: 220। \"degrees\" box-मा पहिल्यै छ, र 30 चाहिँ समय हो।"
+  },
+  "explanations": {
+   "1": "यो सिधै मिल्ने answer हो।",
+   "2": "\"Within\" box-मा पहिल्यै छ। \"Twenty to forty minutes\" चाहिँ malaxation-को लम्बाइ हो, जुन पछिको चरण हो।",
+   "3": "\"In water\" box-मा पहिल्यै छ।",
+   "4": "\"Including their\" box-मा पहिल्यै छ।",
+   "5": "\"Degrees Celsius\" box-मा पहिल्यै छ।",
+   "6": "\"Mats\" परम्परागत तरिकाका हुन्।",
+   "7": "\"Stainless steel\" box-मा पहिल्यै छ।"
+  }
+ }
+]

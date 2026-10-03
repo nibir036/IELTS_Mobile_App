@@ -1,0 +1,487 @@
+[
+ {
+  "id": "rb_mcq_01",
+  "lesson": {
+   "title": "تحديد مكان الإجابات بسرعة (Locating answers quickly)",
+   "text": "في مجموعة Multiple Choice سهلة، يوجّهك معظم الـ question إلى paragraph واحدة. استخدم الأسماء والأرقام والكلمات المميزة في الـ question (مثل Germany و70°C وmembrane) كعلامات إرشاد (signposts)، ثم اقرأ الجملة كاملة حولها. غالبًا تكون الإجابة paraphrase (إعادة صياغة) لجملة واحدة. لا تختر option لمجرد أنه يشترك مع الـ passage في كلمة.",
+   "example": "Passage: \"Few visitors came in winter because the road was often closed.\"\nQuestion: Why were there few winter visitors?\nالفكرة الصحيحة: access was difficult.\noption خاطئ مغرٍ: the weather was too cold — يبدو منطقيًا، لكنه غير مذكور في الـ passage."
+  },
+  "explanations": {
+   "1": "يقول الـ passage إن الأسطح كانت \"Wasted space\"، وهذه paraphrase لعبارة \"an area of little value\" في الـ option. أما D فيتحدث عن الوقت الحاضر وليس عن twentieth century. ويذكر الـ passage عمال الصيانة، لكنه لا يقول أبدًا إن الأسطح كانت خطرة (C).",
+   "2": "\"Shrubs and small trees\" = \"bigger plants\". أما A فيصف الأسطح من نوع extensive. وزراعة الطعام (B) والمباني الجديدة (D) ليست ما يميّز النوعين.",
+   "3": "هذا البحث هو الذي جعل الأسطح الخضراء عملية وقابلة للتطبيق. الـ passage يناقض A: \"The idea ... is very old\". أما C فهو word-match trap، لأن المنح (grants) جاءت لاحقًا من المدن، وليس من البحث.",
+   "4": "\"Stay close to\" = \"remains similar to\". رقم 70°C يخص السطح التقليدي (B). أما A فيذهب أبعد مما يقوله الـ passage.",
+   "5": "الفائدة تتغير حسب شدة المطر. يستخدم A وD صياغة متطرفة (extreme) لا يدعمها الـ passage. أما تخزين مياه المطر لاستخدامها في المباني (C) فغير مذكور.",
+   "6": "\"Sunlight and temperature changes\" = \"damaging conditions\". أما التقوية (B) فذُكرت فقط كتكلفة في المباني القديمة.",
+   "7": "الرسالة الأساسية في الـ paragraph تتعلق بالزراعة المناسبة (suitable planting). سياسات المدن ذُكرت باختصار فقط (B)، والكاتب لا يقول أبدًا إن كل مبنى يحتاج إلى سطح أخضر (A)."
+  }
+ },
+ {
+  "id": "rb_mcq_02",
+  "lesson": {
+   "title": "انتبه لعبارات \"more seriously\" و\"however\" و\"rather than\"",
+   "text": "كلمات الإشارة (signal words) تبيّن الفكرة التي يعتبرها الكاتب الأهم، أو الفكرة التي يصحّحها. إذا قال الـ passage \"X caused confusion; more seriously, it caused Y\"، فإن الـ question عن المشكلة الأخطر يريد Y وليس X. وبالمثل، \"A rather than B\" تعني أن A صحيح وB غير صحيح. وغالبًا يُبنى الـ distractor من الفكرة التي تدفعها كلمة الإشارة جانبًا.",
+   "example": "Passage: \"The festival was moved to spring, partly because of cost but mainly because of the risk of storms.\"\nQuestion: What was the main reason for the change?\nالإجابة: the weather risk.\nالتكلفة (cost) هي الـ distractor، لأنها كانت سببًا جزئيًا فقط."
+  },
+  "explanations": {
+   "1": "\"Set its clocks by the sun\" = \"observing the position of the sun\". أما المرصد (A) فلا يصبح مهمًا إلا لاحقًا، في Paragraph C.",
+   "2": "بطء السفر كان يعني أن الفروق الصغيرة لم تكن مهمة. أما D فهو عكس ما يقوله الـ passage، الذي يذكر أن المدن كانت تتبع أوقاتًا مختلفة. وB غير مذكور أبدًا.",
+   "3": "كلمة الإشارة \"More seriously\" تحدد النتيجة الأخطر. أما A وB وC فهي مشكلات حقيقية، لكنها تُعرض على أنها أقل خطورة.",
+   "4": "كلمة \"Remarkably\" تبيّن ما يجده الكاتب مفاجئًا: الممارسة جاءت قبل القانون. يناقض B وD الـ passage. أما C فيربط القانون بسنة 1840 بشكل خاطئ.",
+   "5": "جزءا C كلاهما مدعومان. A تناقضه عبارة \"rather than by the government\"، وB تناقضه عبارة \"cities refused\".",
+   "6": "عبارة \"prime meridian\" أُعيدت صياغتها (paraphrase) إلى \"a reference line\". A تناقضه عبارة \"did not create a worldwide system of time zones\". وC يناقضه ذكر فروق نصف الساعة (half-hour offsets).",
+   "7": "هذه هي الفكرة الأساسية في الـ paragraph. C يناقضه: \"not by scientists or governments\". أما الهواتف (A) فتظهر فقط كمثال حديث، والـ paragraph لا يقول أبدًا إن المناطق الزمنية غير ضرورية."
+  }
+ },
+ {
+  "id": "rb_mcq_03",
+  "lesson": {
+   "title": "أسئلة عن النظريات والأدلة (Questions about theories and evidence)",
+   "text": "كثيرًا ما تعرض passages العلوم نظرية (theory)، ثم الـ evidence الذي يدعمها، ثم evidence ضدها. افصل بين ثلاثة أشياء: ما تدّعيه النظرية، وما توصلت إليه الدراسة، وما يستنتجه الكاتب.\n\nقد يعرض الـ distractor ادعاء النظرية كأنه ثبت، أو يعرض استنتاج الكاتب بقوة أكبر مما قاله الكاتب. انتبه لكلمات التحفّظ (hedging) مثل may وsuggests وappears وsome.",
+   "example": "Passage: \"The results suggest that sleep may help memory, but the sample was small.\"\nQuestion: What does the writer say about the results?\nإجابة جيدة: they are promising but limited.\nTrap: they prove that sleep improves memory — لأنه يحوّل \"suggest\" إلى \"prove\"."
+  },
+  "explanations": {
+   "1": "الـ paragraph يتدرّج نحو هذا السؤال، ثم يناقشه باقي الـ passage. أما C فهو مجرد تفصيل داعم. وA وD لا تتم مناقشتهما.",
+   "2": "\"Reliably recorded\" = \"clearly shown\". يناقض الـ passage كلًّا من A وD. أما الـ evidence الخاص بالكلاب فيوصف بأنه \"less consistent\"، وهذا لا يدعم C.",
+   "3": "\"Rarely\" = \"seldom\". أما D فيعكس النمط الموصوف. وأفراد العائلة (C) ذُكروا في Paragraph D، وليس في هذه التجارب.",
+   "4": "يُستخدم المثال ليبيّن أن العلاقة مهمة. أما A فهو الرأي الذي يعارضه المثال. وC متطرف جدًا، لأن الغرباء هم \"least likely\"، وليس \"never\".",
+   "5": "هذا مذكور مباشرة كتنبؤ النظرية. أما A فهو العكس. وD يناقض تأثير التبريد (cooling effect) المذكور.",
+   "6": "عبارة \"Only a weak connection\" تدعم \"weaker than believed\". أما B فيعكس ما وُجد بشأن العمر. وD يناقضه ذكر التعب (tiredness).",
+   "7": "\"A mixture of factors\" = \"more than one cause\". الكاتب يتحفّظ (\"It is possible\")، لذلك فالادعاءات القوية في A وD غير مدعومة. أما B فيناقض عبارة \"surprisingly deep questions\"."
+  }
+ },
+ {
+  "id": "rb_mcq_04",
+  "lesson": {
+   "title": "الأرقام والمقارنات (Numbers and comparisons)",
+   "text": "عندما يحتوي الـ question على رقم أو نسبة مئوية أو كلمة مقارنة (more، less، cheaper، faster)، تحقق بدقة مما تتم مقارنته بماذا. كثيرًا ما يستخدم الـ distractor الرقم الصحيح لكنه يربطه بشيء خاطئ، أو يعكس المقارنة. اقرأ الجملة كاملة التي فيها الرقم، وليس الرقم وحده.",
+   "example": "Passage: \"The new engine uses 30% less fuel than the older model, although it costs more to build.\"\nQuestion: What advantage does the new engine have?\nالإجابة: lower fuel use.\nTrap محتمل: it is 30% cheaper — يستخدم الرقم الصحيح للشيء الخطأ."
+  },
+  "explanations": {
+   "1": "تضع الجملة رأيين متعارضين جنبًا إلى جنب. أما التحكم بالكمبيوتر (C) فذُكر في جملة سابقة. والكاتب لا يحكم على المنتقدين (D).",
+   "2": "\"Stacked closely together\" = \"close layers\". أما الزراعة المائية (hydroponics) (A) والبيوت الزجاجية (B) فكانت موجودة من قبل، ولا يعتبرها الـ passage التغيير الأساسي.",
+   "3": "\"Collected and reused\" = \"reuse\". مياه المطر (C) والزراعة الموسمية (D) غير مذكورتين. ورقم تسعين في المئة يصف حجم التوفير، وليس طريقة تحقيقه.",
+   "4": "\"Within hours\" = \"quickly\". العمال (A) وأسعار الأراضي (B) غير مذكورين. أما الكهرباء الأرخص (D) فترتبط بالاستخدام الليلي في Paragraph E، وليس بمواقع المدن.",
+   "5": "العائق هو تكلفة الإضاءة. A غير مذكور، لأن الـ passage لا يقول أبدًا إن الزراعة المائية لا تستطيع إنتاج القمح. وC وD غير مذكورين.",
+   "6": "\"Depends heavily\" = \"depends largely\". أما A وD فمطلقان أكثر من اللازم: يقول الـ passage إن الخسّة قد تنتج انبعاثات أكثر، وهذا ليس دليلًا قاطعًا.",
+   "7": "عبارتا \"An addition\" و\"fill some of the gaps\" = \"a limited supporting role\". A يناقضه الـ passage مباشرة. وC يضيّق مثالًا واحدًا (المناخات القاسية) أكثر من اللازم، وD يبالغ في وصف إغلاق الشركات المذكور في Paragraph E."
+  }
+ },
+ {
+  "id": "rb_mcq_05",
+  "lesson": {
+   "title": "أسئلة \"Choose TWO letters\": اختيار إجابتين",
+   "text": "في سؤال Choose TWO، تعامل مع كل option من الخمسة كأنه فحص True/False منفصل مقابل الـ passage. عادةً يكون هناك option اثنان مدعومان بوضوح، والثلاثة الأخرى إما غير مدعومة، أو يناقضها الـ passage، أو منسوبة إلى زمن أو مجموعة خاطئة. لا تختر option لمجرد أنه يبدو معقولًا؛ فكل option صحيح يجب أن يكون مذكورًا في الـ passage. ويمكنك كتابة الحرفين بأي ترتيب.",
+   "example": "Passage: \"Volunteers repaired the fence and planted trees; they did not have time to paint the shed.\"\nQuestion: Which TWO things did the volunteers do?\nA repaired the fence ✓\nB painted the shed ✗\nC planted trees ✓\nD built a shed ✗\nE cut the grass ✗ (غير مذكور في الـ passage أصلًا)"
+  },
+  "explanations": {
+   "1": "\"Abandon\" = \"stop using\". أما C فهو عكس النصيحة التي كانت تُعطى في ذلك الوقت. واختبارات الذكاء (D) تظهر في Paragraph B، لكن كطريقة بحث، وليس كنصيحة للعائلات.",
+   "2": "\"Only in the majority language\" = \"in only one language\". والمشكلة الأخرى المذكورة هي دخل الأسرة، وليست حجم العيّنة (A) أو عمر الأطفال (C).",
+   "3": "الـ option C يجمع النقطتين معًا. أما A فهو التفسير القديم. وD يناقضه الـ passage، لأنه يقول إن الكبار يخلطون اللغات \"too\".",
+   "4": "عبارة \"Counted together ... similar\" = \"combined size ... comparable\". A يناقض ذلك. أما B فيخلط بين مجموع المفردات والمفردات في كل لغة على حدة، حيث يعرف الأطفال ثنائيو اللغة غالبًا كلمات أقل.",
+   "5": "\"Amount and variety of exposure\" = \"how much varied contact\". أما A فهو word-match trap: الطريقة مذكورة، لكن الـ passage يقول إنها أقل أهمية. وB وD غير مذكورين.",
+   "6": "A تناقضه عبارة \"others ... have failed to find them\" في Paragraph F. وC غير مذكور أبدًا. أما E فتناقضه عبارة \"Adult bilinguals mix languages too\" في Paragraph C."
+  }
+ },
+ {
+  "id": "rb_mcq_06",
+  "lesson": {
+   "title": "أسئلة السبب والعلّة (Reason and cause questions)",
+   "text": "الأسئلة التي تبدأ بـ Why ...? أو تحتوي على because أو the reason أو led to أو as a result تختبر السبب والنتيجة. في الـ passage، ابحث عن كلمات الربط مثل because وsince وas وso وtherefore وthis means that وdue to. تأكد أن الـ option يعطي سبب النتيجة المحددة في الـ question. كثيرًا ما يذكر الـ passage عدة أسباب لنتائج مختلفة، والـ distractor يستعير سببًا حقيقيًا لكنه يخص نتيجة أخرى.",
+   "example": "Passage: \"The library closed early because of staff shortages; it also stopped lending DVDs, since few people borrowed them.\"\nQuestion: Why did the library stop lending DVDs?\nالإجابة: low demand.\nTrap: staff shortages — وهذا في الحقيقة سبب تغيير آخر."
+  },
+  "explanations": {
+   "1": "النسبة \"far smaller\" تشير إلى الجزء المعروض من المجموعة. أما A فهو العكس. ويقول الـ passage إن المخازن تكون غالبًا في مبنى منفصل، لذلك C خطأ.",
+   "2": "\"So crowded ... struggle to notice anything\" = \"confusing\". أما A وB وD فلم تُذكر كأسباب.",
+   "3": "\"Cannot be reversed\" = \"permanently\". أما الإعارة (A) فذُكرت في Paragraph E، لكن ليس كسبب لقِصر فترات العرض.",
+   "4": "الآفات (B) يتم التعامل معها بشكل منفصل، باستخدام المصائد والفحوص. أما الراحة (A) والتكلفة (D) فلم تُذكرا في ما يتعلق بالظروف المستقرة.",
+   "5": "الطيور مثال على استخدام المجموعات في البحث. أما الإعارة (D) فهي نقطة منفصلة في الـ paragraph نفسه، لذلك فهي distractor مأخوذ من الجملة الخطأ.",
+   "6": "\"Costly\" = \"expensive\"، وعبارة \"people who could never visit ... explore collections\" = \"widens access\". أما A وD فتناقضهما كلمتا \"slow\" و\"decades\".",
+   "7": "\"Organised, protected\" = \"well managed\"، و\"constantly consulted\" = \"regularly used\". أما الـ options الأخرى فلا يدعمها الـ paragraph."
+  }
+ },
+ {
+  "id": "rb_mcq_07",
+  "lesson": {
+   "title": "أسئلة الاستنتاج: Inference questions (\"suggests\", \"implies\", \"can be inferred\")",
+   "text": "سؤال الاستنتاج (inference) يطلب شيئًا لا يقوله الـ passage في جملة واحدة، لكنه يصبح صحيحًا بوضوح عندما تجمع المعلومات. الاستنتاج الصحيح خطوة صغيرة وآمنة من النص، وليس أبدًا تخمينًا أو معلومة عامة أو مبالغة. لتختبر أي option، اسأل نفسك: \"If the passage is true, must this also be true?\" إذا كان الجواب \"possibly\" (ربما) فقط، فارفضه. والـ distractors القوية في أسئلة الاستنتاج تكون غالبًا أفكارًا تبدو معقولة لكن الـ passage لا يدعمها أبدًا، أو تذهب خطوة أبعد من اللازم.",
+   "example": "Passage: \"The shop's winter sales fell every year until it began delivering to customers' homes; since then, winter has become its busiest season.\"\nQuestion: What can be inferred?\nالصحيح: delivery helped the shop overcome a seasonal problem.\nخطوة أبعد من اللازم (Too far): home delivery is the best strategy for all shops."
+  },
+  "explanations": {
+   "1": "يحدد الكاتب صراحةً أن الفائدة تكمن في التباين (variation). أما C فيصف كيف تتكوّن حلقة واحدة، لكنه ليس سبب فائدتها. وD مرتبط بنقطة الأمطار لكنه غير مذكور.",
+   "2": "طريقته في التأريخ نشأت من أبحاث المناخ، وهذا هدف مختلف. أما A فيعكس خلفيته: فقد كان عالم فلك. وC يذهب أبعد من اللازم، لأنه \"hoped\" فقط أن يجد evidence. وD غير مذكور.",
+   "3": "المقارنة تؤكد على نمط مميز ومتكرر يمكن مطابقته، وهذا يقود مباشرة إلى cross-dating في Paragraph C. أما B فمتطرف جدًا، لأن الـ passage يقول إن الأشجار تتشارك الأنماط \"from the same area\"، وليس في العالم كله.",
+   "4": "\"Overlapped with both\" = \"linked\". أما B فهو trap مبني على كلمة \"charred\". وD يناقضه الـ passage، لأن المستوطنات كانت مؤرّخة \"only by estimate\" وأصبح من الممكن الآن إعطاؤها سنوات دقيقة.",
+   "5": "التأريخ بالكربون المشع (radiocarbon dating) يعتمد على حلقات الأشجار في تصحيحه. أما A فيذهب أبعد مما في الـ passage. وC يعكس المقارنة، لأن حلقات الأشجار هي الطريقة الأدق.",
+   "6": "هذه paraphrase مباشرة. أما B فيجمع بين قيدين منفصلين بشكل خاطئ. وD ينطبق فقط على الخشب \"with its outermost ring intact\" (Paragraph E).",
+   "7": "الـ paragraph يدعو إلى الحذر عند ربط تاريخ الشجرة بالمبنى. أما B فيناقض المدح الذي يأتي بعد ذلك. وC يعكس النقطة الخاصة بالخشب المُعاد استخدامه، الذي قد يجعل الخشب أقدم من المبنى."
+  }
+ },
+ {
+  "id": "rb_mcq_08",
+  "lesson": {
+   "title": "رأي مَن هذا؟ (Whose opinion is it?)",
+   "text": "في المستوى المتوسط (Medium)، تحتوي الـ passages غالبًا على عدة أصوات: مصممين وشركات وباحثين ومنتقدين والكاتب نفسه. قد يسأل الـ question عمّا كانت تعتقده مجموعة معينة، أو عن رأي الكاتب. والـ distractor الشائع يذكر رأيًا موجودًا فعلًا في الـ passage، لكنه يخص شخصًا آخر.\n\nقبل أن تجيب، حدد المتكلم في نص الـ question، ثم ابحث عن هذا المتكلم في الـ passage. علامات مفيدة: according to X وX argued وcritics claim وit is often said (ليست بالضرورة رأي الكاتب)، وin my view وarguably وit seems clear وthe real problem is (غالبًا رأي الكاتب).",
+   "example": "Passage: \"Many parents believe homework builds discipline. The evidence, however, suggests its value depends largely on the child's age.\"\nQuestion: What is the writer's view?\nالصحيح: the benefits of homework vary with age.\nTrap: homework builds discipline — وهذا في الحقيقة اعتقاد الآباء."
+  },
+  "explanations": {
+   "1": "هذا يضع رأي الموظفين الحالي في مقابل الهدف الأصلي. أما A فيعرض رأي الموظفين كأنه حقيقة تاريخية. وC يعكس الاتجاه. وD تناقضه عبارة \"widely resented\".",
+   "2": "\"Hierarchy built into the architecture\" = \"design reinforced differences in status\". أما النباتات (A) فهي مجرد تفصيل في التصميم. وC وD يصفان الترتيبات التي كان المصممون يرفضونها.",
+   "3": "استخدمت الشركات النظام لإنشاء المقصورات (cubicles)، وهذا كان ضد أهدافه. A تناقضه عبارة \"highly successful commercially\". أما B فيصف كيف استخدمت الشركات النظام، وليس ما صُمم من أجله.",
+   "4": "كلمة الإشارة \"less idealistically\" تحدد الحجة العملية. أما A وB وD فهي الادعاءات المثالية التي قدمها المؤيدون.",
+   "5": "عبارة \"Contrary to expectations\" تحدد ما كان غير متوقع. أما B فيعكس النتيجة، لأن الرسائل الإلكترونية زادت. وD غير مذكور، وهو غير مرجّح بالنظر إلى تفصيل سماعات الرأس (headphones).",
+   "6": "توجد علاقة، لكن سببها غير مؤكد. A يبالغ في النتيجة وB يناقضها. أما D فيخلط بين التوتر والنقطة المنفصلة بأن مهام التركيز \"suffer most\".",
+   "7": "يدافع الكاتب عن حرية الاختيار بين مساحات مختلفة. أما A فمرفوض في عبارة \"either a corridor of closed doors\". وB تناقضه الظروف الموصوفة في Paragraph G. وD يتعارض مع احترام الكاتب للمصممين الأصليين."
+  }
+ },
+ {
+  "id": "rb_mcq_09",
+  "lesson": {
+   "title": "شرح العمليات (Explanations of processes)",
+   "text": "بعض الـ passages تشرح كيف يحدث شيء ما من خلال سلسلة من الأسباب (A يؤدي إلى B، الذي يقوّي A...). قد يختبر الـ question حلقة واحدة من السلسلة أو السلسلة كلها. وكثيرًا ما يعرض الـ distractor العناصر الصحيحة بترتيب خاطئ، أو يصف نقطة البداية (trigger) كأنها الشرح الكامل.\n\nقبل النظر إلى الـ options، اكتب السلسلة بنفسك في ثلاث أو أربع ملاحظات قصيرة (مثلًا: small sway → walkers adjust step → push in time → bigger sway). ثم اختر الـ option الذي يطابق ملاحظاتك.",
+   "example": "Passage: \"As more cars joined the road, traffic slowed; slower traffic made drivers brake sharply, which slowed it further.\"\nQuestion: Why did the traffic keep slowing?\nالصحيح: drivers' reactions made the slowdown worse.\nTrap: there were too many cars — وهذه مجرد نقطة البداية."
+  },
+  "explanations": {
+   "1": "يعرض الكاتب رأي الصحف على أنه افتراض خاطئ. أما A فهو العكس. والإغلاق غير مرتبط بالصحف (C)، ورقم 90,000 هو تقدير الكاتب نفسه (D).",
+   "2": "\"Not anticipated\" = \"unexpected\". أما A وB فتناقضهما عبارة \"structurally safe\". وD خطأ، لأن الـ passage يحدد أن المشكلة هي القوى الجانبية (sideways)، وليست الرأسية (vertical).",
+   "3": "هذه paraphrase مباشرة. أما A فيبدو منطقيًا لكنه غير مذكور. وD يناقضه الـ passage: فهو لا يقول إن الجسور مصممة لتتحرك مع المشاة.",
+   "4": "الـ option B يعطي الترتيب الصحيح. أما A فيعكس السبب والنتيجة. وC يشير إلى انحناء رأسي غير موصوف. وD يناقض الحلقة التي تقوّي نفسها (reinforcing cycle).",
+   "5": "بدأت الحركة فجأة بعد الوصول إلى حدّ معيّن (threshold). A تناقضه مباشرة عبارة \"does not happen gradually\". أما C وD فغير مدعومين.",
+   "6": "الحالات السابقة لم يُنظر إليها على أنها مشكلة عامة. D يناقضه ذكر جسور الطرق. أما B فيخلط بين هذه الحالات السابقة وتغييرات القواعد التي جاءت بعد جسر لندن (Paragraph G).",
+   "7": "المخمِّدات (dampers) حافظت على التصميم النحيف. أما A فيُدخل الحركة الرأسية بشكل خاطئ. وB وD غير مذكورين: فالـ passage لا يقارن أبدًا بين تكلفة الخيارين."
+  }
+ },
+ {
+  "id": "rb_mcq_10",
+  "lesson": {
+   "title": "سؤال \"Why does the writer mention ...?\": لماذا ذكر الكاتب هذا؟",
+   "text": "بعض الأسئلة تسأل عن وظيفة تفصيل ما: مثال، أو إحصائية، أو مقارنة، أو دراسة حالة. الإجابة ليست ما يقوله التفصيل، بل لماذا وُضع هناك. انظر إلى الجملة التي تسبق التفصيل مباشرة، فهي غالبًا الادعاء العام، واسأل: ما النقطة التي يثبتها هذا المثال أو يوضحها؟\n\nوالـ distractor المتكرر يعيد ذكر محتوى المثال نفسه فقط. هذا الـ option صحيح، لكنه لا يجيب عن السؤال المتعلق بالغرض.",
+   "example": "Passage: \"Small habits can have large effects. A person who saves just two dollars a day will have over seven hundred dollars after a year.\"\nQuestion: Why does the writer mention two dollars a day?\nالصحيح: to illustrate that small habits add up.\nTrap: to recommend a specific saving amount — وهذا مجرد محتوى المثال، وليس الغرض منه."
+  },
+  "explanations": {
+   "1": "\"Badly directed\" = \"poorly controlled\"، و\"not needed\" = \"unnecessary\". أما D فيستخدم تفصيل الأقمار الصناعية من الـ paragraph نفسه، لكن هذا التفصيل ليس جزءًا من التعريف.",
+   "2": "المراصد توضح كيف تأثر علماء الفلك الأوائل. أما D فيذهب أبعد من اللازم: المراصد انتقلت، لكن علم الفلك لم يتوقف. وB وC غير مدعومين.",
+   "3": "السلاحف مثال على الادعاء العام بأن الحيوانات التي تعتمد على الضوء الطبيعي تُضلَّل. أما D فيبالغ في عبارة \"many die\". وسياسة الفنادق (C) لا تُناقش. والـ paragraph لا يقارن السلاحف بالطيور (A).",
+   "4": "\"Still investigating how far\" = \"exact contribution not yet clear\". أما A وD فيبالغان في الـ evidence. وB غير مذكور.",
+   "5": "جاءت النتيجة عكس التوقعات. A تناقضه عبارة \"use far less electricity\". وD تناقضه عبارة \"can be directed more precisely\".",
+   "6": "\"Almost instantly\" = \"quickly\". أما B فيناقض الطرق البسيطة المذكورة. وC وD غير مذكورين: مدن السماء المظلمة (dark sky towns) تجذب الزوار، لكن لا شيء يُقال عن الجريمة أو عن دعم الجميع.",
+   "7": "التحدي الأساسي هو مواقف الناس. A تناقضه عبارة \"not to return cities to darkness\". وB تناقضه عبارة \"surprisingly mixed\". أما الوهج (glare) (D) فهو مجرد نقطة داعمة واحدة."
+  }
+ },
+ {
+  "id": "rb_mcq_11",
+  "lesson": {
+   "title": "التوقيت والشروط (Timing and conditions)",
+   "text": "كثيرًا ما تذكر passages الأبحاث أن نتيجة ما تظهر فقط في ظروف معينة: بعد فترة تأخير، أو في مجموعة واحدة، أو عندما تكون المهمة صعبة. والـ distractors في المستوى المتوسط تتجاهل هذه الشروط وتعرض النتيجة كأنها صحيحة دائمًا.\n\nعندما يذكر نص الـ question وقتًا أو شرطًا (immediately، after a week، when students...، at first)، حدد مكان هذا الشرط بالضبط في الـ passage. ثم تحقق: هل يحافظ الـ option على الشرط، أم يحذفه بهدوء؟",
+   "example": "Passage: \"The fertiliser increased growth, but only in sandy soils.\"\nQuestion: What did the study find?\nالصحيح: the fertiliser helped plants in certain soils.\nTrap: the fertiliser increased plant growth — لأنه يحذف الشرط."
+  },
+  "explanations": {
+   "1": "\"A comfortable sense of understanding\" = \"a feeling that they understand\". أما C فيناقضه البحث. وD يصف الاسترجاع (recall)، وليس إعادة القراءة (rereading).",
+   "2": "\"Measuring learning\" = \"assessment\". D يناقضه الـ passage: فقد لاحظ علماء النفس هذا التأثير في أوائل القرن العشرين. أما B فيعكس الموقف.",
+   "3": "هذا هو شرط التوقيت. كل من A وB يتجاهل أحد الاختبارين. أما D فيناقض عبارة \"had forgotten much\".",
+   "4": "مجموعة إعادة القراءة تعلمت أقل (Paragraph C) لكنها كانت أكثر ثقة. أما A فمتطرف جدًا. وC يناقضه عدم التطابق (\"mismatch\") الموصوف.",
+   "5": "الشرطان كلاهما موجودان في C. أما A فيعكس الشرط الأول، وB يعكس الشرط الثاني. وD يسيء فهم تشبيه الطريق (path)، الذي هو مجرد مقارنة.",
+   "6": "المصطلح الجديد يفصل الطريقة عن التقييم المسبب للتوتر. أما D فتناقضه عبارة \"None of this means that schools should simply give students more examinations\".",
+   "7": "هذه هي الفكرة الأساسية. أما A فيتعلق بالمواد الصعبة، وليس بالطرق. وB مطلق أكثر من اللازم. وD يعكس الجملة الأخيرة."
+  }
+ },
+ {
+  "id": "rb_mcq_12",
+  "lesson": {
+   "title": "عندما لا يشترك الـ question والـ passage في أي كلمة",
+   "text": "كلما زادت الصعوبة، لا يستخدم نص الـ question تقريبًا أيًّا من مفردات الـ passage. مثلًا، قد يقول الـ question \"workers' reaction\" بينما يقول الـ passage \"dockers' unions ... strikes\". لا يمكنك إيجاد الإجابة بالـ scan بحثًا عن كلمات متطابقة. بدلًا من ذلك:\n\n1. حوّل نص الـ question إلى فكرة بسيطة (\"How did the workers feel?\").\n\n2. استخدم ترتيب الأسئلة ومواضيع الـ paragraphs لتجد الجزء الصحيح.\n\n3. ابحث عن synonyms أو أمثلة أو أوصاف للفكرة، وليس عن الكلمات نفسها. والـ option الذي يكرر كلمات الـ passage أكثر من غيره هو غالبًا الـ trap.",
+   "example": "Stem: \"How did residents respond to the new airport?\"\nPassage: \"Petitions were signed by thousands living nearby, and weekly protests continued for a year.\"\nفكرة الإجابة: strong opposition.\nلا توجد كلمة مشتركة واحدة، لكن المعنى متطابق."
+  },
+  "explanations": {
+   "1": "التعامل مع البضائع في الميناء كان غالبًا التكلفة الأكبر. أما A فيعكس المقارنة. وD يناقض عبارة \"Theft was also common\".",
+   "2": "\"A small fraction\" = \"greatly cut costs\". A تناقضه عبارة \"Versions of this idea had been tried before\". وكان McLean يملك شركة خاصة، لذلك D خطأ.",
+   "3": "هذا يصف الاعتماد المتبادل بين أجزاء النظام. أما A وC وD فغير مذكورة.",
+   "4": "\"Move freely between\" = \"interchangeable\". أما B وC وD فليست من نتائج الاتفاقيات الموصوفة.",
+   "5": "الموانئ القديمة لم تستطع التكيف وفقدت نشاطها. أما A وC فهما العكس. وD غير مذكور.",
+   "6": "\"Resisted\" و\"long ... disputes\" = \"opposed ... for long periods\". نص الـ question لا يشترك في أي كلمة مع الـ passage، لذلك تعتمد هذه الإجابة على الـ paraphrase. أما D فهو trap مبني على عبارة \"crane operators\".",
+   "7": "ينتهي الـ paragraph بدرس عام. أما D فهو trap، لأن الدرس في الحقيقة يقلل من أهمية الاختراع الفردي."
+  }
+ },
+ {
+  "id": "rb_mcq_13",
+  "lesson": {
+   "title": "الـ options التي تكون \"صحيحة لكن ناقصة\" (\"true but incomplete\")",
+   "text": "في المستوى المتوسط، قد يبدو option اثنان صحيحين معًا. وغالبًا يكون أحدهما صحيحًا لكنه يغطي جزءًا فقط مما يطلبه الـ question، أو جزءًا فقط من الـ evidence. قارن بين آخر مرشّحَين مقابل الجملة أو الـ paragraph المعنيّة كاملة. الـ option الصحيح عادةً يلخص النقطة كلها، بينما يلتقط الـ distractor تفصيلًا واحدًا منها فقط.",
+   "example": "Passage: \"The village was abandoned because the river dried up and the new road bypassed it.\"\nQuestion: Why was the village abandoned?\nA the river dried up (صحيح لكنه ناقص)\nB it lost both its water supply and its transport connection (كامل)\nإذا كان مسموحًا لك باختيار حرف واحد فقط، فاختر B."
+  },
+  "explanations": {
+   "1": "المشهد يُظهر محادثة حقيقية عن بُعد. أما A فمرفوض مباشرة (\"not ... simple signals like those used to call a dog\"). وD تناقضه قائمة الدول.",
+   "2": "\"Transposing\" = \"converting\". أما A فمنفيّ مباشرة. وD يسيء فهم مقارنة الحروف المفقودة (\"missing letters\")، التي هي مجرد تشبيه.",
+   "3": "الـ option A يصف اللغات التي تُميّز فيها درجةُ الصوت (pitch) بين الكلمات. أما C فتناقضه عبارة \"may therefore differ considerably between regions\".",
+   "4": "الـ option B يجمع جزأي الشرح. والـ option الذي يذكر جزءًا واحدًا فقط سيكون ناقصًا. أما A وC فغير مذكورين. وD يعكس النقطة: الصفير يبرز وسط ضجيج الخلفية.",
+   "5": "الـ option C يلتقط نصفي الجملة الأخيرة. أما A فيناقض عبارة \"relatively few\". وD يصف أين بقيت هذه الممارسة في أماكن أخرى، وليس في La Gomera.",
+   "6": "هذه paraphrase للنتيجة. أما A فيناقض عبارة \"both halves\". وC وD غير مذكورين.",
+   "7": "\"Redundant\" = \"more information than listeners need\". أما D فهو العكس. وC غير مذكور."
+  }
+ },
+ {
+  "id": "rb_mcq_14",
+  "lesson": {
+   "title": "التغيّر مع الزمن (Questions about change over time)",
+   "text": "الـ passages التي تتحدث عن السياسات أو التطورات تصف غالبًا مرحلة قبل، ومرحلة أثناء، ومرحلة بعد. قد يسأل الـ question كيف تغيّر شيء ما، مثل الرأي العام أو مستوى حركة المرور. وكثيرًا ما يصف الـ distractor الوضع الصحيح لكن في المرحلة الخطأ (ما كان الناس يعتقدونه قبل بدلًا من بعد). ضع علامة على كلمات الزمن في الـ passage (initially، at first، during the trial، once، subsequently، by the end) واربط كل معلومة بمرحلتها.",
+   "example": "Passage: \"At first, most residents opposed the new park; after it opened, surveys showed strong approval.\"\nQuestion: How did opinion develop?\nالصحيح: it moved from opposition to support.\nTrap: most residents opposed the park — وهذا صحيح، لكن في المرحلة الأولى فقط."
+  },
+  "explanations": {
+   "1": "الطرق الجديدة تجذب حركة مرور جديدة. أما A فهو الاعتقاد الذي رفضه الاقتصاديون. وC وD غير مذكورين.",
+   "2": "هذه paraphrase مباشرة. أما A وC وD فليست جزءًا من الحجة.",
+   "3": "الكاميرات حلّت محل التصاريح والأكشاك. أما A وB وD فغير مذكورة.",
+   "4": "تتطلب هذه الإجابة ربط كل معلومة بمرحلتها. أما A فيعكس الاتجاه. وD تناقضه استطلاعات الرأي المذكورة في Paragraph D.",
+   "5": "\"Larger than predicted\" = \"exceeded predictions\". أما A فهو العكس. وD يناقض عبارة \"Journey times became shorter\".",
+   "6": "\"Failed to materialise\" = \"did not happen\". أما D فهو أحد المخاوف التي لم تحدث. وB يذهب أبعد مما في الـ passage، الذي يقول فقط إن خسارة الزبائن التي كانوا يخشونها لم تحدث.",
+   "7": "يتخذ الكاتب موقفًا مشروطًا. أما A فيعرض رأي المنتقدين كأنه مطلق. وD تناقضه عبارة \"not a solution for every city\"."
+  }
+ },
+ {
+  "id": "rb_mcq_15",
+  "lesson": {
+   "title": "Hard Multiple Choice — الادعاءات الدقيقة وموقف الكاتب المشروط (qualified position)",
+   "text": "في المستوى الصعب (Hard):\n\nقد يحتوي كل option على كلمات من الـ passage. عليك أن تحكم على قوة كل ادعاء ونطاقه (some / most / all، may / does، in certain conditions / generally). وغالبًا يتخذ الكاتب موقفًا مشروطًا (qualified position): يقبل جزءًا من الحجة ويرفض جزءًا آخر. الـ option الصحيح يعكس هذا التوازن، أما الـ distractors فتعرض جانبًا واحدًا بقوة أكبر من اللازم.\n\nقد يكون الـ evidence موزعًا على أكثر من paragraph. فالسؤال عن \"the later research\" قد يحتاج إلى معلومات من مكانين.\n\nالاستراتيجية: في كل option، ضع خطًا تحت كلمة الادعاء (مثل proved، always، no effect، depends) وتحقق هل يدعم الـ passage هذه القوة بالضبط.",
+   "example": "Passage: \"The drug helped some patients, but in larger trials the average benefit was close to zero, although certain groups still seemed to respond.\"\nأفضل تلخيص: the drug's benefit appears limited to particular groups.\nقوي أكثر من اللازم: the drug does not work.\nوهذا أيضًا قوي أكثر من اللازم: the drug is effective."
+  },
+  "explanations": {
+   "1": "العرض الكبير جذب اهتمامًا أكثر لكنه حقق مبيعات أقل. أما A فيعكس النتيجة الخاصة بالزوار. وD يناقض الفرق في المبيعات.",
+   "2": "\"Seemed almost self-evident\" = \"widely accepted assumption\". أما A فهو تفصيل عن مكان التجربة، وليس سبب كون النتيجة مفاجئة.",
+   "3": "كلمة \"even\" والمدى الذي يمتد من المعاشات التقاعدية إلى المنتجات يُظهران إلى أي حد انتشرت الفكرة أبعد من الـ evidence الأصلي. هذا استنتاج (inference)، ويدعمه تحذير الكاتب لاحقًا في Paragraph G. أما C فهو trap: المعاشات كانت هدفًا للسياسات، وليست مصدرًا للـ evidence.",
+   "4": "\"Close to zero\" = \"negligible\". أما B فيحوّل عبارة \"a few found\" إلى \"always\". وD غير مدعوم، ويقول Paragraph G إن النتيجة \"may well have been genuine\".",
+   "5": "هذا هو السبب الذي يذكره الكاتب. أما C فيناقضه الـ passage: فالتحليل المجمّع شمل \"published and unpublished experiments\". وD غير مذكور.",
+   "6": "\"Already knew what they wanted\" = \"clear preferences beforehand\". أما A وB وD فهي الظروف التي يُرجَّح فيها أن تسبب التشكيلات الكبيرة مشكلات. هذا السؤال يختبر القراءة الدقيقة لاتجاه كل شرط.",
+   "7": "هذا يطابق C. أما A فمنفيّ: \"The problem is rarely that the original researchers were wrong\". وD قوي أكثر من اللازم بالنسبة لرأي الكاتب المشروط. وB متطرف جدًا ولم يُذكر أبدًا."
+  }
+ },
+ {
+  "id": "rb_mcq_16",
+  "lesson": {
+   "title": "النظريات المتنافسة وتأثير الـ evidence عليها (Competing theories)",
+   "text": "كثيرًا ما تقارن الـ passages الصعبة بين عدة تفسيرات، ثم تقدّم evidence يؤثر في كل منها بشكل مختلف. قد يسأل الـ question أي نظرية يتحداها اكتشاف ما، أو ماذا يعني اكتشاف ما بالنسبة لتفسير معين. ارسم جدولًا سريعًا في ذهنك أو على الورق:\n\nالنظرية | الادعاء الرئيسي | evidence مؤيد | evidence معارض\n\nثم أجب من الجدول. كثيرًا ما يربط الـ distractor الـ evidence بالنظرية الخطأ، أو يتعامل مع \"challenges\" كأنها \"disproves\".",
+   "example": "Passage: \"Theory X says the lake dried because of farming; Theory Y blames a drought. Sediment shows the lake shrank before farms were built.\"\nQuestion: What does the sediment suggest?\nالصحيح: it weakens Theory X.\nTrap: it proves Theory Y (قوي أكثر من اللازم) وit supports Theory X (الاتجاه الخطأ)."
+  },
+  "explanations": {
+   "1": "يطرح الـ paragraph افتراضًا لكي يشكك فيه. أما A فقوي أكثر من اللازم: الكاتب لا يقول أبدًا إن الزراعة كانت خطأ. وD تناقضه عبارة \"independently in several other parts of the world\".",
+   "2": "الـ option C يطابق القوة الحذرة للادعاء (\"no better, and often worse\"). أما B فيعكس الادعاء الخاص بالسكان، لأن الزراعة سمحت لـ \"populations to grow\". وD يبالغ: فشل المحصول \"could\" يجلب الجوع، وليس كل عام.",
+   "3": "نقطة البداية (trigger) هي تراجع الموارد البرية. أما A فهو trap: الفترة الأدفأ تفسّر لماذا انتشرت الحبوب البرية، وليس لماذا بدأ الناس بالزراعة. وC يخص التفسير الأول.",
+   "4": "النظرية الاجتماعية تركز على التجمعات وليس على الجوع. أما A فيصف التفسيرات الأخرى. وC يناقضه الـ passage، لأن الحبوب أساسية في هذا الرأي.",
+   "5": "التواريخ تضع البناء قبل الزراعة. أما A فهو العكس. وB قوي أكثر من اللازم: يذكر Paragraph F أن المناخ ربما أثّر \"at the same time\". وD تناقضه بقايا الحيوانات البرية.",
+   "6": "يفصل الكاتب بين التفسيرات المختلَف عليها وهذا الاستنتاج الأكثر ثباتًا. أما A وD فيناقضان الرأي الحذر بأن \"a single site ... cannot show what motivated communities across a large region\". وC يناقضه الـ paragraph نفسه.",
+   "7": "الـ option C يجمع بين \"gradual\" و\"different reasons\". أما A فيختصر التفسير في سبب واحد، وهذا ما يرفضه الكاتب. وB وD تناقضهما كلمة \"gradual\" وعبارة \"long periods\" التي جمع فيها الناس بين الزراعة والصيد وجمع الثمار."
+  }
+ },
+ {
+  "id": "rb_mcq_17",
+  "lesson": {
+   "title": "الأفكار المخالفة للمنطق الشائع (Counter-intuitive ideas)",
+   "text": "بعض الـ passages الصعبة تشرح فكرة تخالف المنطق الشائع (common sense). هنا مثلًا، ذوبان الأنهار الجليدية يزيد كمية المياه المتاحة أولًا، ولا يقللها إلا لاحقًا. ستختبر الأسئلة هل تابعت الحجة بدقة، والـ distractors ستقدم النسخة \"common-sense\" (المنطقية الشائعة). عندما يشير الـ passage إلى المفاجأة (paradoxically، counter-intuitively، at first sight، in fact)، أبطئ وأعد صياغة الفكرة بكلماتك قبل قراءة الـ options.",
+   "example": "Passage: \"Paradoxically, the new bypass increased traffic in the town centre, because it made the town easier to reach.\"\nQuestion: Why did traffic increase?\nالصحيح: improved access attracted more visitors.\nTrap: the bypass sent traffic through the centre — هذه هي النسخة \"common-sense\"، وليست السبب المذكور في الـ passage."
+  },
+  "explanations": {
+   "1": "أهمية الأنهار الجليدية تكمن في توقيت وصول مياهها. أما A وC فيستخدمان صياغة مطلقة لا يدعمها الـ passage. وD متطرف جدًا، لأن الطاقة الكهرومائية مجرد واحد من عدة استخدامات مذكورة.",
+   "2": "\"Store that accumulated over centuries\" = \"stored over a long period\". A يناقضه الـ passage، لأن النهر الجليدي يفقد أكثر مما يكسب. وC غير مذكور.",
+   "3": "جليد مكشوف أقل يعني مياه ذوبان أقل. أما A فيناقض عبارة \"temperatures continue to rise\". وC يصف الوضع بعد اختفاء النهر الجليدي، وليس سبب التراجع.",
+   "4": "الـ option A مرفوض مباشرة. أما B فيعمّم من عبارة \"some small, low-altitude glaciers\". وD قوي أكثر من اللازم، لأن النماذج (models) تعطي تقديرات فعلًا.",
+   "5": "هذا هو الخطر الذي يحدده الكاتب. أما A فيصف المستقبل، وليس فترة الوفرة الحالية. وD غير مذكور.",
+   "6": "يقبل الباحثون الأرقام لكنهم يضيفون تحفّظًا. أما A وB فيشوّهان ذلك في اتجاهين متعاكسين. وD غير مذكور.",
+   "7": "الـ option A هو paraphrase مباشرة. أما B فتناقضه عبارة \"None of this implies that nothing can be done\". وC يبالغ في دور الخزانات. وD هو النهج الذي يحذّر منه الكاتب."
+  }
+ },
+ {
+  "id": "rb_mcq_18",
+  "lesson": {
+   "title": "فهم الشرح التقني دون معرفة تقنية (Technical explanations without technical knowledge)",
+   "text": "أحيانًا تشرح الـ passages الصعبة مبدأً هندسيًا أو علميًا. ليس مطلوبًا منك أن تعرف الموضوع؛ فكل ما تحتاجه موجود في النص. والـ distractors في هذه الـ passages غالبًا: تبدو معقولة تقنيًا لكنها غير مذكورة، وهذا trap المعرفة الخارجية (outside knowledge)؛ أو تخلط بين قوتين أو مكوّنين مترابطين؛\n\nأو تعكس اتجاه العلاقة (taller walls → more outward push، وليس أقل). أثناء القراءة، أعد صياغة كل جملة تقنية بلغة بسيطة، مثلًا: \"the roof pushes the walls outward\".",
+   "example": "Passage: \"The heavier the load on an arch, the more strongly it pushes sideways against its supports.\"\nQuestion: Which is true?\nالصحيح: increasing the load increases sideways force.\nTrap: heavier arches need no side support — هذا يعكس اتجاه العلاقة."
+  },
+  "explanations": {
+   "1": "هذا هو \"two apparently contradictory impressions\". أما D فيُفهم ضمنيًا فقط في جزء لاحق من الـ passage، وليس هو التناقض الموصوف في Paragraph A.",
+   "2": "الـ options A وB يعكسان العلاقتين. أما D فيخلط بين الانضغاط (compression)، وهو حالة طبيعية في الحجر، وبين سبب الدفع (thrust).",
+   "3": "هذا هو السبب الإنشائي. أما A وC فيبدوان معقولين لكنهما يحتاجان إلى معرفة خارجية، لأن الـ passage لا يذكر أبدًا التكلفة أو التفضيل الديني.",
+   "4": "الأقبية المضلّعة (ribbed vaults) تركّز الأحمال (A)، والدعامات الطائرة (flying buttresses) تنقل الدفع بعيدًا (B). ولا يقول الـ passage إن أيًّا منهما يقلل الدفع. الـ distractors هنا تخلط بين مكوّنات مترابطة.",
+   "5": "هذا استنتاج (inference) يدعمه النص مباشرة. أما A فهو الرأي الذي يرفضه الكاتب. وB يناقضه ثبات النظام.",
+   "6": "يرفض الكاتب صراحةً كلًّا من \"modern theory\" (A، D) و\"pure luck\" (B) بعبارة \"Neither view appears to be correct\".",
+   "7": "الـ option A تناقضه عبارة \"what matters is not the strength of the material\". وC تناقضه عبارة \"considerable margin of safety\". أما D فغير مذكور."
+  }
+ },
+ {
+  "id": "rb_mcq_19",
+  "lesson": {
+   "title": "الارتباط والسببية وتصميم البحث (Correlation, causation and research design)",
+   "text": "كثير من passages الأبحاث تفرّق بين إيجاد أن شيئين يحدثان معًا (correlation) وبين إثبات أن أحدهما يسبب الآخر (causation). الأسئلة الصعبة تختبر هل تلاحظ حذر الكاتب. والـ distractors تحوّل \"is associated with\" إلى \"causes\"، أو تتجاهل قيدًا (limitation) يذكره الكاتب.\n\nانتبه لعلامات تصميم الدراسة: compared، followed over time، randomly assigned، before and after. وانتبه أيضًا لتحفّظات الكاتب: this does not prove، cannot rule out، it is possible that.",
+   "example": "Passage: \"People who drink more coffee tend to live longer, but coffee drinkers may also differ in income and exercise.\"\nالاستنتاج الصحيح: the link may be explained by other factors.\nTrap: coffee extends life."
+  },
+  "explanations": {
+   "1": "هذه paraphrase مباشرة. أما A وC وD فلم تُطرح كأسئلة.",
+   "2": "المشكلة هي اتجاه السببية. أما B فيناقض النتيجة. وA وC غير مذكورين.",
+   "3": "تصميم \"قبل وبعد\" (before-and-after) يقوّي الادعاء السببي. أما C فيناقضه الـ passage: النمو ظهر فقط لدى المتدربين الذين نجحوا في التأهل. وD يناقض عبارة \"showed no difference\" قبل التدريب.",
+   "4": "هذا مذكور مباشرة. أما C فهو trap مبني على التفسير البديل في Paragraph E، الذي جعلته الدراسة اللاحقة \"less likely\".",
+   "5": "\"Participants' own reports\" = \"what participants said about their own behaviour\". أما D فيعكس القيد الآخر: الدراسة لم توزّع المشاركين عشوائيًا (randomly assign).",
+   "6": "الـ option A يحوّل هذا إلى دليل على تأثير دائم، وهذا ما ينفيه الكاتب. أما C فيناقض الفروق المذكورة.",
+   "7": "الـ option A مرفوض صراحةً (\"It would be wrong ... to conclude\"). أما C فمتطرف جدًا مقارنة بعبارة \"occasionally switch the app off\". وD يناقض عبارة \"What the evidence does suggest\"."
+  }
+ },
+ {
+  "id": "rb_mcq_20",
+  "lesson": {
+   "title": "عندما تُعدَّل قصة مشهورة (When a famous story is revised)",
+   "text": "أصعب الـ passages تصف غالبًا تفسيرًا شائعًا، ثم تُظهر كيف عقّدته الأبحاث اللاحقة. تختبر الأسئلة أربعة أشياء:\n\n1. ماذا ادّعت القصة الأصلية؛\n\n2. ما الـ evidence الذي دعمها؛\n\n3. ماذا وجد الباحثون لاحقًا؛\n\n4. ما الموقف النهائي للكاتب.\n\nموقف الكاتب يكون عادةً بين الطرفين المتطرفين: القصة ليست صحيحة تمامًا ولا خاطئة تمامًا. احذر من الـ options التي تأخذ أحد الطرفين، ومن الـ options التي تنسب اكتشافًا لاحقًا إلى الباحثين الأصليين.",
+   "example": "Passage: \"The statue was long believed to be Roman. Recent tests suggest parts are Roman but the head was added in the eighteenth century.\"\nأفضل تلخيص: the statue combines ancient and later parts.\nTrap: it is entirely Roman وit is an eighteenth-century fake."
+  },
+  "explanations": {
+   "1": "ساعدت الذئاب الأشجار بشكل غير مباشر، عن طريق تقليل أعداد الأيائل (elk). أما C فيعكس التسلسل، لأن القنادس جاءت بعد تعافي الأشجار. وA غير مدعوم.",
+   "2": "ثعالب الماء (otters) تُظهر مثالًا ثابتًا على السلسلة المتتابعة (cascade). أما D فتناقضه عبارة \"on land\". وB يخلط بين هذا الـ paragraph والتعديل اللاحق للقصة.",
+   "3": "جاذبية الفكرة كانت في أن الخوف وحده قد يُحدث آثارًا. أما A فيناقض عبارة \"not fallen much\". وC يناقض Paragraph D، الذي يقول إن الذئاب تصطاد أساسًا عند الفجر والغسق وفي الليل.",
+   "4": "هذا يلتقط جزأي النتيجة. أما A فتناقضه عبارة \"little evidence that they abandoned such places\". وB تناقضه عبارة \"did adjust\".",
+   "5": "القائمة تُظهر أسبابًا أخرى محتملة، وهذا يجعل فصل دور الذئاب صعبًا. أما A وC فيذهبان أبعد مما في الـ passage، لأن الكاتب لا يرتّب تأثير الذئاب ولا ينفيه أبدًا (انظر Paragraph G). وD يناقض عبارة \"no controlled experiment is possible\".",
+   "6": "هذا مذكور مباشرة. أما A وC وD فغير مذكورة.",
+   "7": "هذا هو الموقف الوسط المشروط. أما A وB فهما الطرفان المتطرفان اللذان يرفضهما الكاتب. وD غير مذكور ويتعارض مع عبارة \"necessary step\"."
+  }
+ },
+ {
+  "id": "rb_tfng_01",
+  "lesson": {
+   "title": "الأرقام والتواريخ (Numbers and dates)",
+   "text": "في المجموعات السهلة، تحتوي كثير من العبارات (statements) على رقم أو تاريخ أو مسافة. ابحث عن هذا الرقم أو ما يعادله في الـ passage (قد يظهر 70,000 على شكل seventy thousand، وhalf على شكل 50%). ثم تحقق إلى ماذا يشير الرقم. قد تستخدم العبارة الرقم الصحيح للشيء الخطأ (FALSE)، أو تضيف تفصيلًا عن الرقم لا يذكره الـ passage أبدًا (NOT GIVEN).",
+   "example": "Passage: \"The tower is 90 metres tall.\"\nStatement: \"The tower is 90 metres wide.\"\n→ FALSE؟ لا: الـ passage لا يقول شيئًا عن العرض (width)، لذلك الإجابة NOT GIVEN. وتكون FALSE فقط إذا ذكر الـ passage عرضًا مختلفًا."
+  },
+  "explanations": {
+   "1": "مئة غرام أقل بكثير من كيلوغرام، لذلك يناقض الـ passage العبارة.",
+   "2": "الـ passage لا يقول أبدًا هل تعود الطيور نفسها إلى المكان نفسه كل عام، لذلك لا يمكن تأكيد العبارة ولا نفيها.",
+   "3": "عبارة \"Striking ... intruders including humans\" تساوي \"may attack people\".",
+   "4": "كان لدى العلماء evidence من الطيور المحلّقة (ringed birds) قبل دراسة التتبع. ما كان ينقصهم هو معلومات عن المسارات.",
+   "5": "عبارة \"Straight-line distance\" تساوي \"direct flight\".",
+   "6": "كلمة \"Stop\" تساوي \"rest\"، وكلمة \"plentiful\" تساوي \"plenty of food\".",
+   "7": "لا يوجد في الـ passage ما يؤكد العبارة أو ينفيها.",
+   "8": "كلمة \"Some\" تناقض \"every region\". هذا qualifier trap (فخ الكلمات المقيِّدة). لاحظ أن الإجابة FALSE وليست NOT GIVEN، لأن \"some populations have declined\" تعني أن التراجع ليس في كل مكان."
+  }
+ },
+ {
+  "id": "rb_tfng_02",
+  "lesson": {
+   "title": "كلمة \"First\" و\"only\" وغيرها من الكلمات القوية (strong words)",
+   "text": "كثيرًا ما تحتوي العبارات على كلمات تقدّم ادعاءً قويًا: first، only، never، always، all، the most. قد يدعم الـ passage الموضوع، لكن لا يدعم قوة الادعاء.\n\nإذا قال الـ passage إن شخصًا ما كان among the first، فالعبارة التي تقول إنه كان the first تكون عادةً NOT GIVEN، ولا تكون FALSE إلا إذا ذكر الـ passage شخصًا سبقه. أما إذا قال الـ passage إن آخرين حاولوا من قبل، فالعبارة التي تقول إن X كان أول من حاول تكون FALSE.",
+   "example": "Passage: \"Several companies had made electric cars before 1900.\"\nStatement: \"The first electric car was made in 1920.\"\n→ FALSE، لأن السيارات كانت موجودة قبل 1900."
+  },
+  "explanations": {
+   "1": "حدث هذا بحلول أواخر القرن التاسع عشر، أي قبل عمل Birdseye في العقد الثاني من القرن العشرين (1910s).",
+   "2": "عبارة \"Poor reputation\" تناقض \"high quality\".",
+   "3": "يُظهر الـ passage أن الأسماك كانت تُجمَّد قبل Birdseye، وهذا يجعل \"the first\" مستحيلًا.",
+   "4": "عبارة \"Several years\" لا تخبرنا هل كانت المدة أكثر أو أقل من عشر سنوات. الـ passage لا يؤكد العبارة ولا ينفيها.",
+   "5": "عبارة \"Breaking cell walls\" تساوي \"damage food\".",
+   "6": "كلمة \"Failed\" تناقض \"successful\".",
+   "7": "\"The following year\" بعد 1929 = 1930. ويصف الـ passage هذا بأنه الوقت الذي طُرحت فيه المنتجات للبيع.",
+   "8": "لا يوجد في الـ passage ما يؤكد أي ندم أو ينفيه."
+  }
+ },
+ {
+  "id": "rb_tfng_03",
+  "lesson": {
+   "title": "عبارات السبب والنتيجة (Cause-and-effect statements)",
+   "text": "قد تربط العبارة بين معلومتين باستخدام because أو so أو led to أو as a result. تحقق بعناية: إذا ذكر الـ passage السبب نفسه → TRUE.\n\nإذا ذكر الـ passage سببًا مختلفًا، أو قال إن العلاقة غير موجودة → FALSE. إذا ذكر الـ passage المعلومتين لكن لم يربط بينهما → NOT GIVEN.",
+   "example": "Passage: \"The café changed its menu in May. Its sales rose in June.\"\nStatement: \"Sales rose because of the new menu.\"\n→ NOT GIVEN. الحدثان مذكوران، لكن لم يُذكر أي سبب."
+  },
+  "explanations": {
+   "1": "العبارة تقول \"many\" والـ passage يقول \"most\". وبما أن most تشمل many، فالعبارة TRUE.",
+   "2": "\"Predict\" = \"expected\"، أي أن المعنى نفسه.",
+   "3": "يذكر الـ passage الضغط المالي، لكنه لا يقول إن الإغلاق كان بسبب قلة الاستخدام. السبب الوارد في العبارة لا يؤكده الـ passage ولا ينفيه.",
+   "4": "\"Fallen\" = \"decreased\"، أي أن المعنى نفسه.",
+   "5": "عبارة \"Mainly or only\" تُظهر أن ليس كل الخدمات online فقط، وهذا يناقض \"all\".",
+   "6": "كلمة \"Others\" تعني بعض المكتبات، وهذا يطابق \"some places\".",
+   "7": "هذا يناقض مباشرة عبارة \"all ... support\".",
+   "8": "لا توجد أي مقارنة بين أعداد الزوار والمكتبات القديمة."
+  }
+ },
+ {
+  "id": "rb_tfng_04",
+  "lesson": {
+   "title": "كلمات الترتيب والزمن (Sequence and time words)",
+   "text": "قد تختبر العبارات ترتيب الأحداث باستخدام before وafter وlater وuntil وat first وsoon. أثناء القراءة، ضع أحداث الـ passage على خط زمني بسيط في الهامش. العبارة التي تعكس الترتيب تكون FALSE. أما العبارة عن توقيت لا يحسمه الـ passage، مثل المدة التي استمر فيها شيء ما عندما يُذكر تاريخ البداية فقط، فتكون NOT GIVEN.",
+   "example": "Passage: \"The bridge opened in 1901; electric trams crossed it from 1910.\"\nStatement: \"Trams used the bridge from the day it opened.\"\n→ FALSE، لأن الترام بدأ بعد تسع سنوات."
+  },
+  "explanations": {
+   "1": "عبارة \"On the edge\" تناقض \"in the centre\".",
+   "2": "كلمة \"Ridiculed\" تعني عكس \"popular\" تمامًا.",
+   "3": "\"Began\" = \"started\"، أي أن المعنى نفسه.",
+   "4": "لا يوجد في الـ passage ما يؤكد العبارة أو ينفيها. لا تفترض أن خط الأنفاق بُني بالطريقة نفسها التي بُنيت بها الخطوط الرئيسية.",
+   "5": "هذا تطابق مباشر مع الـ passage.",
+   "6": "هذا يناقض عبارة \"no passengers complained\".",
+   "7": "\"Worked by\" = \"used\"، أي أن المعنى نفسه.",
+   "8": "التحويل حدث بعد 1900، وليس قبل 1890، لذلك فالعبارة تعكس الترتيب."
+  }
+ },
+ {
+  "id": "rb_tfng_05",
+  "lesson": {
+   "title": "لا تدع المنطق العام يجيب عنك (Don't let common sense answer for you)",
+   "text": "بعض العبارات تبدو صحيحة بوضوح بسبب ما تعرفه أو تتوقعه مسبقًا. في TFNG، كون العبارة \"sounds true\" ليس evidence. إذا وجدت نفسك تقول \"that must be right\" لكنك لا تستطيع الإشارة إلى جملة في النص، فالإجابة على الأرجح NOT GIVEN. وهذا الـ trap شائع جدًا في المواضيع اليومية.",
+   "example": "Passage: \"The first bicycles had no pedals; riders pushed along with their feet.\"\nStatement: \"Early bicycles were uncomfortable to ride.\"\nتبدو محتملة، لكن لا شيء مذكور عن الراحة (comfort) → NOT GIVEN."
+  },
+  "explanations": {
+   "1": "عبارة \"Changed surprisingly little\" تناقض \"changed greatly\".",
+   "2": "هذه paraphrase مباشرة.",
+   "3": "عبارة \"Used directly\" تناقض فكرة أنه كان يُخلط بالطين. أما الخلط بالطين فكان طريقة Conté اللاحقة لتعويض الجرافيت الإنجليزي.",
+   "4": "\"Guarded\" = \"protected\"، أي أن المعنى نفسه.",
+   "5": "عمله السابق غير موصوف. كونه مهندسًا لا يعني أنه لم يصنع أقلامًا من قبل، لذلك لا يؤكد الـ passage العبارة ولا ينفيها.",
+   "6": "هذا تطابق مباشر مع الـ passage.",
+   "7": "الـ passage يذكر سببًا مختلفًا. وبما أنه يحدد الغرض، وهذا الغرض يختلف عن الغرض في العبارة، فالإجابة FALSE. ولو لم يُذكر أي سبب على الإطلاق، لكانت الإجابة NOT GIVEN. قد يوحي المنطق العام (common sense) بأن الهدف هو تسهيل الإمساك، لكن المهم هو الـ passage فقط.",
+   "8": "لا توجد أي مقارنة مع الأقلام (pens) في المدارس."
+  }
+ },
+ {
+  "id": "rb_tfng_06",
+  "lesson": {
+   "title": "التطابق الجزئي (Partial matches)",
+   "text": "قد تكون العبارة صحيحة نصفيًا: جزء منها يطابق الـ passage والجزء الآخر لا يطابقه. تحقق من كل جزء من العبارة.\n\nإذا كان أي جزء يناقضه الـ passage → FALSE.\n\nإذا تأكد جزء ولم يُذكر الجزء الآخر → NOT GIVEN.\n\nالإجابة TRUE فقط عندما يكون كل جزء مدعومًا.",
+   "example": "Passage: \"The river flows south and is used for irrigation.\"\nStatement: \"The river flows south and is used for drinking water.\"\nالجزء الأول يطابق، لكن drinking water غير مذكورة → NOT GIVEN."
+  },
+  "explanations": {
+   "1": "كلمة \"Roughly\" تساوي \"about\"، وعبارة \"the ocean\" تساوي \"seawater\".",
+   "2": "هذا يناقض فكرة أن هناك نهرًا يحمل الماء إلى الخارج.",
+   "3": "كلمة \"Varied\" تناقض \"completely unchanged\". هذا qualifier trap (فخ الكلمات المقيِّدة).",
+   "4": "هذه paraphrase مباشرة.",
+   "5": "لا يمكن تحديد ترتيب التطورين من الـ passage.",
+   "6": "هذا تطابق جزئي: جزء مؤكد والجزء الآخر غير موجود، لذلك العبارة كلها NOT GIVEN.",
+   "7": "العملية الموصوفة تطابق العبارة.",
+   "8": "المستقبل \"uncertain\" لا يتوافق مع أن الموافقة تمت وأن البناء قد بدأ."
+  }
+ },
+ {
+  "id": "rb_tfng_07",
+  "lesson": {
+   "title": "ما تم ادعاؤه مقابل ما تم اكتشافه (What was claimed vs what was found)",
+   "text": "كثيرًا ما تفصل الـ passages المتوسطة بين ما توصلت إليه الدراسة، وما ادّعى آخرون أنها توصلت إليه، وما أظهرته الأبحاث اللاحقة. قد تصف العبارة ادعاءً كأنه نتيجة. مثلًا، قد تكون عبارة \"the study showed that music makes babies smarter\" FALSE إذا كانت الدراسة اختبرت طلاب الجامعة فقط. اسأل نفسك دائمًا: مَن يقول هذا، وبناءً على أي evidence؟",
+   "example": "Passage: \"The trial tested the drug on adults; newspapers reported it would help children.\"\nStatement: \"The trial showed the drug helps children.\"\n→ FALSE، لأن التجربة شملت البالغين فقط. (لو لم يذكر الـ passage على مَن أُجري الاختبار، لكانت الإجابة NOT GIVEN.)"
+  },
+  "explanations": {
+   "1": "الطلاب في مجموعة Mozart استمعوا لمدة عشر دقائق.",
+   "2": "هذا يناقض عبارة \"several hours\".",
+   "3": "هذا تناقض مباشر. ادعاء تحسّن الذكاء العام جاء من وسائل الإعلام، وليس من الباحثين.",
+   "4": "لم يُذكر أبدًا ما يدرسونه من تخصصات، لذلك لا يمكن تأكيد العبارة ولا نفيها.",
+   "5": "عبارة \"Put into practice\" تؤكد أن التسجيلات وُزّعت فعلًا، وليس مجرد اقتراح.",
+   "6": "يذكر الـ passage أن التسجيلات تم تسويقها، لكنه لا يعطي أرقام مبيعات أو اتجاهات. لا تستنتج ارتفاع المبيعات من مجرد أن التسجيلات سُوّقت.",
+   "7": "هذا يناقض عبارة \"strong evidence\".",
+   "8": "العبارة هي paraphrase قريبة جدًا من هذه الجملة.",
+   "9": "عبارة \"Still debated\" تناقض \"clear and agreed\"."
+  }
+ },
+ {
+  "id": "rb_tfng_08",
+  "lesson": {
+   "title": "NOT GIVEN رغم ذكر الموضوع (NOT GIVEN when the topic is mentioned)",
+   "text": "في المستوى المتوسط، تتناول عبارات NOT GIVEN عادةً موضوعًا يناقشه الـ passage فعلًا. مثلًا، يناقش الـ passage مخاوف أصحاب المحلات، والعبارة تقدّم ادعاءً محددًا عن هؤلاء الأصحاب لا يحسمه الـ passage أبدًا. لا تختر TRUE أو\n\nFALSE لمجرد أن الموضوع موجود. اسأل نفسك: هل يحسم الـ passage هذا الادعاء المحدد؟",
+   "example": "Passage: \"Residents objected to the new bus lane, and the council held a public meeting.\"\nStatement: \"The council changed its plans after the meeting.\"\nالاجتماع مذكور، لكن نتيجته غير مذكورة → NOT GIVEN."
+  },
+  "explanations": {
+   "1": "هذا يناقض عبارة \"car-free for centuries\".",
+   "2": "\"Motor traffic\" = \"cars\"، أي أن المعنى نفسه.",
+   "3": "أصحاب المحلات مذكورون في الـ passage، لكنه لا يقول أبدًا هل اعترف أحدهم بأنه كان مخطئًا. هذه NOT GIVEN في موضوع يذكره الـ passage فعلًا.",
+   "4": "هذه paraphrase مباشرة.",
+   "5": "هذا يناقض عبارة \"all ... in a single year\".",
+   "6": "عبارة \"Invested heavily\" تساوي \"improved\"، أي أن المعنى نفسه.",
+   "7": "بدأت الدراسات بعد تحويل الشارع إلى منطقة للمشاة (pedestrianisation)، وليس قبله. هذا يتطلب مقارنة التواريخ في paragraph-ين.",
+   "8": "هذا يناقض العبارة مباشرة.",
+   "9": "لا توجد مقارنة مع شوارع المشاة الأوروبية الأخرى، لذلك لا يكفي الطول وحده لتأكيد \"the longest\" أو نفيه."
+  }
+ }
+]

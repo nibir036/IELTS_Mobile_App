@@ -1,0 +1,88 @@
+{
+  "_format": {
+    "name": "listening_lessons",
+    "group": "content",
+    "table": "lessons",
+    "primaryKey": "id",
+    "description": "Bite-size Listening lesson with an audio exercise.",
+    "currentSourceInApp": "listening.lessons",
+    "fields": {
+      "id": "string",
+      "title": "string",
+      "body": "string",
+      "audio": "string",
+      "audioDurationSeconds": "number",
+      "instruction": "string",
+      "source": "object",
+      "rows": "array"
+    },
+    "required": [
+      "id",
+      "title",
+      "body",
+      "rows"
+    ],
+    "relations": [],
+    "notes": [
+      "Stored in lessons with skill = listening. Add \"audio\" (R2 key) once lesson audio exists."
+    ],
+    "recordCountToday": 9
+  },
+  "items": [
+    {
+      "id": "ll_06",
+      "title": "Spelling names",
+      "body": "Part 1 speakers often **spell** names and streets letter by letter. Write each letter as you hear it, then check the whole word. Phone numbers come in small groups — write them exactly as they are read.",
+      "audio": "assets/audio/listening/ll_06.mp3",
+      "audioDurationSeconds": 52.6,
+      "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
+      "source": {
+        "set": "lb_p1_fn",
+        "code": "P1-FN",
+        "title": "Registering for a Summer Sports Camp",
+        "from": 10.85,
+        "to": 63.4
+      },
+      "rows": [
+        {
+          "number": 1,
+          "before": "Child's name: Oliver",
+          "after": "",
+          "answer": "Brandon",
+          "accepted": [
+            "Brandon"
+          ]
+        },
+        {
+          "number": 2,
+          "before": "Age at start of camp:",
+          "after": "",
+          "answer": "10 / ten",
+          "accepted": [
+            "10",
+            "ten"
+          ]
+        },
+        {
+          "number": 3,
+          "before": "Parent's mobile:",
+          "after": "",
+          "answer": "07845 331290",
+          "accepted": [
+            "07845 331290",
+            "07845331290"
+          ]
+        },
+        {
+          "number": 4,
+          "before": "Address: 27",
+          "after": "Close",
+          "answer": "Kestrel",
+          "accepted": [
+            "Kestrel"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "_format": {
+    "name": "writing_test_prompts",
+    "group": "bank",
+    "table": "writing_prompts",
+    "primaryKey": "id",
+    "description": "Task 1 / Task 2 of Writing Tests 1-10 (wt_NN_t1 / _t2).",
+    "currentSourceInApp": "assets/content/tests_bank.json → writing.prompts",
+    "fields": {
+      "id": "string",
+      "source": "string",
+      "testId": "string",
+      "task": "integer",
+      "type": "string",
+      "title": "string",
+      "prompt": "string",
+      "image": "string",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 20
+  },
+  "items": [
+    {
+      "id": "wt_01_t1",
+      "source": "test",
+      "testId": "wt_01",
+      "task": 1,
+      "type": "line",
+      "title": "Global prices of wheat, corn and sugar, 2010–2022",
+      "prompt": "The line graph below shows the changes in the average global price of three agricultural commodities (wheat, corn, and sugar) per metric tonne between 2010 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "image": "writing/tests/wt_01_task1.jpg",
+      "data": {
+        "id": "wt_01_t1",
+        "task": 1,
+        "bank": "Writing test",
+        "test": "wt_01",
+        "number": 1,
+        "type": "line",
+        "typeLabel": "Line graph",
+        "title": "Global prices of wheat, corn and sugar, 2010–2022",
+        "statement": "The line graph below shows the changes in the average global price of three agricultural commodities (wheat, corn, and sugar) per metric tonne between 2010 and 2022.",
+        "prompt": "The line graph below shows the changes in the average global price of three agricultural commodities (wheat, corn, and sugar) per metric tonne between 2010 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "instructions": [
+          "You should spend about 20 minutes on this task.",
+          "The line graph below shows the changes in the average global price of three agricultural commodities (wheat, corn, and sugar) per metric tonne between 2010 and 2022.",
+          "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+          "Write at least 150 words."
+        ],
+        "timeMinutes": 20,
+        "minWords": 150,
+        "image": "assets/writing/tests/wt_01_task1.jpg"
+      }
+    }
+  ]
+}

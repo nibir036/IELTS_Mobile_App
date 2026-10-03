@@ -1,0 +1,39 @@
+{
+  "_format": {
+    "name": "resource_academic_words",
+    "group": "bank",
+    "table": "academic_words",
+    "primaryKey": "id",
+    "description": "Academic Word List words (aw_…).",
+    "currentSourceInApp": "assets/content/resources_bank.json → academicWords",
+    "fields": {
+      "id": "string",
+      "word": "string",
+      "partOfSpeech": "string",
+      "meaning": "string",
+      "data": "object"
+    },
+    "notes": [],
+    "recordCountToday": 686
+  },
+  "items": [
+    {
+      "id": "aw_abandon",
+      "word": "abandon",
+      "partOfSpeech": "verb",
+      "meaning": "To give up completely or leave behind.",
+      "data": {
+        "id": "aw_abandon",
+        "word": "abandon",
+        "pos": "verb",
+        "definition": "To give up completely or leave behind.",
+        "example": "They had to **abandon** the project for lack of funds.",
+        "family": [
+          "abandoned",
+          "abandonment"
+        ],
+        "list": "core"
+      }
+    }
+  ]
+}

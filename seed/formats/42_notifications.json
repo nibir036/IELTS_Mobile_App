@@ -1,0 +1,48 @@
+{
+  "_format": {
+    "name": "notifications",
+    "group": "user",
+    "table": "notifications",
+    "primaryKey": "id",
+    "description": "In-app notification.",
+    "currentSourceInApp": "Store notifications",
+    "fields": {
+      "id": "string",
+      "type": "string",
+      "skill": "string",
+      "title": "string",
+      "body": "string",
+      "read": "boolean",
+      "target": "string",
+      "userId": "string",
+      "createdAt": "string"
+    },
+    "required": [
+      "id",
+      "userId",
+      "type",
+      "title",
+      "createdAt"
+    ],
+    "relations": [
+      "userId → users.id"
+    ],
+    "notes": [
+      "target = app route to open."
+    ],
+    "recordCountToday": 1
+  },
+  "items": [
+    {
+      "id": "ntf_home_001",
+      "type": "ai",
+      "skill": "writing",
+      "title": "Task 2 essay scored",
+      "body": "Remote work · tap to see feedback",
+      "read": false,
+      "target": "/writing/band-report",
+      "userId": "usr_demo_tanvir",
+      "createdAt": "2026-09-29T11:58:00Z"
+    }
+  ]
+}

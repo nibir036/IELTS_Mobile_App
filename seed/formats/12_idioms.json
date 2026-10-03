@@ -1,0 +1,49 @@
+{
+  "_format": {
+    "name": "idioms",
+    "group": "content",
+    "table": "phrases",
+    "primaryKey": "id",
+    "description": "Idiom with meaning, example, register, topic and a use-with-care note.",
+    "currentSourceInApp": "resources.idioms",
+    "fields": {
+      "id": "string",
+      "phrase": "string",
+      "meaning": "string",
+      "example": "string",
+      "register": "string",
+      "topic": "string",
+      "care": "string"
+    },
+    "required": [
+      "id",
+      "phrase",
+      "meaning",
+      "example",
+      "register"
+    ],
+    "relations": [],
+    "notes": [
+      "Stored in phrases with kind = \"idiom\". caution = optional note for informal idioms."
+    ],
+    "recordCountToday": 25
+  },
+  "items": [
+    {
+      "id": "id_a_double_edged_sword",
+      "phrase": "a double-edged sword",
+      "meaning": "something that has both advantages and disadvantages",
+      "example": "Social media is a double-edged sword: it connects people but can also spread misinformation.",
+      "register": "both",
+      "topic": "Technology"
+    },
+    {
+      "id": "id_the_tip_of_the_iceberg",
+      "phrase": "the tip of the iceberg",
+      "meaning": "a small, visible part of a much larger problem",
+      "example": "The reported cases of plastic pollution are only the tip of the iceberg.",
+      "register": "both",
+      "topic": "Environment"
+    }
+  ]
+}

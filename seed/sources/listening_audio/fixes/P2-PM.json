@@ -1,0 +1,209 @@
+{
+ "note": "Map and plan redrawn to the recording: map 1 now has the boathouse on the west shore, the bird hide at the top of the ring, the viewing platform on the island, picnic area right of the gate, lookout tower on the east side; the visitor-centre plan is rebuilt (shop back-right corner, toilets front-left, four rooms along the back wall, two small rooms behind the hall). Q20 'Staircase to staff office' (no staircase in the recording) is now 'Staff office'.",
+ "groups": {
+  "g1": {
+   "type": "map",
+   "title": "Maple Ridge Nature Reserve",
+   "instruction": "Write the correct letter, A–J, next to each question.",
+   "layout": "Layout: entrance and main car park at the south; a path runs in a ring round the lake, which has an island in the middle; woods in the north-west, a stream in the north-east, a hill on the east side. A = in the woods in the north-west corner · B = west side, between the path and the water, with a jetty · C = south-east corner, at the end of a side path · D = south of the ring path, just to the right (east) of the entrance · E = on the island in the middle of the lake · F = north-east, beside the stream, outside the path · G = south of the ring path, to the left (west) of the main car park · H = top (north) of the ring path, opposite the entrance · I = on the hill, halfway up the east side · J = north-west shore, between the path and the water, by the rocks",
+   "layoutIntro": "entrance and main car park at the south; a path runs in a ring round the lake, which has an island in the middle; woods in the north-west, a stream in the north-east, a hill on the east side.",
+   "options": [
+    {
+     "key": "A",
+     "text": "in the woods in the north-west corner"
+    },
+    {
+     "key": "B",
+     "text": "west side, between the path and the water, with a jetty"
+    },
+    {
+     "key": "C",
+     "text": "south-east corner, at the end of a side path"
+    },
+    {
+     "key": "D",
+     "text": "south of the ring path, just to the right (east) of the entrance"
+    },
+    {
+     "key": "E",
+     "text": "on the island in the middle of the lake"
+    },
+    {
+     "key": "F",
+     "text": "north-east, beside the stream, outside the path"
+    },
+    {
+     "key": "G",
+     "text": "south of the ring path, to the left (west) of the main car park"
+    },
+    {
+     "key": "H",
+     "text": "top (north) of the ring path, opposite the entrance"
+    },
+    {
+     "key": "I",
+     "text": "on the hill, halfway up the east side"
+    },
+    {
+     "key": "J",
+     "text": "north-west shore, between the path and the water, by the rocks"
+    }
+   ],
+   "image": "assets/listening/maps/P2-PM_map1.png",
+   "questions": [
+    {
+     "number": 1,
+     "text": "Picnic area",
+     "answer": "D"
+    },
+    {
+     "number": 2,
+     "text": "Children's playground",
+     "answer": "G"
+    },
+    {
+     "number": 3,
+     "text": "Boathouse",
+     "answer": "B"
+    },
+    {
+     "number": 4,
+     "text": "Bird hide",
+     "answer": "H"
+    },
+    {
+     "number": 5,
+     "text": "Viewing platform",
+     "answer": "E"
+    },
+    {
+     "number": 6,
+     "text": "Waterfall",
+     "answer": "J"
+    },
+    {
+     "number": 7,
+     "text": "Campsite",
+     "answer": "A"
+    },
+    {
+     "number": 8,
+     "text": "Old mill",
+     "answer": "F"
+    },
+    {
+     "number": 9,
+     "text": "Overflow car park",
+     "answer": "C"
+    },
+    {
+     "number": 10,
+     "text": "Lookout tower",
+     "answer": "I"
+    }
+   ]
+  },
+  "g2": {
+   "type": "map",
+   "title": "Lake View Visitor Centre (entrance faces south)",
+   "instruction": "Write the correct letter, A–J, next to each question.",
+   "layout": "Layout: entrance hall at the front (south); the exhibition hall fills the middle; the lake is behind the back (north) wall. A = right-hand wall, middle room · B = back wall, the right-hand one of the two middle rooms · C = back right-hand corner · D = right-hand side, room nearest the entrance · E = left-hand wall, middle room · F = small room behind the hall, on the right · G = back left-hand corner · H = left-hand side, corner room nearest the entrance · I = small room behind the hall, on the left · J = back wall, the left-hand one of the two middle rooms",
+   "layoutIntro": "entrance hall at the front (south); the exhibition hall fills the middle; the lake is behind the back (north) wall.",
+   "options": [
+    {
+     "key": "A",
+     "text": "right-hand wall, middle room"
+    },
+    {
+     "key": "B",
+     "text": "back wall, the right-hand one of the two middle rooms"
+    },
+    {
+     "key": "C",
+     "text": "back right-hand corner"
+    },
+    {
+     "key": "D",
+     "text": "right-hand side, room nearest the entrance"
+    },
+    {
+     "key": "E",
+     "text": "left-hand wall, middle room"
+    },
+    {
+     "key": "F",
+     "text": "small room behind the hall, on the right"
+    },
+    {
+     "key": "G",
+     "text": "back left-hand corner"
+    },
+    {
+     "key": "H",
+     "text": "left-hand side, corner room nearest the entrance"
+    },
+    {
+     "key": "I",
+     "text": "small room behind the hall, on the left"
+    },
+    {
+     "key": "J",
+     "text": "back wall, the left-hand one of the two middle rooms"
+    }
+   ],
+   "image": "assets/listening/maps/P2-PM_map2.png",
+   "questions": [
+    {
+     "number": 11,
+     "text": "Shop",
+     "answer": "C"
+    },
+    {
+     "number": 12,
+     "text": "Toilets",
+     "answer": "H"
+    },
+    {
+     "number": 13,
+     "text": "Café",
+     "answer": "A"
+    },
+    {
+     "number": 14,
+     "text": "Lecture room",
+     "answer": "J"
+    },
+    {
+     "number": 15,
+     "text": "Children's activity room",
+     "answer": "E"
+    },
+    {
+     "number": 16,
+     "text": "Temporary exhibition",
+     "answer": "B"
+    },
+    {
+     "number": 17,
+     "text": "Permanent exhibition",
+     "answer": "G"
+    },
+    {
+     "number": 18,
+     "text": "First-aid room",
+     "answer": "D"
+    },
+    {
+     "number": 19,
+     "text": "Resource room",
+     "answer": "F"
+    },
+    {
+     "number": 20,
+     "text": "Staff office",
+     "answer": "I"
+    }
+   ]
+  }
+ }
+}

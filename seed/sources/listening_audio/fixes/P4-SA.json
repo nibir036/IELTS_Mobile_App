@@ -1,0 +1,204 @@
+{
+ "note": "Accepted answers: Q5 is heard as \"the expert system\" ([0:46]); Q20 as \"a research paper\".",
+ "groups": {
+  "g1": {
+   "id": "g1",
+   "type": "short",
+   "title": "Answer the questions",
+   "instruction": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+   "questions": [
+    {
+     "number": 1,
+     "text": "In what year was the term \"artificial intelligence\" first used?",
+     "answer": "1956",
+     "answerDisplay": "1956",
+     "accepted": [
+      "1956"
+     ]
+    },
+    {
+     "number": 2,
+     "text": "At which conference was the term first used?",
+     "answer": "the Dartmouth conference",
+     "answerDisplay": "(the) Dartmouth (conference)",
+     "accepted": [
+      "the Dartmouth conference",
+      "the Dartmouth",
+      "Dartmouth conference",
+      "Dartmouth"
+     ]
+    },
+    {
+     "number": 3,
+     "text": "What did early AI programs focus on?",
+     "answer": "logic problems",
+     "answerDisplay": "logic problems",
+     "accepted": [
+      "logic problems"
+     ]
+    },
+    {
+     "number": 4,
+     "text": "What name was given to the 1970s period of funding cuts?",
+     "answer": "the AI winter",
+     "answerDisplay": "the AI winter",
+     "accepted": [
+      "the AI winter"
+     ]
+    },
+    {
+     "number": 5,
+     "text": "What type of program became popular in the 1980s?",
+     "answer": "expert systems",
+     "answerDisplay": "expert systems / (the) expert system",
+     "accepted": [
+      "expert systems",
+      "expert system",
+      "the expert system"
+     ]
+    },
+    {
+     "number": 6,
+     "text": "What did expert systems rely heavily on?",
+     "answer": "rule-based logic",
+     "answerDisplay": "rule-based logic",
+     "accepted": [
+      "rule-based logic"
+     ]
+    },
+    {
+     "number": 7,
+     "text": "What mainly caused the second decline in funding?",
+     "answer": "unmet expectations",
+     "answerDisplay": "unmet expectations",
+     "accepted": [
+      "unmet expectations"
+     ]
+    },
+    {
+     "number": 8,
+     "text": "Which approach took over from the 1990s?",
+     "answer": "machine learning",
+     "answerDisplay": "machine learning",
+     "accepted": [
+      "machine learning"
+     ]
+    },
+    {
+     "number": 9,
+     "text": "Who did Deep Blue defeat in 1997?",
+     "answer": "Garry Kasparov",
+     "answerDisplay": "(Garry) Kasparov / the world champion",
+     "accepted": [
+      "Garry Kasparov",
+      "Kasparov",
+      "the world champion"
+     ]
+    },
+    {
+     "number": 10,
+     "text": "What became crucial for AI in the 2000s?",
+     "answer": "big data",
+     "answerDisplay": "big data",
+     "accepted": [
+      "big data"
+     ]
+    },
+    {
+     "number": 11,
+     "text": "What hardware accelerated deep learning?",
+     "answer": "GPUs",
+     "answerDisplay": "GPUs / graphics processors",
+     "accepted": [
+      "GPUs",
+      "graphics processors"
+     ]
+    },
+    {
+     "number": 12,
+     "text": "What competition in 2012 was a turning point?",
+     "answer": "ImageNet",
+     "answerDisplay": "ImageNet",
+     "accepted": [
+      "ImageNet"
+     ]
+    },
+    {
+     "number": 13,
+     "text": "Which board game did AlphaGo win at in 2016?",
+     "answer": "Go",
+     "answerDisplay": "Go",
+     "accepted": [
+      "Go"
+     ]
+    },
+    {
+     "number": 14,
+     "text": "What type of neural network is standard for images?",
+     "answer": "convolutional neural network",
+     "answerDisplay": "convolutional (neural network)",
+     "accepted": [
+      "convolutional neural network",
+      "convolutional"
+     ]
+    },
+    {
+     "number": 15,
+     "text": "Which area was transformed by transformer models?",
+     "answer": "natural language processing",
+     "answerDisplay": "natural language processing",
+     "accepted": [
+      "natural language processing"
+     ]
+    },
+    {
+     "number": 16,
+     "text": "What ethical issue does the lecturer highlight?",
+     "answer": "algorithmic bias",
+     "answerDisplay": "algorithmic bias",
+     "accepted": [
+      "algorithmic bias"
+     ]
+    },
+    {
+     "number": 17,
+     "text": "What resource issue does the lecturer mention?",
+     "answer": "energy consumption",
+     "answerDisplay": "energy consumption",
+     "accepted": [
+      "energy consumption"
+     ]
+    },
+    {
+     "number": 18,
+     "text": "What do machines still struggle with?",
+     "answer": "common-sense reasoning",
+     "answerDisplay": "common-sense reasoning",
+     "accepted": [
+      "common-sense reasoning"
+     ]
+    },
+    {
+     "number": 19,
+     "text": "What is the long-term goal for some researchers?",
+     "answer": "general intelligence",
+     "answerDisplay": "general intelligence",
+     "accepted": [
+      "general intelligence"
+     ]
+    },
+    {
+     "number": 20,
+     "text": "What should students read for next week?",
+     "answer": "the research paper",
+     "answerDisplay": "(a / the) research paper",
+     "accepted": [
+      "the research paper",
+      "a research paper",
+      "research paper"
+     ]
+    }
+   ]
+  }
+ }
+}

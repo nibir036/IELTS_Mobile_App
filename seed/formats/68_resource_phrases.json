@@ -1,0 +1,37 @@
+{
+  "_format": {
+    "name": "resource_phrases",
+    "group": "bank",
+    "table": "phrases",
+    "primaryKey": "id",
+    "description": "Phrasal verbs (pv_…) and idioms (id_…).",
+    "currentSourceInApp": "assets/content/resources_bank.json → phrasalVerbs, idioms",
+    "fields": {
+      "id": "string",
+      "kind": "string",
+      "phrase": "string",
+      "meaning": "string",
+      "example": "string",
+      "data": "object"
+    },
+    "notes": [
+      "Ids shared with the demo list (11/12) update those rows; their register/topic are kept."
+    ],
+    "recordCountToday": 2417
+  },
+  "items": [
+    {
+      "id": "pv_account_for",
+      "kind": "phrasal",
+      "phrase": "account for",
+      "meaning": "to explain the cause or reason for",
+      "example": "He couldn't account for the missing money.",
+      "data": {
+        "id": "pv_account_for",
+        "phrase": "account for",
+        "meaning": "to explain the cause or reason for",
+        "example": "He couldn't **account for** the missing money."
+      }
+    }
+  ]
+}

@@ -1,0 +1,896 @@
+[
+ {
+  "id": "rp_01",
+  "title": "The Return of the Urban Beekeeper",
+  "questions": [
+   {
+    "n": 1,
+    "q": "Urban honey is now sold for a profit.",
+    "answer": "TRUE",
+    "evidence": "urban honey has become a small but profitable industry",
+    "explanation": "Paragraph A says urban honey has become **a small but profitable industry**, so the statement agrees with the passage."
+   },
+   {
+    "n": 2,
+    "q": "The number of hives in London grew quickly throughout the 1990s.",
+    "answer": "FALSE",
+    "evidence": "the number of hives only rose sharply after 2008",
+    "explanation": "Bees were kept in the 1990s, but numbers **only rose sharply after 2008**. The word \"only\" contradicts rapid growth in the 1990s, so the answer is FALSE."
+   },
+   {
+    "n": 3,
+    "q": "Temperatures in cities are a little higher than in the nearby countryside.",
+    "answer": "TRUE",
+    "evidence": "Cities are also slightly warmer than the surrounding countryside",
+    "explanation": "\"A little higher\" paraphrases **slightly warmer**, and \"nearby countryside\" paraphrases **surrounding countryside**. The answer is TRUE."
+   },
+   {
+    "n": 4,
+    "q": "Research has proved that urban bee colonies are calmer than rural ones.",
+    "answer": "FALSE",
+    "evidence": "there is little scientific evidence to support this claim",
+    "explanation": "Beekeepers *report* that urban colonies are calmer, but the passage says there is **little scientific evidence** for this. The statement says it has been proved, so it is FALSE."
+   },
+   {
+    "n": 5,
+    "q": "Honey from city hives tastes different from countryside honey.",
+    "answer": "NOT GIVEN",
+    "evidence": "slightly less honey than those in the countryside",
+    "explanation": "Paragraph C compares the **amount** of honey, not its taste. Taste is never mentioned, so the answer is NOT GIVEN."
+   },
+   {
+    "n": 6,
+    "q": "Paragraph C",
+    "answer": "iii",
+    "evidence": "honeybees compete with wild pollinators for the same flowers",
+    "explanation": "Paragraph C explains that honeybees **compete** with wild pollinators and that some districts have **more hives than the available flowers could support**. That is heading iii."
+   },
+   {
+    "n": 7,
+    "q": "Paragraph D",
+    "answer": "iv",
+    "evidence": "several cities have introduced rules for new beekeepers",
+    "explanation": "The whole paragraph is about **registration, limits and training** for beginners, which matches heading iv."
+   },
+   {
+    "n": 8,
+    "q": "Paragraph E",
+    "answer": "v",
+    "evidence": "Other groups are focusing on food rather than hives",
+    "explanation": "Paragraph E is about **planting flowers** for insects rather than adding hives. Heading iii is a trap: shortage of flowers is the problem in C, but E describes the solution."
+   },
+   {
+    "n": 9,
+    "q": "Paragraph F",
+    "answer": "vii",
+    "evidence": "profit is not the main motivation",
+    "explanation": "Paragraph F says **profit is not the main motivation** and describes how hives are used to teach pupils. Heading i is a trap: business is mentioned in A, not F."
+   },
+   {
+    "n": 10,
+    "q": "Some London boroughs limit the number of colonies on a single ______.",
+    "answer": "building",
+    "evidence": "limit the number of colonies allowed on a single building",
+    "explanation": "Paragraph D says some boroughs limit colonies **on a single building**."
+   },
+   {
+    "n": 11,
+    "q": "Poorly managed colonies are more likely to spread ______ to neighbouring hives.",
+    "answer": "disease",
+    "evidence": "more likely to spread disease to neighbouring hives",
+    "explanation": "The rules protect bees because badly managed colonies may spread **disease**."
+   },
+   {
+    "n": 12,
+    "q": "The Berlin scheme chose shrubs that flower in ______, when food is scarcest.",
+    "answer": "late summer",
+    "evidence": "choosing species that bloom in late summer",
+    "explanation": "\"Flower\" paraphrases **bloom**; the answer is **late summer** (two words, within the limit)."
+   },
+   {
+    "n": 13,
+    "q": "Wild flowers now grow because councils cut the grass on roadside ______ less often.",
+    "answer": "verges",
+    "evidence": "stopped cutting the grass on roadside verges so often",
+    "explanation": "The word after \"roadside\" in paragraph E is **verges**."
+   }
+  ]
+ },
+ {
+  "id": "rp_02",
+  "title": "Messages Under the Pavement: The Pneumatic Post",
+  "questions": [
+   {
+    "n": 1,
+    "q": "an explanation of why early attempts to carry people by air pressure were unsuccessful",
+    "answer": "B",
+    "evidence": "it proved impossible to keep the long leather seals along the track airtight",
+    "explanation": "Paragraph B says passenger schemes failed because the **leather seals could not be kept airtight**."
+   },
+   {
+    "n": 2,
+    "q": "a description of how workers found a canister that had become stuck",
+    "answer": "F",
+    "evidence": "calculate its position by measuring the air pressure",
+    "explanation": "Paragraph F explains that workers located blockages by **measuring the air pressure**."
+   },
+   {
+    "n": 3,
+    "q": "a comparison with a more recent form of communication",
+    "answer": "E",
+    "evidence": "compared this to the text messages of the early twenty-first century",
+    "explanation": "Paragraph E compares pneumatic letter cards to **text messages**."
+   },
+   {
+    "n": 4,
+    "q": "examples of organisations that still use the technology today",
+    "answer": "G",
+    "evidence": "Hospitals, banks and supermarkets continue to use smaller pneumatic systems",
+    "explanation": "Paragraph G lists **hospitals, banks and supermarkets** as current users."
+   },
+   {
+    "n": 5,
+    "q": "The first working message tube connected two places in the same city.",
+    "answer": "TRUE",
+    "evidence": "linking the stock exchange with the central telegraph station a few hundred metres away",
+    "explanation": "The London line linked two buildings **a few hundred metres away** from each other, so they were in the same city. TRUE."
+   },
+   {
+    "n": 6,
+    "q": "Delivering a telegram inside a city could take longer than sending it between cities.",
+    "answer": "TRUE",
+    "evidence": "this final stage often took longer than the transmission itself",
+    "explanation": "Paragraph C says the hand delivery stage **often took longer than the transmission itself**. TRUE."
+   },
+   {
+    "n": 7,
+    "q": "In most networks, canisters could travel in either direction through the same tube.",
+    "answer": "FALSE",
+    "evidence": "canisters travelling in one direction only",
+    "explanation": "Paragraph D says canisters travelled **in one direction only**, which contradicts the statement. FALSE."
+   },
+   {
+    "n": 8,
+    "q": "Canisters in the tubes moved faster than trains.",
+    "answer": "FALSE",
+    "evidence": "slower than a train but considerably faster than any vehicle in the crowded streets above",
+    "explanation": "Canisters were **slower than a train**; they were only faster than street traffic. FALSE."
+   },
+   {
+    "n": 9,
+    "q": "The Paris network was longer than the Berlin network.",
+    "answer": "NOT GIVEN",
+    "evidence": "the Paris system alone contained more than 400 kilometres of tubing",
+    "explanation": "The passage gives the length of the **Paris** system only. Berlin's size is never stated, so we cannot compare them: NOT GIVEN."
+   },
+   {
+    "n": 10,
+    "q": "According to paragraph C, tubes were especially valuable in financial districts because",
+    "answer": "B",
+    "evidence": "a delay of ten minutes could cost a trader a fortune",
+    "explanation": "A **ten-minute delay could cost a trader a fortune**, so speed mattered most there. The other options are not mentioned."
+   },
+   {
+    "n": 11,
+    "q": "The writer says that the cheap letter cards encouraged people to",
+    "answer": "A",
+    "evidence": "they encouraged a brief, almost conversational style of writing",
+    "explanation": "\"Short, informal\" paraphrases **brief, almost conversational**. Diaries are mentioned only as historical sources."
+   },
+   {
+    "n": 12,
+    "q": "What were the main reasons for the decline of the pneumatic post?",
+    "answer": "C",
+    "evidence": "The spread of the private telephone after the Second World War removed much of the demand for fast short messages",
+    "explanation": "Paragraph F names **the private telephone** and the **rising cost of maintaining ageing pipes**. It also says the decline was **gradual rather than sudden**, which rules out A."
+   },
+   {
+    "n": 13,
+    "q": "Why does the writer mention proposals to deliver parcels through underground pipes?",
+    "answer": "B",
+    "evidence": "essentially a larger version of an idea that the nineteenth century had already made work",
+    "explanation": "The writer presents parcel pipes as **a larger version** of the nineteenth-century idea, showing that it remains relevant."
+   }
+  ]
+ },
+ {
+  "id": "rp_03",
+  "title": "The Elastic Hour: How the Mind Builds Time",
+  "questions": [
+   {
+    "n": 1,
+    "q": "Paragraph B",
+    "answer": "i",
+    "evidence": "The internal-clock model has proved remarkably durable",
+    "explanation": "Paragraph B first explains why the clock model has **lasted** (it is testable) and then why it **cannot account for** everyday distortions. Heading vii is a trap: the paragraph says there is **no** convincing evidence of a timing organ."
+   },
+   {
+    "n": 2,
+    "q": "Paragraph C",
+    "answer": "ii",
+    "evidence": "A crucial distinction, now widely accepted, is between prospective and retrospective judgements of time",
+    "explanation": "Paragraph C defines **prospective** and **retrospective** judgements, the two ways of judging duration."
+   },
+   {
+    "n": 3,
+    "q": "Paragraph D",
+    "answer": "iii",
+    "evidence": "This distinction helps to resolve what is sometimes called the holiday paradox",
+    "explanation": "A holiday feels short while it happens but long in memory: the **holiday paradox** in heading iii."
+   },
+   {
+    "n": 4,
+    "q": "Paragraph E",
+    "answer": "iv",
+    "evidence": "the brain responds less vigorously to stimuli it has already encountered and can predict",
+    "explanation": "The oddball effect links **predictable** stimuli to shorter perceived durations, which is heading iv."
+   },
+   {
+    "n": 5,
+    "q": "Paragraph F",
+    "answer": "v",
+    "evidence": "Such findings have prompted a reinterpretation of the familiar complaint that life accelerates with age",
+    "explanation": "Paragraph F offers a **new explanation** (fewer new experiences) for the feeling that life speeds up with age."
+   },
+   {
+    "n": 6,
+    "q": "Paragraph G",
+    "answer": "vi",
+    "evidence": "might lengthen one's life, not in objective terms but in the way it is remembered",
+    "explanation": "Paragraph G suggests novelty could make life **seem longer in memory**, which matches heading vi."
+   },
+   {
+    "n": 7,
+    "q": "One reason the internal-clock model has survived is that it can be tested experimentally.",
+    "answer": "YES",
+    "evidence": "not least because it makes clear predictions that can be tested in the laboratory",
+    "explanation": "The writer says the model has been durable **not least because** its predictions **can be tested in the laboratory**. YES."
+   },
+   {
+    "n": 8,
+    "q": "Most researchers still dispute the distinction between prospective and retrospective judgements.",
+    "answer": "NO",
+    "evidence": "A crucial distinction, now widely accepted",
+    "explanation": "The writer describes the distinction as **now widely accepted**, which contradicts the statement. NO."
+   },
+   {
+    "n": 9,
+    "q": "A general slowing of biological processes is the most convincing explanation for time seeming to speed up with age.",
+    "answer": "NO",
+    "evidence": "there is little experimental support for the idea",
+    "explanation": "The writer says there is **little experimental support** for this and calls a different explanation **more persuasive**. NO."
+   },
+   {
+    "n": 10,
+    "q": "The oddball effect is stronger in children than in adults.",
+    "answer": "NOT GIVEN",
+    "evidence": "they consistently judge the unexpected image to have been displayed for longer",
+    "explanation": "Paragraph E describes the oddball effect but never compares **age groups**. NOT GIVEN."
+   },
+   {
+    "n": 11,
+    "q": "According to paragraph C, retrospective estimates of time depend mainly on",
+    "answer": "B",
+    "evidence": "the quantity of distinct memories an interval has left behind",
+    "explanation": "Retrospective estimates depend on **the quantity of distinct memories**. Option A describes *prospective* estimates, which depend on attention."
+   },
+   {
+    "n": 12,
+    "q": "What does the writer say about the suggestion that novelty could lengthen life?",
+    "answer": "C",
+    "evidence": "The claim remains largely untested",
+    "explanation": "The writer states that **the claim remains largely untested**. \"Only half in jest\" means it was *partly* serious, so B is wrong."
+   },
+   {
+    "n": 13,
+    "q": "In the oddball effect, the brain's weaker response to predictable images is misread as a ______.",
+    "answer": "shorter duration",
+    "evidence": "this reduced response is misread as a shorter duration",
+    "explanation": "\"Weaker response\" paraphrases **reduced response**, which is misread as **a shorter duration**."
+   },
+   {
+    "n": 14,
+    "q": "Critics warn that ______ can itself become routine.",
+    "answer": "novelty",
+    "evidence": "critics caution that novelty can itself become routine",
+    "explanation": "\"Warn\" paraphrases **caution**; the word is **novelty**."
+   }
+  ]
+ },
+ {
+  "id": "rp_04",
+  "title": "School Streets: Reclaiming the Road at the School Gate",
+  "questions": [
+   {
+    "n": 1,
+    "q": "Cyclists are allowed to enter a school street while it is closed.",
+    "answer": "TRUE",
+    "evidence": "only pedestrians and cyclists may enter",
+    "explanation": "Paragraph B says **only pedestrians and cyclists may enter** during the closure. TRUE."
+   },
+   {
+    "n": 2,
+    "q": "People who live on a school street cannot drive to their homes during a closure.",
+    "answer": "FALSE",
+    "evidence": "Residents who live on the street, as well as emergency vehicles and drivers with disabilities, are normally allowed through",
+    "explanation": "Residents are **normally allowed through**, which contradicts the statement. FALSE."
+   },
+   {
+    "n": 3,
+    "q": "The first school streets were introduced in Britain.",
+    "answer": "FALSE",
+    "evidence": "The first schemes appeared in northern Italy",
+    "explanation": "The first schemes appeared in **northern Italy**, not Britain. FALSE."
+   },
+   {
+    "n": 4,
+    "q": "Children breathe more quickly than adults.",
+    "answer": "TRUE",
+    "evidence": "they breathe faster than adults",
+    "explanation": "\"More quickly\" paraphrases **faster**. TRUE."
+   },
+   {
+    "n": 5,
+    "q": "Cameras are more effective than volunteers at enforcing closures.",
+    "answer": "NOT GIVEN",
+    "evidence": "cameras record the number plates of vehicles that enter without permission",
+    "explanation": "Both methods are described, but the passage never says which works **better**. NOT GIVEN."
+   },
+   {
+    "n": 6,
+    "q": "The evaluation of thirty-seven schemes also recorded a fall in noise levels.",
+    "answer": "NOT GIVEN",
+    "evidence": "levels of nitrogen dioxide, a gas produced mainly by diesel engines, fell by up to 23 per cent",
+    "explanation": "The evaluation reports **nitrogen dioxide** and travel habits. **Noise** is not mentioned. NOT GIVEN."
+   },
+   {
+    "n": 7,
+    "q": "an example of a scheme that was stopped",
+    "answer": "F",
+    "evidence": "was abandoned after a month of complaints",
+    "explanation": "Paragraph F describes a trial that **was abandoned after a month of complaints**."
+   },
+   {
+    "n": 8,
+    "q": "a reason why nearby roads may not become as busy as expected",
+    "answer": "E",
+    "evidence": "some families change their habits altogether rather than parking a little further away",
+    "explanation": "Paragraph E explains that extra traffic is **smaller than feared** because some families **change their habits altogether**."
+   },
+   {
+    "n": 9,
+    "q": "a reference to money that helped councils create more schemes",
+    "answer": "C",
+    "evidence": "local authorities were given emergency funding",
+    "explanation": "Paragraph C mentions **emergency funding** during the pandemic."
+   },
+   {
+    "n": 10,
+    "q": "a mention of closures becoming permanent",
+    "answer": "G",
+    "evidence": "have become permanent pedestrian areas",
+    "explanation": "Paragraph G says some closures **have become permanent pedestrian areas**."
+   },
+   {
+    "n": 11,
+    "q": "Nitrogen dioxide is a gas that comes mainly from ______.",
+    "answer": "diesel engines",
+    "evidence": "a gas produced mainly by diesel engines",
+    "explanation": "\"Comes mainly from\" paraphrases **produced mainly by**: the answer is **diesel engines**."
+   },
+   {
+    "n": 12,
+    "q": "The number of children who were driven to school fell by around a ______.",
+    "answer": "fifth",
+    "evidence": "the number who were driven fell by around a fifth",
+    "explanation": "Paragraph D says the number driven **fell by around a fifth**."
+   },
+   {
+    "n": 13,
+    "q": "Schemes are much harder to introduce on main roads or ______.",
+    "answer": "bus routes",
+    "evidence": "much harder to introduce outside schools on main roads or bus routes",
+    "explanation": "Paragraph F lists **main roads or bus routes** as difficult locations."
+   }
+  ]
+ },
+ {
+  "id": "rp_05",
+  "title": "Chrononutrition: Does the Clock on the Plate Matter?",
+  "questions": [
+   {
+    "n": 1,
+    "q": "Paragraph B",
+    "answer": "ii",
+    "evidence": "almost every tissue in the body contains its own biological clock",
+    "explanation": "Paragraph B describes the **master clock** and the **peripheral clocks** in body tissues."
+   },
+   {
+    "n": 2,
+    "q": "Paragraph C",
+    "answer": "iii",
+    "evidence": "Some of the strongest evidence comes from studies of shift workers",
+    "explanation": "Paragraph C is built around evidence from **shift workers** and night work."
+   },
+   {
+    "n": 3,
+    "q": "Paragraph D",
+    "answer": "iv",
+    "evidence": "the same meal produces a noticeably larger rise in blood sugar when eaten in the evening than in the morning",
+    "explanation": "Paragraph D explains why **the same meal** affects blood sugar differently in the morning and evening."
+   },
+   {
+    "n": 4,
+    "q": "Paragraph E",
+    "answer": "v",
+    "evidence": "limits all food intake to a window of eight to ten hours each day",
+    "explanation": "Paragraph E is about **time-restricted eating**, limiting food to an eight-to-ten-hour window."
+   },
+   {
+    "n": 5,
+    "q": "Paragraph F",
+    "answer": "vi",
+    "evidence": "the enthusiasm surrounding chrononutrition deserves some caution",
+    "explanation": "Paragraph F lists weaknesses: **small studies**, **individual variation** and practical difficulty. Heading viii is a trap: diet books appear in G, not F."
+   },
+   {
+    "n": 6,
+    "q": "Surveys of shift workers show that night work causes diabetes.",
+    "answer": "NO",
+    "evidence": "Such observational studies cannot prove cause and effect",
+    "explanation": "The writer says such studies **cannot prove cause and effect**, so the claim that they *show* causation contradicts the writer. NO."
+   },
+   {
+    "n": 7,
+    "q": "Advice that people are unable to follow is not very useful.",
+    "answer": "YES",
+    "evidence": "advice that people cannot follow is of limited value",
+    "explanation": "\"Not very useful\" paraphrases **of limited value**. YES."
+   },
+   {
+    "n": 8,
+    "q": "Night owls should eat their largest meal late in the evening.",
+    "answer": "NOT GIVEN",
+    "evidence": "a schedule that suits a so-called morning lark may not suit a night owl",
+    "explanation": "The writer says schedules may differ for night owls but gives **no advice** about when they should eat. NOT GIVEN."
+   },
+   {
+    "n": 9,
+    "q": "Some diet books make claims that go beyond the current evidence.",
+    "answer": "YES",
+    "evidence": "What chrononutrition does not yet justify is the confident, one-size-fits-all rules promoted by some diet books",
+    "explanation": "The writer says the evidence **does not yet justify** the rules in some diet books. YES."
+   },
+   {
+    "n": 10,
+    "q": "The master clock in the brain is set largely by exposure to ______.",
+    "answer": "daylight",
+    "evidence": "set largely by exposure to daylight",
+    "explanation": "Paragraph B says the master clock is **set largely by exposure to daylight**."
+   },
+   {
+    "n": 11,
+    "q": "Insulin sensitivity is highest ______ in the day.",
+    "answer": "early",
+    "evidence": "insulin sensitivity is highest early in the day",
+    "explanation": "The word is **early**: sensitivity is highest early and declines towards evening."
+   },
+   {
+    "n": 12,
+    "q": "Mice fed a high-fat diet within a restricted window stayed considerably ______.",
+    "answer": "leaner",
+    "evidence": "remained considerably leaner",
+    "explanation": "\"Stayed\" paraphrases **remained**; the answer is **leaner**."
+   },
+   {
+    "n": 13,
+    "q": "A person's natural tendency to be active early or late in the day is called their ______.",
+    "answer": "chronotype",
+    "evidence": "People differ in their chronotype, their natural tendency to be active early or late in the day",
+    "explanation": "Paragraph F defines **chronotype** as this natural tendency."
+   }
+  ]
+ },
+ {
+  "id": "rp_06",
+  "title": "The Shop That Came to the Door",
+  "questions": [
+   {
+    "n": 1,
+    "q": "Mobile shops were at their most numerous in the late 1950s.",
+    "answer": "TRUE",
+    "evidence": "At their peak in the late 1950s",
+    "explanation": "Paragraph A says mobile shops reached their **peak in the late 1950s**. \"Most numerous\" is a paraphrase of \"peak\", so the answer is TRUE."
+   },
+   {
+    "n": 2,
+    "q": "The first mobile shops were mainly operated by chemists.",
+    "answer": "FALSE",
+    "evidence": "often run by bakers or grocers",
+    "explanation": "Paragraph B says the earliest carts were **run by bakers or grocers**. Chemists appear only in paragraph D, as a place drivers collected prescriptions from, so the statement is FALSE."
+   },
+   {
+    "n": 3,
+    "q": "Shopkeepers were able to buy former military lorries at low prices after the First World War.",
+    "answer": "TRUE",
+    "evidence": "thousands of ex-army lorries were sold off cheaply",
+    "explanation": "\"Ex-army lorries were **sold off cheaply**\" matches \"former military lorries at low prices\", so the answer is TRUE."
+   },
+   {
+    "n": 4,
+    "q": "Walter Heslop employed an assistant to help him on his rounds.",
+    "answer": "NOT GIVEN",
+    "evidence": "Records kept by one Cumbrian operator, Walter Heslop",
+    "explanation": "Paragraph C gives Heslop's **mileage, customers and credit sales**, but says nothing about staff. The information is simply not in the passage, so the answer is NOT GIVEN."
+   },
+   {
+    "n": 5,
+    "q": "Most of Heslop's sales were made on credit.",
+    "answer": "FALSE",
+    "evidence": "almost a third of his sales were made on credit",
+    "explanation": "The ledgers show **almost a third** of sales were on credit. A third is not \"most\", so the passage contradicts the statement: FALSE."
+   },
+   {
+    "n": 6,
+    "q": "a reason why some operators could not meet new legal requirements",
+    "answer": "E",
+    "evidence": "investments that many small businesses could not justify",
+    "explanation": "Paragraph E explains that hygiene rules demanded **refrigeration and running water**, which many small businesses **could not justify** paying for."
+   },
+   {
+    "n": 7,
+    "q": "a description of how the inside of a vehicle was equipped",
+    "answer": "B",
+    "evidence": "fitted these vehicles with wooden shelves, a counter at the rear",
+    "explanation": "Paragraph B describes the **shelves, rear counter and paraffin stove** fitted inside the converted lorries."
+   },
+   {
+    "n": 8,
+    "q": "a reference to financial help given to older customers",
+    "answer": "D",
+    "evidence": "cashing cheques for pensioners",
+    "explanation": "Paragraph D says some operators acted as **informal bankers**, cashing cheques for pensioners. Don't confuse this with credit sales in C, which were for all families."
+   },
+   {
+    "n": 9,
+    "q": "a place where people can view preserved vehicles today",
+    "answer": "G",
+    "evidence": "a small collection of restored vans can now be seen at a transport museum",
+    "explanation": "Paragraph G mentions **restored vans** on display at a **transport museum** in County Durham."
+   },
+   {
+    "n": 10,
+    "q": "Modern community-owned vans sell groceries and also offer services such as parcel collection and ______.",
+    "answer": "library loans",
+    "evidence": "services such as parcel collection and library loans",
+    "explanation": "Paragraph F lists **parcel collection and library loans** as the extra services."
+   },
+   {
+    "n": 11,
+    "q": "Online ordering allows customers to request particular products ______.",
+    "answer": "in advance",
+    "evidence": "allowing customers to request specific products in advance",
+    "explanation": "Customers can request specific products **in advance** using online ordering."
+   },
+   {
+    "n": 12,
+    "q": "Supporters claim the vans reduce the number of individual ______.",
+    "answer": "car journeys",
+    "evidence": "reduce the number of individual car journeys",
+    "explanation": "The passage says the vans **reduce the number of individual car journeys**. \"Individual\" is already in the sentence, so two words are enough."
+   },
+   {
+    "n": 13,
+    "q": "Critics note that most schemes still rely on ______ rather than sales.",
+    "answer": "public grants",
+    "evidence": "most of these schemes still depend on public grants",
+    "explanation": "\"Rely on\" paraphrases **depend on**; the schemes depend on **public grants**."
+   }
+  ]
+ },
+ {
+  "id": "rp_07",
+  "title": "Two Languages, One Lesson",
+  "questions": [
+   {
+    "n": 1,
+    "q": "Paragraph B",
+    "answer": "ii",
+    "evidence": "some researchers began to describe it as a resource",
+    "explanation": "Paragraph B describes a shift from seeing language mixing as **a sign of weakness** to seeing it as **a resource**. Heading viii is a trap: Welsh schools are mentioned only as the origin of a term."
+   },
+   {
+    "n": 2,
+    "q": "Paragraph C",
+    "answer": "iii",
+    "evidence": "Pupils in the flexible classes scored, on average, 12 per cent higher",
+    "explanation": "Paragraph C reports the **test results** of Oduya's study comparing flexible and English-only lessons."
+   },
+   {
+    "n": 3,
+    "q": "Paragraph D",
+    "answer": "iv",
+    "evidence": "the difference between understanding a concept and expressing it",
+    "explanation": "Paragraph D explains that pupils first **grasp the concept** in their best language and only then attach English terms."
+   },
+   {
+    "n": 4,
+    "q": "Paragraph E",
+    "answer": "v",
+    "evidence": "There is also a practical difficulty",
+    "explanation": "Paragraph E opens with **\"Not everyone is persuaded\"** and then gives criticisms and a **practical difficulty**."
+   },
+   {
+    "n": 5,
+    "q": "Paragraph F",
+    "answer": "vi",
+    "evidence": "it works best as a planned strategy",
+    "explanation": "The key idea of paragraph F is that translanguaging must be a **planned strategy**, not informal tolerance."
+   },
+   {
+    "n": 6,
+    "q": "Paragraph G",
+    "answer": "vii",
+    "evidence": "implications that go beyond language teaching",
+    "explanation": "Paragraph G moves beyond the classroom to **teacher training, assessment and parents** — wider consequences for schools and families."
+   },
+   {
+    "n": 7,
+    "q": "According to paragraph A, teachers who used pupils' home language were traditionally seen as",
+    "answer": "B",
+    "evidence": "teachers who slipped into the pupils' home language were often regarded as having failed",
+    "explanation": "Paragraph A says such teachers were **regarded as having failed**. The other options are not stated."
+   },
+   {
+    "n": 8,
+    "q": "The term 'translanguaging' was originally used to describe",
+    "answer": "C",
+    "evidence": "originally used to describe a bilingual teaching method in Welsh schools",
+    "explanation": "The word **originally** signals the answer: a **bilingual teaching method in Welsh schools**. Its broader meaning (option B) came later."
+   },
+   {
+    "n": 9,
+    "q": "What did Oduya's study find about pupils in the flexible classes?",
+    "answer": "D",
+    "evidence": "their written English was no weaker than that of the control group",
+    "explanation": "Paragraph C says their written English was **no weaker** than the control group's, and sometimes their technical vocabulary was **more precise**. Options A and C contradict this."
+   },
+   {
+    "n": 10,
+    "q": "The port city study lasted for three years.",
+    "answer": "TRUE",
+    "evidence": "carried out over three years in eleven secondary schools",
+    "explanation": "Paragraph C says the investigation was **carried out over three years**, so the answer is TRUE."
+   },
+   {
+    "n": 11,
+    "q": "In the rural district study, clear rules about language use led to a fall in pupils' exposure to English.",
+    "answer": "FALSE",
+    "evidence": "without clear rules about when each language should be used, pupils' exposure to English fell by almost half",
+    "explanation": "The fall happened **without** clear rules, not because of them. The statement reverses the cause, so it is FALSE."
+   },
+   {
+    "n": 12,
+    "q": "In the classrooms Oduya's team observed, pupils' final written work had to be in English.",
+    "answer": "TRUE",
+    "evidence": "required the final written product to be in English",
+    "explanation": "Teachers **required the final written product to be in English**, which matches the statement: TRUE."
+   },
+   {
+    "n": 13,
+    "q": "The bilingual glossaries were later published for use in other schools.",
+    "answer": "NOT GIVEN",
+    "evidence": "Some schools also produced bilingual glossaries",
+    "explanation": "Paragraph F says the glossaries were **compiled partly by pupils**, but nothing about publication or use elsewhere. The answer is NOT GIVEN."
+   }
+  ]
+ },
+ {
+  "id": "rp_08",
+  "title": "Teaching Machines to Forget",
+  "questions": [
+   {
+    "n": 1,
+    "q": "an example of how unlearning could be used dishonestly",
+    "answer": "F",
+    "evidence": "to conceal evidence of biased training data",
+    "explanation": "Paragraph F warns that unlearning could be used **to conceal evidence of biased training data** — a dishonest purpose."
+   },
+   {
+    "n": 2,
+    "q": "a comparison between the cost of retraining and household energy use",
+    "answer": "B",
+    "evidence": "the annual electricity consumption of 1,200 households",
+    "explanation": "Paragraph B compares retraining energy with the **annual electricity consumption of 1,200 households**."
+   },
+   {
+    "n": 3,
+    "q": "a reference to organisations changing how they document training data",
+    "answer": "G",
+    "evidence": "keep detailed records of which data was used to train which model",
+    "explanation": "Paragraph G says some organisations now **keep detailed records** of which data trained which model."
+   },
+   {
+    "n": 4,
+    "q": "an explanation of why removing a record from a database is not enough",
+    "answer": "A",
+    "evidence": "Deleting the original record from a database leaves the model's learned behaviour untouched",
+    "explanation": "Paragraph A explains that deleting the record **leaves the model's learned behaviour untouched**."
+   },
+   {
+    "n": 5,
+    "q": "Retraining a model from scratch is the most dependable way of removing the influence of data.",
+    "answer": "TRUE",
+    "evidence": "The most reliable approach is also the most obvious",
+    "explanation": "\"Most dependable\" paraphrases **most reliable**, and the approach described is retraining from scratch: TRUE."
+   },
+   {
+    "n": 6,
+    "q": "Sharded training produces models that are more accurate than a single model trained on all the data.",
+    "answer": "FALSE",
+    "evidence": "tend to perform less well than a single model trained on all the data at once",
+    "explanation": "Sharded models **perform less well**, and accuracy falls further as shards increase. The statement says the opposite: FALSE."
+   },
+   {
+    "n": 7,
+    "q": "Approximate unlearning methods can often be completed in a matter of minutes.",
+    "answer": "TRUE",
+    "evidence": "often requiring only minutes of computation",
+    "explanation": "Paragraph D says approximate methods are fast, **often requiring only minutes**: TRUE."
+   },
+   {
+    "n": 8,
+    "q": "The researchers in paragraph D were employed by a commercial technology company.",
+    "answer": "NOT GIVEN",
+    "evidence": "a team of researchers found that models which appeared to have forgotten",
+    "explanation": "The passage describes only **a team of researchers** and never says who employed them. The answer is NOT GIVEN."
+   },
+   {
+    "n": 9,
+    "q": "Independent logs recording the use of unlearning are already in widespread use.",
+    "answer": "FALSE",
+    "evidence": "no such system yet exists on a large scale",
+    "explanation": "Such logs have only been **proposed**; **no such system yet exists on a large scale**. The statement is contradicted: FALSE."
+   },
+   {
+    "n": 10,
+    "q": "What did the experiments described in paragraph D show?",
+    "answer": "B",
+    "evidence": "could be prompted to recall them after a small amount of further training on unrelated material",
+    "explanation": "Models that **appeared to have forgotten** examples could **recall them** after further training. This is why verification is hard."
+   },
+   {
+    "n": 11,
+    "q": "According to paragraph E, legal scholars disagree about",
+    "answer": "C",
+    "evidence": "Some legal scholars argue that the law should require only that the model no longer reveals the individual's data",
+    "explanation": "One group says the model need only **no longer reveal** the data; the other says **any residual influence** is still processing. The disagreement is about what counts as compliance."
+   },
+   {
+    "n": 12,
+    "q": "In a trained model, information from the data is spread across billions of numerical ______.",
+    "answer": "parameters",
+    "evidence": "dispersed across billions of numerical parameters",
+    "explanation": "\"Spread\" paraphrases **dispersed**; the information is dispersed across numerical **parameters**."
+   },
+   {
+    "n": 13,
+    "q": "In sharded training, a smaller ______ is trained on each portion of the data.",
+    "answer": "sub-model",
+    "evidence": "training a smaller sub-model on each",
+    "explanation": "Paragraph C says a smaller **sub-model** is trained on each portion. A hyphenated word counts as one word."
+   },
+   {
+    "n": 14,
+    "q": "Data protection laws were drafted with conventional ______ in mind.",
+    "answer": "databases",
+    "evidence": "drafted with conventional databases in mind",
+    "explanation": "The laws were written with **conventional databases** in mind, not statistical models."
+   }
+  ]
+ },
+ {
+  "id": "rp_09",
+  "title": "Echoes in Stone: The Science of Archaeoacoustics",
+  "questions": [
+   {
+    "n": 1,
+    "q": "Paragraph B",
+    "answer": "i",
+    "evidence": "The basic techniques are borrowed from architectural acoustics",
+    "explanation": "Paragraph B explains the **techniques borrowed from architectural acoustics** — loudspeakers, microphones and reverberation time. Heading vii is a trap: equipment is mentioned, but not its cost."
+   },
+   {
+    "n": 2,
+    "q": "Paragraph C",
+    "answer": "ii",
+    "evidence": "within the lower register of the adult male voice",
+    "explanation": "Paragraph C describes underground chambers that **resonate** at frequencies of the **adult male voice**."
+   },
+   {
+    "n": 3,
+    "q": "Paragraph D",
+    "answer": "iii",
+    "evidence": "Demonstrating that a resonance exists is therefore very different from demonstrating that it was intended",
+    "explanation": "Paragraph D asks whether resonances were **intended** or simply **a consequence of dimensions** — accident or intention."
+   },
+   {
+    "n": 4,
+    "q": "Paragraph E",
+    "answer": "iv",
+    "evidence": "measured echo strength at 64 painted rock shelters and at 58 unpainted shelters",
+    "explanation": "The comparative study in paragraph E contrasts **painted** (marked) and **unpainted** (unmarked) shelters."
+   },
+   {
+    "n": 5,
+    "q": "Paragraph G",
+    "answer": "vi",
+    "evidence": "the field has had a noticeable effect on museum and heritage practice",
+    "explanation": "Paragraph G describes the field's **effect on museum and heritage practice**, such as demonstrations and conservation plans."
+   },
+   {
+    "n": 6,
+    "q": "Sound was once thought to be impossible to study scientifically in archaeology.",
+    "answer": "YES",
+    "evidence": "it was assumed to lie beyond the reach of scientific study",
+    "explanation": "The writer says sound was **assumed to lie beyond the reach of scientific study** for most of the discipline's history: YES."
+   },
+   {
+    "n": 7,
+    "q": "Digital reconstructions of damaged structures can be relied on to give accurate results.",
+    "answer": "NO",
+    "evidence": "the reliability of such reconstructions depends heavily on assumptions",
+    "explanation": "The writer stresses that reliability **depends heavily on assumptions** about missing features, so they cannot simply be relied on: NO."
+   },
+   {
+    "n": 8,
+    "q": "Finding a resonance in a chamber is sufficient evidence that it was designed deliberately.",
+    "answer": "NO",
+    "evidence": "Demonstrating that a resonance exists is therefore very different from demonstrating that it was intended",
+    "explanation": "The writer says showing a resonance exists is **very different** from showing it was intended. The statement contradicts this: NO."
+   },
+   {
+    "n": 9,
+    "q": "Archaeoacoustics is a more valuable approach than conventional excavation.",
+    "answer": "NOT GIVEN",
+    "evidence": "may reveal aspects of past experience that conventional methods overlook",
+    "explanation": "The writer says the field **may reveal** things other methods overlook, but never ranks it as **more valuable** than excavation. NOT GIVEN."
+   },
+   {
+    "n": 10,
+    "q": "What was measured in the study in southern Africa?",
+    "answer": "B",
+    "evidence": "measured echo strength at 64 painted rock shelters and at 58 unpainted shelters nearby",
+    "explanation": "The study **measured echo strength** at painted and unpainted shelters. Visibility and water (C) were suggested factors, not measurements."
+   },
+   {
+    "n": 11,
+    "q": "Why have some archaeoacousticians begun working with anthropologists?",
+    "answer": "D",
+    "evidence": "to widen the range of possible interpretations that archaeologists consider",
+    "explanation": "Paragraph F says the aim is **not to project modern beliefs onto the past** (so A is wrong) but **to widen the range of possible interpretations**."
+   },
+   {
+    "n": 12,
+    "q": "Reverberation time is the period needed for a sound to fade by sixty ______.",
+    "answer": "decibels",
+    "evidence": "the period taken for a sound to fade by sixty decibels",
+    "explanation": "Paragraph B defines reverberation time as the time for a sound **to fade by sixty decibels**."
+   },
+   {
+    "n": 13,
+    "q": "Resonances in the Mediterranean tombs fell within the lower register of the adult male ______.",
+    "answer": "voice",
+    "evidence": "within the lower register of the adult male voice",
+    "explanation": "The frequencies fall within the lower register of the **adult male voice**."
+   },
+   {
+    "n": 14,
+    "q": "Conservation plans now often include acoustic measurements taken before any ______ begins.",
+    "answer": "restoration work",
+    "evidence": "taken before any restoration work begins",
+    "explanation": "Measurements are taken **before any restoration work begins**, because new flooring or lighting can change a chamber's sound."
+   }
+  ]
+ }
+]

@@ -1,0 +1,1116 @@
+{
+ "id": "FT09",
+ "title": "Listening Full Test 9",
+ "band": "7.0–8.0",
+ "parts": [
+  {
+   "part": 1,
+   "title": "Ordering Food for a Staff Lunch",
+   "context": "Everyday social/transactional conversation (2 speakers)",
+   "scenario": "An office manager at an architects' practice phones a catering company to order food for a staff lunch.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Gareth",
+     "desc": "Catering company order-taker — male, 30s, warm, efficient, slightly chatty; British accent"
+    },
+    {
+     "label": "Helen",
+     "desc": "Office manager — female, 40s, friendly, organised but busy; British accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 1. You will hear an office manager phoning a catering company to order food for a staff event. First, you have some time to look at Questions 1 to 4.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[telephone rings twice, then the line clicks open] [warm, professional] Good morning, Saffron and Thyme Catering, Gareth speaking. How can I help?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[friendly, slightly rushed] Oh, hello. I'm ringing from Corran Design, the architects' practice on the Quayside. I'm the office manager, and I'd like to order some food for a staff lunch we're holding."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[pleased] Lovely. I'll just open a new order form, then. [short pause] Right. Could I take your name first?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "It's Helen. Helen Dannatt."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[careful] And how do you spell the surname?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[slowly, spelling each letter clearly] D... A... double N... A... double T. [light laugh] People usually put one N and one T, so it's worth checking."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[repeating it as he types] D... A... double N... A... double T. Got it. And the date of the event?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[thinking aloud] Well, it was going to be Friday the twenty-first of November, but half the team are away at a conference that week, so we've pushed it back by seven days. [decisive] So it's Friday the twenty-eighth now."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[typing] The twenty-eighth. That's fine, we've still got space in the diary for that day. [casual] And roughly how many people are we feeding?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[hesitant, working it out] Um, there are sixty of us on the payroll, but eight people are on annual leave that week, so that leaves fifty-two... [correcting herself] oh, and I mustn't forget the three trustees from our board. They always come to these things."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[checking] So fifty-two plus three..."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[confirming] Fifty-five, yes. [wry] Better to have too much than too little with this lot."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[chuckles] That's what we always say. Now, timing. When does the lunch actually start?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[matter-of-fact] We'll sit down at half past twelve. [thinking] I was going to say bring it at noon, but the meeting room's free from eleven fifteen, and I'd rather have a bit of breathing space to lay everything out. Could the food be with us by quarter to twelve at the very latest?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[reassuring] Eleven forty-five. No problem at all. Our vans usually leave the kitchen by eleven, so that's very comfortable."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[relieved] Great."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[practical] And just so I've got it for the driver, is there parking at your building?"
+    },
+    {
+     "speaker": "Helen",
+     "text": "[apologetic] Not at the front, I'm afraid, it's all double yellow lines. But there's a loading bay round the back, off Ropewalk Lane, and the driver can stop there for twenty minutes."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 5 to 10.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[brisk, helpful] Right, let's talk about menus. For a group your size we offer three options, and I'll go through each one so you can compare. The first is what we call the Working Lunch."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[interested] Is that sandwiches?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[explaining] Mostly, yes, sandwiches and wraps, with a fruit platter and crisps. [slightly amused] We used to make all the sandwiches on rye bread, but quite a few customers found it a bit heavy, so these days everything's made on sourdough. You can ask for white, but there's a small extra charge."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[decisive] No, the sourdough sounds fine. And the price for that one?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[reading from a list] That's... nine pounds fifty a head. [short pause] [correcting himself, a little embarrassed] Oh, hang on, sorry, I'm looking at last year's sheet. It went up in September. It's nine pounds seventy-five now."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[good-humoured sigh] Nine seventy-five. Everything's gone up. What about the second option?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[enthusiastic] That's our Hot Buffet, which is very popular in winter. The main dish is a Moroccan-style tagine served with couscous and flatbreads. [clarifying] Now, if you've seen our website, it'll say it's made with chicken, but that page is out of date. We switched to lamb in the summer, and we do a chickpea version for vegetarians."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[thinking aloud] Lamb... I suppose most people will eat that. Does it need an oven or anything? Because we've only got a tiny kitchenette."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[reassuring] No, you won't need an oven, and you don't need a sink either, we take all the dishes away dirty. The food arrives in heated trays, but they have to be plugged in to keep warm, so all we'd ask for is a socket close to wherever the serving table is going to be."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[considering] There's one right next to the window, so that's fine. And price?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[clearly] Eleven pounds a head, and that includes a dessert, usually an apple crumble."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[warmly] Mm, that's tempting. And the third?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[lively] The third is our Mezze Platters. It's a big sharing selection: falafel, grilled halloumi, stuffed vine leaves, salads, warm pitta. [explaining] It comes with three dips. Hummus isn't one of them, actually, because people expect it and it's always left over. So instead we do a yoghurt and mint dip, a smoky aubergine, and our signature one, which is beetroot with a little horseradish."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[surprised] Beetroot! That sounds different."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[light laugh] It's the one people ring up to ask for the recipe for."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[cautious] And is that the most expensive option?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[honest] It is, normally. The standard price is thirteen ninety per person. [short pause] But we've got an offer on at the moment: for orders of more than fifty people, we take a flat one pound fifty off each head."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[working it out] So for us that would be..."
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[confirming] Twelve pounds forty a head. [short pause] I mean, it's not a ten per cent discount, which is what most people assume, but it works out about the same."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[concerned] And whichever we choose, I've got two colleagues who are gluten-free and one who's vegan. Is that going to be a problem?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[reassuring, easy] Not at all. We just need the numbers a week in advance, and their meals come separately wrapped and labelled with their names, so nobody else helps themselves by mistake."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[thinking aloud] Twelve forty. Hmm. Look, I'll need to run all three past my director before I commit. Could you email me the details?"
+    },
+    {
+     "speaker": "Gareth",
+     "text": "[obliging] Of course. I'll send it to the address you give me, and we'll hold the date for a week without a deposit."
+    },
+    {
+     "speaker": "Helen",
+     "text": "[relieved, wrapping up] Perfect. Thanks so much, Gareth, you've been really helpful."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 1. You now have one minute to check your answers to Part 1.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "1-4",
+     "type": "form_completion",
+     "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "SAFFRON AND THYME CATERING — ORDER FORM",
+     "items": [
+      {
+       "n": 1,
+       "prompt": "Customer: Helen (1) ___ (office manager, Corran Design)",
+       "answer": "Dannatt",
+       "accepted": [
+        "DANNATT"
+       ],
+       "spoken": "D... A... double N... A... double T",
+       "evidence": "D... A... double N... A... double T. People usually put one N and one T",
+       "trap": "Double letters twice; she warns people use a single N and T."
+      },
+      {
+       "n": 2,
+       "prompt": "Date of event: Friday (2) ___ November",
+       "answer": "28th",
+       "accepted": [
+        "28",
+        "twenty-eighth"
+       ],
+       "spoken": "the twenty-eighth",
+       "evidence": "So it's Friday the twenty-eighth now",
+       "trap": "The original date, the twenty-first, is said first and then postponed."
+      },
+      {
+       "n": 3,
+       "prompt": "Number of guests: (3) ___",
+       "answer": "55",
+       "accepted": [
+        "fifty-five"
+       ],
+       "spoken": "Fifty-five",
+       "evidence": "Fifty-five, yes. Better to have too much than too little",
+       "trap": "Sixty and fifty-two are said first; the three trustees must be added."
+      },
+      {
+       "n": 4,
+       "prompt": "Food must arrive no later than: (4) ___ a.m.",
+       "answer": "11.45",
+       "accepted": [
+        "11:45",
+        "eleven forty-five"
+       ],
+       "spoken": "Eleven forty-five",
+       "evidence": "Eleven forty-five. No problem at all.",
+       "trap": "Noon, eleven fifteen, half past twelve and eleven o'clock are all mentioned."
+      }
+     ]
+    },
+    {
+     "range": "5-10",
+     "type": "table_completion",
+     "instructions": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+     "heading": "Menu options",
+     "table": {
+      "columns": [
+       "Option",
+       "Food",
+       "Other information",
+       "Price per person"
+      ],
+      "rows": [
+       [
+        "Working Lunch",
+        "sandwiches and wraps made with (5) ___ bread",
+        "white bread costs extra",
+        "£(6) ___"
+       ],
+       [
+        "Hot Buffet",
+        "(7) ___ tagine with couscous",
+        "customer must provide a (8) ___ near the table",
+        "£11 (includes dessert)"
+       ],
+       [
+        "Mezze Platters",
+        "falafel, halloumi, salads etc.",
+        "most popular dip: (9) ___ and horseradish",
+        "£(10) ___ (more than 50 guests)"
+       ]
+      ]
+     },
+     "items": [
+      {
+       "n": 5,
+       "prompt": "Working Lunch — type of bread",
+       "answer": "sourdough",
+       "accepted": [],
+       "spoken": "sourdough",
+       "evidence": "so these days everything's made on sourdough",
+       "trap": "Rye was used in the past and white is available at extra cost."
+      },
+      {
+       "n": 6,
+       "prompt": "Working Lunch — price per person",
+       "answer": "9.75",
+       "accepted": [
+        "£9.75"
+       ],
+       "spoken": "nine pounds seventy-five",
+       "evidence": "It's nine pounds seventy-five now",
+       "trap": "£9.50 is read from last year's price list and then corrected."
+      },
+      {
+       "n": 7,
+       "prompt": "Hot Buffet — main ingredient of the tagine",
+       "answer": "lamb",
+       "accepted": [],
+       "spoken": "lamb",
+       "evidence": "We switched to lamb in the summer",
+       "trap": "The website still says chicken; a chickpea version is for vegetarians only."
+      },
+      {
+       "n": 8,
+       "prompt": "Hot Buffet — what the customer must provide",
+       "answer": "socket",
+       "accepted": [],
+       "spoken": "a socket",
+       "evidence": "all we'd ask for is a socket close to wherever the serving table",
+       "trap": "An oven and a sink are mentioned but are not needed."
+      },
+      {
+       "n": 9,
+       "prompt": "Mezze Platters — main ingredient of the best-known dip",
+       "answer": "beetroot",
+       "accepted": [],
+       "spoken": "beetroot",
+       "evidence": "our signature one, which is beetroot with a little horseradish",
+       "trap": "Hummus is ruled out; yoghurt, aubergine and horseradish are also heard (horseradish is not the main ingredient)."
+      },
+      {
+       "n": 10,
+       "prompt": "Mezze Platters — price per person for the larger group",
+       "answer": "12.40",
+       "accepted": [
+        "£12.40"
+       ],
+       "spoken": "Twelve pounds forty",
+       "evidence": "Twelve pounds forty a head",
+       "trap": "The standard price £13.90, the £1.50 reduction and a 10% discount are all mentioned."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Volunteering at a Community Radio Station",
+   "context": "Monologue in an everyday social context (1 speaker)",
+   "scenario": "The manager of a community radio station talks to people interested in volunteering.",
+   "accent": "Australian (en-AU)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Station Manager",
+     "desc": "Kirsty Lowell, station manager — female, 40s, warm, energetic, down-to-earth; Australian accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 2. You will hear the manager of a community radio station talking to a group of people who are interested in becoming volunteers. First, you have some time to look at Questions 11 to 15.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[small meeting room, chatter settling] [warm, energetic] G'day, everyone, and thanks so much for coming out on a wet Tuesday night. I'm Kirsty Lowell, and I'm the station manager here at Riverbend FM. I'll give you a bit of background first, and then I'll run through the different volunteer roles, so you can work out where you might fit in."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[relaxed, storytelling] Now, a lot of people assume we started out as a sports station, because these days we're probably best known for our Saturday footy commentary. [light laugh] But that didn't come along until the mid-nineties. And yes, we run a well-regarded training scheme for young reporters, but that's fairly recent too."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[sincere, slightly slower] The station was actually founded back in nineteen eighty-three by a handful of Greek and Vietnamese families in the valley who couldn't hear any news or music in their own languages. That's still at the heart of what we do: we broadcast in eleven languages every week."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[practical, frank] People often ask how we pay the bills. [short pause] For years we relied on a grant from the local council, but that came to an end three years ago, and it hasn't been replaced. Advertising isn't really an option, because our licence only lets us run a few minutes of sponsorship an hour. So these days, the lion's share of our income comes from our members, the ordinary listeners who pay fifty dollars a year to keep us on air."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[candid, a little rueful] So what's our biggest challenge right now? Well, you might have heard that our transmitter is ancient. [chuckles] It is, but it was repaired last month and it's running fine. And our audience isn't shrinking either, in fact the latest survey shows it's grown. [serious] No, what keeps me awake at night is filling the unpopular slots. The overnight shows and the early weekday mornings are really hard to staff, and that's where we need you most."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[clear, instructive] Once you've signed up, there's a set process. You might expect to go straight into a studio and sit in with one of our presenters. That does happen, but not until a bit later. We also have a short online course about broadcasting law, which we used to insist on, but it's optional now, because frankly hardly anyone finished it."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[firm but friendly] What isn't optional is the induction evening. Before you touch any equipment, our chief technician takes every single new volunteer through fire procedures and electrical safety. No exceptions, even if you've worked in radio before."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[upbeat] And a quick word about where you'll be working. As some of you know, we moved into our new premises in March. [amused] Lots of people think we moved to be closer to town. Actually, we're a little further out than before. The old building had a steep flight of stairs up to the studio, which shut out a lot of people, whereas here everything's on the ground floor and it's completely step-free. [warm] The move itself was paid for by a bequest from a long-time listener, although the builder did give us a generous discount."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the talk, you have some time to look at Questions 16 to 20.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[shifting gear, brisk] Right, let's go through the roles. First of all, newsreaders. We put out a five-minute local bulletin every hour from six until nine in the morning. [matter-of-fact] You might think we'd ask for a journalism qualification. We don't. Our trainers will teach you everything. What does matter is that if a reader calls in sick, we ring round at about half past five, so you need to be the sort of person who can drop everything and come in at very little notice."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[enthusiastic] Then there are technical assistants, who help with the desk during live shows and keep the equipment running. Again, you don't need any formal qualifications, but we invest a huge amount of time training you, so in return we ask you to stay with us for at least twelve months. [reassuring] You won't be called in at the last minute, though; we've got plenty of cover there."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[light laugh] Now, music presenters. Everyone wants to be a music presenter. [short pause] We used to hold voice auditions for this, but we found they put off a lot of perfectly good people, so we've dropped them. Instead, what we absolutely insist on is that you come along to the programme meeting every Tuesday evening, without fail, because that's where the schedule and the playlists are agreed."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[conversational] Next, our online content team, who look after the website, the podcasts and our social media. [informative] This role is ideal if you've got other commitments, because almost all of it is done on your own laptop in your own home. The team does get together face to face, but only about once a month, so it's very flexible."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[lively] And finally, events and fundraising. This team runs our stalls at the farmers' markets and organises the annual radiothon. [emphatic] Pretty much all of that happens on Saturdays and Sundays, so we do ask that you can give us at least one weekend a month. You don't need to commit for a year, and you won't need to come to the weekly meetings, but those weekends are essential."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[sincere] Whichever team you join, you'll get a reference from us after six months, and quite a few of our volunteers have gone on to paid jobs in commercial radio and even television. [proud] One of our former newsreaders now presents the evening news on a national network, and she still drops in to say hello."
+    },
+    {
+     "speaker": "Station Manager",
+     "text": "[warm, wrapping up] So, have a think about which of those appeals. There are forms on the table at the back, and I'll be around for a cuppa afterwards if you'd like a chat."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 2. You now have one minute to check your answers to Part 2.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "11-15",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 11,
+       "prompt": "Riverbend FM was first set up in order to",
+       "options": {
+        "A": "provide coverage of local sports.",
+        "B": "serve communities who did not speak English as a first language.",
+        "C": "give young journalists practical experience."
+       },
+       "answer": "B",
+       "evidence": "couldn't hear any news or music in their own languages",
+       "trap": "Sport and the reporter training scheme are mentioned but both came later."
+      },
+      {
+       "n": 12,
+       "prompt": "Most of the station's income now comes from",
+       "options": {
+        "A": "local government.",
+        "B": "advertisers.",
+        "C": "listeners who pay an annual fee."
+       },
+       "answer": "C",
+       "evidence": "the lion's share of our income comes from our members",
+       "trap": "The council grant ended three years ago; advertising is restricted by the licence."
+      },
+      {
+       "n": 13,
+       "prompt": "According to the manager, the station's main problem at present is",
+       "options": {
+        "A": "unreliable broadcasting equipment.",
+        "B": "finding people to work at certain times.",
+        "C": "a fall in the number of listeners."
+       },
+       "answer": "B",
+       "evidence": "what keeps me awake at night is filling the unpopular slots",
+       "trap": "The transmitter is old but repaired, and the audience has grown, not fallen."
+      },
+      {
+       "n": 14,
+       "prompt": "What must all new volunteers do first?",
+       "options": {
+        "A": "attend a session on safety",
+        "B": "observe an experienced presenter at work",
+        "C": "complete a course on the internet"
+       },
+       "answer": "A",
+       "evidence": "What isn't optional is the induction evening",
+       "trap": "Sitting in with a presenter comes later; the online course used to be required but is now optional."
+      },
+      {
+       "n": 15,
+       "prompt": "What does the manager say about the station's new premises?",
+       "options": {
+        "A": "They are more central than the old building.",
+        "B": "They are easier for disabled people to use.",
+        "C": "They were paid for by a local company."
+       },
+       "answer": "B",
+       "evidence": "everything's on the ground floor and it's completely step-free",
+       "trap": "The building is further out, not more central; the builder only gave a discount, a listener's bequest paid."
+      }
+     ]
+    },
+    {
+     "range": "16-20",
+     "type": "matching",
+     "instructions": "What does the manager say about each volunteer role? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+     "options": {
+      "A": "requires a commitment of at least one year",
+      "B": "requires availability at short notice",
+      "C": "requires a relevant qualification",
+      "D": "involves regular weekend work",
+      "E": "involves passing a voice test",
+      "F": "can mainly be done from home",
+      "G": "requires attendance at a weekly meeting"
+     },
+     "items": [
+      {
+       "n": 16,
+       "prompt": "newsreader",
+       "answer": "B",
+       "evidence": "can drop everything and come in at very little notice",
+       "trap": "A journalism qualification (C) is mentioned and rejected."
+      },
+      {
+       "n": 17,
+       "prompt": "technical assistant",
+       "answer": "A",
+       "evidence": "we ask you to stay with us for at least twelve months",
+       "trap": "Qualifications (C) and last-minute call-outs (B) are both explicitly ruled out."
+      },
+      {
+       "n": 18,
+       "prompt": "music presenter",
+       "answer": "G",
+       "evidence": "come along to the programme meeting every Tuesday evening",
+       "trap": "Voice auditions (E) used to be required but have been dropped."
+      },
+      {
+       "n": 19,
+       "prompt": "online content",
+       "answer": "F",
+       "evidence": "done on your own laptop in your own home",
+       "trap": "A monthly face-to-face meeting is mentioned, which may suggest G."
+      },
+      {
+       "n": 20,
+       "prompt": "events and fundraising",
+       "answer": "D",
+       "evidence": "give us at least one weekend a month",
+       "trap": "A one-year commitment (A) and weekly meetings (G) are said not to apply."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "title": "Choosing Archaeology Modules",
+   "context": "Academic discussion: 2 students + tutor (3 speakers)",
+   "scenario": "Two archaeology students discuss their choice of optional modules with their tutor.",
+   "accent": "British (en-GB) tutor and student; South African English student",
+   "tool": "Text to Dialogue",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Dr Pryce",
+     "desc": "Tutor — male, 50s, kind, measured, dryly humorous; British accent"
+    },
+    {
+     "label": "Lerato",
+     "desc": "Student — female, early 20s, eager, conscientious; South African English accent (fallback: British)"
+    },
+    {
+     "label": "Callum",
+     "desc": "Student — male, early 20s, enthusiastic, a bit sceptical; British accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 3. You will hear two archaeology students, Lerato and Callum, talking to their tutor about which optional modules to take next year. First, you have some time to look at Questions 21 to 25.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[office, door closing softly] [kind, measured] Come in, both of you, have a seat. So, you've had a look at the list of optional modules for next year?"
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[eager] We have. We've each got a shortlist, but we wanted your view before we commit."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[warm] Of course. Where do you want to start?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[enthusiastic] Maritime Archaeology. I've been looking forward to it since first year."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[thoughtful] It's a lovely module. And people tend to worry it'll clash with something, but it's on a Friday, so it doesn't. [cautionary] The thing you do need to know is that it isn't the workload that puts students off. It's that you have to pay for your own dive training and certification before the second term, and that's several hundred pounds."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[deflated] Ah. I hadn't realised that wasn't covered."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[sympathetic] Some students apply to the department's travel fund, which can help a little, but it rarely covers the whole amount, so do budget for it."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[moving on, brisk] My first choice is Human Osteology."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[approving, then serious] Good choice. Now, students often assume that because it's about bones, it's mostly memorising names. It's a great deal tougher than that. You're estimating age and sex from fragments, and the lab tests are notoriously hard. [reassuring] On the other hand, you don't need a science background for it, whatever people say. Several of our best osteologists did history at school."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[relieved laugh] That's good to hear, because I didn't."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[curious] What about Archaeological Illustration? I've heard it's brilliant for getting jobs."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[dry, gently correcting] Well, it's a wonderful skill, but I wouldn't say it's a route into commercial work these days; most units use digital survey now. [practical] The bigger issue is that it only takes twelve students, and you need to submit a portfolio of drawings in May to get a place."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[thinking aloud] Twelve. Hmm. Then I'd better start sketching."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[considering] And Heritage Management? Someone told me it's been completely rewritten."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[light laugh] I'm afraid someone told you wrong; it's much the same as last year. [emphatic] But it's the module I'd recommend if you want to work for one of the contract archaeology firms. When they're interviewing graduates, that's the one they ask about, because so much of their work involves planning applications."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[interested] And finally Archaeometry, the scientific dating one."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[enthusiastic] Ah, that's had a real overhaul. There's a new convenor, and she's redesigned it from top to bottom: new practicals, new assessment, the lot. [clarifying] There was a timetable clash with the fieldwork module last year, but that's been sorted out now."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[thinking aloud] So if I want Maritime and Archaeometry, there's nothing stopping me doing both?"
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[confirming] Nothing at all, as far as the timetable's concerned. [short pause] [gently] Just bear in mind what I said about the diving costs before you sign up."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[teasing] He'll be selling his bike to pay for it."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[chuckles] Don't give me ideas."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "Before you hear the rest of the conversation, you have some time to look at Questions 26 to 30.",
+     "pause_after": 30
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[conversational] Callum, you were on the excavation in Northumberland this summer, weren't you? How did you find it?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[reflective] Well, I spent most of it in the finds shed rather than out on site. I thought I'd hate that, but honestly, I didn't mind it at all. [wry] And the recording system was a bit chaotic at first, but the supervisor sorted it out in the first week. [more serious] What it really did was make me rethink things. I'd always assumed I'd stay on and do a PhD, but now I'd much rather work in the field professionally."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[thoughtful] That's a useful thing to find out early. Lerato, you mentioned taking both Osteology and Archaeometry?"
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[hesitant] Yes, but I'm worried that two lab-based modules might be too much at once."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[reassuring, measured] I wouldn't put you off. It's not that the workload's unmanageable, plenty of students have done it, but that's not really my point. And it won't restrict which dissertation you can do, either. [warm] The thing is, they genuinely complement each other. The lab techniques overlap, so each one makes the other easier. If anything, I'd encourage it."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[pleased] Oh, that's good."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[practical] And how's your dissertation proposal coming along? The deadline's the end of January."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[confident, then worried] The deadline's fine, I've got a draft already. And I know the topic's still a bit broad..."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[interrupting gently] That's quite normal at this stage. We'll narrow it down together."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[anxious] Right. [sighs] What really bothers me is the Hartfield collection. The whole project depends on examining those burial goods, and the museum's closed for refurbishment until at least the spring. I'm not sure I'll be able to see them in time."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[thoughtful] Mm. Let me make some enquiries. The curator's an old colleague of mine."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[changing topic] Can I ask about assessment? A lot of these modules are assessed by portfolio instead of exams."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[enthusiastic] Which I think is much fairer."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[sceptical] Fairer? I'm not sure about that. Some people get loads of help with them."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[conceding] Okay, maybe not fairer exactly. [thinking] But I do think a portfolio suits someone who works steadily through the term, like me."
+    },
+    {
+     "speaker": "Callum",
+     "text": "[amused] Well, it doesn't suit me. I'm a last-minute person. [short pause] But one thing I'll give you is that they swallow far more hours than you'd ever expect. I spent most of my Easter holiday on last year's."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[laughing] Oh, absolutely. Mine looked tiny on paper and took me weeks."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[wry] Every year, students say the same thing. [practical] So, what's your next step?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[uncertain] I suppose we could email each of the module leaders with our questions."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[gently discouraging] You could, but they're inundated with emails at this time of year, so you might wait a while for a reply. And looking through past dissertations in the library is useful, but that's really for later, once you've chosen. [encouraging] What I'd do is go to the options fair on Thursday afternoon. All the convenors will be there, and you can just wander round and chat to them."
+    },
+    {
+     "speaker": "Lerato",
+     "text": "[decisive] That sounds much more useful. Callum?"
+    },
+    {
+     "speaker": "Callum",
+     "text": "[agreeing] Yes, let's do that. I'll bring my questions about the dive training."
+    },
+    {
+     "speaker": "Dr Pryce",
+     "text": "[warm, wrapping up] Good. Make a list of questions beforehand, though, because it gets very crowded and the convenors won't have long with each person. And come back and see me afterwards if anything's still unclear."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of Part 3. You now have one minute to check your answers to Part 3.",
+     "pause_after": 60
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "21-25",
+     "type": "matching",
+     "instructions": "What does the tutor say about each module? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+     "options": {
+      "A": "It has been substantially changed this year.",
+      "B": "It is more difficult than students tend to expect.",
+      "C": "It is valued by employers in commercial archaeology.",
+      "D": "It clashes with another module.",
+      "E": "It has a limited number of places.",
+      "F": "Students must meet some extra costs.",
+      "G": "It is unsuitable for students without a science background."
+     },
+     "items": [
+      {
+       "n": 21,
+       "prompt": "Maritime Archaeology",
+       "answer": "F",
+       "evidence": "you have to pay for your own dive training and certification",
+       "trap": "A timetable clash (D) is raised and denied; workload is said not to be the issue."
+      },
+      {
+       "n": 22,
+       "prompt": "Human Osteology",
+       "answer": "B",
+       "evidence": "It's a great deal tougher than that",
+       "trap": "The tutor explicitly says a science background is NOT needed (G)."
+      },
+      {
+       "n": 23,
+       "prompt": "Archaeological Illustration",
+       "answer": "E",
+       "evidence": "it only takes twelve students, and you need to submit a portfolio",
+       "trap": "Callum suggests it's good for jobs (C) but the tutor disagrees."
+      },
+      {
+       "n": 24,
+       "prompt": "Heritage Management",
+       "answer": "C",
+       "evidence": "if you want to work for one of the contract archaeology firms",
+       "trap": "Lerato has heard it was rewritten (A), but the tutor says it is unchanged."
+      },
+      {
+       "n": 25,
+       "prompt": "Archaeometry",
+       "answer": "A",
+       "evidence": "she's redesigned it from top to bottom",
+       "trap": "A clash with fieldwork (D) existed last year but has been resolved."
+      }
+     ]
+    },
+    {
+     "range": "26-30",
+     "type": "multiple_choice",
+     "instructions": "Choose the correct letter, A, B or C.",
+     "items": [
+      {
+       "n": 26,
+       "prompt": "What does Callum say about his summer excavation?",
+       "options": {
+        "A": "Its methods of keeping records were poorly organised throughout.",
+        "B": "It caused him to change his long-term plans.",
+        "C": "He would have preferred to do more digging."
+       },
+       "answer": "B",
+       "evidence": "now I'd much rather work in the field professionally",
+       "trap": "The recording problems lasted only a week (A); he says he didn't mind the finds shed (C)."
+      },
+      {
+       "n": 27,
+       "prompt": "What is the tutor's view of Lerato taking both laboratory-based modules?",
+       "options": {
+        "A": "The amount of work would be too great.",
+        "B": "It would limit her choice of dissertation.",
+        "C": "The two modules would support each other well."
+       },
+       "answer": "C",
+       "evidence": "they genuinely complement each other",
+       "trap": "Workload (A) and dissertation choice (B) are both mentioned and dismissed with negatives."
+      },
+      {
+       "n": 28,
+       "prompt": "What is Lerato most worried about regarding her dissertation?",
+       "options": {
+        "A": "meeting the proposal deadline",
+        "B": "being able to study some important material",
+        "C": "the wide scope of her topic"
+       },
+       "answer": "B",
+       "evidence": "I'm not sure I'll be able to see them in time",
+       "trap": "She says the deadline is fine (A) and the tutor says a broad topic is normal (C)."
+      },
+      {
+       "n": 29,
+       "prompt": "Callum and Lerato agree that assessment by portfolio",
+       "options": {
+        "A": "is a fairer method than examinations.",
+        "B": "is more time-consuming than it appears.",
+        "C": "suits students who work consistently."
+       },
+       "answer": "B",
+       "evidence": "they swallow far more hours than you'd ever expect",
+       "trap": "Lerato's claims about fairness (A) and steady work (C) are disputed by Callum."
+      },
+      {
+       "n": 30,
+       "prompt": "What will the students do next?",
+       "options": {
+        "A": "contact module leaders in writing",
+        "B": "read previous students' dissertations",
+        "C": "attend an event where they can talk to staff"
+       },
+       "answer": "C",
+       "evidence": "That sounds much more useful. Callum? Yes, let's do that",
+       "trap": "Emailing (A) is suggested by Callum and discouraged; past dissertations (B) are 'for later'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "title": "Desalination Technologies",
+   "context": "Academic lecture (1 speaker)",
+   "scenario": "A lecturer explains thermal and membrane desalination, its environmental impacts and new developments.",
+   "accent": "British (en-GB)",
+   "tool": "Text to Speech",
+   "voice_settings": "Stability ≈ 0.50 · Similarity ≈ 0.75",
+   "voices": [
+    {
+     "label": "Narrator",
+     "desc": "Test narrator — neutral, clear, measured British RP; the same voice in every test"
+    },
+    {
+     "label": "Lecturer",
+     "desc": "Lecturer — female, 40s, clear, engaging, precise; British accent"
+    }
+   ],
+   "script": [
+    {
+     "speaker": "Narrator",
+     "text": "Part 4. You will hear a lecturer giving a talk about technologies for removing salt from seawater. First, you have some time to look at Questions 31 to 40.",
+     "pause_after": 45
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[lecture theatre, faint murmur fading] [clear, engaging] Good afternoon. Today we're looking at desalination, the process of removing dissolved salts from seawater or brackish groundwater to make it fit to drink. It's worth remembering that less than one per cent of the water on this planet is fresh and readily accessible, so for many arid countries, desalination isn't a luxury; it's the main source of supply."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[conversational, lightly amused] The idea itself is very old. Sailors were boiling seawater and catching the steam on sponges as far back as the classical period, and by the nineteenth century steamships routinely carried small stills on board. [more serious] What's new is the scale. There are now around twenty thousand plants worldwide, and the largest of them supply drinking water to several million people each."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[measured, explaining] Broadly, there are two families of technology: thermal methods, which essentially boil water and collect the vapour, and membrane methods, which filter it. I'll take the thermal ones first, because historically they came first."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] The most widespread thermal method is called multi-stage flash distillation. Seawater is heated, but, interestingly, not to boiling point. It's then passed through a series of chambers, and in each one the pressure is a little lower than in the one before. [emphatic, slowing down] Now, it's that drop in pressure, not any further rise in temperature, that makes the water boil, or 'flash', almost instantly. The vapour condenses on tubes, and that condensed water is your product."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[candid] The obvious drawback is energy. These plants burn enormous quantities of fuel. [explaining] For that reason, they're very rarely built in isolation. You'll usually find them right next to power stations, so that the waste heat from generating electricity can be used to warm the seawater. Engineers call this co-generation, and in the Gulf states it's the norm rather than the exception."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[shifting gear] Let's turn to membrane technology, and specifically reverse osmosis, which now accounts for the majority of new capacity worldwide. [clarifying] In ordinary osmosis, water moves naturally across a membrane towards the saltier side. In reverse osmosis, we apply very high pressure to the seawater to force it the other way, through a membrane fine enough to hold back the salt."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[cautionary] Those membranes are expensive and delicate, so the seawater has to be carefully pre-treated. [thoughtful] People often think the main threat is corrosion. Corrosion certainly affects the pipework, but for the membranes themselves the real enemy is fouling, that is, a gradual build-up of algae, bacteria and fine sediment on the surface, which steadily reduces the flow of water through them."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[upbeat] The good news is how much more efficient the process has become. [wry] You'll often read that energy use has halved since the nineteen-seventies. That's actually a considerable underestimate. A modern plant uses only about a quarter of the energy its equivalent did fifty years ago, and much of that saving comes from devices that recover the pressure from the outgoing stream and reuse it."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[practical] Even so, energy remains the single largest running cost, typically somewhere between a third and a half of the price of each cubic metre of water, which is why plants try to buy electricity at night, when it's cheapest."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[serious, measured] So, what about the environment? The first concern is the waste product, brine, which is roughly twice as salty as seawater. Because it's denser, it sinks and spreads across the seabed. [emphatic] Coral reefs tend to get the headlines here, but in fact the best-documented damage, particularly in the Mediterranean, has been to seagrass, which forms dense underwater meadows and is extremely sensitive to changes in salinity."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[explaining, precise] The second concern is the intake, where seawater is drawn into the plant. Two distinct problems occur here, and they're easily confused. Very small organisms, like plankton and fish eggs, are sucked right through the screens; that's known as entrainment. [slowing down] Larger creatures, such as adult fish and crabs, can't pass through, so they're pinned against the screens by the force of the flow. That's referred to as impingement, and it's the one that's easiest to reduce, simply by slowing down the intake velocity."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[reasoned] Returning to the brine, how can its impact be reduced? The standard answer is diffusers: pipes with multiple outlets that spread the brine over a wider area so it mixes more quickly. [informative] An increasingly popular alternative, though, is to dilute it before it's released, by blending it with treated effluent from a nearby sewage works. This is less salty than seawater, so the two streams partly cancel each other out."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[enthusiastic] Finally, let's look at what's coming next. A lot of attention has gone to membranes made of graphene, a material just one atom thick. In theory, they'd let water through far faster than current membranes. [short pause] [measured, cautious] The problem isn't cost, as you might expect; the raw material is actually getting cheaper. It's that nobody has yet managed to manufacture sheets large enough without defects, and even a tiny hole lets salt straight through."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[informative] At the other end of the scale are small solar-powered units. The original idea was to supply villages in desert regions, but frankly, they haven't done well there; dust and maintenance have been major issues. [positive] Where they've proved most successful is on islands, particularly in the Pacific, where shipping in fresh water is extremely expensive."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[thoughtful] And one last development: brine mining. If brine is a waste product, could it become a resource? Salt has been extracted from it for centuries, of course, and magnesium has been recovered commercially for decades. [animated] But the real excitement at the moment is about lithium, because of the huge demand for batteries in electric vehicles. If that can be extracted economically, the economics of desalination itself could change completely."
+    },
+    {
+     "speaker": "Lecturer",
+     "text": "[wrapping up] Right. For next week, please read the case study on the Sorek plant in Israel, and we'll discuss it in the seminar."
+    },
+    {
+     "speaker": "Narrator",
+     "text": "That is the end of the Listening test. You now have two minutes to check your answers.",
+     "pause_after": 120
+    }
+   ],
+   "question_groups": [
+    {
+     "range": "31-40",
+     "type": "note_completion",
+     "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+     "heading": "Desalination",
+     "items": [
+      {
+       "n": 31,
+       "prompt": "Multi-stage flash: water boils in a sequence of chambers because of a reduction in (31) ___",
+       "answer": "pressure",
+       "accepted": [],
+       "spoken": "pressure",
+       "evidence": "the pressure is a little lower than in the one before",
+       "trap": "Students may write temperature, which the lecturer says is not what causes boiling."
+      },
+      {
+       "n": 32,
+       "prompt": "Plants are usually located beside (32) ___ stations to make use of their waste heat",
+       "answer": "power",
+       "accepted": [],
+       "spoken": "power",
+       "evidence": "You'll usually find them right next to power stations",
+       "trap": "Fuel and electricity are mentioned nearby but do not fit the gap."
+      },
+      {
+       "n": 33,
+       "prompt": "Reverse osmosis: seawater is pre-treated to avoid (33) ___ of the membranes",
+       "answer": "fouling",
+       "accepted": [],
+       "spoken": "fouling",
+       "evidence": "for the membranes themselves the real enemy is fouling",
+       "trap": "Corrosion is mentioned first but affects the pipework, not the membranes."
+      },
+      {
+       "n": 34,
+       "prompt": "Current plants need approximately a (34) ___ of the energy used in the 1970s",
+       "answer": "quarter",
+       "accepted": [],
+       "spoken": "quarter",
+       "evidence": "A modern plant uses only about a quarter of the energy",
+       "trap": "The commonly quoted figure, half, is said to be an underestimate."
+      },
+      {
+       "n": 35,
+       "prompt": "Strongest evidence of harm from sinking brine concerns (35) ___, e.g. in the Mediterranean",
+       "answer": "seagrass",
+       "accepted": [],
+       "spoken": "seagrass",
+       "evidence": "the best-documented damage, particularly in the Mediterranean, has been to seagrass",
+       "trap": "Coral reefs are mentioned as getting the headlines."
+      },
+      {
+       "n": 36,
+       "prompt": "Large animals held against intake screens: this is called (36) ___",
+       "answer": "impingement",
+       "accepted": [],
+       "spoken": "impingement",
+       "evidence": "That's referred to as impingement",
+       "trap": "Entrainment refers to small organisms passing through the screens."
+      },
+      {
+       "n": 37,
+       "prompt": "Alternative to diffusers: brine is diluted with (37) ___ from sewage works",
+       "answer": "effluent",
+       "accepted": [],
+       "spoken": "effluent",
+       "evidence": "by blending it with treated effluent from a nearby sewage works",
+       "trap": "Seawater and sewage are both mentioned near the answer."
+      },
+      {
+       "n": 38,
+       "prompt": "Graphene membranes: hard to produce large sheets with no (38) ___",
+       "answer": "defects",
+       "accepted": [],
+       "spoken": "defects",
+       "evidence": "large enough without defects",
+       "trap": "Cost is suggested as the obstacle but rejected."
+      },
+      {
+       "n": 39,
+       "prompt": "Small solar units: most effective on (39) ___",
+       "answer": "islands",
+       "accepted": [],
+       "spoken": "islands",
+       "evidence": "Where they've proved most successful is on islands",
+       "trap": "Desert villages were the original target but results there were poor."
+      },
+      {
+       "n": 40,
+       "prompt": "Brine mining: strong current interest in extracting (40) ___",
+       "answer": "lithium",
+       "accepted": [],
+       "spoken": "lithium",
+       "evidence": "the real excitement at the moment is about lithium",
+       "trap": "Salt and magnesium have been extracted for a long time and are not the current focus."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

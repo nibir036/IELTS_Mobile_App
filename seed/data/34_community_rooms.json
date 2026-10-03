@@ -1,0 +1,45 @@
+{
+  "table": "rooms",
+  "items": [
+    {
+      "id": "room_speaking_p2",
+      "letter": "S",
+      "name": "Speaking Room · Part 2",
+      "tone": "pink",
+      "topic": "General",
+      "official": true
+    },
+    {
+      "id": "room_writing_circle",
+      "letter": "W",
+      "name": "Writing feedback circle",
+      "tone": "lavender",
+      "topic": "General",
+      "official": true
+    },
+    {
+      "id": "room_band7_club",
+      "letter": "7+",
+      "name": "Band 7+ club",
+      "tone": "dark",
+      "topic": "General",
+      "official": true
+    },
+    {
+      "id": "room_listening_qa",
+      "letter": "L",
+      "name": "Listening Q&A",
+      "tone": "rose",
+      "topic": "General",
+      "official": true
+    },
+    {
+      "id": "room_exam_nov",
+      "letter": "E",
+      "name": "Exam dates · November",
+      "tone": "periwinkle",
+      "topic": "General",
+      "official": true
+    }
+  ]
+}

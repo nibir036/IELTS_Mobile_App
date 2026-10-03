@@ -1,0 +1,214 @@
+{
+ "note": "Both plans redrawn to the recording (lab: safety cupboard right of the door, sink in the SW corner, desk in the centre with the tensile tester to its right, storage cupboard down the east wall, fume cupboard at its north end, shower in the SE corner; store: logbook/charging on the east wall, glove drawer/bin on the south wall, first-aid kit left and extinguisher right of the door). Questions 1-10 reordered to follow the recording; 'Technician's desk' is now 'Instructor's desk' as spoken.",
+ "groups": {
+  "g1": {
+   "type": "map",
+   "title": "Materials-testing lab (door in the middle of the south wall)",
+   "instruction": "Write the correct letter, A–J, next to each question.",
+   "layout": "Layout: door in the middle of the south wall; a second door in the east wall leads to the equipment store. A = north wall, west (left-hand) end · B = long unit down the east wall · C = south-west corner · D = north wall, east (right-hand) end · E = just east of the centre · F = south wall, just right of the door · G = south-east corner · H = centre of the room · I = east wall, north end · J = north wall, middle",
+   "layoutIntro": "door in the middle of the south wall; a second door in the east wall leads to the equipment store.",
+   "options": [
+    {
+     "key": "A",
+     "text": "north wall, west (left-hand) end"
+    },
+    {
+     "key": "B",
+     "text": "long unit down the east wall"
+    },
+    {
+     "key": "C",
+     "text": "south-west corner"
+    },
+    {
+     "key": "D",
+     "text": "north wall, east (right-hand) end"
+    },
+    {
+     "key": "E",
+     "text": "just east of the centre"
+    },
+    {
+     "key": "F",
+     "text": "south wall, just right of the door"
+    },
+    {
+     "key": "G",
+     "text": "south-east corner"
+    },
+    {
+     "key": "H",
+     "text": "centre of the room"
+    },
+    {
+     "key": "I",
+     "text": "east wall, north end"
+    },
+    {
+     "key": "J",
+     "text": "north wall, middle"
+    }
+   ],
+   "image": "assets/listening/maps/P3-PM_map1.png",
+   "questions": [
+    {
+     "number": 1,
+     "text": "Safety-equipment cupboard",
+     "answer": "F"
+    },
+    {
+     "number": 2,
+     "text": "Sink",
+     "answer": "C"
+    },
+    {
+     "number": 3,
+     "text": "Instructor's desk",
+     "answer": "H"
+    },
+    {
+     "number": 4,
+     "text": "Workbench 1",
+     "answer": "A"
+    },
+    {
+     "number": 5,
+     "text": "Workbench 2",
+     "answer": "J"
+    },
+    {
+     "number": 6,
+     "text": "Workbench 3",
+     "answer": "D"
+    },
+    {
+     "number": 7,
+     "text": "Storage cupboard",
+     "answer": "B"
+    },
+    {
+     "number": 8,
+     "text": "Fume cupboard",
+     "answer": "I"
+    },
+    {
+     "number": 9,
+     "text": "Tensile-testing machine",
+     "answer": "E"
+    },
+    {
+     "number": 10,
+     "text": "Emergency shower",
+     "answer": "G"
+    }
+   ]
+  },
+  "g2": {
+   "type": "map",
+   "title": "Equipment store (door in the middle of the west wall)",
+   "instruction": "Write the correct letter, A–J, next to each question.",
+   "layout": "Layout: door from the lab in the middle of the west wall; window in the south wall. A = north wall, middle · B = south-east corner · C = east wall, southern half · D = centre of the room · E = west wall, just north of the door · F = east wall, northern half · G = west wall, just south of the door · H = north wall, west end · I = south wall, west end · J = north wall, east end",
+   "layoutIntro": "door from the lab in the middle of the west wall; window in the south wall.",
+   "options": [
+    {
+     "key": "A",
+     "text": "north wall, middle"
+    },
+    {
+     "key": "B",
+     "text": "south-east corner"
+    },
+    {
+     "key": "C",
+     "text": "east wall, southern half"
+    },
+    {
+     "key": "D",
+     "text": "centre of the room"
+    },
+    {
+     "key": "E",
+     "text": "west wall, just north of the door"
+    },
+    {
+     "key": "F",
+     "text": "east wall, northern half"
+    },
+    {
+     "key": "G",
+     "text": "west wall, just south of the door"
+    },
+    {
+     "key": "H",
+     "text": "north wall, west end"
+    },
+    {
+     "key": "I",
+     "text": "south wall, west end"
+    },
+    {
+     "key": "J",
+     "text": "north wall, east end"
+    }
+   ],
+   "image": "assets/listening/maps/P3-PM_map2.png",
+   "questions": [
+    {
+     "number": 11,
+     "text": "Calibration bench",
+     "answer": "D"
+    },
+    {
+     "number": 12,
+     "text": "Microscope shelf",
+     "answer": "H"
+    },
+    {
+     "number": 13,
+     "text": "Hand-tool shelf",
+     "answer": "A"
+    },
+    {
+     "number": 14,
+     "text": "Spare-parts shelf",
+     "answer": "J"
+    },
+    {
+     "number": 15,
+     "text": "Logbook station",
+     "answer": "F"
+    },
+    {
+     "number": 16,
+     "text": "Charging station",
+     "answer": "C"
+    },
+    {
+     "number": 17,
+     "text": "Protective-glove drawer",
+     "answer": "I"
+    },
+    {
+     "number": 18,
+     "text": "Waste-disposal bin",
+     "answer": "B"
+    },
+    {
+     "number": 19,
+     "text": "First-aid kit",
+     "answer": "E"
+    },
+    {
+     "number": 20,
+     "text": "Fire extinguisher",
+     "answer": "G"
+    }
+   ]
+  }
+ },
+ "speakerMap": {
+  "Steve": "Technician",
+  "Speaker 2": "Carlos",
+  "Speaker 3": "Mia"
+ }
+}

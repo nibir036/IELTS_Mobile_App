@@ -1,0 +1,3795 @@
+{
+  "selector": {
+    "subtitle": "Academic module · AI feedback in about 20 seconds",
+    "tasks": [
+      {
+        "id": "task1",
+        "label": "Task 1 · Report",
+        "title": "Describe visual data",
+        "minutes": 20,
+        "words": 150,
+        "types": [
+          "Bar",
+          "Line",
+          "Pie",
+          "Table",
+          "Map",
+          "Process"
+        ],
+        "previewBars": [
+          0.3,
+          0.55,
+          0.42,
+          0.88,
+          0.64
+        ],
+        "highlightBar": 3
+      },
+      {
+        "id": "task2",
+        "label": "Task 2 · Essay",
+        "title": "Argue a position",
+        "minutes": 40,
+        "words": 250,
+        "types": [
+          "Opinion",
+          "Discussion",
+          "Advantages",
+          "Problem–solution",
+          "Two-part"
+        ]
+      }
+    ],
+    "fullMock": {
+      "title": "Full writing mock",
+      "subtitle": "Task 1 + Task 2 · shared 60 min"
+    },
+    "sectionCount": 8,
+    "more": [
+      {
+        "id": "guide",
+        "title": "Writing Guide",
+        "subtitle": "The complete nextED Writing book · English / বাংলা",
+        "meta": "",
+        "icon": "guide",
+        "tone": "mist",
+        "target": "writingGuide"
+      },
+      {
+        "id": "lessons",
+        "title": "Lesson & Exercise",
+        "subtitle": "Lessons with short exercises",
+        "meta": "16 lessons",
+        "icon": "lessons",
+        "tone": "pink",
+        "target": "masterclass"
+      },
+      {
+        "id": "booster",
+        "title": "Writing Booster",
+        "subtitle": "Vocabulary, linking & grammar drills",
+        "meta": "24 drills",
+        "icon": "booster",
+        "tone": "lavender",
+        "target": "sentenceBuilder"
+      },
+      {
+        "id": "templates",
+        "title": "Writing Template",
+        "subtitle": "Fill-in structures for Task 1 & 2",
+        "meta": "9 templates",
+        "icon": "template",
+        "tone": "rose",
+        "target": "writingTemplate"
+      },
+      {
+        "id": "ideas",
+        "title": "IELTS Ideas & Topics",
+        "subtitle": "Arguments and vocab by topic",
+        "meta": "168 sets",
+        "icon": "ideas",
+        "tone": "mist",
+        "target": "ideasTopics"
+      },
+      {
+        "id": "tips",
+        "title": "Writing Tips",
+        "subtitle": "Rules and checklists from the Writing guide",
+        "meta": "6 articles",
+        "icon": "tips",
+        "tone": "pink",
+        "target": "articleTips"
+      }
+    ]
+  },
+  "task1": {
+    "aiHints": {
+      "empty": "Start with one sentence that paraphrases the question.",
+      "noOverview": "Add an overview: begin a sentence with “Overall,”.",
+      "overview": "Overview found. Next: compare the start and end figures.",
+      "long": "Good length. Check your figures, then submit for AI review."
+    }
+  },
+  "sentenceBuilder": {
+    "category": "Writing Booster · Make sentences",
+    "drills": [
+      {
+        "id": "sb_01",
+        "instruction": "Combine into one complex sentence",
+        "connector": "which",
+        "function": "Relative clause",
+        "sentences": [
+          "Many cities have introduced bike lanes.",
+          "This has reduced traffic in the centre."
+        ],
+        "answer": [
+          "Many cities",
+          "have introduced",
+          "bike lanes,",
+          "which",
+          "has reduced",
+          "traffic in the centre."
+        ],
+        "prefilled": 2,
+        "bank": [
+          "has reduced",
+          "because",
+          "traffic in the centre.",
+          "which",
+          "bike lanes,"
+        ],
+        "hint": "Use “which” after a comma to refer back to the whole first idea."
+      },
+      {
+        "id": "sb_02",
+        "instruction": "Combine into one complex sentence",
+        "connector": "whereas",
+        "function": "Contrast",
+        "sentences": [
+          "Canada had high internet access in 2000.",
+          "India had very low access."
+        ],
+        "answer": [
+          "Canada had",
+          "high internet access in 2000,",
+          "whereas",
+          "India had",
+          "very low access."
+        ],
+        "prefilled": 1,
+        "bank": [
+          "whereas",
+          "India had",
+          "very low access.",
+          "so",
+          "high internet access in 2000,"
+        ],
+        "hint": "Put “whereas” between the two contrasting facts, after a comma."
+      },
+      {
+        "id": "sb_03",
+        "instruction": "Combine into one complex sentence",
+        "connector": "as a result",
+        "function": "Result",
+        "sentences": [
+          "Office rents have risen sharply.",
+          "More firms allow staff to work from home."
+        ],
+        "answer": [
+          "Office rents",
+          "have risen sharply;",
+          "as a result,",
+          "more firms",
+          "allow remote work."
+        ],
+        "prefilled": 2,
+        "bank": [
+          "more firms",
+          "although",
+          "as a result,",
+          "allow remote work.",
+          "because"
+        ],
+        "hint": "Cause first, then the result introduced by “as a result,”."
+      },
+      {
+        "id": "sb_04",
+        "instruction": "Combine into one complex sentence",
+        "connector": "although",
+        "function": "Concession",
+        "sentences": [
+          "The city built new bike lanes.",
+          "Car traffic did not fall."
+        ],
+        "answer": [
+          "Although",
+          "the city built",
+          "new bike lanes,",
+          "car traffic",
+          "did not fall."
+        ],
+        "prefilled": 3,
+        "bank": [
+          "car traffic",
+          "because",
+          "did not fall.",
+          "however",
+          "so"
+        ],
+        "hint": "After the “although” clause and its comma, add the main clause: subject first, then the verb."
+      },
+      {
+        "id": "sb_05",
+        "instruction": "Combine into one complex sentence",
+        "connector": "because",
+        "function": "Cause",
+        "sentences": [
+          "Many students study abroad.",
+          "Foreign degrees are highly valued."
+        ],
+        "answer": [
+          "Many students",
+          "study abroad",
+          "because",
+          "foreign degrees",
+          "are highly valued."
+        ],
+        "prefilled": 2,
+        "bank": [
+          "although",
+          "foreign degrees",
+          "because",
+          "are highly valued.",
+          "so"
+        ],
+        "hint": "Keep the result first, then give the reason with “because”."
+      },
+      {
+        "id": "sb_06",
+        "instruction": "Combine into one complex sentence",
+        "connector": "unless",
+        "function": "Condition",
+        "sentences": [
+          "Air pollution will get worse.",
+          "Governments must limit car use."
+        ],
+        "answer": [
+          "Air pollution",
+          "will get worse",
+          "unless",
+          "governments",
+          "limit car use."
+        ],
+        "prefilled": 1,
+        "bank": [
+          "unless",
+          "governments",
+          "will get worse",
+          "limit car use.",
+          "whereas"
+        ],
+        "hint": "“Unless” means “if … not”: the result comes first, then the condition."
+      }
+    ],
+    "setId": "sb_set_make_sentences"
+  },
+  "masterclass": {
+    "lessons": [
+      {
+        "id": "wl_01",
+        "label": "Task",
+        "minutes": 6,
+        "title": "Understanding the task",
+        "lessonLabel": "Lesson 1 · Read the question",
+        "formula": [
+          "Topic",
+          "Instruction",
+          "Scope"
+        ],
+        "keyPoints": [
+          "Underline the topic words in the question.",
+          "Identify the instruction: agree, discuss, or solve.",
+          "Answer every part of the question."
+        ]
+      },
+      {
+        "id": "wl_02",
+        "label": "Paraphrase",
+        "minutes": 8,
+        "title": "Paraphrasing the question",
+        "lessonLabel": "Lesson 2 · Paraphrase formula",
+        "formula": [
+          "Synonyms",
+          "Word forms",
+          "Structure"
+        ],
+        "keyPoints": [
+          "Replace key words with accurate synonyms.",
+          "Change word forms (benefit → beneficial).",
+          "Reorder the sentence structure."
+        ]
+      },
+      {
+        "id": "wl_03",
+        "label": "Thesis",
+        "minutes": 5,
+        "title": "Writing a thesis",
+        "lessonLabel": "Lesson 3 · Clear position",
+        "formula": [
+          "Opinion",
+          "Reason 1",
+          "Reason 2"
+        ],
+        "keyPoints": [
+          "State your opinion in one clear sentence.",
+          "Preview your two main reasons.",
+          "Keep the same position until the conclusion."
+        ]
+      },
+      {
+        "id": "wl_04",
+        "label": "Intro formula",
+        "minutes": 8,
+        "title": "Writing introductions",
+        "lessonLabel": "Lesson 4 · Task 2 intro formula",
+        "formula": [
+          "Paraphrase",
+          "Position",
+          "Outline"
+        ],
+        "keyPoints": [
+          "Paraphrase the question in one sentence.",
+          "State your position clearly.",
+          "Outline the two ideas you will develop."
+        ]
+      },
+      {
+        "id": "wl_05",
+        "label": "Conclusions",
+        "minutes": 9,
+        "title": "Writing conclusions",
+        "lessonLabel": "Lesson 5 · Conclusion formula",
+        "formula": [
+          "Restate",
+          "Summarise",
+          "Final thought"
+        ],
+        "keyPoints": [
+          "Restate your position with new wording.",
+          "Summarise the main reasons briefly.",
+          "Never add a new idea in the conclusion."
+        ]
+      },
+      {
+        "id": "wl_06",
+        "label": "Practice",
+        "minutes": 6,
+        "title": "Putting it together",
+        "lessonLabel": "Lesson 6 · Full paragraph practice",
+        "formula": [
+          "Intro",
+          "Body",
+          "Conclusion"
+        ],
+        "keyPoints": [
+          "Plan for five minutes before writing.",
+          "Write one idea per body paragraph.",
+          "Leave three minutes to check your work."
+        ]
+      }
+    ]
+  },
+  "history": {
+    "filters": [
+      {
+        "key": "all",
+        "label": "All"
+      },
+      {
+        "key": "task1",
+        "label": "Task 1"
+      },
+      {
+        "key": "task2",
+        "label": "Task 2"
+      },
+      {
+        "key": "mock",
+        "label": "Mock"
+      }
+    ]
+  },
+  "templates": {
+    "types": [
+      "Opinion",
+      "Discussion",
+      "Advantages",
+      "Problem–solution",
+      "Two-part",
+      "Task 1 chart",
+      "Task 1 line",
+      "Task 1 bar",
+      "Task 1 pie",
+      "Task 1 table",
+      "Task 1 mixed",
+      "Task 1 process",
+      "Task 1 map"
+    ],
+    "items": [
+      {
+        "id": "tpl_opinion",
+        "type": "Opinion",
+        "variant": "Standard",
+        "title": "Task 2 · Opinion essay",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + your position",
+            "segments": [
+              {
+                "text": "It is often argued that "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": " benefits "
+              },
+              {
+                "slot": "group"
+              },
+              {
+                "text": ". I "
+              },
+              {
+                "slot": "agree / disagree"
+              },
+              {
+                "text": " because "
+              },
+              {
+                "slot": "reason 1"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "reason 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Reason 1 + example",
+            "segments": [
+              {
+                "text": "The main reason is that "
+              },
+              {
+                "slot": "reason 1"
+              },
+              {
+                "text": ". For example, "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": ", which shows "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Reason 2 + example",
+            "segments": [
+              {
+                "text": "Another reason is that "
+              },
+              {
+                "slot": "reason 2"
+              },
+              {
+                "text": ". This is clear when "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Restate + final thought",
+            "segments": [
+              {
+                "text": "In conclusion, I firmly believe that "
+              },
+              {
+                "slot": "position"
+              },
+              {
+                "text": ", and "
+              },
+              {
+                "slot": "final thought"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_discussion",
+        "type": "Discussion",
+        "variant": "Standard",
+        "title": "Task 2 · Discussion essay",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + both views",
+            "segments": [
+              {
+                "text": "While some people believe that "
+              },
+              {
+                "slot": "view A"
+              },
+              {
+                "text": ", others argue that "
+              },
+              {
+                "slot": "view B"
+              },
+              {
+                "text": ". This essay will discuss both views before giving my opinion."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "View A + reason",
+            "segments": [
+              {
+                "text": "On the one hand, "
+              },
+              {
+                "slot": "view A"
+              },
+              {
+                "text": " because "
+              },
+              {
+                "slot": "reason"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "View B + reason",
+            "segments": [
+              {
+                "text": "On the other hand, "
+              },
+              {
+                "slot": "view B"
+              },
+              {
+                "text": " since "
+              },
+              {
+                "slot": "reason"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Your opinion",
+            "segments": [
+              {
+                "text": "In conclusion, although "
+              },
+              {
+                "slot": "view A"
+              },
+              {
+                "text": ", I believe "
+              },
+              {
+                "slot": "your opinion"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_advantages",
+        "type": "Advantages",
+        "variant": "Standard",
+        "title": "Task 2 · Advantages & disadvantages",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + outline",
+            "segments": [
+              {
+                "text": "These days, "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": " is becoming increasingly common. Although this trend brings clear benefits such as "
+              },
+              {
+                "slot": "main advantage"
+              },
+              {
+                "text": ", it also has drawbacks, most notably "
+              },
+              {
+                "slot": "main disadvantage"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Advantages + example",
+            "segments": [
+              {
+                "text": "The most significant advantage of "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": " is that "
+              },
+              {
+                "slot": "advantage 1"
+              },
+              {
+                "text": ". For instance, "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": ", which means that "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": ". A further benefit is that "
+              },
+              {
+                "slot": "advantage 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Disadvantages + example",
+            "segments": [
+              {
+                "text": "On the other hand, there are some notable drawbacks. The main one is that "
+              },
+              {
+                "slot": "disadvantage 1"
+              },
+              {
+                "text": ". This can be seen in "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": ", where "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": ". In addition, "
+              },
+              {
+                "slot": "disadvantage 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Summary + your view",
+            "segments": [
+              {
+                "text": "In conclusion, "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": " offers "
+              },
+              {
+                "slot": "advantages in brief"
+              },
+              {
+                "text": ", but it also causes "
+              },
+              {
+                "slot": "disadvantages in brief"
+              },
+              {
+                "text": ". Overall, I believe the "
+              },
+              {
+                "slot": "advantages / disadvantages"
+              },
+              {
+                "text": " are more significant because "
+              },
+              {
+                "slot": "final reason"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_problem",
+        "type": "Problem–solution",
+        "variant": "Standard",
+        "title": "Task 2 · Problem & solution",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + outline",
+            "segments": [
+              {
+                "text": "In recent years, "
+              },
+              {
+                "slot": "issue"
+              },
+              {
+                "text": " has become a serious concern in many countries. This essay will examine the main causes of this problem and suggest "
+              },
+              {
+                "slot": "number"
+              },
+              {
+                "text": " measures that could tackle it."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Problems / causes",
+            "segments": [
+              {
+                "text": "The principal cause of "
+              },
+              {
+                "slot": "issue"
+              },
+              {
+                "text": " is "
+              },
+              {
+                "slot": "cause 1"
+              },
+              {
+                "text": ". As a result, "
+              },
+              {
+                "slot": "effect"
+              },
+              {
+                "text": ". Another contributing factor is "
+              },
+              {
+                "slot": "cause 2"
+              },
+              {
+                "text": ", which means that "
+              },
+              {
+                "slot": "consequence"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Solutions + example",
+            "segments": [
+              {
+                "text": "Several steps could be taken to address this. Firstly, "
+              },
+              {
+                "slot": "who"
+              },
+              {
+                "text": " should "
+              },
+              {
+                "slot": "solution 1"
+              },
+              {
+                "text": ", which would "
+              },
+              {
+                "slot": "expected result"
+              },
+              {
+                "text": ". Secondly, "
+              },
+              {
+                "slot": "solution 2"
+              },
+              {
+                "text": ". For example, "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Restate + outlook",
+            "segments": [
+              {
+                "text": "In conclusion, "
+              },
+              {
+                "slot": "issue"
+              },
+              {
+                "text": " is mainly caused by "
+              },
+              {
+                "slot": "causes in brief"
+              },
+              {
+                "text": ". If "
+              },
+              {
+                "slot": "solutions in brief"
+              },
+              {
+                "text": " are introduced, the situation is likely to improve considerably."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_two_part",
+        "type": "Two-part",
+        "variant": "Standard",
+        "title": "Task 2 · Two-part question",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + answer both questions",
+            "segments": [
+              {
+                "text": "Nowadays, "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": ". In my view, this is mainly because "
+              },
+              {
+                "slot": "answer to question 1"
+              },
+              {
+                "text": ", and I believe this is a "
+              },
+              {
+                "slot": "positive / negative"
+              },
+              {
+                "text": " development because "
+              },
+              {
+                "slot": "answer to question 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Question 1 + explanation",
+            "segments": [
+              {
+                "text": "There are several reasons why "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": ". The most important is that "
+              },
+              {
+                "slot": "reason 1"
+              },
+              {
+                "text": ". For example, "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": ". In addition, "
+              },
+              {
+                "slot": "reason 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Question 2 + explanation",
+            "segments": [
+              {
+                "text": "I consider this trend to be "
+              },
+              {
+                "slot": "positive / negative"
+              },
+              {
+                "text": " overall. This is because "
+              },
+              {
+                "slot": "main argument"
+              },
+              {
+                "text": ", which means that "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": ". A clear illustration of this is "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Restate both answers",
+            "segments": [
+              {
+                "text": "In conclusion, "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": " largely because "
+              },
+              {
+                "slot": "reason in brief"
+              },
+              {
+                "text": ", and I believe this is "
+              },
+              {
+                "slot": "positive / negative"
+              },
+              {
+                "text": " since "
+              },
+              {
+                "slot": "final thought"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_chart",
+        "type": "Task 1 chart",
+        "variant": "Any chart",
+        "title": "Task 1 · Chart, graph or table",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The "
+              },
+              {
+                "slot": "chart type"
+              },
+              {
+                "text": " illustrates "
+              },
+              {
+                "slot": "what is measured"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "place / groups"
+              },
+              {
+                "text": " between "
+              },
+              {
+                "slot": "start"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "end"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Main trends — no figures",
+            "segments": [
+              {
+                "text": "Overall, it is clear that "
+              },
+              {
+                "slot": "main trend"
+              },
+              {
+                "text": ", while "
+              },
+              {
+                "slot": "second key feature"
+              },
+              {
+                "text": ". "
+              },
+              {
+                "slot": "highest / lowest item"
+              },
+              {
+                "text": " remained the "
+              },
+              {
+                "slot": "largest / smallest"
+              },
+              {
+                "text": " throughout the period."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Key figures for group A",
+            "segments": [
+              {
+                "text": "In "
+              },
+              {
+                "slot": "start"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "item A"
+              },
+              {
+                "text": " stood at "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": ", before "
+              },
+              {
+                "slot": "rising / falling"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "steadily / sharply"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " by "
+              },
+              {
+                "slot": "year"
+              },
+              {
+                "text": ". Similarly, "
+              },
+              {
+                "slot": "item B"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "trend verb"
+              },
+              {
+                "text": " from "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Key figures for group B + comparison",
+            "segments": [
+              {
+                "text": "By contrast, "
+              },
+              {
+                "slot": "item C"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "trend verb"
+              },
+              {
+                "text": " over the period, reaching "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "end"
+              },
+              {
+                "text": ". "
+              },
+              {
+                "slot": "item D"
+              },
+              {
+                "text": ", meanwhile, remained relatively stable at around "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": ", which was "
+              },
+              {
+                "slot": "comparison"
+              },
+              {
+                "text": " than "
+              },
+              {
+                "slot": "item A"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_process",
+        "type": "Task 1 process",
+        "variant": "Standard",
+        "title": "Task 1 · Process diagram",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The diagram shows how "
+              },
+              {
+                "slot": "product / natural process"
+              },
+              {
+                "text": " is "
+              },
+              {
+                "slot": "produced / formed"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Stages, start and end",
+            "segments": [
+              {
+                "text": "Overall, there are "
+              },
+              {
+                "slot": "number"
+              },
+              {
+                "text": " main stages in the process, beginning with "
+              },
+              {
+                "slot": "first stage"
+              },
+              {
+                "text": " and ending with "
+              },
+              {
+                "slot": "final stage"
+              },
+              {
+                "text": ". The process is "
+              },
+              {
+                "slot": "linear / cyclical"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "First half of the stages",
+            "segments": [
+              {
+                "text": "At the first stage, "
+              },
+              {
+                "slot": "raw material"
+              },
+              {
+                "text": " is "
+              },
+              {
+                "slot": "passive verb"
+              },
+              {
+                "text": ". Next, it is "
+              },
+              {
+                "slot": "passive verb"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "equipment / place"
+              },
+              {
+                "text": ", after which "
+              },
+              {
+                "slot": "stage 3"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Second half of the stages",
+            "segments": [
+              {
+                "text": "Following this, "
+              },
+              {
+                "slot": "stage 4"
+              },
+              {
+                "text": ". Once "
+              },
+              {
+                "slot": "condition"
+              },
+              {
+                "text": ", the "
+              },
+              {
+                "slot": "material"
+              },
+              {
+                "text": " is "
+              },
+              {
+                "slot": "passive verb"
+              },
+              {
+                "text": ". Finally, "
+              },
+              {
+                "slot": "final stage"
+              },
+              {
+                "text": ", and the "
+              },
+              {
+                "slot": "end product"
+              },
+              {
+                "text": " is ready to be "
+              },
+              {
+                "slot": "used / sold"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_map",
+        "type": "Task 1 map",
+        "variant": "Standard",
+        "title": "Task 1 · Maps",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The maps illustrate the changes that took place in "
+              },
+              {
+                "slot": "place"
+              },
+              {
+                "text": " between "
+              },
+              {
+                "slot": "year 1"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "year 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Biggest changes — no detail",
+            "segments": [
+              {
+                "text": "Overall, "
+              },
+              {
+                "slot": "place"
+              },
+              {
+                "text": " became more "
+              },
+              {
+                "slot": "developed / residential / commercial"
+              },
+              {
+                "text": ", with "
+              },
+              {
+                "slot": "main change"
+              },
+              {
+                "text": " and the loss of "
+              },
+              {
+                "slot": "feature removed"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "North / west changes",
+            "segments": [
+              {
+                "text": "In the "
+              },
+              {
+                "slot": "north / west"
+              },
+              {
+                "text": ", the "
+              },
+              {
+                "slot": "original feature"
+              },
+              {
+                "text": " was "
+              },
+              {
+                "slot": "demolished / replaced / extended"
+              },
+              {
+                "text": " to make way for "
+              },
+              {
+                "slot": "new feature"
+              },
+              {
+                "text": ". Next to this, "
+              },
+              {
+                "slot": "second change"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "South / east changes",
+            "segments": [
+              {
+                "text": "Meanwhile, in the "
+              },
+              {
+                "slot": "south / east"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "feature"
+              },
+              {
+                "text": " was "
+              },
+              {
+                "slot": "converted / relocated"
+              },
+              {
+                "text": " into "
+              },
+              {
+                "slot": "new feature"
+              },
+              {
+                "text": ", while "
+              },
+              {
+                "slot": "unchanged feature"
+              },
+              {
+                "text": " remained unchanged."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_opinion_agree",
+        "type": "Opinion",
+        "variant": "Strongly agree",
+        "title": "Task 2 · Opinion essay (strongly agree)",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + clear position",
+            "segments": [
+              {
+                "text": "It is widely believed that "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": ". I completely agree with this view, as "
+              },
+              {
+                "slot": "reason 1"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "reason 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Reason 1 → explain → example",
+            "segments": [
+              {
+                "text": "Firstly, "
+              },
+              {
+                "slot": "reason 1"
+              },
+              {
+                "text": ". This is because "
+              },
+              {
+                "slot": "explanation"
+              },
+              {
+                "text": ". A good example of this is "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": ", where "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": ". Therefore, "
+              },
+              {
+                "slot": "link back to your opinion"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Reason 2 → explain → example",
+            "segments": [
+              {
+                "text": "Secondly, "
+              },
+              {
+                "slot": "reason 2"
+              },
+              {
+                "text": ". If "
+              },
+              {
+                "slot": "condition"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "consequence"
+              },
+              {
+                "text": ". For instance, in "
+              },
+              {
+                "slot": "country / place"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": ", which clearly shows that "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Restate + final thought",
+            "segments": [
+              {
+                "text": "In conclusion, I strongly agree that "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": ", because "
+              },
+              {
+                "slot": "reason 1 in brief"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "reason 2 in brief"
+              },
+              {
+                "text": ". "
+              },
+              {
+                "slot": "recommendation or prediction"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_opinion_partly",
+        "type": "Opinion",
+        "variant": "Partly agree",
+        "title": "Task 2 · Opinion essay (partly agree)",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + balanced position",
+            "segments": [
+              {
+                "text": "Some people argue that "
+              },
+              {
+                "slot": "statement"
+              },
+              {
+                "text": ". While I accept that this is true to some extent, I believe that "
+              },
+              {
+                "slot": "your limit / exception"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Where you agree",
+            "segments": [
+              {
+                "text": "On the one hand, it is true that "
+              },
+              {
+                "slot": "point you accept"
+              },
+              {
+                "text": ". This is because "
+              },
+              {
+                "slot": "explanation"
+              },
+              {
+                "text": ". For example, "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Where you disagree",
+            "segments": [
+              {
+                "text": "On the other hand, I do not believe that "
+              },
+              {
+                "slot": "part you reject"
+              },
+              {
+                "text": ". Although "
+              },
+              {
+                "slot": "concession"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "counter-argument"
+              },
+              {
+                "text": ". A clear illustration of this is "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": ", which shows that "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Your balanced view",
+            "segments": [
+              {
+                "text": "In conclusion, although "
+              },
+              {
+                "slot": "point you accept"
+              },
+              {
+                "text": ", I believe that "
+              },
+              {
+                "slot": "your overall view"
+              },
+              {
+                "text": ", because "
+              },
+              {
+                "slot": "final reason"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_discussion_detail",
+        "type": "Discussion",
+        "variant": "Detailed",
+        "title": "Task 2 · Discussion essay (detailed)",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase both views + your opinion",
+            "segments": [
+              {
+                "text": "People hold different views about "
+              },
+              {
+                "slot": "topic"
+              },
+              {
+                "text": ". While some argue that "
+              },
+              {
+                "slot": "view A"
+              },
+              {
+                "text": ", others believe that "
+              },
+              {
+                "slot": "view B"
+              },
+              {
+                "text": ". Personally, I side with the view that "
+              },
+              {
+                "slot": "your opinion"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "View A → reasons → example",
+            "segments": [
+              {
+                "text": "Those who support the idea that "
+              },
+              {
+                "slot": "view A"
+              },
+              {
+                "text": " have several reasons. Firstly, "
+              },
+              {
+                "slot": "reason 1"
+              },
+              {
+                "text": ". In addition, "
+              },
+              {
+                "slot": "reason 2"
+              },
+              {
+                "text": ". For example, "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": ", which suggests that "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "View B (your side) → reasons → example",
+            "segments": [
+              {
+                "text": "However, I believe there are stronger arguments for "
+              },
+              {
+                "slot": "view B"
+              },
+              {
+                "text": ". The main one is that "
+              },
+              {
+                "slot": "reason 3"
+              },
+              {
+                "text": ", which means that "
+              },
+              {
+                "slot": "consequence"
+              },
+              {
+                "text": ". Moreover, "
+              },
+              {
+                "slot": "reason 4"
+              },
+              {
+                "text": ". This can be seen in "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Summarise both + your view",
+            "segments": [
+              {
+                "text": "In conclusion, although there are good reasons why "
+              },
+              {
+                "slot": "view A"
+              },
+              {
+                "text": ", I believe that "
+              },
+              {
+                "slot": "view B"
+              },
+              {
+                "text": " because "
+              },
+              {
+                "slot": "final reason"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_advantages_outweigh",
+        "type": "Advantages",
+        "variant": "Advantages outweigh",
+        "title": "Task 2 · Do the advantages outweigh the disadvantages?",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + clear answer",
+            "segments": [
+              {
+                "text": "In many countries, "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": " is becoming more common. Although this has some drawbacks, I believe that its benefits clearly outweigh them."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "The disadvantage (concede first)",
+            "segments": [
+              {
+                "text": "Admittedly, "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": " can have negative effects. The most obvious is that "
+              },
+              {
+                "slot": "disadvantage"
+              },
+              {
+                "text": ", which may lead to "
+              },
+              {
+                "slot": "consequence"
+              },
+              {
+                "text": ". However, this problem can be reduced if "
+              },
+              {
+                "slot": "solution"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "The stronger advantages",
+            "segments": [
+              {
+                "text": "Nevertheless, the advantages are far more significant. Firstly, "
+              },
+              {
+                "slot": "advantage 1"
+              },
+              {
+                "text": ", which means that "
+              },
+              {
+                "slot": "result"
+              },
+              {
+                "text": ". Secondly, "
+              },
+              {
+                "slot": "advantage 2"
+              },
+              {
+                "text": ". For example, "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Restate your answer",
+            "segments": [
+              {
+                "text": "In conclusion, while "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": " has some disadvantages such as "
+              },
+              {
+                "slot": "disadvantage in brief"
+              },
+              {
+                "text": ", I believe these are outweighed by "
+              },
+              {
+                "slot": "advantages in brief"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_advantages_dis",
+        "type": "Advantages",
+        "variant": "Disadvantages outweigh",
+        "title": "Task 2 · Disadvantages outweigh the advantages",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + clear answer",
+            "segments": [
+              {
+                "text": "These days, "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": ". Although this development offers some benefits, I believe the drawbacks are more significant."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "The advantage (concede first)",
+            "segments": [
+              {
+                "text": "It is true that "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": " has certain advantages. The main one is that "
+              },
+              {
+                "slot": "advantage"
+              },
+              {
+                "text": ", which allows "
+              },
+              {
+                "slot": "group"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "benefit"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "The stronger disadvantages",
+            "segments": [
+              {
+                "text": "However, the disadvantages are more serious. Firstly, "
+              },
+              {
+                "slot": "disadvantage 1"
+              },
+              {
+                "text": ", which can result in "
+              },
+              {
+                "slot": "consequence"
+              },
+              {
+                "text": ". Furthermore, "
+              },
+              {
+                "slot": "disadvantage 2"
+              },
+              {
+                "text": ". A clear example of this is "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Restate your answer",
+            "segments": [
+              {
+                "text": "In conclusion, although "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": " brings "
+              },
+              {
+                "slot": "advantage in brief"
+              },
+              {
+                "text": ", I believe its negative effects, such as "
+              },
+              {
+                "slot": "disadvantages in brief"
+              },
+              {
+                "text": ", outweigh this benefit."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_problem_who",
+        "type": "Problem–solution",
+        "variant": "Causes + who should act",
+        "title": "Task 2 · Causes and solutions (who should act)",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + outline",
+            "segments": [
+              {
+                "slot": "issue"
+              },
+              {
+                "text": " has become a growing problem in recent years. This essay will discuss why this is happening and what governments and individuals can do about it."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Two causes + effect",
+            "segments": [
+              {
+                "text": "There are two main reasons for this problem. The first is "
+              },
+              {
+                "slot": "cause 1"
+              },
+              {
+                "text": ", which leads to "
+              },
+              {
+                "slot": "effect 1"
+              },
+              {
+                "text": ". The second is "
+              },
+              {
+                "slot": "cause 2"
+              },
+              {
+                "text": ". As a result, "
+              },
+              {
+                "slot": "effect 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Government + individual solutions",
+            "segments": [
+              {
+                "text": "To tackle this issue, governments should "
+              },
+              {
+                "slot": "government action"
+              },
+              {
+                "text": ", for example by "
+              },
+              {
+                "slot": "specific policy"
+              },
+              {
+                "text": ". At the same time, individuals can "
+              },
+              {
+                "slot": "individual action"
+              },
+              {
+                "text": ", which would help to "
+              },
+              {
+                "slot": "expected result"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Restate + outlook",
+            "segments": [
+              {
+                "text": "In conclusion, "
+              },
+              {
+                "slot": "issue"
+              },
+              {
+                "text": " is mainly caused by "
+              },
+              {
+                "slot": "causes in brief"
+              },
+              {
+                "text": ". However, if both governments and individuals take action, such as "
+              },
+              {
+                "slot": "solutions in brief"
+              },
+              {
+                "text": ", the problem can be reduced."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_two_part_why",
+        "type": "Two-part",
+        "variant": "Why + what effects",
+        "title": "Task 2 · Two-part question (causes and effects)",
+        "task": "task2",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase + answer both parts",
+            "segments": [
+              {
+                "text": "It is increasingly common for "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": ". This is mainly due to "
+              },
+              {
+                "slot": "main cause"
+              },
+              {
+                "text": ", and it has a number of effects on "
+              },
+              {
+                "slot": "group / society"
+              },
+              {
+                "text": ", both positive and negative."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Answer question 1 (causes)",
+            "segments": [
+              {
+                "text": "There are several reasons for this trend. The most important is that "
+              },
+              {
+                "slot": "cause 1"
+              },
+              {
+                "text": ". Furthermore, "
+              },
+              {
+                "slot": "cause 2"
+              },
+              {
+                "text": ", especially among "
+              },
+              {
+                "slot": "group"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Answer question 2 (effects)",
+            "segments": [
+              {
+                "text": "This trend has had significant effects. On the positive side, "
+              },
+              {
+                "slot": "positive effect"
+              },
+              {
+                "text": ". However, "
+              },
+              {
+                "slot": "negative effect"
+              },
+              {
+                "text": ", which means that "
+              },
+              {
+                "slot": "consequence"
+              },
+              {
+                "text": ". For instance, "
+              },
+              {
+                "slot": "specific example"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "subtitle": "Restate both answers",
+            "segments": [
+              {
+                "text": "In conclusion, "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": " is mainly the result of "
+              },
+              {
+                "slot": "causes in brief"
+              },
+              {
+                "text": ". While it has brought "
+              },
+              {
+                "slot": "positive effect in brief"
+              },
+              {
+                "text": ", it has also led to "
+              },
+              {
+                "slot": "negative effect in brief"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_line",
+        "type": "Task 1 line",
+        "variant": "Standard",
+        "title": "Task 1 · Line graph",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The line graph compares "
+              },
+              {
+                "slot": "what is measured"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "places / groups"
+              },
+              {
+                "text": " from "
+              },
+              {
+                "slot": "start year"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "end year"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Main trends + highest line — no figures",
+            "segments": [
+              {
+                "text": "Overall, "
+              },
+              {
+                "slot": "item A"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "increased / decreased"
+              },
+              {
+                "text": " significantly over the period, whereas "
+              },
+              {
+                "slot": "item B"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": ". "
+              },
+              {
+                "slot": "item with highest figures"
+              },
+              {
+                "text": " had the highest "
+              },
+              {
+                "slot": "figures / rates"
+              },
+              {
+                "text": " for most of the period."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Item A in detail",
+            "segments": [
+              {
+                "text": "In "
+              },
+              {
+                "slot": "start year"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "item A"
+              },
+              {
+                "text": " stood at "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": ". It then "
+              },
+              {
+                "slot": "rose / fell"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "gradually / sharply"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "middle year"
+              },
+              {
+                "text": ", before "
+              },
+              {
+                "slot": "peaking / levelling off"
+              },
+              {
+                "text": " at "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "end year"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Other items + comparison",
+            "segments": [
+              {
+                "slot": "item B"
+              },
+              {
+                "text": ", on the other hand, started at "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "trend verb"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " by "
+              },
+              {
+                "slot": "end year"
+              },
+              {
+                "text": ". "
+              },
+              {
+                "slot": "item C"
+              },
+              {
+                "text": " fluctuated between "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": ", overtaking "
+              },
+              {
+                "slot": "item B"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "year"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_bar",
+        "type": "Task 1 bar",
+        "variant": "Standard",
+        "title": "Task 1 · Bar chart",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The bar chart shows "
+              },
+              {
+                "slot": "what is measured"
+              },
+              {
+                "text": " for "
+              },
+              {
+                "slot": "categories"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "place / year(s)"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Biggest and smallest + main pattern",
+            "segments": [
+              {
+                "text": "Overall, "
+              },
+              {
+                "slot": "category with most"
+              },
+              {
+                "text": " accounted for the largest "
+              },
+              {
+                "slot": "number / proportion"
+              },
+              {
+                "text": ", while "
+              },
+              {
+                "slot": "category with least"
+              },
+              {
+                "text": " was the least "
+              },
+              {
+                "slot": "popular / common"
+              },
+              {
+                "text": ". It is also noticeable that "
+              },
+              {
+                "slot": "main pattern"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "The largest categories",
+            "segments": [
+              {
+                "slot": "category 1"
+              },
+              {
+                "text": " was the highest, at "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": ", followed by "
+              },
+              {
+                "slot": "category 2"
+              },
+              {
+                "text": " with "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": ". This was "
+              },
+              {
+                "slot": "almost twice / significantly more than"
+              },
+              {
+                "text": " the figure for "
+              },
+              {
+                "slot": "category 3"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "The smaller categories + comparison",
+            "segments": [
+              {
+                "text": "By contrast, "
+              },
+              {
+                "slot": "category 4"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "category 5"
+              },
+              {
+                "text": " had much lower figures, at "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " respectively. "
+              },
+              {
+                "slot": "comparison between groups, e.g. men and women"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_pie",
+        "type": "Task 1 pie",
+        "variant": "Standard",
+        "title": "Task 1 · Pie charts",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The pie charts illustrate the proportion of "
+              },
+              {
+                "slot": "what is measured"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "place"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "year 1"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "year 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Largest share + biggest change",
+            "segments": [
+              {
+                "text": "Overall, "
+              },
+              {
+                "slot": "largest category"
+              },
+              {
+                "text": " made up the largest share in both years, while the proportion of "
+              },
+              {
+                "slot": "category"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "rose / fell"
+              },
+              {
+                "text": " the most over the period."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Largest shares",
+            "segments": [
+              {
+                "text": "In "
+              },
+              {
+                "slot": "year 1"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "category A"
+              },
+              {
+                "text": " accounted for "
+              },
+              {
+                "slot": "percentage"
+              },
+              {
+                "text": ", which was "
+              },
+              {
+                "slot": "slightly more / considerably more"
+              },
+              {
+                "text": " than "
+              },
+              {
+                "slot": "category B"
+              },
+              {
+                "text": ", at "
+              },
+              {
+                "slot": "percentage"
+              },
+              {
+                "text": ". By "
+              },
+              {
+                "slot": "year 2"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "category A"
+              },
+              {
+                "text": " had "
+              },
+              {
+                "slot": "grown / shrunk"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "percentage"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Smaller shares + changes",
+            "segments": [
+              {
+                "text": "The remaining categories were much smaller. "
+              },
+              {
+                "slot": "category C"
+              },
+              {
+                "text": " made up just "
+              },
+              {
+                "slot": "percentage"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "year 1"
+              },
+              {
+                "text": ", but this figure "
+              },
+              {
+                "slot": "doubled / halved"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "percentage"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "year 2"
+              },
+              {
+                "text": ", whereas "
+              },
+              {
+                "slot": "category D"
+              },
+              {
+                "text": " remained unchanged at "
+              },
+              {
+                "slot": "percentage"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_table",
+        "type": "Task 1 table",
+        "variant": "Standard",
+        "title": "Task 1 · Table",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The table gives information about "
+              },
+              {
+                "slot": "what is measured"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "number"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "countries / groups"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "year / period"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Highest, lowest + main contrast",
+            "segments": [
+              {
+                "text": "Overall, "
+              },
+              {
+                "slot": "country A"
+              },
+              {
+                "text": " had the highest figures for "
+              },
+              {
+                "slot": "measure"
+              },
+              {
+                "text": ", whereas "
+              },
+              {
+                "slot": "country B"
+              },
+              {
+                "text": " recorded the lowest. In addition, "
+              },
+              {
+                "slot": "main contrast between columns"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Highest rows in detail",
+            "segments": [
+              {
+                "slot": "country A"
+              },
+              {
+                "text": " recorded "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " for "
+              },
+              {
+                "slot": "measure 1"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " for "
+              },
+              {
+                "slot": "measure 2"
+              },
+              {
+                "text": ", the highest figures in the table. "
+              },
+              {
+                "slot": "country C"
+              },
+              {
+                "text": " was in second place, with "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " respectively."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Lowest rows + comparison",
+            "segments": [
+              {
+                "text": "At the other end of the scale, "
+              },
+              {
+                "slot": "country B"
+              },
+              {
+                "text": " had only "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " for "
+              },
+              {
+                "slot": "measure 1"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "less than half / a quarter of"
+              },
+              {
+                "text": " that of "
+              },
+              {
+                "slot": "country A"
+              },
+              {
+                "text": ". The figures for "
+              },
+              {
+                "slot": "country D"
+              },
+              {
+                "text": " and "
+              },
+              {
+                "slot": "country E"
+              },
+              {
+                "text": " were similar, at around "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_mixed",
+        "type": "Task 1 mixed",
+        "variant": "Standard",
+        "title": "Task 1 · Two different charts",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase both charts",
+            "segments": [
+              {
+                "text": "The "
+              },
+              {
+                "slot": "chart 1 type"
+              },
+              {
+                "text": " shows "
+              },
+              {
+                "slot": "what chart 1 measures"
+              },
+              {
+                "text": ", while the "
+              },
+              {
+                "slot": "chart 2 type"
+              },
+              {
+                "text": " illustrates "
+              },
+              {
+                "slot": "what chart 2 measures"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "One key point from each chart",
+            "segments": [
+              {
+                "text": "Overall, "
+              },
+              {
+                "slot": "main trend in chart 1"
+              },
+              {
+                "text": ". In terms of "
+              },
+              {
+                "slot": "chart 2 topic"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "main feature of chart 2"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Chart 1 in detail",
+            "segments": [
+              {
+                "text": "According to the "
+              },
+              {
+                "slot": "chart 1 type"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "item"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "trend verb"
+              },
+              {
+                "text": " from "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "year"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": " in "
+              },
+              {
+                "slot": "year"
+              },
+              {
+                "text": ". Meanwhile, "
+              },
+              {
+                "slot": "item 2"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "trend"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Chart 2 in detail + link",
+            "segments": [
+              {
+                "text": "The "
+              },
+              {
+                "slot": "chart 2 type"
+              },
+              {
+                "text": " shows that "
+              },
+              {
+                "slot": "largest category"
+              },
+              {
+                "text": " accounted for "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": ", followed by "
+              },
+              {
+                "slot": "category"
+              },
+              {
+                "text": " at "
+              },
+              {
+                "slot": "figure"
+              },
+              {
+                "text": ". "
+              },
+              {
+                "slot": "link between the two charts, if there is one"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_cycle",
+        "type": "Task 1 process",
+        "variant": "Natural cycle",
+        "title": "Task 1 · Natural cycle / life cycle",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The diagram illustrates the "
+              },
+              {
+                "slot": "life cycle of a / natural cycle of"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "subject"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Number of stages + cycle",
+            "segments": [
+              {
+                "text": "Overall, there are "
+              },
+              {
+                "slot": "number"
+              },
+              {
+                "text": " distinct stages in this cycle, from "
+              },
+              {
+                "slot": "first stage"
+              },
+              {
+                "text": " to "
+              },
+              {
+                "slot": "final stage"
+              },
+              {
+                "text": ", after which the cycle "
+              },
+              {
+                "slot": "begins again / repeats"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "First stages (active verbs)",
+            "segments": [
+              {
+                "text": "The cycle begins when "
+              },
+              {
+                "slot": "subject"
+              },
+              {
+                "text": " "
+              },
+              {
+                "slot": "first action"
+              },
+              {
+                "text": ". Over the next "
+              },
+              {
+                "slot": "time period"
+              },
+              {
+                "text": ", it "
+              },
+              {
+                "slot": "develops / grows / changes"
+              },
+              {
+                "text": " into "
+              },
+              {
+                "slot": "stage 2"
+              },
+              {
+                "text": ", during which "
+              },
+              {
+                "slot": "detail"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Later stages + return to start",
+            "segments": [
+              {
+                "text": "Following this, "
+              },
+              {
+                "slot": "stage 3"
+              },
+              {
+                "text": ". Eventually, "
+              },
+              {
+                "slot": "final stage"
+              },
+              {
+                "text": ", and "
+              },
+              {
+                "slot": "how the cycle starts again"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tpl_task1_map_future",
+        "type": "Task 1 map",
+        "variant": "Proposed plan",
+        "title": "Task 1 · Maps (present vs proposed plan)",
+        "task": "task1",
+        "sections": [
+          {
+            "title": "Introduction",
+            "subtitle": "Paraphrase the task",
+            "segments": [
+              {
+                "text": "The maps show "
+              },
+              {
+                "slot": "place"
+              },
+              {
+                "text": " at present and the proposed changes planned for "
+              },
+              {
+                "slot": "year / the future"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Overview",
+            "subtitle": "Biggest planned changes",
+            "segments": [
+              {
+                "text": "Overall, the plan will make "
+              },
+              {
+                "slot": "place"
+              },
+              {
+                "text": " more "
+              },
+              {
+                "slot": "modern / accessible / residential"
+              },
+              {
+                "text": ", with the addition of "
+              },
+              {
+                "slot": "main new feature"
+              },
+              {
+                "text": " and the removal of "
+              },
+              {
+                "slot": "feature removed"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 1",
+            "subtitle": "Changes in one area (future forms)",
+            "segments": [
+              {
+                "text": "In the "
+              },
+              {
+                "slot": "north / west"
+              },
+              {
+                "text": ", the existing "
+              },
+              {
+                "slot": "feature"
+              },
+              {
+                "text": " will be "
+              },
+              {
+                "slot": "demolished / replaced / expanded"
+              },
+              {
+                "text": " to make way for "
+              },
+              {
+                "slot": "new feature"
+              },
+              {
+                "text": ". In addition, a new "
+              },
+              {
+                "slot": "feature"
+              },
+              {
+                "text": " is to be built "
+              },
+              {
+                "slot": "location"
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "title": "Body paragraph 2",
+            "subtitle": "Changes in another area + what stays",
+            "segments": [
+              {
+                "text": "In the "
+              },
+              {
+                "slot": "south / east"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "slot": "feature"
+              },
+              {
+                "text": " will be "
+              },
+              {
+                "slot": "converted / relocated"
+              },
+              {
+                "text": " into "
+              },
+              {
+                "slot": "new feature"
+              },
+              {
+                "text": ". However, "
+              },
+              {
+                "slot": "unchanged feature"
+              },
+              {
+                "text": " will remain as it is."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ideas": {
+    "selected": "Environment"
+  },
+  "loading": {
+    "stepMillis": 1400,
+    "steps": [
+      {
+        "key": "tr",
+        "title": "Task Response",
+        "detail": "Position and ideas checked"
+      },
+      {
+        "key": "cc",
+        "title": "Coherence & Cohesion",
+        "detail": "Paragraphs and linking"
+      },
+      {
+        "key": "lr",
+        "title": "Lexical Resource",
+        "detail": "Checking word choice"
+      },
+      {
+        "key": "gra",
+        "title": "Grammatical Range & Accuracy",
+        "detail": "Sentence variety and errors"
+      }
+    ],
+    "tipBefore": "While you wait: examiners reward a clear position in the introduction ",
+    "tipEmphasis": "and",
+    "tipAfter": " the conclusion."
+  },
+  "sampleAnswers": {
+    "promptId": "t2_remote_work",
+    "answers": [
+      {
+        "band": "Band 6",
+        "words": 262,
+        "paragraphs": [
+          [
+            {
+              "text": "Nowadays many people work from home instead of going to the office. "
+            },
+            {
+              "text": "I think",
+              "mark": "link"
+            },
+            {
+              "text": " this is good for workers and also for companies, but there are some problems too."
+            }
+          ],
+          [
+            {
+              "text": "Firstly,",
+              "mark": "link"
+            },
+            {
+              "text": " workers do not need to travel, so they save time and money. "
+            },
+            {
+              "text": "Also,",
+              "mark": "link"
+            },
+            {
+              "text": " companies can pay less for offices…"
+            }
+          ]
+        ],
+        "why": "Clear position · relevant main ideas · simple, sometimes repetitive linking · limited range of vocabulary and some grammar errors."
+      },
+      {
+        "band": "Band 7",
+        "words": 276,
+        "paragraphs": [
+          [
+            {
+              "text": "In recent years, working from home has become far more common. "
+            },
+            {
+              "text": "In my opinion,",
+              "mark": "link"
+            },
+            {
+              "text": " it brings real benefits to both employees and employers, although it has some disadvantages."
+            }
+          ],
+          [
+            {
+              "text": "Firstly,",
+              "mark": "link"
+            },
+            {
+              "text": " employees avoid long commutes, which gives them more time for rest. "
+            },
+            {
+              "text": "In addition,",
+              "mark": "link"
+            },
+            {
+              "text": " businesses can reduce the cost of renting office space…"
+            }
+          ]
+        ],
+        "why": "Clear position throughout · logical paragraphs with a range of linkers · good vocabulary with some less common words · mostly accurate complex sentences."
+      }
+    ],
+    "modelWhy": {
+      "task1": "Clear overview of the main trends · key features selected and compared with accurate figures · logical paragraphs with varied linking · precise, less common vocabulary for describing change.",
+      "task2": "Clear position from the first paragraph · each main idea developed with a relevant example · varied, natural linking · precise vocabulary and a wide range of accurate complex sentences."
+    }
+  }
+}

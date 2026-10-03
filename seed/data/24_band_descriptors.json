@@ -1,0 +1,1014 @@
+{
+  "table": "band_descriptors",
+  "items": [
+    {
+      "key": "listening",
+      "name": "Listening",
+      "intro": "Listening has 40 questions, one mark each. Your raw score is converted to a band. Academic and General Training use the same test and the same scale.",
+      "criteria": {
+        "facts": [
+          {
+            "label": "Parts",
+            "value": "4"
+          },
+          {
+            "label": "Questions",
+            "value": "40"
+          },
+          {
+            "label": "Audio",
+            "value": "≈30 min"
+          },
+          {
+            "label": "Played",
+            "value": "Once only"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "parts",
+            "title": "The four parts",
+            "items": [
+              {
+                "label": "Part 1",
+                "title": "Everyday conversation",
+                "text": "Two people in a social situation, e.g. booking or registering. Easiest part."
+              },
+              {
+                "label": "Part 2",
+                "title": "Everyday monologue",
+                "text": "One speaker on a social topic, e.g. a guided tour or announcement."
+              },
+              {
+                "label": "Part 3",
+                "title": "Study conversation",
+                "text": "Up to four people in an educational or training context, e.g. students and a tutor."
+              },
+              {
+                "label": "Part 4",
+                "title": "Academic lecture",
+                "text": "One speaker on an academic subject. Hardest part."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "title": "Raw score to band",
+            "columns": [
+              "Correct answers",
+              "Band"
+            ],
+            "rows": [
+              [
+                "39–40",
+                "9.0"
+              ],
+              [
+                "37–38",
+                "8.5"
+              ],
+              [
+                "35–36",
+                "8.0"
+              ],
+              [
+                "32–34",
+                "7.5"
+              ],
+              [
+                "30–31",
+                "7.0"
+              ],
+              [
+                "26–29",
+                "6.5"
+              ],
+              [
+                "23–25",
+                "6.0"
+              ],
+              [
+                "18–22",
+                "5.5"
+              ],
+              [
+                "16–17",
+                "5.0"
+              ],
+              [
+                "13–15",
+                "4.5"
+              ],
+              [
+                "11–12",
+                "4.0"
+              ],
+              [
+                "8–10",
+                "3.5"
+              ],
+              [
+                "6–7",
+                "3.0"
+              ],
+              [
+                "4–5",
+                "2.5"
+              ]
+            ],
+            "note": "Approximate: the official conversion shifts slightly from test to test. The app uses this table for your practice scores."
+          },
+          {
+            "type": "bullets",
+            "title": "What Listening tests",
+            "items": [
+              "Main ideas and specific facts",
+              "Opinions, attitudes and a speaker's purpose",
+              "Following how an argument develops",
+              "Recognising paraphrase: the question rarely uses the speaker's words",
+              "Telling apart similar-sounding information and corrections"
+            ]
+          },
+          {
+            "type": "chips",
+            "title": "Question types",
+            "items": [
+              "Multiple choice",
+              "Matching",
+              "Map / plan / diagram labelling",
+              "Form completion",
+              "Note completion",
+              "Table completion",
+              "Flow-chart completion",
+              "Summary completion",
+              "Sentence completion",
+              "Short answer"
+            ]
+          },
+          {
+            "type": "note",
+            "title": "How answers are marked",
+            "items": [
+              "No penalty for wrong answers, so never leave a blank.",
+              "Spelling must be correct; a missing plural -s can make an answer wrong.",
+              "Going over the word limit (e.g. NO MORE THAN TWO WORDS) makes the answer wrong.",
+              "Paper test: 10 minutes to transfer answers. Computer test: 2 minutes to check."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "key": "reading",
+      "name": "Reading",
+      "intro": "Reading has 40 questions, one mark each. Academic and General Training use different passages and different conversion tables.",
+      "criteria": {
+        "facts": [
+          {
+            "label": "Passages",
+            "value": "3"
+          },
+          {
+            "label": "Questions",
+            "value": "40"
+          },
+          {
+            "label": "Time",
+            "value": "60 min"
+          },
+          {
+            "label": "Transfer time",
+            "value": "None"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "table",
+            "title": "Academic: raw score to band",
+            "columns": [
+              "Correct answers",
+              "Band"
+            ],
+            "rows": [
+              [
+                "39–40",
+                "9.0"
+              ],
+              [
+                "37–38",
+                "8.5"
+              ],
+              [
+                "35–36",
+                "8.0"
+              ],
+              [
+                "33–34",
+                "7.5"
+              ],
+              [
+                "30–32",
+                "7.0"
+              ],
+              [
+                "27–29",
+                "6.5"
+              ],
+              [
+                "23–26",
+                "6.0"
+              ],
+              [
+                "19–22",
+                "5.5"
+              ],
+              [
+                "15–18",
+                "5.0"
+              ],
+              [
+                "13–14",
+                "4.5"
+              ],
+              [
+                "10–12",
+                "4.0"
+              ],
+              [
+                "8–9",
+                "3.5"
+              ],
+              [
+                "6–7",
+                "3.0"
+              ],
+              [
+                "4–5",
+                "2.5"
+              ]
+            ],
+            "note": "Approximate: the official conversion shifts slightly from test to test. The app uses this table for your practice scores."
+          },
+          {
+            "type": "table",
+            "title": "General Training: raw score to band",
+            "columns": [
+              "Correct answers",
+              "Band"
+            ],
+            "rows": [
+              [
+                "40",
+                "9.0"
+              ],
+              [
+                "39",
+                "8.5"
+              ],
+              [
+                "37–38",
+                "8.0"
+              ],
+              [
+                "36",
+                "7.5"
+              ],
+              [
+                "34–35",
+                "7.0"
+              ],
+              [
+                "32–33",
+                "6.5"
+              ],
+              [
+                "30–31",
+                "6.0"
+              ],
+              [
+                "27–29",
+                "5.5"
+              ],
+              [
+                "23–26",
+                "5.0"
+              ],
+              [
+                "19–22",
+                "4.5"
+              ],
+              [
+                "15–18",
+                "4.0"
+              ],
+              [
+                "12–14",
+                "3.5"
+              ],
+              [
+                "9–11",
+                "3.0"
+              ],
+              [
+                "6–8",
+                "2.5"
+              ]
+            ],
+            "note": "General Training needs more correct answers for the same band because its texts are easier."
+          },
+          {
+            "type": "bullets",
+            "title": "What Reading tests",
+            "items": [
+              "Skimming for the general meaning and structure",
+              "Scanning for specific information",
+              "Main ideas and supporting details",
+              "Following a logical argument",
+              "Recognising the writer's opinions, attitudes and claims",
+              "Vocabulary in context and paraphrase",
+              "Relationships between ideas"
+            ]
+          },
+          {
+            "type": "chips",
+            "title": "Question types",
+            "items": [
+              "Multiple choice",
+              "True / False / Not Given",
+              "Yes / No / Not Given",
+              "Matching information",
+              "Matching headings",
+              "Matching features",
+              "Matching sentence endings",
+              "Sentence completion",
+              "Summary / note / table completion",
+              "Flow-chart completion",
+              "Diagram labelling",
+              "Short answer"
+            ]
+          },
+          {
+            "type": "note",
+            "title": "How answers are marked",
+            "items": [
+              "No penalty for wrong answers, so never leave a blank.",
+              "There is no extra time to transfer answers: write them on the answer sheet as you go.",
+              "Academic texts come from books, journals, magazines and newspapers, written for a non-specialist reader."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "key": "writing",
+      "name": "Writing",
+      "intro": "An examiner marks each task on four criteria, each worth 25% of that task's band. Task 2 counts twice as much as Task 1.",
+      "criteria": {
+        "facts": [
+          {
+            "label": "Tasks",
+            "value": "2"
+          },
+          {
+            "label": "Time",
+            "value": "60 min"
+          },
+          {
+            "label": "Task 1",
+            "value": "150+ words"
+          },
+          {
+            "label": "Task 2",
+            "value": "250+ words"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "table",
+            "title": "How the Writing band is made",
+            "columns": [
+              "Part",
+              "Weight"
+            ],
+            "rows": [
+              [
+                "Task 1 (≈20 min)",
+                "⅓"
+              ],
+              [
+                "Task 2 (≈40 min)",
+                "⅔"
+              ]
+            ],
+            "note": "Writing band = (Task 1 + 2 × Task 2) ÷ 3, rounded to the nearest half band. Example: Task 1 = 6.0 and Task 2 = 7.0 → (6 + 14) ÷ 3 = 6.67 → 6.5."
+          },
+          {
+            "type": "chips",
+            "title": "Task 1 visuals",
+            "items": [
+              "Line graph",
+              "Bar chart",
+              "Pie chart",
+              "Table",
+              "Map",
+              "Process",
+              "Diagram",
+              "Mixed visuals"
+            ]
+          },
+          {
+            "type": "chips",
+            "title": "Task 2 essay types",
+            "items": [
+              "Opinion (agree / disagree)",
+              "Discussion + opinion",
+              "Advantages / disadvantages",
+              "Problem / solution",
+              "Causes / effects",
+              "Two-part question"
+            ]
+          },
+          {
+            "type": "criteria",
+            "title": "Criteria",
+            "subtitle": "Task Achievement is used for Task 1 and Task Response for Task 2. The other three apply to both tasks.",
+            "criteria": [
+              {
+                "name": "Task Achievement",
+                "color": "alert",
+                "focus": [
+                  "Answers exactly what the task asks",
+                  "Picks out the key features instead of listing every number",
+                  "Gives a clear overview of the main trends, differences or stages",
+                  "Supports the key features with accurate data",
+                  "At least 150 words"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "Fully meets the task. A clear, well-chosen overview, with the key features fully presented and illustrated."
+                  },
+                  {
+                    "band": 8,
+                    "text": "Covers every requirement well. Key features are clearly highlighted and well supported, with a clear overview."
+                  },
+                  {
+                    "band": 7,
+                    "text": "Covers the requirements. A clear overview of the main trends or differences; key features are highlighted but could be developed more."
+                  },
+                  {
+                    "band": 6,
+                    "text": "Addresses the task. An overview is attempted, but data may be listed mechanically, and some details are inaccurate or irrelevant."
+                  },
+                  {
+                    "band": 5,
+                    "text": "Only partly covers the task. No clear overview, details recounted mechanically, and key features not covered well; data may be missing."
+                  },
+                  {
+                    "band": 4,
+                    "text": "Attempts the task but misses or confuses the key features; much of the content is irrelevant or inaccurate."
+                  }
+                ],
+                "tag": "Task 1"
+              },
+              {
+                "name": "Task Response",
+                "color": "alert",
+                "focus": [
+                  "Answers every part of the question",
+                  "Keeps a clear position from start to finish",
+                  "Develops ideas: idea → explanation → example",
+                  "Stays relevant to the question",
+                  "At least 250 words"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "Fully answers every part of the question with a fully developed position and relevant, well-supported ideas."
+                  },
+                  {
+                    "band": 8,
+                    "text": "Answers every part well. Ideas are relevant, extended and supported, with only occasional gaps."
+                  },
+                  {
+                    "band": 7,
+                    "text": "Answers every part. A clear position throughout; main ideas are extended and supported, though some may over-generalise."
+                  },
+                  {
+                    "band": 6,
+                    "text": "Answers every part, some more fully than others. The position is relevant, but some ideas are underdeveloped or the conclusion is unclear."
+                  },
+                  {
+                    "band": 5,
+                    "text": "Answers the task only partly. The position is unclear at times; ideas are limited, underdeveloped or partly irrelevant."
+                  },
+                  {
+                    "band": 4,
+                    "text": "Responds only minimally or goes off the point. The position is unclear and ideas are few, repetitive or unsupported."
+                  }
+                ],
+                "tag": "Task 2"
+              },
+              {
+                "name": "Coherence & Cohesion",
+                "color": "lavender",
+                "focus": [
+                  "Ideas in a logical order with clear progression",
+                  "One clear main idea per paragraph",
+                  "Linking words used naturally, not just often",
+                  "Clear referencing (this, these, the former, the latter)"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "Cohesion is so natural it attracts no attention; paragraphing is skilful."
+                  },
+                  {
+                    "band": 8,
+                    "text": "Ideas are sequenced logically, cohesion is well managed, and paragraphing is used well."
+                  },
+                  {
+                    "band": 7,
+                    "text": "Logical organisation and clear progression; a range of linking devices, with some under- or over-use; each paragraph has a clear central topic."
+                  },
+                  {
+                    "band": 6,
+                    "text": "Coherent overall with clear progression, but linking can be mechanical or faulty, and referencing is not always clear."
+                  },
+                  {
+                    "band": 5,
+                    "text": "Some organisation but no overall progression; linking words are limited, inaccurate or overused; paragraphing may be inadequate."
+                  },
+                  {
+                    "band": 4,
+                    "text": "Ideas are not arranged coherently; basic linking words are repetitive or wrong, and there are no clear paragraphs."
+                  }
+                ],
+                "tag": "Both tasks"
+              },
+              {
+                "name": "Lexical Resource",
+                "color": "pink",
+                "focus": [
+                  "Range: enough words to express ideas precisely",
+                  "Accuracy of word choice and spelling",
+                  "Natural collocations (a sharp rise, not a powerful rise)",
+                  "Correct word formation (noun, verb, adjective, adverb)",
+                  "Style suited to formal writing"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "A wide range of vocabulary used naturally and precisely; only very rare slips."
+                  },
+                  {
+                    "band": 8,
+                    "text": "A wide range used fluently and flexibly; less common words used skilfully, with rare errors in spelling or word choice."
+                  },
+                  {
+                    "band": 7,
+                    "text": "Enough range for some flexibility and precision; less common words used with awareness of style and collocation; occasional errors."
+                  },
+                  {
+                    "band": 6,
+                    "text": "An adequate range for the task; less common words attempted with some inaccuracy; spelling or word-formation errors that do not block meaning."
+                  },
+                  {
+                    "band": 5,
+                    "text": "A limited range that is only just adequate; noticeable spelling and word-formation errors may make reading harder."
+                  },
+                  {
+                    "band": 4,
+                    "text": "Only basic vocabulary, often repetitive or inappropriate; poor control of spelling and word formation strains the reader."
+                  }
+                ],
+                "tag": "Both tasks"
+              },
+              {
+                "name": "Grammatical Range & Accuracy",
+                "color": "primary",
+                "focus": [
+                  "Variety: simple, compound and complex sentences",
+                  "Accuracy: articles, agreement, tenses, prepositions, plurals",
+                  "Correct punctuation and sentence boundaries",
+                  "Complex grammar used with control, not just attempted"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "A wide range of structures used flexibly and accurately; only rare minor slips."
+                  },
+                  {
+                    "band": 8,
+                    "text": "A wide range of structures; most sentences are error-free, with only very occasional mistakes."
+                  },
+                  {
+                    "band": 7,
+                    "text": "A variety of complex structures; frequent error-free sentences and good control of grammar and punctuation, with a few errors."
+                  },
+                  {
+                    "band": 6,
+                    "text": "A mix of simple and complex sentences; some grammar and punctuation errors, but they rarely reduce communication."
+                  },
+                  {
+                    "band": 5,
+                    "text": "A limited range; complex sentences are attempted but less accurate than simple ones; frequent errors can cause some difficulty."
+                  },
+                  {
+                    "band": 4,
+                    "text": "A very limited range with few subordinate clauses; errors dominate and punctuation is often faulty."
+                  }
+                ],
+                "tag": "Both tasks"
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Good to know",
+            "items": [
+              "Writing under the word limit lowers your Task Achievement / Task Response band.",
+              "Memorised \"advanced\" words do not raise your band if they are used unnaturally.",
+              "Complex grammar only helps when it is accurate."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "key": "speaking",
+      "name": "Speaking",
+      "intro": "A face-to-face interview with an examiner, marked on four equally weighted criteria across all three parts. Your band is the average of the four.",
+      "criteria": {
+        "facts": [
+          {
+            "label": "Parts",
+            "value": "3"
+          },
+          {
+            "label": "Length",
+            "value": "11–14 min"
+          },
+          {
+            "label": "Criteria",
+            "value": "4 × 25%"
+          },
+          {
+            "label": "Recorded",
+            "value": "Yes"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "parts",
+            "title": "The three parts",
+            "items": [
+              {
+                "label": "Part 1",
+                "title": "Introduction and interview · 4–5 min",
+                "text": "Questions about familiar topics: home, work or studies, hobbies, daily life."
+              },
+              {
+                "label": "Part 2",
+                "title": "Long turn · 3–4 min",
+                "text": "A cue card with a topic. One minute to prepare, then speak for 1–2 minutes; the examiner may ask one or two follow-up questions."
+              },
+              {
+                "label": "Part 3",
+                "title": "Discussion · 4–5 min",
+                "text": "More abstract questions linked to Part 2: explain, compare, speculate and give reasons."
+              }
+            ]
+          },
+          {
+            "type": "criteria",
+            "title": "Criteria",
+            "criteria": [
+              {
+                "name": "Fluency & Coherence",
+                "color": "alert",
+                "focus": [
+                  "Speaks at length without long pauses",
+                  "Hesitation is to find ideas, not words",
+                  "Little repetition or self-correction",
+                  "Answers are organised and extended",
+                  "Connects ideas with a range of linking words"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "Speaks fluently with only rare repetition or self-correction; any hesitation is about ideas, not language; topics fully developed."
+                  },
+                  {
+                    "band": 8,
+                    "text": "Speaks fluently with only occasional repetition or self-correction; develops topics coherently and appropriately."
+                  },
+                  {
+                    "band": 7,
+                    "text": "Speaks at length without noticeable effort or loss of coherence; some language-related hesitation; uses linking words flexibly."
+                  },
+                  {
+                    "band": 6,
+                    "text": "Willing to speak at length, but may lose coherence through repetition, self-correction or hesitation; linking words not always appropriate."
+                  },
+                  {
+                    "band": 5,
+                    "text": "Usually keeps going, but relies on repetition, self-correction or slow speech; overuses some linking words; complex ideas cause problems."
+                  },
+                  {
+                    "band": 4,
+                    "text": "Cannot answer without noticeable pauses; speaks slowly with frequent repetition; only simple links between basic sentences."
+                  }
+                ]
+              },
+              {
+                "name": "Lexical Resource",
+                "color": "lavender",
+                "focus": [
+                  "Range of vocabulary across familiar and unfamiliar topics",
+                  "Precise word choice",
+                  "Natural idiomatic language and collocations",
+                  "Paraphrases when the exact word is missing"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "Full flexibility and precision on every topic; idiomatic language used naturally and accurately."
+                  },
+                  {
+                    "band": 8,
+                    "text": "A wide range used readily and flexibly; less common and idiomatic words used skilfully, with occasional slips; paraphrases well."
+                  },
+                  {
+                    "band": 7,
+                    "text": "Uses vocabulary flexibly across a variety of topics; some less common and idiomatic words, with some poor choices; paraphrases well."
+                  },
+                  {
+                    "band": 6,
+                    "text": "A range wide enough to talk at length and make meaning clear despite some wrong choices; generally paraphrases successfully."
+                  },
+                  {
+                    "band": 5,
+                    "text": "Manages familiar and unfamiliar topics but with little flexibility; paraphrasing works only some of the time."
+                  },
+                  {
+                    "band": 4,
+                    "text": "Talks about familiar topics but only conveys basic meaning on unfamiliar ones; frequent wrong words; rarely paraphrases."
+                  }
+                ]
+              },
+              {
+                "name": "Grammatical Range & Accuracy",
+                "color": "pink",
+                "focus": [
+                  "Range: simple, complex, conditional, passive and relative structures",
+                  "Accuracy while speaking spontaneously",
+                  "How often errors happen and whether they confuse the listener"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "A full range of structures used naturally; consistently accurate apart from the slips native speakers make."
+                  },
+                  {
+                    "band": 8,
+                    "text": "A wide range of structures used flexibly; most sentences are error-free, with only occasional mistakes."
+                  },
+                  {
+                    "band": 7,
+                    "text": "A range of complex structures with some flexibility; frequent error-free sentences, though some mistakes remain."
+                  },
+                  {
+                    "band": 6,
+                    "text": "A mix of simple and complex structures with limited flexibility; frequent mistakes in complex sentences, which rarely cause confusion."
+                  },
+                  {
+                    "band": 5,
+                    "text": "Basic sentences are fairly accurate; complex structures are limited, usually contain errors and may cause problems."
+                  },
+                  {
+                    "band": 4,
+                    "text": "Mostly basic sentences, with rare subordinate clauses; errors are frequent and may cause misunderstanding."
+                  }
+                ]
+              },
+              {
+                "name": "Pronunciation",
+                "color": "primary",
+                "focus": [
+                  "Clear individual sounds",
+                  "Correct word and sentence stress",
+                  "Natural rhythm, intonation and connected speech",
+                  "How easily the listener understands you (accent itself is not marked down)"
+                ],
+                "levels": [
+                  {
+                    "band": 9,
+                    "text": "A full range of pronunciation features used precisely; effortless to understand throughout; accent has no effect."
+                  },
+                  {
+                    "band": 8,
+                    "text": "A wide range of features used flexibly with only occasional lapses; easy to understand throughout; accent has minimal effect."
+                  },
+                  {
+                    "band": 7,
+                    "text": "All the strengths of band 6 and some, but not all, of band 8."
+                  },
+                  {
+                    "band": 6,
+                    "text": "A range of features with mixed control; generally understood throughout, though some words or sounds are mispronounced."
+                  },
+                  {
+                    "band": 5,
+                    "text": "All the strengths of band 4 and some, but not all, of band 6."
+                  },
+                  {
+                    "band": 4,
+                    "text": "A limited range of features with frequent lapses; mispronunciations are common and make the listener work hard."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Good to know",
+            "items": [
+              "You do not need a British, American or Australian accent: being easy to understand is what counts.",
+              "Fluency is not speed. Natural pauses to think are fine; constant stops to find words are not.",
+              "Short answers limit your band: extend each answer with a reason or example."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "key": "overall",
+      "name": "Overall",
+      "intro": "Each skill gets a band from 0 to 9 (half bands possible). Your overall band is the average of the four, rounded.",
+      "criteria": {
+        "facts": [
+          {
+            "label": "Formula",
+            "value": "(L + R + W + S) ÷ 4"
+          },
+          {
+            "label": "Scale",
+            "value": "0–9"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "table",
+            "title": "Rounding the average",
+            "columns": [
+              "Average ends in",
+              "Rounded"
+            ],
+            "rows": [
+              [
+                ".0 to below .25",
+                "Down to the whole band"
+              ],
+              [
+                ".25 to below .75",
+                "To the half band (.5)"
+              ],
+              [
+                ".75 and above",
+                "Up to the next whole band"
+              ]
+            ]
+          },
+          {
+            "type": "table",
+            "title": "Examples",
+            "columns": [
+              "L",
+              "R",
+              "W",
+              "S",
+              "Average",
+              "Overall"
+            ],
+            "rows": [
+              [
+                "7.5",
+                "7.0",
+                "6.5",
+                "7.0",
+                "7.0",
+                "7.0"
+              ],
+              [
+                "7.5",
+                "7.5",
+                "6.5",
+                "7.0",
+                "7.125",
+                "7.0"
+              ],
+              [
+                "8.0",
+                "7.0",
+                "6.5",
+                "7.5",
+                "7.25",
+                "7.5"
+              ],
+              [
+                "6.5",
+                "6.5",
+                "5.5",
+                "6.0",
+                "6.125",
+                "6.0"
+              ],
+              [
+                "6.5",
+                "7.0",
+                "6.5",
+                "6.5",
+                "6.625",
+                "6.5"
+              ],
+              [
+                "7.0",
+                "7.5",
+                "6.5",
+                "7.0",
+                "6.875",
+                "7.0"
+              ]
+            ]
+          },
+          {
+            "type": "bands",
+            "title": "What each band means",
+            "items": [
+              {
+                "band": "9",
+                "name": "Expert",
+                "text": "Full command of English: appropriate, accurate and fluent, with complete understanding."
+              },
+              {
+                "band": "8",
+                "name": "Very good",
+                "text": "Full command with only occasional unsystematic errors; handles complex argument well."
+              },
+              {
+                "band": "7",
+                "name": "Good",
+                "text": "Operational command with occasional errors and misunderstandings in some situations."
+              },
+              {
+                "band": "6",
+                "name": "Competent",
+                "text": "Generally effective command despite some errors and misunderstandings."
+              },
+              {
+                "band": "5",
+                "name": "Modest",
+                "text": "Partial command; copes with overall meaning in most situations but makes many mistakes."
+              },
+              {
+                "band": "4",
+                "name": "Limited",
+                "text": "Basic competence in familiar situations; frequent problems with understanding and expression."
+              },
+              {
+                "band": "3",
+                "name": "Extremely limited",
+                "text": "Conveys and understands only general meaning in very familiar situations."
+              },
+              {
+                "band": "2",
+                "name": "Intermittent",
+                "text": "Great difficulty understanding spoken and written English."
+              },
+              {
+                "band": "1",
+                "name": "Non-user",
+                "text": "No ability to use the language beyond a few isolated words."
+              },
+              {
+                "band": "0",
+                "name": "Did not attempt",
+                "text": "No assessable information provided."
+              }
+            ]
+          },
+          {
+            "type": "bullets",
+            "title": "Two kinds of scoring",
+            "items": [
+              "Listening and Reading: counted. Correct answers → raw score → band.",
+              "Writing and Speaking: judged. An examiner rates four criteria against the band descriptors.",
+              "Bands are not percentages: band 7 does not mean 70% correct."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

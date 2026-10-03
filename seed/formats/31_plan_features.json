@@ -1,0 +1,41 @@
+{
+  "_format": {
+    "name": "plan_features",
+    "group": "config",
+    "table": "plan_features",
+    "primaryKey": "id",
+    "description": "Feature comparison rows (Free vs Pro).",
+    "currentSourceInApp": "home.plans.features",
+    "fields": {
+      "id": "string",
+      "label": "string",
+      "free": "string",
+      "pro": "string"
+    },
+    "required": [
+      "id",
+      "label",
+      "free",
+      "pro"
+    ],
+    "relations": [],
+    "notes": [
+      "free/pro: \"yes\", \"no\" or a short text such as \"1 / month\". Also the source for usage limits."
+    ],
+    "recordCountToday": 8
+  },
+  "items": [
+    {
+      "id": "mockTests",
+      "label": "Full mock tests",
+      "free": "1 / month",
+      "pro": "Unlimited"
+    },
+    {
+      "id": "writingFeedback",
+      "label": "AI writing feedback",
+      "free": "3 / month",
+      "pro": "Unlimited"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+ "note": "Q12 stem: the recording says only that in summer the centre stays open \"later in the evenings\" - no 8 pm.",
+ "groups": {
+  "g1": {
+   "id": "g1",
+   "type": "summary",
+   "title": "Complete the summary",
+   "instruction": "Write ONE WORD AND/OR A NUMBER for each answer.",
+   "summary": "At Grasslands Recycling Centre, every vehicle first goes to the (1)___. Staff check each load for (2)___ items, which are stored separately. Household waste is now sorted into (3)___ categories. Metal is cut up in a (4)___, and glass is separated by (5)___. Paper and cardboard are sent to a (6)___ mill. Garden waste becomes (7)___ in about six weeks. Electrical items are checked for (8)___. The centre deals with about (9)___ tonnes of waste each year. Visitors must wear a (10)___ vest near the skips. The centre is staffed by (11)___ and paid workers, and in (12)___ it stays open later in the evenings. A (13)___ system has made sorting faster. Residents need a (14)___ to use the site. Surprisingly, the most common item is (15)___. Hazardous waste is collected once a (16)___. The centre aims to recycle (17)___ per cent of its waste. Its education programme visits local (18)___. The busiest day is (19)___, and complaints should be made to the site (20)___.",
+   "questions": [
+    {
+     "number": 1,
+     "text": "At Grasslands Recycling Centre, every vehicle first goes to the ______.",
+     "before": "At Grasslands Recycling Centre, every vehicle first goes to the",
+     "after": ".",
+     "answer": "weighbridge",
+     "answerDisplay": "weighbridge",
+     "accepted": [
+      "weighbridge"
+     ]
+    },
+    {
+     "number": 2,
+     "text": "Staff check each load for ______ items, which are stored separately.",
+     "before": "Staff check each load for",
+     "after": "items, which are stored separately.",
+     "answer": "hazardous",
+     "answerDisplay": "hazardous",
+     "accepted": [
+      "hazardous"
+     ]
+    },
+    {
+     "number": 3,
+     "text": "Household waste is now sorted into ______ categories.",
+     "before": "Household waste is now sorted into",
+     "after": "categories.",
+     "answer": "12",
+     "answerDisplay": "12 / twelve",
+     "accepted": [
+      "12",
+      "twelve"
+     ]
+    },
+    {
+     "number": 4,
+     "text": "Metal is cut up in a ______, and glass is separated by (5) ….",
+     "before": "Metal is cut up in a",
+     "after": ", and glass is separated by (5) ….",
+     "answer": "shredder",
+     "answerDisplay": "shredder",
+     "accepted": [
+      "shredder"
+     ]
+    },
+    {
+     "number": 5,
+     "text": "Metal is cut up in a (4) …, and glass is separated by ______.",
+     "before": "Metal is cut up in a (4) …, and glass is separated by",
+     "after": ".",
+     "answer": "colour",
+     "answerDisplay": "colour / color",
+     "accepted": [
+      "colour",
+      "color"
+     ]
+    },
+    {
+     "number": 6,
+     "text": "Paper and cardboard are sent to a ______ mill.",
+     "before": "Paper and cardboard are sent to a",
+     "after": "mill.",
+     "answer": "paper",
+     "answerDisplay": "paper",
+     "accepted": [
+      "paper"
+     ]
+    },
+    {
+     "number": 7,
+     "text": "Garden waste becomes ______ in about six weeks.",
+     "before": "Garden waste becomes",
+     "after": "in about six weeks.",
+     "answer": "compost",
+     "answerDisplay": "compost",
+     "accepted": [
+      "compost"
+     ]
+    },
+    {
+     "number": 8,
+     "text": "Electrical items are checked for ______.",
+     "before": "Electrical items are checked for",
+     "after": ".",
+     "answer": "safety",
+     "answerDisplay": "safety",
+     "accepted": [
+      "safety"
+     ]
+    },
+    {
+     "number": 9,
+     "text": "The centre deals with about ______ tonnes of waste each year.",
+     "before": "The centre deals with about",
+     "after": "tonnes of waste each year.",
+     "answer": "40,000",
+     "answerDisplay": "40,000 / 40000",
+     "accepted": [
+      "40,000",
+      "40000"
+     ]
+    },
+    {
+     "number": 10,
+     "text": "Visitors must wear a ______ vest near the skips.",
+     "before": "Visitors must wear a",
+     "after": "vest near the skips.",
+     "answer": "high-visibility",
+     "answerDisplay": "high-visibility",
+     "accepted": [
+      "high-visibility"
+     ]
+    },
+    {
+     "number": 11,
+     "text": "The centre is staffed by ______ and paid workers, and in (12) … it stays open later in the evenings.",
+     "before": "The centre is staffed by",
+     "after": "and paid workers, and in (12) … it stays open later in the evenings.",
+     "answer": "volunteers",
+     "answerDisplay": "volunteers",
+     "accepted": [
+      "volunteers"
+     ]
+    },
+    {
+     "number": 12,
+     "text": "The centre is staffed by (11) … and paid workers, and in ______ it stays open later in the evenings.",
+     "before": "The centre is staffed by (11) … and paid workers, and in",
+     "after": "it stays open later in the evenings.",
+     "answer": "summer",
+     "answerDisplay": "summer",
+     "accepted": [
+      "summer"
+     ]
+    },
+    {
+     "number": 13,
+     "text": "A ______ system has made sorting faster.",
+     "before": "A",
+     "after": "system has made sorting faster.",
+     "answer": "barcode",
+     "answerDisplay": "barcode",
+     "accepted": [
+      "barcode"
+     ]
+    },
+    {
+     "number": 14,
+     "text": "Residents need a ______ to use the site.",
+     "before": "Residents need a",
+     "after": "to use the site.",
+     "answer": "permit",
+     "answerDisplay": "permit",
+     "accepted": [
+      "permit"
+     ]
+    },
+    {
+     "number": 15,
+     "text": "Surprisingly, the most common item is ______.",
+     "before": "Surprisingly, the most common item is",
+     "after": ".",
+     "answer": "furniture",
+     "answerDisplay": "furniture",
+     "accepted": [
+      "furniture"
+     ]
+    },
+    {
+     "number": 16,
+     "text": "Hazardous waste is collected once a ______.",
+     "before": "Hazardous waste is collected once a",
+     "after": ".",
+     "answer": "month",
+     "answerDisplay": "month",
+     "accepted": [
+      "month"
+     ]
+    },
+    {
+     "number": 17,
+     "text": "The centre aims to recycle ______ per cent of its waste.",
+     "before": "The centre aims to recycle",
+     "after": "per cent of its waste.",
+     "answer": "90",
+     "answerDisplay": "90 / ninety",
+     "accepted": [
+      "90",
+      "ninety"
+     ]
+    },
+    {
+     "number": 18,
+     "text": "Its education programme visits local ______.",
+     "before": "Its education programme visits local",
+     "after": ".",
+     "answer": "schools",
+     "answerDisplay": "schools",
+     "accepted": [
+      "schools"
+     ]
+    },
+    {
+     "number": 19,
+     "text": "The busiest day is ______, and complaints should be made to the site (20) ….",
+     "before": "The busiest day is",
+     "after": ", and complaints should be made to the site (20) ….",
+     "answer": "Saturday",
+     "answerDisplay": "Saturday",
+     "accepted": [
+      "Saturday"
+     ]
+    },
+    {
+     "number": 20,
+     "text": "The busiest day is (19) …, and complaints should be made to the site ______.",
+     "before": "The busiest day is (19) …, and complaints should be made to the site",
+     "after": ".",
+     "answer": "office",
+     "answerDisplay": "office",
+     "accepted": [
+      "office"
+     ]
+    }
+   ]
+  }
+ }
+}

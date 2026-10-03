@@ -1,0 +1,59 @@
+{
+  "_format": {
+    "name": "certificates",
+    "group": "config",
+    "table": "certificate_definitions",
+    "primaryKey": "id",
+    "description": "Milestone certificate definitions and the rule that awards them.",
+    "currentSourceInApp": "home.certificates.items",
+    "fields": {
+      "id": "string",
+      "code": "string",
+      "title": "string",
+      "description": "string",
+      "icon": "string",
+      "rule": "object",
+      "unit": "string"
+    },
+    "required": [
+      "id",
+      "code",
+      "title",
+      "rule"
+    ],
+    "relations": [],
+    "notes": [
+      "rule.type: count|band|streak|parts — evaluated against the user's attempts."
+    ],
+    "recordCountToday": 11
+  },
+  "items": [
+    {
+      "id": "first_mock",
+      "code": "FM",
+      "title": "First full mock test",
+      "description": "Completed a full four-skill IELTS Academic mock test.",
+      "icon": "mock",
+      "rule": {
+        "type": "count",
+        "skill": "mock",
+        "kinds": [
+          "mock"
+        ],
+        "goal": 1
+      },
+      "unit": "mock tests"
+    },
+    {
+      "id": "mock_65",
+      "code": "M65",
+      "title": "Band 6.5 in a mock",
+      "description": "Scored an overall Band 6.5 or higher in a full mock test.",
+      "icon": "trophy",
+      "rule": {
+        "type": "mockOverall",
+        "band": 6.5
+      }
+    }
+  ]
+}
