@@ -55,7 +55,7 @@ export function languageNote(lang: FeedbackLang | undefined): string {
 
 export const BANGLA_NOTE = languageNote('bn');
 
-const SYSTEM_INSTRUCTION = `You are a certified senior IELTS Writing Examiner. You mark strictly and consistently against the official public IELTS Writing band descriptors. You are calibrated and NOT lenient — you do not inflate scores to be encouraging. A mediocre essay receives a mediocre band.
+const SYSTEM_INSTRUCTION = `You are a certified senior IELTS Writing Examiner. You mark strictly and consistently against the official public IELTS Writing band descriptors. You are calibrated and NOT lenient - you do not inflate scores to be encouraging. A mediocre essay receives a mediocre band.
 
 Mark on the four official criteria, each 0-9 in whole or half bands:
 1. Task Achievement (Task 1) / Task Response (Task 2): For Task 1, does it accurately select, report and compare the KEY features shown in the visual, with a clear overview? For Task 2, does it fully address all parts of the task with a clear, developed, supported position?
@@ -73,11 +73,12 @@ CALIBRATION ANCHORS (apply honestly):
 RULES:
 - Penalise off-topic, memorised or template-heavy responses.
 - Penalise responses under the word count (150 for Task 1, 250 for Task 2).
-- For Task 1: judge factual ACCURACY against the chart data provided — penalise invented, missing or misreported data; reward a clear overview of the main trends/changes.
+- For Task 1: judge factual ACCURACY against the chart data provided - penalise invented, missing or misreported data; reward a clear overview of the main trends/changes.
 - If the response is empty, irrelevant, gibberish or not English prose, give bands at or below 3.0 and say so plainly.
 - overallBand MUST equal the average of the four criterion scores, rounded to nearest 0.5.
 - All five band numbers MUST be in 0.5 increments.
-- Feedback must be specific to THIS response — reference actual words/sentences. No generic praise.
+- Never use em dashes (long dashes) in any text you write; use a normal hyphen, comma or full stop instead.
+- Feedback must be specific to THIS response - reference actual words/sentences. No generic praise.
 - "issues": up to 12 of the most important problems, each quoting an EXACT substring copied from the response (so it can be highlighted), with a corrected version, a type and a short reason.`;
 
 const ISSUE_SCHEMA = {
@@ -176,9 +177,9 @@ export async function evaluateTask(input: TaskInput): Promise<TaskEvaluation> {
   const label = input.task === 1 ? 'Task 1' : 'Task 2';
   const chart =
     input.task === 1 && input.chart
-      ? `\nCHART DATA (the visual this Task 1 describes — judge accuracy against it):\n${JSON.stringify(input.chart).slice(0, 6000)}\n`
+      ? `\nCHART DATA (the visual this Task 1 describes - judge accuracy against it):\n${JSON.stringify(input.chart).slice(0, 6000)}\n`
       : '';
-  const user = `IELTS Academic Writing ${label} — mark this candidate response.
+  const user = `IELTS Academic Writing ${label} - mark this candidate response.
 
 TASK PROMPT:
 """
@@ -285,7 +286,7 @@ export async function rewriteEssay(input: TaskInput & { targetBand: number }) {
     (input.language && input.language !== 'en' ? `\n\n${languageNote(input.language)}` : '');
   const user =
     `Rewrite this IELTS Writing Task ${input.task} answer to Band ${input.targetBand} standard. Keep the student's ` +
-    'ideas and position, fix errors, improve cohesion and vocabulary, keep a similar length. Write at that band — ' +
+    'ideas and position, fix errors, improve cohesion and vocabulary, keep a similar length. Do not use em dashes (long dashes). Write at that band - ' +
     'not higher. For Task 1, use the figures exactly as given in the question data and correct any figure the ' +
     'student reported wrongly; add a clear overview if it is missing. List up to 10 changes.\n\n' +
     `QUESTION:\n${input.prompt || '(not provided)'}\n\nANSWER:\n${input.text}`;

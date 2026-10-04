@@ -242,13 +242,13 @@ export function registerAiRoutes(r: Router): void {
     }
 
     // The service marks a session "completed" with placeholder 6.5 bands when
-    // its final scoring pass fails — treat that as a failure, not a result.
+    // its final scoring pass fails - treat that as a failure, not a result.
     const report = session.status === 'completed' ? await getReport(sessionId) : null;
     const placeholder = /^Automated scoring failed/i.test(String(report?.evidence?.generalSummary ?? ''));
     if (report && !placeholder) {
       const evaluation = mapEvaluation(report, session);
       // Single-part practice: the service is told Parts 2–3 (etc.) are
-      // missing and says so in the summary — drop that sentence.
+      // missing and says so in the summary - drop that sentence.
       if (attempt.kind !== 'full' && attempt.kind !== 'mock') {
         const kept = evaluation.summary
           .split(/(?<=[.!?])\s+/)
@@ -312,8 +312,8 @@ export function registerAiRoutes(r: Router): void {
     const weak = [...scored].sort((a, b) => a.score - b.score).filter((p) => p.score < 60);
     const unique = [...new Set(weak.map((p) => p.phoneme))].slice(0, 2);
     const tip =
-      score >= 85 && !unique.length ? 'Clear — every sound came through. Now say it inside a sentence.'
-      : unique.length ? `Work on the ${unique.map((p) => `/${p}/`).join(' and ')} sound${unique.length > 1 ? 's' : ''} — listen to the native audio and copy the mouth shape.`
+      score >= 85 && !unique.length ? 'Clear - every sound came through. Now say it inside a sentence.'
+      : unique.length ? `Work on the ${unique.map((p) => `/${p}/`).join(' and ')} sound${unique.length > 1 ? 's' : ''} - listen to the native audio and copy the mouth shape.`
       : 'Good. Slow down slightly and make each sound distinct.';
     return { source: 'ai', word, heard: r.heard.trim(), score, tip, phonemes };
   });
@@ -336,11 +336,11 @@ export function registerAiRoutes(r: Router): void {
     const topic = s(ctx.body.topic, 200);
     const system =
       'You are a friendly IELTS Academic Speaking partner who also gives examiner-style tips. Keep replies short and ' +
-      'encouraging, use British spelling, and reply with a single JSON object only: ' +
+      'encouraging, use British spelling, never use em dashes (use a hyphen or comma), and reply with a single JSON object only: ' +
       '{"feedback": "...", "suggestion": "...", "question": "..."}' +
       (language !== 'en' ? `\n\n${languageNote(language)}` : '');
     const user =
-      'PARTNER CHAT — IELTS Speaking Part 3 practice.\n' +
+      'PARTNER CHAT - IELTS Speaking Part 3 practice.\n' +
       (topic ? `TOPIC: ${topic}\n` : '') +
       (questions.length ? `QUESTION BANK (use or adapt):\n- ${questions.join('\n- ')}\n` : '') +
       `CONVERSATION SO FAR:\n${history || '(none yet)'}\n\n` +

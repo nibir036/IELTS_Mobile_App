@@ -115,7 +115,7 @@ function taskJson(t: {
  * study sessions …). Upserts by the app's own id so offline results can be
  * re-sent safely. AI-graded writing/speaking attempts are created by their
  * own routes (with the app's id); a later save here only adds the app's extra
- * fields — the evaluation and band stay the server's.
+ * fields - the evaluation and band stay the server's.
  */
 /** Keys of an AI-graded attempt that only the server writes. */
 const SERVER_OWNED = ['evaluation', 'task1', 'task2', 'sessionId', 'status', 'message', 'noSpeech', 'recordings', 'segments'];
@@ -284,7 +284,7 @@ export function registerProgressRoutes(r: Router): void {
     return { state: Object.fromEntries(rows.map((x) => [x.key, x.value])) };
   });
 
-  // {values: {key: value | null}} — null deletes.
+  // {values: {key: value | null}} - null deletes.
   r.put('/v1/state', async (ctx) => {
     const userId = requireUser(ctx);
     const values = obj(ctx.body.values);

@@ -186,7 +186,12 @@ async function seedConfig() {
   console.log('Config');
   await upsertAll('plan', items('30_plans.json').map((r, i) => ({ ...r, sortOrder: i })));
   await upsertAll('planFeature', items('31_plan_features.json').map((r, i) => ({ ...r, sortOrder: i })));
-  await upsertAll('certificateDefinition', items('32_certificates.json').map((r, i) => ({ ...r, sortOrder: i })));
+  // `group` (Learning / Practice / Streaks / Scores) is only used by the app's
+  // Milestones screen; the table has no column for it.
+  await upsertAll(
+    'certificateDefinition',
+    items('32_certificates.json').map(({ group: _group, ...r }, i) => ({ ...r, sortOrder: i })),
+  );
   await upsertAll('legalDocument', items('33_legal_documents.json'), (r) => ({
     id_version: { id: r.id, version: r.version },
   }));

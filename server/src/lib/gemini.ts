@@ -1,4 +1,4 @@
-// Google Gemini (generateContent REST API) for writing grading — the same
+// Google Gemini (generateContent REST API) for writing grading - the same
 // provider and model the website uses. Server-side only: the key never
 // reaches the app.
 

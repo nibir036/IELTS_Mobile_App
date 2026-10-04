@@ -1,4 +1,4 @@
-// IELTS AI by nextED — API server for the Flutter app.
+// IELTS AI by nextED - API server for the Flutter app.
 //
 //   npm run dev     (reloads on change)     npm start
 //
@@ -105,7 +105,7 @@ if (require.main === module) {
   server.listen(env.port, env.host, () => {
     console.log(`IELTS AI API listening on http://${env.host === '0.0.0.0' ? 'localhost' : env.host}:${env.port}`);
     const writing = env.useGeminiForWriting
-      ? env.geminiApiKey ? `Gemini (${env.geminiWritingModel})` : 'Gemini — GEMINI_API_KEY missing'
+      ? env.geminiApiKey ? `Gemini (${env.geminiWritingModel})` : 'Gemini - GEMINI_API_KEY missing'
       : env.openrouterApiKey ? 'OpenRouter' : 'not configured';
     console.log(`  SMS: ${env.smsProvider} · R2: ${env.r2Configured ? 'on' : 'off'}`);
     console.log(`  Writing AI: ${writing} · partner chat: ${env.openrouterApiKey ? 'OpenRouter' : 'not configured'}`);

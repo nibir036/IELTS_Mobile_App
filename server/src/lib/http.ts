@@ -122,9 +122,29 @@ export async function readBody(req: IncomingMessage): Promise<Buffer> {
   return Buffer.concat(chunks);
 }
 
+/**
+ * Replaces em dashes (U+2014) with a normal dash, spaced like the app
+ * ("word - word"). Runs on every JSON response, so AI feedback (and anything
+ * already stored) never reaches the app with em dashes. The dash is never
+ * part of JSON syntax, so working on the serialised text is safe.
+ */
+export function plainDashes(text: string): string {
+  if (!text.includes('\u2014')) return text;
+  return text.replace(/[ \t]*\u2014[ \t]*/g, (m: string, offset: number) => {
+    const b1 = text[offset - 1] ?? '';
+    const b2 = text[offset - 2] ?? '';
+    const end = offset + m.length;
+    const a1 = text[end] ?? '';
+    const a2 = text[end + 1] ?? '';
+    const noLead = b1 === '' || (b1 === '"' && b2 !== '\\') || (b1 === 'n' && b2 === '\\') || '([{'.includes(b1);
+    const noTrail = a1 === '' || (a1 === '\\' && a2 === 'n') || '")]},.;:'.includes(a1);
+    return `${noLead ? '' : ' '}-${noTrail ? '' : ' '}`;
+  });
+}
+
 export function sendJson(res: ServerResponse, status: number, body: unknown): void {
   if (res.headersSent) return;
-  const data = JSON.stringify(body ?? {});
+  const data = plainDashes(JSON.stringify(body ?? {}));
   res.writeHead(status, {
     'Content-Type': 'application/json; charset=utf-8',
     'Content-Length': Buffer.byteLength(data),

@@ -18,7 +18,7 @@ export function registerMeRoutes(r: Router): void {
     return { user: publicUser(user), usage: await usage(userId) };
   });
 
-  // {name?, profile?: {...partial}} — profile keys are merged; null removes a key.
+  // {name?, profile?: {...partial}} - profile keys are merged; null removes a key.
   r.patch('/v1/me', async (ctx) => {
     const userId = requireUser(ctx);
     const user = await prisma.user.findUnique({ where: { id: userId }, select: { profile: true } });
