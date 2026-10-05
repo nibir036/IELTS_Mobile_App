@@ -1,0 +1,2303 @@
+{
+ "category": "contrast",
+ "drills": [
+  {
+   "id": "contrast_001",
+   "connector": "however",
+   "function": "Contrast",
+   "sentences": [
+    "Online shopping is very convenient.",
+    "Many people still prefer local shops."
+   ],
+   "answer": [
+    "Online shopping",
+    "is very convenient;",
+    "however,",
+    "many people still prefer",
+    "local shops."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "for example,"
+   ],
+   "hint": "Put a semicolon before \"however\" and a comma after it to join two contrasting ideas.",
+   "level": 1
+  },
+  {
+   "id": "contrast_002",
+   "connector": "however",
+   "function": "Contrast",
+   "sentences": [
+    "Solar panels are expensive to install.",
+    "They save money in the long term."
+   ],
+   "answer": [
+    "Solar panels",
+    "are expensive to install;",
+    "however,",
+    "they save money",
+    "in the long term."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as a result,",
+    "because"
+   ],
+   "hint": "Put a semicolon before \"however\" and a comma after it to join two contrasting ideas.",
+   "level": 1
+  },
+  {
+   "id": "contrast_003",
+   "connector": "however",
+   "function": "Contrast",
+   "sentences": [
+    "Part-time jobs give students useful experience.",
+    "They can reduce time for study."
+   ],
+   "answer": [
+    "Part-time jobs give students",
+    "useful experience;",
+    "however,",
+    "they can reduce",
+    "time for study."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "therefore,"
+   ],
+   "hint": "Put a semicolon before \"however\" and a comma after it to join two contrasting ideas.",
+   "level": 2
+  },
+  {
+   "id": "contrast_004",
+   "connector": "however",
+   "function": "Contrast",
+   "sentences": [
+    "The city opened a new metro line.",
+    "Traffic congestion has remained severe."
+   ],
+   "answer": [
+    "The city opened",
+    "a new metro line;",
+    "however,",
+    "traffic congestion",
+    "has remained severe."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "consequently,",
+    "for instance,"
+   ],
+   "hint": "Put a semicolon before \"however\" and a comma after it to join two contrasting ideas.",
+   "level": 1
+  },
+  {
+   "id": "contrast_005",
+   "connector": "however",
+   "function": "Contrast",
+   "sentences": [
+    "Tourism brings money to small islands.",
+    "It puts heavy pressure on water supplies."
+   ],
+   "answer": [
+    "Tourism brings money",
+    "to small islands;",
+    "however,",
+    "it puts heavy pressure",
+    "on water supplies."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "Put a semicolon before \"however\" and a comma after it to join two contrasting ideas.",
+   "level": 2
+  },
+  {
+   "id": "contrast_006",
+   "connector": "however",
+   "function": "Contrast",
+   "sentences": [
+    "Many experts recommend regular exercise.",
+    "Many adults do not exercise enough."
+   ],
+   "answer": [
+    "Many experts",
+    "recommend regular exercise;",
+    "however,",
+    "many adults",
+    "do not exercise enough."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "as a result,",
+    "similarly,"
+   ],
+   "hint": "Put a semicolon before \"however\" and a comma after it to join two contrasting ideas.",
+   "level": 2
+  },
+  {
+   "id": "contrast_007",
+   "connector": "however",
+   "function": "Contrast",
+   "sentences": [
+    "Remote work saves commuting time.",
+    "Some employees feel isolated at home."
+   ],
+   "answer": [
+    "Remote work",
+    "saves commuting time;",
+    "however,",
+    "some employees",
+    "feel isolated at home."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "hence,",
+    "for example,"
+   ],
+   "hint": "Put a semicolon before \"however\" and a comma after it to join two contrasting ideas.",
+   "level": 2
+  },
+  {
+   "id": "contrast_008",
+   "connector": "however",
+   "function": "Contrast",
+   "sentences": [
+    "Recycling rates have improved in recent years.",
+    "The total amount of waste keeps growing."
+   ],
+   "answer": [
+    "Recycling rates have improved",
+    "in recent years;",
+    "however,",
+    "the total amount of waste",
+    "keeps growing."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "consequently,",
+    "in other words,"
+   ],
+   "hint": "Put a semicolon before \"however\" and a comma after it to join two contrasting ideas.",
+   "level": 3
+  },
+  {
+   "id": "contrast_009",
+   "connector": "nevertheless",
+   "function": "Contrast",
+   "sentences": [
+    "The final exam was extremely difficult.",
+    "Most students passed it."
+   ],
+   "answer": [
+    "The final exam",
+    "was extremely difficult;",
+    "nevertheless,",
+    "most students",
+    "passed it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "\"Nevertheless\" introduces a surprising result: semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_010",
+   "connector": "nevertheless",
+   "function": "Contrast",
+   "sentences": [
+    "The museum charges a high entrance fee.",
+    "It attracts thousands of visitors a year."
+   ],
+   "answer": [
+    "The museum charges",
+    "a high entrance fee;",
+    "nevertheless,",
+    "it attracts",
+    "thousands of visitors a year."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as a result,",
+    "for instance,"
+   ],
+   "hint": "\"Nevertheless\" introduces a surprising result: semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_011",
+   "connector": "nevertheless",
+   "function": "Contrast",
+   "sentences": [
+    "Fast food is often unhealthy.",
+    "Its popularity continues to grow."
+   ],
+   "answer": [
+    "Fast food",
+    "is often unhealthy;",
+    "nevertheless,",
+    "its popularity",
+    "continues to grow."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "for example,"
+   ],
+   "hint": "\"Nevertheless\" introduces a surprising result: semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_012",
+   "connector": "nevertheless",
+   "function": "Contrast",
+   "sentences": [
+    "The weather was cold and wet.",
+    "The marathon went ahead as planned."
+   ],
+   "answer": [
+    "The weather",
+    "was cold and wet;",
+    "nevertheless,",
+    "the marathon",
+    "went ahead as planned."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "consequently,",
+    "because"
+   ],
+   "hint": "\"Nevertheless\" introduces a surprising result: semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_013",
+   "connector": "nevertheless",
+   "function": "Contrast",
+   "sentences": [
+    "Electric cars produce no exhaust fumes.",
+    "Their batteries require rare minerals."
+   ],
+   "answer": [
+    "Electric cars",
+    "produce no exhaust fumes;",
+    "nevertheless,",
+    "their batteries",
+    "require rare minerals."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for this reason,",
+    "similarly,"
+   ],
+   "hint": "\"Nevertheless\" introduces a surprising result: semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_014",
+   "connector": "nevertheless",
+   "function": "Contrast",
+   "sentences": [
+    "Learning a language takes years.",
+    "Many adults succeed in becoming fluent."
+   ],
+   "answer": [
+    "Learning a language",
+    "takes years;",
+    "nevertheless,",
+    "many adults",
+    "succeed in becoming fluent."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as a result,",
+    "because"
+   ],
+   "hint": "\"Nevertheless\" introduces a surprising result: semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_015",
+   "connector": "nevertheless",
+   "function": "Contrast",
+   "sentences": [
+    "The old library was small.",
+    "Local people loved it."
+   ],
+   "answer": [
+    "The old library",
+    "was small;",
+    "nevertheless,",
+    "local people",
+    "loved it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "so that"
+   ],
+   "hint": "\"Nevertheless\" introduces a surprising result: semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_016",
+   "connector": "nevertheless",
+   "function": "Contrast",
+   "sentences": [
+    "Governments have spent heavily on road safety.",
+    "Accidents remain a serious problem."
+   ],
+   "answer": [
+    "Governments have spent",
+    "heavily on road safety;",
+    "nevertheless,",
+    "accidents remain",
+    "a serious problem."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "accordingly,",
+    "for example,"
+   ],
+   "hint": "\"Nevertheless\" introduces a surprising result: semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_017",
+   "connector": "nonetheless",
+   "function": "Contrast",
+   "sentences": [
+    "The hotel was expensive.",
+    "The guests enjoyed their stay."
+   ],
+   "answer": [
+    "The hotel",
+    "was expensive;",
+    "nonetheless,",
+    "the guests",
+    "enjoyed their stay."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "\"Nonetheless\" means \"in spite of this\"; use a semicolon before it and a comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_018",
+   "connector": "nonetheless",
+   "function": "Contrast",
+   "sentences": [
+    "Space research costs a great deal.",
+    "It has produced many useful inventions."
+   ],
+   "answer": [
+    "Space research",
+    "costs a great deal;",
+    "nonetheless,",
+    "it has produced",
+    "many useful inventions."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in other words,",
+    "for example,"
+   ],
+   "hint": "\"Nonetheless\" means \"in spite of this\"; use a semicolon before it and a comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_019",
+   "connector": "nonetheless",
+   "function": "Contrast",
+   "sentences": [
+    "The factory reduced its emissions.",
+    "Residents still complained about the air."
+   ],
+   "answer": [
+    "The factory",
+    "reduced its emissions;",
+    "nonetheless,",
+    "residents still complained",
+    "about the air."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "consequently,",
+    "for example,"
+   ],
+   "hint": "\"Nonetheless\" means \"in spite of this\"; use a semicolon before it and a comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_020",
+   "connector": "nonetheless",
+   "function": "Contrast",
+   "sentences": [
+    "The film had a small budget.",
+    "It became a big success."
+   ],
+   "answer": [
+    "The film",
+    "had a small budget;",
+    "nonetheless,",
+    "it became",
+    "a big success."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "\"Nonetheless\" means \"in spite of this\"; use a semicolon before it and a comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_021",
+   "connector": "nonetheless",
+   "function": "Contrast",
+   "sentences": [
+    "Some critics doubt the value of homework.",
+    "Most schools continue to set it."
+   ],
+   "answer": [
+    "Some critics doubt",
+    "the value of homework;",
+    "nonetheless,",
+    "most schools",
+    "continue to set it."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "hence,",
+    "likewise,"
+   ],
+   "hint": "\"Nonetheless\" means \"in spite of this\"; use a semicolon before it and a comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_022",
+   "connector": "nonetheless",
+   "function": "Contrast",
+   "sentences": [
+    "Older workers may learn new software slowly.",
+    "They often bring valuable experience."
+   ],
+   "answer": [
+    "Older workers may learn",
+    "new software slowly;",
+    "nonetheless,",
+    "they often bring",
+    "valuable experience."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "for instance,"
+   ],
+   "hint": "\"Nonetheless\" means \"in spite of this\"; use a semicolon before it and a comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_023",
+   "connector": "nonetheless",
+   "function": "Contrast",
+   "sentences": [
+    "The new tax was unpopular at first.",
+    "It eventually reduced plastic bag use."
+   ],
+   "answer": [
+    "The new tax",
+    "was unpopular at first;",
+    "nonetheless,",
+    "it eventually reduced",
+    "plastic bag use."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "as a consequence,",
+    "for instance,"
+   ],
+   "hint": "\"Nonetheless\" means \"in spite of this\"; use a semicolon before it and a comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_024",
+   "connector": "on the other hand",
+   "function": "Contrast",
+   "sentences": [
+    "City life offers many job opportunities.",
+    "Urban housing is very expensive."
+   ],
+   "answer": [
+    "City life",
+    "offers many job opportunities;",
+    "on the other hand,",
+    "urban housing",
+    "is very expensive."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "Use \"on the other hand\" to give the opposite side; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_025",
+   "connector": "on the other hand",
+   "function": "Contrast",
+   "sentences": [
+    "Living in the countryside is peaceful.",
+    "Public transport there is often poor."
+   ],
+   "answer": [
+    "Living in the countryside",
+    "is peaceful;",
+    "on the other hand,",
+    "public transport there",
+    "is often poor."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "Use \"on the other hand\" to give the opposite side; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_026",
+   "connector": "on the other hand",
+   "function": "Contrast",
+   "sentences": [
+    "Studying abroad broadens students' horizons.",
+    "It can be extremely expensive."
+   ],
+   "answer": [
+    "Studying abroad",
+    "broadens students' horizons;",
+    "on the other hand,",
+    "it can be",
+    "extremely expensive."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "consequently,",
+    "for instance,"
+   ],
+   "hint": "Use \"on the other hand\" to give the opposite side; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_027",
+   "connector": "on the other hand",
+   "function": "Contrast",
+   "sentences": [
+    "Cars are fast and comfortable.",
+    "They cause a lot of pollution."
+   ],
+   "answer": [
+    "Cars are",
+    "fast and comfortable;",
+    "on the other hand,",
+    "they cause",
+    "a lot of pollution."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "so that"
+   ],
+   "hint": "Use \"on the other hand\" to give the opposite side; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_028",
+   "connector": "on the other hand",
+   "function": "Contrast",
+   "sentences": [
+    "Social media helps people stay in touch.",
+    "It can spread false information quickly."
+   ],
+   "answer": [
+    "Social media helps people",
+    "stay in touch;",
+    "on the other hand,",
+    "it can spread",
+    "false information quickly."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "for example,",
+    "in other words,"
+   ],
+   "hint": "Use \"on the other hand\" to give the opposite side; semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_029",
+   "connector": "on the other hand",
+   "function": "Contrast",
+   "sentences": [
+    "Working from home offers flexibility.",
+    "It can blur the line between work and rest."
+   ],
+   "answer": [
+    "Working from home",
+    "offers flexibility;",
+    "on the other hand,",
+    "it can blur the line",
+    "between work and rest."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for this reason,",
+    "because"
+   ],
+   "hint": "Use \"on the other hand\" to give the opposite side; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_030",
+   "connector": "on the other hand",
+   "function": "Contrast",
+   "sentences": [
+    "Large supermarkets offer low prices.",
+    "Small shops give more personal service."
+   ],
+   "answer": [
+    "Large supermarkets",
+    "offer low prices;",
+    "on the other hand,",
+    "small shops give",
+    "more personal service."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "Use \"on the other hand\" to give the opposite side; semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_031",
+   "connector": "on the other hand",
+   "function": "Contrast",
+   "sentences": [
+    "Television news is quick to watch.",
+    "Newspapers give more detailed reports."
+   ],
+   "answer": [
+    "Television news",
+    "is quick to watch;",
+    "on the other hand,",
+    "newspapers give",
+    "more detailed reports."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "Use \"on the other hand\" to give the opposite side; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_032",
+   "connector": "on the contrary",
+   "function": "Rejecting a claim",
+   "sentences": [
+    "Video games are not a waste of time.",
+    "They can improve problem-solving skills."
+   ],
+   "answer": [
+    "Video games",
+    "are not a waste of time;",
+    "on the contrary,",
+    "they can improve",
+    "problem-solving skills."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "\"On the contrary\" follows a negative statement and says that the opposite is true.",
+   "level": 2
+  },
+  {
+   "id": "contrast_033",
+   "connector": "on the contrary",
+   "function": "Rejecting a claim",
+   "sentences": [
+    "Tourism did not harm the village.",
+    "It brought new life to the area."
+   ],
+   "answer": [
+    "Tourism",
+    "did not harm the village;",
+    "on the contrary,",
+    "it brought",
+    "new life to the area."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "as a result,"
+   ],
+   "hint": "\"On the contrary\" follows a negative statement and says that the opposite is true.",
+   "level": 2
+  },
+  {
+   "id": "contrast_034",
+   "connector": "on the contrary",
+   "function": "Rejecting a claim",
+   "sentences": [
+    "The new rules did not slow production.",
+    "They made the factory more efficient."
+   ],
+   "answer": [
+    "The new rules",
+    "did not slow production;",
+    "on the contrary,",
+    "they made the factory",
+    "more efficient."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "\"On the contrary\" follows a negative statement and says that the opposite is true.",
+   "level": 3
+  },
+  {
+   "id": "contrast_035",
+   "connector": "on the contrary",
+   "function": "Rejecting a claim",
+   "sentences": [
+    "The children were not bored by the lesson.",
+    "They found it fascinating."
+   ],
+   "answer": [
+    "The children",
+    "were not bored by the lesson;",
+    "on the contrary,",
+    "they found it",
+    "fascinating."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for instance,"
+   ],
+   "hint": "\"On the contrary\" follows a negative statement and says that the opposite is true.",
+   "level": 2
+  },
+  {
+   "id": "contrast_036",
+   "connector": "conversely",
+   "function": "Contrast",
+   "sentences": [
+    "Some children learn best by listening.",
+    "Others learn best through practical tasks."
+   ],
+   "answer": [
+    "Some children",
+    "learn best by listening;",
+    "conversely,",
+    "others learn best",
+    "through practical tasks."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "for example,"
+   ],
+   "hint": "\"Conversely\" introduces the reverse situation; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_037",
+   "connector": "conversely",
+   "function": "Contrast",
+   "sentences": [
+    "Higher fuel prices reduce car use.",
+    "Cheaper fuel encourages people to drive more."
+   ],
+   "answer": [
+    "Higher fuel prices",
+    "reduce car use;",
+    "conversely,",
+    "cheaper fuel",
+    "encourages more driving."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "consequently,",
+    "because"
+   ],
+   "hint": "\"Conversely\" introduces the reverse situation; semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_038",
+   "connector": "conversely",
+   "function": "Contrast",
+   "sentences": [
+    "Exports rose in the first half of the year.",
+    "Imports fell during the same period."
+   ],
+   "answer": [
+    "Exports rose",
+    "in the first half of the year;",
+    "conversely,",
+    "imports fell",
+    "during the same period."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "for instance,"
+   ],
+   "hint": "\"Conversely\" introduces the reverse situation; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_039",
+   "connector": "conversely",
+   "function": "Contrast",
+   "sentences": [
+    "Warm weather increases ice cream sales.",
+    "Cold weather increases sales of hot drinks."
+   ],
+   "answer": [
+    "Warm weather",
+    "increases ice cream sales;",
+    "conversely,",
+    "cold weather",
+    "boosts sales of hot drinks."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "for example,"
+   ],
+   "hint": "\"Conversely\" introduces the reverse situation; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_040",
+   "connector": "conversely",
+   "function": "Contrast",
+   "sentences": [
+    "Strict parents may produce obedient children.",
+    "Relaxed parents may encourage independence."
+   ],
+   "answer": [
+    "Strict parents may produce",
+    "obedient children;",
+    "conversely,",
+    "relaxed parents",
+    "may encourage independence."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "therefore,",
+    "similarly,"
+   ],
+   "hint": "\"Conversely\" introduces the reverse situation; semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_041",
+   "connector": "conversely",
+   "function": "Contrast",
+   "sentences": [
+    "Rural areas have lost population.",
+    "Cities have grown rapidly."
+   ],
+   "answer": [
+    "Rural areas",
+    "have lost population;",
+    "conversely,",
+    "cities",
+    "have grown rapidly."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "because"
+   ],
+   "hint": "\"Conversely\" introduces the reverse situation; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_042",
+   "connector": "conversely",
+   "function": "Contrast",
+   "sentences": [
+    "Some workers prefer fixed hours.",
+    "Others want flexible schedules."
+   ],
+   "answer": [
+    "Some workers",
+    "prefer fixed hours;",
+    "conversely,",
+    "others want",
+    "flexible schedules."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "\"Conversely\" introduces the reverse situation; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_043",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Young people often get news online.",
+    "Older people tend to watch television."
+   ],
+   "answer": [
+    "Young people",
+    "often get news online;",
+    "in contrast,",
+    "older people",
+    "tend to watch television."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "for example,"
+   ],
+   "hint": "\"In contrast\" compares two different things; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_044",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Northern regions receive heavy rainfall.",
+    "The south is mostly dry."
+   ],
+   "answer": [
+    "Northern regions",
+    "receive heavy rainfall;",
+    "in contrast,",
+    "the south",
+    "is mostly dry."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as a result,",
+    "because"
+   ],
+   "hint": "\"In contrast\" compares two different things; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_045",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Public schools are free to attend.",
+    "Private schools charge high fees."
+   ],
+   "answer": [
+    "Public schools",
+    "are free to attend;",
+    "in contrast,",
+    "private schools",
+    "charge high fees."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for instance,"
+   ],
+   "hint": "\"In contrast\" compares two different things; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_046",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "In the chart, car sales rose steadily.",
+    "Bicycle sales remained flat."
+   ],
+   "answer": [
+    "In the chart, car sales",
+    "rose steadily;",
+    "in contrast,",
+    "bicycle sales",
+    "remained flat."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "similarly,"
+   ],
+   "hint": "\"In contrast\" compares two different things; semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_047",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Traditional jobs offer security.",
+    "Freelance work offers more freedom."
+   ],
+   "answer": [
+    "Traditional jobs",
+    "offer security;",
+    "in contrast,",
+    "freelance work",
+    "offers more freedom."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "\"In contrast\" compares two different things; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_048",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Fresh food spoils quickly.",
+    "Tinned food lasts for years."
+   ],
+   "answer": [
+    "Fresh food",
+    "spoils quickly;",
+    "in contrast,",
+    "tinned food",
+    "lasts for years."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so that",
+    "for example,"
+   ],
+   "hint": "\"In contrast\" compares two different things; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_049",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Manufacturing employment has declined.",
+    "The service sector has expanded."
+   ],
+   "answer": [
+    "Manufacturing employment",
+    "has declined;",
+    "in contrast,",
+    "the service sector",
+    "has expanded."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "\"In contrast\" compares two different things; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_050",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Some museums are free to enter.",
+    "Most theme parks are expensive."
+   ],
+   "answer": [
+    "Some museums",
+    "are free to enter;",
+    "in contrast,",
+    "most theme parks",
+    "are expensive."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "likewise,"
+   ],
+   "hint": "\"In contrast\" compares two different things; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_051",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Some students prefer group work.",
+    "Others prefer to study alone."
+   ],
+   "answer": [
+    "Some students",
+    "prefer group work,",
+    "whereas",
+    "others prefer",
+    "to study alone."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "Put \"whereas\" after a comma, between the two contrasting facts.",
+   "level": 1
+  },
+  {
+   "id": "contrast_052",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Coal is a non-renewable resource.",
+    "Wind power is renewable."
+   ],
+   "answer": [
+    "Coal is",
+    "a non-renewable resource,",
+    "whereas",
+    "wind power",
+    "is renewable."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "Put \"whereas\" after a comma, between the two contrasting facts.",
+   "level": 1
+  },
+  {
+   "id": "contrast_053",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Urban families tend to be small.",
+    "Rural families are often larger."
+   ],
+   "answer": [
+    "Urban families",
+    "tend to be small,",
+    "whereas",
+    "rural families",
+    "are often larger."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "since",
+    "so"
+   ],
+   "hint": "Put \"whereas\" after a comma, between the two contrasting facts.",
+   "level": 1
+  },
+  {
+   "id": "contrast_054",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Some people see tourism as a benefit.",
+    "Others see it as a threat to local culture."
+   ],
+   "answer": [
+    "Whereas",
+    "some people see tourism",
+    "as a benefit,",
+    "others view it",
+    "as a cultural threat."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because",
+    "Therefore"
+   ],
+   "hint": "When a sentence starts with \"Whereas\", a comma separates the two contrasting clauses.",
+   "level": 3
+  },
+  {
+   "id": "contrast_055",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Cats are independent animals.",
+    "Dogs need a lot of attention."
+   ],
+   "answer": [
+    "Cats are",
+    "independent animals,",
+    "whereas",
+    "dogs need",
+    "a lot of attention."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "Put \"whereas\" after a comma, between the two contrasting facts.",
+   "level": 1
+  },
+  {
+   "id": "contrast_056",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Printed books are easy on the eyes.",
+    "Screens can cause eye strain."
+   ],
+   "answer": [
+    "Printed books",
+    "are easy on the eyes,",
+    "whereas",
+    "screens can cause",
+    "eye strain."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "Put \"whereas\" after a comma, between the two contrasting facts.",
+   "level": 2
+  },
+  {
+   "id": "contrast_057",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "In the chart, coffee consumption doubled.",
+    "Tea consumption fell slightly."
+   ],
+   "answer": [
+    "In the chart,",
+    "coffee consumption doubled,",
+    "whereas",
+    "tea consumption",
+    "fell slightly."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so that",
+    "because"
+   ],
+   "hint": "Put \"whereas\" after a comma, between the two contrasting facts.",
+   "level": 2
+  },
+  {
+   "id": "contrast_058",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Some employers value degrees highly.",
+    "Others care more about experience."
+   ],
+   "answer": [
+    "Some employers",
+    "value degrees highly,",
+    "whereas",
+    "others care more",
+    "about experience."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "Put \"whereas\" after a comma, between the two contrasting facts.",
+   "level": 1
+  },
+  {
+   "id": "contrast_059",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Some people enjoy cooking at home.",
+    "Others prefer eating out."
+   ],
+   "answer": [
+    "Some people",
+    "enjoy cooking at home,",
+    "while",
+    "others prefer",
+    "eating out."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"While\" can contrast two facts; put a comma before it and then the second clause.",
+   "level": 1
+  },
+  {
+   "id": "contrast_060",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "City centres are noisy.",
+    "Suburbs are generally quieter."
+   ],
+   "answer": [
+    "City centres",
+    "are noisy,",
+    "while",
+    "suburbs are",
+    "generally quieter."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"While\" can contrast two facts; put a comma before it and then the second clause.",
+   "level": 1
+  },
+  {
+   "id": "contrast_061",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Some experts support nuclear power.",
+    "Other experts strongly oppose it."
+   ],
+   "answer": [
+    "While",
+    "some experts support",
+    "nuclear power,",
+    "others",
+    "strongly oppose it."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because",
+    "So"
+   ],
+   "hint": "A fronted \"While\" clause gives one view; after the comma, the main clause gives the other.",
+   "level": 3
+  },
+  {
+   "id": "contrast_062",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Boys in the survey preferred football.",
+    "Girls in the survey preferred tennis."
+   ],
+   "answer": [
+    "In the survey, boys",
+    "preferred football,",
+    "while",
+    "girls",
+    "preferred tennis."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"While\" can contrast two facts; put a comma before it and then the second clause.",
+   "level": 2
+  },
+  {
+   "id": "contrast_063",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Summers here are hot.",
+    "Winters here are mild."
+   ],
+   "answer": [
+    "Summers here",
+    "are hot,",
+    "while",
+    "winters",
+    "are mild."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"While\" can contrast two facts; put a comma before it and then the second clause.",
+   "level": 1
+  },
+  {
+   "id": "contrast_064",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Online courses suit busy adults.",
+    "Campus courses suit school leavers better."
+   ],
+   "answer": [
+    "Online courses suit",
+    "busy adults,",
+    "while",
+    "campus courses",
+    "suit school leavers better."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"While\" can contrast two facts; put a comma before it and then the second clause.",
+   "level": 2
+  },
+  {
+   "id": "contrast_065",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Rice exports increased over the period.",
+    "Wheat exports decreased over the same period."
+   ],
+   "answer": [
+    "Rice exports",
+    "increased over the period,",
+    "while",
+    "wheat exports",
+    "decreased."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"While\" can contrast two facts; put a comma before it and then the second clause.",
+   "level": 1
+  },
+  {
+   "id": "contrast_066",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Older employees value job security.",
+    "Younger employees value career growth."
+   ],
+   "answer": [
+    "Older employees",
+    "value job security,",
+    "while",
+    "younger employees",
+    "value career growth."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"While\" can contrast two facts; put a comma before it and then the second clause.",
+   "level": 1
+  },
+  {
+   "id": "contrast_067",
+   "connector": "yet",
+   "function": "Contrast",
+   "sentences": [
+    "The flat is small.",
+    "It is very comfortable."
+   ],
+   "answer": [
+    "The flat",
+    "is small,",
+    "yet",
+    "it is",
+    "very comfortable."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Yet\" works like \"but\" with a comma before it; the second idea is surprising.",
+   "level": 1
+  },
+  {
+   "id": "contrast_068",
+   "connector": "yet",
+   "function": "Contrast",
+   "sentences": [
+    "The country has few natural resources.",
+    "It has a strong economy."
+   ],
+   "answer": [
+    "The country has",
+    "few natural resources,",
+    "yet",
+    "it has",
+    "a strong economy."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Yet\" works like \"but\" with a comma before it; the second idea is surprising.",
+   "level": 2
+  },
+  {
+   "id": "contrast_069",
+   "connector": "yet",
+   "function": "Contrast",
+   "sentences": [
+    "Many people know smoking is harmful.",
+    "They continue to smoke."
+   ],
+   "answer": [
+    "Many people know",
+    "smoking is harmful,",
+    "yet",
+    "they continue",
+    "to smoke."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Yet\" works like \"but\" with a comma before it; the second idea is surprising.",
+   "level": 2
+  },
+  {
+   "id": "contrast_070",
+   "connector": "yet",
+   "function": "Contrast",
+   "sentences": [
+    "The treatment seemed effective in early tests.",
+    "It failed in larger studies."
+   ],
+   "answer": [
+    "The treatment seemed effective",
+    "in early tests,",
+    "yet",
+    "it failed",
+    "in larger studies."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Yet\" works like \"but\" with a comma before it; the second idea is surprising.",
+   "level": 3
+  },
+  {
+   "id": "contrast_071",
+   "connector": "yet",
+   "function": "Contrast",
+   "sentences": [
+    "The test was short.",
+    "It was very hard."
+   ],
+   "answer": [
+    "The test",
+    "was short,",
+    "yet",
+    "it was",
+    "very hard."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Yet\" works like \"but\" with a comma before it; the second idea is surprising.",
+   "level": 1
+  },
+  {
+   "id": "contrast_072",
+   "connector": "yet",
+   "function": "Contrast",
+   "sentences": [
+    "Public parks cost little to maintain.",
+    "They greatly improve residents' well-being."
+   ],
+   "answer": [
+    "Public parks",
+    "cost little to maintain,",
+    "yet",
+    "they greatly improve",
+    "residents' well-being."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Yet\" works like \"but\" with a comma before it; the second idea is surprising.",
+   "level": 2
+  },
+  {
+   "id": "contrast_073",
+   "connector": "yet",
+   "function": "Contrast",
+   "sentences": [
+    "Renewable energy is becoming cheaper.",
+    "Fossil fuels still dominate global supply."
+   ],
+   "answer": [
+    "Renewable energy",
+    "is becoming cheaper,",
+    "yet",
+    "fossil fuels still",
+    "dominate global supply."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "therefore"
+   ],
+   "hint": "\"Yet\" works like \"but\" with a comma before it; the second idea is surprising.",
+   "level": 3
+  },
+  {
+   "id": "contrast_074",
+   "connector": "yet",
+   "function": "Contrast",
+   "sentences": [
+    "The village is remote.",
+    "It attracts many tourists."
+   ],
+   "answer": [
+    "The village",
+    "is remote,",
+    "yet",
+    "it attracts",
+    "many tourists."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "because"
+   ],
+   "hint": "\"Yet\" works like \"but\" with a comma before it; the second idea is surprising.",
+   "level": 1
+  },
+  {
+   "id": "contrast_075",
+   "connector": "but",
+   "function": "Contrast",
+   "sentences": [
+    "The new phone is expensive.",
+    "It sells very well."
+   ],
+   "answer": [
+    "The new phone",
+    "is expensive,",
+    "but",
+    "it sells",
+    "very well."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "unless"
+   ],
+   "hint": "Use a comma before \"but\", then a full clause with its own subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "contrast_076",
+   "connector": "but",
+   "function": "Contrast",
+   "sentences": [
+    "The council promised new housing.",
+    "Little has been built."
+   ],
+   "answer": [
+    "The council",
+    "promised new housing,",
+    "but",
+    "little",
+    "has been built."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "Use a comma before \"but\", then a full clause with its own subject and verb.",
+   "level": 2
+  },
+  {
+   "id": "contrast_077",
+   "connector": "but",
+   "function": "Contrast",
+   "sentences": [
+    "Many people want to exercise.",
+    "They lack free time."
+   ],
+   "answer": [
+    "Many people",
+    "want to exercise,",
+    "but",
+    "they lack",
+    "free time."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "Use a comma before \"but\", then a full clause with its own subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "contrast_078",
+   "connector": "but",
+   "function": "Contrast",
+   "sentences": [
+    "Gap years can be valuable.",
+    "They may delay a student's career."
+   ],
+   "answer": [
+    "Gap years",
+    "can be valuable,",
+    "but",
+    "they may delay",
+    "a student's career."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "Use a comma before \"but\", then a full clause with its own subject and verb.",
+   "level": 2
+  },
+  {
+   "id": "contrast_079",
+   "connector": "but",
+   "function": "Contrast",
+   "sentences": [
+    "The bus is cheap.",
+    "It is often late."
+   ],
+   "answer": [
+    "The bus",
+    "is cheap,",
+    "but",
+    "it is",
+    "often late."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "unless"
+   ],
+   "hint": "Use a comma before \"but\", then a full clause with its own subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "contrast_080",
+   "connector": "but",
+   "function": "Contrast",
+   "sentences": [
+    "Robots can do repetitive tasks.",
+    "They cannot replace human creativity."
+   ],
+   "answer": [
+    "Robots can do",
+    "repetitive tasks,",
+    "but",
+    "they cannot replace",
+    "human creativity."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "Use a comma before \"but\", then a full clause with its own subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "contrast_081",
+   "connector": "but",
+   "function": "Contrast",
+   "sentences": [
+    "Some parents limit screen time strictly.",
+    "Their children may use devices secretly."
+   ],
+   "answer": [
+    "Some parents",
+    "limit screen time strictly,",
+    "but",
+    "their children may",
+    "use devices secretly."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "so that",
+    "because"
+   ],
+   "hint": "Use a comma before \"but\", then a full clause with its own subject and verb.",
+   "level": 3
+  },
+  {
+   "id": "contrast_082",
+   "connector": "but",
+   "function": "Contrast",
+   "sentences": [
+    "Organic vegetables are popular.",
+    "They cost more than ordinary ones."
+   ],
+   "answer": [
+    "Organic vegetables",
+    "are popular,",
+    "but",
+    "they cost more",
+    "than ordinary ones."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "so that"
+   ],
+   "hint": "Use a comma before \"but\", then a full clause with its own subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "contrast_083",
+   "connector": "even so",
+   "function": "Contrast",
+   "sentences": [
+    "The concert tickets were expensive.",
+    "They sold out in an hour."
+   ],
+   "answer": [
+    "The concert tickets",
+    "were expensive;",
+    "even so,",
+    "they sold out",
+    "in an hour."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "\"Even so\" means \"despite this\"; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_084",
+   "connector": "even so",
+   "function": "Contrast",
+   "sentences": [
+    "The new airport created many jobs.",
+    "Many residents opposed it."
+   ],
+   "answer": [
+    "The new airport",
+    "created many jobs;",
+    "even so,",
+    "many residents",
+    "opposed it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as a result,",
+    "for example,"
+   ],
+   "hint": "\"Even so\" means \"despite this\"; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_085",
+   "connector": "even so",
+   "function": "Contrast",
+   "sentences": [
+    "The diet helped people lose weight.",
+    "Few people followed it for long."
+   ],
+   "answer": [
+    "The diet helped people",
+    "lose weight;",
+    "even so,",
+    "few people",
+    "followed it for long."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "consequently,",
+    "because"
+   ],
+   "hint": "\"Even so\" means \"despite this\"; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_086",
+   "connector": "even so",
+   "function": "Contrast",
+   "sentences": [
+    "Crime in the city has fallen.",
+    "Many residents still feel unsafe at night."
+   ],
+   "answer": [
+    "Crime in the city",
+    "has fallen;",
+    "even so,",
+    "many residents",
+    "still feel unsafe at night."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "similarly,"
+   ],
+   "hint": "\"Even so\" means \"despite this\"; semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_087",
+   "connector": "even so",
+   "function": "Contrast",
+   "sentences": [
+    "The team trained hard all season.",
+    "It lost the final."
+   ],
+   "answer": [
+    "The team",
+    "trained hard all season;",
+    "even so,",
+    "it lost",
+    "the final."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "\"Even so\" means \"despite this\"; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_088",
+   "connector": "even so",
+   "function": "Contrast",
+   "sentences": [
+    "Recycling saves energy and materials.",
+    "It cannot solve the waste problem alone."
+   ],
+   "answer": [
+    "Recycling saves",
+    "energy and materials;",
+    "even so,",
+    "it cannot solve",
+    "the waste problem alone."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "as a result,",
+    "for instance,"
+   ],
+   "hint": "\"Even so\" means \"despite this\"; semicolon before it, comma after it.",
+   "level": 3
+  },
+  {
+   "id": "contrast_089",
+   "connector": "even so",
+   "function": "Contrast",
+   "sentences": [
+    "The course was free.",
+    "Few people signed up for it."
+   ],
+   "answer": [
+    "The course",
+    "was free;",
+    "even so,",
+    "few people",
+    "signed up for it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "therefore,",
+    "because"
+   ],
+   "hint": "\"Even so\" means \"despite this\"; semicolon before it, comma after it.",
+   "level": 1
+  },
+  {
+   "id": "contrast_090",
+   "connector": "even so",
+   "function": "Contrast",
+   "sentences": [
+    "Home prices have fallen slightly.",
+    "Many young people still cannot afford a home."
+   ],
+   "answer": [
+    "Home prices",
+    "have fallen slightly;",
+    "even so,",
+    "many young people",
+    "still cannot afford a home."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "consequently,",
+    "for example,"
+   ],
+   "hint": "\"Even so\" means \"despite this\"; semicolon before it, comma after it.",
+   "level": 2
+  },
+  {
+   "id": "contrast_091",
+   "connector": "instead",
+   "function": "Alternative",
+   "sentences": [
+    "The council did not build a new road.",
+    "It improved the railway line."
+   ],
+   "answer": [
+    "The council",
+    "did not build a new road;",
+    "instead,",
+    "it improved",
+    "the railway line."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "for example,"
+   ],
+   "hint": "After a negative clause, \"instead\" introduces what happened in its place.",
+   "level": 1
+  },
+  {
+   "id": "contrast_092",
+   "connector": "instead",
+   "function": "Alternative",
+   "sentences": [
+    "Many young people do not buy newspapers.",
+    "They read the news on their phones."
+   ],
+   "answer": [
+    "Many young people",
+    "do not buy newspapers;",
+    "instead,",
+    "they read the news",
+    "on their phones."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "because"
+   ],
+   "hint": "After a negative clause, \"instead\" introduces what happened in its place.",
+   "level": 2
+  },
+  {
+   "id": "contrast_093",
+   "connector": "instead",
+   "function": "Alternative",
+   "sentences": [
+    "The company did not cut wages.",
+    "It reduced working hours."
+   ],
+   "answer": [
+    "The company",
+    "did not cut wages;",
+    "instead,",
+    "it reduced",
+    "working hours."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "similarly,"
+   ],
+   "hint": "After a negative clause, \"instead\" introduces what happened in its place.",
+   "level": 1
+  },
+  {
+   "id": "contrast_094",
+   "connector": "instead",
+   "function": "Alternative",
+   "sentences": [
+    "The school stopped giving homework.",
+    "Pupils now do extra reading in class."
+   ],
+   "answer": [
+    "The school",
+    "stopped giving homework;",
+    "instead,",
+    "pupils now do",
+    "extra reading in class."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "similarly,"
+   ],
+   "hint": "After a negative clause, \"instead\" introduces what happened in its place.",
+   "level": 2
+  },
+  {
+   "id": "contrast_095",
+   "connector": "instead",
+   "function": "Alternative",
+   "sentences": [
+    "Some families do not own a car.",
+    "They use public transport."
+   ],
+   "answer": [
+    "Some families",
+    "do not own a car;",
+    "instead,",
+    "they use",
+    "public transport."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "similarly,"
+   ],
+   "hint": "After a negative clause, \"instead\" introduces what happened in its place.",
+   "level": 1
+  },
+  {
+   "id": "contrast_096",
+   "connector": "instead",
+   "function": "Alternative",
+   "sentences": [
+    "The government did not ban plastic bags.",
+    "It introduced a small charge for them."
+   ],
+   "answer": [
+    "The government",
+    "did not ban plastic bags;",
+    "instead,",
+    "it introduced",
+    "a small charge for them."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "because"
+   ],
+   "hint": "After a negative clause, \"instead\" introduces what happened in its place.",
+   "level": 2
+  },
+  {
+   "id": "contrast_097",
+   "connector": "instead",
+   "function": "Alternative",
+   "sentences": [
+    "Many older people do not retire completely.",
+    "They take part-time jobs."
+   ],
+   "answer": [
+    "Many older people",
+    "do not retire completely;",
+    "instead,",
+    "they take",
+    "part-time jobs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "likewise,"
+   ],
+   "hint": "After a negative clause, \"instead\" introduces what happened in its place.",
+   "level": 2
+  },
+  {
+   "id": "contrast_098",
+   "connector": "instead",
+   "function": "Alternative",
+   "sentences": [
+    "The museum did not raise ticket prices.",
+    "It asked visitors for donations."
+   ],
+   "answer": [
+    "The museum did not raise",
+    "ticket prices;",
+    "instead,",
+    "it asked visitors",
+    "for donations."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "because",
+    "similarly,"
+   ],
+   "hint": "After a negative clause, \"instead\" introduces what happened in its place.",
+   "level": 3
+  },
+  {
+   "id": "contrast_099",
+   "connector": "notwithstanding",
+   "function": "Contrast",
+   "sentences": [
+    "The project was very expensive.",
+    "The council approved it."
+   ],
+   "answer": [
+    "Notwithstanding",
+    "the high cost,",
+    "the council",
+    "approved the project."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because of",
+    "Although"
+   ],
+   "hint": "Formal \"notwithstanding\" takes a noun phrase, then a comma and the main clause.",
+   "level": 3
+  },
+  {
+   "id": "contrast_100",
+   "connector": "notwithstanding",
+   "function": "Contrast",
+   "sentences": [
+    "The weather was very poor.",
+    "The festival attracted large crowds."
+   ],
+   "answer": [
+    "Notwithstanding",
+    "the poor weather,",
+    "the festival",
+    "attracted large crowds."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Due to",
+    "Although"
+   ],
+   "hint": "Formal \"notwithstanding\" takes a noun phrase, then a comma and the main clause.",
+   "level": 3
+  }
+ ]
+}

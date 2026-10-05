@@ -145,10 +145,10 @@ class SplashScreen extends StatelessWidget {
                         width: 22,
                         height: 22,
                         decoration: BoxDecoration(
-                          color: t.primary,
+                          color: t.peach,
                           shape: BoxShape.circle,
                         ),
-                        child: Icon(AppIcons.check, size: 13, color: t.onPrimary),
+                        child: const Icon(AppIcons.check, size: 13, color: kOnPeach),
                       ),
                       Text(
                         data.s('featurePill'),
@@ -209,11 +209,16 @@ class _TargetCard extends StatelessWidget {
             children: [
               Expanded(
                 child: Text(
-                  'Target band',
-                  style: TextStyle(fontSize: 14, color: t.heroMuted),
+                  'Target band'.toUpperCase(),
+                  style: TextStyle(
+                    fontSize: 11,
+                    letterSpacing: 1.1,
+                    fontWeight: FontWeight.w600,
+                    color: t.peach,
+                  ),
                 ),
               ),
-              Icon(AppIcons.northEast, size: 22, color: t.heroText),
+              Icon(AppIcons.northEast, size: 22, color: t.peach),
             ],
           ),
           Flexible(

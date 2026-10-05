@@ -1,0 +1,2298 @@
+{
+  "category": "condition",
+  "drills": [
+    {
+      "id": "condition_001",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "The government may raise fuel taxes.",
+        "Then fewer people will drive."
+      ],
+      "answer": [
+        "If",
+        "the government raises",
+        "fuel taxes,",
+        "fewer people",
+        "will drive."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "Use the present simple after \"if\" and \"will\" in the main clause.",
+      "level": 1
+    },
+    {
+      "id": "condition_002",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Students might revise every day.",
+        "Then they will do better in exams."
+      ],
+      "answer": [
+        "Students",
+        "will do better in exams",
+        "if",
+        "they revise",
+        "every day."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "No comma is needed when \"if\" comes in the middle of the sentence.",
+      "level": 1
+    },
+    {
+      "id": "condition_003",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Cities may plant more trees.",
+        "Then the air will be cleaner."
+      ],
+      "answer": [
+        "If",
+        "cities plant",
+        "more trees,",
+        "the air",
+        "will be cleaner."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Although"
+      ],
+      "hint": "Put a comma after the \"if\" clause when it starts the sentence.",
+      "level": 1
+    },
+    {
+      "id": "condition_004",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Employees may get flexible hours.",
+        "Then they will feel less stressed."
+      ],
+      "answer": [
+        "Employees",
+        "will feel less stressed",
+        "if",
+        "they get",
+        "flexible hours."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "although"
+      ],
+      "hint": "The condition comes after \"if\"; the result uses \"will\".",
+      "level": 1
+    },
+    {
+      "id": "condition_005",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Children may eat too much sugar.",
+        "Then they will damage their teeth."
+      ],
+      "answer": [
+        "If",
+        "children eat",
+        "too much sugar,",
+        "they will damage",
+        "their teeth."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Whereas"
+      ],
+      "hint": "After \"if\", use the present simple even though the meaning is future.",
+      "level": 1
+    },
+    {
+      "id": "condition_006",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "More tourists may visit the island.",
+        "Then local businesses will earn more."
+      ],
+      "answer": [
+        "Local businesses",
+        "will earn more",
+        "if",
+        "more tourists",
+        "visit the island."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "although"
+      ],
+      "hint": "The result can come first; then \"if\" introduces the condition.",
+      "level": 1
+    },
+    {
+      "id": "condition_007",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "People may recycle their plastic bottles.",
+        "Then less waste will go to landfill."
+      ],
+      "answer": [
+        "If",
+        "people recycle",
+        "their plastic bottles,",
+        "less waste",
+        "will go to landfill."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Although",
+        "Despite"
+      ],
+      "hint": "Start with the condition, add a comma, then give the result with \"will\".",
+      "level": 1
+    },
+    {
+      "id": "condition_008",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "More people may work from home.",
+        "Then city roads will be quieter."
+      ],
+      "answer": [
+        "If",
+        "more people",
+        "work from home,",
+        "city roads",
+        "will be quieter."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "will work from home,",
+        "Despite"
+      ],
+      "hint": "Do not use \"will\" in the \"if\" clause, even for a future idea.",
+      "level": 3
+    },
+    {
+      "id": "condition_009",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Hospitals may hire more nurses.",
+        "Then patients will wait less."
+      ],
+      "answer": [
+        "Patients",
+        "will wait less",
+        "if",
+        "hospitals hire",
+        "more nurses."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "so that"
+      ],
+      "hint": "Give the result first, then add \"if\" + present simple.",
+      "level": 1
+    },
+    {
+      "id": "condition_010",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "You may read English news daily.",
+        "Then your vocabulary will grow quickly."
+      ],
+      "answer": [
+        "If",
+        "you read English news",
+        "daily,",
+        "your vocabulary",
+        "will grow quickly."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because of",
+        "Despite"
+      ],
+      "hint": "\"If\" + present simple gives a real future possibility.",
+      "level": 1
+    },
+    {
+      "id": "condition_011",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Food prices may continue to rise.",
+        "Then poorer families will struggle."
+      ],
+      "answer": [
+        "Poorer families",
+        "will struggle",
+        "if",
+        "food prices",
+        "continue to rise."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "will continue to rise.",
+        "because of"
+      ],
+      "hint": "Use the present simple, not \"will\", in the \"if\" clause.",
+      "level": 3
+    },
+    {
+      "id": "condition_012",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "A city may build a new metro line.",
+        "Then traffic jams will decrease."
+      ],
+      "answer": [
+        "If",
+        "a city builds",
+        "a new metro line,",
+        "traffic jams",
+        "will decrease."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Even though"
+      ],
+      "hint": "Use a third-person \"-s\" verb after \"if\" with a singular subject.",
+      "level": 2
+    },
+    {
+      "id": "condition_013",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Young people may not exercise.",
+        "Then they will face health problems later."
+      ],
+      "answer": [
+        "If",
+        "young people",
+        "do not exercise,",
+        "they will face",
+        "health problems later."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "will not exercise,",
+        "Despite"
+      ],
+      "hint": "A negative condition after \"if\" still uses the present simple.",
+      "level": 3
+    },
+    {
+      "id": "condition_014",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose public transport were free.",
+        "Far fewer people would drive."
+      ],
+      "answer": [
+        "If",
+        "public transport",
+        "were free,",
+        "far fewer people",
+        "would drive."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "will be free,",
+        "Despite"
+      ],
+      "hint": "For an unreal situation, use the past after \"if\" and \"would\" in the result.",
+      "level": 2
+    },
+    {
+      "id": "condition_015",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose every school had a garden.",
+        "Children would learn more about food."
+      ],
+      "answer": [
+        "Children",
+        "would learn more about food",
+        "if",
+        "every school",
+        "had a garden."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "has a garden.",
+        "although"
+      ],
+      "hint": "Second conditional: \"would\" in the result and past simple after \"if\".",
+      "level": 2
+    },
+    {
+      "id": "condition_016",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose I had more free time.",
+        "I would learn a new language."
+      ],
+      "answer": [
+        "If",
+        "I had",
+        "more free time,",
+        "I would learn",
+        "a new language."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "Use the past simple after \"if\" for an imaginary situation.",
+      "level": 1
+    },
+    {
+      "id": "condition_017",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose cars were banned from city centres.",
+        "Streets would be safer for cyclists."
+      ],
+      "answer": [
+        "If",
+        "cars were banned",
+        "from city centres,",
+        "streets would be",
+        "safer for cyclists."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Whereas"
+      ],
+      "hint": "A passive verb in the past works after \"if\" in a second conditional.",
+      "level": 2
+    },
+    {
+      "id": "condition_018",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose governments taxed sugary drinks heavily.",
+        "People would consume less sugar."
+      ],
+      "answer": [
+        "People",
+        "would consume less sugar",
+        "if",
+        "governments taxed",
+        "sugary drinks heavily."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "governments will tax",
+        "because of"
+      ],
+      "hint": "Match \"would\" in the result with a past verb after \"if\".",
+      "level": 3
+    },
+    {
+      "id": "condition_019",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose housing were cheaper.",
+        "More young people would buy homes."
+      ],
+      "answer": [
+        "More young people",
+        "would buy homes",
+        "if",
+        "housing",
+        "were cheaper."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "although"
+      ],
+      "hint": "Use \"were\" after \"if\" for an imaginary present situation.",
+      "level": 1
+    },
+    {
+      "id": "condition_020",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose all workers earned a fair wage.",
+        "Fewer people would live in poverty."
+      ],
+      "answer": [
+        "If",
+        "all workers",
+        "earned a fair wage,",
+        "fewer people would",
+        "live in poverty."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Although",
+        "Despite"
+      ],
+      "hint": "An imaginary condition takes a past verb; the result takes \"would\".",
+      "level": 1
+    },
+    {
+      "id": "condition_021",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose scientists found a cure for ageing.",
+        "The world population would grow rapidly."
+      ],
+      "answer": [
+        "If",
+        "scientists found",
+        "a cure for ageing,",
+        "the world population",
+        "would grow rapidly."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "will grow rapidly.",
+        "Despite"
+      ],
+      "hint": "In a second conditional the result needs \"would\", not \"will\".",
+      "level": 2
+    },
+    {
+      "id": "condition_022",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose museums were open at night.",
+        "More office workers would visit them."
+      ],
+      "answer": [
+        "More office workers",
+        "would visit museums",
+        "if",
+        "they were open",
+        "at night."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "The \"if\" clause can come second; then no comma is needed.",
+      "level": 2
+    },
+    {
+      "id": "condition_023",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose every student had a laptop.",
+        "Online learning would be easier."
+      ],
+      "answer": [
+        "If",
+        "every student",
+        "had a laptop,",
+        "online learning",
+        "would be easier."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because of",
+        "Despite"
+      ],
+      "hint": "Imaginary present: \"if\" + past simple, then \"would\" + verb.",
+      "level": 1
+    },
+    {
+      "id": "condition_024",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose companies did not advertise to children.",
+        "Children would ask for fewer toys."
+      ],
+      "answer": [
+        "Children",
+        "would ask for fewer toys",
+        "if",
+        "companies did not",
+        "advertise to them."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "companies do not",
+        "although"
+      ],
+      "hint": "A negative unreal condition uses \"did not\" after \"if\".",
+      "level": 3
+    },
+    {
+      "id": "condition_025",
+      "connector": "if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose farmers used fewer chemicals.",
+        "Rivers would be much cleaner."
+      ],
+      "answer": [
+        "If",
+        "farmers used",
+        "fewer chemicals,",
+        "rivers would be",
+        "much cleaner."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Although",
+        "Because of"
+      ],
+      "hint": "Use the past simple after \"if\" and \"would be\" for the imagined result.",
+      "level": 1
+    },
+    {
+      "id": "condition_026",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Governments may not act soon.",
+        "Then climate change will get worse."
+      ],
+      "answer": [
+        "Unless",
+        "governments act soon,",
+        "climate change",
+        "will get worse."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "\"Unless\" means \"if ... not\", so the verb after it is positive.",
+      "level": 1
+    },
+    {
+      "id": "condition_027",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Patients may not finish their medicine.",
+        "Then the infection will return."
+      ],
+      "answer": [
+        "The infection",
+        "will return",
+        "unless",
+        "patients finish",
+        "their medicine."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "despite"
+      ],
+      "hint": "Put \"unless\" before the condition; use a positive verb after it.",
+      "level": 1
+    },
+    {
+      "id": "condition_028",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Small shops may not go online.",
+        "Then many will close within a few years."
+      ],
+      "answer": [
+        "Unless",
+        "small shops",
+        "go online,",
+        "many will close",
+        "within a few years."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because of",
+        "Although"
+      ],
+      "hint": "A fronted \"unless\" clause needs a comma before the main clause.",
+      "level": 2
+    },
+    {
+      "id": "condition_029",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Teenagers may not get enough sleep.",
+        "Then they will get lower grades."
+      ],
+      "answer": [
+        "Teenagers",
+        "will get lower grades",
+        "unless",
+        "they get",
+        "enough sleep."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "despite"
+      ],
+      "hint": "\"Unless\" + present simple describes a future risk.",
+      "level": 1
+    },
+    {
+      "id": "condition_030",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Cities may not invest in flood defences.",
+        "Then coastal areas will be at risk."
+      ],
+      "answer": [
+        "Unless",
+        "cities invest",
+        "in flood defences,",
+        "coastal areas",
+        "will be at risk."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "cities do not invest",
+        "Despite"
+      ],
+      "hint": "Never use \"not\" after \"unless\"; it already means \"if not\".",
+      "level": 3
+    },
+    {
+      "id": "condition_031",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Tourists may not respect local customs.",
+        "Then they will cause offence."
+      ],
+      "answer": [
+        "Tourists",
+        "will cause offence",
+        "unless",
+        "they respect",
+        "local customs."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "\"Unless\" introduces what must happen to avoid the result.",
+      "level": 1
+    },
+    {
+      "id": "condition_032",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Children may not learn to swim.",
+        "Then they will be in danger near water."
+      ],
+      "answer": [
+        "Unless",
+        "children learn",
+        "to swim,",
+        "they will be",
+        "in danger near water."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "Begin with \"unless\" + positive verb, then a comma and the result.",
+      "level": 1
+    },
+    {
+      "id": "condition_033",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "The company may not cut its costs.",
+        "Then it will lose money this year."
+      ],
+      "answer": [
+        "The company",
+        "will lose money this year",
+        "unless",
+        "it cuts",
+        "its costs."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "it will cut",
+        "although"
+      ],
+      "hint": "Use the present simple after \"unless\" for a future condition.",
+      "level": 3
+    },
+    {
+      "id": "condition_034",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Wild animals may not be protected.",
+        "Then many species will disappear."
+      ],
+      "answer": [
+        "Unless",
+        "wild animals",
+        "are protected,",
+        "many species",
+        "will disappear."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Although",
+        "Because of"
+      ],
+      "hint": "A passive verb can follow \"unless\": \"unless\" + be + past participle.",
+      "level": 2
+    },
+    {
+      "id": "condition_035",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Workers may not wear helmets.",
+        "Then they will not be allowed on site."
+      ],
+      "answer": [
+        "Workers",
+        "will not be allowed on site",
+        "unless",
+        "they wear",
+        "helmets."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "despite"
+      ],
+      "hint": "The main clause can be negative; the \"unless\" clause stays positive.",
+      "level": 1
+    },
+    {
+      "id": "condition_036",
+      "connector": "unless",
+      "function": "Condition",
+      "sentences": [
+        "Prices may not fall.",
+        "Then fewer people will travel abroad."
+      ],
+      "answer": [
+        "Unless",
+        "prices fall,",
+        "fewer people will",
+        "travel abroad."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "prices will fall,",
+        "Despite"
+      ],
+      "hint": "\"Unless\" + present simple; \"will\" belongs only in the main clause.",
+      "level": 3
+    },
+    {
+      "id": "condition_037",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "Students can use phones in class.",
+        "They must use them for research."
+      ],
+      "answer": [
+        "Students",
+        "can use phones in class",
+        "provided that",
+        "they use them",
+        "for research."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "although"
+      ],
+      "hint": "\"Provided that\" introduces a condition that must be met.",
+      "level": 1
+    },
+    {
+      "id": "condition_038",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "The project will succeed.",
+        "It must receive enough funding."
+      ],
+      "answer": [
+        "Provided that",
+        "the project",
+        "receives enough funding,",
+        "it will succeed."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "When \"provided that\" starts the sentence, add a comma after the condition.",
+      "level": 2
+    },
+    {
+      "id": "condition_039",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "Remote work can be productive.",
+        "Staff must have clear goals."
+      ],
+      "answer": [
+        "Remote work",
+        "can be productive",
+        "provided that",
+        "staff have",
+        "clear goals."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "despite"
+      ],
+      "hint": "Put the main idea first, then \"provided that\" + subject + verb.",
+      "level": 1
+    },
+    {
+      "id": "condition_040",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "Tourism can help rural areas.",
+        "It must be managed carefully."
+      ],
+      "answer": [
+        "Tourism",
+        "can help rural areas",
+        "provided that",
+        "it is managed",
+        "carefully."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "A passive verb can follow \"provided that\".",
+      "level": 1
+    },
+    {
+      "id": "condition_041",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "Older drivers can keep their licences.",
+        "They must pass a regular eye test."
+      ],
+      "answer": [
+        "Older drivers",
+        "can keep their licences",
+        "provided that",
+        "they pass",
+        "a regular eye test."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "they will pass",
+        "despite"
+      ],
+      "hint": "Use the present simple after \"provided that\", not \"will\".",
+      "level": 3
+    },
+    {
+      "id": "condition_042",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "Anyone can join the sports club.",
+        "They must pay a small fee."
+      ],
+      "answer": [
+        "Anyone",
+        "can join the sports club",
+        "provided that",
+        "they pay",
+        "a small fee."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "although"
+      ],
+      "hint": "\"Provided that\" is followed by a full clause, not a noun alone.",
+      "level": 1
+    },
+    {
+      "id": "condition_043",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "Fast food is acceptable occasionally.",
+        "It must be part of a balanced diet."
+      ],
+      "answer": [
+        "Fast food",
+        "is acceptable occasionally",
+        "provided that",
+        "it is part of",
+        "a balanced diet."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "\"Provided that\" means \"only on this condition\".",
+      "level": 2
+    },
+    {
+      "id": "condition_044",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "The new stadium will create jobs.",
+        "It must be completed on time."
+      ],
+      "answer": [
+        "Provided that",
+        "the new stadium",
+        "is completed on time,",
+        "it will create jobs."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "Fronted condition, comma, then the result with \"will\".",
+      "level": 2
+    },
+    {
+      "id": "condition_045",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "Social media can be useful for learning.",
+        "Users must check their sources."
+      ],
+      "answer": [
+        "Social media",
+        "can be useful for learning",
+        "provided that",
+        "users check",
+        "their sources."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "users will check",
+        "in spite of"
+      ],
+      "hint": "\"Provided that\" + present simple shows a necessary condition.",
+      "level": 3
+    },
+    {
+      "id": "condition_046",
+      "connector": "provided that",
+      "function": "Condition",
+      "sentences": [
+        "Elderly people can live independently.",
+        "They must receive regular support."
+      ],
+      "answer": [
+        "Provided that",
+        "elderly people",
+        "receive regular support,",
+        "they can live",
+        "independently."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "will receive regular support,",
+        "Despite"
+      ],
+      "hint": "Keep the verb after \"provided that\" in the present simple.",
+      "level": 3
+    },
+    {
+      "id": "condition_047",
+      "connector": "providing that",
+      "function": "Condition",
+      "sentences": [
+        "Visitors can enter the gallery for free.",
+        "They must book online first."
+      ],
+      "answer": [
+        "Visitors",
+        "can enter the gallery for free",
+        "providing that",
+        "they book",
+        "online first."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "although"
+      ],
+      "hint": "\"Providing that\" works like \"provided that\": it gives a condition.",
+      "level": 1
+    },
+    {
+      "id": "condition_048",
+      "connector": "providing that",
+      "function": "Condition",
+      "sentences": [
+        "The economy will grow next year.",
+        "Exports must remain strong."
+      ],
+      "answer": [
+        "Providing that",
+        "exports",
+        "remain strong,",
+        "the economy will grow",
+        "next year."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "Start with the condition and put a comma before the main clause.",
+      "level": 2
+    },
+    {
+      "id": "condition_049",
+      "connector": "providing that",
+      "function": "Condition",
+      "sentences": [
+        "Pets are allowed in the flats.",
+        "They must not disturb the neighbours."
+      ],
+      "answer": [
+        "Pets",
+        "are allowed in the flats",
+        "providing that",
+        "they do not disturb",
+        "the neighbours."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "despite"
+      ],
+      "hint": "A negative condition after \"providing that\" uses \"do not\" + verb.",
+      "level": 1
+    },
+    {
+      "id": "condition_050",
+      "connector": "providing that",
+      "function": "Condition",
+      "sentences": [
+        "Homework can improve learning.",
+        "It must not take too long."
+      ],
+      "answer": [
+        "Homework",
+        "can improve learning",
+        "providing that",
+        "it does not",
+        "take too long."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "Use \"does not\" with a singular subject after \"providing that\".",
+      "level": 2
+    },
+    {
+      "id": "condition_051",
+      "connector": "providing that",
+      "function": "Condition",
+      "sentences": [
+        "Electric cars will become popular.",
+        "Charging points must be widely available."
+      ],
+      "answer": [
+        "Providing that",
+        "charging points",
+        "are widely available,",
+        "electric cars",
+        "will become popular."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "will be widely available,",
+        "Despite"
+      ],
+      "hint": "Do not put \"will\" after \"providing that\"; use the present simple.",
+      "level": 3
+    },
+    {
+      "id": "condition_052",
+      "connector": "providing that",
+      "function": "Condition",
+      "sentences": [
+        "Teenagers can work part-time.",
+        "Their studies must not suffer."
+      ],
+      "answer": [
+        "Teenagers",
+        "can work part-time",
+        "providing that",
+        "their studies",
+        "do not suffer."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "The condition after \"providing that\" has its own subject and verb.",
+      "level": 2
+    },
+    {
+      "id": "condition_053",
+      "connector": "providing that",
+      "function": "Condition",
+      "sentences": [
+        "Street markets can attract tourists.",
+        "They must be kept clean."
+      ],
+      "answer": [
+        "Street markets",
+        "can attract tourists",
+        "providing that",
+        "they are",
+        "kept clean."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "although"
+      ],
+      "hint": "\"Providing that\" links a possible result to the condition it needs.",
+      "level": 1
+    },
+    {
+      "id": "condition_054",
+      "connector": "providing that",
+      "function": "Condition",
+      "sentences": [
+        "The festival will go ahead.",
+        "The weather must stay dry."
+      ],
+      "answer": [
+        "The festival",
+        "will go ahead",
+        "providing that",
+        "the weather",
+        "stays dry."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "will stay dry.",
+        "in spite of"
+      ],
+      "hint": "Use the present simple after \"providing that\" for a future condition.",
+      "level": 3
+    },
+    {
+      "id": "condition_055",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "Exercise is good for you.",
+        "You must not overdo it."
+      ],
+      "answer": [
+        "Exercise",
+        "is good for you",
+        "as long as",
+        "you do not",
+        "overdo it."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "as well as",
+        "despite"
+      ],
+      "hint": "\"As long as\" means \"only if\"; it is followed by a clause.",
+      "level": 1
+    },
+    {
+      "id": "condition_056",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "Children can watch television.",
+        "They must finish their homework first."
+      ],
+      "answer": [
+        "Children",
+        "can watch television",
+        "as long as",
+        "they finish",
+        "their homework first."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "as well as",
+        "although"
+      ],
+      "hint": "Put the permission first, then \"as long as\" + the condition.",
+      "level": 1
+    },
+    {
+      "id": "condition_057",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "Prices will stay low.",
+        "Supply must remain high."
+      ],
+      "answer": [
+        "As long as",
+        "supply",
+        "remains high,",
+        "prices will",
+        "stay low."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "As well as",
+        "Despite"
+      ],
+      "hint": "A fronted \"as long as\" clause is followed by a comma.",
+      "level": 2
+    },
+    {
+      "id": "condition_058",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "Online courses can work well.",
+        "Students must stay motivated."
+      ],
+      "answer": [
+        "Online courses",
+        "can work well",
+        "as long as",
+        "students",
+        "stay motivated."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "as well as",
+        "in spite of"
+      ],
+      "hint": "No comma is needed when \"as long as\" comes in the middle.",
+      "level": 1
+    },
+    {
+      "id": "condition_059",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "Rural areas may continue to offer few jobs.",
+        "Then cities will keep growing."
+      ],
+      "answer": [
+        "As long as",
+        "rural areas",
+        "offer few jobs,",
+        "cities will",
+        "keep growing."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "will offer few jobs,",
+        "Despite"
+      ],
+      "hint": "\"As long as\" can mean \"for the whole time that\"; use the present simple.",
+      "level": 3
+    },
+    {
+      "id": "condition_060",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "Workers will stay loyal.",
+        "They must feel valued."
+      ],
+      "answer": [
+        "Workers",
+        "will stay loyal",
+        "as long as",
+        "they",
+        "feel valued."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "as well as",
+        "although"
+      ],
+      "hint": "Give the result first, then the condition after \"as long as\".",
+      "level": 2
+    },
+    {
+      "id": "condition_061",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "Commercial fishing can continue.",
+        "Fish stocks must stay healthy."
+      ],
+      "answer": [
+        "Commercial fishing",
+        "can continue",
+        "as long as",
+        "fish stocks",
+        "stay healthy."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "as well as",
+        "despite"
+      ],
+      "hint": "\"As long as\" + subject + present simple verb.",
+      "level": 1
+    },
+    {
+      "id": "condition_062",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "The team will win the league.",
+        "Its best players must stay fit."
+      ],
+      "answer": [
+        "The team",
+        "will win the league",
+        "as long as",
+        "its best players",
+        "stay fit."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "will stay fit.",
+        "because of"
+      ],
+      "hint": "Never use \"will\" straight after \"as long as\".",
+      "level": 3
+    },
+    {
+      "id": "condition_063",
+      "connector": "as long as",
+      "function": "Condition",
+      "sentences": [
+        "Families can save money.",
+        "They must plan their spending."
+      ],
+      "answer": [
+        "As long as",
+        "families plan",
+        "their spending,",
+        "they can",
+        "save money."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "As well as",
+        "Because of"
+      ],
+      "hint": "Begin with the condition, then a comma and the possible result.",
+      "level": 2
+    },
+    {
+      "id": "condition_064",
+      "connector": "on condition that",
+      "function": "Condition",
+      "sentences": [
+        "The bank lent the firm money.",
+        "The firm had to repay the loan within a year."
+      ],
+      "answer": [
+        "The bank",
+        "lent the firm money",
+        "on condition that",
+        "it repaid the loan",
+        "within a year."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in spite of",
+        "because of"
+      ],
+      "hint": "\"On condition that\" sets a strict condition; keep both verbs in the past.",
+      "level": 2
+    },
+    {
+      "id": "condition_065",
+      "connector": "on condition that",
+      "function": "Condition",
+      "sentences": [
+        "The student was given a scholarship.",
+        "She had to keep high grades."
+      ],
+      "answer": [
+        "The student",
+        "was given a scholarship",
+        "on condition that",
+        "she kept",
+        "high grades."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "although"
+      ],
+      "hint": "\"On condition that\" is followed by a full clause.",
+      "level": 1
+    },
+    {
+      "id": "condition_066",
+      "connector": "on condition that",
+      "function": "Condition",
+      "sentences": [
+        "The council approved the new hotel.",
+        "It had to include green spaces."
+      ],
+      "answer": [
+        "The council",
+        "approved the new hotel",
+        "on condition that",
+        "it included",
+        "green spaces."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "Use a past verb after \"on condition that\" when the story is in the past.",
+      "level": 2
+    },
+    {
+      "id": "condition_067",
+      "connector": "on condition that",
+      "function": "Condition",
+      "sentences": [
+        "Researchers may use the data.",
+        "They must protect people's privacy."
+      ],
+      "answer": [
+        "Researchers",
+        "may use the data",
+        "on condition that",
+        "they protect",
+        "people's privacy."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "they will protect",
+        "in spite of"
+      ],
+      "hint": "After \"on condition that\", use the present simple, not \"will\".",
+      "level": 3
+    },
+    {
+      "id": "condition_068",
+      "connector": "on condition that",
+      "function": "Condition",
+      "sentences": [
+        "The factory can stay open.",
+        "It must reduce its pollution."
+      ],
+      "answer": [
+        "The factory",
+        "can stay open",
+        "on condition that",
+        "it reduces",
+        "its pollution."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "although"
+      ],
+      "hint": "\"On condition that\" is a formal way to state a requirement.",
+      "level": 2
+    },
+    {
+      "id": "condition_069",
+      "connector": "on condition that",
+      "function": "Condition",
+      "sentences": [
+        "The athlete can compete again.",
+        "He must pass a fitness test."
+      ],
+      "answer": [
+        "The athlete",
+        "can compete again",
+        "on condition that",
+        "he passes",
+        "a fitness test."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "although"
+      ],
+      "hint": "Use a third-person \"-s\" verb after \"on condition that\" here.",
+      "level": 2
+    },
+    {
+      "id": "condition_070",
+      "connector": "on condition that",
+      "function": "Condition",
+      "sentences": [
+        "The landlord agreed to lower the rent.",
+        "The tenants had to sign a longer contract."
+      ],
+      "answer": [
+        "The landlord",
+        "agreed to lower the rent",
+        "on condition that",
+        "the tenants signed",
+        "a longer contract."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in spite of",
+        "although"
+      ],
+      "hint": "The condition explains what the other person had to do in return.",
+      "level": 2
+    },
+    {
+      "id": "condition_071",
+      "connector": "on condition that",
+      "function": "Condition",
+      "sentences": [
+        "The film can be shown in schools.",
+        "Some scenes must be removed."
+      ],
+      "answer": [
+        "The film",
+        "can be shown in schools",
+        "on condition that",
+        "some scenes",
+        "are removed."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "A passive verb can follow \"on condition that\".",
+      "level": 2
+    },
+    {
+      "id": "condition_072",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Hikers should carry extra water.",
+        "They might get lost."
+      ],
+      "answer": [
+        "Hikers",
+        "should carry extra water",
+        "in case",
+        "they",
+        "get lost."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in case of",
+        "despite"
+      ],
+      "hint": "\"In case\" shows a precaution: act now because something might happen.",
+      "level": 1
+    },
+    {
+      "id": "condition_073",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Save your essay regularly.",
+        "Your computer might crash."
+      ],
+      "answer": [
+        "Save",
+        "your essay regularly",
+        "in case",
+        "your computer",
+        "crashes."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in case of",
+        "although"
+      ],
+      "hint": "\"In case\" + subject + present simple; \"in case of\" needs a noun.",
+      "level": 1
+    },
+    {
+      "id": "condition_074",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Many families keep some savings.",
+        "They might lose their jobs."
+      ],
+      "answer": [
+        "Many families",
+        "keep some savings",
+        "in case",
+        "they lose",
+        "their jobs."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in case of",
+        "despite"
+      ],
+      "hint": "The action is a precaution; \"in case\" gives the possible problem.",
+      "level": 2
+    },
+    {
+      "id": "condition_075",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Coastal towns build sea walls.",
+        "Storms might cause flooding."
+      ],
+      "answer": [
+        "Coastal towns",
+        "build sea walls",
+        "in case",
+        "storms",
+        "cause flooding."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in case of",
+        "so that"
+      ],
+      "hint": "\"In case\" introduces a risk, not a purpose or a result.",
+      "level": 2
+    },
+    {
+      "id": "condition_076",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Travellers should buy insurance.",
+        "They might fall ill abroad."
+      ],
+      "answer": [
+        "Travellers",
+        "should buy insurance",
+        "in case",
+        "they fall ill",
+        "abroad."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "they will fall ill",
+        "in case of"
+      ],
+      "hint": "After \"in case\", use the present simple, not \"will\".",
+      "level": 3
+    },
+    {
+      "id": "condition_077",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Schools practise fire drills.",
+        "A real fire might break out."
+      ],
+      "answer": [
+        "Schools",
+        "practise fire drills",
+        "in case",
+        "a real fire",
+        "breaks out."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in case of",
+        "although"
+      ],
+      "hint": "\"In case\" explains why people prepare for something possible.",
+      "level": 2
+    },
+    {
+      "id": "condition_078",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Hospitals store extra blood.",
+        "There might be a major accident."
+      ],
+      "answer": [
+        "Hospitals",
+        "store extra blood",
+        "in case",
+        "there is",
+        "a major accident."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "unless",
+        "in case of"
+      ],
+      "hint": "\"In case\" is a precaution, not \"if\": the action happens anyway.",
+      "level": 3
+    },
+    {
+      "id": "condition_079",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Visitors should bring a coat.",
+        "It might get cold in the evening."
+      ],
+      "answer": [
+        "Visitors",
+        "should bring a coat",
+        "in case",
+        "it gets",
+        "cold in the evening."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in case of",
+        "despite"
+      ],
+      "hint": "Use \"in case\" + a clause to give the reason for a precaution.",
+      "level": 1
+    },
+    {
+      "id": "condition_080",
+      "connector": "in case",
+      "function": "Precaution",
+      "sentences": [
+        "Scientists keep copies of their data.",
+        "The originals might be damaged."
+      ],
+      "answer": [
+        "Scientists",
+        "keep copies of their data",
+        "in case",
+        "the originals",
+        "are damaged."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in case of",
+        "unless"
+      ],
+      "hint": "\"In case\" can be followed by a passive clause.",
+      "level": 2
+    },
+    {
+      "id": "condition_081",
+      "connector": "even if",
+      "function": "Condition",
+      "sentences": [
+        "The exam may be difficult.",
+        "Well-prepared students will still pass."
+      ],
+      "answer": [
+        "Even if",
+        "the exam is difficult,",
+        "well-prepared students",
+        "will still pass."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "\"Even if\" means the result stays the same whatever happens.",
+      "level": 1
+    },
+    {
+      "id": "condition_082",
+      "connector": "even if",
+      "function": "Condition",
+      "sentences": [
+        "Students may fail the test.",
+        "They can still retake it."
+      ],
+      "answer": [
+        "Students",
+        "can still retake the test",
+        "even if",
+        "they",
+        "fail it."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "despite"
+      ],
+      "hint": "Put the result first; \"even if\" adds a condition that changes nothing.",
+      "level": 2
+    },
+    {
+      "id": "condition_083",
+      "connector": "even if",
+      "function": "Condition",
+      "sentences": [
+        "The factory may close.",
+        "Most workers will find new jobs."
+      ],
+      "answer": [
+        "Even if",
+        "the factory closes,",
+        "most workers",
+        "will find new jobs."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "Use the present simple after \"even if\" and \"will\" in the main clause.",
+      "level": 2
+    },
+    {
+      "id": "condition_084",
+      "connector": "even if",
+      "function": "Condition",
+      "sentences": [
+        "Online shopping may grow further.",
+        "Many people will still visit local markets."
+      ],
+      "answer": [
+        "Many people",
+        "will still visit",
+        "local markets",
+        "even if",
+        "online shopping grows."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "online shopping will grow.",
+        "despite"
+      ],
+      "hint": "No \"will\" after \"even if\"; use the present simple.",
+      "level": 1
+    },
+    {
+      "id": "condition_085",
+      "connector": "even if",
+      "function": "Condition",
+      "sentences": [
+        "The library may close early.",
+        "Students can still study online."
+      ],
+      "answer": [
+        "Students",
+        "can still study online",
+        "even if",
+        "the library",
+        "closes early."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "because of"
+      ],
+      "hint": "\"Even if\" + clause; \"still\" in the main clause shows no change.",
+      "level": 1
+    },
+    {
+      "id": "condition_086",
+      "connector": "even if",
+      "function": "Condition",
+      "sentences": [
+        "Suppose tuition were free.",
+        "Some young people would still not go to university."
+      ],
+      "answer": [
+        "Even if",
+        "tuition were free,",
+        "some young people",
+        "would still not",
+        "go to university."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "tuition will be free,",
+        "Despite"
+      ],
+      "hint": "\"Even if\" can take a past verb and \"would\" for imaginary situations.",
+      "level": 3
+    },
+    {
+      "id": "condition_087",
+      "connector": "even if",
+      "function": "Condition",
+      "sentences": [
+        "A diet may be healthy.",
+        "It will not work without exercise."
+      ],
+      "answer": [
+        "Even if",
+        "a diet is healthy,",
+        "it will not work",
+        "without exercise."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "Begin with \"even if\", add a comma, then the unchanged result.",
+      "level": 2
+    },
+    {
+      "id": "condition_088",
+      "connector": "even if",
+      "function": "Condition",
+      "sentences": [
+        "Housing may get cheaper.",
+        "Young people will still struggle to save."
+      ],
+      "answer": [
+        "Young people",
+        "will still struggle to save",
+        "even if",
+        "housing",
+        "gets cheaper."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "because of"
+      ],
+      "hint": "\"Even if\" is followed by a subject and verb, unlike \"despite\".",
+      "level": 2
+    },
+    {
+      "id": "condition_089",
+      "connector": "otherwise",
+      "function": "Condition",
+      "sentences": [
+        "Cities must reduce traffic.",
+        "If not, air quality will get worse."
+      ],
+      "answer": [
+        "Cities",
+        "must reduce traffic;",
+        "otherwise,",
+        "air quality",
+        "will get worse."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "therefore,",
+        "unless"
+      ],
+      "hint": "Use a semicolon before \"otherwise\" and a comma after it.",
+      "level": 1
+    },
+    {
+      "id": "condition_090",
+      "connector": "otherwise",
+      "function": "Condition",
+      "sentences": [
+        "Students should start their essays early.",
+        "If not, they will run out of time."
+      ],
+      "answer": [
+        "Students should",
+        "start their essays early;",
+        "otherwise,",
+        "they will",
+        "run out of time."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "therefore,",
+        "in case"
+      ],
+      "hint": "\"Otherwise\" means \"if not\"; it introduces the bad result.",
+      "level": 2
+    },
+    {
+      "id": "condition_091",
+      "connector": "otherwise",
+      "function": "Condition",
+      "sentences": [
+        "Farmers need more rain.",
+        "If not, the crops will fail."
+      ],
+      "answer": [
+        "Farmers",
+        "need more rain;",
+        "otherwise,",
+        "the crops",
+        "will fail."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "as a result,",
+        "in case"
+      ],
+      "hint": "\"Otherwise\" shows what will happen if the first idea does not happen.",
+      "level": 2
+    },
+    {
+      "id": "condition_092",
+      "connector": "otherwise",
+      "function": "Condition",
+      "sentences": [
+        "Old buildings must be repaired.",
+        "Without this, they may collapse."
+      ],
+      "answer": [
+        "Old buildings",
+        "must be repaired;",
+        "otherwise,",
+        "they",
+        "may collapse."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "therefore,",
+        "unless"
+      ],
+      "hint": "\"Otherwise\" joins two full clauses, so a semicolon comes before it.",
+      "level": 2
+    },
+    {
+      "id": "condition_093",
+      "connector": "otherwise",
+      "function": "Condition",
+      "sentences": [
+        "Shoppers should compare prices.",
+        "If not, they may pay too much."
+      ],
+      "answer": [
+        "Shoppers",
+        "should compare prices;",
+        "otherwise,",
+        "they may",
+        "pay too much."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "therefore,",
+        "so that"
+      ],
+      "hint": "Give the advice first, then \"otherwise\" + the possible problem.",
+      "level": 1
+    },
+    {
+      "id": "condition_094",
+      "connector": "otherwise",
+      "function": "Condition",
+      "sentences": [
+        "Companies must train their staff.",
+        "If not, they will lose customers."
+      ],
+      "answer": [
+        "Companies",
+        "must train their staff;",
+        "otherwise,",
+        "they will",
+        "lose customers."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "consequently,",
+        "unless"
+      ],
+      "hint": "\"Otherwise\" means \"if not\", not \"so\"; check the meaning carefully.",
+      "level": 3
+    },
+    {
+      "id": "condition_095",
+      "connector": "otherwise",
+      "function": "Condition",
+      "sentences": [
+        "Patients should follow medical advice.",
+        "If not, they may recover slowly."
+      ],
+      "answer": [
+        "Patients",
+        "should follow medical advice;",
+        "otherwise,",
+        "they may",
+        "recover slowly."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "consequently,",
+        "in case"
+      ],
+      "hint": "The first clause gives the advice; \"otherwise\" warns of the risk.",
+      "level": 2
+    },
+    {
+      "id": "condition_096",
+      "connector": "otherwise",
+      "function": "Condition",
+      "sentences": [
+        "Endangered species need protection.",
+        "Without it, they may die out."
+      ],
+      "answer": [
+        "Endangered species",
+        "need protection;",
+        "otherwise,",
+        "they",
+        "may die out."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "therefore,",
+        "unless"
+      ],
+      "hint": "Put a semicolon before \"otherwise\" and a comma straight after it.",
+      "level": 2
+    },
+    {
+      "id": "condition_097",
+      "connector": "only if",
+      "function": "Condition",
+      "sentences": [
+        "Recycling schemes work well.",
+        "People must sort their waste correctly."
+      ],
+      "answer": [
+        "Recycling schemes",
+        "work well",
+        "only if",
+        "people sort",
+        "their waste correctly."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "even if",
+        "although"
+      ],
+      "hint": "\"Only if\" shows that this is the one condition needed.",
+      "level": 2
+    },
+    {
+      "id": "condition_098",
+      "connector": "only if",
+      "function": "Condition",
+      "sentences": [
+        "Bans on plastic bags succeed.",
+        "Shops must offer cheap alternatives."
+      ],
+      "answer": [
+        "Plastic bag bans",
+        "succeed",
+        "only if",
+        "shops offer",
+        "cheap alternatives."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "even if",
+        "despite"
+      ],
+      "hint": "\"Only if\" stresses a necessary condition; \"even if\" means the opposite.",
+      "level": 2
+    },
+    {
+      "id": "condition_099",
+      "connector": "only if",
+      "function": "Condition",
+      "sentences": [
+        "Students can enter the exam hall.",
+        "They must show their ID cards."
+      ],
+      "answer": [
+        "Students",
+        "can enter the exam hall",
+        "only if",
+        "they show",
+        "their ID cards."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "even if",
+        "in spite of"
+      ],
+      "hint": "Put \"only if\" before the single condition that allows the action.",
+      "level": 2
+    },
+    {
+      "id": "condition_100",
+      "connector": "only if",
+      "function": "Condition",
+      "sentences": [
+        "Tourism benefits local people.",
+        "Profits must stay in the community."
+      ],
+      "answer": [
+        "Tourism",
+        "benefits local people",
+        "only if",
+        "profits stay",
+        "in the community."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "even if",
+        "because of"
+      ],
+      "hint": "\"Only if\" + present simple: without this condition, the result fails.",
+      "level": 2
+    }
+  ]
+}

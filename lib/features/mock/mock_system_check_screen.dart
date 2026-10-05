@@ -78,7 +78,7 @@ class _MockSystemCheckScreenState extends State<MockSystemCheckScreen> {
     setState(() => _micOk = ok);
   }
 
-  /// Quietest recent input level — the room's noise floor.
+  /// Quietest recent input level - the room's noise floor.
   double _floor = 1;
   int _voiceTicks = 0;
 
@@ -324,15 +324,15 @@ class _MockSystemCheckScreenState extends State<MockSystemCheckScreen> {
                         height: 28,
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
-                          color: kMockInk,
+                          color: t.peach,
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Text(
                           '${i + 1}',
                           style: const TextStyle(
                             fontSize: 12,
-                            fontWeight: FontWeight.w600,
-                            color: kMockCream,
+                            fontWeight: FontWeight.w700,
+                            color: kOnPeach,
                           ),
                         ),
                       ),
@@ -408,8 +408,8 @@ class _MockSystemCheckScreenState extends State<MockSystemCheckScreen> {
           Container(
             width: 28,
             height: 28,
-            decoration: BoxDecoration(color: t.primary, shape: BoxShape.circle),
-            child: Icon(AppIcons.check, size: 16, color: t.onPrimary),
+            decoration: BoxDecoration(color: t.peach, shape: BoxShape.circle),
+            child: const Icon(AppIcons.check, size: 16, color: kOnPeach),
           ),
         ],
       );
@@ -462,8 +462,8 @@ class _MockSystemCheckScreenState extends State<MockSystemCheckScreen> {
       trailing = Container(
         width: 28,
         height: 28,
-        decoration: BoxDecoration(color: t.primary, shape: BoxShape.circle),
-        child: Icon(AppIcons.check, size: 16, color: t.onPrimary),
+        decoration: BoxDecoration(color: t.peach, shape: BoxShape.circle),
+        child: const Icon(AppIcons.check, size: 16, color: kOnPeach),
       );
     }
 
@@ -499,7 +499,7 @@ class _MockSystemCheckScreenState extends State<MockSystemCheckScreen> {
                 Text(
                   control == 'level'
                       ? (_micOk == false
-                          ? 'Microphone blocked — allow it, then Retry'
+                          ? 'Microphone blocked - allow it, then Retry'
                           : passed
                               ? 'Voice detected · mic OK'
                               : _micOk == null

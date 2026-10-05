@@ -170,7 +170,7 @@ class _WritingTask1EditorScreenState extends State<WritingTask1EditorScreen>
                       padding: const EdgeInsets.symmetric(horizontal: 10),
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: wc(t, 0xFFEEEFFD, 0xFF1F1F1F),
+                        color: wc(t, 0xFFE9EFFF, 0xFF1C2030),
                         borderRadius: BorderRadius.circular(999),
                       ),
                       child: Text(
@@ -266,7 +266,7 @@ class _WritingTask1EditorScreenState extends State<WritingTask1EditorScreen>
 }
 
 /// Text controller that paints a pink highlight behind the overview
-/// ("Overall, …" up to the next comma or full stop) — the AI's
+/// ("Overall, …" up to the next comma or full stop) - the AI's
 /// "overview found" marker in the Task 1 artboard.
 class _HighlightController extends TextEditingController {
   _HighlightController({super.text});
@@ -296,7 +296,7 @@ class _HighlightController extends TextEditingController {
         TextSpan(
           text: text.substring(idx, end),
           style: const TextStyle(
-            backgroundColor: Color(0xFFF9D6E2),
+            backgroundColor: Color(0xFFFFE2D8),
             color: Color(0xFF151515),
           ),
         ),

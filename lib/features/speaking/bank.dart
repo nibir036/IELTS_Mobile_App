@@ -61,31 +61,31 @@ String speakingSampleBand(int part) =>
 Color cueCategoryTint(String category) {
   switch (category) {
     case 'Places':
-      return const Color(0xFFDCDDFA);
+      return const Color(0xFFDCE6FF);
     case 'Objects':
     case 'Media':
-      return const Color(0xFFF7EDC4);
+      return const Color(0xFFFFC9B8);
     case 'Events':
-      return const Color(0xFFEEEFFD);
+      return const Color(0xFFE9EFFF);
     case 'Experiences':
-      return const Color(0xFFDCDDFA);
+      return const Color(0xFFDCE6FF);
     case 'Activities & Ideas':
       return const Color(0xFFDDF0E4);
     // Part 1 / Part 3 bank categories (topic vaults).
     case 'Lifestyle & Habits':
     case 'Education & Work':
-      return const Color(0xFFDCDDFA);
+      return const Color(0xFFDCE6FF);
     case 'Interests & Hobbies':
     case 'Technology & Media':
-      return const Color(0xFFF7EDC4);
+      return const Color(0xFFFFC9B8);
     case 'Daily Life & Opinions':
     case 'Environment & Cities':
       return const Color(0xFFDDF0E4);
     case 'Entertainment & Culture':
     case 'Culture & Lifestyle':
-      return const Color(0xFFEEEFFD);
+      return const Color(0xFFE9EFFF);
     default:
-      return const Color(0xFFF9D6E2);
+      return const Color(0xFFFFE2D8);
   }
 }
 

@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 import '../../app/routes.dart';
 import '../guides/study_guide_screen.dart';
 
-/// IELTS Academic Writing Complete Guide — sir's book (assets/content/writing_guide.json).
+/// IELTS Academic Writing Complete Guide - sir's book (assets/content/writing_guide.json).
 class WritingGuideScreen extends StatelessWidget {
   const WritingGuideScreen({super.key});
 

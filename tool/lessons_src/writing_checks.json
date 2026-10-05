@@ -1,0 +1,3773 @@
+{
+ "intro_marking_1": {
+  "intro": {
+   "en": "See the four criteria examiners use, and what a Band 5 answer looks like to them.",
+   "bn": "Examiner কোন চারটি criteria দিয়ে marking করেন, আর তাদের চোখে Band 5 উত্তর কেমন - দেখে নিন।"
+  },
+  "learned": [
+   {
+    "en": "Why Writing is marked subjectively",
+    "bn": "Writing কেন subjective ভাবে marking হয়"
+   },
+   {
+    "en": "The four criteria, 25% each",
+    "bn": "চারটি criteria, প্রতিটা ২৫%"
+   },
+   {
+    "en": "Task Achievement vs Task Response",
+    "bn": "Task Achievement আর Task Response-এর পার্থক্য"
+   },
+   {
+    "en": "What Band 5 writing looks like",
+    "bn": "Band 5 লেখা দেখতে কেমন"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "How is the band for one task (Task 1 or Task 2) worked out?",
+     "bn": "একটা task-এর (Task 1 বা Task 2) band কীভাবে বের হয়?"
+    },
+    "options": [
+     {
+      "en": "The average of four criteria, each worth 25%",
+      "bn": "চারটি criteria-র গড়, প্রতিটার ওজন ২৫%"
+     },
+     {
+      "en": "Mostly from grammar, the rest from vocabulary",
+      "bn": "বেশিরভাগ grammar থেকে, বাকিটা vocabulary থেকে"
+     },
+     {
+      "en": "From the number of words you write",
+      "bn": "কত শব্দ লিখেছেন তা থেকে"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Every answer is scored on four separate criteria, each weighted 25%, and their average is the band for that task.",
+     "bn": "প্রতিটা উত্তর চারটি আলাদা criteria-তে মূল্যায়ন হয়, প্রতিটার ওজন ২৫%; এদের গড়ই ওই task-এর band।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Task 1 or Task 2?",
+     "bn": "Task 1 নাকি Task 2?"
+    },
+    "prompt": {
+     "en": "Which criterion asks for an overview, accurate data, 150+ words and no opinion?",
+     "bn": "কোন criterion-এ overview, সঠিক data, ১৫০+ শব্দ আর কোনো মতামত না দেওয়া চাওয়া হয়?"
+    },
+    "options": [
+     {
+      "en": "Task Achievement (Task 1)",
+      "bn": "Task Achievement (Task 1)"
+     },
+     {
+      "en": "Task Response (Task 2)",
+      "bn": "Task Response (Task 2)"
+     },
+     {
+      "en": "Coherence & Cohesion",
+      "bn": "Coherence & Cohesion"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Only the first criterion differs between the tasks. Task Achievement (Task 1) means reporting the main features with an overview, accurate data and comparisons, 150+ words, no opinion.",
+     "bn": "দুই task-এ শুধু প্রথম criterion-টাই আলাদা। Task Achievement (Task 1) মানে overview, সঠিক data আর তুলনাসহ মূল বৈশিষ্ট্য report করা - ১৫০+ শব্দ, কোনো মতামত নয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Spot the Band 5 sign",
+     "bn": "Band 5-এর লক্ষণ চিনুন"
+    },
+    "prompt": {
+     "en": "Which of these describes Band 5 Coherence & Cohesion?",
+     "bn": "এর মধ্যে কোনটা Band 5 Coherence & Cohesion-এর বর্ণনা?"
+    },
+    "options": [
+     {
+      "en": "Repeating the same thing again and again for lack of ideas",
+      "bn": "Idea-র অভাবে একই কথা বারবার বলা"
+     },
+     {
+      "en": "Paragraphs each with a clear central topic",
+      "bn": "প্রতিটা paragraph-এ একটা পরিষ্কার central topic"
+     },
+     {
+      "en": "Linking that is barely noticeable",
+      "bn": "Linking প্রায় চোখেই পড়ে না"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "At Band 5, progression is limited, connectives are too few, wrong or too many, ideas get repeated, and paragraphs are not divided properly.",
+     "bn": "Band 5-এ progression সীমিত, connective খুব কম, ভুল বা অতিরিক্ত, একই কথা বারবার, আর paragraph ঠিকমতো ভাগ করা হয় না।"
+    }
+   }
+  ]
+ },
+ "intro_marking_2": {
+  "intro": {
+   "en": "Compare Band 6, 7 and 8 criterion by criterion to see exactly what improves at each level.",
+   "bn": "Band 6, 7 আর 8 প্রতিটা criterion ধরে মিলিয়ে দেখুন - প্রতিটা ধাপে ঠিক কী উন্নত হয়।"
+  },
+  "learned": [
+   {
+    "en": "What Band 6 looks like in each criterion",
+    "bn": "প্রতিটা criterion-এ Band 6 কেমন"
+   },
+   {
+    "en": "What changes at Band 7",
+    "bn": "Band 7-এ কী বদলায়"
+   },
+   {
+    "en": "What Band 8 writing achieves",
+    "bn": "Band 8 লেখা কী অর্জন করে"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "At Band 6 Task Response, which is true?",
+     "bn": "Band 6 Task Response-এ কোনটা সত্য?"
+    },
+    "options": [
+     {
+      "en": "The position is clear, but the conclusion is unclear",
+      "bn": "Position পরিষ্কার, কিন্তু conclusion অস্পষ্ট"
+     },
+     {
+      "en": "There is no position at all",
+      "bn": "কোনো position-ই নেই"
+     },
+     {
+      "en": "Every idea is fully developed",
+      "bn": "প্রতিটা idea পুরোপুরি develop করা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Band 6: all parts answered (some better than others), a clear position but an unclear conclusion, and some main ideas not properly developed.",
+     "bn": "Band 6: সব অংশের উত্তর আছে (কিছু অন্যগুলোর চেয়ে ভাল), position পরিষ্কার কিন্তু conclusion অস্পষ্ট, আর কিছু main idea ঠিকমতো develop হয়নি।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Band 7 or Band 8?",
+     "bn": "Band 7 নাকি Band 8?"
+    },
+    "prompt": {
+     "en": "\"Paragraphing is sufficient and appropriate; the linking is barely noticeable.\" Which band is this?",
+     "bn": "\"Paragraphing যথেষ্ট ও উপযুক্ত; linking প্রায় চোখেই পড়ে না।\" - এটা কোন band?"
+    },
+    "options": [
+     {
+      "en": "Band 6",
+      "bn": "Band 6"
+     },
+     {
+      "en": "Band 7",
+      "bn": "Band 7"
+     },
+     {
+      "en": "Band 8",
+      "bn": "Band 8"
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "This is Band 8 Coherence & Cohesion. At Band 7, connectives are used in a range of situations, with under- or over-use in one or two places.",
+     "bn": "এটা Band 8-এর Coherence & Cohesion। Band 7-এ connective নানা জায়গায় ব্যবহার হয়, তবে এক-দুই জায়গায় কম বা বেশি হয়ে যায়।"
+    }
+   }
+  ]
+ },
+ "intro_marking_3": {
+  "intro": {
+   "en": "Learn what Band 9 means, where the big jumps are, and a quick self-test to estimate your band.",
+   "bn": "Band 9 মানে কী, বড় লাফগুলো কোথায়, আর নিজের band আন্দাজ করার একটা ঝটপট self-test - শিখে নিন।"
+  },
+  "learned": [
+   {
+    "en": "What Band 9 means",
+    "bn": "Band 9 মানে কী"
+   },
+   {
+    "en": "What to do for each band jump",
+    "bn": "প্রতিটা band jump-এর জন্য কী করতে হবে"
+   },
+   {
+    "en": "Why many students get stuck at Band 6",
+    "bn": "অনেকে কেন Band 6-এ আটকে যান"
+   },
+   {
+    "en": "A self-test checklist for every practice",
+    "bn": "প্রতিটা practice-এর জন্য self-test checklist"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Stuck at Band 6?",
+     "bn": "Band 6-এ আটকে আছেন?"
+    },
+    "prompt": {
+     "en": "According to the lesson, what is the most common reason for getting stuck at Band 6?",
+     "bn": "Lesson অনুযায়ী, Band 6-এ আটকে থাকার সবচেয়ে সাধারণ কারণ কী?"
+    },
+    "options": [
+     {
+      "en": "Ideas are only listed, not developed, plus a few clumsy mistakes",
+      "bn": "Idea শুধু তালিকা করা, develop করা নয় - সাথে কিছু \"clumsy\" ভুল"
+     },
+     {
+      "en": "Writing too many words",
+      "bn": "খুব বেশি শব্দ লেখা"
+     },
+     {
+      "en": "Not using enough rare words",
+      "bn": "যথেষ্ট rare word ব্যবহার না করা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The writing is mostly correct, but ideas are only listed, not developed, and every paragraph has one or two clumsy mistakes. Both can be fixed.",
+     "bn": "লেখা মোটামুটি ঠিক, কিন্তু idea শুধু তালিকা করা, develop করা নয়; আর প্রতিটা paragraph-এ এক-দুইটা \"clumsy\" ভুল। দুটোই ঠিক করা যায়।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "To move from Band 6 to 7, what should you do?",
+     "bn": "Band 6 থেকে 7-এ যেতে কী করা উচিত?"
+    },
+    "options": [
+     {
+      "en": "Give explanation + example for every idea; fewer but accurate connectives",
+      "bn": "প্রতিটা idea-র জন্য ব্যাখ্যা + উদাহরণ; কম কিন্তু সঠিক connective"
+     },
+     {
+      "en": "Add more linking words to every sentence",
+      "bn": "প্রতিটা sentence-এ আরও linking word যোগ করা"
+     },
+     {
+      "en": "Skip the overview in Task 1",
+      "bn": "Task 1-এ overview বাদ দেওয়া"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "For 6 → 7: cut any sentence you are not sure of, give explanation + example for every idea, and use fewer but accurate connectives.",
+     "bn": "6 → 7-এর জন্য: যে sentence নিয়ে নিশ্চিত নন তা বাদ দিন, প্রতিটা idea-য় ব্যাখ্যা + উদাহরণ দিন, আর connective কম কিন্তু সঠিক রাখুন।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Self-test",
+     "bn": "Self-test"
+    },
+    "prompt": {
+     "en": "In the self-test, how often should a linking word appear?",
+     "bn": "Self-test অনুযায়ী linking word কতবার আসা উচিত?"
+    },
+    "options": [
+     {
+      "en": "In every sentence",
+      "bn": "প্রতিটা sentence-এ"
+     },
+     {
+      "en": "About once every two or three sentences",
+      "bn": "মোটামুটি প্রতি দুই-তিন sentence-এ একবার"
+     },
+     {
+      "en": "Only in the conclusion",
+      "bn": "শুধু conclusion-এ"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The checklist says: one linking word every two or three sentences - not in every sentence.",
+     "bn": "Checklist বলে: প্রতি দুই-তিন sentence-এ একটা linking word - প্রতিটা sentence-এ নয়।"
+    }
+   }
+  ]
+ },
+ "t1_rules_1": {
+  "intro": {
+   "en": "Learn the Task 1 basics: how many words, how many paragraphs, how long to spend and which visuals appear.",
+   "bn": "Task 1-এর মূল নিয়ম শিখুন: কত শব্দ, কয়টা paragraph, কত সময়, আর কোন কোন ধরনের visual আসে।"
+  },
+  "learned": [
+   {
+    "en": "Word limit: 150 minimum, aim for about 180",
+    "bn": "শব্দসীমা: কমপক্ষে ১৫০, লক্ষ্য মোটামুটি ১৮০"
+   },
+   {
+    "en": "The four-paragraph plan with the overview second",
+    "bn": "চার paragraph-এর plan, overview দ্বিতীয়তে"
+   },
+   {
+    "en": "The 20-minute time plan",
+    "bn": "২০ মিনিটের time plan"
+   },
+   {
+    "en": "The 7 types of Task 1 visuals",
+    "bn": "Task 1-এর ৭ ধরনের visual"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Word limit",
+     "bn": "শব্দসীমা"
+    },
+    "prompt": {
+     "en": "What length does the lesson recommend for Task 1?",
+     "bn": "Lesson অনুযায়ী Task 1 কত শব্দের হওয়া উচিত?"
+    },
+    "options": [
+     {
+      "en": "Around 180 words - never under 150, not above 200",
+      "bn": "মোটামুটি ১৮০ শব্দ - কখনো ১৫০-এর কম নয়, ২০০-এর বেশি নয়"
+     },
+     {
+      "en": "Exactly 150 words",
+      "bn": "ঠিক ১৫০ শব্দ"
+     },
+     {
+      "en": "As many as possible - 250 or more",
+      "bn": "যত বেশি সম্ভব - ২৫০ বা তার বেশি"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Fewer than 150 loses marks. Above 200 means more chances of mistakes and less time for Task 2, so aim for about 180.",
+     "bn": "১৫০-এর কম হলে নম্বর কাটে। ২০০-এর বেশি হলে ভুলের সুযোগ বাড়ে আর Task 2-এর সময় কমে - তাই লক্ষ্য মোটামুটি ১৮০।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Why the overview comes second",
+     "bn": "Overview কেন দ্বিতীয় paragraph-এ"
+    },
+    "prompt": {
+     "en": "Why does the lesson put the overview right after the introduction?",
+     "bn": "Lesson কেন overview-কে introduction-এর ঠিক পরেই রাখে?"
+    },
+    "options": [
+     {
+      "en": "If you run out of time, the overview won't be the part left out",
+      "bn": "সময় শেষ হয়ে গেলেও overview বাদ পড়বে না"
+     },
+     {
+      "en": "Because it must contain the most numbers",
+      "bn": "কারণ এতে সবচেয়ে বেশি সংখ্যা থাকতে হয়"
+     },
+     {
+      "en": "Because a conclusion is not allowed",
+      "bn": "কারণ conclusion লেখা নিষেধ"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Without an overview a whole band is lost in Task Achievement. Written second, it is safe even if time runs out.",
+     "bn": "Overview না থাকলে Task Achievement-এ পুরো এক band কমে যায়। দ্বিতীয় paragraph-এ লিখলে সময় শেষ হয়ে গেলেও এটা নিরাপদ থাকে।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 4,
+    "title": {
+     "en": "Time plan",
+     "bn": "Time plan"
+    },
+    "prompt": {
+     "en": "Your 20 minutes for Task 1 are up, but you haven't finished. What should you do?",
+     "bn": "Task 1-এর ২০ মিনিট শেষ, কিন্তু লেখা শেষ হয়নি। কী করবেন?"
+    },
+    "options": [
+     {
+      "en": "Keep going until Task 1 is perfect",
+      "bn": "Task 1 নিখুঁত না হওয়া পর্যন্ত লিখতে থাকা"
+     },
+     {
+      "en": "Finish the sentence you are on and move to Task 2",
+      "bn": "যে sentence লিখছেন সেটা শেষ করে Task 2-এ চলে যাওয়া"
+     },
+     {
+      "en": "Start Task 1 again from the beginning",
+      "bn": "Task 1 আবার শুরু থেকে লেখা"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Never take more than 20 minutes on Task 1. When time is up, finish the sentence you are on and move to Task 2.",
+     "bn": "Task 1-এ কোনো অবস্থাতেই ২০ মিনিটের বেশি নয়। সময় শেষ হলে চলতি sentence শেষ করে Task 2-এ চলে যান।"
+    }
+   }
+  ]
+ },
+ "t1_rules_1p2": {
+  "intro": {
+   "en": "Learn the three red lines of Task 1, the right tenses, and the prepositions that keep your data accurate.",
+   "bn": "Task 1-এর তিনটি red line, সঠিক tense, আর data নির্ভুল রাখার preposition-গুলো শিখুন।"
+  },
+  "learned": [
+   {
+    "en": "No opinion and no I / we / you",
+    "bn": "কোনো মতামত নয়, I / we / you নয়"
+   },
+   {
+    "en": "Understand the graph fully before writing",
+    "bn": "লেখার আগে graph পুরোপুরি বোঝা"
+   },
+   {
+    "en": "Choosing the tense: past, present or projection",
+    "bn": "Tense বাছাই: past, present না projection"
+   },
+   {
+    "en": "by / to / at / from…to with numbers",
+    "bn": "সংখ্যার সাথে by / to / at / from…to"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Spot the red line",
+     "bn": "Red line চিনুন"
+    },
+    "prompt": {
+     "en": "Which sentence breaks a Task 1 red line?",
+     "bn": "কোন sentence Task 1-এর red line ভাঙে?"
+    },
+    "options": [
+     {
+      "en": "The chart shows car sales in three countries."
+     },
+     {
+      "en": "We can see that sales fell, probably because of the pandemic."
+     },
+     {
+      "en": "Sales rose steadily between 2010 and 2015."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "It breaks two rules: \"we can see\" is personal, and \"probably because of the pandemic\" is an explanation that is not in the chart.",
+     "bn": "এখানে দুটো নিয়ম ভাঙা হয়েছে: \"we can see\" ব্যক্তিগত, আর \"probably because of the pandemic\" এমন ব্যাখ্যা যা chart-এ নেই।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Tense factor",
+     "bn": "Tense factor"
+    },
+    "prompt": {
+     "en": "The visual shows future years. Which sentence uses the right form?",
+     "bn": "Visual-এ ভবিষ্যতের বছর আছে। কোন sentence-এ সঠিক রূপ ব্যবহার হয়েছে?"
+    },
+    "options": [
+     {
+      "en": "Solar output will triple by 2030."
+     },
+     {
+      "en": "Solar output is expected to triple by 2030."
+     },
+     {
+      "en": "Solar output tripled by 2030."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "For future years, don't use will/shall - use is expected / projected / forecast / predicted / anticipated to + verb.",
+     "bn": "ভবিষ্যতের বছরের জন্য will/shall নয় - is expected / projected / forecast / predicted / anticipated to + verb ব্যবহার করুন।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Preposition check",
+     "bn": "Preposition যাচাই"
+    },
+    "prompt": {
+     "en": "Sales went from 30 million to 50 million. Which sentence is accurate?",
+     "bn": "Sales ৩ কোটি থেকে ৫ কোটি হয়েছে। কোন sentence নির্ভুল?"
+    },
+    "options": [
+     {
+      "en": "Sales rose by 50 million."
+     },
+     {
+      "en": "Sales rose to 20 million."
+     },
+     {
+      "en": "Sales rose by 20 million to 50 million."
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "\"by\" gives the amount of change and \"to\" the value reached. A wrong preposition means wrong data and lower Task Achievement.",
+     "bn": "\"by\" দিয়ে পরিবর্তনের পরিমাণ, আর \"to\" দিয়ে যে মানে পৌঁছেছে তা বোঝায়। ভুল preposition মানে ভুল data, ফলে Task Achievement কমে।"
+    }
+   }
+  ]
+ },
+ "t1_line_intro_overview_1": {
+  "intro": {
+   "en": "Write a line graph introduction two ways, then an overview with no numbers.",
+   "bn": "Line graph-এর introduction দুইভাবে লিখুন, তারপর সংখ্যা ছাড়া overview।"
+  },
+  "learned": [
+   {
+    "en": "The Five-Question Method",
+    "bn": "Five-Question Method"
+   },
+   {
+    "en": "The Sentence-Frame Method",
+    "bn": "Sentence-Frame Method"
+   },
+   {
+    "en": "Paraphrasing the question's words and duration",
+    "bn": "প্রশ্নের শব্দ আর সময়কাল paraphrase করা"
+   },
+   {
+    "en": "Writing an overview without numbers",
+    "bn": "সংখ্যা ছাড়া overview লেখা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Paraphrase",
+     "bn": "Paraphrase"
+    },
+    "prompt": {
+     "en": "Which is a correct alternative for \"the number of visitors\"?",
+     "bn": "\"the number of visitors\"-এর সঠিক বিকল্প কোনটা?"
+    },
+    "options": [
+     {
+      "en": "the amount of visitors"
+     },
+     {
+      "en": "how many people visited"
+     },
+     {
+      "en": "the visitors amount"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "People are countable, so use number / how many - \"the amount of visitors\" is wrong.",
+     "bn": "মানুষ গোনা যায় (countable), তাই number / how many - \"the amount of visitors\" ভুল।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What must be true of the first sentence of a Task 1 introduction?",
+     "bn": "Task 1 introduction-এর প্রথম sentence সম্পর্কে কোনটা অবশ্যই সত্য?"
+    },
+    "options": [
+     {
+      "en": "It must be in the present tense",
+      "bn": "এটা অবশ্যই present tense-এ হবে"
+     },
+     {
+      "en": "It must copy the question exactly",
+      "bn": "এটা হুবহু প্রশ্ন কপি করবে"
+     },
+     {
+      "en": "It must include your opinion",
+      "bn": "এতে আপনার মতামত থাকবে"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "An uncommon format can help your score, but the first sentence of the introduction must be in the present tense.",
+     "bn": "একটু ভিন্ন format score বাড়াতে সাহায্য করে, তবে introduction-এর প্রথম sentence অবশ্যই present tense-এ।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Overview",
+     "bn": "Overview"
+    },
+    "prompt": {
+     "en": "Which sentence is a good overview?",
+     "bn": "কোন sentence ভাল overview?"
+    },
+    "options": [
+     {
+      "en": "Overall, visitor numbers rose considerably, despite a sharp decline in the mid-2010s."
+     },
+     {
+      "en": "Overall, visitors rose from 200,000 in 1990 to 480,000 in 2005."
+     },
+     {
+      "en": "Overall, I think the park became more popular because it was cheaper."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "An overview gives the 2–3 biggest points without any numbers - and Task 1 never includes opinions or causes.",
+     "bn": "Overview-এ সংখ্যা ছাড়া ২–৩টি সবচেয়ে বড় বিষয় থাকে - আর Task 1-এ কখনো মতামত বা কারণ নয়।"
+    }
+   }
+  ]
+ },
+ "t1_line_body_1": {
+  "intro": {
+   "en": "Pick the significant points and describe each trend with the right verb and adverb.",
+   "bn": "গুরুত্বপূর্ণ point বেছে নিন, আর সঠিক verb ও adverb দিয়ে প্রতিটা trend বর্ণনা করুন।"
+  },
+  "learned": [
+   {
+    "en": "Which data points are significant",
+    "bn": "কোন data point গুরুত্বপূর্ণ"
+   },
+   {
+    "en": "Subject + verb + adverb + time + amount",
+    "bn": "Subject + verb + adverb + time + amount"
+   },
+   {
+    "en": "Trend verbs and adverbs by size of change",
+    "bn": "পরিবর্তনের মাত্রা অনুযায়ী trend verb আর adverb"
+   },
+   {
+    "en": "Three formats for every trend sentence",
+    "bn": "প্রতিটা trend sentence-এর তিনটি format"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Trend structure",
+     "bn": "Trend-এর গঠন"
+    },
+    "prompt": {
+     "en": "Which five things does a full trend description contain?",
+     "bn": "একটা পূর্ণ trend বর্ণনায় কোন পাঁচটি জিনিস থাকে?"
+    },
+    "options": [
+     {
+      "en": "Subject + verb + adverb + time + amount",
+      "bn": "Subject + verb + adverb + time + amount"
+     },
+     {
+      "en": "Subject + opinion + reason + example + amount",
+      "bn": "Subject + opinion + reason + example + amount"
+     },
+     {
+      "en": "Title + legend + unit + axis + colour",
+      "bn": "Title + legend + unit + axis + colour"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "e.g. Visitor numbers + rose + sharply + between 1995 and 2005 + to 480,000.",
+     "bn": "যেমন: Visitor numbers + rose + sharply + between 1995 and 2005 + to 480,000।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 4,
+    "title": {
+     "en": "Pick the adverb",
+     "bn": "Adverb বাছুন"
+    },
+    "prompt": {
+     "en": "A figure rose by a small amount. Which adverb fits?",
+     "bn": "একটা figure অল্প পরিমাণে বেড়েছে। কোন adverb মানানসই?"
+    },
+    "options": [
+     {
+      "en": "dramatically"
+     },
+     {
+      "en": "marginally"
+     },
+     {
+      "en": "steeply"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Small changes: slightly, marginally, a little, minimally, slowly. Dramatically and steeply are for large changes.",
+     "bn": "ছোট পরিবর্তনের জন্য: slightly, marginally, a little, minimally, slowly। Dramatically আর steeply বড় পরিবর্তনের জন্য।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence uses format (c) - a single strong verb with no adverb?",
+     "bn": "কোন sentence format (c) - adverb ছাড়া একটা শক্তিশালী verb - ব্যবহার করেছে?"
+    },
+    "options": [
+     {
+      "en": "Attendance soared to 480,000 in 2005."
+     },
+     {
+      "en": "There was a sharp rise of 280,000 to 480,000."
+     },
+     {
+      "en": "Visitor numbers rose sharply to 480,000."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "\"Soared\" already carries the size of the change, so it needs no adverb. Mix all three formats so the structure doesn't repeat.",
+     "bn": "\"Soared\" নিজেই পরিবর্তনের মাত্রা বোঝায়, তাই adverb লাগে না। Structure যেন repeat না হয়, তাই তিনটা format মিশিয়ে লিখুন।"
+    }
+   }
+  ]
+ },
+ "t1_line_body_1p2": {
+  "intro": {
+   "en": "Describe falls, peaks and fluctuation, vary your sentence order and see the body paragraphs put together.",
+   "bn": "পতন, peak আর fluctuation বর্ণনা করুন, sentence-এর ক্রম বদলান, আর পুরো body paragraph একসাথে দেখুন।"
+  },
+  "learned": [
+   {
+    "en": "Sentences for slight and large falls",
+    "bn": "সামান্য আর বড় পতনের sentence"
+   },
+   {
+    "en": "Describing a peak and fluctuation",
+    "bn": "Peak আর fluctuation বর্ণনা করা"
+   },
+   {
+    "en": "Six ways to change the sentence order",
+    "bn": "Sentence-এর ক্রম বদলানোর ছয়টি উপায়"
+   },
+   {
+    "en": "Grouping trends into two body paragraphs",
+    "bn": "Trend-গুলোকে দুটো body paragraph-এ ভাগ করা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 4,
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "A figure moved up and down between 300,000 and 430,000. Which sentence fits?",
+     "bn": "একটা figure ৩,০০,০০০ আর ৪,৩০,০০০-এর মধ্যে ওঠানামা করেছে। কোন sentence মানানসই?"
+    },
+    "options": [
+     {
+      "en": "The figure plateaued at 300,000."
+     },
+     {
+      "en": "The figure fluctuated considerably between 300,000 and 430,000."
+     },
+     {
+      "en": "The figure soared to 430,000."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Up-and-down movement is fluctuation: fluctuated, varied, oscillated.",
+     "bn": "ওঠানামা মানে fluctuation: fluctuated, varied, oscillated।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 5,
+    "title": {
+     "en": "Sentence order",
+     "bn": "Sentence-এর ক্রম"
+    },
+    "prompt": {
+     "en": "Which sentence follows the pattern \"Time + saw + a + adjective + noun + in + information\"?",
+     "bn": "কোন sentence \"Time + saw + a + adjective + noun + in + information\" pattern মেনে চলে?"
+    },
+    "options": [
+     {
+      "en": "The period 2010–2015 saw a sharp fall in visitor numbers."
+     },
+     {
+      "en": "Visitor numbers fell sharply between 2010 and 2015 by 120,000."
+     },
+     {
+      "en": "Between 2010 and 2015, visitor numbers fell sharply by 120,000."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "It starts with the time, then \"saw a sharp fall in\" the information. Varying the order avoids repeating structures, which lowers your score.",
+     "bn": "শুরু time দিয়ে, তারপর \"saw a sharp fall in\" + information। ক্রম বদলালে structure repeat হয় না - repeat হলে score কমে।"
+    }
+   }
+  ]
+ },
+ "t1_line_body_2": {
+  "intro": {
+   "en": "Finish a line graph answer with an optional one-line conclusion and see the full 168-word model.",
+   "bn": "Optional এক লাইনের conclusion দিয়ে line graph-এর উত্তর শেষ করুন, আর ১৬৮ শব্দের পুরো model দেখুন।"
+  },
+  "learned": [
+   {
+    "en": "The Task 1 conclusion is an optional summary",
+    "bn": "Task 1-এর conclusion একটা optional summary"
+   },
+   {
+    "en": "No personal opinion in the conclusion",
+    "bn": "Conclusion-এ কোনো ব্যক্তিগত মতামত নয়"
+   },
+   {
+    "en": "How a full line graph answer fits together",
+    "bn": "পুরো line graph উত্তর কীভাবে সাজানো হয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Conclusion",
+     "bn": "Conclusion"
+    },
+    "prompt": {
+     "en": "Which is an acceptable Task 1 conclusion?",
+     "bn": "কোনটা গ্রহণযোগ্য Task 1 conclusion?"
+    },
+    "options": [
+     {
+      "en": "In summary, the park attracted far more visitors at the end of the period than at the beginning."
+     },
+     {
+      "en": "In summary, I believe the government should invest more in the park."
+     },
+     {
+      "en": "In summary, more people visited because tickets became cheaper."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The conclusion is a one-sentence summary. No personal opinion, advice or reasons may be written in Task 1.",
+     "bn": "Conclusion এক sentence-এর summary। Task 1-এ কোনো ব্যক্তিগত মতামত, পরামর্শ বা কারণ লেখা যায় না।"
+    }
+   }
+  ]
+ },
+ "t1_line_double_1": {
+  "intro": {
+   "en": "Tackle a two-line graph: understand the topic and axes, pick the key trends, then write the introduction and overview.",
+   "bn": "দুই line-এর graph: topic আর axis বুঝুন, মূল trend বাছুন, তারপর introduction আর overview লিখুন।"
+  },
+  "learned": [
+   {
+    "en": "Understand the topic and tense first",
+    "bn": "আগে topic আর tense বোঝা"
+   },
+   {
+    "en": "Spot the crossover - the key feature",
+    "bn": "Crossover চেনা - মূল বৈশিষ্ট্য"
+   },
+   {
+    "en": "Select a few key points, not everything",
+    "bn": "সবকিছু নয়, কয়েকটা মূল point বাছাই"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Key feature",
+     "bn": "মূল বৈশিষ্ট্য"
+    },
+    "prompt": {
+     "en": "In the car/bicycle graph, what is the most important feature?",
+     "bn": "Car/bicycle graph-এ সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্য কী?"
+    },
+    "options": [
+     {
+      "en": "The two lines cross in 2015 (crossover)",
+      "bn": "২০১৫-তে দুটো line একে অপরকে cross করে (crossover)"
+     },
+     {
+      "en": "The vertical axis goes from 0 to 100",
+      "bn": "Vertical axis ০ থেকে ১০০"
+     },
+     {
+      "en": "The years are at 5-year intervals",
+      "bn": "বছরগুলো ৫ বছর পরপর"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The lines go in opposite directions and cross in 2015 - this crossover is the most important feature of the graph.",
+     "bn": "Line দুটো উল্টো দিকে যায় আর ২০১৫-তে cross করে - এই crossover-ই graph-এর সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্য।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "The data runs from 2000 to 2020. Which tense should you use to describe it?",
+     "bn": "Data ২০০০ থেকে ২০২০ পর্যন্ত। এটা বর্ণনা করতে কোন tense ব্যবহার করবেন?"
+    },
+    "options": [
+     {
+      "en": "Past tense",
+      "bn": "Past tense"
+     },
+     {
+      "en": "Future with will",
+      "bn": "Will দিয়ে future"
+     },
+     {
+      "en": "Present continuous",
+      "bn": "Present continuous"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The data is from the past, so describe it in the past tense.",
+     "bn": "Data অতীতের, তাই past tense-এ বর্ণনা করুন।"
+    }
+   }
+  ]
+ },
+ "t1_line_double_2": {
+  "intro": {
+   "en": "Arrange the body by time to compare two lines directly, and use comparison language accurately.",
+   "bn": "দুটো line সরাসরি তুলনা করতে body সময় ধরে সাজান, আর comparison-এর ভাষা নির্ভুলভাবে ব্যবহার করুন।"
+  },
+  "learned": [
+   {
+    "en": "Body by line vs body by time",
+    "bn": "Line ধরে body বনাম সময় ধরে body"
+   },
+   {
+    "en": "Language of comparison",
+    "bn": "তুলনার ভাষা"
+   },
+   {
+    "en": "Percentage points vs percent",
+    "bn": "Percentage point বনাম percent"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Arrange the body",
+     "bn": "Body সাজানো"
+    },
+    "prompt": {
+     "en": "When two lines cross or change direction at the same time, how should you arrange the body?",
+     "bn": "দুটো line যখন cross করে বা একই সময়ে দিক বদলায়, body কীভাবে সাজাবেন?"
+    },
+    "options": [
+     {
+      "en": "By time - both lines in each paragraph",
+      "bn": "সময় ধরে - প্রতিটা paragraph-এ দুটো line-ই"
+     },
+     {
+      "en": "Each line alone, with no comparison",
+      "bn": "প্রতিটা line আলাদা, কোনো তুলনা ছাড়া"
+     },
+     {
+      "en": "In one long paragraph",
+      "bn": "একটাই লম্বা paragraph-এ"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Arranging by time lets you describe the crossover directly. Graph analysis means compare and contrast.",
+     "bn": "সময় ধরে সাজালে crossover সরাসরি বর্ণনা করা যায়। Graph analysis মানেই compare আর contrast।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Percentage points",
+     "bn": "Percentage point"
+    },
+    "prompt": {
+     "en": "A figure rose from 25% to 40%. How should you describe the increase?",
+     "bn": "একটা figure ২৫% থেকে ৪০% হয়েছে। বৃদ্ধিটা কীভাবে লিখবেন?"
+    },
+    "options": [
+     {
+      "en": "It rose by 15 percent."
+     },
+     {
+      "en": "It rose by 15 percentage points."
+     },
+     {
+      "en": "It rose by 40 percent."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "From 25% to 40% is 15 percentage points. A 15 percent increase would mean 25 → 28.75.",
+     "bn": "২৫% থেকে ৪০% মানে ১৫ percentage point। ১৫ percent বৃদ্ধি হলে হতো ২৫ → ২৮.৭৫।"
+    }
+   }
+  ]
+ },
+ "t1_line_complex_1": {
+  "intro": {
+   "en": "Handle a graph with four lines and future projections: select carefully and get the tenses right.",
+   "bn": "চারটি line আর ভবিষ্যৎ projection-সহ graph: সাবধানে বাছাই করুন, tense ঠিক রাখুন।"
+  },
+  "learned": [
+   {
+    "en": "Reading past data vs projections",
+    "bn": "অতীতের data বনাম projection পড়া"
+   },
+   {
+    "en": "Projection language instead of will",
+    "bn": "Will-এর বদলে projection-এর ভাষা"
+   },
+   {
+    "en": "Selecting key trends from many lines",
+    "bn": "অনেক line থেকে মূল trend বাছাই"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Projection language",
+     "bn": "Projection-এর ভাষা"
+    },
+    "prompt": {
+     "en": "Which sentence correctly describes a 2030 projection?",
+     "bn": "কোন sentence ২০৩০-এর projection সঠিকভাবে বর্ণনা করে?"
+    },
+    "options": [
+     {
+      "en": "Wind is projected to double by 2030."
+     },
+     {
+      "en": "Wind doubled by 2030."
+     },
+     {
+      "en": "Wind will surely double by 2030."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "For the future, not will - use specific vocabulary such as is expected / projected / forecast / predicted to + verb.",
+     "bn": "ভবিষ্যতের জন্য will নয় - is expected / projected / forecast / predicted to + verb-এর মতো নির্দিষ্ট শব্দ ব্যবহার করুন।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "With four lines, why not describe every trend?",
+     "bn": "চারটি line থাকলে প্রতিটা trend কেন বর্ণনা করবেন না?"
+    },
+    "options": [
+     {
+      "en": "Describing them all would go past 200 words",
+      "bn": "সব বর্ণনা করলে ২০০ শব্দ ছাড়িয়ে যাবে"
+     },
+     {
+      "en": "Examiners only read the first two lines",
+      "bn": "Examiner শুধু প্রথম দুটো line পড়েন"
+     },
+     {
+      "en": "Projections must never be mentioned",
+      "bn": "Projection কখনো উল্লেখ করা যাবে না"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Describing all four lines would go past 200 words, so select carefully - here the main point is the shift from coal to renewables.",
+     "bn": "চারটা line-ই বর্ণনা করলে ২০০ শব্দ ছাড়িয়ে যাবে, তাই সাবধানে বাছুন - এখানে মূল বিষয় coal থেকে renewables-এ সরে যাওয়া।"
+    }
+   }
+  ]
+ },
+ "t1_line_complex_2": {
+  "intro": {
+   "en": "Split the body into past and projection, then run the line graph checklist.",
+   "bn": "Body-কে অতীত আর projection-এ ভাগ করুন, তারপর line graph checklist মিলিয়ে নিন।"
+  },
+  "learned": [
+   {
+    "en": "Two ways to divide the body",
+    "bn": "Body ভাগ করার দুটো উপায়"
+   },
+   {
+    "en": "Past paragraph vs projection paragraph",
+    "bn": "অতীতের paragraph বনাম projection-এর paragraph"
+   },
+   {
+    "en": "The line graph checklist",
+    "bn": "Line graph checklist"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Divide the body",
+     "bn": "Body ভাগ করা"
+    },
+    "prompt": {
+     "en": "Why does the lesson put all data up to 2020 in paragraph 1 and projections in paragraph 2?",
+     "bn": "Lesson কেন ২০২০ পর্যন্ত সব data paragraph 1-এ আর projection paragraph 2-তে রাখে?"
+    },
+    "options": [
+     {
+      "en": "It keeps the tense clear and makes comparison easier",
+      "bn": "এতে tense পরিষ্কার থাকে আর তুলনা সহজ হয়"
+     },
+     {
+      "en": "Projections must always be longer",
+      "bn": "Projection সবসময় লম্বা হতে হয়"
+     },
+     {
+      "en": "Coal and gas cannot be in the same paragraph",
+      "bn": "Coal আর gas একই paragraph-এ রাখা যায় না"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Splitting past and future keeps the tense clear and makes compare/contrast easier.",
+     "bn": "অতীত আর ভবিষ্যৎ আলাদা করলে tense পরিষ্কার থাকে আর compare/contrast সহজ হয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Checklist",
+     "bn": "Checklist"
+    },
+    "prompt": {
+     "en": "Which item is on the line graph checklist?",
+     "bn": "Line graph checklist-এ কোনটা আছে?"
+    },
+    "options": [
+     {
+      "en": "Describe every single data point",
+      "bn": "প্রতিটা data point বর্ণনা করা"
+     },
+     {
+      "en": "Select 4–6 key points, such as start, end, peak and crossover",
+      "bn": "৪–৬টা মূল point বাছাই - যেমন শুরু, শেষ, peak, crossover"
+     },
+     {
+      "en": "Put numbers in the overview",
+      "bn": "Overview-এ সংখ্যা দেওয়া"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Select 4–6 key points (start, end, peak, trough, crossover, biggest change) - not every point. The overview has no numbers.",
+     "bn": "৪–৬টা মূল point বাছুন (শুরু, শেষ, peak, trough, crossover, সবচেয়ে বড় পরিবর্তন) - সব point নয়। Overview-এ কোনো সংখ্যা নয়।"
+    }
+   }
+  ]
+ },
+ "t1_bar_1": {
+  "intro": {
+   "en": "Find the story in a bar chart: comparison for categories, trends for time - with two full examples.",
+   "bn": "Bar chart-এর গল্প খুঁজে নিন: category হলে তুলনা, সময় হলে trend - দুটো পূর্ণ উদাহরণসহ।"
+  },
+  "learned": [
+   {
+    "en": "Time or category on the horizontal axis?",
+    "bn": "Horizontal axis-এ সময় নাকি category?"
+   },
+   {
+    "en": "Arrange the body by group, not left to right",
+    "bn": "Body বাঁ থেকে ডানে নয়, group ধরে সাজানো"
+   },
+   {
+    "en": "Two-way comparison in grouped bar charts",
+    "bn": "Grouped bar chart-এ দুই দিকের তুলনা"
+   },
+   {
+    "en": "Order, proportion and change language",
+    "bn": "ক্রম, অনুপাত আর পরিবর্তনের ভাষা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Category or time?",
+     "bn": "Category নাকি সময়?"
+    },
+    "prompt": {
+     "en": "A bar chart compares five countries in one year only. Which sentence is right?",
+     "bn": "একটা bar chart শুধু এক বছরে পাঁচটি দেশের তুলনা করে। কোন sentence ঠিক?"
+    },
+    "options": [
+     {
+      "en": "Coffee consumption rose from Japan to Finland."
+     },
+     {
+      "en": "Finland's consumption was more than three times higher than Japan's."
+     },
+     {
+      "en": "Consumption fell sharply in Japan."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Category bars do not rise or fall. With no time, use comparison: higher / lower than, the most, followed by.",
+     "bn": "Category-র bar rise বা fall করে না। সময় না থাকলে তুলনার ভাষা: higher / lower than, the most, followed by।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Arrange the body",
+     "bn": "Body সাজানো"
+    },
+    "prompt": {
+     "en": "How should you arrange the body for a category bar chart?",
+     "bn": "Category bar chart-এর body কীভাবে সাজাবেন?"
+    },
+    "options": [
+     {
+      "en": "By group: the top group, then the rest",
+      "bn": "Group ধরে: আগে উপরের group, তারপর বাকিরা"
+     },
+     {
+      "en": "Bar by bar, from left to right",
+      "bn": "বাঁ থেকে ডানে একটা একটা bar ধরে"
+     },
+     {
+      "en": "Alphabetically by country",
+      "bn": "দেশের নামের বর্ণানুক্রমে"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Arrange by group and state the order and gaps. Describing bars one by one from left to right is a common mistake.",
+     "bn": "Group ধরে সাজান, আর ক্রম ও ফারাক বলুন। বাঁ থেকে ডানে একটা একটা bar বর্ণনা করা একটা সাধারণ ভুল।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which is listed as a common bar graph mistake?",
+     "bn": "কোনটা bar graph-এর সাধারণ ভুল হিসেবে বলা হয়েছে?"
+    },
+    "options": [
+     {
+      "en": "Forgetting the unit (percentage? number? in thousands?)",
+      "bn": "Unit ভুলে যাওয়া (percentage? সংখ্যা? হাজারে?)"
+     },
+     {
+      "en": "Grouping the big bars together",
+      "bn": "বড় bar-গুলো একসাথে group করা"
+     },
+     {
+      "en": "Using \"followed by\" to show order",
+      "bn": "ক্রম বোঝাতে \"followed by\" ব্যবহার"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The three common mistakes: describing bars left to right, increased/decreased with no time, and forgetting the unit.",
+     "bn": "তিনটি সাধারণ ভুল: বাঁ থেকে ডানে bar বর্ণনা, সময় ছাড়া increased/decreased, আর unit ভুলে যাওয়া।"
+    }
+   }
+  ]
+ },
+ "t1_table_1": {
+  "intro": {
+   "en": "Read a table in two minutes, find the hidden pattern and group rows by how they behave.",
+   "bn": "দুই মিনিটে table পড়ুন, লুকানো pattern খুঁজুন, আর row-গুলোকে আচরণ অনুযায়ী group করুন।"
+  },
+  "learned": [
+   {
+    "en": "How to read rows and columns",
+    "bn": "Row আর column কীভাবে পড়বেন"
+   },
+   {
+    "en": "Group by behaviour, not row order",
+    "bn": "Row-এর ক্রমে নয়, আচরণ অনুযায়ী group"
+   },
+   {
+    "en": "Exceptions are always a main feature",
+    "bn": "ব্যতিক্রম সবসময় একটা main feature"
+   },
+   {
+    "en": "Turning numbers into relationships",
+    "bn": "সংখ্যাকে সম্পর্কে রূপান্তর"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Spot the exception",
+     "bn": "ব্যতিক্রম চিনুন"
+    },
+    "prompt": {
+     "en": "In the student table, which country did not follow the pattern?",
+     "bn": "Student table-এ কোন দেশ pattern মানেনি?"
+    },
+    "options": [
+     {
+      "en": "Australia - the only country where numbers fell",
+      "bn": "Australia - একমাত্র দেশ যেখানে সংখ্যা কমেছে"
+     },
+     {
+      "en": "The USA - always the biggest",
+      "bn": "USA - সবসময় সবচেয়ে বড়"
+     },
+     {
+      "en": "The UK - grew slowly",
+      "bn": "UK - ধীরে বেড়েছে"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Australia fell from 330 to 290 before rising to 460. Whatever does not fit the pattern is always a main feature.",
+     "bn": "Australia ৩৩০ থেকে ২৯০-এ নেমে পরে ৪৬০-এ উঠেছে। যা pattern-এর সাথে মেলে না, সেটা সবসময় একটা main feature।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Table techniques",
+     "bn": "Table techniques"
+    },
+    "prompt": {
+     "en": "In what order should you write about the rows of a table?",
+     "bn": "Table-এর row-গুলো কোন ক্রমে লিখবেন?"
+    },
+    "options": [
+     {
+      "en": "Top to bottom, as printed",
+      "bn": "যেভাবে ছাপা আছে, উপর থেকে নিচে"
+     },
+     {
+      "en": "In the order of behaviour",
+      "bn": "আচরণের ক্রমে"
+     },
+     {
+      "en": "From the smallest number to the biggest",
+      "bn": "সবচেয়ে ছোট সংখ্যা থেকে সবচেয়ে বড়"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Do not write in the order of the rows - rows that behave in the same way go in the same paragraph.",
+     "bn": "Row-এর ক্রমে লিখবেন না - যে row-গুলো একইভাবে আচরণ করে, সেগুলো একই paragraph-এ যায়।"
+    }
+   }
+  ]
+ },
+ "t1_pie_1": {
+  "intro": {
+   "en": "Use the language of proportion for pie charts, and compare two pies segment by segment.",
+   "bn": "Pie chart-এ অনুপাতের ভাষা ব্যবহার করুন, আর দুটো pie segment ধরে ধরে তুলনা করুন।"
+  },
+  "learned": [
+   {
+    "en": "Phrases for shares, order and fractions",
+    "bn": "Share, ক্রম আর ভগ্নাংশের phrase"
+   },
+   {
+    "en": "A single pie: biggest to smallest, present tense",
+    "bn": "একটা pie: বড় থেকে ছোট, present tense"
+   },
+   {
+    "en": "Two pies: compare the same segment",
+    "bn": "দুটো pie: একই segment তুলনা"
+   },
+   {
+    "en": "Common pie chart mistakes",
+    "bn": "Pie chart-এর সাধারণ ভুল"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Single pie",
+     "bn": "একটা pie"
+    },
+    "prompt": {
+     "en": "A single pie chart with no time. Which sentence fits?",
+     "bn": "সময় ছাড়া একটা মাত্র pie chart। কোন sentence মানানসই?"
+    },
+    "options": [
+     {
+      "en": "Food waste accounts for just over a third of the total."
+     },
+     {
+      "en": "Food waste rose to 34%."
+     },
+     {
+      "en": "The pie chart increased to 34%."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "A single pie has no time, so use proportion language (accounts for, makes up) in the present tense - not rose/fell.",
+     "bn": "একটা pie-তে সময় নেই, তাই present tense-এ অনুপাতের ভাষা (accounts for, makes up) - rose/fell নয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Two pies",
+     "bn": "দুটো pie"
+    },
+    "prompt": {
+     "en": "Why is describing all of pie 1, then all of pie 2, a Band 5 answer?",
+     "bn": "পুরো pie 1, তারপর পুরো pie 2 বর্ণনা করা কেন Band 5 উত্তর?"
+    },
+    "options": [
+     {
+      "en": "It contains no comparison",
+      "bn": "এতে কোনো তুলনা নেই"
+     },
+     {
+      "en": "It uses too many fractions",
+      "bn": "এতে খুব বেশি ভগ্নাংশ আছে"
+     },
+     {
+      "en": "It is always under 150 words",
+      "bn": "এটা সবসময় ১৫০ শব্দের কম হয়"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "With two pies, the whole task is to compare the same segment across them. Describing them one after another contains no comparison.",
+     "bn": "দুটো pie থাকলে পুরো কাজটাই একই segment দুই pie-তে তুলনা করা। একটার পর একটা বর্ণনা করলে কোনো তুলনা থাকে না।"
+    }
+   }
+  ]
+ },
+ "t1_combination_1": {
+  "intro": {
+   "en": "Handle two different visuals in one task and know when you may link them.",
+   "bn": "এক task-এ দুটো ভিন্ন visual সামলান, আর কখন এদের link করা যায় তা জানুন।"
+  },
+  "learned": [
+   {
+    "en": "One body paragraph per visual",
+    "bn": "প্রতিটা visual-এর জন্য একটা body paragraph"
+   },
+   {
+    "en": "Link visuals only if the question links them",
+    "bn": "প্রশ্ন link করলে তবেই visual link করা"
+   },
+   {
+    "en": "Share words roughly equally",
+    "bn": "শব্দ মোটামুটি সমানভাবে ভাগ করা"
+   },
+   {
+    "en": "The Bar · Table · Pie · Combination checklist",
+    "bn": "Bar · Table · Pie · Combination checklist"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Combination rules",
+     "bn": "Combination-এর নিয়ম"
+    },
+    "prompt": {
+     "en": "When may you compare across the two visuals?",
+     "bn": "কখন দুটো visual-এর মধ্যে তুলনা করা যায়?"
+    },
+    "options": [
+     {
+      "en": "Always - that is the main task",
+      "bn": "সবসময় - এটাই মূল কাজ"
+     },
+     {
+      "en": "Only when the question itself links them",
+      "bn": "শুধু যখন প্রশ্ন নিজেই এদের link করে"
+     },
+     {
+      "en": "Never, under any circumstances",
+      "bn": "কখনোই না, কোনো অবস্থাতেই"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Compare within each visual. Cross-comparison is allowed only if the question links them - e.g. the pie is the breakdown of the bar chart's last year.",
+     "bn": "প্রতিটা visual-এর ভেতরে তুলনা করুন। প্রশ্ন link করলে তবেই cross-comparison - যেমন pie যদি bar chart-এর শেষ বছরের ভাঙন হয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Stay in the chart",
+     "bn": "Chart-এর ভেতরে থাকুন"
+    },
+    "prompt": {
+     "en": "There is only a 2020 pie. Why can't you write \"Local visitors increased\"?",
+     "bn": "শুধু ২০২০-এর pie আছে। কেন \"Local visitors increased\" লেখা যাবে না?"
+    },
+    "options": [
+     {
+      "en": "There is no earlier pie, so there is no data to compare",
+      "bn": "আগের কোনো pie নেই, তাই তুলনার data নেই"
+     },
+     {
+      "en": "Pie charts must be written in the future tense",
+      "bn": "Pie chart future tense-এ লিখতে হয়"
+     },
+     {
+      "en": "Local visitors are not shown in the pie",
+      "bn": "Pie-তে local visitors দেখানো নেই"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "There is no 2015 pie, so there is no data to compare. Never write what is not in the chart.",
+     "bn": "২০১৫-এর কোনো pie নেই, তাই তুলনার data নেই। Chart-এ যা নেই তা কখনো লিখবেন না।"
+    }
+   }
+  ]
+ },
+ "t1_process_1": {
+  "intro": {
+   "en": "Describe a man-made process step by step: present simple, passive voice and varied sequencers.",
+   "bn": "মানুষের তৈরি process ধাপে ধাপে বর্ণনা করুন: present simple, passive voice আর বৈচিত্র্যময় sequencer।"
+  },
+  "learned": [
+   {
+    "en": "What to check first: stages, linear or cycle",
+    "bn": "প্রথমে যা দেখবেন: কয়টা stage, linear নাকি cycle"
+   },
+   {
+    "en": "Man-made → passive, natural → active",
+    "bn": "মানুষের তৈরি → passive, প্রাকৃতিক → active"
+   },
+   {
+    "en": "Turning labels into verbs",
+    "bn": "Label-কে verb-এ রূপান্তর"
+   },
+   {
+    "en": "What a process overview must say",
+    "bn": "Process overview-এ কী বলতেই হবে"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Voice",
+     "bn": "Voice"
+    },
+    "prompt": {
+     "en": "In a man-made process like olive oil production, which sentence is right?",
+     "bn": "Olive oil তৈরির মতো মানুষের তৈরি process-এ কোন sentence ঠিক?"
+    },
+    "options": [
+     {
+      "en": "The olives are washed."
+     },
+     {
+      "en": "The olives wash."
+     },
+     {
+      "en": "The olives washed."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "A man-made process uses the passive and present simple: are washed, are crushed. A natural process uses the active.",
+     "bn": "মানুষের তৈরি process-এ passive আর present simple: are washed, are crushed। প্রাকৃতিক process-এ active।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which is a common mistake in a process answer?",
+     "bn": "Process উত্তরে কোনটা সাধারণ ভুল?"
+    },
+    "options": [
+     {
+      "en": "Using \"Next\" and \"In the final stage\"",
+      "bn": "\"Next\" আর \"In the final stage\" ব্যবহার"
+     },
+     {
+      "en": "Adding a temperature or time that is not in any label",
+      "bn": "কোনো label-এ নেই এমন তাপমাত্রা বা সময় যোগ করা"
+     },
+     {
+      "en": "Stating the number of stages in the overview",
+      "bn": "Overview-এ stage-এর সংখ্যা বলা"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Don't add information that is not in the diagram (what temperature, how long) - only if it is in a label.",
+     "bn": "Diagram-এ নেই এমন তথ্য (কত তাপমাত্রা, কতক্ষণ) যোগ করবেন না - label-এ থাকলে তবেই।"
+    }
+   }
+  ]
+ },
+ "t1_process_2": {
+  "intro": {
+   "en": "Describe a natural cycle and a working diagram - order, position and flow.",
+   "bn": "প্রাকৃতিক cycle আর একটা কার্যকর diagram বর্ণনা করুন - ক্রম, অবস্থান আর প্রবাহ।"
+  },
+  "learned": [
+   {
+    "en": "Choosing a starting point for a cycle",
+    "bn": "Cycle-এর শুরুর বিন্দু বাছাই"
+   },
+   {
+    "en": "Active voice for natural processes",
+    "bn": "প্রাকৃতিক process-এ active voice"
+   },
+   {
+    "en": "Language of parts, position and flow",
+    "bn": "অংশ, অবস্থান আর প্রবাহের ভাষা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Cycle",
+     "bn": "Cycle"
+    },
+    "prompt": {
+     "en": "How should you describe a natural cycle like a butterfly's life?",
+     "bn": "প্রজাপতির জীবনের মতো প্রাকৃতিক cycle কীভাবে বর্ণনা করবেন?"
+    },
+    "options": [
+     {
+      "en": "Pick a logical start, use the active voice and join the last stage back to the first",
+      "bn": "যৌক্তিক শুরু বাছুন, active voice ব্যবহার করুন, আর শেষ stage-কে প্রথমটার সাথে জুড়ে দিন"
+     },
+     {
+      "en": "Always start from the adult and use the passive voice",
+      "bn": "সবসময় পূর্ণবয়স্ক থেকে শুরু, passive voice ব্যবহার"
+     },
+     {
+      "en": "Use trend words such as increase and decrease",
+      "bn": "Increase, decrease-এর মতো trend word ব্যবহার"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "A cycle has no real start: choose a logical one, say clearly it is a cycle, join the end back to the start, and use active present simple.",
+     "bn": "Cycle-এর আসল শুরু নেই: যৌক্তিক একটা বাছুন, পরিষ্কার বলুন এটা cycle, শেষকে শুরুর সাথে জুড়ুন, আর active present simple ব্যবহার করুন।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Diagram language",
+     "bn": "Diagram-এর ভাষা"
+    },
+    "prompt": {
+     "en": "Besides the order, what else must you state when describing a diagram of a system?",
+     "bn": "কোনো system-এর diagram বর্ণনায় ক্রম ছাড়া আর কী বলতে হবে?"
+    },
+    "options": [
+     {
+      "en": "The position of each part",
+      "bn": "প্রতিটা অংশের অবস্থান"
+     },
+     {
+      "en": "Your opinion of the design",
+      "bn": "Design নিয়ে আপনার মতামত"
+     },
+     {
+      "en": "Why the system was built",
+      "bn": "System-টা কেন বানানো হয়েছে"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "A diagram is like a process, but along with the order you also state the position: is located above / below / beside / inside.",
+     "bn": "Diagram অনেকটা process-এর মতো, তবে ক্রমের সাথে অবস্থানও বলতে হয়: is located above / below / beside / inside।"
+    }
+   }
+  ]
+ },
+ "t1_map_1": {
+  "intro": {
+   "en": "Describe changes between maps with directions, the right tense, and what stayed the same.",
+   "bn": "Map-এর পরিবর্তনগুলো দিক, সঠিক tense আর কী অপরিবর্তিত রইল - সব দিয়ে বর্ণনা করুন।"
+  },
+  "learned": [
+   {
+    "en": "Three kinds of map task and their tenses",
+    "bn": "তিন ধরনের map task আর তাদের tense"
+   },
+   {
+    "en": "Listing what disappeared, is new, changed or stayed",
+    "bn": "কী হারিয়েছে, নতুন, বদলেছে বা একই আছে - তালিকা"
+   },
+   {
+    "en": "Verbs of change and position phrases",
+    "bn": "পরিবর্তনের verb আর অবস্থানের phrase"
+   },
+   {
+    "en": "Describe changes, not two inventories",
+    "bn": "দুটো তালিকা নয়, পরিবর্তন বর্ণনা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Map tense",
+     "bn": "Map-এর tense"
+    },
+    "prompt": {
+     "en": "The task shows the current situation and a proposed plan. Which sentence fits?",
+     "bn": "Task-এ বর্তমান অবস্থা আর একটা প্রস্তাবিত plan দেখানো হয়েছে। কোন sentence মানানসই?"
+    },
+    "options": [
+     {
+      "en": "A new car park was built next to the school."
+     },
+     {
+      "en": "A new car park will be built next to the school."
+     },
+     {
+      "en": "A new car park builds next to the school."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "For a proposed plan, use present + future: will be / is to be / is going to be built.",
+     "bn": "প্রস্তাবিত plan-এর জন্য present + future: will be / is to be / is going to be built।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which is a common mistake in a map answer?",
+     "bn": "Map উত্তরে কোনটা সাধারণ ভুল?"
+    },
+    "options": [
+     {
+      "en": "Mentioning what stayed the same",
+      "bn": "যা একই আছে তা উল্লেখ করা"
+     },
+     {
+      "en": "Describing all of map 1, then all of map 2",
+      "bn": "পুরো map 1, তারপর পুরো map 2 বর্ণনা করা"
+     },
+     {
+      "en": "Giving a direction in each sentence",
+      "bn": "প্রতিটা sentence-এ দিক উল্লেখ করা"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Map 1 then map 2 is two inventories, not a comparison. Describe the changes, give directions and mention the unchanged things.",
+     "bn": "আগে map 1, পরে map 2 মানে দুটো তালিকা, তুলনা নয়। পরিবর্তন বর্ণনা করুন, দিক বলুন, আর অপরিবর্তিত জিনিসও উল্লেখ করুন।"
+    }
+   }
+  ]
+ },
+ "t1_sample_lessons_1": {
+  "intro": {
+   "en": "See the signs of Band 5, 6, 7 and 8 across all Task 1 types in one table.",
+   "bn": "সব ধরনের Task 1-এ Band 5, 6, 7 আর 8-এর লক্ষণ এক table-এ দেখুন।"
+  },
+  "learned": [
+   {
+    "en": "Signs of a Band 5 Task 1",
+    "bn": "Band 5 Task 1-এর লক্ষণ"
+   },
+   {
+    "en": "What separates Band 6 from Band 7",
+    "bn": "Band 6 আর Band 7-এর পার্থক্য"
+   },
+   {
+    "en": "What Band 8 looks like",
+    "bn": "Band 8 দেখতে কেমন"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Which band?",
+     "bn": "কোন band?"
+    },
+    "prompt": {
+     "en": "Introduction copied, no overview, a data dump and some guesswork. Which band do these signs point to?",
+     "bn": "Introduction কপি করা, overview নেই, data dump আর কিছু অনুমান। এই লক্ষণগুলো কোন band-এর?"
+    },
+    "options": [
+     {
+      "en": "Band 5",
+      "bn": "Band 5"
+     },
+     {
+      "en": "Band 7",
+      "bn": "Band 7"
+     },
+     {
+      "en": "Band 8",
+      "bn": "Band 8"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "These are signs of Band 5. Band 7 shows a pattern in the overview, numbers as proportions and paragraphs by group or area.",
+     "bn": "এগুলো Band 5-এর লক্ষণ। Band 7-এ overview-এ pattern, সংখ্যা অনুপাত হিসেবে, আর group বা area ধরে paragraph থাকে।"
+    }
+   }
+  ]
+ },
+ "t2_rules_1": {
+  "intro": {
+   "en": "Learn the Task 2 basics: how many words, how to use 40 minutes, how many paragraphs, and what to do and avoid.",
+   "bn": "Task 2-এর মূল নিয়ম শিখুন: কত শব্দ, ৪০ মিনিট কীভাবে ব্যবহার করবেন, কয়টা paragraph, আর কী করবেন ও কী এড়াবেন।"
+  },
+  "learned": [
+   {
+    "en": "Word limit: 250 minimum, aim for 260–290",
+    "bn": "শব্দসীমা: কমপক্ষে ২৫০, লক্ষ্য ২৬০–২৯০"
+   },
+   {
+    "en": "The 40-minute plan: plan, write, revise",
+    "bn": "৪০ মিনিটের plan: plan, লেখা, revision"
+   },
+   {
+    "en": "4 or 5 paragraphs, no headings or bullets",
+    "bn": "৪ বা ৫টা paragraph, কোনো heading বা bullet নয়"
+   },
+   {
+    "en": "The must-list and avoid-list",
+    "bn": "Must-list আর avoid-list"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Word limit",
+     "bn": "শব্দসীমা"
+    },
+    "prompt": {
+     "en": "How long should a Task 2 essay be, according to the lesson?",
+     "bn": "Lesson অনুযায়ী Task 2 essay কত শব্দের হওয়া উচিত?"
+    },
+    "options": [
+     {
+      "en": "260–290 words, 300 at most",
+      "bn": "২৬০–২৯০ শব্দ, সর্বোচ্চ ৩০০"
+     },
+     {
+      "en": "Exactly 250 words",
+      "bn": "ঠিক ২৫০ শব্দ"
+     },
+     {
+      "en": "400 words or more",
+      "bn": "৪০০ বা তার বেশি শব্দ"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Never below 250 - even 248 is a penalty. There is no gain above 320; mistakes simply increase and revision time is lost.",
+     "bn": "কখনো ২৫০-এর কম নয় - ২৪৮ হলেও penalty। ৩২০-এর বেশিতে কোনো লাভ নেই; শুধু ভুল বাড়ে আর revision-এর সময় নষ্ট হয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Paragraphs",
+     "bn": "Paragraph"
+    },
+    "prompt": {
+     "en": "Which paragraph layout will NOT work in Task 2?",
+     "bn": "Task 2-এ কোন paragraph বিন্যাস চলবে না?"
+    },
+    "options": [
+     {
+      "en": "Introduction, three body paragraphs, conclusion",
+      "bn": "Introduction, তিনটা body paragraph, conclusion"
+     },
+     {
+      "en": "Introduction, two well-developed body paragraphs, conclusion",
+      "bn": "Introduction, দুটো ভালভাবে develop করা body paragraph, conclusion"
+     },
+     {
+      "en": "One huge block of text",
+      "bn": "একটাই বিশাল লেখার block"
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "Five paragraphs is standard; four gets the same score if ideas are well developed. One huge block, or seven or eight two-line fragments, will not work.",
+     "bn": "পাঁচটা paragraph standard; idea ভালভাবে develop হলে চারটাতেও একই score। একটা বিশাল block, বা সাত-আটটা দুই লাইনের টুকরো - চলবে না।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Avoid-list",
+     "bn": "Avoid-list"
+    },
+    "prompt": {
+     "en": "You are not sure a complex structure is correct. What does the lesson advise?",
+     "bn": "একটা complex structure ঠিক কিনা নিশ্চিত নন। Lesson কী পরামর্শ দেয়?"
+    },
+    "options": [
+     {
+      "en": "Use it anyway - attempts always raise your score",
+      "bn": "তবুও ব্যবহার করুন - চেষ্টা করলেই score বাড়ে"
+     },
+     {
+      "en": "Write simple sentences and join them with linking words",
+      "bn": "সহজ sentence লিখুন আর linking word দিয়ে জুড়ুন"
+     },
+     {
+      "en": "Copy the structure from the question",
+      "bn": "প্রশ্ন থেকে structure কপি করুন"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Mistakes made while trying varied sentences can drop your score below what you would normally get. Use them only if you are confident.",
+     "bn": "বৈচিত্র্যময় sentence লিখতে গিয়ে ভুল করলে score স্বাভাবিকের চেয়েও নিচে নামতে পারে। নিশ্চিত হলে তবেই ব্যবহার করুন।"
+    }
+   }
+  ]
+ },
+ "t2_rules_2": {
+  "intro": {
+   "en": "Tell narrative from argumentative tasks by reading the instruction - the key is freedom of choice.",
+   "bn": "Instruction পড়ে narrative আর argumentative task আলাদা করুন - মূল চাবি হলো পছন্দের স্বাধীনতা।"
+  },
+  "learned": [
+   {
+    "en": "Statement vs instruction in a question",
+    "bn": "প্রশ্নে statement বনাম instruction"
+   },
+   {
+    "en": "Freedom of choice: narrative vs argumentative",
+    "bn": "পছন্দের স্বাধীনতা: narrative বনাম argumentative"
+   },
+   {
+    "en": "Word clues for narrative tasks",
+    "bn": "Narrative task চেনার শব্দ-সূত্র"
+   },
+   {
+    "en": "Write only what is asked",
+    "bn": "শুধু যা চাওয়া হয়েছে তা-ই লেখা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "The key difference",
+     "bn": "মূল পার্থক্য"
+    },
+    "prompt": {
+     "en": "What is the one key difference between narrative and argumentative questions?",
+     "bn": "Narrative আর argumentative প্রশ্নের একমাত্র মূল পার্থক্য কী?"
+    },
+    "options": [
+     {
+      "en": "Freedom of choice",
+      "bn": "পছন্দের স্বাধীনতা (freedom of choice)"
+     },
+     {
+      "en": "The number of words required",
+      "bn": "কত শব্দ লাগবে"
+     },
+     {
+      "en": "The topic of the question",
+      "bn": "প্রশ্নের topic"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "In narrative tasks the question tells you what to write. In argumentative tasks you may choose either side.",
+     "bn": "Narrative task-এ প্রশ্নই বলে দেয় কী লিখতে হবে। Argumentative task-এ আপনি যেকোনো পক্ষ বেছে নিতে পারেন।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 4,
+    "title": {
+     "en": "Write only what is asked",
+     "bn": "শুধু যা চাওয়া হয়েছে"
+    },
+    "prompt": {
+     "en": "The question asks only: \"What are the problems of tourism?\" What should you write?",
+     "bn": "প্রশ্নে শুধু বলা আছে: \"What are the problems of tourism?\" কী লিখবেন?"
+    },
+    "options": [
+     {
+      "en": "Problems only",
+      "bn": "শুধু সমস্যাগুলো"
+     },
+     {
+      "en": "Problems and a paragraph on benefits",
+      "bn": "সমস্যা আর সুবিধা নিয়ে একটা paragraph"
+     },
+     {
+      "en": "Your opinion on whether tourism is good",
+      "bn": "Tourism ভাল কিনা তা নিয়ে আপনার মতামত"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "It is narrative and asks only for problems. A paragraph on the benefits of tourism would be irrelevant.",
+     "bn": "এটা narrative আর শুধু সমস্যা চাওয়া হয়েছে। Tourism-এর সুবিধা নিয়ে paragraph অপ্রাসঙ্গিক (irrelevant) হবে।"
+    }
+   }
+  ]
+ },
+ "t2_rules_3": {
+  "intro": {
+   "en": "Recognise the seven kinds of argumentative question - from agree/disagree to a bare statement.",
+   "bn": "Argumentative প্রশ্নের সাত রকম চিনে নিন - agree/disagree থেকে শুধু একটা statement পর্যন্ত।"
+  },
+  "learned": [
+   {
+    "en": "Agree/disagree and yes/no questions",
+    "bn": "Agree/disagree আর yes/no প্রশ্ন"
+   },
+   {
+    "en": "Discuss both views + opinion",
+    "bn": "Discuss both views + opinion"
+   },
+   {
+    "en": "Outweigh and positive/negative ask for a verdict",
+    "bn": "Outweigh আর positive/negative মানে রায় চাওয়া"
+   },
+   {
+    "en": "A bare statement is argumentative",
+    "bn": "শুধু statement মানেই argumentative"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 4,
+    "title": {
+     "en": "Name the type",
+     "bn": "Type চিনুন"
+    },
+    "prompt": {
+     "en": "\"Many people now shop online. Is this a positive or negative development?\" What type is this?",
+     "bn": "\"Many people now shop online. Is this a positive or negative development?\" - এটা কোন type?"
+    },
+    "options": [
+     {
+      "en": "Narrative - just list the effects",
+      "bn": "Narrative - শুধু প্রভাবগুলোর তালিকা"
+     },
+     {
+      "en": "Argumentative - both sides, then a verdict",
+      "bn": "Argumentative - দুই পক্ষ, তারপর রায়"
+     },
+     {
+      "en": "Combination",
+      "bn": "Combination"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Although the words look narrative, \"positive or negative\" asks for a verdict, so it is argumentative.",
+     "bn": "শব্দগুলো narrative মনে হলেও \"positive or negative\" রায় চায়, তাই এটা argumentative।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Only a statement",
+     "bn": "শুধু একটা statement"
+    },
+    "prompt": {
+     "en": "The task is only a statement with no instruction. What type is it?",
+     "bn": "Task-এ instruction ছাড়া শুধু একটা statement আছে। এটা কোন type?"
+    },
+    "options": [
+     {
+      "en": "Narrative",
+      "bn": "Narrative"
+     },
+     {
+      "en": "Argumentative",
+      "bn": "Argumentative"
+     },
+     {
+      "en": "It cannot be answered",
+      "bn": "এর উত্তর দেওয়া যায় না"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Add \"Do you agree or disagree?\" yourself. If only a statement comes in the exam, it is definitely argumentative.",
+     "bn": "নিজেই \"Do you agree or disagree?\" যোগ করে নিন। পরীক্ষায় শুধু statement এলে সেটা নিশ্চিতভাবে argumentative।"
+    }
+   }
+  ]
+ },
+ "t2_rules_4": {
+  "intro": {
+   "en": "Spot combination tasks, use the at-a-glance table, and practise naming the type.",
+   "bn": "Combination task চিনুন, এক নজরের table ব্যবহার করুন, আর type চেনার practice করুন।"
+  },
+  "learned": [
+   {
+    "en": "Combination: two questions, answer both",
+    "bn": "Combination: দুটো প্রশ্ন, দুটোরই উত্তর"
+   },
+   {
+    "en": "The type from the instruction at a glance",
+    "bn": "এক নজরে instruction থেকে type"
+   },
+   {
+    "en": "Argumentative conclusion = opinion; narrative = suggestion",
+    "bn": "Argumentative conclusion = মতামত; narrative = পরামর্শ"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Combination",
+     "bn": "Combination"
+    },
+    "prompt": {
+     "en": "\"Fewer people are cooking at home. Why is this happening? Is this a positive or negative development?\" What must you do?",
+     "bn": "\"Fewer people are cooking at home. Why is this happening? Is this a positive or negative development?\" - কী করতে হবে?"
+    },
+    "options": [
+     {
+      "en": "Answer both questions, in separate paragraphs",
+      "bn": "দুটো প্রশ্নেরই উত্তর, আলাদা paragraph-এ"
+     },
+     {
+      "en": "Answer only the first question",
+      "bn": "শুধু প্রথম প্রশ্নের উত্তর"
+     },
+     {
+      "en": "Answer only the second question",
+      "bn": "শুধু দ্বিতীয় প্রশ্নের উত্তর"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "It is reasons (narrative) + verdict (argumentative). Leaving one out is the most common reason good writers get stuck at Band 6.",
+     "bn": "এটা কারণ (narrative) + রায় (argumentative)। একটা বাদ দেওয়াই ভাল লেখকদের Band 6-এ আটকে যাওয়ার সবচেয়ে সাধারণ কারণ।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Conclusion rule",
+     "bn": "Conclusion-এর নিয়ম"
+    },
+    "prompt": {
+     "en": "In a narrative essay, what can the conclusion contain?",
+     "bn": "Narrative essay-র conclusion-এ কী থাকতে পারে?"
+    },
+    "options": [
+     {
+      "en": "A strong personal opinion is required",
+      "bn": "জোরালো ব্যক্তিগত মতামত বাধ্যতামূলক"
+     },
+     {
+      "en": "Only a suggestion - there is no rule to give an opinion",
+      "bn": "শুধু একটা পরামর্শ - মতামত দেওয়ার নিয়ম নেই"
+     },
+     {
+      "en": "New arguments for both sides",
+      "bn": "দুই পক্ষের নতুন যুক্তি"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Argumentative: the conclusion must have an opinion. Narrative: only a suggestion can be given.",
+     "bn": "Argumentative: conclusion-এ অবশ্যই মতামত থাকবে। Narrative: শুধু একটা পরামর্শ দেওয়া যায়।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Name the type",
+     "bn": "Type চিনুন"
+    },
+    "prompt": {
+     "en": "\"What problems does traffic congestion cause in big cities?\" What type is this?",
+     "bn": "\"What problems does traffic congestion cause in big cities?\" - এটা কোন type?"
+    },
+    "options": [
+     {
+      "en": "Argumentative",
+      "bn": "Argumentative"
+     },
+     {
+      "en": "Narrative - only problems",
+      "bn": "Narrative - শুধু সমস্যা"
+     },
+     {
+      "en": "Combination",
+      "bn": "Combination"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "It asks only for problems - there is no side to choose, so it is narrative.",
+     "bn": "এখানে শুধু সমস্যা চাওয়া হয়েছে - বেছে নেওয়ার মতো কোনো পক্ষ নেই, তাই narrative।"
+    }
+   }
+  ]
+ },
+ "t2_arg_plan_1": {
+  "intro": {
+   "en": "Start an argumentative essay right: understand the topic, separate its core parts and decide the type.",
+   "bn": "Argumentative essay ঠিকভাবে শুরু করুন: topic বুঝুন, মূল অংশগুলো আলাদা করুন, আর type ঠিক করুন।"
+  },
+  "learned": [
+   {
+    "en": "Say the task in your own words",
+    "bn": "Task নিজের ভাষায় বলা"
+   },
+   {
+    "en": "Separate the subject matter from the wrapping",
+    "bn": "মূল বিষয়কে মোড়ক থেকে আলাদা করা"
+   },
+   {
+    "en": "Think inside each part for ideas",
+    "bn": "Idea-র জন্য প্রতিটা অংশের ভেতরে ভাবা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Core parts",
+     "bn": "মূল অংশ"
+    },
+    "prompt": {
+     "en": "In \"Some people believe that private cars should be banned from city centres\", which part is just wrapping?",
+     "bn": "\"Some people believe that private cars should be banned from city centres\" - কোন অংশটা শুধু মোড়ক?"
+    },
+    "options": [
+     {
+      "en": "private cars",
+      "bn": "private cars"
+     },
+     {
+      "en": "some people believe",
+      "bn": "some people believe"
+     },
+     {
+      "en": "city centres",
+      "bn": "city centres"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The core parts are private cars · city centres · banned. \"Some people believe\" is of no use for the writing - it is just wrapping.",
+     "bn": "মূল অংশ: private cars · city centres · banned। \"Some people believe\" লেখার কোনো কাজে আসে না - এটা শুধু মোড়ক।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "\"To what extent do you agree or disagree?\" What does this type require?",
+     "bn": "\"To what extent do you agree or disagree?\" - এই type-এ কী লাগে?"
+    },
+    "options": [
+     {
+      "en": "Arguments for both sides, a clear opinion, the last word on your side",
+      "bn": "দুই পক্ষের যুক্তি, পরিষ্কার মতামত, শেষ কথা নিজের পক্ষে"
+     },
+     {
+      "en": "Only your side's arguments, no opinion",
+      "bn": "শুধু নিজের পক্ষের যুক্তি, কোনো মতামত নয়"
+     },
+     {
+      "en": "A list of causes and solutions",
+      "bn": "কারণ আর সমাধানের তালিকা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "It is argumentative: arguments for both sides, a clear opinion, and the last word on your own side.",
+     "bn": "এটা argumentative: দুই পক্ষের যুক্তি, পরিষ্কার মতামত, আর শেষ কথা নিজের পক্ষে।"
+    }
+   }
+  ]
+ },
+ "t2_arg_plan_2": {
+  "intro": {
+   "en": "Brainstorm in two columns, rank your points, and only then choose your side.",
+   "bn": "দুই column-এ brainstorm করুন, point-গুলো সাজান, তারপরই নিজের পক্ষ বেছে নিন।"
+  },
+  "learned": [
+   {
+    "en": "Brainstorm For and Against separately",
+    "bn": "For আর Against আলাদাভাবে brainstorm"
+   },
+   {
+    "en": "Rank points by importance, drop weak ones",
+    "bn": "গুরুত্ব অনুযায়ী সাজানো, দুর্বলগুলো বাদ"
+   },
+   {
+    "en": "Choose your side after brainstorming",
+    "bn": "Brainstorm-এর পরে পক্ষ বেছে নেওয়া"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Brainstorming",
+     "bn": "Brainstorming"
+    },
+    "prompt": {
+     "en": "Which statement about brainstorming is true, according to the lesson?",
+     "bn": "Lesson অনুযায়ী brainstorming নিয়ে কোনটা সত্য?"
+    },
+    "options": [
+     {
+      "en": "Both sides must have the same number of points",
+      "bn": "দুই পক্ষে সমান সংখ্যক point থাকতেই হবে"
+     },
+     {
+      "en": "Write down weak ideas too - selection comes later",
+      "bn": "দুর্বল idea-ও লিখে ফেলুন - বাছাই পরে"
+     },
+     {
+      "en": "Write only your best idea",
+      "bn": "শুধু সবচেয়ে ভাল idea-টা লিখুন"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Write down everything task-related, weak ideas too, then arrange by importance. There is no rule that both sides need the same number of points.",
+     "bn": "Task-সংক্রান্ত সব লিখে ফেলুন, দুর্বল idea-ও; তারপর গুরুত্ব অনুযায়ী সাজান। দুই পক্ষে সমান point থাকার কোনো নিয়ম নেই।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Choose your side",
+     "bn": "পক্ষ বেছে নিন"
+    },
+    "prompt": {
+     "en": "When should you choose your side in an argumentative essay?",
+     "bn": "Argumentative essay-তে কখন পক্ষ বেছে নেবেন?"
+    },
+    "options": [
+     {
+      "en": "Before reading the question carefully",
+      "bn": "প্রশ্ন ভালভাবে পড়ার আগেই"
+     },
+     {
+      "en": "After brainstorming - the side with stronger arguments",
+      "bn": "Brainstorm-এর পরে - যে পক্ষের যুক্তি বেশি শক্তিশালী"
+     },
+     {
+      "en": "In the conclusion, while writing",
+      "bn": "লিখতে লিখতে conclusion-এ গিয়ে"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Choosing early makes your thinking biased. After brainstorming you can see which side has the stronger arguments - that becomes your side.",
+     "bn": "আগে পক্ষ বাছলে চিন্তা পক্ষপাতদুষ্ট হয়। Brainstorm-এর পরে দেখা যায় কোন পক্ষের যুক্তি বেশি শক্তিশালী - সেটাই আপনার পক্ষ।"
+    }
+   }
+  ]
+ },
+ "t2_arg_plan_3": {
+  "intro": {
+   "en": "Plan the body two ways and learn emphasisers and softeners to make your side win.",
+   "bn": "Body দুইভাবে plan করুন, আর নিজের পক্ষকে জেতাতে emphasiser ও softener শিখুন।"
+  },
+  "learned": [
+   {
+    "en": "Method 1: block",
+    "bn": "Method 1: block"
+   },
+   {
+    "en": "Method 2: point / counterpoint",
+    "bn": "Method 2: point / counterpoint"
+   },
+   {
+    "en": "Emphasisers for your side, softeners for the other",
+    "bn": "নিজের পক্ষে emphasiser, অন্য পক্ষে softener"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Body plan",
+     "bn": "Body plan"
+    },
+    "prompt": {
+     "en": "In Method 2 (point / counterpoint), what does each body paragraph contain?",
+     "bn": "Method 2 (point / counterpoint)-এ প্রতিটা body paragraph-এ কী থাকে?"
+    },
+    "options": [
+     {
+      "en": "An opposing point → contrasting connective → your point",
+      "bn": "একটা বিপক্ষের point → contrasting connective → আপনার point"
+     },
+     {
+      "en": "All the opposing arguments together",
+      "bn": "সব বিপক্ষের যুক্তি একসাথে"
+     },
+     {
+      "en": "Only your own side's points",
+      "bn": "শুধু নিজের পক্ষের point"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Method 2 pairs each opposing point with one of yours. Method 1 (block) puts all the opposing arguments in Body 2.",
+     "bn": "Method 2-এ প্রতিটা বিপক্ষের point-এর সাথে আপনার একটা point জোড়া হয়। Method 1 (block)-এ সব বিপক্ষের যুক্তি Body 2-তে থাকে।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Emphasiser or softener?",
+     "bn": "Emphasiser নাকি softener?"
+    },
+    "prompt": {
+     "en": "Which sentence correctly softens the opposing point and emphasises your own?",
+     "bn": "কোন sentence বিপক্ষের point-কে ঠিকভাবে নরম করে আর নিজের point-কে জোরালো করে?"
+    },
+    "options": [
+     {
+      "en": "Although some shop owners may lose a little trade at first, a car-free centre undoubtedly attracts far more visitors."
+     },
+     {
+      "en": "Although shop owners undoubtedly lose a lot of trade, a car-free centre may perhaps attract some visitors."
+     },
+     {
+      "en": "Shop owners lose trade, and a car-free centre attracts visitors."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "In argumentative essays: softeners (some, may, a little) in the opposing points, emphasisers (undoubtedly) in your own points - every time.",
+     "bn": "Argumentative essay-তে: বিপক্ষের point-এ softener (some, may, a little), নিজের point-এ emphasiser (undoubtedly) - প্রতিবার।"
+    }
+   }
+  ]
+ },
+ "t2_arg_plan_4": {
+  "intro": {
+   "en": "Write a 2–3 sentence introduction: a general statement plus a clear thesis - with three ready templates.",
+   "bn": "২–৩ sentence-এর introduction লিখুন: একটা general statement আর পরিষ্কার thesis - তিনটা তৈরি template-সহ।"
+  },
+  "learned": [
+   {
+    "en": "General statement from the subject matter",
+    "bn": "মূল বিষয় থেকে general statement"
+   },
+   {
+    "en": "A thesis with position, reason and a softened concession",
+    "bn": "অবস্থান, কারণ আর নরম স্বীকৃতিসহ thesis"
+   },
+   {
+    "en": "Three introduction templates",
+    "bn": "তিনটা introduction template"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Thesis statement",
+     "bn": "Thesis statement"
+    },
+    "prompt": {
+     "en": "Which is the strongest thesis statement?",
+     "bn": "কোনটা সবচেয়ে শক্তিশালী thesis statement?"
+    },
+    "options": [
+     {
+      "en": "This essay will discuss whether cars should be banned from city centres."
+     },
+     {
+      "en": "Although such a policy creates some difficulties for businesses, I firmly believe banning cars from city centres is right because of the gains in air quality and safety."
+     },
+     {
+      "en": "Should cars be banned from city centres?"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "A good thesis has your position, a hint of the main reason and an optional softened concession. \"This essay will discuss…\" without your view is not a thesis; don't start with a question.",
+     "bn": "ভাল thesis-এ থাকে আপনার অবস্থান, মূল কারণের ইঙ্গিত আর ঐচ্ছিকভাবে নরম স্বীকৃতি। মতামত ছাড়া \"This essay will discuss…\" thesis নয়; প্রশ্ন দিয়ে শুরু করবেন না।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 4,
+    "title": {
+     "en": "Template trap",
+     "bn": "Template-এর ফাঁদ"
+    },
+    "prompt": {
+     "en": "In Template 2, which word choice reverses the meaning, so you must be careful?",
+     "bn": "Template 2-এ কোন শব্দ বাছলে অর্থ উল্টে যায়, তাই সাবধান থাকতে হয়?"
+    },
+    "options": [
+     {
+      "en": "deny"
+     },
+     {
+      "en": "claim"
+     },
+     {
+      "en": "show"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "\"It would be hard to deny that … is good\" means you think it is good - using \"deny\" reverses the meaning. If you are for, \"good\"; if against, \"bad\".",
+     "bn": "\"It would be hard to deny that … is good\" মানে আপনি এটাকে ভাল মনে করেন - \"deny\" ব্যবহার করলে অর্থ উল্টে যায়। পক্ষে হলে \"good\", বিপক্ষে হলে \"bad\"।"
+    }
+   }
+  ]
+ },
+ "t2_arg_write_1": {
+  "intro": {
+   "en": "Build the three body paragraphs of an argumentative essay with Method 1 - with a template for each.",
+   "bn": "Method 1 দিয়ে argumentative essay-র তিনটা body paragraph তৈরি করুন - প্রতিটার জন্য template-সহ।"
+  },
+  "learned": [
+   {
+    "en": "Topic sentence → explanation → example → link",
+    "bn": "Topic sentence → explanation → example → link"
+   },
+   {
+    "en": "Body 1: your side's first arguments",
+    "bn": "Body 1: নিজের পক্ষের প্রথম যুক্তিগুলো"
+   },
+   {
+    "en": "Body 2: opposing arguments, softened",
+    "bn": "Body 2: বিপক্ষের যুক্তি, নরম করে"
+   },
+   {
+    "en": "Body 3: your side again - and why it wins",
+    "bn": "Body 3: আবার নিজের পক্ষ - আর কেন এটা জেতে"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Paragraph parts",
+     "bn": "Paragraph-এর অংশ"
+    },
+    "prompt": {
+     "en": "Which part of a body paragraph is essential, not optional?",
+     "bn": "Body paragraph-এর কোন অংশটা বাধ্যতামূলক, ঐচ্ছিক নয়?"
+    },
+    "options": [
+     {
+      "en": "The topic sentence",
+      "bn": "Topic sentence"
+     },
+     {
+      "en": "The link back to the thesis",
+      "bn": "Thesis-এ ফিরে যাওয়ার link"
+     },
+     {
+      "en": "A second explanation sentence",
+      "bn": "দ্বিতীয় ব্যাখ্যার sentence"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The topic sentence is essential - it states the paragraph's main claim. Explanation and link are optional; aim for one example per paragraph.",
+     "bn": "Topic sentence বাধ্যতামূলক - এটা paragraph-এর মূল দাবি বলে। Explanation আর link ঐচ্ছিক; প্রতি paragraph-এ একটা উদাহরণ রাখুন।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 4,
+    "title": {
+     "en": "Body 2",
+     "bn": "Body 2"
+    },
+    "prompt": {
+     "en": "How should Body paragraph 2 (the opposing arguments) begin?",
+     "bn": "Body paragraph 2 (বিপক্ষের যুক্তি) কীভাবে শুরু হওয়া উচিত?"
+    },
+    "options": [
+     {
+      "en": "With a contrasting connective such as \"On the other hand\"",
+      "bn": "\"On the other hand\"-এর মতো contrasting connective দিয়ে"
+     },
+     {
+      "en": "With \"Undoubtedly\" to stress the other side",
+      "bn": "অন্য পক্ষকে জোর দিতে \"Undoubtedly\" দিয়ে"
+     },
+     {
+      "en": "With a heading such as \"Disadvantages\"",
+      "bn": "\"Disadvantages\"-এর মতো heading দিয়ে"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Start with a contrasting connective, put softeners on the opposing points, and hint at the end that these points have an answer. Never give a paragraph a heading.",
+     "bn": "Contrasting connective দিয়ে শুরু করুন, বিপক্ষের point-এ softener দিন, আর শেষে ইঙ্গিত দিন যে এর উত্তর আছে। কোনো paragraph-এ কখনো heading নয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Templates",
+     "bn": "Template"
+    },
+    "prompt": {
+     "en": "What happens if you hand in a bare template without your own content?",
+     "bn": "নিজের content ছাড়া শুধু template জমা দিলে কী হয়?"
+    },
+    "options": [
+     {
+      "en": "The examiner will spot it",
+      "bn": "Examiner ধরে ফেলবেন"
+     },
+     {
+      "en": "It guarantees a high band",
+      "bn": "এতে high band নিশ্চিত"
+     },
+     {
+      "en": "It counts as a model answer",
+      "bn": "এটা model answer হিসেবে গণ্য হয়"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "A template is a skeleton - it must be filled with content from your own topic. A bare template will be spotted by the examiner.",
+     "bn": "Template একটা কঙ্কাল - নিজের topic-এর content দিয়ে ভরতে হবে। শুধু template দিলে examiner ধরে ফেলবেন।"
+    }
+   }
+  ]
+ },
+ "t2_arg_write_2": {
+  "intro": {
+   "en": "Rewrite the same body with Method 2: each paragraph moves from an opposing point to your own.",
+   "bn": "একই body Method 2-তে লিখুন: প্রতিটা paragraph বিপক্ষের point থেকে নিজের point-এ যায়।"
+  },
+  "learned": [
+   {
+    "en": "Opposing view first, then your argument",
+    "bn": "আগে বিপক্ষের মত, তারপর আপনার যুক্তি"
+   },
+   {
+    "en": "The opposing view needs no example",
+    "bn": "বিপক্ষের মতের জন্য উদাহরণ লাগে না"
+   },
+   {
+    "en": "Templates for Method 2 body paragraphs",
+    "bn": "Method 2 body paragraph-এর template"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Method 2",
+     "bn": "Method 2"
+    },
+    "prompt": {
+     "en": "In Method 2, what changes compared with Method 1?",
+     "bn": "Method 1-এর তুলনায় Method 2-তে কী বদলায়?"
+    },
+    "options": [
+     {
+      "en": "Only the layout of the body - intro and conclusion stay the same",
+      "bn": "শুধু body-র বিন্যাস - introduction আর conclusion একই থাকে"
+     },
+     {
+      "en": "The introduction and conclusion are removed",
+      "bn": "Introduction আর conclusion বাদ যায়"
+     },
+     {
+      "en": "You no longer need an opinion",
+      "bn": "আর মতামত লাগে না"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Each paragraph first gives a little of the opposing view, then your argument. The introduction and conclusion stay the same.",
+     "bn": "প্রতিটা paragraph আগে বিপক্ষের মতের একটু দেয়, তারপর আপনার যুক্তি। Introduction আর conclusion একই থাকে।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "In a Method 2 paragraph, which part needs an example?",
+     "bn": "Method 2-এর paragraph-এ কোন অংশে উদাহরণ লাগে?"
+    },
+    "options": [
+     {
+      "en": "Your argument - the opposing view needs no example",
+      "bn": "আপনার যুক্তি - বিপক্ষের মতের উদাহরণ লাগে না"
+     },
+     {
+      "en": "Only the opposing view",
+      "bn": "শুধু বিপক্ষের মত"
+     },
+     {
+      "en": "Neither part",
+      "bn": "কোনো অংশেই না"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The opposing view needs no example; your argument is explained and supported with an example.",
+     "bn": "বিপক্ষের মতের উদাহরণ লাগে না; আপনার যুক্তি ব্যাখ্যা আর উদাহরণ দিয়ে সমর্থন করা হয়।"
+    }
+   }
+  ]
+ },
+ "t2_arg_write_3": {
+  "intro": {
+   "en": "Close the essay with a firm one-sentence conclusion, then see the full model and the checklist.",
+   "bn": "এক sentence-এর দৃঢ় conclusion দিয়ে essay শেষ করুন, তারপর পুরো model আর checklist দেখুন।"
+  },
+  "learned": [
+   {
+    "en": "Connective + opinion (+ optional suggestion)",
+    "bn": "Connective + মতামত (+ ঐচ্ছিক পরামর্শ)"
+   },
+   {
+    "en": "What not to do in a conclusion",
+    "bn": "Conclusion-এ যা করবেন না"
+   },
+   {
+    "en": "Three conclusion templates",
+    "bn": "তিনটা conclusion template"
+   },
+   {
+    "en": "The argumentative essay checklist",
+    "bn": "Argumentative essay checklist"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Conclusion",
+     "bn": "Conclusion"
+    },
+    "prompt": {
+     "en": "Which of these should you NOT do in the conclusion?",
+     "bn": "Conclusion-এ এর মধ্যে কোনটা করা উচিত নয়?"
+    },
+    "options": [
+     {
+      "en": "Restate your opinion firmly",
+      "bn": "দৃঢ়ভাবে মতামত আবার বলা"
+     },
+     {
+      "en": "Bring in a new argument",
+      "bn": "নতুন যুক্তি আনা"
+     },
+     {
+      "en": "Add a short suggestion",
+      "bn": "ছোট একটা পরামর্শ যোগ করা"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Don't bring in a new argument, copy the thesis word for word, end with a question, write \"Thank you\" or start with \"Last but not least\".",
+     "bn": "নতুন যুক্তি আনবেন না, thesis হুবহু কপি করবেন না, প্রশ্ন দিয়ে শেষ করবেন না, \"Thank you\" লিখবেন না, \"Last but not least\" দিয়ে শুরু করবেন না।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Checklist",
+     "bn": "Checklist"
+    },
+    "prompt": {
+     "en": "According to the checklist, what goes in the introduction?",
+     "bn": "Checklist অনুযায়ী introduction-এ কী থাকে?"
+    },
+    "options": [
+     {
+      "en": "A general statement + a clear thesis; no argument yet",
+      "bn": "General statement + পরিষ্কার thesis; এখনো কোনো যুক্তি নয়"
+     },
+     {
+      "en": "All your arguments in brief",
+      "bn": "সব যুক্তি সংক্ষেপে"
+     },
+     {
+      "en": "An example from a real city",
+      "bn": "বাস্তব কোনো শহরের উদাহরণ"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Introduction: general statement + a clear thesis, no argument yet. Arguments and examples belong in the body paragraphs.",
+     "bn": "Introduction: general statement + পরিষ্কার thesis, এখনো যুক্তি নয়। যুক্তি আর উদাহরণ body paragraph-এ।"
+    }
+   }
+  ]
+ },
+ "t2_narrative_1": {
+  "intro": {
+   "en": "Write a narrative essay: no side to choose, neutral language, and only what the question asks.",
+   "bn": "Narrative essay লিখুন: পক্ষ বাছার কিছু নেই, নিরপেক্ষ ভাষা, আর শুধু প্রশ্ন যা চায়।"
+  },
+  "learned": [
+   {
+    "en": "How narrative differs from argumentative",
+    "bn": "Narrative কীভাবে argumentative থেকে আলাদা"
+   },
+   {
+    "en": "Four narrative moulds",
+    "bn": "চারটি narrative mould"
+   },
+   {
+    "en": "The golden rule and the matching rule",
+    "bn": "Golden rule আর matching rule"
+   },
+   {
+    "en": "Introduction and causes paragraph",
+    "bn": "Introduction আর causes paragraph"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Narrative language",
+     "bn": "Narrative-এর ভাষা"
+    },
+    "prompt": {
+     "en": "Why are emphasisers and softeners not needed in a narrative essay?",
+     "bn": "Narrative essay-তে emphasiser আর softener কেন লাগে না?"
+    },
+    "options": [
+     {
+      "en": "You are explaining, not trying to persuade",
+      "bn": "আপনি ব্যাখ্যা করছেন, বোঝানোর চেষ্টা করছেন না"
+     },
+     {
+      "en": "Narrative essays have no body paragraphs",
+      "bn": "Narrative essay-তে body paragraph থাকে না"
+     },
+     {
+      "en": "They are banned in IELTS",
+      "bn": "IELTS-এ এগুলো নিষিদ্ধ"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "In a narrative essay you are explaining, not persuading, so use neutral language.",
+     "bn": "Narrative essay-তে আপনি ব্যাখ্যা করছেন, বোঝাচ্ছেন না - তাই নিরপেক্ষ ভাষা ব্যবহার করুন।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Matching rule",
+     "bn": "Matching rule"
+    },
+    "prompt": {
+     "en": "The problem is cheap fast food. Which solution follows the matching rule?",
+     "bn": "সমস্যা: সস্তা fast food। কোন সমাধান matching rule মানে?"
+    },
+    "options": [
+     {
+      "en": "A tax or labelling on fast food",
+      "bn": "Fast food-এ tax বা labelling"
+     },
+     {
+      "en": "Build more gyms",
+      "bn": "আরও gym বানানো"
+     },
+     {
+      "en": "Longer school holidays",
+      "bn": "স্কুলের ছুটি বাড়ানো"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "In a problem–solution essay every solution must fix a problem you have stated: cheap fast food → a tax or labelling, not \"build more gyms\".",
+     "bn": "Problem–solution essay-তে প্রতিটা সমাধানকে আপনার বলা কোনো সমস্যা ঠিক করতে হবে: সস্তা fast food → tax বা labelling, \"আরও gym\" নয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Read carefully",
+     "bn": "মনোযোগ দিয়ে পড়ুন"
+    },
+    "prompt": {
+     "en": "The question asks for effects on rural communities. Where should the effects you describe be?",
+     "bn": "প্রশ্নে গ্রামীণ সমাজের ওপর প্রভাব চাওয়া হয়েছে। আপনার বর্ণনা করা প্রভাব কোথায় হওয়া উচিত?"
+    },
+    "options": [
+     {
+      "en": "On the cities the young people move to",
+      "bn": "তরুণরা যে শহরে যায় সেখানে"
+     },
+     {
+      "en": "On the villages they leave behind",
+      "bn": "তারা যে গ্রাম ছেড়ে যায় সেখানে"
+     },
+     {
+      "en": "On the whole country's economy",
+      "bn": "পুরো দেশের অর্থনীতিতে"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The effects are on the villages - not on the cities. Read the question carefully and write only what is asked.",
+     "bn": "প্রভাব গ্রামের ওপর - শহরের ওপর নয়। প্রশ্ন মনোযোগ দিয়ে পড়ুন, আর শুধু যা চাওয়া হয়েছে তা-ই লিখুন।"
+    }
+   }
+  ]
+ },
+ "t2_narrative_1p2": {
+  "intro": {
+   "en": "Finish the narrative essay - effects, a balancing point and a suggestion - and learn the language of narrative.",
+   "bn": "Narrative essay শেষ করুন - প্রভাব, একটা ভারসাম্যের point আর একটা পরামর্শ - আর narrative-এর ভাষা শিখুন।"
+  },
+  "learned": [
+   {
+    "en": "An effects paragraph with one balancing point",
+    "bn": "একটা ভারসাম্যের point-সহ effects paragraph"
+   },
+   {
+    "en": "Conclusion: summary + suggestion, no opinion",
+    "bn": "Conclusion: সারাংশ + পরামর্শ, মতামত নয়"
+   },
+   {
+    "en": "Phrases for causes, effects, solutions and balance",
+    "bn": "কারণ, প্রভাব, সমাধান আর ভারসাম্যের phrase"
+   },
+   {
+    "en": "Advantages/disadvantages and problem/solution plans",
+    "bn": "Advantages/disadvantages আর problem/solution plan"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Narrative conclusion",
+     "bn": "Narrative conclusion"
+    },
+    "prompt": {
+     "en": "What does the model narrative conclusion include?",
+     "bn": "Model narrative conclusion-এ কী আছে?"
+    },
+    "options": [
+     {
+      "en": "A summary of both parts and a suggestion - no opinion",
+      "bn": "দুই অংশের সারাংশ আর একটা পরামর্শ - মতামত নয়"
+     },
+     {
+      "en": "A strong opinion that migration is bad",
+      "bn": "Migration খারাপ - এমন জোরালো মতামত"
+     },
+     {
+      "en": "A new cause not mentioned before",
+      "bn": "আগে বলা হয়নি এমন নতুন কারণ"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The model has a neutral tone, both parts complete, one balancing point, and a suggestion at the end - but no opinion on whether migration is good or bad.",
+     "bn": "Model-এ নিরপেক্ষ সুর, দুই অংশই সম্পূর্ণ, একটা ভারসাম্যের point, আর শেষে পরামর্শ - কিন্তু migration ভাল না খারাপ সে বিষয়ে মতামত নেই।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Narrative phrases",
+     "bn": "Narrative phrase"
+    },
+    "prompt": {
+     "en": "Which phrase starts an effect?",
+     "bn": "কোন phrase দিয়ে একটা প্রভাব (effect) শুরু হয়?"
+    },
+    "options": [
+     {
+      "en": "This can be attributed to …"
+     },
+     {
+      "en": "One knock-on effect is …"
+     },
+     {
+      "en": "One effective measure would be to …"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "\"One knock-on effect is …\" starts an effect. \"This can be attributed to …\" starts a cause; \"One effective measure would be to …\" starts a solution.",
+     "bn": "\"One knock-on effect is …\" দিয়ে effect শুরু হয়। \"This can be attributed to …\" দিয়ে কারণ, আর \"One effective measure would be to …\" দিয়ে সমাধান।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Suggestion or opinion?",
+     "bn": "পরামর্শ নাকি মতামত?"
+    },
+    "prompt": {
+     "en": "In the working-from-home advantages/disadvantages essay, how is \"a hybrid arrangement may suit most\" described?",
+     "bn": "Working-from-home advantages/disadvantages essay-তে \"a hybrid arrangement may suit most\"-কে কী বলা হয়েছে?"
+    },
+    "options": [
+     {
+      "en": "A suggestion, not an opinion",
+      "bn": "একটা পরামর্শ, মতামত নয়"
+     },
+     {
+      "en": "A new argument for the body",
+      "bn": "Body-র জন্য নতুন যুক্তি"
+     },
+     {
+      "en": "A thesis statement",
+      "bn": "একটা thesis statement"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The conclusion summarises both sides; \"a hybrid arrangement may suit most\" is a suggestion, not an opinion.",
+     "bn": "Conclusion দুই দিকের সারাংশ দেয়; \"a hybrid arrangement may suit most\" একটা পরামর্শ, মতামত নয়।"
+    }
+   }
+  ]
+ },
+ "t2_combination_1": {
+  "intro": {
+   "en": "Plan a two-question essay: answer both parts, each in its own paragraph, with one introduction and one conclusion.",
+   "bn": "দুই প্রশ্নের essay plan করুন: দুটো অংশেরই উত্তর, প্রতিটা নিজের paragraph-এ, একটা introduction আর একটা conclusion-সহ।"
+  },
+  "learned": [
+   {
+    "en": "Usually one narrative part + one argumentative part",
+    "bn": "সাধারণত একটা narrative অংশ + একটা argumentative অংশ"
+   },
+   {
+    "en": "The combination mould",
+    "bn": "Combination mould"
+   },
+   {
+    "en": "Covering both questions in the introduction",
+    "bn": "Introduction-এ দুটো প্রশ্নই ধরা"
+   },
+   {
+    "en": "A clear view with a condition",
+    "bn": "শর্তসহ পরিষ্কার মত"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Tone in each part",
+     "bn": "প্রতিটা অংশের সুর"
+    },
+    "prompt": {
+     "en": "In a combination essay, where do emphasisers and softeners belong?",
+     "bn": "Combination essay-তে emphasiser আর softener কোথায় বসবে?"
+    },
+    "options": [
+     {
+      "en": "In the argumentative part; the narrative part stays neutral",
+      "bn": "Argumentative অংশে; narrative অংশ নিরপেক্ষ থাকবে"
+     },
+     {
+      "en": "Only in the narrative part",
+      "bn": "শুধু narrative অংশে"
+     },
+     {
+      "en": "Nowhere in the essay",
+      "bn": "Essay-র কোথাও না"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Use neutral language in the narrative part and emphasisers/softeners in the argumentative part.",
+     "bn": "Narrative অংশে নিরপেক্ষ ভাষা, আর argumentative অংশে emphasiser/softener।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Fence-sitting?",
+     "bn": "দোদুল্যমান?"
+    },
+    "prompt": {
+     "en": "Is the view \"yes, a good idea - but in cities\" acceptable?",
+     "bn": "\"হ্যাঁ, ভাল idea - তবে শহরে\" - এই মত কি গ্রহণযোগ্য?"
+    },
+    "options": [
+     {
+      "en": "Yes - a clear view with a condition is an honest, strong position",
+      "bn": "হ্যাঁ - শর্তসহ পরিষ্কার মত একটা সৎ, শক্তিশালী অবস্থান"
+     },
+     {
+      "en": "No - any condition counts as fence-sitting",
+      "bn": "না - যেকোনো শর্তই দোদুল্যমানতা"
+     },
+     {
+      "en": "No - opinions are not allowed in combination essays",
+      "bn": "না - combination essay-তে মতামত চলে না"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "\"Yes, but in cities\" is a clear view with a condition. This is not fence-sitting; it is an honest and strong position.",
+     "bn": "\"হ্যাঁ, তবে শহরে\" শর্তসহ একটা পরিষ্কার মত। এটা দোদুল্যমানতা নয়; বরং সৎ আর শক্তিশালী অবস্থান।"
+    }
+   }
+  ]
+ },
+ "t2_combination_1p2": {
+  "intro": {
+   "en": "Write the opinion paragraph and conclusion of a combination essay, and avoid its common mistakes.",
+   "bn": "Combination essay-র মতামতের paragraph আর conclusion লিখুন, আর এর সাধারণ ভুলগুলো এড়ান।"
+  },
+  "learned": [
+   {
+    "en": "Opinion paragraph: position, reasons, other side",
+    "bn": "মতামতের paragraph: অবস্থান, কারণ, অন্য পক্ষ"
+   },
+   {
+    "en": "A conclusion that closes both parts",
+    "bn": "দুটো অংশই বন্ধ করে এমন conclusion"
+   },
+   {
+    "en": "Common mistakes in combination essays",
+    "bn": "Combination essay-র সাধারণ ভুল"
+   },
+   {
+    "en": "The narrative and combination checklist",
+    "bn": "Narrative আর combination checklist"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Spot the mistake",
+     "bn": "ভুল চিনুন"
+    },
+    "prompt": {
+     "en": "Which is a common mistake in combination essays?",
+     "bn": "Combination essay-তে কোনটা সাধারণ ভুল?"
+    },
+    "options": [
+     {
+      "en": "Answering the first question in detail and the second in one sentence",
+      "bn": "প্রথম প্রশ্ন বিস্তারিত, দ্বিতীয়টা এক sentence-এ"
+     },
+     {
+      "en": "Restating the opinion in the conclusion",
+      "bn": "Conclusion-এ মতামত আবার বলা"
+     },
+     {
+      "en": "Writing one introduction and one conclusion",
+      "bn": "একটা introduction আর একটা conclusion লেখা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Other mistakes: an opinion slipped into part 1, no opinion in the conclusion, and two separate essays - there is only one introduction and one conclusion.",
+     "bn": "অন্য ভুলগুলো: part 1-এ মতামত ঢুকিয়ে দেওয়া, conclusion-এ মতামত না বলা, আর দুটো আলাদা essay - introduction আর conclusion একটাই।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Part 1 asks only for reasons. What should you avoid there?",
+     "bn": "Part 1-এ শুধু কারণ চাওয়া হয়েছে। সেখানে কী এড়াবেন?"
+    },
+    "options": [
+     {
+      "en": "Giving an example",
+      "bn": "উদাহরণ দেওয়া"
+     },
+     {
+      "en": "Slipping in your opinion",
+      "bn": "নিজের মতামত ঢুকিয়ে দেওয়া"
+     },
+     {
+      "en": "Using a topic sentence",
+      "bn": "Topic sentence ব্যবহার"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Slipping an opinion into part 1, where only reasons are asked for, is a common mistake. Keep your view for the argumentative part.",
+     "bn": "যেখানে শুধু কারণ চাওয়া হয়েছে, সেই part 1-এ মতামত ঢোকানো একটা সাধারণ ভুল। মতামত argumentative অংশের জন্য রাখুন।"
+    }
+   }
+  ]
+ },
+ "t2_sample_lessons_1": {
+  "intro": {
+   "en": "See the signs of Band 5, 6, 7 and 8 across all Task 2 essay types in one table.",
+   "bn": "সব ধরনের Task 2 essay-তে Band 5, 6, 7 আর 8-এর লক্ষণ এক table-এ দেখুন।"
+  },
+  "learned": [
+   {
+    "en": "Signs of a Band 5 essay",
+    "bn": "Band 5 essay-র লক্ষণ"
+   },
+   {
+    "en": "What lifts an essay from Band 6 to 7",
+    "bn": "Essay-কে Band 6 থেকে 7-এ কী তোলে"
+   },
+   {
+    "en": "What Band 8 looks like",
+    "bn": "Band 8 দেখতে কেমন"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Which band?",
+     "bn": "কোন band?"
+    },
+    "prompt": {
+     "en": "Every idea has a mechanism + evidence, and the other side is acknowledged and answered. Which band do these signs point to?",
+     "bn": "প্রতিটা idea-র mechanism + প্রমাণ আছে, আর অন্য পক্ষকে স্বীকার করে উত্তর দেওয়া হয়েছে। এই লক্ষণগুলো কোন band-এর?"
+    },
+    "options": [
+     {
+      "en": "Band 5",
+      "bn": "Band 5"
+     },
+     {
+      "en": "Band 6",
+      "bn": "Band 6"
+     },
+     {
+      "en": "Band 7",
+      "bn": "Band 7"
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "These are signs of Band 7. Band 6 has a clear position but ideas stay at a general level; Band 5 states an opinion without arguing it.",
+     "bn": "এগুলো Band 7-এর লক্ষণ। Band 6-এ position পরিষ্কার কিন্তু idea সাধারণ স্তরে থাকে; Band 5-এ মতামত বলা হয়, যুক্তি দেওয়া হয় না।"
+    }
+   }
+  ]
+ },
+ "vocab_topic_words_1": {
+  "intro": {
+   "en": "Learn safe, Band 7–8 words for education, work, technology, environment and health.",
+   "bn": "Education, work, technology, environment আর health-এর জন্য নিরাপদ, Band 7–8 মানের শব্দ শিখুন।"
+  },
+  "learned": [
+   {
+    "en": "Why 20–25 words per topic area help",
+    "bn": "প্রতিটা topic-এ ২০–২৫টা শব্দ কেন কাজে লাগে"
+   },
+   {
+    "en": "Education and work vocabulary",
+    "bn": "Education আর work-এর vocabulary"
+   },
+   {
+    "en": "Technology, environment and health vocabulary",
+    "bn": "Technology, environment আর health-এর vocabulary"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Word in context",
+     "bn": "প্রসঙ্গে শব্দ"
+    },
+    "prompt": {
+     "en": "Which word completes the sentence? \"___ rarely produces critical thinkers.\"",
+     "bn": "কোন শব্দ দিয়ে sentence-টা পূর্ণ হবে? \"___ rarely produces critical thinkers.\""
+    },
+    "options": [
+     {
+      "en": "Rote learning"
+     },
+     {
+      "en": "Lifelong learning"
+     },
+     {
+      "en": "Vocational training"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Rote learning means learning by memorising, which rarely produces critical thinkers.",
+     "bn": "Rote learning মানে মুখস্থ করে শেখা - যা থেকে খুব কমই critical thinker তৈরি হয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What does \"a sedentary lifestyle\" mean?",
+     "bn": "\"A sedentary lifestyle\" মানে কী?"
+    },
+    "options": [
+     {
+      "en": "A lifestyle of mostly sitting",
+      "bn": "বেশিরভাগ সময় বসে থাকার জীবনযাপন"
+     },
+     {
+      "en": "A balanced diet",
+      "bn": "সুষম খাদ্য"
+     },
+     {
+      "en": "Taking regular exercise",
+      "bn": "নিয়মিত ব্যায়াম করা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "A sedentary lifestyle is a lifestyle of sitting - e.g. \"Office work encourages a sedentary lifestyle.\"",
+     "bn": "Sedentary lifestyle মানে বসে থাকার জীবনযাপন - যেমন: \"Office work encourages a sedentary lifestyle.\""
+    }
+   }
+  ]
+ },
+ "vocab_topic_words_1p2": {
+  "intro": {
+   "en": "Add words for cities, family, crime, media and government - plus safe upgrades for common words.",
+   "bn": "শহর, পরিবার, অপরাধ, media আর সরকার নিয়ে শব্দ যোগ করুন - সাথে সাধারণ শব্দের নিরাপদ upgrade।"
+  },
+  "learned": [
+   {
+    "en": "Cities, family and society vocabulary",
+    "bn": "শহর, পরিবার আর সমাজের vocabulary"
+   },
+   {
+    "en": "Crime, media and government vocabulary",
+    "bn": "অপরাধ, media আর সরকারের vocabulary"
+   },
+   {
+    "en": "Safe upgrades: common word → precise word",
+    "bn": "নিরাপদ upgrade: সাধারণ শব্দ → নির্দিষ্ট শব্দ"
+   },
+   {
+    "en": "Upgrade only words you have seen in use",
+    "bn": "শুধু ব্যবহারে দেখা শব্দই upgrade করা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Word in context",
+     "bn": "প্রসঙ্গে শব্দ"
+    },
+    "prompt": {
+     "en": "Which word means \"committing a crime again\"?",
+     "bn": "কোন শব্দের অর্থ \"আবার অপরাধ করা\"?"
+    },
+    "options": [
+     {
+      "en": "rehabilitation"
+     },
+     {
+      "en": "reoffending"
+     },
+     {
+      "en": "a deterrent"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Reoffending means committing a crime again - e.g. \"Education in prison reduces reoffending.\"",
+     "bn": "Reoffending মানে আবার অপরাধ করা - যেমন: \"Education in prison reduces reoffending.\""
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Safe upgrade",
+     "bn": "নিরাপদ upgrade"
+    },
+    "prompt": {
+     "en": "Which sentence uses an upgraded word correctly?",
+     "bn": "কোন sentence-এ upgrade করা শব্দ ঠিকভাবে ব্যবহার হয়েছে?"
+    },
+    "options": [
+     {
+      "en": "Students should utilise the opportunity to study abroad."
+     },
+     {
+      "en": "Junk food is detrimental to children's health."
+     },
+     {
+      "en": "A growing number of kids utilise the opportunity."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "\"bad\" → \"detrimental\" is a safe upgrade. \"Utilise the opportunity\" is wrong - say \"seize / take the opportunity\". When in doubt, write the common word.",
+     "bn": "\"bad\" → \"detrimental\" একটা নিরাপদ upgrade। \"Utilise the opportunity\" ভুল - বলুন \"seize / take the opportunity\"। সন্দেহ থাকলে সাধারণ শব্দটাই লিখুন।"
+    }
+   }
+  ]
+ },
+ "practice_exercises_1": {
+  "intro": {
+   "en": "Practise naming the question type, fixing double connectors, prepositions and paragraph drift.",
+   "bn": "প্রশ্নের type চেনা, double connector, preposition আর paragraph-এর বিচ্যুতি ঠিক করার practice করুন।"
+  },
+  "learned": [
+   {
+    "en": "Identifying A, N and C questions",
+    "bn": "A, N আর C প্রশ্ন চেনা"
+   },
+   {
+    "en": "Fixing double connectors",
+    "bn": "Double connector ঠিক করা"
+   },
+   {
+    "en": "Task 1 prepositions and replacing repeated words",
+    "bn": "Task 1-এর preposition আর বারবার আসা শব্দ বদলানো"
+   },
+   {
+    "en": "Spotting a sentence that drifts off topic",
+    "bn": "বিষয় থেকে সরে যাওয়া sentence চেনা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 2,
+    "title": {
+     "en": "Double connector",
+     "bn": "Double connector"
+    },
+    "prompt": {
+     "en": "Which sentence is correct?",
+     "bn": "কোন sentence সঠিক?"
+    },
+    "options": [
+     {
+      "en": "Although the metro is cheap, but many people prefer taxis."
+     },
+     {
+      "en": "Although the metro is cheap, many people prefer taxis."
+     },
+     {
+      "en": "Despite of the metro being cheap, many people prefer taxis."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Use one connector, not two: \"Although …, …\" or \"…, but …\". And there is no \"of\" after \"despite\".",
+     "bn": "দুটো নয়, একটা connector: \"Although …, …\" অথবা \"…, but …\"। আর \"despite\"-এর পরে \"of\" বসে না।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 4,
+    "title": {
+     "en": "Preposition",
+     "bn": "Preposition"
+    },
+    "prompt": {
+     "en": "Choose the correct preposition: \"The figure peaked ___ 2 million in 2019.\"",
+     "bn": "সঠিক preposition বাছুন: \"The figure peaked ___ 2 million in 2019.\""
+    },
+    "options": [
+     {
+      "en": "by"
+     },
+     {
+      "en": "at"
+     },
+     {
+      "en": "from"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "\"at\" is used for a level or peak: peaked at 2 million.",
+     "bn": "কোনো level বা peak বোঝাতে \"at\": peaked at 2 million।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Find the drift",
+     "bn": "বিচ্যুতি খুঁজুন"
+    },
+    "prompt": {
+     "en": "Why should \"My uncle drives a bus and says the traffic gets worse every year\" be removed from the paragraph?",
+     "bn": "\"My uncle drives a bus and says the traffic gets worse every year\" - কেন paragraph থেকে বাদ দিতে হবে?"
+    },
+    "options": [
+     {
+      "en": "It doesn't support the claim and is a personal story, not an argument",
+      "bn": "এটা দাবিকে সমর্থন করে না, আর এটা যুক্তি নয়, ব্যক্তিগত গল্প"
+     },
+     {
+      "en": "It contains a grammar mistake",
+      "bn": "এতে grammar-এর ভুল আছে"
+     },
+     {
+      "en": "It is too short",
+      "bn": "এটা খুব ছোট"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Although it is about traffic, it does not support the claim that transport should be free, and it is a personal story instead of an argument.",
+     "bn": "Traffic নিয়ে হলেও এটা \"transport should be free\" দাবিকে সমর্থন করে না, আর এটা যুক্তির বদলে ব্যক্তিগত গল্প।"
+    }
+   }
+  ]
+ },
+ "practice_exercises_1p2": {
+  "intro": {
+   "en": "Practise emphasisers, overviews, thesis statements, error-spotting and planning - then follow the weekly plan.",
+   "bn": "Emphasiser, overview, thesis statement, ভুল ধরা আর planning-এর practice করুন - তারপর সাপ্তাহিক plan মেনে চলুন।"
+  },
+  "learned": [
+   {
+    "en": "Telling emphasisers from softeners",
+    "bn": "Emphasiser আর softener আলাদা করা"
+   },
+   {
+    "en": "Writing an overview and a thesis",
+    "bn": "Overview আর thesis লেখা"
+   },
+   {
+    "en": "Finding common grammar mistakes",
+    "bn": "সাধারণ grammar-এর ভুল খুঁজে বের করা"
+   },
+   {
+    "en": "The weekly practice plan and error log",
+    "bn": "সাপ্তাহিক practice plan আর error log"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "after": 1,
+    "title": {
+     "en": "Emphasiser or softener?",
+     "bn": "Emphasiser নাকি softener?"
+    },
+    "prompt": {
+     "en": "\"Perhaps some students would prefer online classes.\" Is this an emphasiser or a softener?",
+     "bn": "\"Perhaps some students would prefer online classes.\" - এটা emphasiser নাকি softener?"
+    },
+    "options": [
+     {
+      "en": "Emphasiser",
+      "bn": "Emphasiser"
+     },
+     {
+      "en": "Softener",
+      "bn": "Softener"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "\"Perhaps\" and \"some\" make the point lighter, so it is a softener.",
+     "bn": "\"Perhaps\" আর \"some\" বক্তব্যকে হালকা করে, তাই এটা softener।"
+    }
+   },
+   {
+    "type": "choice",
+    "after": 3,
+    "title": {
+     "en": "Find the mistake",
+     "bn": "ভুল খুঁজুন"
+    },
+    "prompt": {
+     "en": "Which is the correct version of \"Parents should to limit the screen time\"?",
+     "bn": "\"Parents should to limit the screen time\"-এর সঠিক রূপ কোনটা?"
+    },
+    "options": [
+     {
+      "en": "Parents should limit screen time."
+     },
+     {
+      "en": "Parents should to limit screen time."
+     },
+     {
+      "en": "Parents should limiting the screen time."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "\"should to limit\" → \"should limit\", and \"the screen time\" → \"screen time\".",
+     "bn": "\"should to limit\" → \"should limit\", আর \"the screen time\" → \"screen time\"।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Error log",
+     "bn": "Error log"
+    },
+    "prompt": {
+     "en": "In the last 5 minutes of the exam, what does the lesson say to look for?",
+     "bn": "Lesson অনুযায়ী পরীক্ষার শেষ ৫ মিনিটে কী খুঁজবেন?"
+    },
+    "options": [
+     {
+      "en": "Only the three mistakes from your error log that come up most often",
+      "bn": "শুধু error log-এর সবচেয়ে বেশি হওয়া তিনটা ভুল"
+     },
+     {
+      "en": "New words to add to the essay",
+      "bn": "Essay-তে যোগ করার নতুন শব্দ"
+     },
+     {
+      "en": "Every possible grammar rule",
+      "bn": "সম্ভাব্য সব grammar নিয়ম"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Keep an error log (mistake · correction · how many times) and, in the last 5 minutes, look only for the three that come up most often.",
+     "bn": "একটা error log রাখুন (ভুল · সংশোধন · কতবার), আর শেষ ৫ মিনিটে শুধু সবচেয়ে বেশি হওয়া তিনটা ভুল খুঁজুন।"
+    }
+   }
+  ]
+ }
+}

@@ -30,7 +30,12 @@ class AppScreen extends StatelessWidget {
     this.scroll = true,
     this.crossAxisAlignment = CrossAxisAlignment.stretch,
     this.background,
+    this.scrollBack = true,
   });
+
+  /// Show a floating back button when the student scrolls up a little
+  /// (pushed screens only). See [BackOnScrollUp].
+  final bool scrollBack;
 
   final List<Widget> children;
   final EdgeInsets padding;
@@ -91,19 +96,224 @@ class AppScreen extends StatelessWidget {
       body = SingleChildScrollView(padding: padding, child: column);
     }
 
+    final content = SafeArea(
+      bottom: footer == null,
+      child: Column(
+        children: [
+          Expanded(child: body),
+          if (footer != null)
+            SafeArea(
+              top: false,
+              child: Padding(padding: footerPadding, child: footer!),
+            ),
+        ],
+      ),
+    );
+    final framed = scrollBack && scroll ? BackOnScrollUp(child: content) : content;
     return Scaffold(
       backgroundColor: background ?? t.bg,
-      body: SafeArea(
-        bottom: footer == null,
-        child: Column(
-          children: [
-            Expanded(child: body),
-            if (footer != null)
-              SafeArea(
-                top: false,
-                child: Padding(padding: footerPadding, child: footer!),
+      body: background != null
+          ? framed
+          : Stack(children: [const Positioned.fill(child: GlassBackdrop()), framed]),
+    );
+  }
+}
+
+/// Facebook-style back button: the screen's own header (and its back
+/// button) scrolls away with the content; scrolling up a little slides a
+/// floating frosted back button in at the same spot, and scrolling down
+/// hides it again. Only on screens that can go back.
+///
+/// Wrap a screen's body (anything containing its vertical scroll view).
+class BackOnScrollUp extends StatefulWidget {
+  const BackOnScrollUp({super.key, required this.child, this.onBack});
+
+  final Widget child;
+
+  /// Defaults to `Navigator.maybePop` (respects PopScope guards).
+  final VoidCallback? onBack;
+
+  @override
+  State<BackOnScrollUp> createState() => _BackOnScrollUpState();
+}
+
+class _BackOnScrollUpState extends State<BackOnScrollUp> {
+  /// Below this offset the real header is still on screen.
+  static const double _headerZone = 72;
+
+  bool _shown = false;
+  double _travel = 0;
+
+  bool _onScroll(ScrollNotification n) {
+    if (n.depth != 0 || n.metrics.axis != Axis.vertical) return false;
+    if (n is ScrollUpdateNotification) {
+      final d = n.scrollDelta ?? 0;
+      if (n.metrics.pixels <= _headerZone) {
+        _travel = 0;
+        _set(false);
+      } else {
+        // Count travel in one direction; reset when it flips.
+        _travel = (d < 0) == (_travel < 0) ? _travel + d : d;
+        if (_travel < -12) _set(true);
+        if (_travel > 12) _set(false);
+      }
+    }
+    return false;
+  }
+
+  void _set(bool v) {
+    if (v != _shown) setState(() => _shown = v);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final canPop = ModalRoute.of(context)?.canPop ?? false;
+    if (!canPop && widget.onBack == null) return widget.child;
+    final t = context.tk;
+    final top = MediaQuery.paddingOf(context).top;
+    return NotificationListener<ScrollNotification>(
+      onNotification: _onScroll,
+      child: Stack(
+        children: [
+          widget.child,
+          Positioned(
+            top: top + 10,
+            left: 16,
+            child: IgnorePointer(
+              ignoring: !_shown,
+              child: AnimatedSlide(
+                offset: _shown ? Offset.zero : const Offset(0, -1.6),
+                duration: const Duration(milliseconds: 240),
+                curve: Curves.easeOutCubic,
+                child: AnimatedOpacity(
+                  opacity: _shown ? 1 : 0,
+                  duration: const Duration(milliseconds: 200),
+                  child: Tooltip(
+                    message: 'Back',
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: t.isNight ? 0.4 : 0.12),
+                            blurRadius: 16,
+                            offset: const Offset(0, 6),
+                          ),
+                        ],
+                      ),
+                      child: ClipOval(
+                        child: BackdropFilter(
+                          filter: ImageFilter.blur(sigmaX: 14, sigmaY: 14),
+                          child: Material(
+                            color: t.isNight ? const Color(0xCC1A1D2C) : const Color(0xE6FFFFFF),
+                            shape: CircleBorder(side: BorderSide(color: t.glassBorder)),
+                            child: InkWell(
+                              customBorder: const CircleBorder(),
+                              onTap: widget.onBack ?? () => Navigator.of(context).maybePop(),
+                              child: SizedBox(
+                                width: 46,
+                                height: 46,
+                                child: Icon(AppIcons.back, size: 19, color: t.text),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
               ),
-          ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Page background: the base colour with a soft peach glow top-left and a
+/// blue glow bottom-right, so glass cards ([AppCard]) read as frosted.
+/// Gradients only (no blur filter), so it's cheap on budget phones.
+class GlassBackdrop extends StatelessWidget {
+  const GlassBackdrop({super.key, this.flip = false});
+
+  /// Swap the corners (variety between screens).
+  final bool flip;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    Widget blob(Color c, Alignment a, double size) => Align(
+          alignment: a,
+          child: FractionalTranslation(
+            translation: Offset(a.x * 0.35, a.y * 0.25),
+            child: Container(
+              width: size,
+              height: size,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: RadialGradient(
+                  colors: [c.withValues(alpha: t.isNight ? 0.55 : 0.75), c.withValues(alpha: 0)],
+                ),
+              ),
+            ),
+          ),
+        );
+    return IgnorePointer(
+      child: ColoredBox(
+        color: t.bg,
+        child: LayoutBuilder(
+          builder: (context, box) {
+            final size = math.max(box.maxWidth, 320.0) * 1.1;
+            return Stack(
+              children: [
+                blob(t.blobA, flip ? Alignment.topRight : Alignment.topLeft, size),
+                blob(t.blobB, flip ? Alignment.bottomLeft : Alignment.bottomRight, size),
+              ],
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+/// Real frosted glass (blurs what's behind): for floating bars and hero
+/// panels. Use sparingly - each one costs a blur pass.
+class FrostedPanel extends StatelessWidget {
+  const FrostedPanel({
+    super.key,
+    required this.child,
+    this.radius = 24,
+    this.color,
+    this.blur = 18,
+    this.padding = EdgeInsets.zero,
+    this.border = true,
+  });
+
+  final Widget child;
+  final double radius;
+  final Color? color;
+  final double blur;
+  final EdgeInsets padding;
+  final bool border;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    final r = BorderRadius.circular(radius);
+    return ClipRRect(
+      borderRadius: r,
+      child: BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: blur, sigmaY: blur),
+        child: Container(
+          padding: padding,
+          decoration: BoxDecoration(
+            color: color ?? t.glassFill,
+            borderRadius: r,
+            border: border ? Border.all(color: t.glassBorder) : null,
+          ),
+          child: child,
         ),
       ),
     );
@@ -263,7 +473,8 @@ class IconBox extends StatelessWidget {
   }
 }
 
-/// Main filled button (Day black / Night cream). 58px, radius 20.
+/// Main button: peach gradient pill with dark text (the course style).
+/// Pass [bg]/[fg] for a solid colour instead.
 class PrimaryButton extends StatelessWidget {
   const PrimaryButton({
     super.key,
@@ -271,8 +482,8 @@ class PrimaryButton extends StatelessWidget {
     this.onTap,
     this.leading,
     this.trailing,
-    this.height = 58,
-    this.radius = 20,
+    this.height = 56,
+    this.radius = 999,
     this.bg,
     this.fg,
     this.fontSize = 16,
@@ -294,19 +505,21 @@ class PrimaryButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = context.tk;
-    final background = bg ?? t.primary;
-    final foreground = fg ?? t.onPrimary;
+    final peach = bg == null;
+    final foreground = fg ?? (peach ? kOnPeach : context.tk.onPrimary);
+    final r = BorderRadius.circular(radius.clamp(0, height / 2).toDouble());
     return Opacity(
       opacity: enabled ? 1 : 0.45,
       child: SizedBox(
         height: height,
         width: expand ? double.infinity : null,
         child: Material(
-          color: background,
-          borderRadius: BorderRadius.circular(radius),
+          color: peach ? Colors.transparent : bg,
+          borderRadius: r,
           clipBehavior: Clip.antiAlias,
-          child: InkWell(
+          child: Ink(
+            decoration: BoxDecoration(gradient: peach ? kPeachGradient : null, borderRadius: r),
+            child: InkWell(
             onTap: enabled ? onTap : null,
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -324,7 +537,7 @@ class PrimaryButton extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
                         fontSize: fontSize,
-                        fontWeight: FontWeight.w500,
+                        fontWeight: peach ? FontWeight.w600 : FontWeight.w500,
                         color: foreground,
                       ),
                     ),
@@ -334,6 +547,7 @@ class PrimaryButton extends StatelessWidget {
                 ],
               ),
             ),
+          ),
           ),
         ),
       ),
@@ -499,14 +713,15 @@ class PillCta extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = context.tk;
     return SizedBox(
       height: height,
       child: Material(
-        color: t.primary,
+        color: Colors.transparent,
         shape: const StadiumBorder(),
         clipBehavior: Clip.antiAlias,
-        child: InkWell(
+        child: Ink(
+          decoration: const ShapeDecoration(gradient: kPeachGradient, shape: StadiumBorder()),
+          child: InkWell(
           onTap: onTap,
           child: Padding(
             padding: const EdgeInsets.fromLTRB(28, 8, 8, 8),
@@ -515,25 +730,26 @@ class PillCta extends StatelessWidget {
                 Expanded(
                   child: Text(
                     label,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 18,
-                      fontWeight: FontWeight.w500,
-                      color: t.onPrimary,
+                      fontWeight: FontWeight.w600,
+                      color: kOnPeach,
                     ),
                   ),
                 ),
                 Container(
                   width: height - 16,
                   height: height - 16,
-                  decoration: BoxDecoration(
-                    color: t.onPrimary,
+                  decoration: const BoxDecoration(
+                    color: kOnPeach,
                     shape: BoxShape.circle,
                   ),
-                  child: Icon(icon, size: 20, color: t.primary),
+                  child: Icon(icon, size: 20, color: const Color(0xFFFFB8A3)),
                 ),
               ],
             ),
           ),
+        ),
         ),
       ),
     );
@@ -616,12 +832,11 @@ class AppCard extends StatelessWidget {
       width: width,
       height: height,
       child: Material(
-        color: color ?? t.surface,
+        // Frosted glass over the page's colour blobs (see [GlassBackdrop]).
+        color: color ?? t.glassFill,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(radius),
-          side: borderColor == null
-              ? BorderSide.none
-              : BorderSide(color: borderColor!),
+          side: BorderSide(color: borderColor ?? (color == null ? t.glassBorder : Colors.transparent)),
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(
@@ -633,14 +848,18 @@ class AppCard extends StatelessWidget {
   }
 }
 
-/// Hero card: Day pink→lavender gradient, Night solid cream. Text inside is
-/// always dark ([AppTokens.heroText]); use [AppTokens.heroMuted] for labels.
+/// Hero card in the course style: dark navy with a soft peach glow
+/// (top-left) and blue glow (bottom-right), in Day and Night. Text inside is
+/// light ([AppTokens.heroText]); use [AppTokens.heroMuted] for labels,
+/// [AppTokens.heroChip] for inner tiles and `onHero: true` on progress.
+///
+/// [gradient] is ignored (kept so older call sites still compile).
 class HeroCard extends StatelessWidget {
   const HeroCard({
     super.key,
     required this.child,
     this.padding = const EdgeInsets.all(22),
-    this.radius = 32,
+    this.radius = 28,
     this.onTap,
     this.gradient,
     this.width,
@@ -669,18 +888,73 @@ class HeroCard extends StatelessWidget {
       width: width,
       height: height,
       decoration: BoxDecoration(
-        gradient: gradient ?? t.heroGradient,
+        gradient: t.heroGradient,
         borderRadius: BorderRadius.circular(radius),
+        border: Border.all(color: const Color(0x1FFFFFFF)),
+        boxShadow: t.isNight
+            ? null
+            : const [BoxShadow(color: Color(0x2E151827), blurRadius: 24, offset: Offset(0, 10))],
       ),
       child: Material(
         type: MaterialType.transparency,
         borderRadius: BorderRadius.circular(radius),
         clipBehavior: Clip.antiAlias,
-        child: onTap == null ? content : InkWell(onTap: onTap, child: content),
+        child: Stack(
+          children: [
+            const Positioned.fill(child: HeroGlow()),
+            onTap == null ? content : InkWell(onTap: onTap, child: content),
+          ],
+        ),
       ),
     );
   }
 }
+
+/// The peach (top-left) and blue (bottom-right) glow behind hero cards and
+/// the dark lesson screens.
+class HeroGlow extends StatelessWidget {
+  const HeroGlow({super.key, this.size = 420, this.strength = 0.28});
+
+  final double size;
+  final double strength;
+
+  @override
+  Widget build(BuildContext context) {
+    Widget glow(Color c, Alignment a) => Align(
+          alignment: a,
+          child: FractionalTranslation(
+            translation: Offset(a.x * 0.4, a.y * 0.3),
+            child: Container(
+              width: size,
+              height: size,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: RadialGradient(
+                  colors: [c.withValues(alpha: strength), c.withValues(alpha: 0)],
+                ),
+              ),
+            ),
+          ),
+        );
+    return IgnorePointer(
+      child: ClipRect(
+        child: Stack(
+          children: [
+            glow(const Color(0xFFFF9C82), Alignment.topLeft),
+            glow(const Color(0xFF5B7CF0), Alignment.bottomRight),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Peach gradient used by the main buttons and progress fills.
+const LinearGradient kPeachGradient = LinearGradient(colors: [Color(0xFFFFB8A3), Color(0xFFFF9C82)]);
+const LinearGradient kPeachFillGradient = LinearGradient(colors: [Color(0xFFFFB8A3), Color(0xFFFF7E67)]);
+
+/// Ink colour for text on peach.
+const Color kOnPeach = Color(0xFF151515);
 
 /// Circle with an icon (skill icons in cards). Day #F5EEF2/black · Night #262626/cream.
 class IconCircle extends StatelessWidget {
@@ -894,7 +1168,7 @@ class ChipPill extends StatelessWidget {
   });
 
   /// Ellipsize a long label to fit the width it gets (use inside a [Wrap]
-  /// or a bounded parent — not in a horizontal scroll view).
+  /// or a bounded parent - not in a horizontal scroll view).
   final bool shrink;
 
   final String label;
@@ -1056,7 +1330,7 @@ class SegmentedTabs extends StatelessWidget {
 // ─────────────────────────────────────────────────────────────────────────────
 
 /// Linear progress bar. On hero cards pass `onHero: true` (black on a
-/// semi-transparent track — the Night rule for cream cards).
+/// semi-transparent track - the Night rule for cream cards).
 class ProgressBar extends StatelessWidget {
   const ProgressBar({
     super.key,
@@ -1089,7 +1363,8 @@ class ProgressBar extends StatelessWidget {
           heightFactor: 1,
           child: DecoratedBox(
             decoration: BoxDecoration(
-              color: fill ?? (onHero ? t.heroFill : t.fill),
+              color: fill,
+              gradient: fill == null ? kPeachFillGradient : null,
               borderRadius: BorderRadius.circular(height / 2),
             ),
           ),
@@ -2105,7 +2380,7 @@ class WaveformBars extends StatelessWidget {
   final int count;
   final double height;
 
-  /// 0..1 — bars before this fraction use [playedColor].
+  /// 0..1 - bars before this fraction use [playedColor].
   final double progress;
   final Color? color;
   final Color? playedColor;
@@ -2205,7 +2480,7 @@ Future<T?> showAppDialog<T>(BuildContext context, Widget child) {
   return showDialog<T>(
     context: context,
     builder: (ctx) => Dialog(
-      backgroundColor: ctx.tk.surface,
+      backgroundColor: ctx.tk.sheet,
       insetPadding: const EdgeInsets.symmetric(horizontal: 20),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
       child: Padding(padding: const EdgeInsets.all(22), child: child),

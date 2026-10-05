@@ -337,8 +337,8 @@ class _ReadingPassageScreenState extends State<ReadingPassageScreen> {
               icon: AppIcons.forward,
               tooltip: 'Next',
               radius: 14,
-              bg: t.primary,
-              fg: t.onPrimary,
+              bg: t.peach,
+              fg: kOnPeach,
               onTap: () => _toQuestions(),
             ),
           ],
@@ -404,7 +404,7 @@ class _PenToolbar extends StatelessWidget {
         children: [
           btn(
             'Highlight yellow',
-            dot(t.isNight ? kInk : const Color(0xFFF7EDC4)),
+            dot(t.isNight ? kInk : const Color(0xFFFFC9B8)),
             onYellow,
           ),
           btn(

@@ -260,7 +260,7 @@ class ReadingRefs {
 
   /// "iii · Too many bees…" / "B · even short delays…" / plain value.
   static String answerLabel(ReadingItem it, String value) {
-    if (value.trim().isEmpty) return '—';
+    if (value.trim().isEmpty) return '-';
     if (it.type == 'heading') {
       for (final h in it.group.l('headings')) {
         if (h.s('key') == value) return '$value · ${h.s('text')}';

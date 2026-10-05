@@ -23,7 +23,7 @@ class ListeningLibraryScreen extends StatefulWidget {
 class _ListeningLibraryScreenState extends State<ListeningLibraryScreen> {
   static const _filterKey = 'listening.libraryFilter';
 
-  /// Part shown (0 = full tests, 1–4 = part sets) — the chips and the
+  /// Part shown (0 = full tests, 1–4 = part sets) - the chips and the
   /// filter sheet's Part. Status and topic search come from [_f].
   int _filter = 0;
   ListeningFilter _f = const ListeningFilter();
@@ -262,15 +262,20 @@ class _ListeningLibraryScreenState extends State<ListeningLibraryScreen> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      contLabel,
-                      style: TextStyle(fontSize: 12, color: t.heroMuted),
+                      contLabel.toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 11,
+                        letterSpacing: 1.1,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
+                      ),
                     ),
-                    const SizedBox(height: 2),
+                    const SizedBox(height: 4),
                     Text(
                       contTitle,
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
-                      style: TextStyle(fontSize: 20, color: t.heroText),
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: t.heroText),
                     ),
                     const SizedBox(height: 10),
                     ProgressBar(value: contProgress, onHero: true),
@@ -403,13 +408,13 @@ class _ListeningLibraryScreenState extends State<ListeningLibraryScreen> {
 (Color, Color, Color?) _tileColors(AppTokens t, String status) {
   switch (status) {
     case 'done':
-      return (t.primary, t.onPrimary, null);
+      return (t.peach, kOnPeach, null);
     case 'next':
       if (t.isNight) return (t.text, t.onPrimary, null);
       return (t.surface, t.text, t.text);
     default:
       return (
-        t.isNight ? const Color(0xFF222222) : t.surfaceAlt,
+        t.isNight ? const Color(0xFF1F2335) : t.surfaceAlt,
         t.textMuted,
         null,
       );

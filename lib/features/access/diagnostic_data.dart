@@ -338,7 +338,7 @@ class Diagnostic {
     final s = Scoring.writing(text, task: 1);
     final min = writingMinWords;
     final feedback = <String>[
-      if (words < min) 'Aim for at least $min words — you wrote $words.',
+      if (words < min) 'Aim for at least $min words - you wrote $words.',
       for (final f in _strings(s['feedback']))
         if (!f.startsWith('Write at least') && !f.startsWith('Organise your answer')) f,
     ];

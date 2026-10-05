@@ -130,13 +130,13 @@ class DiagAudioCard extends StatelessWidget {
         final done = clip.completed;
         final String status;
         if (failed) {
-          status = 'Audio couldn’t load — answer from what you know.';
+          status = 'Audio couldn’t load - answer from what you know.';
         } else if (done) {
           status = 'Recording finished';
         } else if (!clip.loaded) {
           status = 'Loading audio…';
         } else if (!started) {
-          status = 'Plays once — no replay';
+          status = 'Plays once - no replay';
         } else {
           status = clip.playing ? 'Playing · plays once' : 'Paused';
         }
@@ -155,8 +155,8 @@ class DiagAudioCard extends StatelessWidget {
                 size: 52,
                 radius: 18,
                 iconSize: 24,
-                bg: canTap ? t.primary : t.surfaceAlt,
-                fg: canTap ? t.onPrimary : t.textMuted,
+                bg: canTap ? t.peach : t.surfaceAlt,
+                fg: canTap ? kOnPeach : t.textMuted,
                 onTap: canTap ? onPlay : null,
               ),
               Expanded(

@@ -1,0 +1,2031 @@
+{
+ "category": "examples",
+ "drills": [
+  {
+   "id": "examples_001",
+   "connector": "for example",
+   "function": "Giving an example",
+   "sentences": [
+    "Many sports improve heart health.",
+    "Swimming strengthens the heart."
+   ],
+   "answer": [
+    "Many sports",
+    "improve heart health;",
+    "for example,",
+    "swimming",
+    "strengthens the heart."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "in contrast,"
+   ],
+   "hint": "Use a semicolon before \"for example\" and a comma after it.",
+   "level": 1
+  },
+  {
+   "id": "examples_002",
+   "connector": "for example",
+   "function": "Giving an example",
+   "sentences": [
+    "Some jobs can be done from home.",
+    "Software developers often work remotely."
+   ],
+   "answer": [
+    "Some jobs",
+    "can be done from home;",
+    "for example,",
+    "software developers",
+    "often work remotely."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "although"
+   ],
+   "hint": "Make the general point first, then give a specific example.",
+   "level": 1
+  },
+  {
+   "id": "examples_003",
+   "connector": "for example",
+   "function": "Giving an example",
+   "sentences": [
+    "Some foods are high in hidden sugar.",
+    "Fruit yoghurt is one of them."
+   ],
+   "answer": [
+    "Some foods,",
+    "for example",
+    "fruit yoghurt,",
+    "are high in hidden sugar."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however",
+    "unlike"
+   ],
+   "hint": "An example can go in the middle of a sentence, between two commas.",
+   "level": 2
+  },
+  {
+   "id": "examples_004",
+   "connector": "for example",
+   "function": "Giving an example",
+   "sentences": [
+    "Cities can reduce congestion.",
+    "They can charge drivers to enter the centre."
+   ],
+   "answer": [
+    "Cities",
+    "can reduce congestion;",
+    "for example,",
+    "they can charge drivers",
+    "to enter the centre."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "in contrast,"
+   ],
+   "hint": "The example shows one way to achieve the general idea in the first clause.",
+   "level": 2
+  },
+  {
+   "id": "examples_005",
+   "connector": "for example",
+   "function": "Giving an example",
+   "sentences": [
+    "Technology has changed education.",
+    "Many lectures are now available online."
+   ],
+   "answer": [
+    "Technology",
+    "has changed education;",
+    "for example,",
+    "many lectures",
+    "are now available online."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "nevertheless,",
+    "in contrast,"
+   ],
+   "hint": "The second clause supports the first, so it is an example, not a contrast.",
+   "level": 1
+  },
+  {
+   "id": "examples_006",
+   "connector": "for example",
+   "function": "Giving an example",
+   "sentences": [
+    "Some animals have adapted to city life.",
+    "Foxes now live in many urban areas."
+   ],
+   "answer": [
+    "Some animals",
+    "have adapted to city life;",
+    "for example,",
+    "foxes",
+    "now live in many urban areas."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whereas",
+    "in contrast,"
+   ],
+   "hint": "Put the general statement first; the linker introduces the specific case.",
+   "level": 2
+  },
+  {
+   "id": "examples_007",
+   "connector": "for instance",
+   "function": "Giving an example",
+   "sentences": [
+    "Many teenagers have part-time jobs.",
+    "Some work in shops at weekends."
+   ],
+   "answer": [
+    "Many teenagers",
+    "have part-time jobs;",
+    "for instance,",
+    "some",
+    "work in shops at weekends."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "although"
+   ],
+   "hint": "\"For instance\" works like \"for example\": semicolon before, comma after.",
+   "level": 1
+  },
+  {
+   "id": "examples_008",
+   "connector": "for instance",
+   "function": "Giving an example",
+   "sentences": [
+    "Plastic waste harms sea life.",
+    "Turtles often swallow plastic bags."
+   ],
+   "answer": [
+    "Plastic waste",
+    "harms sea life;",
+    "for instance,",
+    "turtles often swallow",
+    "plastic bags."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "unless"
+   ],
+   "hint": "The specific case follows the general problem.",
+   "level": 1
+  },
+  {
+   "id": "examples_009",
+   "connector": "for instance",
+   "function": "Giving an example",
+   "sentences": [
+    "Some diseases can be prevented by vaccines.",
+    "Measles is one of them."
+   ],
+   "answer": [
+    "Some diseases,",
+    "for instance",
+    "measles,",
+    "can be prevented by vaccines."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unlike",
+    "however"
+   ],
+   "hint": "Place the example between commas right after the noun it describes.",
+   "level": 2
+  },
+  {
+   "id": "examples_010",
+   "connector": "for instance",
+   "function": "Giving an example",
+   "sentences": [
+    "Many traditional crafts are disappearing.",
+    "Hand weaving is rarely taught today."
+   ],
+   "answer": [
+    "Many traditional crafts",
+    "are disappearing;",
+    "for instance,",
+    "hand weaving",
+    "is rarely taught today."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "although"
+   ],
+   "hint": "The second idea is one case of the first, so introduce it as an example.",
+   "level": 2
+  },
+  {
+   "id": "examples_011",
+   "connector": "for instance",
+   "function": "Giving an example",
+   "sentences": [
+    "Exercise can improve mood.",
+    "A short walk can reduce stress."
+   ],
+   "answer": [
+    "Exercise",
+    "can improve mood;",
+    "for instance,",
+    "a short walk",
+    "can reduce stress."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "whereas"
+   ],
+   "hint": "Use a comma after the linker before the example clause.",
+   "level": 1
+  },
+  {
+   "id": "examples_012",
+   "connector": "for instance",
+   "function": "Giving an example",
+   "sentences": [
+    "Some governments encourage cycling.",
+    "They offer tax breaks on new bicycles."
+   ],
+   "answer": [
+    "Some governments",
+    "encourage cycling;",
+    "for instance,",
+    "they offer tax breaks",
+    "on new bicycles."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite this,",
+    "in contrast,"
+   ],
+   "hint": "The example explains how the general policy works in practice.",
+   "level": 3
+  },
+  {
+   "id": "examples_013",
+   "connector": "such as",
+   "function": "Giving an example",
+   "sentences": [
+    "Team sports teach cooperation.",
+    "Football and rugby are examples."
+   ],
+   "answer": [
+    "Team sports",
+    "such as",
+    "football and rugby",
+    "teach cooperation."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "because"
+   ],
+   "hint": "\"Such as\" comes straight after the noun it gives examples of.",
+   "level": 1
+  },
+  {
+   "id": "examples_014",
+   "connector": "such as",
+   "function": "Giving an example",
+   "sentences": [
+    "Renewable sources are becoming cheaper.",
+    "Wind and solar power are examples."
+   ],
+   "answer": [
+    "Renewable sources",
+    "such as",
+    "wind and solar power",
+    "are becoming cheaper."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "whereas"
+   ],
+   "hint": "\"Such as\" is followed by nouns, not a full clause.",
+   "level": 1
+  },
+  {
+   "id": "examples_015",
+   "connector": "such as",
+   "function": "Giving an example",
+   "sentences": [
+    "Practical skills are hard to learn online.",
+    "Cooking and nursing are examples."
+   ],
+   "answer": [
+    "Practical skills",
+    "such as",
+    "cooking and nursing",
+    "are hard to learn online."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "whereas"
+   ],
+   "hint": "The examples go between the subject and its verb.",
+   "level": 1
+  },
+  {
+   "id": "examples_016",
+   "connector": "such as",
+   "function": "Giving an example",
+   "sentences": [
+    "Older people often suffer from health conditions.",
+    "Arthritis and heart disease are common examples."
+   ],
+   "answer": [
+    "Older people",
+    "often suffer from conditions",
+    "such as",
+    "arthritis and heart disease."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "although"
+   ],
+   "hint": "\"Such as\" + examples can end the sentence after the noun they describe.",
+   "level": 2
+  },
+  {
+   "id": "examples_017",
+   "connector": "such as",
+   "function": "Giving an example",
+   "sentences": [
+    "Social media platforms spread news quickly.",
+    "Video-sharing apps are one example."
+   ],
+   "answer": [
+    "Social media platforms",
+    "such as",
+    "video-sharing apps",
+    "spread news quickly."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so that",
+    "although"
+   ],
+   "hint": "Keep the examples next to the general noun, before the main verb.",
+   "level": 2
+  },
+  {
+   "id": "examples_018",
+   "connector": "such as",
+   "function": "Giving an example",
+   "sentences": [
+    "Simple habits can save energy.",
+    "Turning off lights is one such habit."
+   ],
+   "answer": [
+    "Simple habits,",
+    "such as",
+    "turning off lights,",
+    "can save energy."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "in order to"
+   ],
+   "hint": "\"Such as\" can be followed by an -ing form; here commas surround the example.",
+   "level": 3
+  },
+  {
+   "id": "examples_019",
+   "connector": "namely",
+   "function": "Specifying",
+   "sentences": [
+    "Two subjects are compulsory.",
+    "They are maths and English."
+   ],
+   "answer": [
+    "Two subjects",
+    "are compulsory,",
+    "namely",
+    "maths and English."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "because"
+   ],
+   "hint": "\"Namely\" names exactly the things just mentioned; put a comma before it.",
+   "level": 1
+  },
+  {
+   "id": "examples_020",
+   "connector": "namely",
+   "function": "Specifying",
+   "sentences": [
+    "The city has one major problem.",
+    "This problem is air pollution."
+   ],
+   "answer": [
+    "The city",
+    "has one major problem,",
+    "namely",
+    "air pollution."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "despite"
+   ],
+   "hint": "Use \"namely\" to say exactly what the problem is.",
+   "level": 1
+  },
+  {
+   "id": "examples_021",
+   "connector": "namely",
+   "function": "Specifying",
+   "sentences": [
+    "The report identifies three causes of obesity.",
+    "These are diet, inactivity and stress."
+   ],
+   "answer": [
+    "The report identifies",
+    "three causes of obesity,",
+    "namely",
+    "diet, inactivity and stress."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "such",
+    "whereas"
+   ],
+   "hint": "After \"namely\", list all the items that were counted before it.",
+   "level": 2
+  },
+  {
+   "id": "examples_022",
+   "connector": "namely",
+   "function": "Specifying",
+   "sentences": [
+    "Only one group improved its scores.",
+    "This was the group of youngest students."
+   ],
+   "answer": [
+    "Only one group",
+    "improved its scores,",
+    "namely",
+    "the youngest students."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "although"
+   ],
+   "hint": "\"Namely\" identifies the exact group mentioned before the comma.",
+   "level": 1
+  },
+  {
+   "id": "examples_023",
+   "connector": "namely",
+   "function": "Specifying",
+   "sentences": [
+    "The firm is entering two new markets.",
+    "These are India and Brazil."
+   ],
+   "answer": [
+    "The firm",
+    "is entering two new markets,",
+    "namely",
+    "India and Brazil."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "whereas"
+   ],
+   "hint": "The number in the first part must match the items after \"namely\".",
+   "level": 2
+  },
+  {
+   "id": "examples_024",
+   "connector": "namely",
+   "function": "Specifying",
+   "sentences": [
+    "The plan has a clear aim.",
+    "It aims to cut emissions by half."
+   ],
+   "answer": [
+    "The plan",
+    "has a clear aim,",
+    "namely",
+    "to cut emissions by half."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "because of"
+   ],
+   "hint": "\"Namely\" can be followed by a to-infinitive that explains the aim.",
+   "level": 3
+  },
+  {
+   "id": "examples_025",
+   "connector": "to illustrate",
+   "function": "Giving an example",
+   "sentences": [
+    "Exercise benefits mental health.",
+    "Regular walkers report lower stress levels."
+   ],
+   "answer": [
+    "Exercise",
+    "benefits mental health;",
+    "to illustrate,",
+    "regular walkers",
+    "report lower stress levels."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "to illustrating,"
+   ],
+   "hint": "\"To illustrate\" introduces evidence for the point; it takes a comma.",
+   "level": 2
+  },
+  {
+   "id": "examples_026",
+   "connector": "to illustrate",
+   "function": "Giving an example",
+   "sentences": [
+    "Housing costs in the city have risen sharply.",
+    "A small flat now costs twice as much."
+   ],
+   "answer": [
+    "Housing costs",
+    "have risen sharply;",
+    "to illustrate,",
+    "a small flat",
+    "now costs twice as much."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "in contrast,"
+   ],
+   "hint": "The second clause shows the size of the rise, so it illustrates the first.",
+   "level": 2
+  },
+  {
+   "id": "examples_027",
+   "connector": "to illustrate",
+   "function": "Giving an example",
+   "sentences": [
+    "Languages borrow words from each other.",
+    "English has taken many words from French."
+   ],
+   "answer": [
+    "Languages",
+    "borrow words from each other;",
+    "to illustrate,",
+    "English has taken",
+    "many words from French."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whereas",
+    "unless"
+   ],
+   "hint": "Give the general claim, a semicolon, then the illustrating case.",
+   "level": 3
+  },
+  {
+   "id": "examples_028",
+   "connector": "to illustrate",
+   "function": "Giving an example",
+   "sentences": [
+    "Small changes can save a lot of water.",
+    "A shorter shower saves many litres."
+   ],
+   "answer": [
+    "Small changes",
+    "can save a lot of water;",
+    "to illustrate,",
+    "a shorter shower",
+    "saves many litres."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite this,",
+    "in contrast,"
+   ],
+   "hint": "The linker introduces a concrete case that supports the general point.",
+   "level": 3
+  },
+  {
+   "id": "examples_029",
+   "connector": "in particular",
+   "function": "Emphasis",
+   "sentences": [
+    "Air pollution harms many people.",
+    "Children are especially at risk."
+   ],
+   "answer": [
+    "Air pollution",
+    "harms many people,",
+    "children",
+    "in particular."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however.",
+    "although"
+   ],
+   "hint": "\"In particular\" can follow the group it singles out, at the end.",
+   "level": 1
+  },
+  {
+   "id": "examples_030",
+   "connector": "in particular",
+   "function": "Emphasis",
+   "sentences": [
+    "Teenagers use many apps.",
+    "Video apps are very popular with them."
+   ],
+   "answer": [
+    "Teenagers",
+    "use many apps;",
+    "video apps,",
+    "in particular,",
+    "are very popular."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "although"
+   ],
+   "hint": "Here \"in particular\" sits between commas after the subject.",
+   "level": 2
+  },
+  {
+   "id": "examples_031",
+   "connector": "in particular",
+   "function": "Emphasis",
+   "sentences": [
+    "Several sectors face labour shortages.",
+    "Healthcare is badly affected."
+   ],
+   "answer": [
+    "Several sectors",
+    "face labour shortages;",
+    "healthcare,",
+    "in particular,",
+    "is badly affected."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "unless"
+   ],
+   "hint": "Single out one sector by placing the phrase after it, between commas.",
+   "level": 2
+  },
+  {
+   "id": "examples_032",
+   "connector": "in particular",
+   "function": "Emphasis",
+   "sentences": [
+    "Tourism brings many benefits.",
+    "It creates jobs for young local people."
+   ],
+   "answer": [
+    "Tourism",
+    "brings many benefits;",
+    "in particular,",
+    "it creates jobs",
+    "for young local people."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "whereas"
+   ],
+   "hint": "After a semicolon, \"in particular\" introduces the most important benefit.",
+   "level": 1
+  },
+  {
+   "id": "examples_033",
+   "connector": "in particular",
+   "function": "Emphasis",
+   "sentences": [
+    "The survey studied eating habits.",
+    "It focused on what people eat for breakfast."
+   ],
+   "answer": [
+    "The survey studied",
+    "eating habits,",
+    "in particular",
+    "what people eat",
+    "for breakfast."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast",
+    "unlike"
+   ],
+   "hint": "\"In particular\" narrows a general topic to one specific part.",
+   "level": 2
+  },
+  {
+   "id": "examples_034",
+   "connector": "in particular",
+   "function": "Emphasis",
+   "sentences": [
+    "Many factors affect learning.",
+    "Sleep is especially vital."
+   ],
+   "answer": [
+    "Many factors",
+    "affect learning,",
+    "but",
+    "sleep,",
+    "in particular,",
+    "is vital."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "as a result,"
+   ],
+   "hint": "Use commas around the phrase when it follows the subject it stresses.",
+   "level": 3
+  },
+  {
+   "id": "examples_035",
+   "connector": "particularly",
+   "function": "Emphasis",
+   "sentences": [
+    "Fast food is popular.",
+    "Teenagers like it most of all."
+   ],
+   "answer": [
+    "Fast food",
+    "is popular,",
+    "particularly",
+    "among teenagers."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "although"
+   ],
+   "hint": "\"Particularly\" adds the group where the point is strongest.",
+   "level": 1
+  },
+  {
+   "id": "examples_036",
+   "connector": "particularly",
+   "function": "Emphasis",
+   "sentences": [
+    "Cycling has become popular.",
+    "This is most true in large cities."
+   ],
+   "answer": [
+    "Cycling",
+    "has become popular,",
+    "particularly",
+    "in large cities."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "whereas"
+   ],
+   "hint": "A comma comes before \"particularly\" + the place phrase.",
+   "level": 1
+  },
+  {
+   "id": "examples_037",
+   "connector": "particularly",
+   "function": "Emphasis",
+   "sentences": [
+    "Older people benefit from gentle exercise.",
+    "Swimming is the most helpful."
+   ],
+   "answer": [
+    "Older people",
+    "benefit from gentle exercise,",
+    "particularly",
+    "swimming."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "unless"
+   ],
+   "hint": "Put the most important example after \"particularly\" at the end.",
+   "level": 2
+  },
+  {
+   "id": "examples_038",
+   "connector": "particularly",
+   "function": "Emphasis",
+   "sentences": [
+    "Water shortages are a growing problem.",
+    "They are most severe in dry regions."
+   ],
+   "answer": [
+    "Water shortages",
+    "are a growing problem,",
+    "particularly",
+    "in dry regions."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whereas",
+    "despite"
+   ],
+   "hint": "\"Particularly\" stresses where the problem is worst.",
+   "level": 1
+  },
+  {
+   "id": "examples_039",
+   "connector": "particularly",
+   "function": "Emphasis",
+   "sentences": [
+    "The scheme helps students.",
+    "It mainly helps those from poor families."
+   ],
+   "answer": [
+    "The scheme",
+    "helps students,",
+    "particularly",
+    "those from poor families."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unlike",
+    "although"
+   ],
+   "hint": "Use \"those\" after \"particularly\" to refer back to the students.",
+   "level": 2
+  },
+  {
+   "id": "examples_040",
+   "connector": "particularly",
+   "function": "Emphasis",
+   "sentences": [
+    "Noise pollution affects health.",
+    "Its effect on sleep is especially serious."
+   ],
+   "answer": [
+    "Noise pollution",
+    "affects health,",
+    "particularly",
+    "by disturbing sleep."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "so that"
+   ],
+   "hint": "\"Particularly\" can come before a \"by\" + -ing phrase showing the main effect.",
+   "level": 3
+  },
+  {
+   "id": "examples_041",
+   "connector": "especially",
+   "function": "Emphasis",
+   "sentences": [
+    "Many tourists visit the coast.",
+    "Most of them come in summer."
+   ],
+   "answer": [
+    "Many tourists",
+    "visit the coast,",
+    "especially",
+    "in summer."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "unless"
+   ],
+   "hint": "\"Especially\" + time phrase shows when something is most true.",
+   "level": 1
+  },
+  {
+   "id": "examples_042",
+   "connector": "especially",
+   "function": "Emphasis",
+   "sentences": [
+    "Online learning suits many adults.",
+    "It suits those with full-time jobs most."
+   ],
+   "answer": [
+    "Online learning",
+    "suits many adults,",
+    "especially",
+    "those with full-time jobs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "because"
+   ],
+   "hint": "Put a comma before \"especially\" when it adds a group at the end.",
+   "level": 1
+  },
+  {
+   "id": "examples_043",
+   "connector": "especially",
+   "function": "Emphasis",
+   "sentences": [
+    "High housing costs are hard for many people.",
+    "Young families suffer the most."
+   ],
+   "answer": [
+    "High housing costs",
+    "are hard for many people,",
+    "especially",
+    "young families."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unlike",
+    "although"
+   ],
+   "hint": "\"Especially\" points to the group most affected.",
+   "level": 1
+  },
+  {
+   "id": "examples_044",
+   "connector": "especially",
+   "function": "Emphasis",
+   "sentences": [
+    "Sugar harms people's teeth.",
+    "Young children's teeth are most at risk."
+   ],
+   "answer": [
+    "Sugar",
+    "harms teeth,",
+    "especially",
+    "in young children."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "whereas"
+   ],
+   "hint": "Use \"especially\" + a short phrase to show where the harm is greatest.",
+   "level": 1
+  },
+  {
+   "id": "examples_045",
+   "connector": "especially",
+   "function": "Emphasis",
+   "sentences": [
+    "Recycling rates have risen.",
+    "The rate for glass has risen most."
+   ],
+   "answer": [
+    "Recycling rates",
+    "have risen,",
+    "especially",
+    "for glass."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "despite"
+   ],
+   "hint": "\"Especially\" highlights the strongest case of a general trend.",
+   "level": 2
+  },
+  {
+   "id": "examples_046",
+   "connector": "especially",
+   "function": "Emphasis",
+   "sentences": [
+    "Flexible working is valued by many staff.",
+    "Parents of young children value it most."
+   ],
+   "answer": [
+    "Flexible working",
+    "is valued by many staff,",
+    "especially",
+    "parents of young children."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "so that"
+   ],
+   "hint": "The phrase after \"especially\" must fit the passive \"by many staff\".",
+   "level": 3
+  },
+  {
+   "id": "examples_047",
+   "connector": "including",
+   "function": "Giving an example",
+   "sentences": [
+    "Many subjects are taught online.",
+    "Art and music are among them."
+   ],
+   "answer": [
+    "Many subjects,",
+    "including",
+    "art and music,",
+    "are taught online."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "because"
+   ],
+   "hint": "\"Including\" + examples can go between commas after the subject.",
+   "level": 1
+  },
+  {
+   "id": "examples_048",
+   "connector": "including",
+   "function": "Giving an example",
+   "sentences": [
+    "The museum has many exhibits.",
+    "Some ancient coins are among them."
+   ],
+   "answer": [
+    "The museum",
+    "has many exhibits,",
+    "including",
+    "some ancient coins."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "whereas"
+   ],
+   "hint": "\"Including\" is followed by a noun phrase, not a clause.",
+   "level": 1
+  },
+  {
+   "id": "examples_049",
+   "connector": "including",
+   "function": "Giving an example",
+   "sentences": [
+    "Several factors cause stress.",
+    "Long working hours are one factor."
+   ],
+   "answer": [
+    "Several factors,",
+    "including",
+    "long working hours,",
+    "cause stress."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "unless"
+   ],
+   "hint": "Keep the example inside commas, then add the verb.",
+   "level": 2
+  },
+  {
+   "id": "examples_050",
+   "connector": "including",
+   "function": "Giving an example",
+   "sentences": [
+    "The festival attracts many visitors.",
+    "Families and students are among them."
+   ],
+   "answer": [
+    "The festival",
+    "attracts many visitors,",
+    "including",
+    "families and students."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "so that"
+   ],
+   "hint": "Use a comma before \"including\" when it ends the sentence.",
+   "level": 1
+  },
+  {
+   "id": "examples_051",
+   "connector": "including",
+   "function": "Giving an example",
+   "sentences": [
+    "Diet affects many illnesses.",
+    "Diabetes is one of them."
+   ],
+   "answer": [
+    "Diet",
+    "affects many illnesses,",
+    "including",
+    "diabetes."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "because"
+   ],
+   "hint": "\"Including\" shows the example is part of a bigger group.",
+   "level": 2
+  },
+  {
+   "id": "examples_052",
+   "connector": "including",
+   "function": "Giving an example",
+   "sentences": [
+    "The course covers several skills.",
+    "Writing an academic essay is one of them."
+   ],
+   "answer": [
+    "The course",
+    "covers several skills,",
+    "including",
+    "how to write",
+    "an academic essay."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "whereas"
+   ],
+   "hint": "\"Including\" can be followed by a \"how to\" phrase.",
+   "level": 3
+  },
+  {
+   "id": "examples_053",
+   "connector": "indeed",
+   "function": "Emphasis",
+   "sentences": [
+    "The course is very demanding.",
+    "Many students drop out."
+   ],
+   "answer": [
+    "The course",
+    "is very demanding;",
+    "indeed,",
+    "many students",
+    "drop out."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "although"
+   ],
+   "hint": "\"Indeed\" adds a stronger point that supports the first.",
+   "level": 1
+  },
+  {
+   "id": "examples_054",
+   "connector": "indeed",
+   "function": "Emphasis",
+   "sentences": [
+    "The new library is very popular.",
+    "It is often full by noon."
+   ],
+   "answer": [
+    "The new library",
+    "is very popular;",
+    "indeed,",
+    "it",
+    "is often full by noon."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "although"
+   ],
+   "hint": "Use a semicolon before \"indeed\" and a comma after it.",
+   "level": 1
+  },
+  {
+   "id": "examples_055",
+   "connector": "indeed",
+   "function": "Emphasis",
+   "sentences": [
+    "Exercise is important for older people.",
+    "It can prevent many illnesses."
+   ],
+   "answer": [
+    "Exercise",
+    "is important for older people;",
+    "indeed,",
+    "it can prevent",
+    "many illnesses."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "\"Indeed\" introduces evidence that makes the first claim stronger.",
+   "level": 2
+  },
+  {
+   "id": "examples_056",
+   "connector": "indeed",
+   "function": "Emphasis",
+   "sentences": [
+    "Tourism is vital to the island.",
+    "Most jobs depend on it."
+   ],
+   "answer": [
+    "Tourism",
+    "is vital to the island;",
+    "indeed,",
+    "most jobs",
+    "depend on it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "whereas"
+   ],
+   "hint": "The second clause confirms and strengthens the first.",
+   "level": 1
+  },
+  {
+   "id": "examples_057",
+   "connector": "indeed",
+   "function": "Emphasis",
+   "sentences": [
+    "Some species are under serious threat.",
+    "A few may disappear within decades."
+   ],
+   "answer": [
+    "Some species",
+    "are under serious threat;",
+    "indeed,",
+    "a few",
+    "may disappear within decades."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "although"
+   ],
+   "hint": "\"Indeed\" moves from a general claim to a more serious one.",
+   "level": 2
+  },
+  {
+   "id": "examples_058",
+   "connector": "indeed",
+   "function": "Emphasis",
+   "sentences": [
+    "Traffic is a serious problem.",
+    "It may be the city's biggest challenge."
+   ],
+   "answer": [
+    "Traffic",
+    "is a serious problem;",
+    "indeed,",
+    "it may be",
+    "the city's biggest challenge."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "by contrast,",
+    "although"
+   ],
+   "hint": "Build up the point: serious, and then even more serious after \"indeed\".",
+   "level": 3
+  },
+  {
+   "id": "examples_059",
+   "connector": "in fact",
+   "function": "Emphasis",
+   "sentences": [
+    "Many people think recycling is difficult.",
+    "It is actually quite simple."
+   ],
+   "answer": [
+    "Many people think",
+    "recycling is difficult;",
+    "in fact,",
+    "it is quite simple."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "as a result,"
+   ],
+   "hint": "\"In fact\" can correct a common belief.",
+   "level": 1
+  },
+  {
+   "id": "examples_060",
+   "connector": "in fact",
+   "function": "Emphasis",
+   "sentences": [
+    "Electric cars are not new.",
+    "They existed over a century ago."
+   ],
+   "answer": [
+    "Electric cars",
+    "are not new;",
+    "in fact,",
+    "they existed",
+    "over a century ago."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "although"
+   ],
+   "hint": "Use \"in fact\" to add a surprising detail that proves the point.",
+   "level": 1
+  },
+  {
+   "id": "examples_061",
+   "connector": "in fact",
+   "function": "Emphasis",
+   "sentences": [
+    "The town's population has not fallen.",
+    "It has grown slightly."
+   ],
+   "answer": [
+    "The town's population",
+    "has not fallen;",
+    "in fact,",
+    "it",
+    "has grown slightly."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "similarly,"
+   ],
+   "hint": "\"In fact\" adds information that goes further than the first statement.",
+   "level": 2
+  },
+  {
+   "id": "examples_062",
+   "connector": "in fact",
+   "function": "Emphasis",
+   "sentences": [
+    "Too much homework is not always helpful.",
+    "It can reduce motivation."
+   ],
+   "answer": [
+    "Too much homework",
+    "is not always helpful;",
+    "in fact,",
+    "it can",
+    "reduce motivation."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "in contrast,"
+   ],
+   "hint": "The second clause makes the first point stronger, so use \"in fact\".",
+   "level": 2
+  },
+  {
+   "id": "examples_063",
+   "connector": "in fact",
+   "function": "Emphasis",
+   "sentences": [
+    "Breakfast is not essential for everyone.",
+    "Some people perform better without it."
+   ],
+   "answer": [
+    "Breakfast",
+    "is not essential for everyone;",
+    "in fact,",
+    "some people",
+    "perform better without it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "whereas"
+   ],
+   "hint": "Semicolon before, comma after \"in fact\".",
+   "level": 2
+  },
+  {
+   "id": "examples_064",
+   "connector": "in fact",
+   "function": "Emphasis",
+   "sentences": [
+    "The scheme was meant to save money.",
+    "It actually cost more than expected."
+   ],
+   "answer": [
+    "The scheme",
+    "was meant to save money,",
+    "but",
+    "in fact",
+    "it cost more than expected."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example",
+    "in addition"
+   ],
+   "hint": "\"But in fact\" shows that the reality was different from the plan.",
+   "level": 3
+  },
+  {
+   "id": "examples_065",
+   "connector": "notably",
+   "function": "Emphasis",
+   "sentences": [
+    "In the survey, several sports gained fans.",
+    "Tennis and cycling grew the most."
+   ],
+   "answer": [
+    "In the survey,",
+    "several sports gained fans,",
+    "notably",
+    "tennis and cycling."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "unless"
+   ],
+   "hint": "\"Notably\" picks out the most important examples, after a comma.",
+   "level": 1
+  },
+  {
+   "id": "examples_066",
+   "connector": "notably",
+   "function": "Emphasis",
+   "sentences": [
+    "The school has improved in many areas.",
+    "Its science results show this most clearly."
+   ],
+   "answer": [
+    "The school",
+    "has improved in many areas,",
+    "notably",
+    "in science."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "whereas"
+   ],
+   "hint": "Use \"notably\" + a phrase to highlight the clearest case.",
+   "level": 1
+  },
+  {
+   "id": "examples_067",
+   "connector": "notably",
+   "function": "Emphasis",
+   "sentences": [
+    "Some foods are rich in protein.",
+    "Eggs and lentils are good examples."
+   ],
+   "answer": [
+    "Some foods,",
+    "notably",
+    "eggs and lentils,",
+    "are rich in protein."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "unless"
+   ],
+   "hint": "\"Notably\" + examples can go between commas after the subject.",
+   "level": 2
+  },
+  {
+   "id": "examples_068",
+   "connector": "notably",
+   "function": "Emphasis",
+   "sentences": [
+    "Many inventions came about by accident.",
+    "Penicillin is the best-known one."
+   ],
+   "answer": [
+    "Many inventions",
+    "came about by accident,",
+    "notably",
+    "penicillin."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whereas",
+    "despite"
+   ],
+   "hint": "Put the most famous example after \"notably\" at the end.",
+   "level": 2
+  },
+  {
+   "id": "examples_069",
+   "connector": "notably",
+   "function": "Emphasis",
+   "sentences": [
+    "The region has changed greatly.",
+    "Its transport links have improved most."
+   ],
+   "answer": [
+    "The region",
+    "has changed greatly,",
+    "notably",
+    "in its transport links."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "although"
+   ],
+   "hint": "\"Notably\" introduces the area of greatest change.",
+   "level": 2
+  },
+  {
+   "id": "examples_070",
+   "connector": "notably",
+   "function": "Emphasis",
+   "sentences": [
+    "The film received several awards.",
+    "One of them was for its music."
+   ],
+   "answer": [
+    "The film",
+    "received several awards,",
+    "notably",
+    "one for its music."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "whereas"
+   ],
+   "hint": "\"One\" after \"notably\" refers back to one of the awards.",
+   "level": 3
+  },
+  {
+   "id": "examples_071",
+   "connector": "above all",
+   "function": "Emphasis",
+   "sentences": [
+    "Parents should support their children.",
+    "Listening to them is most important."
+   ],
+   "answer": [
+    "Parents",
+    "should support their children;",
+    "above all,",
+    "they",
+    "should listen to them."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "in contrast,"
+   ],
+   "hint": "\"Above all\" introduces the most important point.",
+   "level": 1
+  },
+  {
+   "id": "examples_072",
+   "connector": "above all",
+   "function": "Emphasis",
+   "sentences": [
+    "A good diet should be varied.",
+    "Being balanced matters most."
+   ],
+   "answer": [
+    "A good diet",
+    "should be varied",
+    "and,",
+    "above all,",
+    "balanced."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "although"
+   ],
+   "hint": "Here \"above all\" sits between commas after \"and\".",
+   "level": 2
+  },
+  {
+   "id": "examples_073",
+   "connector": "above all",
+   "function": "Emphasis",
+   "sentences": [
+    "Employers value many skills.",
+    "They look for good communication most of all."
+   ],
+   "answer": [
+    "Employers",
+    "value many skills;",
+    "above all,",
+    "they look for",
+    "good communication."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "although"
+   ],
+   "hint": "After a semicolon, \"above all\" with a comma introduces the top priority.",
+   "level": 1
+  },
+  {
+   "id": "examples_074",
+   "connector": "above all",
+   "function": "Emphasis",
+   "sentences": [
+    "Visitors want clean beaches.",
+    "Most of all, they want safe streets."
+   ],
+   "answer": [
+    "Visitors",
+    "want clean beaches",
+    "and,",
+    "above all,",
+    "safe streets."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "in contrast,"
+   ],
+   "hint": "Put \"above all\" between commas before the most important item.",
+   "level": 2
+  },
+  {
+   "id": "examples_075",
+   "connector": "above all",
+   "function": "Emphasis",
+   "sentences": [
+    "Teachers need many qualities.",
+    "Patience is the most important one."
+   ],
+   "answer": [
+    "Teachers",
+    "need many qualities,",
+    "but",
+    "above all",
+    "they need patience."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example",
+    "in contrast"
+   ],
+   "hint": "\"But above all\" moves from many things to the single most important one.",
+   "level": 2
+  },
+  {
+   "id": "examples_076",
+   "connector": "above all",
+   "function": "Emphasis",
+   "sentences": [
+    "The new policy aims to cut costs.",
+    "Its main aim is to protect jobs."
+   ],
+   "answer": [
+    "The new policy",
+    "aims to cut costs",
+    "but,",
+    "above all,",
+    "to protect jobs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "so that"
+   ],
+   "hint": "The two aims share one verb; \"above all\" marks the more important one.",
+   "level": 3
+  },
+  {
+   "id": "examples_077",
+   "connector": "undoubtedly",
+   "function": "Emphasis",
+   "sentences": [
+    "The internet has changed how people shop.",
+    "There is no doubt about this."
+   ],
+   "answer": [
+    "Undoubtedly,",
+    "the internet",
+    "has changed",
+    "how people shop."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unless",
+    "Although"
+   ],
+   "hint": "A sentence adverb at the start shows certainty; it takes a comma.",
+   "level": 1
+  },
+  {
+   "id": "examples_078",
+   "connector": "undoubtedly",
+   "function": "Emphasis",
+   "sentences": [
+    "Smartphones are certainly useful.",
+    "However, they can be addictive."
+   ],
+   "answer": [
+    "Undoubtedly,",
+    "smartphones are useful;",
+    "however,",
+    "they can be addictive."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unless",
+    "Despite"
+   ],
+   "hint": "Admit the strong point first with certainty, then add the problem.",
+   "level": 3
+  },
+  {
+   "id": "examples_079",
+   "connector": "undoubtedly",
+   "function": "Emphasis",
+   "sentences": [
+    "Climate change is a serious threat to many species.",
+    "Few scientists doubt this."
+   ],
+   "answer": [
+    "Undoubtedly,",
+    "climate change",
+    "is a serious threat",
+    "to many species."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Unless"
+   ],
+   "hint": "Use the adverb at the start when experts agree on a point.",
+   "level": 2
+  },
+  {
+   "id": "examples_080",
+   "connector": "undoubtedly",
+   "function": "Emphasis",
+   "sentences": [
+    "Education is the key to development.",
+    "This is beyond doubt."
+   ],
+   "answer": [
+    "Education",
+    "is,",
+    "undoubtedly,",
+    "the key to development."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although,",
+    "unless,"
+   ],
+   "hint": "The adverb can sit between commas after \"is\".",
+   "level": 3
+  },
+  {
+   "id": "examples_081",
+   "connector": "significantly",
+   "function": "Emphasis",
+   "sentences": [
+    "Overall sales rose last year.",
+    "Online sales more than doubled."
+   ],
+   "answer": [
+    "Overall sales",
+    "rose last year;",
+    "significantly,",
+    "online sales",
+    "more than doubled."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "in contrast,"
+   ],
+   "hint": "As a sentence adverb, \"significantly\" marks an important detail.",
+   "level": 2
+  },
+  {
+   "id": "examples_082",
+   "connector": "significantly",
+   "function": "Emphasis",
+   "sentences": [
+    "Crime fell in the city last year.",
+    "Youth crime fell the most."
+   ],
+   "answer": [
+    "Crime",
+    "fell in the city last year;",
+    "significantly,",
+    "youth crime",
+    "fell the most."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "although"
+   ],
+   "hint": "Use a semicolon, then the adverb and a comma to highlight the key finding.",
+   "level": 1
+  },
+  {
+   "id": "examples_083",
+   "connector": "significantly",
+   "function": "Emphasis",
+   "sentences": [
+    "The new teaching method helped all students.",
+    "Weaker students improved the most."
+   ],
+   "answer": [
+    "The new teaching method",
+    "helped all students;",
+    "significantly,",
+    "weaker students",
+    "improved the most."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "whereas"
+   ],
+   "hint": "The adverb draws attention to the most important result.",
+   "level": 2
+  },
+  {
+   "id": "examples_084",
+   "connector": "significantly",
+   "function": "Emphasis",
+   "sentences": [
+    "Many people now work from home.",
+    "Most report being more productive."
+   ],
+   "answer": [
+    "Many people",
+    "now work from home;",
+    "significantly,",
+    "most report",
+    "being more productive."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "although"
+   ],
+   "hint": "\"Significantly\" signals that the next fact matters a lot.",
+   "level": 1
+  },
+  {
+   "id": "examples_085",
+   "connector": "significantly",
+   "function": "Emphasis",
+   "sentences": [
+    "The new park opened in spring.",
+    "Local air quality has improved since then."
+   ],
+   "answer": [
+    "The new park",
+    "opened in spring;",
+    "significantly,",
+    "local air quality",
+    "has improved since then."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "for example,"
+   ],
+   "hint": "Put the adverb after the semicolon and follow it with a comma.",
+   "level": 2
+  },
+  {
+   "id": "examples_086",
+   "connector": "significantly",
+   "function": "Emphasis",
+   "sentences": [
+    "The drug reduced symptoms.",
+    "It also caused very few side effects."
+   ],
+   "answer": [
+    "The drug",
+    "reduced symptoms and,",
+    "significantly,",
+    "caused very few side effects."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although,",
+    "in contrast,"
+   ],
+   "hint": "The adverb can sit between commas after \"and\" to stress the second result.",
+   "level": 3
+  },
+  {
+   "id": "examples_087",
+   "connector": "it should be noted that",
+   "function": "Emphasis",
+   "sentences": [
+    "Online courses are flexible.",
+    "They require strong self-discipline."
+   ],
+   "answer": [
+    "Online courses",
+    "are flexible,",
+    "but",
+    "it should be noted that",
+    "they require self-discipline."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example",
+    "because"
+   ],
+   "hint": "This phrase draws attention to an important point; \"that\" is followed by a clause.",
+   "level": 2
+  },
+  {
+   "id": "examples_088",
+   "connector": "it should be noted that",
+   "function": "Emphasis",
+   "sentences": [
+    "The survey shows rising satisfaction.",
+    "Only 200 people took part."
+   ],
+   "answer": [
+    "The survey",
+    "shows rising satisfaction;",
+    "however,",
+    "it should be noted that",
+    "only 200 people took part."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "as a result,"
+   ],
+   "hint": "Use the phrase to point out a limitation of the evidence.",
+   "level": 2
+  },
+  {
+   "id": "examples_089",
+   "connector": "it should be noted that",
+   "function": "Emphasis",
+   "sentences": [
+    "Nuclear power produces little carbon.",
+    "Its waste stays dangerous for centuries."
+   ],
+   "answer": [
+    "Nuclear power",
+    "produces little carbon,",
+    "but",
+    "it should be noted that",
+    "its waste stays dangerous."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for instance",
+    "therefore"
+   ],
+   "hint": "After \"but\", the phrase introduces a point the reader must not forget.",
+   "level": 3
+  },
+  {
+   "id": "examples_090",
+   "connector": "it should be noted that",
+   "function": "Emphasis",
+   "sentences": [
+    "Prices have fallen recently.",
+    "The fall applies only to basic goods."
+   ],
+   "answer": [
+    "It should be noted that",
+    "the fall in prices",
+    "applies only to",
+    "basic goods."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Despite"
+   ],
+   "hint": "The phrase can open a sentence; it is followed by a full clause.",
+   "level": 3
+  }
+ ]
+}

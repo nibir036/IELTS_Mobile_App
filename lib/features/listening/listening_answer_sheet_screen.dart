@@ -17,7 +17,7 @@ import 'widgets.dart';
 /// after another; questions 1–40 page by part. `{'setId': 'lb_p1_fn'}` → one
 /// set on its own (question-bank sets: 20 questions, 8 formats).
 /// Pink of a flagged question (same as the mock test's flags).
-const Color kSheetFlag = Color(0xFFF4B8CB);
+const Color kSheetFlag = Color(0xFFFFB8A3);
 
 class ListeningAnswerSheetScreen extends StatefulWidget {
   const ListeningAnswerSheetScreen({super.key});
@@ -234,8 +234,8 @@ class _ListeningAnswerSheetScreenState extends State<ListeningAnswerSheetScreen>
             KeyValueRow(
               '${it.label}  ${itemPrompt(it)}${_isFlagged(it) ? '  (flagged)' : ''}',
               it.type == 'multi'
-                  ? (multiChosen(it, answers).isEmpty ? '—' : (multiChosen(it, answers).toList()..sort()).join(', '))
-                  : ((answers[it.number] ?? '').trim().isEmpty ? '—' : answers[it.number]!.trim()),
+                  ? (multiChosen(it, answers).isEmpty ? '-' : (multiChosen(it, answers).toList()..sort()).join(', '))
+                  : ((answers[it.number] ?? '').trim().isEmpty ? '-' : answers[it.number]!.trim()),
               labelColor: t.textMuted,
             ),
           const SizedBox(height: 8),
@@ -425,13 +425,13 @@ class _ListeningAnswerSheetScreenState extends State<ListeningAnswerSheetScreen>
               Icon(
                 AppIcons.listening,
                 size: 20,
-                color: t.isNight ? kInk : const Color(0xFFF7C6D6),
+                color: t.isNight ? kInk : const Color(0xFFFFD2C4),
               ),
               Expanded(
                 child: ProgressBar(
                   value: audioProgress,
                   track: t.isNight ? kInk.withValues(alpha: 0.15) : const Color(0xFF3A3A3A),
-                  fill: t.isNight ? kInk : const Color(0xFFF7C6D6),
+                  fill: t.isNight ? kInk : const Color(0xFFFFD2C4),
                 ),
               ),
               Text(
@@ -588,7 +588,7 @@ class _ListeningAnswerSheetScreenState extends State<ListeningAnswerSheetScreen>
         state: state,
         filledColor: t.isNight ? t.surfaceAlt2 : t.successSoft,
         activeBorder: t.text,
-        dashColor: t.isNight ? t.border : const Color(0xFFD4C6CF),
+        dashColor: t.isNight ? t.border : const Color(0xFFE0CDC7),
         onTap: active ? null : () => _select(n),
         editor: GapEditor(
           key: ValueKey<int>(n),
@@ -699,7 +699,7 @@ class _ListeningAnswerSheetScreenState extends State<ListeningAnswerSheetScreen>
       mainAxisSize: MainAxisSize.min,
       spacing: 2,
       children: [
-        if (flagged) Icon(AppIcons.flag, size: 12, color: t.isNight ? kSheetFlag : const Color(0xFFC2185B)),
+        if (flagged) Icon(AppIcons.flag, size: 12, color: t.isNight ? kSheetFlag : const Color(0xFFD9503A)),
         Text(
           label,
           style: current ? style.copyWith(color: t.text, fontWeight: FontWeight.w700) : style,

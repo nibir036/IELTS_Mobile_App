@@ -7,10 +7,12 @@ import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
+import '../plan/plan_widgets.dart';
 import 'profile_sheet.dart';
 import 'widgets.dart';
 
-/// B2 · Dashboard — first-time empty state (before the diagnostic).
+/// B2 · Dashboard - first-time empty state (before the diagnostic).
 class DashboardEmptyScreen extends StatelessWidget {
   const DashboardEmptyScreen({super.key});
 
@@ -120,28 +122,15 @@ class FirstTimeDashboard extends StatelessWidget {
 
         // Hero: band starts here
         HeroCard(
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.fromLTRB(20, 18, 12, 20),
           radius: 32,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             spacing: 14,
             children: [
               Row(
-                spacing: 16,
+                spacing: 8,
                 children: [
-                  DashedRing(
-                    color: t.heroText.withValues(alpha: 0.35),
-                    size: 96,
-                    stroke: 8,
-                    child: Text(
-                      '–.–',
-                      style: TextStyle(
-                        fontSize: 28,
-                        fontWeight: FontWeight.w300,
-                        color: t.heroText,
-                      ),
-                    ),
-                  ),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -152,6 +141,7 @@ class FirstTimeDashboard extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 20,
                             height: 1.2,
+                            fontWeight: FontWeight.w600,
                             color: t.heroText,
                           ),
                         ),
@@ -166,21 +156,25 @@ class FirstTimeDashboard extends StatelessWidget {
                       ],
                     ),
                   ),
+                  const Nexi(NexiPose.wave, height: 110),
                 ],
               ),
-              PrimaryButton(
-                label: 'Take the $diagnosticMinutes-min diagnostic',
-                trailing: AppIcons.forward,
-                height: 52,
-                radius: 999,
-                fontSize: 15,
-                bg: kInk,
-                fg: const Color(0xFFF6ECC8),
-                onTap: () => context.push(Routes.diagnosticTest),
+              Padding(
+                padding: const EdgeInsets.only(right: 8),
+                child: PrimaryButton(
+                  label: 'Take the $diagnosticMinutes-min diagnostic',
+                  trailing: AppIcons.forward,
+                  height: 52,
+                  radius: 999,
+                  fontSize: 15,
+                  onTap: () => context.push(Routes.diagnosticTest),
+                ),
               ),
             ],
           ),
         ),
+
+        const TodayPlanCard(),
 
         // Getting started checklist
         AppCard(
@@ -244,10 +238,10 @@ class _StepRow extends StatelessWidget {
         width: 26,
         height: 26,
         decoration: BoxDecoration(
-          color: t.primary,
+          gradient: kPeachGradient,
           borderRadius: BorderRadius.circular(9),
         ),
-        child: Icon(AppIcons.check, size: 16, color: t.onPrimary),
+        child: const Icon(AppIcons.check, size: 16, color: kOnPeach),
       );
     } else {
       box = Container(

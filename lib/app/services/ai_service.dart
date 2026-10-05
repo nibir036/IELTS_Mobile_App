@@ -33,10 +33,10 @@ class SpeakingSegment {
 }
 
 /// Real AI through the API server (writing: Gemini; speaking: the speaking
-/// service — Groq Whisper + RunPod + Groq LLM) with a graceful fallback.
+/// service - Groq Whisper + RunPod + Groq LLM) with a graceful fallback.
 ///
 /// Every method returns `null` when no backend is configured or the call
-/// fails — the caller then uses its built-in demo scorer. [lastError] holds
+/// fails - the caller then uses its built-in demo scorer. [lastError] holds
 /// the last failure message (for a small "offline scoring" hint in the UI).
 ///
 /// All successful results carry `'source': 'ai'`.
@@ -49,12 +49,17 @@ class AiService {
   /// 'network', …).
   static String lastErrorCode = '';
 
+  /// Called with the error code after a failed request (notifications use
+  /// 'quota_reached').
+  static void Function(String code)? onFailure;
+
   /// AI scoring needs the API server and a signed-in account.
   static bool get available => AppConfig.hasApi && ApiClient.signedIn;
 
   static void _fail(Object e) {
     lastError = '$e';
     lastErrorCode = e is ApiException ? e.code : '';
+    onFailure?.call(lastErrorCode);
   }
 
   static Future<Map<String, dynamic>?> _post(
@@ -219,6 +224,7 @@ class AiService {
       }
       lastError = '${r['message'] ?? 'Speaking evaluation failed. Please try again.'}';
       lastErrorCode = status;
+      onFailure?.call(lastErrorCode);
       return null;
     }
     lastError = 'The evaluation is taking longer than usual. It will appear in your history when it is ready.';
@@ -242,7 +248,7 @@ class AiService {
 
   /// AI speaking partner (community rooms). [history] is the conversation so
   /// far, oldest first: `{'role': 'partner' | 'student', 'content': text}`.
-  /// → {source, feedback, suggestion, question} — short feedback on the
+  /// → {source, feedback, suggestion, question} - short feedback on the
   /// student's last answer and one Part 3 style follow-up question.
   static Future<Map<String, dynamic>?> partnerReply({
     required List<Map<String, String>> history,

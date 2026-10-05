@@ -12,16 +12,6 @@ import 'task1_chart.dart';
 /// Day / Night pick for the rare canvas hues that have no token.
 Color wc(AppTokens t, int day, int night) => Color(t.isNight ? night : day);
 
-/// Diagonal two-stop gradient used by the pastel Day cards.
-LinearGradient wGradient(int a, int b) => LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
-      colors: [Color(a), Color(b)],
-    );
-
-/// Solid "gradient" (for HeroCard with a flat Day colour).
-LinearGradient wSolid(int c) => LinearGradient(colors: [Color(c), Color(c)]);
-
 /// 125 → "02:05".
 String mmss(int seconds) {
   final s = seconds < 0 ? 0 : seconds;
@@ -100,7 +90,7 @@ class WSegmented extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
-        color: wc(t, 0xFFEDE3E9, 0xFF151515),
+        color: wc(t, 0xFFF2E6E2, 0xFF151515),
         borderRadius: BorderRadius.circular(18),
       ),
       child: Row(
@@ -109,7 +99,7 @@ class WSegmented extends StatelessWidget {
             Expanded(
               child: Material(
                 color: i == index
-                    ? wc(t, 0xFFFFFFFF, 0xFF1F1F1F)
+                    ? wc(t, 0xFFFFFFFF, 0xFF1C2030)
                     : Colors.transparent,
                 borderRadius: BorderRadius.circular(14),
                 clipBehavior: Clip.antiAlias,

@@ -5,7 +5,7 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/kit.dart';
 import 'widgets.dart';
 
-/// H10 · Scoring Criteria — how each skill is scored (tabs: Listening,
+/// H10 · Scoring Criteria - how each skill is scored (tabs: Listening,
 /// Reading, Writing, Speaking, Overall). Each tab is a list of blocks from
 /// resources.json → scoring.skills[].blocks:
 ///   table    {title, columns, rows, note?}

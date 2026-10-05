@@ -23,9 +23,11 @@ class SentenceBuilderScreen extends StatefulWidget {
 }
 
 class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
-  late final Map<String, dynamic> _data =
-      WritingContent.all.m('sentenceBuilder');
-  late final List<Map<String, dynamic>> _drills = _data.l('drills');
+  /// Category title + set id of what's being practised (bank set, or the old
+  /// demo set as a fallback).
+  Map<String, dynamic> _data = <String, dynamic>{};
+  List<Map<String, dynamic>> _drills = <Map<String, dynamic>>[];
+  SentenceSetRef? _set;
   int _drill = 0;
   List<String> _placed = <String>[];
   List<String> _bank = <String>[];
@@ -35,25 +37,39 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
   bool _inited = false;
 
   @override
-  void initState() {
-    super.initState();
-    _load();
-  }
-
-  @override
   void didChangeDependencies() {
     super.didChangeDependencies();
     if (_inited) return;
     _inited = true;
-    final id = context.routeArgs['attemptId'];
+    final args = context.routeArgs;
+    var setId = args['set'] is String ? args['set'] as String : '';
+    final id = args['attemptId'];
     if (id is String) {
       final a = Store.I.attemptById(id);
-      if (a != null && a.kind == 'drill') _result = a;
+      if (a != null && a.kind == 'drill') {
+        _result = a;
+        setId = a.refId;
+      }
     }
+    final ref = SentenceBank.find(setId);
+    if (ref != null) {
+      _set = ref;
+      _drills = ref.drills;
+      _data = <String, dynamic>{'category': ref.title, 'setId': ref.id};
+    } else {
+      _data = WritingContent.all.m('sentenceBuilder');
+      _drills = _data.l('drills');
+    }
+    _load();
   }
 
   Map<String, dynamic> get _current =>
       _drills.isEmpty ? <String, dynamic>{} : _drills[_drill];
+
+  String get _instruction {
+    final s = _current.s('instruction');
+    return s.isNotEmpty ? s : SentenceBank.instruction;
+  }
 
   void _load() {
     final d = _current;
@@ -87,7 +103,7 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
     final ok = _placed.join(' ') == answer.join(' ');
     _firstTry.putIfAbsent(id, () => ok);
     if (!ok) {
-      context.toast('Not quite — try a different order');
+      context.toast('Not quite - try a different order');
       return;
     }
     if (_drill + 1 < _drills.length) {
@@ -141,6 +157,7 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
     final t = context.tk;
     final score = a.score ?? 0;
     final total = a.total ?? _drills.length;
+    final next = _set == null ? null : SentenceBank.next(_set!.id);
     return AppScreen(
       padding: const EdgeInsets.fromLTRB(20, 12, 20, 16),
       gap: 16,
@@ -150,29 +167,33 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
         children: [
           Expanded(
             child: WFlatButton(
-              label: 'Writing home',
+              label: next == null ? 'All sets' : 'Practise again',
               bg: t.surface,
               fg: t.text,
-              onTap: () => context.replace(Routes.writingSelector),
+              onTap: next == null
+                  ? () => context.replace(Routes.sentenceBuilder)
+                  : _restart,
             ),
           ),
           Expanded(
             child: PrimaryButton(
-              label: 'Practice again',
+              label: next == null ? 'Practise again' : 'Next set',
               height: 56,
               radius: 18,
               fontSize: 15,
-              onTap: _restart,
+              trailing: next == null ? null : AppIcons.forward,
+              onTap: next == null
+                  ? _restart
+                  : () => context.replace(Routes.sentenceBuilder, args: <String, dynamic>{'set': next.id}),
             ),
           ),
         ],
       ),
       children: [
-        WHeader(title: 'Writing Booster'),
+        WHeader(title: 'Sentence Builder'),
         HeroCard(
           radius: 28,
           padding: const EdgeInsets.all(20),
-          gradient: t.isNight ? null : wGradient(0xFFD6D8FA, 0xFFEEEFFD),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             spacing: 6,
@@ -299,7 +320,7 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
               child: ProgressBar(
                 value: number / total,
                 height: 8,
-                track: wc(t, 0xFFE6DAE1, 0xFF151515),
+                track: wc(t, 0xFFEEDDD8, 0xFF151515),
               ),
             ),
             Text(
@@ -317,7 +338,7 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
               style: TextStyle(fontSize: 13, color: t.textMuted),
             ),
             Text(
-              d.s('instruction'),
+              _instruction,
               style: const TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.w500,
@@ -330,7 +351,6 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
         HeroCard(
           radius: 26,
           padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
-          gradient: t.isNight ? null : wGradient(0xFFD6D8FA, 0xFFEEEFFD),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             spacing: 10,
@@ -342,16 +362,15 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
                 children: [
                   WPill(
                     'Use: ${d.s('connector')}',
-                    bg: const Color(0xFF151515),
-                    fg: const Color(0xFFFFFFFF),
+                    bg: t.peach,
+                    fg: kOnPeach,
+                    weight: FontWeight.w600,
                   ),
                   Text(
                     d.s('function'),
                     style: TextStyle(
                       fontSize: 12,
-                      color: t.isNight
-                          ? t.heroMuted
-                          : const Color(0xFF4F4A6B),
+                      color: t.heroMuted,
                     ),
                   ),
                 ],
@@ -365,9 +384,8 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
                       '${i + 1}',
                       style: TextStyle(
                         fontSize: 16,
-                        color: t.isNight
-                            ? t.heroMuted
-                            : const Color(0xFF4F4A6B),
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
                       ),
                     ),
                     Expanded(
@@ -382,7 +400,7 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
           ),
         ),
         DashedBox(
-          color: wc(t, 0xFFE3D6DE, 0xFF2B2B2B),
+          color: wc(t, 0xFFEBDAD4, 0xFF2A2E44),
           fill: t.surface,
           radius: 26,
           strokeWidth: 2,
@@ -412,10 +430,10 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
                         width: 96,
                         height: 44,
                         decoration: BoxDecoration(
-                          color: wc(t, 0xFFFDF1F5, 0xFF1F1F1F),
+                          color: wc(t, 0xFFFFF6F2, 0xFF1C2030),
                           borderRadius: BorderRadius.circular(14),
                           border: Border.all(
-                            color: wc(t, 0xFFF4B8CB, 0xFF5C2A20),
+                            color: wc(t, 0xFFFFB8A3, 0xFF3A4570),
                             width: 2,
                           ),
                         ),
@@ -425,7 +443,7 @@ class _SentenceBuilderScreenState extends State<SentenceBuilderScreen> {
                         width: 70,
                         height: 44,
                         radius: 14,
-                        color: wc(t, 0xFFD8CCD3, 0xFF2B2B2B),
+                        color: wc(t, 0xFFE3D2CC, 0xFF2A2E44),
                       ),
                 ],
               ),

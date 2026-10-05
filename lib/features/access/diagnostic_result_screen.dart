@@ -7,6 +7,7 @@ import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import 'diagnostic_data.dart';
 
 /// Diagnostic result: estimated overall band, per-skill bands against the
@@ -169,14 +170,27 @@ class _DiagnosticResultScreenState extends State<DiagnosticResultScreen> {
                 children: [
                   Expanded(
                     child: Text(
-                      'Estimated overall band',
-                      style: TextStyle(fontSize: 14, color: t.heroMuted),
+                      'Estimated overall band'.toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 11,
+                        letterSpacing: 1.1,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
+                      ),
                     ),
                   ),
                   Tag(Store.relativeDay(summary.date), tone: TagTone.hero),
                 ],
               ),
-              BigNumber(Store.formatBand(overall), size: 88, color: t.heroText),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Expanded(
+                    child: BigNumber(Store.formatBand(overall), size: 88, color: t.heroText),
+                  ),
+                  const Nexi(NexiPose.thumbs, height: 96),
+                ],
+              ),
               Text(
                 targetLine,
                 style: TextStyle(fontSize: 14, color: t.heroText),
@@ -244,7 +258,7 @@ class _DiagnosticResultScreenState extends State<DiagnosticResultScreen> {
                 ListRow(
                   divider: i > 0,
                   padding: const EdgeInsets.symmetric(vertical: 12),
-                  leading: LetterBadge('${i + 1}', size: 34, radius: 11),
+                  leading: LetterBadge('${i + 1}', size: 34, radius: 11, bg: t.peach, fg: kOnPeach),
                   title: steps[i].s('title'),
                   subtitle: steps[i].s('subtitle'),
                   trailing: Icon(AppIcons.chevronRight, size: 20, color: t.textMuted),
@@ -265,7 +279,7 @@ class _DiagnosticResultScreenState extends State<DiagnosticResultScreen> {
             if (summary.attempts[s] != null) _ReviewCard(attempt: summary.attempts[s]!),
         if (offline)
           Text(
-            'Writing / speaking estimated offline — AI scoring was unavailable.',
+            'Writing / speaking estimated offline - AI scoring was unavailable.',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 12, color: t.textMuted),
           ),

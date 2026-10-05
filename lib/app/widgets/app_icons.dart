@@ -17,6 +17,7 @@ class AppIcons {
   static const chevronUp = Icons.keyboard_arrow_up_rounded;
   static const close = Icons.close_rounded;
   static const check = Icons.check_rounded;
+  static const cancel = Icons.cancel_rounded;
   static const more = Icons.more_horiz_rounded;
   static const moreVert = Icons.more_vert_rounded;
   static const add = Icons.add_rounded;

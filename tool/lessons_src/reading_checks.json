@@ -1,0 +1,228 @@
+{
+  "skills_1": {
+    "intro": {"en": "The five core skills: skimming, scanning, paraphrase, reading for detail and following the writer's view.", "bn": "পাঁচটি মূল skill: skimming, scanning, paraphrase, detail পড়া আর writer-এর মত বোঝা।"},
+    "learned": [
+      {"en": "Skim for the big picture, scan for specific words", "bn": "বড় ছবির জন্য skim, নির্দিষ্ট শব্দের জন্য scan"},
+      {"en": "Questions paraphrase the passage", "bn": "Question passage-কে paraphrase করে"},
+      {"en": "Small qualifiers can change the meaning", "bn": "ছোট qualifier অর্থ বদলে দিতে পারে"},
+      {"en": "Tell other people's views from the writer's own", "bn": "অন্যদের মত আর writer-এর নিজের মত আলাদা করুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "While skimming, what should you NOT stop at yet?", "bn": "Skimming-এর সময় কোথায় এখনো থামবেন না?"},
+        "options": [
+          {"en": "The title and any subtitle", "bn": "Title আর subtitle"},
+          {"en": "The first sentence of each paragraph", "bn": "প্রতিটি paragraph-এর প্রথম sentence"},
+          {"en": "Numbers, names and examples", "bn": "সংখ্যা, নাম আর উদাহরণ"}
+        ],
+        "answer": 2,
+        "explain": {"en": "Skimming gives the topic and structure. Numbers, names and examples are for scanning later.", "bn": "Skimming দেয় topic আর structure। সংখ্যা, নাম আর উদাহরণ পরে scanning-এর জন্য।"}
+      },
+      {
+        "type": "choice",
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The question says “not enough”. Which phrase might the passage use instead?", "bn": "Question-এ আছে “not enough”। Passage এর বদলে কোন phrase ব্যবহার করতে পারে?"},
+        "options": [{"en": "a shortage of"}, {"en": "a surge in"}, {"en": "owing to"}],
+        "answer": 0,
+        "explain": {"en": "“A shortage of” paraphrases “not enough”. “A surge in” means an increase, and “owing to” means because of.", "bn": "“A shortage of” হলো “not enough”-এর paraphrase। “A surge in” মানে বৃদ্ধি, আর “owing to” মানে because of।"}
+      },
+      {
+        "type": "choice",
+        "after": 4,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Statement: “All of the early settlers were farmers.” What is the answer?", "bn": "Statement: “All of the early settlers were farmers.” উত্তর কী?"},
+        "passage": "Most of the early settlers were farmers.",
+        "options": [{"en": "TRUE"}, {"en": "FALSE"}, {"en": "NOT GIVEN"}],
+        "answer": 1,
+        "explain": {"en": "“Most” is not “all”. One small qualifier changes the meaning completely, so read the answer sentence slowly.", "bn": "“Most” মানে “all” নয়। একটা ছোট qualifier অর্থ পুরো বদলে দেয়, তাই answer sentence ধীরে পড়ুন।"}
+      }
+    ]
+  },
+  "time_1": {
+    "intro": {"en": "A 60-minute plan: how long to spend on each passage, which questions to do first, and what to do when you're stuck.", "bn": "৬০ মিনিটের plan: কোন passage-এ কত সময়, কোন question আগে, আর আটকে গেলে কী করবেন।"},
+    "learned": [
+      {"en": "Time per passage: 17–18, 20, 22–23 minutes", "bn": "প্রতি passage-এ সময়: ১৭–১৮, ২০, ২২–২৩ মিনিট"},
+      {"en": "Most answers come in passage order", "bn": "বেশিরভাগ উত্তর passage-এর order মেনে আসে"},
+      {"en": "Stuck for 1.5–2 minutes? Mark it and move on", "bn": "১.৫–২ মিনিট আটকে? Mark করে এগিয়ে যান"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "How long should you plan to spend on Passage 3?", "bn": "Passage 3-এ কত সময় রাখার plan করবেন?"},
+        "options": [{"en": "17–18 minutes"}, {"en": "20 minutes"}, {"en": "22–23 minutes"}],
+        "answer": 2,
+        "explain": {"en": "Passage 3 is the hardest and argument-based, so it gets 22–23 minutes. Save time on Passage 1, the easiest.", "bn": "Passage 3 সবচেয়ে কঠিন আর যুক্তিনির্ভর, তাই এতে ২২–২৩ মিনিট। সময় বাঁচান সবচেয়ে সহজ Passage 1-এ।"}
+      },
+      {
+        "type": "choice",
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In a TRUE / FALSE / NOT GIVEN set, where is the answer to question 5 likely to be?", "bn": "TRUE / FALSE / NOT GIVEN set-এ question 5-এর উত্তর কোথায় থাকার কথা?"},
+        "options": [
+          {"en": "Anywhere in the passage", "bn": "Passage-এর যেকোনো জায়গায়"},
+          {"en": "Between the answers to questions 4 and 6", "bn": "Question 4 আর 6-এর উত্তরের মাঝখানে"}
+        ],
+        "answer": 1,
+        "explain": {"en": "For most types, including T/F/NG, answers come in passage order - so question 5 lies between 4 and 6.", "bn": "T/F/NG সহ বেশিরভাগ type-এ উত্তর passage-এর order মেনে আসে - তাই question 5 থাকে 4 আর 6-এর মাঝে।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You've been stuck on one question for over 2 minutes. What should you do?", "bn": "একটা question-এ ২ মিনিটের বেশি আটকে আছেন। কী করবেন?"},
+        "options": [
+          {"en": "Keep going until you find it", "bn": "খুঁজে না পাওয়া পর্যন্ত চালিয়ে যাওয়া"},
+          {"en": "Mark it, move on, and come back at the end if there is time", "bn": "Mark করে এগিয়ে যাওয়া, সময় থাকলে শেষে ফিরে আসা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "After 1.5–2 minutes, mark it and move on. Don't leave it blank - write your best possible answer.", "bn": "১.৫–২ মিনিট পর mark করে এগিয়ে যান। খালি রাখবেন না - সম্ভাব্য সেরা উত্তরটা লিখে দিন।"}
+      }
+    ]
+  },
+  "types_1": {
+    "intro": {"en": "An overview of the 14 Reading question types: which follow passage order and what skill each one tests.", "bn": "Reading-এর ১৪টি question type এক নজরে: কোনগুলো passage-এর order মানে, আর প্রতিটি কোন skill যাচাই করে।"},
+    "learned": [
+      {"en": "There are 14 question types", "bn": "Question type ১৪টি"},
+      {"en": "Which types don't follow passage order", "bn": "কোন type-গুলো passage-এর order মানে না"},
+      {"en": "The main skill each type tests", "bn": "প্রতিটি type-এর মূল skill"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which question type does NOT give its answers in passage order?", "bn": "কোন question type-এর উত্তর passage-এর order মেনে আসে না?"},
+        "options": [{"en": "Sentence Completion"}, {"en": "Matching Information"}, {"en": "Short Answer"}],
+        "answer": 1,
+        "explain": {"en": "Matching Information (and Matching Features) answers don't follow passage order. Sentence Completion and Short Answer do.", "bn": "Matching Information (আর Matching Features)-এর উত্তর passage-এর order মানে না। Sentence Completion আর Short Answer মানে।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is the main skill tested by Yes / No / Not Given?", "bn": "Yes / No / Not Given-এর মূল skill কী?"},
+        "options": [
+          {"en": "Scanning", "bn": "Scanning"},
+          {"en": "The writer's view", "bn": "Writer-এর মত"},
+          {"en": "Understanding a process", "bn": "একটা process বোঝা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Yes / No / Not Given tests the writer's view. True / False / Not Given checks information.", "bn": "Yes / No / Not Given যাচাই করে writer-এর মত। True / False / Not Given যাচাই করে তথ্য।"}
+      }
+    ]
+  },
+  "mistakes_1": {
+    "intro": {"en": "The eight mistakes that cost the most marks in Reading - and how to avoid them.", "bn": "Reading-এ সবচেয়ে বেশি নম্বর কাটে যে আটটি ভুলে - আর সেগুলো কীভাবে এড়াবেন।"},
+    "learned": [
+      {"en": "An exact word match is often a trap", "bn": "হুবহু শব্দ মিলে গেলে প্রায়ই সেটা trap"},
+      {"en": "Only what the passage says counts", "bn": "শুধু passage যা বলে সেটাই গণ্য"},
+      {"en": "FALSE vs NOT GIVEN", "bn": "FALSE বনাম NOT GIVEN"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "An option repeats the passage's words exactly. What is it often?", "bn": "একটা option passage-এর শব্দ হুবহু repeat করছে। এটা প্রায়ই কী?"},
+        "options": [
+          {"en": "The correct answer", "bn": "সঠিক উত্তর"},
+          {"en": "A trap", "bn": "একটা trap"}
+        ],
+        "answer": 1,
+        "explain": {"en": "An exact word match is often a trap - the correct answer is usually paraphrased.", "bn": "হুবহু শব্দ মিলে যাওয়া প্রায়ই trap - সঠিক উত্তর সাধারণত paraphrase করা থাকে।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "A statement is true in real life, but the passage says nothing about it. What is the answer?", "bn": "একটা statement বাস্তবে সত্য, কিন্তু passage এ নিয়ে কিছুই বলে না। উত্তর কী?"},
+        "options": [{"en": "TRUE"}, {"en": "FALSE"}, {"en": "NOT GIVEN"}],
+        "answer": 2,
+        "explain": {"en": "Only what the passage says counts. If it says nothing, it's NOT GIVEN; if it says the opposite, it's FALSE.", "bn": "শুধু passage যা বলে সেটাই গণ্য। কিছু না বললে NOT GIVEN; উল্টো বললে FALSE।"}
+      }
+    ]
+  },
+  "plan_1": {
+    "intro": {"en": "A 4-week plan with 45–60 minutes a day, and what to do after every practice set.", "bn": "দিনে ৪৫–৬০ মিনিটের একটা ৪ সপ্তাহের plan, আর প্রতিটি practice set-এর পর কী করবেন।"},
+    "learned": [
+      {"en": "Weeks 1–2: base and every type", "bn": "সপ্তাহ ১–২: ভিত্তি আর প্রতিটি type"},
+      {"en": "Weeks 3–4: the clock and full tests", "bn": "সপ্তাহ ৩–৪: সময় ধরে আর full test"},
+      {"en": "Review every wrong answer by its cause", "bn": "প্রতিটি ভুল উত্তর কারণ ধরে review করুন"},
+      {"en": "Accuracy first, speed comes later", "bn": "আগে accuracy, speed পরে আসে"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In which week does the plan start practising against the clock?", "bn": "Plan-এর কোন সপ্তাহে সময় ধরে practice শুরু হয়?"},
+        "options": [{"en": "Week 1", "bn": "সপ্তাহ ১"}, {"en": "Week 2", "bn": "সপ্তাহ ২"}, {"en": "Week 3", "bn": "সপ্তাহ ৩"}],
+        "answer": 2,
+        "explain": {"en": "Week 3: 2 medium or hard sets a day, 20 minutes each, and 1 full Reading test at the end of the week.", "bn": "সপ্তাহ ৩: দিনে ২টি medium বা hard set, প্রতিটি ২০ মিনিট, আর সপ্তাহ শেষে ১টি full Reading test।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What should you focus on during the first two weeks?", "bn": "প্রথম দুই সপ্তাহ কীসে মন দেবেন?"},
+        "options": [
+          {"en": "Accuracy only", "bn": "শুধু accuracy"},
+          {"en": "Your band score", "bn": "আপনার band score"},
+          {"en": "Speed", "bn": "Speed"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Forget the band score at first and focus only on accuracy. Once you read accurately, speed comes by itself.", "bn": "শুরুতে band score ভুলে শুধু accuracy-তে মন দিন। নির্ভুলভাবে পড়তে পারলে speed নিজে থেকেই আসে।"}
+      }
+    ]
+  },
+  "testday_1": {
+    "intro": {"en": "Practical tips for the day of the test, on paper and on computer.", "bn": "Test-এর দিনের জন্য কাজের tips - paper আর computer দুটোতেই।"},
+    "learned": [
+      {"en": "Write down a finish time for each passage", "bn": "প্রতিটি passage শেষ করার সময় লিখে রাখুন"},
+      {"en": "Read every instruction, especially the word limit", "bn": "প্রতিটি instruction পড়ুন, বিশেষ করে word limit"},
+      {"en": "Leave no question blank", "bn": "কোনো question খালি রাখবেন না"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You start at 10:00. Using the guide's example, when should Passage 1 be finished?", "bn": "আপনি 10:00-এ শুরু করলেন। Guide-এর উদাহরণ অনুযায়ী Passage 1 কখন শেষ হওয়া উচিত?"},
+        "options": [{"en": "10:18"}, {"en": "10:20"}, {"en": "10:30"}],
+        "answer": 0,
+        "explain": {"en": "Starting at 10:00, the example finish times are 10:18, 10:38 and 11:00 - one for each passage.", "bn": "10:00-এ শুরু করলে উদাহরণের সময়গুলো হলো 10:18, 10:38 আর 11:00 - প্রতিটি passage-এর জন্য একটি।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Two minutes are left and three questions are unanswered. What should you do?", "bn": "আর ২ মিনিট বাকি, ৩টি question-এর উত্তর দেওয়া হয়নি। কী করবেন?"},
+        "options": [
+          {"en": "Leave them blank", "bn": "খালি রেখে দেওয়া"},
+          {"en": "Write at least a guess for each", "bn": "প্রতিটিতে অন্তত একটা guess লেখা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Leave no question blank. In the last 2 minutes, write at least a guess for any questions left.", "bn": "কোনো question খালি রাখবেন না। শেষ ২ মিনিটে বাকি থাকা প্রতিটি question-এ অন্তত একটা guess লিখে দিন।"}
+      }
+    ]
+  },
+  "intro_1": {
+    "intro": {"en": "How this guide is organised and the best way to use it with your practice.", "bn": "এই guide কীভাবে সাজানো, আর practice-এর সাথে এটা কীভাবে সবচেয়ে ভালো ব্যবহার করবেন।"},
+    "learned": [
+      {"en": "The guide's three parts", "bn": "Guide-এর তিনটি ভাগ"},
+      {"en": "Read a type's lesson right before practising it", "bn": "কোনো type practice করার ঠিক আগে তার lesson পড়ুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "After reading up to Time management, what should you read before practising a question type?", "bn": "Time management পর্যন্ত পড়ার পর, কোনো question type practice করার আগে কী পড়বেন?"},
+        "options": [
+          {"en": "The whole guide again", "bn": "আবার পুরো guide"},
+          {"en": "Just that type's lesson", "bn": "শুধু ওই type-এর lesson"},
+          {"en": "Nothing - just start", "bn": "কিছুই না - সরাসরি শুরু"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Read just that type's lesson, then start a set of that type in the app.", "bn": "শুধু ওই type-এর lesson পড়ুন, তারপর app-এ ওই type-এর একটা set শুরু করুন।"}
+      }
+    ]
+  }
+}

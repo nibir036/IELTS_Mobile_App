@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'routes.dart';
 
+/// The app's root navigator (notification taps open screens through it).
+final GlobalKey<NavigatorState> appNavigatorKey = GlobalKey<NavigatorState>();
+
 /// Small navigation helpers so screens stay short.
 extension NavX on BuildContext {
   /// Push a named route. [args] is readable in the target with [routeArgs].

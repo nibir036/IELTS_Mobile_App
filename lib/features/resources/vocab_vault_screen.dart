@@ -648,14 +648,6 @@ class _WordOfDayCard extends StatelessWidget {
     return HeroCard(
       radius: 26,
       padding: const EdgeInsets.all(18),
-      gradient: t.isNight
-          ? null
-          : const LinearGradient(
-              begin: Alignment(-0.5, -0.87),
-              end: Alignment(0.5, 0.87),
-              stops: [0, 0.7],
-              colors: [Color(0xFFF7C6D6), Color(0xFFFBE7EE)],
-            ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         spacing: 8,
@@ -663,23 +655,11 @@ class _WordOfDayCard extends StatelessWidget {
           Row(
             children: [
               Expanded(
-                child: Align(
-                  alignment: Alignment.centerLeft,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                    decoration: BoxDecoration(
-                      color: t.isNight
-                          ? ResPalette.ink.withValues(alpha: 0.08)
-                          : ResPalette.white.withValues(alpha: 0.7),
-                      borderRadius: BorderRadius.circular(999),
-                    ),
-                    child: Text(
-                      'Word of the day',
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                      style: TextStyle(fontSize: 12, color: t.heroText),
-                    ),
-                  ),
+                child: Text(
+                  'Word of the day'.toUpperCase(),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
                 ),
               ),
               const SizedBox(width: 8),
@@ -688,8 +668,8 @@ class _WordOfDayCard extends StatelessWidget {
                 size: 40,
                 radius: 14,
                 iconSize: 18,
-                bg: t.isNight ? ResPalette.creamChip : ResPalette.white,
-                fg: ResPalette.ink,
+                bg: t.heroChip,
+                fg: t.heroText,
               ),
               const SizedBox(width: 6),
               IconBox(
@@ -698,8 +678,8 @@ class _WordOfDayCard extends StatelessWidget {
                 size: 40,
                 radius: 14,
                 iconSize: 18,
-                bg: ResPalette.ink,
-                fg: ResPalette.white,
+                bg: saved ? t.peach : t.heroChip,
+                fg: saved ? kOnPeach : t.heroText,
                 onTap: onSave,
               ),
             ],

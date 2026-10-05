@@ -175,7 +175,7 @@ class Content {
   static List<Map<String, dynamic>> get listeningDemoTests => _root.m('listening').l('tests');
 
   /// The parts of the full tests (lt_w01_p1 …; one recording each, no
-  /// transcript — `transcriptStatus: 'none'`).
+  /// transcript - `transcriptStatus: 'none'`).
   static List<Map<String, dynamic>> get listeningFullTestParts => Demo.testsBank.m('listening').l('sets');
 
   /// Any listening set by id (bank `lb_…`, full-test part `lt_w…` or demo `ls_…`).

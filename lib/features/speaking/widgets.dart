@@ -12,7 +12,7 @@ import 'bank.dart';
 
 export 'bank.dart';
 
-/// Speaking content (assets/demo/parts/speaking.json) — same for everyone.
+/// Speaking content (assets/demo/parts/speaking.json) - same for everyone.
 Map<String, dynamic> speakingData() => Demo.section('speaking');
 
 // ── per-user keys (Store kv) ────────────────────────────────────────────────
@@ -702,7 +702,7 @@ class SpeakingProcessingOverlay extends StatelessWidget {
                 style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
               ),
               Text(
-                'Keep this screen open — it usually takes under a minute.',
+                'Keep this screen open - it usually takes under a minute.',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 13, height: 1.4, color: t.textMuted),
               ),

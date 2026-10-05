@@ -59,7 +59,7 @@ class _PhraseListScreenState extends State<PhraseListScreen> {
   String get _title => _topicVocab ? 'Topic Vocabulary' : (_idioms ? 'Idioms' : 'Phrasal Verbs');
   String get _noun => _topicVocab ? 'terms' : (_idioms ? 'idioms' : 'phrasal verbs');
 
-  /// First letters present (A–Z) — the bank lists are browsed by letter.
+  /// First letters present (A–Z) - the bank lists are browsed by letter.
   List<String> get _letters {
     final out = <String>{};
     for (final p in _items) {
@@ -380,8 +380,8 @@ class _PhraseListScreenState extends State<PhraseListScreen> {
             spacing: 8,
             children: [
               Text(
-                'Which ${_idioms ? 'idiom' : 'phrasal verb'} means…',
-                style: TextStyle(fontSize: 13, color: t.heroMuted),
+                'Which ${_idioms ? 'idiom' : 'phrasal verb'} means…'.toUpperCase(),
+                style: TextStyle(fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
               ),
               Text(
                 item.s('meaning'),
@@ -471,13 +471,13 @@ class _PhraseListScreenState extends State<PhraseListScreen> {
             spacing: 6,
             children: [
               Text(
-                'Score',
-                style: TextStyle(fontSize: 13, color: t.heroMuted),
+                'Score'.toUpperCase(),
+                style: TextStyle(fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
               ),
               BigNumber('$_score/$total', color: t.heroText),
               Text(
                 _score == total
-                    ? 'Perfect round — every meaning matched.'
+                    ? 'Perfect round - every meaning matched.'
                     : '${missed.length} to review. Saved to your vocab history.',
                 style: TextStyle(fontSize: 14, color: t.heroText),
               ),

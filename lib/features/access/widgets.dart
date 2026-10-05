@@ -30,7 +30,7 @@ class StepDots extends StatelessWidget {
             decoration: BoxDecoration(
               color: i < filled
                   ? t.primary
-                  : (t.isNight ? t.surface : const Color(0xFFE3D6DE)),
+                  : (t.isNight ? t.surface : const Color(0xFFEBDAD4)),
               borderRadius: BorderRadius.circular(3),
             ),
           ),

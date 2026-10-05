@@ -1,0 +1,966 @@
+{
+  "sp_fluency_coherence_1": {
+    "intro": {"en": "Fluency is flow, not speed: what breaks it, how to pause naturally and when to correct yourself.", "bn": "Fluency মানে flow, গতি নয়: কী এটা ভাঙে, কীভাবে স্বাভাবিকভাবে থামবেন, আর কখন নিজেকে শোধরাবেন।"},
+    "learned": [
+      {"en": "The three things that break fluency", "bn": "যে তিনটি জিনিস fluency ভাঙে"},
+      {"en": "Filler phrases for natural pauses", "bn": "স্বাভাবিক বিরতির জন্য filler phrase"},
+      {"en": "When to self-correct - and when to keep going", "bn": "কখন নিজেকে শোধরাবেন - আর কখন এগিয়ে যাবেন"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "According to the guide, what does being fluent really mean?", "bn": "Guide অনুযায়ী, fluent হওয়া আসলে কী?"},
+        "options": [
+          {"en": "Speaking as fast as possible", "bn": "যত দ্রুত সম্ভব বলা"},
+          {"en": "Speaking at a natural pace, without stopping or slurring", "bn": "না থেমে, অস্পষ্ট না করে, স্বাভাবিক গতিতে বলা"},
+          {"en": "Using as many difficult words as possible", "bn": "যত বেশি সম্ভব কঠিন শব্দ ব্যবহার করা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Fluency is flow - the words come one after another so the listener never has to wait. Speaking too fast makes pronunciation slurred and grammar fall apart.", "bn": "Fluency মানে flow - শব্দগুলো একের পর এক আসে, শ্রোতাকে অপেক্ষা করতে হয় না। খুব দ্রুত বললে উচ্চারণ অস্পষ্ট হয় আর grammar ভেঙে পড়ে।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "How often should you use a filler phrase like “That's an interesting question”?", "bn": "“That's an interesting question”-এর মতো filler phrase কত ঘন ঘন ব্যবহার করবেন?"},
+        "options": [
+          {"en": "At the start of every answer", "bn": "প্রতিটা উত্তরের শুরুতে"},
+          {"en": "About once every 3–4 answers, varying the phrases", "bn": "প্রায় প্রতি ৩-৪টি উত্তরে একবার, phrase বদলে বদলে"},
+          {"en": "Never - pauses should be silent", "bn": "কখনো না - বিরতি নীরব হওয়া উচিত"}
+        ],
+        "answer": 1,
+        "explain": {"en": "A filler phrase is an umbrella - open it when it rains. Used in every answer, the examiner realises it is a trick. Silent or “umm” pauses damage fluency.", "bn": "Filler phrase একটা ছাতার মতো - বৃষ্টি হলে খুলুন। প্রতিটা উত্তরে ব্যবহার করলে examiner বুঝে যান এটা শেখানো কৌশল। নীরব বা “umm” দিয়ে থামা fluency-র ক্ষতি করে।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You make a small grammar error (a missing -s) that doesn't change the meaning. What should you do?", "bn": "আপনি একটা ছোট grammar ভুল করলেন (একটা -s বাদ পড়েছে), যাতে অর্থ বদলায় না। কী করবেন?"},
+        "options": [
+          {"en": "Go back and correct it", "bn": "ফিরে গিয়ে শুধরে নেবেন"},
+          {"en": "Keep going", "bn": "এগিয়ে যাবেন"}
+        ],
+        "answer": 1,
+        "explain": {"en": "The examiner has heard the error anyway. Going back adds hesitation - two losses. Correct yourself briefly only when the mistake changes the meaning.", "bn": "Examiner ভুলটা এমনিতেই শুনে ফেলেছেন। ফিরে গেলে সাথে hesitation যোগ হয় - দুটো ক্ষতি। শুধু অর্থ বদলে গেলে সংক্ষেপে শুধরে নিন।"}
+      }
+    ]
+  },
+  "sp_fluency_coherence_2": {
+    "intro": {"en": "Make your speech go somewhere: the A.R.E structure and the right linking word for each job.", "bn": "আপনার কথাকে একটা দিকে নিয়ে যান: A.R.E structure, আর প্রতিটা কাজের জন্য ঠিক linking word।"},
+    "learned": [
+      {"en": "A.R.E: Answer – Reason – Example", "bn": "A.R.E: Answer – Reason – Example"},
+      {"en": "Conversational vs formal linking words", "bn": "Conversational বনাম formal linking word"},
+      {"en": "Turning a list into an argument", "bn": "তালিকাকে যুক্তিতে রূপ দেওয়া"},
+      {"en": "The danger of overusing linking words", "bn": "Linking word-এর অতিরিক্ত ব্যবহারের বিপদ"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In the A.R.E structure, what should your very first sentence do?", "bn": "A.R.E structure-এ আপনার একদম প্রথম বাক্যটা কী করবে?"},
+        "options": [
+          {"en": "Give an example", "bn": "একটা উদাহরণ দেবে"},
+          {"en": "Answer the question directly", "bn": "সরাসরি প্রশ্নের উত্তর দেবে"},
+          {"en": "Give background about the topic", "bn": "Topic-এর পটভূমি বলবে"}
+        ],
+        "answer": 1,
+        "explain": {"en": "A - Answer the question directly in your very first sentence. Then R - one or two reasons, and E - a concrete example or detail.", "bn": "A - প্রথম বাক্যেই সরাসরি উত্তর। তারপর R - এক-দুটো কারণ, আর E - একটা নির্দিষ্ট উদাহরণ বা detail।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You want to add a point. Which phrase does the guide list as conversational - more natural in Speaking?", "bn": "আপনি আরেকটা point যোগ করতে চান। Guide কোনটাকে conversational - Speaking-এ বেশি স্বাভাবিক - বলেছে?"},
+        "options": [
+          {"en": "Furthermore"},
+          {"en": "On top of that"},
+          {"en": "In addition"}
+        ],
+        "answer": 1,
+        "explain": {"en": "“Moreover”, “Furthermore” and “In addition” are the formal forms that belong mostly to Writing. Used too much in Speaking, you sound like you are reciting an essay.", "bn": "“Moreover”, “Furthermore”, “In addition” হলো formal রূপ - মূলত Writing-এর। Speaking-এ বেশি ব্যবহার করলে মনে হয় essay মুখস্থ বলছেন।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You start every sentence with “Moreover” or “Furthermore”. What does the examiner conclude?", "bn": "আপনি প্রতিটা বাক্য “Moreover” বা “Furthermore” দিয়ে শুরু করছেন। Examiner কী ধরে নেবেন?"},
+        "options": [
+          {"en": "That you have a wide range of linking words", "bn": "আপনার linking word-এর range অনেক"},
+          {"en": "That you have memorised a list - a sign of Band 6", "bn": "আপনি একটা তালিকা মুখস্থ করেছেন - Band 6-এর লক্ষণ"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Using too many linking words is a sign of Band 6. Use one only when you really need to show a relationship between two ideas.", "bn": "অতিরিক্ত linking word Band 6-এর লক্ষণ। দুটো idea-র মধ্যে সম্পর্ক দেখানো সত্যিই দরকার হলে তবেই ব্যবহার করুন।"}
+      }
+    ]
+  },
+  "sp_lexical_resource_1": {
+    "intro": {"en": "Lexical resource isn't about difficult words: swap all-purpose words for precise ones and paraphrase instead of echoing.", "bn": "Lexical resource মানে কঠিন শব্দ নয়: সব-কাজের শব্দের বদলে নির্ভুল শব্দ, আর প্রশ্ন ফিরিয়ে না দিয়ে paraphrase।"},
+    "learned": [
+      {"en": "The three things the examiner looks for in LR", "bn": "LR-এ examiner যে তিনটি জিনিস খোঁজেন"},
+      {"en": "Precise alternatives to good, bad, big and very", "bn": "good, bad, big, very-র নির্ভুল বিকল্প"},
+      {"en": "Paraphrasing instead of echoing the question", "bn": "প্রশ্ন ফিরিয়ে না দিয়ে paraphrase করা"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which is a precise alternative to “very tired”?", "bn": "“very tired”-এর নির্ভুল বিকল্প কোনটা?"},
+        "options": [
+          {"en": "exhausted"},
+          {"en": "very very tired"},
+          {"en": "a lot tired"}
+        ],
+        "answer": 0,
+        "explain": {"en": "“Very tired → exhausted”. All-purpose words aren't wrong, but they tell the examiner nothing; a precise word for the situation raises your LR band.", "bn": "“Very tired → exhausted”। সব-কাজের শব্দ ভুল নয়, কিন্তু examiner-কে কিছুই জানায় না; পরিস্থিতি অনুযায়ী নির্ভুল শব্দ আপনার LR band বাড়ায়।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Echo or paraphrase?", "bn": "Echo না paraphrase?"},
+        "prompt": {"en": "Q: “Is it important for children to play outside?” Which start shows Lexical Resource?", "bn": "প্রশ্ন: “Is it important for children to play outside?” কোন শুরুটা Lexical Resource দেখায়?"},
+        "options": [
+          {"en": "Yes, it is important for children to play outside because..."},
+          {"en": "Absolutely - I think getting kids out in the open air is essential..."}
+        ],
+        "answer": 1,
+        "explain": {"en": "Handing the question's words straight back (echoing) is a sign of Band 6. Changing the key words into your own shows LR and gives you a natural start.", "bn": "প্রশ্নের শব্দ হুবহু ফিরিয়ে দেওয়া (echoing) Band 6-এর লক্ষণ। Key word নিজের ভাষায় বদলালে LR দেখানো হয়, আর উত্তরের স্বাভাবিক শুরুও পাওয়া যায়।"}
+      }
+    ]
+  },
+  "sp_lexical_resource_2": {
+    "intro": {"en": "Natural word partners and everyday idiomatic phrases - and the rule for using them safely.", "bn": "স্বাভাবিক শব্দজোড়া (collocation) আর প্রতিদিনের idiomatic phrase - এবং নিরাপদে ব্যবহারের নিয়ম।"},
+    "learned": [
+      {"en": "Collocations that fix Bangla-to-English translation", "bn": "বাংলা থেকে সরাসরি অনুবাদের ভুল সারানো collocation"},
+      {"en": "Everyday idiomatic phrases, not proverbs", "bn": "প্রবাদ নয়, প্রতিদিনের idiomatic phrase"},
+      {"en": "No more than one idiom per answer", "bn": "প্রতি উত্তরে একটার বেশি idiom নয়"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which is the natural collocation?", "bn": "কোনটা স্বাভাবিক collocation?"},
+        "options": [
+          {"en": "strong rain"},
+          {"en": "heavy rain"},
+          {"en": "big rain"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Native speakers say “heavy rain” and “heavy traffic”, not “strong rain” or “big traffic”. Such errors often come from translating directly from Bangla.", "bn": "Native speaker-রা বলেন “heavy rain”, “heavy traffic” - “strong rain” বা “big traffic” নয়। এ ধরনের ভুল প্রায়ই বাংলা থেকে সরাসরি অনুবাদের ফল।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is the guide's rule for idiomatic phrases?", "bn": "Idiomatic phrase নিয়ে guide-এর নিয়ম কী?"},
+        "options": [
+          {"en": "Use as many as possible to impress the examiner", "bn": "Examiner-কে মুগ্ধ করতে যত বেশি সম্ভব"},
+          {"en": "No more than one per answer, and only one you've used many times", "bn": "প্রতি উত্তরে একটার বেশি নয়, আর শুধু যেটা আগে বহুবার ব্যবহার করেছেন"},
+          {"en": "Use proverbs like “Every cloud has a silver lining”", "bn": "“Every cloud has a silver lining”-এর মতো প্রবাদ ব্যবহার করুন"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Proverbs sound artificial in Speaking. Use everyday phrases, at most one per answer - an idiom in the wrong place lowers your LR.", "bn": "Speaking-এ প্রবাদ কৃত্রিম শোনায়। প্রতিদিনের phrase ব্যবহার করুন, প্রতি উত্তরে সর্বোচ্চ একটা - ভুল জায়গায় idiom আপনার LR কমিয়ে দেয়।"}
+      }
+    ]
+  },
+  "sp_grammatical_range_accuracy_1": {
+    "intro": {"en": "Balance range and accuracy: six structures worth mastering, which tense when, and ten mistakes from Bangla grammar.", "bn": "Range আর accuracy-র ভারসাম্য: আয়ত্ত করার মতো ছয়টি structure, কখন কোন tense, আর বাংলা grammar থেকে আসা দশটি ভুল।"},
+    "learned": [
+      {"en": "Range vs accuracy - and the practical rule", "bn": "Range বনাম accuracy - আর কাজের নিয়ম"},
+      {"en": "Six structures most useful in Speaking", "bn": "Speaking-এ সবচেয়ে কাজের ছয়টি structure"},
+      {"en": "Which tense to use when", "bn": "কখন কোন tense"},
+      {"en": "The 10 most common mistakes of Bangla speakers", "bn": "বাংলাভাষীদের সবচেয়ে সাধারণ ১০টি ভুল"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is the guide's strategy for grammatical range?", "bn": "Grammatical range-এর জন্য guide-এর strategy কী?"},
+        "options": [
+          {"en": "Make every sentence complex", "bn": "প্রতিটা বাক্য complex করা"},
+          {"en": "Master 4–5 complex structures well and use them again and again", "bn": "৪-৫টি complex structure ভালভাবে আয়ত্ত করে বারবার ব্যবহার করা"},
+          {"en": "Use only simple sentences to stay accurate", "bn": "নির্ভুল থাকতে শুধু simple sentence ব্যবহার করা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Only simple sentences keep you at 6 because of range; making every sentence complex costs accuracy. You don't need every structure - just a few, used well.", "bn": "শুধু simple sentence-এ range-এর কারণে ৬-এ আটকে যাবেন; সব বাক্য complex করলে accuracy হারাবেন। সব structure জানার দরকার নেই - কয়েকটা, ভালভাবে।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "“If I had more time, I'd definitely learn to play the guitar.” What does this conditional express?", "bn": "“If I had more time, I'd definitely learn to play the guitar.” - এই conditional কী প্রকাশ করে?"},
+        "options": [
+          {"en": "A general habit", "bn": "একটা সাধারণ অভ্যাস"},
+          {"en": "Imagination", "bn": "কল্পনা"},
+          {"en": "Regret about the past", "bn": "অতীত নিয়ে আফসোস"}
+        ],
+        "answer": 1,
+        "explain": {"en": "“If I had…, I'd…” is imagination - very useful in Part 3. “If I have…, I usually…” is a habit; “If I had known…, I would have…” is regret about the past.", "bn": "“If I had…, I'd…” হলো কল্পনা - Part 3-এ খুব কাজের। “If I have…, I usually…” অভ্যাস; “If I had known…, I would have…” অতীত নিয়ে আফসোস।"}
+      },
+      {
+        "after": 6,
+        "title": {"en": "Spot the correct one", "bn": "সঠিকটা চিনুন"},
+        "prompt": {"en": "Which sentence is correct?", "bn": "কোন বাক্যটি সঠিক?"},
+        "options": [
+          {"en": "I am living in Dhaka since 2015."},
+          {"en": "I have been living in Dhaka since 2015."}
+        ],
+        "answer": 1,
+        "explain": {"en": "“Since/for” with something still continuing needs the present perfect (continuous). This mistake comes from Bangla grammar, so it may not sound wrong to you.", "bn": "“Since/for” আর যা এখনো চলছে - তাতে present perfect (continuous) লাগে। ভুলটা বাংলা grammar থেকে আসে, তাই আমাদের কানে ভুল শোনায় না।"}
+      }
+    ]
+  },
+  "sp_pronunciation_accent_1": {
+    "intro": {"en": "Pronunciation is about clarity, not accent: difficult sounds, word stress, sentence rhythm and intonation.", "bn": "Pronunciation মানে স্পষ্টতা, accent নয়: কঠিন sound, word stress, sentence rhythm আর intonation।"},
+    "learned": [
+      {"en": "IELTS requires no particular accent", "bn": "IELTS কোনো নির্দিষ্ট accent চায় না"},
+      {"en": "Sounds that are difficult for Bangla speakers", "bn": "বাংলাভাষীদের জন্য কঠিন sound"},
+      {"en": "Word stress and sentence stress", "bn": "Word stress আর sentence stress"},
+      {"en": "Rising and falling intonation, and shadowing", "bn": "ওঠা-নামা intonation, আর shadowing"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What does the Pronunciation criterion measure?", "bn": "Pronunciation criterion কী মাপে?"},
+        "options": [
+          {"en": "How British or American your accent sounds", "bn": "আপনার accent কতটা British বা American শোনায়"},
+          {"en": "How easily the listener understands you", "bn": "শ্রোতা আপনাকে কত সহজে বোঝেন"}
+        ],
+        "answer": 1,
+        "explain": {"en": "IELTS does not require any particular accent. Even at Band 8 a first-language accent may be present, as long as it doesn't affect understanding. The goal is to be clear.", "bn": "IELTS কোনো নির্দিষ্ট accent চায় না। Band 8-এও মাতৃভাষার accent থাকতে পারে, যদি তা বোঝায় বাধা না দেয়। লক্ষ্য হলো স্পষ্ট হওয়া।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Word stress", "bn": "Word stress"},
+        "prompt": {"en": "Where is the stress in “develop”?", "bn": "“develop”-এ stress কোথায়?"},
+        "options": [
+          {"en": "DE-vel-op"},
+          {"en": "de-VEL-op"},
+          {"en": "de-vel-OP"}
+        ],
+        "answer": 1,
+        "explain": {"en": "It's de-VEL-op; “DE-velop” is a common mistake. If you stress the wrong syllable, the listener may not recognise the word even if the sounds are correct.", "bn": "সঠিক হলো de-VEL-op; “DE-velop” একটা সাধারণ ভুল। ভুল syllable-এ stress দিলে sound ঠিক থাকলেও শ্রোতা শব্দটা চিনতে নাও পারেন।"}
+      },
+      {
+        "after": 5,
+        "title": {"en": "Intonation", "bn": "Intonation"},
+        "prompt": {"en": "In a Yes/No question like “Do you like it?”, what does your tone do at the end?", "bn": "“Do you like it?”-এর মতো Yes/No প্রশ্নে শেষে আপনার স্বর কী করে?"},
+        "options": [
+          {"en": "It rises", "bn": "ওপরে ওঠে"},
+          {"en": "It falls", "bn": "নিচে নামে"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Yes/No questions rise at the end. Wh-questions and statements fall at the end.", "bn": "Yes/No প্রশ্নে শেষে স্বর ওপরে ওঠে। Wh-প্রশ্ন আর সাধারণ বাক্যে শেষে নামে।"}
+      }
+    ]
+  },
+  "sp_ch_2_1": {
+    "intro": {"en": "Test day from start to finish: warming up, the first minute in the room, behaviour during the test and leaving.", "bn": "শুরু থেকে শেষ পর্যন্ত test day: warm up, কক্ষে প্রথম মিনিট, test চলাকালীন আচরণ, আর বেরিয়ে আসা।"},
+    "learned": [
+      {"en": "Warm up in English before the test", "bn": "Test-এর আগে English-এ warm up"},
+      {"en": "The script of the first minute", "bn": "প্রথম মিনিটের script"},
+      {"en": "Eye contact, volume and asking for a repeat", "bn": "Eye contact, আওয়াজ, আর আবার শুনতে চাওয়া"},
+      {"en": "Ending the test calmly", "bn": "শান্তভাবে test শেষ করা"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What does the guide advise for the hour before the test?", "bn": "Test-এর আগের এক ঘণ্টার জন্য guide কী পরামর্শ দেয়?"},
+        "options": [
+          {"en": "Ask other candidates what questions came up", "bn": "অন্য পরীক্ষার্থীদের জিজ্ঞেস করা কী প্রশ্ন এসেছে"},
+          {"en": "Talk in English, not Bangla", "bn": "বাংলা নয়, English-এ কথা বলা"},
+          {"en": "Stay silent to save your voice", "bn": "গলা বাঁচাতে চুপ থাকা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Warm up in English - to yourself, a friend or on the phone - so the stiffness of the first two minutes goes away. Asking others about questions only increases nervousness.", "bn": "English-এ warm up করুন - নিজের সাথে, বন্ধুর সাথে বা ফোনে - তাতে প্রথম দুই মিনিটের জড়তা কেটে যায়। অন্যদের প্রশ্ন জিজ্ঞেস করলে শুধু নার্ভাসনেস বাড়ে।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You don't understand a question. What is completely normal to do?", "bn": "একটা প্রশ্ন বুঝতে পারেননি। কোনটা করা একদম স্বাভাবিক?"},
+        "options": [
+          {"en": "Ask once: “Sorry, could you repeat that, please?”", "bn": "একবার বলা: “Sorry, could you repeat that, please?”"},
+          {"en": "Ask the examiner what they think", "bn": "Examiner-কে জিজ্ঞেস করা তাঁর কী মত"},
+          {"en": "Stay silent until the next question", "bn": "পরের প্রশ্ন পর্যন্ত চুপ থাকা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Asking for a repeat once is completely normal. Don't ask the examiner questions - it's a one-way interview - and avoid repeated requests on easy Part 1 questions.", "bn": "একবার আবার শুনতে চাওয়া একদম স্বাভাবিক। Examiner-কে প্রশ্ন করবেন না - এটা একমুখী interview - আর সহজ Part 1 প্রশ্নে বারবার repeat চাইবেন না।"}
+      },
+      {
+        "after": 4,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The test is over. Should you ask the examiner how you did?", "bn": "Test শেষ। Examiner-কে কি জিজ্ঞেস করবেন কেমন করলেন?"},
+        "options": [
+          {"en": "Yes, it shows confidence", "bn": "হ্যাঁ, এতে আত্মবিশ্বাস দেখায়"},
+          {"en": "No - the examiner can't tell you", "bn": "না - examiner বলতে পারেন না"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Say “Thank you very much, have a good day”, stand up, straighten the chair and leave calmly. The examiner can't tell you how you did.", "bn": "“Thank you very much, have a good day” বলে উঠে দাঁড়ান, চেয়ার ঠিক করে শান্তভাবে বেরিয়ে যান। কেমন করলেন - examiner তা বলতে পারেন না।"}
+      }
+    ]
+  },
+  "sp_10_speaking_tips_1": {
+    "intro": {"en": "Tips 1–5: daily pronunciation, extended answers, Part 2 structure, natural vocabulary and Part 3 abstract questions.", "bn": "Tip ১–৫: প্রতিদিন pronunciation, বিস্তৃত উত্তর, Part 2-এর structure, স্বাভাবিক vocabulary, আর Part 3-এর abstract প্রশ্ন।"},
+    "learned": [
+      {"en": "Ten minutes of pronunciation a day", "bn": "দিনে দশ মিনিট pronunciation"},
+      {"en": "Always a reason and a detail", "bn": "সবসময় একটা কারণ আর একটা detail"},
+      {"en": "A fixed order for any cue card", "bn": "যেকোনো cue card-এর জন্য নির্দিষ্ট ক্রম"},
+      {"en": "Advanced means precise, not difficult", "bn": "Advanced মানে নির্ভুল, কঠিন নয়"}
+    ],
+    "checks": [
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "For Tip #2, how long should your practice answer to a Part 1 question be?", "bn": "Tip #2 অনুযায়ী, Part 1 প্রশ্নের practice উত্তর কত বড় হবে?"},
+        "options": [
+          {"en": "One word", "bn": "এক শব্দ"},
+          {"en": "No fewer than 2 sentences, no more than 4", "bn": "২ বাক্যের কম নয়, ৪-এর বেশি নয়"},
+          {"en": "At least one minute", "bn": "অন্তত এক মিনিট"}
+        ],
+        "answer": 1,
+        "explain": {"en": "A one-word answer gives the examiner nothing to mark. Give at least one reason and one detail - 2 to 4 sentences - and record it.", "bn": "এক শব্দের উত্তরে examiner-এর নম্বর দেওয়ার মতো কিছু থাকে না। অন্তত একটা কারণ আর একটা detail দিন - ২ থেকে ৪ বাক্য - আর record করুন।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Practising a cue card with a timer, when does the guide say to do it again?", "bn": "Timer ধরে cue card practice করছেন - guide কখন আবার করতে বলে?"},
+        "options": [
+          {"en": "If you stop before 1 minute 30 seconds", "bn": "১ মিনিট ৩০ সেকেন্ডের আগে থেমে গেলে"},
+          {"en": "If you speak for the full 2 minutes", "bn": "পুরো ২ মিনিট বললে"},
+          {"en": "Only if you made a grammar mistake", "bn": "শুধু grammar ভুল করলে"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Without a structure you run out of things to say in 40 seconds. Speak for 2 minutes with a timer; if you stop before 1 minute 30 seconds, do it again.", "bn": "Structure ছাড়া ৪০ সেকেন্ডেই কথা ফুরিয়ে যায়। Timer ধরে ২ মিনিট বলুন; ১ মিনিট ৩০ সেকেন্ডের আগে থামলে আবার করুন।"}
+      },
+      {
+        "after": 4,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In Tip #4, what does “advanced” vocabulary mean?", "bn": "Tip #4-এ “advanced” vocabulary মানে কী?"},
+        "options": [
+          {"en": "Difficult, rare words", "bn": "কঠিন, দুর্লভ শব্দ"},
+          {"en": "Precise words that come out naturally", "bn": "নির্ভুল শব্দ, যা স্বাভাবিকভাবে আসে"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Advanced means precise - “rewarding”, not “good”; “exhausted”, not “very tired”. A big word forced into the wrong place lowers your LR.", "bn": "Advanced মানে নির্ভুল - “good” নয়, “rewarding”; “very tired” নয়, “exhausted”। ভুল জায়গায় জোর করে বসানো বড় শব্দ আপনার LR কমায়।"}
+      }
+    ]
+  },
+  "sp_10_speaking_tips_1p2": {
+    "intro": {"en": "Tips 6–10: fix Bangla-based grammar mistakes, manage nerves, use idioms carefully, shadow, and prepare topic vocabulary.", "bn": "Tip ৬–১০: বাংলা থেকে আসা grammar ভুল সারানো, নার্ভাসনেস সামলানো, সাবধানে idiom, shadowing, আর topic vocabulary প্রস্তুত রাখা।"},
+    "learned": [
+      {"en": "The same few grammar mistakes keep coming back", "bn": "ঘুরেফিরে একই কয়েকটা grammar ভুল আসে"},
+      {"en": "Preparation and familiarity beat nerves", "bn": "প্রস্তুতি আর পরিচিতি নার্ভাসনেস হারায়"},
+      {"en": "Shadowing: the highest-return practice", "bn": "Shadowing: সবচেয়ে বেশি লাভের practice"},
+      {"en": "10–15 words ready for each topic category", "bn": "প্রতিটা topic category-র জন্য ১০-১৫টি শব্দ তৈরি"}
+    ],
+    "checks": [
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "According to Tip #7, what does nervousness take away?", "bn": "Tip #7 অনুযায়ী, নার্ভাসনেস কী কেড়ে নেয়?"},
+        "options": [
+          {"en": "Your language itself", "bn": "আপনার ভাষাটাই"},
+          {"en": "Your access to your language", "bn": "আপনার ভাষার কাছে পৌঁছানোর ক্ষমতা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Nervousness doesn't take away your language - it takes away your access to it. The cure is preparation and familiarity, such as doing a full mock test at least three times.", "bn": "নার্ভাসনেস আপনার ভাষা কেড়ে নেয় না - ভাষার কাছে পৌঁছানোর পথটা আটকায়। প্রতিকার হলো প্রস্তুতি আর পরিচিতি, যেমন অন্তত তিনবার পূর্ণ mock test দেওয়া।"}
+      },
+      {
+        "after": 4,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is shadowing?", "bn": "Shadowing কী?"},
+        "options": [
+          {"en": "Speaking along with a native speaker's audio at the same speed, stress and tone", "bn": "Native speaker-এর audio-র সাথে একই গতি, stress আর tone-এ একসাথে বলা"},
+          {"en": "Writing down everything you hear in a podcast", "bn": "Podcast-এ যা শোনেন সব লিখে ফেলা"},
+          {"en": "Listening to your own recordings in silence", "bn": "চুপচাপ নিজের recording শোনা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Shadowing builds fluency, pronunciation and natural phrasing at once: a 30-second section, listen once, shadow it 3 times, 10 minutes a day.", "bn": "Shadowing একসাথে fluency, pronunciation আর স্বাভাবিক phrasing গড়ে তোলে: ৩০ সেকেন্ডের একটা অংশ, একবার শুনুন, ৩ বার shadow করুন, দিনে ১০ মিনিট।"}
+      },
+      {
+        "after": 5,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "There are hundreds of Speaking topics. Into how many categories do they fall, according to Tip #10?", "bn": "Speaking topic শত শত। Tip #10 অনুযায়ী এগুলো কতগুলো category-তে পড়ে?"},
+        "options": [
+          {"en": "About 5"},
+          {"en": "20–25"},
+          {"en": "Over 200"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Only 20–25 categories (work, education, environment…). With 10–15 of your own words and collocations ready for each, words will come even for unfamiliar questions.", "bn": "মাত্র ২০-২৫টি category (work, education, environment…)। প্রতিটার জন্য নিজের ১০-১৫টি শব্দ আর collocation তৈরি থাকলে অচেনা প্রশ্নেও শব্দ আসবে।"}
+      }
+    ]
+  },
+  "sp_part_1_1": {
+    "intro": {"en": "What Part 1 is, why it matters more than it seems, and the right length for an answer.", "bn": "Part 1 কী, কেন এটা যতটা মনে হয় তার চেয়ে বেশি গুরুত্বপূর্ণ, আর উত্তরের ঠিক দৈর্ঘ্য।"},
+    "learned": [
+      {"en": "Part 1: three everyday topics, questions about you", "bn": "Part 1: তিনটি প্রতিদিনের topic, আপনাকে নিয়ে প্রশ্ন"},
+      {"en": "Three reasons Part 1 matters", "bn": "Part 1 গুরুত্বপূর্ণ হওয়ার তিনটি কারণ"},
+      {"en": "The right size: 2 to 4 sentences", "bn": "ঠিক মাপ: ২ থেকে ৪ বাক্য"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Why does Part 1 matter, even though the questions are easy?", "bn": "প্রশ্ন সহজ হলেও Part 1 কেন গুরুত্বপূর্ণ?"},
+        "options": [
+          {"en": "It is the only part that is marked", "bn": "শুধু এই part-এরই marking হয়"},
+          {"en": "The examiner forms an impression of you in the first two minutes", "bn": "প্রথম দুই মিনিটেই examiner আপনার সম্পর্কে ধারণা তৈরি করেন"},
+          {"en": "It is the longest part of the test", "bn": "এটা test-এর সবচেয়ে লম্বা part"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Part 1 is your first impression, there are no excuses for getting stuck on easy questions, and it's your warm-up - a good start keeps you relaxed for Part 2.", "bn": "Part 1 আপনার প্রথম ছাপ, সহজ প্রশ্নে আটকে যাওয়ার কোনো অজুহাত নেই, আর এটা আপনার warm-up - ভাল শুরু Part 2-এর জন্য আপনাকে স্বস্তিতে রাখে।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is the most practical length for a Part 1 answer?", "bn": "Part 1-এর উত্তরের সবচেয়ে কাজের দৈর্ঘ্য কত?"},
+        "options": [
+          {"en": "One word or one sentence", "bn": "এক শব্দ বা এক বাক্য"},
+          {"en": "2 to 4 sentences", "bn": "২ থেকে ৪ বাক্য"},
+          {"en": "About one minute", "bn": "প্রায় এক মিনিট"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Answer + reason + one detail. One sentence gives the examiner no chance to hear your language; a one-minute answer gets stopped and cuts into their script.", "bn": "উত্তর + কারণ + একটা detail। এক বাক্যে examiner আপনার ভাষা শোনার সুযোগ পান না; এক মিনিটের উত্তর থামিয়ে দেওয়া হয়, আর তাঁর script-এর সময়ও কমে।"}
+      }
+    ]
+  },
+  "sp_part_1_2": {
+    "intro": {"en": "Every Part 1 question fits one of three patterns: Direct Answer + Extension, A.R.E, or L.D.F.", "bn": "প্রতিটা Part 1 প্রশ্ন তিনটি pattern-এর একটায় পড়ে: Direct Answer + Extension, A.R.E, অথবা L.D.F।"},
+    "learned": [
+      {"en": "Direct Answer + Extension for factual questions", "bn": "তথ্যভিত্তিক প্রশ্নে Direct Answer + Extension"},
+      {"en": "A.R.E for questions with a hidden “why”", "bn": "লুকানো “why” থাকলে A.R.E"},
+      {"en": "L.D.F for hobbies and habits", "bn": "Hobby আর অভ্যাসের প্রশ্নে L.D.F"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Which strategy?", "bn": "কোন strategy?"},
+        "prompt": {"en": "“Where do you live?” asks for no reason. Which strategy fits best?", "bn": "“Where do you live?” - এতে কারণ চাওয়া হয়নি। কোন strategy সবচেয়ে মানানসই?"},
+        "options": [
+          {"en": "Direct Answer + Extension"},
+          {"en": "A.R.E"},
+          {"en": "L.D.F"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Simple, factual questions need no reason: answer directly in one sentence, then add one related detail - how long, with whom, what it's like.", "bn": "সহজ, তথ্যভিত্তিক প্রশ্নে কারণ লাগে না: এক বাক্যে সরাসরি উত্তর দিন, তারপর একটা সম্পর্কিত detail - কতদিন, কার সাথে, কেমন।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Which strategy?", "bn": "কোন strategy?"},
+        "prompt": {"en": "“What do you like doing at the weekend?” Which strategy fits best?", "bn": "“What do you like doing at the weekend?” - কোন strategy সবচেয়ে মানানসই?"},
+        "options": [
+          {"en": "Direct Answer + Extension"},
+          {"en": "A.R.E"},
+          {"en": "L.D.F"}
+        ],
+        "answer": 2,
+        "explain": {"en": "Questions about free time, routines and habits → L.D.F: Likes, Frequency, Reason. If in doubt about any question, A.R.E works everywhere.", "bn": "অবসর, রুটিন আর অভ্যাসের প্রশ্ন → L.D.F: Likes, Frequency, Reason। কোনো প্রশ্নে সন্দেহ হলে A.R.E সব জায়গায় কাজ করে।"}
+      }
+    ]
+  },
+  "sp_part_1_3": {
+    "intro": {"en": "The 7 types of Part 1 question, 8 rules for answering, and words for frequency and degree.", "bn": "Part 1-এর ৭ ধরনের প্রশ্ন, উত্তর দেওয়ার ৮টি নিয়ম, আর frequency ও degree বোঝানোর শব্দ।"},
+    "learned": [
+      {"en": "The 7 Part 1 question types and their patterns", "bn": "Part 1-এর ৭ ধরনের প্রশ্ন আর তাদের pattern"},
+      {"en": "8 rules: answer first, don't echo, add a detail", "bn": "৮টি নিয়ম: আগে উত্তর, echo নয়, একটা detail"},
+      {"en": "Varied phrases for how often", "bn": "“How often”-এর জন্য বৈচিত্র্যময় phrase"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "“Do you prefer A or B?” Which answer pattern does the guide give for this type?", "bn": "“Do you prefer A or B?” - এই ধরনের প্রশ্নে guide কোন answer pattern দিয়েছে?"},
+        "options": [
+          {"en": "Preference → reason → exception", "bn": "পছন্দ → কারণ → ব্যতিক্রম"},
+          {"en": "Past → now → reason", "bn": "অতীত → এখন → কারণ"},
+          {"en": "Wish → condition → reason", "bn": "ইচ্ছা → শর্ত → কারণ"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Preference questions: say your preference, give the reason, then an exception - “I'd go for A most of the time, mainly because… Having said that, when…, B works better.”", "bn": "Preference প্রশ্নে: পছন্দ বলুন, কারণ দিন, তারপর একটা ব্যতিক্রম - “I'd go for A most of the time, mainly because… Having said that, when…, B works better.”"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Don't echo", "bn": "Echo করবেন না"},
+        "prompt": {"en": "“Do you like cooking?” Which answer follows the 8 rules better?", "bn": "“Do you like cooking?” - কোন উত্তর ৮টি নিয়ম বেশি ভালভাবে মানে?"},
+        "options": [
+          {"en": "Yes, I like cooking."},
+          {"en": "Yes, I'm quite into it, actually."}
+        ],
+        "answer": 1,
+        "explain": {"en": "Don't hand the question's words back: “Yes, I like cooking” is weak. Then never stop at Yes/No - add “because”, “since” or “the thing is”.", "bn": "প্রশ্নের শব্দ ফিরিয়ে দেবেন না: “Yes, I like cooking” দুর্বল। আর Yes/No-তে কখনো থামবেন না - “because”, “since” বা “the thing is” যোগ করুন।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which phrase means “rarely”?", "bn": "কোন phrase-এর মানে “rarely”?"},
+        "options": [
+          {"en": "every other day"},
+          {"en": "once in a blue moon"},
+          {"en": "as a rule"}
+        ],
+        "answer": 1,
+        "explain": {"en": "“Once in a blue moon” is in the Rarely group. “Every other day” means regularly, and “as a rule” means almost always.", "bn": "“Once in a blue moon” আছে Rarely গ্রুপে। “Every other day” মানে নিয়মিত, আর “as a rule” মানে প্রায় সবসময়।"}
+      }
+    ]
+  },
+  "sp_part_1_2_1": {
+    "intro": {"en": "A five-step method to build your own Part 1 answers for every topic - without memorising.", "bn": "মুখস্থ না করে প্রতিটা topic-এ নিজের Part 1 উত্তর তৈরির পাঁচ ধাপের পদ্ধতি।"},
+    "learned": [
+      {"en": "Three true facts per topic as raw material", "bn": "প্রতি topic-এ তিনটি সত্য তথ্য - কাঁচামাল"},
+      {"en": "Record, listen back and find what to fix", "bn": "Record করুন, শুনুন, কী সারাতে হবে খুঁজুন"},
+      {"en": "Same ideas, different words - not memorised sentences", "bn": "একই idea, ভিন্ন শব্দ - মুখস্থ বাক্য নয়"}
+    ],
+    "checks": [
+      {
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is the first step of the method?", "bn": "পদ্ধতির প্রথম ধাপ কী?"},
+        "options": [
+          {"en": "Memorise a model answer for each topic", "bn": "প্রতিটা topic-এর একটা model answer মুখস্থ করা"},
+          {"en": "Write down 3 true facts about yourself for each topic", "bn": "প্রতিটা topic-এ নিজের সম্পর্কে ৩টি সত্য তথ্য লেখা"},
+          {"en": "Learn a list of idioms", "bn": "Idiom-এর একটা তালিকা শেখা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Three true facts per topic are your “raw material”. Then choose a precise word or collocation for each fact.", "bn": "প্রতি topic-এ তিনটি সত্য তথ্য হলো আপনার “কাঁচামাল”। তারপর প্রতিটা তথ্যের জন্য একটা নির্ভুল শব্দ বা collocation বেছে নিন।"}
+      },
+      {
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "A week later you speak on the same topic and exactly the same sentences come out. What does it mean?", "bn": "এক সপ্তাহ পর একই topic-এ বলতে গিয়ে হুবহু একই বাক্য বেরিয়ে এল। এর মানে কী?"},
+        "options": [
+          {"en": "You're on the right track", "bn": "আপনি ঠিক পথে আছেন"},
+          {"en": "You've memorised them - and the examiner will notice", "bn": "আপনি মুখস্থ করে ফেলেছেন - আর examiner তা ধরবেন"}
+        ],
+        "answer": 1,
+        "explain": {"en": "If the main ideas come back but the words are a little different, you're on the right track. Exactly the same sentences means memorised.", "bn": "মূল idea ফিরে এলেও শব্দ যদি একটু আলাদা হয়, আপনি ঠিক পথে। হুবহু একই বাক্য মানে মুখস্থ।"}
+      }
+    ]
+  },
+  "sp_part_2_cue_card_1": {
+    "intro": {"en": "What happens in Part 2, what the cue card asks for, what the examiner listens for and three truths about timing.", "bn": "Part 2-এ কী হয়, cue card কী চায়, examiner কী শোনেন, আর সময় নিয়ে তিনটি সত্য।"},
+    "learned": [
+      {"en": "The structure of every cue card", "bn": "প্রতিটা cue card-এর গঠন"},
+      {"en": "Why the “and explain” line matters most", "bn": "কেন “and explain” লাইনটা সবচেয়ে জরুরি"},
+      {"en": "What the examiner looks for in Part 2", "bn": "Part 2-এ examiner কী খোঁজেন"},
+      {"en": "Use the full minute; aim for the full 2 minutes", "bn": "পুরো এক মিনিট কাজে লাগান; পুরো ২ মিনিট বলার লক্ষ্য রাখুন"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What does the last line of every cue card - “and explain…” - always ask for?", "bn": "প্রতিটা cue card-এর শেষ লাইন - “and explain…” - সবসময় কী চায়?"},
+        "options": [
+          {"en": "More facts about the topic", "bn": "Topic নিয়ে আরও তথ্য"},
+          {"en": "Your feelings, opinion or reasons", "bn": "আপনার অনুভূতি, মতামত বা কারণ"},
+          {"en": "A summary of the bullet points", "bn": "Bullet point-গুলোর সারাংশ"}
+        ],
+        "answer": 1,
+        "explain": {"en": "The “and explain…” line always asks for your feelings, opinion or reasons. It is the most important line - and the most often ignored.", "bn": "“and explain…” লাইন সবসময় আপনার অনুভূতি, মতামত বা কারণ চায়। এটাই সবচেয়ে জরুরি লাইন - আর সবচেয়ে বেশি উপেক্ষিত।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Your notes are ready after 40 seconds. Should you say “I'm ready” and start early?", "bn": "৪০ সেকেন্ডেই note তৈরি। “I'm ready” বলে কি আগে শুরু করবেন?"},
+        "options": [
+          {"en": "Yes - it shows confidence", "bn": "হ্যাঁ - এতে আত্মবিশ্বাস দেখায়"},
+          {"en": "No - use the full minute", "bn": "না - পুরো এক মিনিট কাজে লাগান"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Starting early brings no benefit - it hurts you. Every second of thinking now is a second less you need to think during your 2-minute talk.", "bn": "আগে শুরু করলে কোনো লাভ নেই - বরং ক্ষতি। এখনকার প্রতিটা সেকেন্ডের ভাবনা মানে ২ মিনিটের talk-এ ততটা কম ভাবতে হবে।"}
+      }
+    ]
+  },
+  "sp_1_note_1": {
+    "intro": {"en": "Make the most of your one minute: the 4 + 1 keyword method and how to divide the time.", "bn": "এক মিনিটের সর্বোচ্চ ব্যবহার: 4 + 1 keyword পদ্ধতি আর সময় ভাগ করার নিয়ম।"},
+    "learned": [
+      {"en": "Don't write sentences - and don't write nothing", "bn": "বাক্য লিখবেন না - আবার কিছু না লিখেও থাকবেন না"},
+      {"en": "4 + 1 keywords, one per line", "bn": "4 + 1 keyword, প্রতি লাইনে একটা"},
+      {"en": "How to divide the 60 seconds", "bn": "৬০ সেকেন্ড কীভাবে ভাগ করবেন"},
+      {"en": "Never change the topic", "bn": "কখনো topic বদলাবেন না"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is the biggest mistake in note-taking?", "bn": "Note নেওয়ার সবচেয়ে বড় ভুল কী?"},
+        "options": [
+          {"en": "Writing full sentences", "bn": "পূর্ণ বাক্য লেখা"},
+          {"en": "Writing single keywords", "bn": "একটা একটা keyword লেখা"},
+          {"en": "Writing in capital letters", "bn": "Capital letter-এ লেখা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "In one minute you can write two sentences at most, and then you read them out - reading, not speaking. The examiner can tell the difference in a second.", "bn": "এক মিনিটে বড়জোর দুটো বাক্য লেখা যায়, তারপর সেটাই পড়ে শোনাবেন - বলা নয়, পড়া। Examiner এক সেকেন্ডেই পার্থক্য ধরতে পারেন।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In the 4 + 1 method, what is the “+1”?", "bn": "4 + 1 পদ্ধতিতে “+1” কী?"},
+        "options": [
+          {"en": "A full opening sentence", "bn": "একটা পূর্ণ শুরুর বাক্য"},
+          {"en": "An extra detail, like a sight, sound or smell, that makes the story real", "bn": "একটা বাড়তি detail - দৃশ্য, শব্দ বা গন্ধ - যা গল্পকে বাস্তব করে"},
+          {"en": "A fifth bullet point from the card", "bn": "Card-এর পঞ্চম bullet point"}
+        ],
+        "answer": 1,
+        "explain": {"en": "One keyword for each of the card's four lines, plus one extra the card didn't ask for - a sensory detail that makes the story feel true and shows vocabulary.", "bn": "Card-এর চারটি লাইনের প্রতিটার জন্য একটা keyword, আর একটা বাড়তি যা card চায়নি - একটা sensory detail, যা গল্পকে সত্যি করে তোলে আর vocabulary দেখায়।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You have no real experience that fits the card. What does the guide advise?", "bn": "Card-এর সাথে মেলে এমন কোনো বাস্তব অভিজ্ঞতা আপনার নেই। Guide কী পরামর্শ দেয়?"},
+        "options": [
+          {"en": "Talk about a different topic you know well", "bn": "ভালভাবে জানা অন্য একটা topic নিয়ে বলুন"},
+          {"en": "Make it up or use something close - but stay on the topic", "bn": "বানিয়ে বলুন বা কাছাকাছি কিছু নিন - কিন্তু topic-এ থাকুন"}
+        ],
+        "answer": 1,
+        "explain": {"en": "The examiner doesn't check whether it's true. But changing the topic - talking about a journey instead of a skill - is off-topic and hurts your FC score.", "bn": "সত্যি কিনা examiner যাচাই করেন না। কিন্তু topic বদলানো - skill-এর বদলে journey নিয়ে বলা - topic-এর বাইরে, এবং এতে আপনার FC score কমে।"}
+      }
+    ]
+  },
+  "sp_2_talk_1": {
+    "intro": {"en": "One five-step structure for any cue card, and a full worked talk built from the notes.", "bn": "যেকোনো cue card-এর জন্য একটাই পাঁচ ধাপের structure, আর note থেকে তৈরি একটা পূর্ণ talk।"},
+    "learned": [
+      {"en": "Opening, background, event, explain, closing", "bn": "Opening, পটভূমি, ঘটনা, explain, closing"},
+      {"en": "Roughly how long each step takes", "bn": "প্রতিটা ধাপে মোটামুটি কত সময়"},
+      {"en": "What the examiner hears in a strong talk", "bn": "একটা শক্তিশালী talk-এ examiner কী শোনেন"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In which step do you talk about feelings and reasons, and come back to the present tense?", "bn": "কোন ধাপে অনুভূতি আর কারণ বলবেন, আর present tense-এ ফিরে আসবেন?"},
+        "options": [
+          {"en": "Opening"},
+          {"en": "Bullet 3 (event/process)"},
+          {"en": "Explain"}
+        ],
+        "answer": 2,
+        "explain": {"en": "Step 4, Explain (~30 sec.), covers the card's last line: how you feel, why it matters, what has changed - back in the present tense.", "bn": "ধাপ ৪, Explain (~৩০ সেকেন্ড), card-এর শেষ লাইন: কেমন লাগে, কেন গুরুত্বপূর্ণ, কী বদলেছে - present tense-এ ফিরে।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In the model talk, “black machine” and “clacking sound” are examples of what?", "bn": "Model talk-এ “black machine” আর “clacking sound” কীসের উদাহরণ?"},
+        "options": [
+          {"en": "Sensory detail", "bn": "Sensory detail"},
+          {"en": "Reflection in the present tense", "bn": "Present tense-এ ভাবনা"},
+          {"en": "A problem and its solution", "bn": "একটা সমস্যা আর তার সমাধান"}
+        ],
+        "answer": 0,
+        "explain": {"en": "They are sensory details. The talk also has a small problem and solution (the crooked hem) and reflection in the present tense.", "bn": "এগুলো sensory detail। Talk-টায় একটা ছোট সমস্যা আর সমাধানও আছে (বাঁকা সেলাই), আর present tense-এ ভাবনা।"}
+      }
+    ]
+  },
+  "sp_2_1": {
+    "intro": {"en": "Never run out of things to say: six lenses for any topic and what to do if you dry up.", "bn": "কখনো কথা ফুরাবে না: যেকোনো topic-এর জন্য ছয়টি lens, আর কথা আটকে গেলে কী করবেন।"},
+    "learned": [
+      {"en": "The six lenses: time, senses, people, contrast, a moment, meaning", "bn": "ছয়টি lens: সময়, ইন্দ্রিয়, মানুষ, তুলনা, একটা মুহূর্ত, অর্থ"},
+      {"en": "Senses and contrast lift a Band 6 to a 7", "bn": "Senses আর contrast Band 6-কে 7-এ তোলে"},
+      {"en": "Four ways out when you run dry", "bn": "কথা ফুরালে বেরোনোর চারটি পথ"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which two lenses are usually your own additions, not covered by the card?", "bn": "কোন দুটো lens সাধারণত card-এ থাকে না - আপনার নিজের সংযোজন?"},
+        "options": [
+          {"en": "Senses and Contrast", "bn": "Senses আর Contrast"},
+          {"en": "Time and People", "bn": "Time আর People"},
+          {"en": "A moment and Meaning", "bn": "A moment আর Meaning"}
+        ],
+        "answer": 0,
+        "explain": {"en": "The bullets usually cover time, people and a moment; “explain” is meaning. Senses and contrast are your additions - they turn a Band 6 into a Band 7.", "bn": "Bullet-গুলো সাধারণত time, people আর a moment ধরে; “explain” হলো meaning। Senses আর contrast আপনার সংযোজন - এগুলোই Band 6-কে Band 7 বানায়।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You've passed 1 minute 20 seconds and have nothing more to say. What's best?", "bn": "১ মিনিট ২০ সেকেন্ড পেরিয়ে গেছে, আর বলার কিছু নেই। সবচেয়ে ভাল কী?"},
+        "options": [
+          {"en": "Wrap it up neatly with a closing", "bn": "একটা closing দিয়ে গুছিয়ে শেষ করা"},
+          {"en": "Force the talk to drag on", "bn": "জোর করে talk টেনে লম্বা করা"},
+          {"en": "Stop and wait silently", "bn": "থেমে চুপচাপ অপেক্ষা করা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Once you've passed 1 minute 20 seconds, stopping neatly with a closing is better than forcing it to drag on.", "bn": "১ মিনিট ২০ সেকেন্ড পেরোলে, জোর করে টেনে লম্বা করার চেয়ে একটা closing দিয়ে গুছিয়ে থামা ভাল।"}
+      }
+    ]
+  },
+  "sp_2_2": {
+    "intro": {"en": "A storytelling toolkit for Part 2, six common mistakes and how to handle the follow-up questions.", "bn": "Part 2-এর জন্য গল্প বলার toolkit, ছয়টি সাধারণ ভুল, আর follow-up প্রশ্ন সামলানোর উপায়।"},
+    "learned": [
+      {"en": "Phrases for time, sequence, people, places and feelings", "bn": "সময়, ক্রম, মানুষ, জায়গা আর অনুভূতির phrase"},
+      {"en": "Six common Part 2 mistakes and their fixes", "bn": "Part 2-এর ছয়টি সাধারণ ভুল আর সমাধান"},
+      {"en": "Follow-up answers: one or two sentences", "bn": "Follow-up উত্তর: এক বা দুই বাক্য"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which phrase talks about your feelings now, looking back?", "bn": "কোন phrase পেছনে ফিরে দেখে এখনকার অনুভূতি বলে?"},
+        "options": [
+          {"en": "in hindsight"},
+          {"en": "the next thing I knew"},
+          {"en": "back in [year]"}
+        ],
+        "answer": 0,
+        "explain": {"en": "“In hindsight” is in the Feelings (now) group. “The next thing I knew” is sequence, and “back in [year]” is a time reference.", "bn": "“In hindsight” আছে Feelings (now) গ্রুপে। “The next thing I knew” হলো sequence, আর “back in [year]” সময় বোঝায়।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Spot the mistake", "bn": "ভুলটা ধরুন"},
+        "prompt": {"en": "Telling a past story, a candidate says this. What is the mistake?", "bn": "অতীতের গল্প বলতে গিয়ে একজন পরীক্ষার্থী এটা বললেন। ভুলটা কী?"},
+        "passage": "Then she gives me cloth and I practise...",
+        "options": [
+          {"en": "Too many details", "bn": "অতিরিক্ত detail"},
+          {"en": "Present tense in a story about the past", "bn": "অতীতের গল্পে present tense"},
+          {"en": "Too formal", "bn": "খুব formal"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Write “PAST” next to your notes. If you start your first sentence in the past, the rest is easier.", "bn": "Note-এর পাশে “PAST” লিখে রাখুন। প্রথম বাক্য past-এ শুরু করলে বাকিটা সহজ হয়।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "How should you answer the short follow-up questions after your talk?", "bn": "Talk-এর পরের ছোট follow-up প্রশ্নের উত্তর কীভাবে দেবেন?"},
+        "options": [
+          {"en": "With a long, Part 3-style answer", "bn": "Part 3-এর মতো লম্বা উত্তরে"},
+          {"en": "In one or two sentences", "bn": "এক বা দুই বাক্যে"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Follow-up questions are not Part 3 - answer in one or two sentences. If you give a long answer, the examiner will stop you.", "bn": "Follow-up প্রশ্ন Part 3 নয় - এক বা দুই বাক্যে উত্তর দিন। লম্বা উত্তর দিলে examiner থামিয়ে দেবেন।"}
+      }
+    ]
+  },
+  "sp_part_3_discussion_1": {
+    "intro": {"en": "In Part 3 the game changes: general questions about society and the future, and three misconceptions to drop.", "bn": "Part 3-এ খেলা বদলে যায়: সমাজ আর ভবিষ্যৎ নিয়ে সাধারণ প্রশ্ন, আর তিনটি ভুল ধারণা যা ছাড়তে হবে।"},
+    "learned": [
+      {"en": "Part 3 is about people and society, not you", "bn": "Part 3 মানুষ আর সমাজ নিয়ে, আপনাকে নিয়ে নয়"},
+      {"en": "What the examiner wants to see in Part 3", "bn": "Part 3-এ examiner কী দেখতে চান"},
+      {"en": "No right answer; 4–6 sentences per answer", "bn": "সঠিক উত্তর বলে কিছু নেই; প্রতি উত্তরে ৪-৬ বাক্য"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What are Part 3 questions about?", "bn": "Part 3-এর প্রশ্ন কী নিয়ে?"},
+        "options": [
+          {"en": "Your personal habits and likes", "bn": "আপনার ব্যক্তিগত অভ্যাস আর পছন্দ"},
+          {"en": "People, society, the country and the future", "bn": "মানুষ, সমাজ, দেশ আর ভবিষ্যৎ"}
+        ],
+        "answer": 1,
+        "explain": {"en": "“More general” is what Part 3 is about. The examiner wants to see whether you can give opinions, explain reasons, compare, speculate and see both sides.", "bn": "“More general” - এটাই Part 3-এর মূল কথা। Examiner দেখতে চান আপনি মতামত দিতে, কারণ ব্যাখ্যা করতে, তুলনা করতে, অনুমান করতে আর দুই দিক দেখতে পারেন কিনা।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "How long should a Part 3 answer be?", "bn": "Part 3-এর উত্তর কত বড় হওয়া উচিত?"},
+        "options": [
+          {"en": "Two sentences, like Part 1", "bn": "দুই বাক্য, Part 1-এর মতো"},
+          {"en": "4–6 sentences, 30–45 seconds", "bn": "৪-৬ বাক্য, ৩০-৪৫ সেকেন্ড"},
+          {"en": "Two minutes, like Part 2", "bn": "দুই মিনিট, Part 2-এর মতো"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Part 3 answers are 4–6 sentences, 30–45 seconds. The examiner will stop you if they want to; don't stop on your own after two sentences.", "bn": "Part 3-এর উত্তর ৪-৬ বাক্য, ৩০-৪৫ সেকেন্ড। দরকার হলে examiner নিজেই থামাবেন; দুই বাক্য বলে নিজে থেমে যাবেন না।"}
+      }
+    ]
+  },
+  "sp_part_3_8_1": {
+    "intro": {"en": "Part 3 topics vary, but the question types don't: learn the 8 types and the language for each.", "bn": "Part 3-এর topic বদলায়, কিন্তু প্রশ্নের ধরন বদলায় না: ৮ ধরনের প্রশ্ন আর প্রতিটার ভাষা শিখুন।"},
+    "learned": [
+      {"en": "The 8 types of Part 3 question", "bn": "Part 3-এর ৮ ধরনের প্রশ্ন"},
+      {"en": "Ready-made answer language for each type", "bn": "প্রতিটা ধরনের জন্য তৈরি উত্তরের ভাষা"}
+    ],
+    "checks": [
+      {
+        "title": {"en": "Which type?", "bn": "কোন ধরন?"},
+        "prompt": {"en": "“What should the government do?” Which question type is this?", "bn": "“What should the government do?” - এটা কোন ধরনের প্রশ্ন?"},
+        "options": [
+          {"en": "Effect"},
+          {"en": "Solution"},
+          {"en": "Past vs Now"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Solution questions - “How can we…? What should the government do?” - use language like “one option would be” or “a more effective approach might be”.", "bn": "Solution প্রশ্ন - “How can we…? What should the government do?” - এতে ব্যবহার করুন “one option would be” বা “a more effective approach might be”-এর মতো ভাষা।"}
+      },
+      {
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which answer language suits a Predict question, like “Will … in the future?”", "bn": "“Will … in the future?”-এর মতো Predict প্রশ্নে কোন ভাষা মানানসই?"},
+        "options": [
+          {"en": "it's likely that"},
+          {"en": "the upside is"},
+          {"en": "the main reason is"}
+        ],
+        "answer": 0,
+        "explain": {"en": "For Predict: I imagine, it's likely that, we may well see. “The upside is” is for Evaluate, and “the main reason is” is for Reason / Cause.", "bn": "Predict-এর জন্য: I imagine, it's likely that, we may well see। “The upside is” Evaluate-এর, আর “the main reason is” Reason / Cause-এর ভাষা।"}
+      }
+    ]
+  },
+  "sp_a_r_e_balance_part_3_framewo_1": {
+    "intro": {"en": "A.R.E + Balance: the four-step Part 3 answer, language for the other side, hedging, and what to do when you don't know.", "bn": "A.R.E + Balance: Part 3-এর চার ধাপের উত্তর, অন্য দিকের ভাষা, hedging, আর না জানলে কী করবেন।"},
+    "learned": [
+      {"en": "Answer, Reason, Example - plus Balance", "bn": "Answer, Reason, Example - সাথে Balance"},
+      {"en": "Phrases for the other side, conditions and exceptions", "bn": "অন্য দিক, শর্ত আর ব্যতিক্রমের phrase"},
+      {"en": "Hedging for Band 7+", "bn": "Band 7+-এর জন্য hedging"},
+      {"en": "Three routes when you don't know", "bn": "না জানলে তিনটি পথ"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is the fourth step, B, added to A.R.E in Part 3?", "bn": "Part 3-এ A.R.E-র সাথে যোগ হওয়া চতুর্থ ধাপ B কী?"},
+        "options": [
+          {"en": "Background - the history of the topic", "bn": "Background - topic-এর ইতিহাস"},
+          {"en": "Balance - the other side, a condition or an exception", "bn": "Balance - অন্য দিক, একটা শর্ত বা ব্যতিক্রম"},
+          {"en": "Because - a second reason", "bn": "Because - দ্বিতীয় একটা কারণ"}
+        ],
+        "answer": 1,
+        "explain": {"en": "In Part 3 the examiner wants to see whether you can see more than one side. End with a “but”: “Having said that…”, “Of course, it depends…”.", "bn": "Part 3-এ examiner দেখতে চান আপনি একাধিক দিক দেখতে পারেন কিনা। শেষ করুন একটা “but” দিয়ে: “Having said that…”, “Of course, it depends…”।"}
+      },
+      {
+        "after": 3,
+        "title": {"en": "Hedging", "bn": "Hedging"},
+        "prompt": {"en": "Which is the hedged, Band 7+ version?", "bn": "কোনটা hedged, Band 7+ version?"},
+        "options": [
+          {"en": "People are lazy now."},
+          {"en": "People tend to be less active than they used to be."}
+        ],
+        "answer": 1,
+        "explain": {"en": "Direct statements like “People are lazy now” sound like Band 5–6. Hedging gives the same opinion in the language of a thoughtful person, and is essential for Band 7+.", "bn": "“People are lazy now”-এর মতো সরাসরি কথা Band 5-6-এর মতো শোনায়। Hedging একই মতামত একজন চিন্তাশীল মানুষের ভাষায় দেয় - Band 7+-এর জন্য অপরিহার্য।"}
+      },
+      {
+        "after": 4,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You get a question you've never thought about. Which response is acceptable?", "bn": "এমন প্রশ্ন এল যা নিয়ে কখনো ভাবেননি। কোন উত্তরটা গ্রহণযোগ্য?"},
+        "options": [
+          {"en": "I don't know."},
+          {"en": "That's not something I've thought about, but I'd imagine..."}
+        ],
+        "answer": 1,
+        "explain": {"en": "You can't just say “I don't know” and stop - but you can say “I don't know, but…” and keep going. Speculate, generalise from experience or narrow the question down.", "bn": "শুধু “I don't know” বলে থেমে যাওয়া চলবে না - কিন্তু “I don't know, but…” বলে চালিয়ে যাওয়া যায়। অনুমান করুন, অভিজ্ঞতা থেকে বলুন, বা প্রশ্নটা ছোট করে আনুন।"}
+      }
+    ]
+  },
+  "sp_worked_example_topic_part_3_1": {
+    "intro": {"en": "A full Part 3 on one topic, answered with A.R.E + B - and the five most common Part 3 mistakes.", "bn": "একটা topic-এ পূর্ণ Part 3, A.R.E + B দিয়ে উত্তর - আর Part 3-এর পাঁচটি সবচেয়ে সাধারণ ভুল।"},
+    "learned": [
+      {"en": "Six question types answered in 4–6 sentences", "bn": "৪-৬ বাক্যে উত্তর দেওয়া ছয় ধরনের প্রশ্ন"},
+      {"en": "Where the Balance step goes", "bn": "Balance ধাপ কোথায় বসে"},
+      {"en": "Five Part 3 mistakes and their fixes", "bn": "Part 3-এর পাঁচটি ভুল আর সমাধান"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Find the Balance", "bn": "Balance খুঁজুন"},
+        "prompt": {"en": "In the answer to Q1, which sentence is the Balance step?", "bn": "Q1-এর উত্তরে কোন বাক্যটা Balance ধাপ?"},
+        "options": [
+          {"en": "My cousin actually sold his car last year for exactly that reason."},
+          {"en": "Of course, this only holds where public transport is decent."},
+          {"en": "I'd say it comes down to cost and stress, mostly."}
+        ],
+        "answer": 1,
+        "explain": {"en": "“Of course, this only holds where…” adds a condition - the Balance. The cousin is the Example, and “I'd say it comes down to…” is the Answer.", "bn": "“Of course, this only holds where…” একটা শর্ত যোগ করে - এটাই Balance। Cousin-এর কথা হলো Example, আর “I'd say it comes down to…” হলো Answer।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The examiner says, “But some people say…”. What should you do?", "bn": "Examiner বললেন, “But some people say…”। আপনি কী করবেন?"},
+        "options": [
+          {"en": "Change your opinion to agree", "bn": "মত বদলে একমত হওয়া"},
+          {"en": "Hold your opinion: “That's a fair point, but I'd still say…”", "bn": "নিজের মত ধরে রাখা: “That's a fair point, but I'd still say…”"}
+        ],
+        "answer": 1,
+        "explain": {"en": "The examiner is testing whether you can hold your opinion. Keep it, and use the moment to expand your language.", "bn": "Examiner পরীক্ষা করছেন আপনি নিজের মত ধরে রাখতে পারেন কিনা। মত ধরে রাখুন, আর এই সুযোগে নিজের ভাষা বিস্তৃত করুন।"}
+      }
+    ]
+  },
+  "sp_part_2_3_practice_1": {
+    "intro": {"en": "A simple routine for practising Parts 2 and 3: one cue card a day, a weekly mock, and listening back.", "bn": "Part 2 আর 3 practice-এর সহজ রুটিন: দিনে একটা cue card, সপ্তাহে একটা mock, আর ফিরে শোনা।"},
+    "learned": [
+      {"en": "One timed, recorded cue card a day", "bn": "দিনে একটা timed, record করা cue card"},
+      {"en": "Three questions to ask about each recording", "bn": "প্রতিটা recording নিয়ে তিনটি প্রশ্ন"},
+      {"en": "One full mock a week", "bn": "সপ্তাহে একটা পূর্ণ mock"}
+    ],
+    "checks": [
+      {
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "How often does the guide suggest a full mock test (Part 1 to Part 3)?", "bn": "Guide কত ঘন ঘন পূর্ণ mock test (Part 1 থেকে Part 3) দিতে বলে?"},
+        "options": [
+          {"en": "Every day", "bn": "প্রতিদিন"},
+          {"en": "Once a week", "bn": "সপ্তাহে একবার"},
+          {"en": "Once a month", "bn": "মাসে একবার"}
+        ],
+        "answer": 1,
+        "explain": {"en": "One full mock a week, with a friend or family member as examiner - Part 1 to Part 3, 12 minutes, recorded. The daily task is one cue card.", "bn": "সপ্তাহে একটা পূর্ণ mock - বন্ধু বা পরিবারের কেউ examiner - Part 1 থেকে Part 3, ১২ মিনিট, record করা। প্রতিদিনের কাজ একটা cue card।"}
+      },
+      {
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which is one of the three questions to ask when you listen to your cue card recording?", "bn": "Cue card-এর recording শোনার সময় তিনটি প্রশ্নের একটা কোনটা?"},
+        "options": [
+          {"en": "Did I use at least five idioms?", "bn": "অন্তত পাঁচটা idiom ব্যবহার করেছি কি?"},
+          {"en": "Did I reach 2 minutes?", "bn": "২ মিনিটে পৌঁছেছি কি?"},
+          {"en": "Did I sound British?", "bn": "British শোনাচ্ছিল কি?"}
+        ],
+        "answer": 1,
+        "explain": {"en": "The three questions: Did you reach 2 minutes? Were all five steps there? Was your past tense correct?", "bn": "তিনটি প্রশ্ন: ২ মিনিটে পৌঁছেছেন কি? পাঁচটি ধাপই ছিল কি? Past tense ঠিক ছিল কি?"}
+      }
+    ]
+  },
+  "sp_checklist_1": {
+    "intro": {"en": "A day-by-day plan for the last seven days before your Speaking test.", "bn": "Speaking test-এর আগের শেষ সাত দিনের দিনভিত্তিক plan।"},
+    "learned": [
+      {"en": "Two full mocks in the final week", "bn": "শেষ সপ্তাহে দুটো পূর্ণ mock"},
+      {"en": "Nothing new the day before", "bn": "আগের দিন নতুন কিছু নয়"},
+      {"en": "English only from an hour before the test", "bn": "Test-এর এক ঘণ্টা আগে থেকে শুধু English"}
+    ],
+    "checks": [
+      {
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What does the checklist say for Day 1, the day before the test?", "bn": "Checklist-এ Day 1, অর্থাৎ test-এর আগের দিনের জন্য কী বলা আছে?"},
+        "options": [
+          {"en": "Learn a new list of vocabulary", "bn": "নতুন একটা vocabulary তালিকা শেখা"},
+          {"en": "Nothing new - sort out your ID, go to bed early", "bn": "নতুন কিছু নয় - ID গুছিয়ে রাখা, তাড়াতাড়ি ঘুমানো"},
+          {"en": "Do two full mock tests", "bn": "দুটো পূর্ণ mock test দেওয়া"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Day 1: nothing new. Read the Test Day chapter, sort out your ID, address and clothes, have a relaxed 15-minute chat in English and go to bed early.", "bn": "Day 1: নতুন কিছু নয়। Test Day অধ্যায় পড়ুন, ID, ঠিকানা আর পোশাক গুছিয়ে রাখুন, English-এ ১৫ মিনিট হালকা আড্ডা দিন, আর তাড়াতাড়ি ঘুমান।"}
+      },
+      {
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "On test day, if you need to pause in an answer, how should you pause?", "bn": "Test-এর দিন উত্তরের মাঝে থামতে হলে কীভাবে থামবেন?"},
+        "options": [
+          {"en": "In English", "bn": "English-এ"},
+          {"en": "In silence", "bn": "নীরবে"},
+          {"en": "With “umm”", "bn": "“umm” দিয়ে"}
+        ],
+        "answer": 0,
+        "explain": {"en": "If you pause in an answer, pause in English. Make your first sentence clear, say it with a smile, and say “Thank you” at the end.", "bn": "উত্তরের মাঝে থামলে English-এ থামুন। প্রথম বাক্যটা স্পষ্ট করে হাসিমুখে বলুন, আর শেষে “Thank you”।"}
+      }
+    ]
+  },
+  "sp_ch_1": {
+    "intro": {"en": "Why Speaking feels hardest, how this guide makes it predictable, and how to use its four parts.", "bn": "কেন Speaking সবচেয়ে কঠিন মনে হয়, এই guide কীভাবে একে predictable করে, আর এর চারটি অংশ কীভাবে ব্যবহার করবেন।"},
+    "learned": [
+      {"en": "The guide's purpose: a predictable test", "bn": "Guide-এর উদ্দেশ্য: predictable test"},
+      {"en": "The four parts and how to use each", "bn": "চারটি অংশ আর প্রতিটার ব্যবহার"},
+      {"en": "Why model answers are not for memorising", "bn": "কেন model answer মুখস্থের জন্য নয়"}
+    ],
+    "checks": [
+      {
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What is the one purpose of this guide?", "bn": "এই guide-এর একমাত্র উদ্দেশ্য কী?"},
+        "options": [
+          {"en": "To give you answers to memorise", "bn": "মুখস্থ করার মতো উত্তর দেওয়া"},
+          {"en": "To make the Speaking test predictable", "bn": "Speaking test-কে predictable করে তোলা"},
+          {"en": "To change your accent", "bn": "আপনার accent বদলানো"}
+        ],
+        "answer": 1,
+        "explain": {"en": "If you know in advance what will happen, what the examiner looks for, what questions come up and which answers get which band, preparation takes the place of fear.", "bn": "কী হবে, examiner কী খোঁজেন, কী ধরনের প্রশ্ন আসে, আর কোন উত্তর কোন band পায় - আগে থেকে জানা থাকলে ভয়ের জায়গা দখল করে নেয় প্রস্তুতি।"}
+      },
+      {
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What happens when the examiner detects a memorised answer?", "bn": "Examiner মুখস্থ উত্তর ধরে ফেললে কী হয়?"},
+        "options": [
+          {"en": "Nothing - memorised answers score well", "bn": "কিছুই না - মুখস্থ উত্তরে ভাল নম্বর আসে"},
+          {"en": "They change the question, and your band goes down", "bn": "তাঁরা প্রশ্ন বদলে দেন, আর আপনার band কমে যায়"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Examiners spot a memorised answer within the first two sentences. Read model answers for structure, vocabulary and ideas - then build your own from your own life.", "bn": "Examiner-রা প্রথম দুই বাক্যেই মুখস্থ উত্তর ধরে ফেলেন। Model answer পড়ুন structure, vocabulary আর idea শিখতে - তারপর নিজের জীবনের তথ্য দিয়ে নিজের উত্তর বানান।"}
+      }
+    ]
+  }
+}

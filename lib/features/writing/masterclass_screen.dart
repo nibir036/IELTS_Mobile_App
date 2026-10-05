@@ -275,7 +275,7 @@ class _MasterclassScreenState extends State<MasterclassScreen> {
 
     return Scaffold(
       backgroundColor: t.bg,
-      body: SafeArea(
+      body: BackOnScrollUp(child: SafeArea(
         child: Stack(
           children: [
             SingleChildScrollView(
@@ -382,8 +382,8 @@ class _MasterclassScreenState extends State<MasterclassScreen> {
                       width: 60,
                       height: 60,
                       alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                        color: t.primary,
+                      decoration: const BoxDecoration(
+                        gradient: kPeachGradient,
                         shape: BoxShape.circle,
                       ),
                       child: FittedBox(
@@ -397,16 +397,16 @@ class _MasterclassScreenState extends State<MasterclassScreen> {
                               style: TextStyle(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w400,
-                                color: wc(t, 0xFF9A9A9A, 0xFF5A5446),
+                                color: kOnPeach.withValues(alpha: 0.6),
                               ),
                             ),
                           ],
                         ),
                         maxLines: 1,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 22,
-                          fontWeight: FontWeight.w500,
-                          color: t.onPrimary,
+                          fontWeight: FontWeight.w600,
+                          color: kOnPeach,
                         ),
                       ),
                       ),
@@ -444,7 +444,7 @@ class _MasterclassScreenState extends State<MasterclassScreen> {
             ),
           ],
         ),
-      ),
+      )),
     );
   }
 }
@@ -645,7 +645,7 @@ class _PlayerCard extends StatelessWidget {
           ProgressBar(
             value: elapsed / duration,
             height: 6,
-            track: wc(t, 0xFFF5EEF2, 0xFF2B2B2B),
+            track: wc(t, 0xFFFBF5F3, 0xFF2A2E44),
           ),
         ],
       ),
@@ -686,10 +686,10 @@ class _LessonPill extends StatelessWidget {
       return Container(
         height: 76,
         decoration: BoxDecoration(
-          color: wc(t, 0xFFFFFFFF, 0xFF1F1F1F),
+          color: wc(t, 0xFFFFFFFF, 0xFF1C2030),
           borderRadius: BorderRadius.circular(999),
           border: Border.all(
-            color: wc(t, 0xFFEADFE6, 0xFF3A3A3A),
+            color: wc(t, 0xFFF0E2DD, 0xFF3A3A3A),
             width: 1.5,
           ),
         ),

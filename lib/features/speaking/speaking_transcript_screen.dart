@@ -11,8 +11,8 @@ import 'speaking_audio.dart';
 import 'widgets.dart';
 
 /// Pause chip / filler highlight colours (same in Day and Night on the canvas).
-const Color _pauseBg = Color(0xFFDCDDFA);
-const Color _fillerBg = Color(0xFFF9D6E2);
+const Color _pauseBg = Color(0xFFDCE6FF);
+const Color _fillerBg = Color(0xFFFFE2D8);
 const Color _chipText = Color(0xFF151515);
 
 /// D5 · Live transcription with highlighted fillers, pauses and
@@ -248,8 +248,8 @@ class _SpeakingTranscriptScreenState extends State<SpeakingTranscriptScreen> {
             child: Text(
               isDemo
                   ? (offline
-                      ? 'Sample transcript — estimated offline.'
-                      : 'Sample transcript — live speech-to-text turns on when the AI server is connected.')
+                      ? 'Sample transcript - estimated offline.'
+                      : 'Sample transcript - live speech-to-text turns on when the AI server is connected.')
                   : 'Estimated offline (AI unavailable)',
               style: TextStyle(fontSize: 12, color: t.textMuted),
             ),

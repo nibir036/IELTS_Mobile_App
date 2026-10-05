@@ -42,7 +42,7 @@ String mockNumberLabel(Attempt a) {
   return m == null ? '–' : m.group(1)!;
 }
 
-/// "Mock Test 08" — the title the student's next mock will get.
+/// "Mock Test 08"- the title the student's next mock will get.
 String mockNextTitle() => mockTitleFor(mockAttempts().length + 1);
 
 String mockTitleFor(int n) => 'Mock Test ${n.toString().padLeft(2, '0')}';
@@ -163,7 +163,7 @@ class MockSession {
   /// The number the mock being scored will get ("Mock Test 08" → 8).
   static int get nextNumber => mockAttempts().length + 1;
 
-  /// AI lists may hold strings or small objects — keep readable strings.
+  /// AI lists may hold strings or small objects - keep readable strings.
   static List<String> _texts(dynamic v) {
     final out = <String>[];
     if (v is! List) return out;
@@ -417,7 +417,7 @@ class MockSession {
     final lBand = objective.d('listeningBand');
     final rBand = objective.d('readingBand');
 
-    // Writing — Task 2 weighs double.
+    // Writing - Task 2 weighs double.
     final wBand = Store.roundBand((w1.d('band') + 2 * w2.d('band')) / 3);
     final wCrit = <String, dynamic>{
       for (final k in _writingKeys) k: Store.roundBand((w1.d(k) + 2 * w2.d(k)) / 3),

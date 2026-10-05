@@ -6,6 +6,7 @@ import 'app/app.dart';
 import 'app/data/demo.dart';
 import 'app/data/l10n.dart';
 import 'app/data/store.dart';
+import 'app/services/notification_service.dart';
 import 'app/services/sync_service.dart';
 
 /// IELTS AI by nextED.
@@ -22,5 +23,6 @@ Future<void> main() async {
   SyncService.I.init();
   unawaited(SyncService.I.syncNow());
   await ContentL10n.init();
+  unawaited(NotificationService.I.init());
   runApp(const IeltsAiApp());
 }

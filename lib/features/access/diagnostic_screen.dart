@@ -69,17 +69,6 @@ class _DiagnosticScreenState extends State<DiagnosticScreen> {
     }
   }
 
-  static const _dayGradientA = LinearGradient(
-    begin: Alignment(-0.34, -0.94),
-    end: Alignment(0.34, 0.94),
-    colors: [Color(0xFFF9D6E2), Color(0xFFFCEEF3)],
-  );
-  static const _dayGradientB = LinearGradient(
-    begin: Alignment(-0.34, -0.94),
-    end: Alignment(0.34, 0.94),
-    colors: [Color(0xFFDCDDFA), Color(0xFFEEEFFD)],
-  );
-
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
@@ -119,7 +108,6 @@ class _DiagnosticScreenState extends State<DiagnosticScreen> {
         ),
         _ChoiceCard(
           selected: _choice == 0,
-          dayGradient: _dayGradientA,
           onTap: () => setState(() => _choice = 0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -131,12 +119,12 @@ class _DiagnosticScreenState extends State<DiagnosticScreen> {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                     decoration: BoxDecoration(
-                      color: t.heroFill,
+                      gradient: kPeachGradient,
                       borderRadius: BorderRadius.circular(999),
                     ),
                     child: const Text(
                       'Recommended',
-                      style: TextStyle(fontSize: 12, color: kOnDarkPill),
+                      style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: kOnPeach),
                     ),
                   ),
                   const Spacer(),
@@ -185,7 +173,6 @@ class _DiagnosticScreenState extends State<DiagnosticScreen> {
         ),
         _ChoiceCard(
           selected: _choice == 1,
-          dayGradient: _dayGradientB,
           onTap: () => setState(() => _choice = 1),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -283,13 +270,11 @@ class _DiagnosticScreenState extends State<DiagnosticScreen> {
 class _ChoiceCard extends StatelessWidget {
   const _ChoiceCard({
     required this.selected,
-    required this.dayGradient,
     required this.onTap,
     required this.child,
   });
 
   final bool selected;
-  final Gradient dayGradient;
   final VoidCallback onTap;
   final Widget child;
 
@@ -298,23 +283,34 @@ class _ChoiceCard extends StatelessWidget {
     final t = context.tk;
     return Container(
       decoration: BoxDecoration(
-        gradient: t.isNight ? t.heroGradient : dayGradient,
+        gradient: t.heroGradient,
         borderRadius: BorderRadius.circular(28),
         border: Border.all(
-          color: selected ? t.text : Colors.transparent,
+          color: selected ? t.peach : const Color(0x1FFFFFFF),
           width: 2,
         ),
+        boxShadow: t.isNight
+            ? null
+            : const [BoxShadow(color: Color(0x2E151827), blurRadius: 24, offset: Offset(0, 10))],
       ),
       child: Material(
         type: MaterialType.transparency,
         borderRadius: BorderRadius.circular(26),
         clipBehavior: Clip.antiAlias,
-        child: InkWell(
-          onTap: onTap,
-          child: Padding(
-            padding: const EdgeInsets.all(20),
-            child: child,
-          ),
+        child: Stack(
+          children: [
+            const Positioned.fill(child: HeroGlow()),
+            InkWell(
+              onTap: onTap,
+              child: Padding(
+                padding: const EdgeInsets.all(20),
+                child: DefaultTextStyle.merge(
+                  style: TextStyle(color: t.heroText),
+                  child: child,
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
@@ -333,8 +329,8 @@ class _Radio extends StatelessWidget {
       return Container(
         width: 26,
         height: 26,
-        decoration: BoxDecoration(color: t.heroFill, shape: BoxShape.circle),
-        child: const Icon(AppIcons.check, size: 14, color: kOnDarkPill),
+        decoration: BoxDecoration(color: t.peach, shape: BoxShape.circle),
+        child: const Icon(AppIcons.check, size: 14, color: kOnPeach),
       );
     }
     return Container(
@@ -343,7 +339,7 @@ class _Radio extends StatelessWidget {
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         border: Border.all(
-          color: t.isNight ? const Color(0xFFDCCFA5) : const Color(0xFF9C9AC4),
+          color: t.heroMuted,
           width: 2,
         ),
       ),
@@ -362,7 +358,7 @@ class _SectionTile extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
-        color: t.isNight ? const Color(0x14151515) : const Color(0xB3FFFFFF),
+        color: t.heroChip,
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -407,16 +403,16 @@ class _PlanChip extends StatelessWidget {
     final t = context.tk;
     final Color bg;
     if (selected) {
-      bg = t.heroFill;
+      bg = t.peach;
     } else if (filled) {
-      bg = t.isNight ? t.heroChip : t.surface;
+      bg = t.heroChip;
     } else {
       bg = Colors.transparent;
     }
     final BorderSide side = selected || filled
         ? BorderSide.none
         : BorderSide(
-            color: t.isNight ? const Color(0xFFDCCFA5) : const Color(0xFFC9C8EC),
+            color: t.heroMuted.withValues(alpha: 0.5),
           );
     return Material(
       color: bg,
@@ -430,7 +426,8 @@ class _PlanChip extends StatelessWidget {
             label,
             style: TextStyle(
               fontSize: 13,
-              color: selected ? kOnDarkPill : t.heroText,
+              fontWeight: selected ? FontWeight.w600 : FontWeight.w400,
+              color: selected ? kOnPeach : t.heroText,
             ),
           ),
         ),

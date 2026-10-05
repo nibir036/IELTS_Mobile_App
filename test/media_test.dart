@@ -4,7 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:nexted_ielts_app/app/services/media.dart';
 
 /// Every media file the content points at is either bundled in the app
-/// (pubspec assets) or uploaded to R2 (a [Media] folder) — never neither.
+/// (pubspec assets) or uploaded to R2 (a [Media] folder) - never neither.
 void main() {
   test('content media paths are bundled or mapped to R2', () {
     final pubspec = File('pubspec.yaml').readAsStringSync();

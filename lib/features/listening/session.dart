@@ -390,8 +390,8 @@ class ListeningSession {
     _playerElapsedBefore = saved.i('elapsedSec');
   }
 
-  /// Opens the player for [setId] (resuming saved progress for it), or —
-  /// without an id — keeps the open session / resumes the saved one /
+  /// Opens the player for [setId] (resuming saved progress for it), or -
+  /// without an id - keeps the open session / resumes the saved one /
   /// starts the next set not yet practised.
   static void openPlayer({String? setId, String mode = '', bool fresh = false}) {
     if (!_mine()) playerActive = false;
@@ -488,7 +488,7 @@ class ListeningSession {
   /// Position inside the playing set's recording.
   static double sheetAudioSeconds = 0;
 
-  /// The whole recording has been played (it plays once — no replay).
+  /// The whole recording has been played (it plays once - no replay).
   static bool sheetAudioDone = false;
   static int sheetLimit = 1800;
   static DateTime _deadline = DateTime.now();
@@ -570,7 +570,7 @@ class ListeningSession {
       testId.isNotEmpty ? saved.s('testId') == testId : (setId.isNotEmpty && saved.s('setId') == setId);
 
   /// Opens the answer sheet for [testId] or [setId] (resuming saved progress
-  /// for it), or — without an id — keeps the open session / resumes the
+  /// for it), or - without an id - keeps the open session / resumes the
   /// saved one / starts the next full test.
   static void openSheet({String? testId, String? setId, bool fresh = false}) {
     if (!_mine()) sheetActive = false;

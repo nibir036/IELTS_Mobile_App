@@ -14,7 +14,7 @@ import '../reading/widgets.dart' show boldSpans;
 import 'widgets.dart';
 import 'word_sheet.dart';
 
-/// H7 · Academic Words Mastery — day-by-day word list. Per-word mastery
+/// H7 · Academic Words Mastery - day-by-day word list. Per-word mastery
 /// (new / learning / mastered) lives in the user's kv `resources.wordMastery`.
 class AcademicWordsScreen extends StatefulWidget {
   const AcademicWordsScreen({super.key});
@@ -155,21 +155,16 @@ class _AcademicWordsScreenState extends State<AcademicWordsScreen> {
         HeroCard(
           radius: 24,
           padding: const EdgeInsets.all(16),
-          gradient: t.isNight
-              ? null
-              : const LinearGradient(
-                  begin: Alignment(-0.64, -0.77),
-                  end: Alignment(0.64, 0.77),
-                  colors: [Color(0xFFDCDDFA), Color(0xFFF9D6E2)],
-                ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Day $current of $totalDays · $perDay words a day',
+                'Day $current of $totalDays · $perDay words a day'.toUpperCase(),
                 style: TextStyle(
-                  fontSize: 13,
-                  color: t.isNight ? t.heroText : t.textSoft,
+                  fontSize: 11,
+                  letterSpacing: 1.1,
+                  fontWeight: FontWeight.w600,
+                  color: t.peach,
                 ),
               ),
               const SizedBox(height: 2),

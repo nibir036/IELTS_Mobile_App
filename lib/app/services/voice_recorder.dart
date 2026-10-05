@@ -20,7 +20,7 @@ class Recording {
   final String path;
   final int durationMs;
 
-  /// 'wav' (default) — what the backend expects.
+  /// 'wav' (default) - what the backend expects.
   final String format;
   final Uint8List? bytes;
 

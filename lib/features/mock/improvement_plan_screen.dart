@@ -10,7 +10,7 @@ import '../../app/widgets/kit.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
 
-/// G10 · AI Actionable Improvement Plan — generated from the weakest
+/// G10 · AI Actionable Improvement Plan - generated from the weakest
 /// sections of a mock attempt (`routeArgs['attemptId']` or the latest mock).
 /// Checkbox state lives in kv `mock.plan.<attemptId>`.
 class ImprovementPlanScreen extends StatelessWidget {
@@ -288,7 +288,7 @@ class ImprovementPlanScreen extends StatelessWidget {
                 if (i > 0)
                   Container(
                     height: 1,
-                    color: t.isNight ? t.surfaceAlt2 : const Color(0xFFF1E8ED),
+                    color: t.isNight ? t.surfaceAlt2 : const Color(0xFFF6EAE6),
                   ),
                 _GainRow(row: gains[i]),
               ],
@@ -321,13 +321,13 @@ class _GainRow extends StatelessWidget {
   static Color _tint(String skill) {
     switch (skill) {
       case 'writing':
-        return const Color(0xFFF9D6E2);
+        return const Color(0xFFFFE2D8);
       case 'listening':
-        return const Color(0xFFDCDDFA);
+        return const Color(0xFFDCE6FF);
       case 'speaking':
-        return const Color(0xFFF7C6D6);
+        return const Color(0xFFFFD2C4);
       default:
-        return const Color(0xFFEEEFFD);
+        return const Color(0xFFE9EFFF);
     }
   }
 
@@ -393,11 +393,11 @@ class _WeekCard extends StatelessWidget {
     final onHero = tint == 'lavender' || tint == 'pink';
     final text = onHero ? t.heroText : t.text;
     final muted = onHero ? t.heroMuted : t.textMuted;
-    final boxBorder = t.isNight
-        ? (onHero ? const Color(0xFFDCCFA5) : t.border)
-        : const Color(0xFFCFC2CA);
-    final doneBg = onHero ? kMockInk : t.primary;
-    final doneFg = onHero ? kMockCream : t.onPrimary;
+    final boxBorder = onHero
+        ? t.heroMuted
+        : (t.isNight ? t.border : const Color(0xFFDCC9C3));
+    final doneBg = onHero ? t.peach : t.primary;
+    final doneFg = onHero ? kOnPeach : t.onPrimary;
 
     final content = Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -463,21 +463,9 @@ class _WeekCard extends StatelessWidget {
         child: content,
       );
     }
-    final Gradient dayGradient = tint == 'lavender'
-        ? const LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [Color(0xFFEEEFFD), Color(0xFFDCDDFA)],
-          )
-        : const LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [Color(0xFFFBE5ED), Color(0xFFF9D6E2)],
-          );
     return HeroCard(
       radius: 24,
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
-      gradient: t.isNight ? null : dayGradient,
       child: content,
     );
   }

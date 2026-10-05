@@ -13,6 +13,7 @@ import { registerAuthRoutes } from './routes/auth';
 import { registerContentRoutes } from './routes/content';
 import { registerFileRoutes } from './routes/files';
 import { registerMeRoutes } from './routes/me';
+import { registerPlanRoutes } from './routes/plan';
 import { registerProgressRoutes } from './routes/progress';
 
 export function buildRouter(): Router {
@@ -25,6 +26,7 @@ export function buildRouter(): Router {
   registerMeRoutes(r);
   registerContentRoutes(r);
   registerProgressRoutes(r);
+  registerPlanRoutes(r);
   registerAiRoutes(r);
   registerFileRoutes(r);
   return r;

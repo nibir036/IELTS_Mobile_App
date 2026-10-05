@@ -8,8 +8,10 @@ import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import '../../app/widgets/speak_button.dart';
 import '../../app/widgets/user_avatar.dart';
+import '../plan/plan_widgets.dart';
 import '../shell/main_shell.dart';
 import 'dashboard_empty_screen.dart';
 import 'profile_sheet.dart';
@@ -36,6 +38,7 @@ class DashboardScreen extends StatelessWidget {
       children: [
         _header(context, store, acc),
         _hero(context, store, acc),
+        const TodayPlanCard(),
         _studyTime(context, store),
         for (var r = 0; r < skills.length; r += 2)
           Row(
@@ -112,89 +115,80 @@ class DashboardScreen extends StatelessWidget {
     final hasResume = resumeLabel.isNotEmpty && resumeRoute.isNotEmpty;
 
     return HeroCard(
-      padding: const EdgeInsets.all(18),
+      padding: const EdgeInsets.fromLTRB(20, 18, 12, 18),
       radius: 32,
-      child: Row(
-        spacing: 16,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        spacing: 12,
         children: [
-          RingProgress(
-            value: est == null ? 0 : est / 9,
-            size: 116,
-            stroke: 10,
-            onHero: true,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(
-                  Store.formatBand(est),
-                  style: TextStyle(
-                    fontSize: 38,
-                    fontWeight: FontWeight.w400,
-                    height: 1,
-                    letterSpacing: -1,
-                    color: t.heroText,
-                  ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  'Est. band',
-                  style: TextStyle(fontSize: 11, color: t.heroMuted),
-                ),
-              ],
-            ),
-          ),
-          Expanded(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              spacing: 10,
-              children: [
-                InkWell(
-                  onTap: () => showEditProfileSheet(context),
-                  child: KeyValueRow(
-                    'Target',
-                    acc?.targetBand == null ? 'Set' : Store.formatBand(acc!.targetBand),
-                    labelColor: t.heroMuted,
-                  ),
-                ),
-                InkWell(
-                  onTap: () => showEditProfileSheet(context),
-                  child: days == null
-                      ? KeyValueRow('Exam in', 'Set exam date', labelColor: t.heroMuted)
-                      : KeyValueRow(
-                          'Exam in',
-                          days < 0 ? 'Done' : (days == 1 ? '1 day' : '$days days'),
-                          labelColor: t.heroMuted,
-                        ),
-                ),
-                Hairline(color: t.heroDivider),
-                InkWell(
-                  onTap: () {
-                    if (hasResume) {
-                      openStoredRoute(context, resumeRoute, resumeArgs);
-                    } else {
-                      MainShell.of(context)?.select(1);
-                    }
-                  },
-                  borderRadius: BorderRadius.circular(8),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Text(
-                          hasResume ? resumeLabel : 'Start practising',
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w500,
-                            color: t.heroText,
-                          ),
-                        ),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            spacing: 8,
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  spacing: 8,
+                  children: [
+                    Text(
+                      'Est. band'.toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 11,
+                        letterSpacing: 1.1,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
                       ),
-                      Icon(AppIcons.forward, size: 18, color: t.heroText),
-                    ],
-                  ),
+                    ),
+                    Text(
+                      Store.formatBand(est),
+                      style: TextStyle(
+                        fontSize: 40,
+                        fontWeight: FontWeight.w400,
+                        height: 1,
+                        letterSpacing: -1,
+                        color: t.heroText,
+                      ),
+                    ),
+                    ProgressBar(value: est == null ? 0 : est / 9, height: 6, onHero: true),
+                    InkWell(
+                      onTap: () => showEditProfileSheet(context),
+                      child: KeyValueRow(
+                        'Target',
+                        acc?.targetBand == null ? 'Set' : Store.formatBand(acc!.targetBand),
+                        labelColor: t.heroMuted,
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () => showEditProfileSheet(context),
+                      child: days == null
+                          ? KeyValueRow('Exam in', 'Set exam date', labelColor: t.heroMuted)
+                          : KeyValueRow(
+                              'Exam in',
+                              days < 0 ? 'Done' : (days == 1 ? '1 day' : '$days days'),
+                              labelColor: t.heroMuted,
+                            ),
+                    ),
+                  ],
                 ),
-              ],
+              ),
+              const Nexi(NexiPose.wave, height: 110),
+            ],
+          ),
+          Padding(
+            padding: const EdgeInsets.only(right: 8),
+            child: PrimaryButton(
+              label: hasResume ? resumeLabel : 'Start practising',
+              trailing: AppIcons.forward,
+              height: 46,
+              fontSize: 14,
+              onTap: () {
+                if (hasResume) {
+                  openStoredRoute(context, resumeRoute, resumeArgs);
+                } else {
+                  MainShell.of(context)?.select(1);
+                }
+              },
             ),
           ),
         ],

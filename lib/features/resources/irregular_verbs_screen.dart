@@ -13,7 +13,7 @@ import '../reading/widgets.dart' show boldSpans;
 import 'irregular_verbs_practice.dart';
 import 'widgets.dart';
 
-/// H8 · Irregular Verbs — searchable, letter-filtered verb table.
+/// H8 · Irregular Verbs - searchable, letter-filtered verb table.
 class IrregularVerbsScreen extends StatefulWidget {
   const IrregularVerbsScreen({super.key});
 

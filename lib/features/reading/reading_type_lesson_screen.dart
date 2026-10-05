@@ -180,12 +180,12 @@ class _ReadingTypeLessonScreenState extends State<ReadingTypeLessonScreen> with 
                         height: 28,
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
-                          color: toneBg(t, i.isEven ? 'pink' : 'lavender'),
+                          color: t.peach,
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Text(
                           '${i + 1}',
-                          style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: kInk),
+                          style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: kOnPeach),
                         ),
                       ),
                       Expanded(

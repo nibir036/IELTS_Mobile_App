@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/material.dart';
 
 import '../../app/data/demo.dart';
@@ -176,14 +177,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               height: 26,
                               alignment: Alignment.center,
                               decoration: BoxDecoration(
-                                color: t.primary,
+                                color: t.peach,
                                 shape: BoxShape.circle,
                                 border: Border.all(color: t.surface, width: 2),
                               ),
-                              child: Icon(
+                              child: const Icon(
                                 AppIcons.camera,
                                 size: 13,
-                                color: t.onPrimary,
+                                color: kOnPeach,
                               ),
                             ),
                           ),
@@ -326,19 +327,23 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ),
             _SettingRow(
               icon: AppIcons.bell,
-              title: 'Study reminders',
-              padding: const EdgeInsets.fromLTRB(16, 0, 12, 0),
-              onTap: () => Store.I.setKv(_remindersKey, !reminders),
-              trailing: PillSwitch(
-                value: reminders,
-                onChanged: (v) => Store.I.setKv(_remindersKey, v),
-              ),
+              title: 'Notifications',
+              trailingText: reminders ? 'On' : 'Off',
+              onTap: () => context.push(Routes.notificationSettings),
             ),
             _SettingRow(
               icon: AppIcons.translate,
               title: 'Explanation language',
               trailingText: contentLang(FeedbackLanguage.current).native,
               onTap: () => showLanguageSheet(context),
+            ),
+            // Developer tool: only in debug builds, hidden in release.
+            if (kDebugMode)
+            _SettingRow(
+              icon: AppIcons.grid,
+              title: 'Screen gallery',
+              subtitle: 'All 75 designed screens',
+              onTap: () => context.push(Routes.gallery),
             ),
             _SettingRow(
               icon: AppIcons.doc,

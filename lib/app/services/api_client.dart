@@ -129,7 +129,7 @@ class ApiClient {
   static Map<String, dynamic> _decode(http.Response res) {
     Map<String, dynamic> body = <String, dynamic>{};
     try {
-      final decoded = jsonDecode(utf8.decode(res.bodyBytes));
+      final decoded = jsonDecode(plainDashes(utf8.decode(res.bodyBytes)));
       if (decoded is Map) body = decoded.cast<String, dynamic>();
     } catch (_) {}
     if (res.statusCode < 200 || res.statusCode >= 300) {
@@ -265,4 +265,32 @@ class ApiClient {
 
   /// Absolute URL for a stored recording key (needs [headers] to fetch).
   static String uploadUrl(String key) => _uri('/v1/uploads/$key').toString();
+}
+
+/// Replaces em dashes (U+2014) with a normal dash, spaced like the rest of
+/// the app ("word - word"). Applied to every server response, so AI feedback
+/// written by the model never shows em dashes. Works on raw JSON text: the
+/// dash is never part of the JSON syntax itself.
+String plainDashes(String s) {
+  const em = '\u2014';
+  const bs = '\\';
+  if (s.contains('${bs}u2014')) s = s.replaceAll('${bs}u2014', em);
+  if (!s.contains(em)) return s;
+  final text = s;
+  return text.replaceAllMapped(RegExp('[ \t]*$em[ \t]*'), (m) {
+    final b1 = m.start > 0 ? text[m.start - 1] : '';
+    final b2 = m.start > 1 ? text[m.start - 2] : '';
+    final after = m.end < text.length ? text[m.end] : '';
+    final a2 = m.end + 1 < text.length ? text[m.end + 1] : '';
+    // Start of a JSON string, or right after an escaped line break.
+    final noLead = b1.isEmpty ||
+        (b1 == '"' && b2 != bs) ||
+        (b1 == 'n' && b2 == bs) ||
+        '([{'.contains(b1);
+    // End of a JSON string, an escaped line break, or punctuation.
+    final noTrail = after.isEmpty ||
+        (after == bs && a2 == 'n') ||
+        '")]},.;:'.contains(after);
+    return '${noLead ? '' : ' '}-${noTrail ? '' : ' '}';
+  });
 }

@@ -17,6 +17,8 @@ Settings to fill in `server\.env` (see `.env.example`):
 |---|---|
 | `SMS_PROVIDER=alpha` + `ALPHA_SMS_API_KEY` | Real OTP SMS. With `console` the code is printed in the server window and returned to the app as `devCode`. |
 | `GEMINI_API_KEY` | Writing grading + rewrite with Gemini (`GEMINI_WRITING_MODEL`, default `gemini-3.6-flash`) — same examiner prompt as the website |
+| `PLAN_AI`, `GEMINI_PLAN_MODEL` | Study plan AI (weekly note + why-lines per task, uses the Gemini key): `all` (default), `pro` (paid only) or `off` (rules only). Optional separate model; empty = the writing model |
+| `PLAN_HOURS_PER_HALF_BAND` | Study plan estimate: hours of study per half band with all four modules (default 50) |
 | `OPENROUTER_API_KEY` | Speaking-partner chat; writing grading only when no Gemini key is set (or `WRITING_PROVIDER=openrouter`) |
 | `SPEAKING_API_BASE_URL`, `SPEAKING_API_KEY` | The NextED_IELTS_Speaking service (Groq Whisper + RunPod + Groq LLM, same as the website); the key = its `INTERNAL_API_KEY` |
 | `R2_*` | Recordings, profile photos, voice messages (optional while testing) |

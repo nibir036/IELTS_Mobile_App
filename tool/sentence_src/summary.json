@@ -1,0 +1,2063 @@
+{
+ "category": "summary",
+ "drills": [
+  {
+   "id": "summary_001",
+   "connector": "in general",
+   "function": "Generalising",
+   "sentences": [
+    "Some city parks are untidy.",
+    "Most parks are clean and safe."
+   ],
+   "answer": [
+    "Some city parks",
+    "are untidy;",
+    "in general,",
+    "most parks are",
+    "clean and safe."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "After the exception and a semicolon, \"in general,\" gives the usual situation.",
+   "level": 1
+  },
+  {
+   "id": "summary_002",
+   "connector": "in general",
+   "function": "Generalising",
+   "sentences": [
+    "People usually prefer short commutes.",
+    "Few enjoy long journeys to work."
+   ],
+   "answer": [
+    "In general,",
+    "people prefer",
+    "short commutes",
+    "and dislike",
+    "long journeys."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Start with \"In general,\" and a comma, then the main clause.",
+   "level": 1
+  },
+  {
+   "id": "summary_003",
+   "connector": "in general",
+   "function": "Generalising",
+   "sentences": [
+    "A few pupils find maths easy.",
+    "Most pupils need extra practice."
+   ],
+   "answer": [
+    "A few pupils",
+    "find maths easy;",
+    "in general,",
+    "pupils need",
+    "extra practice."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "After the exception and a semicolon, \"in general,\" gives the usual situation.",
+   "level": 1
+  },
+  {
+   "id": "summary_004",
+   "connector": "in general",
+   "function": "Generalising",
+   "sentences": [
+    "Some flights are delayed by storms.",
+    "Most air travel runs on time."
+   ],
+   "answer": [
+    "Some flights",
+    "are delayed by storms;",
+    "in general,",
+    "air travel",
+    "runs on time."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "unless"
+   ],
+   "hint": "After the exception and a semicolon, \"in general,\" gives the usual situation.",
+   "level": 1
+  },
+  {
+   "id": "summary_005",
+   "connector": "in general",
+   "function": "Generalising",
+   "sentences": [
+    "Online reviews can be fake.",
+    "Most reviews give shoppers useful advice."
+   ],
+   "answer": [
+    "Online reviews",
+    "can be fake;",
+    "in general,",
+    "they give shoppers",
+    "useful advice."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so that",
+    "because"
+   ],
+   "hint": "After the exception and a semicolon, \"in general,\" gives the usual situation.",
+   "level": 3
+  },
+  {
+   "id": "summary_006",
+   "connector": "generally",
+   "function": "Generalising",
+   "sentences": [
+    "Small classes usually help students learn.",
+    "Teachers can give more attention."
+   ],
+   "answer": [
+    "Generally,",
+    "small classes",
+    "help students learn",
+    "because teachers can",
+    "give more attention."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Although"
+   ],
+   "hint": "Put \"Generally,\" at the start with a comma, then the usual pattern.",
+   "level": 1
+  },
+  {
+   "id": "summary_007",
+   "connector": "generally",
+   "function": "Generalising",
+   "sentences": [
+    "Older people usually sleep less.",
+    "They often wake up early."
+   ],
+   "answer": [
+    "Generally,",
+    "older people",
+    "sleep less",
+    "and wake up early."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Put \"Generally,\" at the start with a comma, then the usual pattern.",
+   "level": 1
+  },
+  {
+   "id": "summary_008",
+   "connector": "generally",
+   "function": "Generalising",
+   "sentences": [
+    "City centre rents are usually high.",
+    "Young people often live further out."
+   ],
+   "answer": [
+    "Generally,",
+    "city centre rents",
+    "are high,",
+    "so young people often",
+    "live further out."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Although"
+   ],
+   "hint": "Put \"Generally,\" at the start with a comma, then the usual pattern.",
+   "level": 2
+  },
+  {
+   "id": "summary_009",
+   "connector": "generally",
+   "function": "Generalising",
+   "sentences": [
+    "Most tourists visit in summer.",
+    "Hotels are quieter in winter."
+   ],
+   "answer": [
+    "Generally,",
+    "tourists visit",
+    "in summer,",
+    "so hotels are",
+    "quieter in winter."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Even though"
+   ],
+   "hint": "Put \"Generally,\" at the start with a comma, then the usual pattern.",
+   "level": 2
+  },
+  {
+   "id": "summary_010",
+   "connector": "generally",
+   "function": "Generalising",
+   "sentences": [
+    "Employees who feel valued usually work harder.",
+    "Their companies tend to perform better."
+   ],
+   "answer": [
+    "Generally,",
+    "employees who feel valued",
+    "work harder,",
+    "and their companies",
+    "perform better."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Whereas"
+   ],
+   "hint": "Put \"Generally,\" at the start with a comma, then the usual pattern.",
+   "level": 3
+  },
+  {
+   "id": "summary_011",
+   "connector": "on the whole",
+   "function": "Generalising",
+   "sentences": [
+    "The new library has some problems.",
+    "Most visitors are happy with it."
+   ],
+   "answer": [
+    "The new library",
+    "has some problems;",
+    "on the whole,",
+    "visitors are",
+    "happy with it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "Mention the exception first; then a semicolon and \"on the whole,\" for the general view.",
+   "level": 1
+  },
+  {
+   "id": "summary_012",
+   "connector": "on the whole",
+   "function": "Generalising",
+   "sentences": [
+    "The festival was crowded.",
+    "Most people enjoyed it."
+   ],
+   "answer": [
+    "The festival",
+    "was crowded;",
+    "on the whole,",
+    "people",
+    "enjoyed it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so that",
+    "because"
+   ],
+   "hint": "Mention the exception first; then a semicolon and \"on the whole,\" for the general view.",
+   "level": 1
+  },
+  {
+   "id": "summary_013",
+   "connector": "on the whole",
+   "function": "Generalising",
+   "sentences": [
+    "Most teenagers use social media sensibly.",
+    "Only a few spend too much time online."
+   ],
+   "answer": [
+    "On the whole,",
+    "teenagers use",
+    "social media sensibly,",
+    "and only a few",
+    "spend too long online."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Although"
+   ],
+   "hint": "Begin with \"On the whole,\" and a comma, then the general statement.",
+   "level": 2
+  },
+  {
+   "id": "summary_014",
+   "connector": "on the whole",
+   "function": "Generalising",
+   "sentences": [
+    "Some workers dislike open-plan offices.",
+    "Most find them sociable and lively."
+   ],
+   "answer": [
+    "Some workers",
+    "dislike open-plan offices;",
+    "on the whole,",
+    "staff find them",
+    "sociable and lively."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "unless"
+   ],
+   "hint": "Mention the exception first; then a semicolon and \"on the whole,\" for the general view.",
+   "level": 3
+  },
+  {
+   "id": "summary_015",
+   "connector": "on the whole",
+   "function": "Generalising",
+   "sentences": [
+    "Village life is mostly peaceful.",
+    "There is little crime or noise."
+   ],
+   "answer": [
+    "On the whole,",
+    "village life",
+    "is peaceful,",
+    "with little crime or noise."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Begin with \"On the whole,\" and a comma, then the general statement.",
+   "level": 1
+  },
+  {
+   "id": "summary_016",
+   "connector": "broadly speaking",
+   "function": "Generalising",
+   "sentences": [
+    "Most people want a healthy lifestyle.",
+    "Many lack time to exercise."
+   ],
+   "answer": [
+    "Broadly speaking,",
+    "most people want",
+    "a healthy lifestyle,",
+    "but many lack",
+    "time to exercise."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Start with \"Broadly speaking,\" and a comma, then give the general trend.",
+   "level": 2
+  },
+  {
+   "id": "summary_017",
+   "connector": "broadly speaking",
+   "function": "Generalising",
+   "sentences": [
+    "Some modern buildings are ugly.",
+    "Most new architecture is practical."
+   ],
+   "answer": [
+    "Some modern buildings",
+    "are ugly;",
+    "broadly speaking,",
+    "new architecture",
+    "is practical."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "Use a semicolon, then \"broadly speaking,\" to give the general picture.",
+   "level": 1
+  },
+  {
+   "id": "summary_018",
+   "connector": "broadly speaking",
+   "function": "Generalising",
+   "sentences": [
+    "Science degrees usually lead to well-paid jobs.",
+    "Arts degrees often pay less."
+   ],
+   "answer": [
+    "Broadly speaking,",
+    "science degrees lead",
+    "to well-paid jobs,",
+    "while arts degrees",
+    "often pay less."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Even if"
+   ],
+   "hint": "Start with \"Broadly speaking,\" and a comma, then give the general trend.",
+   "level": 2
+  },
+  {
+   "id": "summary_019",
+   "connector": "broadly speaking",
+   "function": "Generalising",
+   "sentences": [
+    "A few countries have cut emissions.",
+    "Global pollution is still rising."
+   ],
+   "answer": [
+    "A few countries",
+    "have cut emissions;",
+    "broadly speaking,",
+    "global pollution",
+    "is still rising."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so that"
+   ],
+   "hint": "Use a semicolon, then \"broadly speaking,\" to give the general picture.",
+   "level": 2
+  },
+  {
+   "id": "summary_020",
+   "connector": "broadly speaking",
+   "function": "Generalising",
+   "sentences": [
+    "Most children enjoy sport.",
+    "They like team games best."
+   ],
+   "answer": [
+    "Broadly speaking,",
+    "children enjoy sport",
+    "and like",
+    "team games best."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Start with \"Broadly speaking,\" and a comma, then give the general trend.",
+   "level": 1
+  },
+  {
+   "id": "summary_021",
+   "connector": "as a rule",
+   "function": "Generalising",
+   "sentences": [
+    "Supermarkets usually cut prices at night.",
+    "Fresh food is cheaper then."
+   ],
+   "answer": [
+    "As a rule,",
+    "supermarkets cut prices",
+    "at night,",
+    "so fresh food",
+    "is cheaper then."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Although"
+   ],
+   "hint": "Begin with \"As a rule,\" and a comma to describe what usually happens.",
+   "level": 1
+  },
+  {
+   "id": "summary_022",
+   "connector": "as a rule",
+   "function": "Generalising",
+   "sentences": [
+    "Teenagers usually go to bed late.",
+    "Early lessons are hard for them."
+   ],
+   "answer": [
+    "As a rule,",
+    "teenagers go to bed late,",
+    "so early lessons",
+    "are hard for them."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Whereas"
+   ],
+   "hint": "Begin with \"As a rule,\" and a comma to describe what usually happens.",
+   "level": 1
+  },
+  {
+   "id": "summary_023",
+   "connector": "as a rule",
+   "function": "Generalising",
+   "sentences": [
+    "Doctors normally see patients by appointment.",
+    "Emergencies are treated at once."
+   ],
+   "answer": [
+    "As a rule,",
+    "doctors see patients",
+    "by appointment,",
+    "but emergencies are",
+    "treated at once."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Begin with \"As a rule,\" and a comma to describe what usually happens.",
+   "level": 2
+  },
+  {
+   "id": "summary_024",
+   "connector": "as a rule",
+   "function": "Generalising",
+   "sentences": [
+    "Older buildings usually use more energy.",
+    "They have poor insulation."
+   ],
+   "answer": [
+    "As a rule,",
+    "older buildings",
+    "use more energy",
+    "because they have",
+    "poor insulation."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Even if"
+   ],
+   "hint": "Begin with \"As a rule,\" and a comma to describe what usually happens.",
+   "level": 2
+  },
+  {
+   "id": "summary_025",
+   "connector": "as a rule",
+   "function": "Generalising",
+   "sentences": [
+    "Graduates usually earn more over their careers.",
+    "This is not true in every field."
+   ],
+   "answer": [
+    "As a rule,",
+    "graduates earn more",
+    "over their careers,",
+    "although this",
+    "is not true in every field."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "So that"
+   ],
+   "hint": "Begin with \"As a rule,\" and a comma to describe what usually happens.",
+   "level": 3
+  },
+  {
+   "id": "summary_026",
+   "connector": "by and large",
+   "function": "Generalising",
+   "sentences": [
+    "Public transport in the city is reliable.",
+    "Buses sometimes run late."
+   ],
+   "answer": [
+    "By and large,",
+    "public transport",
+    "in the city is reliable,",
+    "although buses",
+    "sometimes run late."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Start with \"By and large,\" and a comma, then the main clause.",
+   "level": 2
+  },
+  {
+   "id": "summary_027",
+   "connector": "by and large",
+   "function": "Generalising",
+   "sentences": [
+    "The new smoking law has worked.",
+    "Fewer people now smoke in public."
+   ],
+   "answer": [
+    "By and large,",
+    "the new smoking law",
+    "has worked,",
+    "as fewer people",
+    "now smoke in public."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Even though"
+   ],
+   "hint": "Start with \"By and large,\" and a comma, then the main clause.",
+   "level": 2
+  },
+  {
+   "id": "summary_028",
+   "connector": "by and large",
+   "function": "Generalising",
+   "sentences": [
+    "Some online courses are poor.",
+    "Most offer good value for money."
+   ],
+   "answer": [
+    "Some online courses",
+    "are poor;",
+    "by and large,",
+    "most courses offer",
+    "good value for money."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "Give the exception, then a semicolon and \"by and large,\" for what is mostly true.",
+   "level": 2
+  },
+  {
+   "id": "summary_029",
+   "connector": "by and large",
+   "function": "Generalising",
+   "sentences": [
+    "Most farmers welcome new technology.",
+    "A few prefer traditional methods."
+   ],
+   "answer": [
+    "By and large,",
+    "farmers welcome",
+    "new technology,",
+    "though a few prefer",
+    "traditional methods."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "So that"
+   ],
+   "hint": "Start with \"By and large,\" and a comma, then the main clause.",
+   "level": 3
+  },
+  {
+   "id": "summary_030",
+   "connector": "for the most part",
+   "function": "Generalising",
+   "sentences": [
+    "Most hotel guests were satisfied.",
+    "A few complained about noise."
+   ],
+   "answer": [
+    "For the most part,",
+    "hotel guests were satisfied,",
+    "but a few",
+    "complained about noise."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Put \"For the most part,\" first, then the main clause and the exception.",
+   "level": 1
+  },
+  {
+   "id": "summary_031",
+   "connector": "for the most part",
+   "function": "Generalising",
+   "sentences": [
+    "The museum's visitors are mostly students.",
+    "Some are retired people."
+   ],
+   "answer": [
+    "For the most part,",
+    "the museum's visitors",
+    "are students,",
+    "while some",
+    "are retired."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Even if"
+   ],
+   "hint": "Put \"For the most part,\" first, then the main clause and the exception.",
+   "level": 2
+  },
+  {
+   "id": "summary_032",
+   "connector": "for the most part",
+   "function": "Generalising",
+   "sentences": [
+    "Some apprentices leave early.",
+    "Most complete their training."
+   ],
+   "answer": [
+    "Some apprentices",
+    "leave early;",
+    "for the most part,",
+    "apprentices complete",
+    "their training."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "After a semicolon, \"for the most part,\" tells us what is true in most cases.",
+   "level": 2
+  },
+  {
+   "id": "summary_033",
+   "connector": "for the most part",
+   "function": "Generalising",
+   "sentences": [
+    "The report's findings were mostly positive.",
+    "It raised some concerns about costs."
+   ],
+   "answer": [
+    "For the most part,",
+    "the report's findings",
+    "were positive,",
+    "but it raised",
+    "concerns about costs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Due to"
+   ],
+   "hint": "Put \"For the most part,\" first, then the main clause and the exception.",
+   "level": 3
+  },
+  {
+   "id": "summary_034",
+   "connector": "for the most part",
+   "function": "Generalising",
+   "sentences": [
+    "People in the survey mostly liked cycling.",
+    "Some found it dangerous."
+   ],
+   "answer": [
+    "For the most part,",
+    "people in the survey",
+    "liked cycling,",
+    "but some found",
+    "it dangerous."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Put \"For the most part,\" first, then the main clause and the exception.",
+   "level": 1
+  },
+  {
+   "id": "summary_035",
+   "connector": "in other words",
+   "function": "Clarifying",
+   "sentences": [
+    "The national population is ageing.",
+    "There are more older people."
+   ],
+   "answer": [
+    "The national population",
+    "is ageing;",
+    "in other words,",
+    "there are",
+    "more older people."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "After a semicolon, \"in other words,\" restates the first idea more simply.",
+   "level": 1
+  },
+  {
+   "id": "summary_036",
+   "connector": "in other words",
+   "function": "Clarifying",
+   "sentences": [
+    "Many jobs require a degree.",
+    "Without one, it is hard to find work."
+   ],
+   "answer": [
+    "Many jobs",
+    "require a degree;",
+    "in other words,",
+    "it is hard to find work",
+    "without one."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "because"
+   ],
+   "hint": "After a semicolon, \"in other words,\" restates the first idea more simply.",
+   "level": 1
+  },
+  {
+   "id": "summary_037",
+   "connector": "in other words",
+   "function": "Clarifying",
+   "sentences": [
+    "The company cut its workforce.",
+    "Many staff lost their jobs."
+   ],
+   "answer": [
+    "The company",
+    "cut its workforce;",
+    "in other words,",
+    "many staff",
+    "lost their jobs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "so that"
+   ],
+   "hint": "After a semicolon, \"in other words,\" restates the first idea more simply.",
+   "level": 1
+  },
+  {
+   "id": "summary_038",
+   "connector": "in other words",
+   "function": "Clarifying",
+   "sentences": [
+    "The city is becoming more diverse.",
+    "People from many cultures now live there."
+   ],
+   "answer": [
+    "The city",
+    "is becoming more diverse;",
+    "in other words,",
+    "people from many cultures",
+    "now live there."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "in contrast,"
+   ],
+   "hint": "After a semicolon, \"in other words,\" restates the first idea more simply.",
+   "level": 2
+  },
+  {
+   "id": "summary_039",
+   "connector": "in other words",
+   "function": "Clarifying",
+   "sentences": [
+    "Fast fashion has a short life cycle.",
+    "Clothes are thrown away quickly."
+   ],
+   "answer": [
+    "Fast fashion",
+    "has a short life cycle;",
+    "in other words,",
+    "clothes are",
+    "thrown away quickly."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "because"
+   ],
+   "hint": "After a semicolon, \"in other words,\" restates the first idea more simply.",
+   "level": 3
+  },
+  {
+   "id": "summary_040",
+   "connector": "that is to say",
+   "function": "Clarifying",
+   "sentences": [
+    "The scheme is cost-effective.",
+    "It gives good results for little money."
+   ],
+   "answer": [
+    "The scheme",
+    "is cost-effective;",
+    "that is to say,",
+    "it gives good results",
+    "for little money."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "\"That is to say,\" follows a semicolon and explains the first idea in plainer words.",
+   "level": 2
+  },
+  {
+   "id": "summary_041",
+   "connector": "that is to say",
+   "function": "Clarifying",
+   "sentences": [
+    "Obesity rates are rising among children.",
+    "More young people are seriously overweight."
+   ],
+   "answer": [
+    "Obesity rates",
+    "are rising among children;",
+    "that is to say,",
+    "more young people",
+    "are seriously overweight."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "however,"
+   ],
+   "hint": "\"That is to say,\" follows a semicolon and explains the first idea in plainer words.",
+   "level": 3
+  },
+  {
+   "id": "summary_042",
+   "connector": "that is to say",
+   "function": "Clarifying",
+   "sentences": [
+    "The region relies on tourism.",
+    "Most local income comes from visitors."
+   ],
+   "answer": [
+    "The region",
+    "relies on tourism;",
+    "that is to say,",
+    "most local income",
+    "comes from visitors."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "unless"
+   ],
+   "hint": "\"That is to say,\" follows a semicolon and explains the first idea in plainer words.",
+   "level": 3
+  },
+  {
+   "id": "summary_043",
+   "connector": "that is to say",
+   "function": "Clarifying",
+   "sentences": [
+    "The internet has made the world smaller.",
+    "People connect easily across long distances."
+   ],
+   "answer": [
+    "The internet",
+    "has made the world smaller;",
+    "that is to say,",
+    "people connect easily",
+    "across long distances."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "because"
+   ],
+   "hint": "\"That is to say,\" follows a semicolon and explains the first idea in plainer words.",
+   "level": 2
+  },
+  {
+   "id": "summary_044",
+   "connector": "to put it another way",
+   "function": "Clarifying",
+   "sentences": [
+    "Housing is unaffordable for many workers.",
+    "Their wages do not cover rent."
+   ],
+   "answer": [
+    "Housing is",
+    "unaffordable for workers;",
+    "to put it another way,",
+    "their wages",
+    "do not cover rent."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "Use a semicolon, then \"to put it another way,\" to repeat the idea simply.",
+   "level": 2
+  },
+  {
+   "id": "summary_045",
+   "connector": "to put it another way",
+   "function": "Clarifying",
+   "sentences": [
+    "Automation will change the labour market.",
+    "Many jobs will look very different."
+   ],
+   "answer": [
+    "Automation",
+    "will change the labour market;",
+    "to put it another way,",
+    "many jobs will",
+    "look very different."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "although"
+   ],
+   "hint": "Use a semicolon, then \"to put it another way,\" to repeat the idea simply.",
+   "level": 3
+  },
+  {
+   "id": "summary_046",
+   "connector": "to put it another way",
+   "function": "Clarifying",
+   "sentences": [
+    "The library is underused.",
+    "Few people visit it."
+   ],
+   "answer": [
+    "The library",
+    "is underused;",
+    "to put it another way,",
+    "few people",
+    "visit it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "Use a semicolon, then \"to put it another way,\" to repeat the idea simply.",
+   "level": 2
+  },
+  {
+   "id": "summary_047",
+   "connector": "to put it another way",
+   "function": "Clarifying",
+   "sentences": [
+    "The town's recycling rate is low.",
+    "Most rubbish goes to landfill."
+   ],
+   "answer": [
+    "The town's",
+    "recycling rate is low;",
+    "to put it another way,",
+    "most rubbish",
+    "goes to landfill."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "otherwise,"
+   ],
+   "hint": "Use a semicolon, then \"to put it another way,\" to repeat the idea simply.",
+   "level": 2
+  },
+  {
+   "id": "summary_048",
+   "connector": "in conclusion",
+   "function": "Concluding",
+   "sentences": [
+    "Online learning is cheap and flexible.",
+    "It is a good option for adults."
+   ],
+   "answer": [
+    "Online learning",
+    "is cheap and flexible;",
+    "in conclusion,",
+    "it is a good option",
+    "for adults."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "however,"
+   ],
+   "hint": "Give the evidence first; \"in conclusion,\" after a semicolon introduces the final view.",
+   "level": 1
+  },
+  {
+   "id": "summary_049",
+   "connector": "in conclusion",
+   "function": "Concluding",
+   "sentences": [
+    "Tourism brings jobs and money.",
+    "Its benefits outweigh its drawbacks."
+   ],
+   "answer": [
+    "Tourism",
+    "brings jobs and money;",
+    "in conclusion,",
+    "its benefits outweigh",
+    "its drawbacks."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "because"
+   ],
+   "hint": "Give the evidence first; \"in conclusion,\" after a semicolon introduces the final view.",
+   "level": 1
+  },
+  {
+   "id": "summary_050",
+   "connector": "in conclusion",
+   "function": "Concluding",
+   "sentences": [
+    "Green spaces improve health and mood.",
+    "Every city needs more parks."
+   ],
+   "answer": [
+    "Green spaces",
+    "improve health and mood;",
+    "in conclusion,",
+    "every city",
+    "needs more parks."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "for example,"
+   ],
+   "hint": "Give the evidence first; \"in conclusion,\" after a semicolon introduces the final view.",
+   "level": 1
+  },
+  {
+   "id": "summary_051",
+   "connector": "in conclusion",
+   "function": "Concluding",
+   "sentences": [
+    "Homework builds good habits.",
+    "It should not be banned."
+   ],
+   "answer": [
+    "In conclusion,",
+    "homework builds",
+    "good habits",
+    "and should not",
+    "be banned."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Even if"
+   ],
+   "hint": "Begin with \"In conclusion,\" and a comma, then the final view.",
+   "level": 2
+  },
+  {
+   "id": "summary_052",
+   "connector": "in conclusion",
+   "function": "Concluding",
+   "sentences": [
+    "Advertising shapes what children want.",
+    "Stricter rules on adverts are needed."
+   ],
+   "answer": [
+    "Advertising shapes",
+    "what children want;",
+    "in conclusion,",
+    "stricter rules on adverts",
+    "are needed."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "unless"
+   ],
+   "hint": "Give the evidence first; \"in conclusion,\" after a semicolon introduces the final view.",
+   "level": 3
+  },
+  {
+   "id": "summary_053",
+   "connector": "to conclude",
+   "function": "Concluding",
+   "sentences": [
+    "Space research has led to useful inventions.",
+    "It is worth the money."
+   ],
+   "answer": [
+    "Space research",
+    "has led to useful inventions;",
+    "to conclude,",
+    "it is",
+    "worth the money."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "Evidence first, then a semicolon and \"to conclude,\" before the overall judgement.",
+   "level": 2
+  },
+  {
+   "id": "summary_054",
+   "connector": "to conclude",
+   "function": "Concluding",
+   "sentences": [
+    "Working from home saves commuting time.",
+    "It suits many employees."
+   ],
+   "answer": [
+    "Working from home",
+    "saves commuting time;",
+    "to conclude,",
+    "it suits",
+    "many employees."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "otherwise,"
+   ],
+   "hint": "Evidence first, then a semicolon and \"to conclude,\" before the overall judgement.",
+   "level": 1
+  },
+  {
+   "id": "summary_055",
+   "connector": "to conclude",
+   "function": "Concluding",
+   "sentences": [
+    "Zoos protect rare species.",
+    "They have a useful role today."
+   ],
+   "answer": [
+    "Zoos",
+    "protect rare species;",
+    "to conclude,",
+    "they have",
+    "a useful role today."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "in contrast,"
+   ],
+   "hint": "Evidence first, then a semicolon and \"to conclude,\" before the overall judgement.",
+   "level": 2
+  },
+  {
+   "id": "summary_056",
+   "connector": "to conclude",
+   "function": "Concluding",
+   "sentences": [
+    "Learning a second language helps memory and careers.",
+    "It should start at primary school."
+   ],
+   "answer": [
+    "Learning a second language",
+    "helps memory and careers;",
+    "to conclude,",
+    "it should start",
+    "at primary school."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "unless"
+   ],
+   "hint": "Evidence first, then a semicolon and \"to conclude,\" before the overall judgement.",
+   "level": 2
+  },
+  {
+   "id": "summary_057",
+   "connector": "in summary",
+   "function": "Concluding",
+   "sentences": [
+    "Cycling is cheap, healthy and green.",
+    "It is the best way to travel in towns."
+   ],
+   "answer": [
+    "Cycling",
+    "is cheap, healthy and green;",
+    "in summary,",
+    "it is the best way",
+    "to travel in towns."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "After a semicolon, \"in summary,\" sums up what the evidence shows.",
+   "level": 1
+  },
+  {
+   "id": "summary_058",
+   "connector": "in summary",
+   "function": "Concluding",
+   "sentences": [
+    "Fewer people now buy newspapers.",
+    "Print media is in decline."
+   ],
+   "answer": [
+    "Fewer people",
+    "now buy newspapers;",
+    "in summary,",
+    "print media",
+    "is in decline."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "in contrast,"
+   ],
+   "hint": "After a semicolon, \"in summary,\" sums up what the evidence shows.",
+   "level": 1
+  },
+  {
+   "id": "summary_059",
+   "connector": "in summary",
+   "function": "Concluding",
+   "sentences": [
+    "The data shows rising sales and profits.",
+    "The company had a strong year."
+   ],
+   "answer": [
+    "The data shows",
+    "rising sales and profits;",
+    "in summary,",
+    "the company",
+    "had a strong year."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "unless"
+   ],
+   "hint": "After a semicolon, \"in summary,\" sums up what the evidence shows.",
+   "level": 2
+  },
+  {
+   "id": "summary_060",
+   "connector": "in summary",
+   "function": "Concluding",
+   "sentences": [
+    "The plan is expensive.",
+    "It is very effective."
+   ],
+   "answer": [
+    "In summary,",
+    "the plan",
+    "is expensive",
+    "but very effective."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Start with \"In summary,\" and a comma, then the overall picture.",
+   "level": 2
+  },
+  {
+   "id": "summary_061",
+   "connector": "in summary",
+   "function": "Concluding",
+   "sentences": [
+    "Mobile phones help pupils research.",
+    "They distract pupils in class."
+   ],
+   "answer": [
+    "In summary,",
+    "mobile phones",
+    "help pupils research",
+    "but distract them in class."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Due to"
+   ],
+   "hint": "Start with \"In summary,\" and a comma, then the overall picture.",
+   "level": 3
+  },
+  {
+   "id": "summary_062",
+   "connector": "to sum up",
+   "function": "Concluding",
+   "sentences": [
+    "Exercise helps the body and mind.",
+    "Everyone should stay active."
+   ],
+   "answer": [
+    "Exercise",
+    "helps the body and mind;",
+    "to sum up,",
+    "everyone should",
+    "stay active."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "State the facts, then a semicolon and \"to sum up,\" for the overall point.",
+   "level": 1
+  },
+  {
+   "id": "summary_063",
+   "connector": "to sum up",
+   "function": "Concluding",
+   "sentences": [
+    "The town has jobs, schools and parks.",
+    "It is a good place for families."
+   ],
+   "answer": [
+    "The town",
+    "has jobs, schools and parks;",
+    "to sum up,",
+    "it is a good place",
+    "for families."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "in contrast,"
+   ],
+   "hint": "State the facts, then a semicolon and \"to sum up,\" for the overall point.",
+   "level": 1
+  },
+  {
+   "id": "summary_064",
+   "connector": "to sum up",
+   "function": "Concluding",
+   "sentences": [
+    "Fast food is cheap but unhealthy.",
+    "It should be eaten rarely."
+   ],
+   "answer": [
+    "To sum up,",
+    "fast food",
+    "is cheap but unhealthy",
+    "and should be eaten rarely."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because of"
+   ],
+   "hint": "Put \"To sum up,\" first, then one clause that sums up both points.",
+   "level": 2
+  },
+  {
+   "id": "summary_065",
+   "connector": "to sum up",
+   "function": "Concluding",
+   "sentences": [
+    "Social media connects people.",
+    "It also spreads false news."
+   ],
+   "answer": [
+    "To sum up,",
+    "social media",
+    "connects people",
+    "but also spreads false news."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Although"
+   ],
+   "hint": "Put \"To sum up,\" first, then one clause that sums up both points.",
+   "level": 1
+  },
+  {
+   "id": "summary_066",
+   "connector": "to sum up",
+   "function": "Concluding",
+   "sentences": [
+    "Higher fuel taxes cut traffic and fund repairs.",
+    "They are a sensible policy."
+   ],
+   "answer": [
+    "Higher fuel taxes",
+    "cut traffic and fund repairs;",
+    "to sum up,",
+    "they are",
+    "a sensible policy."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "unless"
+   ],
+   "hint": "State the facts, then a semicolon and \"to sum up,\" for the overall point.",
+   "level": 3
+  },
+  {
+   "id": "summary_067",
+   "connector": "on balance",
+   "function": "Concluding",
+   "sentences": [
+    "School uniforms have some drawbacks.",
+    "They do more good than harm."
+   ],
+   "answer": [
+    "School uniforms",
+    "have some drawbacks;",
+    "on balance,",
+    "they do",
+    "more good than harm."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "Give one side, then a semicolon and \"on balance,\" for the view after weighing it up.",
+   "level": 1
+  },
+  {
+   "id": "summary_068",
+   "connector": "on balance",
+   "function": "Concluding",
+   "sentences": [
+    "City living can be stressful.",
+    "Its opportunities make it worthwhile."
+   ],
+   "answer": [
+    "City living",
+    "can be stressful;",
+    "on balance,",
+    "its opportunities",
+    "make it worthwhile."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so that"
+   ],
+   "hint": "Give one side, then a semicolon and \"on balance,\" for the view after weighing it up.",
+   "level": 2
+  },
+  {
+   "id": "summary_069",
+   "connector": "on balance",
+   "function": "Concluding",
+   "sentences": [
+    "Gap years delay university.",
+    "They help young people mature."
+   ],
+   "answer": [
+    "Gap years",
+    "delay university;",
+    "on balance,",
+    "they help",
+    "young people mature."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "for example,"
+   ],
+   "hint": "Give one side, then a semicolon and \"on balance,\" for the view after weighing it up.",
+   "level": 1
+  },
+  {
+   "id": "summary_070",
+   "connector": "on balance",
+   "function": "Concluding",
+   "sentences": [
+    "Private cars give people freedom.",
+    "Their environmental cost is too high."
+   ],
+   "answer": [
+    "Private cars",
+    "give people freedom;",
+    "on balance,",
+    "their environmental cost",
+    "is too high."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so that"
+   ],
+   "hint": "Give one side, then a semicolon and \"on balance,\" for the view after weighing it up.",
+   "level": 3
+  },
+  {
+   "id": "summary_071",
+   "connector": "on balance",
+   "function": "Concluding",
+   "sentences": [
+    "Tourism damages some fragile places.",
+    "It brings more benefits than harm."
+   ],
+   "answer": [
+    "On balance,",
+    "tourism brings",
+    "more benefits than harm,",
+    "although it damages",
+    "some fragile places."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Start with \"On balance,\" and a comma, then the view after weighing both sides.",
+   "level": 3
+  },
+  {
+   "id": "summary_072",
+   "connector": "all in all",
+   "function": "Concluding",
+   "sentences": [
+    "The trip was cheap and fun.",
+    "It was a great success."
+   ],
+   "answer": [
+    "The trip",
+    "was cheap and fun;",
+    "all in all,",
+    "it was",
+    "a great success."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "After a semicolon, \"all in all,\" gives the overall verdict.",
+   "level": 1
+  },
+  {
+   "id": "summary_073",
+   "connector": "all in all",
+   "function": "Concluding",
+   "sentences": [
+    "The new hospital is modern and clean.",
+    "Patients are pleased with it."
+   ],
+   "answer": [
+    "The new hospital",
+    "is modern and clean;",
+    "all in all,",
+    "patients are",
+    "pleased with it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "in contrast,"
+   ],
+   "hint": "After a semicolon, \"all in all,\" gives the overall verdict.",
+   "level": 1
+  },
+  {
+   "id": "summary_074",
+   "connector": "all in all",
+   "function": "Concluding",
+   "sentences": [
+    "The festival had a few problems.",
+    "It was a success."
+   ],
+   "answer": [
+    "All in all,",
+    "the festival",
+    "was a success",
+    "despite a few problems."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Because"
+   ],
+   "hint": "Begin with \"All in all,\" and a comma, then the final verdict.",
+   "level": 2
+  },
+  {
+   "id": "summary_075",
+   "connector": "all in all",
+   "function": "Concluding",
+   "sentences": [
+    "The course was demanding but useful.",
+    "Most students recommend it."
+   ],
+   "answer": [
+    "The course",
+    "was demanding but useful;",
+    "all in all,",
+    "most students",
+    "recommend it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "whereas"
+   ],
+   "hint": "After a semicolon, \"all in all,\" gives the overall verdict.",
+   "level": 2
+  },
+  {
+   "id": "summary_076",
+   "connector": "all in all",
+   "function": "Concluding",
+   "sentences": [
+    "The new metro line is fast and cheap.",
+    "It has improved life for commuters."
+   ],
+   "answer": [
+    "The new metro line",
+    "is fast and cheap;",
+    "all in all,",
+    "it has improved",
+    "life for commuters."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "otherwise,",
+    "although"
+   ],
+   "hint": "After a semicolon, \"all in all,\" gives the overall verdict.",
+   "level": 2
+  },
+  {
+   "id": "summary_077",
+   "connector": "all things considered",
+   "function": "Concluding",
+   "sentences": [
+    "Electric cars are expensive to buy.",
+    "They are a wise long-term choice."
+   ],
+   "answer": [
+    "Electric cars",
+    "are expensive to buy;",
+    "all things considered,",
+    "they are",
+    "a wise long-term choice."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "Mention the drawback; after a semicolon, \"all things considered,\" gives the final view.",
+   "level": 2
+  },
+  {
+   "id": "summary_078",
+   "connector": "all things considered",
+   "function": "Concluding",
+   "sentences": [
+    "Studying abroad is costly and lonely.",
+    "It is still valuable for students."
+   ],
+   "answer": [
+    "Studying abroad",
+    "is costly and lonely;",
+    "all things considered,",
+    "it is still",
+    "valuable for students."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so that",
+    "because"
+   ],
+   "hint": "Mention the drawback; after a semicolon, \"all things considered,\" gives the final view.",
+   "level": 3
+  },
+  {
+   "id": "summary_079",
+   "connector": "all things considered",
+   "function": "Concluding",
+   "sentences": [
+    "Home working has drawbacks.",
+    "Most firms will keep it."
+   ],
+   "answer": [
+    "All things considered,",
+    "most firms",
+    "will keep home working",
+    "despite its drawbacks."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Even if"
+   ],
+   "hint": "Put \"All things considered,\" first, then the final judgement.",
+   "level": 3
+  },
+  {
+   "id": "summary_080",
+   "connector": "all things considered",
+   "function": "Concluding",
+   "sentences": [
+    "The stadium was expensive to build.",
+    "It has been worth the cost."
+   ],
+   "answer": [
+    "The stadium",
+    "was expensive to build;",
+    "all things considered,",
+    "it has been",
+    "worth the cost."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "Mention the drawback; after a semicolon, \"all things considered,\" gives the final view.",
+   "level": 2
+  },
+  {
+   "id": "summary_081",
+   "connector": "ultimately",
+   "function": "Concluding",
+   "sentences": [
+    "Teachers can guide students.",
+    "Students must do the work themselves."
+   ],
+   "answer": [
+    "Teachers",
+    "can guide students;",
+    "ultimately,",
+    "students must do",
+    "the work themselves."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "After a semicolon, \"ultimately,\" shows what matters most in the end.",
+   "level": 1
+  },
+  {
+   "id": "summary_082",
+   "connector": "ultimately",
+   "function": "Concluding",
+   "sentences": [
+    "Governments can encourage healthy eating.",
+    "Each person decides what to eat."
+   ],
+   "answer": [
+    "Governments can",
+    "encourage healthy eating;",
+    "ultimately,",
+    "each person decides",
+    "what to eat."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "so that"
+   ],
+   "hint": "After a semicolon, \"ultimately,\" shows what matters most in the end.",
+   "level": 2
+  },
+  {
+   "id": "summary_083",
+   "connector": "ultimately",
+   "function": "Concluding",
+   "sentences": [
+    "New roads ease traffic for a while.",
+    "Later, they attract even more cars."
+   ],
+   "answer": [
+    "New roads",
+    "ease traffic for a while;",
+    "ultimately,",
+    "they attract",
+    "even more cars."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "because"
+   ],
+   "hint": "After a semicolon, \"ultimately,\" shows what matters most in the end.",
+   "level": 1
+  },
+  {
+   "id": "summary_084",
+   "connector": "ultimately",
+   "function": "Concluding",
+   "sentences": [
+    "Technology changes quickly.",
+    "Adaptable workers will succeed in the long run."
+   ],
+   "answer": [
+    "Technology",
+    "changes quickly;",
+    "ultimately,",
+    "adaptable workers",
+    "will succeed."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "in contrast,"
+   ],
+   "hint": "After a semicolon, \"ultimately,\" shows what matters most in the end.",
+   "level": 2
+  },
+  {
+   "id": "summary_085",
+   "connector": "ultimately",
+   "function": "Concluding",
+   "sentences": [
+    "Prices depend on supply and demand.",
+    "Consumers decide what succeeds."
+   ],
+   "answer": [
+    "Prices",
+    "depend on supply and demand;",
+    "ultimately,",
+    "consumers decide",
+    "what succeeds."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "whereas"
+   ],
+   "hint": "After a semicolon, \"ultimately,\" shows what matters most in the end.",
+   "level": 3
+  },
+  {
+   "id": "summary_086",
+   "connector": "overall",
+   "function": "Concluding",
+   "sentences": [
+    "The new park is clean and safe.",
+    "Local people like it."
+   ],
+   "answer": [
+    "The new park",
+    "is clean and safe;",
+    "overall,",
+    "local people",
+    "like it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "Details first, then a semicolon and \"overall,\" for the general result.",
+   "level": 1
+  },
+  {
+   "id": "summary_087",
+   "connector": "overall",
+   "function": "Concluding",
+   "sentences": [
+    "Sales rose in most months.",
+    "There was an upward trend."
+   ],
+   "answer": [
+    "Sales rose",
+    "in most months;",
+    "overall,",
+    "there was",
+    "an upward trend."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "because"
+   ],
+   "hint": "Details first, then a semicolon and \"overall,\" for the general result.",
+   "level": 1
+  },
+  {
+   "id": "summary_088",
+   "connector": "overall",
+   "function": "Concluding",
+   "sentences": [
+    "The hotel was old but friendly.",
+    "Guests rated it highly."
+   ],
+   "answer": [
+    "The hotel",
+    "was old but friendly;",
+    "overall,",
+    "guests",
+    "rated it highly."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "in contrast,"
+   ],
+   "hint": "Details first, then a semicolon and \"overall,\" for the general result.",
+   "level": 1
+  },
+  {
+   "id": "summary_089",
+   "connector": "overall",
+   "function": "Concluding",
+   "sentences": [
+    "The recycling scheme reduced waste.",
+    "It also saved money."
+   ],
+   "answer": [
+    "Overall,",
+    "the recycling scheme",
+    "reduced waste",
+    "and saved money."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "Unless",
+    "Even if"
+   ],
+   "hint": "Start with \"Overall,\" and a comma, then sum up the main result.",
+   "level": 2
+  },
+  {
+   "id": "summary_090",
+   "connector": "overall",
+   "function": "Concluding",
+   "sentences": [
+    "Crime fell in most districts.",
+    "The city became safer."
+   ],
+   "answer": [
+    "Crime",
+    "fell in most districts;",
+    "overall,",
+    "the city",
+    "became safer."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so that"
+   ],
+   "hint": "Details first, then a semicolon and \"overall,\" for the general result.",
+   "level": 2
+  }
+ ]
+}

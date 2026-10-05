@@ -1,0 +1,2283 @@
+{
+ "category": "relative",
+ "drills": [
+  {
+   "id": "relative_001",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The city museum is free to visit.",
+    "It attracts many school groups."
+   ],
+   "answer": [
+    "The city museum,",
+    "which",
+    "is free to visit,",
+    "attracts many",
+    "school groups."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Put the extra fact about the museum between two commas, starting with \"which\".",
+   "level": 1
+  },
+  {
+   "id": "relative_002",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Solar power produces no direct emissions.",
+    "It is becoming cheaper."
+   ],
+   "answer": [
+    "Solar power,",
+    "which",
+    "is becoming cheaper,",
+    "produces no",
+    "direct emissions."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "when"
+   ],
+   "hint": "\"Which\" describes a thing; the extra clause sits between two commas.",
+   "level": 1
+  },
+  {
+   "id": "relative_003",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The Amazon rainforest is shrinking.",
+    "It is home to many species."
+   ],
+   "answer": [
+    "The Amazon rainforest,",
+    "which",
+    "is home to many species,",
+    "is shrinking."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "A non-defining clause adds extra information and needs a comma on both sides.",
+   "level": 1
+  },
+  {
+   "id": "relative_004",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The city's metro system is very cheap for students.",
+    "It carries many commuters."
+   ],
+   "answer": [
+    "The city's metro system,",
+    "which",
+    "carries many commuters,",
+    "is very cheap",
+    "for students."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "whose"
+   ],
+   "hint": "Use \"which\" for a thing; put the extra detail straight after the noun.",
+   "level": 1
+  },
+  {
+   "id": "relative_005",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Smartphones are now essential for many students.",
+    "They were once a luxury."
+   ],
+   "answer": [
+    "Smartphones,",
+    "which",
+    "were once a luxury,",
+    "are now essential",
+    "for many students."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "when"
+   ],
+   "hint": "The relative clause goes right after \"Smartphones\", with a comma on each side.",
+   "level": 1
+  },
+  {
+   "id": "relative_006",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The new sports centre has a large pool.",
+    "It opened in the spring."
+   ],
+   "answer": [
+    "The new sports centre,",
+    "which",
+    "opened in the spring,",
+    "has a large pool."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Add the extra information about the building between commas, then finish the main clause.",
+   "level": 1
+  },
+  {
+   "id": "relative_007",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Fast food is cheap and convenient.",
+    "It is often high in salt."
+   ],
+   "answer": [
+    "Fast food,",
+    "which",
+    "is often high in salt,",
+    "is cheap",
+    "and convenient."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "what"
+   ],
+   "hint": "Put the extra fact between commas after the subject, then give the main verb.",
+   "level": 2
+  },
+  {
+   "id": "relative_008",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "English is taught in most schools.",
+    "It is a global language."
+   ],
+   "answer": [
+    "English,",
+    "which",
+    "is a global language,",
+    "is taught",
+    "in most schools."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "A comma before \"which\" shows the clause is extra information about English.",
+   "level": 1
+  },
+  {
+   "id": "relative_009",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Online banking saves customers a lot of time.",
+    "It was rare twenty years ago."
+   ],
+   "answer": [
+    "Online banking,",
+    "which",
+    "was rare twenty years ago,",
+    "saves customers",
+    "a lot of time."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "when",
+    "who"
+   ],
+   "hint": "Use \"which\", not a time word, because the clause describes the service itself.",
+   "level": 2
+  },
+  {
+   "id": "relative_010",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The recycling scheme was launched last year.",
+    "It has already reduced waste."
+   ],
+   "answer": [
+    "The recycling scheme,",
+    "which",
+    "was launched last year,",
+    "has already",
+    "reduced waste."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Subject, then the \"which\" clause between commas, then the main verb.",
+   "level": 2
+  },
+  {
+   "id": "relative_011",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The old town attracts millions of tourists.",
+    "It was built in medieval times."
+   ],
+   "answer": [
+    "The old town,",
+    "which",
+    "was built in medieval times,",
+    "attracts millions",
+    "of tourists."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "who"
+   ],
+   "hint": "\"Which\" is the subject of \"was built\", so you cannot use a place word here.",
+   "level": 2
+  },
+  {
+   "id": "relative_012",
+   "connector": "in which",
+   "function": "Relative clause",
+   "sentences": [
+    "The study took two years.",
+    "Hundreds of adults took part in it."
+   ],
+   "answer": [
+    "The study,",
+    "in which",
+    "hundreds of adults took part,",
+    "took two years."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "in whom",
+    "of which"
+   ],
+   "hint": "Formal style moves the preposition \"in\" before \"which\".",
+   "level": 3
+  },
+  {
+   "id": "relative_013",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Many people now work from home.",
+    "This has reduced rush-hour traffic."
+   ],
+   "answer": [
+    "Many people",
+    "now work from home,",
+    "which",
+    "has reduced",
+    "rush-hour traffic."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "what",
+    "who"
+   ],
+   "hint": "Use a comma and \"which\" to refer back to the whole first idea.",
+   "level": 1
+  },
+  {
+   "id": "relative_014",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The bus fare was cut by half.",
+    "This encouraged more people to use buses."
+   ],
+   "answer": [
+    "The bus fare",
+    "was cut by half,",
+    "which",
+    "encouraged more people",
+    "to use buses."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "what",
+    "that"
+   ],
+   "hint": "\"Which\" after a comma can refer to a whole clause; \"that\" never follows a comma.",
+   "level": 1
+  },
+  {
+   "id": "relative_015",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The factory closed last year.",
+    "This led to many job losses."
+   ],
+   "answer": [
+    "The factory",
+    "closed last year,",
+    "which",
+    "led to",
+    "many job losses."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "what"
+   ],
+   "hint": "\"Which\" here refers to the whole event, so put a comma before it.",
+   "level": 1
+  },
+  {
+   "id": "relative_016",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Some schools have banned mobile phones.",
+    "This has improved concentration in class."
+   ],
+   "answer": [
+    "Some schools",
+    "have banned mobile phones,",
+    "which",
+    "has improved",
+    "concentration in class."
+   ],
+   "prefilled": 2,
+   "distractors": [
+    "who",
+    "that"
+   ],
+   "hint": "\"Which\" refers to the whole ban, so the verb after it is singular.",
+   "level": 1
+  },
+  {
+   "id": "relative_017",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Food prices rose sharply last winter.",
+    "This hit poorer families hardest."
+   ],
+   "answer": [
+    "Food prices",
+    "rose sharply last winter,",
+    "which",
+    "hit poorer families",
+    "hardest."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "what",
+    "when"
+   ],
+   "hint": "Replace \"This\" with \"which\" after a comma to join the result to the event.",
+   "level": 2
+  },
+  {
+   "id": "relative_018",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Many graduates move abroad for work.",
+    "This creates skill shortages at home."
+   ],
+   "answer": [
+    "Many graduates",
+    "move abroad for work,",
+    "which",
+    "creates skill shortages",
+    "at home."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "that"
+   ],
+   "hint": "\"Which\" refers to the whole situation, not to the graduates, so the verb is singular.",
+   "level": 2
+  },
+  {
+   "id": "relative_019",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The council planted trees along the main road.",
+    "This has made the area cooler in summer."
+   ],
+   "answer": [
+    "The council planted trees",
+    "along the main road,",
+    "which",
+    "has made the area",
+    "cooler in summer."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "what"
+   ],
+   "hint": "Finish the first idea, add a comma, then use \"which\" for its effect.",
+   "level": 2
+  },
+  {
+   "id": "relative_020",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The hospital extended its opening hours.",
+    "This has shortened waiting times."
+   ],
+   "answer": [
+    "The hospital",
+    "extended its opening hours,",
+    "which",
+    "has shortened",
+    "waiting times."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "whose"
+   ],
+   "hint": "\"Which\" after a comma sums up the whole first clause.",
+   "level": 2
+  },
+  {
+   "id": "relative_021",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Many families now eat out regularly.",
+    "This has changed traditional eating habits."
+   ],
+   "answer": [
+    "Many families",
+    "now eat out regularly,",
+    "which",
+    "has changed",
+    "traditional eating habits."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "what",
+    "who"
+   ],
+   "hint": "Put a comma before \"which\" when it refers to a whole idea.",
+   "level": 2
+  },
+  {
+   "id": "relative_022",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The company introduced flexible hours.",
+    "This made its staff much happier."
+   ],
+   "answer": [
+    "The company",
+    "introduced flexible hours,",
+    "which",
+    "made its staff",
+    "much happier."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "that",
+    "what"
+   ],
+   "hint": "\"What\" cannot follow a comma to refer back; use the relative pronoun for a whole clause.",
+   "level": 2
+  },
+  {
+   "id": "relative_023",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Fewer students are choosing science degrees.",
+    "This worries many employers."
+   ],
+   "answer": [
+    "Fewer students",
+    "are choosing science degrees,",
+    "which",
+    "worries",
+    "many employers."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "what"
+   ],
+   "hint": "When \"which\" refers to a whole idea, the verb after it is singular.",
+   "level": 3
+  },
+  {
+   "id": "relative_024",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Life expectancy has risen in many countries.",
+    "This puts pressure on pension systems."
+   ],
+   "answer": [
+    "Life expectancy",
+    "has risen in many countries,",
+    "which",
+    "puts pressure",
+    "on pension systems."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "that",
+    "whom"
+   ],
+   "hint": "Only one relative word can follow a comma and refer to a whole clause.",
+   "level": 3
+  },
+  {
+   "id": "relative_025",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some students work part-time.",
+    "They often have less time to study."
+   ],
+   "answer": [
+    "Students",
+    "who",
+    "work part-time",
+    "often have",
+    "less time to study."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "which",
+    "whose"
+   ],
+   "hint": "No commas: the clause tells us which students we mean.",
+   "level": 1
+  },
+  {
+   "id": "relative_026",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some people exercise regularly.",
+    "They tend to sleep better."
+   ],
+   "answer": [
+    "People",
+    "who",
+    "exercise regularly",
+    "tend to",
+    "sleep better."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "where"
+   ],
+   "hint": "Use \"who\" for people; no commas because it says which people you mean.",
+   "level": 1
+  },
+  {
+   "id": "relative_027",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some drivers use their phones while driving.",
+    "They put others at risk."
+   ],
+   "answer": [
+    "Drivers",
+    "who",
+    "use their phones",
+    "while driving",
+    "put others at risk."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whose"
+   ],
+   "hint": "The \"who\" clause identifies the drivers, so it takes no commas.",
+   "level": 1
+  },
+  {
+   "id": "relative_028",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some children read every day.",
+    "They usually have a wider vocabulary."
+   ],
+   "answer": [
+    "Children",
+    "who",
+    "read every day",
+    "usually have",
+    "a wider vocabulary."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whom"
+   ],
+   "hint": "\"Who\" is the subject of \"read\", so the subject form is needed.",
+   "level": 1
+  },
+  {
+   "id": "relative_029",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some tourists respect local customs.",
+    "They are usually welcomed warmly."
+   ],
+   "answer": [
+    "Tourists",
+    "who",
+    "respect local customs",
+    "are usually",
+    "welcomed warmly."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "where"
+   ],
+   "hint": "Put the defining clause straight after \"Tourists\", then the main verb.",
+   "level": 1
+  },
+  {
+   "id": "relative_030",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some employees feel valued.",
+    "They are more productive."
+   ],
+   "answer": [
+    "Employees",
+    "who",
+    "feel valued",
+    "are more productive."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whose"
+   ],
+   "hint": "A defining clause after a person needs \"who\" and no commas.",
+   "level": 1
+  },
+  {
+   "id": "relative_031",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "My grandmother lives alone in the countryside.",
+    "She is eighty-five years old."
+   ],
+   "answer": [
+    "My grandmother,",
+    "who",
+    "is eighty-five,",
+    "lives alone",
+    "in the countryside."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whose"
+   ],
+   "hint": "There is only one grandmother, so the extra fact goes between commas.",
+   "level": 1
+  },
+  {
+   "id": "relative_032",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Dr Patel is a marine biologist.",
+    "She gave a talk at our school."
+   ],
+   "answer": [
+    "Dr Patel,",
+    "who",
+    "is a marine biologist,",
+    "gave a talk",
+    "at our school."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "where"
+   ],
+   "hint": "After a name, add extra information with commas on both sides.",
+   "level": 1
+  },
+  {
+   "id": "relative_033",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some older people use the internet.",
+    "They tend to feel less isolated."
+   ],
+   "answer": [
+    "Older people",
+    "who",
+    "use the internet",
+    "tend to feel",
+    "less isolated."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whose"
+   ],
+   "hint": "No commas: the clause limits the meaning to one group of older people.",
+   "level": 2
+  },
+  {
+   "id": "relative_034",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some workers lose their jobs to automation.",
+    "They need to be retrained."
+   ],
+   "answer": [
+    "Workers",
+    "who",
+    "lose their jobs to automation",
+    "need retraining."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "where"
+   ],
+   "hint": "The \"who\" clause comes between the subject and its verb.",
+   "level": 2
+  },
+  {
+   "id": "relative_035",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Our head teacher is retiring this year.",
+    "She has worked here for decades."
+   ],
+   "answer": [
+    "Our head teacher,",
+    "who",
+    "has worked here for decades,",
+    "is retiring",
+    "this year."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whom"
+   ],
+   "hint": "We know which head teacher, so the extra clause takes commas.",
+   "level": 2
+  },
+  {
+   "id": "relative_036",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "The local volunteers clean the beach every month.",
+    "They are mostly retired people."
+   ],
+   "answer": [
+    "The local volunteers,",
+    "who",
+    "are mostly retired people,",
+    "clean the beach",
+    "every month."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whose"
+   ],
+   "hint": "Put the extra detail about the volunteers between commas.",
+   "level": 2
+  },
+  {
+   "id": "relative_037",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "Some patients miss their appointments.",
+    "They have to wait longer for treatment."
+   ],
+   "answer": [
+    "Patients",
+    "who",
+    "miss their appointments",
+    "have to wait",
+    "longer for treatment."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "The defining clause tells us which patients; do not use commas.",
+   "level": 2
+  },
+  {
+   "id": "relative_038",
+   "connector": "who",
+   "function": "Relative clause",
+   "sentences": [
+    "The author grew up in poverty.",
+    "She now funds free libraries."
+   ],
+   "answer": [
+    "The author,",
+    "who",
+    "grew up in poverty,",
+    "now funds",
+    "free libraries."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whom",
+    "which"
+   ],
+   "hint": "\"Who\" is the subject of \"grew up\", so the object form is wrong here.",
+   "level": 3
+  },
+  {
+   "id": "relative_039",
+   "connector": "whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The professor retired last year.",
+    "Many students admired her."
+   ],
+   "answer": [
+    "The professor,",
+    "whom",
+    "many students admired,",
+    "retired",
+    "last year."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whose",
+    "which"
+   ],
+   "hint": "Use \"whom\" when the person is the object of the verb in the clause.",
+   "level": 2
+  },
+  {
+   "id": "relative_040",
+   "connector": "whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The manager is very experienced.",
+    "We interviewed him yesterday."
+   ],
+   "answer": [
+    "The manager,",
+    "whom",
+    "we interviewed yesterday,",
+    "is very experienced."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whose",
+    "where"
+   ],
+   "hint": "The manager is the object of \"interviewed\", so use the formal object pronoun.",
+   "level": 2
+  },
+  {
+   "id": "relative_041",
+   "connector": "to whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The volunteers were thanked by the mayor.",
+    "We owe them a great deal."
+   ],
+   "answer": [
+    "The volunteers,",
+    "to whom",
+    "we owe a great deal,",
+    "were thanked",
+    "by the mayor."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "to which",
+    "whose"
+   ],
+   "hint": "In formal English the preposition goes before \"whom\".",
+   "level": 3
+  },
+  {
+   "id": "relative_042",
+   "connector": "whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The athletes were all under twenty.",
+    "The coach selected them."
+   ],
+   "answer": [
+    "The athletes",
+    "whom",
+    "the coach selected",
+    "were all",
+    "under twenty."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whose",
+    "which"
+   ],
+   "hint": "\"Whom\" is the object of \"selected\"; no commas in a defining clause.",
+   "level": 3
+  },
+  {
+   "id": "relative_043",
+   "connector": "whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The candidate has strong leadership skills.",
+    "The panel chose her."
+   ],
+   "answer": [
+    "The candidate",
+    "whom",
+    "the panel chose",
+    "has strong",
+    "leadership skills."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whose",
+    "which"
+   ],
+   "hint": "The candidate is the object of \"chose\", so use the formal object pronoun.",
+   "level": 3
+  },
+  {
+   "id": "relative_044",
+   "connector": "with whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The tutor is very patient.",
+    "I work with her every week."
+   ],
+   "answer": [
+    "The tutor",
+    "with whom",
+    "I work every week",
+    "is very patient."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "with which",
+    "whose"
+   ],
+   "hint": "Formal style puts \"with\" before the relative pronoun for people.",
+   "level": 3
+  },
+  {
+   "id": "relative_045",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "Some children's parents read to them.",
+    "These children often enjoy reading."
+   ],
+   "answer": [
+    "Children",
+    "whose",
+    "parents read to them",
+    "often enjoy reading."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "which"
+   ],
+   "hint": "\"Whose\" shows possession: the parents belong to the children.",
+   "level": 1
+  },
+  {
+   "id": "relative_046",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "The company is growing fast.",
+    "Its products are sold online."
+   ],
+   "answer": [
+    "The company,",
+    "whose",
+    "products are sold online,",
+    "is growing",
+    "fast."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "who"
+   ],
+   "hint": "Replace \"Its\" with \"whose\" to show the products belong to the company.",
+   "level": 1
+  },
+  {
+   "id": "relative_047",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "My neighbour is a nurse at the local hospital.",
+    "Her son studies medicine."
+   ],
+   "answer": [
+    "My neighbour,",
+    "whose",
+    "son studies medicine,",
+    "is a nurse",
+    "at the local hospital."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "which"
+   ],
+   "hint": "Replace \"Her\" with the possessive relative pronoun.",
+   "level": 1
+  },
+  {
+   "id": "relative_048",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "Some workers' jobs are at risk.",
+    "They should learn new skills."
+   ],
+   "answer": [
+    "Workers",
+    "whose",
+    "jobs are at risk",
+    "should learn",
+    "new skills."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "which"
+   ],
+   "hint": "\"Whose\" + noun tells us which workers; no commas are needed.",
+   "level": 1
+  },
+  {
+   "id": "relative_049",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "The village is attracting new residents.",
+    "Its school was saved from closure."
+   ],
+   "answer": [
+    "The village,",
+    "whose",
+    "school was saved from closure,",
+    "is attracting",
+    "new residents."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "which"
+   ],
+   "hint": "\"Whose\" can show possession for places and things as well as people.",
+   "level": 2
+  },
+  {
+   "id": "relative_050",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "Some cities have poor public transport.",
+    "Their roads are usually congested."
+   ],
+   "answer": [
+    "Cities",
+    "whose",
+    "public transport is poor",
+    "usually have",
+    "congested roads."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "which"
+   ],
+   "hint": "Use the possessive relative word before \"public transport\"; no commas.",
+   "level": 2
+  },
+  {
+   "id": "relative_051",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "The scientist won a major award.",
+    "Her work focuses on clean water."
+   ],
+   "answer": [
+    "The scientist,",
+    "whose",
+    "work focuses on clean water,",
+    "won",
+    "a major award."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "which"
+   ],
+   "hint": "Replace \"Her\" with \"whose\" and put the clause between commas.",
+   "level": 2
+  },
+  {
+   "id": "relative_052",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "Some patients' symptoms are mild.",
+    "They can be treated at home."
+   ],
+   "answer": [
+    "Patients",
+    "whose",
+    "symptoms are mild",
+    "can be treated",
+    "at home."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "which"
+   ],
+   "hint": "\"Whose\" links the patients to their symptoms; no commas are needed.",
+   "level": 2
+  },
+  {
+   "id": "relative_053",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "The festival is popular with families.",
+    "Its main events are free."
+   ],
+   "answer": [
+    "The festival,",
+    "whose",
+    "main events are free,",
+    "is popular",
+    "with families."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "which",
+    "where"
+   ],
+   "hint": "Replace \"Its\" with the possessive relative pronoun.",
+   "level": 2
+  },
+  {
+   "id": "relative_054",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "Some countries' populations are ageing.",
+    "They face rising health costs."
+   ],
+   "answer": [
+    "Countries",
+    "whose",
+    "populations are ageing",
+    "face",
+    "rising health costs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "that"
+   ],
+   "hint": "\"Whose\" + noun defines which countries we mean, so no commas.",
+   "level": 3
+  },
+  {
+   "id": "relative_055",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "The firm was criticised by customers.",
+    "Its prices rose without warning."
+   ],
+   "answer": [
+    "The firm,",
+    "whose",
+    "prices rose without warning,",
+    "was criticised",
+    "by customers."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "who"
+   ],
+   "hint": "The prices belong to the firm, so a possessive relative word is needed.",
+   "level": 3
+  },
+  {
+   "id": "relative_056",
+   "connector": "whose",
+   "function": "Relative clause",
+   "sentences": [
+    "The architect designed the new library.",
+    "Her work uses recycled materials."
+   ],
+   "answer": [
+    "The architect,",
+    "whose",
+    "work uses recycled materials,",
+    "designed",
+    "the new library."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "whom"
+   ],
+   "hint": "Put the possessive clause straight after \"The architect\", between commas.",
+   "level": 3
+  },
+  {
+   "id": "relative_057",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "I grew up in a small village.",
+    "There was no secondary school there."
+   ],
+   "answer": [
+    "I grew up",
+    "in a small village",
+    "where",
+    "there was",
+    "no secondary school."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "Use \"where\" for a place when a full clause follows.",
+   "level": 1
+  },
+  {
+   "id": "relative_058",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "The park is very popular.",
+    "Families have picnics there."
+   ],
+   "answer": [
+    "The park,",
+    "where",
+    "families have picnics,",
+    "is very popular."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "who"
+   ],
+   "hint": "\"Where\" replaces \"there\" and refers to a place.",
+   "level": 1
+  },
+  {
+   "id": "relative_059",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "The library has a quiet room.",
+    "Students can study there."
+   ],
+   "answer": [
+    "The library",
+    "has a quiet room",
+    "where",
+    "students can study."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "\"Where\" means \"in which\" and refers back to the room.",
+   "level": 1
+  },
+  {
+   "id": "relative_060",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "We visited a factory.",
+    "Cars are made there."
+   ],
+   "answer": [
+    "We visited",
+    "a factory",
+    "where",
+    "cars are made."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "who"
+   ],
+   "hint": "Use the place word because \"there\" in the second sentence refers to the factory.",
+   "level": 1
+  },
+  {
+   "id": "relative_061",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "Many people move to cities.",
+    "There are more jobs in cities."
+   ],
+   "answer": [
+    "Many people",
+    "move to cities,",
+    "where",
+    "there are",
+    "more jobs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "Use \"where\" after a comma to add information about a place.",
+   "level": 1
+  },
+  {
+   "id": "relative_062",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "The hotel is close to the beach.",
+    "We stayed there last summer."
+   ],
+   "answer": [
+    "The hotel",
+    "where",
+    "we stayed last summer",
+    "is close to the beach."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "\"Stay\" needs \"in\" or \"at\" with \"which\", so use the place word.",
+   "level": 1
+  },
+  {
+   "id": "relative_063",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "Some countries offer free university education.",
+    "Student debt is low in these countries."
+   ],
+   "answer": [
+    "Student debt is low",
+    "in countries",
+    "where",
+    "university is free."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "Put the place first, then \"where\" and a full clause about it.",
+   "level": 2
+  },
+  {
+   "id": "relative_064",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "The hospital has opened a new ward.",
+    "Elderly patients can recover there."
+   ],
+   "answer": [
+    "The hospital",
+    "has opened a new ward",
+    "where",
+    "elderly patients",
+    "can recover."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "who"
+   ],
+   "hint": "\"Where\" refers to the ward as a place.",
+   "level": 2
+  },
+  {
+   "id": "relative_065",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "Many firms have open-plan offices.",
+    "Staff find it hard to concentrate there."
+   ],
+   "answer": [
+    "Many firms",
+    "have open-plan offices,",
+    "where",
+    "staff find it hard",
+    "to concentrate."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "Replace \"there\" with a relative word for places.",
+   "level": 2
+  },
+  {
+   "id": "relative_066",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "The region is famous for its vineyards.",
+    "Tourism has grown quickly there."
+   ],
+   "answer": [
+    "The region,",
+    "where",
+    "tourism has grown quickly,",
+    "is famous",
+    "for its vineyards."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "Add the extra fact about the region between commas.",
+   "level": 2
+  },
+  {
+   "id": "relative_067",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "Young people are leaving the coastal town.",
+    "There are few jobs there."
+   ],
+   "answer": [
+    "Young people",
+    "are leaving the coastal town,",
+    "where",
+    "there are",
+    "few jobs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whose"
+   ],
+   "hint": "The second sentence describes the town, a place, so use the place word.",
+   "level": 2
+  },
+  {
+   "id": "relative_068",
+   "connector": "where",
+   "function": "Relative clause",
+   "sentences": [
+    "Researchers studied schools in rural areas.",
+    "Internet access is often poor there."
+   ],
+   "answer": [
+    "Researchers studied schools",
+    "in rural areas,",
+    "where",
+    "internet access",
+    "is often poor."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "when"
+   ],
+   "hint": "\"Where\" refers back to the rural areas; a full clause follows it.",
+   "level": 3
+  },
+  {
+   "id": "relative_069",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "I will never forget the day.",
+    "I passed my driving test that day."
+   ],
+   "answer": [
+    "I will never forget",
+    "the day",
+    "when",
+    "I passed my driving test."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "whose"
+   ],
+   "hint": "Use \"when\" after a noun of time such as \"day\".",
+   "level": 1
+  },
+  {
+   "id": "relative_070",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "Traffic is worst in the morning.",
+    "Most people travel to work then."
+   ],
+   "answer": [
+    "Traffic is worst",
+    "in the morning,",
+    "when",
+    "most people",
+    "travel to work."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "who"
+   ],
+   "hint": "\"When\" replaces \"then\" and refers to a time.",
+   "level": 1
+  },
+  {
+   "id": "relative_071",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "Shops are busy in December.",
+    "People buy gifts for the holidays then."
+   ],
+   "answer": [
+    "Shops are busy",
+    "in December,",
+    "when",
+    "people buy gifts",
+    "for the holidays."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "which"
+   ],
+   "hint": "Add a comma after the time phrase, then the time relative word.",
+   "level": 1
+  },
+  {
+   "id": "relative_072",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "My grandparents grew up in the 1950s.",
+    "Few families owned a television then."
+   ],
+   "answer": [
+    "My grandparents",
+    "grew up in the 1950s,",
+    "when",
+    "few families",
+    "owned a television."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "where",
+    "who"
+   ],
+   "hint": "\"When\" adds information about a period of time.",
+   "level": 1
+  },
+  {
+   "id": "relative_073",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "Exams take place in June.",
+    "Students feel most stressed then."
+   ],
+   "answer": [
+    "Exams take place",
+    "in June,",
+    "when",
+    "students feel",
+    "most stressed."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "whose"
+   ],
+   "hint": "Use the time word after \"June\" and a comma.",
+   "level": 1
+  },
+  {
+   "id": "relative_074",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "Electricity costs more in the evening.",
+    "Demand is at its highest then."
+   ],
+   "answer": [
+    "Electricity costs more",
+    "in the evening,",
+    "when",
+    "demand is",
+    "at its highest."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "which"
+   ],
+   "hint": "\"When\" refers back to the evening, a time.",
+   "level": 2
+  },
+  {
+   "id": "relative_075",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "The museum is free on Sundays.",
+    "Most families visit then."
+   ],
+   "answer": [
+    "The museum is free",
+    "on Sundays,",
+    "when",
+    "most families visit."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "who"
+   ],
+   "hint": "Use the time relative word after \"Sundays\" and a comma.",
+   "level": 2
+  },
+  {
+   "id": "relative_076",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "Travel was expensive in the past.",
+    "Few people went abroad then."
+   ],
+   "answer": [
+    "Travel was expensive",
+    "in the past,",
+    "when",
+    "few people",
+    "went abroad."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "whose"
+   ],
+   "hint": "\"Then\" in the second sentence becomes a relative word for time.",
+   "level": 2
+  },
+  {
+   "id": "relative_077",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "Retirement is a stage of life.",
+    "Many people take up new hobbies then."
+   ],
+   "answer": [
+    "Retirement is",
+    "a stage of life",
+    "when",
+    "many people",
+    "take up new hobbies."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "which",
+    "who"
+   ],
+   "hint": "A stage of life is a time, so use the time word with no comma.",
+   "level": 2
+  },
+  {
+   "id": "relative_078",
+   "connector": "when",
+   "function": "Relative clause",
+   "sentences": [
+    "Unemployment rose during the recession.",
+    "Many firms stopped hiring then."
+   ],
+   "answer": [
+    "Unemployment rose",
+    "during the recession,",
+    "when",
+    "many firms",
+    "stopped hiring."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "which"
+   ],
+   "hint": "\"When\" adds extra information about the period of the recession.",
+   "level": 3
+  },
+  {
+   "id": "relative_079",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Some foods contain a lot of sugar.",
+    "They can damage teeth."
+   ],
+   "answer": [
+    "Foods",
+    "that",
+    "contain a lot of sugar",
+    "can damage",
+    "teeth."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "whose"
+   ],
+   "hint": "Use \"that\" with no commas to say which foods you mean.",
+   "level": 1
+  },
+  {
+   "id": "relative_080",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Some cars run on electricity.",
+    "They produce less pollution."
+   ],
+   "answer": [
+    "Cars",
+    "that",
+    "run on electricity",
+    "produce",
+    "less pollution."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "\"That\" introduces a defining clause about things; do not use commas.",
+   "level": 1
+  },
+  {
+   "id": "relative_081",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "I bought a laptop.",
+    "It has a long battery life."
+   ],
+   "answer": [
+    "I bought",
+    "a laptop",
+    "that",
+    "has a long battery life."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Put the defining clause straight after the thing it describes.",
+   "level": 1
+  },
+  {
+   "id": "relative_082",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Some jobs require a degree.",
+    "They usually pay more."
+   ],
+   "answer": [
+    "Jobs",
+    "that",
+    "require a degree",
+    "usually pay",
+    "more."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "\"That\" tells us which jobs; the main verb comes after the clause.",
+   "level": 1
+  },
+  {
+   "id": "relative_083",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "The city has a law.",
+    "It bans cars from the centre."
+   ],
+   "answer": [
+    "The city",
+    "has a law",
+    "that",
+    "bans cars",
+    "from the centre."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "\"That\" replaces \"It\" and refers back to the law.",
+   "level": 1
+  },
+  {
+   "id": "relative_084",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Some apps track sleep.",
+    "They can help users rest better."
+   ],
+   "answer": [
+    "Apps",
+    "that",
+    "track sleep",
+    "can help users",
+    "rest better."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "whose"
+   ],
+   "hint": "A defining clause about things can begin with \"that\"; no commas.",
+   "level": 1
+  },
+  {
+   "id": "relative_085",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Some buildings use solar panels.",
+    "They have lower energy bills."
+   ],
+   "answer": [
+    "Buildings",
+    "that",
+    "use solar panels",
+    "have",
+    "lower energy bills."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "The clause identifies the buildings, so it needs no commas.",
+   "level": 2
+  },
+  {
+   "id": "relative_086",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "The government passed a law.",
+    "It protects ancient forests."
+   ],
+   "answer": [
+    "The government",
+    "passed a law",
+    "that",
+    "protects",
+    "ancient forests."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Join the second idea to \"a law\" with a relative word for things.",
+   "level": 2
+  },
+  {
+   "id": "relative_087",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Some diseases spread through water.",
+    "They are common in poorer regions."
+   ],
+   "answer": [
+    "Diseases",
+    "that",
+    "spread through water",
+    "are common",
+    "in poorer regions."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Subject, defining clause, then the main verb; no commas.",
+   "level": 2
+  },
+  {
+   "id": "relative_088",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Some films are based on true stories.",
+    "They often attract large audiences."
+   ],
+   "answer": [
+    "Films",
+    "that",
+    "are based on true stories",
+    "often attract",
+    "large audiences."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "when"
+   ],
+   "hint": "\"That\" refers to things and defines which films we mean.",
+   "level": 2
+  },
+  {
+   "id": "relative_089",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "The report suggests changes.",
+    "These changes could reduce crime."
+   ],
+   "answer": [
+    "The report",
+    "suggests changes",
+    "that",
+    "could reduce crime."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "The relative clause comes right after \"changes\".",
+   "level": 2
+  },
+  {
+   "id": "relative_090",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Some products are made locally.",
+    "They have a smaller carbon footprint."
+   ],
+   "answer": [
+    "Products",
+    "that",
+    "are made locally",
+    "have a smaller",
+    "carbon footprint."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Put the defining clause between the subject and the main verb.",
+   "level": 2
+  },
+  {
+   "id": "relative_091",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Many students choose courses.",
+    "These courses lead directly to jobs."
+   ],
+   "answer": [
+    "Many students",
+    "choose courses",
+    "that",
+    "lead directly",
+    "to jobs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "\"That\" replaces \"These courses\" and follows the noun directly.",
+   "level": 2
+  },
+  {
+   "id": "relative_092",
+   "connector": "that",
+   "function": "Relative clause",
+   "sentences": [
+    "Employers value certain skills.",
+    "These skills are rarely taught in school."
+   ],
+   "answer": [
+    "The skills",
+    "that",
+    "employers value",
+    "are rarely taught",
+    "in school."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "whose"
+   ],
+   "hint": "Here \"that\" is the object of \"value\"; the main verb comes after the clause.",
+   "level": 3
+  },
+  {
+   "id": "relative_093",
+   "connector": "most of which",
+   "function": "Relative clause",
+   "sentences": [
+    "The city has many parks.",
+    "Most of them are free to enter."
+   ],
+   "answer": [
+    "The city",
+    "has many parks,",
+    "most of which",
+    "are free",
+    "to enter."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "most of whom",
+    "most of them"
+   ],
+   "hint": "Use \"most of which\" for things; \"them\" would create two sentences joined by a comma.",
+   "level": 3
+  },
+  {
+   "id": "relative_094",
+   "connector": "many of whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The survey questioned hundreds of teenagers.",
+    "Many of them use social media daily."
+   ],
+   "answer": [
+    "The survey questioned",
+    "hundreds of teenagers,",
+    "many of whom",
+    "use social media",
+    "daily."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "many of which",
+    "many of them"
+   ],
+   "hint": "After a comma, use \"of whom\" for people.",
+   "level": 3
+  },
+  {
+   "id": "relative_095",
+   "connector": "some of whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The company employs many young people.",
+    "Some of them work remotely."
+   ],
+   "answer": [
+    "The company employs",
+    "many young people,",
+    "some of whom",
+    "work remotely."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "some of which",
+    "some of who"
+   ],
+   "hint": "After \"of\", the object form is needed for people.",
+   "level": 3
+  },
+  {
+   "id": "relative_096",
+   "connector": "few of which",
+   "function": "Relative clause",
+   "sentences": [
+    "The museum owns thousands of paintings.",
+    "Few of them are on display."
+   ],
+   "answer": [
+    "The museum owns",
+    "thousands of paintings,",
+    "few of which",
+    "are on display."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "few of whom",
+    "few of them"
+   ],
+   "hint": "Paintings are things, so use \"of which\" after the comma.",
+   "level": 3
+  },
+  {
+   "id": "relative_097",
+   "connector": "all of which",
+   "function": "Relative clause",
+   "sentences": [
+    "The town has three schools.",
+    "All of them achieve good results."
+   ],
+   "answer": [
+    "The town",
+    "has three schools,",
+    "all of which",
+    "achieve good results."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "all of whom",
+    "all of them"
+   ],
+   "hint": "\"All of which\" joins the clauses; a plain pronoun would make a comma splice.",
+   "level": 3
+  },
+  {
+   "id": "relative_098",
+   "connector": "many of whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The scheme helped thousands of families.",
+    "Many of them had low incomes."
+   ],
+   "answer": [
+    "The scheme helped",
+    "thousands of families,",
+    "many of whom",
+    "had low incomes."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "many of which",
+    "many of them"
+   ],
+   "hint": "Families are people, so use \"of whom\" after the comma.",
+   "level": 3
+  },
+  {
+   "id": "relative_099",
+   "connector": "some of which",
+   "function": "Relative clause",
+   "sentences": [
+    "The rainforest contains countless plants.",
+    "Some of them are used in medicine."
+   ],
+   "answer": [
+    "The rainforest",
+    "contains countless plants,",
+    "some of which",
+    "are used",
+    "in medicine."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "some of whom",
+    "some of them"
+   ],
+   "hint": "Plants are things, so use \"of which\" after the comma.",
+   "level": 3
+  },
+  {
+   "id": "relative_100",
+   "connector": "many of whom",
+   "function": "Relative clause",
+   "sentences": [
+    "The hospital employs hundreds of nurses.",
+    "Many of them work night shifts."
+   ],
+   "answer": [
+    "The hospital",
+    "employs hundreds of nurses,",
+    "many of whom",
+    "work night shifts."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "many of which",
+    "many of them"
+   ],
+   "hint": "Use \"of whom\" for people after a comma; \"them\" cannot join two clauses.",
+   "level": 3
+  }
+ ]
+}

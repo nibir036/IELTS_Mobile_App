@@ -184,7 +184,7 @@ void main() {
       final r = Scoring.writing('', task: 2);
       expect(r['band'], 3.0);
       expect(r['words'], 0);
-      expect((r['feedback'] as List).first, 'Write at least 250 words — you wrote 0.');
+      expect((r['feedback'] as List).first, 'Write at least 250 words - you wrote 0.');
       expect(Scoring.writing(shortText, task: 1)['band'], 3.0);
       expect(Scoring.writing(shortText, task: 1)['words'], 5);
     });

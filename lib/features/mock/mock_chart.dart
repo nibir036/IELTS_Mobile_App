@@ -47,7 +47,7 @@ class MockTask1Chart extends StatelessWidget {
 List<Color> _palette(AppTokens t) => <Color>[
       t.text,
       t.alert,
-      t.isNight ? const Color(0xFF8E97F0) : const Color(0xFF5B63D6),
+      t.isNight ? const Color(0xFF7B97F2) : const Color(0xFF4D6FE0),
       t.isNight ? const Color(0xFF7FC8A9) : const Color(0xFF2E8B67),
       t.textMuted,
       t.warning,

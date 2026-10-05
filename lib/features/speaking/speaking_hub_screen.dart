@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../../app/data/content.dart';
 import '../../app/data/demo.dart';
+import '../../app/data/lessons.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import 'widgets.dart';
 
 /// D1 · Speaking Hub & Mode Selection.
@@ -104,69 +106,85 @@ class _SpeakingHubScreenState extends State<SpeakingHubScreen> {
             spacing: 16,
             children: [
               Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                spacing: 8,
                 children: [
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    spacing: 6,
-                    children: [
-                      Text(
-                        '${(completion * 100).round()}% completed',
-                        style: TextStyle(fontSize: 13, color: t.heroMuted),
-                      ),
-                      SizedBox(
-                        width: 96,
-                        child: ProgressBar(
-                          value: completion,
-                          height: 3,
-                          onHero: true,
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 6,
+                      children: [
+                        Text(
+                          '${(completion * 100).round()}% completed'.toUpperCase(),
+                          style: TextStyle(
+                            fontSize: 11,
+                            letterSpacing: 1.1,
+                            fontWeight: FontWeight.w600,
+                            color: t.peach,
+                          ),
                         ),
-                      ),
-                    ],
+                        SizedBox(
+                          width: 96,
+                          child: ProgressBar(
+                            value: completion,
+                            height: 3,
+                            onHero: true,
+                          ),
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          part1.s('title'),
+                          style: TextStyle(
+                            fontSize: 32,
+                            height: 1.02,
+                            letterSpacing: -0.5,
+                            color: t.heroText,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                  const Spacer(),
-                  Icon(AppIcons.northEast, size: 22, color: t.heroText),
+                  const Nexi(NexiPose.speaking, height: 110),
                 ],
               ),
               Row(
-                crossAxisAlignment: CrossAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Expanded(
-                    child: Text(
-                      part1.s('title'),
-                      style: TextStyle(
-                        fontSize: 32,
-                        height: 1.02,
-                        letterSpacing: -0.5,
-                        color: t.heroText,
+                    child: Text.rich(
+                      TextSpan(
+                        style: TextStyle(fontSize: 13, height: 1.5, color: t.heroMuted),
+                        children: [
+                          TextSpan(
+                            text: part1.s('duration'),
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w500,
+                              color: t.heroText,
+                            ),
+                          ),
+                          const TextSpan(text: ' min\n'),
+                          TextSpan(
+                            text: '$questionCount',
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w500,
+                              color: t.heroText,
+                            ),
+                          ),
+                          const TextSpan(text: ' questions'),
+                        ],
                       ),
                     ),
                   ),
-                  Text.rich(
-                    TextSpan(
-                      style: TextStyle(fontSize: 13, height: 1.5, color: t.heroMuted),
-                      children: [
-                        TextSpan(
-                          text: part1.s('duration'),
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w500,
-                            color: t.heroText,
-                          ),
-                        ),
-                        const TextSpan(text: ' min\n'),
-                        TextSpan(
-                          text: '$questionCount',
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w500,
-                            color: t.heroText,
-                          ),
-                        ),
-                        const TextSpan(text: ' questions'),
-                      ],
+                  Container(
+                    width: 40,
+                    height: 40,
+                    decoration: const BoxDecoration(
+                      gradient: kPeachGradient,
+                      shape: BoxShape.circle,
                     ),
-                    textAlign: TextAlign.right,
+                    child: const Icon(AppIcons.northEast, size: 20, color: kOnPeach),
                   ),
                 ],
               ),
@@ -245,8 +263,8 @@ class _SpeakingHubScreenState extends State<SpeakingHubScreen> {
               Container(
                 width: 56,
                 height: 56,
-                decoration: BoxDecoration(color: t.primary, shape: BoxShape.circle),
-                child: Icon(AppIcons.play, size: 24, color: t.onPrimary),
+                decoration: const BoxDecoration(gradient: kPeachGradient, shape: BoxShape.circle),
+                child: const Icon(AppIcons.play, size: 24, color: kOnPeach),
               ),
             ],
           ),
@@ -281,9 +299,9 @@ class _SpeakingHubScreenState extends State<SpeakingHubScreen> {
         if (filterId != 'due' && filterId != 'saved' && Demo.guide('speaking').l('chapters').isNotEmpty) ...[
           _GuideRow(
             icon: AppIcons.school,
-            title: 'Speaking Guide',
-            subtitle: '${Demo.guide('speaking').l('chapters').length} chapters from the nextED Speaking book · English / বাংলা',
-            onTap: () => context.push(Routes.speakingGuide),
+            title: 'Speaking Course',
+            subtitle: '${Lessons.all('speaking').length} bite-sized lessons from the nextED Speaking book',
+            onTap: () => context.push(Routes.speakingCourse),
           ),
           _GuideRow(
             icon: AppIcons.bulb,

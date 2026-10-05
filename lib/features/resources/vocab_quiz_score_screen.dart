@@ -9,9 +9,8 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import 'quiz_rounds.dart';
-import 'widgets.dart';
 
-/// H6 · Vocabulary Quiz — Round Score. Reads the vocab quiz attempt passed as
+/// H6 · Vocabulary Quiz - Round Score. Reads the vocab quiz attempt passed as
 /// `attemptId` (fallback: the latest one); empty state if there is none.
 /// "New round" starts the next round of `Content.quizzes`.
 class VocabQuizScoreScreen extends StatelessWidget {
@@ -166,8 +165,9 @@ class VocabQuizScoreScreen extends StatelessWidget {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
-                          'Your score',
-                          style: TextStyle(fontSize: 13, color: t.heroMuted),
+                          'Your score'.toUpperCase(),
+                          style: TextStyle(
+                              fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
                         ),
                         Text.rich(
                           TextSpan(
@@ -200,15 +200,15 @@ class VocabQuizScoreScreen extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 12),
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: ResPalette.ink,
+                        gradient: kPeachGradient,
                         borderRadius: BorderRadius.circular(999),
                       ),
                       child: const Text(
                         'Best so far',
                         style: TextStyle(
                           fontSize: 12,
-                          fontWeight: FontWeight.w500,
-                          color: Color(0xFFF6ECC8),
+                          fontWeight: FontWeight.w600,
+                          color: kOnPeach,
                         ),
                       ),
                     ),
@@ -269,7 +269,7 @@ class _Stat extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
-        color: t.isNight ? ResPalette.creamChip : ResPalette.white.withValues(alpha: 0.7),
+        color: t.heroChip,
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(

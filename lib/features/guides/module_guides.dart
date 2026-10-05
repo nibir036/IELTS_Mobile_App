@@ -4,7 +4,7 @@ import '../../app/routes.dart';
 import 'study_guide_screen.dart';
 
 /// IELTS Listening Guide (assets/content/listening_guide.json): the nextED
-/// "Zero to Band 9" Listening module — 7 files as 15 chapters, with drills.
+/// "Zero to Band 9" Listening module - 7 files as 15 chapters, with drills.
 class ListeningGuideScreen extends StatelessWidget {
   const ListeningGuideScreen({super.key});
 
@@ -14,7 +14,7 @@ class ListeningGuideScreen extends StatelessWidget {
 }
 
 /// Vocabulary Lessons (assets/content/vocab_guide.json): the full nextED
-/// vocabulary book *Zero to Band 9* — 49 lessons in 6 chapters, with exercises.
+/// vocabulary book *Zero to Band 9* - 49 lessons in 6 chapters, with exercises.
 class VocabGuideScreen extends StatelessWidget {
   const VocabGuideScreen({super.key});
 

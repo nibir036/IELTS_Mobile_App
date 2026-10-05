@@ -312,7 +312,7 @@ class _DeleteAccountDialogState extends State<_DeleteAccountDialog> {
     const lost = <String>[
       'All practice history, scores and bands',
       'Your essays and speaking recordings',
-      'Certificates, study plan and saved items',
+      'Milestones, study plan and saved items',
     ];
     return SingleChildScrollView(
       child: Column(

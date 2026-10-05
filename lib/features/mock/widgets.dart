@@ -10,7 +10,7 @@ import '../../app/widgets/kit.dart';
 // Formatting helpers
 // ─────────────────────────────────────────────────────────────────────────────
 
-/// "21:14" — two-digit minutes (exam timers).
+/// "21:14"- two-digit minutes (exam timers).
 String mockClock(int seconds) {
   final s = seconds < 0 ? 0 : seconds;
   final m = s ~/ 60;
@@ -18,7 +18,7 @@ String mockClock(int seconds) {
   return '${m.toString().padLeft(2, '0')}:${r.toString().padLeft(2, '0')}';
 }
 
-/// "1:12" — short minutes (countdowns, speaking).
+/// "1:12"- short minutes (countdowns, speaking).
 String mockShortClock(int seconds) {
   final s = seconds < 0 ? 0 : seconds;
   final m = s ~/ 60;
@@ -76,16 +76,17 @@ IconData mockIcon(String key) {
 
 /// The dark pill badge used on hero cards in both themes ("In 27 days").
 const Color kMockInk = Color(0xFF151515);
-const Color kMockCream = Color(0xFFF6ECC8);
+const Color kMockCream = Color(0xFFFFC2B0);
 
 /// Pink used for flags in both themes.
-const Color kMockFlagPink = Color(0xFFF9D6E2);
-const Color kMockFlagStrong = Color(0xFFF4B8CB);
+const Color kMockFlagPink = Color(0xFFFFE2D8);
+const Color kMockFlagStrong = Color(0xFFFFB8A3);
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Small shared widgets
 // ─────────────────────────────────────────────────────────────────────────────
 
+/// Peach pill badge on hero cards ("In 27 days").
 class MockInkBadge extends StatelessWidget {
   const MockInkBadge(this.text, {super.key});
 
@@ -98,15 +99,15 @@ class MockInkBadge extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12),
       alignment: Alignment.center,
       decoration: BoxDecoration(
-        color: kMockInk,
+        gradient: kPeachGradient,
         borderRadius: BorderRadius.circular(999),
       ),
       child: Text(
         text,
         style: const TextStyle(
           fontSize: 12,
-          fontWeight: FontWeight.w500,
-          color: kMockCream,
+          fontWeight: FontWeight.w600,
+          color: kOnPeach,
         ),
       ),
     );
@@ -301,7 +302,7 @@ class MockSectionTabs extends StatelessWidget {
 
 /// Segmented-track tint. Day #EDE3E9 · Night #151515.
 Color mockTrackTint(AppTokens t) =>
-    t.isNight ? t.surface : const Color(0xFFEDE3E9);
+    t.isNight ? t.surface : const Color(0xFFF2E6E2);
 
 /// Selected segment. Day #FFFFFF · Night #1F1F1F.
 Color mockRaisedTint(AppTokens t) => t.isNight ? t.surfaceAlt2 : t.surface;

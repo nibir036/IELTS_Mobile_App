@@ -20,7 +20,7 @@ export 'sim_audio.dart';
 const Color kInk = Color(0xFF151515);
 
 /// Cream icon on the dark play button (both themes).
-const Color kCream = Color(0xFFF6ECC8);
+const Color kCream = Color(0xFFFFC2B0);
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Helpers
@@ -284,7 +284,7 @@ double nextSpeed(double speed) {
   return 0.75;
 }
 
-/// Dark play / pause tile (#151515 with a cream glyph in both themes).
+/// Play / pause tile on hero cards (peach with a dark glyph in both themes).
 class DarkPlayButton extends StatelessWidget {
   const DarkPlayButton({
     super.key,
@@ -310,30 +310,36 @@ class DarkPlayButton extends StatelessWidget {
     return Tooltip(
       message: loading ? 'Loading audio' : (playing ? 'Pause' : 'Play'),
       child: Material(
-        color: kInk,
+        color: Colors.transparent,
         borderRadius: BorderRadius.circular(radius),
         clipBehavior: Clip.antiAlias,
-        child: InkWell(
-          onTap: loading ? null : onTap,
-          child: SizedBox(
-            width: size,
-            height: size,
-            child: loading
-                ? Center(
-                    child: SizedBox(
-                      width: iconSize * 0.75,
-                      height: iconSize * 0.75,
-                      child: const CircularProgressIndicator(
-                        strokeWidth: 2,
-                        color: kCream,
+        child: Ink(
+          decoration: BoxDecoration(
+            gradient: kPeachGradient,
+            borderRadius: BorderRadius.circular(radius),
+          ),
+          child: InkWell(
+            onTap: loading ? null : onTap,
+            child: SizedBox(
+              width: size,
+              height: size,
+              child: loading
+                  ? Center(
+                      child: SizedBox(
+                        width: iconSize * 0.75,
+                        height: iconSize * 0.75,
+                        child: const CircularProgressIndicator(
+                          strokeWidth: 2,
+                          color: kOnPeach,
+                        ),
                       ),
+                    )
+                  : Icon(
+                      playing ? AppIcons.pause : AppIcons.play,
+                      size: iconSize,
+                      color: kOnPeach,
                     ),
-                  )
-                : Icon(
-                    playing ? AppIcons.pause : AppIcons.play,
-                    size: iconSize,
-                    color: kCream,
-                  ),
+            ),
           ),
         ),
       ),
@@ -439,7 +445,7 @@ class GapBox extends StatelessWidget {
     if (state == GapState.empty) {
       box = CustomPaint(
         foregroundPainter: DashedRRectPainter(
-          color: dashColor ?? (t.isNight ? t.border : const Color(0xFFD4C6CF)),
+          color: dashColor ?? (t.isNight ? t.border : const Color(0xFFE0CDC7)),
         ),
         child: box,
       );

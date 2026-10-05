@@ -11,11 +11,11 @@ import 'config.dart';
 ///
 /// The app still works from its local store (fast, offline); this service
 /// copies changes both ways:
-/// * **push** — attempts, saved state (kv), study tasks, notifications and
+/// * **push** - attempts, saved state (kv), study tasks, notifications and
 ///   profile edits that differ from what was last synced (compared by a hash
 ///   per item), plus deletions; sent a few seconds after a change, when the
 ///   app goes to the background and on start.
-/// * **pull** — everything the server changed since the last sync
+/// * **pull** - everything the server changed since the last sync
 ///   (`GET /v1/sync?since=`), e.g. results from another phone or the
 ///   server-scored writing / speaking attempts.
 ///
@@ -287,6 +287,13 @@ class SyncService {
         if (raw is! Map) continue;
         final t = Map<String, dynamic>.from(raw);
         if ('${t['kind'] ?? ''}'.isEmpty) t.remove('kind');
+        // The study plan dropped this task (rolled over, paused, replaced).
+        if (t['removed'] == true) {
+          data.tasks.removeWhere((x) => x['id'] == t['id']);
+          snap.tasks.remove('${t['id']}');
+          changed = true;
+          continue;
+        }
         final i = data.tasks.indexWhere((x) => x['id'] == t['id']);
         if (i >= 0) {
           data.tasks[i] = t;
@@ -382,7 +389,7 @@ class SyncService {
 
   static String _hash(Object? v) => _hashString(jsonEncode(v));
 
-  /// FNV-1a (64-bit split in two 32-bit halves) — stable across app runs,
+  /// FNV-1a (64-bit split in two 32-bit halves) - stable across app runs,
   /// unlike String.hashCode.
   static String _hashString(String s) {
     var h1 = 0x811c9dc5, h2 = 0x050c5d1f;

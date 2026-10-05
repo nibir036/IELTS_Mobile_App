@@ -6,7 +6,7 @@ import '../tests/question_lists_screens.dart';
 import 'essay_history_screen.dart';
 import 'ideas_topics_screen.dart';
 import 'masterclass_screen.dart';
-import 'sentence_builder_screen.dart';
+import 'sentence_bank_screen.dart';
 import 'writing_band_report_screen.dart';
 import 'writing_editor_screen.dart';
 import 'writing_feedback_loading_screen.dart';
@@ -28,7 +28,7 @@ final Map<String, WidgetBuilder> writingRoutes = <String, WidgetBuilder>{
   Routes.writingLineReview: (_) => const WritingLineReviewScreen(),
   Routes.writingBandReport: (_) => const WritingBandReportScreen(),
   Routes.writingRewriter: (_) => const WritingRewriterScreen(),
-  Routes.sentenceBuilder: (_) => const SentenceBuilderScreen(),
+  Routes.sentenceBuilder: (_) => const SentenceBuilderEntry(),
   Routes.masterclass: (_) => const MasterclassScreen(),
   Routes.essayHistory: (_) => const EssayHistoryScreen(),
   Routes.writingTemplate: (_) => const WritingTemplateScreen(),

@@ -277,7 +277,7 @@ class _WritingTemplateScreenState extends State<WritingTemplateScreen> {
             Expanded(
               child: Text(
                 tpl == null
-                    ? 'No template for this type — pick another type above'
+                    ? 'No template for this type - pick another type above'
                     : 'Tap a dashed slot to fill it in · ${counts.$1} of ${counts.$2} filled',
                 style: TextStyle(fontSize: 12, color: t.textMuted),
               ),
@@ -309,7 +309,7 @@ class _WritingTemplateScreenState extends State<WritingTemplateScreen> {
         ? Container(
             padding: const EdgeInsets.symmetric(horizontal: 8),
             decoration: BoxDecoration(
-              color: const Color(0xFFDCDDFA),
+              color: const Color(0xFFDCE6FF),
               borderRadius: BorderRadius.circular(8),
             ),
             child: Text(
@@ -323,7 +323,7 @@ class _WritingTemplateScreenState extends State<WritingTemplateScreen> {
             ),
           )
         : DashedBox(
-            color: wc(t, 0xFFB9BAF2, 0xFF5C2A20),
+            color: wc(t, 0xFFB4C8FF, 0xFF3A4570),
             radius: 8,
             strokeWidth: 1,
             dash: 3,

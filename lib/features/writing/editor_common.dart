@@ -15,7 +15,7 @@ import 'writing_data.dart';
 /// Shared behaviour of the C2 / C3 editors: prompt selection from route
 /// args, draft restore + debounced autosave, elapsed timer, submit.
 mixin WritingEditorLogic<T extends StatefulWidget> on State<T> {
-  /// 1 or 2 — set by the screen.
+  /// 1 or 2 - set by the screen.
   int get editorTask;
 
   /// Builds the text controller (C2 uses a highlighting controller).

@@ -1,0 +1,2952 @@
+{
+ "category": "task1",
+ "drills": [
+  {
+   "id": "task1_001",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "In 2010, Country A spent 20% of its budget on schools.",
+    "Country B spent only 8%."
+   ],
+   "answer": [
+    "In 2010, Country A spent",
+    "20% of its budget on schools,",
+    "while",
+    "Country B spent",
+    "only 8%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "because of"
+   ],
+   "hint": "Use \"while\" after a comma to contrast two figures from the same year.",
+   "level": 1
+  },
+  {
+   "id": "task1_002",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Football was the top sport among boys.",
+    "Most girls preferred swimming."
+   ],
+   "answer": [
+    "Football was",
+    "the top sport among boys,",
+    "while",
+    "most girls",
+    "preferred swimming."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "so that"
+   ],
+   "hint": "Give the first fact, add a comma, then \"while\" and the contrasting fact.",
+   "level": 1
+  },
+  {
+   "id": "task1_003",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "The forest in the north was cleared for housing.",
+    "The lake in the south remained unchanged."
+   ],
+   "answer": [
+    "The forest in the north",
+    "was cleared for housing,",
+    "while",
+    "the lake in the south",
+    "remained unchanged."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so that",
+    "because"
+   ],
+   "hint": "\"While\" can join two changes on a map that happened in different ways.",
+   "level": 1
+  },
+  {
+   "id": "task1_004",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Online sales rose by 15% between 2015 and 2020.",
+    "High street sales fell by 5%."
+   ],
+   "answer": [
+    "Online sales rose by 15%",
+    "between 2015 and 2020,",
+    "while",
+    "high street sales",
+    "fell by 5%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "so that"
+   ],
+   "hint": "Keep the time phrase in the first clause, then use \"while\" for the opposite trend.",
+   "level": 2
+  },
+  {
+   "id": "task1_005",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Car use in Town C is expected to fall by 2040.",
+    "Rail travel there is projected to grow."
+   ],
+   "answer": [
+    "Car use in Town C is expected",
+    "to fall by 2040,",
+    "while",
+    "rail travel is projected",
+    "to grow."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "unless",
+    "so that"
+   ],
+   "hint": "Keep the future forms in both clauses and join them with \"while\".",
+   "level": 2
+  },
+  {
+   "id": "task1_006",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "Rent made up 35% of student spending.",
+    "Books made up just 5%."
+   ],
+   "answer": [
+    "Rent made up",
+    "35% of student spending,",
+    "while",
+    "books made up",
+    "just 5%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "in order that"
+   ],
+   "hint": "Use \"while\" to set a large share against a small one.",
+   "level": 1
+  },
+  {
+   "id": "task1_007",
+   "connector": "while",
+   "function": "Contrast",
+   "sentences": [
+    "The number of male nurses doubled over the period.",
+    "The number of female nurses stayed at about 2,000."
+   ],
+   "answer": [
+    "The number of male nurses",
+    "doubled over the period,",
+    "while",
+    "the female figure stayed",
+    "at about 2,000."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "unless",
+    "because of"
+   ],
+   "hint": "After \"while\", \"the figure\" avoids repeating \"the number of\".",
+   "level": 3
+  },
+  {
+   "id": "task1_008",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "In 1990, 60% of households owned a car.",
+    "Only 10% owned a computer."
+   ],
+   "answer": [
+    "In 1990, 60% of households",
+    "owned a car,",
+    "whereas",
+    "only 10%",
+    "owned a computer."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "because of"
+   ],
+   "hint": "Put a comma before \"whereas\" to contrast two percentages.",
+   "level": 1
+  },
+  {
+   "id": "task1_009",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Product X sold 500 units in January.",
+    "Product Y sold just 120 units."
+   ],
+   "answer": [
+    "Product X sold",
+    "500 units in January,",
+    "whereas",
+    "Product Y sold",
+    "just 120 units."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "because of"
+   ],
+   "hint": "\"Whereas\" links two facts that differ; keep the comma before it.",
+   "level": 1
+  },
+  {
+   "id": "task1_010",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "The 18-24 age group used social media daily.",
+    "Most people over 65 rarely used it."
+   ],
+   "answer": [
+    "The 18-24 age group used",
+    "social media daily,",
+    "whereas",
+    "most people over 65",
+    "rarely used it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "so that"
+   ],
+   "hint": "Contrast the two age groups with \"whereas\"; \"it\" refers to social media.",
+   "level": 1
+  },
+  {
+   "id": "task1_011",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Coal produced most electricity in 2000.",
+    "Wind power produced very little."
+   ],
+   "answer": [
+    "Coal produced",
+    "most electricity in 2000,",
+    "whereas",
+    "wind power produced",
+    "very little."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "so that"
+   ],
+   "hint": "Use \"whereas\" after a comma when the second fact is the opposite of the first.",
+   "level": 1
+  },
+  {
+   "id": "task1_012",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Rural areas saw a sharp fall in population.",
+    "Urban areas grew steadily."
+   ],
+   "answer": [
+    "Rural areas saw",
+    "a sharp fall in population,",
+    "whereas",
+    "urban areas",
+    "grew steadily."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "unless",
+    "so that"
+   ],
+   "hint": "One clause uses adjective + noun (\"a sharp fall\"), the other verb + adverb.",
+   "level": 2
+  },
+  {
+   "id": "task1_013",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Spending on gas is projected to rise to £800.",
+    "Spending on oil is expected to remain stable."
+   ],
+   "answer": [
+    "Spending on gas is projected",
+    "to rise to £800,",
+    "whereas",
+    "oil spending is expected",
+    "to remain stable."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "unless",
+    "so that"
+   ],
+   "hint": "Keep both future forms and put the comma before \"whereas\".",
+   "level": 3
+  },
+  {
+   "id": "task1_014",
+   "connector": "whereas",
+   "function": "Contrast",
+   "sentences": [
+    "Teenagers in Group A read for two hours a week.",
+    "Those in Group B read for six hours."
+   ],
+   "answer": [
+    "Teenagers in Group A read",
+    "for two hours a week,",
+    "whereas",
+    "those in Group B",
+    "read for six hours."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "in order that"
+   ],
+   "hint": "\"Those\" replaces \"teenagers\" in the clause after \"whereas\".",
+   "level": 1
+  },
+  {
+   "id": "task1_015",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "The price of petrol rose sharply in 2008.",
+    "The price of diesel fell slightly."
+   ],
+   "answer": [
+    "The price of petrol",
+    "rose sharply in 2008;",
+    "in contrast,",
+    "the price of diesel",
+    "fell slightly."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "Use a semicolon before \"in contrast,\" to join two opposite trends.",
+   "level": 2
+  },
+  {
+   "id": "task1_016",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Cinema visits declined over the decade.",
+    "Streaming subscriptions tripled in the same period."
+   ],
+   "answer": [
+    "Cinema visits declined",
+    "over the decade;",
+    "in contrast,",
+    "streaming subscriptions",
+    "tripled."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "After the semicolon, \"in contrast,\" introduces the opposite trend.",
+   "level": 1
+  },
+  {
+   "id": "task1_017",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "In Town C, most people commuted by car.",
+    "In Town D, most people cycled."
+   ],
+   "answer": [
+    "In Town C, most people",
+    "commuted by car;",
+    "in contrast,",
+    "most people in Town D",
+    "cycled."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "therefore,"
+   ],
+   "hint": "Use a semicolon, then \"in contrast,\" and the habit in the second town.",
+   "level": 1
+  },
+  {
+   "id": "task1_018",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Exports of Product X grew steadily after 2012.",
+    "Imports of the product fell to 2,000 tonnes."
+   ],
+   "answer": [
+    "Exports of Product X",
+    "grew steadily after 2012;",
+    "in contrast,",
+    "imports of the product",
+    "fell to 2,000 tonnes."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "similarly,",
+    "for instance,"
+   ],
+   "hint": "Two opposite trends: a semicolon, then \"in contrast\" with a comma.",
+   "level": 2
+  },
+  {
+   "id": "task1_019",
+   "connector": "in contrast to",
+   "function": "Contrast",
+   "sentences": [
+    "Group A spent most of its income on housing.",
+    "Group B spent most of its income on food."
+   ],
+   "answer": [
+    "In contrast to",
+    "Group A, which spent most",
+    "on housing,",
+    "Group B spent most",
+    "on food."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "similar to",
+    "because of"
+   ],
+   "hint": "\"In contrast to\" is followed by a noun; the main clause comes after the comma.",
+   "level": 3
+  },
+  {
+   "id": "task1_020",
+   "connector": "in contrast",
+   "function": "Contrast",
+   "sentences": [
+    "The share of adults who smoked halved by 2015.",
+    "The share who vaped rose to 12%."
+   ],
+   "answer": [
+    "The share of adults who smoked",
+    "halved by 2015;",
+    "in contrast,",
+    "the share who vaped",
+    "rose to 12%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "Use \"the share/proportion\" for percentages and a semicolon before \"in contrast,\".",
+   "level": 2
+  },
+  {
+   "id": "task1_021",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "In 2020, 45% of workers worked from home.",
+    "In 2010, the figure was only 10%."
+   ],
+   "answer": [
+    "In 2020, 45% of workers",
+    "worked from home,",
+    "compared with",
+    "only 10%",
+    "in 2010."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "instead of",
+    "because of"
+   ],
+   "hint": "\"Compared with\" adds the earlier figure after a comma, with no new verb.",
+   "level": 2
+  },
+  {
+   "id": "task1_022",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Product X sold 3,000 units in May.",
+    "Product Y sold 1,200 units in May."
+   ],
+   "answer": [
+    "Product X sold",
+    "3,000 units in May,",
+    "compared with",
+    "1,200 units",
+    "for Product Y."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "because of"
+   ],
+   "hint": "Put the larger figure first, then \"compared with\" and the smaller one.",
+   "level": 1
+  },
+  {
+   "id": "task1_023",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Women made up 60% of university graduates.",
+    "Men made up 40%."
+   ],
+   "answer": [
+    "Women made up",
+    "60% of university graduates,",
+    "compared with",
+    "40%",
+    "for men."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "instead of",
+    "due to"
+   ],
+   "hint": "Use \"compared with\" plus a figure, then \"for\" to name the second group.",
+   "level": 1
+  },
+  {
+   "id": "task1_024",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Water use in Town C was 150 litres per person.",
+    "Water use in Town D was only 90 litres."
+   ],
+   "answer": [
+    "Compared with",
+    "the 90 litres used in Town D,",
+    "water use in Town C",
+    "was much higher,",
+    "at 150 litres per person."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "because of",
+    "instead of"
+   ],
+   "hint": "A fronted \"compared with\" phrase needs a comma before the main clause.",
+   "level": 3
+  },
+  {
+   "id": "task1_025",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Rail fares rose by 30% over the decade.",
+    "Bus fares rose by only 12%."
+   ],
+   "answer": [
+    "Rail fares rose by 30%",
+    "over the decade,",
+    "compared with",
+    "only 12%",
+    "for bus fares."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "instead of"
+   ],
+   "hint": "\"Compared with\" lets you add a second percentage without a new verb.",
+   "level": 2
+  },
+  {
+   "id": "task1_026",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Ten thousand tourists visited the museum in 2019.",
+    "Only 4,000 visited in 2021."
+   ],
+   "answer": [
+    "Ten thousand tourists visited",
+    "the museum in 2019,",
+    "compared with",
+    "just 4,000",
+    "in 2021."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because of",
+    "due to"
+   ],
+   "hint": "Use \"compared with\" to add the later figure to the same sentence.",
+   "level": 1
+  },
+  {
+   "id": "task1_027",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "In Country A, 70% of energy came from coal.",
+    "In Country B, coal supplied just 20%."
+   ],
+   "answer": [
+    "Coal supplied 70% of energy",
+    "in Country A,",
+    "compared with",
+    "just 20%",
+    "in Country B."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "instead of",
+    "in spite of"
+   ],
+   "hint": "Make \"coal\" the subject so that one verb covers both countries.",
+   "level": 3
+  },
+  {
+   "id": "task1_028",
+   "connector": "followed by",
+   "function": "Ranking",
+   "sentences": [
+    "Coal was the main source of electricity, at 40%.",
+    "Gas was second, at 25%."
+   ],
+   "answer": [
+    "Coal was the main source",
+    "of electricity, at 40%,",
+    "followed by",
+    "gas",
+    "at 25%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because of",
+    "due to"
+   ],
+   "hint": "\"Followed by\" introduces the next item in a ranking.",
+   "level": 1
+  },
+  {
+   "id": "task1_029",
+   "connector": "followed by",
+   "function": "Sequence",
+   "sentences": [
+    "First, the leaves are picked by hand.",
+    "Then they are dried in the sun."
+   ],
+   "answer": [
+    "The first stage is",
+    "picking the leaves by hand,",
+    "followed by",
+    "drying them",
+    "in the sun."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because of",
+    "instead of"
+   ],
+   "hint": "After \"followed by\", use an -ing form or a noun for the next stage.",
+   "level": 2
+  },
+  {
+   "id": "task1_030",
+   "connector": "followed by",
+   "function": "Sequence",
+   "sentences": [
+    "Sales peaked in December.",
+    "There was a sharp fall in January."
+   ],
+   "answer": [
+    "Sales peaked",
+    "in December,",
+    "followed by",
+    "a sharp fall",
+    "in January."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because of",
+    "despite"
+   ],
+   "hint": "Use \"followed by\" plus a noun phrase for the next change.",
+   "level": 1
+  },
+  {
+   "id": "task1_031",
+   "connector": "followed by",
+   "function": "Ranking",
+   "sentences": [
+    "Housing made up the largest share of costs.",
+    "Transport made up the second largest share."
+   ],
+   "answer": [
+    "Housing made up",
+    "the largest share of costs,",
+    "followed by",
+    "transport."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because of",
+    "instead of"
+   ],
+   "hint": "Rank the categories: the biggest first, then \"followed by\" the next.",
+   "level": 1
+  },
+  {
+   "id": "task1_032",
+   "connector": "followed by",
+   "function": "Sequence",
+   "sentences": [
+    "Unemployment rose sharply in 2009.",
+    "A slow recovery followed over the next five years."
+   ],
+   "answer": [
+    "Unemployment rose",
+    "sharply in 2009,",
+    "followed by",
+    "a slow recovery",
+    "over the next five years."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "instead of"
+   ],
+   "hint": "\"Followed by\" adds what happened next without a new verb.",
+   "level": 2
+  },
+  {
+   "id": "task1_033",
+   "connector": "followed by",
+   "function": "Sequence",
+   "sentences": [
+    "The old factory was demolished.",
+    "A shopping centre was then built on the site."
+   ],
+   "answer": [
+    "The old factory",
+    "was demolished,",
+    "followed by",
+    "the construction of",
+    "a shopping centre on the site."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because of",
+    "despite"
+   ],
+   "hint": "After \"followed by\", turn the second action into a noun phrase.",
+   "level": 3
+  },
+  {
+   "id": "task1_034",
+   "connector": "followed by",
+   "function": "Ranking",
+   "sentences": [
+    "Product X had the most complaints, at 320.",
+    "Product Y had 210 complaints."
+   ],
+   "answer": [
+    "Product X had",
+    "the most complaints, at 320,",
+    "followed by",
+    "Product Y",
+    "with 210."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because of",
+    "due to"
+   ],
+   "hint": "Use \"followed by\" for second place and \"with\" for its figure.",
+   "level": 2
+  },
+  {
+   "id": "task1_035",
+   "connector": "before",
+   "function": "Sequence",
+   "sentences": [
+    "Sales rose to a peak of 800 units in 2015.",
+    "They then fell to 500 units in 2020."
+   ],
+   "answer": [
+    "Sales rose to a peak",
+    "of 800 units in 2015",
+    "before",
+    "falling to",
+    "500 units in 2020."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after",
+    "fell to"
+   ],
+   "hint": "After \"before\", use an -ing form, not a past tense verb.",
+   "level": 2
+  },
+  {
+   "id": "task1_036",
+   "connector": "before",
+   "function": "Sequence",
+   "sentences": [
+    "The population of Town C grew steadily until 1990.",
+    "It then levelled off at 50,000."
+   ],
+   "answer": [
+    "The population of Town C",
+    "grew steadily until 1990",
+    "before",
+    "levelling off",
+    "at 50,000."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after",
+    "levelled off"
+   ],
+   "hint": "\"Before\" + -ing shows the next stage of the trend.",
+   "level": 2
+  },
+  {
+   "id": "task1_037",
+   "connector": "before",
+   "function": "Sequence",
+   "sentences": [
+    "The glass is cleaned.",
+    "Then it is crushed into small pieces."
+   ],
+   "answer": [
+    "The glass is cleaned",
+    "before",
+    "being crushed",
+    "into small pieces."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after",
+    "crushed"
+   ],
+   "hint": "In a process, use \"before being\" + past participle for a passive next step.",
+   "level": 3
+  },
+  {
+   "id": "task1_038",
+   "connector": "before",
+   "function": "Sequence",
+   "sentences": [
+    "Coal use fell gradually until 2010.",
+    "It then dropped sharply to 15%."
+   ],
+   "answer": [
+    "Coal use fell",
+    "gradually until 2010",
+    "before",
+    "dropping sharply",
+    "to 15%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after",
+    "dropped"
+   ],
+   "hint": "Use \"before\" + -ing to describe what the line did next.",
+   "level": 1
+  },
+  {
+   "id": "task1_039",
+   "connector": "before",
+   "function": "Sequence",
+   "sentences": [
+    "Rents in Town C are expected to rise until 2030.",
+    "They are then projected to stabilise."
+   ],
+   "answer": [
+    "Rents in Town C are expected",
+    "to rise until 2030",
+    "before",
+    "stabilising."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after",
+    "stabilised"
+   ],
+   "hint": "Use \"before\" + -ing after a future form to show the next change.",
+   "level": 2
+  },
+  {
+   "id": "task1_040",
+   "connector": "before",
+   "function": "Sequence",
+   "sentences": [
+    "The number of visitors climbed to 2 million in 2018.",
+    "It then fell back to 1.5 million."
+   ],
+   "answer": [
+    "The number of visitors",
+    "climbed to 2 million in 2018",
+    "before",
+    "falling back",
+    "to 1.5 million."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after",
+    "fell back"
+   ],
+   "hint": "Join two stages of a trend with \"before\" and an -ing verb.",
+   "level": 1
+  },
+  {
+   "id": "task1_041",
+   "connector": "before",
+   "function": "Sequence",
+   "sentences": [
+    "The milk is heated to 72°C.",
+    "Then it is cooled and bottled."
+   ],
+   "answer": [
+    "The milk is heated to 72°C",
+    "before",
+    "being cooled",
+    "and bottled."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "after",
+    "cooled"
+   ],
+   "hint": "The passive -ing form \"being\" + past participle follows \"before\".",
+   "level": 2
+  },
+  {
+   "id": "task1_042",
+   "connector": "after",
+   "function": "Sequence",
+   "sentences": [
+    "Profits fell to £2 million in 2009.",
+    "They then recovered to £5 million by 2012."
+   ],
+   "answer": [
+    "After",
+    "falling to £2 million in 2009,",
+    "profits recovered",
+    "to £5 million by 2012."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Before",
+    "Because"
+   ],
+   "hint": "A fronted \"after\" + -ing phrase needs a comma and the same subject as the main clause.",
+   "level": 2
+  },
+  {
+   "id": "task1_043",
+   "connector": "after",
+   "function": "Sequence",
+   "sentences": [
+    "The bricks are shaped in moulds.",
+    "Then they are dried for 48 hours."
+   ],
+   "answer": [
+    "After",
+    "being shaped in moulds,",
+    "the bricks are dried",
+    "for 48 hours."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Before",
+    "Because"
+   ],
+   "hint": "Use \"after being\" + past participle to start with the earlier stage.",
+   "level": 2
+  },
+  {
+   "id": "task1_044",
+   "connector": "after",
+   "function": "Sequence",
+   "sentences": [
+    "Car sales dipped in 2020.",
+    "They rose sharply in 2021."
+   ],
+   "answer": [
+    "Car sales",
+    "rose sharply in 2021",
+    "after",
+    "dipping in 2020."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "before",
+    "dipped"
+   ],
+   "hint": "\"After\" + -ing puts the earlier event at the end of the sentence.",
+   "level": 1
+  },
+  {
+   "id": "task1_045",
+   "connector": "after",
+   "function": "Sequence",
+   "sentences": [
+    "The water is filtered through sand.",
+    "It is then stored in large tanks."
+   ],
+   "answer": [
+    "The water is stored",
+    "in large tanks",
+    "after",
+    "being filtered through sand."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "before",
+    "filtered"
+   ],
+   "hint": "Put the later stage first, then \"after being\" + past participle for the earlier one.",
+   "level": 2
+  },
+  {
+   "id": "task1_046",
+   "connector": "after",
+   "function": "Sequence",
+   "sentences": [
+    "Membership peaked at 900 in 2016.",
+    "It then declined steadily to 400."
+   ],
+   "answer": [
+    "After",
+    "peaking at 900 in 2016,",
+    "membership declined",
+    "steadily to 400."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Before",
+    "Because"
+   ],
+   "hint": "The subject after the comma must be the thing that peaked.",
+   "level": 2
+  },
+  {
+   "id": "task1_047",
+   "connector": "after",
+   "function": "Sequence",
+   "sentences": [
+    "Solar power is expected to overtake gas by 2030.",
+    "It is then projected to reach 40% by 2040."
+   ],
+   "answer": [
+    "After",
+    "overtaking gas by 2030,",
+    "solar power is projected",
+    "to reach 40% by 2040."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Before",
+    "Because"
+   ],
+   "hint": "\"After\" + -ing works for projections too; keep \"is projected to\" in the main clause.",
+   "level": 3
+  },
+  {
+   "id": "task1_048",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "In 2015, 55% of students passed the exam.",
+    "This was the highest figure in the period."
+   ],
+   "answer": [
+    "In 2015, 55% of students",
+    "passed the exam,",
+    "which",
+    "was the highest figure",
+    "in the period."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Use \", which\" to comment on the whole figure just given.",
+   "level": 1
+  },
+  {
+   "id": "task1_049",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Tourist numbers fell by half in 2020.",
+    "This was the sharpest drop on the graph."
+   ],
+   "answer": [
+    "Tourist numbers",
+    "fell by half in 2020,",
+    "which",
+    "was the sharpest drop",
+    "on the graph."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "what"
+   ],
+   "hint": "\"Which\" after a comma refers back to the whole change.",
+   "level": 1
+  },
+  {
+   "id": "task1_050",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "A new road was built through the village.",
+    "This divided the farmland into two parts."
+   ],
+   "answer": [
+    "A new road was built",
+    "through the village,",
+    "which",
+    "divided the farmland",
+    "into two parts."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "where"
+   ],
+   "hint": "Use \"which\" for a thing or an event; never use \"who\" for it.",
+   "level": 1
+  },
+  {
+   "id": "task1_051",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Country A recycled 62% of its waste.",
+    "This was twice the rate of Country B."
+   ],
+   "answer": [
+    "Country A recycled",
+    "62% of its waste,",
+    "which",
+    "was twice the rate",
+    "of Country B."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "that"
+   ],
+   "hint": "Non-defining clauses take a comma and \"which\", not \"that\".",
+   "level": 2
+  },
+  {
+   "id": "task1_052",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Online sales are expected to reach 50% by 2030.",
+    "This would be double the 2020 figure."
+   ],
+   "answer": [
+    "Online sales are expected",
+    "to reach 50% by 2030,",
+    "which",
+    "would be double",
+    "the 2020 figure."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "what",
+    "who"
+   ],
+   "hint": "\"Which\" can comment on a projection; keep \"would\" in the relative clause.",
+   "level": 2
+  },
+  {
+   "id": "task1_053",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Some households had no internet access.",
+    "They made up 12% of the total."
+   ],
+   "answer": [
+    "Households",
+    "which",
+    "had no internet access",
+    "made up 12%",
+    "of the total."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whose",
+    "where"
+   ],
+   "hint": "A defining clause takes no commas: it tells us which households.",
+   "level": 3
+  },
+  {
+   "id": "task1_054",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "The 25-34 age group spent £120 a month online.",
+    "This was more than any other group."
+   ],
+   "answer": [
+    "The 25-34 age group spent",
+    "£120 a month online,",
+    "which",
+    "was more than",
+    "any other group."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "who",
+    "whose"
+   ],
+   "hint": "Point back to the whole figure with \", which\", not to the people.",
+   "level": 2
+  },
+  {
+   "id": "task1_055",
+   "connector": "which",
+   "function": "Relative clause",
+   "sentences": [
+    "Water consumption rose to 300 litres per day.",
+    "This marked the peak for the whole period."
+   ],
+   "answer": [
+    "Water consumption rose",
+    "to 300 litres per day,",
+    "which",
+    "marked the peak",
+    "for the whole period."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "where",
+    "who"
+   ],
+   "hint": "After the comma, \"which\" + verb adds a comment on the figure.",
+   "level": 1
+  },
+  {
+   "id": "task1_056",
+   "connector": "with",
+   "function": "Adding detail",
+   "sentences": [
+    "The total energy output was 500 units.",
+    "Coal accounted for 40% of this."
+   ],
+   "answer": [
+    "The total energy output",
+    "was 500 units,",
+    "with",
+    "coal accounting",
+    "for 40% of this."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "because"
+   ],
+   "hint": "\"With\" + noun + -ing adds a detail about the total.",
+   "level": 2
+  },
+  {
+   "id": "task1_057",
+   "connector": "with",
+   "function": "Adding detail",
+   "sentences": [
+    "Most visitors came from Europe.",
+    "Asia provided 25% of the total."
+   ],
+   "answer": [
+    "Most visitors",
+    "came from Europe,",
+    "with",
+    "Asia providing",
+    "25% of the total."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "so"
+   ],
+   "hint": "After \"with\", use a noun and an -ing verb, not a past tense.",
+   "level": 2
+  },
+  {
+   "id": "task1_058",
+   "connector": "with",
+   "function": "Adding detail",
+   "sentences": [
+    "Sales rose in all five regions.",
+    "The North recorded the largest increase."
+   ],
+   "answer": [
+    "Sales rose",
+    "in all five regions,",
+    "with",
+    "the North recording",
+    "the largest increase."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "so that"
+   ],
+   "hint": "Use \"with\" to highlight one detail of the general trend.",
+   "level": 2
+  },
+  {
+   "id": "task1_059",
+   "connector": "with",
+   "function": "Adding detail",
+   "sentences": [
+    "Car ownership increased steadily over the decade.",
+    "The figure reached 1.2 million by 2020."
+   ],
+   "answer": [
+    "Car ownership increased",
+    "steadily over the decade,",
+    "with",
+    "the figure reaching",
+    "1.2 million by 2020."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "so"
+   ],
+   "hint": "\"With the figure\" + -ing adds the final number to a trend.",
+   "level": 1
+  },
+  {
+   "id": "task1_060",
+   "connector": "with",
+   "function": "Adding detail",
+   "sentences": [
+    "Household waste was made up of five types.",
+    "Food waste was the largest, at 35%."
+   ],
+   "answer": [
+    "Household waste was made up",
+    "of five types,",
+    "with",
+    "food waste being",
+    "the largest, at 35%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "whereas"
+   ],
+   "hint": "\"With\" + noun + \"being\" adds a detail about one category.",
+   "level": 3
+  },
+  {
+   "id": "task1_061",
+   "connector": "with",
+   "function": "Adding detail",
+   "sentences": [
+    "Spending on leisure doubled between 2000 and 2020.",
+    "Travel made up most of the increase."
+   ],
+   "answer": [
+    "Spending on leisure doubled",
+    "between 2000 and 2020,",
+    "with",
+    "travel making up",
+    "most of the increase."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "although"
+   ],
+   "hint": "Use \"with\" + noun + -ing to explain which part caused most of the change.",
+   "level": 2
+  },
+  {
+   "id": "task1_062",
+   "connector": "with",
+   "function": "Adding detail",
+   "sentences": [
+    "Three new schools opened in the town.",
+    "Two of them were built in the east."
+   ],
+   "answer": [
+    "Three new schools",
+    "opened in the town,",
+    "with",
+    "two of them",
+    "built in the east."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "although"
+   ],
+   "hint": "\"With\" can be followed by a noun and a past participle for a passive detail.",
+   "level": 3
+  },
+  {
+   "id": "task1_063",
+   "connector": "reaching",
+   "function": "End point",
+   "sentences": [
+    "Online sales grew steadily from 2015.",
+    "They reached £40 million in 2022."
+   ],
+   "answer": [
+    "Online sales grew steadily",
+    "from 2015,",
+    "reaching",
+    "£40 million in 2022."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "reached",
+    "and reach"
+   ],
+   "hint": "After a comma, use the -ing form to add the end point of the trend.",
+   "level": 1
+  },
+  {
+   "id": "task1_064",
+   "connector": "peaking at",
+   "function": "Highest point",
+   "sentences": [
+    "The temperature rose throughout the morning.",
+    "It peaked at 31°C at 2 pm."
+   ],
+   "answer": [
+    "The temperature rose",
+    "throughout the morning,",
+    "peaking at",
+    "31°C at 2 pm."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "peaked at",
+    "peaks at"
+   ],
+   "hint": "Use \"peaking at\" after a comma rather than a second past tense verb.",
+   "level": 1
+  },
+  {
+   "id": "task1_065",
+   "connector": "falling to",
+   "function": "Lowest point",
+   "sentences": [
+    "Unemployment declined sharply after 2012.",
+    "It fell to 4% in 2018."
+   ],
+   "answer": [
+    "Unemployment declined sharply",
+    "after 2012,",
+    "falling to",
+    "4% in 2018."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "fell to",
+    "falls to"
+   ],
+   "hint": "\"Falling to\" adds the lowest point without starting a new clause.",
+   "level": 1
+  },
+  {
+   "id": "task1_066",
+   "connector": "peaking at",
+   "function": "Highest point",
+   "sentences": [
+    "Visitor numbers climbed rapidly in the summer.",
+    "They peaked at 12,000 in August."
+   ],
+   "answer": [
+    "Visitor numbers climbed",
+    "rapidly in the summer,",
+    "peaking at",
+    "12,000 in August."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "peaked at",
+    "peak at"
+   ],
+   "hint": "The -ing clause \"peaking at\" gives the highest point of the rise.",
+   "level": 1
+  },
+  {
+   "id": "task1_067",
+   "connector": "reaching",
+   "function": "End point",
+   "sentences": [
+    "The number of electric cars is expected to rise.",
+    "It is projected to reach 5 million by 2035."
+   ],
+   "answer": [
+    "The number of electric cars",
+    "is expected to rise,",
+    "reaching",
+    "5 million by 2035."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "reached",
+    "reaches"
+   ],
+   "hint": "A participle clause works with projections too: add \"reaching\" + the figure.",
+   "level": 2
+  },
+  {
+   "id": "task1_068",
+   "connector": "falling to",
+   "function": "Lowest point",
+   "sentences": [
+    "The proportion of smokers dropped steadily.",
+    "It fell to 14% by 2020."
+   ],
+   "answer": [
+    "The proportion of smokers",
+    "dropped steadily,",
+    "falling to",
+    "14% by 2020."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "fell to",
+    "fall to"
+   ],
+   "hint": "Use \"the proportion of\" for percentages, then \"falling to\" for the final level.",
+   "level": 2
+  },
+  {
+   "id": "task1_069",
+   "connector": "reaching",
+   "function": "End point",
+   "sentences": [
+    "Rice exports increased sharply in 2010.",
+    "They reached a peak of 9,000 tonnes."
+   ],
+   "answer": [
+    "Rice exports increased",
+    "sharply in 2010,",
+    "reaching",
+    "a peak of 9,000 tonnes."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "reached",
+    "reaches"
+   ],
+   "hint": "Use \"reaching a peak of\" after a comma to add the highest figure.",
+   "level": 2
+  },
+  {
+   "id": "task1_070",
+   "connector": "falling to",
+   "function": "Lowest point",
+   "sentences": [
+    "Gas prices dropped gradually throughout the year.",
+    "They fell to a low of £60 in December."
+   ],
+   "answer": [
+    "Gas prices dropped gradually",
+    "throughout the year,",
+    "falling to",
+    "a low of £60 in December."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "fallen to",
+    "fell to"
+   ],
+   "hint": "After a comma, \"falling to\" adds the final low point of the decline.",
+   "level": 2
+  },
+  {
+   "id": "task1_071",
+   "connector": "reaching",
+   "function": "End point",
+   "sentences": [
+    "The share of renewable energy rose sharply.",
+    "It reached a record 30% in 2020."
+   ],
+   "answer": [
+    "The share of renewable energy",
+    "rose sharply,",
+    "reaching",
+    "a record 30%",
+    "in 2020."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "reached",
+    "has reached"
+   ],
+   "hint": "The -ing clause shares the subject of the main clause, so no new subject is needed.",
+   "level": 3
+  },
+  {
+   "id": "task1_072",
+   "connector": "and then",
+   "function": "Sequence",
+   "sentences": [
+    "The raw cotton is cleaned.",
+    "Then it is spun into thread."
+   ],
+   "answer": [
+    "The raw cotton",
+    "is cleaned",
+    "and then",
+    "spun into thread."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "because"
+   ],
+   "hint": "\"And then\" links two stages; the second \"is\" can be left out.",
+   "level": 1
+  },
+  {
+   "id": "task1_073",
+   "connector": "and then",
+   "function": "Sequence",
+   "sentences": [
+    "Bus use fell slightly in 2015.",
+    "Then it recovered to its earlier level."
+   ],
+   "answer": [
+    "Bus use fell",
+    "slightly in 2015",
+    "and then",
+    "recovered",
+    "to its earlier level."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whereas",
+    "because"
+   ],
+   "hint": "Use \"and then\" to show the next movement of the same line.",
+   "level": 1
+  },
+  {
+   "id": "task1_074",
+   "connector": "and then",
+   "function": "Sequence",
+   "sentences": [
+    "Prices remained stable for three years.",
+    "Then they rose by 20% in 2019."
+   ],
+   "answer": [
+    "Prices remained stable",
+    "for three years",
+    "and then",
+    "rose by 20%",
+    "in 2019."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "so that"
+   ],
+   "hint": "\"And then\" joins two verbs with the same subject; no comma is needed.",
+   "level": 1
+  },
+  {
+   "id": "task1_075",
+   "connector": "and then",
+   "function": "Sequence",
+   "sentences": [
+    "The sugar cane is harvested by machine.",
+    "Next, it is transported to the mill."
+   ],
+   "answer": [
+    "The sugar cane",
+    "is harvested by machine",
+    "and then",
+    "transported to the mill."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "whereas"
+   ],
+   "hint": "With \"and then\" in a passive process, \"is\" is not repeated.",
+   "level": 2
+  },
+  {
+   "id": "task1_076",
+   "connector": "and then",
+   "function": "Sequence",
+   "sentences": [
+    "The car park was extended in 2005.",
+    "It was then turned into a garden in 2015."
+   ],
+   "answer": [
+    "The car park",
+    "was extended in 2005",
+    "and then",
+    "turned into a garden in 2015."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whereas",
+    "because"
+   ],
+   "hint": "Describe two changes to one place in time order with \"and then\".",
+   "level": 2
+  },
+  {
+   "id": "task1_077",
+   "connector": "and then",
+   "function": "Sequence",
+   "sentences": [
+    "Membership doubled between 2000 and 2005.",
+    "It then levelled off at around 600."
+   ],
+   "answer": [
+    "Membership doubled",
+    "between 2000 and 2005",
+    "and then",
+    "levelled off",
+    "at around 600."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "whereas"
+   ],
+   "hint": "\"And then\" keeps the same subject for both stages of the trend.",
+   "level": 2
+  },
+  {
+   "id": "task1_078",
+   "connector": "by contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Spending on books fell by 30%.",
+    "Spending on e-books rose by 50%."
+   ],
+   "answer": [
+    "Spending on books",
+    "fell by 30%;",
+    "by contrast,",
+    "spending on e-books",
+    "rose by 50%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "likewise,"
+   ],
+   "hint": "Use a semicolon, then \"by contrast,\" before the opposite trend.",
+   "level": 1
+  },
+  {
+   "id": "task1_079",
+   "connector": "by contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Men worked an average of 42 hours a week.",
+    "Women worked 34 hours on average."
+   ],
+   "answer": [
+    "Men worked an average",
+    "of 42 hours a week;",
+    "by contrast,",
+    "women worked",
+    "34 hours on average."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as a result,",
+    "for example,"
+   ],
+   "hint": "\"By contrast,\" after a semicolon sets one group against another.",
+   "level": 1
+  },
+  {
+   "id": "task1_080",
+   "connector": "by contrast",
+   "function": "Contrast",
+   "sentences": [
+    "The west of the island was heavily developed.",
+    "The east remained largely untouched."
+   ],
+   "answer": [
+    "The west of the island",
+    "was heavily developed;",
+    "by contrast,",
+    "the east",
+    "remained largely untouched."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "On a map, \"by contrast\" sets one area against another.",
+   "level": 2
+  },
+  {
+   "id": "task1_081",
+   "connector": "by contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Group A's scores improved steadily.",
+    "Group B's scores fluctuated throughout."
+   ],
+   "answer": [
+    "Group A's scores",
+    "improved steadily;",
+    "by contrast,",
+    "those of Group B",
+    "fluctuated throughout."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "likewise,",
+    "as a result,"
+   ],
+   "hint": "\"Those of\" avoids repeating \"scores\" after \"by contrast,\".",
+   "level": 2
+  },
+  {
+   "id": "task1_082",
+   "connector": "by contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Exports from Port X rose by 20%.",
+    "Exports from Port Y fell by 8%."
+   ],
+   "answer": [
+    "Exports from Port X",
+    "rose by 20%;",
+    "those from Port Y,",
+    "by contrast,",
+    "fell by 8%."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "\"By contrast\" can sit after the subject of the second clause, between commas.",
+   "level": 3
+  },
+  {
+   "id": "task1_083",
+   "connector": "by contrast",
+   "function": "Contrast",
+   "sentences": [
+    "Demand for oil is projected to decline.",
+    "Demand for hydrogen is expected to soar."
+   ],
+   "answer": [
+    "Demand for oil",
+    "is projected to decline;",
+    "by contrast,",
+    "demand for hydrogen",
+    "is expected to soar."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "similarly,",
+    "for example,"
+   ],
+   "hint": "Keep the future forms and put \"by contrast,\" after the semicolon.",
+   "level": 2
+  },
+  {
+   "id": "task1_084",
+   "connector": "overall",
+   "function": "Overview",
+   "sentences": [
+    "Coal use fell over the period.",
+    "Renewable energy use rose over the period."
+   ],
+   "answer": [
+    "Overall,",
+    "coal use fell,",
+    "while",
+    "renewable energy use rose",
+    "over the period."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In overall,",
+    "Because"
+   ],
+   "hint": "Start a summary with \"Overall,\" and give the main trends, not figures.",
+   "level": 1
+  },
+  {
+   "id": "task1_085",
+   "connector": "overall",
+   "function": "Overview",
+   "sentences": [
+    "The number of cars in Town C increased.",
+    "The number of bicycles decreased."
+   ],
+   "answer": [
+    "Overall,",
+    "car numbers in Town C",
+    "increased,",
+    "whereas",
+    "bicycle numbers decreased."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In overall,",
+    "Because of"
+   ],
+   "hint": "\"Overall,\" is one word followed by a comma; never say \"in overall\".",
+   "level": 1
+  },
+  {
+   "id": "task1_086",
+   "connector": "overall",
+   "function": "Overview",
+   "sentences": [
+    "Product X was the best seller in every month.",
+    "Sales of all products rose over the year."
+   ],
+   "answer": [
+    "Overall,",
+    "sales of all products rose,",
+    "and Product X",
+    "was the best seller",
+    "in every month."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In overall,",
+    "Although"
+   ],
+   "hint": "An overview gives the general trend and the main feature, without exact figures.",
+   "level": 2
+  },
+  {
+   "id": "task1_087",
+   "connector": "overall",
+   "function": "Overview",
+   "sentences": [
+    "Most age groups watched less television.",
+    "Only the over-65s watched more."
+   ],
+   "answer": [
+    "Overall,",
+    "most age groups watched",
+    "less television,",
+    "while the over-65s",
+    "watched more."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "At overall,",
+    "Despite"
+   ],
+   "hint": "Begin with \"Overall,\" then contrast the main pattern with the exception.",
+   "level": 3
+  },
+  {
+   "id": "task1_088",
+   "connector": "overall",
+   "function": "Overview",
+   "sentences": [
+    "Urban populations are expected to grow.",
+    "Rural populations are projected to shrink."
+   ],
+   "answer": [
+    "Overall,",
+    "urban populations",
+    "are expected to grow,",
+    "whereas rural ones",
+    "are projected to shrink."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In overall,",
+    "Due to"
+   ],
+   "hint": "An overview of projections keeps future forms such as \"are expected to\".",
+   "level": 2
+  },
+  {
+   "id": "task1_089",
+   "connector": "overall",
+   "function": "Overview",
+   "sentences": [
+    "Spending on all services increased.",
+    "Health spending stayed the highest throughout."
+   ],
+   "answer": [
+    "Overall,",
+    "spending on all services",
+    "increased,",
+    "and health spending",
+    "stayed the highest throughout."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In overall,",
+    "Despite"
+   ],
+   "hint": "A good overview gives the general trend plus the biggest category.",
+   "level": 3
+  },
+  {
+   "id": "task1_090",
+   "connector": "overall",
+   "function": "Overview",
+   "sentences": [
+    "The process has six stages.",
+    "It begins with harvesting and ends with packaging."
+   ],
+   "answer": [
+    "Overall,",
+    "the process has six stages,",
+    "beginning with harvesting",
+    "and ending with packaging."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "At overall,",
+    "Despite"
+   ],
+   "hint": "For a process overview, give the number of stages and the first and last ones.",
+   "level": 3
+  },
+  {
+   "id": "task1_091",
+   "connector": "as can be seen",
+   "function": "Referring to data",
+   "sentences": [
+    "The chart shows sales of three products.",
+    "Product X sold the most."
+   ],
+   "answer": [
+    "As can be seen",
+    "in the chart,",
+    "Product X sold",
+    "the most",
+    "of the three products."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As a result",
+    "Because"
+   ],
+   "hint": "\"As can be seen\" + where to look, then a comma and the main point.",
+   "level": 1
+  },
+  {
+   "id": "task1_092",
+   "connector": "as can be seen",
+   "function": "Referring to data",
+   "sentences": [
+    "The graph shows rail passenger numbers.",
+    "Numbers rose sharply after 2015."
+   ],
+   "answer": [
+    "As can be seen",
+    "from the graph,",
+    "rail passenger numbers",
+    "rose sharply",
+    "after 2015."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As long as",
+    "Because"
+   ],
+   "hint": "Use \"from the graph\" or \"in the chart\" after \"as can be seen\".",
+   "level": 1
+  },
+  {
+   "id": "task1_093",
+   "connector": "as can be seen",
+   "function": "Referring to data",
+   "sentences": [
+    "The table gives figures for five cities.",
+    "City E had the lowest crime rate."
+   ],
+   "answer": [
+    "As can be seen",
+    "in the table,",
+    "City E had",
+    "the lowest crime rate",
+    "of the five cities."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As soon as",
+    "Since"
+   ],
+   "hint": "The phrase \"as can be seen\" points the reader to the data before the main fact.",
+   "level": 1
+  },
+  {
+   "id": "task1_094",
+   "connector": "as can be seen",
+   "function": "Referring to data",
+   "sentences": [
+    "The pie charts compare energy use in 2000 and 2020.",
+    "The share of solar power grew significantly."
+   ],
+   "answer": [
+    "As can be seen",
+    "from the pie charts,",
+    "the share of solar power",
+    "grew significantly",
+    "between 2000 and 2020."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As far as",
+    "Even though"
+   ],
+   "hint": "Name the visual after \"as can be seen\", add a comma, then give the key change.",
+   "level": 2
+  },
+  {
+   "id": "task1_095",
+   "connector": "as can be seen",
+   "function": "Referring to data",
+   "sentences": [
+    "The table shows rail fares from 2010 to 2020.",
+    "Fares rose every year."
+   ],
+   "answer": [
+    "Rail fares,",
+    "as can be seen",
+    "in the table,",
+    "rose every year",
+    "from 2010 to 2020."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "as a result",
+    "such as"
+   ],
+   "hint": "\"As can be seen\" can sit between the subject and the verb, with commas around it.",
+   "level": 3
+  },
+  {
+   "id": "task1_096",
+   "connector": "as can be seen",
+   "function": "Referring to data",
+   "sentences": [
+    "The maps show the town centre in 1990 and today.",
+    "Most of the shops have been replaced by cafés."
+   ],
+   "answer": [
+    "As can be seen",
+    "on the maps,",
+    "most of the shops",
+    "have been replaced",
+    "by cafés."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As well as",
+    "Because of"
+   ],
+   "hint": "Use \"on the map\" for maps and the present perfect for changes up to now.",
+   "level": 2
+  },
+  {
+   "id": "task1_097",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Sales of Product X doubled in 2019.",
+    "Sales of Product Y rose by 90%."
+   ],
+   "answer": [
+    "Sales of Product X",
+    "doubled in 2019;",
+    "similarly,",
+    "sales of Product Y",
+    "rose by 90%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "however,"
+   ],
+   "hint": "\"Similarly,\" after a semicolon links two trends that move the same way.",
+   "level": 1
+  },
+  {
+   "id": "task1_098",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Car use in Town C fell by 10%.",
+    "Car use in Town D also fell, by 12%."
+   ],
+   "answer": [
+    "Car use in Town C",
+    "fell by 10%;",
+    "similarly,",
+    "Town D saw",
+    "a 12% fall."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "on the other hand,"
+   ],
+   "hint": "After \"similarly,\" you can change the structure, e.g. \"saw a fall\".",
+   "level": 2
+  },
+  {
+   "id": "task1_099",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Adults in Group A slept seven hours a night.",
+    "Adults in Group B slept about the same amount."
+   ],
+   "answer": [
+    "Adults in Group A slept",
+    "seven hours a night;",
+    "similarly,",
+    "those in Group B slept",
+    "about the same amount."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "whereas",
+    "by contrast,"
+   ],
+   "hint": "Use \"similarly,\" when the second group shows the same pattern.",
+   "level": 1
+  },
+  {
+   "id": "task1_100",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "The price of bread rose steadily.",
+    "The price of milk climbed gradually."
+   ],
+   "answer": [
+    "The price of bread",
+    "rose steadily;",
+    "similarly,",
+    "the price of milk",
+    "climbed gradually."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "instead,"
+   ],
+   "hint": "Two rising prices: join them with a semicolon and \"similarly,\".",
+   "level": 1
+  },
+  {
+   "id": "task1_101",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "The school in the north was enlarged.",
+    "The hospital was also extended."
+   ],
+   "answer": [
+    "The school in the north",
+    "was enlarged;",
+    "similarly,",
+    "the hospital",
+    "was extended."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "by contrast,",
+    "whereas"
+   ],
+   "hint": "On a map, \"similarly,\" links two buildings that changed in the same way.",
+   "level": 1
+  },
+  {
+   "id": "task1_102",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "The 25-34 group preferred online shopping.",
+    "The 18-24 group preferred it as well."
+   ],
+   "answer": [
+    "The 25-34 group",
+    "preferred online shopping;",
+    "the 18-24 group",
+    "similarly",
+    "favoured it."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "in contrast",
+    "however"
+   ],
+   "hint": "\"Similarly\" can go before the main verb of the second clause, with no commas.",
+   "level": 3
+  },
+  {
+   "id": "task1_103",
+   "connector": "at the same time",
+   "function": "Same time",
+   "sentences": [
+    "Factory jobs fell between 1990 and 2010.",
+    "Service jobs doubled in the same period."
+   ],
+   "answer": [
+    "Factory jobs fell",
+    "between 1990 and 2010;",
+    "at the same time,",
+    "service jobs",
+    "doubled."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "in other words,"
+   ],
+   "hint": "\"At the same time,\" shows two changes happening in the same period.",
+   "level": 1
+  },
+  {
+   "id": "task1_104",
+   "connector": "at the same time",
+   "function": "Same time",
+   "sentences": [
+    "Petrol prices rose sharply in 2022.",
+    "Sales of electric cars rose in the same year."
+   ],
+   "answer": [
+    "Petrol prices rose",
+    "sharply in 2022;",
+    "at the same time,",
+    "electric car sales",
+    "increased."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for instance,",
+    "in other words,"
+   ],
+   "hint": "Use a semicolon before \"at the same time,\" to link two changes in one year.",
+   "level": 1
+  },
+  {
+   "id": "task1_105",
+   "connector": "at the same time",
+   "function": "Same time",
+   "sentences": [
+    "The town's population grew by 20%.",
+    "The number of schools stayed the same."
+   ],
+   "answer": [
+    "The town's population",
+    "grew by 20%;",
+    "at the same time,",
+    "the number of schools",
+    "stayed the same."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "that is,"
+   ],
+   "hint": "\"At the same time,\" can link a change with something that did not change.",
+   "level": 1
+  },
+  {
+   "id": "task1_106",
+   "connector": "at the same time",
+   "function": "Same time",
+   "sentences": [
+    "Group A's income rose by 5%.",
+    "Its spending rose by 9% over the same period."
+   ],
+   "answer": [
+    "Group A's income",
+    "rose by 5%;",
+    "at the same time,",
+    "its spending",
+    "rose by 9%."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "namely,"
+   ],
+   "hint": "Use \"at the same time,\" to compare two figures for one group.",
+   "level": 2
+  },
+  {
+   "id": "task1_107",
+   "connector": "at the same time",
+   "function": "Same time",
+   "sentences": [
+    "The number of older people is set to rise.",
+    "The working population is expected to shrink."
+   ],
+   "answer": [
+    "The number of older people",
+    "is set to rise;",
+    "at the same time,",
+    "the working population",
+    "is expected to shrink."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for instance,",
+    "in other words,"
+   ],
+   "hint": "Keep both future forms and link them with \"at the same time,\".",
+   "level": 2
+  },
+  {
+   "id": "task1_108",
+   "connector": "at the same time as",
+   "function": "Same time",
+   "sentences": [
+    "Online banking grew rapidly.",
+    "Many bank branches closed."
+   ],
+   "answer": [
+    "At the same time as",
+    "online banking grew rapidly,",
+    "many bank branches",
+    "closed."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In spite of",
+    "Because of"
+   ],
+   "hint": "\"At the same time as\" is followed by a full clause, then a comma and the main clause.",
+   "level": 3
+  },
+  {
+   "id": "task1_109",
+   "connector": "respectively",
+   "function": "Matching order",
+   "sentences": [
+    "Men spent 3 hours a day online.",
+    "Women spent 4 hours a day online."
+   ],
+   "answer": [
+    "Men and women",
+    "spent 3 and 4 hours",
+    "a day online,",
+    "respectively."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "in contrast.",
+    "instead."
+   ],
+   "hint": "\"Respectively\" goes at the end and matches the figures to the groups in order.",
+   "level": 2
+  },
+  {
+   "id": "task1_110",
+   "connector": "respectively",
+   "function": "Matching order",
+   "sentences": [
+    "Product X cost £12 in 2010.",
+    "Product Y cost £15 in 2010."
+   ],
+   "answer": [
+    "In 2010,",
+    "Products X and Y",
+    "cost £12 and £15,",
+    "respectively."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "similarly.",
+    "instead."
+   ],
+   "hint": "Join the two subjects and the two prices, then end with \"respectively\".",
+   "level": 1
+  },
+  {
+   "id": "task1_111",
+   "connector": "respectively",
+   "function": "Matching order",
+   "sentences": [
+    "Group A scored 65% on the test.",
+    "Group B scored 72%."
+   ],
+   "answer": [
+    "Groups A and B",
+    "scored 65% and 72%",
+    "on the test,",
+    "respectively."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "in contrast.",
+    "therefore."
+   ],
+   "hint": "Keep the groups and the scores in the same order, then add \"respectively\".",
+   "level": 2
+  },
+  {
+   "id": "task1_112",
+   "connector": "respectively",
+   "function": "Matching order",
+   "sentences": [
+    "Gas made up 30% of energy use.",
+    "Oil made up 25%."
+   ],
+   "answer": [
+    "Gas and oil",
+    "made up 30% and 25%",
+    "of energy use,",
+    "respectively."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "however.",
+    "in contrast."
+   ],
+   "hint": "The first figure belongs to the first noun, the second to the second.",
+   "level": 1
+  },
+  {
+   "id": "task1_113",
+   "connector": "respectively",
+   "function": "Matching order",
+   "sentences": [
+    "Visits to Museum A rose by 10%.",
+    "Visits to Museum B rose by 18%."
+   ],
+   "answer": [
+    "Visits to Museums A and B",
+    "rose by",
+    "10% and 18%,",
+    "respectively."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "in contrast.",
+    "equally."
+   ],
+   "hint": "Make \"Museums\" plural, give both figures, then end with \"respectively\".",
+   "level": 3
+  },
+  {
+   "id": "task1_114",
+   "connector": "respectively",
+   "function": "Matching order",
+   "sentences": [
+    "Solar power is expected to supply 20% by 2040.",
+    "Wind power is expected to supply 25%."
+   ],
+   "answer": [
+    "Solar and wind power",
+    "are expected to supply",
+    "20% and 25% by 2040,",
+    "respectively."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "in contrast.",
+    "similarly."
+   ],
+   "hint": "Join the subjects with \"and\", make the verb plural, and end with \"respectively\".",
+   "level": 3
+  },
+  {
+   "id": "task1_115",
+   "connector": "accounting for",
+   "function": "Proportion",
+   "sentences": [
+    "Coal was the largest source of power.",
+    "It accounted for 45% of the total."
+   ],
+   "answer": [
+    "Coal was",
+    "the largest source of power,",
+    "accounting for",
+    "45% of the total."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "accounted for",
+    "accounts for"
+   ],
+   "hint": "Use \"accounting for\" after a comma to add the share, not a past tense verb.",
+   "level": 1
+  },
+  {
+   "id": "task1_116",
+   "connector": "accounting for",
+   "function": "Proportion",
+   "sentences": [
+    "Online sales grew rapidly.",
+    "They accounted for 30% of all sales by 2020."
+   ],
+   "answer": [
+    "Online sales grew rapidly,",
+    "accounting for",
+    "30% of all sales",
+    "by 2020."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "accounted for",
+    "to account"
+   ],
+   "hint": "The -ing form \"accounting for\" adds the share reached by the end of the period.",
+   "level": 1
+  },
+  {
+   "id": "task1_117",
+   "connector": "accounting for",
+   "function": "Proportion",
+   "sentences": [
+    "Rice was the main crop in Region C.",
+    "It took up 60% of farmland."
+   ],
+   "answer": [
+    "Rice was the main crop",
+    "in Region C,",
+    "accounting for",
+    "60% of farmland."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "accounted for",
+    "account"
+   ],
+   "hint": "\"Accounting for\" + percentage shows how big the main category was.",
+   "level": 1
+  },
+  {
+   "id": "task1_118",
+   "connector": "accounting for",
+   "function": "Proportion",
+   "sentences": [
+    "The over-65s were the fastest-growing group.",
+    "They made up 22% of the population in 2020."
+   ],
+   "answer": [
+    "The over-65s were",
+    "the fastest-growing group,",
+    "accounting for",
+    "22% of the population",
+    "in 2020."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "accounted for",
+    "which account"
+   ],
+   "hint": "After the comma, \"accounting for\" replaces \"they made up\".",
+   "level": 2
+  },
+  {
+   "id": "task1_119",
+   "connector": "accounting for",
+   "function": "Proportion",
+   "sentences": [
+    "Food waste was the biggest category.",
+    "It made up over a third of all waste."
+   ],
+   "answer": [
+    "Food waste was",
+    "the biggest category,",
+    "accounting for",
+    "over a third",
+    "of all waste."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "accounted for",
+    "that accounts"
+   ],
+   "hint": "Use \"accounting for\" + a fraction or percentage after the comma.",
+   "level": 2
+  },
+  {
+   "id": "task1_120",
+   "connector": "accounting for",
+   "function": "Proportion",
+   "sentences": [
+    "Electric cars are expected to grow in number.",
+    "They will account for half of new sales by 2035."
+   ],
+   "answer": [
+    "Electric cars are expected",
+    "to grow in number,",
+    "accounting for",
+    "half of new sales by 2035."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "accounted for",
+    "will account"
+   ],
+   "hint": "The -ing form \"accounting for\" also works in a sentence about the future.",
+   "level": 3
+  },
+  {
+   "id": "task1_121",
+   "connector": "accounting for",
+   "function": "Proportion",
+   "sentences": [
+    "Tourism earned £40 million in Town C.",
+    "This was 35% of the town's income."
+   ],
+   "answer": [
+    "Tourism earned",
+    "£40 million in Town C,",
+    "accounting for",
+    "35% of the town's income."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "accounted for",
+    "accounts for"
+   ],
+   "hint": "Give the amount first, then its share with \"accounting for\".",
+   "level": 2
+  },
+  {
+   "id": "task1_122",
+   "connector": "twice as many",
+   "function": "Multiples",
+   "sentences": [
+    "Group A had 400 members.",
+    "Group B had 200 members."
+   ],
+   "answer": [
+    "Group A had",
+    "400 members,",
+    "twice as many",
+    "as Group B."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "twice as much",
+    "than Group B."
+   ],
+   "hint": "Use \"as many as\" for countable nouns like members; never \"than\" after it.",
+   "level": 2
+  },
+  {
+   "id": "task1_123",
+   "connector": "twice as much",
+   "function": "Multiples",
+   "sentences": [
+    "Country A produced 6,000 tonnes of wheat.",
+    "Country B produced 3,000 tonnes."
+   ],
+   "answer": [
+    "Country A produced",
+    "6,000 tonnes of wheat,",
+    "twice as much",
+    "as Country B."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "twice as many",
+    "than Country B."
+   ],
+   "hint": "Use \"as much as\" for uncountable amounts such as wheat.",
+   "level": 2
+  },
+  {
+   "id": "task1_124",
+   "connector": "half",
+   "function": "Multiples",
+   "sentences": [
+    "In 2000, 800 students took the course.",
+    "By 2020, only 400 took it."
+   ],
+   "answer": [
+    "By 2020, only 400 students",
+    "took the course,",
+    "half",
+    "the figure for 2000."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "twice",
+    "double"
+   ],
+   "hint": "Use \"half the figure\" (no \"of\") to compare a number with an earlier one.",
+   "level": 3
+  },
+  {
+   "id": "task1_125",
+   "connector": "doubled",
+   "function": "Multiples",
+   "sentences": [
+    "Sales of Product X were 2,000 in 2015.",
+    "They were 4,000 in 2020."
+   ],
+   "answer": [
+    "Sales of Product X",
+    "doubled from 2,000 in 2015",
+    "to 4,000",
+    "in 2020."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "halved",
+    "tripled"
+   ],
+   "hint": "When a figure goes from 2,000 to 4,000, it has doubled.",
+   "level": 1
+  },
+  {
+   "id": "task1_126",
+   "connector": "three times as much",
+   "function": "Multiples",
+   "sentences": [
+    "Region A received 900 mm of rain.",
+    "Region B received 300 mm."
+   ],
+   "answer": [
+    "Region A received",
+    "900 mm of rain,",
+    "three times as much",
+    "as Region B."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "three times as many",
+    "than Region B."
+   ],
+   "hint": "Use \"three times as much as\" with an uncountable noun like rain.",
+   "level": 3
+  },
+  {
+   "id": "task1_127",
+   "connector": "half as many",
+   "function": "Multiples",
+   "sentences": [
+    "Shop X sold 150 laptops in March.",
+    "Shop Y sold 300 laptops."
+   ],
+   "answer": [
+    "Shop X sold",
+    "150 laptops in March,",
+    "half as many",
+    "as Shop Y."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "half as much",
+    "than Shop Y."
+   ],
+   "hint": "Laptops are countable, so use \"half as many as\".",
+   "level": 2
+  },
+  {
+   "id": "task1_128",
+   "connector": "double",
+   "function": "Multiples",
+   "sentences": [
+    "There were 2 million online learners in 2020.",
+    "This number is expected to double by 2030."
+   ],
+   "answer": [
+    "The number of online learners,",
+    "2 million in 2020,",
+    "is expected to double",
+    "by 2030."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "is expected to half",
+    "is expected to twice"
+   ],
+   "hint": "The verb is \"double\"; \"twice\" and \"half\" are not verbs.",
+   "level": 3
+  },
+  {
+   "id": "task1_129",
+   "connector": "twice",
+   "function": "Multiples",
+   "sentences": [
+    "Unemployment among the 18-24 age group was 12%.",
+    "The overall rate was 6%."
+   ],
+   "answer": [
+    "Unemployment among",
+    "the 18-24 age group was 12%,",
+    "twice",
+    "the overall rate."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "double of",
+    "twice of"
+   ],
+   "hint": "Say \"twice the rate\" with no \"of\" after \"twice\".",
+   "level": 3
+  },
+  {
+   "id": "task1_130",
+   "connector": "half",
+   "function": "Multiples",
+   "sentences": [
+    "Household A used 200 kWh of electricity.",
+    "Household B used 400 kWh."
+   ],
+   "answer": [
+    "Household A used",
+    "200 kWh of electricity,",
+    "half the amount",
+    "used by Household B."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "twice the amount",
+    "double the amount"
+   ],
+   "hint": "200 is 50% of 400, so use \"half the amount\".",
+   "level": 2
+  }
+ ]
+}

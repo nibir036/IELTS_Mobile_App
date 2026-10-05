@@ -609,6 +609,7 @@ model User {
   attempts      Attempt[]
   notifications Notification[]
   tasks         StudyTask[]
+  plans         StudyPlan[]
   state         UserState[]
   recordings    Recording[]
   roomMessages  RoomMessage[]
@@ -713,14 +714,62 @@ model StudyTask {
   durationMin Int?     @map("duration_min")
   done        Boolean  @default(false)
   target      String?
+  /// route arguments for [target] (deep link to the exact lesson / set / test)
+  args        Json?
+  /// study plan this task belongs to (null = added by the student)
+  planId      String?  @map("plan_id")
+  /// plan catalog item id ('lesson:w1_l2', 'sb:contrast_set01' …)
+  itemId      String?  @map("item_id")
+  /// lesson id / attempt refId that completes the task automatically
+  ref         String?
+  /// one line: why the plan chose this task
+  reason      String?
+  /// set when the plan drops this task (rolled over, replaced, paused): the
+  /// app deletes it on its next sync; the row is purged after 30 days
+  removedAt   DateTime? @map("removed_at") @db.Timestamptz(3)
   date        DateTime @db.Date
   createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
   updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
 
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan StudyPlan? @relation(fields: [planId], references: [id], onDelete: Cascade)
 
   @@index([userId, date])
+  @@index([planId, date])
   @@map("study_tasks")
+}
+
+/// A personal study plan (Profile set-up → preview → confirm). Its tasks are
+/// StudyTask rows; weeks are generated a week or two ahead and kept current.
+model StudyPlan {
+  id          String    @id @default(cuid())
+  userId      String    @map("user_id")
+  /// active | paused | finished | replaced
+  status      String    @default("active")
+  /// set-up answers: modules, levels, targetBand, examDate, testType, days,
+  /// minutesPerDay, studyTime, goal, interests, worry, previousScore
+  inputs      Json
+  /// {weeks, weeksMin, weeksMax, startBand, targetBand, realisticBand,
+  ///  onTrack, hoursNeeded, split, phases: [{id, fromWeek, toWeek}], mockWeeks}
+  estimate    Json
+  startDate   DateTime  @map("start_date") @db.Date
+  endDate     DateTime  @map("end_date") @db.Date
+  /// last calendar day that already has tasks
+  filledUntil DateTime? @map("filled_until") @db.Date
+  pausedUntil DateTime? @map("paused_until") @db.Date
+  /// plan week the tasks were last re-planned for (weekly adapting)
+  adaptedWeek Int       @default(0) @map("adapted_week")
+  /// this week's note: {week, title, body, focus[], by: 'ai'|'rules', bands{module: band}}
+  weekNote    Json?     @map("week_note")
+  version     Int       @default(1)
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user  User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tasks StudyTask[]
+
+  @@index([userId, status])
+  @@map("study_plans")
 }
 
 /// Per-user saved state (saved words, bookmarks, highlights, progress …).

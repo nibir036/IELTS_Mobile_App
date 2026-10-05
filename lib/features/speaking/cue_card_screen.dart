@@ -92,7 +92,7 @@ class _CueCardScreenState extends State<CueCardScreen> {
 
     return Scaffold(
       backgroundColor: t.bg,
-      body: Column(
+      body: BackOnScrollUp(child: Column(
         children: [
           Expanded(
             child: SafeArea(
@@ -147,12 +147,12 @@ class _CueCardScreenState extends State<CueCardScreen> {
                           Container(
                             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                             decoration: BoxDecoration(
-                              color: t.heroText,
+                              color: t.peach,
                               borderRadius: BorderRadius.circular(999),
                             ),
                             child: Text(
                               tag,
-                              style: const TextStyle(fontSize: 12, color: Color(0xFFF6ECC8)),
+                              style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: kOnPeach),
                             ),
                           ),
                           Text(
@@ -179,7 +179,7 @@ class _CueCardScreenState extends State<CueCardScreen> {
                                   children: [
                                     Padding(
                                       padding: const EdgeInsets.only(top: 9),
-                                      child: Dot(size: 6, color: t.heroText),
+                                      child: Dot(size: 6, color: t.peach),
                                     ),
                                     Expanded(
                                       child: Text(
@@ -239,7 +239,7 @@ class _CueCardScreenState extends State<CueCardScreen> {
           ),
           _NotesSheet(controllers: _notes, onStart: _start),
         ],
-      ),
+      )),
     );
   }
 }

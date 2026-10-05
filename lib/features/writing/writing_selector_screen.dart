@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
 import '../../app/data/demo.dart';
+import '../../app/data/lessons.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import 'widgets.dart';
 import 'writing_data.dart';
 
@@ -18,6 +20,8 @@ class WritingSelectorScreen extends StatelessWidget {
     switch (target) {
       case 'writingGuide':
         return Routes.writingGuide;
+      case 'writingCourse':
+        return Routes.writingCourse;
       case 'masterclass':
         return Routes.masterclass;
       case 'sentenceBuilder':
@@ -85,6 +89,9 @@ class WritingSelectorScreen extends StatelessWidget {
       case 'writingGuide':
         n = Demo.guide('writing').l('chapters').length;
         unit = 'chapter';
+      case 'writingCourse':
+        n = Lessons.all('writing').length;
+        unit = 'lesson';
       case 'masterclass':
         n = WritingContent.all.m('masterclass').l('lessons').length;
         unit = 'lesson';
@@ -208,7 +215,7 @@ class WritingSelectorScreen extends StatelessWidget {
         ),
         AppCard(
           radius: 22,
-          color: t.primary,
+          color: t.peach,
           padding: const EdgeInsets.fromLTRB(14, 12, 12, 12),
           onTap: () => context.push(Routes.mockWriting),
           child: Row(
@@ -218,24 +225,24 @@ class WritingSelectorScreen extends StatelessWidget {
                 width: 44,
                 height: 44,
                 decoration: BoxDecoration(
-                  color: wc(t, 0xFF2A2A2A, 0xFF151515),
+                  color: kOnPeach,
                   borderRadius: BorderRadius.circular(14),
                 ),
                 child: const Icon(
                   AppIcons.clock,
                   size: 18,
-                  color: Color(0xFFFFFFFF),
+                  color: Color(0xFFFFB8A3),
                 ),
               ),
               Expanded(
                 child: _TwoLine(
                   title: mock.s('title'),
                   subtitle: mock.s('subtitle'),
-                  titleColor: t.onPrimary,
-                  subtitleColor: wc(t, 0xFFBDB6BB, 0xFF5A5446),
+                  titleColor: kOnPeach,
+                  subtitleColor: kOnPeach.withValues(alpha: 0.68),
                 ),
               ),
-              Icon(AppIcons.chevronRight, size: 20, color: t.onPrimary),
+              const Icon(AppIcons.chevronRight, size: 20, color: kOnPeach),
             ],
           ),
         ),
@@ -382,11 +389,6 @@ class _TaskCard extends StatelessWidget {
       radius: 28,
       padding: const EdgeInsets.all(18),
       onTap: onTap,
-      gradient: t.isNight
-          ? null
-          : (isTask1
-              ? wGradient(0xFFD6D8FA, 0xFFEEEFFD)
-              : wGradient(0xFFF7C6D6, 0xFFFCEBF1)),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         spacing: 14,
@@ -400,8 +402,13 @@ class _TaskCard extends StatelessWidget {
                   spacing: 2,
                   children: [
                     Text(
-                      task.s('label'),
-                      style: TextStyle(fontSize: 13, color: muted),
+                      task.s('label').toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 11.5,
+                        letterSpacing: 1.1,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
+                      ),
                     ),
                     Text(
                       task.s('title'),
@@ -418,13 +425,13 @@ class _TaskCard extends StatelessWidget {
                 width: 44,
                 height: 44,
                 decoration: BoxDecoration(
-                  color: t.heroText,
+                  gradient: kPeachGradient,
                   borderRadius: BorderRadius.circular(14),
                 ),
                 child: const Icon(
                   AppIcons.northEast,
                   size: 18,
-                  color: Color(0xFFFFFFFF),
+                  color: kOnPeach,
                 ),
               ),
             ],
@@ -439,9 +446,7 @@ class _TaskCard extends StatelessWidget {
                     height: 86,
                     padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
                     decoration: BoxDecoration(
-                      color: t.isNight
-                          ? const Color(0x14151515)
-                          : const Color(0xBFFFFFFF),
+                      color: t.heroChip,
                       borderRadius: BorderRadius.circular(18),
                     ),
                     child: Row(
@@ -456,8 +461,8 @@ class _TaskCard extends StatelessWidget {
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: i == hi
-                                      ? const Color(0xFF151515)
-                                      : const Color(0xFFB9BAF2),
+                                      ? t.peach
+                                      : const Color(0xFFB4C8FF),
                                   borderRadius: BorderRadius.circular(6),
                                 ),
                               ),
@@ -478,13 +483,34 @@ class _TaskCard extends StatelessWidget {
               ],
             )
           else
-            Wrap(spacing: 16, runSpacing: 4, children: stats),
-          Text(
-            progress,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: TextStyle(fontSize: 12, color: muted),
-          ),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    spacing: 10,
+                    children: [
+                      Wrap(spacing: 16, runSpacing: 4, children: stats),
+                      Text(
+                        progress,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontSize: 12, color: muted),
+                      ),
+                    ],
+                  ),
+                ),
+                const Nexi(NexiPose.writing, height: 110),
+              ],
+            ),
+          if (isTask1)
+            Text(
+              progress,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(fontSize: 12, color: muted),
+            ),
           Wrap(
             spacing: 6,
             runSpacing: 6,
@@ -492,8 +518,8 @@ class _TaskCard extends StatelessWidget {
               for (final type in types)
                 WPill(
                   type,
-                  bg: t.isNight ? t.heroChip : const Color(0xFFFFFFFF),
-                  fg: t.isNight ? t.heroMuted : t.heroText,
+                  bg: t.heroChip,
+                  fg: t.heroText,
                   padding:
                       const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                 ),
@@ -526,14 +552,14 @@ class _MoreRow extends StatelessWidget {
     Color fg = const Color(0xFF151515);
     switch (tone) {
       case 'lavender':
-        bg = const Color(0xFFDCDDFA);
+        bg = const Color(0xFFDCE6FF);
       case 'rose':
-        bg = const Color(0xFFF7C6D6);
+        bg = const Color(0xFFFFD2C4);
       case 'mist':
-        bg = wc(t, 0xFFEEEFFD, 0xFF1F1F1F);
+        bg = wc(t, 0xFFE9EFFF, 0xFF1C2030);
         fg = t.text;
       default:
-        bg = const Color(0xFFF9D6E2);
+        bg = const Color(0xFFFFE2D8);
     }
     return AppCard(
       radius: 20,

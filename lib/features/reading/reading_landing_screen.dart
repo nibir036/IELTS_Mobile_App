@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../../app/data/content.dart';
 import '../../app/data/demo.dart';
+import '../../app/data/lessons.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import 'lessons.dart';
 import 'widgets.dart';
 
@@ -52,8 +54,8 @@ class ReadingLandingScreen extends StatelessWidget {
             .length;
         unit = 'guide';
       case 'guide':
-        n = Demo.guide('reading').l('chapters').length;
-        unit = 'chapter';
+        n = Lessons.all('reading').length;
+        unit = 'lesson';
       case 'type':
         n = Content.bankQuestionTypes.length;
         unit = 'type';
@@ -74,7 +76,7 @@ class ReadingLandingScreen extends StatelessWidget {
       case 'lessons':
         context.push(Routes.readingLesson);
       case 'guide':
-        context.push(Routes.readingGuide);
+        context.push(Routes.readingCourse);
       case 'type':
         context.push(Routes.readingBank);
       case 'passage':
@@ -109,7 +111,6 @@ class ReadingLandingScreen extends StatelessWidget {
     final progress = (avg * 100).round();
     final band = Store.formatBand(store.skillBand(Skill.reading));
     final target = Store.formatBand(store.current?.targetBand);
-    final labelColor = t.isNight ? t.heroText : t.textSoft;
 
     return AppScreen(
       gap: 12,
@@ -141,16 +142,9 @@ class ReadingLandingScreen extends StatelessWidget {
         Text('Home / Reading', style: TextStyle(fontSize: 12, color: t.textMuted)),
         HeroCard(
           radius: 28,
-          padding: const EdgeInsets.all(18),
-          gradient: t.isNight
-              ? null
-              : const LinearGradient(
-                  begin: Alignment(-0.64, -0.77),
-                  end: Alignment(0.64, 0.77),
-                  colors: [kLavender, kPink],
-                ),
+          padding: const EdgeInsets.fromLTRB(20, 18, 12, 18),
           child: Row(
-            spacing: 16,
+            spacing: 8,
             children: [
               Expanded(
                 child: Column(
@@ -158,9 +152,10 @@ class ReadingLandingScreen extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'Section progress',
-                      style: TextStyle(fontSize: 13, color: labelColor),
+                      'Section progress'.toUpperCase(),
+                      style: TextStyle(fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
                     ),
+                    const SizedBox(height: 4),
                     Text(
                       '$progress%',
                       style: TextStyle(
@@ -174,35 +169,42 @@ class ReadingLandingScreen extends StatelessWidget {
                     const SizedBox(height: 2),
                     Text(
                       'Est. band $band · target $target',
-                      style: TextStyle(fontSize: 13, color: labelColor),
+                      style: TextStyle(fontSize: 13, color: t.heroMuted),
                     ),
-                  ],
-                ),
-              ),
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-                decoration: BoxDecoration(
-                  color: t.isNight ? t.heroChip : t.surface,
-                  borderRadius: BorderRadius.circular(18),
-                ),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'Weakest type',
-                      style: TextStyle(fontSize: 11, color: t.heroMuted),
-                    ),
-                    Text(
-                      ReadingStats.weakestType(store),
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w500,
-                        color: t.heroText,
+                    const SizedBox(height: 10),
+                    ProgressBar(value: avg, height: 6, onHero: true),
+                    const SizedBox(height: 12),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                      decoration: BoxDecoration(
+                        color: t.heroChip,
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            'Weakest type',
+                            style: TextStyle(fontSize: 11, color: t.heroMuted),
+                          ),
+                          Text(
+                            ReadingStats.weakestType(store),
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w500,
+                              color: t.heroText,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],
                 ),
               ),
+              const Nexi(NexiPose.reading, height: 110),
             ],
           ),
         ),

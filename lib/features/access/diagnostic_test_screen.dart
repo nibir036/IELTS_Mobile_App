@@ -137,7 +137,7 @@ class _DiagnosticTestScreenState extends State<DiagnosticTestScreen> {
       _stopAnswer();
     }
     if (_remaining <= 0 && !_advancing) {
-      context.toast('Time’s up — moving on');
+      context.toast('Time’s up - moving on');
       _advance();
     }
   }
@@ -427,6 +427,7 @@ class _DiagnosticTestScreenState extends State<DiagnosticTestScreen> {
       _ => _speaking(),
     };
     final screen = AppScreen(
+      scrollBack: false,
       gap: 14,
       footer: PrimaryButton(
         label: last ? 'Finish & see my band' : 'Next section',
@@ -587,7 +588,7 @@ class _DiagnosticTestScreenState extends State<DiagnosticTestScreen> {
           child: Row(
             spacing: 12,
             children: [
-              LetterBadge('Q${i + 1}', size: 34, radius: 11),
+              LetterBadge('Q${i + 1}', size: 34, radius: 11, bg: t.peach, fg: kOnPeach),
               Expanded(
                 child: Text(
                   _questions[i],
@@ -625,8 +626,8 @@ class _DiagnosticTestScreenState extends State<DiagnosticTestScreen> {
               size: 72,
               circle: true,
               iconSize: 30,
-              bg: _recording ? t.alert : t.primary,
-              fg: _recording ? t.onAlert : t.onPrimary,
+              bg: _recording ? t.alert : t.peach,
+              fg: _recording ? t.onAlert : kOnPeach,
               onTap: _recording
                   ? _stopAnswer
                   : (answeredCurrent ? null : _startAnswer),

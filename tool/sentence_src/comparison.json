@@ -1,0 +1,1820 @@
+{
+ "category": "comparison",
+ "drills": [
+  {
+   "id": "comparison_001",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Cars cause air pollution in cities.",
+    "Lorries also make the air dirty."
+   ],
+   "answer": [
+    "Cars cause",
+    "air pollution in cities;",
+    "similarly,",
+    "lorries",
+    "make the air dirty."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "Put a semicolon before \"similarly\" and a comma after it to show the second idea is alike.",
+   "level": 1
+  },
+  {
+   "id": "comparison_002",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Shopping online saves people time.",
+    "Online banking is also quick."
+   ],
+   "answer": [
+    "Shopping online",
+    "saves people time;",
+    "similarly,",
+    "online banking",
+    "is quick."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "because"
+   ],
+   "hint": "Put a semicolon before \"similarly\" and a comma after it to show the second idea is alike.",
+   "level": 1
+  },
+  {
+   "id": "comparison_003",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Many schools now teach coding.",
+    "Universities also offer more computing courses."
+   ],
+   "answer": [
+    "Many schools",
+    "now teach coding;",
+    "similarly,",
+    "universities",
+    "offer more computing courses."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "otherwise,",
+    "although"
+   ],
+   "hint": "Put a semicolon before \"similarly\" and a comma after it to show the second idea is alike.",
+   "level": 1
+  },
+  {
+   "id": "comparison_004",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Regular exercise lowers stress.",
+    "A healthy diet also improves mood."
+   ],
+   "answer": [
+    "Regular exercise",
+    "lowers stress;",
+    "similarly,",
+    "a healthy diet",
+    "improves mood."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "instead,",
+    "unless"
+   ],
+   "hint": "Put a semicolon before \"similarly\" and a comma after it to show the second idea is alike.",
+   "level": 1
+  },
+  {
+   "id": "comparison_005",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Tourism creates jobs in hotels.",
+    "It also supports local restaurants."
+   ],
+   "answer": [
+    "Tourism",
+    "creates jobs in hotels;",
+    "similarly,",
+    "it supports",
+    "local restaurants."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "whereas"
+   ],
+   "hint": "Put a semicolon before \"similarly\" and a comma after it to show the second idea is alike.",
+   "level": 2
+  },
+  {
+   "id": "comparison_006",
+   "connector": "similarly",
+   "function": "Similarity",
+   "sentences": [
+    "Older workers need training in new software.",
+    "Retired people benefit from digital courses."
+   ],
+   "answer": [
+    "Older workers",
+    "need training",
+    "in new software;",
+    "similarly,",
+    "retired people benefit",
+    "from digital courses."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "on the contrary,"
+   ],
+   "hint": "Put a semicolon before \"similarly\" and a comma after it to show the second idea is alike.",
+   "level": 2
+  },
+  {
+   "id": "comparison_007",
+   "connector": "likewise",
+   "function": "Similarity",
+   "sentences": [
+    "Doctors must keep learning.",
+    "Nurses need regular training too."
+   ],
+   "answer": [
+    "Doctors",
+    "must keep learning;",
+    "likewise,",
+    "nurses need",
+    "regular training."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "Use a semicolon, then \"likewise,\" to add a second idea that works the same way.",
+   "level": 1
+  },
+  {
+   "id": "comparison_008",
+   "connector": "likewise",
+   "function": "Similarity",
+   "sentences": [
+    "Plastic bags harm sea life.",
+    "Plastic bottles also pollute the oceans."
+   ],
+   "answer": [
+    "Plastic bags",
+    "harm sea life;",
+    "likewise,",
+    "plastic bottles",
+    "pollute the oceans."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "because"
+   ],
+   "hint": "Use a semicolon, then \"likewise,\" to add a second idea that works the same way.",
+   "level": 1
+  },
+  {
+   "id": "comparison_009",
+   "connector": "likewise",
+   "function": "Similarity",
+   "sentences": [
+    "Parents shape children's eating habits.",
+    "Schools also influence what children eat."
+   ],
+   "answer": [
+    "Parents shape",
+    "children's eating habits;",
+    "likewise,",
+    "schools influence",
+    "what children eat."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "otherwise,",
+    "although"
+   ],
+   "hint": "Use a semicolon, then \"likewise,\" to add a second idea that works the same way.",
+   "level": 2
+  },
+  {
+   "id": "comparison_010",
+   "connector": "likewise",
+   "function": "Similarity",
+   "sentences": [
+    "Small farms need fresh water.",
+    "Factories also depend on clean water supplies."
+   ],
+   "answer": [
+    "Small farms",
+    "need fresh water;",
+    "likewise,",
+    "factories depend on",
+    "clean water supplies."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "instead,",
+    "whereas"
+   ],
+   "hint": "Use a semicolon, then \"likewise,\" to add a second idea that works the same way.",
+   "level": 1
+  },
+  {
+   "id": "comparison_011",
+   "connector": "likewise",
+   "function": "Similarity",
+   "sentences": [
+    "Museums attract many foreign visitors.",
+    "Historic markets are also popular with tourists."
+   ],
+   "answer": [
+    "Museums attract",
+    "many foreign visitors;",
+    "likewise,",
+    "historic markets",
+    "are popular with tourists."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "so that"
+   ],
+   "hint": "Use a semicolon, then \"likewise,\" to add a second idea that works the same way.",
+   "level": 2
+  },
+  {
+   "id": "comparison_012",
+   "connector": "likewise",
+   "function": "Similarity",
+   "sentences": [
+    "Strict laws have reduced drink driving.",
+    "Heavy fines have cut speeding on motorways."
+   ],
+   "answer": [
+    "Strict laws",
+    "have reduced drink driving;",
+    "likewise,",
+    "heavy fines",
+    "have cut speeding",
+    "on motorways."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "unless"
+   ],
+   "hint": "Use a semicolon, then \"likewise,\" to add a second idea that works the same way.",
+   "level": 3
+  },
+  {
+   "id": "comparison_013",
+   "connector": "in the same way",
+   "function": "Similarity",
+   "sentences": [
+    "Reading novels widens vocabulary.",
+    "Listening to podcasts builds language skills."
+   ],
+   "answer": [
+    "Reading novels",
+    "widens vocabulary;",
+    "in the same way,",
+    "listening to podcasts",
+    "builds language skills."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "End the first clause with a semicolon; \"in the same way,\" starts the similar idea.",
+   "level": 1
+  },
+  {
+   "id": "comparison_014",
+   "connector": "in the same way",
+   "function": "Similarity",
+   "sentences": [
+    "Social media spreads news quickly.",
+    "It can spread false stories fast."
+   ],
+   "answer": [
+    "Social media",
+    "spreads news quickly;",
+    "in the same way,",
+    "it can spread",
+    "false stories fast."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "because"
+   ],
+   "hint": "End the first clause with a semicolon; \"in the same way,\" starts the similar idea.",
+   "level": 1
+  },
+  {
+   "id": "comparison_015",
+   "connector": "in the same way",
+   "function": "Similarity",
+   "sentences": [
+    "Trees cool city streets in summer.",
+    "Green roofs lower building temperatures."
+   ],
+   "answer": [
+    "Trees cool",
+    "city streets in summer;",
+    "in the same way,",
+    "green roofs lower",
+    "building temperatures."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "otherwise,",
+    "although"
+   ],
+   "hint": "End the first clause with a semicolon; \"in the same way,\" starts the similar idea.",
+   "level": 2
+  },
+  {
+   "id": "comparison_016",
+   "connector": "in the same way",
+   "function": "Similarity",
+   "sentences": [
+    "Children copy their parents' language.",
+    "They also copy their parents' habits."
+   ],
+   "answer": [
+    "Children copy",
+    "their parents' language;",
+    "in the same way,",
+    "they copy",
+    "their parents' habits."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "whereas"
+   ],
+   "hint": "End the first clause with a semicolon; \"in the same way,\" starts the similar idea.",
+   "level": 1
+  },
+  {
+   "id": "comparison_017",
+   "connector": "in the same way",
+   "function": "Similarity",
+   "sentences": [
+    "Companies must protect customer data.",
+    "Hospitals must keep patient records safe."
+   ],
+   "answer": [
+    "Companies must",
+    "protect customer data;",
+    "in the same way,",
+    "hospitals must",
+    "keep patient records safe."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "instead,",
+    "unless"
+   ],
+   "hint": "End the first clause with a semicolon; \"in the same way,\" starts the similar idea.",
+   "level": 2
+  },
+  {
+   "id": "comparison_018",
+   "connector": "in the same way",
+   "function": "Similarity",
+   "sentences": [
+    "Cheap flights have increased foreign travel.",
+    "Fast trains have made weekend trips more common."
+   ],
+   "answer": [
+    "Cheap flights",
+    "have increased foreign travel;",
+    "in the same way,",
+    "fast trains have made",
+    "weekend trips more common."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "on the other hand,",
+    "because"
+   ],
+   "hint": "End the first clause with a semicolon; \"in the same way,\" starts the similar idea.",
+   "level": 3
+  },
+  {
+   "id": "comparison_019",
+   "connector": "equally",
+   "function": "Similarity",
+   "sentences": [
+    "Exercise is good for the body.",
+    "It is also important for mental health."
+   ],
+   "answer": [
+    "Exercise",
+    "is good for the body;",
+    "equally,",
+    "it is important",
+    "for mental health."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "After a semicolon, \"equally,\" shows the second point matters just as much.",
+   "level": 2
+  },
+  {
+   "id": "comparison_020",
+   "connector": "equally",
+   "function": "Similarity",
+   "sentences": [
+    "Teachers need good subject knowledge.",
+    "They also need strong communication skills."
+   ],
+   "answer": [
+    "Teachers need",
+    "good subject knowledge;",
+    "equally,",
+    "they need strong",
+    "communication skills."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "instead,",
+    "although"
+   ],
+   "hint": "After a semicolon, \"equally,\" shows the second point matters just as much.",
+   "level": 1
+  },
+  {
+   "id": "comparison_021",
+   "connector": "equally",
+   "function": "Similarity",
+   "sentences": [
+    "Employers value technical skills.",
+    "They also value teamwork and honesty."
+   ],
+   "answer": [
+    "Employers value",
+    "technical skills;",
+    "equally,",
+    "they value",
+    "teamwork and honesty."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "because"
+   ],
+   "hint": "After a semicolon, \"equally,\" shows the second point matters just as much.",
+   "level": 1
+  },
+  {
+   "id": "comparison_022",
+   "connector": "equally",
+   "function": "Similarity",
+   "sentences": [
+    "Governments should fund public transport.",
+    "They should also invest in safe cycle lanes."
+   ],
+   "answer": [
+    "Governments should",
+    "fund public transport;",
+    "equally,",
+    "they should invest",
+    "in safe cycle lanes."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "otherwise,",
+    "whereas"
+   ],
+   "hint": "After a semicolon, \"equally,\" shows the second point matters just as much.",
+   "level": 2
+  },
+  {
+   "id": "comparison_023",
+   "connector": "equally",
+   "function": "Similarity",
+   "sentences": [
+    "A balanced diet supports good health.",
+    "Enough sleep is also vital for wellbeing."
+   ],
+   "answer": [
+    "A balanced diet",
+    "supports good health;",
+    "equally,",
+    "enough sleep",
+    "is vital for wellbeing."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "so that"
+   ],
+   "hint": "After a semicolon, \"equally,\" shows the second point matters just as much.",
+   "level": 2
+  },
+  {
+   "id": "comparison_024",
+   "connector": "by the same token",
+   "function": "Similarity",
+   "sentences": [
+    "Good teachers praise hard work.",
+    "They should also reward steady progress."
+   ],
+   "answer": [
+    "Good teachers",
+    "praise hard work;",
+    "by the same token,",
+    "they should reward",
+    "steady progress."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "unless"
+   ],
+   "hint": "\"By the same token,\" means \"for the same reason\"; put it after the semicolon.",
+   "level": 3
+  },
+  {
+   "id": "comparison_025",
+   "connector": "by the same token",
+   "function": "Similarity",
+   "sentences": [
+    "Growing cities must build more homes.",
+    "They must also expand public services."
+   ],
+   "answer": [
+    "Growing cities",
+    "must build more homes;",
+    "by the same token,",
+    "they must expand",
+    "public services."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in contrast,",
+    "although"
+   ],
+   "hint": "\"By the same token,\" means \"for the same reason\"; put it after the semicolon.",
+   "level": 3
+  },
+  {
+   "id": "comparison_026",
+   "connector": "by the same token",
+   "function": "Similarity",
+   "sentences": [
+    "Polluters should pay for cleaning rivers.",
+    "Waste producers should pay for recycling."
+   ],
+   "answer": [
+    "Polluters should",
+    "pay for cleaning rivers;",
+    "by the same token,",
+    "waste producers should",
+    "pay for recycling."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "instead,",
+    "because"
+   ],
+   "hint": "\"By the same token,\" means \"for the same reason\"; put it after the semicolon.",
+   "level": 3
+  },
+  {
+   "id": "comparison_027",
+   "connector": "by the same token",
+   "function": "Similarity",
+   "sentences": [
+    "Online firms profit from user data.",
+    "They have a duty to protect it."
+   ],
+   "answer": [
+    "Online firms",
+    "profit from user data;",
+    "by the same token,",
+    "they have a duty",
+    "to protect it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "otherwise,",
+    "unless"
+   ],
+   "hint": "\"By the same token,\" means \"for the same reason\"; put it after the semicolon.",
+   "level": 3
+  },
+  {
+   "id": "comparison_028",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Trains cause little pollution.",
+    "Cars cause much more pollution."
+   ],
+   "answer": [
+    "Compared with",
+    "cars,",
+    "trains cause",
+    "little pollution."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because of",
+    "Unless"
+   ],
+   "hint": "Start with \"Compared with\" + the thing you compare against, then a comma and the main clause.",
+   "level": 1
+  },
+  {
+   "id": "comparison_029",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Renting a flat is flexible.",
+    "Buying a home is much less flexible."
+   ],
+   "answer": [
+    "Compared with",
+    "buying a home,",
+    "renting a flat",
+    "is more flexible."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Unless"
+   ],
+   "hint": "\"Compared with\" is followed by a noun or -ing phrase and a comma.",
+   "level": 1
+  },
+  {
+   "id": "comparison_030",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Online courses are cheap.",
+    "Campus degrees cost much more."
+   ],
+   "answer": [
+    "Compared with",
+    "campus degrees,",
+    "online courses",
+    "are cheaper."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because of",
+    "Although"
+   ],
+   "hint": "Put the more expensive option after \"Compared with\", then say what is cheaper.",
+   "level": 2
+  },
+  {
+   "id": "comparison_031",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "City life is fast and noisy.",
+    "Village life is slower and quieter."
+   ],
+   "answer": [
+    "Compared with",
+    "village life,",
+    "city life",
+    "is fast and noisy."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Instead of",
+    "Unless"
+   ],
+   "hint": "The phrase after \"Compared with\" ends with a comma; the main subject comes next.",
+   "level": 2
+  },
+  {
+   "id": "comparison_032",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Electric cars are very quiet.",
+    "Petrol cars make a lot of noise."
+   ],
+   "answer": [
+    "Compared with",
+    "petrol cars,",
+    "electric cars",
+    "are very quiet."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As a result of",
+    "Unless"
+   ],
+   "hint": "\"Compared with\" introduces the noisy cars; the main clause describes the quiet ones.",
+   "level": 2
+  },
+  {
+   "id": "comparison_033",
+   "connector": "compared with",
+   "function": "Comparison",
+   "sentences": [
+    "Younger workers change jobs often.",
+    "Older employees tend to stay longer."
+   ],
+   "answer": [
+    "Compared with",
+    "older employees,",
+    "younger workers",
+    "change jobs",
+    "more often."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Due to",
+    "Whereas"
+   ],
+   "hint": "Use \"Compared with\" + noun phrase + comma, then the main clause with \"more often\".",
+   "level": 3
+  },
+  {
+   "id": "comparison_034",
+   "connector": "compared to",
+   "function": "Comparison",
+   "sentences": [
+    "Bicycles are cheap to run.",
+    "Cars are expensive to run."
+   ],
+   "answer": [
+    "Bicycles",
+    "are cheap to run",
+    "compared to",
+    "cars."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "unless"
+   ],
+   "hint": "\"Compared to\" can come at the end, followed by a noun.",
+   "level": 1
+  },
+  {
+   "id": "comparison_035",
+   "connector": "compared to",
+   "function": "Comparison",
+   "sentences": [
+    "Fresh food is healthy.",
+    "Processed food is less healthy."
+   ],
+   "answer": [
+    "Compared to",
+    "processed food,",
+    "fresh food",
+    "is healthier."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because of",
+    "Unless"
+   ],
+   "hint": "Start with \"Compared to\" + noun + comma, then the main clause.",
+   "level": 1
+  },
+  {
+   "id": "comparison_036",
+   "connector": "compared to",
+   "function": "Comparison",
+   "sentences": [
+    "Libraries are quiet places to study.",
+    "Cafés are much noisier."
+   ],
+   "answer": [
+    "Compared to",
+    "cafés,",
+    "libraries are",
+    "quiet places to study."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Whereas"
+   ],
+   "hint": "The noun after \"Compared to\" is the thing you measure against.",
+   "level": 2
+  },
+  {
+   "id": "comparison_037",
+   "connector": "compared to",
+   "function": "Comparison",
+   "sentences": [
+    "Solar power is clean.",
+    "Coal power is very dirty."
+   ],
+   "answer": [
+    "Solar power",
+    "is clean",
+    "compared to",
+    "coal power."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because of",
+    "although"
+   ],
+   "hint": "Finish the main clause first, then add \"compared to\" + noun.",
+   "level": 2
+  },
+  {
+   "id": "comparison_038",
+   "connector": "compared to",
+   "function": "Comparison",
+   "sentences": [
+    "Remote workers save travel time.",
+    "Office workers spend hours commuting."
+   ],
+   "answer": [
+    "Compared to",
+    "office workers,",
+    "remote workers",
+    "save travel time."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Instead of",
+    "Unless"
+   ],
+   "hint": "\"Compared to\" + noun phrase + comma comes before the main subject.",
+   "level": 2
+  },
+  {
+   "id": "comparison_039",
+   "connector": "compared to",
+   "function": "Comparison",
+   "sentences": [
+    "In the chart, smartphone sales rose quickly.",
+    "Laptop sales grew slowly."
+   ],
+   "answer": [
+    "Compared to",
+    "laptop sales,",
+    "smartphone sales",
+    "rose quickly in the chart."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Owing to",
+    "Although"
+   ],
+   "hint": "Put the slower trend after \"Compared to\"; the main clause gives the faster one.",
+   "level": 3
+  },
+  {
+   "id": "comparison_040",
+   "connector": "just as",
+   "function": "Comparison",
+   "sentences": [
+    "Smartphones changed communication.",
+    "Artificial intelligence is changing work."
+   ],
+   "answer": [
+    "Just as",
+    "smartphones changed",
+    "communication,",
+    "artificial intelligence",
+    "is changing work."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unless",
+    "Despite"
+   ],
+   "hint": "\"Just as\" + a full clause + comma, then the second, similar clause.",
+   "level": 2
+  },
+  {
+   "id": "comparison_041",
+   "connector": "just as",
+   "function": "Comparison",
+   "sentences": [
+    "Plants need sunlight.",
+    "People need fresh air."
+   ],
+   "answer": [
+    "Just as",
+    "plants need sunlight,",
+    "people need",
+    "fresh air."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unless",
+    "Because of"
+   ],
+   "hint": "Begin with \"Just as\" and a clause, then a comma and the parallel idea.",
+   "level": 1
+  },
+  {
+   "id": "comparison_042",
+   "connector": "just as",
+   "function": "Comparison",
+   "sentences": [
+    "Athletes train every day.",
+    "Musicians practise daily to improve."
+   ],
+   "answer": [
+    "Just as",
+    "athletes train every day,",
+    "musicians practise",
+    "daily to improve."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unless",
+    "In contrast,"
+   ],
+   "hint": "\"Just as\" links two clauses that describe a similar habit.",
+   "level": 2
+  },
+  {
+   "id": "comparison_043",
+   "connector": "just as",
+   "function": "Comparison",
+   "sentences": [
+    "Children need play.",
+    "Adults need time to relax."
+   ],
+   "answer": [
+    "Adults need",
+    "time to relax,",
+    "just as",
+    "children need play."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "whereas"
+   ],
+   "hint": "\"Just as\" can come in the middle, after a comma, before the second clause.",
+   "level": 1
+  },
+  {
+   "id": "comparison_044",
+   "connector": "just as",
+   "function": "Comparison",
+   "sentences": [
+    "Factories once replaced farm workers.",
+    "Robots are now replacing factory workers."
+   ],
+   "answer": [
+    "Just as",
+    "factories once replaced",
+    "farm workers,",
+    "robots are now",
+    "replacing factory workers."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unless",
+    "Despite"
+   ],
+   "hint": "Use \"Just as\" + past event + comma, then the similar change happening now.",
+   "level": 3
+  },
+  {
+   "id": "comparison_045",
+   "connector": "just as",
+   "function": "Comparison",
+   "sentences": [
+    "Good teachers adapt to each class.",
+    "Good doctors adapt to each patient."
+   ],
+   "answer": [
+    "Good doctors",
+    "adapt to each patient,",
+    "just as",
+    "good teachers adapt",
+    "to each class."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "whereas"
+   ],
+   "hint": "After the first clause and a comma, \"just as\" introduces the matching clause.",
+   "level": 2
+  },
+  {
+   "id": "comparison_046",
+   "connector": "both ... and",
+   "function": "Comparison",
+   "sentences": [
+    "Cycling is cheap.",
+    "Cycling is good for your health."
+   ],
+   "answer": [
+    "Cycling is",
+    "both",
+    "cheap",
+    "and",
+    "good for your health."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "neither",
+    "whereas"
+   ],
+   "hint": "Put \"both\" before the first quality and \"and\" before the second.",
+   "level": 1
+  },
+  {
+   "id": "comparison_047",
+   "connector": "both ... and",
+   "function": "Comparison",
+   "sentences": [
+    "Young people need exercise.",
+    "Older adults also need exercise."
+   ],
+   "answer": [
+    "Both",
+    "young people",
+    "and",
+    "older adults need",
+    "exercise."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Either",
+    "but"
+   ],
+   "hint": "\"Both A and B\" takes a plural verb.",
+   "level": 1
+  },
+  {
+   "id": "comparison_048",
+   "connector": "both ... and",
+   "function": "Comparison",
+   "sentences": [
+    "Tourism creates jobs.",
+    "Tourism can damage the environment."
+   ],
+   "answer": [
+    "Tourism can",
+    "both",
+    "create jobs",
+    "and",
+    "damage the environment."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "either",
+    "whereas"
+   ],
+   "hint": "Place \"both\" after \"can\" and before the first verb; \"and\" links the second verb.",
+   "level": 2
+  },
+  {
+   "id": "comparison_049",
+   "connector": "both ... and",
+   "function": "Comparison",
+   "sentences": [
+    "Parents affect children's success at school.",
+    "Teachers also affect it."
+   ],
+   "answer": [
+    "Both",
+    "parents",
+    "and",
+    "teachers affect",
+    "children's success at school."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Neither",
+    "or"
+   ],
+   "hint": "Use \"Both ... and ...\" to make one plural subject.",
+   "level": 2
+  },
+  {
+   "id": "comparison_050",
+   "connector": "both ... and",
+   "function": "Comparison",
+   "sentences": [
+    "Wind is a clean energy source.",
+    "Solar power is also a clean source."
+   ],
+   "answer": [
+    "Both",
+    "wind",
+    "and",
+    "solar power are",
+    "clean energy sources."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Either",
+    "but"
+   ],
+   "hint": "With \"both ... and\", the verb and the noun after it are plural.",
+   "level": 2
+  },
+  {
+   "id": "comparison_051",
+   "connector": "both ... and",
+   "function": "Comparison",
+   "sentences": [
+    "Online learning saves students money.",
+    "It also gives them more flexibility."
+   ],
+   "answer": [
+    "Online learning",
+    "both",
+    "saves students money",
+    "and",
+    "gives them more flexibility."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "either",
+    "although"
+   ],
+   "hint": "\"Both\" goes before the first verb phrase; \"and\" before the second.",
+   "level": 3
+  },
+  {
+   "id": "comparison_052",
+   "connector": "as ... as",
+   "function": "Comparison",
+   "sentences": [
+    "Train travel can be fast.",
+    "Flying can be equally fast."
+   ],
+   "answer": [
+    "Train travel",
+    "can be",
+    "as",
+    "fast",
+    "as flying."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "than",
+    "more"
+   ],
+   "hint": "Use \"as + adjective + as\" to show two things are equal.",
+   "level": 1
+  },
+  {
+   "id": "comparison_053",
+   "connector": "as ... as",
+   "function": "Comparison",
+   "sentences": [
+    "In the survey, tennis was popular.",
+    "Football was equally popular."
+   ],
+   "answer": [
+    "In the survey,",
+    "tennis was",
+    "as",
+    "popular",
+    "as football."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "than",
+    "most"
+   ],
+   "hint": "The adjective goes between the two \"as\" words.",
+   "level": 1
+  },
+  {
+   "id": "comparison_054",
+   "connector": "as ... as",
+   "function": "Comparison",
+   "sentences": [
+    "Online friendships can be strong.",
+    "Face-to-face friendships are equally strong."
+   ],
+   "answer": [
+    "Online friendships",
+    "can be",
+    "as",
+    "strong",
+    "as face-to-face ones."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "than",
+    "more"
+   ],
+   "hint": "Equal comparison: \"as\" + adjective + \"as\" + the other thing.",
+   "level": 2
+  },
+  {
+   "id": "comparison_055",
+   "connector": "as ... as",
+   "function": "Comparison",
+   "sentences": [
+    "Healthy meals can be cheap.",
+    "Fast food is equally cheap."
+   ],
+   "answer": [
+    "Healthy meals",
+    "can be",
+    "as",
+    "cheap",
+    "as fast food."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "than",
+    "less"
+   ],
+   "hint": "Keep the adjective in its base form between \"as\" and \"as\".",
+   "level": 1
+  },
+  {
+   "id": "comparison_056",
+   "connector": "as ... as",
+   "function": "Comparison",
+   "sentences": [
+    "Village schools are not well funded.",
+    "City schools receive more money."
+   ],
+   "answer": [
+    "Village schools",
+    "are not",
+    "as",
+    "well funded",
+    "as city schools."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "than",
+    "more"
+   ],
+   "hint": "\"Not as ... as\" shows the first thing has less of the quality.",
+   "level": 2
+  },
+  {
+   "id": "comparison_057",
+   "connector": "as ... as",
+   "function": "Comparison",
+   "sentences": [
+    "Home cooking is not quick.",
+    "Ready meals are much quicker."
+   ],
+   "answer": [
+    "Home cooking",
+    "is not",
+    "as",
+    "quick",
+    "as ready meals."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "than",
+    "so that"
+   ],
+   "hint": "Use \"not as + adjective + as\" to say one thing is less quick.",
+   "level": 3
+  },
+  {
+   "id": "comparison_058",
+   "connector": "more ... than",
+   "function": "Comparison",
+   "sentences": [
+    "Public transport is efficient.",
+    "Private cars are less efficient."
+   ],
+   "answer": [
+    "Public transport",
+    "is",
+    "more",
+    "efficient",
+    "than",
+    "private cars."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as",
+    "most"
+   ],
+   "hint": "Long adjectives use \"more + adjective + than\".",
+   "level": 1
+  },
+  {
+   "id": "comparison_059",
+   "connector": "more ... than",
+   "function": "Comparison",
+   "sentences": [
+    "Video calls are convenient.",
+    "Business trips are less convenient."
+   ],
+   "answer": [
+    "Video calls",
+    "are",
+    "more",
+    "convenient",
+    "than",
+    "business trips."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as",
+    "the most"
+   ],
+   "hint": "Put \"more\" before the long adjective and \"than\" before the second item.",
+   "level": 2
+  },
+  {
+   "id": "comparison_060",
+   "connector": "more ... than",
+   "function": "Comparison",
+   "sentences": [
+    "Practical skills are useful to employers.",
+    "Exam grades are less useful to them."
+   ],
+   "answer": [
+    "Practical skills",
+    "are",
+    "more",
+    "useful to employers",
+    "than",
+    "exam grades."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as",
+    "the most"
+   ],
+   "hint": "Use \"more ... than\" to show which one employers value more.",
+   "level": 2
+  },
+  {
+   "id": "comparison_061",
+   "connector": "than",
+   "function": "Comparison",
+   "sentences": [
+    "Rural areas are quiet.",
+    "Cities are noisier."
+   ],
+   "answer": [
+    "Rural areas",
+    "are",
+    "quieter",
+    "than",
+    "cities."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as",
+    "more"
+   ],
+   "hint": "Short adjectives add -er, then \"than\"; do not add \"more\" as well.",
+   "level": 1
+  },
+  {
+   "id": "comparison_062",
+   "connector": "than",
+   "function": "Comparison",
+   "sentences": [
+    "Houses in the suburbs are cheap.",
+    "Flats in the centre cost more."
+   ],
+   "answer": [
+    "Suburban houses",
+    "are",
+    "cheaper",
+    "than",
+    "flats in the centre."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as",
+    "more"
+   ],
+   "hint": "Use the -er form of a short adjective + \"than\".",
+   "level": 1
+  },
+  {
+   "id": "comparison_063",
+   "connector": "than",
+   "function": "Comparison",
+   "sentences": [
+    "Older people adopt new technology slowly.",
+    "Teenagers adopt it much faster."
+   ],
+   "answer": [
+    "Teenagers",
+    "adopt new technology",
+    "faster",
+    "than",
+    "older people."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as",
+    "more"
+   ],
+   "hint": "Start with the faster group; \"faster\" already compares, so just add \"than\".",
+   "level": 3
+  },
+  {
+   "id": "comparison_064",
+   "connector": "the same as",
+   "function": "Comparison",
+   "sentences": [
+    "The new phone costs 300 pounds.",
+    "The old model also cost 300 pounds."
+   ],
+   "answer": [
+    "The new phone",
+    "costs",
+    "the same as",
+    "the old model."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "different from",
+    "than"
+   ],
+   "hint": "\"The same as\" shows two things are equal; do not use \"than\" with it.",
+   "level": 1
+  },
+  {
+   "id": "comparison_065",
+   "connector": "the same as",
+   "function": "Comparison",
+   "sentences": [
+    "The new school uniform is grey and blue.",
+    "The old uniform was also grey and blue."
+   ],
+   "answer": [
+    "The new uniform",
+    "looks",
+    "the same as",
+    "the old one."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "different from",
+    "than"
+   ],
+   "hint": "Use \"the same as\" + noun to show two things are identical.",
+   "level": 1
+  },
+  {
+   "id": "comparison_066",
+   "connector": "the same as",
+   "function": "Comparison",
+   "sentences": [
+    "In the chart, sales in May were 40%.",
+    "Sales in June were also 40%."
+   ],
+   "answer": [
+    "In the chart,",
+    "June sales",
+    "were",
+    "the same as",
+    "those in May."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "than",
+    "unlike"
+   ],
+   "hint": "Use \"the same as\" + \"those\" to avoid repeating \"sales\".",
+   "level": 2
+  },
+  {
+   "id": "comparison_067",
+   "connector": "the same as",
+   "function": "Comparison",
+   "sentences": [
+    "The museum opens from 9 to 5.",
+    "The library has identical opening hours."
+   ],
+   "answer": [
+    "The library's",
+    "opening hours are",
+    "the same as",
+    "the museum's."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "different from",
+    "than"
+   ],
+   "hint": "\"The same as\" is followed by the thing you compare with.",
+   "level": 2
+  },
+  {
+   "id": "comparison_068",
+   "connector": "the same as",
+   "function": "Comparison",
+   "sentences": [
+    "Online learning can give good results.",
+    "Classroom study gives equally good results."
+   ],
+   "answer": [
+    "The results of",
+    "online learning",
+    "can be",
+    "the same as",
+    "those of classroom study."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unlike",
+    "than"
+   ],
+   "hint": "Use \"those of\" after \"the same as\" so you do not repeat \"the results\".",
+   "level": 3
+  },
+  {
+   "id": "comparison_069",
+   "connector": "unlike",
+   "function": "Contrast",
+   "sentences": [
+    "Cars produce harmful gases.",
+    "Bicycles produce no pollution."
+   ],
+   "answer": [
+    "Unlike",
+    "cars,",
+    "bicycles produce",
+    "no pollution."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Like",
+    "Because of"
+   ],
+   "hint": "\"Unlike\" + noun + comma shows a difference between two things.",
+   "level": 1
+  },
+  {
+   "id": "comparison_070",
+   "connector": "unlike",
+   "function": "Contrast",
+   "sentences": [
+    "E-readers need charging.",
+    "Printed books need no power."
+   ],
+   "answer": [
+    "Unlike",
+    "e-readers,",
+    "printed books",
+    "need no power."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Like",
+    "Despite"
+   ],
+   "hint": "Put the different item after \"Unlike\", then a comma.",
+   "level": 1
+  },
+  {
+   "id": "comparison_071",
+   "connector": "unlike",
+   "function": "Contrast",
+   "sentences": [
+    "Many older people read newspapers.",
+    "Young people mostly get news online."
+   ],
+   "answer": [
+    "Unlike",
+    "older people,",
+    "young people mostly",
+    "get news online."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Like",
+    "Due to"
+   ],
+   "hint": "\"Unlike\" is followed by a noun, not a clause.",
+   "level": 2
+  },
+  {
+   "id": "comparison_072",
+   "connector": "unlike",
+   "function": "Contrast",
+   "sentences": [
+    "Public parks are free to enter.",
+    "Theme parks charge high prices."
+   ],
+   "answer": [
+    "Public parks",
+    "are free to enter,",
+    "unlike",
+    "theme parks."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "like",
+    "because"
+   ],
+   "hint": "\"Unlike\" + noun can also come at the end, after a comma.",
+   "level": 2
+  },
+  {
+   "id": "comparison_073",
+   "connector": "unlike",
+   "function": "Contrast",
+   "sentences": [
+    "Traditional jobs offer fixed hours.",
+    "Freelance work is often unpredictable."
+   ],
+   "answer": [
+    "Unlike",
+    "traditional jobs,",
+    "freelance work",
+    "is often unpredictable."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Like",
+    "Owing to"
+   ],
+   "hint": "Put the noun phrase after \"Unlike\" and a comma, then the main clause.",
+   "level": 3
+  },
+  {
+   "id": "comparison_074",
+   "connector": "unlike",
+   "function": "Contrast",
+   "sentences": [
+    "Coal plants release a lot of carbon dioxide.",
+    "Nuclear power stations release very little."
+   ],
+   "answer": [
+    "Unlike",
+    "coal plants,",
+    "nuclear power stations",
+    "release little carbon dioxide."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Like",
+    "As a result of"
+   ],
+   "hint": "\"Unlike\" + noun + comma, then the clause about the cleaner option.",
+   "level": 3
+  },
+  {
+   "id": "comparison_075",
+   "connector": "like",
+   "function": "Similarity",
+   "sentences": [
+    "Adults need regular exercise.",
+    "Children also need regular exercise."
+   ],
+   "answer": [
+    "Like",
+    "adults,",
+    "children need",
+    "regular exercise."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unlike",
+    "Whereas"
+   ],
+   "hint": "\"Like\" + noun + comma shows that two things are similar.",
+   "level": 1
+  },
+  {
+   "id": "comparison_076",
+   "connector": "like",
+   "function": "Similarity",
+   "sentences": [
+    "Big cities suffer from traffic jams.",
+    "Many large towns have traffic problems too."
+   ],
+   "answer": [
+    "Like",
+    "big cities,",
+    "many large towns",
+    "have traffic problems."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unlike",
+    "Although"
+   ],
+   "hint": "Use \"Like\" + noun + comma before the main clause.",
+   "level": 1
+  },
+  {
+   "id": "comparison_077",
+   "connector": "like",
+   "function": "Similarity",
+   "sentences": [
+    "Sweets can harm children's teeth.",
+    "Fizzy drinks damage teeth as well."
+   ],
+   "answer": [
+    "Like",
+    "sweets,",
+    "fizzy drinks",
+    "can damage children's teeth."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unlike",
+    "Instead of"
+   ],
+   "hint": "\"Like\" is a preposition here: follow it with a noun, not a clause.",
+   "level": 2
+  },
+  {
+   "id": "comparison_078",
+   "connector": "like",
+   "function": "Similarity",
+   "sentences": [
+    "Nurses work long shifts.",
+    "Junior doctors also work long hours."
+   ],
+   "answer": [
+    "Like",
+    "nurses,",
+    "junior doctors",
+    "work long hours."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unlike",
+    "In contrast,"
+   ],
+   "hint": "Put the similar group after \"Like\" and a comma.",
+   "level": 2
+  },
+  {
+   "id": "comparison_079",
+   "connector": "like",
+   "function": "Similarity",
+   "sentences": [
+    "Many factories have moved abroad.",
+    "Call centres have also moved overseas."
+   ],
+   "answer": [
+    "Like",
+    "many factories,",
+    "call centres",
+    "have moved overseas."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unlike",
+    "Whereas"
+   ],
+   "hint": "\"Like\" + noun phrase + comma, then the main clause.",
+   "level": 2
+  },
+  {
+   "id": "comparison_080",
+   "connector": "like",
+   "function": "Similarity",
+   "sentences": [
+    "Radio had to adapt to television.",
+    "Newspapers must now adapt to the internet."
+   ],
+   "answer": [
+    "Like",
+    "radio in the past,",
+    "newspapers must now",
+    "adapt to a new medium."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unlike",
+    "Despite"
+   ],
+   "hint": "\"Like\" + noun shows a similar situation from the past.",
+   "level": 3
+  }
+ ]
+}

@@ -61,9 +61,11 @@ String _taskSubtitle(Map<String, dynamic> task) {
 
 void _openTask(BuildContext context, Map<String, dynamic> task) {
   final target = task.s('target');
+  final args = task['args'];
   openStoredRoute(
     context,
     target.isNotEmpty ? target : skillLandingRoute(task.s('skill')),
+    target.isNotEmpty && args is Map ? args.cast<String, dynamic>() : null,
   );
 }
 
@@ -340,8 +342,13 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                     spacing: 2,
                     children: [
                       Text(
-                        'Upcoming mock test',
-                        style: TextStyle(fontSize: 13, color: t.heroMuted),
+                        'Upcoming mock test'.toUpperCase(),
+                        style: TextStyle(
+                          fontSize: 11,
+                          letterSpacing: 1.1,
+                          fontWeight: FontWeight.w600,
+                          color: t.peach,
+                        ),
                       ),
                       Text(
                         mock.s('title'),
@@ -370,7 +377,7 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                   width: 72,
                   height: 72,
                   decoration: BoxDecoration(
-                    color: kInk,
+                    gradient: kPeachGradient,
                     borderRadius: BorderRadius.circular(24),
                   ),
                   child: Column(
@@ -381,7 +388,8 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                         style: const TextStyle(
                           fontSize: 26,
                           height: 1,
-                          color: Color(0xFFF6ECC8),
+                          fontWeight: FontWeight.w600,
+                          color: kOnPeach,
                         ),
                       ),
                       Text(
@@ -390,7 +398,7 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                             : 'days',
                         style: const TextStyle(
                           fontSize: 11,
-                          color: Color(0xFFF6ECC8),
+                          color: kOnPeach,
                         ),
                       ),
                     ],
@@ -550,7 +558,7 @@ class _TaskRow extends StatelessWidget {
     }
 
     return Material(
-      color: t.isNight ? const Color(0xFF1C1C1C) : t.surfaceAlt,
+      color: t.isNight ? const Color(0xFF1A1D2C) : t.surfaceAlt,
       borderRadius: BorderRadius.circular(22),
       clipBehavior: Clip.antiAlias,
       child: InkWell(

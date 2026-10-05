@@ -166,8 +166,8 @@ class _TargetBandScreenState extends State<TargetBandScreen> {
                         child: CustomPaint(
                           painter: _GaugePainter(
                             fraction: fraction,
-                            track: t.isNight ? t.border : const Color(0xFFF1E6EC),
-                            fill: t.accentStrong,
+                            track: t.isNight ? t.border : const Color(0xFFF6E8E4),
+                            fill: t.peach,
                             tick: t.isNight ? t.border : t.textFaint,
                             knob: t.text,
                             knobCore: t.surface,
@@ -239,13 +239,6 @@ class _TargetBandScreenState extends State<TargetBandScreen> {
         HeroCard(
           radius: 28,
           padding: const EdgeInsets.all(18),
-          gradient: t.isNight
-              ? null
-              : const LinearGradient(
-                  begin: Alignment(-0.34, -0.94),
-                  end: Alignment(0.34, 0.94),
-                  colors: [Color(0xFFF9D6E2), Color(0xFFFBEAF0)],
-                ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             spacing: 14,
@@ -260,7 +253,7 @@ class _TargetBandScreenState extends State<TargetBandScreen> {
                     width: 44,
                     height: 44,
                     decoration: BoxDecoration(
-                      color: t.isNight ? t.heroChip : t.surface,
+                      color: t.heroChip,
                       borderRadius: BorderRadius.circular(14),
                     ),
                     child: Icon(AppIcons.calendar, size: 20, color: t.heroText),
@@ -290,12 +283,12 @@ class _TargetBandScreenState extends State<TargetBandScreen> {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                     decoration: BoxDecoration(
-                      color: t.heroFill,
+                      gradient: kPeachGradient,
                       borderRadius: BorderRadius.circular(999),
                     ),
                     child: Text(
                       '$daysAway days',
-                      style: const TextStyle(fontSize: 13, color: kOnDarkPill),
+                      style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: kOnPeach),
                     ),
                   ),
                 ],
@@ -381,9 +374,7 @@ class _DateChip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final bg = selected
-        ? t.heroFill
-        : (t.isNight ? const Color(0x14151515) : t.heroChip);
+    final bg = selected ? t.peach : t.heroChip;
     return Material(
       color: bg,
       borderRadius: BorderRadius.circular(16),
@@ -400,9 +391,7 @@ class _DateChip extends StatelessWidget {
                 weekday,
                 style: TextStyle(
                   fontSize: 12,
-                  color: selected
-                      ? (t.isNight ? kOnDarkPill : const Color(0xFFD6D0D4))
-                      : t.heroMuted,
+                  color: selected ? kOnPeach.withValues(alpha: 0.7) : t.heroMuted,
                 ),
               ),
               Text(
@@ -410,7 +399,7 @@ class _DateChip extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 17,
                   fontWeight: selected ? FontWeight.w500 : FontWeight.w400,
-                  color: selected ? kOnDarkPill : t.heroText,
+                  color: selected ? kOnPeach : t.heroText,
                 ),
               ),
             ],

@@ -2,9 +2,11 @@
 // plus one /v1/sync call the app uses to pull everything changed since its
 // last sync. Records use the same JSON shape as the app's local Store.
 
+import type { Prisma } from '@prisma/client';
 import { prisma } from '../db';
 import { badRequest, forbidden, HttpError, int, notFound, obj, required, Router, s, type Ctx } from '../lib/http';
 import { requireUser } from '../lib/users';
+import { ensurePlan, planTaskJson } from './plan';
 
 type Row = Record<string, unknown>;
 
@@ -84,29 +86,8 @@ function notificationJson(n: {
   };
 }
 
-function taskJson(t: {
-  id: string;
-  title: string;
-  skill: string | null;
-  kind: string | null;
-  time: string | null;
-  durationMin: number | null;
-  done: boolean;
-  target: string | null;
-  date: Date;
-}) {
-  return {
-    id: t.id,
-    title: t.title,
-    skill: t.skill ?? '',
-    kind: t.kind ?? '',
-    date: t.date.toISOString().slice(0, 10),
-    time: t.time ?? '',
-    durationMin: t.durationMin ?? 0,
-    done: t.done,
-    target: t.target ?? '',
-  };
-}
+/** Study tasks (plan tasks carry args, itemId, ref, reason; removed ones a flag). */
+const taskJson = planTaskJson;
 
 // ── attempts ────────────────────────────────────────────────────────────────
 
@@ -143,14 +124,14 @@ async function saveAttempt(userId: string, body: Row) {
     score: numOrNull(body.score) === null ? null : Math.trunc(Number(body.score)),
     total: numOrNull(body.total) === null ? null : Math.trunc(Number(body.total)),
     durationSec: int(body.durationSec, 0, 0, 86400),
-    data,
+    data: data as Prisma.InputJsonValue,
   };
   if (aiGraded) {
     // The app keeps its own copy of an AI-graded attempt (same id). Its extra
     // fields are merged in, but the server's evaluation and band always win.
     const merged: Row = { ...serverData, ...data, aiGraded: true };
     for (const k of SERVER_OWNED) if (k in serverData) merged[k] = serverData[k];
-    fields.data = merged;
+    fields.data = merged as Prisma.InputJsonValue;
     fields.band = existing!.band;
   }
   const createdAt = date(body.createdAt, new Date()) as Date;
@@ -194,11 +175,23 @@ export function registerProgressRoutes(r: Router): void {
     const userId = requireUser(ctx);
     const since = sinceParam(ctx);
     const changed = since ? { updatedAt: { gt: since } } : {};
+    // Top up the study plan first so new plan tasks come down in this pull.
+    try {
+      await ensurePlan(userId);
+    } catch (e) {
+      console.error('[sync] plan', e instanceof Error ? e.message : e);
+    }
     const serverTime = new Date().toISOString();
     const [attempts, notifications, tasks, state] = await Promise.all([
       prisma.attempt.findMany({ where: { userId, ...changed }, orderBy: { createdAt: 'desc' }, take: 2000 }),
       prisma.notification.findMany({ where: { userId, ...changed }, orderBy: { createdAt: 'desc' }, take: 200 }),
-      prisma.studyTask.findMany({ where: { userId, ...changed }, orderBy: { date: 'asc' }, take: 1000 }),
+      // A full pull skips tasks the plan removed; an incremental one sends them
+      // (flagged) so the app deletes its copy.
+      prisma.studyTask.findMany({
+        where: { userId, ...changed, ...(since ? {} : { removedAt: null }) },
+        orderBy: { date: 'asc' },
+        take: 1000,
+      }),
       prisma.userState.findMany({ where: { userId, ...changed } }),
     ]);
     return {
@@ -339,7 +332,7 @@ export function registerProgressRoutes(r: Router): void {
 
   r.get('/v1/tasks', async (ctx) => {
     const userId = requireUser(ctx);
-    const where: Row = { userId };
+    const where: Row = { userId, removedAt: null };
     const from = ctx.query.get('from');
     const to = ctx.query.get('to');
     if (from || to) where.date = { ...(from ? { gte: day(from) } : {}), ...(to ? { lte: day(to) } : {}) };
@@ -392,6 +385,11 @@ async function upsertTask(userId: string, b: Row) {
     done: b.done === true,
     target: s(b.target, 200) || null,
     date: day(b.date),
+    // Deep-link args for the target screen. Plan fields (planId, itemId,
+    // ref, reason, removedAt) are the server's and never come from the app.
+    ...(b.args && typeof b.args === 'object' && !Array.isArray(b.args) && jsonSize(b.args) < 4096
+      ? { args: b.args as object }
+      : {}),
   };
   const row = await prisma.studyTask.upsert({
     where: { id },

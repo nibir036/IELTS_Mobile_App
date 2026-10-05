@@ -300,7 +300,7 @@ class WritingContent {
         for (var i = 0; i < vals.length; i++)
           '${i < labels.length ? labels[i] : '#${i + 1}'}: ${vals[i]}',
       ];
-      b.writeln('${s.s('name')}$u — ${pairs.join(', ')}');
+      b.writeln('${s.s('name')}$u - ${pairs.join(', ')}');
     }
     for (final pie in chart.l('charts')) {
       final slices = <String>[
@@ -402,7 +402,7 @@ int essayWords(String text) =>
     RegExp(r"[A-Za-z0-9']+").allMatches(text).length;
 
 // ═════════════════════════════════════════════════════════════════════════════
-// Demo "AI" line-by-line review — deterministic from the text.
+// Demo "AI" line-by-line review - deterministic from the text.
 // Issue: {id, type ('grammar'|'vocab'), title, label, start, end, original,
 //         suggestion, note, sentenceIndex}
 // Strength: {start, end, text}
@@ -1150,5 +1150,90 @@ class WritingService {
       out.add('Compare your essay with the ${rewriteLabel(a)} to find the next step up.');
     }
     return out.take(3).toList();
+  }
+}
+
+/// One set of the Sentence Builder bank and where it sits.
+class SentenceSetRef {
+  const SentenceSetRef(this.category, this.set, this.index);
+  final Map<String, dynamic> category;
+  final Map<String, dynamic> set;
+
+  /// Position of [set] inside its category (0-based).
+  final int index;
+
+  String get id => set.s('id');
+  String get title => '${category.s('title')} · ${set.s('title')}';
+  List<Map<String, dynamic>> get drills => set.l('drills');
+}
+
+/// The Sentence Builder bank (assets/content/sentence_bank.json):
+/// categories → sets of 10 drills. Progress = the student's 'drill'
+/// attempts, whose refId is the set id.
+class SentenceBank {
+  SentenceBank._();
+
+  static Map<String, dynamic> get _b => Demo.sentenceBank;
+  static bool get available => categories.isNotEmpty;
+  static List<Map<String, dynamic>> get categories => _b.l('categories');
+  static int get total => _b.i('total');
+  static String get instruction {
+    final s = _b.s('instruction');
+    return s.isEmpty ? 'Join the two sentences into one' : s;
+  }
+
+  static int get setCount => categories.fold<int>(0, (n, c) => n + c.l('sets').length);
+
+  static SentenceSetRef? find(String setId) {
+    for (final c in categories) {
+      final sets = c.l('sets');
+      for (var i = 0; i < sets.length; i++) {
+        if (sets[i].s('id') == setId) return SentenceSetRef(c, sets[i], i);
+      }
+    }
+    return null;
+  }
+
+  /// The set after [setId] in the same category, then the next category.
+  static SentenceSetRef? next(String setId) {
+    var found = false;
+    for (final c in categories) {
+      final sets = c.l('sets');
+      for (var i = 0; i < sets.length; i++) {
+        if (found) return SentenceSetRef(c, sets[i], i);
+        if (sets[i].s('id') == setId) found = true;
+      }
+    }
+    return null;
+  }
+
+  /// Best "right first time" score per set id.
+  static Map<String, int> best(Store store) {
+    final out = <String, int>{};
+    for (final a in store.attemptsFor(skill: Skill.writing, kind: 'drill')) {
+      final s = a.score ?? 0;
+      if (s >= (out[a.refId] ?? -1)) out[a.refId] = s;
+    }
+    return out;
+  }
+
+  /// First set the student hasn't finished, starting after their latest one.
+  static SentenceSetRef? resume(Store store) {
+    final done = best(store);
+    final drills = store.attemptsFor(skill: Skill.writing, kind: 'drill');
+    if (drills.isNotEmpty) {
+      var r = find(drills.first.refId) == null ? null : next(drills.first.refId);
+      while (r != null && done.containsKey(r.id)) {
+        r = next(r.id);
+      }
+      if (r != null) return r;
+    }
+    for (final c in categories) {
+      final sets = c.l('sets');
+      for (var i = 0; i < sets.length; i++) {
+        if (!done.containsKey(sets[i].s('id'))) return SentenceSetRef(c, sets[i], i);
+      }
+    }
+    return null;
   }
 }

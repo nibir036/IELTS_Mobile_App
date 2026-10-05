@@ -8,13 +8,13 @@ import '../../app/theme/tokens.dart';
 /// Renders any Academic Task 1 visual from the content bank
 /// (CONTENT_SCHEMA.md → Writing → chart shapes):
 ///
-/// * `line` / `bar` — `{unit, xLabels, series:[{name, values}]}`
+/// * `line` / `bar` - `{unit, xLabels, series:[{name, values}]}`
 ///   (multi-series line with legend · grouped bars with legend)
-/// * `pie` — `{unit, charts:[{label, slices:[{name, value}]}]}` (1–2 pies)
-/// * `table` — `{columns:[…], rows:[[…], …]}` (bordered grid)
-/// * `process` — `{steps:[…]}` (numbered step flow)
-/// * `map` — `{before:{label, features}, after:{label, features}}`
-/// * `mixed` — `{parts:[{type, …}, …]}` (each part rendered in turn)
+/// * `pie` - `{unit, charts:[{label, slices:[{name, value}]}]}` (1–2 pies)
+/// * `table` - `{columns:[…], rows:[[…], …]}` (bordered grid)
+/// * `process` - `{steps:[…]}` (numbered step flow)
+/// * `map` - `{before:{label, features}, after:{label, features}}`
+/// * `mixed` - `{parts:[{type, …}, …]}` (each part rendered in turn)
 ///
 /// [type] overrides `chart['type']` (pass the prompt's `type`). Missing or
 /// malformed fields render as empty parts rather than throwing. Draw it
@@ -48,22 +48,22 @@ class Task1Chart extends StatelessWidget {
   /// Series / slice colours (Day · Night).
   static List<Color> palette(AppTokens t) => t.isNight
       ? const <Color>[
-          Color(0xFFF6ECC8),
+          Color(0xFFFFC2B0),
           Color(0xFFFF7A5C),
-          Color(0xFF8C8EE8),
+          Color(0xFF6F8EF0),
           Color(0xFF6FCFB5),
           Color(0xFFF2A14A),
           Color(0xFF9A9A9A),
-          Color(0xFFE58FB0),
+          Color(0xFFFF9C82),
         ]
       : const <Color>[
           Color(0xFF151515),
-          Color(0xFFE0527A),
-          Color(0xFF8C8EE8),
+          Color(0xFFFF6B57),
+          Color(0xFF6F8EF0),
           Color(0xFF3FA58C),
           Color(0xFFF2A14A),
           Color(0xFFB8AEB5),
-          Color(0xFF6B5CA5),
+          Color(0xFF4A5FB0),
         ];
 
   static Color colorAt(AppTokens t, int i) {

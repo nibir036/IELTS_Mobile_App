@@ -8,6 +8,7 @@
     "currentSourceInApp": "home.certificates.items",
     "fields": {
       "id": "string",
+      "group": "string",
       "code": "string",
       "title": "string",
       "description": "string",
@@ -25,35 +26,34 @@
     "notes": [
       "rule.type: count|band|streak|parts — evaluated against the user's attempts."
     ],
-    "recordCountToday": 11
+    "recordCountToday": 36
   },
   "items": [
     {
-      "id": "first_mock",
-      "code": "FM",
-      "title": "First full mock test",
-      "description": "Completed a full four-skill IELTS Academic mock test.",
-      "icon": "mock",
+      "id": "first_lesson",
+      "group": "Learning",
+      "code": "L1",
+      "title": "First lesson",
+      "description": "Finished your first lesson in a course.",
+      "icon": "school",
       "rule": {
-        "type": "count",
-        "skill": "mock",
-        "kinds": [
-          "mock"
-        ],
+        "type": "lessons",
         "goal": 1
       },
-      "unit": "mock tests"
+      "unit": "lessons"
     },
     {
-      "id": "mock_65",
-      "code": "M65",
-      "title": "Band 6.5 in a mock",
-      "description": "Scored an overall Band 6.5 or higher in a full mock test.",
-      "icon": "trophy",
+      "id": "lessons_10",
+      "group": "Learning",
+      "code": "L10",
+      "title": "10 lessons",
+      "description": "Finished ten course lessons.",
+      "icon": "school",
       "rule": {
-        "type": "mockOverall",
-        "band": 6.5
-      }
+        "type": "lessons",
+        "goal": 10
+      },
+      "unit": "lessons"
     }
   ]
 }

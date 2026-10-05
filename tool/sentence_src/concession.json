@@ -1,0 +1,2068 @@
+{
+ "category": "concession",
+ "drills": [
+  {
+   "id": "concession_001",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "The library is free.",
+    "Few students use it."
+   ],
+   "answer": [
+    "Although",
+    "the library",
+    "is free,",
+    "few students",
+    "use it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 1
+  },
+  {
+   "id": "concession_002",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "Many people drive to work.",
+    "The train is faster."
+   ],
+   "answer": [
+    "Many people",
+    "drive to work",
+    "although",
+    "the train",
+    "is faster."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 1
+  },
+  {
+   "id": "concession_003",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "The factory created jobs.",
+    "It polluted the local river."
+   ],
+   "answer": [
+    "Although",
+    "the factory",
+    "created jobs,",
+    "it polluted",
+    "the local river."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "therefore"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 1
+  },
+  {
+   "id": "concession_004",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "Fewer people smoke today.",
+    "Lung disease remains common."
+   ],
+   "answer": [
+    "Although",
+    "fewer people",
+    "smoke today,",
+    "lung disease",
+    "remains common."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 2
+  },
+  {
+   "id": "concession_005",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "Some pupils struggle with maths.",
+    "They receive extra lessons."
+   ],
+   "answer": [
+    "Some pupils",
+    "struggle with maths",
+    "although",
+    "they receive",
+    "extra lessons."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so that"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 2
+  },
+  {
+   "id": "concession_006",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "The internet makes information free.",
+    "Many people remain poorly informed."
+   ],
+   "answer": [
+    "Although",
+    "the internet",
+    "makes information free,",
+    "many people remain",
+    "poorly informed."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "but"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 2
+  },
+  {
+   "id": "concession_007",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "The hostel was cheap.",
+    "It was very clean."
+   ],
+   "answer": [
+    "Although",
+    "the hostel",
+    "was cheap,",
+    "it was",
+    "very clean."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 1
+  },
+  {
+   "id": "concession_008",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "The house is old.",
+    "It has modern heating."
+   ],
+   "answer": [
+    "Although",
+    "the house",
+    "is old,",
+    "it has",
+    "modern heating."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "because"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 1
+  },
+  {
+   "id": "concession_009",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "Global trade has grown.",
+    "Many local industries have suffered."
+   ],
+   "answer": [
+    "Many local industries",
+    "have suffered",
+    "although",
+    "global trade",
+    "has grown."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "unless"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 3
+  },
+  {
+   "id": "concession_010",
+   "connector": "although",
+   "function": "Concession",
+   "sentences": [
+    "Buses in the city are cheap.",
+    "Many commuters prefer to drive."
+   ],
+   "answer": [
+    "Although",
+    "city buses",
+    "are cheap,",
+    "many commuters",
+    "prefer to drive."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Although\" takes a full clause; never use \"but\" or \"so\" in the same sentence.",
+   "level": 1
+  },
+  {
+   "id": "concession_011",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "It rained all afternoon.",
+    "The match continued as planned."
+   ],
+   "answer": [
+    "Even though",
+    "it rained all afternoon,",
+    "the match",
+    "continued as planned."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_012",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "Many graduates cannot find jobs.",
+    "They have good degrees."
+   ],
+   "answer": [
+    "Many graduates",
+    "cannot find jobs",
+    "even though",
+    "they have",
+    "good degrees."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_013",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "The course was difficult.",
+    "Most students completed it."
+   ],
+   "answer": [
+    "Even though",
+    "the course",
+    "was difficult,",
+    "most students",
+    "completed it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_014",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "The town relies on tourism.",
+    "Many residents dislike tourists."
+   ],
+   "answer": [
+    "Even though",
+    "the town relies",
+    "on tourism,",
+    "many residents",
+    "dislike tourists."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "but"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 3
+  },
+  {
+   "id": "concession_015",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "She speaks English well.",
+    "She has never lived abroad."
+   ],
+   "answer": [
+    "She speaks",
+    "English well",
+    "even though",
+    "she has never",
+    "lived abroad."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_016",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "Fruit is cheap in summer.",
+    "Many families buy very little fruit."
+   ],
+   "answer": [
+    "Even though",
+    "fruit is cheap",
+    "in summer,",
+    "many families",
+    "buy very little of it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 2
+  },
+  {
+   "id": "concession_017",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "Air travel remains popular.",
+    "It harms the environment."
+   ],
+   "answer": [
+    "Air travel",
+    "remains popular",
+    "even though",
+    "it harms",
+    "the environment."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so that"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_018",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "The research was convincing.",
+    "The council ignored it."
+   ],
+   "answer": [
+    "Even though",
+    "the research",
+    "was convincing,",
+    "the council",
+    "ignored it."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "but"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 3
+  },
+  {
+   "id": "concession_019",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "He was very tired.",
+    "He finished his essay."
+   ],
+   "answer": [
+    "Even though",
+    "he was very tired,",
+    "he finished",
+    "his essay."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_020",
+   "connector": "even though",
+   "function": "Concession",
+   "sentences": [
+    "Some species are still declining.",
+    "They are legally protected."
+   ],
+   "answer": [
+    "Some species",
+    "are still declining",
+    "even though",
+    "they are",
+    "legally protected."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"Even though\" is a stronger \"although\" and is followed by a subject and verb.",
+   "level": 2
+  },
+  {
+   "id": "concession_021",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "The restaurant was busy.",
+    "The service was quick."
+   ],
+   "answer": [
+    "Though",
+    "the restaurant",
+    "was busy,",
+    "the service",
+    "was quick."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 1
+  },
+  {
+   "id": "concession_022",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "Many people buy bottled water.",
+    "Tap water is safe to drink."
+   ],
+   "answer": [
+    "Many people",
+    "buy bottled water",
+    "though",
+    "tap water",
+    "is safe to drink."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 2
+  },
+  {
+   "id": "concession_023",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "Electric cars cost more to buy.",
+    "They are cheaper to run."
+   ],
+   "answer": [
+    "Though",
+    "electric cars",
+    "cost more to buy,",
+    "they are cheaper",
+    "to run."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 2
+  },
+  {
+   "id": "concession_024",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "English is widely spoken.",
+    "Many tourists still learn local phrases."
+   ],
+   "answer": [
+    "Though",
+    "English is",
+    "widely spoken,",
+    "many tourists still",
+    "learn local phrases."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "but"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 3
+  },
+  {
+   "id": "concession_025",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "The test was easy.",
+    "Some students failed it."
+   ],
+   "answer": [
+    "Though",
+    "the test",
+    "was easy,",
+    "some students",
+    "failed it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 1
+  },
+  {
+   "id": "concession_026",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "The old bridge is still used.",
+    "It needs urgent repairs."
+   ],
+   "answer": [
+    "The old bridge",
+    "is still used",
+    "though",
+    "it needs",
+    "urgent repairs."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 2
+  },
+  {
+   "id": "concession_027",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "The job paid well.",
+    "She left after a year."
+   ],
+   "answer": [
+    "Though",
+    "the job",
+    "paid well,",
+    "she left",
+    "after a year."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 2
+  },
+  {
+   "id": "concession_028",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "Most people value their privacy.",
+    "They share personal data online."
+   ],
+   "answer": [
+    "Though",
+    "most people",
+    "value their privacy,",
+    "they share",
+    "personal data online."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "but"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 2
+  },
+  {
+   "id": "concession_029",
+   "connector": "though",
+   "function": "Concession",
+   "sentences": [
+    "Some children dislike vegetables.",
+    "Vegetables are good for them."
+   ],
+   "answer": [
+    "Some children",
+    "dislike vegetables",
+    "though",
+    "they are",
+    "good for them."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "unless",
+    "so"
+   ],
+   "hint": "\"Though\" works like \"although\": a subject and verb follow it.",
+   "level": 1
+  },
+  {
+   "id": "concession_030",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "There was heavy rain.",
+    "The festival was a success."
+   ],
+   "answer": [
+    "Despite",
+    "the heavy rain,",
+    "the festival",
+    "was a success."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Because of"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 1
+  },
+  {
+   "id": "concession_031",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "The phone had a high price.",
+    "Many people bought it."
+   ],
+   "answer": [
+    "Despite",
+    "the high price,",
+    "many people",
+    "bought the phone."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Despite of"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 1
+  },
+  {
+   "id": "concession_032",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "The town had poor transport links.",
+    "The town still grew quickly."
+   ],
+   "answer": [
+    "The town",
+    "grew quickly",
+    "despite",
+    "its poor transport links."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "because of"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_033",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "Officials warned about strong currents.",
+    "Many tourists swam in the sea."
+   ],
+   "answer": [
+    "Despite",
+    "the official warnings,",
+    "many tourists",
+    "swam in the sea."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Because of"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_034",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "The economy has grown strongly.",
+    "Unemployment has remained high."
+   ],
+   "answer": [
+    "Unemployment",
+    "has remained high",
+    "despite",
+    "strong economic growth."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "due to"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 3
+  },
+  {
+   "id": "concession_035",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "Many people live far from home.",
+    "They keep their family traditions."
+   ],
+   "answer": [
+    "Despite",
+    "living far from home,",
+    "many people",
+    "keep their traditions."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite of",
+    "Because of"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_036",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "Some students study hard.",
+    "They still fail their exams."
+   ],
+   "answer": [
+    "Despite",
+    "studying hard,",
+    "some students",
+    "fail their exams."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite of",
+    "Because"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_037",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "The company lost its biggest client.",
+    "The company still kept growing."
+   ],
+   "answer": [
+    "The company",
+    "kept growing",
+    "despite",
+    "losing its biggest client."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite of",
+    "because of"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 3
+  },
+  {
+   "id": "concession_038",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "The singer felt ill.",
+    "She still performed very well."
+   ],
+   "answer": [
+    "Despite",
+    "feeling ill,",
+    "the singer",
+    "performed very well."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite of",
+    "Because of"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 1
+  },
+  {
+   "id": "concession_039",
+   "connector": "despite",
+   "function": "Concession",
+   "sentences": [
+    "The young manager had little experience.",
+    "She was still promoted."
+   ],
+   "answer": [
+    "Despite",
+    "having little experience,",
+    "the young manager",
+    "was promoted."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite of",
+    "Due to"
+   ],
+   "hint": "\"Despite\" is followed by a noun phrase or an -ing form, never a full clause.",
+   "level": 3
+  },
+  {
+   "id": "concession_040",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "It was very cold outside.",
+    "The children played outside."
+   ],
+   "answer": [
+    "In spite of",
+    "the cold,",
+    "the children",
+    "played outside."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Because of"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 1
+  },
+  {
+   "id": "concession_041",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "The island is small.",
+    "It still attracts many visitors."
+   ],
+   "answer": [
+    "In spite of",
+    "its small size,",
+    "the island",
+    "attracts many visitors."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "In spite"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_042",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "Many workers receive low pay.",
+    "They stay in their jobs."
+   ],
+   "answer": [
+    "Many workers",
+    "stay in their jobs",
+    "in spite of",
+    "the low pay."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "because of"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_043",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "Many nurses work long hours.",
+    "They love their jobs."
+   ],
+   "answer": [
+    "In spite of",
+    "working long hours,",
+    "many nurses",
+    "love their jobs."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In spite",
+    "Because of"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 3
+  },
+  {
+   "id": "concession_044",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "There was heavy traffic.",
+    "The guests arrived on time."
+   ],
+   "answer": [
+    "In spite of",
+    "the heavy traffic,",
+    "the guests",
+    "arrived on time."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Because of"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 1
+  },
+  {
+   "id": "concession_045",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "Local people strongly opposed the plan.",
+    "The plan still went ahead."
+   ],
+   "answer": [
+    "The plan",
+    "went ahead",
+    "in spite of",
+    "strong local opposition."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "because of"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_046",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "Many young cyclists know the risks.",
+    "They do not wear helmets."
+   ],
+   "answer": [
+    "In spite of",
+    "knowing the risks,",
+    "many young cyclists",
+    "do not wear helmets."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In spite",
+    "Because of"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_047",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "Online banking has many benefits.",
+    "It worries some older people."
+   ],
+   "answer": [
+    "In spite of",
+    "its benefits,",
+    "online banking",
+    "worries some older people."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Due to"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 2
+  },
+  {
+   "id": "concession_048",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "There was a lot of noise.",
+    "The students kept working."
+   ],
+   "answer": [
+    "In spite of",
+    "the noise,",
+    "the students",
+    "kept working."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Because of"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 1
+  },
+  {
+   "id": "concession_049",
+   "connector": "in spite of",
+   "function": "Concession",
+   "sentences": [
+    "Some countries have rich natural resources.",
+    "They still remain poor."
+   ],
+   "answer": [
+    "Some countries",
+    "remain poor",
+    "in spite of",
+    "having rich resources."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "in spite",
+    "thanks to"
+   ],
+   "hint": "\"In spite of\" is followed by a noun phrase or an -ing form, not a clause.",
+   "level": 3
+  },
+  {
+   "id": "concession_050",
+   "connector": "despite the fact that",
+   "function": "Concession",
+   "sentences": [
+    "The flat was small.",
+    "The rent was high."
+   ],
+   "answer": [
+    "Despite the fact that",
+    "the flat",
+    "was small,",
+    "the rent",
+    "was high."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Because"
+   ],
+   "hint": "\"Despite the fact that\" is followed by a full clause with a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_051",
+   "connector": "despite the fact that",
+   "function": "Concession",
+   "sentences": [
+    "Junk food is unhealthy.",
+    "Many people eat it."
+   ],
+   "answer": [
+    "Many people",
+    "eat junk food",
+    "despite the fact that",
+    "it is unhealthy."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "because"
+   ],
+   "hint": "\"Despite the fact that\" is followed by a full clause with a subject and verb.",
+   "level": 2
+  },
+  {
+   "id": "concession_052",
+   "connector": "despite the fact that",
+   "function": "Concession",
+   "sentences": [
+    "The economy has grown.",
+    "Wages have not risen."
+   ],
+   "answer": [
+    "Despite the fact that",
+    "the economy",
+    "has grown,",
+    "wages",
+    "have not risen."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Because"
+   ],
+   "hint": "\"Despite the fact that\" is followed by a full clause with a subject and verb.",
+   "level": 3
+  },
+  {
+   "id": "concession_053",
+   "connector": "despite the fact that",
+   "function": "Concession",
+   "sentences": [
+    "It was late in the evening.",
+    "The shop was still open."
+   ],
+   "answer": [
+    "Despite the fact that",
+    "it was late,",
+    "the shop",
+    "was still open."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Because"
+   ],
+   "hint": "\"Despite the fact that\" is followed by a full clause with a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_054",
+   "connector": "despite the fact that",
+   "function": "Concession",
+   "sentences": [
+    "Many children spend hours online.",
+    "Their parents set limits."
+   ],
+   "answer": [
+    "Many children",
+    "spend hours online",
+    "despite the fact that",
+    "their parents",
+    "set limits."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "because"
+   ],
+   "hint": "\"Despite the fact that\" is followed by a full clause with a subject and verb.",
+   "level": 2
+  },
+  {
+   "id": "concession_055",
+   "connector": "despite the fact that",
+   "function": "Concession",
+   "sentences": [
+    "Big cities are crowded.",
+    "More people move there each year."
+   ],
+   "answer": [
+    "Despite the fact that",
+    "big cities",
+    "are crowded,",
+    "more people",
+    "move there each year."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Because"
+   ],
+   "hint": "\"Despite the fact that\" is followed by a full clause with a subject and verb.",
+   "level": 3
+  },
+  {
+   "id": "concession_056",
+   "connector": "despite the fact that",
+   "function": "Concession",
+   "sentences": [
+    "Many critics disliked the film.",
+    "It won several awards."
+   ],
+   "answer": [
+    "The film",
+    "won several awards",
+    "despite the fact that",
+    "many critics",
+    "disliked it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "because"
+   ],
+   "hint": "\"Despite the fact that\" is followed by a full clause with a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_057",
+   "connector": "despite the fact that",
+   "function": "Concession",
+   "sentences": [
+    "Recycling at home is easy.",
+    "Many households do not recycle."
+   ],
+   "answer": [
+    "Despite the fact that",
+    "recycling at home",
+    "is easy,",
+    "many households",
+    "do not recycle."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Because"
+   ],
+   "hint": "\"Despite the fact that\" is followed by a full clause with a subject and verb.",
+   "level": 1
+  },
+  {
+   "id": "concession_058",
+   "connector": "admittedly",
+   "function": "Concession",
+   "sentences": [
+    "City life is stressful.",
+    "It offers more opportunities."
+   ],
+   "answer": [
+    "Admittedly,",
+    "city life",
+    "is stressful,",
+    "but",
+    "it offers more opportunities."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "unless"
+   ],
+   "hint": "\"Admittedly\" accepts a point first; a contrast word then introduces your stronger point.",
+   "level": 2
+  },
+  {
+   "id": "concession_059",
+   "connector": "admittedly",
+   "function": "Concession",
+   "sentences": [
+    "Online courses lack face-to-face contact.",
+    "They are very flexible."
+   ],
+   "answer": [
+    "Admittedly,",
+    "online courses",
+    "lack face-to-face contact,",
+    "but",
+    "they are",
+    "very flexible."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "therefore"
+   ],
+   "hint": "\"Admittedly\" accepts a point first; a contrast word then introduces your stronger point.",
+   "level": 2
+  },
+  {
+   "id": "concession_060",
+   "connector": "admittedly",
+   "function": "Concession",
+   "sentences": [
+    "Nuclear power carries some risks.",
+    "It produces little carbon."
+   ],
+   "answer": [
+    "Admittedly,",
+    "nuclear power",
+    "carries some risks,",
+    "but",
+    "it produces",
+    "little carbon."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Consequently,",
+    "so"
+   ],
+   "hint": "\"Admittedly\" accepts a point first; a contrast word then introduces your stronger point.",
+   "level": 3
+  },
+  {
+   "id": "concession_061",
+   "connector": "admittedly",
+   "function": "Concession",
+   "sentences": [
+    "The flight was long.",
+    "The service on board was excellent."
+   ],
+   "answer": [
+    "Admittedly,",
+    "the flight",
+    "was long,",
+    "but",
+    "the service was excellent."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Admittedly\" accepts a point first; a contrast word then introduces your stronger point.",
+   "level": 1
+  },
+  {
+   "id": "concession_062",
+   "connector": "admittedly",
+   "function": "Concession",
+   "sentences": [
+    "Homework can be boring.",
+    "It helps pupils remember lessons."
+   ],
+   "answer": [
+    "Admittedly,",
+    "homework",
+    "can be boring,",
+    "but",
+    "it helps",
+    "pupils remember lessons."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Admittedly\" accepts a point first; a contrast word then introduces your stronger point.",
+   "level": 2
+  },
+  {
+   "id": "concession_063",
+   "connector": "admittedly",
+   "function": "Concession",
+   "sentences": [
+    "Tourism creates many jobs.",
+    "Many of these jobs are low-paid."
+   ],
+   "answer": [
+    "Admittedly,",
+    "tourism",
+    "creates many jobs,",
+    "but",
+    "many of them",
+    "are low-paid."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Consequently,",
+    "because"
+   ],
+   "hint": "\"Admittedly\" accepts a point first; a contrast word then introduces your stronger point.",
+   "level": 3
+  },
+  {
+   "id": "concession_064",
+   "connector": "admittedly",
+   "function": "Concession",
+   "sentences": [
+    "Team sports take a lot of time.",
+    "They build valuable social skills."
+   ],
+   "answer": [
+    "Admittedly,",
+    "team sports",
+    "take a lot of time,",
+    "but",
+    "they build",
+    "valuable social skills."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "therefore"
+   ],
+   "hint": "\"Admittedly\" accepts a point first; a contrast word then introduces your stronger point.",
+   "level": 1
+  },
+  {
+   "id": "concession_065",
+   "connector": "admittedly",
+   "function": "Concession",
+   "sentences": [
+    "The evidence is limited.",
+    "The early results look promising."
+   ],
+   "answer": [
+    "Admittedly,",
+    "the evidence",
+    "is limited,",
+    "but",
+    "the early results",
+    "look promising."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Therefore,",
+    "so"
+   ],
+   "hint": "\"Admittedly\" accepts a point first; a contrast word then introduces your stronger point.",
+   "level": 2
+  },
+  {
+   "id": "concession_066",
+   "connector": "granted",
+   "function": "Concession",
+   "sentences": [
+    "Private cars are convenient.",
+    "They cause traffic jams."
+   ],
+   "answer": [
+    "Granted,",
+    "private cars",
+    "are convenient,",
+    "but",
+    "they cause",
+    "traffic jams."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Granted\" at the start admits a point; the stronger opposing point comes next.",
+   "level": 1
+  },
+  {
+   "id": "concession_067",
+   "connector": "granted",
+   "function": "Concession",
+   "sentences": [
+    "Exams cause stress for students.",
+    "They measure knowledge fairly."
+   ],
+   "answer": [
+    "Granted,",
+    "exams",
+    "cause stress for students,",
+    "but",
+    "they measure",
+    "knowledge fairly."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Therefore,",
+    "so"
+   ],
+   "hint": "\"Granted\" at the start admits a point; the stronger opposing point comes next.",
+   "level": 3
+  },
+  {
+   "id": "concession_068",
+   "connector": "granted",
+   "function": "Concession",
+   "sentences": [
+    "Fast fashion is cheap.",
+    "It creates huge amounts of waste."
+   ],
+   "answer": [
+    "Granted,",
+    "fast fashion",
+    "is cheap,",
+    "but",
+    "it creates",
+    "huge amounts of waste."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "\"Granted\" at the start admits a point; the stronger opposing point comes next.",
+   "level": 2
+  },
+  {
+   "id": "concession_069",
+   "connector": "granted",
+   "function": "Concession",
+   "sentences": [
+    "The course is short.",
+    "It covers the basics."
+   ],
+   "answer": [
+    "Granted,",
+    "the course",
+    "is short,",
+    "but",
+    "it covers",
+    "the basics."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "unless"
+   ],
+   "hint": "\"Granted\" at the start admits a point; the stronger opposing point comes next.",
+   "level": 1
+  },
+  {
+   "id": "concession_070",
+   "connector": "granted",
+   "function": "Concession",
+   "sentences": [
+    "Robots may replace some jobs.",
+    "They will create new ones."
+   ],
+   "answer": [
+    "Granted,",
+    "robots",
+    "may replace some jobs,",
+    "but",
+    "they will create",
+    "new ones."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Consequently,",
+    "because"
+   ],
+   "hint": "\"Granted\" at the start admits a point; the stronger opposing point comes next.",
+   "level": 3
+  },
+  {
+   "id": "concession_071",
+   "connector": "granted",
+   "function": "Concession",
+   "sentences": [
+    "Living alone can be lonely.",
+    "It offers great freedom."
+   ],
+   "answer": [
+    "Granted,",
+    "living alone",
+    "can be lonely,",
+    "but",
+    "it offers",
+    "great freedom."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "therefore"
+   ],
+   "hint": "\"Granted\" at the start admits a point; the stronger opposing point comes next.",
+   "level": 1
+  },
+  {
+   "id": "concession_072",
+   "connector": "granted",
+   "function": "Concession",
+   "sentences": [
+    "Organic food usually costs more.",
+    "It contains fewer pesticides."
+   ],
+   "answer": [
+    "Granted,",
+    "organic food",
+    "usually costs more,",
+    "but",
+    "it contains",
+    "fewer pesticides."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "unless"
+   ],
+   "hint": "\"Granted\" at the start admits a point; the stronger opposing point comes next.",
+   "level": 2
+  },
+  {
+   "id": "concession_073",
+   "connector": "it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Smartphones are very useful.",
+    "They can be addictive."
+   ],
+   "answer": [
+    "It is true that",
+    "smartphones",
+    "are very useful,",
+    "but",
+    "they can be addictive."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "Admit a point with \"It is true that\", then give the stronger counterpoint.",
+   "level": 1
+  },
+  {
+   "id": "concession_074",
+   "connector": "it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Zoos protect rare animals.",
+    "Many animals suffer in captivity."
+   ],
+   "answer": [
+    "It is true that",
+    "zoos",
+    "protect rare animals,",
+    "but",
+    "many animals",
+    "suffer in captivity."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "therefore"
+   ],
+   "hint": "Admit a point with \"It is true that\", then give the stronger counterpoint.",
+   "level": 2
+  },
+  {
+   "id": "concession_075",
+   "connector": "it is true that",
+   "function": "Concession",
+   "sentences": [
+    "A university education is expensive.",
+    "Graduates often earn more."
+   ],
+   "answer": [
+    "It is true that",
+    "a university education",
+    "is expensive,",
+    "but",
+    "graduates",
+    "often earn more."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "unless"
+   ],
+   "hint": "Admit a point with \"It is true that\", then give the stronger counterpoint.",
+   "level": 1
+  },
+  {
+   "id": "concession_076",
+   "connector": "it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Modern technology saves time.",
+    "It creates new pressures."
+   ],
+   "answer": [
+    "It is true that",
+    "modern technology",
+    "saves time,",
+    "but",
+    "it creates",
+    "new pressures."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Therefore,",
+    "so"
+   ],
+   "hint": "Admit a point with \"It is true that\", then give the stronger counterpoint.",
+   "level": 2
+  },
+  {
+   "id": "concession_077",
+   "connector": "it is true that",
+   "function": "Concession",
+   "sentences": [
+    "The city is expensive.",
+    "Wages are higher there."
+   ],
+   "answer": [
+    "It is true that",
+    "the city",
+    "is expensive,",
+    "but",
+    "wages",
+    "are higher there."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "unless"
+   ],
+   "hint": "Admit a point with \"It is true that\", then give the stronger counterpoint.",
+   "level": 2
+  },
+  {
+   "id": "concession_078",
+   "connector": "it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Advertising gives consumers useful information.",
+    "It can also mislead consumers."
+   ],
+   "answer": [
+    "It is true that",
+    "advertising",
+    "gives useful information,",
+    "but",
+    "it can also mislead consumers."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Therefore,",
+    "so"
+   ],
+   "hint": "Admit a point with \"It is true that\", then give the stronger counterpoint.",
+   "level": 2
+  },
+  {
+   "id": "concession_079",
+   "connector": "it is true that",
+   "function": "Concession",
+   "sentences": [
+    "The gym is far away.",
+    "The bus stops right outside."
+   ],
+   "answer": [
+    "It is true that",
+    "the gym",
+    "is far away,",
+    "but",
+    "the bus",
+    "stops right outside."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "so",
+    "because"
+   ],
+   "hint": "Admit a point with \"It is true that\", then give the stronger counterpoint.",
+   "level": 1
+  },
+  {
+   "id": "concession_080",
+   "connector": "while it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Regular exercise is healthy.",
+    "Too much exercise can cause injury."
+   ],
+   "answer": [
+    "While it is true that",
+    "regular exercise",
+    "is healthy,",
+    "too much",
+    "can cause injury."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "Admit a point in the \"while\" clause, add a comma, then make your main point.",
+   "level": 2
+  },
+  {
+   "id": "concession_081",
+   "connector": "while it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Tourism brings income to a region.",
+    "It can damage local culture."
+   ],
+   "answer": [
+    "While it is true that",
+    "tourism",
+    "brings income to a region,",
+    "it can damage",
+    "local culture."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because",
+    "but"
+   ],
+   "hint": "Admit a point in the \"while\" clause, add a comma, then make your main point.",
+   "level": 3
+  },
+  {
+   "id": "concession_082",
+   "connector": "while it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Air travel is fast.",
+    "It produces high emissions."
+   ],
+   "answer": [
+    "While it is true that",
+    "air travel",
+    "is fast,",
+    "it produces",
+    "high emissions."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "Admit a point in the \"while\" clause, add a comma, then make your main point.",
+   "level": 1
+  },
+  {
+   "id": "concession_083",
+   "connector": "while it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Exam results have improved.",
+    "Many schools still lack resources."
+   ],
+   "answer": [
+    "While it is true that",
+    "exam results",
+    "have improved,",
+    "many schools",
+    "still lack resources."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because",
+    "but"
+   ],
+   "hint": "Admit a point in the \"while\" clause, add a comma, then make your main point.",
+   "level": 2
+  },
+  {
+   "id": "concession_084",
+   "connector": "while it is true that",
+   "function": "Concession",
+   "sentences": [
+    "The internet spreads knowledge.",
+    "It also spreads misinformation."
+   ],
+   "answer": [
+    "While it is true that",
+    "the internet",
+    "spreads knowledge,",
+    "it also spreads",
+    "misinformation."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "Admit a point in the \"while\" clause, add a comma, then make your main point.",
+   "level": 2
+  },
+  {
+   "id": "concession_085",
+   "connector": "while it is true that",
+   "function": "Concession",
+   "sentences": [
+    "Ageing populations raise health costs.",
+    "Older people contribute greatly to society."
+   ],
+   "answer": [
+    "While it is true that",
+    "ageing populations",
+    "raise health costs,",
+    "older people contribute",
+    "greatly to society."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because",
+    "but"
+   ],
+   "hint": "Admit a point in the \"while\" clause, add a comma, then make your main point.",
+   "level": 3
+  },
+  {
+   "id": "concession_086",
+   "connector": "while it is true that",
+   "function": "Concession",
+   "sentences": [
+    "The test was hard.",
+    "Everyone in the class passed it."
+   ],
+   "answer": [
+    "While it is true that",
+    "the test",
+    "was hard,",
+    "everyone in the class",
+    "passed it."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "Admit a point in the \"while\" clause, add a comma, then make your main point.",
+   "level": 1
+  },
+  {
+   "id": "concession_087",
+   "connector": "even if",
+   "function": "Concession",
+   "sentences": [
+    "Bus fares might become free.",
+    "Some people will still drive."
+   ],
+   "answer": [
+    "Even if",
+    "bus fares",
+    "become free,",
+    "some people",
+    "will still drive."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because",
+    "so"
+   ],
+   "hint": "\"Even if\" introduces a possible situation that will not change the result.",
+   "level": 2
+  },
+  {
+   "id": "concession_088",
+   "connector": "even if",
+   "function": "Concession",
+   "sentences": [
+    "Robots might do most jobs.",
+    "People will still need meaningful work."
+   ],
+   "answer": [
+    "Even if",
+    "robots do",
+    "most jobs,",
+    "people will still need",
+    "meaningful work."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Because",
+    "so"
+   ],
+   "hint": "\"Even if\" introduces a possible situation that will not change the result.",
+   "level": 3
+  },
+  {
+   "id": "concession_089",
+   "connector": "even if",
+   "function": "Concession",
+   "sentences": [
+    "It might rain tomorrow.",
+    "The match will go ahead."
+   ],
+   "answer": [
+    "The match",
+    "will go ahead",
+    "even if",
+    "it rains tomorrow."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "because",
+    "so"
+   ],
+   "hint": "\"Even if\" introduces a possible situation that will not change the result.",
+   "level": 1
+  },
+  {
+   "id": "concession_090",
+   "connector": "even if",
+   "function": "Concession",
+   "sentences": [
+    "Petrol prices might rise further.",
+    "Many drivers will keep driving."
+   ],
+   "answer": [
+    "Even if",
+    "petrol prices",
+    "rise further,",
+    "many drivers",
+    "will keep driving."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "but",
+    "so"
+   ],
+   "hint": "\"Even if\" introduces a possible situation that will not change the result.",
+   "level": 2
+  }
+ ]
+}

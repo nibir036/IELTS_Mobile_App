@@ -287,12 +287,12 @@ class _RoundRow extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: t.primary,
+                  color: t.peach,
                   borderRadius: BorderRadius.circular(999),
                 ),
-                child: Text(
+                child: const Text(
                   'Up next',
-                  style: TextStyle(fontSize: 11, fontWeight: FontWeight.w500, color: t.onPrimary),
+                  style: TextStyle(fontSize: 11, fontWeight: FontWeight.w600, color: kOnPeach),
                 ),
               ),
             Icon(AppIcons.chevronRight, size: 18, color: t.textMuted),

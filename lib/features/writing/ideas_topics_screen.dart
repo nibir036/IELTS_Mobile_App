@@ -196,7 +196,7 @@ class _IdeasTopicsScreenState extends State<IdeasTopicsScreen> {
             padding: const EdgeInsets.all(18),
             onTap: () => _openIdeas(
               label: '$topic · idea set',
-              title: '$topic — $arguments arguments both ways',
+              title: '$topic - $arguments arguments both ways',
               ideas: featuredIdeas,
             ),
             child: Column(
@@ -206,14 +206,14 @@ class _IdeasTopicsScreenState extends State<IdeasTopicsScreen> {
                 DefaultTextStyle.merge(
                   style: TextStyle(
                     fontSize: 12,
-                    color: t.isNight ? t.heroText : t.textSoft,
+                    color: t.heroMuted,
                   ),
                   child: Row(
                     children: [
                       Icon(
                         AppIcons.hash,
                         size: 14,
-                        color: t.isNight ? t.heroText : t.textSoft,
+                        color: t.peach,
                       ),
                       const SizedBox(width: 5),
                       Expanded(child: Text(topic)),
@@ -222,7 +222,7 @@ class _IdeasTopicsScreenState extends State<IdeasTopicsScreen> {
                   ),
                 ),
                 Text(
-                  '$topic — $arguments arguments both ways',
+                  '$topic - $arguments arguments both ways',
                   style: TextStyle(
                     fontSize: 20,
                     height: 1.25,
@@ -237,11 +237,11 @@ class _IdeasTopicsScreenState extends State<IdeasTopicsScreen> {
                       'Open idea set',
                       style: TextStyle(
                         fontSize: 14,
-                        fontWeight: FontWeight.w500,
-                        color: t.heroText,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
                       ),
                     ),
-                    Icon(AppIcons.forward, size: 16, color: t.heroText),
+                    Icon(AppIcons.forward, size: 16, color: t.peach),
                   ],
                 ),
               ],
@@ -350,7 +350,7 @@ class _CategoryChip extends StatelessWidget {
                     fontSize: 11,
                     color: selected
                         ? (t.isNight
-                            ? const Color(0xFF5A5446)
+                            ? const Color(0xFF5E5056)
                             : const Color(0xFF625C66))
                         : t.textMuted,
                   ),
@@ -460,7 +460,7 @@ class _IdeaRow extends StatelessWidget {
 }
 
 /// Idea set sheet: question (if any), arguments for / against, vocabulary,
-/// and — for a single prompt — "Write this essay" / "Sample answer".
+/// and - for a single prompt -"Write this essay" / "Sample answer".
 class _IdeasSheet extends StatelessWidget {
   const _IdeasSheet({
     required this.label,

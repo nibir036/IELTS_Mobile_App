@@ -547,9 +547,9 @@ class _LineView extends StatelessWidget {
     }
     final sorted = cuts.toList()..sort();
 
-    final underline = current ? t.heroText : const Color(0xFFF6ECC8);
-    final tagBg = current ? kInk : t.primary;
-    final tagFg = current ? kCream : t.onPrimary;
+    final underline = current ? t.heroText : const Color(0xFFFFC2B0);
+    final tagBg = current ? t.peach : t.primary;
+    final tagFg = current ? kOnPeach : t.onPrimary;
 
     final out = <InlineSpan>[];
     for (var i = 0; i < sorted.length; i++) {

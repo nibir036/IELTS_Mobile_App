@@ -266,7 +266,7 @@ class _SpeakingSamplesScreenState extends State<SpeakingSamplesScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 8,
                 children: [
-                  Padding(padding: const EdgeInsets.only(top: 8), child: Dot(size: 5, color: t.heroText)),
+                  Padding(padding: const EdgeInsets.only(top: 8), child: Dot(size: 5, color: t.peach)),
                   Expanded(child: Text(b, style: TextStyle(fontSize: 15, color: t.heroText))),
                 ],
               ),

@@ -317,12 +317,12 @@ class _MockAnswersScreenState extends State<MockAnswersScreen> {
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                 decoration: BoxDecoration(
-                  color: t.heroChip,
+                  gradient: kPeachGradient,
                   borderRadius: BorderRadius.circular(999),
                 ),
                 child: Text(
                   'Band ${band == null ? '–' : mockBand(band)}',
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: t.heroText),
+                  style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: kOnPeach),
                 ),
               ),
             ],

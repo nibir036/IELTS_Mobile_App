@@ -330,8 +330,8 @@ class _SpeakingRecordingScreenState extends State<SpeakingRecordingScreen> {
                 size: 40,
                 radius: 14,
                 fontSize: 13,
-                bg: t.primary,
-                fg: t.onPrimary,
+                bg: t.peach,
+                fg: kOnPeach,
               ),
               Expanded(
                 child: Text(
@@ -424,19 +424,19 @@ class _SpeakingRecordingScreenState extends State<SpeakingRecordingScreen> {
               3,
               CaptionedButton(
                 size: 96,
-                bg: t.primary,
+                bg: t.peach,
                 caption: 'Stop & save',
                 captionColor: t.text,
                 semanticLabel: 'Stop recording',
                 shadow: const [
-                  BoxShadow(color: Color(0x14F6ECC8), spreadRadius: 10),
+                  BoxShadow(color: Color(0x2EFF9C82), spreadRadius: 10),
                 ],
                 onTap: _stop,
                 child: Container(
                   width: 28,
                   height: 28,
                   decoration: BoxDecoration(
-                    color: t.onPrimary,
+                    color: kOnPeach,
                     borderRadius: BorderRadius.circular(8),
                   ),
                 ),

@@ -1,3 +1,5 @@
+import 'dart:ui' show ImageFilter;
+
 import 'package:flutter/gestures.dart' show PointerDeviceKind;
 import 'package:flutter/material.dart';
 
@@ -149,23 +151,8 @@ class _NavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    return Container(
-      height: 68,
-      padding: const EdgeInsets.symmetric(horizontal: 8),
-      decoration: BoxDecoration(
-        color: t.raised,
-        borderRadius: BorderRadius.circular(999),
-        border: Border.all(color: t.border),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: t.isNight ? 0.4 : 0.06),
-            blurRadius: 24,
-            offset: const Offset(0, 8),
-          ),
-        ],
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    final row = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           for (var i = 0; i < _items.length; i++)
             Tooltip(
@@ -205,6 +192,34 @@ class _NavBar extends StatelessWidget {
               ),
             ),
         ],
+    );
+    // Frosted glass pill: blurs the page scrolling underneath.
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(999),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: t.isNight ? 0.4 : 0.07),
+            blurRadius: 24,
+            offset: const Offset(0, 8),
+          ),
+        ],
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(999),
+        child: BackdropFilter(
+          filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+          child: Container(
+            height: 68,
+            padding: const EdgeInsets.symmetric(horizontal: 8),
+            decoration: BoxDecoration(
+              color: t.raised,
+              borderRadius: BorderRadius.circular(999),
+              border: Border.all(color: t.glassBorder),
+            ),
+            child: row,
+          ),
+        ),
       ),
     );
   }

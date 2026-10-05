@@ -49,7 +49,7 @@ class _SpeakingPart13ScreenState extends State<SpeakingPart13Screen> {
 
   final VoiceRecorder _rec = VoiceRecorder();
 
-  /// True after "Practise without recording" (no mic) — simulated timer.
+  /// True after "Practise without recording" (no mic) - simulated timer.
   bool _simulated = false;
   bool _busy = false;
 
@@ -630,8 +630,8 @@ class _SpeakingPart13ScreenState extends State<SpeakingPart13Screen> {
                     size: 36,
                     radius: 12,
                     fontSize: 14,
-                    bg: t.heroText,
-                    fg: const Color(0xFFF6ECC8),
+                    bg: t.peach,
+                    fg: kOnPeach,
                   ),
                   Expanded(
                     child: Column(

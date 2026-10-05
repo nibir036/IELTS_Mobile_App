@@ -154,7 +154,6 @@ class WritingBandReportScreen extends StatelessWidget {
         HeroCard(
           radius: 30,
           padding: const EdgeInsets.all(20),
-          gradient: t.isNight ? null : wGradient(0xFFF7C3D4, 0xFFFBE6EE),
           child: Row(
             spacing: 16,
             children: [
@@ -190,7 +189,7 @@ class WritingBandReportScreen extends StatelessWidget {
                 width: 84,
                 height: 84,
                 decoration: BoxDecoration(
-                  color: const Color(0xFF151515),
+                  gradient: kPeachGradient,
                   borderRadius: BorderRadius.circular(26),
                 ),
                 child: Column(
@@ -200,14 +199,15 @@ class WritingBandReportScreen extends StatelessWidget {
                       'Target',
                       style: TextStyle(
                         fontSize: 12,
-                        color: wc(t, 0xFFBDB6BB, 0xFF9A9A9A),
+                        color: kOnPeach.withValues(alpha: 0.7),
                       ),
                     ),
                     Text(
                       Store.formatBand(target),
                       style: const TextStyle(
                         fontSize: 26,
-                        color: Color(0xFFFFFFFF),
+                        fontWeight: FontWeight.w500,
+                        color: kOnPeach,
                       ),
                     ),
                   ],
@@ -260,14 +260,15 @@ class WritingBandReportScreen extends StatelessWidget {
                       height: 22,
                       alignment: Alignment.center,
                       decoration: const BoxDecoration(
-                        color: Color(0xFFDCDDFA),
+                        gradient: kPeachGradient,
                         shape: BoxShape.circle,
                       ),
                       child: Text(
                         '${i + 1}',
                         style: const TextStyle(
                           fontSize: 12,
-                          color: Color(0xFF151515),
+                          fontWeight: FontWeight.w600,
+                          color: kOnPeach,
                         ),
                       ),
                     ),
@@ -361,7 +362,7 @@ class _CriterionCard extends StatelessWidget {
           ProgressBar(
             value: c.d('progress'),
             height: 6,
-            track: wc(t, 0xFFF1E6EC, 0xFF1F1F1F),
+            track: wc(t, 0xFFF6E8E4, 0xFF1C2030),
             fill: c.b('flag') ? t.alert : t.fill,
           ),
           Text(

@@ -71,7 +71,7 @@ class MyTextBubble extends StatelessWidget {
               ChatBubbleHeader(
                 name: 'You',
                 time: data.s('time'),
-                color: t.isNight ? t.heroMuted : const Color(0xFFBDB6BB),
+                color: t.isNight ? t.onPrimary.withValues(alpha: 0.6) : const Color(0xFFBDB6BB),
               ),
               Text(
                 data.s('text'),
@@ -209,13 +209,6 @@ class SessionCard extends StatelessWidget {
       child: HeroCard(
         radius: 22,
         padding: const EdgeInsets.all(14),
-        gradient: t.isNight
-            ? null
-            : const LinearGradient(
-                begin: Alignment(-0.5, -0.87),
-                end: Alignment(0.5, 0.87),
-                colors: [Color(0xFFF7C6D6), Color(0xFFFBE7EE)],
-              ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           spacing: 10,
@@ -230,8 +223,9 @@ class SessionCard extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Text(
-                        data.s('label'),
-                        style: TextStyle(fontSize: 12, color: t.heroMuted),
+                        data.s('label').toUpperCase(),
+                        style: TextStyle(
+                            fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
                       ),
                       Text(
                         data.s('title'),
@@ -255,19 +249,16 @@ class SessionCard extends StatelessWidget {
                   size: 28,
                   overlap: 8,
                   fontSize: 10,
-                  borderColor: t.isNight
-                      ? ResPalette.creamBorder
-                      : const Color(0xFFFBE7EE),
+                  borderColor: t.heroDark,
                 ),
               ],
             ),
             PrimaryButton(
               label: joined ? 'Joined' : 'Join room',
               height: 44,
-              radius: 14,
               fontSize: 14,
-              bg: ResPalette.ink,
-              fg: ResPalette.white,
+              bg: joined ? t.heroChip : null,
+              fg: joined ? t.heroText : null,
               trailing: joined ? AppIcons.check : AppIcons.forward,
               onTap: onJoin,
             ),

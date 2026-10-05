@@ -109,10 +109,10 @@ class _WritingLineReviewScreenState extends State<WritingLineReviewScreen> {
     Color? underline;
     switch (mark) {
       case 'strong':
-        bg = const Color(0xFFF7EDC4);
+        bg = const Color(0xFFFFC9B8);
       case 'vocab':
-        bg = const Color(0xFFE4E5FC);
-        underline = t.isNight ? const Color(0xFFFFFFFF) : const Color(0xFF9FA2EE);
+        bg = const Color(0xFFE2EAFF);
+        underline = t.isNight ? const Color(0xFFFFFFFF) : const Color(0xFF8FA9F5);
       default:
         bg = const Color(0xFFFCE0DA);
         underline = t.isNight
@@ -120,7 +120,7 @@ class _WritingLineReviewScreenState extends State<WritingLineReviewScreen> {
             : (selected ? const Color(0xFFD9503A) : const Color(0xFFF29A8A));
     }
     if (accepted) {
-      bg = const Color(0xFFF7EDC4);
+      bg = const Color(0xFFFFC9B8);
       underline = null;
     }
 
@@ -198,7 +198,7 @@ class _WritingLineReviewScreenState extends State<WritingLineReviewScreen> {
 
     return Scaffold(
       backgroundColor: t.bg,
-      body: Stack(
+      body: BackOnScrollUp(child: Stack(
         children: [
           SafeArea(
             bottom: false,
@@ -215,15 +215,15 @@ class _WritingLineReviewScreenState extends State<WritingLineReviewScreen> {
                       padding: const EdgeInsets.symmetric(horizontal: 14),
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: t.primary,
+                        gradient: kPeachGradient,
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: Text(
                         Store.formatBand(attempt.band),
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 15,
-                          fontWeight: FontWeight.w500,
-                          color: t.onPrimary,
+                          fontWeight: FontWeight.w600,
+                          color: kOnPeach,
                         ),
                       ),
                     ),
@@ -279,7 +279,7 @@ class _WritingLineReviewScreenState extends State<WritingLineReviewScreen> {
             ),
           ),
         ],
-      ),
+      )),
     );
   }
 }
@@ -295,9 +295,9 @@ class _CountChip extends StatelessWidget {
     Color sq;
     switch (c.s('type')) {
       case 'vocab':
-        sq = const Color(0xFF9FA2EE);
+        sq = const Color(0xFF8FA9F5);
       case 'strong':
-        sq = const Color(0xFFE8D48A);
+        sq = const Color(0xFFFFB08F);
       default:
         sq = const Color(0xFFF29A8A);
     }
@@ -376,7 +376,7 @@ class _IssueSheet extends StatelessWidget {
                 width: 44,
                 height: 5,
                 decoration: BoxDecoration(
-                  color: wc(t, 0xFFE3D6DE, 0xFF1F1F1F),
+                  color: wc(t, 0xFFEBDAD4, 0xFF1C2030),
                   borderRadius: BorderRadius.circular(3),
                 ),
               ),
@@ -389,7 +389,7 @@ class _IssueSheet extends StatelessWidget {
                   height: 36,
                   decoration: BoxDecoration(
                     color: isVocab
-                        ? const Color(0xFFE4E5FC)
+                        ? const Color(0xFFE2EAFF)
                         : const Color(0xFFFCE0DA),
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -397,7 +397,7 @@ class _IssueSheet extends StatelessWidget {
                     AppIcons.sparkle,
                     size: 18,
                     color: isVocab
-                        ? const Color(0xFF3B3C6B)
+                        ? const Color(0xFF2F4FC2)
                         : const Color(0xFFB63A26),
                   ),
                 ),
@@ -443,7 +443,7 @@ class _IssueSheet extends StatelessWidget {
             Container(
               padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
               decoration: BoxDecoration(
-                color: wc(t, 0xFFF8F3F6, 0xFF1F1F1F),
+                color: wc(t, 0xFFFCF6F4, 0xFF1C2030),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Column(

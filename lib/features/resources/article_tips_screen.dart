@@ -283,13 +283,6 @@ class _ArticleTipsScreenState extends State<ArticleTipsScreen> with ContentLangL
           HeroCard(
             radius: 20,
             padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
-            gradient: t.isNight
-                ? null
-                : const LinearGradient(
-                    begin: Alignment(-0.7, -0.7),
-                    end: Alignment(0.7, 0.7),
-                    colors: [Color(0xFFEEEFFD), Color(0xFFF9D6E2)],
-                  ),
             onTap: () {
               final route = resRoute(tryIt.s('target'));
               if (route == null) {
@@ -303,7 +296,7 @@ class _ArticleTipsScreenState extends State<ArticleTipsScreen> with ContentLangL
               crossAxisAlignment: CrossAxisAlignment.start,
               spacing: 10,
               children: [
-                Icon(AppIcons.bulb, size: 18, color: t.heroText),
+                Icon(AppIcons.bulb, size: 18, color: t.peach),
                 Expanded(
                   child: Text(
                     tryIt.s('text'),

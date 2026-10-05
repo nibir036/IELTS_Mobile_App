@@ -191,7 +191,7 @@ class _Filter extends StatelessWidget {
                     fontSize: 12,
                     color: selected
                         ? (t.isNight
-                            ? const Color(0xFF5A5446)
+                            ? const Color(0xFF5E5056)
                             : const Color(0xFFBDB6BB))
                         : t.textMuted,
                   ),
@@ -235,13 +235,6 @@ class _StreakCard extends StatelessWidget {
     return HeroCard(
       radius: 26,
       padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
-      gradient: t.isNight
-          ? null
-          : const LinearGradient(
-              begin: Alignment(-0.5, -0.87),
-              end: Alignment(0.5, 0.87),
-              colors: [Color(0xFFD6D8FA), Color(0xFFEEEFFD)],
-            ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         spacing: 12,
@@ -272,17 +265,13 @@ class _StreakCard extends StatelessWidget {
                 width: 44,
                 height: 44,
                 decoration: BoxDecoration(
-                  color: t.isNight
-                      ? const Color(0xFFFFF8E2)
-                      : const Color(0xFFFFFFFF),
+                  gradient: kPeachGradient,
                   borderRadius: BorderRadius.circular(14),
                 ),
-                child: Icon(
+                child: const Icon(
                   AppIcons.fire,
                   size: 22,
-                  color: t.isNight
-                      ? const Color(0xFFB63A26)
-                      : const Color(0xFFD9612E),
+                  color: kOnPeach,
                 ),
               ),
             ],
@@ -296,14 +285,12 @@ class _StreakCard extends StatelessWidget {
                     spacing: 4,
                     children: [
                       if (d.b('today') && !d.b('done'))
-                        DashedRRect(color: t.heroText)
+                        DashedRRect(color: t.peach)
                       else
                         Container(
                           height: 34,
                           decoration: BoxDecoration(
-                            color: d.b('done')
-                                ? t.heroText
-                                : t.heroText.withValues(alpha: 0.12),
+                            color: d.b('done') ? t.peach : t.heroChip,
                             borderRadius: BorderRadius.circular(12),
                           ),
                         ),

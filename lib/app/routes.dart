@@ -1,5 +1,5 @@
 /// Every screen in the canvas has a route here. Codes (A1 … H11) match the
-/// artboard names on the "IELTS Platform — Day & Night" canvas.
+/// artboard names on the "IELTS Platform - Day & Night" canvas.
 ///
 /// Navigate with `context.push(Routes.x)` (see nav.dart).
 class Routes {
@@ -112,6 +112,7 @@ class Routes {
   static const writingQuestions = '/writing/questions'; // {'task': 1|2}
   static const speakingQuestions = '/speaking/questions'; // {'part': 1|2|3}
   static const certificates = '/home/certificates';
+  static const notificationSettings = '/home/notification-settings';
   static const legal = '/legal'; // args {'doc': 'terms' | 'privacy'}
 
   // Phase 4
@@ -120,6 +121,12 @@ class Routes {
   static const mockAnswers = '/mock/answers'; // args {'attemptId': …}
   static const plans = '/home/plans';
 
+  // Personal study plan
+  static const studyPlan = '/home/study-plan';
+  static const studyPlanSetup = '/home/study-plan/setup'; // args {'edit': true} to change the current plan
+  static const studyPlanPreview = '/home/study-plan/preview'; // args {'inputs': {...}}
+  static const studyPlanQuickCheck = '/home/study-plan/quick-check'; // args {'modules': [...]}
+
   // Reading question bank
   static const readingBank = '/reading/bank'; // question types + short tests
   static const readingType = '/reading/bank/type'; // args {'type': 'headings'}
@@ -127,6 +134,16 @@ class Routes {
   static const readingPracticeTests = '/reading/bank/tests';
   static const readingGuide = '/reading/guide'; // args {'chapter': id} (none = contents)
   static const writingGuide = '/writing/guide'; // args {'chapter': id} (none = contents)
+
+  // Bite-sized courses (stages → lessons → steps)
+  static const course = '/course'; // args {'module': 'writing'}
+  static const writingCourse = '/course/writing';
+  static const speakingCourse = '/course/speaking';
+  static const readingCourse = '/course/reading';
+  static const listeningCourse = '/course/listening';
+  static const grammarCourse = '/course/grammar';
+  static const vocabCourse = '/course/vocab';
+  static const lesson = '/course/lesson'; // args {'lesson': id}
   static const speakingGuide = '/speaking/guide'; // args {'chapter': id} (none = contents)
   static const grammarGuide = '/resources/grammar'; // args {'chapter': id} (none = contents)
 
@@ -173,7 +190,7 @@ class ScreenCatalog {
     ScreenSpec('A7', 'Diagnostic Assessment Selector', Routes.diagnostic),
     ScreenSpec('A8', 'Microphone Permission', Routes.micPermission),
     ScreenSpec('B1', 'Main Student Dashboard', Routes.dashboard),
-    ScreenSpec('B2', 'Dashboard — First-Time Empty State', Routes.dashboardEmpty),
+    ScreenSpec('B2', 'Dashboard - First-Time Empty State', Routes.dashboardEmpty),
     ScreenSpec('B3', 'Course & Module Hub', Routes.moduleHub),
     ScreenSpec('B4', 'Study Analytics', Routes.analytics),
     ScreenSpec('B5', 'Schedule & Deadlines', Routes.schedule),
@@ -221,12 +238,12 @@ class ScreenCatalog {
     ScreenSpec('F8', 'Listening Practice Results', Routes.listeningResults),
     ScreenSpec('G1', 'Mock Test Library & History', Routes.mockLibrary),
     ScreenSpec('G2', 'Mock Exam Instructions & System Check', Routes.mockSystemCheck),
-    ScreenSpec('G3', 'Mock — Listening Section', Routes.mockListening),
-    ScreenSpec('G4', 'Mock — Section Transition', Routes.mockTransition),
+    ScreenSpec('G3', 'Mock - Listening Section', Routes.mockListening),
+    ScreenSpec('G4', 'Mock - Section Transition', Routes.mockTransition),
     ScreenSpec('G5', 'Full Simulation Test Environment', Routes.mockEnvironment),
-    ScreenSpec('G6', 'Mock — Writing Section', Routes.mockWriting),
-    ScreenSpec('G7', 'Mock — Speaking Section', Routes.mockSpeaking),
-    ScreenSpec('G8', 'Mock — Scoring in Progress', Routes.mockScoring),
+    ScreenSpec('G6', 'Mock - Writing Section', Routes.mockWriting),
+    ScreenSpec('G7', 'Mock - Speaking Section', Routes.mockSpeaking),
+    ScreenSpec('G8', 'Mock - Scoring in Progress', Routes.mockScoring),
     ScreenSpec('G9', 'Final Mock Summary & Band Card', Routes.mockResults),
     ScreenSpec('G10', 'AI Actionable Improvement Plan', Routes.improvementPlan),
     ScreenSpec('G11', 'Mock Exit Confirm & Timer Warning', Routes.mockExitWarning),
@@ -234,8 +251,8 @@ class ScreenCatalog {
     ScreenSpec('H2', 'Grammar & Vocab Vault', Routes.vocabVault),
     ScreenSpec('H3', 'Community Channels', Routes.community),
     ScreenSpec('H4', 'Speaking Room Chat', Routes.speakingRoomChat),
-    ScreenSpec('H5', 'Vocabulary Quiz — Question', Routes.vocabQuiz),
-    ScreenSpec('H6', 'Vocabulary Quiz — Round Score', Routes.vocabQuizScore),
+    ScreenSpec('H5', 'Vocabulary Quiz - Question', Routes.vocabQuiz),
+    ScreenSpec('H6', 'Vocabulary Quiz - Round Score', Routes.vocabQuizScore),
     ScreenSpec('H7', 'Academic Words Mastery', Routes.academicWords),
     ScreenSpec('H8', 'Irregular Verbs', Routes.irregularVerbs),
     ScreenSpec('H10', 'Scoring Criteria', Routes.scoringCriteria),

@@ -13,8 +13,8 @@ import 'widgets.dart';
 import 'writing_data.dart';
 
 /// C12 · Writing AI Feedback Loading. Scores the pending essay
-/// (`args['essay']` / [WritingService.pending]) with the AI — or the local
-/// demo scorer as a fallback — while walking through the four criteria, then
+/// (`args['essay']` / [WritingService.pending]) with the AI - or the local
+/// demo scorer as a fallback - while walking through the four criteria, then
 /// replaces itself with the band report of the new attempt. With
 /// `args['attemptId']` it just animates and opens that report.
 class WritingFeedbackLoadingScreen extends StatefulWidget {
@@ -188,7 +188,7 @@ class _WritingFeedbackLoadingScreenState
               value: progress,
               size: 140,
               stroke: 10,
-              track: wc(t, 0xFFEADFE6, 0xFF1F1F1F),
+              track: wc(t, 0xFFF0E2DD, 0xFF1C2030),
               fill: t.fill,
               child: Icon(AppIcons.sparkle, size: 40, color: t.iconAccent),
             ),
@@ -258,7 +258,7 @@ class _WritingFeedbackLoadingScreenState
         ),
         const Spacer(),
         Text(
-          'Your essay is saved. You can leave — we’ll notify you when it’s ready.',
+          'Your essay is saved. You can leave - we’ll notify you when it’s ready.',
           textAlign: TextAlign.center,
           style: TextStyle(fontSize: 13, color: t.textMuted),
         ),
@@ -293,7 +293,7 @@ class _StepRow extends StatelessWidget {
         child: CircularProgressIndicator(
           strokeWidth: 2.5,
           color: t.fill,
-          backgroundColor: wc(t, 0xFFEADFE6, 0xFF333333),
+          backgroundColor: wc(t, 0xFFF0E2DD, 0xFF333333),
         ),
       );
     } else {
@@ -303,7 +303,7 @@ class _StepRow extends StatelessWidget {
         decoration: BoxDecoration(
           shape: BoxShape.circle,
           border: Border.all(
-            color: wc(t, 0xFFEADFE6, 0xFF333333),
+            color: wc(t, 0xFFF0E2DD, 0xFF333333),
             width: 1.5,
           ),
         ),

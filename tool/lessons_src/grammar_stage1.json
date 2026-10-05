@@ -1,0 +1,344 @@
+{
+  "id": "g1",
+  "title": {"en": "Subject–Verb Agreement", "bn": "Subject–Verb Agreement"},
+  "subtitle": {"en": "Sentence foundations: make every verb match its subject", "bn": "বাক্যের ভিত্তি: প্রতিটা verb-কে তার subject-এর সঙ্গে মেলানো"},
+  "lessons": [
+    {
+      "id": "g1_l1",
+      "title": {"en": "Building Blocks and the Core Rule", "bn": "বাক্যের গঠন-উপাদান ও মূল নিয়ম"},
+      "minutes": 8,
+      "xp": 40,
+      "intro": {"en": "Learn the parts of a sentence and the one rule behind agreement: the verb must match its subject in number.", "bn": "বাক্যের অংশগুলো আর agreement-এর মূল নিয়মটা শিখুন: verb-কে number-এ তার subject-এর সঙ্গে মিলতে হবে।"},
+      "greeting": {"en": "One small -s decides a lot of marks. Let's get it right.", "bn": "ছোট্ট একটা -s অনেক নম্বর ঠিক করে দেয়। চলুন এটা ঠিক করে নিই।"},
+      "learned": [
+        {"en": "Subject, verb and object (S + V + O)", "bn": "Subject, verb আর object (S + V + O)"},
+        {"en": "What subject–verb agreement means", "bn": "Subject–verb agreement মানে কী"},
+        {"en": "The -s rule: plural on nouns, singular on verbs", "bn": "-s-এর নিয়ম: noun-এ plural, verb-এ singular"},
+        {"en": "The irregular forms of be and have", "bn": "be আর have-এর irregular রূপ"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Spot the mistake", "bn": "ভুলটা ধরুন"},
+          "prompt": {"en": "Bangla speakers often write one of these in Task 1. Which sentence is correct?", "bn": "বাংলাভাষীরা Task 1-এ প্রায়ই এর একটা লেখেন। কোন বাক্যটি সঠিক?"},
+          "options": [
+            {"en": "The population increase rapidly."},
+            {"en": "The population increases rapidly."}
+          ],
+          "answer": 1,
+          "explain": {"en": "“The population” is singular, so the verb takes -s: increases. The Bangla verb does not change for singular and plural (যায় is the same for “he” and “they”), so your ear doesn't warn you when the -s is missing.", "bn": "“The population” singular, তাই verb-এ -s বসবে: increases। বাংলা verb singular-plural-এ বদলায় না (“he” আর “they” দুটোর জন্যই যায়), তাই -s বাদ পড়লে আপনার কান সতর্ক করে না।"}
+        },
+        {
+          "type": "roadmap",
+          "title": {"en": "What you'll learn", "bn": "যা শিখবেন"},
+          "items": [
+            {"en": "The building blocks: subject, verb, object", "bn": "বাক্যের গঠন-উপাদান: subject, verb, object"},
+            {"en": "The core agreement rule", "bn": "Agreement-এর মূল নিয়ম"},
+            {"en": "The eight cases where the true subject is hidden", "bn": "যে ৮টি case-এ আসল subject লুকানো থাকে"},
+            {"en": "Why agreement errors cap your band", "bn": "Agreement ভুল কেন আপনার band আটকে দেয়"}
+          ],
+          "note": {"en": "Fixing agreement is the single highest-value, lowest-effort accuracy gain in the whole exam.", "bn": "পুরো পরীক্ষায় সবচেয়ে কম পরিশ্রমে accuracy-তে সবচেয়ে বড় লাভ হলো agreement ঠিক করা।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "The building blocks", "bn": "বাক্যের গঠন-উপাদান"},
+          "intro": {"en": "Almost every grammar rule is stated with these labels, so learn to recognise them. Tap through each card.", "bn": "প্রায় প্রতিটা grammar নিয়ম এই নামগুলো দিয়েই বলা হয়, তাই এগুলো চিনতে শিখুন। প্রতিটা card-এ tap করুন।"},
+          "cards": [
+            {"icon": "target", "title": {"en": "Subject", "bn": "Subject"},
+             "body": {"en": "The person or thing the sentence is about - the one that does the action. In “Students study hard,” the subject is **students**.", "bn": "যাকে নিয়ে বাক্যটি - যে কাজটা করে। “Students study hard,” বাক্যে subject হলো **students**।"}},
+            {"icon": "play", "title": {"en": "Verb", "bn": "Verb"},
+             "body": {"en": "The action or the state of being. In “Students study hard,” the verb is **study**. The verb be (is, am, are, was, were) shows a state: “The graph is clear.”", "bn": "কাজ, বা কোনো অবস্থা। “Students study hard,” বাক্যে verb হলো **study**। Verb be (is, am, are, was, were) অবস্থা বোঝায়: “The graph is clear.”"}},
+            {"icon": "forward", "title": {"en": "Object", "bn": "Object"},
+             "body": {"en": "The person or thing that receives the action. In “Students use the internet,” the object is **the internet**.", "bn": "যার ওপর কাজটা হয়। “Students use the internet,” বাক্যে object হলো **the internet**।"}},
+            {"icon": "list", "title": {"en": "Order: S + V + O", "bn": "ক্রম: S + V + O"},
+             "body": {"en": "English puts the verb second, right after the subject: “I eat rice.” Bangla puts it at the end (আমি ভাত খাই). If a sentence feels wrong, check whether the verb has drifted to the end.", "bn": "English-এ verb বসে দ্বিতীয় স্থানে, subject-এর ঠিক পরে: “I eat rice.” বাংলায় verb থাকে শেষে (আমি ভাত খাই)। বাক্য ভুল ভুল লাগলে দেখুন verb-টা শেষে চলে গেছে কি না।"}},
+            {"icon": "check", "title": {"en": "Agreement = matching", "bn": "Agreement = মিল"},
+             "body": {"en": "The verb must match its subject in number. A singular subject (one) takes one form of the verb; a plural subject (more than one) takes another. That is the entire idea.", "bn": "Verb-কে number-এ তার subject-এর সঙ্গে মিলতে হবে। Singular subject (একটি) verb-এর এক রূপ নেয়; plural subject (একাধিক) নেয় আরেক রূপ। পুরো ধারণাটা এটুকুই।"}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "In “Students use the internet,” which word or phrase is the object?", "bn": "“Students use the internet,” বাক্যে object কোনটা?"},
+          "options": [{"en": "Students"}, {"en": "use"}, {"en": "the internet"}],
+          "answer": 2,
+          "explain": {"en": "The internet receives the action, so it is the object. Students (S) use (V) the internet (O) - the normal English order.", "bn": "The internet-এর ওপর কাজটা হচ্ছে, তাই এটা object। Students (S) use (V) the internet (O) - English-এর স্বাভাবিক ক্রম।"}
+        },
+        {"type": "read", "title": {"en": "The core rule", "bn": "মূল নিয়ম"}, "chapter": "g01_agreement_1", "from": 9, "to": 15},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Choose the correct sentence.", "bn": "সঠিক বাক্যটি বেছে নিন।"},
+          "options": [
+            {"en": "The students works hard."},
+            {"en": "The students work hard."},
+            {"en": "The student work hard."}
+          ],
+          "answer": 1,
+          "explain": {"en": "On a noun, -s means plural; on a verb, -s means singular. So the -s goes on the noun or the verb, not both: the students work / the student works.", "bn": "Noun-এ -s মানে plural; verb-এ -s মানে singular। তাই -s বসে হয় noun-এ, নয় verb-এ - দুটোতে নয়: the students work / the student works।"}
+        },
+        {"type": "read", "title": {"en": "The irregular pair: be and have", "bn": "Irregular জোড়া: be আর have"}, "chapter": "g01_agreement_1", "from": 15, "to": 18},
+        {
+          "type": "contrast",
+          "title": {"en": "Two slips in one sentence", "bn": "এক বাক্যে দুটো ভুল"},
+          "intro": {"en": "A very common Task 1 sentence. “The graph” and “pollution” are both singular.", "bn": "Task 1-এর খুব সাধারণ একটা বাক্য। “The graph” আর “pollution” দুটোই singular।"},
+          "weak": {"label": {"en": "Wrong", "bn": "ভুল"}, "text": "The graph show that pollution have increased."},
+          "strong": {"label": {"en": "Correct", "bn": "সঠিক"}, "text": "The graph shows that pollution has increased.", "mark": "has increased"},
+          "tip": {"en": "Singular subject: is / was / has, and -s on present-simple verbs. Plural subject: are / were / have, and the base verb.", "bn": "Singular subject: is / was / has, আর present simple verb-এ -s। Plural subject: are / were / have, আর base verb।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which sentence is correct?", "bn": "কোন বাক্যটি সঠিক?"},
+          "options": [
+            {"en": "Many people is using the internet."},
+            {"en": "Many people are using the internet."}
+          ],
+          "answer": 1,
+          "right": {"en": "Exactly!", "bn": "একদম ঠিক!"},
+          "explain": {"en": "“Many people” is plural, so the verb is “are”. Bangla often has no separate word for “is” (সে ভালো = “he good”), so learners drop it or pick the wrong number.", "bn": "“Many people” plural, তাই verb হবে “are”। বাংলায় সাধারণ বাক্যে প্রায়ই “is”-এর আলাদা শব্দ থাকে না (সে ভালো = “he good”), তাই শিক্ষার্থীরা এটা বাদ দেন বা ভুল number বেছে নেন।"}
+        }
+      ]
+    },
+    {
+      "id": "g1_l2",
+      "title": {"en": "Hidden Subjects: Cases 1–3", "bn": "লুকানো Subject: Case ১–৩"},
+      "minutes": 8,
+      "xp": 40,
+      "intro": {"en": "The first three tricky cases: words between subject and verb, “the number of” vs “a number of”, and collective nouns.", "bn": "প্রথম তিনটি কঠিন case: subject আর verb-এর মাঝের শব্দ, “the number of” বনাম “a number of”, আর collective noun।"},
+      "greeting": {"en": "The nearest noun is usually a trap. Let's find the true subject.", "bn": "সবচেয়ে কাছের noun-টা সাধারণত একটা ফাঁদ। চলুন আসল subject খুঁজে বের করি।"},
+      "learned": [
+        {"en": "Agree with the true subject, not the nearest noun", "bn": "সবচেয়ে কাছের noun নয়, আসল subject-এর সঙ্গে মেলানো"},
+        {"en": "“The number of” is singular; “a number of” is plural", "bn": "“The number of” singular; “a number of” plural"},
+        {"en": "Collective nouns take a singular verb in IELTS writing", "bn": "IELTS writing-এ collective noun singular verb নেয়"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Which noun does the verb follow?", "bn": "Verb কোন noun-কে অনুসরণ করে?"},
+          "prompt": {"en": "Choose the correct sentence.", "bn": "সঠিক বাক্যটি বেছে নিন।"},
+          "options": [
+            {"en": "The list of items are on the table."},
+            {"en": "The list of items is on the table."}
+          ],
+          "answer": 1,
+          "explain": {"en": "The subject is “list” (singular), not “items”. Writers are pulled toward the closest word, which is usually wrong. Cross out the middle phrase: “The list … is.”", "bn": "Subject হলো “list” (singular), “items” নয়। লেখকরা সবচেয়ে কাছের শব্দের দিকে টান অনুভব করেন, আর সেটা সাধারণত ভুল। মাঝের phrase-টা কেটে দিন: “The list … is.”"}
+        },
+        {"type": "read", "title": {"en": "Case 1 · Words between subject and verb", "bn": "Case 1 · Subject আর verb-এর মাঝের শব্দ"}, "chapter": "g01_agreement_2", "from": 0, "to": 7},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which sentence is correct?", "bn": "কোন বাক্যটি সঠিক?"},
+          "options": [
+            {"en": "The list of approved candidates are posted on the noticeboard."},
+            {"en": "The list of approved candidates is posted on the noticeboard."}
+          ],
+          "answer": 1,
+          "explain": {"en": "Delete the words between the subject and the verb: “The list … is posted.” The subject is “list” (singular), not “candidates”.", "bn": "Subject আর verb-এর মাঝের শব্দগুলো মুছে ফেলুন: “The list … is posted.” Subject হলো “list” (singular), “candidates” নয়।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "Cases 2 and 3", "bn": "Case 2 আর 3"},
+          "intro": {"en": "Two cases you will meet constantly in Writing Task 1 and Task 2.", "bn": "দুটো case যা Writing Task 1 আর Task 2-এ বারবার পাবেন।"},
+          "cards": [
+            {"icon": "target", "title": {"en": "“The number of” → singular", "bn": "“The number of” → singular"},
+             "body": {"en": "“The number of + plural noun” takes a singular verb: the subject is **number**, one figure.\nThe number of tourists has increased since 2010.", "bn": "“The number of + plural noun” singular verb নেয়: subject হলো **number**, একটি সংখ্যা।\nThe number of tourists has increased since 2010."}},
+            {"icon": "layers", "title": {"en": "“A number of” → plural", "bn": "“A number of” → plural"},
+             "body": {"en": "“A number of + plural noun” takes a plural verb: it simply means **several**.\nA number of tourists were waiting outside the museum.", "bn": "“A number of + plural noun” plural verb নেয়: এর মানে শুধু **কয়েকটি**।\nA number of tourists were waiting outside the museum."}},
+            {"icon": "book", "title": {"en": "Collective nouns", "bn": "Collective noun"},
+             "body": {"en": "Government, team, committee, family, company, public, staff name a group. In IELTS academic writing, treat each as a single unit with a singular verb.\nThe government is planning three new policies.", "bn": "Government, team, committee, family, company, public, staff - এগুলো একটি দলের নাম। IELTS academic writing-এ প্রতিটিকে একটি একক ধরে singular verb দিন।\nThe government is planning three new policies."}},
+            {"icon": "flag", "title": {"en": "A note on British English", "bn": "British English নিয়ে একটা কথা"},
+             "body": {"en": "British English sometimes allows a plural verb when the focus is on the members (“the team are arguing among themselves”). For IELTS academic Writing, stay singular and consistent - it is safer and never wrong.", "bn": "British English-এ কখনো কখনো plural verb চলে, যখন জোরটা সদস্যদের ওপর (“the team are arguing among themselves”)। IELTS academic Writing-এ singular-এই থাকুন, ধারাবাহিক থাকুন - এটা নিরাপদ, আর কখনো ভুল হয় না।"}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Choose the correct Task 1 sentence.", "bn": "সঠিক Task 1 বাক্যটি বেছে নিন।"},
+          "options": [
+            {"en": "The number of tourists have increased since 2010."},
+            {"en": "The number of tourists has increased since 2010."}
+          ],
+          "answer": 1,
+          "explain": {"en": "The subject is “number” - one figure - so the verb is singular: has increased. “Tourists” is not the subject.", "bn": "Subject হলো “number” - একটি সংখ্যা - তাই verb singular: has increased। “Tourists” subject নয়।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "A number of tourists ______ waiting outside the museum.", "bn": "A number of tourists ______ waiting outside the museum."},
+          "options": [{"en": "was"}, {"en": "were"}],
+          "answer": 1,
+          "explain": {"en": "“A number of” simply means “several”, so it takes a plural verb: were. It behaves in the opposite way to “the number of”.", "bn": "“A number of” মানে শুধু “কয়েকটি”, তাই plural verb: were। এটা “the number of”-এর ঠিক উল্টো আচরণ করে।"}
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Collective nouns in academic writing", "bn": "Academic writing-এ collective noun"},
+          "intro": {"en": "The same sentence about a government - treat the group as one unit.", "bn": "Government নিয়ে একই বাক্য - দলটাকে একটি একক হিসেবে ধরুন।"},
+          "weak": {"label": {"en": "Avoid in IELTS Writing", "bn": "IELTS Writing-এ এড়িয়ে চলুন"}, "text": "The government are introducing a new tax next year."},
+          "strong": {"label": {"en": "Correct", "bn": "সঠিক"}, "text": "The government is introducing a new tax next year.", "mark": "is"},
+          "tip": {"en": "Government, team, committee, family, company, public, staff: one unit, singular verb, and keep it consistent.", "bn": "Government, team, committee, family, company, public, staff: একটি একক, singular verb, আর পুরো লেখায় ধারাবাহিক রাখুন।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which sentence follows the IELTS academic rule for collective nouns?", "bn": "Collective noun-এর IELTS academic নিয়ম কোন বাক্যটি মানছে?"},
+          "options": [
+            {"en": "The committee have reached a decision."},
+            {"en": "The committee has reached a decision."}
+          ],
+          "answer": 1,
+          "right": {"en": "Exactly!", "bn": "একদম ঠিক!"},
+          "explain": {"en": "“Committee” names a group; in IELTS academic writing it is one unit, so it takes the singular “has”.", "bn": "“Committee” একটি দলের নাম; IELTS academic writing-এ এটা একটি একক, তাই singular “has” নেয়।"}
+        }
+      ]
+    },
+    {
+      "id": "g1_l3",
+      "title": {"en": "Pronouns and Pairs: Cases 4–6", "bn": "Pronoun ও জোড়া: Case ৪–৬"},
+      "minutes": 8,
+      "xp": 40,
+      "intro": {"en": "Indefinite pronouns like each and neither, paired connectors like neither…nor, and subjects joined by “and”.", "bn": "Each, neither-এর মতো indefinite pronoun, neither…nor-এর মতো জোড়া connector, আর “and” দিয়ে জোড়া subject।"},
+      "greeting": {"en": "“Each of the students” - singular or plural? Let's settle it.", "bn": "“Each of the students” - singular না plural? চলুন মীমাংসা করি।"},
+      "learned": [
+        {"en": "Indefinite pronouns are always singular", "bn": "Indefinite pronoun সবসময় singular"},
+        {"en": "With neither…nor / either…or, agree with the nearer subject", "bn": "Neither…nor / either…or-এ কাছের subject-এর সঙ্গে মেলানো"},
+        {"en": "Subjects joined by “and” are almost always plural", "bn": "“And” দিয়ে জোড়া subject প্রায় সবসময় plural"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Singular or plural?", "bn": "Singular না plural?"},
+          "prompt": {"en": "Each of the students ______ a laptop.", "bn": "Each of the students ______ a laptop."},
+          "options": [{"en": "have"}, {"en": "has"}],
+          "answer": 1,
+          "explain": {"en": "“Each” is singular, however plural “the students” looks. So the verb is “has”, not “have”.", "bn": "“Each” singular, “the students” যত plural-ই দেখাক না কেন। তাই verb হবে “has”, “have” নয়।"}
+        },
+        {"type": "read", "title": {"en": "Case 4 · Indefinite pronouns are singular", "bn": "Case 4 · Indefinite pronoun singular"}, "chapter": "g01_agreement_2", "from": 15, "to": 18},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Choose the correct sentence.", "bn": "সঠিক বাক্যটি বেছে নিন।"},
+          "options": [
+            {"en": "Neither of the options are acceptable."},
+            {"en": "Neither of the options is acceptable."}
+          ],
+          "answer": 1,
+          "explain": {"en": "“Neither” (on its own, meaning “not one of them”) is an indefinite pronoun, so it is singular: Neither of the options is acceptable.", "bn": "“Neither” (একা, মানে “কোনোটাই না”) একটি indefinite pronoun, তাই singular: Neither of the options is acceptable।"}
+        },
+        {"type": "read", "title": {"en": "Case 5 · Neither…nor, either…or, not only…but also", "bn": "Case 5 · Neither…nor, either…or, not only…but also"}, "chapter": "g01_agreement_2", "from": 18, "to": 21},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Neither the manager nor the employees ______ informed.", "bn": "Neither the manager nor the employees ______ informed."},
+          "options": [{"en": "was"}, {"en": "were"}],
+          "answer": 1,
+          "explain": {"en": "With paired connectors the verb agrees with the nearer subject. Here that is “employees” (plural), so: were.", "bn": "জোড়া connector-এ verb মেলে কাছের subject-এর সঙ্গে। এখানে সেটা “employees” (plural), তাই: were।"}
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Look at the nearer subject", "bn": "কাছের subject-টা দেখুন"},
+          "intro": {"en": "“Neither … nor” joins two subjects. Which one sits next to the verb?", "bn": "“Neither … nor” দুটো subject জোড়ে। Verb-এর পাশে কোনটা বসেছে?"},
+          "weak": {"label": {"en": "Wrong", "bn": "ভুল"}, "text": "Neither the teacher nor the students was ready for the test."},
+          "strong": {"label": {"en": "Correct", "bn": "সঠিক"}, "text": "Neither the teacher nor the students were ready for the test.", "mark": "were"},
+          "tip": {"en": "Swap the order and the verb changes too: Neither the employees nor the manager was informed.", "bn": "ক্রম উল্টে দিলে verb-ও বদলায়: Neither the employees nor the manager was informed."}
+        },
+        {"type": "read", "title": {"en": "Case 6 · Compound subjects joined by “and”", "bn": "Case 6 · “And” দিয়ে জোড়া compound subject"}, "chapter": "g01_agreement_2", "from": 21, "to": 25},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which sentence is correct?", "bn": "কোন বাক্যটি সঠিক?"},
+          "options": [
+            {"en": "Poverty and unemployment remains a serious problem."},
+            {"en": "Poverty and unemployment remain serious problems."}
+          ],
+          "answer": 1,
+          "right": {"en": "Exactly!", "bn": "একদম ঠিক!"},
+          "explain": {"en": "Two subjects joined by “and” are almost always plural, so: remain. The exception is one combined thing, like “Bread and butter is a common breakfast” - rare in IELTS.", "bn": "“And” দিয়ে জোড়া দুটো subject প্রায় সবসময় plural, তাই: remain। ব্যতিক্রম হলো দুটো মিলে একটাই জিনিস, যেমন “Bread and butter is a common breakfast” - IELTS-এ এটা কমই আসে।"}
+        }
+      ]
+    },
+    {
+      "id": "g1_l4",
+      "title": {"en": "There Is, Uncountables and Inversion: Cases 7–8", "bn": "There is, Uncountable ও Inversion: Case ৭–৮"},
+      "minutes": 9,
+      "xp": 50,
+      "intro": {"en": "The last two cases - “there is / there are”, uncountable nouns, amounts and inverted sentences - and why agreement caps your band.", "bn": "শেষ দুটি case - “there is / there are”, uncountable noun, পরিমাণ আর inverted বাক্য - আর agreement কেন আপনার band আটকে দেয়।"},
+      "greeting": {"en": "Sometimes the subject comes after the verb. Here's how to catch it.", "bn": "কখনো কখনো subject আসে verb-এর পরে। দেখুন কীভাবে ধরবেন।"},
+      "learned": [
+        {"en": "After “there”, agree with the real subject after the verb", "bn": "“There”-এর পরে verb-এর পরের আসল subject-এর সঙ্গে মেলানো"},
+        {"en": "Uncountable nouns are singular, with no plural -s", "bn": "Uncountable noun singular, কোনো plural -s নেই"},
+        {"en": "Amounts of time, money and distance take a singular verb", "bn": "সময়, টাকা আর দূরত্বের পরিমাণ singular verb নেয়"},
+        {"en": "Inverted sentences still agree with the subject", "bn": "Inverted বাক্যেও verb subject-এর সঙ্গে মেলে"},
+        {"en": "Why agreement errors keep you below Band 7", "bn": "Agreement ভুল কেন Band 7-এর নিচে আটকে রাখে"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Is or are?", "bn": "Is না are?"},
+          "prompt": {"en": "There ______ a range of options.", "bn": "There ______ a range of options."},
+          "options": [{"en": "is"}, {"en": "are"}],
+          "answer": 0,
+          "explain": {"en": "After “there”, the verb agrees with the real subject that comes after it. The subject is “range” (singular), not “options”, so: There is a range of options.", "bn": "“There”-এর পরে verb মেলে তার পরে আসা আসল subject-এর সঙ্গে। Subject হলো “range” (singular), “options” নয়, তাই: There is a range of options।"}
+        },
+        {"type": "read", "title": {"en": "Case 7 · “There is” and “there are”", "bn": "Case 7 · “There is” আর “there are”"}, "chapter": "g01_agreement_2", "from": 25, "to": 28},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Choose the correct sentence.", "bn": "সঠিক বাক্যটি বেছে নিন।"},
+          "options": [
+            {"en": "There is several factors."},
+            {"en": "There are several factors."}
+          ],
+          "answer": 1,
+          "explain": {"en": "The real subject comes after the verb: “factors” is plural, so the verb is “are”.", "bn": "আসল subject আসে verb-এর পরে: “factors” plural, তাই verb হবে “are”।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "Case 8 · Three disguised singulars", "bn": "Case 8 · তিনটি ছদ্মবেশী singular"},
+          "intro": {"en": "These look plural or hide the subject - but the rule still holds.", "bn": "এগুলো plural দেখায় বা subject লুকিয়ে রাখে - কিন্তু নিয়ম একই থাকে।"},
+          "cards": [
+            {"icon": "book", "title": {"en": "Uncountable nouns", "bn": "Uncountable noun"},
+             "body": {"en": "Treated as singular, never with a plural -s. Memorise the set: information, advice, knowledge, research, equipment, furniture, accommodation, traffic, progress, news, money, water, work.", "bn": "Singular ধরা হয়, কখনো plural -s নেয় না। এই set-টা মুখস্থ করুন: information, advice, knowledge, research, equipment, furniture, accommodation, traffic, progress, news, money, water, work।"}},
+            {"icon": "clock", "title": {"en": "Amounts", "bn": "পরিমাণ"},
+             "body": {"en": "Amounts of time, money and distance are one quantity, so they take a singular verb.\nTen years is a long time to wait. / Five thousand taka is not enough.", "bn": "সময়, টাকা আর দূরত্বের পরিমাণ একটি একক পরিমাণ, তাই singular verb নেয়।\nTen years is a long time to wait. / Five thousand taka is not enough."}},
+            {"icon": "swap", "title": {"en": "Inverted structures", "bn": "Inverted structure"},
+             "body": {"en": "When the verb comes before the subject (after not only, hardly …), find the subject after the verb and match it.\nHardly ever does the government reverse such a decision.", "bn": "Verb যখন subject-এর আগে আসে (not only, hardly … দিয়ে শুরু হলে), verb-এর পরে subject-টা খুঁজে তার সঙ্গে মেলান।\nHardly ever does the government reverse such a decision."}}
+          ]
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Uncountable nouns", "bn": "Uncountable noun"},
+          "intro": {"en": "“Information” and “advice” never take a plural -s.", "bn": "“Information” আর “advice” কখনো plural -s নেয় না।"},
+          "weak": {"label": {"en": "Wrong", "bn": "ভুল"}, "text": "The informations are correct and he gave many advices."},
+          "strong": {"label": {"en": "Correct", "bn": "সঠিক"}, "text": "The information is correct and he gave a lot of advice.", "mark": "The information is"},
+          "tip": {"en": "Uncountable noun = singular verb and no -s: the information is, the research shows, the traffic was.", "bn": "Uncountable noun = singular verb, কোনো -s নয়: the information is, the research shows, the traffic was।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which sentence is correct?", "bn": "কোন বাক্যটি সঠিক?"},
+          "options": [
+            {"en": "Ten years are a long time to wait."},
+            {"en": "Ten years is a long time to wait."}
+          ],
+          "answer": 1,
+          "explain": {"en": "An amount of time is treated as a single quantity, so it takes a singular verb: Ten years is a long time to wait.", "bn": "সময়ের পরিমাণকে একটি একক পরিমাণ ধরা হয়, তাই singular verb: Ten years is a long time to wait।"}
+        },
+        {"type": "read", "title": {"en": "Why Bangla speakers slip - and why it caps your band", "bn": "বাংলাভাষীরা কেন ভুল করেন - আর কেন এটা band আটকে দেয়"}, "chapter": "g01_agreement_2", "from": 34, "to": 36},
+        {
+          "type": "choice",
+          "title": {"en": "Final check", "bn": "শেষ যাচাই"},
+          "prompt": {"en": "Choose the correct Task 1 sentence.", "bn": "সঠিক Task 1 বাক্যটি বেছে নিন।"},
+          "options": [
+            {"en": "The number of visitors have risen sharply, whereas the proportion of local tourists have fallen."},
+            {"en": "The number of visitors has risen sharply, whereas the proportion of local tourists have fallen."},
+            {"en": "The number of visitors has risen sharply, whereas the proportion of local tourists has fallen."}
+          ],
+          "answer": 2,
+          "right": {"en": "Exactly!", "bn": "একদম ঠিক!"},
+          "explain": {"en": "Task 1 lives on subjects like “the number of” and “the proportion of” - every one of them is singular, so both verbs take “has”.", "bn": "Task 1 চলে “the number of”, “the proportion of”-এর মতো subject দিয়ে - এর প্রতিটাই singular, তাই দুটো verb-ই “has” নেয়।"}
+        }
+      ]
+    }
+  ]
+}

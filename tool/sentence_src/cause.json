@@ -1,0 +1,2016 @@
+{
+  "category": "cause",
+  "drills": [
+    {
+      "id": "cause_001",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Many young people move to cities.",
+        "There are more jobs in urban areas."
+      ],
+      "answer": [
+        "Many young people",
+        "move to cities",
+        "because",
+        "there are more jobs",
+        "in urban areas."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because of",
+        "although"
+      ],
+      "hint": "Give the result first, then the reason: \"because\" + subject + verb.",
+      "level": 1
+    },
+    {
+      "id": "cause_002",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "The buses were not running.",
+        "Many students missed their exams."
+      ],
+      "answer": [
+        "Because",
+        "the buses were not running,",
+        "many students",
+        "missed their exams."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because of",
+        "Despite"
+      ],
+      "hint": "When \"because\" starts the sentence, put a comma after the reason clause.",
+      "level": 1
+    },
+    {
+      "id": "cause_003",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Some parents limit screen time.",
+        "They worry about their children's sleep."
+      ],
+      "answer": [
+        "Some parents",
+        "limit screen time",
+        "because",
+        "they worry about",
+        "their children's sleep."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because of",
+        "unless"
+      ],
+      "hint": "\"Because\" is followed by a full clause with its own subject and verb.",
+      "level": 2
+    },
+    {
+      "id": "cause_004",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "The museum is popular with tourists.",
+        "Entry is free for everyone."
+      ],
+      "answer": [
+        "The museum",
+        "is popular with tourists",
+        "because",
+        "entry is free",
+        "for everyone."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "although",
+        "due to"
+      ],
+      "hint": "No comma is needed when \"because\" comes in the middle of the sentence.",
+      "level": 1
+    },
+    {
+      "id": "cause_005",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Online shopping has grown rapidly.",
+        "It is fast and convenient."
+      ],
+      "answer": [
+        "Online shopping",
+        "has grown rapidly",
+        "because",
+        "it is",
+        "fast and convenient."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "despite"
+      ],
+      "hint": "\"Because\" introduces the reason; \"so\" would introduce a result instead.",
+      "level": 2
+    },
+    {
+      "id": "cause_006",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Fresh vegetables are expensive in winter.",
+        "Many families buy frozen food."
+      ],
+      "answer": [
+        "Because",
+        "fresh vegetables are",
+        "expensive in winter,",
+        "many families",
+        "buy frozen food."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because of",
+        "Unless"
+      ],
+      "hint": "Start with the reason clause, add a comma, then give the main clause.",
+      "level": 2
+    },
+    {
+      "id": "cause_007",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Some species are disappearing.",
+        "Their natural habitats are being destroyed."
+      ],
+      "answer": [
+        "Some species",
+        "are disappearing",
+        "because",
+        "their natural habitats",
+        "are being destroyed."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "although"
+      ],
+      "hint": "Put the effect first; the cause after \"because\" can be a passive clause.",
+      "level": 3
+    },
+    {
+      "id": "cause_008",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Many workers cycle to the office.",
+        "It helps them stay fit."
+      ],
+      "answer": [
+        "Many workers",
+        "cycle to the office",
+        "because",
+        "it helps them",
+        "stay fit."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because of",
+        "although"
+      ],
+      "hint": "Use \"because\" before a clause that explains why.",
+      "level": 1
+    },
+    {
+      "id": "cause_009",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Some older people feel lonely.",
+        "Their families live far away."
+      ],
+      "answer": [
+        "Some older people",
+        "feel lonely",
+        "because",
+        "their families",
+        "live far away."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "whereas",
+        "despite"
+      ],
+      "hint": "Main clause first, then \"because\" + subject + verb for the reason.",
+      "level": 1
+    },
+    {
+      "id": "cause_010",
+      "connector": "because",
+      "function": "Cause",
+      "sentences": [
+        "Some students prefer printed books.",
+        "They find screens tiring to read."
+      ],
+      "answer": [
+        "Some students",
+        "prefer printed books",
+        "because",
+        "they find screens",
+        "tiring to read."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "because of"
+      ],
+      "hint": "Which idea is the reason? Put it after \"because\".",
+      "level": 1
+    },
+    {
+      "id": "cause_011",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "Many flights were cancelled.",
+        "There was heavy fog."
+      ],
+      "answer": [
+        "Many flights",
+        "were cancelled",
+        "because of",
+        "the heavy fog."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "\"Because of\" is followed by a noun phrase, not a clause.",
+      "level": 1
+    },
+    {
+      "id": "cause_012",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "There are roadworks in the city centre.",
+        "Traffic is very slow."
+      ],
+      "answer": [
+        "Because of",
+        "the roadworks",
+        "in the city centre,",
+        "traffic is very slow."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "Fronted \"because of\" + noun phrase, then a comma before the main clause.",
+      "level": 1
+    },
+    {
+      "id": "cause_013",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "Online competition has increased.",
+        "Many shops have closed."
+      ],
+      "answer": [
+        "Many shops",
+        "have closed",
+        "because of",
+        "increased online competition."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "Turn the reason into a noun phrase after \"because of\".",
+      "level": 2
+    },
+    {
+      "id": "cause_014",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "There is a shortage of doctors.",
+        "Some patients wait months for surgery."
+      ],
+      "answer": [
+        "Some patients",
+        "wait months for surgery",
+        "because of",
+        "a shortage",
+        "of doctors."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "\"Because of\" + noun: no subject and verb follow it.",
+      "level": 2
+    },
+    {
+      "id": "cause_015",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "The weather is hot and sunny.",
+        "The beach is very crowded."
+      ],
+      "answer": [
+        "The beach",
+        "is very crowded",
+        "because of",
+        "the hot, sunny weather."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "After \"because of\", use a noun phrase like \"the weather\".",
+      "level": 1
+    },
+    {
+      "id": "cause_016",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "The city banned old diesel cars.",
+        "Air quality has improved."
+      ],
+      "answer": [
+        "Because of",
+        "the ban on",
+        "old diesel cars,",
+        "air quality has improved."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Unless"
+      ],
+      "hint": "The verb \"banned\" becomes the noun \"the ban\" after \"because of\".",
+      "level": 2
+    },
+    {
+      "id": "cause_017",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "Harvests have been poor for two years.",
+        "Food prices have risen."
+      ],
+      "answer": [
+        "Food prices",
+        "have risen",
+        "because of",
+        "two years",
+        "of poor harvests."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "despite"
+      ],
+      "hint": "Change the reason clause into a noun phrase: \"two years of ...\".",
+      "level": 3
+    },
+    {
+      "id": "cause_018",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "Online courses are flexible.",
+        "Many students choose them."
+      ],
+      "answer": [
+        "Many students",
+        "choose online courses",
+        "because of",
+        "their flexibility."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "The adjective \"flexible\" becomes the noun \"flexibility\" after \"because of\".",
+      "level": 2
+    },
+    {
+      "id": "cause_019",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "There was a storm.",
+        "The football match was postponed."
+      ],
+      "answer": [
+        "The football match",
+        "was postponed",
+        "because of",
+        "the storm."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "Use \"because of\" with a noun such as \"the storm\".",
+      "level": 1
+    },
+    {
+      "id": "cause_020",
+      "connector": "because of",
+      "function": "Cause",
+      "sentences": [
+        "Salaries at home are low.",
+        "Many graduates are leaving the country."
+      ],
+      "answer": [
+        "Many graduates",
+        "are leaving the country",
+        "because of",
+        "low salaries",
+        "at home."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "Result first, then \"because of\" + a noun phrase for the cause.",
+      "level": 3
+    },
+    {
+      "id": "cause_021",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "Many people work from home.",
+        "Their jobs can be done online."
+      ],
+      "answer": [
+        "Many people",
+        "work from home",
+        "since",
+        "their jobs",
+        "can be done online."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "due to",
+        "although"
+      ],
+      "hint": "Here \"since\" means \"because\" and is followed by a clause.",
+      "level": 1
+    },
+    {
+      "id": "cause_022",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "The library is closed on Sundays.",
+        "Many students study in coffee shops."
+      ],
+      "answer": [
+        "Since",
+        "the library is closed",
+        "on Sundays,",
+        "many students",
+        "study in coffee shops."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Due to",
+        "Unless"
+      ],
+      "hint": "A fronted \"since\" clause gives the reason and ends with a comma.",
+      "level": 2
+    },
+    {
+      "id": "cause_023",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "Residents wanted more green space.",
+        "The council planted more trees."
+      ],
+      "answer": [
+        "The council",
+        "planted more trees",
+        "since",
+        "residents wanted",
+        "more green space."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "despite"
+      ],
+      "hint": "Put the action first, then the reason introduced by \"since\".",
+      "level": 2
+    },
+    {
+      "id": "cause_024",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "Electric cars are quiet.",
+        "They reduce noise in cities."
+      ],
+      "answer": [
+        "Since",
+        "electric cars are quiet,",
+        "they reduce noise",
+        "in cities."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "\"Since\" + clause, comma, then the result.",
+      "level": 1
+    },
+    {
+      "id": "cause_025",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "Farm work is hard and poorly paid.",
+        "Few young people become farmers."
+      ],
+      "answer": [
+        "Few young people",
+        "become farmers",
+        "since",
+        "farm work is hard",
+        "and poorly paid."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "owing to"
+      ],
+      "hint": "\"Since\" needs a subject and verb after it, unlike \"owing to\".",
+      "level": 3
+    },
+    {
+      "id": "cause_026",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "The weather is warm and dry in summer.",
+        "Many tourists visit then."
+      ],
+      "answer": [
+        "Many tourists",
+        "visit in summer",
+        "since",
+        "the weather is",
+        "warm and dry."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "owing to",
+        "whereas"
+      ],
+      "hint": "\"Since\" works like \"because\" here: it introduces the reason clause.",
+      "level": 2
+    },
+    {
+      "id": "cause_027",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "The test is online.",
+        "Students can take it at home."
+      ],
+      "answer": [
+        "Since",
+        "the test is online,",
+        "students can",
+        "take it at home."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Due to"
+      ],
+      "hint": "Begin with \"since\" and the reason, then a comma and the result.",
+      "level": 1
+    },
+    {
+      "id": "cause_028",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "The population is ageing quickly.",
+        "Hospitals are under pressure."
+      ],
+      "answer": [
+        "Hospitals",
+        "are under pressure",
+        "since",
+        "the population",
+        "is ageing quickly."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "so",
+        "in spite of"
+      ],
+      "hint": "The cause comes after \"since\"; it must be a full clause.",
+      "level": 2
+    },
+    {
+      "id": "cause_029",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "Public transport is often late.",
+        "Some people avoid it."
+      ],
+      "answer": [
+        "Some people",
+        "avoid public transport",
+        "since",
+        "it is",
+        "often late."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "because of"
+      ],
+      "hint": "\"Since\" + subject + verb; \"because of\" would need a noun.",
+      "level": 1
+    },
+    {
+      "id": "cause_030",
+      "connector": "since",
+      "function": "Cause",
+      "sentences": [
+        "Children's brains are very flexible.",
+        "They learn languages quickly."
+      ],
+      "answer": [
+        "Children",
+        "learn languages quickly",
+        "since",
+        "their brains",
+        "are very flexible."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "due to",
+        "unless"
+      ],
+      "hint": "Put the reason after \"since\" with its own subject and verb.",
+      "level": 1
+    },
+    {
+      "id": "cause_031",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "It was raining heavily.",
+        "The outdoor concert was cancelled."
+      ],
+      "answer": [
+        "As",
+        "it was raining heavily,",
+        "the outdoor concert",
+        "was cancelled."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "Causal \"as\" usually starts the sentence; use a comma after its clause.",
+      "level": 1
+    },
+    {
+      "id": "cause_032",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "The town has no cinema.",
+        "Young people travel to the city for films."
+      ],
+      "answer": [
+        "As",
+        "the town has",
+        "no cinema,",
+        "young people",
+        "travel to the city for films."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Due to",
+        "Unless"
+      ],
+      "hint": "\"As\" + reason clause + comma, then the main clause.",
+      "level": 2
+    },
+    {
+      "id": "cause_033",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "University fees are high.",
+        "Many students work part-time."
+      ],
+      "answer": [
+        "Many students",
+        "work part-time",
+        "as",
+        "university fees",
+        "are high."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "because of"
+      ],
+      "hint": "\"As\" can mean \"because\"; it needs a clause after it.",
+      "level": 1
+    },
+    {
+      "id": "cause_034",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "Housing is expensive.",
+        "Many young adults live with their parents."
+      ],
+      "answer": [
+        "As",
+        "housing is expensive,",
+        "many young adults",
+        "live with their parents."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Owing to",
+        "Despite"
+      ],
+      "hint": "\"As\" here gives the reason, so the clause after it is the cause.",
+      "level": 2
+    },
+    {
+      "id": "cause_035",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "The factory switched to cleaner fuel.",
+        "Local air quality improved."
+      ],
+      "answer": [
+        "As",
+        "the factory switched to",
+        "cleaner fuel,",
+        "local air quality",
+        "improved."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because of",
+        "Unless"
+      ],
+      "hint": "Fronted \"as\" clause first, comma, then the result clause.",
+      "level": 3
+    },
+    {
+      "id": "cause_036",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "Cafes began offering free tap water.",
+        "Sales of bottled water fell."
+      ],
+      "answer": [
+        "As",
+        "cafes began offering",
+        "free tap water,",
+        "sales of bottled water fell."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Due to"
+      ],
+      "hint": "Start with \"as\" and the cause; the effect follows the comma.",
+      "level": 2
+    },
+    {
+      "id": "cause_037",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "The exam is tomorrow.",
+        "The students are revising tonight."
+      ],
+      "answer": [
+        "As",
+        "the exam is tomorrow,",
+        "the students",
+        "are revising tonight."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because of",
+        "Unless"
+      ],
+      "hint": "\"As\" + subject + verb gives a reason that the reader already knows.",
+      "level": 1
+    },
+    {
+      "id": "cause_038",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "The hotel is near the beach.",
+        "It is popular with families."
+      ],
+      "answer": [
+        "As",
+        "the hotel is",
+        "near the beach,",
+        "it is popular",
+        "with families."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Owing to"
+      ],
+      "hint": "Reason first with \"as\", then a comma and the main clause.",
+      "level": 2
+    },
+    {
+      "id": "cause_039",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "The software is free.",
+        "Many schools have adopted it."
+      ],
+      "answer": [
+        "As",
+        "the software is free,",
+        "many schools",
+        "have adopted it."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Due to"
+      ],
+      "hint": "\"As\" must be followed by a clause, not just a noun phrase.",
+      "level": 1
+    },
+    {
+      "id": "cause_040",
+      "connector": "as",
+      "function": "Cause",
+      "sentences": [
+        "The river has flooded several times.",
+        "The council is building a flood barrier."
+      ],
+      "answer": [
+        "As",
+        "the river has flooded",
+        "several times,",
+        "the council",
+        "is building a flood barrier."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "Use \"as\" for the known cause, then explain the response after the comma.",
+      "level": 3
+    },
+    {
+      "id": "cause_041",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "There was a signal failure.",
+        "The train was late."
+      ],
+      "answer": [
+        "The train",
+        "was late",
+        "due to",
+        "a signal failure."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "\"Due to\" is followed by a noun phrase.",
+      "level": 1
+    },
+    {
+      "id": "cause_042",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "Rents are rising.",
+        "Many small shops have closed."
+      ],
+      "answer": [
+        "Due to",
+        "rising rents,",
+        "many small shops",
+        "have closed."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Unless"
+      ],
+      "hint": "\"Rents are rising\" becomes the noun phrase \"rising rents\".",
+      "level": 2
+    },
+    {
+      "id": "cause_043",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "The weather was bad.",
+        "The project was delayed."
+      ],
+      "answer": [
+        "The delay to the project",
+        "was",
+        "due to",
+        "bad weather."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "\"Due to\" can follow the verb \"be\"; then add a noun phrase.",
+      "level": 2
+    },
+    {
+      "id": "cause_044",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "There was a long drought.",
+        "Many crops failed."
+      ],
+      "answer": [
+        "Many crops",
+        "failed",
+        "due to",
+        "a long drought."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "Use \"due to\" + noun phrase to give the cause.",
+      "level": 1
+    },
+    {
+      "id": "cause_045",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "Healthcare has improved.",
+        "People are living longer than before."
+      ],
+      "answer": [
+        "Due to",
+        "improved healthcare,",
+        "people are living",
+        "longer than before."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "Change the cause into a noun phrase such as \"improved healthcare\".",
+      "level": 3
+    },
+    {
+      "id": "cause_046",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "Airline staff went on strike.",
+        "Many tourists cancelled their trips."
+      ],
+      "answer": [
+        "Many tourists",
+        "cancelled their trips",
+        "due to",
+        "a strike by airline staff."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "\"Due to\" cannot be followed by a subject and verb.",
+      "level": 2
+    },
+    {
+      "id": "cause_047",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "There was heavy snow.",
+        "Schools were closed."
+      ],
+      "answer": [
+        "Due to",
+        "the heavy snow,",
+        "schools",
+        "were closed."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Although"
+      ],
+      "hint": "Fronted \"due to\" + noun phrase, then a comma.",
+      "level": 1
+    },
+    {
+      "id": "cause_048",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "People eat more processed food than before.",
+        "Obesity rates have risen."
+      ],
+      "answer": [
+        "Obesity rates",
+        "have risen",
+        "due to",
+        "greater consumption",
+        "of processed food."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "Turn \"people eat more\" into a noun phrase: \"greater consumption of ...\".",
+      "level": 3
+    },
+    {
+      "id": "cause_049",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "Rain was forecast.",
+        "The festival was moved indoors."
+      ],
+      "answer": [
+        "The festival",
+        "was moved indoors",
+        "due to",
+        "the rain forecast."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "After \"due to\", use a noun phrase, not a clause.",
+      "level": 2
+    },
+    {
+      "id": "cause_050",
+      "connector": "due to",
+      "function": "Cause",
+      "sentences": [
+        "The company's customer service was poor.",
+        "It lost many customers."
+      ],
+      "answer": [
+        "The company",
+        "lost many customers",
+        "due to",
+        "its poor service."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "Result first, then \"due to\" + a noun phrase with \"its\".",
+      "level": 2
+    },
+    {
+      "id": "cause_051",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "The research project had no funding.",
+        "It was cancelled."
+      ],
+      "answer": [
+        "Owing to",
+        "a lack of funding,",
+        "the research project",
+        "was cancelled."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Unless"
+      ],
+      "hint": "\"Owing to\" is formal and takes a noun phrase such as \"a lack of ...\".",
+      "level": 2
+    },
+    {
+      "id": "cause_052",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "There was a flu outbreak.",
+        "Many workers were absent."
+      ],
+      "answer": [
+        "Many workers",
+        "were absent",
+        "owing to",
+        "a flu outbreak."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "Put the noun phrase for the cause straight after \"owing to\".",
+      "level": 1
+    },
+    {
+      "id": "cause_053",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "Processed food often contains a lot of salt.",
+        "It can be unhealthy."
+      ],
+      "answer": [
+        "Owing to",
+        "its high salt content,",
+        "processed food",
+        "can be unhealthy."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Although"
+      ],
+      "hint": "Make the cause a noun phrase (\"its high ... content\"), then a comma.",
+      "level": 3
+    },
+    {
+      "id": "cause_054",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "A tree has fallen across the road.",
+        "The road is closed."
+      ],
+      "answer": [
+        "The road",
+        "is closed",
+        "owing to",
+        "a fallen tree."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "\"Owing to\" + noun phrase: \"a fallen tree\", not \"a tree has fallen\".",
+      "level": 1
+    },
+    {
+      "id": "cause_055",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "The tickets were very expensive.",
+        "Ticket sales were low."
+      ],
+      "answer": [
+        "Ticket sales",
+        "were low",
+        "owing to",
+        "the high prices."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "After \"owing to\", use a noun phrase like \"the high prices\".",
+      "level": 1
+    },
+    {
+      "id": "cause_056",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "Remote work has grown.",
+        "Demand for office space has fallen."
+      ],
+      "answer": [
+        "Owing to",
+        "the growth of remote work,",
+        "demand for office space",
+        "has fallen."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "The verb \"has grown\" becomes the noun \"the growth of\" after \"owing to\".",
+      "level": 3
+    },
+    {
+      "id": "cause_057",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "The weather was hot.",
+        "The park was very busy."
+      ],
+      "answer": [
+        "Owing to",
+        "the hot weather,",
+        "the park",
+        "was very busy."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Unless"
+      ],
+      "hint": "Start with \"owing to\" + noun phrase, then a comma.",
+      "level": 1
+    },
+    {
+      "id": "cause_058",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "Factories release waste into rivers.",
+        "Many rivers are polluted."
+      ],
+      "answer": [
+        "Many rivers",
+        "are polluted",
+        "owing to",
+        "waste from factories."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "Effect first, then \"owing to\" + the noun phrase for the cause.",
+      "level": 2
+    },
+    {
+      "id": "cause_059",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "Some students have poor study skills.",
+        "They struggle at university."
+      ],
+      "answer": [
+        "Some students",
+        "struggle at university",
+        "owing to",
+        "poor study skills."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "\"Owing to\" needs a noun phrase, so drop the verb \"have\".",
+      "level": 2
+    },
+    {
+      "id": "cause_060",
+      "connector": "owing to",
+      "function": "Cause",
+      "sentences": [
+        "The weather at the airport was bad.",
+        "The flight was diverted."
+      ],
+      "answer": [
+        "The flight",
+        "was diverted",
+        "owing to",
+        "bad weather",
+        "at the airport."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "Give the result, then \"owing to\" + the cause as a noun phrase.",
+      "level": 1
+    },
+    {
+      "id": "cause_061",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "It rained heavily.",
+        "The game was abandoned."
+      ],
+      "answer": [
+        "The game",
+        "was abandoned",
+        "on account of",
+        "the heavy rain."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "\"On account of\" is formal and is followed by a noun phrase.",
+      "level": 1
+    },
+    {
+      "id": "cause_062",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "The bridge is very old.",
+        "It was closed to lorries."
+      ],
+      "answer": [
+        "On account of",
+        "its age,",
+        "the old bridge",
+        "was closed to lorries."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "\"Very old\" becomes the noun \"its age\" after \"on account of\".",
+      "level": 2
+    },
+    {
+      "id": "cause_063",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "Pupil numbers have fallen in rural areas.",
+        "Some rural schools have closed."
+      ],
+      "answer": [
+        "Some rural schools",
+        "have closed",
+        "on account of",
+        "falling pupil numbers."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "Turn the clause into a noun phrase: \"falling ... numbers\".",
+      "level": 3
+    },
+    {
+      "id": "cause_064",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "The winds were very strong.",
+        "The beach was closed."
+      ],
+      "answer": [
+        "The beach",
+        "was closed",
+        "on account of",
+        "the strong winds."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "Use \"on account of\" + noun phrase to explain why.",
+      "level": 1
+    },
+    {
+      "id": "cause_065",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "The cost of living is rising.",
+        "Many families eat out less."
+      ],
+      "answer": [
+        "On account of",
+        "the rising cost",
+        "of living,",
+        "many families",
+        "eat out less."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Although"
+      ],
+      "hint": "Fronted \"on account of\" + noun phrase, comma, then the main clause.",
+      "level": 2
+    },
+    {
+      "id": "cause_066",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "Local residents objected to the new airport.",
+        "Building work on it was delayed."
+      ],
+      "answer": [
+        "The new airport",
+        "was delayed",
+        "on account of",
+        "objections from residents."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "because",
+        "despite"
+      ],
+      "hint": "The verb \"objected\" becomes the noun \"objections\" after \"on account of\".",
+      "level": 3
+    },
+    {
+      "id": "cause_067",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "The queues were very long.",
+        "Many visitors left early."
+      ],
+      "answer": [
+        "On account of",
+        "the long queues,",
+        "many visitors",
+        "left early."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Unless"
+      ],
+      "hint": "Begin with \"on account of\" and a noun phrase, then a comma.",
+      "level": 1
+    },
+    {
+      "id": "cause_068",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "The athlete had a knee injury.",
+        "The athlete withdrew from the race."
+      ],
+      "answer": [
+        "The athlete",
+        "withdrew from the race",
+        "on account of",
+        "a knee injury."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "No subject or verb after \"on account of\": just the noun phrase.",
+      "level": 2
+    },
+    {
+      "id": "cause_069",
+      "connector": "on account of",
+      "function": "Cause",
+      "sentences": [
+        "Flights have become more expensive.",
+        "Tourism to the island has declined."
+      ],
+      "answer": [
+        "Tourism to the island",
+        "has declined",
+        "on account of",
+        "higher air fares."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "Express the cause as a noun phrase such as \"higher ... fares\".",
+      "level": 3
+    },
+    {
+      "id": "cause_070",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "Most jobs need computers.",
+        "Digital skills are essential."
+      ],
+      "answer": [
+        "Given that",
+        "most jobs need computers,",
+        "digital skills",
+        "are essential."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Due to",
+        "Unless"
+      ],
+      "hint": "\"Given that\" + clause presents a known fact as the reason.",
+      "level": 2
+    },
+    {
+      "id": "cause_071",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "The population is ageing.",
+        "More care homes will be needed."
+      ],
+      "answer": [
+        "Given that",
+        "the population is ageing,",
+        "more care homes",
+        "will be needed."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Owing to",
+        "Although"
+      ],
+      "hint": "\"Given that\" is followed by a full clause, then a comma.",
+      "level": 2
+    },
+    {
+      "id": "cause_072",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "Cycling is cheap and healthy.",
+        "Governments should invest in it."
+      ],
+      "answer": [
+        "Governments",
+        "should invest in cycling,",
+        "given that",
+        "it is cheap",
+        "and healthy."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "despite",
+        "because of"
+      ],
+      "hint": "\"Given that\" can follow the main clause to support an argument.",
+      "level": 3
+    },
+    {
+      "id": "cause_073",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "The course is free.",
+        "Many people have enrolled."
+      ],
+      "answer": [
+        "Given that",
+        "the course is free,",
+        "many people",
+        "have enrolled."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Due to"
+      ],
+      "hint": "After \"given that\", use subject + verb.",
+      "level": 1
+    },
+    {
+      "id": "cause_074",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "Water is scarce in the region.",
+        "Farmers must use it carefully."
+      ],
+      "answer": [
+        "Given that",
+        "water is scarce",
+        "in the region,",
+        "farmers",
+        "must use it carefully."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because of",
+        "Unless"
+      ],
+      "hint": "Start with \"given that\" and the fact, then a comma and the conclusion.",
+      "level": 2
+    },
+    {
+      "id": "cause_075",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "Children copy adults.",
+        "Parents should set a good example."
+      ],
+      "answer": [
+        "Given that",
+        "children copy adults,",
+        "parents",
+        "should set a good example."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Owing to"
+      ],
+      "hint": "\"Given that\" + clause is useful in essays to support a recommendation.",
+      "level": 3
+    },
+    {
+      "id": "cause_076",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "The main hotel is full.",
+        "The guests must stay elsewhere."
+      ],
+      "answer": [
+        "Given that",
+        "the main hotel is full,",
+        "the guests",
+        "must stay elsewhere."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Due to",
+        "Although"
+      ],
+      "hint": "Put the known fact after \"given that\", then a comma.",
+      "level": 1
+    },
+    {
+      "id": "cause_077",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "Fuel prices are high.",
+        "Many drivers are buying electric cars."
+      ],
+      "answer": [
+        "Given that",
+        "fuel prices are high,",
+        "many drivers",
+        "are buying electric cars."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Because of"
+      ],
+      "hint": "\"Given that\" needs a clause; \"because of\" would need a noun.",
+      "level": 2
+    },
+    {
+      "id": "cause_078",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "Most visitors arrive after work.",
+        "The museum should open later."
+      ],
+      "answer": [
+        "The museum",
+        "should open later,",
+        "given that",
+        "most visitors",
+        "arrive after work."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "owing to"
+      ],
+      "hint": "The recommendation comes first; \"given that\" adds the supporting fact.",
+      "level": 3
+    },
+    {
+      "id": "cause_079",
+      "connector": "given that",
+      "function": "Cause",
+      "sentences": [
+        "The exam is difficult.",
+        "Students need to revise early."
+      ],
+      "answer": [
+        "Given that",
+        "the exam is difficult,",
+        "students",
+        "need to revise early."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Due to"
+      ],
+      "hint": "\"Given that\" + subject + verb, then a comma and the main clause.",
+      "level": 1
+    },
+    {
+      "id": "cause_080",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "The school's results were poor.",
+        "The school has changed its methods."
+      ],
+      "answer": [
+        "In view of",
+        "the poor results,",
+        "the school",
+        "has changed its methods."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Although"
+      ],
+      "hint": "\"In view of\" is formal and takes a noun phrase, then a comma.",
+      "level": 2
+    },
+    {
+      "id": "cause_081",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "Demand for housing is rising.",
+        "The council will build more homes."
+      ],
+      "answer": [
+        "In view of",
+        "the rising demand,",
+        "the council",
+        "will build more homes."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Unless"
+      ],
+      "hint": "Change the clause into a noun phrase after \"in view of\".",
+      "level": 3
+    },
+    {
+      "id": "cause_082",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "There were safety risks.",
+        "The event was cancelled."
+      ],
+      "answer": [
+        "The event",
+        "was cancelled",
+        "in view of",
+        "the safety risks."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "\"In view of\" + noun phrase gives the reason for a decision.",
+      "level": 1
+    },
+    {
+      "id": "cause_083",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "Smoking indoors has health risks.",
+        "Many cities have banned it."
+      ],
+      "answer": [
+        "In view of",
+        "the health risks,",
+        "many cities",
+        "have banned smoking indoors."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "Fronted \"in view of\" + noun phrase, then a comma and the decision.",
+      "level": 3
+    },
+    {
+      "id": "cause_084",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "Waiting lists are long.",
+        "Some patients pay for private care."
+      ],
+      "answer": [
+        "In view of",
+        "the long waiting lists,",
+        "some patients",
+        "pay for private care."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Unless"
+      ],
+      "hint": "After \"in view of\", use a noun phrase, not a clause.",
+      "level": 2
+    },
+    {
+      "id": "cause_085",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "There was a storm warning.",
+        "The ferry did not sail."
+      ],
+      "answer": [
+        "In view of",
+        "the storm warning,",
+        "the ferry",
+        "did not sail."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Although"
+      ],
+      "hint": "Start with \"in view of\" + noun phrase, then a comma.",
+      "level": 1
+    },
+    {
+      "id": "cause_086",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "The economy is uncertain.",
+        "The company has delayed its expansion."
+      ],
+      "answer": [
+        "The company",
+        "has delayed its expansion",
+        "in view of",
+        "the uncertain economy."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "Decision first, then \"in view of\" + the reason as a noun phrase.",
+      "level": 3
+    },
+    {
+      "id": "cause_087",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "Students asked for longer opening hours.",
+        "The library has extended its hours."
+      ],
+      "answer": [
+        "The library",
+        "has extended its hours",
+        "in view of",
+        "student demand."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "\"In view of\" + noun phrase, such as \"student demand\".",
+      "level": 2
+    },
+    {
+      "id": "cause_088",
+      "connector": "in view of",
+      "function": "Cause",
+      "sentences": [
+        "There was a heatwave.",
+        "Outdoor work was stopped at noon."
+      ],
+      "answer": [
+        "In view of",
+        "the heatwave,",
+        "outdoor work",
+        "was stopped at noon."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "Use \"in view of\" + noun phrase to explain the decision.",
+      "level": 1
+    },
+    {
+      "id": "cause_089",
+      "connector": "seeing that",
+      "function": "Cause",
+      "sentences": [
+        "It is a sunny day.",
+        "The children can play outside."
+      ],
+      "answer": [
+        "Seeing that",
+        "it is a sunny day,",
+        "the children",
+        "can play outside."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Due to",
+        "Unless"
+      ],
+      "hint": "\"Seeing that\" is an informal \"since\"; avoid it in academic essays.",
+      "level": 2
+    },
+    {
+      "id": "cause_090",
+      "connector": "seeing that",
+      "function": "Cause",
+      "sentences": [
+        "The shop is closed.",
+        "We can buy bread tomorrow."
+      ],
+      "answer": [
+        "Seeing that",
+        "the shop is closed,",
+        "we can",
+        "buy bread tomorrow."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Despite",
+        "Owing to"
+      ],
+      "hint": "\"Seeing that\" + clause is informal; it means \"because\".",
+      "level": 2
+    }
+  ]
+}

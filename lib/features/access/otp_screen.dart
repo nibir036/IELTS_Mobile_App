@@ -141,7 +141,7 @@ class _OtpScreenState extends State<OtpScreen> {
           EmptyState(
             title: 'No sign-up in progress',
             message:
-                'Start by creating your account — we’ll text a verification code to your number.',
+                'Start by creating your account - we’ll text a verification code to your number.',
             icon: AppIcons.lock,
             actionLabel: 'Go to sign up',
             onAction: () => context.replace(Routes.signup),
@@ -260,8 +260,7 @@ class _OtpScreenState extends State<OtpScreen> {
         PrimaryButton(
           label: _busy ? 'Verifying…' : 'Verify & continue',
           onTap: ready && !_busy ? _verify : null,
-          bg: ready ? null : (t.isNight ? t.primary : const Color(0xFFCFC2CA)),
-          fg: ready ? null : (t.isNight ? t.onPrimary : const Color(0xFFFFFFFF)),
+          enabled: ready,
         ),
         if (!AppConfig.hasApi) const DemoHint('Demo build: use code $kDemoOtp'),
       ],
@@ -309,7 +308,7 @@ class _OtpBox extends StatelessWidget {
       child: CustomPaint(
         painter: _DashedBoxPainter(
           fill: t.surface,
-          stroke: t.isNight ? t.border : const Color(0xFFD4C6CF),
+          stroke: t.isNight ? t.border : const Color(0xFFE0CDC7),
           radius: 16,
         ),
       ),

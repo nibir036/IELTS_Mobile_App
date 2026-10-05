@@ -111,7 +111,6 @@ class _WritingEditorScreenState extends State<WritingEditorScreen>
           HeroCard(
             radius: 24,
             padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
-            gradient: t.isNight ? null : wSolid(0xFFDCDDFA),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               spacing: 8,
@@ -125,7 +124,7 @@ class _WritingEditorScreenState extends State<WritingEditorScreen>
                           onTap: pickPrompt,
                           child: WPill(
                             prompt.s('typeLabel'),
-                            bg: t.isNight ? t.heroChip : const Color(0xFFFFFFFF),
+                            bg: t.heroChip,
                             fg: t.heroText,
                           ),
                         ),
@@ -161,9 +160,7 @@ class _WritingEditorScreenState extends State<WritingEditorScreen>
                     prompt.s('requirement'),
                     style: TextStyle(
                       fontSize: 12,
-                      color: t.isNight
-                          ? t.heroMuted
-                          : const Color(0xFF4F4A6B),
+                      color: t.heroMuted,
                     ),
                   ),
                 ],
@@ -217,7 +214,7 @@ class _WritingEditorScreenState extends State<WritingEditorScreen>
                       value: minWords <= 0 ? 0 : words / minWords,
                       size: 36,
                       stroke: 4,
-                      track: wc(t, 0xFFF1E6EC, 0xFF262626),
+                      track: wc(t, 0xFFF6E8E4, 0xFF23273A),
                       fill: t.alert,
                     ),
                     Flexible(

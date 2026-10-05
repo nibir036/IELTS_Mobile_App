@@ -1,0 +1,412 @@
+{
+  "id": "w1",
+  "title": {"en": "Foundations", "bn": "ভিত্তি (Foundations)"},
+  "subtitle": {"en": "What good writing is and how examiners mark it", "bn": "ভাল writing কী, আর examiner কীভাবে marking করেন"},
+  "lessons": [
+    {
+      "id": "w1_l1",
+      "title": {"en": "Five Pillars of Good Writing", "bn": "ভাল লেখার পাঁচটি স্তম্ভ"},
+      "minutes": 9,
+      "xp": 40,
+      "intro": {"en": "Understand what actually gets you a high band in IELTS Writing and how examiners assess your essay.", "bn": "IELTS Writing-এ আসলে কী দিলে high band আসে, আর examiner আপনার essay কীভাবে বিচার করেন - সেটা বুঝে নিন।"},
+      "greeting": {"en": "Let's understand what makes a strong IELTS answer.", "bn": "চলুন বুঝে নিই, একটা শক্তিশালী IELTS উত্তর আসলে কেমন হয়।"},
+      "learned": [
+        {"en": "The 4 marking criteria", "bn": "৪টি marking criteria"},
+        {"en": "Task 1 vs Task 2 weighting", "bn": "Task 1 আর Task 2-এর গুরুত্বের পার্থক্য"},
+        {"en": "The five pillars of good writing", "bn": "ভাল লেখার পাঁচটি স্তম্ভ"},
+        {"en": "How examiners assess your answer", "bn": "Examiner কীভাবে আপনার উত্তর বিচার করেন"},
+        {"en": "Common mistakes to avoid", "bn": "যে সাধারণ ভুলগুলো এড়াতে হবে"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Can you get Band 7 with “good English”?", "bn": "শুধু “ভাল English” দিয়ে কি Band 7 পাওয়া যায়?"},
+          "prompt": {"en": "Read the paragraph below. Do you think this would get a high band in IELTS?", "bn": "নিচের paragraph-টা পড়ুন। আপনার কি মনে হয়, এটা IELTS-এ high band পাবে?"},
+          "passage": "Nowadays, many people think that governments should invest more in public transport because it is convenient and cheap. It can reduce traffic and pollution. I believe it is a good solution for cities.",
+          "options": [
+            {"en": "Yes, this would get a high band", "bn": "হ্যাঁ, এটা high band পাবে"},
+            {"en": "Not necessarily", "bn": "অবশ্যই না"}
+          ],
+          "answer": 1,
+          "right": {"en": "Not necessarily.", "bn": "অবশ্যই না।"},
+          "explain": {"en": "The English is fine, but IELTS looks at more than grammar. This paragraph states an opinion but gives no developed reasons or examples - the ideas are only listed. Let's see what actually matters.", "bn": "English ঠিক আছে, কিন্তু IELTS শুধু grammar দেখে না। এই paragraph-এ মতামত আছে, কিন্তু কোনো ব্যাখ্যা বা উদাহরণ দিয়ে idea-গুলো develop করা হয়নি - শুধু তালিকা করা হয়েছে। চলুন দেখি আসলে কী গুরুত্বপূর্ণ।"}
+        },
+        {
+          "type": "roadmap",
+          "title": {"en": "What you'll learn", "bn": "যা শিখবেন"},
+          "items": [
+            {"en": "Understand the 4 marking criteria", "bn": "৪টি marking criteria বুঝবেন"},
+            {"en": "Know the difference between Task 1 and Task 2", "bn": "Task 1 আর Task 2-এর পার্থক্য জানবেন"},
+            {"en": "See what examiners look for", "bn": "Examiner কী খোঁজেন তা দেখবেন"},
+            {"en": "Learn the five pillars of good writing", "bn": "ভাল লেখার পাঁচটি স্তম্ভ শিখবেন"},
+            {"en": "Apply this knowledge in practice", "bn": "শেখাটা practice-এ কাজে লাগাবেন"}
+          ],
+          "note": {"en": "These are the foundations. Once you understand this, the rest of your writing journey will be much easier.", "bn": "এগুলোই ভিত্তি। এটা বুঝে গেলে Writing-এর বাকি পথ অনেক সহজ হয়ে যাবে।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "The 4 Marking Criteria", "bn": "৪টি Marking Criteria"},
+          "intro": {"en": "Every Task 1 and Task 2 answer is scored on four criteria, each worth 25% of the task band. Tap each one to learn more.", "bn": "Task 1 আর Task 2-এর প্রতিটা উত্তর চারটি criteria-তে মূল্যায়ন হয় - প্রতিটার ওজন ২৫%। প্রতিটায় tap করে বিস্তারিত দেখুন।"},
+          "cards": [
+            {"icon": "target", "title": {"en": "Task Achievement / Task Response", "bn": "Task Achievement / Task Response"},
+             "body": {"en": "Did you actually answer the question? For Task 1, did you report the main features with a clear overview and accurate data (150+ words, no opinion)? For Task 2, did you answer every part, keep a clear position and develop your ideas with reasons and examples (250+ words)?", "bn": "আপনি কি প্রশ্নের উত্তরটাই দিয়েছেন? Task 1-এ: পরিষ্কার overview আর সঠিক data সহ মূল বৈশিষ্ট্যগুলো report করেছেন কি (১৫০+ শব্দ, কোনো মতামত নয়)? Task 2-এ: প্রশ্নের প্রতিটা অংশের উত্তর, স্পষ্ট position, আর কারণ ও উদাহরণ দিয়ে idea develop করেছেন কি (২৫০+ শব্দ)?"}},
+            {"icon": "link", "title": {"en": "Coherence & Cohesion", "bn": "Coherence & Cohesion"},
+             "body": {"en": "Is your answer organised in clear paragraphs, each about one idea, in a logical order? Do linking words connect the ideas naturally - without overusing them?", "bn": "উত্তরটা কি পরিষ্কার paragraph-এ সাজানো, প্রতিটায় একটাই idea, যুক্তিসঙ্গত ক্রমে? Linking word দিয়ে idea-গুলো কি স্বাভাবিকভাবে জোড়া - অতিরিক্ত ব্যবহার ছাড়া?"}},
+            {"icon": "book", "title": {"en": "Lexical Resource", "bn": "Lexical Resource"},
+             "body": {"en": "Is your vocabulary wide and accurate? Examiners look at how many different words you use correctly, whether you avoid repeating the same word, and your spelling.", "bn": "আপনার শব্দভাণ্ডার কি বিস্তৃত আর নির্ভুল? Examiner দেখেন আপনি কতগুলো আলাদা শব্দ সঠিকভাবে ব্যবহার করছেন, একই শব্দ বারবার এড়াচ্ছেন কিনা, আর বানান ঠিক আছে কিনা।"}},
+            {"icon": "settings", "title": {"en": "Grammatical Range & Accuracy", "bn": "Grammatical Range & Accuracy"},
+             "body": {"en": "Do you use a variety of sentence types - simple, compound and complex - and are most of them error-free? Accuracy matters as much as range.", "bn": "আপনি কি নানা ধরনের বাক্য - simple, compound, complex - ব্যবহার করছেন, আর সেগুলোর বেশিরভাগ কি ভুলমুক্ত? Range যতটা জরুরি, accuracy-ও ততটাই।"}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Which task matters more in your final band?", "bn": "Final band-এ কোন task-এর গুরুত্ব বেশি?"},
+          "prompt": {"en": "Task 1 and Task 2 have different weight in your overall Writing score. Which one do you think is more important?", "bn": "আপনার Writing score-এ Task 1 আর Task 2-এর ওজন আলাদা। কোনটা বেশি গুরুত্বপূর্ণ বলে মনে হয়?"},
+          "options": [
+            {"en": "Task 1", "bn": "Task 1", "sub": {"en": "It's equally important", "bn": "দুটোর গুরুত্ব সমান"}},
+            {"en": "Task 2", "bn": "Task 2", "sub": {"en": "It carries more weight", "bn": "এর ওজন বেশি"}}
+          ],
+          "answer": 1,
+          "bars": [{"label": "Task 1", "value": 0.33, "text": "33%"}, {"label": "Task 2", "value": 0.67, "text": "67%"}],
+          "explain": {"en": "Task 2 is worth twice as much as Task 1, so your Task 2 strategy is crucial for a higher band. Most students spend about 20 minutes on Task 1 and 40 minutes on Task 2.", "bn": "Task 2-এর ওজন Task 1-এর দ্বিগুণ, তাই higher band-এর জন্য Task 2-এর strategy সবচেয়ে জরুরি। সাধারণত Task 1-এ প্রায় ২০ মিনিট আর Task 2-এ প্রায় ৪০ মিনিট দেওয়া হয়।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "The Five Pillars", "bn": "পাঁচটি স্তম্ভ"},
+          "intro": {"en": "IELTS is ordinary good English writing with a specific format on top. Good writing has five qualities.", "bn": "IELTS আসলে সাধারণ ভাল English writing, যার ওপর একটা নির্দিষ্ট format বসানো। ভাল লেখার পাঁচটি গুণ আছে।"},
+          "cards": [
+            {"icon": "check", "title": {"en": "1. Correctness", "bn": "১. শুদ্ধতা (Correctness)"},
+             "body": {"en": "Free of mistakes - especially spelling that changes meaning (advice / advise, then / than) and five basic grammar errors: tense, subject–verb agreement, singular/plural, adjective/adverb and unclear pronouns.", "bn": "ভুলমুক্ত লেখা - বিশেষ করে যে বানান ভুলে অর্থ বদলে যায় (advice / advise, then / than), আর পাঁচটা basic grammar ভুল: tense, subject–verb agreement, singular/plural, adjective/adverb, আর অস্পষ্ট pronoun।"}},
+            {"icon": "book", "title": {"en": "2. Vocabulary", "bn": "২. শব্দভাণ্ডার (Vocabulary)"},
+             "body": {"en": "Use precise, slightly less common words - but only when you are sure of them - and avoid repeating the same word by using synonyms.", "bn": "নির্ভুল, একটু কম-প্রচলিত শব্দ ব্যবহার করুন - কিন্তু শুধু নিশ্চিত হলে - আর synonym দিয়ে একই শব্দের পুনরাবৃত্তি এড়ান।"}},
+            {"icon": "layers", "title": {"en": "3. Sentence structure", "bn": "৩. বাক্যের গঠন (Sentence structure)"},
+             "body": {"en": "Mix simple, compound and complex sentences. A correct simple sentence is always better than an incorrect complex one.", "bn": "Simple, compound আর complex বাক্য মিশিয়ে লিখুন। ভুল complex বাক্যের চেয়ে সঠিক simple বাক্য সবসময় ভাল।"}},
+            {"icon": "swap", "title": {"en": "4. Active or passive voice", "bn": "৪. Active না passive voice"},
+             "body": {"en": "The active voice is the natural choice - direct and clear. Use the passive only when the doer doesn't matter or is unknown, or to describe a process.", "bn": "Active voice-ই স্বাভাবিক - সরাসরি আর পরিষ্কার। Passive শুধু তখনই, যখন কাজটা কে করেছে তা গুরুত্বহীন বা অজানা, অথবা কোনো process বর্ণনা করছেন।"}},
+            {"icon": "link", "title": {"en": "5. Coherence", "bn": "৫. Coherence"},
+             "body": {"en": "Writing that holds together: each paragraph has one idea, a clear topic sentence, sentences that stay relevant, and a logical order.", "bn": "লেখা যেন একসাথে গাঁথা থাকে: প্রতিটা paragraph-এ একটাই idea, স্পষ্ট topic sentence, প্রাসঙ্গিক বাক্য, আর যুক্তিসঙ্গত ক্রম।"}}
+          ]
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Coherence & Cohesion", "bn": "Coherence & Cohesion"},
+          "intro": {"en": "Coherence means your ideas are logically organised. Cohesion means you use linking words and references to connect ideas.", "bn": "Coherence মানে আপনার idea-গুলো যুক্তিসঙ্গতভাবে সাজানো। Cohesion মানে linking word আর reference দিয়ে idea-গুলো জোড়া লাগানো।"},
+          "weak": {"label": {"en": "Weak (disconnected)", "bn": "দুর্বল (বিচ্ছিন্ন)"}, "text": "Online learning is flexible. Many students prefer it. It can also be cheaper."},
+          "strong": {"label": {"en": "Stronger (with cohesion)", "bn": "শক্তিশালী (cohesion সহ)"}, "text": "Online learning is flexible, which is one reason many students prefer it. In addition, it can also be cheaper.", "mark": "In addition"},
+          "tip": {"en": "Use linking words naturally. Don't overuse the same connectors.", "bn": "Linking word স্বাভাবিকভাবে ব্যবহার করুন। একই connector বারবার নয়।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which version shows better coherence and cohesion?", "bn": "কোন version-এ coherence আর cohesion ভাল?"},
+          "options": [
+            {"en": "Although online learning is flexible many students prefer it it can also be cheaper."},
+            {"en": "Online learning is flexible, which is one reason many students prefer it. In addition, it can also be cheaper."}
+          ],
+          "answer": 1,
+          "right": {"en": "Exactly!", "bn": "একদম ঠিক!"},
+          "explain": {"en": "Option B uses a relative clause and a linking word to connect the ideas, so the paragraph flows. Option A has no punctuation, and “Although” promises a contrast that never comes.", "bn": "Option B-তে relative clause আর linking word দিয়ে idea-গুলো জোড়া, তাই paragraph-টা সাবলীল। Option A-তে কোনো punctuation নেই, আর “Although” একটা বিপরীত কথার ইঙ্গিত দেয় যা আর আসে না।"}
+        },
+        {
+          "type": "practice",
+          "title": {"en": "Practice: Task 2 question", "bn": "Practice: Task 2 প্রশ্ন"},
+          "promptId": "wb2_opinion_04",
+          "items": [
+            {"en": "Plan your answer", "bn": "উত্তরের plan করুন", "minutes": 5, "action": "plan"},
+            {"en": "Write your essay", "bn": "Essay লিখুন", "minutes": 35, "action": "write"},
+            {"en": "Check with AI (optional)", "bn": "AI দিয়ে যাচাই (ঐচ্ছিক)", "action": "check"}
+          ],
+          "plan": [
+            {"en": "Decide your position: agree, disagree or partly agree.", "bn": "আপনার position ঠিক করুন: একমত, দ্বিমত, নাকি আংশিক একমত।"},
+            {"en": "Write two main reasons - one paragraph each.", "bn": "দুটি প্রধান কারণ লিখুন - প্রতিটার জন্য একটা paragraph।"},
+            {"en": "Add one explanation and one example for every reason.", "bn": "প্রতিটা কারণের জন্য একটা ব্যাখ্যা আর একটা উদাহরণ যোগ করুন।"},
+            {"en": "State your opinion in the introduction and repeat it in the conclusion.", "bn": "Introduction-এই মতামত বলুন, আর conclusion-এ আবার বলুন।"}
+          ],
+          "tip": {"en": "Clearly state your position, then support each reason with an explanation and a specific example.", "bn": "Position স্পষ্টভাবে বলুন, তারপর প্রতিটা কারণকে ব্যাখ্যা আর নির্দিষ্ট উদাহরণ দিয়ে সমর্থন করুন।"}
+        },
+        {
+          "type": "sampleFeedback",
+          "title": {"en": "AI Feedback", "bn": "AI Feedback"},
+          "intro": {"en": "This is an example of the report you get when you check an essay with AI.", "bn": "AI দিয়ে essay যাচাই করলে এমন একটা report পাবেন - এটা একটা উদাহরণ।"},
+          "band": 5.5,
+          "criteria": [
+            {"name": "Task Response", "band": 6.0},
+            {"name": "Coherence & Cohesion", "band": 5.0},
+            {"name": "Lexical Resource", "band": 5.5},
+            {"name": "Grammar", "band": 5.5}
+          ],
+          "good": [
+            {"en": "You presented a clear opinion.", "bn": "আপনি স্পষ্ট মতামত দিয়েছেন।"},
+            {"en": "You used some good linking words.", "bn": "কিছু ভাল linking word ব্যবহার করেছেন।"}
+          ],
+          "improve": [
+            {"en": "Ideas are listed rather than developed.", "bn": "Idea-গুলো develop না করে শুধু তালিকা করা হয়েছে।"},
+            {"en": "Some paragraphs lack specific examples.", "bn": "কিছু paragraph-এ নির্দিষ্ট উদাহরণ নেই।"},
+            {"en": "Try to use a wider range of vocabulary.", "bn": "আরও বৈচিত্র্যময় শব্দ ব্যবহারের চেষ্টা করুন।"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w1_l2",
+      "title": {"en": "Correctness and Vocabulary", "bn": "শুদ্ধতা ও শব্দভাণ্ডার"},
+      "minutes": 8,
+      "xp": 40,
+      "intro": {"en": "The first two pillars: mistakes that cost the most marks, and how to show a wider vocabulary safely.", "bn": "প্রথম দুই স্তম্ভ: যে ভুলে সবচেয়ে বেশি নম্বর কাটে, আর কীভাবে নিরাপদে বিস্তৃত শব্দভাণ্ডার দেখাবেন।"},
+      "greeting": {"en": "Small mistakes add up. Let's fix the costly ones first.", "bn": "ছোট ভুলও জমে বড় হয়। আগে দামি ভুলগুলো ঠিক করি।"},
+      "learned": [
+        {"en": "Spelling mistakes that change meaning", "bn": "যে বানান ভুলে অর্থ বদলে যায়"},
+        {"en": "The five basic grammar mistakes", "bn": "পাঁচটি basic grammar ভুল"},
+        {"en": "Precise words - only when you're sure", "bn": "নির্ভুল শব্দ - শুধু নিশ্চিত হলে"},
+        {"en": "Synonyms to avoid repetition", "bn": "পুনরাবৃত্তি এড়াতে synonym"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Which mistake costs more?", "bn": "কোন ভুলের দাম বেশি?"},
+          "prompt": {"en": "Both are spelling mistakes. Which one will an examiner treat more seriously?", "bn": "দুটোই বানান ভুল। কোনটাকে examiner বেশি গুরুতর ধরবেন?"},
+          "options": [
+            {"en": "“teh” instead of “the”"},
+            {"en": "“then” instead of “than”"}
+          ],
+          "answer": 1,
+          "explain": {"en": "“teh” is a slip of the pen and does little harm if rare. But “then” for “than” changes the meaning, so the examiner treats it as using the wrong word - far more serious.", "bn": "“teh” হলো হাতের slip - কম হলে তেমন ক্ষতি নেই। কিন্তু “than”-এর জায়গায় “then” অর্থই বদলে দেয়, তাই examiner একে “ভুল শব্দ ব্যবহার” ধরেন - যা অনেক বেশি গুরুতর।"}
+        },
+        {"type": "read", "title": {"en": "Spelling that changes meaning", "bn": "যে বানানে অর্থ বদলায়"}, "chapter": "intro_pillars", "from": 7, "to": 10},
+        {"type": "read", "title": {"en": "Five basic grammar mistakes", "bn": "পাঁচটি basic grammar ভুল"}, "chapter": "intro_pillars", "from": 11, "to": 14},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Choose the correct sentence.", "bn": "সঠিক বাক্যটি বেছে নিন।"},
+          "options": [
+            {"en": "The number of cars have increased."},
+            {"en": "The number of cars has increased."}
+          ],
+          "answer": 1,
+          "explain": {"en": "The subject is “the number” (singular), not “cars”, so the verb is “has”. Subject–verb agreement is one of the five basic mistakes examiners notice at once.", "bn": "এখানে subject হলো “the number” (একবচন), “cars” নয় - তাই verb হবে “has”। Subject–verb agreement সেই পাঁচটা basic ভুলের একটা, যা examiner সাথে সাথে ধরেন।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which sentence is correct?", "bn": "কোন বাক্যটি সঠিক?"},
+          "options": [
+            {"en": "Sales rose significant."},
+            {"en": "Sales rose significantly."}
+          ],
+          "answer": 1,
+          "explain": {"en": "“Rose” is a verb, and verbs are described by adverbs: rose significantly. This adjective/adverb mix-up is very common in Task 1.", "bn": "“Rose” একটা verb, আর verb-কে বর্ণনা করে adverb: rose significantly। Task 1-এ adjective/adverb-এর এই গুলিয়ে ফেলা খুব সাধারণ ভুল।"}
+        },
+        {"type": "read", "title": {"en": "Rule A: precise words, if you are sure", "bn": "নিয়ম A: নিশ্চিত হলে নির্ভুল শব্দ"}, "chapter": "intro_pillars", "from": 15, "to": 20},
+        {
+          "type": "contrast",
+          "title": {"en": "Rule B: use synonyms", "bn": "নিয়ম B: synonym ব্যবহার করুন"},
+          "intro": {"en": "Question: Why do you want to study in a foreign country? The same idea, written twice.", "bn": "প্রশ্ন: Why do you want to study in a foreign country? একই idea, দুইভাবে লেখা।"},
+          "weak": {"label": {"en": "Repetitive", "bn": "পুনরাবৃত্তিমূলক"}, "text": "I want to study in a foreign country because foreign universities are better than universities in my country. Foreign universities have better teachers. If I study in a foreign country I can get a part-time job."},
+          "strong": {"label": {"en": "Varied", "bn": "বৈচিত্র্যময়"}, "text": "I want to study abroad because overseas institutions offer higher standards than those at home. Their teachers are better qualified, and studying in another country would also allow me to work part-time.", "mark": "abroad"},
+          "tip": {"en": "Before you start writing, note two synonyms for each key noun in the question: children → young people, the young; technology → digital tools, devices.", "bn": "লেখা শুরুর আগে প্রশ্নের প্রতিটা key noun-এর পাশে দুটো synonym লিখে রাখুন: children → young people, the young; technology → digital tools, devices।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which phrase is the best upgrade for “a big problem”?", "bn": "“a big problem”-এর সবচেয়ে ভাল upgrade কোনটা?"},
+          "options": [
+            {"en": "a hugely big problem"},
+            {"en": "a significant problem"},
+            {"en": "a problem very big"}
+          ],
+          "answer": 1,
+          "explain": {"en": "“A significant problem” is precise and natural. Stacking intensifiers (hugely big) or wrong word order doesn't improve vocabulary - it adds errors.", "bn": "“A significant problem” নির্ভুল আর স্বাভাবিক। অতিরিক্ত শব্দ জুড়লে (hugely big) বা word order ভুল করলে vocabulary বাড়ে না - উল্টে ভুল বাড়ে।"}
+        }
+      ]
+    },
+    {
+      "id": "w1_l3",
+      "title": {"en": "Sentences and Voice", "bn": "বাক্য ও Voice"},
+      "minutes": 8,
+      "xp": 40,
+      "intro": {"en": "Pillars three and four: mixing sentence types safely, and when to use the passive voice.", "bn": "তৃতীয় ও চতুর্থ স্তম্ভ: নিরাপদে নানা ধরনের বাক্য মেশানো, আর কখন passive voice ব্যবহার করবেন।"},
+      "greeting": {"en": "Long sentences aren't automatically better. Let's see why.", "bn": "লম্বা বাক্য মানেই ভাল নয়। চলুন দেখি কেন।"},
+      "learned": [
+        {"en": "Simple, compound and complex sentences", "bn": "Simple, compound আর complex বাক্য"},
+        {"en": "The golden rule of accuracy", "bn": "Accuracy-র সোনালি নিয়ম"},
+        {"en": "Avoiding double connectors", "bn": "Double connector এড়ানো"},
+        {"en": "When the passive voice is right", "bn": "কখন passive voice ঠিক"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Which scores better?", "bn": "কোনটা বেশি নম্বর পায়?"},
+          "prompt": {"en": "In IELTS Writing, which is better?", "bn": "IELTS Writing-এ কোনটা ভাল?"},
+          "options": [
+            {"en": "A correct simple sentence", "bn": "একটা সঠিক simple বাক্য"},
+            {"en": "An ambitious complex sentence with a mistake", "bn": "ভুলসহ একটা উচ্চাভিলাষী complex বাক্য"}
+          ],
+          "answer": 0,
+          "explain": {"en": "Golden rule: a correct simple sentence is always better than an incorrect complex one. If you're not sure, split the long sentence into two and join them with a linking word.", "bn": "সোনালি নিয়ম: ভুল complex বাক্যের চেয়ে সঠিক simple বাক্য সবসময় ভাল। নিশ্চিত না হলে লম্বা বাক্যটা দুটো ভাগ করে linking word দিয়ে জুড়ুন।"}
+        },
+        {"type": "read", "title": {"en": "Three kinds of sentence", "bn": "তিন ধরনের বাক্য"}, "chapter": "intro_pillars", "from": 28, "to": 31},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "“Although the metro is fast, many people still drive because they dislike crowds.” What kind of sentence is this?", "bn": "“Although the metro is fast, many people still drive because they dislike crowds.” - এটা কোন ধরনের বাক্য?"},
+          "options": [{"en": "Simple"}, {"en": "Compound"}, {"en": "Complex"}],
+          "answer": 2,
+          "explain": {"en": "It has a main idea (many people still drive) plus dependent parts introduced by “although” and “because” - that makes it complex.", "bn": "এতে একটা main idea (many people still drive) আছে, সাথে “although” আর “because” দিয়ে শুরু হওয়া dependent অংশ - তাই এটা complex।"}
+        },
+        {"type": "read", "title": {"en": "The double connector trap", "bn": "Double connector-এর ফাঁদ"}, "chapter": "intro_pillars", "from": 31, "to": 34},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which sentence is correct?", "bn": "কোন বাক্যটি সঠিক?"},
+          "options": [
+            {"en": "Although it was raining, but we went out."},
+            {"en": "Although it was raining, we went out."},
+            {"en": "Despite of the rain, we went out."}
+          ],
+          "answer": 1,
+          "explain": {"en": "Only one joining word goes between two clauses, so “although … but” is wrong. And it's “despite the rain” or “in spite of the rain” - never “despite of”.", "bn": "দুটো clause-এর মাঝে একটাই joining word বসে, তাই “although … but” ভুল। আর লিখতে হবে “despite the rain” বা “in spite of the rain” - কখনো “despite of” নয়।"}
+        },
+        {"type": "read", "title": {"en": "Active or passive?", "bn": "Active না passive?"}, "chapter": "intro_pillars", "from": 34, "to": 40},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "When is the passive voice the right choice?", "bn": "কখন passive voice ব্যবহার করা ঠিক?"},
+          "options": [
+            {"en": "To make writing sound more academic", "bn": "লেখাকে বেশি academic শোনাতে"},
+            {"en": "To describe a process, like a Task 1 flow chart", "bn": "কোনো process বর্ণনায়, যেমন Task 1 flow chart"},
+            {"en": "In every Task 2 introduction", "bn": "প্রতিটা Task 2 introduction-এ"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Describing a process is one of the five cases for the passive (“The beans are roasted, then ground”). Using it just to sound academic is a misconception - the active voice is clearer.", "bn": "Process বর্ণনা passive ব্যবহারের পাঁচটা ক্ষেত্রের একটা (“The beans are roasted, then ground”)। শুধু academic শোনাতে passive ব্যবহার একটা ভুল ধারণা - active voice বেশি পরিষ্কার।"}
+        }
+      ]
+    },
+    {
+      "id": "w1_l4",
+      "title": {"en": "Coherence: Paragraphs That Hold Together", "bn": "Coherence: যে paragraph একসাথে গাঁথা"},
+      "minutes": 8,
+      "xp": 40,
+      "intro": {"en": "The fifth pillar: what a paragraph is, how long it should be, and how to keep every sentence on topic.", "bn": "পঞ্চম স্তম্ভ: paragraph কী, কত বড় হওয়া উচিত, আর প্রতিটা বাক্যকে কীভাবে বিষয়ের মধ্যে রাখবেন।"},
+      "greeting": {"en": "A paragraph can be grammatically perfect and still lose marks. Here's how.", "bn": "একটা paragraph grammar-এ নিখুঁত হয়েও নম্বর হারাতে পারে। দেখুন কীভাবে।"},
+      "learned": [
+        {"en": "What a paragraph is and its ideal length", "bn": "Paragraph কী আর তার আদর্শ দৈর্ঘ্য"},
+        {"en": "Relevance and the topic sentence", "bn": "প্রাসঙ্গিকতা আর topic sentence"},
+        {"en": "Spotting drift", "bn": "Drift চেনা"},
+        {"en": "Ordering your points", "bn": "Point-গুলো সাজানো"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Is this paragraph coherent?", "bn": "এই paragraph কি coherent?"},
+          "prompt": {"en": "Read it carefully. Each sentence connects to the one before it.", "bn": "মন দিয়ে পড়ুন। প্রতিটা বাক্য তার আগের বাক্যের সাথে যুক্ত।"},
+          "passage": "City life and village life are very different. In the city, people work long hours in offices. Long hours make people tired. Tired people often argue with their family. Family arguments can lead to divorce. Divorce is increasing in my country.",
+          "options": [
+            {"en": "Yes - every sentence links to the previous one", "bn": "হ্যাঁ - প্রতিটা বাক্য আগেরটার সাথে যুক্ত"},
+            {"en": "No - it drifts away from its topic sentence", "bn": "না - এটা topic sentence থেকে সরে গেছে"}
+          ],
+          "answer": 1,
+          "explain": {"en": "The topic sentence promises differences between city and village life, but the paragraph drifts to tiredness, arguments and divorce. Linked sentences aren't enough - the whole paragraph must support the topic sentence.", "bn": "Topic sentence বলছে শহর আর গ্রামের জীবনের পার্থক্যের কথা, কিন্তু paragraph-টা সরে গেছে ক্লান্তি, ঝগড়া আর divorce-এ। বাক্যগুলো পরস্পর যুক্ত হলেই হবে না - পুরো paragraph-কে topic sentence-কে সমর্থন করতে হবে।"}
+        },
+        {"type": "read", "title": {"en": "What is a paragraph?", "bn": "Paragraph কী?"}, "chapter": "intro_pillars", "from": 42, "to": 48},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "What is an ideal paragraph length in modern writing?", "bn": "আধুনিক লেখায় paragraph-এর আদর্শ দৈর্ঘ্য কত?"},
+          "options": [{"en": "30–50 words"}, {"en": "80–150 words"}, {"en": "250 words or more"}],
+          "answer": 1,
+          "explain": {"en": "About 80–150 words (roughly 5–8 lines). Beyond 200 words the reader loses the thread.", "bn": "প্রায় ৮০–১৫০ শব্দ (মোটামুটি ৫–৮ লাইন)। ২০০ শব্দের বেশি হলে পাঠক খেই হারিয়ে ফেলেন।"}
+        },
+        {"type": "read", "title": {"en": "Relevance and the topic sentence", "bn": "প্রাসঙ্গিকতা ও topic sentence"}, "chapter": "intro_pillars", "from": 48, "to": 54},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which is the better topic sentence?", "bn": "কোনটা ভাল topic sentence?"},
+          "options": [
+            {"en": "Many people move to cities."},
+            {"en": "People move to cities for three main reasons."}
+          ],
+          "answer": 1,
+          "explain": {"en": "The first is vague - is the paragraph about reasons, problems or benefits? The second tells the reader exactly what's coming.", "bn": "প্রথমটা অস্পষ্ট - paragraph-টা কি কারণ, সমস্যা, নাকি সুবিধা নিয়ে? দ্বিতীয়টা পাঠককে ঠিক বলে দেয় সামনে কী আসছে।"}
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Order of thought", "bn": "চিন্তার ক্রম"},
+          "intro": {"en": "The same paragraph, rewritten to be relevant and ordered.", "bn": "একই paragraph, প্রাসঙ্গিক আর সাজানো করে আবার লেখা।"},
+          "weak": {"label": {"en": "Drifting", "bn": "বিষয় থেকে সরে যাওয়া"}, "text": "City life and village life are very different. In the city, people work long hours in offices. Long hours make people tired. Tired people often argue with their family. Family arguments can lead to divorce."},
+          "strong": {"label": {"en": "Relevant and ordered", "bn": "প্রাসঙ্গিক ও সাজানো"}, "text": "City life and village life differ in three important ways. First, work in the city is mostly in offices and factories with fixed hours, whereas village work follows the seasons. Second, city families are usually small and live far from relatives, but village families are large and neighbours are often cousins. Finally, the cost of living is much higher in the city, especially rent, while villagers often own their land and grow their own food.", "mark": "First"},
+          "tip": {"en": "Check yourself: cover everything except the topic sentence, then read each sentence and ask, “Does this support the topic sentence?” If not, cut it or move it.", "bn": "নিজে যাচাই করুন: topic sentence ছাড়া বাকিটা ঢেকে দিন, তারপর প্রতিটা বাক্য পড়ে জিজ্ঞেস করুন - “এটা কি topic sentence-কে সমর্থন করছে?” না করলে বাদ দিন বা সরিয়ে দিন।"}
+        }
+      ]
+    },
+    {
+      "id": "w1_l5",
+      "title": {"en": "Cohesion: Linking Words", "bn": "Cohesion: Linking word"},
+      "minutes": 10,
+      "xp": 50,
+      "intro": {"en": "Connective (signpost) words tell the reader what kind of sentence comes next. Learn their nine jobs and the three traps.", "bn": "Connective (signpost) word পাঠককে আগেই জানিয়ে দেয় পরের বাক্যটা কেমন হবে। এদের নয়টি কাজ আর তিনটি ফাঁদ শিখুন।"},
+      "greeting": {"en": "Linking words turn a list of sentences into real writing.", "bn": "Linking word বাক্যের তালিকাকে আসল লেখায় রূপ দেয়।"},
+      "learned": [
+        {"en": "The nine jobs of linking words", "bn": "Linking word-এর নয়টি কাজ"},
+        {"en": "“On the contrary” vs “on the other hand”", "bn": "“On the contrary” বনাম “on the other hand”"},
+        {"en": "Phrases to avoid", "bn": "যে phrase এড়াতে হবে"},
+        {"en": "The three connective traps", "bn": "Connective-এর তিনটি ফাঁদ"}
+      ],
+      "steps": [
+        {
+          "type": "contrast",
+          "title": {"en": "See the difference", "bn": "পার্থক্যটা দেখুন"},
+          "intro": {"en": "The same sentences and the same ideas - written twice.", "bn": "একই বাক্য, একই idea - দুইভাবে লেখা।"},
+          "weak": {"label": {"en": "Without connectives", "bn": "Connective ছাড়া"}, "text": "Online learning has grown fast. Students can study from anywhere. They can watch a lesson many times. It is cheaper than a classroom course. There are problems. Students feel alone. Many stop before the end."},
+          "strong": {"label": {"en": "With connectives", "bn": "Connective সহ"}, "text": "Online learning has grown fast in recent years. To begin with, students can study from anywhere, and moreover they can watch a lesson as many times as they like. In addition, it is far cheaper than a classroom course. However, there are problems. Many students feel isolated, and as a result a large number give up before the end.", "mark": "However"},
+          "tip": {"en": "The second one reads like writing; the first is a shopping list.", "bn": "দ্বিতীয়টা পড়লে লেখা মনে হয়; প্রথমটা যেন বাজারের ফর্দ।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "Nine jobs of linking words", "bn": "Linking word-এর নয়টি কাজ"},
+          "intro": {"en": "Each job has its own signal words. Tap through them all.", "bn": "প্রতিটা কাজের নিজস্ব signal word আছে। সবগুলো tap করে দেখুন।"},
+          "cards": [
+            {"icon": "play", "title": {"en": "1. Starting", "bn": "১. শুরু করা"}, "body": {"en": "To begin with, a large city offers far more jobs than a small town.\nAlso: First of all, Firstly, In the first place."}},
+            {"icon": "add", "title": {"en": "2. Adding", "bn": "২. যোগ করা"}, "body": {"en": "In addition, the best schools and hospitals are usually in the city.\nAlso: Moreover, Furthermore, Besides, Similarly, What is more."}},
+            {"icon": "list", "title": {"en": "3. Examples", "bn": "৩. উদাহরণ"}, "body": {"en": "For instance, all the country's top universities are in the capital.\nAlso: For example, Such as, To illustrate, In particular, Namely."}},
+            {"icon": "swap", "title": {"en": "4. Contrasting", "bn": "৪. বিপরীত কথা"}, "body": {"en": "However, city life also brings serious problems.\nAlso: In contrast, On the other hand, Nevertheless, Whereas, While, Although."}},
+            {"icon": "doc", "title": {"en": "5. Summarising", "bn": "৫. সংক্ষেপ"}, "body": {"en": "In short, the problems of city living cannot be ignored.\nAlso: In brief, Briefly, To put it simply, Overall."}},
+            {"icon": "chat", "title": {"en": "6. Opinion", "bn": "৬. মতামত"}, "body": {"en": "Undoubtedly, anyone moving to the capital must accept a lower quality of air.\nFirm: Clearly, Certainly. Soft: Arguably, To some extent, It seems that."}},
+            {"icon": "forward", "title": {"en": "7. Cause and effect", "bn": "৭. কারণ ও ফলাফল"}, "body": {"en": "Consequently, thousands of people migrate to the capital every year.\nAlso: As a result, Therefore, Thus, Hence, For this reason."}},
+            {"icon": "clock", "title": {"en": "8. Sequence", "bn": "৮. ক্রম"}, "body": {"en": "At present I am an undergraduate. After that, I plan to do a master's degree.\nAlso: Currently, Previously, Subsequently, Eventually."}},
+            {"icon": "flag", "title": {"en": "9. Concluding", "bn": "৯. উপসংহার"}, "body": {"en": "In conclusion, city life offers opportunity at a price.\nAlso: To sum up, To conclude, In summary."}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "He is not lazy; ______, he works twelve hours a day.", "bn": "He is not lazy; ______, he works twelve hours a day."},
+          "options": [{"en": "on the other hand"}, {"en": "on the contrary"}, {"en": "in addition"}],
+          "answer": 1,
+          "explain": {"en": "“On the contrary” means “rather, the opposite is true” and is used to reject a mistaken idea - exactly what happens here. It does not mean “on the other hand”.", "bn": "“On the contrary” মানে “বরং উল্টোটাই সত্য” - একটা ভুল ধারণা নাকচ করতে ব্যবহার হয়, ঠিক যেমন এখানে। এর মানে “on the other hand” নয়।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which phrase should you never use to give your opinion?", "bn": "মতামত দিতে কোন phrase কখনো ব্যবহার করবেন না?"},
+          "options": [{"en": "In my view"}, {"en": "According to me"}, {"en": "I believe"}],
+          "answer": 1,
+          "explain": {"en": "“According to me” isn't natural English. Write “In my view”, “In my opinion” or “I believe”. Also avoid “At last” and “Last but not least” in conclusions.", "bn": "“According to me” স্বাভাবিক English নয়। লিখুন “In my view”, “In my opinion” বা “I believe”। Conclusion-এ “At last” আর “Last but not least”-ও এড়িয়ে চলুন।"}
+        },
+        {"type": "read", "title": {"en": "Three traps with connectives", "bn": "Connective-এর তিনটি ফাঁদ"}, "chapter": "intro_cohesion", "from": 39, "to": 41},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "How often should a linking word appear?", "bn": "Linking word কত ঘন ঘন আসা উচিত?"},
+          "options": [
+            {"en": "At the start of every sentence", "bn": "প্রতিটা বাক্যের শুরুতে"},
+            {"en": "About one every two or three sentences", "bn": "প্রায় প্রতি দুই-তিন বাক্যে একটা"},
+            {"en": "Only in the conclusion", "bn": "শুধু conclusion-এ"}
+          ],
+          "answer": 1,
+          "explain": {"en": "If every sentence starts with a connective the writing sounds mechanical, and examiners mark it as over-use. Aim for about one every two or three sentences.", "bn": "প্রতিটা বাক্য connective দিয়ে শুরু হলে লেখা যান্ত্রিক শোনায়, আর examiner একে over-use ধরেন। প্রায় প্রতি দুই-তিন বাক্যে একটা - এটাই লক্ষ্য।"}
+        },
+        {"type": "read", "title": {"en": "Linking word bank", "bn": "Linking word bank"}, "chapter": "intro_cohesion", "from": 41, "to": 44}
+      ]
+    }
+  ]
+}

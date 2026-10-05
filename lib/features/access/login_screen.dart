@@ -7,6 +7,7 @@ import '../../app/routes.dart';
 import '../../app/services/config.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import '../home/language_sheet.dart';
 import 'legal_screen.dart';
 import 'widgets.dart';
@@ -179,12 +180,13 @@ class _LoginScreenState extends State<LoginScreen> {
                   'Pick up where you left off.',
                   style: TextStyle(
                     fontSize: 15,
-                    color: t.isNight ? t.heroText : t.textSoft,
+                    color: t.heroMuted,
                   ),
                 ),
               ],
                   ),
                 ),
+                const Nexi(NexiPose.wave, height: 110),
               ],
             ),
           ),
@@ -260,7 +262,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 }
 
-/// Subtle "Demo account" line — tap to fill both fields.
+/// Subtle "Demo account" line - tap to fill both fields.
 class _DemoAccountCard extends StatelessWidget {
   const _DemoAccountCard({required this.onTap});
 

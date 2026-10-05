@@ -69,7 +69,7 @@ class MockExitContent extends StatelessWidget {
             width: 52,
             height: 52,
             decoration: BoxDecoration(
-              color: const Color(0xFFFBE5ED),
+              color: const Color(0xFFFFEFE8),
               borderRadius: BorderRadius.circular(18),
             ),
             child: Icon(
@@ -190,12 +190,12 @@ class _MockExitWarningScreenState extends State<MockExitWarningScreen> {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
                     decoration: BoxDecoration(
-                      color: const Color(0xFFFBE5ED),
+                      color: const Color(0xFFFFEFE8),
                       borderRadius: BorderRadius.circular(16),
                       border: Border.all(
                         color: t.isNight
-                            ? const Color(0xFF5C2A20)
-                            : const Color(0xFFF4B8CB),
+                            ? const Color(0xFF3A4570)
+                            : const Color(0xFFFFB8A3),
                       ),
                     ),
                     child: Row(

@@ -1,0 +1,280 @@
+{
+  "id": "l1",
+  "title": {"en": "Foundations", "bn": "ভিত্তি (Foundations)"},
+  "subtitle": {"en": "How the test is built and the mindset of an expert listener", "bn": "Test কীভাবে সাজানো, আর expert listener-এর মানসিকতা"},
+  "lessons": [
+    {
+      "id": "l1_l1",
+      "title": {"en": "How the Listening Test Is Built", "bn": "Listening test কীভাবে সাজানো"},
+      "minutes": 7,
+      "xp": 40,
+      "intro": {"en": "Four parts, forty questions, one play. Learn the shape of the test before you learn any strategy.", "bn": "চারটি part, চল্লিশটি question, recording একবারই। কোনো strategy শেখার আগে test-এর গঠনটা জেনে নিন।"},
+      "greeting": {"en": "You cannot outsmart a test you do not understand. Let's start there.", "bn": "যে test বোঝেন না, তাকে টেক্কা দেওয়া যায় না। চলুন সেখান থেকেই শুরু করি।"},
+      "learned": [
+        {"en": "4 parts, 40 questions, 10 per part", "bn": "৪টি part, ৪০টি question, প্রতি part-এ ১০টি"},
+        {"en": "Every recording plays once only", "bn": "প্রতিটি recording একবারই বাজে"},
+        {"en": "Answers come in recording order", "bn": "উত্তর recording-এর order মেনে আসে"},
+        {"en": "What each part is like", "bn": "প্রতিটি part কেমন"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Can you hear it again?", "bn": "আবার কি শোনা যায়?"},
+          "prompt": {"en": "In IELTS Listening, how many times is each recording played?", "bn": "IELTS Listening-এ প্রতিটি recording কতবার বাজানো হয়?"},
+          "options": [
+            {"en": "Once only", "bn": "শুধু একবার"},
+            {"en": "Twice", "bn": "দুবার"}
+          ],
+          "answer": 0,
+          "explain": {"en": "Every recording plays once and will not wait for you. You cannot reread a sentence you missed, the way you can in Reading - and this single fact changes how you should behave.", "bn": "প্রতিটি recording একবারই বাজে, আর আপনার জন্য অপেক্ষা করে না। Reading-এর মতো মিস করা sentence আবার পড়া যায় না - আর এই একটা তথ্যই আপনার পুরো কৌশল বদলে দেয়।"}
+        },
+        {
+          "type": "roadmap",
+          "title": {"en": "What you'll learn", "bn": "যা শিখবেন"},
+          "items": [
+            {"en": "The four parts of the test", "bn": "Test-এর চারটি part"},
+            {"en": "Computer timing and a first look at distractors", "bn": "Computer-এ সময়ের হিসাব আর distractor-এর প্রথম পরিচয়"},
+            {"en": "How your raw score becomes a band", "bn": "Raw score কীভাবে band হয়"},
+            {"en": "Reading ahead and predicting", "bn": "আগে পড়ে রাখা আর prediction"},
+            {"en": "The clean reset after a miss", "bn": "মিস করার পর পরিষ্কার reset"}
+          ],
+          "note": {"en": "You won't improve by “listening harder”. You improve by knowing exactly what to do before, during and after each answer.", "bn": "“আরও মন দিয়ে শুনে” score বাড়ে না। বাড়ে প্রতিটি answer-এর আগে, সময়ে আর পরে ঠিক কী করতে হবে তা জেনে।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "The four parts", "bn": "চারটি part"},
+          "intro": {"en": "Ten questions in each part, and difficulty climbs as you go. Tap each part.", "bn": "প্রতি part-এ ১০টি question, আর যত এগোবেন কঠিনতা তত বাড়বে। প্রতিটি part-এ tap করুন।"},
+          "cards": [
+            {"icon": "chat", "title": {"en": "Part 1 - easiest", "bn": "Part 1 - সবচেয়ে সহজ"},
+             "body": {"en": "An everyday conversation between two people, such as a booking or enquiry. Most answers are simple facts - names, dates, prices, addresses. These are the cheapest marks in the exam: aim to get all ten.", "bn": "দুজনের মধ্যে দৈনন্দিন কথোপকথন, যেমন booking বা enquiry। বেশিরভাগ উত্তর সহজ তথ্য - নাম, তারিখ, দাম, ঠিকানা। পুরো পরীক্ষায় এগুলোই সবচেয়ে সহজ নম্বর: দশটিই পাওয়ার লক্ষ্য রাখুন।"}},
+            {"icon": "play", "title": {"en": "Part 2 - easy to medium", "bn": "Part 2 - সহজ থেকে মাঝারি"},
+             "body": {"en": "One person talks in an everyday context - about a place, an event or a facility. Because only one person speaks, their signposting (first, next, on your left) becomes your map.", "bn": "দৈনন্দিন প্রসঙ্গে একজন কথা বলেন - কোনো জায়গা, অনুষ্ঠান বা সুবিধা নিয়ে। একজনই বলছেন বলে তাঁর signposting (first, next, on your left) হয়ে ওঠে আপনার map।"}},
+            {"icon": "layers", "title": {"en": "Part 3 - hard", "bn": "Part 3 - কঠিন"},
+             "body": {"en": "Up to four people in an educational context, usually students and a tutor discussing work. Multiple voices, agreeing and disagreeing, decisions changed mid-sentence - distractors live here in large numbers.", "bn": "শিক্ষামূলক প্রসঙ্গে চারজন পর্যন্ত মানুষ, সাধারণত student আর tutor কাজ নিয়ে আলোচনা করছেন। একাধিক কণ্ঠ, একমত-দ্বিমত, মাঝপথে সিদ্ধান্ত বদল - এখানে প্রচুর distractor থাকে।"}},
+            {"icon": "book", "title": {"en": "Part 4 - hardest", "bn": "Part 4 - সবচেয়ে কঠিন"},
+             "body": {"en": "One speaker gives a university-style lecture. Longer stretches of speech, denser information, fewer pauses. Concentration is the whole game.", "bn": "একজন বক্তা university-ধাঁচের lecture দেন। লম্বা বক্তব্য, ঘন তথ্য, বিরতি কম। এখানে মনোযোগই সব।"}},
+            {"icon": "list", "title": {"en": "Answers in order", "bn": "উত্তর ক্রম মেনে"},
+             "body": {"en": "The answers come in the same order as the recording: the answer to question 3 is always spoken before the answer to question 4.", "bn": "উত্তরগুলো recording-এর একই ক্রমে আসে: question 3-এর উত্তর সবসময় question 4-এর উত্তরের আগে বলা হয়।"}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Students and a tutor discuss an assignment, with up to four speakers. Which part is this?", "bn": "Student আর tutor একটা assignment নিয়ে আলোচনা করছেন, চারজন পর্যন্ত বক্তা। এটা কোন part?"},
+          "options": [{"en": "Part 1"}, {"en": "Part 2"}, {"en": "Part 3"}, {"en": "Part 4"}],
+          "answer": 2,
+          "explain": {"en": "Part 3 is a conversation between up to four people in an educational context. Difficulty jumps here, and distractors are common.", "bn": "Part 3 হলো শিক্ষামূলক প্রসঙ্গে চারজন পর্যন্ত মানুষের কথোপকথন। এখানে কঠিনতা হঠাৎ বেড়ে যায়, আর distractor অনেক।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "You've just caught the answer to question 6. Where will the answer to question 7 be?", "bn": "এইমাত্র question 6-এর উত্তর ধরলেন। Question 7-এর উত্তর কোথায় আসবে?"},
+          "options": [
+            {"en": "Somewhere after the answer to 6", "bn": "6-এর উত্তরের পরে কোথাও"},
+            {"en": "It could already have been said", "bn": "হয়তো আগেই বলা হয়ে গেছে"}
+          ],
+          "answer": 0,
+          "explain": {"en": "Answers come in recording order, so 7 always follows 6. This ordering is one of your most powerful tools.", "bn": "উত্তর recording-এর ক্রমে আসে, তাই 7 সবসময় 6-এর পরে। এই ক্রমই আপনার সবচেয়ে শক্তিশালী হাতিয়ারগুলোর একটি।"}
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Two ways into the test", "bn": "Test-এ ঢোকার দুই রকম ভাবনা"},
+          "intro": {"en": "Most candidates walk in with a vague picture. A high scorer walks in knowing the shape of every part.", "bn": "বেশিরভাগ candidate একটা অস্পষ্ট ধারণা নিয়ে ঢোকেন। High scorer ঢোকেন প্রতিটি part-এর গঠন জেনে।"},
+          "weak": {"label": {"en": "Vague plan", "bn": "অস্পষ্ট plan"}, "text": "I'll just listen harder and hope I catch the answers."},
+          "strong": {"label": {"en": "Expert plan", "bn": "Expert plan"}, "text": "I know what to do in the seconds before each part begins, and what my ear is waiting for.", "mark": "before each part begins"},
+          "tip": {"en": "Part 1 is the gentlest and Part 4 the hardest - plan your energy around that.", "bn": "Part 1 সবচেয়ে সহজ আর Part 4 সবচেয়ে কঠিন - সেই অনুযায়ী শক্তি ভাগ করুন।"}
+        }
+      ]
+    },
+    {
+      "id": "l1_l2",
+      "title": {"en": "Timing, Question Types and Distractors", "bn": "সময়, Question type ও Distractor"},
+      "minutes": 8,
+      "xp": 45,
+      "intro": {"en": "Why the old “ten minutes to transfer” advice is out of date, the twelve question types, and a first look at distractors.", "bn": "পুরোনো “transfer-এর জন্য দশ মিনিট” পরামর্শ কেন আর খাটে না, বারোটি question type, আর distractor-এর প্রথম পরিচয়।"},
+      "greeting": {"en": "Many books still teach a timing rule that no longer applies. Let's update it.", "bn": "অনেক বই এখনো এমন একটা সময়ের নিয়ম শেখায় যা আর খাটে না। চলুন সেটা ঠিক করি।"},
+      "learned": [
+        {"en": "No ten-minute transfer on computer", "bn": "Computer-এ দশ মিনিটের transfer নেই"},
+        {"en": "Capture each answer the instant you hear it", "bn": "শোনামাত্র প্রতিটি উত্তর লিখে ফেলুন"},
+        {"en": "Practise all twelve question types", "bn": "বারোটি question type-ই practice করুন"},
+        {"en": "Corrections and two-option distractors", "bn": "Correction আর দুই-option distractor"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Is there transfer time?", "bn": "Transfer time কি আছে?"},
+          "prompt": {"en": "On the computer-delivered Listening test, what do you get at the end?", "bn": "Computer-delivered Listening test-এ শেষে কী পান?"},
+          "options": [
+            {"en": "Ten minutes to transfer your answers", "bn": "উত্তর transfer করতে দশ মিনিট"},
+            {"en": "About two minutes to review what you typed", "bn": "যা টাইপ করেছেন তা review করতে প্রায় দুই মিনিট"}
+          ],
+          "answer": 1,
+          "explain": {"en": "The ten-minute transfer belongs to the old paper format. On computer you type each answer as you hear it and get only about two minutes to review.", "bn": "দশ মিনিটের transfer পুরোনো paper format-এর। Computer-এ শোনার সাথে সাথে উত্তর টাইপ করেন, আর review-এর জন্য পান মাত্র প্রায় দুই মিনিট।"}
+        },
+        {"type": "read", "title": {"en": "Timing, and a change most books get wrong", "bn": "সময়, আর যে পরিবর্তন বেশিরভাগ বই ভুল বলে"}, "chapter": "l01_foundations_1", "from": 12, "to": 16},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "What is the two-minute review at the end for?", "bn": "শেষের দুই মিনিটের review কীসের জন্য?"},
+          "options": [
+            {"en": "Catching obvious slips", "bn": "চোখে পড়ার মতো ছোট ভুল ধরা"},
+            {"en": "Reconstructing answers from memory", "bn": "মনে করে করে উত্তর আবার তৈরি করা"}
+          ],
+          "answer": 0,
+          "explain": {"en": "The review is for catching obvious slips. Anything left blank during the audio is almost certainly gone.", "bn": "Review হলো চোখে পড়ার মতো ভুল ধরার জন্য। Audio চলার সময় যা খালি রয়ে গেছে, তা প্রায় নিশ্চিতভাবেই হারিয়ে গেছে।"}
+        },
+        {"type": "read", "title": {"en": "How the information reaches you", "bn": "তথ্য কীভাবে আপনার কাছে আসে"}, "chapter": "l01_foundations_1", "from": 16, "to": 20},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which question types should you practise before test day?", "bn": "Test-এর আগে কোন question type-গুলো practice করবেন?"},
+          "options": [
+            {"en": "The ones you find easy, like form completion", "bn": "যেগুলো সহজ লাগে, যেমন form completion"},
+            {"en": "All twelve types", "bn": "বারোটি type-ই"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Students who drill only easy types get ambushed when a whole section is map labelling or matching. Every type must feel familiar.", "bn": "যারা শুধু সহজ type practice করেন, পুরো একটা section map labelling বা matching হলে তারা বিপদে পড়েন। প্রতিটি type-ই চেনা লাগতে হবে।"}
+        },
+        {"type": "read", "title": {"en": "How distractors work (a first look)", "bn": "Distractor কীভাবে কাজ করে (প্রথম পরিচয়)"}, "chapter": "l01_foundations_1", "from": 20, "to": 22},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "The gap asks for the room number. What do you write?", "bn": "Gap-এ room number চাওয়া হয়েছে। কী লিখবেন?"},
+          "passage": "So that will be room 214, sorry, room 240.",
+          "options": [{"en": "214"}, {"en": "240"}],
+          "answer": 1,
+          "explain": {"en": "This is the correction distractor. “Sorry” was the signal: the first number is cancelled and the answer comes after it.", "bn": "এটা correction distractor। “Sorry” ছিল signal: প্রথম সংখ্যাটা বাতিল, আর উত্তর আসে তার পরে।"}
+        }
+      ]
+    },
+    {
+      "id": "l1_l3",
+      "title": {"en": "Your Band and the Listening Mindset", "bn": "আপনার Band ও Listening-এর মানসিকতা"},
+      "minutes": 8,
+      "xp": 45,
+      "intro": {"en": "How the raw score becomes a band, why Listening is a live hunt, and how reading ahead and prediction prepare your ear.", "bn": "Raw score কীভাবে band হয়, Listening কেন একটা live hunt, আর আগে পড়ে রাখা ও prediction কীভাবে কানকে তৈরি রাখে।"},
+      "greeting": {"en": "The difference between two bands is almost never in the ears. It is in the head.", "bn": "দুই band-এর পার্থক্য প্রায় কখনোই কানে নয়। পার্থক্যটা মাথায়।"},
+      "learned": [
+        {"en": "The Listening band table", "bn": "Listening-এর band table"},
+        {"en": "Listening is a live hunt, not comprehension", "bn": "Listening হলো live hunt, comprehension নয়"},
+        {"en": "Read the gaps and the words around them", "bn": "Gap আর তার আশেপাশের শব্দ পড়ুন"},
+        {"en": "Specific information vs meaning", "bn": "নির্দিষ্ট তথ্য বনাম অর্থ"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "How many can you miss?", "bn": "কতগুলো মিস করা চলে?"},
+          "prompt": {"en": "To reach Band 7 in Listening, about how many answers can you afford to miss?", "bn": "Listening-এ Band 7 পেতে মোটামুটি কতগুলো উত্তর মিস করা চলে?"},
+          "options": [
+            {"en": "Two or three", "bn": "দুই-তিনটি"},
+            {"en": "Nine or ten", "bn": "নয়-দশটি"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Band 7 needs 30 to 31 out of 40, so you can miss nine or ten. A single lost answer is not a disaster - chasing it in panic can cost far more.", "bn": "Band 7-এর জন্য ৪০-এর মধ্যে ৩০–৩১টি লাগে, তাই নয়-দশটি মিস করা চলে। একটা উত্তর হারানো বিপর্যয় নয় - আতঙ্কে তার পেছনে ছুটলে অনেক বেশি ক্ষতি হয়।"}
+        },
+        {"type": "read", "title": {"en": "How the raw score becomes a band", "bn": "Raw score কীভাবে band হয়"}, "chapter": "l01_foundations_1", "from": 22, "to": 26},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "You scored 27 out of 40. Which band does this indicative table give?", "bn": "৪০-এর মধ্যে ২৭ পেয়েছেন। এই indicative table অনুযায়ী band কত?"},
+          "options": [{"en": "6.0"}, {"en": "6.5"}, {"en": "7.0"}],
+          "answer": 1,
+          "explain": {"en": "26 to 29 = Band 6.5. Every correct answer is one mark, with no penalty for wrong answers - so never leave a blank.", "bn": "২৬ থেকে ২৯ = Band 6.5। প্রতিটি সঠিক উত্তরে এক নম্বর, ভুলে কোনো নম্বর কাটে না - তাই কখনো খালি রাখবেন না।"}
+        },
+        {"type": "read", "title": {"en": "The Listening mindset", "bn": "Listening-এর মানসিকতা"}, "chapter": "l01_foundations_2", "from": 1, "to": 6},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "In the pause before a part begins, what should you read?", "bn": "Part শুরুর আগের বিরতিতে কী পড়বেন?"},
+          "options": [
+            {"en": "Every word of every question", "bn": "প্রতিটি question-এর প্রতিটি শব্দ"},
+            {"en": "The gaps and the words immediately around them", "bn": "Gap আর তার ঠিক আশেপাশের শব্দগুলো"}
+          ],
+          "answer": 1,
+          "explain": {"en": "You're building a small set of “listen for this” targets, not studying a text. Then, when the answer arrives, a bell rings.", "bn": "আপনি কোনো লেখা পড়াশোনা করছেন না, ছোট একটা “এটা শুনতে হবে” লক্ষ্যের তালিকা বানাচ্ছেন। তাহলে answer আসামাত্র মাথায় ঘণ্টা বাজবে।"}
+        },
+        {"type": "read", "title": {"en": "Prediction and the two listening modes", "bn": "Prediction আর শোনার দুই mode"}, "chapter": "l01_foundations_2", "from": 6, "to": 9},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "A table-completion gap needs a price. Which mode should you be in?", "bn": "Table completion-এর একটা gap-এ দাম লাগবে। কোন mode-এ থাকবেন?"},
+          "options": [
+            {"en": "Listening for specific information", "bn": "নির্দিষ্ট তথ্য শোনা (specific information)"},
+            {"en": "Listening for meaning", "bn": "অর্থ বোঝার জন্য শোনা (meaning)"}
+          ],
+          "answer": 0,
+          "explain": {"en": "A price is a single fact, and form, note and table completion live in specific-information mode. Attitude and agreement - multiple choice, matching - need listening for meaning.", "bn": "দাম একটা নির্দিষ্ট তথ্য, আর form, note ও table completion চলে specific information mode-এ। মনোভাব আর একমত হওয়া - multiple choice, matching - এর জন্য লাগে অর্থ বোঝার শোনা।"}
+        }
+      ]
+    },
+    {
+      "id": "l1_l4",
+      "title": {"en": "Attention, Recovery and Expert Thinking", "bn": "মনোযোগ, Recovery ও Expert-এর চিন্তা"},
+      "minutes": 9,
+      "xp": 50,
+      "intro": {"en": "Spend attention like a budget, reset cleanly after a miss, and see how an expert handles the same moment as a beginner.", "bn": "মনোযোগ বাজেটের মতো খরচ করুন, মিস করার পর পরিষ্কারভাবে reset করুন, আর দেখুন একই মুহূর্ত beginner আর expert কীভাবে সামলান।"},
+      "greeting": {"en": "Every high scorer misses answers. What matters is the next two seconds.", "bn": "প্রত্যেক high scorer-ই উত্তর মিস করেন। আসল ব্যাপার হলো পরের দুই সেকেন্ড।"},
+      "learned": [
+        {"en": "Attention is a budget", "bn": "মনোযোগ একটা বাজেট"},
+        {"en": "The clean reset after a miss", "bn": "মিস করার পর পরিষ্কার reset"},
+        {"en": "Action displaces panic", "bn": "কাজই আতঙ্ক সরিয়ে দেয়"},
+        {"en": "Preparation and expectation beat talent", "bn": "প্রতিভা নয়, প্রস্তুতি আর প্রত্যাশাই জেতায়"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "What really costs marks?", "bn": "আসলে নম্বর কাটে কীসে?"},
+          "prompt": {"en": "You've just missed an answer. What is the real disaster?", "bn": "এইমাত্র একটা উত্তর মিস করলেন। আসল বিপদ কোনটা?"},
+          "options": [
+            {"en": "The miss itself", "bn": "মিস করাটাই"},
+            {"en": "Chasing it while the next answers go past", "bn": "তার পেছনে ছুটতে গিয়ে পরের উত্তরগুলো চলে যাওয়া"}
+          ],
+          "answer": 1,
+          "explain": {"en": "The disaster is not the miss; it's chasing it, because the recording delivers the next answer too. One missed answer should never cost you the next three.", "bn": "বিপদ মিস করায় নয়; বিপদ তার পেছনে ছোটায়, কারণ recording ততক্ষণে পরের উত্তরও বলে দেয়। একটা মিসের জন্য কখনো পরের তিনটা হারাবেন না।"}
+        },
+        {"type": "read", "title": {"en": "Attention, misses and panic", "bn": "মনোযোগ, মিস আর আতঙ্ক"}, "chapter": "l01_foundations_2", "from": 9, "to": 13},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "You feel panic rising in the middle of the audio. What is the cure?", "bn": "Audio চলার মাঝে আতঙ্ক বাড়ছে টের পাচ্ছেন। এর সমাধান কী?"},
+          "options": [
+            {"en": "Tell yourself to calm down", "bn": "নিজেকে শান্ত হতে বলা"},
+            {"en": "An immediate task: eyes to the next question", "bn": "সঙ্গে সঙ্গে একটা কাজ: চোখ পরের question-এ"}
+          ],
+          "answer": 1,
+          "explain": {"en": "“Calm down” is useless under pressure. Give yourself a concrete task - eyes to the next question, ear hunting the next target. Action displaces panic.", "bn": "চাপের মধ্যে “শান্ত হোন” কোনো কাজে আসে না। নিজেকে একটা নির্দিষ্ট কাজ দিন - চোখ পরের question-এ, কান পরের লক্ষ্যের খোঁজে। কাজই আতঙ্ক সরিয়ে দেয়।"}
+        },
+        {"type": "read", "title": {"en": "The expert mindset, in slow motion", "bn": "Expert-এর মানসিকতা, ধীর গতিতে"}, "chapter": "l01_foundations_2", "from": 13, "to": 17},
+        {
+          "type": "contrast",
+          "title": {"en": "The same moment, two heads", "bn": "একই মুহূর্ত, দুই রকম মাথা"},
+          "intro": {"en": "The gap asks for the “member rate”. The audio says: “It's normally forty pounds a night, but for members it comes down to thirty-two.”", "bn": "Gap-এ চাওয়া হয়েছে “member rate”। Audio বলছে: “It's normally forty pounds a night, but for members it comes down to thirty-two.”"},
+          "weak": {"label": {"en": "Beginner", "bn": "Beginner"}, "text": "“Forty pounds. There it is.” Writes 40, relaxes, and has stopped listening as “thirty-two” goes past."},
+          "strong": {"label": {"en": "Expert", "bn": "Expert"}, "text": "Before the audio, they saw the gap said “member rate,” not just “rate,” so when “for members” arrived the bell was already ringing.", "mark": "member rate"},
+          "tip": {"en": "The gap between beginner and expert is not English. It is preparation and expectation.", "bn": "Beginner আর expert-এর পার্থক্য English-এ নয়। পার্থক্যটা প্রস্তুতি আর প্রত্যাশায়।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "An experienced student hears “forty… but… thirty-two” and writes 32. Why do they choose the second number?", "bn": "একজন অভিজ্ঞ student “forty… but… thirty-two” শুনে 32 লেখেন। দ্বিতীয় সংখ্যাটা কেন বেছে নেন?"},
+          "options": [
+            {"en": "There is a “but”, so the second one probably matters", "bn": "একটা “but” আছে, তাই সম্ভবত দ্বিতীয়টাই আসল"},
+            {"en": "The second number is always the answer", "bn": "দ্বিতীয় সংখ্যাই সবসময় উত্তর"}
+          ],
+          "answer": 0,
+          "explain": {"en": "The “but” signals that the information changed. Still, they were a beat behind - the expert had predicted “member rate” and was never tempted by 40.", "bn": "“But” জানিয়ে দেয় তথ্যটা বদলেছে। তবুও তিনি এক মুহূর্ত পিছিয়ে ছিলেন - expert আগেই “member rate” predict করেছিলেন, তাই 40-এ কখনো প্রলুব্ধ হননি।"}
+        },
+        {
+          "type": "practice",
+          "title": {"en": "Practice: a short listening set", "bn": "Practice: একটা ছোট listening set"},
+          "task": {"en": "Do a short set. In every pause, read the gaps and predict their shape; if you miss an answer, reset and move to the next question.", "bn": "একটা ছোট set করুন। প্রতিটি বিরতিতে gap পড়ে তার ধরন predict করুন; কোনো উত্তর মিস হলে reset করে পরের question-এ যান।"},
+          "items": [
+            {"en": "Short listening practice", "bn": "ছোট listening practice", "target": "listeningMiniList"},
+            {"en": "Full listening tests", "bn": "Full listening test", "target": "listeningLibrary"}
+          ],
+          "tip": {"en": "Practise on a screen, not on paper - on test day the answer goes straight into the box.", "bn": "Paper-এ নয়, screen-এ practice করুন - test-এর দিন উত্তর সরাসরি box-এ লিখতে হয়।"}
+        }
+      ]
+    }
+  ]
+}

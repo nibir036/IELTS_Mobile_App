@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../app/data/content.dart';
 import '../../app/data/demo.dart';
+import '../../app/data/lessons.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
@@ -38,8 +39,12 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
     ].join(' · ');
     if (!_seeded) {
       _seeded = true;
+      // Accordion: at most one section open.
       for (final m in modules) {
-        if (m.b('expanded')) _expanded.add(m.s('id'));
+        if (m.b('expanded')) {
+          _expanded.add(m.s('id'));
+          break;
+        }
       }
     }
 
@@ -55,7 +60,7 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
               height: 44,
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                color: const Color(0xFFF4B8CB),
+                color: const Color(0xFFFFB8A3),
                 borderRadius: BorderRadius.circular(14),
               ),
               child: Text(
@@ -137,11 +142,10 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
                   expanded: _expanded.contains(m.s('id')),
                   onToggle: () => setState(() {
                     final id = m.s('id');
-                    if (_expanded.contains(id)) {
-                      _expanded.remove(id);
-                    } else {
-                      _expanded.add(id);
-                    }
+                    // Opening one section closes the others.
+                    final open = _expanded.contains(id);
+                    _expanded.clear();
+                    if (!open) _expanded.add(id);
                   }),
                 ),
           ],
@@ -204,6 +208,10 @@ String _moduleMeta(Store store, Map<String, dynamic> m) {
 /// Item meta: "n / goal" when the item tracks progress; "N unit" from a live
 /// count (`countOf` + `unit`); else its static meta.
 String _itemMeta(Store store, Map<String, dynamic> it) {
+  final course = it.s('course');
+  if (course.isNotEmpty && Lessons.has(course)) {
+    return '${Lessons.doneCount(store, module: course)} / ${Lessons.all(course).length} lessons';
+  }
   final goal = _goal(it);
   if (goal > 0) return '${_doneCount(store, it)} / $goal';
   final n = contentCount(it.s('countOf'));
@@ -303,8 +311,8 @@ class _ModuleGroup extends StatelessWidget {
                         border: Border.all(
                           width: 2,
                           color: t.isNight
-                              ? const Color(0xFF5C2A20)
-                              : const Color(0xFFB9BAF2),
+                              ? const Color(0xFF3A4570)
+                              : const Color(0xFFB4C8FF),
                         ),
                       ),
                       child: Text(
@@ -356,7 +364,7 @@ class _ModuleGroup extends StatelessWidget {
                             : const LinearGradient(
                                 begin: Alignment.topCenter,
                                 end: Alignment.bottomCenter,
-                                colors: [Color(0xFFF0EEFC), Color(0xFFFBEAF0)],
+                                colors: [Color(0xFFEEF3FF), Color(0xFFFFF1EB)],
                               ),
                       ),
                       child: Column(
@@ -384,10 +392,10 @@ class _SubItem extends StatelessWidget {
   Widget build(BuildContext context) {
     final t = context.tk;
     final hi = item.b('highlight');
-    final fg = hi ? t.onPrimary : t.text;
+    final fg = hi ? kOnPeach : t.text;
     final meta = _itemMeta(context.store, item);
     return Material(
-      color: hi ? t.primary : Colors.transparent,
+      color: hi ? t.peach : Colors.transparent,
       borderRadius: BorderRadius.circular(hi ? 16 : 14),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
@@ -412,7 +420,7 @@ class _SubItem extends StatelessWidget {
                   height: 32,
                   decoration: BoxDecoration(
                     color: hi
-                        ? t.onPrimary
+                        ? kOnPeach
                         : (t.isNight ? t.surfaceAlt : t.surface),
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -420,7 +428,7 @@ class _SubItem extends StatelessWidget {
                     homeIconFor(item.s('icon')),
                     size: 17,
                     color: hi
-                        ? t.primary
+                        ? t.peach
                         : (t.isNight ? t.textMuted : t.text),
                   ),
                 ),

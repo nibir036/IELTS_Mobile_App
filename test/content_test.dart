@@ -411,7 +411,7 @@ void main() {
       ];
       expect(answers.length, 310 + 600 + 480);
       for (final a in answers) {
-        expect(a, isNot(contains('—')));
+        expect(a, isNot(contains('-')));
         for (final m in mark.allMatches(a)) {
           final e = vocab.m(m.group(1)!.toLowerCase());
           expect(e.s('headword'), isNotEmpty, reason: m.group(1));

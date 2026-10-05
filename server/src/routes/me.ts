@@ -1,5 +1,6 @@
 // The signed-in student: profile, password, plan usage, delete account.
 
+import type { Prisma } from '@prisma/client';
 import { prisma } from '../db';
 import { badRequest, HttpError, obj, required, Router, s, unauthorized } from '../lib/http';
 import { hashPassword, verifyPassword } from '../lib/password';
@@ -23,7 +24,7 @@ export function registerMeRoutes(r: Router): void {
     const userId = requireUser(ctx);
     const user = await prisma.user.findUnique({ where: { id: userId }, select: { profile: true } });
     if (!user) throw unauthorized('This account no longer exists.', 'no_account');
-    const data: { name?: string; profile?: Record<string, unknown> } = {};
+    const data: { name?: string; profile?: Prisma.InputJsonValue } = {};
     if (ctx.body.name !== undefined) {
       const name = s(ctx.body.name, 80);
       if (!name) throw badRequest('Name cannot be empty.');
@@ -37,7 +38,7 @@ export function registerMeRoutes(r: Router): void {
         if (v === null) delete profile[k];
         else profile[k] = v;
       }
-      data.profile = profile;
+      data.profile = profile as Prisma.InputJsonValue;
     }
     const updated = await prisma.user.update({ where: { id: userId }, data, select: userSelect });
     return { user: publicUser(updated) };

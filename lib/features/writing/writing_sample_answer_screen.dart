@@ -223,7 +223,7 @@ class _WritingSampleAnswerScreenState extends State<WritingSampleAnswerScreen> {
             TextSpan(
               text: s.s('text'),
               style: const TextStyle(
-                backgroundColor: Color(0xFFDCDDFA),
+                backgroundColor: Color(0xFFDCE6FF),
                 color: Color(0xFF151515),
               ),
             ),
@@ -428,7 +428,7 @@ class _WritingSampleAnswerScreenState extends State<WritingSampleAnswerScreen> {
                       width: 10,
                       height: 10,
                       decoration: BoxDecoration(
-                        color: const Color(0xFFDCDDFA),
+                        color: const Color(0xFFDCE6FF),
                         borderRadius: BorderRadius.circular(3),
                       ),
                     ),
@@ -450,7 +450,6 @@ class _WritingSampleAnswerScreenState extends State<WritingSampleAnswerScreen> {
             HeroCard(
               radius: 24,
               padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
-              gradient: t.isNight ? null : wGradient(0xFFEEEFFD, 0xFFF9D6E2),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 spacing: 8,
@@ -458,7 +457,7 @@ class _WritingSampleAnswerScreenState extends State<WritingSampleAnswerScreen> {
                   Row(
                     spacing: 6,
                     children: [
-                      Icon(AppIcons.sparkle, size: 16, color: t.heroText),
+                      Icon(AppIcons.sparkle, size: 16, color: t.peach),
                       Expanded(
                         child: Text(
                           'Why this is ${answer.s('band').toLowerCase()}',
@@ -476,7 +475,7 @@ class _WritingSampleAnswerScreenState extends State<WritingSampleAnswerScreen> {
                     style: TextStyle(
                       fontSize: 13,
                       height: 1.5,
-                      color: t.isNight ? t.heroText : t.textSoft,
+                      color: t.heroText.withValues(alpha: 0.88),
                     ),
                   ),
                 ],

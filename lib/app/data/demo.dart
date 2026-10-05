@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart' show compute;
 import 'package:flutter/services.dart' show rootBundle;
 
 /// Demo data for the design build. Everything the screens show comes from
-/// `assets/demo/demo_data.json` — no database or network.
+/// `assets/demo/demo_data.json` - no database or network.
 ///
 /// Top-level keys: `user`, `access`, `home`, `writing`, `speaking`,
 /// `reading`, `listening`, `mock`, `resources`.
@@ -19,6 +19,7 @@ class Demo {
 
   static Map<String, dynamic> _data = <String, dynamic>{};
   static Map<String, dynamic> _readingBank = <String, dynamic>{};
+  static Map<String, dynamic> _sentenceBank = <String, dynamic>{};
   static Map<String, dynamic> _listeningBank = <String, dynamic>{};
   static Map<String, dynamic> _writingBank = <String, dynamic>{};
   static Map<String, dynamic> _speakingBank = <String, dynamic>{};
@@ -35,6 +36,8 @@ class Demo {
       _loadResourcesBank(),
       _loadTestsBank(),
       _loadGuides(),
+      _loadCourses(),
+      _loadSentenceBank(),
     ]);
   }
 
@@ -52,6 +55,24 @@ class Demo {
       }
     }
   }
+
+  static final Map<String, Map<String, dynamic>> _courses = <String, Map<String, dynamic>>{};
+
+  /// Bite-sized courses (assets/content/lessons/<module>.json, built by
+  /// tool/build_lessons.py: {module, title, stages: [{id, title, lessons}]}).
+  static Future<void> _loadCourses() async {
+    for (final m in const <String>['writing', 'speaking', 'reading', 'listening', 'grammar', 'vocab']) {
+      try {
+        final raw = await rootBundle.loadString('assets/content/lessons/$m.json');
+        _courses[m] = await compute(_decode, raw);
+      } catch (_) {
+        _courses.remove(m);
+      }
+    }
+  }
+
+  /// Course of [module]; empty map when it has none yet.
+  static Map<String, dynamic> course(String module) => _courses[module] ?? const <String, dynamic>{};
 
   /// Guide of [module] ('reading', …); empty map when there is none.
   static Map<String, dynamic> guide(String module) => _guides[module] ?? const <String, dynamic>{};
@@ -72,6 +93,20 @@ class Demo {
       _readingBank = <String, dynamic>{};
     }
   }
+
+  /// Sentence Builder bank (built by tool/build_sentence_bank.py):
+  /// `{instruction, setSize, total, categories: [{id, title, subtitle, icon,
+  /// count, sets: [{id, title, drills}]}]}`. Missing file → empty.
+  static Future<void> _loadSentenceBank() async {
+    try {
+      final raw = await rootBundle.loadString('assets/content/sentence_bank.json');
+      _sentenceBank = await compute(_decode, raw);
+    } catch (_) {
+      _sentenceBank = <String, dynamic>{};
+    }
+  }
+
+  static Map<String, dynamic> get sentenceBank => _sentenceBank;
 
   /// `{passages, lessons, tests}` of the reading question bank.
   static Map<String, dynamic> get readingBank => _readingBank;

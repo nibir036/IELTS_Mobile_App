@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../../app/data/content.dart';
 import '../../app/data/demo.dart';
+import '../../app/data/lessons.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import 'lesson_menu.dart';
 import 'widgets.dart';
 
@@ -53,8 +55,8 @@ class ListeningLandingScreen extends StatelessWidget {
         final n = ListeningLessons.all.length;
         return ('$n ${n == 1 ? 'lesson' : 'lessons'}', null);
       case 'guide':
-        final n = Demo.guide('listening').l('chapters').length;
-        return (n == 0 ? null : '$n chapters', null);
+        final n = Lessons.all('listening').length;
+        return (n == 0 ? null : '$n lessons', null);
       case 'tips':
         final n = listeningTipCount();
         return ('$n ${n == 1 ? 'guide' : 'guides'}', null);
@@ -93,7 +95,7 @@ class ListeningLandingScreen extends StatelessWidget {
       case 'tips':
         context.push(Routes.articleTips, args: {'series': 'listening'});
       case 'guide':
-        context.push(Routes.listeningGuide);
+        context.push(Routes.listeningCourse);
       default:
         // Unknown module ids fall back to the mini practice list.
         context.push(Routes.listeningMiniList);
@@ -142,9 +144,9 @@ class ListeningLandingScreen extends StatelessWidget {
         ),
         HeroCard(
           radius: 28,
-          padding: const EdgeInsets.all(18),
+          padding: const EdgeInsets.fromLTRB(20, 18, 12, 18),
           child: Row(
-            spacing: 16,
+            spacing: 8,
             children: [
               Expanded(
                 child: Column(
@@ -152,14 +154,20 @@ class ListeningLandingScreen extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'Section progress',
-                      style: TextStyle(fontSize: 13, color: t.heroMuted),
+                      'Section progress'.toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 11,
+                        letterSpacing: 1.1,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
+                      ),
                     ),
+                    const SizedBox(height: 4),
                     Text(
                       '$progress%',
                       style: TextStyle(
                         fontSize: 34,
-                        fontWeight: FontWeight.w400,
+                        fontWeight: FontWeight.w500,
                         letterSpacing: -0.8,
                         height: 1.1,
                         color: t.heroText,
@@ -170,33 +178,35 @@ class ListeningLandingScreen extends StatelessWidget {
                       'Est. band $band · target $target',
                       style: TextStyle(fontSize: 13, color: t.heroMuted),
                     ),
-                  ],
-                ),
-              ),
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-                decoration: BoxDecoration(
-                  color: t.heroChip,
-                  borderRadius: BorderRadius.circular(18),
-                ),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'Weakest part',
-                      style: TextStyle(fontSize: 11, color: t.heroMuted),
-                    ),
-                    Text(
-                      weakest == null ? '–' : 'Part $weakest',
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w500,
-                        color: t.heroText,
+                    const SizedBox(height: 10),
+                    ProgressBar(value: avg, height: 6, onHero: true),
+                    const SizedBox(height: 10),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: t.heroChip,
+                        borderRadius: BorderRadius.circular(999),
+                      ),
+                      child: Text.rich(
+                        TextSpan(
+                          children: [
+                            TextSpan(
+                              text: 'Weakest part  ',
+                              style: TextStyle(color: t.heroMuted),
+                            ),
+                            TextSpan(
+                              text: weakest == null ? '–' : 'Part $weakest',
+                              style: TextStyle(fontWeight: FontWeight.w600, color: t.heroText),
+                            ),
+                          ],
+                        ),
+                        style: const TextStyle(fontSize: 12),
                       ),
                     ),
                   ],
                 ),
               ),
+              const Nexi(NexiPose.listening, height: 110),
             ],
           ),
         ),

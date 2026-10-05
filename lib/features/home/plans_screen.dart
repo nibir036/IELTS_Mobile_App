@@ -140,7 +140,7 @@ class _PlansScreenState extends State<PlansScreen> {
                 Row(
                   spacing: 10,
                   children: [
-                    Icon(AppIcons.verified, size: 22, color: t.heroText),
+                    Icon(AppIcons.verified, size: 22, color: t.peach),
                     const Expanded(
                       child: Text(
                         'You’re on Pro',
@@ -166,7 +166,7 @@ class _PlansScreenState extends State<PlansScreen> {
                       ),
                     ),
                     Text(
-                      '—',
+                      '-',
                       style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: t.heroText),
                     ),
                   ],

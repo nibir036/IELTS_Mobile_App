@@ -12,7 +12,7 @@ import 'mock_exit_warning_screen.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
 
-/// G4 · Mock — Section Transition. Reads `routeArgs['next']`
+/// G4 · Mock - Section Transition. Reads `routeArgs['next']`
 /// ('reading' | 'writing' | 'speaking'; defaults to 'reading').
 class MockTransitionScreen extends StatefulWidget {
   const MockTransitionScreen({super.key});
@@ -89,6 +89,7 @@ class _MockTransitionScreenState extends State<MockTransitionScreen> {
         if (!didPop) confirmMockExit(context);
       },
       child: AppScreen(
+      scrollBack: false,
         padding: const EdgeInsets.fromLTRB(24, 12, 24, 16),
         footerPadding: const EdgeInsets.fromLTRB(24, 8, 24, 16),
         gap: 16,
@@ -240,10 +241,10 @@ class _SectionRow extends StatelessWidget {
         width: 30,
         height: 30,
         decoration: BoxDecoration(
-          color: t.primary,
+          color: t.peach,
           borderRadius: BorderRadius.circular(11),
         ),
-        child: Icon(AppIcons.check, size: 16, color: t.onPrimary),
+        child: const Icon(AppIcons.check, size: 16, color: kOnPeach),
       );
     } else if (state == 1) {
       badge = Container(

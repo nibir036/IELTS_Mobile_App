@@ -12,7 +12,7 @@ import '../../app/services/audio_clip.dart';
 
 class SimAudio {
   /// [asset] is the bundled mp3 (a set's `Content.setAudio(set)`); [duration]
-  /// is only used by the fallback simulation — real playback takes its
+  /// is only used by the fallback simulation - real playback takes its
   /// duration from the file.
   SimAudio({
     required double duration,

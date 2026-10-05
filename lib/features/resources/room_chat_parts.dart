@@ -118,7 +118,7 @@ class MyVoiceBubble extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final muted = t.isNight ? t.heroMuted : const Color(0xFFBDB6BB);
+    final muted = t.isNight ? t.onPrimary.withValues(alpha: 0.6) : const Color(0xFFBDB6BB);
     final durationMs = data.i('durationMs');
     Widget row(bool playing, double progress) => Row(
           mainAxisSize: MainAxisSize.min,
@@ -372,8 +372,8 @@ class VoiceRecordingBar extends StatelessWidget {
           tooltip: 'Stop and send',
           size: 54,
           radius: 20,
-          bg: t.primary,
-          fg: t.onPrimary,
+          bg: t.peach,
+          fg: kOnPeach,
           onTap: onSend,
         ),
       ],
@@ -561,7 +561,7 @@ String offlinePartnerReply(String answer, String nextQuestion) {
     parts.add('That’s quite short ($words words). In Part 3, aim for 3–5 sentences: '
         'your view, a reason and an example.');
   } else if (words <= 40) {
-    parts.add('Good answer — $words words. Add one more supporting detail or an example to develop it.');
+    parts.add('Good answer - $words words. Add one more supporting detail or an example to develop it.');
   } else {
     parts.add('Nicely developed answer ($words words).');
   }

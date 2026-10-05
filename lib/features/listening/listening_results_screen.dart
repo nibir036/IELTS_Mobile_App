@@ -212,7 +212,16 @@ class ListeningResultsScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text('Score', style: TextStyle(fontSize: 13, color: t.heroMuted)),
+                    Text(
+                      'Score'.toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 11,
+                        letterSpacing: 1.1,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
                     Text.rich(
                       TextSpan(
                         children: [
@@ -244,15 +253,15 @@ class ListeningResultsScreen extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 12),
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                      color: kInk,
+                      gradient: kPeachGradient,
                       borderRadius: BorderRadius.circular(999),
                     ),
                     child: Text(
                       'Est. band ${Store.formatBand(a.band)}',
                       style: const TextStyle(
                         fontSize: 12,
-                        fontWeight: FontWeight.w500,
-                        color: kCream,
+                        fontWeight: FontWeight.w600,
+                        color: kOnPeach,
                       ),
                     ),
                   ),
@@ -356,7 +365,7 @@ class _AnswerRow extends StatelessWidget {
           ),
           Expanded(
             child: Text(
-              yours.isEmpty ? '—' : yours,
+              yours.isEmpty ? '-' : yours,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(

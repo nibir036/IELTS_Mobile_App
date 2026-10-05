@@ -1,0 +1,248 @@
+{
+  "id": "r1",
+  "title": {"en": "Foundations", "bn": "ভিত্তি (Foundations)"},
+  "subtitle": {"en": "How the test works, how it is marked and how to write answers", "bn": "Test কীভাবে চলে, marking কীভাবে হয়, আর answer কীভাবে লিখবেন"},
+  "lessons": [
+    {
+      "id": "r1_l1",
+      "title": {"en": "Reading at a Glance", "bn": "এক নজরে Reading"},
+      "minutes": 7,
+      "xp": 40,
+      "intro": {"en": "See how IELTS Academic Reading is built: passages, questions, time, marking and the one big difference from Listening.", "bn": "IELTS Academic Reading কীভাবে সাজানো দেখে নিন: passage, question, সময়, marking আর Listening-এর সাথে একটা বড় পার্থক্য।"},
+      "greeting": {"en": "Let's see what the Reading test really checks.", "bn": "চলুন দেখি Reading test আসলে কী যাচাই করে।"},
+      "learned": [
+        {"en": "3 passages, 40 questions, 60 minutes", "bn": "৩টি passage, ৪০টি question, ৬০ মিনিট"},
+        {"en": "No negative marking", "bn": "Negative marking নেই"},
+        {"en": "No transfer time in Reading", "bn": "Reading-এ কোনো transfer time নেই"},
+        {"en": "The answer is always inside the passage", "bn": "উত্তর সবসময় passage-এর ভেতরেই থাকে"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "What does Reading really test?", "bn": "Reading আসলে কী যাচাই করে?"},
+          "prompt": {"en": "Besides your English knowledge, what does the Reading test check most?", "bn": "ইংরেজি জ্ঞানের বাইরে Reading test সবচেয়ে বেশি কী যাচাই করে?"},
+          "options": [
+            {"en": "How many rare words you know", "bn": "কতগুলো কঠিন শব্দ জানেন"},
+            {"en": "How fast you find information and recognise paraphrase", "bn": "কত দ্রুত তথ্য খুঁজে পান আর paraphrase চিনতে পারেন"},
+            {"en": "What you already know about the topic", "bn": "Topic সম্পর্কে আগে থেকে কী জানেন"}
+          ],
+          "answer": 1,
+          "explain": {"en": "The test checks two things more than your English: locating information fast, and recognising the same idea said in different words (paraphrase). Both improve with practice.", "bn": "Test ইংরেজি জ্ঞানের চেয়ে বেশি যাচাই করে দুটো জিনিস: দ্রুত তথ্য খুঁজে বের করা (locating), আর একই কথা অন্য শব্দে বলা হলে চিনতে পারা (paraphrase)। দুটোই practice দিয়ে বাড়ে।"}
+        },
+        {
+          "type": "roadmap",
+          "title": {"en": "What you'll learn", "bn": "যা শিখবেন"},
+          "items": [
+            {"en": "How the Reading test is built", "bn": "Reading test কীভাবে সাজানো"},
+            {"en": "Why there is no transfer time", "bn": "কেন কোনো transfer time নেই"},
+            {"en": "How your raw score becomes a band", "bn": "Raw score কীভাবে band-এ রূপ নেয়"},
+            {"en": "How many correct answers your target needs", "bn": "আপনার target-এর জন্য কতটি সঠিক উত্তর লাগে"},
+            {"en": "The rules for writing answers", "bn": "Answer লেখার নিয়ম"}
+          ],
+          "note": {"en": "These are the foundations. Many easy marks are won or lost here, before any question type.", "bn": "এগুলোই ভিত্তি। কোনো question type শেখার আগেই এখানে অনেক সহজ নম্বর জেতা বা হারানো হয়।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "The test at a glance", "bn": "এক নজরে test"},
+          "intro": {"en": "IELTS Academic Reading in six facts. Tap each one.", "bn": "ছয়টি তথ্যে IELTS Academic Reading। প্রতিটায় tap করুন।"},
+          "cards": [
+            {"icon": "doc", "title": {"en": "3 passages", "bn": "৩টি passage"},
+             "body": {"en": "Sections 1, 2 and 3 - about 2,150–2,750 words in total.", "bn": "Section 1, 2 আর 3 - মোট প্রায় ২,১৫০–২,৭৫০ শব্দ।"}},
+            {"icon": "list", "title": {"en": "40 questions", "bn": "৪০টি question"},
+             "body": {"en": "Usually 13–14 questions per passage.", "bn": "প্রতি passage-এ সাধারণত ১৩–১৪টি question।"}},
+            {"icon": "clock", "title": {"en": "60 minutes", "bn": "৬০ মিনিট"},
+             "body": {"en": "No extra time to fill in the answer sheet.", "bn": "Answer sheet-এ লেখার জন্য আলাদা কোনো সময় নেই।"}},
+            {"icon": "check", "title": {"en": "1 mark each", "bn": "প্রতিটিতে ১ নম্বর"},
+             "body": {"en": "Each correct answer earns 1 mark, and nothing is taken off for a wrong answer.", "bn": "প্রতিটি সঠিক উত্তরে ১ নম্বর, আর ভুল উত্তরে কোনো নম্বর কাটা হয় না।"}},
+            {"icon": "layers", "title": {"en": "Difficulty climbs", "bn": "কঠিনতা বাড়তে থাকে"},
+             "body": {"en": "Passage 1 is usually easiest; Passage 3 is hardest and most argument-based.", "bn": "সাধারণত Passage 1 সবচেয়ে সহজ; Passage 3 সবচেয়ে কঠিন আর সবচেয়ে বেশি যুক্তিনির্ভর।"}},
+            {"icon": "book", "title": {"en": "Sources", "bn": "উৎস"},
+             "body": {"en": "Books, journals, magazines and newspapers - academic topics written for a general reader.", "bn": "বই, journal, magazine আর newspaper - সাধারণ পাঠকের জন্য লেখা academic topic।"}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "On the paper-based test, how much extra time do you get at the end to transfer your Reading answers?", "bn": "Paper-based test-এ Reading-এর answer transfer করার জন্য শেষে কত সময় বাড়তি পান?"},
+          "options": [
+            {"en": "10 minutes, like Listening", "bn": "১০ মিনিট, Listening-এর মতো"},
+            {"en": "None", "bn": "একদম নেই"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Listening (paper test) gives extra transfer time, but Reading has none. Write your answers on the answer sheet as soon as you finish each passage.", "bn": "Listening-এ (paper test) transfer-এর জন্য বাড়তি সময় থাকে, কিন্তু Reading-এ নেই। প্রতিটি passage শেষ করেই answer sheet-এ উত্তর লিখে ফেলুন।"}
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Paper test: when to write answers", "bn": "Paper test: কখন answer লিখবেন"},
+          "intro": {"en": "Two students plan their answer sheet. Only one plan is safe.", "bn": "দুজন student answer sheet নিয়ে plan করছেন। শুধু একটা plan নিরাপদ।"},
+          "weak": {"label": {"en": "Risky plan", "bn": "ঝুঁকিপূর্ণ plan"}, "text": "I'll work in the question paper and copy all my answers onto the answer sheet at the end."},
+          "strong": {"label": {"en": "Safe plan", "bn": "নিরাপদ plan"}, "text": "I'll write each passage's answers on the answer sheet as soon as I finish that passage.", "mark": "as soon as I finish that passage"},
+          "tip": {"en": "On the computer-delivered test you type answers straight onto the screen - but the test closes as soon as the 60 minutes are up.", "bn": "Computer-delivered test-এ উত্তর সরাসরি screen-এ টাইপ করেন - কিন্তু ৬০ মিনিট শেষ হলেই test বন্ধ হয়ে যায়।"}
+        },
+        {"type": "read", "title": {"en": "What the passages are like", "bn": "Passage-গুলো কেমন হয়"}, "chapter": "overview", "from": 4, "to": 6},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "A passage is about a science topic you know well. Where must your answers come from?", "bn": "Passage-টা এমন একটা science topic নিয়ে, যা আপনি ভালো জানেন। উত্তর কোথা থেকে নিতে হবে?"},
+          "options": [
+            {"en": "From what you already know", "bn": "আপনার আগের জ্ঞান থেকে"},
+            {"en": "From the passage only", "bn": "শুধু passage থেকে"}
+          ],
+          "answer": 1,
+          "explain": {"en": "No prior knowledge is needed - the answer is always inside the passage.", "bn": "আগে থেকে কোনো জ্ঞান লাগে না - উত্তর সবসময় passage-এর ভেতরেই থাকে।"}
+        }
+      ]
+    },
+    {
+      "id": "r1_l2",
+      "title": {"en": "From Raw Score to Band", "bn": "Raw score থেকে Band"},
+      "minutes": 7,
+      "xp": 45,
+      "intro": {"en": "How your correct answers out of 40 become a band, and how many you need for your target.", "bn": "৪০-এর মধ্যে আপনার সঠিক উত্তর কীভাবে band হয়, আর আপনার target-এর জন্য কতগুলো লাগে।"},
+      "greeting": {"en": "You don't need every question right. Let's see how many you do need.", "bn": "প্রতিটি question সঠিক হওয়ার দরকার নেই। চলুন দেখি আসলে কতগুলো লাগে।"},
+      "learned": [
+        {"en": "The raw score conversion table", "bn": "Raw score conversion table"},
+        {"en": "Correct answers needed for your target", "bn": "Target-এর জন্য কতটি সঠিক উত্তর লাগে"},
+        {"en": "Skip a stuck question, answer easier ones", "bn": "আটকে গেলে বাদ দিন, সহজগুলো করুন"},
+        {"en": "Never leave a question blank", "bn": "কোনো question খালি রাখবেন না"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "How many for Band 7?", "bn": "Band 7-এর জন্য কতটি?"},
+          "prompt": {"en": "Your target is Band 7.0 in Reading. How many correct answers out of 40 do you need?", "bn": "Reading-এ আপনার target Band 7.0। ৪০-এর মধ্যে কতটি সঠিক উত্তর লাগবে?"},
+          "options": [{"en": "30"}, {"en": "35"}, {"en": "40"}],
+          "answer": 0,
+          "explain": {"en": "In the commonly used table, 30–32 correct answers = Band 7.0 - an average of 10 correct per passage. You can still miss 10 questions.", "bn": "সাধারণভাবে ব্যবহৃত table-এ ৩০–৩২টি সঠিক = Band 7.0 - প্রতি passage-এ গড়ে ১০টি সঠিক। তবুও ১০টি question ভুল হলে চলে।"}
+        },
+        {"type": "read", "title": {"en": "The conversion table", "bn": "Conversion table"}, "chapter": "band", "from": 0, "to": 2},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "You got 28 out of 40. Which band does the table give?", "bn": "৪০-এর মধ্যে ২৮টি সঠিক। Table অনুযায়ী band কত?"},
+          "options": [{"en": "6.0"}, {"en": "6.5"}, {"en": "7.0"}],
+          "answer": 1,
+          "explain": {"en": "27–29 correct = Band 6.5. Remember, the table can shift by 1–2 marks depending on how difficult a particular test is.", "bn": "২৭–২৯টি সঠিক = Band 6.5। মনে রাখুন, test কতটা কঠিন তার ওপর table ১–২ নম্বর এদিক-ওদিক হতে পারে।"}
+        },
+        {"type": "read", "title": {"en": "Working back from your target", "bn": "Target থেকে পিছিয়ে হিসাব"}, "chapter": "band", "from": 2, "to": 4},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Your target is 6.5. You've been stuck on one hard question for 4 minutes. What pays off more?", "bn": "আপনার target 6.5। একটা কঠিন question-এ ৪ মিনিট আটকে আছেন। কোনটা বেশি লাভজনক?"},
+          "options": [
+            {"en": "Keep working on it until you solve it", "bn": "সমাধান না হওয়া পর্যন্ত লেগে থাকা"},
+            {"en": "Skip it and answer 3 easier questions instead", "bn": "বাদ দিয়ে তার বদলে সহজ ৩টি question করা"}
+          ],
+          "answer": 1,
+          "explain": {"en": "With a 6.5 target you don't need every question right. Skipping one stuck question and answering 3 easier ones pays off far more.", "bn": "Target 6.5 হলে সব question সঠিক হতে হবে না। আটকে থাকা একটা question বাদ দিয়ে সহজ ৩টি করা অনেক বেশি লাভজনক।"}
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Blank or guess?", "bn": "খালি নাকি guess?"},
+          "intro": {"en": "Time is almost up and one question is still unanswered.", "bn": "সময় প্রায় শেষ, আর একটা question-এর উত্তর এখনো দেওয়া হয়নি।"},
+          "weak": {"label": {"en": "Loses a chance", "bn": "সুযোগ হারায়"}, "text": "I'm not sure about question 27, so I'll leave it blank."},
+          "strong": {"label": {"en": "Keeps a chance", "bn": "সুযোগ রাখে"}, "text": "I'm not sure about question 27, so I'll write my best guess.", "mark": "write my best guess"},
+          "tip": {"en": "Wrong answers lose nothing, so never leave a question blank - write at least a guess at the end.", "bn": "ভুলে নম্বর কাটে না, তাই কোনো question খালি রাখবেন না - শেষে অন্তত একটা guess লিখে দিন।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which target leaves almost no room for mistakes?", "bn": "কোন target-এ প্রায় কোনো ভুলের জায়গা নেই?"},
+          "options": [
+            {"en": "Band 6.0 - 23 correct", "bn": "Band 6.0 - ২৩টি সঠিক"},
+            {"en": "Band 7.0 - 30 correct", "bn": "Band 7.0 - ৩০টি সঠিক"},
+            {"en": "Band 8.0 - 35 correct", "bn": "Band 8.0 - ৩৫টি সঠিক"}
+          ],
+          "answer": 2,
+          "explain": {"en": "Band 8.0 needs 35 out of 40 - almost no room for mistakes. For Band 6.0 (23 correct) you can afford about 17 mistakes.", "bn": "Band 8.0-এর জন্য ৪০-এর মধ্যে ৩৫টি লাগে - প্রায় কোনো ভুলের জায়গা নেই। Band 6.0-তে (২৩টি সঠিক) প্রায় ১৭টি ভুল করার সুযোগ আছে।"}
+        },
+        {
+          "type": "practice",
+          "title": {"en": "Practice: find your band", "bn": "Practice: আপনার band জানুন"},
+          "task": {"en": "Take a full Reading test. The app uses this same table to show your band.", "bn": "একটা full Reading test দিন। App এই একই table দিয়ে আপনার band দেখায়।"},
+          "items": [
+            {"en": "Full Reading test", "bn": "Full Reading test", "minutes": 60, "target": "readingPracticeTests"}
+          ],
+          "tip": {"en": "Write at least a guess for every question before time runs out.", "bn": "সময় শেষ হওয়ার আগে প্রতিটি question-এ অন্তত একটা guess লিখে দিন।"}
+        }
+      ]
+    },
+    {
+      "id": "r1_l3",
+      "title": {"en": "Rules for Writing Answers", "bn": "Answer লেখার নিয়ম"},
+      "minutes": 9,
+      "xp": 50,
+      "intro": {"en": "Many students find the right answer and still lose the mark. Learn the rules for writing it: word limit, spelling, grammar, numbers and answer formats.", "bn": "অনেক student সঠিক উত্তর খুঁজে পেয়েও নম্বর হারান। লেখার নিয়মগুলো শিখুন: word limit, বানান, grammar, সংখ্যা আর answer-এর format।"},
+      "greeting": {"en": "Right information, wrong format, no mark. Let's fix that.", "bn": "তথ্য ঠিক, format ভুল - নম্বর নেই। চলুন এটা ঠিক করি।"},
+      "learned": [
+        {"en": "Word limits and what counts as one word", "bn": "Word limit আর কী এক শব্দ হিসেবে গোনা হয়"},
+        {"en": "Copy the passage's spelling; keep the grammar correct", "bn": "Passage-এর বানান কপি করুন; grammar ঠিক রাখুন"},
+        {"en": "TRUE / FALSE versus YES / NO", "bn": "TRUE / FALSE বনাম YES / NO"},
+        {"en": "Letters and roman numerals in matching", "bn": "Matching-এ letter আর roman numeral"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Which answer gets the mark?", "bn": "কোন উত্তরে নম্বর পাবেন?"},
+          "prompt": {"en": "The instruction says ONE WORD ONLY. Which answer is correct?", "bn": "Instruction-এ লেখা ONE WORD ONLY। কোন উত্তরটি সঠিক?"},
+          "passage": "...grown along the banks of the River Nile.",
+          "options": [{"en": "River Nile"}, {"en": "Nile"}],
+          "answer": 1,
+          "right": {"en": "Exactly!", "bn": "একদম ঠিক!"},
+          "explain": {"en": "“River Nile” is 2 words, so it is marked wrong - even though the information is correct.", "bn": "“River Nile” ২টি শব্দ, তাই তথ্য সঠিক হলেও উত্তরটা ভুল ধরা হয়।"}
+        },
+        {"type": "read", "title": {"en": "Rule 1: Word limit", "bn": "নিয়ম ১: Word limit"}, "chapter": "rules", "from": 0, "to": 5},
+        {"type": "read", "title": {"en": "Rules 2–3: Spelling and grammar", "bn": "নিয়ম ২–৩: বানান ও grammar"}, "chapter": "rules", "from": 5, "to": 9},
+        {
+          "type": "contrast",
+          "title": {"en": "Keep the grammar correct", "bn": "Grammar ঠিক রাখুন"},
+          "intro": {"en": "The passage says “seeds”, and the gap comes after “several”. Compare the two completed sentences.", "bn": "Passage-এ আছে “seeds”, আর gap-টা “several”-এর পরে। সম্পূর্ণ করা দুটো sentence মিলিয়ে দেখুন।"},
+          "weak": {"label": {"en": "Wrong", "bn": "ভুল"}, "text": "The farmers stored several seed."},
+          "strong": {"label": {"en": "Correct", "bn": "সঠিক"}, "text": "The farmers stored several seeds.", "mark": "seeds"},
+          "tip": {"en": "Read the sentence with your word in the gap - it must be grammatically correct. Answers are usually copied exactly from the passage, so copy its spelling too.", "bn": "Gap-এ আপনার শব্দ বসিয়ে sentence-টা পড়ুন - grammar ঠিক থাকতে হবে। উত্তর সাধারণত passage থেকে হুবহু কপি হয়, তাই বানানও passage-এর মতো লিখুন।"}
+        },
+        {"type": "read", "title": {"en": "Rules 4–6: Numbers, T/F vs Y/N, letters", "bn": "নিয়ম ৪–৬: সংখ্যা, T/F বনাম Y/N, letter"}, "chapter": "rules", "from": 9, "to": 15},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "The instruction says ONE WORD ONLY. Is the answer “well-known” allowed?", "bn": "Instruction-এ লেখা ONE WORD ONLY। “well-known” উত্তর কি চলবে?"},
+          "options": [
+            {"en": "Yes - a hyphenated word counts as one word", "bn": "হ্যাঁ - hyphen দেওয়া শব্দ এক শব্দ হিসেবে গোনা হয়"},
+            {"en": "No - it counts as two words", "bn": "না - এটা দুই শব্দ হিসেবে গোনা হয়"}
+          ],
+          "answer": 0,
+          "explain": {"en": "A hyphenated word (well-known, 19th-century) counts as one word.", "bn": "Hyphen দেওয়া শব্দ (well-known, 19th-century) এক শব্দ হিসেবে গোনা হয়।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "In a TRUE / FALSE / NOT GIVEN question, the statement agrees with the passage. What should you write?", "bn": "TRUE / FALSE / NOT GIVEN question-এ statement-টা passage-এর সাথে মেলে। কী লিখবেন?"},
+          "options": [{"en": "YES"}, {"en": "T"}, {"en": "TRUE"}],
+          "answer": 2,
+          "explain": {"en": "Write exactly what the question asks for, as the full word. YES in a TRUE / FALSE question can be marked wrong, and abbreviating to T is risky.", "bn": "Question যা চায় ঠিক সেটাই, পুরো শব্দে লিখুন। TRUE / FALSE question-এ YES লিখলে ভুল ধরা হতে পারে, আর T লিখে সংক্ষেপ করাও ঝুঁকিপূর্ণ।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "In Matching Headings, the right heading is number iv. What do you write?", "bn": "Matching Headings-এ সঠিক heading হলো iv নম্বর। কী লিখবেন?"},
+          "options": [
+            {"en": "4"},
+            {"en": "iv"},
+            {"en": "The full text of the heading", "bn": "Heading-এর পুরো লেখা"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Write the heading number exactly as given (i, ii, iii…) - not the full text. If the answer is “iv”, don't write “4”.", "bn": "Heading number যেভাবে দেওয়া আছে ঠিক সেভাবে লিখুন (i, ii, iii…) - পুরো লেখা নয়। উত্তর “iv” হলে “4” লিখবেন না।"}
+        },
+        {
+          "type": "practice",
+          "title": {"en": "Practice: a question set", "bn": "Practice: একটা question set"},
+          "task": {"en": "Do one practice set. Next to every wrong answer, write the reason: word limit, spelling, plural, wrong paragraph and so on.", "bn": "একটা practice set করুন। প্রতিটি ভুল উত্তরের পাশে কারণ লিখুন: word limit, spelling, plural, wrong paragraph ইত্যাদি।"},
+          "items": [
+            {"en": "Practice set from the question bank", "bn": "Question bank থেকে একটা practice set", "minutes": 20, "target": "readingBank"}
+          ],
+          "tip": {"en": "After two weeks you'll see most mistakes come from 2–3 particular causes - fix just those and your band goes up.", "bn": "দুই সপ্তাহ পর দেখবেন বেশিরভাগ ভুল আসে ২–৩টি নির্দিষ্ট কারণ থেকে - শুধু সেগুলো ঠিক করলেই band বাড়বে।"}
+        }
+      ]
+    }
+  ]
+}

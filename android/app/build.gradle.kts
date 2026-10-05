@@ -12,6 +12,8 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+        // flutter_local_notifications (scheduled reminders) needs Java 8+ APIs.
+        isCoreLibraryDesugaringEnabled = true
     }
 
     defaultConfig {
@@ -26,9 +28,16 @@ android {
         // flag during build.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        // Content protection on (screenshots / recording / casting blocked,
+        // debugger refused); debug builds turn it off below.
+        manifestPlaceholders["secureMode"] = "true"
     }
 
     buildTypes {
+        debug {
+            // `flutter run`: screenshots allowed while developing.
+            manifestPlaceholders["secureMode"] = "false"
+        }
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
@@ -45,4 +54,8 @@ kotlin {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }

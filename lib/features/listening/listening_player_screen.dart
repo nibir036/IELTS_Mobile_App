@@ -534,7 +534,7 @@ class _HeroKey extends StatelessWidget {
         color: t.heroChip,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(18),
-          side: selected ? BorderSide(color: t.heroText) : BorderSide.none,
+          side: selected ? BorderSide(color: t.peach, width: 1.5) : BorderSide.none,
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(

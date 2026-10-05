@@ -323,15 +323,15 @@ class _AnalyticsScreenState extends State<AnalyticsScreen> {
                       vertical: 6,
                     ),
                     decoration: BoxDecoration(
-                      color: t.primary,
+                      gradient: kPeachGradient,
                       borderRadius: BorderRadius.circular(999),
                     ),
                     child: Text(
                       change,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 13,
-                        fontWeight: FontWeight.w500,
-                        color: t.onPrimary,
+                        fontWeight: FontWeight.w600,
+                        color: kOnPeach,
                       ),
                     ),
                   ),
@@ -345,7 +345,7 @@ class _AnalyticsScreenState extends State<AnalyticsScreen> {
                       child: CustomPaint(
                         painter: _LineChartPainter(
                           values: [for (final p in points) p.$2],
-                          grid: t.isNight ? const Color(0xFF242424) : t.border,
+                          grid: t.isNight ? const Color(0xFF22253A) : t.border,
                           line: t.fill,
                           dotFill: t.isNight ? t.bg : t.surface,
                         ),
@@ -526,7 +526,7 @@ class _SkillBar extends StatelessWidget {
         Container(
           height: 10,
           decoration: BoxDecoration(
-            color: t.isNight ? const Color(0xFF242424) : t.track,
+            color: t.isNight ? const Color(0xFF22253A) : t.track,
             borderRadius: BorderRadius.circular(5),
           ),
           alignment: Alignment.centerLeft,
@@ -537,7 +537,7 @@ class _SkillBar extends StatelessWidget {
                 ? StripedBox(
                     radius: 5,
                     a: t.isNight ? const Color(0xFFFF7A5C) : null,
-                    b: t.isNight ? const Color(0xFF5A2A20) : null,
+                    b: t.isNight ? const Color(0xFF3A4570) : null,
                   )
                 : Container(
                     decoration: BoxDecoration(

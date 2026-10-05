@@ -42,7 +42,7 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     ];
   }();
 
-  /// Without route words: a set generated from the speaking word bank —
+  /// Without route words: a set generated from the speaking word bank -
   /// today's mix, or one topic ([_topic]). Falls back to the demo set.
   late bool _daily = _bankWords.isEmpty && _generated(null).isNotEmpty;
   String? _topic;
@@ -130,7 +130,7 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
   final VoiceRecorder _rec = VoiceRecorder();
   final AudioClip _clip = AudioClip();
 
-  /// True after "Practise without recording" (no mic) — simulated scoring.
+  /// True after "Practise without recording" (no mic) - simulated scoring.
   bool _simulated = false;
   bool _recStarting = false;
   bool _recActive = false;
@@ -617,8 +617,8 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                 size: 52,
                 circle: true,
                 iconSize: 20,
-                bg: t.heroText,
-                fg: const Color(0xFFF6ECC8),
+                bg: t.peach,
+                fg: kOnPeach,
                 tooltip: 'Play native audio',
                 onTap: () => _play('native'),
               ),
@@ -726,14 +726,15 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                   duration: const Duration(milliseconds: 150),
                   height: 60,
                   decoration: BoxDecoration(
-                    color: _holding ? t.alert : t.primary,
+                    color: _holding ? t.alert : null,
+                    gradient: _holding ? null : kPeachGradient,
                     borderRadius: BorderRadius.circular(999),
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 10,
                     children: [
-                      Icon(AppIcons.mic, size: 20, color: t.onPrimary),
+                      Icon(AppIcons.mic, size: 20, color: _holding ? t.onPrimary : kOnPeach),
                       Flexible(
                         child: Text(
                           _scoring
@@ -743,8 +744,8 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             fontSize: 16,
-                            fontWeight: FontWeight.w500,
-                            color: t.onPrimary,
+                            fontWeight: FontWeight.w600,
+                            color: _holding ? t.onPrimary : kOnPeach,
                           ),
                         ),
                       ),

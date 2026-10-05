@@ -8,6 +8,7 @@ import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import '../../app/widgets/speak_button.dart';
 import 'widgets.dart';
 
@@ -171,12 +172,15 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'Word of the day',
+                      'Word of the day'.toUpperCase(),
                       style: TextStyle(
-                        fontSize: 12,
-                        color: t.isNight ? t.heroText : t.textSoft,
+                        fontSize: 11,
+                        letterSpacing: 1.1,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
                       ),
                     ),
+                    const SizedBox(height: 4),
                     Text.rich(
                       TextSpan(
                         children: [
@@ -187,7 +191,7 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
                               fontSize: 12,
                               fontWeight: FontWeight.w400,
                               letterSpacing: 0,
-                              color: t.isNight ? t.heroText : t.textSoft,
+                              color: t.heroMuted,
                             ),
                           ),
                         ],
@@ -205,7 +209,7 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
                       wod.s('definition'),
                       style: TextStyle(
                         fontSize: 12,
-                        color: t.isNight ? t.heroText : t.textSoft,
+                        color: t.heroMuted,
                       ),
                     ),
                   ],
@@ -216,8 +220,8 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
                 size: 40,
                 radius: 14,
                 iconSize: 18,
-                bg: t.isNight ? ResPalette.creamChip : ResPalette.white,
-                fg: ResPalette.ink,
+                bg: t.heroChip,
+                fg: t.heroText,
               ),
               IconBox(
                 icon: wordSaved ? AppIcons.bookmarkFilled : AppIcons.bookmark,
@@ -225,8 +229,8 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
                 size: 40,
                 radius: 14,
                 iconSize: 18,
-                bg: ResPalette.ink,
-                fg: ResPalette.white,
+                bg: wordSaved ? t.peach : t.heroChip,
+                fg: wordSaved ? kOnPeach : t.heroText,
                 onTap: () {
                   final now = toggleSavedWord(wod.s('id'));
                   context.toast(now ? 'Saved to your vault' : 'Removed from your vault');
@@ -276,74 +280,69 @@ class _FeaturedCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    return AppCard(
+    return HeroCard(
       radius: 28,
-      padding: const EdgeInsets.all(18),
-      color: t.primary,
+      padding: const EdgeInsets.fromLTRB(20, 18, 12, 18),
       onTap: onTap,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        spacing: 12,
+      child: Row(
+        spacing: 8,
         children: [
-          Row(
-            children: [
-              Expanded(
-                child: FittedBox(
-                  fit: BoxFit.scaleDown,
-                  alignment: Alignment.centerLeft,
-                  child: Container(
-                    height: 26,
-                    padding: const EdgeInsets.symmetric(horizontal: 10),
-                    alignment: Alignment.center,
-                    decoration: BoxDecoration(
-                      color: t.isNight ? ResPalette.ink : ResPalette.rose,
-                      borderRadius: BorderRadius.circular(999),
-                    ),
-                    child: Text(
-                      data.s('tag'),
-                      maxLines: 1,
-                      style: TextStyle(
-                        fontSize: 12,
-                        fontWeight: FontWeight.w500,
-                        color: t.isNight ? ResPalette.white : ResPalette.ink,
-                      ),
-                    ),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 10,
+              children: [
+                Text(
+                  data.s('tag').toUpperCase(),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    fontSize: 11,
+                    letterSpacing: 1.1,
+                    fontWeight: FontWeight.w600,
+                    color: t.peach,
                   ),
                 ),
-              ),
-              const SizedBox(width: 8),
-              Text(
-                data.s('readTime'),
-                style: TextStyle(
-                  fontSize: 12,
-                  color: t.isNight ? t.heroMuted : const Color(0xFFB5B5B5),
+                Text(
+                  data.s('title'),
+                  style: TextStyle(
+                    fontSize: 20,
+                    height: 1.2,
+                    fontWeight: FontWeight.w600,
+                    color: t.heroText,
+                  ),
                 ),
-              ),
-            ],
-          ),
-          Text(
-            data.s('title'),
-            style: TextStyle(
-              fontSize: 22,
-              height: 1.2,
-              letterSpacing: -0.3,
-              color: t.onPrimary,
+                Text(
+                  data.s('readTime'),
+                  style: TextStyle(fontSize: 12.5, color: t.heroMuted),
+                ),
+                Container(
+                  height: 40,
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  decoration: BoxDecoration(
+                    gradient: kPeachGradient,
+                    borderRadius: BorderRadius.circular(999),
+                  ),
+                  child: const Row(
+                    mainAxisSize: MainAxisSize.min,
+                    spacing: 8,
+                    children: [
+                      Text(
+                        'Read guide',
+                        style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
+                          color: kOnPeach,
+                        ),
+                      ),
+                      Icon(AppIcons.forward, size: 16, color: kOnPeach),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ),
-          Row(
-            spacing: 8,
-            children: [
-              Text(
-                'Read guide',
-                style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w500,
-                  color: t.onPrimary,
-                ),
-              ),
-              Icon(AppIcons.forward, size: 16, color: t.onPrimary),
-            ],
-          ),
+          const Nexi(NexiPose.reading, height: 110),
         ],
       ),
     );
@@ -362,8 +361,8 @@ class _HubTile extends StatelessWidget {
     final tone = data.s('tone');
     final accent = tone != 'plain';
     final bg = accent ? (t.isNight ? t.primary : toneBg(t, tone)) : t.surface;
-    final fg = accent ? t.heroText : t.text;
-    final muted = accent ? t.heroMuted : t.textMuted;
+    final fg = accent ? ResPalette.ink : t.text;
+    final muted = accent ? const Color(0xFF625C66) : t.textMuted;
     final boxBg = accent
         ? (t.isNight ? ResPalette.creamChip : ResPalette.white)
         : t.surfaceAlt2;

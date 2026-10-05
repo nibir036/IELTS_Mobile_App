@@ -29,7 +29,7 @@ class ShareService {
       copied = true;
     }
     if (copied && context.mounted) {
-      context.toast('Copied to clipboard — paste it anywhere to share');
+      context.toast('Copied to clipboard - paste it anywhere to share');
     }
   }
 

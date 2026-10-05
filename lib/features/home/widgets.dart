@@ -28,6 +28,18 @@ String homeRouteFor(String key) {
       return Routes.writingSelector;
     case 'writingGuide':
       return Routes.writingGuide;
+    case 'writingCourse':
+      return Routes.writingCourse;
+    case 'speakingCourse':
+      return Routes.speakingCourse;
+    case 'readingCourse':
+      return Routes.readingCourse;
+    case 'listeningCourse':
+      return Routes.listeningCourse;
+    case 'grammarCourse':
+      return Routes.grammarCourse;
+    case 'vocabCourse':
+      return Routes.vocabCourse;
     case 'readingGuide':
       return Routes.readingGuide;
     case 'speakingGuide':
@@ -243,6 +255,8 @@ IconData homeIconFor(String key) {
       return AppIcons.calendarMonth;
     case 'medal':
       return AppIcons.medal;
+    case 'school':
+      return AppIcons.school;
     case 'mock':
       return AppIcons.mock;
     case 'vocab':
@@ -255,8 +269,8 @@ IconData homeIconFor(String key) {
 }
 
 /// Pastel tiles the canvas keeps in both Day and Night.
-const Color kPastelLavender = Color(0xFFDCDDFA);
-const Color kPastelPink = Color(0xFFF9D6E2);
+const Color kPastelLavender = Color(0xFFDCE6FF);
+const Color kPastelPink = Color(0xFFFFE2D8);
 const Color kInk = Color(0xFF151515);
 
 /// Tinted circle used for schedule tasks / profile stats: Day uses a pink

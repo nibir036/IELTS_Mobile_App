@@ -12,7 +12,7 @@ import '../../app/widgets/kit.dart';
 import 'widgets.dart';
 import 'writing_data.dart';
 
-/// C9 · Saved Essay History — the student's writing attempts (+ drafts and
+/// C9 · Saved Essay History - the student's writing attempts (+ drafts and
 /// full mocks with a writing band) from the store.
 class EssayHistoryScreen extends StatefulWidget {
   const EssayHistoryScreen({super.key});
@@ -130,7 +130,6 @@ class _EssayHistoryScreenState extends State<EssayHistoryScreen> {
         HeroCard(
           radius: 26,
           padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
-          gradient: t.isNight ? null : wGradient(0xFFD6D8FA, 0xFFEEEFFD),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             spacing: 8,
@@ -146,9 +145,7 @@ class _EssayHistoryScreenState extends State<EssayHistoryScreen> {
                           'Writing band trend',
                           style: TextStyle(
                             fontSize: 13,
-                            color: t.isNight
-                                ? t.heroMuted
-                                : const Color(0xFF4F4A6B),
+                            color: t.heroMuted,
                           ),
                         ),
                         Text.rich(
@@ -162,9 +159,7 @@ class _EssayHistoryScreenState extends State<EssayHistoryScreen> {
                                 style: TextStyle(
                                   fontSize: 14,
                                   fontWeight: FontWeight.w400,
-                                  color: t.isNight
-                                      ? t.heroMuted
-                                      : const Color(0xFF4F4A6B),
+                                  color: t.heroMuted,
                                 ),
                               ),
                             ],
@@ -181,8 +176,9 @@ class _EssayHistoryScreenState extends State<EssayHistoryScreen> {
                   if (deltaLabel.isNotEmpty)
                     WPill(
                       deltaLabel,
-                      bg: const Color(0xFF151515),
-                      fg: const Color(0xFFFFFFFF),
+                      bg: t.peach,
+                      fg: kOnPeach,
+                      weight: FontWeight.w600,
                       padding: const EdgeInsets.symmetric(
                         horizontal: 10,
                         vertical: 6,
@@ -195,8 +191,8 @@ class _EssayHistoryScreenState extends State<EssayHistoryScreen> {
                 child: CustomPaint(
                   painter: _TrendPainter(
                     values: values,
-                    line: const Color(0xFF151515),
-                    dotFill: wc(t, 0xFFFFFFFF, 0xFFDCCFA5),
+                    line: t.peach,
+                    dotFill: t.heroText,
                   ),
                 ),
               ),
@@ -302,9 +298,9 @@ class _EssayRow extends StatelessWidget {
     if (draft) {
       boxBg = t.surfaceAlt2;
     } else if (tone == 'lavender') {
-      boxBg = const Color(0xFFDCDDFA);
+      boxBg = const Color(0xFFDCE6FF);
     } else {
-      boxBg = const Color(0xFFF9D6E2);
+      boxBg = const Color(0xFFFFE2D8);
     }
     return AppCard(
       radius: 22,

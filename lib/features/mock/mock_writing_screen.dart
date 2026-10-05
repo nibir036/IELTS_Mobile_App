@@ -14,7 +14,7 @@ import 'mock_exit_warning_screen.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
 
-/// G6 · Mock — Writing Section (Task 1 + Task 2 on one timer).
+/// G6 · Mock - Writing Section (Task 1 + Task 2 on one timer).
 class MockWritingScreen extends StatefulWidget {
   const MockWritingScreen({super.key});
 
@@ -323,7 +323,7 @@ class _TaskCard extends StatelessWidget {
     final done = minWords > 0 && words >= minWords;
     final fg = selected ? t.onPrimary : t.text;
     final sub = selected
-        ? (t.isNight ? const Color(0xFF5A5446) : const Color(0xFFB5B5B5))
+        ? (t.isNight ? const Color(0xFF5E5056) : const Color(0xFFB5B5B5))
         : t.textMuted;
     Widget box;
     if (done) {

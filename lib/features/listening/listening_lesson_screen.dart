@@ -376,7 +376,7 @@ class _ListeningLessonScreenState extends State<ListeningLessonScreen> {
       after: r.s('after'),
       gap: GapBox(
         number: n,
-        value: _checked && value.isEmpty ? '—' : value,
+        value: _checked && value.isEmpty ? '-' : value,
         state: state,
         height: 32,
         minWidth: 96,

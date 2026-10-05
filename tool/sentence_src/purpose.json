@@ -1,0 +1,1789 @@
+{
+  "category": "purpose",
+  "drills": [
+    {
+      "id": "purpose_001",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Many schools offer free meals.",
+        "They want to improve attendance."
+      ],
+      "answer": [
+        "Many schools",
+        "offer free meals",
+        "in order to",
+        "improve attendance."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order that",
+        "because of"
+      ],
+      "hint": "\"In order to\" is followed by the base form of a verb.",
+      "level": 1
+    },
+    {
+      "id": "purpose_002",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "The city built a new tram line.",
+        "It wanted to reduce traffic."
+      ],
+      "answer": [
+        "The city",
+        "built a new tram line",
+        "in order to",
+        "reduce traffic."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "although"
+      ],
+      "hint": "Put the action first, then \"in order to\" + base verb for the aim.",
+      "level": 1
+    },
+    {
+      "id": "purpose_003",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Many students share flats.",
+        "They want to save money."
+      ],
+      "answer": [
+        "In order to",
+        "save money,",
+        "many students",
+        "share flats."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "In order that",
+        "Because"
+      ],
+      "hint": "When the purpose comes first, put a comma after it.",
+      "level": 2
+    },
+    {
+      "id": "purpose_004",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Hospitals are hiring more nurses.",
+        "They want to cut waiting times."
+      ],
+      "answer": [
+        "Hospitals",
+        "are hiring more nurses",
+        "in order to",
+        "cut waiting times."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "so that"
+      ],
+      "hint": "Never use \"for\" before a verb to show purpose.",
+      "level": 1
+    },
+    {
+      "id": "purpose_005",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Farmers rotate their crops.",
+        "They want to keep the soil healthy."
+      ],
+      "answer": [
+        "Farmers",
+        "rotate their crops",
+        "in order to",
+        "keep the soil healthy."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order that",
+        "despite"
+      ],
+      "hint": "\"In order that\" needs a subject and verb; here only a base verb follows.",
+      "level": 1
+    },
+    {
+      "id": "purpose_006",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Some companies allow remote work.",
+        "They hope to attract skilled staff."
+      ],
+      "answer": [
+        "Some companies",
+        "allow remote work",
+        "in order to",
+        "attract skilled staff."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "because of"
+      ],
+      "hint": "\"So that\" needs a full clause; \"in order to\" takes a base verb.",
+      "level": 2
+    },
+    {
+      "id": "purpose_007",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Some governments tax sugary drinks.",
+        "They aim to reduce obesity."
+      ],
+      "answer": [
+        "Some governments",
+        "tax sugary drinks",
+        "in order to",
+        "reduce obesity."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "whereas"
+      ],
+      "hint": "Show the aim with \"in order to\" + base verb after the action.",
+      "level": 1
+    },
+    {
+      "id": "purpose_008",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Many museums offer evening tours.",
+        "They want to attract younger visitors."
+      ],
+      "answer": [
+        "In order to",
+        "attract younger visitors,",
+        "many museums",
+        "offer evening tours."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "In order that",
+        "Due to"
+      ],
+      "hint": "Start with the aim, add a comma, then give the action.",
+      "level": 2
+    },
+    {
+      "id": "purpose_009",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Many athletes follow strict diets.",
+        "They want to improve their performance."
+      ],
+      "answer": [
+        "Many athletes",
+        "follow strict diets",
+        "in order to",
+        "improve their performance."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "in spite of"
+      ],
+      "hint": "The aim comes after \"in order to\" as a base verb phrase.",
+      "level": 1
+    },
+    {
+      "id": "purpose_010",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "The council planted thousands of trees.",
+        "It wanted to improve air quality."
+      ],
+      "answer": [
+        "The council",
+        "planted thousands of trees",
+        "in order to",
+        "improve air quality."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order that",
+        "so"
+      ],
+      "hint": "\"So\" alone shows a result, not a purpose, and cannot go before a base verb.",
+      "level": 2
+    },
+    {
+      "id": "purpose_011",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "The researchers interviewed many families.",
+        "They wanted to study eating habits."
+      ],
+      "answer": [
+        "The researchers",
+        "interviewed many families",
+        "in order to",
+        "study eating habits."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "for"
+      ],
+      "hint": "Use \"in order to\" + base verb to say why the research was done.",
+      "level": 2
+    },
+    {
+      "id": "purpose_012",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Several cities have introduced congestion charges.",
+        "They want to discourage car use."
+      ],
+      "answer": [
+        "Several cities",
+        "have introduced",
+        "congestion charges",
+        "in order to",
+        "discourage car use."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "so that",
+        "because"
+      ],
+      "hint": "Keep the verb and its object together before the purpose phrase.",
+      "level": 3
+    },
+    {
+      "id": "purpose_013",
+      "connector": "in order to",
+      "function": "Purpose",
+      "sentences": [
+        "Some governments have created marine reserves.",
+        "They want to protect endangered species."
+      ],
+      "answer": [
+        "In order to",
+        "protect endangered species,",
+        "some governments",
+        "have created",
+        "marine reserves."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "In order that",
+        "Despite"
+      ],
+      "hint": "A fronted purpose phrase needs a comma before the main clause.",
+      "level": 3
+    },
+    {
+      "id": "purpose_014",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "Many offices switch off lights at night.",
+        "They want to save energy."
+      ],
+      "answer": [
+        "Many offices",
+        "switch off lights at night",
+        "so as to",
+        "save energy."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "because"
+      ],
+      "hint": "\"So as to\" works like \"in order to\": base verb after it.",
+      "level": 1
+    },
+    {
+      "id": "purpose_015",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "The library extended its opening hours.",
+        "It wanted to support exam students."
+      ],
+      "answer": [
+        "The library",
+        "extended its opening hours",
+        "so as to",
+        "support exam students."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "although"
+      ],
+      "hint": "\"So as to\" + base verb explains why the action happened.",
+      "level": 1
+    },
+    {
+      "id": "purpose_016",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "Some parents read to their children daily.",
+        "They hope to develop language skills."
+      ],
+      "answer": [
+        "Some parents",
+        "read to their children daily",
+        "so as to",
+        "develop language skills."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "despite"
+      ],
+      "hint": "Use \"so as to\", not \"for\", before a base verb of purpose.",
+      "level": 1
+    },
+    {
+      "id": "purpose_017",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "Many tourists book flights early.",
+        "They want to get cheaper fares."
+      ],
+      "answer": [
+        "Many tourists",
+        "book flights early",
+        "so as to",
+        "get cheaper fares."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "because of"
+      ],
+      "hint": "\"So as to\" is followed by a verb, not a noun phrase or clause.",
+      "level": 1
+    },
+    {
+      "id": "purpose_018",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "The factory installed new filters.",
+        "It wanted to reduce air pollution."
+      ],
+      "answer": [
+        "The factory",
+        "installed new filters",
+        "so as to",
+        "reduce air pollution."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order that",
+        "due to"
+      ],
+      "hint": "\"Due to\" gives a cause; you need a purpose word + base verb.",
+      "level": 1
+    },
+    {
+      "id": "purpose_019",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "Many workers take short breaks.",
+        "They want to stay focused."
+      ],
+      "answer": [
+        "Many workers",
+        "take short breaks",
+        "so as to",
+        "stay focused."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "unless"
+      ],
+      "hint": "Action first, then \"so as to\" + base verb for the aim.",
+      "level": 1
+    },
+    {
+      "id": "purpose_020",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "Some supermarkets reduce prices in the evening.",
+        "They want to cut food waste."
+      ],
+      "answer": [
+        "Some supermarkets",
+        "reduce prices in the evening",
+        "so as to",
+        "cut food waste."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "whereas"
+      ],
+      "hint": "\"So as to\" introduces the aim; \"whereas\" shows contrast.",
+      "level": 2
+    },
+    {
+      "id": "purpose_021",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "The government simplified the tax system.",
+        "It wanted to encourage small businesses."
+      ],
+      "answer": [
+        "The government",
+        "simplified the tax system",
+        "so as to",
+        "encourage small businesses."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "so that"
+      ],
+      "hint": "After \"so as to\", use the base form of the verb.",
+      "level": 3
+    },
+    {
+      "id": "purpose_022",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "Many universities record their lectures.",
+        "They want to help distance learners."
+      ],
+      "answer": [
+        "Many universities",
+        "record their lectures",
+        "so as to",
+        "help distance learners."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order that",
+        "although"
+      ],
+      "hint": "\"In order that\" needs a clause; \"so as to\" takes a base verb.",
+      "level": 2
+    },
+    {
+      "id": "purpose_023",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "The hospital has introduced online appointments.",
+        "It wants to reduce queues at reception."
+      ],
+      "answer": [
+        "The hospital",
+        "has introduced",
+        "online appointments",
+        "so as to",
+        "reduce queues at reception."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "so that",
+        "because of"
+      ],
+      "hint": "Keep the verb with its object, then add \"so as to\" + base verb.",
+      "level": 3
+    },
+    {
+      "id": "purpose_024",
+      "connector": "so as to",
+      "function": "Purpose",
+      "sentences": [
+        "Some athletes train at high altitude.",
+        "They want to increase their stamina."
+      ],
+      "answer": [
+        "Some athletes",
+        "train at high altitude",
+        "so as to",
+        "increase their stamina."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "so that"
+      ],
+      "hint": "\"So as to\" is never followed by a subject; go straight to the verb.",
+      "level": 2
+    },
+    {
+      "id": "purpose_025",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Many parks have bright lights.",
+        "People can walk safely at night."
+      ],
+      "answer": [
+        "Many parks",
+        "have bright lights",
+        "so that",
+        "people can walk safely",
+        "at night."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "because of"
+      ],
+      "hint": "\"So that\" is followed by a full clause, often with \"can\".",
+      "level": 1
+    },
+    {
+      "id": "purpose_026",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Good teachers explain tasks clearly.",
+        "Students can then work alone."
+      ],
+      "answer": [
+        "Good teachers",
+        "explain tasks clearly",
+        "so that",
+        "students can work alone."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "although"
+      ],
+      "hint": "After \"so that\", give a subject and a verb such as \"can\".",
+      "level": 1
+    },
+    {
+      "id": "purpose_027",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "The city added cycle lanes.",
+        "Cyclists could travel more safely."
+      ],
+      "answer": [
+        "The city",
+        "added cycle lanes",
+        "so that",
+        "cyclists could travel",
+        "more safely."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "despite"
+      ],
+      "hint": "In the past, \"so that\" is often followed by \"could\".",
+      "level": 2
+    },
+    {
+      "id": "purpose_028",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Some companies offer flexible hours.",
+        "Parents can collect their children."
+      ],
+      "answer": [
+        "Some companies",
+        "offer flexible hours",
+        "so that",
+        "parents can collect",
+        "their children."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "because"
+      ],
+      "hint": "\"In order to\" cannot be followed by a subject like \"parents\".",
+      "level": 2
+    },
+    {
+      "id": "purpose_029",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Many families install solar panels.",
+        "They can lower their energy bills."
+      ],
+      "answer": [
+        "Many families",
+        "install solar panels",
+        "so that",
+        "they can lower",
+        "their energy bills."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "although"
+      ],
+      "hint": "\"So that\" + subject + \"can\" shows what the action makes possible.",
+      "level": 1
+    },
+    {
+      "id": "purpose_030",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Doctors give clear instructions.",
+        "Patients will then take their medicine correctly."
+      ],
+      "answer": [
+        "Doctors",
+        "give clear instructions",
+        "so that",
+        "patients will take",
+        "their medicine correctly."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "because of"
+      ],
+      "hint": "\"So that\" can be followed by \"will\" for a future aim.",
+      "level": 2
+    },
+    {
+      "id": "purpose_031",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "The school opened a homework club.",
+        "Pupils could get extra help."
+      ],
+      "answer": [
+        "The school",
+        "opened a homework club",
+        "so that",
+        "pupils could get",
+        "extra help."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "whereas"
+      ],
+      "hint": "Use a full clause with \"could\" after \"so that\" in the past.",
+      "level": 2
+    },
+    {
+      "id": "purpose_032",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Many apps show live traffic updates.",
+        "Drivers can avoid busy roads."
+      ],
+      "answer": [
+        "Many apps",
+        "show live traffic updates",
+        "so that",
+        "drivers can avoid",
+        "busy roads."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "unless"
+      ],
+      "hint": "\"So that\" joins two clauses, each with its own subject.",
+      "level": 1
+    },
+    {
+      "id": "purpose_033",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Some museums provide audio guides.",
+        "Visitors can learn about each exhibit."
+      ],
+      "answer": [
+        "Some museums",
+        "provide audio guides",
+        "so that",
+        "visitors can learn",
+        "about each exhibit."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "due to"
+      ],
+      "hint": "\"So as to\" needs a base verb; this aim has its own subject.",
+      "level": 2
+    },
+    {
+      "id": "purpose_034",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "The government raised the minimum wage.",
+        "Low-paid workers could afford basic goods."
+      ],
+      "answer": [
+        "The government",
+        "raised the minimum wage",
+        "so that",
+        "low-paid workers",
+        "could afford",
+        "basic goods."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "because of"
+      ],
+      "hint": "After \"so that\", put the new subject before \"could\".",
+      "level": 3
+    },
+    {
+      "id": "purpose_035",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Many cities have built underground car parks.",
+        "Streets will be less crowded."
+      ],
+      "answer": [
+        "Many cities",
+        "have built",
+        "underground car parks",
+        "so that",
+        "streets will be",
+        "less crowded."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "although"
+      ],
+      "hint": "\"So that\" introduces a result someone wants, with its own subject.",
+      "level": 3
+    },
+    {
+      "id": "purpose_036",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "Some rural clinics use video calls.",
+        "Patients do not have to travel far."
+      ],
+      "answer": [
+        "Some rural clinics",
+        "use video calls",
+        "so that",
+        "patients do not have to",
+        "travel far."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "because"
+      ],
+      "hint": "A negative aim can follow \"so that\" as a full clause.",
+      "level": 2
+    },
+    {
+      "id": "purpose_037",
+      "connector": "so that",
+      "function": "Purpose",
+      "sentences": [
+        "The farmers built a reservoir.",
+        "They could water their crops in summer."
+      ],
+      "answer": [
+        "The farmers",
+        "built a reservoir",
+        "so that",
+        "they could water",
+        "their crops in summer."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "despite"
+      ],
+      "hint": "Past action + \"so that\" + subject + \"could\".",
+      "level": 1
+    },
+    {
+      "id": "purpose_038",
+      "connector": "in order that",
+      "function": "Purpose",
+      "sentences": [
+        "The rules were explained clearly.",
+        "Every candidate would understand them."
+      ],
+      "answer": [
+        "The rules",
+        "were explained clearly",
+        "in order that",
+        "every candidate",
+        "would understand them."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "because of"
+      ],
+      "hint": "\"In order that\" is formal and is followed by a subject and a modal verb.",
+      "level": 2
+    },
+    {
+      "id": "purpose_039",
+      "connector": "in order that",
+      "function": "Purpose",
+      "sentences": [
+        "The report was translated into several languages.",
+        "Everyone could read it."
+      ],
+      "answer": [
+        "The report",
+        "was translated",
+        "into several languages",
+        "in order that",
+        "everyone could read it."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "although"
+      ],
+      "hint": "\"In order that\" takes a full clause, unlike \"in order to\".",
+      "level": 3
+    },
+    {
+      "id": "purpose_040",
+      "connector": "in order that",
+      "function": "Purpose",
+      "sentences": [
+        "The university publishes its results online.",
+        "Students can see them easily."
+      ],
+      "answer": [
+        "The university",
+        "publishes its results online",
+        "in order that",
+        "students can see them easily."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "whereas"
+      ],
+      "hint": "Use \"in order that\" + subject + \"can\" in formal writing.",
+      "level": 2
+    },
+    {
+      "id": "purpose_041",
+      "connector": "in order that",
+      "function": "Purpose",
+      "sentences": [
+        "The school offers free swimming lessons.",
+        "All pupils should be able to swim."
+      ],
+      "answer": [
+        "In order that",
+        "all pupils can swim,",
+        "the school offers",
+        "free swimming lessons."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "In order to",
+        "Despite"
+      ],
+      "hint": "A fronted \"in order that\" clause needs a comma before the main clause.",
+      "level": 3
+    },
+    {
+      "id": "purpose_042",
+      "connector": "in order that",
+      "function": "Purpose",
+      "sentences": [
+        "The company trains its managers regularly.",
+        "Staff will be treated fairly."
+      ],
+      "answer": [
+        "The company",
+        "trains its managers regularly",
+        "in order that",
+        "staff will be treated fairly."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "because of"
+      ],
+      "hint": "\"In order that\" is followed by a clause; \"so as to\" is not.",
+      "level": 2
+    },
+    {
+      "id": "purpose_043",
+      "connector": "in order that",
+      "function": "Purpose",
+      "sentences": [
+        "The council publishes its budget.",
+        "Residents may see how money is spent."
+      ],
+      "answer": [
+        "The council",
+        "publishes its budget",
+        "in order that",
+        "residents may see",
+        "how money is spent."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "unless"
+      ],
+      "hint": "In formal English, \"in order that\" often takes \"may\" or \"can\".",
+      "level": 3
+    },
+    {
+      "id": "purpose_044",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Many people go to the gym.",
+        "They want to stay healthy."
+      ],
+      "answer": [
+        "Many people",
+        "go to the gym",
+        "to",
+        "stay healthy."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "so that"
+      ],
+      "hint": "The simple \"to\" + base verb is the most common way to show purpose.",
+      "level": 1
+    },
+    {
+      "id": "purpose_045",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Many students use flashcards.",
+        "They want to learn new vocabulary."
+      ],
+      "answer": [
+        "Many students",
+        "use flashcards",
+        "to",
+        "learn new vocabulary."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "because"
+      ],
+      "hint": "Do not say \"for learn\"; use \"to\" + base verb for a purpose.",
+      "level": 1
+    },
+    {
+      "id": "purpose_046",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Many tourists visit old towns.",
+        "They want to see historic buildings."
+      ],
+      "answer": [
+        "Many tourists",
+        "visit old towns",
+        "to",
+        "see historic buildings."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "so that"
+      ],
+      "hint": "A purpose can be shown simply with \"to\" + base verb.",
+      "level": 1
+    },
+    {
+      "id": "purpose_047",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Some workers move abroad.",
+        "They want to earn higher wages."
+      ],
+      "answer": [
+        "Some workers",
+        "move abroad",
+        "to",
+        "earn higher wages."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "although"
+      ],
+      "hint": "Use \"to\", not \"for\", directly before a verb of purpose.",
+      "level": 1
+    },
+    {
+      "id": "purpose_048",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Many scientists use satellite images.",
+        "They want to track changes in sea ice."
+      ],
+      "answer": [
+        "Many scientists",
+        "use satellite images",
+        "to",
+        "track changes in sea ice."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "for"
+      ],
+      "hint": "\"To\" + base verb tells us why something is used.",
+      "level": 1
+    },
+    {
+      "id": "purpose_049",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Many shops charge for plastic bags.",
+        "They want to reduce waste."
+      ],
+      "answer": [
+        "To",
+        "reduce waste,",
+        "many shops",
+        "charge for plastic bags."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "For",
+        "So that"
+      ],
+      "hint": "When \"to\" + verb starts the sentence, add a comma after the aim.",
+      "level": 2
+    },
+    {
+      "id": "purpose_050",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Many older people join local clubs.",
+        "They want to make new friends."
+      ],
+      "answer": [
+        "Many older people",
+        "join local clubs",
+        "to",
+        "make new friends."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "because of"
+      ],
+      "hint": "\"Because of\" needs a noun; a verb of purpose needs \"to\".",
+      "level": 1
+    },
+    {
+      "id": "purpose_051",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Some cities use street cameras.",
+        "They aim to prevent crime."
+      ],
+      "answer": [
+        "Some cities",
+        "use street cameras",
+        "to",
+        "prevent crime."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for",
+        "despite"
+      ],
+      "hint": "The purpose follows the action as \"to\" + base verb.",
+      "level": 1
+    },
+    {
+      "id": "purpose_052",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Many families eat dinner together.",
+        "They want to strengthen their bonds."
+      ],
+      "answer": [
+        "Many families",
+        "eat dinner together",
+        "to",
+        "strengthen their bonds."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "because"
+      ],
+      "hint": "\"Because\" needs a subject and verb; \"to\" goes straight to the verb.",
+      "level": 2
+    },
+    {
+      "id": "purpose_053",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Some countries have lowered business taxes.",
+        "They hope to attract foreign investment."
+      ],
+      "answer": [
+        "To",
+        "attract foreign investment,",
+        "some countries",
+        "have lowered",
+        "business taxes."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "For",
+        "In spite of"
+      ],
+      "hint": "Begin with the aim, use a comma, then the main clause.",
+      "level": 3
+    },
+    {
+      "id": "purpose_054",
+      "connector": "to",
+      "function": "Purpose",
+      "sentences": [
+        "Many journalists check several sources.",
+        "They want to avoid spreading errors."
+      ],
+      "answer": [
+        "Many journalists",
+        "check several sources",
+        "to",
+        "avoid spreading errors."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "for"
+      ],
+      "hint": "After the purpose \"to\", use the base verb \"avoid\".",
+      "level": 2
+    },
+    {
+      "id": "purpose_055",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "The council bought empty land.",
+        "It plans to build affordable homes."
+      ],
+      "answer": [
+        "The council",
+        "bought empty land",
+        "with a view to",
+        "building affordable homes."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "so that"
+      ],
+      "hint": "\"With a view to\" is followed by an -ing form, not the base verb.",
+      "level": 2
+    },
+    {
+      "id": "purpose_056",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "Many graduates take internships.",
+        "They hope to find permanent jobs."
+      ],
+      "answer": [
+        "Many graduates",
+        "take internships",
+        "with a view to",
+        "finding permanent jobs."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "although"
+      ],
+      "hint": "Here \"to\" is a preposition, so the verb after it takes -ing.",
+      "level": 2
+    },
+    {
+      "id": "purpose_057",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "The firm is studying overseas markets.",
+        "It plans to expand abroad."
+      ],
+      "answer": [
+        "The firm",
+        "is studying overseas markets",
+        "with a view to",
+        "expanding abroad."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "because of"
+      ],
+      "hint": "\"So as to\" needs a base verb; \"with a view to\" needs -ing.",
+      "level": 2
+    },
+    {
+      "id": "purpose_058",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "Some adults take evening classes.",
+        "They want to change careers."
+      ],
+      "answer": [
+        "Some adults",
+        "take evening classes",
+        "with a view to",
+        "changing careers."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "despite"
+      ],
+      "hint": "Use the -ing form after \"with a view to\".",
+      "level": 2
+    },
+    {
+      "id": "purpose_059",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "The government reviewed school meals.",
+        "It wants to improve children's diets."
+      ],
+      "answer": [
+        "The government",
+        "reviewed school meals",
+        "with a view to",
+        "improving children's diets."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "so that"
+      ],
+      "hint": "\"With a view to\" + -ing describes a planned aim.",
+      "level": 2
+    },
+    {
+      "id": "purpose_060",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "Many people save money.",
+        "They plan to buy a house."
+      ],
+      "answer": [
+        "Many people",
+        "save money",
+        "with a view to",
+        "buying a house."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "because of"
+      ],
+      "hint": "After \"with a view to\", the verb ends in -ing.",
+      "level": 1
+    },
+    {
+      "id": "purpose_061",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "The city has restored its old harbour.",
+        "It hopes to attract more tourists."
+      ],
+      "answer": [
+        "The city",
+        "has restored",
+        "its old harbour",
+        "with a view to",
+        "attracting more tourists."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "in order to"
+      ],
+      "hint": "The verb after \"with a view to\" must end in -ing.",
+      "level": 3
+    },
+    {
+      "id": "purpose_062",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "Several airlines are testing electric planes.",
+        "They hope to reduce emissions."
+      ],
+      "answer": [
+        "With a view to",
+        "reducing emissions,",
+        "several airlines",
+        "are testing",
+        "electric planes."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "In order to",
+        "Although"
+      ],
+      "hint": "A fronted \"with a view to\" phrase takes -ing and a comma.",
+      "level": 3
+    },
+    {
+      "id": "purpose_063",
+      "connector": "with a view to",
+      "function": "Purpose",
+      "sentences": [
+        "Many students learn English.",
+        "They plan to study abroad."
+      ],
+      "answer": [
+        "Many students",
+        "learn English",
+        "with a view to",
+        "studying abroad."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "for"
+      ],
+      "hint": "\"With a view to\" + -ing shows a future plan or aim.",
+      "level": 1
+    },
+    {
+      "id": "purpose_064",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "The charity runs cooking classes.",
+        "It wants to promote healthy eating."
+      ],
+      "answer": [
+        "The charity",
+        "runs cooking classes",
+        "with the aim of",
+        "promoting healthy eating."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "so that"
+      ],
+      "hint": "\"With the aim of\" needs an -ing verb after \"of\".",
+      "level": 1
+    },
+    {
+      "id": "purpose_065",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "The school introduced a reading scheme.",
+        "It aimed to raise literacy levels."
+      ],
+      "answer": [
+        "The school",
+        "introduced a reading scheme",
+        "with the aim of",
+        "raising literacy levels."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "because of"
+      ],
+      "hint": "After the preposition \"of\", use the -ing form.",
+      "level": 2
+    },
+    {
+      "id": "purpose_066",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "Many countries invest in wind farms.",
+        "They aim to cut carbon emissions."
+      ],
+      "answer": [
+        "Many countries",
+        "invest in wind farms",
+        "with the aim of",
+        "cutting carbon emissions."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "although"
+      ],
+      "hint": "\"With the aim of\" is followed by -ing, not the base verb.",
+      "level": 1
+    },
+    {
+      "id": "purpose_067",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "The museum launched a new website.",
+        "It hopes to reach a wider audience."
+      ],
+      "answer": [
+        "The museum",
+        "launched a new website",
+        "with the aim of",
+        "reaching a wider audience."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "despite"
+      ],
+      "hint": "Put the action first, then \"with the aim of\" + -ing.",
+      "level": 1
+    },
+    {
+      "id": "purpose_068",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "Some firms offer bonuses.",
+        "They want to keep their best staff."
+      ],
+      "answer": [
+        "Some firms",
+        "offer bonuses",
+        "with the aim of",
+        "keeping their best staff."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so as to",
+        "whereas"
+      ],
+      "hint": "\"So as to\" needs a base verb; \"with the aim of\" needs -ing.",
+      "level": 2
+    },
+    {
+      "id": "purpose_069",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "The city built new sports centres.",
+        "It aimed to improve public health."
+      ],
+      "answer": [
+        "With the aim of",
+        "improving public health,",
+        "the city",
+        "built new sports centres."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "In order to",
+        "Due to"
+      ],
+      "hint": "Start with \"with the aim of\" + -ing, then a comma.",
+      "level": 2
+    },
+    {
+      "id": "purpose_070",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "The government has launched a national campaign.",
+        "It aims to reduce road accidents."
+      ],
+      "answer": [
+        "The government",
+        "has launched",
+        "a national campaign",
+        "with the aim of",
+        "reducing road accidents."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "in order to"
+      ],
+      "hint": "Keep the verb with its object, then add \"with the aim of\" + -ing.",
+      "level": 3
+    },
+    {
+      "id": "purpose_071",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "Many retired people volunteer locally.",
+        "They want to stay active."
+      ],
+      "answer": [
+        "Many retired people",
+        "volunteer locally",
+        "with the aim of",
+        "staying active."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order to",
+        "because"
+      ],
+      "hint": "Use the -ing form after \"with the aim of\".",
+      "level": 1
+    },
+    {
+      "id": "purpose_072",
+      "connector": "with the aim of",
+      "function": "Purpose",
+      "sentences": [
+        "The festival celebrates local food.",
+        "It aims to support small farms."
+      ],
+      "answer": [
+        "The festival",
+        "celebrates local food",
+        "with the aim of",
+        "supporting small farms."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "in spite of"
+      ],
+      "hint": "\"With the aim of\" + -ing explains what the event hopes to do.",
+      "level": 2
+    },
+    {
+      "id": "purpose_073",
+      "connector": "so as not to",
+      "function": "Purpose",
+      "sentences": [
+        "Many students revise early.",
+        "They do not want to feel stressed before exams."
+      ],
+      "answer": [
+        "Many students",
+        "revise early",
+        "so as not to",
+        "feel stressed before exams."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that not",
+        "for not to"
+      ],
+      "hint": "In the negative, \"not\" goes before \"to\": \"so as not to\".",
+      "level": 2
+    },
+    {
+      "id": "purpose_074",
+      "connector": "so as not to",
+      "function": "Purpose",
+      "sentences": [
+        "Drivers slow down near schools.",
+        "They do not want to put children at risk."
+      ],
+      "answer": [
+        "Drivers",
+        "slow down near schools",
+        "so as not to",
+        "put children at risk."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that",
+        "because of"
+      ],
+      "hint": "\"So as not to\" + base verb shows what people want to avoid.",
+      "level": 2
+    },
+    {
+      "id": "purpose_075",
+      "connector": "so as not to",
+      "function": "Purpose",
+      "sentences": [
+        "Visitors stay on the paths.",
+        "They do not want to damage rare plants."
+      ],
+      "answer": [
+        "Visitors",
+        "stay on the paths",
+        "so as not to",
+        "damage rare plants."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for not to",
+        "although"
+      ],
+      "hint": "Use \"so as not to\" + base verb for a negative purpose.",
+      "level": 1
+    },
+    {
+      "id": "purpose_076",
+      "connector": "so as not to",
+      "function": "Purpose",
+      "sentences": [
+        "Many shoppers plan their meals carefully.",
+        "They do not want to waste food."
+      ],
+      "answer": [
+        "Many shoppers",
+        "plan their meals carefully",
+        "so as not to",
+        "waste food."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so that not",
+        "because"
+      ],
+      "hint": "\"So that\" would need a full clause; \"so as not to\" takes a base verb.",
+      "level": 1
+    },
+    {
+      "id": "purpose_077",
+      "connector": "in order not to",
+      "function": "Purpose",
+      "sentences": [
+        "Builders wear helmets on site.",
+        "They do not want to get injured."
+      ],
+      "answer": [
+        "Builders",
+        "wear helmets on site",
+        "in order not to",
+        "get injured."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order that not",
+        "for not to"
+      ],
+      "hint": "Put \"not\" between \"in order\" and \"to\".",
+      "level": 2
+    },
+    {
+      "id": "purpose_078",
+      "connector": "in order not to",
+      "function": "Purpose",
+      "sentences": [
+        "The speaker kept her talk short.",
+        "She did not want to bore the audience."
+      ],
+      "answer": [
+        "The speaker",
+        "kept her talk short",
+        "in order not to",
+        "bore the audience."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in order that not",
+        "because of"
+      ],
+      "hint": "\"In order not to\" + base verb shows something the person wanted to avoid.",
+      "level": 2
+    },
+    {
+      "id": "purpose_079",
+      "connector": "in order not to",
+      "function": "Purpose",
+      "sentences": [
+        "The airport limits night flights.",
+        "It does not want to disturb residents."
+      ],
+      "answer": [
+        "In order not to",
+        "disturb residents,",
+        "the airport",
+        "limits night flights."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "In order that not",
+        "Due to"
+      ],
+      "hint": "A fronted negative purpose phrase is followed by a comma.",
+      "level": 3
+    },
+    {
+      "id": "purpose_080",
+      "connector": "in order not to",
+      "function": "Purpose",
+      "sentences": [
+        "Many companies store data securely.",
+        "They do not want to lose customers' trust."
+      ],
+      "answer": [
+        "Many companies",
+        "store data securely",
+        "in order not to",
+        "lose customers' trust."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "for not to",
+        "although"
+      ],
+      "hint": "The negative purpose form is \"in order not to\" + base verb.",
+      "level": 3
+    }
+  ]
+}

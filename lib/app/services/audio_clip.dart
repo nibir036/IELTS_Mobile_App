@@ -80,7 +80,7 @@ class AudioClip extends ChangeNotifier {
     return _loaded;
   }
 
-  /// A bundled asset, or — for listening audio kept in R2 — its download
+  /// A bundled asset, or - for listening audio kept in R2 - its download
   /// link (see [Media]).
   Future<bool> loadAsset(String asset) {
     final url = Media.url(asset);

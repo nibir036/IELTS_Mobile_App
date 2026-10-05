@@ -87,18 +87,19 @@
         },
         {
           "id": "mod_vocab_grammar",
-          "title": "Grammar Course · English / বাংলা",
-          "icon": "article",
-          "target": "grammarGuide",
-          "meta": "11 chapters"
+          "title": "Grammar Course",
+          "icon": "school",
+          "target": "grammarCourse",
+          "course": "grammar",
+          "meta": ""
         },
         {
           "id": "mod_vocab_lessons",
-          "title": "Vocabulary Lessons · English / বাংলা",
-          "icon": "article",
-          "target": "vocabGuide",
-          "meta": "49 lessons",
-          "liveCount": "vocabGuide"
+          "title": "Vocabulary Course",
+          "icon": "school",
+          "target": "vocabCourse",
+          "course": "vocab",
+          "meta": ""
         },
         {
           "id": "mod_vocab_vault",
@@ -167,11 +168,20 @@
       "target": "writingSelector",
       "items": [
         {
+          "id": "mod_writing_booster",
+          "title": "Writing Booster · Linking",
+          "icon": "pen",
+          "meta": "1,240 sentences",
+          "highlight": true,
+          "target": "sentenceBuilder"
+        },
+        {
           "id": "mod_writing_guide",
-          "title": "Writing Guide · English / বাংলা",
-          "icon": "article",
-          "target": "writingGuide",
-          "meta": "23 chapters"
+          "title": "Writing Course",
+          "icon": "school",
+          "target": "writingCourse",
+          "course": "writing",
+          "meta": ""
         },
         {
           "id": "mod_writing_tips",
@@ -217,14 +227,6 @@
           "args": {
             "task": 2
           }
-        },
-        {
-          "id": "mod_writing_booster",
-          "title": "Writing Booster · Linking",
-          "icon": "pen",
-          "meta": "",
-          "highlight": true,
-          "target": "sentenceBuilder"
         },
         {
           "id": "mod_writing_template",
@@ -274,10 +276,11 @@
         },
         {
           "id": "mod_sp_guide",
-          "title": "Speaking Guide · English / বাংলা",
-          "icon": "article",
-          "target": "speakingGuide",
-          "meta": "22 chapters"
+          "title": "Speaking Course",
+          "icon": "school",
+          "target": "speakingCourse",
+          "course": "speaking",
+          "meta": ""
         },
         {
           "id": "mod_sp_tips",
@@ -372,10 +375,11 @@
         },
         {
           "id": "mod_li_guide",
-          "title": "Listening Guide · English / বাংলা",
-          "icon": "article",
-          "target": "listeningGuide",
-          "meta": "15 chapters"
+          "title": "Listening Course",
+          "icon": "school",
+          "target": "listeningCourse",
+          "course": "listening",
+          "meta": ""
         },
         {
           "id": "mod_li_tips",
@@ -439,10 +443,11 @@
         },
         {
           "id": "mod_reading_guide",
-          "title": "Reading Guide · English / বাংলা",
-          "icon": "article",
-          "target": "readingGuide",
-          "meta": "10 chapters"
+          "title": "Reading Course",
+          "icon": "school",
+          "target": "readingCourse",
+          "course": "reading",
+          "meta": ""
         },
         {
           "id": "mod_re_tests",
@@ -542,7 +547,7 @@
       },
       {
         "id": "certificates",
-        "title": "Certificates",
+        "title": "Milestones",
         "icon": "medal",
         "target": "certificates"
       },
@@ -592,7 +597,7 @@
         "type": "Drill",
         "category": "drills",
         "title": "Linking words: contrast & addition",
-        "subtitle": "Writing Booster · 12 questions",
+        "subtitle": "Sentence Builder · 1,240 sentences",
         "keywords": "cohesive devices linking words connectors",
         "target": "sentenceBuilder"
       },
@@ -673,7 +678,7 @@
         "type": "Drill",
         "category": "drills",
         "title": "Sentence combining: relative clauses",
-        "subtitle": "Sentence Builder · 10 questions",
+        "subtitle": "Sentence Builder · 100 sentences",
         "keywords": "cohesive devices complex sentences",
         "target": "sentenceBuilder"
       },
@@ -681,8 +686,8 @@
         "id": "srch_013",
         "type": "Drill",
         "category": "drills",
-        "title": "Overusing linkers: spot the error",
-        "subtitle": "Writing Booster · 8 questions",
+        "title": "Linking words practice: 13 categories",
+        "subtitle": "Sentence Builder · sets of 10",
         "keywords": "cohesive devices mechanical overuse",
         "target": "sentenceBuilder"
       },
@@ -725,89 +730,207 @@
     ]
   },
   "certificates": {
-    "intro": "Milestones you unlock as you practise. Each one is earned from your own results.",
+    "intro": "Badges you unlock as you learn and practise. Each one is earned from your own lessons and results.",
     "items": [
       {
-        "id": "first_mock",
-        "code": "FM",
-        "title": "First full mock test",
-        "description": "Completed a full four-skill IELTS Academic mock test.",
-        "icon": "mock",
+        "id": "first_lesson",
+        "group": "Learning",
+        "code": "L1",
+        "title": "First lesson",
+        "description": "Finished your first lesson in a course.",
+        "icon": "school",
+        "rule": {
+          "type": "lessons",
+          "goal": 1
+        },
+        "unit": "lessons"
+      },
+      {
+        "id": "lessons_10",
+        "group": "Learning",
+        "code": "L10",
+        "title": "10 lessons",
+        "description": "Finished ten course lessons.",
+        "icon": "school",
+        "rule": {
+          "type": "lessons",
+          "goal": 10
+        },
+        "unit": "lessons"
+      },
+      {
+        "id": "lessons_25",
+        "group": "Learning",
+        "code": "L25",
+        "title": "25 lessons",
+        "description": "Finished twenty-five course lessons.",
+        "icon": "layers",
+        "rule": {
+          "type": "lessons",
+          "goal": 25
+        },
+        "unit": "lessons"
+      },
+      {
+        "id": "stage_w1",
+        "group": "Learning",
+        "code": "WF",
+        "title": "Writing foundations",
+        "description": "Completed Stage 1 of the Writing Course: the five pillars, cohesion and coherence.",
+        "icon": "pen",
+        "rule": {
+          "type": "stage",
+          "module": "writing",
+          "stage": "w1"
+        }
+      },
+      {
+        "id": "stage_s1",
+        "group": "Learning",
+        "code": "SF",
+        "title": "Speaking foundations",
+        "description": "Completed Stage 1 of the Speaking Course: how the test works and how it is marked.",
+        "icon": "mic",
+        "rule": {
+          "type": "stage",
+          "module": "speaking",
+          "stage": "s1"
+        }
+      },
+      {
+        "id": "stage_r1",
+        "group": "Learning",
+        "code": "RF",
+        "title": "Reading foundations",
+        "description": "Completed Stage 1 of the Reading Course: the test, the band score and the answer rules.",
+        "icon": "reading",
+        "rule": {
+          "type": "stage",
+          "module": "reading",
+          "stage": "r1"
+        }
+      },
+      {
+        "id": "stage_l1",
+        "group": "Learning",
+        "code": "LF",
+        "title": "Listening foundations",
+        "description": "Completed Stage 1 of the Listening Course: the four parts and the expert listening mindset.",
+        "icon": "headphones",
+        "rule": {
+          "type": "stage",
+          "module": "listening",
+          "stage": "l1"
+        }
+      },
+      {
+        "id": "stage_g1",
+        "group": "Learning",
+        "code": "GA",
+        "title": "Agreement fixed",
+        "description": "Completed Stage 1 of the Grammar Course: subject–verb agreement.",
+        "icon": "check",
+        "rule": {
+          "type": "stage",
+          "module": "grammar",
+          "stage": "g1"
+        }
+      },
+      {
+        "id": "stage_v1",
+        "group": "Learning",
+        "code": "VL1",
+        "title": "L1 errors fixed",
+        "description": "Completed Stage 1 of the Vocabulary Course: the Bangla-to-English errors that cost easy marks.",
+        "icon": "school",
+        "rule": {
+          "type": "stage",
+          "module": "vocab",
+          "stage": "v1"
+        }
+      },
+      {
+        "id": "lessons_50",
+        "group": "Learning",
+        "code": "L50",
+        "title": "50 lessons",
+        "description": "Finished fifty course lessons.",
+        "icon": "layers",
+        "rule": {
+          "type": "lessons",
+          "goal": 50
+        },
+        "unit": "lessons"
+      },
+      {
+        "id": "course_writing",
+        "group": "Learning",
+        "code": "WC",
+        "title": "Writing Course complete",
+        "description": "Finished every lesson of the Writing Course.",
+        "icon": "trophy",
+        "rule": {
+          "type": "course",
+          "module": "writing"
+        },
+        "unit": "lessons"
+      },
+      {
+        "id": "xp_100",
+        "group": "Learning",
+        "code": "X1",
+        "title": "100 XP",
+        "description": "Earned 100 XP from lessons.",
+        "icon": "star",
+        "rule": {
+          "type": "xp",
+          "goal": 100
+        },
+        "unit": "XP"
+      },
+      {
+        "id": "xp_500",
+        "group": "Learning",
+        "code": "X5",
+        "title": "500 XP",
+        "description": "Earned 500 XP from lessons.",
+        "icon": "star",
+        "rule": {
+          "type": "xp",
+          "goal": 500
+        },
+        "unit": "XP"
+      },
+      {
+        "id": "xp_1000",
+        "group": "Learning",
+        "code": "X10",
+        "title": "1,000 XP",
+        "description": "Earned 1,000 XP from lessons.",
+        "icon": "bolt",
+        "rule": {
+          "type": "xp",
+          "goal": 1000
+        },
+        "unit": "XP"
+      },
+      {
+        "id": "first_essay",
+        "group": "Practice",
+        "code": "E1",
+        "title": "First essay",
+        "description": "Wrote and submitted your first Task 1 or Task 2 essay.",
+        "icon": "pen",
         "rule": {
           "type": "count",
-          "skill": "mock",
+          "skill": "writing",
           "kinds": [
-            "mock"
+            "task1",
+            "task2"
           ],
           "goal": 1
         },
-        "unit": "mock tests"
-      },
-      {
-        "id": "mock_65",
-        "code": "M65",
-        "title": "Band 6.5 in a mock",
-        "description": "Scored an overall Band 6.5 or higher in a full mock test.",
-        "icon": "trophy",
-        "rule": {
-          "type": "mockOverall",
-          "band": 6.5
-        }
-      },
-      {
-        "id": "mock_70",
-        "code": "M70",
-        "title": "Band 7.0 in a mock",
-        "description": "Scored an overall Band 7.0 or higher in a full mock test.",
-        "icon": "trophy",
-        "rule": {
-          "type": "mockOverall",
-          "band": 7.0
-        }
-      },
-      {
-        "id": "target_listening",
-        "code": "TL",
-        "title": "Listening on target",
-        "description": "Reached your target band in Listening.",
-        "icon": "listening",
-        "rule": {
-          "type": "skillTarget",
-          "skill": "listening"
-        }
-      },
-      {
-        "id": "target_reading",
-        "code": "TR",
-        "title": "Reading on target",
-        "description": "Reached your target band in Reading.",
-        "icon": "reading",
-        "rule": {
-          "type": "skillTarget",
-          "skill": "reading"
-        }
-      },
-      {
-        "id": "target_writing",
-        "code": "TW",
-        "title": "Writing on target",
-        "description": "Reached your target band in Writing.",
-        "icon": "writing",
-        "rule": {
-          "type": "skillTarget",
-          "skill": "writing"
-        }
-      },
-      {
-        "id": "target_speaking",
-        "code": "TS",
-        "title": "Speaking on target",
-        "description": "Reached your target band in Speaking.",
-        "icon": "speaking",
-        "rule": {
-          "type": "skillTarget",
-          "skill": "speaking"
-        }
+        "unit": "essays"
       },
       {
         "id": "essays_10",
@@ -824,7 +947,45 @@
           ],
           "goal": 10
         },
+        "unit": "essays",
+        "group": "Practice"
+      },
+      {
+        "id": "essays_25",
+        "group": "Practice",
+        "code": "E25",
+        "title": "25 writing essays",
+        "description": "Wrote and submitted twenty-five Task 1 or Task 2 essays.",
+        "icon": "pen",
+        "rule": {
+          "type": "count",
+          "skill": "writing",
+          "kinds": [
+            "task1",
+            "task2"
+          ],
+          "goal": 25
+        },
         "unit": "essays"
+      },
+      {
+        "id": "first_speaking",
+        "group": "Practice",
+        "code": "S1",
+        "title": "First speaking answer",
+        "description": "Recorded your first Part 1, 2 or 3 speaking answer.",
+        "icon": "mic",
+        "rule": {
+          "type": "count",
+          "skill": "speaking",
+          "kinds": [
+            "part1",
+            "part2",
+            "part3"
+          ],
+          "goal": 1
+        },
+        "unit": "answers"
       },
       {
         "id": "speaking_20",
@@ -842,19 +1003,57 @@
           ],
           "goal": 20
         },
+        "unit": "answers",
+        "group": "Practice"
+      },
+      {
+        "id": "speaking_50",
+        "group": "Practice",
+        "code": "S50",
+        "title": "50 speaking answers",
+        "description": "Recorded fifty Part 1, 2 or 3 speaking answers.",
+        "icon": "mic",
+        "rule": {
+          "type": "count",
+          "skill": "speaking",
+          "kinds": [
+            "part1",
+            "part2",
+            "part3"
+          ],
+          "goal": 50
+        },
         "unit": "answers"
       },
       {
-        "id": "streak_7",
-        "code": "ST7",
-        "title": "7-day streak",
-        "description": "Practised on seven days in a row.",
-        "icon": "fire",
+        "id": "reading_10",
+        "group": "Practice",
+        "code": "R10",
+        "title": "10 reading practices",
+        "description": "Completed ten Reading passages or tests.",
+        "icon": "reading",
         "rule": {
-          "type": "streak",
-          "goal": 7
+          "type": "count",
+          "skill": "reading",
+          "kinds": [],
+          "goal": 10
         },
-        "unit": "days"
+        "unit": "practices"
+      },
+      {
+        "id": "listening_10",
+        "group": "Practice",
+        "code": "LI10",
+        "title": "10 listening practices",
+        "description": "Completed ten Listening sections or tests.",
+        "icon": "headphones",
+        "rule": {
+          "type": "count",
+          "skill": "listening",
+          "kinds": [],
+          "goal": 10
+        },
+        "unit": "practices"
       },
       {
         "id": "listening_parts",
@@ -866,7 +1065,178 @@
           "type": "listeningParts",
           "goal": 4
         },
-        "unit": "parts"
+        "unit": "parts",
+        "group": "Practice"
+      },
+      {
+        "id": "first_mock",
+        "code": "FM",
+        "title": "First full mock test",
+        "description": "Completed a full four-skill IELTS Academic mock test.",
+        "icon": "mock",
+        "rule": {
+          "type": "count",
+          "skill": "mock",
+          "kinds": [
+            "mock"
+          ],
+          "goal": 1
+        },
+        "unit": "mock tests",
+        "group": "Practice"
+      },
+      {
+        "id": "mocks_5",
+        "group": "Practice",
+        "code": "M5",
+        "title": "5 full mock tests",
+        "description": "Completed five full four-skill mock tests.",
+        "icon": "mock",
+        "rule": {
+          "type": "count",
+          "skill": "mock",
+          "kinds": [
+            "mock"
+          ],
+          "goal": 5
+        },
+        "unit": "mock tests"
+      },
+      {
+        "id": "streak_3",
+        "group": "Streaks",
+        "code": "ST3",
+        "title": "3-day streak",
+        "description": "Practised or finished a lesson on three days in a row.",
+        "icon": "fire",
+        "rule": {
+          "type": "streak",
+          "goal": 3
+        },
+        "unit": "days"
+      },
+      {
+        "id": "streak_7",
+        "code": "ST7",
+        "title": "7-day streak",
+        "description": "Practised or finished a lesson on seven days in a row.",
+        "icon": "fire",
+        "rule": {
+          "type": "streak",
+          "goal": 7
+        },
+        "unit": "days",
+        "group": "Streaks"
+      },
+      {
+        "id": "streak_14",
+        "group": "Streaks",
+        "code": "ST14",
+        "title": "14-day streak",
+        "description": "Practised or finished a lesson on fourteen days in a row.",
+        "icon": "fire",
+        "rule": {
+          "type": "streak",
+          "goal": 14
+        },
+        "unit": "days"
+      },
+      {
+        "id": "streak_30",
+        "group": "Streaks",
+        "code": "ST30",
+        "title": "30-day streak",
+        "description": "Practised or finished a lesson on thirty days in a row.",
+        "icon": "fire",
+        "rule": {
+          "type": "streak",
+          "goal": 30
+        },
+        "unit": "days"
+      },
+      {
+        "id": "mock_65",
+        "code": "M65",
+        "title": "Band 6.5 in a mock",
+        "description": "Scored an overall Band 6.5 or higher in a full mock test.",
+        "icon": "trophy",
+        "rule": {
+          "type": "mockOverall",
+          "band": 6.5
+        },
+        "group": "Scores"
+      },
+      {
+        "id": "mock_70",
+        "code": "M70",
+        "title": "Band 7.0 in a mock",
+        "description": "Scored an overall Band 7.0 or higher in a full mock test.",
+        "icon": "trophy",
+        "rule": {
+          "type": "mockOverall",
+          "band": 7.0
+        },
+        "group": "Scores"
+      },
+      {
+        "id": "mock_75",
+        "group": "Scores",
+        "code": "M75",
+        "title": "Band 7.5 in a mock",
+        "description": "Scored an overall Band 7.5 or higher in a full mock test.",
+        "icon": "trophy",
+        "rule": {
+          "type": "mockOverall",
+          "band": 7.5
+        }
+      },
+      {
+        "id": "target_listening",
+        "code": "TL",
+        "title": "Listening on target",
+        "description": "Reached your target band in Listening.",
+        "icon": "listening",
+        "rule": {
+          "type": "skillTarget",
+          "skill": "listening"
+        },
+        "group": "Scores"
+      },
+      {
+        "id": "target_reading",
+        "code": "TR",
+        "title": "Reading on target",
+        "description": "Reached your target band in Reading.",
+        "icon": "reading",
+        "rule": {
+          "type": "skillTarget",
+          "skill": "reading"
+        },
+        "group": "Scores"
+      },
+      {
+        "id": "target_writing",
+        "code": "TW",
+        "title": "Writing on target",
+        "description": "Reached your target band in Writing.",
+        "icon": "writing",
+        "rule": {
+          "type": "skillTarget",
+          "skill": "writing"
+        },
+        "group": "Scores"
+      },
+      {
+        "id": "target_speaking",
+        "code": "TS",
+        "title": "Speaking on target",
+        "description": "Reached your target band in Speaking.",
+        "icon": "speaking",
+        "rule": {
+          "type": "skillTarget",
+          "skill": "speaking"
+        },
+        "group": "Scores"
       }
     ]
   },
@@ -941,7 +1311,7 @@
       },
       {
         "id": "certificates",
-        "label": "Certificates",
+        "label": "Milestones & badges",
         "free": "yes",
         "pro": "yes"
       },
@@ -954,7 +1324,7 @@
     ],
     "comingSoon": {
       "title": "Payments open soon",
-      "body": "We’re putting the finishing touches to Pro. Nothing is charged today — turn on the reminder and we’ll tell you the moment you can upgrade.",
+      "body": "We’re putting the finishing touches to Pro. Nothing is charged today - turn on the reminder and we’ll tell you the moment you can upgrade.",
       "toggleLabel": "Notify me when Pro launches",
       "confirmation": "You’re on the list. We’ll notify you when Pro launches."
     },

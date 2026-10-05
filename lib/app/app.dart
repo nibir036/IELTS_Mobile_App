@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/material.dart';
 
 import '../features/access/access_routes.dart';
+import '../features/course/course_routes.dart';
 import '../features/gallery/gallery_screen.dart';
 import '../features/home/home_routes.dart';
 import '../features/listening/listening_routes.dart';
@@ -14,9 +15,12 @@ import '../features/shell/main_shell.dart';
 import '../features/speaking/speaking_routes.dart';
 import '../features/writing/writing_routes.dart';
 import 'data/store.dart';
+import 'nav.dart';
 import 'routes.dart';
+import 'services/notification_service.dart';
 import 'services/sync_service.dart';
 import 'theme/app_theme.dart';
+import 'theme/readable_text.dart';
 import 'theme/theme_controller.dart';
 
 /// Root widget: IELTS AI by nextED.
@@ -70,6 +74,7 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
     // and send unsynced progress to the server. Back in front: fetch changes.
     if (state == AppLifecycleState.resumed) {
       unawaited(SyncService.I.syncNow());
+      NotificationService.I.refresh();
     } else if (state == AppLifecycleState.paused || state == AppLifecycleState.hidden) {
       Store.I.flush();
       unawaited(SyncService.I.flush());
@@ -89,6 +94,7 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
     ...listeningRoutes,
     ...mockRoutes,
     ...resourcesRoutes,
+    ...courseRoutes,
     // Screen gallery is a developer tool: debug builds only.
     if (kDebugMode) Routes.gallery: (_) => const GalleryScreen(),
   };
@@ -130,8 +136,11 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
       child: ValueListenableBuilder<ThemeMode>(
         valueListenable: _theme,
         builder: (context, mode, _) => MaterialApp(
+          navigatorKey: appNavigatorKey,
           title: 'IELTS AI by nextED',
           debugShowCheckedModeBanner: false,
+          // Small text a little larger on phones (see ReadableTextScaler).
+          builder: readableText,
           theme: AppTheme.day,
           darkTheme: AppTheme.night,
           themeMode: mode,

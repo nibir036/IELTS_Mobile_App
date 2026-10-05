@@ -417,7 +417,7 @@ class _ReadingQuestionsScreenState extends State<ReadingQuestionsScreen> {
                           border: Border.all(
                             color: chosen.contains(o.s('key'))
                                 ? t.text
-                                : (t.isNight ? t.border : const Color(0xFFD8CCD3)),
+                                : (t.isNight ? t.border : const Color(0xFFE3D2CC)),
                             width: 2,
                           ),
                         ),
@@ -540,7 +540,7 @@ class _ReadingQuestionsScreenState extends State<ReadingQuestionsScreen> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
-        color: t.isNight ? t.surfaceAlt2 : const Color(0xFFF8F3F6),
+        color: t.isNight ? t.surfaceAlt2 : const Color(0xFFFCF6F4),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -651,7 +651,7 @@ class _ReadingQuestionsScreenState extends State<ReadingQuestionsScreen> {
           Container(
             padding: const EdgeInsets.all(6),
             decoration: BoxDecoration(
-              color: t.isNight ? t.surfaceAlt2 : const Color(0xFFF8F3F6),
+              color: t.isNight ? t.surfaceAlt2 : const Color(0xFFFCF6F4),
               borderRadius: BorderRadius.circular(16),
             ),
             child: Column(
@@ -736,7 +736,7 @@ class _ReadingQuestionsScreenState extends State<ReadingQuestionsScreen> {
                           border: Border.all(
                             color: o.s('key') == chosen
                                 ? t.text
-                                : (t.isNight ? t.border : const Color(0xFFD8CCD3)),
+                                : (t.isNight ? t.border : const Color(0xFFE3D2CC)),
                             width: o.s('key') == chosen ? 6 : 2,
                           ),
                         ),

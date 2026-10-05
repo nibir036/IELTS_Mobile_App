@@ -378,11 +378,9 @@ class _VaultCard extends StatelessWidget {
 
     final Color titleColor = featured ? t.heroText : t.text;
     final Color metaColor = featured ? t.heroMuted : t.textMuted;
-    final Color tagBg = featured
-        ? (t.isNight ? const Color(0x14151515) : const Color(0xCCFFFFFF))
-        : cueCategoryTint(category);
+    final Color tagBg = featured ? t.peach : cueCategoryTint(category);
     final Color tagFg = featured
-        ? (t.isNight ? t.heroMuted : t.heroText)
+        ? kOnPeach
         : (t.isNight ? const Color(0xFF625C66) : t.text);
 
     final content = Padding(
@@ -469,13 +467,6 @@ class _VaultCard extends StatelessWidget {
         radius: 24,
         padding: EdgeInsets.zero,
         onTap: onTap,
-        gradient: t.isNight
-            ? null
-            : const LinearGradient(
-                begin: Alignment(-0.5, -0.87),
-                end: Alignment(0.5, 0.87),
-                colors: [Color(0xFFF7C6D6), Color(0xFFFCEBF1)],
-              ),
         child: content,
       );
     }

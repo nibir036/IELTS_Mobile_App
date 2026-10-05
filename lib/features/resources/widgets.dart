@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../app/data/content.dart';
 import '../../app/data/demo.dart';
+import '../../app/data/lessons.dart';
 import '../../app/data/l10n.dart';
 import '../../app/data/res_bank.dart';
 import '../../app/data/store.dart';
@@ -15,17 +16,17 @@ import '../../app/widgets/kit.dart';
 class ResPalette {
   ResPalette._();
 
-  static const Color pink = Color(0xFFF9D6E2);
-  static const Color lavender = Color(0xFFDCDDFA);
-  static const Color rose = Color(0xFFF7C6D6);
-  static const Color blush = Color(0xFFF4B8CB);
-  static const Color lilac = Color(0xFFB9BAF2);
-  static const Color periwinkleDay = Color(0xFFEEEFFD);
+  static const Color pink = Color(0xFFFFE2D8);
+  static const Color lavender = Color(0xFFDCE6FF);
+  static const Color rose = Color(0xFFFFD2C4);
+  static const Color blush = Color(0xFFFFB8A3);
+  static const Color lilac = Color(0xFFB4C8FF);
+  static const Color periwinkleDay = Color(0xFFE9EFFF);
   static const Color ink = Color(0xFF151515);
   static const Color white = Color(0xFFFFFFFF);
-  static const Color creamChip = Color(0xFFFFF8E2);
-  static const Color creamBorder = Color(0xFFDCCFA5);
-  static const Color indigoDot = Color(0xFF8C8EE8);
+  static const Color creamChip = Color(0xFFFFF1EC);
+  static const Color creamBorder = Color(0xFFE8B4A6);
+  static const Color indigoDot = Color(0xFF6F8EF0);
   static const Color onlineGreen = Color(0xFF2FA35F);
   static const Color onlineTextDay = Color(0xFF2E7D4F);
 }
@@ -138,6 +139,18 @@ String? resRoute(String key) {
       return Routes.sentenceBuilder;
     case 'writingGuide':
       return Routes.writingGuide;
+    case 'writingCourse':
+      return Routes.writingCourse;
+    case 'speakingCourse':
+      return Routes.speakingCourse;
+    case 'readingCourse':
+      return Routes.readingCourse;
+    case 'listeningCourse':
+      return Routes.listeningCourse;
+    case 'grammarCourse':
+      return Routes.grammarCourse;
+    case 'vocabCourse':
+      return Routes.vocabCourse;
     case 'speakingGuide':
       return Routes.speakingGuide;
     case 'grammarGuide':
@@ -434,7 +447,7 @@ class ResSegments extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
-        color: t.isNight ? t.surface : const Color(0xFFEDE3E9),
+        color: t.isNight ? t.surface : const Color(0xFFF2E6E2),
         borderRadius: BorderRadius.circular(18),
       ),
       child: Row(
@@ -704,7 +717,7 @@ String groupThousands(int n) => n.toString().replaceAllMapped(RegExp(r'\B(?=(\d{
 /// Resources bank; null when the bank is missing or the list is not a bank list.
 String? resLiveCount(String id) {
   if (id == 'vocab_lessons' || id == 'vocabGuide') {
-    final n = Demo.guide('vocab').l('chapters').length;
+    final n = Lessons.all('vocab').length;
     return n == 0 ? null : '$n lessons';
   }
   if (!ResBank.has) return null;

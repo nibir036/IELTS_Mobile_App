@@ -98,7 +98,7 @@ class _StudyGuideScreenState extends State<StudyGuideScreen> with ContentLangLis
                       height: 32,
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: c.s('id').endsWith('_practice') ? kPink : kLavender,
+                        color: c.s('id').endsWith('_practice') ? kPink : t.peach,
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Text(
@@ -234,7 +234,7 @@ class GuideBlock extends StatelessWidget {
         return Container(
           padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
           decoration: BoxDecoration(
-            color: t.isNight ? t.surfaceAlt2 : const Color(0xFFFFF6E0),
+            color: t.isNight ? t.surfaceAlt2 : const Color(0xFFFFF4EC),
             borderRadius: BorderRadius.circular(16),
           ),
           child: _rich(_s(1), body),
@@ -296,7 +296,7 @@ class GuideBlock extends StatelessWidget {
         return Container(
           padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
           decoration: BoxDecoration(
-            color: t.isNight ? t.surfaceAlt2 : const Color(0xFFFDF0F4),
+            color: t.isNight ? t.surfaceAlt2 : const Color(0xFFFFF5F1),
             borderRadius: BorderRadius.circular(16),
           ),
           child: Column(
@@ -403,8 +403,8 @@ class GuideBlock extends StatelessWidget {
       case 'box':
         final (Color bg, IconData icon, String label) = switch (_s(1)) {
           'l1' => (t.isNight ? t.surfaceAlt2 : const Color(0xFFFFF1E6), AppIcons.translate, 'Bangla speakers'),
-          'impact' => (t.isNight ? t.surfaceAlt2 : const Color(0xFFEEEFFD), AppIcons.medal, 'IELTS impact'),
-          _ => (t.isNight ? t.surfaceAlt2 : const Color(0xFFFFF6E0), AppIcons.bulb, 'Tip'),
+          'impact' => (t.isNight ? t.surfaceAlt2 : const Color(0xFFE9EFFF), AppIcons.medal, 'IELTS impact'),
+          _ => (t.isNight ? t.surfaceAlt2 : const Color(0xFFFFF4EC), AppIcons.bulb, 'Tip'),
         };
         final boxItems = _list(4);
         return Container(

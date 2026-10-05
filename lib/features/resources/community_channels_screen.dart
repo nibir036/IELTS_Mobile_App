@@ -163,7 +163,7 @@ class _CommunityChannelsScreenState extends State<CommunityChannelsScreen> {
           child: Row(
             spacing: 12,
             children: [
-              AvatarStack(people: live.l('avatars')),
+              AvatarStack(people: live.l('avatars'), borderColor: t.heroDark),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -185,7 +185,7 @@ class _CommunityChannelsScreenState extends State<CommunityChannelsScreen> {
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
                         fontSize: 12,
-                        color: t.isNight ? t.heroText : t.textSoft,
+                        color: t.heroMuted,
                       ),
                     ),
                   ],
@@ -194,11 +194,8 @@ class _CommunityChannelsScreenState extends State<CommunityChannelsScreen> {
               PrimaryButton(
                 label: 'Join',
                 height: 40,
-                radius: 14,
                 fontSize: 13,
                 expand: false,
-                bg: ResPalette.ink,
-                fg: ResPalette.white,
                 onTap: () => _open(live.s('roomId'), ''),
               ),
             ],
@@ -234,7 +231,7 @@ class _CommunityChannelsScreenState extends State<CommunityChannelsScreen> {
                   card: false,
                   padding: const EdgeInsets.fromLTRB(4, 12, 4, 16),
                   title: 'No direct messages yet',
-                  message: 'Join a room and practise with a partner — your chats will appear here.',
+                  message: 'Join a room and practise with a partner - your chats will appear here.',
                   icon: AppIcons.chat,
                   actionLabel: 'Browse rooms',
                   onAction: () => setState(() => _tab = 0),

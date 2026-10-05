@@ -18,7 +18,7 @@ import 'room_chat_bubbles.dart';
 import 'room_chat_parts.dart';
 import 'widgets.dart';
 
-/// H4 · Speaking Room Chat — in-app community room with a working composer:
+/// H4 · Speaking Room Chat - in-app community room with a working composer:
 /// text, voice notes, images and an AI speaking partner. Opens the content
 /// room, a DM thread or one of the user's own rooms (`{'roomId': id}`).
 class SpeakingRoomChatScreen extends StatefulWidget {
@@ -222,7 +222,7 @@ class _SpeakingRoomChatScreenState extends State<SpeakingRoomChatScreen> {
       return;
     }
     if (r.durationMs < 700) {
-      context.toast('Hold on a little longer — that voice note was too short');
+      context.toast('Hold on a little longer - that voice note was too short');
       return;
     }
     kSessionVoicePaths.add(r.path);
@@ -724,7 +724,7 @@ class _SpeakingRoomChatScreenState extends State<SpeakingRoomChatScreen> {
                         child: Container(
                           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                           decoration: BoxDecoration(
-                            color: t.isNight ? t.surface : const Color(0xFFEDE3E9),
+                            color: t.isNight ? t.surface : const Color(0xFFF2E6E2),
                             borderRadius: BorderRadius.circular(999),
                           ),
                           child: Text(
@@ -821,8 +821,8 @@ class _SpeakingRoomChatScreenState extends State<SpeakingRoomChatScreen> {
                       tooltip: 'Send',
                       size: 54,
                       radius: 20,
-                      bg: t.primary,
-                      fg: t.onPrimary,
+                      bg: t.peach,
+                      fg: kOnPeach,
                       onTap: _send,
                     ),
                   ],

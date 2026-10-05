@@ -333,7 +333,7 @@ class _SearchScreenState extends State<SearchScreen> {
 }
 
 Color _divider(AppTokens t) =>
-    t.isNight ? t.border : const Color(0xFFF1E8ED);
+    t.isNight ? t.border : const Color(0xFFF6EAE6);
 
 class _CountChip extends StatelessWidget {
   const _CountChip({
@@ -388,14 +388,14 @@ class _ResultRow extends StatelessWidget {
       case 'Drill':
         return (kPastelPink, kInk);
       case 'Vocab':
-        return (const Color(0xFFF7C6D6), kInk);
+        return (const Color(0xFFFFD2C4), kInk);
       case 'Essay':
       case 'Recording':
       case 'Mock':
       case 'Result':
         return t.isNight
             ? (t.surfaceAlt2, t.text)
-            : (const Color(0xFFEEEFFD), kInk);
+            : (const Color(0xFFE9EFFF), kInk);
       default:
         return (kPastelLavender, kInk);
     }

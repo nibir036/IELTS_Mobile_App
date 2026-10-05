@@ -1,0 +1,2297 @@
+{
+  "category": "result",
+  "drills": [
+    {
+      "id": "result_001",
+      "connector": "so",
+      "function": "Result",
+      "sentences": [
+        "It rained all day.",
+        "The match was cancelled."
+      ],
+      "answer": [
+        "It rained",
+        "all day,",
+        "so",
+        "the match",
+        "was cancelled."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "Put a comma before \"so\", then give the result.",
+      "level": 1
+    },
+    {
+      "id": "result_002",
+      "connector": "so",
+      "function": "Result",
+      "sentences": [
+        "The bus fare is cheap.",
+        "Most students use the bus."
+      ],
+      "answer": [
+        "The bus fare",
+        "is cheap,",
+        "so",
+        "most students",
+        "use the bus."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "Cause first, then \", so\" + the result clause.",
+      "level": 1
+    },
+    {
+      "id": "result_003",
+      "connector": "so",
+      "function": "Result",
+      "sentences": [
+        "The town has few jobs.",
+        "Young people are moving away."
+      ],
+      "answer": [
+        "The town",
+        "has few jobs,",
+        "so",
+        "young people",
+        "are moving away."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "\"So\" joins two clauses: the cause comes before it, the result after it.",
+      "level": 1
+    },
+    {
+      "id": "result_004",
+      "connector": "so",
+      "function": "Result",
+      "sentences": [
+        "The library was quiet.",
+        "Students could concentrate."
+      ],
+      "answer": [
+        "The library",
+        "was quiet,",
+        "so",
+        "students",
+        "could concentrate."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "Use a comma and \"so\" to show what happened as a result.",
+      "level": 1
+    },
+    {
+      "id": "result_005",
+      "connector": "so",
+      "function": "Result",
+      "sentences": [
+        "Organic food costs more.",
+        "Many families cannot afford it."
+      ],
+      "answer": [
+        "Organic food",
+        "costs more,",
+        "so",
+        "many families",
+        "cannot afford it."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "because",
+        "despite"
+      ],
+      "hint": "\"So\" introduces the result; \"because\" would reverse the meaning.",
+      "level": 2
+    },
+    {
+      "id": "result_006",
+      "connector": "so",
+      "function": "Result",
+      "sentences": [
+        "Tap water is safe here.",
+        "Few people buy bottled water."
+      ],
+      "answer": [
+        "Tap water",
+        "is safe here,",
+        "so",
+        "few people",
+        "buy bottled water."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "Cause, comma, \"so\", then the consequence.",
+      "level": 1
+    },
+    {
+      "id": "result_007",
+      "connector": "so",
+      "function": "Result",
+      "sentences": [
+        "The museum offers online tours.",
+        "People can visit from home."
+      ],
+      "answer": [
+        "The museum",
+        "offers online tours,",
+        "so",
+        "people can",
+        "visit from home."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "\"So\" is informal but fine in essays when joining two clauses after a comma.",
+      "level": 1
+    },
+    {
+      "id": "result_008",
+      "connector": "so",
+      "function": "Result",
+      "sentences": [
+        "The road was icy.",
+        "Drivers went slowly."
+      ],
+      "answer": [
+        "The road",
+        "was icy,",
+        "so",
+        "drivers",
+        "went slowly."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "despite"
+      ],
+      "hint": "After the comma, \"so\" introduces the result.",
+      "level": 1
+    },
+    {
+      "id": "result_009",
+      "connector": "therefore",
+      "function": "Result",
+      "sentences": [
+        "Smoking damages health.",
+        "It is banned in many offices."
+      ],
+      "answer": [
+        "Smoking",
+        "damages health;",
+        "therefore,",
+        "it is banned",
+        "in many offices."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Use a semicolon before \"therefore\" and a comma after it.",
+      "level": 1
+    },
+    {
+      "id": "result_010",
+      "connector": "therefore",
+      "function": "Result",
+      "sentences": [
+        "The population is growing.",
+        "More schools will be needed."
+      ],
+      "answer": [
+        "The population",
+        "is growing;",
+        "therefore,",
+        "more schools",
+        "will be needed."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "whereas"
+      ],
+      "hint": "\"Therefore\" introduces a logical result after a semicolon.",
+      "level": 1
+    },
+    {
+      "id": "result_011",
+      "connector": "therefore",
+      "function": "Result",
+      "sentences": [
+        "Exercise improves mood.",
+        "Doctors recommend it for stress."
+      ],
+      "answer": [
+        "Exercise",
+        "improves mood;",
+        "therefore,",
+        "doctors recommend it",
+        "for stress."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "nevertheless,",
+        "because"
+      ],
+      "hint": "Cause; therefore, result. Note the punctuation around \"therefore\".",
+      "level": 2
+    },
+    {
+      "id": "result_012",
+      "connector": "therefore",
+      "function": "Result",
+      "sentences": [
+        "The roads are crowded.",
+        "Many people prefer the train."
+      ],
+      "answer": [
+        "The roads",
+        "are crowded;",
+        "therefore,",
+        "many people",
+        "prefer the train."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Semicolon, then \"therefore\" with a comma, then the result.",
+      "level": 1
+    },
+    {
+      "id": "result_013",
+      "connector": "therefore",
+      "function": "Result",
+      "sentences": [
+        "Fossil fuels will eventually run out.",
+        "Renewable energy is vital."
+      ],
+      "answer": [
+        "Fossil fuels",
+        "will eventually run out;",
+        "therefore,",
+        "renewable energy",
+        "is vital."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "nevertheless,",
+        "unless"
+      ],
+      "hint": "\"Therefore\" shows a conclusion drawn from the first clause.",
+      "level": 3
+    },
+    {
+      "id": "result_014",
+      "connector": "therefore",
+      "function": "Result",
+      "sentences": [
+        "Many jobs require English.",
+        "Schools teach it from an early age."
+      ],
+      "answer": [
+        "Many jobs",
+        "require English;",
+        "therefore,",
+        "schools teach it",
+        "from an early age."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "The result follows \"therefore,\"; the cause comes before the semicolon.",
+      "level": 2
+    },
+    {
+      "id": "result_015",
+      "connector": "therefore",
+      "function": "Result",
+      "sentences": [
+        "The software was outdated.",
+        "The company replaced it."
+      ],
+      "answer": [
+        "The software",
+        "was outdated;",
+        "therefore,",
+        "the company",
+        "replaced it."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in contrast,",
+        "because"
+      ],
+      "hint": "\"Therefore\" is a sentence adverb, so it needs a semicolon before it here.",
+      "level": 1
+    },
+    {
+      "id": "result_016",
+      "connector": "therefore",
+      "function": "Result",
+      "sentences": [
+        "The tickets sold out quickly.",
+        "Extra shows were added."
+      ],
+      "answer": [
+        "The tickets",
+        "sold out quickly;",
+        "therefore,",
+        "extra shows",
+        "were added."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "unless"
+      ],
+      "hint": "Cause first; then \"; therefore,\" and the result.",
+      "level": 1
+    },
+    {
+      "id": "result_017",
+      "connector": "thus",
+      "function": "Result",
+      "sentences": [
+        "The city built more bike lanes.",
+        "More people started cycling."
+      ],
+      "answer": [
+        "The city",
+        "built more bike lanes;",
+        "thus,",
+        "more people",
+        "started cycling."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "\"Thus\" is formal; use a semicolon before it and a comma after it.",
+      "level": 1
+    },
+    {
+      "id": "result_018",
+      "connector": "thus",
+      "function": "Result",
+      "sentences": [
+        "Factories installed new filters.",
+        "This reduced air pollution."
+      ],
+      "answer": [
+        "Factories",
+        "installed new filters,",
+        "thus",
+        "reducing air pollution."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "\"Thus\" + -ing after a comma shows the result of the first action.",
+      "level": 3
+    },
+    {
+      "id": "result_019",
+      "connector": "thus",
+      "function": "Result",
+      "sentences": [
+        "The firm cut its prices.",
+        "It attracted more customers."
+      ],
+      "answer": [
+        "The firm",
+        "cut its prices;",
+        "thus,",
+        "it attracted",
+        "more customers."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "nevertheless,",
+        "because"
+      ],
+      "hint": "Semicolon, \"thus\" and a comma, then the result clause.",
+      "level": 2
+    },
+    {
+      "id": "result_020",
+      "connector": "thus",
+      "function": "Result",
+      "sentences": [
+        "Online banking is convenient.",
+        "Many branches have closed."
+      ],
+      "answer": [
+        "Online banking",
+        "is convenient;",
+        "thus,",
+        "many branches",
+        "have closed."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "\"Thus\" means \"as a result\" and links two clauses after a semicolon.",
+      "level": 2
+    },
+    {
+      "id": "result_021",
+      "connector": "thus",
+      "function": "Result",
+      "sentences": [
+        "The river was cleaned up.",
+        "Fish have returned."
+      ],
+      "answer": [
+        "The river",
+        "was cleaned up;",
+        "thus,",
+        "fish have returned."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "in contrast,",
+        "although"
+      ],
+      "hint": "Cause; thus, result. \"Thus\" is common in formal writing.",
+      "level": 2
+    },
+    {
+      "id": "result_022",
+      "connector": "thus",
+      "function": "Result",
+      "sentences": [
+        "Robots work faster than people.",
+        "This lowers production costs."
+      ],
+      "answer": [
+        "Robots",
+        "work faster than people,",
+        "thus",
+        "lowering production costs."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "whereas",
+        "because"
+      ],
+      "hint": "After a comma, \"thus\" + -ing describes the effect of the first clause.",
+      "level": 3
+    },
+    {
+      "id": "result_023",
+      "connector": "thus",
+      "function": "Result",
+      "sentences": [
+        "The museum is free.",
+        "It attracts many visitors."
+      ],
+      "answer": [
+        "The museum",
+        "is free;",
+        "thus,",
+        "it attracts",
+        "many visitors."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Put \"thus,\" after the semicolon to introduce the result.",
+      "level": 1
+    },
+    {
+      "id": "result_024",
+      "connector": "thus",
+      "function": "Result",
+      "sentences": [
+        "Solar panels are cheaper now.",
+        "More homes use them."
+      ],
+      "answer": [
+        "Solar panels",
+        "are cheaper now;",
+        "thus,",
+        "more homes",
+        "use them."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "nevertheless,",
+        "because"
+      ],
+      "hint": "\"Thus\" introduces the result; the cause comes first.",
+      "level": 1
+    },
+    {
+      "id": "result_025",
+      "connector": "hence",
+      "function": "Result",
+      "sentences": [
+        "The language app is free.",
+        "It is very popular."
+      ],
+      "answer": [
+        "The language app",
+        "is free,",
+        "hence",
+        "its popularity."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "whereas",
+        "although"
+      ],
+      "hint": "\"Hence\" can be followed by a noun phrase that names the result.",
+      "level": 2
+    },
+    {
+      "id": "result_026",
+      "connector": "hence",
+      "function": "Result",
+      "sentences": [
+        "Ticket prices rose sharply.",
+        "Fewer fans attended matches."
+      ],
+      "answer": [
+        "Ticket prices",
+        "rose sharply;",
+        "hence,",
+        "fewer fans",
+        "attended matches."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "With a full clause, use \"; hence,\" before the result.",
+      "level": 1
+    },
+    {
+      "id": "result_027",
+      "connector": "hence",
+      "function": "Result",
+      "sentences": [
+        "The region has little rain.",
+        "Water is carefully managed."
+      ],
+      "answer": [
+        "The region",
+        "has little rain;",
+        "hence,",
+        "water is",
+        "carefully managed."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "in contrast,",
+        "unless"
+      ],
+      "hint": "\"Hence\" is formal and means \"for this reason\".",
+      "level": 3
+    },
+    {
+      "id": "result_028",
+      "connector": "hence",
+      "function": "Result",
+      "sentences": [
+        "The bridge is old.",
+        "It needs regular repairs."
+      ],
+      "answer": [
+        "The bridge",
+        "is old;",
+        "hence,",
+        "it needs",
+        "regular repairs."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "whereas"
+      ],
+      "hint": "Semicolon, \"hence\" and a comma, then the result.",
+      "level": 1
+    },
+    {
+      "id": "result_029",
+      "connector": "hence",
+      "function": "Result",
+      "sentences": [
+        "The town is near the sea.",
+        "Fish is cheap there."
+      ],
+      "answer": [
+        "The town",
+        "is near the sea,",
+        "hence",
+        "the low price of fish."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "whereas",
+        "although"
+      ],
+      "hint": "After a comma, \"hence\" + noun phrase gives the result without a verb.",
+      "level": 3
+    },
+    {
+      "id": "result_030",
+      "connector": "hence",
+      "function": "Result",
+      "sentences": [
+        "Many students commute long distances.",
+        "They are often tired in class."
+      ],
+      "answer": [
+        "Many students",
+        "commute long distances;",
+        "hence,",
+        "they are",
+        "often tired in class."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "nevertheless,",
+        "because"
+      ],
+      "hint": "Cause first; \"hence,\" introduces what follows from it.",
+      "level": 2
+    },
+    {
+      "id": "result_031",
+      "connector": "hence",
+      "function": "Result",
+      "sentences": [
+        "The test was unfair.",
+        "The results were cancelled."
+      ],
+      "answer": [
+        "The test",
+        "was unfair;",
+        "hence,",
+        "the results",
+        "were cancelled."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "unless"
+      ],
+      "hint": "\"Hence\" shows a logical result; put a semicolon before it.",
+      "level": 2
+    },
+    {
+      "id": "result_032",
+      "connector": "hence",
+      "function": "Result",
+      "sentences": [
+        "Retired people have more free time.",
+        "Many volunteer locally."
+      ],
+      "answer": [
+        "Retired people",
+        "have more free time;",
+        "hence,",
+        "many volunteer",
+        "locally."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Use \"; hence,\" to link a cause to its result.",
+      "level": 1
+    },
+    {
+      "id": "result_033",
+      "connector": "consequently",
+      "function": "Result",
+      "sentences": [
+        "The factory closed.",
+        "Many workers lost their jobs."
+      ],
+      "answer": [
+        "The factory",
+        "closed;",
+        "consequently,",
+        "many workers",
+        "lost their jobs."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Use a semicolon before \"consequently\" and a comma after it.",
+      "level": 1
+    },
+    {
+      "id": "result_034",
+      "connector": "consequently",
+      "function": "Result",
+      "sentences": [
+        "The school banned mobile phones.",
+        "Pupils concentrated better."
+      ],
+      "answer": [
+        "The school",
+        "banned mobile phones;",
+        "consequently,",
+        "pupils",
+        "concentrated better."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "nevertheless,",
+        "because"
+      ],
+      "hint": "\"Consequently\" introduces the result of the first action.",
+      "level": 2
+    },
+    {
+      "id": "result_035",
+      "connector": "consequently",
+      "function": "Result",
+      "sentences": [
+        "House prices rose steeply.",
+        "First-time buyers struggled."
+      ],
+      "answer": [
+        "House prices",
+        "rose steeply;",
+        "consequently,",
+        "first-time buyers",
+        "struggled."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "in contrast,",
+        "unless"
+      ],
+      "hint": "Cause; consequently, effect. Keep the cause before the semicolon.",
+      "level": 2
+    },
+    {
+      "id": "result_036",
+      "connector": "consequently",
+      "function": "Result",
+      "sentences": [
+        "The city raised parking fees.",
+        "Fewer people drove into the centre."
+      ],
+      "answer": [
+        "The city",
+        "raised parking fees;",
+        "consequently,",
+        "fewer people",
+        "drove into the centre."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "whereas"
+      ],
+      "hint": "\"Consequently\" is a formal linker for results; it follows a semicolon here.",
+      "level": 2
+    },
+    {
+      "id": "result_037",
+      "connector": "consequently",
+      "function": "Result",
+      "sentences": [
+        "The heating broke down.",
+        "The office was very cold."
+      ],
+      "answer": [
+        "The heating",
+        "broke down;",
+        "consequently,",
+        "the office",
+        "was very cold."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Semicolon, \"consequently\" and a comma, then the result.",
+      "level": 1
+    },
+    {
+      "id": "result_038",
+      "connector": "consequently",
+      "function": "Result",
+      "sentences": [
+        "The forest was cleared.",
+        "Many animals lost their habitat."
+      ],
+      "answer": [
+        "The forest",
+        "was cleared;",
+        "consequently,",
+        "many animals",
+        "lost their habitat."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "nevertheless,",
+        "because"
+      ],
+      "hint": "\"Consequently\" shows that the second event was caused by the first.",
+      "level": 2
+    },
+    {
+      "id": "result_039",
+      "connector": "consequently",
+      "function": "Result",
+      "sentences": [
+        "The website crashed.",
+        "Customers could not order online."
+      ],
+      "answer": [
+        "The website",
+        "crashed;",
+        "consequently,",
+        "customers",
+        "could not order online."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "unless"
+      ],
+      "hint": "Put the result after \"consequently,\".",
+      "level": 2
+    },
+    {
+      "id": "result_040",
+      "connector": "consequently",
+      "function": "Result",
+      "sentences": [
+        "The team trained hard.",
+        "It won the league."
+      ],
+      "answer": [
+        "The team",
+        "trained hard;",
+        "consequently,",
+        "it won",
+        "the league."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Cause first, then \"; consequently,\" and the result.",
+      "level": 1
+    },
+    {
+      "id": "result_041",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "The shop lowered its prices.",
+        "Its sales rose quickly."
+      ],
+      "answer": [
+        "The shop",
+        "lowered its prices;",
+        "as a result,",
+        "its sales",
+        "rose quickly."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Use \"; as a result,\" between the cause and the result.",
+      "level": 1
+    },
+    {
+      "id": "result_042",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "A new motorway was built.",
+        "Journey times have fallen."
+      ],
+      "answer": [
+        "As a result of",
+        "the new motorway,",
+        "journey times",
+        "have fallen."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Although"
+      ],
+      "hint": "\"As a result of\" + noun phrase, then a comma and the result.",
+      "level": 2
+    },
+    {
+      "id": "result_043",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "Many people now shop online.",
+        "High streets are quieter."
+      ],
+      "answer": [
+        "Many people",
+        "now shop online;",
+        "as a result,",
+        "high streets",
+        "are quieter."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "nevertheless,",
+        "because"
+      ],
+      "hint": "\"As a result\" introduces the effect after a semicolon.",
+      "level": 2
+    },
+    {
+      "id": "result_044",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "The council banned plastic bags.",
+        "Litter in parks decreased."
+      ],
+      "answer": [
+        "The council",
+        "banned plastic bags;",
+        "as a result,",
+        "litter in parks",
+        "decreased."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "whereas"
+      ],
+      "hint": "Cause; as a result, effect. Remember the comma after the linker.",
+      "level": 2
+    },
+    {
+      "id": "result_045",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "The teacher explained the rules clearly.",
+        "The students understood them."
+      ],
+      "answer": [
+        "The teacher",
+        "explained the rules clearly;",
+        "as a result,",
+        "the students",
+        "understood them."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "unless"
+      ],
+      "hint": "Put \"as a result,\" after the semicolon, then the result.",
+      "level": 1
+    },
+    {
+      "id": "result_046",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "Globalisation has increased.",
+        "Many products are made abroad."
+      ],
+      "answer": [
+        "As a result of",
+        "globalisation,",
+        "many products",
+        "are made abroad."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Unless"
+      ],
+      "hint": "\"As a result of\" needs a noun such as \"globalisation\" before the comma.",
+      "level": 3
+    },
+    {
+      "id": "result_047",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "The hospital hired more nurses.",
+        "Waiting times fell."
+      ],
+      "answer": [
+        "The hospital",
+        "hired more nurses;",
+        "as a result,",
+        "waiting times",
+        "fell."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "The result clause follows \"as a result,\".",
+      "level": 1
+    },
+    {
+      "id": "result_048",
+      "connector": "as a result",
+      "function": "Result",
+      "sentences": [
+        "The region invested in tourism.",
+        "Visitor numbers grew."
+      ],
+      "answer": [
+        "The region",
+        "invested in tourism;",
+        "as a result,",
+        "visitor numbers",
+        "grew."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in contrast,",
+        "because"
+      ],
+      "hint": "Cause before the semicolon; result after \"as a result,\".",
+      "level": 2
+    },
+    {
+      "id": "result_049",
+      "connector": "as a consequence",
+      "function": "Result",
+      "sentences": [
+        "The lake dried up.",
+        "Local fishing came to an end."
+      ],
+      "answer": [
+        "The lake",
+        "dried up;",
+        "as a consequence,",
+        "local fishing",
+        "came to an end."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "\"As a consequence\" works like \"as a result\": semicolon before, comma after.",
+      "level": 2
+    },
+    {
+      "id": "result_050",
+      "connector": "as a consequence",
+      "function": "Result",
+      "sentences": [
+        "Many adults eat an unhealthy diet.",
+        "They are overweight."
+      ],
+      "answer": [
+        "As a consequence of",
+        "an unhealthy diet,",
+        "many adults",
+        "are overweight."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Because",
+        "Despite"
+      ],
+      "hint": "\"As a consequence of\" + noun phrase, then a comma.",
+      "level": 3
+    },
+    {
+      "id": "result_051",
+      "connector": "as a consequence",
+      "function": "Result",
+      "sentences": [
+        "The company moved its work online.",
+        "It needed fewer offices."
+      ],
+      "answer": [
+        "The company",
+        "moved its work online;",
+        "as a consequence,",
+        "it needed",
+        "fewer offices."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "nevertheless,",
+        "unless"
+      ],
+      "hint": "Put the effect after \"as a consequence,\".",
+      "level": 2
+    },
+    {
+      "id": "result_052",
+      "connector": "as a consequence",
+      "function": "Result",
+      "sentences": [
+        "The roads flooded.",
+        "Many people stayed at home."
+      ],
+      "answer": [
+        "The roads",
+        "flooded;",
+        "as a consequence,",
+        "many people",
+        "stayed at home."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "whereas"
+      ],
+      "hint": "Cause; as a consequence, result.",
+      "level": 1
+    },
+    {
+      "id": "result_053",
+      "connector": "as a consequence",
+      "function": "Result",
+      "sentences": [
+        "Birth rates have fallen.",
+        "The workforce is shrinking."
+      ],
+      "answer": [
+        "Birth rates",
+        "have fallen;",
+        "as a consequence,",
+        "the workforce",
+        "is shrinking."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in contrast,",
+        "although"
+      ],
+      "hint": "\"As a consequence\" is formal and introduces a result after a semicolon.",
+      "level": 3
+    },
+    {
+      "id": "result_054",
+      "connector": "as a consequence",
+      "function": "Result",
+      "sentences": [
+        "Screen use has increased.",
+        "Many children sleep less."
+      ],
+      "answer": [
+        "Screen use",
+        "has increased;",
+        "as a consequence,",
+        "many children",
+        "sleep less."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "however,",
+        "because"
+      ],
+      "hint": "The cause comes first; the linker then introduces the effect.",
+      "level": 2
+    },
+    {
+      "id": "result_055",
+      "connector": "as a consequence",
+      "function": "Result",
+      "sentences": [
+        "The power failed.",
+        "The train stopped suddenly."
+      ],
+      "answer": [
+        "The power",
+        "failed;",
+        "as a consequence,",
+        "the train",
+        "stopped suddenly."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Semicolon, \"as a consequence\" with a comma, then the result.",
+      "level": 1
+    },
+    {
+      "id": "result_056",
+      "connector": "as a consequence",
+      "function": "Result",
+      "sentences": [
+        "Many farmers use strong chemicals.",
+        "Soil quality has declined."
+      ],
+      "answer": [
+        "Many farmers",
+        "use strong chemicals;",
+        "as a consequence,",
+        "soil quality",
+        "has declined."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "nevertheless,",
+        "unless"
+      ],
+      "hint": "Use \"as a consequence,\" to show the effect of the first clause.",
+      "level": 2
+    },
+    {
+      "id": "result_057",
+      "connector": "accordingly",
+      "function": "Result",
+      "sentences": [
+        "Demand for nurses has grown.",
+        "Universities have expanded their courses."
+      ],
+      "answer": [
+        "Demand for nurses",
+        "has grown;",
+        "accordingly,",
+        "universities",
+        "have expanded their courses."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "\"Accordingly\" means \"as a suitable response to this\"; use a semicolon before it.",
+      "level": 2
+    },
+    {
+      "id": "result_058",
+      "connector": "accordingly",
+      "function": "Result",
+      "sentences": [
+        "The rules have changed.",
+        "Staff must update their methods."
+      ],
+      "answer": [
+        "The rules",
+        "have changed;",
+        "accordingly,",
+        "staff must",
+        "update their methods."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "nevertheless,",
+        "unless"
+      ],
+      "hint": "\"Accordingly\" introduces an action that responds to the first fact.",
+      "level": 3
+    },
+    {
+      "id": "result_059",
+      "connector": "accordingly",
+      "function": "Result",
+      "sentences": [
+        "Visitor numbers rose.",
+        "The park hired more guides."
+      ],
+      "answer": [
+        "Visitor numbers",
+        "rose;",
+        "accordingly,",
+        "the park",
+        "hired more guides."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "whereas"
+      ],
+      "hint": "Semicolon, \"accordingly\" and a comma, then the response.",
+      "level": 1
+    },
+    {
+      "id": "result_060",
+      "connector": "accordingly",
+      "function": "Result",
+      "sentences": [
+        "The students were beginners.",
+        "The teacher simplified the lesson."
+      ],
+      "answer": [
+        "The students",
+        "were beginners;",
+        "accordingly,",
+        "the teacher",
+        "simplified the lesson."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in contrast,",
+        "because"
+      ],
+      "hint": "The first clause is the situation; \"accordingly,\" shows the action taken.",
+      "level": 2
+    },
+    {
+      "id": "result_061",
+      "connector": "accordingly",
+      "function": "Result",
+      "sentences": [
+        "The weather turned cold.",
+        "People dressed more warmly."
+      ],
+      "answer": [
+        "The weather",
+        "turned cold;",
+        "accordingly,",
+        "people",
+        "dressed more warmly."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "Put \"accordingly,\" after the semicolon to show the response.",
+      "level": 1
+    },
+    {
+      "id": "result_062",
+      "connector": "accordingly",
+      "function": "Result",
+      "sentences": [
+        "Energy costs have risen.",
+        "The restaurant will raise its prices."
+      ],
+      "answer": [
+        "Energy costs",
+        "have risen;",
+        "accordingly,",
+        "the restaurant",
+        "will raise its prices."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "nevertheless,",
+        "unless"
+      ],
+      "hint": "\"Accordingly\" links a situation to a sensible reaction.",
+      "level": 2
+    },
+    {
+      "id": "result_063",
+      "connector": "accordingly",
+      "function": "Result",
+      "sentences": [
+        "The exam format changed.",
+        "Schools adjusted their teaching."
+      ],
+      "answer": [
+        "The exam format",
+        "changed;",
+        "accordingly,",
+        "schools",
+        "adjusted their teaching."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "however,",
+        "whereas"
+      ],
+      "hint": "Situation; accordingly, response. Keep the comma after the linker.",
+      "level": 2
+    },
+    {
+      "id": "result_064",
+      "connector": "accordingly",
+      "function": "Result",
+      "sentences": [
+        "More people work at night.",
+        "Some shops now open all night."
+      ],
+      "answer": [
+        "More people",
+        "work at night;",
+        "accordingly,",
+        "some shops",
+        "now open all night."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "however,",
+        "although"
+      ],
+      "hint": "\"Accordingly\" is formal; the second clause is the result.",
+      "level": 3
+    },
+    {
+      "id": "result_065",
+      "connector": "as such",
+      "function": "Result",
+      "sentences": [
+        "Water is a basic human need.",
+        "It should be affordable for all."
+      ],
+      "answer": [
+        "Water",
+        "is a basic human need;",
+        "as such,",
+        "it should be",
+        "affordable for all."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "unless",
+        "because of"
+      ],
+      "hint": "\"As such\" means \"in that role\": it refers back to the noun just named.",
+      "level": 3
+    },
+    {
+      "id": "result_066",
+      "connector": "as such",
+      "function": "Result",
+      "sentences": [
+        "The old town is a historic site.",
+        "It is protected by law."
+      ],
+      "answer": [
+        "The old town",
+        "is a historic site;",
+        "as such,",
+        "it is protected",
+        "by law."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "nevertheless,",
+        "although"
+      ],
+      "hint": "Use \"as such\" only when it refers back to a noun such as \"a historic site\".",
+      "level": 3
+    },
+    {
+      "id": "result_067",
+      "connector": "as such",
+      "function": "Result",
+      "sentences": [
+        "Anna is a qualified nurse.",
+        "She can give first aid."
+      ],
+      "answer": [
+        "Anna",
+        "is a qualified nurse;",
+        "as such,",
+        "she can",
+        "give first aid."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "however,",
+        "whereas"
+      ],
+      "hint": "\"As such\" = \"because she is that\": it points back to \"a qualified nurse\".",
+      "level": 3
+    },
+    {
+      "id": "result_068",
+      "connector": "as such",
+      "function": "Result",
+      "sentences": [
+        "English is a global language.",
+        "It is taught in many schools."
+      ],
+      "answer": [
+        "English",
+        "is a global language;",
+        "as such,",
+        "it is taught",
+        "in many schools."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "in contrast,",
+        "although"
+      ],
+      "hint": "\"As such\" refers back to the role or category in the first clause.",
+      "level": 3
+    },
+    {
+      "id": "result_069",
+      "connector": "that is why",
+      "function": "Result",
+      "sentences": [
+        "Fast food is cheap.",
+        "Many students eat it."
+      ],
+      "answer": [
+        "Fast food",
+        "is cheap;",
+        "that is why",
+        "many students",
+        "eat it."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "\"That is why\" introduces the result; \"that\" refers to the cause.",
+      "level": 1
+    },
+    {
+      "id": "result_070",
+      "connector": "that is why",
+      "function": "Result",
+      "sentences": [
+        "The city has good public transport.",
+        "Few residents own cars."
+      ],
+      "answer": [
+        "The city",
+        "has good public transport;",
+        "that is why",
+        "few residents",
+        "own cars."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "whereas",
+        "despite"
+      ],
+      "hint": "Give the cause, a semicolon, then \"that is why\" + the result.",
+      "level": 2
+    },
+    {
+      "id": "result_071",
+      "connector": "that is why",
+      "function": "Result",
+      "sentences": [
+        "Reading improves vocabulary.",
+        "Teachers recommend it."
+      ],
+      "answer": [
+        "Reading",
+        "improves vocabulary;",
+        "that is why",
+        "teachers",
+        "recommend it."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "No comma after \"that is why\": the result clause follows directly.",
+      "level": 1
+    },
+    {
+      "id": "result_072",
+      "connector": "that is why",
+      "function": "Result",
+      "sentences": [
+        "The flat is near the station.",
+        "It is easy to rent out."
+      ],
+      "answer": [
+        "The flat",
+        "is near the station;",
+        "that is why",
+        "it is",
+        "easy to rent out."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "whereas",
+        "unless"
+      ],
+      "hint": "Cause first; \"that is why\" points back to it and introduces the effect.",
+      "level": 1
+    },
+    {
+      "id": "result_073",
+      "connector": "that is why",
+      "function": "Result",
+      "sentences": [
+        "Rural areas lack doctors.",
+        "Some patients travel long distances."
+      ],
+      "answer": [
+        "Rural areas",
+        "lack doctors;",
+        "that is why",
+        "some patients",
+        "travel long distances."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "although",
+        "in spite of"
+      ],
+      "hint": "\"That is why\" is slightly informal; it follows a semicolon here.",
+      "level": 2
+    },
+    {
+      "id": "result_074",
+      "connector": "that is why",
+      "function": "Result",
+      "sentences": [
+        "The beach is clean and safe.",
+        "It attracts many families."
+      ],
+      "answer": [
+        "The beach",
+        "is clean and safe;",
+        "that is why",
+        "it attracts",
+        "many families."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "whereas",
+        "because of"
+      ],
+      "hint": "Put \"that is why\" before the result, not before the reason.",
+      "level": 1
+    },
+    {
+      "id": "result_075",
+      "connector": "that is why",
+      "function": "Result",
+      "sentences": [
+        "Sport builds teamwork.",
+        "Schools include it in the timetable."
+      ],
+      "answer": [
+        "Sport",
+        "builds teamwork;",
+        "that is why",
+        "schools include it",
+        "in the timetable."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "although",
+        "unless"
+      ],
+      "hint": "\"That is why\" + subject + verb gives the result.",
+      "level": 1
+    },
+    {
+      "id": "result_076",
+      "connector": "that is why",
+      "function": "Result",
+      "sentences": [
+        "Wages are higher in the city.",
+        "Many workers move there."
+      ],
+      "answer": [
+        "Wages",
+        "are higher in the city;",
+        "that is why",
+        "many workers",
+        "move there."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "whereas",
+        "despite"
+      ],
+      "hint": "The reason comes first; \"that is why\" introduces the effect.",
+      "level": 2
+    },
+    {
+      "id": "result_077",
+      "connector": "which means that",
+      "function": "Result",
+      "sentences": [
+        "Tuition fees have risen.",
+        "Fewer students can afford university."
+      ],
+      "answer": [
+        "Tuition fees",
+        "have risen,",
+        "which means that",
+        "fewer students",
+        "can afford university."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "because of"
+      ],
+      "hint": "Use a comma before \"which means that\" to show a result of the whole idea.",
+      "level": 1
+    },
+    {
+      "id": "result_078",
+      "connector": "which means that",
+      "function": "Result",
+      "sentences": [
+        "Many shops open on Sundays.",
+        "Some staff lose their weekend."
+      ],
+      "answer": [
+        "Many shops",
+        "open on Sundays,",
+        "which means that",
+        "some staff",
+        "lose their weekend."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "whereas",
+        "despite"
+      ],
+      "hint": "\"Which\" refers back to the whole first clause; then add the result.",
+      "level": 2
+    },
+    {
+      "id": "result_079",
+      "connector": "which means that",
+      "function": "Result",
+      "sentences": [
+        "The train line was extended.",
+        "Commuters save time."
+      ],
+      "answer": [
+        "The train line",
+        "was extended,",
+        "which means that",
+        "commuters",
+        "save time."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "although",
+        "unless"
+      ],
+      "hint": "Comma, \"which means that\", then subject + verb.",
+      "level": 2
+    },
+    {
+      "id": "result_080",
+      "connector": "which means that",
+      "function": "Result",
+      "sentences": [
+        "Most homework is now online.",
+        "Pupils need internet access at home."
+      ],
+      "answer": [
+        "Most homework",
+        "is now online,",
+        "which means that",
+        "pupils need",
+        "internet access at home."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "whereas",
+        "because of"
+      ],
+      "hint": "\"Which means that\" adds a consequence of the first clause.",
+      "level": 2
+    },
+    {
+      "id": "result_081",
+      "connector": "which means that",
+      "function": "Result",
+      "sentences": [
+        "The park has a new playground.",
+        "Families visit more often."
+      ],
+      "answer": [
+        "The park",
+        "has a new playground,",
+        "which means that",
+        "families",
+        "visit more often."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "although",
+        "despite"
+      ],
+      "hint": "After the comma, \"which means that\" + the result clause.",
+      "level": 1
+    },
+    {
+      "id": "result_082",
+      "connector": "which means that",
+      "function": "Result",
+      "sentences": [
+        "The bridge is closed.",
+        "Drivers must take a longer route."
+      ],
+      "answer": [
+        "The bridge",
+        "is closed,",
+        "which means that",
+        "drivers",
+        "must take a longer route."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "unless",
+        "because of"
+      ],
+      "hint": "The cause comes first; \"which\" refers back to all of it.",
+      "level": 2
+    },
+    {
+      "id": "result_083",
+      "connector": "which means that",
+      "function": "Result",
+      "sentences": [
+        "Machines now do routine tasks.",
+        "Workers need new skills."
+      ],
+      "answer": [
+        "Machines",
+        "now do routine tasks,",
+        "which means that",
+        "workers",
+        "need new skills."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "whereas",
+        "despite"
+      ],
+      "hint": "\"Which means that\" links a fact to what follows from it.",
+      "level": 3
+    },
+    {
+      "id": "result_084",
+      "connector": "which means that",
+      "function": "Result",
+      "sentences": [
+        "The course is taught in English.",
+        "Students need strong language skills."
+      ],
+      "answer": [
+        "The course",
+        "is taught in English,",
+        "which means that",
+        "students need",
+        "strong language skills."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "although",
+        "unless"
+      ],
+      "hint": "Put a comma before \"which\"; the result follows \"means that\".",
+      "level": 2
+    },
+    {
+      "id": "result_085",
+      "connector": "so ... that",
+      "function": "Result",
+      "sentences": [
+        "The exam was very difficult.",
+        "Many students failed it."
+      ],
+      "answer": [
+        "The exam was",
+        "so",
+        "difficult",
+        "that",
+        "many students failed it."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "which"
+      ],
+      "hint": "Pattern: \"so\" + adjective + \"that\" + result clause.",
+      "level": 1
+    },
+    {
+      "id": "result_086",
+      "connector": "so ... that",
+      "function": "Result",
+      "sentences": [
+        "The town grew very quickly.",
+        "It ran out of housing."
+      ],
+      "answer": [
+        "The town grew",
+        "so",
+        "quickly",
+        "that",
+        "it ran out of housing."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "although"
+      ],
+      "hint": "\"So\" can go before an adverb too; \"that\" then introduces the result.",
+      "level": 2
+    },
+    {
+      "id": "result_087",
+      "connector": "so ... that",
+      "function": "Result",
+      "sentences": [
+        "The film was very long.",
+        "Some viewers left early."
+      ],
+      "answer": [
+        "The film was",
+        "so",
+        "long",
+        "that",
+        "some viewers left early."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "unless"
+      ],
+      "hint": "After \"so\" + adjective, use \"that\" + subject + verb for the result.",
+      "level": 1
+    },
+    {
+      "id": "result_088",
+      "connector": "so ... that",
+      "function": "Result",
+      "sentences": [
+        "The air was very polluted.",
+        "Schools closed for a day."
+      ],
+      "answer": [
+        "The air was",
+        "so",
+        "polluted",
+        "that",
+        "schools closed for a day."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "which"
+      ],
+      "hint": "Use \"so\" + adjective, then \"that\" before the result.",
+      "level": 2
+    },
+    {
+      "id": "result_089",
+      "connector": "so ... that",
+      "function": "Result",
+      "sentences": [
+        "The hotel was very popular.",
+        "It was booked for months."
+      ],
+      "answer": [
+        "The hotel was",
+        "so",
+        "popular",
+        "that",
+        "it was booked for months."
+      ],
+      "prefilled": 2,
+      "distractors": [
+        "because",
+        "whereas"
+      ],
+      "hint": "\"So ... that\": the adjective goes between the two parts.",
+      "level": 2
+    },
+    {
+      "id": "result_090",
+      "connector": "so ... that",
+      "function": "Result",
+      "sentences": [
+        "The concert was very popular.",
+        "Tickets sold out in minutes."
+      ],
+      "answer": [
+        "So",
+        "popular",
+        "was the concert",
+        "that",
+        "tickets sold out in minutes."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Such",
+        "because"
+      ],
+      "hint": "Formal inversion: \"So\" + adjective + verb + subject, then \"that\" + result.",
+      "level": 3
+    },
+    {
+      "id": "result_091",
+      "connector": "so ... that",
+      "function": "Result",
+      "sentences": [
+        "The drought was very severe.",
+        "Farmers lost their harvest."
+      ],
+      "answer": [
+        "So",
+        "severe",
+        "was the drought",
+        "that",
+        "farmers lost their harvest."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Such",
+        "although"
+      ],
+      "hint": "Fronted \"So\" + adjective needs inversion: verb before subject.",
+      "level": 3
+    },
+    {
+      "id": "result_092",
+      "connector": "so ... that",
+      "function": "Result",
+      "sentences": [
+        "The traffic was very heavy.",
+        "The ambulance was delayed."
+      ],
+      "answer": [
+        "So",
+        "heavy",
+        "was the traffic",
+        "that",
+        "the ambulance was delayed."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "Such",
+        "unless"
+      ],
+      "hint": "Start with \"So\" + adjective, invert verb and subject, then add \"that\".",
+      "level": 3
+    },
+    {
+      "id": "result_093",
+      "connector": "such ... that",
+      "function": "Result",
+      "sentences": [
+        "It was a very hot day.",
+        "The beach was crowded."
+      ],
+      "answer": [
+        "It was",
+        "such",
+        "a hot day",
+        "that",
+        "the beach was crowded."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "very"
+      ],
+      "hint": "Use \"such\" + a/an + adjective + noun, then \"that\".",
+      "level": 1
+    },
+    {
+      "id": "result_094",
+      "connector": "such ... that",
+      "function": "Result",
+      "sentences": [
+        "The city has very heavy traffic.",
+        "Many people cycle instead."
+      ],
+      "answer": [
+        "The city has",
+        "such",
+        "heavy traffic",
+        "that",
+        "many people cycle instead."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "too"
+      ],
+      "hint": "\"Such\" + adjective + uncountable noun needs no \"a\".",
+      "level": 2
+    },
+    {
+      "id": "result_095",
+      "connector": "such ... that",
+      "function": "Result",
+      "sentences": [
+        "It was a very interesting lecture.",
+        "Nobody wanted to leave."
+      ],
+      "answer": [
+        "It was",
+        "such",
+        "an interesting lecture",
+        "that",
+        "nobody wanted to leave."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "very"
+      ],
+      "hint": "\"Such\" comes before \"a/an\" + adjective + noun.",
+      "level": 2
+    },
+    {
+      "id": "result_096",
+      "connector": "such ... that",
+      "function": "Result",
+      "sentences": [
+        "They are very kind neighbours.",
+        "Everyone likes them."
+      ],
+      "answer": [
+        "They are",
+        "such",
+        "kind neighbours",
+        "that",
+        "everyone likes them."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "too"
+      ],
+      "hint": "\"Such\" + adjective + plural noun, then \"that\" + result.",
+      "level": 1
+    },
+    {
+      "id": "result_097",
+      "connector": "such ... that",
+      "function": "Result",
+      "sentences": [
+        "The region has very poor roads.",
+        "Deliveries often arrive late."
+      ],
+      "answer": [
+        "The region has",
+        "such",
+        "poor roads",
+        "that",
+        "deliveries often arrive late."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "very"
+      ],
+      "hint": "Use \"such\", not \"so\", when a noun follows the adjective.",
+      "level": 3
+    },
+    {
+      "id": "result_098",
+      "connector": "such ... that",
+      "function": "Result",
+      "sentences": [
+        "It was a very successful campaign.",
+        "Recycling rates doubled."
+      ],
+      "answer": [
+        "It was",
+        "such",
+        "a successful campaign",
+        "that",
+        "recycling rates doubled."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "too"
+      ],
+      "hint": "Pattern: \"such\" + a + adjective + noun + \"that\" + result.",
+      "level": 2
+    },
+    {
+      "id": "result_099",
+      "connector": "such ... that",
+      "function": "Result",
+      "sentences": [
+        "The demand was very high.",
+        "The shop ran out of stock."
+      ],
+      "answer": [
+        "Such",
+        "was the demand",
+        "that",
+        "the shop",
+        "ran out of stock."
+      ],
+      "prefilled": 0,
+      "distractors": [
+        "So",
+        "Because"
+      ],
+      "hint": "Formal: \"Such\" + \"was\" + noun phrase + \"that\" + the result.",
+      "level": 3
+    },
+    {
+      "id": "result_100",
+      "connector": "such ... that",
+      "function": "Result",
+      "sentences": [
+        "The students had a very long holiday.",
+        "They forgot some vocabulary."
+      ],
+      "answer": [
+        "The students had",
+        "such",
+        "a long holiday",
+        "that",
+        "they forgot some vocabulary."
+      ],
+      "prefilled": 1,
+      "distractors": [
+        "so",
+        "very"
+      ],
+      "hint": "\"Such a\" + adjective + noun, then \"that\" + result.",
+      "level": 1
+    }
+  ]
+}

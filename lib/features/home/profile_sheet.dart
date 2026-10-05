@@ -202,8 +202,8 @@ class _AvatarSheetState extends State<_AvatarSheet> {
       setState(() => _busy = false);
       context.toast(
         source == ImageSource.camera
-            ? 'Couldn\'t open the camera — check camera permission in Settings'
-            : 'Couldn\'t open your photos — check photo permission in Settings',
+            ? 'Couldn\'t open the camera - check camera permission in Settings'
+            : 'Couldn\'t open your photos - check photo permission in Settings',
       );
     }
   }

@@ -331,9 +331,9 @@ class _ContinueCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final muted = t.isNight ? t.heroMuted : const Color(0xFFB5B5B5);
-    final done = t.isNight ? t.onPrimary : kRose;
-    final todo = t.isNight ? t.heroTrack : const Color(0xFF3A3A3A);
+    final muted = t.heroMuted;
+    final done = t.heroFill;
+    final todo = t.heroTrack;
     final refId = saved.s('refId');
     final count = ReadingRefs.parts(refId).length;
     final passage = saved.i('part') + 1;
@@ -341,12 +341,9 @@ class _ContinueCard extends StatelessWidget {
     final answered = saved.m('answers').length;
     final secondsLeft = saved.i('remainingSec');
     final title = ReadingRefs.title(refId);
-    return Container(
+    return HeroCard(
       padding: const EdgeInsets.all(18),
-      decoration: BoxDecoration(
-        color: t.primary,
-        borderRadius: BorderRadius.circular(28),
-      ),
+      radius: 28,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         spacing: 12,
@@ -354,7 +351,10 @@ class _ContinueCard extends StatelessWidget {
           Row(
             children: [
               Expanded(
-                child: Text('Continue', style: TextStyle(fontSize: 12, color: muted)),
+                child: Text(
+                  'Continue'.toUpperCase(),
+                  style: TextStyle(fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
+                ),
               ),
               Icon(AppIcons.clock, size: 13, color: muted),
               const SizedBox(width: 4),
@@ -368,7 +368,7 @@ class _ContinueCard extends StatelessWidget {
             title.isEmpty ? 'Reading test' : title,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(fontSize: 22, letterSpacing: -0.3, color: t.onPrimary),
+            style: TextStyle(fontSize: 22, letterSpacing: -0.3, color: t.heroText),
           ),
           Row(
             spacing: 4,
@@ -399,26 +399,12 @@ class _ContinueCard extends StatelessWidget {
               ),
               SizedBox(
                 height: 40,
-                child: Material(
-                  color: t.onPrimary,
-                  borderRadius: BorderRadius.circular(14),
-                  clipBehavior: Clip.antiAlias,
-                  child: InkWell(
-                    onTap: onResume,
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Center(
-                        child: Text(
-                          'Resume',
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w500,
-                            color: t.primary,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
+                child: PrimaryButton(
+                  label: 'Resume',
+                  height: 40,
+                  fontSize: 14,
+                  expand: false,
+                  onTap: onResume,
                 ),
               ),
             ],

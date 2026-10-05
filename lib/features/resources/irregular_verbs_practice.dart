@@ -16,7 +16,7 @@ const String kIrregularBestKey = 'resources.irregularBest';
 /// Opens the practice round for [verbs] (rows with base / past / participle).
 void openIrregularPractice(BuildContext context, List<Map<String, dynamic>> verbs) {
   if (verbs.isEmpty) {
-    context.toast('No verbs to practise — change the letter or filter');
+    context.toast('No verbs to practise - change the letter or filter');
     return;
   }
   Navigator.of(context).push<void>(
@@ -222,7 +222,7 @@ class _IrregularVerbPracticeScreenState extends State<IrregularVerbPracticeScree
             crossAxisAlignment: CrossAxisAlignment.start,
             spacing: 4,
             children: [
-              Text('Base form', style: TextStyle(fontSize: 13, color: t.heroMuted)),
+              Text('Base form'.toUpperCase(), style: TextStyle(fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach)),
               Text(
                 v.s('base'),
                 style: TextStyle(
@@ -331,8 +331,8 @@ class _IrregularVerbPracticeScreenState extends State<IrregularVerbPracticeScree
             spacing: 6,
             children: [
               Text(
-                _retry ? 'Retry round' : 'Score',
-                style: TextStyle(fontSize: 13, color: t.heroMuted),
+                (_retry ? 'Retry round' : 'Score').toUpperCase(),
+                style: TextStyle(fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
               ),
               BigNumber('$_score/$total', color: t.heroText),
               Text(

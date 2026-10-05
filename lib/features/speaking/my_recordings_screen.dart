@@ -10,7 +10,7 @@ import '../../app/widgets/kit.dart';
 import 'speaking_audio.dart';
 import 'widgets.dart';
 
-/// D10 · My recordings — the student's speaking attempts (Part 1/2/3 and
+/// D10 · My recordings - the student's speaking attempts (Part 1/2/3 and
 /// mock interviews) with real playback of this device's recordings (or the
 /// uploaded copy), simulated when no audio exists. Delete removes the attempt.
 class MyRecordingsScreen extends StatefulWidget {

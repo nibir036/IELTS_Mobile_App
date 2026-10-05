@@ -54,9 +54,9 @@ String sentenceContaining(String text, String phrase) {
 // ─────────────────────────────────────────────────────────────────────────────
 
 const Color kInk = Color(0xFF151515);
-const Color kPink = Color(0xFFF9D6E2);
-const Color kLavender = Color(0xFFDCDDFA);
-const Color kRose = Color(0xFFF7C6D6);
+const Color kPink = Color(0xFFFFE2D8);
+const Color kLavender = Color(0xFFDCE6FF);
+const Color kRose = Color(0xFFFFD2C4);
 const Color kPastelMuted = Color(0xFF625C66);
 
 /// Pastel tile colours (same in Day and Night, except the neutral tones).
@@ -87,9 +87,9 @@ Color toneMuted(AppTokens t, String tone) =>
 Color highlightColor(AppTokens t, String color) {
   if (color == 'pink') return kPink;
   if (color == 'evidence') {
-    return t.isNight ? const Color(0xFFF6ECC8) : kLavender;
+    return t.isNight ? const Color(0xFFFFC2B0) : kLavender;
   }
-  return t.isNight ? const Color(0xFFF6ECC8) : const Color(0xFFF7EDC4);
+  return t.isNight ? const Color(0xFFFFC2B0) : const Color(0xFFFFC9B8);
 }
 
 IconData moduleIcon(String key) {
@@ -235,7 +235,7 @@ class ReadingTabs extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
-        color: t.isNight ? t.surface : const Color(0xFFEDE3E9),
+        color: t.isNight ? t.surface : const Color(0xFFF2E6E2),
         borderRadius: BorderRadius.circular(18),
       ),
       child: Row(

@@ -12,7 +12,7 @@ import '../../app/widgets/speak_button.dart';
 import 'quiz_rounds.dart';
 import 'widgets.dart';
 
-/// H5 · Vocabulary Quiz — Question. Route args: `{'quizId'}` (a round of
+/// H5 · Vocabulary Quiz - Question. Route args: `{'quizId'}` (a round of
 /// `Content.quizzes`; default the next round not yet played / quiz_band7).
 class VocabQuizScreen extends StatefulWidget {
   const VocabQuizScreen({super.key});
@@ -217,7 +217,7 @@ class _VocabQuizScreenState extends State<VocabQuizScreen> {
                       _quiz.s('prompt'),
                       style: TextStyle(
                         fontSize: 13,
-                        color: t.isNight ? t.heroText : t.textSoft,
+                        color: t.heroMuted,
                       ),
                     ),
                   ),
@@ -226,8 +226,8 @@ class _VocabQuizScreenState extends State<VocabQuizScreen> {
                     size: 40,
                     radius: 14,
                     iconSize: 18,
-                    bg: t.isNight ? ResPalette.creamChip : ResPalette.white,
-                    fg: ResPalette.ink,
+                    bg: t.heroChip,
+                    fg: t.heroText,
                   ),
                 ],
               ),
@@ -245,7 +245,7 @@ class _VocabQuizScreenState extends State<VocabQuizScreen> {
                 q.s('phonetic').isEmpty ? q.s('partOfSpeech') : '${q.s('partOfSpeech')} · ${q.s('phonetic')}',
                 style: TextStyle(
                   fontSize: 13,
-                  color: t.isNight ? t.heroText : t.textSoft,
+                  color: t.heroMuted,
                 ),
               ),
             ],
@@ -350,7 +350,7 @@ class _AnswerTile extends StatelessWidget {
         bg = t.dangerSoft;
         fg = t.dangerText;
         side = BorderSide(
-          color: t.isNight ? const Color(0xFF5C2A20) : ResPalette.blush,
+          color: t.isNight ? const Color(0xFF3A4570) : ResPalette.blush,
         );
         badgeBg = t.surface;
         badge = Icon(AppIcons.close, size: 16, color: t.dangerText);

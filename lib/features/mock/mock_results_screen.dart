@@ -176,8 +176,13 @@ class MockResultsScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Overall band',
-                      style: TextStyle(fontSize: 13, color: t.heroMuted),
+                      'Overall band'.toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 11,
+                        letterSpacing: 1.1,
+                        fontWeight: FontWeight.w600,
+                        color: t.peach,
+                      ),
                     ),
                     const SizedBox(height: 4),
                     Text(
@@ -328,11 +333,9 @@ class _SkillTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final bg = highlight ? t.text : t.surface;
-    final fg = highlight ? t.surface : t.text;
-    final muted = highlight
-        ? (t.isNight ? const Color(0xFF5A5A5A) : const Color(0xFF9A9A9A))
-        : t.textMuted;
+    final bg = highlight ? t.peach : t.surface;
+    final fg = highlight ? kOnPeach : t.text;
+    final muted = highlight ? kOnPeach.withValues(alpha: 0.6) : t.textMuted;
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 12),
       decoration: BoxDecoration(

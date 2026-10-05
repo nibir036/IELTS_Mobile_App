@@ -159,8 +159,8 @@ class _EntryRow extends StatelessWidget {
     Color fg;
     Color? border;
     if (e.done) {
-      bg = t.primary;
-      fg = t.onPrimary;
+      bg = t.peach;
+      fg = kOnPeach;
     } else if (e.current) {
       bg = t.surface;
       fg = t.text;

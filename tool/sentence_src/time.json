@@ -1,0 +1,2272 @@
+{
+ "category": "time",
+ "drills": [
+  {
+   "id": "time_001",
+   "connector": "when",
+   "function": "Time",
+   "sentences": [
+    "The final exams draw near.",
+    "Many students feel stressed then."
+   ],
+   "answer": [
+    "When",
+    "the final exams draw near,",
+    "many students",
+    "feel stressed."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "During"
+   ],
+   "hint": "Start with the time clause, add a comma, then give the main clause.",
+   "level": 1
+  },
+  {
+   "id": "time_002",
+   "connector": "when",
+   "function": "Time",
+   "sentences": [
+    "Water reaches 100 degrees Celsius.",
+    "It starts to boil."
+   ],
+   "answer": [
+    "When",
+    "water reaches 100 degrees,",
+    "it",
+    "starts to boil."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Unless",
+    "During"
+   ],
+   "hint": "\"When\" introduces the moment something happens; a comma follows the fronted clause.",
+   "level": 1
+  },
+  {
+   "id": "time_003",
+   "connector": "when",
+   "function": "Time",
+   "sentences": [
+    "Many people retire from work.",
+    "They often have less income then."
+   ],
+   "answer": [
+    "Many people",
+    "often have less income",
+    "when",
+    "they retire",
+    "from work."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "despite"
+   ],
+   "hint": "Main clause first, then \"when\" + subject + verb. No comma is needed in the middle.",
+   "level": 2
+  },
+  {
+   "id": "time_004",
+   "connector": "when",
+   "function": "Time",
+   "sentences": [
+    "Tourists visit a new city.",
+    "They often rely on online maps."
+   ],
+   "answer": [
+    "Tourists",
+    "often rely on online maps",
+    "when",
+    "they visit",
+    "a new city."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite",
+    "during"
+   ],
+   "hint": "\"When\" must be followed by a full clause with a subject and a verb.",
+   "level": 1
+  },
+  {
+   "id": "time_005",
+   "connector": "when",
+   "function": "Time",
+   "sentences": [
+    "Smartphones became cheaper to buy.",
+    "Mobile banking spread quickly at that time."
+   ],
+   "answer": [
+    "When",
+    "smartphones became cheaper,",
+    "mobile banking",
+    "spread quickly."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "So that"
+   ],
+   "hint": "Use past tense in both clauses and a comma after the fronted time clause.",
+   "level": 1
+  },
+  {
+   "id": "time_006",
+   "connector": "when",
+   "function": "Time",
+   "sentences": [
+    "Participants were asked about their diet.",
+    "Most claimed to eat healthily."
+   ],
+   "answer": [
+    "When",
+    "asked about their diet,",
+    "most participants",
+    "claimed to eat healthily."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "During"
+   ],
+   "hint": "A reduced clause: \"when\" + past participle, with the same subject as the main clause.",
+   "level": 3
+  },
+  {
+   "id": "time_007",
+   "connector": "while",
+   "function": "Simultaneous time",
+   "sentences": [
+    "The teacher was explaining the task.",
+    "Some students were checking their phones."
+   ],
+   "answer": [
+    "While",
+    "the teacher was explaining,",
+    "some students",
+    "were checking their phones."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "During",
+    "Despite"
+   ],
+   "hint": "\"While\" + past continuous shows two actions happening at the same time.",
+   "level": 1
+  },
+  {
+   "id": "time_008",
+   "connector": "while",
+   "function": "Simultaneous time",
+   "sentences": [
+    "Parents work long hours.",
+    "Grandparents often look after the children."
+   ],
+   "answer": [
+    "Grandparents",
+    "often look after the children",
+    "while",
+    "parents",
+    "work long hours."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "during",
+    "because of"
+   ],
+   "hint": "\"While\" needs a subject and verb after it; \"during\" only takes a noun.",
+   "level": 1
+  },
+  {
+   "id": "time_009",
+   "connector": "while",
+   "function": "Simultaneous time",
+   "sentences": [
+    "The bread was baking in the oven.",
+    "The family set the table."
+   ],
+   "answer": [
+    "The family set the table",
+    "while",
+    "the bread was baking",
+    "in the oven."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "during",
+    "despite"
+   ],
+   "hint": "The longer background action goes in the past continuous after \"while\".",
+   "level": 2
+  },
+  {
+   "id": "time_010",
+   "connector": "while",
+   "function": "Simultaneous time",
+   "sentences": [
+    "Many students study abroad.",
+    "They work part-time at the same time."
+   ],
+   "answer": [
+    "While",
+    "studying abroad,",
+    "many students",
+    "work part-time."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "During",
+    "Because"
+   ],
+   "hint": "\"While\" + -ing can replace a full clause when both parts share the same subject.",
+   "level": 2
+  },
+  {
+   "id": "time_011",
+   "connector": "while",
+   "function": "Simultaneous time",
+   "sentences": [
+    "The team was training abroad.",
+    "The coach watched videos of rival teams."
+   ],
+   "answer": [
+    "While",
+    "the team was training abroad,",
+    "the coach",
+    "watched videos of rival teams."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "During",
+    "Unless"
+   ],
+   "hint": "Put the background action after \"while\", then a comma and the main action.",
+   "level": 2
+  },
+  {
+   "id": "time_012",
+   "connector": "while",
+   "function": "Simultaneous time",
+   "sentences": [
+    "Researchers were testing a new vaccine.",
+    "They discovered an unexpected side effect."
+   ],
+   "answer": [
+    "While",
+    "testing a new vaccine,",
+    "researchers",
+    "discovered",
+    "an unexpected side effect."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "During",
+    "So that"
+   ],
+   "hint": "\"While\" + -ing gives the background; the main clause gives the event that interrupted it.",
+   "level": 3
+  },
+  {
+   "id": "time_013",
+   "connector": "after",
+   "function": "Time order",
+   "sentences": [
+    "The bread is baked.",
+    "It is then left to cool."
+   ],
+   "answer": [
+    "After",
+    "the bread is baked,",
+    "it",
+    "is left to cool."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Afterwards",
+    "Unless"
+   ],
+   "hint": "\"After\" is a conjunction here; \"afterwards\" cannot introduce a clause.",
+   "level": 1
+  },
+  {
+   "id": "time_014",
+   "connector": "after",
+   "function": "Time order",
+   "sentences": [
+    "Many students finish secondary school.",
+    "They then go to university."
+   ],
+   "answer": [
+    "Many students",
+    "go to university",
+    "after",
+    "they finish",
+    "secondary school."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "afterwards",
+    "although"
+   ],
+   "hint": "The later action comes first here; \"after\" introduces the earlier action.",
+   "level": 1
+  },
+  {
+   "id": "time_015",
+   "connector": "after",
+   "function": "Time order",
+   "sentences": [
+    "The patient had the operation.",
+    "She recovered within weeks."
+   ],
+   "answer": [
+    "After",
+    "having the operation,",
+    "the patient",
+    "recovered within weeks."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Afterwards",
+    "Although"
+   ],
+   "hint": "\"After\" can be followed by an -ing form when the subject is the same.",
+   "level": 2
+  },
+  {
+   "id": "time_016",
+   "connector": "after",
+   "function": "Time order",
+   "sentences": [
+    "The government had raised fuel taxes.",
+    "More people then used buses."
+   ],
+   "answer": [
+    "More people",
+    "used buses",
+    "after",
+    "the government had raised",
+    "fuel taxes."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "afterwards",
+    "whereas"
+   ],
+   "hint": "The past perfect after \"after\" shows which action came first.",
+   "level": 3
+  },
+  {
+   "id": "time_017",
+   "connector": "after",
+   "function": "Time order",
+   "sentences": [
+    "The pandemic finally came to an end.",
+    "Many offices then adopted hybrid working."
+   ],
+   "answer": [
+    "After",
+    "the pandemic,",
+    "many offices",
+    "adopted hybrid working."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Afterwards",
+    "Although"
+   ],
+   "hint": "\"After\" can also be followed by a noun phrase, then a comma.",
+   "level": 2
+  },
+  {
+   "id": "time_018",
+   "connector": "after",
+   "function": "Time order",
+   "sentences": [
+    "The wheat is harvested.",
+    "It is then dried and ground into flour."
+   ],
+   "answer": [
+    "After",
+    "being harvested,",
+    "the wheat",
+    "is dried",
+    "and ground into flour."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Afterwards",
+    "Although"
+   ],
+   "hint": "Use \"after being\" + past participle for a passive step in a process.",
+   "level": 3
+  },
+  {
+   "id": "time_019",
+   "connector": "before",
+   "function": "Time order",
+   "sentences": [
+    "The fruit is washed.",
+    "Then it is packed into boxes."
+   ],
+   "answer": [
+    "The fruit",
+    "is washed",
+    "before",
+    "it is packed",
+    "into boxes."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "prior to",
+    "although"
+   ],
+   "hint": "\"Before\" introduces the later step; \"prior to\" cannot be followed by a clause.",
+   "level": 1
+  },
+  {
+   "id": "time_020",
+   "connector": "before",
+   "function": "Time order",
+   "sentences": [
+    "Many people check online reviews.",
+    "Then they book a hotel."
+   ],
+   "answer": [
+    "Many people",
+    "check online reviews",
+    "before",
+    "they book",
+    "a hotel."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "prior to",
+    "unless"
+   ],
+   "hint": "The first action comes first; \"before\" introduces the action that follows.",
+   "level": 1
+  },
+  {
+   "id": "time_021",
+   "connector": "before",
+   "function": "Time order",
+   "sentences": [
+    "Graduates gain work experience.",
+    "Then they apply for permanent jobs."
+   ],
+   "answer": [
+    "Before",
+    "applying for permanent jobs,",
+    "graduates",
+    "gain work experience."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Prior",
+    "Although"
+   ],
+   "hint": "\"Before\" + -ing works when both actions have the same subject.",
+   "level": 2
+  },
+  {
+   "id": "time_022",
+   "connector": "before",
+   "function": "Time order",
+   "sentences": [
+    "The land was a forest.",
+    "Then it was cleared for farming."
+   ],
+   "answer": [
+    "The land",
+    "was a forest",
+    "before",
+    "it was cleared",
+    "for farming."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "prior to",
+    "whereas"
+   ],
+   "hint": "Describe the earlier state first, then the later change after \"before\".",
+   "level": 1
+  },
+  {
+   "id": "time_023",
+   "connector": "before",
+   "function": "Time order",
+   "sentences": [
+    "The old library was renovated.",
+    "Then it reopened to the public."
+   ],
+   "answer": [
+    "Before",
+    "it reopened to the public,",
+    "the old library",
+    "was renovated."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Prior to",
+    "Unless"
+   ],
+   "hint": "A fronted \"before\" clause gives the later event and ends with a comma.",
+   "level": 2
+  },
+  {
+   "id": "time_024",
+   "connector": "before",
+   "function": "Time order",
+   "sentences": [
+    "New drugs are tested on cells.",
+    "Later they are tried on volunteers."
+   ],
+   "answer": [
+    "New drugs",
+    "are tested on cells",
+    "before",
+    "being tried",
+    "on volunteers."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "prior",
+    "so that"
+   ],
+   "hint": "Use \"before being\" + past participle for a later passive step.",
+   "level": 3
+  },
+  {
+   "id": "time_025",
+   "connector": "once",
+   "function": "Time order",
+   "sentences": [
+    "The clay is dry.",
+    "Then it is painted by hand."
+   ],
+   "answer": [
+    "Once",
+    "the clay is dry,",
+    "it",
+    "is painted by hand."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Whereas"
+   ],
+   "hint": "\"Once\" means \"as soon as / after\"; put a comma after the fronted clause.",
+   "level": 1
+  },
+  {
+   "id": "time_026",
+   "connector": "once",
+   "function": "Time order",
+   "sentences": [
+    "Students register online for a card.",
+    "They can then borrow library books."
+   ],
+   "answer": [
+    "Once",
+    "students register online,",
+    "they",
+    "can borrow library books."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Although",
+    "Despite"
+   ],
+   "hint": "The \"once\" clause states the first step; the main clause states what is then possible.",
+   "level": 1
+  },
+  {
+   "id": "time_027",
+   "connector": "once",
+   "function": "Time order",
+   "sentences": [
+    "A habit is formed.",
+    "It is then hard to break."
+   ],
+   "answer": [
+    "Once",
+    "a habit is formed,",
+    "it",
+    "is hard to break."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "Unless"
+   ],
+   "hint": "\"Once\" + clause, then a comma, then the result that follows.",
+   "level": 2
+  },
+  {
+   "id": "time_028",
+   "connector": "once",
+   "function": "Time order",
+   "sentences": [
+    "The new metro line opens.",
+    "Commuting times will then fall."
+   ],
+   "answer": [
+    "Commuting times",
+    "will fall",
+    "once",
+    "the new metro line",
+    "opens."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "although",
+    "despite"
+   ],
+   "hint": "Use the present simple after \"once\", even when talking about the future.",
+   "level": 2
+  },
+  {
+   "id": "time_029",
+   "connector": "once",
+   "function": "Time order",
+   "sentences": [
+    "The software is installed.",
+    "It updates itself automatically."
+   ],
+   "answer": [
+    "Once",
+    "installed,",
+    "the software",
+    "updates itself automatically."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "During"
+   ],
+   "hint": "\"Once\" can be followed by a past participle alone when the subject is the same.",
+   "level": 3
+  },
+  {
+   "id": "time_030",
+   "connector": "once",
+   "function": "Time order",
+   "sentences": [
+    "Young people leave home.",
+    "Many then struggle with living costs."
+   ],
+   "answer": [
+    "Once",
+    "they leave home,",
+    "many young people",
+    "struggle with living costs."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Despite",
+    "During"
+   ],
+   "hint": "The pronoun can come in the \"once\" clause and the full noun in the main clause.",
+   "level": 2
+  },
+  {
+   "id": "time_031",
+   "connector": "until",
+   "function": "Time limit",
+   "sentences": [
+    "The mixture is stirred.",
+    "It becomes smooth and thick."
+   ],
+   "answer": [
+    "The mixture",
+    "is stirred",
+    "until",
+    "it becomes smooth and thick."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "by",
+    "although"
+   ],
+   "hint": "\"Until\" shows the point when an action stops.",
+   "level": 1
+  },
+  {
+   "id": "time_032",
+   "connector": "until",
+   "function": "Time limit",
+   "sentences": [
+    "Many young adults live with their parents.",
+    "Then they find a stable job."
+   ],
+   "answer": [
+    "Many young adults",
+    "live with their parents",
+    "until",
+    "they find",
+    "a stable job."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "by",
+    "despite"
+   ],
+   "hint": "Main action first, then \"until\" + the event that ends it.",
+   "level": 1
+  },
+  {
+   "id": "time_033",
+   "connector": "until",
+   "function": "Time limit",
+   "sentences": [
+    "The shop will stay closed.",
+    "The repairs will be finished."
+   ],
+   "answer": [
+    "The shop",
+    "will stay closed",
+    "until",
+    "the repairs",
+    "are finished."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "by",
+    "although"
+   ],
+   "hint": "Use the present tense after \"until\" for a future event.",
+   "level": 2
+  },
+  {
+   "id": "time_034",
+   "connector": "until",
+   "function": "Time limit",
+   "sentences": [
+    "The patient must rest.",
+    "Her blood pressure will return to normal."
+   ],
+   "answer": [
+    "The patient",
+    "must rest",
+    "until",
+    "her blood pressure",
+    "returns to normal."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "by",
+    "whereas"
+   ],
+   "hint": "After \"until\", use the present simple, not \"will\".",
+   "level": 2
+  },
+  {
+   "id": "time_035",
+   "connector": "until",
+   "function": "Time limit",
+   "sentences": [
+    "The village had no electricity.",
+    "A power line was built in 2005."
+   ],
+   "answer": [
+    "The village",
+    "had no electricity",
+    "until",
+    "a power line",
+    "was built in 2005."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "by",
+    "despite"
+   ],
+   "hint": "\"Until\" + past clause shows when a past situation ended.",
+   "level": 1
+  },
+  {
+   "id": "time_036",
+   "connector": "until",
+   "function": "Time limit",
+   "sentences": [
+    "The disease was not understood.",
+    "Then the microscope was invented."
+   ],
+   "answer": [
+    "The disease",
+    "was not understood",
+    "until",
+    "the microscope",
+    "was invented."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "by",
+    "although"
+   ],
+   "hint": "\"Not ... until\" means the change only happened at that later point.",
+   "level": 3
+  },
+  {
+   "id": "time_037",
+   "connector": "as soon as",
+   "function": "Immediate sequence",
+   "sentences": [
+    "The school bell rings.",
+    "The students leave the classroom."
+   ],
+   "answer": [
+    "The students",
+    "leave the classroom",
+    "as soon as",
+    "the school bell rings."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as well as",
+    "although"
+   ],
+   "hint": "\"As soon as\" means immediately after; it joins two clauses.",
+   "level": 1
+  },
+  {
+   "id": "time_038",
+   "connector": "as soon as",
+   "function": "Immediate sequence",
+   "sentences": [
+    "Applicants will be contacted.",
+    "The results will become available."
+   ],
+   "answer": [
+    "Applicants",
+    "will be contacted",
+    "as soon as",
+    "the results",
+    "are available."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as well as",
+    "despite"
+   ],
+   "hint": "Use the present tense after \"as soon as\" for a future event.",
+   "level": 1
+  },
+  {
+   "id": "time_039",
+   "connector": "as soon as",
+   "function": "Immediate sequence",
+   "sentences": [
+    "The heavy rain stopped.",
+    "The match restarted immediately."
+   ],
+   "answer": [
+    "As soon as",
+    "the heavy rain stopped,",
+    "the match",
+    "restarted."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As well as",
+    "Despite"
+   ],
+   "hint": "A fronted \"as soon as\" clause ends with a comma before the main clause.",
+   "level": 2
+  },
+  {
+   "id": "time_040",
+   "connector": "as soon as",
+   "function": "Immediate sequence",
+   "sentences": [
+    "The tickets went on sale.",
+    "They sold out within an hour."
+   ],
+   "answer": [
+    "As soon as",
+    "the tickets went on sale,",
+    "they",
+    "sold out within an hour."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As long as",
+    "Despite"
+   ],
+   "hint": "Put the first event after \"as soon as\", then a comma and the quick result.",
+   "level": 2
+  },
+  {
+   "id": "time_041",
+   "connector": "as soon as",
+   "function": "Immediate sequence",
+   "sentences": [
+    "Graduates find a job.",
+    "They start repaying their loans."
+   ],
+   "answer": [
+    "Graduates",
+    "start repaying their loans",
+    "as soon as",
+    "they",
+    "find a job."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "as well as",
+    "whereas"
+   ],
+   "hint": "The main action comes first; \"as soon as\" + subject + verb follows.",
+   "level": 2
+  },
+  {
+   "id": "time_042",
+   "connector": "as soon as",
+   "function": "Immediate sequence",
+   "sentences": [
+    "The new law will be passed.",
+    "Companies will have to report their emissions."
+   ],
+   "answer": [
+    "As soon as",
+    "the law has been passed,",
+    "companies",
+    "will have to report",
+    "their emissions."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "As well as",
+    "Unless"
+   ],
+   "hint": "Use the present perfect after \"as soon as\" to stress that the first action is complete.",
+   "level": 3
+  },
+  {
+   "id": "time_043",
+   "connector": "by the time",
+   "function": "Deadline",
+   "sentences": [
+    "The guests arrived at the house.",
+    "The meal had already been prepared."
+   ],
+   "answer": [
+    "By the time",
+    "the guests arrived,",
+    "the meal",
+    "had already been prepared."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "During",
+    "Despite"
+   ],
+   "hint": "\"By the time\" + past simple, then the past perfect for the earlier action.",
+   "level": 1
+  },
+  {
+   "id": "time_044",
+   "connector": "by the time",
+   "function": "Deadline",
+   "sentences": [
+    "The researchers finished the study.",
+    "Its funding had already run out."
+   ],
+   "answer": [
+    "By the time",
+    "the researchers finished,",
+    "the funding",
+    "had already run out."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "During",
+    "Despite"
+   ],
+   "hint": "The past perfect in the main clause shows the action was complete earlier.",
+   "level": 2
+  },
+  {
+   "id": "time_045",
+   "connector": "by the time",
+   "function": "Deadline",
+   "sentences": [
+    "Children start primary school.",
+    "Many will already be able to read."
+   ],
+   "answer": [
+    "By the time",
+    "children start primary school,",
+    "many of them",
+    "will already be able to read."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "During",
+    "Unless"
+   ],
+   "hint": "Use the present simple after \"by the time\" when talking about the future.",
+   "level": 3
+  },
+  {
+   "id": "time_046",
+   "connector": "by the time",
+   "function": "Deadline",
+   "sentences": [
+    "The tourists arrived at the museum.",
+    "The museum had already closed."
+   ],
+   "answer": [
+    "By the time",
+    "the tourists arrived,",
+    "the museum",
+    "had already closed."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "During",
+    "Although"
+   ],
+   "hint": "\"By the time\" introduces the later event; the earlier one takes the past perfect.",
+   "level": 1
+  },
+  {
+   "id": "time_047",
+   "connector": "by the time",
+   "function": "Deadline",
+   "sentences": [
+    "The project ends next year.",
+    "The city will have planted many new trees."
+   ],
+   "answer": [
+    "By the time",
+    "the project ends,",
+    "the city",
+    "will have planted",
+    "many new trees."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "During",
+    "Unless"
+   ],
+   "hint": "Present simple after \"by the time\", future perfect in the main clause.",
+   "level": 3
+  },
+  {
+   "id": "time_048",
+   "connector": "by the time",
+   "function": "Deadline",
+   "sentences": [
+    "The policy was introduced.",
+    "Most families had already moved away."
+   ],
+   "answer": [
+    "Most families",
+    "had already moved away",
+    "by the time",
+    "the policy",
+    "was introduced."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "during",
+    "despite"
+   ],
+   "hint": "The main clause in the past perfect comes first; \"by the time\" + past simple follows.",
+   "level": 3
+  },
+  {
+   "id": "time_049",
+   "connector": "since",
+   "function": "Starting point",
+   "sentences": [
+    "Smartphones became common in daily life.",
+    "Online shopping has grown rapidly from then on."
+   ],
+   "answer": [
+    "Online shopping",
+    "has grown rapidly",
+    "since",
+    "smartphones",
+    "became common."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for",
+    "although"
+   ],
+   "hint": "Present perfect in the main clause, then \"since\" + past simple for the starting point.",
+   "level": 1
+  },
+  {
+   "id": "time_050",
+   "connector": "since",
+   "function": "Starting point",
+   "sentences": [
+    "She moved to London in 2018.",
+    "She has used public transport every day."
+   ],
+   "answer": [
+    "She",
+    "has used public transport",
+    "since",
+    "she moved",
+    "to London in 2018."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for",
+    "during"
+   ],
+   "hint": "\"Since\" marks the starting point; \"for\" is used for a length of time.",
+   "level": 1
+  },
+  {
+   "id": "time_051",
+   "connector": "since",
+   "function": "Starting point",
+   "sentences": [
+    "The new park opened.",
+    "More families have visited the area."
+   ],
+   "answer": [
+    "Since",
+    "the new park opened,",
+    "more families",
+    "have visited the area."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "For",
+    "During"
+   ],
+   "hint": "A fronted \"since\" clause in the past simple is followed by a present perfect main clause.",
+   "level": 2
+  },
+  {
+   "id": "time_052",
+   "connector": "since",
+   "function": "Starting point",
+   "sentences": [
+    "The old factory closed down.",
+    "The river has become much cleaner."
+   ],
+   "answer": [
+    "The river",
+    "has become much cleaner",
+    "since",
+    "the old factory",
+    "closed down."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for",
+    "during"
+   ],
+   "hint": "Use the present perfect for the change that continues from the starting point.",
+   "level": 2
+  },
+  {
+   "id": "time_053",
+   "connector": "since",
+   "function": "Starting point",
+   "sentences": [
+    "The town held its first festival in 2010.",
+    "Tourism in the town has doubled."
+   ],
+   "answer": [
+    "Tourism in the town",
+    "has doubled",
+    "since",
+    "its first festival",
+    "in 2010."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for",
+    "ago"
+   ],
+   "hint": "\"Since\" can be followed by a noun phrase that marks a point in time.",
+   "level": 2
+  },
+  {
+   "id": "time_054",
+   "connector": "since",
+   "function": "Starting point",
+   "sentences": [
+    "The company was founded in 1990.",
+    "It has expanded into ten countries."
+   ],
+   "answer": [
+    "Since",
+    "it was founded in 1990,",
+    "the company",
+    "has expanded",
+    "into ten countries."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "For",
+    "During"
+   ],
+   "hint": "Begin with the starting point, then use the present perfect for the result up to now.",
+   "level": 3
+  },
+  {
+   "id": "time_055",
+   "connector": "subsequently",
+   "function": "Sequence",
+   "sentences": [
+    "The company launched a new app.",
+    "Its sales rose sharply."
+   ],
+   "answer": [
+    "The company",
+    "launched a new app;",
+    "subsequently,",
+    "its sales",
+    "rose sharply."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "however,",
+    "although"
+   ],
+   "hint": "Use a semicolon before \"subsequently\" and a comma after it.",
+   "level": 1
+  },
+  {
+   "id": "time_056",
+   "connector": "subsequently",
+   "function": "Sequence",
+   "sentences": [
+    "The patient was diagnosed early.",
+    "She made a full recovery."
+   ],
+   "answer": [
+    "The patient",
+    "was diagnosed early",
+    "and",
+    "subsequently",
+    "made a full recovery."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "subsequent",
+    "however"
+   ],
+   "hint": "Place the adverb after \"and\" and before the second verb.",
+   "level": 2
+  },
+  {
+   "id": "time_057",
+   "connector": "subsequently",
+   "function": "Sequence",
+   "sentences": [
+    "The bricks are shaped in moulds.",
+    "Then they are fired in a kiln."
+   ],
+   "answer": [
+    "The bricks",
+    "are shaped in moulds",
+    "and",
+    "subsequently",
+    "fired in a kiln."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "subsequent",
+    "previously"
+   ],
+   "hint": "In a process, the adverb goes between \"and\" and the second past participle.",
+   "level": 2
+  },
+  {
+   "id": "time_058",
+   "connector": "subsequently",
+   "function": "Sequence",
+   "sentences": [
+    "The old stadium was demolished.",
+    "A shopping centre was built on the site."
+   ],
+   "answer": [
+    "The old stadium",
+    "was demolished;",
+    "subsequently,",
+    "a shopping centre",
+    "was built on the site."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "previously,",
+    "for example,"
+   ],
+   "hint": "After the semicolon, the sequence adverb takes a comma, then the next event.",
+   "level": 1
+  },
+  {
+   "id": "time_059",
+   "connector": "subsequently",
+   "function": "Sequence",
+   "sentences": [
+    "She trained as a nurse.",
+    "Later she became a hospital manager."
+   ],
+   "answer": [
+    "She",
+    "trained as a nurse",
+    "and",
+    "subsequently",
+    "became a hospital manager."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "subsequent",
+    "however"
+   ],
+   "hint": "Use the adverb, not the adjective, before the verb.",
+   "level": 2
+  },
+  {
+   "id": "time_060",
+   "connector": "subsequently",
+   "function": "Sequence",
+   "sentences": [
+    "The data were collected in 2019.",
+    "They were analysed using new software."
+   ],
+   "answer": [
+    "The data",
+    "were collected in 2019",
+    "and",
+    "subsequently",
+    "analysed using new software."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "subsequent",
+    "although"
+   ],
+   "hint": "Two passive verbs share one subject; the adverb sits before the second participle.",
+   "level": 3
+  },
+  {
+   "id": "time_061",
+   "connector": "afterwards",
+   "function": "Sequence",
+   "sentences": [
+    "The students sat the exam.",
+    "They received detailed feedback."
+   ],
+   "answer": [
+    "The students",
+    "sat the exam;",
+    "afterwards,",
+    "they received",
+    "detailed feedback."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after,",
+    "however,"
+   ],
+   "hint": "\"Afterwards\" is an adverb; after a semicolon it takes a comma.",
+   "level": 1
+  },
+  {
+   "id": "time_062",
+   "connector": "afterwards",
+   "function": "Sequence",
+   "sentences": [
+    "The leaves are picked by hand.",
+    "They are dried in the sun."
+   ],
+   "answer": [
+    "The leaves",
+    "are picked by hand,",
+    "and",
+    "afterwards",
+    "they are dried in the sun."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after",
+    "although"
+   ],
+   "hint": "\"Afterwards\" can follow \"and\" before the next clause.",
+   "level": 1
+  },
+  {
+   "id": "time_063",
+   "connector": "afterwards",
+   "function": "Sequence",
+   "sentences": [
+    "The team won the final.",
+    "The players celebrated with their fans."
+   ],
+   "answer": [
+    "The team",
+    "won the final;",
+    "afterwards,",
+    "the players",
+    "celebrated with their fans."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after,",
+    "in contrast,"
+   ],
+   "hint": "\"After\" needs an object or clause; \"afterwards\" can stand alone.",
+   "level": 1
+  },
+  {
+   "id": "time_064",
+   "connector": "afterwards",
+   "function": "Sequence",
+   "sentences": [
+    "Volunteers cleaned the beach.",
+    "They sorted the plastic for recycling."
+   ],
+   "answer": [
+    "Volunteers",
+    "cleaned the beach;",
+    "afterwards,",
+    "they sorted",
+    "the plastic for recycling."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after,",
+    "for example,"
+   ],
+   "hint": "Put the semicolon at the end of the first event, then the adverb and a comma.",
+   "level": 2
+  },
+  {
+   "id": "time_065",
+   "connector": "afterwards",
+   "function": "Sequence",
+   "sentences": [
+    "Visitors tour the factory.",
+    "Then they can taste the chocolate."
+   ],
+   "answer": [
+    "Visitors",
+    "tour the factory",
+    "and",
+    "can taste the chocolate",
+    "afterwards."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "despite.",
+    "although."
+   ],
+   "hint": "\"Afterwards\" can also come at the very end of the sentence.",
+   "level": 2
+  },
+  {
+   "id": "time_066",
+   "connector": "afterwards",
+   "function": "Sequence",
+   "sentences": [
+    "The patient spent a week in hospital.",
+    "She recovered fully at home."
+   ],
+   "answer": [
+    "The patient",
+    "spent a week in hospital",
+    "and",
+    "afterwards",
+    "recovered fully at home."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "after",
+    "whereas"
+   ],
+   "hint": "One subject, two verbs: place the adverb after \"and\".",
+   "level": 3
+  },
+  {
+   "id": "time_067",
+   "connector": "following this",
+   "function": "Sequence",
+   "sentences": [
+    "The grapes are crushed.",
+    "The juice is fermented in tanks."
+   ],
+   "answer": [
+    "The grapes",
+    "are crushed;",
+    "following this,",
+    "the juice",
+    "is fermented in tanks."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "following,",
+    "however,"
+   ],
+   "hint": "\"Following this\" needs \"this\" to refer back to the previous step.",
+   "level": 1
+  },
+  {
+   "id": "time_068",
+   "connector": "following this",
+   "function": "Sequence",
+   "sentences": [
+    "The council consulted local residents.",
+    "It approved the new cycle lanes."
+   ],
+   "answer": [
+    "The council",
+    "consulted local residents;",
+    "following this,",
+    "it approved",
+    "the new cycle lanes."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "following,",
+    "in contrast,"
+   ],
+   "hint": "Use a semicolon, then \"following this\" with a comma.",
+   "level": 2
+  },
+  {
+   "id": "time_069",
+   "connector": "following this",
+   "function": "Sequence",
+   "sentences": [
+    "Sales fell sharply in March.",
+    "They recovered over the summer."
+   ],
+   "answer": [
+    "Sales",
+    "fell sharply in March;",
+    "following this,",
+    "they",
+    "recovered over the summer."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "following,",
+    "for example,"
+   ],
+   "hint": "Useful in Task 1: describe one stage, then the next with \"following this\".",
+   "level": 2
+  },
+  {
+   "id": "time_070",
+   "connector": "following this",
+   "function": "Sequence",
+   "sentences": [
+    "The water is filtered.",
+    "Chlorine is added to kill bacteria."
+   ],
+   "answer": [
+    "The water",
+    "is filtered;",
+    "following this,",
+    "chlorine is added",
+    "to kill bacteria."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "follow this,",
+    "however,"
+   ],
+   "hint": "The linker uses the -ing form and is followed by a comma.",
+   "level": 2
+  },
+  {
+   "id": "time_071",
+   "connector": "following this",
+   "function": "Sequence",
+   "sentences": [
+    "The museum added interactive displays.",
+    "The number of visitors increased."
+   ],
+   "answer": [
+    "The museum",
+    "added interactive displays;",
+    "following this,",
+    "visitor numbers",
+    "increased."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "following,",
+    "although"
+   ],
+   "hint": "Give the first event, a semicolon, then the linker and what happened next.",
+   "level": 1
+  },
+  {
+   "id": "time_072",
+   "connector": "following this",
+   "function": "Sequence",
+   "sentences": [
+    "The trial ended successfully.",
+    "The drug was approved for general use."
+   ],
+   "answer": [
+    "The trial",
+    "ended successfully;",
+    "following this,",
+    "the drug",
+    "was approved for general use."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "following,",
+    "nevertheless,"
+   ],
+   "hint": "The linker shows the second event came next, not a contrast.",
+   "level": 3
+  },
+  {
+   "id": "time_073",
+   "connector": "meanwhile",
+   "function": "Simultaneous time",
+   "sentences": [
+    "City populations are growing.",
+    "At the same time, rural villages are shrinking."
+   ],
+   "answer": [
+    "City populations",
+    "are growing;",
+    "meanwhile,",
+    "rural villages",
+    "are shrinking."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "similarly,"
+   ],
+   "hint": "\"Meanwhile\" links two things happening in the same period.",
+   "level": 1
+  },
+  {
+   "id": "time_074",
+   "connector": "meanwhile",
+   "function": "Simultaneous time",
+   "sentences": [
+    "The rice is boiled.",
+    "At the same time, the vegetables are chopped."
+   ],
+   "answer": [
+    "The rice",
+    "is boiled;",
+    "meanwhile,",
+    "the vegetables",
+    "are chopped."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "as a result,"
+   ],
+   "hint": "Use a semicolon before \"meanwhile\" and a comma after it.",
+   "level": 1
+  },
+  {
+   "id": "time_075",
+   "connector": "meanwhile",
+   "function": "Simultaneous time",
+   "sentences": [
+    "Coal use declined steadily.",
+    "Over the same period, solar power use rose."
+   ],
+   "answer": [
+    "Coal use",
+    "declined steadily;",
+    "meanwhile,",
+    "the use of solar power",
+    "rose."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for instance,",
+    "similarly,"
+   ],
+   "hint": "In Task 1, \"meanwhile\" compares two trends over the same period.",
+   "level": 2
+  },
+  {
+   "id": "time_076",
+   "connector": "meanwhile",
+   "function": "Simultaneous time",
+   "sentences": [
+    "The parents attended a meeting.",
+    "Their children played in the hall then."
+   ],
+   "answer": [
+    "The parents",
+    "attended a meeting;",
+    "meanwhile,",
+    "their children",
+    "played in the hall."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "although"
+   ],
+   "hint": "The two actions happen at the same time, so use \"meanwhile\" after a semicolon.",
+   "level": 2
+  },
+  {
+   "id": "time_077",
+   "connector": "meanwhile",
+   "function": "Simultaneous time",
+   "sentences": [
+    "The government built new roads.",
+    "At the same time, public transport received little funding."
+   ],
+   "answer": [
+    "The government",
+    "built new roads;",
+    "meanwhile,",
+    "public transport",
+    "received little funding."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "similarly,"
+   ],
+   "hint": "\"Meanwhile\" can show a contrast between things happening at the same time.",
+   "level": 2
+  },
+  {
+   "id": "time_078",
+   "connector": "meanwhile",
+   "function": "Simultaneous time",
+   "sentences": [
+    "Scientists are developing cleaner fuels.",
+    "Car makers are improving batteries at the same time."
+   ],
+   "answer": [
+    "Scientists are developing",
+    "cleaner fuels;",
+    "meanwhile,",
+    "car makers",
+    "are improving batteries."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "for example,",
+    "although"
+   ],
+   "hint": "Both clauses use the present continuous for parallel ongoing actions.",
+   "level": 3
+  },
+  {
+   "id": "time_079",
+   "connector": "prior to",
+   "function": "Time order",
+   "sentences": [
+    "Students should revise carefully.",
+    "The exam is next week."
+   ],
+   "answer": [
+    "Students",
+    "should revise carefully",
+    "prior to",
+    "the exam."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "prior",
+    "although"
+   ],
+   "hint": "\"Prior to\" is followed by a noun, not a clause.",
+   "level": 1
+  },
+  {
+   "id": "time_080",
+   "connector": "prior to",
+   "function": "Time order",
+   "sentences": [
+    "The fish is frozen.",
+    "Then it is packaged."
+   ],
+   "answer": [
+    "The fish",
+    "is frozen",
+    "prior to",
+    "being packaged."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "prior",
+    "before to"
+   ],
+   "hint": "After \"prior to\" use a noun or an -ing form, including \"being\" + past participle.",
+   "level": 2
+  },
+  {
+   "id": "time_081",
+   "connector": "prior to",
+   "function": "Time order",
+   "sentences": [
+    "The flight leaves soon.",
+    "All passengers must pass a security check first."
+   ],
+   "answer": [
+    "Prior to",
+    "the flight,",
+    "all passengers",
+    "must pass a security check."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Prior",
+    "Despite"
+   ],
+   "hint": "A fronted \"prior to\" phrase is followed by a comma.",
+   "level": 2
+  },
+  {
+   "id": "time_082",
+   "connector": "prior to",
+   "function": "Time order",
+   "sentences": [
+    "Applicants must complete a medical test.",
+    "Then they can start the job."
+   ],
+   "answer": [
+    "Prior to",
+    "starting the job,",
+    "applicants",
+    "must complete a medical test."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Prior",
+    "Although"
+   ],
+   "hint": "\"Prior to\" + -ing: the \"to\" here is a preposition.",
+   "level": 2
+  },
+  {
+   "id": "time_083",
+   "connector": "prior to",
+   "function": "Time order",
+   "sentences": [
+    "The area was farmland.",
+    "Later an airport was built there."
+   ],
+   "answer": [
+    "Prior to",
+    "the airport's construction,",
+    "the area",
+    "was farmland."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Prior",
+    "Although"
+   ],
+   "hint": "A noun phrase follows \"prior to\"; the earlier state goes in the main clause.",
+   "level": 1
+  },
+  {
+   "id": "time_084",
+   "connector": "prior to",
+   "function": "Time order",
+   "sentences": [
+    "The bridge was thoroughly tested.",
+    "Then it was opened to traffic."
+   ],
+   "answer": [
+    "The bridge",
+    "was thoroughly tested",
+    "prior to",
+    "being opened",
+    "to traffic."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "prior",
+    "before to"
+   ],
+   "hint": "Use \"being\" + past participle after \"prior to\" for a passive event.",
+   "level": 3
+  },
+  {
+   "id": "time_085",
+   "connector": "eventually",
+   "function": "Sequence",
+   "sentences": [
+    "The team lost several matches.",
+    "Finally, it won the championship."
+   ],
+   "answer": [
+    "The team",
+    "lost several matches",
+    "but",
+    "eventually",
+    "won the championship."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "eventual",
+    "however"
+   ],
+   "hint": "\"Eventually\" means in the end, after a long time; it comes before the verb.",
+   "level": 1
+  },
+  {
+   "id": "time_086",
+   "connector": "eventually",
+   "function": "Sequence",
+   "sentences": [
+    "The factory polluted the river for years.",
+    "It was finally closed down."
+   ],
+   "answer": [
+    "The factory",
+    "polluted the river for years;",
+    "eventually,",
+    "it",
+    "was closed down."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "eventual,",
+    "for example,"
+   ],
+   "hint": "Use the adverb, not the adjective, after the semicolon.",
+   "level": 2
+  },
+  {
+   "id": "time_087",
+   "connector": "eventually",
+   "function": "Sequence",
+   "sentences": [
+    "Many young workers rent at first.",
+    "Later they buy their own homes."
+   ],
+   "answer": [
+    "Many young workers",
+    "rent at first",
+    "but",
+    "eventually",
+    "buy their own homes."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "eventual",
+    "although"
+   ],
+   "hint": "\"Eventually\" goes after \"but\" and before the second verb.",
+   "level": 1
+  },
+  {
+   "id": "time_088",
+   "connector": "eventually",
+   "function": "Sequence",
+   "sentences": [
+    "Prices rose for months.",
+    "Demand finally began to fall."
+   ],
+   "answer": [
+    "Prices",
+    "rose for months;",
+    "eventually,",
+    "demand",
+    "began to fall."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "eventual,",
+    "similarly,"
+   ],
+   "hint": "Use a semicolon, then the adverb and a comma to show the final change.",
+   "level": 2
+  },
+  {
+   "id": "time_089",
+   "connector": "eventually",
+   "function": "Sequence",
+   "sentences": [
+    "The small online shop grew steadily.",
+    "It became a large company in the end."
+   ],
+   "answer": [
+    "The small online shop",
+    "grew steadily",
+    "and",
+    "eventually",
+    "became a large company."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "eventual",
+    "although"
+   ],
+   "hint": "Place the adverb between \"and\" and the second verb.",
+   "level": 2
+  },
+  {
+   "id": "time_090",
+   "connector": "eventually",
+   "function": "Sequence",
+   "sentences": [
+    "Many species struggled to adapt to warming.",
+    "Some finally died out."
+   ],
+   "answer": [
+    "Many species",
+    "struggled to adapt to warming;",
+    "eventually,",
+    "some",
+    "died out."
+   ],
+   "prefilled": 1,
+   "distractors": [
+    "eventual,",
+    "in contrast,"
+   ],
+   "hint": "The adverb shows the final stage of a long process.",
+   "level": 3
+  },
+  {
+   "id": "time_091",
+   "connector": "to begin with",
+   "function": "Ordering steps",
+   "sentences": [
+    "The clay is mixed with water.",
+    "Then it is shaped into bricks."
+   ],
+   "answer": [
+    "To begin with,",
+    "the clay is mixed with water,",
+    "and then",
+    "it is shaped into bricks."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "To begin,",
+    "Finally,"
+   ],
+   "hint": "The opening phrase introduces the first step and takes a comma.",
+   "level": 1
+  },
+  {
+   "id": "time_092",
+   "connector": "to begin with",
+   "function": "Ordering steps",
+   "sentences": [
+    "Many students struggled with online classes at first.",
+    "Later they adapted well to them."
+   ],
+   "answer": [
+    "To begin with,",
+    "many students",
+    "struggled with online classes,",
+    "but",
+    "they later adapted well."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "To begin,",
+    "In conclusion,"
+   ],
+   "hint": "\"To begin with\" describes the first situation, before a later change.",
+   "level": 2
+  },
+  {
+   "id": "time_093",
+   "connector": "to begin with",
+   "function": "Ordering steps",
+   "sentences": [
+    "The seeds are soaked overnight.",
+    "Then they are planted in trays."
+   ],
+   "answer": [
+    "To begin with,",
+    "the seeds are soaked",
+    "overnight;",
+    "they are then planted",
+    "in trays."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "To begin,",
+    "Lastly,"
+   ],
+   "hint": "Start with the first stage; a semicolon separates it from the next stage.",
+   "level": 2
+  },
+  {
+   "id": "time_094",
+   "connector": "to begin with",
+   "function": "Ordering steps",
+   "sentences": [
+    "She worked as a waitress at first.",
+    "Later she opened her own restaurant."
+   ],
+   "answer": [
+    "To begin with,",
+    "she worked as a waitress,",
+    "but",
+    "she later opened",
+    "her own restaurant."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "To begin,",
+    "Lastly,"
+   ],
+   "hint": "Use the phrase at the start for the earliest stage of a life story.",
+   "level": 1
+  },
+  {
+   "id": "time_095",
+   "connector": "to begin with",
+   "function": "Ordering steps",
+   "sentences": [
+    "The town relied on fishing at first.",
+    "Later tourism became its main industry."
+   ],
+   "answer": [
+    "To begin with,",
+    "the town relied on fishing,",
+    "but",
+    "tourism later became",
+    "its main industry."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "To begin,",
+    "Finally,"
+   ],
+   "hint": "The phrase sets up the early situation; \"but\" introduces the later change.",
+   "level": 3
+  },
+  {
+   "id": "time_096",
+   "connector": "firstly ... then",
+   "function": "Ordering steps",
+   "sentences": [
+    "The oranges are washed first.",
+    "Then they are squeezed for juice."
+   ],
+   "answer": [
+    "Firstly,",
+    "the oranges are washed,",
+    "and then",
+    "they are squeezed",
+    "for juice."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Lastly,",
+    "although"
+   ],
+   "hint": "\"Firstly\" opens the first step; \"and then\" adds the next step.",
+   "level": 1
+  },
+  {
+   "id": "time_097",
+   "connector": "firstly ... then",
+   "function": "Ordering steps",
+   "sentences": [
+    "The paper is collected from homes.",
+    "Then it is sorted at a recycling centre."
+   ],
+   "answer": [
+    "Firstly,",
+    "the paper is collected,",
+    "and then",
+    "it is sorted",
+    "at a recycling centre."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Lastly,",
+    "because"
+   ],
+   "hint": "Process steps use the passive; put a comma after \"Firstly\".",
+   "level": 1
+  },
+  {
+   "id": "time_098",
+   "connector": "firstly ... then",
+   "function": "Ordering steps",
+   "sentences": [
+    "Applicants complete an online form.",
+    "Then they attend an interview."
+   ],
+   "answer": [
+    "Firstly,",
+    "applicants complete a form,",
+    "and then",
+    "they attend",
+    "an interview."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Finally,",
+    "unless"
+   ],
+   "hint": "The first step follows \"Firstly,\" and the second follows \"and then\".",
+   "level": 2
+  },
+  {
+   "id": "time_099",
+   "connector": "firstly ... then",
+   "function": "Ordering steps",
+   "sentences": [
+    "The milk is heated to kill bacteria.",
+    "Then it is cooled and bottled."
+   ],
+   "answer": [
+    "Firstly,",
+    "the milk is heated",
+    "to kill bacteria,",
+    "and then",
+    "it is cooled and bottled."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "Lastly,",
+    "so that"
+   ],
+   "hint": "Keep the purpose phrase with the first step, before \"and then\".",
+   "level": 2
+  },
+  {
+   "id": "time_100",
+   "connector": "firstly ... then",
+   "function": "Ordering steps",
+   "sentences": [
+    "The researchers reviewed earlier studies.",
+    "Then they designed a survey."
+   ],
+   "answer": [
+    "Firstly,",
+    "the researchers reviewed",
+    "earlier studies,",
+    "and then",
+    "they designed a survey."
+   ],
+   "prefilled": 0,
+   "distractors": [
+    "In conclusion,",
+    "whereas"
+   ],
+   "hint": "Sequence the research stages: first step, comma, \"and then\", next step.",
+   "level": 3
+  }
+ ]
+}

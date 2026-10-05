@@ -1,0 +1,2857 @@
+{
+ "v1_errors_2_1": {
+  "intro": {
+   "en": "Errors 11–15: singular verbs after everybody, one of, every and the number of - plus despite.",
+   "bn": "ভুল ১১–১৫: everybody, one of, every আর the number of-এর পরে singular verb - সাথে despite।"
+  },
+  "learned": [
+   {
+    "en": "Everybody, everyone, each, neither take a singular verb",
+    "bn": "Everybody, everyone, each, neither-এর পরে singular verb"
+   },
+   {
+    "en": "One of + plural noun + singular verb",
+    "bn": "One of + plural noun + singular verb"
+   },
+   {
+    "en": "Every + singular noun; the number of + singular verb",
+    "bn": "Every + singular noun; the number of + singular verb"
+   },
+   {
+    "en": "Despite (no of) vs in spite of",
+    "bn": "Despite (of ছাড়া) বনাম in spite of"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "One of my friend is studying in Canada."
+     },
+     {
+      "en": "One of my friends are studying in Canada."
+     },
+     {
+      "en": "One of my friends is studying in Canada."
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "After one of, the noun is plural (my friends), but the verb stays singular because the true subject is one.",
+     "bn": "One of-এর পরে noun plural (my friends), কিন্তু verb singular থাকে, কারণ আসল subject হলো one।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "The number of road accidents are increasing every year."
+     },
+     {
+      "en": "The number of road accidents is increasing every year."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The subject is number (singular), not accidents. A number of, meaning “several”, is different and takes a plural verb.",
+     "bn": "Subject হলো number (singular), accidents নয়। A number of মানে “several” - ওটা আলাদা, তার পরে plural verb।"
+    },
+    "after": 4
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "Despite of the heavy rain, the ceremony continued."
+     },
+     {
+      "en": "In spite of the heavy rain, the ceremony continued."
+     },
+     {
+      "en": "Despite it rained heavily, the ceremony continued."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Despite takes no of; in spite of keeps it. Both take a noun or -ing form, never a full clause - for a clause, use although.",
+     "bn": "Despite-এর পরে of বসে না; in spite of-এ of থাকে। দুটোর পরেই noun বা -ing রূপ, কখনো পূর্ণ clause নয় - clause-এর জন্য although।"
+    }
+   }
+  ]
+ },
+ "v1_errors_2_1p2": {
+  "intro": {
+   "en": "Errors 16–20: redundant doubles, cope with, comprise, and tenses with time expressions.",
+   "bn": "ভুল ১৬–২০: অপ্রয়োজনীয় দ্বিরুক্তি, cope with, comprise, আর সময়ের শব্দের সাথে tense।"
+  },
+  "learned": [
+   {
+    "en": "Return, not return back",
+    "bn": "Return - return back নয়"
+   },
+   {
+    "en": "Cope with; comprise vs consist of",
+    "bn": "Cope with; comprise বনাম consist of"
+   },
+   {
+    "en": "Finished time → simple past",
+    "bn": "শেষ হয়ে যাওয়া সময় → simple past"
+   },
+   {
+    "en": "Since/for → present perfect",
+    "bn": "Since/for → present perfect"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence avoids redundancy?",
+     "bn": "কোন বাক্যে অপ্রয়োজনীয় দ্বিরুক্তি নেই?"
+    },
+    "options": [
+     {
+      "en": "After his studies, he returned back to his hometown."
+     },
+     {
+      "en": "After his studies, he returned to his hometown."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Return already means “go back”, so back is redundant. The same goes for repeat again, revert back and ascend up.",
+     "bn": "Return মানেই “go back”, তাই back বাড়তি। Repeat again, revert back, ascend up-এর বেলাতেও একই কথা।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "The committee comprises of twelve senior members."
+     },
+     {
+      "en": "The committee consists of twelve senior members."
+     },
+     {
+      "en": "The committee consists twelve senior members."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Comprise takes no of; the of belongs to consist of and be composed of. Never mix them into comprises of.",
+     "bn": "Comprise-এর পরে of বসে না; of থাকে consist of আর be composed of-এ। দুটো মিশিয়ে comprises of লিখবেন না।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "I am living in Dhaka since 2015."
+     },
+     {
+      "en": "I have been living in Dhaka since 2015."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "A duration that started in the past and continues now needs the present perfect (continuous). Since and for are the signal words.",
+     "bn": "অতীতে শুরু হয়ে এখনো চলছে এমন সময়ের জন্য present perfect (continuous) লাগে। Since আর for হলো সংকেত-শব্দ।"
+    }
+   }
+  ]
+ },
+ "v1_errors_3_1": {
+  "intro": {
+   "en": "Errors 21–25: tell vs say, opinion phrases, most people, sitting an exam, and do vs make.",
+   "bn": "ভুল ২১–২৫: tell বনাম say, মতামতের phrase, most people, exam দেওয়া, আর do বনাম make।"
+  },
+  "learned": [
+   {
+    "en": "Tell someone; say something to someone",
+    "bn": "Tell someone; say something to someone"
+   },
+   {
+    "en": "In my opinion, not according to me",
+    "bn": "In my opinion - according to me নয়"
+   },
+   {
+    "en": "Most / the majority of, not maximum",
+    "bn": "Most / the majority of - maximum নয়"
+   },
+   {
+    "en": "Sit or take an exam; make a mistake",
+    "bn": "Sit বা take an exam; make a mistake"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "My friend told to me that the interview went well."
+     },
+     {
+      "en": "My friend said me that the interview went well."
+     },
+     {
+      "en": "My friend told me that the interview went well."
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "Tell takes a person directly (tell me). Say needs to before a person (say to me).",
+     "bn": "Tell সরাসরি ব্যক্তিকে নেয় (tell me)। Say-এর পরে ব্যক্তির আগে to লাগে (say to me)।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which phrase introduces your own view?",
+     "bn": "নিজের মতামত বোঝাতে কোন phrase?"
+    },
+    "options": [
+     {
+      "en": "According to me,"
+     },
+     {
+      "en": "In my opinion,"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "According to introduces an external source, such as according to the report. For your own view, use in my opinion or from my perspective.",
+     "bn": "According to বাইরের কোনো উৎস বোঝায়, যেমন according to the report। নিজের মতের জন্য in my opinion বা from my perspective।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which collocation is correct?",
+     "bn": "কোন collocation-টি সঠিক?"
+    },
+    "options": [
+     {
+      "en": "do a mistake"
+     },
+     {
+      "en": "make research"
+     },
+     {
+      "en": "make a decision"
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "You make a mistake, a decision, progress, an effort; you do homework, research, a favour. Bangla করা covers both, so learn them as fixed pairs.",
+     "bn": "Make a mistake, a decision, progress, an effort; কিন্তু do homework, research, a favour। বাংলায় করা দুটোই বোঝায়, তাই জোড়াগুলো মুখস্থ রাখুন।"
+    }
+   }
+  ]
+ },
+ "v1_errors_3_1p2": {
+  "intro": {
+   "en": "Errors 26–30: since vs for, turning devices on and off, all my, introducing yourself, and graduate.",
+   "bn": "ভুল ২৬–৩০: since বনাম for, যন্ত্র on/off করা, all my, নিজের পরিচয় দেওয়া, আর graduate।"
+  },
+  "learned": [
+   {
+    "en": "Since + point in time; for + length of time",
+    "bn": "Since + সময়ের বিন্দু; for + সময়ের দৈর্ঘ্য"
+   },
+   {
+    "en": "Turn on / turn off the light and fan",
+    "bn": "Light আর fan-এর জন্য turn on / turn off"
+   },
+   {
+    "en": "All my relatives; I am Rahim",
+    "bn": "All my relatives; I am Rahim"
+   },
+   {
+    "en": "Graduate from, not pass out from",
+    "bn": "Graduate from - pass out from নয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "I have not met my school friends since a long time."
+     },
+     {
+      "en": "I have not met my school friends for a long time."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Since needs a starting point (since 2015). “A long time” is a length of time, so it takes for.",
+     "bn": "Since-এর পরে শুরুর সময় (since 2015)। “A long time” হলো সময়ের দৈর্ঘ্য, তাই for।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Pick the natural English sentence.",
+     "bn": "স্বাভাবিক English বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "My all relatives gathered for the wedding celebration."
+     },
+     {
+      "en": "All my relatives gathered for the wedding celebration."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "In English, all comes before the possessive: all my relatives, all his money. The same holds for both my parents.",
+     "bn": "English-এ all বসে possessive-এর আগে: all my relatives, all his money। Both my parents-এর বেলাতেও তাই।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "In standard English, what does “pass out” mean?",
+     "bn": "Standard English-এ “pass out” মানে কী?"
+    },
+    "options": [
+     {
+      "en": "To complete a university degree",
+      "bn": "University degree শেষ করা"
+     },
+     {
+      "en": "To faint or lose consciousness",
+      "bn": "অজ্ঞান হয়ে যাওয়া"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Pass out means to faint. To complete a degree, say graduated from - a false friend, not a grammar error.",
+     "bn": "Pass out মানে অজ্ঞান হওয়া। Degree শেষ করা বোঝাতে graduated from বলুন - এটা false friend, grammar-এর ভুল নয়।"
+    }
+   }
+  ]
+ },
+ "v1_practice_1": {
+  "intro": {
+   "en": "Fifteen hidden L1 errors to spot and fix, then ten Bangla thoughts to put into natural English.",
+   "bn": "লুকানো ১৫টি L1 ভুল খুঁজে ঠিক করুন, তারপর ১০টি বাংলা চিন্তাকে স্বাভাবিক English-এ লিখুন।"
+  },
+  "learned": [
+   {
+    "en": "Spot and fix the core L1 errors",
+    "bn": "মূল L1 ভুলগুলো খুঁজে ঠিক করা"
+   },
+   {
+    "en": "Translate the meaning, not the words",
+    "bn": "শব্দ নয়, অর্থ অনুবাদ করা"
+   },
+   {
+    "en": "Attempt first, then check the key",
+    "bn": "আগে নিজে চেষ্টা, তারপর key দেখা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What should you do before checking the answer key?",
+     "bn": "Answer key দেখার আগে কী করবেন?"
+    },
+    "options": [
+     {
+      "en": "Read the key first, then try the sentences",
+      "bn": "আগে key পড়ে তারপর বাক্যগুলো চেষ্টা করা"
+     },
+     {
+      "en": "Attempt both exercises fully with a pen",
+      "bn": "কলম হাতে দুটো exercise পুরোপুরি করে ফেলা"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Do not read the key first: recognition is not the same as production.",
+     "bn": "আগে key পড়বেন না: চিনতে পারা আর নিজে লিখতে পারা এক জিনিস নয়।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "How should you turn each Bangla thought into English?",
+     "bn": "প্রতিটা বাংলা চিন্তাকে কীভাবে English-এ লিখবেন?"
+    },
+    "options": [
+     {
+      "en": "Translate it word by word",
+      "bn": "শব্দে শব্দে অনুবাদ করে"
+     },
+     {
+      "en": "Translate the meaning in one natural sentence",
+      "bn": "অর্থটা একটা স্বাভাবিক বাক্যে অনুবাদ করে"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Translate the meaning, not the words - word-for-word translation is exactly what produces L1 errors.",
+     "bn": "শব্দ নয়, অর্থ অনুবাদ করুন - শব্দে শব্দে অনুবাদ থেকেই তো L1 ভুল তৈরি হয়।"
+    }
+   }
+  ]
+ },
+ "v2_intro_1": {
+  "intro": {
+   "en": "Why vague words cap your band, and how the upgrade ladder works.",
+   "bn": "অস্পষ্ট শব্দ কেন আপনার band আটকে রাখে, আর upgrade-এর সিঁড়ি কীভাবে কাজ করে।"
+  },
+  "learned": [
+   {
+    "en": "Overused words are vague, not wrong",
+    "bn": "বেশি-ব্যবহৃত শব্দ ভুল নয়, অস্পষ্ট"
+   },
+   {
+    "en": "The Band 5.5 → 7.5 → 9.0 ladder",
+    "bn": "Band 5.5 → 7.5 → 9.0-এর সিঁড়ি"
+   },
+   {
+    "en": "Selection: one precise word, not a pile of rare ones",
+    "bn": "বাছাই: একটা নির্ভুল শব্দ, অনেক দুর্লভ শব্দের স্তূপ নয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What caps Lexical Resource at Band 6?",
+     "bn": "Lexical Resource-কে Band 6-এ কী আটকে রাখে?"
+    },
+    "options": [
+     {
+      "en": "Vague overused words like big, good and thing",
+      "bn": "big, good, thing-এর মতো অস্পষ্ট, বেশি-ব্যবহৃত শব্দ"
+     },
+     {
+      "en": "Not using rare words in every sentence",
+      "bn": "প্রতিটা বাক্যে দুর্লভ শব্দ না রাখা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "These words are not wrong - they are vague, and vagueness caps Lexical Resource at Band 6. The examiner wants the right word, not a rare one.",
+     "bn": "এই শব্দগুলো ভুল নয় - অস্পষ্ট, আর অস্পষ্টতাই Lexical Resource-কে Band 6-এ আটকে রাখে। Examiner চান সঠিক শব্দ, দুর্লভ শব্দ নয়।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which approach do examiners penalise?",
+     "bn": "কোন পদ্ধতিতে examiner নম্বর কাটেন?"
+    },
+    "options": [
+     {
+      "en": "One precise word where a vague one used to sit",
+      "bn": "অস্পষ্ট শব্দের জায়গায় একটা নির্ভুল শব্দ"
+     },
+     {
+      "en": "A script stuffed with plethora, myriad and paradigm",
+      "bn": "plethora, myriad, paradigm দিয়ে ঠাসা লেখা"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "A stuffed script reads as memorised and unnatural. Range plus accuracy, not range at the cost of it.",
+     "bn": "ঠাসা লেখা মুখস্থ আর অস্বাভাবিক শোনায়। Range-এর সাথে accuracy - accuracy হারিয়ে range নয়।"
+    }
+   }
+  ]
+ },
+ "v2_matrix_1_1": {
+  "intro": {
+   "en": "Upgrades for big, small, good, bad and important - and where each one belongs.",
+   "bn": "big, small, good, bad আর important-এর upgrade - আর কোনটা কোথায় মানায়।"
+  },
+  "learned": [
+   {
+    "en": "Large for size; substantial for amounts; significant for importance",
+    "bn": "Size-এ large; পরিমাণে substantial; গুরুত্বে significant"
+   },
+   {
+    "en": "Beneficial, detrimental, adverse effect on",
+    "bn": "Beneficial, detrimental, adverse effect on"
+   },
+   {
+    "en": "Crucial, vital, essential, paramount",
+    "bn": "Crucial, vital, essential, paramount"
+   },
+   {
+    "en": "Huge and terrible are fine in Speaking, not in Task 2",
+    "bn": "Huge, terrible Speaking-এ চলে, Task 2-এ নয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Writing Task 2: “Dhaka has a ___ population.” Which word fits best?",
+     "bn": "Writing Task 2: “Dhaka has a ___ population.” কোন শব্দটা সবচেয়ে মানানসই?"
+    },
+    "options": [
+     {
+      "en": "big"
+     },
+     {
+      "en": "huge"
+     },
+     {
+      "en": "substantial"
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "In Task 2, avoid big, huge and massive. Substantial and considerable are for amounts.",
+     "bn": "Task 2-এ big, huge, massive এড়িয়ে চলুন। পরিমাণ বোঝাতে substantial আর considerable।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which is the strong academic phrase for harm?",
+     "bn": "ক্ষতি বোঝাতে কোনটা শক্তিশালী academic phrase?"
+    },
+    "options": [
+     {
+      "en": "a bad effect on health"
+     },
+     {
+      "en": "a detrimental effect on health"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Detrimental to and adverse effect on are the strong academic collocations for harm. Write a detrimental effect, not a bad effect.",
+     "bn": "ক্ষতি বোঝাতে detrimental to আর adverse effect on হলো শক্তিশালী academic collocation। Bad effect নয়, detrimental effect লিখুন।"
+    },
+    "after": 4
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which word means “most important of all”?",
+     "bn": "কোন শব্দের মানে “সবচেয়ে গুরুত্বপূর্ণ”?"
+    },
+    "options": [
+     {
+      "en": "paramount"
+     },
+     {
+      "en": "essential"
+     },
+     {
+      "en": "key"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Paramount means most important of all. Essential is something you cannot do without; key and crucial mean decisive.",
+     "bn": "Paramount মানে সবকিছুর চেয়ে গুরুত্বপূর্ণ। Essential মানে যা ছাড়া চলে না; key আর crucial মানে নির্ণায়ক।"
+    }
+   }
+  ]
+ },
+ "v2_matrix_1_1p2": {
+  "intro": {
+   "en": "Upgrades for difficult, dangerous, rich and beautiful.",
+   "bn": "difficult, dangerous, rich আর beautiful-এর upgrade।"
+  },
+  "learned": [
+   {
+    "en": "Challenging, demanding, arduous, daunting",
+    "bn": "Challenging, demanding, arduous, daunting"
+   },
+   {
+    "en": "Hazardous to; detrimental to health",
+    "bn": "Hazardous to; detrimental to health"
+   },
+   {
+    "en": "Affluent, prosperous, developed nations",
+    "bn": "Affluent, prosperous, developed nations"
+   },
+   {
+    "en": "Scenic, charming, picturesque - mostly Speaking",
+    "bn": "Scenic, charming, picturesque - মূলত Speaking-এ"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which word means “long and tiring”?",
+     "bn": "কোন শব্দের মানে “দীর্ঘ আর ক্লান্তিকর”?"
+    },
+    "options": [
+     {
+      "en": "daunting"
+     },
+     {
+      "en": "arduous"
+     },
+     {
+      "en": "formidable"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Arduous means long and tiring. Formidable means seriously difficult to overcome; daunting means intimidating to face.",
+     "bn": "Arduous মানে দীর্ঘ আর ক্লান্তিকর। Formidable মানে কাটিয়ে ওঠা সত্যিই কঠিন; daunting মানে মুখোমুখি হতে ভয় লাগে এমন।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence uses the academic choice for Writing?",
+     "bn": "Writing-এর জন্য academic শব্দ কোন বাক্যে?"
+    },
+    "options": [
+     {
+      "en": "Rich countries should help poor countries."
+     },
+     {
+      "en": "Affluent nations should support developing ones."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Affluent and prosperous are the academic choices in Writing; well-off is natural in Speaking.",
+     "bn": "Writing-এ affluent আর prosperous হলো academic পছন্দ; Speaking-এ well-off স্বাভাবিক।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which word is used for natural views?",
+     "bn": "প্রাকৃতিক দৃশ্যের জন্য কোন শব্দ?"
+    },
+    "options": [
+     {
+      "en": "charming"
+     },
+     {
+      "en": "scenic"
+     },
+     {
+      "en": "elegant"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Scenic is for natural views, charming for towns and villages, and elegant for design.",
+     "bn": "প্রাকৃতিক দৃশ্যের জন্য scenic, শহর-গ্রামের জন্য charming, আর design-এর জন্য elegant।"
+    }
+   }
+  ]
+ },
+ "v2_matrix_2_1": {
+  "intro": {
+   "en": "Upgrades for happy, interesting, increase, decrease and solve.",
+   "bn": "happy, interesting, increase, decrease আর solve-এর upgrade।"
+  },
+  "learned": [
+   {
+    "en": "Pleased (a reaction) vs content (a lasting state)",
+    "bn": "Pleased (প্রতিক্রিয়া) বনাম content (স্থায়ী অবস্থা)"
+   },
+   {
+    "en": "Compelling argument, compelling evidence",
+    "bn": "Compelling argument, compelling evidence"
+   },
+   {
+    "en": "Rise/fall take no object; raise/reduce need one",
+    "bn": "Rise/fall object নেয় না; raise/reduce-এ object লাগে"
+   },
+   {
+    "en": "Tackle, address, eradicate, alleviate, mitigate",
+    "bn": "Tackle, address, eradicate, alleviate, mitigate"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which word describes a lasting state rather than a reaction?",
+     "bn": "কোন শব্দটা প্রতিক্রিয়া নয়, স্থায়ী অবস্থা বোঝায়?"
+    },
+    "options": [
+     {
+      "en": "pleased"
+     },
+     {
+      "en": "content"
+     },
+     {
+      "en": "glad"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Content and satisfied are for lasting states; pleased and glad are for reactions.",
+     "bn": "Content আর satisfied স্থায়ী অবস্থার জন্য; pleased আর glad প্রতিক্রিয়ার জন্য।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "The price reduced last year."
+     },
+     {
+      "en": "The price fell last year."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Decline, fall and drop take no object; reduce and lower need one. “The price reduced” comes from কমা/কমানো blurring the two.",
+     "bn": "Decline, fall, drop object নেয় না; reduce আর lower-এ object লাগে। কমা/কমানো গুলিয়ে ফেলায় “the price reduced” ভুলটা হয়।"
+    },
+    "after": 4
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "A problem can be wiped out completely. Which verb fits?",
+     "bn": "কোনো সমস্যা পুরোপুরি নির্মূল করা যায়। কোন verb মানানসই?"
+    },
+    "options": [
+     {
+      "en": "alleviate"
+     },
+     {
+      "en": "eradicate"
+     },
+     {
+      "en": "mitigate"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Eradicate means remove completely. Alleviate eases suffering; mitigate reduces severity.",
+     "bn": "Eradicate মানে পুরোপুরি দূর করা। Alleviate কষ্ট কমায়; mitigate তীব্রতা কমায়।"
+    }
+   }
+  ]
+ },
+ "v2_matrix_2_1p2": {
+  "intro": {
+   "en": "Upgrades for change, help, show and cause.",
+   "bn": "change, help, show আর cause-এর upgrade।"
+  },
+  "learned": [
+   {
+    "en": "Modify, transform, revolutionise, overhaul",
+    "bn": "Modify, transform, revolutionise, overhaul"
+   },
+   {
+    "en": "Enable, facilitate, foster",
+    "bn": "Enable, facilitate, foster"
+   },
+   {
+    "en": "Indicate, reveal, illustrate, underscore",
+    "bn": "Indicate, reveal, illustrate, underscore"
+   },
+   {
+    "en": "Lead to, result in, contribute to, give rise to",
+    "bn": "Lead to, result in, contribute to, give rise to"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which verb means a complete change?",
+     "bn": "কোন verb সম্পূর্ণ পরিবর্তন বোঝায়?"
+    },
+    "options": [
+     {
+      "en": "modify"
+     },
+     {
+      "en": "transform"
+     },
+     {
+      "en": "shift"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Transform is a complete change. Modify is a small adjustment; shift is a change of direction.",
+     "bn": "Transform মানে সম্পূর্ণ পরিবর্তন। Modify ছোট সমন্বয়; shift দিক বদল।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which verb means “draw attention to something important”?",
+     "bn": "কোন verb মানে “গুরুত্বপূর্ণ কিছুর দিকে মনোযোগ টানা”?"
+    },
+    "options": [
+     {
+      "en": "underscore"
+     },
+     {
+      "en": "reveal"
+     },
+     {
+      "en": "indicate"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Highlight and underscore draw attention to something important. Reveal uncovers something not obvious; indicate is data pointing to a conclusion.",
+     "bn": "Highlight আর underscore গুরুত্বপূর্ণ কিছুর দিকে মনোযোগ টানে। Reveal অপ্রকাশ্য কিছু সামনে আনে; indicate মানে data কোনো সিদ্ধান্তের দিকে ইঙ্গিত করছে।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "It is one cause among several. Which phrase fits?",
+     "bn": "এটা কয়েকটা কারণের একটা। কোন phrase মানানসই?"
+    },
+    "options": [
+     {
+      "en": "contribute to"
+     },
+     {
+      "en": "trigger"
+     },
+     {
+      "en": "precipitate"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Use contribute to when it is one cause among several. Trigger means set off suddenly; precipitate means bring on abruptly.",
+     "bn": "অনেক কারণের একটা হলে contribute to। Trigger মানে হঠাৎ শুরু করে দেওয়া; precipitate মানে আচমকা ঘটিয়ে ফেলা।"
+    }
+   }
+  ]
+ },
+ "v2_matrix_3_1": {
+  "intro": {
+   "en": "Upgrades for improve, affect, use, get and want.",
+   "bn": "improve, affect, use, get আর want-এর upgrade।"
+  },
+  "learned": [
+   {
+    "en": "Enhance, boost, refine, optimise",
+    "bn": "Enhance, boost, refine, optimise"
+   },
+   {
+    "en": "Affect is the verb; effect is the noun",
+    "bn": "Affect হলো verb; effect হলো noun"
+   },
+   {
+    "en": "Employ, harness; obtain, acquire, secure",
+    "bn": "Employ, harness; obtain, acquire, secure"
+   },
+   {
+    "en": "Intend to, aspire to, seek to",
+    "bn": "Intend to, aspire to, seek to"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "Social media has a strong affect on young people."
+     },
+     {
+      "en": "Social media has a strong effect on young people."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Affect is the verb, effect the noun: affect acts, effect is the result. After “a strong”, you need the noun.",
+     "bn": "Affect হলো verb, effect হলো noun: affect কাজ করে, effect হলো ফল। “a strong”-এর পরে noun লাগে।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which verb suits something hard to get, like a scholarship?",
+     "bn": "Scholarship-এর মতো কঠিনে পাওয়া জিনিসের জন্য কোন verb?"
+    },
+    "options": [
+     {
+      "en": "acquire"
+     },
+     {
+      "en": "secure"
+     },
+     {
+      "en": "attain"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Secure suits something hard to get (secure a scholarship). Acquire suits skills and knowledge; attain suits goals and standards.",
+     "bn": "কঠিনে পাওয়া জিনিসের জন্য secure (secure a scholarship)। দক্ষতা আর জ্ঞানের জন্য acquire; লক্ষ্য আর মানের জন্য attain।"
+    },
+    "after": 4
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which phrase states a firm plan?",
+     "bn": "কোন phrase দৃঢ় পরিকল্পনা বোঝায়?"
+    },
+    "options": [
+     {
+      "en": "wish to"
+     },
+     {
+      "en": "intend to"
+     },
+     {
+      "en": "long to"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Intend to is for a firm plan; wish to is a formal desire. Aspire to suits ambitions.",
+     "bn": "দৃঢ় পরিকল্পনার জন্য intend to; wish to হলো আনুষ্ঠানিক ইচ্ছা। উচ্চাকাঙ্ক্ষার জন্য aspire to।"
+    }
+   }
+  ]
+ },
+ "v2_matrix_3_1p2": {
+  "intro": {
+   "en": "Upgrades for think, problem, effect and thing.",
+   "bn": "think, problem, effect আর thing-এর upgrade।"
+  },
+  "learned": [
+   {
+    "en": "Believe, consider, contend, maintain",
+    "bn": "Believe, consider, contend, maintain"
+   },
+   {
+    "en": "Issue, concern, challenge, dilemma, crisis",
+    "bn": "Issue, concern, challenge, dilemma, crisis"
+   },
+   {
+    "en": "Impact, consequence, repercussion",
+    "bn": "Impact, consequence, repercussion"
+   },
+   {
+    "en": "Factor, aspect, element - never thing in Writing",
+    "bn": "Factor, aspect, element - Writing-এ কখনো thing নয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which verb means “assert firmly in an argument”?",
+     "bn": "কোন verb মানে “যুক্তিতে দৃঢ়ভাবে দাবি করা”?"
+    },
+    "options": [
+     {
+      "en": "feel"
+     },
+     {
+      "en": "contend"
+     },
+     {
+      "en": "consider"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Contend and maintain mean assert firmly - ideal for a Task 2 thesis. Feel is a softer opinion; consider is a reasoned judgement.",
+     "bn": "Contend আর maintain মানে দৃঢ়ভাবে দাবি করা - Task 2-এর thesis-এর জন্য আদর্শ। Feel নরম মতামত; consider যুক্তিপূর্ণ বিচার।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which word means a hard choice between options?",
+     "bn": "কোন শব্দ মানে কয়েকটা option-এর মধ্যে কঠিন বাছাই?"
+    },
+    "options": [
+     {
+      "en": "obstacle"
+     },
+     {
+      "en": "dilemma"
+     },
+     {
+      "en": "crisis"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "A dilemma is a hard choice between options. An obstacle blocks progress; a crisis is a severe, urgent problem.",
+     "bn": "Dilemma মানে কয়েকটা option-এর মধ্যে কঠিন বাছাই। Obstacle অগ্রগতি আটকায়; crisis হলো গুরুতর, জরুরি সমস্যা।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Pick the natural English sentence.",
+     "bn": "স্বাভাবিক English বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "The most important thing is a sound education."
+     },
+     {
+      "en": "The most important factor is a sound education."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Thing has no place in academic writing - it is a clear Band 6 marker. Name what you mean: factor, aspect or element.",
+     "bn": "Academic writing-এ thing-এর জায়গা নেই - এটা স্পষ্ট Band 6-এর চিহ্ন। যা বোঝাতে চান তার নাম বলুন: factor, aspect বা element।"
+    }
+   }
+  ]
+ },
+ "v2_matrix_4_1": {
+  "intro": {
+   "en": "Upgrades for way, money, very and many.",
+   "bn": "way, money, very আর many-এর upgrade।"
+  },
+  "learned": [
+   {
+    "en": "Method, approach, measure",
+    "bn": "Method, approach, measure"
+   },
+   {
+    "en": "Funds, expenditure, capital, revenue",
+    "bn": "Funds, expenditure, capital, revenue"
+   },
+   {
+    "en": "Upgrade the adjective, not the intensifier",
+    "bn": "Intensifier নয়, adjective-টাই upgrade করুন"
+   },
+   {
+    "en": "A great deal of + uncountable; numerous + countable",
+    "bn": "A great deal of + uncountable; numerous + countable"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which phrase suits a solution paragraph?",
+     "bn": "Solution paragraph-এ কোন phrase মানায়?"
+    },
+    "options": [
+     {
+      "en": "stringent ways"
+     },
+     {
+      "en": "stringent measures"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Measure is ideal in solution paragraphs (stringent measures). Way is natural in Speaking.",
+     "bn": "Solution paragraph-এ measure আদর্শ (stringent measures)। Way Speaking-এ স্বাভাবিক।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What is the better Writing upgrade for “very big”?",
+     "bn": "Writing-এ “very big”-এর ভালো upgrade কোনটা?"
+    },
+    "options": [
+     {
+      "en": "extremely big"
+     },
+     {
+      "en": "substantial"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Replace very with a stronger adjective, not just a stronger adverb: very big becomes substantial, not extremely big.",
+     "bn": "Very-র বদলে শক্তিশালী adjective বসান, শুধু শক্তিশালী adverb নয়: very big হবে substantial, extremely big নয়।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which quantifier matches an uncountable noun?",
+     "bn": "Uncountable noun-এর সাথে কোন quantifier মেলে?"
+    },
+    "options": [
+     {
+      "en": "numerous information"
+     },
+     {
+      "en": "a great deal of information"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Match the quantifier to the noun: a great deal of with uncountables, numerous with countables.",
+     "bn": "Noun অনুযায়ী quantifier বাছুন: uncountable-এর সাথে a great deal of, countable-এর সাথে numerous।"
+    }
+   }
+  ]
+ },
+ "v2_matrix_4_1p2": {
+  "intro": {
+   "en": "Upgrades for old, new, famous and common.",
+   "bn": "old, new, famous আর common-এর upgrade।"
+  },
+  "learned": [
+   {
+    "en": "Elderly for people; traditional, outdated, time-honoured",
+    "bn": "মানুষের জন্য elderly; traditional, outdated, time-honoured"
+   },
+   {
+    "en": "Emerging, innovative, cutting-edge",
+    "bn": "Emerging, innovative, cutting-edge"
+   },
+   {
+    "en": "Prominent, renowned, eminent",
+    "bn": "Prominent, renowned, eminent"
+   },
+   {
+    "en": "Widespread, prevalent, ubiquitous",
+    "bn": "Widespread, prevalent, ubiquitous"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which word is the polite choice for people?",
+     "bn": "মানুষের ক্ষেত্রে ভদ্র শব্দ কোনটা?"
+    },
+    "options": [
+     {
+      "en": "old"
+     },
+     {
+      "en": "elderly"
+     },
+     {
+      "en": "antiquated"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Use elderly for people out of politeness. Antiquated means out of date and is for things.",
+     "bn": "ভদ্রতার খাতিরে মানুষের জন্য elderly বলুন। Antiquated মানে সেকেলে - জিনিসের জন্য।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which word means widely respected for achievement?",
+     "bn": "কোন শব্দ মানে কাজের জন্য সর্বত্র সম্মানিত?"
+    },
+    "options": [
+     {
+      "en": "popular"
+     },
+     {
+      "en": "renowned"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Renowned and eminent mean widely respected for achievement; popular means widely liked. They are not the same.",
+     "bn": "Renowned আর eminent মানে কাজের জন্য সম্মানিত; popular মানে অনেকের পছন্দের। দুটো এক নয়।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which word means “found everywhere”?",
+     "bn": "কোন শব্দ মানে “সব জায়গায় পাওয়া যায়”?"
+    },
+    "options": [
+     {
+      "en": "prevalent"
+     },
+     {
+      "en": "ubiquitous"
+     },
+     {
+      "en": "typical"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Ubiquitous means found everywhere. Prevalent means common in a place or time; typical means representative.",
+     "bn": "Ubiquitous মানে সব জায়গায়। Prevalent মানে কোনো স্থান বা সময়ে প্রচলিত; typical মানে প্রতিনিধিত্বমূলক।"
+    }
+   }
+  ]
+ },
+ "v2_practice_1": {
+  "intro": {
+   "en": "Rewrite Band 5.5 sentences with matrix upgrades, then pick the precise word in context.",
+   "bn": "Band 5.5-এর বাক্য matrix-এর upgrade দিয়ে আবার লিখুন, তারপর প্রসঙ্গ বুঝে নির্ভুল শব্দ বাছুন।"
+  },
+  "learned": [
+   {
+    "en": "Replace vague words with precise ones",
+    "bn": "অস্পষ্ট শব্দের বদলে নির্ভুল শব্দ"
+   },
+   {
+    "en": "One or two advanced words per sentence is enough",
+    "bn": "প্রতি বাক্যে এক-দুটো advanced শব্দই যথেষ্ট"
+   },
+   {
+    "en": "Close synonyms have different precise uses",
+    "bn": "কাছাকাছি synonym-এরও আলাদা নির্দিষ্ট ব্যবহার আছে"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "In the upgrade drill, how many advanced words should each sentence get?",
+     "bn": "Upgrade drill-এ প্রতি বাক্যে কয়টা advanced শব্দ বসাবেন?"
+    },
+    "options": [
+     {
+      "en": "As many as possible",
+      "bn": "যত বেশি সম্ভব"
+     },
+     {
+      "en": "No more than one or two",
+      "bn": "এক-দুটোর বেশি নয়"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Keep the meaning and do not force in more than one or two advanced words per sentence.",
+     "bn": "অর্থ ঠিক রাখুন, আর প্রতি বাক্যে এক-দুটোর বেশি advanced শব্দ জোর করে বসাবেন না।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Why do these rewrites lift Lexical Resource?",
+     "bn": "এই rewrite-গুলো Lexical Resource কেন বাড়ায়?"
+    },
+    "options": [
+     {
+      "en": "Each vague word is replaced by a precise, collocation-appropriate one",
+      "bn": "প্রতিটা অস্পষ্ট শব্দের জায়গায় নির্ভুল, সঠিক collocation-এর শব্দ বসে"
+     },
+     {
+      "en": "The sentences become longer",
+      "bn": "বাক্যগুলো লম্বা হয়"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Replacing each vague word with a precise, collocation-appropriate one is what lifts Lexical Resource from Band 6 to Band 8.",
+     "bn": "প্রতিটা অস্পষ্ট শব্দের বদলে নির্ভুল, সঠিক collocation-এর শব্দ - এটাই Lexical Resource-কে Band 6 থেকে Band 8-এ তোলে।"
+    }
+   }
+  ]
+ },
+ "v3_verbs_1_1": {
+  "intro": {
+   "en": "Verbs 1–50 as word families: forms, nouns, adjectives and the prepositions that follow.",
+   "bn": "Verb ১–৫০, word family হিসেবে: রূপ, noun, adjective আর পরের preposition।"
+  },
+  "learned": [
+   {
+    "en": "Move across a row to paraphrase",
+    "bn": "Paraphrase করতে row ধরে সরে যান"
+   },
+   {
+    "en": "V1, V2, V3 and V4 forms",
+    "bn": "V1, V2, V3 আর V4 রূপ"
+   },
+   {
+    "en": "Fixed prepositions: depend on, contribute to, deter from",
+    "bn": "নির্দিষ্ট preposition: depend on, contribute to, deter from"
+   },
+   {
+    "en": "British spelling: analyse, emphasise",
+    "bn": "British বানান: analyse, emphasise"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What is the real power of this verb table?",
+     "bn": "এই verb table-এর আসল শক্তি কী?"
+    },
+    "options": [
+     {
+      "en": "Memorising past tenses",
+      "bn": "Past tense মুখস্থ করা"
+     },
+     {
+      "en": "Moving across a row: verb, noun, adjective",
+      "bn": "Row ধরে সরে যাওয়া: verb, noun, adjective"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "If a verb is overused, slide to its noun or adjective and rebuild the sentence. That flexibility is what Lexical Resource rewards.",
+     "bn": "কোনো verb বেশি ব্যবহার হলে তার noun বা adjective-এ সরে গিয়ে বাক্যটা নতুন করে গড়ুন। এই flexibility-কেই Lexical Resource পুরস্কার দেয়।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What is the noun form of the verb “affect”?",
+     "bn": "Verb “affect”-এর noun রূপ কী?"
+    },
+    "options": [
+     {
+      "en": "affect"
+     },
+     {
+      "en": "effect"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Affect (verb) → effect (noun). You affect something; the effect is the result.",
+     "bn": "Affect (verb) → effect (noun)। আপনি কিছুকে affect করেন; ফলটা হলো effect।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which preposition follows “deter”?",
+     "bn": "“deter”-এর পরে কোন preposition বসে?"
+    },
+    "options": [
+     {
+      "en": "from"
+     },
+     {
+      "en": "on"
+     },
+     {
+      "en": "to"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The table gives deter → from: deter someone from doing something. Its noun is deterrent.",
+     "bn": "Table অনুযায়ী deter → from: deter someone from doing something। এর noun হলো deterrent।"
+    }
+   }
+  ]
+ },
+ "v3_verbs_2_1": {
+  "intro": {
+   "en": "Verbs 51–100, plus the affect/effect trap and paraphrasing by shifting word class.",
+   "bn": "Verb ৫১–১০০, সাথে affect/effect-এর ফাঁদ আর word class বদলে paraphrase।"
+  },
+  "learned": [
+   {
+    "en": "Rely on, invest in, provide with, result in / from",
+    "bn": "Rely on, invest in, provide with, result in / from"
+   },
+   {
+    "en": "Irregular forms: rise, rose, risen",
+    "bn": "অনিয়মিত রূপ: rise, rose, risen"
+   },
+   {
+    "en": "Paraphrase by shifting class: improved → an improvement in",
+    "bn": "Class বদলে paraphrase: improved → an improvement in"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“The policy improved education.” Which is a correct paraphrase?",
+     "bn": "“The policy improved education.” সঠিক paraphrase কোনটা?"
+    },
+    "options": [
+     {
+      "en": "The policy led to an improvement in education."
+     },
+     {
+      "en": "The policy led to improve education."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Shift the verb improve to the noun improvement: led to an improvement in education. Sliding along a row is the engine of paraphrase.",
+     "bn": "Verb improve-কে noun improvement-এ নিন: led to an improvement in education। Row ধরে সরে যাওয়াই paraphrase-এর মূল কৌশল।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which preposition follows “rely”?",
+     "bn": "“rely”-এর পরে কোন preposition বসে?"
+    },
+    "options": [
+     {
+      "en": "on"
+     },
+     {
+      "en": "in"
+     },
+     {
+      "en": "from"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Rely on, like depend on. Its noun is reliance and its adjective reliable.",
+     "bn": "Depend on-এর মতোই rely on। এর noun reliance, adjective reliable।"
+    }
+   }
+  ]
+ },
+ "v3_linking_1": {
+  "intro": {
+   "en": "Band 7+ linking words by purpose, the two big traps, and why less is more.",
+   "bn": "উদ্দেশ্য অনুযায়ী Band 7+ linking word, দুটো বড় ফাঁদ, আর কেন কম-ই বেশি।"
+  },
+  "learned": [
+   {
+    "en": "Upgrades for addition, contrast, cause and result",
+    "bn": "Addition, contrast, cause আর result-এর upgrade"
+   },
+   {
+    "en": "Due to / owing to + noun; because + clause",
+    "bn": "Due to / owing to + noun; because + clause"
+   },
+   {
+    "en": "However: full stop or semicolon before, comma after",
+    "bn": "However: আগে full stop বা semicolon, পরে comma"
+   },
+   {
+    "en": "One device per idea - range means variety",
+    "bn": "প্রতি idea-তে একটা device - range মানে বৈচিত্র্য"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which is a Band 7+ upgrade for contrast?",
+     "bn": "Contrast বোঝাতে Band 7+ upgrade কোনটা?"
+    },
+    "options": [
+     {
+      "en": "nevertheless"
+     },
+     {
+      "en": "consequently"
+     },
+     {
+      "en": "furthermore"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Nevertheless upgrades but (contrast). Consequently shows a result; furthermore adds a point.",
+     "bn": "Nevertheless হলো but-এর upgrade (contrast)। Consequently ফলাফল বোঝায়; furthermore নতুন point যোগ করে।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "The plan was costly, however, it worked."
+     },
+     {
+      "en": "The plan was costly; however, it worked."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "When however joins two complete sentences, it needs a full stop or semicolon before it and a comma after. Commas on both sides create a comma splice.",
+     "bn": "However দুটো পূর্ণ বাক্য জুড়লে এর আগে full stop বা semicolon আর পরে comma লাগে। দুই পাশে শুধু comma দিলে comma splice হয়।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which habit do examiners explicitly penalise?",
+     "bn": "কোন অভ্যাসে examiner সরাসরি নম্বর কাটেন?"
+    },
+    "options": [
+     {
+      "en": "Starting three sentences in a row with Moreover, Furthermore, In addition",
+      "bn": "পরপর তিন বাক্য Moreover, Furthermore, In addition দিয়ে শুরু করা"
+     },
+     {
+      "en": "Letting some sentences connect through meaning alone",
+      "bn": "কিছু বাক্যকে শুধু অর্থ দিয়েই জোড়া রাখা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "That is mechanical overuse. One cohesive device per idea is enough - range means variety, not density.",
+     "bn": "এটা যান্ত্রিক অতিব্যবহার। প্রতি idea-তে একটা cohesive device-ই যথেষ্ট - range মানে বৈচিত্র্য, ঘনত্ব নয়।"
+    }
+   }
+  ]
+ },
+ "v3_practice_1": {
+  "intro": {
+   "en": "Drill verb forms and prepositions, then rebuild a Band 6 paragraph with better cohesion.",
+   "bn": "Verb-এর রূপ আর preposition-এর drill, তারপর Band 6-এর একটা paragraph ভালো cohesion দিয়ে নতুন করে লিখুন।"
+  },
+  "learned": [
+   {
+    "en": "Verb forms after has, had, can and must",
+    "bn": "Has, had, can, must-এর পরে verb-এর রূপ"
+   },
+   {
+    "en": "Result in (consequence) vs result from (cause)",
+    "bn": "Result in (ফলাফল) বনাম result from (কারণ)"
+   },
+   {
+    "en": "Varied cohesive devices, not repeated ones",
+    "bn": "একই device বারবার নয়, বৈচিত্র্যময় device"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which phrase points to a consequence?",
+     "bn": "কোন phrase ফলাফলের দিকে ইঙ্গিত করে?"
+    },
+    "options": [
+     {
+      "en": "result in"
+     },
+     {
+      "en": "result from"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Result in points to a consequence; result from points to a cause.",
+     "bn": "Result in ফলাফল বোঝায়; result from কারণ বোঝায়।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "In the model paragraph, what follows “Notwithstanding”?",
+     "bn": "Model paragraph-এ “Notwithstanding”-এর পরে কী বসেছে?"
+    },
+    "options": [
+     {
+      "en": "A full clause with a subject and verb",
+      "bn": "Subject আর verb সহ পূর্ণ clause"
+     },
+     {
+      "en": "A noun phrase (these advantages)",
+      "bn": "একটা noun phrase (these advantages)"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Notwithstanding is followed by a noun phrase, while because introduces a full clause.",
+     "bn": "Notwithstanding-এর পরে noun phrase বসে, আর because-এর পরে পূর্ণ clause।"
+    }
+   }
+  ]
+ },
+ "v4_intro_1": {
+  "intro": {
+   "en": "How the 15 topic bundles work, and why Writing and Speaking sets stay apart.",
+   "bn": "১৫টি topic bundle কীভাবে কাজ করে, আর Writing ও Speaking-এর set কেন আলাদা।"
+  },
+  "learned": [
+   {
+    "en": "Each topic: nouns, verbs, collocations, Writing phrases, Speaking idioms",
+    "bn": "প্রতিটা topic: noun, verb, collocation, Writing phrase, Speaking idiom"
+   },
+   {
+    "en": "Formal set for Writing, idioms for Speaking",
+    "bn": "Formal set Writing-এর জন্য, idiom Speaking-এর জন্য"
+   },
+   {
+    "en": "Bangla glosses anchor meaning - don't translate word for word",
+    "bn": "বাংলা অর্থ মনে রাখতে সাহায্য করে - শব্দে শব্দে অনুবাদ নয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Each topic has five idioms. Where do they belong?",
+     "bn": "প্রতিটা topic-এ পাঁচটা idiom আছে। এগুলো কোথায় ব্যবহার করবেন?"
+    },
+    "options": [
+     {
+      "en": "Writing Task 2",
+      "bn": "Writing Task 2"
+     },
+     {
+      "en": "Speaking",
+      "bn": "Speaking"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The formal set is labelled for Writing and the idiom set for Speaking. Keep them apart.",
+     "bn": "Formal set Writing-এর জন্য, idiom set Speaking-এর জন্য। দুটো আলাদা রাখুন।"
+    }
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "How should you use the Bangla glosses?",
+     "bn": "বাংলা অর্থগুলো কীভাবে কাজে লাগাবেন?"
+    },
+    "options": [
+     {
+      "en": "Translate them word for word into essays",
+      "bn": "Essay-তে শব্দে শব্দে অনুবাদ করে"
+     },
+     {
+      "en": "Anchor the meaning, then use the English term in its natural collocation",
+      "bn": "অর্থ মনে রাখতে, তারপর English শব্দটা তার স্বাভাবিক collocation-এ ব্যবহার করে"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The glosses anchor each term to something you already know. Do not translate word for word.",
+     "bn": "বাংলা অর্থ শব্দটাকে আপনার চেনা কিছুর সাথে জুড়ে দেয়। শব্দে শব্দে অনুবাদ করবেন না।"
+    }
+   }
+  ]
+ },
+ "v4_topic_01_1": {
+  "intro": {
+   "en": "Topic 1 word bundle: environment and climate shift.",
+   "bn": "Topic 1-এর শব্দভাণ্ডার: পরিবেশ ও জলবায়ু পরিবর্তন।"
+  },
+  "learned": [
+   {
+    "en": "Ten academic nouns and ten precise verbs",
+    "bn": "দশটি academic noun আর দশটি precise verb"
+   },
+   {
+    "en": "Collocations, with Writing or Speaking labels",
+    "bn": "Collocation - Writing না Speaking, সেই label সহ"
+   },
+   {
+    "en": "Five formal phrases for Task 2",
+    "bn": "Task 2-এর জন্য পাঁচটি formal phrase"
+   },
+   {
+    "en": "Five idioms for Speaking only",
+    "bn": "শুধু Speaking-এর জন্য পাঁচটি idiom"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "deforestation"
+     },
+     {
+      "en": "sustainability"
+     },
+     {
+      "en": "conservation"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Deforestation (বন উজাড়) destroys habitats. Sustainability and conservation describe protection, not loss.",
+     "bn": "Deforestation (বন উজাড়) বাসস্থান ধ্বংস করে। Sustainability আর conservation সুরক্ষা বোঝায়, ক্ষতি নয়।"
+    },
+    "passage": "Widespread ______ has accelerated the loss of natural habitats.",
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "strike"
+     },
+     {
+      "en": "do"
+     },
+     {
+      "en": "give"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The formal Task 2 collocation is strike a balance between.",
+     "bn": "Task 2-এর formal collocation হলো strike a balance between।"
+    },
+    "passage": "Governments must ______ a balance between development and conservation.",
+    "after": 4
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which expression is labelled Speaking only?",
+     "bn": "কোন expression-টা শুধু Speaking-এর জন্য?"
+    },
+    "options": [
+     {
+      "en": "a drop in the ocean"
+     },
+     {
+      "en": "pose a serious threat to"
+     },
+     {
+      "en": "take collective action"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "“a drop in the ocean” is from the Speaking idioms set. The formal collocations are built for Writing Task 2 - keep the two sets apart.",
+     "bn": "“a drop in the ocean” Speaking idiom-এর তালিকা থেকে। Formal collocation-গুলো Writing Task 2-এর জন্য - দুটো set আলাদা রাখুন।"
+    }
+   }
+  ]
+ },
+ "v4_topic_01_2": {
+  "intro": {
+   "en": "Practice for Topic 1 (Environment): match meanings, complete Task 2 sentences, answer Part 3 questions.",
+   "bn": "Topic 1 (পরিবেশ)-এর practice: অর্থ মেলানো, Task 2-এর বাক্য পূরণ, Part 3-এর প্রশ্নের উত্তর।"
+  },
+  "learned": [
+   {
+    "en": "Match each term to its meaning",
+    "bn": "প্রতিটা শব্দের সাথে অর্থ মেলানো"
+   },
+   {
+    "en": "Fixed collocations: strike a balance, renewable energy, irreversible damage",
+    "bn": "নির্দিষ্ট collocation: strike a balance, renewable energy, irreversible damage"
+   },
+   {
+    "en": "Use one idiom and one collocation per Part 3 answer",
+    "bn": "Part 3-এর প্রতি উত্তরে একটা idiom আর একটা collocation"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What does “offset” mean?",
+     "bn": "“offset” মানে কী?"
+    },
+    "options": [
+     {
+      "en": "to balance out a negative amount with a positive action",
+      "bn": "নেতিবাচক কিছুকে ইতিবাচক কাজ দিয়ে পুষিয়ে দেওয়া"
+     },
+     {
+      "en": "to make something worse in quality over time",
+      "bn": "সময়ের সাথে কোনো কিছুর মান খারাপ করা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Offset: to balance out a negative amount with a positive action.",
+     "bn": "offset: নেতিবাচক কিছুকে ইতিবাচক কাজ দিয়ে পুষিয়ে দেওয়া।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What do the sentence-completion items mainly test?",
+     "bn": "বাক্য পূরণের item-গুলো মূলত কী যাচাই করে?"
+    },
+    "options": [
+     {
+      "en": "Fixed collocations such as strike a balance and carbon footprint",
+      "bn": "strike a balance, carbon footprint-এর মতো নির্দিষ্ট collocation"
+     },
+     {
+      "en": "The spelling of the nouns",
+      "bn": "noun-গুলোর বানান"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "They test fixed collocations (strike a balance, renewable energy, irreversible damage, carbon footprint), not just meaning.",
+     "bn": "এগুলো শুধু অর্থ নয়, নির্দিষ্ট collocation যাচাই করে (strike a balance, renewable energy, irreversible damage, carbon footprint)।"
+    }
+   }
+  ]
+ },
+ "v4_topic_02_1": {
+  "intro": {
+   "en": "Topic 2 word bundle: education and pedagogy.",
+   "bn": "Topic 2-এর শব্দভাণ্ডার: শিক্ষা ও শিক্ষণবিদ্যা।"
+  },
+  "learned": [
+   {
+    "en": "Ten academic nouns and ten precise verbs",
+    "bn": "দশটি academic noun আর দশটি precise verb"
+   },
+   {
+    "en": "Collocations, with Writing or Speaking labels",
+    "bn": "Collocation - Writing না Speaking, সেই label সহ"
+   },
+   {
+    "en": "Five formal phrases for Task 2",
+    "bn": "Task 2-এর জন্য পাঁচটি formal phrase"
+   },
+   {
+    "en": "Five idioms for Speaking only",
+    "bn": "শুধু Speaking-এর জন্য পাঁচটি idiom"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which noun has the Bangla gloss সাক্ষরতা?",
+     "bn": "কোন noun-এর বাংলা অর্থ সাক্ষরতা?"
+    },
+    "options": [
+     {
+      "en": "literacy"
+     },
+     {
+      "en": "aptitude"
+     },
+     {
+      "en": "enrolment"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Literacy (সাক্ষরতা): Improving adult literacy is a key development goal. Aptitude is দক্ষতা; enrolment is ভর্তি.",
+     "bn": "Literacy (সাক্ষরতা): Improving adult literacy is a key development goal। Aptitude মানে দক্ষতা; enrolment মানে ভর্তি।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "foundation"
+     },
+     {
+      "en": "basement"
+     },
+     {
+      "en": "floor"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The formal Task 2 collocation is lay the foundation for.",
+     "bn": "Task 2-এর formal collocation হলো lay the foundation for।"
+    },
+    "passage": "Early schooling lays the ______ for later success.",
+    "after": 4
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which expression is labelled Speaking only?",
+     "bn": "কোন expression-টা শুধু Speaking-এর জন্য?"
+    },
+    "options": [
+     {
+      "en": "hit the books"
+     },
+     {
+      "en": "higher education"
+     },
+     {
+      "en": "equip students with"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "“hit the books” is from the Speaking idioms set. The formal collocations are built for Writing Task 2 - keep the two sets apart.",
+     "bn": "“hit the books” Speaking idiom-এর তালিকা থেকে। Formal collocation-গুলো Writing Task 2-এর জন্য - দুটো set আলাদা রাখুন।"
+    }
+   }
+  ]
+ },
+ "v4_topic_02_2": {
+  "intro": {
+   "en": "Practice for Topic 2 (Education): match meanings, complete Task 2 sentences, answer Part 3 questions.",
+   "bn": "Topic 2 (শিক্ষা)-এর practice: অর্থ মেলানো, Task 2-এর বাক্য পূরণ, Part 3-এর প্রশ্নের উত্তর।"
+  },
+  "learned": [
+   {
+    "en": "Match each term to its meaning",
+    "bn": "প্রতিটা শব্দের সাথে অর্থ মেলানো"
+   },
+   {
+    "en": "Set phrases: bridge the skills gap, lifelong learning",
+    "bn": "নির্দিষ্ট phrase: bridge the skills gap, lifelong learning"
+   },
+   {
+    "en": "Use one idiom and one collocation per Part 3 answer",
+    "bn": "Part 3-এর প্রতি উত্তরে একটা idiom আর একটা collocation"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What does “aptitude” mean?",
+     "bn": "“aptitude” মানে কী?"
+    },
+    "options": [
+     {
+      "en": "a natural ability or talent",
+      "bn": "সহজাত ক্ষমতা বা প্রতিভা"
+     },
+     {
+      "en": "the level of success reached in learning",
+      "bn": "শেখায় অর্জিত সাফল্যের মাত্রা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Aptitude: a natural ability or talent.",
+     "bn": "aptitude: সহজাত ক্ষমতা বা প্রতিভা।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "bridge"
+     },
+     {
+      "en": "jump"
+     },
+     {
+      "en": "build"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Bridge the skills gap is a set academic phrase, like critical thinking, lifelong learning and lay the foundation.",
+     "bn": "Bridge the skills gap একটা নির্দিষ্ট academic phrase - critical thinking, lifelong learning, lay the foundation-এর মতোই।"
+    },
+    "passage": "Vocational training helps ______ the skills gap in many industries."
+   }
+  ]
+ },
+ "v4_topic_03_1": {
+  "intro": {
+   "en": "Topic 3 word bundle: technology and automation.",
+   "bn": "Topic 3-এর শব্দভাণ্ডার: প্রযুক্তি ও স্বয়ংক্রিয়করণ।"
+  },
+  "learned": [
+   {
+    "en": "Ten academic nouns and ten precise verbs",
+    "bn": "দশটি academic noun আর দশটি precise verb"
+   },
+   {
+    "en": "Collocations, with Writing or Speaking labels",
+    "bn": "Collocation - Writing না Speaking, সেই label সহ"
+   },
+   {
+    "en": "Five formal phrases for Task 2",
+    "bn": "Task 2-এর জন্য পাঁচটি formal phrase"
+   },
+   {
+    "en": "Five idioms for Speaking only",
+    "bn": "শুধু Speaking-এর জন্য পাঁচটি idiom"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "digital divide"
+     },
+     {
+      "en": "connectivity"
+     },
+     {
+      "en": "innovation"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The digital divide (ডিজিটাল বৈষম্য) is the gap that leaves poorer communities behind.",
+     "bn": "Digital divide (ডিজিটাল বৈষম্য) - যে ফারাক দরিদ্র জনগোষ্ঠীকে পিছিয়ে রাখে।"
+    },
+    "passage": "The ______ leaves poorer communities behind.",
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "raises"
+     },
+     {
+      "en": "lifts"
+     },
+     {
+      "en": "grows"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The formal Task 2 collocation is raise ethical concerns.",
+     "bn": "Task 2-এর formal collocation হলো raise ethical concerns।"
+    },
+    "passage": "Artificial intelligence ______ significant ethical concerns.",
+    "after": 4
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which expression is labelled Speaking only?",
+     "bn": "কোন expression-টা শুধু Speaking-এর জন্য?"
+    },
+    "options": [
+     {
+      "en": "a double-edged sword"
+     },
+     {
+      "en": "data privacy"
+     },
+     {
+      "en": "render obsolete"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "“a double-edged sword” is from the Speaking idioms set. The formal collocations are built for Writing Task 2 - keep the two sets apart.",
+     "bn": "“a double-edged sword” Speaking idiom-এর তালিকা থেকে। Formal collocation-গুলো Writing Task 2-এর জন্য - দুটো set আলাদা রাখুন।"
+    }
+   }
+  ]
+ },
+ "v4_topic_03_2": {
+  "intro": {
+   "en": "Practice for Topic 3 (Technology): match meanings, complete Task 2 sentences, answer Part 3 questions.",
+   "bn": "Topic 3 (প্রযুক্তি)-এর practice: অর্থ মেলানো, Task 2-এর বাক্য পূরণ, Part 3-এর প্রশ্নের উত্তর।"
+  },
+  "learned": [
+   {
+    "en": "Match each term to its meaning",
+    "bn": "প্রতিটা শব্দের সাথে অর্থ মেলানো"
+   },
+   {
+    "en": "Target phrases: transform the way, bridge the digital divide",
+    "bn": "লক্ষ্য phrase: transform the way, bridge the digital divide"
+   },
+   {
+    "en": "Use one idiom and one collocation per Part 3 answer",
+    "bn": "Part 3-এর প্রতি উত্তরে একটা idiom আর একটা collocation"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What does “obsolescence” mean?",
+     "bn": "“obsolescence” মানে কী?"
+    },
+    "options": [
+     {
+      "en": "the state of becoming out of date",
+      "bn": "সেকেলে হয়ে যাওয়ার অবস্থা"
+     },
+     {
+      "en": "the ability to connect to networks",
+      "bn": "network-এ যুক্ত হওয়ার ক্ষমতা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Obsolescence: the state of becoming out of date.",
+     "bn": "obsolescence: সেকেলে হয়ে যাওয়ার অবস্থা।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "digital"
+     },
+     {
+      "en": "technical"
+     },
+     {
+      "en": "online"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The target collocation is bridge the digital divide.",
+     "bn": "লক্ষ্য collocation হলো bridge the digital divide।"
+    },
+    "passage": "Affordable internet access could help bridge the ______ divide."
+   }
+  ]
+ },
+ "v4_topic_04_1": {
+  "intro": {
+   "en": "Topic 4 word bundle: health and modern lifestyles.",
+   "bn": "Topic 4-এর শব্দভাণ্ডার: স্বাস্থ্য ও আধুনিক জীবনযাপন।"
+  },
+  "learned": [
+   {
+    "en": "Ten academic nouns and ten precise verbs",
+    "bn": "দশটি academic noun আর দশটি precise verb"
+   },
+   {
+    "en": "Collocations, with Writing or Speaking labels",
+    "bn": "Collocation - Writing না Speaking, সেই label সহ"
+   },
+   {
+    "en": "Five formal phrases for Task 2",
+    "bn": "Task 2-এর জন্য পাঁচটি formal phrase"
+   },
+   {
+    "en": "Five idioms for Speaking only",
+    "bn": "শুধু Speaking-এর জন্য পাঁচটি idiom"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "sedentary lifestyle"
+     },
+     {
+      "en": "longevity"
+     },
+     {
+      "en": "immunity"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "A sedentary lifestyle (নিষ্ক্রিয় জীবনযাপন) raises health risks. Longevity and immunity are positive outcomes.",
+     "bn": "Sedentary lifestyle (নিষ্ক্রিয় জীবনযাপন) স্বাস্থ্যঝুঁকি বাড়ায়। Longevity আর immunity ইতিবাচক বিষয়।"
+    },
+    "passage": "A ______ increases the risk of heart disease.",
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "transmitted"
+     },
+     {
+      "en": "diagnosed"
+     },
+     {
+      "en": "maintained"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Transmit means pass on: the virus is transmitted through close contact.",
+     "bn": "Transmit মানে ছড়িয়ে দেওয়া: the virus is transmitted through close contact।"
+    },
+    "passage": "The virus is ______ through close contact.",
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "toll"
+     },
+     {
+      "en": "price"
+     },
+     {
+      "en": "weight"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The formal Task 2 collocation is take a toll on.",
+     "bn": "Task 2-এর formal collocation হলো take a toll on।"
+    },
+    "passage": "Long working hours take a ______ on mental health.",
+    "after": 4
+   }
+  ]
+ },
+ "v4_topic_04_2": {
+  "intro": {
+   "en": "Practice for Topic 4 (Health): match meanings, complete Task 2 sentences, answer Part 3 questions.",
+   "bn": "Topic 4 (স্বাস্থ্য)-এর practice: অর্থ মেলানো, Task 2-এর বাক্য পূরণ, Part 3-এর প্রশ্নের উত্তর।"
+  },
+  "learned": [
+   {
+    "en": "Match each term to its meaning",
+    "bn": "প্রতিটা শব্দের সাথে অর্থ মেলানো"
+   },
+   {
+    "en": "Fixed pairings: place a strain on, take a toll on",
+    "bn": "নির্দিষ্ট জোড়া: place a strain on, take a toll on"
+   },
+   {
+    "en": "Use one idiom and one collocation per Part 3 answer",
+    "bn": "Part 3-এর প্রতি উত্তরে একটা idiom আর একটা collocation"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What does “chronic” mean?",
+     "bn": "“chronic” মানে কী?"
+    },
+    "options": [
+     {
+      "en": "lasting for a long time or recurring",
+      "bn": "দীর্ঘস্থায়ী বা বারবার ফিরে আসে এমন"
+     },
+     {
+      "en": "involving little physical movement",
+      "bn": "শারীরিক নড়াচড়া কম এমন"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Chronic: lasting for a long time or recurring.",
+     "bn": "chronic: দীর্ঘস্থায়ী বা বারবার ফিরে আসে এমন।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "strain"
+     },
+     {
+      "en": "toll"
+     },
+     {
+      "en": "diet"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The fixed pairing is place a strain on. Toll goes with take: take a toll on.",
+     "bn": "নির্দিষ্ট জোড়া হলো place a strain on। Toll বসে take-এর সাথে: take a toll on।"
+    },
+    "passage": "An ageing population places a growing ______ on healthcare systems."
+   }
+  ]
+ },
+ "v4_topic_05_1": {
+  "intro": {
+   "en": "Topic 5 word bundle: crime, justice and rehabilitation.",
+   "bn": "Topic 5-এর শব্দভাণ্ডার: অপরাধ, বিচার ও পুনর্বাসন।"
+  },
+  "learned": [
+   {
+    "en": "Ten academic nouns and ten precise verbs",
+    "bn": "দশটি academic noun আর দশটি precise verb"
+   },
+   {
+    "en": "Collocations, with Writing or Speaking labels",
+    "bn": "Collocation - Writing না Speaking, সেই label সহ"
+   },
+   {
+    "en": "Five formal phrases for Task 2",
+    "bn": "Task 2-এর জন্য পাঁচটি formal phrase"
+   },
+   {
+    "en": "Five idioms for Speaking only",
+    "bn": "শুধু Speaking-এর জন্য পাঁচটি idiom"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "recidivism"
+     },
+     {
+      "en": "legislation"
+     },
+     {
+      "en": "corruption"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Recidivism (পুনরায় অপরাধ প্রবণতা) is offenders committing crimes again - evidence that prison alone does not work.",
+     "bn": "Recidivism (পুনরায় অপরাধ প্রবণতা) মানে আবার অপরাধ করা - যা বোঝায় শুধু কারাগারে কাজ হয় না।"
+    },
+    "passage": "High ______ suggests that prison alone does not work.",
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "reintegrate"
+     },
+     {
+      "en": "prosecute"
+     },
+     {
+      "en": "deter"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The formal Task 2 collocation is reintegrate into society.",
+     "bn": "Task 2-এর formal collocation হলো reintegrate into society।"
+    },
+    "passage": "Rehabilitation helps offenders ______ into society.",
+    "after": 4
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which expression is labelled Speaking only?",
+     "bn": "কোন expression-টা শুধু Speaking-এর জন্য?"
+    },
+    "options": [
+     {
+      "en": "a slap on the wrist"
+     },
+     {
+      "en": "impose strict penalties"
+     },
+     {
+      "en": "uphold the law"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "“a slap on the wrist” is from the Speaking idioms set. The formal collocations are built for Writing Task 2 - keep the two sets apart.",
+     "bn": "“a slap on the wrist” Speaking idiom-এর তালিকা থেকে। Formal collocation-গুলো Writing Task 2-এর জন্য - দুটো set আলাদা রাখুন।"
+    }
+   }
+  ]
+ },
+ "v4_topic_05_2": {
+  "intro": {
+   "en": "Practice for Topic 5 (Crime): match meanings, complete Task 2 sentences, answer Part 3 questions.",
+   "bn": "Topic 5 (অপরাধ)-এর practice: অর্থ মেলানো, Task 2-এর বাক্য পূরণ, Part 3-এর প্রশ্নের উত্তর।"
+  },
+  "learned": [
+   {
+    "en": "Match each term to its meaning",
+    "bn": "প্রতিটা শব্দের সাথে অর্থ মেলানো"
+   },
+   {
+    "en": "Essay phrases: act as a deterrent, address the root causes",
+    "bn": "Essay phrase: act as a deterrent, address the root causes"
+   },
+   {
+    "en": "Use one idiom and one collocation per Part 3 answer",
+    "bn": "Part 3-এর প্রতি উত্তরে একটা idiom আর একটা collocation"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What does “recidivism” mean?",
+     "bn": "“recidivism” মানে কী?"
+    },
+    "options": [
+     {
+      "en": "the tendency of released criminals to offend again",
+      "bn": "মুক্তি পাওয়া অপরাধীর আবার অপরাধ করার প্রবণতা"
+     },
+     {
+      "en": "the process of helping an offender return to society",
+      "bn": "অপরাধীকে সমাজে ফিরতে সাহায্য করার প্রক্রিয়া"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Recidivism: the tendency of released criminals to offend again.",
+     "bn": "recidivism: মুক্তি পাওয়া অপরাধীর আবার অপরাধ করার প্রবণতা।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the word that completes the sentence.",
+     "bn": "বাক্যটি পূরণ করে এমন শব্দটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "deterrent"
+     },
+     {
+      "en": "penalty"
+     },
+     {
+      "en": "victim"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The essay phrase is act as a deterrent (প্রতিরোধক) - something that discourages an action.",
+     "bn": "Essay phrase হলো act as a deterrent (প্রতিরোধক) - যা কোনো কাজ থেকে নিরুৎসাহিত করে।"
+    },
+    "passage": "Long prison sentences are intended to act as a ______ to serious crime."
+   }
+  ]
+ }
+}

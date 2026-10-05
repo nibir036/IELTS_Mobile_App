@@ -48,12 +48,12 @@
     "more": [
       {
         "id": "guide",
-        "title": "Writing Guide",
-        "subtitle": "The complete nextED Writing book · English / বাংলা",
+        "title": "Writing Course",
+        "subtitle": "Step-by-step lessons from the nextED Writing book",
         "meta": "",
         "icon": "guide",
         "tone": "mist",
-        "target": "writingGuide"
+        "target": "writingCourse"
       },
       {
         "id": "lessons",
@@ -68,7 +68,7 @@
         "id": "booster",
         "title": "Writing Booster",
         "subtitle": "Vocabulary, linking & grammar drills",
-        "meta": "24 drills",
+        "meta": "1,240 sentences",
         "icon": "booster",
         "tone": "lavender",
         "target": "sentenceBuilder"
@@ -1097,7 +1097,7 @@
           },
           {
             "title": "Overview",
-            "subtitle": "Main trends — no figures",
+            "subtitle": "Main trends - no figures",
             "segments": [
               {
                 "text": "Overall, it is clear that "
@@ -1451,7 +1451,7 @@
           },
           {
             "title": "Overview",
-            "subtitle": "Biggest changes — no detail",
+            "subtitle": "Biggest changes - no detail",
             "segments": [
               {
                 "text": "Overall, "
@@ -2504,7 +2504,7 @@
           },
           {
             "title": "Overview",
-            "subtitle": "Main trends + highest line — no figures",
+            "subtitle": "Main trends + highest line - no figures",
             "segments": [
               {
                 "text": "Overall, "

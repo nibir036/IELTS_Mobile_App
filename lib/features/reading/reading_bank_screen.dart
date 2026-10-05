@@ -242,7 +242,6 @@ class ReadingBankScreen extends StatelessWidget {
     final practised = ReadingStats.bankTypesPractised(store);
     final nTests = Content.readingPracticeTests.length;
     final testsDone = ReadingStats.practiceTestsDone(store).length;
-    final labelColor = t.isNight ? t.heroText : t.textSoft;
     double ratio(int a, int b) => b <= 0 ? 0.0 : (a / b).clamp(0.0, 1.0).toDouble();
 
     return AppScreen(
@@ -256,18 +255,12 @@ class ReadingBankScreen extends StatelessWidget {
           HeroCard(
             radius: 28,
             padding: const EdgeInsets.all(18),
-            gradient: t.isNight
-                ? null
-                : const LinearGradient(
-                    begin: Alignment(-0.64, -0.77),
-                    end: Alignment(0.64, 0.77),
-                    colors: [kLavender, kPink],
-                  ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               spacing: 2,
               children: [
-                Text('Sets done', style: TextStyle(fontSize: 13, color: labelColor)),
+                Text('Sets done'.toUpperCase(),
+                    style: TextStyle(fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach)),
                 Text(
                   '${done.length}/$total',
                   style: TextStyle(
@@ -280,7 +273,7 @@ class ReadingBankScreen extends StatelessWidget {
                 ),
                 Text(
                   '${practised.length} of ${types.length} question types practised',
-                  style: TextStyle(fontSize: 13, color: labelColor),
+                  style: TextStyle(fontSize: 13, color: t.heroMuted),
                 ),
                 const SizedBox(height: 10),
                 ProgressBar(value: ratio(done.length, total), onHero: true),
@@ -401,13 +394,6 @@ class _ReadingTypeScreenState extends State<ReadingTypeScreen> with ContentLangL
           HeroCard(
             radius: 24,
             padding: const EdgeInsets.all(16),
-            gradient: t.isNight
-                ? null
-                : const LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                    colors: [Color(0xFFEEEFFD), kPink],
-                  ),
             onTap: () => context.push(
               Routes.readingTypeLesson,
               args: <String, dynamic>{'type': _type},
@@ -424,13 +410,14 @@ class _ReadingTypeScreenState extends State<ReadingTypeScreen> with ContentLangL
                       Row(
                         spacing: 6,
                         children: [
-                          Icon(AppIcons.bulb, size: 14, color: t.heroText),
+                          Icon(AppIcons.bulb, size: 14, color: t.peach),
                           Flexible(
                             child: Text(
-                              read ? 'Lesson · read' : 'Start here · lesson',
+                              (read ? 'Lesson · read' : 'Start here · lesson').toUpperCase(),
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
-                              style: TextStyle(fontSize: 12, color: t.heroMuted),
+                              style: TextStyle(
+                                  fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w600, color: t.peach),
                             ),
                           ),
                         ],
@@ -460,11 +447,11 @@ class _ReadingTypeScreenState extends State<ReadingTypeScreen> with ContentLangL
                 Container(
                   width: 40,
                   height: 40,
-                  decoration: BoxDecoration(
-                    color: t.isNight ? t.heroChip : t.surface,
+                  decoration: const BoxDecoration(
+                    gradient: kPeachGradient,
                     shape: BoxShape.circle,
                   ),
-                  child: Icon(AppIcons.forward, size: 18, color: t.heroText),
+                  child: const Icon(AppIcons.forward, size: 18, color: kOnPeach),
                 ),
               ],
             ),

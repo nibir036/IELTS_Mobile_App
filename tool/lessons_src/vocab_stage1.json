@@ -1,0 +1,900 @@
+{
+ "id": "v1",
+ "title": {
+  "en": "L1 Interference Fixer",
+  "bn": "বাংলা-প্রভাবিত ভুল ঠিক করা"
+ },
+ "subtitle": {
+  "en": "The Bangla-to-English errors that cost easy marks",
+  "bn": "বাংলা থেকে English-এ আসা যে ভুলগুলোতে সহজ নম্বর কাটে"
+ },
+ "lessons": [
+  {
+   "id": "v1_l1",
+   "title": {
+    "en": "Bangla Underneath Your English",
+    "bn": "আপনার English-এর নিচে বাংলা"
+   },
+   "minutes": 8,
+   "xp": 40,
+   "intro": {
+    "en": "Why fluent Bangladeshi candidates lose easy marks, and the first two fixes: discuss and emphasise.",
+    "bn": "সাবলীল বাংলাদেশি candidate-রাও কেন সহজ নম্বর হারান - আর প্রথম দুটো fix: discuss ও emphasise।"
+   },
+   "greeting": {
+    "en": "Let's find the Bangla hiding inside your English.",
+    "bn": "চলুন, আপনার English-এর ভেতরে লুকিয়ে থাকা বাংলাটা খুঁজে বের করি।"
+   },
+   "learned": [
+    {
+     "en": "What L1 interference is",
+     "bn": "L1 interference আসলে কী"
+    },
+    {
+     "en": "Why these errors are fixable: they follow patterns",
+     "bn": "কেন এই ভুলগুলো ঠিক করা যায়: এগুলোর pattern আছে"
+    },
+    {
+     "en": "Discuss takes no “about”",
+     "bn": "Discuss-এর পরে “about” বসে না"
+    },
+    {
+     "en": "Emphasise vs place emphasis on",
+     "bn": "Emphasise বনাম place emphasis on"
+    }
+   ],
+   "steps": [
+    {
+     "type": "choice",
+     "title": {
+      "en": "Which one sounds natural?",
+      "bn": "কোনটা স্বাভাবিক শোনায়?"
+     },
+     "prompt": {
+      "en": "Both sentences say the same thing. Which one would an examiner accept as natural English?",
+      "bn": "দুটো বাক্যই একই কথা বলছে। কোনটাকে examiner স্বাভাবিক English হিসেবে মেনে নেবেন?"
+     },
+     "options": [
+      {
+       "en": "I discussed about the problem with my teacher."
+      },
+      {
+       "en": "I discussed the problem with my teacher."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Discuss is a transitive verb: it takes its object directly, with no preposition. The “about” comes from Bangla নিয়ে (niye), which carries the sense of “about”.",
+      "bn": "Discuss একটি transitive verb: preposition ছাড়াই সরাসরি object নেয়। “about”-টা আসে বাংলা নিয়ে (niye) থেকে, যেটা “about”-এর অর্থ বহন করে।"
+     }
+    },
+    {
+     "type": "roadmap",
+     "title": {
+      "en": "What you'll learn",
+      "bn": "যা শিখবেন"
+     },
+     "items": [
+      {
+       "en": "What L1 (first-language) interference is",
+       "bn": "L1 (মাতৃভাষা) interference কী"
+      },
+      {
+       "en": "Errors 1–2: discuss, emphasise",
+       "bn": "ভুল ১–২: discuss, emphasise"
+      },
+      {
+       "en": "Errors 3–4: reach, married to",
+       "bn": "ভুল ৩–৪: reach, married to"
+      },
+      {
+       "en": "Errors 5–7: senior to, prefer to, good at",
+       "bn": "ভুল ৫–৭: senior to, prefer to, good at"
+      },
+      {
+       "en": "Errors 8–10: advice, information, agree",
+       "bn": "ভুল ৮–১০: advice, information, agree"
+      }
+     ],
+     "note": {
+      "en": "Work through every error and note which ones you produce yourself.",
+      "bn": "প্রতিটা ভুল মন দিয়ে দেখুন, আর লিখে রাখুন কোনগুলো আপনি নিজে করেন।"
+     }
+    },
+    {
+     "type": "concepts",
+     "title": {
+      "en": "L1 Interference",
+      "bn": "L1 Interference"
+     },
+     "intro": {
+      "en": "Most Bangladeshi candidates lose their easiest marks here. Tap each card.",
+      "bn": "বেশিরভাগ বাংলাদেশি candidate সবচেয়ে সহজ নম্বরগুলো এখানেই হারান। প্রতিটা card-এ tap করুন।"
+     },
+     "cards": [
+      {
+       "icon": "chat",
+       "title": {
+        "en": "Not a weak-student problem",
+        "bn": "দুর্বল শিক্ষার্থীর সমস্যা নয়"
+       },
+       "body": {
+        "en": "These sentences come from strong, fluent students whose English is quietly shaped by Bangla underneath.",
+        "bn": "এই বাক্যগুলো লেখেন ভালো, সাবলীল শিক্ষার্থীরা - যাঁদের English-কে ভেতরে ভেতরে চুপচাপ বাংলা গড়ে দিচ্ছে।"
+       }
+      },
+      {
+       "icon": "swap",
+       "title": {
+        "en": "The Bangla is not the problem",
+        "bn": "সমস্যা বাংলায় নয়"
+       },
+       "body": {
+        "en": "Each error is a faithful translation of a correct Bangla thought. The problem is carrying Bangla structure word for word into English, and an examiner recognises it instantly.",
+        "bn": "প্রতিটা ভুল একটা সঠিক বাংলা চিন্তার হুবহু অনুবাদ। সমস্যা হলো বাংলা বাক্যের গঠন শব্দে-শব্দে English-এ নিয়ে যাওয়া - আর examiner এটা সঙ্গে সঙ্গে ধরে ফেলেন।"
+       }
+      },
+      {
+       "icon": "check",
+       "title": {
+        "en": "Patterned, so fixable",
+        "bn": "Pattern আছে, তাই ঠিক করা যায়"
+       },
+       "body": {
+        "en": "L1 interference is predictable and patterned. Because it is patterned, it is fixable.",
+        "bn": "L1 interference আগে থেকেই আন্দাজ করা যায়, এর pattern আছে। আর pattern আছে বলেই এটা ঠিক করা যায়।"
+       }
+      },
+      {
+       "icon": "list",
+       "title": {
+        "en": "Five things per error",
+        "bn": "প্রতিটা ভুলে পাঁচটি জিনিস"
+       },
+       "body": {
+        "en": "The incorrect sentence, the Bangla logic behind it, the Band 9 correction, the precise rule, and the examiner's view of what it costs you.",
+        "bn": "ভুল বাক্যটা, এর পেছনের বাংলা logic, Band 9 মানের সংশোধন, ঠিক কোন নিয়ম, আর এতে আপনার কতটা ক্ষতি হয় - সে বিষয়ে examiner-এর দৃষ্টিভঙ্গি।"
+       }
+      }
+     ]
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 1: discuss about",
+      "bn": "ভুল ১: discuss about"
+     },
+     "chapter": "v1_errors_1",
+     "from": 0,
+     "to": 4
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "You want to keep the word “about”. Which sentence is correct?",
+      "bn": "আপনি “about” শব্দটা রাখতে চান। কোন বাক্যটি সঠিক?"
+     },
+     "options": [
+      {
+       "en": "I discussed about the problem with my teacher."
+      },
+      {
+       "en": "I had a discussion about the problem with my teacher."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "About belongs to the noun: have a discussion about. The verb discuss takes its object directly - like enter, approach, reach, marry, request and lack.",
+      "bn": "About বসে noun-এর সাথে: have a discussion about। আর verb discuss সরাসরি object নেয় - enter, approach, reach, marry, request আর lack-এর মতোই।"
+     }
+    },
+    {
+     "type": "contrast",
+     "title": {
+      "en": "Error 2: emphasised on",
+      "bn": "ভুল ২: emphasised on"
+     },
+     "intro": {
+      "en": "জোর দেওয়া (“to give stress”) pairs with উপর (“on”), so “on” gets carried into English.",
+      "bn": "জোর দেওয়া (“to give stress”)-এর সাথে উপর (“on”) বসে, তাই English-এও “on” চলে আসে।"
+     },
+     "weak": {
+      "label": {
+       "en": "Bangla-shaped",
+       "bn": "বাংলা-ছাঁচের"
+      },
+      "text": "The writer emphasised on the need for reform."
+     },
+     "strong": {
+      "label": {
+       "en": "Band 9 correction",
+       "bn": "Band 9 সংশোধন"
+      },
+      "text": "The writer placed emphasis on the need for reform.",
+      "mark": "placed emphasis on"
+     },
+     "tip": {
+      "en": "Emphasise takes no preposition; on belongs only to the noun form: place emphasis on, put stress on. Choose one structure - never mix them.",
+      "bn": "Emphasise-এর পরে কোনো preposition বসে না; on বসে শুধু noun রূপের সাথে: place emphasis on, put stress on। যেকোনো একটা গঠন বেছে নিন - দুটো মেশাবেন না।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 2 in full",
+      "bn": "ভুল ২ বিস্তারিত"
+     },
+     "chapter": "v1_errors_1",
+     "from": 4,
+     "to": 8
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Choose the correct sentence.",
+      "bn": "সঠিক বাক্যটি বেছে নিন।"
+     },
+     "options": [
+      {
+       "en": "The writer emphasised on the need for reform."
+      },
+      {
+       "en": "The writer emphasised the need for reform."
+      },
+      {
+       "en": "The writer placed emphasis the need for reform."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "The verb emphasise takes its object directly. The noun needs on: placed emphasis on. Option C drops the on that the noun form needs.",
+      "bn": "Verb emphasise সরাসরি object নেয়। Noun রূপে on লাগে: placed emphasis on। Option C-তে noun রূপের দরকারি on-টাই বাদ পড়েছে।"
+     },
+     "right": {
+      "en": "Exactly!",
+      "bn": "একদম ঠিক!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "v1_l2",
+   "title": {
+    "en": "Reach, Arrive and Married To",
+    "bn": "Reach, Arrive আর Married To"
+   },
+   "minutes": 7,
+   "xp": 40,
+   "intro": {
+    "en": "Two small preposition errors that show up again and again in Speaking: reach to and married with.",
+    "bn": "Speaking-এ বারবার দেখা যায় এমন দুটো ছোট preposition ভুল: reach to আর married with।"
+   },
+   "greeting": {
+    "en": "Small words, frequent errors. Let's fix them.",
+    "bn": "ছোট শব্দ, কিন্তু ঘন ঘন ভুল। চলুন ঠিক করি।"
+   },
+   "learned": [
+    {
+     "en": "Reach a place - no preposition",
+     "bn": "Reach a place - কোনো preposition নয়"
+    },
+    {
+     "en": "Arrive at a point, arrive in a large area",
+     "bn": "Arrive at একটা নির্দিষ্ট জায়গায়, arrive in বড় এলাকায়"
+    },
+    {
+     "en": "Married to, engaged to, related to",
+     "bn": "Married to, engaged to, related to"
+    }
+   ],
+   "steps": [
+    {
+     "type": "choice",
+     "title": {
+      "en": "Which one sounds natural?",
+      "bn": "কোনটা স্বাভাবিক শোনায়?"
+     },
+     "prompt": {
+      "en": "Pick the natural English sentence.",
+      "bn": "স্বাভাবিক English বাক্যটি বেছে নিন।"
+     },
+     "options": [
+      {
+       "en": "We reached to the station just before the train left."
+      },
+      {
+       "en": "We reached the station just before the train left."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Reach is transitive: reach a place, no preposition. The “to” comes from the Bangla locative ending in স্টেশনে (-e, “to/at”).",
+      "bn": "Reach transitive: reach a place, কোনো preposition নয়। “to”-টা আসে স্টেশনে শব্দের locative ending (-e, “to/at”) থেকে।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 3: reached to",
+      "bn": "ভুল ৩: reached to"
+     },
+     "chapter": "v1_errors_1",
+     "from": 8,
+     "to": 12
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "You prefer the verb arrive. Which sentence is correct?",
+      "bn": "আপনি arrive verb-টা ব্যবহার করতে চান। কোন বাক্যটি সঠিক?"
+     },
+     "options": [
+      {
+       "en": "We arrived to the station just in time."
+      },
+      {
+       "en": "We arrived at the station just in time."
+      },
+      {
+       "en": "We arrived the station just in time."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Arrive takes at for a point (arrive at the station) and in for a large area (arrive in Dhaka). Only reach takes no preposition.",
+      "bn": "Arrive-এর পরে নির্দিষ্ট জায়গার জন্য at (arrive at the station), আর বড় এলাকার জন্য in (arrive in Dhaka)। Preposition ছাড়া বসে শুধু reach।"
+     }
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Which preposition goes with a large area: “We arrived ___ Dhaka.”",
+      "bn": "বড় এলাকার সাথে কোন preposition বসে: “We arrived ___ Dhaka.”"
+     },
+     "options": [
+      {
+       "en": "to"
+      },
+      {
+       "en": "in"
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Arrive in a large area, such as a city: arrive in Dhaka. Arrive at is for a point, such as a station.",
+      "bn": "শহরের মতো বড় এলাকায় arrive in: arrive in Dhaka। আর স্টেশনের মতো নির্দিষ্ট জায়গার জন্য arrive at।"
+     }
+    },
+    {
+     "type": "contrast",
+     "title": {
+      "en": "Error 4: married with",
+      "bn": "ভুল ৪: married with"
+     },
+     "intro": {
+      "en": "সাথে (shathe) means “with”, so learners put with after married.",
+      "bn": "সাথে (shathe) মানে “with”, তাই শিক্ষার্থীরা married-এর পরে with বসিয়ে দেন।"
+     },
+     "weak": {
+      "label": {
+       "en": "Bangla-shaped",
+       "bn": "বাংলা-ছাঁচের"
+      },
+      "text": "My cousin is married with a doctor."
+     },
+     "strong": {
+      "label": {
+       "en": "Band 9 correction",
+       "bn": "Band 9 সংশোধন"
+      },
+      "text": "My cousin is married to a doctor.",
+      "mark": "married to"
+     },
+     "tip": {
+      "en": "You do something with another person, but you are married to them. Compare engaged to, related to.",
+      "bn": "কারও সাথে কিছু করলে with, কিন্তু বিয়ের বেলায় married to। একইভাবে engaged to, related to।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 4 in full",
+      "bn": "ভুল ৪ বিস্তারিত"
+     },
+     "chapter": "v1_errors_1",
+     "from": 12,
+     "to": 16
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Pick the natural English sentence.",
+      "bn": "স্বাভাবিক English বাক্যটি বেছে নিন।"
+     },
+     "options": [
+      {
+       "en": "She is engaged with my brother."
+      },
+      {
+       "en": "She is engaged to my brother."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Like married to, the fixed pattern is engaged to. Family and relationship words come up constantly in Speaking Part 1.",
+      "bn": "Married to-এর মতোই নির্দিষ্ট pattern হলো engaged to। পরিবার আর সম্পর্কের শব্দ Speaking Part 1-এ সারাক্ষণ আসে।"
+     },
+     "right": {
+      "en": "Exactly!",
+      "bn": "একদম ঠিক!"
+     }
+    },
+    {
+     "type": "practice",
+     "title": {
+      "en": "Practice: Grammar & Vocab Vault",
+      "bn": "Practice: Grammar & Vocab Vault"
+     },
+     "task": {
+      "en": "Open the Vault and review words and grammar points you are unsure of.",
+      "bn": "Vault খুলুন, আর যে শব্দ বা grammar নিয়ে নিশ্চিত নন সেগুলো আবার দেখে নিন।"
+     },
+     "items": [
+      {
+       "en": "Grammar & Vocab Vault",
+       "bn": "Grammar & Vocab Vault",
+       "minutes": 5,
+       "target": "vocabVault"
+      }
+     ],
+     "tip": {
+      "en": "Reach to is common in Speaking Part 2 stories. Say the corrected sentences aloud until they feel natural.",
+      "bn": "Reach to ভুলটা Speaking Part 2-এর গল্পে খুব দেখা যায়। সঠিক বাক্যগুলো জোরে বলুন, যতক্ষণ না স্বাভাবিক লাগে।"
+     }
+    }
+   ]
+  },
+  {
+   "id": "v1_l3",
+   "title": {
+    "en": "Than, To and At",
+    "bn": "Than, To আর At"
+   },
+   "minutes": 8,
+   "xp": 45,
+   "intro": {
+    "en": "থেকে means both “from” and “than” - and it pulls the wrong word into three common patterns.",
+    "bn": "থেকে মানে “from” আর “than” দুটোই - আর এটাই তিনটে সাধারণ pattern-এ ভুল শব্দ টেনে আনে।"
+   },
+   "greeting": {
+    "en": "One little Bangla word, three English traps.",
+    "bn": "একটা ছোট্ট বাংলা শব্দ, তিনটে English ফাঁদ।"
+   },
+   "learned": [
+    {
+     "en": "Senior to, junior to, superior to, prior to",
+     "bn": "Senior to, junior to, superior to, prior to"
+    },
+    {
+     "en": "Prefer A to B; would rather A than B",
+     "bn": "Prefer A to B; would rather A than B"
+    },
+    {
+     "en": "Good at, skilled at, poor at",
+     "bn": "Good at, skilled at, poor at"
+    }
+   ],
+   "steps": [
+    {
+     "type": "choice",
+     "title": {
+      "en": "Which one sounds natural?",
+      "bn": "কোনটা স্বাভাবিক শোনায়?"
+     },
+     "prompt": {
+      "en": "Pick the natural English sentence.",
+      "bn": "স্বাভাবিক English বাক্যটি বেছে নিন।"
+     },
+     "options": [
+      {
+       "en": "My manager is senior than me."
+      },
+      {
+       "en": "My manager is senior to me."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "A small group of Latin comparatives take to, not than: senior to, junior to, superior to, inferior to, prior to. থেকে (“from/than”) pulls in than.",
+      "bn": "Latin থেকে আসা কয়েকটা comparative-এর পরে than নয়, to বসে: senior to, junior to, superior to, inferior to, prior to। থেকে (“from/than”) শব্দটাই than টেনে আনে।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 5: senior than",
+      "bn": "ভুল ৫: senior than"
+     },
+     "chapter": "v1_errors_1",
+     "from": 16,
+     "to": 20
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Which of these takes than, not to?",
+      "bn": "এগুলোর মধ্যে কোনটার পরে to নয়, than বসে?"
+     },
+     "options": [
+      {
+       "en": "superior"
+      },
+      {
+       "en": "bigger"
+      },
+      {
+       "en": "junior"
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Only ordinary comparatives such as bigger and faster take than. Superior and junior belong to the Latin group that takes to.",
+      "bn": "শুধু bigger, faster-এর মতো সাধারণ comparative-এর পরে than বসে। Superior আর junior Latin দলের - এদের পরে to।"
+     }
+    },
+    {
+     "type": "contrast",
+     "title": {
+      "en": "Error 6: prefer … than",
+      "bn": "ভুল ৬: prefer … than"
+     },
+     "intro": {
+      "en": "Again থেকে (“than/from”) pulls in than.",
+      "bn": "আবারও থেকে (“than/from”) than টেনে আনে।"
+     },
+     "weak": {
+      "label": {
+       "en": "Bangla-shaped",
+       "bn": "বাংলা-ছাঁচের"
+      },
+      "text": "I prefer reading books than watching television."
+     },
+     "strong": {
+      "label": {
+       "en": "Band 9 correction",
+       "bn": "Band 9 সংশোধন"
+      },
+      "text": "I prefer reading books to watching television.",
+      "mark": "to watching"
+     },
+     "tip": {
+      "en": "Prefer A to B. When both options are verbs, keep the same form: prefer reading to watching.",
+      "bn": "Prefer A to B। দুটো option-ই verb হলে একই রূপে রাখুন: prefer reading to watching।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 6 in full",
+      "bn": "ভুল ৬ বিস্তারিত"
+     },
+     "chapter": "v1_errors_1",
+     "from": 20,
+     "to": 24
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Choose the correct sentence.",
+      "bn": "সঠিক বাক্যটি বেছে নিন।"
+     },
+     "options": [
+      {
+       "en": "I would rather read books than watch television."
+      },
+      {
+       "en": "I would rather read books to watch television."
+      }
+     ],
+     "answer": 0,
+     "explain": {
+      "en": "With would rather, than is correct: would rather read than watch. Prefer takes to; would rather takes than.",
+      "bn": "Would rather-এর সাথে than-ই সঠিক: would rather read than watch। Prefer-এর সাথে to; would rather-এর সাথে than।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 7: good in",
+      "bn": "ভুল ৭: good in"
+     },
+     "chapter": "v1_errors_1",
+     "from": 24,
+     "to": 28
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Pick the natural English sentence.",
+      "bn": "স্বাভাবিক English বাক্যটি বেছে নিন।"
+     },
+     "options": [
+      {
+       "en": "She is very good in mathematics and physics."
+      },
+      {
+       "en": "She is very good at mathematics and physics."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Skill adjectives take at: good at, skilled at, talented at, poor at. In is used for a field in a different structure, such as a degree in physics.",
+      "bn": "দক্ষতা বোঝানো adjective-এর পরে at: good at, skilled at, talented at, poor at। In বসে অন্য গঠনে, কোনো বিষয়ের ক্ষেত্রে - যেমন a degree in physics।"
+     },
+     "right": {
+      "en": "Exactly!",
+      "bn": "একদম ঠিক!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "v1_l4",
+   "title": {
+    "en": "Uncountable Nouns and “Agree”",
+    "bn": "Uncountable Noun আর “Agree”"
+   },
+   "minutes": 9,
+   "xp": 50,
+   "intro": {
+    "en": "Advice, information and agree: three high-frequency words that Bangla grammar quietly bends.",
+    "bn": "Advice, information আর agree: তিনটে খুব বেশি ব্যবহৃত শব্দ, যেগুলোকে বাংলা grammar চুপচাপ বাঁকিয়ে দেয়।"
+   },
+   "greeting": {
+    "en": "Last stop for errors 1–10. Let's finish strong.",
+    "bn": "ভুল ১–১০-এর শেষ ধাপ। চলুন ভালোভাবে শেষ করি।"
+   },
+   "learned": [
+    {
+     "en": "Advice is uncountable: a piece of advice",
+     "bn": "Advice uncountable: a piece of advice"
+    },
+    {
+     "en": "Eight words that never take -s",
+     "bn": "আটটি শব্দ, যেগুলোতে কখনো -s বসে না"
+    },
+    {
+     "en": "A great deal of / a large amount of / much",
+     "bn": "A great deal of / a large amount of / much"
+    },
+    {
+     "en": "I agree - never “I am agree”",
+     "bn": "I agree - কখনোই “I am agree” নয়"
+    }
+   ],
+   "steps": [
+    {
+     "type": "choice",
+     "title": {
+      "en": "Which one sounds natural?",
+      "bn": "কোনটা স্বাভাবিক শোনায়?"
+     },
+     "prompt": {
+      "en": "Pick the natural English sentence.",
+      "bn": "স্বাভাবিক English বাক্যটি বেছে নিন।"
+     },
+     "options": [
+      {
+       "en": "My teacher gave me a very useful advice."
+      },
+      {
+       "en": "My teacher gave me a very useful piece of advice."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Advice is uncountable: no a/an, no plural -s. To count it, use a partitive: a piece of advice. In Bangla উপদেশ is countable, so একটি (“a/one”) gets attached.",
+      "bn": "Advice uncountable: a/an বা plural -s বসে না। গুনতে চাইলে বলুন a piece of advice। বাংলায় উপদেশ গোনা যায়, তাই একটি (“a/one”) জুড়ে যায়।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 8: a useful advice",
+      "bn": "ভুল ৮: a useful advice"
+     },
+     "chapter": "v1_errors_1",
+     "from": 28,
+     "to": 32
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Pick the natural English sentence.",
+      "bn": "স্বাভাবিক English বাক্যটি বেছে নিন।"
+     },
+     "options": [
+      {
+       "en": "The library provides many informations and equipments."
+      },
+      {
+       "en": "The library provides a great deal of information and equipment."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Information and equipment are uncountable and never take -s. Quantify them with a great deal of, a large amount of, or much.",
+      "bn": "Information আর equipment uncountable - কখনো -s বসে না। পরিমাণ বোঝাতে a great deal of, a large amount of, বা much ব্যবহার করুন।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 9: informations, equipments",
+      "bn": "ভুল ৯: informations, equipments"
+     },
+     "chapter": "v1_errors_1",
+     "from": 32,
+     "to": 36
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Which word never takes -s in English?",
+      "bn": "কোন শব্দে English-এ কখনো -s বসে না?"
+     },
+     "options": [
+      {
+       "en": "station"
+      },
+      {
+       "en": "furniture"
+      },
+      {
+       "en": "doctor"
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "Furniture is one of the eight uncountables: information, equipment, furniture, research, knowledge, accommodation, traffic, progress.",
+      "bn": "Furniture সেই আটটা uncountable শব্দের একটা: information, equipment, furniture, research, knowledge, accommodation, traffic, progress।"
+     }
+    },
+    {
+     "type": "contrast",
+     "title": {
+      "en": "Error 10: am agree",
+      "bn": "ভুল ১০: am agree"
+     },
+     "intro": {
+      "en": "একমত feels like a state, like an adjective, so learners add am.",
+      "bn": "একমত একটা অবস্থা বোঝায়, adjective-এর মতো লাগে - তাই শিক্ষার্থীরা am বসিয়ে দেন।"
+     },
+     "weak": {
+      "label": {
+       "en": "Bangla-shaped",
+       "bn": "বাংলা-ছাঁচের"
+      },
+      "text": "I am completely agree with this statement."
+     },
+     "strong": {
+      "label": {
+       "en": "Band 9 correction",
+       "bn": "Band 9 সংশোধন"
+      },
+      "text": "I completely agree with this statement.",
+      "mark": "completely agree"
+     },
+     "tip": {
+      "en": "Agree is a full verb, not an adjective, so it never takes am/is/are. Use the verb (I agree) or the noun phrase (I am in agreement).",
+      "bn": "Agree একটা পূর্ণ verb, adjective নয় - তাই এর আগে am/is/are বসে না। Verb (I agree) অথবা noun phrase (I am in agreement) ব্যবহার করুন।"
+     }
+    },
+    {
+     "type": "read",
+     "title": {
+      "en": "Error 10 in full",
+      "bn": "ভুল ১০ বিস্তারিত"
+     },
+     "chapter": "v1_errors_1",
+     "from": 36,
+     "to": 40
+    },
+    {
+     "type": "choice",
+     "title": {
+      "en": "Quick check",
+      "bn": "ঝটপট যাচাই"
+     },
+     "prompt": {
+      "en": "Which essay opening is correct?",
+      "bn": "Essay-র কোন শুরুটা সঠিক?"
+     },
+     "options": [
+      {
+       "en": "I am agree with this statement."
+      },
+      {
+       "en": "I am in complete agreement with this statement."
+      },
+      {
+       "en": "I am completely agree with this statement."
+      }
+     ],
+     "answer": 1,
+     "explain": {
+      "en": "“I am in complete agreement” uses the noun, so am is correct. Opening with “I am agree” signals a Band 5.5 grammar profile before the examiner reads your argument.",
+      "bn": "“I am in complete agreement”-এ noun আছে, তাই am ঠিক। “I am agree” দিয়ে শুরু করলে examiner আপনার যুক্তি পড়ার আগেই Band 5.5 মানের grammar-এর সংকেত পান।"
+     },
+     "right": {
+      "en": "Exactly!",
+      "bn": "একদম ঠিক!"
+     }
+    },
+    {
+     "type": "practice",
+     "title": {
+      "en": "Practice: Vocabulary Quiz",
+      "bn": "Practice: Vocabulary Quiz"
+     },
+     "task": {
+      "en": "Take a round of the Vocabulary Quiz.",
+      "bn": "Vocabulary Quiz-এর একটা round খেলুন।"
+     },
+     "items": [
+      {
+       "en": "Vocabulary Quiz",
+       "bn": "Vocabulary Quiz",
+       "minutes": 5,
+       "target": "vocabQuiz"
+      }
+     ],
+     "tip": {
+      "en": "Go back over errors 1–10 and note which ones you produce yourself - those are your first fixes.",
+      "bn": "ভুল ১–১০ আবার দেখুন, আর লিখে রাখুন কোনগুলো আপনি নিজে করেন - ওগুলোই আপনার প্রথম fix।"
+     }
+    }
+   ]
+  }
+ ]
+}

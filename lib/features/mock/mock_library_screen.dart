@@ -7,6 +7,7 @@ import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/mascot.dart';
 import '../shell/main_shell.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
@@ -72,33 +73,39 @@ class MockLibraryScreen extends StatelessWidget {
               spacing: 14,
               children: [
                 Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  spacing: 10,
+                  spacing: 8,
                   children: [
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        spacing: 2,
+                        spacing: 6,
                         children: [
                           Text(
-                            'Next scheduled',
-                            style: TextStyle(fontSize: 12, color: t.heroMuted),
+                            'Next scheduled'.toUpperCase(),
+                            style: TextStyle(
+                              fontSize: 11,
+                              letterSpacing: 1.1,
+                              fontWeight: FontWeight.w600,
+                              color: t.peach,
+                            ),
                           ),
                           Text(
                             '${next['title'] ?? 'Mock test'}',
-                            maxLines: 1,
+                            maxLines: 2,
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(
-                              fontSize: 26,
-                              fontWeight: FontWeight.w400,
-                              letterSpacing: -0.5,
+                              fontSize: 24,
+                              fontWeight: FontWeight.w600,
+                              height: 1.15,
+                              letterSpacing: -0.4,
                               color: t.heroText,
                             ),
                           ),
+                          MockInkBadge(inLabel),
                         ],
                       ),
                     ),
-                    MockInkBadge(inLabel),
+                    const Nexi(NexiPose.grad, height: 110),
                   ],
                 ),
                 Row(
@@ -119,8 +126,6 @@ class MockLibraryScreen extends StatelessWidget {
                   height: 50,
                   radius: 999,
                   fontSize: 15,
-                  bg: kMockInk,
-                  fg: kMockCream,
                   onTap: () => context.push(Routes.mockSystemCheck),
                 ),
               ],
@@ -130,8 +135,8 @@ class MockLibraryScreen extends StatelessWidget {
           EmptyState(
             icon: AppIcons.timer,
             title: 'No mock tests yet',
-            message: 'Take a full timed mock — Listening, Reading, Writing and '
-                'Speaking — to get your overall band and a study plan.',
+            message: 'Take a full timed mock - Listening, Reading, Writing and '
+                'Speaking - to get your overall band and a study plan.',
             actionLabel: 'Start your first mock',
             onAction: () => context.push(Routes.mockSystemCheck),
           )

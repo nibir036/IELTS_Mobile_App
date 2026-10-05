@@ -13,7 +13,7 @@
 //   other exception are kept.
 // • Each case is its own testWidgets, so a Timer left running after the
 //   screen is disposed fails THAT case ("A Timer is still pending even after
-//   the widget tree was disposed") — that is a real bug in the screen.
+//   the widget tree was disposed") - that is a real bug in the screen.
 // • The last test fails with the full list: screen · theme · size · first
 //   error line(s).
 
@@ -94,6 +94,7 @@ const Map<String, String> kExtraRoutes = <String, String>{
   Routes.speakingTests: 'X-speakingTests',
   Routes.writingQuestions: 'X-writingQuestions',
   Routes.speakingQuestions: 'X-speakingQuestions',
+  Routes.course: 'X-course',
 };
 
 /// Screens that show user data: rendered again for a brand-new account.
@@ -120,6 +121,10 @@ const Map<String, String> kBlankRoutes = <String, String>{
   Routes.vocabQuizScore: 'H6',
   Routes.diagnosticResult: 'X-diagnosticResult',
   Routes.plans: 'X-plans',
+  Routes.studyPlan: 'X-studyPlan',
+  Routes.studyPlanSetup: 'X-studyPlanSetup',
+  Routes.studyPlanPreview: 'X-studyPlanPreview',
+  Routes.studyPlanQuickCheck: 'X-studyPlanQuickCheck',
 };
 
 /// Public screens, rendered signed out.
@@ -158,6 +163,18 @@ final List<(String, String, Map<String, dynamic>)> kArgRoutes = <(String, String
   (Routes.cueCard, 'D3', <String, dynamic>{'cardId': 'st_02_cc'}),
   (Routes.speakingPart13, 'D2', <String, dynamic>{'part': 1, 'topicId': 'st_02_p1'}),
   (Routes.home, 'shell', <String, dynamic>{'tab': 3}),
+  // Course lessons: the hand-written pilot and an auto-built one.
+  (Routes.lesson, 'X-lesson', <String, dynamic>{'lesson': 'w1_l1'}),
+  (Routes.lesson, 'X-lesson', <String, dynamic>{'lesson': 't1_rules_1'}),
+  (Routes.lesson, 'X-lesson', <String, dynamic>{'lesson': 's1_l1'}),
+  (Routes.lesson, 'X-lesson', <String, dynamic>{'lesson': 'g1_l1'}),
+  (Routes.lesson, 'X-lesson', <String, dynamic>{'lesson': 'v1_l2'}),
+  (Routes.notificationSettings, 'X-notif-settings', <String, dynamic>{}),
+  (Routes.sentenceBuilder, 'C7-set', <String, dynamic>{'set': 'relative_set01'}),
+  (Routes.sentenceBuilder, 'C7-set', <String, dynamic>{'set': 'task1_set13'}),
+  (Routes.speakingCourse, 'X-course', <String, dynamic>{}),
+  (Routes.vocabCourse, 'X-course', <String, dynamic>{}),
+  (Routes.course, 'X-course', <String, dynamic>{'module': 'writing'}),
   // Reading question bank: every exhibit / option layout.
   (Routes.readingType, 'X-readingType', <String, dynamic>{'type': 'diagram_label'}),
   (Routes.readingTypeLesson, 'X-readingTypeLesson', <String, dynamic>{'type': 'table_completion'}),

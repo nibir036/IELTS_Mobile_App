@@ -15,7 +15,7 @@ import 'demo.dart';
 // Local "backend" for the demo build.
 //
 // • CONTENT (tests, passages, questions, word lists, channels…) is global and
-//   comes from `Demo.section(...)` — the same for every student.
+//   comes from `Demo.section(...)` - the same for every student.
 // • USER DATA (account, onboarding answers, attempts/scores, essays,
 //   recordings, saved words, schedule, notifications, chat messages, drafts…)
 //   lives here, per account, persisted on the device with SharedPreferences.
@@ -190,7 +190,7 @@ class Attempt {
   final int? score;
   final int? total;
 
-  /// Time spent — counts toward study time.
+  /// Time spent - counts toward study time.
   final int durationSec;
   final DateTime createdAt;
 
@@ -942,6 +942,7 @@ class Store extends ChangeNotifier {
         'attemptId': a.id,
       });
     }
+    tickPlanTasks(a.refId, commitNow: false);
     commit();
     return a;
   }
@@ -1044,10 +1045,18 @@ class Store extends ChangeNotifier {
     return m;
   }
 
-  /// Consecutive days (ending today or yesterday) with at least one attempt.
+  /// Consecutive days (ending today or yesterday) with at least one attempt
+  /// or finished lesson.
   int get streakDays {
-    if (data.attempts.isEmpty) return 0;
     final days = data.attempts.map((a) => DateUtils.dateOnly(a.createdAt)).toSet();
+    final lessons = data.kv['lessons.done'];
+    if (lessons is Map) {
+      for (final v in lessons.values) {
+        final at = v is Map && v['at'] is String ? DateTime.tryParse(v['at'] as String) : null;
+        if (at != null) days.add(DateUtils.dateOnly(at.toLocal()));
+      }
+    }
+    if (days.isEmpty) return 0;
     var day = DateUtils.dateOnly(DateTime.now());
     if (!days.contains(day)) day = day.subtract(const Duration(days: 1));
     var n = 0;
@@ -1125,6 +1134,39 @@ class Store extends ChangeNotifier {
   void removeTask(String id) {
     data.tasks.removeWhere((t) => t['id'] == id);
     commit();
+  }
+
+  /// Study-plan tasks (kind 'plan' or 'checkpoint').
+  static bool isPlanTask(Map<String, dynamic> t) => t['kind'] == 'plan' || t['kind'] == 'checkpoint';
+
+  /// Open plan tasks on [day], in plan order.
+  List<Map<String, dynamic>> planTasksOn(DateTime day) {
+    final k = dateKey(day);
+    return data.tasks.where((t) => isPlanTask(t) && t['date'] == k).toList();
+  }
+
+  /// True when the student has plan tasks from today on (works offline).
+  bool get hasPlan {
+    final today = dateKey(DateTime.now());
+    return data.tasks.any((t) => isPlanTask(t) && '${t['date']}'.compareTo(today) >= 0);
+  }
+
+  /// Ticks off open plan tasks that [ref] (an attempt refId or a lesson id)
+  /// completes. The daily pronunciation task repeats, so only today's counts.
+  int tickPlanTasks(String ref, {bool commitNow = true}) {
+    if (ref.isEmpty) return 0;
+    final today = dateKey(DateTime.now());
+    var n = 0;
+    for (final t in data.tasks) {
+      if (t['done'] == true || t['ref'] != ref || !isPlanTask(t)) continue;
+      if (t['itemId'] == 'pron:daily' && t['date'] != today) continue;
+      t['done'] = true;
+      n++;
+      // A repeating task: one tick per attempt.
+      if (t['itemId'] == 'pron:daily') break;
+    }
+    if (n > 0 && commitNow) commit();
+    return n;
   }
 
   // ── key/value user state ─────────────────────────────────────────────────
@@ -1244,7 +1286,7 @@ String resultRouteFor(Attempt a) => switch (a.skill) {
     };
 
 // ═════════════════════════════════════════════════════════════════════════════
-// Scoring (demo AI) — deterministic so the same input gives the same band.
+// Scoring (demo AI) - deterministic so the same input gives the same band.
 // ═════════════════════════════════════════════════════════════════════════════
 
 class Scoring {
@@ -1313,10 +1355,10 @@ class Scoring {
     final band = n < 20 ? 3.0 : Store.roundBand((ta + cc + lr + gra) / 4);
 
     final feedback = <String>[
-      if (n < minWords) 'Write at least $minWords words — you wrote $n.',
+      if (n < minWords) 'Write at least $minWords words - you wrote $n.',
       if (paragraphs < (task == 1 ? 3 : 4)) 'Organise your answer into clear paragraphs (intro, body, conclusion).',
       if (linkers < 3) 'Use more linking words (however, moreover, as a result) to improve coherence.',
-      if (ttr < 0.5) 'Vary your vocabulary — avoid repeating the same words.',
+      if (ttr < 0.5) 'Vary your vocabulary - avoid repeating the same words.',
       if (avgSentence > 28) 'Some sentences are very long; split them for accuracy.',
       if (avgSentence < 10 && n > 40) 'Combine short sentences with complex structures.',
     ];

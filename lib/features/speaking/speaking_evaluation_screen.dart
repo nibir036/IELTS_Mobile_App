@@ -19,7 +19,7 @@ class SpeakingEvaluationScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final t = context.tk;
     final heroMuted = t.heroMuted;
-    final heroBody = t.isNight ? const Color(0xFF3A3629) : const Color(0xFF3A353D);
+    final heroBody = t.heroText.withValues(alpha: 0.88);
     final a = resolveSpeakingAnswer(context);
     if (a == null) {
       return AppScreen(
@@ -162,14 +162,6 @@ class SpeakingEvaluationScreen extends StatelessWidget {
         HeroCard(
           radius: 30,
           padding: const EdgeInsets.all(20),
-          gradient: t.isNight
-              ? null
-              : const LinearGradient(
-                  begin: Alignment(-0.5, -0.87),
-                  end: Alignment(0.5, 0.87),
-                  colors: [Color(0xFFD3D5FA), Color(0xFFEEEFFD)],
-                  stops: [0, 0.75],
-                ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             spacing: 14,
@@ -208,12 +200,12 @@ class SpeakingEvaluationScreen extends StatelessWidget {
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                         decoration: BoxDecoration(
-                          color: t.heroText,
+                          color: t.peach,
                           borderRadius: BorderRadius.circular(999),
                         ),
                         child: Text(
                           delta,
-                          style: const TextStyle(fontSize: 12, color: Colors.white),
+                          style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: kOnPeach),
                         ),
                       ),
                       Text(
@@ -263,7 +255,7 @@ class SpeakingEvaluationScreen extends StatelessWidget {
                     ProgressBar(
                       value: c.d('progress'),
                       height: 8,
-                      track: t.isNight ? t.surfaceAlt2 : const Color(0xFFF1E6EC),
+                      track: t.isNight ? t.surfaceAlt2 : const Color(0xFFF6E8E4),
                       fill: c.b('weak') ? t.alert : t.fill,
                     ),
                     if (c.s('note').isNotEmpty)
@@ -300,7 +292,7 @@ class SpeakingEvaluationScreen extends StatelessWidget {
                       height: 22,
                       alignment: Alignment.center,
                       decoration: const BoxDecoration(
-                        color: Color(0xFFF9D6E2),
+                        color: Color(0xFFFFE2D8),
                         shape: BoxShape.circle,
                       ),
                       child: Text(
@@ -590,7 +582,7 @@ class _Header extends StatelessWidget {
           onTap: () {
             final text = shareText;
             if (text == null) {
-              context.toast('Record an answer first — then share your report');
+              context.toast('Record an answer first - then share your report');
               return;
             }
             ShareService.shareText(context, text, subject: shareSubject);

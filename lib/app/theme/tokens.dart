@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-/// Design tokens ported from the "IELTS Platform — Day & Night" canvas.
+/// Design tokens: frosted peach (Nexi's fur) and frosted blue (his hoodie).
 ///
 /// Every screen reads colours through `context.tk` so the same widget tree
-/// renders the Day (pink / lavender, black buttons) and Night (black, cream
-/// buttons) looks. Never hard-code a canvas hex in a screen when a token
+/// renders the Day (warm white, glass cards, black buttons) and Night (deep
+/// navy, glass cards, peach buttons) looks. Never hard-code a canvas hex in a screen when a token
 /// below covers it.
 @immutable
 class AppTokens extends ThemeExtension<AppTokens> {
@@ -46,199 +46,255 @@ class AppTokens extends ThemeExtension<AppTokens> {
     required this.warning,
     required this.stripeA,
     required this.stripeB,
+    required this.peach,
+    required this.blue,
+    required this.blobA,
+    required this.blobB,
+    required this.glassBorder,
+    required this.glassFill,
+    required this.sheet,
+    required this.heroDark,
+    required this.onHeroDark,
+    required this.onHeroDarkMuted,
   });
 
   final bool isNight;
 
-  /// Page background. Day #F5EEF2 · Night #0A0A0A
+  /// Page background
   final Color bg;
 
-  /// Cards. Day #FFFFFF · Night #151515
+  /// Cards
   final Color surface;
 
   /// Icon circles, chips, soft buttons and inputs inside cards.
-  /// Day #F5EEF2 · Night #262626
+  ///
   final Color surfaceAlt;
 
   /// Secondary soft fill (small buttons / letter badges inside cards).
-  /// Day #F5EEF2 · Night #1F1F1F
+  ///
   final Color surfaceAlt2;
 
-  /// Header icon buttons, bottom nav, raised pills. Day #FFFFFF · Night #1A1A1A
+  /// Header icon buttons, bottom nav, raised pills
   final Color raised;
 
-  /// Outline of inputs / nav / outlined cards. Day #EADFE6 · Night #2B2B2B
+  /// Outline of inputs / nav / outlined cards
   final Color border;
 
-  /// Hairlines between list rows inside cards. Day #EADFE6 · Night #262626
+  /// Hairlines between list rows inside cards
   final Color divider;
 
-  /// Main text. Day #151515 · Night #FFFFFF
+  /// Main text
   final Color text;
 
-  /// Secondary text. Day #625C66 · Night #9A9A9A
+  /// Secondary text
   final Color textMuted;
 
-  /// Body copy one step softer than [text]. Day #3A353D · Night #D8D8D8
+  /// Body copy one step softer than [text]
   final Color textSoft;
 
-  /// Disabled / placeholder. Day #B8AEB5 · Night #6A6A6A
+  /// Disabled / placeholder
   final Color textFaint;
 
-  /// Primary buttons, active tab, selected chip. Day #151515 · Night #F6ECC8
+  /// Primary buttons, active tab, selected chip
   final Color primary;
 
-  /// Text / icons on [primary]. Day #FFFFFF · Night #151515
+  /// Text / icons on [primary]
   final Color onPrimary;
 
-  /// Icon colour inside [surfaceAlt] circles. Day #151515 · Night #F6ECC8
+  /// Icon colour inside [surfaceAlt] circles
   final Color iconAccent;
 
-  /// Notification dots, badges, live/recording marks. Day #E0527A · Night #FF7A5C
+  /// Notification dots, badges, live/recording marks
   final Color alert;
   final Color onAlert;
 
   /// Progress track / fill on normal cards.
-  /// Day #F5EEF2 / #151515 · Night #262626 / #F6ECC8
+  ///
   final Color track;
   final Color fill;
 
-  /// Hero card: Day gradient #F9D6E2 → #DCDDFA · Night solid cream #F6ECC8.
+  /// Hero card: dark navy with a peach and blue glow (the course style).
   final Gradient heroGradient;
 
-  /// Text on hero cards (always dark). #151515
+  /// Text on hero cards (always light).
   final Color heroText;
 
-  /// Muted text on hero. Day #625C66 · Night #5A5446
+  /// Muted text on hero
   final Color heroMuted;
 
-  /// Divider on hero. Day rgba(21,21,21,.14) · Night #E0D3A6
+  /// Divider on hero
   final Color heroDivider;
 
-  /// Progress on hero cards: black fill on a semi-transparent track.
+  /// Progress on hero cards: peach fill on a translucent white track.
   final Color heroTrack;
   final Color heroFill;
 
   /// Chips / inner tiles sitting on a hero card.
-  /// Day rgba(255,255,255,.6) · Night #FFF8E2
+  ///
   final Color heroChip;
 
   /// Accent tints used for tags, highlighted rows, selected answers.
-  /// Day pink #F9D6E2 · Night #262626 (with cream text)
+  ///
   final Color accentSoft;
 
-  /// Second tint. Day lavender #DCDDFA · Night #1F1F1F
+  /// Second tint
   final Color accentSoft2;
 
-  /// Strong accent. Day #F4B8CB · Night #F6ECC8
+  /// Strong accent
   final Color accentStrong;
 
-  /// Errors / wrong answers. Day #B63A26 · Night #FF7A5C
+  /// Errors / wrong answers
   final Color danger;
 
-  /// Error background. Day #FCE0DA · Night #2A1512
+  /// Error background
   final Color dangerSoft;
 
-  /// Error text on [dangerSoft]. Day #B63A26 · Night #FF9A80
+  /// Error text on [dangerSoft]
   final Color dangerText;
 
-  /// Correct answers / good. Day #3B3C6B · Night #F6ECC8
+  /// Correct answers / good
   final Color success;
 
-  /// Correct background. Day #EEEFFD · Night #262626
+  /// Correct background
   final Color successSoft;
 
-  /// Warnings / timers running low. Day #B23A5E · Night #F2A14A
+  /// Warnings / timers running low
   final Color warning;
 
-  /// Diagonal stripe pattern (highlighted bar). Day #151515/#EADFE6 · Night #F6ECC8/#3A372C
+  /// Diagonal stripe pattern (highlighted bar)
   final Color stripeA;
   final Color stripeB;
 
+  /// Brand peach (frosted orange / baby pink) and brand blue - Nexi's fur
+  /// and hoodie. Use for accents, progress and glass tints.
+  final Color peach;
+  final Color blue;
+
+  /// Soft colour blobs painted behind every page so the frosted cards
+  /// have something to blur over.
+  final Color blobA;
+  final Color blobB;
+
+  /// Hairline highlight around glass cards, and their frosted fill.
+  final Color glassBorder;
+  final Color glassFill;
+
+  /// Opaque surface for sheets, dialogs and menus (glass would show the
+  /// page through them).
+  final Color sheet;
+
+  /// Dark frosted "hero" screens (lesson cover, key concepts, AI feedback,
+  /// completion) in both Day and Night, and the text on them.
+  final Color heroDark;
+  final Color onHeroDark;
+  final Color onHeroDarkMuted;
+
   static const AppTokens day = AppTokens(
     isNight: false,
-    bg: Color(0xFFF5EEF2),
-    surface: Color(0xFFFFFFFF),
-    surfaceAlt: Color(0xFFF5EEF2),
-    surfaceAlt2: Color(0xFFF5EEF2),
-    raised: Color(0xFFFFFFFF),
-    border: Color(0xFFEADFE6),
-    divider: Color(0xFFEADFE6),
+    bg: Color(0xFFFBF5F3),
+    surface: Color(0xF2FFFFFF),
+    surfaceAlt: Color(0xFFFFF1EC),
+    surfaceAlt2: Color(0xFFEEF3FF),
+    raised: Color(0xD9FFFFFF),
+    border: Color(0xFFF0E2DD),
+    divider: Color(0xFFF2E6E2),
     text: Color(0xFF151515),
-    textMuted: Color(0xFF625C66),
+    textMuted: Color(0xFF6B6270),
     textSoft: Color(0xFF3A353D),
-    textFaint: Color(0xFFB8AEB5),
+    textFaint: Color(0xFFBBB0B4),
     primary: Color(0xFF151515),
     onPrimary: Color(0xFFFFFFFF),
     iconAccent: Color(0xFF151515),
-    alert: Color(0xFFE0527A),
+    alert: Color(0xFFFF6B57),
     onAlert: Color(0xFFFFFFFF),
-    track: Color(0xFFF5EEF2),
-    fill: Color(0xFF151515),
+    track: Color(0xFFF6E8E4),
+    fill: Color(0xFFFF7E67),
     heroGradient: LinearGradient(
-      begin: Alignment(-0.64, -0.77),
-      end: Alignment(0.64, 0.77),
-      colors: [Color(0xFFF9D6E2), Color(0xFFDCDDFA)],
+      begin: Alignment.topLeft,
+      end: Alignment.bottomRight,
+      colors: [Color(0xFF1C2036), Color(0xFF131624)],
     ),
-    heroText: Color(0xFF151515),
-    heroMuted: Color(0xFF625C66),
-    heroDivider: Color(0x24151515),
-    heroTrack: Color(0x24151515),
-    heroFill: Color(0xFF151515),
-    heroChip: Color(0x99FFFFFF),
-    accentSoft: Color(0xFFF9D6E2),
-    accentSoft2: Color(0xFFDCDDFA),
-    accentStrong: Color(0xFFF4B8CB),
-    danger: Color(0xFFB63A26),
-    dangerSoft: Color(0xFFFCE0DA),
-    dangerText: Color(0xFFB63A26),
-    success: Color(0xFF3B3C6B),
-    successSoft: Color(0xFFEEEFFD),
-    warning: Color(0xFFB23A5E),
+    heroText: Color(0xFFFFFFFF),
+    heroMuted: Color(0xFFB3B7C9),
+    heroDivider: Color(0x24FFFFFF),
+    heroTrack: Color(0x26FFFFFF),
+    heroFill: Color(0xFFFF9C82),
+    heroChip: Color(0x1AFFFFFF),
+    accentSoft: Color(0xFFFFE2D8),
+    accentSoft2: Color(0xFFDCE6FF),
+    accentStrong: Color(0xFFFFB8A3),
+    danger: Color(0xFFC2412D),
+    dangerSoft: Color(0xFFFFE1DB),
+    dangerText: Color(0xFFC2412D),
+    success: Color(0xFF2F4FC2),
+    successSoft: Color(0xFFE6EDFF),
+    warning: Color(0xFFD9573B),
     stripeA: Color(0xFF151515),
-    stripeB: Color(0xFFEADFE6),
+    stripeB: Color(0xFFF0E2DD),
+    peach: Color(0xFFFF9C82),
+    blue: Color(0xFF5B7CF0),
+    blobA: Color(0xFFFFCDBD),
+    blobB: Color(0xFFC6D6FF),
+    glassBorder: Color(0xCCFFFFFF),
+    glassFill: Color(0xB8FFFFFF),
+    sheet: Color(0xFFFFFBFA),
+    heroDark: Color(0xFF151827),
+    onHeroDark: Color(0xFFFFFFFF),
+    onHeroDarkMuted: Color(0xFFB3B7C9),
   );
 
   static const AppTokens night = AppTokens(
     isNight: true,
-    bg: Color(0xFF0A0A0A),
-    surface: Color(0xFF151515),
-    surfaceAlt: Color(0xFF262626),
-    surfaceAlt2: Color(0xFF1F1F1F),
-    raised: Color(0xFF1A1A1A),
-    border: Color(0xFF2B2B2B),
-    divider: Color(0xFF262626),
+    bg: Color(0xFF0D0F1A),
+    surface: Color(0xFF1A1D2C),
+    surfaceAlt: Color(0xFF22263A),
+    surfaceAlt2: Color(0xFF1A1E30),
+    raised: Color(0xE61A1D2C),
+    border: Color(0xFF2A2E44),
+    divider: Color(0xFF23273A),
     text: Color(0xFFFFFFFF),
-    textMuted: Color(0xFF9A9A9A),
-    textSoft: Color(0xFFD8D8D8),
-    textFaint: Color(0xFF6A6A6A),
-    primary: Color(0xFFF6ECC8),
+    textMuted: Color(0xFF9AA0B4),
+    textSoft: Color(0xFFD9DBE6),
+    textFaint: Color(0xFF5F6478),
+    primary: Color(0xFFFFB4A0),
     onPrimary: Color(0xFF151515),
-    iconAccent: Color(0xFFF6ECC8),
-    alert: Color(0xFFFF7A5C),
+    iconAccent: Color(0xFFFFB4A0),
+    alert: Color(0xFFFF8A6B),
     onAlert: Color(0xFF151515),
-    track: Color(0xFF262626),
-    fill: Color(0xFFF6ECC8),
+    track: Color(0xFF23273A),
+    fill: Color(0xFFFF9C85),
     heroGradient: LinearGradient(
-      colors: [Color(0xFFF6ECC8), Color(0xFFF6ECC8)],
+      begin: Alignment.topLeft,
+      end: Alignment.bottomRight,
+      colors: [Color(0xFF1C2036), Color(0xFF131624)],
     ),
-    heroText: Color(0xFF151515),
-    heroMuted: Color(0xFF5A5446),
-    heroDivider: Color(0xFFE0D3A6),
-    heroTrack: Color(0x4D5A5446),
-    heroFill: Color(0xFF151515),
-    heroChip: Color(0xFFFFF8E2),
-    accentSoft: Color(0xFF262626),
-    accentSoft2: Color(0xFF1F1F1F),
-    accentStrong: Color(0xFFF6ECC8),
-    danger: Color(0xFFFF7A5C),
-    dangerSoft: Color(0xFF2A1512),
-    dangerText: Color(0xFFFF9A80),
-    success: Color(0xFFF6ECC8),
-    successSoft: Color(0xFF262626),
+    heroText: Color(0xFFFFFFFF),
+    heroMuted: Color(0xFFB3B7C9),
+    heroDivider: Color(0x24FFFFFF),
+    heroTrack: Color(0x26FFFFFF),
+    heroFill: Color(0xFFFF9C82),
+    heroChip: Color(0x1AFFFFFF),
+    accentSoft: Color(0xFF2E2433),
+    accentSoft2: Color(0xFF1E2640),
+    accentStrong: Color(0xFFFFB4A0),
+    danger: Color(0xFFFF8A6B),
+    dangerSoft: Color(0xFF33191A),
+    dangerText: Color(0xFFFFA08A),
+    success: Color(0xFF9DB8FF),
+    successSoft: Color(0xFF1E2640),
     warning: Color(0xFFF2A14A),
-    stripeA: Color(0xFFF6ECC8),
-    stripeB: Color(0xFF3A372C),
+    stripeA: Color(0xFFFFB4A0),
+    stripeB: Color(0xFF2A2E44),
+    peach: Color(0xFFFFB4A0),
+    blue: Color(0xFF8DA6FF),
+    blobA: Color(0xFF5A2E2E),
+    blobB: Color(0xFF1E2E66),
+    glassBorder: Color(0x24FFFFFF),
+    glassFill: Color(0x14FFFFFF),
+    sheet: Color(0xFF171A28),
+    heroDark: Color(0xFF181B2B),
+    onHeroDark: Color(0xFFFFFFFF),
+    onHeroDarkMuted: Color(0xFFA9AEC2),
   );
 
   @override

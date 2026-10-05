@@ -13,7 +13,7 @@ import 'mock_exit_warning_screen.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
 
-/// G7 · Mock — Speaking Section (Parts 1–3, recorded, no pause).
+/// G7 · Mock - Speaking Section (Parts 1–3, recorded, no pause).
 class MockSpeakingScreen extends StatefulWidget {
   const MockSpeakingScreen({super.key});
 
@@ -192,7 +192,7 @@ class _MockSpeakingScreenState extends State<MockSpeakingScreen> {
               ),
               Text(
                 'We couldn’t start the microphone. Allow microphone access for '
-                'IELTS AI in your device Settings, then try again — or continue '
+                'IELTS AI in your device Settings, then try again - or continue '
                 'without recording and your answers will be timed only.',
                 style: TextStyle(fontSize: 14, height: 1.45, color: t.textMuted),
               ),
@@ -382,7 +382,7 @@ class _MockSpeakingScreenState extends State<MockSpeakingScreen> {
 
     bool barOn(int i) => live ? i >= offset : i < played;
 
-    String prepValue = '—';
+    String prepValue = '-';
     if (prep > 0) {
       prepValue = _phase == 0 ? mockShortClock(prep - _elapsed) : mockShortClock(prep);
     }
@@ -390,7 +390,7 @@ class _MockSpeakingScreenState extends State<MockSpeakingScreen> {
     if (_phase == 1) {
       speakValue = '${mockShortClock(_elapsed)} / ${mockShortClock(speak)}';
     }
-    String followValue = '—';
+    String followValue = '-';
     if (_phase == 2) {
       followValue = '${mockShortClock(_elapsed)} / ${mockShortClock(follow)}';
     }
@@ -401,6 +401,7 @@ class _MockSpeakingScreenState extends State<MockSpeakingScreen> {
         if (!didPop) _exit();
       },
       child: AppScreen(
+      scrollBack: false,
         padding: const EdgeInsets.fromLTRB(24, 12, 24, 16),
         footerPadding: const EdgeInsets.fromLTRB(24, 8, 24, 16),
         gap: 16,

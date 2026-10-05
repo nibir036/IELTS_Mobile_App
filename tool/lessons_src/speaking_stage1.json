@@ -1,0 +1,477 @@
+{
+  "id": "s1",
+  "title": {"en": "Foundations", "bn": "ভিত্তি (Foundations)"},
+  "subtitle": {"en": "How the Speaking test works and how it is marked", "bn": "Speaking test কীভাবে হয়, আর কীভাবে marking করা হয়"},
+  "lessons": [
+    {
+      "id": "s1_l1",
+      "title": {"en": "How the Speaking Test Works", "bn": "Speaking Test কীভাবে হয়"},
+      "minutes": 8,
+      "xp": 40,
+      "intro": {"en": "Know exactly what happens in the 11–14 minutes: the three parts, their timing and what the examiner tests in each.", "bn": "১১–১৪ মিনিটে ঠিক কী হয় জেনে নিন: তিনটি part, প্রতিটার সময়, আর প্রতিটায় examiner কী পরীক্ষা করেন।"},
+      "greeting": {"en": "Let's make the Speaking test predictable.", "bn": "চলুন Speaking test-কে predictable করে তুলি।"},
+      "learned": [
+        {"en": "The format: face-to-face, recorded, 11–14 minutes", "bn": "Format: মুখোমুখি, record করা, ১১–১৪ মিনিট"},
+        {"en": "What happens in Parts 1, 2 and 3", "bn": "Part 1, 2 আর 3-এ কী হয়"},
+        {"en": "The one minute of notes in Part 2", "bn": "Part 2-এর ১ মিনিটের note"},
+        {"en": "What the examiner tests in each part", "bn": "প্রতিটা part-এ examiner কী পরীক্ষা করেন"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Academic or General Training?", "bn": "Academic নাকি General Training?"},
+          "prompt": {"en": "Is the Speaking test different for Academic and General Training candidates?", "bn": "Academic আর General Training পরীক্ষার্থীদের জন্য Speaking test কি আলাদা?"},
+          "options": [
+            {"en": "Yes, each has its own Speaking test", "bn": "হ্যাঁ, দুটোর Speaking test আলাদা"},
+            {"en": "No, it is the same for both", "bn": "না, দুটোর জন্যই একই"}
+          ],
+          "answer": 1,
+          "right": {"en": "That's right.", "bn": "ঠিক তাই।"},
+          "explain": {"en": "The Speaking test is the same for both. It is a face-to-face interview with a certified examiner, the whole conversation is recorded, and it takes 11 to 14 minutes in three parts.", "bn": "দুই ধরনের পরীক্ষার্থীর জন্যই Speaking test একই। এটা একজন certified examiner-এর সাথে মুখোমুখি interview, পুরো কথোপকথন record করা হয়, আর তিনটি part মিলিয়ে সময় ১১ থেকে ১৪ মিনিট।"}
+        },
+        {
+          "type": "roadmap",
+          "title": {"en": "What you'll learn", "bn": "যা শিখবেন"},
+          "items": [
+            {"en": "How the test is structured", "bn": "Test-এর গঠন কেমন"},
+            {"en": "What does and doesn't affect your score", "bn": "কী আপনার score-এ প্রভাব ফেলে, আর কী ফেলে না"},
+            {"en": "The four marking criteria", "bn": "চারটি marking criteria"},
+            {"en": "What Bands 5 to 8 sound like", "bn": "Band 5 থেকে 8 শুনতে কেমন"},
+            {"en": "How to move from Band 6 to 7", "bn": "Band 6 থেকে 7-এ কীভাবে উঠবেন"}
+          ],
+          "note": {"en": "If you know in advance what will happen and what the examiner listens for, preparation takes the place of fear.", "bn": "কী হবে আর examiner কী শোনেন - এটা আগে থেকে জানা থাকলে ভয়ের জায়গাটা দখল করে নেয় প্রস্তুতি।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "The Three Parts", "bn": "তিনটি Part"},
+          "intro": {"en": "One examiner, one recorded conversation, three parts. Tap each one.", "bn": "একজন examiner, একটা record করা কথোপকথন, তিনটি part। প্রতিটায় tap করুন।"},
+          "cards": [
+            {"icon": "chat", "title": {"en": "The format", "bn": "Format"},
+             "body": {"en": "A face-to-face interview with a certified examiner - even in the computer-delivered test it is a real examiner, by video or in another room. The whole conversation is **recorded**. Total: 11 to 14 minutes.", "bn": "একজন certified examiner-এর সাথে মুখোমুখি interview - computer-delivered test-এও একজন real examiner, video-তে বা অন্য কক্ষে। পুরো কথোপকথন **record** করা হয়। মোট সময়: ১১ থেকে ১৪ মিনিট।"}},
+            {"icon": "play", "title": {"en": "Part 1 - Introduction & Interview (4–5 min)", "bn": "Part 1 - Introduction & Interview (৪–৫ মিনিট)"},
+             "body": {"en": "The examiner introduces themselves and checks your name and ID, then asks 3–4 short questions on each of 3 familiar topics (home, work/study, hobbies, food, weather). **Tests:** speaking naturally, quickly and accurately about familiar topics.", "bn": "Examiner নিজের পরিচয় দেন, আপনার নাম ও ID যাচাই করেন, তারপর ৩টি পরিচিত topic (home, work/study, hobbies, food, weather) থেকে ৩-৪টি করে ছোট প্রশ্ন করেন। **পরীক্ষা করেন:** পরিচিত বিষয়ে স্বাভাবিকভাবে, দ্রুত আর সঠিকভাবে বলতে পারেন কিনা।"}},
+            {"icon": "doc", "title": {"en": "Part 2 - Long turn / Cue card (3–4 min)", "bn": "Part 2 - Long turn / Cue card (৩–৪ মিনিট)"},
+             "body": {"en": "You get a card with a topic and 3–4 points, and 1 minute to make notes. Then you speak for 1–2 minutes without stopping. The examiner may ask 1–2 short follow-up questions. **Tests:** speaking at length, continuously and in an organised way.", "bn": "একটা card-এ topic আর ৩-৪টি point থাকে, note নেওয়ার জন্য ১ মিনিট। তারপর ১-২ মিনিট একটানা বলতে হয়। শেষে examiner ১-২টি ছোট follow-up প্রশ্ন করতে পারেন। **পরীক্ষা করেন:** দীর্ঘক্ষণ, একটানা আর গুছিয়ে বলার ক্ষমতা।"}},
+            {"icon": "layers", "title": {"en": "Part 3 - Discussion (4–5 min)", "bn": "Part 3 - Discussion (৪–৫ মিনিট)"},
+             "body": {"en": "Questions related to the Part 2 topic, but broader, social or abstract. **Tests:** whether you have the language to give opinions, make comparisons, explain reasons and speculate about the future.", "bn": "Part 2-এর topic-এর সাথে সম্পর্কিত প্রশ্ন, কিন্তু আরও বিস্তৃত, সামাজিক বা abstract। **পরীক্ষা করেন:** মতামত দেওয়া, তুলনা করা, কারণ ব্যাখ্যা করা আর ভবিষ্যৎ নিয়ে অনুমান করার ভাষা আপনার আছে কিনা।"}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "In Part 2, how long do you get to make notes before you speak?", "bn": "Part 2-এ বলা শুরুর আগে note নেওয়ার জন্য কত সময় পান?"},
+          "options": [
+            {"en": "30 seconds", "bn": "৩০ সেকেন্ড"},
+            {"en": "1 minute", "bn": "১ মিনিট"},
+            {"en": "2 minutes", "bn": "২ মিনিট"}
+          ],
+          "answer": 1,
+          "explain": {"en": "You have 1 minute to make notes. Then you must speak for 1–2 minutes without stopping, and the examiner may ask 1–2 short follow-up questions.", "bn": "Note নেওয়ার জন্য ১ মিনিট। তারপর ১-২ মিনিট না থেমে বলতে হয়, আর শেষে examiner ১-২টি ছোট follow-up প্রশ্ন করতে পারেন।"}
+        },
+        {"type": "read", "title": {"en": "The test at a glance", "bn": "এক নজরে test"}, "chapter": "sp_ielts_speaking_test", "from": 0, "to": 2},
+        {
+          "type": "choice",
+          "title": {"en": "Part 2 → Part 3", "bn": "Part 2 → Part 3"},
+          "prompt": {"en": "In Part 2 you talked about a gift. Which question is most likely to come next, in Part 3?", "bn": "Part 2-এ আপনি একটা gift নিয়ে বলেছেন। Part 3-এ এরপর কোন প্রশ্নটা আসার সম্ভাবনা সবচেয়ে বেশি?"},
+          "options": [
+            {"en": "What's your full name?"},
+            {"en": "Why do people give gifts?"},
+            {"en": "Do you work or study?"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Part 3 questions are related to the Part 2 topic but broader, social or abstract - for example, “Why do people give gifts?” or “Has gift-giving changed in your country?”", "bn": "Part 3-এর প্রশ্ন Part 2-এর topic-এর সাথে সম্পর্কিত, কিন্তু আরও বিস্তৃত, সামাজিক বা abstract - যেমন “Why do people give gifts?” বা “Has gift-giving changed in your country?”"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "What does the examiner mainly test in Part 1?", "bn": "Part 1-এ examiner মূলত কী পরীক্ষা করেন?"},
+          "options": [
+            {"en": "Your opinions on social issues", "bn": "সামাজিক বিষয়ে আপনার মতামত"},
+            {"en": "Speaking naturally, quickly and accurately about familiar topics", "bn": "পরিচিত বিষয়ে স্বাভাবিকভাবে, দ্রুত আর সঠিকভাবে বলা"},
+            {"en": "Speaking for two minutes without stopping", "bn": "দুই মিনিট না থেমে বলা"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Part 1 is about familiar topics such as home, work or hobbies. Speaking at length is Part 2; opinions and abstract ideas are Part 3.", "bn": "Part 1 হয় home, work বা hobbies-এর মতো পরিচিত topic নিয়ে। দীর্ঘক্ষণ বলা হলো Part 2-এর কাজ; মতামত আর abstract idea হলো Part 3-এর।"}
+        },
+        {
+          "type": "practice",
+          "title": {"en": "Practice: Part 1", "bn": "Practice: Part 1"},
+          "task": {"en": "Answer a few Part 1 questions on familiar topics out loud.", "bn": "পরিচিত topic-এর কয়েকটা Part 1 প্রশ্নের উত্তর জোরে জোরে বলুন।"},
+          "items": [
+            {"en": "Part 1 practice", "bn": "Part 1 practice", "minutes": 5, "target": "speakingPart13", "args": {"part": 1}}
+          ],
+          "tip": {"en": "Part 1 is about you - your home, work or study, and everyday things. Speak naturally, as in a real conversation.", "bn": "Part 1 আপনাকে নিয়েই - আপনার home, work বা study, আর প্রতিদিনের বিষয়। আসল কথোপকথনের মতো স্বাভাবিকভাবে বলুন।"}
+        }
+      ]
+    },
+    {
+      "id": "s1_l2",
+      "title": {"en": "What Does (and Doesn't) Affect Your Score", "bn": "কী আপনার Score-এ প্রভাব ফেলে (আর কী ফেলে না)"},
+      "minutes": 7,
+      "xp": 40,
+      "intro": {"en": "Four facts that stop you worrying about the wrong things: test length, the examiner's face, content and the whole-test score.", "bn": "চারটি তথ্য, যা ভুল জিনিস নিয়ে দুশ্চিন্তা থামাবে: test-এর দৈর্ঘ্য, examiner-এর মুখভাব, content, আর পুরো test-এর score।"},
+      "greeting": {"en": "Some worries are a waste of energy. Let's clear them up.", "bn": "কিছু দুশ্চিন্তা শুধু শক্তির অপচয়। চলুন সেগুলো দূর করি।"},
+      "learned": [
+        {"en": "Test length says nothing about your score", "bn": "Test-এর দৈর্ঘ্য score সম্পর্কে কিছুই বলে না"},
+        {"en": "Examiners are trained to stay neutral", "bn": "Examiner-রা নিরপেক্ষ থাকার training পান"},
+        {"en": "Your language is assessed, not your content", "bn": "আপনার ভাষা মূল্যায়ন হয়, content নয়"},
+        {"en": "One examiner marks the whole test", "bn": "একজন examiner-ই পুরো test-এর marking করেন"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "The examiner didn't smile", "bn": "Examiner একবারও হাসলেন না"},
+          "prompt": {"en": "The examiner didn't smile once during your test. What does that tell you?", "bn": "পুরো test-এ examiner একবারও হাসেননি। এতে কী বোঝা যায়?"},
+          "options": [
+            {"en": "I'm probably doing badly", "bn": "আমি সম্ভবত খারাপ করছি"},
+            {"en": "Nothing - examiners are trained to stay neutral", "bn": "কিছুই না - examiner-রা নিরপেক্ষ থাকার training পান"}
+          ],
+          "answer": 1,
+          "right": {"en": "Exactly.", "bn": "একদম ঠিক।"},
+          "explain": {"en": "You can't tell anything from the examiner's facial expression. They are trained to stay neutral, so no smile doesn't mean you are doing badly.", "bn": "Examiner-এর মুখভাব দেখে কিছুই বোঝা যায় না। তাঁরা নিরপেক্ষ থাকার training পান, তাই না হাসা মানে এই নয় যে আপনি খারাপ করছেন।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "Four Things to Get Clear First", "bn": "শুরুতেই চারটি বিষয় পরিষ্কার হোক"},
+          "intro": {"en": "Tap each card - every one removes a common worry.", "bn": "প্রতিটা card-এ tap করুন - প্রতিটাই একটা সাধারণ দুশ্চিন্তা দূর করে।"},
+          "cards": [
+            {"icon": "clock", "title": {"en": "Test length ≠ score", "bn": "Test-এর দৈর্ঘ্য ≠ score"},
+             "body": {"en": "Some tests end in 11 minutes, others in 14. The examiner follows a fixed script; when time is up, they may stop you mid-sentence. This is not a bad sign.", "bn": "কারও test ১১ মিনিটে শেষ হয়, কারও ১৪ মিনিটে। Examiner একটা নির্দিষ্ট script মেনে চলেন; সময় শেষ হলে বাক্যের মাঝেও থামিয়ে দিতে পারেন। এটা খারাপ লক্ষণ নয়।"}},
+            {"icon": "target", "title": {"en": "The examiner's face tells you nothing", "bn": "Examiner-এর মুখ দেখে কিছু বোঝা যায় না"},
+             "body": {"en": "Examiners are trained to stay neutral. If they didn't smile, that doesn't mean you are doing badly.", "bn": "Examiner-রা নিরপেক্ষ থাকার training পান। না হাসলে তার মানে এই নয় যে আপনি খারাপ করছেন।"}},
+            {"icon": "chat", "title": {"en": "Language, not content", "bn": "ভাষা, content নয়"},
+             "body": {"en": "The examiner does not check whether your opinion is “correct” or whether your story is true. They listen to how effectively you can say it in English.", "bn": "আপনার মতামত “সঠিক” কিনা বা গল্পটা সত্যি কিনা - examiner তা যাচাই করেন না। তাঁরা শোনেন, আপনি কথাটা English-এ কতটা কার্যকরভাবে বলতে পারছেন।"}},
+            {"icon": "check", "title": {"en": "One examiner, the whole test", "bn": "একজন examiner, পুরো test"},
+             "body": {"en": "The same examiner marks all three parts, and the score is based on the whole test - if you do poorly in one part, you have a chance to make up for it.", "bn": "একই examiner তিনটি part-এরই marking করেন, আর score হয় পুরো test-এর ভিত্তিতে - এক part-এ খারাপ করলে অন্য part-এ পুষিয়ে নেওয়ার সুযোগ থাকে।"}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Stopped mid-sentence", "bn": "বাক্যের মাঝে থামিয়ে দিলেন"},
+          "prompt": {"en": "Time is up and the examiner stops you in the middle of a sentence. What does it mean?", "bn": "সময় শেষ, আর examiner আপনাকে বাক্যের মাঝখানে থামিয়ে দিলেন। এর মানে কী?"},
+          "options": [
+            {"en": "It's a bad sign for my score", "bn": "আমার score-এর জন্য খারাপ লক্ষণ"},
+            {"en": "It's normal - the examiner follows a fixed script", "bn": "এটা স্বাভাবিক - examiner নির্দিষ্ট script মেনে চলেন"},
+            {"en": "My answer was off-topic", "bn": "আমার উত্তর topic-এর বাইরে ছিল"}
+          ],
+          "answer": 1,
+          "explain": {"en": "The examiner follows a fixed script, and when time is up they may stop you mid-sentence. This is not a bad sign.", "bn": "Examiner একটা নির্দিষ্ট script মেনে চলেন, আর সময় শেষ হলে বাক্যের মাঝেও থামিয়ে দিতে পারেন। এটা কোনো খারাপ লক্ষণ নয়।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Is your story true?", "bn": "আপনার গল্প কি সত্যি?"},
+          "prompt": {"en": "The story you told in the test wasn't completely true. Does this cost you marks?", "bn": "Test-এ আপনি যে গল্পটা বলেছেন, সেটা পুরোপুরি সত্যি নয়। এতে কি নম্বর কাটবে?"},
+          "options": [
+            {"en": "Yes - the examiner checks whether it is true", "bn": "হ্যাঁ - examiner যাচাই করেন সেটা সত্যি কিনা"},
+            {"en": "No - your language is assessed, not the content", "bn": "না - মূল্যায়ন হয় আপনার ভাষার, content-এর নয়"}
+          ],
+          "answer": 1,
+          "explain": {"en": "It is your language that is assessed. The examiner doesn't check whether your opinion is “correct” or your story is true - they listen to how effectively you say it in English.", "bn": "মূল্যায়ন হয় আপনার ভাষার। মতামত “সঠিক” কিনা বা গল্প সত্যি কিনা examiner দেখেন না - তাঁরা শোনেন আপনি English-এ কথাটা কতটা কার্যকরভাবে বলছেন।"}
+        },
+        {"type": "read", "title": {"en": "A few things to get clear first", "bn": "শুরুতেই কয়েকটি বিষয় পরিষ্কার হোক"}, "chapter": "sp_ielts_speaking_test", "from": 2, "to": 4},
+        {
+          "type": "choice",
+          "title": {"en": "A weak Part 1", "bn": "দুর্বল Part 1"},
+          "prompt": {"en": "Part 1 went badly. Which statement is true?", "bn": "Part 1 খারাপ গেছে। কোন কথাটা সত্যি?"},
+          "options": [
+            {"en": "My band is now fixed by Part 1", "bn": "Part 1 দিয়েই আমার band ঠিক হয়ে গেছে"},
+            {"en": "The score is based on the whole test, so I can make up for it", "bn": "Score পুরো test-এর ভিত্তিতে, তাই পুষিয়ে নেওয়া যায়"},
+            {"en": "A different examiner will mark Parts 2 and 3", "bn": "Part 2 আর 3-এর marking অন্য examiner করবেন"}
+          ],
+          "answer": 1,
+          "explain": {"en": "The same examiner marks all three parts, and the score is based on the whole test. Doing poorly in one part still leaves you a chance to make up for it.", "bn": "একই examiner তিনটি part-এরই marking করেন, আর score হয় পুরো test-এর ভিত্তিতে। এক part-এ খারাপ করলেও পুষিয়ে নেওয়ার সুযোগ থাকে।"}
+        }
+      ]
+    },
+    {
+      "id": "s1_l3",
+      "title": {"en": "The Four Marking Criteria", "bn": "চারটি Marking Criteria"},
+      "minutes": 9,
+      "xp": 45,
+      "intro": {"en": "The four things the examiner scores, how they make your band, and why quality beats quantity.", "bn": "Examiner যে চারটি বিষয়ে নম্বর দেন, সেগুলো থেকে কীভাবে band আসে, আর কেন বেশি বলার চেয়ে ভাল বলা জরুরি।"},
+      "greeting": {"en": "Four criteria, equal weight. Let's see what each one measures.", "bn": "চারটি criteria, সমান ওজন। চলুন দেখি প্রতিটা কী মাপে।"},
+      "learned": [
+        {"en": "FC, LR, GRA and P - what each measures", "bn": "FC, LR, GRA আর P - প্রতিটা কী মাপে"},
+        {"en": "Your band is the average of four equal criteria", "bn": "আপনার band হলো সমান ওজনের চারটি criteria-র গড়"},
+        {"en": "A Band 5 vs a Band 7+ answer", "bn": "Band 5 বনাম Band 7+ উত্তর"},
+        {"en": "Quality, not length, raises your band", "bn": "দৈর্ঘ্য নয়, মান-ই band বাড়ায়"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Can grammar make up for it?", "bn": "Grammar দিয়ে কি পুষিয়ে নেওয়া যায়?"},
+          "prompt": {"en": "Your pronunciation is weak, but your grammar is excellent. Can the grammar make up for the loss?", "bn": "আপনার pronunciation দুর্বল, কিন্তু grammar চমৎকার। Grammar দিয়ে কি ক্ষতিটা পুষিয়ে নেওয়া যাবে?"},
+          "options": [
+            {"en": "Yes, grammar counts for more", "bn": "হ্যাঁ, grammar-এর ওজন বেশি"},
+            {"en": "No, the four criteria carry equal weight", "bn": "না, চারটি criteria-র ওজন সমান"}
+          ],
+          "answer": 1,
+          "bars": [
+            {"label": "FC", "value": 0.25, "text": "25%"},
+            {"label": "LR", "value": 0.25, "text": "25%"},
+            {"label": "GRA", "value": 0.25, "text": "25%"},
+            {"label": "P", "value": 0.25, "text": "25%"}
+          ],
+          "explain": {"en": "Each criterion gets its own band (0–9), and your Speaking band is the average of the four. They carry equal weight, so doing well in grammar cannot make up for weak pronunciation.", "bn": "প্রতিটা criterion আলাদা band পায় (০–৯), আর চারটির গড়ই আপনার Speaking band। ওজন সমান, তাই grammar-এ ভাল করলেও দুর্বল pronunciation-এর ক্ষতি পুষিয়ে নেওয়া যায় না।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "The 4 Marking Criteria", "bn": "৪টি Marking Criteria"},
+          "intro": {"en": "Every answer you give is heard through these four. Tap each one.", "bn": "আপনার প্রতিটা উত্তর এই চারটির ভিত্তিতে শোনা হয়। প্রতিটায় tap করুন।"},
+          "cards": [
+            {"icon": "link", "title": {"en": "Fluency & Coherence (FC)", "bn": "Fluency & Coherence (FC)"},
+             "body": {"en": "How well you speak at a natural pace without unnecessary pauses, and whether what you say is logically organised and connected.", "bn": "অপ্রয়োজনীয় বিরতি ছাড়া স্বাভাবিক গতিতে কতটা ভাল বলতে পারেন, আর যা বলছেন তা যুক্তিসঙ্গতভাবে সাজানো ও যুক্ত কিনা।"}},
+            {"icon": "book", "title": {"en": "Lexical Resource (LR)", "bn": "Lexical Resource (LR)"},
+             "body": {"en": "How wide and accurate your vocabulary is; whether you can say the same thing in different words; whether you can use idiomatic and less common words.", "bn": "আপনার vocabulary কতটা বিস্তৃত আর নির্ভুল; একই কথা ভিন্ন শব্দে বলতে পারেন কিনা; idiomatic আর কম-প্রচলিত শব্দ ব্যবহার করতে পারেন কিনা।"}},
+            {"icon": "settings", "title": {"en": "Grammatical Range & Accuracy (GRA)", "bn": "Grammatical Range & Accuracy (GRA)"},
+             "body": {"en": "How many kinds of sentence structure you use (range), and how error-free they are (accuracy).", "bn": "কত ধরনের sentence structure ব্যবহার করেন (range), আর সেগুলো কতটা ভুলমুক্ত (accuracy)।"}},
+            {"icon": "chat", "title": {"en": "Pronunciation (P)", "bn": "Pronunciation (P)"},
+             "body": {"en": "How easily the listener can understand your pronunciation; whether your word stress, sentence rhythm and intonation are natural.", "bn": "আপনার উচ্চারণ শ্রোতা কত সহজে বুঝতে পারেন; word stress, sentence rhythm আর intonation স্বাভাবিক কিনা।"}},
+            {"icon": "check", "title": {"en": "How your band is made", "bn": "আপনার band কীভাবে আসে"},
+             "body": {"en": "Each criterion gets its own band (0–9). The average of the four gives your Speaking band. All four carry **equal weight**.", "bn": "প্রতিটা criterion আলাদা band পায় (০–৯)। চারটির গড় থেকেই আসে আপনার Speaking band। চারটিরই ওজন **সমান**।"}}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Which criterion measures whether you can say the same thing in different words?", "bn": "একই কথা ভিন্ন শব্দে বলতে পারেন কিনা - কোন criterion এটা মাপে?"},
+          "options": [
+            {"en": "Fluency & Coherence"},
+            {"en": "Lexical Resource"},
+            {"en": "Grammatical Range & Accuracy"},
+            {"en": "Pronunciation"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Lexical Resource covers how wide and accurate your vocabulary is, including saying the same thing in different words and using idiomatic, less common words.", "bn": "Lexical Resource দেখে আপনার vocabulary কতটা বিস্তৃত আর নির্ভুল - একই কথা ভিন্ন শব্দে বলা আর idiomatic, কম-প্রচলিত শব্দ ব্যবহারও এর মধ্যে পড়ে।"}
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "Same question, two answers", "bn": "একই প্রশ্ন, দুটি উত্তর"},
+          "intro": {"en": "Examiner: “Do you prefer to shop online or in physical stores?”", "bn": "Examiner: “Do you prefer to shop online or in physical stores?”"},
+          "weak": {"label": {"en": "Band 5", "bn": "Band 5"}, "text": "Online. Because online is easy. I can buy from home. Physical store is far."},
+          "strong": {"label": {"en": "Band 7+", "bn": "Band 7+"}, "text": "To be honest, I've shifted almost entirely to online shopping over the last couple of years, mainly because it saves me the hassle of dealing with traffic. Having said that, for things like shoes, I still prefer going to a physical store, since I want to try them on before I pay.", "mark": "Having said that"},
+          "tip": {"en": "Answer 1: every sentence stands alone, basic words, only simple sentences and an article error. Answer 2 flows, uses natural, precise words and mixes structures.", "bn": "উত্তর ১: প্রতিটা বাক্য বিচ্ছিন্ন, একদম সাধারণ শব্দ, শুধু simple sentence, আর একটা article-এর ভুল। উত্তর ২ সাবলীল, স্বাভাবিক ও নির্ভুল শব্দ, আর নানা structure মেশানো।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "In Answer 2, “hassle” and “try them on” are natural and precise. Which criterion do they show?", "bn": "উত্তর ২-এ “hassle” আর “try them on” স্বাভাবিক ও নির্ভুল। এগুলো কোন criterion দেখায়?"},
+          "options": [
+            {"en": "Lexical Resource"},
+            {"en": "Pronunciation"},
+            {"en": "Grammatical Range & Accuracy"}
+          ],
+          "answer": 0,
+          "explain": {"en": "Word choice is Lexical Resource. The examiner's note on Answer 2 lists “shifted”, “hassle” and “try them on” under LR.", "bn": "শব্দ বাছাই হলো Lexical Resource। উত্তর ২-এর ওপর examiner-এর note-এ “shifted”, “hassle” আর “try them on” LR-এর অধীনে রাখা হয়েছে।"}
+        },
+        {"type": "read", "title": {"en": "How the four work together", "bn": "চারটি একসাথে কীভাবে কাজ করে"}, "chapter": "sp_examiner_criteria", "from": 3, "to": 9},
+        {
+          "type": "choice",
+          "title": {"en": "The core message", "bn": "মূল কথা"},
+          "prompt": {"en": "Why does Answer 2 score so much higher than Answer 1?", "bn": "উত্তর ২ কেন উত্তর ১-এর চেয়ে অনেক বেশি band পায়?"},
+          "options": [
+            {"en": "It is much longer", "bn": "এটা অনেক লম্বা"},
+            {"en": "It is much better organised and of higher quality", "bn": "এটা অনেক বেশি গোছানো আর মানসম্পন্ন"},
+            {"en": "Its opinion is more correct", "bn": "এর মতামত বেশি সঠিক"}
+          ],
+          "answer": 1,
+          "explain": {"en": "The second answer is not much longer - it is much better organised. Your band goes up not by saying more, but by raising the quality of what you say.", "bn": "দ্বিতীয় উত্তরটা খুব বেশি লম্বা নয় - অনেক বেশি গোছানো। বেশি বলে নয়, যা বলছেন তার মান বাড়িয়েই band বাড়ে।"}
+        },
+        {
+          "type": "practice",
+          "title": {"en": "Practice: Part 1 questions", "bn": "Practice: Part 1 প্রশ্ন"},
+          "task": {"en": "Answer a Part 1 question, then ask yourself: did it flow, were the words precise, did I mix structures?", "bn": "একটা Part 1 প্রশ্নের উত্তর দিন, তারপর নিজেকে জিজ্ঞেস করুন: সাবলীল ছিল কি, শব্দ নির্ভুল ছিল কি, structure মিশিয়েছি কি?"},
+          "items": [
+            {"en": "Part 1 questions", "bn": "Part 1 প্রশ্ন", "minutes": 5, "target": "speakingQuestions", "args": {"part": 1}}
+          ],
+          "tip": {"en": "Don't just say more - say it better. Connect your ideas the way Answer 2 does.", "bn": "শুধু বেশি বলবেন না - ভাল করে বলুন। উত্তর ২-এর মতো idea-গুলো জুড়ে দিন।"}
+        }
+      ]
+    },
+    {
+      "id": "s1_l4",
+      "title": {"en": "Band Scores 5 to 8", "bn": "Band Score ৫ থেকে ৮"},
+      "minutes": 10,
+      "xp": 45,
+      "intro": {"en": "What the examiner listens for at Bands 5, 6, 7 and 8, in plain language - so you can tell where you stand.", "bn": "Band 5, 6, 7 আর 8-এ examiner কী শোনেন - সহজ ভাষায়, যাতে নিজেই বুঝতে পারেন আপনি কোথায় আছেন।"},
+      "greeting": {"en": "Record yourself, compare with these bands, and you'll see where you stand.", "bn": "নিজের কথা record করুন, এই band-গুলোর সাথে মেলান - নিজেই বুঝবেন আপনি কোথায়।"},
+      "learned": [
+        {"en": "Band 5: can keep talking, but it's a struggle", "bn": "Band 5: কথা চালিয়ে যান, কিন্তু কষ্ট করে"},
+        {"en": "Band 6: understood, but with errors", "bn": "Band 6: সব বোঝা যায়, কিন্তু ভুল থাকে"},
+        {"en": "Band 7: comfortable, organised, minor errors", "bn": "Band 7: স্বচ্ছন্দ, গোছানো, ছোটখাটো ভুল"},
+        {"en": "Band 8: fluent, rare errors", "bn": "Band 8: সাবলীল, ভুল কদাচিৎ"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Which band?", "bn": "কোন band?"},
+          "prompt": {"en": "A candidate sometimes pauses - but to think about the content, not to search for language. Which band does this match?", "bn": "একজন পরীক্ষার্থী মাঝে মাঝে থামেন - কিন্তু ভাষা খুঁজতে নয়, content নিয়ে ভাবতে। এটা কোন band-এর সাথে মেলে?"},
+          "options": [
+            {"en": "Band 5"},
+            {"en": "Band 6"},
+            {"en": "Band 7"}
+          ],
+          "answer": 2,
+          "explain": {"en": "At Band 7 you can speak at length without noticeable effort. You sometimes pause or self-correct, but to think about the content, not to search for language.", "bn": "Band 7-এ কোনো লক্ষণীয় চেষ্টা ছাড়াই দীর্ঘক্ষণ বলা যায়। মাঝে মাঝে থামা বা নিজেকে শুধরানো থাকে, কিন্তু content নিয়ে ভাবতে - ভাষা খুঁজতে নয়।"}
+        },
+        {
+          "type": "concepts",
+          "title": {"en": "Bands 5 to 8 in Plain Language", "bn": "সহজ ভাষায় Band ৫ থেকে ৮"},
+          "intro": {"en": "The band descriptors are technical. Here is what each band sounds like. Tap through.", "bn": "Band descriptor-এর ভাষা বেশ technical। প্রতিটা band শুনতে কেমন - এখানে দেখুন। Tap করে এগোন।"},
+          "cards": [
+            {"icon": "flag", "title": {"en": "Band 5 - “Can keep talking, but it's a struggle”", "bn": "Band 5 - “কথা চালিয়ে যান, কিন্তু কষ্ট করে”"},
+             "body": {"en": "Repeats, speaks slowly and pauses to correct mistakes; the same few linking words. Enough words for familiar topics only. Simple sentences mostly correct; complex ones mostly contain errors.", "bn": "বারবার একই কথা, ধীরে বলা, ভুল শোধরাতে থামা; ঘুরেফিরে একই কয়েকটা linking word। শুধু পরিচিত topic-এর মতো শব্দ আছে। Simple sentence বেশিরভাগ ঠিক; complex sentence-এ বেশিরভাগ ভুল।"}},
+            {"icon": "list", "title": {"en": "Band 6 - “Everything is understood, but there are errors”", "bn": "Band 6 - “সব বোঝা যায়, কিন্তু ভুল থাকে”"},
+             "body": {"en": "Willing to speak at length, but pauses, repeats or self-corrects. Linking words not always used correctly. Word choice sometimes inappropriate. Errors in complex sentences, but they rarely block meaning.", "bn": "দীর্ঘক্ষণ বলতে আগ্রহী, কিন্তু থামা, পুনরাবৃত্তি বা নিজেকে শোধরানো থাকে। Linking word সবসময় ঠিকভাবে ব্যবহার হয় না। শব্দ বাছাই মাঝে মাঝে অনুপযুক্ত। Complex sentence-এ ভুল থাকে, তবে অর্থে কমই বাধা দেয়।"}},
+            {"icon": "check", "title": {"en": "Band 7 - “Comfortable, organised, with minor errors”", "bn": "Band 7 - “স্বচ্ছন্দ, গোছানো, ছোটখাটো ভুল”"},
+             "body": {"en": "Speaks at length without noticeable effort; discourse markers used naturally. Vocabulary used **flexibly**, some idiomatic words and collocations. A variety of complex structures; most sentences error-free. Easy to understand throughout.", "bn": "লক্ষণীয় চেষ্টা ছাড়াই দীর্ঘক্ষণ বলা; discourse marker স্বাভাবিকভাবে ব্যবহার। Vocabulary **flexibly** ব্যবহার, কিছু idiomatic শব্দ আর collocation। নানা ধরনের complex structure; বেশিরভাগ বাক্য ভুলমুক্ত। পুরো সময় সহজে বোঝা যায়।"}},
+            {"icon": "target", "title": {"en": "Band 8 - “Fluent, almost like a native speaker”", "bn": "Band 8 - “সাবলীল, প্রায় native speaker-এর মতো”"},
+             "body": {"en": "Rarely pauses or repeats, and develops topics logically. A wide vocabulary for precise meaning; errors are rare. A wide variety of structures with only occasional errors. First-language influence almost non-existent.", "bn": "কদাচিৎ থামেন বা পুনরাবৃত্তি করেন, topic যুক্তিসঙ্গতভাবে develop করেন। নির্ভুল অর্থ প্রকাশের মতো বিস্তৃত vocabulary; ভুল কদাচিৎ। নানা ধরনের structure, শুধু মাঝেমধ্যে ভুল। মাতৃভাষার প্রভাব প্রায় নেই।"}}
+          ]
+        },
+        {"type": "read", "title": {"en": "Bands 5 to 8, criterion by criterion", "bn": "Band ৫ থেকে ৮, criterion ধরে ধরে"}, "chapter": "sp_band_score_5_8", "from": 0, "to": 9},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Starting a sentence with “moreover” and then moving on to a different topic is given as an example of which band?", "bn": "“moreover” দিয়ে বাক্য শুরু করে তারপর অন্য topic-এ চলে যাওয়া - কোন band-এর উদাহরণ হিসেবে দেওয়া হয়েছে?"},
+          "options": [
+            {"en": "Band 6"},
+            {"en": "Band 7"},
+            {"en": "Band 8"}
+          ],
+          "answer": 0,
+          "explain": {"en": "At Band 6 the candidate uses linking words, but not always correctly - like starting with “moreover” and then changing topic. At Band 7, linking words and discourse markers are used naturally.", "bn": "Band 6-এ linking word ব্যবহার হয়, কিন্তু সবসময় ঠিকভাবে নয় - যেমন “moreover” দিয়ে শুরু করে topic বদলে ফেলা। Band 7-এ linking word আর discourse marker স্বাভাবিকভাবে আসে।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Your accent", "bn": "আপনার accent"},
+          "prompt": {"en": "What does Band 7 Pronunciation say about the influence of your first language?", "bn": "Band 7 Pronunciation মাতৃভাষার প্রভাব নিয়ে কী বলে?"},
+          "options": [
+            {"en": "It must not be heard at all", "bn": "একদমই শোনা যাওয়া চলবে না"},
+            {"en": "It may be heard, but it does not affect understanding", "bn": "শোনা যেতে পারে, কিন্তু বোঝায় প্রভাব ফেলে না"},
+            {"en": "It automatically limits you to Band 6", "bn": "এতে স্বয়ংক্রিয়ভাবে Band 6-এ আটকে যাবেন"}
+          ],
+          "answer": 1,
+          "explain": {"en": "At Band 7 you are easy to understand throughout; the influence of the first language may be heard, but it does not affect understanding.", "bn": "Band 7-এ পুরো সময় সহজে বোঝা যায়; মাতৃভাষার প্রভাব শোনা যেতে পারে, কিন্তু তাতে বুঝতে কোনো সমস্যা হয় না।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Band 7 Lexical Resource includes “an awareness of collocation”. Which is one of the guide's examples?", "bn": "Band 7 Lexical Resource-এ আছে “an awareness of collocation”। Guide-এর উদাহরণ কোনটা?"},
+          "options": [
+            {"en": "heavy traffic"},
+            {"en": "big traffic"},
+            {"en": "strong traffic"}
+          ],
+          "answer": 0,
+          "explain": {"en": "The guide's examples of collocation at Band 7 are “make a decision”, “heavy traffic” and “highly recommend” - words that naturally go together.", "bn": "Band 7-এর collocation-এর উদাহরণ হিসেবে guide দিয়েছে “make a decision”, “heavy traffic” আর “highly recommend” - যে শব্দগুলো স্বাভাবিকভাবে একসাথে বসে।"}
+        },
+        {
+          "type": "practice",
+          "title": {"en": "Practice: where do you stand?", "bn": "Practice: আপনি কোথায় আছেন?"},
+          "task": {"en": "Record a few Part 1 answers, listen back and compare them with the band descriptions.", "bn": "কয়েকটা Part 1 উত্তর record করুন, শুনুন, আর band-এর বর্ণনার সাথে মিলিয়ে দেখুন।"},
+          "items": [
+            {"en": "Answer Part 1 questions", "bn": "Part 1 প্রশ্নের উত্তর দিন", "minutes": 5, "target": "speakingPart13", "args": {"part": 1}},
+            {"en": "Listen to your recordings", "bn": "আপনার recording শুনুন", "minutes": 3, "target": "myRecordings"}
+          ],
+          "tip": {"en": "Listen for why you pause: to search for words (Band 6) or to think about ideas (Band 7)?", "bn": "খেয়াল করুন কেন থামছেন: শব্দ খুঁজতে (Band 6), নাকি idea নিয়ে ভাবতে (Band 7)?"}
+        }
+      ]
+    },
+    {
+      "id": "s1_l5",
+      "title": {"en": "From Band 6 to Band 7", "bn": "Band 6 থেকে Band 7"},
+      "minutes": 9,
+      "xp": 50,
+      "intro": {"en": "Most test-takers get stuck at 6 or 6.5. See exactly what changes at Band 7 - and why it's about reducing old mistakes.", "bn": "বেশিরভাগ পরীক্ষার্থী ৬ বা ৬.৫-এ আটকে যান। Band 7-এ ঠিক কী বদলায় দেখুন - আর কেন এটা পুরনো ভুল কমানোর ব্যাপার।"},
+      "greeting": {"en": "Band 7 isn't perfection. Let's see what it really takes.", "bn": "Band 7 মানে নিখুঁত হওয়া নয়। চলুন দেখি আসলে কী লাগে।"},
+      "learned": [
+        {"en": "Band 7 means reducing old mistakes", "bn": "Band 7 মানে পুরনো ভুল কমানো"},
+        {"en": "Pausing in natural language", "bn": "স্বাভাবিক ভাষায় থামা"},
+        {"en": "Natural, varied linking - not mechanical", "bn": "স্বাভাবিক, বৈচিত্র্যময় linking - যান্ত্রিক নয়"},
+        {"en": "Precise words and collocations", "bn": "নির্ভুল শব্দ আর collocation"},
+        {"en": "Comfortable and reasonably accurate, not perfect", "bn": "নিখুঁত নয় - স্বচ্ছন্দ আর মোটামুটি নির্ভুল"}
+      ],
+      "steps": [
+        {
+          "type": "choice",
+          "title": {"en": "Does Band 7 mean perfect?", "bn": "Band 7 মানে কি নিখুঁত?"},
+          "prompt": {"en": "To get Band 7, do you need to speak with no errors and no pauses?", "bn": "Band 7 পেতে কি একদম ভুল আর বিরতি ছাড়া বলতে হবে?"},
+          "options": [
+            {"en": "Yes, Band 7 means perfect English", "bn": "হ্যাঁ, Band 7 মানে নিখুঁত English"},
+            {"en": "No, Band 7 still has some errors and pauses", "bn": "না, Band 7-এও কিছু ভুল আর বিরতি থাকে"}
+          ],
+          "answer": 1,
+          "right": {"en": "Right - and that's good news.", "bn": "ঠিক - আর এটা সুখবর।"},
+          "explain": {"en": "Even at Band 7 there are some errors and occasional pauses. The goal is not perfection - it is to be comfortable and reasonably accurate.", "bn": "Band 7-এও কিছু ভুল আর মাঝেমধ্যে বিরতি থাকে। লক্ষ্য নিখুঁত হওয়া নয় - স্বচ্ছন্দ আর মোটামুটি নির্ভুল হওয়া।"}
+        },
+        {"type": "read", "title": {"en": "What moving from 6 to 7 really means", "bn": "৬ থেকে ৭-এ ওঠা আসলে কী"}, "chapter": "sp_band_score_5_8", "from": 9, "to": 12},
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "According to the guide, what do most Band 6 candidates mainly need to reach Band 7?", "bn": "Guide অনুযায়ী, Band 7-এ উঠতে বেশিরভাগ Band 6 পরীক্ষার্থীর মূলত কী দরকার?"},
+          "options": [
+            {"en": "To learn a lot of new things", "bn": "অনেক নতুন জিনিস শেখা"},
+            {"en": "To reduce their old mistakes", "bn": "পুরনো ভুলগুলো কমানো"},
+            {"en": "To give much longer answers", "bn": "অনেক লম্বা উত্তর দেওয়া"}
+          ],
+          "answer": 1,
+          "explain": {"en": "Put the Band 6 and Band 7 lists side by side and you'll see: moving up is not so much about learning something new as about reducing your old mistakes.", "bn": "Band 6 আর Band 7-এর তালিকা পাশাপাশি রাখলেই দেখবেন: ওপরে ওঠা মানে নতুন কিছু শেখা যতটা নয়, তার চেয়ে বেশি পুরনো ভুল কমানো।"}
+        },
+        {
+          "type": "contrast",
+          "title": {"en": "How you pause", "bn": "কীভাবে থামেন"},
+          "intro": {"en": "Both speakers pause. The difference is why - and how it sounds.", "bn": "দুজনেই থামেন। পার্থক্য হলো কেন থামছেন - আর শুনতে কেমন লাগে।"},
+          "weak": {"label": {"en": "Band 6: searching for language", "bn": "Band 6: ভাষা খোঁজা"}, "text": "I... I think... the... umm..."},
+          "strong": {"label": {"en": "Band 7: thinking of ideas", "bn": "Band 7: idea নিয়ে ভাবা"}, "text": "Well, let me think... I'd say...", "mark": "let me think"},
+          "tip": {"en": "At Band 7 you pause only to think of ideas, and even then the language is natural.", "bn": "Band 7-এ শুধু idea নিয়ে ভাবতে থামবেন, আর তখনও ভাষাটা স্বাভাবিক থাকবে।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Linking: which is Band 7?", "bn": "Linking: কোনটা Band 7?"},
+          "prompt": {"en": "Which pattern of linking matches Band 7?", "bn": "কোন linking-এর ধরন Band 7-এর সাথে মেলে?"},
+          "options": [
+            {"en": "Firstly... Secondly... Moreover..."},
+            {"en": "The main reason is... On top of that... Mind you,..."}
+          ],
+          "answer": 1,
+          "explain": {"en": "At Band 6, linking words are used mechanically (Firstly… Secondly… Moreover…). At Band 7, linking is natural and varied.", "bn": "Band 6-এ linking word যান্ত্রিকভাবে আসে (Firstly… Secondly… Moreover…)। Band 7-এ linking স্বাভাবিক আর বৈচিত্র্যময়।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+          "prompt": {"en": "Band 6 words are correct but ordinary. Which of these is a precise, Band 7-style word from the guide's list?", "bn": "Band 6-এর শব্দ সঠিক কিন্তু সাধারণ। নিচের কোনটা guide-এর তালিকার একটা নির্ভুল, Band 7-ধরনের শব্দ?"},
+          "options": [
+            {"en": "good"},
+            {"en": "frustrating"},
+            {"en": "very big"}
+          ],
+          "answer": 1,
+          "explain": {"en": "“Good”, “bad” and “very big” are correct but ordinary. Band 7 uses precise words and collocations such as “rewarding”, “frustrating”, “enormous” and “a major drawback”.", "bn": "“Good”, “bad”, “very big” সঠিক কিন্তু সাধারণ। Band 7-এ আসে নির্ভুল শব্দ আর collocation - যেমন “rewarding”, “frustrating”, “enormous”, “a major drawback”।"}
+        },
+        {
+          "type": "choice",
+          "title": {"en": "The perfection trap", "bn": "নিখুঁত হওয়ার ফাঁদ"},
+          "prompt": {"en": "Why do people who try to be perfect often drop to Band 6?", "bn": "যাঁরা নিখুঁত হতে চান, তাঁরা প্রায়ই Band 6-এ নেমে যান কেন?"},
+          "options": [
+            {"en": "They think through every sentence as they speak and lose their fluency", "bn": "বলার সময় প্রতিটা বাক্য ভেবে ভেবে বলেন, তাই fluency হারান"},
+            {"en": "Examiners don't like perfect answers", "bn": "Examiner-রা নিখুঁত উত্তর পছন্দ করেন না"},
+            {"en": "Their answers become too short", "bn": "তাঁদের উত্তর খুব ছোট হয়ে যায়"}
+          ],
+          "answer": 0,
+          "explain": {"en": "People who try to be perfect and think through every sentence as they speak lose their fluency and drop to 6. Aim to be comfortable and reasonably accurate.", "bn": "যাঁরা নিখুঁত হতে গিয়ে বলার সময় প্রতিটা বাক্য ভেবে ভেবে বলেন, তাঁরা fluency হারিয়ে ৬-এ নেমে যান। লক্ষ্য রাখুন স্বচ্ছন্দ আর মোটামুটি নির্ভুল হওয়ার।"}
+        },
+        {
+          "type": "practice",
+          "title": {"en": "Practice: a cue card", "bn": "Practice: একটা cue card"},
+          "task": {"en": "Pick a cue card and talk about it. Listen back for Band 6 habits: pausing to search for words, mechanical linking, ordinary words.", "bn": "একটা cue card বেছে নিয়ে বলুন। তারপর শুনে Band 6-এর অভ্যাস খুঁজুন: শব্দ খুঁজতে থামা, যান্ত্রিক linking, সাধারণ শব্দ।"},
+          "items": [
+            {"en": "Choose a cue card", "bn": "একটা cue card বেছে নিন", "minutes": 5, "target": "cueCardVault"},
+            {"en": "Part 2 questions", "bn": "Part 2 প্রশ্ন", "minutes": 5, "target": "speakingQuestions", "args": {"part": 2}}
+          ],
+          "tip": {"en": "Don't aim for perfect. Aim for comfortable and reasonably accurate - that is Band 7.", "bn": "নিখুঁত হওয়ার চেষ্টা করবেন না। স্বচ্ছন্দ আর মোটামুটি নির্ভুল হোন - এটাই Band 7।"}
+        }
+      ]
+    }
+  ]
+}

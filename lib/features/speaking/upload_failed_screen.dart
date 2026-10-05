@@ -87,7 +87,7 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
         _stageLabel = null;
         _progress = 0;
       });
-      context.toast('Still offline — try again when you’re connected');
+      context.toast('Still offline - try again when you’re connected');
       return;
     }
     Store.I.setKv(kPendingUploadKey, null);
@@ -99,7 +99,7 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
       }
     });
     if (out.audioMissing) {
-      context.toast('Recording no longer on this phone — estimated offline');
+      context.toast('Recording no longer on this phone - estimated offline');
     } else if (a != null && a.data.s('source') != 'ai') {
       context.toast(offlineScoreReason('Uploaded · estimated offline'));
     } else {
@@ -276,7 +276,7 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
               ),
               BarWave(
                 heights: _data.ld('wave'),
-                color: t.isNight ? t.heroMuted : t.heroText,
+                color: t.heroText,
                 height: 34,
                 barWidth: 3,
                 gap: 2,
@@ -388,7 +388,7 @@ class _OfflineBanner extends StatelessWidget {
         color: t.isNight ? t.dangerSoft : t.alert.withValues(alpha: 0.12),
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
-          color: t.isNight ? const Color(0xFF5C2A20) : t.border,
+          color: t.isNight ? const Color(0xFF3A4570) : t.border,
         ),
       ),
       child: Row(

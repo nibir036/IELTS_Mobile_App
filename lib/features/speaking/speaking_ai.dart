@@ -54,7 +54,7 @@ class SpeakingJob {
   /// 1, 2 or 3 (mock interview → 3).
   final int part;
 
-  /// [{q, spokenSec}] — one per question asked.
+  /// [{q, spokenSec}] - one per question asked.
   final List<Map<String, dynamic>> questions;
 
   /// Recordings, in answer order (may be empty for simulated practice).
@@ -466,7 +466,7 @@ List<Map<String, dynamic>> buildTranscriptParagraphs(
       tokens.add(<String, dynamic>{
         'type': 'error',
         'text': text.substring(s.$1, s.$2),
-        'note': parts.join(' — '),
+        'note': parts.join('-'),
       });
       pos = s.$2;
     }
@@ -497,14 +497,14 @@ List<Map<String, dynamic>> _plainTokens(String text, int start, int end) {
       out.add(<String, dynamic>{
         'type': 'pause',
         'text': '‖',
-        'note': 'Pause — link your ideas instead of stopping.',
+        'note': 'Pause - link your ideas instead of stopping.',
       });
     } else if (word != null && _isFiller(seg, m.start, m.end, word.toLowerCase())) {
       flush();
       out.add(<String, dynamic>{
         'type': 'filler',
         'text': word,
-        'note': 'Filler — try a short silent pause instead.',
+        'note': 'Filler - try a short silent pause instead.',
       });
     } else {
       buf.write(m.group(0));

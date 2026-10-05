@@ -265,7 +265,7 @@ class _WritingRewriterScreenState extends State<WritingRewriterScreen> {
                         child: Container(
                           padding: const EdgeInsets.all(10),
                           decoration: BoxDecoration(
-                            color: wc(t, 0xFFEEEFFD, 0xFF1F1F1F),
+                            color: wc(t, 0xFFE9EFFF, 0xFF1C2030),
                             borderRadius: BorderRadius.circular(16),
                           ),
                           child: Column(
@@ -280,7 +280,7 @@ class _WritingRewriterScreenState extends State<WritingRewriterScreen> {
                                 style: TextStyle(
                                   fontSize: 11,
                                   height: 1.3,
-                                  color: wc(t, 0xFF4F4A6B, 0xFF9A9A9A),
+                                  color: wc(t, 0xFF3A4A7A, 0xFF9A9A9A),
                                 ),
                               ),
                             ],
@@ -316,10 +316,10 @@ class _Column extends StatelessWidget {
     final t = context.tk;
     final Color bg = improved ? t.primary : t.surface;
     final Color labelColor = improved
-        ? wc(t, 0xFFBDB6BB, 0xFF5A5446)
+        ? wc(t, 0xFFBDB6BB, 0xFF5E5056)
         : t.textMuted;
     final Color pillBg = improved
-        ? wc(t, 0xFFDCDDFA, 0xFF151515)
+        ? wc(t, 0xFFDCE6FF, 0xFF151515)
         : t.surfaceAlt2;
     final Color pillFg = improved
         ? wc(t, 0xFF151515, 0xFFFFFFFF)
@@ -346,7 +346,7 @@ class _Column extends StatelessWidget {
         return TextSpan(
           text: text,
           style: TextStyle(
-            backgroundColor: wc(t, 0xFF3B3C6B, 0xFF151515),
+            backgroundColor: wc(t, 0xFF2F4FC2, 0xFF151515),
             color: t.isNight ? const Color(0xFFFFFFFF) : body,
           ),
         );
@@ -445,7 +445,7 @@ class _ChangeRow extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: wc(t, 0xFFEEEFFD, 0xFF1F1F1F),
+        color: wc(t, 0xFFE9EFFF, 0xFF1C2030),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -479,7 +479,7 @@ class _ChangeRow extends StatelessWidget {
               style: TextStyle(
                 fontSize: 12,
                 height: 1.35,
-                color: wc(t, 0xFF4F4A6B, 0xFF9A9A9A),
+                color: wc(t, 0xFF3A4A7A, 0xFF9A9A9A),
               ),
             ),
         ],

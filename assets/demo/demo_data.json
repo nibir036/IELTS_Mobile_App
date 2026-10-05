@@ -236,12 +236,12 @@
         },
         "micOff": {
           "title": "Microphone is off",
-          "body": "IELTS AI can't use your microphone. Turn it on in Settings to record, or skip Speaking — your other bands still count."
+          "body": "IELTS AI can't use your microphone. Turn it on in Settings to record, or skip Speaking - your other bands still count."
         }
       },
       "result": {
         "title": "Your diagnostic result",
-        "subtitle": "An estimate from a short test — take a full mock for an exam-length score.",
+        "subtitle": "An estimate from a short test - take a full mock for an exam-length score.",
         "practice": {
           "listening": {
             "title": "Listening practice",
@@ -305,7 +305,7 @@
       "contactEmail": "support@nexted.app",
       "terms": {
         "title": "Terms of Use",
-        "intro": "These terms explain the deal between you and nextED when you use IELTS AI by nextED (\"the app\"). Please read them — by creating an account or using the app you agree to them.",
+        "intro": "These terms explain the deal between you and nextED when you use IELTS AI by nextED (\"the app\"). Please read them - by creating an account or using the app you agree to them.",
         "sections": [
           {
             "heading": "1. Who we are",
@@ -317,7 +317,7 @@
             "heading": "2. Not the official IELTS test",
             "body": [
               "IELTS is a registered trademark of the British Council, IDP: IELTS Australia and Cambridge University Press & Assessment. IELTS AI is independent: we are not affiliated with, endorsed by or approved by any of them.",
-              "Our practice tests are written by us to match the format of the real exam. The bands we give are estimates to guide your study — they are not official results and cannot be used for visa, university or job applications."
+              "Our practice tests are written by us to match the format of the real exam. The bands we give are estimates to guide your study - they are not official results and cannot be used for visa, university or job applications."
             ]
           },
           {
@@ -552,18 +552,19 @@
           },
           {
             "id": "mod_vocab_grammar",
-            "title": "Grammar Course · English / বাংলা",
-            "icon": "article",
-            "target": "grammarGuide",
-            "meta": "11 chapters"
+            "title": "Grammar Course",
+            "icon": "school",
+            "target": "grammarCourse",
+            "course": "grammar",
+            "meta": ""
           },
           {
             "id": "mod_vocab_lessons",
-            "title": "Vocabulary Lessons · English / বাংলা",
-            "icon": "article",
-            "target": "vocabGuide",
-            "meta": "49 lessons",
-            "liveCount": "vocabGuide"
+            "title": "Vocabulary Course",
+            "icon": "school",
+            "target": "vocabCourse",
+            "course": "vocab",
+            "meta": ""
           },
           {
             "id": "mod_vocab_vault",
@@ -632,11 +633,20 @@
         "target": "writingSelector",
         "items": [
           {
+            "id": "mod_writing_booster",
+            "title": "Writing Booster · Linking",
+            "icon": "pen",
+            "meta": "1,240 sentences",
+            "highlight": true,
+            "target": "sentenceBuilder"
+          },
+          {
             "id": "mod_writing_guide",
-            "title": "Writing Guide · English / বাংলা",
-            "icon": "article",
-            "target": "writingGuide",
-            "meta": "23 chapters"
+            "title": "Writing Course",
+            "icon": "school",
+            "target": "writingCourse",
+            "course": "writing",
+            "meta": ""
           },
           {
             "id": "mod_writing_tips",
@@ -682,14 +692,6 @@
             "args": {
               "task": 2
             }
-          },
-          {
-            "id": "mod_writing_booster",
-            "title": "Writing Booster · Linking",
-            "icon": "pen",
-            "meta": "",
-            "highlight": true,
-            "target": "sentenceBuilder"
           },
           {
             "id": "mod_writing_template",
@@ -739,10 +741,11 @@
           },
           {
             "id": "mod_sp_guide",
-            "title": "Speaking Guide · English / বাংলা",
-            "icon": "article",
-            "target": "speakingGuide",
-            "meta": "22 chapters"
+            "title": "Speaking Course",
+            "icon": "school",
+            "target": "speakingCourse",
+            "course": "speaking",
+            "meta": ""
           },
           {
             "id": "mod_sp_tips",
@@ -837,10 +840,11 @@
           },
           {
             "id": "mod_li_guide",
-            "title": "Listening Guide · English / বাংলা",
-            "icon": "article",
-            "target": "listeningGuide",
-            "meta": "15 chapters"
+            "title": "Listening Course",
+            "icon": "school",
+            "target": "listeningCourse",
+            "course": "listening",
+            "meta": ""
           },
           {
             "id": "mod_li_tips",
@@ -904,10 +908,11 @@
           },
           {
             "id": "mod_reading_guide",
-            "title": "Reading Guide · English / বাংলা",
-            "icon": "article",
-            "target": "readingGuide",
-            "meta": "10 chapters"
+            "title": "Reading Course",
+            "icon": "school",
+            "target": "readingCourse",
+            "course": "reading",
+            "meta": ""
           },
           {
             "id": "mod_re_tests",
@@ -1007,7 +1012,7 @@
         },
         {
           "id": "certificates",
-          "title": "Certificates",
+          "title": "Milestones",
           "icon": "medal",
           "target": "certificates"
         },
@@ -1057,7 +1062,7 @@
           "type": "Drill",
           "category": "drills",
           "title": "Linking words: contrast & addition",
-          "subtitle": "Writing Booster · 12 questions",
+          "subtitle": "Sentence Builder · 1,240 sentences",
           "keywords": "cohesive devices linking words connectors",
           "target": "sentenceBuilder"
         },
@@ -1138,7 +1143,7 @@
           "type": "Drill",
           "category": "drills",
           "title": "Sentence combining: relative clauses",
-          "subtitle": "Sentence Builder · 10 questions",
+          "subtitle": "Sentence Builder · 100 sentences",
           "keywords": "cohesive devices complex sentences",
           "target": "sentenceBuilder"
         },
@@ -1146,8 +1151,8 @@
           "id": "srch_013",
           "type": "Drill",
           "category": "drills",
-          "title": "Overusing linkers: spot the error",
-          "subtitle": "Writing Booster · 8 questions",
+          "title": "Linking words practice: 13 categories",
+          "subtitle": "Sentence Builder · sets of 10",
           "keywords": "cohesive devices mechanical overuse",
           "target": "sentenceBuilder"
         },
@@ -1190,89 +1195,207 @@
       ]
     },
     "certificates": {
-      "intro": "Milestones you unlock as you practise. Each one is earned from your own results.",
+      "intro": "Badges you unlock as you learn and practise. Each one is earned from your own lessons and results.",
       "items": [
         {
-          "id": "first_mock",
-          "code": "FM",
-          "title": "First full mock test",
-          "description": "Completed a full four-skill IELTS Academic mock test.",
-          "icon": "mock",
+          "id": "first_lesson",
+          "group": "Learning",
+          "code": "L1",
+          "title": "First lesson",
+          "description": "Finished your first lesson in a course.",
+          "icon": "school",
+          "rule": {
+            "type": "lessons",
+            "goal": 1
+          },
+          "unit": "lessons"
+        },
+        {
+          "id": "lessons_10",
+          "group": "Learning",
+          "code": "L10",
+          "title": "10 lessons",
+          "description": "Finished ten course lessons.",
+          "icon": "school",
+          "rule": {
+            "type": "lessons",
+            "goal": 10
+          },
+          "unit": "lessons"
+        },
+        {
+          "id": "lessons_25",
+          "group": "Learning",
+          "code": "L25",
+          "title": "25 lessons",
+          "description": "Finished twenty-five course lessons.",
+          "icon": "layers",
+          "rule": {
+            "type": "lessons",
+            "goal": 25
+          },
+          "unit": "lessons"
+        },
+        {
+          "id": "stage_w1",
+          "group": "Learning",
+          "code": "WF",
+          "title": "Writing foundations",
+          "description": "Completed Stage 1 of the Writing Course: the five pillars, cohesion and coherence.",
+          "icon": "pen",
+          "rule": {
+            "type": "stage",
+            "module": "writing",
+            "stage": "w1"
+          }
+        },
+        {
+          "id": "stage_s1",
+          "group": "Learning",
+          "code": "SF",
+          "title": "Speaking foundations",
+          "description": "Completed Stage 1 of the Speaking Course: how the test works and how it is marked.",
+          "icon": "mic",
+          "rule": {
+            "type": "stage",
+            "module": "speaking",
+            "stage": "s1"
+          }
+        },
+        {
+          "id": "stage_r1",
+          "group": "Learning",
+          "code": "RF",
+          "title": "Reading foundations",
+          "description": "Completed Stage 1 of the Reading Course: the test, the band score and the answer rules.",
+          "icon": "reading",
+          "rule": {
+            "type": "stage",
+            "module": "reading",
+            "stage": "r1"
+          }
+        },
+        {
+          "id": "stage_l1",
+          "group": "Learning",
+          "code": "LF",
+          "title": "Listening foundations",
+          "description": "Completed Stage 1 of the Listening Course: the four parts and the expert listening mindset.",
+          "icon": "headphones",
+          "rule": {
+            "type": "stage",
+            "module": "listening",
+            "stage": "l1"
+          }
+        },
+        {
+          "id": "stage_g1",
+          "group": "Learning",
+          "code": "GA",
+          "title": "Agreement fixed",
+          "description": "Completed Stage 1 of the Grammar Course: subject–verb agreement.",
+          "icon": "check",
+          "rule": {
+            "type": "stage",
+            "module": "grammar",
+            "stage": "g1"
+          }
+        },
+        {
+          "id": "stage_v1",
+          "group": "Learning",
+          "code": "VL1",
+          "title": "L1 errors fixed",
+          "description": "Completed Stage 1 of the Vocabulary Course: the Bangla-to-English errors that cost easy marks.",
+          "icon": "school",
+          "rule": {
+            "type": "stage",
+            "module": "vocab",
+            "stage": "v1"
+          }
+        },
+        {
+          "id": "lessons_50",
+          "group": "Learning",
+          "code": "L50",
+          "title": "50 lessons",
+          "description": "Finished fifty course lessons.",
+          "icon": "layers",
+          "rule": {
+            "type": "lessons",
+            "goal": 50
+          },
+          "unit": "lessons"
+        },
+        {
+          "id": "course_writing",
+          "group": "Learning",
+          "code": "WC",
+          "title": "Writing Course complete",
+          "description": "Finished every lesson of the Writing Course.",
+          "icon": "trophy",
+          "rule": {
+            "type": "course",
+            "module": "writing"
+          },
+          "unit": "lessons"
+        },
+        {
+          "id": "xp_100",
+          "group": "Learning",
+          "code": "X1",
+          "title": "100 XP",
+          "description": "Earned 100 XP from lessons.",
+          "icon": "star",
+          "rule": {
+            "type": "xp",
+            "goal": 100
+          },
+          "unit": "XP"
+        },
+        {
+          "id": "xp_500",
+          "group": "Learning",
+          "code": "X5",
+          "title": "500 XP",
+          "description": "Earned 500 XP from lessons.",
+          "icon": "star",
+          "rule": {
+            "type": "xp",
+            "goal": 500
+          },
+          "unit": "XP"
+        },
+        {
+          "id": "xp_1000",
+          "group": "Learning",
+          "code": "X10",
+          "title": "1,000 XP",
+          "description": "Earned 1,000 XP from lessons.",
+          "icon": "bolt",
+          "rule": {
+            "type": "xp",
+            "goal": 1000
+          },
+          "unit": "XP"
+        },
+        {
+          "id": "first_essay",
+          "group": "Practice",
+          "code": "E1",
+          "title": "First essay",
+          "description": "Wrote and submitted your first Task 1 or Task 2 essay.",
+          "icon": "pen",
           "rule": {
             "type": "count",
-            "skill": "mock",
+            "skill": "writing",
             "kinds": [
-              "mock"
+              "task1",
+              "task2"
             ],
             "goal": 1
           },
-          "unit": "mock tests"
-        },
-        {
-          "id": "mock_65",
-          "code": "M65",
-          "title": "Band 6.5 in a mock",
-          "description": "Scored an overall Band 6.5 or higher in a full mock test.",
-          "icon": "trophy",
-          "rule": {
-            "type": "mockOverall",
-            "band": 6.5
-          }
-        },
-        {
-          "id": "mock_70",
-          "code": "M70",
-          "title": "Band 7.0 in a mock",
-          "description": "Scored an overall Band 7.0 or higher in a full mock test.",
-          "icon": "trophy",
-          "rule": {
-            "type": "mockOverall",
-            "band": 7.0
-          }
-        },
-        {
-          "id": "target_listening",
-          "code": "TL",
-          "title": "Listening on target",
-          "description": "Reached your target band in Listening.",
-          "icon": "listening",
-          "rule": {
-            "type": "skillTarget",
-            "skill": "listening"
-          }
-        },
-        {
-          "id": "target_reading",
-          "code": "TR",
-          "title": "Reading on target",
-          "description": "Reached your target band in Reading.",
-          "icon": "reading",
-          "rule": {
-            "type": "skillTarget",
-            "skill": "reading"
-          }
-        },
-        {
-          "id": "target_writing",
-          "code": "TW",
-          "title": "Writing on target",
-          "description": "Reached your target band in Writing.",
-          "icon": "writing",
-          "rule": {
-            "type": "skillTarget",
-            "skill": "writing"
-          }
-        },
-        {
-          "id": "target_speaking",
-          "code": "TS",
-          "title": "Speaking on target",
-          "description": "Reached your target band in Speaking.",
-          "icon": "speaking",
-          "rule": {
-            "type": "skillTarget",
-            "skill": "speaking"
-          }
+          "unit": "essays"
         },
         {
           "id": "essays_10",
@@ -1289,7 +1412,45 @@
             ],
             "goal": 10
           },
+          "unit": "essays",
+          "group": "Practice"
+        },
+        {
+          "id": "essays_25",
+          "group": "Practice",
+          "code": "E25",
+          "title": "25 writing essays",
+          "description": "Wrote and submitted twenty-five Task 1 or Task 2 essays.",
+          "icon": "pen",
+          "rule": {
+            "type": "count",
+            "skill": "writing",
+            "kinds": [
+              "task1",
+              "task2"
+            ],
+            "goal": 25
+          },
           "unit": "essays"
+        },
+        {
+          "id": "first_speaking",
+          "group": "Practice",
+          "code": "S1",
+          "title": "First speaking answer",
+          "description": "Recorded your first Part 1, 2 or 3 speaking answer.",
+          "icon": "mic",
+          "rule": {
+            "type": "count",
+            "skill": "speaking",
+            "kinds": [
+              "part1",
+              "part2",
+              "part3"
+            ],
+            "goal": 1
+          },
+          "unit": "answers"
         },
         {
           "id": "speaking_20",
@@ -1307,19 +1468,57 @@
             ],
             "goal": 20
           },
+          "unit": "answers",
+          "group": "Practice"
+        },
+        {
+          "id": "speaking_50",
+          "group": "Practice",
+          "code": "S50",
+          "title": "50 speaking answers",
+          "description": "Recorded fifty Part 1, 2 or 3 speaking answers.",
+          "icon": "mic",
+          "rule": {
+            "type": "count",
+            "skill": "speaking",
+            "kinds": [
+              "part1",
+              "part2",
+              "part3"
+            ],
+            "goal": 50
+          },
           "unit": "answers"
         },
         {
-          "id": "streak_7",
-          "code": "ST7",
-          "title": "7-day streak",
-          "description": "Practised on seven days in a row.",
-          "icon": "fire",
+          "id": "reading_10",
+          "group": "Practice",
+          "code": "R10",
+          "title": "10 reading practices",
+          "description": "Completed ten Reading passages or tests.",
+          "icon": "reading",
           "rule": {
-            "type": "streak",
-            "goal": 7
+            "type": "count",
+            "skill": "reading",
+            "kinds": [],
+            "goal": 10
           },
-          "unit": "days"
+          "unit": "practices"
+        },
+        {
+          "id": "listening_10",
+          "group": "Practice",
+          "code": "LI10",
+          "title": "10 listening practices",
+          "description": "Completed ten Listening sections or tests.",
+          "icon": "headphones",
+          "rule": {
+            "type": "count",
+            "skill": "listening",
+            "kinds": [],
+            "goal": 10
+          },
+          "unit": "practices"
         },
         {
           "id": "listening_parts",
@@ -1331,7 +1530,178 @@
             "type": "listeningParts",
             "goal": 4
           },
-          "unit": "parts"
+          "unit": "parts",
+          "group": "Practice"
+        },
+        {
+          "id": "first_mock",
+          "code": "FM",
+          "title": "First full mock test",
+          "description": "Completed a full four-skill IELTS Academic mock test.",
+          "icon": "mock",
+          "rule": {
+            "type": "count",
+            "skill": "mock",
+            "kinds": [
+              "mock"
+            ],
+            "goal": 1
+          },
+          "unit": "mock tests",
+          "group": "Practice"
+        },
+        {
+          "id": "mocks_5",
+          "group": "Practice",
+          "code": "M5",
+          "title": "5 full mock tests",
+          "description": "Completed five full four-skill mock tests.",
+          "icon": "mock",
+          "rule": {
+            "type": "count",
+            "skill": "mock",
+            "kinds": [
+              "mock"
+            ],
+            "goal": 5
+          },
+          "unit": "mock tests"
+        },
+        {
+          "id": "streak_3",
+          "group": "Streaks",
+          "code": "ST3",
+          "title": "3-day streak",
+          "description": "Practised or finished a lesson on three days in a row.",
+          "icon": "fire",
+          "rule": {
+            "type": "streak",
+            "goal": 3
+          },
+          "unit": "days"
+        },
+        {
+          "id": "streak_7",
+          "code": "ST7",
+          "title": "7-day streak",
+          "description": "Practised or finished a lesson on seven days in a row.",
+          "icon": "fire",
+          "rule": {
+            "type": "streak",
+            "goal": 7
+          },
+          "unit": "days",
+          "group": "Streaks"
+        },
+        {
+          "id": "streak_14",
+          "group": "Streaks",
+          "code": "ST14",
+          "title": "14-day streak",
+          "description": "Practised or finished a lesson on fourteen days in a row.",
+          "icon": "fire",
+          "rule": {
+            "type": "streak",
+            "goal": 14
+          },
+          "unit": "days"
+        },
+        {
+          "id": "streak_30",
+          "group": "Streaks",
+          "code": "ST30",
+          "title": "30-day streak",
+          "description": "Practised or finished a lesson on thirty days in a row.",
+          "icon": "fire",
+          "rule": {
+            "type": "streak",
+            "goal": 30
+          },
+          "unit": "days"
+        },
+        {
+          "id": "mock_65",
+          "code": "M65",
+          "title": "Band 6.5 in a mock",
+          "description": "Scored an overall Band 6.5 or higher in a full mock test.",
+          "icon": "trophy",
+          "rule": {
+            "type": "mockOverall",
+            "band": 6.5
+          },
+          "group": "Scores"
+        },
+        {
+          "id": "mock_70",
+          "code": "M70",
+          "title": "Band 7.0 in a mock",
+          "description": "Scored an overall Band 7.0 or higher in a full mock test.",
+          "icon": "trophy",
+          "rule": {
+            "type": "mockOverall",
+            "band": 7.0
+          },
+          "group": "Scores"
+        },
+        {
+          "id": "mock_75",
+          "group": "Scores",
+          "code": "M75",
+          "title": "Band 7.5 in a mock",
+          "description": "Scored an overall Band 7.5 or higher in a full mock test.",
+          "icon": "trophy",
+          "rule": {
+            "type": "mockOverall",
+            "band": 7.5
+          }
+        },
+        {
+          "id": "target_listening",
+          "code": "TL",
+          "title": "Listening on target",
+          "description": "Reached your target band in Listening.",
+          "icon": "listening",
+          "rule": {
+            "type": "skillTarget",
+            "skill": "listening"
+          },
+          "group": "Scores"
+        },
+        {
+          "id": "target_reading",
+          "code": "TR",
+          "title": "Reading on target",
+          "description": "Reached your target band in Reading.",
+          "icon": "reading",
+          "rule": {
+            "type": "skillTarget",
+            "skill": "reading"
+          },
+          "group": "Scores"
+        },
+        {
+          "id": "target_writing",
+          "code": "TW",
+          "title": "Writing on target",
+          "description": "Reached your target band in Writing.",
+          "icon": "writing",
+          "rule": {
+            "type": "skillTarget",
+            "skill": "writing"
+          },
+          "group": "Scores"
+        },
+        {
+          "id": "target_speaking",
+          "code": "TS",
+          "title": "Speaking on target",
+          "description": "Reached your target band in Speaking.",
+          "icon": "speaking",
+          "rule": {
+            "type": "skillTarget",
+            "skill": "speaking"
+          },
+          "group": "Scores"
         }
       ]
     },
@@ -1406,7 +1776,7 @@
         },
         {
           "id": "certificates",
-          "label": "Certificates",
+          "label": "Milestones & badges",
           "free": "yes",
           "pro": "yes"
         },
@@ -1419,7 +1789,7 @@
       ],
       "comingSoon": {
         "title": "Payments open soon",
-        "body": "We’re putting the finishing touches to Pro. Nothing is charged today — turn on the reminder and we’ll tell you the moment you can upgrade.",
+        "body": "We’re putting the finishing touches to Pro. Nothing is charged today - turn on the reminder and we’ll tell you the moment you can upgrade.",
         "toggleLabel": "Notify me when Pro launches",
         "confirmation": "You’re on the list. We’ll notify you when Pro launches."
       },
@@ -1476,12 +1846,12 @@
       "more": [
         {
           "id": "guide",
-          "title": "Writing Guide",
-          "subtitle": "The complete nextED Writing book · English / বাংলা",
+          "title": "Writing Course",
+          "subtitle": "Step-by-step lessons from the nextED Writing book",
           "meta": "",
           "icon": "guide",
           "tone": "mist",
-          "target": "writingGuide"
+          "target": "writingCourse"
         },
         {
           "id": "lessons",
@@ -1496,7 +1866,7 @@
           "id": "booster",
           "title": "Writing Booster",
           "subtitle": "Vocabulary, linking & grammar drills",
-          "meta": "24 drills",
+          "meta": "1,240 sentences",
           "icon": "booster",
           "tone": "lavender",
           "target": "sentenceBuilder"
@@ -2525,7 +2895,7 @@
             },
             {
               "title": "Overview",
-              "subtitle": "Main trends — no figures",
+              "subtitle": "Main trends - no figures",
               "segments": [
                 {
                   "text": "Overall, it is clear that "
@@ -2879,7 +3249,7 @@
             },
             {
               "title": "Overview",
-              "subtitle": "Biggest changes — no detail",
+              "subtitle": "Biggest changes - no detail",
               "segments": [
                 {
                   "text": "Overall, "
@@ -3932,7 +4302,7 @@
             },
             {
               "title": "Overview",
-              "subtitle": "Main trends + highest line — no figures",
+              "subtitle": "Main trends + highest line - no figures",
               "segments": [
                 {
                   "text": "Overall, "
@@ -5315,7 +5685,7 @@
             {
               "type": "filler",
               "text": "um",
-              "note": "Filler — try a short silent pause instead."
+              "note": "Filler - try a short silent pause instead."
             },
             {
               "type": "text",
@@ -5333,7 +5703,7 @@
             {
               "type": "pause",
               "text": "‖ 2.4s",
-              "note": "Long pause mid-sentence — link ideas with \"especially\"."
+              "note": "Long pause mid-sentence - link ideas with \"especially\"."
             },
             {
               "type": "text",
@@ -5351,7 +5721,7 @@
             {
               "type": "filler",
               "text": "you know",
-              "note": "Filler — drop it or pause briefly."
+              "note": "Filler - drop it or pause briefly."
             },
             {
               "type": "text",
@@ -5360,7 +5730,7 @@
             {
               "type": "mispronounced",
               "text": "practised",
-              "note": "Say PRAK-tist — two syllables, final /t/."
+              "note": "Say PRAK-tist - two syllables, final /t/."
             },
             {
               "type": "text",
@@ -5369,7 +5739,7 @@
             {
               "type": "filler",
               "text": "like",
-              "note": "Filler — start the sentence directly."
+              "note": "Filler - start the sentence directly."
             },
             {
               "type": "text",
@@ -5378,7 +5748,7 @@
             {
               "type": "pause",
               "text": "‖ 1.8s",
-              "note": "Long pause — plan the reason before \"because\"."
+              "note": "Long pause - plan the reason before \"because\"."
             },
             {
               "type": "text",
@@ -5454,7 +5824,7 @@
               "state": "error"
             }
           ],
-          "feedback": "You said “strug-a-ling” — keep it to two light beats after the stress.",
+          "feedback": "You said “strug-a-ling” - keep it to two light beats after the stress.",
           "errorBars": [
             10,
             12
@@ -5491,7 +5861,7 @@
               "state": "normal"
             }
           ],
-          "feedback": "You said “tic-ker” — the “u” should be a light /jə/.",
+          "feedback": "You said “tic-ker” - the “u” should be a light /jə/.",
           "errorBars": [
             5,
             7
@@ -5520,7 +5890,7 @@
               "state": "error"
             }
           ],
-          "feedback": "You stressed “-dence” — put the weight on “CON”.",
+          "feedback": "You stressed “-dence” - put the weight on “CON”.",
           "errorBars": [
             9,
             11
@@ -5549,7 +5919,7 @@
               "state": "normal"
             }
           ],
-          "feedback": "You said “cal-ku” — use the weak /kjə/ sound.",
+          "feedback": "You said “cal-ku” - use the weak /kjə/ sound.",
           "errorBars": [
             5,
             7
@@ -5582,7 +5952,7 @@
               "state": "normal"
             }
           ],
-          "feedback": "You added “ex-” — start with a short /ɪ/, not /eks/.",
+          "feedback": "You added “ex-” - start with a short /ɪ/, not /eks/.",
           "errorBars": [
             0,
             2
@@ -5611,7 +5981,7 @@
               "state": "error"
             }
           ],
-          "feedback": "You said four syllables — native speakers use three.",
+          "feedback": "You said four syllables - native speakers use three.",
           "errorBars": [
             11,
             13
@@ -5729,11 +6099,11 @@
           "Link ideas with “especially”, “because” and “as a result”."
         ],
         "LR": [
-          "Swap common words for precise ones — “crucial” instead of “very important”.",
+          "Swap common words for precise ones - “crucial” instead of “very important”.",
           "Use one or two topic phrases per answer, e.g. “green space”, “urban sprawl”."
         ],
         "GRA": [
-          "Mix simple and complex sentences — add one “although” or “which” clause per answer.",
+          "Mix simple and complex sentences - add one “although” or “which” clause per answer.",
           "Check past tenses when you tell a story."
         ],
         "P": [
@@ -5756,9 +6126,9 @@
         },
         {
           "id": "guide",
-          "title": "Reading Guide",
+          "title": "Reading Course",
           "count": "",
-          "subtitle": "Test format, band scores, skills, timing · English / বাংলা",
+          "subtitle": "Test format, band scores, skills and timing - in bite-sized lessons",
           "tone": "mist",
           "icon": "guide"
         },
@@ -5817,7 +6187,7 @@
         "id": "rl_03",
         "title": "Paraphrase spotting",
         "keyIdeaLabel": "Key idea",
-        "keyIdea": "IELTS rarely repeats the passage word for word. Questions **paraphrase** it — “rose sharply” becomes “increased dramatically”. Match the **meaning**, not the words.",
+        "keyIdea": "IELTS rarely repeats the passage word for word. Questions **paraphrase** it - “rose sharply” becomes “increased dramatically”. Match the **meaning**, not the words.",
         "uses": [
           {
             "label": "Use it for",
@@ -5898,7 +6268,7 @@
         "id": "rl_04",
         "title": "Skimming vs scanning",
         "keyIdeaLabel": "Key idea",
-        "keyIdea": "**Skim** for the main idea of each paragraph — first and last sentences. **Scan** for a specific detail — names, numbers, dates — without reading every word.",
+        "keyIdea": "**Skim** for the main idea of each paragraph - first and last sentences. **Scan** for a specific detail - names, numbers, dates - without reading every word.",
         "uses": [
           {
             "label": "Use skimming for",
@@ -5979,7 +6349,7 @@
         "id": "rl_05",
         "title": "False or Not Given?",
         "keyIdeaLabel": "Key idea",
-        "keyIdea": "Choose **False** only when the passage says the **opposite**. If the passage simply does not tell you, the answer is **Not Given** — never use your own knowledge.",
+        "keyIdea": "Choose **False** only when the passage says the **opposite**. If the passage simply does not tell you, the answer is **Not Given** - never use your own knowledge.",
         "uses": [
           {
             "label": "Answer False when",
@@ -6151,9 +6521,9 @@
         },
         {
           "id": "guide",
-          "title": "Listening Guide",
-          "count": "15 chapters",
-          "subtitle": "Zero to Band 9: strategy, every question type, drills · English / বাংলা",
+          "title": "Listening Course",
+          "count": "",
+          "subtitle": "Strategy, every question type and drills - in bite-sized lessons",
           "icon": "guide"
         },
         {
@@ -6196,7 +6566,7 @@
       {
         "id": "ll_06",
         "title": "Spelling names",
-        "body": "Part 1 speakers often **spell** names and streets letter by letter. Write each letter as you hear it, then check the whole word. Phone numbers come in small groups — write them exactly as they are read.",
+        "body": "Part 1 speakers often **spell** names and streets letter by letter. Write each letter as you hear it, then check the whole word. Phone numbers come in small groups - write them exactly as they are read.",
         "audio": "assets/audio/listening/ll_06.mp3",
         "audioDurationSeconds": 52.6,
         "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
@@ -6390,7 +6760,7 @@
       {
         "id": "ll_09",
         "title": "Hearing the correction",
-        "body": "Speakers change their minds: \"here in Hadley?\" — \"No… **actually**, Ashford.\" Words like **actually**, **but** and **so** warn you that the first idea is not the answer, so wait for the final version.",
+        "body": "Speakers change their minds: \"here in Hadley?\" - \"No… **actually**, Ashford.\" Words like **actually**, **but** and **so** warn you that the first idea is not the answer, so wait for the final version.",
         "audio": "assets/audio/listening/ll_09.mp3",
         "audioDurationSeconds": 34.2,
         "instruction": "Exercise · Write ONE WORD AND/OR A NUMBER",
@@ -6435,7 +6805,7 @@
       {
         "id": "ll_10",
         "title": "Predict the gap",
-        "body": "Before the audio starts, read each sentence and **predict** the missing word: a day? a length of time? a number? Knowing what you need makes the answer stand out — and the distractor (12 weeks) easier to skip.",
+        "body": "Before the audio starts, read each sentence and **predict** the missing word: a day? a length of time? a number? Knowing what you need makes the answer stand out - and the distractor (12 weeks) easier to skip.",
         "audio": "assets/audio/listening/ll_10.mp3",
         "audioDurationSeconds": 35.0,
         "instruction": "Exercise · Write NO MORE THAN TWO WORDS AND/OR A NUMBER",
@@ -6505,7 +6875,7 @@
         "rows": [
           {
             "number": 1,
-            "before": "Swift Movers — Price: £",
+            "before": "Swift Movers - Price: £",
             "after": "",
             "answer": "450",
             "accepted": [
@@ -6514,7 +6884,7 @@
           },
           {
             "number": 2,
-            "before": "Swift Movers — Included: up to",
+            "before": "Swift Movers - Included: up to",
             "after": "boxes",
             "answer": "20 / twenty",
             "accepted": [
@@ -6524,7 +6894,7 @@
           },
           {
             "number": 3,
-            "before": "Swift Movers — Notice needed:",
+            "before": "Swift Movers - Notice needed:",
             "after": "weeks",
             "answer": "2 / two",
             "accepted": [
@@ -6534,7 +6904,7 @@
           },
           {
             "number": 4,
-            "before": "Swift Movers — Extra charge for:",
+            "before": "Swift Movers - Extra charge for:",
             "after": "",
             "answer": "stairs",
             "accepted": [
@@ -6546,7 +6916,7 @@
       {
         "id": "ll_12",
         "title": "Word limits",
-        "body": "Short answers have a **word limit**. \"Closed shoes\" is two words — fine; \"a pair of closed shoes\" is too many and is marked wrong. Write only the key words you hear.",
+        "body": "Short answers have a **word limit**. \"Closed shoes\" is two words - fine; \"a pair of closed shoes\" is too many and is marked wrong. Write only the key words you hear.",
         "audio": "assets/audio/listening/ll_12.mp3",
         "audioDurationSeconds": 29.7,
         "instruction": "Exercise · Write NO MORE THAN TWO WORDS AND/OR A NUMBER",
@@ -6801,7 +7171,7 @@
         "doneCount": 1,
         "completedLine": "Listening complete · answers saved",
         "headline": "Reading starts in",
-        "note": "No extra transfer time in Reading — answer directly on screen.",
+        "note": "No extra transfer time in Reading - answer directly on screen.",
         "cta": "Start Reading now",
         "countdownSeconds": 30,
         "startSeconds": 24
@@ -6810,7 +7180,7 @@
         "doneCount": 2,
         "completedLine": "Reading complete · answers saved",
         "headline": "Writing starts in",
-        "note": "Task 1 and Task 2 share one 60-minute timer — spend about 20 minutes on Task 1.",
+        "note": "Task 1 and Task 2 share one 60-minute timer - spend about 20 minutes on Task 1.",
         "cta": "Start Writing now",
         "countdownSeconds": 30,
         "startSeconds": 24
@@ -6819,7 +7189,7 @@
         "doneCount": 3,
         "completedLine": "Writing complete · essays saved",
         "headline": "Speaking starts in",
-        "note": "Find a quiet room — all three parts are recorded without a pause.",
+        "note": "Find a quiet room - all three parts are recorded without a pause.",
         "cta": "Start Speaking now",
         "countdownSeconds": 30,
         "startSeconds": 24
@@ -6925,7 +7295,7 @@
       "sectionName": "Reading",
       "title": "Reading · Passage 3",
       "secondsLeft": 298,
-      "banner": "5 minutes left — answers save automatically."
+      "banner": "5 minutes left - answers save automatically."
     },
     "plan": {
       "titleTemplate": "Your plan to {target}",
@@ -7129,11 +7499,11 @@
         {
           "id": "grammar",
           "title": "Grammar Course",
-          "subtitle": "11 chapters · rules, error fixes, exercises · English / বাংলা",
+          "subtitle": "Bite-sized lessons with quick checks and exercises",
           "count": "258 exercises",
           "icon": "school",
           "tone": "lavender",
-          "target": "grammarGuide"
+          "target": "grammarCourse"
         },
         {
           "id": "vocabulary",
@@ -7146,12 +7516,12 @@
         },
         {
           "id": "vocab_lessons",
-          "title": "Vocabulary Lessons",
-          "subtitle": "The full Zero to Band 9 vocabulary book: L1 error fixes, band upgrades, 100 verbs, 15 topics, idioms, workbook · English / বাংলা",
-          "count": "49 lessons",
+          "title": "Vocabulary Course",
+          "subtitle": "L1 error fixes, band upgrades, 100 verbs, 15 topics, idioms and a workbook - in bite-sized lessons",
+          "count": "",
           "icon": "school",
           "tone": "lavender",
-          "target": "vocabGuide"
+          "target": "vocabCourse"
         },
         {
           "id": "academic_words",
@@ -8924,15 +9294,15 @@
         "tips": [
           {
             "title": "Read the questions first",
-            "body": "Use the pause before each section to read every gap. Underline the words just before and after each blank — they are the signposts you will hear in the audio."
+            "body": "Use the pause before each section to read every gap. Underline the words just before and after each blank - they are the signposts you will hear in the audio."
           },
           {
             "title": "Predict the answer type",
-            "body": "Before the audio starts, decide what each gap needs — a number, a name, a date or a noun. “Phone: ______” can only be a number, so you listen for digits, not words."
+            "body": "Before the audio starts, decide what each gap needs - a number, a name, a date or a noun. “Phone: ______” can only be a number, so you listen for digits, not words."
           },
           {
             "title": "Watch for distractors",
-            "body": "Speakers often give one answer and then correct it: “It’s on the 15th — sorry, the 16th.” Wait for the final version before you write anything down."
+            "body": "Speakers often give one answer and then correct it: “It’s on the 15th - sorry, the 16th.” Wait for the final version before you write anything down."
           },
           {
             "title": "Check spelling & plurals",
@@ -8959,7 +9329,7 @@
           },
           {
             "title": "Expect every option to be mentioned",
-            "body": "Usually all three options appear in the recording. Only one of them answers the question exactly — the others are mentioned and then rejected."
+            "body": "Usually all three options appear in the recording. Only one of them answers the question exactly - the others are mentioned and then rejected."
           },
           {
             "title": "Listen for contrast words",
@@ -8986,7 +9356,7 @@
         "tips": [
           {
             "title": "Find the starting point",
-            "body": "Locate where the speaker begins — usually an entrance or a “you are here” mark — and put your pencil on it."
+            "body": "Locate where the speaker begins - usually an entrance or a “you are here” mark - and put your pencil on it."
           },
           {
             "title": "Learn direction language",
@@ -9029,7 +9399,7 @@
           },
           {
             "title": "Guess the leftovers",
-            "body": "Never leave a blank. If two gaps remain, use the two unused options — you may pick up a free mark."
+            "body": "Never leave a blank. If two gaps remain, use the two unused options - you may pick up a free mark."
           }
         ],
         "tryIt": {
@@ -9048,7 +9418,7 @@
         "tips": [
           {
             "title": "Treat each statement as a claim",
-            "body": "Read the statement and ask one question: does the passage agree, disagree or say nothing? Underline the key idea — a number, a comparison, a cause — because that is what you are checking."
+            "body": "Read the statement and ask one question: does the passage agree, disagree or say nothing? Underline the key idea - a number, a comparison, a cause - because that is what you are checking."
           },
           {
             "title": "Find the matching sentence",
@@ -9126,7 +9496,7 @@
           },
           {
             "title": "Locate the section",
-            "body": "Summaries usually cover one part of the passage. Find where the first gap’s idea appears and stay in that section — the answers follow the text in order."
+            "body": "Summaries usually cover one part of the passage. Find where the first gap’s idea appears and stay in that section - the answers follow the text in order."
           },
           {
             "title": "Copy the exact spelling",
@@ -9153,7 +9523,7 @@
         "tips": [
           {
             "title": "Read the stem carefully",
-            "body": "The question stem tells you exactly what to find — a reason, a purpose, an opinion. Underline it before you look at the options."
+            "body": "The question stem tells you exactly what to find - a reason, a purpose, an opinion. Underline it before you look at the options."
           },
           {
             "title": "Find the evidence first",
@@ -9188,7 +9558,7 @@
         "tips": [
           {
             "title": "Hunt your own spelling mistakes",
-            "body": "Make a list of the 10 words you yourself misspell again and again, and in the last 2–3 minutes of the exam look for just those. Small slips (teh / recieve) do little harm, but a spelling mistake that changes the meaning (advice / advise, then / than, lose / loose) is treated as using the wrong word — far more serious."
+            "body": "Make a list of the 10 words you yourself misspell again and again, and in the last 2–3 minutes of the exam look for just those. Small slips (teh / recieve) do little harm, but a spelling mistake that changes the meaning (advice / advise, then / than, lose / loose) is treated as using the wrong word - far more serious."
           },
           {
             "title": "Fix the five basic grammar errors first",
@@ -9200,11 +9570,11 @@
           },
           {
             "title": "A correct simple sentence always wins",
-            "body": "Mix simple, compound and complex sentences — roughly one complex sentence after every two simple/compound ones. Golden rule: if you are not sure, break the long sentence into two short ones and join them with a linking word. Never use a double connector: not \"Although it was raining, but we went out\"."
+            "body": "Mix simple, compound and complex sentences - roughly one complex sentence after every two simple/compound ones. Golden rule: if you are not sure, break the long sentence into two short ones and join them with a linking word. Never use a double connector: not \"Although it was raining, but we went out\"."
           },
           {
             "title": "Write active; use passive only when needed",
-            "body": "The passive does not make writing \"academic\" — the active voice is direct, clear and strong (My friends have supported the decision). Use the passive only when the doer is unimportant, unknown or deliberately hidden, for a polite suggestion, or to describe a process, as in a Task 1 flow chart (The beans are roasted, then ground)."
+            "body": "The passive does not make writing \"academic\" - the active voice is direct, clear and strong (My friends have supported the decision). Use the passive only when the doer is unimportant, unknown or deliberately hidden, for a polite suggestion, or to describe a process, as in a Task 1 flow chart (The beans are roasted, then ground)."
           }
         ],
         "tryIt": {
@@ -9223,11 +9593,11 @@
         "tips": [
           {
             "title": "One paragraph, one topic sentence",
-            "body": "Start every paragraph with a specific topic sentence (\"People move to cities for three main reasons.\", not the vague \"Many people move to cities.\") and make every other sentence support it. To check, cover everything except the topic sentence and ask of each sentence: \"Does this support the topic sentence?\" If not, cut it or move it — drifting away from the topic is a very costly mistake."
+            "body": "Start every paragraph with a specific topic sentence (\"People move to cities for three main reasons.\", not the vague \"Many people move to cities.\") and make every other sentence support it. To check, cover everything except the topic sentence and ask of each sentence: \"Does this support the topic sentence?\" If not, cut it or move it - drifting away from the topic is a very costly mistake."
           },
           {
             "title": "Keep paragraphs a readable size",
-            "body": "Long paragraphs tire the reader: 80–150 words (roughly 5–8 lines) is ideal, and beyond 200 words the reader loses the thread. A one-sentence emphatic paragraph can be used very rarely — never in Task 1."
+            "body": "Long paragraphs tire the reader: 80–150 words (roughly 5–8 lines) is ideal, and beyond 200 words the reader loses the thread. A one-sentence emphatic paragraph can be used very rarely - never in Task 1."
           },
           {
             "title": "One connective every two or three sentences",
@@ -9239,7 +9609,7 @@
           },
           {
             "title": "Phrases to drop for good",
-            "body": "Never write \"According to me\" — write In my view / In my opinion / I believe. Do not use \"At last\" (it means after a long wait), and do not start a conclusion with \"Last but not least\". On the contrary does not mean on the other hand; use it only to reject a mistaken idea: He is not lazy; on the contrary, he works twelve hours a day."
+            "body": "Never write \"According to me\" - write In my view / In my opinion / I believe. Do not use \"At last\" (it means after a long wait), and do not start a conclusion with \"Last but not least\". On the contrary does not mean on the other hand; use it only to reject a mistaken idea: He is not lazy; on the contrary, he works twelve hours a day."
           }
         ],
         "tryIt": {
@@ -9258,11 +9628,11 @@
         "tips": [
           {
             "title": "150 is the floor, about 180 the target",
-            "body": "Never write fewer than 150 words — even 148 loses marks — and don't go above 200, or not more than 20 minutes: more words mean more mistakes and less time for Task 2, which carries double the weight. Don't count in the exam hall; find out beforehand how many lines 170 words take in your handwriting (usually 12–14)."
+            "body": "Never write fewer than 150 words - even 148 loses marks - and don't go above 200, or not more than 20 minutes: more words mean more mistakes and less time for Task 2, which carries double the weight. Don't count in the exam hall; find out beforehand how many lines 170 words take in your handwriting (usually 12–14)."
           },
           {
             "title": "Overview goes second, with no numbers",
-            "body": "Write four paragraphs: introduction, overview, and two body paragraphs with numbers. Put the overview (the 2–3 biggest features, without numbers) right after the introduction — if it is left for the end and you run out of time, a whole band is lost in Task Achievement. A conclusion is optional, and if you write one it is a summary, never an opinion."
+            "body": "Write four paragraphs: introduction, overview, and two body paragraphs with numbers. Put the overview (the 2–3 biggest features, without numbers) right after the introduction - if it is left for the end and you run out of time, a whole band is lost in Task Achievement. A conclusion is optional, and if you write one it is a summary, never an opinion."
           },
           {
             "title": "No opinion, no I, we, you",
@@ -9270,7 +9640,7 @@
           },
           {
             "title": "Understand the graph before you write",
-            "body": "Read the title, both axis labels, the unit and the legend, and ask: what is measured, in which unit, over what period, how many categories? Start writing only when you can explain it to yourself in one sentence — otherwise you end up describing the wrong thing. Spend about the first 3 minutes on this."
+            "body": "Read the title, both axis labels, the unit and the legend, and ask: what is measured, in which unit, over what period, how many categories? Start writing only when you can explain it to yourself in one sentence - otherwise you end up describing the wrong thing. Spend about the first 3 minutes on this."
           },
           {
             "title": "Match the tense to the time",
@@ -9293,11 +9663,11 @@
         "tips": [
           {
             "title": "Build the overview from the big picture",
-            "body": "The overview gives the 2–3 biggest points without numbers: the overall direction (increased / decreased / fluctuated), the highest and lowest, the position at the end compared with the start, any major exception (a big slump, a crossover), and with several lines who is at the top and bottom at the end. For a map, it is the overall character of the change — including what stayed the same."
+            "body": "The overview gives the 2–3 biggest points without numbers: the overall direction (increased / decreased / fluctuated), the highest and lowest, the position at the end compared with the start, any major exception (a big slump, a crossover), and with several lines who is at the top and bottom at the end. For a map, it is the overall character of the change - including what stayed the same."
           },
           {
-            "title": "Select and group — no data dump",
-            "body": "Pick 4–6 key points (start, end, peak, trough, crossover, biggest change), not every number. Arrange the data by behaviour — the big ones, the small ones, the ones that changed, and the exception — not left to right or row by row. Express numbers as relationships where possible: nearly doubled, a third, almost level with."
+            "title": "Select and group - no data dump",
+            "body": "Pick 4–6 key points (start, end, peak, trough, crossover, biggest change), not every number. Arrange the data by behaviour - the big ones, the small ones, the ones that changed, and the exception - not left to right or row by row. Express numbers as relationships where possible: nearly doubled, a third, almost level with."
           },
           {
             "title": "One trend sentence, one clear formula",
@@ -9305,7 +9675,7 @@
           },
           {
             "title": "No rise or fall without time",
-            "body": "Bars of categories and a single pie do not \"rise\" or \"fall\" — write X is higher than Y, X has the largest share, accounts for. A pie does not grow; the share of a segment does. From 25% to 40% is a rise of 15 percentage points, not 15 percent, and several pies are compared segment by segment."
+            "body": "Bars of categories and a single pie do not \"rise\" or \"fall\" - write X is higher than Y, X has the largest share, accounts for. A pie does not grow; the share of a segment does. From 25% to 40% is a rise of 15 percentage points, not 15 percent, and several pies are compared segment by segment."
           },
           {
             "title": "Processes and maps: follow the arrows",
@@ -9328,11 +9698,11 @@
         "tips": [
           {
             "title": "260–290 words in 40 minutes",
-            "body": "Never go below 250 words (even 248 is a penalty), and above 320 there is no gain — mistakes simply increase. Spend 0–5 minutes reading, deciding the type, brainstorming and planning, 5–35 writing and 35–40 revising: skipping the plan makes a paragraph lose direction, skipping revision leaves easy mistakes behind, and each costs half a band."
+            "body": "Never go below 250 words (even 248 is a penalty), and above 320 there is no gain - mistakes simply increase. Spend 0–5 minutes reading, deciding the type, brainstorming and planning, 5–35 writing and 35–40 revising: skipping the plan makes a paragraph lose direction, skipping revision leaves easy mistakes behind, and each costs half a band."
           },
           {
             "title": "Identify the question type first",
-            "body": "Read the question twice and underline the topic words and the instruction words separately — the type decides what goes in the conclusion. Argumentative: write the arguments of both sides and give an opinion in the conclusion. Narrative: write only what is asked; only a suggestion at the end. Combination: answer both questions, in separate paragraphs."
+            "body": "Read the question twice and underline the topic words and the instruction words separately - the type decides what goes in the conclusion. Argumentative: write the arguments of both sides and give an opinion in the conclusion. Narrative: write only what is asked; only a suggestion at the end. Combination: answer both questions, in separate paragraphs."
           },
           {
             "title": "Brainstorm before you pick a side",
@@ -9344,7 +9714,7 @@
           },
           {
             "title": "What never belongs in Task 2",
-            "body": "No memorised essays (the examiner recognises them at a glance), no contractions, slang or \"etc.\", and no headings, bullets or numbering — full sentences, full paragraphs. Don't use grammar or words you are not sure of: if not confident, write simple sentences and join them with linking words. One irrelevant sentence is forgiven, one irrelevant paragraph is not."
+            "body": "No memorised essays (the examiner recognises them at a glance), no contractions, slang or \"etc.\", and no headings, bullets or numbering - full sentences, full paragraphs. Don't use grammar or words you are not sure of: if not confident, write simple sentences and join them with linking words. One irrelevant sentence is forgiven, one irrelevant paragraph is not."
           }
         ],
         "tryIt": {
@@ -9363,11 +9733,11 @@
         "tips": [
           {
             "title": "Topic sentence, explanation, example",
-            "body": "Every body paragraph has one idea: a topic sentence that states its main claim, 1–2 sentences of explanation if needed, and one concrete example (a country, an event, a common situation). Aim for 70–100 words per paragraph. A template is only a skeleton — fill it with content from your own topic."
+            "body": "Every body paragraph has one idea: a topic sentence that states its main claim, 1–2 sentences of explanation if needed, and one concrete example (a country, an event, a common situation). Aim for 70–100 words per paragraph. A template is only a skeleton - fill it with content from your own topic."
           },
           {
             "title": "Emphasise your side, soften theirs",
-            "body": "In an argumentative essay use emphasisers (undoubtedly, clearly, the main, crucial) in your own points and softeners (may, some, arguably, it is sometimes claimed that) in the opposing points — every time. Present the other side and answer it: Although some shop owners may lose a little trade at first, a car-free centre undoubtedly attracts far more visitors in the long run."
+            "body": "In an argumentative essay use emphasisers (undoubtedly, clearly, the main, crucial) in your own points and softeners (may, some, arguably, it is sometimes claimed that) in the opposing points - every time. Present the other side and answer it: Although some shop owners may lose a little trade at first, a car-free centre undoubtedly attracts far more visitors in the long run."
           },
           {
             "title": "A short conclusion with your opinion",
@@ -9379,7 +9749,7 @@
           },
           {
             "title": "Combination: answer both questions",
-            "body": "Give each question its own body paragraph and roughly equal weight — not the first in detail and the second in one sentence. Mention both parts in the introduction and close both in the conclusion, restating your opinion for the argumentative part. It is one essay, with one introduction and one conclusion."
+            "body": "Give each question its own body paragraph and roughly equal weight - not the first in detail and the second in one sentence. Mention both parts in the introduction and close both in the conclusion, restating your opinion for the argumentative part. It is one essay, with one introduction and one conclusion."
           }
         ],
         "tryIt": {
@@ -9402,19 +9772,19 @@
           },
           {
             "title": "Extend your answers",
-            "body": "\"Yes.\" \"No.\" \"Sometimes.\" — one-word answers give the examiner nothing to mark. Give at least one reason and one detail in every answer. Practise any Part 1 question in no fewer than 2 and no more than 4 sentences, and record yourself."
+            "body": "\"Yes.\" \"No.\" \"Sometimes.\" - one-word answers give the examiner nothing to mark. Give at least one reason and one detail in every answer. Practise any Part 1 question in no fewer than 2 and no more than 4 sentences, and record yourself."
           },
           {
             "title": "Master the Part 2 structure",
-            "body": "Without a structure you run out of things to say in 40 seconds. Follow the card's points in a fixed order — what, when/where, why, feelings — and any topic fills 2 minutes. Practise a cue card with a timer; if you stop before 1:30, do it again."
+            "body": "Without a structure you run out of things to say in 40 seconds. Follow the card's points in a fixed order - what, when/where, why, feelings - and any topic fills 2 minutes. Practise a cue card with a timer; if you stop before 1:30, do it again."
           },
           {
             "title": "Use advanced vocabulary naturally",
-            "body": "\"Advanced\" doesn't mean difficult, it means precise — not \"good\" but \"rewarding\", not \"very tired\" but \"exhausted\". The word must sound like your own; a big word in the wrong place lowers your Lexical Resource. Listen to a recorded answer, mark every very/good/bad/thing, replace them and say it again."
+            "body": "\"Advanced\" doesn't mean difficult, it means precise - not \"good\" but \"rewarding\", not \"very tired\" but \"exhausted\". The word must sound like your own; a big word in the wrong place lowers your Lexical Resource. Listen to a recorded answer, mark every very/good/bad/thing, replace them and say it again."
           },
           {
             "title": "Handle Part 3 abstract questions",
-            "body": "Part 3 asks about society, the future, causes and effects — not about you. There is no \"right\" answer; there is opinion + reason + example + the other side. Practise by speaking for 30 seconds from each side on one social topic a day (traffic, online learning, tourism)."
+            "body": "Part 3 asks about society, the future, causes and effects - not about you. There is no \"right\" answer; there is opinion + reason + example + the other side. Practise by speaking for 30 seconds from each side on one social topic a day (traffic, online learning, tourism)."
           }
         ],
         "tryIt": {
@@ -9433,19 +9803,19 @@
         "tips": [
           {
             "title": "Fix common grammar mistakes",
-            "body": "Our mistakes aren't random — the same ten or twelve errors from Bangla grammar keep coming back (I am agree, cousin brother, he/she, since + present). Catch these and your accuracy jumps at once. Read the ten correct sentences aloud once a day until the mistake starts to sound wrong to you."
+            "body": "Our mistakes aren't random - the same ten or twelve errors from Bangla grammar keep coming back (I am agree, cousin brother, he/she, since + present). Catch these and your accuracy jumps at once. Read the ten correct sentences aloud once a day until the mistake starts to sound wrong to you."
           },
           {
             "title": "Manage your nervousness",
-            "body": "Nervousness doesn't take away your English — it takes away your access to it. The cure is preparation and familiarity: know the format, know your first minute, and know what to say when you pause. Do a full 12-minute mock test with a friend as the examiner at least three times; by the third, the fear is halved."
+            "body": "Nervousness doesn't take away your English - it takes away your access to it. The cure is preparation and familiarity: know the format, know your first minute, and know what to say when you pause. Do a full 12-minute mock test with a friend as the examiner at least three times; by the third, the fear is halved."
           },
           {
             "title": "Use idiomatic expressions carefully",
-            "body": "Band 7 asks for \"some idiomatic vocabulary\" — everyday phrases (be into, get by, once in a blue moon), not proverbs. Use at most one per answer, and only ones you have used many times. Take 3 phrases a week and use each in 3 sentences about your own life."
+            "body": "Band 7 asks for \"some idiomatic vocabulary\" - everyday phrases (be into, get by, once in a blue moon), not proverbs. Use at most one per answer, and only ones you have used many times. Take 3 phrases a week and use each in 3 sentences about your own life."
           },
           {
             "title": "Build fluency through shadowing",
-            "body": "Shadowing means speaking along with native audio at the same speed, stress and tone. It builds fluency, pronunciation and natural phrasing together — the practice with the biggest return. Take 30 seconds of a podcast or interview: listen once, shadow it 3 times, 10 minutes a day."
+            "body": "Shadowing means speaking along with native audio at the same speed, stress and tone. It builds fluency, pronunciation and natural phrasing together - the practice with the biggest return. Take 30 seconds of a podcast or interview: listen once, shadow it 3 times, 10 minutes a day."
           },
           {
             "title": "Prepare topic-specific vocabulary",
@@ -9468,15 +9838,15 @@
         "tips": [
           {
             "title": "Fluency is flow, not speed",
-            "body": "Being fluent doesn't mean speaking fast — rushing blurs your pronunciation and breaks your grammar. A good speaker talks at a natural pace, without stopping or stumbling. Fluency breaks on three things: hesitation, repetition and self-correction."
+            "body": "Being fluent doesn't mean speaking fast - rushing blurs your pronunciation and breaks your grammar. A good speaker talks at a natural pace, without stopping or stumbling. Fluency breaks on three things: hesitation, repetition and self-correction."
           },
           {
             "title": "Pause with English phrases, not \"umm\"",
-            "body": "Pausing isn't forbidden; native speakers pause too. Silence or \"umm/aaa\" hurts fluency, but a phrase like \"Well,\", \"Let me think for a second.\" or \"...what's the word...\" sounds natural and gives you time to think. Use them like an umbrella — only when needed, about once every 3–4 answers, and vary them."
+            "body": "Pausing isn't forbidden; native speakers pause too. Silence or \"umm/aaa\" hurts fluency, but a phrase like \"Well,\", \"Let me think for a second.\" or \"...what's the word...\" sounds natural and gives you time to think. Use them like an umbrella - only when needed, about once every 3–4 answers, and vary them."
           },
           {
             "title": "Correct only mistakes that change meaning",
-            "body": "If a mistake changes your meaning, fix it briefly: \"...sorry, I mean I didn't like it.\" If it's a small grammar slip (article, -s, tense), don't go back — the examiner would hear the mistake plus a hesitation. Keep going."
+            "body": "If a mistake changes your meaning, fix it briefly: \"...sorry, I mean I didn't like it.\" If it's a small grammar slip (article, -s, tense), don't go back - the examiner would hear the mistake plus a hesitation. Keep going."
           },
           {
             "title": "Link your ideas, but don't overuse linkers",
@@ -9484,7 +9854,7 @@
           },
           {
             "title": "Clarity matters, not accent",
-            "body": "IELTS doesn't want a British, American or Australian accent — pronunciation measures how easily the listener understands you. Even Band 8 allows a first-language accent if it doesn't block understanding. Work on hard sounds (vest–west, sip–ship), word stress (de-VEL-op, ho-TEL), sentence stress and intonation."
+            "body": "IELTS doesn't want a British, American or Australian accent - pronunciation measures how easily the listener understands you. Even Band 8 allows a first-language accent if it doesn't block understanding. Work on hard sounds (vest–west, sip–ship), word stress (de-VEL-op, ho-TEL), sentence stress and intonation."
           }
         ],
         "tryIt": {
@@ -9511,15 +9881,15 @@
           },
           {
             "title": "Pick one of three strategies",
-            "body": "No reason asked (what/where/how long) → Direct Answer + Extension. A like, opinion or hidden \"why\" → A.R.E (Answer – Reason – Example). Habits or free time → L.D.F (Likes – Frequency – Reason). When in doubt, use A.R.E — it works everywhere."
+            "body": "No reason asked (what/where/how long) → Direct Answer + Extension. A like, opinion or hidden \"why\" → A.R.E (Answer – Reason – Example). Habits or free time → L.D.F (Likes – Frequency – Reason). When in doubt, use A.R.E - it works everywhere."
           },
           {
             "title": "Answer first, and don't echo the question",
-            "body": "Your first word should be Yes/No/Sort of/It depends — no introduction. Don't just repeat the question's words: \"Yes, I'm quite into it, actually\" beats \"Yes, I like cooking.\" Never stop at Yes/No; add because, since or the thing is."
+            "body": "Your first word should be Yes/No/Sort of/It depends - no introduction. Don't just repeat the question's words: \"Yes, I'm quite into it, actually\" beats \"Yes, I like cooking.\" Never stop at Yes/No; add because, since or the thing is."
           },
           {
             "title": "Add a concrete detail and vary your words",
-            "body": "\"I like music — mostly old Bangla band songs from the nineties\" gives the examiner far more language than \"I like music\". Replace 'very' with quite, pretty, fairly, absolutely or not particularly, and keep present-tense -s correct (she works, it takes). Give the answer that has more to say — truth isn't checked."
+            "body": "\"I like music - mostly old Bangla band songs from the nineties\" gives the examiner far more language than \"I like music\". Replace 'very' with quite, pretty, fairly, absolutely or not particularly, and keep present-tense -s correct (she works, it takes). Give the answer that has more to say - truth isn't checked."
           }
         ],
         "tryIt": {
@@ -9538,23 +9908,23 @@
         "tips": [
           {
             "title": "Write 4 + 1 keywords, not sentences",
-            "body": "In one minute you can write two sentences at most, and then you'd read them out — reading, not speaking. Writing nothing is also a mistake; nervous, you'll forget the third point. Write one keyword per card line plus one extra sensory detail — five words in capitals, top to bottom."
+            "body": "In one minute you can write two sentences at most, and then you'd read them out - reading, not speaking. Writing nothing is also a mistake; nervous, you'll forget the third point. Write one keyword per card line plus one extra sensory detail - five words in capitals, top to bottom."
           },
           {
             "title": "Split your one minute",
-            "body": "0–10 seconds: read the whole card and choose one thing, person or event — the first that comes to mind with the most to say. 10–40: write the 4 keywords. 40–50: add the + detail. 50–60: say your first sentence in your head."
+            "body": "0–10 seconds: read the whole card and choose one thing, person or event - the first that comes to mind with the most to say. 10–40: write the 4 keywords. 40–50: add the + detail. 50–60: say your first sentence in your head."
           },
           {
             "title": "Follow the five-step talk",
-            "body": "Opening (~10s): \"The skill I've chosen is...\". Bullets 1 & 2 (~35s): background in the past tense. Bullet 3 (~35s): how it happened — the story. Explain (~30s): feelings and why it matters, back in the present. Closing (~10s): \"So, all in all...\"."
+            "body": "Opening (~10s): \"The skill I've chosen is...\". Bullets 1 & 2 (~35s): background in the past tense. Bullet 3 (~35s): how it happened - the story. Explain (~30s): feelings and why it matters, back in the present. Closing (~10s): \"So, all in all...\"."
           },
           {
             "title": "Use lenses to fill 2 minutes",
-            "body": "If you think you have nothing to say, look through six lenses: time, senses, people, contrast, a moment and meaning. Senses and contrast are your own additions — they turn Band 6 into Band 7. If you run dry, check your note for an unused keyword, switch lens (\"Thinking about it now, ...\"), or close neatly after 1:20."
+            "body": "If you think you have nothing to say, look through six lenses: time, senses, people, contrast, a moment and meaning. Senses and contrast are your own additions - they turn Band 6 into Band 7. If you run dry, check your note for an unused keyword, switch lens (\"Thinking about it now, ...\"), or close neatly after 1:20."
           },
           {
             "title": "Avoid the common Part 2 mistakes",
-            "body": "Don't answer each bullet in one sentence — treat each as 2–4 sentences. Stay personal and specific, not general; memorise the structure, not the content. Keep past stories in past tense, look at the examiner 80% of the time, and give the \"explain\" line its full 30 seconds."
+            "body": "Don't answer each bullet in one sentence - treat each as 2–4 sentences. Stay personal and specific, not general; memorise the structure, not the content. Keep past stories in past tense, look at the examiner 80% of the time, and give the \"explain\" line its full 30 seconds."
           }
         ],
         "tryIt": {
@@ -9573,11 +9943,11 @@
         "tips": [
           {
             "title": "Use A.R.E + Balance",
-            "body": "Answer with a clear opinion, give a Reason, add an Example, then Balance with the other side: \"Having said that...\" / \"Of course, it depends...\". The Balance step shows you can see more than one side and use complex grammar — this is a Band 7 Part 3 answer."
+            "body": "Answer with a clear opinion, give a Reason, add an Example, then Balance with the other side: \"Having said that...\" / \"Of course, it depends...\". The Balance step shows you can see more than one side and use complex grammar - this is a Band 7 Part 3 answer."
           },
           {
             "title": "Give longer answers than Part 1",
-            "body": "There is no right answer and no answer key; the opinion you can explain best is the right one. Part 3 answers are 4–6 sentences, 30–45 seconds. Don't stop after two sentences — the examiner will stop you if needed."
+            "body": "There is no right answer and no answer key; the opinion you can explain best is the right one. Part 3 answers are 4–6 sentences, 30–45 seconds. Don't stop after two sentences - the examiner will stop you if needed."
           },
           {
             "title": "Hedge your opinions",
@@ -12955,7 +13325,7 @@
                       {
                         "type": "filler",
                         "text": "um",
-                        "note": "Filler — try a short silent pause instead."
+                        "note": "Filler - try a short silent pause instead."
                       },
                       {
                         "type": "text",
@@ -12973,7 +13343,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 2.4s",
-                        "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                        "note": "Long pause mid-sentence - link ideas with \"especially\"."
                       },
                       {
                         "type": "text",
@@ -12991,7 +13361,7 @@
                       {
                         "type": "filler",
                         "text": "you know",
-                        "note": "Filler — drop it or pause briefly."
+                        "note": "Filler - drop it or pause briefly."
                       },
                       {
                         "type": "text",
@@ -13000,7 +13370,7 @@
                       {
                         "type": "mispronounced",
                         "text": "practised",
-                        "note": "Say PRAK-tist — two syllables, final /t/."
+                        "note": "Say PRAK-tist - two syllables, final /t/."
                       },
                       {
                         "type": "text",
@@ -13009,7 +13379,7 @@
                       {
                         "type": "filler",
                         "text": "like",
-                        "note": "Filler — start the sentence directly."
+                        "note": "Filler - start the sentence directly."
                       },
                       {
                         "type": "text",
@@ -13018,7 +13388,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 1.8s",
-                        "note": "Long pause — plan the reason before \"because\"."
+                        "note": "Long pause - plan the reason before \"because\"."
                       },
                       {
                         "type": "text",
@@ -13083,7 +13453,7 @@
               "summary": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7.",
               "feedback": [
                 "Replace fillers like “you know” and “like” with a short pause.",
-                "Mix simple and complex sentences — add one “although” or “which” clause per answer."
+                "Mix simple and complex sentences - add one “although” or “which” clause per answer."
               ],
               "transcript": {
                 "demo": true,
@@ -13102,7 +13472,7 @@
                       {
                         "type": "filler",
                         "text": "um",
-                        "note": "Filler — try a short silent pause instead."
+                        "note": "Filler - try a short silent pause instead."
                       },
                       {
                         "type": "text",
@@ -13120,7 +13490,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 2.4s",
-                        "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                        "note": "Long pause mid-sentence - link ideas with \"especially\"."
                       },
                       {
                         "type": "text",
@@ -13138,7 +13508,7 @@
                       {
                         "type": "filler",
                         "text": "you know",
-                        "note": "Filler — drop it or pause briefly."
+                        "note": "Filler - drop it or pause briefly."
                       },
                       {
                         "type": "text",
@@ -13147,7 +13517,7 @@
                       {
                         "type": "mispronounced",
                         "text": "practised",
-                        "note": "Say PRAK-tist — two syllables, final /t/."
+                        "note": "Say PRAK-tist - two syllables, final /t/."
                       },
                       {
                         "type": "text",
@@ -13156,7 +13526,7 @@
                       {
                         "type": "filler",
                         "text": "like",
-                        "note": "Filler — start the sentence directly."
+                        "note": "Filler - start the sentence directly."
                       },
                       {
                         "type": "text",
@@ -13165,7 +13535,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 1.8s",
-                        "note": "Long pause — plan the reason before \"because\"."
+                        "note": "Long pause - plan the reason before \"because\"."
                       },
                       {
                         "type": "text",
@@ -13225,7 +13595,7 @@
               },
               "summary": "Fluent, well-developed answers. A few hesitations and minor errors remain.",
               "feedback": [
-                "Mix simple and complex sentences — add one “although” or “which” clause per answer.",
+                "Mix simple and complex sentences - add one “although” or “which” clause per answer.",
                 "Replace fillers like “you know” and “like” with a short pause."
               ],
               "transcript": {
@@ -13245,7 +13615,7 @@
                       {
                         "type": "filler",
                         "text": "um",
-                        "note": "Filler — try a short silent pause instead."
+                        "note": "Filler - try a short silent pause instead."
                       },
                       {
                         "type": "text",
@@ -13263,7 +13633,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 2.4s",
-                        "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                        "note": "Long pause mid-sentence - link ideas with \"especially\"."
                       },
                       {
                         "type": "text",
@@ -13281,7 +13651,7 @@
                       {
                         "type": "filler",
                         "text": "you know",
-                        "note": "Filler — drop it or pause briefly."
+                        "note": "Filler - drop it or pause briefly."
                       },
                       {
                         "type": "text",
@@ -13290,7 +13660,7 @@
                       {
                         "type": "mispronounced",
                         "text": "practised",
-                        "note": "Say PRAK-tist — two syllables, final /t/."
+                        "note": "Say PRAK-tist - two syllables, final /t/."
                       },
                       {
                         "type": "text",
@@ -13299,7 +13669,7 @@
                       {
                         "type": "filler",
                         "text": "like",
-                        "note": "Filler — start the sentence directly."
+                        "note": "Filler - start the sentence directly."
                       },
                       {
                         "type": "text",
@@ -13308,7 +13678,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 1.8s",
-                        "note": "Long pause — plan the reason before \"because\"."
+                        "note": "Long pause - plan the reason before \"because\"."
                       },
                       {
                         "type": "text",
@@ -13409,7 +13779,7 @@
                       {
                         "type": "filler",
                         "text": "um",
-                        "note": "Filler — try a short silent pause instead."
+                        "note": "Filler - try a short silent pause instead."
                       },
                       {
                         "type": "text",
@@ -13427,7 +13797,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 2.4s",
-                        "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                        "note": "Long pause mid-sentence - link ideas with \"especially\"."
                       },
                       {
                         "type": "text",
@@ -13445,7 +13815,7 @@
                       {
                         "type": "filler",
                         "text": "you know",
-                        "note": "Filler — drop it or pause briefly."
+                        "note": "Filler - drop it or pause briefly."
                       },
                       {
                         "type": "text",
@@ -13454,7 +13824,7 @@
                       {
                         "type": "mispronounced",
                         "text": "practised",
-                        "note": "Say PRAK-tist — two syllables, final /t/."
+                        "note": "Say PRAK-tist - two syllables, final /t/."
                       },
                       {
                         "type": "text",
@@ -13463,7 +13833,7 @@
                       {
                         "type": "filler",
                         "text": "like",
-                        "note": "Filler — start the sentence directly."
+                        "note": "Filler - start the sentence directly."
                       },
                       {
                         "type": "text",
@@ -13472,7 +13842,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 1.8s",
-                        "note": "Long pause — plan the reason before \"because\"."
+                        "note": "Long pause - plan the reason before \"because\"."
                       },
                       {
                         "type": "text",
@@ -13540,7 +13910,7 @@
                       {
                         "type": "filler",
                         "text": "um",
-                        "note": "Filler — try a short silent pause instead."
+                        "note": "Filler - try a short silent pause instead."
                       },
                       {
                         "type": "text",
@@ -13558,7 +13928,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 2.4s",
-                        "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                        "note": "Long pause mid-sentence - link ideas with \"especially\"."
                       },
                       {
                         "type": "text",
@@ -13576,7 +13946,7 @@
                       {
                         "type": "filler",
                         "text": "you know",
-                        "note": "Filler — drop it or pause briefly."
+                        "note": "Filler - drop it or pause briefly."
                       },
                       {
                         "type": "text",
@@ -13585,7 +13955,7 @@
                       {
                         "type": "mispronounced",
                         "text": "practised",
-                        "note": "Say PRAK-tist — two syllables, final /t/."
+                        "note": "Say PRAK-tist - two syllables, final /t/."
                       },
                       {
                         "type": "text",
@@ -13594,7 +13964,7 @@
                       {
                         "type": "filler",
                         "text": "like",
-                        "note": "Filler — start the sentence directly."
+                        "note": "Filler - start the sentence directly."
                       },
                       {
                         "type": "text",
@@ -13603,7 +13973,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 1.8s",
-                        "note": "Long pause — plan the reason before \"because\"."
+                        "note": "Long pause - plan the reason before \"because\"."
                       },
                       {
                         "type": "text",
@@ -13651,7 +14021,7 @@
               },
               "summary": "Fluent, well-developed answers. A few hesitations and minor errors remain.",
               "feedback": [
-                "Mix simple and complex sentences — add one “although” or “which” clause per answer.",
+                "Mix simple and complex sentences - add one “although” or “which” clause per answer.",
                 "Slow down slightly and finish the last sound of each word."
               ],
               "transcript": {
@@ -13671,7 +14041,7 @@
                       {
                         "type": "filler",
                         "text": "um",
-                        "note": "Filler — try a short silent pause instead."
+                        "note": "Filler - try a short silent pause instead."
                       },
                       {
                         "type": "text",
@@ -13689,7 +14059,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 2.4s",
-                        "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                        "note": "Long pause mid-sentence - link ideas with \"especially\"."
                       },
                       {
                         "type": "text",
@@ -13707,7 +14077,7 @@
                       {
                         "type": "filler",
                         "text": "you know",
-                        "note": "Filler — drop it or pause briefly."
+                        "note": "Filler - drop it or pause briefly."
                       },
                       {
                         "type": "text",
@@ -13716,7 +14086,7 @@
                       {
                         "type": "mispronounced",
                         "text": "practised",
-                        "note": "Say PRAK-tist — two syllables, final /t/."
+                        "note": "Say PRAK-tist - two syllables, final /t/."
                       },
                       {
                         "type": "text",
@@ -13725,7 +14095,7 @@
                       {
                         "type": "filler",
                         "text": "like",
-                        "note": "Filler — start the sentence directly."
+                        "note": "Filler - start the sentence directly."
                       },
                       {
                         "type": "text",
@@ -13734,7 +14104,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 1.8s",
-                        "note": "Long pause — plan the reason before \"because\"."
+                        "note": "Long pause - plan the reason before \"because\"."
                       },
                       {
                         "type": "text",
@@ -13783,7 +14153,7 @@
               "summary": "Relevant, well-organised answers. Fillers and long pauses keep fluency below 7.",
               "feedback": [
                 "Link ideas with “especially”, “because” and “as a result”.",
-                "Mix simple and complex sentences — add one “although” or “which” clause per answer."
+                "Mix simple and complex sentences - add one “although” or “which” clause per answer."
               ],
               "transcript": {
                 "demo": true,
@@ -13802,7 +14172,7 @@
                       {
                         "type": "filler",
                         "text": "um",
-                        "note": "Filler — try a short silent pause instead."
+                        "note": "Filler - try a short silent pause instead."
                       },
                       {
                         "type": "text",
@@ -13820,7 +14190,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 2.4s",
-                        "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                        "note": "Long pause mid-sentence - link ideas with \"especially\"."
                       },
                       {
                         "type": "text",
@@ -13838,7 +14208,7 @@
                       {
                         "type": "filler",
                         "text": "you know",
-                        "note": "Filler — drop it or pause briefly."
+                        "note": "Filler - drop it or pause briefly."
                       },
                       {
                         "type": "text",
@@ -13847,7 +14217,7 @@
                       {
                         "type": "mispronounced",
                         "text": "practised",
-                        "note": "Say PRAK-tist — two syllables, final /t/."
+                        "note": "Say PRAK-tist - two syllables, final /t/."
                       },
                       {
                         "type": "text",
@@ -13856,7 +14226,7 @@
                       {
                         "type": "filler",
                         "text": "like",
-                        "note": "Filler — start the sentence directly."
+                        "note": "Filler - start the sentence directly."
                       },
                       {
                         "type": "text",
@@ -13865,7 +14235,7 @@
                       {
                         "type": "pause",
                         "text": "‖ 1.8s",
-                        "note": "Long pause — plan the reason before \"because\"."
+                        "note": "Long pause - plan the reason before \"because\"."
                       },
                       {
                         "type": "text",
@@ -14464,7 +14834,7 @@
               },
               "words": 168,
               "feedback": [
-                "Write at least 250 words — you wrote 168.",
+                "Write at least 250 words - you wrote 168.",
                 "Use more linking words (however, moreover, as a result) to improve coherence."
               ],
               "issues": [
@@ -14566,9 +14936,9 @@
               },
               "words": 140,
               "feedback": [
-                "Write at least 250 words — you wrote 140.",
+                "Write at least 250 words - you wrote 140.",
                 "Organise your answer into clear paragraphs with one main idea each.",
-                "Vary your vocabulary — avoid repeating the same words."
+                "Vary your vocabulary - avoid repeating the same words."
               ],
               "issues": [
                 {
@@ -15094,7 +15464,7 @@
                         {
                           "type": "filler",
                           "text": "um",
-                          "note": "Filler — try a short silent pause instead."
+                          "note": "Filler - try a short silent pause instead."
                         },
                         {
                           "type": "text",
@@ -15112,7 +15482,7 @@
                         {
                           "type": "pause",
                           "text": "‖ 2.4s",
-                          "note": "Long pause mid-sentence — link ideas with \"especially\"."
+                          "note": "Long pause mid-sentence - link ideas with \"especially\"."
                         },
                         {
                           "type": "text",
@@ -15130,7 +15500,7 @@
                         {
                           "type": "filler",
                           "text": "you know",
-                          "note": "Filler — drop it or pause briefly."
+                          "note": "Filler - drop it or pause briefly."
                         },
                         {
                           "type": "text",
@@ -15139,7 +15509,7 @@
                         {
                           "type": "mispronounced",
                           "text": "practised",
-                          "note": "Say PRAK-tist — two syllables, final /t/."
+                          "note": "Say PRAK-tist - two syllables, final /t/."
                         },
                         {
                           "type": "text",
@@ -15148,7 +15518,7 @@
                         {
                           "type": "filler",
                           "text": "like",
-                          "note": "Filler — start the sentence directly."
+                          "note": "Filler - start the sentence directly."
                         },
                         {
                           "type": "text",
@@ -15157,7 +15527,7 @@
                         {
                           "type": "pause",
                           "text": "‖ 1.8s",
-                          "note": "Long pause — plan the reason before \"because\"."
+                          "note": "Long pause - plan the reason before \"because\"."
                         },
                         {
                           "type": "text",
@@ -15610,7 +15980,7 @@
                   "number": 6,
                   "label": "Membership type",
                   "before": "",
-                  "after": " — monthly",
+                  "after": "- monthly",
                   "answer": "family",
                   "accepted": [
                     "family"
@@ -20349,7 +20719,7 @@
                   "answer": "vii",
                   "evidenceParagraph": "G",
                   "evidence": "implications that go beyond language teaching",
-                  "explanation": "Paragraph G moves beyond the classroom to **teacher training, assessment and parents** — wider consequences for schools and families.",
+                  "explanation": "Paragraph G moves beyond the classroom to **teacher training, assessment and parents** - wider consequences for schools and families.",
                   "paragraph": "G"
                 }
               ]
@@ -20545,7 +20915,7 @@
                   "answer": "F",
                   "evidenceParagraph": "F",
                   "evidence": "to conceal evidence of biased training data",
-                  "explanation": "Paragraph F warns that unlearning could be used **to conceal evidence of biased training data** — a dishonest purpose."
+                  "explanation": "Paragraph F warns that unlearning could be used **to conceal evidence of biased training data** - a dishonest purpose."
                 },
                 {
                   "number": 2,
@@ -20813,7 +21183,7 @@
                   "answer": "i",
                   "evidenceParagraph": "B",
                   "evidence": "The basic techniques are borrowed from architectural acoustics",
-                  "explanation": "Paragraph B explains the **techniques borrowed from architectural acoustics** — loudspeakers, microphones and reverberation time. Heading vii is a trap: equipment is mentioned, but not its cost.",
+                  "explanation": "Paragraph B explains the **techniques borrowed from architectural acoustics** - loudspeakers, microphones and reverberation time. Heading vii is a trap: equipment is mentioned, but not its cost.",
                   "paragraph": "B"
                 },
                 {
@@ -20831,7 +21201,7 @@
                   "answer": "iii",
                   "evidenceParagraph": "D",
                   "evidence": "Demonstrating that a resonance exists is therefore very different from demonstrating that it was intended",
-                  "explanation": "Paragraph D asks whether resonances were **intended** or simply **a consequence of dimensions** — accident or intention.",
+                  "explanation": "Paragraph D asks whether resonances were **intended** or simply **a consequence of dimensions** - accident or intention.",
                   "paragraph": "D"
                 },
                 {
@@ -22171,7 +22541,7 @@
           "example": "The first part of the test was a piece of cake, but the essay was harder.",
           "register": "speaking",
           "topic": "Education",
-          "care": "Informal — fine in Speaking, avoid in Academic Writing."
+          "care": "Informal - fine in Speaking, avoid in Academic Writing."
         },
         {
           "id": "id_hit_the_books",
@@ -22180,7 +22550,7 @@
           "example": "I've got to hit the books this weekend because my exam is on Monday.",
           "register": "speaking",
           "topic": "Education",
-          "care": "Informal — Speaking only."
+          "care": "Informal - Speaking only."
         },
         {
           "id": "id_once_in_a_blue_moon",
@@ -22189,7 +22559,7 @@
           "example": "I eat fast food once in a blue moon, usually when I'm travelling.",
           "register": "speaking",
           "topic": "Health",
-          "care": "Informal — Speaking only."
+          "care": "Informal - Speaking only."
         },
         {
           "id": "id_under_the_weather",
@@ -22198,7 +22568,7 @@
           "example": "I felt a bit under the weather last week, so I stayed at home.",
           "register": "speaking",
           "topic": "Health",
-          "care": "Informal — Speaking only."
+          "care": "Informal - Speaking only."
         },
         {
           "id": "id_burn_the_midnight_oil",
@@ -22207,7 +22577,7 @@
           "example": "Before deadlines, many students burn the midnight oil to finish their projects.",
           "register": "speaking",
           "topic": "Education",
-          "care": "Informal — natural in Speaking; use a neutral phrase in essays."
+          "care": "Informal - natural in Speaking; use a neutral phrase in essays."
         },
         {
           "id": "id_in_the_long_run",
@@ -22240,7 +22610,7 @@
           "example": "The best employees are often those who go the extra mile for customers.",
           "register": "speaking",
           "topic": "Work",
-          "care": "Slightly informal — better in Speaking than in essays."
+          "care": "Slightly informal - better in Speaking than in essays."
         },
         {
           "id": "id_the_bottom_line",
@@ -22249,7 +22619,7 @@
           "example": "The bottom line is that companies will not change unless it is profitable.",
           "register": "speaking",
           "topic": "Work",
-          "care": "Informal as a sentence opener — avoid in Academic Writing."
+          "care": "Informal as a sentence opener - avoid in Academic Writing."
         },
         {
           "id": "id_up_to_date",
@@ -22274,7 +22644,7 @@
           "example": "Our teacher used a quick game to break the ice on the first day.",
           "register": "speaking",
           "topic": "Education",
-          "care": "Informal — Speaking only."
+          "care": "Informal - Speaking only."
         },
         {
           "id": "id_see_eye_to_eye",
@@ -22283,7 +22653,7 @@
           "example": "My parents and I don't always see eye to eye about my career plans.",
           "register": "speaking",
           "topic": "Everyday life",
-          "care": "Informal — Speaking only."
+          "care": "Informal - Speaking only."
         },
         {
           "id": "id_a_mixed_blessing",
@@ -22300,7 +22670,7 @@
           "example": "I prefer holidays off the beaten track, away from crowded resorts.",
           "register": "speaking",
           "topic": "Travel",
-          "care": "Informal — Speaking only."
+          "care": "Informal - Speaking only."
         },
         {
           "id": "id_make_ends_meet",
@@ -22333,7 +22703,7 @@
           "example": "It took me a few weeks to learn the ropes at my part-time job.",
           "register": "speaking",
           "topic": "Work",
-          "care": "Informal — Speaking only."
+          "care": "Informal - Speaking only."
         }
       ]
     },
@@ -22536,7 +22906,7 @@
             "How has the role of teachers changed in recent years?"
           ],
           "sampleNotes": [
-            "My grandfather — retired electrician, patient and calm",
+            "My grandfather - retired electrician, patient and calm",
             "Taught me to fix basic wiring and change a fuse at 14",
             "Useful: saved money, gave me confidence to try repairs myself"
           ]
@@ -22561,7 +22931,7 @@
           ],
           "sampleNotes": [
             "Rooftop garden of the city library, 10 minutes from home",
-            "Go most Saturday mornings — read, plan my week",
+            "Go most Saturday mornings - read, plan my week",
             "Contrast with traffic noise; helps me think clearly"
           ]
         },
@@ -22584,7 +22954,7 @@
             "Should children be allowed to own smartphones?"
           ],
           "sampleNotes": [
-            "Wireless earphones — got them two years ago as a gift",
+            "Wireless earphones - got them two years ago as a gift",
             "Language podcasts on the bus, calls, focus music",
             "Without them: commute wasted, harder to concentrate"
           ]
@@ -22658,7 +23028,7 @@
           "sampleNotes": [
             "Central wholesale market, early morning",
             "Went with my uncle last spring",
-            "Traders shouting, trucks, loudspeakers — exciting at first, then tiring"
+            "Traders shouting, trucks, loudspeakers - exciting at first, then tiring"
           ]
         },
         {
@@ -22680,7 +23050,7 @@
             "What can children learn from older relatives?"
           ],
           "sampleNotes": [
-            "My aunt — a nurse working night shifts",
+            "My aunt - a nurse working night shifts",
             "Raised two children while studying for a degree",
             "Resilient, never complains; showed me hard work pays off"
           ]
@@ -22704,7 +23074,7 @@
             "Should friends always be honest with each other?"
           ],
           "sampleNotes": [
-            "Samir — met on the first day of primary school",
+            "Samir - met on the first day of primary school",
             "Play football, long walks, study together before exams",
             "Lasted because we are honest and support each other"
           ]
@@ -23186,7 +23556,7 @@
           "sampleNotes": [
             "University admissions interview",
             "Last March, video call",
-            "Two professors; got the place — changed my plans"
+            "Two professors; got the place - changed my plans"
           ]
         },
         {
@@ -23498,7 +23868,7 @@
           "sampleNotes": [
             "A new metro line approved for my city",
             "Local news website",
-            "Would cut my commute; mixed reactions — excitement vs cost"
+            "Would cut my commute; mixed reactions - excitement vs cost"
           ]
         },
         {

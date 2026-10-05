@@ -9,8 +9,8 @@ import '../../app/routes.dart';
 ///
 /// Each entry is a result map for the search screen:
 /// `{type, category, title, subtitle, route?, args?, word?, target?, _hay, _title}`
-/// with category one of practice · lessons · vocab (the student's own work —
-/// category mine — is added live by the screen).
+/// with category one of practice · lessons · vocab (the student's own work -
+/// category mine - is added live by the screen).
 class SearchIndex {
   SearchIndex._();
 
@@ -177,7 +177,7 @@ class SearchIndex {
           body: 'writing task 1 chart ${w.s('prompt')}',
           route: Routes.writingTask1Editor, args: <String, dynamic>{'promptId': w.s('id')});
       if (w.l('samples').isNotEmpty) {
-        add(type: 'Sample', category: 'lessons', title: '${w.s('title')} — sample answers',
+        add(type: 'Sample', category: 'lessons', title: '${w.s('title')} - sample answers',
             subtitle: 'Writing Task 1 · Band 6, 7 and 8 answers', body: 'model answer ${w.s('prompt')}',
             route: Routes.writingSampleAnswer, args: <String, dynamic>{'promptId': w.s('id'), 'task': 1});
       }
@@ -188,7 +188,7 @@ class SearchIndex {
           body: 'writing task 2 essay ${w.s('prompt')}',
           route: Routes.writingEditor, args: <String, dynamic>{'promptId': w.s('id')});
       if (w.l('samples').isNotEmpty) {
-        add(type: 'Sample', category: 'lessons', title: '${w.s('title')} — sample answers',
+        add(type: 'Sample', category: 'lessons', title: '${w.s('title')} - sample answers',
             subtitle: 'Writing Task 2 · Band 6, 7 and 8 essays', body: 'model answer essay ${w.s('prompt')}',
             route: Routes.writingSampleAnswer, args: <String, dynamic>{'promptId': w.s('id'), 'task': 2});
       }

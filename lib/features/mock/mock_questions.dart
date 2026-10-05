@@ -414,7 +414,7 @@ class MockBlankField extends StatelessWidget {
       );
     }
     return DashedBorderBox(
-      color: t.isNight ? t.border : const Color(0xFFD4C6CF),
+      color: t.isNight ? t.border : const Color(0xFFE0CDC7),
       radius: 9,
       strokeWidth: 1,
       child: field,

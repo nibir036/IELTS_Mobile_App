@@ -81,7 +81,7 @@ class ExhibitPanel extends StatelessWidget {
     return Container(
       padding: padding ?? const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
       decoration: BoxDecoration(
-        color: t.isNight ? t.surfaceAlt2 : const Color(0xFFF8F3F6),
+        color: t.isNight ? t.surfaceAlt2 : const Color(0xFFFCF6F4),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -438,7 +438,7 @@ class OptionBox extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
-        color: t.isNight ? t.surfaceAlt2 : const Color(0xFFF8F3F6),
+        color: t.isNight ? t.surfaceAlt2 : const Color(0xFFFCF6F4),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(

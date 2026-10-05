@@ -1,0 +1,635 @@
+{
+  "l01_foundations_practice_1": {
+    "intro": {"en": "Three thinking drills with no audio: name the mode, spot the correction, predict the shape.", "bn": "Audio ছাড়া তিনটি চিন্তার drill: mode চিনুন, correction ধরুন, ধরন predict করুন।"},
+    "learned": [
+      {"en": "Choose your listening mode from the question", "bn": "Question দেখেই শোনার mode বেছে নিন"},
+      {"en": "Small words signal a correction", "bn": "ছোট শব্দ correction-এর signal দেয়"},
+      {"en": "Predict each gap's shape before the audio", "bn": "Audio-র আগে প্রতিটি gap-এর ধরন predict করুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "These first drills have no audio. What do they train?", "bn": "প্রথম drill-গুলোতে কোনো audio নেই। এগুলো কী train করে?"},
+        "options": [
+          {"en": "The thinking that must happen before you press play", "bn": "Play চাপার আগেই যে চিন্তাটা করতে হয়"},
+          {"en": "Your speed at typing answers", "bn": "উত্তর টাইপ করার গতি"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Drills at Level 1 (understand) and Level 2 (guided) train the thinking that must happen before you ever press play.", "bn": "Level 1 (understand) আর Level 2 (guided)-এর drill-গুলো সেই চিন্তা train করে, যা play চাপার আগেই করতে হয়।"}
+      }
+    ]
+  },
+  "l02_prediction_1": {
+    "intro": {"en": "The engine of Listening: predict each gap, choose anchor keywords, and expect the paraphrase.", "bn": "Listening-এর ইঞ্জিন: প্রতিটি gap predict করুন, anchor keyword বেছে নিন, আর paraphrase-এর জন্য তৈরি থাকুন।"},
+    "learned": [
+      {"en": "Predict grammar shape and information type", "bn": "Grammar-এর ধরন আর তথ্যের ধরন predict করুন"},
+      {"en": "Names, numbers and dates are the best anchors", "bn": "নাম, সংখ্যা আর তারিখই সেরা anchor"},
+      {"en": "Seven forms of paraphrase", "bn": "Paraphrase-এর সাতটি রূপ"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The gap reads “open until ____”. What does it need?", "bn": "Gap-টা হলো “open until ____”। এখানে কী লাগবে?"},
+        "options": [
+          {"en": "A time", "bn": "একটা সময়"},
+          {"en": "A verb", "bn": "একটা verb"},
+          {"en": "An adjective", "bn": "একটা adjective"}
+        ],
+        "answer": 0,
+        "explain": {"en": "The words around a gap nearly always reveal its shape: “open until ____” needs a time.", "bn": "Gap-এর আশেপাশের শব্দ প্রায় সবসময় তার ধরন বলে দেয়: “open until ____”-এ লাগবে একটা সময়।"}
+      },
+      {
+        "type": "choice",
+        "after": 5,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "“In 1996, the company moved its headquarters to ____.” Which is the strongest keyword?", "bn": "“In 1996, the company moved its headquarters to ____.” সবচেয়ে শক্তিশালী keyword কোনটা?"},
+        "options": [{"en": "1996"}, {"en": "moved"}, {"en": "headquarters"}],
+        "answer": 0,
+        "explain": {"en": "1996 is an anchor the exam cannot paraphrase. “Moved” and “headquarters” may be reworded, e.g. “relocated its main offices”.", "bn": "1996 এমন একটা anchor যা exam paraphrase করতে পারে না। “Moved” আর “headquarters” বদলে যেতে পারে, যেমন “relocated its main offices”।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The question says “50%”. Which numerical paraphrase might you hear?", "bn": "Question-এ আছে “50%”। কোন numerical paraphrase শুনতে পারেন?"},
+        "options": [{"en": "half"}, {"en": "twice as many"}, {"en": "a quarter"}],
+        "answer": 0,
+        "explain": {"en": "Numerical paraphrase: 50% becomes “half”, and doubled becomes “twice as many”.", "bn": "Numerical paraphrase: 50% হয়ে যায় “half”, আর doubled হয়ে যায় “twice as many”।"}
+      }
+    ]
+  },
+  "l02_prediction_practice_1": {
+    "intro": {"en": "Four drills: the shape of the answer, the best keyword, and predicting and matching paraphrase.", "bn": "চারটি drill: উত্তরের ধরন, সেরা keyword, আর paraphrase predict ও match করা।"},
+    "learned": [
+      {"en": "Read both sides of every gap", "bn": "প্রতিটি gap-এর দুই পাশই পড়ুন"},
+      {"en": "A name, number or date usually wins as keyword", "bn": "নাম, সংখ্যা বা তারিখ সাধারণত সেরা keyword"},
+      {"en": "Hear meaning, not words", "bn": "শব্দ নয়, অর্থ শুনুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which words in a question are least likely to change in the audio?", "bn": "Question-এর কোন শব্দগুলো audio-তে বদলে যাওয়ার সম্ভাবনা সবচেয়ে কম?"},
+        "options": [
+          {"en": "Names, numbers and dates", "bn": "নাম, সংখ্যা আর তারিখ"},
+          {"en": "Content words like “cheap” or “problem”", "bn": "“cheap” বা “problem”-এর মতো content word"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Content words are the most likely to be paraphrased. Listen for the meaning of content words and the sound of the fixed words.", "bn": "Content word-ই paraphrase হওয়ার সম্ভাবনা সবচেয়ে বেশি। Content word-এর অর্থ শুনুন, আর স্থির শব্দগুলোর আওয়াজ।"}
+      }
+    ]
+  },
+  "l03_distractors_1": {
+    "intro": {"en": "Signposts guide you to the answer - learn what each one predicts and the shape that hides most answers.", "bn": "Signpost আপনাকে উত্তরের দিকে নিয়ে যায় - প্রতিটি কী জানান দেয়, আর বেশিরভাগ উত্তর লুকানোর ছকটা শিখুন।"},
+    "learned": [
+      {"en": "What each signpost family predicts", "bn": "প্রতিটি signpost পরিবার কী জানান দেয়"},
+      {"en": "[decoy] + [signal] + [answer]", "bn": "[decoy] + [signal] + [answer]"},
+      {"en": "In Part 3, signposts show who agrees or changes their mind", "bn": "Part 3-এ signpost দেখায় কে একমত বা কে মত বদলালেন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The speaker says “the main thing to remember is…”. What should you expect?", "bn": "বক্তা বললেন “the main thing to remember is…”। কী আশা করবেন?"},
+        "options": [
+          {"en": "The answer, in the next breath", "bn": "উত্তর, পরের নিঃশ্বাসেই"},
+          {"en": "A change of topic", "bn": "Topic বদল"},
+          {"en": "A correction of what came before", "bn": "আগের কথার সংশোধন"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Phrases that flag importance mean the answer is right here. Corrections come with words like sorry, I mean, or rather.", "bn": "গুরুত্ব বোঝানো phrase মানে উত্তর ঠিক এখানেই। Correction আসে sorry, I mean, or rather-এর মতো শব্দে।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The note asks for the café's closing time (no day is given). What is the answer?", "bn": "Note-এ café-র বন্ধ হওয়ার সময় চাওয়া হয়েছে (কোনো দিন উল্লেখ নেই)। উত্তর কী?"},
+        "passage": "The café is open all day, closing at five, though on Fridays it stays open until eight.",
+        "options": [{"en": "five"}, {"en": "eight"}],
+        "answer": 0,
+        "explain": {"en": "“Though on Fridays” marks eight as a special case. Unless the question specifies Friday, the answer is five - the later, more memorable number is the decoy.", "bn": "“Though on Fridays” আটটাকে একটা বিশেষ ক্ষেত্র হিসেবে চিহ্নিত করে। Question-এ Friday না থাকলে উত্তর পাঁচ - পরের, বেশি মনে থাকা সংখ্যাটাই decoy।"}
+      }
+    ]
+  },
+  "l03_distractors_2": {
+    "intro": {"en": "The fourteen distractor types, how to defuse each one, and a six-question checklist for any answer you're unsure of.", "bn": "চোদ্দো ধরনের distractor, প্রতিটি কীভাবে নিষ্ক্রিয় করবেন, আর অনিশ্চিত উত্তরের জন্য ছয় প্রশ্নের checklist।"},
+    "learned": [
+      {"en": "Hearing a word is not the same as it being the answer", "bn": "শব্দ শোনা মানেই সেটা উত্তর নয়"},
+      {"en": "Fourteen distractor types and their defuses", "bn": "চোদ্দো ধরনের distractor আর তাদের প্রতিকার"},
+      {"en": "The distractor defusing checklist", "bn": "Distractor নিষ্ক্রিয় করার checklist"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which distractor type is this?", "bn": "এটা কোন ধরনের distractor?"},
+        "passage": "We considered a boat trip, but in the end we ruled it out.",
+        "options": [
+          {"en": "The rejected option", "bn": "The rejected option (বাতিল option)"},
+          {"en": "Two numbers", "bn": "Two numbers (দুটো সংখ্যা)"},
+          {"en": "Two locations", "bn": "Two locations (দুটো জায়গা)"}
+        ],
+        "answer": 0,
+        "explain": {"en": "A mentioned option is often a rejected option. Listen for the rejection frame - “ruled it out”.", "bn": "উল্লেখ করা option প্রায়ই বাতিল option। বাতিলের ছকটা খেয়াল করুন - “ruled it out”।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The first plausible answer you hear is, more often than not…", "bn": "প্রথম যে বিশ্বাসযোগ্য উত্তরটা শোনেন, সেটা বেশিরভাগ ক্ষেত্রে…"},
+        "options": [
+          {"en": "the decoy", "bn": "decoy"},
+          {"en": "the answer", "bn": "আসল উত্তর"}
+        ],
+        "answer": 0,
+        "explain": {"en": "The exam almost always says the wrong answer out loud before the right one. Slow your trigger finger by one clause.", "bn": "Exam প্রায় সবসময় সঠিক উত্তরের আগে ভুল উত্তরটা জোরে বলে দেয়। লেখার আগে একটা clause অপেক্ষা করুন।"}
+      }
+    ]
+  },
+  "l03_distractors_practice_1": {
+    "intro": {"en": "Five drills: name the signal, find the real answer, pick the verdict, catch rejections and track opinions.", "bn": "পাঁচটি drill: signal চিনুন, আসল উত্তর খুঁজুন, verdict ধরুন, বাতিল option ধরুন আর মত track করুন।"},
+    "learned": [
+      {"en": "The answer sits after the signal", "bn": "উত্তর থাকে signal-এর পরে"},
+      {"en": "Mention is not endorsement", "bn": "উল্লেখ মানেই সমর্থন নয়"},
+      {"en": "A single “not” can flip the meaning", "bn": "একটা “not” পুরো অর্থ উল্টে দিতে পারে"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The moment you hear “but”, “actually”, “sorry” or “instead”, what should you assume?", "bn": "“but”, “actually”, “sorry” বা “instead” শোনামাত্র কী ধরে নেবেন?"},
+        "options": [
+          {"en": "The answer you were about to write is now the decoy", "bn": "যে উত্তর লিখতে যাচ্ছিলেন, সেটা এখন decoy"},
+          {"en": "The speaker is changing topic", "bn": "বক্তা topic বদলাচ্ছেন"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Treat these words as an alarm: assume what you were about to write is now the decoy, and wait for the correction.", "bn": "এই শব্দগুলোকে সতর্ক সংকেত ধরুন: যা লিখতে যাচ্ছিলেন তা এখন decoy, আর correction-এর জন্য অপেক্ষা করুন।"}
+      }
+    ]
+  },
+  "l04_completion_1": {
+    "intro": {"en": "The completion family shares one engine and one discipline. Start with form completion, usually the first thing in the test.", "bn": "Completion পরিবারের ইঞ্জিন একটাই, নিয়মও একটাই। শুরু করুন form completion দিয়ে - সাধারণত test-এর প্রথম কাজ।"},
+    "learned": [
+      {"en": "Six completion types, one word limit", "bn": "ছয়টি completion type, একটাই word limit"},
+      {"en": "Form completion is almost always Part 1", "bn": "Form completion প্রায় সবসময় Part 1-এ"},
+      {"en": "Wait for spelled letters; don't guess", "bn": "বানান করা letter-এর জন্য অপেক্ষা করুন; আন্দাজ নয়"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What one discipline do all six completion types share?", "bn": "ছয়টি completion type-এর একটাই সাধারণ নিয়ম কী?"},
+        "options": [
+          {"en": "The word limit", "bn": "Word limit"},
+          {"en": "Choosing a letter A, B or C", "bn": "A, B বা C letter বেছে নেওয়া"}
+        ],
+        "answer": 0,
+        "explain": {"en": "They share one engine - prediction and paraphrase - and one discipline: the word limit.", "bn": "এদের ইঞ্জিন একটাই - prediction আর paraphrase - আর নিয়মও একটাই: word limit।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In Part 1, a name is being spelled out. What should you do?", "bn": "Part 1-এ একটা নাম বানান করে বলা হচ্ছে। কী করবেন?"},
+        "options": [
+          {"en": "Guess the spelling from the sound", "bn": "আওয়াজ শুনে বানান আন্দাজ করা"},
+          {"en": "Wait for the letters and write them as they come", "bn": "Letter-গুলোর জন্য অপেক্ষা করে আসার সাথে সাথে লেখা"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Don't guess spelling from sound. Write the letters as they come, and watch pairs that sound alike, such as m/n and b/p.", "bn": "আওয়াজ শুনে বানান আন্দাজ করবেন না। Letter যেমন আসে তেমন লিখুন, আর m/n, b/p-এর মতো একই রকম শোনানো জোড়াগুলো খেয়াল রাখুন।"}
+      }
+    ]
+  },
+  "l04_completion_2": {
+    "intro": {"en": "Note completion and table completion: use headings and headers as your anchors.", "bn": "Note completion আর table completion: heading আর header-কে anchor হিসেবে ব্যবহার করুন।"},
+    "learned": [
+      {"en": "Read note headings before the gaps", "bn": "Gap-এর আগে note-এর heading পড়ুন"},
+      {"en": "Tables usually fill row by row", "bn": "Table সাধারণত row ধরে ধরে পূরণ হয়"},
+      {"en": "Lost? Snap back to the headers", "bn": "হারিয়ে গেলে? Header-এ ফিরে যান"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In note completion, what should you read first?", "bn": "Note completion-এ প্রথমে কী পড়বেন?"},
+        "options": [
+          {"en": "The headings", "bn": "Heading-গুলো"},
+          {"en": "The gaps", "bn": "Gap-গুলো"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Headings tell you the shape of the talk and where you are at any moment. Read them first, then the gaps.", "bn": "Heading বলে দেয় talk-এর গঠন আর আপনি কোথায় আছেন। আগে heading, তারপর gap।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You feel lost in a table task. Where should your eyes go?", "bn": "Table task-এ হারিয়ে গেছেন মনে হচ্ছে। চোখ কোথায় নেবেন?"},
+        "options": [
+          {"en": "Back to the row and column headers", "bn": "Row আর column header-এ"},
+          {"en": "To the empty cell, rereading it", "bn": "খালি cell-এ, বারবার পড়তে"}
+        ],
+        "answer": 0,
+        "explain": {"en": "The headers are your safety rail. They re-anchor you faster than rereading the empty cell.", "bn": "Header-ই আপনার রেলিং। খালি cell বারবার পড়ার চেয়ে এগুলো অনেক দ্রুত আপনাকে আবার জায়গামতো আনে।"}
+      }
+    ]
+  },
+  "l04_completion_3": {
+    "intro": {"en": "Flow-chart, summary and sentence completion: follow the process, read for meaning, and check the grammar.", "bn": "Flow-chart, summary আর sentence completion: process অনুসরণ করুন, অর্থ ধরে পড়ুন, আর grammar যাচাই করুন।"},
+    "learned": [
+      {"en": "Flow-charts follow the arrows, but watch reordering", "bn": "Flow-chart তীর মেনে চলে, কিন্তু ক্রম বদল খেয়াল করুন"},
+      {"en": "Word boxes always have spare, plausible words", "bn": "Word box-এ সবসময় বাড়তি, বিশ্বাসযোগ্য শব্দ থাকে"},
+      {"en": "Read the completed sentence back", "bn": "পূরণ করা sentence আবার পড়ে দেখুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which phrase warns you that a step is being reordered in a flow-chart?", "bn": "Flow-chart-এ কোন phrase জানিয়ে দেয় যে একটা ধাপের ক্রম বদলাচ্ছে?"},
+        "options": [{"en": "but before that, you need to"}, {"en": "first"}, {"en": "finally"}],
+        "answer": 0,
+        "explain": {"en": "Steps mentioned then reordered are a flow-chart trap. Ride the sequence words, but stay alert for order-adjusting phrases.", "bn": "আগে বলা ধাপের ক্রম পরে বদলে দেওয়া flow-chart-এর একটা trap। Sequence word ধরে এগোন, কিন্তু ক্রম বদলের phrase-এ সজাগ থাকুন।"}
+      },
+      {
+        "type": "choice",
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "A summary task gives you a box of words. What is true?", "bn": "Summary task-এ একটা word box দেওয়া আছে। কোনটা সত্য?"},
+        "options": [
+          {"en": "There are always more words than gaps", "bn": "Gap-এর চেয়ে সবসময় শব্দ বেশি থাকে"},
+          {"en": "There is exactly one word per gap", "bn": "প্রতিটি gap-এর জন্য ঠিক একটা করে শব্দ"}
+        ],
+        "answer": 0,
+        "explain": {"en": "The spare words are traps built to fit the topic but not the sentence. Eliminate by grammar first, then decide by meaning.", "bn": "বাড়তি শব্দগুলো trap - topic-এর সাথে মেলে, sentence-এর সাথে নয়। আগে grammar দিয়ে বাদ দিন, তারপর অর্থ দিয়ে ঠিক করুন।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In sentence completion, how does the expert check an answer?", "bn": "Sentence completion-এ expert কীভাবে উত্তর যাচাই করেন?"},
+        "options": [
+          {"en": "Reads the completed sentence back to check it makes sense", "bn": "পূরণ করা sentence আবার পড়ে দেখেন অর্থ ঠিক আছে কি না"},
+          {"en": "Writes the whole phrase heard in the audio", "bn": "Audio-তে শোনা পুরো phrase লিখে দেন"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Writing a whole heard phrase without checking the grammar or the word limit is the beginner mistake. Treat the sentence as a template.", "bn": "Grammar বা word limit না দেখে শোনা পুরো phrase লিখে দেওয়া beginner-এর ভুল। Sentence-টাকে একটা ছাঁচ হিসেবে দেখুন।"}
+      }
+    ]
+  },
+  "l04_completion_practice_1": {
+    "intro": {"en": "Three drills: predict before you listen, catch the answer, and beat the trap.", "bn": "তিনটি drill: শোনার আগে predict করুন, উত্তর ধরুন, আর trap এড়ান।"},
+    "learned": [
+      {"en": "Predict the part of speech first", "bn": "আগে part of speech predict করুন"},
+      {"en": "Track meaning, not matching words", "bn": "শব্দ মেলানো নয়, অর্থ অনুসরণ করুন"},
+      {"en": "Completion answers have distractors too", "bn": "Completion-এর উত্তরেও distractor থাকে"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "The limit is TWO WORDS. Your three-word answer has the perfect meaning. Is it correct?", "bn": "Limit হলো TWO WORDS। আপনার তিন শব্দের উত্তরের অর্থ একদম ঠিক। এটা কি সঠিক?"},
+        "options": [
+          {"en": "Yes, the meaning is what counts", "bn": "হ্যাঁ, অর্থটাই আসল"},
+          {"en": "No, it is marked wrong", "bn": "না, এটা ভুল ধরা হবে"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Writing three words where two are allowed makes the answer wrong, even if the meaning is perfect.", "bn": "দুই শব্দের জায়গায় তিন শব্দ লিখলে অর্থ নিখুঁত হলেও উত্তর ভুল ধরা হয়।"}
+      }
+    ]
+  },
+  "l05_selection_1_1": {
+    "intro": {"en": "Multiple choice, multiple-answer and matching: these types ask you to decide, not just catch a word.", "bn": "Multiple choice, multiple-answer আর matching: এই type-গুলোতে শুধু শব্দ ধরা নয়, সিদ্ধান্ত নিতে হয়।"},
+    "learned": [
+      {"en": "Wait for the speaker's verdict words", "bn": "বক্তার verdict word-এর জন্য অপেক্ষা করুন"},
+      {"en": "Tick an option only when clearly affirmed", "bn": "স্পষ্টভাবে নিশ্চিত হলেই option tick করুন"},
+      {"en": "Track each speaker by name in matching", "bn": "Matching-এ প্রত্যেক বক্তাকে নাম ধরে track করুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In multiple choice, all three options are mentioned. What should you wait for?", "bn": "Multiple choice-এ তিনটি option-ই উল্লেখ করা হলো। কীসের জন্য অপেক্ষা করবেন?"},
+        "options": [
+          {"en": "The speaker's verdict words", "bn": "বক্তার verdict word"},
+          {"en": "The first option you hear", "bn": "প্রথম শোনা option"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Treat every option as “mentioned until endorsed”. Wait for verdict words such as “in the end” or “so we chose”.", "bn": "প্রতিটি option-কে “সমর্থন না পাওয়া পর্যন্ত শুধু উল্লেখ” ধরুন। “in the end” বা “so we chose”-এর মতো verdict word-এর অপেক্ষা করুন।"}
+      },
+      {
+        "type": "choice",
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In a “choose TWO” question, when should you tick an option?", "bn": "“choose TWO” question-এ কখন একটা option tick করবেন?"},
+        "options": [
+          {"en": "As soon as it is mentioned", "bn": "উল্লেখ হওয়ামাত্র"},
+          {"en": "Only when it is clearly affirmed", "bn": "শুধু স্পষ্টভাবে নিশ্চিত হলে"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Options are often mentioned and then denied (“we thought about a gym, but decided not to”). Keep all options live until one is clearly affirmed.", "bn": "Option প্রায়ই উল্লেখ করে তারপর বাতিল করা হয় (“we thought about a gym, but decided not to”)। স্পষ্ট নিশ্চিত না হওয়া পর্যন্ত সব option খোলা রাখুন।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Matching speakers to views in Part 3. What is the beginner's mistake?", "bn": "Part 3-এ বক্তাকে মতের সাথে matching। Beginner কী ভুল করেন?"},
+        "options": [
+          {"en": "Attaching an opinion to whoever spoke last", "bn": "শেষে যে কথা বলেছেন, মতটা তাঁর ঘাড়ে দেওয়া"},
+          {"en": "Tracking each speaker by name", "bn": "প্রত্যেক বক্তাকে নাম ধরে track করা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "The expert keeps a finger on the current item and tracks each speaker by name, instead of crediting whoever spoke last.", "bn": "Expert বর্তমান item-এ আঙুল রাখেন আর প্রত্যেক বক্তাকে নাম ধরে track করেন - শেষ বক্তাকে মত দিয়ে দেন না।"}
+      }
+    ]
+  },
+  "l05_selection_2_1": {
+    "intro": {"en": "Map and diagram labelling: follow the route and use position and function clues.", "bn": "Map আর diagram labelling: পথ অনুসরণ করুন, আর অবস্থান ও কাজের সূত্র ব্যবহার করুন।"},
+    "learned": [
+      {"en": "Start your pen on “you are here”", "bn": "Pen রাখুন “you are here”-এ"},
+      {"en": "Left and right depend on the direction of travel", "bn": "বাম-ডান নির্ভর করে চলার দিকের ওপর"},
+      {"en": "Place unknown parts by position and function", "bn": "অচেনা অংশ অবস্থান আর কাজ দিয়ে বসান"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Before a map task's audio starts, where should your pen be?", "bn": "Map task-এর audio শুরুর আগে pen কোথায় রাখবেন?"},
+        "options": [
+          {"en": "On the “you are here” point", "bn": "“you are here” point-এ"},
+          {"en": "On the first empty label", "bn": "প্রথম খালি label-এ"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Put your pen on the “you are here” point and move it as the speaker gives directions. Candidates who track with the pen rarely get lost.", "bn": "Pen রাখুন “you are here” point-এ, আর বক্তার নির্দেশ অনুযায়ী সরান। যারা pen দিয়ে track করেন, তারা খুব কমই হারিয়ে যান।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In diagram labelling you hear an unfamiliar technical word. What should you do?", "bn": "Diagram labelling-এ একটা অচেনা technical শব্দ শুনলেন। কী করবেন?"},
+        "options": [
+          {"en": "Use position and function clues to place the part", "bn": "অবস্থান আর কাজের সূত্র দিয়ে অংশটা বসানো"},
+          {"en": "Stop and work out what the word means", "bn": "থেমে শব্দটার মানে বের করা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Freezing on an unfamiliar word makes you miss the next two labels. Position (“at the very bottom”) and function (“water leaves through”) can place the part.", "bn": "অচেনা শব্দে আটকে গেলে পরের দুটো label মিস হয়। অবস্থান (“at the very bottom”) আর কাজ (“water leaves through”) দিয়েই অংশটা বসানো যায়।"}
+      }
+    ]
+  },
+  "l05_selection_2_2": {
+    "intro": {"en": "Short-answer questions, and how an expert handles a matching task under load.", "bn": "Short-answer question, আর চাপের মধ্যে expert কীভাবে matching task সামলান।"},
+    "learned": [
+      {"en": "Answer the exact question word", "bn": "ঠিক question word-এর উত্তর দিন"},
+      {"en": "Trim to the word limit", "bn": "Word limit-এ ছেঁটে নিন"},
+      {"en": "Match on the decision, not the nearest word", "bn": "কাছের শব্দ নয়, সিদ্ধান্ত ধরে match করুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "“What must visitors leave at reception?” (NO MORE THAN TWO WORDS)", "bn": "“What must visitors leave at reception?” (NO MORE THAN TWO WORDS)"},
+        "passage": "Before the tour, everyone needs to hand in any large bags at reception, though small handbags are fine to keep.",
+        "options": [{"en": "large bags"}, {"en": "small handbags"}, {"en": "any large bags at reception"}],
+        "answer": 0,
+        "explain": {"en": "“Small handbags are fine” is a related-information decoy, and the long phrase breaks the two-word limit.", "bn": "“Small handbags are fine” হলো related-information decoy, আর লম্বা phrase-টা দুই শব্দের limit ভাঙে।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which topic is Aisha doing?", "bn": "Aisha কোন topic করছেন?"},
+        "passage": "Aisha: I'm doing housing, though I nearly chose migration.",
+        "options": [{"en": "housing"}, {"en": "migration"}],
+        "answer": 0,
+        "explain": {"en": "Track the verb of choice, not the nearest noun: she “nearly chose” migration but is doing housing. Match on the decision, never on the nearest word.", "bn": "কাছের noun নয়, পছন্দের verb ধরুন: তিনি migration “nearly chose”, কিন্তু করছেন housing। সবসময় সিদ্ধান্ত ধরে match করুন, কাছের শব্দ ধরে নয়।"}
+      }
+    ]
+  },
+  "l05_selection_practice_1": {
+    "intro": {"en": "Five drills: multiple choice, multiple-answer, matching, map labelling and short answer.", "bn": "পাঁচটি drill: multiple choice, multiple-answer, matching, map labelling আর short answer।"},
+    "learned": [
+      {"en": "Listen for the verdict, not the first mention", "bn": "প্রথম উল্লেখ নয়, verdict শুনুন"},
+      {"en": "Denied options are decoys", "bn": "বাতিল option মানেই decoy"},
+      {"en": "Walk the route on a map", "bn": "Map-এ পথ ধরে হাঁটুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In a choose-two question, an option is named and then cancelled with “not”. What is it?", "bn": "Choose-two question-এ একটা option-এর নাম বলে তারপর “not” দিয়ে বাতিল করা হলো। এটা কী?"},
+        "options": [
+          {"en": "A wrong answer", "bn": "ভুল উত্তর"},
+          {"en": "One of the two answers", "bn": "দুটো উত্তরের একটা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "A denied option is a wrong answer wearing the costume of a right one. Listen as hard for “not” as for the items themselves.", "bn": "বাতিল option হলো সঠিক উত্তরের পোশাক পরা ভুল উত্তর। Item-গুলোর মতোই মন দিয়ে “not” শুনুন।"}
+      }
+    ]
+  },
+  "l06_recovery_1": {
+    "intro": {"en": "Fixes for the tricky moments: spelling, numbers, dates, addresses, accents, fast speech and losing your place.", "bn": "কঠিন মুহূর্তের সমাধান: বানান, সংখ্যা, তারিখ, ঠিকানা, accent, দ্রুত কথা আর জায়গা হারিয়ে ফেলা।"},
+    "learned": [
+      {"en": "Confusable letters and the -teen / -ty pair", "bn": "একই রকম শোনানো letter আর -teen / -ty জোড়া"},
+      {"en": "Write digits as you hear them", "bn": "শোনার সাথে সাথে digit লিখুন"},
+      {"en": "Rejoin at the next landmark", "bn": "পরের landmark থেকে আবার যোগ দিন"},
+      {"en": "Read all question stems first", "bn": "আগে সব question stem পড়ুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "How can you tell “thirteen” from “thirty”?", "bn": "“thirteen” আর “thirty” কীভাবে আলাদা করবেন?"},
+        "options": [
+          {"en": "By the stress: thirTEEN stresses the end, THIRty the front", "bn": "Stress দিয়ে: thirTEEN-এ জোর শেষে, THIRty-তে শুরুতে"},
+          {"en": "You can't - always guess the larger number", "bn": "পারবেন না - সবসময় বড় সংখ্যাটা আন্দাজ করুন"}
+        ],
+        "answer": 0,
+        "explain": {"en": "The -teen vs -ty pair catches almost everyone. Listen for where the stress falls.", "bn": "-teen বনাম -ty জোড়ায় প্রায় সবাই ভুল করেন। জোরটা কোথায় পড়ছে সেটা শুনুন।"}
+      },
+      {
+        "type": "choice",
+        "after": 3,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "You look up and have lost your place. What should you do?", "bn": "মাথা তুলে দেখলেন জায়গা হারিয়ে ফেলেছেন। কী করবেন?"},
+        "options": [
+          {"en": "Try to reconstruct what you missed", "bn": "যা মিস করেছেন তা মনে করে বের করা"},
+          {"en": "Listen for the next name, number or signpost and rejoin there", "bn": "পরের নাম, সংখ্যা বা signpost শুনে সেখান থেকে যোগ দেওয়া"}
+        ],
+        "answer": 1,
+        "explain": {"en": "Questions follow the audio order, so one landmark relocates you instantly. Don't reconstruct what you missed.", "bn": "Question audio-র ক্রম মেনে চলে, তাই একটা landmark-ই আপনাকে সঙ্গে সঙ্গে জায়গায় ফিরিয়ে আনে। মিস করা অংশ মনে করে বের করতে যাবেন না।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Multiple-choice options are long and reading time is short. What should you read first?", "bn": "Multiple-choice option-গুলো লম্বা, পড়ার সময় কম। প্রথমে কী পড়বেন?"},
+        "options": [
+          {"en": "All the question stems", "bn": "সব question stem"},
+          {"en": "Every option of every question", "bn": "প্রতিটি question-এর প্রতিটি option"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Read all the stems first, then read each question's options only as the audio approaches it.", "bn": "আগে সব stem পড়ুন, তারপর audio যখন যে question-এর কাছে আসে, তখন সেটার option পড়ুন।"}
+      }
+    ]
+  },
+  "l06_recovery_2": {
+    "intro": {"en": "The five-step Recovery System, how to use every pause, and the perfect Listening routine.", "bn": "পাঁচ ধাপের Recovery System, প্রতিটি বিরতি কীভাবে কাজে লাগাবেন, আর আদর্শ Listening routine।"},
+    "learned": [
+      {"en": "Recognise, leave, reset, follow, recover", "bn": "Recognise, leave, reset, follow, recover"},
+      {"en": "Use every pause to read ahead", "bn": "প্রতিটি বিরতি আগে পড়তে কাজে লাগান"},
+      {"en": "Final check: blanks first, then word limits", "bn": "শেষ যাচাই: আগে খালি ঘর, তারপর word limit"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which step of the Recovery System is the hardest?", "bn": "Recovery System-এর কোন ধাপটা সবচেয়ে কঠিন?"},
+        "options": [{"en": "LEAVE"}, {"en": "FOLLOW"}, {"en": "RECOVER"}],
+        "answer": 0,
+        "explain": {"en": "LEAVE is hardest, because the instinct is to chase. Train yourself to feel the chase starting and drop it on purpose.", "bn": "LEAVE সবচেয়ে কঠিন, কারণ মন স্বাভাবিকভাবেই পেছনে ছুটতে চায়। ছোটা শুরু হচ্ছে টের পেলেই ইচ্ছে করে ছেড়ে দেওয়ার অভ্যাস করুন।"}
+      },
+      {
+        "type": "choice",
+        "after": 2,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In the final two minutes, what is priority number 1?", "bn": "শেষ দুই মিনিটে ১ নম্বর অগ্রাধিকার কী?"},
+        "options": [
+          {"en": "Fill every blank with a guess", "bn": "প্রতিটি খালি ঘরে guess লেখা"},
+          {"en": "Check spelling of names", "bn": "নামের বানান যাচাই"},
+          {"en": "Proofread grammar", "bn": "Grammar proofread করা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "The order is blanks, word limits, spelling, then singular or plural. Blanks and word limits win the most marks in the least time.", "bn": "ক্রম হলো: খালি ঘর, word limit, বানান, তারপর singular বা plural। সবচেয়ে কম সময়ে সবচেয়ে বেশি নম্বর আনে খালি ঘর আর word limit।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What should you do with the pause between parts?", "bn": "দুই part-এর মাঝের বিরতিতে কী করবেন?"},
+        "options": [
+          {"en": "Read into the next set and bank time", "bn": "পরের set আগে পড়ে সময় জমিয়ে রাখা"},
+          {"en": "Go back over answers you already have", "bn": "আগের লেখা উত্তরগুলো আবার দেখা"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Don't use pauses to admire answers you already have. Use them to predict shapes, mark keywords and read ahead.", "bn": "বিরতিতে আগের উত্তর নিয়ে পড়ে থাকবেন না। এই সময়ে gap-এর ধরন predict করুন, keyword mark করুন আর সামনে পড়ুন।"}
+      }
+    ]
+  },
+  "l06_recovery_practice_1": {
+    "intro": {"en": "Four drills: decode numbers and letters, catch corrected spellings, run the recovery process, and fix your place.", "bn": "চারটি drill: সংখ্যা আর letter বোঝা, সংশোধিত বানান ধরা, recovery process চালানো, আর জায়গা খুঁজে পাওয়া।"},
+    "learned": [
+      {"en": "“Double” and “triple” in digit strings", "bn": "Digit string-এ “double” আর “triple”"},
+      {"en": "Corrections hit spellings and house numbers", "bn": "Correction আসে বানান আর বাড়ির নম্বরে"},
+      {"en": "Sacrifice the lost answer to save the next", "bn": "পরেরটা বাঁচাতে হারানো উত্তর ছেড়ে দিন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In the Recovery System, which step comes right after RESET?", "bn": "Recovery System-এ RESET-এর ঠিক পরের ধাপ কোনটা?"},
+        "options": [{"en": "LEAVE"}, {"en": "FOLLOW"}, {"en": "RECOVER"}],
+        "answer": 1,
+        "explain": {"en": "Recognise, leave, reset, follow, recover. FOLLOW means moving your eyes to the next question and rejoining the audio there.", "bn": "Recognise, leave, reset, follow, recover। FOLLOW মানে চোখ পরের question-এ নিয়ে সেখান থেকে audio-র সাথে আবার যোগ দেওয়া।"}
+      }
+    ]
+  },
+  "l07_practice_1": {
+    "intro": {"en": "The seven-level practice ladder begins: a quick self-check and guided drills on prediction, keywords and paraphrase.", "bn": "সাত ধাপের practice ladder শুরু: ছোট self-check, আর prediction, keyword ও paraphrase-এর guided drill।"},
+    "learned": [
+      {"en": "Read transcripts at speaking pace", "bn": "Transcript কথা বলার গতিতে পড়ুন"},
+      {"en": "Give every wrong answer a reason code", "bn": "প্রতিটি ভুল উত্তরে একটা reason code দিন"},
+      {"en": "Prediction, keywords and paraphrase, together", "bn": "Prediction, keyword আর paraphrase - একসাথে"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "What should you keep open the whole way through the practice ladder?", "bn": "পুরো practice ladder জুড়ে কী খোলা রাখবেন?"},
+        "options": [
+          {"en": "Your Error Log", "bn": "আপনার Error Log"},
+          {"en": "The answer key", "bn": "Answer key"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Keep your Error Log open throughout - every wrong answer gets a reason code.", "bn": "পুরো সময় Error Log খোলা রাখুন - প্রতিটি ভুল উত্তর একটা reason code পায়।"}
+      }
+    ]
+  },
+  "l07_practice_2": {
+    "intro": {"en": "Levels 3 and 4: independent practice, then trap practice.", "bn": "Level 3 আর 4: নিজে নিজে practice, তারপর trap practice।"},
+    "learned": [
+      {"en": "Obey the word limit in note completion", "bn": "Note completion-এ word limit মানুন"},
+      {"en": "Name the trap before you answer", "bn": "উত্তরের আগে trap-টার নাম দিন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "Which trap type is this?", "bn": "এটা কোন ধরনের trap?"},
+        "passage": "The meeting is on the second floor, sorry, the third floor.",
+        "options": [
+          {"en": "Correction", "bn": "Correction"},
+          {"en": "Negation", "bn": "Negation"},
+          {"en": "Speaker attribution", "bn": "Speaker attribution"}
+        ],
+        "answer": 0,
+        "explain": {"en": "“Sorry” cancels the first floor and gives the answer: the third floor. The answer sits after the signal.", "bn": "“Sorry” প্রথম floor বাতিল করে উত্তর দেয়: the third floor। উত্তর থাকে signal-এর পরে।"}
+      }
+    ]
+  },
+  "l07_practice_3": {
+    "intro": {"en": "Levels 5 and 6: a Part 1 style mini-test and a Part 3 style mini-test.", "bn": "Level 5 আর 6: Part 1-ধাঁচের একটা mini-test আর Part 3-ধাঁচের একটা mini-test।"},
+    "learned": [
+      {"en": "Spelled names and digit strings in Part 1", "bn": "Part 1-এ বানান করা নাম আর digit string"},
+      {"en": "Two-option traps resolved by a later condition", "bn": "পরের শর্তে মীমাংসা হওয়া দুই-option trap"},
+      {"en": "In Part 3, abandoned choices are decoys", "bn": "Part 3-এ বাদ দেওয়া পছন্দই decoy"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "In Part 3 matching, what should you match each person on?", "bn": "Part 3 matching-এ প্রত্যেককে কীসের ভিত্তিতে match করবেন?"},
+        "options": [
+          {"en": "Their final decision", "bn": "তাঁর চূড়ান্ত সিদ্ধান্ত"},
+          {"en": "The nearest topic word to their name", "bn": "নামের সবচেয়ে কাছের topic শব্দ"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Match on the decision, never on the nearest word. Choices a speaker abandons are the decoys.", "bn": "সবসময় সিদ্ধান্ত ধরে match করুন, কাছের শব্দ ধরে নয়। বক্তা যে পছন্দ ছেড়ে দেন, সেটাই decoy।"}
+      }
+    ]
+  },
+  "l07_practice_4": {
+    "intro": {"en": "Level 7: apply the whole system to a full test with real audio - then the module in one breath.", "bn": "Level 7: পুরো system আসল audio-র full test-এ প্রয়োগ করুন - তারপর এক নিঃশ্বাসে পুরো module।"},
+    "learned": [
+      {"en": "Play the audio once; never pause or replay", "bn": "Audio একবারই চালান; কখনো pause বা replay নয়"},
+      {"en": "Rehearse stamina in one sitting", "bn": "একবারে বসে stamina-র রিহার্সাল দিন"},
+      {"en": "Log every mistake by reason", "bn": "প্রতিটি ভুল কারণসহ লিখে রাখুন"}
+    ],
+    "checks": [
+      {
+        "type": "choice",
+        "after": 1,
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "How should you do your full practice tests?", "bn": "Full practice test কীভাবে দেবেন?"},
+        "options": [
+          {"en": "In one sitting, at the time of day of your real exam, with no pausing", "bn": "একবারে বসে, আসল পরীক্ষার সময়ে, কোনো pause ছাড়া"},
+          {"en": "One section at a time, replaying hard parts", "bn": "একবারে একটা section, কঠিন অংশ replay করে"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Your brain needs to rehearse the stamina too. Students who only practise one section at a time are often shocked by how tired they are by Part 4.", "bn": "মস্তিষ্কের stamina-রও রিহার্সাল দরকার। যারা শুধু একটা করে section practice করেন, Part 4-এ পৌঁছে কতটা ক্লান্ত লাগে দেখে তারা প্রায়ই অবাক হন।"}
+      },
+      {
+        "type": "choice",
+        "title": {"en": "Quick check", "bn": "ঝটপট যাচাই"},
+        "prompt": {"en": "After a practice test, what do you do with your mistakes?", "bn": "Practice test-এর পর ভুলগুলো নিয়ে কী করবেন?"},
+        "options": [
+          {"en": "Log each by reason and drill the reason that dominates", "bn": "প্রতিটি কারণসহ log করা, আর যে কারণ সবচেয়ে বেশি, সেটার drill করা"},
+          {"en": "Just take another full test straight away", "bn": "সঙ্গে সঙ্গে আরেকটা full test দেওয়া"}
+        ],
+        "answer": 0,
+        "explain": {"en": "Afterwards, log every mistake by reason, and drill the reason that dominates.", "bn": "শেষে প্রতিটি ভুল কারণসহ log করুন, আর যে কারণটা সবচেয়ে বেশি, সেটার drill করুন।"}
+      }
+    ]
+  }
+}

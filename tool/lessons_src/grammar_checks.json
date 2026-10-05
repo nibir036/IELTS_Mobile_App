@@ -1,0 +1,2679 @@
+{
+ "g01_agreement_practice_1": {
+  "intro": {
+   "en": "Recap the core agreement rule and the irregular be / have forms, then correct real sentences.",
+   "bn": "Agreement-এর মূল নিয়ম আর be / have-এর irregular রূপ ঝালিয়ে নিন, তারপর আসল বাক্য ঠিক করুন।"
+  },
+  "learned": [
+   {
+    "en": "Singular subject → verb + s/es; plural → base verb",
+    "bn": "Singular subject → verb + s/es; plural → base verb"
+   },
+   {
+    "en": "is / was / has vs are / were / have",
+    "bn": "is / was / has বনাম are / were / have"
+   },
+   {
+    "en": "Correcting agreement errors in real sentences",
+    "bn": "আসল বাক্যে agreement ভুল ঠিক করা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "The student work hard."
+     },
+     {
+      "en": "The students works hard."
+     },
+     {
+      "en": "The students work hard."
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "A plural subject takes the base verb: the students work. The -s goes on the noun or the verb - rarely both.",
+     "bn": "Plural subject base verb নেয়: the students work। -s বসে noun-এ অথবা verb-এ - দুটোতে প্রায় কখনো নয়।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g01_agreement_practice_2": {
+  "intro": {
+   "en": "Recap the eight tricky agreement cases, then edit a Band 5.5 paragraph with ten errors.",
+   "bn": "Agreement-এর ৮টি কঠিন case ঝালিয়ে নিন, তারপর দশটা ভুলসহ একটা Band 5.5 paragraph edit করুন।"
+  },
+  "learned": [
+   {
+    "en": "The eight cases where the true subject hides",
+    "bn": "যে ৮টি case-এ আসল subject লুকিয়ে থাকে"
+   },
+   {
+    "en": "Editing a full paragraph for agreement",
+    "bn": "পুরো paragraph-এ agreement ঠিক করা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Nowadays, the number of people who work from home ______ increased dramatically.",
+     "bn": "Nowadays, the number of people who work from home ______ increased dramatically."
+    },
+    "options": [
+     {
+      "en": "have"
+     },
+     {
+      "en": "has"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“The number of” is singular - the subject is “number”, one figure - so: has increased.",
+     "bn": "“The number of” singular - subject হলো “number”, একটি সংখ্যা - তাই: has increased।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g02_tenses_1_1": {
+  "intro": {
+   "en": "Why tense matters in IELTS, and what a tense actually carries: time plus aspect.",
+   "bn": "IELTS-এ tense কেন গুরুত্বপূর্ণ, আর একটা tense আসলে কী বহন করে: time আর aspect।"
+  },
+  "learned": [
+   {
+    "en": "A tense = time + aspect",
+    "bn": "Tense = time + aspect"
+   },
+   {
+    "en": "The four aspects and their markers",
+    "bn": "চারটি aspect আর তাদের চিহ্ন"
+   },
+   {
+    "en": "Why 3 times × 4 aspects = 12 tenses",
+    "bn": "কেন ৩টি time × ৪টি aspect = ১২টি tense"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which aspect signals an action in progress, unfinished (be + verb-ing)?",
+     "bn": "কোন aspect চলমান, অসমাপ্ত কাজ বোঝায় (be + verb-ing)?"
+    },
+    "options": [
+     {
+      "en": "Simple"
+     },
+     {
+      "en": "Continuous"
+     },
+     {
+      "en": "Perfect"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The continuous (progressive) aspect uses be + verb-ing for an action in progress. The perfect links an action to a later time.",
+     "bn": "Continuous (progressive) aspect চলমান কাজের জন্য be + verb-ing ব্যবহার করে। Perfect একটা কাজকে পরের কোনো সময়ের সাথে যুক্ত করে।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "An English tense carries two pieces of information at once. Which two?",
+     "bn": "একটা English tense একসাথে দুটো তথ্য বহন করে। কোন দুটো?"
+    },
+    "options": [
+     {
+      "en": "Time and aspect",
+      "bn": "Time আর aspect"
+     },
+     {
+      "en": "Subject and object",
+      "bn": "Subject আর object"
+     },
+     {
+      "en": "Singular and plural",
+      "bn": "Singular আর plural"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Time tells you when (past, present, future); aspect tells you how (simple, continuous, perfect, perfect continuous).",
+     "bn": "Time বলে কখন (past, present, future); aspect বলে কেমনভাবে (simple, continuous, perfect, perfect continuous)।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g02_tenses_1_2": {
+  "intro": {
+   "en": "The full map of the twelve tenses, and the five that do about 90 per cent of the work in IELTS.",
+   "bn": "১২টি tense-এর পুরো ম্যাপ, আর সেই ৫টি যা IELTS-এ প্রায় ৯০ শতাংশ কাজ করে।"
+  },
+  "learned": [
+   {
+    "en": "Recognising all twelve tenses",
+    "bn": "১২টি tense চেনা"
+   },
+   {
+    "en": "The five tenses IELTS rewards",
+    "bn": "IELTS যে ৫টি tense-কে পুরস্কৃত করে"
+   },
+   {
+    "en": "Which tense fits which job",
+    "bn": "কোন tense কোন কাজের জন্য"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“By 2040, the city will have doubled in size.” Which tense is this?",
+     "bn": "“By 2040, the city will have doubled in size.” - এটা কোন tense?"
+    },
+    "options": [
+     {
+      "en": "Future continuous"
+     },
+     {
+      "en": "Future perfect"
+     },
+     {
+      "en": "Present perfect"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "will have + past participle is the future perfect: an action completed before a future point.",
+     "bn": "will have + past participle হলো future perfect: ভবিষ্যতের কোনো সময়ের আগে শেষ হওয়া কাজ।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which tense is for facts, habits, general truths and Task 2 positions?",
+     "bn": "Fact, অভ্যাস, সাধারণ সত্য আর Task 2-এর position-এর জন্য কোন tense?"
+    },
+    "options": [
+     {
+      "en": "Present simple"
+     },
+     {
+      "en": "Present continuous"
+     },
+     {
+      "en": "Past simple"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The present simple covers facts, habits, general truths and your Task 2 position.",
+     "bn": "Present simple দিয়ে fact, অভ্যাস, সাধারণ সত্য আর আপনার Task 2 position লেখা হয়।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g02_tenses_2_1": {
+  "intro": {
+   "en": "The two critical pairs behind almost all tense errors, plus the three future forms.",
+   "bn": "প্রায় সব tense ভুলের পেছনের দুটি গুরুত্বপূর্ণ জোড়া, সাথে future-এর তিনটি রূপ।"
+  },
+  "learned": [
+   {
+    "en": "Past simple vs present perfect: let the time word decide",
+    "bn": "Past simple বনাম present perfect: time word-ই ঠিক করবে"
+   },
+   {
+    "en": "Present simple vs present continuous",
+    "bn": "Present simple বনাম present continuous"
+   },
+   {
+    "en": "will, going to and the present continuous for the future",
+    "bn": "Future-এর জন্য will, going to আর present continuous"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "The company has launched its first product in 2009."
+     },
+     {
+      "en": "The company launched its first product in 2009."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“In 2009” is a finished year, so the past simple is required. The present perfect is for time reaching up to now (since, for, recently).",
+     "bn": "“In 2009” একটা শেষ হয়ে যাওয়া বছর, তাই past simple লাগবে। Present perfect হলো এখন পর্যন্ত চলা সময়ের জন্য (since, for, recently)।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Demand for electric vehicles ______ sharply at present.",
+     "bn": "Demand for electric vehicles ______ sharply at present."
+    },
+    "options": [
+     {
+      "en": "rises"
+     },
+     {
+      "en": "is rising"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "A current trend, signalled by “at present”, takes the present continuous: is rising.",
+     "bn": "“At present” দিয়ে বোঝানো চলমান trend present continuous নেয়: is rising।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which form is used for a plan that has already been decided?",
+     "bn": "আগে থেকেই ঠিক করা plan-এর জন্য কোন রূপ ব্যবহার হয়?"
+    },
+    "options": [
+     {
+      "en": "be going to + base verb",
+      "bn": "be going to + base verb"
+     },
+     {
+      "en": "Past perfect",
+      "bn": "Past perfect"
+     },
+     {
+      "en": "Present perfect",
+      "bn": "Present perfect"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "be going to is for plans already decided and predictions based on present evidence: The government is going to introduce a carbon tax next year.",
+     "bn": "be going to ব্যবহার হয় আগে ঠিক করা plan আর বর্তমান প্রমাণের ভিত্তিতে prediction-এর জন্য: The government is going to introduce a carbon tax next year."
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g02_tenses_2_2": {
+  "intro": {
+   "en": "The perfect tenses worth recognising, and the two continuous-tense traps in Bangladeshi scripts.",
+   "bn": "যে perfect tense-গুলো চিনে রাখা দরকার, আর বাংলাদেশি script-এ continuous tense-এর দুটি ফাঁদ।"
+  },
+  "learned": [
+   {
+    "en": "Past perfect, present perfect continuous, future perfect",
+    "bn": "Past perfect, present perfect continuous, future perfect"
+   },
+   {
+    "en": "Stative verbs are not used in the continuous",
+    "bn": "Stative verb continuous-এ বসে না"
+   },
+   {
+    "en": "since / for take a perfect tense",
+    "bn": "since / for perfect tense নেয়"
+   },
+   {
+    "en": "Time frames in Task 1 and Task 2",
+    "bn": "Task 1 আর Task 2-এ time frame"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence is correct?",
+     "bn": "কোন বাক্যটি সঠিক?"
+    },
+    "options": [
+     {
+      "en": "The population is increasing since 2010."
+     },
+     {
+      "en": "The population has been increasing since 2010."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "A trend that started in the past and continues now takes the present perfect or present perfect continuous with “since”, never the plain present continuous.",
+     "bn": "অতীতে শুরু হয়ে এখনও চলা trend-এ “since” থাকলে present perfect বা present perfect continuous লাগে, সাধারণ present continuous কখনো নয়।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "I am knowing the answer."
+     },
+     {
+      "en": "I know the answer."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Know” is a stative verb - it describes a state, not an action in progress - so it cannot be continuous.",
+     "bn": "“Know” একটি stative verb - এটা অবস্থা বোঝায়, চলমান কাজ নয় - তাই continuous হয় না।"
+    },
+    "after": 1
+   }
+  ]
+ },
+ "g02_tenses_practice_1": {
+  "intro": {
+   "en": "Recap the five tenses that matter, then choose the right tense from each time signal.",
+   "bn": "গুরুত্বপূর্ণ ৫টি tense ঝালিয়ে নিন, তারপর প্রতিটা time signal দেখে সঠিক tense বেছে নিন।"
+  },
+  "learned": [
+   {
+    "en": "The five tenses that do almost all the work",
+    "bn": "যে ৫টি tense প্রায় সব কাজ করে"
+   },
+   {
+    "en": "Choosing a tense from its time signal",
+    "bn": "Time signal দেখে tense বাছাই"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which of these is NOT one of the five tenses that do almost all the work in IELTS?",
+     "bn": "এর মধ্যে কোনটা IELTS-এ প্রায় সব কাজ করা ৫টি tense-এর মধ্যে নেই?"
+    },
+    "options": [
+     {
+      "en": "Present perfect"
+     },
+     {
+      "en": "Past perfect continuous"
+     },
+     {
+      "en": "Present continuous"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The five are present simple, present continuous, past simple, present perfect and future forms. The past perfect continuous is one to recognise, not a workhorse.",
+     "bn": "৫টি হলো present simple, present continuous, past simple, present perfect আর future form। Past perfect continuous চিনে রাখার মতো, নিয়মিত ব্যবহারের নয়।"
+    },
+    "after": 1
+   }
+  ]
+ },
+ "g02_tenses_practice_2": {
+  "intro": {
+   "en": "Past simple or present perfect for Task 1 trends - then write a trend paragraph using both, plus a future form.",
+   "bn": "Task 1 trend-এ past simple না present perfect - তারপর দুটো আর একটা future form দিয়ে trend paragraph লিখুন।"
+  },
+  "learned": [
+   {
+    "en": "Finished time → past simple",
+    "bn": "শেষ হওয়া সময় → past simple"
+   },
+   {
+    "en": "Time up to now → present perfect",
+    "bn": "এখন পর্যন্ত সময় → present perfect"
+   },
+   {
+    "en": "Scan the time word first",
+    "bn": "আগে time word-টা দেখুন"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence is correct?",
+     "bn": "কোন বাক্যটি সঠিক?"
+    },
+    "options": [
+     {
+      "en": "Since 2020, remote work became far more common."
+     },
+     {
+      "en": "Since 2020, remote work has become far more common."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Since” reaches up to now, so the present perfect is needed: has become.",
+     "bn": "“Since” এখন পর্যন্ত পৌঁছায়, তাই present perfect লাগবে: has become।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g03_articles_1": {
+  "intro": {
+   "en": "Countable vs uncountable nouns, the three articles plus the zero article, and a four-step decision process.",
+   "bn": "Countable বনাম uncountable noun, তিনটি article আর zero article, আর চার ধাপের একটা decision process।"
+  },
+  "learned": [
+   {
+    "en": "Countable vs uncountable, and partitive phrases",
+    "bn": "Countable বনাম uncountable, আর partitive phrase"
+   },
+   {
+    "en": "a / an by sound, not spelling",
+    "bn": "a / an ঠিক হয় উচ্চারণে, বানানে নয়"
+   },
+   {
+    "en": "When to use the, and when no article",
+    "bn": "কখন the, আর কখন কোনো article নয়"
+   },
+   {
+    "en": "The four-step proofreading process",
+    "bn": "Proofreading-এর চার ধাপ"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "He gave me an advice."
+     },
+     {
+      "en": "He gave me a piece of advice."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Advice” is uncountable: no a / an and no plural. To count it, use a partitive phrase: a piece of advice.",
+     "bn": "“Advice” uncountable: a / an বসে না, plural-ও হয় না। গুনতে হলে partitive phrase দিন: a piece of advice।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "She is studying at an university."
+     },
+     {
+      "en": "She is studying at a university."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "a / an depends on sound, not spelling. “University” begins with a “y” consonant sound, so it takes “a”.",
+     "bn": "a / an ঠিক হয় উচ্চারণে, বানানে নয়। “University” শুরু হয় “y” consonant sound দিয়ে, তাই “a” বসবে।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence is correct?",
+     "bn": "কোন বাক্যটি সঠিক?"
+    },
+    "options": [
+     {
+      "en": "The education is a basic right."
+     },
+     {
+      "en": "Education is a basic right."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "An uncountable noun talked about in general takes the zero article: Education is a basic right.",
+     "bn": "সাধারণ অর্থে ব্যবহৃত uncountable noun কোনো article নেয় না (zero article): Education is a basic right।"
+    },
+    "after": 5
+   }
+  ]
+ },
+ "g03_articles_2": {
+  "intro": {
+   "en": "Fixed article cases worth memorising, and the three error patterns that keep Bangla speakers at Band 6.",
+   "bn": "মুখস্থ রাখার মতো fixed article case, আর যে তিনটি ভুলের ধরন বাংলাভাষীদের Band 6-এ আটকে রাখে।"
+  },
+  "learned": [
+   {
+    "en": "Unique things: the internet, the government",
+    "bn": "অনন্য জিনিস: the internet, the government"
+   },
+   {
+    "en": "Countries with and without the",
+    "bn": "যে দেশের নামে the বসে, আর যেখানে বসে না"
+   },
+   {
+    "en": "First mention a, second mention the",
+    "bn": "প্রথমবার a, দ্বিতীয়বার the"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which country name takes “the”?",
+     "bn": "কোন দেশের নামের আগে “the” বসে?"
+    },
+    "options": [
+     {
+      "en": "the France"
+     },
+     {
+      "en": "the Philippines"
+     },
+     {
+      "en": "the Bangladesh"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Most countries take the zero article (Bangladesh, France, China), but a few plural or “united/republic” names take the: the Philippines, the Netherlands.",
+     "bn": "বেশিরভাগ দেশের নামে article বসে না (Bangladesh, France, China), কিন্তু কিছু plural বা “united/republic” নামে the বসে: the Philippines, the Netherlands।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "Internet has changed our lives."
+     },
+     {
+      "en": "The internet has changed our lives."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The internet is treated as unique, so it takes “the”. Dropping it is one of the three main article errors for Bangla speakers.",
+     "bn": "The internet-কে অনন্য ধরা হয়, তাই “the” বসে। এটা বাদ দেওয়া বাংলাভাষীদের তিনটি প্রধান article ভুলের একটা।"
+    },
+    "after": 1
+   }
+  ]
+ },
+ "g03_articles_practice_1": {
+  "intro": {
+   "en": "Recap a / an, the and the zero article, then put the missing articles back into real sentences.",
+   "bn": "a / an, the আর zero article ঝালিয়ে নিন, তারপর আসল বাক্যে বাদ পড়া article বসান।"
+  },
+  "learned": [
+   {
+    "en": "The three articles plus zero",
+    "bn": "তিনটি article আর zero article"
+   },
+   {
+    "en": "The test: mentioned before or unique → the",
+    "bn": "পরীক্ষা: আগে বলা বা অনন্য → the"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "I saw a documentary last night. ______ documentary was about climate change.",
+     "bn": "I saw a documentary last night. ______ documentary was about climate change."
+    },
+    "options": [
+     {
+      "en": "A"
+     },
+     {
+      "en": "The"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "It has already been mentioned, so it is now specific: “the”. Introduce with a, refer back with the.",
+     "bn": "এটা আগেই বলা হয়েছে, তাই এখন নির্দিষ্ট: “the”। প্রথমবার a, পরে ফিরে উল্লেখ করতে the।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g03_articles_practice_2": {
+  "intro": {
+   "en": "Recap countable vs uncountable nouns, then fix sentences that give uncountable nouns an -s or a / an.",
+   "bn": "Countable বনাম uncountable noun ঝালিয়ে নিন, তারপর যে বাক্যে uncountable noun-এ -s বা a / an বসেছে সেগুলো ঠিক করুন।"
+  },
+  "learned": [
+   {
+    "en": "Uncountable: no plural, no a / an",
+    "bn": "Uncountable: plural নেই, a / an নেই"
+   },
+   {
+    "en": "The high-frequency uncountable set",
+    "bn": "বারবার আসা uncountable noun-এর set"
+   },
+   {
+    "en": "Partitive phrases: a piece of …",
+    "bn": "Partitive phrase: a piece of …"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "We need more informations."
+     },
+     {
+      "en": "We need more information."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Information” is uncountable, so it never takes a plural -s.",
+     "bn": "“Information” uncountable, তাই কখনো plural -s নেয় না।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g04_prepositions_1": {
+  "intro": {
+   "en": "What prepositions do, the in / on / at time logic, and prepositions of place and direction.",
+   "bn": "Preposition কী করে, সময়ের in / on / at-এর যুক্তি, আর স্থান ও দিকের preposition।"
+  },
+  "learned": [
+   {
+    "en": "After a preposition, a verb takes -ing",
+    "bn": "Preposition-এর পরে verb -ing নেয়"
+   },
+   {
+    "en": "in / on / at for time: zooming in",
+    "bn": "সময়ের in / on / at: বড় থেকে ছোট"
+   },
+   {
+    "en": "since, for, during, by, from … to",
+    "bn": "since, for, during, by, from … to"
+   },
+   {
+    "en": "in / on / at / into for place and direction",
+    "bn": "স্থান ও দিকের in / on / at / into"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "She is interested in study engineering."
+     },
+     {
+      "en": "She is interested in studying engineering."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "After a preposition, a verb always takes the -ing form: interested in studying.",
+     "bn": "Preposition-এর পরে verb সবসময় -ing রূপ নেয়: interested in studying।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "The population grew ______ five years.",
+     "bn": "The population grew ______ five years."
+    },
+    "options": [
+     {
+      "en": "since"
+     },
+     {
+      "en": "for"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“For” goes with a length of time; “since” goes with a starting point (since 2010).",
+     "bn": "“For” বসে সময়ের দৈর্ঘ্যের সাথে; “since” বসে শুরুর সময়ের সাথে (since 2010)।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "______ Monday the shop is closed.",
+     "bn": "______ Monday the shop is closed."
+    },
+    "options": [
+     {
+      "en": "In"
+     },
+     {
+      "en": "On"
+     },
+     {
+      "en": "At"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Days and dates take “on”: on Monday, on 5 May. “In” is for months, years and long periods; “at” for clock times.",
+     "bn": "দিন আর তারিখের আগে “on”: on Monday, on 5 May। “In” মাস, বছর আর দীর্ঘ সময়ের জন্য; “at” ঘড়ির সময়ের জন্য।"
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g04_prepositions_2": {
+  "intro": {
+   "en": "The Task 1 data prepositions, dependent prepositions in blocks, and the direct-translation errors examiners spot instantly.",
+   "bn": "Task 1-এর data preposition, block ধরে dependent preposition, আর examiner যে সরাসরি-অনুবাদের ভুল সাথে সাথে ধরেন।"
+  },
+  "learned": [
+   {
+    "en": "increase by, from X to Y, reach a peak",
+    "bn": "increase by, from X to Y, reach a peak"
+   },
+   {
+    "en": "Verb, adjective and noun + preposition",
+    "bn": "Verb, adjective আর noun + preposition"
+   },
+   {
+    "en": "discuss the topic, not discuss about",
+    "bn": "discuss the topic, discuss about নয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "Sales increased with 20 per cent and reached to a peak in June."
+     },
+     {
+      "en": "Sales increased by 20 per cent and reached a peak in June."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Use “increase by” for the size of a change, and “reach a peak” takes no preposition after “reach”.",
+     "bn": "পরিবর্তনের পরিমাণ বোঝাতে “increase by”, আর “reach a peak”-এ “reach”-এর পরে কোনো preposition বসে না।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "The outcome depends ______ funding.",
+     "bn": "The outcome depends ______ funding."
+    },
+    "options": [
+     {
+      "en": "of"
+     },
+     {
+      "en": "from"
+     },
+     {
+      "en": "on"
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "“Depend on” is a fixed pair. Dependent prepositions have no logic - learn each as one unit.",
+     "bn": "“Depend on” একটা fixed জোড়া। Dependent preposition-এর পেছনে কোনো যুক্তি নেই - প্রতিটা একক হিসেবে শিখুন।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "We will discuss about the topic."
+     },
+     {
+      "en": "We will discuss the topic."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Discuss” takes a direct object - no preposition. “Discuss about” comes from translating Bangla word for word.",
+     "bn": "“Discuss” সরাসরি object নেয় - কোনো preposition নয়। “Discuss about” আসে বাংলা থেকে শব্দে শব্দে অনুবাদ করে।"
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g04_prepositions_practice_1": {
+  "intro": {
+   "en": "Recap dependent prepositions by word type, then fill the gaps - some take no preposition at all.",
+   "bn": "Word type ধরে dependent preposition ঝালিয়ে নিন, তারপর ফাঁকা পূরণ করুন - কিছু জায়গায় কোনো preposition-ই বসে না।"
+  },
+  "learned": [
+   {
+    "en": "Verb, adjective and noun + preposition blocks",
+    "bn": "Verb, adjective আর noun + preposition-এর block"
+   },
+   {
+    "en": "Learn each pair as one chunk",
+    "bn": "প্রতিটা জোড়া একটা chunk হিসেবে শিখুন"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Individuals are responsible ______ their choices.",
+     "bn": "Individuals are responsible ______ their choices."
+    },
+    "options": [
+     {
+      "en": "of"
+     },
+     {
+      "en": "for"
+     },
+     {
+      "en": "to"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Responsible for” is a fixed adjective + preposition pair - memorise it as one chunk.",
+     "bn": "“Responsible for” একটা fixed adjective + preposition জোড়া - একটা chunk হিসেবে মুখস্থ করুন।"
+    },
+    "after": 1
+   }
+  ]
+ },
+ "g04_prepositions_practice_2": {
+  "intro": {
+   "en": "Recap how prepositions work, then fix sentences spoiled by direct translation from Bangla.",
+   "bn": "Preposition কীভাবে কাজ করে ঝালিয়ে নিন, তারপর বাংলা থেকে সরাসরি অনুবাদে নষ্ট হওয়া বাক্য ঠিক করুন।"
+  },
+  "learned": [
+   {
+    "en": "A preposition shows place, time or direction",
+    "bn": "Preposition স্থান, সময় বা দিক বোঝায়"
+   },
+   {
+    "en": "Recall the English chunk; don't translate",
+    "bn": "অনুবাদ নয়, English chunk-টা মনে করুন"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which phrase gives your own view correctly?",
+     "bn": "নিজের মতামত দিতে কোন phrase সঠিক?"
+    },
+    "options": [
+     {
+      "en": "According to me, the government should act quickly."
+     },
+     {
+      "en": "In my opinion, the government should act quickly."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“According to me” is wrong for your own view. Use “In my opinion”.",
+     "bn": "নিজের মতামতের জন্য “According to me” ভুল। লিখুন “In my opinion”।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g05_complex_1": {
+  "intro": {
+   "en": "Why the complex sentence is the key Band 7 structure: clauses, and the three sentence types.",
+   "bn": "Complex sentence কেন Band 7-এর মূল structure: clause, আর তিন ধরনের বাক্য।"
+  },
+  "learned": [
+   {
+    "en": "Independent vs dependent clauses",
+    "bn": "Independent বনাম dependent clause"
+   },
+   {
+    "en": "Simple, compound and complex sentences",
+    "bn": "Simple, compound আর complex বাক্য"
+   },
+   {
+    "en": "What Band 5, 6 and 7 scripts look like",
+    "bn": "Band 5, 6 আর 7-এর script কেমন হয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which of these is a dependent clause - one that cannot stand alone?",
+     "bn": "এর মধ্যে কোনটা dependent clause - যা একা দাঁড়াতে পারে না?"
+    },
+    "options": [
+     {
+      "en": "Cities offer jobs."
+     },
+     {
+      "en": "Although cities offer jobs"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Although” leaves the clause unfinished - it makes you wait for the rest. “Cities offer jobs.” is a complete independent clause.",
+     "bn": "“Although” clause-টাকে অসম্পূর্ণ রাখে - বাকিটার জন্য অপেক্ষা করায়। “Cities offer jobs.” একটা সম্পূর্ণ independent clause।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“Cities offer jobs, but they are crowded.” What type of sentence is this?",
+     "bn": "“Cities offer jobs, but they are crowded.” - এটা কোন ধরনের বাক্য?"
+    },
+    "options": [
+     {
+      "en": "Simple"
+     },
+     {
+      "en": "Compound"
+     },
+     {
+      "en": "Complex"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Two independent clauses joined by a FANBOYS word (but) make a compound sentence. A complex sentence needs a dependent clause.",
+     "bn": "FANBOYS শব্দ (but) দিয়ে জোড়া দুটো independent clause মিলে compound বাক্য। Complex বাক্যে একটা dependent clause লাগে।"
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g05_complex_2": {
+  "intro": {
+   "en": "Adverbial and relative clauses, the comma rules that change meaning, and fixing fragments, run-ons and comma splices.",
+   "bn": "Adverbial আর relative clause, অর্থ বদলে দেওয়া comma-র নিয়ম, আর fragment, run-on ও comma splice ঠিক করা।"
+  },
+  "learned": [
+   {
+    "en": "Subordinators grouped by relationship",
+    "bn": "সম্পর্ক অনুযায়ী subordinator"
+   },
+   {
+    "en": "Comma after a fronted dependent clause",
+    "bn": "সামনে আসা dependent clause-এর পরে comma"
+   },
+   {
+    "en": "Defining vs non-defining relative clauses",
+    "bn": "Defining বনাম non-defining relative clause"
+   },
+   {
+    "en": "Fragments, run-ons and comma splices",
+    "bn": "Fragment, run-on আর comma splice"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "Although it is costly it works."
+     },
+     {
+      "en": "Although it is costly, it works."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "If the dependent clause comes first, put a comma after it.",
+     "bn": "Dependent clause আগে এলে তার পরে comma দিন।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence is correct?",
+     "bn": "কোন বাক্যটি সঠিক?"
+    },
+    "options": [
+     {
+      "en": "Internet use rose rapidly, people spent more time online."
+     },
+     {
+      "en": "Internet use rose rapidly, so people spent more time online."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Two independent clauses joined by only a comma is a comma splice. A comma plus a FANBOYS word (so) is a legal join.",
+     "bn": "শুধু comma দিয়ে জোড়া দুটো independent clause হলো comma splice। Comma আর একটা FANBOYS শব্দ (so) দিলে জোড়াটা বৈধ।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "My school, that is very old, is famous."
+     },
+     {
+      "en": "My school, which is very old, is famous."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Use “that” only in defining clauses. A non-defining clause (with commas) takes “which” or “who”, never “that”.",
+     "bn": "“That” শুধু defining clause-এ বসে। Non-defining clause-এ (comma সহ) “which” বা “who” বসে, কখনো “that” নয়।"
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g05_complex_practice_1": {
+  "intro": {
+   "en": "Recap the three sentence types, then combine pairs of simple sentences into complex ones.",
+   "bn": "তিন ধরনের বাক্য ঝালিয়ে নিন, তারপর simple বাক্যের জোড়াকে complex বাক্যে মিলিয়ে দিন।"
+  },
+  "learned": [
+   {
+    "en": "Complex = independent + dependent clause",
+    "bn": "Complex = independent + dependent clause"
+   },
+   {
+    "en": "Combining sentences with adverbial and relative clauses",
+    "bn": "Adverbial আর relative clause দিয়ে বাক্য জোড়া"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“Although public transport is cheap, many people still drive.” What type of sentence is this?",
+     "bn": "“Although public transport is cheap, many people still drive.” - এটা কোন ধরনের বাক্য?"
+    },
+    "options": [
+     {
+      "en": "Simple"
+     },
+     {
+      "en": "Compound"
+     },
+     {
+      "en": "Complex"
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "A dependent clause (“Although public transport is cheap”) plus an independent clause makes a complex sentence.",
+     "bn": "একটা dependent clause (“Although public transport is cheap”) আর একটা independent clause মিলে complex বাক্য।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g05_complex_practice_2": {
+  "intro": {
+   "en": "Recap defining vs non-defining relative clauses, then fix the punctuation in real sentences.",
+   "bn": "Defining বনাম non-defining relative clause ঝালিয়ে নিন, তারপর আসল বাক্যের punctuation ঠিক করুন।"
+  },
+  "learned": [
+   {
+    "en": "Commas change the meaning of a relative clause",
+    "bn": "Comma relative clause-এর অর্থ বদলে দেয়"
+   },
+   {
+    "en": "No “that” in non-defining clauses",
+    "bn": "Non-defining clause-এ “that” নয়"
+   },
+   {
+    "en": "Reduced relative clauses",
+    "bn": "Reduced relative clause"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“Students who cheat are expelled.” (no commas) What does this mean?",
+     "bn": "“Students who cheat are expelled.” (comma ছাড়া) - এর মানে কী?"
+    },
+    "options": [
+     {
+      "en": "Only the students who cheat are expelled",
+      "bn": "শুধু যে students নকল করে তারা বহিষ্কৃত হয়"
+     },
+     {
+      "en": "All the students are expelled, and they all cheat",
+      "bn": "সব students বহিষ্কৃত হয়, আর তারা সবাই নকল করে"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "With no commas, the clause is defining: it identifies which students - only the cheating ones.",
+     "bn": "Comma না থাকলে clause-টা defining: এটা বলে দেয় কোন students - শুধু যারা নকল করে।"
+    },
+    "after": 1
+   }
+  ]
+ },
+ "g06_passive_1": {
+  "intro": {
+   "en": "What the passive is, how it works across tenses, when to choose it, and the impersonal “It is …” frames.",
+   "bn": "Passive কী, বিভিন্ন tense-এ কীভাবে কাজ করে, কখন বেছে নেবেন, আর impersonal “It is …” frame।"
+  },
+  "learned": [
+   {
+    "en": "Object + be + past participle (+ by + doer)",
+    "bn": "Object + be + past participle (+ by + doer)"
+   },
+   {
+    "en": "The be form carries the tense",
+    "bn": "be-এর রূপই tense বহন করে"
+   },
+   {
+    "en": "Three situations for the passive",
+    "bn": "Passive-এর তিনটি ক্ষেত্র"
+   },
+   {
+    "en": "Correct participles, and no overuse",
+    "bn": "সঠিক participle, আর অতিরিক্ত ব্যবহার নয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which is the passive of “Workers transport the materials”?",
+     "bn": "“Workers transport the materials”-এর passive কোনটা?"
+    },
+    "options": [
+     {
+      "en": "The materials transport by workers."
+     },
+     {
+      "en": "The materials are transported by workers."
+     },
+     {
+      "en": "The materials are transport by workers."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The formula never changes: object + a form of be + past participle (+ by + doer).",
+     "bn": "সূত্র কখনো বদলায় না: object + be-এর একটা রূপ + past participle (+ by + doer)।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Workers have transported the goods. → Passive:",
+     "bn": "Workers have transported the goods. → Passive:"
+    },
+    "options": [
+     {
+      "en": "The goods have been transported."
+     },
+     {
+      "en": "The goods have being transported."
+     },
+     {
+      "en": "The goods has been transported."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Present perfect passive = have/has been + past participle. “Goods” is plural, so “have”.",
+     "bn": "Present perfect passive = have/has been + past participle। “Goods” plural, তাই “have”।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "The bridge was build in 1990."
+     },
+     {
+      "en": "The bridge was built in 1990."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "The passive needs the past participle (third form). Build → built must be memorised as an irregular form.",
+     "bn": "Passive-এ past participle (third form) লাগে। Build → built - irregular রূপ, মুখস্থ করতে হবে।"
+    },
+    "after": 5
+   }
+  ]
+ },
+ "g06_passive_practice_1": {
+  "intro": {
+   "en": "Recap the one passive pattern for every tense, then transform active sentences into the passive.",
+   "bn": "সব tense-এর জন্য passive-এর একটাই pattern ঝালিয়ে নিন, তারপর active বাক্যকে passive-এ রূপান্তর করুন।"
+  },
+  "learned": [
+   {
+    "en": "The be form changes; the participle stays",
+    "bn": "be-এর রূপ বদলায়; participle একই থাকে"
+   },
+   {
+    "en": "Keeping the tense when transforming",
+    "bn": "রূপান্তরের সময় tense ঠিক রাখা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Workers are transporting the goods. → Passive (same tense):",
+     "bn": "Workers are transporting the goods. → Passive (একই tense):"
+    },
+    "options": [
+     {
+      "en": "The goods were transported."
+     },
+     {
+      "en": "The goods are being transported."
+     },
+     {
+      "en": "The goods are transporting."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Present continuous passive = am/is/are being + past participle: The goods are being transported.",
+     "bn": "Present continuous passive = am/is/are being + past participle: The goods are being transported।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g06_passive_practice_2": {
+  "intro": {
+   "en": "Recap when to choose the passive, then write a recycling process paragraph in the passive present simple.",
+   "bn": "কখন passive বেছে নেবেন ঝালিয়ে নিন, তারপর passive present simple-এ একটা recycling process paragraph লিখুন।"
+  },
+  "learned": [
+   {
+    "en": "Three reasons to choose the passive",
+    "bn": "Passive বেছে নেওয়ার তিনটি কারণ"
+   },
+   {
+    "en": "Process diagrams: passive, one consistent tense",
+    "bn": "Process diagram: passive, একটাই ধারাবাহিক tense"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which is NOT a reason to choose the passive?",
+     "bn": "কোনটা passive বেছে নেওয়ার কারণ নয়?"
+    },
+    "options": [
+     {
+      "en": "The doer is unknown, obvious or unimportant",
+      "bn": "কাজটা কে করেছে তা অজানা, স্পষ্ট বা গুরুত্বহীন"
+     },
+     {
+      "en": "You are describing a process",
+      "bn": "আপনি একটা process বর্ণনা করছেন"
+     },
+     {
+      "en": "Every sentence, by default",
+      "bn": "প্রতিটা বাক্যে, default হিসেবে"
+     }
+    ],
+    "answer": 2,
+    "explain": {
+     "en": "The passive is a tool for specific situations, not a default: an unknown or obvious doer, an impersonal tone, or a process.",
+     "bn": "Passive নির্দিষ্ট ক্ষেত্রের হাতিয়ার, default নয়: অজানা বা স্পষ্ট doer, impersonal tone, অথবা process।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g07_conditionals_1": {
+  "intro": {
+   "en": "The two clauses of every conditional, and the four conditionals as a scale of reality.",
+   "bn": "প্রতিটা conditional-এর দুটি clause, আর বাস্তবতার মাপকাঠি হিসেবে চারটি conditional।"
+  },
+  "learned": [
+   {
+    "en": "if-clause = condition; main clause = result",
+    "bn": "if-clause = শর্ত; main clause = ফলাফল"
+   },
+   {
+    "en": "Zero, first, second and third conditionals",
+    "bn": "Zero, first, second আর third conditional"
+   },
+   {
+    "en": "“were” for all subjects in formal writing",
+    "bn": "Formal লেখায় সব subject-এর সাথে “were”"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "In a conditional, the if-clause is the condition. What is the main clause?",
+     "bn": "Conditional-এ if-clause হলো শর্ত। Main clause তাহলে কী?"
+    },
+    "options": [
+     {
+      "en": "The result",
+      "bn": "ফলাফল"
+     },
+     {
+      "en": "The subject",
+      "bn": "Subject"
+     },
+     {
+      "en": "A second condition",
+      "bn": "আরেকটা শর্ত"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Every conditional has an if-clause (the condition) and a main clause (the result). If the if-clause comes first, a comma follows it.",
+     "bn": "প্রতিটা conditional-এ একটা if-clause (শর্ত) আর একটা main clause (ফলাফল) থাকে। If-clause আগে এলে তার পরে comma বসে।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“If taxes rise, consumption will fall.” Which conditional is this?",
+     "bn": "“If taxes rise, consumption will fall.” - এটা কোন conditional?"
+    },
+    "options": [
+     {
+      "en": "Zero"
+     },
+     {
+      "en": "First"
+     },
+     {
+      "en": "Second"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Present simple in the if-clause + will in the main clause = first conditional: a real, likely future possibility.",
+     "bn": "If-clause-এ present simple + main clause-এ will = first conditional: বাস্তব, সম্ভাব্য ভবিষ্যৎ।"
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g07_conditionals_2": {
+  "intro": {
+   "en": "First vs second conditional in Task 2, the one rule that removes most conditional errors, and hedging for academic caution.",
+   "bn": "Task 2-এ first বনাম second conditional, যে একটি নিয়ম বেশিরভাগ conditional ভুল দূর করে, আর academic সতর্কতার জন্য hedging।"
+  },
+  "learned": [
+   {
+    "en": "No will / would in the if-clause",
+    "bn": "If-clause-এ will / would নয়"
+   },
+   {
+    "en": "Mixed and inverted conditionals",
+    "bn": "Mixed আর inverted conditional"
+   },
+   {
+    "en": "The hedging toolkit",
+    "bn": "Hedging-এর toolkit"
+   },
+   {
+    "en": "Avoiding sweeping absolutes",
+    "bn": "ঢালাও চূড়ান্ত দাবি এড়ানো"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "If the government will raise taxes, spending falls."
+     },
+     {
+      "en": "If the government raises taxes, spending will fall."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Never put will or would in the if-clause. A first conditional takes the present simple in the if-clause and will in the result.",
+     "bn": "If-clause-এ কখনো will বা would নয়। First conditional-এ if-clause-এ present simple আর ফলাফলে will।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“Had the government acted sooner, the crisis would have been avoided.” This means:",
+     "bn": "“Had the government acted sooner, the crisis would have been avoided.” - এর মানে:"
+    },
+    "options": [
+     {
+      "en": "If the government had acted sooner, the crisis would have been avoided."
+     },
+     {
+      "en": "Because the government acted sooner, the crisis was avoided."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "This is an inverted conditional: it drops “if” and puts “had” first. It means the same as “If the government had acted sooner …”.",
+     "bn": "এটা inverted conditional: “if” বাদ দিয়ে “had” সামনে আনা হয়েছে। মানে “If the government had acted sooner …”-এর মতোই।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence is appropriately hedged?",
+     "bn": "কোন বাক্যে যথাযথ hedging আছে?"
+    },
+    "options": [
+     {
+      "en": "Technology always improves our lives."
+     },
+     {
+      "en": "Technology generally improves our lives."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Always” is a sweeping absolute. “Generally” qualifies the claim, which makes it more credible and academic.",
+     "bn": "“Always” একটা ঢালাও চূড়ান্ত দাবি। “Generally” দাবিটাকে সীমিত করে, তাতে এটা বেশি বিশ্বাসযোগ্য আর academic শোনায়।"
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g07_conditionals_practice_1": {
+  "intro": {
+   "en": "Recap the four conditionals as a scale of reality, then put verbs into the right conditional form.",
+   "bn": "বাস্তবতার মাপকাঠি হিসেবে চারটি conditional ঝালিয়ে নিন, তারপর verb-কে সঠিক conditional রূপে বসান।"
+  },
+  "learned": [
+   {
+    "en": "Zero → first → second → third: from always true to impossible",
+    "bn": "Zero → first → second → third: সবসময় সত্য থেকে অসম্ভব"
+   },
+   {
+    "en": "No will / would in the if-clause",
+    "bn": "If-clause-এ will / would নয়"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which conditional is for a general truth or scientific fact?",
+     "bn": "সাধারণ সত্য বা বৈজ্ঞানিক তথ্যের জন্য কোন conditional?"
+    },
+    "options": [
+     {
+      "en": "Zero"
+     },
+     {
+      "en": "First"
+     },
+     {
+      "en": "Second"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The zero conditional is always true: If you heat ice, it melts. Present simple in both clauses.",
+     "bn": "Zero conditional সবসময় সত্য: If you heat ice, it melts। দুই clause-এই present simple।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g07_conditionals_practice_2": {
+  "intro": {
+   "en": "Recap what hedging means and its toolkit, then soften overstated sentences.",
+   "bn": "Hedging মানে কী আর তার toolkit ঝালিয়ে নিন, তারপর অতিরঞ্জিত বাক্যগুলো নরম করুন।"
+  },
+  "learned": [
+   {
+    "en": "Hedging = precision about certainty",
+    "bn": "Hedging = নিশ্চয়তা নিয়ে নির্ভুলতা"
+   },
+   {
+    "en": "Modals, tendency verbs, adverbs, impersonal frames",
+    "bn": "Modal, tendency verb, adverb, impersonal frame"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which claim is hedged - one you can defend?",
+     "bn": "কোন দাবিতে hedging আছে - যা আপনি সমর্থন করতে পারবেন?"
+    },
+    "options": [
+     {
+      "en": "Immigration boosts the economy."
+     },
+     {
+      "en": "Immigration can boost the economy."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Can” softens the claim. “Immigration boosts the economy” cannot be fully proved; “Immigration can boost the economy” can be defended.",
+     "bn": "“Can” দাবিটাকে নরম করে। “Immigration boosts the economy” পুরোপুরি প্রমাণ করা যায় না; “Immigration can boost the economy” সমর্থন করা যায়।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g08_inversion_1": {
+  "intro": {
+   "en": "What inversion is, the trigger expressions to learn as a set, and how to build an inverted sentence step by step.",
+   "bn": "Inversion কী, যে trigger expression-গুলো একসাথে শিখতে হবে, আর ধাপে ধাপে inverted বাক্য তৈরি।"
+  },
+  "learned": [
+   {
+    "en": "Inversion uses question word order",
+    "bn": "Inversion-এ প্রশ্নের word order"
+   },
+   {
+    "en": "The negative and limiting triggers",
+    "bn": "Negative আর limiting trigger"
+   },
+   {
+    "en": "Adding do / does / did when there is no auxiliary",
+    "bn": "Auxiliary না থাকলে do / does / did যোগ করা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "Rarely the government has intervened."
+     },
+     {
+      "en": "Rarely has the government intervened."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "When a negative or limiting expression leads, the auxiliary comes before the subject - question word order.",
+     "bn": "Negative বা limiting expression সামনে এলে auxiliary subject-এর আগে বসে - প্রশ্নের word order।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence is correct?",
+     "bn": "কোন বাক্যটি সঠিক?"
+    },
+    "options": [
+     {
+      "en": "Not only it cuts costs, but it also saves time."
+     },
+     {
+      "en": "Not only does it cut costs, but it also saves time."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Not only” at the front triggers inversion. With no auxiliary, add do / does / did: Not only does it cut costs.",
+     "bn": "সামনে “Not only” থাকলে inversion হয়। Auxiliary না থাকলে do / does / did যোগ করুন: Not only does it cut costs।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "Only later did the committee understood the risk."
+     },
+     {
+      "en": "Only later did the committee understand the risk."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "After did, return the main verb to its base form, exactly as in a question: did … understand.",
+     "bn": "Did-এর পরে main verb base form-এ ফেরে, ঠিক প্রশ্নের মতো: did … understand।"
+    },
+    "after": 4
+   }
+  ]
+ },
+ "g08_inversion_2": {
+  "intro": {
+   "en": "Cleft sentences - it-clefts and what-clefts - and the discipline of using one, accurately, rather than many.",
+   "bn": "Cleft sentence - it-cleft আর what-cleft - আর অনেকগুলো নয়, একটা নির্ভুলভাবে ব্যবহারের শৃঙ্খলা।"
+  },
+  "learned": [
+   {
+    "en": "It + is/was + focus + that/who + rest",
+    "bn": "It + is/was + focus + that/who + বাকি অংশ"
+   },
+   {
+    "en": "What + clause + is/was + focus",
+    "bn": "What + clause + is/was + focus"
+   },
+   {
+    "en": "One well-placed emphasis structure, not three",
+    "bn": "তিনটা নয়, একটা ঠিক জায়গায় বসানো emphasis structure"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“It was the lack of funding that caused the failure.” What is in the spotlight?",
+     "bn": "“It was the lack of funding that caused the failure.” - কোনটার ওপর জোর দেওয়া হয়েছে?"
+    },
+    "options": [
+     {
+      "en": "The lack of funding (the cause)",
+      "bn": "The lack of funding (কারণ)"
+     },
+     {
+      "en": "The failure (the result)",
+      "bn": "The failure (ফলাফল)"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "In an it-cleft, the element after “It was” is emphasised - here, the cause.",
+     "bn": "It-cleft-এ “It was”-এর পরের অংশে জোর থাকে - এখানে কারণটায়।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "How many inversions or clefts should you aim for in one answer?",
+     "bn": "একটা উত্তরে কতগুলো inversion বা cleft রাখার লক্ষ্য রাখবেন?"
+    },
+    "options": [
+     {
+      "en": "One, at a genuinely emphatic moment",
+      "bn": "একটা, সত্যিকারের জোরালো জায়গায়"
+     },
+     {
+      "en": "One in every paragraph",
+      "bn": "প্রতিটা paragraph-এ একটা"
+     },
+     {
+      "en": "As many as possible",
+      "bn": "যত বেশি সম্ভব"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Several in one answer sound theatrical. One accurate example at your most important point is the goal.",
+     "bn": "এক উত্তরে কয়েকটা থাকলে নাটুকে শোনায়। সবচেয়ে গুরুত্বপূর্ণ point-এ একটা নির্ভুল উদাহরণ - এটাই লক্ষ্য।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“What we need is better public transport.” Which structure is this?",
+     "bn": "“What we need is better public transport.” - এটা কোন structure?"
+    },
+    "options": [
+     {
+      "en": "It-cleft"
+     },
+     {
+      "en": "What-cleft"
+     },
+     {
+      "en": "Inversion"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "What + clause + is/was + the emphasised element = a what-cleft (pseudo-cleft). The spotlight is on the solution.",
+     "bn": "What + clause + is/was + জোর দেওয়া অংশ = what-cleft (pseudo-cleft)। জোরটা সমাধানের ওপর।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g08_inversion_practice_1": {
+  "intro": {
+   "en": "Recap the inversion triggers, then rewrite sentences starting with the negative or limiting expression.",
+   "bn": "Inversion-এর trigger ঝালিয়ে নিন, তারপর negative বা limiting expression দিয়ে শুরু করে বাক্য আবার লিখুন।"
+  },
+  "learned": [
+   {
+    "en": "The trigger set: never, rarely, not only …",
+    "bn": "Trigger set: never, rarely, not only …"
+   },
+   {
+    "en": "Auxiliary before subject after the trigger",
+    "bn": "Trigger-এর পরে subject-এর আগে auxiliary"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Choose the correct sentence.",
+     "bn": "সঠিক বাক্যটি বেছে নিন।"
+    },
+    "options": [
+     {
+      "en": "Never before the country has faced such a crisis."
+     },
+     {
+      "en": "Never before has the country faced such a crisis."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "After the trigger, the subject and auxiliary must swap. Keeping normal order cancels the inversion.",
+     "bn": "Trigger-এর পরে subject আর auxiliary জায়গা বদলাবে। স্বাভাবিক ক্রম রাখলে inversion-টাই বাতিল হয়ে যায়।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g08_inversion_practice_2": {
+  "intro": {
+   "en": "Recap it-clefts and what-clefts, then build clefts that spotlight the element you choose.",
+   "bn": "It-cleft আর what-cleft ঝালিয়ে নিন, তারপর নিজের বেছে নেওয়া অংশে জোর দিয়ে cleft তৈরি করুন।"
+  },
+  "learned": [
+   {
+    "en": "The it-cleft pattern",
+    "bn": "It-cleft-এর pattern"
+   },
+   {
+    "en": "The what-cleft pattern",
+    "bn": "What-cleft-এর pattern"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Plain: The lack of funding caused the failure. Which it-cleft spotlights the cause?",
+     "bn": "Plain: The lack of funding caused the failure. কোন it-cleft কারণটার ওপর জোর দেয়?"
+    },
+    "options": [
+     {
+      "en": "It was the lack of funding that caused the failure."
+     },
+     {
+      "en": "It was the failure that the lack of funding caused."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "It + was + the emphasised element + that + the rest. To spotlight the cause, put “the lack of funding” right after “It was”.",
+     "bn": "It + was + জোর দেওয়া অংশ + that + বাকি অংশ। কারণে জোর দিতে “It was”-এর ঠিক পরে “the lack of funding” বসান।"
+    },
+    "after": 1
+   }
+  ]
+ },
+ "g09_nominalisation_1": {
+  "intro": {
+   "en": "Turning verbs and adjectives into nouns - the most characteristic feature of academic English.",
+   "bn": "Verb আর adjective-কে noun-এ রূপান্তর - academic English-এর সবচেয়ে বৈশিষ্ট্যপূর্ণ দিক।"
+  },
+  "learned": [
+   {
+    "en": "Common verb → noun and adjective → noun families",
+    "bn": "সাধারণ verb → noun আর adjective → noun family"
+   },
+   {
+    "en": "The noun can become the subject",
+    "bn": "Noun-টা subject হতে পারে"
+   },
+   {
+    "en": "The three-step move: find, convert, rebuild",
+    "bn": "তিন ধাপ: খুঁজুন, রূপান্তর করুন, আবার গড়ুন"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What is the noun form of the verb “reduce”?",
+     "bn": "“Reduce” verb-এর noun রূপ কী?"
+    },
+    "options": [
+     {
+      "en": "reduction"
+     },
+     {
+      "en": "reduced"
+     },
+     {
+      "en": "reducible"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "reduce → reduction, just as decide → decision and consume → consumption.",
+     "bn": "reduce → reduction, যেমন decide → decision আর consume → consumption।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which version uses nominalisation?",
+     "bn": "কোন version-এ nominalisation আছে?"
+    },
+    "options": [
+     {
+      "en": "Because the company expanded quickly, it became difficult to manage."
+     },
+     {
+      "en": "The company's rapid expansion led to management difficulties."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "“Expanded” becomes “expansion” and “difficult to manage” becomes “management difficulties” - shorter and more formal.",
+     "bn": "“Expanded” হয়েছে “expansion”, আর “difficult to manage” হয়েছে “management difficulties” - ছোট আর বেশি formal।"
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g09_nominalisation_2": {
+  "intro": {
+   "en": "Three restructuring moves for Task 2, nominalisation as a cohesion device, and how not to over-nominalise.",
+   "bn": "Task 2-এর জন্য তিনটি restructuring move, cohesion-এর হাতিয়ার হিসেবে nominalisation, আর কীভাবে অতিরিক্ত nominalise করবেন না।"
+  },
+  "learned": [
+   {
+    "en": "because-clause → noun subject",
+    "bn": "because-clause → noun subject"
+   },
+   {
+    "en": "Event → subject of the next sentence",
+    "bn": "ঘটনা → পরের বাক্যের subject"
+   },
+   {
+    "en": "Avoiding noun strings and hidden doers",
+    "bn": "Noun string আর লুকানো doer এড়ানো"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which sentence is clearer?",
+     "bn": "কোন বাক্যটি বেশি পরিষ্কার?"
+    },
+    "options": [
+     {
+      "en": "The implementation of the reduction of the consumption of energy is a necessity."
+     },
+     {
+      "en": "Reducing energy consumption is essential."
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Chaining abstract nouns with “of” creates an unreadable noun string. The Band 9 skill is balance: formal but clear.",
+     "bn": "“Of” দিয়ে abstract noun-এর শিকল বানালে পড়া যায় না এমন noun string তৈরি হয়। Band 9-এর দক্ষতা হলো ভারসাম্য: formal, কিন্তু পরিষ্কার।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "“The factory closed. This caused unemployment.” Which rewrite turns the event into the subject?",
+     "bn": "“The factory closed. This caused unemployment.” - কোন rewrite ঘটনাটাকে subject বানায়?"
+    },
+    "options": [
+     {
+      "en": "The closure of the factory caused widespread unemployment."
+     },
+     {
+      "en": "The factory closed, and this caused unemployment."
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "“Closed” becomes “the closure of the factory”, which is now the subject. This move also links ideas smoothly.",
+     "bn": "“Closed” হয়েছে “the closure of the factory”, যা এখন subject। এই move idea-গুলোকে সাবলীলভাবে জোড়াও দেয়।"
+    },
+    "after": 1
+   }
+  ]
+ },
+ "g09_nominalisation_practice_1": {
+  "intro": {
+   "en": "Recap the core transformation and common word families, then nominalise and de-fog real sentences.",
+   "bn": "মূল রূপান্তর আর সাধারণ word family ঝালিয়ে নিন, তারপর আসল বাক্য nominalise করুন আর জট ছাড়ান।"
+  },
+  "learned": [
+   {
+    "en": "verb / adjective → noun",
+    "bn": "verb / adjective → noun"
+   },
+   {
+    "en": "Restructuring moves in practice",
+    "bn": "Practice-এ restructuring move"
+   },
+   {
+    "en": "Simplifying over-nominalised sentences",
+    "bn": "অতিরিক্ত nominalised বাক্য সহজ করা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "What is the noun form of “decide”?",
+     "bn": "“Decide”-এর noun রূপ কী?"
+    },
+    "options": [
+     {
+      "en": "decisive"
+     },
+     {
+      "en": "decision"
+     },
+     {
+      "en": "decided"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "decide → decision. “Decisive” is an adjective and “decided” is a verb form.",
+     "bn": "decide → decision। “Decisive” একটা adjective, আর “decided” verb-এর একটা রূপ।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g10_editing_1": {
+  "intro": {
+   "en": "Integrated self-editing: the six-pass checklist, editing full essays, and polishing spoken answers.",
+   "bn": "সমন্বিত self-editing: ছয় ধাপের checklist, পুরো essay edit করা, আর spoken উত্তর পরিমার্জন।"
+  },
+  "learned": [
+   {
+    "en": "The six passes, one rule at a time",
+    "bn": "ছয়টি pass, একবারে একটা নিয়ম"
+   },
+   {
+    "en": "Minimum corrections, same meaning",
+    "bn": "ন্যূনতম সংশোধন, একই অর্থ"
+   },
+   {
+    "en": "The Speaking upgrade toolkit",
+    "bn": "Speaking-এর upgrade toolkit"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which pass comes first in the self-editing checklist?",
+     "bn": "Self-editing checklist-এ কোন pass সবার আগে?"
+    },
+    "options": [
+     {
+      "en": "Agreement pass",
+      "bn": "Agreement pass"
+     },
+     {
+      "en": "Article pass",
+      "bn": "Article pass"
+     },
+     {
+      "en": "Range pass",
+      "bn": "Range pass"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Agreement comes first, then tense, articles, prepositions, structure and range - a separate pass for each.",
+     "bn": "সবার আগে agreement, তারপর tense, article, preposition, structure আর range - প্রতিটার জন্য আলাদা pass।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "When you edit a flawed essay, what should you do?",
+     "bn": "ভুলে ভরা essay edit করার সময় কী করবেন?"
+    },
+    "options": [
+     {
+      "en": "Make the minimum corrections and keep the writer's meaning",
+      "bn": "ন্যূনতম সংশোধন করুন, লেখকের অর্থ ঠিক রাখুন"
+     },
+     {
+      "en": "Rewrite it in your own style",
+      "bn": "নিজের style-এ নতুন করে লিখুন"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "You are not rewriting the essay - you make the minimum corrections for accuracy and range. That is what you do to your own script at the end of the exam.",
+     "bn": "আপনি essay নতুন করে লিখছেন না - accuracy আর range-এর জন্য ন্যূনতম সংশোধন করছেন। পরীক্ষার শেষে নিজের script-এও ঠিক এটাই করবেন।"
+    },
+    "after": 3
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "In Speaking, which upgrade comes first?",
+     "bn": "Speaking-এ কোন upgrade সবার আগে?"
+    },
+    "options": [
+     {
+      "en": "Fix base accuracy: agreement, tense, articles",
+      "bn": "Base accuracy ঠিক করা: agreement, tense, article"
+     },
+     {
+      "en": "Add a cleft for emphasis",
+      "bn": "জোর দিতে একটা cleft যোগ করা"
+     },
+     {
+      "en": "Add a hedging phrase",
+      "bn": "একটা hedging phrase যোগ করা"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Fix agreement, tense and articles first, since these cost the most. Then add a complex sentence, a tense contrast and a hedge.",
+     "bn": "আগে agreement, tense আর article ঠিক করুন, কারণ এগুলোতেই সবচেয়ে বেশি নম্বর কাটে। তারপর complex বাক্য, tense contrast আর hedge যোগ করুন।"
+    },
+    "after": 4
+   }
+  ]
+ },
+ "g10_editing_practice_1": {
+  "intro": {
+   "en": "Recap the self-editing checklist, then repair five flawed essays from heavily to lightly flawed.",
+   "bn": "Self-editing checklist ঝালিয়ে নিন, তারপর খুব ভুল থেকে অল্প ভুল - পাঁচটা essay মেরামত করুন।"
+  },
+  "learned": [
+   {
+    "en": "Agreement → tense → articles → prepositions",
+    "bn": "Agreement → tense → article → preposition"
+   },
+   {
+    "en": "One pass per rule",
+    "bn": "প্রতিটা নিয়মের জন্য একটা pass"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Why run a separate pass for each rule?",
+     "bn": "প্রতিটা নিয়মের জন্য আলাদা pass কেন?"
+    },
+    "options": [
+     {
+      "en": "A single-focus pass catches errors a general read-through misses",
+      "bn": "এক বিষয়ে মনোযোগী pass সেই ভুলও ধরে যা সাধারণ পড়ায় চোখ এড়িয়ে যায়"
+     },
+     {
+      "en": "One general read is faster and just as accurate",
+      "bn": "একবার সাধারণভাবে পড়া দ্রুত আর সমান নির্ভুল"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Trying to catch every error in one read is how mistakes slip through. Specialists beat generalists when proofreading.",
+     "bn": "এক পড়ায় সব ভুল ধরার চেষ্টা করলেই ভুল ফসকে যায়। Proofreading-এ specialist-রা generalist-দের হারিয়ে দেয়।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g10_editing_practice_2": {
+  "intro": {
+   "en": "Recap the Speaking upgrade toolkit, then raise five basic spoken answers by one band without sounding scripted.",
+   "bn": "Speaking-এর upgrade toolkit ঝালিয়ে নিন, তারপর পাঁচটা সাধারণ spoken উত্তরকে মুখস্থ না শুনিয়ে এক band ওপরে তুলুন।"
+  },
+  "learned": [
+   {
+    "en": "Fix base accuracy first",
+    "bn": "আগে base accuracy ঠিক করা"
+   },
+   {
+    "en": "Add one complex sentence and one tense contrast",
+    "bn": "একটা complex বাক্য আর একটা tense contrast যোগ করা"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "In a Part 2 answer, what will do more for your score than a rehearsed idiom?",
+     "bn": "Part 2 উত্তরে মুখস্থ idiom-এর চেয়ে কোনটা score-এ বেশি কাজে দেবে?"
+    },
+    "options": [
+     {
+      "en": "One natural complex sentence and one tense contrast",
+      "bn": "একটা স্বাভাবিক complex বাক্য আর একটা tense contrast"
+     },
+     {
+      "en": "A memorised paragraph",
+      "bn": "একটা মুখস্থ paragraph"
+     },
+     {
+      "en": "Several advanced idioms",
+      "bn": "কয়েকটা advanced idiom"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "The aim is accurate, flexible spoken English, not a memorised paragraph.",
+     "bn": "লক্ষ্য হলো নির্ভুল, নমনীয় spoken English - মুখস্থ paragraph নয়।"
+    },
+    "after": 2
+   }
+  ]
+ },
+ "g11_review_1": {
+  "intro": {
+   "en": "How to review a wrong answer, and the highest-frequency errors with the single rule that fixes each.",
+   "bn": "ভুল উত্তর কীভাবে পর্যালোচনা করবেন, আর সবচেয়ে বেশি হওয়া ভুলগুলো ও প্রতিটা ঠিক করার একটি নিয়ম।"
+  },
+  "learned": [
+   {
+    "en": "The four-step review of a wrong answer",
+    "bn": "ভুল উত্তর পর্যালোচনার চার ধাপ"
+   },
+   {
+    "en": "The diagnostic index of recurring errors",
+    "bn": "বারবার হওয়া ভুলের diagnostic index"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "After diagnosing a wrong answer, what is the final step?",
+     "bn": "ভুল উত্তর বিশ্লেষণের পর শেষ ধাপ কী?"
+    },
+    "options": [
+     {
+      "en": "Write two fresh sentences of your own that apply the rule",
+      "bn": "নিয়মটা প্রয়োগ করে নিজের দুটো নতুন বাক্য লেখা"
+     },
+     {
+      "en": "Read the correct answer and move on",
+      "bn": "সঠিক উত্তর পড়ে এগিয়ে যাওয়া"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Producing the form, not just recognising it, is what moves it into your active grammar.",
+     "bn": "শুধু চেনা নয়, নিজে রূপটা তৈরি করলেই সেটা আপনার সক্রিয় grammar-এ ঢোকে।"
+    },
+    "after": 2
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which single rule fixes “If the price will increase …”?",
+     "bn": "“If the price will increase …” - কোন একটি নিয়ম এটা ঠিক করে?"
+    },
+    "options": [
+     {
+      "en": "No will / would in the if-clause",
+      "bn": "If-clause-এ will / would নয়"
+     },
+     {
+      "en": "Unique things take “the”",
+      "bn": "অনন্য জিনিসে “the” বসে"
+     },
+     {
+      "en": "Hedge sweeping claims",
+      "bn": "ঢালাও দাবিতে hedging"
+     }
+    ],
+    "answer": 0,
+    "explain": {
+     "en": "Will and would live in the result clause only: If the price increases, demand will fall.",
+     "bn": "Will আর would শুধু result clause-এ বসে: If the price increases, demand will fall।"
+    },
+    "after": 3
+   }
+  ]
+ },
+ "g11_review_2": {
+  "intro": {
+   "en": "The chapter map of where every rule lives, and the final ten-minute exam self-edit routine.",
+   "bn": "কোন নিয়ম কোন chapter-এ তার map, আর পরীক্ষার শেষ দশ মিনিটের self-edit routine।"
+  },
+  "learned": [
+   {
+    "en": "Where each rule lives",
+    "bn": "কোন নিয়ম কোথায়"
+   },
+   {
+    "en": "Task 1 and Task 2 end-of-task checks",
+    "bn": "Task 1 আর Task 2-এর শেষের যাচাই"
+   },
+   {
+    "en": "Self-correcting smoothly in Speaking",
+    "bn": "Speaking-এ সাবলীলভাবে নিজেকে শুধরে নেওয়া"
+   }
+  ],
+  "checks": [
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "Which chapter governs a / an / the / zero and countable vs uncountable?",
+     "bn": "a / an / the / zero আর countable বনাম uncountable কোন chapter-এ?"
+    },
+    "options": [
+     {
+      "en": "2 · Tense Mastery"
+     },
+     {
+      "en": "3 · Articles & Nouns"
+     },
+     {
+      "en": "4 · Prepositions"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Chapter 3 (Articles & Nouns) covers a / an / the / zero and countable vs uncountable nouns.",
+     "bn": "Chapter 3 (Articles & Nouns)-এ a / an / the / zero আর countable বনাম uncountable noun আছে।"
+    },
+    "after": 1
+   },
+   {
+    "type": "choice",
+    "title": {
+     "en": "Quick check",
+     "bn": "ঝটপট যাচাই"
+    },
+    "prompt": {
+     "en": "About how long should you leave at the end of Task 2 for the self-edit?",
+     "bn": "Task 2-এর শেষে self-edit-এর জন্য মোটামুটি কত সময় রাখবেন?"
+    },
+    "options": [
+     {
+      "en": "About 3 minutes",
+      "bn": "প্রায় ৩ মিনিট"
+     },
+     {
+      "en": "About 5 minutes",
+      "bn": "প্রায় ৫ মিনিট"
+     },
+     {
+      "en": "About 15 minutes",
+      "bn": "প্রায় ১৫ মিনিট"
+     }
+    ],
+    "answer": 1,
+    "explain": {
+     "en": "Leave about 5 minutes for Task 2 (about 3 for Task 1): run the agreement, article and preposition passes and check no “will” sits in an if-clause.",
+     "bn": "Task 2-এর জন্য প্রায় ৫ মিনিট রাখুন (Task 1-এর জন্য প্রায় ৩): agreement, article আর preposition pass চালান, আর দেখুন কোনো if-clause-এ “will” নেই।"
+    },
+    "after": 2
+   }
+  ]
+ }
+}

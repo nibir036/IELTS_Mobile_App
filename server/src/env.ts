@@ -50,6 +50,10 @@ export const env = {
   writingProvider: str('WRITING_PROVIDER'),
   geminiApiKey: str('GEMINI_API_KEY'),
   geminiWritingModel: str('GEMINI_WRITING_MODEL', 'gemini-3.6-flash'),
+  /** Study plan AI (weekly notes, task reasons): 'all' | 'pro' | 'off'. */
+  planAi: str('PLAN_AI', 'all').toLowerCase(),
+  /** Model for the study plan; empty = the writing model. */
+  geminiPlanModel: str('GEMINI_PLAN_MODEL'),
   get useGeminiForWriting() {
     const p = this.writingProvider.toLowerCase();
     return p === 'gemini' || (p !== 'openrouter' && Boolean(this.geminiApiKey));

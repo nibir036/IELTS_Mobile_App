@@ -40,7 +40,7 @@ class MicPermissionScreen extends StatelessWidget {
     final granted = await VoiceRecorder.requestPermission();
     if (!context.mounted) return;
     if (!granted) {
-      context.toast('Microphone blocked — you can enable it later in Settings');
+      context.toast('Microphone blocked - you can enable it later in Settings');
     }
     _finish(context, granted);
   }
@@ -152,7 +152,7 @@ class MicPermissionScreen extends StatelessWidget {
                         border: Border.all(
                           color: t.isNight
                               ? const Color(0xFF3A3A3A)
-                              : const Color(0xFFEADFE6),
+                              : const Color(0xFFF0E2DD),
                         ),
                       ),
                     ),
@@ -163,11 +163,11 @@ class MicPermissionScreen extends StatelessWidget {
                     right: 50,
                     bottom: 50,
                     child: Container(
-                      decoration: BoxDecoration(
-                        color: t.primary,
+                      decoration: const BoxDecoration(
+                        gradient: kPeachGradient,
                         shape: BoxShape.circle,
                       ),
-                      child: Icon(AppIcons.speaking, size: 40, color: t.onPrimary),
+                      child: const Icon(AppIcons.speaking, size: 40, color: kOnPeach),
                     ),
                   ),
                 ],

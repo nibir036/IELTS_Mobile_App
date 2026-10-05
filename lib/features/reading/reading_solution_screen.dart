@@ -278,16 +278,16 @@ class _ReadingSolutionScreenState extends State<ReadingSolutionScreen> with Cont
             padding: const EdgeInsets.symmetric(horizontal: 14),
             alignment: Alignment.center,
             decoration: BoxDecoration(
-              color: t.primary,
+              gradient: kPeachGradient,
               borderRadius: BorderRadius.circular(999),
             ),
             child: Text(
               '${_correct.length}/${qs.length}',
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 15,
-                fontWeight: FontWeight.w500,
-                color: t.onPrimary,
-                fontFeatures: const [FontFeature.tabularFigures()],
+                fontWeight: FontWeight.w600,
+                color: kOnPeach,
+                fontFeatures: [FontFeature.tabularFigures()],
               ),
             ),
           ),
@@ -372,7 +372,7 @@ class _ReadingSolutionScreenState extends State<ReadingSolutionScreen> with Cont
                         border: Border.all(
                           color: correct
                               ? t.border
-                              : (t.isNight ? const Color(0xFF5C2A20) : t.accentStrong),
+                              : (t.isNight ? const Color(0xFF3A4570) : t.accentStrong),
                         ),
                       ),
                       child: _AnswerBox(
@@ -395,7 +395,7 @@ class _ReadingSolutionScreenState extends State<ReadingSolutionScreen> with Cont
                         label: 'Correct answer',
                         value: ReadingRefs.correctLabel(it),
                         icon: AppIcons.check,
-                        labelColor: t.isNight ? t.heroMuted : const Color(0xFFB5B5B5),
+                        labelColor: t.isNight ? t.onPrimary.withValues(alpha: 0.6) : const Color(0xFFB5B5B5),
                         valueColor: t.onPrimary,
                       ),
                     ),
@@ -478,13 +478,6 @@ class _ReadingSolutionScreenState extends State<ReadingSolutionScreen> with Cont
         HeroCard(
           radius: 24,
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-          gradient: t.isNight
-              ? null
-              : const LinearGradient(
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                  colors: [Color(0xFFEEEFFD), kPink],
-                ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             spacing: 8,
@@ -492,7 +485,7 @@ class _ReadingSolutionScreenState extends State<ReadingSolutionScreen> with Cont
               Row(
                 spacing: 6,
                 children: [
-                  Icon(AppIcons.sparkle, size: 16, color: t.heroText),
+                  Icon(AppIcons.sparkle, size: 16, color: t.peach),
                   Expanded(
                     child: Text(
                       'Why it’s ${ReadingRefs.correctShort(it)}',
@@ -511,7 +504,7 @@ class _ReadingSolutionScreenState extends State<ReadingSolutionScreen> with Cont
                   style: TextStyle(
                     fontSize: 13,
                     height: 1.5,
-                    color: t.isNight ? t.heroText : t.textSoft,
+                    color: t.heroMuted,
                   ),
                 ),
               ),

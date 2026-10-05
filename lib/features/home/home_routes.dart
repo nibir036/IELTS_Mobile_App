@@ -1,9 +1,14 @@
 import 'package:flutter/widgets.dart';
 
 import '../../app/routes.dart';
+import '../plan/plan_preview_screen.dart';
+import '../plan/plan_setup_screen.dart';
+import '../plan/quick_check_screen.dart';
+import '../plan/study_plan_screen.dart';
 import 'analytics_screen.dart';
 import 'certificates_screen.dart';
 import 'dashboard_empty_screen.dart';
+import 'notification_settings_screen.dart';
 import 'notifications_screen.dart';
 import 'plans_screen.dart';
 import 'schedule_screen.dart';
@@ -16,7 +21,12 @@ final Map<String, WidgetBuilder> homeRoutes = <String, WidgetBuilder>{
   Routes.analytics: (_) => const AnalyticsScreen(),
   Routes.schedule: (_) => const ScheduleScreen(),
   Routes.notifications: (_) => const NotificationsScreen(),
+  Routes.notificationSettings: (_) => const NotificationSettingsScreen(),
   Routes.search: (_) => const SearchScreen(),
   Routes.certificates: (_) => const CertificatesScreen(),
   Routes.plans: (_) => const PlansScreen(),
+  Routes.studyPlan: (_) => const StudyPlanScreen(),
+  Routes.studyPlanSetup: (_) => const PlanSetupScreen(),
+  Routes.studyPlanPreview: (_) => const PlanPreviewScreen(),
+  Routes.studyPlanQuickCheck: (_) => const QuickCheckScreen(),
 };

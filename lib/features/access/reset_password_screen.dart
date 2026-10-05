@@ -10,7 +10,7 @@ import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import 'widgets.dart';
 
-/// A5 · Forgot / Reset Password — 3 local steps: Phone → Code → New password.
+/// A5 · Forgot / Reset Password - 3 local steps: Phone → Code → New password.
 ///
 /// Step 1 → `Store.startReset`, step 2 → `Store.verifyResetOtp` (demo code
 /// [kDemoOtp]), step 3 → `Store.finishReset`, then back to Log in.
@@ -154,7 +154,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
       context.resetTo(acc.onboarded ? Routes.home : Routes.targetBand);
       return;
     }
-    context.toast('Password updated — log in');
+    context.toast('Password updated - log in');
     final nav = Navigator.of(context);
     if (nav.canPop()) {
       nav.pop();
@@ -363,17 +363,17 @@ class _Stepper extends StatelessWidget {
                     height: 28,
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                      color: i <= current ? t.primary : t.surfaceAlt,
+                      color: i <= current ? t.peach : t.surfaceAlt,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: i < current
-                        ? Icon(AppIcons.check, size: 13, color: t.onPrimary)
+                        ? const Icon(AppIcons.check, size: 13, color: kOnPeach)
                         : Text(
                             '${i + 1}',
                             style: TextStyle(
                               fontSize: 13,
                               fontWeight: FontWeight.w600,
-                              color: i == current ? t.onPrimary : t.textMuted,
+                              color: i == current ? kOnPeach : t.textMuted,
                             ),
                           ),
                   ),
@@ -419,7 +419,7 @@ class _RuleRow extends StatelessWidget {
             border: met
                 ? null
                 : Border.all(
-                    color: t.isNight ? t.border : const Color(0xFFCFC2CA),
+                    color: t.isNight ? t.border : const Color(0xFFDCC9C3),
                     width: 1.5,
                   ),
           ),

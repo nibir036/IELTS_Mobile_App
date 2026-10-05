@@ -12,7 +12,7 @@ import '../../app/widgets/kit.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
 
-/// G8 · Mock — Scoring in Progress. Steps tick through, then the screen
+/// G8 · Mock - Scoring in Progress. Steps tick through, then the screen
 /// replaces itself with the results (G9).
 class MockScoringScreen extends StatefulWidget {
   const MockScoringScreen({super.key});
@@ -249,8 +249,13 @@ class _MockScoringScreenState extends State<MockScoringScreen> {
                       spacing: 4,
                       children: [
                         Text(
-                          'Overall band',
-                          style: TextStyle(fontSize: 13, color: t.heroMuted),
+                          'Overall band'.toUpperCase(),
+                          style: TextStyle(
+                            fontSize: 11,
+                            letterSpacing: 1.1,
+                            fontWeight: FontWeight.w600,
+                            color: t.peach,
+                          ),
                         ),
                         Text(
                           allDone ? 'Ready' : 'Almost ready…',
@@ -384,7 +389,7 @@ class _BandTile extends StatelessWidget {
     }
     const opacities = <double>[1, 0.5, 0.25];
     return DashedBorderBox(
-      color: t.isNight ? const Color(0xFFCDBF95) : t.accentStrong,
+      color: t.peach.withValues(alpha: 0.7),
       radius: 20,
       strokeWidth: 1.5,
       child: Padding(
@@ -452,8 +457,8 @@ class _StepRow extends StatelessWidget {
       mark = Container(
         width: 26,
         height: 26,
-        decoration: BoxDecoration(color: t.primary, shape: BoxShape.circle),
-        child: Icon(AppIcons.check, size: 16, color: t.onPrimary),
+        decoration: BoxDecoration(color: t.peach, shape: BoxShape.circle),
+        child: const Icon(AppIcons.check, size: 16, color: kOnPeach),
       );
     } else if (state == 1) {
       mark = SizedBox(

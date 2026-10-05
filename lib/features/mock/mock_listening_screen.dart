@@ -15,7 +15,7 @@ import 'mock_questions.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
 
-/// G3 · Mock — Listening Section.
+/// G3 · Mock - Listening Section.
 class MockListeningScreen extends StatefulWidget {
   const MockListeningScreen({super.key});
 
@@ -414,11 +414,11 @@ class _AudioBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final accent = t.isNight ? const Color(0xFF151515) : const Color(0xFFF7C6D6);
+    final accent = t.isNight ? const Color(0xFF151515) : const Color(0xFFFFD2C4);
     final track = t.isNight
         ? const Color(0xFF151515).withValues(alpha: 0.15)
         : const Color(0xFF3A3A3A);
-    final muted = t.isNight ? const Color(0xFF5A5446) : const Color(0xFFB5B5B5);
+    final muted = t.isNight ? const Color(0xFF5E5056) : const Color(0xFFB5B5B5);
     return Container(
       height: 52,
       padding: const EdgeInsets.symmetric(horizontal: 14),
