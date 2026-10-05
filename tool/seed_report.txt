@@ -1,0 +1,81 @@
+===== prisma migrate status ===== 
+warn The configuration property `package.json#prisma` is deprecated and will be removed in Prisma 7. Please migrate to a Prisma config file (e.g., `prisma.config.ts`).
+For more information, see: https://pris.ly/prisma-config
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": PostgreSQL database "ielts_ai", schema "public" at "localhost:5432"
+
+5 migrations found in prisma/migrations
+
+Database schema is up to date!
+ 
+===== prisma db seed ===== 
+warn The configuration property `package.json#prisma` is deprecated and will be removed in Prisma 7. Please migrate to a Prisma config file (e.g., `prisma.config.ts`).
+For more information, see: https://pris.ly/prisma-config
+
+Environment variables loaded from .env
+Running seed command `tsx prisma/seed.ts` ...
+Content
+  vocabularyWord           19
+  wordOfTheDay             1
+  readingTypeLesson        14
+  readingPassage           289
+  readingTest              23
+  lesson                   19
+  listeningSet             8
+  listeningTest            2
+  writingPrompt            46
+  writingSampleAnswer      1
+  writingTemplate          22
+  sentenceDrill            6
+  speakingPart1Topic       16
+  speakingCueCard          44
+  speakingPart3Set         44
+  pronunciationWord        6
+  mockTest                 3
+  vocabQuiz                5
+  phrase                   55
+  academicWord             6
+  irregularVerb            37
+  article                  24
+  bandDescriptor           5
+Banks and full tests
+  listeningSet             32
+  listeningSet             36
+  listeningTest            9
+  readingPassage           48
+  readingTest              16
+  writingPrompt            260
+  writingSampleAnswer      260
+  writingPrompt            32
+  writingTest              16
+  speakingPart1Topic       65
+  speakingCueCard          207
+  speakingPart3Set         60
+  speakingPart1Topic       16
+  speakingCueCard          16
+  speakingPart3Set         32
+  speakingTest             16
+  mockTest                 9
+  vocabularyWord           1382
+  phrase                   2417
+  academicWord             686
+  irregularVerb            175
+  contentDocument          42
+Config
+  plan                     2
+  planFeature              8
+  certificateDefinition    36
+  legalDocument            2
+  room                     5
+  appConfig                3
+Demo account
+  user                     1  (phone 1734519208, password Demo@1234)
+  attempt                  61
+  notification             6
+  studyTask                8
+  userState                27
+Seed finished.
+
+The seed command has been executed.

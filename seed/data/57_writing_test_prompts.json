@@ -610,6 +610,372 @@
     "timeMinutes": 40,
     "minWords": 250
    }
+  },
+  {
+   "id": "wt_11_t1",
+   "source": "test",
+   "testId": "wt_11",
+   "task": 1,
+   "type": "line",
+   "title": "Household spending on clothing, books and electronics, 2000–2024",
+   "prompt": "The line graph below shows the average household spend on three categories of consumer goods (clothing, books, and electronics) in a North American nation between 2000 and 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_11_task1.jpg",
+   "data": {
+    "id": "wt_11_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_11",
+    "number": 11,
+    "type": "line",
+    "typeLabel": "Line graph",
+    "title": "Household spending on clothing, books and electronics, 2000–2024",
+    "statement": "The line graph below shows the average household spend on three categories of consumer goods (clothing, books, and electronics) in a North American nation between 2000 and 2024.",
+    "prompt": "The line graph below shows the average household spend on three categories of consumer goods (clothing, books, and electronics) in a North American nation between 2000 and 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The line graph below shows the average household spend on three categories of consumer goods (clothing, books, and electronics) in a North American nation between 2000 and 2024.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_11_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_11_t2",
+   "source": "test",
+   "testId": "wt_11",
+   "task": 2,
+   "type": "advantages",
+   "title": "Online university degrees",
+   "prompt": "Some universities now offer all their degree programs entirely online, allowing students to study from home without attending campus lectures. Do the advantages of pursuing an entirely online university degree outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_11_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_11",
+    "number": 11,
+    "type": "advantages",
+    "typeLabel": "Advantages & disadvantages",
+    "title": "Online university degrees",
+    "question": "Some universities now offer all their degree programs entirely online, allowing students to study from home without attending campus lectures. Do the advantages of pursuing an entirely online university degree outweigh the disadvantages?",
+    "prompt": "Some universities now offer all their degree programs entirely online, allowing students to study from home without attending campus lectures. Do the advantages of pursuing an entirely online university degree outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "Some universities now offer all their degree programs entirely online, allowing students to study from home without attending campus lectures. Do the advantages of pursuing an entirely online university degree outweigh the disadvantages?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_12_t1",
+   "source": "test",
+   "testId": "wt_12",
+   "task": 1,
+   "type": "process",
+   "title": "Desalination: from seawater to drinking water",
+   "prompt": "The process diagram below shows the industrial stages involved in desalination, transforming seawater into drinkable fresh water. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_12_task1.jpg",
+   "data": {
+    "id": "wt_12_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_12",
+    "number": 12,
+    "type": "process",
+    "typeLabel": "Process diagram",
+    "title": "Desalination: from seawater to drinking water",
+    "statement": "The process diagram below shows the industrial stages involved in desalination, transforming seawater into drinkable fresh water.",
+    "prompt": "The process diagram below shows the industrial stages involved in desalination, transforming seawater into drinkable fresh water. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The process diagram below shows the industrial stages involved in desalination, transforming seawater into drinkable fresh water.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_12_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_12_t2",
+   "source": "test",
+   "testId": "wt_12",
+   "task": 2,
+   "type": "discussion",
+   "title": "Celebrity influence",
+   "prompt": "Some people claim that famous celebrities and media personalities exercise far too much influence over the lifestyle choices and opinions of young people. Others argue that celebrities provide positive role models that inspire youth. Discuss both views and give your opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_12_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_12",
+    "number": 12,
+    "type": "discussion",
+    "typeLabel": "Discussion",
+    "title": "Celebrity influence",
+    "question": "Some people claim that famous celebrities and media personalities exercise far too much influence over the lifestyle choices and opinions of young people. Others argue that celebrities provide positive role models that inspire youth. Discuss both views and give your opinion.",
+    "prompt": "Some people claim that famous celebrities and media personalities exercise far too much influence over the lifestyle choices and opinions of young people. Others argue that celebrities provide positive role models that inspire youth. Discuss both views and give your opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "Some people claim that famous celebrities and media personalities exercise far too much influence over the lifestyle choices and opinions of young people. Others argue that celebrities provide positive role models that inspire youth. Discuss both views and give your opinion.",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_13_t1",
+   "source": "test",
+   "testId": "wt_13",
+   "task": 1,
+   "type": "mixed",
+   "title": "Global production of paper products, 2022",
+   "prompt": "The table and pie chart below provide detailed information on the global production of paper products in 2022, categorized by product type and primary exporting regions. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_13_task1.jpg",
+   "data": {
+    "id": "wt_13_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_13",
+    "number": 13,
+    "type": "mixed",
+    "typeLabel": "Mixed charts",
+    "title": "Global production of paper products, 2022",
+    "statement": "The table and pie chart below provide detailed information on the global production of paper products in 2022, categorized by product type and primary exporting regions.",
+    "prompt": "The table and pie chart below provide detailed information on the global production of paper products in 2022, categorized by product type and primary exporting regions. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The table and pie chart below provide detailed information on the global production of paper products in 2022, categorized by product type and primary exporting regions.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_13_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_13_t2",
+   "source": "test",
+   "testId": "wt_13",
+   "task": 2,
+   "type": "problem",
+   "title": "Automation in retail",
+   "prompt": "The widespread adoption of automated self-checkout counters and AI-driven services in retail stores has led to significant job losses for entry-level workers. What problems does this trend create for individuals and society, and what practical solutions can governments and corporations implement to address them? ​\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_13_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_13",
+    "number": 13,
+    "type": "problem",
+    "typeLabel": "Problem & solution",
+    "title": "Automation in retail",
+    "question": "The widespread adoption of automated self-checkout counters and AI-driven services in retail stores has led to significant job losses for entry-level workers. What problems does this trend create for individuals and society, and what practical solutions can governments and corporations implement to address them? ​",
+    "prompt": "The widespread adoption of automated self-checkout counters and AI-driven services in retail stores has led to significant job losses for entry-level workers. What problems does this trend create for individuals and society, and what practical solutions can governments and corporations implement to address them? ​\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "The widespread adoption of automated self-checkout counters and AI-driven services in retail stores has led to significant job losses for entry-level workers. What problems does this trend create for individuals and society, and what practical solutions can governments and corporations implement to address them? ​",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_14_t1",
+   "source": "test",
+   "testId": "wt_14",
+   "task": 1,
+   "type": "map",
+   "title": "Portville island town, 1995 and planned redevelopment",
+   "prompt": "The maps below show an island town named Portville as it appeared in 1995 and the planned redevelopment scheme for 2028. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_14_task1.jpg",
+   "data": {
+    "id": "wt_14_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_14",
+    "number": 14,
+    "type": "map",
+    "typeLabel": "Maps",
+    "title": "Portville island town, 1995 and planned redevelopment",
+    "statement": "The maps below show an island town named Portville as it appeared in 1995 and the planned redevelopment scheme for 2028.",
+    "prompt": "The maps below show an island town named Portville as it appeared in 1995 and the planned redevelopment scheme for 2028. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The maps below show an island town named Portville as it appeared in 1995 and the planned redevelopment scheme for 2028.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_14_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_14_t2",
+   "source": "test",
+   "testId": "wt_14",
+   "task": 2,
+   "type": "two_part",
+   "title": "Renting instead of buying homes",
+   "prompt": "In many countries today, younger generations are choosing to rent homes long-term rather than buying property. Why is this shift in homeownership occurring? What long-term economic effects will this trend have on society?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_14_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_14",
+    "number": 14,
+    "type": "two_part",
+    "typeLabel": "Two-part question",
+    "title": "Renting instead of buying homes",
+    "question": "In many countries today, younger generations are choosing to rent homes long-term rather than buying property. Why is this shift in homeownership occurring? What long-term economic effects will this trend have on society?",
+    "prompt": "In many countries today, younger generations are choosing to rent homes long-term rather than buying property. Why is this shift in homeownership occurring? What long-term economic effects will this trend have on society?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "In many countries today, younger generations are choosing to rent homes long-term rather than buying property. Why is this shift in homeownership occurring? What long-term economic effects will this trend have on society?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_15_t1",
+   "source": "test",
+   "testId": "wt_15",
+   "task": 1,
+   "type": "bar",
+   "title": "Remote working by age group, 2015 and 2023",
+   "prompt": "The bar chart below shows the percentage of workers in four age brackets who worked remotely or from home in an East Asian country in 2015 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_15_task1.jpg",
+   "data": {
+    "id": "wt_15_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_15",
+    "number": 15,
+    "type": "bar",
+    "typeLabel": "Bar chart",
+    "title": "Remote working by age group, 2015 and 2023",
+    "statement": "The bar chart below shows the percentage of workers in four age brackets who worked remotely or from home in an East Asian country in 2015 and 2023.",
+    "prompt": "The bar chart below shows the percentage of workers in four age brackets who worked remotely or from home in an East Asian country in 2015 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The bar chart below shows the percentage of workers in four age brackets who worked remotely or from home in an East Asian country in 2015 and 2023.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_15_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_15_t2",
+   "source": "test",
+   "testId": "wt_15",
+   "task": 2,
+   "type": "opinion",
+   "title": "Public transport funding",
+   "prompt": "Governments should allocate more funding to public transport infrastructure, such as high-speed railways and buses, rather than expanding highways and roads for private vehicles. To what extent do you agree or disagree with this view?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_15_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_15",
+    "number": 15,
+    "type": "opinion",
+    "typeLabel": "Opinion",
+    "title": "Public transport funding",
+    "question": "Governments should allocate more funding to public transport infrastructure, such as high-speed railways and buses, rather than expanding highways and roads for private vehicles. To what extent do you agree or disagree with this view?",
+    "prompt": "Governments should allocate more funding to public transport infrastructure, such as high-speed railways and buses, rather than expanding highways and roads for private vehicles. To what extent do you agree or disagree with this view?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "Governments should allocate more funding to public transport infrastructure, such as high-speed railways and buses, rather than expanding highways and roads for private vehicles. To what extent do you agree or disagree with this view?",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
+  },
+  {
+   "id": "wt_16_t1",
+   "source": "test",
+   "testId": "wt_16",
+   "task": 1,
+   "type": "process",
+   "title": "Paper recycling and pulp production",
+   "prompt": "The process diagram below shows the industrial process of paper recycling and pulp production. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "image": "writing/tests/wt_16_task1.jpg",
+   "data": {
+    "id": "wt_16_t1",
+    "task": 1,
+    "bank": "Writing test",
+    "test": "wt_16",
+    "number": 16,
+    "type": "process",
+    "typeLabel": "Process diagram",
+    "title": "Paper recycling and pulp production",
+    "statement": "The process diagram below shows the industrial process of paper recycling and pulp production.",
+    "prompt": "The process diagram below shows the industrial process of paper recycling and pulp production. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "instructions": [
+     "You should spend about 20 minutes on this task.",
+     "The process diagram below shows the industrial process of paper recycling and pulp production.",
+     "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+     "Write at least 150 words."
+    ],
+    "timeMinutes": 20,
+    "minWords": 150,
+    "image": "assets/writing/tests/wt_16_task1.jpg"
+   }
+  },
+  {
+   "id": "wt_16_t2",
+   "source": "test",
+   "testId": "wt_16",
+   "task": 2,
+   "type": "problem",
+   "title": "Government arts funding",
+   "prompt": "In many countries, government arts funding has decreased, with critics arguing that tax dollars should be spent on essential public services like healthcare and education rather than visual and performing arts. What problems are caused by reducing public funding for the arts, and what alternative solutions exist to support cultural institutions?​\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+   "data": {
+    "id": "wt_16_t2",
+    "task": 2,
+    "bank": "Writing test",
+    "test": "wt_16",
+    "number": 16,
+    "type": "problem",
+    "typeLabel": "Problem & solution",
+    "title": "Government arts funding",
+    "question": "In many countries, government arts funding has decreased, with critics arguing that tax dollars should be spent on essential public services like healthcare and education rather than visual and performing arts. What problems are caused by reducing public funding for the arts, and what alternative solutions exist to support cultural institutions?​",
+    "prompt": "In many countries, government arts funding has decreased, with critics arguing that tax dollars should be spent on essential public services like healthcare and education rather than visual and performing arts. What problems are caused by reducing public funding for the arts, and what alternative solutions exist to support cultural institutions?​\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "instructions": [
+     "You should spend about 40 minutes on this task.",
+     "Write about the following topic:",
+     "In many countries, government arts funding has decreased, with critics arguing that tax dollars should be spent on essential public services like healthcare and education rather than visual and performing arts. What problems are caused by reducing public funding for the arts, and what alternative solutions exist to support cultural institutions?​",
+     "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+     "Write at least 250 words."
+    ],
+    "timeMinutes": 40,
+    "minWords": 250
+   }
   }
  ]
 }

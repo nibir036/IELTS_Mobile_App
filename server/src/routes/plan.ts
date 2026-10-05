@@ -172,7 +172,7 @@ function rebased(inputs: PlanInputs, profile: Profile, today: string): Estimate 
     weeksMin: fresh.weeksMin + elapsed,
     weeksMax: fresh.weeksMax + elapsed,
     weeksToExam: fresh.weeksToExam == null ? null : fresh.weeksToExam + elapsed,
-    phases: phases(weeks),
+    phases: phases(weeks, fresh.startBand),
     checkpointWeeks: checkpointWeeks(weeks).filter((w) => w > elapsed),
   };
 }

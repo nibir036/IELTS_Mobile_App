@@ -620,6 +620,378 @@
      "Do you think people should always help others, even when it is inconvenient?"
     ]
    }
+  },
+  {
+   "id": "st_11_cc",
+   "source": "test",
+   "testId": "st_11",
+   "category": "test",
+   "topic": "Speaking Test 11",
+   "title": "Describe a teacher who influenced your education",
+   "prompt": "Describe a teacher who influenced your education",
+   "bullets": [
+    "who this teacher was",
+    "what subject they taught",
+    "what they were like",
+    "and explain how they influenced you"
+   ],
+   "part3": [
+    "What makes a teacher truly memorable?",
+    "Do you think the role of teachers is changing?",
+    "How important is the relationship between a teacher and a student?",
+    "Should teachers focus more on exam results or on developing character?",
+    "Do you think technology could ever replace teachers?",
+    "How could the teaching profession be made more attractive?"
+   ],
+   "data": {
+    "id": "st_11_cc",
+    "test": "st_11",
+    "number": 11,
+    "cardNumber": 11,
+    "category": "test",
+    "categoryLabel": "Speaking Test 11",
+    "topic": "Speaking Test 11",
+    "title": "Describe a teacher who influenced your education",
+    "prompt": "Describe a teacher who influenced your education",
+    "bullets": [
+     "who this teacher was",
+     "what subject they taught",
+     "what they were like",
+     "and explain how they influenced you"
+    ],
+    "followUps": [
+     {
+      "q": "Are you still in contact with this teacher?",
+      "answer": ""
+     },
+     {
+      "q": "Would you like to thank them?",
+      "answer": ""
+     }
+    ],
+    "part3Topics": [
+     "st_11_p3_1",
+     "st_11_p3_2"
+    ],
+    "part3": [
+     "What makes a teacher truly memorable?",
+     "Do you think the role of teachers is changing?",
+     "How important is the relationship between a teacher and a student?",
+     "Should teachers focus more on exam results or on developing character?",
+     "Do you think technology could ever replace teachers?",
+     "How could the teaching profession be made more attractive?"
+    ]
+   }
+  },
+  {
+   "id": "st_12_cc",
+   "source": "test",
+   "testId": "st_12",
+   "category": "test",
+   "topic": "Speaking Test 12",
+   "title": "Describe a leader you admire",
+   "prompt": "Describe a leader you admire",
+   "bullets": [
+    "who this person is",
+    "what they are or were responsible for",
+    "what qualities they have",
+    "and explain why you admire them as a leader"
+   ],
+   "part3": [
+    "What are the most important qualities of a good leader?",
+    "Are leaders born or made, in your opinion?",
+    "Do you think good leaders always need to be popular?",
+    "How much influence do leaders really have on people’s lives?",
+    "Should young people be encouraged to develop leadership skills?",
+    "What can happen when a country has poor leadership?"
+   ],
+   "data": {
+    "id": "st_12_cc",
+    "test": "st_12",
+    "number": 12,
+    "cardNumber": 12,
+    "category": "test",
+    "categoryLabel": "Speaking Test 12",
+    "topic": "Speaking Test 12",
+    "title": "Describe a leader you admire",
+    "prompt": "Describe a leader you admire",
+    "bullets": [
+     "who this person is",
+     "what they are or were responsible for",
+     "what qualities they have",
+     "and explain why you admire them as a leader"
+    ],
+    "followUps": [
+     {
+      "q": "Would you like to lead in the way they do?",
+      "answer": ""
+     },
+     {
+      "q": "Do many people admire this person?",
+      "answer": ""
+     }
+    ],
+    "part3Topics": [
+     "st_12_p3_1",
+     "st_12_p3_2"
+    ],
+    "part3": [
+     "What are the most important qualities of a good leader?",
+     "Are leaders born or made, in your opinion?",
+     "Do you think good leaders always need to be popular?",
+     "How much influence do leaders really have on people’s lives?",
+     "Should young people be encouraged to develop leadership skills?",
+     "What can happen when a country has poor leadership?"
+    ]
+   }
+  },
+  {
+   "id": "st_13_cc",
+   "source": "test",
+   "testId": "st_13",
+   "category": "test",
+   "topic": "Speaking Test 13",
+   "title": "Describe a talented person you know, such as a musician, an artist or an athlete",
+   "prompt": "Describe a talented person you know, such as a musician, an artist or an athlete",
+   "bullets": [
+    "who this person is",
+    "what they are talented at",
+    "how they developed their talent",
+    "and explain why you think they are so talented"
+   ],
+   "part3": [
+    "Do you think talent is more important than practice?",
+    "Why are some people talented in many areas?",
+    "Should schools do more to identify and support talented students?",
+    "How can society best support gifted young people?",
+    "Do you think talented people always achieve success?",
+    "Is it possible for anyone to become talented at something?"
+   ],
+   "data": {
+    "id": "st_13_cc",
+    "test": "st_13",
+    "number": 13,
+    "cardNumber": 13,
+    "category": "test",
+    "categoryLabel": "Speaking Test 13",
+    "topic": "Speaking Test 13",
+    "title": "Describe a talented person you know, such as a musician, an artist or an athlete",
+    "prompt": "Describe a talented person you know, such as a musician, an artist or an athlete",
+    "bullets": [
+     "who this person is",
+     "what they are talented at",
+     "how they developed their talent",
+     "and explain why you think they are so talented"
+    ],
+    "followUps": [
+     {
+      "q": "Do you think they will become well known?",
+      "answer": ""
+     },
+     {
+      "q": "Would you like to have their talent?",
+      "answer": ""
+     }
+    ],
+    "part3Topics": [
+     "st_13_p3_1",
+     "st_13_p3_2"
+    ],
+    "part3": [
+     "Do you think talent is more important than practice?",
+     "Why are some people talented in many areas?",
+     "Should schools do more to identify and support talented students?",
+     "How can society best support gifted young people?",
+     "Do you think talented people always achieve success?",
+     "Is it possible for anyone to become talented at something?"
+    ]
+   }
+  },
+  {
+   "id": "st_14_cc",
+   "source": "test",
+   "testId": "st_14",
+   "category": "test",
+   "topic": "Speaking Test 14",
+   "title": "Describe a neighbour you get along with well",
+   "prompt": "Describe a neighbour you get along with well",
+   "bullets": [
+    "who this person is",
+    "how long you have known them",
+    "what they are like",
+    "and explain why you get along with them"
+   ],
+   "part3": [
+    "Why is it important to have a good relationship with neighbours?",
+    "Do you think people know their neighbours less well than in the past?",
+    "What problems can arise between neighbours?",
+    "How can neighbours build a stronger sense of community?",
+    "Do people in cities and in the countryside treat neighbours differently?",
+    "Should local governments do more to bring communities together?"
+   ],
+   "data": {
+    "id": "st_14_cc",
+    "test": "st_14",
+    "number": 14,
+    "cardNumber": 14,
+    "category": "test",
+    "categoryLabel": "Speaking Test 14",
+    "topic": "Speaking Test 14",
+    "title": "Describe a neighbour you get along with well",
+    "prompt": "Describe a neighbour you get along with well",
+    "bullets": [
+     "who this person is",
+     "how long you have known them",
+     "what they are like",
+     "and explain why you get along with them"
+    ],
+    "followUps": [
+     {
+      "q": "Do you help each other out?",
+      "answer": ""
+     },
+     {
+      "q": "Would you like to have more neighbours like them?",
+      "answer": ""
+     }
+    ],
+    "part3Topics": [
+     "st_14_p3_1",
+     "st_14_p3_2"
+    ],
+    "part3": [
+     "Why is it important to have a good relationship with neighbours?",
+     "Do you think people know their neighbours less well than in the past?",
+     "What problems can arise between neighbours?",
+     "How can neighbours build a stronger sense of community?",
+     "Do people in cities and in the countryside treat neighbours differently?",
+     "Should local governments do more to bring communities together?"
+    ]
+   }
+  },
+  {
+   "id": "st_15_cc",
+   "source": "test",
+   "testId": "st_15",
+   "category": "test",
+   "topic": "Speaking Test 15",
+   "title": "Describe a quiet place you like to go to",
+   "prompt": "Describe a quiet place you like to go to",
+   "bullets": [
+    "where this place is",
+    "how often you go there",
+    "what you do there",
+    "and explain why you like this quiet place"
+   ],
+   "part3": [
+    "Why do people need quiet places in their lives?",
+    "Do you think modern life is too noisy and busy?",
+    "How does a noisy environment affect people?",
+    "How can cities provide more peaceful spaces for people?",
+    "Do you think people appreciate silence enough?",
+    "Should there be more rules to control noise in public places?"
+   ],
+   "data": {
+    "id": "st_15_cc",
+    "test": "st_15",
+    "number": 15,
+    "cardNumber": 15,
+    "category": "test",
+    "categoryLabel": "Speaking Test 15",
+    "topic": "Speaking Test 15",
+    "title": "Describe a quiet place you like to go to",
+    "prompt": "Describe a quiet place you like to go to",
+    "bullets": [
+     "where this place is",
+     "how often you go there",
+     "what you do there",
+     "and explain why you like this quiet place"
+    ],
+    "followUps": [
+     {
+      "q": "Do you go there alone or with others?",
+      "answer": ""
+     },
+     {
+      "q": "Is it easy to find quiet places these days?",
+      "answer": ""
+     }
+    ],
+    "part3Topics": [
+     "st_15_p3_1",
+     "st_15_p3_2"
+    ],
+    "part3": [
+     "Why do people need quiet places in their lives?",
+     "Do you think modern life is too noisy and busy?",
+     "How does a noisy environment affect people?",
+     "How can cities provide more peaceful spaces for people?",
+     "Do you think people appreciate silence enough?",
+     "Should there be more rules to control noise in public places?"
+    ]
+   }
+  },
+  {
+   "id": "st_16_cc",
+   "source": "test",
+   "testId": "st_16",
+   "category": "test",
+   "topic": "Speaking Test 16",
+   "title": "Describe a city you would like to visit",
+   "prompt": "Describe a city you would like to visit",
+   "bullets": [
+    "which city it is",
+    "how you know about it",
+    "what you would do there",
+    "and explain why you would like to visit it"
+   ],
+   "part3": [
+    "Why do you think some cities attract so many visitors?",
+    "What makes a city a good place to live in?",
+    "How can cities cope with growing numbers of tourists?",
+    "What are the biggest challenges facing cities today?",
+    "Do you think more people will live in cities in the future?",
+    "How could cities be made more pleasant places to live?"
+   ],
+   "data": {
+    "id": "st_16_cc",
+    "test": "st_16",
+    "number": 16,
+    "cardNumber": 16,
+    "category": "test",
+    "categoryLabel": "Speaking Test 16",
+    "topic": "Speaking Test 16",
+    "title": "Describe a city you would like to visit",
+    "prompt": "Describe a city you would like to visit",
+    "bullets": [
+     "which city it is",
+     "how you know about it",
+     "what you would do there",
+     "and explain why you would like to visit it"
+    ],
+    "followUps": [
+     {
+      "q": "Do you think you will visit it one day?",
+      "answer": ""
+     },
+     {
+      "q": "Would you go alone or with others?",
+      "answer": ""
+     }
+    ],
+    "part3Topics": [
+     "st_16_p3_1",
+     "st_16_p3_2"
+    ],
+    "part3": [
+     "Why do you think some cities attract so many visitors?",
+     "What makes a city a good place to live in?",
+     "How can cities cope with growing numbers of tourists?",
+     "What are the biggest challenges facing cities today?",
+     "Do you think more people will live in cities in the future?",
+     "How could cities be made more pleasant places to live?"
+    ]
+   }
   }
  ]
 }

@@ -295,21 +295,39 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
     }
   }
 
+  bool _showAnswers = false;
+
+  String _band(double b, {bool capped = false}) => capped && b >= 8 ? '8.0+' : Store.formatBand(b);
+
+  double? get _target {
+    final p = PlanApi.current.value;
+    final v = p == null ? null : (p['inputs'] as Map?)?['targetBand'];
+    if (v is num) return v.toDouble();
+    return Store.I.current?.targetBand;
+  }
+
   Widget _resultStep(BuildContext context) {
     final t = context.tk;
-    final rows = <(String, double)>[
-      for (final e in _result.entries)
-        if (e.value is num)
-          (QuickCheckData.sectionLabels[e.key] ?? e.key, (e.value as num).toDouble())
-        else if (e.value is Map && (e.value as Map)['band'] is num)
-          (QuickCheckData.sectionLabels[e.key] ?? e.key, ((e.value as Map)['band'] as num).toDouble()),
-    ];
-    final feedback = _writing?['feedback'];
+    final sections = <String>['grammar', 'vocab', 'reading', 'listening'].where((k) => _result[k] is num).toList();
+    final w = _writing;
+    final bands = <String, double>{
+      for (final k in sections) k: (_result[k] as num).toDouble(),
+      if (w != null && w['band'] is num) 'writing': (w['band'] as num).toDouble(),
+    };
+    final overall = bands.isEmpty ? 0.0 : Store.roundBand(bands.values.reduce((a, b) => a + b) / bands.length);
+    final target = _target;
+    final weakest = (bands.entries.toList()..sort((a, b) => a.value.compareTo(b.value)))
+        .take(2)
+        .where((e) => bands.length > 1 && e.value < (target ?? 9))
+        .map((e) => QuickCheckData.sectionLabels[e.key] ?? e.key)
+        .toList();
+    final gap = target == null ? null : target - overall;
+
     return AppScreen(
       gap: 14,
       footer: PrimaryButton(label: 'Done', onTap: _done),
       children: [
-        TopBar(title: 'Quick check', subtitle: 'Saved', showBack: false),
+        TopBar(title: 'Quick check results', subtitle: 'Saved to your plan', showBack: false),
         HeroCard(
           radius: 28,
           child: Column(
@@ -318,46 +336,224 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
             children: [
               Text('YOUR STARTING POINT', style: TextStyle(fontSize: 11, letterSpacing: 1.1, color: t.peach, fontWeight: FontWeight.w600)),
               Text(
-                'Your plan now starts from these.',
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: t.heroText),
+                'About band ${_band(overall, capped: true)} overall',
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600, color: t.heroText),
+              ),
+              if (gap != null)
+                Text(
+                  gap <= 0
+                      ? 'At or above your target of ${Store.formatBand(target)}. The plan keeps you sharp and works on exam technique.'
+                      : 'Your target is ${Store.formatBand(target)}: about ${gap.toStringAsFixed(1)} band to go.',
+                  style: TextStyle(fontSize: 13.5, height: 1.4, color: t.heroText),
+                ),
+              Text(
+                'Rough estimates from a short check (the average of the sections below). They get more accurate as you practise.',
+                style: TextStyle(fontSize: 12, height: 1.4, color: t.heroMuted),
+              ),
+            ],
+          ),
+        ),
+        for (final k in sections) _sectionCard(context, k, bands[k]!, target),
+        if (w != null && w['band'] is num) _writingCard(context, w, target),
+        AppCard(
+          radius: 22,
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            spacing: 6,
+            children: [
+              Row(
+                spacing: 10,
+                children: [
+                  Icon(AppIcons.calendar, color: t.peach, size: 20),
+                  const Expanded(child: Text('What happens next', style: TextStyle(fontSize: 15.5, fontWeight: FontWeight.w600))),
+                ],
               ),
               Text(
-                'These are rough estimates from a short check. They get more accurate as you practise.',
-                style: TextStyle(fontSize: 12.5, height: 1.4, color: t.heroMuted),
+                weakest.isEmpty
+                    ? 'Your study plan has been rebuilt from these results: courses start at your level and the time split follows your scores.'
+                    : 'Your study plan has been rebuilt from these results. It puts extra time on ${weakest.join(' and ')}, and courses start at your level.',
+                style: TextStyle(fontSize: 13.5, height: 1.45, color: t.textMuted),
               ),
             ],
           ),
         ),
         AppCard(
           radius: 22,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            spacing: 10,
+          padding: const EdgeInsets.fromLTRB(16, 6, 12, 6),
+          onTap: () => setState(() => _showAnswers = !_showAnswers),
+          child: Row(
             children: [
-              for (final (label, band) in rows)
-                Row(
-                  children: [
-                    Expanded(child: Text(label, style: const TextStyle(fontSize: 15))),
-                    Text('about ${Store.formatBand(band)}', style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w600)),
-                  ],
+              Expanded(
+                child: Text(
+                  '${_showAnswers ? 'Hide' : 'Review'} your answers (${_asked.where((it) => _chosen[it['id']] == it['answer']).length} of ${_asked.length} correct)',
+                  style: const TextStyle(fontSize: 14.5, fontWeight: FontWeight.w600),
                 ),
+              ),
+              Icon(_showAnswers ? AppIcons.chevronUp : AppIcons.chevronDown, color: t.textMuted),
             ],
           ),
         ),
-        if (feedback is String && feedback.isNotEmpty)
-          AppCard(
-            radius: 22,
-            padding: const EdgeInsets.all(14),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              spacing: 12,
-              children: [
-                Icon(AppIcons.bulb, color: t.peach),
-                Expanded(child: Text(feedback, style: const TextStyle(fontSize: 13.5, height: 1.4))),
-              ],
-            ),
-          ),
+        if (_showAnswers)
+          for (final it in _asked) _answerRow(context, it),
       ],
+    );
+  }
+
+  Widget _sectionCard(BuildContext context, String key, double band, double? target) {
+    final t = context.tk;
+    final asked = _asked.where((it) => it['section'] == key).toList();
+    final right = asked.where((it) => _chosen[it['id']] == it['answer']).length;
+    final missed = asked.where((it) => _chosen[it['id']] != it['answer']).map((it) => it['focus']! as String).toList();
+    return AppCard(
+      radius: 22,
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        spacing: 8,
+        children: [
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(QuickCheckData.sectionLabels[key] ?? key, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
+                    Text('$right of ${asked.length} correct', style: TextStyle(fontSize: 12.5, color: t.textMuted)),
+                  ],
+                ),
+              ),
+              Text('about ${_band(band, capped: true)}', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
+            ],
+          ),
+          _bandBar(context, band, target),
+          Text(QuickCheckData.meaning(band), style: TextStyle(fontSize: 13, height: 1.4, color: t.textMuted)),
+          if (missed.isEmpty)
+            Text('Nothing missed in this section.', style: TextStyle(fontSize: 12.5, color: t.success, fontWeight: FontWeight.w600))
+          else ...[
+            Text('To work on', style: TextStyle(fontSize: 12, color: t.textMuted, fontWeight: FontWeight.w600)),
+            Wrap(spacing: 6, runSpacing: 6, children: [for (final m in missed) Tag(m, tone: TagTone.accent, height: 24, fontSize: 11.5)]),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Widget _writingCard(BuildContext context, Map<String, dynamic> w, double? target) {
+    final t = context.tk;
+    final band = (w['band'] as num).toDouble();
+    final crit = (w['criteria'] as Map?) ?? const <String, dynamic>{};
+    final feedback = w['feedback'];
+    return AppCard(
+      radius: 22,
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        spacing: 8,
+        children: [
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text('Writing', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
+                    Text('Your paragraph, scored on the four IELTS criteria', style: TextStyle(fontSize: 12.5, color: t.textMuted)),
+                  ],
+                ),
+              ),
+              Text('about ${_band(band)}', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
+            ],
+          ),
+          _bandBar(context, band, target),
+          for (final e in QuickCheckData.criteriaNames.entries)
+            if (crit[e.key] is num)
+              Row(
+                spacing: 10,
+                children: [
+                  Expanded(child: Text(e.value, style: const TextStyle(fontSize: 13.5))),
+                  SizedBox(width: 90, child: ProgressBar(value: ((crit[e.key] as num) / 9).clamp(0, 1).toDouble(), height: 6)),
+                  SizedBox(
+                    width: 34,
+                    child: Text(Store.formatBand((crit[e.key] as num).toDouble()),
+                        textAlign: TextAlign.right, style: const TextStyle(fontSize: 13.5, fontWeight: FontWeight.w600)),
+                  ),
+                ],
+              ),
+          if (feedback is String && feedback.isNotEmpty)
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(color: t.peach.withValues(alpha: 0.12), borderRadius: BorderRadius.circular(14)),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                spacing: 10,
+                children: [
+                  Icon(AppIcons.bulb, color: t.peach, size: 20),
+                  Expanded(child: Text(feedback, style: const TextStyle(fontSize: 13.5, height: 1.4))),
+                ],
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+
+  /// Band on a 4-9 scale with the target marked.
+  Widget _bandBar(BuildContext context, double band, double? target) {
+    final t = context.tk;
+    double pos(double b) => ((b - 4) / 5).clamp(0, 1).toDouble();
+    return LayoutBuilder(
+      builder: (context, c) => SizedBox(
+        height: 22,
+        child: Stack(
+          clipBehavior: Clip.none,
+          children: [
+            Positioned(left: 0, right: 0, top: 6, child: ProgressBar(value: pos(band), height: 8)),
+            if (target != null)
+              Positioned(
+                left: (c.maxWidth * pos(target) - 1).clamp(0, c.maxWidth - 2).toDouble(),
+                top: 0,
+                child: Container(width: 2, height: 20, color: t.text),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _answerRow(BuildContext context, Map<String, Object> it) {
+    final t = context.tk;
+    final options = (it['options']! as List).cast<String>();
+    final picked = _chosen[it['id']];
+    final answer = it['answer']! as int;
+    final ok = picked == answer;
+    return AppCard(
+      radius: 18,
+      padding: const EdgeInsets.all(14),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        spacing: 4,
+        children: [
+          Row(
+            spacing: 8,
+            children: [
+              Icon(ok ? AppIcons.checkCircle : AppIcons.cancel, size: 18, color: ok ? t.success : t.alert),
+              Expanded(
+                child: Text(
+                  '${QuickCheckData.sectionLabels[it['section']] ?? ''} · ${it['focus']}',
+                  style: TextStyle(fontSize: 12, color: t.textMuted, fontWeight: FontWeight.w600),
+                ),
+              ),
+            ],
+          ),
+          Text(it['q']! as String, style: const TextStyle(fontSize: 14, height: 1.35)),
+          if (!ok && picked != null)
+            Text('Your answer: ${options[picked]}', style: TextStyle(fontSize: 13, color: t.alert)),
+          Text('Correct answer: ${options[answer]}', style: TextStyle(fontSize: 13, color: t.success, fontWeight: FontWeight.w600)),
+        ],
+      ),
     );
   }
 }

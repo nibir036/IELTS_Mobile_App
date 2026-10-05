@@ -29,7 +29,19 @@
    "rt_w10_p1_q9": "Norheim’s sidecut innovation allowed skiers to perform smooth ______ without excessive braking.",
    "rt_w10_p1_q10": "In the 1930s, the Arlberg technique demanded that the ______ be clamped down firmly to the ski.",
    "rt_w10_p1_q11": "Jean Beyl created the Look Nevada ______ in 1950 to release boots safely during falls.",
-   "rt_w10_p1_q12": "Howard Head built composite skis containing a lightweight ______ core between sheets of aluminum alloy."
+   "rt_w10_p1_q12": "Howard Head built composite skis containing a lightweight ______ core between sheets of aluminum alloy.",
+   "rt_w11_p1_q11": "Different woods add unique qualities: chestnut provides dark color, while ______ speeds up evaporation through its porous grain.",
+   "rt_w12_p1_q8": "Copper deposits are found in two regions: Timna in the west and ______ in the east.",
+   "rt_w12_p1_q9": "Deep underground extraction utilized vertical shafts leading to twisting ______ that followed the ore veins.",
+   "rt_w13_p1_q8": "Earliest domestication occurred around the ______ region during the late Ubaid period.",
+   "rt_w13_p1_q9": "Farmers used vegetative ______ taken from the base of the trunk to replicate elite trees.",
+   "rt_w13_p1_q10": "Artificial hand-pollination allowed one male tree to fertilize between ______ female trees.",
+   "rt_w14_p1_q11": "Water pressure at the base of the Beaunant valley reached up to ______ atmospheres.",
+   "rt_w14_p1_q12": "Pipes were manufactured by folding lead sheets around a ______ and soldering the seam.",
+   "rt_w15_p1_q11": "Forest hunters use CF signals to detect the ______ caused by an insect's beating wings.",
+   "rt_w16_p1_q8": "The clear glass invented by Barovier used ______ to remove unwanted tints caused by iron impurities.",
+   "rt_w16_p1_q11": "Two glassmakers pull the molten cylinder along a wooden ______ to reduce its diameter.",
+   "rt_w16_p1_q13": "The mosaic sheet is gathered onto a bubble of ______ and blown into finished vessels."
   },
   "summaries": {
    "rt_w01_p3": "Unlike other animals, humans cooperate on a vast scale with unrelated strangers, and their ability to maintain massive social structures depends on mechanisms that discourage free-riding. Experiments show that when ____ is permitted, group cooperation remains exceptionally high. Although evolutionary theory struggles to explain why individuals pay private costs for public benefits, ____ explains that cohesive, sanctioning societies survive inter-group conflicts better than disorganized rivals. Neurologically, punishment is supported by the ____, which provides immediate psychological satisfaction when wrongdoers are penalized. However, enforcement can turn destructive through antisocial punishment, showing that cultural norms must guide punitive behaviors to prevent ____ and ensure constructive social outcomes.",
@@ -41,7 +53,13 @@
    "rt_w07_p3": "For decades, cognitive scientists debated whether perception is a passive internal calculation or something that living beings actively do in the world. Classical cognitive science viewed the brain as a digital computer that processed sensory inputs into ____. Enactivism challenged this representational view, arguing that perception is an active engagement with the environment. Under the Sensorimotor Contingency Theory, perceiving relies on mastering the ____ connecting movement to sensory changes. This model is supported by experiments with ____, which show that blind individuals experience spatial vision only when controlling their own movements. Although critics argue that enactivism struggles with offline thoughts due to the ____, contemporary theorists maintain that abstract thinking is an extension of embodied habits and cultural scaffolding.",
    "rt_w08_p3": "In 1867, James Clerk Maxwell proposed a famous thought experiment in which a microscopic intelligent agent could lower entropy by sorting particles. Early theories suggested that the act of ____ caused the necessary entropy increase. However, Rolf Landauer demonstrated that measurement can be reversible, and that real dissipation occurs during ____. According to Landauer's Principle, resetting a bit releases a minimum energy quantity of $k_B \\ln 2$. Bennett finalized this work by proving that the Demon must reset its finite ____, generating heat that preserves the Second Law. Today, this discovery inspires the development of ____, which aims to build microchips that process calculations without heat-releasing erasure steps.",
    "rt_w09_p3": "Although elections are widely assumed to reflect what citizens want in a fair and consistent way, social choice theory reveals systemic mathematical limits. Condorcet showed that rational individual choices can produce a circular ____. Kenneth Arrow expanded this by formulating Arrow’s Impossibility Theorem, proving that no ranked system with three or more options can satisfy all core fairness criteria simultaneously, including Pareto efficiency and ____. Real-world elections often suffer when minor candidates violate this rule by acting as spoilers. Furthermore, the Gibbard-Satterthwaite Theorem proved that all systems remain vulnerable to ____. Ultimately, these theorems show that elections do not discover a single public will, but rather produce outcomes dictated by the specific ____ utilized.",
-   "rt_w10_p3": "Philosophers have long disagreed about the true relationship between human knowledge and scientific models. Traditional scientific realism assumed that theories map a mind-independent world through a ____. However, Radical Constructivism argues that knowledge is an active construction that seeks ____ rather than ontological truth. Von Glasersfeld used the key-and-lock analogy to show that multiple models can successfully navigate obstacles. Although critics argue this perspective leads to ____ or relativism, constructivists emphasize that models are constantly tested by ____. Ultimately, constructivism views science as an adaptive human dialogue with experiential boundaries."
+   "rt_w10_p3": "Philosophers have long disagreed about the true relationship between human knowledge and scientific models. Traditional scientific realism assumed that theories map a mind-independent world through a ____. However, Radical Constructivism argues that knowledge is an active construction that seeks ____ rather than ontological truth. Von Glasersfeld used the key-and-lock analogy to show that multiple models can successfully navigate obstacles. Although critics argue this perspective leads to ____ or relativism, constructivists emphasize that models are constantly tested by ____. Ultimately, constructivism views science as an adaptive human dialogue with experiential boundaries.",
+   "rt_w11_p3": "Joshua Greene's Dual-Process Theory holds that moral judgement is shaped by two competing systems. In personal dilemmas like the Footbridge problem, actions that cause direct harm activate emotional networks like the ____, generating an automatic deontological objection. In contrast, impersonal dilemmas recruit the ____, which performs effortful calculations to maximize aggregate utility. Greene uses a camera metaphor to explain this: automatic settings suit familiar situations, while modern dilemmas require manual calculation. However, critics caution that utilitarian choices can sometimes stem from ____ rather than objective morality. Ultimately, contemporary science views moral cognition as an integrated system requiring a balance between compassionate affect and ____.",
+   "rt_w12_p3": "The Modern Synthesis treats evolution as a gene-centric process in which organisms are shaped by an external selective sieve. In contrast, Niche Construction Theory proposes a model of ____ where living beings modify their surroundings. This process changes selection pressures and passes on an ____ alongside genetic codes, as shown by how earthworms alter soil conditions. In humans, cultural innovations created novel niches that triggered genetic adaptations, such as the persistence of ____ in dairy-farming cultures. While skeptics argue that niche construction is merely a ____ of standard natural selection, proponents argue that life actively co-creates its evolutionary path.",
+   "rt_w13_p3": "Logical empiricists saw scientific progress as a steady, cumulative accumulation of facts. However, Thomas Kuhn argued that mature disciplines undergo cyclical upheavals called ____. Between these crises, researchers carry out normal science within a shared framework. Kuhn's most radical proposition was the concept of ____, which asserts that competing frameworks share no common neutral measure. This divide is driven by semantic shifts and the idea that all sensory data is ____. Although critics charged him with promoting relativism, Kuhn clarified that scientists share common epistemic values, proving that scientific progress is a rich, social, and ____ process.",
+   "rt_w14_p3": "The Computational Theory of Mind claimed that human thought is essentially ____ executed on brain hardware. To challenge this, John Searle devised the Chinese Room thought experiment, in which a person blindly follows rules to match unfamiliar symbols. Searle argued this proves that manipulating ____ does not create true semantic meaning. Critics advanced the Systems Reply, claiming understanding is an ____ of the entire setup. However, Searle maintained that even internalizing the rules yields no comprehension. Today this argument remains crucial in analyzing AI, showing that calculating linguistic data differs fundamentally from ____.",
+   "rt_w15_p3": "The status of mathematics is debated between realists and anti-realists. Mathematical Platonism asserts that numbers are ____ that exist independently of human minds. However, this view faces the Access Problem, questioning how humans can interact with non-physical entities. To resolve this, Quine and Putnam formulated the ____, arguing that numbers must be real because they are essential to empirical science. They based this on ____, which states that empirical tests confirm entire theoretical structures. In response, Hartry Field introduced Fictionalism, showing that mathematics is merely a conservative computational tool through the process of ____.",
+   "rt_w16_p3": "For decades, cognitive science modeled timing through Scalar Expectancy Theory, which relied on a pacemaker and an ____ to tally pulses. When neurobiologists failed to locate a physical master clock, Warren Meck introduced the ____, where time emerges from coincidental cortical oscillations. In this circuit, a burst of ____ resets oscillating cells, while medium spiny neurons act as coincidence detectors for specific intervals. Empirical research shows that short millisecond actions depend heavily on the ____, while longer multi-second durations recruit prefrontal circuits. Ultimately, modern neuroscience views time as encoded in the dynamic activity of distributed neural networks."
   },
   "summaryTitles": {
    "rt_w01_p3": "Why humans punish free-riders",
@@ -53,7 +71,13 @@
    "rt_w07_p3": "Enactivism and perception",
    "rt_w08_p3": "Maxwell’s Demon and Landauer’s Principle",
    "rt_w09_p3": "Arrow’s Impossibility Theorem",
-   "rt_w10_p3": "Radical Constructivism and scientific models"
+   "rt_w10_p3": "Radical Constructivism and scientific models",
+   "rt_w11_p3": "Emotion and reason in moral judgement",
+   "rt_w12_p3": "Niche construction and evolution",
+   "rt_w13_p3": "Kuhn's theory of scientific revolutions",
+   "rt_w14_p3": "The Chinese Room argument",
+   "rt_w15_p3": "Is mathematics real?",
+   "rt_w16_p3": "How the brain keeps time"
   },
   "topics": {
    "rt_w01_p1": "Archaeology",
@@ -85,7 +109,25 @@
    "rt_w09_p3": "Political Science",
    "rt_w10_p1": "Sports Technology",
    "rt_w10_p2": "Environmental Science",
-   "rt_w10_p3": "Philosophy of Science"
+   "rt_w10_p3": "Philosophy of Science",
+   "rt_w11_p1": "Food History",
+   "rt_w11_p2": "Engineering",
+   "rt_w11_p3": "Cognitive Science",
+   "rt_w12_p1": "Archaeology",
+   "rt_w12_p2": "Technology",
+   "rt_w12_p3": "Biology",
+   "rt_w13_p1": "Botany",
+   "rt_w13_p2": "Physics",
+   "rt_w13_p3": "Philosophy of Science",
+   "rt_w14_p1": "History of Technology",
+   "rt_w14_p2": "Energy",
+   "rt_w14_p3": "Cognitive Science",
+   "rt_w15_p1": "Biology",
+   "rt_w15_p2": "Environmental Science",
+   "rt_w15_p3": "Philosophy",
+   "rt_w16_p1": "History of Technology",
+   "rt_w16_p2": "Urban Planning",
+   "rt_w16_p3": "Neuroscience"
   }
  },
  "writingTitles": {
@@ -98,7 +140,13 @@
   "wt_07": "Life cycle of the salmon",
   "wt_08": "Internet access and online shopping spending in three South-East Asian nations, 2015–2023",
   "wt_09": "Norbury town in 1970 and planned redevelopment for 2030",
-  "wt_10": "Global freshwater use by activity and agricultural use by crop"
+  "wt_10": "Global freshwater use by activity and agricultural use by crop",
+  "wt_11": "Household spending on clothing, books and electronics, 2000–2024",
+  "wt_12": "Desalination: from seawater to drinking water",
+  "wt_13": "Global production of paper products, 2022",
+  "wt_14": "Portville island town, 1995 and planned redevelopment",
+  "wt_15": "Remote working by age group, 2015 and 2023",
+  "wt_16": "Paper recycling and pulp production"
  },
  "task2Titles": {
   "wt_01": "Public libraries",
@@ -110,7 +158,13 @@
   "wt_07": "Rural depopulation",
   "wt_08": "Remote work",
   "wt_09": "Plastic packaging",
-  "wt_10": "Private healthcare"
+  "wt_10": "Private healthcare",
+  "wt_11": "Online university degrees",
+  "wt_12": "Celebrity influence",
+  "wt_13": "Automation in retail",
+  "wt_14": "Renting instead of buying homes",
+  "wt_15": "Public transport funding",
+  "wt_16": "Government arts funding"
  },
  "task2Types": {
   "wt_01": [

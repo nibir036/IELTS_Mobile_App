@@ -1,0 +1,626 @@
+{
+  "num": 2,
+  "title": "IELTS Listening Mock Test 2",
+  "description": "Section 1: enquiring about membership at a local sports centre. Section 2: visitor information officer describing three visitor packages at a heritage centre. Section 3: university students discussing a research project on student cycling habits with their supervisor. Section 4: lecture on the importance of bees in ecosystems.",
+  "duration_seconds": 1680,
+  "audio_local": "full.mp3",
+  "sections": [
+    {
+      "key": "s1",
+      "position": 1,
+      "title": "Section 1 — Questions 1-10",
+      "instructions": "LAKESIDE SPORTS CENTRE. Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "image_local": null,
+      "questions": [
+        {
+          "qnumber": 1,
+          "type": "text_input",
+          "prompt": "Nina is mainly interested in the gym and the ____.",
+          "max_words": 1,
+          "accepted": [
+            "swimming"
+          ]
+        },
+        {
+          "qnumber": 2,
+          "type": "text_input",
+          "prompt": "The standard membership includes basic fitness ____.",
+          "max_words": 1,
+          "accepted": [
+            "classes"
+          ]
+        },
+        {
+          "qnumber": 3,
+          "type": "text_input",
+          "prompt": "The membership costs $____ per month.",
+          "max_words": 1,
+          "accepted": [
+            "38",
+            "thirty-eight"
+          ]
+        },
+        {
+          "qnumber": 4,
+          "type": "text_input",
+          "prompt": "The joining fee is $____.",
+          "max_words": 1,
+          "accepted": [
+            "20",
+            "twenty"
+          ]
+        },
+        {
+          "qnumber": 5,
+          "type": "text_input",
+          "prompt": "The joining fee is waived if members pay for ____ months in advance.",
+          "max_words": 1,
+          "accepted": [
+            "6",
+            "six"
+          ]
+        },
+        {
+          "qnumber": 6,
+          "type": "text_input",
+          "prompt": "Weekday opening time: ____ a.m.",
+          "max_words": 1,
+          "accepted": [
+            "6",
+            "six"
+          ]
+        },
+        {
+          "qnumber": 7,
+          "type": "text_input",
+          "prompt": "Weekday closing time: ____ p.m.",
+          "max_words": 1,
+          "accepted": [
+            "10",
+            "ten"
+          ]
+        },
+        {
+          "qnumber": 8,
+          "type": "text_input",
+          "prompt": "Saturday opening hours are ____ until 8 p.m.",
+          "max_words": 1,
+          "accepted": [
+            "8",
+            "eight"
+          ]
+        },
+        {
+          "qnumber": 9,
+          "type": "text_input",
+          "prompt": "Group classes are booked through the member ____.",
+          "max_words": 1,
+          "accepted": [
+            "app"
+          ]
+        },
+        {
+          "qnumber": 10,
+          "type": "text_input",
+          "prompt": "Members should check the swimming ____ before attending.",
+          "max_words": 1,
+          "accepted": [
+            "timetable"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "s2a",
+      "position": 2,
+      "title": "Section 2 — Questions 11-15",
+      "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "image_local": null,
+      "questions": [
+        {
+          "qnumber": 11,
+          "type": "text_input",
+          "prompt": "Option A focuses on the main historic ____.",
+          "max_words": 1,
+          "accepted": [
+            "building"
+          ]
+        },
+        {
+          "qnumber": 12,
+          "type": "text_input",
+          "prompt": "Option B includes a visit to the ____.",
+          "max_words": 1,
+          "accepted": [
+            "greenhouse"
+          ]
+        },
+        {
+          "qnumber": 13,
+          "type": "text_input",
+          "prompt": "Option C is designed mainly for ____.",
+          "max_words": 1,
+          "accepted": [
+            "families"
+          ]
+        },
+        {
+          "qnumber": 14,
+          "type": "text_input",
+          "prompt": "The History Tour lasts ____ minutes.",
+          "max_words": 1,
+          "accepted": [
+            "90",
+            "ninety"
+          ]
+        },
+        {
+          "qnumber": 15,
+          "type": "text_input",
+          "prompt": "The Garden Tour lasts ____ minutes.",
+          "max_words": 1,
+          "accepted": [
+            "75",
+            "seventy-five"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "s2b",
+      "position": 2,
+      "title": "Section 2 — Questions 16-20 (Visitor Package Options)",
+      "instructions": "Choose the correct option, A, B or C.",
+      "image_local": "section-2-visual-options.jpg",
+      "questions": [
+        {
+          "qnumber": 16,
+          "type": "single_choice",
+          "prompt": "Which package includes the archive room?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "History Tour"
+            },
+            {
+              "letter": "B",
+              "text": "Garden Tour"
+            },
+            {
+              "letter": "C",
+              "text": "Family Discovery Tour"
+            }
+          ],
+          "accepted": [
+            "a"
+          ]
+        },
+        {
+          "qnumber": 17,
+          "type": "single_choice",
+          "prompt": "Which package includes a plant demonstration?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "History Tour"
+            },
+            {
+              "letter": "B",
+              "text": "Garden Tour"
+            },
+            {
+              "letter": "C",
+              "text": "Family Discovery Tour"
+            }
+          ],
+          "accepted": [
+            "b"
+          ]
+        },
+        {
+          "qnumber": 18,
+          "type": "single_choice",
+          "prompt": "Which package includes a children's activity room?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "History Tour"
+            },
+            {
+              "letter": "B",
+              "text": "Garden Tour"
+            },
+            {
+              "letter": "C",
+              "text": "Family Discovery Tour"
+            }
+          ],
+          "accepted": [
+            "c"
+          ]
+        },
+        {
+          "qnumber": 19,
+          "type": "single_choice",
+          "prompt": "Which package is best for visitors mainly interested in local history?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "History Tour"
+            },
+            {
+              "letter": "B",
+              "text": "Garden Tour"
+            },
+            {
+              "letter": "C",
+              "text": "Family Discovery Tour"
+            }
+          ],
+          "accepted": [
+            "a"
+          ]
+        },
+        {
+          "qnumber": 20,
+          "type": "single_choice",
+          "prompt": "Which package is recommended for families with young children?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "History Tour"
+            },
+            {
+              "letter": "B",
+              "text": "Garden Tour"
+            },
+            {
+              "letter": "C",
+              "text": "Family Discovery Tour"
+            }
+          ],
+          "accepted": [
+            "c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "s3a",
+      "position": 3,
+      "title": "Section 3 — Questions 21-25",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "image_local": null,
+      "questions": [
+        {
+          "qnumber": 21,
+          "type": "single_choice",
+          "prompt": "What is the main focus of the research?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Public transport costs"
+            },
+            {
+              "letter": "B",
+              "text": "Factors influencing students' decision to cycle"
+            },
+            {
+              "letter": "C",
+              "text": "Cycling accidents near universities"
+            }
+          ],
+          "accepted": [
+            "b"
+          ]
+        },
+        {
+          "qnumber": 22,
+          "type": "single_choice",
+          "prompt": "Why did the students abandon their original idea?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It was too broad."
+            },
+            {
+              "letter": "B",
+              "text": "They could not recruit participants."
+            },
+            {
+              "letter": "C",
+              "text": "There was insufficient data."
+            }
+          ],
+          "accepted": [
+            "a"
+          ]
+        },
+        {
+          "qnumber": 23,
+          "type": "single_choice",
+          "prompt": "How many interviews will they conduct?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "20"
+            },
+            {
+              "letter": "B",
+              "text": "30"
+            },
+            {
+              "letter": "C",
+              "text": "40"
+            }
+          ],
+          "accepted": [
+            "a"
+          ]
+        },
+        {
+          "qnumber": 24,
+          "type": "single_choice",
+          "prompt": "Which students will be excluded from the survey?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Students who cycle regularly"
+            },
+            {
+              "letter": "B",
+              "text": "Students living more than ten kilometres away"
+            },
+            {
+              "letter": "C",
+              "text": "Students living in university accommodation"
+            }
+          ],
+          "accepted": [
+            "c"
+          ]
+        },
+        {
+          "qnumber": 25,
+          "type": "single_choice",
+          "prompt": "How long will they collect data?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Two weeks"
+            },
+            {
+              "letter": "B",
+              "text": "Three weeks"
+            },
+            {
+              "letter": "C",
+              "text": "Four weeks"
+            }
+          ],
+          "accepted": [
+            "b"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "s3b",
+      "position": 3,
+      "title": "Section 3 — Questions 26-30",
+      "instructions": "Who will be responsible for each task? A. Alex  B. Maya  C. Both students",
+      "image_local": null,
+      "questions": [
+        {
+          "qnumber": 26,
+          "type": "matching",
+          "prompt": "Designing the questionnaire",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Alex"
+            },
+            {
+              "letter": "B",
+              "text": "Maya"
+            },
+            {
+              "letter": "C",
+              "text": "Both students"
+            }
+          ],
+          "accepted": [
+            "a"
+          ]
+        },
+        {
+          "qnumber": 27,
+          "type": "matching",
+          "prompt": "Conducting interviews",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Alex"
+            },
+            {
+              "letter": "B",
+              "text": "Maya"
+            },
+            {
+              "letter": "C",
+              "text": "Both students"
+            }
+          ],
+          "accepted": [
+            "b"
+          ]
+        },
+        {
+          "qnumber": 28,
+          "type": "matching",
+          "prompt": "Recruiting participants",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Alex"
+            },
+            {
+              "letter": "B",
+              "text": "Maya"
+            },
+            {
+              "letter": "C",
+              "text": "Both students"
+            }
+          ],
+          "accepted": [
+            "b"
+          ]
+        },
+        {
+          "qnumber": 29,
+          "type": "matching",
+          "prompt": "Analysing questionnaire data",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Alex"
+            },
+            {
+              "letter": "B",
+              "text": "Maya"
+            },
+            {
+              "letter": "C",
+              "text": "Both students"
+            }
+          ],
+          "accepted": [
+            "a"
+          ]
+        },
+        {
+          "qnumber": 30,
+          "type": "matching",
+          "prompt": "Writing the discussion and conclusion",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Alex"
+            },
+            {
+              "letter": "B",
+              "text": "Maya"
+            },
+            {
+              "letter": "C",
+              "text": "Both students"
+            }
+          ],
+          "accepted": [
+            "c"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "s4",
+      "position": 4,
+      "title": "Section 4 — Questions 31-40",
+      "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "image_local": null,
+      "questions": [
+        {
+          "qnumber": 31,
+          "type": "text_input",
+          "prompt": "One of the most important roles of bees is ____.",
+          "max_words": 2,
+          "accepted": [
+            "pollination"
+          ]
+        },
+        {
+          "qnumber": 32,
+          "type": "text_input",
+          "prompt": "Bees transfer pollen between ____.",
+          "max_words": 2,
+          "accepted": [
+            "flowers"
+          ]
+        },
+        {
+          "qnumber": 33,
+          "type": "text_input",
+          "prompt": "Bees collect both pollen and ____.",
+          "max_words": 2,
+          "accepted": [
+            "nectar"
+          ]
+        },
+        {
+          "qnumber": 34,
+          "type": "text_input",
+          "prompt": "Honey bees live socially in ____.",
+          "max_words": 2,
+          "accepted": [
+            "colonies"
+          ]
+        },
+        {
+          "qnumber": 35,
+          "type": "text_input",
+          "prompt": "Many other bee species are ____.",
+          "max_words": 2,
+          "accepted": [
+            "solitary"
+          ]
+        },
+        {
+          "qnumber": 36,
+          "type": "text_input",
+          "prompt": "One major environmental pressure is habitat ____.",
+          "max_words": 2,
+          "accepted": [
+            "loss"
+          ]
+        },
+        {
+          "qnumber": 37,
+          "type": "text_input",
+          "prompt": "Some pesticides may affect bees' ability to ____.",
+          "max_words": 2,
+          "accepted": [
+            "navigate"
+          ]
+        },
+        {
+          "qnumber": 38,
+          "type": "text_input",
+          "prompt": "Climate change can alter the timing of plant ____.",
+          "max_words": 2,
+          "accepted": [
+            "flowering"
+          ]
+        },
+        {
+          "qnumber": 39,
+          "type": "text_input",
+          "prompt": "Gardens and parks can provide bees with sources of ____.",
+          "max_words": 2,
+          "accepted": [
+            "food"
+          ]
+        },
+        {
+          "qnumber": 40,
+          "type": "text_input",
+          "prompt": "Some solitary bees use cavities in ____ for nesting.",
+          "max_words": 2,
+          "accepted": [
+            "wood"
+          ]
+        }
+      ]
+    }
+  ]
+}

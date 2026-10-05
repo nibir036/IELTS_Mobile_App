@@ -422,7 +422,8 @@ export function buildProfile(inputs: PlanInputs, ev: Evidence, catalog: Catalog,
   for (const a of ev.attempts) {
     const ageDays = Math.max(0, (now.getTime() - a.createdAt.getTime()) / 86400000);
     const qc = a.kind === 'quickcheck';
-    const w = (a.skill === 'mock' ? 3 : qc ? 2 : 1) * Math.pow(0.5, ageDays / 30);
+    // The quick check is a measurement, so it counts well above the self-rating.
+    const w = (a.skill === 'mock' ? 3 : qc ? 4 : 1) * Math.pow(0.5, ageDays / 30);
     for (const [tag, band] of qc ? quickCheckSamples(a, catalog.tags) : samplesOf(a, byRef)) {
       const slot = acc[tag];
       if (!slot) continue;
@@ -517,14 +518,18 @@ export function estimate(inputs: PlanInputs, profile: Profile): Estimate {
     gainBy,
     weeksToExam,
     split,
-    phases: phases(weeks),
+    phases: phases(weeks, startBand),
     checkpointWeeks: checkpointWeeks(weeks),
     focus,
     focusTags,
   };
 }
 
-export function phases(weeks: number): Phase[] {
+/**
+ * Plan phases. Stronger students need less foundation work: the foundation
+ * share is 25% below band 5.5, 18% up to 6.5 and 10% from 6.5.
+ */
+export function phases(weeks: number, startBand = 5): Phase[] {
   if (weeks <= 1) return [{ id: 'exam', fromWeek: 1, toWeek: 1 }];
   if (weeks === 2) return [
     { id: 'build', fromWeek: 1, toWeek: 1 },
@@ -536,7 +541,8 @@ export function phases(weeks: number): Phase[] {
     { id: 'exam', fromWeek: 3, toWeek: 3 },
   ];
   const review = 1;
-  const foundation = Math.max(1, Math.round(weeks * 0.25));
+  const share = startBand >= 6.5 ? 0.1 : startBand >= 5.5 ? 0.18 : 0.25;
+  const foundation = Math.max(1, Math.round(weeks * share));
   const exam = Math.max(1, Math.round(weeks * 0.25) - review);
   const build = Math.max(1, weeks - foundation - exam - review);
   const out: Phase[] = [];
@@ -617,14 +623,35 @@ function usable(item: CatalogItem, ctx: DayContext): boolean {
 }
 
 /** Next course lesson of [module] whose prerequisite is done or scheduled. */
+/**
+ * Course placement: the stage level (1-3) a student starts a course at, from
+ * their estimated band (self-rating, quick check and results). Grammar and
+ * vocabulary courses follow the average of the plan's modules.
+ */
+export function lessonStartLevel(module: CatalogModule, profile: Profile, inputs: PlanInputs): number {
+  const band = (MODULES as string[]).includes(module)
+    ? moduleBand(profile, module as Module)
+    : inputs.modules.reduce((s, m) => s + moduleBand(profile, m), 0) / Math.max(1, inputs.modules.length);
+  return band >= 7 ? 3 : band >= 6 ? 2 : 1;
+}
+
 function nextLesson(module: CatalogModule, ctx: DayContext): CatalogItem | null {
   const lessons = ctx.catalog.items.filter((i) => i.module === module && i.type === 'lesson' && i.id.startsWith('lesson:'));
   lessons.sort((a, b) => a.order - b.order);
+  const start = lessonStartLevel(module, ctx.profile, ctx.inputs);
+  const intro = lessons[0]?.id;
+  // Lessons below the student's level are skipped (the course's first,
+  // introduction lesson is always kept) and count as done for prerequisites.
+  const skipped = (l: CatalogItem) => l.level < start && l.id !== intro;
   for (const l of lessons) {
-    if (!usable(l, ctx)) continue;
+    if (skipped(l) || !usable(l, ctx)) continue;
     if (l.after) {
       const prev = ctx.catalog.items.find((i) => i.id === l.after);
-      const ok = !prev || ctx.state.scheduled.has(prev.id) || (prev.ref != null && ctx.state.doneRefs.has(prev.ref));
+      const ok =
+        !prev ||
+        skipped(prev) ||
+        ctx.state.scheduled.has(prev.id) ||
+        (prev.ref != null && ctx.state.doneRefs.has(prev.ref));
       if (!ok) continue;
     }
     return l;

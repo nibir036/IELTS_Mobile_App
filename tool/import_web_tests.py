@@ -5,18 +5,30 @@ usage: python3 tool/import_web_tests.py
 Sources (seed/sources/web_tests/, copied from the website repo):
   listening/tests_11_14.json      website Listening Mock Tests 3–6 (db positions 11–14) + test1N-map.jpg;
                                   audio: the website's full.mp3 per test (scripts/r2-listening-seed/local_assets)
+  listening/full/FT0N.json        Listening Full Tests 1, 2, 3, 6, 7 (ElevenLabs v4 scripts: parts, questions, answer
+                                  keys, transcripts) + FT0N.srt (subtitles of the recording, for timing) + FT0N-plan.png
+                                  (tool/draw_full_test_plans.py); audio: FT0N.mp3 in $FULL_AUDIO. Cut points and
+                                  transcript times are kept in listening/full/timing.json, so a rebuild without the
+                                  audio gives the same result.
   reading_tests_11_20.json        website Reading Mock Tests 11–20 (parsed from migrations/0015 + 0016 fixes)
+  reading_tests_21_26.json        website Reading Mock Tests 21–26 (extract_21_26.py)
   writing/tests_11_20.json        website Writing Tests 11–20 (Task 1 picture + Task 2) + writing-test-NN.jpg
+  writing/tests_21_26.json        website Writing Tests 21–26
   speaking_tests_11_20.json       website Speaking Tests 11–20 (Part 1 topics, cue card, Part 3 topics)
+  speaking_tests_21_26.json       website Speaking Tests 21–26
   fixes.json                      prompt / summary repairs (website text cut off mid-sentence), topics
 App ids and names (renumbered 1–N):
   Listening Test 1–4  lt_w01…  sets lt_w01_p1…p4 (one recording per part, cut from the full recording at the
                       half-minute pauses after each part), Section 2 plan image
-  Reading Test 1–10   rt_w01…  passages rt_w01_p1…p3
-  Writing Test 1–10   wt_01…   prompts wt_01_t1 / wt_01_t2
-  Speaking Test 1–10  st_01…   Part 1 topic st_01_p1 (all three topics), cue card st_01_cc (+ Part 3 list),
-                      Part 3 topics st_01_p3_1 / _2
+  Listening Test 5–9  lt_w05…  = Full Tests 1, 2, 3, 6, 7 (one recording per part, cut at the check-your-answers
+                      pause after each part; timed transcripts; Part 2 plans drawn for FT01 / FT03 / FT07)
+  Reading Test 1–16   rt_w01…  passages rt_w01_p1…p3 (website 11–26)
+  Writing Test 1–16   wt_01…   prompts wt_01_t1 / wt_01_t2 (website 11–26)
+  Speaking Test 1–16  st_01…   Part 1 topic st_01_p1 (all three topics), cue card st_01_cc (+ Part 3 list),
+                      Part 3 topics st_01_p3_1 / _2 (website 11–26)
   Full Mock Test 1–4  mt_01…   = Listening/Reading/Writing/Speaking Test 1–4 (website Full Mocks 1–3 used 11–13)
+  Full Mock Test 5–9  mt_05…   = Listening Test 5–9 + Reading/Writing/Speaking Test 11–15 (website 21–25);
+                      Reading/Writing/Speaking Test 16 waits for a sixth new listening test (Mock 10)
 """
 import json
 import os
@@ -31,6 +43,11 @@ AUDIO_SRC = os.environ.get('WEB_AUDIO', '/mnt/user-data/uploads/NextEd-IELTS-V2/
 A_LIS = os.path.join(ROOT, 'assets', 'audio', 'listening')
 A_MAP = os.path.join(ROOT, 'assets', 'listening', 'maps')
 A_WRI = os.path.join(ROOT, 'assets', 'writing', 'tests')
+FULL_AUDIO = os.environ.get('FULL_AUDIO', '/tmp/claude-0/-home-claude/9cae0284-11a4-5bea-93fa-6ab7396d4762/scratchpad/lt/audio')
+# Listening Full Tests used (in this order → lt_w05…); timing anchors (line index → seconds) where the subtitles failed
+FULL_TESTS = [('FT01', {}), ('FT02', {128: 1551.8, 143: 1913.9, 144: 1925.5}), ('FT03', {}), ('FT06', {}), ('FT07', {})]
+# recordings that leave out narrator lines of the script (FT06: no part introductions)
+FULL_DROP_SILENT_NARRATOR = {'FT06'}
 
 
 def load(*p):
@@ -179,6 +196,115 @@ def listening():
     return tests, sets
 
 
+def silences(mp3, min_len=8.0):
+    err = subprocess.run(['ffmpeg', '-hide_banner', '-i', mp3, '-af', f'silencedetect=noise=-40dB:d={min_len}', '-f', 'null', '-'],
+                         capture_output=True, text=True).stderr
+    st = [float(x) for x in re.findall(r'silence_start: ([0-9.]+)', err)]
+    en = [float(x) for x in re.findall(r'silence_end: ([0-9.]+)', err)]
+    return list(zip(st, en))
+
+
+def full_timing(code, anchors):
+    """Cut points (s) for the four parts and a start time for every kept transcript line."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from listening_align import align
+    t = load('listening', 'full', f'{code}.json')
+    mp3 = os.path.join(FULL_AUDIO, f'{code}.mp3')
+    lines, owner = [], []
+    for pi, p in enumerate(t['parts']):
+        for li, x in enumerate(p['transcript']):
+            lines.append(x['text'])
+            owner.append((pi, li))
+    srt = open(os.path.join(SRC, 'listening', 'full', f'{code}.srt'), encoding='utf-8-sig').read()
+    starts, rep = align(lines, srt, anchors)
+    keep = [not (code in FULL_DROP_SILENT_NARRATOR and t['parts'][owner[i][0]]['transcript'][owner[i][1]]['speaker'] == 'Narrator'
+                 and not rep['heard'][i]) for i in range(len(lines))]
+    sil = silences(mp3)
+    short = silences(mp3, 1.0)
+    cues = [(int(h) * 3600 + int(m) * 60 + int(s_) + int(ms) / 1000, re.sub(r'\s+', ' ', body).strip())
+            for h, m, s_, ms, body in re.findall(r'(\d+):(\d+):(\d+)[,.](\d+)\s*-->[^\n]*\n(.*?)(?:\n\s*\n|\Z)', srt, re.S)]
+    words = {2: 'two', 3: 'three', 4: 'four'}
+    cuts = [0.0]
+    for pi in range(1, 4):
+        n = pi + 1
+        # 1) the narrator's "Part N. You will hear …" in the subtitles, snapped to the pause just before it
+        ts = None
+        for k, (t_, body) in enumerate(cues):
+            if t_ <= cuts[-1] + 60:
+                continue
+            if re.match(rf'(part|section)\s+({n}|{words[n]})\b', body, re.I) and \
+                    'you will hear' in ' '.join(b for _, b in cues[k:k + 3]).lower():
+                ts = t_
+                break
+        if ts is not None:
+            ends = [e for s0, e in short if ts - 4 <= e <= ts + 1.0]
+            cuts.append(round((max(ends) if ends else ts - 0.3) - 0.5, 2))
+            continue
+        # 2) otherwise: the end of the check-your-answers pause after "That is the end of Part N-1"
+        prev = [i for i in range(len(lines)) if owner[i][0] == pi - 1 and 'end of' in lines[i].lower()]
+        t0 = starts[prev[-1]] if prev else starts[next(i for i in range(len(lines)) if owner[i][0] == pi)] - 40
+        nxt = min(s1 for s0, s1 in sil if s0 >= t0 - 5)
+        cuts.append(round(nxt - 0.5, 2))
+    cuts.append(round(duration(mp3), 2))
+    parts = []
+    for pi in range(4):
+        parts.append([round(max(0.0, starts[i] - cuts[pi]), 1) if keep[i] else None
+                      for i in range(len(lines)) if owner[i][0] == pi])
+    return {'cuts': cuts, 'starts': parts, 'coverage': rep['coverage']}
+
+
+def full_listening(first_number):
+    tests, sets = [], []
+    tpath = os.path.join(SRC, 'listening', 'full', 'timing.json')
+    timing = json.load(open(tpath)) if os.path.exists(tpath) else {}
+    for k, (code, anchors) in enumerate(FULL_TESTS):
+        n = first_number + k
+        tid = f'lt_w{n:02d}'
+        t = load('listening', 'full', f'{code}.json')
+        mp3 = os.path.join(FULL_AUDIO, f'{code}.mp3')
+        if os.path.exists(mp3):
+            timing[code] = full_timing(code, anchors)
+        tm = timing[code]
+        cuts = tm['cuts']
+        set_ids = []
+        for p in t['parts']:
+            part = p['part']
+            sid = f'{tid}_p{part}'
+            audio = f'assets/audio/listening/{sid}.mp3'
+            dst = os.path.join(ROOT, audio)
+            if os.path.exists(mp3) and not os.path.exists(dst):
+                subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', mp3, '-ss', f'{cuts[part - 1]:.2f}', '-to', f'{cuts[part]:.2f}',
+                                '-c', 'copy', dst], check=True)
+            groups = json.loads(json.dumps(p['groups']))
+            for g in groups:
+                if g['type'] == 'map':
+                    img = f'assets/listening/maps/{tid}_plan.jpg'
+                    crop_image(os.path.join(SRC, 'listening', 'full', f'{code}-plan.png'), os.path.join(ROOT, img))
+                    g['image'] = img
+            num = sum(g.get('pick', 1) if g['type'] == 'multi' else 1 for g in groups for _ in g['questions'])
+            assert num == 10, (sid, num)
+            transcript = []
+            for x, st in zip(p['transcript'], tm['starts'][part - 1]):
+                if st is None:
+                    continue
+                transcript.append({'id': f't{len(transcript) + 1}', 'speaker': x['speaker'], 'text': x['text'], 'start': st,
+                                   'directions': [], 'keywords': [], 'answerTags': []})
+            sets.append({
+                'id': sid, 'part': part, 'test': tid, 'title': p['title'], 'context': p['context'],
+                'audio': audio, 'durationSeconds': round(cuts[part] - cuts[part - 1]),
+                'transcriptStatus': 'timed', 'transcriptTiming': 'audio',
+                'speakers': [{'name': s_['name'], 'role': s_.get('role', '')} for s_ in p.get('speakers', [])],
+                'transcript': transcript, 'groups': groups,
+                'source': f'Listening Full Test {int(code[2:])} (ElevenLabs v4)',
+            })
+            set_ids.append(sid)
+        desc = ' '.join(f'Part {p["part"]}: {p["context"].rstrip(".")}.' for p in t['parts'])
+        tests.append({'id': tid, 'number': n, 'title': f'Listening Test {n}', 'sets': set_ids, 'description': desc,
+                      'source': f'Listening Full Test {int(code[2:])}'})
+    json.dump(timing, open(tpath, 'w'), indent=1)
+    return tests, sets
+
+
 # ── Reading ──────────────────────────────────────────────────────────────────────────────────────────────────
 
 TYPE_OF = [
@@ -262,7 +388,7 @@ def paragraphs(passage):
 def reading():
     tests, passages = [], []
     fx = FIX.get('reading', {})
-    for n, t in enumerate(load('reading_tests_11_20.json'), 1):
+    for n, t in enumerate(load('reading_tests_11_20.json') + load('reading_tests_21_26.json'), 1):
         tid = f'rt_w{n:02d}'
         pids = []
         for pi, s in enumerate(t['sections'], 1):
@@ -353,7 +479,7 @@ T2_TAIL = 'Give reasons for your answer and include any relevant examples from y
 
 def writing():
     tests, prompts = [], []
-    for n, t in enumerate(load('writing', 'tests_11_20.json'), 1):
+    for n, t in enumerate(load('writing', 'tests_11_20.json') + load('writing', 'tests_21_26.json'), 1):
         tid = f'wt_{n:02d}'
         img = f'assets/writing/tests/{tid}_task1.jpg'
         crop_image(os.path.join(SRC, 'writing', f'writing-test-{t["num"]}.jpg'), os.path.join(ROOT, img), 1400)
@@ -394,7 +520,7 @@ def writing():
 
 def speaking():
     tests, part1, cards, part3 = [], [], [], []
-    for n, t in enumerate(load('speaking_tests_11_20.json'), 1):
+    for n, t in enumerate(load('speaking_tests_11_20.json') + load('speaking_tests_21_26.json'), 1):
         tid = f'st_{n:02d}'
         sc = t['script']
         topics = sc['part1']['topics']
@@ -422,18 +548,34 @@ def speaking():
     return tests, part1, cards, part3
 
 
+def plain_dashes(text):
+    """Em dashes → a spaced normal dash ("word - word"), as the server's plainDashes does for every response."""
+    def rep(m):
+        b1 = text[m.start() - 1] if m.start() > 0 else ''
+        b2 = text[m.start() - 2] if m.start() > 1 else ''
+        a1 = text[m.end()] if m.end() < len(text) else ''
+        a2 = text[m.end() + 1] if m.end() + 1 < len(text) else ''
+        no_lead = b1 == '' or (b1 == '"' and b2 != '\\') or (b1 == 'n' and b2 == '\\') or b1 in '([{'
+        no_trail = a1 == '' or (a1 == '\\' and a2 == 'n') or a1 in '")]},.;:'
+        return f"{'' if no_lead else ' '}-{'' if no_trail else ' '}"
+    return re.sub(r'[ \t]*\u2014[ \t]*', rep, text)
+
+
 def main():
     l_tests, l_sets = listening()
+    f_tests, f_sets = full_listening(len(l_tests) + 1)
+    l_tests, l_sets = l_tests + f_tests, l_sets + f_sets
     r_tests, r_passages = reading()
     w_tests, w_prompts = writing()
     s_tests, s_p1, s_cards, s_p3 = speaking()
     mocks = []
-    for n in range(1, 5):
+    for n in range(1, len(l_tests) + 1):
+        k = n if n <= 4 else n + 6  # Mocks 5+ use Reading / Writing / Speaking 11+ (website 21–26)
         mocks.append({'id': f'mt_{n:02d}', 'number': n, 'letter': str(n), 'title': f'Full Mock Test {n}',
-                      'listeningTest': f'lt_w{n:02d}', 'readingTest': f'rt_w{n:02d}',
-                      'task1': f'wt_{n:02d}_t1', 'task2': f'wt_{n:02d}_t2',
-                      'speaking': {'part1': f'st_{n:02d}_p1', 'cueCard': f'st_{n:02d}_cc'},
-                      'writingTest': f'wt_{n:02d}', 'speakingTest': f'st_{n:02d}'})
+                      'listeningTest': f'lt_w{n:02d}', 'readingTest': f'rt_w{k:02d}',
+                      'task1': f'wt_{k:02d}_t1', 'task2': f'wt_{k:02d}_t2',
+                      'speaking': {'part1': f'st_{k:02d}_p1', 'cueCard': f'st_{k:02d}_cc'},
+                      'writingTest': f'wt_{k:02d}', 'speakingTest': f'st_{k:02d}'})
     bank = {
         'meta': {'source': 'NextEd-IELTS-V2 (website) full tests', 'importer': 'tool/import_web_tests.py'},
         'listening': {'tests': l_tests, 'sets': l_sets},
@@ -443,7 +585,7 @@ def main():
         'mock': {'tests': mocks},
     }
     with open(OUT, 'w', encoding='utf-8') as f:
-        json.dump(bank, f, ensure_ascii=False, separators=(',', ':'))
+        f.write(plain_dashes(json.dumps(bank, ensure_ascii=False, separators=(',', ':'))))
     print(f'{len(l_tests)} listening tests ({len(l_sets)} parts) · {len(r_tests)} reading tests ({len(r_passages)} passages) · '
           f'{len(w_tests)} writing · {len(s_tests)} speaking · {len(mocks)} mocks → {OUT} ({os.path.getsize(OUT) // 1024} KB)')
 
