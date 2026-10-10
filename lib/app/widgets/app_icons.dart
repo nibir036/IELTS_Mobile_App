@@ -23,6 +23,9 @@ class AppIcons {
   static const add = Icons.add_rounded;
   static const remove = Icons.remove_rounded;
   static const search = Icons.search_rounded;
+  static const zoomIn = Icons.zoom_in_rounded;
+  static const zoomOut = Icons.zoom_out_rounded;
+  static const fitScreen = Icons.fit_screen_rounded;
   static const filter = Icons.tune_rounded;
   static const sort = Icons.sort_rounded;
   static const refresh = Icons.refresh_rounded;

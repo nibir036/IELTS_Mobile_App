@@ -4,9 +4,11 @@ import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
+import '../../app/services/entitlements.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import '../home/widgets.dart';
 import 'plan_api.dart';
 
@@ -251,10 +253,16 @@ class QuickCheckOffer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
+    // The quick check is part of Pro.
+    final pro = Entitlements.I.planExtras;
     return AppCard(
       radius: 24,
       padding: const EdgeInsets.fromLTRB(16, 14, 14, 14),
       onTap: () async {
+        if (!pro) {
+          await showUpgradeSheet(context, feature: 'quick_check');
+          return;
+        }
         final Object? ok = await context.push(Routes.studyPlanQuickCheck, args: <String, dynamic>{'modules': modules});
         if (ok == true) onDone?.call();
       },
@@ -267,15 +275,18 @@ class QuickCheckOffer extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               spacing: 2,
               children: [
-                const Text('Get a sharper plan', style: TextStyle(fontSize: 15.5, fontWeight: FontWeight.w600)),
+                Text(pro ? 'Get a sharper plan' : 'Get a sharper plan · Pro',
+                    style: const TextStyle(fontSize: 15.5, fontWeight: FontWeight.w600)),
                 Text(
-                  'A quick check (about 8 minutes) so your plan starts from what you can do.',
+                  pro
+                      ? 'A quick check (about 8 minutes) so your plan starts from what you can do.'
+                      : 'A quick check that starts your plan from what you can do. Part of Pro.',
                   style: TextStyle(fontSize: 12.5, height: 1.3, color: t.textMuted),
                 ),
               ],
             ),
           ),
-          Icon(AppIcons.forward, size: 20, color: t.textMuted),
+          Icon(pro ? AppIcons.forward : AppIcons.lock, size: 20, color: t.textMuted),
         ],
       ),
     );
@@ -284,3 +295,54 @@ class QuickCheckOffer extends StatelessWidget {
 
 /// True once the student has done the quick check (synced state).
 bool quickCheckDone(Store store) => store.kv<Map>('plan.quickcheck') != null;
+
+
+/// Free plan notice on the study plan: the first 3 study days, then Pro.
+class FreePlanBanner extends StatelessWidget {
+  const FreePlanBanner({super.key, required this.access});
+
+  /// The plan's `access` ({plan, freeUntil, ended}).
+  final Map<String, dynamic> access;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    final ended = access.b('ended');
+    final until = DateTime.tryParse(access.s('freeUntil'));
+    final untilLabel = until == null ? '' : Store.weekdayDate(until);
+    return AppCard(
+      radius: 24,
+      padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        spacing: 10,
+        children: [
+          Row(
+            spacing: 12,
+            children: [
+              TintCircle(icon: AppIcons.medal, bg: t.peach, fg: kOnPeach, size: 40),
+              Expanded(
+                child: Text(
+                  ended ? 'Your 3-day free plan is over' : 'Free plan: your first 3 study days',
+                  style: const TextStyle(fontSize: 15.5, fontWeight: FontWeight.w600),
+                ),
+              ),
+            ],
+          ),
+          Text(
+            ended
+                ? 'Upgrade to Pro for a plan that runs all the way to your exam and adapts to your results every week.'
+                : 'Tasks are planned up to ${untilLabel.isEmpty ? 'your third study day' : untilLabel}. '
+                    'Pro plans run to your exam and adapt every week.',
+            style: TextStyle(fontSize: 13, height: 1.4, color: t.textSoft),
+          ),
+          PrimaryButton(
+            label: 'See Pro plans',
+            height: 46,
+            onTap: () => context.push(Routes.plans),
+          ),
+        ],
+      ),
+    );
+  }
+}

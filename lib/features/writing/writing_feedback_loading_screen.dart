@@ -6,16 +6,19 @@ import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
+import '../../app/services/ai_service.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import 'widgets.dart';
 import 'writing_data.dart';
 
 /// C12 · Writing AI Feedback Loading. Scores the pending essay
-/// (`args['essay']` / [WritingService.pending]) with the AI - or the local
-/// demo scorer as a fallback - while walking through the four criteria, then
-/// replaces itself with the band report of the new attempt. With
+/// (`args['essay']` / [WritingService.pending]) with the AI while walking
+/// through the four criteria, then replaces itself with the band report of
+/// the new attempt. If it can't be scored (offline, free allowance used, AI
+/// error) it says so - no made-up score - and keeps the essay. With
 /// `args['attemptId']` it just animates and opens that report.
 class WritingFeedbackLoadingScreen extends StatefulWidget {
   const WritingFeedbackLoadingScreen({super.key});
@@ -68,6 +71,9 @@ class _WritingFeedbackLoadingScreenState
     _timer = Timer.periodic(Duration(milliseconds: ms), (_) => _tick());
   }
 
+  /// Why the essay couldn't be scored (shown instead of a report).
+  ScoringFailed? _failure;
+
   Future<void> _score(Map<String, dynamic> essay) async {
     Attempt a;
     try {
@@ -76,16 +82,53 @@ class _WritingFeedbackLoadingScreenState
         text: essay.s('text').trim(),
         elapsedSec: essay.i('elapsedSec'),
       );
+    } on ScoringFailed catch (e) {
+      _fail(e);
+      return;
     } catch (_) {
-      a = WritingService.submit(
-        prompt: essay.m('prompt'),
-        text: essay.s('text').trim(),
-        elapsedSec: essay.i('elapsedSec'),
-      );
+      _fail(AiService.failure('We couldn’t score your essay right now. Please try again.'));
+      return;
     }
     if (!mounted) return;
     setState(() => _resultId = a.id);
     _maybeFinish();
+  }
+
+  void _fail(ScoringFailed e) {
+    if (!mounted) return;
+    _timer?.cancel();
+    _finish?.cancel();
+    setState(() => _failure = e);
+  }
+
+  void _retry() {
+    final essay = _essay;
+    if (essay == null) return;
+    setState(() {
+      _failure = null;
+      _done = 0;
+    });
+    _watch
+      ..reset()
+      ..start();
+    final ms = _data.i('stepMillis') <= 0 ? 1400 : _data.i('stepMillis');
+    _timer = Timer.periodic(Duration(milliseconds: ms), (_) => _tick());
+    _score(essay);
+  }
+
+  /// Back to the editor with the essay in it (nothing is lost).
+  void _backToEditor() {
+    final essay = _essay;
+    if (essay == null) {
+      context.back();
+      return;
+    }
+    final prompt = essay.m('prompt');
+    WritingDrafts.save(prompt.i('task') == 1 ? 1 : 2, prompt.s('id'), essay.s('text'), essay.i('elapsedSec'));
+    context.replace(
+      prompt.i('task') == 1 ? Routes.writingTask1Editor : Routes.writingEditor,
+      args: <String, dynamic>{'promptId': prompt.s('id'), 'text': essay.s('text')},
+    );
   }
 
   /// Steps advance on the timer; the last one completes only once the
@@ -154,6 +197,38 @@ class _WritingFeedbackLoadingScreenState
       meta = '$meta · Task $task · ${essayWords(essay.s('text'))} words';
     } else if (a != null) {
       meta = '$meta · Task ${WritingService.taskOf(a)} · ${a.data.i('words')} words';
+    }
+
+    final failure = _failure;
+    if (failure != null) {
+      return AppScreen(
+        fill: true,
+        padding: const EdgeInsets.fromLTRB(24, 8, 24, 32),
+        gap: 16,
+        children: [
+          Row(
+            children: [
+              IconBox(
+                icon: AppIcons.close,
+                size: 56,
+                radius: 20,
+                iconSize: 22,
+                tooltip: 'Close',
+                onTap: () => context.back(),
+              ),
+            ],
+          ),
+          const Spacer(),
+          ScoringFailedPanel(
+            failure: failure,
+            onRetry: _retry,
+            backLabel: 'Back to my essay',
+            onBack: _backToEditor,
+            note: 'Your essay is saved as a draft.',
+          ),
+          const Spacer(),
+        ],
+      );
     }
 
     return AppScreen(

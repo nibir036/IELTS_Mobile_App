@@ -17,7 +17,7 @@ Settings to fill in `server\.env` (see `.env.example`):
 |---|---|
 | `SMS_PROVIDER=alpha` + `ALPHA_SMS_API_KEY` | Real OTP SMS. With `console` the code is printed in the server window and returned to the app as `devCode`. |
 | `GEMINI_API_KEY` | Writing grading + rewrite with Gemini (`GEMINI_WRITING_MODEL`, default `gemini-3.6-flash`) — same examiner prompt as the website |
-| `PLAN_AI`, `GEMINI_PLAN_MODEL` | Study plan AI (weekly note + why-lines per task, uses the Gemini key): `all` (default), `pro` (paid only) or `off` (rules only). Optional separate model; empty = the writing model |
+| `PLAN_AI`, `GEMINI_PLAN_MODEL` | Study plan AI (weekly note + why-lines per task, uses the Gemini key): `pro` (default and recommended: Pro only; free plans never get AI) or `off` (rules only). Optional separate model; empty = the writing model |
 | `PLAN_HOURS_PER_HALF_BAND` | Study plan estimate: hours of study per half band with all four modules (default 50) |
 | `OPENROUTER_API_KEY` | Speaking-partner chat; writing grading only when no Gemini key is set (or `WRITING_PROVIDER=openrouter`) |
 | `SPEAKING_API_BASE_URL`, `SPEAKING_API_KEY` | The NextED_IELTS_Speaking service (Groq Whisper + RunPod + Groq LLM, same as the website); the key = its `INTERNAL_API_KEY` |
@@ -38,8 +38,16 @@ Settings to fill in `server\.env` (see `.env.example`):
 | Files | `PUT /v1/uploads?kind=recording\|voice\|photo&ext=` · `GET /v1/uploads/<key>` (signed URL) · `/v1/recordings` · `/v1/rooms[/:id/messages]` |
 | Public | `GET /v1/config` · `GET /v1/legal/:id` · `GET /health` |
 
-Errors: `{error, code}` with codes such as `unauthorized`, `quota_reached`
-(free plan: 4 AI-graded writing and 4 speaking tests), `rate_limited`, `ai_busy`.
+Errors: `{error, code}` with codes such as `unauthorized`, `upgrade_required`
+(HTTP 402, with `feature`: a free-plan allowance is used up), `password_change_too_soon`
+(HTTP 429), `rate_limited`, `ai_busy`.
+
+Free plan (lifetime, per account; `src/lib/entitlements.ts`, shown to the app by
+`GET /v1/me/usage`): 1 Writing Task 1, 1 Writing Task 2, 1 Writing Test, 1 each of
+Speaking Part 1 / 2 / 3, 1 Speaking Test, 1 Full Mock Test, the onboarding level test
+once, 5 pronunciation checks, 1 Band 8 rewrite; a 3-day rules-only study plan (no AI
+notes, no weekly re-planning, no quick check). Pro has no limits. Passwords can't be
+reset or changed again within 48 hours of the last change or of registering.
 
 ## First-time setup (Windows)
 

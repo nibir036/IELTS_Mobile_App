@@ -8,12 +8,14 @@ import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/services/ai_service.dart';
+import '../../app/services/entitlements.dart';
 import '../../app/services/audio_clip.dart';
 import '../../app/services/tts.dart';
 import '../../app/services/voice_recorder.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import 'widgets.dart';
 
 /// D7 · Pronunciation & intonation trainer. Hold to record uses the real mic
@@ -130,8 +132,6 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
   final VoiceRecorder _rec = VoiceRecorder();
   final AudioClip _clip = AudioClip();
 
-  /// True after "Practise without recording" (no mic) - simulated scoring.
-  bool _simulated = false;
   bool _recStarting = false;
   bool _recActive = false;
   bool _scoring = false;
@@ -222,14 +222,13 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
   /// Per-user tries: wordId → scores (oldest first).
   List<double> _scoresFor(String wordId) => _pronTries(Store.I, wordId);
 
-  void _recordTry({double? aiScore, Map<String, dynamic>? word}) {
+  /// Saves a real AI score (0..1) for the word. Only AI scores are kept.
+  void _recordTry({required double aiScore, Map<String, dynamic>? word}) {
     final w = word ?? _word;
     final id = w.s('id');
     if (id.isEmpty) return;
     final tries = _scoresFor(id);
-    // Demo scoring: first try gets the diagnostic match, later tries the
-    // improved one. A real AI score (0..1) wins when present.
-    final score = aiScore ?? (tries.isEmpty ? w.d('match') : w.d('retryMatch'));
+    final score = aiScore;
     final raw = Store.I.kv<Map>(kPronScoresKey);
     final all = raw == null ? <String, dynamic>{} : Map<String, dynamic>.from(raw);
     all[id] = <double>[...tries, score];
@@ -340,6 +339,11 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
 
   Future<void> _startHold() async {
     if (_scoring || _recStarting || _recActive) return;
+    // Free plan: 5 scored words.
+    if (Entitlements.I.pronunciationUsedUp) {
+      await showUpgradeSheet(context, feature: 'pronunciation');
+      return;
+    }
     _playTimer?.cancel();
     if (_playing == 'you') _clip.pause();
     setState(() {
@@ -347,16 +351,14 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
       _live.clear();
       _playing = null;
     });
-    if (_simulated) return;
     _recStarting = true;
     final ok = await _rec.start();
     _recStarting = false;
     if (!mounted) return;
     if (!ok) {
       setState(() => _holding = false);
-      final practise = await showMicOffDialog(context);
-      if (!mounted) return;
-      if (practise) setState(() => _simulated = true);
+      // No microphone, no score (nothing is made up).
+      await showMicOffDialog(context);
       return;
     }
     _recActive = true;
@@ -367,15 +369,6 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
   void _endHold() {
     if (!_holding) return;
     setState(() => _holding = false);
-    if (_simulated) {
-      _recTimer?.cancel();
-      _recTimer = Timer(const Duration(milliseconds: 700), () {
-        if (!mounted) return;
-        _recordTry();
-        context.toast('Attempt scored');
-      });
-      return;
-    }
     if (_recStarting) return;
     if (_recActive) _finishRealTry();
   }
@@ -391,12 +384,11 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     final bytes = r?.bytes;
     if (r == null || bytes == null || r.durationMs < 250) {
       setState(() => _scoring = false);
-      if (r != null && r.durationMs < 250) {
-        context.toast('Hold the button while you say the word');
-        return;
-      }
-      _recordTry(word: w);
-      context.toast('Attempt scored');
+      context.toast(
+        r != null && r.durationMs < 250
+            ? 'Hold the button while you say the word'
+            : 'We couldn’t record that. Try again.',
+      );
       return;
     }
     _myAudio[id] = r.path;
@@ -406,11 +398,15 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     if (!mounted) return;
     setState(() => _scoring = false);
     if (res == null || res['score'] is! num) {
-      _ai.remove(id);
-      _recordTry(word: w);
-      context.toast('Attempt saved · estimated offline');
+      // Not scored: say why (no made-up score).
+      if (AiService.upgradeNeeded) {
+        await showUpgradeSheet(context, feature: 'pronunciation');
+      } else {
+        context.toast(AiService.failure('We couldn’t score that word. Try again.').message);
+      }
       return;
     }
+    unawaited(Entitlements.I.refresh());
     final score = ((res['score'] as num).toDouble() / 100).clamp(0.0, 1.0).toDouble();
     _ai[id] = <String, dynamic>{'tip': res.s('tip'), 'heard': res.s('heard'), 'phonemes': res.l('phonemes')};
     _recordTry(aiScore: score, word: w);
@@ -482,7 +478,6 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     final w = _word;
     final tries = _pronTries(context.store, w.s('id'));
     final tried = tries.isNotEmpty;
-    final retried = tries.length > 1;
     final match = tried ? tries.last : 0.0;
     final ai = _ai[w.s('id')];
     final aiTip = ai == null ? '' : ai.s('tip');
@@ -490,12 +485,7 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     final sounds = ai == null ? <Map<String, dynamic>>[] : ai.l('phonemes');
     final tip = !tried
         ? 'Hold the button, say the word, then release to compare.'
-        : (aiTip.isNotEmpty ? aiTip : (retried ? w.s('retryTip') : w.s('tip')));
-    final demoMarks = tried && !retried && ai == null;
-    final errorBars = w.ld('errorBars');
-    final errFrom = errorBars.isNotEmpty ? errorBars.first.round() : -1;
-    final errTo = errorBars.length > 1 ? errorBars[1].round() : errFrom;
-    final errorText = t.isNight ? t.dangerText : t.alert;
+        : (aiTip.isNotEmpty ? aiTip : w.s('tip'));
 
     return AppScreen(
       fill: true,
@@ -582,10 +572,10 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
               runSpacing: 6,
               children: [
                 for (final syl in w.l('syllables'))
-                  // The sample's "error" syllable is only meaningful for the
-                  // simulated first try; a real try is shown sound by sound.
+                  // A real try is shown sound by sound (the sample's "error"
+                  // syllable was for the old simulated try).
                   _Syllable(
-                    syllable: syl.s('state') == 'error' && !demoMarks
+                    syllable: syl.s('state') == 'error'
                         ? <String, dynamic>{...syl, 'state': 'normal'}
                         : syl,
                   ),
@@ -597,8 +587,6 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                 runSpacing: 6,
                 children: [for (final p in sounds) _SoundChip(sound: p)],
               ),
-            if (demoMarks)
-              Text(w.s('feedback'), style: TextStyle(fontSize: 13, color: errorText)),
             if (heard.isNotEmpty)
               Text(
                 'We heard “$heard”',
@@ -667,12 +655,10 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                       heights: _holding && _live.isNotEmpty
                           ? <double>[..._live, ...List<double>.filled(_barCount - _live.length, 2)]
                           : _myWave[w.s('id')] ??
-                              (tried && ai == null
-                                  ? _data.ld('userWave')
-                                  : List<double>.filled(_barCount, 2)),
+                              List<double>.filled(_barCount, 2),
                       color: t.isNight ? const Color(0xFFBDBDBD) : t.text,
-                      highlightFrom: demoMarks ? errFrom : -1,
-                      highlightTo: demoMarks ? errTo : -1,
+                      highlightFrom: -1,
+                      highlightTo: -1,
                       highlightColor: t.alert,
                       progress: _playing == 'you' ? _playProgress : null,
                     ),

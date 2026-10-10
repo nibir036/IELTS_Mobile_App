@@ -131,7 +131,32 @@ class MockSession {
     writing.clear();
     speakingSec.clear();
     recordings.clear();
+    _writingResults.clear();
+    _speakingResult = null;
+    _aiWriting = null;
   }
+
+  /// AI results already in for this session, so "Try again" only re-scores
+  /// what failed (and a free account isn't charged twice).
+  static final Map<int, Map<String, dynamic>> _writingResults = <int, Map<String, dynamic>>{};
+  static Map<String, dynamic>? _speakingResult;
+
+  /// A section the AI couldn't score (no made-up band is ever used).
+  static Map<String, dynamic> _failed(ScoringFailed f) => <String, dynamic>{
+        'source': 'failed',
+        'error': f.message,
+        'code': f.code,
+        'feature': f.feature,
+      };
+
+  /// A task / section left empty: band 0, as in the real test.
+  static Map<String, dynamic> _blank(List<String> keys) => <String, dynamic>{
+        'band': 0.0,
+        for (final k in keys) k: 0.0,
+        'words': 0,
+        'summary': '',
+        'source': 'blank',
+      };
 
   /// Starts a fresh mock on [id] (or the default test).
   static void start([String? id]) {
@@ -246,12 +271,6 @@ class MockSession {
     ];
   }
 
-  /// Expected speaking seconds across Parts 1–3 (config).
-  static int get _expectedSpeakingSec {
-    final e = mockContent.m('speaking').i('expectedSeconds');
-    return e > 0 ? e : 660;
-  }
-
   /// The AI evaluation of both writing tasks, shared by the two
   /// [scoreWriting] calls (one request, one AI-graded attempt).
   static Future<Map<String, dynamic>?>? _aiWriting;
@@ -284,14 +303,15 @@ class MockSession {
     );
   }
 
-  /// Writing task [task] (1 | 2): AI evaluation, falling back to the demo
-  /// scorer. → {band, TA, CC, LR, GRA, words, summary, strengths, feedback,
+  /// Writing task [task] (1 | 2): AI evaluation. An empty task scores 0;
+  /// when the AI can't score it the result has source 'failed' (no made-up
+  /// band). → {band, TA, CC, LR, GRA, words, summary, strengths, feedback,
   ///    issues, source}
   static Future<Map<String, dynamic>> scoreWriting(int task) async {
     final text = writing[task - 1] ?? '';
-    final demo = Scoring.writing(text, task: task);
-    final fallback = <String, dynamic>{...demo, 'summary': '', 'source': 'demo'};
-    if (text.trim().isEmpty) return fallback;
+    if (text.trim().isEmpty) return _blank(_writingKeys);
+    final done = _writingResults[task];
+    if (done != null) return done;
     Map<String, dynamic>? both;
     try {
       both = await (_aiWriting ??= _evaluateWritingTest());
@@ -299,19 +319,24 @@ class MockSession {
       both = null;
     }
     final r = both?['task$task'] is Map ? (both!['task$task'] as Map).cast<String, dynamic>() : null;
-    if (r == null || r['band'] is! num) return fallback;
+    if (r == null || r['band'] is! num) {
+      _aiWriting = null; // try again next time
+      return _failed(AiService.failure('We couldn’t score your writing right now.'));
+    }
     final band = Store.roundBand(r.d('band'));
     final crit = r.m('criteria');
-    return <String, dynamic>{
+    final result = <String, dynamic>{
       'band': band,
       for (final k in _writingKeys) k: _critBand(crit, k, band),
-      'words': r['words'] is num ? r.i('words') : demo.i('words'),
+      'words': r['words'] is num ? r.i('words') : text.trim().split(RegExp(r'\s+')).length,
       'summary': r.s('summary'),
       'strengths': _texts(r['strengths']),
       'feedback': _texts(r['feedback']),
       'issues': r.l('issues'),
       'source': 'ai',
     };
+    _writingResults[task] = result;
+    return result;
   }
 
   /// Speaking question text per part, for the evaluator.
@@ -329,17 +354,15 @@ class MockSession {
   }
 
   /// Speaking: the speaking service scores one recording per part (Groq
-  /// Whisper transcripts, pronunciation, one band across Parts 1–3); falls
-  /// back to the demo scorer (spoken seconds).
+  /// Whisper transcripts, pronunciation, one band across Parts 1–3). No
+  /// recordings scores 0; when the AI can't score it the result has source
+  /// 'failed' (no made-up band).
   /// → {band, FC, LR, GRA, P, summary, feedback, errors,
   ///    transcripts{part: text}, keys{part: r2Key}, source}
   static Future<Map<String, dynamic>> scoreSpeaking() async {
+    final done = _speakingResult;
+    if (done != null) return done;
     final spoken = speakingSec.values.fold<int>(0, (s, v) => s + v);
-    final demo = Scoring.speaking(
-      spoken,
-      expectedSec: _expectedSpeakingSec,
-      seed: nextNumber,
-    );
 
     final entries = recordings.entries
         .where((e) => e.value.bytes != null && e.value.bytes!.isNotEmpty)
@@ -382,18 +405,13 @@ class MockSession {
       }
     }
 
+    if (entries.isEmpty) return <String, dynamic>{..._blank(_speakingKeys), 'transcripts': transcripts, 'keys': keys};
     if (r == null || r['band'] is! num) {
-      return <String, dynamic>{
-        ...demo,
-        'summary': '',
-        'transcripts': transcripts,
-        'keys': keys,
-        'source': 'demo',
-      };
+      return _failed(AiService.failure('We couldn’t score your speaking right now.'));
     }
     final band = Store.roundBand(r.d('band'));
     final crit = r.m('criteria');
-    return <String, dynamic>{
+    final result = <String, dynamic>{
       'band': band,
       for (final k in _speakingKeys) k: _critBand(crit, k, band),
       'summary': r.s('summary'),
@@ -403,6 +421,8 @@ class MockSession {
       'keys': keys,
       'source': 'ai',
     };
+    _speakingResult = result;
+    return result;
   }
 
   /// Records the mock [Attempt] from the section results and ends the
@@ -422,7 +442,7 @@ class MockSession {
     final wCrit = <String, dynamic>{
       for (final k in _writingKeys) k: Store.roundBand((w1.d(k) + 2 * w2.d(k)) / 3),
     };
-    final wSource = w1.s('source') == 'ai' && w2.s('source') == 'ai' ? 'ai' : 'demo';
+    final wSource = w1.s('source') == 'ai' || w2.s('source') == 'ai' ? 'ai' : 'blank';
     final wSummary = <String>[
       if (w1.s('summary').trim().isNotEmpty) 'Task 1 · ${w1.s('summary').trim()}',
       if (w2.s('summary').trim().isNotEmpty) 'Task 2 · ${w2.s('summary').trim()}',
@@ -466,7 +486,7 @@ class MockSession {
         },
         'source': <String, dynamic>{
           'writing': wSource,
-          'speaking': sp.s('source') == 'ai' ? 'ai' : 'demo',
+          'speaking': sp.s('source') == 'ai' ? 'ai' : 'blank',
         },
         'overall': overall,
         'average': average,
@@ -536,23 +556,6 @@ class MockSession {
     return store.addAttempt(a, notify: false);
   }
 
-  /// Records the session with the offline demo scorer only (used if the
-  /// async scoring fails unexpectedly).
-  static Attempt finishOffline() {
-    Map<String, dynamic> w(int task) => <String, dynamic>{
-          ...Scoring.writing(writing[task - 1] ?? '', task: task),
-          'summary': '',
-          'source': 'demo',
-        };
-    final spoken = speakingSec.values.fold<int>(0, (s, v) => s + v);
-    final sp = <String, dynamic>{
-      ...Scoring.speaking(spoken, expectedSec: _expectedSpeakingSec, seed: nextNumber),
-      'summary': '',
-      'source': 'demo',
-    };
-    return record(objective: scoreObjective(), w1: w(1), w2: w(2), sp: sp);
-  }
-
   static Future<Attempt>? _pending;
 
   /// Scores the whole session (writing tasks in parallel, then speaking) and
@@ -576,7 +579,6 @@ class MockSession {
   }
 
   static Future<Attempt> _finish(void Function(int step, Map<String, dynamic> result)? onStep) async {
-    _aiWriting = null;
     final objective = scoreObjective();
     final writingF = Future.wait<Map<String, dynamic>>(<Future<Map<String, dynamic>>>[
       scoreWriting(1).then((r) {
@@ -594,6 +596,13 @@ class MockSession {
     });
     final w = await writingF;
     final sp = await speakingF;
+    // Any section the AI couldn't score: no made-up band - the scoring screen
+    // offers "Try again" (sections already scored are kept).
+    for (final r in <Map<String, dynamic>>[w[0], w[1], sp]) {
+      if (r.s('source') == 'failed') {
+        throw ScoringFailed(r.s('error'), code: r.s('code'), feature: r.s('feature'));
+      }
+    }
     return record(objective: objective, w1: w[0], w2: w[1], sp: sp);
   }
 }

@@ -10,6 +10,8 @@ import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
+import 'speaking_ai.dart';
 import 'widgets.dart';
 
 /// D3 · Part 2 cue card with the 1-minute preparation countdown.
@@ -37,6 +39,15 @@ class _CueCardScreenState extends State<CueCardScreen> {
     if (_card != null) return;
     final card = findCueCard(cueCardArg(context));
     _card = card;
+    // Free plan: say so before the prep minute, not after recording.
+    final blocked = speakingBlockedFor(part: 2, refId: card.s('id'));
+    if (blocked != null) {
+      WidgetsBinding.instance.addPostFrameCallback((_) async {
+        if (!mounted) return;
+        await showUpgradeSheet(context, feature: blocked);
+        if (mounted) context.back();
+      });
+    }
     final prep = speakingData().m('recording').i('prepSeconds');
     _prepTotal = prep > 0 ? prep : 60;
     _left = _prepTotal;

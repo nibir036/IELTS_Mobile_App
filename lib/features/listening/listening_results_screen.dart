@@ -243,7 +243,9 @@ class ListeningResultsScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              Column(
+              ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 150),
+                child: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 mainAxisSize: MainAxisSize.min,
                 spacing: 6,
@@ -258,6 +260,8 @@ class ListeningResultsScreen extends StatelessWidget {
                     ),
                     child: Text(
                       'Est. band ${Store.formatBand(a.band)}',
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
                         fontSize: 12,
                         fontWeight: FontWeight.w600,
@@ -267,9 +271,11 @@ class ListeningResultsScreen extends StatelessWidget {
                   ),
                   Text(
                     'Time $time · best $best/$total',
+                    textAlign: TextAlign.end,
                     style: TextStyle(fontSize: 12, color: t.heroMuted),
                   ),
                 ],
+                ),
               ),
             ],
           ),

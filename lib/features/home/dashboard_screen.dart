@@ -64,7 +64,16 @@ class DashboardScreen extends StatelessWidget {
     return Row(
       spacing: 12,
       children: [
-        UserAvatar(size: 48),
+        // Same as the Profile tab in the nav bar.
+        Semantics(
+          button: true,
+          label: 'Profile and settings',
+          child: GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onTap: () => MainShell.of(context)?.select(4),
+            child: UserAvatar(size: 48),
+          ),
+        ),
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -280,8 +289,15 @@ class DashboardScreen extends StatelessWidget {
         children: [
           Row(
             children: [
-              const Tag('Word of the day', tone: TagTone.primary),
-              const Spacer(),
+              const Expanded(
+                child: Align(
+                  alignment: Alignment.centerLeft,
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: Tag('Word of the day', tone: TagTone.primary),
+                  ),
+                ),
+              ),
               SpeakButton(
                 text: w.s('word'),
                 size: 36,

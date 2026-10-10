@@ -1,9 +1,6 @@
 import 'package:flutter/widgets.dart';
 
 import '../../app/routes.dart';
-import 'diagnostic_result_screen.dart';
-import 'diagnostic_screen.dart';
-import 'diagnostic_test_screen.dart';
 import 'legal_screen.dart';
 import 'login_screen.dart';
 import 'mic_permission_screen.dart';
@@ -21,9 +18,6 @@ final Map<String, WidgetBuilder> accessRoutes = <String, WidgetBuilder>{
   Routes.otp: (_) => const OtpScreen(),
   Routes.resetPassword: (_) => const ResetPasswordScreen(),
   Routes.targetBand: (_) => const TargetBandScreen(),
-  Routes.diagnostic: (_) => const DiagnosticScreen(),
   Routes.micPermission: (_) => const MicPermissionScreen(),
   Routes.legal: (_) => const LegalScreen(),
-  Routes.diagnosticTest: (_) => const DiagnosticTestScreen(),
-  Routes.diagnosticResult: (_) => const DiagnosticResultScreen(),
 };

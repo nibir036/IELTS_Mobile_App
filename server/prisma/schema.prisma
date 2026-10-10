@@ -602,6 +602,9 @@ model User {
   /// feedbackLanguage, photo (R2 key), onboarded …
   profile         Json      @default("{}")
   phoneVerifiedAt DateTime? @map("phone_verified_at") @db.Timestamptz(3)
+  /// Last password set (registration, reset or change). A new reset or
+  /// change is refused for 48 hours after it (saves OTP SMS).
+  passwordChangedAt DateTime? @map("password_changed_at") @db.Timestamptz(3)
   createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
   updatedAt       DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
 
@@ -615,6 +618,7 @@ model User {
   roomMessages  RoomMessage[]
   rooms         Room[]
   subscriptions Subscription[]
+  usageEvents   UsageEvent[]
 
   @@map("users")
 }
@@ -786,6 +790,22 @@ model UserState {
 }
 
 /// Speaking recording stored in R2.
+/// Free-plan allowance used by features that don't leave an attempt
+/// (pronunciation trainer words, writing rewrites). See lib/entitlements.ts.
+model UsageEvent {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  /// pronunciation | rewrite
+  feature   String
+  ref       String?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, feature])
+  @@map("usage_events")
+}
+
 model Recording {
   id         String   @id @default(cuid())
   userId     String   @map("user_id")

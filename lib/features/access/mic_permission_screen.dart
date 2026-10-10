@@ -26,7 +26,7 @@ class MicPermissionScreen extends StatelessWidget {
     }
   }
 
-  /// Home, or the screen passed as `args['next']` (A7 → the diagnostic).
+  /// Home, or the screen passed as `args['next']`.
   static void _finish(BuildContext context, bool allowed) {
     final next = context.routeArgs['next'];
     Store.I.updateProfile(<String, dynamic>{

@@ -8,10 +8,12 @@ import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/services/audio_clip.dart';
+import '../../app/services/entitlements.dart';
 import '../../app/services/voice_recorder.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
 
@@ -107,6 +109,14 @@ class _MockSystemCheckScreenState extends State<MockSystemCheckScreen> {
     super.didChangeDependencies();
     if (_argsRead) return;
     _argsRead = true;
+    // Free plan: one Full Mock Test.
+    if (Entitlements.I.mockUsedUp) {
+      WidgetsBinding.instance.addPostFrameCallback((_) async {
+        if (!mounted) return;
+        await showUpgradeSheet(context, feature: 'mock');
+        if (mounted) context.back();
+      });
+    }
     final args = context.routeArgs;
     final arg = args['mockId'] ?? args['testId'];
     _mockId = arg is String && Content.mockTest(arg).isNotEmpty ? arg : mockDefaultId();

@@ -6,14 +6,18 @@ import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
+import '../../app/services/ai_service.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
+import '../writing/editor_common.dart' show ConfirmDialog;
 import 'mock_session.dart';
 import 'widgets.dart';
 
 /// G8 · Mock - Scoring in Progress. Steps tick through, then the screen
-/// replaces itself with the results (G9).
+/// replaces itself with the results (G9). A section the AI can't score is
+/// never given a made-up band: the screen says why and offers "Try again".
 class MockScoringScreen extends StatefulWidget {
   const MockScoringScreen({super.key});
 
@@ -81,20 +85,27 @@ class _MockScoringScreenState extends State<MockScoringScreen> {
     return _results.containsKey(i) || _attempt != null;
   }
 
+  /// Why a section couldn't be scored (shown instead of made-up bands).
+  ScoringFailed? _failure;
+
   Future<void> _score() async {
     if (!MockSession.active) return;
-    Attempt? a;
+    final Attempt a;
     try {
       a = await MockSession.finishAsync(
         onStep: (int step, Map<String, dynamic> result) {
+          if (result.s('source') == 'failed') return;
           _results[step] = result;
           if (mounted) setState(() {});
         },
       );
+    } on ScoringFailed catch (e) {
+      if (mounted) setState(() => _failure = e);
+      return;
     } catch (_) {
-      a = MockSession.active ? MockSession.finishOffline() : null;
+      if (mounted) setState(() => _failure = AiService.failure('We couldn’t score your mock right now.'));
+      return;
     }
-    if (a == null) return;
     _attempt = a;
     if (!mounted) {
       // The student left G8 while scoring: still tell them when it's ready.
@@ -174,8 +185,47 @@ class _MockScoringScreenState extends State<MockScoringScreen> {
     );
   }
 
+  Future<void> _exitUnscored() async {
+    final ok = await showAppDialog<bool>(
+      context,
+      const ConfirmDialog(
+        title: 'Leave without scores?',
+        message: 'This mock hasn’t been scored, so your answers will not be saved.',
+        confirmLabel: 'Leave',
+        cancelLabel: 'Stay',
+      ),
+    );
+    if (ok != true || !mounted) return;
+    MockSession.discard();
+    context.back();
+  }
+
+  Widget _failed(BuildContext context, ScoringFailed failure) {
+    return AppScreen(
+      fill: true,
+      padding: const EdgeInsets.fromLTRB(24, 12, 24, 24),
+      gap: 16,
+      children: [
+        const Spacer(),
+        ScoringFailedPanel(
+          failure: failure,
+          onRetry: () {
+            setState(() => _failure = null);
+            _score();
+          },
+          backLabel: 'Leave without scores',
+          onBack: _exitUnscored,
+          note: failure.upgrade ? null : 'Your answers are kept on this phone until you leave.',
+        ),
+        const Spacer(),
+      ],
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    final failure = _failure;
+    if (failure != null) return _failed(context, failure);
     if (_noSession && _attempt == null) return _empty(context);
     final t = context.tk;
     final tiles = _data.l('provisional');

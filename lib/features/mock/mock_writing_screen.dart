@@ -9,6 +9,7 @@ import '../../app/services/media.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/zoom_image.dart';
 import 'mock_chart.dart';
 import 'mock_exit_warning_screen.dart';
 import 'mock_session.dart';
@@ -143,14 +144,15 @@ class _MockWritingScreenState extends State<MockWritingScreen> {
                     builder: (context, box) {
                       // The prompt scroll area gives up height before the
                       // editor does (250 on a normal phone).
-                      final promptMax =
-                          (box.maxHeight - 200).clamp(60.0, 250.0).toDouble();
+                      // While typing the question stays (smaller, scrollable).
+                      final promptMax = typing
+                          ? (box.maxHeight * 0.3).clamp(48.0, 170.0).toDouble()
+                          : (box.maxHeight - 200).clamp(60.0, 250.0).toDouble();
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         spacing: 10,
                         children: [
-                          if (!typing)
-                            AppCard(
+                          AppCard(
                           radius: 24,
                           padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
                           child: Column(
@@ -160,6 +162,7 @@ class _MockWritingScreenState extends State<MockWritingScreen> {
                               ConstrainedBox(
                                 constraints: BoxConstraints(maxHeight: promptMax),
                                 child: SingleChildScrollView(
+                                  keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.manual,
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.stretch,
                                     spacing: 10,
@@ -171,14 +174,39 @@ class _MockWritingScreenState extends State<MockWritingScreen> {
                                       if (_task == 0 && task.m('chart').isNotEmpty && _showChart)
                                         MockTask1Chart(type: task.s('type'), chart: task.m('chart'))
                                       else if (_task == 0 && task.s('image').isNotEmpty && _showChart)
-                                        ClipRRect(
-                                          borderRadius: BorderRadius.circular(12),
-                                          child: InteractiveViewer(
-                                            maxScale: 4,
-                                            child: MediaImage(
-                                              task.s('image'),
-                                              fit: BoxFit.contain,
-                                              errorBuilder: (_, _, _) => const SizedBox.shrink(),
+                                        Semantics(
+                                          image: true,
+                                          label: 'Task 1 picture. Tap or pinch to enlarge.',
+                                          child: PinchToZoomImage(
+                                            image: task.s('image'),
+                                            title: 'Writing Task 1',
+                                            child: Stack(
+                                              children: [
+                                                ClipRRect(
+                                                  borderRadius: BorderRadius.circular(12),
+                                                  child: Container(
+                                                    color: Colors.white,
+                                                    width: double.infinity,
+                                                    child: MediaImage(
+                                                      task.s('image'),
+                                                      fit: BoxFit.contain,
+                                                      errorBuilder: (_, _, _) => const SizedBox.shrink(),
+                                                    ),
+                                                  ),
+                                                ),
+                                                Positioned(
+                                                  right: 6,
+                                                  bottom: 6,
+                                                  child: Container(
+                                                    padding: const EdgeInsets.all(5),
+                                                    decoration: BoxDecoration(
+                                                      color: t.surface.withValues(alpha: 0.9),
+                                                      borderRadius: BorderRadius.circular(8),
+                                                    ),
+                                                    child: Icon(AppIcons.zoomIn, size: 16, color: t.textMuted),
+                                                  ),
+                                                ),
+                                              ],
                                             ),
                                           ),
                                         ),

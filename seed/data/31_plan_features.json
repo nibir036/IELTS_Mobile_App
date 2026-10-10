@@ -4,37 +4,61 @@
     {
       "id": "mockTests",
       "label": "Full mock tests",
-      "free": "1 / month",
+      "free": "1",
       "pro": "Unlimited"
     },
     {
-      "id": "writingFeedback",
-      "label": "AI writing feedback",
-      "free": "3 / month",
+      "id": "writingPractice",
+      "label": "Writing practice with AI feedback",
+      "free": "1 Task 1 + 1 Task 2",
       "pro": "Unlimited"
     },
     {
-      "id": "speakingEvaluations",
-      "label": "AI speaking evaluations",
-      "free": "3 / month",
+      "id": "writingTests",
+      "label": "Full writing tests",
+      "free": "1",
+      "pro": "Unlimited"
+    },
+    {
+      "id": "speakingPractice",
+      "label": "Speaking practice with AI feedback",
+      "free": "1 per part",
+      "pro": "Unlimited"
+    },
+    {
+      "id": "speakingTests",
+      "label": "Full speaking tests",
+      "free": "1",
       "pro": "Unlimited"
     },
     {
       "id": "pronunciation",
-      "label": "Pronunciation scoring",
+      "label": "Pronunciation checks",
+      "free": "5",
+      "pro": "Unlimited"
+    },
+    {
+      "id": "rewrite",
+      "label": "Band 8 rewrites",
+      "free": "1",
+      "pro": "Unlimited"
+    },
+    {
+      "id": "studyPlan",
+      "label": "Study plan",
+      "free": "3 days",
+      "pro": "Adapts every week"
+    },
+    {
+      "id": "quickCheck",
+      "label": "Quick check to sharpen your plan",
       "free": "no",
       "pro": "yes"
     },
     {
-      "id": "library",
-      "label": "Full content library",
-      "free": "Starter set",
-      "pro": "yes"
-    },
-    {
-      "id": "analytics",
-      "label": "Detailed analytics",
-      "free": "Basic",
+      "id": "readingListening",
+      "label": "Reading and listening tests",
+      "free": "yes",
       "pro": "yes"
     },
     {

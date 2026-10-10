@@ -1,9 +1,11 @@
+import 'dart:async';
 import 'dart:math' as math;
 
 import '../../app/data/content.dart';
 import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/services/ai_service.dart';
+import '../../app/services/entitlements.dart';
 
 // ═════════════════════════════════════════════════════════════════════════════
 // Writing section data layer.
@@ -899,60 +901,23 @@ class WritingService {
     return a.kind == 'task1' ? 1 : 2;
   }
 
-  /// Scores [text], stores the attempt, clears the task's draft.
-  static Attempt submit({
-    required Map<String, dynamic> prompt,
-    required String text,
-    required int elapsedSec,
-  }) {
-    final task = prompt.i('task') == 1 ? 1 : 2;
-    final r = Scoring.writing(text, task: task);
-    final issues = EssayAnalysis.issues(text);
-    final strengths = EssayAnalysis.strengths(text, issues);
-    final a = Attempt(
-      id: Store.newId('att'),
-      skill: Skill.writing,
-      kind: 'task$task',
-      title: prompt.s('shortTitle'),
-      refId: prompt.s('id'),
-      band: (r['band'] as num).toDouble(),
-      durationSec: math.max(60, elapsedSec),
-      createdAt: DateTime.now(),
-      data: <String, dynamic>{
-        'text': text,
-        'prompt': prompt.s('prompt'),
-        'promptId': prompt.s('id'),
-        'task': task,
-        'criteria': <String, dynamic>{
-          'TA': r['TA'],
-          'CC': r['CC'],
-          'LR': r['LR'],
-          'GRA': r['GRA'],
-        },
-        'words': r['words'],
-        'feedback': r['feedback'],
-        'issues': issues,
-        'strengths': strengths,
-        'source': 'demo',
-      },
-    );
-    Store.I.addAttempt(a);
-    WritingDrafts.clear(task);
-    return a;
-  }
-
   /// The essay waiting to be scored by C12 (set by the editors, also passed
   /// as route args `{'essay': …}`): {prompt (map), text, elapsedSec}.
   static Map<String, dynamic>? pending;
 
-  /// Scores [text] with the AI (falls back to the local demo scorer when the
-  /// AI is unavailable or fails), stores the attempt, clears the draft.
+  /// Scores [text] with the AI, stores the attempt, clears the draft.
+  /// Throws [ScoringFailed] (no score is made up) when the AI can't score it:
+  /// offline, a used-up free allowance, an AI error.
   static Future<Attempt> evaluate({
     required Map<String, dynamic> prompt,
     required String text,
     required int elapsedSec,
   }) async {
     final task = prompt.i('task') == 1 ? 1 : 2;
+    final blocked = Entitlements.I.blockWriting(task: task, promptId: prompt.s('id'));
+    if (blocked != null) {
+      throw ScoringFailed('Your free allowance for this is used.', code: 'upgrade_required', feature: blocked);
+    }
     // The server stores its graded copy under this id too (one record).
     final id = Store.newId('att');
     Map<String, dynamic>? r;
@@ -974,15 +939,10 @@ class WritingService {
     }
     final band = r == null ? null : r['band'];
     if (r == null || band is! num) {
-      final a = submit(prompt: prompt, text: text, elapsedSec: elapsedSec);
-      // e.g. the free-plan limit: say so on the report.
-      const shown = <String>{'quota_reached', 'too_short', 'ai_failed', 'ai_busy', 'ai_not_configured'};
-      if (shown.contains(AiService.lastErrorCode) && (AiService.lastError ?? '').isNotEmpty) {
-        a.data['offlineReason'] = AiService.lastError;
-        Store.I.commit();
-      }
-      return a;
+      // No made-up score: the screen offers retry / upgrade, the draft stays.
+      throw AiService.failure('We couldn’t score your essay right now. Please try again.');
     }
+    unawaited(Entitlements.I.refresh());
     final overall = Store.roundBand(band.toDouble());
     final crit = r.m('criteria');
     double cb(String k) {

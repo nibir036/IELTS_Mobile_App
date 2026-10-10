@@ -151,9 +151,13 @@ class _Legend extends StatelessWidget {
             spacing: 5,
             children: [
               _Swatch(color: Task1Chart.colorAt(t, i), line: line),
-              Text(
-                names[i],
-                style: TextStyle(fontSize: 11, color: t.textMuted),
+              Flexible(
+                child: Text(
+                  names[i],
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontSize: 11, color: t.textMuted),
+                ),
               ),
             ],
           ),
@@ -226,11 +230,17 @@ class _SeriesChart extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           spacing: 10,
           children: [
-            Expanded(child: _Legend(names: names, line: !bar)),
+            Expanded(flex: 3, child: _Legend(names: names, line: !bar)),
             if (unit.isNotEmpty)
-              Text(
-                unit,
-                style: TextStyle(fontSize: 11, color: t.textMuted),
+              Flexible(
+                flex: 2,
+                child: Text(
+                  unit,
+                  textAlign: TextAlign.end,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontSize: 11, color: t.textMuted),
+                ),
               ),
           ],
         ),
@@ -820,7 +830,8 @@ class _MapColumn extends StatelessWidget {
         children: [
           Row(
             children: [
-              Container(
+              Flexible(
+                child: Container(
                 height: 22,
                 padding: const EdgeInsets.symmetric(horizontal: 8),
                 decoration: BoxDecoration(
@@ -830,11 +841,14 @@ class _MapColumn extends StatelessWidget {
                 alignment: Alignment.center,
                 child: Text(
                   label,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                   style: TextStyle(
                     fontSize: 11,
                     fontWeight: FontWeight.w500,
                     color: highlight ? t.onPrimary : t.text,
                   ),
+                ),
                 ),
               ),
             ],

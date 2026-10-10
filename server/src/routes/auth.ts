@@ -9,7 +9,7 @@ import { createOtp, verifyOtp, verifyProof, type OtpPurpose } from '../lib/otp';
 import { isStrongPassword, isValidPhone, normalizePhone } from '../lib/phone';
 import { sendSms } from '../lib/sms';
 import { hashToken, newRefreshToken, signAccessToken } from '../lib/tokens';
-import { publicUser, userSelect } from '../lib/users';
+import { assertPasswordChangeAllowed, publicUser, userSelect } from '../lib/users';
 
 function purposeOf(v: unknown): OtpPurpose {
   const p = s(v) || 'signup';
@@ -60,6 +60,11 @@ export function registerAuthRoutes(r: Router): void {
     if (purpose === 'reset' && !exists) {
       throw new HttpError(404, 'No account uses this number.', 'no_account');
     }
+    // No SMS when the password was set less than 48 hours ago.
+    if (purpose === 'reset' && exists) {
+      const u = await prisma.user.findUnique({ where: { phone }, select: { passwordChangedAt: true, createdAt: true } });
+      if (u) assertPasswordChangeAllowed(u);
+    }
     const code = await createOtp(phone, purpose);
     await sendSms(phone, `Your ${env.smsBrand} verification code is ${code}. It expires in 5 minutes.`);
     return {
@@ -99,6 +104,7 @@ export function registerAuthRoutes(r: Router): void {
         name,
         phone,
         passwordHash: hashPassword(password),
+        passwordChangedAt: new Date(),
         phoneVerifiedAt: new Date(),
         profile: { plan: 'Free', testType: 'Academic', ...profile },
       },
@@ -165,9 +171,16 @@ export function registerAuthRoutes(r: Router): void {
     if (!verifyProof(proof, phone, 'reset')) {
       throw badRequest('Phone verification expired. Verify your number again.', 'otp_required');
     }
-    const user = await prisma.user.findUnique({ where: { phone }, select: { id: true } });
+    const user = await prisma.user.findUnique({
+      where: { phone },
+      select: { id: true, passwordChangedAt: true, createdAt: true },
+    });
     if (!user) throw new HttpError(404, 'No account uses this number.', 'no_account');
-    await prisma.user.update({ where: { id: user.id }, data: { passwordHash: hashPassword(password) } });
+    assertPasswordChangeAllowed(user);
+    await prisma.user.update({
+      where: { id: user.id },
+      data: { passwordHash: hashPassword(password), passwordChangedAt: new Date() },
+    });
     // Sign out every device.
     await prisma.session.updateMany({ where: { userId: user.id, revokedAt: null }, data: { revokedAt: new Date() } });
     return issueSession(ctx, user.id);

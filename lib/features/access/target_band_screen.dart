@@ -90,7 +90,8 @@ class _TargetBandScreenState extends State<TargetBandScreen> {
       'testType': 'Academic',
       'examDate': Store.dateKey(_date),
     });
-    context.push(Routes.diagnostic);
+    // Next: the microphone step, then Home (the study plan is set up from Home).
+    context.push(Routes.micPermission);
   }
 
   @override
@@ -119,14 +120,14 @@ class _TargetBandScreenState extends State<TargetBandScreen> {
               onTap: () => context.back(),
             ),
             const Expanded(
-              child: Center(child: StepDots(count: 3, filled: 1)),
+              child: Center(child: StepDots(count: 2, filled: 1)),
             ),
             LinkText(
               'Skip',
               fontSize: 15,
               weight: FontWeight.w400,
               color: t.textMuted,
-              onTap: () => context.push(Routes.diagnostic),
+              onTap: () => context.push(Routes.micPermission),
             ),
           ],
         ),

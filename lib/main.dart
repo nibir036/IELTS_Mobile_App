@@ -6,6 +6,7 @@ import 'app/app.dart';
 import 'app/data/demo.dart';
 import 'app/data/l10n.dart';
 import 'app/data/store.dart';
+import 'app/services/connection_gate.dart';
 import 'app/services/notification_service.dart';
 import 'app/services/sync_service.dart';
 
@@ -21,6 +22,7 @@ Future<void> main() async {
   await Demo.load();
   await Store.I.load();
   SyncService.I.init();
+  Connection.I.init();
   unawaited(SyncService.I.syncNow());
   await ContentL10n.init();
   unawaited(NotificationService.I.init());

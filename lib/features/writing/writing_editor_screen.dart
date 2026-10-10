@@ -42,8 +42,13 @@ class _WritingEditorScreenState extends State<WritingEditorScreen>
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final keyboardOpen = MediaQuery.viewInsetsOf(context).bottom > 0;
-    final showPrompt = !_focusMode && !keyboardOpen;
+    final mq = MediaQuery.of(context);
+    final keyboardOpen = mq.viewInsets.bottom > 0;
+    // The question stays on screen while typing (smaller and scrollable);
+    // only focus mode hides it.
+    final showPrompt = !_focusMode;
+    final visibleHeight = mq.size.height - mq.viewInsets.bottom - mq.padding.top;
+    final promptMax = keyboardOpen ? (visibleHeight * 0.28).clamp(72.0, 220.0).toDouble() : mq.size.height * 0.34;
 
     final secondsLeft = this.secondsLeft;
     final words = this.words;
@@ -110,7 +115,7 @@ class _WritingEditorScreenState extends State<WritingEditorScreen>
         if (showPrompt)
           HeroCard(
             radius: 24,
-            padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
+            padding: EdgeInsets.fromLTRB(18, keyboardOpen ? 12 : 16, 18, keyboardOpen ? 12 : 16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               spacing: 8,
@@ -147,23 +152,34 @@ class _WritingEditorScreenState extends State<WritingEditorScreen>
                     ),
                   ],
                 ),
-                if (_promptOpen) ...[
-                  Text(
-                    prompt.s('prompt'),
-                    style: TextStyle(
-                      fontSize: 15,
-                      height: 1.45,
-                      color: t.heroText,
+                if (_promptOpen)
+                  ConstrainedBox(
+                    constraints: BoxConstraints(maxHeight: promptMax),
+                    child: SingleChildScrollView(
+                      keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.manual,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        spacing: 8,
+                        children: [
+                          Text(
+                            prompt.s('prompt'),
+                            style: TextStyle(
+                              fontSize: keyboardOpen ? 14 : 15,
+                              height: 1.45,
+                              color: t.heroText,
+                            ),
+                          ),
+                          Text(
+                            prompt.s('requirement'),
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: t.heroMuted,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                  Text(
-                    prompt.s('requirement'),
-                    style: TextStyle(
-                      fontSize: 12,
-                      color: t.heroMuted,
-                    ),
-                  ),
-                ],
               ],
             ),
           ),

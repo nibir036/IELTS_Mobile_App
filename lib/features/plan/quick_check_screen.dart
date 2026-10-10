@@ -6,10 +6,12 @@ import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/services/api_client.dart';
+import '../../app/services/entitlements.dart';
 import '../../app/services/tts.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import 'plan_api.dart';
 import 'plan_setup_screen.dart';
 import 'quick_check_data.dart';
@@ -46,6 +48,14 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
     super.didChangeDependencies();
     if (_seeded) return;
     _seeded = true;
+    // The quick check is part of Pro.
+    if (!Entitlements.I.planExtras) {
+      WidgetsBinding.instance.addPostFrameCallback((_) async {
+        if (!mounted) return;
+        await showUpgradeSheet(context, feature: 'quick_check');
+        if (mounted) context.back();
+      });
+    }
     final raw = context.routeArgs['modules'];
     final mods = raw is List ? raw.map((e) => '$e').toSet() : PlanApi.modules.toSet();
     _asked = QuickCheckData.items.where((it) {

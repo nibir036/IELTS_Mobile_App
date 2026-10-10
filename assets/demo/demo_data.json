@@ -474,7 +474,6 @@
       }
     },
     "firstTime": {
-      "diagnosticMinutes": 40,
       "checklist": [
         {
           "id": "step_account",
@@ -501,10 +500,10 @@
           "target": "micPermission"
         },
         {
-          "id": "step_diagnostic",
-          "title": "Take the diagnostic",
-          "check": "practice",
-          "target": "diagnosticTest"
+          "id": "step_plan",
+          "title": "Build your study plan",
+          "check": "plan",
+          "target": "studyPlanSetup"
         },
         {
           "id": "step_speaking",
@@ -518,7 +517,7 @@
           "id": "empty_essays",
           "icon": "doc",
           "title": "No essays yet",
-          "subtitle": "Writing unlocks after diagnostic",
+          "subtitle": "Try a Writing Task 2",
           "target": "writingSelector"
         },
         {
@@ -1713,14 +1712,14 @@
         {
           "id": "free",
           "name": "Free",
-          "tagline": "Everything you need to start practising.",
+          "tagline": "Try every part of the test once, with AI feedback.",
           "priceMonthly": 0,
           "priceYearly": 0,
           "launchPricing": false,
           "highlights": [
-            "Practice questions for all four skills",
-            "1 full mock test a month",
-            "3 AI writing reports a month"
+            "One AI-scored test of every type: each writing task and speaking part",
+            "1 full mock test with a band report",
+            "5 pronunciation checks and a 3-day study plan"
           ]
         },
         {
@@ -1733,7 +1732,7 @@
           "highlights": [
             "Unlimited mock tests with band reports",
             "Unlimited AI writing and speaking feedback",
-            "Pronunciation scoring and the full content library"
+            "A study plan that adapts every week, quick check, pronunciation and Band 8 rewrites"
           ]
         }
       ],
@@ -1741,37 +1740,61 @@
         {
           "id": "mockTests",
           "label": "Full mock tests",
-          "free": "1 / month",
+          "free": "1",
           "pro": "Unlimited"
         },
         {
-          "id": "writingFeedback",
-          "label": "AI writing feedback",
-          "free": "3 / month",
+          "id": "writingPractice",
+          "label": "Writing practice with AI feedback",
+          "free": "1 Task 1 + 1 Task 2",
           "pro": "Unlimited"
         },
         {
-          "id": "speakingEvaluations",
-          "label": "AI speaking evaluations",
-          "free": "3 / month",
+          "id": "writingTests",
+          "label": "Full writing tests",
+          "free": "1",
+          "pro": "Unlimited"
+        },
+        {
+          "id": "speakingPractice",
+          "label": "Speaking practice with AI feedback",
+          "free": "1 per part",
+          "pro": "Unlimited"
+        },
+        {
+          "id": "speakingTests",
+          "label": "Full speaking tests",
+          "free": "1",
           "pro": "Unlimited"
         },
         {
           "id": "pronunciation",
-          "label": "Pronunciation scoring",
+          "label": "Pronunciation checks",
+          "free": "5",
+          "pro": "Unlimited"
+        },
+        {
+          "id": "rewrite",
+          "label": "Band 8 rewrites",
+          "free": "1",
+          "pro": "Unlimited"
+        },
+        {
+          "id": "studyPlan",
+          "label": "Study plan",
+          "free": "3 days",
+          "pro": "Adapts every week"
+        },
+        {
+          "id": "quickCheck",
+          "label": "Quick check to sharpen your plan",
           "free": "no",
           "pro": "yes"
         },
         {
-          "id": "library",
-          "label": "Full content library",
-          "free": "Starter set",
-          "pro": "yes"
-        },
-        {
-          "id": "analytics",
-          "label": "Detailed analytics",
-          "free": "Basic",
+          "id": "readingListening",
+          "label": "Reading and listening tests",
+          "free": "yes",
           "pro": "yes"
         },
         {
@@ -15134,10 +15157,10 @@
             "id": "ntf_home_006",
             "type": "system",
             "title": "Welcome to IELTS AI, Tanvir",
-            "body": "Set your target band and take the diagnostic to get a study plan.",
+            "body": "Set your target band and build your study plan to get started.",
             "daysAgo": 57,
             "read": true,
-            "target": "/onboarding/diagnostic"
+            "target": "/home/study-plan/setup"
           }
         ],
         "tasks": [

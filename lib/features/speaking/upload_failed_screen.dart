@@ -46,15 +46,6 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
     return v?.cast<String, dynamic>();
   }
 
-  void _savePending() {
-    final pending = _pending;
-    if (pending == null) return;
-    final a = Attempt.fromJson(pending.m('attempt'));
-    Store.I.setKv(kPendingUploadKey, null);
-    Store.I.addAttempt(a);
-    context.replace(Routes.speakingEvaluation, args: {'attemptId': a.id});
-  }
-
   @override
   void dispose() {
     _timer?.cancel();
@@ -69,7 +60,8 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
       _progress = 0;
     });
     final job = SpeakingJob.fromJson(jobJson);
-    final out = await processSpeaking(
+    final out = await processSpeakingOrExplain(
+      context,
       job,
       queueOnUploadFail: false,
       onStage: (stage, progress) {
@@ -81,6 +73,12 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
       },
     );
     if (!mounted) return;
+    if (out == null) {
+      // Can't be scored (free allowance used / recording gone): drop it.
+      Store.I.setKv(kPendingUploadKey, null);
+      context.back();
+      return;
+    }
     if (out.pending) {
       setState(() {
         _uploading = false;
@@ -98,13 +96,7 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
         _status[i] = 'uploaded';
       }
     });
-    if (out.audioMissing) {
-      context.toast('Recording no longer on this phone - estimated offline');
-    } else if (a != null && a.data.s('source') != 'ai') {
-      context.toast(offlineScoreReason('Uploaded · estimated offline'));
-    } else {
-      context.toast('Upload complete');
-    }
+    context.toast('Upload complete');
     if (a == null) return;
     context.replace(Routes.speakingEvaluation, args: {'attemptId': a.id});
   }
@@ -117,27 +109,10 @@ class _UploadFailedScreenState extends State<UploadFailedScreen> {
       _retryJob(job);
       return;
     }
-    setState(() => _uploading = true);
-    _timer = Timer.periodic(const Duration(milliseconds: 80), (timer) {
-      if (!mounted) return;
-      setState(() {
-        _progress += 0.02;
-        if (_progress >= 1) {
-          _progress = 1;
-          for (var i = 0; i < _status.length; i++) {
-            _status[i] = 'uploaded';
-          }
-        }
-      });
-      if (_progress >= 1) {
-        timer.cancel();
-        context.toast('Upload complete');
-        _navTimer = Timer(const Duration(milliseconds: 600), () {
-          if (!mounted) return;
-          _savePending();
-        });
-      }
-    });
+    // An old queued item without its recording job can't be scored.
+    Store.I.setKv(kPendingUploadKey, null);
+    context.toast('This recording can’t be uploaded. Please record it again.');
+    context.back();
   }
 
   @override

@@ -5,7 +5,8 @@ import { prisma } from '../db';
 import { badRequest, HttpError, obj, required, Router, s, unauthorized } from '../lib/http';
 import { hashPassword, verifyPassword } from '../lib/password';
 import { isStrongPassword } from '../lib/phone';
-import { publicUser, requireUser, usage, userSelect } from '../lib/users';
+import { entitlements } from '../lib/entitlements';
+import { assertPasswordChangeAllowed, publicUser, requireUser, userSelect } from '../lib/users';
 import { deleteObjects } from '../lib/r2';
 
 /** Profile keys the app may not set itself (billing / server-owned). */
@@ -16,7 +17,7 @@ export function registerMeRoutes(r: Router): void {
     const userId = requireUser(ctx);
     const user = await prisma.user.findUnique({ where: { id: userId }, select: userSelect });
     if (!user) throw unauthorized('This account no longer exists.', 'no_account');
-    return { user: publicUser(user), usage: await usage(userId) };
+    return { user: publicUser(user), usage: await entitlements(userId) };
   });
 
   // {name?, profile?: {...partial}} - profile keys are merged; null removes a key.
@@ -51,16 +52,23 @@ export function registerMeRoutes(r: Router): void {
     if (!isStrongPassword(next)) {
       throw badRequest('Use 8+ characters with at least one number and one symbol.', 'weak_password');
     }
-    const user = await prisma.user.findUnique({ where: { id: userId }, select: { passwordHash: true } });
+    const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: { passwordHash: true, passwordChangedAt: true, createdAt: true },
+    });
     if (!user) throw unauthorized('This account no longer exists.', 'no_account');
     if (!verifyPassword(current, user.passwordHash)) {
       throw new HttpError(400, 'Your current password is wrong.', 'wrong_password');
     }
-    await prisma.user.update({ where: { id: userId }, data: { passwordHash: hashPassword(next) } });
+    assertPasswordChangeAllowed(user);
+    await prisma.user.update({
+      where: { id: userId },
+      data: { passwordHash: hashPassword(next), passwordChangedAt: new Date() },
+    });
     return { ok: true };
   });
 
-  r.get('/v1/me/usage', async (ctx) => usage(requireUser(ctx)));
+  r.get('/v1/me/usage', async (ctx) => entitlements(requireUser(ctx)));
 
   // Permanently deletes the account and everything that belongs to it.
   r.delete('/v1/me', async (ctx) => {

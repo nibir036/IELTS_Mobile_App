@@ -50,8 +50,8 @@ export const env = {
   writingProvider: str('WRITING_PROVIDER'),
   geminiApiKey: str('GEMINI_API_KEY'),
   geminiWritingModel: str('GEMINI_WRITING_MODEL', 'gemini-3.6-flash'),
-  /** Study plan AI (weekly notes, task reasons): 'all' | 'pro' | 'off'. */
-  planAi: str('PLAN_AI', 'all').toLowerCase(),
+  /** Study plan AI (weekly notes, task reasons): 'pro' (Pro accounts only) | 'off'. */
+  planAi: str('PLAN_AI', 'pro').toLowerCase(),
   /** Model for the study plan; empty = the writing model. */
   geminiPlanModel: str('GEMINI_PLAN_MODEL'),
   get useGeminiForWriting() {
@@ -73,10 +73,6 @@ export const env = {
   get r2Configured() {
     return Boolean(this.r2AccountId && this.r2AccessKeyId && this.r2SecretAccessKey && this.r2Bucket);
   },
-
-  // Free plan: AI-graded tests allowed before upgrading (same as the website)
-  freeWritingTests: num('FREE_WRITING_TESTS', 4),
-  freeSpeakingTests: num('FREE_SPEAKING_TESTS', 4),
 
   /** Largest JSON body accepted (speaking audio is sent as base64). */
   maxBodyMb: num('MAX_BODY_MB', 40),

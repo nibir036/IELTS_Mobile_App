@@ -412,16 +412,24 @@ class CertificatesScreen extends StatelessWidget {
                           '$earned',
                           style: TextStyle(fontSize: 44, fontWeight: FontWeight.w600, height: 1, color: t.heroText),
                         ),
-                        Padding(
-                          padding: const EdgeInsets.only(bottom: 5),
-                          child: Text('/ ${all.length} badges', style: TextStyle(fontSize: 14, color: t.heroMuted)),
+                        Flexible(
+                          child: Padding(
+                            padding: const EdgeInsets.only(bottom: 5),
+                            child: Text(
+                              '/ ${all.length} badges',
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(fontSize: 14, color: t.heroMuted),
+                            ),
+                          ),
                         ),
                       ],
                     ),
                     ProgressBar(value: all.isEmpty ? 0.0 : earned / all.length, height: 6, onHero: true),
                     Text(intro, style: TextStyle(fontSize: 12.5, height: 1.4, color: t.heroMuted)),
-                    Row(
+                    Wrap(
                       spacing: 14,
+                      runSpacing: 4,
                       children: [
                         _HeroStat(icon: AppIcons.star, text: '${Lessons.xp(store)} XP'),
                         _HeroStat(icon: AppIcons.fire, text: '${store.streakDays}-day streak'),
@@ -457,7 +465,14 @@ class _HeroStat extends StatelessWidget {
       spacing: 4,
       children: [
         Icon(icon, size: 16, color: t.peach),
-        Text(text, style: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w600, color: t.heroText)),
+        Flexible(
+          child: Text(
+            text,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w600, color: t.heroText),
+          ),
+        ),
       ],
     );
   }
@@ -623,10 +638,36 @@ Future<void> showCertificateSheet(BuildContext context, CertStatus c) {
   return showAppSheet<void>(context, _CertificateSheet(status: c));
 }
 
-class _CertificateSheet extends StatelessWidget {
+class _CertificateSheet extends StatefulWidget {
   const _CertificateSheet({required this.status});
 
   final CertStatus status;
+
+  @override
+  State<_CertificateSheet> createState() => _CertificateSheetState();
+}
+
+class _CertificateSheetState extends State<_CertificateSheet> {
+  /// The certificate card, captured as a picture for sharing.
+  final GlobalKey _cardKey = GlobalKey();
+  bool _sharing = false;
+
+  CertStatus get status => widget.status;
+
+  Future<void> _share(String caption, String certId) async {
+    if (_sharing) return;
+    setState(() => _sharing = true);
+    final slug = status.title.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]+'), '-').replaceAll(RegExp(r'^-|-$'), '');
+    await ShareService.shareWidgetImage(
+      context,
+      _cardKey,
+      fileName: 'ielts-ai-certificate-${slug.isEmpty ? certId : slug}',
+      caption: caption,
+      subject: 'IELTS AI certificate · ${status.title}',
+      background: context.tk.bg,
+    );
+    if (mounted) setState(() => _sharing = false);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -641,6 +682,7 @@ class _CertificateSheet extends StatelessWidget {
       status.description,
       if (status.detail.isNotEmpty) status.detail,
       'Awarded $date · Certificate ID $certId',
+      'A practice milestone, not an official IELTS result.',
     ].join('\n');
 
     return SingleChildScrollView(
@@ -650,7 +692,9 @@ class _CertificateSheet extends StatelessWidget {
         spacing: 14,
         children: [
           const SizedBox(height: 4),
-          HeroCard(
+          RepaintBoundary(
+            key: _cardKey,
+            child: HeroCard(
             radius: 28,
             padding: const EdgeInsets.fromLTRB(22, 22, 22, 20),
             child: Column(
@@ -769,19 +813,16 @@ class _CertificateSheet extends StatelessWidget {
               ],
             ),
           ),
+          ),
           Text(
             'A practice milestone from IELTS AI by nextED - not an official IELTS result.',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 12, color: t.textMuted),
           ),
           PrimaryButton(
-            label: 'Share',
+            label: _sharing ? 'Preparing…' : 'Share',
             leading: AppIcons.share,
-            onTap: () => ShareService.shareText(
-              context,
-              shareText,
-              subject: 'IELTS AI certificate · ${status.title}',
-            ),
+            onTap: _sharing ? null : () => _share(shareText, certId),
           ),
           OutlineButtonX(
             label: 'Close',

@@ -49,7 +49,12 @@ class _WritingTask1EditorScreenState extends State<WritingTask1EditorScreen>
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final keyboardOpen = MediaQuery.viewInsetsOf(context).bottom > 0;
+    final mq = MediaQuery.of(context);
+    final keyboardOpen = mq.viewInsets.bottom > 0;
+    // The question stays on screen while typing: a smaller, scrollable card
+    // above the writing box (it used to disappear with the keyboard).
+    final visibleHeight = mq.size.height - mq.viewInsets.bottom - mq.padding.top;
+    final promptMax = keyboardOpen ? (visibleHeight * 0.3).clamp(84.0, 260.0).toDouble() : mq.size.height * 0.38;
     final chart = prompt.m('chart');
     final secondsLeft = this.secondsLeft;
     final words = this.words;
@@ -120,16 +125,15 @@ class _WritingTask1EditorScreenState extends State<WritingTask1EditorScreen>
             ),
           ],
         ),
-        if (!keyboardOpen)
-          AppCard(
+        AppCard(
             radius: 24,
             padding: EdgeInsets.zero,
             child: ConstrainedBox(
-              constraints: BoxConstraints(
-                maxHeight: MediaQuery.sizeOf(context).height * 0.38,
-              ),
+              constraints: BoxConstraints(maxHeight: promptMax),
               child: SingleChildScrollView(
-                padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
+                // Dragging the question doesn't close the keyboard.
+                keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.manual,
+                padding: EdgeInsets.fromLTRB(16, keyboardOpen ? 10 : 14, 16, keyboardOpen ? 10 : 14),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   spacing: 12,
@@ -204,6 +208,7 @@ class _WritingTask1EditorScreenState extends State<WritingTask1EditorScreen>
                     ),
                   ),
                 ),
+                if (!keyboardOpen)
                 Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 10,
@@ -233,6 +238,7 @@ class _WritingTask1EditorScreenState extends State<WritingTask1EditorScreen>
             ),
           ),
         ),
+        if (!keyboardOpen)
         Row(
           spacing: 8,
           children: [

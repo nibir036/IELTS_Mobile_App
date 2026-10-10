@@ -411,7 +411,10 @@ void main() {
       ];
       expect(answers.length, 310 + 600 + 480);
       for (final a in answers) {
-        expect(a, isNot(contains('-')));
+        // hyphenated words (self-assured, well-organised) are fine; dashes used as punctuation are not
+        expect(a, isNot(contains(' - ')));
+        expect(a, isNot(contains('\u2014')));
+        expect(a, isNot(contains('\u2013')));
         for (final m in mark.allMatches(a)) {
           final e = vocab.m(m.group(1)!.toLowerCase());
           expect(e.s('headword'), isNotEmpty, reason: m.group(1));

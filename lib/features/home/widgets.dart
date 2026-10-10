@@ -70,8 +70,11 @@ String homeRouteFor(String key) {
       return Routes.mockResults;
     case 'mockSystemCheck':
       return Routes.mockSystemCheck;
+    // The onboarding diagnostic was removed: older links open the plan set-up.
     case 'diagnosticTest':
-      return Routes.diagnosticTest;
+    case 'diagnostic':
+    case 'studyPlanSetup':
+      return Routes.studyPlanSetup;
     case 'vocabVault':
       return Routes.vocabVault;
     case 'vocabQuiz':
@@ -86,8 +89,6 @@ String homeRouteFor(String key) {
       return Routes.resourcesHub;
     case 'targetBand':
       return Routes.targetBand;
-    case 'diagnostic':
-      return Routes.diagnostic;
     case 'micPermission':
       return Routes.micPermission;
     case 'mockLibrary':

@@ -9,7 +9,8 @@ import { badRequest, HttpError, int, notFound, obj, rateLimit, Router, s } from 
 import { chatJson } from '../lib/openrouter';
 import { appKey, contentTypeFor, putObject } from '../lib/r2';
 import { getReport, getSession, mapEvaluation, phonemePercent, scoreWord, submitSession, type SegmentInput } from '../lib/speaking';
-import { checkQuota, requireUser } from '../lib/users';
+import { checkCounted, checkSpeaking, checkWriting, recordUse, speakingUse, writingUse } from '../lib/entitlements';
+import { requireUser } from '../lib/users';
 import { evaluateTask, FEEDBACK_LANGS, languageNote, type FeedbackLang, rewriteEssay, wordCount, writingTestBand, type TaskInput } from '../lib/writing';
 import { attemptJson } from './progress';
 
@@ -78,12 +79,11 @@ export function registerAiRoutes(r: Router): void {
    *   One task:  {task: 1|2, promptId?, prompt?, text, durationSec?, title?}
    *   Full test: {testId?, task1: {promptId?, prompt?, text}, task2: {…}, durationSec?}
    *   Both also take attemptId? (the app's own id) and context? (practice|mock|diagnostic).
-   * Records an AI-graded attempt (counts toward the free-plan limit).
+   * Records an AI-graded attempt (counts toward the free plan, see lib/entitlements.ts).
    */
   r.post('/v1/writing/evaluate', async (ctx) => {
     const userId = requireUser(ctx);
     rateLimit(`writing:${userId}`, 20, 3600);
-    await checkQuota(userId, 'writing');
     const language = await feedbackLanguage(userId, ctx.body);
     const durationSec = int(ctx.body.durationSec, 0, 0, 86400);
     const attemptId = await attemptIdFor(userId, ctx.body.attemptId, 'att_w');
@@ -93,6 +93,10 @@ export function registerAiRoutes(r: Router): void {
         taskInput(obj(ctx.body.task1), 1, language),
         taskInput(obj(ctx.body.task2), 2, language),
       ]);
+      await checkWriting(
+        userId,
+        writingUse(writingKind(ctx.body.context, null), [ctx.body.testId, i1.promptId, i2.promptId], [1, 2]),
+      );
       const [t1, t2] = await Promise.all([evaluateTask({ ...i1, task: 1 }), evaluateTask({ ...i2, task: 2 })]);
       const band = writingTestBand(t1.band, t2.band);
       const attempt = await prisma.attempt.create({
@@ -117,6 +121,10 @@ export function registerAiRoutes(r: Router): void {
     }
 
     const input = await taskInput(ctx.body, Number(ctx.body.task) === 1 ? 1 : 2, language);
+    await checkWriting(
+      userId,
+      writingUse(writingKind(ctx.body.context, input.task), [ctx.body.testId, input.promptId], [input.task]),
+    );
     const evaluation = await evaluateTask(input);
     const attempt = await prisma.attempt.create({
       data: {
@@ -134,14 +142,17 @@ export function registerAiRoutes(r: Router): void {
     return { ...evaluation, attempt: attemptJson(attempt) };
   });
 
-  // Band-8 (or targetBand) rewrite of an essay. Not counted as a test.
+  // Band-8 (or targetBand) rewrite of an essay. Free plan: 1.
   r.post('/v1/writing/rewrite', async (ctx) => {
     const userId = requireUser(ctx);
     rateLimit(`rewrite:${userId}`, 20, 3600);
+    await checkCounted(userId, 'rewrite');
     const language = await feedbackLanguage(userId, ctx.body);
     const input = await taskInput(ctx.body, Number(ctx.body.task) === 1 ? 1 : 2, language);
     const targetBand = Math.min(9, Math.max(6, Number(ctx.body.targetBand) || 8));
-    return rewriteEssay({ ...input, targetBand });
+    const out = await rewriteEssay({ ...input, targetBand });
+    await recordUse(userId, 'rewrite', input.promptId);
+    return out;
   });
 
   /**
@@ -154,7 +165,6 @@ export function registerAiRoutes(r: Router): void {
   r.post('/v1/speaking/sessions', async (ctx) => {
     const userId = requireUser(ctx);
     rateLimit(`speaking:${userId}`, 12, 3600);
-    await checkQuota(userId, 'speaking');
     const raw = Array.isArray(ctx.body.segments) ? (ctx.body.segments as Row[]) : [];
     if (!raw.length || raw.length > 12) throw badRequest('Send 1–12 recorded segments.');
     const segments: SegmentInput[] = raw.map((sg, i) => {
@@ -172,6 +182,10 @@ export function registerAiRoutes(r: Router): void {
     });
     const ids = new Set(segments.map((x) => x.id));
     if (ids.size !== segments.length) throw badRequest('Segment ids must be unique.');
+    await checkSpeaking(
+      userId,
+      speakingUse(s(ctx.body.mode, 20) || 'full', ctx.body.refId, segments.map((x) => x.partNumber)),
+    );
 
     const attemptId = await attemptIdFor(userId, ctx.body.attemptId, 'att_s');
     const { sessionId } = await submitSession(userId, segments);
@@ -292,11 +306,12 @@ export function registerAiRoutes(r: Router): void {
    * Pronunciation trainer: {word, audioBase64, format?} →
    * {source, word, heard, score 0–100, tip, phonemes: [{phoneme, score 0–100}]}.
    * Goodness of Pronunciation from the speaking service, aligned against the
-   * target word (not the transcript). Not counted toward the free limit.
+   * target word (not the transcript). Free plan: 5 scored words.
    */
   r.post('/v1/pronunciation/score', async (ctx) => {
     const userId = requireUser(ctx);
     rateLimit(`pron:${userId}`, 120, 3600);
+    await checkCounted(userId, 'pronunciation');
     const word = s(ctx.body.word, 200);
     if (!word) throw badRequest('word is required.');
     const audio = Buffer.from(s(ctx.body.audioBase64, 8_000_000).replace(/^data:[^,]*,/, ''), 'base64');
@@ -315,6 +330,7 @@ export function registerAiRoutes(r: Router): void {
       score >= 85 && !unique.length ? 'Clear - every sound came through. Now say it inside a sentence.'
       : unique.length ? `Work on the ${unique.map((p) => `/${p}/`).join(' and ')} sound${unique.length > 1 ? 's' : ''} - listen to the native audio and copy the mouth shape.`
       : 'Good. Slow down slightly and make each sound distinct.';
+    await recordUse(userId, 'pronunciation', word);
     return { source: 'ai', word, heard: r.heard.trim(), score, tip, phonemes };
   });
 

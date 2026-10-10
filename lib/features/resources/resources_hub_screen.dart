@@ -327,13 +327,17 @@ class _FeaturedCard extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     spacing: 8,
                     children: [
-                      Text(
+                      Flexible(
+                        child: Text(
                         'Read guide',
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.w600,
                           color: kOnPeach,
                         ),
+                      ),
                       ),
                       Icon(AppIcons.forward, size: 16, color: kOnPeach),
                     ],

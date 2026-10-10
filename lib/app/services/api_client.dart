@@ -9,16 +9,23 @@ import '../data/l10n.dart';
 import 'config.dart';
 
 class ApiException implements Exception {
-  ApiException(this.message, [this.status, this.code = '']);
+  ApiException(this.message, [this.status, this.code = '', this.data = const <String, dynamic>{}]);
 
   final String message;
   final int? status;
+
+  /// The whole error body (e.g. `feature` with 'upgrade_required').
+  final Map<String, dynamic> data;
 
   /// Server error code ('wrong_password', 'phone_taken', 'otp_invalid' …);
   /// 'network' when the server couldn't be reached.
   final String code;
 
   bool get isNetwork => code == 'network';
+
+  /// A free-plan allowance is used up (HTTP 402): show the upgrade sheet.
+  bool get isUpgrade => code == 'upgrade_required';
+  String get feature => '${data['feature'] ?? ''}';
 
   @override
   String toString() => message;
@@ -137,6 +144,7 @@ class ApiClient {
         '${body['error'] ?? 'Something went wrong (${res.statusCode}).'}',
         res.statusCode,
         '${body['code'] ?? ''}',
+        body,
       );
     }
     return body;
@@ -216,8 +224,10 @@ class ApiClient {
       } on ApiException {
         rethrow;
       } on TimeoutException {
+        onNetworkError?.call();
         throw ApiException('The server is not responding. Try again.', null, 'network');
       } catch (_) {
+        onNetworkError?.call();
         throw ApiException('Can’t reach the server. Check your connection.', null, 'network');
       }
     }
@@ -234,6 +244,21 @@ class ApiClient {
   }
 
   static Future<Map<String, dynamic>> get(String path, {bool auth = true}) => request('GET', path, auth: auth);
+
+  /// Told when a request couldn't reach the server (see [ConnectionGate]).
+  static void Function()? onNetworkError;
+
+  /// True when the server answers at all (any HTTP status): the phone is
+  /// online. Used by the "turn on mobile data" screen.
+  static Future<bool> ping() async {
+    if (!AppConfig.hasApi) return true;
+    try {
+      await _http.get(_uri('/health')).timeout(const Duration(seconds: 8));
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
 
   /// POST JSON → JSON map (AI calls add the chosen feedback language).
   static Future<Map<String, dynamic>> postJson(

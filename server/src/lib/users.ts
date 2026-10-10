@@ -1,8 +1,7 @@
 import type { Ctx } from './http';
-import { forbidden, unauthorized } from './http';
+import { HttpError, unauthorized } from './http';
 import { verifyAccessToken } from './tokens';
 import { prisma } from '../db';
-import { env } from '../env';
 
 /** Reads the Bearer token and sets ctx.userId (401 if missing/invalid). */
 export function requireUser(ctx: Ctx): string {
@@ -14,8 +13,6 @@ export function requireUser(ctx: Ctx): string {
   ctx.userId = claims.sub;
   return claims.sub;
 }
-
-export type Skill = 'writing' | 'speaking';
 
 /** Pro = an active subscription (or the demo account's Pro profile). */
 export async function isPro(userId: string): Promise<boolean> {
@@ -32,36 +29,6 @@ export async function isPro(userId: string): Promise<boolean> {
   const user = await prisma.user.findUnique({ where: { id: userId }, select: { isDemo: true, profile: true } });
   const plan = String(((user?.profile ?? {}) as Record<string, unknown>).plan ?? '').toLowerCase();
   return Boolean(user?.isDemo && plan === 'pro');
-}
-
-/** AI-graded tests used so far (writing tests / speaking sessions). */
-export async function usedTests(userId: string, skill: Skill): Promise<number> {
-  return prisma.attempt.count({
-    where: { userId, skill, data: { path: ['aiGraded'], equals: true } },
-  });
-}
-
-export async function usage(userId: string) {
-  const pro = await isPro(userId);
-  const [w, sp] = await Promise.all([usedTests(userId, 'writing'), usedTests(userId, 'speaking')]);
-  return {
-    plan: pro ? 'pro' : 'free',
-    writing: { used: w, limit: pro ? null : env.freeWritingTests },
-    speaking: { used: sp, limit: pro ? null : env.freeSpeakingTests },
-  };
-}
-
-/** Throws 403 (code "quota_reached") when a free account has used its tests. */
-export async function checkQuota(userId: string, skill: Skill): Promise<void> {
-  if (await isPro(userId)) return;
-  const limit = skill === 'writing' ? env.freeWritingTests : env.freeSpeakingTests;
-  const used = await usedTests(userId, skill);
-  if (used >= limit) {
-    throw forbidden(
-      `You've used your ${limit} free ${skill} evaluations. Upgrade to Pro for unlimited AI feedback.`,
-      'quota_reached',
-    );
-  }
 }
 
 type UserRow = {
@@ -96,3 +63,25 @@ export const userSelect = {
   phoneVerifiedAt: true,
   createdAt: true,
 } as const;
+
+/** A password can't be reset or changed again for this long. */
+export const PASSWORD_COOLDOWN_HOURS = 48;
+
+/**
+ * Throws 429 (code "password_change_too_soon", with retryAt) when the
+ * password was set (registration, reset or change) less than 48 hours ago.
+ */
+export function assertPasswordChangeAllowed(u: { passwordChangedAt: Date | null; createdAt: Date }): void {
+  const last = u.passwordChangedAt ?? u.createdAt;
+  const retryAt = new Date(last.getTime() + PASSWORD_COOLDOWN_HOURS * 3600 * 1000);
+  const left = retryAt.getTime() - Date.now();
+  if (left <= 0) return;
+  const hours = Math.max(1, Math.ceil(left / 3600000));
+  throw new HttpError(
+    429,
+    `For your security, the password can only be changed once every ${PASSWORD_COOLDOWN_HOURS} hours. ` +
+      `Try again in about ${hours} hour${hours === 1 ? '' : 's'}.`,
+    'password_change_too_soon',
+    { retryAt: retryAt.toISOString() },
+  );
+}

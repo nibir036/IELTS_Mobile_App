@@ -6,9 +6,11 @@ import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
+import '../../app/services/entitlements.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import 'widgets.dart';
 import 'writing_data.dart';
 
@@ -54,6 +56,15 @@ mixin WritingEditorLogic<T extends StatefulWidget> on State<T> {
     if (_inited) return;
     _inited = true;
     _setup(context.routeArgs);
+    // Free plan: say so before the student writes, not after.
+    final blocked = Entitlements.I.blockWriting(task: editorTask, promptId: prompt.s('id'));
+    if (blocked != null) {
+      WidgetsBinding.instance.addPostFrameCallback((_) async {
+        if (!mounted) return;
+        await showUpgradeSheet(context, feature: blocked);
+        if (mounted) context.back();
+      });
+    }
   }
 
   void _setup(Map<String, dynamic> args) {

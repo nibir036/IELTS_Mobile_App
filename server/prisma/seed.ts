@@ -185,7 +185,10 @@ async function seedBanks() {
 async function seedConfig() {
   console.log('Config');
   await upsertAll('plan', items('30_plans.json').map((r, i) => ({ ...r, sortOrder: i })));
-  await upsertAll('planFeature', items('31_plan_features.json').map((r, i) => ({ ...r, sortOrder: i })));
+  const features = items('31_plan_features.json');
+  await upsertAll('planFeature', features.map((r, i) => ({ ...r, sortOrder: i })));
+  // Rows dropped from the comparison table (e.g. the old monthly limits).
+  await prisma.planFeature.deleteMany({ where: { id: { notIn: features.map((r) => String(r.id)) } } });
   // `group` (Learning / Practice / Streaks / Scores) is only used by the app's
   // Milestones screen; the table has no column for it.
   await upsertAll(

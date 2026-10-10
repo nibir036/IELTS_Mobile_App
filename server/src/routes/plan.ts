@@ -41,7 +41,8 @@ import {
 } from '../lib/plan';
 import { geminiJson } from '../lib/gemini';
 import { aiWeek, planAiAllowed, rulesNote, type WeekContext, type WeekNote } from '../lib/plan_ai';
-import { requireUser } from '../lib/users';
+import { FREE, requirePro } from '../lib/entitlements';
+import { isPro, requireUser } from '../lib/users';
 
 type Row = Record<string, unknown>;
 
@@ -179,6 +180,29 @@ function rebased(inputs: PlanInputs, profile: Profile, today: string): Estimate 
 
 const endDateOf = (inputs: PlanInputs, est: Estimate) => addDays(inputs.startDate, est.weeks * 7 - 1);
 
+/**
+ * Free plan: the last day with tasks - the 3rd study day from the start of
+ * the student's FIRST plan (making a new plan doesn't give 3 more days).
+ * null for Pro (no limit).
+ */
+async function freeUntil(userId: string, inputs: PlanInputs): Promise<string | null> {
+  if (await isPro(userId)) return null;
+  const first = await prisma.studyPlan.findFirst({
+    where: { userId },
+    orderBy: { createdAt: 'asc' },
+    select: { startDate: true, inputs: true },
+  });
+  // Counted on the first plan's own study days, so it never moves.
+  const start = first ? dayKey(first.startDate) : inputs.startDate;
+  const days = first ? ((first.inputs as unknown as PlanInputs).days ?? inputs.days) : inputs.days;
+  let d = start;
+  let found = 0;
+  for (let i = 0; i < 60; i++, d = addDays(d, 1)) {
+    if (days.includes(weekday(d)) && ++found === FREE.planDays) return d;
+  }
+  return addDays(start, FREE.planDays - 1);
+}
+
 // ── mappers ─────────────────────────────────────────────────────────────────
 
 type PlanRow = {
@@ -283,6 +307,12 @@ async function planJson(plan: PlanRow, today: string) {
       return n && n.week === week ? { title: n.title, body: n.body, focus: n.focus, by: n.by } : null;
     })(),
     quickCheck: { done: Boolean(qc), at: qc && typeof qc.value === 'object' ? (qc.value as Row).at ?? null : null },
+    access: await (async () => {
+      const until = await freeUntil(plan.userId, inputs);
+      return until
+        ? { plan: 'free', freeUntil: until, ended: today > until, ai: false, quickCheck: false }
+        : { plan: 'pro', freeUntil: null, ended: false, ai: true, quickCheck: true };
+    })(),
     tasks: tasks.map(planTaskJson),
   };
 }
@@ -516,7 +546,9 @@ export async function ensurePlan(userId: string): Promise<PlanRow | null> {
     // A new plan week: re-plan the coming days from the latest results.
     const est = plan.estimate as unknown as Estimate;
     const week = planWeek(inputs, est, today);
-    const newWeek = plan.adaptedWeek < week;
+    // Weekly re-planning is part of Pro: a free plan only gets its first
+    // week's (rules) note and stops after 3 study days.
+    const newWeek = plan.adaptedWeek < week && (week === 1 || (await isPro(userId)));
     const last = newWeek && week > 1 ? await lastWeekStats(plan, inputs, week) : null;
     if (newWeek && plan.adaptedWeek > 0) {
       await removeTasks({ planId: plan.id, done: false, date: { gte: parseDay(today) } });
@@ -531,6 +563,8 @@ export async function ensurePlan(userId: string): Promise<PlanRow | null> {
     if (from < inputs.startDate) from = inputs.startDate;
     let to = addDays(today, FILL_AHEAD);
     if (to > dayKey(plan.endDate)) to = dayKey(plan.endDate);
+    const cap = await freeUntil(userId, inputs);
+    if (cap && to > cap) to = cap;
     if (from <= to) await fill(userId, plan, from, to, ev);
 
     // Roll missed tasks forward: at most one extra task per study day.
@@ -617,8 +651,20 @@ export function registerPlanRoutes(r: Router): void {
     const profile = buildProfile(inputs, ev, catalog());
     const est = estimate(inputs, profile);
     const state = { scheduled: new Set<string>(), doneRefs: doneRefsOf(ev) };
-    const week = generateDays(inputs, est, profile, catalog(), state, inputs.startDate, addDays(inputs.startDate, 6), `${userId}:preview`);
+    // Free plan: only the days it will actually get (up to the 3rd study day
+    // of the student's first plan), so the preview never promises more.
+    const cap = await freeUntil(userId, inputs);
+    let to = addDays(inputs.startDate, 6);
+    if (cap && to > cap) to = cap;
+    const week =
+      inputs.startDate <= to
+        ? generateDays(inputs, est, profile, catalog(), state, inputs.startDate, to, `${userId}:preview`)
+        : [];
+    const today = localToday(inputs.tzOffsetMin);
     return {
+      access: cap
+        ? { plan: 'free', freeUntil: cap, ended: today > cap, ai: false, quickCheck: false }
+        : { plan: 'pro', freeUntil: null, ended: false, ai: true, quickCheck: true },
       inputs,
       estimate: shownEstimate(est, profile),
       summary: summary(inputs, est),
@@ -767,6 +813,7 @@ export function registerPlanRoutes(r: Router): void {
   // {reading?, listening?, grammar?, vocab?: band, writing?: {band, criteria}}
   r.post('/v1/plan/quick-check', async (ctx) => {
     const userId = requireUser(ctx);
+    await requirePro(userId, 'The quick check that sharpens your plan is part of Pro.', 'quick_check');
     rateLimit(`plan-qc:${userId}`, 10, 86400);
     const b = ctx.body;
     const band = (x: unknown) => {
@@ -808,6 +855,7 @@ export function registerPlanRoutes(r: Router): void {
   // criteria (not counted as a writing test).
   r.post('/v1/plan/quick-check/writing', async (ctx) => {
     const userId = requireUser(ctx);
+    await requirePro(userId, 'The quick check that sharpens your plan is part of Pro.', 'quick_check');
     rateLimit(`plan-qcw:${userId}`, 5, 86400);
     const question = s(ctx.body.question, 400);
     const text = s(ctx.body.text, 3000).trim();

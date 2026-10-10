@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -6,9 +8,11 @@ import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/services/ai_service.dart';
+import '../../app/services/entitlements.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import 'editor_common.dart';
 import 'widgets.dart';
 import 'writing_data.dart';
@@ -31,6 +35,9 @@ class _WritingRewriterScreenState extends State<WritingRewriterScreen> {
   bool _inited = false;
   bool _loading = false;
 
+  /// The free Band 8 rewrite is used: show the upgrade card.
+  bool _upgrade = false;
+
   static String _signed(int n) => n > 0 ? '+$n' : '$n';
 
   /// The cached AI rewrite {text, changes} of [a], or null.
@@ -51,6 +58,10 @@ class _WritingRewriterScreenState extends State<WritingRewriterScreen> {
     );
     if (a == null || _rewriteOf(a) != null || !AiService.available) return;
     if (a.data.s('text').trim().isEmpty) return;
+    if (Entitlements.I.rewriteUsedUp) {
+      _upgrade = true;
+      return;
+    }
     _loading = true;
     _fetch(a);
   }
@@ -78,9 +89,13 @@ class _WritingRewriterScreenState extends State<WritingRewriterScreen> {
         'changes': r.l('changes'),
       };
       Store.I.updateAttempt(a);
+      unawaited(Entitlements.I.refresh());
     }
     if (!mounted) return;
-    setState(() => _loading = false);
+    setState(() {
+      _loading = false;
+      _upgrade = r == null && AiService.upgradeNeeded;
+    });
   }
 
   /// Non-overlapping marks for each change's [key] phrase found in [text].
@@ -221,6 +236,29 @@ class _WritingRewriterScreenState extends State<WritingRewriterScreen> {
             },
           ),
         ),
+        if (_upgrade && rw == null)
+          AppCard(
+            radius: 20,
+            padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
+            child: Row(
+              spacing: 12,
+              children: [
+                IconCircle(AppIcons.medal, size: 40),
+                Expanded(
+                  child: Text(
+                    '${upgradeTitle('rewrite')}. Below are the fixes from your report.',
+                    style: const TextStyle(fontSize: 13.5, height: 1.4),
+                  ),
+                ),
+                OutlineButtonX(
+                  label: 'Pro',
+                  height: 40,
+                  expand: false,
+                  onTap: () => context.push(Routes.plans),
+                ),
+              ],
+            ),
+          ),
         WSegmented(
           labels: const ['Side by side', 'Improved only'],
           index: _mode,

@@ -22,19 +22,19 @@
     "notes": [
       "free/pro: \"yes\", \"no\" or a short text such as \"1 / month\". Also the source for usage limits."
     ],
-    "recordCountToday": 8
+    "recordCountToday": 12
   },
   "items": [
     {
       "id": "mockTests",
       "label": "Full mock tests",
-      "free": "1 / month",
+      "free": "1",
       "pro": "Unlimited"
     },
     {
-      "id": "writingFeedback",
-      "label": "AI writing feedback",
-      "free": "3 / month",
+      "id": "writingPractice",
+      "label": "Writing practice with AI feedback",
+      "free": "1 Task 1 + 1 Task 2",
       "pro": "Unlimited"
     }
   ]

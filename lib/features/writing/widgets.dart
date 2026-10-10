@@ -7,6 +7,7 @@ import '../../app/services/media.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../../app/widgets/zoom_image.dart';
 import 'task1_chart.dart';
 
 /// Day / Night pick for the rare canvas hues that have no token.
@@ -363,9 +364,10 @@ class WritingVisual extends StatelessWidget {
     }
     return Semantics(
       image: true,
-      label: '${prompt.s('typeName')}: ${prompt.s('title')}. Tap to enlarge.',
-      child: GestureDetector(
-        onTap: () => _zoom(context, image),
+      label: '${prompt.s('typeName')}: ${prompt.s('title')}. Tap or pinch to enlarge.',
+      child: PinchToZoomImage(
+        image: image,
+        title: prompt.s('title'),
         child: Stack(
           children: [
             ClipRRect(
@@ -377,9 +379,14 @@ class WritingVisual extends StatelessWidget {
                 child: MediaImage(
                   image,
                   fit: BoxFit.contain,
+                  // The fallback chart can be taller than the image box (maps,
+                  // mixed charts), so it scrolls inside it instead of overflowing.
                   errorBuilder: (_, _, _) => chart.isEmpty
                       ? const SizedBox.shrink()
-                      : Task1Chart(chart: chart, type: prompt.s('type'), height: height),
+                      : SingleChildScrollView(
+                          padding: const EdgeInsets.all(10),
+                          child: Task1Chart(chart: chart, type: prompt.s('type'), height: height),
+                        ),
                 ),
               ),
             ),
@@ -392,34 +399,7 @@ class WritingVisual extends StatelessWidget {
                   color: t.surface.withValues(alpha: 0.9),
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Icon(AppIcons.search, size: 14, color: t.textMuted),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  static void _zoom(BuildContext context, String image) {
-    showDialog<void>(
-      context: context,
-      builder: (ctx) => Dialog(
-        insetPadding: const EdgeInsets.all(8),
-        backgroundColor: Colors.white,
-        child: Stack(
-          children: [
-            InteractiveViewer(
-              maxScale: 5,
-              child: MediaImage(image, fit: BoxFit.contain),
-            ),
-            Positioned(
-              right: 4,
-              top: 4,
-              child: IconButton(
-                tooltip: 'Close',
-                icon: const Icon(AppIcons.close, color: Color(0xFF151515)),
-                onPressed: () => Navigator.of(ctx).pop(),
+                child: Icon(AppIcons.zoomIn, size: 16, color: t.textMuted),
               ),
             ),
           ],

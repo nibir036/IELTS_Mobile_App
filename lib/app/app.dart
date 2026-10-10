@@ -17,6 +17,7 @@ import '../features/writing/writing_routes.dart';
 import 'data/store.dart';
 import 'nav.dart';
 import 'routes.dart';
+import 'services/connection_gate.dart';
 import 'services/notification_service.dart';
 import 'services/sync_service.dart';
 import 'theme/app_theme.dart';
@@ -140,7 +141,8 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
           title: 'IELTS AI by nextED',
           debugShowCheckedModeBanner: false,
           // Small text a little larger on phones (see ReadableTextScaler).
-          builder: readableText,
+          // Needs the internet: a "turn on mobile data" screen covers the app while offline.
+          builder: (context, child) => readableText(context, ConnectionGate(child: child ?? const SizedBox.shrink())),
           theme: AppTheme.day,
           darkTheme: AppTheme.night,
           themeMode: mode,

@@ -64,10 +64,10 @@ const PHASE_LINE: Record<string, string> = {
 const fmt = (b: number) => (Math.round(b * 2) / 2).toFixed(1);
 
 /** Whether this student gets the AI layer (PLAN_AI = all | pro | off). */
+/** The study plan AI is a Pro feature (free plans are rules only). */
 export async function planAiAllowed(userId: string): Promise<boolean> {
   if (!env.geminiApiKey || env.planAi === 'off') return false;
-  if (env.planAi === 'pro') return isPro(userId);
-  return true;
+  return isPro(userId);
 }
 
 // ── rules note (always available, written instantly) ────────────────────────

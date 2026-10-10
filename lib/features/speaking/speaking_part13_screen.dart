@@ -12,6 +12,7 @@ import '../../app/services/voice_recorder.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import 'speaking_ai.dart';
 import 'widgets.dart';
 
@@ -66,6 +67,13 @@ class _SpeakingPart13ScreenState extends State<SpeakingPart13Screen> {
   @override
   void initState() {
     super.initState();
+    // Free plan: say so before the student records, not after.
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      final blocked = speakingBlockedFor(part: _mock ? 3 : ((_session ?? const <String, dynamic>{}).i('part') == 1 ? 1 : 3), refId: (_session ?? const <String, dynamic>{}).s('id'));
+      if (blocked == null || !mounted) return;
+      await showUpgradeSheet(context, feature: blocked);
+      if (mounted) context.back();
+    });
     _rec.level.addListener(_onLevel);
     _ticker = Timer.periodic(const Duration(milliseconds: 250), (_) {
       if (!mounted) return;
@@ -498,22 +506,25 @@ class _SpeakingPart13ScreenState extends State<SpeakingPart13Screen> {
     if (AiService.available && clips.isNotEmpty) {
       setState(() => _stage = 'Uploading…');
     }
-    final out = await processSpeaking(
+    final out = await processSpeakingOrExplain(
+      context,
       job,
       onStage: (stage, _) {
         if (mounted) setState(() => _stage = stage);
       },
     );
     if (!mounted) return;
+    if (out == null) {
+      // Not scored and the student closed the explanation: leave.
+      context.back();
+      return;
+    }
     if (out.pending) {
       context.replace(Routes.uploadFailed);
       return;
     }
     final a = out.attempt;
     if (a == null) return;
-    if (AiService.available && clips.isNotEmpty && a.data.s('source') != 'ai') {
-      context.toast(offlineScoreReason('Estimated offline (AI unavailable)'));
-    }
     context.replace(Routes.speakingTranscript, args: {'attemptId': a.id});
   }
 

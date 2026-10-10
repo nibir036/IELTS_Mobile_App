@@ -40,26 +40,62 @@ class SpeakingSegment {
 /// the last failure message (for a small "offline scoring" hint in the UI).
 ///
 /// All successful results carry `'source': 'ai'`.
+/// AI scoring didn't happen: [code] 'upgrade_required' (free allowance used,
+/// [feature] says which), 'network', 'too_short', 'needs_rerecording' …
+class ScoringFailed implements Exception {
+  ScoringFailed(this.message, {this.code = '', this.feature = ''});
+
+  final String message;
+  final String code;
+  final String feature;
+
+  bool get upgrade => code == 'upgrade_required';
+
+  @override
+  String toString() => message;
+}
+
 class AiService {
   AiService._();
 
   static String? lastError;
 
-  /// Error code of the last failure ('quota_reached', 'needs_rerecording',
+  /// Error code of the last failure ('upgrade_required', 'needs_rerecording',
   /// 'network', …).
   static String lastErrorCode = '';
 
   /// Called with the error code after a failed request (notifications use
-  /// 'quota_reached').
+  /// 'upgrade_required').
   static void Function(String code)? onFailure;
 
   /// AI scoring needs the API server and a signed-in account.
   static bool get available => AppConfig.hasApi && ApiClient.signedIn;
 
+  /// With 'upgrade_required': which free allowance is used up.
+  static String lastErrorFeature = '';
+
   static void _fail(Object e) {
     lastError = '$e';
     lastErrorCode = e is ApiException ? e.code : '';
+    lastErrorFeature = e is ApiException ? e.feature : '';
     onFailure?.call(lastErrorCode);
+  }
+
+  /// The last failure was a used-up free allowance.
+  static bool get upgradeNeeded => lastErrorCode == 'upgrade_required';
+
+  /// The last failure as an exception for the screens (no made-up score is
+  /// ever shown instead).
+  static ScoringFailed failure([String fallback = 'We couldn’t score this right now. Please try again.']) {
+    final msg = (lastError ?? '').trim();
+    if (!available) {
+      return ScoringFailed('You need to be online and signed in to get AI feedback.', code: 'network');
+    }
+    return ScoringFailed(
+      msg.isEmpty ? fallback : msg,
+      code: lastErrorCode,
+      feature: lastErrorFeature,
+    );
   }
 
   static Future<Map<String, dynamic>?> _post(

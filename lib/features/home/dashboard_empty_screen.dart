@@ -40,6 +40,8 @@ class FirstTimeDashboard extends StatelessWidget {
         return acc?.profile['micAllowed'] == true;
       case 'practice':
         return store.hasActivity;
+      case 'plan':
+        return store.tasks.any((t) => t['kind'] == 'plan' || t['kind'] == 'checkpoint');
       case 'speaking':
         return store.attemptsFor(skill: Skill.speaking).isNotEmpty;
       default:
@@ -55,10 +57,6 @@ class FirstTimeDashboard extends StatelessWidget {
     final data = Demo.section('home').m('firstTime');
     final rawSteps = data.l('checklist');
     final cards = data.l('emptyCards');
-    // Length of the short onboarding diagnostic (access.json).
-    final diagMinutes =
-        Demo.section('access').m('diagnostic').m('diagnosticTest').i('totalMinutes');
-    final diagnosticMinutes = diagMinutes > 0 ? diagMinutes : 45;
 
     final steps = <Map<String, dynamic>>[];
     var foundCurrent = false;
@@ -162,12 +160,12 @@ class FirstTimeDashboard extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 8),
                 child: PrimaryButton(
-                  label: 'Take the $diagnosticMinutes-min diagnostic',
+                  label: 'Build my study plan',
                   trailing: AppIcons.forward,
                   height: 52,
                   radius: 999,
                   fontSize: 15,
-                  onTap: () => context.push(Routes.diagnosticTest),
+                  onTap: () => context.push(Routes.studyPlanSetup),
                 ),
               ),
             ],
@@ -261,9 +259,7 @@ class _StepRow extends StatelessWidget {
     return InkWell(
       onTap: done
           ? null
-          : (step.s('check') == 'practice'
-              ? () => context.push(Routes.diagnosticTest)
-              : () => openHomeTarget(context, step.s('target'))),
+          : () => openHomeTarget(context, step.s('target')),
       borderRadius: BorderRadius.circular(12),
       child: SizedBox(
         height: 44,

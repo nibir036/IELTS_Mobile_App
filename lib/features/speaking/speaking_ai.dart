@@ -1,8 +1,14 @@
+import 'dart:async';
 import 'dart:typed_data';
+
+import 'package:flutter/material.dart';
 
 import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/services/ai_service.dart';
+import '../../app/services/entitlements.dart';
+import '../../app/widgets/kit.dart';
+import '../home/upgrade_sheet.dart';
 import 'widgets.dart';
 
 /// Recording bytes kept in memory for this app session (keyed by path) so a
@@ -105,17 +111,34 @@ class SpeakingJob {
 /// Result of [processSpeaking]: the saved attempt, or `pending` when the
 /// upload failed and the session was queued in kv for D9.
 class SpeakingOutcome {
-  SpeakingOutcome({this.attempt, this.pending = false, this.audioMissing = false});
+  SpeakingOutcome({this.attempt, this.pending = false, this.audioMissing = false, this.failure});
 
   final Attempt? attempt;
   final bool pending;
 
   /// True when the recordings were no longer in memory (retry after restart).
   final bool audioMissing;
+
+  /// Not scored (free allowance used, no audio, AI error). No attempt is
+  /// saved - the app never shows a made-up score.
+  final ScoringFailed? failure;
+}
+
+/// Free plan: a used-up speaking practice part / test (before recording).
+String? speakingBlockedFor({required int part, String refId = ''}) =>
+    Entitlements.I.blockSpeaking(part: part, refId: refId);
+
+/// Free plan: the speaking allowance this job would use is gone.
+String? speakingBlocked(SpeakingJob job) {
+  final e = Entitlements.I;
+  if (job.kind == 'diagnostic') return e.diagnosticUsedUp ? 'diagnostic' : null;
+  if (job.kind == 'mock') return null; // the mock checks itself when it starts
+  return e.blockSpeaking(part: job.part, refId: job.refId);
 }
 
 /// Scores the recordings with the speaking service (through the API
-/// server), with the demo scorer as fallback.
+/// server). No fallback score: when it can't be scored the outcome carries
+/// [SpeakingOutcome.failure] and nothing is saved.
 ///
 /// [onStage] receives the label for the processing overlay and a 0..1
 /// progress. With [queueOnUploadFail] the session is saved to
@@ -136,9 +159,23 @@ Future<SpeakingOutcome> processSpeaking(
   ];
   final audioMissing = job.clips.isNotEmpty && withBytes.isEmpty;
 
-  if (!AiService.available || withBytes.isEmpty) {
-    final a = _save(job, audio, null, null);
-    return SpeakingOutcome(attempt: a, audioMissing: audioMissing);
+  if (!AiService.available) return SpeakingOutcome(failure: AiService.failure());
+  if (withBytes.isEmpty) {
+    return SpeakingOutcome(
+      audioMissing: audioMissing,
+      failure: ScoringFailed(
+        audioMissing
+            ? 'The recording is no longer on this phone. Please record your answer again.'
+            : 'Nothing was recorded. Please record your answer again.',
+        code: 'no_audio',
+      ),
+    );
+  }
+  final blocked = speakingBlocked(job);
+  if (blocked != null) {
+    return SpeakingOutcome(
+      failure: ScoringFailed('Your free allowance for this is used.', code: 'upgrade_required', feature: blocked),
+    );
   }
 
   // The speaking service (same as the website): VAD → Groq Whisper →
@@ -178,9 +215,9 @@ Future<SpeakingOutcome> processSpeaking(
   }
   onStage?.call('Scoring…', 1);
   if (eval == null) {
-    final a = _save(job, audio, null, null);
-    return SpeakingOutcome(attempt: a);
+    return SpeakingOutcome(failure: AiService.failure('We couldn’t score your answers right now. Please try again.'));
   }
+  unawaited(Entitlements.I.refresh());
 
   // Recording keys (playback on other devices) and per-answer transcripts.
   final keys = <String, String>{
@@ -207,19 +244,6 @@ Future<SpeakingOutcome> processSpeaking(
     id: id,
   );
   return SpeakingOutcome(attempt: a);
-}
-
-/// Why an answer was scored offline, for the toast: the server's message
-/// for the free-plan limit / silent recordings, otherwise [fallback].
-String offlineScoreReason(String fallback) {
-  const shown = <String>{
-    'quota_reached', 'needs_rerecording', 'failed', 'timeout', 'speaking_not_configured', 'speaking_unreachable',
-  };
-  final msg = AiService.lastError;
-  if (shown.contains(AiService.lastErrorCode) && msg != null && msg.isNotEmpty) {
-    return '$msg · estimated offline';
-  }
-  return fallback;
 }
 
 class _TranscriptInput {
@@ -296,6 +320,10 @@ Attempt _save(
     if (eval['strengths'] is List) extra['aiStrengths'] = eval['strengths'];
     if (eval['fluency'] is Map) extra['fluencyReport'] = eval['fluency'];
     if (eval['pronunciation'] is Map) extra['pronunciationReport'] = eval['pronunciation'];
+    // Only what the AI said: no sample summary, tips or transcript.
+    extra.putIfAbsent('summary', () => '');
+    extra.putIfAbsent('feedback', () => <String>[]);
+    extra.putIfAbsent('transcript', () => <String, dynamic>{'text': '', 'demo': false, 'paragraphs': <Object>[]});
   }
   final a = buildSpeakingAttempt(
     kind: job.kind,
@@ -370,30 +398,41 @@ List<Map<String, dynamic>> _errorsOf(Map<String, dynamic> eval) {
   ];
 }
 
-/// Saves [job] (with a demo-scored fallback attempt) as the pending upload.
+/// [processSpeaking], and when it can't be scored: the reason in a sheet
+/// with "Try again" (same recordings) or "See Pro plans". Null when the
+/// student gives up (nothing saved, no made-up score).
+Future<SpeakingOutcome?> processSpeakingOrExplain(
+  BuildContext context,
+  SpeakingJob job, {
+  void Function(String stage, double progress)? onStage,
+  bool queueOnUploadFail = true,
+}) async {
+  while (true) {
+    final out = await processSpeaking(job, onStage: onStage, queueOnUploadFail: queueOnUploadFail);
+    final failure = out.failure;
+    if (failure == null) return out;
+    if (!context.mounted) return null;
+    final again = await showAppSheet<bool>(
+      context,
+      Builder(
+        builder: (ctx) => ScoringFailedPanel(
+          failure: failure,
+          onRetry: failure.code == 'no_audio' ? null : () => Navigator.of(ctx).pop(true),
+          backLabel: 'Close',
+          onBack: () => Navigator.of(ctx).pop(false),
+        ),
+      ),
+    );
+    if (again != true || !context.mounted) return null;
+  }
+}
+
+/// Saves [job] as the pending upload (retried from D9 when back online).
 void queueSpeakingJob(SpeakingJob job) {
-  final fallback = buildSpeakingAttempt(
-    kind: job.kind,
-    title: job.title,
-    refId: job.refId,
-    spokenSec: job.spokenSec,
-    expectedSec: job.expectedSec,
-    seed: job.seed,
-    durationSec: job.durationSec,
-    questions: job.questions,
-    test: job.test,
-    extra: <String, dynamic>{
-      'audio': [
-        for (final c in job.clips)
-          <String, dynamic>{'path': c.path, 'key': null, 'durationSec': c.durationSec},
-      ],
-    },
-  );
   var bytes = 0;
   for (final c in job.clips) {
     bytes += c.audio?.length ?? 0;
   }
-  final json = fallback.toJson()..remove('createdAt');
   Store.I.setKv(kPendingUploadKey, <String, dynamic>{
     'title': job.title,
     'cardTitle': job.cardTitle.isNotEmpty ? job.cardTitle : job.title,
@@ -402,7 +441,6 @@ void queueSpeakingJob(SpeakingJob job) {
     'progress': 0.0,
     'recordedAt': clockTime(DateTime.now()),
     'job': job.toJson(),
-    'attempt': json,
   });
 }
 

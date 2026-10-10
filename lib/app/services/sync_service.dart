@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../data/store.dart';
 import 'api_client.dart';
 import 'config.dart';
+import 'entitlements.dart';
 
 /// Keeps the signed-in account's progress in step with the API server.
 ///
@@ -41,6 +42,10 @@ class SyncService {
   Timer? _timer;
   bool _busy = false;
   bool _again = false;
+
+  /// Completes when the push that is running now ends (pull waits for it,
+  /// so it never reads the server's copy halfway through an upload).
+  Completer<void>? _pushDone;
 
   /// Last sync error (null when the last sync worked).
   String? lastError;
@@ -93,6 +98,7 @@ class SyncService {
       return;
     }
     _busy = true;
+    final done = _pushDone = Completer<void>();
     try {
       final snap = await _snapshot();
       final data = Store.I.data;
@@ -231,6 +237,7 @@ class SyncService {
       lastError = '$e';
     } finally {
       _busy = false;
+      done.complete();
       if (_again) {
         _again = false;
         schedule();
@@ -313,15 +320,40 @@ class SyncService {
         });
       }
 
-      // Profile + plan.
+      // Profile + plan. Wait for an upload in progress first, and keep
+      // profile edits made on this phone that haven't reached the server yet
+      // (e.g. a new photo picked while the app was coming back to the front):
+      // the server's copy would otherwise overwrite them and they would never
+      // be sent.
+      while (_busy) {
+        await (_pushDone?.future ?? Future<void>.value());
+      }
       final me = await ApiClient.get('/v1/me');
+      Entitlements.I.apply(me['usage']);
       final user = me['user'];
       if (user is Map) {
+        final before = Store.I.current;
+        final pending = <String, Object?>{};
+        String? pendingName;
+        if (before != null) {
+          final out = _profileOut(before);
+          out.forEach((k, v) {
+            if (jsonEncode(snap.profile[k]) != jsonEncode(v)) pending[k] = v;
+          });
+          for (final k in snap.profile.keys) {
+            if (!out.containsKey(k)) pending[k] = null;
+          }
+          if (snap.name != null && snap.name != before.name) pendingName = before.name;
+        }
         Store.I.applyRemoteUser(user.cast<String, dynamic>());
         final acc = Store.I.current;
         if (acc != null) {
           snap.profile = _profileOut(acc);
           snap.name = acc.name;
+          if (pending.isNotEmpty || pendingName != null) {
+            // Put the local edits back and send them on the next push.
+            Store.I.updateProfile(pending, name: pendingName);
+          }
         }
       }
 

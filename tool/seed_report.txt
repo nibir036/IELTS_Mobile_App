@@ -6,7 +6,7 @@ Environment variables loaded from .env
 Prisma schema loaded from prisma\schema.prisma
 Datasource "db": PostgreSQL database "ielts_ai", schema "public" at "localhost:5432"
 
-5 migrations found in prisma/migrations
+6 migrations found in prisma/migrations
 
 Database schema is up to date!
  
@@ -65,7 +65,7 @@ Banks and full tests
   contentDocument          42
 Config
   plan                     2
-  planFeature              8
+  planFeature              12
   certificateDefinition    36
   legalDocument            2
   room                     5

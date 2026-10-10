@@ -438,7 +438,7 @@ class NotificationService {
   }
 
   void _onAiFailure(String code) {
-    if (code != 'quota_reached') return;
+    if (code != 'upgrade_required') return;
     final store = Store.I;
     if (!store.isLoggedIn) return;
     final now = DateTime.now();

@@ -76,8 +76,6 @@ const Map<String, String> kExtraRoutes = <String, String>{
   Routes.topicVocab: 'X-topicVocab',
   Routes.certificates: 'X-certificates',
   Routes.legal: 'X-legal',
-  Routes.diagnosticTest: 'X-diagnosticTest',
-  Routes.diagnosticResult: 'X-diagnosticResult',
   Routes.mockAnswers: 'X-mockAnswers',
   Routes.plans: 'X-plans',
   Routes.readingBank: 'X-readingBank',
@@ -119,7 +117,6 @@ const Map<String, String> kBlankRoutes = <String, String>{
   Routes.improvementPlan: 'G10',
   Routes.mockAnswers: 'X-mockAnswers',
   Routes.vocabQuizScore: 'H6',
-  Routes.diagnosticResult: 'X-diagnosticResult',
   Routes.plans: 'X-plans',
   Routes.studyPlan: 'X-studyPlan',
   Routes.studyPlanSetup: 'X-studyPlanSetup',
@@ -391,10 +388,10 @@ void main() {
     Store.I.logout();
   });
 
-  test('route list: 76 canvas screens + ${kExtraRoutes.length} extra routes', () {
+  test('route list: 75 canvas screens + ${kExtraRoutes.length} extra routes', () {
     final routes = <String>{for (final s in ScreenCatalog.all) s.route, ...kExtraRoutes.keys};
     expect(routes.length, ScreenCatalog.all.length + kExtraRoutes.length);
-    expect(ScreenCatalog.all.length, 76);
+    expect(ScreenCatalog.all.length, 75);
   });
 
   for (final c in buildCases()) {

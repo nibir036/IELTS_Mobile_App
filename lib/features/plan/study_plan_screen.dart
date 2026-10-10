@@ -296,10 +296,11 @@ class _StudyPlanScreenState extends State<StudyPlanScreen> {
           ),
         ),
         if (_busy) const LinearProgressIndicator(),
+        if (plan.m('access').s('plan') == 'free') FreePlanBanner(access: plan.m('access')),
         if (plan['weekNote'] is Map) WeekNoteCard(note: plan.m('weekNote')),
         if (!plan.m('quickCheck').b('done') && !quickCheckDone(store) && plan.i('week') <= 2)
           QuickCheckOffer(modules: plan.m('inputs').ls('modules'), onDone: _load),
-        if (days.isEmpty)
+        if (days.isEmpty && !plan.m('access').b('ended'))
           EmptyState(
             icon: paused ? AppIcons.pause : AppIcons.calendar,
             title: paused ? 'Enjoy your break' : 'Nothing planned yet',

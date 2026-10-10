@@ -16,7 +16,6 @@ class Routes {
   static const otp = '/otp'; // A4
   static const resetPassword = '/reset-password'; // A5
   static const targetBand = '/onboarding/target-band'; // A6
-  static const diagnostic = '/onboarding/diagnostic'; // A7
   static const micPermission = '/onboarding/mic-permission'; // A8
 
   // B · Home & Account
@@ -116,8 +115,6 @@ class Routes {
   static const legal = '/legal'; // args {'doc': 'terms' | 'privacy'}
 
   // Phase 4
-  static const diagnosticTest = '/onboarding/diagnostic-test';
-  static const diagnosticResult = '/onboarding/diagnostic-result';
   static const mockAnswers = '/mock/answers'; // args {'attemptId': …}
   static const plans = '/home/plans';
 
@@ -187,7 +184,6 @@ class ScreenCatalog {
     ScreenSpec('A4', 'OTP Verification', Routes.otp),
     ScreenSpec('A5', 'Forgot / Reset Password', Routes.resetPassword),
     ScreenSpec('A6', 'Target Band Setup', Routes.targetBand),
-    ScreenSpec('A7', 'Diagnostic Assessment Selector', Routes.diagnostic),
     ScreenSpec('A8', 'Microphone Permission', Routes.micPermission),
     ScreenSpec('B1', 'Main Student Dashboard', Routes.dashboard),
     ScreenSpec('B2', 'Dashboard - First-Time Empty State', Routes.dashboardEmpty),

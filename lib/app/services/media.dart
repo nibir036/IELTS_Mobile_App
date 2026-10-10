@@ -84,6 +84,10 @@ class MediaImage extends StatelessWidget {
     }
     return Image.network(
       url,
+      // Web: the R2 bucket sends no CORS headers, so Flutter's own image
+      // fetch is blocked there. Fall back to a plain <img> element, which
+      // needs no CORS. Phones are not affected.
+      webHtmlElementStrategy: WebHtmlElementStrategy.fallback,
       fit: fit,
       width: width,
       height: height,
