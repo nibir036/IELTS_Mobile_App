@@ -154,15 +154,62 @@ type Rec = Record<string, unknown>;
 const arr = (v: unknown): Rec[] => (Array.isArray(v) ? (v.filter((x) => x && typeof x === 'object') as Rec[]) : []);
 const str = (v: unknown) => (v == null ? '' : String(v));
 
+/** Words a reasonable (not long) answer has, per part. */
+const EXPECTED_WORDS: Record<number, number> = { 1: 25, 2: 120, 3: 45 };
+
+/**
+ * Highest band the answers can support, from how much was actually said.
+ * The service's final scoring pass only sees error/strength findings, so
+ * answering "Hello" to every question (no errors at all) used to come back
+ * as band 7+. The service now checks length and relevance itself; this is
+ * the same length check, kept here so an older service can't over-score.
+ * null = no limit.
+ */
+export function adequacyCeiling(session: SessionStatus): number | null {
+  const parts = session.parts ?? [];
+  if (!parts.length) return null;
+  let total = 0;
+  let coverage = 0;
+  for (const p of parts) {
+    const words = (p.transcript ?? '').match(/[A-Za-z0-9']+/g)?.length ?? 0;
+    total += words;
+    const expected = EXPECTED_WORDS[p.part_number] ?? 30;
+    coverage += words < 3 ? 0 : Math.min(1, words / expected);
+  }
+  coverage /= parts.length;
+  if (total < 15) return coverage === 0 ? 1 : 2;
+  for (const [limit, band] of [
+    [0.1, 2],
+    [0.25, 3.5],
+    [0.45, 4.5],
+    [0.65, 5.5],
+    [0.8, 6.5],
+  ] as const) {
+    if (coverage < limit) return band;
+  }
+  return null;
+}
+
+export const SHORT_ANSWER_NOTE =
+  'Most answers were too short or did not address the questions, so the scores are limited. ' +
+  'Answer each question directly with a few developed sentences.';
+
 /** Maps the service's report + session onto what the app's speaking screens show. */
 export function mapEvaluation(report: SessionReport, session: SessionStatus) {
+  const ceiling = adequacyCeiling(session);
+  const cap = (v: number) => (ceiling == null ? v : Math.min(v, ceiling));
   const criteria = {
-    FC: halfBand(Number(report.scores.fluency)),
-    LR: halfBand(Number(report.scores.lexical)),
-    GRA: halfBand(Number(report.scores.grammar)),
-    P: halfBand(Number(report.scores.pronunciation)),
+    FC: cap(halfBand(Number(report.scores.fluency))),
+    LR: cap(halfBand(Number(report.scores.lexical))),
+    GRA: cap(halfBand(Number(report.scores.grammar))),
+    P: cap(halfBand(Number(report.scores.pronunciation))),
   };
-  const band = halfBand((criteria.FC + criteria.LR + criteria.GRA + criteria.P) / 4);
+  const capped =
+    ceiling != null &&
+    [report.scores.fluency, report.scores.lexical, report.scores.grammar, report.scores.pronunciation].some(
+      (v) => halfBand(Number(v)) > ceiling,
+    );
+  const band = cap(halfBand((criteria.FC + criteria.LR + criteria.GRA + criteria.P) / 4));
   const ev = report.evidence ?? {};
   const text = (ev.detailedAnalysis?.textAnalysis ?? {}) as Rec;
   const pron = (ev.detailedAnalysis?.pronunciation ?? {}) as Rec;
@@ -193,7 +240,10 @@ export function mapEvaluation(report: SessionReport, session: SessionStatus) {
       GRA: str(ev.grammar),
       P: str(ev.pronunciation),
     },
-    summary: str(ev.generalSummary) || perPart.join(' ') || 'Evaluation completed.',
+    summary: (() => {
+      const base = str(ev.generalSummary) || perPart.join(' ') || 'Evaluation completed.';
+      return capped && !base.includes(SHORT_ANSWER_NOTE) ? `${SHORT_ANSWER_NOTE} ${base}` : base;
+    })(),
     feedback: Array.isArray(ev.keyImprovements) ? ev.keyImprovements.map(str).filter(Boolean) : [],
     perPartFeedback: perPart,
     errors,
