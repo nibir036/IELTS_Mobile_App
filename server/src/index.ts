@@ -7,7 +7,9 @@
 import { createServer } from 'node:http';
 import { prisma } from './db';
 import { assertEnv, env } from './env';
+import { assertSessionOpen } from './lib/devices';
 import { HttpError, readBody, Router, sendJson, type Ctx } from './lib/http';
+import { verifyAccessToken } from './lib/tokens';
 import { registerAiRoutes } from './routes/ai';
 import { registerAuthRoutes } from './routes/auth';
 import { registerContentRoutes } from './routes/content';
@@ -40,7 +42,10 @@ export function createApp(router = buildRouter()) {
 
     // CORS: the app doesn't need it, but it lets you try the API from a browser.
     res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Headers', 'Authorization, Content-Type');
+    res.setHeader(
+      'Access-Control-Allow-Headers',
+      'Authorization, Content-Type, X-App-Key, X-Device-Id, X-Device-Name, X-Device-Platform',
+    );
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
     if (method === 'OPTIONS') {
       res.writeHead(204).end();
@@ -63,6 +68,14 @@ export function createApp(router = buildRouter()) {
         body: {},
         ip: String(req.headers['x-forwarded-for'] || req.socket.remoteAddress || '').split(',')[0].trim(),
       };
+      // A signed-in call from a session that has ended (another device signed
+      // in, this device was removed, logout) is refused straight away, not
+      // only when the access token next expires.
+      const auth = /^Bearer\s+(.+)$/i.exec(String(req.headers.authorization || ''));
+      if (auth && !url.pathname.startsWith('/v1/auth/')) {
+        const claims = verifyAccessToken(auth[1].trim());
+        if (claims?.sid) await assertSessionOpen(claims.sid);
+      }
       if (method !== 'GET' && method !== 'HEAD') {
         const buf = await readBody(req);
         const type = String(req.headers['content-type'] || '');

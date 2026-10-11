@@ -8,6 +8,7 @@ import { isStrongPassword } from '../lib/phone';
 import { entitlements } from '../lib/entitlements';
 import { assertPasswordChangeAllowed, publicUser, requireUser, userSelect } from '../lib/users';
 import { deleteObjects } from '../lib/r2';
+import { listDevices, removeDeviceByUser } from '../lib/devices';
 
 /** Profile keys the app may not set itself (billing / server-owned). */
 const PROTECTED_PROFILE_KEYS = new Set(['plan', 'isDemo']);
@@ -70,6 +71,19 @@ export function registerMeRoutes(r: Router): void {
 
   r.get('/v1/me/usage', async (ctx) => entitlements(requireUser(ctx)));
 
+  // Settings → Your devices (at most 2; see lib/devices.ts).
+  r.get('/v1/me/devices', async (ctx) => {
+    const userId = requireUser(ctx);
+    return listDevices(userId, await currentDeviceId(ctx.sessionId));
+  });
+
+  r.delete('/v1/me/devices/:id', async (ctx) => {
+    const userId = requireUser(ctx);
+    const current = await currentDeviceId(ctx.sessionId);
+    await removeDeviceByUser(userId, ctx.params.id, current);
+    return listDevices(userId, current);
+  });
+
   // Permanently deletes the account and everything that belongs to it.
   r.delete('/v1/me', async (ctx) => {
     const userId = requireUser(ctx);
@@ -84,4 +98,11 @@ export function registerMeRoutes(r: Router): void {
     await deleteObjects(recordings.map((x) => x.r2Key)).catch((e) => console.error('[me] R2 cleanup failed', e));
     return { deleted: true };
   });
+}
+
+/** The device of the calling session (null for sessions from before devices). */
+async function currentDeviceId(sessionId: string | undefined): Promise<string | null> {
+  if (!sessionId) return null;
+  const row = await prisma.session.findUnique({ where: { id: sessionId }, select: { deviceId: true } });
+  return row?.deviceId ?? null;
 }

@@ -402,6 +402,7 @@ class Store extends ChangeNotifier {
         if (_currentId == null) return;
         _currentId = null;
         commit();
+        onSignedOutByServer?.call();
       };
     } else {
       _ensureDemoAccounts();
@@ -702,6 +703,15 @@ class Store extends ChangeNotifier {
   /// [AuthResult.invalidOtp].
   static String? lastAuthError;
 
+  /// Server code of the last failed sign-in ('device_locked' …).
+  static String? lastAuthCode;
+
+  /// Extra data of the last failed sign-in (device_locked: retryAt, devices).
+  static Map<String, dynamic> lastAuthData = <String, dynamic>{};
+
+  /// Called after the server signs this device out (the app shows Login).
+  static void Function()? onSignedOutByServer;
+
   /// Development servers (SMS_PROVIDER=console) return the OTP; shown in a toast.
   static String? lastDevCode;
 
@@ -709,6 +719,8 @@ class Store extends ChangeNotifier {
 
   AuthResult _fail(ApiException e) {
     lastAuthError = e.message;
+    lastAuthCode = e.code;
+    lastAuthData = e.data;
     return switch (e.code) {
       'network' => AuthResult.network,
       'no_account' => AuthResult.noAccount,
@@ -753,6 +765,8 @@ class Store extends ChangeNotifier {
   /// account in on this device and downloads its progress.
   Future<void> _adoptSession(Map<String, dynamic> r, {bool keepSignedIn = true}) async {
     final user = r.m('user');
+    ApiClient.clearEnded();
+    lastAuthCode = null;
     await ApiClient.setSession(ApiSession.fromAuth(r));
     applyRemoteUser(user);
     _currentId = user.s('id');
@@ -771,6 +785,19 @@ class Store extends ChangeNotifier {
       await _adoptSession(r, keepSignedIn: keepSignedIn);
       return AuthResult.ok;
     } on ApiException catch (e) {
+      return _fail(e);
+    }
+  }
+
+  /// "Use it here": takes the account back from the other device after the
+  /// server signed this one out (see [ApiClient.canTakeOver]).
+  Future<AuthResult> takeOver() async {
+    try {
+      final r = await ApiClient.takeover();
+      await _adoptSession(r);
+      return AuthResult.ok;
+    } on ApiException catch (e) {
+      if (e.status == 401) ApiClient.clearEnded();
       return _fail(e);
     }
   }

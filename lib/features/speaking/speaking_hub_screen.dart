@@ -310,6 +310,20 @@ class _SpeakingHubScreenState extends State<SpeakingHubScreen> {
             onTap: () => context.push(Routes.articleTips, args: <String, dynamic>{'series': 'speaking'}),
           ),
         ],
+        if (filterId != 'due' && filterId != 'saved') ...[
+          _GuideRow(
+            icon: AppIcons.timer,
+            title: 'Full Speaking Tests',
+            subtitle: '${Content.speakingTests.length} tests · Parts 1, 2 and 3 back to back',
+            onTap: () => context.push(Routes.speakingTests),
+          ),
+          _GuideRow(
+            icon: AppIcons.voice,
+            title: 'Pronunciation Trainer',
+            subtitle: 'Say a word and see exactly which sounds to fix',
+            onTap: () => context.push(Routes.pronunciation),
+          ),
+        ],
       ],
     );
   }

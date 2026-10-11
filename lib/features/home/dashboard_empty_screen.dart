@@ -10,6 +10,7 @@ import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
 import '../plan/plan_widgets.dart';
 import 'profile_sheet.dart';
+import 'signature_tools.dart';
 import 'widgets.dart';
 
 /// B2 · Dashboard - first-time empty state (before the diagnostic).
@@ -173,6 +174,8 @@ class FirstTimeDashboard extends StatelessWidget {
         ),
 
         const TodayPlanCard(),
+        // Our own tools: always one tap away.
+        const SignatureTools(),
 
         // Getting started checklist
         AppCard(

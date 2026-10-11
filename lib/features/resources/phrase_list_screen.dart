@@ -9,8 +9,10 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/lang_switch.dart';
+import '../../app/widgets/speak_button.dart';
 import '../reading/widgets.dart' show boldSpans;
 import 'widgets.dart';
+import 'word_sheet.dart';
 
 /// Phrasal verbs / idioms list (content bank `content.resources.<kind>`),
 /// styled like the Vocab Vault: search, topic chips, meaning + example cards,
@@ -102,6 +104,27 @@ class _PhraseListScreenState extends State<PhraseListScreen> {
         'both' => 'Speaking & Writing',
         _ => '',
       };
+
+  /// Opens the word sheet (as in the Vocab Vault) for a phrase-list item.
+  void _open(Map<String, dynamic> p) {
+    final kind = _topicVocab ? 'topic' : (_idioms ? 'idiom' : 'phrasal');
+    final register = _registerLabel(p.s('register'));
+    showResWordData(context, <String, dynamic>{
+      'id': p.s('id'),
+      'kind': kind,
+      'word': p.s('phrase'),
+      'partOfSpeech': switch (kind) { 'idiom' => 'idiom', 'phrasal' => 'phrasal verb', _ => '' },
+      'definition': p.s('meaning'),
+      'examples': <String>[
+        if (p.s('example').isNotEmpty) p.s('example'),
+        if (p.s('ieltsExample').isNotEmpty) p.s('ieltsExample'),
+      ],
+      'synonyms': p.ls('synonyms'),
+      if (register.isNotEmpty) 'register': register,
+      if (p.s('topic').isNotEmpty) 'group': p.s('topic'),
+      if (p.s('care').isNotEmpty) 'note': p.s('care'),
+    });
+  }
 
   // ── practice ──────────────────────────────────────────────────────────────
 
@@ -314,6 +337,7 @@ class _PhraseListScreenState extends State<PhraseListScreen> {
             data: p,
             register: _registerLabel(p.s('register')),
             saved: isWordSaved(store, p.s('id')),
+            onTap: () => _open(p),
             onSave: () {
               final now = toggleSavedWord(p.s('id'));
               context.toast(now ? 'Saved to your words' : 'Removed from saved words');
@@ -519,12 +543,14 @@ class _PhraseCard extends StatelessWidget {
     required this.register,
     required this.saved,
     required this.onSave,
+    this.onTap,
   });
 
   final Map<String, dynamic> data;
   final String register;
   final bool saved;
   final VoidCallback onSave;
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -532,6 +558,7 @@ class _PhraseCard extends StatelessWidget {
     final care = data.s('care');
     return AppCard(
       radius: 22,
+      onTap: onTap,
       padding: const EdgeInsets.fromLTRB(16, 14, 12, 14),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -547,6 +574,7 @@ class _PhraseCard extends StatelessWidget {
                   style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                 ),
               ),
+              SpeakButton(text: data.s('phrase'), size: 38, radius: 13, iconSize: 18, bg: t.surfaceAlt2),
               IconBox(
                 icon: saved ? AppIcons.bookmarkFilled : AppIcons.bookmark,
                 tooltip: saved ? 'Remove from saved words' : 'Save to my words',

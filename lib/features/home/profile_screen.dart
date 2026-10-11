@@ -308,6 +308,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: 'Change password',
               onTap: () => showChangePasswordSheet(context),
             ),
+            _SettingRow(
+              icon: AppIcons.devices,
+              title: 'Your devices',
+              subtitle: 'Up to 2 devices · one screen at a time',
+              onTap: () => context.push(Routes.devices),
+            ),
           ],
         ),
 

@@ -7,6 +7,7 @@ import 'app/data/demo.dart';
 import 'app/data/l10n.dart';
 import 'app/data/store.dart';
 import 'app/services/connection_gate.dart';
+import 'app/services/device_identity.dart';
 import 'app/services/notification_service.dart';
 import 'app/services/sync_service.dart';
 
@@ -20,6 +21,8 @@ import 'app/services/sync_service.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Demo.load();
+  // Before the store: API calls carry this install's device id.
+  await DeviceIdentity.init();
   await Store.I.load();
   SyncService.I.init();
   Connection.I.init();

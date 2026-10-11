@@ -97,6 +97,8 @@ IconData resIcon(String key) {
       return AppIcons.swap;
     case 'chart':
       return AppIcons.chart;
+    case 'quiz':
+      return AppIcons.quiz;
     default:
       return AppIcons.article;
   }

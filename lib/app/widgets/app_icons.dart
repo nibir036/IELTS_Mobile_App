@@ -146,6 +146,8 @@ class AppIcons {
   static const quote = Icons.format_quote_rounded;
   static const voice = Icons.record_voice_over_outlined;
   static const checklist = Icons.checklist_rounded;
+  static const devices = Icons.devices_rounded;
+  static const smartphone = Icons.smartphone_rounded;
   static const taskDone = Icons.task_alt_rounded;
   static const layers = Icons.layers_outlined;
   static const textFields = Icons.text_fields_rounded;

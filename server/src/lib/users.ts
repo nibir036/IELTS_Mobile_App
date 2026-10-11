@@ -11,6 +11,7 @@ export function requireUser(ctx: Ctx): string {
   const claims = verifyAccessToken(m[1].trim());
   if (!claims) throw unauthorized('Your session has expired. Please log in again.', 'token_expired');
   ctx.userId = claims.sub;
+  ctx.sessionId = claims.sid;
   return claims.sub;
 }
 

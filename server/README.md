@@ -27,8 +27,8 @@ Settings to fill in `server\.env` (see `.env.example`):
 
 | Area | Routes |
 |---|---|
-| Auth | `POST /v1/auth/otp/send` {phone, purpose: signup\|reset} · `POST /v1/auth/otp/verify` → {proof} · `POST /v1/auth/register` {name, phone, password, proof} · `POST /v1/auth/login` · `POST /v1/auth/refresh` {refreshToken} (rotates) · `POST /v1/auth/logout` · `POST /v1/auth/reset-password` {phone, password, proof} |
-| Me | `GET/PATCH/DELETE /v1/me` · `POST /v1/me/password` · `GET /v1/me/usage` |
+| Auth | `POST /v1/auth/otp/send` {phone, purpose: signup\|reset} · `POST /v1/auth/otp/verify` → {proof} · `POST /v1/auth/register` {name, phone, password, proof} · `POST /v1/auth/login` · `POST /v1/auth/refresh` {refreshToken} (rotates) · `POST /v1/auth/logout` · `POST /v1/auth/reset-password` {phone, password, proof} · `POST /v1/auth/takeover` {refreshToken} ("Use it here") |
+| Me | `GET/PATCH/DELETE /v1/me` · `POST /v1/me/password` · `GET /v1/me/usage` · `GET /v1/me/devices` · `DELETE /v1/me/devices/:id` |
 | Content | `GET /v1/content` (manifest) · `/v1/content/bundle?collections=a,b` · `/v1/content/:collection[/:id]` · `/v1/word-of-the-day` — filters such as `?source=bank`, `?kind=full`, `?test=wt_01`; new collections `writing-tests`, `speaking-tests`, `documents` (`?kind=guide\|meta\|list\|glossary\|l10n`) |
 | Sync | `GET /v1/sync?since=<iso>` · `POST /v1/sync` {attempts, state, tasks} |
 | Progress | `/v1/attempts`, `/v1/state[/:key]`, `/v1/notifications`, `/v1/tasks/:id` |
@@ -48,6 +48,17 @@ Speaking Part 1 / 2 / 3, 1 Speaking Test, 1 Full Mock Test, the onboarding level
 once, 5 pronunciation checks, 1 Band 8 rewrite; a 3-day rules-only study plan (no AI
 notes, no weekly re-planning, no quick check). Pro has no limits. Passwords can't be
 reset or changed again within 48 hours of the last change or of registering.
+
+Devices (`src/lib/devices.ts`; the app sends `X-Device-Id` / `X-Device-Name` /
+`X-Device-Platform`, a random id per install): an account works on at most 2
+devices and only one session is open at a time - a sign-in ends the other
+device's session (`401 signed_in_elsewhere`; that device can take it back with
+`/v1/auth/takeover`). Signing in on a further device returns `423 device_locked`
+and locks that device for 48 hours (and again on each try while the account is
+full). A device can be removed in the app once every 30 days. A password reset
+(OTP to the account's phone) on a new device replaces the least recently used
+one. The demo account has no device limits. Review refused devices with
+`SELECT * FROM devices WHERE lock_count > 0`.
 
 ## First-time setup (Windows)
 

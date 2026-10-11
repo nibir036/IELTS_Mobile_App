@@ -37,6 +37,8 @@ export interface Ctx {
   ip: string;
   /** Set by auth middleware for protected routes. */
   userId?: string;
+  /** The access token's session (set by requireUser). */
+  sessionId?: string;
 }
 
 export type Handler = (ctx: Ctx) => Promise<unknown> | unknown;

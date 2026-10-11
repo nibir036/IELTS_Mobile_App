@@ -620,7 +620,9 @@
             "target": "scoringCriteria",
             "meta": "4 skills · band 9–4"
           }
-        ]
+        ],
+        "hub": "resourcesHub",
+        "video": "assets/videos/module_resources.mp4"
       },
       {
         "id": "mod_writing",
@@ -720,7 +722,8 @@
             "unit": "answers"
           }
         ],
-        "expanded": true
+        "expanded": true,
+        "video": "assets/videos/module_writing.mp4"
       },
       {
         "id": "mod_speaking",
@@ -819,7 +822,8 @@
             "icon": "clock",
             "target": "myRecordings"
           }
-        ]
+        ],
+        "video": "assets/videos/module_speaking.mp4"
       },
       {
         "id": "mod_listening",
@@ -887,7 +891,8 @@
             "kind": "lesson",
             "meta": "Lessons"
           }
-        ]
+        ],
+        "video": "assets/videos/module_listening.mp4"
       },
       {
         "id": "mod_reading",
@@ -948,7 +953,8 @@
             "kind": "lesson",
             "meta": "Lessons"
           }
-        ]
+        ],
+        "video": "assets/videos/module_reading.mp4"
       }
     ],
     "analytics": {
@@ -1705,9 +1711,9 @@
       ]
     },
     "plans": {
-      "currency": "৳",
-      "pricingLabel": "Launch pricing",
-      "pricingNote": "Launch pricing in Bangladeshi taka. Prices may change when payments open.",
+      "currency": "BDT",
+      "pricingLabel": "Launch price",
+      "pricingNote": "Prices in Bangladeshi taka. Launch prices end 15 November.",
       "plans": [
         {
           "id": "free",
@@ -1725,9 +1731,9 @@
         {
           "id": "pro",
           "name": "Pro",
-          "tagline": "Unlimited AI feedback for every skill.",
-          "priceMonthly": 499,
-          "priceYearly": 3999,
+          "tagline": "Full access to everything, from BDT 269 a week.",
+          "priceMonthly": 769,
+          "priceYearly": 0,
           "launchPricing": true,
           "highlights": [
             "Unlimited mock tests with band reports",
@@ -1816,7 +1822,57 @@
         "toggleLabel": "Notify me when Pro launches",
         "confirmation": "You’re on the list. We’ll notify you when Pro launches."
       },
-      "proRenewalNote": "Your renewal date and receipts will appear here once payments open."
+      "proRenewalNote": "Your renewal date and receipts will appear here once payments open.",
+      "launchEnds": "15 November",
+      "headline": "Your band score won’t wait. Neither should you.",
+      "subhead": "Full access to every test, AI feedback and your personal study plan.",
+      "passes": [
+        {
+          "id": "week",
+          "name": "1 Week",
+          "label": "Try it properly",
+          "days": 7,
+          "priceWas": 599,
+          "price": 269,
+          "save": "percent",
+          "perDayNote": "less than a cup of coffee",
+          "pitch": "See what 7 days of real practice does to your score."
+        },
+        {
+          "id": "month",
+          "name": "1 Month",
+          "label": "Most popular",
+          "badge": "Most popular",
+          "days": 30,
+          "priceWas": 1999,
+          "price": 769,
+          "save": "percent",
+          "pitch": "Enough time to fix your weakest module before test day."
+        },
+        {
+          "id": "quarter",
+          "name": "3 Months",
+          "label": "Best value",
+          "badge": "Best value",
+          "days": 90,
+          "priceWas": 3999,
+          "price": 1869,
+          "save": "amount",
+          "perDayNote": "the lowest price per day",
+          "pitch": "The full journey: from where you are now to the band you need.",
+          "compare": "Costs less than 13 weeks at the weekly price (BDT 3,497)."
+        }
+      ],
+      "defaultPass": "month",
+      "allAccessTitle": "Everything is unlocked on every plan",
+      "allAccess": [
+        "Unlimited AI feedback on Writing and Speaking",
+        "Unlimited Full Mock Tests with band reports",
+        "A study plan that adapts to your results every week",
+        "Quick check, pronunciation checks and Band 8 rewrites"
+      ],
+      "cta": "Unlock my full access",
+      "ctaNote": "One mock test with a coach costs more than a whole month here."
     }
   },
   "writing": {
@@ -1867,6 +1923,15 @@
       },
       "sectionCount": 8,
       "more": [
+        {
+          "id": "tests",
+          "title": "Full Writing Tests",
+          "subtitle": "Task 1 + Task 2 in 60 minutes, scored by AI",
+          "meta": "",
+          "icon": "tests",
+          "tone": "lavender",
+          "target": "writingTests"
+        },
         {
           "id": "guide",
           "title": "Writing Course",
@@ -1920,6 +1985,15 @@
           "icon": "tips",
           "tone": "pink",
           "target": "articleTips"
+        },
+        {
+          "id": "samples",
+          "title": "Sample Answers",
+          "subtitle": "Band 6, 7 and 8 answers for every question",
+          "meta": "",
+          "icon": "samples",
+          "tone": "rose",
+          "target": "writingSampleAnswer"
         }
       ]
     },
@@ -6172,6 +6246,14 @@
           "icon": "passage"
         },
         {
+          "id": "practice",
+          "title": "Short Practice Tests",
+          "count": "",
+          "subtitle": "Mixed question types · quick timed tests",
+          "tone": "lavender",
+          "icon": "test"
+        },
+        {
           "id": "test",
           "title": "Full Reading Test",
           "count": "",
@@ -7519,6 +7601,15 @@
         "example": "Smartphones have become ubiquitous in classrooms."
       },
       "lists": [
+        {
+          "id": "quiz",
+          "title": "Vocabulary Quiz",
+          "subtitle": "Quick rounds of 10 IELTS words, scored as you go",
+          "count": "10-word rounds",
+          "icon": "quiz",
+          "tone": "pink",
+          "target": "vocabQuiz"
+        },
         {
           "id": "grammar",
           "title": "Grammar Course",

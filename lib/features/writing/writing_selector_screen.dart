@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../app/data/content.dart';
 import '../../app/data/demo.dart';
 import '../../app/data/lessons.dart';
 import '../../app/data/store.dart';
@@ -36,6 +37,8 @@ class WritingSelectorScreen extends StatelessWidget {
         return Routes.writingSampleAnswer;
       case 'essayHistory':
         return Routes.essayHistory;
+      case 'writingTests':
+        return Routes.writingTests;
     }
     return null;
   }
@@ -54,6 +57,10 @@ class WritingSelectorScreen extends StatelessWidget {
         return AppIcons.hash;
       case 'tips':
         return AppIcons.bulb;
+      case 'tests':
+        return AppIcons.timer;
+      case 'samples':
+        return AppIcons.article;
     }
     return AppIcons.writing;
   }
@@ -107,6 +114,9 @@ class WritingSelectorScreen extends StatelessWidget {
       case 'writingSampleAnswer':
         n = WritingContent.withModelAnswer().length;
         unit = 'answer';
+      case 'writingTests':
+        n = Content.writingTests.length;
+        unit = 'test';
       default:
         return row.s('meta');
     }
@@ -259,7 +269,7 @@ class WritingSelectorScreen extends StatelessWidget {
                 ),
               ),
               Text(
-                '${data.i('sectionCount')} sections',
+                '${more.where((r) => _routeFor(r.s('target')) != null).length} sections',
                 style: TextStyle(fontSize: 12, color: t.textMuted),
               ),
             ],

@@ -619,6 +619,7 @@ model User {
   rooms         Room[]
   subscriptions Subscription[]
   usageEvents   UsageEvent[]
+  devices       Device[]
 
   @@map("users")
 }
@@ -633,11 +634,41 @@ model Session {
   revokedAt  DateTime? @map("revoked_at") @db.Timestamptz(3)
   createdAt  DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
   lastUsedAt DateTime? @map("last_used_at") @db.Timestamptz(3)
+  /// The registered device this session belongs to (null = before devices).
+  deviceId   String?   @map("device_id")
+  /// Why it ended: signed_in_elsewhere | device_removed | logout | password_reset
+  revokeReason String? @map("revoke_reason")
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId])
   @@map("sessions")
+}
+
+/// A phone / browser the account is used on. At most 2 active devices per
+/// account (lib/devices.ts); a 3rd one is locked for 48 hours.
+model Device {
+  id          String    @id @default(cuid())
+  userId      String    @map("user_id")
+  /// Random id the app creates once per install (not a hardware id).
+  deviceKey   String    @map("device_key")
+  name        String
+  platform    String?
+  /// active | locked | removed
+  status      String    @default("active")
+  lockedUntil DateTime? @map("locked_until") @db.Timestamptz(3)
+  /// Times this device was refused as a 3rd device (for review).
+  lockCount   Int       @default(0) @map("lock_count")
+  lastIp      String?   @map("last_ip")
+  firstSeenAt DateTime  @default(now()) @map("first_seen_at") @db.Timestamptz(3)
+  lastSeenAt  DateTime  @default(now()) @map("last_seen_at") @db.Timestamptz(3)
+  removedAt   DateTime? @map("removed_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, deviceKey])
+  @@index([userId, status])
+  @@map("devices")
 }
 
 /// One-time codes for sign-up / password reset. Only the code hash is stored.

@@ -117,6 +117,7 @@ class Routes {
   // Phase 4
   static const mockAnswers = '/mock/answers'; // args {'attemptId': …}
   static const plans = '/home/plans';
+  static const devices = '/home/devices'; // Settings → Your devices
 
   // Personal study plan
   static const studyPlan = '/home/study-plan';

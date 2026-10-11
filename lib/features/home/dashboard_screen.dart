@@ -15,6 +15,7 @@ import '../plan/plan_widgets.dart';
 import '../shell/main_shell.dart';
 import 'dashboard_empty_screen.dart';
 import 'profile_sheet.dart';
+import 'signature_tools.dart';
 import 'widgets.dart';
 
 /// B1 · Main Student Dashboard (tab 0 of the shell).
@@ -39,6 +40,8 @@ class DashboardScreen extends StatelessWidget {
         _header(context, store, acc),
         _hero(context, store, acc),
         const TodayPlanCard(),
+        // Our own tools: always one tap away.
+        const SignatureTools(),
         _studyTime(context, store),
         for (var r = 0; r < skills.length; r += 2)
           Row(

@@ -270,6 +270,10 @@ async function planJson(plan: PlanRow, today: string) {
     where: { planId: plan.id, removedAt: null, date: { gte: parseDay(addDays(today, -7)) } },
     orderBy: [{ date: 'asc' }, { createdAt: 'asc' }],
   });
+  const freeEnd = await freeUntil(plan.userId, inputs);
+  if (freeEnd) {
+    for (let i = tasks.length - 1; i >= 0; i--) if (!tasks[i].done && dayKey(tasks[i].date) > freeEnd) tasks.splice(i, 1);
+  }
   const qc = await prisma.userState.findUnique({ where: { userId_key: { userId: plan.userId, key: QUICK_CHECK_KEY } } });
   const dueWhere = { planId: plan.id, removedAt: null, date: { lte: parseDay(today) } };
   const [doneSoFar, dueSoFar] = await Promise.all([
@@ -308,7 +312,7 @@ async function planJson(plan: PlanRow, today: string) {
     })(),
     quickCheck: { done: Boolean(qc), at: qc && typeof qc.value === 'object' ? (qc.value as Row).at ?? null : null },
     access: await (async () => {
-      const until = await freeUntil(plan.userId, inputs);
+      const until = freeEnd;
       return until
         ? { plan: 'free', freeUntil: until, ended: today > until, ai: false, quickCheck: false }
         : { plan: 'pro', freeUntil: null, ended: false, ai: true, quickCheck: true };
@@ -514,6 +518,17 @@ export async function ensurePlan(userId: string): Promise<PlanRow | null> {
     const inputs = plan.inputs as unknown as PlanInputs;
     const today = localToday(inputs.tzOffsetMin);
 
+    // Free plan: nothing after the 3rd study day, ever - also tasks filled
+    // before the limit existed, or moved later by a pause or roll-forward.
+    const cap = await freeUntil(userId, inputs);
+    if (cap) {
+      await removeTasks({ planId: plan.id, done: false, date: { gt: parseDay(cap) } });
+      if (plan.filledUntil && dayKey(plan.filledUntil) > cap) {
+        plan.filledUntil = parseDay(cap);
+        await prisma.studyPlan.update({ where: { id: plan.id }, data: { filledUntil: plan.filledUntil } });
+      }
+    }
+
     if (plan.status === 'paused') {
       if (plan.pausedUntil && dayKey(plan.pausedUntil) >= today) return plan;
       await prisma.studyPlan.update({ where: { id: plan.id }, data: { status: 'active', pausedUntil: null } });
@@ -563,7 +578,6 @@ export async function ensurePlan(userId: string): Promise<PlanRow | null> {
     if (from < inputs.startDate) from = inputs.startDate;
     let to = addDays(today, FILL_AHEAD);
     if (to > dayKey(plan.endDate)) to = dayKey(plan.endDate);
-    const cap = await freeUntil(userId, inputs);
     if (cap && to > cap) to = cap;
     if (from <= to) await fill(userId, plan, from, to, ev);
 
@@ -581,7 +595,7 @@ export async function ensurePlan(userId: string): Promise<PlanRow | null> {
       );
       const slots: string[] = [];
       const last = plan.filledUntil ? dayKey(plan.filledUntil) : today;
-      for (let d = today; d <= last && slots.length < fresh.length; d = addDays(d, 1)) {
+      for (let d = today; d <= last && (!cap || d <= cap) && slots.length < fresh.length; d = addDays(d, 1)) {
         if (inputs.days.includes(weekday(d))) slots.push(d);
       }
       // Most recent misses first: they are the most relevant.

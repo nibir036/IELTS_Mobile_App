@@ -4,8 +4,10 @@ import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
+import '../../app/services/api_client.dart';
 import '../../app/services/config.dart';
 import '../../app/theme/tokens.dart';
+import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
 import '../home/language_sheet.dart';
@@ -56,6 +58,32 @@ class _LoginScreenState extends State<LoginScreen> {
 
   bool _busy = false;
 
+  /// Shown instead of a field error when this device is locked (3rd device).
+  String? _lockedMessage;
+
+  void _goHome() {
+    FeedbackLanguage.applyPending();
+    final acc = Store.I.current;
+    if (acc != null && !acc.onboarded) {
+      context.resetTo(Routes.targetBand);
+    } else {
+      context.resetTo(Routes.home);
+    }
+  }
+
+  /// "Use it here" after the account was opened on the other device.
+  Future<void> _takeOver() async {
+    setState(() => _busy = true);
+    final r = await Store.I.takeOver();
+    if (!mounted) return;
+    setState(() => _busy = false);
+    if (r == AuthResult.ok) {
+      _goHome();
+    } else {
+      context.toast(Store.authMessage(r));
+    }
+  }
+
   bool get _canSubmit =>
       !_busy && _phone.text.trim().isNotEmpty && _password.text.isNotEmpty;
 
@@ -76,16 +104,19 @@ class _LoginScreenState extends State<LoginScreen> {
     if (!mounted) return;
     setState(() => _busy = false);
     if (r == AuthResult.ok) {
-      FeedbackLanguage.applyPending();
-      final acc = Store.I.current;
-      if (acc != null && !acc.onboarded) {
-        context.resetTo(Routes.targetBand);
-      } else {
-        context.resetTo(Routes.home);
-      }
+      _goHome();
+      return;
+    }
+    if (Store.lastAuthCode == 'device_locked') {
+      setState(() {
+        _lockedMessage = Store.lastAuthError;
+        _phoneError = null;
+        _passwordError = null;
+      });
       return;
     }
     setState(() {
+      _lockedMessage = null;
       if (r == AuthResult.wrongPassword) {
         _passwordError = Store.authMessage(r);
         _phoneError = null;
@@ -191,6 +222,26 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
         ),
+        if (_lockedMessage != null)
+          _NoticeCard(
+            icon: AppIcons.lock,
+            title: 'This device is locked',
+            body: _lockedMessage!,
+          )
+        else if (ApiClient.endedReason == 'signed_in_elsewhere')
+          _NoticeCard(
+            icon: AppIcons.devices,
+            title: 'Signed out on this device',
+            body: 'Your account was opened on your other device. Only one screen can be signed in at a time.',
+            action: ApiClient.canTakeOver ? 'Use it here' : null,
+            onAction: _busy ? null : _takeOver,
+          )
+        else if (ApiClient.endedReason == 'device_removed')
+          const _NoticeCard(
+            icon: AppIcons.devices,
+            title: 'This device was removed',
+            body: 'It was removed from your account on your other device. Log in to add it again.',
+          ),
         Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
@@ -305,6 +356,46 @@ class _DemoAccountCard extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// A notice above the login form (signed out elsewhere, device locked).
+class _NoticeCard extends StatelessWidget {
+  const _NoticeCard({required this.icon, required this.title, required this.body, this.action, this.onAction});
+
+  final IconData icon;
+  final String title;
+  final String body;
+  final String? action;
+  final VoidCallback? onAction;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    return AppCard(
+      radius: 22,
+      color: t.accentSoft,
+      padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        mainAxisSize: MainAxisSize.min,
+        spacing: 8,
+        children: [
+          Row(
+            spacing: 10,
+            children: [
+              Icon(icon, size: 20, color: t.text),
+              Expanded(
+                child: Text(title, style: const TextStyle(fontSize: 15.5, fontWeight: FontWeight.w600)),
+              ),
+            ],
+          ),
+          Text(body, style: TextStyle(fontSize: 13.5, height: 1.4, color: t.textSoft)),
+          if (action != null)
+            PrimaryButton(label: action!, height: 44, enabled: onAction != null, onTap: onAction),
+        ],
       ),
     );
   }

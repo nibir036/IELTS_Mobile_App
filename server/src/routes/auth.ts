@@ -10,6 +10,7 @@ import { isStrongPassword, isValidPhone, normalizePhone } from '../lib/phone';
 import { sendSms } from '../lib/sms';
 import { hashToken, newRefreshToken, signAccessToken } from '../lib/tokens';
 import { assertPasswordChangeAllowed, publicUser, userSelect } from '../lib/users';
+import { admitDevice, deviceOf, endOtherSessions, sessionEndedError } from '../lib/devices';
 
 function purposeOf(v: unknown): OtpPurpose {
   const p = s(v) || 'signup';
@@ -23,18 +24,28 @@ function phoneOf(body: Record<string, unknown>): string {
   return normalizePhone(raw);
 }
 
-/** Creates a session and returns the token pair + user. */
-export async function issueSession(ctx: Ctx, userId: string) {
+/**
+ * Creates a session on the calling device and returns the token pair + user.
+ * The device must be allowed (at most 2 per account; a further one is
+ * locked for 48 hours), and the account's other sessions end: one signed-in
+ * screen at a time. [recover] = after an OTP-proved password reset.
+ */
+export async function issueSession(ctx: Ctx, userId: string, opts: { recover?: boolean } = {}) {
+  // The shared demo account (testing / store review) has no device limits.
+  const demo = (await prisma.user.findUnique({ where: { id: userId }, select: { isDemo: true } }))?.isDemo === true;
+  const deviceId = demo ? null : await admitDevice(userId, deviceOf(ctx), ctx.ip, opts);
   const refreshToken = newRefreshToken();
   const session = await prisma.session.create({
     data: {
       userId,
+      deviceId,
       tokenHash: hashToken(refreshToken),
       userAgent: s(ctx.req.headers['user-agent'], 300) || null,
       expiresAt: new Date(Date.now() + env.refreshTokenDays * 86400_000),
     },
     select: { id: true, expiresAt: true },
   });
+  if (!demo) await endOtherSessions(userId, session.id, 'signed_in_elsewhere');
   const access = signAccessToken(userId, session.id);
   const user = await prisma.user.findUnique({ where: { id: userId }, select: userSelect });
   if (!user) throw unauthorized();
@@ -130,13 +141,19 @@ export function registerAuthRoutes(r: Router): void {
     const token = required(ctx.body, 'refreshToken', 200);
     const session = await prisma.session.findUnique({ where: { tokenHash: hashToken(token) } });
     if (!session || session.revokedAt || session.expiresAt.getTime() < Date.now()) {
-      throw unauthorized('Your session has ended. Please log in again.', 'session_ended');
+      throw session?.revokedAt ? sessionEndedError(session.revokeReason) : unauthorized('Your session has ended. Please log in again.', 'session_ended');
     }
     const next = newRefreshToken();
     await prisma.session.update({
       where: { id: session.id },
       data: { tokenHash: hashToken(next), lastUsedAt: new Date() },
     });
+    if (session.deviceId) {
+      await prisma.device.updateMany({
+        where: { id: session.deviceId },
+        data: { lastSeenAt: new Date(), lastIp: ctx.ip || null },
+      });
+    }
     const access = signAccessToken(session.userId, session.id);
     const user = await prisma.user.findUnique({ where: { id: session.userId }, select: userSelect });
     if (!user) throw unauthorized();
@@ -154,10 +171,34 @@ export function registerAuthRoutes(r: Router): void {
     if (token) {
       await prisma.session.updateMany({
         where: { tokenHash: hashToken(token), revokedAt: null },
-        data: { revokedAt: new Date() },
+        data: { revokedAt: new Date(), revokeReason: 'logout' },
       });
     }
     return { ok: true };
+  });
+
+  // "Use it here": a device that was signed out because the account was
+  // opened on the other device takes it back (no password needed: it is
+  // one of the account's registered devices). The other device is signed out.
+  r.post('/v1/auth/takeover', async (ctx) => {
+    const token = required(ctx.body, 'refreshToken', 200);
+    rateLimit(`takeover:${ctx.ip}`, 30, 3600);
+    const session = await prisma.session.findUnique({ where: { tokenHash: hashToken(token) } });
+    if (
+      !session ||
+      session.revokeReason !== 'signed_in_elsewhere' ||
+      session.expiresAt.getTime() < Date.now() ||
+      !session.deviceId
+    ) {
+      throw unauthorized('Please log in again.', 'session_ended');
+    }
+    const device = await prisma.device.findFirst({ where: { id: session.deviceId, userId: session.userId } });
+    if (!device || device.status !== 'active' || device.deviceKey !== deviceOf(ctx).key) {
+      throw unauthorized('Please log in again.', 'session_ended');
+    }
+    // The old token can't be used twice.
+    await prisma.session.update({ where: { id: session.id }, data: { revokeReason: 'taken_over' } });
+    return issueSession(ctx, session.userId);
   });
 
   // Forgot password: verify the phone with purpose "reset", then set a new one.
@@ -182,7 +223,11 @@ export function registerAuthRoutes(r: Router): void {
       data: { passwordHash: hashPassword(password), passwordChangedAt: new Date() },
     });
     // Sign out every device.
-    await prisma.session.updateMany({ where: { userId: user.id, revokedAt: null }, data: { revokedAt: new Date() } });
-    return issueSession(ctx, user.id);
+    await prisma.session.updateMany({
+      where: { userId: user.id, revokedAt: null },
+      data: { revokedAt: new Date(), revokeReason: 'password_reset' },
+    });
+    // The OTP proved the phone number: a full account makes room for this device.
+    return issueSession(ctx, user.id, { recover: true });
   });
 }

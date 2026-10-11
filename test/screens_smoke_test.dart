@@ -78,6 +78,7 @@ const Map<String, String> kExtraRoutes = <String, String>{
   Routes.legal: 'X-legal',
   Routes.mockAnswers: 'X-mockAnswers',
   Routes.plans: 'X-plans',
+  Routes.devices: 'X-devices',
   Routes.readingBank: 'X-readingBank',
   Routes.readingType: 'X-readingType',
   Routes.readingTypeLesson: 'X-readingTypeLesson',

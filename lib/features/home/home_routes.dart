@@ -10,6 +10,7 @@ import 'certificates_screen.dart';
 import 'dashboard_empty_screen.dart';
 import 'notification_settings_screen.dart';
 import 'notifications_screen.dart';
+import 'devices_screen.dart';
 import 'plans_screen.dart';
 import 'schedule_screen.dart';
 import 'search_screen.dart';
@@ -25,6 +26,7 @@ final Map<String, WidgetBuilder> homeRoutes = <String, WidgetBuilder>{
   Routes.search: (_) => const SearchScreen(),
   Routes.certificates: (_) => const CertificatesScreen(),
   Routes.plans: (_) => const PlansScreen(),
+  Routes.devices: (_) => const DevicesScreen(),
   Routes.studyPlan: (_) => const StudyPlanScreen(),
   Routes.studyPlanSetup: (_) => const PlanSetupScreen(),
   Routes.studyPlanPreview: (_) => const PlanPreviewScreen(),

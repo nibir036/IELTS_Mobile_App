@@ -65,6 +65,9 @@ class ReadingLandingScreen extends StatelessWidget {
       case 'test':
         n = Content.readingTests.length;
         unit = 'test';
+      case 'practice':
+        n = Content.readingPracticeTests.length;
+        unit = 'test';
       default:
         return m.s('count');
     }
@@ -85,6 +88,8 @@ class ReadingLandingScreen extends StatelessWidget {
         context.push(Routes.readingLibrary, args: {'filter': 'full'});
       case 'tips':
         context.push(Routes.articleTips, args: {'series': 'reading'});
+      case 'practice':
+        context.push(Routes.readingPracticeTests);
       default:
         // Unknown module ids fall back to the library.
         context.push(Routes.readingLibrary);
@@ -104,7 +109,8 @@ class ReadingLandingScreen extends StatelessWidget {
           'progress': _moduleProgress(store, m.s('id')),
         },
     ];
-    final tracked = modules.where((m) => m.s('id') != 'tips').toList();
+    // Progress counts the tracked modules only.
+    final tracked = modules.where((m) => m.s('id') != 'tips' && m.s('id') != 'practice').toList();
     final avg = tracked.isEmpty
         ? 0.0
         : tracked.map((m) => m.d('progress')).reduce((a, b) => a + b) / tracked.length;

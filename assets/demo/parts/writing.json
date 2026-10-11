@@ -47,6 +47,15 @@
     "sectionCount": 8,
     "more": [
       {
+        "id": "tests",
+        "title": "Full Writing Tests",
+        "subtitle": "Task 1 + Task 2 in 60 minutes, scored by AI",
+        "meta": "",
+        "icon": "tests",
+        "tone": "lavender",
+        "target": "writingTests"
+      },
+      {
         "id": "guide",
         "title": "Writing Course",
         "subtitle": "Step-by-step lessons from the nextED Writing book",
@@ -99,6 +108,15 @@
         "icon": "tips",
         "tone": "pink",
         "target": "articleTips"
+      },
+      {
+        "id": "samples",
+        "title": "Sample Answers",
+        "subtitle": "Band 6, 7 and 8 answers for every question",
+        "meta": "",
+        "icon": "samples",
+        "tone": "rose",
+        "target": "writingSampleAnswer"
       }
     ]
   },

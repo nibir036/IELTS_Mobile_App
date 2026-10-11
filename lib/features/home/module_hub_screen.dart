@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:pointer_interceptor/pointer_interceptor.dart';
 
 import '../../app/data/content.dart';
 import '../../app/data/demo.dart';
-import '../../app/data/lessons.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
-import '../resources/widgets.dart' show resLiveCount;
+import '../../app/widgets/loop_video.dart';
+import '../../app/widgets/mascot.dart';
+import '../../app/widgets/user_avatar.dart';
 import '../shell/main_shell.dart';
 import '../writing/writing_data.dart' show WritingContent;
 import 'widgets.dart';
@@ -23,9 +25,6 @@ class ModuleHubScreen extends StatefulWidget {
 }
 
 class _ModuleHubScreenState extends State<ModuleHubScreen> {
-  final Set<String> _expanded = <String>{};
-  bool _seeded = false;
-
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
@@ -37,16 +36,6 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
       acc?.targetBand == null ? 'No target set' : 'Target ${Store.formatBand(acc!.targetBand)}',
       if (days != null && days >= 0) '$days days left',
     ].join(' · ');
-    if (!_seeded) {
-      _seeded = true;
-      // Accordion: at most one section open.
-      for (final m in modules) {
-        if (m.b('expanded')) {
-          _expanded.add(m.s('id'));
-          break;
-        }
-      }
-    }
 
     return AppScreen(
       padding: const EdgeInsets.fromLTRB(20, 16, 20, MainShell.navClearance),
@@ -55,21 +44,14 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
         Row(
           spacing: 12,
           children: [
-            Container(
-              width: 44,
-              height: 44,
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                color: const Color(0xFFFFB8A3),
-                borderRadius: BorderRadius.circular(14),
-              ),
-              child: Text(
-                acc?.initials ?? '?',
-                style: const TextStyle(
-                  fontSize: 15,
-                  fontWeight: FontWeight.w500,
-                  color: kInk,
-                ),
+            // Same photo and action as the Profile tab in the nav bar.
+            Semantics(
+              button: true,
+              label: 'Profile and settings',
+              child: GestureDetector(
+                behavior: HitTestBehavior.opaque,
+                onTap: () => MainShell.of(context)?.select(4),
+                child: const UserAvatar(size: 44),
               ),
             ),
             Expanded(
@@ -129,27 +111,21 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
             ),
           ],
         ),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          spacing: 10,
-          children: [
-            for (final m in modules)
-              if (m.l('items').isEmpty)
-                _ModuleRow(module: m)
-              else
-                _ModuleGroup(
-                  module: m,
-                  expanded: _expanded.contains(m.s('id')),
-                  onToggle: () => setState(() {
-                    final id = m.s('id');
-                    // Opening one section closes the others.
-                    final open = _expanded.contains(id);
-                    _expanded.clear();
-                    if (!open) _expanded.add(id);
-                  }),
-                ),
-          ],
-        ),
+        // Module cards, two per row: a short video (or Nexi until it is
+        // ready); a tap opens the module's page with everything in it.
+        // The first module (Resources) takes a whole row; the rest two per row.
+        if (modules.isNotEmpty) _ModuleCard(module: modules.first, wide: true),
+        for (var r = 1; r < modules.length; r += 2)
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            spacing: 12,
+            children: [
+              Expanded(child: _ModuleCard(module: modules[r])),
+              Expanded(
+                child: r + 1 < modules.length ? _ModuleCard(module: modules[r + 1]) : const SizedBox.shrink(),
+              ),
+            ],
+          ),
       ],
     );
   }
@@ -188,14 +164,6 @@ int? contentCount(String key) => switch (key) {
       _ => null,
     };
 
-/// An item's goal: the live content count (`countOf`) when it tracks progress
-/// (`skill`), else the fixed `goal`.
-int _goal(Map<String, dynamic> it) {
-  final n = contentCount(it.s('countOf'));
-  if (n != null && n > 0 && it.s('skill').isNotEmpty) return n;
-  return it.i('goal');
-}
-
 /// Module meta: "Done" when the goal is reached, otherwise a percentage.
 String _moduleMeta(Store store, Map<String, dynamic> m) {
   final goal = m.i('goal');
@@ -205,256 +173,124 @@ String _moduleMeta(Store store, Map<String, dynamic> m) {
   return '${(n * 100 / goal).round()}%';
 }
 
-/// Item meta: "n / goal" when the item tracks progress; "N unit" from a live
-/// count (`countOf` + `unit`); else its static meta.
-String _itemMeta(Store store, Map<String, dynamic> it) {
-  final course = it.s('course');
-  if (course.isNotEmpty && Lessons.has(course)) {
-    return '${Lessons.doneCount(store, module: course)} / ${Lessons.all(course).length} lessons';
-  }
-  final goal = _goal(it);
-  if (goal > 0) return '${_doneCount(store, it)} / $goal';
-  final n = contentCount(it.s('countOf'));
-  if (n != null && n > 0 && it.s('unit').isNotEmpty) return '$n ${it.s('unit')}';
-  final live = it.s('liveCount').isEmpty ? null : resLiveCount(it.s('liveCount'));
-  return live ?? it.s('meta');
-}
+/// The page a module card opens (`hub` in home.json, else its `target`).
+String moduleHubTarget(Map<String, dynamic> m) => m.s('hub').isNotEmpty ? m.s('hub') : m.s('target');
 
-Color _tint(String key) => key == 'pink' ? kPastelPink : kPastelLavender;
+/// Nexi pose for a module card without its video yet.
+NexiPose _poseFor(Map<String, dynamic> m) => switch (m.s('skill')) {
+      'writing' => NexiPose.writing,
+      'speaking' => NexiPose.speaking,
+      'listening' => NexiPose.listening,
+      'reading' => NexiPose.reading,
+      _ => NexiPose.grad,
+    };
 
-class _ModuleRow extends StatelessWidget {
-  const _ModuleRow({required this.module});
+class _ModuleCard extends StatelessWidget {
+  const _ModuleCard({required this.module, this.wide = false});
 
   final Map<String, dynamic> module;
+
+  /// Full-width card (landscape video).
+  final bool wide;
 
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
     final meta = _moduleMeta(context.store, module);
-    return AppCard(
-      radius: 20,
-      height: 60,
-      padding: const EdgeInsets.fromLTRB(10, 0, 16, 0),
-      onTap: () => openHomeTarget(context, module.s('target')),
-      child: Row(
-        spacing: 12,
-        children: [
-          Container(
-            width: 40,
-            height: 40,
-            decoration: BoxDecoration(
-              color: _tint(module.s('tint')),
-              borderRadius: BorderRadius.circular(14),
-            ),
-            child: Icon(
-              meta == 'Done' ? AppIcons.check : homeIconFor(module.s('icon')),
-              size: 20,
-              color: kInk,
-            ),
-          ),
-          Expanded(
-            child: Text(
-              module.s('title'),
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(fontSize: 16),
-            ),
-          ),
-          Text(
-            meta,
-            style: TextStyle(fontSize: 12, color: t.textMuted),
-          ),
-          Icon(AppIcons.chevronDown, size: 20, color: t.text),
-        ],
+    final video = module.s('video');
+    final placeholder = DecoratedBox(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: t.isNight
+              ? <Color>[t.surfaceAlt2, t.surfaceAlt]
+              : const <Color>[Color(0xFFEEF3FF), Color(0xFFFFF1EB)],
+        ),
+      ),
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(12),
+          child: Nexi(_poseFor(module), height: 130),
+        ),
       ),
     );
-  }
-}
-
-class _ModuleGroup extends StatelessWidget {
-  const _ModuleGroup({
-    required this.module,
-    required this.expanded,
-    required this.onToggle,
-  });
-
-  final Map<String, dynamic> module;
-  final bool expanded;
-  final VoidCallback onToggle;
-
-  @override
-  Widget build(BuildContext context) {
-    final t = context.tk;
-    final items = module.l('items');
-    return AppCard(
-      radius: 24,
-      padding: const EdgeInsets.all(10),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          InkWell(
-            onTap: onToggle,
-            borderRadius: BorderRadius.circular(14),
-            child: SizedBox(
-              height: 44,
-              child: Padding(
-                padding: const EdgeInsets.only(right: 6),
-                child: Row(
-                  spacing: 12,
+    void open() => openHomeTarget(context, moduleHubTarget(module));
+    final card = AppCard(
+        radius: 24,
+        padding: EdgeInsets.zero,
+        onTap: open,
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(24),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              AspectRatio(
+                aspectRatio: wide ? 1.38 : 0.9,
+                child: Stack(
+                  fit: StackFit.expand,
                   children: [
-                    Container(
-                      width: 40,
-                      height: 40,
-                      alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(14),
-                        border: Border.all(
-                          width: 2,
-                          color: t.isNight
-                              ? const Color(0xFF3A4570)
-                              : const Color(0xFFB4C8FF),
+                    if (video.isEmpty) placeholder else LoopVideo(asset: video, placeholder: placeholder),
+                    Positioned(
+                      left: 10,
+                      top: 10,
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: t.surface.withValues(alpha: 0.92),
+                          borderRadius: BorderRadius.circular(999),
+                        ),
+                        child: Text(
+                          meta,
+                          style: TextStyle(fontSize: 11, fontWeight: FontWeight.w600, color: t.text),
                         ),
                       ),
-                      child: Text(
-                        _moduleMeta(context.store, module),
-                        style: const TextStyle(
-                          fontSize: 11,
-                          fontWeight: FontWeight.w600,
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Text(
-                        module.s('title'),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                    ),
-                    AnimatedRotation(
-                      turns: expanded ? 0.5 : 0,
-                      duration: const Duration(milliseconds: 300),
-                      curve: Curves.easeOutCubic,
-                      child: Icon(AppIcons.chevronDown, size: 20, color: t.text),
                     ),
                   ],
                 ),
               ),
-            ),
-          ),
-          // Opens / closes smoothly instead of jumping.
-          AnimatedSize(
-            duration: const Duration(milliseconds: 300),
-            curve: Curves.easeOutCubic,
-            alignment: Alignment.topCenter,
-            child: !expanded
-                ? const SizedBox(width: double.infinity)
-                : Padding(
-                    padding: const EdgeInsets.only(top: 6),
-                    child: Container(
-                      padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(18),
-                        color: t.isNight ? t.surfaceAlt2 : null,
-                        gradient: t.isNight
-                            ? null
-                            : const LinearGradient(
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter,
-                                colors: [Color(0xFFEEF3FF), Color(0xFFFFF1EB)],
-                              ),
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        spacing: 4,
-                        children: [
-                          for (final it in items) _SubItem(item: it),
-                        ],
+              Padding(
+                padding: const EdgeInsets.fromLTRB(12, 10, 10, 12),
+                child: Row(
+                  spacing: 6,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        module.s('title'),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(fontSize: 15, height: 1.2, fontWeight: FontWeight.w600),
                       ),
                     ),
-                  ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _SubItem extends StatelessWidget {
-  const _SubItem({required this.item});
-
-  final Map<String, dynamic> item;
-
-  @override
-  Widget build(BuildContext context) {
-    final t = context.tk;
-    final hi = item.b('highlight');
-    final fg = hi ? kOnPeach : t.text;
-    final meta = _itemMeta(context.store, item);
-    return Material(
-      color: hi ? t.peach : Colors.transparent,
-      borderRadius: BorderRadius.circular(hi ? 16 : 14),
-      clipBehavior: Clip.antiAlias,
-      child: InkWell(
-        onTap: () {
-          final args = item.m('args');
-          final route = homeRouteFor(item.s('target'));
-          if (args.isNotEmpty && route.isNotEmpty) {
-            context.push(route, args: args);
-          } else {
-            openHomeTarget(context, item.s('target'));
-          }
-        },
-        child: SizedBox(
-          height: hi ? 50 : 48,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 10),
-            child: Row(
-              spacing: 12,
-              children: [
-                Container(
-                  width: 32,
-                  height: 32,
-                  decoration: BoxDecoration(
-                    color: hi
-                        ? kOnPeach
-                        : (t.isNight ? t.surfaceAlt : t.surface),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  child: Icon(
-                    homeIconFor(item.s('icon')),
-                    size: 17,
-                    color: hi
-                        ? t.peach
-                        : (t.isNight ? t.textMuted : t.text),
-                  ),
+                    Icon(AppIcons.forward, size: 18, color: t.textMuted),
+                  ],
                 ),
-                Expanded(
-                  child: Text(
-                    item.s('title'),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(
-                      fontSize: 15,
-                      fontWeight: hi ? FontWeight.w500 : FontWeight.w400,
-                      color: fg,
-                    ),
-                  ),
-                ),
-                if (hi)
-                  Icon(AppIcons.forward, size: 18, color: fg)
-                else if (meta.isNotEmpty)
-                  Text(
-                    meta,
-                    style: TextStyle(fontSize: 12, color: t.textMuted),
-                  ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
+      );
+    return Semantics(
+      button: true,
+      label: '${module.s('title')}, $meta',
+      child: Stack(
+        children: [
+          card,
+          // The whole card is the tap target. On the web the video is a
+          // browser element that would swallow taps, so a pointer
+          // interceptor sits on top of it.
+          Positioned.fill(
+            child: PointerInterceptor(
+              child: Material(
+                color: Colors.transparent,
+                borderRadius: BorderRadius.circular(24),
+                clipBehavior: Clip.antiAlias,
+                child: InkWell(onTap: open),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

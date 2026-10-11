@@ -20,6 +20,12 @@ Future<void> showResWord(BuildContext context, String id) {
   return showAppSheet<void>(context, _ResWordSheet(word: w));
 }
 
+/// The same sheet for a word that is not (or not only) in the bank, e.g. a
+/// phrasal verb, idiom or topic term from the phrase lists. [word] uses the
+/// [ResBank.allWords] shape, plus an optional 'note' (a "use with care" hint).
+Future<void> showResWordData(BuildContext context, Map<String, dynamic> word) =>
+    showAppSheet<void>(context, _ResWordSheet(word: word));
+
 class _ResWordSheet extends StatelessWidget {
   const _ResWordSheet({required this.word});
 
@@ -117,6 +123,19 @@ class _ResWordSheet extends StatelessWidget {
               children: [
                 Icon(AppIcons.quote, size: 16, color: t.textMuted),
                 Expanded(child: Text.rich(TextSpan(children: boldSpans(ex)), style: body.copyWith(fontSize: 14))),
+              ],
+            ),
+          ),
+        if (word.s('note').isNotEmpty)
+          Container(
+            padding: const EdgeInsets.fromLTRB(12, 10, 12, 10),
+            decoration: BoxDecoration(color: t.accentSoft, borderRadius: BorderRadius.circular(14)),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 8,
+              children: [
+                Icon(AppIcons.info, size: 16, color: t.text),
+                Expanded(child: Text('Use with care · ${word.s('note')}', style: body.copyWith(fontSize: 13.5))),
               ],
             ),
           ),

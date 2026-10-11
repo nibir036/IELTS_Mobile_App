@@ -91,6 +91,15 @@
     },
     "lists": [
       {
+        "id": "quiz",
+        "title": "Vocabulary Quiz",
+        "subtitle": "Quick rounds of 10 IELTS words, scored as you go",
+        "count": "10-word rounds",
+        "icon": "quiz",
+        "tone": "pink",
+        "target": "vocabQuiz"
+      },
+      {
         "id": "grammar",
         "title": "Grammar Course",
         "subtitle": "Bite-sized lessons with quick checks and exercises",

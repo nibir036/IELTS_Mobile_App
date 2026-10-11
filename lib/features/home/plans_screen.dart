@@ -30,7 +30,8 @@ String _groupDigits(int n) {
   return n < 0 ? '-$b' : b.toString();
 }
 
-/// Plans (Free vs Pro). No checkout yet: "Upgrade" opens a
+/// Plans: Pro passes (1 week, 1 month, 3 months; all give full access) at
+/// launch prices, and Free vs Pro. No checkout yet: the button opens a
 /// "Payments open soon" sheet with a notify-me toggle.
 class PlansScreen extends StatefulWidget {
   const PlansScreen({super.key});
@@ -40,33 +41,16 @@ class PlansScreen extends StatefulWidget {
 }
 
 class _PlansScreenState extends State<PlansScreen> {
-  int _period = 0; // 0 monthly · 1 yearly
+  String? _picked; // pass id; null = the content's default
 
-  bool get _yearly => _period == 1;
-
-  String _price(Map<String, dynamic> content, Map<String, dynamic> plan) {
+  void _openUpgrade(Map<String, dynamic> content, Map<String, dynamic> pass) {
     final cur = content.s('currency');
-    final amount = _yearly ? plan.i('priceYearly') : plan.i('priceMonthly');
-    if (amount <= 0) return 'Free';
-    return '$cur ${_groupDigits(amount)}';
-  }
-
-  int _yearlySavingPercent(Map<String, dynamic> plan) {
-    final m = plan.i('priceMonthly');
-    final y = plan.i('priceYearly');
-    if (m <= 0 || y <= 0) return 0;
-    final pct = ((1 - y / (m * 12)) * 100).round();
-    return pct > 0 ? pct : 0;
-  }
-
-  void _openUpgrade(Map<String, dynamic> content, Map<String, dynamic> pro) {
-    final summary = pro.i('priceMonthly') <= 0
-        ? 'Pro'
-        : 'Pro · ${_price(content, pro)}${_yearly ? ' / year' : ' / month'}'
-            '${pro.b('launchPricing') ? ' (${content.s('pricingLabel').toLowerCase()})' : ''}';
     showAppSheet<void>(
       context,
-      _NotifySheet(copy: content.m('comingSoon'), summary: summary),
+      _NotifySheet(
+        copy: content.m('comingSoon'),
+        summary: '${pass.s('name')} · $cur ${_groupDigits(pass.i('price'))} (${content.s('pricingLabel').toLowerCase()})',
+      ),
     );
   }
 
@@ -75,46 +59,38 @@ class _PlansScreenState extends State<PlansScreen> {
     final t = context.tk;
     final store = context.store;
     final content = Demo.section('home').m('plans');
-    final plans = content.l('plans');
+    final passes = content.l('passes');
     final features = content.l('features');
     final planName = currentPlanName(store);
     final isPro = planName == 'Pro';
     final notify = store.kv<bool>(kPlansNotifyKey) ?? false;
+    final cur = content.s('currency');
 
-    Map<String, dynamic> pro = <String, dynamic>{};
-    for (final p in plans) {
-      if (p.s('id') == 'pro') pro = p;
+    final pickedId = _picked ?? content.s('defaultPass');
+    var pass = passes.isEmpty ? <String, dynamic>{} : passes.first;
+    for (final p in passes) {
+      if (p.s('id') == pickedId) pass = p;
     }
-    final saving = _yearlySavingPercent(pro);
 
     Widget? footer;
-    if (!isPro && pro.isNotEmpty) {
+    if (!isPro && pass.isNotEmpty) {
       footer = Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         spacing: 8,
         children: [
           PrimaryButton(
-            label: 'Upgrade to Pro',
+            label: content.s('cta').isEmpty ? 'Upgrade to Pro' : content.s('cta'),
             leading: AppIcons.sparkle,
-            onTap: () => _openUpgrade(content, pro),
+            onTap: () => _openUpgrade(content, pass),
           ),
-          if (notify)
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              spacing: 6,
-              children: [
-                Icon(AppIcons.bellActive, size: 14, color: t.textMuted),
-                Flexible(
-                  child: Text(
-                    'We’ll notify you when Pro launches',
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(fontSize: 12, color: t.textMuted),
-                  ),
-                ),
-              ],
-            ),
+          Text(
+            notify ? 'We’ll notify you when payments open' : content.s('ctaNote'),
+            textAlign: TextAlign.center,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            style: TextStyle(fontSize: 12, height: 1.35, color: t.textMuted),
+          ),
         ],
       );
     }
@@ -157,48 +133,87 @@ class _PlansScreenState extends State<PlansScreen> {
                   style: TextStyle(fontSize: 14, height: 1.4, color: t.heroMuted),
                 ),
                 Container(height: 1, color: t.heroDivider),
-                Row(
-                  children: [
-                    Expanded(
-                      child: Text(
-                        'Renews',
-                        style: TextStyle(fontSize: 13, color: t.heroMuted),
-                      ),
-                    ),
-                    Text(
-                      '-',
-                      style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: t.heroText),
-                    ),
-                  ],
-                ),
                 Text(
                   content.s('proRenewalNote'),
                   style: TextStyle(fontSize: 12, height: 1.4, color: t.heroMuted),
                 ),
               ],
             ),
+          )
+        else
+          HeroCard(
+            padding: const EdgeInsets.fromLTRB(20, 18, 20, 18),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              spacing: 8,
+              children: [
+                if (content.s('launchEnds').isNotEmpty)
+                  // Not a Tag: its text must wrap on narrow screens / large text.
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                    decoration: BoxDecoration(color: t.accentSoft, borderRadius: BorderRadius.circular(999)),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      spacing: 5,
+                      children: [
+                        Icon(AppIcons.hourglass, size: 14, color: t.isNight ? t.primary : t.text),
+                        Flexible(
+                          child: Text(
+                            '${content.s('pricingLabel')} ends ${content.s('launchEnds')}',
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w600,
+                              color: t.isNight ? t.primary : t.text,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                Text(
+                  content.s('headline'),
+                  style: TextStyle(fontSize: 24, height: 1.2, fontWeight: FontWeight.w600, color: t.heroText),
+                ),
+                Text(
+                  content.s('subhead'),
+                  style: TextStyle(fontSize: 14, height: 1.4, color: t.heroMuted),
+                ),
+              ],
+            ),
           ),
-        SegmentedTabs(
-          labels: <String>[
-            'Monthly',
-            saving > 0 ? 'Yearly · save $saving%' : 'Yearly',
-          ],
-          index: _period,
-          onChanged: (i) => setState(() => _period = i),
-        ),
-        for (final plan in plans)
-          _PlanCard(
-            plan: plan,
-            price: _price(content, plan),
-            period: plan.i('priceMonthly') <= 0 ? 'forever' : (_yearly ? 'per year' : 'per month'),
-            perMonthNote: _yearly && plan.i('priceYearly') > 0
-                ? '≈ ${content.s('currency')} ${_groupDigits((plan.i('priceYearly') / 12).round())} a month'
-                : null,
-            launchLabel: plan.b('launchPricing') ? content.s('pricingLabel') : null,
-            current: plan.s('name').toLowerCase() == planName.toLowerCase(),
+        for (final p in passes)
+          _PassCard(
+            pass: p,
+            currency: cur,
+            selected: !isPro && p.s('id') == pass.s('id'),
+            onTap: isPro ? null : () => setState(() => _picked = p.s('id')),
+          ),
+        if (content.ls('allAccess').isNotEmpty)
+          AppCard(
+            radius: 24,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              spacing: 10,
+              children: [
+                Text(content.s('allAccessTitle'), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
+                for (final h in content.ls('allAccess'))
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    spacing: 10,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(top: 1),
+                        child: Icon(AppIcons.checkCircle, size: 18, color: t.iconAccent),
+                      ),
+                      Expanded(child: Text(h, style: TextStyle(fontSize: 14, height: 1.35, color: t.textSoft))),
+                    ],
+                  ),
+              ],
+            ),
           ),
         const SizedBox(height: 2),
-        const SectionTitle('Compare plans'),
+        const SectionTitle('Free vs Pro'),
         _ComparisonTable(features: features),
         Text(
           content.s('pricingNote'),
@@ -209,106 +224,120 @@ class _PlansScreenState extends State<PlansScreen> {
   }
 }
 
-class _PlanCard extends StatelessWidget {
-  const _PlanCard({
-    required this.plan,
-    required this.price,
-    required this.period,
-    required this.current,
-    this.perMonthNote,
-    this.launchLabel,
-  });
+/// One Pro pass: was / now price, saving, price per day and a pitch line.
+class _PassCard extends StatelessWidget {
+  const _PassCard({required this.pass, required this.currency, required this.selected, this.onTap});
 
-  final Map<String, dynamic> plan;
-  final String price;
-  final String period;
-  final bool current;
-  final String? perMonthNote;
-  final String? launchLabel;
+  final Map<String, dynamic> pass;
+  final String currency;
+  final bool selected;
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final highlights = plan.ls('highlights');
+    final price = pass.i('price');
+    final was = pass.i('priceWas');
+    final days = pass.i('days');
+    // Rounded up, so "a day" is never cheaper than it really is.
+    final perDay = days > 0 ? (price / days).ceil() : 0;
+    final save = was > price
+        ? (pass.s('save') == 'amount'
+            ? 'Save $currency ${_groupDigits(was - price)}'
+            : 'Save ${((1 - price / was) * 100).floor()}%')
+        : '';
+    final badge = pass.s('badge');
+    final note = pass.s('perDayNote');
     return AppCard(
       radius: 26,
       padding: const EdgeInsets.all(18),
-      borderColor: current ? t.text : t.border,
+      borderColor: selected ? t.text : t.border,
+      onTap: onTap,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisSize: MainAxisSize.min,
-        spacing: 12,
+        spacing: 8,
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             spacing: 8,
             children: [
-              Flexible(
-                child: Text(
-                  plan.s('name'),
+              Icon(
+                selected ? AppIcons.radioOn : AppIcons.circle,
+                size: 22,
+                color: selected ? t.text : t.textFaint,
+              ),
+              Expanded(
+                child: Text.rich(
+                  TextSpan(
+                    children: [
+                      TextSpan(text: pass.s('name')),
+                      if (badge.isEmpty && pass.s('label').isNotEmpty)
+                        TextSpan(
+                          text: ' · ${pass.s('label')}',
+                          style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, color: t.textMuted),
+                        ),
+                    ],
+                  ),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
+                  style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
                 ),
               ),
-              if (launchLabel != null || current)
+              if (badge.isNotEmpty)
                 Flexible(
-                  flex: 3,
                   child: FittedBox(
                     fit: BoxFit.scaleDown,
                     alignment: Alignment.centerRight,
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      spacing: 8,
-                      children: [
-                        if (launchLabel != null)
-                          Tag(launchLabel!, tone: TagTone.accent),
-                        if (current)
-                          const Tag('Current plan', tone: TagTone.primary),
-                      ],
-                    ),
+                    child: Tag(badge, tone: badge == 'Most popular' ? TagTone.primary : TagTone.accent),
                   ),
                 ),
             ],
-          ),
-          Text(
-            plan.s('tagline'),
-            style: TextStyle(fontSize: 13, height: 1.4, color: t.textMuted),
           ),
           Wrap(
-            crossAxisAlignment: WrapCrossAlignment.end,
-            spacing: 6,
+            crossAxisAlignment: WrapCrossAlignment.center,
+            spacing: 8,
+            runSpacing: 4,
             children: [
-              Text(
-                price,
-                style: const TextStyle(fontSize: 30, fontWeight: FontWeight.w500, letterSpacing: -0.6),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 6),
-                child: Text(period, style: TextStyle(fontSize: 13, color: t.textMuted)),
-              ),
-            ],
-          ),
-          if (perMonthNote != null)
-            Text(perMonthNote!, style: TextStyle(fontSize: 12, color: t.textMuted)),
-          Container(height: 1, color: t.divider),
-          for (final h in highlights)
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              spacing: 10,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(top: 1),
-                  child: Icon(AppIcons.checkCircle, size: 18, color: t.iconAccent),
-                ),
-                Expanded(
-                  child: Text(
-                    h,
-                    style: TextStyle(fontSize: 14, height: 1.35, color: t.textSoft),
+              if (was > price)
+                Text(
+                  '$currency ${_groupDigits(was)}',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: t.textMuted,
+                    decoration: TextDecoration.lineThrough,
+                    decorationColor: t.textMuted,
                   ),
                 ),
-              ],
+              Text(
+                '$currency ${_groupDigits(price)}',
+                style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w600, letterSpacing: -0.5),
+              ),
+              if (save.isNotEmpty)
+                FittedBox(fit: BoxFit.scaleDown, child: Tag(save, tone: TagTone.accent, height: 24)),
+            ],
+          ),
+          if (perDay > 0)
+            Text.rich(
+              TextSpan(
+                children: [
+                  TextSpan(text: badge.isEmpty ? 'Just ' : 'Only '),
+                  TextSpan(
+                    text: '$currency $perDay a day',
+                    style: TextStyle(fontWeight: FontWeight.w600, color: t.text),
+                  ),
+                  if (note.isNotEmpty) TextSpan(text: ', $note'),
+                  const TextSpan(text: '.'),
+                ],
+              ),
+              style: TextStyle(fontSize: 14, height: 1.35, color: t.textSoft),
             ),
+          if (pass.s('pitch').isNotEmpty)
+            Text(
+              '“${pass.s('pitch')}”',
+              style: TextStyle(fontSize: 13, height: 1.4, fontStyle: FontStyle.italic, color: t.textMuted),
+            ),
+          if (pass.s('compare').isNotEmpty)
+            Text(pass.s('compare'), style: TextStyle(fontSize: 12, height: 1.35, color: t.textMuted)),
         ],
       ),
     );

@@ -67,6 +67,11 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
     super.initState();
     _theme.addListener(_saveTheme);
     WidgetsBinding.instance.addObserver(this);
+    // Signed out by the server (account opened on the other device, device
+    // removed): straight to Login, which says why.
+    Store.onSignedOutByServer = () {
+      appNavigatorKey.currentState?.pushNamedAndRemoveUntil(Routes.login, (_) => false);
+    };
   }
 
   @override

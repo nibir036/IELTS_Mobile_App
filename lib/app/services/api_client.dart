@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/l10n.dart';
 import 'config.dart';
+import 'device_identity.dart';
 
 class ApiException implements Exception {
   ApiException(this.message, [this.status, this.code = '', this.data = const <String, dynamic>{}]);
@@ -93,12 +94,63 @@ class ApiClient {
   static ApiSession? get session => _session;
   static bool get signedIn => _session != null;
 
-  /// Called when the server ends the session (refresh token rejected).
+  /// Called when the server ends the session (refresh token rejected, or
+  /// the account was opened on another device / this device was removed).
   static void Function()? onSessionEnded;
+
+  /// Why the server last ended the session here ('signed_in_elsewhere',
+  /// 'device_removed', 'session_ended'), until the next sign-in.
+  static String? endedReason;
+
+  /// The refresh token of a session ended by a sign-in on the other device:
+  /// lets this device take the account back ("Use it here").
+  static String? _takeoverToken;
+  static const String _takeoverKey = 'ielts_ai_takeover_v1';
+  static bool get canTakeOver => endedReason == 'signed_in_elsewhere' && (_takeoverToken ?? '').isNotEmpty;
+
+  /// Codes for a session the server has ended (not just an expired token).
+  static const Set<String> _endedCodes = <String>{'signed_in_elsewhere', 'device_removed', 'session_ended'};
+
+  static Future<void> _endSession(ApiException e) async {
+    if (_session == null) return;
+    endedReason = e.code.isEmpty ? 'session_ended' : e.code;
+    _takeoverToken = e.code == 'signed_in_elsewhere' ? _session!.refreshToken : null;
+    try {
+      final p = await SharedPreferences.getInstance();
+      if (_takeoverToken == null) {
+        await p.remove(_takeoverKey);
+      } else {
+        await p.setString(_takeoverKey, _takeoverToken!);
+      }
+    } catch (_) {}
+    await setSession(null);
+    onSessionEnded?.call();
+  }
+
+  /// "Use it here": takes the account back from the other device.
+  static Future<Map<String, dynamic>> takeover() async {
+    final token = _takeoverToken;
+    if (token == null || token.isEmpty) throw ApiException('Please log in again.', 401, 'session_ended');
+    final r = await request('POST', '/v1/auth/takeover', body: <String, dynamic>{'refreshToken': token}, auth: false);
+    clearEnded();
+    return r;
+  }
+
+  /// Forgets the ended-session note (after any sign-in).
+  static void clearEnded() {
+    endedReason = null;
+    _takeoverToken = null;
+    SharedPreferences.getInstance().then((p) => p.remove(_takeoverKey)).catchError((Object _) => false);
+  }
 
   static Future<void> loadSession() async {
     try {
       final p = await SharedPreferences.getInstance();
+      final take = p.getString(_takeoverKey);
+      if (take != null && take.isNotEmpty) {
+        _takeoverToken = take;
+        endedReason = 'signed_in_elsewhere';
+      }
       final raw = p.getString(_prefsKey);
       _session = raw == null ? null : ApiSession.fromJson(jsonDecode(raw));
     } catch (_) {
@@ -127,6 +179,7 @@ class ApiClient {
 
   static Map<String, String> get _headers => <String, String>{
         if (AppConfig.appKey.isNotEmpty) 'X-App-Key': AppConfig.appKey,
+        ...DeviceIdentity.headers,
         if (_session != null) 'Authorization': 'Bearer ${_session!.accessToken}',
       };
 
@@ -182,17 +235,14 @@ class ApiClient {
         final res = await _http
             .post(
               _uri('/v1/auth/refresh'),
-              headers: <String, String>{'Content-Type': 'application/json'},
+              headers: <String, String>{'Content-Type': 'application/json', ...DeviceIdentity.headers},
               body: jsonEncode(<String, dynamic>{'refreshToken': s.refreshToken}),
             )
             .timeout(const Duration(seconds: 20));
         final r = _decode(res);
         await setSession(ApiSession.fromAuth(r));
       } on ApiException catch (e) {
-        if (e.status == 401) {
-          await setSession(null);
-          onSessionEnded?.call();
-        }
+        if (e.status == 401) await _endSession(e);
         rethrow;
       } on TimeoutException {
         throw ApiException('The server is not responding.', null, 'network');
@@ -239,6 +289,8 @@ class ApiClient {
         await _refresh();
         return once();
       }
+      // Signed out by the server (other device signed in, device removed).
+      if (auth && e.status == 401 && _endedCodes.contains(e.code)) await _endSession(e);
       rethrow;
     }
   }
