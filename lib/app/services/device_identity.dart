@@ -14,8 +14,12 @@ class DeviceIdentity {
 
   static String get id => _id;
 
-  /// "Android phone · 3fa9" (the short code tells two phones apart).
-  static String get name => '$platformLabel · ${_id.length >= 4 ? _id.substring(0, 4) : _id}';
+  /// "Android phone (3fa9)" (the short code tells two phones apart).
+  /// Plain ASCII only: Android's HTTP client refuses any other character in
+  /// a header value (a "·" here made every request fail as "can't reach").
+  static String get name => '$platformLabel (${_id.length >= 4 ? _id.substring(0, 4) : _id})';
+
+  static String _ascii(String v) => v.replaceAll(RegExp(r'[^\x20-\x7E]'), '');
 
   static String get platform {
     if (kIsWeb) return 'Web';
@@ -40,9 +44,9 @@ class DeviceIdentity {
 
   /// Headers sent with every API call.
   static Map<String, String> get headers => <String, String>{
-        if (_id.isNotEmpty) 'X-Device-Id': _id,
-        if (_id.isNotEmpty) 'X-Device-Name': name,
-        'X-Device-Platform': platform,
+        if (_id.isNotEmpty) 'X-Device-Id': _ascii(_id),
+        if (_id.isNotEmpty) 'X-Device-Name': _ascii(name),
+        'X-Device-Platform': _ascii(platform),
       };
 
   static Future<void> init() async {
