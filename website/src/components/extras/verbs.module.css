@@ -1,0 +1,196 @@
+/* Irregular verbs table and practice. */
+
+.letters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.letter {
+  width: 30px;
+  height: 32px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 13.5px;
+  cursor: pointer;
+}
+.letterOn {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.table th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+  height: 38px;
+}
+.table td {
+  height: 46px;
+  border-top: 1px solid var(--divider);
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table td:first-child {
+  font-weight: 500;
+}
+.table tr.clickable {
+  cursor: pointer;
+}
+.table tr.clickable:hover td {
+  background: rgba(127, 127, 127, 0.06);
+}
+.speakCol {
+  width: 40px;
+}
+.speak {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--surface-alt2);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.verbLink {
+  border: 0;
+  padding: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.verbLink:hover {
+  text-decoration: underline;
+}
+.overline {
+  font-size: 11.5px;
+  letter-spacing: 1.1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--peach);
+}
+.base {
+  margin: 4px 0;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  color: var(--hero-text);
+}
+.heroSub {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--hero-muted);
+}
+.fields {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media (min-width: 640px) {
+  .fields {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-soft);
+}
+.input {
+  height: 54px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0 16px;
+  font-size: 16px;
+  outline: 0;
+}
+.input:focus {
+  border-color: var(--peach);
+}
+.inputOk {
+  border-color: var(--success);
+}
+.inputBad {
+  border-color: var(--danger);
+}
+.result {
+  border-radius: 22px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.resultOk {
+  background: var(--success-soft);
+}
+.resultBad {
+  background: var(--danger-soft);
+}
+.resultTitle {
+  margin: 0;
+  font-size: 15.5px;
+  font-weight: 600;
+}
+.resultBad .resultTitle {
+  color: var(--danger);
+}
+.resultLine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 14px;
+}
+.big {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1.5px;
+  color: var(--hero-text);
+}
+.reviewRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid var(--divider);
+}
+.reviewRow:first-child {
+  border-top: 0;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--track);
+  overflow: hidden;
+}
+.progress span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--peach-gradient);
+  transition: width 0.25s ease;
+}

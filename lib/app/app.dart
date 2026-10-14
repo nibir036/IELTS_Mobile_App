@@ -17,7 +17,9 @@ import '../features/writing/writing_routes.dart';
 import 'data/store.dart';
 import 'nav.dart';
 import 'routes.dart';
+import 'data/packs/content_packs.dart';
 import 'services/connection_gate.dart';
+import 'services/content_gate.dart';
 import 'services/notification_service.dart';
 import 'services/sync_service.dart';
 import 'theme/app_theme.dart';
@@ -80,6 +82,8 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
     // and send unsynced progress to the server. Back in front: fetch changes.
     if (state == AppLifecycleState.resumed) {
       unawaited(SyncService.I.syncNow());
+      // Newer content packs (checked at most every 10 minutes).
+      unawaited(PackStore.I.refresh());
       NotificationService.I.refresh();
     } else if (state == AppLifecycleState.paused || state == AppLifecycleState.hidden) {
       Store.I.flush();
@@ -146,8 +150,12 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
           title: 'IELTS AI by nextED',
           debugShowCheckedModeBanner: false,
           // Small text a little larger on phones (see ReadableTextScaler).
-          // Needs the internet: a "turn on mobile data" screen covers the app while offline.
-          builder: (context, child) => readableText(context, ConnectionGate(child: child ?? const SizedBox.shrink())),
+          // Needs the internet: a "turn on mobile data" screen covers the app while offline,
+          // and a "getting your lessons ready" screen on the first open after signing in.
+          builder: (context, child) => readableText(
+            context,
+            ConnectionGate(child: ContentGate(child: child ?? const SizedBox.shrink())),
+          ),
           theme: AppTheme.day,
           darkTheme: AppTheme.night,
           themeMode: mode,

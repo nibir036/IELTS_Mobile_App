@@ -297,6 +297,41 @@ class ApiClient {
 
   static Future<Map<String, dynamic>> get(String path, {bool auth = true}) => request('GET', path, auth: auth);
 
+  /// A GET whose body is returned as text, unchanged (content packs: large
+  /// JSON stored as is on the device). Errors work like [request].
+  static Future<String> getText(String path, {bool auth = true, Duration timeout = const Duration(minutes: 3)}) async {
+    if (!AppConfig.hasApi) throw ApiException('No API configured', null, 'network');
+    if (auth && _session != null && _session!.accessExpiresAt.isBefore(DateTime.now().add(const Duration(seconds: 30)))) {
+      await _refresh();
+    }
+    Future<String> once() async {
+      http.Response res;
+      try {
+        res = await _send('GET', path, timeout: timeout);
+      } on TimeoutException {
+        onNetworkError?.call();
+        throw ApiException('The server is not responding. Try again.', null, 'network');
+      } catch (_) {
+        onNetworkError?.call();
+        throw ApiException('Can’t reach the server. Check your connection.', null, 'network');
+      }
+      if (res.statusCode >= 200 && res.statusCode < 300) return utf8.decode(res.bodyBytes);
+      _decode(res); // throws the server's error
+      throw ApiException('Something went wrong (${res.statusCode}).', res.statusCode);
+    }
+
+    try {
+      return await once();
+    } on ApiException catch (e) {
+      if (auth && e.status == 401 && _session != null && e.code == 'token_expired') {
+        await _refresh();
+        return once();
+      }
+      if (auth && e.status == 401 && _endedCodes.contains(e.code)) await _endSession(e);
+      rethrow;
+    }
+  }
+
   /// Told when a request couldn't reach the server (see [ConnectionGate]).
   static void Function()? onNetworkError;
 

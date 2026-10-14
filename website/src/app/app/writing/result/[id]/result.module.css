@@ -1,0 +1,207 @@
+.top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.back {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+.h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.heroText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.heroLabel {
+  font-size: 13px;
+  color: var(--hero-muted);
+}
+.band {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+.heroMeta {
+  font-size: 13px;
+  color: var(--hero-muted);
+}
+.criteria {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media (min-width: 700px) {
+  .criteria {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.critHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+.critName {
+  font-size: 14.5px;
+  font-weight: 600;
+}
+.critBand {
+  font-size: 24px;
+  font-weight: 600;
+}
+.track {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--track);
+  margin: 8px 0 10px;
+  overflow: hidden;
+}
+.track span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ffb8a3, #ff7e67);
+}
+.critText {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--text-soft);
+  line-height: 1.5;
+}
+.para {
+  margin: 8px 0 0;
+  color: var(--text-soft);
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+.muted {
+  margin: 4px 0 12px;
+  color: var(--text-muted);
+  font-size: 13.5px;
+}
+.two {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+@media (min-width: 900px) {
+  .two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.bullets {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.bullets li {
+  display: flex;
+  gap: 8px;
+}
+.numbers {
+  margin: 10px 0 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.essay {
+  white-space: pre-wrap;
+  line-height: 1.8;
+  font-size: 15.5px;
+  padding: 14px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+.markGrammar,
+.markVocab {
+  border-radius: 4px;
+  padding: 0 2px;
+  color: inherit;
+}
+.markGrammar {
+  background: var(--danger-soft);
+  box-shadow: inset 0 -2px 0 var(--danger);
+}
+.markVocab {
+  background: var(--success-soft);
+  box-shadow: inset 0 -2px 0 var(--success);
+}
+.markGrammar sup,
+.markVocab sup {
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: 1px;
+}
+.issues {
+  margin: 14px 0 0;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.tagGrammar,
+.tagVocab {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+.tagGrammar {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+.tagVocab {
+  background: var(--success-soft);
+  color: var(--success);
+}
+.fix {
+  margin: 6px 0 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 14.5px;
+}
+.fix s {
+  color: var(--text-muted);
+}
+.note {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}

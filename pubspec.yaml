@@ -24,6 +24,8 @@ dependencies:
   timezone: ^0.11.0
   video_player: ^2.9.2
   pointer_interceptor: ^0.10.1
+  in_app_purchase: ^3.2.3
+  url_launcher: ^6.3.1
 
 dev_dependencies:
   flutter_test:
@@ -34,34 +36,15 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    # UI text, bundled so the login screens work before any download. The
+    # question banks, guides, courses and translations (assets/content/**)
+    # are NOT bundled: the server serves them as content packs from its
+    # database (server/src/lib/packs.ts) and the app keeps them on the phone
+    # (lib/app/data/packs/content_packs.dart).
     - assets/demo/demo_data.json
-    - assets/content/reading_bank.json
-    - assets/content/listening_bank.json
-    - assets/content/writing_bank.json
-    - assets/content/speaking_bank.json
-    - assets/content/reading_guide.json
-    - assets/content/writing_guide.json
-    - assets/content/speaking_guide.json
-    - assets/content/grammar_guide.json
-    - assets/content/listening_guide.json
-    - assets/content/vocab_guide.json
-    - assets/content/resources_bank.json
-    - assets/content/tests_bank.json
-    - assets/content/sentence_bank.json
-    - assets/content/lessons/writing.json
-    - assets/content/lessons/speaking.json
-    - assets/content/lessons/reading.json
-    - assets/content/lessons/listening.json
-    - assets/content/lessons/grammar.json
-    - assets/content/lessons/vocab.json
     - assets/mascot/
     # Module card videos (Practice tab).
     - assets/videos/
-    - assets/content/l10n/
-    - assets/content/l10n/bn/
-    - assets/content/l10n/ne/
-    - assets/content/l10n/ar/
-    - assets/content/l10n/id/
     # Listening audio and the writing / reading / map images are in
     # Cloudflare R2 (lib/app/services/media.dart, server/scripts/upload-media.ts).
     - assets/audio/listening_placeholder.mp3

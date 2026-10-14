@@ -14,3 +14,13 @@ export function isValidPhone(input: string): boolean {
 export function isStrongPassword(p: string): boolean {
   return p.length >= 8 && /\d/.test(p) && /[^A-Za-z0-9]/.test(p);
 }
+
+/**
+ * Shared Pro demo accounts sign in with "Demo 1" … "Demo 4" instead of a
+ * phone number (stored as phone "demo1" … "demo4"; see scripts/demo-accounts.ts).
+ * Returns that stored id, or null when [input] is not a demo login.
+ */
+export function demoLoginId(input: string): string | null {
+  const m = /^\s*demo\s*([1-4])\s*$/i.exec(input ?? '');
+  return m ? `demo${m[1]}` : null;
+}

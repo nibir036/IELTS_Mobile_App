@@ -74,6 +74,27 @@ export const env = {
     return Boolean(this.r2AccountId && this.r2AccessKeyId && this.r2SecretAccessKey && this.r2Bucket);
   },
 
+  // Payments. Website: bKash Tokenized Checkout. App: Google Play one-time passes.
+  /** The website's address: bKash returns the student there (callback URLs must start with it). */
+  websiteUrl: str('WEBSITE_URL', 'https://ielts.nexted.app').replace(/\/$/, ''),
+  /**
+   * SMS sent once, right after an account is created. "{site}" becomes the
+   * website's address without https:// ; WELCOME_SMS=off sends nothing.
+   */
+  welcomeSms: str('WELCOME_SMS', 'Welcome to IELTS AI by nextED. Subscribe from our website to avail a 40% discount: {site}'),
+  bkashBaseUrl: str('BKASH_BASE_URL', 'https://tokenized.sandbox.bka.sh/v1.2.0-beta').replace(/\/$/, ''),
+  bkashAppKey: str('BKASH_APP_KEY'),
+  bkashAppSecret: str('BKASH_APP_SECRET'),
+  bkashUsername: str('BKASH_USERNAME'),
+  bkashPassword: str('BKASH_PASSWORD'),
+  googlePlayPackage: str('GOOGLE_PLAY_PACKAGE', 'com.nexted.ieltsai'),
+  /** Service account JSON key (raw or base64) with access to the Play Console. */
+  googlePlayServiceAccount: str('GOOGLE_PLAY_SERVICE_ACCOUNT'),
+  /** Shared secret in the Pub/Sub push URL for Play notifications (…/rtdn?token=…). */
+  googlePlayRtdnToken: str('GOOGLE_PLAY_RTDN_TOKEN'),
+  /** Hours before a website pass ends that the student is asked to confirm the renewal. */
+  renewalNoticeHours: num('RENEWAL_NOTICE_HOURS', 24),
+
   /** Largest JSON body accepted (speaking audio is sent as base64). */
   maxBodyMb: num('MAX_BODY_MB', 40),
 };

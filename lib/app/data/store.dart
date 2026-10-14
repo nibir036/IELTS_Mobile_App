@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../routes.dart';
 import '../services/api_client.dart';
+import '../services/billing_service.dart';
 import '../services/config.dart';
 import '../services/entitlements.dart';
 import '../services/sync_service.dart';
@@ -104,12 +105,16 @@ class Account {
 
   /// "+880 1734 ••• 208"
   String get phoneMasked {
+    final demo = RegExp(r'^demo(\d)$').firstMatch(phone);
+    if (demo != null) return 'Demo ${demo.group(1)}';
     if (phone.length < 7) return '+880 $phone';
     return '+880 ${phone.substring(0, 4)} ••• ${phone.substring(phone.length - 3)}';
   }
 
   /// "+880 1734 519208"
   String get phoneDisplay {
+    final demo = RegExp(r'^demo(\d)$').firstMatch(phone);
+    if (demo != null) return 'Demo ${demo.group(1)}';
     if (phone.length <= 4) return '+880 $phone';
     return '+880 ${phone.substring(0, 4)} ${phone.substring(4)}';
   }
@@ -479,6 +484,10 @@ class Store extends ChangeNotifier {
   /// Set by [SyncService]: told about every change so it can upload it.
   static void Function()? onCommit;
 
+  /// Content packs finished their first download: rebuild the screens that
+  /// were built before the content was here.
+  void contentReloaded() => notifyListeners();
+
   /// Server data merged into [data] (no upload: it came from the server).
   void applyRemoteChanges() {
     notifyListeners();
@@ -527,6 +536,13 @@ class Store extends ChangeNotifier {
     if (d.startsWith('880')) d = d.substring(3);
     if (d.startsWith('0')) d = d.substring(1);
     return d;
+  }
+
+  /// "Demo 1" … "Demo 4" (any case / spacing) → "demo1" … "demo4": the
+  /// shared Pro demo accounts sign in with these instead of a phone number.
+  static String? demoLoginId(String input) {
+    final m = RegExp(r'^\s*demo\s*([1-4])\s*$', caseSensitive: false).firstMatch(input);
+    return m == null ? null : 'demo${m.group(1)}';
   }
 
   static bool isValidPhone(String input) {
@@ -644,6 +660,7 @@ class Store extends ChangeNotifier {
   void logout() {
     _currentId = null;
     Entitlements.I.clear();
+    BillingService.I.clear();
     commit();
   }
 
@@ -778,10 +795,11 @@ class Store extends ChangeNotifier {
 
   Future<AuthResult> signIn(String phone, String password, {bool keepSignedIn = true}) async {
     if (!AppConfig.hasApi) return login(phone, password, keepSignedIn: keepSignedIn);
-    if (!isValidPhone(phone)) return AuthResult.invalidPhone;
+    final demo = demoLoginId(phone);
+    if (demo == null && !isValidPhone(phone)) return AuthResult.invalidPhone;
     try {
       final r = await ApiClient.request('POST', '/v1/auth/login',
-          body: <String, dynamic>{'phone': normalizePhone(phone), 'password': password}, auth: false);
+          body: <String, dynamic>{'phone': demo ?? normalizePhone(phone), 'password': password}, auth: false);
       await _adoptSession(r, keepSignedIn: keepSignedIn);
       return AuthResult.ok;
     } on ApiException catch (e) {

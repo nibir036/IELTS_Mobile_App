@@ -618,6 +618,8 @@ model User {
   roomMessages  RoomMessage[]
   rooms         Room[]
   subscriptions Subscription[]
+  paymentMethods PaymentMethod[]
+  payments      Payment[]
   usageEvents   UsageEvent[]
   devices       Device[]
 
@@ -883,9 +885,17 @@ model Subscription {
   status      String
   startedAt   DateTime? @map("started_at") @db.Timestamptz(3)
   renewsAt    DateTime? @map("renews_at") @db.Timestamptz(3)
-  /// bkash | nagad | card
+  /// bkash | google_play | nagad | card
   provider    String?
   providerRef String?   @map("provider_ref")
+  /// Pro pass bought (p7 | p45 | p100); renewsAt is when it ends.
+  passId      String?   @map("pass_id")
+  amount      Int?
+  currency    String?
+  /// Website (bKash) passes: renew with the saved wallet when this one ends.
+  autoRenew   Boolean   @default(false) @map("auto_renew")
+  /// When the student was last asked to confirm the renewal.
+  renewalNoticeAt DateTime? @map("renewal_notice_at") @db.Timestamptz(3)
   createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
   updatedAt   DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
 
@@ -894,4 +904,71 @@ model Subscription {
 
   @@index([userId])
   @@map("subscriptions")
+}
+
+/// A saved way to pay (website: a bKash wallet agreement for renewals).
+model PaymentMethod {
+  id          String    @id @default(cuid())
+  userId      String    @map("user_id")
+  /// bkash
+  provider    String
+  /// bKash agreementID
+  token       String
+  /// "bKash 017•••••678"
+  label       String
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  revokedAt   DateTime? @map("revoked_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("payment_methods")
+}
+
+/// Every payment attempt (bKash checkout, Google Play purchase), for
+/// idempotency and support.
+model Payment {
+  id          String    @id @default(cuid())
+  userId      String    @map("user_id")
+  /// bkash | google_play
+  provider    String
+  /// bKash paymentID / Google Play purchase token
+  providerRef String    @unique @map("provider_ref")
+  /// agreement | payment | renewal | purchase
+  kind        String
+  passId      String?   @map("pass_id")
+  amount      Int?
+  currency    String?
+  /// initiated | completed | failed | cancelled | refunded
+  status      String
+  /// bKash trxID / Google order id
+  trxId       String?   @map("trx_id")
+  meta        Json?
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@map("payments")
+}
+
+/// App content packs: the JSON files the app and the website read (question
+/// banks, guides, courses, translations, UI text), stored gzipped with a
+/// version (hash of the JSON). Loaded from the repo's content files on every
+/// start (src/lib/packs.ts); the app downloads a pack only when its version
+/// changes. See routes/content.ts (GET /v1/content/packs).
+model ContentPack {
+  key       String   @id
+  /// First 16 hex chars of the SHA-256 of the JSON.
+  version   String
+  /// Readable without signing in (UI text, translation index).
+  public    Boolean  @default(false)
+  /// Size of the JSON / of the gzipped JSON, in bytes.
+  bytes     Int
+  gzBytes   Int      @map("gz_bytes")
+  gz        Bytes
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@map("content_packs")
 }

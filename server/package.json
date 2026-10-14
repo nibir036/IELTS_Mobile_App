@@ -13,7 +13,8 @@
     "db:reset": "prisma migrate reset",
     "db:studio": "prisma studio",
     "db:status": "prisma migrate status",
-    "media:upload": "tsx --env-file=.env scripts/upload-media.ts"
+    "media:upload": "tsx --env-file=.env scripts/upload-media.ts",
+    "demo:accounts": "tsx --env-file=.env scripts/demo-accounts.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

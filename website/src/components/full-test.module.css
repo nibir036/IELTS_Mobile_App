@@ -1,0 +1,119 @@
+/* Full Writing / Speaking tests (lib/features/tests/full_tests_screens.dart). */
+.test {
+  border-radius: 22px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 14px 14px 14px 16px;
+}
+.test summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.test summary::-webkit-details-marker {
+  display: none;
+}
+.badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: var(--accent-soft);
+  color: #151515;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+}
+.text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.title {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+}
+.line {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tag {
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+}
+.tagDone {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+.chev {
+  color: var(--text-muted);
+  transition: transform 0.25s;
+  margin-top: 6px;
+}
+.test[open] .chev {
+  transform: rotate(90deg);
+}
+.parts {
+  margin-top: 12px;
+  border-top: 1px solid var(--divider);
+  padding-top: 6px;
+}
+.hint {
+  margin: 6px 0 4px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.part {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 6px;
+  border-radius: 14px;
+}
+.part + .part {
+  border-top: 1px solid var(--divider);
+}
+.part:hover {
+  background: var(--surface-alt);
+}
+.partIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--surface-alt2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+}
+.partText {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.partTitle {
+  font-size: 14.5px;
+  font-weight: 600;
+}
+.partSub {
+  font-size: 12.5px;
+  color: var(--text-muted);
+}

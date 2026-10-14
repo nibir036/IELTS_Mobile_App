@@ -1,0 +1,110 @@
+.layout {
+  min-height: 100dvh;
+  display: flex;
+}
+.main {
+  flex: 1;
+  min-width: 0;
+  padding: 20px var(--gutter) 120px;
+}
+.inner {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Phone: the app's floating frosted pill at the bottom. */
+.bar {
+  position: fixed;
+  left: 50%;
+  bottom: 16px;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  gap: 6px;
+  padding: 6px;
+  border-radius: 999px;
+  background: var(--glass-fill);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 10px 30px rgba(21, 24, 39, 0.12);
+}
+.tab {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  transition: background 0.26s ease, color 0.26s ease, transform 0.26s ease;
+}
+.tab:hover {
+  color: var(--text);
+}
+.active {
+  background: var(--primary);
+  color: var(--on-primary);
+  transform: scale(1.04);
+}
+.active:hover {
+  color: var(--on-primary);
+}
+.tabLabel {
+  display: none;
+}
+.side {
+  display: none;
+}
+
+/* Laptop: the same tabs as a sidebar, with names. */
+@media (min-width: 900px) {
+  .main {
+    padding: 28px 32px 48px;
+  }
+  .bar {
+    display: none;
+  }
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: sticky;
+    top: 0;
+    height: 100dvh;
+    width: 240px;
+    flex: none;
+    padding: 24px 16px;
+    border-right: 1px solid var(--divider);
+    background: var(--glass-fill);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
+  .sideBrand {
+    padding: 0 8px 20px;
+  }
+  .sideTab {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 14px;
+    border-radius: 999px;
+    color: var(--text-muted);
+    font-size: 15px;
+    font-weight: 500;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .sideTab:hover {
+    color: var(--text);
+    background: var(--surface-alt);
+  }
+  .sideActive,
+  .sideActive:hover {
+    background: var(--primary);
+    color: var(--on-primary);
+  }
+}

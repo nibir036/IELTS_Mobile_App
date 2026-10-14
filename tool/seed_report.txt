@@ -6,7 +6,7 @@ Environment variables loaded from .env
 Prisma schema loaded from prisma\schema.prisma
 Datasource "db": PostgreSQL database "ielts_ai", schema "public" at "localhost:5432"
 
-6 migrations found in prisma/migrations
+8 migrations found in prisma/migrations
 
 Database schema is up to date!
  
@@ -16,6 +16,57 @@ For more information, see: https://pris.ly/prisma-config
 
 Environment variables loaded from .env
 Running seed command `tsx prisma/seed.ts` ...
+Content packs
+  pack ui                     374b0422eee84ac1  164 KB gz
+  pack bank.reading           485a5e9194c9bcc9  536 KB gz
+  pack bank.listening         d7dacc351156d6c3  127 KB gz
+  pack bank.writing           7a4ea38013db697e  559 KB gz
+  pack bank.speaking          e1e105d02a798b5f  672 KB gz
+  pack bank.resources         d3eb699ac9a3b28f  343 KB gz
+  pack bank.tests             e91d3e133795b5c0  234 KB gz
+  pack bank.sentence          57ad865b2f40e4d0  102 KB gz
+  pack guide.reading          230c81a1717e19a9  7 KB gz
+  pack guide.writing          2a311bd49434e1bf  55 KB gz
+  pack guide.speaking         6fedb7a75b716796  30 KB gz
+  pack guide.grammar          2653b03ca810faad  51 KB gz
+  pack guide.listening        5d353c1e7193eeff  30 KB gz
+  pack guide.vocab            394ab3df3b03a4df  74 KB gz
+  pack course.writing         d23d833b5c8d34d6  106 KB gz
+  pack course.speaking        360536cc7ecffb24  85 KB gz
+  pack course.reading         4cdea77c24a36b9c  26 KB gz
+  pack course.listening       25711b19213d37a1  53 KB gz
+  pack course.grammar         dadbdd63977d7068  61 KB gz
+  pack course.vocab           c41bf2475f66df11  94 KB gz
+  pack l10n.index             f9a7841dffb56605  0 KB gz
+  pack l10n.bn.reading        5997baa5bb52914d  157 KB gz
+  pack l10n.ne.reading        fb83f5c5642b2ef3  156 KB gz
+  pack l10n.ar.reading        3c4f20518d18ae05  150 KB gz
+  pack l10n.id.reading        cb593035b53f2877  127 KB gz
+  pack l10n.bn.writing        9acb4bfff76d8fda  67 KB gz
+  pack l10n.ne.writing        a79f00e6f976fdae  69 KB gz
+  pack l10n.ar.writing        df21dea29155739f  69 KB gz
+  pack l10n.id.writing        3c53b8cd4a0193d0  62 KB gz
+  pack l10n.bn.grammar        f31b8be7925e5cec  60 KB gz
+  pack l10n.ne.grammar        8b506769e460fcc5  60 KB gz
+  pack l10n.ar.grammar        083cb9de5dbdc255  58 KB gz
+  pack l10n.id.grammar        02940b97c55e40fc  53 KB gz
+  pack l10n.bn.listening      9b06a3b103112b3f  63 KB gz
+  pack l10n.ne.listening      3b333783f868eb1a  63 KB gz
+  pack l10n.ar.listening      dd41385afeba8ab5  60 KB gz
+  pack l10n.id.listening      6f69744d824d5292  53 KB gz
+  pack l10n.bn.vocab          b743be36af9f127d  86 KB gz
+  pack l10n.ne.vocab          b436e7ebe3fcf996  87 KB gz
+  pack l10n.ar.vocab          87d2e23eff6d980c  84 KB gz
+  pack l10n.id.vocab          254fd74d6c86b659  79 KB gz
+  pack l10n.bn.speaking       b430b2db75047c79  38 KB gz
+  pack l10n.ne.speaking       cc893f16501498d8  40 KB gz
+  pack l10n.ar.speaking       2704072202847b04  39 KB gz
+  pack l10n.id.speaking       738ace1fd9ea15b1  35 KB gz
+  pack l10n.bn.resources      ca0983aebaeb70d9  159 KB gz
+  pack l10n.ne.resources      6132257a9bdc7186  155 KB gz
+  pack l10n.ar.resources      c5f3ab9cb0c6b6ab  114 KB gz
+  pack l10n.id.resources      7895ac4a27730ce9  122 KB gz
+  49 written, 0 unchanged, 0 removed
 Content
   vocabularyWord           19
   wordOfTheDay             1

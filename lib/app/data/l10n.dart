@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart' show compute;
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 import 'demo.dart';
+import 'packs/content_packs.dart';
 import 'store.dart';
 
 /// A language for explanations, lessons and AI feedback. The IELTS content
@@ -32,8 +32,9 @@ const List<ContentLang> kContentLangs = <ContentLang>[
 ContentLang contentLang(String code) =>
     kContentLangs.firstWhere((l) => l.code == code, orElse: () => kContentLangs.first);
 
-/// Translated study content (assets/content/l10n/<lang>/<module>.json, built
-/// by tool/build_l10n.py) with English fallback, plus the student's chosen
+/// Translated study content (content packs `l10n.<lang>.<module>`, from
+/// assets/content/l10n/<lang>/<module>.json built by tool/build_l10n.py;
+/// fetched when the language is picked) with English fallback, plus the student's chosen
 /// explanation language (Store kv `feedbackLanguage`, shared with the AI
 /// feedback setting).
 ///
@@ -63,7 +64,10 @@ class ContentL10n {
   /// Reads the index and the saved choice; loads that language's content.
   static Future<void> init() async {
     try {
-      final raw = await rootBundle.loadString('assets/content/l10n/index.json');
+      // Only what is on the device: start-up never waits for the network
+      // (a first download arrives through _packsChanged).
+      final raw = await PackStore.I.read(Packs.l10nIndex);
+      if (raw == null) throw StateError('no translation index yet');
       final m = (jsonDecode(raw) as Map).cast<String, dynamic>();
       _index = <String, List<String>>{
         for (final e in m.entries)
@@ -73,12 +77,36 @@ class ContentL10n {
       _index = <String, List<String>>{};
     }
     await set(_saved(), persist: false);
+    PackStore.I.onPacksChanged(_packsChanged);
     _account = Store.I.current?.id;
     Store.I.removeListener(_onStore);
     Store.I.addListener(_onStore);
   }
 
   static String? _account;
+
+  /// Newer translation packs (or the index, first fetched late): reload them.
+  static Future<void> _packsChanged(Set<String> keys) async {
+    final mine = keys.where((k) => k.startsWith('l10n.')).toSet();
+    if (mine.isEmpty) return;
+    if (mine.contains(Packs.l10nIndex) || _index.isEmpty) {
+      final raw = await PackStore.I.read(Packs.l10nIndex);
+      if (raw != null) {
+        try {
+          final m = (jsonDecode(raw) as Map).cast<String, dynamic>();
+          _index = <String, List<String>>{
+            for (final e in m.entries)
+              if (e.value is List) e.key: <String>[for (final v in e.value as List) '$v'],
+          };
+        } catch (_) {}
+      }
+    }
+    for (final k in mine) {
+      final p = k.split('.');
+      if (p.length == 3) _content[p[1]]?.remove(p[2]);
+    }
+    await set(lang.value, persist: false);
+  }
 
   /// Log-in, log-out or account switch: follow the new account's language.
   static void _onStore() {
@@ -133,11 +161,13 @@ class ContentL10n {
 
   static Future<void> _load(String code, String module) async {
     final byModule = _content.putIfAbsent(code, () => <String, Map<String, dynamic>>{});
-    if (byModule.containsKey(module)) return;
+    if (byModule[module]?.isNotEmpty ?? false) return;
     if (!(_index[module] ?? const <String>[]).contains(code)) return;
+    final key = Packs.l10n(code, module);
     try {
-      final raw = await rootBundle.loadString('assets/content/l10n/$code/$module.json');
-      byModule[module] = await compute(_decode, raw);
+      final raw = await PackStore.I.read(key) ?? (await PackStore.I.ensure(key) ? await PackStore.I.read(key) : null);
+      // Not here yet (offline / signed out): English until the next pick.
+      byModule[module] = raw == null ? <String, dynamic>{} : await compute(_decode, raw);
     } catch (_) {
       byModule[module] = <String, dynamic>{};
     }

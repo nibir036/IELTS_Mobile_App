@@ -1,0 +1,203 @@
+.side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  align-items: stretch;
+}
+@media (max-width: 560px) {
+  .side {
+    grid-template-columns: 1fr;
+  }
+}
+.col {
+  padding: 14px;
+  border-radius: 22px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.colImproved {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-primary);
+}
+.colHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.colLabel {
+  flex: 1;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.colImproved .colLabel {
+  color: #bdb6bb;
+}
+.pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--surface-alt2);
+}
+.colImproved .pill {
+  background: #dce6ff;
+  color: #151515;
+}
+.para {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-soft);
+  white-space: pre-wrap;
+}
+.colImproved .para {
+  color: #e8e4e7;
+}
+.cut {
+  background: #fce0da;
+  color: #151515;
+  text-decoration-color: #b63a26;
+}
+.added {
+  background: #2f4fc2;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 1px;
+}
+:global(:root[data-theme='night']) .colImproved .para {
+  color: #151515;
+}
+:global(:root[data-theme='night']) .colImproved .colLabel {
+  color: #5e5056;
+}
+:global(:root[data-theme='night']) .added {
+  background: #151515;
+}
+@media (prefers-color-scheme: dark) {
+  :global(:root:not([data-theme])) .colImproved .para {
+    color: #151515;
+  }
+  :global(:root:not([data-theme])) .added {
+    background: #151515;
+  }
+}
+.loading {
+  align-items: center;
+  justify-content: center;
+  padding: 28px 14px;
+  color: var(--text-muted);
+  font-size: 13px;
+  text-align: center;
+  min-height: 180px;
+}
+.spinner {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2.5px solid var(--track);
+  border-top-color: var(--fill);
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.seg {
+  display: flex;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  gap: 4px;
+}
+.seg button {
+  flex: 1;
+  height: 38px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--text-muted);
+}
+.seg .segOn {
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+.changes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.change {
+  padding: 10px;
+  border-radius: 16px;
+  background: #e9efff;
+  font-size: 14px;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.change del {
+  color: var(--text-muted);
+}
+.change b {
+  font-weight: 500;
+}
+.change small {
+  font-size: 12.5px;
+  color: #3a4a7a;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.stat {
+  padding: 10px;
+  border-radius: 16px;
+  background: #e9efff;
+  display: flex;
+  flex-direction: column;
+}
+.stat b {
+  font-size: 20px;
+  font-weight: 400;
+}
+.stat span {
+  font-size: 11.5px;
+  color: #3a4a7a;
+  line-height: 1.3;
+}
+:global(:root[data-theme='night']) .change,
+:global(:root[data-theme='night']) .stat {
+  background: #1c2030;
+}
+:global(:root[data-theme='night']) .change small,
+:global(:root[data-theme='night']) .stat span {
+  color: #9a9a9a;
+}
+@media (prefers-color-scheme: dark) {
+  :global(:root:not([data-theme])) .change,
+  :global(:root:not([data-theme])) .stat {
+    background: #1c2030;
+  }
+  :global(:root:not([data-theme])) .change small,
+  :global(:root:not([data-theme])) .stat span {
+    color: #9a9a9a;
+  }
+}
+.upgrade {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  line-height: 1.4;
+}

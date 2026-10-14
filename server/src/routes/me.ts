@@ -55,9 +55,10 @@ export function registerMeRoutes(r: Router): void {
     }
     const user = await prisma.user.findUnique({
       where: { id: userId },
-      select: { passwordHash: true, passwordChangedAt: true, createdAt: true },
+      select: { passwordHash: true, passwordChangedAt: true, createdAt: true, isDemo: true },
     });
     if (!user) throw unauthorized('This account no longer exists.', 'no_account');
+    if (user.isDemo) throw new HttpError(403, 'The password of a demo account can’t be changed.', 'demo_account');
     if (!verifyPassword(current, user.passwordHash)) {
       throw new HttpError(400, 'Your current password is wrong.', 'wrong_password');
     }
@@ -88,8 +89,9 @@ export function registerMeRoutes(r: Router): void {
   r.delete('/v1/me', async (ctx) => {
     const userId = requireUser(ctx);
     const password = required(ctx.body, 'password', 200);
-    const user = await prisma.user.findUnique({ where: { id: userId }, select: { passwordHash: true } });
+    const user = await prisma.user.findUnique({ where: { id: userId }, select: { passwordHash: true, isDemo: true } });
     if (!user) return { deleted: true };
+    if (user.isDemo) throw new HttpError(403, 'Demo accounts can’t be deleted.', 'demo_account');
     if (!verifyPassword(password, user.passwordHash)) {
       throw new HttpError(400, 'Wrong password.', 'wrong_password');
     }

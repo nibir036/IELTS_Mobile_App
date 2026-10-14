@@ -1,0 +1,203 @@
+.top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.back {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  flex: none;
+}
+.topText {
+  flex: 1;
+  min-width: 0;
+}
+.kicker {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  flex: none;
+}
+.low {
+  color: var(--warning);
+}
+.over {
+  color: var(--danger);
+  background: var(--danger-soft);
+}
+.tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tab {
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 14px;
+  cursor: pointer;
+}
+.tabOn {
+  background: var(--primary);
+  color: var(--on-primary);
+  border-color: var(--primary);
+}
+.audioRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.grow {
+  flex: 1;
+  min-width: 0;
+}
+.partTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.audio {
+  width: 100%;
+}
+.muted {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  align-items: start;
+}
+@media (min-width: 1000px) {
+  .split {
+    grid-template-columns: 1fr 1fr;
+  }
+  .passage,
+  .qPane {
+    position: sticky;
+    top: 16px;
+    max-height: calc(100dvh - 32px);
+    overflow: auto;
+  }
+}
+.passageTitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.para {
+  margin: 12px 0 0;
+  line-height: 1.7;
+  font-size: 15.5px;
+  color: var(--text-soft);
+}
+.letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 12.5px;
+  margin-right: 8px;
+}
+.error {
+  margin: 0;
+  color: var(--danger);
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.keyTable {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.keyRow {
+  display: flex;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--divider);
+}
+.keyNum {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  flex: none;
+}
+.keyOk {
+  background: var(--success-soft);
+  color: var(--success);
+}
+.keyBad {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+.keyQ {
+  margin: 0;
+  font-size: 14.5px;
+}
+.keyA {
+  margin: 2px 0 0;
+  font-size: 13.5px;
+  color: var(--text-soft);
+}
+.keyRight {
+  color: var(--success);
+}
+.keyWhy {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.transcript {
+  margin-top: 8px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-soft);
+}
+.transcript p {
+  margin: 0 0 8px;
+}

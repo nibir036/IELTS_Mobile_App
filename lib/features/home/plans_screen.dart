@@ -1,18 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
+import '../../app/services/billing_service.dart';
+import '../../app/services/config.dart';
+import '../../app/services/entitlements.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
-import 'widgets.dart';
 
-/// kv key: the student asked to be told when Pro launches.
-const String kPlansNotifyKey = 'plans.notify';
-
-/// The signed-in student's plan name ('Free' | 'Pro').
+/// The signed-in student's plan name ('Free' | 'Pro'): the server's answer
+/// (Entitlements) once known, else the profile's last known plan.
 String currentPlanName(Store store) {
+  if (AppConfig.hasApi && (Entitlements.I.loaded || BillingService.I.hasPass)) {
+    return Entitlements.I.isPro || BillingService.I.hasPass ? 'Pro' : 'Free';
+  }
   final raw = store.current?.profile['plan'];
   final s = raw == null ? '' : '$raw'.trim();
   if (s.isEmpty) return 'Free';
@@ -30,9 +34,24 @@ String _groupDigits(int n) {
   return n < 0 ? '-$b' : b.toString();
 }
 
-/// Plans: Pro passes (1 week, 1 month, 3 months; all give full access) at
-/// launch prices, and Free vs Pro. No checkout yet: the button opens a
-/// "Payments open soon" sheet with a notify-me toggle.
+const List<String> _months = <String>['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+/// ISO time → "14 Oct 2026" (local).
+String _dateLabel(String iso) {
+  final d = DateTime.tryParse(iso)?.toLocal();
+  return d == null ? '' : '${d.day} ${_months[d.month - 1]} ${d.year}';
+}
+
+String _paidWith(String provider) => switch (provider) {
+      'google_play' => 'Google Play',
+      'bkash' => 'bKash',
+      '' => '',
+      _ => 'nextED',
+    };
+
+/// Plans: Pro passes (7, 45, 100 days; all give full access) bought once
+/// through Google Play (no automatic renewal), the running pass with its
+/// dates, Upgrade plan (a longer pass) and Free vs Pro.
 class PlansScreen extends StatefulWidget {
   const PlansScreen({super.key});
 
@@ -41,51 +60,109 @@ class PlansScreen extends StatefulWidget {
 }
 
 class _PlansScreenState extends State<PlansScreen> {
-  String? _picked; // pass id; null = the content's default
+  String? _picked; // pass id; null = the default
+  bool _upgrading = false;
 
-  void _openUpgrade(Map<String, dynamic> content, Map<String, dynamic> pass) {
-    final cur = content.s('currency');
-    showAppSheet<void>(
-      context,
-      _NotifySheet(
-        copy: content.m('comingSoon'),
-        summary: '${pass.s('name')} · $cur ${_groupDigits(pass.i('price'))} (${content.s('pricingLabel').toLowerCase()})',
-      ),
-    );
+  /// The plans content with the app's own copy (`app` blocks) applied.
+  static Map<String, dynamic> _content() {
+    final raw = Demo.section('home').m('plans');
+    return <String, dynamic>{...raw, ...raw.m('app')};
+  }
+
+  static List<Map<String, dynamic>> _passes(Map<String, dynamic> content) => <Map<String, dynamic>>[
+        for (final p in content.l('passes')) <String, dynamic>{...p, ...p.m('app')},
+      ];
+
+  @override
+  void initState() {
+    super.initState();
+    BillingService.I.addListener(_onBilling);
+    // After the first frame: load() notifies listeners straight away.
+    Future<void>.microtask(() => BillingService.I.load(_passes(_content()).map((p) => p.s('playProductId'))));
+  }
+
+  @override
+  void dispose() {
+    BillingService.I.removeListener(_onBilling);
+    super.dispose();
+  }
+
+  void _onBilling() {
+    final m = BillingService.I.takeMessage();
+    if (m == null || !mounted) return;
+    context.toast(m);
+    if (BillingService.I.hasPass && _upgrading) setState(() => _upgrading = false);
+  }
+
+  Future<void> _buy(Map<String, dynamic> pass) async {
+    final err = await BillingService.I.buy(pass.s('playProductId'));
+    if (err != null && mounted) context.toast(err);
+  }
+
+  Future<void> _openSupport(String number) async {
+    final digits = number.replaceAll(RegExp(r'\D'), '');
+    final ok = await launchUrl(Uri.parse('https://wa.me/$digits'), mode: LaunchMode.externalApplication).catchError((_) => false);
+    if (!ok && mounted) context.toast('Couldn’t open WhatsApp. Please try again.');
   }
 
   @override
   Widget build(BuildContext context) {
+    return ListenableBuilder(
+      listenable: Listenable.merge(<Listenable>[BillingService.I, Entitlements.I]),
+      builder: (context, _) => _build(context),
+    );
+  }
+
+  Widget _build(BuildContext context) {
     final t = context.tk;
     final store = context.store;
-    final content = Demo.section('home').m('plans');
-    final passes = content.l('passes');
+    final billing = BillingService.I;
+    final content = _content();
+    final all = _passes(content);
     final features = content.l('features');
     final planName = currentPlanName(store);
     final isPro = planName == 'Pro';
-    final notify = store.kv<bool>(kPlansNotifyKey) ?? false;
-    final cur = content.s('currency');
+    final cur = content.s('currency').isEmpty ? 'BDT' : content.s('currency');
+    final current = billing.current;
+    final queued = current.l('queued');
+    final lastEnd = queued.isNotEmpty ? queued.last.s('endsAt') : current.s('endsAt');
 
-    final pickedId = _picked ?? content.s('defaultPass');
-    var pass = passes.isEmpty ? <String, dynamic>{} : passes.first;
-    for (final p in passes) {
+    // Upgrading: only the passes longer than the one held.
+    final rank = all.indexWhere((p) => p.s('id') == billing.highestPassId);
+    final higher = rank < 0 ? all : all.sublist(rank + 1);
+    final canUpgrade = isPro && billing.canUpgrade && higher.isNotEmpty;
+    final choosing = !isPro || (_upgrading && canUpgrade);
+    final shown = isPro ? (choosing ? higher : const <Map<String, dynamic>>[]) : all;
+
+    final pickedId = _picked ?? (isPro ? (higher.isEmpty ? '' : higher.first.s('id')) : content.s('defaultPass'));
+    var pass = shown.isEmpty ? <String, dynamic>{} : shown.first;
+    for (final p in shown) {
       if (p.s('id') == pickedId) pass = p;
     }
 
     Widget? footer;
-    if (!isPro && pass.isNotEmpty) {
+    if (choosing && pass.isNotEmpty) {
+      final buying = billing.busy;
+      final label = buying
+          ? 'Opening Google Play…'
+          : isPro
+              ? 'Upgrade to ${pass.s('name')} · $cur ${_groupDigits(pass.i('price'))}'
+              : '${content.s('cta').isEmpty ? 'Get Pro' : content.s('cta')} · $cur ${_groupDigits(pass.i('price'))}';
       footer = Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         spacing: 8,
         children: [
           PrimaryButton(
-            label: content.s('cta').isEmpty ? 'Upgrade to Pro' : content.s('cta'),
-            leading: AppIcons.sparkle,
-            onTap: () => _openUpgrade(content, pass),
+            label: label,
+            leading: buying ? null : AppIcons.sparkle,
+            enabled: !buying,
+            onTap: buying ? null : () => _buy(pass),
           ),
           Text(
-            notify ? 'We’ll notify you when payments open' : content.s('ctaNote'),
+            billing.pending
+                ? 'Payment pending. Your pass starts as soon as Google Play confirms it.'
+                : content.s('ctaNote'),
             textAlign: TextAlign.center,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
@@ -106,39 +183,13 @@ class _PlansScreenState extends State<PlansScreen> {
           onBack: () => context.back(),
         ),
         if (isPro)
-          HeroCard(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              spacing: 10,
-              children: [
-                Row(
-                  spacing: 10,
-                  children: [
-                    Icon(AppIcons.verified, size: 22, color: t.peach),
-                    const Expanded(
-                      child: Text(
-                        'You’re on Pro',
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
-                      ),
-                    ),
-                    const Tag('Current plan', tone: TagTone.hero),
-                  ],
-                ),
-                Text(
-                  'Unlimited mocks, AI feedback and the full library are unlocked.',
-                  style: TextStyle(fontSize: 14, height: 1.4, color: t.heroMuted),
-                ),
-                Container(height: 1, color: t.heroDivider),
-                Text(
-                  content.s('proRenewalNote'),
-                  style: TextStyle(fontSize: 12, height: 1.4, color: t.heroMuted),
-                ),
-              ],
-            ),
+          _ProCard(
+            name: current.s('name'),
+            startedAt: current.s('startedAt'),
+            endsAt: lastEnd,
+            paidWith: _paidWith(current.s('paidWith')),
+            queued: queued,
+            note: content.s('proRenewalNote'),
           )
         else
           HeroCard(
@@ -148,29 +199,6 @@ class _PlansScreenState extends State<PlansScreen> {
               mainAxisSize: MainAxisSize.min,
               spacing: 8,
               children: [
-                if (content.s('launchEnds').isNotEmpty)
-                  // Not a Tag: its text must wrap on narrow screens / large text.
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                    decoration: BoxDecoration(color: t.accentSoft, borderRadius: BorderRadius.circular(999)),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      spacing: 5,
-                      children: [
-                        Icon(AppIcons.hourglass, size: 14, color: t.isNight ? t.primary : t.text),
-                        Flexible(
-                          child: Text(
-                            '${content.s('pricingLabel')} ends ${content.s('launchEnds')}',
-                            style: TextStyle(
-                              fontSize: 12,
-                              fontWeight: FontWeight.w600,
-                              color: t.isNight ? t.primary : t.text,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
                 Text(
                   content.s('headline'),
                   style: TextStyle(fontSize: 24, height: 1.2, fontWeight: FontWeight.w600, color: t.heroText),
@@ -182,12 +210,30 @@ class _PlansScreenState extends State<PlansScreen> {
               ],
             ),
           ),
-        for (final p in passes)
+        if (canUpgrade && !_upgrading)
+          SoftButton(
+            label: 'Upgrade plan',
+            leading: AppIcons.trendUp,
+            expand: true,
+            height: 52,
+            onTap: () => setState(() {
+              _upgrading = true;
+              _picked = null;
+            }),
+          ),
+        if (isPro && choosing) ...[
+          const SectionTitle('Upgrade plan'),
+          Text(
+            'Your new pass starts when your current one ends${lastEnd.isEmpty ? '' : ' on ${_dateLabel(lastEnd)}'}, so you don’t lose any days.',
+            style: TextStyle(fontSize: 13, height: 1.4, color: t.textMuted),
+          ),
+        ],
+        for (final p in shown)
           _PassCard(
             pass: p,
             currency: cur,
-            selected: !isPro && p.s('id') == pass.s('id'),
-            onTap: isPro ? null : () => setState(() => _picked = p.s('id')),
+            selected: p.s('id') == pass.s('id'),
+            onTap: () => setState(() => _picked = p.s('id')),
           ),
         if (content.ls('allAccess').isNotEmpty)
           AppCard(
@@ -219,7 +265,138 @@ class _PlansScreenState extends State<PlansScreen> {
           content.s('pricingNote'),
           style: TextStyle(fontSize: 12, height: 1.4, color: t.textMuted),
         ),
+        if (!isPro && content.s('supportWhatsapp').isNotEmpty)
+          GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onTap: () => _openSupport(content.s('supportWhatsapp')),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 6),
+              child: Text.rich(
+                TextSpan(
+                  children: [
+                    TextSpan(
+                      text: content.s('supportLine').isEmpty
+                          ? 'Facing issues with payment system? Contact our tech support at '
+                          : '${content.s('supportLine')} ',
+                    ),
+                    TextSpan(
+                      text: 'WhatsApp',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        color: t.text,
+                        decoration: TextDecoration.underline,
+                        decorationColor: t.text,
+                      ),
+                    ),
+                  ],
+                ),
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 13, height: 1.45, color: t.textMuted),
+              ),
+            ),
+          ),
       ],
+    );
+  }
+}
+
+/// Pro: the running pass, its start and end dates, how it was paid and any
+/// pass queued after it. Passes bought in the app never renew by themselves.
+class _ProCard extends StatelessWidget {
+  const _ProCard({
+    required this.name,
+    required this.startedAt,
+    required this.endsAt,
+    required this.paidWith,
+    required this.queued,
+    required this.note,
+  });
+
+  final String name;
+  final String startedAt;
+  final String endsAt;
+  final String paidWith;
+  final List<Map<String, dynamic>> queued;
+  final String note;
+
+  Widget _dateBox(BuildContext context, String label, String iso) {
+    final t = context.tk;
+    return Expanded(
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(14, 10, 14, 12),
+        decoration: BoxDecoration(color: t.heroDivider, borderRadius: BorderRadius.circular(16)),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          spacing: 2,
+          children: [
+            Text(label, style: TextStyle(fontSize: 12, color: t.heroMuted)),
+            Text(
+              iso.isEmpty ? '-' : _dateLabel(iso),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: t.heroText),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    final hasDates = startedAt.isNotEmpty && endsAt.isNotEmpty;
+    return HeroCard(
+      padding: const EdgeInsets.all(20),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        spacing: 10,
+        children: [
+          Row(
+            spacing: 10,
+            children: [
+              Icon(AppIcons.verified, size: 22, color: t.peach),
+              Expanded(
+                child: Text(
+                  name.isEmpty ? 'You’re on Pro' : 'Pro · $name',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.w500, color: t.heroText),
+                ),
+              ),
+              const Tag('Current plan', tone: TagTone.hero),
+            ],
+          ),
+          if (hasDates)
+            Row(
+              spacing: 10,
+              children: [
+                _dateBox(context, 'Started', startedAt),
+                _dateBox(context, 'Ends', endsAt),
+              ],
+            )
+          else
+            Text(
+              'Unlimited mocks, AI feedback and the full library are unlocked.',
+              style: TextStyle(fontSize: 14, height: 1.4, color: t.heroMuted),
+            ),
+          for (final q in queued)
+            Text(
+              'Next: ${q.s('name')} from ${_dateLabel(q.s('startsAt'))}',
+              style: TextStyle(fontSize: 13, height: 1.4, color: t.heroMuted),
+            ),
+          Container(height: 1, color: t.heroDivider),
+          Text(
+            [
+              if (paidWith.isNotEmpty) 'Paid with $paidWith',
+              hasDates ? 'Doesn’t renew by itself' : note,
+            ].where((x) => x.isNotEmpty).join(' · '),
+            style: TextStyle(fontSize: 12, height: 1.4, color: t.heroMuted),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -412,106 +589,6 @@ class _ComparisonTable extends StatelessWidget {
               ),
             ),
           ],
-        ],
-      ),
-    );
-  }
-}
-
-/// "Payments open soon" + notify-me toggle (kv `plans.notify`).
-class _NotifySheet extends StatefulWidget {
-  const _NotifySheet({required this.copy, required this.summary});
-
-  final Map<String, dynamic> copy;
-  final String summary;
-
-  @override
-  State<_NotifySheet> createState() => _NotifySheetState();
-}
-
-class _NotifySheetState extends State<_NotifySheet> {
-  late bool _notify;
-
-  @override
-  void initState() {
-    super.initState();
-    _notify = Store.I.kv<bool>(kPlansNotifyKey) ?? false;
-  }
-
-  void _set(bool v) {
-    Store.I.setKv(kPlansNotifyKey, v);
-    setState(() => _notify = v);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final t = context.tk;
-    final copy = widget.copy;
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        mainAxisSize: MainAxisSize.min,
-        spacing: 14,
-        children: [
-          const SizedBox(height: 4),
-          Row(
-            spacing: 12,
-            children: [
-              const IconCircle(AppIcons.hourglass, size: 44),
-              Expanded(
-                child: Text(
-                  copy.s('title'),
-                  style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
-                ),
-              ),
-            ],
-          ),
-          Text(
-            copy.s('body'),
-            style: TextStyle(fontSize: 14, height: 1.45, color: t.textSoft),
-          ),
-          Align(
-            alignment: Alignment.centerLeft,
-            child: Tag(widget.summary, tone: TagTone.soft),
-          ),
-          AppCard(
-            radius: 20,
-            color: t.surfaceAlt2,
-            padding: const EdgeInsets.fromLTRB(16, 14, 12, 14),
-            onTap: () => _set(!_notify),
-            child: Row(
-              spacing: 12,
-              children: [
-                Icon(AppIcons.bell, size: 20, color: t.text),
-                Expanded(
-                  child: Text(
-                    copy.s('toggleLabel'),
-                    style: const TextStyle(fontSize: 15),
-                  ),
-                ),
-                PillSwitch(value: _notify, onChanged: _set),
-              ],
-            ),
-          ),
-          if (_notify)
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              spacing: 8,
-              children: [
-                Icon(AppIcons.checkCircle, size: 18, color: t.iconAccent),
-                Expanded(
-                  child: Text(
-                    copy.s('confirmation'),
-                    style: TextStyle(fontSize: 13, height: 1.4, color: t.textMuted),
-                  ),
-                ),
-              ],
-            ),
-          const SizedBox(height: 2),
-          PrimaryButton(
-            label: 'Done',
-            onTap: () => Navigator.of(context).pop(),
-          ),
         ],
       ),
     );

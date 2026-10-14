@@ -8,9 +8,16 @@
 //   GET /v1/content/:collection/:id         one item
 //   GET /v1/content/bundle?collections=a,b  several collections in one call
 //   GET /v1/word-of-the-day                 today's word (Asia/Dhaka)
+//
+// Content packs (what the app reads; see lib/packs.ts):
+//   GET /v1/content/packs                   [{key, version, bytes, gzBytes, public}]
+//   GET /v1/content/packs/:key?v=<version>  the pack's JSON (gzip); signed-in
+//                                           users only, except public packs
 
 import { prisma } from '../db';
-import { badRequest, int, notFound, Router, s } from '../lib/http';
+import { badRequest, int, notFound, rateLimit, Router, s } from '../lib/http';
+import { packBody, packManifest } from '../lib/packs';
+import { requireUser } from '../lib/users';
 
 type Row = Record<string, unknown>;
 
@@ -205,6 +212,44 @@ function dhakaToday(): Date {
 }
 
 export function registerContentRoutes(r: Router): void {
+  // Packs first: '/v1/content/:collection' would swallow 'packs'.
+  r.get('/v1/content/packs', async () => ({ packs: await packManifest(prisma) }));
+
+  r.get('/v1/content/packs/:key', async (ctx) => {
+    const key = s(ctx.params.key, 80);
+    const found = await packBody(prisma, key);
+    if (!found) throw notFound('No such content pack.');
+    const { info, gz } = found;
+    if (!info.public) {
+      const userId = requireUser(ctx);
+      // A full download is ~50 packs; this only stops scripted copying.
+      rateLimit(`packs:${userId}`, 400, 3600);
+    } else {
+      rateLimit(`packs:${ctx.ip}`, 200, 3600);
+    }
+    const etag = `"${info.version}"`;
+    // ?v= names this exact version, so it can be cached for good.
+    const pinned = ctx.query.get('v') === info.version;
+    const headers: Record<string, string | number> = {
+      ETag: etag,
+      'Cache-Control': pinned ? 'private, max-age=31536000, immutable' : 'private, no-cache',
+      'X-Pack-Version': info.version,
+      'Access-Control-Expose-Headers': 'ETag, X-Pack-Version',
+      Vary: 'Authorization',
+    };
+    if (String(ctx.req.headers['if-none-match'] || '') === etag) {
+      ctx.res.writeHead(304, headers).end();
+      return;
+    }
+    ctx.res.writeHead(200, {
+      ...headers,
+      'Content-Type': 'application/json; charset=utf-8',
+      'Content-Encoding': 'gzip',
+      'Content-Length': gz.length,
+    });
+    ctx.res.end(gz);
+  });
+
   r.get('/v1/content', async () => {
     const out: Array<{ name: string; count: number; version: string | null }> = [];
     for (const [name, c] of Object.entries(COLLECTIONS)) {

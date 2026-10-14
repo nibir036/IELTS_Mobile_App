@@ -30,6 +30,7 @@ Settings to fill in `server\.env` (see `.env.example`):
 | Auth | `POST /v1/auth/otp/send` {phone, purpose: signup\|reset} · `POST /v1/auth/otp/verify` → {proof} · `POST /v1/auth/register` {name, phone, password, proof} · `POST /v1/auth/login` · `POST /v1/auth/refresh` {refreshToken} (rotates) · `POST /v1/auth/logout` · `POST /v1/auth/reset-password` {phone, password, proof} · `POST /v1/auth/takeover` {refreshToken} ("Use it here") |
 | Me | `GET/PATCH/DELETE /v1/me` · `POST /v1/me/password` · `GET /v1/me/usage` · `GET /v1/me/devices` · `DELETE /v1/me/devices/:id` |
 | Content | `GET /v1/content` (manifest) · `/v1/content/bundle?collections=a,b` · `/v1/content/:collection[/:id]` · `/v1/word-of-the-day` — filters such as `?source=bank`, `?kind=full`, `?test=wt_01`; new collections `writing-tests`, `speaking-tests`, `documents` (`?kind=guide\|meta\|list\|glossary\|l10n`) |
+| Content packs | `GET /v1/content/packs` (list: key, version, size) · `GET /v1/content/packs/:key?v=<version>` (gzipped JSON; signed-in users only, except `ui` and `l10n.index`). This is what the app reads — see "Content packs" below |
 | Sync | `GET /v1/sync?since=<iso>` · `POST /v1/sync` {attempts, state, tasks} |
 | Progress | `/v1/attempts`, `/v1/state[/:key]`, `/v1/notifications`, `/v1/tasks/:id` |
 | Writing AI | `POST /v1/writing/evaluate` {task, prompt\|promptId, text} or {task1, task2} · `POST /v1/writing/rewrite` |
@@ -78,6 +79,20 @@ existing data (`prisma migrate deploy`), refreshes the Prisma client and runs th
 seed again (upserts, nothing is duplicated). Output: `tool\seed_report.txt`.
 Before that, after content changes in the app: `python tool/build_seed_formats.py`
 then `python tool/build_seed_banks.py`.
+
+### Content packs (what the app downloads)
+
+The app no longer carries its content: the question banks, guides, courses,
+translations and UI text (`assets/content/**`, `assets/demo/demo_data.json`)
+are stored as 49 gzipped **content packs** in the `content_packs` table
+(`src/lib/packs.ts`). Every container start runs `scripts/load-packs.ts`, which
+writes only the packs whose JSON changed. The app checks the pack list when it
+opens and downloads a pack only when its version changed.
+
+So to change content: edit the JSON in the repo (and `python tool/merge_demo.py`
+for `assets/demo/parts`), commit, push. Coolify redeploys and the app picks it
+up on next open — no new APK. Locally: `npx tsx --env-file=.env scripts/load-packs.ts`
+(the seed also loads them).
 
 ## Everyday commands (run inside `server/`)
 

@@ -1,0 +1,441 @@
+/* My recordings, the speaking library and sample answers. */
+
+.recRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--divider);
+}
+.play {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border: 0;
+  border-radius: 15px;
+  background: var(--surface-alt2);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.play:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.playOn {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+.recText {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.recTitle {
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recTitle:hover {
+  text-decoration: underline;
+}
+.recMeta {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recTime {
+  flex: none;
+  font-size: 13px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+.del {
+  width: 36px;
+  height: 36px;
+  flex: none;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.del:hover {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+.seek {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 14px;
+  margin: 4px 0 0;
+  background: transparent;
+  cursor: pointer;
+}
+.seek::-webkit-slider-runnable-track {
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--fill) var(--p, 0%), var(--track) var(--p, 0%));
+}
+.seek::-moz-range-track {
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--fill) var(--p, 0%), var(--track) var(--p, 0%));
+}
+.seek::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  margin-top: -4.5px;
+  border-radius: 50%;
+  background: var(--fill);
+  border: 0;
+}
+.seek::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--fill);
+  border: 0;
+}
+.darkBtn {
+  height: 48px;
+  padding: 0 20px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--on-primary);
+  display: inline-flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ── Library ─────────────────────────────────────────────────────────── */
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  padding: 0 6px 0 14px;
+  border-radius: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+.search:focus-within {
+  border-color: var(--peach);
+}
+.searchInput {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+}
+.searchInput::placeholder {
+  color: var(--text-muted);
+}
+.go {
+  height: 38px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 13px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.listRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 4px;
+  border-top: 1px solid var(--divider);
+  min-width: 0;
+}
+.listRow:first-child {
+  border-top: 0;
+}
+a.listRow:hover .listTitle {
+  text-decoration: underline;
+}
+.listText {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.listTitle {
+  font-size: 15px;
+  font-weight: 500;
+}
+.listSub {
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+.listGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 28px;
+}
+@media (min-width: 900px) {
+  .listGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .listGrid .listRow:nth-child(2) {
+    border-top: 0;
+  }
+}
+.word {
+  border-top: 1px solid var(--divider);
+}
+.word:first-child {
+  border-top: 0;
+}
+.word > summary {
+  list-style: none;
+  cursor: pointer;
+}
+.word > summary::-webkit-details-marker {
+  display: none;
+}
+.word > summary .listRow {
+  border-top: 0;
+}
+.wordBody {
+  padding: 0 4px 14px;
+}
+
+/* ── Word sheet ──────────────────────────────────────────────────────── */
+.wordHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.headword {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+.ipa {
+  font-size: 15px;
+  color: var(--text-muted);
+}
+.pos {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-left: 10px;
+}
+.syls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.syl {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: var(--surface-alt);
+  font-size: 14px;
+}
+.sylStress {
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: 600;
+}
+.meaning {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.45;
+}
+.example {
+  margin: 0;
+  display: flex;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--surface-alt);
+  font-size: 14px;
+  line-height: 1.45;
+}
+.syn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.synTag {
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-soft);
+  display: inline-flex;
+  align-items: center;
+}
+.sheetCol {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.sheetScroll {
+  max-height: min(80vh, 640px);
+  overflow-y: auto;
+}
+
+/* ── Samples ─────────────────────────────────────────────────────────── */
+.marked {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.mark {
+  border: 0;
+  padding: 0;
+  background: none;
+  font: inherit;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--icon-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.mark:hover {
+  background: var(--accent-soft);
+  border-radius: 3px;
+}
+.markPlain {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--icon-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.qHead {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.num {
+  width: 28px;
+  height: 28px;
+  flex: none;
+  border-radius: 9px;
+  background: var(--surface-alt);
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.qTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+.bullets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.bullets li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 15px;
+  color: var(--hero-text);
+}
+.bullets li::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--peach);
+  transform: translateY(-2px);
+}
+.vocab {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.vocabChip {
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13.5px;
+  cursor: pointer;
+}
+.vocabChip:hover {
+  border-color: var(--peach);
+}
+.info {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 10px 14px;
+  border-radius: 16px;
+  background: var(--surface-alt);
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+.iconBtnBase {
+  width: 48px;
+  height: 48px;
+  flex: none;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  cursor: pointer;
+}
+.bookmarkOn {
+  background: var(--accent-soft);
+  border-color: var(--accent-strong);
+}
+.navBtns {
+  display: flex;
+  gap: 8px;
+}
+.navOff {
+  opacity: 0.4;
+  pointer-events: none;
+}

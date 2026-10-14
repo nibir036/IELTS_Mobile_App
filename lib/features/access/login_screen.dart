@@ -251,7 +251,8 @@ class _LoginScreenState extends State<LoginScreen> {
               label: 'Phone number',
               hint: '1XXX XXXXXX',
               controller: _phone,
-              keyboardType: TextInputType.phone,
+              // Text, not the phone pad: demo accounts sign in as "Demo 1" … "Demo 4".
+              keyboardType: TextInputType.text,
               prefix: const CountryCodePrefix(code: '+880'),
             ),
             if (_phoneError != null) FieldError(_phoneError!),

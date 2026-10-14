@@ -1,0 +1,239 @@
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.range {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+.instruction {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--text-soft);
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+.map {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--border);
+}
+.optionBox {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px 14px;
+  background: var(--surface);
+  font-size: 14px;
+}
+.optionBox p {
+  margin: 4px 0;
+}
+.noteHead {
+  font-weight: 600;
+  margin: 6px 0 2px !important;
+}
+.notes,
+.form {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px 14px;
+  background: var(--surface);
+  font-size: 14.5px;
+  line-height: 2;
+}
+.notes p,
+.form p {
+  margin: 0;
+}
+.formRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.formLabel {
+  min-width: 140px;
+  color: var(--text-muted);
+}
+.summary {
+  margin: 0;
+  line-height: 2.1;
+  font-size: 14.5px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+.flow {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.flow li {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px 12px;
+  background: var(--surface);
+  line-height: 2;
+  font-size: 14.5px;
+}
+.flow li + li::before {
+  content: '↓';
+  display: block;
+  text-align: center;
+  color: var(--text-muted);
+  margin: -8px 0 2px;
+}
+.tableWrap {
+  overflow-x: auto;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  background: var(--surface);
+}
+.table th,
+.table td {
+  border: 1px solid var(--border);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 2;
+}
+.table th {
+  background: var(--surface-alt);
+  font-weight: 600;
+}
+.q {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.qText {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.qLine {
+  margin: 0;
+  font-size: 15px;
+  line-height: 2.1;
+}
+.qRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--divider);
+}
+.qRowText {
+  flex: 1;
+  min-width: 200px;
+  font-size: 15px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 14.5px;
+}
+.option input {
+  margin-top: 3px;
+  accent-color: var(--primary);
+}
+.optionOn {
+  border-color: var(--primary);
+  background: var(--accent-soft2);
+}
+.inlineBox,
+.blockBox {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+.num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 5px;
+  border-radius: 6px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+.input,
+.select {
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  padding: 0 8px;
+  font-size: 14.5px;
+  min-width: 120px;
+}
+.input:focus,
+.select:focus {
+  outline: 2px solid var(--peach);
+  border-color: transparent;
+}
+.select {
+  min-width: 70px;
+}
+.blockBox .select {
+  max-width: 320px;
+}
+.ok {
+  color: var(--success);
+  font-weight: 700;
+}
+.bad {
+  color: var(--danger);
+  font-weight: 700;
+}
+.key {
+  font-size: 12.5px;
+  color: var(--success);
+  background: var(--success-soft);
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+.missing {
+  color: var(--text-muted);
+}

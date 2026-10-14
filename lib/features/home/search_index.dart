@@ -26,7 +26,8 @@ class SearchIndex {
   };
 
   static List<Map<String, dynamic>> get entries {
-    final lang = ContentL10n.current;
+    // Rebuilt for another language or newer content packs.
+    final lang = '${ContentL10n.current}#${Demo.generation}';
     if (_cache == null || _builtFor != lang) {
       _cache = _build();
       _builtFor = lang;

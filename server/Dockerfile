@@ -1,6 +1,7 @@
 # IELTS AI API server — for Coolify (or any Docker host).
 # Build context = the repository root (the seed reads ../seed/data and
-# ../assets/demo/parts), Dockerfile = server/Dockerfile.
+# ../assets/demo/parts; the content packs read ../assets/content and
+# ../assets/demo/demo_data.json), Dockerfile = server/Dockerfile.
 FROM node:22-slim
 
 # Prisma needs OpenSSL at runtime.
@@ -17,6 +18,8 @@ RUN npm install --no-audit --no-fund
 COPY server/ ./
 COPY seed/data /repo/seed/data
 COPY assets/demo/parts /repo/assets/demo/parts
+COPY assets/demo/demo_data.json /repo/assets/demo/demo_data.json
+COPY assets/content /repo/assets/content
 RUN npx prisma generate
 
 ENV NODE_ENV=production \

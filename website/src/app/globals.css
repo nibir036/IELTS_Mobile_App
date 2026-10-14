@@ -1,0 +1,231 @@
+/* IELTS AI by nextED: the app's design tokens (lib/app/theme/tokens.dart),
+   Day and Night, as CSS variables. Screens use only these. */
+
+:root,
+:root[data-theme='day'] {
+  color-scheme: light;
+  --bg: #fbf5f3;
+  --surface: rgba(255, 255, 255, 0.95);
+  --surface-alt: #fff1ec;
+  --surface-alt2: #eef3ff;
+  --raised: rgba(255, 255, 255, 0.85);
+  --border: #f0e2dd;
+  --divider: #f2e6e2;
+  --text: #151515;
+  --text-muted: #6b6270;
+  --text-soft: #3a353d;
+  --text-faint: #bbb0b4;
+  --primary: #151515;
+  --on-primary: #ffffff;
+  --icon-accent: #151515;
+  --alert: #ff6b57;
+  --track: #f6e8e4;
+  --fill: #ff7e67;
+  --hero-text: #ffffff;
+  --hero-muted: #b3b7c9;
+  --hero-chip: rgba(255, 255, 255, 0.1);
+  --hero-track: rgba(255, 255, 255, 0.15);
+  --accent-soft: #ffe2d8;
+  --accent-soft2: #dce6ff;
+  --accent-strong: #ffb8a3;
+  --danger: #c2412d;
+  --danger-soft: #ffe1db;
+  --success: #2f4fc2;
+  --success-soft: #e6edff;
+  --warning: #d9573b;
+  --peach: #ff9c82;
+  --blue: #5b7cf0;
+  --blob-a: rgba(255, 205, 189, 0.75);
+  --blob-b: rgba(198, 214, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-fill: rgba(255, 255, 255, 0.72);
+  --sheet: #fffbfa;
+  --hero-shadow: 0 10px 24px rgba(21, 24, 39, 0.18);
+}
+
+:root[data-theme='night'] {
+  color-scheme: dark;
+  --bg: #0d0f1a;
+  --surface: #1a1d2c;
+  --surface-alt: #22263a;
+  --surface-alt2: #1a1e30;
+  --raised: rgba(26, 29, 44, 0.9);
+  --border: #2a2e44;
+  --divider: #23273a;
+  --text: #ffffff;
+  --text-muted: #9aa0b4;
+  --text-soft: #d9dbe6;
+  --text-faint: #5f6478;
+  --primary: #ffb4a0;
+  --on-primary: #151515;
+  --icon-accent: #ffb4a0;
+  --alert: #ff8a6b;
+  --track: #23273a;
+  --fill: #ff9c85;
+  --accent-soft: #2e2433;
+  --accent-soft2: #1e2640;
+  --accent-strong: #ffb4a0;
+  --danger: #ff8a6b;
+  --danger-soft: #33191a;
+  --success: #9db8ff;
+  --success-soft: #1e2640;
+  --warning: #f2a14a;
+  --peach: #ffb4a0;
+  --blue: #8da6ff;
+  --blob-a: rgba(90, 46, 46, 0.55);
+  --blob-b: rgba(30, 46, 102, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --glass-fill: rgba(255, 255, 255, 0.08);
+  --sheet: #171a28;
+  --hero-shadow: none;
+}
+
+/* No choice saved yet: follow the device. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --bg: #0d0f1a;
+    --surface: #1a1d2c;
+    --surface-alt: #22263a;
+    --surface-alt2: #1a1e30;
+    --raised: rgba(26, 29, 44, 0.9);
+    --border: #2a2e44;
+    --divider: #23273a;
+    --text: #ffffff;
+    --text-muted: #9aa0b4;
+    --text-soft: #d9dbe6;
+    --text-faint: #5f6478;
+    --primary: #ffb4a0;
+    --on-primary: #151515;
+    --icon-accent: #ffb4a0;
+    --alert: #ff8a6b;
+    --track: #23273a;
+    --fill: #ff9c85;
+    --accent-soft: #2e2433;
+    --accent-soft2: #1e2640;
+    --accent-strong: #ffb4a0;
+    --danger: #ff8a6b;
+    --danger-soft: #33191a;
+    --success: #9db8ff;
+    --success-soft: #1e2640;
+    --warning: #f2a14a;
+    --peach: #ffb4a0;
+    --blue: #8da6ff;
+    --blob-a: rgba(90, 46, 46, 0.55);
+    --blob-b: rgba(30, 46, 102, 0.55);
+    --glass-border: rgba(255, 255, 255, 0.14);
+    --glass-fill: rgba(255, 255, 255, 0.08);
+    --sheet: #171a28;
+    --hero-shadow: none;
+  }
+}
+
+:root {
+  --peach-gradient: linear-gradient(90deg, #ffb8a3, #ff9c82);
+  --hero-gradient: linear-gradient(135deg, #1c2036, #131624);
+  --on-peach: #151515;
+  --radius-card: 26px;
+  --radius-hero: 28px;
+  --page-max: 1120px;
+  --gutter: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-outfit), system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+/* The soft peach / blue blobs behind every page (GlassBackdrop). */
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  z-index: -1;
+  width: 110vmax;
+  height: 110vmax;
+  border-radius: 50%;
+  pointer-events: none;
+}
+body::before {
+  top: -55vmax;
+  left: -50vmax;
+  background: radial-gradient(circle, var(--blob-a), transparent 70%);
+}
+body::after {
+  bottom: -55vmax;
+  right: -50vmax;
+  background: radial-gradient(circle, var(--blob-b), transparent 70%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--peach);
+  outline-offset: 2px;
+}
+
+/* Material Symbols (the same icon set as the app). */
+.icon {
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  user-select: none;
+}
+.icon.filled {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Edge / IE add their own "show password" eye (and a clear ×) inside password
+   fields; ours already toggles visibility, so hide theirs. */
+input[type='password']::-ms-reveal,
+input[type='password']::-ms-clear {
+  display: none;
+}

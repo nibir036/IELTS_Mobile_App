@@ -1,0 +1,178 @@
+.wrap {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 0;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: center;
+  padding: 24px 0 40px;
+}
+@media (min-width: 900px) {
+  .hero {
+    grid-template-columns: 1.1fr 0.9fr;
+    padding: 48px 0 64px;
+  }
+}
+.h1 {
+  margin: 0;
+  font-size: clamp(36px, 6vw, 60px);
+  line-height: 1.02;
+  font-weight: 600;
+  letter-spacing: -1.6px;
+}
+.lead {
+  margin: 16px 0 0;
+  font-size: 18px;
+  color: var(--text-soft);
+  max-width: 34ch;
+}
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+.heroArt {
+  display: flex;
+  justify-content: center;
+}
+.section {
+  padding: 32px 0;
+}
+.h2 {
+  margin: 0 0 6px;
+  font-size: clamp(26px, 4vw, 36px);
+  font-weight: 600;
+  letter-spacing: -0.8px;
+}
+.sub {
+  margin: 0 0 20px;
+  color: var(--text-muted);
+}
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+@media (min-width: 900px) {
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.skillName {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+.skillText {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--text-muted);
+}
+.steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 900px) {
+  .steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.stepNum {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.passes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 900px) {
+  .passes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.pass {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+}
+.passTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.passName {
+  font-size: 18px;
+  font-weight: 600;
+}
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 6px;
+}
+.priceNow {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+}
+.priceWas {
+  color: var(--text-muted);
+  text-decoration: line-through;
+}
+.pitch {
+  margin: 4px 0 0;
+  color: var(--text-soft);
+  font-size: 14px;
+}
+.note {
+  margin: 14px 0 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.footer {
+  padding: 32px 0 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  color: var(--text-muted);
+  font-size: 13.5px;
+}
+.footer a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

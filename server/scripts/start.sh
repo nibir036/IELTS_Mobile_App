@@ -12,5 +12,13 @@ if [ "$SEED_ON_START" = "true" ]; then
   npx prisma db seed
 fi
 
+# Content packs: always, cheap when nothing changed. A failure keeps the
+# packs already in the database.
+echo "[start] loading content packs…"
+npx tsx scripts/load-packs.ts || echo "[start] content packs not updated (see error above)"
+
+# Shared Pro demo accounts "Demo 1" … "Demo 4" (scripts/demo-accounts.ts).
+npx tsx scripts/demo-accounts.ts || echo "[start] demo accounts not updated (see error above)"
+
 echo "[start] starting API on ${HOST:-0.0.0.0}:${PORT:-4000}"
 exec npx tsx src/index.ts

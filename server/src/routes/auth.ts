@@ -6,7 +6,7 @@ import { env } from '../env';
 import { hashPassword, verifyPassword } from '../lib/password';
 import { badRequest, HttpError, rateLimit, required, Router, s, unauthorized, type Ctx } from '../lib/http';
 import { createOtp, verifyOtp, verifyProof, type OtpPurpose } from '../lib/otp';
-import { isStrongPassword, isValidPhone, normalizePhone } from '../lib/phone';
+import { demoLoginId, isStrongPassword, isValidPhone, normalizePhone } from '../lib/phone';
 import { sendSms } from '../lib/sms';
 import { hashToken, newRefreshToken, signAccessToken } from '../lib/tokens';
 import { assertPasswordChangeAllowed, publicUser, userSelect } from '../lib/users';
@@ -56,6 +56,18 @@ export async function issueSession(ctx: Ctx, userId: string, opts: { recover?: b
     refreshToken,
     refreshTokenExpiresAt: session.expiresAt.toISOString(),
   };
+}
+
+/** The welcome SMS (env WELCOME_SMS), in the background: sign-up never waits for or fails on it. */
+function sendWelcomeSms(phone: string): void {
+  try {
+    const text = String(env.welcomeSms ?? '').trim();
+    if (!text || text.toLowerCase() === 'off') return;
+    const site = String(env.websiteUrl ?? '').replace(/^https?:\/\//, '');
+    sendSms(phone, text.replace(/\{site\}/g, site)).catch((e) => console.error('[auth] welcome SMS failed', e));
+  } catch (e) {
+    console.error('[auth] welcome SMS failed', e);
+  }
 }
 
 export function registerAuthRoutes(r: Router): void {
@@ -121,15 +133,24 @@ export function registerAuthRoutes(r: Router): void {
       },
       select: { id: true },
     });
+    sendWelcomeSms(phone);
     return issueSession(ctx, user.id);
   });
 
   r.post('/v1/auth/login', async (ctx) => {
-    const phone = phoneOf(ctx.body);
+    // "Demo 1" … "Demo 4": the shared Pro demo accounts (no phone number).
+    const demoId = demoLoginId(s(ctx.body.phone, 30));
+    const phone = demoId ?? phoneOf(ctx.body);
     const password = required(ctx.body, 'password', 200);
-    rateLimit(`login:${phone}`, 10, 900);
-    const user = await prisma.user.findUnique({ where: { phone }, select: { id: true, passwordHash: true } });
-    if (!user) throw new HttpError(404, 'No account uses this number. Sign up first.', 'no_account');
+    rateLimit(`login:${phone}`, demoId ? 60 : 10, 900);
+    const user = (await prisma.user.findUnique({ where: { phone }, select: { id: true, passwordHash: true, isDemo: true } })) as {
+      id: string;
+      passwordHash: string;
+      isDemo: boolean;
+    } | null;
+    if (!user || (demoId && !user.isDemo)) {
+      throw new HttpError(404, demoId ? 'This demo account is not set up yet.' : 'No account uses this number. Sign up first.', 'no_account');
+    }
     if (!verifyPassword(password, user.passwordHash)) {
       throw new HttpError(401, 'Wrong password.', 'wrong_password');
     }

@@ -6,6 +6,7 @@
  * 30-35  config
  * 50-71  question banks, full tests, guides,   (tool/build_seed_banks.py, rows
  *        resources and translations             already in table shape)
+ * packs  the app's content files as served to the app (src/lib/packs.ts)
  *
  *   npx prisma db seed
  *
@@ -15,6 +16,7 @@
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { PrismaClient } from '@prisma/client';
+import { loadPacks } from '../src/lib/packs';
 import { hashPassword } from '../src/lib/password';
 
 const prisma = new PrismaClient();
@@ -285,6 +287,9 @@ async function seedDemo() {
 }
 
 async function main() {
+  console.log('Content packs');
+  const packs = await loadPacks(prisma);
+  console.log(`  ${packs.written} written, ${packs.unchanged} unchanged, ${packs.removed} removed`);
   await seedContent();
   await seedBanks();
   await seedConfig();

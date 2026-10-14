@@ -12,6 +12,8 @@ import { HttpError, readBody, Router, sendJson, type Ctx } from './lib/http';
 import { verifyAccessToken } from './lib/tokens';
 import { registerAiRoutes } from './routes/ai';
 import { registerAuthRoutes } from './routes/auth';
+import { registerBillingRoutes } from './routes/billing';
+import { remindRenewals } from './lib/billing/subscriptions';
 import { registerContentRoutes } from './routes/content';
 import { registerFileRoutes } from './routes/files';
 import { registerMeRoutes } from './routes/me';
@@ -31,6 +33,7 @@ export function buildRouter(): Router {
   registerPlanRoutes(r);
   registerAiRoutes(r);
   registerFileRoutes(r);
+  registerBillingRoutes(r);
   return r;
 }
 
@@ -125,7 +128,13 @@ if (require.main === module) {
     console.log(`  SMS: ${env.smsProvider} · R2: ${env.r2Configured ? 'on' : 'off'}`);
     console.log(`  Writing AI: ${writing} · partner chat: ${env.openrouterApiKey ? 'OpenRouter' : 'not configured'}`);
     console.log(`  Speaking: ${env.speakingApiBaseUrl} (${env.speakingApiKey ? 'key set' : 'SPEAKING_API_KEY missing'})`);
+    console.log(`  Payments: bKash ${env.bkashAppKey ? 'on' : 'off'} · Google Play ${env.googlePlayServiceAccount ? 'on' : 'off'}`);
   });
+  // Website passes ending soon with auto-renewal on: ask to confirm (hourly).
+  const renewals = setInterval(() => {
+    remindRenewals().catch((e) => console.error('[billing] renewal reminders failed', e));
+  }, 60 * 60_000);
+  renewals.unref();
   const stop = async () => {
     server.close();
     await prisma.$disconnect();
