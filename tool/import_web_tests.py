@@ -5,7 +5,7 @@ usage: python3 tool/import_web_tests.py
 Sources (seed/sources/web_tests/, copied from the website repo):
   listening/tests_11_14.json      website Listening Mock Tests 3–6 (db positions 11–14) + test1N-map.jpg;
                                   audio: the website's full.mp3 per test (scripts/r2-listening-seed/local_assets)
-  listening/full/FT0N.json        Listening Full Tests 1, 2, 3, 6, 7 (ElevenLabs v4 scripts: parts, questions, answer
+  listening/full/FT0N.json        Listening Full Tests 1, 2, 3, 6, 7, 4 (ElevenLabs v4 scripts: parts, questions, answer
                                   keys, transcripts) + FT0N.srt (subtitles of the recording, for timing) + FT0N-plan.png
                                   (tool/draw_full_test_plans.py); audio: FT0N.mp3 in $FULL_AUDIO. Cut points and
                                   transcript times are kept in listening/full/timing.json, so a rebuild without the
@@ -20,15 +20,16 @@ Sources (seed/sources/web_tests/, copied from the website repo):
 App ids and names (renumbered 1–N):
   Listening Test 1–4  lt_w01…  sets lt_w01_p1…p4 (one recording per part, cut from the full recording at the
                       half-minute pauses after each part), Section 2 plan image
-  Listening Test 5–9  lt_w05…  = Full Tests 1, 2, 3, 6, 7 (one recording per part, cut at the check-your-answers
-                      pause after each part; timed transcripts; Part 2 plans drawn for FT01 / FT03 / FT07)
+  Listening Test 5–10 lt_w05…  = Full Tests 1, 2, 3, 6, 7, 4 (one recording per part, cut at the check-your-answers
+                      pause after each part, or the breath before "Part N" when there is none (FT04); timed
+                      transcripts; Part 2 plans drawn for FT01 / FT03 / FT07). New tests: append to FULL_TESTS
+                      (ids stay stable); listening/full/FT0N.json comes from tool/convert_full_test.py
   Reading Test 1–16   rt_w01…  passages rt_w01_p1…p3 (website 11–26)
   Writing Test 1–16   wt_01…   prompts wt_01_t1 / wt_01_t2 (website 11–26)
   Speaking Test 1–16  st_01…   Part 1 topic st_01_p1 (all three topics), cue card st_01_cc (+ Part 3 list),
                       Part 3 topics st_01_p3_1 / _2 (website 11–26)
   Full Mock Test 1–4  mt_01…   = Listening/Reading/Writing/Speaking Test 1–4 (website Full Mocks 1–3 used 11–13)
-  Full Mock Test 5–9  mt_05…   = Listening Test 5–9 + Reading/Writing/Speaking Test 11–15 (website 21–25);
-                      Reading/Writing/Speaking Test 16 waits for a sixth new listening test (Mock 10)
+  Full Mock Test 5–10 mt_05…   = Listening Test 5–10 + Reading/Writing/Speaking Test 11–16 (website 21–26)
 """
 import json
 import os
@@ -45,7 +46,8 @@ A_MAP = os.path.join(ROOT, 'assets', 'listening', 'maps')
 A_WRI = os.path.join(ROOT, 'assets', 'writing', 'tests')
 FULL_AUDIO = os.environ.get('FULL_AUDIO', '/tmp/claude-0/-home-claude/9cae0284-11a4-5bea-93fa-6ab7396d4762/scratchpad/lt/audio')
 # Listening Full Tests used (in this order → lt_w05…); timing anchors (line index → seconds) where the subtitles failed
-FULL_TESTS = [('FT01', {}), ('FT02', {128: 1551.8, 143: 1913.9, 144: 1925.5}), ('FT03', {}), ('FT06', {}), ('FT07', {})]
+FULL_TESTS = [('FT01', {}), ('FT02', {128: 1551.8, 143: 1913.9, 144: 1925.5}), ('FT03', {}), ('FT06', {}), ('FT07', {}),
+              ('FT04', {})]
 # recordings that leave out narrator lines of the script (FT06: no part introductions)
 FULL_DROP_SILENT_NARRATOR = {'FT06'}
 
@@ -197,7 +199,8 @@ def listening():
 
 
 def silences(mp3, min_len=8.0):
-    err = subprocess.run(['ffmpeg', '-hide_banner', '-i', mp3, '-af', f'silencedetect=noise=-40dB:d={min_len}', '-f', 'null', '-'],
+    noise = -35 if min_len < 0.5 else -40  # breaths between sentences sit just above -40 dB
+    err = subprocess.run(['ffmpeg', '-hide_banner', '-i', mp3, '-af', f'silencedetect=noise={noise}dB:d={min_len}', '-f', 'null', '-'],
                          capture_output=True, text=True).stderr
     st = [float(x) for x in re.findall(r'silence_start: ([0-9.]+)', err)]
     en = [float(x) for x in re.findall(r'silence_end: ([0-9.]+)', err)]
@@ -238,7 +241,16 @@ def full_timing(code, anchors):
                 break
         if ts is not None:
             ends = [e for s0, e in short if ts - 4 <= e <= ts + 1.0]
-            cuts.append(round((max(ends) if ends else ts - 0.3) - 0.5, 2))
+            if ends:
+                cuts.append(round(max(ends) - 0.5, 2))
+                continue
+            # no real pause between the parts (FT04): the middle of the breath just before "Part N"
+            tiny = [(s0, e) for s0, e in silences(mp3, 0.15) if ts - 2 <= e <= ts + 1.2]
+            if tiny:
+                s0, e = min(tiny, key=lambda x: abs(x[1] - ts))
+                cuts.append(round((s0 + e) / 2, 2))
+            else:
+                cuts.append(round(ts - 0.8, 2))
             continue
         # 2) otherwise: the end of the check-your-answers pause after "That is the end of Part N-1"
         prev = [i for i in range(len(lines)) if owner[i][0] == pi - 1 and 'end of' in lines[i].lower()]
