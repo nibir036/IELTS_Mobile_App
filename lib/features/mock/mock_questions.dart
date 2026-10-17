@@ -390,6 +390,7 @@ class MockBlankField extends StatelessWidget {
                 onChanged: onChanged,
                 autocorrect: false,
                 enableSuggestions: false,
+                spellCheckConfiguration: const SpellCheckConfiguration.disabled(),
                 cursorColor: t.alert,
                 cursorWidth: 1.5,
                 style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500, color: t.text),

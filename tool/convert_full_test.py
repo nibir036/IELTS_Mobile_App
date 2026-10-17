@@ -68,7 +68,9 @@ def group(g, gid, first):
                 src = prompt(it['prompt'])
                 label, colon, rest = src.partition(':')
                 if not colon:
-                    label, rest = '', src
+                    # "Bag was placed on the ___": the words before the gap are the label
+                    label, _, rest = src.partition('___')
+                    rest = '___' + rest
                 before, _, after = rest.partition('___')
                 out['questions'].append({'number': num(it['n']), 'label': label.strip(), 'before': before.strip(),
                                          'after': after.strip(), 'answer': it['answer'],

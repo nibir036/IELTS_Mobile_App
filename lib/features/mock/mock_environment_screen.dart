@@ -185,6 +185,10 @@ class _MockEnvironmentScreenState extends State<MockEnvironmentScreen> {
                 ),
                 Expanded(
                   child: SingleChildScrollView(
+                    // Each passage and tab keeps its own scroll position
+                    // (PageStorage), so Passage → Questions → Passage
+                    // returns to the same place in the text.
+                    key: PageStorageKey<String>('mock-reading-$_passage-$_tab'),
                     child: _tab == 0 ? _passageCard() : _questionsCard(),
                   ),
                 ),

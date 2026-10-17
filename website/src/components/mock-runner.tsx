@@ -431,7 +431,7 @@ export function MockRunner({ mock, blocked }: { mock: MockData; blocked: boolean
             <Card padding={16}>
               <p className={p.partTitle}>{str(current.title)}</p>
               {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-              <audio key={str(current.id)} src={mediaUrl(str(current.audio))} controls preload="metadata" className={p.audio} />
+              <audio key={str(current.id)} src={mediaUrl(str(current.audio))} controls controlsList="nodownload" preload="metadata" className={p.audio} />
               <p className={p.muted}>In the real test you hear each recording once.</p>
             </Card>
             <Card padding={18}>{qs}</Card>
@@ -508,6 +508,8 @@ export function MockRunner({ mock, blocked }: { mock: MockData; blocked: boolean
               onChange={(e) => setWriting((w) => (task === 0 ? [e.target.value, w[1]] : [w[0], e.target.value]))}
               placeholder={task === 0 ? 'Write your report here…' : 'Write your essay here…'}
               spellCheck={false}
+              autoCorrect="off"
+              autoComplete="off"
               style={{ width: '100%', minHeight: '55vh', border: 0, outline: 0, background: 'transparent', padding: 18, fontSize: 16, lineHeight: 1.7, resize: 'vertical' }}
             />
             <div style={{ padding: '10px 18px', borderTop: '1px solid var(--divider)', fontSize: 13, color: words >= (task === 0 ? 150 : 250) ? 'var(--success)' : 'var(--text-muted)' }}>

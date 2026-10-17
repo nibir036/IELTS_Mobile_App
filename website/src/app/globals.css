@@ -229,3 +229,8 @@ input[type='password']::-ms-reveal,
 input[type='password']::-ms-clear {
   display: none;
 }
+
+/* Content images can't be dragged out of the page (components/media-guard.tsx). */
+img {
+  -webkit-user-drag: none;
+}

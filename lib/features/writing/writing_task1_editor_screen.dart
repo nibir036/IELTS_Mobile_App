@@ -196,6 +196,10 @@ class _WritingTask1EditorScreenState extends State<WritingTask1EditorScreen>
                     minLines: null,
                     keyboardType: TextInputType.multiline,
                     textAlignVertical: TextAlignVertical.top,
+                    // Test conditions: no autocorrect, suggestions or spell-check underlines.
+                    autocorrect: false,
+                    enableSuggestions: false,
+                    spellCheckConfiguration: const SpellCheckConfiguration.disabled(),
                     cursorColor: t.alert,
                     cursorWidth: 1.5,
                     style: TextStyle(fontSize: 15, height: 1.6, color: t.text),

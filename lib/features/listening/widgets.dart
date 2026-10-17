@@ -485,6 +485,10 @@ class GapEditor extends StatelessWidget {
         onSubmitted: onSubmitted,
         textInputAction: TextInputAction.next,
         cursorColor: t.alert,
+        // Test conditions: no autocorrect, suggestions or spell-check underlines.
+        autocorrect: false,
+        enableSuggestions: false,
+        spellCheckConfiguration: const SpellCheckConfiguration.disabled(),
         cursorWidth: 1.5,
         style: TextStyle(fontSize: 14, color: t.text),
         decoration: const InputDecoration(

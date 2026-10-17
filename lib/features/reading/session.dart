@@ -451,6 +451,10 @@ class ReadingSession {
   /// Index of the passage on screen (0 for a single passage).
   static int part = 0;
 
+  /// How far each passage was scrolled (passage id → offset), so switching
+  /// to the Questions tab and back lands the student where they were.
+  static final Map<String, double> scrollOffsets = <String, double>{};
+
   static bool get isTest => ReadingRefs.isTest(refId);
   static String get title => ReadingRefs.title(refId);
   static List<(Map<String, dynamic>, int)> get parts => ReadingRefs.parts(refId);
@@ -517,6 +521,7 @@ class ReadingSession {
     answers.clear();
     flagged.clear();
     highlights.clear();
+    scrollOffsets.clear();
     part = 0;
     final nums = numbers;
     current = nums.isEmpty ? 0 : nums.first;

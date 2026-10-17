@@ -257,7 +257,8 @@ export function Editor({
             placeholder={prompt.task === 1 ? 'Start with an overview of the main features…' : 'Start with your introduction and your position…'}
             spellCheck={false}
             autoCorrect="off"
-            autoCapitalize="sentences"
+            autoComplete="off"
+            autoCapitalize="off"
             aria-label="Your answer"
             disabled={busy}
           />

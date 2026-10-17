@@ -227,7 +227,7 @@ export function QuickCheck({ modules, pro, target, back }: { modules: string[]; 
           Writing
         </span>
         <h2 style={{ margin: 0, fontSize: 16.5, fontWeight: 600, lineHeight: 1.4 }}>{QC_WRITING_QUESTION}</h2>
-        <textarea className={p.textarea} value={text} onChange={(e) => setText(e.target.value)} placeholder="Write your paragraph here…" aria-label="Your paragraph" />
+        <textarea className={p.textarea} value={text} onChange={(e) => setText(e.target.value)} placeholder="Write your paragraph here…" aria-label="Your paragraph" spellCheck={false} autoCorrect="off" autoComplete="off" />
         <p className={p.sub} style={{ color: n < 30 ? 'var(--text-muted)' : 'var(--text)' }}>
           {n} words{n < 30 ? ' · at least 30' : ''}
         </p>

@@ -195,6 +195,10 @@ class _WritingEditorScreenState extends State<WritingEditorScreen>
               minLines: null,
               keyboardType: TextInputType.multiline,
               textAlignVertical: TextAlignVertical.top,
+              // Test conditions: no autocorrect, suggestions or spell-check underlines.
+              autocorrect: false,
+              enableSuggestions: false,
+              spellCheckConfiguration: const SpellCheckConfiguration.disabled(),
               cursorColor: t.text,
               cursorWidth: 2,
               style: TextStyle(

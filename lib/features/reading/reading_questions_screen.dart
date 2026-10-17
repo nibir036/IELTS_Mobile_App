@@ -781,6 +781,10 @@ class _ReadingQuestionsScreenState extends State<ReadingQuestionsScreen> {
               Expanded(
                 child: TextField(
                   controller: _controllerFor(n),
+                  // Test conditions: no autocorrect, suggestions or spell-check underlines.
+                  autocorrect: false,
+                  enableSuggestions: false,
+                  spellCheckConfiguration: const SpellCheckConfiguration.disabled(),
                   onTap: () => setState(() => ReadingSession.current = n),
                   onChanged: (v) {
                     ReadingSession.answers[n] = v;

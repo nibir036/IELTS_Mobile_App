@@ -79,6 +79,8 @@ export function QuestionGroups({ groups, answers, onAnswer, correct, media, onFo
             onFocus={() => onFocus?.(n)}
             aria-label={`Question ${n}`}
             autoComplete="off"
+            autoCorrect="off"
+            autoCapitalize="off"
             spellCheck={false}
           />
         )}

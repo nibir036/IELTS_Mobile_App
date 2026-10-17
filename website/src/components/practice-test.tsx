@@ -204,7 +204,7 @@ export function PracticeTest({ setup }: { setup: PracticeSetup }) {
               <Tag>{str(current.accent) || `Part ${Number(current.part) || part + 1}`}</Tag>
             </div>
             {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-            <audio key={str(current.id)} src={mediaUrl(str(current.audio))} controls preload="metadata" className={s.audio} />
+            <audio key={str(current.id)} src={mediaUrl(str(current.audio))} controls controlsList="nodownload" preload="metadata" className={s.audio} />
             {setup.kind === 'test' && <p className={s.muted}>In the real test you hear each recording once. Try not to pause or rewind.</p>}
           </Card>
           <Card padding={18}>{questions}</Card>

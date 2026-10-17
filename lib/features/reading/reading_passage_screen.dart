@@ -28,6 +28,17 @@ class _ReadingPassageScreenState extends State<ReadingPassageScreen> {
   String? _selLetter;
   String? _selSentence;
 
+  /// One scroll controller per passage, starting where the student left it.
+  final Map<String, ScrollController> _scrolls = <String, ScrollController>{};
+
+  ScrollController _scrollFor(String id) => _scrolls.putIfAbsent(id, () {
+        final c = ScrollController(initialScrollOffset: ReadingSession.scrollOffsets[id] ?? 0);
+        c.addListener(() {
+          if (c.hasClients) ReadingSession.scrollOffsets[id] = c.offset;
+        });
+        return c;
+      });
+
   @override
   void initState() {
     super.initState();
@@ -52,6 +63,9 @@ class _ReadingPassageScreenState extends State<ReadingPassageScreen> {
   @override
   void dispose() {
     _ticker?.cancel();
+    for (final c in _scrolls.values) {
+      c.dispose();
+    }
     ReadingSession.save();
     super.dispose();
   }
@@ -233,6 +247,7 @@ class _ReadingPassageScreenState extends State<ReadingPassageScreen> {
                   Positioned.fill(
                     child: SingleChildScrollView(
                       key: ValueKey<String>('passage-${ReadingSession.passageId}'),
+                      controller: _scrollFor(ReadingSession.passageId),
                       padding: const EdgeInsets.fromLTRB(20, 20, 20, 64),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,

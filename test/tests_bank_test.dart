@@ -1,5 +1,5 @@
 // Full tests from the website (assets/content/tests_bank.json, tool/import_web_tests.py):
-// Listening 1–9, Reading 1–16, Writing 1–16, Speaking 1–16 and Full Mock 1–9.
+// Listening 1–10, Reading 1–16, Writing 1–16, Speaking 1–16 and Full Mock 1–10.
 // Mock N uses Listening N with Reading/Writing/Speaking N (N ≤ 4) or N + 6 (N ≥ 5).
 
 import 'dart:io';
@@ -19,14 +19,14 @@ void main() {
 
   test('counts and names', () {
     expect(Content.listeningTests.map((t) => t.s('title')), <String>[
-      for (var i = 1; i <= 9; i++) 'Listening Test $i',
+      for (var i = 1; i <= 10; i++) 'Listening Test $i',
     ]);
     expect(Content.readingTests.length, 16);
     expect(Content.readingTests.first.s('title'), 'Academic Reading Test 1');
     expect(Content.writingTests.length, 16);
     expect(Content.speakingTests.length, 16);
     expect(Content.mockTests.map((m) => m.s('title')), <String>[
-      for (var i = 1; i <= 9; i++) 'Full Mock Test $i',
+      for (var i = 1; i <= 10; i++) 'Full Mock Test $i',
     ]);
     // the old demo tests still resolve for attempts taken on them
     expect(Content.listeningTest('lt_01'), isNotEmpty);
