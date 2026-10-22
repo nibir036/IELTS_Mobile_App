@@ -3,9 +3,11 @@ import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/material.dart';
 
+import '../theme/palette.dart';
 import '../theme/theme_controller.dart';
 import '../theme/tokens.dart';
 import 'app_icons.dart';
+import 'motion.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Screen frame
@@ -31,7 +33,12 @@ class AppScreen extends StatelessWidget {
     this.crossAxisAlignment = CrossAxisAlignment.stretch,
     this.background,
     this.scrollBack = true,
+    this.controller,
   });
+
+  /// Scroll controller for the page, for screens that move it themselves
+  /// (the AI counsellor follows its answer as it is typed out).
+  final ScrollController? controller;
 
   /// Show a floating back button when the student scrolls up a little
   /// (pushed screens only). See [BackOnScrollUp].
@@ -77,6 +84,7 @@ class AppScreen extends StatelessWidget {
     } else if (fill) {
       body = LayoutBuilder(
         builder: (context, box) => SingleChildScrollView(
+          controller: controller,
           padding: padding,
           child: ConstrainedBox(
             constraints: BoxConstraints(
@@ -93,7 +101,7 @@ class AppScreen extends StatelessWidget {
         ),
       );
     } else {
-      body = SingleChildScrollView(padding: padding, child: column);
+      body = SingleChildScrollView(controller: controller, padding: padding, child: column);
     }
 
     final content = SafeArea(
@@ -466,6 +474,7 @@ class IconBox extends StatelessWidget {
         ),
       ),
     );
+    if (onTap != null) box = Pressable(scale: 0.88, child: box);
     if (tooltip != null) {
       box = Tooltip(message: tooltip!, child: box);
     }
@@ -508,7 +517,10 @@ class PrimaryButton extends StatelessWidget {
     final peach = bg == null;
     final foreground = fg ?? (peach ? kOnPeach : context.tk.onPrimary);
     final r = BorderRadius.circular(radius.clamp(0, height / 2).toDouble());
-    return Opacity(
+    return Pressable(
+      enabled: enabled && onTap != null,
+      scale: 0.96,
+      child: Opacity(
       opacity: enabled ? 1 : 0.45,
       child: SizedBox(
         height: height,
@@ -551,6 +563,7 @@ class PrimaryButton extends StatelessWidget {
           ),
         ),
       ),
+      ),
     );
   }
 }
@@ -584,7 +597,10 @@ class OutlineButtonX extends StatelessWidget {
   Widget build(BuildContext context) {
     final t = context.tk;
     final c = color ?? t.text;
-    return SizedBox(
+    return Pressable(
+      enabled: onTap != null,
+      scale: 0.96,
+      child: SizedBox(
       height: height,
       width: expand ? double.infinity : null,
       child: Material(
@@ -622,6 +638,7 @@ class OutlineButtonX extends StatelessWidget {
           ),
         ),
       ),
+      ),
     );
   }
 }
@@ -657,7 +674,10 @@ class SoftButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final t = context.tk;
     final c = fg ?? t.text;
-    return SizedBox(
+    return Pressable(
+      enabled: onTap != null,
+      scale: 0.95,
+      child: SizedBox(
       height: height,
       width: expand ? double.infinity : null,
       child: Material(
@@ -692,6 +712,7 @@ class SoftButton extends StatelessWidget {
           ),
         ),
       ),
+      ),
     );
   }
 }
@@ -713,7 +734,10 @@ class PillCta extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Pressable(
+      enabled: onTap != null,
+      scale: 0.96,
+      child: SizedBox(
       height: height,
       child: Material(
         color: Colors.transparent,
@@ -751,6 +775,7 @@ class PillCta extends StatelessWidget {
           ),
         ),
         ),
+      ),
       ),
     );
   }
@@ -828,7 +853,10 @@ class AppCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    return SizedBox(
+    return Pressable(
+      enabled: onTap != null,
+      scale: 0.975,
+      child: SizedBox(
       width: width,
       height: height,
       child: Material(
@@ -843,6 +871,7 @@ class AppCard extends StatelessWidget {
           onTap: onTap,
           child: Padding(padding: padding, child: child),
         ),
+      ),
       ),
     );
   }
@@ -884,7 +913,10 @@ class HeroCard extends StatelessWidget {
         child: Padding(padding: padding, child: child),
       ),
     );
-    return Container(
+    return Pressable(
+      enabled: onTap != null,
+      scale: 0.975,
+      child: Container(
       width: width,
       height: height,
       decoration: BoxDecoration(
@@ -905,6 +937,7 @@ class HeroCard extends StatelessWidget {
             onTap == null ? content : InkWell(onTap: onTap, child: content),
           ],
         ),
+      ),
       ),
     );
   }
@@ -956,7 +989,9 @@ const LinearGradient kPeachFillGradient = LinearGradient(colors: [Color(0xFFFFB8
 /// Ink colour for text on peach.
 const Color kOnPeach = Color(0xFF151515);
 
-/// Circle with an icon (skill icons in cards). Day #F5EEF2/black · Night #262626/cream.
+/// Circle with an icon (skill icons in cards). Without [bg]/[fg] it takes the
+/// icon's colour family ([Vivid.forIcon]): a pastel circle with a coloured
+/// glyph, so lists across the app aren't all one colour.
 class IconCircle extends StatelessWidget {
   const IconCircle(
     this.icon, {
@@ -976,11 +1011,12 @@ class IconCircle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
+    final v = Vivid.forIcon(icon);
     return Container(
       width: size,
       height: size,
-      decoration: BoxDecoration(color: bg ?? t.surfaceAlt, shape: BoxShape.circle),
-      child: Icon(icon, size: iconSize ?? size * 0.48, color: fg ?? t.iconAccent),
+      decoration: BoxDecoration(color: bg ?? v.tile(t), shape: BoxShape.circle),
+      child: Icon(icon, size: iconSize ?? size * 0.48, color: fg ?? v.ink(t)),
     );
   }
 }
@@ -1358,14 +1394,20 @@ class ProgressBar extends StatelessWidget {
         width: double.infinity,
         color: track ?? (onHero ? t.heroTrack : t.track),
         alignment: Alignment.centerLeft,
-        child: FractionallySizedBox(
-          widthFactor: v,
-          heightFactor: 1,
-          child: DecoratedBox(
-            decoration: BoxDecoration(
-              color: fill,
-              gradient: fill == null ? kPeachFillGradient : null,
-              borderRadius: BorderRadius.circular(height / 2),
+        // Fills up smoothly when it appears and whenever the value changes.
+        child: TweenAnimationBuilder<double>(
+          tween: Tween<double>(begin: 0, end: v),
+          duration: const Duration(milliseconds: 900),
+          curve: Curves.easeOutCubic,
+          builder: (context, w, _) => FractionallySizedBox(
+            widthFactor: w,
+            heightFactor: 1,
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                color: fill,
+                gradient: fill == null ? kPeachFillGradient : null,
+                borderRadius: BorderRadius.circular(height / 2),
+              ),
             ),
           ),
         ),
@@ -1611,20 +1653,24 @@ class MiniBars extends StatelessWidget {
                   Expanded(
                     child: Align(
                       alignment: Alignment.bottomCenter,
-                      child: FractionallySizedBox(
-                        heightFactor: maxV <= 0
-                            ? 0.1
-                            : (values[i] / maxV).clamp(0.1, 1.0).toDouble(),
-                        widthFactor: 1,
-                        child: i == highlight
-                            ? const StripedBox(width: double.infinity)
-                            : DecoratedBox(
-                                decoration: BoxDecoration(
-                                  color: barColor ??
-                                      (t.isNight ? t.surfaceAlt : t.track),
-                                  borderRadius: BorderRadius.circular(12),
-                                ),
-                              ),
+                      // Bars grow up one after another when they appear.
+                      child: TweenAnimationBuilder<double>(
+                        tween: Tween<double>(
+                          begin: 0,
+                          end: maxV <= 0 ? 0.1 : (values[i] / maxV).clamp(0.1, 1.0).toDouble(),
+                        ),
+                        duration: Duration(milliseconds: 700 + i * 70),
+                        curve: Curves.easeOutBack,
+                        builder: (context, h, _) => FractionallySizedBox(
+                          heightFactor: h.clamp(0.0, 1.0),
+                          widthFactor: 1,
+                          child: DecoratedBox(
+                            decoration: BoxDecoration(
+                              color: i == highlight ? t.fill : (barColor ?? (t.isNight ? t.surfaceAlt : t.track)),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                        ),
                       ),
                     ),
                   ),

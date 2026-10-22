@@ -3,6 +3,10 @@ import java.util.Properties
 
 plugins {
     id("com.android.application")
+    // android.builtInKotlin=false in gradle.properties, so the Kotlin Android
+    // plugin has to be applied here for the kotlin { } block below to resolve.
+    // Its version is declared in android/settings.gradle.kts.
+    id("org.jetbrains.kotlin.android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
 }
@@ -44,9 +48,15 @@ android {
         // flag during build.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        // Content protection on (screenshots / recording / casting blocked,
-        // debugger refused); debug builds turn it off below.
-        manifestPlaceholders["secureMode"] = "true"
+        // Content protection: screenshots, screen recording and casting are
+        // blocked, and a debugger is refused. Debug builds turn it off below.
+        //
+        // `nextedSecure` in gradle.properties turns it off for release builds
+        // too, which is what a demo needs - someone showing the app has to be
+        // able to take a screenshot of it. A build for the store must have it
+        // back on.
+        manifestPlaceholders["secureMode"] =
+            (project.findProperty("nextedSecure") as String? ?: "true")
     }
 
     signingConfigs {

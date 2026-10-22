@@ -6,12 +6,15 @@ import '../../app/data/demo.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
+import '../../app/theme/palette.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/loop_video.dart';
 import '../../app/widgets/mascot.dart';
+import '../../app/widgets/motion.dart';
 import '../../app/widgets/user_avatar.dart';
+import '../../app/widgets/vivid.dart';
 import '../shell/main_shell.dart';
 import '../writing/writing_data.dart' show WritingContent;
 import 'widgets.dart';
@@ -78,15 +81,9 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
               ),
             ),
             IconBox(
-              icon: AppIcons.search,
-              tooltip: 'Search',
-              bg: t.isNight ? t.surface : t.raised,
-              onTap: () => context.push(Routes.search),
-            ),
-            IconBox(
               icon: AppIcons.bell,
               tooltip: 'Notifications',
-              bg: t.isNight ? t.surface : t.raised,
+              size: 46,
               dot: store.unreadNotifications > 0,
               onTap: () => context.push(Routes.notifications),
             ),
@@ -97,12 +94,14 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
           mainAxisSize: MainAxisSize.min,
           spacing: 4,
           children: [
-            const Text(
-              'Choose a task',
+            const Text.rich(
+              TextSpan(children: <InlineSpan>[
+                TextSpan(text: 'Choose a task'),
+              ]),
               style: TextStyle(
                 fontSize: 30,
-                fontWeight: FontWeight.w500,
-                letterSpacing: -0.6,
+                fontWeight: FontWeight.w800,
+                letterSpacing: -0.8,
               ),
             ),
             Text(
@@ -185,6 +184,9 @@ NexiPose _poseFor(Map<String, dynamic> m) => switch (m.s('skill')) {
       _ => NexiPose.grad,
     };
 
+/// Module card: the module's looping video ("live photo") with a pastel
+/// footer in the module's colour, a gradient icon that pops over the edge,
+/// a pulsing "live" badge and a progress line. The whole card squishes on press.
 class _ModuleCard extends StatelessWidget {
   const _ModuleCard({required this.module, this.wide = false});
 
@@ -196,101 +198,165 @@ class _ModuleCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final meta = _moduleMeta(context.store, module);
+    final store = context.store;
+    final meta = _moduleMeta(store, module);
     final video = module.s('video');
+    final skill = module.s('skill');
+    final tone = Vivid.forKey(skill);
+    final goal = module.i('goal');
+    final progress = goal <= 0 ? null : (_doneCount(store, module) / goal).clamp(0.0, 1.0);
     final placeholder = DecoratedBox(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          colors: t.isNight
-              ? <Color>[t.surfaceAlt2, t.surfaceAlt]
-              : const <Color>[Color(0xFFEEF3FF), Color(0xFFFFF1EB)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: <Color>[tone.tile(t), tone.light.withValues(alpha: t.isNight ? 0.35 : 0.55)],
         ),
       ),
       child: Center(
         child: Padding(
           padding: const EdgeInsets.all(12),
-          child: Nexi(_poseFor(module), height: 130),
+          child: FloatY(child: Nexi(_poseFor(module), height: 130)),
         ),
       ),
     );
     void open() => openHomeTarget(context, moduleHubTarget(module));
-    final card = AppCard(
-        radius: 24,
-        padding: EdgeInsets.zero,
-        onTap: open,
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              AspectRatio(
-                aspectRatio: wide ? 1.38 : 0.9,
-                child: Stack(
-                  fit: StackFit.expand,
-                  children: [
-                    if (video.isEmpty) placeholder else LoopVideo(asset: video, placeholder: placeholder),
-                    Positioned(
-                      left: 10,
-                      top: 10,
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+    const r = 26.0;
+    // Plain footer under the video: the moving picture is the colour.
+    final footer = t.isNight ? t.surface : Colors.white;
+    final card = Container(
+      decoration: BoxDecoration(
+        color: footer,
+        borderRadius: BorderRadius.circular(r),
+        border: Border.all(color: t.isNight ? t.border : const Color(0xFFF0E8E5)),
+        boxShadow: t.isNight
+            ? null
+            : <BoxShadow>[BoxShadow(color: Colors.black.withValues(alpha: 0.05), blurRadius: 16, offset: const Offset(0, 6))],
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(r),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            AspectRatio(
+              aspectRatio: wide ? 1.6 : 0.95,
+              child: Stack(
+                fit: StackFit.expand,
+                children: [
+                  if (video.isEmpty) placeholder else LoopVideo(asset: video, placeholder: placeholder),
+                  // Fade the video into the footer colour.
+                  Positioned(
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    height: 46,
+                    child: IgnorePointer(
+                      child: DecoratedBox(
                         decoration: BoxDecoration(
-                          color: t.surface.withValues(alpha: 0.92),
-                          borderRadius: BorderRadius.circular(999),
+                          gradient: LinearGradient(
+                            begin: Alignment.topCenter,
+                            end: Alignment.bottomCenter,
+                            colors: <Color>[footer.withValues(alpha: 0), footer],
+                          ),
                         ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 10,
+                    top: 10,
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(4, 3, 10, 3),
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.45),
+                        borderRadius: BorderRadius.circular(999),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          PulseDot(color: meta == 'Done' ? const Color(0xFF4FE0A8) : Colors.white, size: 6),
+                          Text(
+                            meta,
+                            style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: Colors.white),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(12, 4, 12, 12),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                mainAxisSize: MainAxisSize.min,
+                spacing: 8,
+                children: [
+                  Row(
+                    spacing: 10,
+                    children: [
+                      VividIcon(homeIconFor(module.s('icon')), tone: tone, size: wide ? 42 : 36, radius: 12),
+                      Expanded(
                         child: Text(
-                          meta,
-                          style: TextStyle(fontSize: 11, fontWeight: FontWeight.w600, color: t.text),
+                          module.s('title'),
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                            fontSize: wide ? 18 : 15,
+                            height: 1.15,
+                            fontWeight: FontWeight.w800,
+                            letterSpacing: -0.2,
+                            color: t.text,
+                          ),
                         ),
                       ),
+                      if (wide)
+                        Container(
+                          width: 34,
+                          height: 34,
+                          decoration: BoxDecoration(color: t.primary, shape: BoxShape.circle),
+                          child: Icon(AppIcons.forward, size: 18, color: t.onPrimary),
+                        ),
+                    ],
+                  ),
+                  if (progress != null)
+                    ProgressBar(
+                      value: progress,
+                      height: 4,
+                      fill: tone.ink(t),
                     ),
-                  ],
-                ),
+                ],
               ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(12, 10, 10, 12),
-                child: Row(
-                  spacing: 6,
-                  children: [
-                    Expanded(
-                      child: Text(
-                        module.s('title'),
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(fontSize: 15, height: 1.2, fontWeight: FontWeight.w600),
-                      ),
-                    ),
-                    Icon(AppIcons.forward, size: 18, color: t.textMuted),
-                  ],
-                ),
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
-      );
+      ),
+    );
     return Semantics(
       button: true,
       label: '${module.s('title')}, $meta',
-      child: Stack(
-        children: [
-          card,
-          // The whole card is the tap target. On the web the video is a
-          // browser element that would swallow taps, so a pointer
-          // interceptor sits on top of it.
-          Positioned.fill(
-            child: PointerInterceptor(
-              child: Material(
-                color: Colors.transparent,
-                borderRadius: BorderRadius.circular(24),
-                clipBehavior: Clip.antiAlias,
-                child: InkWell(onTap: open),
+      child: Pressable(
+        scale: 0.96,
+        child: Stack(
+          children: [
+            card,
+            // The whole card is the tap target. On the web the video is a
+            // browser element that would swallow taps, so a pointer
+            // interceptor sits on top of it.
+            Positioned.fill(
+              child: PointerInterceptor(
+                child: Material(
+                  color: Colors.transparent,
+                  borderRadius: BorderRadius.circular(r),
+                  clipBehavior: Clip.antiAlias,
+                  child: InkWell(onTap: open, splashColor: tone.light.withValues(alpha: 0.25)),
+                ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

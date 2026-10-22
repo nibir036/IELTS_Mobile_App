@@ -4,15 +4,16 @@ import 'package:flutter/material.dart';
 
 import '../theme/tokens.dart';
 import '../widgets/app_icons.dart';
-import '../widgets/kit.dart';
 import 'api_client.dart';
 import 'config.dart';
 
-/// IELTS AI needs the internet (mobile data or Wi-Fi) to work: scores,
-/// progress and media all come from the server. While the phone is offline
-/// a full-screen notice covers the app (the screen underneath keeps its
-/// state, e.g. a test in progress) and goes away by itself once the
-/// connection is back.
+/// Watches whether the server can be reached.
+///
+/// The app needs the server for the things only it can do - scoring an
+/// answer, saving progress, the study-abroad file. It does **not** need it to
+/// open: the question banks, guides and lessons are kept on the phone once
+/// they have been downloaded, so a student on a train with no signal can
+/// still read, practise and plan.
 class Connection extends ChangeNotifier {
   Connection._();
   static final Connection I = Connection._();
@@ -58,6 +59,13 @@ class Connection extends ChangeNotifier {
 }
 
 /// Wraps the whole app (MaterialApp.builder).
+///
+/// Being offline shows a slim bar at the top, not a screen over everything.
+/// A full-screen block was the wrong trade: it hid an app that still works -
+/// the content is already on the phone - and it turned a server that happened
+/// to be down into an app that looked broken. The bar says what is and isn't
+/// available and gets out of the way; the few actions that really need the
+/// server say so themselves when they are used.
 class ConnectionGate extends StatelessWidget {
   const ConnectionGate({super.key, required this.child});
 
@@ -70,54 +78,62 @@ class ConnectionGate extends StatelessWidget {
       builder: (context, _) => Stack(
         children: [
           child,
-          if (!Connection.I.online) const Positioned.fill(child: _OfflineScreen()),
+          if (!Connection.I.online)
+            const Positioned(left: 0, right: 0, top: 0, child: _OfflineBar()),
         ],
       ),
     );
   }
 }
 
-class _OfflineScreen extends StatelessWidget {
-  const _OfflineScreen();
+class _OfflineBar extends StatelessWidget {
+  const _OfflineBar();
 
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
     final checking = Connection.I.checking;
-    return Material(
-      color: t.bg,
-      child: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(28, 24, 28, 28),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            spacing: 14,
-            children: [
-              Center(child: IconCircle(AppIcons.wifiOff, size: 72)),
-              const SizedBox(height: 6),
-              const Text(
-                'Turn on mobile data',
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
+    return SafeArea(
+      bottom: false,
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(12, 6, 12, 0),
+        child: Material(
+          color: t.isNight ? t.surface : t.raised,
+          borderRadius: BorderRadius.circular(999),
+          clipBehavior: Clip.antiAlias,
+          child: InkWell(
+            onTap: checking ? null : () => Connection.I.check(),
+            child: Container(
+              padding: const EdgeInsets.fromLTRB(14, 9, 14, 9),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(999),
+                border: Border.all(color: t.glassBorder),
               ),
-              Text(
-                'IELTS AI needs an internet connection to score your answers and save your progress. '
-                'Turn on mobile data or connect to Wi-Fi.',
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 14, height: 1.5, color: t.textSoft),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(AppIcons.wifiOff, size: 15, color: t.textMuted),
+                  const SizedBox(width: 9),
+                  Expanded(
+                    child: Text(
+                      checking
+                          ? 'Reconnecting…'
+                          : 'Offline - saved lessons work, scoring and new answers don’t',
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(fontSize: 11.5, color: t.textSoft),
+                    ),
+                  ),
+                  if (!checking) ...[
+                    const SizedBox(width: 8),
+                    Text(
+                      'Retry',
+                      style: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w500, color: t.text),
+                    ),
+                  ],
+                ],
               ),
-              Text(
-                'Your work on this screen is kept. It carries on as soon as you are back online.',
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 12.5, height: 1.4, color: t.textMuted),
-              ),
-              const SizedBox(height: 8),
-              PrimaryButton(
-                label: checking ? 'Checking…' : 'Try again',
-                onTap: checking ? null : () => Connection.I.check(),
-              ),
-            ],
+            ),
           ),
         ),
       ),

@@ -43,6 +43,13 @@ class AppIcons {
   static const chat = Icons.chat_bubble_outline_rounded;
   static const profile = Icons.person_outline_rounded;
 
+  // Bottom nav, selected (filled) versions
+  static const practiceFilled = Icons.auto_stories_rounded;
+  static const mockFilled = Icons.fact_check_rounded;
+  static const chatFilled = Icons.chat_bubble_rounded;
+  static const profileFilled = Icons.person_rounded;
+  static const flight = Icons.flight_takeoff_rounded;
+
   // Skills
   static const listening = Icons.headphones_rounded;
   static const reading = Icons.menu_book_rounded;

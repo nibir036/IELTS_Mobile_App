@@ -10,6 +10,7 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
+import '../../app/widgets/motion.dart';
 import 'lesson_menu.dart';
 import 'widgets.dart';
 
@@ -206,7 +207,7 @@ class ListeningLandingScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              const Nexi(NexiPose.listening, height: 110),
+              const FloatY(amplitude: 4, child: Nexi(NexiPose.listening, height: 112)),
             ],
           ),
         ),

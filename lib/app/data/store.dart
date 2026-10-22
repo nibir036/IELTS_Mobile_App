@@ -1133,6 +1133,31 @@ class Store extends ChangeNotifier {
   List<Map<String, dynamic>> get notifications => data.notifications;
   int get unreadNotifications => data.notifications.where((n) => n['read'] != true).length;
 
+  /// The two halves of the app keep their own activity.
+  ///
+  /// A student opening Study abroad is asking about their applications, not
+  /// about a writing score. Mixing the two makes the bell useless on both
+  /// sides, because a red dot never says which half it came from. The split
+  /// is read off the notification's own `type`, which the server already
+  /// sets - everything from the study-abroad module starts with `nexted`.
+  static bool isStudyAbroad(Map<String, dynamic> n) => n.s('type').startsWith('nexted');
+
+  /// [scope] is 'nexted', 'ielts', or anything else for all of them.
+  List<Map<String, dynamic>> notificationsIn(String scope) => switch (scope) {
+        'nexted' => data.notifications.where(isStudyAbroad).toList(),
+        'ielts' => data.notifications.where((n) => !isStudyAbroad(n)).toList(),
+        _ => data.notifications,
+      };
+
+  int unreadIn(String scope) => notificationsIn(scope).where((n) => n['read'] != true).length;
+
+  void markAllReadIn(String scope) {
+    for (final n in notificationsIn(scope)) {
+      n['read'] = true;
+    }
+    commit();
+  }
+
   void addNotification(Map<String, dynamic> n) {
     data.notifications.insert(0, <String, dynamic>{
       'id': newId('ntf'),

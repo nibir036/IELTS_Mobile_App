@@ -67,7 +67,9 @@ class _LoginScreenState extends State<LoginScreen> {
     if (acc != null && !acc.onboarded) {
       context.resetTo(Routes.targetBand);
     } else {
-      context.resetTo(Routes.home);
+      // The start screen: IELTS or study abroad (it skips itself for
+      // students who only have the IELTS app).
+      context.resetTo(Routes.chooser);
     }
   }
 

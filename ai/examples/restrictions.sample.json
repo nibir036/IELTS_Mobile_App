@@ -1,0 +1,62 @@
+[
+  {
+    "university": "Example Metropolitan University",
+    "campus": "",
+    "openCampus": "",
+    "kind": "full",
+    "levels": [],
+    "regions": [],
+    "exceptRegions": [],
+    "subjects": [],
+    "intakes": [],
+    "note": "Closed to new applications through NextED for the current cycle.",
+    "source": "SAMPLE - replace with the real partner list",
+    "asOf": "2026-10-18",
+    "active": true
+  },
+  {
+    "university": "Example Riverside University",
+    "campus": "",
+    "openCampus": "London",
+    "kind": "partial",
+    "levels": ["undergraduate"],
+    "regions": ["Sylhet", "Sylhet Division"],
+    "exceptRegions": ["Dhaka"],
+    "subjects": [],
+    "intakes": [],
+    "note": "Undergraduate entry restricted for applicants from Sylhet.",
+    "source": "SAMPLE - replace with the real partner list",
+    "asOf": "2026-10-18",
+    "active": true
+  },
+  {
+    "university": "Example Northern University",
+    "campus": "",
+    "openCampus": "",
+    "kind": "check",
+    "levels": [],
+    "regions": [],
+    "exceptRegions": [],
+    "subjects": ["Business", "Management"],
+    "intakes": [],
+    "note": "Business subjects need confirmation before an application is opened.",
+    "source": "SAMPLE - replace with the real partner list",
+    "asOf": "2026-10-18",
+    "active": true
+  },
+  {
+    "university": "Example Coastal University",
+    "campus": "",
+    "openCampus": "",
+    "kind": "full",
+    "levels": [],
+    "regions": [],
+    "exceptRegions": [],
+    "subjects": [],
+    "intakes": [],
+    "note": "Retired rule - no longer in force.",
+    "source": "SAMPLE - replace with the real partner list",
+    "asOf": "2026-05-01",
+    "active": false
+  }
+]

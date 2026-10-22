@@ -6,6 +6,7 @@ import '../../app/data/l10n.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
+import '../../app/services/nexted_api.dart';
 import '../../app/theme/theme_controller.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
@@ -135,8 +136,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               size: 56,
               radius: 20,
               iconSize: 22,
-              dot: store.unreadNotifications > 0,
-              onTap: () => context.push(Routes.notifications),
+              dot: store.unreadIn('ielts') > 0,
+              onTap: () => context.push(Routes.notifications, args: {'scope': 'ielts'}),
             ),
           ],
         ),
@@ -263,7 +264,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           ? const Color(0xFF3A2418)
                           : t.alert.withValues(alpha: 0.12),
                       fg: t.isNight ? const Color(0xFFF2A14A) : t.textMuted,
-                      onTap: () => context.push(Routes.notifications),
+                      onTap: () => context.push(Routes.notifications, args: {'scope': 'ielts'}),
                     ),
                   ),
                 ],
@@ -313,6 +314,19 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: 'Your devices',
               subtitle: 'Up to 2 devices · one screen at a time',
               onTap: () => context.push(Routes.devices),
+            ),
+            // Back to the start screen, so a student with study-abroad access
+            // can move between IELTS and the study-abroad module.
+            AnimatedBuilder(
+              animation: NextedAccess.I,
+              builder: (context, _) => NextedAccess.I.enabled
+                  ? _SettingRow(
+                      icon: Icons.flight_takeoff_rounded,
+                      title: 'Study abroad',
+                      subtitle: 'Courses, scholarships and your applications',
+                      onTap: () => context.resetTo(Routes.nexted),
+                    )
+                  : const SizedBox.shrink(),
             ),
           ],
         ),
@@ -369,6 +383,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   : 'Start again from a blank account',
               onTap: _confirmReset,
             ),
+            // Repeated here, right above Log out: this is the end of the
+            // settings list, where someone scrolls when they are done with
+            // one half of the app and want the other.
+            AnimatedBuilder(
+              animation: NextedAccess.I,
+              builder: (context, _) => NextedAccess.I.enabled
+                  ? _SettingRow(
+                      icon: Icons.flight_takeoff_rounded,
+                      title: 'Study abroad',
+                      subtitle: 'Courses, scholarships and your applications',
+                      onTap: () => context.resetTo(Routes.nexted),
+                    )
+                  : const SizedBox.shrink(),
+            ),
             _SettingRow(
               icon: AppIcons.logout,
               title: 'Log out',
@@ -376,6 +404,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               showChevron: false,
               onTap: () async {
                 await Store.I.signOut();
+                NextedAccess.I.clear();
                 if (context.mounted) context.resetTo(Routes.login);
               },
             ),

@@ -623,6 +623,13 @@ model User {
   usageEvents   UsageEvent[]
   devices       Device[]
 
+  // nexted.app (study abroad): one account, one login.
+  nextedProfile      NextedProfile?
+  nextedDocuments    NextedDocument[]
+  nextedApplications NextedApplication[]
+  nextedAiUsage      NextedAiUsage?
+  nextedChat         NextedChatMessage[]
+
   @@map("users")
 }
 
@@ -971,4 +978,221 @@ model ContentPack {
   updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
 
   @@map("content_packs")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// nexted.app - the study-abroad module inside the IELTS app.
+//
+// Same database, same `users` table: one account, one login, one source of
+// truth with the web platform. Every table is prefixed `nexted_`, so the whole
+// module can be moved to its own database later with
+// `pg_dump -t 'nexted_*'` without touching the IELTS tables.
+// ─────────────────────────────────────────────────────────────────────────────
+
+/// The student's study-abroad profile. These are the fields course matching
+/// and scholarship eligibility are decided from.
+model NextedProfile {
+  id               String   @id @default(cuid())
+  userId           String   @unique @map("user_id")
+  fullName         String   @default("") @map("full_name")
+  email            String   @default("")
+  phone            String   @default("")
+  nationality      String   @default("")
+  highestLevel     String   @default("") @map("highest_level")
+  /// GPA or result, as the student wrote it ("4.50", "3.2/4").
+  result           String   @default("")
+  ieltsBand        String   @default("") @map("ielts_band")
+  /// "you" when the student typed the band here; otherwise ("") the band is
+  /// taken from the IELTS side (latest full mock test, else the target band).
+  ieltsBandSource  String   @default("") @map("ielts_band_source")
+  preferredCountry String   @default("") @map("preferred_country")
+  preferredIntake  String   @default("") @map("preferred_intake")
+  /// What they want to study ("Nursing", "Data Science") - the AI searches on it.
+  subject          String   @default("")
+  /// The level they want to enrol in: Bachelors, Masters, PhD, Diploma ...
+  studyLevel       String   @default("") @map("study_level")
+  /// Home district in Bangladesh ("Sylhet", "Dhaka" …). Several UK
+  /// universities close intakes by region rather than by country, so without
+  /// this those rules cannot be applied and the answer has to stay uncertain.
+  homeDistrict     String   @default("") @map("home_district")
+  createdAt        DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt        DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("nexted_profiles")
+}
+
+/// A document the student uploaded (passport, transcript, certificate …).
+/// The file itself is in R2; only the object key is stored.
+model NextedDocument {
+  id         String   @id @default(cuid())
+  userId     String   @map("user_id")
+  /// passport | transcript | certificate | ielts | photo | other
+  kind       String
+  name       String
+  r2Key      String   @map("r2_key")
+  bytes      Int      @default(0)
+  /// Pending | Approved | Rejected - set by staff on the web.
+  status     String   @default("Pending")
+  note       String   @default("")
+  uploadedAt DateTime @default(now()) @map("uploaded_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, uploadedAt])
+  @@map("nexted_documents")
+}
+
+/// An application the student sent from the app. Staff move it through the
+/// fixed status steps on the web; every change is an event below.
+model NextedApplication {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  /// Human-readable id shown to the student: NXT-APP-0000123
+  reference String   @unique
+  /// course | scholarship | university
+  type      String
+  /// The catalogue row it came from.
+  refId     String   @default("") @map("ref_id")
+  title     String
+  provider  String   @default("")
+  status    String   @default("Submitted")
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user   User                     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  events NextedApplicationEvent[]
+
+  @@index([userId, updatedAt])
+  @@map("nexted_applications")
+}
+
+/// One timestamped status change, so the student's tracker and the staff
+/// queue never drift apart.
+model NextedApplicationEvent {
+  id            String   @id @default(cuid())
+  applicationId String   @map("application_id")
+  status        String
+  note          String   @default("")
+  at            DateTime @default(now()) @db.Timestamptz(3)
+
+  application NextedApplication @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+
+  @@index([applicationId, at])
+  @@map("nexted_application_events")
+}
+
+/// The daily AI allowance, counted here in the backend so it can't be faked
+/// by editing the app (build guide 25.5).
+model NextedAiUsage {
+  userId    String   @id @map("user_id")
+  usedToday Int      @default(0) @map("used_today")
+  /// The day the count belongs to, YYYY-MM-DD in Asia/Dhaka.
+  quotaDate String   @default("") @map("quota_date")
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("nexted_ai_usage")
+}
+
+/// The student's conversation with the AI counsellor, kept so it is still
+/// there after the app restarts, on any device. One thread per student.
+model NextedChatMessage {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  /// student | counsellor
+  role      String
+  content   String
+  /// Extra the app shows under an answer (the office card ...).
+  meta      Json?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@map("nexted_chat_messages")
+}
+
+/// Course catalogue. The matcher ranks these - it never invents a course.
+model NextedCourse {
+  id         String  @id @default(cuid())
+  title      String
+  university String
+  country    String
+  level      String  @default("")
+  subject    String  @default("")
+  duration   String  @default("")
+  intake     String  @default("")
+  tuition    String  @default("")
+  minIelts   Float?  @map("min_ielts")
+  active     Boolean @default(true)
+
+  @@index([country])
+  @@map("nexted_courses")
+}
+
+/// One rule saying a university - or one campus, one level, one subject, one
+/// region, one intake - is not open to Bangladeshi applicants this cycle.
+///
+/// These are kept as **rows the filter reads**, never as text for the AI to
+/// retrieve and summarise. A near-miss on a name ("Oxford Brookes" against
+/// "Oxford International") would cost a student a year, so the match is done
+/// in code and the AI is only handed the result.
+///
+/// They come from NextED's partner information rather than a public
+/// university page, so every row carries [source] and [asOf]; the app says
+/// "not available through NextED for this intake", never "this university
+/// rejects Bangladeshis".
+model NextedRestriction {
+  id         String   @id
+  university String
+  /// The campus the rule is limited to ("London"); empty = every campus.
+  campus     String   @default("")
+  /// Only this campus stays open; every other one is closed. Empty = unused.
+  openCampus String   @default("") @map("open_campus")
+  /// "full" closes everything in scope; "partial" closes only the scopes set
+  /// below; "check" means a counsellor has to read the real terms.
+  kind       String   @default("partial")
+  /// Study levels closed ("Undergraduate", "MRes", "PhD"); empty = all.
+  levels     String[] @default([])
+  /// Home districts closed ("Sylhet"); empty = the whole country.
+  regions    String[] @default([])
+  /// Closed for everyone EXCEPT these districts (Bedfordshire: all but Dhaka).
+  exceptRegions String[] @default([]) @map("except_regions")
+  /// Subject areas closed ("Business", "Management"); empty = all.
+  subjects   String[] @default([])
+  /// Intakes closed ("January 2027"); empty = all.
+  intakes    String[] @default([])
+  /// The line exactly as it reached us, for a counsellor to read.
+  note       String   @default("")
+  source     String   @default("")
+  asOf       DateTime @map("as_of") @db.Timestamptz(3)
+  active     Boolean  @default(true)
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt  DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([university])
+  @@map("nexted_restrictions")
+}
+
+/// Scholarship catalogue with the criteria the eligibility verdict is
+/// compared against.
+model NextedScholarship {
+  id            String   @id @default(cuid())
+  title         String
+  provider      String
+  country       String
+  amount        String   @default("")
+  deadline      String   @default("")
+  level         String   @default("")
+  minIelts      Float?   @map("min_ielts")
+  minGpa        Float?   @map("min_gpa")
+  /// Empty = open to every nationality.
+  nationalities String[] @default([])
+  active        Boolean  @default(true)
+
+  @@index([country])
+  @@map("nexted_scholarships")
 }

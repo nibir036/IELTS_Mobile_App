@@ -340,7 +340,10 @@ class ApiClient {
   static Future<bool> ping() async {
     if (!AppConfig.hasApi) return true;
     try {
-      await _http.get(_uri('/health')).timeout(const Duration(seconds: 8));
+      // 25 s, not 8: a first request on mobile data - or through a tunnel /
+      // a far-away server - can take a long time to answer, and treating that
+      // as "offline" covers a working app with the offline screen.
+      await _http.get(_uri('/health')).timeout(const Duration(seconds: 25));
       return true;
     } catch (_) {
       return false;

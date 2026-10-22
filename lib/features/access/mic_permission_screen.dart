@@ -33,7 +33,7 @@ class MicPermissionScreen extends StatelessWidget {
       'micAllowed': allowed,
       'onboarded': true,
     });
-    context.resetTo(next is String && next.isNotEmpty ? next : Routes.home);
+    context.resetTo(next is String && next.isNotEmpty ? next : Routes.chooser);
   }
 
   static Future<void> _allow(BuildContext context) async {

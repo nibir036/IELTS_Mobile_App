@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 import '../../app/routes.dart';
+import 'chooser_screen.dart';
 import 'legal_screen.dart';
 import 'login_screen.dart';
 import 'mic_permission_screen.dart';
@@ -13,6 +14,7 @@ import 'target_band_screen.dart';
 /// A · Access & Onboarding routes.
 final Map<String, WidgetBuilder> accessRoutes = <String, WidgetBuilder>{
   Routes.splash: (_) => const SplashScreen(),
+  Routes.chooser: (_) => const ChooserScreen(),
   Routes.login: (_) => const LoginScreen(),
   Routes.signup: (_) => const SignUpScreen(),
   Routes.otp: (_) => const OtpScreen(),

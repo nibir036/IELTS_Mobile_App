@@ -9,6 +9,9 @@
 class AppConfig {
   AppConfig._();
 
+  /// Pass it at build time, e.g. `--dart-define-from-file=env.web.json`
+  /// (Chrome), `env.json` (emulator) or `env.phone.json` (real phone).
+  /// No hard-coded fallback: a stale address shows a working app as offline.
   static const String apiBaseUrl = String.fromEnvironment('API_BASE_URL');
   static const String appKey = String.fromEnvironment('APP_KEY');
 

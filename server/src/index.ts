@@ -17,6 +17,8 @@ import { remindRenewals } from './lib/billing/subscriptions';
 import { registerContentRoutes } from './routes/content';
 import { registerFileRoutes } from './routes/files';
 import { registerMeRoutes } from './routes/me';
+import { aiHealth, nextedAiEnabled } from './lib/nexted_ai';
+import { registerNextedRoutes } from './routes/nexted';
 import { registerPlanRoutes } from './routes/plan';
 import { registerProgressRoutes } from './routes/progress';
 
@@ -24,7 +26,9 @@ export function buildRouter(): Router {
   const r = new Router();
   r.get('/health', async () => {
     await prisma.$queryRaw`SELECT 1`;
-    return { ok: true, time: new Date().toISOString() };
+    // Whether the study-abroad AI service answers (null = off or not running).
+    const nextedAi = nextedAiEnabled() ? await aiHealth() : null;
+    return { ok: true, time: new Date().toISOString(), nextedAi };
   });
   registerAuthRoutes(r);
   registerMeRoutes(r);
@@ -34,6 +38,7 @@ export function buildRouter(): Router {
   registerAiRoutes(r);
   registerFileRoutes(r);
   registerBillingRoutes(r);
+  registerNextedRoutes(r);
   return r;
 }
 
@@ -47,7 +52,7 @@ export function createApp(router = buildRouter()) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader(
       'Access-Control-Allow-Headers',
-      'Authorization, Content-Type, X-App-Key, X-Device-Id, X-Device-Name, X-Device-Platform',
+      'Authorization, Content-Type, X-App-Key, X-Device-Id, X-Device-Name, X-Device-Platform, X-Client',
     );
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
     if (method === 'OPTIONS') {

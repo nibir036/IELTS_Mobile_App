@@ -6,6 +6,7 @@ import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
+import '../../app/widgets/cross_promo.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
 import '../plan/plan_widgets.dart';
@@ -176,6 +177,7 @@ class FirstTimeDashboard extends StatelessWidget {
         const TodayPlanCard(),
         // Our own tools: always one tap away.
         const SignatureTools(),
+        const StudyAbroadPromo(),
 
         // Getting started checklist
         AppCard(

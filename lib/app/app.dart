@@ -9,6 +9,7 @@ import '../features/gallery/gallery_screen.dart';
 import '../features/home/home_routes.dart';
 import '../features/listening/listening_routes.dart';
 import '../features/mock/mock_routes.dart';
+import '../features/nexted/nexted_routes.dart';
 import '../features/reading/reading_routes.dart';
 import '../features/resources/resources_routes.dart';
 import '../features/shell/main_shell.dart';
@@ -20,6 +21,7 @@ import 'routes.dart';
 import 'data/packs/content_packs.dart';
 import 'services/connection_gate.dart';
 import 'services/content_gate.dart';
+import 'services/nexted_api.dart';
 import 'services/notification_service.dart';
 import 'services/sync_service.dart';
 import 'theme/app_theme.dart';
@@ -69,6 +71,8 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
     super.initState();
     _theme.addListener(_saveTheme);
     WidgetsBinding.instance.addObserver(this);
+    // Does this student get the nexted.app button? (Hidden until we know.)
+    unawaited(NextedAccess.I.refresh());
     // Signed out by the server (account opened on the other device, device
     // removed): straight to Login, which says why.
     Store.onSignedOutByServer = () {
@@ -85,6 +89,8 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
       // Newer content packs (checked at most every 10 minutes).
       unawaited(PackStore.I.refresh());
       NotificationService.I.refresh();
+      // Whether this student may open the nexted.app module (25.1).
+      unawaited(NextedAccess.I.refresh());
     } else if (state == AppLifecycleState.paused || state == AppLifecycleState.hidden) {
       Store.I.flush();
       unawaited(SyncService.I.flush());
@@ -105,6 +111,7 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
     ...mockRoutes,
     ...resourcesRoutes,
     ...courseRoutes,
+    ...nextedRoutes,
     // Screen gallery is a developer tool: debug builds only.
     if (kDebugMode) Routes.gallery: (_) => const GalleryScreen(),
   };
@@ -160,7 +167,7 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
           darkTheme: AppTheme.night,
           themeMode: mode,
           initialRoute: widget.initialRoute ??
-              (Store.I.isLoggedIn ? Routes.home : Routes.splash),
+              (Store.I.isLoggedIn ? Routes.chooser : Routes.splash),
           onGenerateRoute: _onGenerateRoute,
           // Only the one start screen (not '/' underneath '/home').
           onGenerateInitialRoutes: (initial) => <Route<dynamic>>[

@@ -44,9 +44,15 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
   Widget build(BuildContext context) {
     final t = context.tk;
     final store = context.store;
+    // Opened from the IELTS bell or the study-abroad one. Each shows only its
+    // own half's activity, so a red dot always means something on the side
+    // the student is looking at. No argument = everything, as before.
+    final scope = context.routeArgs.s('scope');
     final data = Demo.section('home').m('notifications');
-    final filters = data.l('filters');
-    final items = store.notifications;
+    // The category chips are about IELTS activity (scores, reminders,
+    // community), so they only make sense on that side.
+    final filters = scope == 'nexted' ? <Map<String, dynamic>>[] : data.l('filters');
+    final items = store.notificationsIn(scope);
     final filterId =
         _filter < filters.length ? filters[_filter].s('id') : 'all';
     final types = _filterTypes[filterId];
@@ -77,17 +83,17 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
               onTap: () => context.back(),
             ),
             const Spacer(),
-            if (store.unreadNotifications > 0)
+            if (store.unreadIn(scope) > 0)
               LinkText(
                 'Mark all read',
                 color: t.textMuted,
                 weight: FontWeight.w400,
-                onTap: () => Store.I.markAllNotificationsRead(),
+                onTap: () => Store.I.markAllReadIn(scope),
               ),
           ],
         ),
-        const Text(
-          'Activity',
+        Text(
+          scope == 'nexted' ? 'Study abroad activity' : 'Activity',
           style: TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.w500,

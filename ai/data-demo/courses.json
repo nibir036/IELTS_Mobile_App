@@ -1,0 +1,46 @@
+[
+  {
+    "id": "92f18f60e20c",
+    "title": "MSc Artificial Intelligence",
+    "university": "Example University",
+    "country": "United Kingdom",
+    "level": "Masters",
+    "subject": "Computer Science",
+    "duration": "1 year",
+    "intake": "September 2027",
+    "tuition": {
+      "value": 24500.0,
+      "field_class": "money",
+      "source_url": "https://example.ac.uk/ai",
+      "evidence": "Tuition for 2027 entry is £24,500 per year for international students.",
+      "checked_at": "2026-10-20T13:22:00.019741+00:00",
+      "confirmed_unchanged_at": null
+    },
+    "min_ielts": {
+      "value": 6.5,
+      "field_class": "requirement",
+      "source_url": "https://example.ac.uk/ai",
+      "evidence": "Applicants need an overall IELTS score of 6.5 with no component below 6.0.",
+      "checked_at": "2026-10-20T13:22:00.019733+00:00",
+      "confirmed_unchanged_at": null
+    },
+    "min_gpa": null,
+    "deadline": {
+      "value": "2027-01-15",
+      "field_class": "deadline",
+      "source_url": "https://example.ac.uk/ai",
+      "evidence": "The deadline for applications is 15 January 2027.",
+      "checked_at": "2026-10-20T13:22:00.019743+00:00",
+      "confirmed_unchanged_at": null
+    },
+    "official_url": "https://example.ac.uk/ai",
+    "source": {
+      "url": "https://example.ac.uk/ai",
+      "fetched_at": "2026-10-20T13:22:00.019662+00:00",
+      "title": "MSc Artificial Intelligence",
+      "content_hash": "7ecb78145b03079d105fb6f1f87dd272",
+      "extractor": 2
+    },
+    "verified_by_staff": false
+  }
+]

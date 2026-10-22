@@ -14,7 +14,9 @@
     "db:studio": "prisma studio",
     "db:status": "prisma migrate status",
     "media:upload": "tsx --env-file=.env scripts/upload-media.ts",
-    "demo:accounts": "tsx --env-file=.env scripts/demo-accounts.ts"
+    "demo:accounts": "tsx --env-file=.env scripts/demo-accounts.ts",
+    "nexted:catalogue": "tsx --env-file=.env scripts/nexted-catalogue.ts",
+    "nexted:restrictions": "tsx --env-file=.env scripts/nexted-restrictions.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

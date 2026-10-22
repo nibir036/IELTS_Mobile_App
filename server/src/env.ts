@@ -45,6 +45,13 @@ export const env = {
   openrouterReasoningEffort: str('OPENROUTER_REASONING_EFFORT', 'low'),
   appUrl: str('APP_URL', 'https://ieltsai.nexted.app'),
 
+  // nextED AI service (FastAPI, the `nexted-ai` project): the study-abroad AI
+  // Counsellor, Course Finding and Scholarship Finding. Empty = use the
+  // built-in Gemini versions. NEXTED_AI_TOKEN = that service's SERVICE_TOKEN.
+  nextedAiUrl: str('NEXTED_AI_URL'),
+  nextedAiToken: str('NEXTED_AI_TOKEN'),
+  nextedAiTimeoutMs: num('NEXTED_AI_TIMEOUT_SECONDS', 150) * 1000,
+
   // Writing grading provider: 'gemini' (as on the website) or 'openrouter'.
   // Empty = Gemini when GEMINI_API_KEY is set, otherwise OpenRouter.
   writingProvider: str('WRITING_PROVIDER'),

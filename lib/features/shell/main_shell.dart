@@ -2,9 +2,16 @@ import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/gestures.dart' show PointerDeviceKind;
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show HapticFeedback;
 
+import '../../app/nav.dart';
+import '../../app/routes.dart';
+import '../../app/services/nexted_api.dart';
+import '../../app/theme/palette.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
+import '../../app/widgets/motion.dart';
+import '../../app/widgets/switch_fab.dart';
 import '../home/dashboard_screen.dart';
 import '../home/module_hub_screen.dart';
 import '../home/profile_screen.dart';
@@ -79,7 +86,19 @@ class MainShellState extends State<MainShell> {
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    return Scaffold(
+    // The phone's back button: first to the Home tab, then out to the start
+    // screen (IELTS / Study abroad) rather than closing the app.
+    return PopScope(
+      canPop: _index == 0 && !NextedAccess.I.enabled,
+      onPopInvokedWithResult: (didPop, _) {
+        if (didPop || !mounted) return;
+        if (_index != 0) {
+          select(0);
+        } else if (NextedAccess.I.enabled) {
+          context.resetTo(Routes.chooser);
+        }
+      },
+      child: Scaffold(
       backgroundColor: t.bg,
       body: Stack(
         children: [
@@ -102,12 +121,26 @@ class MainShellState extends State<MainShell> {
             ),
           ),
           Positioned(
-            left: 20,
-            right: 20,
-            bottom: 22 + MediaQuery.of(context).padding.bottom * 0.5,
+            left: 16,
+            right: 16,
+            bottom: 18 + MediaQuery.of(context).padding.bottom * 0.5,
             child: _NavBar(index: _index, onTap: select),
           ),
+          // One tap from anywhere in IELTS to the study-abroad side: the peach
+          // "STUDY ABROAD" pill just above the nav bar, only for students who
+          // have access to that side.
+          Positioned(
+            right: 20,
+            bottom: 104 + MediaQuery.of(context).padding.bottom * 0.5,
+            child: AnimatedBuilder(
+              animation: NextedAccess.I,
+              builder: (context, _) => NextedAccess.I.enabled
+                  ? AppSwitchFab.toStudyAbroad(onTap: () => context.resetTo(Routes.nexted))
+                  : const SizedBox.shrink(),
+            ),
+          ),
         ],
+      ),
       ),
     );
   }
@@ -134,90 +167,134 @@ class _KeepTabState extends State<_KeepTab> with AutomaticKeepAliveClientMixin {
   }
 }
 
+/// Bottom nav: each tab has its own colour. The selected tab's icon sits on
+/// a gradient bubble that slides across, swaps to its filled glyph with a
+/// bounce, and its label lights up in the tab's colour.
 class _NavBar extends StatelessWidget {
   const _NavBar({required this.index, required this.onTap});
 
   final int index;
   final ValueChanged<int> onTap;
 
-  static const _items = <(IconData, String)>[
-    (AppIcons.home, 'Home'),
-    (AppIcons.practice, 'Practice'),
-    (AppIcons.mock, 'Mock tests'),
-    (AppIcons.chat, 'Community chat'),
-    (AppIcons.profile, 'Profile'),
+  static const _items = <(IconData, IconData, String, VividTone)>[
+    (AppIcons.home, AppIcons.homeFilled, 'Home', Vivid.brand),
+    (AppIcons.practice, AppIcons.practiceFilled, 'Practice', Vivid.reading),
+    (AppIcons.mock, AppIcons.mockFilled, 'Mock', Vivid.mock),
+    (AppIcons.chat, AppIcons.chatFilled, 'Community', Vivid.community),
+    (AppIcons.profile, AppIcons.profileFilled, 'Profile', Vivid.speaking),
   ];
 
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final row = Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    final n = _items.length;
+    final reduce = MediaQuery.maybeDisableAnimationsOf(context) ?? false;
+    final slide = Duration(milliseconds: reduce ? 0 : 420);
+
+    // Icons only: the name is read out by screen readers and shown on a
+    // long press.
+    final bar = SizedBox(
+      height: 62,
+      child: Stack(
         children: [
-          for (var i = 0; i < _items.length; i++)
-            Tooltip(
-              message: _items[i].$2,
-              child: Material(
-                color: Colors.transparent,
-                shape: const CircleBorder(),
-                clipBehavior: Clip.antiAlias,
-                child: InkWell(
-                  onTap: () => onTap(i),
+          // The sliding bubble behind the selected icon.
+          AnimatedAlign(
+            duration: slide,
+            curve: Curves.easeOutBack,
+            alignment: Alignment(-1 + 2 * index / (n - 1), 0),
+            child: FractionallySizedBox(
+              widthFactor: 1 / n,
+              child: SizedBox(
+                height: 40,
+                child: Center(
                   child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 260),
-                    curve: Curves.easeOutCubic,
-                    width: 52,
-                    height: 52,
-                    decoration: BoxDecoration(
-                      color: i == index ? t.primary : t.primary.withValues(alpha: 0),
-                      shape: BoxShape.circle,
-                    ),
-                    child: Stack(
-                      alignment: Alignment.center,
-                      children: [
-                        AnimatedScale(
-                          scale: i == index ? 1.08 : 1,
-                          duration: const Duration(milliseconds: 260),
-                          curve: Curves.easeOutBack,
-                          child: Icon(
-                            _items[i].$1,
-                            size: 22,
-                            color: i == index ? t.onPrimary : t.textMuted,
-                          ),
-                        ),
-                      ],
-                    ),
+                  duration: slide,
+                  curve: Curves.easeOutCubic,
+                  width: 56,
+                  height: 40,
+                  // One accent for every tab (black by day, peach at night),
+                  // like the big ride and food apps - calm, not a rainbow.
+                  decoration: BoxDecoration(
+                    color: t.primary,
+                    borderRadius: BorderRadius.circular(999),
+                  ),
                   ),
                 ),
               ),
             ),
+          ),
+          Row(
+            children: [
+              for (var i = 0; i < n; i++)
+                Expanded(
+                  child: Semantics(
+                    button: true,
+                    selected: i == index,
+                    label: _items[i].$3,
+                    child: Pressable(
+                      scale: 0.86,
+                      child: InkResponse(
+                        onTap: () {
+                          HapticFeedback.selectionClick();
+                          onTap(i);
+                        },
+                        radius: 34,
+                        highlightShape: BoxShape.circle,
+                        child: Tooltip(
+                          message: _items[i].$3,
+                          child: SizedBox(
+                            height: 62,
+                            child: Center(
+                              child: AnimatedSwitcher(
+                                duration: Duration(milliseconds: reduce ? 0 : 320),
+                                transitionBuilder: (child, a) => ScaleTransition(
+                                  scale: CurvedAnimation(parent: a, curve: Curves.easeOutBack),
+                                  child: child,
+                                ),
+                                child: Icon(
+                                  i == index ? _items[i].$2 : _items[i].$1,
+                                  key: ValueKey<bool>(i == index),
+                                  size: 24,
+                                  color: i == index ? t.onPrimary : t.textMuted,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+            ],
+          ),
         ],
+      ),
     );
-    // Frosted glass pill: blurs the page scrolling underneath.
+
+    // Frosted pill: blurs the page scrolling underneath.
     return DecoratedBox(
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(999),
+        borderRadius: BorderRadius.circular(30),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: t.isNight ? 0.4 : 0.07),
-            blurRadius: 24,
-            offset: const Offset(0, 8),
+            color: Colors.black.withValues(alpha: t.isNight ? 0.45 : 0.10),
+            blurRadius: 28,
+            offset: const Offset(0, 10),
           ),
         ],
       ),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(999),
+        borderRadius: BorderRadius.circular(30),
         child: BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
           child: Container(
-            height: 68,
-            padding: const EdgeInsets.symmetric(horizontal: 8),
+            padding: const EdgeInsets.symmetric(horizontal: 4),
             decoration: BoxDecoration(
-              color: t.raised,
-              borderRadius: BorderRadius.circular(999),
+              color: t.isNight ? t.raised : Colors.white.withValues(alpha: 0.92),
+              borderRadius: BorderRadius.circular(30),
               border: Border.all(color: t.glassBorder),
             ),
-            child: row,
+            child: Material(type: MaterialType.transparency, child: bar),
           ),
         ),
       ),

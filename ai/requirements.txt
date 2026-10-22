@@ -1,0 +1,16 @@
+# The service runs on just these.
+pydantic>=2.7,<3.0
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+httpx>=0.27
+
+# Optional, and genuinely optional - the service starts and the tests pass
+# without them. Install when you want graph orchestration and traces.
+langgraph>=0.3,<0.7   # 0.3+ has get_stream_writer (live typing)
+langsmith>=0.1.100
+
+# Knowledge base: PostgreSQL + pgvector, and the local embedding model.
+# Needed only when DATABASE_URL is set in .env.
+psycopg[binary]>=3.2
+psycopg-pool>=3.2
+fastembed>=0.4

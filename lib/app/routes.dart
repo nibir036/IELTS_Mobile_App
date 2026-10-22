@@ -5,6 +5,10 @@
 class Routes {
   Routes._();
 
+  /// Start screen after signing in: IELTS or study abroad. It redirects
+  /// straight to [home] for students without study-abroad access.
+  static const chooser = '/start';
+
   // Shell (bottom navigation). Tabs: 0 Home · 1 Practice · 2 Mock · 3 Community · 4 Profile
   static const home = '/home';
   static const gallery = '/gallery';
@@ -113,6 +117,17 @@ class Routes {
   static const certificates = '/home/certificates';
   static const notificationSettings = '/home/notification-settings';
   static const legal = '/legal'; // args {'doc': 'terms' | 'privacy'}
+
+  // nexted.app · study-abroad module (app-inside-an-app, shown only to
+  // students with study-abroad access). Build order steps 1-2.
+  static const nexted = '/nexted';
+  static const nextedProfile = '/nexted/profile';
+  static const nextedDocuments = '/nexted/documents';
+  static const nextedCounsellor = '/nexted/counsellor';
+  static const nextedCourses = '/nexted/courses';
+  static const nextedScholarships = '/nexted/scholarships';
+  static const nextedApplications = '/nexted/applications';
+  static const nextedApplication = '/nexted/application'; // args {'id': …}
 
   // Phase 4
   static const mockAnswers = '/mock/answers'; // args {'attemptId': …}

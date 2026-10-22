@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.env
+.env.*
+!.env.example
+
+# the real partner list never goes in git
+examples/restrictions.json
+
+.DS_Store
+.idea/
+.vscode/
+data/

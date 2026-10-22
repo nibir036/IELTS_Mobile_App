@@ -1,0 +1,48 @@
+[
+  {
+    "id": "60ed34e6e7f1",
+    "title": "Example Global Futures Scholarship",
+    "provider": "Example Foundation",
+    "country": "United Kingdom",
+    "level": "Masters",
+    "amount": {
+      "value": 12000.0,
+      "field_class": "money",
+      "source_url": "https://example.ac.uk/scholarship",
+      "evidence": "The award is worth 12000 towards tuition for one year of postgraduate study.",
+      "checked_at": "2026-10-20T13:22:00.060075+00:00",
+      "confirmed_unchanged_at": null
+    },
+    "deadline": {
+      "value": "2027-02-28",
+      "field_class": "deadline",
+      "source_url": "https://example.ac.uk/scholarship",
+      "evidence": "Applications close on 28 February 2027.",
+      "checked_at": "2026-10-20T13:22:00.060077+00:00",
+      "confirmed_unchanged_at": null
+    },
+    "min_ielts": {
+      "value": 7.0,
+      "field_class": "requirement",
+      "source_url": "https://example.ac.uk/scholarship",
+      "evidence": "Applicants must have an overall IELTS score of 7.0 or above.",
+      "checked_at": "2026-10-20T13:22:00.060069+00:00",
+      "confirmed_unchanged_at": null
+    },
+    "min_gpa": null,
+    "nationalities": [
+      "Bangladesh",
+      "India",
+      "Nepal"
+    ],
+    "official_url": "https://example.ac.uk/scholarship",
+    "source": {
+      "url": "https://example.ac.uk/scholarship",
+      "fetched_at": "2026-10-20T13:22:00.060016+00:00",
+      "title": "Example Global Futures Scholarship",
+      "content_hash": "239f03dce570fa3b3d0b98da00656748",
+      "extractor": 2
+    },
+    "verified_by_staff": false
+  }
+]

@@ -10,6 +10,7 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
+import '../../app/widgets/motion.dart';
 import 'widgets.dart';
 
 /// D1 · Speaking Hub & Mode Selection.
@@ -144,7 +145,7 @@ class _SpeakingHubScreenState extends State<SpeakingHubScreen> {
                       ],
                     ),
                   ),
-                  const Nexi(NexiPose.speaking, height: 110),
+                  const FloatY(amplitude: 4, child: Nexi(NexiPose.speaking, height: 112)),
                 ],
               ),
               Row(
