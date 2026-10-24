@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Launch screen (Android 11 and older): brand background + wordmark. -->
+<!-- Launch screen (Android 11 and older): just the app's background colour.
+     The nextED launch screen (lib/features/access/launch_screen.dart) draws
+     the wordmark as soon as Flutter starts, so no old logo flashes first. -->
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/splash_background" />
-    <item>
-        <bitmap
-            android:gravity="center"
-            android:src="@drawable/splash_logo" />
-    </item>
 </layer-list>
