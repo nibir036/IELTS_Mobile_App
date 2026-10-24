@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart' show PointerDeviceKind;
 import 'package:flutter/material.dart';
 
 import '../../app/nav.dart';
@@ -15,7 +16,8 @@ import 'nexted_profile_screen.dart';
 /// Home · Guidance · Documents · Counsellor · Profile.
 ///
 /// The Counsellor opens as its own screen (it has a typing box at the
-/// bottom, which the nav would cover); the other four are tabs.
+/// bottom, which the nav would cover); the other four are tabs, and a
+/// swipe left / right moves between them, like the IELTS side.
 class NextedShell extends StatefulWidget {
   const NextedShell({super.key, this.initialIndex = 0});
 
@@ -37,8 +39,17 @@ class NextedShell extends StatefulWidget {
 class NextedShellState extends State<NextedShell> {
   late int _index = widget.initialIndex == NextedShell.counsellorItem ? 0 : widget.initialIndex.clamp(0, 4).toInt();
 
-  /// Tabs are built the first time they're opened, then kept.
-  late final Set<int> _built = <int>{_index};
+  /// Nav item -> page: the Counsellor (item 3) has no page.
+  static int _pageOf(int item) => item > NextedShell.counsellorItem ? item - 1 : item;
+  static int _itemOf(int page) => page >= NextedShell.counsellorItem ? page + 1 : page;
+
+  /// Swipe between Home, Guidance, Documents and Profile; tapping the nav
+  /// slides there.
+  late final PageController _pages = PageController(initialPage: _pageOf(_index));
+
+  /// True while a tap-driven slide runs, so the pages it passes don't
+  /// flicker the nav highlight.
+  bool _jumping = false;
 
   static const List<(IconData, IconData, String)> _items = <(IconData, IconData, String)>[
     (AppIcons.home, AppIcons.homeFilled, 'Home'),
@@ -48,19 +59,39 @@ class NextedShellState extends State<NextedShell> {
     (AppIcons.profile, AppIcons.profileFilled, 'Profile'),
   ];
 
-  void select(int i) {
+  static const Set<PointerDeviceKind> _dragDevices = <PointerDeviceKind>{
+    PointerDeviceKind.touch,
+    PointerDeviceKind.mouse,
+    PointerDeviceKind.trackpad,
+    PointerDeviceKind.stylus,
+  };
+
+  @override
+  void dispose() {
+    _pages.dispose();
+    super.dispose();
+  }
+
+  Future<void> select(int i) async {
     if (i == NextedShell.counsellorItem) {
       context.push(Routes.nextedCounsellor);
       return;
     }
-    if (i == _index) return;
-    setState(() {
-      _index = i;
-      _built.add(i);
-    });
+    if (i == _index || !_pages.hasClients) {
+      if (i != _index) setState(() => _index = i);
+      return;
+    }
+    setState(() => _index = i);
+    _jumping = true;
+    final to = _pageOf(i);
+    final from = _pages.page?.round() ?? to;
+    // A far tab jumps next to the target first, so the slide is one page.
+    if ((to - from).abs() > 1) _pages.jumpToPage(to > from ? to - 1 : to + 1);
+    await _pages.animateToPage(to, duration: const Duration(milliseconds: 320), curve: Curves.easeOutCubic);
+    _jumping = false;
   }
 
-  Widget _tab(int i) => switch (i) {
+  Widget _tab(int page) => switch (_itemOf(page)) {
         NextedShell.homeTab => const NextedHubScreen(),
         NextedShell.journeyTab => const NextedJourneyScreen(embedded: true),
         NextedShell.documentsTab => const NextedDocumentsScreen(embedded: true),
@@ -88,18 +119,20 @@ class NextedShellState extends State<NextedShell> {
         body: Stack(
           children: [
             Positioned.fill(
-              child: IndexedStack(
-                index: _index,
-                children: [
-                  for (var i = 0; i < _items.length; i++)
-                    if (i == NextedShell.counsellorItem)
-                      const SizedBox.shrink()
-                    else
-                      TickerMode(
-                        enabled: i == _index,
-                        child: _built.contains(i) ? _tab(i) : const SizedBox.shrink(),
-                      ),
-                ],
+              child: ScrollConfiguration(
+                // Mouse drags swipe too (web / desktop testing), not just touch.
+                behavior: ScrollConfiguration.of(context).copyWith(dragDevices: _dragDevices),
+                child: PageView.builder(
+                  controller: _pages,
+                  itemCount: 4,
+                  onPageChanged: (p) {
+                    final i = _itemOf(p);
+                    if (!_jumping && i != _index) setState(() => _index = i);
+                  },
+                  itemBuilder: (context, p) => _KeepTab(
+                    child: TickerMode(enabled: _itemOf(p) == _index, child: _tab(p)),
+                  ),
+                ),
               ),
             ),
             Positioned(
@@ -120,5 +153,26 @@ class NextedShellState extends State<NextedShell> {
         ),
       ),
     );
+  }
+}
+
+/// Keeps a tab alive once built, so swiping back doesn't rebuild it.
+class _KeepTab extends StatefulWidget {
+  const _KeepTab({required this.child});
+
+  final Widget child;
+
+  @override
+  State<_KeepTab> createState() => _KeepTabState();
+}
+
+class _KeepTabState extends State<_KeepTab> with AutomaticKeepAliveClientMixin {
+  @override
+  bool get wantKeepAlive => true;
+
+  @override
+  Widget build(BuildContext context) {
+    super.build(context);
+    return widget.child;
   }
 }

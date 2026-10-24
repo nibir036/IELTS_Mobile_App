@@ -174,6 +174,34 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
     }
     final label = level.isEmpty ? _labelFor(kind) : _levelName(level, kind);
 
+    final file = await _pickFile('Add the file');
+    if (file == null || !mounted) return;
+    final (bytes, ext) = file;
+
+    setState(() => _busy = true);
+    try {
+      await NextedApi.upload(
+        NextedConfig.documentUpload,
+        bytes: bytes,
+        kind: kind,
+        ext: ext,
+        name: label,
+        level: level,
+        contentType: _contentType(ext),
+      );
+      if (!mounted) return;
+      context.toast('$label uploaded');
+      await _load();
+    } on ApiException catch (e) {
+      if (mounted) context.toast(e.message);
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  /// Camera or a file (PDF, JPG, PNG up to 10 MB): (bytes, extension), or
+  /// null when cancelled or refused (the student is told why).
+  Future<(Uint8List, String)?> _pickFile(String title) async {
     // Camera, or a file already on the phone: PDF, JPG or PNG.
     final source = await showAppSheet<String>(
       context,
@@ -184,8 +212,8 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
           spacing: 8,
           children: [
             const SizedBox(height: 6),
-            const Text(
-              'Add the file',
+            Text(
+              title,
               style: TextStyle(fontSize: 19, fontWeight: FontWeight.w500),
             ),
             ListRow(
@@ -205,7 +233,7 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
         ),
       ),
     );
-    if (source == null || !mounted) return;
+    if (source == null || !mounted) return null;
 
     // (bytes, extension) of the chosen file.
     Uint8List? bytes;
@@ -213,7 +241,7 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
     try {
       if (source == 'camera') {
         final photo = await ImagePicker().pickImage(source: ImageSource.camera, imageQuality: 88);
-        if (photo == null) return;
+        if (photo == null) return null;
         bytes = await photo.readAsBytes();
         ext = _extOf(photo.name) ?? 'jpg';
       } else {
@@ -223,41 +251,56 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
           withData: true,
         );
         final f = picked?.files.firstOrNull;
-        if (f == null) return;
+        if (f == null) return null;
         bytes = f.bytes;
         ext = (f.extension ?? _extOf(f.name) ?? '').toLowerCase();
       }
     } catch (_) {
       if (mounted) context.toast('Couldn’t open the picker. Check the app’s permissions.');
-      return;
+      return null;
     }
-    if (!mounted) return;
+    if (!mounted) return null;
     if (bytes == null || bytes.isEmpty) {
       context.toast('Couldn’t read that file. Try another one.');
-      return;
+      return null;
     }
     if (!_allowedExts.contains(ext)) {
       context.toast('Upload a PDF, JPG or PNG file.');
-      return;
+      return null;
     }
     if (bytes.length > _maxBytes) {
       context.toast('That file is larger than 10 MB. Try a smaller scan or a photo.');
+      return null;
+    }
+    return (bytes, ext == 'jpeg' ? 'jpg' : ext);
+
+  }
+
+  static String _contentType(String ext) =>
+      ext == 'pdf' ? 'application/pdf' : (ext == 'png' ? 'image/png' : 'image/jpeg');
+
+  /// Swap a document's file for a new one. It keeps its type and name, and
+  /// goes back to Pending for the counsellor to check again.
+  Future<void> _replace(Map<String, dynamic> doc) async {
+    if (!NextedApi.ready) {
+      context.toast('Connect the study-abroad server to replace documents.');
       return;
     }
-
+    final name = doc.s('name').isEmpty ? 'this document' : doc.s('name');
+    final file = await _pickFile('Replace $name');
+    if (file == null || !mounted) return;
+    final (bytes, ext) = file;
     setState(() => _busy = true);
     try {
       await NextedApi.upload(
-        NextedConfig.documentUpload,
+        '${NextedConfig.documents}/${doc.s('id')}/file',
         bytes: bytes,
-        kind: kind,
-        ext: ext == 'jpeg' ? 'jpg' : ext,
-        name: label,
-        level: level,
-        contentType: ext == 'pdf' ? 'application/pdf' : (ext == 'png' ? 'image/png' : 'image/jpeg'),
+        kind: doc.s('kind'),
+        ext: ext,
+        contentType: _contentType(ext),
       );
       if (!mounted) return;
-      context.toast('$label uploaded');
+      context.toast('$name replaced');
       await _load();
     } on ApiException catch (e) {
       if (mounted) context.toast(e.message);
@@ -332,7 +375,8 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
           )
         else ...[
           SectionTitle('${_docs.length} uploaded', fontSize: 15),
-          for (final d in _docs) _DocumentCard(doc: d, icon: _iconFor(d.s('kind'))),
+          for (final d in _docs)
+            _DocumentCard(doc: d, icon: _iconFor(d.s('kind')), onReplace: _busy ? null : () => _replace(d)),
         ],
 
         Text(
@@ -346,10 +390,13 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
 }
 
 class _DocumentCard extends StatelessWidget {
-  const _DocumentCard({required this.doc, required this.icon});
+  const _DocumentCard({required this.doc, required this.icon, this.onReplace});
 
   final Map<String, dynamic> doc;
   final IconData icon;
+
+  /// Upload a new file in place of this one (null while another upload runs).
+  final VoidCallback? onReplace;
 
   @override
   Widget build(BuildContext context) {
@@ -387,6 +434,14 @@ class _DocumentCard extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(fontSize: 12.5, height: 1.35, color: t.textSoft),
                   ),
+                const SizedBox(height: 6),
+                SoftButton(
+                  label: 'Replace file',
+                  leading: AppIcons.cloudUpload,
+                  height: 34,
+                  fontSize: 13,
+                  onTap: onReplace,
+                ),
               ],
             ),
           ),

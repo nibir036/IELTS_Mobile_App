@@ -462,6 +462,49 @@ export function registerNextedRoutes(r: Router): void {
   r.post('/v1/nexted/documents', uploadDocument);
   r.put('/v1/nexted/documents', uploadDocument);
 
+  /**
+   * Replace a document's file with a new one (same type and level).
+   *   POST /v1/nexted/documents/<id>/file?ext=pdf   (raw bytes)
+   * The new file goes to R2 first; the old one is removed after, and the
+   * document goes back to Pending for the counsellor to check again.
+   */
+  const replaceDocument = async (ctx: Ctx) => {
+    const userId = requireUser(ctx);
+    rateLimit(`nexted-doc:${userId}`, 60, 3600);
+    const old = await prisma.nextedDocument.findUnique({ where: { id: ctx.params.id } });
+    if (!old || old.userId !== userId) throw notFound('Document not found.');
+    const ext = (s(ctx.query.get('ext'), 5) || 'jpg').toLowerCase();
+    if (!DOCUMENT_EXTS.has(ext)) throw badRequest('Upload a PDF, JPG or PNG file.', 'bad_file_type');
+    const bytes = ctx.raw && ctx.raw.length ? ctx.raw : Buffer.from(s(ctx.body.base64, 25_000_000), 'base64');
+    if (!bytes.length) throw badRequest('Empty upload.');
+    if (bytes.length > MAX_DOC_BYTES) throw badRequest('The file is larger than 10 MB.', 'too_large');
+
+    const folder = old.level ? `${old.kind}-${old.level}` : old.kind;
+    const key = appKey(`users/${userId}/documents/${folder}/${randomUUID()}.${ext}`);
+    await putObject(key, bytes, contentTypeFor(ext));
+    const doc = await prisma.nextedDocument.update({
+      where: { id: old.id },
+      data: { r2Key: key, bytes: bytes.length, status: 'Pending', note: '', uploadedAt: new Date() },
+    });
+    if (old.r2Key && old.r2Key !== key) {
+      await deleteObjects([old.r2Key]).catch((e) => console.error('[nexted] R2 delete failed', e));
+    }
+    return {
+      document: {
+        id: doc.id,
+        kind: doc.kind,
+        level: doc.level,
+        name: doc.name,
+        status: doc.status,
+        bytes: doc.bytes,
+        uploadedAt: doc.uploadedAt.toISOString(),
+        url: await signedUrl(key).catch(() => null),
+      },
+    };
+  };
+  r.post('/v1/nexted/documents/:id/file', replaceDocument);
+  r.put('/v1/nexted/documents/:id/file', replaceDocument);
+
   r.delete('/v1/nexted/documents/:id', async (ctx) => {
     const userId = requireUser(ctx);
     const doc = await prisma.nextedDocument.findUnique({ where: { id: ctx.params.id } });

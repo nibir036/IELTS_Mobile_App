@@ -62,7 +62,7 @@ flutter:
 flutter_launcher_icons:
   image_path: "assets/branding/app_icon.png"
   android: true
-  # Android 8+ adaptive icon: pink→lavender background + "IELTS AI." mark in the safe zone
+  # Android 8+ adaptive icon: pink→lavender background + Nexi in the graduation cap in the safe zone
   adaptive_icon_background: "assets/branding/app_icon_background.png"
   adaptive_icon_foreground: "assets/branding/app_icon_foreground.png"
   ios: true
