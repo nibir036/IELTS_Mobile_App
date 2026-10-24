@@ -477,6 +477,7 @@ class NextedProfileRules {
     ('studyLevel', 'Level you want to study'),
     ('subject', 'Subject you want to study'),
     ('preferredCountry', 'Preferred country'),
+    ('hasPublication', 'Publications'),
   ];
 
   static bool isRequired(String key) => required.any((f) => f.$1 == key);

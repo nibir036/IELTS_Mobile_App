@@ -19,6 +19,8 @@ dependencies:
   path_provider: ^2.1.5
   share_plus: ^11.0.0
   image_picker: ^1.1.2
+  # Study-abroad documents: PDF / JPG / PNG from the phone's files.
+  file_picker: ^10.0.0
   flutter_tts: ^4.0.2
   flutter_local_notifications: ^22.3.1
   timezone: ^0.11.0

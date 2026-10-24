@@ -1,3 +1,6 @@
+import 'dart:typed_data';
+
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -171,7 +174,8 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
     }
     final label = level.isEmpty ? _labelFor(kind) : _levelName(level, kind);
 
-    final source = await showAppSheet<ImageSource>(
+    // Camera, or a file already on the phone: PDF, JPG or PNG.
+    final source = await showAppSheet<String>(
       context,
       Builder(
         builder: (ctx) => Column(
@@ -188,13 +192,13 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
               title: 'Take a photo',
               subtitle: 'Photograph the document',
               leading: IconCircle(AppIcons.camera, size: 38, iconSize: 18),
-              onTap: () => Navigator.of(ctx).pop(ImageSource.camera),
+              onTap: () => Navigator.of(ctx).pop('camera'),
             ),
             ListRow(
-              title: 'Choose from gallery',
-              subtitle: 'A photo or scan already on your phone',
-              leading: IconCircle(AppIcons.photo, size: 38, iconSize: 18),
-              onTap: () => Navigator.of(ctx).pop(ImageSource.gallery),
+              title: 'Choose a file',
+              subtitle: 'PDF, JPG or PNG - up to 10 MB',
+              leading: IconCircle(AppIcons.attach, size: 38, iconSize: 18),
+              onTap: () => Navigator.of(ctx).pop('file'),
             ),
             const SizedBox(height: 4),
           ],
@@ -203,30 +207,54 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
     );
     if (source == null || !mounted) return;
 
-    XFile? file;
+    // (bytes, extension) of the chosen file.
+    Uint8List? bytes;
+    var ext = 'jpg';
     try {
-      file = await ImagePicker().pickImage(source: source, imageQuality: 88);
+      if (source == 'camera') {
+        final photo = await ImagePicker().pickImage(source: ImageSource.camera, imageQuality: 88);
+        if (photo == null) return;
+        bytes = await photo.readAsBytes();
+        ext = _extOf(photo.name) ?? 'jpg';
+      } else {
+        final picked = await FilePicker.platform.pickFiles(
+          type: FileType.custom,
+          allowedExtensions: _allowedExts.toList(),
+          withData: true,
+        );
+        final f = picked?.files.firstOrNull;
+        if (f == null) return;
+        bytes = f.bytes;
+        ext = (f.extension ?? _extOf(f.name) ?? '').toLowerCase();
+      }
     } catch (_) {
       if (mounted) context.toast('Couldn’t open the picker. Check the app’s permissions.');
       return;
     }
-    if (file == null || !mounted) return;
+    if (!mounted) return;
+    if (bytes == null || bytes.isEmpty) {
+      context.toast('Couldn’t read that file. Try another one.');
+      return;
+    }
+    if (!_allowedExts.contains(ext)) {
+      context.toast('Upload a PDF, JPG or PNG file.');
+      return;
+    }
+    if (bytes.length > _maxBytes) {
+      context.toast('That file is larger than 10 MB. Try a smaller scan or a photo.');
+      return;
+    }
 
     setState(() => _busy = true);
     try {
-      final bytes = await file.readAsBytes();
-      final dot = file.name.lastIndexOf('.');
-      final ext = dot > 0 && dot < file.name.length - 1
-          ? file.name.substring(dot + 1).toLowerCase()
-          : 'jpg';
       await NextedApi.upload(
         NextedConfig.documentUpload,
         bytes: bytes,
         kind: kind,
-        ext: ext,
+        ext: ext == 'jpeg' ? 'jpg' : ext,
         name: label,
         level: level,
-        contentType: file.mimeType ?? 'image/jpeg',
+        contentType: ext == 'pdf' ? 'application/pdf' : (ext == 'png' ? 'image/png' : 'image/jpeg'),
       );
       if (!mounted) return;
       context.toast('$label uploaded');
@@ -236,6 +264,15 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
     } finally {
       if (mounted) setState(() => _busy = false);
     }
+  }
+
+  /// Documents: PDF, JPEG and PNG, up to 10 MB (the server checks too).
+  static const Set<String> _allowedExts = <String>{'pdf', 'jpg', 'jpeg', 'png'};
+  static const int _maxBytes = 10 * 1024 * 1024;
+
+  static String? _extOf(String name) {
+    final dot = name.lastIndexOf('.');
+    return dot > 0 && dot < name.length - 1 ? name.substring(dot + 1).toLowerCase() : null;
   }
 
   @override
@@ -289,8 +326,8 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
         else if (_docs.isEmpty)
           const EmptyState(
             title: 'No documents yet',
-            message: 'Add your passport, transcripts and certificates here. '
-                'They stay with your file, so you never have to send them twice.',
+            message: 'Add your passport, transcripts and certificates here - PDF, JPG or PNG, '
+                'up to 10 MB each. They stay with your file, so you never have to send them twice.',
             icon: AppIcons.doc,
           )
         else ...[

@@ -67,10 +67,45 @@ export async function signedUrl(key: string, seconds = 3600, signingDate?: Date)
   });
 }
 
-/** Server-side copy inside the bucket (nothing is downloaded). */
-export async function copyObject(from: string, to: string): Promise<void> {
-  const source = `${env.r2Bucket}/${from.split('/').map(encodeURIComponent).join('/')}`;
-  await s3().send(new CopyObjectCommand({ Bucket: env.r2Bucket, CopySource: source, Key: to }));
+/** True for "that object does not exist" (a key in the database whose file
+ *  was never uploaded, or was already removed). */
+function isMissing(e: unknown): boolean {
+  const err = e as { name?: string; Code?: string; $metadata?: { httpStatusCode?: number } };
+  return err?.name === 'NoSuchKey' || err?.Code === 'NoSuchKey' || err?.$metadata?.httpStatusCode === 404;
+}
+
+/** The object's bytes, or null when it does not exist. */
+export async function getObjectBytes(key: string): Promise<Buffer | null> {
+  try {
+    const res = await s3().send(new GetObjectCommand({ Bucket: env.r2Bucket, Key: key }));
+    const body = res.Body as { transformToByteArray?: () => Promise<Uint8Array> } | undefined;
+    if (!body?.transformToByteArray) return null;
+    return Buffer.from(await body.transformToByteArray());
+  } catch (e) {
+    if (isMissing(e)) return null;
+    throw e;
+  }
+}
+
+/**
+ * Copy inside the bucket. Tries R2's server-side copy first; if that is
+ * refused (some R2 tokens and key names trip it), downloads and re-uploads.
+ * Returns false when the source does not exist - nothing to copy.
+ */
+export async function copyObject(from: string, to: string): Promise<boolean> {
+  try {
+    const source = `${env.r2Bucket}/${from.split('/').map(encodeURIComponent).join('/')}`;
+    await s3().send(new CopyObjectCommand({ Bucket: env.r2Bucket, CopySource: source, Key: to }));
+    return true;
+  } catch (e) {
+    if (isMissing(e)) return false;
+    console.warn('[r2] server-side copy refused, copying by download:', e instanceof Error ? e.message : e);
+    const bytes = await getObjectBytes(from);
+    if (!bytes) return false;
+    const ext = (from.match(/\.([a-z0-9]{2,5})$/i)?.[1] ?? '').toLowerCase();
+    await putObject(to, bytes, contentTypeFor(ext));
+    return true;
+  }
 }
 
 export async function deleteObjects(keys: string[]): Promise<void> {
@@ -97,11 +132,15 @@ const EXT_TYPES: Record<string, string> = {
   jpeg: 'image/jpeg',
   png: 'image/png',
   webp: 'image/webp',
+  pdf: 'application/pdf',
 };
 
 export function contentTypeFor(ext: string): string {
   return EXT_TYPES[ext.toLowerCase()] || 'application/octet-stream';
 }
+
+/** Study-abroad documents: PDF, JPEG and PNG only. */
+export const DOCUMENT_EXTS = new Set(['pdf', 'jpg', 'jpeg', 'png']);
 
 export function isAllowedExt(ext: string, kind: 'audio' | 'image'): boolean {
   const t = EXT_TYPES[ext.toLowerCase()];

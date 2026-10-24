@@ -34,11 +34,12 @@ import {
   NextedAiUnreachable,
   nextedAiEnabled,
 } from '../lib/nexted_ai';
-import { appKey, contentTypeFor, deleteObjects, isAllowedExt, putObject, signedUrl } from '../lib/r2';
+import { appKey, contentTypeFor, deleteObjects, DOCUMENT_EXTS, putObject, signedUrl } from '../lib/r2';
 import { requireUser } from '../lib/users';
 import { archiveOnce } from '../lib/archive';
 
-const MAX_DOC_BYTES = 15 * 1024 * 1024;
+/** Documents: PDF, JPEG or PNG, up to 10 MB each. */
+const MAX_DOC_BYTES = 10 * 1024 * 1024;
 
 /** Which exam a transcript or certificate is for. */
 const DOC_LEVELS = new Set(['ssc', 'hsc', 'bachelors', 'masters']);
@@ -81,6 +82,8 @@ const PROFILE_FIELDS = [
   // Several UK rules close an intake by home district rather than by country,
   // so without this the counsellor can only answer "uncertain".
   'homeDistrict',
+  // Any published research? "Yes" | "No" - asked for every level of study.
+  'hasPublication',
 ] as const;
 
 type ProfileRow = Record<(typeof PROFILE_FIELDS)[number], string>;
@@ -177,6 +180,7 @@ const REQUIRED_FOR_AI: ReadonlyArray<readonly [keyof ProfileRow, string]> = [
   ['studyLevel', 'Level you want to study'],
   ['subject', 'Subject you want to study'],
   ['preferredCountry', 'Preferred country'],
+  ['hasPublication', 'Publications'],
 ];
 
 /** True when every field the AI features need is filled in. */
@@ -341,6 +345,10 @@ export function registerNextedRoutes(r: Router): void {
       if (f === 'fullName' || f === 'phone') continue; // account fields, below
       if (ctx.body[f] !== undefined) patch[f] = s(ctx.body[f], 200);
     }
+    if (patch.hasPublication !== undefined) {
+      const v = patch.hasPublication.trim().toLowerCase();
+      patch.hasPublication = v === 'yes' ? 'Yes' : v === 'no' ? 'No' : '';
+    }
 
     // The name is the account's name: changing it here changes it in IELTS AI
     // too. The phone is the login number and is never changed from here.
@@ -417,12 +425,15 @@ export function registerNextedRoutes(r: Router): void {
     if (level && !DOC_LEVELS.has(level)) throw badRequest('Unknown level.');
     // (Optional here so older app builds can still upload; the app asks.)
     const ext = (s(ctx.query.get('ext'), 5) || 'jpg').toLowerCase();
-    if (!isAllowedExt(ext, 'image')) throw badRequest(`.${ext} files can’t be uploaded yet.`);
+    if (!DOCUMENT_EXTS.has(ext)) throw badRequest('Upload a PDF, JPG or PNG file.', 'bad_file_type');
     const bytes = ctx.raw && ctx.raw.length ? ctx.raw : Buffer.from(s(ctx.body.base64, 25_000_000), 'base64');
     if (!bytes.length) throw badRequest('Empty upload.');
-    if (bytes.length > MAX_DOC_BYTES) throw badRequest('File is larger than 15 MB.', 'too_large');
+    if (bytes.length > MAX_DOC_BYTES) throw badRequest('The file is larger than 10 MB.', 'too_large');
 
-    const key = appKey(`users/${userId}/nexted/${new Date().toISOString().slice(0, 10)}/${randomUUID()}.${ext}`);
+    // Straight into Cloudflare R2, in this student's own folder:
+    // users/<user id>/documents/<kind>[-<level>]/<uuid>.<ext>
+    const folder = level && (kind === 'transcript' || kind === 'certificate') ? `${kind}-${level}` : kind;
+    const key = appKey(`users/${userId}/documents/${folder}/${randomUUID()}.${ext}`);
     await putObject(key, bytes, contentTypeFor(ext));
     const doc = await prisma.nextedDocument.create({
       data: {

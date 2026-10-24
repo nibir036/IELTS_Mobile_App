@@ -578,13 +578,13 @@ class NotificationService {
         final plan = store.planTasksOn(day).where((t) => t['done'] != true).toList();
         if (plan.isNotEmpty) {
           final min = plan.fold<int>(0, (m, t) => m + t.i('durationMin'));
-          nudges[day] = _Planned(_idDaily + d, NotifGroup.study, when, NotifTexts.t('daily_title', lang),
+          nudges[day] = _Planned(_idDaily + d, NotifGroup.study, when, motivation(day),
               NotifTexts.t('daily_plan', lang, <String, Object?>{'n': plan.length, 'min': min, 'task': plan.first.s('title')}),
               Routes.studyPlan);
           continue;
         }
         nudges[day] = _Planned(_idDaily + d, NotifGroup.study, when,
-            NotifTexts.t('daily_title', lang), reminder.$1, reminder.$2, reminder.$3);
+            motivation(day), reminder.$1, reminder.$2, reminder.$3);
       }
       out.addAll(nudges.values);
 
@@ -654,6 +654,39 @@ class NotificationService {
       }
     }
     return out;
+  }
+
+  /// The motivational lines the daily reminder leads with, one per day in a
+  /// shuffled order (no line repeats within 20 days).
+  static const List<String> motivations = <String>[
+    'Make your mom proud. Today’s practice counts.',
+    'It’s time to build your future, one lesson at a time.',
+    'Your dream university is waiting. Are you ready?',
+    'Abbu’s smile when you get that offer letter… keep going.',
+    'Just 15 minutes today brings Band 7 a little closer.',
+    'Your future self will thank you for opening the app today.',
+    'Every word you learn takes you one step closer to abroad.',
+    'Imagine your first morning in London. Start today.',
+    'Your family believes in you. Show them they’re right.',
+    'Dreams don’t work unless you do. Practice now.',
+    'Your passport is ready for adventure. Is your IELTS?',
+    'One more test today, one less worry tomorrow.',
+    'Small steps every day, big moves abroad.',
+    'The world is calling your name. Answer it with practice.',
+    'You’ve come so far. Don’t stop now.',
+    'Scholarships go to those who prepare. Let’s prepare.',
+    'Your story abroad starts with today’s lesson.',
+    'Make this the year your family celebrates you.',
+    'Your streak misses you. Come back for 10 minutes?',
+    'Future you is studying abroad. Present you, let’s begin.',
+  ];
+
+  /// The line for [day]: random-looking, but the same for a day however
+  /// often reminders are re-planned. 7 and 20 share no factor, so 20
+  /// days in a row get 20 different lines.
+  static String motivation(DateTime day) {
+    final n = DateTime.utc(day.year, day.month, day.day).millisecondsSinceEpoch ~/ Duration.millisecondsPerDay;
+    return motivations[(n * 7 + 3) % motivations.length];
   }
 
   /// Daily reminder body and where it opens: an unfinished essay, else the

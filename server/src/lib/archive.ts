@@ -70,12 +70,41 @@ export async function buildUserExport(userId: string): Promise<Json | null> {
   };
 }
 
+/**
+ * Writes the JSON archive to R2. If R2 refuses it (bad credentials, outage),
+ * the same JSON is kept in the data_archives row instead, so an account
+ * deletion never gets stuck on storage - and nothing is lost.
+ */
 async function writeArchive(userId: string, reason: ArchiveReason, data: Json): Promise<string> {
   const body = Buffer.from(JSON.stringify(data, null, 2), 'utf8');
   const key = appKey(`archive/users/${userId}/${iso(new Date())}-${reason}.json`);
-  await putObject(key, body, 'application/json');
-  await prisma.dataArchive.create({ data: { userId, reason, r2Key: key, bytes: body.length } });
-  return key;
+  try {
+    if (!env.r2Configured) throw new Error('R2 is not configured');
+    await putObject(key, body, 'application/json');
+    await prisma.dataArchive.create({ data: { userId, reason, r2Key: key, bytes: body.length } });
+    return key;
+  } catch (e) {
+    console.error(`[archive] R2 upload failed (${reason}), keeping the archive in the database:`, e instanceof Error ? e.message : e);
+    try {
+      await prisma.dataArchive.create({
+        data: { userId, reason, r2Key: '', bytes: body.length, data: JSON.parse(body.toString('utf8')) as Prisma.InputJsonValue },
+      });
+    } catch (e2) {
+      // Never block an account deletion on the archive.
+      console.error(`[archive] ARCHIVE NOT SAVED (${reason}) for ${userId}:`, e2 instanceof Error ? e2.message : e2);
+    }
+    return '';
+  }
+}
+
+/** Copy one file; never throws. False = not copied (missing or refused). */
+async function safeCopy(from: string, to: string): Promise<boolean> {
+  try {
+    return await copyObject(from, to);
+  } catch (e) {
+    console.error(`[archive] could not copy ${from}:`, e instanceof Error ? e.message : e);
+    return false;
+  }
 }
 
 /**
@@ -168,16 +197,17 @@ export async function eraseUser(userId: string): Promise<void> {
       ];
       for (const f of sources) {
         const to = appKey(`archive/users/${userId}/files/${f.key.split('/').pop()}`);
-        await copyObject(f.key, to);
-        files.push({ what: f.what, from: f.key, archivedAs: to });
-        toDelete.push(f.key);
+        const copied = await safeCopy(f.key, to);
+        files.push({ what: f.what, from: f.key, archivedAs: copied ? to : null });
+        // The original goes once its copy exists; one that could not be
+        // copied is left in place (never lost), and the deletion goes on.
+        if (copied) toDelete.push(f.key);
       }
     }
 
     // 2. The JSON archive.
     const data = await buildUserExport(userId);
-    if (data && storage) await writeArchive(userId, 'account_deleted', { ...data, archivedFiles: files });
-    if (!storage) console.warn('[archive] R2 is not configured: account deleted without an archive');
+    if (data) await writeArchive(userId, 'account_deleted', { ...data, archivedFiles: files });
 
     // 3. The training set: every practice answer, with nothing that points
     //    back to the student. Audio is copied under the sample's own id.
@@ -192,7 +222,7 @@ export async function eraseUser(userId: string): Promise<void> {
       if (storage) {
         for (const [i, rec] of recordings.entries()) {
           const to = appKey(`training/speaking/${id}/${i + 1}.${extOf(rec.r2Key) || rec.format}`);
-          await copyObject(rec.r2Key, to);
+          if (!(await safeCopy(rec.r2Key, to))) continue;
           audio.push({ key: to, format: rec.format, durationMs: rec.durationMs });
           toDelete.push(rec.r2Key);
         }
@@ -223,10 +253,16 @@ export async function eraseUser(userId: string): Promise<void> {
     }
 
     // 4. Samples in, account out - together, or neither.
-    await prisma.$transaction([
-      prisma.trainingSample.createMany({ data: samples }),
-      prisma.user.delete({ where: { id: userId } }), // cascades to all user rows
-    ]);
+    try {
+      await prisma.$transaction([
+        prisma.trainingSample.createMany({ data: samples }),
+        prisma.user.delete({ where: { id: userId } }), // cascades to all user rows
+      ]);
+    } catch (e) {
+      // The training copy must never stop a deletion: delete the account alone.
+      console.error('[archive] training samples not saved, deleting the account anyway:', e instanceof Error ? e.message : e);
+      await prisma.user.delete({ where: { id: userId } });
+    }
   } catch (e) {
     if (e instanceof HttpError) throw e;
     console.error('[archive] account deletion stopped:', e instanceof Error ? e.message : e);

@@ -52,6 +52,8 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
     ('subject', 'Subject you want to study', 'e.g. Nursing · Data Science · MBA'),
     ('preferredCountry', 'Preferred country', 'UK · Canada · Australia …'),
     ('preferredIntake', 'Preferred intake', 'e.g. September 2027'),
+    // Asked for every level of study; universities and scholarships weigh it.
+    ('hasPublication', 'Do you have any published research?', 'Pick one'),
   ];
 
   /// Choices for 'studyLevel' - fixed words, so the AI reads them reliably.
@@ -249,6 +251,14 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
           for (final f in _fields)
             if (f.$1 == 'studyLevel')
               _levelPicker(t, f.$2)
+            else if (f.$1 == 'hasPublication')
+              _choicePicker(
+                t,
+                'hasPublication',
+                f.$2,
+                const <String>['Yes', 'No'],
+                note: 'A paper in a journal or at a conference, at any level of study.',
+              )
             else if (f.$1 == 'phone')
               _accountRow(t, NextedProfileRules.isRequired('phone') ? '${f.$2} *' : f.$2, _c['phone']!.text,
                   'Your login number. Change it in your Profile if you get a new one.')
@@ -349,6 +359,44 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
   }
 
   /// Bachelors / Masters / PhD ... as tap-to-pick chips.
+  /// A required one-of-a-few answer as chips (stored as the chip's word).
+  Widget _choicePicker(AppTokens t, String key, String label, List<String> options, {String? note}) {
+    final c = _c[key]!;
+    final current = c.text.trim();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      spacing: 8,
+      children: [
+        Text('$label *', style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500, color: t.textSoft)),
+        Wrap(
+          spacing: 8,
+          runSpacing: 8,
+          children: [
+            for (final o in options)
+              ChoiceChip(
+                label: Text(o),
+                selected: current.toLowerCase() == o.toLowerCase(),
+                showCheckmark: false,
+                selectedColor: t.primary,
+                labelStyle: TextStyle(
+                  fontSize: 13,
+                  color: current.toLowerCase() == o.toLowerCase() ? t.onPrimary : t.text,
+                ),
+                backgroundColor: t.surface,
+                side: BorderSide(color: t.border),
+                shape: const StadiumBorder(),
+                onSelected: (_) => setState(() {
+                  c.text = o;
+                  _dirty = true;
+                }),
+              ),
+          ],
+        ),
+        if (note != null) Text(note, style: TextStyle(fontSize: 12, height: 1.4, color: t.textMuted)),
+      ],
+    );
+  }
+
   Widget _levelPicker(AppTokens t, String label) {
     final c = _c['studyLevel']!;
     final current = c.text.trim();
