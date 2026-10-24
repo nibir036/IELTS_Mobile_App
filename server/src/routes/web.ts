@@ -60,7 +60,7 @@ async function legal(): Promise<Legal | null> {
   return (((ui.access ?? {}) as Raw).legal as Legal | undefined) ?? null;
 }
 
-const esc = (t: string) =>
+export const esc = (t: string) =>
   t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 
 /** Escaped text with web links and the contact email made clickable. */
@@ -101,7 +101,7 @@ button:disabled{opacity:.55;cursor:default}
 footer{margin-top:40px;font-size:14px;color:var(--muted)}footer a{margin-right:14px}
 `;
 
-function page(title: string, body: string, script = ''): string {
+export function page(title: string, body: string, script = ''): string {
   return `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)} · nextED</title><meta name="robots" content="index,follow"><style>${STYLE}</style></head>
@@ -110,7 +110,7 @@ function page(title: string, body: string, script = ''): string {
 </main>${script ? `<script>${script}</script>` : ''}</body></html>`;
 }
 
-function sendHtml(ctx: Ctx, status: number, html: string): void {
+export function sendHtml(ctx: Ctx, status: number, html: string): void {
   ctx.res.writeHead(status, {
     'Content-Type': 'text/html; charset=utf-8',
     'Content-Length': Buffer.byteLength(html),

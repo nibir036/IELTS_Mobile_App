@@ -1268,3 +1268,27 @@ model TrainingSample {
   @@index([skill, kind])
   @@map("training_samples")
 }
+
+/// Ad banners on the IELTS and Study abroad home pages, managed from the
+/// admin page (routes/banners.ts). The image is a finished design in R2.
+model AdBanner {
+  id        String    @id @default(cuid())
+  /// ielts | abroad | both
+  place     String
+  /// Alt text, read out by screen readers.
+  title     String    @default("")
+  r2Key     String    @map("r2_key")
+  /// none | screen (an app route) | url (a web page)
+  linkType  String    @default("none") @map("link_type")
+  link      String    @default("")
+  /// Lower comes first.
+  sort      Int       @default(0)
+  active    Boolean   @default(true)
+  startsAt  DateTime? @map("starts_at") @db.Timestamptz(3)
+  endsAt    DateTime? @map("ends_at") @db.Timestamptz(3)
+  createdAt DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  @@index([place, active])
+  @@map("ad_banners")
+}

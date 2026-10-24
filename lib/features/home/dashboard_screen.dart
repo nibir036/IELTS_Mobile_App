@@ -8,7 +8,6 @@ import '../../app/routes.dart';
 import '../../app/theme/palette.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
-import '../../app/widgets/cross_promo.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
 import '../../app/widgets/motion.dart';
@@ -22,6 +21,7 @@ import 'profile_sheet.dart';
 import 'signature_tools.dart';
 import 'widgets.dart';
 import '../../app/widgets/app_tour.dart';
+import '../../app/widgets/ad_carousel.dart';
 
 /// B1 · Main Student Dashboard (tab 0 of the shell).
 ///
@@ -51,7 +51,8 @@ class DashboardScreen extends StatelessWidget {
         TourTarget(id: 'home.hero', child: _hero(context, store)),
         const TodayPlanCard(),
         // The way across to the study-abroad side.
-        const StudyAbroadPromo(),
+        // Ad banners from the admin page, then the way across to study abroad.
+        const IeltsHomeBanners(),
         // Our own tools: always one tap away.
         const TourTarget(id: 'home.tools', child: SignatureTools()),
         _studyTime(context, store),

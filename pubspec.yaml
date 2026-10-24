@@ -62,14 +62,15 @@ flutter:
 flutter_launcher_icons:
   image_path: "assets/branding/app_icon.png"
   android: true
-  # Android 8+ adaptive icon: pink→lavender background + Nexi in the graduation cap in the safe zone
+  # Android 8+ adaptive icon: the blue gradient + the nextED wordmark inside the safe zone.
+  # Play Store listing icon (512x512): assets/branding/play_store_icon_512.png
   adaptive_icon_background: "assets/branding/app_icon_background.png"
   adaptive_icon_foreground: "assets/branding/app_icon_foreground.png"
   ios: true
   remove_alpha_ios: true
   web:
     generate: true
-    background_color: "#F3D3E0"
+    background_color: "#063195"
     theme_color: "#151515"
   windows:
     generate: true

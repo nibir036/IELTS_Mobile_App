@@ -27,11 +27,11 @@ MANIFEST: dict[str, str] = {}  # filled in below by MANIFEST_DATA
 MANIFEST_DATA = """
 d4d1a57f98c5993a .env.example
 fadd557e0489341f .gitignore
-8307a702adbed889 README.md
+e7dbb495cb50c222 README.md
 e3b0c44298fc1c14 app/__init__.py
 e3b0c44298fc1c14 app/api/__init__.py
 a0aea3b7a34e7801 app/api/schemas.py
-e53e2588812d2815 app/api/service.py
+6f8fa8d2488cc757 app/api/service.py
 f6c3af294eb98a37 app/config.py
 e3b0c44298fc1c14 app/core/__init__.py
 d7f3a5c7bdf927e6 app/core/budget.py
@@ -42,17 +42,17 @@ d7f3a5c7bdf927e6 app/core/budget.py
 1032c782327f271e app/core/gaps.py
 d639010a7df332a6 app/core/numbers.py
 09a053207cbc8065 app/core/policy.py
-0882408574e07f5e app/core/profile.py
+2d93ed6bbbd4b426 app/core/profile.py
 43bedbf32d184dd6 app/core/restrictions.py
 7a77d3fd76e4111a app/core/search.py
 402d1a24d0687253 app/errors.py
 e3b0c44298fc1c14 app/graphs/__init__.py
 3faf4f1d77aeae80 app/graphs/counsellor.py
-cecc281a75d8efc8 app/graphs/courses.py
+cf1b710cbf85ddbd app/graphs/courses.py
 4999a1a043108a5d app/graphs/nodes.py
-a409f9a35739ccea app/graphs/runner.py
-9483d708899d2c35 app/graphs/scholarships.py
-20edd7f013cafc73 app/main.py
+99eea5cfb5e73088 app/graphs/runner.py
+09907b3dabc34f98 app/graphs/scholarships.py
+c285abf6eae6f8f1 app/main.py
 e3b0c44298fc1c14 app/providers/__init__.py
 66dc3e2a12173f4d app/providers/base.py
 dc598c956cfdc78b app/providers/demo.py
@@ -60,12 +60,12 @@ dc598c956cfdc78b app/providers/demo.py
 7d3993b544966e9d app/providers/factory.py
 fa470734b0c6b369 app/providers/http_llm.py
 e3b0c44298fc1c14 app/store/__init__.py
-8e23ac656df2041c app/store/json_store.py
+fc835d78941f58be app/store/json_store.py
 e3b0c44298fc1c14 app/tools/__init__.py
 bdd1785a0024e494 app/tools/extract.py
 700e4501939b3e28 app/tools/fetch.py
 dcc4cee460a7fc97 app/tools/search_web.py
-e308d335cc177722 app/tracing.py
+fe3216781abe05f9 app/tracing.py
 2f79649f84ee4d1f app/wiring.py
 a431c379c7b11902 examples/pages/course-good.html
 32e6eb028338f20e examples/pages/course-vague.html
@@ -76,10 +76,10 @@ a431c379c7b11902 examples/pages/course-good.html
 d370d7a8ade5a95f examples/students/strong.json
 4f1cb22d53afd44c examples/students/thin.json
 15be64fc07cb2bd1 requirements-dev.txt
-f1e5032949ebd4d3 requirements.txt
+38b2837962e6cad9 requirements.txt
 e3b0c44298fc1c14 tests/__init__.py
 2fc4bc434c0e3c95 tests/run.py
-2c31d3cb8b66dd85 tests/test_core.py
+c84a5cd82c3a5aa7 tests/test_core.py
 179d54ea1fd078a1 tests/test_service.py
 9049f819b724a7fc try.py
 """

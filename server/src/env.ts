@@ -99,6 +99,8 @@ export const env = {
   googlePlayServiceAccount: str('GOOGLE_PLAY_SERVICE_ACCOUNT'),
   /** Shared secret in the Pub/Sub push URL for Play notifications (…/rtdn?token=…). */
   googlePlayRtdnToken: str('GOOGLE_PLAY_RTDN_TOKEN'),
+  /** Shared secret for the ad-banner admin (X-Admin-Token header). Empty = admin off. */
+  adminToken: str('ADMIN_TOKEN'),
   /** Hours before a website pass ends that the student is asked to confirm the renewal. */
   renewalNoticeHours: num('RENEWAL_NOTICE_HOURS', 24),
 

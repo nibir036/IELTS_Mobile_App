@@ -384,13 +384,22 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
         ],
 
         Text(
-          'Clear photographs of the whole page work best. Your counsellor will ask '
+          'New and replaced files show Awaiting review until your counsellor checks them. '
+          'Clear photographs of the whole page work best; your counsellor will ask '
           'again if anything is hard to read.',
           style: TextStyle(fontSize: 12, height: 1.45, color: t.textMuted),
         ),
       ],
     );
   }
+}
+
+/// What the student sees for a document's status. The server keeps
+/// "Pending" (the counsellor's web platform reads it); a student reads that
+/// as "stuck", so it shows as "Awaiting review" until a counsellor checks it.
+String _documentStatus(String status) {
+  final s = status.trim();
+  return s.isEmpty || s.toLowerCase() == 'pending' ? 'Awaiting review' : s;
 }
 
 class _DocumentCard extends StatelessWidget {
@@ -449,7 +458,7 @@ class _DocumentCard extends StatelessWidget {
               ],
             ),
           ),
-          NextedStatusTag(doc.s('status')),
+          NextedStatusTag(_documentStatus(doc.s('status'))),
         ],
       ),
     );

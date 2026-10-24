@@ -30,6 +30,7 @@ TagTone nextedStatusTone(String status) {
     case 'pending':
     case 'submitted':
     case 'under review':
+    case 'awaiting review':
       return TagTone.accent;
     default:
       return TagTone.soft;

@@ -89,6 +89,16 @@ def test_result_keeps_its_scale():
     assert "3.70 / 4.00" in lines  # never converted to a percentage
 
 
+def test_publication_reaches_the_prompt():
+    from app.core.profile import StudentProfile
+
+    yes = StudentProfile.model_validate({"hasPublication": "Yes", "subject": "Physics"})
+    assert "- Has a research publication: Yes" in yes.summary_lines()
+    # Not answered: nothing is said about it either way.
+    blank = StudentProfile.model_validate({"subject": "Physics"})
+    assert not any("publication" in line for line in blank.summary_lines())
+
+
 # ========================================================= restrictions
 def test_exact_match_only():
     assert same_university("Oxford Brookes University", "oxford brookes")

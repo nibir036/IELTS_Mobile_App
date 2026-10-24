@@ -22,6 +22,7 @@ import { registerNextedRoutes } from './routes/nexted';
 import { registerPlanRoutes } from './routes/plan';
 import { registerProgressRoutes } from './routes/progress';
 import { registerWebRoutes } from './routes/web';
+import { registerBannerRoutes } from './routes/banners';
 
 export function buildRouter(): Router {
   const r = new Router();
@@ -42,6 +43,8 @@ export function buildRouter(): Router {
   registerNextedRoutes(r);
   // Privacy, terms and account deletion as web pages (Google Play links).
   registerWebRoutes(r);
+  // Ad banners on the home pages, and their admin.
+  registerBannerRoutes(r);
   return r;
 }
 
@@ -55,7 +58,7 @@ export function createApp(router = buildRouter()) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader(
       'Access-Control-Allow-Headers',
-      'Authorization, Content-Type, X-App-Key, X-Device-Id, X-Device-Name, X-Device-Platform, X-Client',
+      'Authorization, Content-Type, X-App-Key, X-Device-Id, X-Device-Name, X-Device-Platform, X-Client, X-Admin-Token',
     );
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
     if (method === 'OPTIONS') {

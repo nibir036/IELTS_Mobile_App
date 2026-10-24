@@ -103,6 +103,8 @@ export function aiProfile(p: Record<string, string>): Json {
     subject: p.subject ?? '',
     studyLevel: p.studyLevel ?? '',
     intake: p.preferredIntake ?? '',
+    // "Yes" / "No" - the counsellor weighs it for research degrees and scholarships.
+    hasPublication: p.hasPublication ?? '',
   };
 }
 

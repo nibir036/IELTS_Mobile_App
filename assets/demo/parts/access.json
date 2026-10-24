@@ -259,7 +259,7 @@
     "contactEmail": "support@nexted.app",
     "terms": {
       "title": "Terms of Use",
-      "intro": "These terms explain the deal between you and nextED when you use the nextED app (\"the app\"). Please read them - by creating an account or using the app you agree to them.",
+      "intro": "These terms explain the deal between you and nextED when you use the nextED app (\"the app\"), for IELTS practice and study abroad. Please read them - by creating an account or using the app you agree to them.",
       "sections": [
         {
           "heading": "1. Who we are",
@@ -271,24 +271,26 @@
           "heading": "2. Not the official IELTS test",
           "body": [
             "IELTS is a registered trademark of the British Council, IDP: IELTS Australia and Cambridge University Press & Assessment. nextED is independent: we are not affiliated with, endorsed by or approved by any of them.",
-            "Our practice tests are written by us to match the format of the real exam. The bands we give are estimates to guide your study - they are not official results and cannot be used for visa, university or job applications."
+            "Our practice and mock tests are written by us to match the format of the real exam. The bands we give are estimates to guide your study - they are not official results and cannot be used for visa, university or job applications."
           ]
         },
         {
           "heading": "3. Your account",
           "body": [
             "You sign up with a Bangladeshi mobile number and a password. Keep your password private: you are responsible for what happens on your account.",
-            "Give us accurate details and one account per person. If you are under 18, please use the app with a parent's or guardian's permission."
+            "Give us accurate details and keep to one account per person. An account can be used on up to 2 devices and is signed in on one screen at a time; signing in somewhere new signs you out of the other screen.",
+            "If you are under 18, please use the app with a parent's or guardian's permission."
           ]
         },
         {
           "heading": "4. Using the app fairly",
           "body": [
-            "You may use the app for your own IELTS preparation. Please don't:"
+            "You may use the app for your own IELTS preparation and study-abroad plans. Please don't:"
           ],
           "bullets": [
-            "copy, sell or republish our tests, lessons, sample answers or audio",
+            "copy, sell, record or republish our tests, lessons, sample answers or audio, or share screenshots or recordings of them",
             "upload content that is offensive, unlawful or not your own work",
+            "upload documents that are false, altered or belong to someone else",
             "try to break, overload or reverse-engineer the app or its AI features",
             "share your account or use someone else's"
           ]
@@ -297,37 +299,49 @@
           "heading": "5. AI scoring and feedback",
           "body": [
             "Your essays and speaking recordings are scored by artificial intelligence (AI). AI can make mistakes, so treat its bands and comments as helpful guidance, not a guarantee of your exam result.",
-            "When there is no internet connection some practice is scored offline with a simpler demo model; the app tells you when this happens."
+            "If our AI can't be reached, some practice is scored by a simpler built-in scorer; the app tells you when this happens."
           ]
         },
         {
-          "heading": "6. Your content",
+          "heading": "6. Study abroad",
           "body": [
-            "The essays, answers and recordings you create stay yours. You give us permission to store and process them only so we can score them, show you feedback and keep your progress history."
+            "The AI counsellor, course matching and scholarship checks work from your study-abroad profile and the information we hold about universities, courses and scholarships. Their answers are guidance to help you choose, not advice you must follow.",
+            "Universities, scholarship providers and visa offices make their own decisions, and fees, deadlines and entry rules can change. We cannot guarantee an offer, a scholarship or a visa, so always check the details with the institution before you apply or pay.",
+            "Documents you upload must be genuine and your own. Your nextED counsellor sees your profile and documents so they can guide you, and when you ask us to apply for you we send the details and documents that application needs to the university or scholarship provider."
           ]
         },
         {
-          "heading": "7. Plans and payment",
+          "heading": "7. Your content",
           "body": [
-            "Some features may need a paid plan. Prices and what each plan includes are shown in the app before you pay. We will never charge you without your clear confirmation."
+            "The essays, answers, recordings and documents you add stay yours. You give us permission to store and process them to score your practice, show you feedback, keep your progress history and help with your study-abroad plans.",
+            "You also allow us to keep your practice answers and speaking recordings, with your name, number and anything else that identifies you removed, to improve our IELTS scoring - including after you delete your account. The Privacy Policy explains this."
           ]
         },
         {
-          "heading": "8. Closing your account",
+          "heading": "8. Plans and payment",
           "body": [
-            "You can stop using the app at any time and delete your account in the app or at https://mobile-api.nexted.app/delete-account (see the Privacy Policy for what is kept afterwards)."
+            "Some features need Pro. Pro is sold as a pass for a set number of days, and the price and what Pro includes are shown before you pay. We will never charge you without your clear confirmation.",
+            "In the app, passes are bought through Google Play and charged once; they do not renew by themselves. On our website, passes are paid with bKash; if you turn on automatic renewal we remind you before each charge, and you can turn it off at any time.",
+            "Refunds for Google Play purchases follow Google Play's refund rules and are requested through Google Play. For website payments, contact support@nexted.app and we will handle your request fairly and as the law requires. Deleting your account ends any pass you have, without a refund."
           ]
         },
         {
-          "heading": "9. Our responsibility",
+          "heading": "9. Closing your account",
           "body": [
-            "We work hard to keep the app accurate and available, but we provide it \"as is\". We are not responsible for your official exam result or for losses caused by events outside our reasonable control. Nothing in these terms removes rights you have under the laws of Bangladesh."
+            "You can stop using the app at any time and delete your account in the app (Profile › Delete account) or at https://mobile-api.nexted.app/delete-account. The Privacy Policy explains what is kept afterwards.",
+            "We may suspend or close an account that breaks these terms, after warning you where we reasonably can."
           ]
         },
         {
-          "heading": "10. Changes and contact",
+          "heading": "10. Our responsibility",
           "body": [
-            "If we change these terms we will update the date above and tell you in the app for important changes. These terms are governed by the laws of Bangladesh.",
+            "We work hard to keep the app accurate and available, but we provide it \"as is\". We are not responsible for your official exam result, for decisions made by universities, scholarship providers or visa offices, or for losses caused by events outside our reasonable control. Nothing in these terms removes rights you have under the laws of Bangladesh."
+          ]
+        },
+        {
+          "heading": "11. Changes and contact",
+          "body": [
+            "If we change these terms we will update the date above and tell you in the app about important changes. These terms are governed by the laws of Bangladesh.",
             "Questions? Email us at support@nexted.app."
           ]
         }

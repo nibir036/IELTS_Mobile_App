@@ -16,7 +16,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from app.core.numbers import num
 
-# The ten fields the Node side keeps in PROFILE_FIELDS.
+# The fields the Node side keeps in PROFILE_FIELDS.
 PROFILE_FIELDS = (
     "name",
     "phone",
@@ -29,6 +29,7 @@ PROFILE_FIELDS = (
     "subject",
     "studyLevel",
     "intake",
+    "hasPublication",
 )
 
 
@@ -51,6 +52,8 @@ class StudentProfile(BaseModel):
     # same as highest_level, which is what they have already finished.
     study_level: str = Field(default="", alias="studyLevel")
     intake: str = ""
+    # "Yes" / "No": a paper in a journal or at a conference, at any level.
+    has_publication: str = Field(default="", alias="hasPublication")
 
     # ------------------------------------------------------------------
     @property
@@ -119,4 +122,6 @@ class StudentProfile(BaseModel):
             out.append(f"- Home district: {self.home_district}")
         if self.intake:
             out.append(f"- Intended intake: {self.intake}")
+        if self.has_publication:
+            out.append(f"- Has a research publication: {self.has_publication}")
         return out

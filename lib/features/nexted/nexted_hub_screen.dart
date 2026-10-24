@@ -8,13 +8,13 @@ import '../../app/services/api_client.dart';
 import '../../app/services/nexted_api.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
-import '../../app/widgets/cross_promo.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
 import '../../app/widgets/motion.dart';
 import '../../app/widgets/vivid.dart';
 import 'widgets.dart';
 import '../../app/widgets/app_tour.dart';
+import '../../app/widgets/ad_carousel.dart';
 
 /// nexted.app · module home.
 ///
@@ -90,15 +90,37 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
     if (mounted) _load();
   }
 
-  static const List<(String, String)> _destinations = <(String, String)>[
-    ('🇬🇧', 'UK'),
-    ('🇺🇸', 'USA'),
-    ('🇨🇦', 'Canada'),
-    ('🇦🇺', 'Australia'),
-    ('🇩🇪', 'Germany'),
-    ('🇮🇪', 'Ireland'),
-    ('🇳🇿', 'New Zealand'),
-    ('🇲🇾', 'Malaysia'),
+  /// The countries nextED sends students to: (flag, short label, full name).
+  static const List<(String, String, String)> _destinations = <(String, String, String)>[
+    ('🇨🇦', 'Canada', 'Canada'),
+    ('🇦🇺', 'Australia', 'Australia'),
+    ('🇳🇿', 'New Zealand', 'New Zealand'),
+    ('🇸🇪', 'Sweden', 'Sweden'),
+    ('🇩🇰', 'Denmark', 'Denmark'),
+    ('🇫🇮', 'Finland', 'Finland'),
+    ('🇳🇱', 'Netherlands', 'the Netherlands'),
+    ('🇧🇪', 'Belgium', 'Belgium'),
+    ('🇩🇪', 'Germany', 'Germany'),
+    ('🇫🇷', 'France', 'France'),
+    ('🇮🇹', 'Italy', 'Italy'),
+    ('🇱🇻', 'Latvia', 'Latvia'),
+    ('🇱🇹', 'Lithuania', 'Lithuania'),
+    ('🇭🇺', 'Hungary', 'Hungary'),
+    ('🇬🇷', 'Greece', 'Greece'),
+    ('🇵🇱', 'Poland', 'Poland'),
+    ('🇪🇪', 'Estonia', 'Estonia'),
+    ('🇭🇷', 'Croatia', 'Croatia'),
+    ('🇨🇿', 'Czech Rep.', 'the Czech Republic'),
+    ('🇰🇷', 'South Korea', 'South Korea'),
+    ('🇦🇹', 'Austria', 'Austria'),
+    ('🇳🇴', 'Norway', 'Norway'),
+    ('🇨🇭', 'Switzerland', 'Switzerland'),
+    ('🇨🇳', 'China', 'China'),
+    ('🇯🇵', 'Japan', 'Japan'),
+    ('🇮🇪', 'Ireland', 'Ireland'),
+    ('🇪🇸', 'Spain', 'Spain'),
+    ('🇬🇧', 'UK', 'the United Kingdom'),
+    ('🇺🇸', 'USA', 'the United States'),
   ];
 
   @override
@@ -223,13 +245,14 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
             itemCount: _destinations.length,
             separatorBuilder: (_, _) => const SizedBox(width: 8),
             itemBuilder: (context, i) {
-              final (flag, label) = _destinations[i];
+              final (flag, label, full) = _destinations[i];
               return PopIn(
                 delayMs: 50 * i.clamp(0, 6),
                 from: 0.85,
                 child: _Destination(
                   flag: flag,
                   label: label,
+                  full: full,
                   onTap: () => context.push(Routes.nextedCourses),
                 ),
               );
@@ -238,7 +261,8 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
         ),
 
         // Back across to IELTS practice.
-        const IeltsPromo(),
+        // Ad banners from the admin page, then the way back to IELTS practice.
+        const AbroadHomeBanners(),
 
         Text(
           'Your NextED counsellor works on your applications from the web platform. '
@@ -553,10 +577,13 @@ class _StepItem extends StatelessWidget {
 
 /// A destination: the flag on a soft circle and the country name.
 class _Destination extends StatelessWidget {
-  const _Destination({required this.flag, required this.label, required this.onTap});
+  const _Destination({required this.flag, required this.label, required this.full, required this.onTap});
 
   final String flag;
   final String label;
+
+  /// Read out by screen readers ("Courses in the Czech Republic").
+  final String full;
   final VoidCallback onTap;
 
   @override
@@ -564,14 +591,14 @@ class _Destination extends StatelessWidget {
     final t = context.tk;
     return Semantics(
       button: true,
-      label: 'Courses in $label',
+      label: 'Courses in $full',
       child: Pressable(
         scale: 0.92,
         child: InkWell(
           borderRadius: BorderRadius.circular(18),
           onTap: onTap,
           child: SizedBox(
-            width: 70,
+            width: 80,
             child: Column(
               spacing: 6,
               children: [
@@ -586,7 +613,7 @@ class _Destination extends StatelessWidget {
                   label,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: t.textSoft),
+                  style: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w500, color: t.textSoft),
                 ),
               ],
             ),
