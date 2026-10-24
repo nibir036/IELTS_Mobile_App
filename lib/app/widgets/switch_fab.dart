@@ -1,4 +1,6 @@
+import 'package:flutter/foundation.dart' show ValueListenable;
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart' show ScrollDirection;
 
 import '../theme/tokens.dart';
 import 'kit.dart';
@@ -106,6 +108,62 @@ class AppSwitchFab extends StatelessWidget {
                 ),
               ),
             ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Whether the switch pill is showing. It slides away while the student
+/// scrolls down (reading) and comes back on the first scroll up, so it
+/// never sits on top of what they're reading.
+///
+/// Put [onScroll] in a `NotificationListener<UserScrollNotification>`
+/// around the tabs, and call [show] when the tab changes.
+class SwitchFabVisibility extends ValueNotifier<bool> {
+  SwitchFabVisibility() : super(true);
+
+  bool onScroll(UserScrollNotification n) {
+    // Only up / down scrolling: not the tab swipe or a sideways carousel.
+    if (n.metrics.axis != Axis.vertical) return false;
+    if (n.direction == ScrollDirection.reverse) {
+      value = false;
+    } else if (n.direction == ScrollDirection.forward || n.metrics.pixels <= n.metrics.minScrollExtent) {
+      value = true;
+    }
+    return false;
+  }
+
+  void show() => value = true;
+}
+
+/// Slides and fades [child] (the switch pill) out of the way while
+/// [visible] is false; it can't be tapped while hidden.
+class SwitchFabSlot extends StatelessWidget {
+  const SwitchFabSlot({super.key, required this.visible, required this.child});
+
+  final ValueListenable<bool> visible;
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    final reduce = MediaQuery.maybeDisableAnimationsOf(context) ?? false;
+    final duration = Duration(milliseconds: reduce ? 0 : 220);
+    return ValueListenableBuilder<bool>(
+      valueListenable: visible,
+      child: child,
+      builder: (context, shown, child) => IgnorePointer(
+        ignoring: !shown,
+        child: AnimatedSlide(
+          offset: shown ? Offset.zero : const Offset(0, 0.8),
+          duration: duration,
+          curve: Curves.easeOutCubic,
+          child: AnimatedOpacity(
+            opacity: shown ? 1 : 0,
+            duration: duration,
+            curve: Curves.easeOut,
+            child: ExcludeSemantics(excluding: !shown, child: child),
           ),
         ),
       ),

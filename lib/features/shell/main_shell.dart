@@ -45,8 +45,12 @@ class MainShellState extends State<MainShell> {
   /// don't flicker the nav highlight.
   bool _jumping = false;
 
+  /// The Study abroad pill: hidden while scrolling down, back on scroll up.
+  final SwitchFabVisibility _fab = SwitchFabVisibility();
+
   @override
   void dispose() {
+    _fab.dispose();
     _pages.dispose();
     super.dispose();
   }
@@ -104,17 +108,21 @@ class MainShellState extends State<MainShell> {
           // Tabs are built the first time they're shown and then kept (with
           // their scroll position); only the current tab runs animations.
           Positioned.fill(
-            child: ScrollConfiguration(
-              // Mouse drags swipe too (web / desktop testing), not just touch.
-              behavior: ScrollConfiguration.of(context).copyWith(dragDevices: _dragDevices),
-              child: PageView.builder(
-                controller: _pages,
-                itemCount: 5,
-                onPageChanged: (i) {
-                  if (!_jumping && i != _index) setState(() => _index = i);
-                },
-                itemBuilder: (context, i) => _KeepTab(
-                  child: TickerMode(enabled: i == _index, child: _tab(i)),
+            child: NotificationListener<UserScrollNotification>(
+              onNotification: _fab.onScroll,
+              child: ScrollConfiguration(
+                // Mouse drags swipe too (web / desktop testing), not just touch.
+                behavior: ScrollConfiguration.of(context).copyWith(dragDevices: _dragDevices),
+                child: PageView.builder(
+                  controller: _pages,
+                  itemCount: 5,
+                  onPageChanged: (i) {
+                    _fab.show();
+                    if (!_jumping && i != _index) setState(() => _index = i);
+                  },
+                  itemBuilder: (context, i) => _KeepTab(
+                    child: TickerMode(enabled: i == _index, child: _tab(i)),
+                  ),
                 ),
               ),
             ),
@@ -134,7 +142,10 @@ class MainShellState extends State<MainShell> {
             child: AnimatedBuilder(
               animation: NextedAccess.I,
               builder: (context, _) => NextedAccess.I.enabled
-                  ? AppSwitchFab.toStudyAbroad(onTap: () => context.resetTo(Routes.nexted))
+                  ? SwitchFabSlot(
+                      visible: _fab,
+                      child: AppSwitchFab.toStudyAbroad(onTap: () => context.resetTo(Routes.nexted)),
+                    )
                   : const SizedBox.shrink(),
             ),
           ),

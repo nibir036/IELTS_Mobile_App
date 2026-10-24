@@ -51,6 +51,9 @@ class NextedShellState extends State<NextedShell> {
   /// flicker the nav highlight.
   bool _jumping = false;
 
+  /// The IELTS pill: hidden while scrolling down, back on scroll up.
+  final SwitchFabVisibility _fab = SwitchFabVisibility();
+
   static const List<(IconData, IconData, String)> _items = <(IconData, IconData, String)>[
     (AppIcons.home, AppIcons.homeFilled, 'Home'),
     (AppIcons.compass, AppIcons.compassFilled, 'Guidance'),
@@ -68,6 +71,7 @@ class NextedShellState extends State<NextedShell> {
 
   @override
   void dispose() {
+    _fab.dispose();
     _pages.dispose();
     super.dispose();
   }
@@ -119,18 +123,22 @@ class NextedShellState extends State<NextedShell> {
         body: Stack(
           children: [
             Positioned.fill(
-              child: ScrollConfiguration(
-                // Mouse drags swipe too (web / desktop testing), not just touch.
-                behavior: ScrollConfiguration.of(context).copyWith(dragDevices: _dragDevices),
-                child: PageView.builder(
-                  controller: _pages,
-                  itemCount: 4,
-                  onPageChanged: (p) {
-                    final i = _itemOf(p);
-                    if (!_jumping && i != _index) setState(() => _index = i);
-                  },
-                  itemBuilder: (context, p) => _KeepTab(
-                    child: TickerMode(enabled: _itemOf(p) == _index, child: _tab(p)),
+              child: NotificationListener<UserScrollNotification>(
+                onNotification: _fab.onScroll,
+                child: ScrollConfiguration(
+                  // Mouse drags swipe too (web / desktop testing), not just touch.
+                  behavior: ScrollConfiguration.of(context).copyWith(dragDevices: _dragDevices),
+                  child: PageView.builder(
+                    controller: _pages,
+                    itemCount: 4,
+                    onPageChanged: (p) {
+                      _fab.show();
+                      final i = _itemOf(p);
+                      if (!_jumping && i != _index) setState(() => _index = i);
+                    },
+                    itemBuilder: (context, p) => _KeepTab(
+                      child: TickerMode(enabled: _itemOf(p) == _index, child: _tab(p)),
+                    ),
                   ),
                 ),
               ),
@@ -147,7 +155,10 @@ class NextedShellState extends State<NextedShell> {
               Positioned(
                 right: 20,
                 bottom: 104 + bottom,
-                child: AppSwitchFab.toIelts(onTap: () => context.resetTo(Routes.home)),
+                child: SwitchFabSlot(
+                  visible: _fab,
+                  child: AppSwitchFab.toIelts(onTap: () => context.resetTo(Routes.home)),
+                ),
               ),
           ],
         ),
