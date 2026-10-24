@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/gestures.dart' show PointerDeviceKind;
 import 'package:flutter/material.dart';
 
@@ -11,6 +13,9 @@ import 'nexted_documents_screen.dart';
 import 'nexted_hub_screen.dart';
 import 'nexted_journey_screen.dart';
 import 'nexted_profile_screen.dart';
+import '../../app/data/packs/content_packs.dart';
+import '../../app/widgets/app_tour.dart';
+import '../shell/app_tours.dart';
 
 /// The study-abroad side, with the same floating bottom nav as IELTS:
 /// Home · Guidance · Documents · Counsellor · Profile.
@@ -53,6 +58,26 @@ class NextedShellState extends State<NextedShell> {
 
   /// The IELTS pill: hidden while scrolling down, back on scroll up.
   final SwitchFabVisibility _fab = SwitchFabVisibility();
+
+  @override
+  void initState() {
+    super.initState();
+    // The first-time study-abroad tour, once Home is showing.
+    unawaited(AppTour.I.startOnce(
+      AppTour.abroad,
+      abroadTour,
+      ready: () =>
+          mounted && _index == NextedShell.homeTab && (ModalRoute.isCurrentOf(context) ?? false) && !PackStore.I.needsDownload,
+    ));
+  }
+
+  /// "Replay the app tour" on the profile tab: back to Home, then the tour.
+  Future<void> replayTour() async {
+    if (AppTour.I.active) return;
+    await select(NextedShell.homeTab);
+    if (!mounted) return;
+    AppTour.I.start(AppTour.abroad, abroadTour());
+  }
 
   static const List<(IconData, IconData, String)> _items = <(IconData, IconData, String)>[
     (AppIcons.home, AppIcons.homeFilled, 'Home'),
@@ -147,7 +172,18 @@ class NextedShellState extends State<NextedShell> {
               left: 16,
               right: 16,
               bottom: 18 + bottom,
-              child: AppNavBar(index: _index, onTap: select, items: _items),
+              child: AppNavBar(
+                index: _index,
+                onTap: select,
+                items: _items,
+                tourIds: const <String>[
+                  'abroad.nav.home',
+                  'abroad.nav.guidance',
+                  'abroad.nav.documents',
+                  'abroad.nav.counsellor',
+                  'abroad.nav.profile',
+                ],
+              ),
             ),
             // Across to IELTS, just above the nav - on Home and Guidance only;
             // Documents and Profile have their own button there.
@@ -157,7 +193,10 @@ class NextedShellState extends State<NextedShell> {
                 bottom: 104 + bottom,
                 child: SwitchFabSlot(
                   visible: _fab,
-                  child: AppSwitchFab.toIelts(onTap: () => context.resetTo(Routes.home)),
+                  child: TourTarget(
+                    id: 'switch.ielts',
+                    child: AppSwitchFab.toIelts(onTap: () => context.resetTo(Routes.home)),
+                  ),
                 ),
               ),
           ],

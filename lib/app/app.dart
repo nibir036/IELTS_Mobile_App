@@ -28,6 +28,7 @@ import 'theme/app_theme.dart';
 import 'theme/readable_text.dart';
 import 'theme/theme_controller.dart';
 import 'widgets/cross_nudge.dart';
+import 'widgets/app_tour.dart';
 
 /// Root widget: nextED (IELTS AI + Study abroad).
 class IeltsAiApp extends StatefulWidget {
@@ -165,7 +166,7 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
           // and a "getting your lessons ready" screen on the first open after signing in.
           builder: (context, child) => readableText(
             context,
-            ConnectionGate(child: ContentGate(child: child ?? const SizedBox.shrink())),
+            ConnectionGate(child: ContentGate(child: TourLayer(child: child ?? const SizedBox.shrink()))),
           ),
           theme: AppTheme.day,
           darkTheme: AppTheme.night,

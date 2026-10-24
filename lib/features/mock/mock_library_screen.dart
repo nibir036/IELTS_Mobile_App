@@ -11,6 +11,7 @@ import '../../app/widgets/mascot.dart';
 import '../shell/main_shell.dart';
 import 'mock_session.dart';
 import 'widgets.dart';
+import '../../app/widgets/app_tour.dart';
 
 /// G1 · Mock Test Library & History (bottom-nav tab 2).
 class MockLibraryScreen extends StatelessWidget {
@@ -55,12 +56,15 @@ class MockLibraryScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
               ),
             ),
-            IconBox(
-              icon: AppIcons.add,
-              size: 56,
-              radius: 20,
-              tooltip: 'New mock test',
-              onTap: () => context.push(Routes.mockSystemCheck),
+            TourTarget(
+              id: 'mock.new',
+              child: IconBox(
+                icon: AppIcons.add,
+                size: 56,
+                radius: 20,
+                tooltip: 'New mock test',
+                onTap: () => context.push(Routes.mockSystemCheck),
+              ),
             ),
           ],
         ),

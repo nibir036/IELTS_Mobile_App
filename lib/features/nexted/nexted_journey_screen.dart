@@ -8,6 +8,7 @@ import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
 import '../../app/widgets/motion.dart';
 import 'nexted_shell.dart';
+import '../../app/widgets/app_tour.dart';
 
 /// Study abroad · Guidance: the whole road from deciding to flying, eight
 /// steps in the order they happen. Each step opens to say what it involves,
@@ -185,7 +186,7 @@ class _NextedJourneyScreenState extends State<NextedJourneyScreen> {
         _hero(t),
         const SizedBox(height: 18),
         for (var i = 0; i < _steps.length; i++)
-          PopIn(delayMs: 40 * i, child: _stepRow(t, i)),
+          PopIn(delayMs: 40 * i, child: TourTarget(id: i == 0 ? 'guidance.first' : null, child: _stepRow(t, i))),
         const SizedBox(height: 18),
         AppCard(
           radius: 24,

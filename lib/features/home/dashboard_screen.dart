@@ -21,6 +21,7 @@ import 'dashboard_empty_screen.dart';
 import 'profile_sheet.dart';
 import 'signature_tools.dart';
 import 'widgets.dart';
+import '../../app/widgets/app_tour.dart';
 
 /// B1 · Main Student Dashboard (tab 0 of the shell).
 ///
@@ -47,12 +48,12 @@ class DashboardScreen extends StatelessWidget {
       gap: 18,
       children: [
         _header(context, store, acc),
-        _hero(context, store),
+        TourTarget(id: 'home.hero', child: _hero(context, store)),
         const TodayPlanCard(),
         // The way across to the study-abroad side.
         const StudyAbroadPromo(),
         // Our own tools: always one tap away.
-        const SignatureTools(),
+        const TourTarget(id: 'home.tools', child: SignatureTools()),
         _studyTime(context, store),
         _wordOfDay(context, store, _shortPos(ResBank.wordOfTheDay(dash.m('wordOfTheDay')))),
         SectionHeader(

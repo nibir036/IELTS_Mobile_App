@@ -20,6 +20,7 @@ import 'language_sheet.dart';
 import 'plans_screen.dart';
 import 'profile_sheet.dart';
 import 'widgets.dart';
+import '../../app/widgets/app_tour.dart';
 
 /// B7 · Profile & Settings (tab 4 of the shell).
 class ProfileScreen extends StatefulWidget {
@@ -295,14 +296,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           spacing: 8,
           children: [
-            _SettingRow(
-              icon: AppIcons.star,
-              title: 'Plan',
-              subtitle: currentPlanName(store) == 'Pro'
-                  ? 'You’re on Pro'
-                  : 'Compare Free and Pro',
-              trailingText: currentPlanName(store),
-              onTap: () => context.push(Routes.plans),
+            TourTarget(
+              id: 'profile.plan',
+              child: _SettingRow(
+                icon: AppIcons.star,
+                title: 'Plan',
+                subtitle: currentPlanName(store) == 'Pro'
+                    ? 'You’re on Pro'
+                    : 'Compare Free and Pro',
+                trailingText: currentPlanName(store),
+                onTap: () => context.push(Routes.plans),
+              ),
             ),
             _SettingRow(
               icon: AppIcons.lock,
@@ -356,6 +360,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: 'Explanation language',
               trailingText: contentLang(FeedbackLanguage.current).native,
               onTap: () => showLanguageSheet(context),
+            ),
+            // Replays the first-time tour from the Home tab.
+            TourTarget(
+              id: 'profile.tour',
+              child: _SettingRow(
+                icon: AppIcons.compass,
+                title: 'App tour',
+                subtitle: 'A one-minute walk through the app',
+                onTap: () => MainShell.of(context)?.replayTour(),
+              ),
             ),
             // Developer tool: only in debug builds, hidden in release.
             if (kDebugMode)

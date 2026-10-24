@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/gestures.dart' show PointerDeviceKind;
@@ -16,6 +17,9 @@ import '../home/module_hub_screen.dart';
 import '../home/profile_screen.dart';
 import '../mock/mock_library_screen.dart';
 import '../resources/community_channels_screen.dart';
+import '../../app/data/packs/content_packs.dart';
+import '../../app/widgets/app_tour.dart';
+import 'app_tours.dart';
 
 /// Bottom-nav shell: Home (B1) · Practice (B3) · Mock tests (G1) ·
 /// Community (H3) · Profile (B7). The floating pill nav matches the canvas.
@@ -47,6 +51,25 @@ class MainShellState extends State<MainShell> {
 
   /// The Study abroad pill: hidden while scrolling down, back on scroll up.
   final SwitchFabVisibility _fab = SwitchFabVisibility();
+
+  @override
+  void initState() {
+    super.initState();
+    // The first-time tour, once Home is showing and the lessons are in.
+    unawaited(AppTour.I.startOnce(
+      AppTour.ielts,
+      ieltsTour,
+      ready: () => mounted && _index == 0 && (ModalRoute.isCurrentOf(context) ?? false) && !PackStore.I.needsDownload,
+    ));
+  }
+
+  /// "App tour" in Profile: back to Home, then the tour from the start.
+  Future<void> replayTour() async {
+    if (AppTour.I.active) return;
+    await select(0);
+    if (!mounted) return;
+    AppTour.I.start(AppTour.ielts, ieltsTour());
+  }
 
   @override
   void dispose() {
@@ -131,7 +154,7 @@ class MainShellState extends State<MainShell> {
             left: 16,
             right: 16,
             bottom: 18 + MediaQuery.of(context).padding.bottom * 0.5,
-            child: AppNavBar(index: _index, onTap: select, items: _navItems),
+            child: AppNavBar(index: _index, onTap: select, items: _navItems, tourIds: _navTourIds),
           ),
           // One tap from anywhere in IELTS to the study-abroad side: the peach
           // "STUDY ABROAD" pill just above the nav bar, only for students who
@@ -144,7 +167,10 @@ class MainShellState extends State<MainShell> {
               builder: (context, _) => NextedAccess.I.enabled
                   ? SwitchFabSlot(
                       visible: _fab,
-                      child: AppSwitchFab.toStudyAbroad(onTap: () => context.resetTo(Routes.nexted)),
+                      child: TourTarget(
+                        id: 'switch.abroad',
+                        child: AppSwitchFab.toStudyAbroad(onTap: () => context.resetTo(Routes.nexted)),
+                      ),
                     )
                   : const SizedBox.shrink(),
             ),
@@ -186,17 +212,23 @@ const List<(IconData, IconData, String)> _navItems = <(IconData, IconData, Strin
   (AppIcons.profile, AppIcons.profileFilled, 'Profile'),
 ];
 
+/// What the first-time tour calls each tab (app_tours.dart).
+const List<String> _navTourIds = <String>['nav.home', 'nav.practice', 'nav.mock', 'nav.community', 'nav.profile'];
+
 /// Bottom nav, shared by the IELTS and study-abroad sides: icons only; the
 /// selected one sits on a bubble that slides across and swaps to its filled
 /// glyph with a bounce.
 class AppNavBar extends StatelessWidget {
-  const AppNavBar({super.key, required this.index, required this.onTap, required this.items});
+  const AppNavBar({super.key, required this.index, required this.onTap, required this.items, this.tourIds});
 
   final int index;
   final ValueChanged<int> onTap;
 
   /// (icon, selected icon, name - read out by screen readers).
   final List<(IconData, IconData, String)> items;
+
+  /// [TourTarget] ids for the items, in order (the first-time tour taps them).
+  final List<String>? tourIds;
 
   @override
   Widget build(BuildContext context) {
@@ -241,7 +273,9 @@ class AppNavBar extends StatelessWidget {
             children: [
               for (var i = 0; i < n; i++)
                 Expanded(
-                  child: Semantics(
+                  child: TourTarget(
+                    id: tourIds?.elementAtOrNull(i),
+                    child: Semantics(
                     button: true,
                     selected: i == index,
                     label: items[i].$3,
@@ -277,6 +311,7 @@ class AppNavBar extends StatelessWidget {
                         ),
                       ),
                     ),
+                  ),
                   ),
                 ),
             ],

@@ -18,6 +18,7 @@ import '../../app/widgets/vivid.dart';
 import '../shell/main_shell.dart';
 import '../writing/writing_data.dart' show WritingContent;
 import 'widgets.dart';
+import '../../app/widgets/app_tour.dart';
 
 /// B3 · Course & Module Hub (tab 1 of the shell).
 class ModuleHubScreen extends StatefulWidget {
@@ -115,15 +116,18 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
         // The first module (Resources) takes a whole row; the rest two per row.
         if (modules.isNotEmpty) _ModuleCard(module: modules.first, wide: true),
         for (var r = 1; r < modules.length; r += 2)
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            spacing: 12,
-            children: [
-              Expanded(child: _ModuleCard(module: modules[r])),
-              Expanded(
-                child: r + 1 < modules.length ? _ModuleCard(module: modules[r + 1]) : const SizedBox.shrink(),
-              ),
-            ],
+          TourTarget(
+            id: r == 1 ? 'practice.modules' : null,
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 12,
+              children: [
+                Expanded(child: _ModuleCard(module: modules[r])),
+                Expanded(
+                  child: r + 1 < modules.length ? _ModuleCard(module: modules[r + 1]) : const SizedBox.shrink(),
+                ),
+              ],
+            ),
           ),
       ],
     );

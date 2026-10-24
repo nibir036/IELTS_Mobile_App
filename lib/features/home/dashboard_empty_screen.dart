@@ -13,6 +13,7 @@ import '../plan/plan_widgets.dart';
 import 'profile_sheet.dart';
 import 'signature_tools.dart';
 import 'widgets.dart';
+import '../../app/widgets/app_tour.dart';
 
 /// B2 · Dashboard - first-time empty state (before the diagnostic).
 class DashboardEmptyScreen extends StatelessWidget {
@@ -121,7 +122,9 @@ class FirstTimeDashboard extends StatelessWidget {
         ),
 
         // Hero: band starts here
-        HeroCard(
+        TourTarget(
+          id: 'home.hero',
+          child: HeroCard(
           padding: const EdgeInsets.fromLTRB(20, 18, 12, 20),
           radius: 32,
           child: Column(
@@ -173,10 +176,11 @@ class FirstTimeDashboard extends StatelessWidget {
             ],
           ),
         ),
+        ),
 
         const TodayPlanCard(),
         // Our own tools: always one tap away.
-        const SignatureTools(),
+        const TourTarget(id: 'home.tools', child: SignatureTools()),
         const StudyAbroadPromo(),
 
         // Getting started checklist

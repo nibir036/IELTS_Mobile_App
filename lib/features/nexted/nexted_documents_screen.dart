@@ -13,6 +13,7 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import 'widgets.dart';
+import '../../app/widgets/app_tour.dart';
 
 /// nexted.app · documents.
 ///
@@ -327,11 +328,14 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
       padding: EdgeInsets.fromLTRB(20, widget.embedded ? 16 : 12, 20, 24),
       // In the study-abroad shell the button sits above the bottom nav.
       footerPadding: EdgeInsets.fromLTRB(20, 8, 20, widget.embedded ? 104 : 16),
-      footer: PrimaryButton(
-        label: _busy ? 'Uploading…' : 'Upload a document',
-        leading: AppIcons.cloudUpload,
-        enabled: !_busy,
-        onTap: _addDocument,
+      footer: TourTarget(
+        id: 'documents.upload',
+        child: PrimaryButton(
+          label: _busy ? 'Uploading…' : 'Upload a document',
+          leading: AppIcons.cloudUpload,
+          enabled: !_busy,
+          onTap: _addDocument,
+        ),
       ),
       children: [
         TopBar(

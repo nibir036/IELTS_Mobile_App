@@ -9,6 +9,8 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import 'widgets.dart';
+import '../../app/widgets/app_tour.dart';
+import 'nexted_shell.dart';
 
 /// nexted.app · student profile.
 ///
@@ -180,10 +182,13 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
       padding: EdgeInsets.fromLTRB(20, widget.embedded ? 16 : 12, 20, 24),
       // In the study-abroad shell the button sits above the bottom nav.
       footerPadding: EdgeInsets.fromLTRB(20, 8, 20, widget.embedded ? 104 : 16),
-      footer: PrimaryButton(
-        label: _saving ? 'Saving…' : 'Save profile',
-        enabled: !_saving && !_loading,
-        onTap: _save,
+      footer: TourTarget(
+        id: 'abroad.profile.save',
+        child: PrimaryButton(
+          label: _saving ? 'Saving…' : 'Save profile',
+          enabled: !_saving && !_loading,
+          onTap: _save,
+        ),
       ),
       children: [
         TopBar(
@@ -293,6 +298,15 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
             Text(
               'Unsaved changes',
               style: TextStyle(fontSize: 12, color: t.textMuted),
+            ),
+          // In the study-abroad tabs: the first-time tour, again.
+          if (widget.embedded)
+            Center(
+              child: SoftButton(
+                label: 'Replay the app tour',
+                leading: AppIcons.compass,
+                onTap: () => NextedShell.of(context)?.replayTour(),
+              ),
             ),
         ],
       ],

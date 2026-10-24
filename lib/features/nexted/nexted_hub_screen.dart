@@ -14,6 +14,7 @@ import '../../app/widgets/mascot.dart';
 import '../../app/widgets/motion.dart';
 import '../../app/widgets/vivid.dart';
 import 'widgets.dart';
+import '../../app/widgets/app_tour.dart';
 
 /// nexted.app · module home.
 ///
@@ -119,7 +120,7 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
       padding: const EdgeInsets.fromLTRB(20, 12, 20, 112),
       children: [
         _header(context, t, first),
-        _hero(context, t, first, done, total, live, profileDone),
+        TourTarget(id: 'abroad.hero', child: _hero(context, t, first, done, total, live, profileDone)),
 
         if (!NextedConfig.hasApi) const NextedOfflineNotice(),
 
@@ -164,7 +165,9 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
             ),
           ],
         ),
-        _JourneyStep(
+        TourTarget(
+          id: 'abroad.match',
+          child: _JourneyStep(
           number: 2,
           title: 'Find where you fit',
           pose: NexiPose.point,
@@ -191,6 +194,7 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
               onTap: () => context.push(Routes.nextedScholarships),
             ),
           ],
+        ),
         ),
         _JourneyStep(
           number: 3,

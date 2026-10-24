@@ -21,6 +21,7 @@ import { aiHealth, nextedAiEnabled } from './lib/nexted_ai';
 import { registerNextedRoutes } from './routes/nexted';
 import { registerPlanRoutes } from './routes/plan';
 import { registerProgressRoutes } from './routes/progress';
+import { registerWebRoutes } from './routes/web';
 
 export function buildRouter(): Router {
   const r = new Router();
@@ -39,6 +40,8 @@ export function buildRouter(): Router {
   registerFileRoutes(r);
   registerBillingRoutes(r);
   registerNextedRoutes(r);
+  // Privacy, terms and account deletion as web pages (Google Play links).
+  registerWebRoutes(r);
   return r;
 }
 
