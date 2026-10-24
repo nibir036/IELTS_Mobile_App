@@ -61,7 +61,7 @@ class _LegalScreenState extends State<LegalScreen> {
       children: [
         TopBar(
           title: 'Legal',
-          subtitle: 'IELTS AI by nextED',
+          subtitle: 'nextED',
           onBack: () => context.back(),
         ),
         SegmentedTabs(
@@ -130,7 +130,7 @@ class _LegalScreenState extends State<LegalScreen> {
           ),
         ),
         Text(
-          'IELTS is a registered trademark of the British Council, IDP: IELTS Australia and Cambridge University Press & Assessment. IELTS AI by nextED is not affiliated with or endorsed by them.',
+          'IELTS is a registered trademark of the British Council, IDP: IELTS Australia and Cambridge University Press & Assessment. nextED is not affiliated with or endorsed by them.',
           textAlign: TextAlign.center,
           style: TextStyle(fontSize: 12, height: 1.45, color: t.textMuted),
         ),

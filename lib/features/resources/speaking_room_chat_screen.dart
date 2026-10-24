@@ -196,7 +196,7 @@ class _SpeakingRoomChatScreenState extends State<SpeakingRoomChatScreen> {
     if (!mounted) return;
     if (!ok) {
       context.toast(
-        'Microphone is blocked. Allow microphone access for IELTS AI in your '
+        'Microphone is blocked. Allow microphone access for nextED in your '
         'browser or phone settings to send voice notes.',
       );
       return;

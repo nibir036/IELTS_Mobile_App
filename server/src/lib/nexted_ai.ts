@@ -147,6 +147,8 @@ function counsellorBody(data: Json): Json {
     usage: data.usage,
     disclaimer: data.disclaimer ?? '',
     ...(data.office ? { office: data.office } : {}),
+    // Buttons under the reply (course_finder, scholarship_finder, ...).
+    ...(Array.isArray(data.actions) && data.actions.length ? { actions: data.actions } : {}),
   };
 }
 

@@ -638,7 +638,7 @@ Future<bool> showMicOffDialog(BuildContext context) async {
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
             ),
             Text(
-              'IELTS AI can\'t use your microphone. Turn it on in Settings to '
+              'nextED can\'t use your microphone. Turn it on in Settings to '
               'record and get your answer transcribed and scored.',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 14, height: 1.45, color: t.textMuted),

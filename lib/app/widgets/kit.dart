@@ -1981,13 +1981,20 @@ class AppTextField extends StatefulWidget {
 }
 
 class _AppTextFieldState extends State<AppTextField> {
-  late final TextEditingController _c =
-      widget.controller ?? TextEditingController(text: widget.initialValue);
+  // Only set when the caller passes no controller; disposed here.
+  TextEditingController? _own;
   bool _obscure = true;
+
+  // Always the caller's current controller. Caching the first one broke
+  // screens whose fields shift position (a note appearing above a field):
+  // Flutter reused this state for a different field, and two fields ended
+  // up typing into the same controller.
+  TextEditingController get _c =>
+      widget.controller ?? (_own ??= TextEditingController(text: widget.initialValue));
 
   @override
   void dispose() {
-    if (widget.controller == null) _c.dispose();
+    _own?.dispose();
     super.dispose();
   }
 
@@ -2282,7 +2289,7 @@ class BrandMark extends StatelessWidget {
         borderRadius: BorderRadius.circular(size * 0.35),
       ),
       child: Text(
-        'IA',
+        'ED',
         style: TextStyle(
           fontSize: size * 0.42,
           fontWeight: FontWeight.w600,
@@ -2294,7 +2301,7 @@ class BrandMark extends StatelessWidget {
   }
 }
 
-/// Logo tile + "IELTS AI" + "by nextED".
+/// Logo tile + "nextED" + "IELTS · Study abroad".
 class BrandWordmark extends StatelessWidget {
   const BrandWordmark({super.key, this.size = 40, this.showTagline = true});
 
@@ -2314,7 +2321,7 @@ class BrandWordmark extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              'IELTS AI',
+              'nextED',
               style: TextStyle(
                 fontSize: size * 0.48,
                 fontWeight: FontWeight.w600,
@@ -2324,7 +2331,7 @@ class BrandWordmark extends StatelessWidget {
             ),
             if (showTagline)
               Text(
-                'by nextED',
+                'IELTS · Study abroad',
                 style: TextStyle(
                   fontSize: size * 0.3,
                   height: 1.1,

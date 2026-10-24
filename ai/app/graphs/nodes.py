@@ -519,10 +519,11 @@ async def research(state: dict) -> dict:
                 continue
 
             new_id = uuid.uuid4().hex[:12]
+            where = country_of_page(page.url, country)
             row = (
-                to_course(extraction, new_id, country)
+                to_course(extraction, new_id, where)
                 if kind == "course"
-                else to_scholarship(extraction, new_id, country)
+                else to_scholarship(extraction, new_id, where)
             )
             if row is None:
                 # The last silent exit in this loop, and the one that hid
@@ -576,6 +577,41 @@ async def research(state: dict) -> dict:
             "trail": trail,
         },
     }
+
+
+# The country a page belongs to, from its web address. A student who wants
+# "UK, Denmark, Ireland, Finland, Germany" must not see that whole list as
+# the country of a Frankfurt programme.
+_TLD_COUNTRY = {
+    "uk": "UK", "de": "Germany", "dk": "Denmark", "ie": "Ireland", "fi": "Finland",
+    "nl": "Netherlands", "se": "Sweden", "no": "Norway", "fr": "France", "it": "Italy",
+    "es": "Spain", "pt": "Portugal", "be": "Belgium", "at": "Austria", "ch": "Switzerland",
+    "pl": "Poland", "hu": "Hungary", "cz": "Czech Republic", "lt": "Lithuania",
+    "lv": "Latvia", "ee": "Estonia", "cy": "Cyprus", "mt": "Malta", "gr": "Greece",
+    "ca": "Canada", "au": "Australia", "nz": "New Zealand", "us": "USA", "edu": "USA",
+    "my": "Malaysia", "sg": "Singapore", "jp": "Japan", "kr": "South Korea",
+    "cn": "China", "hk": "Hong Kong", "ae": "UAE", "tr": "Turkey",
+}
+
+
+def country_of_page(url: str, wanted: str) -> str:
+    """One country for a found course or award.
+
+    The country the page's address belongs to (frankfurt-school.de ->
+    Germany, ucl.ac.uk -> UK); for a .com/.org page, the student's own
+    choice when it names exactly one; otherwise left blank, never the
+    student's whole list.
+    """
+    from urllib.parse import urlparse
+
+    from app.kb.retrieve import countries_of
+
+    host = (urlparse(url or "").hostname or "").lower().rstrip(".")
+    tld = host.rsplit(".", 1)[-1] if "." in host else ""
+    if tld in _TLD_COUNTRY:
+        return _TLD_COUNTRY[tld]
+    named = countries_of(wanted or "", True)
+    return named[0] if len(named) == 1 else ""
 
 
 _NOT_COURSE = ("/blog", "blogs.", "/news", "/stories", "/story/", "/student-life", "/events",
@@ -833,4 +869,4 @@ async def phrase(state: dict) -> dict:
     except Exception as exc:  # noqa: BLE001
         log.info("phrasing failed (%s); using the raw facts", type(exc).__name__)
 
-    return {"phrased": phrased}
+    return {"phrased": phrased}

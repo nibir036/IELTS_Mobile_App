@@ -6,6 +6,7 @@ import '../../app/routes.dart';
 import '../../app/services/api_client.dart';
 import '../../app/services/nexted_api.dart';
 import '../../app/theme/tokens.dart';
+import '../../app/widgets/cross_nudge.dart';
 import '../../app/widgets/kit.dart';
 
 /// Direct Apply (25.4).
@@ -95,6 +96,8 @@ Future<bool> nextedApply(
           ),
         ),
       );
+    // Application sent: the band they will need, practised on the IELTS side.
+    CrossNudge.toIelts(context, delay: const Duration(milliseconds: 1500));
     return true;
   } on ApiException catch (e) {
     if (context.mounted) context.toast(e.message);

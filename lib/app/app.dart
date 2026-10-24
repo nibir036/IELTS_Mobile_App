@@ -27,8 +27,9 @@ import 'services/sync_service.dart';
 import 'theme/app_theme.dart';
 import 'theme/readable_text.dart';
 import 'theme/theme_controller.dart';
+import 'widgets/cross_nudge.dart';
 
-/// Root widget: IELTS AI by nextED.
+/// Root widget: nextED (IELTS AI + Study abroad).
 class IeltsAiApp extends StatefulWidget {
   const IeltsAiApp({
     super.key,
@@ -57,6 +58,7 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
 
   /// Screens reachable without signing in.
   static const _public = <String>{
+    Routes.launch,
     Routes.splash,
     Routes.login,
     Routes.signup,
@@ -154,7 +156,9 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
         valueListenable: _theme,
         builder: (context, mode, _) => MaterialApp(
           navigatorKey: appNavigatorKey,
-          title: 'IELTS AI by nextED',
+          // IELTS results offer Study abroad (widgets/cross_nudge.dart).
+          navigatorObservers: <NavigatorObserver>[CrossNudge.observer],
+          title: 'nextED',
           debugShowCheckedModeBanner: false,
           // Small text a little larger on phones (see ReadableTextScaler).
           // Needs the internet: a "turn on mobile data" screen covers the app while offline,
@@ -166,8 +170,9 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
           theme: AppTheme.day,
           darkTheme: AppTheme.night,
           themeMode: mode,
-          initialRoute: widget.initialRoute ??
-              (Store.I.isLoggedIn ? Routes.chooser : Routes.splash),
+          // The nextED launch splash first; it moves on to the start screen
+          // (signed in) or the welcome screen (signed out).
+          initialRoute: widget.initialRoute ?? Routes.launch,
           onGenerateRoute: _onGenerateRoute,
           // Only the one start screen (not '/' underneath '/home').
           onGenerateInitialRoutes: (initial) => <Route<dynamic>>[

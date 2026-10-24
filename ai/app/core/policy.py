@@ -31,8 +31,10 @@ DOCUMENT_GUIDANCE = (
     "degree level and by which stage you are at - and admission documents, "
     "scholarship documents and visa documents are three different sets. "
     "Please treat this as a general idea rather than a checklist.\n\n"
-    "For the real list for your university and stage, our counsellors put it "
-    "together with you directly. Would you like me to arrange a consultation?"
+    "Getting this exactly right is what our counsellors at nextED do every "
+    "day: they put together the real list for your university and your stage, "
+    "and check every document with you before it goes in. Come to nextED and "
+    "we will build your file together."
 )
 
 
@@ -156,9 +158,10 @@ def classify_intent(message: str) -> Intent:
 _INVITATION = {
     Intent.admission_chance: (
         "I can tell you what a programme asks for, but a realistic read on "
-        "your chances needs someone looking at your actual transcript. One of "
-        "our counsellors can do that with you - would you like me to arrange "
-        "a consultation?"
+        "your chances needs someone looking at your actual transcript. That is "
+        "exactly what our counsellors at nextED do: they go through your "
+        "results with you and tell you where you stand and where to apply. "
+        "Come to nextED and we will plan your applications together."
     ),
 }
 

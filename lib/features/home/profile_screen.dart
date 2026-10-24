@@ -383,20 +383,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   : 'Start again from a blank account',
               onTap: _confirmReset,
             ),
-            // Repeated here, right above Log out: this is the end of the
-            // settings list, where someone scrolls when they are done with
-            // one half of the app and want the other.
-            AnimatedBuilder(
-              animation: NextedAccess.I,
-              builder: (context, _) => NextedAccess.I.enabled
-                  ? _SettingRow(
-                      icon: Icons.flight_takeoff_rounded,
-                      title: 'Study abroad',
-                      subtitle: 'Courses, scholarships and your applications',
-                      onTap: () => context.resetTo(Routes.nexted),
-                    )
-                  : const SizedBox.shrink(),
-            ),
             _SettingRow(
               icon: AppIcons.logout,
               title: 'Log out',

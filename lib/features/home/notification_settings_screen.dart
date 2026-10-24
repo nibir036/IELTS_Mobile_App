@@ -49,7 +49,7 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
     await NotificationService.I.requestPermission();
     await _check();
     if (mounted && _system == false) {
-      context.toast('Turn on notifications for IELTS AI in your phone settings');
+      context.toast('Turn on notifications for nextED in your phone settings');
     }
   }
 
@@ -120,7 +120,7 @@ class _NotificationSettingsScreenState extends State<NotificationSettingsScreen>
                 Icon(AppIcons.bell, color: t.text),
                 Expanded(
                   child: Text(
-                    'Notifications are turned off for IELTS AI on this phone.',
+                    'Notifications are turned off for nextED on this phone.',
                     style: TextStyle(fontSize: 14, color: t.text),
                   ),
                 ),

@@ -624,7 +624,7 @@ class Store extends ChangeNotifier {
     _data[acc.id]!.notifications.insert(0, <String, dynamic>{
       'id': newId('ntf'),
       'type': 'system',
-      'title': 'Welcome to IELTS AI, ${acc.firstName}',
+      'title': 'Welcome to nextED, ${acc.firstName}',
       'body': 'Set your target band and build your study plan to get started.',
       'createdAt': DateTime.now().toIso8601String(),
       'read': false,

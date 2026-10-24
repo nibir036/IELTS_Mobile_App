@@ -32,7 +32,7 @@ class _DevicesScreenState extends State<DevicesScreen> {
 
   Future<void> _load() async {
     if (!AppConfig.hasApi) {
-      setState(() => _error = 'Devices are managed by the IELTS AI server. This build runs offline.');
+      setState(() => _error = 'Devices are managed by the nextED server. This build runs offline.');
       return;
     }
     try {

@@ -16,6 +16,7 @@ import {
   consumeAi,
   contactResponse,
   feeResponse,
+  finishAnswer,
   fixedIntent,
   OFFICE,
   eligibility,
@@ -35,6 +36,7 @@ import {
 } from '../lib/nexted_ai';
 import { appKey, contentTypeFor, deleteObjects, isAllowedExt, putObject, signedUrl } from '../lib/r2';
 import { requireUser } from '../lib/users';
+import { archiveOnce } from '../lib/archive';
 
 const MAX_DOC_BYTES = 15 * 1024 * 1024;
 
@@ -173,6 +175,11 @@ const REQUIRED_FOR_AI: ReadonlyArray<readonly [keyof ProfileRow, string]> = [
   ['subject', 'Subject you want to study'],
   ['preferredCountry', 'Preferred country'],
 ];
+
+/** True when every field the AI features need is filled in. */
+function profileComplete(p: ProfileRow): boolean {
+  return REQUIRED_FOR_AI.every(([key]) => String(p[key] ?? '').trim());
+}
 
 function requireCompleteProfile(p: ProfileRow): void {
   const missing = REQUIRED_FOR_AI.filter(([key]) => !String(p[key] ?? '').trim()).map(([, label]) => label);
@@ -318,6 +325,9 @@ export function registerNextedRoutes(r: Router): void {
   // change the same account), the phone is the login number.
   r.get('/v1/nexted/profile', async (ctx) => {
     const userId = requireUser(ctx);
+    // The study-abroad profile is complete for the first time: a copy of the
+    // student's data goes to the archive, once (lib/archive.ts).
+    if (profileComplete(await loadProfile(userId))) archiveOnce(userId, 'nexted_profile_complete');
     return { ...(await loadProfileFull(userId)), accountFields: ['fullName', 'phone'] };
   });
 
@@ -578,6 +588,7 @@ export function registerNextedRoutes(r: Router): void {
     const meta: Record<string, unknown> = {};
     if (answer?.office && typeof answer.office === 'object') meta.office = answer.office;
     if (Array.isArray(answer?.restricted) && answer.restricted.length) meta.restricted = answer.restricted;
+    if (Array.isArray(answer?.actions) && answer.actions.length) meta.actions = answer.actions;
     const now = Date.now();
     await prisma.nextedChatMessage
       .createMany({
@@ -629,7 +640,7 @@ export function registerNextedRoutes(r: Router): void {
     const profile = await loadProfile(userId);
 
     const remote = await viaAiService(() => aiCounsellor(userId, profile, message, history));
-    const answer = remote ?? (await builtinCounsellor(userId, profile, message, history));
+    const answer = finishAnswer((remote ?? (await builtinCounsellor(userId, profile, message, history))) as Record<string, unknown>);
     await saveExchange(userId, message, answer as Record<string, unknown>);
     return answer;
   });
@@ -672,12 +683,13 @@ export function registerNextedRoutes(r: Router): void {
         aiCounsellorStream(userId, profile, message, history, (t) => send('token', { t }), gone.signal),
       );
       if (body) {
-        await saveExchange(userId, message, body as Record<string, unknown>);
-        send('done', body);
+        const done = finishAnswer(body as Record<string, unknown>);
+        await saveExchange(userId, message, done);
+        send('done', done);
       } else {
         // Service off or not running: the built-in answer, typed out in
         // small pieces so the app behaves the same.
-        const answer = await builtinCounsellor(userId, profile, message, history);
+        const answer = finishAnswer(await builtinCounsellor(userId, profile, message, history));
         const words = String(answer.reply ?? '').split(/(?<= )/);
         for (let i = 0; i < words.length; i += 3) {
           if (gone.signal.aborted) break;
@@ -731,7 +743,10 @@ export function registerNextedRoutes(r: Router): void {
       system:
         'You are a NextED study-abroad counsellor talking to a student from Bangladesh in the NextED app. ' +
         'Be concrete and honest; never invent university names, fees, deadlines or visa rules you are not sure of - ' +
-        'say the counsellor will confirm instead. Formatting contract: use "#" and "##" headings, short paragraphs ' +
+        'say a NextED counsellor will work it out with them instead. When you point the student to NextED, make it ' +
+        'the clear next step, never an option: not "if you need help, a counsellor can confirm the details" or ' +
+        '"feel free to request a counsellor", but "this is exactly what our counsellors at NextED do - come to NextED ' +
+        'and we will <the specific work> with you". Formatting contract: use "#" and "##" headings, short paragraphs ' +
         'and plain "- " bullets. Never use emoji, numbered emoji lists or long walls of text. Keep it under 200 words.',
       user: `The student's profile:\n${profileSummary(profile)}${restrictionBlock(
         rules,

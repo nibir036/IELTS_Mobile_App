@@ -663,7 +663,7 @@ class _CertificateSheetState extends State<_CertificateSheet> {
       _cardKey,
       fileName: 'ielts-ai-certificate-${slug.isEmpty ? certId : slug}',
       caption: caption,
-      subject: 'IELTS AI certificate · ${status.title}',
+      subject: 'nextED certificate · ${status.title}',
       background: context.tk.bg,
     );
     if (mounted) setState(() => _sharing = false);
@@ -677,7 +677,7 @@ class _CertificateSheetState extends State<_CertificateSheet> {
     final date = status.earnedAt == null ? '' : _longDate(status.earnedAt!);
     final certId = certificateId(acc?.id ?? 'guest', status);
     final shareText = <String>[
-      'Certificate of achievement - IELTS AI by nextED',
+      'Certificate of achievement - nextED',
       '$name earned "${status.title}".',
       status.description,
       if (status.detail.isNotEmpty) status.detail,
@@ -713,7 +713,7 @@ class _CertificateSheetState extends State<_CertificateSheet> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: const Text(
-                        'IA',
+                        'ED',
                         style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.w600,
@@ -728,7 +728,7 @@ class _CertificateSheetState extends State<_CertificateSheet> {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Text(
-                            'IELTS AI',
+                            'nextED',
                             style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w600,
@@ -736,7 +736,7 @@ class _CertificateSheetState extends State<_CertificateSheet> {
                             ),
                           ),
                           Text(
-                            'by nextED',
+                            'IELTS AI',
                             style: TextStyle(fontSize: 12, color: t.heroMuted),
                           ),
                         ],
@@ -815,7 +815,7 @@ class _CertificateSheetState extends State<_CertificateSheet> {
           ),
           ),
           Text(
-            'A practice milestone from IELTS AI by nextED - not an official IELTS result.',
+            'A practice milestone from nextED - not an official IELTS result.',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 12, color: t.textMuted),
           ),

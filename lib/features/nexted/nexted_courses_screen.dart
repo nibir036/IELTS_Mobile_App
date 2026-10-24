@@ -7,6 +7,7 @@ import '../../app/services/api_client.dart';
 import '../../app/services/nexted_api.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
+import '../../app/widgets/cross_nudge.dart';
 import '../../app/widgets/kit.dart';
 import 'nexted_apply.dart';
 import 'widgets.dart';
@@ -91,6 +92,8 @@ class _NextedCoursesScreenState extends State<NextedCoursesScreen> {
         _busy = false;
         _searched = true;
       });
+      // Matches are in: a nudge to raise the IELTS band they ask for.
+      CrossNudge.toIelts(context);
     } on ApiException catch (e) {
       if (!mounted) return;
       final missing = NextedProfileRules.fromError(e);

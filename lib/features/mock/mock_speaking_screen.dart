@@ -192,7 +192,7 @@ class _MockSpeakingScreenState extends State<MockSpeakingScreen> {
               ),
               Text(
                 'We couldn’t start the microphone. Allow microphone access for '
-                'IELTS AI in your device Settings, then try again - or continue '
+                'nextED in your device Settings, then try again - or continue '
                 'without recording and your answers will be timed only.',
                 style: TextStyle(fontSize: 14, height: 1.45, color: t.textMuted),
               ),

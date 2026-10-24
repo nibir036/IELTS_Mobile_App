@@ -1196,3 +1196,47 @@ model NextedScholarship {
   @@index([country])
   @@map("nexted_scholarships")
 }
+
+/// A copy of a student's data written to R2 as JSON
+/// (archive/users/<user id>/<time>-<reason>.json). Not linked to the user
+/// row on purpose: it is the record that outlives an account deletion.
+model DataArchive {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  /// ielts_profile_complete | nexted_profile_complete | account_deleted
+  reason    String
+  r2Key     String   @map("r2_key")
+  bytes     Int      @default(0)
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  @@index([userId, reason])
+  @@map("data_archives")
+}
+
+/// One practice answer kept for model training after its student deleted
+/// their account. Nothing links it back to them: no user id, names and
+/// phone numbers are scrubbed from its data, and its audio is copied to
+/// training/speaking/<sample id>/ under a new name.
+model TrainingSample {
+  id          String    @id @default(cuid())
+  /// listening | reading | writing | speaking | mock | vocab
+  skill       String
+  kind        String
+  title       String?
+  /// The content item answered (passage, prompt, card ...).
+  refId       String?   @map("ref_id")
+  band        Float?
+  score       Int?
+  total       Int?
+  durationSec Int?      @map("duration_sec")
+  /// The answer and its scoring, scrubbed.
+  data        Json?
+  /// [{key, format, durationMs}] - the spoken answers, if any.
+  audio       Json?
+  /// Month of the original attempt (the day and time are dropped).
+  attemptedIn DateTime? @map("attempted_in") @db.Date
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  @@index([skill, kind])
+  @@map("training_samples")
+}

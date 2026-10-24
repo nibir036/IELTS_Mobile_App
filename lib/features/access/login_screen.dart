@@ -10,6 +10,7 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
+import '../../app/widgets/nexted_brand.dart';
 import '../home/language_sheet.dart';
 import 'legal_screen.dart';
 import 'widgets.dart';
@@ -147,20 +148,8 @@ class _LoginScreenState extends State<LoginScreen> {
       children: [
         Row(
           children: [
-            const BrandMark(size: 36),
-            const SizedBox(width: 8),
-            const Expanded(
-              child: Text(
-                'IELTS AI',
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
-                  letterSpacing: -0.3,
-                ),
-              ),
-            ),
+            const NextedWordmark(size: 26),
+            const Spacer(),
             Material(
               color: t.surface,
               shape: const StadiumBorder(),
@@ -301,7 +290,7 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             Expanded(child: Container(height: 1, color: lineColor)),
             Text(
-              'New to IELTS AI?',
+              'New to nextED?',
               style: TextStyle(fontSize: 13, color: t.textMuted),
             ),
             Expanded(child: Container(height: 1, color: lineColor)),

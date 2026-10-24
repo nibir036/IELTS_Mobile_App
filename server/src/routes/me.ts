@@ -7,7 +7,7 @@ import { hashPassword, verifyPassword } from '../lib/password';
 import { isStrongPassword } from '../lib/phone';
 import { entitlements } from '../lib/entitlements';
 import { assertPasswordChangeAllowed, publicUser, requireUser, userSelect } from '../lib/users';
-import { deleteObjects } from '../lib/r2';
+import { archiveOnce, eraseUser } from '../lib/archive';
 import { listDevices, removeDeviceByUser } from '../lib/devices';
 
 /** Profile keys the app may not set itself (billing / server-owned). */
@@ -43,6 +43,9 @@ export function registerMeRoutes(r: Router): void {
       data.profile = profile as Prisma.InputJsonValue;
     }
     const updated = await prisma.user.update({ where: { id: userId }, data, select: userSelect });
+    // Onboarding just finished: a copy of the student's data goes to the
+    // archive, once (lib/archive.ts).
+    if (patch.onboarded === true) archiveOnce(userId, 'ielts_profile_complete');
     return { user: publicUser(updated) };
   });
 
@@ -85,7 +88,8 @@ export function registerMeRoutes(r: Router): void {
     return listDevices(userId, current);
   });
 
-  // Permanently deletes the account and everything that belongs to it.
+  // Deletes the account. First its data is archived to R2 and its practice
+  // answers are kept, unlinked, for model training (lib/archive.ts).
   r.delete('/v1/me', async (ctx) => {
     const userId = requireUser(ctx);
     const password = required(ctx.body, 'password', 200);
@@ -95,9 +99,7 @@ export function registerMeRoutes(r: Router): void {
     if (!verifyPassword(password, user.passwordHash)) {
       throw new HttpError(400, 'Wrong password.', 'wrong_password');
     }
-    const recordings = await prisma.recording.findMany({ where: { userId }, select: { r2Key: true } });
-    await prisma.user.delete({ where: { id: userId } }); // cascades to all user rows
-    await deleteObjects(recordings.map((x) => x.r2Key)).catch((e) => console.error('[me] R2 cleanup failed', e));
+    await eraseUser(userId);
     return { deleted: true };
   });
 }

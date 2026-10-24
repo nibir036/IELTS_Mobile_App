@@ -32,6 +32,7 @@ from app.core.restrictions import (
     universities_in,
 )
 import json
+import re
 
 from app.graphs import counsellor_tools as tools
 from app.graphs import nodes
@@ -85,6 +86,15 @@ scholarship guidance, visa preparation, and IELTS preparation in this app.
 deadlines, ready to apply, asking about chances, documents or visas), invite \
 them in words to talk to a nextED counsellor. Invite at most once every few \
 messages - never in every reply. Contact details follow OFFICE AND CONTACT below.
+- When you point them to nextED, make it the clear next step, never an option. \
+Not "If you need help with X, a counsellor can confirm the details", "Feel free \
+to request a counsellor" or "you can contact nextED if you like", but: \
+"This is exactly what our counsellors at nextED do - they will <the specific \
+work: shortlist supervisors, check which universities are open to you, build \
+your application, prepare your visa>. Come to nextED and we will <concrete \
+outcome> with you." Name the specific work nextED will do for THIS student, \
+speak as nextED ("we", "our counsellors"), and make coming to nextED sound \
+like the obvious way to get it done.
 - Honest urgency only: intakes and deadlines are real, made-up pressure is not.
 - Keep the conversation moving: end every reply with one easy next step or a \
 question that brings them closer to applying (with nextED).
@@ -105,6 +115,10 @@ universities' own pages, ranked for their profile) and the Scholarship finder \
 (awards with an eligibility verdict for them). Mention them when relevant and \
 call show_buttons so they can open them in one tap: course_finder, \
 scholarship_finder, complete_profile.
+- The app draws the buttons itself. Never write a "Buttons:" list, button \
+names or ids like course_finder in your reply - call show_buttons instead.
+- Tools are called, never written. Never put a tool call, code, JSON or \
+backticks in your reply text.
 - If their profile is incomplete, offer complete_profile too (those two \
 features unlock when it is complete) - or collect the details right here in chat.
 
@@ -166,6 +180,7 @@ saying the service is free (the office answers that, never you)
 STYLE
 Reply in the student's language (English, Bangla or a mix, as they write). \
 Friendly and confident. Short paragraphs, "- " bullets when listing, no emoji, \
+plain text only (no **bold**, no *italics*, no tables, no "---" lines), \
 usually under 150 words. Use the student's first name now and then if known. \
 End with one clear next step or question."""
 
@@ -314,13 +329,16 @@ async def compose(state: dict) -> dict:
         # to the app as it arrives (LangGraph custom stream).
         pieces: list[str] = []
         try:
-            async for piece in llm.stream_text(SYSTEM, "\n".join(parts), label="counsellor"):
+            # After the main model failed (usually its rate limit), the plain
+            # reply uses the small model, which has its own limit.
+            fast = bool(state.get("agent_failed"))
+            async for piece in llm.stream_text(SYSTEM, "\n".join(parts), fast=fast, label="counsellor"):
                 pieces.append(piece)
                 await write(piece)
         except Exception as exc:  # noqa: BLE001
             # Same as the non-streaming path: a provider failure becomes the
             # polite fallback below, not an error after the credit was spent.
-            log.info("counsellor stream failed: %s", type(exc).__name__)
+            log.warning("counsellor stream failed: %s: %s", type(exc).__name__, str(exc)[:300])
         reply = "".join(pieces).strip()
         if not reply:
             reply = (
@@ -420,7 +438,8 @@ async def agent(state: dict) -> dict:
             elif event["type"] == "tool_calls":
                 calls = [c for c in event["calls"] if c.get("name") in tools.TOOL_NAMES]
     except Exception as exc:  # noqa: BLE001
-        log.info("counsellor agent failed (%s); writing a plain reply", type(exc).__name__)
+        log.warning("counsellor agent failed (%s: %s); writing a plain reply",
+                    type(exc).__name__, str(exc)[:300])
         if not text_parts and not state.get("reply"):
             state["agent_failed"] = True
             out = await compose({**state, "agent_failed": True})
@@ -503,7 +522,9 @@ async def enforce(state: dict) -> dict:
     # The agent invites people itself (and shows the office card through its
     # tool); the canned invitation is only for the plain-reply path.
     invitation = "" if state.get("used_tools") or _can_use_tools(state) and state.get("used_model") else invitation_for(state.get("intent"))
-    reply = state.get("reply", "")
+    # A model that typed the buttons out ("Buttons: course_finder") instead
+    # of calling the tool: take that text out; the real buttons follow below.
+    reply = _strip_button_text(state.get("reply", ""))
     if invitation:
         reply = f"{reply}\n\n{invitation}"
         write = token_writer(state)
@@ -519,10 +540,126 @@ async def enforce(state: dict) -> dict:
     }
 
 
+# When a student wants courses or scholarships, the matching finder button is
+# added in code - it does not depend on the model remembering show_buttons
+# (or on the model supporting tools at all).
+_WANTS_COURSES = re.compile(
+    r"\b(courses?|programs?|programmes?|degrees?|universit(y|ies)|colleges?|masters?|msc|m\.sc|"
+    r"bachelors?|bsc|b\.sc|undergrad\w*|postgrad\w*|phd|doctorate|mba|diploma|foundation|"
+    r"admission|apply|study in|study abroad|where (can|should) i study|which (country|subject))\b"
+    r"|কোর্স|বিশ্ববিদ্যালয়|ইউনিভার্সিটি|প্রোগ্রাম|ভর্তি|মাস্টার্স|পিএইচডি",
+    re.IGNORECASE,
+)
+_WANTS_SCHOLARSHIPS = re.compile(
+    r"\b(scholarships?|funding|funded|fully[- ]funded|bursar(y|ies)|grants?|stipends?|"
+    r"tuition waiver|waivers?|financial aid|chevening|commonwealth|daad|erasmus|fulbright)\b"
+    r"|স্কলারশিপ|বৃত্তি|ফান্ডিং|ওয়েভার",
+    re.IGNORECASE,
+)
+_MENTIONS_COURSE_FINDER = re.compile(r"course (matching|finder)", re.IGNORECASE)
+_MENTIONS_SCHOLARSHIP_FINDER = re.compile(r"scholarship (finder|search)", re.IGNORECASE)
+
+_BUTTON_IDS = "course_finder|scholarship_finder|complete_profile|call_office|office_location"
+_READABLE = {
+    "course_finder": "Course matching",
+    "scholarship_finder": "the Scholarship finder",
+    "complete_profile": "your profile",
+    "call_office": "a call to our office",
+    "office_location": "the directions",
+}
+
+
+_TOOL_NAMES_RE = (
+    r"show_buttons|get_office_contact|save_profile_details|find_courses|"
+    r"find_scholarships|best_opportunities|get_student_profile"
+)
+
+
+def _buttons_written_as_text(reply: str) -> list[str]:
+    """Button ids a model typed into its reply instead of calling the tool
+    ('show_buttons({"buttons": ["scholarship_finder"]})'). Still honoured."""
+    found = []
+    for m in re.finditer(rf"\b({_BUTTON_IDS})\b", reply or ""):
+        if m.group(1) not in found:
+            found.append(m.group(1))
+    return found
+
+
+def _strip_button_text(reply: str) -> str:
+    """Make the reply plain text the chat bubble shows well.
+
+    Removes what a model sometimes writes instead of using its tools -
+    pseudo tool calls, code fences, JSON, "Buttons: course_finder" lists -
+    and the markdown the app does not render (**bold**, *italic*, ---).
+    Headings ("# ...", "## ...") and "- " bullets are kept: the app shows them.
+    """
+    if not reply:
+        return reply
+    text = reply.replace("\r\n", "\n")
+    # Code blocks: the counsellor never needs code, and every one seen so far
+    # was a tool call written out by mistake.
+    text = re.sub(r"```.*?(```|$)", "", text, flags=re.DOTALL)
+    text = re.sub(r"`([^`\n]*)`", r"\1", text)
+
+    lines = []
+    for line in text.split("\n"):
+        raw = line.strip()
+        bare = raw.strip("-*•[]()` ").lower()
+        # a written-out tool call, or the JSON of one
+        if re.match(rf"^({_TOOL_NAMES_RE})\s*\(", raw) or re.search(rf"\b({_TOOL_NAMES_RE})\s*\(", raw):
+            continue
+        if re.fullmatch(r"\{.*\}", raw) and ('"buttons"' in raw or '"type"' in raw):
+            continue
+        # a line that is only button ids, or "Buttons: ..."
+        if bare and re.fullmatch(rf"(buttons?\s*:?\s*)?((\s|,|and)*({_BUTTON_IDS}))*\s*", bare):
+            continue
+        if re.match(r"^\s*[-*]?\s*\**buttons?\**\s*:", line, re.IGNORECASE):
+            continue
+        # horizontal rules
+        if re.fullmatch(r"[-*_=]{3,}", raw):
+            continue
+        # "... Buttons: course_finder, scholarship_finder" at the end of a line
+        line = re.sub(rf"\s*\**buttons?\**\s*:\s*({_BUTTON_IDS})((\s*(,|and)\s*)({_BUTTON_IDS}))*\.?",
+                      "", line, flags=re.IGNORECASE)
+        line = re.sub(rf"\b({_BUTTON_IDS})\b", lambda m: _READABLE[m.group(1)], line)
+        # **bold**, __bold__, *italic* -> plain words (the bubble shows the stars)
+        line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
+        line = re.sub(r"__(.+?)__", r"\1", line)
+        line = re.sub(r"(?<![\w*])\*(?!\s)([^*\n]+?)(?<!\s)\*(?![\w*])", r"\1", line)
+        line = line.replace("**", "")
+        lines.append(line.rstrip())
+    text = "\n".join(lines)
+    text = re.sub(r"\(\s*\)|\[\s*\]", "", text)
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
 def _final_actions(state: dict, restricted: bool) -> list[dict]:
-    """Buttons under the reply. A contact request always gets Call and
-    Directions, even if the model forgot to ask for them."""
+    """Buttons under the reply.
+
+    - Call and Directions whenever contact details are shown.
+    - Course matching / Scholarship finder whenever the student asks about
+      courses or scholarships (or the reply mentions the feature), so they
+      can act in one tap - even if the model forgot to add them.
+    - Complete my profile next to a finder while the profile is incomplete,
+      because the finders open only for a complete profile.
+    """
     actions = list(state.get("actions") or [])
+    # Buttons the model wrote out as text instead of calling the tool.
+    wanted: list[str] = [b for b in _buttons_written_as_text(state.get("reply", ""))
+                         if b in ("course_finder", "scholarship_finder", "complete_profile")]
+    if state.get("intent") not in (Intent.fee_question, Intent.document_checklist):
+        message = state.get("message", "") or ""
+        reply = state.get("reply", "") or ""
+        if _WANTS_COURSES.search(message) or _MENTIONS_COURSE_FINDER.search(reply):
+            wanted.append("course_finder")
+        if _WANTS_SCHOLARSHIPS.search(message) or _MENTIONS_SCHOLARSHIP_FINDER.search(reply):
+            wanted.append("scholarship_finder")
+    have = {a.get("type") for a in actions}
+    if (wanted or have & {"course_finder", "scholarship_finder"}) and state.get("profile") is not None:
+        if tools.missing_fields(state["profile"], state.get("profile_updates") or {}):
+            wanted.append("complete_profile")
+    if wanted:
+        actions = tools.add_actions({"actions": actions}, *wanted)
     if state.get("intent") is Intent.contact_request or restricted or state.get("show_contact"):
         actions = tools.add_actions({"actions": actions}, "call_office", "office_location")
     return actions

@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../app/data/demo.dart';
 import '../../app/nav.dart';
+import '../../app/routes.dart';
 import '../../app/services/api_client.dart';
 import '../../app/services/nexted_api.dart';
 import '../../app/theme/tokens.dart';
@@ -75,6 +76,7 @@ class _NextedCounsellorScreenState extends State<NextedCounsellorScreen> {
               fromStudent: m.s('role') == 'student',
               text: m.s('content'),
               office: m.m('meta').m('office'),
+              actions: m.m('meta').l('actions'),
             ),
       ];
       setState(() {
@@ -252,7 +254,9 @@ class _NextedCounsellorScreenState extends State<NextedCounsellorScreen> {
           ..typing = false
           // Fees, documents and anything the office must answer come with
           // the office's contact details.
-          ..office = r.m('office');
+          ..office = r.m('office')
+          // Buttons the answer offers: Course matching, Scholarship finder...
+          ..actions = r.l('actions');
         if (live == null) _messages.add(done);
         if (r.s('disclaimer').isNotEmpty) _disclaimer = r.s('disclaimer');
         _sending = false;
@@ -372,6 +376,7 @@ class _NextedCounsellorScreenState extends State<NextedCounsellorScreen> {
 
         for (final m in _messages) ...[
           _Bubble(message: m),
+          if (m.actions.isNotEmpty) _ActionButtons(actions: m.actions),
           if (m.office.isNotEmpty) _OfficeCard(office: m.office),
         ],
 
@@ -416,6 +421,7 @@ class _Msg {
     this.failed = false,
     this.typing = false,
     this.office = const <String, dynamic>{},
+    this.actions = const <Map<String, dynamic>>[],
   });
 
   final bool fromStudent;
@@ -428,6 +434,85 @@ class _Msg {
   /// The office's contact details ({name, address, phoneDisplay, telLink,
   /// mapsUrl}) when the answer is "talk to us".
   Map<String, dynamic> office;
+
+  /// Buttons under the answer ({type, label}): course_finder,
+  /// scholarship_finder, complete_profile. Call and Directions live on the
+  /// office card instead.
+  List<Map<String, dynamic>> actions;
+}
+
+/// Tappable buttons under an answer that open the screen it talks about.
+class _ActionButtons extends StatelessWidget {
+  const _ActionButtons({required this.actions});
+
+  final List<Map<String, dynamic>> actions;
+
+  static const Map<String, (String, IconData)> _screens = <String, (String, IconData)>{
+    'course_finder': (Routes.nextedCourses, AppIcons.school),
+    'scholarship_finder': (Routes.nextedScholarships, AppIcons.medal),
+    'complete_profile': (Routes.nextedProfile, AppIcons.person),
+  };
+
+  static const Map<String, String> _labels = <String, String>{
+    'course_finder': 'Course matching',
+    'scholarship_finder': 'Scholarship finder',
+    'complete_profile': 'Complete my profile',
+  };
+
+  static const Map<String, String> _hints = <String, String>{
+    'course_finder': 'Live search of universities, ranked for your profile',
+    'scholarship_finder': 'Awards with an eligibility check for you',
+    'complete_profile': 'Course matching and the Scholarship finder open once it is complete',
+  };
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    final shown = [
+      for (final a in actions)
+        if (_screens.containsKey(a.s('type'))) a.s('type'),
+    ];
+    if (shown.isEmpty) return const SizedBox.shrink();
+    // The same card as the office's Call / Directions one, so the two read
+    // as one family: a title, a line, then the buttons.
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: ConstrainedBox(
+        constraints: BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.82),
+        child: AppCard(
+          radius: 20,
+          padding: const EdgeInsets.fromLTRB(15, 12, 15, 12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            spacing: 8,
+            children: [
+              Text(
+                shown.length == 1 ? _labels[shown.first]! : 'Take the next step',
+                style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
+              ),
+              Text(
+                shown.length == 1 ? _hints[shown.first]! : 'Open it right here in the app.',
+                style: TextStyle(fontSize: 12.5, height: 1.4, color: t.textMuted),
+              ),
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: [
+                  for (final type in shown)
+                    SoftButton(
+                      label: shown.length == 1 ? 'Open' : _labels[type]!,
+                      leading: _screens[type]!.$2,
+                      height: 38,
+                      onTap: () => context.push(_screens[type]!.$1),
+                    ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 /// A blinking block cursor at the end of a reply that is still being typed.

@@ -5,7 +5,6 @@ import '../../app/data/res_bank.dart';
 import '../../app/data/store.dart';
 import '../../app/nav.dart';
 import '../../app/routes.dart';
-import '../../app/services/nexted_api.dart';
 import '../../app/theme/palette.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
@@ -106,20 +105,6 @@ class DashboardScreen extends StatelessWidget {
               ),
             ],
           ),
-        ),
-        // Straight across to the study-abroad side (only for students who
-        // have access to it).
-        AnimatedBuilder(
-          animation: NextedAccess.I,
-          builder: (context, _) => NextedAccess.I.enabled
-              ? IconBox(
-                  icon: AppIcons.flight,
-                  tooltip: 'Study abroad',
-                  size: 46,
-                  radius: 16,
-                  onTap: () => context.resetTo(Routes.nexted),
-                )
-              : const SizedBox.shrink(),
         ),
         WiggleOnChange(
           trigger: unread,

@@ -55,6 +55,19 @@ def _retry_after(response, fallback: float) -> float:
     return min(wait, _MAX_RETRY_WAIT)
 
 
+def _retry_after_tokens(response) -> float:
+    """Groq's x-ratelimit-reset-tokens ("7.66s", "1m2s"), capped."""
+    try:
+        text = str(response.headers.get("x-ratelimit-reset-tokens") or "").strip().lower()
+    except Exception:  # noqa: BLE001
+        return 0.0
+    match = re.fullmatch(r"(?:(\d+(?:\.\d+)?)m)?(\d+(?:\.\d+)?)(ms|s)?", text)
+    if not match:
+        return 0.0
+    seconds = float(match.group(2) or 0) / (1000 if match.group(3) == "ms" else 1)
+    return min(float(match.group(1) or 0) * 60 + seconds, _MAX_RETRY_WAIT)
+
+
 def _error_detail(response) -> str:
     """The provider's own explanation for a rejected request.
 
@@ -206,7 +219,9 @@ class _HttpLLM(LLMProvider):
         import json as _json
 
         httpx = _httpx()
-        for attempt in range(2):
+        busy_waits = 0
+        attempt = 0
+        while attempt < 2:
             started = False
             try:
                 async with httpx.AsyncClient(timeout=httpx.Timeout(self._timeout, read=self._timeout * 2)) as client:
@@ -217,7 +232,21 @@ class _HttpLLM(LLMProvider):
                         if status == 404:
                             raise await self._explain_404(model)
                         if status in _RETRYABLE_STATUS:
-                            raise AiBusy()
+                            # Nothing has been written yet, so waiting and
+                            # asking again is safe. A rate limit (429) says
+                            # how long; the counsellor makes several calls
+                            # per message, so a per-minute token limit is hit
+                            # easily on a small plan.
+                            await response.aread()
+                            log.warning("%s is busy (http %s): %s", self.name, status, _error_detail(response))
+                            if busy_waits >= 2:
+                                raise AiBusy()
+                            busy_waits += 1
+                            wait = _retry_after(response, 3.0)
+                            if "x-ratelimit-reset-tokens" in response.headers:
+                                wait = max(wait, _retry_after_tokens(response))
+                            await asyncio.sleep(wait)
+                            continue
                         if status >= 400:
                             await response.aread()
                             log.error("%s rejected the stream (http %s): %s", self.name, status, _error_detail(response))
@@ -244,7 +273,9 @@ class _HttpLLM(LLMProvider):
                 if started or attempt == 1:
                     log.warning("%s stream broke: %s", self.name, type(exc).__name__)
                     raise AiFailed() from exc
+                attempt += 1
                 await asyncio.sleep(1.0)
+        raise AiBusy()
 
     async def _get_json(self, url: str, headers: dict) -> dict:
         httpx = _httpx()

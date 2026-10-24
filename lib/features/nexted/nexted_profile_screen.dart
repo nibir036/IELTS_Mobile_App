@@ -243,9 +243,12 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
               _levelPicker(t, f.$2)
             else if (f.$1 == 'phone')
               _accountRow(t, NextedProfileRules.isRequired('phone') ? '${f.$2} *' : f.$2, _c['phone']!.text,
-                  'Your login number. Change it in IELTS AI if you get a new one.')
+                  'Your login number. Change it in your Profile if you get a new one.')
             else ...[
             AppTextField(
+              // One field per key, so a note appearing above it can never
+              // hand its state to a neighbouring field.
+              key: ValueKey<String>('nexted-field-${f.$1}'),
               label: NextedProfileRules.isRequired(f.$1) ? '${f.$2} *' : f.$2,
               hint: f.$3,
               controller: _c[f.$1],
@@ -265,7 +268,7 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
               },
             ),
             if (f.$1 == 'fullName')
-              _note(t, 'The same name as your IELTS AI account. Changing it here changes it there too.'),
+              _note(t, 'The same name as your nextED account. Changing it here changes it everywhere in the app.'),
             if (f.$1 == 'ieltsBand' && _bandNote() != null) _note(t, _bandNote()!),
             ],
           if (_dirty)

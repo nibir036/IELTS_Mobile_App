@@ -289,14 +289,6 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
             ],
           ),
         ),
-        // Across to IELTS - the twin of the plane button on the IELTS side.
-        IconBox(
-          icon: AppIcons.school,
-          tooltip: 'IELTS',
-          size: 46,
-          radius: 16,
-          onTap: () => context.resetTo(Routes.home),
-        ),
         WiggleOnChange(
           trigger: Store.I.unreadIn('nexted'),
           child: IconBox(

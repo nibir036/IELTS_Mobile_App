@@ -729,7 +729,7 @@ class NotificationService {
   NotificationDetails _details(String group, String body) => NotificationDetails(
         android: AndroidNotificationDetails(
           'nexted_$group',
-          _channelNames[group] ?? 'IELTS AI',
+          _channelNames[group] ?? 'nextED',
           channelDescription: NotifGroup.description(group),
           importance: group == NotifGroup.results || group == NotifGroup.exam
               ? Importance.high

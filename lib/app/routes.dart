@@ -15,6 +15,8 @@ class Routes {
 
   // A · Access & Onboarding
   static const splash = '/'; // A1
+  /// The launch splash (nextED logo) shown for a moment on every start.
+  static const launch = '/launch';
   static const login = '/login'; // A2
   static const signup = '/signup'; // A3
   static const otp = '/otp'; // A4

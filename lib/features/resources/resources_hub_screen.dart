@@ -44,7 +44,9 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
   static const List<VividTone> _tileTones = <VividTone>[Vivid.mock, Vivid.writing, Vivid.vocab, Vivid.listening];
 
   static NexiPose? _tilePose(String id) => switch (id) {
-        'band_descriptors' => NexiPose.thumbs,
+        // Four different Nexis (thumbs/point/wave are the same picture, and
+        // reading is already on the featured banner above).
+        'band_descriptors' => NexiPose.listening,
         'sample_answers' => NexiPose.writing,
         'tips' => NexiPose.point,
         'exam_day' => NexiPose.grad,

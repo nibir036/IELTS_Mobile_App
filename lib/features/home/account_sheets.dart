@@ -338,7 +338,7 @@ class _DeleteAccountDialogState extends State<_DeleteAccountDialog> {
             ],
           ),
           Text(
-            'This permanently deletes your IELTS AI account from this device, including:',
+            'This permanently deletes your nextED account from this device, including:',
             style: TextStyle(fontSize: 14, height: 1.45, color: t.textMuted),
           ),
           Column(
@@ -374,7 +374,11 @@ class _DeleteAccountDialogState extends State<_DeleteAccountDialog> {
             child: Text(
               widget.isDemo
                   ? 'This can’t be undone. As this is the demo account, it will be restored with its demo data the next time the app launches.'
-                  : 'This can’t be undone.',
+                  // Said plainly, as the privacy policy and Google Play
+                  // require: what nextED keeps after the account is gone.
+                  : 'This can’t be undone. nextED '
+                      'keeps your practice answers and recordings - without your name, phone number or '
+                      'account - to improve IELTS AI.',
               style: TextStyle(fontSize: 13, height: 1.4, color: t.dangerText),
             ),
           ),

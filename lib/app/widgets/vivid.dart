@@ -626,11 +626,16 @@ class CategoryTile extends StatelessWidget {
   /// 0..1: offsets Nexi's bobbing so tiles don't move in step.
   final double floatDelay;
 
+  /// Nexi on the tile. Oct 2026: moved from the bottom-right corner (where it
+  /// squeezed the titles to "Band descrip...") up to the empty top-right,
+  /// beside the icon, so the title and subtitle get the full width.
+  static const bool showNexi = true;
+
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
     final v = tone;
-    final hasNexi = pose != null;
+    final hasNexi = showNexi && pose != null;
     return Semantics(
       button: true,
       label: [title, ?subtitle, ?badge].join(', '),
@@ -643,12 +648,12 @@ class CategoryTile extends StatelessWidget {
           children: [
             if (hasNexi)
               Positioned(
-                right: -4,
-                bottom: -6,
+                right: 8,
+                top: 6,
                 child: FloatY(
                   amplitude: 2.5,
                   delay: floatDelay,
-                  child: Nexi(pose!, height: height * 0.5),
+                  child: Nexi(pose!, height: height * 0.46),
                 ),
               ),
             Padding(
@@ -674,18 +679,25 @@ class CategoryTile extends StatelessWidget {
                     ],
                   ),
                   const Spacer(),
-                  // Right padding keeps the words clear of Nexi.
+                  // Nexi sits above the words, so they use the full width.
                   Padding(
-                    padding: EdgeInsets.only(right: hasNexi ? height * 0.3 : 0),
+                    padding: EdgeInsets.zero,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
                           title,
-                          maxLines: 1,
+                          // Two lines, so a long name wraps instead of "Band descrip...".
+                          maxLines: 2,
                           overflow: TextOverflow.ellipsis,
-                          style: TextStyle(fontSize: 15.5, fontWeight: FontWeight.w700, letterSpacing: -0.2, color: t.text),
+                          style: TextStyle(
+                            fontSize: 15.5,
+                            height: 1.2,
+                            fontWeight: FontWeight.w700,
+                            letterSpacing: -0.2,
+                            color: t.text,
+                          ),
                         ),
                         if (subtitle != null)
                           Padding(

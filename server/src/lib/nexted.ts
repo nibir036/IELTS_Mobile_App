@@ -394,6 +394,57 @@ export function contactResponse(): string {
   ].join('\n');
 }
 
+/** Buttons the app draws under an answer (type -> label). */
+export const COUNSELLOR_BUTTONS: Record<string, string> = {
+  course_finder: 'Find courses for me',
+  scholarship_finder: 'Find scholarships for me',
+  complete_profile: 'Complete my profile',
+  call_office: 'Call nextED',
+  office_location: 'Get directions',
+};
+
+const BUTTON_MENTIONS: [string, RegExp][] = [
+  ['course_finder', /\b(course[- ]?match(ing|er)?|course[- ]?finder)\b/i],
+  ['scholarship_finder', /\bscholarship[- ]?finder\b/i],
+  ['complete_profile', /\b(complete|finish|fill in|update)\b.{0,20}\bprofile\b/i],
+];
+
+/**
+ * The answer as the app shows it: real buttons, never button names in the
+ * text. The model sometimes writes "Buttons: - Course matching
+ * (course_finder)" instead of asking for them; that block is removed and
+ * turned into buttons. An answer that names Course matching, the
+ * Scholarship finder or completing the profile gets that button too.
+ */
+export function finishAnswer<T extends Record<string, unknown>>(answer: T): T {
+  let reply = String(answer.reply ?? '');
+  const types = new Set<string>();
+  for (const a of Array.isArray(answer.actions) ? answer.actions : []) {
+    const type = a && typeof a === 'object' ? String((a as Record<string, unknown>).type ?? '') : '';
+    if (type in COUNSELLOR_BUTTONS) types.add(type);
+  }
+  const ids = Object.keys(COUNSELLOR_BUTTONS).join('|');
+  const named = new RegExp(`\\b(${ids})\\b`, 'g');
+  for (const m of reply.matchAll(named)) types.add(m[1]);
+  // A "Buttons:" heading and the bullet list under it.
+  reply = reply.replace(
+    /(^|\n)[ \t]*(?:\*\*|#+[ \t]*)?(?:suggested |available )?buttons?[ \t]*:?[ \t]*(?:\*\*)?[ \t]*:?[ \t]*(?=\n|$)(?:\n[ \t]*(?:[-*•]|\d+[.)])[^\n]*)*/gi,
+    '$1',
+  );
+  // Any leftover "(course_finder)" or bare id.
+  reply = reply.replace(new RegExp(`\\s*[(\\[\`]?\\b(${ids})\\b[)\\]\`]?`, 'g'), '');
+  reply = reply.replace(/\n{3,}/g, '\n\n').trim();
+  for (const [type, re] of BUTTON_MENTIONS) if (re.test(reply)) types.add(type);
+  const order = Object.keys(COUNSELLOR_BUTTONS).filter((t) => types.has(t));
+  const actions = order.map((type) => ({ type, label: COUNSELLOR_BUTTONS[type] }));
+  const out: Record<string, unknown> = { ...answer, reply };
+  if (actions.length) out.actions = actions;
+  else delete out.actions;
+  // Call / Directions need the office's details.
+  if ((types.has('call_office') || types.has('office_location')) && !out.office) out.office = OFFICE;
+  return out as T;
+}
+
 /** A question about what nextED itself charges: only the office answers it. */
 export function feeResponse(): string {
   return (

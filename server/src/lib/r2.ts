@@ -1,7 +1,7 @@
 // Cloudflare R2 (S3-compatible) for recordings, profile photos and voice
 // messages. Objects stay private; the app gets short-lived signed URLs.
 
-import { DeleteObjectsCommand, PutObjectCommand, S3Client, GetObjectCommand } from '@aws-sdk/client-s3';
+import { CopyObjectCommand, DeleteObjectsCommand, PutObjectCommand, S3Client, GetObjectCommand } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 import { env } from '../env';
 import { HttpError } from './http';
@@ -29,6 +29,10 @@ function s3(): S3Client {
  *   reading/images/<file>               reading diagrams
  *   speaking/<user id>/<attempt id>/<question>.wav   students' speaking answers
  *   users/<user id>/<kind>/<date>/<uuid>.<ext>       other uploads (photo, voice …)
+ *   archive/users/<user id>/...         a student's data, written on profile
+ *                                       completion and on account deletion (lib/archive.ts)
+ *   training/speaking/<sample id>/...   speaking audio kept for model training
+ *                                       after an account is deleted, not linked to anyone
  */
 export const appKey = (key: string) => `${env.r2Prefix}/${key.replace(/^\/+/, '')}`;
 
@@ -61,6 +65,12 @@ export async function signedUrl(key: string, seconds = 3600, signingDate?: Date)
     expiresIn: seconds,
     ...(signingDate ? { signingDate } : {}),
   });
+}
+
+/** Server-side copy inside the bucket (nothing is downloaded). */
+export async function copyObject(from: string, to: string): Promise<void> {
+  const source = `${env.r2Bucket}/${from.split('/').map(encodeURIComponent).join('/')}`;
+  await s3().send(new CopyObjectCommand({ Bucket: env.r2Bucket, CopySource: source, Key: to }));
 }
 
 export async function deleteObjects(keys: string[]): Promise<void> {

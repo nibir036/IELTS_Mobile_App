@@ -42,7 +42,7 @@ class MockResultsScreen extends StatelessWidget {
     }
     b
       ..writeln()
-      ..write('Practised with IELTS AI by nextED');
+      ..write('Practised with nextED');
     return b.toString();
   }
 
