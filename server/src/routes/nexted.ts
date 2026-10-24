@@ -773,7 +773,43 @@ export function registerNextedRoutes(r: Router): void {
     };
   }
 
-  r.post('/v1/nexted/ai/courses', async (ctx) => {
+  // ── the latest finder results, kept ───────────────────────────────────────
+  // A search that found something replaces the saved one; the screen opens
+  // on it next time (on any device) until the student searches again.
+
+  type SearchKind = 'courses' | 'scholarships';
+
+  const saving =
+    (kind: SearchKind, handler: (ctx: Ctx) => Promise<unknown>) =>
+    async (ctx: Ctx) => {
+      const out = (await handler(ctx)) as Record<string, unknown>;
+      const list = out?.[kind];
+      if (Array.isArray(list) && list.length) {
+        const userId = requireUser(ctx);
+        const query = s(ctx.body.query, 200);
+        const { usage: _usage, ...result } = out;
+        await prisma.nextedSavedSearch
+          .upsert({
+            where: { userId_kind: { userId, kind } },
+            create: { userId, kind, query, result: result as Prisma.InputJsonValue },
+            update: { query, result: result as Prisma.InputJsonValue },
+          })
+          .catch((e) => console.warn('[nexted] search not saved:', e instanceof Error ? e.message : e));
+      }
+      return out;
+    };
+
+  /** The saved results: {query, savedAt, ...the answer} or {} for none yet. */
+  for (const kind of ['courses', 'scholarships'] as const) {
+    r.get(`/v1/nexted/ai/${kind}/last`, async (ctx) => {
+      const userId = requireUser(ctx);
+      const row = await prisma.nextedSavedSearch.findUnique({ where: { userId_kind: { userId, kind } } });
+      if (!row) return {};
+      return { ...(row.result as Record<string, unknown>), query: row.query, savedAt: row.updatedAt.toISOString() };
+    });
+  }
+
+  r.post('/v1/nexted/ai/courses', saving('courses', async (ctx) => {
     const userId = requireUser(ctx);
     const profile = await loadProfile(userId);
     requireCompleteProfile(profile);
@@ -895,9 +931,9 @@ export function registerNextedRoutes(r: Router): void {
       });
 
     return { courses, searchNote, needsHomeDistrict: !profile.homeDistrict, usage };
-  });
+  }));
 
-  r.post('/v1/nexted/ai/scholarships', async (ctx) => {
+  r.post('/v1/nexted/ai/scholarships', saving('scholarships', async (ctx) => {
     const userId = requireUser(ctx);
     const profile = await loadProfile(userId);
     requireCompleteProfile(profile);
@@ -1005,5 +1041,5 @@ export function registerNextedRoutes(r: Router): void {
       }));
 
     return { scholarships, searchNote, usage };
-  });
+  }));
 }

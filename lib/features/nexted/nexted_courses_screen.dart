@@ -35,6 +35,9 @@ class _NextedCoursesScreenState extends State<NextedCoursesScreen> {
   String _searchNote = '';
   String? _error;
 
+  /// Set while the list on screen is the saved one from the last search.
+  String _savedLabel = '';
+
   /// Required profile fields still empty. The finder stays locked until
   /// this is empty (the server refuses too - this just says it nicely first).
   List<String> _missing = const <String>[];
@@ -45,6 +48,22 @@ class _NextedCoursesScreenState extends State<NextedCoursesScreen> {
     super.initState();
     NextedUsage.I.refresh();
     _checkProfile();
+    _loadLast();
+  }
+
+  /// Opens on the student's last results (kept on the server) until they
+  /// search again.
+  Future<void> _loadLast() async {
+    final r = await nextedLastSearch(NextedConfig.courseMatchLast);
+    final saved = r.l('courses');
+    if (!mounted || saved.isEmpty || _searched || _busy) return;
+    setState(() {
+      _courses = saved;
+      _searchNote = r.s('searchNote');
+      _searched = true;
+      _savedLabel = nextedSavedLabel(r.s('savedAt'), r.s('query'));
+      if (_query.text.isEmpty) _query.text = r.s('query');
+    });
   }
 
   Future<void> _checkProfile() async {
@@ -91,6 +110,7 @@ class _NextedCoursesScreenState extends State<NextedCoursesScreen> {
         _searchNote = r.s('searchNote');
         _busy = false;
         _searched = true;
+        _savedLabel = '';
       });
       // Matches are in: a nudge to raise the IELTS band they ask for.
       CrossNudge.toIelts(context);
@@ -168,10 +188,7 @@ class _NextedCoursesScreenState extends State<NextedCoursesScreen> {
             },
           )
         else if (_busy)
-          const Padding(
-            padding: EdgeInsets.all(28),
-            child: Center(child: CircularProgressIndicator(strokeWidth: 2)),
-          )
+          const NextedMatchingWait(scholarships: false)
         else if (!_searched)
           const EmptyState(
             title: 'Find courses that fit you',
@@ -214,6 +231,16 @@ class _NextedCoursesScreenState extends State<NextedCoursesScreen> {
                   ),
                 ],
               ),
+            ),
+          if (_savedLabel.isNotEmpty)
+            Row(
+              spacing: 8,
+              children: [
+                Icon(AppIcons.history, size: 16, color: t.textMuted),
+                Expanded(
+                  child: Text(_savedLabel, style: TextStyle(fontSize: 12.5, height: 1.4, color: t.textMuted)),
+                ),
+              ],
             ),
           SectionTitle('${_courses.length} matches', fontSize: 15),
           for (final c in _courses) _CourseCard(course: c),

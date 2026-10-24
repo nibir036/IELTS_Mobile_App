@@ -115,7 +115,15 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
 
     // The peach "IELTS AI" pill floats in the bottom-right corner, the twin
     // of the "STUDY ABROAD" pill on the IELTS side.
-    return Stack(
+    // The phone's back button goes to the start screen like the back arrow
+    // above - the study-abroad side opens with nothing under it, so without
+    // this the back button closed the app.
+    return PopScope<Object?>(
+      canPop: false,
+      onPopInvokedWithResult: (bool didPop, Object? result) {
+        if (!didPop) context.resetTo(Routes.chooser);
+      },
+      child: Stack(
       children: [
         AppScreen(
       gap: 18,
@@ -255,6 +263,7 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
           ),
         ),
       ],
+    ),
     );
   }
 

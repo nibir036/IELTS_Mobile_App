@@ -629,6 +629,7 @@ model User {
   nextedApplications NextedApplication[]
   nextedAiUsage      NextedAiUsage?
   nextedChat         NextedChatMessage[]
+  nextedSearches     NextedSavedSearch[]
 
   @@map("users")
 }
@@ -1113,6 +1114,25 @@ model NextedChatMessage {
 
   @@index([userId, createdAt])
   @@map("nexted_chat_messages")
+}
+
+/// The student's latest Course matching / Scholarship finder results, kept
+/// until they search again: the screen opens on them instead of empty.
+model NextedSavedSearch {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  /// courses | scholarships
+  kind      String
+  /// What they typed ("" = matched on the profile alone).
+  query     String   @default("")
+  /// The whole answer the app showed (list, search note ...).
+  result    Json
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, kind])
+  @@map("nexted_saved_searches")
 }
 
 /// Course catalogue. The matcher ranks these - it never invents a course.

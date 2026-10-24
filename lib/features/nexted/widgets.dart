@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -567,6 +569,119 @@ class NextedProfileGate extends StatelessWidget {
               await context.push(Routes.nextedProfile);
               onBack?.call();
             },
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// The finder's last results, as the server kept them ({} when none yet).
+/// Never throws: no saved search just means the screen starts empty.
+Future<Map<String, dynamic>> nextedLastSearch(String path) async {
+  if (!NextedApi.ready) return <String, dynamic>{};
+  try {
+    return await NextedApi.get(path);
+  } on ApiException {
+    return <String, dynamic>{};
+  }
+}
+
+/// "Your last search · 24 Oct" above results that came from the saved search.
+String nextedSavedLabel(String savedAtIso, String query) {
+  final at = DateTime.tryParse(savedAtIso)?.toLocal();
+  const months = <String>['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  final when = at == null ? '' : ' · ${at.day} ${months[at.month - 1]}';
+  final what = query.trim().isEmpty ? 'matched to your profile' : '"${query.trim()}"';
+  return 'Your last search$when - $what. Search again to refresh it.';
+}
+
+/// What the student sees while Course matching / the Scholarship finder
+/// works: Nexi and a line that changes every couple of seconds, so a long
+/// search reads as work being done rather than a frozen screen.
+class NextedMatchingWait extends StatefulWidget {
+  const NextedMatchingWait({super.key, required this.scholarships});
+
+  /// true: the Scholarship finder's lines; false: Course matching's.
+  final bool scholarships;
+
+  @override
+  State<NextedMatchingWait> createState() => _NextedMatchingWaitState();
+}
+
+class _NextedMatchingWaitState extends State<NextedMatchingWait> {
+  static const List<String> _courseLines = <String>[
+    'We are matching courses with your profile…',
+    'Reading your level, result and IELTS band…',
+    'Searching universities that teach your subject…',
+    'Checking entry requirements against your profile…',
+    'Ranking the best fits for you…',
+    'Almost there - putting your list together…',
+  ];
+
+  static const List<String> _scholarshipLines = <String>[
+    'We are matching scholarships with your profile…',
+    'Working on your profile - GPA, IELTS band and level…',
+    'Looking for awards open to students from Bangladesh…',
+    'Checking each scholarship’s eligibility rules…',
+    'Sorting what you qualify for…',
+    'Almost there - putting your list together…',
+  ];
+
+  int _i = 0;
+  Timer? _timer;
+
+  List<String> get _lines => widget.scholarships ? _scholarshipLines : _courseLines;
+
+  @override
+  void initState() {
+    super.initState();
+    _timer = Timer.periodic(const Duration(milliseconds: 2400), (_) {
+      // Stays on the last line once it gets there.
+      if (mounted && _i < _lines.length - 1) setState(() => _i++);
+    });
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tk;
+    return AppCard(
+      radius: 24,
+      padding: const EdgeInsets.fromLTRB(18, 18, 18, 18),
+      child: Column(
+        spacing: 12,
+        children: [
+          FloatY(child: Nexi(widget.scholarships ? NexiPose.grad : NexiPose.reading, height: 110)),
+          AnimatedSwitcher(
+            duration: const Duration(milliseconds: 350),
+            child: Text(
+              _lines[_i],
+              key: ValueKey<int>(_i),
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 15, height: 1.4, fontWeight: FontWeight.w600, color: t.text),
+            ),
+          ),
+          Text(
+            'This can take up to a minute - we check live university pages.',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 12, height: 1.4, color: t.textMuted),
+          ),
+          SizedBox(
+            width: 120,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(999),
+              child: LinearProgressIndicator(
+                minHeight: 4,
+                backgroundColor: t.track,
+                valueColor: AlwaysStoppedAnimation<Color>(t.isNight ? t.primary : t.peach),
+              ),
+            ),
           ),
         ],
       ),

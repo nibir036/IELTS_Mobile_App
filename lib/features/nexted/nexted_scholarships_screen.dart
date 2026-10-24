@@ -42,6 +42,9 @@ class _NextedScholarshipsScreenState extends State<NextedScholarshipsScreen> {
   Map<String, dynamic> _gap = <String, dynamic>{};
   String? _error;
 
+  /// Set while the list on screen is the saved one from the last search.
+  String _savedLabel = '';
+
   /// Required profile fields still empty. The finder stays locked until
   /// this is empty (the server refuses too - this just says it nicely first).
   List<String> _missing = const <String>[];
@@ -52,6 +55,23 @@ class _NextedScholarshipsScreenState extends State<NextedScholarshipsScreen> {
     super.initState();
     NextedUsage.I.refresh();
     _checkProfile();
+    _loadLast();
+  }
+
+  /// Opens on the student's last results (kept on the server) until they
+  /// search again.
+  Future<void> _loadLast() async {
+    final r = await nextedLastSearch(NextedConfig.scholarshipMatchLast);
+    final saved = r.l('scholarships');
+    if (!mounted || saved.isEmpty || _searched || _busy) return;
+    setState(() {
+      _items = saved;
+      _searchNote = r.s('searchNote');
+      _gap = r.m('gap');
+      _searched = true;
+      _savedLabel = nextedSavedLabel(r.s('savedAt'), r.s('query'));
+      if (_query.text.isEmpty) _query.text = r.s('query');
+    });
   }
 
   Future<void> _checkProfile() async {
@@ -99,6 +119,7 @@ class _NextedScholarshipsScreenState extends State<NextedScholarshipsScreen> {
         _gap = r.m('gap');
         _busy = false;
         _searched = true;
+        _savedLabel = '';
       });
       // Scholarships are in: a nudge to raise the IELTS band they ask for.
       CrossNudge.toIelts(context);
@@ -177,10 +198,7 @@ class _NextedScholarshipsScreenState extends State<NextedScholarshipsScreen> {
             },
           )
         else if (_busy)
-          const Padding(
-            padding: EdgeInsets.all(28),
-            child: Center(child: CircularProgressIndicator(strokeWidth: 2)),
-          )
+          const NextedMatchingWait(scholarships: true)
         else if (!_searched)
           const EmptyState(
             title: 'See what you qualify for',
@@ -205,6 +223,16 @@ class _NextedScholarshipsScreenState extends State<NextedScholarshipsScreen> {
             },
           )
         else ...[
+          if (_savedLabel.isNotEmpty)
+            Row(
+              spacing: 8,
+              children: [
+                Icon(AppIcons.history, size: 16, color: t.textMuted),
+                Expanded(
+                  child: Text(_savedLabel, style: TextStyle(fontSize: 12.5, height: 1.4, color: t.textMuted)),
+                ),
+              ],
+            ),
           if (_searchNote.isNotEmpty)
             AppCard(
               radius: 20,

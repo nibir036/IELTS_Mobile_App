@@ -71,8 +71,15 @@ class NextedConfig {
   /// Course matching (POST {query?} → {courses: [...], usage}).
   static const String courseMatch = '/v1/nexted/ai/courses';
 
+  /// The latest Course matching results, kept on the server until the
+  /// student searches again (GET; {} when there are none yet).
+  static const String courseMatchLast = '/v1/nexted/ai/courses/last';
+
   /// Scholarship finder (POST {query?} → {scholarships: [...], usage}).
   static const String scholarshipMatch = '/v1/nexted/ai/scholarships';
+
+  /// The latest Scholarship finder results (GET; {} when there are none yet).
+  static const String scholarshipMatchLast = '/v1/nexted/ai/scholarships/last';
 
   /// Today's AI allowance (GET → {usage: {used, limit, resetsAt}}).
   static const String aiUsage = '/v1/nexted/ai/usage';
