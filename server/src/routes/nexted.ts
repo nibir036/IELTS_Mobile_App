@@ -40,6 +40,9 @@ import { archiveOnce } from '../lib/archive';
 
 const MAX_DOC_BYTES = 15 * 1024 * 1024;
 
+/** Which exam a transcript or certificate is for. */
+const DOC_LEVELS = new Set(['ssc', 'hsc', 'bachelors', 'masters']);
+
 /** Document types the student can upload. */
 const DOC_KINDS = new Set(['passport', 'transcript', 'certificate', 'ielts', 'photo', 'other']);
 
@@ -388,6 +391,7 @@ export function registerNextedRoutes(r: Router): void {
         rows.map(async (d) => ({
           id: d.id,
           kind: d.kind,
+          level: d.level,
           name: d.name,
           status: d.status,
           note: d.note,
@@ -408,6 +412,10 @@ export function registerNextedRoutes(r: Router): void {
     rateLimit(`nexted-doc:${userId}`, 60, 3600);
     const kind = (s(ctx.query.get('kind'), 20) || 'other').toLowerCase();
     if (!DOC_KINDS.has(kind)) throw badRequest('Unknown document type.');
+    // A transcript or certificate says which one: SSC, HSC, Bachelor's, Master's.
+    const level = (s(ctx.query.get('level'), 20) || '').toLowerCase();
+    if (level && !DOC_LEVELS.has(level)) throw badRequest('Unknown level.');
+    // (Optional here so older app builds can still upload; the app asks.)
     const ext = (s(ctx.query.get('ext'), 5) || 'jpg').toLowerCase();
     if (!isAllowedExt(ext, 'image')) throw badRequest(`.${ext} files can’t be uploaded yet.`);
     const bytes = ctx.raw && ctx.raw.length ? ctx.raw : Buffer.from(s(ctx.body.base64, 25_000_000), 'base64');
@@ -420,6 +428,7 @@ export function registerNextedRoutes(r: Router): void {
       data: {
         userId,
         kind,
+        level: kind === 'transcript' || kind === 'certificate' ? level : '',
         name: s(ctx.query.get('name'), 120) || kind,
         r2Key: key,
         bytes: bytes.length,
@@ -430,6 +439,7 @@ export function registerNextedRoutes(r: Router): void {
       document: {
         id: doc.id,
         kind: doc.kind,
+        level: doc.level,
         name: doc.name,
         status: doc.status,
         bytes: doc.bytes,

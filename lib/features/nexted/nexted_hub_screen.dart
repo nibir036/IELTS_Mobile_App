@@ -12,7 +12,6 @@ import '../../app/widgets/cross_promo.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
 import '../../app/widgets/motion.dart';
-import '../../app/widgets/switch_fab.dart';
 import '../../app/widgets/vivid.dart';
 import 'widgets.dart';
 
@@ -113,20 +112,11 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
     final step1Done = profileDone && _documents > 0;
     final step3Started = live && _applications > 0;
 
-    // The peach "IELTS AI" pill floats in the bottom-right corner, the twin
-    // of the "STUDY ABROAD" pill on the IELTS side.
-    // The phone's back button goes to the start screen like the back arrow
-    // above - the study-abroad side opens with nothing under it, so without
-    // this the back button closed the app.
-    return PopScope<Object?>(
-      canPop: false,
-      onPopInvokedWithResult: (bool didPop, Object? result) {
-        if (!didPop) context.resetTo(Routes.chooser);
-      },
-      child: Stack(
-      children: [
-        AppScreen(
+    // Home tab of the study-abroad shell (nexted_shell.dart), which holds
+    // the bottom nav, the "IELTS AI" pill and the phone's back button.
+    return AppScreen(
       gap: 18,
+      padding: const EdgeInsets.fromLTRB(20, 12, 20, 112),
       children: [
         _header(context, t, first),
         _hero(context, t, first, done, total, live, profileDone),
@@ -254,16 +244,6 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
         // Room under the last line so the pill never covers it.
         const SizedBox(height: 64),
       ],
-        ),
-        Positioned(
-          right: 20,
-          bottom: 24 + MediaQuery.of(context).padding.bottom,
-          child: AppSwitchFab.toIelts(
-            onTap: () => context.resetTo(Routes.home),
-          ),
-        ),
-      ],
-    ),
     );
   }
 

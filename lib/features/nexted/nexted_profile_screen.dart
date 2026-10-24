@@ -23,7 +23,11 @@ import 'widgets.dart';
 /// the latest full mock test, else the target band - until the student types
 /// their own (a real exam score, say).
 class NextedProfileScreen extends StatefulWidget {
-  const NextedProfileScreen({super.key});
+  const NextedProfileScreen({super.key, this.embedded = false});
+
+  /// Shown as a tab of the study-abroad shell: no back arrow, and the save
+  /// button sits above the bottom nav.
+  final bool embedded;
 
   @override
   State<NextedProfileScreen> createState() => _NextedProfileScreenState();
@@ -171,6 +175,9 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
 
     return AppScreen(
       gap: 13,
+      padding: EdgeInsets.fromLTRB(20, widget.embedded ? 16 : 12, 20, 24),
+      // In the study-abroad shell the button sits above the bottom nav.
+      footerPadding: EdgeInsets.fromLTRB(20, 8, 20, widget.embedded ? 104 : 16),
       footer: PrimaryButton(
         label: _saving ? 'Saving…' : 'Save profile',
         enabled: !_saving && !_loading,
@@ -180,6 +187,7 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
         TopBar(
           title: 'Student profile',
           subtitle: 'Your counsellor sees the same details',
+          showBack: !widget.embedded,
           onBack: () => context.back(),
         ),
 

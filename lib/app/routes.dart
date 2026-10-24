@@ -124,6 +124,7 @@ class Routes {
   // students with study-abroad access). Build order steps 1-2.
   static const nexted = '/nexted';
   static const nextedProfile = '/nexted/profile';
+  static const nextedJourney = '/nexted/journey'; // Guidance tab
   static const nextedDocuments = '/nexted/documents';
   static const nextedCounsellor = '/nexted/counsellor';
   static const nextedCourses = '/nexted/courses';

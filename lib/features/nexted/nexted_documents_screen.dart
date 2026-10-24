@@ -17,7 +17,11 @@ import 'widgets.dart';
 /// them is a student action and belongs in the mobile module. Files go to the
 /// shared backend, where the counsellor working the application sees them.
 class NextedDocumentsScreen extends StatefulWidget {
-  const NextedDocumentsScreen({super.key});
+  const NextedDocumentsScreen({super.key, this.embedded = false});
+
+  /// Shown as a tab of the study-abroad shell: no back arrow, and the upload
+  /// button sits above the bottom nav.
+  final bool embedded;
 
   @override
   State<NextedDocumentsScreen> createState() => _NextedDocumentsScreenState();
@@ -33,6 +37,21 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
     ('photo', 'Passport photo', AppIcons.camera),
     ('other', 'Other document', AppIcons.attach),
   ];
+
+  /// Which exam a transcript or certificate is for.
+  static const List<(String, String, String)> _levels = <(String, String, String)>[
+    ('ssc', 'SSC', 'Secondary School Certificate (or O Levels)'),
+    ('hsc', 'HSC', 'Higher Secondary Certificate (or A Levels)'),
+    ('bachelors', 'Bachelor’s', 'Undergraduate degree'),
+    ('masters', 'Master’s', 'Postgraduate degree'),
+  ];
+
+  /// "SSC Transcript", "Bachelor’s Certificate" ...
+  static String _levelName(String level, String kind) {
+    final l = _levels.where((x) => x.$1 == level).map((x) => x.$2).firstOrNull ?? '';
+    final what = kind == 'transcript' ? 'Transcript' : 'Certificate';
+    return l.isEmpty ? _labelFor(kind) : '$l $what';
+  }
 
   List<Map<String, dynamic>> _docs = <Map<String, dynamic>>[];
   bool _loading = true;
@@ -117,6 +136,41 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
     );
     if (kind == null || !mounted) return;
 
+    // Transcripts and certificates: which one - SSC, HSC, Bachelor's, Master's.
+    var level = '';
+    if (kind == 'transcript' || kind == 'certificate') {
+      final picked = await showAppSheet<String>(
+        context,
+        Builder(
+          builder: (ctx) => Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            spacing: 8,
+            children: [
+              const SizedBox(height: 6),
+              Text(
+                kind == 'transcript' ? 'Which transcript?' : 'Which certificate?',
+                style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w500),
+              ),
+              const SizedBox(height: 2),
+              for (final l in _levels)
+                ListRow(
+                  title: _levelName(l.$1, kind),
+                  subtitle: l.$3,
+                  leading: IconCircle(_iconFor(kind), size: 38, iconSize: 18),
+                  trailing: const Icon(AppIcons.chevronRight, size: 20),
+                  onTap: () => Navigator.of(ctx).pop(l.$1),
+                ),
+              const SizedBox(height: 4),
+            ],
+          ),
+        ),
+      );
+      if (picked == null || !mounted) return;
+      level = picked;
+    }
+    final label = level.isEmpty ? _labelFor(kind) : _levelName(level, kind);
+
     final source = await showAppSheet<ImageSource>(
       context,
       Builder(
@@ -170,11 +224,12 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
         bytes: bytes,
         kind: kind,
         ext: ext,
-        name: _labelFor(kind),
+        name: label,
+        level: level,
         contentType: file.mimeType ?? 'image/jpeg',
       );
       if (!mounted) return;
-      context.toast('${_labelFor(kind)} uploaded');
+      context.toast('$label uploaded');
       await _load();
     } on ApiException catch (e) {
       if (mounted) context.toast(e.message);
@@ -189,6 +244,9 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
 
     return AppScreen(
       gap: 13,
+      padding: EdgeInsets.fromLTRB(20, widget.embedded ? 16 : 12, 20, 24),
+      // In the study-abroad shell the button sits above the bottom nav.
+      footerPadding: EdgeInsets.fromLTRB(20, 8, 20, widget.embedded ? 104 : 16),
       footer: PrimaryButton(
         label: _busy ? 'Uploading…' : 'Upload a document',
         leading: AppIcons.cloudUpload,
@@ -199,6 +257,7 @@ class _NextedDocumentsScreenState extends State<NextedDocumentsScreen> {
         TopBar(
           title: 'Documents',
           subtitle: 'Upload once, your counsellor sees it',
+          showBack: !widget.embedded,
           onBack: () => context.back(),
         ),
 

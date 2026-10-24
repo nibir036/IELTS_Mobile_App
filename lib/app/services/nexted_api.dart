@@ -288,6 +288,7 @@ class NextedApi {
     required String kind,
     required String ext,
     String name = '',
+    String level = '',
     String contentType = 'application/octet-stream',
     Duration timeout = const Duration(minutes: 2),
   }) async {
@@ -301,6 +302,7 @@ class NextedApi {
       'kind': kind,
       'ext': ext,
       if (name.isNotEmpty) 'name': name,
+      if (level.isNotEmpty) 'level': level,
     }).query;
     try {
       final req = http.Request('POST', _uri('$path?$query'));

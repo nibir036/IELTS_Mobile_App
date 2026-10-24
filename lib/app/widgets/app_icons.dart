@@ -173,4 +173,11 @@ class AppIcons {
   static const emoji = Icons.emoji_emotions_outlined;
   static const pin = Icons.push_pin_outlined;
   static const hash = Icons.tag_rounded;
+  // Study abroad: the journey tab, the documents tab, money.
+  static const compass = Icons.explore_outlined;
+  static const compassFilled = Icons.explore_rounded;
+  static const docFilled = Icons.description_rounded;
+  static const wallet = Icons.account_balance_wallet_outlined;
+  static const visa = Icons.badge_outlined;
+  static const homeWork = Icons.apartment_rounded;
 }

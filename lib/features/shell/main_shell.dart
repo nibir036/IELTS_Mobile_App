@@ -7,7 +7,6 @@ import 'package:flutter/services.dart' show HapticFeedback;
 import '../../app/nav.dart';
 import '../../app/routes.dart';
 import '../../app/services/nexted_api.dart';
-import '../../app/theme/palette.dart';
 import '../../app/theme/tokens.dart';
 import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/motion.dart';
@@ -124,7 +123,7 @@ class MainShellState extends State<MainShell> {
             left: 16,
             right: 16,
             bottom: 18 + MediaQuery.of(context).padding.bottom * 0.5,
-            child: _NavBar(index: _index, onTap: select),
+            child: AppNavBar(index: _index, onTap: select, items: _navItems),
           ),
           // One tap from anywhere in IELTS to the study-abroad side: the peach
           // "STUDY ABROAD" pill just above the nav bar, only for students who
@@ -167,27 +166,31 @@ class _KeepTabState extends State<_KeepTab> with AutomaticKeepAliveClientMixin {
   }
 }
 
-/// Bottom nav: each tab has its own colour. The selected tab's icon sits on
-/// a gradient bubble that slides across, swaps to its filled glyph with a
-/// bounce, and its label lights up in the tab's colour.
-class _NavBar extends StatelessWidget {
-  const _NavBar({required this.index, required this.onTap});
+/// The IELTS side's five tabs: (icon, selected icon, name).
+const List<(IconData, IconData, String)> _navItems = <(IconData, IconData, String)>[
+  (AppIcons.home, AppIcons.homeFilled, 'Home'),
+  (AppIcons.practice, AppIcons.practiceFilled, 'Practice'),
+  (AppIcons.mock, AppIcons.mockFilled, 'Mock'),
+  (AppIcons.chat, AppIcons.chatFilled, 'Community'),
+  (AppIcons.profile, AppIcons.profileFilled, 'Profile'),
+];
+
+/// Bottom nav, shared by the IELTS and study-abroad sides: icons only; the
+/// selected one sits on a bubble that slides across and swaps to its filled
+/// glyph with a bounce.
+class AppNavBar extends StatelessWidget {
+  const AppNavBar({super.key, required this.index, required this.onTap, required this.items});
 
   final int index;
   final ValueChanged<int> onTap;
 
-  static const _items = <(IconData, IconData, String, VividTone)>[
-    (AppIcons.home, AppIcons.homeFilled, 'Home', Vivid.brand),
-    (AppIcons.practice, AppIcons.practiceFilled, 'Practice', Vivid.reading),
-    (AppIcons.mock, AppIcons.mockFilled, 'Mock', Vivid.mock),
-    (AppIcons.chat, AppIcons.chatFilled, 'Community', Vivid.community),
-    (AppIcons.profile, AppIcons.profileFilled, 'Profile', Vivid.speaking),
-  ];
+  /// (icon, selected icon, name - read out by screen readers).
+  final List<(IconData, IconData, String)> items;
 
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
-    final n = _items.length;
+    final n = items.length;
     final reduce = MediaQuery.maybeDisableAnimationsOf(context) ?? false;
     final slide = Duration(milliseconds: reduce ? 0 : 420);
 
@@ -230,7 +233,7 @@ class _NavBar extends StatelessWidget {
                   child: Semantics(
                     button: true,
                     selected: i == index,
-                    label: _items[i].$3,
+                    label: items[i].$3,
                     child: Pressable(
                       scale: 0.86,
                       child: InkResponse(
@@ -241,7 +244,7 @@ class _NavBar extends StatelessWidget {
                         radius: 34,
                         highlightShape: BoxShape.circle,
                         child: Tooltip(
-                          message: _items[i].$3,
+                          message: items[i].$3,
                           child: SizedBox(
                             height: 62,
                             child: Center(
@@ -252,7 +255,7 @@ class _NavBar extends StatelessWidget {
                                   child: child,
                                 ),
                                 child: Icon(
-                                  i == index ? _items[i].$2 : _items[i].$1,
+                                  i == index ? items[i].$2 : items[i].$1,
                                   key: ValueKey<bool>(i == index),
                                   size: 24,
                                   color: i == index ? t.onPrimary : t.textMuted,
