@@ -75,7 +75,12 @@ export class Router {
 
   /** Finds the route for a request; a trailing '*' param swallows the rest. */
   match(method: string, path: string): { handler: Handler; params: Record<string, string> } | 'method' | null {
-    const segs = path.split('/').filter(Boolean).map((s) => decodeURIComponent(s));
+    let segs: string[];
+    try {
+      segs = path.split('/').filter(Boolean).map((s) => decodeURIComponent(s));
+    } catch {
+      return null; // a malformed %-escape: not found, not a server error
+    }
     let methodMismatch = false;
     for (const r of this.routes) {
       const params: Record<string, string> = {};

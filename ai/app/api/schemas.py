@@ -13,8 +13,9 @@ from app.core.profile import StudentProfile
 
 class HistoryTurn(BaseModel):
     model_config = ConfigDict(extra="ignore")
-    role: str = "student"
-    content: str = ""
+    role: str = Field(default="student", max_length=20)
+    # Bounded here too, not only by the Node API (it sends 12 turns of 2,000).
+    content: str = Field(default="", max_length=4000)
 
 
 class CounsellorRequest(BaseModel):
@@ -24,7 +25,7 @@ class CounsellorRequest(BaseModel):
     studentId: str = Field(min_length=1, max_length=128)
     profile: StudentProfile = Field(default_factory=StudentProfile)
     message: str = Field(min_length=1, max_length=4000)
-    history: list[HistoryTurn] = Field(default_factory=list)
+    history: list[HistoryTurn] = Field(default_factory=list, max_length=30)
 
 
 class FinderRequest(BaseModel):

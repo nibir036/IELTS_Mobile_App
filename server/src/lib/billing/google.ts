@@ -3,7 +3,7 @@
 // then consumes it (so the pass can be bought again later). Consuming also
 // acknowledges it; an unacknowledged purchase is refunded by Google after 3 days.
 //
-//   GOOGLE_PLAY_PACKAGE            com.nexted.app
+//   GOOGLE_PLAY_PACKAGE            com.nextedadvisors.app
 //   GOOGLE_PLAY_SERVICE_ACCOUNT    the service account's JSON key (raw or base64)
 
 import { createSign } from 'node:crypto';

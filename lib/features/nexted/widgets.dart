@@ -375,7 +375,8 @@ class NextedSourceRow extends StatelessWidget {
 
   Future<void> _open(BuildContext context) async {
     final uri = Uri.tryParse(url);
-    if (uri == null) return;
+    // Source links are web pages only (they come from research, not from us).
+    if (uri == null || (uri.scheme != 'https' && uri.scheme != 'http') || uri.host.isEmpty) return;
     final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
     if (!ok && context.mounted) {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Couldn’t open the page')));

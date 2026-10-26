@@ -9,8 +9,9 @@ type Search = Promise<{ next?: string; reason?: string }>;
 
 export default async function LoginPage({ searchParams }: { searchParams: Search }) {
   const { next, reason } = await searchParams;
-  // Only same-site paths (no open redirect).
-  const target = next && next.startsWith('/') && !next.startsWith('//') ? next : '/app';
+  // Only paths on this site (no open redirect): "/\\evil.com" or a tab
+  // after the slash would otherwise send the student to another site.
+  const target = next && /^\/(?![\/\\])[\w\-./?=&%#~]*$/.test(next) ? next : '/app';
   return (
     <main className={s.page}>
       <div className={s.column}>

@@ -557,7 +557,9 @@ class _OfficeCard extends StatelessWidget {
 
   Future<void> _launch(BuildContext context, String link) async {
     final uri = Uri.tryParse(link);
-    if (uri == null || link.isEmpty) return;
+    // Phone, email, maps or a web page - nothing else.
+    const allowed = <String>{'https', 'tel', 'mailto', 'geo'};
+    if (uri == null || link.isEmpty || !allowed.contains(uri.scheme)) return;
     final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
     if (!ok && context.mounted) context.toast('Couldn’t open that');
   }

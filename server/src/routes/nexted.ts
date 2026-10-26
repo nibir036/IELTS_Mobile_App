@@ -30,7 +30,6 @@ import {
   aiCounsellorStream,
   aiCourses,
   aiScholarships,
-  aiUsage,
   NextedAiUnreachable,
   nextedAiEnabled,
 } from '../lib/nexted_ai';
@@ -635,8 +634,8 @@ export function registerNextedRoutes(r: Router): void {
 
   r.get('/v1/nexted/ai/usage', async (ctx) => {
     const userId = requireUser(ctx);
-    const remote = await viaAiService(() => aiUsage(userId));
-    return remote ?? { usage: await readAiUsage(userId) };
+    // The daily allowance is counted here (30 free / 50 Pro), not in the AI service.
+    return { usage: await readAiUsage(userId) };
   });
 
   // ── the conversation, kept ────────────────────────────────────────────────

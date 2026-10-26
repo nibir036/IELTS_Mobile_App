@@ -76,6 +76,8 @@ export function registerAuthRoutes(r: Router): void {
     const phone = phoneOf(ctx.body);
     const purpose = purposeOf(ctx.body.purpose);
     rateLimit(`otp-ip:${ctx.ip}`, 10, 3600);
+    rateLimit(`otp-phone-day:${phone}`, 8, 86400);
+    rateLimit('otp-global', 1500, 3600);
     const exists = await prisma.user.findUnique({ where: { phone }, select: { id: true } });
     if (purpose === 'signup' && exists) {
       throw new HttpError(409, 'An account with this number already exists. Log in instead.', 'phone_taken');
@@ -243,10 +245,15 @@ export function registerAuthRoutes(r: Router): void {
       where: { id: user.id },
       data: { passwordHash: hashPassword(password), passwordChangedAt: new Date() },
     });
-    // Sign out every device.
+    // Sign out every device, and stop sessions that were signed out earlier
+    // ("signed in elsewhere") from taking the account back with "Use it here".
     await prisma.session.updateMany({
       where: { userId: user.id, revokedAt: null },
       data: { revokedAt: new Date(), revokeReason: 'password_reset' },
+    });
+    await prisma.session.updateMany({
+      where: { userId: user.id, revokeReason: 'signed_in_elsewhere' },
+      data: { revokeReason: 'password_reset' },
     });
     // The OTP proved the phone number: a full account makes room for this device.
     return issueSession(ctx, user.id, { recover: true });

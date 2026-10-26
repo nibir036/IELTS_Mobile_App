@@ -169,6 +169,9 @@ function sinceParam(ctx: Ctx): Date | null {
   return date(ctx.query.get('since'));
 }
 
+/** An AI-graded attempt the student deleted (kept for the free allowance). */
+const isHidden = (data: unknown) => !!data && typeof data === 'object' && (data as Record<string, unknown>).hidden === true;
+
 export function registerProgressRoutes(r: Router): void {
   // Everything that changed since ?since= (ISO time from the last sync's serverTime).
   r.get('/v1/sync', async (ctx) => {
@@ -197,7 +200,9 @@ export function registerProgressRoutes(r: Router): void {
     return {
       serverTime,
       full: !since,
-      attempts: attempts.map(attemptJson),
+      // Attempts the student deleted stay on the server (they count towards the
+      // free AI allowance) but never come back to the app.
+      attempts: attempts.filter((a) => !isHidden(a.data)).map(attemptJson),
       notifications: notifications.map(notificationJson),
       tasks: tasks.map(taskJson),
       state: Object.fromEntries(state.map((x) => [x.key, x.value])),
@@ -249,7 +254,7 @@ export function registerProgressRoutes(r: Router): void {
       orderBy: { createdAt: 'desc' },
       take: int(ctx.query.get('limit'), 50, 1, 500),
     });
-    return { items: rows.map(attemptJson) };
+    return { items: rows.filter((a) => !isHidden(a.data)).map(attemptJson) };
   });
 
   r.get('/v1/attempts/:id', async (ctx) => {
@@ -263,7 +268,19 @@ export function registerProgressRoutes(r: Router): void {
 
   r.delete('/v1/attempts/:id', async (ctx) => {
     const userId = requireUser(ctx);
-    const { count } = await prisma.attempt.deleteMany({ where: { id: ctx.params.id, userId } });
+    // AI-graded writing / speaking count towards the free allowance, so they
+    // stay (the app hides them) - deleting one must not give the grade back.
+    const a = (await prisma.attempt.findFirst({ where: { id: ctx.params.id, userId }, select: { id: true, data: true } })) as {
+      id: string;
+      data: unknown;
+    } | null;
+    if (!a) return { deleted: false };
+    const data = (a.data ?? {}) as Record<string, unknown>;
+    if (data.aiGraded === true) {
+      await prisma.attempt.update({ where: { id: a.id }, data: { data: { ...data, hidden: true } as object } });
+      return { deleted: true };
+    }
+    const { count } = await prisma.attempt.deleteMany({ where: { id: a.id, userId } });
     return { deleted: count > 0 };
   });
 

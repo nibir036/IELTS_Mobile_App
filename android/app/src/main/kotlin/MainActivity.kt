@@ -1,7 +1,7 @@
 // Kotlin doesn't require the folder to match the package, so this lives
 // at a short path. The old com/example/... copy is removed by
 // tool/setup_and_analyze.bat.
-package com.nexted.app
+package com.nextedadvisors.app
 
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager

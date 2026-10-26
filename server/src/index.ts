@@ -80,7 +80,11 @@ export function createApp(router = buildRouter()) {
         query: url.searchParams,
         params: found.params,
         body: {},
-        ip: String(req.headers['x-forwarded-for'] || req.socket.remoteAddress || '').split(',')[0].trim(),
+        // The proxy (Coolify/Traefik) appends the real client address as the
+        // LAST X-Forwarded-For entry; earlier entries are whatever the client sent.
+        ip: (String(req.headers['x-forwarded-for'] || '').split(',').map((x) => x.trim()).filter(Boolean).pop() ||
+          req.socket.remoteAddress ||
+          ''),
       };
       // A signed-in call from a session that has ended (another device signed
       // in, this device was removed, logout) is refused straight away, not

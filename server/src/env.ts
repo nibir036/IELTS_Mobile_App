@@ -94,7 +94,7 @@ export const env = {
   bkashAppSecret: str('BKASH_APP_SECRET'),
   bkashUsername: str('BKASH_USERNAME'),
   bkashPassword: str('BKASH_PASSWORD'),
-  googlePlayPackage: str('GOOGLE_PLAY_PACKAGE', 'com.nexted.app'),
+  googlePlayPackage: str('GOOGLE_PLAY_PACKAGE', 'com.nextedadvisors.app'),
   /** Service account JSON key (raw or base64) with access to the Play Console. */
   googlePlayServiceAccount: str('GOOGLE_PLAY_SERVICE_ACCOUNT'),
   /** Shared secret in the Pub/Sub push URL for Play notifications (…/rtdn?token=…). */

@@ -63,7 +63,7 @@ function view(b: BannerRow) {
 
 function requireAdmin(ctx: Ctx): void {
   const want = Buffer.from(env.adminToken);
-  if (!want.length) throw new HttpError(503, 'The banner admin is not set up (ADMIN_TOKEN is empty).', 'admin_off');
+  if (want.length < 24) throw new HttpError(503, 'The banner admin is off: ADMIN_TOKEN must be at least 24 characters.', 'admin_off');
   rateLimit(`admin:${ctx.ip}`, 600, 3600);
   const got = Buffer.from(s(ctx.req.headers['x-admin-token'], 300));
   if (got.length !== want.length || !timingSafeEqual(got, want)) {

@@ -8,6 +8,7 @@ internet and it never sees a student's login - Node vouches for the student
 and sends their profile across.
 """
 from __future__ import annotations
+import hmac
 
 import json
 import logging
@@ -59,7 +60,10 @@ def create_app():
         if kb is not None:
             await kb.close()
 
+    # No public API docs in production: this service only talks to the Node API.
+    docs = {} if not settings.is_production else {"docs_url": None, "redoc_url": None, "openapi_url": None}
     app = FastAPI(
+        **docs,
         lifespan=lifespan,
         title="nextED AI - counsellor, courses, scholarships",
         version="1.0.0",
@@ -91,7 +95,9 @@ def create_app():
             return
         if not authorization or not authorization.lower().startswith("bearer "):
             raise NotAuthenticated()
-        if authorization.split(" ", 1)[1].strip() != settings.service_token:
+        given = authorization.split(" ", 1)[1].strip()
+        # Constant-time compare, so the token can't be guessed byte by byte.
+        if not hmac.compare_digest(given.encode(), settings.service_token.encode()):
             raise NotAuthenticated()
 
     # ------------------------------------------------------------ routes

@@ -47,6 +47,8 @@ export const MEDIA_FOLDERS = [
 
 /** True for keys a user owns (their uploads and speaking recordings). */
 export function ownsKey(userId: string, key: string): boolean {
+  // No "..", "//" or "\\": a key must not climb out of the user's folder.
+  if (!key || key.includes('..') || key.includes('//') || key.includes('\\')) return false;
   return (
     key.startsWith(appKey(`users/${userId}/`)) ||
     key.startsWith(appKey(`speaking/${userId}/`)) ||

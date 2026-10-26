@@ -11,6 +11,7 @@
 //   npx tsx --env-file=.env scripts/demo-accounts.ts      (locally)
 //   DEMO_ACCOUNTS=0 turns it off.
 
+import { randomBytes } from 'node:crypto';
 import { prisma } from '../src/db';
 import { hashPassword, verifyPassword } from '../src/lib/password';
 
@@ -18,7 +19,18 @@ const COUNT = 4;
 
 async function main() {
   if (process.env.DEMO_ACCOUNTS === '0') return;
-  const password = process.env.DEMO_PASSWORD || 'Demo@Nexted123';
+  // In production the demo accounts need their own strong password: the old
+  // default is in this repo, so anyone could have used it.
+  const fromEnv = process.env.DEMO_PASSWORD ?? '';
+  if (process.env.NODE_ENV === 'production' && fromEnv.length < 12) {
+    console.log('  DEMO_PASSWORD is not set (12+ characters): demo accounts are locked.');
+    await prisma.user.updateMany({
+      where: { isDemo: true },
+      data: { passwordHash: hashPassword(randomBytes(32).toString('hex')), passwordChangedAt: new Date() },
+    });
+    return;
+  }
+  const password = fromEnv || 'Demo@Nexted123';
   console.log('Demo accounts');
   for (let n = 1; n <= COUNT; n++) {
     const phone = `demo${n}`;

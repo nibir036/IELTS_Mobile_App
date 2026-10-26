@@ -8,15 +8,24 @@
 
 import { prisma } from '../db';
 import { HttpError } from './http';
+import { isPro } from './users';
 
-/** AI actions per student per day. Change it without shipping a new app. */
-/// Off for now (unlimited): set NEXTED_AI_LIMIT_ENABLED=true in .env to bring
-/// the cap back. 0 means no limit - counted, never refused; the app then
-/// hides its "AI actions left" bar.
-export const DAILY_AI_LIMIT =
-  (process.env.NEXTED_AI_LIMIT_ENABLED ?? 'false').toLowerCase() === 'true'
-    ? Math.max(0, Number(process.env.NEXTED_AI_DAILY_LIMIT ?? 30) || 30)
-    : 0;
+/**
+ * AI actions per student per day (counsellor messages, course matching,
+ * scholarship searches): 30 on the free plan, 50 on Pro. Change them with
+ * NEXTED_AI_FREE_LIMIT / NEXTED_AI_PRO_LIMIT, without shipping a new app.
+ */
+const envLimit = (name: string, fallback: number) => {
+  const n = Number(process.env[name]);
+  return Number.isInteger(n) && n > 0 ? n : fallback;
+};
+export const FREE_AI_LIMIT = envLimit('NEXTED_AI_FREE_LIMIT', 30);
+export const PRO_AI_LIMIT = envLimit('NEXTED_AI_PRO_LIMIT', 50);
+
+/** This student's daily allowance (Pro gets more). */
+export async function aiLimitFor(userId: string): Promise<number> {
+  return (await isPro(userId)) ? PRO_AI_LIMIT : FREE_AI_LIMIT;
+}
 
 /** Today in Asia/Dhaka as YYYY-MM-DD - the day the counter belongs to. */
 export function dhakaDay(now = new Date()): string {
@@ -42,49 +51,53 @@ export interface AiUsage {
   resetsAt: string;
 }
 
-function shape(used: number): AiUsage {
+function shape(used: number, limit: number): AiUsage {
   return {
     used,
-    limit: DAILY_AI_LIMIT,
-    left: Math.max(0, DAILY_AI_LIMIT - used),
+    limit,
+    left: Math.max(0, limit - used),
     resetsAt: nextReset().toISOString(),
   };
 }
 
 /** Today's usage, without spending anything. */
 export async function readAiUsage(userId: string): Promise<AiUsage> {
-  const row = await prisma.nextedAiUsage.findUnique({ where: { userId } });
+  const [row, limit] = await Promise.all([prisma.nextedAiUsage.findUnique({ where: { userId } }), aiLimitFor(userId)]);
   const today = dhakaDay();
-  return shape(!row || row.quotaDate !== today ? 0 : row.usedToday);
+  return shape(!row || row.quotaDate !== today ? 0 : row.usedToday, limit);
 }
 
 /**
  * Checks the cap and counts one AI action. Call this immediately before the
  * AI request, in the same handler - not in the app.
  *
+ * Atomic: parallel requests can't go past the limit.
  * Throws 429 `ai_limit_reached` when the allowance is gone.
  */
 export async function consumeAi(userId: string): Promise<AiUsage> {
   const today = dhakaDay();
-  const row = await prisma.nextedAiUsage.findUnique({ where: { userId } });
-  const used = !row || row.quotaDate !== today ? 0 : row.usedToday;
-
-  if (DAILY_AI_LIMIT > 0 && used >= DAILY_AI_LIMIT) {
-    throw new HttpError(
-      429,
-      'You have reached today’s AI limit. It resets at midnight.',
-      'ai_limit_reached',
-      { usage: shape(used) },
-    );
-  }
-
-  const next = used + 1;
+  const limit = await aiLimitFor(userId);
+  // One row per student; a new day starts from zero.
   await prisma.nextedAiUsage.upsert({
     where: { userId },
-    create: { userId, usedToday: next, quotaDate: today },
-    update: { usedToday: next, quotaDate: today },
+    create: { userId, usedToday: 0, quotaDate: today },
+    update: {},
   });
-  return shape(next);
+  await prisma.nextedAiUsage.updateMany({ where: { userId, quotaDate: { not: today } }, data: { usedToday: 0, quotaDate: today } });
+  const { count } = await prisma.nextedAiUsage.updateMany({
+    where: { userId, quotaDate: today, usedToday: { lt: limit } },
+    data: { usedToday: { increment: 1 } },
+  });
+  if (count === 0) {
+    throw new HttpError(
+      429,
+      `You've used today's ${limit} AI actions. They reset at midnight.`,
+      'ai_limit_reached',
+      { usage: shape(limit, limit) },
+    );
+  }
+  const row = await prisma.nextedAiUsage.findUnique({ where: { userId } });
+  return shape(row?.usedToday ?? 1, limit);
 }
 
 // ── scholarship eligibility (plain rules, not the AI) ───────────────────────

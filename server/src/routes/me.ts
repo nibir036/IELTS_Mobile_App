@@ -70,6 +70,12 @@ export function registerMeRoutes(r: Router): void {
       where: { id: userId },
       data: { passwordHash: hashPassword(next), passwordChangedAt: new Date() },
     });
+    // A device signed out earlier ("signed in elsewhere") can't take the
+    // account back with the old password's session.
+    await prisma.session.updateMany({
+      where: { userId, revokeReason: 'signed_in_elsewhere' },
+      data: { revokeReason: 'password_changed' },
+    });
     return { ok: true };
   });
 

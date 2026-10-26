@@ -110,6 +110,10 @@ export function registerBillingRoutes(r: Router): void {
 
     const known = (await prisma.payment.findUnique({ where: { providerRef: purchaseToken } })) as { userId: string; status: string } | null;
     if (known && known.userId !== userId) throw forbidden('This purchase belongs to another account.', 'purchase_taken');
+    // A refunded or cancelled purchase can't be verified again for a new pass.
+    if (known && known.status !== 'completed' && known.status !== 'initiated' && known.status !== 'pending') {
+      throw badRequest('This purchase was refunded or cancelled.', 'purchase_cancelled');
+    }
     if (known?.status === 'completed') {
       await consumePurchase(productId, purchaseToken);
       return { status: 'completed', billing: await billingSummary(userId) };
@@ -124,22 +128,40 @@ export function registerBillingRoutes(r: Router): void {
     }
     if (p.consumptionState === 1 && !known) throw badRequest('This purchase was already used.', 'purchase_used');
 
-    await prisma.payment.upsert({
-      where: { providerRef: purchaseToken },
-      create: {
-        userId,
-        provider: 'google_play',
-        providerRef: purchaseToken,
-        kind: 'purchase',
-        passId: pass.id,
-        amount: pass.appPrice,
-        currency: 'BDT',
-        status: 'completed',
-        trxId: p.orderId ?? null,
-        meta: { productId, regionCode: p.regionCode ?? null },
-      },
-      update: { status: 'completed', trxId: p.orderId ?? null },
-    });
+    // Claim the purchase atomically, so parallel calls with one token can't
+    // grant two passes: only the call that creates (or flips) the row grants.
+    const trxId = p.orderId ?? null;
+    let claimed = false;
+    try {
+      await prisma.payment.create({
+        data: {
+          userId,
+          provider: 'google_play',
+          providerRef: purchaseToken,
+          kind: 'purchase',
+          passId: pass.id,
+          amount: pass.appPrice,
+          currency: 'BDT',
+          status: 'completed',
+          trxId,
+          meta: { productId, regionCode: p.regionCode ?? null },
+        },
+      });
+      claimed = true;
+    } catch (e) {
+      if ((e as { code?: string }).code !== 'P2002') throw e;
+      // The row exists: flip it only if it is this user's and not yet used.
+      const { count } = await prisma.payment.updateMany({
+        where: { providerRef: purchaseToken, userId, status: { notIn: ['completed', 'refunded'] } },
+        data: { status: 'completed', trxId },
+      });
+      claimed = count === 1;
+    }
+    if (!claimed) {
+      // Another call already granted it (or it was refunded): nothing more to give.
+      await consumePurchase(productId, purchaseToken).catch(() => undefined);
+      return { status: 'completed', billing: await billingSummary(userId) };
+    }
     await grantPass({ userId, pass, provider: 'google_play', providerRef: purchaseToken, amount: pass.appPrice, autoRenew: false });
     await consumePurchase(productId, purchaseToken);
     return { status: 'completed', billing: await billingSummary(userId) };

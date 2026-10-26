@@ -30,7 +30,7 @@ fadd557e0489341f .gitignore
 e7dbb495cb50c222 README.md
 e3b0c44298fc1c14 app/__init__.py
 e3b0c44298fc1c14 app/api/__init__.py
-a0aea3b7a34e7801 app/api/schemas.py
+b113b779ae759cf4 app/api/schemas.py
 6f8fa8d2488cc757 app/api/service.py
 f6c3af294eb98a37 app/config.py
 e3b0c44298fc1c14 app/core/__init__.py
@@ -52,7 +52,7 @@ cf1b710cbf85ddbd app/graphs/courses.py
 4999a1a043108a5d app/graphs/nodes.py
 99eea5cfb5e73088 app/graphs/runner.py
 09907b3dabc34f98 app/graphs/scholarships.py
-c285abf6eae6f8f1 app/main.py
+3df2c2017f274be5 app/main.py
 e3b0c44298fc1c14 app/providers/__init__.py
 66dc3e2a12173f4d app/providers/base.py
 dc598c956cfdc78b app/providers/demo.py

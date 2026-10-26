@@ -153,7 +153,9 @@ Future<void> openPromoTarget(BuildContext context, {String route = '', String ur
   }
   if (url.isNotEmpty) {
     final uri = Uri.tryParse(url);
-    if (uri == null) return;
+    // Web pages only: a link from the content or an ad banner must never
+    // open intent:, sms:, file: or other apps' links.
+    if (uri == null || uri.scheme != 'https' || uri.host.isEmpty) return;
     final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
     if (!ok && context.mounted) context.toast('Couldn’t open the link');
   }

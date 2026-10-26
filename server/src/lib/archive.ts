@@ -22,7 +22,7 @@ import type { Prisma } from '@prisma/client';
 import { prisma } from '../db';
 import { env } from '../env';
 import { HttpError } from './http';
-import { appKey, copyObject, deleteObjects, putObject } from './r2';
+import { appKey, copyObject, deleteObjects, ownsKey, putObject } from './r2';
 
 export type ArchiveReason = 'ielts_profile_complete' | 'nexted_profile_complete' | 'account_deleted';
 
@@ -190,7 +190,10 @@ export async function eraseUser(userId: string): Promise<void> {
     //    profile photo. (Speaking audio goes to the training set below.)
     const files: Json[] = [];
     if (storage) {
-      const photo = typeof (user.profile as Json)?.photo === 'string' ? String((user.profile as Json).photo) : '';
+      // profile.photo can be written by the app: only a key in this user's own
+      // photo folder is treated as a file (never someone else's object).
+      const rawPhoto = typeof (user.profile as Json)?.photo === 'string' ? String((user.profile as Json).photo) : '';
+      const photo = ownsKey(userId, rawPhoto) && rawPhoto.includes('/photo/') ? rawPhoto : '';
       const sources = [
         ...user.nextedDocuments.map((d) => ({ what: `document:${d.id}`, key: d.r2Key })),
         ...(photo ? [{ what: 'profile_photo', key: photo }] : []),

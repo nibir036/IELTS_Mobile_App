@@ -25,7 +25,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.nexted.app"
+    namespace = "com.nextedadvisors.app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "30.0.16248370"
 
@@ -37,7 +37,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.nexted.app"
+        applicationId = "com.nextedadvisors.app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
