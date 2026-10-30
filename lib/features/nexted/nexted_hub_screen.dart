@@ -167,7 +167,7 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
         _JourneyStep(
           number: 1,
           title: 'Tell us about you',
-          pose: NexiPose.writing,
+          pose: NexyPose.writing,
           done: step1Done,
           active: !step1Done,
           children: [
@@ -192,7 +192,7 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
           child: _JourneyStep(
           number: 2,
           title: 'Find where you fit',
-          pose: NexiPose.point,
+          pose: NexyPose.point,
           done: step3Started,
           active: step1Done && !step3Started,
           footer: const NextedQuotaBar(),
@@ -221,7 +221,7 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
         _JourneyStep(
           number: 3,
           title: 'Apply and follow it',
-          pose: NexiPose.thumbs,
+          pose: NexyPose.thumbs,
           done: false,
           active: step3Started,
           last: true,
@@ -357,7 +357,7 @@ class _NextedHubScreenState extends State<NextedHubScreen> {
                       ],
                     ),
                   ),
-                  const FloatY(amplitude: 4, child: Nexi(NexiPose.grad, height: 104)),
+                  const FloatY(amplitude: 4, child: Nexy(NexyPose.grad, height: 104)),
                 ],
               ),
               if (live) ...[
@@ -412,8 +412,8 @@ class _JourneyStep extends StatelessWidget {
     this.pose,
   });
 
-  /// Nexi shown beside the title while this is the current step.
-  final NexiPose? pose;
+  /// Nexy shown beside the title while this is the current step.
+  final NexyPose? pose;
 
   final int number;
   final String title;
@@ -480,12 +480,12 @@ class _JourneyStep extends StatelessWidget {
                           ),
                         ),
                       ),
-                      // Nexi walks along with the student: he stands on the
+                      // Nexy walks along with the student: he stands on the
                       // step they're on now.
                       if (active && pose != null)
                         PopIn(
                           from: 0.7,
-                          child: FloatY(amplitude: 3, child: Nexi(pose!, height: 58)),
+                          child: FloatY(amplitude: 3, child: Nexy(pose!, height: 58)),
                         ),
                     ],
                   ),

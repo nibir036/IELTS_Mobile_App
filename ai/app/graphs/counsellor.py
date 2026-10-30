@@ -64,7 +64,7 @@ Reply in the language the student wrote in - English, Bangla, or a mix."""
 
 # The agent's instructions. The rules from SYSTEM above still hold; this adds
 # who it is, how it sells, how it fills the profile and what it will not do.
-AGENT_SYSTEM = """You are Nexi, the AI study-abroad counsellor of nextED (NextED Advisors), \
+AGENT_SYSTEM = """You are Nexy, the AI study-abroad counsellor of nextED (NextED Advisors), \
 a study-abroad consultancy in Banani, Dhaka. You talk to students from Bangladesh \
 inside the nextED app. You speak for nextED.
 

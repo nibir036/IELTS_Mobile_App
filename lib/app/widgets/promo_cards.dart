@@ -28,9 +28,9 @@ import 'vivid.dart';
 ///       "cta": "See plans",
 ///       "badge": "OFFER",
 ///       "tone": "speaking",              // listening | reading | writing | speaking | mock | vocab | community | brand | fire
-///       "pose": "grad",                  // Nexi: wave | point | grad | thumbs | writing | reading | speaking | listening
+///       "pose": "grad",                  // Nexy: wave | point | grad | thumbs | writing | reading | speaking | listening
 ///       "icon": "medal",                 // used when there is no pose / image
-///       "image": "https://…/banner.png", // optional picture instead of Nexi
+///       "image": "https://…/banner.png", // optional picture instead of Nexy
 ///       "route": "/home/plans",          // an app screen (Routes.*) …
 ///       "url": "https://nexted.app",     // … or a web page
 ///       "from": "2026-11-01", "until": "2026-11-30",  // optional dates
@@ -112,8 +112,8 @@ class PromoCards {
     );
   }
 
-  static NexiPose? _pose(String key) {
-    for (final p in NexiPose.values) {
+  static NexyPose? _pose(String key) {
+    for (final p in NexyPose.values) {
       if (p.name == key) return p;
     }
     return null;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Design tokens: frosted peach (Nexi's fur) and frosted blue (his hoodie).
+/// Design tokens: frosted peach (Nexy's fur) and frosted blue (his hoodie).
 ///
 /// Every screen reads colours through `context.tk` so the same widget tree
 /// renders the Day (warm white, glass cards, black buttons) and Night (deep
@@ -165,7 +165,7 @@ class AppTokens extends ThemeExtension<AppTokens> {
   final Color stripeA;
   final Color stripeB;
 
-  /// Brand peach (frosted orange / baby pink) and brand blue - Nexi's fur
+  /// Brand peach (frosted orange / baby pink) and brand blue - Nexy's fur
   /// and hoodie. Use for accents, progress and glass tints.
   final Color peach;
   final Color blue;

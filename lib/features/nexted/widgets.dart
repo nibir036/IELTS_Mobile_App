@@ -538,13 +538,13 @@ class NextedProfileGate extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         spacing: 12,
         children: [
-          const Center(child: FloatY(amplitude: 3, child: Nexi(NexiPose.point, height: 96))),
+          const Center(child: FloatY(amplitude: 3, child: Nexy(NexyPose.point, height: 96))),
           const Text(
             'Complete your profile first',
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
           ),
           Text(
-            'Nexi matches $feature to you - your level, result, IELTS band, the subject '
+            'Nexy matches $feature to you - your level, result, IELTS band, the subject '
             'and the country you want. Without them the results would be guesses, '
             'so please go back and finish your profile.',
             style: TextStyle(fontSize: 13, height: 1.45, color: t.textSoft),
@@ -600,7 +600,7 @@ String nextedSavedLabel(String savedAtIso, String query) {
 }
 
 /// What the student sees while Course matching / the Scholarship finder
-/// works: Nexi and a line that changes every couple of seconds, so a long
+/// works: Nexy and a line that changes every couple of seconds, so a long
 /// search reads as work being done rather than a frozen screen.
 class NextedMatchingWait extends StatefulWidget {
   const NextedMatchingWait({super.key, required this.scholarships});
@@ -660,7 +660,7 @@ class _NextedMatchingWaitState extends State<NextedMatchingWait> {
       child: Column(
         spacing: 12,
         children: [
-          FloatY(child: Nexi(widget.scholarships ? NexiPose.grad : NexiPose.reading, height: 110)),
+          FloatY(child: Nexy(widget.scholarships ? NexyPose.grad : NexyPose.reading, height: 110)),
           AnimatedSwitcher(
             duration: const Duration(milliseconds: 350),
             child: Text(

@@ -206,7 +206,7 @@ class _ContinueCard extends StatelessWidget {
                     ],
                   ),
                 ),
-                Nexi(finished ? NexiPose.grad : nexiFor(module), height: 120),
+                Nexy(finished ? NexyPose.grad : nexyFor(module), height: 120),
               ],
             ),
           ),

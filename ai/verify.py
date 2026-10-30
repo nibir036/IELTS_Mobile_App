@@ -47,7 +47,7 @@ d639010a7df332a6 app/core/numbers.py
 7a77d3fd76e4111a app/core/search.py
 402d1a24d0687253 app/errors.py
 e3b0c44298fc1c14 app/graphs/__init__.py
-3faf4f1d77aeae80 app/graphs/counsellor.py
+606561e18f707502 app/graphs/counsellor.py
 cf1b710cbf85ddbd app/graphs/courses.py
 4999a1a043108a5d app/graphs/nodes.py
 99eea5cfb5e73088 app/graphs/runner.py

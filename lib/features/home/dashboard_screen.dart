@@ -26,7 +26,7 @@ import '../../app/widgets/ad_carousel.dart';
 /// B1 · Main Student Dashboard (tab 0 of the shell).
 ///
 /// Calm and clear, in the style of the big ride and food apps: a greeting,
-/// one dark hero with the estimated band (the only place Nexi appears),
+/// one dark hero with the estimated band (the only place Nexy appears),
 /// today's plan, a quiet link to Study abroad, our tools, and
 /// the weekly and recent details. Mostly neutral surfaces; colour is used
 /// only as a soft hint on icons.
@@ -179,7 +179,7 @@ class DashboardScreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const FloatY(amplitude: 4, child: Nexi(NexiPose.wave, height: 104)),
+                  const FloatY(amplitude: 4, child: Nexy(NexyPose.wave, height: 104)),
                 ],
               ),
               ProgressBar(value: est == null ? 0 : est / 9, height: 6, onHero: true),

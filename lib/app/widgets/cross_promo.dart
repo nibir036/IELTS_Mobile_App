@@ -49,7 +49,7 @@ class StudyAbroadPromo extends StatelessWidget {
           messages: PromoCards.messages('ielts_cross', _builtIn),
           cta: 'Start my journey',
           colors: const <Color>[Color(0xFF3B82F6), Color(0xFF6D28D9)],
-          pose: NexiPose.grad,
+          pose: NexyPose.grad,
           emojis: const <String>['🌍'],
           onTap: () => openPromoTarget(context, route: Routes.nexted),
         );
@@ -77,7 +77,7 @@ class IeltsPromo extends StatelessWidget {
     ),
     JourneyMessage(
       'The world is waiting – IELTS is your key',
-      'Speaking, Writing, Reading, Listening, all with Nexi.',
+      'Speaking, Writing, Reading, Listening, all with Nexy.',
     ),
     JourneyMessage(
       'Your dream is one score away',
@@ -92,7 +92,7 @@ class IeltsPromo extends StatelessWidget {
       messages: PromoCards.messages('abroad_cross', _builtIn),
       cta: 'Practise IELTS now',
       colors: const <Color>[Color(0xFFFF8A5B), Color(0xFFE5216B)],
-      pose: NexiPose.speaking,
+      pose: NexyPose.speaking,
       emojis: const <String>['🏆'],
       onTap: () => openPromoTarget(context, route: Routes.home),
     );

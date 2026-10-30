@@ -1,7 +1,7 @@
 name: nexted_ielts_app
 description: "IELTS AI by nextED — IELTS preparation app (design build, demo data)."
 publish_to: 'none'
-version: 1.2.0+3
+version: 1.0.0+2
 
 environment:
   sdk: ^3.13.4
@@ -56,6 +56,9 @@ flutter:
     - assets/branding/ielts-ai-mascot-full-light.png
     - assets/branding/ielts-ai-wordmark-dark.png
     - assets/branding/ielts-ai-wordmark-light.png
+    # nextED logo (white for dark backgrounds, navy for light).
+    - assets/branding/nexted_logo_white.png
+    - assets/branding/nexted_logo_navy.png
 
 # App icon: put a 1024x1024 PNG (no transparency for iOS) at
 # assets/branding/app_icon.png, then run:  dart run flutter_launcher_icons

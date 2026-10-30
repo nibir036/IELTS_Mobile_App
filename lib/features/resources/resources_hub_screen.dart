@@ -17,7 +17,7 @@ import '../../app/widgets/vivid.dart';
 import 'widgets.dart';
 
 /// H1 · Resources Hub, in the same live style as Home: a banner carousel
-/// (featured guide + any custom cards), colourful tiles with Nexi, swipeable
+/// (featured guide + any custom cards), colourful tiles with Nexy, swipeable
 /// "recently added" cards, the word of the day and the word lists.
 class ResourcesHubScreen extends StatefulWidget {
   const ResourcesHubScreen({super.key});
@@ -40,16 +40,16 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
     }
   }
 
-  /// Colour and Nexi pose for a hub tile (by id; others take turns).
+  /// Colour and Nexy pose for a hub tile (by id; others take turns).
   static const List<VividTone> _tileTones = <VividTone>[Vivid.mock, Vivid.writing, Vivid.vocab, Vivid.listening];
 
-  static NexiPose? _tilePose(String id) => switch (id) {
-        // Four different Nexis (thumbs/point/wave are the same picture, and
+  static NexyPose? _tilePose(String id) => switch (id) {
+        // Four different Nexys (thumbs/point/wave are the same picture, and
         // reading is already on the featured banner above).
-        'band_descriptors' => NexiPose.listening,
-        'sample_answers' => NexiPose.writing,
-        'tips' => NexiPose.point,
-        'exam_day' => NexiPose.grad,
+        'band_descriptors' => NexyPose.listening,
+        'sample_answers' => NexyPose.writing,
+        'tips' => NexyPose.point,
+        'exam_day' => NexyPose.grad,
         _ => null,
       };
 
@@ -80,7 +80,7 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
           cta: 'Read guide',
           badge: featured.s('tag').toUpperCase(),
           tone: Vivid.forKey(featured.s('category').toLowerCase()),
-          pose: NexiPose.reading,
+          pose: NexyPose.reading,
           onTap: () => context.push(
             Routes.articleTips,
             args: <String, dynamic>{'articleId': featured.s('articleId')},
@@ -158,7 +158,7 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
               children: [
                 Expanded(
                   child: Text(
-                    'Nothing new in $selected yet – Nexi is writing it.',
+                    'Nothing new in $selected yet – Nexy is writing it.',
                     style: TextStyle(fontSize: 13.5, height: 1.4, color: t.textMuted),
                   ),
                 ),

@@ -512,7 +512,7 @@ class _TaskCard extends StatelessWidget {
                     ],
                   ),
                 ),
-                const FloatY(amplitude: 4, child: Nexi(NexiPose.writing, height: 112)),
+                const FloatY(amplitude: 4, child: Nexy(NexyPose.writing, height: 112)),
               ],
             ),
           if (isTask1)

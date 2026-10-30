@@ -2,48 +2,36 @@ import 'package:flutter/material.dart';
 
 import '../theme/tokens.dart';
 
-/// The nextED wordmark: "next" regular, "ED" bold, and the peach dot.
-/// Takes the theme's text colour, so it reads in Day and Night.
+/// The nextED logo (assets/branding/nexted_logo_*.png): navy letters on
+/// Day, white letters on Night, always with the peach dot.
 class NextedWordmark extends StatelessWidget {
   const NextedWordmark({super.key, this.size = 28, this.color});
 
-  /// Font size of the letters; the dot scales with it.
+  /// Size of the letters, as a font size; the picture is scaled to match.
   final double size;
 
-  /// Overrides the theme's text colour.
+  /// Forces the light (white) or dark (navy) logo for a background that
+  /// isn't the page's own: a light colour picks the white logo.
   final Color? color;
 
   static const Color dot = Color(0xFFFF9C82);
 
+  static const String white = 'assets/branding/nexted_logo_white.png';
+  static const String navy = 'assets/branding/nexted_logo_navy.png';
+
   @override
   Widget build(BuildContext context) {
-    final ink = color ?? context.tk.text;
-    final dotSize = size * 0.23;
+    final light = color != null ? color!.computeLuminance() > 0.5 : context.tk.isNight;
     return Semantics(
       label: 'nextED',
+      image: true,
       excludeSemantics: true,
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-          Text.rich(
-            TextSpan(
-              children: [
-                const TextSpan(text: 'next', style: TextStyle(fontWeight: FontWeight.w500)),
-                const TextSpan(text: 'ED', style: TextStyle(fontWeight: FontWeight.w800)),
-              ],
-            ),
-            style: TextStyle(fontSize: size, height: 1, letterSpacing: -size * 0.025, color: ink),
-          ),
-          Padding(
-            padding: EdgeInsets.only(left: size * 0.09, bottom: size * 0.1),
-            child: Container(
-              width: dotSize,
-              height: dotSize,
-              decoration: const BoxDecoration(color: dot, shape: BoxShape.circle),
-            ),
-          ),
-        ],
+      child: Image.asset(
+        light ? white : navy,
+        height: size * 0.82,
+        fit: BoxFit.contain,
+        filterQuality: FilterQuality.medium,
+        gaplessPlayback: true,
       ),
     );
   }

@@ -109,7 +109,7 @@ class MockLibraryScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const Nexi(NexiPose.grad, height: 110),
+                    const Nexy(NexyPose.grad, height: 110),
                   ],
                 ),
                 Row(

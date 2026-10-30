@@ -104,7 +104,7 @@ class _SentenceBankScreenState extends State<SentenceBankScreen> {
                   ],
                 ),
               ),
-              const Nexi(NexiPose.writing, height: 110),
+              const Nexy(NexyPose.writing, height: 110),
             ],
           ),
         ),

@@ -29,6 +29,7 @@ import 'theme/readable_text.dart';
 import 'theme/theme_controller.dart';
 import 'widgets/cross_nudge.dart';
 import 'widgets/app_tour.dart';
+import 'widgets/theme_toggle.dart';
 
 /// Root widget: nextED (IELTS AI + Study abroad).
 class IeltsAiApp extends StatefulWidget {
@@ -164,9 +165,10 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
           // Small text a little larger on phones (see ReadableTextScaler).
           // Needs the internet: a "turn on mobile data" screen covers the app while offline,
           // and a "getting your lessons ready" screen on the first open after signing in.
+          // Every screen gets the Day / Night toggle at the top (ThemeToggleStrip).
           builder: (context, child) => readableText(
             context,
-            ConnectionGate(child: ContentGate(child: TourLayer(child: child ?? const SizedBox.shrink()))),
+            ConnectionGate(child: ContentGate(child: TourLayer(child: ThemeToggleStrip(child: child ?? const SizedBox.shrink())))),
           ),
           theme: AppTheme.day,
           darkTheme: AppTheme.night,

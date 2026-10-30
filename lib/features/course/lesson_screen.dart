@@ -229,7 +229,7 @@ class _LessonScreenState extends State<LessonScreen> with ContentLangListener {
 }
 
 /// Screen 1 · Lesson overview: module tile, stage/lesson position, title,
-/// what it gives you, time / concepts / practice, Start, and Nexi.
+/// what it gives you, time / concepts / practice, Start, and Nexy.
 class LessonCover extends StatelessWidget {
   const LessonCover({super.key, required this.ref, required this.steps, required this.onStart});
 
@@ -304,8 +304,8 @@ class LessonCover extends StatelessWidget {
         const SizedBox(height: 16),
         PeachButton(label: Lessons.isDone(Store.I, ref.id) ? 'Review lesson' : 'Start lesson', onTap: onStart),
         const SizedBox(height: 26),
-        NexiSays(
-          pose: nexiFor(module),
+        NexySays(
+          pose: nexyFor(module),
           height: 130,
           text: [
             if (name.isNotEmpty) 'Hi $name!',
@@ -340,7 +340,7 @@ IconData homeModuleIcon(String module) => switch (module) {
       _ => AppIcons.school,
     };
 
-/// Screen 10 · Completion: Nexi, stats, what you learned, next up.
+/// Screen 10 · Completion: Nexy, stats, what you learned, next up.
 class LessonComplete extends StatelessWidget {
   const LessonComplete({
     super.key,
@@ -395,7 +395,7 @@ class LessonComplete extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       spacing: 14,
       children: [
-        const Center(child: _Confetti(child: Nexi(NexiPose.grad, height: 150))),
+        const Center(child: _Confetti(child: Nexy(NexyPose.grad, height: 150))),
         Text(stageDone && next?.stage.s('id') != ref.stage.s('id') ? 'Stage complete! 🎉' : 'Lesson complete! 🎉',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 28, fontWeight: FontWeight.w700, color: t.onHeroDark)),

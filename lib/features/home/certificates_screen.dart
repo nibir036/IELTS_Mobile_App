@@ -438,7 +438,7 @@ class CertificatesScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              const Nexi(NexiPose.grad, height: 112),
+              const Nexy(NexyPose.grad, height: 112),
             ],
           ),
         ),

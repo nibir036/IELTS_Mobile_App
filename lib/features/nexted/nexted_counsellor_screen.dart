@@ -345,7 +345,7 @@ class _NextedCounsellorScreenState extends State<NextedCounsellorScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               spacing: 8,
               children: [
-                const FloatY(amplitude: 3, child: Nexi(NexiPose.speaking, height: 84)),
+                const FloatY(amplitude: 3, child: Nexy(NexyPose.speaking, height: 84)),
                 const Text(
                   'Ask about courses, countries, costs or visas',
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),

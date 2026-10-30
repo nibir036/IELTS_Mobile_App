@@ -207,7 +207,7 @@ class ListeningLandingScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              const FloatY(amplitude: 4, child: Nexi(NexiPose.listening, height: 112)),
+              const FloatY(amplitude: 4, child: Nexy(NexyPose.listening, height: 112)),
             ],
           ),
         ),

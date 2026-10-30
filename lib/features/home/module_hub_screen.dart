@@ -111,7 +111,7 @@ class _ModuleHubScreenState extends State<ModuleHubScreen> {
             ),
           ],
         ),
-        // Module cards, two per row: a short video (or Nexi until it is
+        // Module cards, two per row: a short video (or Nexy until it is
         // ready); a tap opens the module's page with everything in it.
         // The first module (Resources) takes a whole row; the rest two per row.
         if (modules.isNotEmpty) _ModuleCard(module: modules.first, wide: true),
@@ -179,13 +179,13 @@ String _moduleMeta(Store store, Map<String, dynamic> m) {
 /// The page a module card opens (`hub` in home.json, else its `target`).
 String moduleHubTarget(Map<String, dynamic> m) => m.s('hub').isNotEmpty ? m.s('hub') : m.s('target');
 
-/// Nexi pose for a module card without its video yet.
-NexiPose _poseFor(Map<String, dynamic> m) => switch (m.s('skill')) {
-      'writing' => NexiPose.writing,
-      'speaking' => NexiPose.speaking,
-      'listening' => NexiPose.listening,
-      'reading' => NexiPose.reading,
-      _ => NexiPose.grad,
+/// Nexy pose for a module card without its video yet.
+NexyPose _poseFor(Map<String, dynamic> m) => switch (m.s('skill')) {
+      'writing' => NexyPose.writing,
+      'speaking' => NexyPose.speaking,
+      'listening' => NexyPose.listening,
+      'reading' => NexyPose.reading,
+      _ => NexyPose.grad,
     };
 
 /// Module card: the module's looping video ("live photo") with a pastel
@@ -220,7 +220,7 @@ class _ModuleCard extends StatelessWidget {
       child: Center(
         child: Padding(
           padding: const EdgeInsets.all(12),
-          child: FloatY(child: Nexi(_poseFor(module), height: 130)),
+          child: FloatY(child: Nexy(_poseFor(module), height: 130)),
         ),
       ),
     );

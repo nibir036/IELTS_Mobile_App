@@ -159,7 +159,7 @@ class FirstTimeDashboard extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const Nexi(NexiPose.wave, height: 110),
+                  const Nexy(NexyPose.wave, height: 110),
                 ],
               ),
               Padding(

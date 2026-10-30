@@ -9,7 +9,7 @@ import '../../app/theme/tokens.dart';
 import '../../app/widgets/mascot.dart';
 import '../../app/widgets/nexted_brand.dart';
 
-/// The launch splash: Nexi, the nextED wordmark and a loading bar, for a
+/// The launch splash: Nexy, the nextED wordmark and a loading bar, for a
 /// moment on every app start. Then the start screen (signed in) or the
 /// welcome screen (signed out). Follows Day / Night like every screen.
 class LaunchScreen extends StatefulWidget {
@@ -72,7 +72,7 @@ class _LaunchScreenState extends State<LaunchScreen> with SingleTickerProviderSt
               mainAxisSize: MainAxisSize.min,
               spacing: 14,
               children: [
-                const Nexi(NexiPose.grad, height: 120),
+                const Nexy(NexyPose.grad, height: 120),
                 const NextedWordmark(size: 56),
                 Text(
                   'IELTS · STUDY ABROAD',

@@ -1,23 +1,25 @@
 import 'package:flutter/material.dart';
 
-/// Nexi, the IELTS AI cat (assets/mascot/nexi_<pose>.png).
+/// Nexy, the nextED cat (`assets/mascot/nexi_<pose>.png`).
+/// The picture files keep their old `nexi_` names: drop the new Nexy art in
+/// over them (same names) and nothing else has to change.
 /// wave = full body pointing right (towards a speech bubble), point = pointing left.
-enum NexiPose { wave, point, grad, thumbs, writing, reading, speaking, listening }
+enum NexyPose { wave, point, grad, thumbs, writing, reading, speaking, listening }
 
-/// Pose that fits a module ('writing' → [NexiPose.writing], …).
-NexiPose nexiFor(String module) => switch (module) {
-      'writing' => NexiPose.writing,
-      'reading' => NexiPose.reading,
-      'speaking' => NexiPose.speaking,
-      'listening' => NexiPose.listening,
-      'grammar' || 'vocab' => NexiPose.reading,
-      _ => NexiPose.wave,
+/// Pose that fits a module ('writing' → [NexyPose.writing], …).
+NexyPose nexyFor(String module) => switch (module) {
+      'writing' => NexyPose.writing,
+      'reading' => NexyPose.reading,
+      'speaking' => NexyPose.speaking,
+      'listening' => NexyPose.listening,
+      'grammar' || 'vocab' => NexyPose.reading,
+      _ => NexyPose.wave,
     };
 
-class Nexi extends StatelessWidget {
-  const Nexi(this.pose, {super.key, this.height = 120});
+class Nexy extends StatelessWidget {
+  const Nexy(this.pose, {super.key, this.height = 120});
 
-  final NexiPose pose;
+  final NexyPose pose;
   final double height;
 
   @override
@@ -34,19 +36,19 @@ class Nexi extends StatelessWidget {
   }
 }
 
-/// Nexi with a speech bubble to his right.
-class NexiSays extends StatelessWidget {
-  const NexiSays({
+/// Nexy with a speech bubble to his right.
+class NexySays extends StatelessWidget {
+  const NexySays({
     super.key,
     required this.text,
-    this.pose = NexiPose.wave,
+    this.pose = NexyPose.wave,
     this.height = 110,
     this.bubble,
     this.textColor,
   });
 
   final String text;
-  final NexiPose pose;
+  final NexyPose pose;
   final double height;
   final Color? bubble;
   final Color? textColor;
@@ -56,7 +58,7 @@ class NexiSays extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
-        Nexi(pose, height: height),
+        Nexy(pose, height: height),
         const SizedBox(width: 6),
         Expanded(
           child: Padding(

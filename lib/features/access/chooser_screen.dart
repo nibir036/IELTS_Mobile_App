@@ -10,7 +10,6 @@ import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import '../../app/widgets/mascot.dart';
 import '../../app/widgets/motion.dart';
-import '../../app/widgets/vivid.dart';
 
 /// Where the student lands after signing in: the two halves of the app.
 ///
@@ -113,7 +112,7 @@ class _ChooserScreenState extends State<ChooserScreen> {
           scrollBack: false,
           padding: const EdgeInsets.fromLTRB(24, 40, 24, 28),
           children: [
-            // The greeting on the left, Nexi in a graduation cap on the right:
+            // The greeting on the left, Nexy in a graduation cap on the right:
             // one picture for both halves (the band score, then the campus).
             Row(
               crossAxisAlignment: CrossAxisAlignment.end,
@@ -142,7 +141,7 @@ class _ChooserScreenState extends State<ChooserScreen> {
                     ),
                   ),
                 ),
-                const FloatY(amplitude: 4, child: Nexi(NexiPose.grad, height: 132)),
+                const FloatY(amplitude: 4, child: Nexy(NexyPose.grad, height: 132)),
               ],
             ),
             const SizedBox(height: 2),
@@ -212,47 +211,87 @@ class _ModeCard extends StatelessWidget {
   final VoidCallback onTap;
   final VividTone tone;
 
+  /// The nextED blue - the app icon's gradient, the same in day and night.
+  static const List<Color> _blue = <Color>[Color(0xFF3977F7), Color(0xFF0B3AC3)];
+
   @override
   Widget build(BuildContext context) {
-    final t = context.tk;
+    final r = BorderRadius.circular(26);
     return Semantics(
       button: true,
       label: '$title. $tagline',
-      child: AppCard(
-        radius: 26,
-        padding: const EdgeInsets.all(20),
-        onTap: onTap,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min,
-          spacing: 10,
-          children: [
-            Row(
-              spacing: 12,
-              children: [
-                VividIcon(icon, tone: tone, size: 48, iconSize: 24, radius: 16),
-                Expanded(
-                  child: Text(
-                    title,
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(fontSize: 21, fontWeight: FontWeight.w700, letterSpacing: -0.4, color: t.text),
-                  ),
+      child: Pressable(
+        scale: 0.975,
+        child: DecoratedBox(
+          decoration: BoxDecoration(
+            borderRadius: r,
+            gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: _blue),
+            boxShadow: <BoxShadow>[
+              BoxShadow(color: _blue.last.withValues(alpha: 0.3), blurRadius: 18, offset: const Offset(0, 8)),
+            ],
+          ),
+          child: Material(
+            type: MaterialType.transparency,
+            borderRadius: r,
+            clipBehavior: Clip.antiAlias,
+            child: InkWell(
+              onTap: onTap,
+              splashColor: Colors.white.withValues(alpha: 0.12),
+              highlightColor: Colors.white.withValues(alpha: 0.06),
+              child: Padding(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  spacing: 10,
+                  children: [
+                    Row(
+                      spacing: 12,
+                      children: [
+                        Container(
+                          width: 48,
+                          height: 48,
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: 0.18),
+                            borderRadius: BorderRadius.circular(16),
+                            border: Border.all(color: Colors.white.withValues(alpha: 0.25)),
+                          ),
+                          child: Icon(icon, size: 24, color: Colors.white),
+                        ),
+                        Expanded(
+                          child: Text(
+                            title,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(
+                              fontSize: 21,
+                              fontWeight: FontWeight.w700,
+                              letterSpacing: -0.4,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                        Container(
+                          width: 36,
+                          height: 36,
+                          decoration: const BoxDecoration(color: Colors.white, shape: BoxShape.circle),
+                          child: Icon(AppIcons.forward, size: 18, color: _blue.last),
+                        ),
+                      ],
+                    ),
+                    Text(
+                      tagline,
+                      style: const TextStyle(fontSize: 15, height: 1.3, fontWeight: FontWeight.w600, color: Colors.white),
+                    ),
+                    Text(
+                      subtitle,
+                      style: TextStyle(fontSize: 13, height: 1.45, color: Colors.white.withValues(alpha: 0.82)),
+                    ),
+                  ],
                 ),
-                Container(
-                  width: 36,
-                  height: 36,
-                  decoration: BoxDecoration(color: t.primary, shape: BoxShape.circle),
-                  child: Icon(AppIcons.forward, size: 18, color: t.onPrimary),
-                ),
-              ],
+              ),
             ),
-            Text(
-              tagline,
-              style: TextStyle(fontSize: 15, height: 1.3, fontWeight: FontWeight.w600, color: t.text),
-            ),
-            Text(subtitle, style: TextStyle(fontSize: 13, height: 1.45, color: t.textMuted)),
-          ],
+          ),
         ),
       ),
     );

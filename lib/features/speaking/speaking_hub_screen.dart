@@ -145,7 +145,7 @@ class _SpeakingHubScreenState extends State<SpeakingHubScreen> {
                       ],
                     ),
                   ),
-                  const FloatY(amplitude: 4, child: Nexi(NexiPose.speaking, height: 112)),
+                  const FloatY(amplitude: 4, child: Nexy(NexyPose.speaking, height: 112)),
                 ],
               ),
               Row(

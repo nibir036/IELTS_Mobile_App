@@ -105,7 +105,7 @@ class Vivid {
     emoji: '💬',
   );
 
-  /// The brand's own peach (Nexi's fur).
+  /// The brand's own peach (Nexy's fur).
   static const brand = VividTone(
     light: Color(0xFFFFC2AE),
     deep: Color(0xFFFF6F55),

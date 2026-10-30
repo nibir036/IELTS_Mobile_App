@@ -259,7 +259,7 @@ class _NextedScholarshipsScreenState extends State<NextedScholarshipsScreen> {
               child: Row(
                 spacing: 12,
                 children: [
-                  const FloatY(amplitude: 3, child: Nexi(NexiPose.point, height: 64)),
+                  const FloatY(amplitude: 3, child: Nexy(NexyPose.point, height: 64)),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -267,7 +267,7 @@ class _NextedScholarshipsScreenState extends State<NextedScholarshipsScreen> {
                       spacing: 3,
                       children: [
                         const Text(
-                          'Nexi’s tip',
+                          'Nexy’s tip',
                           style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700),
                         ),
                         Text(

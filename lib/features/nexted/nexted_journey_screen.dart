@@ -247,7 +247,7 @@ class _NextedJourneyScreenState extends State<NextedJourneyScreen> {
               ],
             ),
           ),
-          const FloatY(child: Nexi(NexiPose.point, height: 118)),
+          const FloatY(child: Nexy(NexyPose.point, height: 118)),
         ],
       ),
     );

@@ -146,7 +146,7 @@ class _PlanPreviewScreenState extends State<PlanPreviewScreen> {
                   ],
                 ),
               ),
-              const Nexi(NexiPose.writing, height: 100),
+              const Nexy(NexyPose.writing, height: 100),
             ],
           ),
         ),

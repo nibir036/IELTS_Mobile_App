@@ -21,7 +21,7 @@ import 'vivid.dart';
 ///  * Study abroad → IELTS: course matches or scholarships have just loaded,
 ///    or an application was just sent ([CrossNudge.toIelts]).
 ///
-/// A bottom sheet with Nexi, one headline, one line and one button. Shown
+/// A bottom sheet with Nexy, one headline, one line and one button. Shown
 /// at every such moment, never twice at once, never over another screen.
 /// The lines can be replaced from the content (`promos.messages.ielts_nudge`
 /// / `abroad_nudge`, see [PromoCards]) like the banners.
@@ -62,7 +62,7 @@ class CrossNudge {
   static const List<JourneyMessage> _toIelts = <JourneyMessage>[
     JourneyMessage(
       'Your dream university is waiting',
-      'A higher IELTS band unlocks more of it. Practise with Nexi.',
+      'A higher IELTS band unlocks more of it. Practise with Nexy.',
     ),
     JourneyMessage(
       'Half a band can change everything',
@@ -268,7 +268,7 @@ class _NudgeSheet extends StatelessWidget {
                 ],
               ),
             ),
-            const FloatY(child: Nexi(NexiPose.grad, height: 112)),
+            const FloatY(child: Nexy(NexyPose.grad, height: 112)),
           ],
         ),
         const SizedBox(height: 20),

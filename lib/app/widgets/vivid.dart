@@ -302,12 +302,12 @@ class PromoItem {
   final VividTone tone;
   final VoidCallback onTap;
 
-  /// Picture on the right instead of Nexi: an `https://` link or an
-  /// `assets/...` path. Falls back to Nexi if it can't be loaded.
+  /// Picture on the right instead of Nexy: an `https://` link or an
+  /// `assets/...` path. Falls back to Nexy if it can't be loaded.
   final String? image;
 
-  /// Nexi in this pose on the right (else [icon]).
-  final NexiPose? pose;
+  /// Nexy in this pose on the right (else [icon]).
+  final NexyPose? pose;
   final IconData? icon;
 
   /// Small label in the top-left ("NEW", "FREE", "AI").
@@ -470,7 +470,7 @@ class _PromoCard extends StatelessWidget {
                             padding: const EdgeInsets.only(bottom: 14),
                             child: _PromoImage(item.image!, pose: item.pose),
                           )
-                        : FloatY(amplitude: 3, child: Nexi(item.pose ?? NexiPose.point, height: 124)),
+                        : FloatY(amplitude: 3, child: Nexy(item.pose ?? NexyPose.point, height: 124)),
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(18, 16, 112, 16),
@@ -569,16 +569,16 @@ class _PromoCard extends StatelessWidget {
   }
 }
 
-/// A custom card's picture (web link or asset), with Nexi as the fallback.
+/// A custom card's picture (web link or asset), with Nexy as the fallback.
 class _PromoImage extends StatelessWidget {
   const _PromoImage(this.src, {this.pose});
 
   final String src;
-  final NexiPose? pose;
+  final NexyPose? pose;
 
   @override
   Widget build(BuildContext context) {
-    Widget fallback(BuildContext _, Object _, StackTrace? _) => Nexi(pose ?? NexiPose.wave, height: 120);
+    Widget fallback(BuildContext _, Object _, StackTrace? _) => Nexy(pose ?? NexyPose.wave, height: 120);
     final img = src.startsWith('http')
         ? Image.network(src, width: 110, height: 120, fit: BoxFit.contain, errorBuilder: fallback)
         : Image.asset(src, width: 110, height: 120, fit: BoxFit.contain, errorBuilder: fallback);
@@ -594,7 +594,7 @@ class _PromoImage extends StatelessWidget {
 
 /// Clean category card: plain surface, a soft tinted icon, the title, one
 /// quiet line, an optional badge and progress line - and, when [pose] is
-/// given, Nexi peeking from the bottom-right corner (the text keeps clear of
+/// given, Nexy peeking from the bottom-right corner (the text keeps clear of
 /// him, so nothing is ever covered).
 class CategoryTile extends StatelessWidget {
   const CategoryTile({
@@ -615,7 +615,7 @@ class CategoryTile extends StatelessWidget {
   final String? subtitle;
   final VividTone tone;
   final VoidCallback onTap;
-  final NexiPose? pose;
+  final NexyPose? pose;
   final IconData? icon;
   final String? badge;
 
@@ -623,19 +623,19 @@ class CategoryTile extends StatelessWidget {
   final double? progress;
   final double height;
 
-  /// 0..1: offsets Nexi's bobbing so tiles don't move in step.
+  /// 0..1: offsets Nexy's bobbing so tiles don't move in step.
   final double floatDelay;
 
-  /// Nexi on the tile. Oct 2026: moved from the bottom-right corner (where it
+  /// Nexy on the tile. Oct 2026: moved from the bottom-right corner (where it
   /// squeezed the titles to "Band descrip...") up to the empty top-right,
   /// beside the icon, so the title and subtitle get the full width.
-  static const bool showNexi = true;
+  static const bool showNexy = true;
 
   @override
   Widget build(BuildContext context) {
     final t = context.tk;
     final v = tone;
-    final hasNexi = showNexi && pose != null;
+    final hasNexy = showNexy && pose != null;
     return Semantics(
       button: true,
       label: [title, ?subtitle, ?badge].join(', '),
@@ -646,14 +646,14 @@ class CategoryTile extends StatelessWidget {
         onTap: onTap,
         child: Stack(
           children: [
-            if (hasNexi)
+            if (hasNexy)
               Positioned(
                 right: 8,
                 top: 6,
                 child: FloatY(
                   amplitude: 2.5,
                   delay: floatDelay,
-                  child: Nexi(pose!, height: height * 0.46),
+                  child: Nexy(pose!, height: height * 0.46),
                 ),
               ),
             Padding(
@@ -679,7 +679,7 @@ class CategoryTile extends StatelessWidget {
                     ],
                   ),
                   const Spacer(),
-                  // Nexi sits above the words, so they use the full width.
+                  // Nexy sits above the words, so they use the full width.
                   Padding(
                     padding: EdgeInsets.zero,
                     child: Column(
@@ -828,7 +828,7 @@ class JourneyMessage {
 }
 
 /// Big "live" banner that links the two halves of the app. The headline
-/// rolls through [messages] every few seconds, Nexi floats on the right with
+/// rolls through [messages] every few seconds, Nexy floats on the right with
 /// little emojis drifting around him, and a soft light sweeps across.
 class JourneyBanner extends StatefulWidget {
   const JourneyBanner({
@@ -838,7 +838,7 @@ class JourneyBanner extends StatefulWidget {
     required this.cta,
     required this.colors,
     required this.onTap,
-    this.pose = NexiPose.grad,
+    this.pose = NexyPose.grad,
     this.emojis = const <String>['✈️', '🎓', '🌍'],
   });
 
@@ -850,7 +850,7 @@ class JourneyBanner extends StatefulWidget {
   /// Background gradient, top-left to bottom-right.
   final List<Color> colors;
   final VoidCallback onTap;
-  final NexiPose pose;
+  final NexyPose pose;
   final List<String> emojis;
 
   @override
@@ -933,7 +933,7 @@ class _JourneyBannerState extends State<JourneyBanner> {
                     Positioned(
                       right: 4,
                       bottom: 0,
-                      child: FloatY(amplitude: 4, child: Nexi(widget.pose, height: 136)),
+                      child: FloatY(amplitude: 4, child: Nexy(widget.pose, height: 136)),
                     ),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(18, 16, 124, 16),

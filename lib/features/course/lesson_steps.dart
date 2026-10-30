@@ -300,7 +300,7 @@ class _RoadmapStep extends StatelessWidget {
             ),
           if (note.isNotEmpty) ...[
             const SizedBox(height: 4),
-            NexiSays(pose: NexiPose.thumbs, height: 96, text: note, bubble: t.isNight ? t.surfaceAlt : Colors.white, textColor: t.text),
+            NexySays(pose: NexyPose.thumbs, height: 96, text: note, bubble: t.isNight ? t.surfaceAlt : Colors.white, textColor: t.text),
           ],
         ],
       ),
@@ -676,7 +676,7 @@ class _PracticeStep extends StatelessWidget {
                   : 'Optional - you can do this now or later.',
               style: TextStyle(fontSize: 12.5, color: t.textMuted)),
           if (tip.isNotEmpty)
-            NexiSays(pose: NexiPose.wave, height: 100, text: tip, bubble: t.isNight ? t.surfaceAlt : Colors.white, textColor: t.text),
+            NexySays(pose: NexyPose.wave, height: 100, text: tip, bubble: t.isNight ? t.surfaceAlt : Colors.white, textColor: t.text),
         ],
       ),
     );

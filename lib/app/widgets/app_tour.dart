@@ -13,7 +13,7 @@ import 'app_icons.dart';
 import 'kit.dart';
 import 'mascot.dart';
 
-// The first-time tour: Nexi walks a new student through the app.
+// The first-time tour: Nexy walks a new student through the app.
 //
 // The screen dims, one real part of it is lit up, and a card next to it
 // says what it is. Some steps are read ("Next"); others ask the student to
@@ -44,7 +44,7 @@ class TourStep {
     required this.title,
     required this.body,
     this.action = TourAction.next,
-    this.pose = NexiPose.point,
+    this.pose = NexyPose.point,
     this.button = 'Next',
     this.radius = 22,
     this.pad = 6,
@@ -56,7 +56,7 @@ class TourStep {
   final String title;
   final String body;
   final TourAction action;
-  final NexiPose pose;
+  final NexyPose pose;
 
   /// Label of the button on a [TourAction.next] step.
   final String button;
@@ -440,7 +440,7 @@ class _TourOverlayState extends State<_TourOverlay> with SingleTickerProviderSta
         child: Center(child: _enter(card)),
       );
     } else {
-      final spot = hole!;
+      final spot = hole;
       // The card goes on the roomier side of the lit-up widget.
       final below = size.height - pad.bottom - spot.bottom;
       final above = spot.top - pad.top;
@@ -578,7 +578,7 @@ class _Spotlight extends CustomPainter {
   bool shouldRepaint(_Spotlight old) => true;
 }
 
-/// Nexi, the step's words, the progress dots and the buttons.
+/// Nexy, the step's words, the progress dots and the buttons.
 class _TourCard extends StatelessWidget {
   const _TourCard({
     super.key,
@@ -636,7 +636,7 @@ class _TourCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   if (big) ...[
-                    Center(child: Nexi(step.pose, height: 104)),
+                    Center(child: Nexy(step.pose, height: 104)),
                     const SizedBox(height: 8),
                     Text(
                       step.title,
@@ -654,7 +654,7 @@ class _TourCard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       spacing: 10,
                       children: [
-                        Nexi(step.pose, height: 62),
+                        Nexy(step.pose, height: 62),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,

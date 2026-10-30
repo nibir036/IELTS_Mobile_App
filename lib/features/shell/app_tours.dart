@@ -11,9 +11,9 @@ import '../../app/widgets/mascot.dart';
 List<TourStep> ieltsTour() => <TourStep>[
       const TourStep(
         title: 'Welcome to nextED',
-        body: 'I’m Nexi, your IELTS coach. Let me show you around - it takes a minute, '
+        body: 'I’m Nexy, your IELTS coach. Let me show you around - it takes a minute, '
             'and you tap through it yourself.',
-        pose: NexiPose.wave,
+        pose: NexyPose.wave,
         button: 'Show me',
       ),
       const TourStep(
@@ -26,7 +26,7 @@ List<TourStep> ieltsTour() => <TourStep>[
         target: 'home.tools',
         title: 'Quick wins, any time',
         body: 'Vocab quizzes, linking words and pronunciation drills. Five minutes here still moves your band.',
-        pose: NexiPose.thumbs,
+        pose: NexyPose.thumbs,
       ),
       const TourStep(
         target: 'nav.practice',
@@ -40,7 +40,7 @@ List<TourStep> ieltsTour() => <TourStep>[
         target: 'practice.modules',
         title: 'Pick a skill',
         body: 'Listening, Reading, Writing and Speaking - full tests, short drills and instant AI band scores with feedback.',
-        pose: NexiPose.reading,
+        pose: NexyPose.reading,
       ),
       const TourStep(
         target: 'nav.mock',
@@ -54,7 +54,7 @@ List<TourStep> ieltsTour() => <TourStep>[
         target: 'mock.new',
         title: 'The real exam, at home',
         body: 'Tap + to start a full computer-based mock with real timing. Your band comes back for every section.',
-        pose: NexiPose.grad,
+        pose: NexyPose.grad,
       ),
       const TourStep(
         target: 'nav.profile',
@@ -80,7 +80,7 @@ List<TourStep> ieltsTour() => <TourStep>[
         target: 'switch.abroad',
         title: 'Study abroad, one tap away',
         body: 'Courses, scholarships and a counsellor who knows your band. Tap this whenever you’re ready.',
-        pose: NexiPose.grad,
+        pose: NexyPose.grad,
         radius: 28,
         when: () => NextedAccess.I.enabled,
       ),
@@ -95,7 +95,7 @@ List<TourStep> ieltsTour() => <TourStep>[
       const TourStep(
         title: 'You’re all set',
         body: 'Start with your study plan. I’ll remind you every day, and every practice gets you closer to your band.',
-        pose: NexiPose.thumbs,
+        pose: NexyPose.thumbs,
         button: 'Let’s go',
       ),
     ];
@@ -106,7 +106,7 @@ List<TourStep> abroadTour() => const <TourStep>[
         title: 'Your study abroad journey',
         body: 'From choosing a country to boarding the plane, nextED is with you at every step. '
             'Here’s a quick look.',
-        pose: NexiPose.grad,
+        pose: NexyPose.grad,
         button: 'Show me',
       ),
       TourStep(
@@ -119,7 +119,7 @@ List<TourStep> abroadTour() => const <TourStep>[
         target: 'abroad.match',
         title: 'Find where you fit',
         body: 'Ask the AI counsellor, get courses ranked for you, and see the scholarships you can win.',
-        pose: NexiPose.thumbs,
+        pose: NexyPose.thumbs,
       ),
       TourStep(
         target: 'abroad.nav.guidance',
@@ -133,7 +133,7 @@ List<TourStep> abroadTour() => const <TourStep>[
         target: 'guidance.first',
         title: 'Eight steps to campus',
         body: 'Everything in the order it happens, and what to do at each step.',
-        pose: NexiPose.reading,
+        pose: NexyPose.reading,
       ),
       TourStep(
         target: 'abroad.nav.documents',
@@ -169,7 +169,7 @@ List<TourStep> abroadTour() => const <TourStep>[
         target: 'abroad.profile.save',
         title: 'The more you add, the better',
         body: 'Fields marked * power course matching and scholarships. Save when you’re done.',
-        pose: NexiPose.writing,
+        pose: NexyPose.writing,
         radius: 30,
       ),
       TourStep(
@@ -184,13 +184,13 @@ List<TourStep> abroadTour() => const <TourStep>[
         target: 'switch.ielts',
         title: 'Need a higher band?',
         body: 'Jump back to IELTS practice from here. A better band opens more universities.',
-        pose: NexiPose.reading,
+        pose: NexyPose.reading,
         radius: 28,
       ),
       TourStep(
         title: 'You’re ready',
         body: 'Start with your profile. It takes five minutes and unlocks everything else.',
-        pose: NexiPose.thumbs,
+        pose: NexyPose.thumbs,
         button: 'Let’s go',
       ),
     ];
