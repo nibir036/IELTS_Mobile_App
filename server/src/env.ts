@@ -81,7 +81,7 @@ export const env = {
     return Boolean(this.r2AccountId && this.r2AccessKeyId && this.r2SecretAccessKey && this.r2Bucket);
   },
 
-  // Payments. Website: bKash Tokenized Checkout. App: Google Play one-time passes.
+  // Payments. Website: bKash Tokenized Checkout v2. App: Google Play one-time passes.
   /** The website's address: bKash returns the student there (callback URLs must start with it). */
   websiteUrl: str('WEBSITE_URL', 'https://ielts.nexted.app').replace(/\/$/, ''),
   /**
@@ -89,11 +89,15 @@ export const env = {
    * website's address without https:// ; WELCOME_SMS=off sends nothing.
    */
   welcomeSms: str('WELCOME_SMS', 'Welcome to IELTS AI by nextED. Subscribe from our website to avail a 40% discount: {site}'),
-  bkashBaseUrl: str('BKASH_BASE_URL', 'https://tokenized.sandbox.bka.sh/v1.2.0-beta').replace(/\/$/, ''),
-  bkashAppKey: str('BKASH_APP_KEY'),
-  bkashAppSecret: str('BKASH_APP_SECRET'),
-  bkashUsername: str('BKASH_USERNAME'),
-  bkashPassword: str('BKASH_PASSWORD'),
+  /** bKash Tokenized Checkout v2 (without agreement). Live: https://tokenized.pay.bka.sh/v2 */
+  bkashBaseUrl: str('BKASH_BASE_URL', 'https://tokenized.sandbox.bka.sh/v2').replace(/\/$/, ''),
+  // The names bKash gives the credentials; the older BKASH_APP_KEY etc. still work.
+  bkashAppKey: str('BKASH_CHECKOUT_URL_APP_KEY') || str('BKASH_APP_KEY'),
+  bkashAppSecret: str('BKASH_CHECKOUT_URL_APP_SECRET') || str('BKASH_APP_SECRET'),
+  bkashUsername: str('BKASH_CHECKOUT_URL_USER_NAME') || str('BKASH_USERNAME'),
+  bkashPassword: str('BKASH_CHECKOUT_URL_PASSWORD') || str('BKASH_PASSWORD'),
+  /** How long to wait for bKash before treating a call as "no response" (then query payment). */
+  bkashTimeoutMs: num('BKASH_TIMEOUT_SECONDS', 30) * 1000,
   googlePlayPackage: str('GOOGLE_PLAY_PACKAGE', 'com.nextedadvisors.app'),
   /** Service account JSON key (raw or base64) with access to the Play Console. */
   googlePlayServiceAccount: str('GOOGLE_PLAY_SERVICE_ACCOUNT'),
