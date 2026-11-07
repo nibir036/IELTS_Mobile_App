@@ -1,7 +1,7 @@
 // Pro passes: the plan the student holds, Google Play purchases (app) and
 // bKash Tokenized Checkout without agreement (website, see lib/billing/bkash.ts).
 //
-//   GET    /v1/billing                      plan, dates, payment method, upgrade
+//   GET    /v1/billing                      plan, dates, payment method, upgrade, demoPasses
 //   PATCH  /v1/billing                      {autoRenew}
 //   DELETE /v1/billing/payment-method       forget a saved bKash wallet
 //   POST   /v1/billing/google/verify        {productId, purchaseToken}
@@ -14,11 +14,14 @@
 //   GET    /v1/billing/bkash/payments?limit=20      latest bKash payments
 //   POST   /v1/billing/bkash/refund                 {paymentID, amount?, reason?}
 //   POST   /v1/billing/bkash/refund-status          {paymentID}
+//
+// Students' refund requests and the /admin/refunds page: routes/refunds.ts.
 
 import { createHash, timingSafeEqual } from 'node:crypto';
 import { prisma } from '../db';
 import { env } from '../env';
-import { badRequest, forbidden, HttpError, int, rateLimit, required, Router, s, type Ctx } from '../lib/http';
+import { requireAdmin } from '../lib/admin';
+import { badRequest, forbidden, HttpError, int, rateLimit, required, Router, s } from '../lib/http';
 import { requireUser } from '../lib/users';
 import {
   BkashNoResponse,
@@ -29,12 +32,11 @@ import {
   maskWallet,
   pick,
   queryPayment,
-  refundPayment,
-  refundStatus,
   type BkashResult,
 } from '../lib/billing/bkash';
 import { consumePurchase, getProductPurchase } from '../lib/billing/google';
-import { passById, passByProduct } from '../lib/billing/passes';
+import { demoPasses, passById, passByProduct } from '../lib/billing/passes';
+import { bkashRefunds, refundBkashPayment, refundsOf, type PaidPayment } from '../lib/billing/refunds';
 import { billingSummary, grantPass, setAutoRenew } from '../lib/billing/subscriptions';
 
 type Row = Record<string, unknown>;
@@ -90,18 +92,11 @@ async function startPayment(userId: string, passId: string, callbackURL: string)
   return created.bkashURL;
 }
 
-/** Admin calls: X-Admin-Token must equal ADMIN_TOKEN (24+ characters). */
-function requireAdmin(ctx: Ctx): void {
-  const want = Buffer.from(env.adminToken);
-  if (want.length < 24) throw new HttpError(503, 'Admin calls are off: ADMIN_TOKEN must be at least 24 characters.', 'admin_off');
-  rateLimit(`admin:${ctx.ip}`, 600, 3600);
-  const got = Buffer.from(s(ctx.req.headers['x-admin-token'], 300));
-  if (got.length !== want.length || !timingSafeEqual(got, want)) throw new HttpError(401, 'Wrong admin token.', 'bad_admin_token');
-}
-
 type PayRow = {
   id: string;
   userId: string;
+  provider: string;
+  providerRef: string;
   kind: string;
   passId: string | null;
   amount: number | null;
@@ -110,12 +105,6 @@ type PayRow = {
   meta: Row | null;
   createdAt: Date;
 };
-
-type Refund = { refundTrxID: string; amount: number; reason: string; at: string };
-
-function refundsOf(meta: Row | null): Refund[] {
-  return Array.isArray(meta?.refunds) ? (meta!.refunds as Refund[]) : [];
-}
 
 /** The bKash fields worth keeping on the payment (no secrets). */
 function bkashFields(r: BkashResult): Row {
@@ -130,7 +119,21 @@ function bkashFields(r: BkashResult): Row {
 export function registerBillingRoutes(r: Router): void {
   r.get('/v1/billing', async (ctx) => {
     const userId = requireUser(ctx);
-    return { ...(await billingSummary(userId)), playAccountId: playAccountId(userId), bkash: bkashConfigured(), bkashSavedWallet: false };
+    return {
+      ...(await billingSummary(userId)),
+      playAccountId: playAccountId(userId),
+      bkash: bkashConfigured(),
+      bkashSavedWallet: false,
+      // BKASH_DEMO_PASSES=1: 1-taka test passes, shown on the website's Plans page only.
+      demoPasses: demoPasses().map((p) => ({
+        id: p.id,
+        name: p.name,
+        days: p.days,
+        price: p.webPrice,
+        badge: 'Demo',
+        pitch: 'For testing bKash payments: a real 1 taka charge that gives Pro for 1 day.',
+      })),
+    };
   });
 
   r.patch('/v1/billing', async (ctx) => {
@@ -323,7 +326,13 @@ export function registerBillingRoutes(r: Router): void {
       data: {
         status: 'completed',
         trxId: trxID,
-        meta: { ...meta, via, bkash: bkashFields(result), wallet: maskWallet(pick(result.data, 'customerMsisdn', 'payerAccount')) || null },
+        meta: {
+          ...meta,
+          via,
+          bkash: bkashFields(result),
+          wallet: maskWallet(pick(result.data, 'customerMsisdn', 'payerAccount')) || null,
+          paidAt: new Date().toISOString(),
+        },
       },
     });
     if (claimed.count === 1) {
@@ -340,7 +349,7 @@ export function registerBillingRoutes(r: Router): void {
       where: { provider: 'bkash' },
       orderBy: { createdAt: 'desc' },
       take: int(ctx.query.get('limit') ?? undefined, 20, 1, 100),
-    })) as Array<PayRow & { providerRef: string }>;
+    })) as PayRow[];
     return {
       payments: rows.map((p) => ({
         paymentID: p.providerRef,
@@ -358,58 +367,30 @@ export function registerBillingRoutes(r: Router): void {
     requireAdmin(ctx);
     const paymentID = required(ctx.body, 'paymentID', 200);
     const reason = s(ctx.body.reason, 200).trim() || 'Refund requested';
-    const pay = (await prisma.payment.findUnique({ where: { providerRef: paymentID } })) as PayRow | null;
-    if (!pay || pay.kind !== 'payment') throw badRequest('Unknown bKash payment.', 'bad_payment');
-    if (pay.status !== 'completed' || !pay.trxId) throw badRequest(`Only completed payments can be refunded (this one is ${pay.status}).`, 'not_refundable');
-    const meta = pay.meta ?? {};
-    const done = refundsOf(meta);
-    const left = (pay.amount ?? 0) - done.reduce((n, x) => n + x.amount, 0);
-    const amount = ctx.body.amount === undefined || ctx.body.amount === null || ctx.body.amount === '' ? left : Number(ctx.body.amount);
-    if (!Number.isFinite(amount) || amount <= 0 || amount > left) throw badRequest(`Refund amount must be more than 0 and at most ${left}.`, 'bad_amount');
-
-    let result: BkashResult;
-    try {
-      result = await refundPayment({ paymentID, trxID: pay.trxId, amount, reason });
-    } catch (e) {
-      if (!(e instanceof BkashNoResponse)) throw e;
-      // No answer: never retry blindly (it could refund twice). Show what bKash has.
-      const st = await refundStatus(paymentID, pay.trxId).catch(() => null);
-      return { done: false, message: 'bKash did not answer the refund. Check the refund status below before trying again.', refundStatus: st?.data ?? null };
-    }
-    const refundTrxID = pick(result.data, 'refundTrxId', 'refundTrxID');
-    if (!result.ok || pick(result.data, 'refundTransactionStatus', 'transactionStatus') !== 'Completed' || !refundTrxID) {
-      return { done: false, message: failureMessage(result, 'bKash did not complete the refund.'), bkash: bkashFields(result) };
-    }
-
-    const refunds = [...done, { refundTrxID, amount, reason, at: new Date().toISOString() }];
-    const full = left - amount <= 0;
-    await prisma.payment.update({ where: { id: pay.id }, data: { status: full ? 'refunded' : 'completed', meta: { ...meta, refunds } } });
-    // A full refund ends the pass it bought.
-    if (full) await prisma.subscription.updateMany({ where: { providerRef: paymentID, provider: 'bkash' }, data: { status: 'refunded', autoRenew: false } });
+    const pay = (await prisma.payment.findUnique({ where: { providerRef: paymentID } })) as PaidPayment | null;
+    if (!pay) throw badRequest('Unknown bKash payment.', 'bad_payment');
+    const raw = ctx.body.amount;
+    const amount = raw === undefined || raw === null || raw === '' ? undefined : Number(raw);
+    const r = await refundBkashPayment(pay, reason, amount);
+    if (!r.ok) return { done: false, message: r.message, ...(r.noResponse ? { refundStatus: r.refundStatus } : {}) };
     return {
       done: true,
       paymentID,
       originalTrxID: pay.trxId,
-      refundTrxID,
-      refundAmount: amount,
+      refundTrxID: r.refundTrxID,
+      refundAmount: r.amount,
       refundTransactionStatus: 'Completed',
-      completedTime: pick(result.data, 'completedTime') || null,
-      fullyRefunded: full,
+      completedTime: r.completedTime,
+      fullyRefunded: r.fullyRefunded,
     };
   });
 
   r.post('/v1/billing/bkash/refund-status', async (ctx) => {
     requireAdmin(ctx);
     const paymentID = required(ctx.body, 'paymentID', 200);
-    const pay = (await prisma.payment.findUnique({ where: { providerRef: paymentID } })) as PayRow | null;
+    const pay = (await prisma.payment.findUnique({ where: { providerRef: paymentID } })) as PaidPayment | null;
     if (!pay?.trxId) throw badRequest('Unknown or unpaid bKash payment.', 'bad_payment');
-    let result: BkashResult;
-    try {
-      result = await refundStatus(paymentID, pay.trxId);
-    } catch (e) {
-      if (e instanceof BkashNoResponse) throw new HttpError(502, 'bKash did not answer. Try again in a minute.', 'bkash_unavailable');
-      throw e;
-    }
+    const result = await bkashRefunds(pay);
     return { ok: result.ok, recorded: refundsOf(pay.meta), bkash: result.data };
   });
 }

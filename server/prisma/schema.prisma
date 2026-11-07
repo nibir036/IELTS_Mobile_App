@@ -620,6 +620,7 @@ model User {
   subscriptions Subscription[]
   paymentMethods PaymentMethod[]
   payments      Payment[]
+  refundRequests RefundRequest[]
   usageEvents   UsageEvent[]
   devices       Device[]
 
@@ -955,10 +956,40 @@ model Payment {
   createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
   updatedAt   DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
 
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user          User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  refundRequest RefundRequest?
 
   @@index([userId, createdAt])
   @@map("payments")
+}
+
+/// A student's request to refund a website (bKash) pass, made on the IELTS
+/// website within 7 days of paying and decided on the API's /admin/refunds
+/// page. One request per payment.
+model RefundRequest {
+  id           String    @id @default(cuid())
+  paymentId    String    @unique @map("payment_id")
+  userId       String    @map("user_id")
+  reason       String
+  /// requested | processing (bKash is being asked) | refunded | refused
+  status       String    @default("requested")
+  /// BDT sent back (set when refunded).
+  amount       Int?
+  refundTrxId  String?   @map("refund_trx_id")
+  /// Why it was refused (the student sees it), or a staff note.
+  decisionNote String?   @map("decision_note")
+  /// The staff member's name, as typed on the admin page.
+  decidedBy    String?   @map("decided_by")
+  decidedAt    DateTime? @map("decided_at") @db.Timestamptz(3)
+  createdAt    DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt    DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  payment Payment @relation(fields: [paymentId], references: [id], onDelete: Cascade)
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([status, createdAt])
+  @@index([userId])
+  @@map("refund_requests")
 }
 
 /// App content packs: the JSON files the app and the website read (question

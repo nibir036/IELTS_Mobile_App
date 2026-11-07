@@ -98,6 +98,14 @@ export const env = {
   bkashPassword: str('BKASH_CHECKOUT_URL_PASSWORD') || str('BKASH_PASSWORD'),
   /** How long to wait for bKash before treating a call as "no response" (then query payment). */
   bkashTimeoutMs: num('BKASH_TIMEOUT_SECONDS', 30) * 1000,
+  /** Print bKash's full JSON answers in the server log (sandbox only; for bKash's response sheet). */
+  bkashLogResponses: str('BKASH_LOG_RESPONSES') === '1',
+  /**
+   * BKASH_DEMO_PASSES=1 adds two 1-taka "Demo" passes to the website's Plans
+   * page, for testing bKash with real money. Website only (never in the app).
+   * Turn it off after testing.
+   */
+  bkashDemoPasses: str('BKASH_DEMO_PASSES') === '1',
   googlePlayPackage: str('GOOGLE_PLAY_PACKAGE', 'com.nextedadvisors.app'),
   /** Service account JSON key (raw or base64) with access to the Play Console. */
   googlePlayServiceAccount: str('GOOGLE_PLAY_SERVICE_ACCOUNT'),

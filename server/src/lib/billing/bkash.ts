@@ -82,6 +82,11 @@ function safe(data: Json): Json {
   return out;
 }
 
+/** BKASH_LOG_RESPONSES=1 prints bKash's full answers (tokens included), only against the sandbox. */
+function fullLog(): boolean {
+  return env.bkashLogResponses && /sandbox/i.test(env.bkashBaseUrl);
+}
+
 async function post(path: string, body: Json, headers: Record<string, string>): Promise<BkashResult> {
   const url = `${env.bkashBaseUrl}/tokenized-checkout/${path}`;
   let res: Response;
@@ -111,6 +116,10 @@ async function post(path: string, body: Json, headers: Record<string, string>): 
   }
   const ok = res.ok && !bkashError(data);
   if (!ok) console.error(`[bkash] ${path}: HTTP ${res.status}`, safe(data));
+  if (fullLog()) {
+    // For bKash's sandbox response sheet: the exact JSON bKash returned, with the time.
+    console.log(`\n[bkash:full] ${new Date().toISOString()} ${path} (HTTP ${res.status})\n${JSON.stringify(data, null, 2)}\n`);
+  }
   return { ok, http: res.status, data };
 }
 

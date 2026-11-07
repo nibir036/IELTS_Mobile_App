@@ -8,6 +8,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { gunzipSync } from 'node:zlib';
 import { prisma } from '../../db';
+import { env } from '../../env';
 import { packBody } from '../packs';
 
 export interface Pass {
@@ -43,10 +44,35 @@ function parse(ui: Raw): Pass[] {
     .sort((a, b) => a.days - b.days);
 }
 
+/**
+ * Two 1-taka passes for testing bKash with real money (BKASH_DEMO_PASSES=1).
+ * Website only: they have no Google Play product, so the app can't buy them,
+ * and the app's Plans screen lists the passes from the content pack, not these.
+ */
+const DEMO_PASSES: Pass[] = [
+  { id: 'demo1', name: 'Demo 1', days: 1, webPrice: 1, appPrice: 0, playProductId: '' },
+  { id: 'demo2', name: 'Demo 2', days: 1, webPrice: 1, appPrice: 0, playProductId: '' },
+];
+
+/** The demo passes, when they are switched on (empty otherwise). */
+export function demoPasses(): Pass[] {
+  return env.bkashDemoPasses ? DEMO_PASSES : [];
+}
+
+/** The real passes plus the demo ones (when on), shortest first. */
+function withDemo(list: Pass[]): Pass[] {
+  const demo = demoPasses();
+  return demo.length ? [...demo, ...list].sort((a, b) => a.days - b.days) : list;
+}
+
 let cache: { version: string; passes: Pass[] } | null = null;
 
-/** The passes, shortest first (from the database's ui pack; the repo file as a fallback). */
+/** The passes, shortest first (from the database's ui pack; the repo file as a fallback), plus the demo ones when on. */
 export async function passes(): Promise<Pass[]> {
+  return withDemo(await contentPasses());
+}
+
+async function contentPasses(): Promise<Pass[]> {
   try {
     const body = await packBody(prisma, 'ui');
     if (body) {
