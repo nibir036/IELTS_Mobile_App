@@ -31,7 +31,7 @@ e7dbb495cb50c222 README.md
 e3b0c44298fc1c14 app/__init__.py
 e3b0c44298fc1c14 app/api/__init__.py
 b113b779ae759cf4 app/api/schemas.py
-6f8fa8d2488cc757 app/api/service.py
+dc984f6ad9cd10bc app/api/service.py
 f6c3af294eb98a37 app/config.py
 e3b0c44298fc1c14 app/core/__init__.py
 d7f3a5c7bdf927e6 app/core/budget.py
@@ -47,10 +47,10 @@ d639010a7df332a6 app/core/numbers.py
 7a77d3fd76e4111a app/core/search.py
 402d1a24d0687253 app/errors.py
 e3b0c44298fc1c14 app/graphs/__init__.py
-606561e18f707502 app/graphs/counsellor.py
+bce16a7cc63fb90c app/graphs/counsellor.py
 cf1b710cbf85ddbd app/graphs/courses.py
 883b623007b27d76 app/graphs/nodes.py
-0adbf7ef6d67382b app/graphs/runner.py
+728c4d202ab120c1 app/graphs/runner.py
 4dc9ae46a34b8e5f app/graphs/scholarships.py
 3df2c2017f274be5 app/main.py
 e3b0c44298fc1c14 app/providers/__init__.py
@@ -79,7 +79,7 @@ d370d7a8ade5a95f examples/students/strong.json
 38b2837962e6cad9 requirements.txt
 e3b0c44298fc1c14 tests/__init__.py
 2fc4bc434c0e3c95 tests/run.py
-c84a5cd82c3a5aa7 tests/test_core.py
+31139ab03368d869 tests/test_core.py
 179d54ea1fd078a1 tests/test_service.py
 9049f819b724a7fc try.py
 """

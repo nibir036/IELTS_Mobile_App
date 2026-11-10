@@ -114,6 +114,8 @@ class GraphState(TypedDict, total=False):
     agent_failed: bool
     profile_updates: dict
     memory_block: str
+    # (label, old, new) for profile details changed since the last reply.
+    profile_changes: list
     actions: list
 
 

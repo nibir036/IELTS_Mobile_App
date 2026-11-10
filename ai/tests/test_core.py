@@ -870,3 +870,104 @@ def test_an_article_url_costs_nothing_to_reject():
     )
     asyncio.run(extract_from_page(CountingLLM(), award, kind="scholarship"))
     assert called["n"] == 1
+
+# ================================================ counsellor: profile edits
+def _cs_profile():
+    return StudentProfile.model_validate({
+        "subject": "Computer Science", "ieltsBand": "6.5", "preferredCountry": "UK",
+        "studyLevel": "Masters", "name": "Rafi",
+    })
+
+
+def _econ_profile():
+    return StudentProfile.model_validate({
+        "subject": "Economics", "ieltsBand": "7.0", "preferredCountry": "UK",
+        "studyLevel": "Masters", "name": "Rafi",
+    })
+
+
+def test_profile_edits_are_noticed():
+    from app.graphs.counsellor_tools import profile_changes, profile_snapshot
+
+    before = profile_snapshot(_cs_profile())
+    changes = profile_changes(before, _econ_profile())
+    labels = {c[0]: (c[1], c[2]) for c in changes}
+    assert labels["Subject you want to study"] == ("Computer Science", "Economics")
+    assert labels["IELTS band"] == ("6.5", "7.0")
+    assert "Preferred country" not in labels  # unchanged
+    # Same value, different case or spacing: not a change.
+    assert profile_changes(before, StudentProfile.model_validate(
+        {**before, "subject": "computer  science", "ieltsBand": "6.5",
+         "preferredCountry": "UK", "studyLevel": "Masters", "name": "Rafi"})) == []
+    # First time the counsellor sees this student: nothing to compare with.
+    assert profile_changes(None, _econ_profile()) == []
+    # A detail filled in for the first time contradicts nothing.
+    assert profile_changes({"subject": ""}, _econ_profile()) == []
+
+
+def test_counsellor_is_told_the_profile_is_current_and_what_changed():
+    from app.graphs.counsellor import _student_file
+
+    state = {
+        "profile": _econ_profile(),
+        "profile_changes": [("Subject you want to study", "Computer Science", "Economics"),
+                            ("IELTS band", "6.5", "7.0")],
+        "memory_block": "- Wants a Computer Science masters in the UK, IELTS 6.5",
+    }
+    text = _student_file(state)
+    assert "Economics" in text and "7.0" in text
+    assert "always right" in text
+    assert "was Computer Science, now Economics" in text
+    assert "was 6.5, now 7.0" in text
+    # The old notes are marked as older than the update.
+    assert "written before the profile update" in text
+    # Without an edit: the rule is still there, the change list is not.
+    plain = _student_file({"profile": _econ_profile()})
+    assert "always right" in plain and "PROFILE JUST UPDATED" not in plain
+
+
+def test_counsellor_context_reports_the_edit_and_the_service_remembers_the_new_profile():
+    import asyncio
+
+    from app.api.service import Counsellor
+    from app.graphs.counsellor_tools import profile_snapshot
+    from app.kb.retrieve import counsellor_context
+
+    class FakeKB:
+        ready = True
+        vectors = False
+
+        def __init__(self):
+            self.seen = {"s1": profile_snapshot(_cs_profile())}
+
+        async def search_docs(self, *a, **k):
+            return []
+
+        async def recent_searches(self, *a, **k):
+            return []
+
+        async def recent_messages(self, *a, **k):
+            return [{"role": "counsellor", "content": "As a Computer Science student with IELTS 6.5 ..."}]
+
+        async def memory(self, *a, **k):
+            return ("", 0)
+
+        async def counsellor_profile(self, student_id):
+            return self.seen.get(student_id)
+
+        async def save_counsellor_profile(self, student_id, profile):
+            self.seen[student_id] = profile
+
+    kb = FakeKB()
+    state = {"kb": kb, "embedder": None, "store": None, "student_id": "s1",
+             "profile": _econ_profile(), "message": "Which universities should I try?"}
+    out = asyncio.run(counsellor_context(state))
+    assert ("Subject you want to study", "Computer Science", "Economics") in out["profile_changes"]
+
+    # After the reply the service keeps the new profile: the next message
+    # is not told about the same edit again.
+    service = Counsellor.__new__(Counsellor)
+    service.kb = kb
+    asyncio.run(service._seen_profile("s1", _econ_profile()))
+    again = asyncio.run(counsellor_context(state))
+    assert "profile_changes" not in again

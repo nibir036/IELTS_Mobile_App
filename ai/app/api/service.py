@@ -121,6 +121,19 @@ class Counsellor:
             return
         self._later(self._update_memory(student_id))
 
+    async def _seen_profile(self, student_id: str, profile: StudentProfile) -> None:
+        """Remember the profile this reply was given, so the next reply can be
+        told what the student changed in between (see counsellor_context)."""
+        kb = self.kb
+        if not kb or not kb.ready:
+            return
+        try:
+            from app.graphs.counsellor_tools import profile_snapshot
+
+            await kb.save_counsellor_profile(student_id, profile_snapshot(profile))
+        except Exception as exc:  # noqa: BLE001
+            log.warning("saving the counsellor's profile copy failed: %s", exc)
+
     # Long-term memory: the counsellor reads the last 14 messages word for
     # word; once more than this many older ones pile up, they are folded
     # into a running summary that is kept for good.
@@ -141,10 +154,13 @@ class Counsellor:
             )
             data = await self.llm.complete_json(
                 "You keep a nextED counsellor's long-term notes about one student. Merge the "
-                "existing notes with the new conversation. Keep: goals, preferred countries, "
-                "subjects and levels, results and scores mentioned, budget or funding concerns, "
-                "decisions made, worries, what nextED suggested, and open next steps. Drop "
-                "small talk. Plain short bullet lines, under 220 words. Return JSON {\"summary\": \"...\"}.",
+                "existing notes with the new conversation. Keep: goals, budget or funding concerns, "
+                "decisions made, worries, what nextED suggested, and open next steps. Do NOT "
+                "record profile details (subject, study level, IELTS or other scores, GPA or "
+                "results, preferred country or intake, education): the student edits those in "
+                "their profile, which the counsellor always sees, so a copy here only goes out "
+                "of date. Drop them from the existing notes too. Drop small talk. Plain short "
+                "bullet lines, under 220 words. Return JSON {\"summary\": \"...\"}.",
                 f"Existing notes:\n{summary or '(none)'}\n\nNew conversation:\n{transcript}",
                 {"type": "object", "properties": {"summary": {"type": "string"}}, "required": ["summary"]},
                 fast=True, label="memory",
@@ -204,6 +220,7 @@ class Counsellor:
             result = await self._counsellor.run(state)
         body = self._counsellor_body(result, profile, student_id)
         await self._remember(student_id, message, result.get("reply", ""), self._meta(body))
+        await self._seen_profile(student_id, profile)
         return body
 
     @staticmethod
@@ -265,6 +282,7 @@ class Counsellor:
                     result = value  # type: ignore[assignment]
         body = self._counsellor_body(result, profile, student_id)
         await self._remember(student_id, message, result.get("reply", ""), self._meta(body))
+        await self._seen_profile(student_id, profile)
         yield ("done", body)
 
     # ----------------------------------------------------------- 2. courses

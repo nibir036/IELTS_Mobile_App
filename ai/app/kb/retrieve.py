@@ -591,6 +591,20 @@ async def counsellor_context(state: dict) -> dict:
     # truth (another device, a reinstall, a new login all continue the same
     # conversation). The recent messages are read word for word; everything
     # older is in the long-term memory summary.
+    # What the student changed in their profile since the counsellor last
+    # answered them (saved again after each reply, in the service).
+    try:
+        from app.graphs.counsellor_tools import profile_changes
+
+        before = await kb.counsellor_profile(student_id)
+        changes = profile_changes(before, state["profile"])
+        if changes:
+            out["profile_changes"] = changes
+            log.info("counsellor: profile changed since the last reply (%s)",
+                     ", ".join(c[0] for c in changes))
+    except Exception as exc:  # noqa: BLE001
+        log.warning("profile change check failed: %s", exc)
+
     try:
         recent = await kb.recent_messages(student_id, limit=14)
         if recent:

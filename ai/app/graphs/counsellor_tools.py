@@ -77,6 +77,30 @@ def missing_fields(profile: StudentProfile, updates: dict | None = None) -> list
     return [f for f in REQUIRED if not value_of(profile, f, updates)]
 
 
+def profile_snapshot(profile: StudentProfile) -> dict[str, str]:
+    """The profile as {Node field: value}, for noticing later edits."""
+    return {f: value_of(profile, f) for f in FIELD_MAP}
+
+
+def _same(a: str, b: str) -> bool:
+    return " ".join(str(a).lower().split()) == " ".join(str(b).lower().split())
+
+
+def profile_changes(before: dict | None, profile: StudentProfile) -> list[tuple[str, str, str]]:
+    """[(label, old value, new value)] for each detail the student changed or
+    removed since `before`. A detail filled in for the first time is not a
+    change: nothing earlier can contradict it."""
+    if not before:
+        return []
+    out = []
+    for field in FIELD_MAP:
+        old = str(before.get(field) or "").strip()
+        new = value_of(profile, field)
+        if old and not _same(old, new):
+            out.append((LABELS.get(field, field), old, new))
+    return out
+
+
 # ------------------------------------------------------------------ schemas
 def _schema(name: str, description: str, properties: dict | None = None, required=None) -> dict:
     return {

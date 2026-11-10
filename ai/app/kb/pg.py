@@ -12,6 +12,9 @@ Tables (created on first start, safe to re-run):
   student_profiles  each student's latest profile and its vector
   student_searches  what each student searched and was shown
   chat_messages     the counsellor conversation, per student
+  student_memory    the counsellor's long-term notes, per student
+  counsellor_profiles  the profile the counsellor last answered with, per
+                    student (to notice when the student changes it)
   kb_meta           settings the tables were built with (vector size)
 """
 from __future__ import annotations
@@ -171,6 +174,17 @@ class KnowledgeBase:
               student_id TEXT PRIMARY KEY,
               summary TEXT NOT NULL DEFAULT '',
               upto_id BIGINT NOT NULL DEFAULT 0,
+              updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+            )""")
+
+        # The profile the counsellor last answered with. When the student
+        # edits their profile, the next reply is told what changed, so the
+        # conversation so far (which may say "Computer Science, IELTS 6.5")
+        # does not outweigh what they have just saved.
+        self._exec("""
+            CREATE TABLE IF NOT EXISTS counsellor_profiles (
+              student_id TEXT PRIMARY KEY,
+              profile JSONB NOT NULL DEFAULT '{}',
               updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
             )""")
 
@@ -380,12 +394,35 @@ class KnowledgeBase:
     async def clear_thread(self, student_id: str) -> None:
         await self.run("DELETE FROM chat_messages WHERE student_id = %s", (student_id,))
         await self.run("DELETE FROM student_memory WHERE student_id = %s", (student_id,))
+        await self.run("DELETE FROM counsellor_profiles WHERE student_id = %s", (student_id,))
 
     async def memory(self, student_id: str) -> tuple[str, int]:
         """(summary of the older conversation, last message id it covers)."""
         row = await self.run(
             "SELECT summary, upto_id FROM student_memory WHERE student_id = %s", (student_id,), fetch="one")
         return (row[0], int(row[1])) if row else ("", 0)
+
+    async def counsellor_profile(self, student_id: str) -> dict | None:
+        """The profile the counsellor last answered this student with (None: never)."""
+        row = await self.run(
+            "SELECT profile FROM counsellor_profiles WHERE student_id = %s", (student_id,), fetch="one")
+        if not row:
+            return None
+        value = row[0]
+        if isinstance(value, str):
+            try:
+                value = json.loads(value)
+            except ValueError:
+                return None
+        return value if isinstance(value, dict) else None
+
+    async def save_counsellor_profile(self, student_id: str, profile: dict) -> None:
+        await self.run(
+            """INSERT INTO counsellor_profiles (student_id, profile, updated_at)
+               VALUES (%s, %s::jsonb, now())
+               ON CONFLICT (student_id) DO UPDATE SET profile = EXCLUDED.profile, updated_at = now()""",
+            (student_id, json.dumps(profile, ensure_ascii=False)),
+        )
 
     async def messages_after(self, student_id: str, after_id: int, limit: int = 60) -> list[dict]:
         rows = await self.run(

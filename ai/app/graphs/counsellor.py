@@ -305,8 +305,12 @@ def _reply_text(data) -> str:
 
 async def compose(state: dict) -> dict:
     profile: StudentProfile = state["profile"]
-    parts = ["What we know about this student:"]
+    parts = ["What we know about this student (their profile as saved right now):"]
     parts.extend(profile.summary_lines())
+    parts.append(CURRENT_PROFILE_RULE)
+    parts.extend(_profile_change_lines(state))
+    if state.get("memory_block"):
+        parts.append("\n" + _memory_heading(state) + state["memory_block"])
     if state.get("facts_block"):
         parts.append("\n" + state["facts_block"])
     if state.get("rag_block"):
@@ -379,6 +383,43 @@ async def compose(state: dict) -> dict:
     return {"reply": reply, "used_model": True}
 
 
+# The profile is edited in the app and on the website at any time; the chat,
+# the long-term notes and past searches are history. Without this the model
+# keeps answering from what was said before ("as a Computer Science student
+# with IELTS 6.5") after the student has changed both.
+CURRENT_PROFILE_RULE = (
+    "The profile details above are the student's profile as saved RIGHT NOW. "
+    "They are always right. If the earlier conversation, the long-term memory "
+    "or their past searches say something different (another subject, level, "
+    "score, result, country or intake), the student has since changed it: use "
+    "the details above, and never describe the old ones as current."
+)
+
+
+def _profile_change_lines(state: dict) -> list[str]:
+    changes = state.get("profile_changes") or []
+    if not changes:
+        return []
+    lines = ["", "PROFILE JUST UPDATED by the student since your last reply:"]
+    for label, old, new in changes:
+        lines.append(f"- {label}: was {old}, now {new}" if new else f"- {label}: was {old}, now removed")
+    lines.append(
+        "Base this answer on the new details. Acknowledge the change in a few "
+        "words if it matters to their question (e.g. \"With Economics and "
+        "IELTS 7.0 now on your profile, ...\"), then answer for the new details. "
+        "Anything earlier in the conversation that relied on the old details no "
+        "longer applies."
+    )
+    return lines
+
+
+def _memory_heading(state: dict) -> str:
+    heading = "LONG-TERM MEMORY (summary of earlier conversations with this student)"
+    if state.get("profile_changes"):
+        heading += " - written before the profile update above; where it disagrees with the profile, the profile is right"
+    return heading + ":\n"
+
+
 def _student_file(state: dict) -> str:
     profile: StudentProfile = state["profile"]
     updates = state.get("profile_updates") or {}
@@ -388,8 +429,10 @@ def _student_file(state: dict) -> str:
     lines += known or ["- (nothing saved yet)"]
     missing = [tools.LABELS[f] for f in tools.missing_fields(profile, updates)]
     lines.append("Missing for course/scholarship matching: " + (", ".join(missing) if missing else "nothing - profile complete"))
+    lines.append(CURRENT_PROFILE_RULE)
+    lines += _profile_change_lines(state)
     if state.get("memory_block"):
-        lines.append("\nLONG-TERM MEMORY (summary of earlier conversations with this student):\n" + state["memory_block"])
+        lines.append("\n" + _memory_heading(state) + state["memory_block"])
     if state.get("facts_block"):
         lines.append("\n" + state["facts_block"])
     if state.get("rag_block"):
