@@ -46,6 +46,9 @@ def _fact_out(fact) -> dict | None:
 async def _assemble(state: dict) -> dict:
     phrased = state.get("phrased") or {}
     pairs = state.get("eligibility_pairs") or []
+    # 0 = for the student's subject (what they typed, else their profile),
+    # 1 = open to any subject. Off-subject ones never get this far.
+    subject_rank = state.get("subject_rank") or {}
 
     rows = []
     for row, result in pairs:
@@ -64,13 +67,22 @@ async def _assemble(state: dict) -> dict:
                 # A failed phrasing never loses a verdict.
                 "reasons": phrased.get(row.id) or result.facts,
                 "missingFields": result.missing_fields,
-                "_order": _ORDER[result.verdict],
+                "_order": (subject_rank.get(row.id, 1), _ORDER[result.verdict]),
             }
         )
 
     rows.sort(key=lambda r: r["_order"])
     for row in rows:
         row.pop("_order", None)
+    # The same scholarship read from two pages is one scholarship.
+    unique, seen = [], set()
+    for row in rows:
+        key = (" ".join(str(row.get("title", "")).lower().split()),
+               " ".join(str(row.get("provider", "")).lower().split()))
+        if key not in seen:
+            seen.add(key)
+            unique.append(row)
+    rows = unique
 
     gap = biggest_gap(state["profile"], list(state.get("candidates") or []))
     return {

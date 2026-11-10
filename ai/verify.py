@@ -49,9 +49,9 @@ d639010a7df332a6 app/core/numbers.py
 e3b0c44298fc1c14 app/graphs/__init__.py
 606561e18f707502 app/graphs/counsellor.py
 cf1b710cbf85ddbd app/graphs/courses.py
-4999a1a043108a5d app/graphs/nodes.py
-99eea5cfb5e73088 app/graphs/runner.py
-09907b3dabc34f98 app/graphs/scholarships.py
+883b623007b27d76 app/graphs/nodes.py
+0adbf7ef6d67382b app/graphs/runner.py
+4dc9ae46a34b8e5f app/graphs/scholarships.py
 3df2c2017f274be5 app/main.py
 e3b0c44298fc1c14 app/providers/__init__.py
 66dc3e2a12173f4d app/providers/base.py

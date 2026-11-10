@@ -363,6 +363,15 @@ async def plan_searches(state: dict) -> dict:
         # level they want makes it a search for programmes.
         add(f"{level} {typed}")
     add(typed)
+    if kind == "scholarship":
+        # The subject decides which scholarships fit: what they typed first
+        # (above), then their subject - never a plain "scholarships" search,
+        # which comes back with whatever field is popular this week.
+        from app.kb.retrieve import typed_subject
+
+        topic = typed_subject(typed, constraints.get("country", "")) or constraints.get("subject", "")
+        if topic:
+            add(" ".join(b for b in (topic, level, "scholarship") if b))
 
     try:
         data = await llm.complete_json(
@@ -869,4 +878,4 @@ async def phrase(state: dict) -> dict:
     except Exception as exc:  # noqa: BLE001
         log.info("phrasing failed (%s); using the raw facts", type(exc).__name__)
 
-    return {"phrased": phrased}
+    return {"phrased": phrased}

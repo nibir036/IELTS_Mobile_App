@@ -33,11 +33,15 @@ if not exist ".env" (
 )
 
 REM Knowledge base: share the IELTS app's database. DATABASE_URL is copied
-REM from ..\server\.env (no password is kept in this file). The service puts
-REM its tables in their own schema, "nexted_ai", away from Prisma's tables.
+REM from the API server's .env (no password is kept in this file): ..\server\.env
+REM inside IELTS_Mobile_App, or ..\IELTS_Mobile_App\server\.env when this repo
+REM sits next to it. The service puts its tables in their own schema,
+REM "nexted_ai", away from Prisma's tables.
 set "DATABASE_URL="
-if exist "..\server\.env" (
-  for /f "usebackq tokens=1,* delims==" %%A in ("..\server\.env") do (
+set "SERVER_ENV=..\server\.env"
+if not exist "%SERVER_ENV%" set "SERVER_ENV=..\IELTS_Mobile_App\server\.env"
+if exist "%SERVER_ENV%" (
+  for /f "usebackq tokens=1,* delims==" %%A in ("%SERVER_ENV%") do (
     if /i "%%A"=="DATABASE_URL" set "DATABASE_URL=%%~B"
   )
 )

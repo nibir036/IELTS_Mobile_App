@@ -76,6 +76,7 @@ class GraphState(TypedDict, total=False):
 
     # --- the decisions
     restricted_pairs: list
+    subject_rank: dict
     eligibility_pairs: list
     needs_home_district: bool
 

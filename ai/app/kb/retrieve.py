@@ -255,6 +255,66 @@ def topic_words(state: dict) -> list[str]:
     return clean(words)
 
 
+# Words that tie a scholarship to one field ("Cyber Security Scholarship",
+# "Women in Engineering Award"). A scholarship whose title names none of them
+# ("Chevening", "Vice-Chancellor's International Scholarship") is open to
+# any subject.
+_DISCIPLINES = {
+    "cyber", "security", "computing", "computer", "software", "data", "informatics",
+    "artificial", "intelligence", "robotics", "engineering", "engineer", "electrical",
+    "electronic", "electronics", "mechanical", "civil", "chemical", "aerospace",
+    "nursing", "midwifery", "medicine", "medical", "health", "healthcare", "pharmacy",
+    "dentistry", "dental", "veterinary", "biology", "biological", "biomedical",
+    "biotechnology", "microbiology", "chemistry", "physics", "mathematics", "maths",
+    "math", "statistics", "economics", "economic", "finance", "financial", "accounting",
+    "business", "management", "mba", "marketing", "law", "legal", "education",
+    "teaching", "architecture", "design", "art", "arts", "music", "film", "media",
+    "journalism", "psychology", "sociology", "politics", "political", "history",
+    "philosophy", "linguistics", "agriculture", "agricultural", "environmental",
+    "climate", "energy", "sustainability", "geography", "geology", "tourism",
+    "hospitality", "nutrition", "food", "humanities", "stem", "pharmaceutical",
+}
+# Fields a "STEM scholarship" is for.
+_STEM = {
+    "computer", "computing", "software", "data", "cyber", "security", "informatics",
+    "artificial", "intelligence", "machine", "robotics", "engineering", "electrical",
+    "electronic", "electronics", "mechanical", "civil", "chemical", "aerospace",
+    "biomedical", "biotechnology", "biology", "microbiology", "biochemistry", "chemistry",
+    "physics", "mathematics", "maths", "statistics", "genetic", "molecular",
+    "environmental", "geology", "information", "technology", "science",
+}
+
+
+def _word_hit(stems: list[str], tokens: list[str]) -> bool:
+    return any(t.startswith(s) or (len(t) > 3 and s.startswith(_stem(t)))
+               for s in stems for t in tokens if t not in _GENERIC)
+
+
+def _scholarship_rank(row, words: list[str]) -> int | None:
+    """0 = for the student's subject, 1 = open to any subject, None = for another subject."""
+    tokens = _TOKEN.findall(f"{row.title} {getattr(row, 'provider', '')}".lower())
+    if _word_hit([_stem(w) for w in words], tokens):
+        return 0
+    title_tokens = _TOKEN.findall(str(row.title).lower())
+    if "stem" in title_tokens and any(w in _STEM or _stem(w) in {_stem(x) for x in _STEM} for w in words):
+        return 0
+    if any(t in _DISCIPLINES for t in title_tokens):
+        return None
+    return 1
+
+
+def scholarship_order(state: dict, rows: list) -> dict[str, int]:
+    """{row id: 0 for the student's subject, 1 for any subject}."""
+    words = topic_words(state)
+    if not words:
+        return {r.id: 1 for r in rows}
+    out: dict[str, int] = {}
+    for r in rows:
+        rank = _scholarship_rank(r, words)
+        out[r.id] = 1 if rank is None else rank
+    return out
+
+
 def _cos(a, b) -> float:
     dot = sum(x * y for x, y in zip(a, b))
     na = math.sqrt(sum(x * x for x in a))
@@ -280,13 +340,13 @@ async def keep_relevant(state: dict, rows: list, kind: str) -> list:
         if want_rung is not None and row_rung is not None and row_rung != want_rung:
             continue
         kept.append(row)
-    if kind != "course":
-        return kept
-
     words = topic_words(state)
     if not words:
         return kept
     stems = [_stem(w) for w in words]
+
+    if kind != "course":
+        return await _scholarships_for_subject(state, kept, words)
 
     def by_words(row) -> bool:
         tokens = _TOKEN.findall(f"{row.title} {getattr(row, 'subject', '')}".lower())
@@ -319,12 +379,50 @@ async def keep_relevant(state: dict, rows: list, kind: str) -> list:
     return matched
 
 
+async def _scholarships_for_subject(state: dict, rows: list, words: list[str]) -> list:
+    """Scholarships for this subject first, then ones open to any subject.
+
+    One named for ANOTHER field (Cyber Security for an Economics student) is
+    dropped, unless it is very close in meaning ("Finance" ~ "Economics and
+    Finance" is caught by the words already; this rescues true synonyms).
+    What the student typed outranks the profile (topic_words).
+    """
+    ranks: dict[str, int] = {}
+    other = []
+    for r in rows:
+        rank = _scholarship_rank(r, words)
+        if rank is None:
+            other.append(r)
+        else:
+            ranks[r.id] = rank
+    embedder, settings = state.get("embedder"), state.get("settings")
+    if other and embedder is not None and getattr(embedder, "dim", 0):
+        try:
+            q = await embedder.embed_query(" ".join(words))
+            vecs = await embedder.embed_documents([r.title for r in other])
+            floor = getattr(settings, "subject_min_similarity", 0.8) if settings else 0.8
+            for r, v in zip(other, vecs):
+                if q and _cos(q, v) >= floor:
+                    ranks[r.id] = 0
+        except Exception as exc:  # noqa: BLE001
+            log.warning("scholarship subject check by meaning failed: %s", exc)
+    kept = [r for r in rows if r.id in ranks]
+    order = {id(r): i for i, r in enumerate(rows)}
+    kept.sort(key=lambda r: (ranks[r.id], order[id(r)]))
+    if len(kept) < len(rows):
+        log.info("relevance gate (scholarship): kept %s of %s for %s (%s for the subject)",
+                 len(kept), len(rows), words, sum(1 for r in kept if ranks[r.id] == 0))
+    return kept
+
+
 async def relevant_only(state: dict) -> dict:
     """Graph node, after research is merged in: the same gate again, so
     nothing off-subject slips in from the fallback tiers or a stray page."""
     kind = state.get("kind") or "course"
     rows = await keep_relevant(state, list(state.get("candidates") or []), kind)
     out: dict = {"candidates": rows}
+    if kind != "course":
+        out["subject_rank"] = scholarship_order(state, rows)
     if not rows:
         c = state.get("constraints") or {}
         subject = typed_subject(state.get("query") or "", c.get("country") or "") or c.get("subject") or ""
@@ -343,6 +441,17 @@ async def _search(state: dict, kind: str) -> dict:
     """Search, then the relevance gate, then decide whether to research."""
     out = await _search_raw(state, kind)
     rows = await keep_relevant(state, list(out.get("candidates") or []), kind)
+    if kind != "course" and topic_words(state):
+        # General scholarships are a fallback, not an answer: with fewer
+        # than four for the subject itself, go and read the web for more.
+        on_subject = sum(1 for v in scholarship_order(state, rows).values() if v == 0)
+        out = dict(out)
+        out["candidates"] = rows
+        out["search_tier"] = "personal" if on_subject >= 4 else ("personal-thin" if rows else "nearest")
+        out["store_exhausted"] = not rows
+        if on_subject >= 4:
+            out["search_note"] = ""
+        return out
     if len(rows) == len(out.get("candidates") or []):
         if rows and kind == "course" and topic_words(state):
             # Every row passed the subject check, so a "nothing matches your
