@@ -36,6 +36,16 @@ export const env = {
   alphaSmsApiKey: str('ALPHA_SMS_API_KEY'),
   smsBrand: str('SMS_BRAND', 'IELTS AI by nextED'),
 
+  // Email (Brevo): sign-up and password-reset codes for Gulf (GCC) students,
+  // who sign up with email instead of a phone number. 'console' prints the
+  // email in the server window (and returns the code to the app as devCode
+  // while NODE_ENV is not production); 'brevo' sends real email.
+  emailProvider: str('EMAIL_PROVIDER', 'console').toLowerCase(), // 'brevo' | 'console'
+  brevoApiKey: str('BREVO_API_KEY'),
+  /** The sender address: a verified sender or domain in Brevo, e.g. no-reply@nexted.app */
+  emailFrom: str('EMAIL_FROM'),
+  emailFromName: str('EMAIL_FROM_NAME', 'nextED'),
+
   // OpenRouter (writing grading, rewrite, speaking partner chat)
   openrouterApiKey: str('OPENROUTER_API_KEY'),
   openrouterBaseUrl: str('OPENROUTER_BASE_URL', 'https://openrouter.ai/api/v1').replace(/\/$/, ''),

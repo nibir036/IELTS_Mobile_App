@@ -70,6 +70,8 @@ class AppIcons {
   static const eye = Icons.visibility_outlined;
   static const eyeOff = Icons.visibility_off_outlined;
   static const sms = Icons.sms_outlined;
+  static const email = Icons.mail_outline_rounded;
+  static const globe = Icons.public_rounded;
   static const backspace = Icons.backspace_outlined;
   static const logout = Icons.logout_rounded;
   static const settings = Icons.settings_outlined;

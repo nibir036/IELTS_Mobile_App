@@ -142,14 +142,13 @@ function scrub(value: unknown, needles: RegExp | null): unknown {
   return value;
 }
 
-/** The student's id, phone and name parts as one pattern (whole words). */
-function identifiers(user: { id: string; phone: string; name: string }): RegExp | null {
+/** The student's id, phone, email and name parts as one pattern (whole words). */
+function identifiers(user: { id: string; phone: string | null; email?: string | null; name: string }): RegExp | null {
   const esc = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const parts = [
     user.id,
-    user.phone,
-    `0${user.phone}`,
-    `880${user.phone}`,
+    ...(user.phone ? [user.phone, `0${user.phone}`, `880${user.phone}`] : []),
+    ...(user.email ? [user.email] : []),
     ...user.name.split(/\s+/).filter((w) => w.length >= 3),
   ].filter(Boolean);
   if (!parts.length) return null;
@@ -174,6 +173,7 @@ export async function eraseUser(userId: string): Promise<void> {
       id: true,
       name: true,
       phone: true,
+      email: true,
       profile: true,
       attempts: { include: { recordings: true } },
       recordings: { where: { attemptId: null } },

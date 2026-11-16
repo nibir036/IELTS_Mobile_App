@@ -19,6 +19,8 @@ class Routes {
   static const launch = '/launch';
   static const login = '/login'; // A2
   static const signup = '/signup'; // A3
+  /// Sign-up step 0: the country (phone sign-up for Bangladesh, email for the Gulf).
+  static const country = '/signup/country'; // A3a
   static const otp = '/otp'; // A4
   static const resetPassword = '/reset-password'; // A5
   static const targetBand = '/onboarding/target-band'; // A6
@@ -199,6 +201,7 @@ class ScreenCatalog {
   static const all = <ScreenSpec>[
     ScreenSpec('A1', 'Splash & Welcome', Routes.splash),
     ScreenSpec('A2', 'Login', Routes.login),
+    ScreenSpec('A3a', 'Sign Up · Country', Routes.country),
     ScreenSpec('A3', 'Sign Up', Routes.signup),
     ScreenSpec('A4', 'OTP Verification', Routes.otp),
     ScreenSpec('A5', 'Forgot / Reset Password', Routes.resetPassword),

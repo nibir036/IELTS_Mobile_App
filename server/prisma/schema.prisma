@@ -594,8 +594,15 @@ model AppConfig {
 model User {
   id              String    @id @default(cuid())
   name            String
-  /// 10 digits without 0 / +880 (1XXXXXXXXX)
-  phone           String    @unique
+  /// Bangladesh: 10 digits without 0 / +880 (1XXXXXXXXX). Empty for Gulf
+  /// (GCC) students, who sign up with email instead (lib/countries.ts).
+  phone           String?   @unique
+  /// Lower-case. The login of Gulf students; optional for Bangladesh.
+  email           String?   @unique
+  emailVerifiedAt DateTime? @map("email_verified_at") @db.Timestamptz(3)
+  /// ISO country the student signed up from (BD, BH, KW, OM, QA, SA, AE).
+  /// Empty on accounts from before countries existed: those are BD.
+  country         String?
   passwordHash    String    @map("password_hash")
   isDemo          Boolean   @default(false) @map("is_demo")
   /// plan, targetBand, examDate, testType, focusSkills, dailyMinutes,
@@ -685,6 +692,7 @@ model Device {
 /// One-time codes for sign-up / password reset. Only the code hash is stored.
 model OtpCode {
   id         String    @id @default(cuid())
+  /// Who the code is for: a phone (1XXXXXXXXX) or "email:<address>".
   phone      String
   /// signup | reset | change_phone
   purpose    String

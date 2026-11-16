@@ -2,6 +2,7 @@ import 'package:flutter/widgets.dart';
 
 import '../../app/routes.dart';
 import 'chooser_screen.dart';
+import 'country_screen.dart';
 import 'launch_screen.dart';
 import 'legal_screen.dart';
 import 'login_screen.dart';
@@ -18,6 +19,7 @@ final Map<String, WidgetBuilder> accessRoutes = <String, WidgetBuilder>{
   Routes.splash: (_) => const SplashScreen(),
   Routes.chooser: (_) => const ChooserScreen(),
   Routes.login: (_) => const LoginScreen(),
+  Routes.country: (_) => const CountryScreen(),
   Routes.signup: (_) => const SignUpScreen(),
   Routes.otp: (_) => const OtpScreen(),
   Routes.resetPassword: (_) => const ResetPasswordScreen(),

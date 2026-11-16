@@ -63,6 +63,7 @@ class _IeltsAiAppState extends State<IeltsAiApp> with WidgetsBindingObserver {
     Routes.launch,
     Routes.splash,
     Routes.login,
+    Routes.country,
     Routes.signup,
     Routes.otp,
     Routes.resetPassword,

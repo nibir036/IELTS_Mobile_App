@@ -11,6 +11,7 @@ import '../services/billing_service.dart';
 import '../services/config.dart';
 import '../services/entitlements.dart';
 import '../services/sync_service.dart';
+import 'countries.dart';
 import 'demo.dart';
 
 // ═════════════════════════════════════════════════════════════════════════════
@@ -75,6 +76,8 @@ class Account {
     required this.password,
     required this.createdAt,
     this.isDemo = false,
+    this.email = '',
+    this.country = '',
     Map<String, dynamic>? profile,
   }) : profile = profile ?? <String, dynamic>{};
 
@@ -82,8 +85,17 @@ class Account {
   String name;
 
   /// National number, digits only, without country code or leading 0
-  /// (e.g. "1734519208").
+  /// (e.g. "1734519208"). Empty for Gulf students, who sign up with email.
   final String phone;
+
+  /// The sign-in email of Gulf (GCC) students; empty for phone accounts.
+  final String email;
+
+  /// ISO country signed up from ("BD", "SA" …); empty on older accounts (= BD).
+  final String country;
+
+  /// Signs in with email (the Gulf) rather than a phone number.
+  bool get usesEmail => phone.isEmpty && email.isNotEmpty;
   String password;
   final DateTime createdAt;
   final bool isDemo;
@@ -103,16 +115,18 @@ class Account {
     return (parts.first.substring(0, 1) + parts.last.substring(0, 1)).toUpperCase();
   }
 
-  /// "+880 1734 ••• 208"
+  /// "+880 1734 ••• 208" (or the email of an email account)
   String get phoneMasked {
+    if (usesEmail) return email;
     final demo = RegExp(r'^demo(\d)$').firstMatch(phone);
     if (demo != null) return 'Demo ${demo.group(1)}';
     if (phone.length < 7) return '+880 $phone';
     return '+880 ${phone.substring(0, 4)} ••• ${phone.substring(phone.length - 3)}';
   }
 
-  /// "+880 1734 519208"
+  /// "+880 1734 519208" (or the email of an email account)
   String get phoneDisplay {
+    if (usesEmail) return email;
     final demo = RegExp(r'^demo(\d)$').firstMatch(phone);
     if (demo != null) return 'Demo ${demo.group(1)}';
     if (phone.length <= 4) return '+880 $phone';
@@ -143,6 +157,8 @@ class Account {
         'id': id,
         'name': name,
         'phone': phone,
+        'email': email,
+        'country': country,
         'password': password,
         'createdAt': createdAt.toIso8601String(),
         'isDemo': isDemo,
@@ -153,6 +169,8 @@ class Account {
         id: j.s('id'),
         name: j.s('name'),
         phone: j.s('phone'),
+        email: j.s('email'),
+        country: j.s('country'),
         password: j.s('password'),
         createdAt: DateTime.tryParse(j.s('createdAt')) ?? DateTime.now(),
         isDemo: j.b('isDemo'),
@@ -330,12 +348,23 @@ enum AuthResult {
   failed,
 }
 
-/// Registration waiting for OTP.
+/// Registration waiting for OTP: a Bangladeshi [phone], or a Gulf [email].
 class PendingSignup {
-  PendingSignup({required this.name, required this.phone, required this.password});
+  PendingSignup({
+    required this.name,
+    required this.phone,
+    required this.password,
+    this.email = '',
+    this.country = 'BD',
+  });
   final String name;
   final String phone;
   final String password;
+  final String email;
+  final String country;
+
+  /// Where the code went: the email, else the phone number.
+  String get target => email.isNotEmpty ? email : phone;
 }
 
 class Store extends ChangeNotifier {
@@ -545,6 +574,17 @@ class Store extends ChangeNotifier {
     return m == null ? null : 'demo${m.group(1)}';
   }
 
+  /// "  Ali@Example.com " → "ali@example.com"; '' when it isn't an email address.
+  static String normalizeEmail(String input) {
+    final e = input.trim().toLowerCase();
+    return RegExp(r'^[^\s@]+@[^\s@]+\.[^\s@]{2,}$').hasMatch(e) && e.length <= 200 ? e : '';
+  }
+
+  static bool isValidEmail(String input) => normalizeEmail(input).isNotEmpty;
+
+  /// The country chosen on the sign-up country screen ("BD", "SA" …).
+  static String signupCountry = 'BD';
+
   static bool isValidPhone(String input) {
     final d = normalizePhone(input);
     return RegExp(r'^1[3-9]\d{8}$').hasMatch(d);
@@ -699,10 +739,16 @@ class Store extends ChangeNotifier {
 
   static String authMessage(AuthResult r) => switch (r) {
         AuthResult.ok => '',
-        AuthResult.noAccount => 'No account found for this number.',
+        AuthResult.noAccount => lastAuthCode == 'no_account' && lastAuthError != null
+            ? lastAuthError!
+            : 'No account found for this number or email.',
         AuthResult.wrongPassword => 'Incorrect password. Try again.',
-        AuthResult.phoneTaken => 'This number already has an account. Log in instead.',
-        AuthResult.invalidPhone => 'Enter a valid Bangladeshi mobile number.',
+        AuthResult.phoneTaken => lastAuthCode == 'email_taken'
+            ? 'This email already has an account. Log in instead.'
+            : 'This number already has an account. Log in instead.',
+        AuthResult.invalidPhone => lastAuthCode == 'invalid_email'
+            ? 'Enter a valid email address.'
+            : 'Enter a valid Bangladeshi mobile number.',
         AuthResult.invalidOtp => AppConfig.hasApi
             ? (lastAuthError ?? 'That code is incorrect.')
             : 'That code is incorrect. (Demo code: $kDemoOtp)',
@@ -734,6 +780,17 @@ class Store extends ChangeNotifier {
 
   String? _resetProof;
 
+  /// A check that failed in the app, before asking the server.
+  AuthResult _local(AuthResult r, [String? code, String? message]) {
+    lastAuthCode = code;
+    lastAuthError = message;
+    return r;
+  }
+
+  /// The body field for a code / reset target: {email} or {phone}.
+  static Map<String, dynamic> _who(String target) =>
+      target.contains('@') ? <String, dynamic>{'email': target} : <String, dynamic>{'phone': target};
+
   AuthResult _fail(ApiException e) {
     lastAuthError = e.message;
     lastAuthCode = e.code;
@@ -742,8 +799,8 @@ class Store extends ChangeNotifier {
       'network' => AuthResult.network,
       'no_account' => AuthResult.noAccount,
       'wrong_password' => AuthResult.wrongPassword,
-      'phone_taken' => AuthResult.phoneTaken,
-      'invalid_phone' => AuthResult.invalidPhone,
+      'phone_taken' || 'email_taken' => AuthResult.phoneTaken,
+      'invalid_phone' || 'invalid_email' => AuthResult.invalidPhone,
       'weak_password' => AuthResult.weakPassword,
       'otp_invalid' || 'otp_expired' || 'otp_too_many_attempts' => AuthResult.invalidOtp,
       _ => AuthResult.failed,
@@ -762,6 +819,8 @@ class Store extends ChangeNotifier {
       id: id,
       name: u.s('name').isEmpty ? (old?.name ?? 'Student') : u.s('name'),
       phone: u.s('phone'),
+      email: u.s('email'),
+      country: u.s('country'),
       password: '',
       createdAt: DateTime.tryParse(u.s('createdAt')) ?? old?.createdAt ?? DateTime.now(),
       isDemo: u.b('isDemo'),
@@ -793,13 +852,24 @@ class Store extends ChangeNotifier {
     await SyncService.I.syncNow();
   }
 
-  Future<AuthResult> signIn(String phone, String password, {bool keepSignedIn = true}) async {
-    if (!AppConfig.hasApi) return login(phone, password, keepSignedIn: keepSignedIn);
-    final demo = demoLoginId(phone);
-    if (demo == null && !isValidPhone(phone)) return AuthResult.invalidPhone;
+  /// [login] is a Bangladeshi number, an email address (Gulf accounts) or
+  /// "Demo 1" … "Demo 4".
+  Future<AuthResult> signIn(String login, String password, {bool keepSignedIn = true}) async {
+    if (!AppConfig.hasApi) return this.login(login, password, keepSignedIn: keepSignedIn);
+    final demo = demoLoginId(login);
+    String id;
+    if (demo != null) {
+      id = demo;
+    } else if (login.contains('@')) {
+      id = normalizeEmail(login);
+      if (id.isEmpty) return _local(AuthResult.invalidPhone, 'invalid_email');
+    } else {
+      if (!isValidPhone(login)) return _local(AuthResult.invalidPhone, 'invalid_phone');
+      id = normalizePhone(login);
+    }
     try {
       final r = await ApiClient.request('POST', '/v1/auth/login',
-          body: <String, dynamic>{'phone': demo ?? normalizePhone(phone), 'password': password}, auth: false);
+          body: <String, dynamic>{'login': id, 'password': password}, auth: false);
       await _adoptSession(r, keepSignedIn: keepSignedIn);
       return AuthResult.ok;
     } on ApiException catch (e) {
@@ -820,10 +890,11 @@ class Store extends ChangeNotifier {
     }
   }
 
-  Future<AuthResult> _sendCode(String phone, String purpose) async {
+  /// Sends a code by SMS ([target] a phone) or by email ([target] an email).
+  Future<AuthResult> _sendCode(String target, String purpose) async {
     try {
       final r = await ApiClient.request('POST', '/v1/auth/otp/send',
-          body: <String, dynamic>{'phone': phone, 'purpose': purpose}, auth: false);
+          body: <String, dynamic>{..._who(target), 'purpose': purpose}, auth: false);
       lastDevCode = r['devCode'] is String ? r['devCode'] as String : null;
       return AuthResult.ok;
     } on ApiException catch (e) {
@@ -831,11 +902,37 @@ class Store extends ChangeNotifier {
     }
   }
 
-  /// Sign-up step 1: checks the details and texts a code.
-  Future<AuthResult> beginSignup({required String name, required String phone, required String password}) async {
+  /// Sign-up step 1: checks the details and sends a code: by SMS to a
+  /// Bangladeshi [phone], or by email to [email] for the Gulf ([country]).
+  Future<AuthResult> beginSignup({
+    required String name,
+    required String phone,
+    required String password,
+    String email = '',
+    String country = 'BD',
+  }) async {
+    final c = signupCountryOf(country);
+    if (c.usesEmail) {
+      if (!AppConfig.hasApi) {
+        return _local(AuthResult.failed, 'offline', 'Email sign-up needs an internet connection to nextED.');
+      }
+      final e = normalizeEmail(email);
+      if (e.isEmpty) return _local(AuthResult.invalidPhone, 'invalid_email');
+      if (!isStrongPassword(password)) return _local(AuthResult.weakPassword);
+      final sent = await _sendCode(e, 'signup');
+      if (sent != AuthResult.ok) return sent;
+      pendingSignup = PendingSignup(
+        name: name.trim().isEmpty ? 'Student' : name.trim(),
+        phone: '',
+        email: e,
+        country: c.code,
+        password: password,
+      );
+      return AuthResult.ok;
+    }
     if (!AppConfig.hasApi) return startSignup(name: name, phone: phone, password: password);
-    if (!isValidPhone(phone)) return AuthResult.invalidPhone;
-    if (!isStrongPassword(password)) return AuthResult.weakPassword;
+    if (!isValidPhone(phone)) return _local(AuthResult.invalidPhone, 'invalid_phone');
+    if (!isStrongPassword(password)) return _local(AuthResult.weakPassword);
     final p = normalizePhone(phone);
     final r = await _sendCode(p, 'signup');
     if (r != AuthResult.ok) return r;
@@ -847,7 +944,7 @@ class Store extends ChangeNotifier {
     final p = pendingSignup;
     if (!AppConfig.hasApi) return AuthResult.ok;
     if (p == null) return AuthResult.noAccount;
-    return _sendCode(p.phone, 'signup');
+    return _sendCode(p.target, 'signup');
   }
 
   /// Sign-up step 2: checks the code, creates the account and signs in.
@@ -857,9 +954,15 @@ class Store extends ChangeNotifier {
     if (p == null) return AuthResult.noAccount;
     try {
       final v = await ApiClient.request('POST', '/v1/auth/otp/verify',
-          body: <String, dynamic>{'phone': p.phone, 'purpose': 'signup', 'code': code}, auth: false);
+          body: <String, dynamic>{..._who(p.target), 'purpose': 'signup', 'code': code}, auth: false);
       final r = await ApiClient.request('POST', '/v1/auth/register',
-          body: <String, dynamic>{'name': p.name, 'phone': p.phone, 'password': p.password, 'proof': v['proof']},
+          body: <String, dynamic>{
+            ..._who(p.target),
+            'country': p.country,
+            'name': p.name,
+            'password': p.password,
+            'proof': v['proof'],
+          },
           auth: false);
       pendingSignup = null;
       await _adoptSession(r);
@@ -874,11 +977,18 @@ class Store extends ChangeNotifier {
     }
   }
 
-  /// Password reset step 1: texts a code to an existing account's number.
-  Future<AuthResult> beginReset(String phone) async {
-    if (!AppConfig.hasApi) return startReset(phone);
-    if (!isValidPhone(phone)) return AuthResult.invalidPhone;
-    final p = normalizePhone(phone);
+  /// Password reset step 1: sends a code to an existing account's number
+  /// (SMS) or email address (Gulf accounts).
+  Future<AuthResult> beginReset(String login) async {
+    if (!AppConfig.hasApi) return startReset(login);
+    String p;
+    if (login.contains('@')) {
+      p = normalizeEmail(login);
+      if (p.isEmpty) return _local(AuthResult.invalidPhone, 'invalid_email');
+    } else {
+      if (!isValidPhone(login)) return _local(AuthResult.invalidPhone, 'invalid_phone');
+      p = normalizePhone(login);
+    }
     final r = await _sendCode(p, 'reset');
     if (r == AuthResult.ok) pendingResetPhone = p;
     return r;
@@ -898,7 +1008,7 @@ class Store extends ChangeNotifier {
     if (p == null) return AuthResult.noAccount;
     try {
       final v = await ApiClient.request('POST', '/v1/auth/otp/verify',
-          body: <String, dynamic>{'phone': p, 'purpose': 'reset', 'code': code}, auth: false);
+          body: <String, dynamic>{..._who(p), 'purpose': 'reset', 'code': code}, auth: false);
       _resetProof = '${v['proof']}';
       return AuthResult.ok;
     } on ApiException catch (e) {
@@ -915,7 +1025,7 @@ class Store extends ChangeNotifier {
     if (!isStrongPassword(newPassword)) return AuthResult.weakPassword;
     try {
       final r = await ApiClient.request('POST', '/v1/auth/reset-password',
-          body: <String, dynamic>{'phone': p, 'password': newPassword, 'proof': proof}, auth: false);
+          body: <String, dynamic>{..._who(p), 'password': newPassword, 'proof': proof}, auth: false);
       pendingResetPhone = null;
       _resetProof = null;
       await _adoptSession(r);

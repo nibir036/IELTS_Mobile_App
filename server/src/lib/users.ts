@@ -2,6 +2,7 @@ import type { Ctx } from './http';
 import { HttpError, unauthorized } from './http';
 import { verifyAccessToken } from './tokens';
 import { prisma } from '../db';
+import { countryOfUser } from './countries';
 
 /** Reads the Bearer token and sets ctx.userId (401 if missing/invalid). */
 export function requireUser(ctx: Ctx): string {
@@ -35,22 +36,35 @@ export async function isPro(userId: string): Promise<boolean> {
 type UserRow = {
   id: string;
   name: string;
-  phone: string;
+  phone: string | null;
+  email: string | null;
+  country: string | null;
   isDemo: boolean;
   profile: unknown;
   phoneVerifiedAt: Date | null;
+  emailVerifiedAt: Date | null;
   createdAt: Date;
 };
 
-/** What the app sees about the signed-in student. */
+/**
+ * What the app sees about the signed-in student. `login` says how they sign
+ * in ("phone" for Bangladesh, "email" for the Gulf), and `webPayments`
+ * whether the website may sell them Pro (bKash, Bangladesh only).
+ */
 export function publicUser(u: UserRow) {
+  const country = countryOfUser(u);
   return {
     id: u.id,
     name: u.name,
-    phone: u.phone,
+    phone: u.phone ?? '',
+    email: u.email ?? '',
+    country: country.code,
+    login: u.phone ? 'phone' : 'email',
+    webPayments: country.webPayments,
     isDemo: u.isDemo,
     profile: (u.profile ?? {}) as Record<string, unknown>,
     phoneVerified: Boolean(u.phoneVerifiedAt),
+    emailVerified: Boolean(u.emailVerifiedAt),
     createdAt: u.createdAt.toISOString(),
   };
 }
@@ -59,9 +73,12 @@ export const userSelect = {
   id: true,
   name: true,
   phone: true,
+  email: true,
+  country: true,
   isDemo: true,
   profile: true,
   phoneVerifiedAt: true,
+  emailVerifiedAt: true,
   createdAt: true,
 } as const;
 

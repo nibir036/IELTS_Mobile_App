@@ -3,7 +3,8 @@
 //   GET  /privacy          Privacy Policy   (same text as the app: access.legal)
 //   GET  /terms            Terms of Use
 //   GET  /delete-account   request account deletion without the app
-//   POST /delete-account   {phone, password} -> the same deletion as the app
+//   POST /delete-account   {login, password} -> the same deletion as the app
+//                          (login = the Bangladeshi number or the email signed up with)
 //
 // Google Play needs the privacy link on the store listing and the
 // delete-account link in the Data safety form. The legal text comes from the
@@ -15,10 +16,11 @@ import path from 'node:path';
 import { gunzipSync } from 'node:zlib';
 import { prisma } from '../db';
 import { eraseUser } from '../lib/archive';
-import { HttpError, rateLimit, required, Router, type Ctx } from '../lib/http';
+import { HttpError, rateLimit, required, Router, s, type Ctx } from '../lib/http';
 import { packBody } from '../lib/packs';
 import { verifyPassword } from '../lib/password';
 import { isValidPhone, normalizePhone } from '../lib/phone';
+import { normalizeEmail } from '../lib/email';
 
 type Raw = Record<string, unknown>;
 
@@ -143,7 +145,7 @@ const f=document.getElementById('f'),m=document.getElementById('msg'),b=document
 f.addEventListener('submit',async(e)=>{e.preventDefault();m.className='';m.textContent='';
 if(!f.sure.checked){m.className='err';m.textContent='Tick the box to confirm.';return}
 b.disabled=true;b.textContent='Deleting…';
-try{const r=await fetch('/delete-account',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone:f.phone.value,password:f.password.value})});
+try{const r=await fetch('/delete-account',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({login:f.login.value,password:f.password.value})});
 const j=await r.json().catch(()=>({}));
 if(r.ok){f.hidden=true;m.textContent='Your nextED account has been deleted. You can close this page.';return}
 m.className='err';m.textContent=j.error||'Something went wrong. Please try again.';}
@@ -170,8 +172,8 @@ function deletePage(email: string): string {
 </div>
 <form id="f" class="card" autocomplete="on">
 <h2 style="margin-top:0">Delete my account</h2>
-<label for="phone">Mobile number</label>
-<input id="phone" name="phone" type="tel" inputmode="tel" placeholder="01XXXXXXXXX" autocomplete="tel" required>
+<label for="login">Mobile number or email</label>
+<input id="login" name="login" type="text" placeholder="01XXXXXXXXX or you@example.com" autocomplete="username" required>
 <label for="password">Password</label>
 <input id="password" name="password" type="password" autocomplete="current-password" required>
 <label class="check"><input type="checkbox" name="sure"> I understand my account will be deleted and this can't be undone.</label>
@@ -201,22 +203,31 @@ export function registerWebRoutes(r: Router): void {
     sendHtml(ctx, 200, deletePage(l?.contactEmail || 'support@nexted.app'));
   });
 
-  // The same deletion as DELETE /v1/me in the app, proved by number + password.
+  // The same deletion as DELETE /v1/me in the app, proved by number (or
+  // email) + password.
   r.post('/delete-account', async (ctx) => {
     rateLimit(`web-delete-ip:${ctx.ip}`, 20, 3600);
-    const raw = required(ctx.body, 'phone', 30);
+    const raw = s(ctx.body.login, 200) || s(ctx.body.phone, 30);
+    if (!raw) throw new HttpError(400, 'Enter the mobile number or email you signed up with.', 'missing_login');
     const password = required(ctx.body, 'password', 200);
-    if (!isValidPhone(raw)) throw new HttpError(400, 'Enter the Bangladeshi mobile number you signed up with.', 'invalid_phone');
-    const phone = normalizePhone(raw);
-    rateLimit(`web-delete:${phone}`, 5, 3600);
-    const user = (await prisma.user.findUnique({ where: { phone }, select: { id: true, passwordHash: true, isDemo: true } })) as {
+    let where: { phone: string } | { email: string };
+    if (raw.includes('@')) {
+      const email = normalizeEmail(raw);
+      if (!email) throw new HttpError(400, 'Enter the email you signed up with.', 'invalid_email');
+      where = { email };
+    } else {
+      if (!isValidPhone(raw)) throw new HttpError(400, 'Enter the Bangladeshi mobile number you signed up with.', 'invalid_phone');
+      where = { phone: normalizePhone(raw) };
+    }
+    rateLimit(`web-delete:${'email' in where ? where.email : where.phone}`, 5, 3600);
+    const user = (await prisma.user.findUnique({ where, select: { id: true, passwordHash: true, isDemo: true } })) as {
       id: string;
       passwordHash: string;
       isDemo: boolean;
     } | null;
     // One answer for an unknown number and a wrong password.
     if (!user || !verifyPassword(password, user.passwordHash)) {
-      throw new HttpError(400, 'That number and password don’t match a nextED account.', 'wrong_login');
+      throw new HttpError(400, 'Those details and password don’t match a nextED account.', 'wrong_login');
     }
     if (user.isDemo) throw new HttpError(403, 'Demo accounts can’t be deleted.', 'demo_account');
     await eraseUser(user.id);

@@ -1,5 +1,12 @@
-// Accounts: phone + password, phone verified by OTP (Alpha SMS), token
-// sessions for the app (short access token + rotating refresh token).
+// Accounts: token sessions for the app (short access token + rotating
+// refresh token), and two ways to sign up, chosen by country
+// (lib/countries.ts):
+//
+//   Bangladesh  phone + password, phone verified by a code by SMS (Alpha SMS)
+//   Gulf (GCC)  email + password, email verified by a code by email (Brevo)
+//
+// Every route below takes either {phone} or {email}; login also takes
+// {login} (whatever the student typed: a number, an email or "Demo 1").
 
 import { prisma } from '../db';
 import { env } from '../env';
@@ -8,6 +15,8 @@ import { badRequest, HttpError, rateLimit, required, Router, s, unauthorized, ty
 import { createOtp, verifyOtp, verifyProof, type OtpPurpose } from '../lib/otp';
 import { demoLoginId, isStrongPassword, isValidPhone, normalizePhone } from '../lib/phone';
 import { sendSms } from '../lib/sms';
+import { COUNTRIES, countryOf } from '../lib/countries';
+import { normalizeEmail, sendCodeEmail } from '../lib/email';
 import { hashToken, newRefreshToken, signAccessToken } from '../lib/tokens';
 import { assertPasswordChangeAllowed, publicUser, userSelect } from '../lib/users';
 import { admitDevice, deviceOf, endOtherSessions, sessionEndedError } from '../lib/devices';
@@ -18,10 +27,44 @@ function purposeOf(v: unknown): OtpPurpose {
   return p;
 }
 
-function phoneOf(body: Record<string, unknown>): string {
-  const raw = required(body, 'phone', 30);
+/** Who a code / login is for: a Bangladeshi phone or an email address. */
+type Who =
+  | { kind: 'phone'; phone: string; key: string; label: string }
+  | { kind: 'email'; email: string; key: string; label: string };
+
+function phoneOf(raw: string): string {
   if (!isValidPhone(raw)) throw badRequest('Enter a valid Bangladeshi mobile number.', 'invalid_phone');
   return normalizePhone(raw);
+}
+
+function emailOf(raw: string): string {
+  const email = normalizeEmail(raw);
+  if (!email) throw badRequest('Enter a valid email address.', 'invalid_email');
+  return email;
+}
+
+/**
+ * {phone} or {email} from the body. A phone wins when both are sent (a
+ * Bangladeshi sign-up may add an email for the profile). The OTP key of an
+ * email is "email:<address>".
+ */
+function whoOf(body: Record<string, unknown>): Who {
+  const rawPhone = s(body.phone, 30);
+  const rawEmail = s(body.email, 200);
+  if (!rawPhone && rawEmail) {
+    const email = emailOf(rawEmail);
+    return { kind: 'email', email, key: `email:${email}`, label: 'email' };
+  }
+  const phone = phoneOf(required(body, 'phone', 30));
+  return { kind: 'phone', phone, key: phone, label: 'number' };
+}
+
+const whereOf = (who: Who) => (who.kind === 'email' ? { email: who.email } : { phone: who.phone });
+
+/** Codes are printed (and returned to the app) only while developing. */
+function devCodeAllowed(who: Who): boolean {
+  if (env.isProd) return false;
+  return who.kind === 'email' ? env.emailProvider !== 'brevo' : env.smsProvider !== 'alpha';
 }
 
 /**
@@ -71,87 +114,161 @@ function sendWelcomeSms(phone: string): void {
 }
 
 export function registerAuthRoutes(r: Router): void {
-  // Send a 6-digit code. purpose "signup" needs a new number, "reset" an existing one.
+  // Where students can sign up and how (the app's and the portal's first screen).
+  r.get('/v1/auth/countries', async () => ({
+    countries: COUNTRIES.map((c) => ({ code: c.code, name: c.name, dial: c.dial, channel: c.channel })),
+  }));
+
+  // Send a 6-digit code by SMS ({phone}) or by email ({email}).
+  // purpose "signup" needs a new number / address, "reset" an existing one.
   r.post('/v1/auth/otp/send', async (ctx) => {
-    const phone = phoneOf(ctx.body);
+    const who = whoOf(ctx.body);
     const purpose = purposeOf(ctx.body.purpose);
     rateLimit(`otp-ip:${ctx.ip}`, 10, 3600);
-    rateLimit(`otp-phone-day:${phone}`, 8, 86400);
+    rateLimit(`otp-day:${who.key}`, 8, 86400);
     rateLimit('otp-global', 1500, 3600);
-    const exists = await prisma.user.findUnique({ where: { phone }, select: { id: true } });
+    const exists = await prisma.user.findUnique({
+      where: whereOf(who),
+      select: { id: true, passwordChangedAt: true, createdAt: true },
+    });
     if (purpose === 'signup' && exists) {
-      throw new HttpError(409, 'An account with this number already exists. Log in instead.', 'phone_taken');
+      throw who.kind === 'email'
+        ? new HttpError(409, 'An account with this email already exists. Log in instead.', 'email_taken')
+        : new HttpError(409, 'An account with this number already exists. Log in instead.', 'phone_taken');
     }
     if (purpose === 'reset' && !exists) {
-      throw new HttpError(404, 'No account uses this number.', 'no_account');
+      throw new HttpError(404, `No account uses this ${who.label}.`, 'no_account');
     }
-    // No SMS when the password was set less than 48 hours ago.
-    if (purpose === 'reset' && exists) {
-      const u = await prisma.user.findUnique({ where: { phone }, select: { passwordChangedAt: true, createdAt: true } });
-      if (u) assertPasswordChangeAllowed(u);
+    // No code when the password was set less than 48 hours ago.
+    if (purpose === 'reset' && exists) assertPasswordChangeAllowed(exists);
+    const code = await createOtp(who.key, purpose);
+    if (who.kind === 'email') {
+      await sendCodeEmail(who.email, code, purpose);
+    } else {
+      await sendSms(who.phone, `Your ${env.smsBrand} verification code is ${code}. It expires in 5 minutes.`);
     }
-    const code = await createOtp(phone, purpose);
-    await sendSms(phone, `Your ${env.smsBrand} verification code is ${code}. It expires in 5 minutes.`);
     return {
       sent: true,
+      channel: who.kind,
       expiresInSec: 300,
       resendAfterSec: 45,
-      // Development only (SMS_PROVIDER=console): the code, so testing needs no phone.
-      ...(env.smsProvider !== 'alpha' && !env.isProd ? { devCode: code } : {}),
+      // Development only (SMS_PROVIDER / EMAIL_PROVIDER = console): the code,
+      // so testing needs no phone or inbox.
+      ...(devCodeAllowed(who) ? { devCode: code } : {}),
     };
   });
 
   r.post('/v1/auth/otp/verify', async (ctx) => {
-    const phone = phoneOf(ctx.body);
+    const who = whoOf(ctx.body);
     const purpose = purposeOf(ctx.body.purpose);
     const code = required(ctx.body, 'code', 10).replace(/\D/g, '');
-    rateLimit(`otp-verify:${phone}`, 20, 3600);
-    const proof = await verifyOtp(phone, code, purpose);
+    rateLimit(`otp-verify:${who.key}`, 20, 3600);
+    const proof = await verifyOtp(who.key, code, purpose);
     return { verified: true, proof };
   });
 
+  // Bangladesh: {phone, name, password, proof}. Gulf: {email, country, name,
+  // password, proof}. The proof comes from /otp/verify (purpose "signup").
   r.post('/v1/auth/register', async (ctx) => {
-    const phone = phoneOf(ctx.body);
+    const who = whoOf(ctx.body);
     const name = required(ctx.body, 'name', 80);
     const password = required(ctx.body, 'password', 200);
     const proof = required(ctx.body, 'proof', 500);
+    // Phone sign-up is Bangladesh; email sign-up is one of the Gulf countries.
+    const country = countryOf(ctx.body.country ?? (who.kind === 'phone' ? 'BD' : ''));
+    if (!country) throw badRequest('Choose your country.', 'invalid_country');
+    if ((country.channel === 'email') !== (who.kind === 'email')) {
+      throw badRequest(
+        country.channel === 'email'
+          ? `Students in ${country.name} sign up with their email address.`
+          : `Students in ${country.name} sign up with their mobile number.`,
+        'wrong_signup_method',
+      );
+    }
     if (!isStrongPassword(password)) {
       throw badRequest('Use 8+ characters with at least one number and one symbol.', 'weak_password');
     }
-    if (!verifyProof(proof, phone, 'signup')) {
-      throw badRequest('Phone verification expired. Verify your number again.', 'otp_required');
+    if (!verifyProof(proof, who.key, 'signup')) {
+      throw badRequest(
+        who.kind === 'email'
+          ? 'Email verification expired. Verify your email again.'
+          : 'Phone verification expired. Verify your number again.',
+        'otp_required',
+      );
     }
-    const exists = await prisma.user.findUnique({ where: { phone }, select: { id: true } });
-    if (exists) throw new HttpError(409, 'An account with this number already exists.', 'phone_taken');
-    const profile = s(ctx.body.email, 200) ? { email: s(ctx.body.email, 200) } : {};
-    const user = await prisma.user.create({
-      data: {
-        name,
-        phone,
-        passwordHash: hashPassword(password),
-        passwordChangedAt: new Date(),
-        phoneVerifiedAt: new Date(),
-        profile: { plan: 'Free', testType: 'Academic', ...profile },
-      },
-      select: { id: true },
-    });
-    sendWelcomeSms(phone);
+    const exists = await prisma.user.findUnique({ where: whereOf(who), select: { id: true } });
+    if (exists) {
+      throw who.kind === 'email'
+        ? new HttpError(409, 'An account with this email already exists.', 'email_taken')
+        : new HttpError(409, 'An account with this number already exists.', 'phone_taken');
+    }
+    const now = new Date();
+    let user: { id: string };
+    if (who.kind === 'email') {
+      user = await prisma.user.create({
+        data: {
+          name,
+          email: who.email,
+          emailVerifiedAt: now,
+          country: country.code,
+          passwordHash: hashPassword(password),
+          passwordChangedAt: now,
+          profile: { plan: 'Free', testType: 'Academic', email: who.email },
+        },
+        select: { id: true },
+      });
+    } else {
+      // An email given at phone sign-up is kept on the profile (unverified).
+      const extra = normalizeEmail(ctx.body.email);
+      user = await prisma.user.create({
+        data: {
+          name,
+          phone: who.phone,
+          country: country.code,
+          passwordHash: hashPassword(password),
+          passwordChangedAt: now,
+          phoneVerifiedAt: now,
+          profile: { plan: 'Free', testType: 'Academic', ...(extra ? { email: extra } : {}) },
+        },
+        select: { id: true },
+      });
+      sendWelcomeSms(who.phone);
+    }
     return issueSession(ctx, user.id);
   });
 
+  // {login, password}: `login` is a Bangladeshi number, an email address or
+  // "Demo 1" … "Demo 4" (the shared Pro demo accounts). The older {phone} and
+  // {email} bodies still work.
   r.post('/v1/auth/login', async (ctx) => {
-    // "Demo 1" … "Demo 4": the shared Pro demo accounts (no phone number).
-    const demoId = demoLoginId(s(ctx.body.phone, 30));
-    const phone = demoId ?? phoneOf(ctx.body);
+    const raw = s(ctx.body.login, 200) || s(ctx.body.email, 200) || s(ctx.body.phone, 30);
+    if (!raw) throw badRequest('Enter your mobile number or email.', 'missing_login');
     const password = required(ctx.body, 'password', 200);
-    rateLimit(`login:${phone}`, demoId ? 60 : 10, 900);
-    const user = (await prisma.user.findUnique({ where: { phone }, select: { id: true, passwordHash: true, isDemo: true } })) as {
+    const demoId = demoLoginId(raw);
+    let where: { phone: string } | { email: string };
+    let label: string;
+    if (demoId) {
+      where = { phone: demoId };
+      label = 'demo';
+    } else if (raw.includes('@')) {
+      where = { email: emailOf(raw) };
+      label = 'email';
+    } else {
+      where = { phone: phoneOf(raw) };
+      label = 'number';
+    }
+    rateLimit(`login:${'email' in where ? where.email : where.phone}`, demoId ? 60 : 10, 900);
+    const user = (await prisma.user.findUnique({ where, select: { id: true, passwordHash: true, isDemo: true } })) as {
       id: string;
       passwordHash: string;
       isDemo: boolean;
     } | null;
     if (!user || (demoId && !user.isDemo)) {
-      throw new HttpError(404, demoId ? 'This demo account is not set up yet.' : 'No account uses this number. Sign up first.', 'no_account');
+      throw new HttpError(
+        404,
+        demoId ? 'This demo account is not set up yet.' : `No account uses this ${label}. Sign up first.`,
+        'no_account',
+      );
     }
     if (!verifyPassword(password, user.passwordHash)) {
       throw new HttpError(401, 'Wrong password.', 'wrong_password');
@@ -224,22 +341,27 @@ export function registerAuthRoutes(r: Router): void {
     return issueSession(ctx, session.userId);
   });
 
-  // Forgot password: verify the phone with purpose "reset", then set a new one.
+  // Forgot password: verify the phone (or email) with purpose "reset", then set a new one.
   r.post('/v1/auth/reset-password', async (ctx) => {
-    const phone = phoneOf(ctx.body);
+    const who = whoOf(ctx.body);
     const password = required(ctx.body, 'password', 200);
     const proof = required(ctx.body, 'proof', 500);
     if (!isStrongPassword(password)) {
       throw badRequest('Use 8+ characters with at least one number and one symbol.', 'weak_password');
     }
-    if (!verifyProof(proof, phone, 'reset')) {
-      throw badRequest('Phone verification expired. Verify your number again.', 'otp_required');
+    if (!verifyProof(proof, who.key, 'reset')) {
+      throw badRequest(
+        who.kind === 'email'
+          ? 'Email verification expired. Verify your email again.'
+          : 'Phone verification expired. Verify your number again.',
+        'otp_required',
+      );
     }
     const user = await prisma.user.findUnique({
-      where: { phone },
+      where: whereOf(who),
       select: { id: true, passwordChangedAt: true, createdAt: true },
     });
-    if (!user) throw new HttpError(404, 'No account uses this number.', 'no_account');
+    if (!user) throw new HttpError(404, `No account uses this ${who.label}.`, 'no_account');
     assertPasswordChangeAllowed(user);
     await prisma.user.update({
       where: { id: user.id },
@@ -255,7 +377,7 @@ export function registerAuthRoutes(r: Router): void {
       where: { userId: user.id, revokeReason: 'signed_in_elsewhere' },
       data: { revokeReason: 'password_reset' },
     });
-    // The OTP proved the phone number: a full account makes room for this device.
+    // The code proved the phone / email: a full account makes room for this device.
     return issueSession(ctx, user.id, { recover: true });
   });
 }

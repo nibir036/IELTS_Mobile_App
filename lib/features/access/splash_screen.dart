@@ -142,7 +142,7 @@ class SplashScreen extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
                           const SizedBox(height: 18),
-                          _GlowCta(onTap: () => context.push(Routes.signup)),
+                          _GlowCta(onTap: () => context.push(Routes.country)),
                           const SizedBox(height: 6),
                           InkWell(
                             onTap: () => context.push(Routes.login),

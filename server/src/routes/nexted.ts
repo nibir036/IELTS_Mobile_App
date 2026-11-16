@@ -130,13 +130,16 @@ async function ieltsBandFromApp(userId: string, profileJson: unknown): Promise<{
 async function loadProfileFull(userId: string): Promise<{ profile: ProfileRow; ieltsBandSource: BandSource }> {
   const [row, user] = await Promise.all([
     prisma.nextedProfile.findUnique({ where: { userId } }),
-    prisma.user.findUnique({ where: { id: userId }, select: { name: true, phone: true, profile: true } }),
+    prisma.user.findUnique({ where: { id: userId }, select: { name: true, phone: true, email: true, profile: true } }),
   ]);
   const profile = (row
     ? Object.fromEntries(PROFILE_FIELDS.map((f) => [f, row[f] ?? '']))
     : Object.fromEntries(PROFILE_FIELDS.map((f) => [f, '']))) as ProfileRow;
   profile.fullName = user?.name ?? '';
-  profile.phone = phoneForProfile(user?.phone ?? '');
+  // Bangladesh: the login number. Gulf students sign up with email, so their
+  // phone (for the counsellor to call) is whatever they type on this profile.
+  profile.phone = user?.phone ? phoneForProfile(user.phone) : (row?.phone ?? '');
+  if (!profile.email && user?.email) profile.email = user.email;
 
   let ieltsBandSource: BandSource = 'you';
   if (!row || row.ieltsBandSource !== 'you' || !row.ieltsBand.trim()) {
@@ -322,6 +325,12 @@ async function nextReference(): Promise<string> {
   return `NXT-APP-${randomUUID().slice(0, 7).toUpperCase()}`;
 }
 
+/** Fields shown from the account: the name, and the phone when it is the login (Bangladesh). */
+async function accountFieldsOf(userId: string): Promise<string[]> {
+  const u = (await prisma.user.findUnique({ where: { id: userId }, select: { phone: true } })) as { phone: string | null } | null;
+  return u?.phone ? ['fullName', 'phone'] : ['fullName'];
+}
+
 export function registerNextedRoutes(r: Router): void {
   // ── profile ───────────────────────────────────────────────────────────────
 
@@ -334,14 +343,18 @@ export function registerNextedRoutes(r: Router): void {
     // The study-abroad profile is complete for the first time: a copy of the
     // student's data goes to the archive, once (lib/archive.ts).
     if (profileComplete(await loadProfile(userId))) archiveOnce(userId, 'nexted_profile_complete');
-    return { ...(await loadProfileFull(userId)), accountFields: ['fullName', 'phone'] };
+    return { ...(await loadProfileFull(userId)), accountFields: await accountFieldsOf(userId) };
   });
 
   r.patch('/v1/nexted/profile', async (ctx) => {
     const userId = requireUser(ctx);
     const patch: Partial<ProfileRow> & { ieltsBandSource?: string } = {};
+    // Bangladesh: the phone is the login number (an account field). Gulf
+    // students sign up with email, so they type their phone here.
+    const account = (await prisma.user.findUnique({ where: { id: userId }, select: { phone: true } })) as { phone: string | null } | null;
+    const phoneIsAccount = Boolean(account?.phone);
     for (const f of PROFILE_FIELDS) {
-      if (f === 'fullName' || f === 'phone') continue; // account fields, below
+      if (f === 'fullName' || (f === 'phone' && phoneIsAccount)) continue; // account fields, below
       if (ctx.body[f] !== undefined) patch[f] = s(ctx.body[f], 200);
     }
     if (patch.hasPublication !== undefined) {
@@ -381,7 +394,7 @@ export function registerNextedRoutes(r: Router): void {
         update: patch,
       });
     }
-    return { ...(await loadProfileFull(userId)), accountFields: ['fullName', 'phone'] };
+    return { ...(await loadProfileFull(userId)), accountFields: phoneIsAccount ? ['fullName', 'phone'] : ['fullName'] };
   });
 
   // ── documents ─────────────────────────────────────────────────────────────

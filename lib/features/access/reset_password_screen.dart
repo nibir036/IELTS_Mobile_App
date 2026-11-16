@@ -10,7 +10,8 @@ import '../../app/widgets/app_icons.dart';
 import '../../app/widgets/kit.dart';
 import 'widgets.dart';
 
-/// A5 · Forgot / Reset Password - 3 local steps: Phone → Code → New password.
+/// A5 · Forgot / Reset Password - 3 local steps: Phone or email → Code → New
+/// password. Bangladeshi accounts get the code by SMS, Gulf accounts by email.
 ///
 /// Step 1 → `Store.startReset`, step 2 → `Store.verifyResetOtp` (demo code
 /// [kDemoOtp]), step 3 → `Store.finishReset`, then back to Log in.
@@ -70,6 +71,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
 
   static String _mask(String? phone) {
     if (phone == null || phone.isEmpty) return 'your number';
+    if (phone.contains('@')) return phone;
     if (phone.length < 7) return '+880 $phone';
     return '+880 ${phone.substring(0, 4)} ••• ${phone.substring(phone.length - 3)}';
   }
@@ -212,15 +214,15 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
         return [
           _Title(
             title: 'Forgot your\npassword?',
-            subtitle: 'Enter your phone number and we’ll text you a code.',
+            subtitle: 'Enter the mobile number or email you signed up with, and we’ll send you a code.',
           ),
           AppTextField(
             key: const ValueKey('reset-phone'),
-            label: 'Phone number',
-            hint: '1XXX XXXXXX',
+            label: 'Mobile number or email',
+            hint: '01XXXXXXXXX or you@example.com',
             controller: _phone,
-            keyboardType: TextInputType.phone,
-            prefix: const CountryCodePrefix(code: '+880'),
+            prefixIcon: AppIcons.person,
+            keyboardType: TextInputType.emailAddress,
           ),
           if (_error != null) FieldError(_error!),
         ];
@@ -267,7 +269,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
         return [
           _Title(
             title: 'Create a new\npassword',
-            subtitle: 'Your number $masked is verified.',
+            subtitle: '${(Store.I.pendingResetPhone ?? '').contains('@') ? 'Your email' : 'Your number'} $masked is verified.',
           ),
           AppTextField(
             key: const ValueKey('reset-new'),

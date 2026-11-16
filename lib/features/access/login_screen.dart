@@ -15,7 +15,7 @@ import '../home/language_sheet.dart';
 import 'legal_screen.dart';
 import 'widgets.dart';
 
-/// A2 · Login (phone number + password).
+/// A2 · Login (Bangladeshi phone number or Gulf email, + password).
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
@@ -239,12 +239,13 @@ class _LoginScreenState extends State<LoginScreen> {
           spacing: 6,
           children: [
             AppTextField(
-              label: 'Phone number',
-              hint: '1XXX XXXXXX',
+              label: 'Mobile number or email',
+              hint: '01XXXXXXXXX or you@example.com',
               controller: _phone,
-              // Text, not the phone pad: demo accounts sign in as "Demo 1" … "Demo 4".
-              keyboardType: TextInputType.text,
-              prefix: const CountryCodePrefix(code: '+880'),
+              prefixIcon: AppIcons.person,
+              // Not the phone pad: Gulf students sign in with email, and demo
+              // accounts as "Demo 1" … "Demo 4".
+              keyboardType: TextInputType.emailAddress,
             ),
             if (_phoneError != null) FieldError(_phoneError!),
           ],
@@ -298,7 +299,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
         OutlineButtonX(
           label: 'Create an account',
-          onTap: () => context.push(Routes.signup),
+          onTap: () => context.push(Routes.country),
         ),
       ],
     );

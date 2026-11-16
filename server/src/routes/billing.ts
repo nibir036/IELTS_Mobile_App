@@ -23,6 +23,7 @@ import { env } from '../env';
 import { requireAdmin } from '../lib/admin';
 import { badRequest, forbidden, HttpError, int, rateLimit, required, Router, s } from '../lib/http';
 import { requireUser } from '../lib/users';
+import { countryOfUser } from '../lib/countries';
 import {
   BkashNoResponse,
   bkashConfigured,
@@ -52,6 +53,12 @@ function callbackUrl(raw: unknown): string {
   const allowed = [env.websiteUrl, ...(env.isProd ? [] : ['http://localhost:', 'http://127.0.0.1:'])];
   if (!url || !allowed.some((a) => url.startsWith(a))) throw badRequest('Invalid return address.', 'bad_callback');
   return url;
+}
+
+/** bKash on the website: Bangladeshi students only (lib/countries.ts). */
+async function webPaymentsFor(userId: string): Promise<boolean> {
+  const u = (await prisma.user.findUnique({ where: { id: userId }, select: { country: true } })) as { country: string | null } | null;
+  return countryOfUser(u ?? {}).webPayments;
 }
 
 async function phoneOf(userId: string): Promise<string> {
@@ -119,10 +126,14 @@ function bkashFields(r: BkashResult): Row {
 export function registerBillingRoutes(r: Router): void {
   r.get('/v1/billing', async (ctx) => {
     const userId = requireUser(ctx);
+    const web = await webPaymentsFor(userId);
     return {
       ...(await billingSummary(userId)),
       playAccountId: playAccountId(userId),
-      bkash: bkashConfigured(),
+      // false for Gulf (GCC) students: bKash is Bangladesh only, so the
+      // website shows "Get Pro in the app" instead of its plans.
+      webPayments: web,
+      bkash: web && bkashConfigured(),
       bkashSavedWallet: false,
       // BKASH_DEMO_PASSES=1: 1-taka test passes, shown on the website's Plans page only.
       demoPasses: demoPasses().map((p) => ({
@@ -251,6 +262,9 @@ export function registerBillingRoutes(r: Router): void {
     const userId = requireUser(ctx);
     rateLimit(`bkash-start:${userId}`, 20, 3600);
     const passId = required(ctx.body, 'passId', 20);
+    if (!(await webPaymentsFor(userId))) {
+      throw new HttpError(403, 'Pro is available in the nextED app for your country. Get it from the app.', 'web_payments_unavailable');
+    }
     const cb = callbackUrl(ctx.body.callbackURL);
     return { bkashURL: await startPayment(userId, passId, cb) };
   });

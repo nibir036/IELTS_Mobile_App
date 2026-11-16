@@ -7589,7 +7589,7 @@
         {
           "id": "tips",
           "title": "Tips & strategies",
-          "subtitle": "42 short guides",
+          "subtitle": "25 short guides",
           "icon": "bulb",
           "tone": "pink",
           "target": "articleTips"
@@ -7600,7 +7600,8 @@
           "subtitle": "Rules, ID, timing",
           "icon": "calendar",
           "tone": "plain",
-          "target": "articleTips"
+          "target": "articleTips",
+          "articleId": "exam_day_guide"
         }
       ],
       "recent": [
@@ -10122,6 +10123,41 @@
           "text": "Try it: answer a Part 3 question with A.R.E + Balance in 4–6 sentences.",
           "target": "speakingPart13"
         }
+      },
+      {
+        "id": "exam_day_guide",
+        "series": "exam",
+        "chip": "Exam day",
+        "breadcrumb": "Home / Resources / Exam day",
+        "title": "Exam-day guide: rules, ID and timing",
+        "meta": "Exam Day · 8 min read · from British Council and IDP test-day advice",
+        "defaultTip": 1,
+        "tips": [
+          {
+            "title": "The days before",
+            "body": "Most test-day problems are decided before you leave home. Read your confirmation email, check where and when each part happens, and get your ID ready the night before.\n\n**Why it matters:** A late arrival or the wrong ID can stop you sitting the test at all, however well you have prepared.\n**Check your confirmation email**\n• It gives your **start time, venue and the centre's rules**. Centres usually send it a few days before the test.\n• **Speaking may be on a different day**: the same day as the other parts, or up to **7 days before or after**. Note both dates.\n• Plan your route and how long it takes at that time of day.\n**Get your ID ready**\n• Bring **the same ID you used to book**: the original, not a photocopy, and **not expired**.\n• Expired or different ID can mean you are not allowed to take the test.\n• You do not need passport photos: the centre takes your photo on the day."
+          },
+          {
+            "title": "What to bring and what to leave",
+            "body": "Bring your ID and a clear bottle of water. Almost everything else stays outside the test room, so leave valuables at home.\n\n**Why it matters:** Anything not allowed in the room is collected or stored. A watch or a phone at your desk can end your test.\n**Bring**\n• **Your booking ID** (passport or the document you registered with).\n• **Water in a clear bottle with the label removed**, if your centre allows it.\n• Your confirmation email, printed or as a screenshot (useful, not required).\n**Stays outside the room**\n• **Phones and all electronic devices**, switched off, with your belongings.\n• **Watches of any kind**: there is a clock in the room or on screen.\n• Bags, notes, food and your own stationery. Pens or pencils are provided (check with your centre).\n• Valuables: the centre is not responsible for loss, so leave them at home."
+          },
+          {
+            "title": "Arrival and check-in",
+            "body": "Arrive early, not just on time: allow 30 to 45 minutes for check-in. Staff check your ID, take your photo and may scan your finger before you go in.\n\n**Why it matters:** If you arrive late, you may not be allowed to take the test. A calm check-in also means you start the Listening settled, not rushed.\n**What happens at check-in**\n• Your **ID is checked**. Keep it with you: it is checked again before Speaking.\n• Your **photo is taken**; it appears on your Test Report Form. Some centres also take a **finger scan**.\n• You leave your belongings in the **secure area** and are shown to your seat or computer."
+          },
+          {
+            "title": "Rules in the test room",
+            "body": "Follow the invigilator, stay in your seat and raise your hand for anything you need. Report a problem the moment it happens.\n\n**Why it matters:** Breaking a rule, even by accident, can cancel your result. Problems reported at once can be dealt with on the day.\n**In the room**\n• **Raise your hand** for help, to use the toilet, or if you cannot hear the Listening recording at the start.\n• **Do not leave your seat** without permission, and do not talk to other candidates.\n• On the computer test, **check your headphones** before Listening begins.\n**If something goes wrong**\n• Tell the invigilator **straight away** (noise, a faulty computer, a missing page).\n• To complain, ask for a **Test Day Incident Form** and submit it **within one week**."
+          },
+          {
+            "title": "Timing on the day",
+            "body": "Listening, Reading and Writing run back to back in about 2 hours 45 minutes with no breaks. Speaking is a separate 11 to 14 minute interview.\n\n**Why it matters:** Knowing the order and the clock lets you pace yourself and save energy for Writing, the last and longest written part.\n**The order**\n• **Listening**: about 30 minutes, 40 questions, each recording **played once**.\n• **Reading**: 60 minutes, 40 questions. There is **no extra time** to transfer answers.\n• **Writing**: 60 minutes. Task 1 at least **150 words** (about 20 minutes), Task 2 at least **250 words** (about 40 minutes).\n• **Speaking**: 11 to 14 minutes with an examiner, on the same day or up to 7 days before or after.\n**Pacing**\n• Use the toilet and drink water **before** Listening starts: there is no break until Writing ends.\n• Watch the clock in Reading and Writing yourself; nobody will tell you to move on."
+          },
+          {
+            "title": "Feel ready on the morning",
+            "body": "Sleep, eat and practise the real timing before the day. On the morning, do nothing new: follow the routine you practised.\n\n**Why it matters:** Nearly three hours of focus with no breaks is tiring. Students who have sat a full timed test before know how it feels and do not panic.\n**The week before**\n• Take **at least one full mock test** in the app, all four parts, timed.\n• Review your weakest part, not new topics.\n**The morning**\n• Eat a proper meal and leave with time to spare.\n• Check you have your **ID**, and only what you are allowed to bring.\n• Rules can differ slightly between centres: **your confirmation email has the final word**."
+          }
+        ]
       }
     ]
   },

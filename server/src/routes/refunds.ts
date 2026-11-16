@@ -153,14 +153,14 @@ export function registerRefundRoutes(r: Router): void {
         where: open ? { status: { in: ['requested', 'processing'] } } : {},
         orderBy: { createdAt: open ? 'asc' : 'desc' },
         take: 200,
-        include: { payment: true, user: { select: { name: true, phone: true } } },
-      }) as Promise<Array<RequestRow & { payment: PaymentRow; user: { name: string; phone: string } }>>,
+        include: { payment: true, user: { select: { name: true, phone: true, email: true } } },
+      }) as Promise<Array<RequestRow & { payment: PaymentRow; user: { name: string; phone: string | null; email: string | null } }>>,
       passNames(),
     ]);
     return {
       requests: rows.map((q) => ({
         ...requestView(q),
-        student: { name: q.user.name, phone: showPhone(q.user.phone) },
+        student: { name: q.user.name, phone: q.user.phone ? showPhone(q.user.phone) : q.user.email ?? '' },
         payment: {
           paymentID: q.payment.providerRef,
           trxID: q.payment.trxId,

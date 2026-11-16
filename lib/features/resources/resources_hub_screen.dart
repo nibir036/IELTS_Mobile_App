@@ -212,7 +212,16 @@ class _ResourcesHubScreenState extends State<ResourcesHubScreen> {
       pose: _tilePose(d.s('id')),
       icon: resIcon(d.s('icon')),
       floatDelay: i * 0.21,
-      onTap: () => _go(d.s('target')),
+      // A tile with an `articleId` (the Exam-day guide) opens that one
+      // guide; the others open their screen.
+      onTap: () {
+        final articleId = d.s('articleId');
+        if (articleId.isEmpty) {
+          _go(d.s('target'));
+        } else {
+          context.push(Routes.articleTips, args: <String, dynamic>{'articleId': articleId});
+        }
+      },
     );
   }
 }

@@ -102,7 +102,7 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
       // No server yet: start from what the IELTS account already knows.
       final acc = Store.I.current;
       _c['fullName']?.text = acc?.name ?? '';
-      _c['phone']?.text = acc?.phoneDisplay ?? '';
+      _c['phone']?.text = (acc?.usesEmail ?? false) ? '' : (acc?.phoneDisplay ?? '');
       final mock = Store.I.latest(skill: 'mock', kind: 'mock');
       if (mock?.band != null) {
         _c['ieltsBand']?.text = Store.formatBand(mock!.band);
@@ -145,10 +145,12 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
     }
     setState(() => _saving = true);
     try {
-      // The phone is the login number: never sent from here.
+      // Bangladesh: the phone is the login number, never sent from here.
+      // Gulf students sign in with email, so they type their phone here.
+      final phoneIsLogin = !(Store.I.current?.usesEmail ?? false);
       final body = <String, dynamic>{
         for (final f in _fields)
-          if (f.$1 != 'phone') f.$1: _c[f.$1]?.text.trim() ?? '',
+          if (f.$1 != 'phone' || !phoneIsLogin) f.$1: _c[f.$1]?.text.trim() ?? '',
       };
       final r = await NextedApi.patch(NextedConfig.profile, body);
       if (!mounted) return;
@@ -264,7 +266,7 @@ class _NextedProfileScreenState extends State<NextedProfileScreen> {
                 const <String>['Yes', 'No'],
                 note: 'A paper in a journal or at a conference, at any level of study.',
               )
-            else if (f.$1 == 'phone')
+            else if (f.$1 == 'phone' && !(Store.I.current?.usesEmail ?? false))
               _accountRow(t, NextedProfileRules.isRequired('phone') ? '${f.$2} *' : f.$2, _c['phone']!.text,
                   'Your login number. Change it in your Profile if you get a new one.')
             else ...[

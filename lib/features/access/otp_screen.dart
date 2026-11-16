@@ -144,7 +144,7 @@ class _OtpScreenState extends State<OtpScreen> {
                 'Start by creating your account - we’ll text a verification code to your number.',
             icon: AppIcons.lock,
             actionLabel: 'Go to sign up',
-            onAction: () => context.replace(Routes.signup),
+            onAction: () => context.replace(Routes.country),
           ),
         ],
       );
@@ -189,7 +189,7 @@ class _OtpScreenState extends State<OtpScreen> {
                     ),
                     children: [
                       TextSpan(
-                        text: _mask(pending.phone),
+                        text: pending.email.isNotEmpty ? pending.email : _mask(pending.phone),
                         style: TextStyle(
                           fontWeight: FontWeight.w500,
                           color: t.text,
